@@ -1,4 +1,4 @@
-解法一：二分法，迭代
+// 解法一：二分法，迭代
 
 bool binSearch(int **matrix, int matrixRowSize, int matrixColSize, int target, int start, bool vertical)
 {

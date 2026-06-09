@@ -1,10 +1,10 @@
-### 解题思路
-根据题目陈述，两个循环暴力求解。
-*returnSize就是返回数组的大小。
+// ### 解题思路
+// 根据题目陈述，两个循环暴力求解。
+// *returnSize就是返回数组的大小。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -23,4 +23,4 @@ int* smallerNumbersThanCurrent(int* nums, int numsSize, int* returnSize){
     *returnSize=numsSize;
     return result;
 }
-```
+// ```

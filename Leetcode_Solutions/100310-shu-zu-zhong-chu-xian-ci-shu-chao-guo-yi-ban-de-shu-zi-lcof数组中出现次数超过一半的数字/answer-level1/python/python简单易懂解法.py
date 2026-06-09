@@ -1,15 +1,15 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 关注交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 关注交流。
 
-### 解题思路
-- 第一步：记录数组中次数出现最多的个数
-- 第二步：判断这个数是否出现次数超过一半
+# ### 解题思路
+# - 第一步：记录数组中次数出现最多的个数
+# - 第二步：判断这个数是否出现次数超过一半
 
-O(n)复杂度。
+# O(n)复杂度。
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def majorityElement(self, numbers):
         res = None
@@ -34,4 +34,4 @@ class Solution(object):
             return res
         else:
             return 0
-```
+# ```

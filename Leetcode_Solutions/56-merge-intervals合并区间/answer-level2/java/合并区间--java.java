@@ -1,4 +1,4 @@
-用Java代码，时间一般击败98%左右，内存在50%多到98%之间波动。
+// 用Java代码，时间一般击败98%左右，内存在50%多到98%之间波动。
 
 public int[][] merge(int[][] intervals) {
         if (intervals.length == 0) return new int[0][0];

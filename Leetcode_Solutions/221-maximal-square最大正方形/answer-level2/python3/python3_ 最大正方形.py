@@ -1,4 +1,4 @@
-```python
+# ```python
 def maximalSquare(matrix):
     """
         1. dp问题, dp[i][j] = min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]) + 1
@@ -19,4 +19,4 @@ def maximalSquare(matrix):
 
 matrix = [["1","0","1","0","0"],["1","0","1","1","1"],["1","1","1","1","1"],["1","0","0","1","0"]]
 print(maximalSquare(matrix))
-```
+# ```

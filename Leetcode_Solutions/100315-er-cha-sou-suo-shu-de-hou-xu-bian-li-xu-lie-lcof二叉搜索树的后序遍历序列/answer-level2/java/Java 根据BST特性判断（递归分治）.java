@@ -1,13 +1,13 @@
-### 解题思路
-BST后序遍历，从尾部找根。
-找到根之后，以根的值为界，将其余部分分成左子树和右子树，
-若左右子树不合法return false；合法则将子树递归计算是否合法
+// ### 解题思路
+// BST后序遍历，从尾部找根。
+// 找到根之后，以根的值为界，将其余部分分成左子树和右子树，
+// 若左右子树不合法return false；合法则将子树递归计算是否合法
 
-当子树只剩一个值，或为空时，return true;
+// 当子树只剩一个值，或为空时，return true;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean verifyPostorder(int[] postorder) {
         int length = postorder.length;
@@ -49,4 +49,4 @@ class Solution {
             return isBST(leftTree) && isBST(rightTree);
     }
 }
-```
+// ```

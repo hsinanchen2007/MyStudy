@@ -1,9 +1,9 @@
-### 解题思路
-开头来回pop
+# ### 解题思路
+# 开头来回pop
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findMedianSortedArrays(self, nums1, nums2):
         """
@@ -46,4 +46,4 @@ class Solution(object):
 
             
 
-```
+# ```

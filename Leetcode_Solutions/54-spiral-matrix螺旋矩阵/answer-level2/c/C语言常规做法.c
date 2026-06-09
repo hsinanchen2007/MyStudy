@@ -1,5 +1,5 @@
-每一圈作为一个循环，循环的实现由多分支的if-else实现，代码中cycle决定每一个循环的边界。
-```c
+// 每一圈作为一个循环，循环的实现由多分支的if-else实现，代码中cycle决定每一个循环的边界。
+// ```c
 int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSize){
     if(matrixSize==0){
         *returnSize=0;
@@ -21,4 +21,4 @@ int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
     }
     return res;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func fourSum(nums []int, target int) [][]int {
     results := make([][]int, 0)
     exits := map[string]struct{}{}
@@ -45,4 +45,4 @@ func threeSum(nums []int, target int) [][]int {
     }
     return result
 }
-```
+// ```

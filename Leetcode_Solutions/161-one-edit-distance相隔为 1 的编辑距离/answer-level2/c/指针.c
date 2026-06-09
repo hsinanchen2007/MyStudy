@@ -1,6 +1,6 @@
-思路长度大于2或者相等返回false, 否则循环一个字符串至末尾，判断不相等的字符串个数 ，注意遇到不相等时两个长度判断的处理
+// 思路长度大于2或者相等返回false, 否则循环一个字符串至末尾，判断不相等的字符串个数 ，注意遇到不相等时两个长度判断的处理
 
-```
+// ```
 bool isOneEditDistance(char * s, char * t){
     if (strcmp(s, t) == 0) {
         return false;
@@ -32,4 +32,4 @@ bool isOneEditDistance(char * s, char * t){
     }
     return true;
 }
-```
+// ```

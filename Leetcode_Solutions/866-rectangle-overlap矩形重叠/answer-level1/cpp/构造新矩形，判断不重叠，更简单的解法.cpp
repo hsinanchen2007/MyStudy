@@ -1,5 +1,5 @@
-![图片1.png](https://pic.leetcode-cn.com/eed33ae3521a8e937166ba706d3d098802385b54952417cc8d8c568b776f62ee-%E5%9B%BE%E7%89%871.png)
-```
+// ![图片1.png](https://pic.leetcode-cn.com/eed33ae3521a8e937166ba706d3d098802385b54952417cc8d8c568b776f62ee-%E5%9B%BE%E7%89%871.png)
+// ```
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -27,4 +27,4 @@ public:
         else return false;   
     }
 };
-```
+// ```

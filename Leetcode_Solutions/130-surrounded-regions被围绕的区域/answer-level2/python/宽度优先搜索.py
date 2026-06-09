@@ -1,11 +1,11 @@
-### 解题思路
-1. 首先找到边界上的所有 O
-1. 然后从它们出发，遍历所有挨着的 O，并标记为外界O
-1. 遍历整个矩阵，如果不是边界O，则变为 X
+# ### 解题思路
+# 1. 首先找到边界上的所有 O
+# 1. 然后从它们出发，遍历所有挨着的 O，并标记为外界O
+# 1. 遍历整个矩阵，如果不是边界O，则变为 X
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
@@ -58,4 +58,4 @@ class Solution:
                 if not isOut[i][j]:
                     board[i][j] = 'X'
 
-```
+# ```

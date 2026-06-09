@@ -1,5 +1,5 @@
-太菜了不会归并排序
-```
+// 太菜了不会归并排序
+// ```
 class Solution {
     public ListNode sortList(ListNode head) {
         ListNode node = head;
@@ -16,4 +16,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

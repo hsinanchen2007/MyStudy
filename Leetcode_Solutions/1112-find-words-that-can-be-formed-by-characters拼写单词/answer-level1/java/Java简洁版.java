@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         // 字母表数组
@@ -26,4 +26,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

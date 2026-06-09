@@ -1,5 +1,5 @@
-最下面可以使用flat(1),但是现在还不支持
-```
+// 最下面可以使用flat(1),但是现在还不支持
+// ```
 var allCellsDistOrder = function(R, C, r0, c0) {
   let obj = {};
   for (let r = 0; r < R; r++) {
@@ -18,4 +18,4 @@ var allCellsDistOrder = function(R, C, r0, c0) {
   });
     return arr
 };
-```
+// ```

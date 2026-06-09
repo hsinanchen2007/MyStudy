@@ -1,4 +1,4 @@
-个人觉得官方题解python代码，在寻找到最右边的树叶后，操作复杂难懂，不如我写的简洁。
+# 个人觉得官方题解python代码，在寻找到最右边的树叶后，操作复杂难懂，不如我写的简洁。
 class Solution(object):
     def preorderTraversal(self, root):
         """

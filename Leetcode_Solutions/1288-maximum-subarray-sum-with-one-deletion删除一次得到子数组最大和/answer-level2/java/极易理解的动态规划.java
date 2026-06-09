@@ -1,20 +1,20 @@
-### 解题思路
-首先 如果元素只有一个 那么就返回这个元素
+// ### 解题思路
+// 首先 如果元素只有一个 那么就返回这个元素
 
-做出2个数组prefixDp 和 suffixDp
-prefixDp[i] 表示 从前往后 最后一个下标为i的 最大子数组和
-suffixDp[i] 表示 从后往前 最后一个下标为i的 最大子数组和 
-同时保存 中间过程中 最大的值
+// 做出2个数组prefixDp 和 suffixDp
+// prefixDp[i] 表示 从前往后 最后一个下标为i的 最大子数组和
+// suffixDp[i] 表示 从后往前 最后一个下标为i的 最大子数组和 
+// 同时保存 中间过程中 最大的值
 
-最后再遍历每一个可能被删除的 值的下标
+// 最后再遍历每一个可能被删除的 值的下标
 
-例: 假设删除的 下标为 2  那么 当前位置的可能超过最大值的 只可能是 prefixDp[1] + suffixDp[3]
-遍历所有可能,得到最大值
+// 例: 假设删除的 下标为 2  那么 当前位置的可能超过最大值的 只可能是 prefixDp[1] + suffixDp[3]
+// 遍历所有可能,得到最大值
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximumSum(int[] arr) {
         if(arr.length == 1)return arr[0];
@@ -37,4 +37,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

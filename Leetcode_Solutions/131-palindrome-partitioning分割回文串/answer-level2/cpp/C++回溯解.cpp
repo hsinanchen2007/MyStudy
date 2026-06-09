@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/0638ed636460a1dc7166ca6bbc888ef47913433738cb325ea43d429c5ccd25de-image.png)
-最普通的回溯，判断回文没有用DP
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/0638ed636460a1dc7166ca6bbc888ef47913433738cb325ea43d429c5ccd25de-image.png)
+// 最普通的回溯，判断回文没有用DP
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<vector<string> > result;
@@ -37,4 +37,4 @@ public:
         return result;
     }
 }; 
-```
+// ```

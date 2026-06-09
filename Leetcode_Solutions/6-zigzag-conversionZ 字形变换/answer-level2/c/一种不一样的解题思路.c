@@ -1,23 +1,23 @@
-### 解题思路
-总思路：将一维数组s[len]按照Z字形转换的规则转换为二维数组a[numRows][len],然后将a数组中非空字符提取存入一维数组b[len]中，数据b即为我们要求的结果。
-z字形转换规则：实际上就是如何将一维数组下标按z转换成二维数组a的两个下标。
-设a的第一维下标为idx，第二维下标为idy，s的下标为idz。经观察发现z字形转换时，
-一、当numRows > 1时，这三个下标存在以下规律：
-1.字符在直线上时：
-(1)idx = i; i的取值范围：0 < i < numRows
-(2)idy = n * (numRows - 1); n的取值范围：n = 0,1,2,3...
-(3)idz =  2 * n * (delta - 1) + i; idz的取值范围：idz < strlen(s);
-2.字符在斜线上时：
-(1)idx = numRows -1 -j; j的取值范围：1 <= i < numRows - 1
-(2)idy = n * (numRows - 1) + j; n的取值范围：n = 0,1,2,3...
-(3)idz = (2 * n + 1) * (delta - 1) + j; idz的取值范围：idz < strlen(s);
-二、当numRows == 1时，直接将s打印出来即可；
+// ### 解题思路
+// 总思路：将一维数组s[len]按照Z字形转换的规则转换为二维数组a[numRows][len],然后将a数组中非空字符提取存入一维数组b[len]中，数据b即为我们要求的结果。
+// z字形转换规则：实际上就是如何将一维数组下标按z转换成二维数组a的两个下标。
+// 设a的第一维下标为idx，第二维下标为idy，s的下标为idz。经观察发现z字形转换时，
+// 一、当numRows > 1时，这三个下标存在以下规律：
+// 1.字符在直线上时：
+// (1)idx = i; i的取值范围：0 < i < numRows
+// (2)idy = n * (numRows - 1); n的取值范围：n = 0,1,2,3...
+// (3)idz =  2 * n * (delta - 1) + i; idz的取值范围：idz < strlen(s);
+// 2.字符在斜线上时：
+// (1)idx = numRows -1 -j; j的取值范围：1 <= i < numRows - 1
+// (2)idy = n * (numRows - 1) + j; n的取值范围：n = 0,1,2,3...
+// (3)idz = (2 * n + 1) * (delta - 1) + j; idz的取值范围：idz < strlen(s);
+// 二、当numRows == 1时，直接将s打印出来即可；
 
-执行效率和内存消耗并不占优，此处仅仅是提供一种不同于其他思路的方法，记录之。
+// 执行效率和内存消耗并不占优，此处仅仅是提供一种不同于其他思路的方法，记录之。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 char * convert(char * s, int numRows){
     int len = 0;
@@ -152,4 +152,4 @@ char * convert(char * s, int numRows){
     return b;
 
 }
-```
+// ```

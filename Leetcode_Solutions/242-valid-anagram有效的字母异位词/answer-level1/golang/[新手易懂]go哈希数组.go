@@ -1,5 +1,5 @@
-### 1 最直接是用数组  数组 [0-25] 所以 全部 - 'a'
-```
+// ### 1 最直接是用数组  数组 [0-25] 所以 全部 - 'a'
+// ```
 func isAnagram(s string, t string) bool {
     if !(len(s) == len(t)) {
 		return false
@@ -16,20 +16,20 @@ func isAnagram(s string, t string) bool {
     }
     return true
 }
-```
+// ```
  
 
-### 2 还有一种是转rune或者用byte,不然麻烦要用uni8
-##### go里面有一点很僵硬，字符串里面存的是rune，即int32。而经过for..range之后，取出来的elem，却是一个uint8，也就是一个byte
-以后查询可以这样直接查类型，但是还是全部rune大法好。
-```
+// ### 2 还有一种是转rune或者用byte,不然麻烦要用uni8
+// ##### go里面有一点很僵硬，字符串里面存的是rune，即int32。而经过for..range之后，取出来的elem，却是一个uint8，也就是一个byte
+// 以后查询可以这样直接查类型，但是还是全部rune大法好。
+// ```
 s := "abac"
 for i, elem := range s {
   fmt.Println("elem", fmt.Sprintf("%T", elem))  // int32
   fmt.Println("i", fmt.Sprintf("%T", s[i]))    // uint8
 }   
-```
-```
+// ```
+// ```
     func isAnagram(s string, t string) bool {
     if len(s) != len(t) {
         return false
@@ -52,5 +52,5 @@ for i, elem := range s {
     
     return true
 }
-```
+// ```
 

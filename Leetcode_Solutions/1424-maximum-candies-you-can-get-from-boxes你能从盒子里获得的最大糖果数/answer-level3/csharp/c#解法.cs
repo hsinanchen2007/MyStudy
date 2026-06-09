@@ -1,9 +1,9 @@
-### 解题思路
-根据给出的数组 初始化box类然后模仿人的行为一次次找盒子 找钥匙打开  跑的略慢 不过比较容易理解。 应该是第一个c#解吧
+// ### 解题思路
+// 根据给出的数组 初始化box类然后模仿人的行为一次次找盒子 找钥匙打开  跑的略慢 不过比较容易理解。 应该是第一个c#解吧
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
     public class Solution
     {
         private Dictionary<int, bool> box = new Dictionary<int, bool>();
@@ -87,4 +87,4 @@
             this.key = key;
         }
     }
-```
+// ```

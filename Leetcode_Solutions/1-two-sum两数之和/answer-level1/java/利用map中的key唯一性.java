@@ -1,9 +1,9 @@
 
-利用Map中key的唯一性，假设 target = x + y，那么如果求y的值，也就是 y = target - x，将target - x 的值作为key，x的下标作为value,循环nums找到y的值，那么就得到俩数之和下标。
+// 利用Map中key的唯一性，假设 target = x + y，那么如果求y的值，也就是 y = target - x，将target - x 的值作为key，x的下标作为value,循环nums找到y的值，那么就得到俩数之和下标。
 
 
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         //  target = x + y ;
@@ -23,4 +23,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         res = None
@@ -12,4 +12,4 @@ class Solution:
             return l if l else r
 
         return search(root, p, q)
-```
+# ```

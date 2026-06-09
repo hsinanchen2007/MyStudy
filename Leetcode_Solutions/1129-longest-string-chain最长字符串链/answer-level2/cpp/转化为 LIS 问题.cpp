@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-重定义字符串比较函数，转化为 LIS 问题。
+// 重定义字符串比较函数，转化为 LIS 问题。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestStrChain(vector<string>& words) {
@@ -41,4 +41,4 @@ public:
         return i == a.size();
     }
 };
-```
+// ```

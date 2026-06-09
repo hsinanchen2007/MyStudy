@@ -1,5 +1,5 @@
-直接用并查集，对每一条边进行union操作，最后统计还有多少个不同的部分。
-```
+# 直接用并查集，对每一条边进行union操作，最后统计还有多少个不同的部分。
+# ```
 class UnionFindSet(object):
     def __init__(self, m):
 
@@ -45,4 +45,4 @@ class Solution(object):
         for edge in edges:
             ufs.union(edge[0], edge[1])            
         return ufs.count
-```
+# ```

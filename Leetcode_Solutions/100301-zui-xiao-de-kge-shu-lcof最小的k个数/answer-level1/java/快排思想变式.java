@@ -1,15 +1,15 @@
-### 解题思路
-mark一下
-![image.png](https://pic.leetcode-cn.com/94f9125bc9ea89ac9b3cf4aeb2878020ab3337c94cf7c1c4b577900336d4b2bb-image.png)
+// ### 解题思路
+// mark一下
+// ![image.png](https://pic.leetcode-cn.com/94f9125bc9ea89ac9b3cf4aeb2878020ab3337c94cf7c1c4b577900336d4b2bb-image.png)
 
-思路和用快排求第k大的元素类似，在fastSort方法中，我们并不对每一个元素都进行排序，只需要判断一下分区点和k的值的关系
-如果k >p+1 说明 分区点左右的都不需要排序了 因为他们的和小于k
+// 思路和用快排求第k大的元素类似，在fastSort方法中，我们并不对每一个元素都进行排序，只需要判断一下分区点和k的值的关系
+// 如果k >p+1 说明 分区点左右的都不需要排序了 因为他们的和小于k
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     
    public int[] getLeastNumbers(int [] input, int k) {
@@ -52,4 +52,4 @@ class Solution {
         a[j] = tmp;
     } 
 }
-```
+// ```

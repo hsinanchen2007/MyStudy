@@ -1,9 +1,9 @@
-### 解题思路
-采用双向链表以及map，实现O(1)操作的lru缓存，记录一下，应该有用。
+# ### 解题思路
+# 采用双向链表以及map，实现O(1)操作的lru缓存，记录一下，应该有用。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class link:
     def __init__(self, key, val):
         self.key = key
@@ -123,4 +123,4 @@ class LRUCache:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

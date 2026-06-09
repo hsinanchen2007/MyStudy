@@ -1,9 +1,9 @@
-### 解题思路
-f(n,m)=(f(n-1,m)+m)%n
+// ### 解题思路
+// f(n,m)=(f(n-1,m)+m)%n
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         if(n<1){
@@ -12,8 +12,8 @@ class Solution {
         return (m+lastRemaining(n-1,m))%n;
     }
 }
-```
-```java
+// ```
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         int result=0;
@@ -23,4 +23,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

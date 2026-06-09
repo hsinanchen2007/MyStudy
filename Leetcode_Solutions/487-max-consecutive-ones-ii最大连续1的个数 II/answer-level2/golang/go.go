@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-把0的位置存起来 对比diff的最大值
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 把0的位置存起来 对比diff的最大值
+// ### 代码
 
-```golang
+// ```golang
 func findMaxConsecutiveOnes(nums []int) int {
 	if len(nums) == 0 {
 		return 0
@@ -33,4 +33,4 @@ func findMaxConsecutiveOnes(nums []int) int {
 	return max
 }
 
-```
+// ```

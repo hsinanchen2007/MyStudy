@@ -1,8 +1,8 @@
-### 解题思路
-简单二分查找
+// ### 解题思路
+// 简单二分查找
 
-模板：https://leetcode-cn.com/explore/learn/card/binary-search/209/template-i/835/
-```cpp
+// 模板：https://leetcode-cn.com/explore/learn/card/binary-search/209/template-i/835/
+// ```cpp
 int binarySearch(vector<int>& nums, int target){
   if(nums.size() == 0)
     return -1;
@@ -19,11 +19,11 @@ int binarySearch(vector<int>& nums, int target){
   // End Condition: left > right
   return -1;
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /** 
  * Forward declaration of guess API.
  * @param  num   your guess
@@ -55,4 +55,4 @@ public:
         return -1;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-因为有序，所以从最大开始比，加在最后就行，一方加完如果剩的是nums2，全部放nums2前面就完事了。
+// ### 解题思路
+// 因为有序，所以从最大开始比，加在最后就行，一方加完如果剩的是nums2，全部放nums2前面就完事了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -22,4 +22,4 @@ public:
     
     }
 };
-```
+// ```

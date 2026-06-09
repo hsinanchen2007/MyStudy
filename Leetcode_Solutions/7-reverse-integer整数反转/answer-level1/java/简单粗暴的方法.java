@@ -1,9 +1,9 @@
-### 解题思路
-用StringBuffer的反转方法
+// ### 解题思路
+// 用StringBuffer的反转方法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         int res = 0;
@@ -23,4 +23,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

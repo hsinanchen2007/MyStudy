@@ -1,9 +1,9 @@
-### 解题思路
-https://github.com/BlackNiuza/WritingForOffer/blob/master/leetcode-cn/daily2020/_1162_%E5%9C%B0%E5%9B%BE%E5%88%86%E6%9E%90.java
+// ### 解题思路
+// https://github.com/BlackNiuza/WritingForOffer/blob/master/leetcode-cn/daily2020/_1162_%E5%9C%B0%E5%9B%BE%E5%88%86%E6%9E%90.java
 
-### 代码
+// ### 代码
 
-```java
+// ```java
      class Solution {
 
         int[] dx = {0, 0, 1, -1};
@@ -94,4 +94,4 @@ https://github.com/BlackNiuza/WritingForOffer/blob/master/leetcode-cn/daily2020/
         }
     }
 
-```
+// ```

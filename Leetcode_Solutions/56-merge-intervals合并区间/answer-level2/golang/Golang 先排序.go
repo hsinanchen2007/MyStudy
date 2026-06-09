@@ -1,4 +1,4 @@
-```
+// ```
 func merge(intervals [][]int) [][]int {
 	if len(intervals) <= 0 {
 		return nil
@@ -26,4 +26,4 @@ func merge(intervals [][]int) [][]int {
 
 	return merged
 }
-```
+// ```

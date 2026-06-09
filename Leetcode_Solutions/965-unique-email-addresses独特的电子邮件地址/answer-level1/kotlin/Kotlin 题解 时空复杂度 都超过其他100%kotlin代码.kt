@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     fun numUniqueEmails(emails: Array<String>): Int {
         if (emails.isEmpty()) {
@@ -28,4 +28,4 @@ class Solution {
         return sb.append(domainName).toString()
     }
 }
-```
+// ```

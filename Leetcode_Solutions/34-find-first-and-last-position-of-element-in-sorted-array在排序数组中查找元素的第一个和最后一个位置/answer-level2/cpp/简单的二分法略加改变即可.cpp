@@ -1,9 +1,9 @@
-### 解题思路
-其实就是比较简单的二分法，唯一区别在于当找到mid以后，延伸向两侧寻找有效数字的起始位(st)和结束位(end)
+// ### 解题思路
+// 其实就是比较简单的二分法，唯一区别在于当找到mid以后，延伸向两侧寻找有效数字的起始位(st)和结束位(end)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
    vector<int> searchRange(vector<int>& nums, int target) {
@@ -33,4 +33,4 @@ public:
         return vector<int>{-1, -1};
     }
 };
-```
+// ```

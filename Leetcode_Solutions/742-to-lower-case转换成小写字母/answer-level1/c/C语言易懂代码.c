@@ -1,4 +1,4 @@
-```c
+// ```c
 char * toLowerCase(char * str){
     if(!str || !str[0])
         return NULL;
@@ -13,4 +13,4 @@ char * toLowerCase(char * str){
     }
     return str;
 }
-```
+// ```

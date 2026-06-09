@@ -1,5 +1,5 @@
-暴力思想，helper函数判断是否为质数
-```
+# 暴力思想，helper函数判断是否为质数
+# ```
 class Solution:
     def countPrimeSetBits(self, L: int, R: int) -> int:
         res = 0
@@ -14,4 +14,4 @@ class Solution:
             if helper(n):
                 res+=1
         return res
-```
+# ```

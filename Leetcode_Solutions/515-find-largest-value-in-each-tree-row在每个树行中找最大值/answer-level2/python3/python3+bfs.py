@@ -1,9 +1,9 @@
-### 解题思路
-bfs
+# ### 解题思路
+# bfs
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
         for i in res:
             ans.append(max(i))
         return ans
-```
+# ```

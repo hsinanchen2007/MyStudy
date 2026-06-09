@@ -1,4 +1,4 @@
-``` javascript
+// ``` javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -14,6 +14,6 @@ var wiggleSort = function(nums) {
   }
   return nums
 };
-```
+// ```
 
-方法不是很好，但能解。
+// 方法不是很好，但能解。

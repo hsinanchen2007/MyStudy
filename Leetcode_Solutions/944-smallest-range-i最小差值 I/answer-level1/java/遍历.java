@@ -1,5 +1,5 @@
-根据题意，找出数组最大最小值，再以最大最小值差和2K比较即可
-```
+// 根据题意，找出数组最大最小值，再以最大最小值差和2K比较即可
+// ```
 public int smallestRangeI(int[] A, int K) {
         int max = A[0], min = A[0];
         for (int a : A) {
@@ -8,4 +8,4 @@ public int smallestRangeI(int[] A, int K) {
         }
         return Math.max((max - min - 2 * K),0);
     }
-```
+// ```

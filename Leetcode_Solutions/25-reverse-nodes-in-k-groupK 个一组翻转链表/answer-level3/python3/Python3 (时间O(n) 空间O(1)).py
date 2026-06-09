@@ -1,8 +1,8 @@
-> 执行用时 : 64 ms, 在所有 Python3 提交中击败了 94.16% 的用户
-内存消耗 : 14.5 MB, 在所有 Python3 提交中击败了 11.77% 的用户
+# > 执行用时 : 64 ms, 在所有 Python3 提交中击败了 94.16% 的用户
+# 内存消耗 : 14.5 MB, 在所有 Python3 提交中击败了 11.77% 的用户
 
 
-```py
+# ```py
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -47,4 +47,4 @@ class Solution:
             last.next = tmp  # 本次翻转的最后一个节点连到下一段的第一个
             count -= 1
         return dummy.next
-```
+# ```

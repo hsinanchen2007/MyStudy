@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDepthAfterSplit(self, seq: str) -> List[int]:
         d = 1
@@ -30,7 +30,7 @@ class Solution:
             elif seq[i] == ')' and n0 == 0:
                 l[i] = 1
         return l
-```
-1. 遍历字符串求出最大深度max_depth
-2. 数连续的'('归为A，一旦达到max_depth//2,后面的再有连续的'('归为B
-3. 出现')'，若A组'('数量不为0，则A组'('数量减1，否则归为B组。
+# ```
+# 1. 遍历字符串求出最大深度max_depth
+# 2. 数连续的'('归为A，一旦达到max_depth//2,后面的再有连续的'('归为B
+# 3. 出现')'，若A组'('数量不为0，则A组'('数量减1，否则归为B组。

@@ -1,6 +1,6 @@
-时间复杂度：O(m*n)
-空间复杂度：O(m+n)
-```
+# 时间复杂度：O(m*n)
+# 空间复杂度：O(m+n)
+# ```
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
@@ -28,4 +28,4 @@ class Solution:
             for j in range(m):
                 if temp[m+i] == 0:
                     matrix[j][i] = 0
-```
+# ```

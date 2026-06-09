@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1. 链表遍历计数；
-2. 计算中间结点的位置，再遍历1边，到达位置时返回该结点；
-3. 结点个数为1时，直接返回head。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1. 链表遍历计数；
+// 2. 计算中间结点的位置，再遍历1边，到达位置时返回该结点；
+// 3. 结点个数为1时，直接返回head。
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -45,4 +45,4 @@ struct ListNode* middleNode(struct ListNode* head)
 
     return NULL;
 }
-```
+// ```

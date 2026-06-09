@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口思想，right依次遍历，如果当前遍历的元素不满足要求，更新整个窗口，
+# ### 解题思路
+# 滑动窗口思想，right依次遍历，如果当前遍历的元素不满足要求，更新整个窗口，
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findAnagrams(self, s, p):
         """
@@ -32,4 +32,4 @@ class Solution(object):
                     left += 1    
                 right += 1                                  # right右移
         return res
-```
+# ```

@@ -1,7 +1,7 @@
-直接代码吧，递归+回溯
-做个参考
+// 直接代码吧，递归+回溯
+// 做个参考
 
-```golang
+// ```golang
 func subsetsWithDup(nums []int) [][]int {
 	var subset []int
 	var res [][]int
@@ -29,4 +29,4 @@ func getAllSubset(i int,nums []int,used []int,subset *[]int,res *[][]int){
 		*subset= temp2
 	}
 }
-```
+// ```

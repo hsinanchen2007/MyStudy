@@ -1,9 +1,9 @@
-### 解题思路
-先合并两个有序集合，再计算中位数，很简单
+// ### 解题思路
+// 先合并两个有序集合，再计算中位数，很简单
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int index1 = 0;
@@ -34,4 +34,4 @@ class Solution {
         }
     }
 }
-```
+// ```

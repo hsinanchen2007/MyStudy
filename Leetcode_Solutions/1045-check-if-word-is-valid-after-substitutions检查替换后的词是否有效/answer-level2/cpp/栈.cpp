@@ -1,9 +1,9 @@
-### 解题思路
-考查栈，遇到C的时候就pop，然后pop B，然后pop A，如果不行，直接退出false。
+// ### 解题思路
+// 考查栈，遇到C的时候就pop，然后pop B，然后pop A，如果不行，直接退出false。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValid(string S) {
@@ -38,4 +38,4 @@ public:
 		}
 	}
 };
-```
+// ```

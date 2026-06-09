@@ -1,9 +1,9 @@
-### 解题思路
-和普通插入排序一样的思路
+// ### 解题思路
+// 和普通插入排序一样的思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -34,4 +34,4 @@ func insertionSortList(head *ListNode) *ListNode {
 	}
 	return h.Next
 }
-```
+// ```

@@ -1,7 +1,7 @@
-#### 思路
-维护一个长度最大为k的滑动窗口，遍历`nums`数组`nums[i]`，判断窗口内的差的绝对值是否小于t。
-#### 代码
-```python []
+# #### 思路
+# 维护一个长度最大为k的滑动窗口，遍历`nums`数组`nums[i]`，判断窗口内的差的绝对值是否小于t。
+# #### 代码
+# ```python []
 class Solution:
     def containsNearbyAlmostDuplicate(self, nums: List[int], k: int, t: int) -> bool:
         n = len(nums)
@@ -22,5 +22,5 @@ class Solution:
             if len(record) > k:
                 record.remove(nums[i-k])  # 维护长度为k的窗口
         return False
-```
-![白色背景关注.jpg](https://pic.leetcode-cn.com/47d1b5430e869ed420bb0c6e8a90250773528ccf1bf6d4d43aef80dd326eeef9-%E7%99%BD%E8%89%B2%E8%83%8C%E6%99%AF%E5%85%B3%E6%B3%A8.jpg)
+# ```
+# ![白色背景关注.jpg](https://pic.leetcode-cn.com/47d1b5430e869ed420bb0c6e8a90250773528ccf1bf6d4d43aef80dd326eeef9-%E7%99%BD%E8%89%B2%E8%83%8C%E6%99%AF%E5%85%B3%E6%B3%A8.jpg)

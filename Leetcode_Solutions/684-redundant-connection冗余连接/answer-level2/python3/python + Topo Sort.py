@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
         # Topo Sort
@@ -31,4 +31,4 @@ class Solution:
         for a, b in reversed(edges):
             if a in visited or b in visited: continue
             return [a, b]
-```
+# ```

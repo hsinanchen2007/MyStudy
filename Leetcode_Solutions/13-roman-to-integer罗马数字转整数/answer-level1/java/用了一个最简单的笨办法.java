@@ -1,9 +1,9 @@
-### 解题思路
-这种方法是不是特别笨，判断字符串的每一个字符以及它的后一个字符，不过速度还多快的
+// ### 解题思路
+// 这种方法是不是特别笨，判断字符串的每一个字符以及它的后一个字符，不过速度还多快的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int romanToInt(String s) {
 		int resu = 0;
@@ -69,4 +69,4 @@ class Solution {
 		return resu;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用快慢指针查找中点，并以此作为二叉树的根。
+// ### 解题思路
+// 使用快慢指针查找中点，并以此作为二叉树的根。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -42,4 +42,4 @@ class Solution {
         return treeNode;
     }
 }
-```
+// ```

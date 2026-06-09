@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-快慢双指针, 移动的过程中需要反向. 重点是慢指针停止的地方, 如果最后是fast为空, 说明链表长度是奇数, 右端开始比较的位置需要向后移动一位
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 快慢双指针, 移动的过程中需要反向. 重点是慢指针停止的地方, 如果最后是fast为空, 说明链表长度是奇数, 右端开始比较的位置需要向后移动一位
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
             slow = slow.next
             pre = pre.next
         return True
-```
+# ```

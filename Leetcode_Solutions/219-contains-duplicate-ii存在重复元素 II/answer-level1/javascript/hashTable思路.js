@@ -1,10 +1,10 @@
-### 解题思路
-hashTable思路
- * 时间复杂度：O(n)
- * 空间复杂度：O(n)
-### 代码
+// ### 解题思路
+// hashTable思路
+//  * 时间复杂度：O(n)
+//  * 空间复杂度：O(n)
+// ### 代码
 
-```javascript
+// ```javascript
 const containsNearbyDuplicate = (nums, k)=>{
     let obj={};
     for(let i=0;i<nums.length;i++){
@@ -21,4 +21,4 @@ const containsNearbyDuplicate = (nums, k)=>{
     }
     return false;
 };
-```
+// ```

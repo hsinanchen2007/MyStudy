@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<string> ambiguousCoordinates(string s) {
@@ -44,4 +44,4 @@ public:
         return res;
     }
 };
-```
+// ```

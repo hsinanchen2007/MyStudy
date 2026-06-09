@@ -1,6 +1,6 @@
-执行用时 : **1389 ms**, 在所有 Java 提交中击败了 **5.01%** 的用户；
-内存消耗 : 36.9 MB, 在所有 Java 提交中击败了 71.13% 的用户。
-```
+// 执行用时 : **1389 ms**, 在所有 Java 提交中击败了 **5.01%** 的用户；
+// 内存消耗 : 36.9 MB, 在所有 Java 提交中击败了 71.13% 的用户。
+// ```
 class Solution {
     public int strStr(String haystack, String needle) {
         if (needle.length() == 0) {
@@ -29,4 +29,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

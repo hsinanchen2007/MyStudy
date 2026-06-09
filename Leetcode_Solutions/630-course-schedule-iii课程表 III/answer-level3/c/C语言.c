@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct
 {
 	int Capacity;
@@ -88,4 +88,4 @@ int scheduleCourse(int** courses, int coursesSize, int* coursesColSize){
     }
     return q->Size;
 }
-```
+// ```

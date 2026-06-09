@@ -1,13 +1,13 @@
-### 解题思路
-三个medium难度题的集合
+# ### 解题思路
+# 三个medium难度题的集合
 
-（1）先用trie构建树，并检查输入的合法性
-（2）dfs trie中的顺序构造拓扑关系
-（3）从入度为0开始，遍历所有的结果
+# （1）先用trie构建树，并检查输入的合法性
+# （2）dfs trie中的顺序构造拓扑关系
+# （3）从入度为0开始，遍历所有的结果
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def alienOrder(self, words: List[str]) -> str:
         trie = {"order": []}
@@ -59,4 +59,4 @@ class Solution:
                             new_level.add(c1)
             level = new_level
         return "".join(result)
-```
+# ```

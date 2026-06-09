@@ -1,9 +1,9 @@
-### 解题思路
-滑窗 + hashmap
+// ### 解题思路
+// 滑窗 + hashmap
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLongestSubstringTwoDistinct(s string) int {
 	sb := []byte(s)
 	length := len(sb)
@@ -57,4 +57,4 @@ func lengthOfLongestSubstringTwoDistinct(s string) int {
 	return max
 }
 
-```
+// ```

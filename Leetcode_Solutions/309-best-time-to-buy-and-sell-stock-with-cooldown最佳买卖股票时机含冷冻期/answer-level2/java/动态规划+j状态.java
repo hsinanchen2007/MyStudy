@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         if (prices.length < 2) {
@@ -31,4 +31,4 @@ class Solution {
         return Math.max(dp[n-1][0], dp[n-1][2]);
     }
 }
-```
+// ```

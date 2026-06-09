@@ -1,9 +1,9 @@
-### 解题思路
-广搜
+# ### 解题思路
+# 广搜
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         queue, visited,  = [(0, 0, 0, 0)], set()
@@ -16,4 +16,4 @@ class Solution:
         return len(visited)
 
 
-```
+# ```

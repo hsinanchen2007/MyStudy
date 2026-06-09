@@ -1,6 +1,6 @@
-回溯法的思想是 构建一棵解空间树
-本题是 排列树
-```
+// 回溯法的思想是 构建一棵解空间树
+// 本题是 排列树
+// ```
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
         /*回溯法*/
@@ -40,4 +40,4 @@ class Solution {
         x[n] = temp;
     } 
 }
-```
+// ```

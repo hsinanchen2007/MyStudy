@@ -1,7 +1,7 @@
-# 方法一：递归
+// # 方法一：递归
 
-直接让我们求左叶子之和，可能一下想不到，我们先求节点之和。
-```java
+// 直接让我们求左叶子之和，可能一下想不到，我们先求节点之和。
+// ```java
 // 先序遍历求所有节点值之和
     public int sumOfTrees(TreeNode root) {
         if (root == null) {
@@ -12,9 +12,9 @@
         int right = sumOfTrees(root.right);
         return left + right + leave;
     }
-```
-在求节点之和的基础上，我们再来求所有叶子节点之和。
-```java
+// ```
+// 在求节点之和的基础上，我们再来求所有叶子节点之和。
+// ```java
 // 先序遍历求所有叶子节点值之和
     public int sumOfLeaves(TreeNode root) {
         if (root == null) {
@@ -29,9 +29,9 @@
         int right = sumOfLeaves(root.right);
         return left + right + leave;
     }
-```
-在求叶子节点之和的基础上，我们再来求所有左叶子节点之和。
-```java
+// ```
+// 在求叶子节点之和的基础上，我们再来求所有左叶子节点之和。
+// ```java
     public int sumOfLeftLeaves(TreeNode root) {
         return sumOfLeftLeavesHelper(root, false);
     }
@@ -50,10 +50,10 @@
         int right = sumOfLeftLeavesHelper(root.right, false);
         return left + right + leave;
     }
-```
-# 方法二：迭代
-将先序遍历递归改为迭代
-```java
+// ```
+// # 方法二：迭代
+// 将先序遍历递归改为迭代
+// ```java
 public int sumOfLeftLeaves(TreeNode root) {
         if (root == null) {
             return 0;
@@ -79,5 +79,5 @@ public int sumOfLeftLeaves(TreeNode root) {
         }
         return sum;
     }
-```
-记得Pair需要导包
+// ```
+// 记得Pair需要导包

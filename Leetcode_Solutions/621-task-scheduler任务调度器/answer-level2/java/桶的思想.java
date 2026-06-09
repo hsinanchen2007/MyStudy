@@ -1,4 +1,4 @@
-```
+// ```
 public int leastInterval(char[] tasks, int n) {
         int timeArr[] = new int [26];
         for (char c : tasks) {
@@ -19,4 +19,4 @@ public int leastInterval(char[] tasks, int n) {
             return tasks.length;
         return (n+1) * (maxTime-1) + rowCnt;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-题目的考点在于，如何保存nums并在类内共享使用。因为init函数不允许传递返回值，所以必须使用self.num变量保存nums。并通过self.XXX来传递给其他类内方法使用。
+# ### 解题思路
+# 题目的考点在于，如何保存nums并在类内共享使用。因为init函数不允许传递返回值，所以必须使用self.num变量保存nums。并通过self.XXX来传递给其他类内方法使用。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class NumArray:
 
     def __init__(self, nums: List[int]):
@@ -19,4 +19,4 @@ class NumArray:
 # Your NumArray object will be instantiated and called as such:
 # obj = NumArray(nums)
 # param_1 = obj.sumRange(i,j)
-```
+# ```

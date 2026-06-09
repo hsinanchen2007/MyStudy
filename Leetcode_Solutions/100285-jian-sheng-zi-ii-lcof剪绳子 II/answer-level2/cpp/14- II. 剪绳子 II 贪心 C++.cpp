@@ -1,9 +1,9 @@
-### 解题思路
-和[14- I. 剪绳子 C++ 动态规划 双100%](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/solution/14-i-jian-sheng-zi-c-dong-tai-gui-hua-shuang-100-b/)思路相同，这里设计了iPow函数防止溢出[参考](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/solution/shuang-bai-_yi-ge-fang-zhi-yi-chu-han-shu-ji-ke-ji/)
+// ### 解题思路
+// 和[14- I. 剪绳子 C++ 动态规划 双100%](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/solution/14-i-jian-sheng-zi-c-dong-tai-gui-hua-shuang-100-b/)思路相同，这里设计了iPow函数防止溢出[参考](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/solution/shuang-bai-_yi-ge-fang-zhi-yi-chu-han-shu-ji-ke-ji/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int cuttingRope(int n) {
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {string} str1
  * @param {string} str2
@@ -11,5 +11,5 @@ var gcdOfStrings = function(str1, str2) {
     let gcd = (num1,num2)=> num2 === 0?num1:gcp(num2,num1%num2);
     return str1.slice(0,gcd(str1.length,str2.length))
 };
-```
+// ```
 

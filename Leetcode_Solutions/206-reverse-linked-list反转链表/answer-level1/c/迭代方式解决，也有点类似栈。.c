@@ -1,9 +1,9 @@
-### 解题思路
-迭代方式解决，也有点类似栈。
+// ### 解题思路
+// 迭代方式解决，也有点类似栈。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ struct ListNode* reverseList(struct ListNode* head)
 
     return nodeHead;
 }
-```
+// ```

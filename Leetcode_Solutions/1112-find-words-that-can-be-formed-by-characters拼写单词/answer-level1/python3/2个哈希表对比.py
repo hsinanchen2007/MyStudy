@@ -1,10 +1,10 @@
-### 解题思路
-用2个哈希表，一个存储char里的字母及个数，一个用来存储word里的字母及个数。
+# ### 解题思路
+# 用2个哈希表，一个存储char里的字母及个数，一个用来存储word里的字母及个数。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         hashmap={}
@@ -46,4 +46,4 @@ class Solution:
                     words_sum_len+= len(word) 
         return words_sum_len
 
-```
+# ```

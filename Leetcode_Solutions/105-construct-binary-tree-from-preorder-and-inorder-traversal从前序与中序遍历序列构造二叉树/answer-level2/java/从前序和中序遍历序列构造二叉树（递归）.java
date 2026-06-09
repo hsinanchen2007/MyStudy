@@ -1,7 +1,7 @@
-这是一个递归问题，前序遍历是ceter-left-right的方式遍历，中序遍历是left-ceter-right（这里的ceter是指父节点，left，right是左右子树）。
-因此，前序遍历的第一个数是父节点的值，由于树的各个节点值唯一，根据中序遍历，找到父节点所在的索引位置，就可以判断左子树，右子树了。同样的，对左，右子树分别进行这样的操作，就可以把原来的树进行补全了。
+// 这是一个递归问题，前序遍历是ceter-left-right的方式遍历，中序遍历是left-ceter-right（这里的ceter是指父节点，left，right是左右子树）。
+// 因此，前序遍历的第一个数是父节点的值，由于树的各个节点值唯一，根据中序遍历，找到父节点所在的索引位置，就可以判断左子树，右子树了。同样的，对左，右子树分别进行这样的操作，就可以把原来的树进行补全了。
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         return resTree;
     }
 }
-```
+// ```

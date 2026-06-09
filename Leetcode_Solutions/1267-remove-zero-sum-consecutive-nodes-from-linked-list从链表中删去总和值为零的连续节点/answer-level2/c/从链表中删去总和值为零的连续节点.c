@@ -1,9 +1,9 @@
-### 解题思路
-两重循环暴力搜索所有可能的子序列
+// ### 解题思路
+// 两重循环暴力搜索所有可能的子序列
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ struct ListNode* removeZeroSumSublists(struct ListNode* head) {
 	}
 	return L->next;
 }
-```
+// ```

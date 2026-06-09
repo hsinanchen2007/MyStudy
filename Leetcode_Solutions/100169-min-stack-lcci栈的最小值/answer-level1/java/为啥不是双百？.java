@@ -1,9 +1,9 @@
-### 解题思路
-引入一个最小栈记录当前栈里的最小值
+// ### 解题思路
+// 引入一个最小栈记录当前栈里的最小值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
     Stack<Integer> stack;
@@ -46,4 +46,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

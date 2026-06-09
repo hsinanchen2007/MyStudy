@@ -1,9 +1,9 @@
-### 解题思路
-1 临时数组存储原数组扩大2倍后的数值
-2 比较临时数据和原数组
-### 代码
+// ### 解题思路
+// 1 临时数组存储原数组扩大2倍后的数值
+// 2 比较临时数据和原数组
+// ### 代码
 
-```c
+// ```c
 bool checkIfExist(int* arr, int arrSize){
     //入参检查
     if(arr == NULL)
@@ -33,4 +33,4 @@ bool checkIfExist(int* arr, int arrSize){
     }
     return false;
 }
-```
+// ```

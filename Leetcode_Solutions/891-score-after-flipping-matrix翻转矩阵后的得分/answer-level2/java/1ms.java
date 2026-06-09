@@ -1,9 +1,9 @@
-### 解题思路
-注释
+// ### 解题思路
+// 注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int matrixScore(int[][] A) {
         int res=(1<<(A[0].length-1))*A.length;//第一列全是1，直接加上
@@ -26,4 +26,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

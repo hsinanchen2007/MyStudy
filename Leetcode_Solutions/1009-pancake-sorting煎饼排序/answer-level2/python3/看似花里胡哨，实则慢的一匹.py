@@ -1,9 +1,9 @@
-### 解题思路
-完全按照示例的思路，先把最大的排好
+# ### 解题思路
+# 完全按照示例的思路，先把最大的排好
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def pancakeSort(self, A: List[int]) -> List[int]:
         ans = []
@@ -26,4 +26,4 @@ class Solution:
                 ans.append(i+1)
                 return help(A)
         return help(A)
-```
+# ```

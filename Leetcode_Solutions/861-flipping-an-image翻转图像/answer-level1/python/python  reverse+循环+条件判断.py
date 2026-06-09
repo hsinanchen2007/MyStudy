@@ -1,5 +1,5 @@
-像我这种小白，只能用基础知识来实现了。
-```
+# 像我这种小白，只能用基础知识来实现了。
+# ```
 class Solution(object):
     def flipAndInvertImage(self, A):
         """
@@ -14,4 +14,4 @@ class Solution(object):
                 else:
                     i[j] = 0
         return A
-```
+# ```

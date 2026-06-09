@@ -1,9 +1,9 @@
-### 解题思路
-简单的循环解法
+// ### 解题思路
+// 简单的循环解法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var deleteNode = function (head, val) {
     // 头结点保存指针
     let preHead = new ListNode();
@@ -30,4 +30,4 @@ var deleteNode = function (head, val) {
     }
     return preHead.next
 };
-```
+// ```

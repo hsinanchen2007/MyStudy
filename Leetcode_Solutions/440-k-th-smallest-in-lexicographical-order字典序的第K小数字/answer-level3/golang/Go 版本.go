@@ -1,9 +1,9 @@
-### 解题思路
-参考这个答案的 golang 版本：https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/solution/java-gou-zao-10cha-shu-ju-ti-kan-zhu-shi-ba-by-wuy/
+// ### 解题思路
+// 参考这个答案的 golang 版本：https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order/solution/java-gou-zao-10cha-shu-ju-ti-kan-zhu-shi-ba-by-wuy/
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findKthNumber(n int, k int) int {
 	currentNode := 1
 	k--
@@ -29,4 +29,4 @@ func findKthNumber(n int, k int) int {
 	}
 	return currentNode
 }
-```
+// ```

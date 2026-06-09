@@ -1,9 +1,9 @@
-### 解题思路
-每次取最高位和最低位比较，如果不相等就返回false。全相等就为true。
+// ### 解题思路
+// 每次取最高位和最低位比较，如果不相等就返回false。全相等就为true。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -27,4 +27,4 @@ public:
         return true;
     }
 };
-```
+// ```

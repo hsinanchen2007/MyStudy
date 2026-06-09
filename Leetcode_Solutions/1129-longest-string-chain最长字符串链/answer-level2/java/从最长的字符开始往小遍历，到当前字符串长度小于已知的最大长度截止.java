@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/0ad795c1230c95c0c3baddd32ee7c64daed1d15f904edec11250dfa60eb28b42-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0ad795c1230c95c0c3baddd32ee7c64daed1d15f904edec11250dfa60eb28b42-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	public int longestStrChain(String[] words) {
         int maxlenth = 1;
@@ -102,4 +102,4 @@ class Solution {
 		return maxlenth;
 	}
 }
-```
+// ```

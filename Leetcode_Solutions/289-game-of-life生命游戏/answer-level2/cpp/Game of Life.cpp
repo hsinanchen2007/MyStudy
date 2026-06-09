@@ -1,9 +1,9 @@
-### 解题思路
-Game of Life
+// ### 解题思路
+// Game of Life
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     int has_life(vector<vector<int>>& tmp, int i, int j){
         int m=tmp.size(), n=tmp[0].size(), cnt=0;
@@ -38,4 +38,4 @@ public:
 };
 
 
-```
+// ```

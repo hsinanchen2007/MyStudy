@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-两次预约之间不能多于3个预约，否则一定不是最优的。
+// 两次预约之间不能多于3个预约，否则一定不是最优的。
 
-![图片.png](https://pic.leetcode-cn.com/53f5e119b999767d0afa55575eee5f4031c8adc19b86d2a18ae2a3d1cedecee5-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/53f5e119b999767d0afa55575eee5f4031c8adc19b86d2a18ae2a3d1cedecee5-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int massage(int[] nums) {
         int result = 0;
@@ -21,4 +21,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

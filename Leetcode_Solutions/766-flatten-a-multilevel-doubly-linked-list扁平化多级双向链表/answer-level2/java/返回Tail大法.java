@@ -1,4 +1,4 @@
-```
+// ```
     Node flatten(Node head) {
         flattenTail(head);
         return head;
@@ -26,6 +26,6 @@
         // (3)左右子树均不存在的情况。
         return root;
     
-```
+// ```
 
-思路参考 http://bangbingsyb.blogspot.com/2014/11/leetcode-flatten-binary-tree-to-linked.html
+// 思路参考 http://bangbingsyb.blogspot.com/2014/11/leetcode-flatten-binary-tree-to-linked.html

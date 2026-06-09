@@ -1,4 +1,4 @@
-```
+// ```
 void moveZeroes(int* nums, int numsSize)
 {
     int count = 0;
@@ -19,4 +19,4 @@ void moveZeroes(int* nums, int numsSize)
         nums[numsSize-1-i] = 0;
     }
 }
-```
+// ```

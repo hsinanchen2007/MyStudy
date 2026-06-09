@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
     def numberOfLines(widths: Array[Int], S: String): Array[Int] = {
         var lines = 0
@@ -16,4 +16,4 @@ object Solution {
     }
 }
 
-```
+// ```

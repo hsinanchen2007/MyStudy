@@ -1,7 +1,7 @@
 
-S1: 脑筋急转弯
-1,2,3,4,5,6,7,8 = T,T,T,F,T,T,T,F
-```
+# S1: 脑筋急转弯
+# 1,2,3,4,5,6,7,8 = T,T,T,F,T,T,T,F
+# ```
 class Solution(object):
     def canWinNim(self, n):
         """
@@ -9,9 +9,9 @@ class Solution(object):
         :rtype: bool
         """
         return (n % 4 != 0)
-```
-S2: 动态规划
-```
+# ```
+# S2: 动态规划
+# ```
 class Solution(object):
     def canWinNim(self, n):
         """
@@ -26,4 +26,4 @@ class Solution(object):
             else:
                 n0, n1, n2 = n1, n2, True
         return n2
-```
+# ```

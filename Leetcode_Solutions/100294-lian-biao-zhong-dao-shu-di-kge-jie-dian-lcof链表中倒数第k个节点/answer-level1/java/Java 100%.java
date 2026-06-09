@@ -1,6 +1,6 @@
-快慢指针。
+// 快慢指针。
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -22,4 +22,4 @@ class Solution {
         return slow;
     }
 }
-```
+// ```

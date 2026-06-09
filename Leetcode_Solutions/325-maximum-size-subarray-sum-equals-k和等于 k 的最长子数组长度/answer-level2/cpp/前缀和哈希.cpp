@@ -1,9 +1,9 @@
-### 解题思路
-用两个哈希表记录每一个前缀和第一次和最后一次出现的序号。
+// ### 解题思路
+// 用两个哈希表记录每一个前缀和第一次和最后一次出现的序号。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArrayLen(vector<int>& nums, int k) {
@@ -25,4 +25,4 @@ public:
         return ans;
     }
 };
-```
+// ```

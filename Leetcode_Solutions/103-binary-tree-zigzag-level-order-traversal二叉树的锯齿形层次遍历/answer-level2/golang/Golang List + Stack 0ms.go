@@ -1,7 +1,7 @@
 
-    用一个stack实现一个level的反转
+//     用一个stack实现一个level的反转
 
-```
+// ```
 
 func zigzagLevelOrder(root *TreeNode) [][]int {
    ret := [][]int{}
@@ -58,4 +58,4 @@ func (s *stack) Len() int {
 func NewStack() *stack {
 	return &stack{sl: list.New()}
 }
-```
+// ```

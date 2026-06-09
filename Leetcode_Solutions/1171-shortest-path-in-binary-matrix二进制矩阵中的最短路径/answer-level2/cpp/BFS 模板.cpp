@@ -1,4 +1,4 @@
-```
+// ```
 struct coor
     {
         int x,y;
@@ -38,4 +38,4 @@ public:
         }
         return -1;
     }
-```
+// ```

@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/a0bddf8d7405221a77f3c373259521e6873570fd447a8c4668a21656f8f5b7f0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a0bddf8d7405221a77f3c373259521e6873570fd447a8c4668a21656f8f5b7f0-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 笨方法：中序遍历二叉树，放到数组中，进行双指针查找目标值
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -49,4 +49,4 @@ var findTarget = function(root, k) {
   
   return ans;
 };
-```
+// ```

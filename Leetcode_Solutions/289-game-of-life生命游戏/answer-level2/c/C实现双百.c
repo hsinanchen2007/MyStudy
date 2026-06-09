@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void gameOfLife(int** board, int boardSize, int* boardColSize){
     if (board == NULL || boardSize == 0 || *boardColSize == 0) return;
     int x_shift[8] = {-1, -1, -1, 0, 0, 1, 1, 1};
@@ -35,4 +35,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
         }
     }
 }
-```
+// ```

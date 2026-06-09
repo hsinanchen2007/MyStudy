@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![TIM截图20200304211057.jpg](https://pic.leetcode-cn.com/e5f69496f872307e9446b9c27cec63722287de82e6b3cbc0543a62aa52a37273-TIM%E6%88%AA%E5%9B%BE20200304211057.jpg)
+// ### 解题思路
+// 此处撰写解题思路
+// ![TIM截图20200304211057.jpg](https://pic.leetcode-cn.com/e5f69496f872307e9446b9c27cec63722287de82e6b3cbc0543a62aa52a37273-TIM%E6%88%AA%E5%9B%BE20200304211057.jpg)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -55,4 +55,4 @@ int numComponents(struct ListNode* head, int* G, int GSize){
     return cnt;
 
 }
-```
+// ```

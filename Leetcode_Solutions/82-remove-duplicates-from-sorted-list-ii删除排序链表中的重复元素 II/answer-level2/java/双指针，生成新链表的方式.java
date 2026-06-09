@@ -1,6 +1,6 @@
-#### 定义两个指针，一个遍历老链表，一个组合新链表，这样无需对原有链表进行删除
+// #### 定义两个指针，一个遍历老链表，一个组合新链表，这样无需对原有链表进行删除
 
-```java []
+// ```java []
 
 public ListNode deleteDuplicates2(ListNode head) {
         if(head == null){
@@ -42,5 +42,5 @@ public ListNode deleteDuplicates2(ListNode head) {
         return newHead;
     }
 
-```
+// ```
 

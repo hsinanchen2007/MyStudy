@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/5b4819502093f06f682c78eb68cbe57630dcac3280f890bf3f506964091abd79-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5b4819502093f06f682c78eb68cbe57630dcac3280f890bf3f506964091abd79-image.png)
 
-```
+// ```
 class Solution {
 public:
     void reverse(string &s,int l,int r){//反转下标为l到r的区间
@@ -33,4 +33,4 @@ public:
     }
 };
 
-```
+// ```

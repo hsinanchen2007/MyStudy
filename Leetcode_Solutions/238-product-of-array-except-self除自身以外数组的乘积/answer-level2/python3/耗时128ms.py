@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         ji = 1
@@ -19,4 +19,4 @@ class Solution:
             for j in nums:
                 result.append(int(ji/j))
             return(result)
-```
+# ```

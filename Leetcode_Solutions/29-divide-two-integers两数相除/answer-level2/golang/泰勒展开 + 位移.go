@@ -1,9 +1,9 @@
-### 解题思路
-泰勒展开： dividend = (2^0 + 2^1 + ... + 2^n) * divisor
+// ### 解题思路
+// 泰勒展开： dividend = (2^0 + 2^1 + ... + 2^n) * divisor
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func divide(dividend int, divisor int) int {
     cnt := 0
     sign := 1
@@ -38,4 +38,4 @@ func divide(dividend int, divisor int) int {
     
 
 }
-```
+// ```

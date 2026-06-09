@@ -1,9 +1,9 @@
-### 解题思路
-代码中已注释
+# ### 解题思路
+# 代码中已注释
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def mySqrt(self, x):
         """
@@ -26,4 +26,4 @@ class Solution(object):
             else:
                 l=mid+1
         return h
-```
+# ```

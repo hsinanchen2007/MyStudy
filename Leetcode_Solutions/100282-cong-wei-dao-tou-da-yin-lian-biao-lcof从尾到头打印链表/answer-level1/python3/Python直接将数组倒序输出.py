@@ -1,9 +1,9 @@
-### 解题思路
-正序保存在数组里，最后将数组倒序输出。
+# ### 解题思路
+# 正序保存在数组里，最后将数组倒序输出。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -18,4 +18,4 @@ class Solution:
             num.append(node.val)
             node = node.next
         return num[::-1]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-等差数列求和，以此减去数组里的数，剩下的就是结果
+// ### 解题思路
+// 等差数列求和，以此减去数组里的数，剩下的就是结果
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -14,4 +14,4 @@ public:
         return total;
     }
 };
-```
+// ```

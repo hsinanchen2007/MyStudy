@@ -1,9 +1,9 @@
-### 解题思路
-非常简单的题 利用数组的快速遍历查找
+// ### 解题思路
+// 非常简单的题 利用数组的快速遍历查找
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -102,4 +102,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

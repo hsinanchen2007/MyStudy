@@ -1,10 +1,10 @@
-### 解题思路
-用时1ms
-主要归功于LinkedList的addFirst()方法，直接从最前面插入元素
+// ### 解题思路
+// 用时1ms
+// 主要归功于LinkedList的addFirst()方法，直接从最前面插入元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -47,4 +47,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

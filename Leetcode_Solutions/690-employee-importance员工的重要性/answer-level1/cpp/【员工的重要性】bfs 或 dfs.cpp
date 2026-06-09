@@ -1,10 +1,10 @@
-### 思路
-1. 将员工信息保存
-2. bfs （或 dfs）
+// ### 思路
+// 1. 将员工信息保存
+// 2. bfs （或 dfs）
 
-### 答题
-#### bfs
-```C++ []
+// ### 答题
+// #### bfs
+// ```C++ []
 class Solution {
 public:
     int getImportance(vector<Employee*> employees, int id)
@@ -32,9 +32,9 @@ public:
         return ans;
     }
 };
-```
-#### dfs
-```C++ []
+// ```
+// #### dfs
+// ```C++ []
 class Solution {
 public:
     int dfs(unordered_map<int, Employee*>& mp, int id)
@@ -60,12 +60,12 @@ public:
         return dfs(mp, id);
     }
 };
-```
+// ```
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

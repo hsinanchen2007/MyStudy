@@ -1,6 +1,6 @@
-因为题目明确了输出结果中的每个元素一定是`唯一的`, 因而可以使用集合 Set 唯一的特性, 完成题解。
+// 因为题目明确了输出结果中的每个元素一定是`唯一的`, 因而可以使用集合 Set 唯一的特性, 完成题解。
 
-```js
+// ```js
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -17,6 +17,6 @@ var intersection = function(nums1, nums2) {
 
   return [...resultSet]
 }
-```
+// ```
 
-> [JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > [JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

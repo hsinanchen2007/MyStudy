@@ -1,10 +1,10 @@
-### 解题思路
-![1.png](https://pic.leetcode-cn.com/7004b69259c4b5b5fb434edcc3353366649b77a969c2c115adea36e99422f7d8-1.png)
-算法很简单，就是通过取余取除，取到各个位置的数，然后通过*10来挪位。
+// ### 解题思路
+// ![1.png](https://pic.leetcode-cn.com/7004b69259c4b5b5fb434edcc3353366649b77a969c2c115adea36e99422f7d8-1.png)
+// 算法很简单，就是通过取余取除，取到各个位置的数，然后通过*10来挪位。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int reverse(int x){
     int mod = 0;
     long y = 0;
@@ -29,4 +29,4 @@ int reverse(int x){
 
 	return y;
 }
-```
+// ```

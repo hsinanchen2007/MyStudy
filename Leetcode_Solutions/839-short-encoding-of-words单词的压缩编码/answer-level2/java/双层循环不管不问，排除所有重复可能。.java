@@ -1,13 +1,13 @@
-### 解题思路
-1. 去除重复字符串
-2. 拼接成一个字符串
-例如 一个单词
-     [happy,ha,ppy,py,appy] 这些单词 只需要保存  ha#happy# 即可
-因此 做两层循环，把所有可能的结尾包含全部去除！
-把数组 变成[happy ,ha , , , ]
-### 代码
+// ### 解题思路
+// 1. 去除重复字符串
+// 2. 拼接成一个字符串
+// 例如 一个单词
+//      [happy,ha,ppy,py,appy] 这些单词 只需要保存  ha#happy# 即可
+// 因此 做两层循环，把所有可能的结尾包含全部去除！
+// 把数组 变成[happy ,ha , , , ]
+// ### 代码
 
-```java
+// ```java
 class Solution {
        public int minimumLengthEncoding(String[] words) {
         List<String> list = new ArrayList<String>();
@@ -44,4 +44,4 @@ class Solution {
 
     }
 
-```
+// ```

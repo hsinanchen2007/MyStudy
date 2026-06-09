@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int x;
     int y;
@@ -92,4 +92,4 @@ int orangesRotting(int** grid, int row, int* size){
 
     return ((good <= 0) ? time : -1);
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minCostToMoveChips(self, chips: List[int]) -> int:
         j=0
@@ -13,4 +13,4 @@ class Solution:
                 j+=1
             else:o+=1
         return min(j,o)
-```
+# ```

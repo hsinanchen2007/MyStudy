@@ -1,5 +1,5 @@
-我怎么觉得答案有问题，我用了两个不同commands是直行，预计答案都是5140，但是这两个commands的终点明显是不一样的。
-```
+// 我怎么觉得答案有问题，我用了两个不同commands是直行，预计答案都是5140，但是这两个commands的终点明显是不一样的。
+// ```
 class Solution {
 public:
     int robotSim(vector<int>& commands, vector<vector<int>>& obstacles) {
@@ -46,5 +46,5 @@ public:
         return x*x+y*y;
     }
 };
-```
+// ```
 

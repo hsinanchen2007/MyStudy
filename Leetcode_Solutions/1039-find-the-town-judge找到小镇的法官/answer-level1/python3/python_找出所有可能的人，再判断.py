@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findJudge(self, N, trust):
         tmp = [(i+1) for i in range(N)]
@@ -22,4 +22,4 @@ class Solution:
                 return tmp[0]
             else:
                 return -1
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func hIndex(citations []int) int {
 	le := len(citations)
 	l, r := 0, le-1
@@ -14,4 +14,4 @@ func hIndex(citations []int) int {
 	}
 	return le - l
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LFUCache {
 
     // 存储缓存的内容。
@@ -168,4 +168,4 @@ class DoublyLinkedList {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

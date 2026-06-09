@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         if(S.length() == 0) return "";
@@ -18,4 +18,4 @@ class Solution {
         return sb.toString().length() < S.length()?sb.toString():S;
     }
 }
-```
+// ```

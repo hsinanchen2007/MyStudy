@@ -1,9 +1,9 @@
-### 解题思路
-利用数组做两次hashmap，即可，时间复杂度O(n)
+// ### 解题思路
+// 利用数组做两次hashmap，即可，时间复杂度O(n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isIsomorphic(String s, String t) {
         if(s.length()!=t.length()) return false;
@@ -24,4 +24,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

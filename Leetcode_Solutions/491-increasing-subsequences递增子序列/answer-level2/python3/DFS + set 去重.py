@@ -1,6 +1,6 @@
-这题就是一个裸的 dfs，对求子集做了下增序列判断，然后使用 set 来去重即可。
+# 这题就是一个裸的 dfs，对求子集做了下增序列判断，然后使用 set 来去重即可。
 
-```python
+# ```python
 class Solution:
     def __init__(self):
         self.s = set()
@@ -21,4 +21,4 @@ class Solution:
         self.nums = nums
         self.dfs(st=0, cur=[])
         return [list(a) for a in self.s]
-```
+# ```

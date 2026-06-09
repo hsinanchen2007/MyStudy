@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :104 ms, 在所有 C++ 提交中击败了15.19% 的用户
-内存消耗 :31 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :104 ms, 在所有 C++ 提交中击败了15.19% 的用户
+// 内存消耗 :31 MB, 在所有 C++ 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     char firstUniqChar(string s) {
@@ -27,4 +27,4 @@ public:
     	return (v_record[0].second.first == 1) ? v_record[0].first : ' ';
     }
 };
-```
+// ```

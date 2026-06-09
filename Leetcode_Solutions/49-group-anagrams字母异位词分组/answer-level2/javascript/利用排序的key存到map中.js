@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string[][]}
@@ -16,4 +16,4 @@ var groupAnagrams = function (strs) {
 
   return Object.keys(map).map(key => map[key]);
 };
-```
+// ```

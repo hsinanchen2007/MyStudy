@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     void quickpower(const vector<int> &sub, int power, vector<int> &res){
@@ -43,4 +43,4 @@ public:
         return tmp[0];
     }
 };
-```
+// ```

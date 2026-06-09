@@ -1,25 +1,25 @@
-很努力的看官方题解了，实在看不懂，心塞。
-我的解法：根据题目推测出来字符串下标和转换后的二维数组的关系。然后再按顺序输出。
-    解题思路：
-        1. 变换为numRows行，第i个字符(从0开始计数）在变形后的二维阵列的行数：
-        如果 i/(numRows-1) 为偶数，则 y = i % (numRows - 1)
-        如果 i/(numRows - 1) 为奇数，则 y = (numRows - 1) - i%(numRows - 1)
-        2. 第i个字符(从0开始计数）在变形后的二维阵列的列数：
-        如果 i/(numRows - 1)为偶数，则 x = (i / (numRows - 1)) / 2 * (numRows-1)
-        如果 i/(numRows - 1)为偶数，则 x = (i / (numRows - 1) - 1) / 2 * (numRows-1) + i % (numRows - 1)
+// 很努力的看官方题解了，实在看不懂，心塞。
+// 我的解法：根据题目推测出来字符串下标和转换后的二维数组的关系。然后再按顺序输出。
+//     解题思路：
+//         1. 变换为numRows行，第i个字符(从0开始计数）在变形后的二维阵列的行数：
+//         如果 i/(numRows-1) 为偶数，则 y = i % (numRows - 1)
+//         如果 i/(numRows - 1) 为奇数，则 y = (numRows - 1) - i%(numRows - 1)
+//         2. 第i个字符(从0开始计数）在变形后的二维阵列的列数：
+//         如果 i/(numRows - 1)为偶数，则 x = (i / (numRows - 1)) / 2 * (numRows-1)
+//         如果 i/(numRows - 1)为偶数，则 x = (i / (numRows - 1) - 1) / 2 * (numRows-1) + i % (numRows - 1)
 
-    解法一：正向思维，构造出对应的二维数组，遍历得到最终结果。空间复杂度会很高。
-    解法二：
-            算出各行元素在二维数组的坐标。有如下规则：
-                1）如果是首位两行，在未到达最大列前，其下一个元素的列为： i*(numRows-1)
-                2）如果是中间行，在未到达最大列前，其下一个元素的列为：
-                    i为偶数，则为i*(numRows-1)。
-                    i为奇数，则为(i-1)*(numRows-1)+(numRows-1-rows)。
-            根据二维数组的坐标(rows,column)，算出在原字符串所在的位置。有如下规则：
-                1）如果所在列满足column%(numRows-1)==0，则一维数组所在位置为column*2+rows
-                2）如果所在列不满足column%(numRows-1)==0，则一维数组所在位置为 column/(numRows-1)*(numRows-1)*2 + (numRows-1) + (numRows-1-rows)
-            时间复杂度就O（N）,空间复杂度O（1）
-```
+//     解法一：正向思维，构造出对应的二维数组，遍历得到最终结果。空间复杂度会很高。
+//     解法二：
+//             算出各行元素在二维数组的坐标。有如下规则：
+//                 1）如果是首位两行，在未到达最大列前，其下一个元素的列为： i*(numRows-1)
+//                 2）如果是中间行，在未到达最大列前，其下一个元素的列为：
+//                     i为偶数，则为i*(numRows-1)。
+//                     i为奇数，则为(i-1)*(numRows-1)+(numRows-1-rows)。
+//             根据二维数组的坐标(rows,column)，算出在原字符串所在的位置。有如下规则：
+//                 1）如果所在列满足column%(numRows-1)==0，则一维数组所在位置为column*2+rows
+//                 2）如果所在列不满足column%(numRows-1)==0，则一维数组所在位置为 column/(numRows-1)*(numRows-1)*2 + (numRows-1) + (numRows-1-rows)
+//             时间复杂度就O（N）,空间复杂度O（1）
+// ```
 *解法一*/
 //获取行数
 int getRows(int i, int numRows){
@@ -80,8 +80,8 @@ char * convert(char * s, int numRows){
     conArray = NULL;
     return s;
 }
-```
-```
+// ```
+// ```
 /*解法二*/
 //获取列数
 int getColumn(int i, int numRows){
@@ -181,5 +181,5 @@ char * convert(char * s, int numRows){
     ret[retStrIndex] = '\0';
     return ret;
 }
-```
+// ```
 

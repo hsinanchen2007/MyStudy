@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-如代码注释
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 如代码注释
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         i = 0 #表示集合的位置
@@ -22,4 +22,4 @@ class Solution:
         return A
 
 
-```
+# ```

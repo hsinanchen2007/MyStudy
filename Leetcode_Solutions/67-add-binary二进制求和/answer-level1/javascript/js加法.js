@@ -1,16 +1,16 @@
-先偷个懒吧？
+// 先偷个懒吧？
 
-```
+// ```
 var addBinary = function(a, b) {
     let sum = parseInt(a, 2) + parseInt(b, 2)
     return sum.toString(2)
 };
-```
-测试用例用长度 99 的字符串，分分钟教做人...
+// ```
+// 测试用例用长度 99 的字符串，分分钟教做人...
 
-那就逐位相加吧，这样换个..
+// 那就逐位相加吧，这样换个..
 
-```
+// ```
 var addBinary = function(a, b) {
 	let aa = a.split('').reverse()
 	let bb = b.split('').reverse()
@@ -27,4 +27,4 @@ var addBinary = function(a, b) {
 	if (1 === prefix) res.push(1)
 	return res.reverse().join('')
 };
-```
+// ```

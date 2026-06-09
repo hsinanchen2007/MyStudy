@@ -1,4 +1,4 @@
-```c
+// ```c
 int Min(int a, int b, int c) { return a > b ? (b > c ? c : b) : (a > c ? c : a); }
 int minDistance(char *word1, char *word2) {
   int i, j, m = strlen(word1), n = strlen(word2);
@@ -26,4 +26,4 @@ int minDistance(char *word1, char *word2) {
  * (2) dp[i][j-1]，即先将 word1 的前 5 个字符 "horse" 转换为 word2 的前 2 个字符 "ro"，然后在 word1 末尾插入一个 's';
  * (3) dp[i-1][j]，即先将 word1 的前 4 个字符 "hors" 转换为 word2 的前 3 个字符 "ros"，然后删除 word1 的第 5 个字符 'e';
  */
-```
+// ```

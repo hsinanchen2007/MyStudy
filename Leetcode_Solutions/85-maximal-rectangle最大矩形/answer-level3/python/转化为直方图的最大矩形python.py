@@ -1,9 +1,9 @@
-### 解题思路
-动态规划求直方图的各个条的长度。直方图的个数就是列的个数
+# ### 解题思路
+# 动态规划求直方图的各个条的长度。直方图的个数就是列的个数
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
         maxarea = 0
@@ -22,4 +22,4 @@ class Solution:
                     maxarea = max(maxarea, width * (i-k+1))
         return maxarea
 
-```
+# ```

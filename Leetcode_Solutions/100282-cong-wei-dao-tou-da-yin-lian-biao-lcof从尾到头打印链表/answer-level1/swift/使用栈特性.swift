@@ -1,12 +1,12 @@
-1. 遍历链表, 放入数组中
-2. 遍历数组, 根据数组 index 查找快, 根据 (res.count - 1 - index) 从后开始找元素, 倒序加入数组
+// 1. 遍历链表, 放入数组中
+// 2. 遍历数组, 根据数组 index 查找快, 根据 (res.count - 1 - index) 从后开始找元素, 倒序加入数组
 
-时间复杂度: O(n)
-空间复杂度: O(n)
+// 时间复杂度: O(n)
+// 空间复杂度: O(n)
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,4 +38,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

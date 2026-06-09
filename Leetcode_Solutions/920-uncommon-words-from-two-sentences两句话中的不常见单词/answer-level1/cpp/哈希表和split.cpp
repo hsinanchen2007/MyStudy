@@ -1,9 +1,9 @@
-### 解题思路
-分别对A，B创建两个哈希表，记录词频，遍历哈希表比对即可
+// ### 解题思路
+// 分别对A，B创建两个哈希表，记录词频，遍历哈希表比对即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> uncommonFromSentences(string A, string B)
@@ -39,4 +39,4 @@ public:
         return subs;
     }
 };
-```
+// ```

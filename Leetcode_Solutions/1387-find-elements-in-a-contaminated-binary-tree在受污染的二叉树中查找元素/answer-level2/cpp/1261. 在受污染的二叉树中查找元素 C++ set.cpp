@@ -1,11 +1,11 @@
-### 解题思路
-1.二叉树重新赋值：分别访问左右子树赋值
-2.同时将val放入set，提升查找效率
+// ### 解题思路
+// 1.二叉树重新赋值：分别访问左右子树赋值
+// 2.同时将val放入set，提升查找效率
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -58,4 +58,4 @@ public:
  * FindElements* obj = new FindElements(root);
  * bool param_1 = obj->find(target);
  */
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-一个 int 有 32 bit，输入数据只用了其中一个 bit，所以我们可以利用其他空闲的bit位进行“原地修改”。
-### 代码
+// ### 解题思路
+// 一个 int 有 32 bit，输入数据只用了其中一个 bit，所以我们可以利用其他空闲的bit位进行“原地修改”。
+// ### 代码
 
-```java
+// ```java
 class Solution {
 void gameOfLife(int[][] board) {
         int dx[] = {-1,  0,  1, -1, 1, -1, 0, 1};
@@ -36,4 +36,4 @@ void gameOfLife(int[][] board) {
         }
     }
 }
-```
+// ```

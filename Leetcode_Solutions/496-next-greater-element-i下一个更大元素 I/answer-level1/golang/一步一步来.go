@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	for i:=0;i< len(nums1);i++{
 		x:=nums1[i]
@@ -25,4 +25,4 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	}
 	return nums1
 }
-```
+// ```

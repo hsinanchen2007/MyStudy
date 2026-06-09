@@ -1,6 +1,6 @@
 
 
-```
+// ```
 class Solution {
 public:
     vector<int> findErrorNums(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-将链表转换为数组处理后再转为链表
-```
+// 将链表转换为数组处理后再转为链表
+// ```
 // time: 60ms(90.47%) memory: 33.9(11.69%)
 /**
  * Definition for singly-linked list.
@@ -38,4 +38,4 @@ var swapPairs = function(head) {
 
     return res.next;
 };
-```
+// ```

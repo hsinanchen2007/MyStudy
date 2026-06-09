@@ -1,9 +1,9 @@
-### 解题思路
-因为最多只能给孩子一个饼干，则将s和g从小到大排序，使每个拿到的都是当前最小就能满足他胃口大小的饼干即可
+# ### 解题思路
+# 因为最多只能给孩子一个饼干，则将s和g从小到大排序，使每个拿到的都是当前最小就能满足他胃口大小的饼干即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findContentChildren(self, g, s):
         """
@@ -25,4 +25,4 @@ class Solution(object):
                 i += 1
             j += 1
         return ret  
-```
+# ```

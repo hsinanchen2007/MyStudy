@@ -1,15 +1,15 @@
-### 解题思路
-将官方的解法稍微修改了一下
-因为没有看懂 top_element = stack.pop() if stack else '#'
-所以就改成 if char in key and stack:
-整体思想还是一样的
+# ### 解题思路
+# 将官方的解法稍微修改了一下
+# 因为没有看懂 top_element = stack.pop() if stack else '#'
+# 所以就改成 if char in key and stack:
+# 整体思想还是一样的
 
-执行用时 :12 ms, 在所有 Python 提交中击败了98.69%的用户
-内存消耗 :11.8 MB, 在所有 Python 提交中击败了59.60%的用户
+# 执行用时 :12 ms, 在所有 Python 提交中击败了98.69%的用户
+# 内存消耗 :11.8 MB, 在所有 Python 提交中击败了59.60%的用户
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isValid(self, s):
         """
@@ -27,4 +27,4 @@ class Solution(object):
             else:
                 stack.append(char)
         return not stack
-```
+# ```

@@ -1,8 +1,8 @@
-首发于公众号：算法工程师之路
-直接使用STL算法中的set操作函数，注意set有关的函数必须在排序序列中使用，因此必须先排序！然后使用unique函数去重即可！
+// 首发于公众号：算法工程师之路
+// 直接使用STL算法中的set操作函数，注意set有关的函数必须在排序序列中使用，因此必须先排序！然后使用unique函数去重即可！
 
-（STL库函数版本）
-```c++
+// （STL库函数版本）
+// ```c++
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -15,9 +15,9 @@ public:
         return res;
     }
 };
-```
-（非库函数版本）
-```c++
+// ```
+// （非库函数版本）
+// ```c++
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -36,4 +36,4 @@ public:
         return res;
     }
 };
-```
+// ```

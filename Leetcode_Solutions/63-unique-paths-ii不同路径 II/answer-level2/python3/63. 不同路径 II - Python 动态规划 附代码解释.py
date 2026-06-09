@@ -1,18 +1,18 @@
-#### 说明：
- - 动态规划思想，和 [62. 不同路径](https://leetcode-cn.com/problems/unique-paths/) 基本一致
- - 关于解法的图解， [官方题解的图解](https://leetcode-cn.com/problems/unique-paths-ii/solution/bu-tong-lu-jing-ii-by-leetcode/) 很棒，建议参考
- - 状态转移方程为 $dp[i][j] = dp[i - 1][j] + dp[i][j - 1], 其中i > 1, j > 1$
- - 将障碍物点定义 $0$ ，即直接设置障碍物点的可到达路径数为0，而不使用状态转移方程求解
-#### 效率：
-> Runtime: 48 ms, faster than 96.80% of Python3 online submissions for Unique Paths II.
-> Memory Usage: 14 MB, less than 8.89% of Python3 online submissions for Unique Paths II.
-#### 复杂度分析：
- - 时间复杂度：$O(m*n)$
-   两次遍历二维数组``obstacleGrid``
- - 空间复杂度：$O(1)$
- 创建了``常数级别``的变量；原地修改二维数组``obstacleGrid``内的值
-#### 代码：
-```Python
+# #### 说明：
+#  - 动态规划思想，和 [62. 不同路径](https://leetcode-cn.com/problems/unique-paths/) 基本一致
+#  - 关于解法的图解， [官方题解的图解](https://leetcode-cn.com/problems/unique-paths-ii/solution/bu-tong-lu-jing-ii-by-leetcode/) 很棒，建议参考
+#  - 状态转移方程为 $dp[i][j] = dp[i - 1][j] + dp[i][j - 1], 其中i > 1, j > 1$
+#  - 将障碍物点定义 $0$ ，即直接设置障碍物点的可到达路径数为0，而不使用状态转移方程求解
+# #### 效率：
+# > Runtime: 48 ms, faster than 96.80% of Python3 online submissions for Unique Paths II.
+# > Memory Usage: 14 MB, less than 8.89% of Python3 online submissions for Unique Paths II.
+# #### 复杂度分析：
+#  - 时间复杂度：$O(m*n)$
+#    两次遍历二维数组``obstacleGrid``
+#  - 空间复杂度：$O(1)$
+#  创建了``常数级别``的变量；原地修改二维数组``obstacleGrid``内的值
+# #### 代码：
+# ```Python
 from typing import List
 
 
@@ -58,4 +58,4 @@ class Solution:
                     obstacleGrid[h][w] = obstacleGrid[h - 1][w] + obstacleGrid[h][w - 1]
 
         return obstacleGrid[-1][-1]
-```
+# ```

@@ -1,7 +1,7 @@
-![1.png](https://pic.leetcode-cn.com/44198aea12affc04edf2eeb24d51fcb7d5e207ec0b7ef0c8f3398f4aa0396d48-1.png)
+// ![1.png](https://pic.leetcode-cn.com/44198aea12affc04edf2eeb24d51fcb7d5e207ec0b7ef0c8f3398f4aa0396d48-1.png)
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> transpose(vector<vector<int>>& A) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

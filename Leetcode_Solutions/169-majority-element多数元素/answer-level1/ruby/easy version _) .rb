@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         temp, count = 0, 0 
@@ -17,4 +17,4 @@ class Solution:
                 else:
                     count = count - 1
         return temp 
-```
+# ```

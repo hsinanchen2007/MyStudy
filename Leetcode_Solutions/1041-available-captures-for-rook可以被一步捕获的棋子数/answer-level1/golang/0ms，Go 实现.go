@@ -1,10 +1,10 @@
 
-![image.png](https://pic.leetcode-cn.com/1a7e89ae47f991f1344145bdde54d5db7048a3bf6a4ee802dd735c138d39d18c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1a7e89ae47f991f1344145bdde54d5db7048a3bf6a4ee802dd735c138d39d18c-image.png)
 
-先找到车的位置，然后分别去找上下左右四个方向，直到遇到卒就计数+1，然后退出这个方向的寻找，遇到象直接退出这个方向的寻找。最后返回计数。
+// 先找到车的位置，然后分别去找上下左右四个方向，直到遇到卒就计数+1，然后退出这个方向的寻找，遇到象直接退出这个方向的寻找。最后返回计数。
 
-代码
-```
+// 代码
+// ```
 func numRookCaptures(board [][]byte) int {
     var startx,starty int
     ans := 0
@@ -52,4 +52,4 @@ func numRookCaptures(board [][]byte) int {
     }
     return ans
 }
-```
+// ```

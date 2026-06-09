@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d3f44c6903bf4d4d2c669fe4ee50d549c97458d198e7afb8176dfd934392054f-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d3f44c6903bf4d4d2c669fe4ee50d549c97458d198e7afb8176dfd934392054f-image.png)
 
-- 设计到去重的，一般第一步都是先排序；
-- 明白[3,3,4,5,7], 你可以智能的把 3 变成 6；也可以暴力的把3变成4， 4变成5，5变成6，但最后发现用的次数是一样的，所以暴力没毛病
+// - 设计到去重的，一般第一步都是先排序；
+// - 明白[3,3,4,5,7], 你可以智能的把 3 变成 6；也可以暴力的把3变成4， 4变成5，5变成6，但最后发现用的次数是一样的，所以暴力没毛病
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number}
@@ -33,4 +33,4 @@ var minIncrementForUnique = function(A) {
     }
     return count;
 };
-```
+// ```

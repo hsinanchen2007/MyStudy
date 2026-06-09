@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn max_profit(prices: Vec<i32>) -> i32 {
         let mut diff = 0;
@@ -15,4 +15,4 @@ impl Solution {
         diff
     }
 }
-```
+// ```

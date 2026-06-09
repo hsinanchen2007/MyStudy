@@ -1,13 +1,13 @@
-### 解题思路
-恰巧昨天刷到一个类似的题。
-时间92，内存100.
-建立一个10001长度的数组，全设为0
-将输入的数组遍历，数组对应位置++
-然后输出数组的前k个数字
+// ### 解题思路
+// 恰巧昨天刷到一个类似的题。
+// 时间92，内存100.
+// 建立一个10001长度的数组，全设为0
+// 将输入的数组遍历，数组对应位置++
+// 然后输出数组的前k个数字
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -28,4 +28,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
     }
     return ans;
 }
-```
+// ```

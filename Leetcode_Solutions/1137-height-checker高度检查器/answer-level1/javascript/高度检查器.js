@@ -1,4 +1,4 @@
-```js
+// ```js
 var heightChecker = function(heights) {
     let count = 0
     let heights2 = [...heights]
@@ -10,4 +10,4 @@ var heightChecker = function(heights) {
     }
     return count
 };
-```
+// ```

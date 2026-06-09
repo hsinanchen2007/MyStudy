@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func myPow(x float64, n int) float64 {
     if n == 1{
         return x
@@ -18,4 +18,4 @@ func myPow(x float64, n int) float64 {
     }
         return x*tmp*tmp
 }
-```
+// ```

@@ -1,9 +1,9 @@
-> [860. 柠檬水找零 - 简单](https://leetcode-cn.com/problems/lemonade-change/)
+// > [860. 柠檬水找零 - 简单](https://leetcode-cn.com/problems/lemonade-change/)
 
-> [完整代码实现](https://github.com/bingohuang/go-codes/blob/master/leetcode/editor/cn/p860_d1_LemonadeChange_test.go)
+// > [完整代码实现](https://github.com/bingohuang/go-codes/blob/master/leetcode/editor/cn/p860_d1_LemonadeChange_test.go)
 
-## 1. 遍历法
-```go
+// ## 1. 遍历法
+// ```go
 // 算法1：
 // 如果给5元，不用找
 // 如果给10元，找5元，否则找不开
@@ -35,7 +35,7 @@ func lemonadeChange1(bills []int) bool {
 
 	return true
 }
-```
-### 复杂度分析
-- 时间复杂度：$O(N)$
-- 空间复杂度：$O(1)$
+// ```
+// ### 复杂度分析
+// - 时间复杂度：$O(N)$
+// - 空间复杂度：$O(1)$

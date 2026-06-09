@@ -1,9 +1,9 @@
-### 解题思路
-1、置空法
-2、注意各种情况下的判断语句
+// ### 解题思路
+// 1、置空法
+// 2、注意各种情况下的判断语句
 
-### 代码
-```
+// ### 代码
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,5 +29,5 @@ bool hasCycle(struct ListNode *head) {
         else if(p->next->val==NULL) b=true;
     return b;
 }
-```
+// ```
 

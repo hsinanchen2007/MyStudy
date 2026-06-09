@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class CustomStack {
 public:
     CustomStack(int maxSize) {
@@ -42,4 +42,4 @@ private:
  * int param_2 = obj->pop();
  * obj->increment(k,val);
  */
-```
+// ```

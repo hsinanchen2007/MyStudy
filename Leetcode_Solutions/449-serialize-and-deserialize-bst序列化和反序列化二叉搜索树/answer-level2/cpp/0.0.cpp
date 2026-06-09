@@ -1,4 +1,4 @@
-```
+// ```
 /*
 二叉查找树/二叉排序树/二叉搜索树，对于一个node，左子树均小于等于node，右子树均大于等于node，
 中序遍历是排序好的的数据，对于二叉排序树有插入一个元素BST_insert和查找一个元素BST_search的操作
@@ -101,4 +101,4 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
-```
+// ```

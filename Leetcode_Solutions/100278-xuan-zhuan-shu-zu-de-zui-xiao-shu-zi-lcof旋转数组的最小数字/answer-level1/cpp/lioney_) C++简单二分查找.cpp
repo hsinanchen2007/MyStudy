@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minArray(vector<int>& numbers) {
@@ -16,4 +16,4 @@ public:
         return numbers[left];
     }
 };
-```
+// ```

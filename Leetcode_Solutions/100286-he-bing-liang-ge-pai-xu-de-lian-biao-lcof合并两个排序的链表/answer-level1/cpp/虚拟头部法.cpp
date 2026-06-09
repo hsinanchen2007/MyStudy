@@ -1,9 +1,9 @@
-### 解题思路
-创建一个头，然后依次遍历l1，l2链表。详情看注释
+// ### 解题思路
+// 创建一个头，然后依次遍历l1，l2链表。详情看注释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,4 +44,4 @@ public:
         return head->next;
     }
 };
-```
+// ```

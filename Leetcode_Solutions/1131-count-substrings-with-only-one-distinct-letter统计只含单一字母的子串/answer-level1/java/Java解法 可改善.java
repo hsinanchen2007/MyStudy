@@ -1,10 +1,10 @@
-### 解题思路
-有点动态规划的样子 但完全不是
-就是把长度l作为每次循环的次数
+// ### 解题思路
+// 有点动态规划的样子 但完全不是
+// 就是把长度l作为每次循环的次数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
         public static int countLetters(String S) {
         char[] s=S.toCharArray();
@@ -20,4 +20,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

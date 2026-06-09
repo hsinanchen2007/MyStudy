@@ -1,9 +1,9 @@
-### 解题思路
-在构造函数中维护一个数组，用于存储数据；
+# ### 解题思路
+# 在构造函数中维护一个数组，用于存储数据；
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution(object):
             self.preorderTraversal(root.left)
             self.preorderTraversal(root.right)
         return self.nodes
-```
+# ```

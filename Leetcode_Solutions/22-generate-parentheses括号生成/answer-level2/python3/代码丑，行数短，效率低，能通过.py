@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> list:
         result = []
@@ -23,4 +23,4 @@ class Solution:
             if f:
                 result.append(x.replace('1', '(').replace('0', ')'))
         return result
-```
+# ```

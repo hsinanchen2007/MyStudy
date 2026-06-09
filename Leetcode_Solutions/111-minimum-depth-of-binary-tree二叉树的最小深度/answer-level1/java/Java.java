@@ -1,9 +1,9 @@
-### 解题思路
-就是需要多考虑一种特殊情况：只有左/右子树
+// ### 解题思路
+// 就是需要多考虑一种特殊情况：只有左/右子树
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
 
    
 }
-```
+// ```

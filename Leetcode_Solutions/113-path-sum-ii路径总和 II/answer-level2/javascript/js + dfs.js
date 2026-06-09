@@ -1,5 +1,5 @@
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -38,4 +38,4 @@ var pathSum = function(root, sum) {
     one(list,0,root);
     return result;
 };
-```
+// ```

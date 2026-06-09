@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strToInt(self, str1: str) -> int:
         # 为空， 直接返回
@@ -58,4 +58,4 @@ class Solution:
         for elem in num_str:
             res = res * 10 + int(elem)
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -18,4 +18,4 @@ var permute = function (nums) {
   f(nums,[]);
   return result;
 };
-```
+// ```

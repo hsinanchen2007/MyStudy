@@ -1,5 +1,5 @@
-快速排序：
-```cpp
+// 快速排序：
+// ```cpp
 class Solution
 {
 public:
@@ -39,9 +39,9 @@ public:
 		return head;
 	}
 };
-```
-归并排序：
-```cpp
+// ```
+// 归并排序：
+// ```cpp
 class Solution
 {
 public:
@@ -94,4 +94,4 @@ public:
 		return merge(p1, p2);
 	}
 };
-```
+// ```

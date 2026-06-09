@@ -1,9 +1,9 @@
-### 解题思路
-后序遍历：先遍历左孩子，再遍历右孩子，再自身
+# ### 解题思路
+# 后序遍历：先遍历左孩子，再遍历右孩子，再自身
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
         posr(root)
         return L
 
-```
+# ```

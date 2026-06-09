@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isNumber(string s) {
@@ -56,5 +56,5 @@ public:
         return has_front_num && i >= s.size();
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/c16d6e48a43fcc55a67129112fb151ccc619440e7ac759dc2c097b3b45ad5d8f-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/c16d6e48a43fcc55a67129112fb151ccc619440e7ac759dc2c097b3b45ad5d8f-image.png)

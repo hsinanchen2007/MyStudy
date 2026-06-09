@@ -1,11 +1,11 @@
-### 解题思路
-奥里给，干就完了！
+// ### 解题思路
+// 奥里给，干就完了！
 
-qsort排序，然后再依次看进行不重复操作
+// qsort排序，然后再依次看进行不重复操作
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(void *a,const void *b)
 {
     return (*(int*) a -*(int*) b); //强制类型转化
@@ -42,4 +42,4 @@ int minIncrementForUnique(int* A, int ASize)
     }
     return cnt;
 }
-```
+// ```

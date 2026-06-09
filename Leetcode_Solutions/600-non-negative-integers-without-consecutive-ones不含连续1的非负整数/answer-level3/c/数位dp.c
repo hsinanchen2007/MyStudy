@@ -1,5 +1,5 @@
-数位dp，要求是求其二进制不包含连续1的个数，可以考虑将整数转换成其二进制表示，然后使用二进制数位dp求解
-```
+// 数位dp，要求是求其二进制不包含连续1的个数，可以考虑将整数转换成其二进制表示，然后使用二进制数位dp求解
+// ```
 #define MAX_LEN 31
 int digits[MAX_LEN];
 int dp[MAX_LEN][2][2][2][2];
@@ -43,4 +43,4 @@ int findIntegers(int num){
     len = GetDigits(num);
     return dfs(len - 1, 0, 0, 1, 1);
 }
-```
+// ```

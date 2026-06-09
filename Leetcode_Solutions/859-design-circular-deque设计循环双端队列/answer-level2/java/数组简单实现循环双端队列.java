@@ -1,15 +1,15 @@
-### 解题思路
-双端队列设计的核心：
-1.front和rear都初始化为0，
-2.队列为空：front == rear，队列满：(rear+1)%maxSize == front;
-3.队列为满时，数组需要空出一个空间，原因是队列为满时front不能等于rear
+// ### 解题思路
+// 双端队列设计的核心：
+// 1.front和rear都初始化为0，
+// 2.队列为空：front == rear，队列满：(rear+1)%maxSize == front;
+// 3.队列为满时，数组需要空出一个空间，原因是队列为满时front不能等于rear
 
 
-[个人博客地址](http://47.101.136.180/)
+// [个人博客地址](http://47.101.136.180/)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyCircularDeque {
 
 	int[] arr;
@@ -101,4 +101,4 @@ class MyCircularDeque {
 		return (rear + 1) % maxSize == front;
 	}
 }
-```
+// ```

@@ -1,5 +1,5 @@
-![捕获.PNG](https://pic.leetcode-cn.com/b9286fdaa07700b7242d0917e5bf91859abac0bc77c29399bd1e6eb4c7ba88f8-%E6%8D%95%E8%8E%B7.PNG)
-```
+# ![捕获.PNG](https://pic.leetcode-cn.com/b9286fdaa07700b7242d0917e5bf91859abac0bc77c29399bd1e6eb4c7ba88f8-%E6%8D%95%E8%8E%B7.PNG)
+# ```
 解题思路：先使用计数器得到字符串s中每个字符的出现的次数，奇数次的出现次数必须为1或0才能构成回文数
 from collections import Counter
 class Solution:
@@ -15,4 +15,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

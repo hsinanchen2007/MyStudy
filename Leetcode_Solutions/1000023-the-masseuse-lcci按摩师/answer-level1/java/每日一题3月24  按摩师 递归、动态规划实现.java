@@ -1,7 +1,7 @@
-### 解题思路
-1. 递归实现会超时，代码如下：
-### 代码
-```java
+// ### 解题思路
+// 1. 递归实现会超时，代码如下：
+// ### 代码
+// ```java
 class Solution {
     public int massage(int[] nums) {
         if (nums == null) return 0;
@@ -19,12 +19,12 @@ class Solution {
         return Math.max(tmp1, tmp2);
     }
 }
-```
+// ```
 
-2. 利用动态规划实现，dp[i] = max(dp[i-1], dp[i-2] + nums[i]) 
-### 代码
+// 2. 利用动态规划实现，dp[i] = max(dp[i-1], dp[i-2] + nums[i]) 
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int massage(int[] nums) {
         if (nums == null) return 0;
@@ -42,4 +42,4 @@ class Solution {
     }
 
 }
-```
+// ```

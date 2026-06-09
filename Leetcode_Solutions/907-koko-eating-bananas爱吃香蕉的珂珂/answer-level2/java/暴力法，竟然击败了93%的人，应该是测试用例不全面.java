@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/7b9a695355c91dc1397425716605b83d66e07055e3ad97cdc677e388ef524070-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7b9a695355c91dc1397425716605b83d66e07055e3ad97cdc677e388ef524070-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minEatingSpeed(int[] piles, int H) {
         long sum = 0;
@@ -27,4 +27,4 @@ class Solution {
         }
     }
 }
-```
+// ```

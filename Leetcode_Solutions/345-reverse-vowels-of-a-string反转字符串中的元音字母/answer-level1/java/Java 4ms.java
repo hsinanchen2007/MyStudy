@@ -1,9 +1,9 @@
-### 解题思路
-类似快排的思想
+// ### 解题思路
+// 类似快排的思想
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseVowels(String s) {
         //a e i o u
@@ -40,4 +40,4 @@ class Solution {
         }
     }
 }
-```
+// ```

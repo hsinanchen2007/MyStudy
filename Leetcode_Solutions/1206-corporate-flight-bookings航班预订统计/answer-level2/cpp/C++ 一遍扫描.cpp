@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> corpFlightBookings(vector<vector<int>>& bookings, int n) {
@@ -14,6 +14,6 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/7b65b8ef1d0ac63056613615f7301f7db94e055448c7198041d31930fdd88c14-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/7b65b8ef1d0ac63056613615f7301f7db94e055448c7198041d31930fdd88c14-image.png)
 

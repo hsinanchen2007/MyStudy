@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} solution
  * @param {string} guess
@@ -28,4 +28,4 @@ var masterMind = function (solution, guess) {
     arr[1] = arr[1] - arr[0]
     return arr
 };
-```
+// ```

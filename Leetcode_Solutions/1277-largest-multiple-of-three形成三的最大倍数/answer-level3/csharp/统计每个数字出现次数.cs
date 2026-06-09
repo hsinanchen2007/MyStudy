@@ -1,13 +1,13 @@
-### 解题思路
-数字从大到小排序
-统计每个数字出现次数
-%3 == 0 数字 必然全在结果中
-接着对 %3 != 0 每个数字的数量进行推导
-每个数字最多三种情况数量 0 1 2
+// ### 解题思路
+// 数字从大到小排序
+// 统计每个数字出现次数
+// %3 == 0 数字 必然全在结果中
+// 接着对 %3 != 0 每个数字的数量进行推导
+// 每个数字最多三种情况数量 0 1 2
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, int>;
 class LargeNum{
 
@@ -203,4 +203,4 @@ public class Solution {
         return ln.LargestMultipleOfThree(digits);
     }
 }
-```
+// ```

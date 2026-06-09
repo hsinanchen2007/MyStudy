@@ -1,9 +1,9 @@
-### 解题思路
-判断转换后的int是否和long类型的结果是否一致
+// ### 解题思路
+// 判断转换后的int是否和long类型的结果是否一致
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         
@@ -20,4 +20,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
+# ### 解题思路
 
-![图片.png](https://pic.leetcode-cn.com/47abc86f7abff87bdda21ac012b6849d482c5d0002ba7ba461df114f9a4cec71-%E5%9B%BE%E7%89%87.png)
+# ![图片.png](https://pic.leetcode-cn.com/47abc86f7abff87bdda21ac012b6849d482c5d0002ba7ba461df114f9a4cec71-%E5%9B%BE%E7%89%87.png)
 
-我们需要搞清楚删除每个元素的思路就可以，首先是按照频率进行排序，其次在同频率下按照最近使用。因此在同样的使用频率下其实就是一个LRU系统。 对于LRU系统的实现，我们借助python中collections.OrderedDict()来实现。具体的参考第146题。
-本题中，首先我们有一个字典，链接到每个结点，然后节点包括了两个属性，一个是排序字典，一个是当前结点对应的频率。
-我们在删除最少使用元素时，只需要删除star节点后面的一个节点的内容即可。如果该节点内排序字典长度为1。则删除这个节点，否则按照LRU的设计理念，删除字典最左侧的内容。
+# 我们需要搞清楚删除每个元素的思路就可以，首先是按照频率进行排序，其次在同频率下按照最近使用。因此在同样的使用频率下其实就是一个LRU系统。 对于LRU系统的实现，我们借助python中collections.OrderedDict()来实现。具体的参考第146题。
+# 本题中，首先我们有一个字典，链接到每个结点，然后节点包括了两个属性，一个是排序字典，一个是当前结点对应的频率。
+# 我们在删除最少使用元素时，只需要删除star节点后面的一个节点的内容即可。如果该节点内排序字典长度为1。则删除这个节点，否则按照LRU的设计理念，删除字典最左侧的内容。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Listnode():
     def __init__(self, fre = None):
         self.num = fre
@@ -115,4 +115,4 @@ class LFUCache(object):
 # obj = LFUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

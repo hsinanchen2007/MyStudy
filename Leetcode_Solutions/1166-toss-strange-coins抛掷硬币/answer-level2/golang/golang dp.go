@@ -1,7 +1,7 @@
-每个硬币有且仅有正反两种情况，那么我们只需要分别分析这两种情况。
-`map[key]value` key 表示目前存在的正面的个数，value 表示对应的概率。
-每次计算当前情况，只需要将 map 中所有的 key 拿出来计算即可 
-```
+// 每个硬币有且仅有正反两种情况，那么我们只需要分别分析这两种情况。
+// `map[key]value` key 表示目前存在的正面的个数，value 表示对应的概率。
+// 每次计算当前情况，只需要将 map 中所有的 key 拿出来计算即可 
+// ```
 func probabilityOfHeads(prob []float64, target int) float64 {
     m := map[int]float64{}
     m[0] = 1 - prob[0]
@@ -18,4 +18,4 @@ func probabilityOfHeads(prob []float64, target int) float64 {
     }
     return m[target]
 }
-```
+// ```

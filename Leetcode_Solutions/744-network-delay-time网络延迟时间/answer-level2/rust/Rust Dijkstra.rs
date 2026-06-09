@@ -1,8 +1,8 @@
-次方法依據 rustdoc binary_heap的示例改造 改造而來，詳細查看以下鏈接
-[binary_heap](https://doc.rust-lang.org/nightly/alloc/collections/binary_heap/index.html)
+// 次方法依據 rustdoc binary_heap的示例改造 改造而來，詳細查看以下鏈接
+// [binary_heap](https://doc.rust-lang.org/nightly/alloc/collections/binary_heap/index.html)
 
 
-```rust
+// ```rust
 struct Solution;
 // @lc code=start
 use std::cmp::Ordering;
@@ -65,4 +65,4 @@ impl Solution {
     }
 }
 // @lc code=end
-```
+// ```

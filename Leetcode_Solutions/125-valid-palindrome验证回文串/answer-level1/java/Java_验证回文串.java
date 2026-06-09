@@ -1,10 +1,10 @@
-### 解题思路
-1. 先过滤掉非字母数字，考虑到删除无效字符很麻烦，正难则反，不如将有效字符存入StringBuilder中！
-2. 再用首尾指针判断StringBuilder是否是回文串。
+// ### 解题思路
+// 1. 先过滤掉非字母数字，考虑到删除无效字符很麻烦，正难则反，不如将有效字符存入StringBuilder中！
+// 2. 再用首尾指针判断StringBuilder是否是回文串。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(String s) {
         int length=s.length();
@@ -25,4 +25,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

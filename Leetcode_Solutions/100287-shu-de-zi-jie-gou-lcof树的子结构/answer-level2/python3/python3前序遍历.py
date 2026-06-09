@@ -1,9 +1,9 @@
-### 解题思路
-遍历A树，使用一个辅助函数isSame判断两树相同（和leetcode572差别就在isSame定义上）
+# ### 解题思路
+# 遍历A树，使用一个辅助函数isSame判断两树相同（和leetcode572差别就在isSame定义上）
 
-### 前序遍历用递归
+# ### 前序遍历用递归
 
-```python
+# ```python
 
 class Solution:
     def isSubStructure(self, A: TreeNode, B: TreeNode) -> bool:
@@ -27,10 +27,10 @@ class Solution:
         # 递归
         return p.val == q.val and self.isSame(p.left, q.left) and self.isSame(p.right, q.right)
 
-```
+# ```
 
-### 前序遍历用迭代
-```python
+# ### 前序遍历用迭代
+# ```python
 class Solution:
     def isSubStructure(self, A: TreeNode, B: TreeNode) -> bool:
         # 遍历A树
@@ -66,4 +66,4 @@ class Solution:
             return False
         # 递归
         return p.val == q.val and self.isSame(p.left, q.left) and self.isSame(p.right, q.right)
-```
+# ```

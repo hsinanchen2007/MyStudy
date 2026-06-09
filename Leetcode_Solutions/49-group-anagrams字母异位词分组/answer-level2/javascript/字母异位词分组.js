@@ -1,6 +1,6 @@
-- 对字母字符串进行排序
-- 用哈希表存下每个排序后的字符串
-```javascript
+// - 对字母字符串进行排序
+// - 用哈希表存下每个排序后的字符串
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string[][]}
@@ -24,6 +24,6 @@ var groupAnagrams = function(strs) {
    }
    return ans;
 };
-```
-时间复杂度：O(nklogk),n是strs的长度,k是字符串长度，for循环的时间复杂度O(n)，sort的时间复杂度O(klogk)
-空间复杂度: O(n),用哈希表存储了每个值
+// ```
+// 时间复杂度：O(nklogk),n是strs的长度,k是字符串长度，for循环的时间复杂度O(n)，sort的时间复杂度O(klogk)
+// 空间复杂度: O(n),用哈希表存储了每个值

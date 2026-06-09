@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int arrayPairSum(vector<int>& nums) {
@@ -11,4 +11,4 @@ public:
         return s;
     }
 };
-```
+// ```

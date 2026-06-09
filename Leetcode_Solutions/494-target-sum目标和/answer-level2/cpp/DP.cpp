@@ -1,9 +1,9 @@
-### 解题思路
-将问题的解看成为状态的答案，并分析不同状态答案的关系，以第一次转移状态过程为例：问题要求我们求出0，到nums.size()-1和为S的个数，而该问题可分为求从1到nums.size()-1和为S-nums[0]的解个数与从1到nums.size()-1和为S+nums[0]的解个数，注意一个可以优化的细节，当目标值绝对值大于从该下角标curr开始到nums.size()-1的部分和时,是不可能有解的，因为超出了curr后面那部分所能表示的上下界。
+// ### 解题思路
+// 将问题的解看成为状态的答案，并分析不同状态答案的关系，以第一次转移状态过程为例：问题要求我们求出0，到nums.size()-1和为S的个数，而该问题可分为求从1到nums.size()-1和为S-nums[0]的解个数与从1到nums.size()-1和为S+nums[0]的解个数，注意一个可以优化的细节，当目标值绝对值大于从该下角标curr开始到nums.size()-1的部分和时,是不可能有解的，因为超出了curr后面那部分所能表示的上下界。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int methods(map<int, map<int, int>>&dp, int*sumOfPost, int curr,vector<int>&nums,int target)
@@ -64,4 +64,4 @@ int methods(map<int, map<int, int>>&dp, int*sumOfPost, int curr,vector<int>&nums
     else return re;
     }
 };
-```
+// ```

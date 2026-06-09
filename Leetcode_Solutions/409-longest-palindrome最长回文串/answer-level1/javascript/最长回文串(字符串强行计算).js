@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var longestPalindrome = function(s) {
   let len = s.length // 总长度
   let arrAll = [] // 可组成会文串数组
@@ -27,4 +27,4 @@ var longestPalindrome = function(s) {
   })
   return maxOddNumber + evenNumber + Number(isHaveOdd)
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/530ea7eb1a339757753e350c6008cde107b3ec84ed476d0629681762aad8cc94-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/530ea7eb1a339757753e350c6008cde107b3ec84ed476d0629681762aad8cc94-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
         return nums.size();
     }
 };
-```
+// ```

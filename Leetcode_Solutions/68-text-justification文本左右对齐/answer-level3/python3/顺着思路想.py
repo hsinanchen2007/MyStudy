@@ -1,22 +1,22 @@
-## 思路:
+# ## 思路:
 
-首先要理顺题意,给定一堆单词,让你放在固定长度字符串里
+# 首先要理顺题意,给定一堆单词,让你放在固定长度字符串里
 
-1. 两个单词之间至少有一个空格,如果单词加空格长度超过`maxWidth`,说明该单词放不下,比如示例1:当我们保证`this is an` 再加入`example`变成`this is an example`总长度超过`maxWidth`,所以这一行只能放下`this` `is` `an` 这三个单词;
-2. `this is an`长度小于`maxWidth`,我们考虑分配空格,并保证左边空格数大于右边的
-3. 最后一行,要尽量靠左,例如示例2的:`"shall be        "`
+# 1. 两个单词之间至少有一个空格,如果单词加空格长度超过`maxWidth`,说明该单词放不下,比如示例1:当我们保证`this is an` 再加入`example`变成`this is an example`总长度超过`maxWidth`,所以这一行只能放下`this` `is` `an` 这三个单词;
+# 2. `this is an`长度小于`maxWidth`,我们考虑分配空格,并保证左边空格数大于右边的
+# 3. 最后一行,要尽量靠左,例如示例2的:`"shall be        "`
 
-我们针对上面三个问题,有如下解决方案.
+# 我们针对上面三个问题,有如下解决方案.
 
-1. 先找到一行最多可以容下几个单词;
-2. 分配空格,例如`this` `is` `an` ,对于宽度为`maxWidth`,我们可以用`maxWidth - all_word_len` 与需要空格数商为 单词间 空格至少的个数,余数是一个一个分配给左边.就能保证左边空格数大于右边的.例如 `16 - 8 = 8`  ,`a = 8 / 2, b = 8 % 2`两个单词间要有4个空格,因为余数为零不用分配;
-3. 针对最后一行单独考虑;
+# 1. 先找到一行最多可以容下几个单词;
+# 2. 分配空格,例如`this` `is` `an` ,对于宽度为`maxWidth`,我们可以用`maxWidth - all_word_len` 与需要空格数商为 单词间 空格至少的个数,余数是一个一个分配给左边.就能保证左边空格数大于右边的.例如 `16 - 8 = 8`  ,`a = 8 / 2, b = 8 % 2`两个单词间要有4个空格,因为余数为零不用分配;
+# 3. 针对最后一行单独考虑;
 
-详细的解释写在代码里,大家一步一步从头看一遍,就明白了,如有不明白,可以留言!  不擅长 `Java` 写的好费劲.
+# 详细的解释写在代码里,大家一步一步从头看一遍,就明白了,如有不明白,可以留言!  不擅长 `Java` 写的好费劲.
 
-## 代码:
+# ## 代码:
 
-```python [1]
+# ```python [1]
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
         res = []
@@ -66,13 +66,13 @@ class Solution:
             #print(tmp, len(tmp))
             res.append(tmp.ljust(maxWidth, " "))
         return res
-```
+# ```
 
  
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public List<String> fullJustify(String[] words, int maxWidth) {
         List<String> res = new ArrayList<>();
@@ -139,5 +139,5 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 

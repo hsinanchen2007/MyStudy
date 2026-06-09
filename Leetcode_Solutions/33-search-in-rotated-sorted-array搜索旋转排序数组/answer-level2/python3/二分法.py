@@ -1,9 +1,9 @@
-区别于普通二分法，每次切完之后，要判断剩下的子数组是否还包含两段。如果不包含，就是普通二分法，如果包含，就要仔细分类讨论。
-内存消耗有点高。
-![image.png](https://pic.leetcode-cn.com/b6e39464ff58dc44c454e9b54603add9eb9a6419bbb0064bce5f160979cc5b22-image.png)
+# 区别于普通二分法，每次切完之后，要判断剩下的子数组是否还包含两段。如果不包含，就是普通二分法，如果包含，就要仔细分类讨论。
+# 内存消耗有点高。
+# ![image.png](https://pic.leetcode-cn.com/b6e39464ff58dc44c454e9b54603add9eb9a6419bbb0064bce5f160979cc5b22-image.png)
 
 
-```
+# ```
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         L = 0
@@ -64,4 +64,4 @@ class Solution:
 
 
 
-```
+# ```

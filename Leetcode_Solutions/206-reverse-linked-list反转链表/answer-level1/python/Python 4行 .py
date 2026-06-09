@@ -1,9 +1,9 @@
-### 解题思路
-Python iteratively
+# ### 解题思路
+# Python iteratively
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -16,4 +16,4 @@ class Solution:
         while head:
             head.next, p, head = p, head, head.next
         return p
-```
+# ```

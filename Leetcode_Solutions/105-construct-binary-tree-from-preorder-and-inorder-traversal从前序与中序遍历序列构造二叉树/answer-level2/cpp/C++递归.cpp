@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ TreeNode *func(vector<int>& preorder, vector<int>& inorder,int i,int j){
         return func(preorder,inorder,0,inorder.size()-1);
     }
 };
-```
+// ```

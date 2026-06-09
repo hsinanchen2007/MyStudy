@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def trap(self, height: List[int]) -> int:
         # 每一个位置能接的水 = min（左边最高，右边最高）- 当前位置高度
@@ -18,4 +18,4 @@ class Solution:
             if h > left_max:
                 left_max = h
         return result
-```
+# ```

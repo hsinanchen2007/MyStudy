@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} gas
  * @param {number[]} cost
@@ -22,4 +22,4 @@ var canCompleteCircuit = function(gas, cost) {
    }
    return sum>=0? res:-1 // 根据（1）若总耗油量为负则没有找到解返回-1
 };
-```
+// ```

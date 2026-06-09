@@ -1,11 +1,11 @@
-## 思路：
-     （1）用left和right指针，开始时都为0：
-     （2）right指针向右一直走，过程中记录相同字符的数量，当right遇到下一个不同的字符时就处理一次数据
-     将其加入sb。同时将left移到right的位置，count（相同字符的数量）归零，开始下一组计数。
-     （3）直到right越界结束。
+// ## 思路：
+//      （1）用left和right指针，开始时都为0：
+//      （2）right指针向右一直走，过程中记录相同字符的数量，当right遇到下一个不同的字符时就处理一次数据
+//      将其加入sb。同时将left移到right的位置，count（相同字符的数量）归零，开始下一组计数。
+//      （3）直到right越界结束。
 
-## 代码：
-```java
+// ## 代码：
+// ```java
 class Solution {
     public int compress(char[] chars) {
         StringBuffer sb = new StringBuffer();
@@ -36,4 +36,4 @@ class Solution {
         return re.length;
     }
 }
-```
+// ```

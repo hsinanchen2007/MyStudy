@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-观察 格林码（gray code）相邻的二进制其实就是前n-1位相等，第n位差1，所以只要求出n-1位，然后给其 list 上添加 0 和 1，注意先 0 后 1，再 1 后 0，如下：
+# ### 解题思路
+# 此处撰写解题思路
+# 观察 格林码（gray code）相邻的二进制其实就是前n-1位相等，第n位差1，所以只要求出n-1位，然后给其 list 上添加 0 和 1，注意先 0 后 1，再 1 后 0，如下：
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def grayCode(self, n):
         """
@@ -30,4 +30,4 @@ class Solution(object):
             l2.append(t1)
             l2.append(t2)
         return l2
-```
+# ```

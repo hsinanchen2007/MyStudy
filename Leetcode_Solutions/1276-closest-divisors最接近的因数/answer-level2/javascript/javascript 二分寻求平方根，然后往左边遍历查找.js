@@ -1,4 +1,4 @@
-```
+// ```
 var closestDivisors = function(num) {
   let resultArr = []
   let low = 0
@@ -37,4 +37,4 @@ var closestDivisors = function(num) {
   }
   return resultArr
 };
-```
+// ```

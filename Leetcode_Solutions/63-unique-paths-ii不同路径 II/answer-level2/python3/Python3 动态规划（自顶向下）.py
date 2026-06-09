@@ -1,14 +1,14 @@
-`执行用时 :
-48 ms
-, 在所有 Python3 提交中击败了
-93.35%
-的用户
-内存消耗 :
-13 MB
-, 在所有 Python3 提交中击败了
-90.04%
-的用户`
-```
+# `执行用时 :
+# 48 ms
+# , 在所有 Python3 提交中击败了
+# 93.35%
+# 的用户
+# 内存消耗 :
+# 13 MB
+# , 在所有 Python3 提交中击败了
+# 90.04%
+# 的用户`
+# ```
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         m = len(obstacleGrid)  # m 行
@@ -35,4 +35,4 @@ class Solution:
                 else:
                     dp[i][j] = dp[i-1][j] + dp[i][j-1]
         return dp[-1][-1]
-```
+# ```

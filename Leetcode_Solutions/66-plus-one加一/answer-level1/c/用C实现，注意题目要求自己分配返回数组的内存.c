@@ -1,4 +1,4 @@
-```
+// ```
 int* plusOne(int* digits, int digitsSize, int* returnSize){
     for(int i = digitsSize - 1; i >= 0; --i) {
         //++digits[i];
@@ -17,4 +17,4 @@ int* plusOne(int* digits, int digitsSize, int* returnSize){
     returnArry[0] = 1;
     return returnArry;
 }
-```
+// ```

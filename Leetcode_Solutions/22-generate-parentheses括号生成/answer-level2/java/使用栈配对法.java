@@ -1,11 +1,11 @@
-[leetcode22](https://leetcode-cn.com/problems/generate-parentheses/)
+// [leetcode22](https://leetcode-cn.com/problems/generate-parentheses/)
 
-* 使用栈表示当前没有配对的`（`,不用实际入栈，只要记录个数即可
-  * 所以对于下一个位置
-    * 如果还有剩余括号对数，添加`（`，同时`（`入栈
-    * 如果`（`栈不为空，`（`出栈，同时添加`）`
+// * 使用栈表示当前没有配对的`（`,不用实际入栈，只要记录个数即可
+//   * 所以对于下一个位置
+//     * 如果还有剩余括号对数，添加`（`，同时`（`入栈
+//     * 如果`（`栈不为空，`（`出栈，同时添加`）`
 
-```java
+// ```java
 class Solution {
     List<String> list = new ArrayList<>();
     public List<String> generateParenthesis(int n) {
@@ -32,5 +32,5 @@ class Solution {
         return ;
     }
 }
-```
+// ```
 

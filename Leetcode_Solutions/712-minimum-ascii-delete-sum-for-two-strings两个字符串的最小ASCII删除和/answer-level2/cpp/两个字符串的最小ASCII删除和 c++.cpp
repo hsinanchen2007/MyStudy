@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/c0c3d26c9ee00f821cc9d5849db5b30a1dffb6a548e80086eba58364b44e23f9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c0c3d26c9ee00f821cc9d5849db5b30a1dffb6a548e80086eba58364b44e23f9-image.png)
 
-### 解题思路
-可以先做一下leetcode第1143题。
-最小ASCII删除和  等价于求 最大ASCII和的公共序列。
-思路就类似最长公共子序列。只是这里状态转移方程保存的是s2中以s[n]结尾的最大ASCII和的值
-### 代码
-```cpp
+// ### 解题思路
+// 可以先做一下leetcode第1143题。
+// 最小ASCII删除和  等价于求 最大ASCII和的公共序列。
+// 思路就类似最长公共子序列。只是这里状态转移方程保存的是s2中以s[n]结尾的最大ASCII和的值
+// ### 代码
+// ```cpp
 class Solution {
 public:
     int minimumDeleteSum(string s1, string s2) {
@@ -25,11 +25,11 @@ public:
         return total - 2 * dp[l1][l2];
     }
 };
-```
+// ```
 
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumDeleteSum(string s1, string s2) {
@@ -52,4 +52,4 @@ public:
         return total - 2 * dp[l2];
     }
 };
-```
+// ```

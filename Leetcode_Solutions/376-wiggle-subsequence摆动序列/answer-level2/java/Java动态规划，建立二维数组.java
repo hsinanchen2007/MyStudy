@@ -1,9 +1,9 @@
-### 解题思路
-建立二维数组dp[nums.length][2],第二维分别代表与前一个相减为正或者为负
+// ### 解题思路
+// 建立二维数组dp[nums.length][2],第二维分别代表与前一个相减为正或者为负
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int wiggleMaxLength(int[] nums) {
         if(nums.length < 2){
@@ -36,4 +36,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

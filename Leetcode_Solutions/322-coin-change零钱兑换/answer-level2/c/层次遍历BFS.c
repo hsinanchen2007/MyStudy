@@ -1,4 +1,4 @@
-```
+// ```
 #define min(x,y) x<y?x:y
 int cmpfunc (const void * a, const void * b)
 {
@@ -38,4 +38,4 @@ int coinChange(int* coins, int coinsSize, int amount){
 	return steps;
 
     }
-```
+// ```

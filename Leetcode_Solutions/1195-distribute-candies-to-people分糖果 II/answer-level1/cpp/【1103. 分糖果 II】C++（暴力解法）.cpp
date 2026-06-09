@@ -1,9 +1,9 @@
-### 解题思路
-暴力循环，有糖果就分
+// ### 解题思路
+// 暴力循环，有糖果就分
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -24,4 +24,4 @@ public:
         return child;
     }
 };
-```
+// ```

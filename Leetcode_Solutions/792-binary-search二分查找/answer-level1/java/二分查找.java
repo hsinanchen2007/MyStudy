@@ -1,4 +1,4 @@
-```
+// ```
 public int search(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
         //要right这里不能等于，否则left等于right时候可能会死循环
@@ -13,9 +13,9 @@ public int search(int[] nums, int target) {
         }
         return nums[right] == target ? right : -1;
     }
-```
+// ```
 
-```
+// ```
 public int search(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
         //要left这里要等于
@@ -33,5 +33,5 @@ public int search(int[] nums, int target) {
             return -1;
         return nums[left-1] == target ? left-1 : -1;
     }
-```
+// ```
 

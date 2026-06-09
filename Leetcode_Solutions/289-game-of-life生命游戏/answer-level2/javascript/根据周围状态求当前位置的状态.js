@@ -1,11 +1,11 @@
-### 解题思路
-1. 获取每个细胞周围的状态和；
-2. 同事更新需要深度复制源数组；
-3. 根据规则来更新细胞状态。
+// ### 解题思路
+// 1. 获取每个细胞周围的状态和；
+// 2. 同事更新需要深度复制源数组；
+// 3. 根据规则来更新细胞状态。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -63,4 +63,4 @@ var calculate = function(board, i, j) {
 
     return sum;
 }
-```
+// ```

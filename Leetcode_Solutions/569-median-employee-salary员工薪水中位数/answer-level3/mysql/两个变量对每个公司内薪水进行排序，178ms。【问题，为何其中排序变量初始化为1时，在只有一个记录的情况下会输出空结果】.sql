@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 #（1）使用两个变量，对每个公司内的薪水进行排序，并增加新列来标记；
 #（2）算出每个公司的人数
@@ -40,4 +40,4 @@
             (
                 c.neworder in (round(totalnum/2,0),round((totalnum+1)/2,0))
             )
-```
+-- ```

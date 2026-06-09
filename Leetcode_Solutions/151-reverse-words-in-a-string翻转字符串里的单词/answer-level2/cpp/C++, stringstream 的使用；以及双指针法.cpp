@@ -1,9 +1,9 @@
-### 解题思路
-做牛ke网面试题的时候，很有用；先getline一行，每行在如本题，放入stringstream
+// ### 解题思路
+// 做牛ke网面试题的时候，很有用；先getline一行，每行在如本题，放入stringstream
 
-### 代码1
+// ### 代码1
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -24,10 +24,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 双指针法
-```
+// ### 双指针法
+// ```
 class Solution {
 public:
     string reverseWords(string s) {
@@ -49,4 +49,4 @@ public:
         return res.substr(0,res.size()-1);
     }
 };
-```
+// ```

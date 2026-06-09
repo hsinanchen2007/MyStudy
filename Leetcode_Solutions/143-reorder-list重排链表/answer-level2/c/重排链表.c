@@ -1,20 +1,20 @@
-### 解题思路
-此处撰写解题思路
-1.首先统计链表长度，如果链表长度小于3则无需插入直接返回。
-2.计算在当前链表长度下最多能从尾部获取几个节点，比如：假设n为链表长度，m为尾部可用节点个数，则有 
-n=3, m=1; 
-n=4, m=1;
-n=5, m=2;
-n=6, m=2;
-n=7, m=3;
-n=8, m=3
- ....
-以此类推。
-3.遍历链表找到待插入节点的位置并从该位置开始截断链表，前一部分为主体 后一部分为待插入部分但需要做反向处理
-4.执行子链表插入操作
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1.首先统计链表长度，如果链表长度小于3则无需插入直接返回。
+// 2.计算在当前链表长度下最多能从尾部获取几个节点，比如：假设n为链表长度，m为尾部可用节点个数，则有 
+// n=3, m=1; 
+// n=4, m=1;
+// n=5, m=2;
+// n=6, m=2;
+// n=7, m=3;
+// n=8, m=3
+//  ....
+// 以此类推。
+// 3.遍历链表找到待插入节点的位置并从该位置开始截断链表，前一部分为主体 后一部分为待插入部分但需要做反向处理
+// 4.执行子链表插入操作
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,15 +28,15 @@ void reorderList(struct ListNode* head){
 
     struct ListNode *p = head;
     struct ListNode *q = NULL;
-```javascript []
-console.log('Hello world!')
-```
-```python []
-print('Hello world!')
-```
-```ruby []
-puts 'Hello world!'
-```
+// ```javascript []
+// console.log('Hello world!')
+// ```
+// ```python []
+// print('Hello world!')
+// ```
+// ```ruby []
+// puts 'Hello world!'
+// ```
     int totalLen = 0;
     //首先统计链表长度
     while(NULL != p) {
@@ -82,4 +82,4 @@ puts 'Hello world!'
 
 
 }
-```
+// ```

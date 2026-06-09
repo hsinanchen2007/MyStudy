@@ -1,9 +1,9 @@
-### 解题思路
-Java使用哈希表统计字数
+// ### 解题思路
+// Java使用哈希表统计字数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         HashMap<Character,Integer> map = new HashMap<>();
@@ -22,4 +22,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

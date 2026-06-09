@@ -1,9 +1,9 @@
-### 解题思路
-dp[n][m] = Min(dp[n-1][m], dp[n][m-1]) + grid[n][m]
+// ### 解题思路
+// dp[n][m] = Min(dp[n-1][m], dp[n][m-1]) + grid[n][m]
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn min_path_sum(grid: Vec<Vec<i32>>) -> i32 {
         let n = grid.len();
@@ -36,4 +36,4 @@ impl Solution {
         dp[n-1][m-1]
     }
 }
-```
+// ```

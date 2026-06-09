@@ -1,9 +1,9 @@
-### 解题思路
-打卡
+// ### 解题思路
+// 打卡
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func myAtoi(str string) int {
 	return convert(clean(str))
 }
@@ -59,4 +59,4 @@ func convert(sign int, absStr string) int {
 	}
 	return sign * absNum
 }
-```
+// ```

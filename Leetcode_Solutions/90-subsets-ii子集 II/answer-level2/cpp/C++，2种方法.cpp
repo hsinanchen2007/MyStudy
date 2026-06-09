@@ -1,8 +1,8 @@
 
-### 方法1
-迭代，碰到重复数字跳过，见注释
+// ### 方法1
+// 迭代，碰到重复数字跳过，见注释
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
@@ -25,11 +25,11 @@ public:
     }
 };
 
-```
-### 方法2
-回溯，碰到重复数字不进入递归
+// ```
+// ### 方法2
+// 回溯，碰到重复数字不进入递归
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;
@@ -49,4 +49,4 @@ public:
         }
     }
 };
-```
+// ```

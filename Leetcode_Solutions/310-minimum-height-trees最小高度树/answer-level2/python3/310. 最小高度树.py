@@ -1,8 +1,8 @@
-代码不是很简洁，凑合用，效率还可以把，一次遍历。
+# 代码不是很简洁，凑合用，效率还可以把，一次遍历。
 
 
-## python3
-```
+# ## python3
+# ```
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
         degree = [0]*n #节点的度
@@ -30,4 +30,4 @@ class Solution:
                         queue.append(next)
                         result.remove(next)
         return list(result)
-```
+# ```

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 // 作者：yangqinkuan
 // 链接：https://leetcode-cn.com/problems/missing-ranges/solution/java-yong-yi-ge-zuo-bian-jie-zhi-zhen-zhu-yao-kao-/
 class Solution {
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 };
-```
+// ```

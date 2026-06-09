@@ -1,4 +1,4 @@
-```
+// ```
 // DFS 递归版本
 var hasPathSum = function(root, sum) {
 	let isSuit = false;
@@ -36,4 +36,4 @@ var hasPathSum = function(root, sum) {
 	}
 	return false;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func minAddToMakeValid(S string) int {
 	stack := make([]byte, 0)
 	for i, c := range S {
@@ -10,4 +10,4 @@ func minAddToMakeValid(S string) int {
 	}
 	return len(stack)
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         def backtrack(first = 1, curr = []):
@@ -22,11 +22,11 @@ class Solution:
         output = []
         backtrack()
         return output
-```
+# ```
 
-### 什么时候可以省略冒号啊，前面就不可以
+# ### 什么时候可以省略冒号啊，前面就不可以
 
-```python
+# ```python
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         def backtrack(first = 1, curr = []):
@@ -45,4 +45,4 @@ class Solution:
         output = []
         backtrack()
         return output
-```
+# ```

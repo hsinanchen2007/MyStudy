@@ -1,13 +1,13 @@
 
-### 解题思路
-统计X对应三个节点的节点总数，最大的那个能大于n/2就能赢
+// ### 解题思路
+// 统计X对应三个节点的节点总数，最大的那个能大于n/2就能赢
 
-1.找到x所在节点的位置
-2.统计左子树节点，右子树节点，非X子树节点的个数
-3.三者只要有一个能>n/2就可以稳赢
+// 1.找到x所在节点的位置
+// 2.统计左子树节点，右子树节点，非X子树节点的个数
+// 3.三者只要有一个能>n/2就可以稳赢
 
-### 代码
-```java
+// ### 代码
+// ```java
     public boolean btreeGameWinningMove(TreeNode root, int n, int x) {
         if (root == null){
             return false;
@@ -66,4 +66,4 @@
         }
         return 1 + nodeCount(node.left) + nodeCount(node.right);
     }
-```
+// ```

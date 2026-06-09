@@ -1,5 +1,5 @@
-理解二叉树的作用
-```
+// 理解二叉树的作用
+// ```
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
@@ -10,5 +10,5 @@ public:
         return max(left1,right1)+1;
     }
 };
-```
+// ```
 

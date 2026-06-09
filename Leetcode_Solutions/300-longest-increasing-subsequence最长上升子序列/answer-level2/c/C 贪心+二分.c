@@ -1,9 +1,9 @@
-### 解题思路
-贪心加二分的C语言解法，思路基本一样。
+// ### 解题思路
+// 贪心加二分的C语言解法，思路基本一样。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLIS(int* nums, int numsSize){
     /* 长度为i的递增序列的最小的最后一个数字 */
     int *dp = malloc(sizeof(int) * numsSize);
@@ -36,4 +36,4 @@ int lengthOfLIS(int* nums, int numsSize){
     /* 返回最后dp的最大长度 */
     return start;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-和上面那个数组转二叉搜索树方法一样，就是先把链表遍历一下变成数组就好了，简单容易理解
+// ### 解题思路
+// 和上面那个数组转二叉搜索树方法一样，就是先把链表遍历一下变成数组就好了，简单容易理解
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ struct TreeNode* sortedListToBST(struct ListNode* head){
     }
     return helper(0,numsSize,nums);
 }
-```
+// ```

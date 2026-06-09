@@ -1,9 +1,9 @@
-### 解题思路
-右旋转链表 链表操作时要固定头结点
+// ### 解题思路
+// 右旋转链表 链表操作时要固定头结点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -45,4 +45,4 @@ public:
     return head;
     }
 };
-```
+// ```

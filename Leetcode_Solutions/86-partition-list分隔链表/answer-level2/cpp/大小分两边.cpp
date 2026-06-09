@@ -1,8 +1,8 @@
-### 解题思路
-题没读懂 整明白了就是相对位置不变 大小分两边。。。
-### 代码
+// ### 解题思路
+// 题没读懂 整明白了就是相对位置不变 大小分两边。。。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
          return ret->next;
     }
 };
-```
+// ```

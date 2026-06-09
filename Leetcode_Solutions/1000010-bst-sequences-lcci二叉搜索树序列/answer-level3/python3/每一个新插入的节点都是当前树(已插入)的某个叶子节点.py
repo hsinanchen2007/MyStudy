@@ -1,6 +1,6 @@
-思路：假设当前树的叶子节点们为nodes 任选一个叶子节点作为新插入的节点 同时将该节点的两个孩子节点(非None/nil)加入到nodes中去 进去到下一层递归
-注意：还有点DFS+BFS的意味 本人菜鸡 效率好像不是很高 主要的语句都添加了注释 还请大家多多指教
-```python []
+# 思路：假设当前树的叶子节点们为nodes 任选一个叶子节点作为新插入的节点 同时将该节点的两个孩子节点(非None/nil)加入到nodes中去 进去到下一层递归
+# 注意：还有点DFS+BFS的意味 本人菜鸡 效率好像不是很高 主要的语句都添加了注释 还请大家多多指教
+# ```python []
 class Solution:
 	def BSTSequences(self,root):
 		def helper(nodes):
@@ -13,8 +13,8 @@ class Solution:
 				res.extend(v+i for i in helper(opts)) #更新res
 			return res
 		return helper([root] if root else [])
-```
-```golang []
+# ```
+# ```golang []
 func BSTSequences(root *TreeNode) [][]int {
 	if root==nil { //不能直接给个[(*TreeNode)(nil)] 特殊情况特殊处理掉
 		return [][]int{make([]int,0)}
@@ -40,4 +40,4 @@ func helper(nodes []*TreeNode) [][]int {
 	}
 	return res
 }
-```
+# ```

@@ -1,4 +1,4 @@
-```
+-- ```
 /* Write your PL/SQL query statement below */
 SELECT person_name
 FROM Queue a
@@ -11,4 +11,4 @@ WHERE a.turn = (
 	WHERE a.eleWeight <= 1000
 )
 
-```
+-- ```

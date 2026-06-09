@@ -1,4 +1,4 @@
-```go []
+// ```go []
 func reverseString(s []byte) {
   i, j := 0, len(s)-1
   for i < j {
@@ -7,8 +7,8 @@ func reverseString(s []byte) {
     j--
   }
 }
-```
-```go []
+// ```
+// ```go []
 func reverseString(s []byte) {
   size := len(s) - 1
   for i := 0; i < len(s)/2; i++ {
@@ -16,8 +16,8 @@ func reverseString(s []byte) {
   }
   fmt.Println(string(s))
 }
-```
-```go []
+// ```
+// ```go []
 func reverseString(s []byte) {
   for i, j := 0, len(s)-1; i < j; {
     s[i], s[j] = s[j], s[i]
@@ -25,4 +25,4 @@ func reverseString(s []byte) {
   }
   fmt.Println(string(s))
 }
-```
+// ```

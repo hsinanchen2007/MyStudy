@@ -1,8 +1,8 @@
-在DFS的过程中，实时记录下入栈节点的深度即可。
+# 在DFS的过程中，实时记录下入栈节点的深度即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             if node.left:
                 stack.append((depth+1,node.left))
         return obj[1].val
-```
+# ```

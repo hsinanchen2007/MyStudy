@@ -1,4 +1,4 @@
-```
+// ```
 function isValidSerialization($preorder) {
     $prearr = explode(",",$preorder);
     $n = 1; // 当前层的所有节点数
@@ -17,4 +17,4 @@ function isValidSerialization($preorder) {
         }
     }
 }
-```
+// ```

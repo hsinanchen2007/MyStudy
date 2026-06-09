@@ -1,9 +1,9 @@
-### 解题思路
-见代码
+// ### 解题思路
+// 见代码
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int scoreOfParentheses(string S) {
@@ -32,4 +32,4 @@ public:
     	return atoi(st.top().c_str());
     }
 };
-```
+// ```

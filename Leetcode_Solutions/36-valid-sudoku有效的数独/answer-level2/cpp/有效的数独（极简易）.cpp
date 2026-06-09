@@ -1,11 +1,11 @@
-### 解题思路
-特别特别简单的做法，适合初学者做法。
-首先判断行与列的合法性（基本相同），最后判断9格一方块的合法性。
-![1.png](https://pic.leetcode-cn.com/50046aac740eb7c29f9db70a10c76794a53a2dc24c74300811d0d9516429c594-1.png)
+// ### 解题思路
+// 特别特别简单的做法，适合初学者做法。
+// 首先判断行与列的合法性（基本相同），最后判断9格一方块的合法性。
+// ![1.png](https://pic.leetcode-cn.com/50046aac740eb7c29f9db70a10c76794a53a2dc24c74300811d0d9516429c594-1.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) 
@@ -51,4 +51,4 @@ for(x=0;x<9;x+=3)
         
     }
 };
-```
+// ```

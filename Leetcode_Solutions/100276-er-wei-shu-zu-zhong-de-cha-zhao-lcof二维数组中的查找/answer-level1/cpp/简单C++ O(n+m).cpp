@@ -1,9 +1,9 @@
-### 解题思路
-因为数组元素之间的特殊关系，从左至右，从上至下都是递增的，因此我们从右上角开始，小于target则往左遍历，大于target则往右遍历，遍历完还没有则返回false.
+// ### 解题思路
+// 因为数组元素之间的特殊关系，从左至右，从上至下都是递增的，因此我们从右上角开始，小于target则往左遍历，大于target则往右遍历，遍历完还没有则返回false.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool findNumberIn2DArray(vector<vector<int>>& matrix, int target) {
@@ -22,4 +22,4 @@ public:
         return false;
     }
 };
-```
+// ```

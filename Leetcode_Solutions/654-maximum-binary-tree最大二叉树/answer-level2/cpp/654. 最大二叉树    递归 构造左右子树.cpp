@@ -1,11 +1,11 @@
-### 解题思路
-每次递归构造节点要找最大值
-构造shu：左子树为节点的左边，柚子树为数组的右边
-所以helper(nums,left,index-1);
+// ### 解题思路
+// 每次递归构造节点要找最大值
+// 构造shu：左子树为节点的左边，柚子树为数组的右边
+// 所以helper(nums,left,index-1);
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
         return helper(nums,0,nums.size()-1);
     }
 };
-```
+// ```

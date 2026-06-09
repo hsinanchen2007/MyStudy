@@ -1,4 +1,4 @@
-```python
+# ```python
 def minimumTotal(triangle):
     """
         1. dp问题: dp[i][j] = triangle[i][j] + min(dp[i+1][j], dp[i+1][j+1])
@@ -11,4 +11,4 @@ def minimumTotal(triangle):
     return mini[0]
 
 print(minimumTotal([[2],[3,4],[6,5,7],[4,1,8,3]]))
-```
+# ```

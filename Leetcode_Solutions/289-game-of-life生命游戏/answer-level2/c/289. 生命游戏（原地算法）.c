@@ -1,9 +1,9 @@
-### 解题思路
-    使用原地算法解决思路：将由死细胞（dead）变为活细胞（live）的细胞标记为2，将由dead变为live的细胞标记为3；在本次查找中，2仍然表示dead，3仍然表示live；查找完成之后，将标记为3的细胞当做live，改为1，将标记为2的细胞当做dead，改为0.
+// ### 解题思路
+//     使用原地算法解决思路：将由死细胞（dead）变为活细胞（live）的细胞标记为2，将由dead变为live的细胞标记为3；在本次查找中，2仍然表示dead，3仍然表示live；查找完成之后，将标记为3的细胞当做live，改为1，将标记为2的细胞当做dead，改为0.
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void gameOfLife(int** board, int boardSize, int* boardColSize){
     int cnt;
     for(int i = 0; i < boardSize; ++i){
@@ -89,4 +89,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
     }
     return;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-## 思路一：递归
-### 代码
-```c++
+// ## 思路一：递归
+// ### 代码
+// ```c++
 class Solution {
 public:
     int maxDepth(Node* root) {
@@ -15,11 +15,11 @@ public:
         return res + 1;
     }
 };
-```
+// ```
 
-## 思路二：迭代（层次遍历）
-### 代码
-```c++
+// ## 思路二：迭代（层次遍历）
+// ### 代码
+// ```c++
 class Solution {
 public:
     int maxDepth(Node* root) {
@@ -41,6 +41,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
 

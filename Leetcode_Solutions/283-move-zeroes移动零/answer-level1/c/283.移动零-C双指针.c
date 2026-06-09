@@ -1,8 +1,8 @@
-### 解题思路
-快慢指针，直接将非0值挨个写入，最后剩下的全补0
-### 代码
+// ### 解题思路
+// 快慢指针，直接将非0值挨个写入，最后剩下的全补0
+// ### 代码
 
-```c
+// ```c
 void moveZeroes(int* nums, int numsSize){
     if (nums == NULL || numsSize == 0) {
         return;
@@ -24,4 +24,4 @@ void moveZeroes(int* nums, int numsSize){
     }
     return;
 }
-```
+// ```

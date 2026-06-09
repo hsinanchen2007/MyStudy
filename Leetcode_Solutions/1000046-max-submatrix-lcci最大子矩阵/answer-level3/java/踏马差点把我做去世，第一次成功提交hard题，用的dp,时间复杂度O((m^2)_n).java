@@ -1,14 +1,14 @@
-### 解题思路
-![QQ截图20200318174602.png](https://pic.leetcode-cn.com/6ed4d44a0f9707e9a02e5a5e43dd9a9e8eb5bac021cd660449d883155e10ac97-QQ%E6%88%AA%E5%9B%BE20200318174602.png)
+// ### 解题思路
+// ![QQ截图20200318174602.png](https://pic.leetcode-cn.com/6ed4d44a0f9707e9a02e5a5e43dd9a9e8eb5bac021cd660449d883155e10ac97-QQ%E6%88%AA%E5%9B%BE20200318174602.png)
 
-数学推导过程写在纸上了，新标签页打开即正序，如下：
-![QQ图片20200318145124.jpg](https://pic.leetcode-cn.com/8ac481a1093dedeecde309a53026b21b5a3ea3d1d72b8f117ed68de38dadfb46-QQ%E5%9B%BE%E7%89%8720200318145124.jpg)
+// 数学推导过程写在纸上了，新标签页打开即正序，如下：
+// ![QQ图片20200318145124.jpg](https://pic.leetcode-cn.com/8ac481a1093dedeecde309a53026b21b5a3ea3d1d72b8f117ed68de38dadfb46-QQ%E5%9B%BE%E7%89%8720200318145124.jpg)
 
-思路就是利用求最大子段和的动态规划算法maxSubArray()，在每一次i1和i2的双重循环下，调用一次该算法，
-其中最大的那一个即最优解，记录一下此时的i1,i2,j1,j2即可，其中j1,j2从maxSubArray()里返回得到，所以时间复杂度立方级
-### 代码
+// 思路就是利用求最大子段和的动态规划算法maxSubArray()，在每一次i1和i2的双重循环下，调用一次该算法，
+// 其中最大的那一个即最优解，记录一下此时的i1,i2,j1,j2即可，其中j1,j2从maxSubArray()里返回得到，所以时间复杂度立方级
+// ### 代码
 
-```java
+// ```java
 class Solution {
      int j1_max=0;
     int j2_max=0;
@@ -90,4 +90,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

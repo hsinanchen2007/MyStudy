@@ -1,9 +1,9 @@
-### 解题思路
-哈希+二分查找 对边界场景增加一些处理
+// ### 解题思路
+// 哈希+二分查找 对边界场景增加一些处理
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func shortestDistanceColor(colors []int, queries [][]int) []int {
 	row := len(queries)
@@ -61,4 +61,4 @@ func find(colors []int, q []int, min, max int, m map[int][]int) int {
 
 }
 
-```
+// ```

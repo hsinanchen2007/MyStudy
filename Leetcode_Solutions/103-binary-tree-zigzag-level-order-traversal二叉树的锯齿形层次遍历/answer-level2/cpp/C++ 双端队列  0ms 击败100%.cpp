@@ -1,12 +1,12 @@
 
-使用deque的 
-front(), back();
-push_front(), push_back();
-pop_front(), pop_back().
-前取后放，后取前放。
+// 使用deque的 
+// front(), back();
+// push_front(), push_back();
+// pop_front(), pop_back().
+// 前取后放，后取前放。
 
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
@@ -40,4 +40,4 @@ public:
         return ans;
     }
 };
-```
+// ```

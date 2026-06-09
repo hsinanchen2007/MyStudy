@@ -1,11 +1,11 @@
-### 解题思路
-递归创建二叉树节点不难
-此题的重点 如何构建出二叉树的节点 并链接上去
-切记切记
+// ### 解题思路
+// 递归创建二叉树节点不难
+// 此题的重点 如何构建出二叉树的节点 并链接上去
+// 切记切记
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -58,4 +58,4 @@ class Solution {
         return pre;
     }
 }
-```
+// ```

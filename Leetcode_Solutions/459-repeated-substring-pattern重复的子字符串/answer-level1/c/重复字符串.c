@@ -1,9 +1,9 @@
-### 解题思路
-难点在于：条件的判断
+// ### 解题思路
+// 难点在于：条件的判断
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool repeatedSubstringPattern(char * s){
     int repeatLength = 1;
     int len,i;
@@ -36,4 +36,4 @@ bool repeatedSubstringPattern(char * s){
 }
 
 
-```
+// ```

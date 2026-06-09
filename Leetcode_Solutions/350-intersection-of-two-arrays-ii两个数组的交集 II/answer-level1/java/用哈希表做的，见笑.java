@@ -1,9 +1,9 @@
-### 解题思路
-用哈希表做的
+// ### 解题思路
+// 用哈希表做的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         HashMap<Integer, Integer> map1 = new HashMap<>();
@@ -22,4 +22,4 @@ class Solution {
         return Arrays.copyOf(res, size);
     }
 }
-```
+// ```

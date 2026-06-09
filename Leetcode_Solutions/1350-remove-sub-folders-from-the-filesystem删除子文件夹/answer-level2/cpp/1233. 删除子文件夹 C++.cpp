@@ -1,12 +1,12 @@
-### 解题思路
-思路：
-1.排序，排序后，根文件夹一定在前面，子文件夹一定在后面
-2.设置set，如果当前文件夹的前缀在set中不存在，则说明是根文件夹，否则是子文件夹丢弃；
+// ### 解题思路
+// 思路：
+// 1.排序，排序后，根文件夹一定在前面，子文件夹一定在后面
+// 2.设置set，如果当前文件夹的前缀在set中不存在，则说明是根文件夹，否则是子文件夹丢弃；
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> removeSubfolders(vector<string>& folder) {
@@ -41,10 +41,10 @@ public:
         return result;
     }
 };
-```
-进一步优化，由于是字典序排序，因此如果是根文件夹，则后面的子文件夹一定以它为开头，否则，则是根文件夹
+// ```
+// 进一步优化，由于是字典序排序，因此如果是根文件夹，则后面的子文件夹一定以它为开头，否则，则是根文件夹
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> removeSubfolders(vector<string>& folder) {
@@ -66,4 +66,4 @@ public:
         return result;
     }
 };
-```
+// ```

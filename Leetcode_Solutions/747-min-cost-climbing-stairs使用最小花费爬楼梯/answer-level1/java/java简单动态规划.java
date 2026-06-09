@@ -1,5 +1,5 @@
-简单动态规划，每一步应该加上（前一步或者前两步）的最小值
-```
+// 简单动态规划，每一步应该加上（前一步或者前两步）的最小值
+// ```
 class Solution {
     public int minCostClimbingStairs(int[] cost) {
         int len = cost.length;
@@ -11,4 +11,4 @@ class Solution {
         return new_cost[len];
     }
 }
-```
+// ```

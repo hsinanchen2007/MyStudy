@@ -1,4 +1,4 @@
-```
+// ```
     public static boolean validWordAbbreviation(String word, String abbr) {
         int i = 0;
         StringBuilder sb = new StringBuilder();
@@ -27,4 +27,4 @@
         }
         return true;
     }
-```
+// ```

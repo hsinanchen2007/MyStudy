@@ -1,9 +1,9 @@
-使用字典保存树节点关系，自底向上求和，碰到和为0的节点，自上而下DFS删除节点，最后返回剩余节点数目
+# 使用字典保存树节点关系，自底向上求和，碰到和为0的节点，自上而下DFS删除节点，最后返回剩余节点数目
 
-提交结果    执行用时    内存消耗    语言
-通过       656 ms	  30.9 MB	Python3
+# 提交结果    执行用时    内存消耗    语言
+# 通过       656 ms	  30.9 MB	Python3
 
-```
+# ```
 class Node:
     def __init__(self,val):
         self.val=val
@@ -53,4 +53,4 @@ class Solution:
         find(head,km)
         
         return len(self.nl)
-```
+# ```

@@ -1,13 +1,13 @@
 
-常规题目，类似于归并排序中的合并过程。 
+# 常规题目，类似于归并排序中的合并过程。 
 
 
 
-## 递归
+# ## 递归
 
-Python Code；
+# Python Code；
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -27,11 +27,11 @@ class Solution:
         return l2
 
         
-```
+# ```
 
-javaScript code：
+# javaScript code：
 
-```js
+# ```js
 /*
  */
 /**
@@ -58,17 +58,17 @@ var mergeTwoLists = function(l1, l2) {
     }
 };
 
-```
+# ```
 
-**复杂度分析**
-- 时间复杂度：$O(N)$，其中N为两个链表节点总数
-- 空间复杂度：$O(1)$
+# **复杂度分析**
+# - 时间复杂度：$O(N)$，其中N为两个链表节点总数
+# - 空间复杂度：$O(1)$
 
-## 迭代
+# ## 迭代
 
-Python Code；
+# Python Code；
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -94,11 +94,11 @@ class Solution:
         return dummy.next
 
         
-```
+# ```
 
-javaScript code：
+# javaScript code：
 
-```js
+# ```js
 /*
  * @lc app=leetcode id=21 lang=javascript
  *
@@ -135,12 +135,12 @@ var mergeTwoLists = function(l1, l2) {
   return dummy.next;
 };
 
-```
+# ```
 
-**复杂度分析**
-- 时间复杂度：$O(N)$，其中N为两个链表节点总数
-- 空间复杂度：加上栈空间的话，空间复杂度为 $O(N)$，其中N为两个链表节点总数
+# **复杂度分析**
+# - 时间复杂度：$O(N)$，其中N为两个链表节点总数
+# - 空间复杂度：加上栈空间的话，空间复杂度为 $O(N)$，其中N为两个链表节点总数
 
-欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
+# 欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
 
-![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
+# ![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)

@@ -1,6 +1,6 @@
-我觉得官方题解的答案漏了，删除的节点是最后一个的情况；下面是我的solution
+// 我觉得官方题解的答案漏了，删除的节点是最后一个的情况；下面是我的solution
 
-```dart
+// ```dart
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -21,4 +21,4 @@ class Solution {
         node.next = node.next.next;
     }
 }
-```
+// ```

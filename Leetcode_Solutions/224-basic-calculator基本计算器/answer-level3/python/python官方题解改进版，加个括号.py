@@ -1,10 +1,10 @@
-### 解题思路
-求出值之后，栈弹出的是左括号
-因为又构造出了一个最大的表达式，所以栈最后一定只剩一个元素。且能避免原题解中的重复代码
+# ### 解题思路
+# 求出值之后，栈弹出的是左括号
+# 因为又构造出了一个最大的表达式，所以栈最后一定只剩一个元素。且能避免原题解中的重复代码
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
 
     def evaluate_expr(self, stack):
@@ -56,4 +56,4 @@ class Solution:
 
         # Evaluate any left overs in the stack.
         return  stack.pop()  #self.evaluate_expr(stack)
-```
+# ```

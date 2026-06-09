@@ -1,4 +1,4 @@
-```
+// ```
 char** fullJustify(char** words, int wordsSize, int maxWidth, int* returnSize) {
     *returnSize = 0;
     char** res = (char**)malloc(sizeof(char*) * wordsSize);
@@ -49,4 +49,4 @@ char** fullJustify(char** words, int wordsSize, int maxWidth, int* returnSize) {
     res[(*returnSize)++][maxWidth] = '\0';
     return res;
 }
-```
+// ```

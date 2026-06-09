@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-贪心算法
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 贪心算法
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         m = len(nums)
@@ -16,4 +16,4 @@ class Solution:
         return maxsum
 
 
-```
+# ```

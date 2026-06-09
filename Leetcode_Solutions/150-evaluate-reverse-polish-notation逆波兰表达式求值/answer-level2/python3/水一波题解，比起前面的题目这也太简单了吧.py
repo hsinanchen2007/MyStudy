@@ -1,5 +1,5 @@
-好吧就是用个栈，一看就会：
-```
+# 好吧就是用个栈，一看就会：
+# ```
 class Solution:
     
     def evalRPN(self, tokens: List[str]) -> int:
@@ -20,4 +20,4 @@ class Solution:
                 stack.append(i)
                 
         return stack[0]
-```
+# ```

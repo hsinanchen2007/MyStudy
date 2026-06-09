@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_SIZE 10000
 int minimumLengthEncoding(char ** words, int wordsSize){
     int len[MAX_SIZE] = {0};
@@ -32,4 +32,4 @@ int minimumLengthEncoding(char ** words, int wordsSize){
     }
     return ans;
 } 
-```
+// ```

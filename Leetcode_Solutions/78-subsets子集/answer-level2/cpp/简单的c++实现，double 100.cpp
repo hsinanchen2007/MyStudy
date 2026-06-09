@@ -1,7 +1,7 @@
 
-简单的c++实现
+// 简单的c++实现
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return r;
     }
 };
-```
+// ```

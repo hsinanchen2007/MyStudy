@@ -1,11 +1,11 @@
-// 左右收敛法（又叫左右夹逼）
-// 假设宽度最大，即从俩端x，y开始。每次比较height[x]和height[y]，较短的一边往里收缩，直到x，y相遇。
-// 时间复杂度O(n)
-// 空间复杂度O(1)
-// es passed (56 ms)
-// Your runtime beats 99.26 % of javascript submissions
-// Your memory usage beats 55.69 % of javascript submissions (35.6 MB)
-```javascript
+// // 左右收敛法（又叫左右夹逼）
+// // 假设宽度最大，即从俩端x，y开始。每次比较height[x]和height[y]，较短的一边往里收缩，直到x，y相遇。
+// // 时间复杂度O(n)
+// // 空间复杂度O(1)
+// // es passed (56 ms)
+// // Your runtime beats 99.26 % of javascript submissions
+// // Your memory usage beats 55.69 % of javascript submissions (35.6 MB)
+// ```javascript
 // @lc code=start
 /**
  * @param {number[]} height
@@ -20,4 +20,4 @@ var maxArea = function(height) {
     }
     return area
 };
-```
+// ```

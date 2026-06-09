@@ -1,4 +1,4 @@
-```
+// ```
 func longestCommonSubsequence(str1 string, str2 string) int {
     if len(str1) == 0 || len(str2) == 0 {
         return 0
@@ -28,4 +28,4 @@ func max(a, b int) int {
     }
     return b
 }
-```
+// ```

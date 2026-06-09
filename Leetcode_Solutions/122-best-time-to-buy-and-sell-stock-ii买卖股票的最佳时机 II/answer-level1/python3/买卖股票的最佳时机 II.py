@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         result = 0
@@ -7,4 +7,4 @@ class Solution:
                 result += prices[i+1] - prices[i]
 
         return result
-```
+# ```

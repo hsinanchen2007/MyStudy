@@ -1,27 +1,27 @@
-## 01.03.URL化
+// ## 01.03.URL化
 
-### Information
+// ### Information
 
-* TIME: 2020/02/28
-* LINK: [Click Here](https://leetcode-cn.com/problems/string-to-url-lcci/)
-* TAG: 
+// * TIME: 2020/02/28
+// * LINK: [Click Here](https://leetcode-cn.com/problems/string-to-url-lcci/)
+// * TAG: 
 
-### Description
+// ### Description
 
-> URL化。编写一种方法，将字符串中的空格全部替换为%20。假定该字符串尾部有足够的空间存放新增字符，并且知道字符串的“真实”长度。（注：用Java实现的话，请使用字符数组实现，以便直接在数组上操作。）
+// > URL化。编写一种方法，将字符串中的空格全部替换为%20。假定该字符串尾部有足够的空间存放新增字符，并且知道字符串的“真实”长度。（注：用Java实现的话，请使用字符数组实现，以便直接在数组上操作。）
 
-### Example
+// ### Example
 
-```text
+// ```text
  输入："Mr John Smith    ", 13
  输出："Mr%20John%20Smith"
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> Input my Idea
+// > Input my Idea
 
-```c
+// ```c
 char* replaceSpaces(char* S, int length){
     int spaceCount = 0;
     for(int i = 0; i < length; i++){
@@ -41,23 +41,23 @@ char* replaceSpaces(char* S, int length){
     }
     return S;
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/d34356a247147114093c6e298cec725fec72f5fa3f602769f456064189231a00-file_1582897110849)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/d34356a247147114093c6e298cec725fec72f5fa3f602769f456064189231a00-file_1582897110849)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

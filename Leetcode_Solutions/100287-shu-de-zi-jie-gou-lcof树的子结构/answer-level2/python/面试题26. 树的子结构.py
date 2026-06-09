@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/308a4d57007e3a5205de951101766963159598096f83b0257060e0a15415e5ee-image.png)
+# ![image.png](https://pic.leetcode-cn.com/308a4d57007e3a5205de951101766963159598096f83b0257060e0a15415e5ee-image.png)
 
-### 解题思路
-分为两步走：
-1.明确思路，需要将所有的A中的节点，都与B中根节点相比较，如果遇到相等，则进入2
-2.判断A,B的子节点，如果相同则继续判断左右节点。一旦遇到错误，回到1，否则返回True
+# ### 解题思路
+# 分为两步走：
+# 1.明确思路，需要将所有的A中的节点，都与B中根节点相比较，如果遇到相等，则进入2
+# 2.判断A,B的子节点，如果相同则继续判断左右节点。一旦遇到错误，回到1，否则返回True
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -44,4 +44,4 @@ class Solution:
             if self.isSubStructure(A.right, B):
                 return True
         return False
-```
+# ```

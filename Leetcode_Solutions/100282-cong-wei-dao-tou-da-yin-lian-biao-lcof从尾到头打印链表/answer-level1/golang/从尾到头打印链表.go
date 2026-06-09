@@ -1,9 +1,9 @@
-### 解题思路
-递归实现
+// ### 解题思路
+// 递归实现
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -23,4 +23,4 @@ func reversePrint(head *ListNode) []int {
 
     return append(reversePrint(head.Next), head.Val)
 }
-```
+// ```

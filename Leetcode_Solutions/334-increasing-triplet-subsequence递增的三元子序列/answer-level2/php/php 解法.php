@@ -1,4 +1,4 @@
-```
+// ```
 function increasingTriplet($nums) {
     $one = PHP_INT_MAX;
     $two = PHP_INT_MAX;
@@ -13,4 +13,4 @@ function increasingTriplet($nums) {
     }
     return false;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历2次，字典存储。
+# ### 解题思路
+# 遍历2次，字典存储。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
         if not head:
@@ -20,4 +20,4 @@ class Solution:
             hashmap[cur].random = hashmap[cur.random]
             cur = cur.next
         return hashmap[head]
-```
+# ```

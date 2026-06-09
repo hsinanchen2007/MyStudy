@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def numDecodings(self, s):
         """
@@ -15,5 +15,5 @@ class Solution(object):
                 tmp += dp[i-1]
             dp[i+1] = tmp
         return dp[-1]
-```
-核心思想就是分类讨论解码的最后一步是两个元素还是一个元素
+# ```
+# 核心思想就是分类讨论解码的最后一步是两个元素还是一个元素

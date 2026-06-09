@@ -1,7 +1,7 @@
-# 代码
-顺带一提，官方总喜欢用`Integer.MAX_VALUE` 或 `Integer.MIN_VALUE`来恶心人。
+// # 代码
+// 顺带一提，官方总喜欢用`Integer.MAX_VALUE` 或 `Integer.MIN_VALUE`来恶心人。
 
-```java
+// ```java
 class Solution {
     public int smallestDifference(int[] a, int[] b) {
         Arrays.sort(a);
@@ -26,4 +26,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

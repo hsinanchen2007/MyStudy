@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def movingCount(self, m, n, k):
         """
@@ -21,4 +21,4 @@ class Solution(object):
                     if (i-1,j) in vis or (i,j-1) in vis:
                         vis.add((i,j))
         return len(vis)
-```
+# ```

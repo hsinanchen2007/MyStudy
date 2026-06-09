@@ -1,11 +1,11 @@
-### 解题思路
-从底向上递归：DFS(**后序遍历**)
-#### 思路
-每次递归，**记录**当前节点与左右子树组成的最大值(`max_sum=max(root.val+left+right,max_sum)`)，并**返回**当前节点与左右子树的较大者的和(保证深入到路径最大的分支搜索))(`root.val+max(left,right)`)
+# ### 解题思路
+# 从底向上递归：DFS(**后序遍历**)
+# #### 思路
+# 每次递归，**记录**当前节点与左右子树组成的最大值(`max_sum=max(root.val+left+right,max_sum)`)，并**返回**当前节点与左右子树的较大者的和(保证深入到路径最大的分支搜索))(`root.val+max(left,right)`)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             
         DFS(root)
         return max_sum
-```
+# ```

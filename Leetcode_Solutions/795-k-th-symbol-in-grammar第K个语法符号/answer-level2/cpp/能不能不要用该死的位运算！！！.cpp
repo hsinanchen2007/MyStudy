@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/9cc4e5aecaf71effae64d0ac1cf357614a203d645debb1ba2ae1fde4de436770-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9cc4e5aecaf71effae64d0ac1cf357614a203d645debb1ba2ae1fde4de436770-image.png)
 
-```
+// ```
 
 class Solution {
 public:
@@ -25,4 +25,4 @@ public:
     	
 	}
 };
-```
+// ```

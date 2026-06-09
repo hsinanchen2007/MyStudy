@@ -1,4 +1,4 @@
-```
+// ```
 public static int[] GetSum(int[] nums, int target )
 {
     var result = new int[2];
@@ -23,5 +23,5 @@ public static int[] GetSum(int[] nums, int target )
     }
     return null;
 }
-```
-target-nums[1]作为key，索引作为value存入dic
+// ```
+// target-nums[1]作为key，索引作为value存入dic

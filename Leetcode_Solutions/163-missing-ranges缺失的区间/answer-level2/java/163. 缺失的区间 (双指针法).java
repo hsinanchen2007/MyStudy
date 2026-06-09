@@ -1,7 +1,7 @@
-- 使用双指针`low`、`num`，遍历`nums`添加对应范围即可；
-- 需要先向`nums`尾部添加`upper + 1`。
+// - 使用双指针`low`、`num`，遍历`nums`添加对应范围即可；
+// - 需要先向`nums`尾部添加`upper + 1`。
 
-```python []
+// ```python []
 class Solution:
     def findMissingRanges(self, nums: [int], lower: int, upper: int) -> [str]:
         res = []
@@ -13,8 +13,8 @@ class Solution:
             elif dif > 2: res.append(str(low+1) + "->" + str(num-1))
             low = num
         return res
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public List<String> findMissingRanges(int[] nums, int lower, int upper) {
         List<String> res = new ArrayList<>();
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

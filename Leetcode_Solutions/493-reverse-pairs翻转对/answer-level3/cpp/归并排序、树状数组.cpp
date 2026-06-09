@@ -1,13 +1,13 @@
-### 解题思路
-1、归并排序：在排序的过程中比较左边的数是否大于右边的数2倍就行了，比较简单
-2、树状数组：
-- 先调用tolink函数打印出排序表，即每个数在整个数组中排多少位（最小的为第1位，包括每个数*2产生的数也一起排）
-- 然后倒序遍历nums数组，每次求tree数组中比其小的数有多少个（tree数组里的数都是在其左边的数的两倍），求完后将nums[i]*2更新到树状数组中去。
-- 这题和315题基本一样[https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)，可以去做一下
+// ### 解题思路
+// 1、归并排序：在排序的过程中比较左边的数是否大于右边的数2倍就行了，比较简单
+// 2、树状数组：
+// - 先调用tolink函数打印出排序表，即每个数在整个数组中排多少位（最小的为第1位，包括每个数*2产生的数也一起排）
+// - 然后倒序遍历nums数组，每次求tree数组中比其小的数有多少个（tree数组里的数都是在其左边的数的两倍），求完后将nums[i]*2更新到树状数组中去。
+// - 这题和315题基本一样[https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/)，可以去做一下
 
-### 代码
-归并排序
-```cpp
+// ### 代码
+// 归并排序
+// ```cpp
 class Solution {
 public:
     vector<int>temp;
@@ -47,9 +47,9 @@ public:
         }
     }
 };
-```
-树状数组
-```
+// ```
+// 树状数组
+// ```
 class Solution {
 public:
     vector<int>tree;
@@ -93,4 +93,4 @@ public:
         return x&(-x);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-参考求解二叉树的深度
+// ### 解题思路
+// 参考求解二叉树的深度
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -32,4 +32,4 @@ class Solution {
         return maxDepth;
     }
 }
-```
+// ```

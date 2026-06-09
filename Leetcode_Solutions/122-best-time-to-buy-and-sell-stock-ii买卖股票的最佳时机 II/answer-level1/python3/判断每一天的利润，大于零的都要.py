@@ -1,9 +1,9 @@
-### 解题思路
-用一个for循环来判断每一天的利润
+# ### 解题思路
+# 用一个for循环来判断每一天的利润
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices):
         def profit(prices, i):
@@ -17,4 +17,4 @@ class Solution:
             if pro >= 0:
                 res = res + pro
         return res
-```
+# ```

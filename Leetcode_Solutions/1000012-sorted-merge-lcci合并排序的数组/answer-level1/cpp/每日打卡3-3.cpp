@@ -1,9 +1,9 @@
-### 解题思路
-从后往前排，三行代码搞定
+// ### 解题思路
+// 从后往前排，三行代码搞定
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -12,4 +12,4 @@ public:
         while (n > 0) A[--index] = B[--n];
     }
 };
-```
+// ```

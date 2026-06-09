@@ -1,5 +1,5 @@
-执行用时 :7 ms,在所有 Java 提交中击败了99.76%的用户,内存消耗 :35.9 MB,在所有 Java 提交中击败了100.00%的用户
-```
+// 执行用时 :7 ms,在所有 Java 提交中击败了99.76%的用户,内存消耗 :35.9 MB,在所有 Java 提交中击败了100.00%的用户
+// ```
 class ZeroEvenOdd {
 	private int n;
 	private int num = 0;
@@ -50,9 +50,9 @@ class ZeroEvenOdd {
 		}
 	}
 }
-```
-测试主函数如下:(注:只支持10以内)
-```
+// ```
+// 测试主函数如下:(注:只支持10以内)
+// ```
 public static void main(String[] args) {
 		try {
 			char integer = (char) System.in.read();
@@ -94,9 +94,9 @@ public static void main(String[] args) {
 			e.printStackTrace();
 		}
 	}
-```
-其实也可以延续上题思路,继续使用条件变量控制锁
-```
+// ```
+// 其实也可以延续上题思路,继续使用条件变量控制锁
+// ```
 class ZeroEvenOdd {
 	private int n;
 	private boolean ifZeroDone = false;
@@ -150,4 +150,4 @@ class ZeroEvenOdd {
 	}
 
 }
-```
+// ```

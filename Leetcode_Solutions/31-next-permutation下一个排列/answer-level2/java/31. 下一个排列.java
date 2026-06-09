@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-从末尾开始，找到一个decrease，置换一个后面升序序列比它大的里面最小的那个，然后翻转后面的序列
+// 从末尾开始，找到一个decrease，置换一个后面升序序列比它大的里面最小的那个，然后翻转后面的序列
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void nextPermutation(int[] nums) {
        if(nums.length <= 1)return;
@@ -34,4 +34,4 @@ class Solution {
         }
     }
 }
-```
+// ```

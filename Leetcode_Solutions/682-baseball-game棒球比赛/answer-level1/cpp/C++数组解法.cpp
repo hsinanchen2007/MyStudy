@@ -1,7 +1,7 @@
-一开始没有想到用栈或者队列，直接新建了一个数组，用来保存每一轮的数据
+// 一开始没有想到用栈或者队列，直接新建了一个数组，用来保存每一轮的数据
 
 
-```
+// ```
 class Solution {
 public:
     int calPoints(vector<string>& ops) 
@@ -60,4 +60,4 @@ public:
         return sum;
     }
 };
-```
+// ```

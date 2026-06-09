@@ -1,5 +1,5 @@
-为了需求可能存在的扩展，所有我采用了我体育馆那道题的思维方式，动态连续日期可以进行变化，也算自己在此类问题的通用解决思路吧
-```
+-- 为了需求可能存在的扩展，所有我采用了我体育馆那道题的思维方式，动态连续日期可以进行变化，也算自己在此类问题的通用解决思路吧
+-- ```
 SELECT DISTINCT b.seat_id
 FROM (
 	SELECT *
@@ -25,4 +25,4 @@ FROM (
 	) b ON b.rownumId >= a.numId
 AND b.rownumId <= a.nextNumId 
 ORDER BY seat_id
-```
+-- ```

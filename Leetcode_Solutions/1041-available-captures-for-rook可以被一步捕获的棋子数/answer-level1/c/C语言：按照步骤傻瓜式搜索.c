@@ -1,4 +1,4 @@
-```
+// ```
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     //首先找到白色车的位置
     int row = 0;
@@ -56,4 +56,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
     return count;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void func(vector<vector<int>>& image, int sr, int sc, int oldColor, int newColor)
@@ -46,4 +46,4 @@ public:
     }
 };
 
-```
+// ```

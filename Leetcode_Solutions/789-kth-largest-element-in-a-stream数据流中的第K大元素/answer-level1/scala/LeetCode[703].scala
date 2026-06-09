@@ -1,4 +1,4 @@
-```
+// ```
 class KthLargest(_k: Int, _nums: Array[Int]) {
   implicit val smallOrdering = Ordering[Int].reverse
   val heap = scala.collection.mutable.PriorityQueue[Int]()
@@ -17,4 +17,4 @@ class KthLargest(_k: Int, _nums: Array[Int]) {
     heap.head
   }
 }
-```
+// ```

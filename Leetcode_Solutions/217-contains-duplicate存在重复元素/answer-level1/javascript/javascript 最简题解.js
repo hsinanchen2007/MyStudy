@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var containsDuplicate = function(nums) {
     return nums.reduce(([result, cacheObj], item) => {
         if (cacheObj[item]) result = true
@@ -7,4 +7,4 @@ var containsDuplicate = function(nums) {
         return [result, cacheObj]
     }, [false, {}])[0]
 }
-```
+// ```

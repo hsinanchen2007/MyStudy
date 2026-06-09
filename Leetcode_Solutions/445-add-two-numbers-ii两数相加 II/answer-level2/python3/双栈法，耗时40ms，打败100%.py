@@ -1,11 +1,11 @@
-### 解题思路
-两个栈分别存储两个链表内容
-相加时两个栈同时出栈一个元素进行相加，保留进位
-每次相加前判断每个栈和进位是否为空，用头插法给新链表添加节点
-返回新链表
-### 代码
+# ### 解题思路
+# 两个栈分别存储两个链表内容
+# 相加时两个栈同时出栈一个元素进行相加，保留进位
+# 每次相加前判断每个栈和进位是否为空，用头插法给新链表添加节点
+# 返回新链表
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -45,4 +45,4 @@ class Solution(object):
         return newHead.next
 
         
-```
+# ```

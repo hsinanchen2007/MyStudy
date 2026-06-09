@@ -1,4 +1,4 @@
-```
+// ```
 bool find132pattern(int* nums, int numsSize){
     int min, i, j;
 
@@ -21,4 +21,4 @@ bool find132pattern(int* nums, int numsSize){
     }
     return false;
 }
-```
+// ```

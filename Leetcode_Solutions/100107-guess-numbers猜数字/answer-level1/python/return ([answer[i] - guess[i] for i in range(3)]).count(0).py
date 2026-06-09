@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def game(self, guess, answer):
         """
@@ -7,4 +7,4 @@ class Solution(object):
         :rtype: int
         """
         return ([answer[i] - guess[i] for i in range(3)]).count(0)
-```
+# ```

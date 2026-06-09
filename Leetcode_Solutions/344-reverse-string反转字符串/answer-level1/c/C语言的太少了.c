@@ -1,4 +1,4 @@
-```c
+// ```c
 /**
  * @brief 
  * 使用额外的内存空间保存数据, 空间复杂度O(n)
@@ -57,4 +57,4 @@ void reverseString3(char *s, int sSize)
     int len = sSize-1;
     swap(0, len, s);
 }
-```
+// ```

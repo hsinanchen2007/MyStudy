@@ -1,4 +1,4 @@
-``` c
+// ``` c
 /*
 * progaming pears
 * two hands 
@@ -27,5 +27,5 @@ void rotate(int* nums, int numsSize, int k){
         nums[j] = tmp;
     }
 }
-```
+// ```
 

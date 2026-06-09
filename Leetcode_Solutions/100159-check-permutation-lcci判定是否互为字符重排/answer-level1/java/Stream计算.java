@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-去重单个的字符串，再合并字符串去重，如果合并后的字符串等于单个字符串说明是有相同的字符~
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 去重单个的字符串，再合并字符串去重，如果合并后的字符串等于单个字符串说明是有相同的字符~
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
 
@@ -19,4 +19,4 @@ class Solution {
         return (res==s1Len) && (res==s2Len);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-sql语句如下：
+-- sql语句如下：
 SELECT DISTINCT ConsecutiveNums
 FROM (
 	SELECT DISTINCT temp.ConsecutiveNums, temp.rn

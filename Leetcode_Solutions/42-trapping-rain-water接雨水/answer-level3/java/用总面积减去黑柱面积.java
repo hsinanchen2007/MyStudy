@@ -1,9 +1,9 @@
-### 解题思路
-rt
+// ### 解题思路
+// rt
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
         int maxHeight = 0;
@@ -35,4 +35,4 @@ class Solution {
         return totalS - sumHeight;
     }
 }
-```
+// ```

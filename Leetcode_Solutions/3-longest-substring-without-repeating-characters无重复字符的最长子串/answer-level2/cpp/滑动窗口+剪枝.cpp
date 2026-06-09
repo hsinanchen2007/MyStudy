@@ -1,10 +1,10 @@
-### 解题思路
-滑动窗口+剪枝
-，利用两个指针，存放当前已获取的s，然后再判断下一个是否是重复的，如果是重复的，则将beginIndex往前追加。
+// ### 解题思路
+// 滑动窗口+剪枝
+// ，利用两个指针，存放当前已获取的s，然后再判断下一个是否是重复的，如果是重复的，则将beginIndex往前追加。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -23,4 +23,4 @@ public:
         return maxCount;
     }
 };
-```
+// ```

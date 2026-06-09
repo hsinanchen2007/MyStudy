@@ -1,6 +1,6 @@
-对于给的是 `Box` 而不是 `Rc` 这种共享指针表示很蛋疼，暂时想不到什么好的实现方法，用的是将这些链表收到一个 vector 里面，然后调用vec的sort，之后再用这个vec构造一个链表并返回.
+// 对于给的是 `Box` 而不是 `Rc` 这种共享指针表示很蛋疼，暂时想不到什么好的实现方法，用的是将这些链表收到一个 vector 里面，然后调用vec的sort，之后再用这个vec构造一个链表并返回.
 
-```Rust
+// ```Rust
 impl Solution {
     pub fn merge_k_lists(lists: Vec<Option<Box<ListNode>>>) -> Option<Box<ListNode>> {
         if lists.is_empty() {
@@ -39,6 +39,6 @@ impl Solution {
         head
     }
 }
-```
+// ```
 
-用时 4ms， 内存 3.1m，其实算不上是好的方法，相当于 k个**有序** 链表这个条件根本没用，可能是Rust底层 vector 性能比较高的原因吧。
+// 用时 4ms， 内存 3.1m，其实算不上是好的方法，相当于 k个**有序** 链表这个条件根本没用，可能是Rust底层 vector 性能比较高的原因吧。

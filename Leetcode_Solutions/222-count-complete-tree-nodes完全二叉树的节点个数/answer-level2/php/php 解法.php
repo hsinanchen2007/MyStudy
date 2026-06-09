@@ -1,11 +1,11 @@
-暴力解法：
-```
+// 暴力解法：
+// ```
 function countNodes($root) {
     return $root==null ? 0 : $this->countNodes($root->left) + $this->countNodes($root->right) + 1;
 }
-```
-利用完全二叉树特性：
-```
+// ```
+// 利用完全二叉树特性：
+// ```
 class Solution {
 
     /**
@@ -32,4 +32,4 @@ class Solution {
         return $depth;
     }
 }
-```
+// ```

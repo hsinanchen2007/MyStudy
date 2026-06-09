@@ -1,6 +1,6 @@
-给出条件做判断，碰到e就全部重置，最后再判断一下冲突，一遍扫描
+// 给出条件做判断，碰到e就全部重置，最后再判断一下冲突，一遍扫描
 
-```
+// ```
 class Solution {
 public:
     bool isNumber(string s) {
@@ -52,4 +52,4 @@ public:
         return true;
     }
 };
-```
+// ```

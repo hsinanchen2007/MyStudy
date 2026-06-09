@@ -1,6 +1,6 @@
-### 解题思路
-首先借助模板（非原创，总结各路大神的通用模板得到）：
-```
+// ### 解题思路
+// 首先借助模板（非原创，总结各路大神的通用模板得到）：
+// ```
 public List<List<Integer>> backTrack(int k,int n){
     //生成回溯结果的存储位置
     List<List<Integer>> res = new ArrayList<>();
@@ -20,25 +20,25 @@ private void helper(int index){
     helper(index + 1);
     sub.remove(sub.size() - 1);
 }
-```
-整个算法思路很简单，由于是不包含重复数字且只有1-9，所以按序遍历相加，符合条件就保存下来。
-接下来主要考虑三个方面：递归终止条件、参数传递以及回溯算法主体完成。
-首先是参数传递，res和sub必须作为参数传递进去保存最终结果和中间变量。看模板代码可知，必定有一个参数index表示回溯算法的递进，题干中的k、n作为判定条件也要加入，所以共这五个参数。`List<List<Integer>> res,List<Integer> sub,int index,int k,int n`
-然后是递归终止条件：比较明显的是两个条件必须同时达到，序列长度为k，之和为n。用n减去当前加入的数作为下一次递归的判定条件。另外如果n < 0（即sub之和已经大于n了），直接回溯。
-```
+// ```
+// 整个算法思路很简单，由于是不包含重复数字且只有1-9，所以按序遍历相加，符合条件就保存下来。
+// 接下来主要考虑三个方面：递归终止条件、参数传递以及回溯算法主体完成。
+// 首先是参数传递，res和sub必须作为参数传递进去保存最终结果和中间变量。看模板代码可知，必定有一个参数index表示回溯算法的递进，题干中的k、n作为判定条件也要加入，所以共这五个参数。`List<List<Integer>> res,List<Integer> sub,int index,int k,int n`
+// 然后是递归终止条件：比较明显的是两个条件必须同时达到，序列长度为k，之和为n。用n减去当前加入的数作为下一次递归的判定条件。另外如果n < 0（即sub之和已经大于n了），直接回溯。
+// ```
 if(n < 0) return ;
 if(n == 0 && sub.size() == k){
     res.add(new ArrayList<>(sub));//这里必须用new ArrayList重新创建一个List。
     return ;
 }
-```
-接下来就是回溯主体，由于是1-9的数且不重复，那一个for循环就可以了。初始条件就是index = 1。最后补全主函数中的helper就行了。
-完整代码如下：
+// ```
+// 接下来就是回溯主体，由于是1-9的数且不重复，那一个for循环就可以了。初始条件就是index = 1。最后补全主函数中的helper就行了。
+// 完整代码如下：
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> res = new ArrayList<>();
@@ -60,4 +60,4 @@ class Solution {
         }
     }
 }
-```
+// ```

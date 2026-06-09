@@ -1,18 +1,18 @@
-### 解题思路
-执行用时 :
-2 ms
-, 在所有 java 提交中击败了
-97.41%
-的用户
-内存消耗 :
-36.2 MB
-, 在所有 java 提交中击败了
-55.06%
-的用户
+// ### 解题思路
+// 执行用时 :
+// 2 ms
+// , 在所有 java 提交中击败了
+// 97.41%
+// 的用户
+// 内存消耗 :
+// 36.2 MB
+// , 在所有 java 提交中击败了
+// 55.06%
+// 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addBinary(String a, String b) {
         String res="";
@@ -71,4 +71,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

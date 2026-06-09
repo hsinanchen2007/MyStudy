@@ -1,11 +1,11 @@
-### 解题思路
-1. 更新数组和数组长度n;
-2. 更新下标 index = (index+m - 1)%n;
-3. 当n == 1 时，返回数组的唯一值。
+// ### 解题思路
+// 1. 更新数组和数组长度n;
+// 2. 更新下标 index = (index+m - 1)%n;
+// 3. 当n == 1 时，返回数组的唯一值。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} m
@@ -31,4 +31,4 @@ var lastRemaining = function(n, m) {
     }
     return arr[0];
 };
-```
+// ```

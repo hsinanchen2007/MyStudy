@@ -1,5 +1,5 @@
-窗口函数解法：
-```
+-- 窗口函数解法：
+-- ```
 select
     pay_month,
     department_id,
@@ -23,4 +23,4 @@ from
 ) a
 group by pay_month, department_id, m_d_amount, company_amount
 order by department_id
-```
+-- ```

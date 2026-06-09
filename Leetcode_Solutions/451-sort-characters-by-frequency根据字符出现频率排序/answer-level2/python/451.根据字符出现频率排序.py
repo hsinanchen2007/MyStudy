@@ -1,10 +1,10 @@
-### 解题思路
-* 用Counter统计出现次数，most_common函数将出现次数从大到小排序。
-* 循环遍历加入列表a中，用join函数组合
+# ### 解题思路
+# * 用Counter统计出现次数，most_common函数将出现次数从大到小排序。
+# * 循环遍历加入列表a中，用join函数组合
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def frequencySort(self, s):
         from collections import Counter
@@ -13,4 +13,4 @@ class Solution(object):
         for i,j in m:
             a += i*j
         return "".join(a)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-记录最小值，遍历做差
+// ### 解题思路
+// 记录最小值，遍历做差
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     if(pricesSize == 0)
         return 0;
@@ -18,4 +18,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return ret;
 }
-```
+// ```

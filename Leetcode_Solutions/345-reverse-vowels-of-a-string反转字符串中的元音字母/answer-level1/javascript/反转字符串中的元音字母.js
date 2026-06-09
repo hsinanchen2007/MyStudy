@@ -1,6 +1,6 @@
-典型的双指针应用
+// 典型的双指针应用
 
-```js
+// ```js
 var reverseVowels = function(s) {
     var vowels = "aeiouAEIOU";
     var sArr = s.split('');
@@ -22,4 +22,4 @@ var reverseVowels = function(s) {
     }
     return sArr.join('');
 };
-```
+// ```

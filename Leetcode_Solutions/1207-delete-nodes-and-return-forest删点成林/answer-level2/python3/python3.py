@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-比较慢的代码
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 比较慢的代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
                     res=res[:n]+res[n+1:]
         return res
             
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string replaceSpace(string s) {                         //直接遍历，时间o(n), 空间o(n)
@@ -17,4 +17,4 @@ public:
         return ans;
     }
 };
-```
+// ```

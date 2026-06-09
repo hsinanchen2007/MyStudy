@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     import functools
     @functools.lru_cache()
@@ -15,4 +15,4 @@ class Solution:
         else:
             return first_match and self.isMatch(s[1:], p[1:])
 
-```
+# ```

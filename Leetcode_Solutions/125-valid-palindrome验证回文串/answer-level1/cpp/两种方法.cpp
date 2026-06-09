@@ -1,5 +1,5 @@
-方法一 
-```
+// 方法一 
+// ```
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -22,8 +22,8 @@ public:
         return true;
     } 
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -46,9 +46,9 @@ public:
         return true;
     }
 };
-```
-方法二
-```
+// ```
+// 方法二
+// ```
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -60,6 +60,6 @@ public:
         return true;
     } 
 };
-```
+// ```
 
 

@@ -1,9 +1,9 @@
-说明：
-del_node用于存储待搜索的节点
-dfs函数用于搜索一个节点，将这个节点的子节点中是删除的节点删掉
-如果搜索到一个节点是删除节点的时候，会判断它左右子节点是否存在，然后存入del_node中
-一直搜索直到del_node为空就停止
-```
+# 说明：
+# del_node用于存储待搜索的节点
+# dfs函数用于搜索一个节点，将这个节点的子节点中是删除的节点删掉
+# 如果搜索到一个节点是删除节点的时候，会判断它左右子节点是否存在，然后存入del_node中
+# 一直搜索直到del_node为空就停止
+# ```
 class Solution:
     def delNodes(self, root: TreeNode, to_delete: List[int]) -> List[TreeNode]:
         if not root:
@@ -45,4 +45,4 @@ class Solution:
             if dfs(node):
                 ans.append(node)
         return ans
-```
+# ```

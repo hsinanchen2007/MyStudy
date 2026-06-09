@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool hasOneNode(TreeNode* root, TreeNode* p)
@@ -22,4 +22,4 @@ public:
         return root;
     }
 };
-```
+// ```

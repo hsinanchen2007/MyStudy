@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-我也不晓得是怎么做的
+// ### 解题思路
+// 此处撰写解题思路
+// 我也不晓得是怎么做的
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func intersect(nums1 []int, nums2 []int) []int {
 
 
@@ -28,4 +28,4 @@ func intersect(nums1 []int, nums2 []int) []int {
 
 	return res
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-使用es6 map
-![leetcode-451.png](https://pic.leetcode-cn.com/daa3e36cbaa9d18cecbeb630f6f2d522aefe1463cf602e24574eadd72e8f3c08-leetcode-451.png)
+// ### 解题思路
+// 使用es6 map
+// ![leetcode-451.png](https://pic.leetcode-cn.com/daa3e36cbaa9d18cecbeb630f6f2d522aefe1463cf602e24574eadd72e8f3c08-leetcode-451.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -34,4 +34,4 @@ var frequencySort = function(s) {
       })
       return str
     };
-```
+// ```

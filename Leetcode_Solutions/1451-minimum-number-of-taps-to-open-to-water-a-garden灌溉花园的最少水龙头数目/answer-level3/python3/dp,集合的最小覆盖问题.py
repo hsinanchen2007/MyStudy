@@ -1,13 +1,13 @@
-### 解题思路
-先处理集合，得到最大范围的(r, l)的元组list。
-dp序列初始化，每个值都定为最大值，然后dp迭代。
-对于每个(r, l)，如果l=0，则dp[r]=1,否则，
-dp[r] = min([dp[i]] for i in range(l-1, r)]) + 1，
-搞定。
+# ### 解题思路
+# 先处理集合，得到最大范围的(r, l)的元组list。
+# dp序列初始化，每个值都定为最大值，然后dp迭代。
+# 对于每个(r, l)，如果l=0，则dp[r]=1,否则，
+# dp[r] = min([dp[i]] for i in range(l-1, r)]) + 1，
+# 搞定。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minTaps(self, n: int, ranges: List[int]) -> int:
         g = {}
@@ -39,4 +39,4 @@ class Solution:
             return dp[n]
         else:
             return -1
-```
+# ```

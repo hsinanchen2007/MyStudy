@@ -1,12 +1,12 @@
-### 解题思路
-思路很单纯直接
-遍历单词数组，查找是否已经存在 单词+"#" 存在，没有则加上，有则跳过
-前面按照单词长度排序一下，防止被"me","time"这样的顺序坑了，
-这就是第一次实现
+// ### 解题思路
+// 思路很单纯直接
+// 遍历单词数组，查找是否已经存在 单词+"#" 存在，没有则加上，有则跳过
+// 前面按照单词长度排序一下，防止被"me","time"这样的顺序坑了，
+// 这就是第一次实现
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         Arrays.sort(words, new Comparator<String>() {
@@ -27,4 +27,4 @@ class Solution {
 		return sb.length();
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-递归AC （关注微信公众号'码农黑板报'获取更多题解）
-![image.png](https://pic.leetcode-cn.com/89d9e1aa00f2ad9b153ca962b239a3410e393b75aaaf74fc97bc3df0c9255b99-image.png)
+// ### 解题思路
+// 递归AC （关注微信公众号'码农黑板报'获取更多题解）
+// ![image.png](https://pic.leetcode-cn.com/89d9e1aa00f2ad9b153ca962b239a3410e393b75aaaf74fc97bc3df0c9255b99-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -42,4 +42,4 @@ public:
         res.push_back(node->val);
     }
 };
-```
+// ```

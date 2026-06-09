@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def simplifyPath(self, path: str) -> str:
         parts = path.split('/')
@@ -12,4 +12,4 @@ class Solution:
             else:
                 res.append(x)
         return '/'+'/'.join(res)
-```
+# ```

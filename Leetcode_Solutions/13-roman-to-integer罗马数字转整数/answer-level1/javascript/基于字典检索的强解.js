@@ -1,9 +1,9 @@
-### 解题思路
-编写字典，查询字典，累加
+// ### 解题思路
+// 编写字典，查询字典，累加
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -46,4 +46,4 @@ var romanToInt = function (s) {
 
     return result;
 };
-```
+// ```

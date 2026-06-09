@@ -1,9 +1,9 @@
-### 解题思路
-检测以每个节点开头的子链表的和是否为零
+// ### 解题思路
+// 检测以每个节点开头的子链表的和是否为零
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -36,4 +36,4 @@ func removeZeroSumSublists(head *ListNode) *ListNode {
 
 	return p.Next
 }
-```
+// ```

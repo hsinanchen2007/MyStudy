@@ -1,9 +1,9 @@
-### 解题思路
-单次遍历，每次循环更新当前最小股价，和当前最大收益。
+// ### 解题思路
+// 单次遍历，每次循环更新当前最小股价，和当前最大收益。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -17,4 +17,4 @@ public:
         return maxP;
     }
 };
-```
+// ```

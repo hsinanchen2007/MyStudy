@@ -1,13 +1,13 @@
-### 解题思路
+# ### 解题思路
 
-思路 ？不存在的，我自己都绕晕了。
+# 思路 ？不存在的，我自己都绕晕了。
 
-head 依次后移，每轮先跟已排好序的末端节点比，如果大于末端，直接接在后面，
-如果小于末端，跟已排好的链表从头比，再插入
+# head 依次后移，每轮先跟已排好序的末端节点比，如果大于末端，直接接在后面，
+# 如果小于末端，跟已排好的链表从头比，再插入
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
                 head.next = insertPos
                 head = temp
         return ret.next
-```
+# ```

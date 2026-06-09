@@ -1,27 +1,27 @@
-#  编辑距离
->给定两个单词 word1 和 word2，计算出将 word1 转换成 word2 所使用的最少操作数 。
-你可以对一个单词进行如下三种操作：
-插入一个字符
-删除一个字符
-替换一个字符
+// #  编辑距离
+// >给定两个单词 word1 和 word2，计算出将 word1 转换成 word2 所使用的最少操作数 。
+// 你可以对一个单词进行如下三种操作：
+// 插入一个字符
+// 删除一个字符
+// 替换一个字符
 
->示例 1:
-输入: word1 = "horse", word2 = "ros"
-输出: 3
-解释: 
-horse -> rorse (将 'h' 替换为 'r')
-rorse -> rose (删除 'r')
-rose -> ros (删除 'e')
+// >示例 1:
+// 输入: word1 = "horse", word2 = "ros"
+// 输出: 3
+// 解释: 
+// horse -> rorse (将 'h' 替换为 'r')
+// rorse -> rose (删除 'r')
+// rose -> ros (删除 'e')
 
->来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/edit-distance
+// >来源：力扣（LeetCode）
+// 链接：https://leetcode-cn.com/problems/edit-distance
 
-思路分析：
-1. min[i][j] i,j 分别代表 word1、word2 索引，遍历至 min[i][j]  会出现两种情况，word1、word2 当前遍历字符相等 / 不相等
-2. 当前遍历字符相等，word1[i-1] == word2[j-1] 则当前操作次数与前一位操作次数相等
-3. 当前遍历字符不相等，word1[i-1]！= word2[j-1] 则当前操作次数 = min(删除、插入、替换)+1
-4.  min[i-1,j] 代表删除字符,min[i][j-1] 代表插入字符，min[i-1][i-1] 代表替换字符
-```java
+// 思路分析：
+// 1. min[i][j] i,j 分别代表 word1、word2 索引，遍历至 min[i][j]  会出现两种情况，word1、word2 当前遍历字符相等 / 不相等
+// 2. 当前遍历字符相等，word1[i-1] == word2[j-1] 则当前操作次数与前一位操作次数相等
+// 3. 当前遍历字符不相等，word1[i-1]！= word2[j-1] 则当前操作次数 = min(删除、插入、替换)+1
+// 4.  min[i-1,j] 代表删除字符,min[i][j-1] 代表插入字符，min[i-1][i-1] 代表替换字符
+// ```java
 class Solution {
     public int minDistance(String word1, String word2) {
         if (word1 == null && word2 == null) {
@@ -57,4 +57,4 @@ class Solution {
         return min[len1][len2];
     }
 }
-```
+// ```

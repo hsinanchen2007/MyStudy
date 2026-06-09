@@ -1,6 +1,6 @@
-*法一*
+// *法一*
 
-```js
+// ```js
 var isUgly = function(num) {
     while(num > 1) {
         if (Number.isInteger(num/2)) {
@@ -18,11 +18,11 @@ var isUgly = function(num) {
 
 var num = 6;
 console.log(isUgly(num));
-```
+// ```
 
-*法二：同法一*
+// *法二：同法一*
 
-```js
+// ```js
 var isUgly2 = function(num) {
     if (num < 1) {
         return false
@@ -38,5 +38,5 @@ var isUgly2 = function(num) {
     }
     return num === 1
 };
-```
+// ```
 

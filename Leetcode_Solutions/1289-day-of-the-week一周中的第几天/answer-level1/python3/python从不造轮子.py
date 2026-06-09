@@ -1,4 +1,4 @@
-```
+# ```
 import datetime
 class Solution:
     def dayOfTheWeek(self, day: int, month: int, year: int) -> str:
@@ -15,4 +15,4 @@ class Solution:
         anyday=datetime.datetime(year,month,day).strftime("%w")
         
         return week_day_dict[int(anyday)]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历链表，用map{int,value}记录重复元素,再依判断map元素大于1时，则删除链表的节点，剩下的节点再构建新的链表，返回结果
+# ### 解题思路
+# 遍历链表，用map{int,value}记录重复元素,再依判断map元素大于1时，则删除链表的节点，剩下的节点再构建新的链表，返回结果
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
                     newcurr = newcurr.next
             currnode = currnode.next
         return newhead
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 static int get_score(char **s);
 int scoreOfParentheses(char *s)
 {
@@ -21,4 +21,4 @@ static int get_score(char **s)
 
     return score;
 }
-```
+// ```

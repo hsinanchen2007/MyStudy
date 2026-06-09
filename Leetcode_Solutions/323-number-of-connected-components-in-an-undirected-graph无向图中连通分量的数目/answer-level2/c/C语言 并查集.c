@@ -1,5 +1,5 @@
 
-```
+// ```
 int *g_fater = 0;
 
 int find(int x)
@@ -61,4 +61,4 @@ int countComponents(int n, int** edges, int edgesSize, int* edgesColSize){
 
     return cnt;
 }
-```
+// ```

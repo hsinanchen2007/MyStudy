@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
-想了两种方法，一种传统解法，用双重for循环去遍历计数，比较消耗性能
-用es6新增方法可以直接过滤出想要的结果，性能提高了
-```javascript
+// ### 代码
+// 想了两种方法，一种传统解法，用双重for循环去遍历计数，比较消耗性能
+// 用es6新增方法可以直接过滤出想要的结果，性能提高了
+// ```javascript
 /**
  * @param {string} J
  * @param {string} S
@@ -35,4 +35,4 @@ var numJewelsInStones = function (J, S) {
   // 直接用filter返回一个新数组，取长度，判断条件是在判断用数组中有没有包含
   return newS.filter(item => newJ.includes(item)).length;
 };
-```
+// ```

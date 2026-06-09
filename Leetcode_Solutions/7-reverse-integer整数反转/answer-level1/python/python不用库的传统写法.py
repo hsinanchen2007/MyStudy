@@ -1,6 +1,6 @@
-速度没有各位reverse或者[::-1]来的快，但是能体现出解题思想
-Python3所有数用long保存，不用担心中间过程会溢出
-```
+# 速度没有各位reverse或者[::-1]来的快，但是能体现出解题思想
+# Python3所有数用long保存，不用担心中间过程会溢出
+# ```
 class Solution(object):
     def reverse(self, x):
         """
@@ -22,4 +22,4 @@ class Solution(object):
         if not -2**31<l<2**31-1:
             return 0
         return l
-```
+# ```

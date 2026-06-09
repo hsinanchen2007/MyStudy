@@ -1,11 +1,11 @@
-### 解题思路
-深度优先遍历染色
-1，利用负数表示数据已经遍历过，并可以改变符号复原
-2，判断一个色点是否处于边缘，若是则染色
+// ### 解题思路
+// 深度优先遍历染色
+// 1，利用负数表示数据已经遍历过，并可以改变符号复原
+// 2，判断一个色点是否处于边缘，若是则染色
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int dirs[4][2] = {{0, 1}, {0, -1}, {-1, 0}, {1, 0}};
@@ -38,6 +38,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/3254156a2f93a7623cb994583dc6952b73bccd3119082992aa223ca45f9d35ed-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3254156a2f93a7623cb994583dc6952b73bccd3119082992aa223ca45f9d35ed-image.png)

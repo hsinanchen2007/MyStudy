@@ -1,5 +1,5 @@
-增加两个数组指针，一个保存最大值索引，一个保存第二大值索引，做好边界的计算，代码应该可以更加简化。
-```
+// 增加两个数组指针，一个保存最大值索引，一个保存第二大值索引，做好边界的计算，代码应该可以更加简化。
+// ```
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
       int i, max, maxidx = 0, seconedmax, sencondmaxidx = 1;
@@ -64,4 +64,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

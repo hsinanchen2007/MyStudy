@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
@@ -20,7 +20,7 @@ public:
         return res;
     }
 };
-```
+// ```
 
-* 执行用时 :16 ms, 在所有 C++ 提交中击败了76.66%的用户
-* 内存消耗 :10 MB, 在所有 C++ 提交中击败了59.76%的用户
+// * 执行用时 :16 ms, 在所有 C++ 提交中击败了76.66%的用户
+// * 内存消耗 :10 MB, 在所有 C++ 提交中击败了59.76%的用户

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         num1 = len(strs)
@@ -26,7 +26,7 @@ class Solution:
                 break
             i += 1
         return(target)
-```
+# ```
 
 
-![image.png](https://pic.leetcode-cn.com/c476e13404ad58f3f95d89146d27f019132b981bbc408b33351e823958a8e66a-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c476e13404ad58f3f95d89146d27f019132b981bbc408b33351e823958a8e66a-image.png)

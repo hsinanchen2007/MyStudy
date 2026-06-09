@@ -1,12 +1,12 @@
-## 思路
-+ 题目不难，但是很多写法有多层循环，写法不够 Pythonic
-+ 其实两层循环就够了
-+ 第一层循环，遍历所有的点
-+ 第二层循环，遍历这些点的邻居
-+ 利用 Python 循环可以用两个变量的特性即可
+# ## 思路
+# + 题目不难，但是很多写法有多层循环，写法不够 Pythonic
+# + 其实两层循环就够了
+# + 第一层循环，遍历所有的点
+# + 第二层循环，遍历这些点的邻居
+# + 利用 Python 循环可以用两个变量的特性即可
 
-## 代码
-```python
+# ## 代码
+# ```python
 class Solution:
     def imageSmoother(self, M: List[List[int]]) -> List[List[int]]:
         ans = [[0] * len(M[0]) for _ in M]
@@ -18,4 +18,4 @@ class Solution:
                     count += 1
             ans[row][col] //= count
         return ans
-```
+# ```

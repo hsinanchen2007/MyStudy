@@ -1,9 +1,9 @@
-### 解题思路
-平均分配栈内(来保证均匀，使得最终max(A,B)最小
+// ### 解题思路
+// 平均分配栈内(来保证均匀，使得最终max(A,B)最小
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<int> maxDepthAfterSplit(string seq) {
@@ -32,4 +32,4 @@ public:
 };
 
 
-```
+// ```

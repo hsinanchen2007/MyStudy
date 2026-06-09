@@ -1,9 +1,9 @@
-### 解题思路
-bfs python实现
+# ### 解题思路
+# bfs python实现
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         N = len(grid)
@@ -45,4 +45,4 @@ class Solution:
 
 
 
-```
+# ```

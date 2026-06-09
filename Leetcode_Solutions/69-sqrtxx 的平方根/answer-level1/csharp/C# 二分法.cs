@@ -1,5 +1,5 @@
-用 mid==x/mid 而不是 mid*mid==x 防止数值溢出
-```C# []
+// 用 mid==x/mid 而不是 mid*mid==x 防止数值溢出
+// ```C# []
 
 public class Solution {
  
@@ -26,4 +26,4 @@ public class Solution {
                 return left;
         }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![1.png](https://pic.leetcode-cn.com/a8b1529e7ea7032a55f030277997987e9027a47287bba1ea43800a5e4921e3d2-1.png)
+// ![1.png](https://pic.leetcode-cn.com/a8b1529e7ea7032a55f030277997987e9027a47287bba1ea43800a5e4921e3d2-1.png)
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findSolution(CustomFunction& cf, int z) {
@@ -24,4 +24,4 @@ public:
         return res;
     }
 };
-```
+// ```

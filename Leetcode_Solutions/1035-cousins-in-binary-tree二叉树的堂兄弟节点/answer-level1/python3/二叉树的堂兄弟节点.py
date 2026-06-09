@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-先得保证深度相同
-再保证不同的父节点.
-时间复杂度:o(n)
-空间复杂度:o(1)
-### 代码
+# 先得保证深度相同
+# 再保证不同的父节点.
+# 时间复杂度:o(n)
+# 空间复杂度:o(1)
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -49,4 +49,4 @@ class Solution:
         else:
             return False
         
-```
+# ```

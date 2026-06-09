@@ -1,8 +1,8 @@
-### 思路
-1. 动态规划
+// ### 思路
+// 1. 动态规划
 
-### 答题
-```cpp
+// ### 答题
+// ```cpp
 int combinationSum4(vector<int>& nums, int target) 
 {
     vector<int> dp(target + 1, 0);
@@ -17,13 +17,13 @@ int combinationSum4(vector<int>& nums, int target)
     }
     return dp[target];
 }
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

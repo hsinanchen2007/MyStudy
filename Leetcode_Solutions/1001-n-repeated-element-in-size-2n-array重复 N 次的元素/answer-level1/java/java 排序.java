@@ -1,5 +1,5 @@
-java 排序
-```
+// java 排序
+// ```
 class Solution {
     public int repeatedNTimes(int[] A) {
         Arrays.sort(A);
@@ -11,4 +11,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

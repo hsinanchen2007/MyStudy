@@ -1,6 +1,6 @@
 
-![48.PNG](https://pic.leetcode-cn.com/8c2187c7294ed90beb1a4acf0dccd9827829d4eedfcbd190896586cd5ec31db5-48.PNG)
-```
+// ![48.PNG](https://pic.leetcode-cn.com/8c2187c7294ed90beb1a4acf0dccd9827829d4eedfcbd190896586cd5ec31db5-48.PNG)
+// ```
 int lengthOfLongestSubstring(char* s) {
 	int left, right, maxlen = 1, len, i, nextindex;
 	int index[256] = { 0 };
@@ -33,4 +33,4 @@ int lengthOfLongestSubstring(char* s) {
 	}
 	return maxlen;
 }
-```
+// ```

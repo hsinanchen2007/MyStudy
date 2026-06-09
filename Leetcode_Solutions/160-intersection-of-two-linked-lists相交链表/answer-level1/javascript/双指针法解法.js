@@ -1,13 +1,13 @@
-**解：**
+// **解：**
 
-时间复杂度 : $O(n)$
-空间复杂度 : $O(1)$
+// 时间复杂度 : $O(n)$
+// 空间复杂度 : $O(1)$
 
----
+// ---
 
-附代码及注释：
+// 附代码及注释：
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -69,4 +69,4 @@ var getIntersectionNode = function(headA, headB) {
   }
   return headA;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int partition(int arr[], int left, int right) {
     int i = left, j = right;
     int tmp = arr[left];
@@ -33,4 +33,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize){
     * returnSize = numsSize;
     return nums;
 }
-```
+// ```

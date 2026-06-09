@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-借用链表创建队列，队列先入先出，栈先入后出，根据定义写出入栈出栈函数即可
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 借用链表创建队列，队列先入先出，栈先入后出，根据定义写出入栈出栈函数即可
+// ### 代码
 
-```java
+// ```java
 class MyStack {
     public Queue<Integer> queue;
     /** Initialize your data structure here. */
@@ -35,4 +35,4 @@ class MyStack {
         return queue.size()==0;
     }
 }
-```
+// ```

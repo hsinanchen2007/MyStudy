@@ -1,9 +1,9 @@
-### 解题思路
-dp 入注解
+// ### 解题思路
+// dp 入注解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canPartition(int[] nums) {
         int sum = 0 ;
@@ -31,4 +31,4 @@ class Solution {
         return dp[target] ;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int distributeCandies(vector<int>& candies) {
@@ -12,4 +12,4 @@ public:
             return p.size();
     }
 };
-```
+// ```

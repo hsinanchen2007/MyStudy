@@ -1,9 +1,9 @@
-### 解题思路
-参考的是Java最高赞的思路，用C++实现，大佬轻喷
+// ### 解题思路
+// 参考的是Java最高赞的思路，用C++实现，大佬轻喷
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countDigitOne(int n) {
@@ -49,4 +49,4 @@ public:
         return res;
     }
 };
-```
+// ```

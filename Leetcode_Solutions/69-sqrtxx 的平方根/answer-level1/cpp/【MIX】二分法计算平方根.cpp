@@ -1,9 +1,9 @@
-### 解题思路
-二分法
+// ### 解题思路
+// 二分法
 
-### 代码
+// ### 代码
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int mySqrt(int x) {
@@ -20,11 +20,11 @@ public:
         return l; 
     }
 };
-```
+// ```
 
-**FOLLOW UP**
-对浮点数计算$sqrt(x)$
-```c++ []
+// **FOLLOW UP**
+// 对浮点数计算$sqrt(x)$
+// ```c++ []
 // Follow UP: sqrt(x) II
 class Solution {
     public double mySqrt(double x) {
@@ -41,4 +41,4 @@ class Solution {
         return l;
     }
 }
-```
+// ```

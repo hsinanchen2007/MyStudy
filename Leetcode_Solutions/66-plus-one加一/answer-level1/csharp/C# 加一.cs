@@ -1,5 +1,5 @@
-问题非常简单,只要不漏掉循环后进位产生新数组的情况就ok
-```
+// 问题非常简单,只要不漏掉循环后进位产生新数组的情况就ok
+// ```
 if (digits==null || digits.Length==0)
         {
             return digits;
@@ -34,4 +34,4 @@ if (digits==null || digits.Length==0)
         else {
             return digits;
         }
-```
+// ```

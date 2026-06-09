@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class PeekingIterator implements Iterator<Integer> {
     int cur;
     List<Integer> res;
@@ -34,4 +34,4 @@ class PeekingIterator implements Iterator<Integer> {
         return result;
 	}
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 import kotlin.math.min
 class Solution {
     fun convert(s: String, numRows: Int): String {
@@ -32,4 +32,4 @@ class Solution {
         return end
     }
 }
-```
+// ```

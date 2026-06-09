@@ -1,10 +1,10 @@
-### 解题思路
-题意有点难理解，这个代码，有点慢，240ms，但是内存挺省的，4.3M的内存消耗。
-题目坑的地方在于，要找到的时最小字母的频次，所以要先找出最小字母，再对这个字母计数。
+// ### 解题思路
+// 题意有点难理解，这个代码，有点慢，240ms，但是内存挺省的，4.3M的内存消耗。
+// 题目坑的地方在于，要找到的时最小字母的频次，所以要先找出最小字母，再对这个字母计数。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numSmallerByFrequency(queries []string, words []string) []int {
 	var result []int
 
@@ -40,4 +40,4 @@ func countMaxCountInAWord(word string) int {
 	return times
 }
 
-```
+// ```

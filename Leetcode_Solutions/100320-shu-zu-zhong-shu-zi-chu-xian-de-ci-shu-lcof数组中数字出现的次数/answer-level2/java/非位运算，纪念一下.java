@@ -1,10 +1,10 @@
-### 解题思路
-利用数组本身的特性，空间复杂度达标，时间复杂度也达标但是不大好
-![image.png](https://pic.leetcode-cn.com/86e7cb57755624ab9adc88a3a7d20a8f802f34ab98a9b901e0080b6dc71575dc-image.png)
+// ### 解题思路
+// 利用数组本身的特性，空间复杂度达标，时间复杂度也达标但是不大好
+// ![image.png](https://pic.leetcode-cn.com/86e7cb57755624ab9adc88a3a7d20a8f802f34ab98a9b901e0080b6dc71575dc-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] singleNumbers(int[] nums) {
 
@@ -34,4 +34,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -18,6 +18,6 @@ public:
                 flipEquiv(root1->right, root2->left) && flipEquiv(root1->left, root2->right));
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/98aff4f1da622d9c44cdde8177a6dffcaef1ca96cd3eb7744a7ecd516cf130c0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/98aff4f1da622d9c44cdde8177a6dffcaef1ca96cd3eb7744a7ecd516cf130c0-image.png)

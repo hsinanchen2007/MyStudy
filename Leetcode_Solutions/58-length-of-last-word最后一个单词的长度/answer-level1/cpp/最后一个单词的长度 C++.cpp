@@ -1,9 +1,9 @@
-### 解题思路
-简单的从后遍历
+// ### 解题思路
+// 简单的从后遍历
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -17,4 +17,4 @@ public:
         return tmpLen;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-### 一种比较节省脑细胞的二分模板
+// ### 一种比较节省脑细胞的二分模板
 
-```java
+// ```java
 /**
  * l + 1 < r 形式的二分
  * l = mid / r = mid  (无需+1或-1)
@@ -40,4 +40,4 @@ class Solution {
         return new int[]{first, last};
     }
 }
-```
+// ```

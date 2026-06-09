@@ -1,9 +1,9 @@
-### 解题思路
-就正常写。。没啥技术含量，愿意看就看看吧，比较容易理解。
+// ### 解题思路
+// 就正常写。。没啥技术含量，愿意看就看看吧，比较容易理解。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] flipAndInvertImage(int[][] A) {
         for(int i = 0;i<A.length;i++) {
@@ -23,4 +23,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

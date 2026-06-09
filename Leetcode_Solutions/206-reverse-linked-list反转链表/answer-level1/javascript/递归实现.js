@@ -1,10 +1,10 @@
-### 解题思路
-1.使用递归
+// ### 解题思路
+// 1.使用递归
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -29,4 +29,4 @@ var reverseList = function(head) {
 
   return newHead;
 };
-```
+// ```

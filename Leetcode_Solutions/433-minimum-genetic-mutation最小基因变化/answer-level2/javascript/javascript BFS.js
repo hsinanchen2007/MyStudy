@@ -1,9 +1,9 @@
-### 解题思路
-javascript BFS
+// ### 解题思路
+// javascript BFS
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} start
  * @param {string} end
@@ -30,4 +30,4 @@ var minMutation = function(start, end, bank) {
     }
     return -1;
 };
-```
+// ```

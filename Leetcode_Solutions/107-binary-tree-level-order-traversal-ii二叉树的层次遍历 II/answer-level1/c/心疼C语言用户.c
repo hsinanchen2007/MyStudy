@@ -1,10 +1,10 @@
-### 解题思路
-层序遍历，广度优先搜索，需要队列容器，
-可惜C语言没有STL, 只能自己写个简化版
+// ### 解题思路
+// 层序遍历，广度优先搜索，需要队列容器，
+// 可惜C语言没有STL, 只能自己写个简化版
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct TreeNode * ElemType;
 typedef struct {
     ElemType *data;
@@ -79,4 +79,4 @@ int** levelOrderBottom(struct TreeNode* root, int* returnSize, int** returnColum
 
     return res;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 	// 获取两个/之间的值 如果是连续两个/ 则返回空字符串 
 	string getString(string s,int& start){
@@ -44,4 +44,4 @@ public:
 		return result;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-如下
+// ### 解题思路
+// 如下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
     	Set<String>useful = new HashSet<String>(Arrays.asList(words));    
@@ -22,4 +22,4 @@ class Solution {
 		return ans;
     }
 }
-```
+// ```

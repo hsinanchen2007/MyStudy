@@ -1,9 +1,9 @@
-### 解题思路
-费马平方数定理
+// ### 解题思路
+// 费马平方数定理
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func judgeSquareSum(c int) bool {
     for i := 2; i * i <= c; i++ {
         cnt := 0
@@ -19,4 +19,4 @@ func judgeSquareSum(c int) bool {
     }
     return c % 4 != 3
 }
-```
+// ```

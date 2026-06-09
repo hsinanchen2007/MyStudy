@@ -1,4 +1,4 @@
-```
+// ```
 // char *strcat(char *dest, const char *src)
 const char roman[4][10][5]={
     {"0","M","MM","MMM",0,0,0,0,0,0,},                    // 千位 1000-3000
@@ -32,4 +32,4 @@ char * intToRoman(int num){
     char *t=number;
     return t;
 }
-```
+// ```

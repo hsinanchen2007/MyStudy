@@ -1,11 +1,11 @@
-### 解题思路
-首先将第一个字符串依次按照数字顺序入map，按照index为key，char为value来存放。
-之后依次将所有的字符串依次与该map进行比较，取最小的匹配，
-最后输入匹配即可
+// ### 解题思路
+// 首先将第一个字符串依次按照数字顺序入map，按照index为key，char为value来存放。
+// 之后依次将所有的字符串依次与该map进行比较，取最小的匹配，
+// 最后输入匹配即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestCommonPrefix(strs []string) string {
     if len(strs) == 0 {
         return ""
@@ -44,4 +44,4 @@ func longestCommonPrefix(strs []string) string {
     }
     return retStr
 }
-```
+// ```

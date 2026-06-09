@@ -1,9 +1,9 @@
-### 解题思路
-双指针的典型应用，在草稿纸上比划比划就清楚了
+// ### 解题思路
+// 双指针的典型应用，在草稿纸上比划比划就清楚了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int kthToLast(struct ListNode* head, int k){
     struct ListNode* fast=head,*slow=head;
@@ -20,4 +20,4 @@ int kthToLast(struct ListNode* head, int k){
     }
     return slow->val;
 }
-```
+// ```

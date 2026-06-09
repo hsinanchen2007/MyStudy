@@ -1,9 +1,9 @@
-### 解题思路
-C# 使用等差数列求和公式计算
+// ### 解题思路
+// C# 使用等差数列求和公式计算
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[][] FindContinuousSequence(int target) {
         List<int[]> result = new List<int[]>();
@@ -28,4 +28,4 @@ public class Solution {
         return result.ToArray();
     }
 }
-```
+// ```

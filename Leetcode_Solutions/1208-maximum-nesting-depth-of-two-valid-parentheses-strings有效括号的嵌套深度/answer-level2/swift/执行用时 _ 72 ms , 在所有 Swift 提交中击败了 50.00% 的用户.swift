@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-用堆栈数组来操作
+// 用堆栈数组来操作
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
 func maxDepthAfterSplit(_ seq: String) -> [Int] {
         
@@ -40,4 +40,4 @@ func maxDepthAfterSplit(_ seq: String) -> [Int] {
         return arr
     }
 }
-```
+// ```

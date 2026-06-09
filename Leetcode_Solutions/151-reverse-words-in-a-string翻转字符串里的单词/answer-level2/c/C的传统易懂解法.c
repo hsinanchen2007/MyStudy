@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-![捕获.JPG](https://pic.leetcode-cn.com/c79aee19985f9fd7494df7bcce2247e9710d8202a4c9d00d79c7b9af3ae3e406-%E6%8D%95%E8%8E%B7.JPG)
+// ### 解题思路
+// 此处撰写解题思路
+// ![捕获.JPG](https://pic.leetcode-cn.com/c79aee19985f9fd7494df7bcce2247e9710d8202a4c9d00d79c7b9af3ae3e406-%E6%8D%95%E8%8E%B7.JPG)
 
-解题思路为遍历，从后往前遍历s，通过空字符来确定一个单词的首尾index，然后将其传入返回字符串
-也可以从前往后，但是在传入返回字符串时要计算返回长度等，较麻烦
-### 代码
+// 解题思路为遍历，从后往前遍历s，通过空字符来确定一个单词的首尾index，然后将其传入返回字符串
+// 也可以从前往后，但是在传入返回字符串时要计算返回长度等，较麻烦
+// ### 代码
 
-```c
+// ```c
 char * reverseWords(char * s) {
 	int len = strlen(s);
 	char *res = (char *)malloc(sizeof(char)*(len + 10)); //返回字符串
@@ -42,4 +42,4 @@ char * reverseWords(char * s) {
     
 	return res;
 }
-```
+// ```

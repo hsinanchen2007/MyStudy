@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         lenc = min(len(str1), len(str2))
@@ -12,4 +12,4 @@ class Solution:
                 if str1[:i] * int(len(str1)//i) == str1 and str1[:i] * int(len(str2)//i) == str2:
                     return str1[:i]
         return ''
-```
+# ```

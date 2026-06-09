@@ -1,11 +1,11 @@
-极为经典的回溯题目
+// 极为经典的回溯题目
 
-思路：套用模板即可，需要说明的是：
+// 思路：套用模板即可，需要说明的是：
 
-1. 循环的起点，元素可以重用，并且不允许答案重复，起点选择当前元素。
+// 1. 循环的起点，元素可以重用，并且不允许答案重复，起点选择当前元素。
 
-2. 终止条件：当target等于0，那么就存在一组解；如果target不为0，需要判断target与可用元素最小值（就是当前元素），判断是否还可能出现解，不可能就进行剪枝，已经包括了target被减为负值的情况。
-```
+// 2. 终止条件：当target等于0，那么就存在一组解；如果target不为0，需要判断target与可用元素最小值（就是当前元素），判断是否还可能出现解，不可能就进行剪枝，已经包括了target被减为负值的情况。
+// ```
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> answer=new ArrayList<>();
         if (candidates == null || candidates.length == 0 || target <= 0) {
@@ -37,4 +37,4 @@
             currAns.remove(currAns.size()-1);
         }
     }
-```
+// ```

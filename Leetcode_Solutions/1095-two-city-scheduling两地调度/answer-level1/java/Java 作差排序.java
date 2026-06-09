@@ -1,4 +1,4 @@
-```java []
+// ```java []
 public class Solution {
     public int solve(int[][] costs) {
         int result = 0;

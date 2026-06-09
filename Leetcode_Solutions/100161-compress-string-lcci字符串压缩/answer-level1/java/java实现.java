@@ -1,14 +1,14 @@
-### 解题思路
-    1.先将第一个字符添加到字符串中，
-    2.次数计数count,初始值为1
-    3.从i=1开始遍历，相等count++;否则跳出循环
-    4.将count次数添加到字符串中，count从1重新计数
-    5.比较两个字符串大小然后输出
+// ### 解题思路
+//     1.先将第一个字符添加到字符串中，
+//     2.次数计数count,初始值为1
+//     3.从i=1开始遍历，相等count++;否则跳出循环
+//     4.将count次数添加到字符串中，count从1重新计数
+//     5.比较两个字符串大小然后输出
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
     StringBuilder res = new StringBuilder();
@@ -30,4 +30,4 @@ class Solution {
         return S.length() <= res.length() ? S : res.toString();
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minSteps(self, s: str, t: str) -> int:
         ans=0
@@ -10,4 +10,4 @@ class Solution:
 
         return ans
 
-```
+# ```

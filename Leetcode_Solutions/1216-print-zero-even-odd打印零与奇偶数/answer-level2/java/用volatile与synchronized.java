@@ -1,4 +1,4 @@
-```java
+// ```java
 class ZeroEvenOdd {
     private int n;
     private int flag = 0;
@@ -57,4 +57,4 @@ class ZeroEvenOdd {
         }
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-先利用哈希表统计每种字串的个数，然后放入堆中，堆要重写仿函数。
-特别默认函数是less，如果返回true表示a的优先级低于b(排在后面)，返回false表明a排在b前面
+// ### 解题思路
+// 先利用哈希表统计每种字串的个数，然后放入堆中，堆要重写仿函数。
+// 特别默认函数是less，如果返回true表示a的优先级低于b(排在后面)，返回false表明a排在b前面
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct cmp {
     bool operator() (pair<string, int>& a, pair<string, int>& b) {
         if (a.second < b.second) {
@@ -46,4 +46,4 @@ public:
         return move(ans);
     }
 };
-```
+// ```

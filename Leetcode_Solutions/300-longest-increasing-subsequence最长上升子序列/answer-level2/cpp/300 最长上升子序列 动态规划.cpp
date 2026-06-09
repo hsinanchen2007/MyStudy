@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，
-T(n) = max(T(x)) + 1 (nums[x] < nums[n] && x < n)  
-### 代码
+// ### 解题思路
+// 动态规划，
+// T(n) = max(T(x)) + 1 (nums[x] < nums[n] && x < n)  
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

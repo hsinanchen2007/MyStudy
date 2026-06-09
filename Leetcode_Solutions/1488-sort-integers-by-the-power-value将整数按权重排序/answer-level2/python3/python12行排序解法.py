@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getKth(self, lo: int, hi: int, k: int) -> int:
         def w(x):
@@ -16,4 +16,4 @@ class Solution:
                 count+=1
             return count
         return [one[0] for one in sorted({ one:w(one) for one in range(lo,hi+1)}.items(),key=lambda x:x[1])][k-1]
-```
+# ```

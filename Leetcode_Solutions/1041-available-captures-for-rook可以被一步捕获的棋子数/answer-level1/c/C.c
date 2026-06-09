@@ -1,9 +1,9 @@
-### 解题思路
-最简单的BFS
+// ### 解题思路
+// 最简单的BFS
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int i, j;
     int sum = 0;
@@ -40,4 +40,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
     return sum;
 }
-```
+// ```

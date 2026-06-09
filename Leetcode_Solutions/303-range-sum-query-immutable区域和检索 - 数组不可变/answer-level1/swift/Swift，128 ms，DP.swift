@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class NumArray {
 
     var dp: [Int?]
@@ -30,4 +30,4 @@ class NumArray {
  * let obj = NumArray(nums)
  * let ret_1: Int = obj.sumRange(i, j)
  */
-```
+// ```

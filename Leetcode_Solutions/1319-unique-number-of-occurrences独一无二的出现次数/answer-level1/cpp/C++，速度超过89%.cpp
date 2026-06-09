@@ -1,9 +1,9 @@
-#### 解题思路
-map映射记录元素出现次数，再排序查看是否有重复元素即可
+// #### 解题思路
+// map映射记录元素出现次数，再排序查看是否有重复元素即可
 
-### 代码
-//时间复杂度O(nlog2n)，空间复杂度O(n)
-```cpp
+// ### 代码
+// //时间复杂度O(nlog2n)，空间复杂度O(n)
+// ```cpp
 class Solution {
 public:
     bool uniqueOccurrences(vector<int>& arr) {
@@ -25,4 +25,4 @@ public:
         return true;
     }
 };
-```
+// ```

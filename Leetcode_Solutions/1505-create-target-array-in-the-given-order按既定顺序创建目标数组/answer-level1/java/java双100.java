@@ -1,9 +1,9 @@
-### 解题思路
-关键是判断填充的时候target数组中是否已经被填充，是的话就给新的填充挪位置（target当前下标开始的数组的往后移动）
+// ### 解题思路
+// 关键是判断填充的时候target数组中是否已经被填充，是的话就给新的填充挪位置（target当前下标开始的数组的往后移动）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] createTargetArray(int[] nums, int[] index) {
         int len = nums.length;
@@ -22,4 +22,4 @@ class Solution {
         return targetArr;
     }
 }
-```
+// ```

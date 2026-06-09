@@ -1,18 +1,18 @@
-[122.买卖股票的最佳时机Ⅱ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/)    
+// [122.买卖股票的最佳时机Ⅱ](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/)    
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
-动态规划类解法可以参考[大神题解](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/)。
+// 动态规划类解法可以参考[大神题解](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-lab/)。
 
-## 方法一 峰底峰谷累加计算   
+// ## 方法一 峰底峰谷累加计算   
 
-要想取得利润最大值，就要在某一段区间内的最低点买入，最高点卖出。   
+// 要想取得利润最大值，就要在某一段区间内的最低点买入，最高点卖出。   
 
-区间最低点的特征是比前一天和后一天的价格都低，区间最高点的特征是该点的价格比前一天和后一天的都高，最后根据最高最低计算利润，然后累加即可。
+// 区间最低点的特征是比前一天和后一天的价格都低，区间最高点的特征是该点的价格比前一天和后一天的都高，最后根据最高最低计算利润，然后累加即可。
 
-详细分析可以参考[官方题解](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-ii-by-leetcode/)
+// 详细分析可以参考[官方题解](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-ii-by-leetcode/)
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -36,18 +36,18 @@ var maxProfit = function(prices) {
     }
     return maxProfit;
 };
-```
+// ```
 
 
-## 方法二 累加计算   
+// ## 方法二 累加计算   
 
-本题主要依据数学分析，题目分析清楚了，代码很好写出来。   
+// 本题主要依据数学分析，题目分析清楚了，代码很好写出来。   
 
-本题不限制买卖次数，因此可以直接当天对比上一天的价格，有盈利就直接卖出，最后所得利润即为最大利润。
+// 本题不限制买卖次数，因此可以直接当天对比上一天的价格，有盈利就直接卖出，最后所得利润即为最大利润。
 
-详细分析可以参考[官方题解](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-ii-by-leetcode/)
+// 详细分析可以参考[官方题解](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-ii-by-leetcode/)
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -62,11 +62,11 @@ var maxProfit = function(prices) {
     }
     return max;
 };
-```
+// ```
 
-## 常规动态规划
+// ## 常规动态规划
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -90,11 +90,11 @@ var maxProfit = function(prices) {
     
     return dp[prices.length-1][0];
 };
-```
+// ```
 
-## 动态规划的优化
+// ## 动态规划的优化
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -112,4 +112,4 @@ var maxProfit = function(prices) {
     }
     return dp_0
 };
-```
+// ```

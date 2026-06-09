@@ -1,5 +1,5 @@
-用一个List存放每层的treeNode
-```
+// 用一个List存放每层的treeNode
+// ```
     public List<List<Integer>> levelOrder(TreeNode root) {
         ArrayList<List<Integer>> result = new ArrayList<>();
         if (root == null) return result;
@@ -22,4 +22,4 @@
         }
         return result;
     }
-```
+// ```

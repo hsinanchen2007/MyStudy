@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/d08b29dabc0e2a44aefcb7064053d6f62ffe400d27eb18669ea5de3da69004ec-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d08b29dabc0e2a44aefcb7064053d6f62ffe400d27eb18669ea5de3da69004ec-image.png)
 
 
-```
+// ```
 /*
 // Definition for a Node.
 class Node {
@@ -65,4 +65,4 @@ public:
         }
     }
 };
-```
+// ```

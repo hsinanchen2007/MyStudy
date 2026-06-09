@@ -1,9 +1,9 @@
-### 解题思路
-要使用self来进行调用，否则会报错，显示isSameTree没有定义
+# ### 解题思路
+# 要使用self来进行调用，否则会报错，显示isSameTree没有定义
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

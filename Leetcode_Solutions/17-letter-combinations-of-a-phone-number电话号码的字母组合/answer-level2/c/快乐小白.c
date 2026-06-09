@@ -1,9 +1,9 @@
-### 解题思路
-简单粗暴 
+// ### 解题思路
+// 简单粗暴 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -37,4 +37,4 @@ char ** letterCombinations(char * digits, int* returnSize){
     youxiu(str,0,digits,0,len,returnstr,returnSize);
     return returnstr;
 }
-```
+// ```

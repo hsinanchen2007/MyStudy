@@ -1,4 +1,4 @@
-```py
+# ```py
 class Solution:
 
     def findDiagonalOrder(self, matrix: List[List[int]]) -> List[int]:
@@ -16,4 +16,4 @@ class Solution:
             total += 1
 
         return ans
-```
+# ```

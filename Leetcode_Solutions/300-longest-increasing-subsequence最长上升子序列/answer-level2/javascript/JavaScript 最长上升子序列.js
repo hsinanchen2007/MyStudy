@@ -1,7 +1,7 @@
-解一（伪）：
-> 因为前一天晚上做了八皇后，用的是回溯。所以想着这道题应该也可以用回溯做。结果呢，时间复杂度是$O(n^n)$，超出时间限制了。
+// 解一（伪）：
+// > 因为前一天晚上做了八皇后，用的是回溯。所以想着这道题应该也可以用回溯做。结果呢，时间复杂度是$O(n^n)$，超出时间限制了。
 
-```js
+// ```js
 var lengthOfLIS = function(nums) {
     if (nums.length===0) return 0
     var ans = 1;
@@ -32,12 +32,12 @@ var lengthOfLIS = function(nums) {
     }
     return ans;
 };
-```
+// ```
 
-解二：
-> 有记忆的递归（因为暂时不知道怎么做有记忆的回溯🤣）
+// 解二：
+// > 有记忆的递归（因为暂时不知道怎么做有记忆的回溯🤣）
 
-```js
+// ```js
 var lengthOfLIS = function(nums) {
 
     var memory = []; //memory[i][j]记忆为二维数组，对应recurse[i-1][j]的输出
@@ -59,12 +59,12 @@ var lengthOfLIS = function(nums) {
 
     return recurse(-1,0)
 };
-```
+// ```
 
-解三：
-> 动态规划。不同于解二维护的是一个二维数组`memory`，这里维护一个一维数组`bp`。`bp[i]`表示以第i个元素**结尾**的最长子序列长度。
+// 解三：
+// > 动态规划。不同于解二维护的是一个二维数组`memory`，这里维护一个一维数组`bp`。`bp[i]`表示以第i个元素**结尾**的最长子序列长度。
 
-```js
+// ```js
 var lengthOfLIS = function(nums) {
     var dp = new Array(nums.length).fill(1);
     var ans = 0;
@@ -77,12 +77,12 @@ var lengthOfLIS = function(nums) {
     }
     return ans
 };
-```
+// ```
 
-解四：
-> 动态规划+二分查找。注意这里的`ans`并不一定是题目中要求的最长递增子序列，只是长度与其相等。
+// 解四：
+// > 动态规划+二分查找。注意这里的`ans`并不一定是题目中要求的最长递增子序列，只是长度与其相等。
 
-```js
+// ```js
 var lengthOfLIS = function(nums) {
     var ans = []; //记录子序列
     for (var i = 0; i < nums.length; i++) {
@@ -97,10 +97,10 @@ var lengthOfLIS = function(nums) {
     }
     return ans.length;
 };
-```
+// ```
 
-对于一个乱序序列`4 2 4 5 3 7`的执行过程如下：
-```
+// 对于一个乱序序列`4 2 4 5 3 7`的执行过程如下：
+// ```
 ->i=0 l=0 r=0
 没进去while ans[0]=nums[0]=4
 
@@ -118,4 +118,4 @@ var lengthOfLIS = function(nums) {
 
 ->i=5 l=0 r=4 nums[i]=7
 找不到 ans=[2,3,5,7]
-```
+// ```

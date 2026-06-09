@@ -1,5 +1,5 @@
-- 以任意顺序遍历树，当origin和target相等时说明找到了对应节点，返回clone的节点。
-```c++
+// - 以任意顺序遍历树，当origin和target相等时说明找到了对应节点，返回clone的节点。
+// ```c++
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -22,4 +22,4 @@ public:
         return !p?q:p;  //必然在p q中p为空返回q，不为空直接返回p
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numberOfSteps (int num) {
         int cishu = 0;
@@ -10,5 +10,5 @@ class Solution {
         return cishu;
     }
 }
-```
+// ```
 

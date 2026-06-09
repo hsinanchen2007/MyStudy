@@ -1,5 +1,5 @@
-写出来发现和官方题解思路一样，但是用一个数组来避免官方题解里的重复计算，速度打败100%
-```
+// 写出来发现和官方题解思路一样，但是用一个数组来避免官方题解里的重复计算，速度打败100%
+// ```
 class Solution {
 public:
     int findMinMoves(vector<int>& machines) {
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

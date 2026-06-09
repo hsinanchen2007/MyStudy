@@ -1,6 +1,6 @@
-每次add标记为dirty，getProduct的时候计算后缀积并且缓存
+// 每次add标记为dirty，getProduct的时候计算后缀积并且缓存
 
-```
+// ```
 var ProductOfNumbers = function() {
     this.list = []
     this.values = []
@@ -25,4 +25,4 @@ ProductOfNumbers.prototype.getProduct = function(k) {
     return this.values[this.values.length - k]
 };
 
-```
+// ```

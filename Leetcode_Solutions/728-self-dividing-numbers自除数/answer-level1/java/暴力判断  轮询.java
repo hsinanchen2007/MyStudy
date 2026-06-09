@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     boolean  isselfDividingNumber(int num ){
         boolean  ret = true ;
@@ -23,4 +23,4 @@ class Solution {
         return  ret ;
     }
 }
-```
+// ```

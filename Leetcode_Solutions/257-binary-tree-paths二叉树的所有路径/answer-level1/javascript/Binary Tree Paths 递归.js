@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var binaryTreePaths = function(root) {
     if (!root) return []
     if (root.left === null && root.right === null) return [root.val.toString()]
@@ -6,4 +6,4 @@ var binaryTreePaths = function(root) {
     let right = binaryTreePaths(root.right)
     return left.concat(right).map(item => root.val + '->' + item)
 }
-```
+// ```

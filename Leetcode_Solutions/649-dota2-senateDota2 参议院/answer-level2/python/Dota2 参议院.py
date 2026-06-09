@@ -1,16 +1,16 @@
-#### 方法一：模拟游戏【通过】
+# #### 方法一：模拟游戏【通过】
 
-**思路**
+# **思路**
 
-参议员不需要在轮到自己的时候就立即使用禁令，可以等待另一个阵营的参议员投票时再使用。
+# 参议员不需要在轮到自己的时候就立即使用禁令，可以等待另一个阵营的参议员投票时再使用。
 
-**算法**
+# **算法**
 
-使用一个整数队列表示所有的参议员：`1` 代表 `'Radiant'` 阵营；`0` 代表 `'Dire'` 阵营。
+# 使用一个整数队列表示所有的参议员：`1` 代表 `'Radiant'` 阵营；`0` 代表 `'Dire'` 阵营。
 
-遍历队列：对于当前队头的参议员，如果另外一个阵营有禁令，则禁止当前参议员的权利；如果另外一个阵营没有禁令，则该参议员所在阵营的禁令数量加 1。
+# 遍历队列：对于当前队头的参议员，如果另外一个阵营有禁令，则禁止当前参议员的权利；如果另外一个阵营没有禁令，则该参议员所在阵营的禁令数量加 1。
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 def predictPartyVictory(self, senate):
     queue = collections.deque()
     people, bans = [0, 0], [0, 0]
@@ -30,9 +30,9 @@ def predictPartyVictory(self, senate):
             queue.append(x)
 
     return "Radiant" if people[1] else "Dire"
-```
+# ```
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 class Solution {
     public String predictPartyVictory(String senate) {
         Queue<Integer> queue = new LinkedList();
@@ -59,10 +59,10 @@ class Solution {
         return people[1] > 0 ? "Radiant" : "Dire";
     }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N)$，其中 $N$ 是参议员的数量，每次投票都会从另一支队伍中删除一名参议员。
+# * 时间复杂度：$O(N)$，其中 $N$ 是参议员的数量，每次投票都会从另一支队伍中删除一名参议员。
 
-* 空间复杂度：$O(N)$，队列大小。
+# * 空间复杂度：$O(N)$，队列大小。

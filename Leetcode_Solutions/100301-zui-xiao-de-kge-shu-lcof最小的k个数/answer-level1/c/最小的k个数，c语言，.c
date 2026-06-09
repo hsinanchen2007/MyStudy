@@ -1,9 +1,9 @@
-### 解题思路
-前k个最小数字，当k≥5时，堆比冒泡和简单选择排序好,初次建立堆的比较次数不超过4n。
+// ### 解题思路
+// 前k个最小数字，当k≥5时，堆比冒泡和简单选择排序好,初次建立堆的比较次数不超过4n。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void BuildMinHeap(int* arr,int arrSize){
     for(int i=arrSize/2-1;i>=0;i--){
         AdjustDown(arr,arrSize,i);
@@ -38,4 +38,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
     }
     return result;
 }
-```
+// ```

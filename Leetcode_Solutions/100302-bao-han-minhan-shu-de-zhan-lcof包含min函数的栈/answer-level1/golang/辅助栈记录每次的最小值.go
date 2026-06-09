@@ -1,13 +1,13 @@
-### 解题思路
-因为每次min都要取到目前的最小值
-因为有pop的操作
-那么就必须记录每次的最小值 考虑用辅助栈来记录最小值
-每次push就将最小值压入栈，同步pop
-那么每次辅助栈的栈顶就是min了
+// ### 解题思路
+// 因为每次min都要取到目前的最小值
+// 因为有pop的操作
+// 那么就必须记录每次的最小值 考虑用辅助栈来记录最小值
+// 每次push就将最小值压入栈，同步pop
+// 那么每次辅助栈的栈顶就是min了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MinStack struct {
     spans []int
     helper []int
@@ -63,4 +63,4 @@ func (this *MinStack) Min() int {
  * param_3 := obj.Top();
  * param_4 := obj.Min();
  */
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-题目意思是从源点出发，需要多久才能同时到达所有顶点。只需要求出源点到各个顶点的最短路，再取其中的最大值即可。当存在不可到达的顶点时，说明图存在多个连通分量，返回-1.
+// ### 解题思路
+// 题目意思是从源点出发，需要多久才能同时到达所有顶点。只需要求出源点到各个顶点的最短路，再取其中的最大值即可。当存在不可到达的顶点时，说明图存在多个连通分量，返回-1.
 
-这里我使用优先队列优化的Dijstra求最短路:)
+// 这里我使用优先队列优化的Dijstra求最短路:)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public final static int  INF = 6001;//最大距离值
     //边结点
@@ -67,9 +67,9 @@ class Solution {
         return maxDis;
     }
 }
-```
+// ```
 
 
 
 
-![screenshot.png](https://pic.leetcode-cn.com/1965df28d5d0a6f85d6d1dba4cf751076b8f660ea73d58a9460ee8fb01eed69a-screenshot.png)
+// ![screenshot.png](https://pic.leetcode-cn.com/1965df28d5d0a6f85d6d1dba4cf751076b8f660ea73d58a9460ee8fb01eed69a-screenshot.png)

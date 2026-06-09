@@ -1,5 +1,5 @@
-直接遍历两个字符转，每位乘以当前位数的10的幂最后加在一起
-```
+# 直接遍历两个字符转，每位乘以当前位数的10的幂最后加在一起
+# ```
 class Solution(object):
     def addStrings(self, num1, num2):
         """
@@ -16,5 +16,5 @@ class Solution(object):
             num22 += int(i)*(10**(len(num2)-s))
             s += 1
         return str(num11 + num22)
-```
-时间复杂度*O(n+n)*
+# ```
+# 时间复杂度*O(n+n)*

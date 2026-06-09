@@ -1,5 +1,5 @@
-思路参考自其他解与评论区解法
-```
+// 思路参考自其他解与评论区解法
+// ```
 class Solution {
 public:
     struct Cmp {
@@ -39,4 +39,4 @@ public:
         return intersectionK(intervals, 2);
     }
 };
-```
+// ```

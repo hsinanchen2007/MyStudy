@@ -1,16 +1,16 @@
-### 解题思路
-我的思路：代码写的有些杂乱，我的思路就是存入字典判断，，，
+# ### 解题思路
+# 我的思路：代码写的有些杂乱，我的思路就是存入字典判断，，，
 	
 
-复杂度分析：                                                             
-	• 时间复杂度：o(n)
-	• 空间复杂度：o(n)
+# 复杂度分析：                                                             
+# 	• 时间复杂度：o(n)
+# 	• 空间复杂度：o(n)
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def commonChars(self, A: List[str]) -> List[str]:
         dicts = {}
@@ -44,4 +44,4 @@ class Solution:
                     result.append(key)
         return result
                 
-```
+# ```

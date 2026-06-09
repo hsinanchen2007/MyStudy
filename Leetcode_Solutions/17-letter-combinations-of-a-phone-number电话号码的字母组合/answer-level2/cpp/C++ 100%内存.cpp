@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 	/*
@@ -37,4 +37,4 @@ public:
 		return last;
     }
 };
-```
+// ```

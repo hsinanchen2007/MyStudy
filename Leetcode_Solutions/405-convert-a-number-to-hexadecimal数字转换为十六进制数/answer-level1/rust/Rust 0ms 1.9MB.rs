@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn to_hex(num: i32) -> String {
         if num == 0 {
@@ -20,4 +20,4 @@ impl Solution {
         r.chars().rev().collect::<String>()
     }
 }
-```
+// ```

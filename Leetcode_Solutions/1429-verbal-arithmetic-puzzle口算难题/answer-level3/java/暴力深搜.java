@@ -1,5 +1,5 @@
-用map一直超时，改成数组终于过了，另外搜索顺序从加数的最后一位开始搜应该可以优化很多，但是实现起来太复杂了orz。。
-```
+// 用map一直超时，改成数组终于过了，另外搜索顺序从加数的最后一位开始搜应该可以优化很多，但是实现起来太复杂了orz。。
+// ```
 class Solution {
     static boolean resu = false;
     public boolean isSolvable(String[] words, String result) {
@@ -69,4 +69,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

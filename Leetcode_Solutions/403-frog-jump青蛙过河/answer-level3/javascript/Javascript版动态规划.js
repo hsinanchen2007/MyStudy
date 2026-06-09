@@ -1,7 +1,7 @@
-刚开始用数组来存储跳到每一个单位格的跳跃距离可能性，结果代码运行超时了
-然后换了set来存储，虽然执行用时和内存消耗不理想，但总算是通过了
+// 刚开始用数组来存储跳到每一个单位格的跳跃距离可能性，结果代码运行超时了
+// 然后换了set来存储，虽然执行用时和内存消耗不理想，但总算是通过了
 
-```javascript
+// ```javascript
 var canCross = function (stones) {
     // 确定状态
     let ability = new Array(stones.length)  // 存每一个单元格是否有解
@@ -41,4 +41,4 @@ var canCross = function (stones) {
     // 返回最后一个点是否到达情况
     return ability[ability.length - 1]
 };
-```
+// ```

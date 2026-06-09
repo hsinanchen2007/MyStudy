@@ -1,8 +1,8 @@
-### 解题思路
-sum/3然后扫描一遍
-### 代码
+# ### 解题思路
+# sum/3然后扫描一遍
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         s3 = sum(A)/3
@@ -24,4 +24,4 @@ class Solution:
             return False
         return True
         
-```
+# ```

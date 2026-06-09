@@ -1,10 +1,10 @@
-# Java
+# # Java
 
-pyton 写多了 回头写java
-发现 if (nums[i] == nums[j] == 0)
-**报错**
+# pyton 写多了 回头写java
+# 发现 if (nums[i] == nums[j] == 0)
+# **报错**
 
-```
+# ```
 class Solution {
     public void moveZeroes(int[] nums) {
         int j = 0;
@@ -27,10 +27,10 @@ class Solution {
 }
 
 
-```
+# ```
 
-# Python 两个版本 第一个思路一般
-```
+# # Python 两个版本 第一个思路一般
+# ```
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -48,9 +48,9 @@ class Solution:
                 j += 1;
                 continue;
         return nums;
-```
+# ```
 
-```
+# ```
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -68,4 +68,4 @@ class Solution:
                     nums[i] = 0;
                     j += 1;
         return nums;
-```
+# ```

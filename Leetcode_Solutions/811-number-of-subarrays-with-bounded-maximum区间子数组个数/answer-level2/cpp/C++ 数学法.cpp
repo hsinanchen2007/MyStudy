@@ -1,5 +1,5 @@
-找到所有可能的区间，减去不合法的区间就是答案
-```
+// 找到所有可能的区间，减去不合法的区间就是答案
+// ```
 class Solution {
 public:
     int numSubarrayBoundedMax(vector<int>& A, int L, int R) {
@@ -25,6 +25,6 @@ public:
         return all - bad;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/774662897cc642138b4fe7e3972b8e658a09fff98058a4ab6c92cc7d0342960d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/774662897cc642138b4fe7e3972b8e658a09fff98058a4ab6c92cc7d0342960d-image.png)

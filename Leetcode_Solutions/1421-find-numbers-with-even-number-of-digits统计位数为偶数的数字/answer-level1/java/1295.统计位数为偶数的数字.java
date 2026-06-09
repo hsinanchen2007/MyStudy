@@ -1,9 +1,9 @@
-### 解题思路
-对每一个整数元素进行判断
+// ### 解题思路
+// 对每一个整数元素进行判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findNumbers(int[] nums) {
         int sum=0;
@@ -21,4 +21,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

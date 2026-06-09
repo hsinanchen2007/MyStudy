@@ -1,10 +1,10 @@
-### 解题思路
-先搞清楚什么是层序遍历。中间的那些null，只针对上层有值的叶子节点添加的。如果上传已经是null了，那么这层是不用添加对应的null的。
-理解后，借助队列就很好做了。
+// ### 解题思路
+// 先搞清楚什么是层序遍历。中间的那些null，只针对上层有值的叶子节点添加的。如果上传已经是null了，那么这层是不用添加对应的null的。
+// 理解后，借助队列就很好做了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -95,4 +95,4 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
-```
+// ```

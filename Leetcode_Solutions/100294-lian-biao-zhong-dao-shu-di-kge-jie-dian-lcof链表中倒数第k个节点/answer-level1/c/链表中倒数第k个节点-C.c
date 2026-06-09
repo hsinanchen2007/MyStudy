@@ -1,9 +1,9 @@
-### 解题思路
-计算链表的个数
-通过个数计算倒排的数。
-### 代码
+// ### 解题思路
+// 计算链表的个数
+// 通过个数计算倒排的数。
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ struct ListNode* getKthFromEnd(struct ListNode* head, int k){
 
     return newhead;
 }
-```
+// ```

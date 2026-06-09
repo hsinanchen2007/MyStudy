@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     // 向下或者向右移动一步，障碍物的地方为 0；
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
@@ -32,4 +32,4 @@ class Solution {
         return cur[C - 1];
     }
 }
-```
+// ```

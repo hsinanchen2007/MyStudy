@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sortArrayByParityII(self, A: List[int]) -> List[int]:
         oushu = [i for i in A if i % 2 ==0]
@@ -13,4 +13,4 @@ class Solution:
             new_A[j]=i
             j+=2
         return new_A
-```
+# ```

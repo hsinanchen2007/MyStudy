@@ -1,10 +1,10 @@
-**思路：**
+# **思路：**
 
-对`B`中的每个单词统计字母出现次数，然后建一个`counter`来统计每个字母在`B`中出现次数的最大值（相当于取并集，也就是下面第二个写法里每次计算差集再相加）。最后判断`A`中的每个单词是否满足`counter`即可。
+# 对`B`中的每个单词统计字母出现次数，然后建一个`counter`来统计每个字母在`B`中出现次数的最大值（相当于取并集，也就是下面第二个写法里每次计算差集再相加）。最后判断`A`中的每个单词是否满足`counter`即可。
 
-**代码：**
+# **代码：**
 
-```python
+# ```python
 class Solution:
     def wordSubsets(self, A, B):
         """
@@ -51,11 +51,11 @@ class Solution:
             if isSub(judger, dict_A[i]):
                 ans.append(A[i])
         return ans
-```
+# ```
 
-更简单的写法
+# 更简单的写法
 
-```python
+# ```python
 class Solution:
     def wordSubsets(self, A, B):
         """
@@ -86,4 +86,4 @@ class Solution:
             if ok:
                 ans.append(a)
         return ans
-```
+# ```

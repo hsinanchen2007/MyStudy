@@ -1,9 +1,9 @@
-### 解题思路
-注意此处的相交是内存相交，而不单单指元素相同的相交。
+// ### 解题思路
+// 注意此处的相交是内存相交，而不单单指元素相同的相交。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     return finalNode;
 
 }
-```
+// ```

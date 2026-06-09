@@ -1,5 +1,5 @@
-和1074基本一样, 详细解答可以去看一下1074
-```
+// 和1074基本一样, 详细解答可以去看一下1074
+// ```
 func maxSideLength(mat [][]int, threshold int) int {
 	n, m := len(mat), len(mat[0])
 	sum := make([][]int, n+1)
@@ -30,4 +30,4 @@ func maxSideLength(mat [][]int, threshold int) int {
 	}
 	return max
 }
-```
+// ```

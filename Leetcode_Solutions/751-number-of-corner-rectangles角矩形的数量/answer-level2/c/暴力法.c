@@ -1,9 +1,9 @@
-### 解题思路
-纯暴力法，这都能过
+// ### 解题思路
+// 纯暴力法，这都能过
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCornerRectangles(int** grid, int gridSize, int* gridColSize){
     int res = 0;
     int rows = gridSize;
@@ -29,4 +29,4 @@ int countCornerRectangles(int** grid, int gridSize, int* gridColSize){
     }
     return res;
 }
-```
+// ```

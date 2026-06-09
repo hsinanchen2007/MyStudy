@@ -1,8 +1,8 @@
-### 解题思路
-将chars的字符即出现次数记录下来，同理遍历words将每个word的字符及出现字数和chars的比较，如果对应字符出现次数小于等于chars的就记录下来。
-### 代码
+// ### 解题思路
+// 将chars的字符即出现次数记录下来，同理遍历words将每个word的字符及出现字数和chars的比较，如果对应字符出现次数小于等于chars的就记录下来。
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     int maxlen=0;
     int charslen=strlen(chars);
@@ -29,4 +29,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return maxlen;
 }
-```
+// ```

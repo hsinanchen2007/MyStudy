@@ -1,9 +1,9 @@
-### 解题思路
-按一位数组处理，i*n+j是当前的，i*n+j+k是向后移动k次，然后计算  对应的行坐标r和列坐标c
+// ### 解题思路
+// 按一位数组处理，i*n+j是当前的，i*n+j+k是向后移动k次，然后计算  对应的行坐标r和列坐标c
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> shiftGrid(vector<vector<int>>& grid, int k) {
@@ -31,4 +31,4 @@ public:
         return res;
     }
 };
-```
+// ```

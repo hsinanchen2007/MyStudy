@@ -1,4 +1,4 @@
-```
+// ```
 type Trie struct {
 	ret map[string]bool
 }
@@ -48,4 +48,4 @@ func (this *Trie) StartsWith(prefix string) bool {
 	return false
 
 }
-```
+// ```

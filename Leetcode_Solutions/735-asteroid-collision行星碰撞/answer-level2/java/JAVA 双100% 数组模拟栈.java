@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] asteroidCollision(int[] asteroids) {
         int[] res = new int[asteroids.length];
@@ -35,4 +35,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

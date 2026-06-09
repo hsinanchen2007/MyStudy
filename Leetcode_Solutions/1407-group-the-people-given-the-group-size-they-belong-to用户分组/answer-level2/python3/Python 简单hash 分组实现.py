@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b449944b157e49ec7a84f6e53263bce6353e77e44c095a88dfac0035212d9579-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b449944b157e49ec7a84f6e53263bce6353e77e44c095a88dfac0035212d9579-image.png)
 
 
-```
+# ```
 '''
 分组数一样的用户全部排到一个列表中，同一个列表中的用于按照group的大小分割成子列表即可
 '''
@@ -24,4 +24,4 @@ class Solution:
                 s, e = e, e+g_size
 
         return ans
-```
+# ```

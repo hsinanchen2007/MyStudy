@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-（1）深度优先搜索，并按照顺序保存每个叶子结点及其长度；
-（2）一次对比两个数组是否相同
+// ### 解题思路
+// 此处撰写解题思路
+// （1）深度优先搜索，并按照顺序保存每个叶子结点及其长度；
+// （2）一次对比两个数组是否相同
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -65,4 +65,4 @@ bool leafSimilar(struct TreeNode* root1, struct TreeNode* root2)
     return true;
 }
 
-```
+// ```

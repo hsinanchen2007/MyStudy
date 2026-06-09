@@ -1,9 +1,9 @@
-分批循环填充，高效。
+// 分批循环填充，高效。
 
-例如，对于 "29"，会有 3 * 4 = 12 个字符串。分批填充：
-- 2 对应 "abc"，now = 12 / 3 = 4，每 4 个填充同一个字符，循环到底
-- 9 对应 "wxyz"，now = 4 / 4 = 1，每 1 个填充同一个字符，循环到底
-```go
+// 例如，对于 "29"，会有 3 * 4 = 12 个字符串。分批填充：
+// - 2 对应 "abc"，now = 12 / 3 = 4，每 4 个填充同一个字符，循环到底
+// - 9 对应 "wxyz"，now = 4 / 4 = 1，每 1 个填充同一个字符，循环到底
+// ```go
 func letterCombinations(digits string) []string {
     if len(digits) < 1 {
         return make([]string, 0)
@@ -33,4 +33,4 @@ func letterCombinations(digits string) []string {
     }
     return ret
 }
-```
+// ```

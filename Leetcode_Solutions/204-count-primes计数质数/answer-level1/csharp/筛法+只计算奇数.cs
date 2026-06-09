@@ -1,9 +1,9 @@
-### 解题思路
-总所周知偶数不是质数（2除外）
+// ### 解题思路
+// 总所周知偶数不是质数（2除外）
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int CountPrimes(int x) {
         int count = 1;
@@ -17,4 +17,4 @@ public class Solution {
         return x > 2 ? count : 0;
     }
 }
-```
+// ```

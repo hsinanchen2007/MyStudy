@@ -1,7 +1,7 @@
-## 思路一：非递归
-先一直向左走，利用栈保存经过节点，直到左节点为空，从栈中弹出节点进行访问，然后然后再设置节点为当前节点的右节点。
-## 代码
-```c++
+// ## 思路一：非递归
+// 先一直向左走，利用栈保存经过节点，直到左节点为空，从栈中弹出节点进行访问，然后然后再设置节点为当前节点的右节点。
+// ## 代码
+// ```c++
 class Solution {
 public:
     Node* treeToDoublyList(Node* root) {
@@ -35,11 +35,11 @@ public:
         return head;
     }
 };
-```
+// ```
 
-## 思路二：简化代码（新增一个头节点）
-## 代码
-```c++
+// ## 思路二：简化代码（新增一个头节点）
+// ## 代码
+// ```c++
 class Solution {
 public:
     Node* treeToDoublyList(Node* root) {
@@ -67,12 +67,12 @@ public:
         return head->right;
     }
 };
-```
+// ```
 
 
-## 思路三：递归
-## 代码
-```c++
+// ## 思路三：递归
+// ## 代码
+// ```c++
 class Solution {
     Node *pre = nullptr;
     Node *head = nullptr;
@@ -102,4 +102,4 @@ public:
         }
     }
 };
-```
+// ```

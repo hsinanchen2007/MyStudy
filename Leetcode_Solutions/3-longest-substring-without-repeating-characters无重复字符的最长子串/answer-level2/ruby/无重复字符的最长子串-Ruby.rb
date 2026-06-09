@@ -1,5 +1,5 @@
-滑动窗口
-```Ruby
+# 滑动窗口
+# ```Ruby
 def length_of_longest_substring(s)
 	slideWindow = Hash.new
 	startIndex = 0
@@ -16,4 +16,4 @@ def length_of_longest_substring(s)
 	end
 	return ans
 end
-```
+# ```

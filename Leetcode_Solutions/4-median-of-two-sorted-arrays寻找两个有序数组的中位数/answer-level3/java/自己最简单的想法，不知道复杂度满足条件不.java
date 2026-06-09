@@ -1,8 +1,8 @@
-### 解题思路
-我将集合重叠与不重叠分来处理，现在不知道复杂度满足不满足题意，过是通过了
-### 代码
+// ### 解题思路
+// 我将集合重叠与不重叠分来处理，现在不知道复杂度满足不满足题意，过是通过了
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
@@ -119,4 +119,4 @@ class Solution {
 		return nums;
 	}
 }
-```
+// ```

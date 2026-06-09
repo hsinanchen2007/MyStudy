@@ -1,8 +1,8 @@
-### 解题思路
-用数组记录次数 勉强AC
-### 代码
+// ### 解题思路
+// 用数组记录次数 勉强AC
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int[] map = new int[100];
     public double[] twoSum(int n) {
@@ -28,4 +28,4 @@ class Solution {
         }
     }
 }
-```
+// ```

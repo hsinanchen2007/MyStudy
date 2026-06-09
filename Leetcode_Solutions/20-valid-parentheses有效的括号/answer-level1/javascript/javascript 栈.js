@@ -1,4 +1,4 @@
-```
+// ```
 
 var isValid = function(str) {
     if (!str.length)
@@ -17,4 +17,4 @@ var isValid = function(str) {
     }
     return !list.length
 };
-```
+// ```

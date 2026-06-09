@@ -1,4 +1,4 @@
-```
+// ```
 public class LeetCode0414 {
 	public int thirdMax(int[] nums) {
 		int res = 0;
@@ -22,4 +22,4 @@ public class LeetCode0414 {
 		return res;
 	}
 }
-```
+// ```

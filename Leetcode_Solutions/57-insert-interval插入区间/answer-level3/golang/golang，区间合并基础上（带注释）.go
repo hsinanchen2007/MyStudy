@@ -1,10 +1,10 @@
-![1577434075165.jpg](https://pic.leetcode-cn.com/a07016a06a83eb950564d943ac8d13110036adbee0483f38dad371dd327db791-1577434075165.jpg)
+// ![1577434075165.jpg](https://pic.leetcode-cn.com/a07016a06a83eb950564d943ac8d13110036adbee0483f38dad371dd327db791-1577434075165.jpg)
 
 
-因为已经有上一题的基础，所以思路很容易想，就是先把新区间合并到原区间组里，再进行区间合并及可
+// 因为已经有上一题的基础，所以思路很容易想，就是先把新区间合并到原区间组里，再进行区间合并及可
 
 
-```
+// ```
 func insert(intervals [][]int, newInterval []int) [][]int {
 	if len(newInterval) == 0 {
 		return intervals
@@ -77,4 +77,4 @@ func Max(a, b int) int {
 	return b
 }
 
-```
+// ```

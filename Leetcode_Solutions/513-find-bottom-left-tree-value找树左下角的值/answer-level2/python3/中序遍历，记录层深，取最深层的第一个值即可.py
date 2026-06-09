@@ -1,8 +1,8 @@
-准备一个字典，key为层深，value为该层节点值
-中序遍历时，记录层深
-取最深层第一个节点值即可
+# 准备一个字典，key为层深，value为该层节点值
+# 中序遍历时，记录层深
+# 取最深层第一个节点值即可
 
-```python
+# ```python
 from collections import defaultdict
 class Solution:
     def findBottomLeftValue(self, root: TreeNode) -> int:
@@ -15,4 +15,4 @@ class Solution:
             right = helper(node.right, now+1)
         helper(root, 0)
         return height_dict[max(height_dict.keys())][0]
-```
+# ```

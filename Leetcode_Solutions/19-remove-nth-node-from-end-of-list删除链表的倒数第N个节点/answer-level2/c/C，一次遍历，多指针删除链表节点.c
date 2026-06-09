@@ -1,11 +1,11 @@
-### 解题思路
-1，声明3个指针，Pre指向删除的前一个节点，Del指向要删除的节点，Net为遍历指针
-2，做一次遍历，Net和Del指针间隔n个节点同时移动，当Net结束时Del指向要删除的节点
-3，删除节点，特殊处理删除头节点
+// ### 解题思路
+// 1，声明3个指针，Pre指向删除的前一个节点，Del指向要删除的节点，Net为遍历指针
+// 2，做一次遍历，Net和Del指针间隔n个节点同时移动，当Net结束时Del指向要删除的节点
+// 3，删除节点，特殊处理删除头节点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -59,4 +59,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     }
     return head;
 }
-```
+// ```

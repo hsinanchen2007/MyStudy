@@ -1,4 +1,4 @@
-```
+// ```
 function findComplement($num)
 {
     // 利用PHP自带的函数解决
@@ -13,4 +13,4 @@ function findComplement($num)
     }
     return bindec($str);
 }
-```
+// ```

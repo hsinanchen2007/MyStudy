@@ -1,4 +1,4 @@
-```
+// ```
 private static final char[] f = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     
     public boolean isAdditiveNumber(String num) {
@@ -100,4 +100,4 @@ private static final char[] f = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5
         
         return index;
     }
-```
+// ```

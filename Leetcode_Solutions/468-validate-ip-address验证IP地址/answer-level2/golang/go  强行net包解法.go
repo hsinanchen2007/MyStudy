@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-net.ParseIP 之后 再判断
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// net.ParseIP 之后 再判断
+// ### 代码
 
-```golang
+// ```golang
 import(
     "net"
     "strings"
@@ -28,4 +28,4 @@ func validIPAddress(IP string) string {
     } 
     return "Neither"
 }
-```
+// ```

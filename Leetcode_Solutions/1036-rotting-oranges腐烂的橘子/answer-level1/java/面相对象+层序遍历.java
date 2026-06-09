@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-面相对象+层序遍历
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 面相对象+层序遍历
+// ### 代码
 
-```java
+// ```java
 class Solution {
      class Direction{
         private int col ;
@@ -64,4 +64,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

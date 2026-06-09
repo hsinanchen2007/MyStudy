@@ -1,12 +1,12 @@
-要注意的一点是，虽然题目中告诉我们不需要考虑大数问题，但是给出的 `n` 可以取到 $-2147483648$（整型负数的最小值），因此，在编码的时候，需要将 `n` 转换成 `long` 类型。
+// 要注意的一点是，虽然题目中告诉我们不需要考虑大数问题，但是给出的 `n` 可以取到 $-2147483648$（整型负数的最小值），因此，在编码的时候，需要将 `n` 转换成 `long` 类型。
 
-### 写法一：递归写法（分治思想）
+// ### 写法一：递归写法（分治思想）
 
-**参考代码 1**：
+// **参考代码 1**：
 
-说明：Java 与 Python 的写法在小细节上有所不同，本质都是分治的思想。只是本人为了练习采用不同的写法，与语言本身无关。
+// 说明：Java 与 Python 的写法在小细节上有所不同，本质都是分治的思想。只是本人为了练习采用不同的写法，与语言本身无关。
 
-```Java []
+// ```Java []
 public class Solution {
 
     public double myPow(double x, int n) {
@@ -42,8 +42,8 @@ public class Solution {
         }
     }
 }
-```
-```Python []
+// ```
+// ```Python []
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         if n == 0:
@@ -56,19 +56,19 @@ class Solution:
         if n & 1:
             return x * self.myPow(x, n - 1)
         return self.myPow(x * x, n >> 1)
-```
+// ```
 
 
-### 写法二：非递归写法（将指数看成二进制数）
+// ### 写法二：非递归写法（将指数看成二进制数）
 
-把指数 `n` 做“二进制分解”，**在底数不断自身乘以自身的过程中，将最终结果需要的部分保存下来**。
+// 把指数 `n` 做“二进制分解”，**在底数不断自身乘以自身的过程中，将最终结果需要的部分保存下来**。
 
 
-![image.png](https://pic.leetcode-cn.com/ab780b00a05f762c87ae4c68e74ef8d3a8b961a98762c02b61585d8f8c61747c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ab780b00a05f762c87ae4c68e74ef8d3a8b961a98762c02b61585d8f8c61747c-image.png)
 
-**参考代码 2**：
+// **参考代码 2**：
 
-```Java []
+// ```Java []
 public class Solution {
 
     public double myPow(double x, int n) {
@@ -90,8 +90,8 @@ public class Solution {
         return res;
     }
 }
-```
-```Python []
+// ```
+// ```Python []
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         if n < 0:
@@ -106,4 +106,4 @@ class Solution:
             x *= x
             n >>= 1
         return res
-```
+// ```

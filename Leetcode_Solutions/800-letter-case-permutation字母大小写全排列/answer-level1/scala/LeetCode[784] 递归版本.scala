@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def letterCasePermutation(S: String): List[String] = {
     if (S.length == 0) return List("")
@@ -7,4 +7,4 @@ object Solution {
     else strings.map(x => S(0) + x)
   }
 }
-```
+// ```

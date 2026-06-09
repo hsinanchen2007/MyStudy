@@ -1,10 +1,10 @@
-### 解题思路
-一旦发现，第i个元素比i-1个小，那么第i-1个元素换成后面元素中比它大的最小元素，后面的升序排列
-时间复杂度不错，基本在O(mn)左右，但是空间复杂度不好，也勉强算是常数空间，但是逼近O(n)了
+# ### 解题思路
+# 一旦发现，第i个元素比i-1个小，那么第i-1个元素换成后面元素中比它大的最小元素，后面的升序排列
+# 时间复杂度不错，基本在O(mn)左右，但是空间复杂度不好，也勉强算是常数空间，但是逼近O(n)了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
@@ -22,4 +22,4 @@ class Solution:
                 nums[i:] = sorted(nums[i:])
                 return nums    
         return nums.sort()
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maximumProduct(int[] nums) {
         if(nums.length<3) return 0;
@@ -9,4 +9,4 @@ class Solution {
         int max =Math.max(max1, max3);
         return max;
     }
-```
+// ```

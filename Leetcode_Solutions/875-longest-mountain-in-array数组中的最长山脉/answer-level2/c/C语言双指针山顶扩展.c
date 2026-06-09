@@ -1,9 +1,9 @@
-遍历数组元素，当前元素大于左边且小于右边时（即山顶时）向两边扩展，求左右指针之差;
-![Screenshot from 2020-03-31 21-53-09.png](https://pic.leetcode-cn.com/fa2052ed38d9b07c06228ede008e264d3a342c561d7fc22554a2df59a73741ed-Screenshot%20from%202020-03-31%2021-53-09.png)
+// 遍历数组元素，当前元素大于左边且小于右边时（即山顶时）向两边扩展，求左右指针之差;
+// ![Screenshot from 2020-03-31 21-53-09.png](https://pic.leetcode-cn.com/fa2052ed38d9b07c06228ede008e264d3a342c561d7fc22554a2df59a73741ed-Screenshot%20from%202020-03-31%2021-53-09.png)
 
 
 
-```c
+// ```c
 int Max(int a, int b) { return a > b ? a : b; }
 int longestMountain(int *A, int ASize)
 {
@@ -19,4 +19,4 @@ int longestMountain(int *A, int ASize)
     }
     return max;
 }
-```
+// ```

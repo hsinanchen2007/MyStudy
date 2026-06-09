@@ -1,6 +1,6 @@
-用纸画一下n为1 2 3 4时候的情况就清楚了，但是写起来很麻烦，应该还能优化
+// 用纸画一下n为1 2 3 4时候的情况就清楚了，但是写起来很麻烦，应该还能优化
 
-```
+// ```
 var getPermutation = function(n, k) {
   if (n === null || k === null) {
     return ''
@@ -41,4 +41,4 @@ var getPermutation = function(n, k) {
   
   return result.join('')
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-* 队列代替递归
-* 边检索，边删除提升效率
+// ### 解题思路
+// * 队列代替递归
+// * 边检索，边删除提升效率
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 // 方案一、自己摸索的方案，边检索边删除
 class Solution {
     public List<Integer> killProcess(List<Integer> pid, List<Integer> ppid, int kill) {
@@ -34,9 +34,9 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-```java []
+// ```java []
 // 方案二、改进的高效率队列方案
 class Solution {
      public List < Integer > killProcess(List < Integer > pid, List < Integer > ppid, int kill) {
@@ -67,4 +67,4 @@ class Solution {
     }
     
 }
-```
+// ```

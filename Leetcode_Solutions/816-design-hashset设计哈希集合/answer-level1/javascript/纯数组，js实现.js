@@ -1,8 +1,8 @@
-使用1000个数组对应1000个桶，每一个桶也是数组。
-contains：根据key值找到桶的索引，在该桶中查找元素即可。
-add：先进行contains()判断，在进行添加操作，与contains操作类似。
-remove：先使用contains()进行查找，再进行删除操作。
-```javascript []
+// 使用1000个数组对应1000个桶，每一个桶也是数组。
+// contains：根据key值找到桶的索引，在该桶中查找元素即可。
+// add：先进行contains()判断，在进行添加操作，与contains操作类似。
+// remove：先使用contains()进行查找，再进行删除操作。
+// ```javascript []
 class MyHashSet {
   constructor () {
     this.buckets = [] // 存放若干个桶，默认为1000个
@@ -47,4 +47,4 @@ class MyHashSet {
   }
 }
 
-```
+// ```

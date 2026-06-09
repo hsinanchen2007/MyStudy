@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def threeSumSmaller(self, nums:list, target: int) -> int:
         # nums.sort()
@@ -13,4 +13,4 @@ class Solution:
                 else:
                     l+=1
         return count
-```
+# ```

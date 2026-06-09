@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -14,4 +14,4 @@ var strStr = function(haystack, needle) {
     }
     return ist;
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-用的动态规划，网上一查就有。
-主要别忘了在初始化，没有路径的点之间要初始化为+无穷。
+// ### 解题思路
+// 用的动态规划，网上一查就有。
+// 主要别忘了在初始化，没有路径的点之间要初始化为+无穷。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findTheCity(int n, int[][] edges, int distanceThreshold) {
         int[][] map = new int[n][n];
@@ -47,4 +47,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

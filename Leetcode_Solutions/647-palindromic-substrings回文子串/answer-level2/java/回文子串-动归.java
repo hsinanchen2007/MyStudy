@@ -1,9 +1,9 @@
-### 解题思路
-1. 参考别人的题解，两种动态规划的写法，殊途同归。
+// ### 解题思路
+// 1. 参考别人的题解，两种动态规划的写法，殊途同归。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     
     public int countSubstrings(String s) {
@@ -42,4 +42,4 @@ class Solution {
         return count;
     }
 
-```
+// ```

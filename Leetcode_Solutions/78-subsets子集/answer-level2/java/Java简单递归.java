@@ -1,7 +1,7 @@
-**执行用时 :1 ms, 在所有 Java 提交中击败了99.89%的用户
-内存消耗 :36.4 MB, 在所有 Java 提交中击败了52.42%的用户**
+// **执行用时 :1 ms, 在所有 Java 提交中击败了99.89%的用户
+// 内存消耗 :36.4 MB, 在所有 Java 提交中击败了52.42%的用户**
 
-```
+// ```
 List<List<Integer>> result_problem78 = new ArrayList<>();
     public List<List<Integer>> subsets(int[] nums) {
         result_problem78.clear();
@@ -21,4 +21,4 @@ List<List<Integer>> result_problem78 = new ArrayList<>();
             solve_problem_78(nums,j+1,cur);
         }
     }
-```
+// ```

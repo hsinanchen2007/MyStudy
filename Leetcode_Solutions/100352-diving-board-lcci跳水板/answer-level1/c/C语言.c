@@ -1,9 +1,9 @@
-### 解题思路
-枚举所有的shorter和longer的组合，如果length和上次添加进数组的length不相等，则添加，否则不添加
+// ### 解题思路
+// 枚举所有的shorter和longer的组合，如果length和上次添加进数组的length不相等，则添加，否则不添加
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -23,4 +23,4 @@ int* divingBoard(int shorter, int longer, int k, int* returnSize){
     }
     return ret;
 }
-```
+// ```

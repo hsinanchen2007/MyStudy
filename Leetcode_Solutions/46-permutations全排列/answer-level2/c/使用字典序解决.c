@@ -1,6 +1,6 @@
-还记得之前我们做过的一道题目：[求下一个字典序](https://leetcode-cn.com/problems/next-permutation/)。其实求一个数组的全排列可以等价的求这个数组元素的所有的字典序，话不多说，直接上代码。
+// 还记得之前我们做过的一道题目：[求下一个字典序](https://leetcode-cn.com/problems/next-permutation/)。其实求一个数组的全排列可以等价的求这个数组元素的所有的字典序，话不多说，直接上代码。
 
-```c
+// ```c
 // 计算 n!
 int factorial(int n) {
 	if (n == 0) {
@@ -113,6 +113,6 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
 	generateAllLexicographically(nums, numsSize, res, &size);
 	return res;
 }
-```
+// ```
 
-设数组的大小为`n`,则 n 个不同的元素，共有 n! 个排列，每次计算下一个字典顺序，需要`O(n)`,因此总得时间复杂度为`O(n*n!)`,但是不会消耗额外的空间
+// 设数组的大小为`n`,则 n 个不同的元素，共有 n! 个排列，每次计算下一个字典顺序，需要`O(n)`,因此总得时间复杂度为`O(n*n!)`,但是不会消耗额外的空间

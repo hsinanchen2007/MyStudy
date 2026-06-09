@@ -1,10 +1,10 @@
-# **思路：单词A出现在单词B的末尾，则A可以被B merge**
-   **A = time
-   B = me
-   则 B == A[3:] B单词可以被A merge掉**
-   **时间O(n)
-   空间O(n)**
-```
+# # **思路：单词A出现在单词B的末尾，则A可以被B merge**
+#    **A = time
+#    B = me
+#    则 B == A[3:] B单词可以被A merge掉**
+#    **时间O(n)
+#    空间O(n)**
+# ```
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         #  将每一个单词加入hashset中
@@ -24,4 +24,4 @@ class Solution:
         for word in wordSet:
             total+=len(word)
         return total+len(wordSet)
-```
+# ```

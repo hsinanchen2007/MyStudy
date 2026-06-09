@@ -1,8 +1,8 @@
-### 解题思路
-对数组进行排序，如果是单调序列，排序后的数组必定为原序列或者逆序列
-### 代码
+# ### 解题思路
+# 对数组进行排序，如果是单调序列，排序后的数组必定为原序列或者逆序列
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isMonotonic(self, A):
         A_copy = A
@@ -11,4 +11,4 @@ class Solution(object):
             return True
         else:
             return False
-```
+# ```

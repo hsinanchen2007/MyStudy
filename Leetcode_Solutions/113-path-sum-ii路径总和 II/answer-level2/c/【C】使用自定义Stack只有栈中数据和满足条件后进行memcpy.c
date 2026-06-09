@@ -1,7 +1,7 @@
-1.使用前序遍历
-2.使用stack存储路径
-3.stack中路径和满足条件后memcpy
-```
+// 1.使用前序遍历
+// 2.使用stack存储路径
+// 3.stack中路径和满足条件后memcpy
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -191,4 +191,4 @@ int** pathSum(struct TreeNode* root,
     return data;
 }
 
-```
+// ```

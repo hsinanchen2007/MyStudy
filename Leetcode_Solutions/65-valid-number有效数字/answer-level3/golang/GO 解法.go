@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/fa74f17c972a814c1553832533573bdb5179525d9b3a1ddf5c10cb19d8001de4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fa74f17c972a814c1553832533573bdb5179525d9b3a1ddf5c10cb19d8001de4-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var S string
 
 func isNumber(s string) bool {
@@ -136,4 +136,4 @@ func isInt(s string) bool {
 
     return true
 }
-```
+// ```

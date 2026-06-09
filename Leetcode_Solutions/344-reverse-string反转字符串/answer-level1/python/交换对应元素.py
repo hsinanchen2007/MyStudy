@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-[0]<->[n-1]
-[1]<->[n-2]
-交换下就可以。
-执行用时 :52 ms, 在所有 Python3 提交中击败了89.43%的用户
-内存消耗 :14.5 MB, 在所有 Python3 提交中击败了100.00%的用户
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# [0]<->[n-1]
+# [1]<->[n-2]
+# 交换下就可以。
+# 执行用时 :52 ms, 在所有 Python3 提交中击败了89.43%的用户
+# 内存消耗 :14.5 MB, 在所有 Python3 提交中击败了100.00%的用户
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -22,4 +22,4 @@ class Solution:
                 s[index] = s[len_s-1-index]
                 s[len_s-1-index] = tmp
         return s
-```
+# ```

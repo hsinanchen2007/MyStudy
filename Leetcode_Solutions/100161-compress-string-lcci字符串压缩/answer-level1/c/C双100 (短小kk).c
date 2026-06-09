@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* compressString(char* S){
     int Ssize = strlen(S), index = 0;
     char* res = (char*) malloc (sizeof(char) * (Ssize+1));
@@ -27,4 +27,4 @@ char* compressString(char* S){
     res[index] = '\0';
     return res;
 }
-```
+// ```

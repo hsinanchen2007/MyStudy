@@ -1,4 +1,4 @@
-```
+// ```
  public int[] intersection(int[] nums1, int[] nums2) {
         int[] res = new int[nums1.length];
         HashSet<Integer> set = new HashSet<>();
@@ -13,4 +13,4 @@
         }
         return Arrays.copyOf(res, index);
     }
-```
+// ```

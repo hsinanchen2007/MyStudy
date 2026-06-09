@@ -1,9 +1,9 @@
-### 解题思路
-反转的意思，可以理解为在第一遍扫描时反向插入，
-这样可以考虑使用vector.insert(vector.begin(),val),每次都在首部插入。
-### 代码
+// ### 解题思路
+// 反转的意思，可以理解为在第一遍扫描时反向插入，
+// 这样可以考虑使用vector.insert(vector.begin(),val),每次都在首部插入。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -25,4 +25,4 @@ public:
         return result;
     }
 };
-```
+// ```

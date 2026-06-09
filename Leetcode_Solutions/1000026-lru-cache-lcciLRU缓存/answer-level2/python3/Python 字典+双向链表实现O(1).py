@@ -1,4 +1,4 @@
-```py
+# ```py
 class node:
     def __init__(self, key, val):
         self.key = key
@@ -49,4 +49,4 @@ class LRUCache:
                 self.head.bp = n
             self.head = n
             self.maxNum -= 1
-```
+# ```

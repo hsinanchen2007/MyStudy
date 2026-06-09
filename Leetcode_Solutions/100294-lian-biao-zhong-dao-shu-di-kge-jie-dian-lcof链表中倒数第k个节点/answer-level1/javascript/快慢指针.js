@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-快指针先走k，之后快慢指针同时走，直到快指针走到最后一个元素，此时快慢指针相差k
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 快指针先走k，之后快慢指针同时走，直到快指针走到最后一个元素，此时快慢指针相差k
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -29,4 +29,4 @@ var getKthFromEnd = function(head, k) {
     }
     return lowNode
 };
-```
+// ```

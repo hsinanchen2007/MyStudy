@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int integerBreak(int n)
 {
     if (n <= 3)
@@ -15,4 +15,4 @@ int integerBreak(int n)
         return pow(3, a - 1) * 4;
     return pow(3, a) * 2;
 }
-```
+// ```

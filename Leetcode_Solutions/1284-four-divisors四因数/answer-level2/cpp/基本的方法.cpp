@@ -1,10 +1,10 @@
-### 解题思路
-![EC41DE88-4A64-45BD-AC60-B6DA6C987254.png](https://pic.leetcode-cn.com/0705ebbe1785d96d66349fe3093cf2ea6bba3332a4b713c96f8e39d37e037849-EC41DE88-4A64-45BD-AC60-B6DA6C987254.png)
-此处撰写解题思路
+// ### 解题思路
+// ![EC41DE88-4A64-45BD-AC60-B6DA6C987254.png](https://pic.leetcode-cn.com/0705ebbe1785d96d66349fe3093cf2ea6bba3332a4b713c96f8e39d37e037849-EC41DE88-4A64-45BD-AC60-B6DA6C987254.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int sumFourDivisors(vector<int>& nums) {
@@ -44,4 +44,4 @@ public:
 private:
     int re;
 };
-```
+// ```

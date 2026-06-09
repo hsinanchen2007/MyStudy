@@ -1,8 +1,8 @@
-1. 使用map存储每一站的客流数
-2. 按照站排序
-3. 检测能力是否超限
+// 1. 使用map存储每一站的客流数
+// 2. 按照站排序
+// 3. 检测能力是否超限
 
-```
+// ```
 func carPooling(trips [][]int, capacity int) bool {
 	passengers := make(map[int]int)
 	for _, trip := range trips {
@@ -28,4 +28,4 @@ func carPooling(trips [][]int, capacity int) bool {
 	}
 	return true
 }
-```
+// ```

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/10ad62f9ebd6e122bd76958bc97ffd0a55786294429f4cd8a3e3d9b0056fd9cc-image.png)
+# ![image.png](https://pic.leetcode-cn.com/10ad62f9ebd6e122bd76958bc97ffd0a55786294429f4cd8a3e3d9b0056fd9cc-image.png)
 
-没有脑筋急转弯
+# 没有脑筋急转弯
 
-```python []
+# ```python []
 class Solution(object):
     def getIntersectionNode(self, headA, headB):
         d = set()
@@ -13,4 +13,4 @@ class Solution(object):
             if headB in d:
                 return headB
             headB = headB.next
-```
+# ```

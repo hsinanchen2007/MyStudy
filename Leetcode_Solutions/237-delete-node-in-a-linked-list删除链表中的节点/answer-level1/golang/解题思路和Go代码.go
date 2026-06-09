@@ -1,10 +1,10 @@
-### 解题思路
-1、把下一个节点的值赋值给当前传进来的节点
-2、当前节点指向下一个节点的下一个节点
+// ### 解题思路
+// 1、把下一个节点的值赋值给当前传进来的节点
+// 2、当前节点指向下一个节点的下一个节点
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -16,4 +16,4 @@ func deleteNode(node *ListNode) {
     node.Val =node.Next.Val
     node.Next = node.Next.Next
 }
-```
+// ```

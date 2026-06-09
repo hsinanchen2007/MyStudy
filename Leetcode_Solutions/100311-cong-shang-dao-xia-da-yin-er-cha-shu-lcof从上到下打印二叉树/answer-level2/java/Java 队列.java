@@ -1,10 +1,10 @@
-### 解题思路
-此题做法就是简单的层序遍历，层序遍历使用队列即可完成。
-每出队一个元素，将其左右孩子入队，循环，直到队列为空。
+// ### 解题思路
+// 此题做法就是简单的层序遍历，层序遍历使用队列即可完成。
+// 每出队一个元素，将其左右孩子入队，循环，直到队列为空。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -32,4 +32,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

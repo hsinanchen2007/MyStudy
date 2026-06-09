@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string manacher(string ori_s) {
@@ -42,6 +42,6 @@ public:
         return manacher(s);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/01f396865fe5f55181e8434ea0cbf52d1ceafae5792032507f1307d6beeaab59-image.png)
+// ![image.png](https://pic.leetcode-cn.com/01f396865fe5f55181e8434ea0cbf52d1ceafae5792032507f1307d6beeaab59-image.png)

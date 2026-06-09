@@ -1,9 +1,9 @@
-### 思路一：bitset
-整数转为二进制数，使用count统计二进制位中1的个数。
+// ### 思路一：bitset
+// 整数转为二进制数，使用count统计二进制位中1的个数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> readBinaryWatch(int num) {
@@ -18,12 +18,12 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 思路二：暴力
+// ### 思路二：暴力
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<string> readBinaryWatch(int num) {
@@ -47,4 +47,4 @@ public:
         return res;
     }
 };
-```
+// ```

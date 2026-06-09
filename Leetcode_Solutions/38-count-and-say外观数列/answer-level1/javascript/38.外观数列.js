@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string}
@@ -29,4 +29,4 @@ var countAndSay = function(n) {
     }
     return s[n];
 };
-```
+// ```

@@ -1,6 +1,6 @@
-a+b+c+d=0 => a+b = -(c+d)
-所以分别遍历 ab 和 cd
-```
+// a+b+c+d=0 => a+b = -(c+d)
+// 所以分别遍历 ab 和 cd
+// ```
 class Solution {
     func fourSumCount(_ A: [Int], _ B: [Int], _ C: [Int], _ D: [Int]) -> Int {
         // a + b + c + d = 0 => a + b = - (c + d)
@@ -26,4 +26,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

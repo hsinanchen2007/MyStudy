@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import collections
 class Solution:
     def getNext(self, cur, tab, adj):
@@ -69,4 +69,4 @@ class Solution:
         self.dfs(tab, adj, path, len(path)-2, [endWord], res )
         
         return res
-```
+# ```

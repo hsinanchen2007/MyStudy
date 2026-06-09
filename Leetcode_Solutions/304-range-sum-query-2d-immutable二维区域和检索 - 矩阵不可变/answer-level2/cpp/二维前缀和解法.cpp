@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/51a19bc7710c2ab276a1ca705e255925799db5b6725c11d1c2aef9d51fbdee91-image.png)
-区域和就是黑框框的和，即右下的前缀和减去橙色，红色，绿色的部分(求这个几个颜色的和与前缀和的状态转移方程分析过程类似)。
-```c++
+// ![image.png](https://pic.leetcode-cn.com/51a19bc7710c2ab276a1ca705e255925799db5b6725c11d1c2aef9d51fbdee91-image.png)
+// 区域和就是黑框框的和，即右下的前缀和减去橙色，红色，绿色的部分(求这个几个颜色的和与前缀和的状态转移方程分析过程类似)。
+// ```c++
 class NumMatrix {
 public:
     vector<vector<int>>dp;
@@ -28,4 +28,4 @@ public:
  * NumMatrix* obj = new NumMatrix(matrix);
  * int param_1 = obj->sumRegion(row1,col1,row2,col2);
  */
-```
+// ```

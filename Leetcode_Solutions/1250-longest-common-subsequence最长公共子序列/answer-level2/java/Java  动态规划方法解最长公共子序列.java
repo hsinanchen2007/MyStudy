@@ -1,13 +1,13 @@
-### 解题思路
-设dp[i][j]为字符串text1和text2的最长公共子序列，那么递推有3种情况
-1. 如果text1[i] == text2[j]，说明最后两个字符相同，则dp[i][j] = dp[i-1][j-1] + text1[i]
-2. 否则，dp[i][j]就应该等于分别去掉两个字符串的尾部字符后的公共子序列中的大者
-    - 即如果len(dp[i-1][j]) >= len(dp[i][j-1])，则dp[i][j] = dp[i-1][j]，此时就暗含了去掉text1的字最后一个字符对计算结果无影响
-    - 否则len(dp[i][j]) = len(dp[i][j-1])，此时就暗含了去掉text2的字最后一个字符无影响
+// ### 解题思路
+// 设dp[i][j]为字符串text1和text2的最长公共子序列，那么递推有3种情况
+// 1. 如果text1[i] == text2[j]，说明最后两个字符相同，则dp[i][j] = dp[i-1][j-1] + text1[i]
+// 2. 否则，dp[i][j]就应该等于分别去掉两个字符串的尾部字符后的公共子序列中的大者
+//     - 即如果len(dp[i-1][j]) >= len(dp[i][j-1])，则dp[i][j] = dp[i-1][j]，此时就暗含了去掉text1的字最后一个字符对计算结果无影响
+//     - 否则len(dp[i][j]) = len(dp[i][j-1])，此时就暗含了去掉text2的字最后一个字符无影响
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         int[][] dp = new int[text1.length()+1][text2.length()+1];
@@ -17,8 +17,8 @@ class Solution {
         return dp[text1.length()][text2.length()];
     }
 }
-```
-### 时间复杂度
-O(m*n)
-### 空间复杂度
-O(m*n)
+// ```
+// ### 时间复杂度
+// O(m*n)
+// ### 空间复杂度
+// O(m*n)

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/f743608d7c1ad9714322be26ed5235f46be39a9c5f6fc9a669529c6a23cd8eda-image.png)
+# ![image.png](https://pic.leetcode-cn.com/f743608d7c1ad9714322be26ed5235f46be39a9c5f6fc9a669529c6a23cd8eda-image.png)
 
 
-```
+# ```
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
@@ -34,4 +34,4 @@ class Solution:
             nums[-1 - k] = tmp
         return
 
-```
+# ```

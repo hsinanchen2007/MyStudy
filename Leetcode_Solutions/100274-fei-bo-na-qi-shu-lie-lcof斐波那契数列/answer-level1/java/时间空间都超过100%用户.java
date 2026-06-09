@@ -1,11 +1,11 @@
-### 解题思路
-基本思想就是算过一次的绝不算第二次
+// ### 解题思路
+// 基本思想就是算过一次的绝不算第二次
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int fib(int n) {
         int[] nums = new int[n + 1];
@@ -22,4 +22,4 @@ class Solution {
 		 return nums[n] = ((f(n - 1, nums)) % 1000000007 + (f(n - 2, nums)) % 1000000007) % 1000000007;
 	 }
 }
-```
+// ```

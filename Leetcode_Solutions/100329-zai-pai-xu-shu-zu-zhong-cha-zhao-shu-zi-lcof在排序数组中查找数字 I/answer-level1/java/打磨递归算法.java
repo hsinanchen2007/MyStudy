@@ -1,9 +1,9 @@
-### 解题思路
-万物皆可递归系列，直接上代码，简单易懂
+// ### 解题思路
+// 万物皆可递归系列，直接上代码，简单易懂
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         if(nums != null && nums.length != 0) {
@@ -36,4 +36,4 @@ class Solution {
 		}
 	}
 }
-```
+// ```

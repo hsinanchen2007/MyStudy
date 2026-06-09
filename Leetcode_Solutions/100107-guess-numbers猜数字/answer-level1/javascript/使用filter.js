@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} guess
  * @param {number[]} answer
@@ -14,4 +14,4 @@ var game = function(guess, answer) {
         return val === answer[index]
     }).length
 };
-```
+// ```

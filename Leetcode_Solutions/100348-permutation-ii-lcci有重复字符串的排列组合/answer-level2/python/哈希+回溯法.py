@@ -1,9 +1,9 @@
-### 解题思路
-哈希表————各个字符的个数，作为状态记录，每次向下搜索，只处理个数不为0的字符
+# ### 解题思路
+# 哈希表————各个字符的个数，作为状态记录，每次向下搜索，只处理个数不为0的字符
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permutation(self, S: str) -> List[str]:
         res = []
@@ -33,4 +33,4 @@ class Solution:
         isBackTracking(res, dict_, tmp, len(S))
 
         return res
-```
+# ```

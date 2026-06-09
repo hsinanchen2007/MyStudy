@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minimumSwap(String s1, String s2) {
         char[] arr1 = s1.toCharArray();
@@ -15,4 +15,4 @@ class Solution {
         return xy / 2 + yx / 2 + (xy % 2) * 2;
     }
 }
-```
+// ```

@@ -1,14 +1,14 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/9
- * 
- * 解题思路: 捷径一下 或者 数组加链表
- * 
- */
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/9
+//  * 
+//  * 解题思路: 捷径一下 或者 数组加链表
+//  * 
+//  */
 
-```
+// ```
 class MyHashMap {
 
     int[] a;
@@ -35,4 +35,4 @@ class MyHashMap {
         a[key]  = -1;
     }
 }
-```
+// ```

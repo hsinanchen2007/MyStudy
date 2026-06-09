@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def climbStairs(self, n: int) -> int:
         nums = [None]*(n+1)
@@ -9,4 +9,4 @@ class Solution:
             nums[i] = nums[i-1] + nums[i-2]
             i += 1
         return nums[n]
-```
+# ```

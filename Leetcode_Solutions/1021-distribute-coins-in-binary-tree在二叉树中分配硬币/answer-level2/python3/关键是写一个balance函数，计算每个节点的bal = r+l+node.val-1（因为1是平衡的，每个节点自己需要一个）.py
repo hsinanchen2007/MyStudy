@@ -1,9 +1,9 @@
-### 解题思路
-关键是写一个balance函数，计算每个节点的bal = r+l+node.val-1（因为1是平衡的，每个节点自己需要一个）
+# ### 解题思路
+# 关键是写一个balance函数，计算每个节点的bal = r+l+node.val-1（因为1是平衡的，每个节点自己需要一个）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
         return res
 
 
-```
+# ```

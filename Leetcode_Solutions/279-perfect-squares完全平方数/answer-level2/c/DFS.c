@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/fe00bcf169adec7d8ec31bbe5472eb79fa6d2aa12471c936a3384676ac70089a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fe00bcf169adec7d8ec31bbe5472eb79fa6d2aa12471c936a3384676ac70089a-image.png)
 
-### 解题思路
+// ### 解题思路
 
-递归时从当前n的平方根开始由大到小进行遍历，每次取到接近n的最大i的平方。
-对于可以确定不满足条件的数，可以直接跳出，不需要计算
+// 递归时从当前n的平方根开始由大到小进行遍历，每次取到接近n的最大i的平方。
+// 对于可以确定不满足条件的数，可以直接跳出，不需要计算
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int min = 0;
 
 void GetNum(int n, int num)
@@ -36,4 +36,4 @@ int numSquares(int n){
     GetNum(n, 0);
     return min;
 }
-```
+// ```

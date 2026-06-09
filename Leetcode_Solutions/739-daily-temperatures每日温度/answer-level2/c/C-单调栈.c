@@ -1,9 +1,9 @@
-### 解题思路
-使用单调栈。
+// ### 解题思路
+// 使用单调栈。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -115,4 +115,4 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
     * returnSize = TSize;
     return returnT;
 }
-```
+// ```

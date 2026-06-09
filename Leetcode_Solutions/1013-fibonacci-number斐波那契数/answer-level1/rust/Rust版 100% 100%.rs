@@ -1,6 +1,6 @@
 
-![image.png](https://pic.leetcode-cn.com/b0c05059aedbbfa6343b258284d07e8681f27d90cced6050ab7660613ef89acd-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/b0c05059aedbbfa6343b258284d07e8681f27d90cced6050ab7660613ef89acd-image.png)
+// ```
 fn fib_2(n: i32) -> i32 {
     let mut a = 0;
     let mut b = 1;
@@ -28,6 +28,6 @@ fn fib(n: i32) -> i32 {
         fib(n - 1) + fib(n - 2)
     }
 }
-```
+// ```
 
 

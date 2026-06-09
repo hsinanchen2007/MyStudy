@@ -1,9 +1,9 @@
-### 解题思路
-很巧妙的做法
+// ### 解题思路
+// 很巧妙的做法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rangeBitwiseAnd(int m, int n) {
         int zero = 0;
@@ -15,4 +15,4 @@ class Solution {
         return m << zero;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	public void merge(int[] A, int m, int[] B, int n) {
 		int[] C = new int[m];
@@ -37,4 +37,4 @@ class Solution {
 
 	}
 }
-```
+// ```

@@ -1,7 +1,7 @@
-执行用时 :1 ms, 在所有 Java 提交中击败了99.64%的用户
-内存消耗 :37 MB, 在所有 Java 提交中击败了5.29%的用户
+// 执行用时 :1 ms, 在所有 Java 提交中击败了99.64%的用户
+// 内存消耗 :37 MB, 在所有 Java 提交中击败了5.29%的用户
 
-```
+// ```
 class Solution {
     public String strWithout3a3b(int A, int B) {
         int min = Math.min(A, B);
@@ -22,4 +22,4 @@ class Solution {
         return ans.toString();
     }
 }
-```
+// ```

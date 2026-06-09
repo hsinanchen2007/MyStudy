@@ -1,6 +1,6 @@
-这题不限于英文字符，所以需要注意下，不能只用52位数组来记录相应的元素
+// 这题不限于英文字符，所以需要注意下，不能只用52位数组来记录相应的元素
 
-```golang
+// ```golang
 type mats [][]int
 func (s mats) Len() int           { return len(s) }
 func (s mats) Less(i, j int) bool { return s[i][1] > s[j][1] }
@@ -27,4 +27,4 @@ func frequencySort(s string) string {
 	}
 	return res.String()
 }
-```
+// ```

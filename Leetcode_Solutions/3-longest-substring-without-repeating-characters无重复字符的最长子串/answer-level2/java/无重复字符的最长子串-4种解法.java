@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：暴力破解法
+// # 解法一：暴力破解法
 
-时间复杂度是O(n ^ 3)，其中n为字符串s的长度。空间复杂度是O(1)。
+// 时间复杂度是O(n ^ 3)，其中n为字符串s的长度。空间复杂度是O(1)。
 
-执行用时：96ms，击败23.81%。消耗内存：35.9MB，击败99.43%。
+// 执行用时：96ms，击败23.81%。消耗内存：35.9MB，击败99.43%。
 
-```java
+// ```java
 public class Solution {
     public int lengthOfLongestSubstring(String s) {
         int n;
@@ -38,14 +38,14 @@ public class Solution {
         return result;
     }
 }
-```
-# 解法二：哈希表 + 滑动窗口
+// ```
+// # 解法二：哈希表 + 滑动窗口
 
-时间复杂度是O(n)，其中n为字符串s的长度。空间复杂度是O(1)。
+// 时间复杂度是O(n)，其中n为字符串s的长度。空间复杂度是O(1)。
 
-执行用时：9ms，击败97.28%。消耗内存：36.5MB，击败97.26%。
+// 执行用时：9ms，击败97.28%。消耗内存：36.5MB，击败97.26%。
 
-```java
+// ```java
 public class Solution {
     public int lengthOfLongestSubstring(String s) {
         int n;
@@ -67,18 +67,18 @@ public class Solution {
         return result;
     }
 }
-```
-# 解法三：解法二的改进
+// ```
+// # 解法三：解法二的改进
 
-在解法二中，我们用一个boolean类型的数组appear记录某字符是否在滑动窗口[left, right]范围内出现过。
+// 在解法二中，我们用一个boolean类型的数组appear记录某字符是否在滑动窗口[left, right]范围内出现过。
 
-我们将这个boolean类型的数组改成int类型的数组，并用其记录某字符在滑动窗口[left, right]范围内最近出现的位置，这样，当我们移动left指针时就可以做一个小优化。
+// 我们将这个boolean类型的数组改成int类型的数组，并用其记录某字符在滑动窗口[left, right]范围内最近出现的位置，这样，当我们移动left指针时就可以做一个小优化。
 
-时间复杂度是O(n)，其中n为字符串s的长度。空间复杂度是O(1)。
+// 时间复杂度是O(n)，其中n为字符串s的长度。空间复杂度是O(1)。
 
-执行用时：9ms，击败94.74%。消耗内存：39MB，击败84.02%。
+// 执行用时：9ms，击败94.74%。消耗内存：39MB，击败84.02%。
 
-```java
+// ```java
 public class Solution {
     public int lengthOfLongestSubstring(String s) {
         int[] last = new int[256];  //记录某字符最近出现的索引
@@ -96,26 +96,26 @@ public class Solution {
         return result;
     }
 }
-```
-# 解法四：动态规划
+// ```
+// # 解法四：动态规划
 
-状态定义：
+// 状态定义：
 
-dp[x]:字符串s中以索引x处字符结尾的最长不含重复字符的子字符串长度。
+// dp[x]:字符串s中以索引x处字符结尾的最长不含重复字符的子字符串长度。
 
-状态转移：
+// 状态转移：
 
-（1）dp(0) = 1。
+// （1）dp(0) = 1。
 
-（2）如果第x个字符在之前未出现过，dp[x] = dp[x - 1] + 1。
+// （2）如果第x个字符在之前未出现过，dp[x] = dp[x - 1] + 1。
 
-（3）如果第x个字符在之前索引y处出现过，如果(x - y) <= dp[x - 1]，dp[x] = x - y。否则dp[x] = dp[x - 1] + 1。
+// （3）如果第x个字符在之前索引y处出现过，如果(x - y) <= dp[x - 1]，dp[x] = x - y。否则dp[x] = dp[x - 1] + 1。
 
-时间复杂度是O(n)，其中n为字符串s的长度。空间复杂度是O(1)。
+// 时间复杂度是O(n)，其中n为字符串s的长度。空间复杂度是O(1)。
 
-执行用时：9ms，击败94.74%。消耗内存：37.9MB，击败90.45%。
+// 执行用时：9ms，击败94.74%。消耗内存：37.9MB，击败90.45%。
 
-```java
+// ```java
 public class Solution {
     public int lengthOfLongestSubstring(String s) {
         int n;
@@ -143,4 +143,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

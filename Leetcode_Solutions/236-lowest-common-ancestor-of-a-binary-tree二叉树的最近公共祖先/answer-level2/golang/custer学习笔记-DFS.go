@@ -1,9 +1,9 @@
-# 递归
-* 1. 如果当前节点为空，或者等于目标节点p或q，则返回当前节点。
-* 2. 否则递归到左右子树上进行处理，返回值分别为left和right。
-* 3. 如果left和right非空，则说明在左右子树上各找到一个节点，于是当前的根节点就是最近公共祖先，如果left和right只有一个非空，则返回哪个非空的节点，如果都为空，就返回空指针。
+// # 递归
+// * 1. 如果当前节点为空，或者等于目标节点p或q，则返回当前节点。
+// * 2. 否则递归到左右子树上进行处理，返回值分别为left和right。
+// * 3. 如果left和right非空，则说明在左右子树上各找到一个节点，于是当前的根节点就是最近公共祖先，如果left和right只有一个非空，则返回哪个非空的节点，如果都为空，就返回空指针。
 
-```go
+// ```go
 // 如果p、q都在二叉树中，则返回p、q二者的最近公共祖先
 // 如果只有一个节点在二叉树中，则返回找到的这个节点
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
@@ -25,13 +25,13 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
     }
     return nil
 }
-```
+// ```
 
-学习自https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/361964/Golang-solution-with-my-own-thought-process
+// 学习自https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/discuss/361964/Golang-solution-with-my-own-thought-process
 
-# 辅助路径方法
+// # 辅助路径方法
 
-```go
+// ```go
 // Time: O(n), Space: O(n) n是二叉树上节点个数
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
     var ppath []*TreeNode // 定义p、q节点到根节点的路径
@@ -65,4 +65,4 @@ func search(root, node *TreeNode, path *[]*TreeNode) bool {
     return false
 }
 
-```
+// ```

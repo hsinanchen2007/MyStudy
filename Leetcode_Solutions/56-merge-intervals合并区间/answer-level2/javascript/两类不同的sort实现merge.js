@@ -1,5 +1,5 @@
 
-```javascript
+// ```javascript
 /**
  * 方法1：以数组的第二个元素为基准对数组进行排序，
  * 如果后一位的index=0<当前位的index=1，必定能进行merge
@@ -56,4 +56,4 @@ const merge1 = intervals=> {
     }
     return intervals;
 };
-```
+// ```

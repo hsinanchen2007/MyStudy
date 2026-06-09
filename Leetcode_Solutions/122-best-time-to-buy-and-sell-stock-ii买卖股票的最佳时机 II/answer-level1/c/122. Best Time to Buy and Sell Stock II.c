@@ -1,12 +1,12 @@
-### 解题思路
-仔细审题会发现,这道题的要求是 You **may complete as many transactions as** you like
-只要你的买入价格低于你第二天的卖出价格,你就可以买入,在价格出现下跌之前卖出,你就可以获利.
-haveBuyFlag用来标记你手中是否有一份股票,当你手中持有股票的时候,你就不可以进行买入操作.
-如果最后一天你的股票仍旧没有卖出,那么就把它卖出就行.
+// ### 解题思路
+// 仔细审题会发现,这道题的要求是 You **may complete as many transactions as** you like
+// 只要你的买入价格低于你第二天的卖出价格,你就可以买入,在价格出现下跌之前卖出,你就可以获利.
+// haveBuyFlag用来标记你手中是否有一份股票,当你手中持有股票的时候,你就不可以进行买入操作.
+// 如果最后一天你的股票仍旧没有卖出,那么就把它卖出就行.
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize)
 {
     int i, j;
@@ -37,4 +37,4 @@ int maxProfit(int* prices, int pricesSize)
     }
     return sum;
 }
-```
+// ```

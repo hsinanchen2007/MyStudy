@@ -1,8 +1,8 @@
-### 解题思路
-打家劫舍的环状版本，在这里将其拆分成两个部分的线性问题求解
-### 代码
+// ### 解题思路
+// 打家劫舍的环状版本，在这里将其拆分成两个部分的线性问题求解
+// ### 代码
 
-```c
+// ```c
 #define MAX(a,b) (a>b?a:b)
 int rob(int* nums, int numsSize) {
     if(!numsSize) return 0;
@@ -28,4 +28,4 @@ int rob(int* nums, int numsSize) {
 	rob1 = MAX(dp0,dp1);
 	return MAX(rob0, rob1);
 }
-```
+// ```

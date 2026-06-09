@@ -1,4 +1,4 @@
-```python
+# ```python
 def sortColors(nums):
     """
         1. 第一次遍历, 将所有的0放在开头.
@@ -31,4 +31,4 @@ def sortColors(nums):
     
 print(sortColors([2,0,2,1,1,0]))
 print(sortColors([2,1,2,0,0,1,2,0,2,1,0,2]))
-```
+# ```

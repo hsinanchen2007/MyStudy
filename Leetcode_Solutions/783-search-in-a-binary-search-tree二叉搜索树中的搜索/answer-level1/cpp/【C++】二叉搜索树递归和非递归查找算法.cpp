@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 	/*递归查找算法*/
@@ -13,9 +13,9 @@ public:
 			return searchBST(root->left, val);
 	}
 };
-```
+// ```
 
-```
+// ```
 class Solution {
 public:
 	/*非递归查找算法*/
@@ -29,5 +29,5 @@ public:
 		return root;
 	}
 };
-```
+// ```
 

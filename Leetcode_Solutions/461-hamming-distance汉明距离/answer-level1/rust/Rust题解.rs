@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn hamming_distance(x: i32, y: i32) -> i32 {
         let mut counter = 0;
@@ -10,5 +10,5 @@ impl Solution {
         counter
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

@@ -1,7 +1,7 @@
-分为两个步骤：
-1.求整个二叉树的和
-2.遍历所有子树和，求最大值
-```
+// 分为两个步骤：
+// 1.求整个二叉树的和
+// 2.遍历所有子树和，求最大值
+// ```
     double ans = Double.MIN_VALUE;
     double allSum;
     double nodeSum;
@@ -22,4 +22,4 @@
         ans = Math.max(ans, (allSum - nodeSum) * nodeSum);
         return nodeSum;
     }
-```
+// ```

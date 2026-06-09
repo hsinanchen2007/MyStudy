@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
         if not root:
@@ -12,4 +12,4 @@ class Solution:
         if not root:
             return 0
         return max(self.max_depth(root.left), self.max_depth(root.right)) + 1
-```
+# ```

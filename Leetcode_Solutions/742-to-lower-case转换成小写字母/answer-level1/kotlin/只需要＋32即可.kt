@@ -1,5 +1,5 @@
-* 这个太简单了,应该不需要题解了,直接上代码
-```
+// * 这个太简单了,应该不需要题解了,直接上代码
+// ```
 val strBuilder = StringBuilder()
 str.forEach {
     strBuilder.append(
@@ -11,5 +11,5 @@ str.forEach {
     )
 }
 return strBuilder.toString()
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-分别找出左边数组最大元素以及右边数组最小元素，比较大小。
+// ### 解题思路
+// 分别找出左边数组最大元素以及右边数组最小元素，比较大小。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int partitionDisjoint(int[] A) {
         int[] max = new int[A.length];
@@ -23,4 +23,4 @@ class Solution {
         return 1;
     }
 }
-```
+// ```

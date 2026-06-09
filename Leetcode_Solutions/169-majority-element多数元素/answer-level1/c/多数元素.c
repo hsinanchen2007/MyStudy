@@ -1,5 +1,5 @@
-剑指里做过，记录cnt
-```
+// 剑指里做过，记录cnt
+// ```
 int majorityElement(int* nums, int numsSize){
     int d = nums[0], cnt = 1;;
     for(int i=1 ; i<numsSize ; i++){
@@ -13,4 +13,4 @@ int majorityElement(int* nums, int numsSize){
     }
     return d;
 }
-```
+// ```

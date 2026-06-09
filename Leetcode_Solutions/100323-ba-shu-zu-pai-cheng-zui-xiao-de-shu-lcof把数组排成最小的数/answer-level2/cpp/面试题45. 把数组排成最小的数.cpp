@@ -1,9 +1,9 @@
-### 解题思路
-自定义sort函数，利用2个字符串字典序比较大小
+// ### 解题思路
+// 自定义sort函数，利用2个字符串字典序比较大小
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool myfun(string a, string b)
@@ -34,4 +34,4 @@ public:
         return result;
     }
 };
-```
+// ```

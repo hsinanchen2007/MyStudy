@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ bool flipEquiv(struct TreeNode* root1, struct TreeNode* root2)
 }
 
 
-```
+// ```

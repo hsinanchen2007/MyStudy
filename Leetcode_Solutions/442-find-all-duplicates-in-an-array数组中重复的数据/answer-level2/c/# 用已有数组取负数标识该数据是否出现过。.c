@@ -1,5 +1,5 @@
-# 用已有数组取负数标识该数据是否出现过。
-```
+// # 用已有数组取负数标识该数据是否出现过。
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -24,4 +24,4 @@ int* findDuplicates(int* nums, int numsSize, int* returnSize){
     }
     return ret;
 }
-```
+// ```

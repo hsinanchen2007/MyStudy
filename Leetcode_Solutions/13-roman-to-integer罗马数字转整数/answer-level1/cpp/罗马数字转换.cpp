@@ -1,9 +1,9 @@
-### 解题思路
-这题不用判断输入罗马数字是否合法，简单很多
+// ### 解题思路
+// 这题不用判断输入罗马数字是否合法，简单很多
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int romanToInt(string s) {
@@ -27,4 +27,4 @@ public:
         return total;
     }
 };
-```
+// ```

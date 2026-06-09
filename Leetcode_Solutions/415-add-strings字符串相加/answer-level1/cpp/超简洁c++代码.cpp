@@ -1,5 +1,5 @@
-不写注释应该看得懂吧
-```cpp
+// 不写注释应该看得懂吧
+// ```cpp
 class Solution {
 public:
     string addStrings(string num1, string num2) {
@@ -14,4 +14,4 @@ public:
         return res;
     }  
 };
-```
+// ```

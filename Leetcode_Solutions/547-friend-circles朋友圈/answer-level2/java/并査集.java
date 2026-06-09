@@ -1,12 +1,12 @@
-### 解题思路
-1. 每个人独自位伍(初始化)
-2. 根据关系进行合并队伍
-3. 如果自己的队伍编码与自己编码一致，代表一个朋友圈。
-4. 最开始统计朋友圈的的数量写法 return (int) Arrays.stream(roots).filter(boy -> roots[boy] == boy).count(); 浪费了大半天时间，stream 在这里会有问题。慎用！
+// ### 解题思路
+// 1. 每个人独自位伍(初始化)
+// 2. 根据关系进行合并队伍
+// 3. 如果自己的队伍编码与自己编码一致，代表一个朋友圈。
+// 4. 最开始统计朋友圈的的数量写法 return (int) Arrays.stream(roots).filter(boy -> roots[boy] == boy).count(); 浪费了大半天时间，stream 在这里会有问题。慎用！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int[] roots;
 
@@ -53,4 +53,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-思路都是一样的，动态规划
-```
+# 思路都是一样的，动态规划
+# ```
 class Solution:
     def maximalSquare(self, matrix: List[List[str]]) -> int:
         ans = 0
@@ -11,4 +11,4 @@ class Solution:
                     ans = max(ans,matrix[i][j])
         
         return ans*ans
-```
+# ```

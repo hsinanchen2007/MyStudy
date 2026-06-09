@@ -1,9 +1,9 @@
-### 解题思路
-二叉搜索树本身无重复，可以用set容器，自定义仿函数进行排序。
+// ### 解题思路
+// 二叉搜索树本身无重复，可以用set容器，自定义仿函数进行排序。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -50,4 +50,4 @@ public:
         pre(p->right, res);
     }
 };
-```
+// ```

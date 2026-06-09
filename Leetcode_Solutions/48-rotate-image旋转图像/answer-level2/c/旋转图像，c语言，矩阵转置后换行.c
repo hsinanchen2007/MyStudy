@@ -1,9 +1,9 @@
-### 解题思路
-转置，换列
+// ### 解题思路
+// 转置，换列
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     for(int i=0;i<matrixSize;i++){
         for(int j=i+1;j<matrixSize;j++){
@@ -20,4 +20,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
         }
     }
 }
-```
+// ```

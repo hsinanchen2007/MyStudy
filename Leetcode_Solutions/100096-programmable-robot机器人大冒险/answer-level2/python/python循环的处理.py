@@ -1,10 +1,10 @@
-### 解题思路
-由于命令是循环的，命令同一位置的循环点是形成一个直线，判断点是否会在该直线上。
-此外，注意障碍只有在起点和终点之间才会有效。
+# ### 解题思路
+# 由于命令是循环的，命令同一位置的循环点是形成一个直线，判断点是否会在该直线上。
+# 此外，注意障碍只有在起点和终点之间才会有效。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def robot(self, command: str, obstacles: List[List[int]], x: int, y: int) -> bool:
         r = 0
@@ -47,4 +47,4 @@ class Solution:
         if meet(x,y,direction):
             return True
         return False
-```
+# ```

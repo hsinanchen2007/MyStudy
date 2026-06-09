@@ -1,10 +1,10 @@
-### 解题思路
-好像无论先序 中序 后序都可以解
-可以用swap
+// ### 解题思路
+// 好像无论先序 中序 后序都可以解
+// 可以用swap
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -26,4 +26,4 @@ public:
       return root;
     }
 };
-```
+// ```

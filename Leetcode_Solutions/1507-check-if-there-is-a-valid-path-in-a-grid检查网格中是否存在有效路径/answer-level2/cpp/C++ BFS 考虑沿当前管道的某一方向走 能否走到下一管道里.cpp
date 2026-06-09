@@ -1,4 +1,4 @@
-```
+// ```
     bool hasValidPath(vector<vector<int>>& g) {
         int dx[] = {-1,1,0,0}, dy[] = {0,0,-1,1};//方向数组 上下 左右
         vector<vector<int>> dir(7,vector<int>(2));
@@ -28,4 +28,4 @@
         }
         return false;
     }
-```
+// ```

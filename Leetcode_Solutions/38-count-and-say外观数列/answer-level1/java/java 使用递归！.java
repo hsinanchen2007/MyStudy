@@ -1,9 +1,9 @@
-### 解题思路
-使用递归调用，对返回的结构字符串进行字符遍历，推算出它的上一项的值。
+// ### 解题思路
+// 使用递归调用，对返回的结构字符串进行字符遍历，推算出它的上一项的值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
 
@@ -30,4 +30,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

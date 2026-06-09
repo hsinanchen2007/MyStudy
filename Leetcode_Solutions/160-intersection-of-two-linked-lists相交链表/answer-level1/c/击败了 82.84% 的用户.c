@@ -1,9 +1,9 @@
-### 解题思路
-1. 经典做法，求出两个链表长度，让长链表先走长度差，然后同时走，走到指针地址相同的地方就是公共头指针
+// ### 解题思路
+// 1. 经典做法，求出两个链表长度，让长链表先走长度差，然后同时走，走到指针地址相同的地方就是公共头指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     }
     return pa;
 }
-```
+// ```

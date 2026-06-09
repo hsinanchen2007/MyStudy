@@ -1,22 +1,22 @@
-### 解题思路
-思路
-找到当前元素左边第一个比它小的元素，果断单调递减栈，从右往前遍历。
+// ### 解题思路
+// 思路
+// 找到当前元素左边第一个比它小的元素，果断单调递减栈，从右往前遍历。
 
-ps 单调栈应用范围
-求解数组中元素右边第一个比它小的元素的下标，从前往后，构造单调递增栈；
-求解数组中元素右边第一个比它大的元素的下标，从前往后，构造单调递减栈；
-求解数组中元素左边第一个比它小的元素的下标，从后往前，构造单调递减栈；
-求解数组中元素左边第一个比它小的元素的下标，从后往前，构造单调递增栈。
+// ps 单调栈应用范围
+// 求解数组中元素右边第一个比它小的元素的下标，从前往后，构造单调递增栈；
+// 求解数组中元素右边第一个比它大的元素的下标，从前往后，构造单调递减栈；
+// 求解数组中元素左边第一个比它小的元素的下标，从后往前，构造单调递减栈；
+// 求解数组中元素左边第一个比它小的元素的下标，从后往前，构造单调递增栈。
 
-作者：huangyt
-链接：https://leetcode-cn.com/problems/maximum-width-ramp/solution/dan-diao-di-jian-zhan-on-by-huangyt/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+// 作者：huangyt
+// 链接：https://leetcode-cn.com/problems/maximum-width-ramp/solution/dan-diao-di-jian-zhan-on-by-huangyt/
+// 来源：力扣（LeetCode）
+// 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
-转化后同[962. 最大宽度坡](//leetcode-cn.com/problems/maximum-width-ramp/solution/dan-diao-di-jian-zhan-on-by-huangyt/)
-### 代码
+// 转化后同[962. 最大宽度坡](//leetcode-cn.com/problems/maximum-width-ramp/solution/dan-diao-di-jian-zhan-on-by-huangyt/)
+// ### 代码
 
-```c
+// ```c
 int longestWPI(int* hours, int hoursSize){
     int isTired[hoursSize];// 标记“劳累的一天”和“不劳累的一天”， 1 vs -1
     for(int i = 0; i < hoursSize; i++){
@@ -49,4 +49,4 @@ int longestWPI(int* hours, int hoursSize){
     }
     return res;
 }
-```
+// ```

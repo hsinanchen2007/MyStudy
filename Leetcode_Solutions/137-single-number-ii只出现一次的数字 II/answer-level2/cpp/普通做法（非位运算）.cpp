@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return nums[nums.size()-1];
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func trap(height []int) int {
     var res, lm, rm int
     left, right := 0, len(height)-1
@@ -17,4 +17,4 @@ func trap(height []int) int {
 
     return res
 }
-```
+// ```

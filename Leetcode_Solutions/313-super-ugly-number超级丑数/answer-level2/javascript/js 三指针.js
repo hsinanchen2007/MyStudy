@@ -1,5 +1,5 @@
-js 三指针
-```
+// js 三指针
+// ```
 /**
  * @param {number} n
  * @param {number[]} primes
@@ -19,4 +19,4 @@ var nthSuperUglyNumber = function(n, primes) {
     }
     return res[n - 1];
 };
-```
+// ```

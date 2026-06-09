@@ -1,6 +1,6 @@
-用python float()强转字符串，判断是否强转成功
+# 用python float()强转字符串，判断是否强转成功
 
-```
+# ```
 class Solution:
     def isNumber(self, s: str) -> bool:
         try:
@@ -8,5 +8,5 @@ class Solution:
             return True
         except ValueError:
             return False
-```
+# ```
 

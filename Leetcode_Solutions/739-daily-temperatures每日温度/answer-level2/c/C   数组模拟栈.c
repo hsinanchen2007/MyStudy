@@ -1,7 +1,7 @@
 
-for 循环要从后往前扫描元素，倒着入栈，正着出栈。
-while 循环是把两个较大元素之间的元素排除
-```
+// for 循环要从后往前扫描元素，倒着入栈，正着出栈。
+// while 循环是把两个较大元素之间的元素排除
+// ```
 int* dailyTemperatures(int* T, int TSize, int* returnSize){
     *returnSize = TSize;
     int *ans = malloc(sizeof(int)*TSize);
@@ -16,5 +16,5 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
     }
     return ans;
 }
-```
+// ```
 

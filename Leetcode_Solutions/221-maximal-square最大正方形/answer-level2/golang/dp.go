@@ -1,10 +1,10 @@
-dp[i][j] = int(math.Min(math.Min(float64(dp[i-1][j]), float64(dp[i][j-1])), float64(dp[i-1][j-1]))) + 1 方程式
+// dp[i][j] = int(math.Min(math.Min(float64(dp[i-1][j]), float64(dp[i][j-1])), float64(dp[i-1][j-1]))) + 1 方程式
 
-dp[i][j] 表示正方形的右下角的点 
-当matrix[i][j] = 0时 dp[i][j] = 0
-当matrix[i][j] = 1时 dp[i][j] = 要取方程式的值
+// dp[i][j] 表示正方形的右下角的点 
+// 当matrix[i][j] = 0时 dp[i][j] = 0
+// 当matrix[i][j] = 1时 dp[i][j] = 要取方程式的值
 
-```
+// ```
 func maximalSquare(matrix [][]byte) int {
 	if len(matrix) == 0 {
 		return 0
@@ -57,4 +57,4 @@ func maximalSquare(matrix [][]byte) int {
 
 	return m * m
 }
-```
+// ```

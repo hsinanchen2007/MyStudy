@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void dfs(char** grid, int gridSize, int* gridColSize, int r, int c) {
     if (r -1 >= 0 && grid[r-1][c] == '1') {
         grid[r - 1][c] = '0';
@@ -36,4 +36,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     }
     return result;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -108,4 +108,4 @@ char * toGoatLatin( char * S ){
     return buffer;
 
 }
-```
+// ```

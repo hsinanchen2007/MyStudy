@@ -1,9 +1,9 @@
-### 解题思路
-思路，前后两个字符串，两两比较，如果前面的字符串都相等，长度小的应该排在前面。
+// ### 解题思路
+// 思路，前后两个字符串，两两比较，如果前面的字符串都相等，长度小的应该排在前面。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isAlienSorted(String[] words, String order) {
         for (int i = 0; i < words.length - 1; i++) {
@@ -30,4 +30,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

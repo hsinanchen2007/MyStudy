@@ -1,9 +1,9 @@
-### 解题思路
-使用go自带的list1实现栈结构！
+// ### 解题思路
+// 使用go自带的list1实现栈结构！
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	stack1 := list.New()
 	stack2 := list.New()
@@ -82,4 +82,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	return p
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool checkInclusion(char * s1, char * s2){
     int index[128] = {0};
     int index2[128] = {0};
@@ -96,4 +96,4 @@ bool checkInclusion(char * s1, char * s2){
     }
     return false;
 }
-```
+// ```

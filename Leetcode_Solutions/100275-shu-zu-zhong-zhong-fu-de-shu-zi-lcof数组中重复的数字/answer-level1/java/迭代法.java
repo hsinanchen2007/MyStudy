@@ -1,10 +1,10 @@
-### 解题思路
-暴力解法，便利数组，把元素放入 容器中，如果有重复的元素则直接返回，
-时间复杂度 O(n)
+// ### 解题思路
+// 暴力解法，便利数组，把元素放入 容器中，如果有重复的元素则直接返回，
+// 时间复杂度 O(n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         List<Integer> list = new ArrayList<>();    
@@ -18,4 +18,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

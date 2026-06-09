@@ -1,9 +1,9 @@
-作为C/C++程序员，总能在指针操作中获得一种独特的快感。
+// 作为C/C++程序员，总能在指针操作中获得一种独特的快感。
 
-各位读者，看完下面的程序，你快感了么？
+// 各位读者，看完下面的程序，你快感了么？
 
 
-```
+// ```
 class Solution {
 public:
     ListNode ** merge(ListNode **res_head, ListNode *l, ListNode *r) {
@@ -60,6 +60,6 @@ public:
         return head;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/19139994087d4e2797af60cba3f69f69634bbaee317adddfecf1aef26e05eeca-image.png)
+// ![image.png](https://pic.leetcode-cn.com/19139994087d4e2797af60cba3f69f69634bbaee317adddfecf1aef26e05eeca-image.png)

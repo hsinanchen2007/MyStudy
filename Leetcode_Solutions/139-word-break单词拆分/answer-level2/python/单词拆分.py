@@ -1,9 +1,9 @@
-### 解题思路
-用一个数组标记i位置是否是匹配点。若当前位置与前面所有是匹配点之间的单词之一在列表中，那么当前位置就是匹配点。
+# ### 解题思路
+# 用一个数组标记i位置是否是匹配点。若当前位置与前面所有是匹配点之间的单词之一在列表中，那么当前位置就是匹配点。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         l = len(s)
@@ -17,4 +17,4 @@ class Solution:
                         f = True
             flag.append(f)
         return flag[-1]
-```
+# ```

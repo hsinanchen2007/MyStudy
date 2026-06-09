@@ -1,4 +1,4 @@
-```
+// ```
 func minTimeToVisitAllPoints(points [][]int) int {
     maxStep := 0
     firstPoint := points[0]
@@ -28,4 +28,4 @@ func minTimeToVisitAllPoints(points [][]int) int {
 
     return maxStep
 }
-```
+// ```

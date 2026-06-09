@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1 step 申请数组str[200] arry[200];
-2 step 利用栈的特性将它存入 添加终止符;
-3 step 比较arry[200] str[200] 否相同;
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1 step 申请数组str[200] arry[200];
+// 2 step 利用栈的特性将它存入 添加终止符;
+// 3 step 比较arry[200] str[200] 否相同;
+// ### 代码
 
-```c
+// ```c
 
 bool backspaceCompare(char * S, char * T) //双指针;
 { 
@@ -40,4 +40,4 @@ bool backspaceCompare(char * S, char * T) //双指针;
     arry[i] = 0;
     return !strcmp(str ,arry);
 }
-```
+// ```

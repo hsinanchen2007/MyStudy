@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {  
     func lastStoneWeightII(_ stones: [Int]) -> Int {
         guard stones.count > 2 else {
@@ -24,4 +24,4 @@ class Solution {
         return total - (index << 1)
     }
  }
-```
+// ```

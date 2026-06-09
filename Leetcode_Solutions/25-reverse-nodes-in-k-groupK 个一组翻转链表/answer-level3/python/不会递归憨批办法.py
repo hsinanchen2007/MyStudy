@@ -1,13 +1,13 @@
-### 解题思路
-跟24题基本一样
-用哈希表辅助记录链表的结构，最后把相邻的连接起来就行了
-性能一如既往的低
-![image.png](https://pic.leetcode-cn.com/cc348020e1328879e972b12392f8020437e4694fface7111779171e219093ea7-image.png)
+# ### 解题思路
+# 跟24题基本一样
+# 用哈希表辅助记录链表的结构，最后把相邻的连接起来就行了
+# 性能一如既往的低
+# ![image.png](https://pic.leetcode-cn.com/cc348020e1328879e972b12392f8020437e4694fface7111779171e219093ea7-image.png)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution(object):
         count[index].next=None
         return star
 
-```
+# ```

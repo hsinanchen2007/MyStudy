@@ -1,8 +1,8 @@
-### 解题思路
-根据题意, 遍历该字符串，判断第一个字符是否为+，-，+，-只能出现在字符串的首位，当遇到不为0~9的数时就停止遍历，并定义number来记录最后获取的数，并判断该数值是否超出整数范围。
+# ### 解题思路
+# 根据题意, 遍历该字符串，判断第一个字符是否为+，-，+，-只能出现在字符串的首位，当遇到不为0~9的数时就停止遍历，并定义number来记录最后获取的数，并判断该数值是否超出整数范围。
 
-### 代码
-```python []
+# ### 代码
+# ```python []
 INT_MAX = 2 ** 31 - 1
 INT_MIN = -2 ** 31
 
@@ -35,9 +35,9 @@ class Solution:
             return INT_MAX
         else :
             return number                                      
-```
+# ```
 
-```java []
+# ```java []
 class Solution {
     public int myAtoi(String str) {
         str = str.trim();
@@ -76,4 +76,4 @@ class Solution {
         }
     }
 }
-```
+# ```

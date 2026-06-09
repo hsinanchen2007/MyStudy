@@ -1,9 +1,9 @@
-思路1：递归计算Tn+3 = Tn + Tn+1 + Tn+2，用map保存计算每个n值对应的计算结果避免重复计算。
-```
+// 思路1：递归计算Tn+3 = Tn + Tn+1 + Tn+2，用map保存计算每个n值对应的计算结果避免重复计算。
+// ```
 执行用时 :0 ms, 在所有 Go 提交中击败了100.00%的用户
 内存消耗 :2.1 MB, 在所有 Go 提交中击败了100.00%的用户
-```
-```Go []
+// ```
+// ```Go []
 func tribonacci(n int) int {
     nm := make(map[int]int)
     var trib func(n int) int
@@ -24,14 +24,14 @@ func tribonacci(n int) int {
     }
     return trib(n)
 }
-```
+// ```
 
-思路2：从T0开始循环向上相加直到得到Tn值。
-```
+// 思路2：从T0开始循环向上相加直到得到Tn值。
+// ```
 执行用时 :0 ms, 在所有 Go 提交中击败了100.00%的用户
 内存消耗 :2 MB, 在所有 Go 提交中击败了100.00%的用户
-```
-```Go []
+// ```
+// ```Go []
 func tribonacci(n int) int {
     ns := make([]int,n+1)
     ns[0] = 0
@@ -45,4 +45,4 @@ func tribonacci(n int) int {
     }
     return ns[n]
 }
-```
+// ```

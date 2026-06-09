@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Solution {
 public:
     int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {
@@ -21,4 +21,4 @@ public:
         return count;
     }
 };
-```
+// ```

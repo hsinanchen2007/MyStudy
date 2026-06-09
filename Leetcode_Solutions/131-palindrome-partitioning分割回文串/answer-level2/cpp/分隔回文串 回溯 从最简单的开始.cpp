@@ -1,8 +1,8 @@
-采用回溯的思想，找不同的子串
-关键并不是一个个向上添加的，而是用下标来控制
-一个lastindex表示上一个已经添加进去的回文串结束的位置，当前可以从lastindex下标开始，取i在[lastindex, length()-1]之间的片段，判断是回文串的话就添加到cur里，然后修改lastindex向下递归
+// 采用回溯的思想，找不同的子串
+// 关键并不是一个个向上添加的，而是用下标来控制
+// 一个lastindex表示上一个已经添加进去的回文串结束的位置，当前可以从lastindex下标开始，取i在[lastindex, length()-1]之间的片段，判断是回文串的话就添加到cur里，然后修改lastindex向下递归
 
-```
+// ```
 class Solution {
 public:
 	vector<vector<string>>ans;
@@ -41,4 +41,4 @@ public:
 		return ans;
 	}
 };
-```
+// ```

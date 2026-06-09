@@ -1,4 +1,4 @@
-```
+# ```
 # 148. 排序链表
 # 在 O(n log n) 时间复杂度和常数级空间复杂度下，对链表进行排序。
 
@@ -67,4 +67,4 @@ n3 = ListNode(3)
 n1.next = n2
 n2.next = n3
 show(Solution().sortList(n1))
-```
+# ```

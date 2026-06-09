@@ -1,5 +1,5 @@
-1. 最暴力解法  内存超出限制
-```
+// 1. 最暴力解法  内存超出限制
+// ```
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
@@ -20,12 +20,12 @@ public:
         return ans;
     }
 };
-```
-2. 优化改成空间O(n)
+// ```
+// 2. 优化改成空间O(n)
 
-仔细想其实上层的值可以传递给下层的值，每次记录的和也为i~j的和，直到j为n
-但是可以用减小区域来做， 上层得到的和减去数组i表示的值 从前缩小区域
-```
+// 仔细想其实上层的值可以传递给下层的值，每次记录的和也为i~j的和，直到j为n
+// 但是可以用减小区域来做， 上层得到的和减去数组i表示的值 从前缩小区域
+// ```
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
@@ -46,5 +46,5 @@ public:
         return ans;
     }
 };
-```
+// ```
 

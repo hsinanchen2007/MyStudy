@@ -1,7 +1,7 @@
-[51题](https://leetcode-cn.com/problems/n-queens/solution/51-nhuang-hou-el1s-by-el1s/)求N皇后的解，这道题只要求有多少个解，不用求出来是哪一些解。
+// [51题](https://leetcode-cn.com/problems/n-queens/solution/51-nhuang-hou-el1s-by-el1s/)求N皇后的解，这道题只要求有多少个解，不用求出来是哪一些解。
 
-我们把51题的稍微改一下就可以了
-```
+// 我们把51题的稍微改一下就可以了
+// ```
 class Solution {
     vector<vector<string>> res;
     int n;
@@ -33,9 +33,9 @@ public:
         return res.size();
     }
 };
-```
-还可以进行优化
-```
+// ```
+// 还可以进行优化
+// ```
 class Solution {
     int res;
     int n;
@@ -65,5 +65,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

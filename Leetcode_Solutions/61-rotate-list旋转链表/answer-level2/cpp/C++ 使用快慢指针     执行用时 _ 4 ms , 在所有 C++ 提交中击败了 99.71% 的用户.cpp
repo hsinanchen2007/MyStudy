@@ -1,5 +1,5 @@
 
-此题特别要注意：测试用例中有k大于链表长度的，需要做k % length取余操作
+// 此题特别要注意：测试用例中有k大于链表长度的，需要做k % length取余操作
 
 class Solution {
 public:

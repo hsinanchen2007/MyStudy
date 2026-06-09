@@ -1,9 +1,9 @@
-### 解题思路
-思路应该很清楚了，不多描述看代码
+// ### 解题思路
+// 思路应该很清楚了，不多描述看代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public ListNode getKthFromEnd(ListNode head, int k) {
        ListNode former = head, latter = head;
@@ -14,4 +14,4 @@ class Solution {
        return latter;
     }
 }
-```
+// ```

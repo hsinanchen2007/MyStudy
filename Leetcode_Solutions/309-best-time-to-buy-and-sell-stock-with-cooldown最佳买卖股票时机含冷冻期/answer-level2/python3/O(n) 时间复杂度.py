@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if len(prices) <=1:
@@ -16,4 +16,4 @@ class Solution:
             dp_keep_at_the_moment = max_get_today
             dp_wait_at_the_moment = max_wait_today
         return max([dp_keep_at_the_moment,dp_wait_at_the_moment])
-```
+# ```

@@ -1,5 +1,5 @@
-迭代遍历全部路径，对每一个结点都以其为终点向前搜寻符合条件的路径段
-```
+# 迭代遍历全部路径，对每一个结点都以其为终点向前搜寻符合条件的路径段
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
                 if n_next.val + v == sum: res += 1
                 node_deque.append([n_next, c_next, n_next.val + v])
         return res
-```
+# ```

@@ -1,20 +1,20 @@
-### 解题思路
-不考虑Evil的时候，动态规划计数 s1<= <=s2 字符串数量
-分为四种状态 
-In 两种之间 
-Great 大于下界  
-Small 小于上界
-Any 任意字符满足条件
+// ### 解题思路
+// 不考虑Evil的时候，动态规划计数 s1<= <=s2 字符串数量
+// 分为四种状态 
+// In 两种之间 
+// Great 大于下界  
+// Small 小于上界
+// Any 任意字符满足条件
 
-考虑Evil的时候，再加一个状态，当前字符串最大匹配位置
-使用KMP 算法进行递推，根据当前位置，以及是否匹配 决定读取下一个字符之后，最大匹配位置
+// 考虑Evil的时候，再加一个状态，当前字符串最大匹配位置
+// 使用KMP 算法进行递推，根据当前位置，以及是否匹配 决定读取下一个字符之后，最大匹配位置
 
-所以子状态就是 
-当前 字符串推进位置 StartPos, 当前需要满足的条件State, 以及Evil字符串的匹配进度
+// 所以子状态就是 
+// 当前 字符串推进位置 StartPos, 当前需要满足的条件State, 以及Evil字符串的匹配进度
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 
 using VT = System.ValueTuple<int, State, int>;
 class KMPCmp{
@@ -376,4 +376,4 @@ public class Solution {
         return ag.FindGoodStrings(n, s1, s2, evil);
     }
 }
-```
+// ```

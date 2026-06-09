@@ -1,7 +1,7 @@
-这道寻找最小值的题目可以用二分查找法来解决，时间复杂度为O(logN)，空间复杂度为O(1)。
+// 这道寻找最小值的题目可以用二分查找法来解决，时间复杂度为O(logN)，空间复杂度为O(1)。
 
-看一下代码：
-```c++ []
+// 看一下代码：
+// ```c++ []
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -18,8 +18,8 @@ public:
         return nums[left];
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int findMin(int[] nums) {
         int left = 0;
@@ -35,8 +35,8 @@ class Solution {
         return nums[left];
     }
 };
-```
-```python3 []
+// ```
+// ```python3 []
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         left, right = 0, len(nums) - 1
@@ -47,8 +47,8 @@ class Solution:
             else:                               
                 right = mid
         return nums[left]
-```
-```javascript []
+// ```
+// ```javascript []
  var findMin = function(nums) {
     var left = 0;
     var right = nums.length - 1;
@@ -62,96 +62,96 @@ class Solution:
     }
     return nums[left];
 };
-```
+// ```
 
-首先说一下主要思路：
+// 首先说一下主要思路：
 
-单调递增的序列：
+// 单调递增的序列：
 
-            *
-          *
-        *
-      *
-    *
+//             *
+//           *
+//         *
+//       *
+//     *
 
-做了旋转：
+// 做了旋转：
 
-      *
-    *
-            *
-          *
-        *
+//       *
+//     *
+//             *
+//           *
+//         *
 
-用二分法查找，需要始终将目标值（这里是最小值）套住，并不断收缩左边界或右边界。
+// 用二分法查找，需要始终将目标值（这里是最小值）套住，并不断收缩左边界或右边界。
 
-左、中、右三个位置的值相比较，有以下几种情况：
-1. 左值 < 中值, 中值 < 右值 ：没有旋转，最小值在最左边，可以收缩右边界
+// 左、中、右三个位置的值相比较，有以下几种情况：
+// 1. 左值 < 中值, 中值 < 右值 ：没有旋转，最小值在最左边，可以收缩右边界
 
-               右
-            中
-        左
+//                右
+//             中
+//         左
       
-2. 左值 > 中值, 中值 < 右值 ：有旋转，最小值在左半边，可以收缩右边界
+// 2. 左值 > 中值, 中值 < 右值 ：有旋转，最小值在左半边，可以收缩右边界
    
-        左       
-                右
-            中
+//         左       
+//                 右
+//             中
 
-3. 左值 < 中值, 中值 > 右值 ：有旋转，最小值在右半边，可以收缩左边界
+// 3. 左值 < 中值, 中值 > 右值 ：有旋转，最小值在右半边，可以收缩左边界
     
-            中  
-        左 
-                右
+//             中  
+//         左 
+//                 右
 
-4. 左值 > 中值, 中值 > 右值 ：单调递减，不可能出现
+// 4. 左值 > 中值, 中值 > 右值 ：单调递减，不可能出现
     
-        左
-           中
-               右
+//         左
+//            中
+//                右
 
-分析前面三种可能的情况，会发现情况1、2是一类，情况3是另一类。
+// 分析前面三种可能的情况，会发现情况1、2是一类，情况3是另一类。
 
-如果中值 < 右值，则最小值在左半边，可以收缩右边界。
-如果中值 > 右值，则最小值在右半边，可以收缩左边界。
-通过比较中值与右值，可以确定最小值的位置范围，从而决定边界收缩的方向。
+// 如果中值 < 右值，则最小值在左半边，可以收缩右边界。
+// 如果中值 > 右值，则最小值在右半边，可以收缩左边界。
+// 通过比较中值与右值，可以确定最小值的位置范围，从而决定边界收缩的方向。
 
-而情况1与情况3都是左值 < 中值，但是最小值位置范围却不同，这说明，如果只比较左值与中值，不能确定最小值的位置范围。
+// 而情况1与情况3都是左值 < 中值，但是最小值位置范围却不同，这说明，如果只比较左值与中值，不能确定最小值的位置范围。
 
-所以我们需要通过比较中值与右值来确定最小值的位置范围，进而确定边界收缩的方向。
-
-
-接着分析解法里的一些问题：
-
-首先是while循环里的细节问题。
-
-这里的循环不变式是`left < right`, 并且要保证左闭右开区间里面始终套住最小值。
-
-中间位置的计算：`mid = left + (right - left) / 2`
-这里整数除法是向下取整的地板除，`mid`更靠近`left`，
-再结合while循环的条件`left < right`，
-可以知道`left <= mid`，`mid < right`，
-即在while循环内，`mid`始终小于`right`。
-
-因此在while循环内，`nums[mid]`要么大于要么小于`nums[right]`，不会等于。
-
-这样`else {right = mid;}`这句判断可以改为更精确的
-`else if (nums[mid] < nums[right]) {right = mid;}`。
+// 所以我们需要通过比较中值与右值来确定最小值的位置范围，进而确定边界收缩的方向。
 
 
-再分析一下while循环退出的条件。
+// 接着分析解法里的一些问题：
 
-如果输入数组只有一个数，左右边界位置重合，`left == right`，不会进入while循环，直接输出。
+// 首先是while循环里的细节问题。
 
-如果输入数组多于一个数，循环到最后，会只剩两个数，`nums[left] == nums[mid]`，以及`nums[right]`，这里的位置`left == mid == right - 1`。
+// 这里的循环不变式是`left < right`, 并且要保证左闭右开区间里面始终套住最小值。
 
-如果`nums[left] == nums[mid] > nums[right]`，则左边大、右边小，
-需要执行`left = mid + 1`，使得`left == right`，左右边界位置重合，循环结束，`nums[left]`与`nums[right]`都保存了最小值。
+// 中间位置的计算：`mid = left + (right - left) / 2`
+// 这里整数除法是向下取整的地板除，`mid`更靠近`left`，
+// 再结合while循环的条件`left < right`，
+// 可以知道`left <= mid`，`mid < right`，
+// 即在while循环内，`mid`始终小于`right`。
 
-如果`nums[left] == nums[mid] < nums[right]`，则左边小、右边大，
-会执行`right = mid`，使得`left == right`，左右边界位置重合，循环结束，`nums[left]`、`nums[mid]`、`nums[right]`都保存了最小值。
+// 因此在while循环内，`nums[mid]`要么大于要么小于`nums[right]`，不会等于。
 
-细化了的代码：
-```c++ []
+// 这样`else {right = mid;}`这句判断可以改为更精确的
+// `else if (nums[mid] < nums[right]) {right = mid;}`。
+
+
+// 再分析一下while循环退出的条件。
+
+// 如果输入数组只有一个数，左右边界位置重合，`left == right`，不会进入while循环，直接输出。
+
+// 如果输入数组多于一个数，循环到最后，会只剩两个数，`nums[left] == nums[mid]`，以及`nums[right]`，这里的位置`left == mid == right - 1`。
+
+// 如果`nums[left] == nums[mid] > nums[right]`，则左边大、右边小，
+// 需要执行`left = mid + 1`，使得`left == right`，左右边界位置重合，循环结束，`nums[left]`与`nums[right]`都保存了最小值。
+
+// 如果`nums[left] == nums[mid] < nums[right]`，则左边小、右边大，
+// 会执行`right = mid`，使得`left == right`，左右边界位置重合，循环结束，`nums[left]`、`nums[mid]`、`nums[right]`都保存了最小值。
+
+// 细化了的代码：
+// ```c++ []
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -168,8 +168,8 @@ public:
         return nums[left];    /* 循环结束，left == right，最小值输出nums[left]或nums[right]均可 */     
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int findMin(int[] nums) {
         int left = 0;
@@ -185,8 +185,8 @@ class Solution {
         return nums[left];    /* 循环结束，left == right，最小值输出nums[left]或nums[right]均可 */     
     }
 };
-```
-```python3 []
+// ```
+// ```python3 []
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         left, right = 0, len(nums) - 1          # 左闭右闭区间，如果用右开区间则不方便判断右值
@@ -197,23 +197,23 @@ class Solution:
             elif nums[mid] < nums[right]:       # 明确中值 < 右值，最小值在左半边，收缩右边界
                 right = mid                     # 因为中值 < 右值，中值也可能是最小值，右边界只能取到mid处
         return nums[left]                       # 循环结束，left == right，最小值输出nums[left]或nums[right]均可
-```
+// ```
 
-再讨论一个问题：
+// 再讨论一个问题：
 
-为什么左右不对称？为什么比较`mid`与`right`而不比较`mid`与`left`？能不能通过比较`mid`与`left`来解决问题？
+// 为什么左右不对称？为什么比较`mid`与`right`而不比较`mid`与`left`？能不能通过比较`mid`与`left`来解决问题？
 
-左右不对称的原因是：
-这是循环前**升序**排列的数，左边的数小，右边的数大，而且我们要找的是**最小值**，肯定是**偏向左**找，所以左右不对称了。
+// 左右不对称的原因是：
+// 这是循环前**升序**排列的数，左边的数小，右边的数大，而且我们要找的是**最小值**，肯定是**偏向左**找，所以左右不对称了。
 
-为什么比较`mid`与`right`而不比较`mid`与`left`？
-具体原因前面已经分析过了，简单讲就是因为我们找最小值，要偏向左找，目标值右边的情况会比较简单，容易区分，所以比较`mid`与`right`而不比较`mid`与`left`。
+// 为什么比较`mid`与`right`而不比较`mid`与`left`？
+// 具体原因前面已经分析过了，简单讲就是因为我们找最小值，要偏向左找，目标值右边的情况会比较简单，容易区分，所以比较`mid`与`right`而不比较`mid`与`left`。
 
-那么能不能通过比较`mid`与`left`来解决问题？
-能，转换思路，不直接找最小值，而是先找**最大值**，最大值偏右，可以通过比较`mid`与`left`来找到最大值，最大值向右移动一位就是最小值了（需要考虑最大值在最右边的情况，右移一位后对数组长度取余）。
+// 那么能不能通过比较`mid`与`left`来解决问题？
+// 能，转换思路，不直接找最小值，而是先找**最大值**，最大值偏右，可以通过比较`mid`与`left`来找到最大值，最大值向右移动一位就是最小值了（需要考虑最大值在最右边的情况，右移一位后对数组长度取余）。
 
-以下是先找最大值的代码，可以与前面找最小值的比较：
-```c++ []
+// 以下是先找最大值的代码，可以与前面找最小值的比较：
+// ```c++ []
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -230,8 +230,8 @@ public:
         return nums[(right + 1) % nums.size()];    /* 最大值向右移动一位就是最小值了（需要考虑最大值在最右边的情况，右移一位后对数组长度取余） */
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int findMin(int[] nums) {
         int left = 0;
@@ -247,8 +247,8 @@ class Solution {
         return nums[(right + 1) % nums.length];    /* 最大值向右移动一位就是最小值了（需要考虑最大值在最右边的情况，右移一位后对数组长度取余） */
     }
 };
-```
-```python3 []
+// ```
+// ```python3 []
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         left, right = 0, len(nums) - 1   
@@ -259,14 +259,14 @@ class Solution:
             elif nums[left] > nums[mid]:       
                 right = mid - 1                     # 向左移动右边界
         return nums[(right + 1) % len(nums)]        # 最大值向右移动一位就是最小值了（需要考虑最大值在最右边的情况，右移一位后对数组长度取余）
-```
+// ```
 
-使用`left < right`作while循环条件可以很方便推广到数组中有重复元素的情况，即154题：
-https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/
+// 使用`left < right`作while循环条件可以很方便推广到数组中有重复元素的情况，即154题：
+// https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/
 
-只需要在`nums[mid] == nums[right]`时挪动右边界就行：
+// 只需要在`nums[mid] == nums[right]`时挪动右边界就行：
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -285,8 +285,8 @@ public:
         return nums[left];
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int findMin(int[] nums) {
         int left = 0;
@@ -304,8 +304,8 @@ class Solution {
         return nums[left];
     }
 };
-```
-```python3 []
+// ```
+// ```python3 []
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         left, right = 0, len(nums) - 1                 
@@ -318,14 +318,14 @@ class Solution:
             else:
                 right -= 1
         return nums[left]
-```
+// ```
 
-初始条件是左闭右闭区间，`right = nums.size() - 1`，
-那么能否将while循环的条件也选为左闭右闭区间`left <= right`？
+// 初始条件是左闭右闭区间，`right = nums.size() - 1`，
+// 那么能否将while循环的条件也选为左闭右闭区间`left <= right`？
 
-可以的，代码如下：
+// 可以的，代码如下：
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -342,8 +342,8 @@ public:
         return nums[right];                             // 最小值返回nums[right]
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int findMin(int[] nums) {
         int left = 0;
@@ -359,8 +359,8 @@ class Solution {
         return nums[right];                             // 最小值返回nums[right]
     }
 };
-```
-```python3 []
+// ```
+// ```python3 []
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         left, right = 0, len(nums) - 1    
@@ -371,12 +371,12 @@ class Solution:
             else:                               # 当中值小于右值时
                 right = mid                     # 将右边界移动到中值处
         return nums[right]                      # 最小值返回nums[right]
-```
+// ```
 
-这道题的解法还可以做一些变形：始终与最右边的数进行比较，相当于在每次裁剪区间之后始终将最右边的数附在新数组的最右边。
-（感谢网友许半斤，https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/er-fen-cha-zhao-zui-jian-dan-xie-fa-by-xu-ban-jin/）
+// 这道题的解法还可以做一些变形：始终与最右边的数进行比较，相当于在每次裁剪区间之后始终将最右边的数附在新数组的最右边。
+// （感谢网友许半斤，https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/er-fen-cha-zhao-zui-jian-dan-xie-fa-by-xu-ban-jin/）
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -394,8 +394,8 @@ public:
         return nums[left];
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int findMin(int[] nums) {
         int right_boundary = nums[nums.length - 1];
@@ -412,8 +412,8 @@ class Solution {
         return nums[left];
     }
 };
-```
-```python3 []
+// ```
+// ```python3 []
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         right_boundary = nums[- 1]
@@ -425,4 +425,4 @@ class Solution:
             else:                               
                 right = mid
         return nums[left]
-```
+// ```

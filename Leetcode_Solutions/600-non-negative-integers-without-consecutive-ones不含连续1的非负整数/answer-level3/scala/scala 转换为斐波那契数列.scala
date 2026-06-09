@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def findIntegers(num: Int): Int = {
     var res = 0
@@ -19,4 +19,4 @@ object Solution {
     res + 1
   }
 }
-```
+// ```

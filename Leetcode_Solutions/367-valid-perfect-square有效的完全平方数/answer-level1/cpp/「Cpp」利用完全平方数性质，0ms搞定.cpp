@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/ea733cff0e09740752ccd3a9e062c8bd61d4c77b1779e535943a6cd4f77824eb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ea733cff0e09740752ccd3a9e062c8bd61d4c77b1779e535943a6cd4f77824eb-image.png)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPerfectSquare(int num) {
@@ -13,4 +13,4 @@ public:
 
     }
 };
-```
+// ```

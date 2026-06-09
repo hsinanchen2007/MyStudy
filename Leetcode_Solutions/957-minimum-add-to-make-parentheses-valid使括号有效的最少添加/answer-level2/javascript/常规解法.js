@@ -1,14 +1,14 @@
-### 解题思路
-- 正则替换“()”
-- 返回剩余字符串的长度
+// ### 解题思路
+// - 正则替换“()”
+// - 返回剩余字符串的长度
 
-### 结果
-执行用时:84 ms, 在所有 JavaScript 提交中击败了73.77%的用户
-内存消耗 :36.2 MB, 在所有 JavaScript 提交中击败了13.64%的用户
+// ### 结果
+// 执行用时:84 ms, 在所有 JavaScript 提交中击败了73.77%的用户
+// 内存消耗 :36.2 MB, 在所有 JavaScript 提交中击败了13.64%的用户
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {number}
@@ -34,4 +34,4 @@ var minAddToMakeValid = function(S) {
     return 0;
   }
 };
-```
+// ```

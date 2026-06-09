@@ -1,18 +1,18 @@
-### 解题思路
-函数的返回值是处理好的矩阵
+// ### 解题思路
+// 函数的返回值是处理好的矩阵
 
-另外两个返回值通过参数列表的returnSize和returnColSize实现。
-returnSize表示你返回的矩阵有几行。
-returnColumSize是一个数组，表示第i行有多少个元素
-二者都要另外申请内存、写入正确值
+// 另外两个返回值通过参数列表的returnSize和returnColSize实现。
+// returnSize表示你返回的矩阵有几行。
+// returnColumSize是一个数组，表示第i行有多少个元素
+// 二者都要另外申请内存、写入正确值
 
-注意：参数列表中，输出参数的类型要去掉一个\*看，因为函数不能修改值，所以需要靠通过输入指针的方式来获取函数内的值。
-如本题的 int\* returnSize ，虽然是整形指针，但实际上是想获得一个int类型的数。
-int** returnColumSize ,虽然是一个指向指针的指针，但实际上是想获得一个一维数组，每个元素记录着一个矩阵每行的元素个数。
+// 注意：参数列表中，输出参数的类型要去掉一个\*看，因为函数不能修改值，所以需要靠通过输入指针的方式来获取函数内的值。
+// 如本题的 int\* returnSize ，虽然是整形指针，但实际上是想获得一个int类型的数。
+// int** returnColumSize ,虽然是一个指向指针的指针，但实际上是想获得一个一维数组，每个元素记录着一个矩阵每行的元素个数。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -71,4 +71,4 @@ int** generateMatrix(int n, int* returnSize, int** returnColumnSizes) {
 
 	return nums;
 }
-```
+// ```

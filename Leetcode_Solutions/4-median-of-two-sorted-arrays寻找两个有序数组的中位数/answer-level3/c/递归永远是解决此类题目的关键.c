@@ -1,9 +1,9 @@
-### 解题思路
-两个有序数组合并为一个有序数组，然后取中位数
+// ### 解题思路
+// 两个有序数组合并为一个有序数组，然后取中位数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int* getMergeArray(int * nums1,int nums1Size,int * nums2,int nums2Size,int * retArray,int retArraySize)
 {
     if(retArraySize==0){
@@ -50,4 +50,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
         return recArray[0];
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-C二分加速 查找
+// ### 解题思路
+// C二分加速 查找
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool searchVector(int *v,int n, int target) {
     int left = 0, right = n - 1;
     while (left <= right) {
@@ -33,4 +33,4 @@ bool searchMatrix(int** matrix, int matrixRowSize, int matrixColSize, int target
     }
         return false;
 }
-```
+// ```

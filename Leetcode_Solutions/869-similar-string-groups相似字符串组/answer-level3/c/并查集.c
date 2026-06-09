@@ -1,4 +1,4 @@
-```
+// ```
 bool isneighbor(char *stra, char *strb, int len) {
     int diff = 0;
     while (*stra) {
@@ -59,4 +59,4 @@ int numSimilarGroups(char ** A, int ASize)
     free(ns);
     return res;
 }
-```
+// ```

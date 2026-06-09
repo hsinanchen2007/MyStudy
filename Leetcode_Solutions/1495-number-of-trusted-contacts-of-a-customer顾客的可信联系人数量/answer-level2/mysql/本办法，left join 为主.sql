@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 -- # Write your MySQL query statement below
 SELECT b1.invoice_id, b2.name1 AS customer_name, b1.price, b2.contacts_cnt, b2.trusted_contacts_cnt
 FROM Invoices b1 JOIN
@@ -26,6 +26,6 @@ ON a1.customer_id = a2.customer_id) b2
 ON b1.user_id = b2.customer_id
 ORDER BY b1.invoice_id ASC
 
-```
-先把直接联系人算出来，然后用IN 的办法来filter掉不在customers 里的contacts，再算一次
-然后和invoice进行left join。
+-- ```
+-- 先把直接联系人算出来，然后用IN 的办法来filter掉不在customers 里的contacts，再算一次
+-- 然后和invoice进行left join。

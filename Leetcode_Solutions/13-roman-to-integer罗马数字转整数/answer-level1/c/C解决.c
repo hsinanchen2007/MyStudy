@@ -1,4 +1,4 @@
-```
+// ```
 int romanToInt(char * s){
 	char A[7] = {'I','V', 'X', 'L', 'C', 'D', 'M'};
     int B[7] = {1, 5, 10, 50, 100, 500, 1000};
@@ -41,4 +41,4 @@ int romanToInt(char * s){
 	return number;
 }
 
-```
+// ```

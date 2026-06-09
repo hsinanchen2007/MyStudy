@@ -1,9 +1,9 @@
-### 解题思路
-很直接的思路，借用额外空间。
+# ### 解题思路
+# 很直接的思路，借用额外空间。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def flipAndInvertImage(self, A: List[List[int]]) -> List[List[int]]:
         A1 = []
@@ -17,4 +17,4 @@ class Solution:
                 else:
                     A1[i][j] = 1
         return A1
-```
+# ```

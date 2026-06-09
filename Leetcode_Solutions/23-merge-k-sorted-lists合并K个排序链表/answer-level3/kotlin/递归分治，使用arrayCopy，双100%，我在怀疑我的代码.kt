@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Example:
  * var li = ListNode(5)
@@ -47,10 +47,10 @@ class Solution {
     }
 
 }
-```
-思路：
-分治法将数组分成两半，判断数组size
-    0：返回null
-    1：返回lists[0]
-    2：直接merge两个链表
-    else：将数组拆成两半递归调用自身，并merge两个结果
+// ```
+// 思路：
+// 分治法将数组分成两半，判断数组size
+//     0：返回null
+//     1：返回lists[0]
+//     2：直接merge两个链表
+//     else：将数组拆成两半递归调用自身，并merge两个结果

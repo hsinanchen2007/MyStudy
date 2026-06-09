@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/1b264c25247021a35b5cfbced0debca463917e2c6042fc2f8c764e8ebadb55e0-image.png)
+# ![image.png](https://pic.leetcode-cn.com/1b264c25247021a35b5cfbced0debca463917e2c6042fc2f8c764e8ebadb55e0-image.png)
 
 
-```
+# ```
 
 '''
 题目定义的字符串其实可以看成一个括号匹配的字符串， 1代表左括号，0代表右括号
@@ -47,4 +47,4 @@ class Solution:
             return '1' + self.makeLargestSpecial(parts[0][1:-1]) + '0'
         else:
             return ''.join(sorted([self.makeLargestSpecial(part) for part in parts], reverse=True))
-```
+# ```

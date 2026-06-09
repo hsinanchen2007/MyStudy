@@ -1,12 +1,12 @@
-### 解题思路
-依次遍历每个人判断是不是名人，
-1.其他人不认识名人
-2.名人认识其他人
-判断失败，继续判断下一个是不是名人!
+// ### 解题思路
+// 依次遍历每个人判断是不是名人，
+// 1.其他人不认识名人
+// 2.名人认识其他人
+// 判断失败，继续判断下一个是不是名人!
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /* The knows API is defined in the parent class Relation.
       boolean knows(int a, int b); */
 
@@ -28,4 +28,4 @@ public class Solution extends Relation {
 		return -1;
 	}
 }
-```
+// ```

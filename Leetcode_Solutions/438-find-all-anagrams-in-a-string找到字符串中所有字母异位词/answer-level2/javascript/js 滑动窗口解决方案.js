@@ -1,9 +1,9 @@
-### 解题思路
-参考 [labuladong 滑动窗口思想](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/)
+// ### 解题思路
+// 参考 [labuladong 滑动窗口思想](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/solution/hua-dong-chuang-kou-tong-yong-si-xiang-jie-jue-zi-/)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} p
@@ -33,4 +33,4 @@ var findAnagrams = function(s, p) {
     }
     return ans;
 };
-```
+// ```

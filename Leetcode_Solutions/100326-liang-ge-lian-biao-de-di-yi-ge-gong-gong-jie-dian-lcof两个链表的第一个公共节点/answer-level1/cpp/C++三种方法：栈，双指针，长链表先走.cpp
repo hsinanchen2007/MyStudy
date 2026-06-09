@@ -1,6 +1,6 @@
-[原文](https://xduwq.blog.csdn.net/article/details/104902682)
-# 栈
-```
+// [原文](https://xduwq.blog.csdn.net/article/details/104902682)
+// # 栈
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,9 +43,9 @@ public:
         return headA;
     }
 };
-```
-# 长链表先走
-```
+// ```
+// # 长链表先走
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -102,9 +102,9 @@ public:
         return NULL;
     }
 };
-```
-# 双指针
-```
+// ```
+// # 双指针
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -133,6 +133,6 @@ public:
         return h1;
     }
 };
-```
+// ```
 
 

@@ -1,18 +1,18 @@
-【方法一：后序遍历递归法】
-执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :45.1 MB, 在所有 Java 提交中击败了100.00%的用户
-```
+// 【方法一：后序遍历递归法】
+// 执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :45.1 MB, 在所有 Java 提交中击败了100.00%的用户
+// ```
 class Solution {
     public int maxDepth(TreeNode root) {
         return root == null ? 0 : Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
 }
-```
+// ```
 
-【方法二：后序遍历非递归法】
-执行用时 :5 ms, 在所有 Java 提交中击败了5.88%的用户
-内存消耗 :44 MB, 在所有 Java 提交中击败了100.00%的用户
-```
+// 【方法二：后序遍历非递归法】
+// 执行用时 :5 ms, 在所有 Java 提交中击败了5.88%的用户
+// 内存消耗 :44 MB, 在所有 Java 提交中击败了100.00%的用户
+// ```
 class Solution {
     public int maxDepth(TreeNode root) {
         if (root == null) {
@@ -37,13 +37,13 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
 
-【方法三：层次遍历】
-执行用时 :2 ms, 在所有 Java 提交中击败了5.88%的用户
-内存消耗 :46.3 MB, 在所有 Java 提交中击败了100.00%的用户
-```
+// 【方法三：层次遍历】
+// 执行用时 :2 ms, 在所有 Java 提交中击败了5.88%的用户
+// 内存消耗 :46.3 MB, 在所有 Java 提交中击败了100.00%的用户
+// ```
 class Solution {
     public int maxDepth(TreeNode root) {
         if (root == null) {
@@ -70,4 +70,4 @@ class Solution {
         return depth;
     }
 }
-```
+// ```

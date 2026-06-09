@@ -1,4 +1,4 @@
-```
+// ```
 function isReflected($points) {
     $max = PHP_INT_MIN;
     $min = PHP_INT_MAX;
@@ -17,4 +17,4 @@ function isReflected($points) {
     }
     return true;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-两层for循环，找到索引下标，然后计算即可。
+// ### 解题思路
+// 两层for循环，找到索引下标，然后计算即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countNegatives(int[][] grid) {
        int sum=0;
@@ -18,4 +18,4 @@ class Solution {
         return sum;
 }
 }
-```
+// ```

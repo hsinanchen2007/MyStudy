@@ -1,9 +1,9 @@
-### 解题思路
-Python 解法，欢迎讨论
+# ### 解题思路
+# Python 解法，欢迎讨论
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         rs, y = 0, abs(x)

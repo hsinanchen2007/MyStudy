@@ -1,11 +1,11 @@
-### 解题思路
-1. 先折半查找该元素
-2. 找到后以该点作为中心，双指针向两个方向同时找
-3. 注意处理折半查找的时候head 和tail的值，相差1个的时候要特殊处理
+// ### 解题思路
+// 1. 先折半查找该元素
+// 2. 找到后以该点作为中心，双指针向两个方向同时找
+// 3. 注意处理折半查找的时候head 和tail的值，相差1个的时候要特殊处理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         if(nums.length == 0){
@@ -75,4 +75,4 @@ class Solution {
         return new int[]{head,tail};
     }
 }
-```
+// ```

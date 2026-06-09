@@ -1,6 +1,6 @@
 
 
-```
+# ```
 '''
 动态规划
 最后一定是形成序列arr, 只需要看两棵子树是这个序列里面哪两个子序列形成的
@@ -21,4 +21,4 @@ class Solution:
                     dp[i][j] = min(dp[i][j], dp[i][k] + dp[k+1][j] + max(arr[i:k+1]) * max(arr[k+1:j+1]))
         return dp[0][n-1]
 
-```
+# ```

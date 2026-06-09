@@ -1,9 +1,9 @@
-### 解题思路
-重点是转换参考系，用字典里的每一个串去试当前能否匹配到，而不是用当前的串去匹配字典。
+// ### 解题思路
+// 重点是转换参考系，用字典里的每一个串去试当前能否匹配到，而不是用当前的串去匹配字典。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -32,4 +32,4 @@ public:
          return dp[n];
     }
 };
-```
+// ```

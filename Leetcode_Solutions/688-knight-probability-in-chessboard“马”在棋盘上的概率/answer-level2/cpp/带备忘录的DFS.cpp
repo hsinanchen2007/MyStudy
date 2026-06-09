@@ -1,5 +1,5 @@
-状态设计很重要，第一次写的时候忽略了k，但其实不同的k，会对每个位置的prob带来的影响。
-```
+// 状态设计很重要，第一次写的时候忽略了k，但其实不同的k，会对每个位置的prob带来的影响。
+// ```
 class Solution {
 public:
     double knightProbability(int N, int K, int r, int c) {
@@ -19,4 +19,4 @@ public:
         return probs[r][c][K];
     }
 };
-```
+// ```

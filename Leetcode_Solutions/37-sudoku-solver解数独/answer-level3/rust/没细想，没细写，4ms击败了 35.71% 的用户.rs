@@ -1,5 +1,5 @@
 
-```
+// ```
 impl Solution {
     fn allow(v: &mut Vec<i32>, num: i32) {
         v[num as usize - 1] = 1;
@@ -97,4 +97,4 @@ impl Solution {
         Self::backtrack(board, &mut rows, &mut cols, &mut boxs, 0, 0);
     }
 }
-```
+// ```

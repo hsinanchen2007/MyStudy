@@ -1,10 +1,10 @@
-### 解题思路
-思路参考高赞答案。
-rust的排序默认已经是字典排序了，所以可以直接处理。
+// ### 解题思路
+// 思路参考高赞答案。
+// rust的排序默认已经是字典排序了，所以可以直接处理。
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn minimum_length_encoding(words: Vec<String>) -> i32 {
         let mut res=0i32;
@@ -21,4 +21,4 @@ impl Solution {
     }
 }
 
-```
+// ```

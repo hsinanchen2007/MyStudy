@@ -1,5 +1,5 @@
-**第一种：暴力破解法（速度很快）**
-```
+# **第一种：暴力破解法（速度很快）**
+# ```
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
         nodes = []
@@ -24,13 +24,13 @@ class Solution:
             point = point.next
 
         return dummy.next
-```
-![image.png](https://pic.leetcode-cn.com/89f9efd351cc876c249c7e6da6a7bd2f3c6b6c5901b5f887b4dfa3b5ad94529f-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/89f9efd351cc876c249c7e6da6a7bd2f3c6b6c5901b5f887b4dfa3b5ad94529f-image.png)
 
-**第二种方法：头节点逐次比较**
+# **第二种方法：头节点逐次比较**
 
-速度很慢，遗憾超时
-```
+# 速度很慢，遗憾超时
+# ```
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
 
@@ -51,11 +51,11 @@ class Solution:
             lists[0] = lists[0].next
 
         return dummy.next
-```
+# ```
 
-**第三种解法：通过优先队列对第二种方法的优化**
+# **第三种解法：通过优先队列对第二种方法的优化**
 
-```
+# ```
 from queue import PriorityQueue
 
 
@@ -75,6 +75,6 @@ def mergeKLists(lists):
             #当前节点若不为空，继续加入队列
             q.put((node.val, node))
     return head.next
-```
+# ```
 
-由于站点已经将ListNode类定义，所以优先队列无法将节点排序，可在本地自定义该类，本地执行
+# 由于站点已经将ListNode类定义，所以优先队列无法将节点排序，可在本地自定义该类，本地执行

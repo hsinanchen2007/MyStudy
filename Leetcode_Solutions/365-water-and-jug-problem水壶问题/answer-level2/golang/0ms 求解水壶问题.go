@@ -1,5 +1,5 @@
-思路就是用小容器迭代的往大容器里倒水，直到产生合适的解。
-```
+// 思路就是用小容器迭代的往大容器里倒水，直到产生合适的解。
+// ```
 func getMaxMin(x int, y int) (int, int) {
     if y > x {
         x, y = y, x
@@ -41,4 +41,4 @@ func canMeasureWater(x int, y int, z int) bool {
 
     return false
 }
-```
+// ```

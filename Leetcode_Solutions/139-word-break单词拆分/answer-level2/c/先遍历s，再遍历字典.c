@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool wordBreak(char * s, char ** wordDict, int wordDictSize){
     int i,len=strlen(s),j,k;
     int dp[len+1];
@@ -20,4 +20,4 @@ bool wordBreak(char * s, char ** wordDict, int wordDictSize){
     }
     return dp[len];
 }
-```
+// ```

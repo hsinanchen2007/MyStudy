@@ -1,4 +1,4 @@
-```
+// ```
 char * removeDuplicates(char * S)
 {
     if(S == NULL)
@@ -57,4 +57,4 @@ char * removeDuplicates(char * S)
         return res;
 
 }
-```
+// ```

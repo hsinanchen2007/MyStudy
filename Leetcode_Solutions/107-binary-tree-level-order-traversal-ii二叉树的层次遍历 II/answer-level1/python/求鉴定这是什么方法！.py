@@ -1,5 +1,5 @@
-瞎写的求鉴定
-```
+# 瞎写的求鉴定
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
                         tmp.append(i.right)
                 cur = tmp
             return a[::-1]
-```
+# ```

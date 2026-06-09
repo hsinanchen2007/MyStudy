@@ -1,11 +1,11 @@
-### 解题思路
-1、深度优先遍历，减去沿途遇到的结点值
-2、如果达到叶子结点时，sum刚好等于0，则这条路径就是答案，返回真
+// ### 解题思路
+// 1、深度优先遍历，减去沿途遇到的结点值
+// 2、如果达到叶子结点时，sum刚好等于0，则这条路径就是答案，返回真
 
-tips:深度优先遍历的结果判断在递归到叶子结点时执行
-### 代码
+// tips:深度优先遍历的结果判断在递归到叶子结点时执行
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
         return hasPathSum(root.left,sum)||hasPathSum(root.right,sum);
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-动态规划，用数组保存和
-(obj->sums[j] - obj->sums[i] + obj->nums[i]);
+// ### 解题思路
+// 动态规划，用数组保存和
+// (obj->sums[j] - obj->sums[i] + obj->nums[i]);
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int *nums;
     int *sums;
@@ -45,4 +45,4 @@ void numArrayFree(NumArray* obj) {
  
  * numArrayFree(obj);
 */
-```
+// ```

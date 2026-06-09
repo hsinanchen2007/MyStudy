@@ -1,8 +1,8 @@
-### 解题思路
-其实还可以优化为复杂度只和num_people的规模有关
-### 代码
+// ### 解题思路
+// 其实还可以优化为复杂度只和num_people的规模有关
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -22,4 +22,4 @@ public:
     }
 };
 
-```
+// ```

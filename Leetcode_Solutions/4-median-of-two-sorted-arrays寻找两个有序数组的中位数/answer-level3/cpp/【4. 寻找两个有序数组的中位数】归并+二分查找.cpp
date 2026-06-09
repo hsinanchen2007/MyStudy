@@ -1,8 +1,8 @@
-## 思路一：归并排序
-### 代码
-时间复杂度：O(m + n)
-空间复杂度：O(m + n)
-```c++
+// ## 思路一：归并排序
+// ### 代码
+// 时间复杂度：O(m + n)
+// 空间复杂度：O(m + n)
+// ```c++
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -31,14 +31,14 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 思路二：二分查找
-参考 ：[[LeetCode] 4. Median of Two Sorted Arrays 两个有序数组的中位数](https://www.cnblogs.com/grandyang/p/4465932.html)
+// ## 思路二：二分查找
+// 参考 ：[[LeetCode] 4. Median of Two Sorted Arrays 两个有序数组的中位数](https://www.cnblogs.com/grandyang/p/4465932.html)
 
-### 代码
-时间复杂度：O(log(m + n))
-```c++
+// ### 代码
+// 时间复杂度：O(log(m + n))
+// ```c++
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -59,6 +59,6 @@ public:
         }
     }
 };
-```
+// ```
 
 

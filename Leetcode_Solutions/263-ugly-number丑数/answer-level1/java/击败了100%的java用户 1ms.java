@@ -1,5 +1,5 @@
-# [263 . 丑数](https://www.cnblogs.com/hh09cnblogs/p/11604206.html)
-```
+// # [263 . 丑数](https://www.cnblogs.com/hh09cnblogs/p/11604206.html)
+// ```
 class Solution {
     public boolean isUgly(int num) {
         if( num == 1 || num == 2  || num == 3 || num == 5 ){
@@ -13,4 +13,4 @@ class Solution {
                 || (num % 5 == 0 && isUgly(num / 5));
     }
 }
-```
+// ```

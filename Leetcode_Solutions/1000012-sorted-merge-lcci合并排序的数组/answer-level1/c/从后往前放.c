@@ -1,9 +1,9 @@
-### 解题思路
-依次比较A和B的最大值，如果到最后B还未放完，直接复制到A里
+// ### 解题思路
+// 依次比较A和B的最大值，如果到最后B还未放完，直接复制到A里
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     int i = m - 1;
     int j = n - 1;
@@ -25,4 +25,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     }
 
 }
-```
+// ```

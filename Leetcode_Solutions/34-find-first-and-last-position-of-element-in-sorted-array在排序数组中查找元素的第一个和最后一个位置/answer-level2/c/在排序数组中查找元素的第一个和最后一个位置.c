@@ -1,5 +1,5 @@
-**二分查找（注意细节！！！）**
-```
+// **二分查找（注意细节！！！）**
+// ```
 /*寻找左边界*/
 int lower_bound(int *nums, int numsSize, int target)
 {
@@ -49,4 +49,4 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize){
     p[1] = upper_bound(nums, numsSize, target);
     return p;
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-![截图.PNG](https://pic.leetcode-cn.com/28431491d011f8ed4bfb539165d4b0dc1dbe0e722f9cde78231c1efb125efc38-%E6%88%AA%E5%9B%BE.PNG)
+// ### 解题思路
+// ![截图.PNG](https://pic.leetcode-cn.com/28431491d011f8ed4bfb539165d4b0dc1dbe0e722f9cde78231c1efb125efc38-%E6%88%AA%E5%9B%BE.PNG)
 
-与二叉树扁平化类似，只是多了一个pre指针
-1. 使用while循环，避免大量递归函数调用
-2. 将结点的child结点移动next结点上，将next结点移动到child的尾部，注意要处理好父指针的指向
+// 与二叉树扁平化类似，只是多了一个pre指针
+// 1. 使用while循环，避免大量递归函数调用
+// 2. 将结点的child结点移动next结点上，将next结点移动到child的尾部，注意要处理好父指针的指向
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -45,4 +45,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

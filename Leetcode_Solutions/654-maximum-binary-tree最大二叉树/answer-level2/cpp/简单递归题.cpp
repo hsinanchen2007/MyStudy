@@ -1,5 +1,5 @@
-- 简单递归题
-```c++
+// - 简单递归题
+// ```c++
 class Solution {
 public:
     int n;
@@ -20,4 +20,4 @@ public:
         return node;
     }
 };
-```
+// ```

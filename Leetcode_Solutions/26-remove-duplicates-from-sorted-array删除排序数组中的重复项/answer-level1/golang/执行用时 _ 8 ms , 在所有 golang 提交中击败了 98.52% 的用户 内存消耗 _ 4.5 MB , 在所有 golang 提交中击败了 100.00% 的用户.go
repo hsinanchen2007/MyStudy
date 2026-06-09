@@ -1,5 +1,5 @@
-思路：双指针，快指针找下一个非重复元素，满指针更新前面的数组。
-```
+// 思路：双指针，快指针找下一个非重复元素，满指针更新前面的数组。
+// ```
 func removeDuplicates(nums []int) int {
 	numLen := len(nums)
 	var curIndex, endIndex int
@@ -16,5 +16,5 @@ func removeDuplicates(nums []int) int {
 	}
 	return curIndex
 }
-```
-![image.png](https://pic.leetcode-cn.com/4a501dab5e96a29d02909ae7e7fbc16b447fd12b0489323c9269ea08c4e034a7-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/4a501dab5e96a29d02909ae7e7fbc16b447fd12b0489323c9269ea08c4e034a7-image.png)

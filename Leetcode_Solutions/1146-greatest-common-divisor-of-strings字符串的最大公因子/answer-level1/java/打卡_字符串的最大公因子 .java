@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         //设str1的公因数是lenx
@@ -35,4 +35,4 @@ class Solution {
     }
 
 }
-```
+// ```

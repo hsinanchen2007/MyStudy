@@ -1,11 +1,11 @@
 
-分析过程可以参看LeetCode官方题解，这里提供其Python3写法 [LeetCode题解](https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-leetcode/)
+# 分析过程可以参看LeetCode官方题解，这里提供其Python3写法 [LeetCode题解](https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-leetcode/)
 
 
 
-1. 水平扫描
+# 1. 水平扫描
 
-```
+# ```
 class Solution(object):
     def longestCommonPrefix(self, strs: list) -> str:
         if not len(strs):  # 如果传入的list本身就是空的 直接返回空
@@ -17,10 +17,10 @@ class Solution(object):
                 if not prefix:  # 当 prefix为空时，匹配不成功，直接返回""。
                     return ""
         return prefix
-```
+# ```
 
-2. 垂直扫描
-```
+# 2. 垂直扫描
+# ```
 class Solution(object):
     def longestCommonPrefix(self, strs: str) -> str:
         if not len(strs):  # 如果传入的list本身就是空的 直接返回空
@@ -32,11 +32,11 @@ class Solution(object):
                     return strs[0][: i]
         
         return strs[0]  # 默认返回第一个字符串
-```
+# ```
 
 
-3. 分治算法
-```
+# 3. 分治算法
+# ```
 class Solution(object):
     def longestCommonPrefix(self, strs: str) -> str:
         if len(strs) == 0:  # 如果传入的list本身就是空的 直接返回空
@@ -59,10 +59,10 @@ class Solution(object):
             if left[i] != right[i]:
                 return left[: i]
         return left[: _min]
-```
+# ```
 
-4. 二分查找
-```
+# 4. 二分查找
+# ```
 class Solution(object):
     def longestCommonPrefix(self, strs):
         if len(strs) == 0:  # 如果传入的list本身就是空的 直接返回空
@@ -86,5 +86,5 @@ class Solution(object):
             if strs[i].find(tmp_str) != 0:
                 return False
         return True
-```
+# ```
 

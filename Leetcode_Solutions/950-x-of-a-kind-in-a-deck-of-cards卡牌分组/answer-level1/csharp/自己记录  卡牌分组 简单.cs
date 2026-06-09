@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-此题是求每个数字出现次数的最大公约数
-先统计出各数都出现过几次 然后
-### 代码
+// 此题是求每个数字出现次数的最大公约数
+// 先统计出各数都出现过几次 然后
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool HasGroupsSizeX(int[] deck) {
         
@@ -40,4 +40,4 @@ public class Solution {
             
     }
 }
-```
+// ```

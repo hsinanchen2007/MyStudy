@@ -1,6 +1,6 @@
-标准快慢指针解法，快慢指针在环形跑道上必然相遇
+// 标准快慢指针解法，快慢指针在环形跑道上必然相遇
 
-```c
+// ```c
 bool hasCycle(struct ListNode *head) {
     struct ListNode *slow=head;
     struct ListNode *fast=head; 
@@ -13,10 +13,10 @@ bool hasCycle(struct ListNode *head) {
     }
 	return false;
 }
-```
+// ```
 
-看到评论区有个抖机灵做法，让遍历过的结点指向同一个结点p
-```c
+// 看到评论区有个抖机灵做法，让遍历过的结点指向同一个结点p
+// ```c
 bool hasCycle(struct ListNode *head) {
     struct ListNode *p=(struct ListNode*)malloc(sizeof(struct ListNode));
     p->next=NULL; 
@@ -31,4 +31,4 @@ bool hasCycle(struct ListNode *head) {
     }
 	return false;
 }
-```
+// ```

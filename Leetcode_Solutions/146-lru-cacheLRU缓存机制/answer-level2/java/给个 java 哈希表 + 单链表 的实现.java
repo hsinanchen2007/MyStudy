@@ -1,7 +1,7 @@
-好像没有看到单链表的解法，其实使用单链表也是可以的
-value 保存当前 key 对应结点的前一个结点
-这样删除某个 key 对应的结点就不需要重头遍历链表了
-```java
+// 好像没有看到单链表的解法，其实使用单链表也是可以的
+// value 保存当前 key 对应结点的前一个结点
+// 这样删除某个 key 对应的结点就不需要重头遍历链表了
+// ```java
 public class LRUCache {
 	private class Node{
 		int key;
@@ -69,6 +69,6 @@ public class LRUCache {
 	insertNode(newNode);
     }
 }
-```
+// ```
 
 

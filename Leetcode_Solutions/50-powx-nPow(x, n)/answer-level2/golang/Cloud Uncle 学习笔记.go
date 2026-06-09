@@ -1,5 +1,5 @@
-1.位运算
-```
+// 1.位运算
+// ```
 func myPow(x float64, n int) float64 {
     if n < 0 {
         x = 1 / x
@@ -20,9 +20,9 @@ func myPow(x float64, n int) float64 {
 
     return pow
 }
-```
-2.分治
-```
+// ```
+// 2.分治
+// ```
 func myPow(x float64, n int) float64 {
     //terminator
     if n == 0 {
@@ -45,8 +45,8 @@ func myPow(x float64, n int) float64 {
     //revert states
     return res
 }
-```
-```
+// ```
+// ```
 func myPow(x float64, n int) float64 {
     if n == 0 {
         return 1
@@ -62,4 +62,4 @@ func myPow(x float64, n int) float64 {
     
     return myPow(x*x, n/2)
 }
-```
+// ```

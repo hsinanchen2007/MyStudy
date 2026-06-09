@@ -1,6 +1,6 @@
-看到链表我就不想用，直接用list处理然后再用链表返回
+# 看到链表我就不想用，直接用list处理然后再用链表返回
 
-```python
+# ```python
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
         total_list = []
@@ -16,11 +16,11 @@ class Solution:
             tem_node.next = each_node
             tem_node = tem_node.next
         return head.next            
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :116 ms, 在所有 python3 提交中击败了90.07% 的用户
 内存消耗 :16.4 MB, 在所有 python3 提交中击败了72.73%的用户
 
@@ -29,15 +29,15 @@ class Solution:
 
 执行用时 :88 ms, 在所有 python3 提交中击败了100.00% 的用户
 内存消耗 :16.6 MB, 在所有 python3 提交中击败了52.91%的用户
-```
+# ```
 
-出现了个100%哈哈哈哈，内存消耗也是首次突破了5%
+# 出现了个100%哈哈哈哈，内存消耗也是首次突破了5%
 
-但是感觉这么做完全没有学习到链表的知识，于是又到了参考时间参考
+# 但是感觉这么做完全没有学习到链表的知识，于是又到了参考时间参考
 
-然后看了官方的例子，excuse me？和我的一毛一样的想法，只是更短一点，于是我决定也pythonic一些
+# 然后看了官方的例子，excuse me？和我的一毛一样的想法，只是更短一点，于是我决定也pythonic一些
 
-```python
+# ```python
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
         total_list = []
@@ -50,23 +50,23 @@ class Solution:
             tem_node.next =  ListNode(each)
             tem_node = tem_node.next
         return head.next   
-```
+# ```
 
-结果和官方几乎一毛一样
+# 结果和官方几乎一毛一样
 
-接下里就是学习其他方式的时间
+# 接下里就是学习其他方式的时间
 
-###### 方法 5：分治
+# ###### 方法 5：分治
 
-这个方法沿用了上面的解法，但是进行了较大的优化。我们不需要对大部分节点重复遍历多次。
+# 这个方法沿用了上面的解法，但是进行了较大的优化。我们不需要对大部分节点重复遍历多次。
 
-看到这句话就决定是它了
+# 看到这句话就决定是它了
 
-大概思路就是把K个链表 合并成K/2 个， 然后K/2 个链表合并成 K/4个
+# 大概思路就是把K个链表 合并成K/2 个， 然后K/2 个链表合并成 K/4个
 
-搞笑的是把官方的代码直接扔进去运行竟然报错？？？
+# 搞笑的是把官方的代码直接扔进去运行竟然报错？？？
 
-```python
+# ```python
 # 官方代码
 class Solution(object):
     def mergeKLists(self, lists):
@@ -98,28 +98,28 @@ class Solution(object):
         else:
             point.next=l1
         return head.next
-```
+# ```
 
-不知道为什么第一个提交后的第一个测试用例就没有通过，就是那个[]，难道是更新的测试用例没有及时更新代码？？？
+# 不知道为什么第一个提交后的第一个测试用例就没有通过，就是那个[]，难道是更新的测试用例没有及时更新代码？？？
 
-下面是错误的情况
+# 下面是错误的情况
 
-```
+# ```
 1 / 131 个通过测试用例
 	状态：执行出错
 	
 提交时间：14 分钟之前
 执行出错信息： Line 57: TypeError: [] is not valid value for the expected return type ListNode
 最后执行的输入： []
-```
+# ```
 
 
 
-不过思想还是学习到了，但是也发现了问题，就是分治的条件
+# 不过思想还是学习到了，但是也发现了问题，就是分治的条件
 
-下面是自己参考官方的代码，可以通过测试
+# 下面是自己参考官方的代码，可以通过测试
 
-```python
+# ```python
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
         # 特殊情况的处理
@@ -148,11 +148,11 @@ class Solution:
         if list_1: tem.next = list_1
         if list_2: tem.next = list_2
         return head.next
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :132 ms, 在所有 python3 提交中击败了73.50% 的用户
 内存消耗 :15.6 MB, 在所有 python3 提交中击败了99.11%的用户
 
@@ -161,6 +161,6 @@ class Solution:
 
 执行用时 :136 ms, 在所有 python3 提交中击败了68.61% 的用户
 内存消耗 :15.8 MB, 在所有 python3 提交中击败了98.96%的用户
-```
+# ```
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)

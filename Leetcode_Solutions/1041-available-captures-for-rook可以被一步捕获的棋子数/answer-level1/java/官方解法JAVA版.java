@@ -1,11 +1,11 @@
-### 解题思路
-1.定义方向坐标数组dx，dy。
-2.for循环找出R位置
-3.for循环四次，遍历四个方向
+// ### 解题思路
+// 1.定义方向坐标数组dx，dy。
+// 2.for循环找出R位置
+// 3.for循环四次，遍历四个方向
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int eat = 0;
@@ -45,4 +45,4 @@ class Solution {
 		return pos;
 	}
 }
-```
+// ```

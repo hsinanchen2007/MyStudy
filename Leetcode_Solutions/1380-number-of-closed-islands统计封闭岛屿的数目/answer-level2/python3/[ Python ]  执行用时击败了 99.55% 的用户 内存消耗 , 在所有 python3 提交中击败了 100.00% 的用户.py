@@ -1,11 +1,11 @@
-# DFS题解
+# # DFS题解
 
-> 本题的思路是，首先把最不是孤岛的标记成另外的数字，即`grid`里的`0`都是孤岛。
-> 然后遍历全部，每次遍历到`0`时，count加一，并把相连接的`0`都标记成其他数字。
-> 最终count就是结果
+# > 本题的思路是，首先把最不是孤岛的标记成另外的数字，即`grid`里的`0`都是孤岛。
+# > 然后遍历全部，每次遍历到`0`时，count加一，并把相连接的`0`都标记成其他数字。
+# > 最终count就是结果
 
-# 代码
-```
+# # 代码
+# ```
 class Solution:
     def closedIsland(self, grid: List[List[int]]) -> int:
         def markAs3(grid_child: List[List[int]], i: int, j: int):
@@ -40,5 +40,5 @@ class Solution:
                     markAs3(grid, y, x)
                     count += 1
         return count
-```
+# ```
 

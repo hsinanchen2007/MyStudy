@@ -1,5 +1,5 @@
-# 顺序法
-```
+// # 顺序法
+// ```
 func mySqrt(x int) int {
 	// 顺序查找，定位平方根
 	for i:=0; i<=x; i++ {
@@ -9,10 +9,10 @@ func mySqrt(x int) int {
 	}
 	return x
 }
-```
+// ```
 
-# 二分法
-```
+// # 二分法
+// ```
 func mySqrt(x int) int {
 	// 二分查找，定位平方根
 	i,j := 1,x
@@ -28,5 +28,5 @@ func mySqrt(x int) int {
 	}
 	return i-1
 }
-```
+// ```
 

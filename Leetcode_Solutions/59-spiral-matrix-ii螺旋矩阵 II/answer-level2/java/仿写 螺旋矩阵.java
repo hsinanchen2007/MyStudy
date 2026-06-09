@@ -1,8 +1,8 @@
-思路
-[螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/solution/luo-xuan-ju-zhen-by-leetcode/)
+// 思路
+// [螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/solution/luo-xuan-ju-zhen-by-leetcode/)
 
-# 仿写
-```
+// # 仿写
+// ```
 class Solution {
     public int[][] generateMatrix(int n) {
         int[][] ans = new int[n][n];
@@ -50,5 +50,5 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 

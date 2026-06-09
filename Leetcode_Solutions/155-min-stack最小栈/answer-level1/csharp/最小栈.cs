@@ -1,5 +1,5 @@
-**思路1：** 无脑调用现成的实现
-```csharp
+// **思路1：** 无脑调用现成的实现
+// ```csharp
 public class MinStack {
 
    private Stack<int> myStack;
@@ -37,4 +37,4 @@ public class MinStack {
  * int param_3 = obj.Top();
  * int param_4 = obj.GetMin();
  */
-```
+// ```

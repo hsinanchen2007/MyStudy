@@ -1,5 +1,5 @@
-字符串反转，然后依次计算
-```
+# 字符串反转，然后依次计算
+# ```
 class Solution(object):
     def fraction(self, cont):
         """
@@ -13,4 +13,4 @@ class Solution(object):
             res[1]=res[0]
             res[0]=cont[i+1]*res[1]+temp
         return res
-```
+# ```

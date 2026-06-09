@@ -1,7 +1,7 @@
-1. 新建一个map 遍历nums 如果map 中没有键为nums[i]的元素则向map中添加一个键为nums[i],值为1 的项,如果存在则键为nums[i]的值+1
-2. 遍历这个map 如果值大于Math.floor(nums.length / 3)则向结果数组中加入这个键
+// 1. 新建一个map 遍历nums 如果map 中没有键为nums[i]的元素则向map中添加一个键为nums[i],值为1 的项,如果存在则键为nums[i]的值+1
+// 2. 遍历这个map 如果值大于Math.floor(nums.length / 3)则向结果数组中加入这个键
 
-```javascript
+// ```javascript
     var majorityElement = function(nums) {
     const map = new Map(),
       res = []
@@ -23,4 +23,4 @@
 
     return res
 };
-```
+// ```

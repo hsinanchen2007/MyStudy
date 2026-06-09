@@ -1,10 +1,10 @@
-### 解题思路
-两种解答：1.遍历时删除所有0再在末尾拼接；2.双指针思想
+// ### 解题思路
+// 两种解答：1.遍历时删除所有0再在末尾拼接；2.双指针思想
 
-### 代码
+// ### 代码
 
-**1.删除0再末尾拼接**
-```javascript
+// **1.删除0再末尾拼接**
+// ```javascript
 //去除数组中所有的0，遍历结束后再把0拼接到数组上
 var moveZeroes = function(nums) {
     let len = nums.length;
@@ -19,10 +19,10 @@ var moveZeroes = function(nums) {
     for(let j=0;j<n;j++){nums.push(0);}
     return nums;
 };
-```
+// ```
 
-**2.双指针思想**
-```javascript
+// **2.双指针思想**
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -45,4 +45,4 @@ var moveZeroes = function(nums) {
     }
     return nums;
 };
-```
+// ```

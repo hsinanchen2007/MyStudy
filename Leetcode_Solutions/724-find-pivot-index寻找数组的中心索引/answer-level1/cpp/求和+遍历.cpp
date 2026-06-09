@@ -1,5 +1,5 @@
-Python3
-```
+// Python3
+// ```
 from typing import List
 
 class Solution:
@@ -12,10 +12,10 @@ class Solution:
             if 2*tmp == sum_ - num:
                 return k
         return -1
-```
+// ```
 
-C++
-```
+// C++
+// ```
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
@@ -35,7 +35,7 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-时间复杂度：O(n)
-空间复杂度：O(1)
+// 时间复杂度：O(n)
+// 空间复杂度：O(1)

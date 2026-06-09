@@ -1,4 +1,4 @@
-```
+// ```
 public static int calculate(String s) {
         boolean flag=false;//判断是否作乘的标志
         char lastAdd='+';//记录上一个+-，因为+-同级
@@ -48,4 +48,4 @@ public static int calculate(String s) {
         }
         return result;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-有空回来补题解
+// ### 解题思路
+// 有空回来补题解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     class TrieNode{
         boolean is_end ;
@@ -55,4 +55,4 @@ class Solution {
         return ans ;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 struct ProductOfNumbers {
     products: Vec<i32>,
 }
@@ -39,5 +39,5 @@ impl ProductOfNumbers {
  * obj.add(num);
  * let ret_2: i32 = obj.get_product(k);
  */
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

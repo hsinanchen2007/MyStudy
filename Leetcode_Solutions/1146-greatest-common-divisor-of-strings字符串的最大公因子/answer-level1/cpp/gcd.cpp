@@ -1,9 +1,9 @@
-### 解题思路
-gcd
+// ### 解题思路
+// gcd
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int gcd(int a,int b)
@@ -25,4 +25,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24513_FindBottomLeftTreeValue.java)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode/blob/master/java/tree/%24513_FindBottomLeftTreeValue.java)，持续更新。***
 
 
- * 方法1：迭代，层序遍历，保存每层左边第一个元素为结果，遍历完成后直接返回结果
- * 方法2：递归：中序遍历，找到最深层，将左边第一个元素保存在结果中
+//  * 方法1：迭代，层序遍历，保存每层左边第一个元素为结果，遍历完成后直接返回结果
+//  * 方法2：递归：中序遍历，找到最深层，将左边第一个元素保存在结果中
 
 
-```
+// ```
 //方法1：迭代
 public int findBottomLeftValue1(TreeNode root) {
     //层序遍历
@@ -29,8 +29,8 @@ public int findBottomLeftValue1(TreeNode root) {
     return res;
 }
 
-```
-```
+// ```
+// ```
 
 //方法2：递归
 class Solution{
@@ -53,4 +53,4 @@ class Solution{
     }
 }
 
-```
+// ```

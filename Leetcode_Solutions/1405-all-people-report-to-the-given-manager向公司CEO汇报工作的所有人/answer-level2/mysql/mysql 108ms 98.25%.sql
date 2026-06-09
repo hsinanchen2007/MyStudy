@@ -1,9 +1,9 @@
-### 解题思路
-题目说不超过三个中间经理。还行吧那就三个嵌套的subquery
+-- ### 解题思路
+-- 题目说不超过三个中间经理。还行吧那就三个嵌套的subquery
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -29,4 +29,4 @@ and employee_id<>1
 
 
 
-```
+-- ```

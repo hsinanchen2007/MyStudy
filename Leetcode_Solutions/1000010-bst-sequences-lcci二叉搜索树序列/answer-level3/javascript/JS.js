@@ -1,9 +1,9 @@
-### 解题思路
-&emsp;&emsp;写一个js版本，主要难点就是左右节点数组保持相对顺序的合并。
+// ### 解题思路
+// &emsp;&emsp;写一个js版本，主要难点就是左右节点数组保持相对顺序的合并。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -61,4 +61,4 @@ var BSTSequences = function(root) {
     let ret = dfs(root);
     return ret.length == 0 ? [[]] : ret;
 };
-```
+// ```

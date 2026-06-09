@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
@@ -29,4 +29,4 @@ public:
         return s;
     }
 };
-```
+// ```

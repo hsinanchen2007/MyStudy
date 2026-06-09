@@ -1,9 +1,9 @@
-### 解题思路
-复制数组解法，本来用Arrays的copy方法，但是用来复制二维数组只是复制了个引用
+// ### 解题思路
+// 复制数组解法，本来用Arrays的copy方法，但是用来复制二维数组只是复制了个引用
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
 
@@ -61,4 +61,4 @@ class Solution {
         }
     }
 }
-```
+// ```

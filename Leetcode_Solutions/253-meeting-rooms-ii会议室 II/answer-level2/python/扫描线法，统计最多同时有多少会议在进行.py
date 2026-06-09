@@ -1,9 +1,9 @@
-### 解题思路
-用扫描线法可以很容易得到该题的解。每当有会议加入时，meetings 加1， 每当有会议退出时，meetings 减1。求出meetings的最大值即可。
+# ### 解题思路
+# 用扫描线法可以很容易得到该题的解。每当有会议加入时，meetings 加1， 每当有会议退出时，meetings 减1。求出meetings的最大值即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minMeetingRooms(self, intervals):
         """
@@ -24,4 +24,4 @@ class Solution(object):
                 meetings -= 1
             rooms = max(rooms, meetings)
         return rooms
-```
+# ```

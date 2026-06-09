@@ -1,8 +1,8 @@
-基础不牢地动山摇，比赛的时候就这题没做出来，图的最小生成树，确实属于基础题。
+# 基础不牢地动山摇，比赛的时候就这题没做出来，图的最小生成树，确实属于基础题。
 
-![image.png](https://pic.leetcode-cn.com/a71ad6aba3de2aec2cdde03e8f7717998c6b287909dd83d51ad5a79071b1a316-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a71ad6aba3de2aec2cdde03e8f7717998c6b287909dd83d51ad5a79071b1a316-image.png)
 
-```
+# ```
 class Solution:
     def minimumCost(self, N: int, connections: List[List[int]]) -> int:
         p = [i for i in range(N + 1)]       #并查集初始化
@@ -25,4 +25,4 @@ class Solution:
                 p[px] = py
 
         return -1
-```
+# ```

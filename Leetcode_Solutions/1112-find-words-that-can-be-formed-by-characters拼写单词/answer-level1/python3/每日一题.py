@@ -1,9 +1,9 @@
-### 解题思路
-如代码中的注释：
+# ### 解题思路
+# 如代码中的注释：
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         # 计数工具
@@ -27,4 +27,4 @@ class Solution:
         # 返回所有字符数
         return len_word
                 
-```
+# ```

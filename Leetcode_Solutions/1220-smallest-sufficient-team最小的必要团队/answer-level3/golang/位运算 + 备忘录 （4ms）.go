@@ -1,13 +1,13 @@
-# 3种方式解决方式
-1. 位运算+动态规划
-1. 位运算+回溯
-1. 位运算+备忘录
+// # 3种方式解决方式
+// 1. 位运算+动态规划
+// 1. 位运算+回溯
+// 1. 位运算+备忘录
 
-前两种其他题解已经涉及了，这里就说下第3种，也可查看: [最小的必要团队](https://github.com/zywaited/leetcode/tree/master/1101_1150/1125)(3种方式都有实现)，第3种原始逻辑，比回溯效率快，比优化后的回溯慢，但是优化后非常快。
+// 前两种其他题解已经涉及了，这里就说下第3种，也可查看: [最小的必要团队](https://github.com/zywaited/leetcode/tree/master/1101_1150/1125)(3种方式都有实现)，第3种原始逻辑，比回溯效率快，比优化后的回溯慢，但是优化后非常快。
 
-## 优化点：
-1. 去除可以被替代的人员
-```
+// ## 优化点：
+// 1. 去除可以被替代的人员
+// ```
 // ps 代表各人员的技能
 for i := 0; i < pl; i++ {
 	for j := i + 1; j < pl; j++ {
@@ -23,9 +23,9 @@ for i := 0; i < pl; i++ {
 		}
 	}
 }
-```
-2. 找到独有技能的人员
-```
+// ```
+// 2. 找到独有技能的人员
+// ```
 // sp 代表各技能的人员详情
 // cs 当前已找到的技能
 // cp 找到的独有技能人员
@@ -38,13 +38,13 @@ for _, p := range sp {
 	cs |= ps[p[0]]
 	ps[p[0]] = 0
 }
-```
+// ```
 
-## 备忘录
-- 每次查找只需要知道当前已经找到那些技能，还差哪些技能，直到一个人能满足差的技能
-- 最终判断逻辑： dp[x|y] = min(dp[x|y], dp[x]+dp[y])
--
-```
+// ## 备忘录
+// - 每次查找只需要知道当前已经找到那些技能，还差哪些技能，直到一个人能满足差的技能
+// - 最终判断逻辑： dp[x|y] = min(dp[x|y], dp[x]+dp[y])
+// -
+// ```
 // 无技能或者被包含
 if ps[j] == 0 || now != 0 && ps[j]|now == now {
 	continue
@@ -61,10 +61,10 @@ if len(tmp) == 0 || len(mp[need]) != 0 && len(tmp) >= len(mp[need])-1 {
 	continue
 }
 mp[need] = append([]int{j}, tmp...)
-```
+// ```
 
-## 完整代码
-```
+// ## 完整代码
+// ```
 func smallestSufficientTeam(skills []string, people [][]string) []int {
 	// 技能点位置
 	skillIndex := make(map[string]uint)
@@ -152,5 +152,5 @@ func smallestSufficientTeam(skills []string, people [][]string) []int {
 	// 优化后只要找到除cp的其他人
 	return append(cp, dp(-1, cs, cs^fs)...)
 }
-```
+// ```
 

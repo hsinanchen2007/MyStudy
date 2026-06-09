@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int myAtoi(String str) {
         //先去掉开头的空格字符
@@ -45,5 +45,5 @@ class Solution {
         return 0;
     }
 }
-```
+// ```
 

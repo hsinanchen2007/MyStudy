@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-二分法，保证left为正确，保证right为错误，当两者相邻时返回right。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 二分法，保证left为正确，保证right为错误，当两者相邻时返回right。
+// ### 代码
 
-```cpp
+// ```cpp
 // Forward declaration of isBadVersion API.
 bool isBadVersion(int version);
 
@@ -30,4 +30,4 @@ public:
       
     
 };
-```
+// ```

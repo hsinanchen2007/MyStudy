@@ -1,9 +1,9 @@
-### 解题思路
-遍历对比，和下一个元素相同就删除
+// ### 解题思路
+// 遍历对比，和下一个元素相同就删除
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func removeDuplicates(nums []int) int {
     var i int
 	for i<len(nums)-1{
@@ -15,4 +15,4 @@ func removeDuplicates(nums []int) int {
 	}
 	return len(nums)
 }
-```
+// ```

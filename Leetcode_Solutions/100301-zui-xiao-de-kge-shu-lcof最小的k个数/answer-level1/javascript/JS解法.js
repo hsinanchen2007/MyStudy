@@ -1,7 +1,7 @@
 
-## 一、普通排序(快速排序也可)
+// ## 一、普通排序(快速排序也可)
 
-```javascript
+// ```javascript
  
 var getLeastNumbers = function(arr, k) {
      arr.sort((a,b) => a-b)
@@ -11,13 +11,13 @@ var getLeastNumbers = function(arr, k) {
      }
      return result
 }; 
-```
-时间复杂度：O(nlog(n))
-空间复杂度：O(k)
+// ```
+// 时间复杂度：O(nlog(n))
+// 空间复杂度：O(k)
 
-## 二、选择排序的部分排序
+// ## 二、选择排序的部分排序
 
-```javascript
+// ```javascript
 
 var getLeastNumbers = function(arr, k) {
     let result = []
@@ -35,6 +35,6 @@ var getLeastNumbers = function(arr, k) {
     }
     return result
 };
-```
-时间复杂度：O(n*k)
-空间复杂度：O(k)
+// ```
+// 时间复杂度：O(n*k)
+// 空间复杂度：O(k)

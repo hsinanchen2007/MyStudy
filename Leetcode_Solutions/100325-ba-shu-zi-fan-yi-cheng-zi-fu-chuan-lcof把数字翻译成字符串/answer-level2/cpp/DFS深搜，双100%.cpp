@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int translateNum(int num) {
@@ -30,4 +30,4 @@ private:
     int ans = 0;
     int len = 0;
 };
-```
+// ```

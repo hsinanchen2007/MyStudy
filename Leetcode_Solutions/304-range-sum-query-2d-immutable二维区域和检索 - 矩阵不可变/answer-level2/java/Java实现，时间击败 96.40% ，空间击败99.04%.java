@@ -1,23 +1,23 @@
-### 解题思路
-因为是一个固定的矩阵，可以考虑先将所有结果初始化一次，假设从0,0开始，到每一个格子col,row的和可以拆解为4部分：
-第一部分：0,0到row,col-1
-第二部分：0,0到row-1,col
-第三部分：由于前两部分重复计算了从0,0到row-1与col-1的和，所以需要把这个重复部分减掉
-第四部分：加上此刻matrix[row][col]的值
-所以考虑转态转移方程为：dp[row][col] = dp[row][col-1] + dp[row-1][col] - dp[row-1][col-1] + matrix[row][col]  (当然需要考虑边界情况，row==0或者col==0的情况);
+// ### 解题思路
+// 因为是一个固定的矩阵，可以考虑先将所有结果初始化一次，假设从0,0开始，到每一个格子col,row的和可以拆解为4部分：
+// 第一部分：0,0到row,col-1
+// 第二部分：0,0到row-1,col
+// 第三部分：由于前两部分重复计算了从0,0到row-1与col-1的和，所以需要把这个重复部分减掉
+// 第四部分：加上此刻matrix[row][col]的值
+// 所以考虑转态转移方程为：dp[row][col] = dp[row][col-1] + dp[row-1][col] - dp[row-1][col-1] + matrix[row][col]  (当然需要考虑边界情况，row==0或者col==0的情况);
 
-初始化完成后，剩下的就比较简单了，从任意row,col到row1,col1的和可以拆解为0,0到row1,col1 减去多余的部分
-1.0,0到row1-1,col
-2.0,0到row,col-1
-3.将减去的重复部分0,0到row-1,col-1加上即可
-![image.png](https://pic.leetcode-cn.com/f81edd67b085e17d9ea8e19f97a9166285d0d2f5c761938302bce33286d119b8-image.png)
-图中灰色 - 黄色 - 绿色 + 红色 即为所求的青色的和 
+// 初始化完成后，剩下的就比较简单了，从任意row,col到row1,col1的和可以拆解为0,0到row1,col1 减去多余的部分
+// 1.0,0到row1-1,col
+// 2.0,0到row,col-1
+// 3.将减去的重复部分0,0到row-1,col-1加上即可
+// ![image.png](https://pic.leetcode-cn.com/f81edd67b085e17d9ea8e19f97a9166285d0d2f5c761938302bce33286d119b8-image.png)
+// 图中灰色 - 黄色 - 绿色 + 红色 即为所求的青色的和 
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class NumMatrix {
     int[][] matrix;
 	int[][] dp;
@@ -73,4 +73,4 @@ class NumMatrix {
  * NumMatrix obj = new NumMatrix(matrix);
  * int param_1 = obj.sumRegion(row1,col1,row2,col2);
  */
-```
+// ```

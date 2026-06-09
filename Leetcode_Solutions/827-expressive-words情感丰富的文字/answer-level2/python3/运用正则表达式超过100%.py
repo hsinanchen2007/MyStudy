@@ -1,6 +1,6 @@
-![7430eca50813137eacafa5af77514c0.jpg](https://pic.leetcode-cn.com/c76c68723b360b178bcdd005ce8c157126af94f66ba66834609306c4b3346eb1-7430eca50813137eacafa5af77514c0.jpg)
-本题用正则表达式匹配，应该是最快的。代码如下：
-```python []
+# ![7430eca50813137eacafa5af77514c0.jpg](https://pic.leetcode-cn.com/c76c68723b360b178bcdd005ce8c157126af94f66ba66834609306c4b3346eb1-7430eca50813137eacafa5af77514c0.jpg)
+# 本题用正则表达式匹配，应该是最快的。代码如下：
+# ```python []
 import re  # use re module to process regular expression matching problems
 
 
@@ -23,4 +23,4 @@ class Solution:
             if re.match(pattern, word):
                 res += 1 # use regular expression to match word in words one by one
         return res
-```
+# ```

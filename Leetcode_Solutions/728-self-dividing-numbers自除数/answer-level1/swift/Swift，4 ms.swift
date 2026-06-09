@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func selfDividingNumbers(_ left: Int, _ right: Int) -> [Int] {
         var ans = [Int]()
@@ -20,4 +20,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

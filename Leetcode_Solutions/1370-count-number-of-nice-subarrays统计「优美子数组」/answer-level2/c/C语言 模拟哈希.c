@@ -1,5 +1,5 @@
-C语言 模拟哈希hashCount表示左边有i个奇数的位置的个数
-```
+// C语言 模拟哈希hashCount表示左边有i个奇数的位置的个数
+// ```
 
 int numberOfSubarrays(int* nums, int numsSize, int k){
     int* hashCount = (int*)malloc(sizeof(int) * (numsSize + 1));
@@ -20,4 +20,4 @@ int numberOfSubarrays(int* nums, int numsSize, int k){
     }
     return ans;
 }
-```
+// ```

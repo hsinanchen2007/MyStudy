@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/529f15aaa9356eb692cd4034a1ce9a9be8a8c908a184c1779c76829532c742b7-image.png)
-这个题目和46是一样的，只是多了去重的步骤，专业名词叫“剪枝”
-直接看代码吧，注释写在代码里，希望各位大佬多多提可以改进的意见
-```
+// ![image.png](https://pic.leetcode-cn.com/529f15aaa9356eb692cd4034a1ce9a9be8a8c908a184c1779c76829532c742b7-image.png)
+// 这个题目和46是一样的，只是多了去重的步骤，专业名词叫“剪枝”
+// 直接看代码吧，注释写在代码里，希望各位大佬多多提可以改进的意见
+// ```
 var permuteUnique = function(nums) {
     // 递归回溯算法，依次取aries里面的值，放到temp中，当aries为空的时候，则找到了一种解法
     var backstack = function( aries, temp ) {
@@ -34,4 +34,4 @@ var permuteUnique = function(nums) {
     backstack( nums, [] ); // 执行回溯算法
     return res;
 };
-```
+// ```

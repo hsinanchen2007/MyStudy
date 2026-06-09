@@ -1,8 +1,8 @@
 
-思路都写注释里了，看一下就懂了
+// 思路都写注释里了，看一下就懂了
 
 
-```
+// ```
 // 求最小窗口
 int min(int x, int y, int *ml, int *mr, int l, int r){
     if(y < x){
@@ -59,4 +59,4 @@ char * minWindow(char * s, char * t){
     result[mw] = '\0';
     return result;
 }
-```
+// ```

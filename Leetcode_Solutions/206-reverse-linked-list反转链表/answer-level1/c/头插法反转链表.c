@@ -1,6 +1,6 @@
-### 解题思路
-头插法建表
-### 代码
+// ### 解题思路
+// 头插法建表
+// ### 代码
 /**
  * Definition for singly-linked list.
  * struct ListNode {

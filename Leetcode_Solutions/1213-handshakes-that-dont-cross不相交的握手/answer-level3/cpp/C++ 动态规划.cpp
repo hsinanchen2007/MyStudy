@@ -1,11 +1,11 @@
-## 思路
-依次求解2~num_people
-设 当前求解的是k
-相比于求解k - 2时，增加的节点号是k - 1和k
-依次将k节点两个一跳依次指向1~(k - 1)，设指定的节点为i
-每次i的位置可以将图分割为i - 1和 k - i - 1 个数的两个子图
+// ## 思路
+// 依次求解2~num_people
+// 设 当前求解的是k
+// 相比于求解k - 2时，增加的节点号是k - 1和k
+// 依次将k节点两个一跳依次指向1~(k - 1)，设指定的节点为i
+// 每次i的位置可以将图分割为i - 1和 k - i - 1 个数的两个子图
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOfWays(int num_people) {
@@ -24,4 +24,4 @@ public:
         return dp[num_people];
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def longestPalindromeSubseq(s: String): Int = {
     val dp = Array.fill(s.length, s.length)(0)
@@ -9,4 +9,4 @@ object Solution {
     dp(0)(s.length - 1)
   }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-要考虑的情况会多一点
+// ### 解题思路
+// 要考虑的情况会多一点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int numDecodings(String s) {
 
@@ -51,4 +51,4 @@ return 0;
 		return (int) (dp[s.length()] % mod);
 	}
 }
-```
+// ```

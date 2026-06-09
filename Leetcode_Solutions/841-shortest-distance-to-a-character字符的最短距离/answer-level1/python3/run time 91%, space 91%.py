@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def shortestToChar(self, S: str, C: str) -> List[int]:
         here = [i for i,j in enumerate(S) if j == C]

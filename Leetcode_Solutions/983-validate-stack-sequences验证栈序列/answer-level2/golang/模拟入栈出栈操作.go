@@ -1,4 +1,4 @@
-```
+// ```
 func validateStackSequences(pushed []int, popped []int) bool {
     if len(popped)!=len(pushed){
         return false
@@ -22,4 +22,4 @@ func validateStackSequences(pushed []int, popped []int) bool {
     }
     return true
 }
-```
+// ```

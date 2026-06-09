@@ -1,13 +1,13 @@
-### 解题思路
-```text
+// ### 解题思路
+// ```text
 1. 增加辅助数组，记录需要修改值的位置
 2. 判断当前元素周围存活的细胞个数，然后根据题意判断是否需要变更值
 3. 遍历到最后，一次性修改所有位置的值
-```
+// ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
         // 处理边界条件
@@ -75,10 +75,10 @@ class Solution {
     }
 }
 
-```
+// ```
 
-### 测试用例
-```java
+// ### 测试用例
+// ```java
 public class SolutionTest {
     Solution solution = new Solution();
 
@@ -90,4 +90,4 @@ public class SolutionTest {
         assertArrayEquals(input1, expect1);
     }
 }
-```
+// ```

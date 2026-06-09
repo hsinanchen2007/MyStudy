@@ -1,8 +1,8 @@
-建立字典干就完事
+# 建立字典干就完事
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rankTeams(self, votes: List[str]) -> str:
         if list(votes) == 1:
@@ -18,4 +18,4 @@ class Solution:
         for i in rank:
             result += i[0]
         return result
-```
+# ```

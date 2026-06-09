@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         re=[
@@ -12,4 +12,4 @@ class Solution:
             re.append(tmp)
         return re
         
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def selfDividingNumbers(self, left: int, right: int) -> List[int]:
         res = []
@@ -12,4 +12,4 @@ class Solution:
             if ans:
                 res.append(i)
         return res
-```
+# ```

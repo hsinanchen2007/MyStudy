@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-以指向十二为起点，分别算出时针和分针，然后再相减，再判断结果与180的大小，最后返回就完事了
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 以指向十二为起点，分别算出时针和分针，然后再相减，再判断结果与180的大小，最后返回就完事了
+// ### 代码
 
-```c
+// ```c
 double angleClock(int hour, int minutes){
     hour = hour * 5 % 60;
     double a = minutes * 6;
@@ -14,4 +14,4 @@ double angleClock(int hour, int minutes){
     else
     return 360-ans;
 }
-```
+// ```

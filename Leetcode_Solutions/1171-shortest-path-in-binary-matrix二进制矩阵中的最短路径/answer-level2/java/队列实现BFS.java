@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/1aa4d9cb2678aff422a0563719e9719a54651506e9838ff597e241378ca87042-image.png)
-广度优先搜索算法:按照离右下角的距离从小到大开始搜索，最先到达grid[0][0]的长度即为答案
-```
+// ![image.png](https://pic.leetcode-cn.com/1aa4d9cb2678aff422a0563719e9719a54651506e9838ff597e241378ca87042-image.png)
+// 广度优先搜索算法:按照离右下角的距离从小到大开始搜索，最先到达grid[0][0]的长度即为答案
+// ```
 class Solution {
     public int shortestPathBinaryMatrix(int[][] grid) {
         int i, j , length, N;
@@ -41,4 +41,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-力扣很不稳定，一会儿超90%+一会儿超80%+，但100ms左右是没问题的
-```python
+# 力扣很不稳定，一会儿超90%+一会儿超80%+，但100ms左右是没问题的
+# ```python
     def findLadders(self, beginWord: str, endWord: str, wordList: list) -> list:
         wordList = set(wordList)  # 转换为hash实现O(1)的in判断
         if endWord not in wordList:
@@ -29,4 +29,4 @@
                 break
             forward = tmp  # 更新前向分支
         return res
-```
+# ```

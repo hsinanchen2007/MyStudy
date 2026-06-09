@@ -1,5 +1,5 @@
-我本来这么写的
-```
+// 我本来这么写的
+// ```
 public boolean isValidSudoku(char[][] board) {
     Set<Character> set = new HashSet<>();
     for (int i = 0; i <9 ; i++) {
@@ -26,10 +26,10 @@ public boolean isValidSudoku(char[][] board) {
     }
     return true;
 }
-```
-然后我觉得set不太好
-所以我就这么写了
-```
+// ```
+// 然后我觉得set不太好
+// 所以我就这么写了
+// ```
 public boolean isValidSudoku(char[][] board) {
     for (int i = 0; i <9 ; i++) {
         for (int j = 0; j <9 ; j++) {
@@ -62,5 +62,5 @@ public boolean isValidSudoku(char[][] board) {
     return true;
 }
 
-```
-可是为什么感觉没什么效果，额。。。
+// ```
+// 可是为什么感觉没什么效果，额。。。

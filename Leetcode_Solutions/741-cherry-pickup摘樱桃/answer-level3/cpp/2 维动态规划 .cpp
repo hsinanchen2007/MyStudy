@@ -1,8 +1,8 @@
-step 代表当前步数
-dp[i][j] 代表两个点分别在 grid[i][step-i]   和   grid[j][step-j]
-然后从后往前找    不用记录 step 的状态
+// step 代表当前步数
+// dp[i][j] 代表两个点分别在 grid[i][step-i]   和   grid[j][step-j]
+// 然后从后往前找    不用记录 step 的状态
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int cherryPickup(vector<vector<int>>& grid) {
@@ -33,4 +33,4 @@ public:
         return max(0, dp[N-1][N-1]);
     }
 };
-```
+// ```

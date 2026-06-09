@@ -1,9 +1,9 @@
-### 解题思路
-思路：先找到中间节点的前一个节点premid，然后用premid.next.val生成根节点,递归root.right=sortedListToBST（premid.next.next）, root.left=sortedListToBST（head）,注意找到的premid.next有可能为null，链表就剩一个节点，则只需要生成root。
+// ### 解题思路
+// 思路：先找到中间节点的前一个节点premid，然后用premid.next.val生成根节点,递归root.right=sortedListToBST（premid.next.next）, root.left=sortedListToBST（head）,注意找到的premid.next有可能为null，链表就剩一个节点，则只需要生成root。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -52,4 +52,4 @@ class Solution {
         return premid;
     }
 }
-```
+// ```

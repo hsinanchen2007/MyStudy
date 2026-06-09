@@ -1,9 +1,9 @@
-### 解题思路
-双指针 滑动窗口
+// ### 解题思路
+// 双指针 滑动窗口
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findLHS(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
         return rs;
     }
 };
-```
+// ```

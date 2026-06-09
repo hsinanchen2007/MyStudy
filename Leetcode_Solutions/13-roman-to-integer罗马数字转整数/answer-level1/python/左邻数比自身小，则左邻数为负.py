@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
     class Solution(object):
         def romanToInt(self, s):
             """
@@ -15,15 +15,15 @@
                 else:
                     sum+=map[s[i]]
             return sum
-```
+# ```
 
-执行用时 :
-32 ms
-, 在所有 Python 提交中击败了
-99.05%
-的用户
-内存消耗 :
-11.5 MB
-, 在所有 Python 提交中击败了
-34.77%
-的用户
+# 执行用时 :
+# 32 ms
+# , 在所有 Python 提交中击败了
+# 99.05%
+# 的用户
+# 内存消耗 :
+# 11.5 MB
+# , 在所有 Python 提交中击败了
+# 34.77%
+# 的用户

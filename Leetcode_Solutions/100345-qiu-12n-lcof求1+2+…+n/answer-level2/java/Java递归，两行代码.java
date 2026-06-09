@@ -1,10 +1,10 @@
-时间空间双百
+// 时间空间双百
 
-```java
+// ```java
 class Solution{
     public int sumNums(int n){
         if(n==1) return 1;
         return n + sumNums(n-1);
     }
 }
-```
+// ```

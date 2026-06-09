@@ -1,10 +1,10 @@
-### 解题思路
-1. 将每一个链表的首元素添加到优先队列中，key为Node的值
-2. poll()出值，将该链表的下一个元素添加到优先队列中
+// ### 解题思路
+// 1. 将每一个链表的首元素添加到优先队列中，key为Node的值
+// 2. poll()出值，将该链表的下一个元素添加到优先队列中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -53,4 +53,4 @@ class Solution {
     }
 }
 
-```
+// ```

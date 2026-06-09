@@ -1,4 +1,4 @@
-```php
+// ```php
 function getLeastNumbers($arr, $k) 
 {
     $n = count($arr);
@@ -6,4 +6,4 @@ function getLeastNumbers($arr, $k)
     sort($arr);
     return array_slice($arr, 0, $k);
 }
-```
+// ```

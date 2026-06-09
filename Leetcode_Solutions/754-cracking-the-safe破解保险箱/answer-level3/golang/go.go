@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"math"
 	"strconv"
@@ -23,4 +23,4 @@ func crackSafe(n int, k int) string {
 	}
 	return out
 }
-```
+// ```

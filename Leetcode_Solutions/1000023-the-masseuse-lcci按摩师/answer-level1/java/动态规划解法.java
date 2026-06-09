@@ -1,8 +1,8 @@
-假设F(N)为到数组下表N时的解，则
-N = 0时 F(0) = nums[0]
-N = 1时 F(1) = Max(nums[0],nums[1])
-N >= 2时 F(N) = Max(F(N-1),F(N-2) + nums[N])
-```
+// 假设F(N)为到数组下表N时的解，则
+// N = 0时 F(0) = nums[0]
+// N = 1时 F(1) = Max(nums[0],nums[1])
+// N >= 2时 F(N) = Max(F(N-1),F(N-2) + nums[N])
+// ```
 class Solution {
     public int massage(int[] nums) {
         if(nums == null || nums.length == 0){
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

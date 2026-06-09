@@ -6,7 +6,7 @@
 
 
 
-```
+-- ```
 SELECT login_date, COUNT(user_id) user_count FROM 
 
     (
@@ -22,6 +22,6 @@ GROUP BY login_date
 
 ORDER BY login_date
 
-```
+-- ```
 
 

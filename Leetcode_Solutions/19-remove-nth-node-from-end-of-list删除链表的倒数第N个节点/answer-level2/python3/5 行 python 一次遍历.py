@@ -1,4 +1,4 @@
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -12,5 +12,5 @@ class Solution:
         if n != len(l): l[-n-1].next = l[-n].next
         del l[-n]
         return l and l[0]
-```
-- 列表记录整个链表，换成队列记录最后几个可以把空间复杂度压到 O(1)
+# ```
+# - 列表记录整个链表，换成队列记录最后几个可以把空间复杂度压到 O(1)

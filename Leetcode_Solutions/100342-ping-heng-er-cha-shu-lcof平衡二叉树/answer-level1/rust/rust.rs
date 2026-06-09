@@ -1,9 +1,9 @@
-### 解题思路
-递归比较左右子树深度
+// ### 解题思路
+// 递归比较左右子树深度
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
 // pub struct TreeNode {
@@ -55,4 +55,4 @@ fn tree_dept(root: Option<&Rc<RefCell<TreeNode>>>) -> i32 {
     return 1 + left.max(right);
 }
 
-```
+// ```

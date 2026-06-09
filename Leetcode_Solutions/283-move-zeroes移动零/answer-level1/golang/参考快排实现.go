@@ -1,9 +1,9 @@
-### 解题思路
-参考快排，设置两个index， 从头遍历交换0值和非0值的index。
+// ### 解题思路
+// 参考快排，设置两个index， 从头遍历交换0值和非0值的index。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func moveZeroes(nums []int)  {
     i1,i2 := 0,0
     length := len(nums)
@@ -28,4 +28,4 @@ func moveZeroes(nums []int)  {
         i1++
     }
 }
-```
+// ```

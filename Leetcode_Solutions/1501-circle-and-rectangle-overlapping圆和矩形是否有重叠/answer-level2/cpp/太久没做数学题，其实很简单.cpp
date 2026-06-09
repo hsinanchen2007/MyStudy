@@ -1,6 +1,6 @@
-分类讨论一下圆心的位置，如果其垂线或水平线过矩形，那么两种情况。剩下一种情况是，四边形四个点是否在圆内，此时代入方程要是满足不等式则返回 true
+// 分类讨论一下圆心的位置，如果其垂线或水平线过矩形，那么两种情况。剩下一种情况是，四边形四个点是否在圆内，此时代入方程要是满足不等式则返回 true
 
-```c++
+// ```c++
 class Solution {
 public:
     bool checkOverlap(int r, int xc, int yc, int x1, int y1, int x2, int y2) {
@@ -25,4 +25,4 @@ public:
         return false;
     }
 };
-```
+// ```

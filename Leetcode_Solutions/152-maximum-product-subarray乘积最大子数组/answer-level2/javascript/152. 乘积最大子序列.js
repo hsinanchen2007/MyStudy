@@ -1,4 +1,4 @@
-```
+// ```
 var maxProduct = function(nums) {
         let max = Number.MIN_SAFE_INTEGER, imax = 1, imin = 1;
         for(let i=0,len=nums.length; i<len; i++){
@@ -14,4 +14,4 @@ var maxProduct = function(nums) {
         }
         return max;
     }
-```
+// ```

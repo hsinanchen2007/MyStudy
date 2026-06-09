@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def trap(self, height: List[int]) -> int:
         if not height:
@@ -20,4 +20,4 @@ class Solution:
             if height[idx] < curLeftMax and height[idx] < curRightMax:
                 count += min(curLeftMax, curRightMax) - height[idx]
         return count
-```
+# ```

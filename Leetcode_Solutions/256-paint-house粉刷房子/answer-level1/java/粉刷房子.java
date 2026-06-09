@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minCost(int[][] costs) {
         int len=costs.length;
@@ -21,4 +21,4 @@ class Solution {
         return Math.min(Math.min(dp[len-1][0],dp[len-1][1]),dp[len-1][2]);
     }
 }
-```
+// ```

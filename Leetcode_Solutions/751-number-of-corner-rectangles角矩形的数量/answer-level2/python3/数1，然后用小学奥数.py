@@ -1,9 +1,9 @@
-提到数1，就不得不想到位运算。
-思路是这样的：
-随便揪两行出来，位运算与一下，剩几个1，得到的矩形就有几条宽n
-这样的矩形中矩形总数=(n - 1) * n / 2
-那么就有代码：
-```python
+# 提到数1，就不得不想到位运算。
+# 思路是这样的：
+# 随便揪两行出来，位运算与一下，剩几个1，得到的矩形就有几条宽n
+# 这样的矩形中矩形总数=(n - 1) * n / 2
+# 那么就有代码：
+# ```python
 class Solution:
     def countCornerRectangles(self, grid: List[List[int]]) -> int:
         if not grid or not grid[0] or len(grid) == 1 or len(grid[0]) == 1:
@@ -21,10 +21,10 @@ class Solution:
                 else:
                     res += cnt * (cnt-1) // 2
         return res
-```
-很可惜，超时了。。。。
-翻了翻评论 @powcai 大佬思路是一样的，都是数1然后用公式算：
-```python
+# ```
+# 很可惜，超时了。。。。
+# 翻了翻评论 @powcai 大佬思路是一样的，都是数1然后用公式算：
+# ```python
 class Solution:
     def countCornerRectangles(self, grid: List[List[int]]) -> int:
         row = len(grid)
@@ -42,7 +42,7 @@ class Solution:
                         tmp += 1
                 res += tmp * (tmp - 1) // 2
         return res
-```
+# ```
 
-那么问题来了。。第一种方法为啥会超时_(:з」∠)_。。有大佬指点下吗。。。
-或者给个C++版本也是极好的
+# 那么问题来了。。第一种方法为啥会超时_(:з」∠)_。。有大佬指点下吗。。。
+# 或者给个C++版本也是极好的

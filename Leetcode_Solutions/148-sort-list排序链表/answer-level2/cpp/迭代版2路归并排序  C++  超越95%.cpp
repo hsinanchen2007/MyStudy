@@ -1,11 +1,11 @@
-### 解题思路
-![图片.png](https://pic.leetcode-cn.com/0cad8da3ffa66a9b806121548e20cff98d2ba2fb7c805f523a541ab57908ae3d-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// ![图片.png](https://pic.leetcode-cn.com/0cad8da3ffa66a9b806121548e20cff98d2ba2fb7c805f523a541ab57908ae3d-%E5%9B%BE%E7%89%87.png)
 
 
-迭代版2路归并排序，写了半天。。。。
-### 代码
+// 迭代版2路归并排序，写了半天。。。。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -155,4 +155,4 @@ public:
 	}
 
 };
-```
+// ```

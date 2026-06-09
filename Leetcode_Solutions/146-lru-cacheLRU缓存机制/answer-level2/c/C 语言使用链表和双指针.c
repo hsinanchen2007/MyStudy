@@ -1,45 +1,45 @@
-### 解题思路
-使用uthash 做哈希表 （实际上用两个数组也是可以的，但是需要分配的内存会比较大）
+// ### 解题思路
+// 使用uthash 做哈希表 （实际上用两个数组也是可以的，但是需要分配的内存会比较大）
 
-#### 需要注意的细节
+// #### 需要注意的细节
 
-1. 每次get一个元素,需要将该元素放到双向链表的最后，但是如果操作的元素刚好是最后一个，会导致链表为空，这里的处理是如果元素刚好在链表的最后，则不再操作。
+// 1. 每次get一个元素,需要将该元素放到双向链表的最后，但是如果操作的元素刚好是最后一个，会导致链表为空，这里的处理是如果元素刚好在链表的最后，则不再操作。
 
-#### 总结下uthash 的常用操作
+// #### 总结下uthash 的常用操作
 
-1. 定义结构体形式如下：
-    ```C
+// 1. 定义结构体形式如下：
+//     ```C
     struct UHASH {
         int key;                    /* key */
         struct Node* addr;
         UT_hash_handle hh;         /* makes this structure hashable */
     };
-    ```
-2. 查找元素
-    ```C
+//     ```
+// 2. 查找元素
+//     ```C
     struct UHASH *s = NULL;
     HASH_FIND_INT(obj->hash, &key, s); // 在obj->hash 里面，查找key为 key的元素。
     if(s == NULL) {
         return -1;
     }
-    ```
-3. 添加元素
-    ```C
+//     ```
+// 3. 添加元素
+//     ```C
     struct UHASH *s = (struct UHASH *)malloc(sizeof(struct UHASH));
     s->key = key;
     s->addr = obj->last;
     HASH_ADD_INT(obj->hash, key, s);
-    ```
-4. 删除元素
-    ```C
+//     ```
+// 4. 删除元素
+//     ```C
     void delete_user(struct my_struct *user) {
         HASH_DEL(users, user);  /* user: pointer to deletee */
         free(user);             /* optional; it's up to you! */
     }
-    ```
-### 代码
+//     ```
+// ### 代码
 
-```c
+// ```c
 struct Node {
     struct Node *next;
     struct Node *pre;
@@ -180,4 +180,4 @@ void lRUCacheFree(LRUCache* obj) {
  
  * lRUCacheFree(obj);
 */
-```
+// ```

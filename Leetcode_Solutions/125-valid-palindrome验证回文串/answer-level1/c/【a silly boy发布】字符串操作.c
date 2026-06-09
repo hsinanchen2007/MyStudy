@@ -1,6 +1,6 @@
-![8FE0DA78-7A72-4E1E-9C98-837482E1587F.jpeg](https://pic.leetcode-cn.com/37352249ea748072ce28301acf317bf55841c4b008ac5661173d50cc5688028c-8FE0DA78-7A72-4E1E-9C98-837482E1587F.jpeg)
+// ![8FE0DA78-7A72-4E1E-9C98-837482E1587F.jpeg](https://pic.leetcode-cn.com/37352249ea748072ce28301acf317bf55841c4b008ac5661173d50cc5688028c-8FE0DA78-7A72-4E1E-9C98-837482E1587F.jpeg)
 
-```
+// ```
 bool isPalindrome(char * s)
 {
     if (s == NULL) {
@@ -39,4 +39,4 @@ bool isPalindrome(char * s)
     }
     return true;
 }
-```
+// ```

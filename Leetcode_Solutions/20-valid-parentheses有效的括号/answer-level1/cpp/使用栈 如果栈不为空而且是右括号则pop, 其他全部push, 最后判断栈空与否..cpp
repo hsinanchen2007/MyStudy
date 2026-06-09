@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValid(string s) {
@@ -24,4 +24,4 @@ public:
         return charStack.empty();
     }
 };
-```
+// ```

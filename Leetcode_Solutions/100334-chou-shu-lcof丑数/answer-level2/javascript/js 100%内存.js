@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {number} n
  * @return {number}
@@ -15,4 +15,4 @@ var nthUglyNumber = function(n) {
     }
     return a.pop();
 };
-```
+// ```

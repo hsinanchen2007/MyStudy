@@ -1,4 +1,4 @@
-```
+// ```
     bool judge(const string &prefix, const string &target){
         vector<int> count(26,0);
         for(auto val : target) count[val-'a']++;
@@ -37,4 +37,4 @@
         }
         return ans;
     }
-```
+// ```

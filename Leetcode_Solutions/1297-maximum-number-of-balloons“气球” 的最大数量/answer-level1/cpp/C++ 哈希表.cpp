@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxNumberOfBalloons(string text) {
@@ -8,4 +8,4 @@ public:
         return min(min(min(min(times['b'], times['a']), times['l']/2), times['o'] / 2), times['n']);
     }
 };
-```
+// ```

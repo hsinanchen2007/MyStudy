@@ -1,9 +1,9 @@
-### 解题思路
-先计算出最大值
+// ### 解题思路
+// 先计算出最大值
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func printNumbers(n int) []int {
   var res []int
   maxNum:=9
@@ -16,4 +16,4 @@ func printNumbers(n int) []int {
   }
   return res
 }
-```
+// ```

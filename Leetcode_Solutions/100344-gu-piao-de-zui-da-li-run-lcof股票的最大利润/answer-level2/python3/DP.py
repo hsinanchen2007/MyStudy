@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if not prices:
@@ -10,5 +10,5 @@ class Solution:
             dp[index] = max_p[index+1] - prices[index]
             max_p[index] = max(max_p[index+1],prices[index])
         return max(dp)
-```
-让右边一直保持最大价格
+# ```
+# 让右边一直保持最大价格

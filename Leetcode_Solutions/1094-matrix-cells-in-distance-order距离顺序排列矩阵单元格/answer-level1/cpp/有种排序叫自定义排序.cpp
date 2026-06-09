@@ -1,4 +1,4 @@
-```
+// ```
 int cr, cy;
 bool cmp(vector<int>& p1, vector<int>& p2)
 {
@@ -19,4 +19,4 @@ public:
         return res;
     }
 };
-```
+// ```

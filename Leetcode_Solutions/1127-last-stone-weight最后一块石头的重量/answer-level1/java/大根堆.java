@@ -1,5 +1,5 @@
-首先创建大根堆，将最大值赋值给a，接着将stones[0]=0后再对堆进行调整为大根堆，将得到的最大值赋值给b，若a=b，则重新赋值stones[0]=0调整堆，否则赋值stones[0]=（a-b）调整堆;直到数组stones[1]和stones[2]值都为0时，返回stones[0]的值。
-```
+// 首先创建大根堆，将最大值赋值给a，接着将stones[0]=0后再对堆进行调整为大根堆，将得到的最大值赋值给b，若a=b，则重新赋值stones[0]=0调整堆，否则赋值stones[0]=（a-b）调整堆;直到数组stones[1]和stones[2]值都为0时，返回stones[0]的值。
+// ```
 class Solution {
     public int lastStoneWeight(int[] stones) {
         if(stones.length==1)return stones[0];
@@ -44,4 +44,4 @@ class Solution {
         a[i]=temp;                           //将temp放在最终的位置
     }
 }
-```
+// ```

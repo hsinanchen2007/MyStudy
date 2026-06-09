@@ -1,4 +1,4 @@
-刚开始想这样
+// 刚开始想这样
 var addTwoNumbers = function(l1, l2) {
         var arr1 = [];
         var arr2 = [];

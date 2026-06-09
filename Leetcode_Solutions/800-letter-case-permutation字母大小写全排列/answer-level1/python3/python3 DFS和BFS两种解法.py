@@ -1,7 +1,7 @@
-一、DFS
-递归方式实现。中间结果通过temp变量实现值传递；递归结束条件是指针i走到字符串S末尾，此时将结果temp添加到最终的res数组中即可。
+# 一、DFS
+# 递归方式实现。中间结果通过temp变量实现值传递；递归结束条件是指针i走到字符串S末尾，此时将结果temp添加到最终的res数组中即可。
 
-```python3
+# ```python3
 class Solution:
     def letterCasePermutation(self, S: str) -> List[str]:
         if not S:
@@ -19,11 +19,11 @@ class Solution:
         else:
             self.dfs(S,i+1,temp+S[i].lower())
             self.dfs(S,i+1,temp+S[i].upper())
-```
-二、BFS
-迭代方式实现。通过从左至右线性扫描字符串S，并将当前的所有可能结果更新到数组res中即可。
+# ```
+# 二、BFS
+# 迭代方式实现。通过从左至右线性扫描字符串S，并将当前的所有可能结果更新到数组res中即可。
 
-```python3
+# ```python3
 class Solution:
     def letterCasePermutation(self, S: str) -> List[str]:
         res=['']
@@ -38,4 +38,4 @@ class Solution:
                     temp.append(r+c.upper())
                 res=temp[:]
         return res
-```
+# ```

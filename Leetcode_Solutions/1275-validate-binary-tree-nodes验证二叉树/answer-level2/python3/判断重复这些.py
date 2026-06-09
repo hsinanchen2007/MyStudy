@@ -1,10 +1,10 @@
-### 解题思路
-最开始判断上一层的数量和这一层的数量，发现完全没有必要
-直接判断重复这些就可以了，把那三个例子的情况都写进if里面
+# ### 解题思路
+# 最开始判断上一层的数量和这一层的数量，发现完全没有必要
+# 直接判断重复这些就可以了，把那三个例子的情况都写进if里面
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def validateBinaryTreeNodes(self, n: int, leftChild: [int], rightChild: [int]) -> bool:
         if leftChild is None and rightChild is None:
@@ -39,4 +39,4 @@ class Solution:
             return True
 
 # 我把层数这个去掉居然通过了，我感觉这个题目出的有点问题呀，害我白想这么久
-```
+# ```

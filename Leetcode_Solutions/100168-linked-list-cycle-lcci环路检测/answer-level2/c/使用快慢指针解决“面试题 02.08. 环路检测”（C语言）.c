@@ -1,17 +1,17 @@
-### 解题思路
-经典的快慢指针问题，这里给出C的解法。
+// ### 解题思路
+// 经典的快慢指针问题，这里给出C的解法。
 
-1.设置快慢指针
+// 1.设置快慢指针
 
-2.找到第一次相遇
+// 2.找到第一次相遇
 
-3.再出发慢指针
+// 3.再出发慢指针
 
-4.相遇即所求
+// 4.相遇即所求
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -60,4 +60,4 @@ struct ListNode *detectCycle(struct ListNode *head) {
 
     return cur;
 }
-```
+// ```

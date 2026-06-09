@@ -1,20 +1,20 @@
-### 解题思路
-method 1:
-使用 NLOGN 的排序，再双指针遍历，遇到交集输出，且仅输出一次
-任意指针走完，都算循环结束
-T: 主要耗在排序上，O(NLOGN)
-S: O(1)
+// ### 解题思路
+// method 1:
+// 使用 NLOGN 的排序，再双指针遍历，遇到交集输出，且仅输出一次
+// 任意指针走完，都算循环结束
+// T: 主要耗在排序上，O(NLOGN)
+// S: O(1)
 
-method 2:
-简单哈希造表，遍历第一个数组，出现过，对应元素值作为哈希地址，哈希表置一
-遍历第二个表，对应哈希位置为 1，则输出，并清 0，确保输出一次
-典型的空间换时间，关键在于元素出现范围
-T: O(numsSize1 + numsSize2)
-S: O(M) M 为元素出现范围
+// method 2:
+// 简单哈希造表，遍历第一个数组，出现过，对应元素值作为哈希地址，哈希表置一
+// 遍历第二个表，对应哈希位置为 1，则输出，并清 0，确保输出一次
+// 典型的空间换时间，关键在于元素出现范围
+// T: O(numsSize1 + numsSize2)
+// S: O(M) M 为元素出现范围
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -89,4 +89,4 @@ int* intersection(int* nums1, int nums1Size, int* nums2, int nums2Size, int* ret
     returnSize[0] = length;
     return res;
 }
-```
+// ```

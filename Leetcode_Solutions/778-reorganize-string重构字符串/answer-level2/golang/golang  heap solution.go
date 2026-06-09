@@ -1,4 +1,4 @@
-```
+// ```
 func reorganizeString(s string) string {
 	size := len(s)
 	if size <= 1 {
@@ -67,4 +67,4 @@ func (h *IntHeap) Pop() interface{} {
 	return x
 }
 
-```
+// ```

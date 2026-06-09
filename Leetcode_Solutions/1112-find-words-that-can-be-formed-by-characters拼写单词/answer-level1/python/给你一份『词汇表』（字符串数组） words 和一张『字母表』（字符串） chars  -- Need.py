@@ -1,9 +1,9 @@
-### 解题思路
-1. 采用字典、hash表计数并比较； 没有什么技巧
+# ### 解题思路
+# 1. 采用字典、hash表计数并比较； 没有什么技巧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         nsize = len(chars)
@@ -41,4 +41,4 @@ class Solution:
             tmp.clear()
             f = True 
         return res 
-```
+# ```

@@ -1,6 +1,6 @@
-c++ 双指针。
-is_double函数判断是否重复。
-```
+// c++ 双指针。
+// is_double函数判断是否重复。
+// ```
 class Solution {
 private:
     bool is_double(string s,char c){
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

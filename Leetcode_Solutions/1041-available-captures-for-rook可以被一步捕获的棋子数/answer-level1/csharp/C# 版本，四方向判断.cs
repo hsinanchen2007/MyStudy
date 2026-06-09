@@ -1,9 +1,9 @@
-### 解题思路
-找到R然后四个方向上判断，一会看看大牛的写法是怎么写的去
+// ### 解题思路
+// 找到R然后四个方向上判断，一会看看大牛的写法是怎么写的去
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int NumRookCaptures(char[][] board) {
             int res =0;
@@ -79,4 +79,4 @@ public class Solution {
             return res;
     }
 }
-```
+// ```

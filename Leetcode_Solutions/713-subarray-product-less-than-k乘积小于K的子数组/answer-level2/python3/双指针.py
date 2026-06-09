@@ -1,6 +1,6 @@
-进行一次循环，同时遍历left和right，right每往右一位就乘，left每往右一位就除，过程中累计不大于k的res。即在left右移时不要刷新mul乘积，而是除以去掉的left，这样能保证不浪费之前得出的乘积结果。
+# 进行一次循环，同时遍历left和right，right每往右一位就乘，left每往右一位就除，过程中累计不大于k的res。即在left右移时不要刷新mul乘积，而是除以去掉的left，这样能保证不浪费之前得出的乘积结果。
 
-```
+# ```
 class Solution:
     def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int:
         if k<=1:
@@ -22,7 +22,7 @@ class Solution:
                 mul/=nums[left]
                 left+=1
         return res
-```
+# ```
 
     
 

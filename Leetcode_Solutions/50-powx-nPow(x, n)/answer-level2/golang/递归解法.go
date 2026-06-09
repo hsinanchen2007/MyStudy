@@ -1,4 +1,4 @@
-```
+// ```
 func myPow(x float64, n int) float64 {
 	if n == 0 {
 		return 1
@@ -11,4 +11,4 @@ func myPow(x float64, n int) float64 {
 	return myPow(x*x, n/2)
 }
 
-```
+// ```

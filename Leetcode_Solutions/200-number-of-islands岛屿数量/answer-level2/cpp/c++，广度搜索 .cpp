@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![截图.PNG](https://pic.leetcode-cn.com/19735aac7227904a3091a281d86eacd56c6529280088b73d14e3ecb2070fff67-%E6%88%AA%E5%9B%BE.PNG)
+// ### 解题思路
+// 此处撰写解题思路
+// ![截图.PNG](https://pic.leetcode-cn.com/19735aac7227904a3091a281d86eacd56c6529280088b73d14e3ecb2070fff67-%E6%88%AA%E5%9B%BE.PNG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {
@@ -43,4 +43,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-我哭了，你呢？
+// 我哭了，你呢？
 
 
 func gameOfLife(board [][]int)  {

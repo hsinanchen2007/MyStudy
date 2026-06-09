@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution(object):
     def massage(self, nums):
         """
@@ -19,4 +19,4 @@ class Solution(object):
         for i in range(2,len(nums)+2):
             dp.append(max(dp[i-2]+nums[i-2],dp[i-1]))
         return dp[-1]
-```
+# ```

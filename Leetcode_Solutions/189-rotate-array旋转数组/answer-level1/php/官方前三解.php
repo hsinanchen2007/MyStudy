@@ -1,6 +1,6 @@
-就是把官方代码用PHP敲了一遍。顺带理解一下，还是学java吧 php没人用了
+// 就是把官方代码用PHP敲了一遍。顺带理解一下，还是学java吧 php没人用了
 
-```
+// ```
 class Solution {
     //第一种暴力：翻转K次
     // function rotate(&$nums, $k) {
@@ -62,4 +62,4 @@ class Solution {
         }
     }
 }
-```
+// ```

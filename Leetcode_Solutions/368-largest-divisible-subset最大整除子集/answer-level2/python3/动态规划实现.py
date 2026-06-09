@@ -1,4 +1,4 @@
-```
+# ```
 def optimize(nums):
     if len(nums) == 0 or nums == None:
         return []
@@ -21,4 +21,4 @@ def optimize(nums):
             max_id = pre[max_id]
         # res = list(reversed(result))
         return result # 从大到小显示
-```
+# ```

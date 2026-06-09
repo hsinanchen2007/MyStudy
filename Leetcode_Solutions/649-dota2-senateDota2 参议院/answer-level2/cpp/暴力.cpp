@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-直接模拟就行了，反正是循环来的，禁前面和后面无所谓，直到只剩一方阵营为止
-### 代码
+// 直接模拟就行了，反正是循环来的，禁前面和后面无所谓，直到只剩一方阵营为止
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string predictPartyVictory(string senate) {
@@ -32,4 +32,4 @@ public:
         return senate[0]=='R'?"Radiant":"Dire";
     }
 };
-```
+// ```

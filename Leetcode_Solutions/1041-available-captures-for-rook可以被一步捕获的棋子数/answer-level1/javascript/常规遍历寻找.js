@@ -1,4 +1,4 @@
-```js
+// ```js
 var numRookCaptures = function(board) {
     //找到车的坐标，再依次遍历
     var x, y, flag = 0, res = 0;
@@ -59,4 +59,4 @@ var numRookCaptures = function(board) {
     }
     return res;
 };
-```
+// ```

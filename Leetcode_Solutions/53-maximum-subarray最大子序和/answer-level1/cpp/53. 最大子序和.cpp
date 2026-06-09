@@ -1,9 +1,9 @@
-动态规划和分治法待补充
+// 动态规划和分治法待补充
 
-贪心解法
+// 贪心解法
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

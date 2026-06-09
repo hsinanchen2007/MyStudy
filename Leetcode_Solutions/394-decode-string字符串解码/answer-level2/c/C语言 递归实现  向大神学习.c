@@ -1,4 +1,4 @@
-```
+// ```
 
 bool isDigit(char c)
 {
@@ -68,4 +68,4 @@ char * decodeString(char * s){
 
 
 
-```
+// ```

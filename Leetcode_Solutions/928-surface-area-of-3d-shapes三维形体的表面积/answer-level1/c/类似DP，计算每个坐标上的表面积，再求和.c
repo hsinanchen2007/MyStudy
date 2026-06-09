@@ -1,10 +1,10 @@
-### 解题思路
-1、dp[i][j] 表示当前坐标上的表面积
-2、dp[i][j] = grid[i][j] * 4 + 2 - grid[i-1][j] - grid[i+1][j] - grid[i][j-1] - grid[i][j+1]
-3、需要注意在减去每个面时，要按照最小的面进行相减；
-### 代码
+// ### 解题思路
+// 1、dp[i][j] 表示当前坐标上的表面积
+// 2、dp[i][j] = grid[i][j] * 4 + 2 - grid[i-1][j] - grid[i+1][j] - grid[i][j-1] - grid[i][j+1]
+// 3、需要注意在减去每个面时，要按照最小的面进行相减；
+// ### 代码
 
-```c
+// ```c
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
 
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
@@ -56,4 +56,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     free(dp);
     return sum;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-注意边界条件
+// ### 解题思路
+// 注意边界条件
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countSegments(String s) {
         if (s.isEmpty()) {
@@ -20,4 +20,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

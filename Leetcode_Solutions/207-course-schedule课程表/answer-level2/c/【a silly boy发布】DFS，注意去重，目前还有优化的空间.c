@@ -1,6 +1,6 @@
-![D7D584FF-6EA0-42AB-AA9B-31C841D9DAD8.jpeg](https://pic.leetcode-cn.com/3dac3bc4f5e6c4cac8ae3e34087a8f75c2a36e2d92a47cb4202481ccc407dada-D7D584FF-6EA0-42AB-AA9B-31C841D9DAD8.jpeg)
+// ![D7D584FF-6EA0-42AB-AA9B-31C841D9DAD8.jpeg](https://pic.leetcode-cn.com/3dac3bc4f5e6c4cac8ae3e34087a8f75c2a36e2d92a47cb4202481ccc407dada-D7D584FF-6EA0-42AB-AA9B-31C841D9DAD8.jpeg)
 
-```
+// ```
 int cmp(const void *a, const void *b)
 {
     int *tmpA = *(int **)a;
@@ -61,4 +61,4 @@ bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* 
 
     return true;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-官方的方法感觉好复杂，来个简单的
+# 官方的方法感觉好复杂，来个简单的
 
 
-```
+# ```
 class Solution:
     def generateK(self, dp, k):
         result = set()
@@ -29,4 +29,4 @@ class Solution:
 
         return dp[n]
 
-```
+# ```

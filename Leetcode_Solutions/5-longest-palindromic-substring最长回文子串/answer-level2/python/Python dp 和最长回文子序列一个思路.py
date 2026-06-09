@@ -1,9 +1,9 @@
-### 解题思路
-根据最长回文子序列那题的动态规划思路改的，直接把循环里面的逻辑简化一下就行。主要两个base case很关键。其他就套模板。
+# ### 解题思路
+# 根据最长回文子序列那题的动态规划思路改的，直接把循环里面的逻辑简化一下就行。主要两个base case很关键。其他就套模板。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestPalindrome(self, s):
         """
@@ -30,4 +30,4 @@ class Solution(object):
                     #print(maxx,maxy)
         return s[maxx : maxy+1]
 
-```
+# ```

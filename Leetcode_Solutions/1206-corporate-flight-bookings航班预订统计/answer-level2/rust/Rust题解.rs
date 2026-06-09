@@ -1,6 +1,6 @@
-前缀和一把过
-这题不应该有中等难度吧
-```
+// 前缀和一把过
+// 这题不应该有中等难度吧
+// ```
 impl Solution {
     pub fn corp_flight_bookings(bookings: Vec<Vec<i32>>, n: i32) -> Vec<i32> {
         let (mut v, mut res, mut sum) = (vec![0; n as usize + 2], vec![], 0);
@@ -15,4 +15,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

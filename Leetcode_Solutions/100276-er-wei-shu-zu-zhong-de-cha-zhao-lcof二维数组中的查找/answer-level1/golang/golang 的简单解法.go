@@ -1,11 +1,11 @@
-### 解题思路
-由于题目说明行与列的数值都是逐渐递增的，故直接将数值与左下角的数进行比对；
-如果目标数值比其小，则缩减矩阵一行；
-如果比其大，则针对该行进行比对，如果在该行找不到对应数值，则继续缩减矩阵
+// ### 解题思路
+// 由于题目说明行与列的数值都是逐渐递增的，故直接将数值与左下角的数进行比对；
+// 如果目标数值比其小，则缩减矩阵一行；
+// 如果比其大，则针对该行进行比对，如果在该行找不到对应数值，则继续缩减矩阵
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findNumberIn2DArray(matrix [][]int, target int) bool {
     len_row := len(matrix)-1
     i, j := len_row, 0
@@ -36,4 +36,4 @@ func findNumberIn2DArray(matrix [][]int, target int) bool {
 
     return false
 }
-```
+// ```

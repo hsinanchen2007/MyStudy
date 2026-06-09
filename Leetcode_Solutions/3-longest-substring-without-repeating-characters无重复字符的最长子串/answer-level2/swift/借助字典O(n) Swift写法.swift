@@ -1,6 +1,6 @@
-如果一个字母重复了 就从这个重复的字母下一个重新开始
+// 如果一个字母重复了 就从这个重复的字母下一个重新开始
 
-```
+// ```
     func lengthOfLongestSubstring(_ s: String) -> Int {
         let str = Array(s)
         let len = str.count
@@ -20,4 +20,4 @@
         }
         return res
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-对比矩形中心之间的（X向和Y向）距离和矩形边长之和*1/2的大小，就能判断是否重合了。
+# ### 解题思路
+# 对比矩形中心之间的（X向和Y向）距离和矩形边长之和*1/2的大小，就能判断是否重合了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
         results= False 
@@ -33,4 +33,4 @@ class Solution:
             results= True
 
         return results
-```
+# ```

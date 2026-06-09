@@ -1,9 +1,9 @@
-### 解题思路
-全在注释中  
- path_trace【i】【j】,到i j 位置上 有多少种不同的路径
-### 代码
+# ### 解题思路
+# 全在注释中  
+#  path_trace【i】【j】,到i j 位置上 有多少种不同的路径
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         if not obstacleGrid or obstacleGrid[0][0] == 1 or obstacleGrid[-1][-1] == 1:
@@ -38,4 +38,4 @@ class Solution:
                     path_trace[i][j] = 0
         return path_trace[-1][-1]
 
-```
+# ```

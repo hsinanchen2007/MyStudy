@@ -1,4 +1,4 @@
-```
+// ```
 func max(a, b int) int {
 	if a < b {
 		return b
@@ -27,4 +27,4 @@ func longestConsecutive(root *TreeNode) int {
 	return max(cal(root, 1)+cal(root, -1)+1,
 		max(longestConsecutive(root.Left), longestConsecutive(root.Right)))
 }
-```
+// ```

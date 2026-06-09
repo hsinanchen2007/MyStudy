@@ -1,9 +1,9 @@
-### 解题思路
-kmp算法中next 数组的构建基于有限状态机思想
+// ### 解题思路
+// kmp算法中next 数组的构建基于有限状态机思想
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //KMP算法
 
 int **KMP(char *pat){
@@ -44,4 +44,4 @@ int strStr(char * haystack, char * needle){
      }
      return -1;
 }
-```
+// ```

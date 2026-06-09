@@ -1,9 +1,9 @@
-## 点击播放
-[![点击播放](https://pic.leetcode-cn.com/97bc04e862a5734e93b8898460568d2b807d96bab87c7d473f6103fcdba139db-232%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.PNG)](https://www.bilibili.com/video/av86054613/)
+# ## 点击播放
+# [![点击播放](https://pic.leetcode-cn.com/97bc04e862a5734e93b8898460568d2b807d96bab87c7d473f6103fcdba139db-232%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.PNG)](https://www.bilibili.com/video/av86054613/)
 
 
 
-```
+# ```
 class MyQueue:
 
     def __init__(self):
@@ -54,7 +54,7 @@ class MyQueue:
             return True
         else:
             return False
-```
+# ```
 
-更多Leetcode刷题图解、大数据、机器学习、推荐系统方面资源分享，可以关注B站up主：[BigDataLook](https://space.bilibili.com/95630530)
+# 更多Leetcode刷题图解、大数据、机器学习、推荐系统方面资源分享，可以关注B站up主：[BigDataLook](https://space.bilibili.com/95630530)
 

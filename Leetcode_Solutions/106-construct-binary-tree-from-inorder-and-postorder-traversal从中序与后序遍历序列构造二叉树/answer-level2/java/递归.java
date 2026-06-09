@@ -1,6 +1,6 @@
-类似于105题的解法，
+// 类似于105题的解法，
 
-```
+// ```
 public TreeNode buildTree(int[] inorder, int[] postorder) {
         if (inorder == null || inorder.length == 0 || postorder == null || postorder.length == 0 || inorder.length != postorder.length) {
             return null;
@@ -24,4 +24,4 @@ public TreeNode buildTree(int[] inorder, int[] postorder) {
         head.right = help(inorder, inStart + index + 1, inEnd, postorder, posStart + index, posEnd - 1);
         return head;
     }
-```
+// ```

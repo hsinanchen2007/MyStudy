@@ -1,9 +1,9 @@
-### 解题思路
-数学
+// ### 解题思路
+// 数学
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
@@ -12,4 +12,4 @@ public:
     }
 };
 
-```
+// ```

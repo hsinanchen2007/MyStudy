@@ -1,9 +1,9 @@
-### 解题思路
-见注释，时间击败85.38%
+# ### 解题思路
+# 见注释，时间击败85.38%
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         #特殊情况处理
@@ -53,4 +53,4 @@ class Solution:
         
 
 
-```
+# ```

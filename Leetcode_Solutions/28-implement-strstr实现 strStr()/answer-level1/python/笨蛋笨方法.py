@@ -1,9 +1,9 @@
-### 解题思路
-直接拿字符串利用python的分割进行切割然后与目标值进行比较就好啦！
+# ### 解题思路
+# 直接拿字符串利用python的分割进行切割然后与目标值进行比较就好啦！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         a = len(needle)
@@ -13,4 +13,4 @@ class Solution:
                 return i
         return -1
 
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-需要注意最后一个有效0能否被复写
-### 代码
+# ### 解题思路
+# 需要注意最后一个有效0能否被复写
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def duplicateZeros(self, arr):
         left,right = 0,len(arr)-1
@@ -28,4 +28,4 @@ class Solution(object):
                 if count == len(arr) - 1 - right:
                     break
         return 
-```
+# ```

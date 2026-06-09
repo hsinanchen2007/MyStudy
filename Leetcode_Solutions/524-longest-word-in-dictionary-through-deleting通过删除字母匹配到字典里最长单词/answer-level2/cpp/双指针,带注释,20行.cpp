@@ -1,4 +1,4 @@
-```c++
+// ```c++
 public:
     string findLongestWord(string s, vector<string>& d) {
         int i,j;
@@ -21,4 +21,4 @@ public:
         }
         return best;
     }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-辗转相除法   先判断如果能被AB整除。那么字符串的第一个字符一定是A，末尾一定是B。
-两个字符串或者  n个字符串连起来一样满足   AB是其除数
+// ### 解题思路
+// 辗转相除法   先判断如果能被AB整除。那么字符串的第一个字符一定是A，末尾一定是B。
+// 两个字符串或者  n个字符串连起来一样满足   AB是其除数
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func gcdOfStrings(str1 string, str2 string) string {
 	if str1+str2 != str2+str1{
 		return ""
@@ -20,4 +20,4 @@ func gcd(a int,b int) int{
 		return gcd(b,a%b)
 	}
 }
-```
+// ```

@@ -1,16 +1,16 @@
-####  方法1：直接遍历
+# ####  方法1：直接遍历
 
-| 时间复杂度 | 空间复杂度 |
-| :--------: | :--------: |
-|   O(mn)    |   O(mn)    |
+# | 时间复杂度 | 空间复杂度 |
+# | :--------: | :--------: |
+# |   O(mn)    |   O(mn)    |
 
-**基本思路：**
+# **基本思路：**
 
-> 按题意遍历输出。
+# > 按题意遍历输出。
 
-**代码：**
+# **代码：**
 
-```python []
+# ```python []
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if not matrix:
@@ -41,4 +41,4 @@ class Solution:
             judge *= -1
 
         return ans
-```
+# ```

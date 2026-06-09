@@ -1,5 +1,5 @@
-贡献个题解，写的有点复杂
-```
+// 贡献个题解，写的有点复杂
+// ```
 #define MAX_SIZE 8501
 char g_Res[MAX_SIZE];
 char g_Tmp[MAX_SIZE];
@@ -64,4 +64,4 @@ char * smallestFromLeaf(struct TreeNode* root){
     rtnArr[len] = '\0';
     return rtnArr;
 }
-```
+// ```

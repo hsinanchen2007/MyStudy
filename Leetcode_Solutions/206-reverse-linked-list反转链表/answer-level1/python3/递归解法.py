@@ -1,9 +1,9 @@
-### 解题思路
-从尾至头，反转node的指针方向。
+# ### 解题思路
+# 从尾至头，反转node的指针方向。
 
 
-### 代码
-```python
+# ### 代码
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
         
         return res
 
-```
+# ```

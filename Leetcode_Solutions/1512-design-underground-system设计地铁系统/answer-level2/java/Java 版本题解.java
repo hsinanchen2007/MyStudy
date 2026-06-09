@@ -1,9 +1,9 @@
-> 51 / 51 个通过测试用例
-> 状态：通过
-> 执行用时：99 ms
-> 内存消耗：54.6 MB
+// > 51 / 51 个通过测试用例
+// > 状态：通过
+// > 执行用时：99 ms
+// > 内存消耗：54.6 MB
 
-```
+// ```
 import java.util.*;
 
 class UndergroundSystem {
@@ -61,4 +61,4 @@ class UndergroundSystem {
  * obj.checkOut(id,stationName,t);
  * double param_3 = obj.getAverageTime(startStation,endStation);
  */
-```
+// ```

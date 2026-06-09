@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针，sum 小于 target ，快指针向右移动。等于时慢指针为起始值，快指针为终止值。大于 target 快指针向右移动。
+// ### 解题思路
+// 快慢指针，sum 小于 target ，快指针向右移动。等于时慢指针为起始值，快指针为终止值。大于 target 快指针向右移动。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int[]> list = new ArrayList<>();
@@ -26,5 +26,5 @@ class Solution {
         return list.toArray(new int[0][]);
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/e800929777a7e22d7fc0a3748b37f64dc55ab0aefbbbb23cfe9edfcdd7139273-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e800929777a7e22d7fc0a3748b37f64dc55ab0aefbbbb23cfe9edfcdd7139273-image.png)

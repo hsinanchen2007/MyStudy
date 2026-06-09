@@ -1,10 +1,10 @@
-### 解题思路
-push：将数组长度位置的值设为x；
-pop：使用es6拓展运算符，得出第一个和后面的元素，返回第一个元素，更新数组为除了第一个元素外的其他元素组成的数组。
+// ### 解题思路
+// push：将数组长度位置的值设为x；
+// pop：使用es6拓展运算符，得出第一个和后面的元素，返回第一个元素，更新数组为除了第一个元素外的其他元素组成的数组。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -58,4 +58,4 @@ MyQueue.prototype.empty = function() {
  * var param_3 = obj.peek()
  * var param_4 = obj.empty()
  */
-```
+// ```

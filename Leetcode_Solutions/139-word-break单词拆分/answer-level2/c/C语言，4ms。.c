@@ -1,14 +1,14 @@
-### 解题思路
-算法思想就是动态规划，dp[i]的含义为s的前i个字母组成的子串是否可以被拆分为字典中的单词。
+// ### 解题思路
+// 算法思想就是动态规划，dp[i]的含义为s的前i个字母组成的子串是否可以被拆分为字典中的单词。
 
-大致思路：
-以“leetcode”为例，字典为“leet”和“code”，显然dp[4]为true,我们要的是dp[8] （即dp[sLen]）
-观察可知dp[8]可以由dp[4]和字典推导来，就是知道了dp[4]为true，从s+4开始，枚举看之后的单词是否能与
-字典匹配。语言比较苍白，直接看代码吧（附注释）
+// 大致思路：
+// 以“leetcode”为例，字典为“leet”和“code”，显然dp[4]为true,我们要的是dp[8] （即dp[sLen]）
+// 观察可知dp[8]可以由dp[4]和字典推导来，就是知道了dp[4]为true，从s+4开始，枚举看之后的单词是否能与
+// 字典匹配。语言比较苍白，直接看代码吧（附注释）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool wordBreak(char * s, char ** wordDict, int wordDictSize){
     int sLen = strlen(s);
     bool dp[sLen + 1];
@@ -32,4 +32,4 @@ bool wordBreak(char * s, char ** wordDict, int wordDictSize){
         printf("%d ", dp[i]); */
     return dp[sLen];
 }
-```
+// ```

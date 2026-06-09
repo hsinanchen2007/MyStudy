@@ -1,5 +1,5 @@
-**1.DFS**
-```java
+// **1.DFS**
+// ```java
     //后三个数字记录每个方向及可以连接的下一个街道的型号
     int[][] dires={{0,1,1,3,5},{1,0,2,5,6},{0,-1,1,4,6},{-1,0,2,3,4}};
     //记录每个街道哪些方向是通的
@@ -24,9 +24,9 @@
         }
         return false;
     }
-```
-**2.BFS**
-```java
+// ```
+// **2.BFS**
+// ```java
     public boolean hasValidPath(int[][] grid) {
         int m=grid.length, n=grid[0].length;
         boolean[][] reach=new boolean[m][n];
@@ -50,4 +50,4 @@
 
         return false;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-无奈自己写的代码就是无法通过所有的测试用例，参考了高赞的大佬，题目其实不难。
+// ### 解题思路
+// 无奈自己写的代码就是无法通过所有的测试用例，参考了高赞的大佬，题目其实不难。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
        if (prerequisites.length == 0)
@@ -38,4 +38,4 @@ class Solution {
         return cnt == numCourses;
     }
 }
-```
+// ```

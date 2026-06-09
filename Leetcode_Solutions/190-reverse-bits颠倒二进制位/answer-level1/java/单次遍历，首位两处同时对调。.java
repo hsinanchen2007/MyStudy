@@ -1,5 +1,5 @@
-先上代码```javascript []
-```
+// 先上代码```javascript []
+// ```
 public int reverseBits(int n) {
         int i = 0, j = 31, retVal = 0, temp;
         while (i < j) {
@@ -16,9 +16,9 @@ public int reverseBits(int n) {
         }
         return retVal;
     }
-```
-首先应该感谢leetcode大神的思路，阿弥陀佛！
+// ```
+// 首先应该感谢leetcode大神的思路，阿弥陀佛！
 
-1:取出尾处二进制位，移到首位
-2:取出首位二进制位，移到尾处
-夹逼遍历一次，首位完成对调。
+// 1:取出尾处二进制位，移到首位
+// 2:取出首位二进制位，移到尾处
+// 夹逼遍历一次，首位完成对调。

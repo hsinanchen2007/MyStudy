@@ -1,6 +1,6 @@
-参考别人的思路：
+// 参考别人的思路：
 
-```
+// ```
 import (
 	"container/list"
 	"sort"
@@ -48,4 +48,4 @@ func findItinerary(tickets [][]string) (rst []string) {
 	}
 	return
 }
-```
+// ```

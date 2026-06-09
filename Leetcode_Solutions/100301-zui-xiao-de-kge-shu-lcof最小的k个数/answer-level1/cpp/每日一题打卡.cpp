@@ -1,9 +1,9 @@
-### 解题思路
-Partition函数+二分的写法，很久不做有些生疏，第一次写的程序出现了3处低级错误。
+// ### 解题思路
+// Partition函数+二分的写法，很久不做有些生疏，第一次写的程序出现了3处低级错误。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -52,4 +52,4 @@ public:
         arr[right] = temp;
     }
 };
-```
+// ```

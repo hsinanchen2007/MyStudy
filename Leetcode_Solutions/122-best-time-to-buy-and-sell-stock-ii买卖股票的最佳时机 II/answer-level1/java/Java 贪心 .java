@@ -1,9 +1,9 @@
-假设从第一个元素开始买入
-然后计算在下一个元素卖出时的利润
-若在下一个元素时卖出的利润小于上一个元素卖出的利润
-那么最大利润应该包含上一个元素卖出时的利润
-最大利润是不断加入目前最大的利润
-```
+// 假设从第一个元素开始买入
+// 然后计算在下一个元素卖出时的利润
+// 若在下一个元素时卖出的利润小于上一个元素卖出的利润
+// 那么最大利润应该包含上一个元素卖出时的利润
+// 最大利润是不断加入目前最大的利润
+// ```
 class Solution {
     public int maxProfit(int[] prices) {
         if(prices.length==0) return 0;
@@ -35,6 +35,6 @@ class Solution {
         return total;
     }
 }
-```
-![QQ截图20200321004555.png](https://pic.leetcode-cn.com/b46e85da132fe08c9e0ec6cdc92603183c091dbf8b52a7a9350aa914c566cd32-QQ%E6%88%AA%E5%9B%BE20200321004555.png)
+// ```
+// ![QQ截图20200321004555.png](https://pic.leetcode-cn.com/b46e85da132fe08c9e0ec6cdc92603183c091dbf8b52a7a9350aa914c566cd32-QQ%E6%88%AA%E5%9B%BE20200321004555.png)
 

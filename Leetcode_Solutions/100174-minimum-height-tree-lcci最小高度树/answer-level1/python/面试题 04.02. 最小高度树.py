@@ -1,9 +1,9 @@
-### 解题思路
-**方法一、递归**
+# ### 解题思路
+# **方法一、递归**
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -27,10 +27,10 @@ class Solution(object):
         return constuct_tree(0,len(nums)-1,nums)
         
     
-```
-### 解题思路
-原则上也是递归，但是没有构造新函数
-```python
+# ```
+# ### 解题思路
+# 原则上也是递归，但是没有构造新函数
+# ```python
 class Solution(object):
     def sortedArrayToBST(self, nums):
         if not nums:return None
@@ -41,4 +41,4 @@ class Solution(object):
         return ans
         
     
-```
+# ```

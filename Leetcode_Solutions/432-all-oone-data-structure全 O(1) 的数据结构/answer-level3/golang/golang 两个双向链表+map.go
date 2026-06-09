@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //数据存储节点，相同value的构成一个双向链表
 type Node struct {
 	Key string
@@ -202,4 +202,4 @@ func (this *AllOne) GetMinKey() string {
  * param_3 := obj.GetMaxKey();
  * param_4 := obj.GetMinKey();
  */
-```
+// ```

@@ -1,5 +1,5 @@
-第一种， DP动态规划
-```
+# 第一种， DP动态规划
+# ```
 class Solution:
     def videoStitching(self, clips: List[List[int]], T: int) -> int:
         #dp[i] is the min clips number can cover the time 0-i
@@ -12,9 +12,9 @@ class Solution:
                     # 缩小问题范围，求覆盖 (0 - clip[0]) 区间的视频的最小片段数量 
                     dp[i] = min(dp[i], dp[ clip[0] ] + 1)
         return -1 if (dp[T] == float('inf')) else dp[T]
-```
-第二种， 贪心
-```
+# ```
+# 第二种， 贪心
+# ```
 class Solution:
     def videoStitching(self, clips: List[List[int]], T: int) -> int:
         n = len(clips)
@@ -31,5 +31,5 @@ class Solution:
             i = j - 1
             res += 1 
         return -1 if last_end < T else res
-```
+# ```
 

@@ -1,13 +1,13 @@
-### 解题思路
-root = TreeNode(preorder[0])
-root.left = self.buildTree(）
-root.right = self.buildTree(）
-return root
+# ### 解题思路
+# root = TreeNode(preorder[0])
+# root.left = self.buildTree(）
+# root.right = self.buildTree(）
+# return root
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution(object):
         return root
 
 
-```
+# ```

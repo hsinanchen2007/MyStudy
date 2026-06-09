@@ -1,12 +1,12 @@
-### 解题思路
-注意空位置的符号是 . 不是 , 
+// ### 解题思路
+// 注意空位置的符号是 . 不是 , 
 
-先查左右再查上下可加速
+// 先查左右再查上下可加速
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     //找出R在棋盘的位置
     int Rrow,Rcol,GotR=0;
@@ -55,4 +55,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
 
     return result;
 }
-```
+// ```

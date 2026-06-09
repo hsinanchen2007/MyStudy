@@ -1,11 +1,11 @@
-### 解题思路
-**二分法**
-使用二分法分别查找target的左侧边界和右侧边界，具体见代码。
-时间复杂度：$O(logn)$
-空间复杂度：$O(1)$
-### 代码
+// ### 解题思路
+// **二分法**
+// 使用二分法分别查找target的左侧边界和右侧边界，具体见代码。
+// 时间复杂度：$O(logn)$
+// 空间复杂度：$O(1)$
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -62,4 +62,4 @@ public:
             return -1;
     }
 };
-```
+// ```

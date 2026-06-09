@@ -1,11 +1,11 @@
-执行用时 :5 ms,在所有 java 提交中击败100.00%的用户
-内存消耗 :36.5 MB,在所有 java 提交中击败了100.00%的用户
+// 执行用时 :5 ms,在所有 java 提交中击败100.00%的用户
+// 内存消耗 :36.5 MB,在所有 java 提交中击败了100.00%的用户
 
-+ 利用递归一层层解析
-+ 利用哈希表记录变量，每层独立的哈希表(继承上一层的哈希表数据)模拟作用域
+// + 利用递归一层层解析
+// + 利用哈希表记录变量，每层独立的哈希表(继承上一层的哈希表数据)模拟作用域
 
-代码如下：
-```
+// 代码如下：
+// ```
     public int evaluate(String expression) {
         return slove(expression,new HashMap<>());
     }
@@ -72,4 +72,4 @@
         if(pre<strs.length)res.add(new String(strs,pre,strs.length-pre));
         return res.toArray(new String[res.size()]);
     }
-```
+// ```

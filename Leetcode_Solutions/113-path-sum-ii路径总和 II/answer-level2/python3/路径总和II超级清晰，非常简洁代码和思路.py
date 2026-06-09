@@ -1,11 +1,11 @@
-### 解题思路
-路径总和II
-基本思路和路径综合I一样
-调用函数找路径就几行
-把所有路径找出来，然后把叶节点，和sum==0的找出来加入li中
-### 代码
+# ### 解题思路
+# 路径总和II
+# 基本思路和路径综合I一样
+# 调用函数找路径就几行
+# 把所有路径找出来，然后把叶节点，和sum==0的找出来加入li中
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
                 find(root.right,sum,path+[root.val])
         find(root,sum,[])
         return li
-```
+# ```

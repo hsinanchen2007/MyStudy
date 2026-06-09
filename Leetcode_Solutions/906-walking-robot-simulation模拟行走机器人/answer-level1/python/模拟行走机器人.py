@@ -1,9 +1,9 @@
-### 解题思路
-程序详解
+# ### 解题思路
+# 程序详解
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def robotSim(self, commands, obstacles):
         #机器人行走方向可以由如下列表表示
@@ -29,4 +29,4 @@ class Solution(object):
                         y += dir[d][1]
                         ans = max(ans,x**2 + y**2)     
         return ans
-```
+# ```

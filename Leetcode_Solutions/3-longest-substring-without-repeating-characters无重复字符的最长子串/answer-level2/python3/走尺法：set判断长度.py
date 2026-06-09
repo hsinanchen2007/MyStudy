@@ -1,10 +1,10 @@
-### 解题思路
-走尺法，start 是头，Length 是长度  只要Start+length 不超出字符长度就一直走下去，判断可以扩展的时候
-length+1,不能扩招就Start+1
+# ### 解题思路
+# 走尺法，start 是头，Length 是长度  只要Start+length 不超出字符长度就一直走下去，判断可以扩展的时候
+# length+1,不能扩招就Start+1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         if s == "":
@@ -17,4 +17,4 @@ class Solution:
             else:#不能扩   开始点就走一步
                 start += 1
         return length
-```
+# ```

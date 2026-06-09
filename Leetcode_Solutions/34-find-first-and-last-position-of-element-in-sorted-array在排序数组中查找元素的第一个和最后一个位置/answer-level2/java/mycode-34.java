@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int i = Arrays.binarySearch(nums, target);
@@ -30,4 +30,4 @@ class Solution {
         return new int[]{-1,-1};
     }
 }
-```
+// ```

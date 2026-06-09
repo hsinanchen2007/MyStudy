@@ -1,4 +1,4 @@
-先排序，再从左到右一个一个调整
+# 先排序，再从左到右一个一个调整
 def minIncrementForUnique(self, A):
 
         A.sort()

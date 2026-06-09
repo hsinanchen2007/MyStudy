@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var myAtoi = function(str) {
     str = str.replace(/^\s+/, '').replace(/\s+$/, '')
     let num = parseInt(str)
@@ -12,4 +12,4 @@ var myAtoi = function(str) {
         return Math.max(num, -Math.pow(2,31))
     }
 };
-```
+// ```

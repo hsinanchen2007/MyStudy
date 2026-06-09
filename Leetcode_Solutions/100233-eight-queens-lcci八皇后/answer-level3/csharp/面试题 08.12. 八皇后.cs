@@ -1,9 +1,9 @@
-### 解题思路
-回溯法
+// ### 解题思路
+// 回溯法
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<IList<string>> SolveNQueens(int n)
     {
@@ -55,4 +55,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-## 思路:
+# ## 思路:
 
-**思路一:** 动态规划
+# **思路一:** 动态规划
 
-刚开始,我想用动态规划,用`dp[i]`表示到`i`位置的最少步数
+# 刚开始,我想用动态规划,用`dp[i]`表示到`i`位置的最少步数
 
-动态方程为:`dp[i] = min(dp[i], dp[j] + 1)`,`j`位置可以到达`i` 的位置,代码如下:
+# 动态方程为:`dp[i] = min(dp[i], dp[j] + 1)`,`j`位置可以到达`i` 的位置,代码如下:
 
-```python [1]
+# ```python [1]
 class Solution:
     def jump(self, nums: List[int]) -> int:
         n = len(nums)
@@ -18,9 +18,9 @@ class Solution:
                     dp[i] = min(dp[i], dp[j] + 1)
         #print(dp)
         return dp[-1]
-```
+# ```
 
-```java [1]
+# ```java [1]
 public class JumpGameII {
     public int jump(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -39,29 +39,29 @@ public class JumpGameII {
         return dp[nums.length - 1];
     }
 }
-```
+# ```
 
-但是, 这是$O(n^2)$算法,如果数据超过$10^4$就过不了,没想到真的过不了,哈哈!
+# 但是, 这是$O(n^2)$算法,如果数据超过$10^4$就过不了,没想到真的过不了,哈哈!
 
-**思路2: 贪心算法**
+# **思路2: 贪心算法**
 
-类似与BFS
+# 类似与BFS
 
-一句话解释: 从一个位置跳到它能跳到的最远位置之间的都只需要一步!
+# 一句话解释: 从一个位置跳到它能跳到的最远位置之间的都只需要一步!
 
-所以,如果一开始都能跳到,后面再跳到的肯定步数要变多!
-
-
+# 所以,如果一开始都能跳到,后面再跳到的肯定步数要变多!
 
 
 
 
 
 
-## 代码:
 
 
-```python [1]
+# ## 代码:
+
+
+# ```python [1]
 class Solution:
     def jump(self, nums: List[int]) -> int:
         n = len(nums)
@@ -75,10 +75,10 @@ class Solution:
                 else:
                     break
         return "到不了最后"
-```
+# ```
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public int jump(int[] nums) {
         if (nums.length == 1) return 0;
@@ -97,5 +97,5 @@ class Solution {
         return 0;
     }
 }
-```
+# ```
 

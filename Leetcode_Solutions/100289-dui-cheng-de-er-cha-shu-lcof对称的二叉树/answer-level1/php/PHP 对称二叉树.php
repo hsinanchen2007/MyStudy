@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         return ($left->val == $right->val) && ($this->isSam($left->left,$right->right)) && ($this->isSam($right->left,$left->right));
     }
 }
-```
+// ```

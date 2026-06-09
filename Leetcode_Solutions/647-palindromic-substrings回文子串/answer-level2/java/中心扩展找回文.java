@@ -1,13 +1,13 @@
-# 解题思路 中心扩展
+// # 解题思路 中心扩展
 
-- 有字符串`S = A0, A1, A2, A3 ... Aj, Aj+1 ... An`
-- 从题目要求来看, 容易想到使用中心扩展法. 分别以`A0, A1, A2 ... An`为中心确认回文串, 每确认一个, 回文串数量cnt+1
-- 当S长度为奇数时, 如`abbaeabba`, 回文串中心在`e`. 
-- 当S长度为偶数时, 如`abba`, 回文串中心在`bb`.
-- 所以整个字符串的回文子串, 需要分别统计中心为**一个点**和中心为**两个点**的情况. 
+// - 有字符串`S = A0, A1, A2, A3 ... Aj, Aj+1 ... An`
+// - 从题目要求来看, 容易想到使用中心扩展法. 分别以`A0, A1, A2 ... An`为中心确认回文串, 每确认一个, 回文串数量cnt+1
+// - 当S长度为奇数时, 如`abbaeabba`, 回文串中心在`e`. 
+// - 当S长度为偶数时, 如`abba`, 回文串中心在`bb`.
+// - 所以整个字符串的回文子串, 需要分别统计中心为**一个点**和中心为**两个点**的情况. 
 
-# Java Code
-```java
+// # Java Code
+// ```java
 class Solution {
     public int countSubstrings(String s) {
         int maxCount = 0;
@@ -32,13 +32,13 @@ class Solution {
         return cnt;
     }
 }
-```
+// ```
 
-# 复杂度
+// # 复杂度
 
-- 时间复杂度: 2 * (1 + 2 + 3 + ... + N) = O(2N^2)
-- 空间复杂度: O(1)
+// - 时间复杂度: 2 * (1 + 2 + 3 + ... + N) = O(2N^2)
+// - 空间复杂度: O(1)
 
-# 执行效率
+// # 执行效率
 
-![image.png](https://pic.leetcode-cn.com/1ae66bc405c504d454069860ed17ebea6f50cd8b698f49a915fb4e4391ed16a1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1ae66bc405c504d454069860ed17ebea6f50cd8b698f49a915fb4e4391ed16a1-image.png)

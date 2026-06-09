@@ -1,4 +1,4 @@
-```cpp []
+// ```cpp []
 //方法一：常规解法
 class StockSpanner {
 public:
@@ -42,8 +42,8 @@ private:
                 ans;
 };
 
-```
-```cpp []
+// ```
+// ```cpp []
 //方法二：单调栈
 class StockSpanner {
 public:
@@ -73,5 +73,5 @@ public:
 private:
     stack<int> element, days;
 };
-```
+// ```
 

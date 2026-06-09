@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func integerBreak(n int) int { 
     if n == 1 {
         return 0
@@ -33,4 +33,4 @@ func max(i,j int)int {
     return j
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 bool isUnique(char* astr){
     int arr[26];
 
@@ -13,4 +13,4 @@ bool isUnique(char* astr){
 
     return true;
 }
-```
+// ```

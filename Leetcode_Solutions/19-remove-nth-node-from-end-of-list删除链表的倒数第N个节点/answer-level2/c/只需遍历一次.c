@@ -1,10 +1,10 @@
-### 解题思路
-设该链表的长度为L，利用一个大小为n的指针数组存储第L-n个到第L-1个节点，数组利用的是循环链表的原理存储，下标为index%n。
-因此最后index%n所指向的点为第L-n个点，下一个点则是需要删除的点，因此record[index%n]->next = record[(index+2)%n]后，则完成了删除。
+// ### 解题思路
+// 设该链表的长度为L，利用一个大小为n的指针数组存储第L-n个到第L-1个节点，数组利用的是循环链表的原理存储，下标为index%n。
+// 因此最后index%n所指向的点为第L-n个点，下一个点则是需要删除的点，因此record[index%n]->next = record[(index+2)%n]后，则完成了删除。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
         record[index%n]->next = record[(index+2)%n];
     return head;
 }
-```
+// ```

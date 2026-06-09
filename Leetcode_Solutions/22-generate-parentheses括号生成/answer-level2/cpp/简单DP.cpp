@@ -1,14 +1,14 @@
-### 解题思路
-dp[i]保存n=i时的所有可能
-- 将i分解成j、k两部分，对dp[j]、dp[k]的内容进行拼接即可得到dp[i]的内容
-- 拼接方式为 str[j] + str[k] 及str[k] + str[j]
-- 当j==1时允许包围拼接："(" + str[k] + ")"
+// ### 解题思路
+// dp[i]保存n=i时的所有可能
+// - 将i分解成j、k两部分，对dp[j]、dp[k]的内容进行拼接即可得到dp[i]的内容
+// - 拼接方式为 str[j] + str[k] 及str[k] + str[j]
+// - 当j==1时允许包围拼接："(" + str[k] + ")"
 
-![image.png](https://pic.leetcode-cn.com/f33b4d202ca86d50ed1e83fddb712ebbd2af295b09b5b8f18edd43170274191d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f33b4d202ca86d50ed1e83fddb712ebbd2af295b09b5b8f18edd43170274191d-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> dp;
@@ -41,4 +41,4 @@ public:
         return dp[n];
     }
 };
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-思路：
-1,从后往前遍历，建立一个滑窗，滑窗从头到尾为降序，头指向第一个破坏降序的数字，尾部指向后面比该数字大的数字
-2, 交换数字位置，
-    1) 将head 至 Tail 之间的数字倒序
-    2) 将Tail 至 numsSize 之间的数字倒序
-    3) 将Tail 至 numsSize 之间的数字插入到 head 前
-### 代码
+// ### 解题思路
+// 思路：
+// 1,从后往前遍历，建立一个滑窗，滑窗从头到尾为降序，头指向第一个破坏降序的数字，尾部指向后面比该数字大的数字
+// 2, 交换数字位置，
+//     1) 将head 至 Tail 之间的数字倒序
+//     2) 将Tail 至 numsSize 之间的数字倒序
+//     3) 将Tail 至 numsSize 之间的数字插入到 head 前
+// ### 代码
 
-```c
+// ```c
 
 // 将输入数字倒序
 void reversenums(int* nums, int numsSize){
@@ -104,4 +104,4 @@ void nextPermutation(int* nums, int numsSize){
     }
     return nums;
 }
-```
+// ```

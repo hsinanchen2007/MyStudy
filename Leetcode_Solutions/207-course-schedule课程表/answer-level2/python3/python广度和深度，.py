@@ -1,6 +1,6 @@
-2种思想，3种方法。代码里有注释。
+# 2种思想，3种方法。代码里有注释。
 
-```
+# ```
 from collections import defaultdict
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
@@ -70,4 +70,4 @@ class Solution:
                     in_deg[k] -= 1  # 子节点的入度-1
                 del adj[v], in_deg[v]  # 删除节点
         return not in_deg  # 空
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numIslands(char[][] grid) {
         int ans = 0;
@@ -20,4 +20,4 @@ class Solution {
         if (j > 0 && grid[i][j-1] == '1') infect(i, j-1, grid);
     }
 }
-```
+// ```

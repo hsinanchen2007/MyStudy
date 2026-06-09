@@ -1,5 +1,5 @@
-**思路1：** 贪心算法，一次遍历，始终选择当前最大的和区间
-```
+// **思路1：** 贪心算法，一次遍历，始终选择当前最大的和区间
+// ```
  public int MaxSubArray(int[] nums)
 {
     int currentSum = nums[0];
@@ -13,4 +13,4 @@
 
     return maxSum;
 }
-```
+// ```

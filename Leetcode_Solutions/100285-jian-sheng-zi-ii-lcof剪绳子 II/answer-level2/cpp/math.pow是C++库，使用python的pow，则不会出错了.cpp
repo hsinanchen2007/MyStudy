@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-其实要注意math.pow是C++的库，如果使用math.pow会出错
+// ### 解题思路
+// 此处撰写解题思路
+// 其实要注意math.pow是C++的库，如果使用math.pow会出错
 
-### 代码
+// ### 代码
 
-```python3
+// ```python3
 class Solution:
     def cuttingRope(self, n: int) -> int:
         if n<=3:
@@ -23,4 +23,4 @@ class Solution:
         else:
             res=pow(3,a)*2
         return int(res)%1000000007
-```
+// ```

@@ -1,6 +1,6 @@
-用stack<pair<char,int>>   来保存不合格的括号及其下标
-遍历完后，用迭代器删除不合格的括号
-```
+// 用stack<pair<char,int>>   来保存不合格的括号及其下标
+// 遍历完后，用迭代器删除不合格的括号
+// ```
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
@@ -34,4 +34,4 @@ public:
         return s;
     }
 };
-```
+// ```

@@ -1,17 +1,17 @@
-二分查找
-为了找到满足条件的正整数N，先确定N的上下限。
+// 二分查找
+// 为了找到满足条件的正整数N，先确定N的上下限。
 
-根据题目有：
+// 根据题目有：
 
-![image.png](https://pic.leetcode-cn.com/f72e6a535227b535f82f776e9c812113f43ef4f0d4b779651bc619fc231ad9bb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f72e6a535227b535f82f776e9c812113f43ef4f0d4b779651bc619fc231ad9bb-image.png)
 
-所以N的上下限为
+// 所以N的上下限为
 
-![image.png](https://pic.leetcode-cn.com/d9426feb484c245fc07806bb0751b092a6749adb57d627651771975dcd5c75ac-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d9426feb484c245fc07806bb0751b092a6749adb57d627651771975dcd5c75ac-image.png)
 
 
 
-```
+// ```
 class Solution {
 public:
     int smallestDivisor(vector<int>& nums, int threshold) {
@@ -45,4 +45,4 @@ public:
         return result;
     }
 };
-```
+// ```

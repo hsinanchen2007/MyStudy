@@ -1,13 +1,13 @@
-### 解题思路
-1.找最短的字符串min
-2.比较子串组的每个子串与 min的每个字符 ————所有双层for循环
-  所有相等则res+；不等则就是结果
-所以相等指的是在内层一轮循环结束可以res+，
-内层用于 if(strs[j][i]!=min[i])  return res;来剔除不等的情况
+// ### 解题思路
+// 1.找最短的字符串min
+// 2.比较子串组的每个子串与 min的每个字符 ————所有双层for循环
+//   所有相等则res+；不等则就是结果
+// 所以相等指的是在内层一轮循环结束可以res+，
+// 内层用于 if(strs[j][i]!=min[i])  return res;来剔除不等的情况
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

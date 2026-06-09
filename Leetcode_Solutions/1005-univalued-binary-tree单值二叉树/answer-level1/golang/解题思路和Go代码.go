@@ -1,11 +1,11 @@
-![1.PNG](https://pic.leetcode-cn.com/a42283f7cc69711c8cd05917d00630dc847adce6af560bb291f2f20a5a8a3036-%E6%8D%95%E8%8E%B7.PNG)
-[965. 单值二叉树]()
-### 解题思路
-遍历二叉树
+// ![1.PNG](https://pic.leetcode-cn.com/a42283f7cc69711c8cd05917d00630dc847adce6af560bb291f2f20a5a8a3036-%E6%8D%95%E8%8E%B7.PNG)
+// [965. 单值二叉树]()
+// ### 解题思路
+// 遍历二叉树
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -32,4 +32,4 @@ func isUnivalT(root *TreeNode, val *int, flag *bool) {
     isUnivalT(root.Left, val, flag)
     isUnivalT(root.Right, val, flag)
 }
-```
+// ```

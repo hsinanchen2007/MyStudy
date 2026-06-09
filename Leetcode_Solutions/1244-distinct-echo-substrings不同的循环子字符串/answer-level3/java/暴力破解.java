@@ -1,9 +1,9 @@
-### 解题思路
-好吧，简单的暴力破解，将所有有重复的放入set中，然后返回set的数量
+// ### 解题思路
+// 好吧，简单的暴力破解，将所有有重复的放入set中，然后返回set的数量
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int distinctEchoSubstrings(String text) {
         Set<String> set = new HashSet<>();
@@ -22,4 +22,4 @@ class Solution {
     }
 
 }
-```
+// ```

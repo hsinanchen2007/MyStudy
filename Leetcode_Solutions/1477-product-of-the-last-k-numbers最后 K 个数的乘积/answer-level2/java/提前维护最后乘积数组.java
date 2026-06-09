@@ -1,4 +1,4 @@
-```java
+// ```java
 class ProductOfNumbers {
     private int di; // data index
     private int[] prod; // 提前维护最后k个数乘积数组
@@ -20,4 +20,4 @@ class ProductOfNumbers {
         return prod[di - k];
     }
 }
-```
+// ```

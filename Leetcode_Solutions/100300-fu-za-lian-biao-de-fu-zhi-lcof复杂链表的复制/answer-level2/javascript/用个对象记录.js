@@ -1,7 +1,7 @@
 
 
 
-```
+// ```
 var copyRandomList = function(head) {
     //对象记录
     const map = {};
@@ -27,4 +27,4 @@ var copyRandomList = function(head) {
     }
     return recur(head)
 };
-```
+// ```

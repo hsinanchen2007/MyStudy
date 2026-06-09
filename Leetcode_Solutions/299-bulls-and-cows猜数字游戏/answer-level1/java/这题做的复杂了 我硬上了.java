@@ -1,4 +1,4 @@
-遍历，排除
+// 遍历，排除
 
 public static String getHint(String secret, String guess) {
         char []sArray = secret.toCharArray();

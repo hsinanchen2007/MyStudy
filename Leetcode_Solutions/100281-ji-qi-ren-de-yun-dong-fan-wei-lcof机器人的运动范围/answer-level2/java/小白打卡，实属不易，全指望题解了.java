@@ -1,9 +1,9 @@
-### 解题思路
-打卡第二天，看题解，写答案
+// ### 解题思路
+// 打卡第二天，看题解，写答案
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int movingCount(int m, int n, int k) {
         /*
@@ -34,4 +34,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

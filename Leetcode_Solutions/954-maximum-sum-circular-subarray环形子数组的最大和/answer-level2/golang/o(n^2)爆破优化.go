@@ -1,8 +1,8 @@
-![屏幕快照 2019-08-09 17.10.57.png](https://pic.leetcode-cn.com/cd513b07616de24fe1076ee09019fd5f195fe2db2ec9c985836b115359ed5d7a-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-09%2017.10.57.png)
+// ![屏幕快照 2019-08-09 17.10.57.png](https://pic.leetcode-cn.com/cd513b07616de24fe1076ee09019fd5f195fe2db2ec9c985836b115359ed5d7a-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-09%2017.10.57.png)
 
-直接爆破，做点优化即可
+// 直接爆破，做点优化即可
 
-```
+// ```
 func maxSubarraySumCircular(A []int) int {
     lenth := len(A)
     max := A[0]
@@ -21,4 +21,4 @@ func maxSubarraySumCircular(A []int) int {
     }
     return max
 }
-```
+// ```

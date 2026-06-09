@@ -1,4 +1,4 @@
-```
+// ```
 func depthSum(nestedList []*NestedInteger) int {
     var ans int
     var queue []*NestedInteger
@@ -28,4 +28,4 @@ func depthSum(nestedList []*NestedInteger) int {
 
     return ans
 }
-```
+// ```

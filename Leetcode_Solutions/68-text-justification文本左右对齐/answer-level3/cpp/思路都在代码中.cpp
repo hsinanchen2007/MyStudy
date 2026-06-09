@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/acc89de5ff82b23bf55b54551d0206915eabe86be5e1e9d7357d922ce13167a4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/acc89de5ff82b23bf55b54551d0206915eabe86be5e1e9d7357d922ce13167a4-image.png)
 
 
-### 解题思路
-思路都在代码中
+// ### 解题思路
+// 思路都在代码中
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> fullJustify(vector<string>& words, int maxWidth) {
@@ -109,4 +109,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-普通解法，直接暴力输出。需要特殊处理的就是右上角和左下角两个地方。
+// 普通解法，直接暴力输出。需要特殊处理的就是右上角和左下角两个地方。
 
-```
+// ```
 class Solution {
 public:
     vector<int> findDiagonalOrder(vector<vector<int>>& matrix) {
@@ -37,4 +37,4 @@ public:
         return res;
     }
 };
-```
+// ```

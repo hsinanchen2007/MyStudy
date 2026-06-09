@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def licenseKeyFormatting(self, S: str, K: int) -> str:
         # 逆序思维，假如题目中第一组的条件是用在最后一组，是不是很容易做：遇到合适索引就拼接-
@@ -9,4 +9,4 @@ class Solution:
             if i%K == 0 and i!=0: res = '-' + res
             res = s[i] + res
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def merge(self, A: List[List[int]]) -> List[List[int]]:
         if len(A) == 0:  # corner case，空列表
@@ -23,4 +23,4 @@ class Solution:
         res.append([start, end]) # 这一句重要！ 上面遍历完成之后可能没有把最后一个区间加入res中
         return res
 
-```
+# ```

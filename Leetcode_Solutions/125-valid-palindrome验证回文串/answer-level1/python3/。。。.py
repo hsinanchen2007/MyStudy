@@ -1,9 +1,9 @@
-### 解题思路
-用一个额外的list
+# ### 解题思路
+# 用一个额外的list
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         temp = []
@@ -25,4 +25,4 @@ class Solution:
 
         
         
-```
+# ```

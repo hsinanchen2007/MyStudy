@@ -1,5 +1,5 @@
-思路：双指针，滑动窗口
-```
+// 思路：双指针，滑动窗口
+// ```
 func minSubArrayLen(s int, nums []int) int {
 	numLen := len(nums)
 	// +1是为了帮助判断整个数组的所有元素加和也达不到s的情况出现
@@ -49,6 +49,6 @@ func minSubArrayLen(s int, nums []int) int {
 	}
 	return minLen
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/ec813bccf16a2d4458522baabc5ca155462e5e878789bff6e10c506c3a704532-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ec813bccf16a2d4458522baabc5ca155462e5e878789bff6e10c506c3a704532-image.png)

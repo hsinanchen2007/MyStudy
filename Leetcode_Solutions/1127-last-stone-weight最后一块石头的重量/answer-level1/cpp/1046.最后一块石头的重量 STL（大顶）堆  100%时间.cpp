@@ -1,17 +1,17 @@
-### 解题思路
-此处撰写解题思路
-堆的实现在algorithm头文件中
-要依托于容器vector或list
-注意堆的push pop与 vector的push pop 结合使用
-不过内存消耗只排到了5%，优点感人
+// ### 解题思路
+// 此处撰写解题思路
+// 堆的实现在algorithm头文件中
+// 要依托于容器vector或list
+// 注意堆的push pop与 vector的push pop 结合使用
+// 不过内存消耗只排到了5%，优点感人
 
 
-本题还可以用优先队列做，不过应该没这么快
+// 本题还可以用优先队列做，不过应该没这么快
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <vector>
 #include <algorithm>
 
@@ -52,4 +52,4 @@ public:
 
     }
 };
-```
+// ```

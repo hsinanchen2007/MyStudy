@@ -1,13 +1,13 @@
-先找出解可能的范围，然后使用二分法去猜测是猜大了还是猜小了。题解中的 left 表示如果猜的值太大了，就往左一点，否则往右猜。
+// 先找出解可能的范围，然后使用二分法去猜测是猜大了还是猜小了。题解中的 left 表示如果猜的值太大了，就往左一点，否则往右猜。
 
-所以此题可以看成是 [374. 猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) 的变种，只不过很难想到。
+// 所以此题可以看成是 [374. 猜数字大小](https://leetcode-cn.com/problems/guess-number-higher-or-lower/) 的变种，只不过很难想到。
 
-截图记录一下：
+// 截图记录一下：
 
-![image.png](https://pic.leetcode-cn.com/008a115e85992950bdcb6b7b7511f45098a4ba9c97f9e2b81aceef815c312dc0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/008a115e85992950bdcb6b7b7511f45098a4ba9c97f9e2b81aceef815c312dc0-image.png)
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int splitArray(vector<int>& nums, int m) {
@@ -46,4 +46,4 @@ public:
         return true;
     }
 };
-```
+// ```

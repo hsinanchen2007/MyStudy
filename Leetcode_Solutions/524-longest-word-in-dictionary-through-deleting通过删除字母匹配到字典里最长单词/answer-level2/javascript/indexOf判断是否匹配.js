@@ -1,4 +1,4 @@
-```js
+// ```js
 const findLongestWord = (s, d) => {
   // 按字典序排列
   d = d.sort()
@@ -26,4 +26,4 @@ const findLongestWord = (s, d) => {
   }
   return maxWord
 }
-```
+// ```

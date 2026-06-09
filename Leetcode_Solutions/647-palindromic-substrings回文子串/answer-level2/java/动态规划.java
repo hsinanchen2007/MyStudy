@@ -1,6 +1,6 @@
-时间复杂度: O(n^2) 
-空间复杂度: O(n)
-```java
+// 时间复杂度: O(n^2) 
+// 空间复杂度: O(n)
+// ```java
 class Solution {
     public int countSubstrings(String s) {
         if(s.equals("")) return 0;
@@ -26,4 +26,4 @@ class Solution {
     }
 }
 
-```
+// ```

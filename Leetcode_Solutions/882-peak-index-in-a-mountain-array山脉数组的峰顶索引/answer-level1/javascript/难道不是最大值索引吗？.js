@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var peakIndexInMountainArray = function (A) {
     let max = Math.max.apply(null, A)
     for(let i = 0; i < A.length; i++) {
@@ -7,4 +7,4 @@ var peakIndexInMountainArray = function (A) {
         }
     }
 };
-```
+// ```

@@ -1,17 +1,17 @@
-本题比赛中的示例 5 刚开始是有问题的：
+# 本题比赛中的示例 5 刚开始是有问题的：
 
-> 示例 5：
->
-> 输入：root = [1,2,3], target = 2
-> 输出：[1,2,3]
+# > 示例 5：
+# >
+# > 输入：root = [1,2,3], target = 2
+# > 输出：[1,2,3]
 
-让我犹豫了一会。
+# 让我犹豫了一会。
 
-后来这个 target 改成 1 就对了。
+# 后来这个 target 改成 1 就对了。
 
-也不难
+# 也不难
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
         if del_t(root):
             return None
         return root
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
-rooms就是邻接表
-队列实现bfs
-vis数组记录是否访问过
+// ### 解题思路
+// rooms就是邻接表
+// 队列实现bfs
+// vis数组记录是否访问过
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canVisitAllRooms(vector<vector<int>>& rooms) {
@@ -36,4 +36,4 @@ public:
     return sum==n;
     }
 };
-```
+// ```

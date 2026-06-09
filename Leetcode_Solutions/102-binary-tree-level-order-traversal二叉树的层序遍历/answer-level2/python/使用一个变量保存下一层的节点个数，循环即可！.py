@@ -1,4 +1,4 @@
-cn为当前层的节点个数，nn为下一层的节点个数
+# cn为当前层的节点个数，nn为下一层的节点个数
 
     def fun(root):
         if not root:

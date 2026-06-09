@@ -1,5 +1,5 @@
-看作坐标轴
-```
+// 看作坐标轴
+// ```
 public boolean judgeCircle(String moves) {
         int x = 0, y = 0;
         for (char c : moves.toCharArray()) {
@@ -10,4 +10,4 @@ public boolean judgeCircle(String moves) {
         }
         return x == 0 && y == 0;
     }
-```
+// ```

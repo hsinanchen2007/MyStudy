@@ -1,6 +1,6 @@
-最长公共子数组模板题目, 参考了官方解答的以开头作为dp，以前的解法都是以结尾作为dp。
+// 最长公共子数组模板题目, 参考了官方解答的以开头作为dp，以前的解法都是以结尾作为dp。
 
-```
+// ```
 class Solution {
 public:
     int findLength(vector<int>& A, vector<int>& B) {
@@ -27,4 +27,4 @@ public:
         return res;
     }
 };
-```
+// ```

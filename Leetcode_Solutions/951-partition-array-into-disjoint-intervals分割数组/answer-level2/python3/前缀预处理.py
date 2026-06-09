@@ -1,9 +1,9 @@
-### 解题思路
-预处理记录左侧前缀最大值数组和右侧前缀最小值数组，然后遍历寻找第一个可行解。
+# ### 解题思路
+# 预处理记录左侧前缀最大值数组和右侧前缀最小值数组，然后遍历寻找第一个可行解。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def partitionDisjoint(self, A: List[int]) -> int:
         n = len(A)
@@ -24,4 +24,4 @@ class Solution:
                 return i + 1
         return 0
         
-```
+# ```

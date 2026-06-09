@@ -1,7 +1,7 @@
-用相邻矩阵把图的关系记录下来，然后把能推断出来的点都推断出来。
-如果需要很多返回的解，比较有优势。
+// 用相邻矩阵把图的关系记录下来，然后把能推断出来的点都推断出来。
+// 如果需要很多返回的解，比较有优势。
 
-```js
+// ```js
 /**
  * @param {string[][]} equations
  * @param {number[]} values
@@ -30,4 +30,4 @@ var calcEquation = function(equations, values, queries) {
     return queries.map(query => 
         matrix[query[0]] && matrix[query[0]][query[1]] ? matrix[query[0]][query[1]] : -1);
 };
-```
+// ```

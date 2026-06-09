@@ -1,10 +1,10 @@
-```python
+# ```python
 class Solution:
     def cloneGraph(self, node: 'Node') -> 'Node':
         return copy.deepcopy(node)
-```
-- 或 dfs
-```python
+# ```
+# - 或 dfs
+# ```python
 """
 # Definition for a Node.
 class Node:
@@ -25,5 +25,5 @@ class Solution:
             return d[old]
         
         return dfs(node)
-```
-- 此题为无向连通图的搜索，用dfs遍历整个图，并为每个节点创建副本到哈希表，当回溯之时，所有节点已经在表中，修改邻居即可
+# ```
+# - 此题为无向连通图的搜索，用dfs遍历整个图，并为每个节点创建副本到哈希表，当回溯之时，所有节点已经在表中，修改邻居即可

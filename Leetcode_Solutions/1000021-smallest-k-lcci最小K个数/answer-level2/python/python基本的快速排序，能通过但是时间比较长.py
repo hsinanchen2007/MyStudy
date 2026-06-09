@@ -1,9 +1,9 @@
-### 解题思路
-标准的快速排序算法
+# ### 解题思路
+# 标准的快速排序算法
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def smallestK(self, arr, k):
         """
@@ -27,4 +27,4 @@ class Solution(object):
                 else:
                     return quick_sort(left) + [base] + quick_sort(right)
         return quick_sort(arr)[:k]
-```
+# ```

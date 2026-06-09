@@ -1,8 +1,8 @@
-## 排序+一次遍历
+// ## 排序+一次遍历
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -17,16 +17,16 @@ public:
        return count;
     }
 };
-```
+// ```
 
-## map记录数字出现次数并计算
+// ## map记录数字出现次数并计算
 
-1. map记录 值出现的次数
-2. 利用map的key是有序的，计算需要移动的次数
+// 1. map记录 值出现的次数
+// 2. 利用map的key是有序的，计算需要移动的次数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -44,4 +44,4 @@ public:
        return count;
     }
 };
-```
+// ```

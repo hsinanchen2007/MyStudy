@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         # 不可能超过 上边界
@@ -26,4 +26,4 @@ class Solution:
                 end -= 1
             upper -= 1
         return res
-```
+# ```

@@ -1,5 +1,5 @@
-预处理一下使得满足 invariant f(l) >= nums[0] 满足即可
-```
+// 预处理一下使得满足 invariant f(l) >= nums[0] 满足即可
+// ```
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return r == n ? nums[0] : nums[r];
     }
 };
-```
+// ```

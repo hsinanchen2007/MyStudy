@@ -1,9 +1,9 @@
-### 解题思路
-依次找到两个单词的下标，生成两个数组，遍历找到两个数组的差值的最小值
+// ### 解题思路
+// 依次找到两个单词的下标，生成两个数组，遍历找到两个数组的差值的最小值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int shortestDistance(char ** words, int wordsSize, char * word1, char * word2){
     int i;
     int j;
@@ -35,4 +35,4 @@ int shortestDistance(char ** words, int wordsSize, char * word1, char * word2){
     }
     return dis;
 }
-```
+// ```

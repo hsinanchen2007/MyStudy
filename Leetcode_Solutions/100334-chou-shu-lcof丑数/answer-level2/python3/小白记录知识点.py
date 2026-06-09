@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-相当于利用三个指针，分别指向*2,*3,*5，判断当前指针指到的最小值，将此最小值累加到丑数列表中。
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 相当于利用三个指针，分别指向*2,*3,*5，判断当前指针指到的最小值，将此最小值累加到丑数列表中。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
         ugly=[1]
@@ -24,4 +24,4 @@ class Solution:
             ugly.append(target)
         return ugly[-1]
 
-```
+# ```

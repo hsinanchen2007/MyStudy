@@ -1,5 +1,5 @@
-最后答案由四个矩阵容斥得到。
-```
+// 最后答案由四个矩阵容斥得到。
+// ```
 #define lowbit(x) ((x) & (-x))
 class NumMatrix {
 public:
@@ -49,4 +49,4 @@ public:
  * obj->update(row,col,val);
  * int param_2 = obj->sumRegion(row1,col1,row2,col2);
  */
-```
+// ```

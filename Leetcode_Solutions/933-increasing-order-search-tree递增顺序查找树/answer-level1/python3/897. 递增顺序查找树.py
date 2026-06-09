@@ -1,9 +1,9 @@
-### 解题思路
-参考官方 yield 用法
+# ### 解题思路
+# 参考官方 yield 用法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             cur.right = TreeNode(c)
             cur = cur.right
         return ans.right
-```
+# ```

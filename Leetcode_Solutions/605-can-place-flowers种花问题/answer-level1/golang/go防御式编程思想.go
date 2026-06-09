@@ -1,8 +1,8 @@
-### 解题思路
-go防御式编程思想
-### 代码
+// ### 解题思路
+// go防御式编程思想
+// ### 代码
 
-```golang
+// ```golang
 func canPlaceFlowers(flowerbed []int, n int) bool {
 	flowerbed = append([]int{0}, append(flowerbed, 0)...)
 	l := len(flowerbed)
@@ -14,4 +14,4 @@ func canPlaceFlowers(flowerbed []int, n int) bool {
 	}
 	return n <= 0
 }
-```
+// ```

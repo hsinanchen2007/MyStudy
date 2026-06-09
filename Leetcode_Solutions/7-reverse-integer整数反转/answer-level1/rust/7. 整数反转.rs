@@ -1,6 +1,6 @@
 
 
-```rust
+// ```rust
 impl Solution {
     pub fn reverse(x: i32) -> i32 {
         let mut result: i64 = 0;
@@ -23,4 +23,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

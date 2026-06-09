@@ -1,6 +1,6 @@
-执行用时 :7 ms, 在所有 Java 提交中击败了71.88%的用户
-内存消耗 :41.7 MB, 在所有 Java 提交中击败了20.16%的用户
-```
+// 执行用时 :7 ms, 在所有 Java 提交中击败了71.88%的用户
+// 内存消耗 :41.7 MB, 在所有 Java 提交中击败了20.16%的用户
+// ```
 public class lt79 {
     public static boolean isEX;
     public static int[][] book;
@@ -50,4 +50,4 @@ public class lt79 {
     }
 }
 
-```
+// ```

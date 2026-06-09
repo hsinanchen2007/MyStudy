@@ -1,4 +1,4 @@
-```
+// ```
 int hammingWeight(uint32_t n) {
     int sum = 0;
     while (n != 0) {
@@ -9,4 +9,4 @@ int hammingWeight(uint32_t n) {
     } 
     return sum;  
 }
-```
+// ```

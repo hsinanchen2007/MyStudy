@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int repeatedNTimes(vector<int>& A) {
@@ -10,4 +10,4 @@ public:
         return A[0];
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-一步步推算，注释里有测试思路
-### 代码
+// ### 解题思路
+// 一步步推算，注释里有测试思路
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool IsPalindrome(int x) {
             if (x < 0 || (x % 10 == 0 && x != 0))
@@ -23,4 +23,4 @@ public class Solution {
             return x == h || x == h / 10;
     }
 }
-```
+// ```

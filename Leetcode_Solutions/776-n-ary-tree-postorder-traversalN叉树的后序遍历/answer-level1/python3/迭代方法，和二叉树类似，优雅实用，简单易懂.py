@@ -1,11 +1,11 @@
-使用递归太没有技术含量。
-这里的方法借鉴了二叉树后续遍历的方法，
-在pre节点的寻找上，利用了children中对象的唯一性，使用python列表的index函数来寻找下一个child。
+# 使用递归太没有技术含量。
+# 这里的方法借鉴了二叉树后续遍历的方法，
+# 在pre节点的寻找上，利用了children中对象的唯一性，使用python列表的index函数来寻找下一个child。
 
-![image.png](https://pic.leetcode-cn.com/af202083e30fe1270afda351daaabba6619e07b17e1f73cf4614a37128190ecd-image.png)
+# ![image.png](https://pic.leetcode-cn.com/af202083e30fe1270afda351daaabba6619e07b17e1f73cf4614a37128190ecd-image.png)
 
 
-```
+# ```
 class Solution:
     def postorder(self, root: 'Node') -> List[int]:
       if not root: return []
@@ -31,4 +31,4 @@ class Solution:
         else:
           curr = curr.children[curr.children.index(pre) + 1]
       return res
-```
+# ```

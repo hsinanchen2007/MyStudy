@@ -1,8 +1,8 @@
-### 解题思路
-将字符串分割为数组，然后循环遍历，头指针遇到字母则和尾指针遇到字母进行交换
-### 代码
+// ### 解题思路
+// 将字符串分割为数组，然后循环遍历，头指针遇到字母则和尾指针遇到字母进行交换
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -25,4 +25,4 @@ var reverseOnlyLetters = function(S) {
     }
     return tmp.join("");
 };
-```
+// ```

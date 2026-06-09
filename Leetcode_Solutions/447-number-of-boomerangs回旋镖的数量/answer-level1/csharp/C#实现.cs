@@ -1,4 +1,4 @@
-```
+// ```
 public static int NumberOfBoomerangs(int[][] points)
         {
             int res = 0;
@@ -33,4 +33,4 @@ private static int Distance(int[] a,int[] b)
         {
             return (a[0] - b[0]) * (a[0] - b[0]) + (a[1] - b[1]) * (a[1] - b[1]);
         }
-```
+// ```

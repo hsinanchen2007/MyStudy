@@ -1,9 +1,9 @@
-### 解题思路
-因为时间复杂度为为O(logn)，所以采用二分查找法。
+# ### 解题思路
+# 因为时间复杂度为为O(logn)，所以采用二分查找法。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 def SearchRange(nums, target, left, right):
     
     if left > right:
@@ -33,4 +33,4 @@ class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         return SearchRange(nums, target, 0, len(nums)-1)
 
-```
+# ```

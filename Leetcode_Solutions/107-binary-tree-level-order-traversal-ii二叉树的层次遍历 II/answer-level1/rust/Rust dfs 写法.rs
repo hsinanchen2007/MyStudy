@@ -1,6 +1,6 @@
-使用as_ref()可以得到引用的Option后，再unwrap()就不会发生数据被move的问题；
-当然在unwrap之前去用clone()方法也可以（`node.clone().unwrap()`），但是会创建一个临时变量？
-```
+// 使用as_ref()可以得到引用的Option后，再unwrap()就不会发生数据被move的问题；
+// 当然在unwrap之前去用clone()方法也可以（`node.clone().unwrap()`），但是会创建一个临时变量？
+// ```
 use std::rc::Rc;
 use std::cell::RefCell;
 impl Solution {
@@ -23,4 +23,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

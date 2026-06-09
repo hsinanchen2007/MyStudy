@@ -1,9 +1,9 @@
-### 解题思路
-我也不知道暴力法怎么这么快
+// ### 解题思路
+// 我也不知道暴力法怎么这么快
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -15,4 +15,4 @@ public:
         return num;
     }
 };
-```
+// ```

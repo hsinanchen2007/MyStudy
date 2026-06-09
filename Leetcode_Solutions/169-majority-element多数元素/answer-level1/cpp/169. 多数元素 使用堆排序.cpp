@@ -1,9 +1,9 @@
-### 解题思路
-练习使用堆排序对数组进行排序，返回中位数即是多数元素。
+// ### 解题思路
+// 练习使用堆排序对数组进行排序，返回中位数即是多数元素。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void Sift(vector<int> &R,int low,int high)
@@ -48,4 +48,4 @@ public:
         return (nums[nums.size()/2]);
     }
 };//sort
-```
+// ```

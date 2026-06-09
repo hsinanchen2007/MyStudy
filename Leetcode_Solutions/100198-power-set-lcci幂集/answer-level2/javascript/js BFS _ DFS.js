@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/e88afd49116f83041f926584aca94e359724f10c8dc226866b84c06c177b4916-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e88afd49116f83041f926584aca94e359724f10c8dc226866b84c06c177b4916-image.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -53,4 +53,4 @@ var subsets = function(nums) {
   
 //   return ans;
 // };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-有点耗时，再研究，看看能不能优化一下
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 有点耗时，再研究，看看能不能优化一下
+// ### 代码
 
-```golang
+// ```golang
 func numMatchingSubseq(S string, words []string) int {
 
     
@@ -30,4 +30,4 @@ func numMatchingSubseq(S string, words []string) int {
     }
     return count
 }
-```
+// ```

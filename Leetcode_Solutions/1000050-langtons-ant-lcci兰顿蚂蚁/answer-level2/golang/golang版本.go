@@ -1,5 +1,5 @@
-详细解释都在注释里了
-```go
+// 详细解释都在注释里了
+// ```go
 func printKMoves(K int) []string {
 	dirs := [][]int{{0, 1}, {1, 0}, {0, -1}, {-1, 0}}       // 四个方向依次为右、下、左、上
 	curDir := 0     // 当前方向
@@ -65,4 +65,4 @@ func min(x, y int) int {
 type Point struct {
 	x, y int
 }
-```
+// ```

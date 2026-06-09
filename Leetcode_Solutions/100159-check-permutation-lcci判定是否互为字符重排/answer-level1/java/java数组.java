@@ -1,12 +1,12 @@
-### 解题思路
-1.字符串转为字符数组
-2.使用数组排序
-3.字符数组转回字符串
-4.比较
+// ### 解题思路
+// 1.字符串转为字符数组
+// 2.使用数组排序
+// 3.字符数组转回字符串
+// 4.比较
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.Arrays;
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
@@ -26,4 +26,4 @@ class Solution {
         return flag;
     }
 }
-```
+// ```

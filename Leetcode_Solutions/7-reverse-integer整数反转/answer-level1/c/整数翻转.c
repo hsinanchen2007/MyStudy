@@ -1,13 +1,13 @@
-### 解题思路
-先把x转换成long再操作
-输出前和 MAX_INT、MIN_INT 作比较
+// ### 解题思路
+// 先把x转换成long再操作
+// 输出前和 MAX_INT、MIN_INT 作比较
 
-MAX_INT=(int)(((unsigned)(~0))>>1);
-MIN_INT=(int)(((unsigned)1)<<(sizeof(int)*8-1)|1)
+// MAX_INT=(int)(((unsigned)(~0))>>1);
+// MIN_INT=(int)(((unsigned)1)<<(sizeof(int)*8-1)|1)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int reverse(int x){
 	long result = 0,temp=(long)x;
 	int flag = 0;
@@ -30,4 +30,4 @@ int reverse(int x){
 	else
 		return 0;
 }
-```
+// ```

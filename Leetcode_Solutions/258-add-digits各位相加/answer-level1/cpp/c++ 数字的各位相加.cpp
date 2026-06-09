@@ -1,6 +1,6 @@
-源码及解法说明：
+// 源码及解法说明：
 
-```
+// ```
 #include<iostream>
 using namespace std;
 
@@ -44,4 +44,4 @@ int main(){
     return 0;
 }
 
-```
+// ```

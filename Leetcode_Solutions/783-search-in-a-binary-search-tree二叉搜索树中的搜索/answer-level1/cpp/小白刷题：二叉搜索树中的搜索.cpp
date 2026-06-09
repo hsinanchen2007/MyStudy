@@ -1,7 +1,7 @@
-根据BST特点查找，递归
+// 根据BST特点查找，递归
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
@@ -17,4 +17,4 @@ public:
         }
     }
 };
-```
+// ```

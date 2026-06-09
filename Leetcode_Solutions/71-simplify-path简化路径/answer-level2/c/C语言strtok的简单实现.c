@@ -1,9 +1,9 @@
-### 解题思路
-通过strtok将字符串通过"/"分开，然后逐个通过压栈，出栈实现，很简洁的实现
+// ### 解题思路
+// 通过strtok将字符串通过"/"分开，然后逐个通过压栈，出栈实现，很简洁的实现
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_NUM 1000
 
 static char *g_stack[MAX_NUM] = {0};
@@ -79,4 +79,4 @@ char * simplifyPath(char * path){
     
     return result;
 }
-```
+// ```

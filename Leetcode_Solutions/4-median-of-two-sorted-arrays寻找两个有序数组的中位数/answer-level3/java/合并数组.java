@@ -1,10 +1,10 @@
-### 解题思路
-1.先将两个有序数组合并（时间复杂度为m+n，空间复杂度m+n），消耗额外空间数组保存合并后的数组
-2.根据合并后的数组进行寻找中位数，对合并后数组取长度判断奇偶
+// ### 解题思路
+// 1.先将两个有序数组合并（时间复杂度为m+n，空间复杂度m+n），消耗额外空间数组保存合并后的数组
+// 2.根据合并后的数组进行寻找中位数，对合并后数组取长度判断奇偶
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
        public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] nums = merge(nums1, nums2);
@@ -50,4 +50,4 @@ class Solution {
         return (double) (nums[nums.length / 2] + nums[(nums.length / 2) - 1]) / 2;
     }
 }
-```
+// ```

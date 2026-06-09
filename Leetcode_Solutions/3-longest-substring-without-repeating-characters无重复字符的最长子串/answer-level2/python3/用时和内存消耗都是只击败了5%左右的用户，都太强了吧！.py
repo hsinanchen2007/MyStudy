@@ -1,11 +1,11 @@
-### 解题思路
-先判断字符串不为空，然后从第一个字符开始找，没有重复就赋值给co
-找到第一个重复字母之后，将前面的co赋值给coo
-然后从上次找到重复的字符的后一个字符开始找
+# ### 解题思路
+# 先判断字符串不为空，然后从第一个字符开始找，没有重复就赋值给co
+# 找到第一个重复字母之后，将前面的co赋值给coo
+# 然后从上次找到重复的字符的后一个字符开始找
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         n = 0
@@ -44,4 +44,4 @@ class Solution:
                         co = ''
             n = max(len(co),len(coo))
         return n
-```
+# ```

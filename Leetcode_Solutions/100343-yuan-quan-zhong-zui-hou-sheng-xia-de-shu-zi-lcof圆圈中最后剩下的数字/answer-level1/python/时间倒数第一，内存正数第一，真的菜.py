@@ -1,10 +1,10 @@
-### 解题思路
-我太菜了
-写了6个小时
+# ### 解题思路
+# 我太菜了
+# 写了6个小时
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from operator import mod
 class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
@@ -43,4 +43,4 @@ class Solution:
                     last = N.pop(pos)
                 
         return(last -1)
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -42,4 +42,4 @@ var getLeastNumbers = function (arr, k) {
 
     }
 };
-```
+// ```

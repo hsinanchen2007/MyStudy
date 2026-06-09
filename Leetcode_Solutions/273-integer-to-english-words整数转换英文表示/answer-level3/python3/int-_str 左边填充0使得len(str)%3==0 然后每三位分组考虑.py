@@ -1,5 +1,5 @@
-本人菜鸡 比较关键的语句都有注释 哪里写的不行 还行各位多多指教
-```
+# 本人菜鸡 比较关键的语句都有注释 哪里写的不行 还行各位多多指教
+# ```
 from re import findall,sub
 from math import ceil
 class Solution:
@@ -56,5 +56,5 @@ class Solution:
 		ans=ans.strip() #清除两边多下来的" "
 		ans=sub(r"\s+"," ",ans) #清除多余的" " 避免" {n>1}"的情况
 		return ans
-```
+# ```
 

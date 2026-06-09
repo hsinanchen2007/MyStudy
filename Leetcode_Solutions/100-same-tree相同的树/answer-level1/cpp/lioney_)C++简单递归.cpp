@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -16,4 +16,4 @@ public:
         return isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
     }
 };
-```
+// ```

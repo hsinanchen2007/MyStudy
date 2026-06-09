@@ -1,12 +1,12 @@
-### 解题思路
-我声明了一个辅助二维数组来记录哪些已经被访问了。
-这道题的逻辑并不困难，相信大家看代码就能看懂。不多描述
-其实也可以不用辅助数组解题，直接把原数组中遍历过的元素修改为0，一边遍历一边统计。
-![图片.png](https://pic.leetcode-cn.com/4be95b76062ca72a5146397daef26590f92f323b05e1cdf06bad1a163ada3bc0-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// 我声明了一个辅助二维数组来记录哪些已经被访问了。
+// 这道题的逻辑并不困难，相信大家看代码就能看懂。不多描述
+// 其实也可以不用辅助数组解题，直接把原数组中遍历过的元素修改为0，一边遍历一边统计。
+// ![图片.png](https://pic.leetcode-cn.com/4be95b76062ca72a5146397daef26590f92f323b05e1cdf06bad1a163ada3bc0-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cacularea(int**grid,int **gridvisited,int i,int j,int gridSize, int* gridColSize){
     int sum=1;
     gridvisited[i][j]=1;
@@ -44,4 +44,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
     }
     return maxarea;
 }
-```
+// ```

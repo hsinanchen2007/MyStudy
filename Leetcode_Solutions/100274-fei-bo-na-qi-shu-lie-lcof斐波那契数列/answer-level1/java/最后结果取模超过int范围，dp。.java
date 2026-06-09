@@ -1,9 +1,9 @@
-### 解题思路
-(n + m) % c = ((n % c) + (m % c)) % c
+// ### 解题思路
+// (n + m) % c = ((n % c) + (m % c)) % c
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int fib(int n) {
         if (n == 0)return 0;
@@ -20,4 +20,4 @@ class Solution {
         return arr[n];
     }
 }
-```
+// ```

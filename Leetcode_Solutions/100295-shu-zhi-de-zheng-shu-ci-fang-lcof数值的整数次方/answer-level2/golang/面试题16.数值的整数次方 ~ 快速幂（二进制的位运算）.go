@@ -1,11 +1,11 @@
-### 解题思路
-学习[@jyd](/u/jyd/)大佬的Golang写法
-[大佬的详细分析](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/solution/mian-shi-ti-16-shu-zhi-de-zheng-shu-ci-fang-kuai-s/)
+// ### 解题思路
+// 学习[@jyd](/u/jyd/)大佬的Golang写法
+// [大佬的详细分析](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/solution/mian-shi-ti-16-shu-zhi-de-zheng-shu-ci-fang-kuai-s/)
 
-### 知识点：快速幂（二进制的位运算）
-### 代码
+// ### 知识点：快速幂（二进制的位运算）
+// ### 代码
 
-```golang
+// ```golang
 func myPow(x float64, n int) float64 {
     if x == 0 {
 		return 0
@@ -25,4 +25,4 @@ func myPow(x float64, n int) float64 {
 
 	return res
 }
-```
+// ```

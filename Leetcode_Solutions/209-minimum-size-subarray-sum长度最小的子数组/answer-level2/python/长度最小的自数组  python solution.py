@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
         l = total = 0
@@ -16,9 +16,9 @@ class Solution:
                 l +=1
         return 0 if ans == len(nums)+1 else ans
             
-```
+# ```
 
 
 
 
-滑动窗口解决这个问题
+# 滑动窗口解决这个问题

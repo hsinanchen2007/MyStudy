@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/da5d58b73beb4a3adbd56a096f49e4a3bc0be4e1ceb891edb708e4250542d6ab-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/da5d58b73beb4a3adbd56a096f49e4a3bc0be4e1ceb891edb708e4250542d6ab-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numberOfSteps (int num) {
         int step = 0;
@@ -19,4 +19,4 @@ class Solution {
         return step;
     }
 }
-```
+// ```

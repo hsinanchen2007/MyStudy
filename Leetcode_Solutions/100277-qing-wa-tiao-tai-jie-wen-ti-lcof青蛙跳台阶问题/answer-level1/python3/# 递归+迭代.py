@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def numWays_0(self, n: int) -> int:
         '''递归'''
@@ -23,4 +23,4 @@ class Solution:
             dp[(i+1)%2] = (dp[0]+dp[1])%1000000007
             m = (i+1)%2
         return dp[m]
-```
+# ```

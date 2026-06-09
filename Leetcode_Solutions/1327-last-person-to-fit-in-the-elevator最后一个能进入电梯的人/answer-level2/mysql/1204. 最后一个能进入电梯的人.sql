@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-左连接求当前累计重量，求出最后一个接近1000的人
-### 代码
+-- ### 解题思路
+-- 此处撰写解题思路
+-- 左连接求当前累计重量，求出最后一个接近1000的人
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select res.person_name
@@ -19,4 +19,4 @@ where res.turn in (
         order by q1.turn desc
         limit 1)t
 )
-```
+-- ```

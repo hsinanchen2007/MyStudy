@@ -1,9 +1,9 @@
-### 解题思路
-为了防止溢出和进位,使用栈来操作
+// ### 解题思路
+// 为了防止溢出和进位,使用栈来操作
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int[] plusOne(int[] digits){
 
@@ -32,4 +32,4 @@ class Solution {
 		return nums;
 	}
 }
-```
+// ```

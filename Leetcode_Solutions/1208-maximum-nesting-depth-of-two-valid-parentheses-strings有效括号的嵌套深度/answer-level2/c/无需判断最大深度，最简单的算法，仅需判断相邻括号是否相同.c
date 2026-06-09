@@ -1,7 +1,7 @@
-这个解法的思路比较不同。
-考虑到，如果考虑嵌套存在，必定会有连续两个'('和连续的两个')'，所以如果在出现连续的括号时，交替分配给A和B就能解决问题。
+// 这个解法的思路比较不同。
+// 考虑到，如果考虑嵌套存在，必定会有连续两个'('和连续的两个')'，所以如果在出现连续的括号时，交替分配给A和B就能解决问题。
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -22,4 +22,4 @@ int* maxDepthAfterSplit(char * seq, int* returnSize){
     return ret;
 }
 
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1. 题目没有传入head，所以考虑复制删除节点下一个节点的值
-2. jianzhioffer的节点把是尾节点的情况考虑在内
-3. 复杂度[(n-1)*0(1) + O(n)]/n = O(1)
+# ### 解题思路
+# 1. 题目没有传入head，所以考虑复制删除节点下一个节点的值
+# 2. jianzhioffer的节点把是尾节点的情况考虑在内
+# 3. 复杂度[(n-1)*0(1) + O(n)]/n = O(1)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):

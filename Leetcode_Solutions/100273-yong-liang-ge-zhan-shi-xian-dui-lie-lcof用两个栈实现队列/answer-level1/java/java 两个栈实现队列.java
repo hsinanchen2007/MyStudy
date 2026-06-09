@@ -1,10 +1,10 @@
-### 解题思路
-    1.当插入时，直接插入stack1
-    2.当删除时，当stack2不为空，弹出stack2栈顶元素，如果stack2为空，判断stack1是否为空，如果不为空，将stack1中全部数逐个出栈放进stack2中，在弹出stack2的栈顶元素，如果stack1为空，返回-1.
+// ### 解题思路
+//     1.当插入时，直接插入stack1
+//     2.当删除时，当stack2不为空，弹出stack2栈顶元素，如果stack2为空，判断stack1是否为空，如果不为空，将stack1中全部数逐个出栈放进stack2中，在弹出stack2的栈顶元素，如果stack1为空，返回-1.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CQueue {
     public Stack<Integer> stack1 =new Stack<>();
     public Stack<Integer> stack2 =new Stack<>();
@@ -41,4 +41,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

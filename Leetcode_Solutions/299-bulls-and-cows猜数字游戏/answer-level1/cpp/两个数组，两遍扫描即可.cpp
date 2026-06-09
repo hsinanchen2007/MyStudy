@@ -1,7 +1,7 @@
 
-0ms
+// 0ms
 
-```c++
+// ```c++
 class Solution {
 public:
     string getHint(string secret, string guess) {
@@ -23,4 +23,4 @@ public:
         return string(out);
     }
 };
-```
+// ```

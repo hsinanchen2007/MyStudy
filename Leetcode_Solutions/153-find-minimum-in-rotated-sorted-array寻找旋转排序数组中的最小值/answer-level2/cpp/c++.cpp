@@ -1,9 +1,9 @@
-###思路
-二分寻找最后一个满足条件的元素
+// ###思路
+// 二分寻找最后一个满足条件的元素
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         return nums[r];
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import Counter
 class Solution(object):
     def findTheDifference(self, s, t):
@@ -14,4 +14,4 @@ class Solution(object):
         """ 
         return list((Counter(t) - Counter(s)).keys())[0]
 
-```
+# ```

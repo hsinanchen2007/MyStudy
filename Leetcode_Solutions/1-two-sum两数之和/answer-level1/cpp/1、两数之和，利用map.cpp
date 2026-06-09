@@ -1,9 +1,9 @@
-### 解题思路
-针对nums中的每个x利用map查找target - x
+// ### 解题思路
+// 针对nums中的每个x利用map查找target - x
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -20,4 +20,4 @@ public:
         return result;
     }
 };
-```
+// ```

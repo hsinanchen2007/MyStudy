@@ -1,4 +1,4 @@
-```
+// ```
 
 class NumArray {
     var nums:[Int]!
@@ -76,4 +76,4 @@ class NumArray {
  * obj.update(i, val)
  * let ret_2: Int = obj.sumRange(i, j)
  */
-```
+// ```

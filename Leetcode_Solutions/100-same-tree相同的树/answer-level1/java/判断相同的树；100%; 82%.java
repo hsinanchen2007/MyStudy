@@ -1,6 +1,6 @@
-0ms 100%; 34.4MB 82%
+// 0ms 100%; 34.4MB 82%
 
-```java []
+// ```java []
 class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p == null && q == null) return true;
@@ -11,5 +11,5 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 

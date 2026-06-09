@@ -1,10 +1,10 @@
-### 解题思路
-解题的关键点是对重复出现的字符的处理，定义数组index来保存字符上次出现时的下标， 每出现重复字符，更新一下下标位置index[i]，更新一下最长字符的长度maxLen和当前非重复字符串的长度len。
-需要注意：并不是出现重复字符就要更新len,有可能重复字符对当前的len没有影响，即i - index[s[i]] > len，如"tmmzuxt" t的出现就不用更新len的值。代码如下
+// ### 解题思路
+// 解题的关键点是对重复出现的字符的处理，定义数组index来保存字符上次出现时的下标， 每出现重复字符，更新一下下标位置index[i]，更新一下最长字符的长度maxLen和当前非重复字符串的长度len。
+// 需要注意：并不是出现重复字符就要更新len,有可能重复字符对当前的len没有影响，即i - index[s[i]] > len，如"tmmzuxt" t的出现就不用更新len的值。代码如下
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -35,4 +35,4 @@ public:
         return maxLen;
     }
 };
-```
+// ```

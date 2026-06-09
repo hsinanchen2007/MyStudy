@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[int]:
         # bfs with recursion, add level flag then merge 2dim list
@@ -23,4 +23,4 @@ class Solution:
         for lv in res:
             out += lv
         return out
-```
+# ```

@@ -1,4 +1,4 @@
-```swift
+// ```swift
  class Solution {
     func findTargetSumWays(_ nums: [Int], _ S: Int) -> Int {
         guard nums.count > 1 else {
@@ -29,4 +29,4 @@
         return last[S] ?? 0
     }
  }
-```
+// ```

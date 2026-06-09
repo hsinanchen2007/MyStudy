@@ -1,6 +1,6 @@
-遍历这个数组，每走一步都计算后面能走的最大路径。
+// 遍历这个数组，每走一步都计算后面能走的最大路径。
 
-```js
+// ```js
 var canJump = function(nums) {
   var curMaxStep = 0;
   for (var i = 0; i < nums.length; i++) {
@@ -13,4 +13,4 @@ var canJump = function(nums) {
     }
   }
 };
-```
+// ```

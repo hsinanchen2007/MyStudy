@@ -1,8 +1,8 @@
-深度优先搜索+剪枝
-首先比较重要的是用什么数据结构保存中间变量，这里我们选用unordered_map<int,vector<pair<int,int> > >保存当前节点的可达节点和可达节点的路径
-第二个是如何求取全局最小值，这里我们选用剪枝操作，对大于当前最小值的路径剪枝，最后求得的结果就是全局最小值。
-实现如下：
-```
+// 深度优先搜索+剪枝
+// 首先比较重要的是用什么数据结构保存中间变量，这里我们选用unordered_map<int,vector<pair<int,int> > >保存当前节点的可达节点和可达节点的路径
+// 第二个是如何求取全局最小值，这里我们选用剪枝操作，对大于当前最小值的路径剪枝，最后求得的结果就是全局最小值。
+// 实现如下：
+// ```
 class Solution {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int K) {
@@ -26,4 +26,4 @@ public:
         }
     }
 };
-```
+// ```

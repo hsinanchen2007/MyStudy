@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/1c77b21ecb0c5768061453392c137c5d37fb9b9d8bb44f49761217aec2c976da-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/1c77b21ecb0c5768061453392c137c5d37fb9b9d8bb44f49761217aec2c976da-image.png)
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn largest_time_from_digits(a: Vec<i32>) -> String {
         let mut a = a;
@@ -31,4 +31,4 @@ impl Solution {
         "".to_string()
     }
 }
-```
+// ```

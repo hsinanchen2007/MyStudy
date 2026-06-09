@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         if not chars or not words:
@@ -22,4 +22,4 @@ class Solution:
         return res
 
         
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     //递归：
     public boolean stoneGame1(int[] piles) {
@@ -71,4 +71,4 @@ class Solution {
     }
 }
 
-```
+// ```

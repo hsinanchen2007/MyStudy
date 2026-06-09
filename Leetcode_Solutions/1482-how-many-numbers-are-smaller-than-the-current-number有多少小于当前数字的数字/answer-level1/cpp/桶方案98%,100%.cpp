@@ -1,5 +1,5 @@
-#### 因为存储的数字范围是0-100，所以用一个101规模的数组，数组的索引对应各元素，各索引存放的内容对应其属性。
-```
+// #### 因为存储的数字范围是0-100，所以用一个101规模的数组，数组的索引对应各元素，各索引存放的内容对应其属性。
+// ```
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
 private:
 	int num[101];
 };
-```
+// ```

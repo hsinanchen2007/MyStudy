@@ -1,9 +1,9 @@
-### 解题思路
-写完发现都是集合，为什么我第一反应就哈希表...
+# ### 解题思路
+# 写完发现都是集合，为什么我第一反应就哈希表...
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         res = []
@@ -17,4 +17,4 @@ class Solution:
             if i in hax1:
                 res.append(i)
         return res
-```
+# ```

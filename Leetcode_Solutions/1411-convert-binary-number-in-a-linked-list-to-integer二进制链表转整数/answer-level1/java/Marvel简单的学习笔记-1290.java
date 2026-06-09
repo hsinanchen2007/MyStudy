@@ -1,9 +1,9 @@
-### 解题思路
-最基本的二进制转十进制。
+// ### 解题思路
+// 最基本的二进制转十进制。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int getDecimalValue(ListNode head) {
         int decimal = 0;
@@ -15,4 +15,4 @@ class Solution {
         return decimal;
     }
 }
-```
+// ```

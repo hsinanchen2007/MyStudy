@@ -1,4 +1,4 @@
-```
+// ```
 func min(a int, b int) int {
 	if a > b {
 		return b
@@ -26,4 +26,4 @@ func maxArea(height []int) int {
 
 	return max
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 #define WALL -1
 #define DOOR 0
 #define ROOM 2147483647
@@ -135,4 +135,4 @@ void wallsAndGates(int **rooms, int roomsSize, int *roomsColSize)
     Queue_Destroy(&queue);
     return;
 }
-```
+// ```

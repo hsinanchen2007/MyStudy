@@ -1,9 +1,9 @@
-### 解题思路
-记录一下
+# ### 解题思路
+# 记录一下
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
@@ -39,4 +39,4 @@ class Solution(object):
         if unrepeatNumTemp > unrepeatNumResult:
             unrepeatNumResult = unrepeatNumTemp
         return unrepeatNumResult
-```
+# ```

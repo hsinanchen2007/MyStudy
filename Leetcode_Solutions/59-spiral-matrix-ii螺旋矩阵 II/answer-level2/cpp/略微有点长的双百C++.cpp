@@ -1,11 +1,11 @@
-### 解题思路
-螺旋考虑每行每列填充的边界就可以
-![image.png](https://pic.leetcode-cn.com/2e7af180570f5e66f61587db1fd7430a9aeb7032c54f4cd5af1063cd5f874785-image.png)
+// ### 解题思路
+// 螺旋考虑每行每列填充的边界就可以
+// ![image.png](https://pic.leetcode-cn.com/2e7af180570f5e66f61587db1fd7430a9aeb7032c54f4cd5af1063cd5f874785-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -47,4 +47,4 @@ public:
         return ret;
     }
 };
-```
+// ```

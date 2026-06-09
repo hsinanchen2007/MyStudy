@@ -1,10 +1,10 @@
-### 解题思路
-类似全排列，利用set去重
+// ### 解题思路
+// 类似全排列，利用set去重
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numTilePossibilities(String tiles) {
         if(tiles == null || tiles.length() == 0){
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

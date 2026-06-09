@@ -1,6 +1,6 @@
-思路：见标题
-注意：本人菜鸡 空间上的效率不是很好 以下代码仅供参考(主要语句都添加了注释) 还请大家多多指教
-```
+# 思路：见标题
+# 注意：本人菜鸡 空间上的效率不是很好 以下代码仅供参考(主要语句都添加了注释) 还请大家多多指教
+# ```
 from collections import deque #这边使用队列的原因是因为方便后序遍历的左插入操作
 class Solution:
 	def pathSum(self,root,sum):
@@ -24,4 +24,4 @@ class Solution:
 				return a+b #将左子树的可行路径和右子树的可行路径加起来一起返回
 			ans=helper(root,sum,0)
 		return ans
-```
+# ```

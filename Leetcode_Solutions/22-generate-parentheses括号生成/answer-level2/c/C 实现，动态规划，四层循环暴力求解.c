@@ -1,8 +1,8 @@
-![2019-10-02_01-29.png](https://pic.leetcode-cn.com/324f8dfafafb336692d19092ce3d48ad1cff42ed5d6a82bd7fb00ef35438be17-2019-10-02_01-29.png)
+// ![2019-10-02_01-29.png](https://pic.leetcode-cn.com/324f8dfafafb336692d19092ce3d48ad1cff42ed5d6a82bd7fb00ef35438be17-2019-10-02_01-29.png)
 
-动态规划的原理参考精选题解
+// 动态规划的原理参考精选题解
 
-```c
+// ```c
 // 一个 Group 用来存储一个 n 对应的所有排列组合情况
 struct Group {
     char ** table; // 所有排列组合用一个 table 存储，结构为 {"(())", "()()"}
@@ -77,4 +77,4 @@ char ** generateParenthesis(int n, int* returnSize){
     free(groups);
     return ret;
 }
-```
+// ```

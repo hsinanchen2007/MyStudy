@@ -1,10 +1,10 @@
-### 解题思路
-设立一个快一个慢指针，在环里相遇证明有环；
-注意要判断next==nullptr，否则容易报错
+// ### 解题思路
+// 设立一个快一个慢指针，在环里相遇证明有环；
+// 注意要判断next==nullptr，否则容易报错
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ public:
         
     }
 };
-```
+// ```

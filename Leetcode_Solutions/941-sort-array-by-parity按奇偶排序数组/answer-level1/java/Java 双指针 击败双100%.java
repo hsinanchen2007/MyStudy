@@ -1,4 +1,4 @@
-```
+// ```
 public int[] Num905sortArrayByParity(int[] A) {
         int i=0;
         int j=A.length-1;
@@ -21,4 +21,4 @@ public int[] Num905sortArrayByParity(int[] A) {
         }
         return A;
     }
-```
+// ```

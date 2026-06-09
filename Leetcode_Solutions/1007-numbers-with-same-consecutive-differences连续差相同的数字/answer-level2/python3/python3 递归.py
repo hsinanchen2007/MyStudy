@@ -1,10 +1,10 @@
 
 
-递归不断的给数字后添加比前一个数字+K或-K的数字，当数字长度达到要求后退出递归，将其补充到结果列表中。
-注意如果位数为1要把0加入到首位数字循环中
+# 递归不断的给数字后添加比前一个数字+K或-K的数字，当数字长度达到要求后退出递归，将其补充到结果列表中。
+# 注意如果位数为1要把0加入到首位数字循环中
 
 
-```python []
+# ```python []
 class Solution:
     def digui(self,numlist,curnum,K,L):
         if len(curnum) >= L:
@@ -32,4 +32,4 @@ class Solution:
             self.digui(res,str(i),K,N)
                      
         return res
-```
+# ```

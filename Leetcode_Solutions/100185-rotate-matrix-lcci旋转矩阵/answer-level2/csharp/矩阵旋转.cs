@@ -1,9 +1,9 @@
-### 解题思路
-此题只需要对角线翻转，然后再上下翻转就可以实现。
+// ### 解题思路
+// 此题只需要对角线翻转，然后再上下翻转就可以实现。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public void Rotate(int[][] matrix) 
     {
@@ -35,4 +35,4 @@ public class Solution {
            
     }
 }
-```
+// ```

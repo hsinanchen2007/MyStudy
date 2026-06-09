@@ -1,10 +1,10 @@
-### 解题思路
-一开始写的dfs只过了80%
-用dp解,二维背包问题
+# ### 解题思路
+# 一开始写的dfs只过了80%
+# 用dp解,二维背包问题
 
 
-### 代码
-```
+# ### 代码
+# ```
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
         from collections import Counter
@@ -19,11 +19,11 @@ class Solution:
                     if nums[k-1]['0']<=i and nums[k-1]['1']<=j:
                         dp[k][i][j] = max(dp[k-1][i][j], dp[k-1][i-nums[k-1]['0']][j-nums[k-1]['1']]+1)
         return dp[-1][-1][-1]
-```
+# ```
 
-因为dp[k]只和dp[k-1]有关, 所以优化到二维空间, 从后往前计算使dp[i-nums[k-1]['0']是dp[k-1]的而不是dp[k]的
+# 因为dp[k]只和dp[k-1]有关, 所以优化到二维空间, 从后往前计算使dp[i-nums[k-1]['0']是dp[k-1]的而不是dp[k]的
 
-```
+# ```
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
         from collections import Counter
@@ -38,11 +38,11 @@ class Solution:
                     if nums[k-1]['0']<=i and nums[k-1]['1']<=j:
                         dp[i][j] = max(dp[i][j], dp[i-nums[k-1]['0']][j-nums[k-1]['1']]+1)
         return dp[-1][-1]
-```
+# ```
 
-但是都超时了 猜测原因是Counter比较耗时, 改为动态计算0,1长度, 过了但是时间也很久4856ms
+# 但是都超时了 猜测原因是Counter比较耗时, 改为动态计算0,1长度, 过了但是时间也很久4856ms
 
-```python3
+# ```python3
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
         # from collections import Counter
@@ -61,9 +61,9 @@ class Solution:
                     if z<=i and o<=j:
                         dp[i][j] = max(dp[i][j], dp[i-z][j-o]+1)
         return dp[-1][-1]
-```
+# ```
 
-```
+# ```
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
         # from collections import Counter
@@ -83,10 +83,10 @@ class Solution:
                     if z<=i and o<=j:
                         dp[i][j] = max(dp[i][j], dp[i-z][j-o]+1)
         return dp[-1][-1]
-```
+# ```
 
-递归dfs, 只能过53个 不知道原因
-```
+# 递归dfs, 只能过53个 不知道原因
+# ```
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
         def solve(i, m, n, res):
@@ -103,14 +103,14 @@ class Solution:
         l, memo = len(strs), {}
         nums = [Counter(s) for s in strs]
         return solve(0, m, n, 0)
-```
+# ```
 
-这个大佬的只要40ms, O(n)算法
-主要是那两个排序
-一个是str里包含0,1个数较少的先遍历
-一个是str里占用0,1个数较小的先遍历
+# 这个大佬的只要40ms, O(n)算法
+# 主要是那两个排序
+# 一个是str里包含0,1个数较少的先遍历
+# 一个是str里占用0,1个数较小的先遍历
 
-```
+# ```
 class Solution:
     def findMaxForm(self, strs: List[str], m: int, n: int) -> int:
         def _findMaxForm(s, m, n):
@@ -129,4 +129,4 @@ class Solution:
         s1 = sorted(counts, key=lambda i: min(i[0], i[1]))  # 按0或1计数里较小者从小到大排序
         s2 = sorted(counts, key=lambda i: min(m-i[0], n-i[1]), reverse=True)  # 取该字符后剩余0或1计数里较小者从大到小排
         return max(_findMaxForm(s1, m, n), _findMaxForm(s2, m, n))
-```
+# ```

@@ -1,7 +1,7 @@
-思路简单清晰，见注释
+// 思路简单清晰，见注释
 
 
-```java
+// ```java
 class Solution {
     public boolean checkValidString(String s) {
         int lNum = 0;//从左往右扫描，若是'(' 则加1 若是')'则减1
@@ -34,9 +34,9 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-```python []
+// ```python []
 class Solution:
     def checkValidString(self, s: str) -> bool:
         lNum = 0
@@ -66,5 +66,5 @@ class Solution:
         if (lSum < lNum) or (rSum < rNum):
             return False
         return True
-```
+// ```
 

@@ -1,63 +1,63 @@
-### 思路:
+# ### 思路:
 
-思路一:
-我们先找从左到右满足最少的糖果，再找从右到左的，最后取两边都满足的值(就是最大值)。
+# 思路一:
+# 我们先找从左到右满足最少的糖果，再找从右到左的，最后取两边都满足的值(就是最大值)。
 
-思路二:
-只需扫一遍数组。
+# 思路二:
+# 只需扫一遍数组。
 
-如何判断 `i` 位置需要多少糖果，我们需要处理有三种情况:
+# 如何判断 `i` 位置需要多少糖果，我们需要处理有三种情况:
 
-1. `ratings[i - 1]` == `ratings[i]`，那么我们只需要 `1` 糖果
+# 1. `ratings[i - 1]` == `ratings[i]`，那么我们只需要 `1` 糖果
 
-![1563430973450.png](https://pic.leetcode-cn.com/b8a0cf64abf988bef3da02801e81cf1580a9a18b0e96d6ba6b47b2c5b06f8bae-1563430973450.png){:width=300}
-{:align=center}
+# ![1563430973450.png](https://pic.leetcode-cn.com/b8a0cf64abf988bef3da02801e81cf1580a9a18b0e96d6ba6b47b2c5b06f8bae-1563430973450.png){:width=300}
+# {:align=center}
 
 
-2. `ratings[i - 1] < ratings[i]`，那么我们只需要比前一个多一块糖果
+# 2. `ratings[i - 1] < ratings[i]`，那么我们只需要比前一个多一块糖果
 
    
-![1563431091961.png](https://pic.leetcode-cn.com/669cf8f3db923ebaf4aac369f579c2348c245862e7f649260c7c50146aa99dd4-1563431091961.png){:width=300}
-{:align=center}
+# ![1563431091961.png](https://pic.leetcode-cn.com/669cf8f3db923ebaf4aac369f579c2348c245862e7f649260c7c50146aa99dd4-1563431091961.png){:width=300}
+# {:align=center}
 
-3. `ratings[i - 1] > ratings[i]`，那么我们不知道如何判断了，比如:
+# 3. `ratings[i - 1] > ratings[i]`，那么我们不知道如何判断了，比如:
 
-![1563431300625.png](https://pic.leetcode-cn.com/ac7842324de8da76899c631dee1c0c84cca355d8a09d218a9be887f1c4306283-1563431300625.png){:width=300}
-{:align=center}
+# ![1563431300625.png](https://pic.leetcode-cn.com/ac7842324de8da76899c631dee1c0c84cca355d8a09d218a9be887f1c4306283-1563431300625.png){:width=300}
+# {:align=center}
 
-但是，如果知道**递减的个数**，我们就能判断最少的糖果了
+# 但是，如果知道**递减的个数**，我们就能判断最少的糖果了
 
-![1563431573161.png](https://pic.leetcode-cn.com/169784d31f20cca02a4d82c0946ce848ca369d7fd5a5fee5984ea92e96a7c562-1563431573161.png){:width=400}
-{:align=center}
+# ![1563431573161.png](https://pic.leetcode-cn.com/169784d31f20cca02a4d82c0946ce848ca369d7fd5a5fee5984ea92e96a7c562-1563431573161.png){:width=400}
+# {:align=center}
 
 
-所以我们保证，递减序列，是从 `1` 开始加的(方向加)，再举个例子:
+# 所以我们保证，递减序列，是从 `1` 开始加的(方向加)，再举个例子:
 
-![1563431873123.png](https://pic.leetcode-cn.com/0b278240d44a74e0e518bda7749d38b65276b63dce07dbecdf3c0e419db2b80b-1563431873123.png){:width=450}
-{:align=center}
+# ![1563431873123.png](https://pic.leetcode-cn.com/0b278240d44a74e0e518bda7749d38b65276b63dce07dbecdf3c0e419db2b80b-1563431873123.png){:width=450}
+# {:align=center}
 
-如何判读 `?` 的糖果多少，我们发现 `ratings`是`3 - 2` 递减的，递减序列个数 `des_num`为`，我们**反向加**，
+# 如何判读 `?` 的糖果多少，我们发现 `ratings`是`3 - 2` 递减的，递减序列个数 `des_num`为`，我们**反向加**，
 
-有公差为 `1` 的求和公式$首项尾项项数 \frac{(首项 + 尾项) * 项数}{2}$，所以我们先假设 `rating` 在等于 `4` 时候也是满足等差的，所以，有 $\frac{( 1 + des\_num ) * des\_num}{2} = \frac{(1 + 2) * 2}{2}$ 糖果,所以 `ratings` 是 `3 - 2` 对于的糖果说 `2 - 1`
+# 有公差为 `1` 的求和公式$首项尾项项数 \frac{(首项 + 尾项) * 项数}{2}$，所以我们先假设 `rating` 在等于 `4` 时候也是满足等差的，所以，有 $\frac{( 1 + des\_num ) * des\_num}{2} = \frac{(1 + 2) * 2}{2}$ 糖果,所以 `ratings` 是 `3 - 2` 对于的糖果说 `2 - 1`
 
-但是还有一种可能, 如下图所示：
+# 但是还有一种可能, 如下图所示：
 
-![1563436200915.png](https://pic.leetcode-cn.com/a82f697e7be2aff71e3c47201f6cc89968b5a87eaa454d35fb83d6b33835f481-1563436200915.png){:width=500}
-{:align=center}
+# ![1563436200915.png](https://pic.leetcode-cn.com/a82f697e7be2aff71e3c47201f6cc89968b5a87eaa454d35fb83d6b33835f481-1563436200915.png){:width=500}
+# {:align=center}
 
-所以
+# 所以
 
-时间复杂度 : $O(n)$
+# 时间复杂度 : $O(n)$
 
-空间复杂度 : $O(1)$ 
+# 空间复杂度 : $O(1)$ 
 
-大家在根据代码理解理解，如果还有不明白的，可以提出来!
+# 大家在根据代码理解理解，如果还有不明白的，可以提出来!
 
-### 代码:
+# ### 代码:
 
-思路一:
+# 思路一:
 
-```Python [-Python]
+# ```Python [-Python]
     def candy(self, ratings) -> int:
         n = len(ratings)
         if n == 0: return 0
@@ -80,11 +80,11 @@
         for i in range(n):
             res += max(left_to_right[i], right_to_left[i])
         return res
-```
+# ```
 
-优化思路一:
+# 优化思路一:
 
-```Python [1]
+# ```Python [1]
 class Solution:
     def candy(self, ratings: List[int]) -> int:
         n = len(ratings)
@@ -99,11 +99,11 @@ class Solution:
             if ratings[i - 1] > ratings[i]:
                 candy_nums[i - 1] = max(candy_nums[i - 1], candy_nums[i] + 1)
         return sum(candy_nums)
-```
+# ```
 
 
 
-```Java [1]
+# ```Java [1]
 class Solution {
     public int candy(int[] ratings) {
         if (ratings == null || ratings.length == 0) return 0;
@@ -121,11 +121,11 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 
-思路二:
+# 思路二:
 
-```Python [2]
+# ```Python [2]
 class Solution:
     def candy(self, ratings: List[int]) -> int:
         res = 1
@@ -154,10 +154,10 @@ class Solution:
             res += ((1 + des_num) * des_num) // 2
             if pre <= des_num: res += (des_num - pre + 1)
         return res
-```
+# ```
 
 
-```Java [2]
+# ```Java [2]
 class Solution {
     public int candy(int[] ratings) {
         int res = 1;
@@ -182,5 +182,5 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 

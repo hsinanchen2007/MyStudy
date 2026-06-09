@@ -1,4 +1,4 @@
-```
+// ```
 #define TWO 2
 int max(int a, int b)
 {
@@ -31,4 +31,4 @@ int maxProfit(int* prices, int pricesSize) {
     }
     return dp[pricesSize - 1][0];
 }
-```
+// ```

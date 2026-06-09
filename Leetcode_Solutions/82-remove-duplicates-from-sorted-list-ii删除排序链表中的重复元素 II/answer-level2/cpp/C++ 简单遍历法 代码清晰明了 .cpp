@@ -1,4 +1,4 @@
-```
+// ```
 ListNode* deleteDuplicates(ListNode* head) {
         ListNode* cur=head;
         ListNode* res=new ListNode(0);
@@ -23,4 +23,4 @@ ListNode* deleteDuplicates(ListNode* head) {
     
         
     }
-```
+// ```

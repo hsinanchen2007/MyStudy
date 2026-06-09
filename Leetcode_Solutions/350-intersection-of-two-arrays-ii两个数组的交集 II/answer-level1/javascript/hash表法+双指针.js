@@ -1,5 +1,5 @@
-1. 直接暴力双重循环查找
-```javascript
+// 1. 直接暴力双重循环查找
+// ```javascript
 var intersect = function (nums1, nums2) {
     let res = []
     for (let i = 0; i < nums1.length; i++) {
@@ -13,10 +13,10 @@ var intersect = function (nums1, nums2) {
     }
     return res
 };
-```
+// ```
 
-2.  Hash 表存储nums1的的所有数字出现次数，再遍历一遍nums2，如果从map中取到了值，便将其出现次数减1并记录下来，注意将较小数组存入 map 中可以节约 map 空间
-```javascript
+// 2.  Hash 表存储nums1的的所有数字出现次数，再遍历一遍nums2，如果从map中取到了值，便将其出现次数减1并记录下来，注意将较小数组存入 map 中可以节约 map 空间
+// ```javascript
 var intersect = function (nums1, nums2) {
     let map = new Map()
 
@@ -45,10 +45,10 @@ var intersect = function (nums1, nums2) {
     }
     return res
 };
-```
+// ```
 
-3. 双指针指向两个数组，如果两者所指的元素大小相同，则记录下该元素，并将双指针都前进一位，否则比较当前元素大小，比较小的那一个元素，指针前进一位
-```
+// 3. 双指针指向两个数组，如果两者所指的元素大小相同，则记录下该元素，并将双指针都前进一位，否则比较当前元素大小，比较小的那一个元素，指针前进一位
+// ```
 var intersect = function (nums1, nums2) {
     let p1 = 0
     let p2 = 0
@@ -70,4 +70,4 @@ var intersect = function (nums1, nums2) {
     }
     return res
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-使用memcpy函数，从第i个字符开始，比较i后面与needle长度相同的字符串与needle是否相等。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 使用memcpy函数，从第i个字符开始，比较i后面与needle长度相同的字符串与needle是否相等。
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle){
 
     int l1=strlen(haystack);
@@ -19,4 +19,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

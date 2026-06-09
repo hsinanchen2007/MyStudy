@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/52e0edd882cf2fa6e47736385821f0590ed38bdda728c7767a268dac32eaac19-image.png)
+# ![image.png](https://pic.leetcode-cn.com/52e0edd882cf2fa6e47736385821f0590ed38bdda728c7767a268dac32eaac19-image.png)
 
 
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -50,4 +50,4 @@ class Solution: # 计数从1开始
 
 
 
-```
+# ```

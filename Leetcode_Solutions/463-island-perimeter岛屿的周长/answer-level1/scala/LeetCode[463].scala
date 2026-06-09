@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def ajecent(grid: Array[Array[Int]], i: Int, j: Int, coli: Int, colj: Int): Int = {
     var num = 0
@@ -27,4 +27,4 @@ object Solution {
     num
   }
 }
-```
+// ```

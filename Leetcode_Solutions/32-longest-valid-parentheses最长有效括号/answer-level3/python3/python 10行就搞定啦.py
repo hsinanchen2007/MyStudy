@@ -1,5 +1,5 @@
-# 方法一：动态规划，题解看官方吧
-```
+# # 方法一：动态规划，题解看官方吧
+# ```
 class Solution:  # 动态规划
     def longestValidParentheses(self, s: str) -> int:
         array = [0 for _ in s]  # 初始化数组
@@ -12,10 +12,10 @@ class Solution:  # 动态规划
             else:
                 continue
         return len(array) > 0 and max(array) or 0
-```
+# ```
 
-# 方法二：栈
-```
+# # 方法二：栈
+# ```
 class Solution:  # 栈
     def longestValidParentheses(self, s: str) -> int:
         stack = [-1]
@@ -30,6 +30,6 @@ class Solution:  # 栈
                 else:
                     max_len = max(max_len, i - stack[-1])
         return max_len
-```
+# ```
 
 

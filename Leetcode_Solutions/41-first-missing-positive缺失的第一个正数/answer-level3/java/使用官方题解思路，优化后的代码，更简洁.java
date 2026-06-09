@@ -1,4 +1,4 @@
-使用官方题解思路，优化后的代码，更简洁
+// 使用官方题解思路，优化后的代码，更简洁
 
     public int firstMissingPositive(int[] nums) {
       int n = nums.length;

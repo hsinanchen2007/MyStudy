@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findTargetSumWays(self, nums: List[int], S: int) -> int:
         # Time complexity: O(sum * N)
@@ -15,4 +15,4 @@ class Solution:
                 dp[i][j - num + 1000] += dp[i - 1][j + 1000]
             tmp_sum += num
         return dp[len(nums)][S + 1000]
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-list保存窗口元素位置
+// list保存窗口元素位置
 
-sum记录窗口总和
+// sum记录窗口总和
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MovingAverage {
 private:
     vector<int> window;
@@ -36,4 +36,4 @@ public:
  * MovingAverage* obj = new MovingAverage(size);
  * double param_1 = obj->next(val);
  */
-```
+// ```

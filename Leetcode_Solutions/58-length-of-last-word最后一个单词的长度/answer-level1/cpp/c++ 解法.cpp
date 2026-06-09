@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -20,4 +20,4 @@ public:
         return len;
     }
 };
-```
+// ```

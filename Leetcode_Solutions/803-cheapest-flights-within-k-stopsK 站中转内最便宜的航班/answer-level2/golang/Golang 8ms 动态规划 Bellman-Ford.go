@@ -1,13 +1,13 @@
-运行时间： 8ms
-提醒： go标准库math里面有一个math.Int64表示最大的int64，使用的时候要除以/2，以免发生overflow。
+// 运行时间： 8ms
+// 提醒： go标准库math里面有一个math.Int64表示最大的int64，使用的时候要除以/2，以免发生overflow。
 
-我这里使用 2x节点数x边最大指 粗略算出一个最大值。
+// 我这里使用 2x节点数x边最大指 粗略算出一个最大值。
 
-提示：标准库math 里面的 Min(float64, float64) float64 的运行时间较慢，对于int型的求小，自定义过一个min函数即可。
+// 提示：标准库math 里面的 Min(float64, float64) float64 的运行时间较慢，对于int型的求小，自定义过一个min函数即可。
 
-提示：go的slice 克隆方法很多，最安全的是就是 s1 = append(s0[:0:0], s0...)
+// 提示：go的slice 克隆方法很多，最安全的是就是 s1 = append(s0[:0:0], s0...)
 
-```
+// ```
 func findCheapestPrice(n int, flights [][]int, src int, dst int, K int) int {
 	// 	The max price for every route is 10000,
 	//	so we can set the infCost to be 2*n*10000
@@ -57,4 +57,4 @@ func min(a, b int) int {
 	}
 }
 
-```
+// ```

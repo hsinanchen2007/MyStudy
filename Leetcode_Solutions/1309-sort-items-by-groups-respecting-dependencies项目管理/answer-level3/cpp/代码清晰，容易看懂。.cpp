@@ -1,6 +1,6 @@
-1.分group和item两层处理；
-2.group为-1单独分配一个组号;;
-```
+// 1.分group和item两层处理；
+// 2.group为-1单独分配一个组号;;
+// ```
 class Solution {
 private:
     // index by group id
@@ -114,4 +114,4 @@ public:
         return res;
     }
 };
-```
+// ```

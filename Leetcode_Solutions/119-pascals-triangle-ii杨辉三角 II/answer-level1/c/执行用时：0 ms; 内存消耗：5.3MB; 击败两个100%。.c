@@ -1,6 +1,6 @@
-申请一行的空间，从后往前处理就不需要考虑数组元素被处理时被覆盖的问题。
+// 申请一行的空间，从后往前处理就不需要考虑数组元素被处理时被覆盖的问题。
 
-```
+// ```
 int* getRow(int rowIndex, int* returnSize){
     * returnSize = rowIndex + 1;
     int* array = (int *)malloc(sizeof(int) * (rowIndex+1));
@@ -11,5 +11,5 @@ int* getRow(int rowIndex, int* returnSize){
     }
     return array;
 }
-```
+// ```
 

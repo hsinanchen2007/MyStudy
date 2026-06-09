@@ -1,9 +1,9 @@
-### 解题思路
-为了节省内存使用,返回的ListNode复用l1的内存;还有一个思路可以选择复用l1、l2中最长的node,但是这种情况执行时间会加大。
+// ### 解题思路
+// 为了节省内存使用,返回的ListNode复用l1的内存;还有一个思路可以选择复用l1、l2中最长的node,但是这种情况执行时间会加大。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -41,4 +41,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

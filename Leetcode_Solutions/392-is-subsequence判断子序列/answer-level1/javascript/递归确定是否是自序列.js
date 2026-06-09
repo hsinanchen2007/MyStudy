@@ -1,9 +1,9 @@
-### 解题思路
-利用递归解决问题，将问题由大问题化解为更小的子问题的方式
+// ### 解题思路
+// 利用递归解决问题，将问题由大问题化解为更小的子问题的方式
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 const  isSubsequence = (s, t)=>{
     const helper=(s,t)=>{
         if(s.length<1) return true;
@@ -17,4 +17,4 @@ const  isSubsequence = (s, t)=>{
     };
     return helper(s,t);
 };
-```
+// ```

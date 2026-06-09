@@ -1,5 +1,5 @@
-![leetoce171.png](https://pic.leetcode-cn.com/87efb0b175ea3706ae85d9d5cfba72a94ae3f5f6cd561e0149109e00038a8d18-leetoce171.png)
-```
+// ![leetoce171.png](https://pic.leetcode-cn.com/87efb0b175ea3706ae85d9d5cfba72a94ae3f5f6cd561e0149109e00038a8d18-leetoce171.png)
+// ```
 class Solution {
 public:
     int titleToNumber(string num) {
@@ -17,4 +17,4 @@ public:
             return (int)pow(i,n);
         }
 };
-```
+// ```

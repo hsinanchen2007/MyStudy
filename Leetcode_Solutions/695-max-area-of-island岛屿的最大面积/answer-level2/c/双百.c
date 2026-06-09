@@ -1,10 +1,10 @@
-### 解题思路
-反正这种就是bfs或者dfs, 都可以, 遍历了就行了
-一个比较取巧的技巧是, 当我们在某一个1的时候, 在递归周围的时候, 我们可以把当前设置为0, 避免再次使用到这个值
+// ### 解题思路
+// 反正这种就是bfs或者dfs, 都可以, 遍历了就行了
+// 一个比较取巧的技巧是, 当我们在某一个1的时候, 在递归周围的时候, 我们可以把当前设置为0, 避免再次使用到这个值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void recursive(int**grid, int x, int y, int *area, int row_len, int col_len){
     grid[x][y] = 0;
     (*area)++;
@@ -33,4 +33,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
     }
     return maxArea;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-100 ms, 在所有 Python 提交中击败了96.12%的用户
+# 100 ms, 在所有 Python 提交中击败了96.12%的用户
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -29,7 +29,7 @@ class Solution(object):
                 else:
                     root.right = TreeNode(val)
         return root
-```
-代码块
-```
-```
+# ```
+# 代码块
+# ```
+# ```

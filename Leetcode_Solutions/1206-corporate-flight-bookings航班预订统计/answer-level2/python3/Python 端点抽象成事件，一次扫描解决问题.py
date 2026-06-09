@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/131d181c9057567bcaee46e2cc92cb169a4cbadee3d03b087bcac3e10b24495b-image.png)
+# ![image.png](https://pic.leetcode-cn.com/131d181c9057567bcaee46e2cc92cb169a4cbadee3d03b087bcac3e10b24495b-image.png)
 
 
-```
+# ```
 
 '''
 把每个区间的开始点和结束点抽象成两个事件
@@ -31,4 +31,4 @@ class Solution:
             ans[i-1] = order
 
         return ans
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Trie:
     def __init__(self):
         self.root={}
@@ -47,4 +47,4 @@ class Solution:
         for word in words:
             res +=obj.insert(word)
         return res
-```
+# ```

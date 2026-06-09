@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 func selfDividingNumbers(_ left: Int, _ right: Int) -> [Int] {
     var result:[Int] = []
@@ -21,4 +21,4 @@ func selfDividingNumbers(_ left: Int, _ right: Int) -> [Int] {
     return result
     }
 }
-```
+// ```

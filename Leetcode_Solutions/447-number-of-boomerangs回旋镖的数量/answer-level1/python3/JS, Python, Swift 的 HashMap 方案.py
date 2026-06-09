@@ -1,9 +1,9 @@
-要点：
-1. 外层遍历每个点 i，内层遍历并计算其他点 j 到 i 的距离并通过 Map 保存相等距离的频次
-2. 计算距离公式不用开根号
-3. 计算排列组合公式 n * (n - 1)
+# 要点：
+# 1. 外层遍历每个点 i，内层遍历并计算其他点 j 到 i 的距离并通过 Map 保存相等距离的频次
+# 2. 计算距离公式不用开根号
+# 3. 计算排列组合公式 n * (n - 1)
 
-```javascript []
+# ```javascript []
 var numberOfBoomerangs = function(points) {
   let res = 0;
   for(let i = 0; i < points.length; i++) {
@@ -33,8 +33,8 @@ function dis(pa, pb) {
   // 求坐标点间的距离 https://baike.baidu.com/item/%E4%B8%A4%E7%82%B9%E9%97%B4%E8%B7%9D%E7%A6%BB%E5%85%AC%E5%BC%8F
   return (pa[0] - pb[0]) * (pa[0] - pb[0]) + (pa[1] - pb[1]) * (pa[1] - pb[1]);
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def dis(self, p1, p2):
         return (p1[0] - p2[0]) * (p1[0] - p2[0]) + (p1[1] - p2[1]) * (p1[1] - p2[1])
@@ -53,8 +53,8 @@ class Solution:
         
         return res
                         
-```
-```swift []
+# ```
+# ```swift []
 class Solution {
   func dis(_ p1: [Int],_ p2: [Int]) -> Int {
     let a = (p1[0] - p2[0]) * (p1[0] - p2[0])
@@ -82,4 +82,4 @@ class Solution {
     return res
   }
 }
-```
+# ```

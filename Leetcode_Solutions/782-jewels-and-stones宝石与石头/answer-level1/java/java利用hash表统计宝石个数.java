@@ -1,9 +1,9 @@
-### 解题思路
-利用hashmap的key的唯一性；
+// ### 解题思路
+// 利用hashmap的key的唯一性；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numJewelsInStones(String J, String S) {
         int count=0;
@@ -25,4 +25,4 @@ class Solution {
         return count;
     } 
 }
-```
+// ```

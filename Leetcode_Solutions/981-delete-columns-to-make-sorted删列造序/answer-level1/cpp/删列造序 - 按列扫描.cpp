@@ -1,9 +1,9 @@
-### 解题思路
-没什么好说的
+// ### 解题思路
+// 没什么好说的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDeletionSize(vector<string>& A) {
@@ -20,4 +20,4 @@ public:
         return ans;
     }
 };
-```
+// ```

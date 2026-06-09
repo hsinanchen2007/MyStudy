@@ -1,9 +1,9 @@
-### 解题思路
-利用前序遍历和栈的思想解题
+# ### 解题思路
+# 利用前序遍历和栈的思想解题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
             path.pop()
         help(root, sum, res_path, self.path, self.path_value)       
         return res_path
-```
+# ```

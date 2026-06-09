@@ -1,11 +1,11 @@
-### 解题思路
-1.sential为哨兵，用于保护第一个结点。
-2.pre指向移除元素结点的前驱结点，curr指向当前的需要移除的结点。
-3.先将curr结点传toDelete结点，再将pre的next指针指向curr的next，将toDetele指针结点删除，并置为空。
+// ### 解题思路
+// 1.sential为哨兵，用于保护第一个结点。
+// 2.pre指向移除元素结点的前驱结点，curr指向当前的需要移除的结点。
+// 3.先将curr结点传toDelete结点，再将pre的next指针指向curr的next，将toDetele指针结点删除，并置为空。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,4 +44,4 @@ public:
         return ret;
     }
 };
-```
+// ```

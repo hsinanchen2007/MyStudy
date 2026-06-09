@@ -1,4 +1,4 @@
-只选择性对行进行反转即可。
+// 只选择性对行进行反转即可。
 
 public int matrixScore(int[][] A) {
     if (A.length == 0 || A[0].length == 0) {

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-和 朋友圈 类似
+// 和 朋友圈 类似
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findFatherZip(father []int, i int) int {
 	j := i
 	for father[i] != i {
@@ -80,4 +80,4 @@ func numIslands(grid [][]byte) int {
 	return count
 }
 
-```
+// ```

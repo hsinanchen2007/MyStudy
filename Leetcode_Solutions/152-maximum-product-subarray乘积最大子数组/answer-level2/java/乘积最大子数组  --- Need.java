@@ -1,23 +1,23 @@
-### 解题思路
-1. 0  还好说； 负数怎么办？
-2. [画解算法：152. 乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/solution/hua-jie-suan-fa-152-cheng-ji-zui-da-zi-xu-lie-by-g/)
-    - 遍历数组时计算当前最大值，不断更新
-    - **令imax为当前最大值**，则当前最大值为 imax = max(imax * nums[i], nums[i])
-    - **由于存在负数**，那么会**导致最大的变最小的，最小的变最大的**。因此还需要维护当前最小值imin，imin = min(imin * nums[i], nums[i])
-    - **当负数出现时则imax与imin进行交换再进行下一步计算**
-    - res = max(res, imax), res 初始值为float("-inf")
-    - 时间复杂度：O(n)
+// ### 解题思路
+// 1. 0  还好说； 负数怎么办？
+// 2. [画解算法：152. 乘积最大子序列](https://leetcode-cn.com/problems/maximum-product-subarray/solution/hua-jie-suan-fa-152-cheng-ji-zui-da-zi-xu-lie-by-g/)
+//     - 遍历数组时计算当前最大值，不断更新
+//     - **令imax为当前最大值**，则当前最大值为 imax = max(imax * nums[i], nums[i])
+//     - **由于存在负数**，那么会**导致最大的变最小的，最小的变最大的**。因此还需要维护当前最小值imin，imin = min(imin * nums[i], nums[i])
+//     - **当负数出现时则imax与imin进行交换再进行下一步计算**
+//     - res = max(res, imax), res 初始值为float("-inf")
+//     - 时间复杂度：O(n)
 
-3. **动态规划（由于存在负数）：**
-    - 状态定义 dpmax[i]和dpmin[i]分别记录以i号元素结尾的最大子数组乘积和最小子数组乘积。
-    - 状态转移： dpmax[i]=max{nums[i],nums[i]*dpmax[i-1],nums[i]*dpmin[i-1]}，类似可更新dpmin[i].
-    - 初始化：为了降低空间复杂度，使用premax，premin记录i-1时的最值。
+// 3. **动态规划（由于存在负数）：**
+//     - 状态定义 dpmax[i]和dpmin[i]分别记录以i号元素结尾的最大子数组乘积和最小子数组乘积。
+//     - 状态转移： dpmax[i]=max{nums[i],nums[i]*dpmax[i-1],nums[i]*dpmin[i-1]}，类似可更新dpmin[i].
+//     - 初始化：为了降低空间复杂度，使用premax，premin记录i-1时的最值。
 
-4. [最大和的连续子数组](https://leetcode-cn.com/problems/maximum-subarray/solution/python-zui-da-he-de-lian-xu-zi-shu-zu-by-a-niu-de-/)
+// 4. [最大和的连续子数组](https://leetcode-cn.com/problems/maximum-subarray/solution/python-zui-da-he-de-lian-xu-zi-shu-zu-by-a-niu-de-/)
 
 
-### 代码第一版 (注释代码 和 非注释的都存在错误)
-```
+// ### 代码第一版 (注释代码 和 非注释的都存在错误)
+// ```
 '''
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
@@ -62,12 +62,12 @@ class Solution:
 
         return max(float("-inf"), imax)
 
-```
+// ```
 
 
-### 代码 最终版
+// ### 代码 最终版
 
-```java
+// ```java
 class Solution {
     public int maxProduct(int[] nums) {
         if(nums==null || nums.length==0) return 0;
@@ -147,4 +147,4 @@ class Solution:
 '''
 
 
-```
+// ```

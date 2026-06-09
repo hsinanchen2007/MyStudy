@@ -1,9 +1,9 @@
-### 解题思路
-简单的模拟题，维护4个边界和2个方向即可，每次遇到边界就将方向顺时针旋转。
+// ### 解题思路
+// 简单的模拟题，维护4个边界和2个方向即可，每次遇到边界就将方向顺时针旋转。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
@@ -39,4 +39,4 @@ public:
         return res;
     }
 };
-```
+// ```

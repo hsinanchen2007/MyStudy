@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
-解法一
-```cpp
+// ### 代码
+// 解法一
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -17,10 +17,10 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-解法二
-```cpp
+// 解法二
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -32,4 +32,4 @@ public:
         return -1;
     }
 };
-```
+// ```

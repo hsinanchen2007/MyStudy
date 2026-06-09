@@ -1,9 +1,9 @@
-### 解题思路
-通过n % 10 取余的方式,获取个位.再 n/10 使十位变成个位.循环
+// ### 解题思路
+// 通过n % 10 取余的方式,获取个位.再 n/10 使十位变成个位.循环
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subtractProductAndSum(int n) {
         int x = 1;
@@ -17,4 +17,4 @@ class Solution {
         return x - sum;
     }
 }
-```
+// ```

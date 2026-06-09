@@ -1,4 +1,4 @@
-```
+// ```
 vector<unsigned> rev=[]() {
 	vector<unsigned> Rev(2048,0);
 	for(int i=0; i<2048; i++) Rev[i]=(Rev[i>>1]>>1)|((i&1)<<(10));
@@ -69,4 +69,4 @@ public:
         return r;
     }
 };
-```
+// ```

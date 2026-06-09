@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func minimumLengthEncoding(_ words: [String]) -> Int {
         if words.isEmpty {
@@ -32,4 +32,4 @@ extension String {
         return String(self[start..<endIndex])
     } 
 }
-```
+// ```

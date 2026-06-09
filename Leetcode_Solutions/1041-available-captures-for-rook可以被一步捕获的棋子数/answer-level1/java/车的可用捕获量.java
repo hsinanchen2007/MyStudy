@@ -1,11 +1,11 @@
-### 解题思路
-1.获取R字符的位置存x,y坐标
-2.分别判断四个方向是否有p有则cnt++,中间遇到B和边界返回
-3.返回cnt
+// ### 解题思路
+// 1.获取R字符的位置存x,y坐标
+// 2.分别判断四个方向是否有p有则cnt++,中间遇到B和边界返回
+// 3.返回cnt
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
 int x = 0;
@@ -61,4 +61,4 @@ int x = 0;
 		return cnt;
     }
 }
-```
+// ```

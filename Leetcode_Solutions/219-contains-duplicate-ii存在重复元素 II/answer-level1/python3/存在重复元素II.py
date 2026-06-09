@@ -1,8 +1,8 @@
-## 思路：
+# ## 思路：
 
-只要数组里存在，两个相同的数的索引号相差小于等于k，返回` true`
+# 只要数组里存在，两个相同的数的索引号相差小于等于k，返回` true`
 
-```python
+# ```python
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         lookup = {}
@@ -14,4 +14,4 @@ class Solution:
                 return True
             lookup[num] = idx
         return False
-```
+# ```

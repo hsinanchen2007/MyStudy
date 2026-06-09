@@ -1,9 +1,9 @@
-### 解题思路
-利用层级遍历，找出每一级的遍历顺序。节点的next 指针指向 该节点所在层的下一个节点，如果不存在，则指向null
+// ### 解题思路
+// 利用层级遍历，找出每一级的遍历顺序。节点的next 指针指向 该节点所在层的下一个节点，如果不存在，则指向null
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var connect = function(root) {
   if (!root) return null;
 
@@ -32,4 +32,4 @@ var connect = function(root) {
 
   return root;
 };
-```
+// ```

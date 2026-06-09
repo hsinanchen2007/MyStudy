@@ -1,24 +1,24 @@
-### 解题思路
-#### 0.preOrder & inOrder
-由先序遍历的性质可得先序列表：[root,left,right]
-由中序遍历的性质可得中序列表：[left,root,right]
-#### 递归建树
-递归的建立树：
-#### 1）递归基
-递归基：先序列表为空：已无根节点
-#### 2）根节点/左子树/右子树的建立
-根节点：preOrderList[0]
-找到根节点在中序列表的索引index
-左子树的节点个数：index
-右子树的节点个数：end-index
-左子树的先序列表：preOrderList[1:index+1]
-左子树的中序列表：inOrderList[:index]
-右子树的先序列表：preOrderList[index+1,:]
-右子树的中序列表: inOrderList[index:]
+# ### 解题思路
+# #### 0.preOrder & inOrder
+# 由先序遍历的性质可得先序列表：[root,left,right]
+# 由中序遍历的性质可得中序列表：[left,root,right]
+# #### 递归建树
+# 递归的建立树：
+# #### 1）递归基
+# 递归基：先序列表为空：已无根节点
+# #### 2）根节点/左子树/右子树的建立
+# 根节点：preOrderList[0]
+# 找到根节点在中序列表的索引index
+# 左子树的节点个数：index
+# 右子树的节点个数：end-index
+# 左子树的先序列表：preOrderList[1:index+1]
+# 左子树的中序列表：inOrderList[:index]
+# 右子树的先序列表：preOrderList[index+1,:]
+# 右子树的中序列表: inOrderList[index:]
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -45,4 +45,4 @@ class Solution:
         
 
 
-```
+# ```

@@ -1,5 +1,5 @@
-求出所有元素个数的最大公约数
-```
+// 求出所有元素个数的最大公约数
+// ```
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -30,4 +30,4 @@ public:
        return n==0?m:gcd(n,m%n);
     }
 };
-```
+// ```

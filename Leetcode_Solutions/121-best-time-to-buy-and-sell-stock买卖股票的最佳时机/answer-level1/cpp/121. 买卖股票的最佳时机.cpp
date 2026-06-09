@@ -1,9 +1,9 @@
-### 解题思路
-原数组两个元素的最大差等于求差数组的最大子序和
+// ### 解题思路
+// 原数组两个元素的最大差等于求差数组的最大子序和
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -15,4 +15,4 @@ public:
         return profit;
     }
 };
-```
+// ```

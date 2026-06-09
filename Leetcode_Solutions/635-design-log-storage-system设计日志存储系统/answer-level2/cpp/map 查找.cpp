@@ -1,7 +1,7 @@
-1. 写的有点复杂；
-2. 主要找到结束时间和开始时间；
+// 1. 写的有点复杂；
+// 2. 主要找到结束时间和开始时间；
 
-```
+// ```
 class LogSystem {
 public:
     LogSystem() {
@@ -151,4 +151,4 @@ private:
  * obj->put(id,timestamp);
  * vector<int> param_2 = obj->retrieve(s,e,gra);
  */
-```
+// ```

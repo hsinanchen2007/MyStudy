@@ -1,9 +1,9 @@
-### 解题思路
-把字符串的字母转化为ASCII码存在对象模拟的哈希表里，使用Object.keys获取哈希表里的ASCII码从小到大排列的数组，最后正序逆序循环的向外输出字符。
+// ### 解题思路
+// 把字符串的字母转化为ASCII码存在对象模拟的哈希表里，使用Object.keys获取哈希表里的ASCII码从小到大排列的数组，最后正序逆序循环的向外输出字符。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -46,4 +46,4 @@ var sortString = function(s) {
     }
     return r
 };
-```
+// ```

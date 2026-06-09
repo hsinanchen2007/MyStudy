@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLIS(nums []int) int {
     if len(nums) < 2{
         return len(nums)
@@ -30,4 +30,4 @@ func lengthOfLIS(nums []int) int {
     }
     return res
 }
-```
+// ```

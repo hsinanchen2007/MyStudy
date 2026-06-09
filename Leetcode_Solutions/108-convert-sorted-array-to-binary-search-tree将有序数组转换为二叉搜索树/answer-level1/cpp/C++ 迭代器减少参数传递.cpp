@@ -1,6 +1,6 @@
-C++ iterator, 左闭右开较简单
+// C++ iterator, 左闭右开较简单
 
-```c++
+// ```c++
 class Solution {
 public:
     template <typename Iterator>
@@ -20,4 +20,4 @@ public:
       return createBST(nums.cbegin(), nums.cend());
     }
 };
-```
+// ```

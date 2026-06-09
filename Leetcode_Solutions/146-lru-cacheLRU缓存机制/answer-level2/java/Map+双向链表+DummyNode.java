@@ -1,12 +1,12 @@
-### 解题思路
-Map用于快速查找
-链表的头节点保存最近访问过的节点，尾节点保存最久访问过的节点，用于淘汰
-DummyNode用于规避临界值问题
+// ### 解题思路
+// Map用于快速查找
+// 链表的头节点保存最近访问过的节点，尾节点保存最久访问过的节点，用于淘汰
+// DummyNode用于规避临界值问题
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LRUCache {
     
     private int capacity;
@@ -109,4 +109,4 @@ class LRUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

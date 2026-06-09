@@ -1,7 +1,7 @@
-执行用时 :88 ms, 在所有 JavaScript 提交中击败了83.33%的用户
-内存消耗 :37.4 MB, 在所有 JavaScript 提交中击败了100.00%的用户
-判断三种情况即可
-```javascript []
+// 执行用时 :88 ms, 在所有 JavaScript 提交中击败了83.33%的用户
+// 内存消耗 :37.4 MB, 在所有 JavaScript 提交中击败了100.00%的用户
+// 判断三种情况即可
+// ```javascript []
 var canTransform = function(start, end) {
     start=start.split('')
     end=end.split('')
@@ -35,6 +35,6 @@ var canTransform = function(start, end) {
     }
     return true
 };
-```
+// ```
 
 

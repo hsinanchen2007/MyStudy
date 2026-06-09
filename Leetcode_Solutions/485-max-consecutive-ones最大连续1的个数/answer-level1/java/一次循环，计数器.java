@@ -1,5 +1,5 @@
-看注释:)
-```
+// 看注释:)
+// ```
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int onenum = 0;//记录出现过的最大连续1数
@@ -17,4 +17,4 @@ class Solution {
         return onenum;
     }
 }
-```
+// ```

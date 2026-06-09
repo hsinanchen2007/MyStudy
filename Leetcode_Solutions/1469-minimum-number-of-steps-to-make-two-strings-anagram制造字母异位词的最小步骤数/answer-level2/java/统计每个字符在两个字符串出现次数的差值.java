@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minSteps(String s, String t) {
         Map<Character, Integer> mapS = new HashMap<>();
@@ -23,4 +23,4 @@ class Solution {
         return diff % 2 == 0 ? diff / 2 : diff / 2 + 1;
     }
 }
-```
+// ```

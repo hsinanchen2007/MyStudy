@@ -1,9 +1,9 @@
-### 解题思路
-后续遍历最后一个为根节点
+// ### 解题思路
+// 后续遍历最后一个为根节点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool verifyPostorder(vector<int>& postorder) {
@@ -24,4 +24,4 @@ public:
         return helper(postorder, left, mid-1) && helper(postorder, mid, right-1);
     }
 };
-```
+// ```

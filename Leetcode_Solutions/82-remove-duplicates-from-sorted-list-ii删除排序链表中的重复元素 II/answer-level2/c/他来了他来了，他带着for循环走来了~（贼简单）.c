@@ -1,17 +1,17 @@
-执行用时 :
-0 ms
-, 在所有 c 提交中击败了
-100.00%
-的用户
-内存消耗 :
-7.6 MB
-, 在所有 c 提交中击败了
-40.43%
-的用户
-/***
-问题的核心还是要找到不重复的结点，通过进行for循环找到当前元素与前后元素都不相等的指针位置
-***/
-```
+// 执行用时 :
+// 0 ms
+// , 在所有 c 提交中击败了
+// 100.00%
+// 的用户
+// 内存消耗 :
+// 7.6 MB
+// , 在所有 c 提交中击败了
+// 40.43%
+// 的用户
+// /***
+// 问题的核心还是要找到不重复的结点，通过进行for循环找到当前元素与前后元素都不相等的指针位置
+// ***/
+// ```
 struct ListNode* deleteDuplicates(struct ListNode* head){
 
     if(!head||!(head->next))  return head;
@@ -47,4 +47,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     return preHead->next;
 }
 
-```
+// ```

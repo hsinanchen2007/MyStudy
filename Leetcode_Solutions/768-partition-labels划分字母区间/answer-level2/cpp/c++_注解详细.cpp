@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> partitionLabels(string S) {
@@ -27,4 +27,4 @@ public:
         return res;
     }
 };
-```
+// ```

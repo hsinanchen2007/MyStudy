@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/cb472a5cf6a93e75e5ea7745974cc59e8e96e0487a4e062d7df9ebfd39ff85a1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cb472a5cf6a93e75e5ea7745974cc59e8e96e0487a4e062d7df9ebfd39ff85a1-image.png)
 
-### 解题思路
-1. 首先判断是否出现了前两位相加可以在后面找到的情况
-  - 前两位相加，后面的位数是否够
-  - 需要一个处理字符串相加的函数
-2. 如果找到了继续回溯，看看是否能够一直加到最后
+// ### 解题思路
+// 1. 首先判断是否出现了前两位相加可以在后面找到的情况
+//   - 前两位相加，后面的位数是否够
+//   - 需要一个处理字符串相加的函数
+// 2. 如果找到了继续回溯，看看是否能够一直加到最后
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} num
  * @return {boolean}
@@ -101,4 +101,4 @@ function add(a, b) {
 
 
 
-```
+// ```

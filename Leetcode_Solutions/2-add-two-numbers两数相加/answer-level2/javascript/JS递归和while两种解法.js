@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {ListNode} l1
  * @param {ListNode} l2
@@ -23,11 +23,11 @@ var addTwoNumbers = function(l1, l2, added = 0) {
   }
   return n
 };
-```
+// ```
 
-思路就是加一个标志位来标示上一个相加的是不是有进1
-用while写的话不需要在function上加added这个额外的参数，而且在 输入为[1] [1,2,3,4,5,6,8,6,7,8] 这种两个链表相差很大的情况下因为事先声明好了一个e (值为0的节点)，所以会减少创建listNode的次数
-```
+// 思路就是加一个标志位来标示上一个相加的是不是有进1
+// 用while写的话不需要在function上加added这个额外的参数，而且在 输入为[1] [1,2,3,4,5,6,8,6,7,8] 这种两个链表相差很大的情况下因为事先声明好了一个e (值为0的节点)，所以会减少创建listNode的次数
+// ```
 // while
 var addTwoNumbers = function(l1, l2) {
   let start = n = new ListNode()
@@ -48,7 +48,7 @@ var addTwoNumbers = function(l1, l2) {
   }
   return start.next
 };
-```
+// ```
 
 
 

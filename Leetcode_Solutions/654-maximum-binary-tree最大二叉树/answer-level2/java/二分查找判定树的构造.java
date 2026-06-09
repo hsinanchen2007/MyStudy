@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     //寻找l到r区域中的最大值索引
 	public int max(int[] nums,int l,int r){
@@ -22,4 +22,4 @@ class Solution {
 		return construct(nums, 0, nums.length);
 	}
 }
-```
+// ```

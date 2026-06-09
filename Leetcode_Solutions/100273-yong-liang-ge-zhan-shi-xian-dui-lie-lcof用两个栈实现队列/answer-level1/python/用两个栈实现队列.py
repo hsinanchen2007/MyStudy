@@ -1,9 +1,9 @@
-### 解题思路
-将输入数据放到栈A，依次取出栈A数据放到栈B，此刻栈B是栈A的逆序，再弹出栈B的数据即是队列的顺序。
+# ### 解题思路
+# 将输入数据放到栈A，依次取出栈A数据放到栈B，此刻栈B是栈A的逆序，再弹出栈B的数据即是队列的顺序。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class CQueue:
 
     def __init__(self):
@@ -28,4 +28,4 @@ class CQueue:
 # obj = CQueue()
 # obj.appendTail(value)
 # param_2 = obj.deleteHead()
-```
+# ```

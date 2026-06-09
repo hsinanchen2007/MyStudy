@@ -1,6 +1,6 @@
-比较好理解 直接看代码
+// 比较好理解 直接看代码
 
-```
+// ```
 /**
  * @param {number} n
  * @return {string}
@@ -12,4 +12,4 @@ var countAndSay = function(n) {
     }
     return prev
 };
-```
+// ```

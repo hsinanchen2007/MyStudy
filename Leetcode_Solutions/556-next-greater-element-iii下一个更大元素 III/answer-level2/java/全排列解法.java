@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     ArrayList<String> list = new ArrayList<>();
     public int nextGreaterElement(int n) {
@@ -37,4 +37,4 @@ class Solution {
         }
     }
 }
-```
+// ```

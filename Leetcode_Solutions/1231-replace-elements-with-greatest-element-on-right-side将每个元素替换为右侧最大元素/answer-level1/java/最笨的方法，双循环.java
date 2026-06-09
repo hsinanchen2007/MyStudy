@@ -1,9 +1,9 @@
-### 解题思路
-先把需要需要覆盖的元素置为0，判断特殊情况i为末尾赋值为-1，然后从i+1开始遍历交换。
+// ### 解题思路
+// 先把需要需要覆盖的元素置为0，判断特殊情况i为末尾赋值为-1，然后从i+1开始遍历交换。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] replaceElements(int[] arr) {
         for(int i = 0;i<arr.length;i++){
@@ -21,4 +21,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

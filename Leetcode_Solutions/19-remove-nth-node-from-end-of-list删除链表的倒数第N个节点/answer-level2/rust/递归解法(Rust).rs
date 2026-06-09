@@ -1,6 +1,6 @@
-因为链表不能从后往前数，可以利用递归的回溯阶段来数。
-肯定不是最优解法，写着玩
-```rust
+// 因为链表不能从后往前数，可以利用递归的回溯阶段来数。
+// 肯定不是最优解法，写着玩
+// ```rust
 impl Solution {
     pub fn travel(cur: &mut Box<ListNode>, n: i32) -> i32 {
         if let Some(child) = cur.next.as_mut() {
@@ -20,4 +20,4 @@ impl Solution {
         noop.next
     }
 }
-```
+// ```

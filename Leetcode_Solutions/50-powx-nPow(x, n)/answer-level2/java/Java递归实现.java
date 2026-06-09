@@ -1,4 +1,4 @@
-负数的范围比正数大，所以先把n转为负数再计算，避免越界
+// 负数的范围比正数大，所以先把n转为负数再计算，避免越界
 
 class Solution {
     public double myPow(double x, int n) {

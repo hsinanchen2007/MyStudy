@@ -1,9 +1,9 @@
-### 解题思路
-如题
+# ### 解题思路
+# 如题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         final = -1
@@ -18,4 +18,4 @@ class Solution:
             else:
                 break
         return digits
-```
+# ```

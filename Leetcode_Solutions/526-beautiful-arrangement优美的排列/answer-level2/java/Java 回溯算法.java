@@ -1,15 +1,15 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
-使用回溯算法，剪枝条件为当前数不能被i整除或整除i。
+// 使用回溯算法，剪枝条件为当前数不能被i整除或整除i。
 
-对于1~N个数，每次递归是从第一个数开始的，且不能取重复数，所以需要创建一个boolean[]对使用过的数进行记录，如果当前数已经使用过则直接continue
+// 对于1~N个数，每次递归是从第一个数开始的，且不能取重复数，所以需要创建一个boolean[]对使用过的数进行记录，如果当前数已经使用过则直接continue
  
-递归时使用count表示已经排列到第几个数，当count>N时表示一个排列完成，更新计数器，return
+// 递归时使用count表示已经排列到第几个数，当count>N时表示一个排列完成，更新计数器，return
 
 
-```
+// ```
 class Solution {
     int res = 0;
 
@@ -36,4 +36,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-## 递归
-递归即采用分治算法的思想。
-```java
+// ## 递归
+// 递归即采用分治算法的思想。
+// ```java
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         if(root==null) return result;
@@ -10,11 +10,11 @@
         result.add(root.val);
         return result;
     }
-```
+// ```
 
-## 迭代
-用栈暂存访问的路径，对已经访问过的节点分支进行着色。
-```java
+// ## 迭代
+// 用栈暂存访问的路径，对已经访问过的节点分支进行着色。
+// ```java
 public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
         if(root==null) return result;
@@ -40,4 +40,4 @@ public List<Integer> postorderTraversal(TreeNode root) {
         }
         return result;
     }
-```
+// ```

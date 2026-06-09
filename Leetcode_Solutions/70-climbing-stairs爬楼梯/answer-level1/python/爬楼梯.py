@@ -1,9 +1,9 @@
-### 解题思路
-采用动态规划，最后一层台阶有两种方式到达，分别是下一层上一阶或下下层上两阶，迭代。
+# ### 解题思路
+# 采用动态规划，最后一层台阶有两种方式到达，分别是下一层上一阶或下下层上两阶，迭代。
 
-### 代码
+# ### 代码
 
-```cpp []
+# ```cpp []
 class Solution {
 public:
     int climbStairs(int n) {
@@ -19,8 +19,8 @@ public:
         return sum;
     }
 };
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def climbStairs(self, n: int) -> int:
         if n<=2:
@@ -29,4 +29,4 @@ class Solution:
         for i in range(3,n+1):
             dp1,dp2=dp2,dp1+dp2
         return dp2
-```
+# ```

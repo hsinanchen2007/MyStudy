@@ -1,9 +1,9 @@
-### 解题思路
-遍历整个二维数组,当grid[i][j] = '1'时，DFS遍历其四周的点，如果时1的话继续DFS，直到遍历结束。
+// ### 解题思路
+// 遍历整个二维数组,当grid[i][j] = '1'时，DFS遍历其四周的点，如果时1的话继续DFS，直到遍历结束。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numIslands(char[][] grid) {
         int count = 0;
@@ -31,4 +31,4 @@ class Solution {
         }
     }
 }
-```
+// ```

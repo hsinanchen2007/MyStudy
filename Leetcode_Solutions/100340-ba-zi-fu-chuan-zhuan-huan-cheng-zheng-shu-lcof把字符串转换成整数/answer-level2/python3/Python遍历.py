@@ -1,9 +1,9 @@
-### 解题思路
-去除多余空格，再判断串首字符是否符合要求，再依次遍历。
+# ### 解题思路
+# 去除多余空格，再判断串首字符是否符合要求，再依次遍历。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strToInt(self, str: str) -> int:
         s = str.strip()
@@ -25,4 +25,4 @@ class Solution:
             return -2**31
         return int(res)
             
-```
+# ```

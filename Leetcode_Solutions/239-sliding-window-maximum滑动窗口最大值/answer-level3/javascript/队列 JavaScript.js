@@ -1,10 +1,10 @@
-### 解题思路
-总感觉哪里不太对劲...
-![image.png](https://pic.leetcode-cn.com/9252926ac45e27f21bb6ffcd7f3e767fed99968391eacb4693994388ec06f5ba-image.png)
+// ### 解题思路
+// 总感觉哪里不太对劲...
+// ![image.png](https://pic.leetcode-cn.com/9252926ac45e27f21bb6ffcd7f3e767fed99968391eacb4693994388ec06f5ba-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -37,4 +37,4 @@ var maxSlidingWindow = function(nums, k) {
     res.splice(0, k - 1)
     return res
 };
-```
+// ```

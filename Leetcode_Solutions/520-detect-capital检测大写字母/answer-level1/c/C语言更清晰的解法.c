@@ -1,7 +1,7 @@
-1. 题目中总共有三种情况，可以根据字符串前两个字符的大小写确定是哪种情况，放在whichCase
-2. 遍历字符串剩下的字符，根据whichCase判断应该是大写还是小写
+// 1. 题目中总共有三种情况，可以根据字符串前两个字符的大小写确定是哪种情况，放在whichCase
+// 2. 遍历字符串剩下的字符，根据whichCase判断应该是大写还是小写
 
-```
+// ```
 bool detectCapitalUse(char * word){
     int len;
     int i;
@@ -50,4 +50,4 @@ bool detectCapitalUse(char * word){
 
     return true;
 }
-```
+// ```

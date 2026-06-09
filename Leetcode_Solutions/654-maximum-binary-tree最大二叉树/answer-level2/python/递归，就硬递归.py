@@ -1,9 +1,9 @@
-### 解题思路
-递归前初始化一个树节点当做root节点，先的找list中最大值，这个最大值是当前节点的val，然后初始化一个当前数组中最大值的left节点，将这个left节点传入下一次递归，寻找root节点左边的最大值为left节点的val(下一层递归中传入的left节点就成为了根节点)，right同理，最后返回根节点即可。
+# ### 解题思路
+# 递归前初始化一个树节点当做root节点，先的找list中最大值，这个最大值是当前节点的val，然后初始化一个当前数组中最大值的left节点，将这个left节点传入下一次递归，寻找root节点左边的最大值为left节点的val(下一层递归中传入的left节点就成为了根节点)，right同理，最后返回根节点即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution(object):
             else:
                 return
         return find_max(nums,pre)
-```
+# ```

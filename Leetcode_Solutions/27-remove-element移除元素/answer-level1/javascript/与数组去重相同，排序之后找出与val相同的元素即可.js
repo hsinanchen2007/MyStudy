@@ -1,9 +1,9 @@
-### 解题思路
-与数组去重相同，排序之后找出与val相同的元素，使用splice删除。
+// ### 解题思路
+// 与数组去重相同，排序之后找出与val相同的元素，使用splice删除。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -18,4 +18,4 @@ var removeElement = function(nums, val) {
     }
     return nums.length;
 };
-```
+// ```

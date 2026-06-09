@@ -1,9 +1,9 @@
-### 解题思路
-方法一、存入数组，反转，一一比较
+// ### 解题思路
+// 方法一、存入数组，反转，一一比较
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -29,10 +29,10 @@ var isPalindrome = function(head) {
     }
     return true;
 };
-```
-方法二、
-存入数组，判断队列和数组是否一一对应相等
-```
+// ```
+// 方法二、
+// 存入数组，判断队列和数组是否一一对应相等
+// ```
 var isPalindrome = function(head) {
     var arr=[];
     var p=head;
@@ -51,5 +51,5 @@ var isPalindrome = function(head) {
     }
     return true;
 };
-```
-方法三、快慢指针，参考https://leetcode-cn.com/problems/palindrome-linked-list/solution/hui-wen-lian-biao-1zhan-2kuai-man-zhi-zhen-fan-zhu/
+// ```
+// 方法三、快慢指针，参考https://leetcode-cn.com/problems/palindrome-linked-list/solution/hui-wen-lian-biao-1zhan-2kuai-man-zhi-zhen-fan-zhu/

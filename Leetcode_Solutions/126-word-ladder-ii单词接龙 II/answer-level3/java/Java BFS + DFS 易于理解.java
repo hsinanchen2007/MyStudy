@@ -1,22 +1,22 @@
-### 解法一： DFS + BFS
+// ### 解法一： DFS + BFS
 
-#### 分析：
-- 首先，我们利用`wordList`中给出的单词（注意到`beginword`可能不在`wordList`中，我们需要把`beginWord`也加进图中），构建一张无向图，图中节点是每一个`word`，两个节点连接的条件是其中一个单词可以通过只改变一个字母从而转换成另一个单词。
-- 利用`BFS`我们来计算从`beginWord`转化到`endWord`的最短长度`minDist`。
-- 利用`DFS`，我们把每一个长度为`minDist`的从`beginWord`转化到`endWord`的序列加入答案集合中，并返回。
-- **注意：** 这样的解法会超时，因为我们在`DFS`利用这个`minDist`来做简单的剪枝操作，但是在一些情况下（`endWord`深度足够大），`DFS`时间复杂度仍然很高。我们需要`DFS`时过滤掉一些节点来提高搜索效率。
-- **优化：** 注意到在做BFS时，我们可以记录下每一层搜索过的`word`的集合，那么在做`DFS`的每一次搜索时，我们选择的是与**当前节点相连接的节点的集合**与之前**BFS记录下该层搜索过的word的集合**的**交集**，以过滤掉很多不需要搜索的节点。
+// #### 分析：
+// - 首先，我们利用`wordList`中给出的单词（注意到`beginword`可能不在`wordList`中，我们需要把`beginWord`也加进图中），构建一张无向图，图中节点是每一个`word`，两个节点连接的条件是其中一个单词可以通过只改变一个字母从而转换成另一个单词。
+// - 利用`BFS`我们来计算从`beginWord`转化到`endWord`的最短长度`minDist`。
+// - 利用`DFS`，我们把每一个长度为`minDist`的从`beginWord`转化到`endWord`的序列加入答案集合中，并返回。
+// - **注意：** 这样的解法会超时，因为我们在`DFS`利用这个`minDist`来做简单的剪枝操作，但是在一些情况下（`endWord`深度足够大），`DFS`时间复杂度仍然很高。我们需要`DFS`时过滤掉一些节点来提高搜索效率。
+// - **优化：** 注意到在做BFS时，我们可以记录下每一层搜索过的`word`的集合，那么在做`DFS`的每一次搜索时，我们选择的是与**当前节点相连接的节点的集合**与之前**BFS记录下该层搜索过的word的集合**的**交集**，以过滤掉很多不需要搜索的节点。
 
-#### 复杂度分析：
-- 时间复杂度：$O(N^2)$ 其中$N$为`wordList`的长度
-- 空间复杂度：$O(N)$
+// #### 复杂度分析：
+// - 时间复杂度：$O(N^2)$ 其中$N$为`wordList`的长度
+// - 空间复杂度：$O(N)$
 
 
-#### 实现：
+// #### 实现：
 
-- 利用一个`Map<String, Set<String>> map`存放生成的无向图。
-- 利用一个`Map<Integer, Set<String>> nxtMap` 来存放`BFS`时，每一层上搜索过的节点
-```java []
+// - 利用一个`Map<String, Set<String>> map`存放生成的无向图。
+// - 利用一个`Map<Integer, Set<String>> nxtMap` 来存放`BFS`时，每一层上搜索过的节点
+// ```java []
 class Solution {
     private Map<String, Set<String>> map;      // 存储构建好的无向图
     private Map<Integer, Set<String>> nxtMap;  // 记录每个搜索层次上的candidate节点
@@ -103,5 +103,5 @@ class Solution {
         return cnt == 1;
     }
 }
-```
+// ```
 

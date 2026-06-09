@@ -1,12 +1,12 @@
-### 解题思路
-这道题《剑指 offer》和leetcode输入参数不一样，要注意，当输入是string时，要定义char指针指向string
-同时，这道题如果输入是字符串string就不用考虑空了
-普普通通递归就完事了。
-接下来还有一个方法————动态数组法。研究一下。
+// ### 解题思路
+// 这道题《剑指 offer》和leetcode输入参数不一样，要注意，当输入是string时，要定义char指针指向string
+// 同时，这道题如果输入是字符串string就不用考虑空了
+// 普普通通递归就完事了。
+// 接下来还有一个方法————动态数组法。研究一下。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isMatch(string su, string pu) {//s是字符，p是匹配 含符号
@@ -39,4 +39,4 @@ char* s=su.data();char* p=pu.data();
 
     }
 };
-```
+// ```

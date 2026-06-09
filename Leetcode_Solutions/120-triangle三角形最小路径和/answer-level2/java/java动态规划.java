@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int shabi[][]=new int[triangle.size()][triangle.size()];
@@ -27,4 +27,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

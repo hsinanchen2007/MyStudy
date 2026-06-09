@@ -1,10 +1,10 @@
-### 解题思路
-1. 对数组排序
-2. n 行最大为 2*n, 根据输入数组动态调整
+// ### 解题思路
+// 1. 对数组排序
+// 2. n 行最大为 2*n, 根据输入数组动态调整
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxNumberOfFamilies(int n, int[][] reservedSeats) {
         int count = 2 * n;
@@ -34,4 +34,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

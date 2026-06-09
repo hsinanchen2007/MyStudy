@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/69ec8ca7639926cc07783001a1dd150bbe1d0e6d12aad7e61433a535892f5f6a-image.png)
+# ![image.png](https://pic.leetcode-cn.com/69ec8ca7639926cc07783001a1dd150bbe1d0e6d12aad7e61433a535892f5f6a-image.png)
 
-```
+# ```
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         nums1.sort()
@@ -17,5 +17,5 @@ class Solution:
                 i+=1
                 j+=1
         return list(set(res))
-```
+# ```
 

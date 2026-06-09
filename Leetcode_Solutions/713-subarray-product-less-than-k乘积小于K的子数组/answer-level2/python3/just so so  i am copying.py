@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numSubarrayProductLessThanK(self, nums: List[int], k: int) -> int: 
         # 由于是连续的子数组
@@ -20,4 +20,4 @@ class Solution:
 
 
 
-```
+# ```

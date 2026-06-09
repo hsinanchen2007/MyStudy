@@ -1,9 +1,9 @@
-### 解题思路
-挺好的题，就是感觉题目稍微描述地有点不清晰
+// ### 解题思路
+// 挺好的题，就是感觉题目稍微描述地有点不清晰
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseVowels(string s) {
@@ -36,4 +36,4 @@ public:
         return s;
     }
 };
-```
+// ```

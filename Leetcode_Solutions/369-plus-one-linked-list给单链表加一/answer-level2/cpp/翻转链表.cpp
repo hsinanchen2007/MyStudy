@@ -1,9 +1,9 @@
-### 解题思路
-翻转链表 优先加1 大于9就循环
+// ### 解题思路
+// 翻转链表 优先加1 大于9就循环
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -49,4 +49,4 @@ public:
         return pre;
     }
 };
-```
+// ```

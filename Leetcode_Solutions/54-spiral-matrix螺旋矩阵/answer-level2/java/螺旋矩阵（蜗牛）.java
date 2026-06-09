@@ -1,14 +1,14 @@
-### 解题思路
-1. 设置四个变量，标识上下左右四个方向
-2. 从左往右，上减一
-3. 从上到下，右减一
-4. 从右到左，下减一
-5. 从下到上，左减一
-6. 重复2-5步骤，直至无法移动
+// ### 解题思路
+// 1. 设置四个变量，标识上下左右四个方向
+// 2. 从左往右，上减一
+// 3. 从上到下，右减一
+// 4. 从右到左，下减一
+// 5. 从下到上，左减一
+// 6. 重复2-5步骤，直至无法移动
 
-### 代码
+// ### 代码
 
-```python3
+// ```python3
 class Solution:
     def spiralOrder(self, snail_map: List[List[int]]) -> List[int]:
         if not snail_map or not snail_map[0]:
@@ -52,4 +52,4 @@ class Solution:
             else:
                 break
         return r_l
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-第一步：求出map映射，即每种牌的个数
-第二步：遍历map，求出pre和map[i]的最大公约数，pre为map[i-1]前的最大公约数；
-如果pre<2,则分组不能完成
-pre>=2返回true
+// 第一步：求出map映射，即每种牌的个数
+// 第二步：遍历map，求出pre和map[i]的最大公约数，pre为map[i-1]前的最大公约数；
+// 如果pre<2,则分组不能完成
+// pre>=2返回true
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -51,4 +51,4 @@ var hasGroupsSizeX = function(deck) {
     }
 
 };
-```
+// ```

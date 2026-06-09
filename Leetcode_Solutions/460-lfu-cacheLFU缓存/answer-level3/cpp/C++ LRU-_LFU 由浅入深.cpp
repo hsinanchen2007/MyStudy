@@ -1,32 +1,32 @@
-# 两种缓存算法
-+ LRU
-+ LFU
-## [LRU: Least Recently Used](https://leetcode-cn.com/problems/lru-cache/)
+// # 两种缓存算法
+// + LRU
+// + LFU
+// ## [LRU: Least Recently Used](https://leetcode-cn.com/problems/lru-cache/)
 
-获取键 / 检查键是否存在  
-设置键  
-删除最先插入的键
-### 分析
-既然要$O(1)$时间内完成，那肯定要用哈希表  
-只用哈希表只能实现`get(key)`功能，还要存储每个`key`的使用次数的话，就要加上双向链表  
-哈希表和双向链表应该怎么结合（套）在一起呢？
+// 获取键 / 检查键是否存在  
+// 设置键  
+// 删除最先插入的键
+// ### 分析
+// 既然要$O(1)$时间内完成，那肯定要用哈希表  
+// 只用哈希表只能实现`get(key)`功能，还要存储每个`key`的使用次数的话，就要加上双向链表  
+// 哈希表和双向链表应该怎么结合（套）在一起呢？
 
-[From here](https://leetcode-cn.com/problems/lru-cache/solution/lru-ce-lue-xiang-jie-he-shi-xian-by-labuladong/)  
-“那么，什么数据结构同时符合上述条件呢？哈希表查找快，但是数据无固定顺序；链表有顺序之分，插入删除快，但是查找慢。所以结合一下，形成一种新的数据结构：哈希链表。”  
+// [From here](https://leetcode-cn.com/problems/lru-cache/solution/lru-ce-lue-xiang-jie-he-shi-xian-by-labuladong/)  
+// “那么，什么数据结构同时符合上述条件呢？哈希表查找快，但是数据无固定顺序；链表有顺序之分，插入删除快，但是查找慢。所以结合一下，形成一种新的数据结构：哈希链表。”  
 
-[无效的图片地址](https://raw.githubusercontent.com/doutv/Picbed/master/img/4-12-2020-04-07-14-53-42)
+// [无效的图片地址](https://raw.githubusercontent.com/doutv/Picbed/master/img/4-12-2020-04-07-14-53-42)
 
-哈希表里面的`value`存储的是双向链表中的节点`node`，双向链表中按访问时间由近到远排序。  
-每次`get`就更新`key`对应的`node`顺序，把`node`放到双向链表的头部。  
-每次`put`的时候，都要把当前节点`now`放到双向链表的头部，如果找不到`key`，就插入`key`，如果找到`key`，就更新`value`。如果插入新的`key`时缓存满了，就把双向链表的尾部丢掉。
+// 哈希表里面的`value`存储的是双向链表中的节点`node`，双向链表中按访问时间由近到远排序。  
+// 每次`get`就更新`key`对应的`node`顺序，把`node`放到双向链表的头部。  
+// 每次`put`的时候，都要把当前节点`now`放到双向链表的头部，如果找不到`key`，就插入`key`，如果找到`key`，就更新`value`。如果插入新的`key`时缓存满了，就把双向链表的尾部丢掉。
 
-### code
-手写双向链表+`unordered_map`
-1. 初始化`nullptr`
-2. `lift_now_to_head`把`now`节点插入到链表头部
-3. `unordered_map`直接用下标访问`m[key]`
-4. `m.erase(last->key)`+`delete last`释放空间
-```cpp
+// ### code
+// 手写双向链表+`unordered_map`
+// 1. 初始化`nullptr`
+// 2. `lift_now_to_head`把`now`节点插入到链表头部
+// 3. `unordered_map`直接用下标访问`m[key]`
+// 4. `m.erase(last->key)`+`delete last`释放空间
+// ```cpp
 #include <vector>
 #include <algorithm>
 #include <iostream>
@@ -116,36 +116,36 @@ public:
     }
 };
 
-```
-## [LFU: Least Frequently Used](https://leetcode-cn.com/problems/lfu-cache/)
-[From here:](https://leetcode-cn.com/problems/lfu-cache/solution/ha-xi-biao-shuang-xiang-lian-biao-java-by-liweiwei/)  
-本题其实就是在[LRU](https://leetcode-cn.com/problems/lru-cache/)的基础上，在删除策略里多考虑了一个维度（「访问次数」）的信息。” 
-核心思想：先考虑访问次数，在访问次数相同的情况下，再考虑缓存的时间。
+// ```
+// ## [LFU: Least Frequently Used](https://leetcode-cn.com/problems/lfu-cache/)
+// [From here:](https://leetcode-cn.com/problems/lfu-cache/solution/ha-xi-biao-shuang-xiang-lian-biao-java-by-liweiwei/)  
+// 本题其实就是在[LRU](https://leetcode-cn.com/problems/lru-cache/)的基础上，在删除策略里多考虑了一个维度（「访问次数」）的信息。” 
+// 核心思想：先考虑访问次数，在访问次数相同的情况下，再考虑缓存的时间。
 
-[题解](https://leetcode-cn.com/problems/lfu-cache/solution/java-13ms-shuang-100-shuang-xiang-lian-biao-duo-ji/)  
-1个哈希表+2个双向链表  
-+ 哈希表`time_map`：`key-Node`  `Node`里面存`value` `freq` `freq_node`
-+ 双向链表`FreqListNode`：按访问次数从大到小排列    
-+ 双向链表`TimeListNode`：按访问时间从近到远排列（LRU中的双向链表）
+// [题解](https://leetcode-cn.com/problems/lfu-cache/solution/java-13ms-shuang-100-shuang-xiang-lian-biao-duo-ji/)  
+// 1个哈希表+2个双向链表  
+// + 哈希表`time_map`：`key-Node`  `Node`里面存`value` `freq` `freq_node`
+// + 双向链表`FreqListNode`：按访问次数从大到小排列    
+// + 双向链表`TimeListNode`：按访问时间从近到远排列（LRU中的双向链表）
 
-P.S.先声明两个class`FreqListNode`和`TimeListNode`，就可以互相引用了  
+// P.S.先声明两个class`FreqListNode`和`TimeListNode`，就可以互相引用了  
 
-![LFU](https://pic.leetcode-cn.com/25ade03ee7f3cbfdef0ddf955c917cde96f4153ba5ce8b321f42152b19d55ca5-LFU%E7%AE%97%E6%B3%95%E6%80%9D%E6%83%B3.png)
+// ![LFU](https://pic.leetcode-cn.com/25ade03ee7f3cbfdef0ddf955c917cde96f4153ba5ce8b321f42152b19d55ca5-LFU%E7%AE%97%E6%B3%95%E6%80%9D%E6%83%B3.png)
 
-+ `get`：  
-直接访问`key`对应的`TimeListNode`获取`value`，并更新当前`TimeListNode`的`freq`，把当前`TimeListNode`放到的下一个`FreqListNode`上
+// + `get`：  
+// 直接访问`key`对应的`TimeListNode`获取`value`，并更新当前`TimeListNode`的`freq`，把当前`TimeListNode`放到的下一个`FreqListNode`上
 
-+ `put`：
-1. `key`存在，更新`value`和`freq`，更新`freq`要把`TimeListNode`取出来放到下一个`FreqListNode`上
-2. `key`不存在  
-   1. 缓存满了：删掉`freq`最小且访问时间最远的节点，即为`FreqList`的尾部的`TimeList`尾部，然后进行`2.ii`
-   2. 缓存没满：插入新节点，放在`freq=1`的`FreqListNode`上的头部
+// + `put`：
+// 1. `key`存在，更新`value`和`freq`，更新`freq`要把`TimeListNode`取出来放到下一个`FreqListNode`上
+// 2. `key`不存在  
+//    1. 缓存满了：删掉`freq`最小且访问时间最远的节点，即为`FreqList`的尾部的`TimeList`尾部，然后进行`2.ii`
+//    2. 缓存没满：插入新节点，放在`freq=1`的`FreqListNode`上的头部
 
-### code
-满满的，都是坑啊  
-手写两个双向链表是非常好的锻炼机会[狗头]
+// ### code
+// 满满的，都是坑啊  
+// 手写两个双向链表是非常好的锻炼机会[狗头]
 
-```cpp
+// ```cpp
 #include <unordered_map>
 using namespace std;
 const int INF = 1 << 30;
@@ -318,4 +318,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```csharp
+// ```csharp
 public int MovingCount(int m, int n, int k) {
     
     //创建二维数组
@@ -52,4 +52,4 @@ public int CheckAround(int[][] grid, int x, int y, int k)
     }
     return count;
 }
-```
+// ```

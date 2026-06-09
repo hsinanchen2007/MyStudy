@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/5c97ad1564b4bd195fcd7141a2bac12f29b003b5e146e7b84c45eebb3002c44f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5c97ad1564b4bd195fcd7141a2bac12f29b003b5e146e7b84c45eebb3002c44f-image.png)
 
-```
+// ```
 /*
  * Copyright (c) Nicolas-Tony Technologies Co., Ltd. 2020-2020. All rights reserved.
  * Description: i love leetcode
@@ -44,4 +44,4 @@ public:
         return result;
     }
 };
-```
+// ```

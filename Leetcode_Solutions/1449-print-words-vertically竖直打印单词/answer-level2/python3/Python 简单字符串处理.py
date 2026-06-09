@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/46aaffea019565978398921a00b29cf2d82706d43d2b7646efe07f80c4833dcd-image.png)
+# ![image.png](https://pic.leetcode-cn.com/46aaffea019565978398921a00b29cf2d82706d43d2b7646efe07f80c4833dcd-image.png)
 
 
-```
+# ```
 '''
 顺次组装各个字符串同一个位置的字符，然后去掉组装字符串尾巴上的空格
 '''
@@ -26,4 +26,4 @@ class Solution:
 
         return ret
 
-```
+# ```

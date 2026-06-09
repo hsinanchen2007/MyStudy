@@ -1,10 +1,10 @@
-### 解题思路
-1，对于一个数，有多少个丑数小于等于该数是可以快速计算出来的
-2，因此可以用二分搜索定位该数
+// ### 解题思路
+// 1，对于一个数，有多少个丑数小于等于该数是可以快速计算出来的
+// 2，因此可以用二分搜索定位该数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     long LCM(long a, long b) {
@@ -29,6 +29,6 @@ public:
         return l;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/230afeee6b3c60f9bec17d290c7b3260c9cc9a9618ac14d891f4abdbc641708b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/230afeee6b3c60f9bec17d290c7b3260c9cc9a9618ac14d891f4abdbc641708b-image.png)

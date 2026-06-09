@@ -1,4 +1,4 @@
-```Java []
+// ```Java []
 class SortArrayByParity{
 	/**
 	 * 1.双指针法A版：都从0开始，i指向奇数，j指向偶数，交换A[i]和A[j]
@@ -44,4 +44,4 @@ class SortArrayByParity{
 		return a;
 	}
 }
-```
+// ```

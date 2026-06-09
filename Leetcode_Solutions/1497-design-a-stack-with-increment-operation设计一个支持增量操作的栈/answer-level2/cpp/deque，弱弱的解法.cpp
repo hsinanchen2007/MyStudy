@@ -1,9 +1,9 @@
-双端队列，首尾来回倒腾
+// 双端队列，首尾来回倒腾
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class CustomStack {
     int n, v, s, count = 0;
     deque<int> q;
@@ -47,4 +47,4 @@ public:
     }
 };
 
-```
+// ```

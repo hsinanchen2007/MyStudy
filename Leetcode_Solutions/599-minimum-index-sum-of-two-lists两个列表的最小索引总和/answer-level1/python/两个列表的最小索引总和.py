@@ -1,9 +1,9 @@
-### 解题思路
-思路就是齐头并进式的探索，同时构建无重复元素的索引列表
+# ### 解题思路
+# 思路就是齐头并进式的探索，同时构建无重复元素的索引列表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRestaurant(self, list1: List[str], list2: List[str]) -> List[str]:
         i, j = 0, 0
@@ -51,4 +51,4 @@ class Solution:
         return ret
             
 
-```
+# ```

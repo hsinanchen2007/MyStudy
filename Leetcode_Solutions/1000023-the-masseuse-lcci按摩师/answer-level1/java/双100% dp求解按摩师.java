@@ -1,10 +1,10 @@
-### 自底向上的DP
-dp[i] 表示前nums[0],nums[1],...,nums[i-1]的最大预约时间；
-**则怎么求dp[i+1]???**
-***dp[i+1] = max(dp[i], max(dp[0],dp[1],...,dp[i-1]) + nums[i]);***
-求解dp[i+1]的时候，对于dp[0],dp[1],...,dp[i-1]，其都可以再预约nums[i],但是dp[i]因为相邻，不能预约nums[i]
-因此他们的最大值即为，dp[i+1]
-```java
+// ### 自底向上的DP
+// dp[i] 表示前nums[0],nums[1],...,nums[i-1]的最大预约时间；
+// **则怎么求dp[i+1]???**
+// ***dp[i+1] = max(dp[i], max(dp[0],dp[1],...,dp[i-1]) + nums[i]);***
+// 求解dp[i+1]的时候，对于dp[0],dp[1],...,dp[i-1]，其都可以再预约nums[i],但是dp[i]因为相邻，不能预约nums[i]
+// 因此他们的最大值即为，dp[i+1]
+// ```java
 class Solution {
     public int massage(int[] nums) {
         if(nums.length == 0){
@@ -21,9 +21,9 @@ class Solution {
         return dp[nums.length];
     }
 }
-```
-***dp[i+1] = max(dp[i], dp[i-1]+nums[i]);***
-``` java
+// ```
+// ***dp[i+1] = max(dp[i], dp[i-1]+nums[i]);***
+// ``` java
     public int massage(int[] nums) {
         if(nums.length == 0){
             return 0;
@@ -35,9 +35,9 @@ class Solution {
         }
         return dp[nums.length];
     }
-```
-    //空间优化
-```java
+// ```
+//     //空间优化
+// ```java
     public int massage(int[] nums) {
         if(nums.length == 0){
             return 0;
@@ -51,4 +51,4 @@ class Solution {
         }
         return pre;
     }
-```
+// ```

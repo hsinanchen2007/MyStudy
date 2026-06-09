@@ -1,6 +1,6 @@
-- ****解题思路**：**
-- 照着原数组来遍历
-```
+// - ****解题思路**：**
+// - 照着原数组来遍历
+// ```
 public void duplicateZeros(int[] arr) {
         int[] temp = Arrays.copyOf(arr, arr.length);//复制原数组到temp
         int index = 0;//指向temp的数组下标
@@ -12,4 +12,4 @@ public void duplicateZeros(int[] arr) {
             }
         } 
     }
-```
+// ```

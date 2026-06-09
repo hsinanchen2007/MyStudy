@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func sumEvenAfterQueries(_ A: [Int], _ queries: [[Int]]) -> [Int] {
         var ans = [Int](), a = [Int](A)
@@ -27,4 +27,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

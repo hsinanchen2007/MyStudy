@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先将K与A数组的最后一位相加，然后从A的最后一位开始进位即可。重点在于跳出循环的位置，因A[i]是在循环开头就添加到List中了，所以在跳出循环的时候，i<=0而不是i<0。
+// 先将K与A数组的最后一位相加，然后从A的最后一位开始进位即可。重点在于跳出循环的位置，因A[i]是在循环开头就添加到List中了，所以在跳出循环的时候，i<=0而不是i<0。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> addToArrayForm(int[] A, int K) {
         List<Integer> result = new ArrayList<>();
@@ -26,4 +26,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，分组，可以参考官方解答的第三种方法，此为C++的代码实现。
+// ### 解题思路
+// 动态规划，分组，可以参考官方解答的第三种方法，此为C++的代码实现。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -38,4 +38,4 @@ public:
         return result;
     }
 };
-```
+// ```

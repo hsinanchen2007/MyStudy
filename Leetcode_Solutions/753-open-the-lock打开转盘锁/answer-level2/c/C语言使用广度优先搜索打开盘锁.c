@@ -1,4 +1,4 @@
-```c
+// ```c
 void hash(int* arr, char* s) {
     int index = 0;
     for (int i = 0; i < 4; ++i) {
@@ -96,4 +96,4 @@ int openLock(char ** deadends, int deadendsSize, char * target){
     }
     return -1;
 }
-```
+// ```

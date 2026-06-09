@@ -1,9 +1,9 @@
-### 解题思路
-和994烂橘子、286墙与门一个广度遍历法，遍历完标记，全标记完就得到岛屿数了。
+// ### 解题思路
+// 和994烂橘子、286墙与门一个广度遍历法，遍历完标记，全标记完就得到岛屿数了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numIslands(char[][] grid) {
         if (grid == null || grid.length == 0)
@@ -58,4 +58,4 @@ class Solution {
         }
     }
 }
-```
+// ```

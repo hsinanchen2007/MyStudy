@@ -1,10 +1,10 @@
-### 解题思路
-借鉴了以为老兄的思路。
-但是时间复杂度有点高，空间还可以80%多。
+// ### 解题思路
+// 借鉴了以为老兄的思路。
+// 但是时间复杂度有点高，空间还可以80%多。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} digits
  * @return {number[]}
@@ -29,4 +29,4 @@ var plusOne = function(digits) {
         return digits;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
 
-寻找到各个节点最短路的最大值，建图跑Dijkstra算法，使用优先队列进行优化。
+// 寻找到各个节点最短路的最大值，建图跑Dijkstra算法，使用优先队列进行优化。
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int N, int K) {
@@ -59,4 +59,4 @@ private:
         G[from].push_back(edges.size()-1);
     }
 };
-```
+// ```

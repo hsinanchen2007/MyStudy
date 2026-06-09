@@ -1,18 +1,18 @@
-# 解法1：DFS
-## 算法描述
-从起点开始使用DFS搜索，对任意点，青蛙到达终点的概率等于：
-* 若还能继续跳，则prob = sum(下一条的概率)
-* 若不能继续跳，包含没有能跳的点和时间耗尽，则prob = 1 cond target == pos； prob = 0 otherwise
+// # 解法1：DFS
+// ## 算法描述
+// 从起点开始使用DFS搜索，对任意点，青蛙到达终点的概率等于：
+// * 若还能继续跳，则prob = sum(下一条的概率)
+// * 若不能继续跳，包含没有能跳的点和时间耗尽，则prob = 1 cond target == pos； prob = 0 otherwise
 
-## 复杂度分析
-时间复杂度：O（nt）
-空间复杂度：O（t+n）
+// ## 复杂度分析
+// 时间复杂度：O（nt）
+// 空间复杂度：O（t+n）
 
-## 提交结果
-通过
+// ## 提交结果
+// 通过
 
-## 参考代码
-```
+// ## 参考代码
+// ```
 typedef struct
 {
     int key;
@@ -83,4 +83,4 @@ double frogPosition(int n, int** edges, int edgesSize, int* edgesColSize, int t,
     visited[1] = 1;
     return dfs(head, visited, 1, t, target);
 }
-```
+// ```

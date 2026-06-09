@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/7c7506471b653b09769672b71f48d8c7d38596de3f32c12cd8138addba7888ee-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7c7506471b653b09769672b71f48d8c7d38596de3f32c12cd8138addba7888ee-image.png)
 
-```
+// ```
  vector<vector<int>> generateMatrix(int n) {
        vector<vector<int>> mat(n, vector<int>(n));
 	    int start = 1;
@@ -23,4 +23,4 @@
         }
             return mat;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-C++,用vector存储数据；
-其他方法：[栈等](https://leetcode-cn.com/problems/flatten-nested-list-iterator/solution/c-zong-he-ge-lu-da-lao-de-da-an-by-fxxuuu/)
-### 代码
+// ### 解题思路
+// C++,用vector存储数据；
+// 其他方法：[栈等](https://leetcode-cn.com/problems/flatten-nested-list-iterator/solution/c-zong-he-ge-lu-da-lao-de-da-an-by-fxxuuu/)
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * // This is the interface that allows for creating nested lists.
  * // You should not implement it, or speculate about its implementation
@@ -59,4 +59,4 @@ public:
  * NestedIterator i(nestedList);
  * while (i.hasNext()) cout << i.next();
  */
-```
+// ```

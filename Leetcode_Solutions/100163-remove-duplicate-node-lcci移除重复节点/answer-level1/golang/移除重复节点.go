@@ -1,9 +1,9 @@
-### 解题思路
-遍历链表，发现重复元素，则从链表中移除。
+// ### 解题思路
+// 遍历链表，发现重复元素，则从链表中移除。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -27,4 +27,4 @@ func removeDuplicateNodes(head *ListNode) *ListNode {
     }
     return head
 }
-```
+// ```

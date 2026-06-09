@@ -1,14 +1,14 @@
-### 解题思路
-如果preorder和inorder都为空，直接返回
-前序遍历preorder的第一个元素preorder[0]一定对应着该树的根节点
-那么中序遍历inorder中preorder[0]之前的元素是根节点左子树对应的中序遍历，我们可以得知左子树的遍历之后的长度，设为L
-那么根节点左子树对应的前序遍历是preorder[1:i+1]
-同理可以得到根节点右子树的中序和前序遍历结果
-分别用左子树和右子树的前序和中序遍历递归调用本函数
+# ### 解题思路
+# 如果preorder和inorder都为空，直接返回
+# 前序遍历preorder的第一个元素preorder[0]一定对应着该树的根节点
+# 那么中序遍历inorder中preorder[0]之前的元素是根节点左子树对应的中序遍历，我们可以得知左子树的遍历之后的长度，设为L
+# 那么根节点左子树对应的前序遍历是preorder[1:i+1]
+# 同理可以得到根节点右子树的中序和前序遍历结果
+# 分别用左子树和右子树的前序和中序遍历递归调用本函数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution:
             return res
         return method(preorder, inorder)
 
-```
+# ```

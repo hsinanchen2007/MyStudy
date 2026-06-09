@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-感谢[花花酱的视频解说](https://zxi.mytechroad.com/blog/searching/leetcode-842-split-array-into-fibonacci-sequence/)
+// 感谢[花花酱的视频解说](https://zxi.mytechroad.com/blog/searching/leetcode-842-split-array-into-fibonacci-sequence/)
 
-这道题要注意，如果是Golang，提交的时候注意MaxInt应该是MaxInt32，
-直接使用MaxInt有些测试案例不会通过。
+// 这道题要注意，如果是Golang，提交的时候注意MaxInt应该是MaxInt32，
+// 直接使用MaxInt有些测试案例不会通过。
 
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func splitIntoFibonacci(S string) []int {
 	s := []rune(S) // Covert string into unicode slice.
@@ -75,4 +75,4 @@ func min(a, b int) int {
 	return a
 }
 
-```
+// ```

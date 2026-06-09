@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/51ed31e85c8292a1e8e1f0da09c780286e7be2a070036995a5c5802e4da0ded0-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/51ed31e85c8292a1e8e1f0da09c780286e7be2a070036995a5c5802e4da0ded0-image.png)
+// ```
 bool HasTwoDifferent(char *s, int start, int end) {
     int differCnt = 0;
     bool startFlag = false;
@@ -62,4 +62,4 @@ int lengthOfLongestSubstringTwoDistinct(char * s)
 
     return returnSize;
 }
-```
+// ```

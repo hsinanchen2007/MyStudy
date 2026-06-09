@@ -1,9 +1,9 @@
-### 解题思路
-按照长度排序再加上寻找子串。寻找子串的时候不只是子串就可以了，而且还必须是子串直接到结尾。不是contain,而是contain(p+结束符)。
+// ### 解题思路
+// 按照长度排序再加上寻找子串。寻找子串的时候不只是子串就可以了，而且还必须是子串直接到结尾。不是contain,而是contain(p+结束符)。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *p1, const void *p2)
 {
     char **s1 = (char **)p1;
@@ -39,4 +39,4 @@ int minimumLengthEncoding(char ** words, int wordsSize){
     return result;
 
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int countSubstrings(String s) {
         if(s.length()==0) return 0;
@@ -34,4 +34,4 @@ class Solution {
         
     }
 }
-```
+// ```

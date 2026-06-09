@@ -1,11 +1,11 @@
-![捕获.PNG](https://pic.leetcode-cn.com/7ccf0c3e45252320647b57795f1ab36abae615e3df72f19ddf305588c4011b03-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/7ccf0c3e45252320647b57795f1ab36abae615e3df72f19ddf305588c4011b03-%E6%8D%95%E8%8E%B7.PNG)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -18,4 +18,4 @@ public:
         return arr[m-1];
     }
 };
-```
+// ```

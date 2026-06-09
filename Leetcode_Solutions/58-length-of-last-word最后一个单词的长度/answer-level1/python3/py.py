@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         if len(s) == 0 or s == " ":
@@ -12,4 +12,4 @@ class Solution:
             if len(lst) == 0:
                 return 0
             return len(lst[-1])
-```
+# ```

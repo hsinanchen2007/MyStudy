@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 //厄拉多塞筛法，先划去除2以外所有的2的倍数，再划去除3以外所有3的倍数，再划去除5以外...普通方法会严重超时
 class Solution {
     public int countPrimes(int n) {
@@ -18,4 +18,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

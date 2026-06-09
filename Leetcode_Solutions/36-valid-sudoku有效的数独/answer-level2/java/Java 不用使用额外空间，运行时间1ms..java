@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/2c910c87114652970934e06d06b7f3d131eb2503f7f5a19e828ebfedf5bed349-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2c910c87114652970934e06d06b7f3d131eb2503f7f5a19e828ebfedf5bed349-image.png)
 
-方法就是检查每行每列是否每个九宫格是否有重复值。
-```
+// 方法就是检查每行每列是否每个九宫格是否有重复值。
+// ```
 class Solution {
     public boolean isValidSudoku(char[][] board) {
             if(board == null || board.length <= 1){
@@ -52,4 +52,4 @@ class Solution {
             return true;
     }
 }
-```
+// ```

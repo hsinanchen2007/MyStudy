@@ -1,9 +1,9 @@
-golang实现，通过list实现单调递减的辅助双端队列
+// golang实现，通过list实现单调递减的辅助双端队列
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
 
-```
+// ```
 // 当一个新元素入队的时候，在该元素出队之前，它前面所有连续的比它小的元素将不会再对队列的最大值产生影响．
 // 维护一个单调递减的辅助双端队列，新元素入队前，将辅助队列对尾所有连续的比它小的元素删除后，再将新元素入队
 // 辅助队列的队首元素为当前最大值元素
@@ -52,4 +52,4 @@ func (this *MaxQueue) Pop_front() int {
 	this.m_q.Remove(m_e)
 	return m_e.Value.(int)
 }
-```
+// ```

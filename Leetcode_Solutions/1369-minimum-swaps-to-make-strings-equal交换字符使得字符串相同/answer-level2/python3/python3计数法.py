@@ -1,9 +1,9 @@
-### 解题思路
-只有计算不同的x和y各占多少即可，每两个x可以互相抵消，但是只剩一个x的时候需要2次才能消除。
+# ### 解题思路
+# 只有计算不同的x和y各占多少即可，每两个x可以互相抵消，但是只剩一个x的时候需要2次才能消除。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumSwap(self, s1: str, s2: str) -> int:
         if len(s1) != len(s2) or (s1.count('x')+s2.count('x'))%2:
@@ -16,4 +16,4 @@ class Solution:
         y_num = stack_s1.count('y')
         result = x_num//2+y_num//2+x_num%2+y_num%2
         return result
-```
+# ```

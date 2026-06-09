@@ -1,9 +1,9 @@
-### 解题思路
-多次in
+-- ### 解题思路
+-- 多次in
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select employee_id 
 from employees 
@@ -26,4 +26,4 @@ where
             )
         ) 
     and employee_id !=1
-    ```
+--     ```

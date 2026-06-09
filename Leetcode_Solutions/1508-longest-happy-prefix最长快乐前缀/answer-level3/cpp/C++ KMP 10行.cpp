@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int next[int(1e5 +50)];
 public:
@@ -9,4 +9,4 @@ public:
         return s.substr(0,next[s.size()]);
     }
 };
-```
+// ```

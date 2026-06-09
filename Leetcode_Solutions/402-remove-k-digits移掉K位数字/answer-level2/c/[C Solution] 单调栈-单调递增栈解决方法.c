@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // 利用单调栈，单调递增栈
 
 char * removeKdigits(char * num, int k){
@@ -45,4 +45,4 @@ char * removeKdigits(char * num, int k){
     
     return ret;
 }
-```
+// ```

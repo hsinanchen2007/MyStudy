@@ -1,9 +1,9 @@
-### 解题思路
-排序就行
+# ### 解题思路
+# 排序就行
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def getLeastNumbers(self, arr, k):
         """
@@ -12,4 +12,4 @@ class Solution(object):
         :rtype: List[int]
         """
         return sorted(arr)[:k]
-```
+# ```

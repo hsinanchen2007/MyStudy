@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -37,4 +37,4 @@ int** kClosest(int** points, int pointsSize, int* pointsColSize, int K, int* ret
     }
     return points;
 }
-```
+// ```

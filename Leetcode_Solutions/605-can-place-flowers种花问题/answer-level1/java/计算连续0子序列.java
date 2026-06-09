@@ -1,9 +1,9 @@
-### 解题思路
-纪录连续0的个数n, 当n>2时，可插入(n-1)/2个1
+// ### 解题思路
+// 纪录连续0的个数n, 当n>2时，可插入(n-1)/2个1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         // 连续0出现的起始位置，数组前假设补两位(1,0), 从-1开始纪录
@@ -24,4 +24,4 @@ class Solution {
         return n <= 0;
     }
 }
-```
+// ```

@@ -1,14 +1,14 @@
-# 题目描述（困难难度）
+// # 题目描述（困难难度）
 
-![image.png](https://pic.leetcode-cn.com/fedd755c3a74f71538185221619f9fe53eec36c6bd613802b07894af44e032b9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fedd755c3a74f71538185221619f9fe53eec36c6bd613802b07894af44e032b9-image.png)
 
-和[上一道](https://leetcode.windliang.cc/leetCode-56-Merge-Intervals.html)可以说是一个问题，只不过这个是给一个已经合并好的列表，然后给一个新的节点依据规则加入到合并好的列表。
+// 和[上一道](https://leetcode.windliang.cc/leetCode-56-Merge-Intervals.html)可以说是一个问题，只不过这个是给一个已经合并好的列表，然后给一个新的节点依据规则加入到合并好的列表。
 
-# 解法一
+// # 解法一
 
-对应 [56 题](https://leetcode.windliang.cc/leetCode-56-Merge-Intervals.html)的解法一，没看的话，可以先过去看一下。这个问题其实就是我们解法中的一个子问题，所以直接加过来就行了。
+// 对应 [56 题](https://leetcode.windliang.cc/leetCode-56-Merge-Intervals.html)的解法一，没看的话，可以先过去看一下。这个问题其实就是我们解法中的一个子问题，所以直接加过来就行了。
 
-```java
+// ```java
 public List<Interval> insert(List<Interval> intervals, Interval newInterval) { 
 			Interval start = null;
 			Interval end = null;
@@ -73,15 +73,15 @@ private boolean equals(Interval start, Interval end) {
     }
     return false;
 }
-```
+// ```
 
-时间复杂度：O（n）。
+// 时间复杂度：O（n）。
 
-空间复杂度： O（n）， 里边的 in 变量用来存储囊括的节点时候耗费的。
+// 空间复杂度： O（n）， 里边的 in 变量用来存储囊括的节点时候耗费的。
 
-我们其实可以利用迭代器，一边遍历，一边删除，这样就不需要 in 变量了。
+// 我们其实可以利用迭代器，一边遍历，一边删除，这样就不需要 in 变量了。
 
-```java
+// ```java
 public List<Interval> insert(List<Interval> intervals, Interval newInterval) {
 		Interval start = null;
 		Interval end = null;
@@ -139,21 +139,21 @@ private boolean equals(Interval start, Interval end) {
     }
     return false;
 }
-```
+// ```
 
-时间复杂度：O（n）。
+// 时间复杂度：O（n）。
 
-空间复杂度： O（1）。 
+// 空间复杂度： O（1）。 
 
-# 解法二
+// # 解法二
 
-对应 [56 题](https://leetcode.windliang.cc/leetCode-56-Merge-Intervals.html)的解法二，考虑到它给定的合并的列表是有序的，和解法二是一个思想。只不过这里不能直接从末尾添加，而是根据新节点的 start 来找到它应该在的位置，然后再利用之前的想法就够了。
+// 对应 [56 题](https://leetcode.windliang.cc/leetCode-56-Merge-Intervals.html)的解法二，考虑到它给定的合并的列表是有序的，和解法二是一个思想。只不过这里不能直接从末尾添加，而是根据新节点的 start 来找到它应该在的位置，然后再利用之前的想法就够了。
 
-这里把 leetcode 里的两种写法，贴过来，大家可以参考一下。
+// 这里把 leetcode 里的两种写法，贴过来，大家可以参考一下。
 
-[第一种](https://leetcode.com/problems/insert-interval/discuss/21602/Short-and-straight-forward-Java-solution)。
+// [第一种](https://leetcode.com/problems/insert-interval/discuss/21602/Short-and-straight-forward-Java-solution)。
 
-```java
+// ```java
 public List<Interval> insert(List<Interval> intervals, Interval newInterval) {
     List<Interval> result = new LinkedList<>();
     int i = 0;
@@ -173,11 +173,11 @@ public List<Interval> insert(List<Interval> intervals, Interval newInterval) {
     while (i < intervals.size()) result.add(intervals.get(i++)); 
     return result;
 }
-```
+// ```
 
-[第二种](https://leetcode.com/problems/insert-interval/discuss/21600/Short-java-code)。和之前是一样的思想，只不过更加的简洁，可以参考一下。
+// [第二种](https://leetcode.com/problems/insert-interval/discuss/21600/Short-java-code)。和之前是一样的思想，只不过更加的简洁，可以参考一下。
 
-```java
+// ```java
 public List<Interval> insert(List<Interval> intervals, Interval newInterval) {
     List<Interval> result = new ArrayList<Interval>();
     for (Interval i : intervals) {
@@ -199,16 +199,16 @@ public List<Interval> insert(List<Interval> intervals, Interval newInterval) {
         result.add(newInterval);
     return result;
 }
-```
+// ```
 
-总的来说，上边两个写法本质是一样的，就是依据他们是有序的，先把新节点前边的节点加入，然后开始判断是否重合，当前节点加入后，把后边的加入就可以了。
+// 总的来说，上边两个写法本质是一样的，就是依据他们是有序的，先把新节点前边的节点加入，然后开始判断是否重合，当前节点加入后，把后边的加入就可以了。
 
-时间复杂度：O（n）。
+// 时间复杂度：O（n）。
 
-空间复杂度：O（n），存储最后的结果。
+// 空间复杂度：O（n），存储最后的结果。
 
-# 总
+// # 总
 
-总的来说，这道题可以看做上道题的一些变形，本质上是一样的。由于用 for 循环不能一边遍历列表，一边删除某个元素，所以利用迭代器实现边遍历，边删除，自己也是第一次用。此外，解法一更加通用些，它不要求给定的列表有序。
+// 总的来说，这道题可以看做上道题的一些变形，本质上是一样的。由于用 for 循环不能一边遍历列表，一边删除某个元素，所以利用迭代器实现边遍历，边删除，自己也是第一次用。此外，解法一更加通用些，它不要求给定的列表有序。
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

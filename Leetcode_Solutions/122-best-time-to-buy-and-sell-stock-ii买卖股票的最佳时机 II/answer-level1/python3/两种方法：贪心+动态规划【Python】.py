@@ -1,20 +1,20 @@
-### 思路
+# ### 思路
 
-##### 解法一
+# ##### 解法一
 
-**贪心**
+# **贪心**
 
-```
+# ```
 根据题意，是按照每天的顺序进行股票买入与卖出。
 于是，只要后一天价格大于前一天价格，就可买入卖出这只股票。
-```
+# ```
 
-**时间复杂度:** O(len(prices))
-**空间复杂度:** O(1)
+# **时间复杂度:** O(len(prices))
+# **空间复杂度:** O(1)
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         # solution one: 贪心
@@ -25,13 +25,13 @@ class Solution:
             if(prices[i+1] > prices[i]):
                 profit += prices[i+1] - prices[i]
         return profit
-```
+# ```
 
-##### 解法二
+# ##### 解法二
 
-**动态规划**
+# **动态规划**
 
-```
+# ```
 找到状态方程
 
 dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
@@ -62,13 +62,13 @@ dp[0][0] = max(dp[-1][0], dp[-1][1] + prices[i])
 dp[0][1] = max(dp[-1][1], dp[-1][0] - prices[i])
          = max(-infinity, 0 - prices[i]) 
          = -prices[i]
-```
+# ```
 
-**空间复杂度:** O(1)
+# **空间复杂度:** O(1)
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         # solution two: 动态规划
@@ -81,12 +81,12 @@ class Solution:
             # 昨天有股票，昨天没有股票今天买入
             dp_i_1 = max(dp_i_1, temp - prices[i])
         return dp_i_0
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0122-Best-Time-to-Buy-and-Sell-Stock-II/0122.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0122-Best-Time-to-Buy-and-Sell-Stock-II/0122.py)
 
-### 参考
+# ### 参考
 
-[一个方法团灭 6 道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/)
+# [一个方法团灭 6 道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/)

@@ -1,10 +1,10 @@
-### 解题思路
-1. 使用栈保存每一轮的得分
-2. 遍历的时候累加得到最终结果
+// ### 解题思路
+// 1. 使用栈保存每一轮的得分
+// 2. 遍历的时候累加得到最终结果
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func calPoints(_ ops: [String]) -> Int {
         var roundPoint = [Int]()
@@ -34,4 +34,4 @@ class Solution {
     }
 }
 
-```
+// ```

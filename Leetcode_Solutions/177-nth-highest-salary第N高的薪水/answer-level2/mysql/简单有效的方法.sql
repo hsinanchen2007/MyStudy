@@ -1,7 +1,7 @@
 
 
 
-```
+-- ```
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
     declare p int;
@@ -15,5 +15,5 @@ BEGIN
     @a
   );
 END;
-```
+-- ```
 

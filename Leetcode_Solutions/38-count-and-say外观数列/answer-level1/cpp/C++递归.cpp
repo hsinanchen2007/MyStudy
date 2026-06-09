@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/2b739033087375174925d6d8077f345ae084482b3b459d463991bd7fca363293-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2b739033087375174925d6d8077f345ae084482b3b459d463991bd7fca363293-image.png)
 
-```
+// ```
 class Solution {
 public:
     string countAndSay(int n) {
@@ -28,4 +28,4 @@ public:
     }
 
 };
-```
+// ```

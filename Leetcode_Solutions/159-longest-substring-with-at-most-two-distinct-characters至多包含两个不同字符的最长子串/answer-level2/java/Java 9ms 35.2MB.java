@@ -1,5 +1,5 @@
-利用一个二位数组来记录窗口中的两个数，再用两个数来记录这两个数在字符串中连续出现的最早的位置
-```
+// 利用一个二位数组来记录窗口中的两个数，再用两个数来记录这两个数在字符串中连续出现的最早的位置
+// ```
 public int lengthOfLongestSubstringTwoDistinct(String s) {
         if (s == null || "".equals(s)) {
 			return 0;
@@ -33,4 +33,4 @@ public int lengthOfLongestSubstringTwoDistinct(String s) {
 		}
 		return maxlen;
     }
-```
+// ```

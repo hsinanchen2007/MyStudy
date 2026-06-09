@@ -1,9 +1,9 @@
-### 解题思路
-这个思路大家应该都能看懂
+# ### 解题思路
+# 这个思路大家应该都能看懂
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if not nums: return 0  
@@ -18,4 +18,4 @@ class Solution:
        
        
 
-```
+# ```

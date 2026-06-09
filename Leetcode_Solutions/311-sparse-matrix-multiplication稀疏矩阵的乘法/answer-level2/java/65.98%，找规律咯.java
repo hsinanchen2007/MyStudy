@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[][] multiply(int[][] A, int[][] B) {
         //C[i][j] = sum(from  k is 0 - m)(A[i][k] * B[k][j])
@@ -16,4 +16,4 @@ class Solution {
         return c;
     }
 }
-```
+// ```

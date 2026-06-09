@@ -1,9 +1,9 @@
-### 解题思路
-最近发现阿里出笔试题挺爱出数学类题目的。。。
+// ### 解题思路
+// 最近发现阿里出笔试题挺爱出数学类题目的。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     vector<int> nums;
@@ -45,4 +45,4 @@ public:
         return get(visited, n-1, k);
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-例:MCDLXXV
-是肯定有一个指针i,j=i+1来判断s[i,j+1]是否属于IV,IX,XL,XC,CD,CM之列。
-我是使用的数值判断，大神是使用的element判断，给我提供了新的思路，非常棒。
+# ### 解题思路
+# 例:MCDLXXV
+# 是肯定有一个指针i,j=i+1来判断s[i,j+1]是否属于IV,IX,XL,XC,CD,CM之列。
+# 我是使用的数值判断，大神是使用的element判断，给我提供了新的思路，非常棒。
 
-### 我的代码
+# ### 我的代码
 
-```
+# ```
 class Solution:
     def romanToInt(self, s) -> int:
         length = len(s)
@@ -43,14 +43,14 @@ class Solution:
 
         return result
 
-```
+# ```
 
 
-### 膜拜了一下大神的思路
+# ### 膜拜了一下大神的思路
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s) -> int:
         d = {'I':1, 'IV':3, 'V':5, 'IX':8, 'X':10, 'XL':30, 'L':50, 'XC':80, 'C':100, 'CD':300, 'D':500, 'CM':800, 'M':1000}
         return sum(d.get(s[max(i-1, 0):i+1], d[n]) for i, n in enumerate(s))
-```
+# ```

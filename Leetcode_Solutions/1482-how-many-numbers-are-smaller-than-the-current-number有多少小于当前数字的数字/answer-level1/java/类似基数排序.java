@@ -1,5 +1,5 @@
-数据量不大，直接上代码
-```
+// 数据量不大，直接上代码
+// ```
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] arr=new int[101];
@@ -15,4 +15,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

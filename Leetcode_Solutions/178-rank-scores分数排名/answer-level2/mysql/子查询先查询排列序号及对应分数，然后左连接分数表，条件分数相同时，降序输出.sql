@@ -1,8 +1,8 @@
-### 解题思路
-子查询先查询排列序号及对应分数，然后左连接分数表，条件分数相同时，降序输出
-### 代码
+-- ### 解题思路
+-- 子查询先查询排列序号及对应分数，然后左连接分数表，条件分数相同时，降序输出
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -15,4 +15,4 @@ from
 left join Scores s
 on s.Score = r.Score
 order by s.Score desc;
-```
+-- ```

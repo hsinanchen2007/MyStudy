@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size){
     int i;
     int j;
@@ -42,4 +42,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
     }
     return r;
 }
-```
+// ```

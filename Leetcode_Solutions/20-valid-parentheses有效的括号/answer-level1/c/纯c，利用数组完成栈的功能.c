@@ -1,9 +1,9 @@
-### 解题思路
-利用栈的思想，通过数组实现，
+// ### 解题思路
+// 利用栈的思想，通过数组实现，
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -35,4 +35,4 @@ bool isValid(char * s) {
 		return false;
 
 }
-```
+// ```

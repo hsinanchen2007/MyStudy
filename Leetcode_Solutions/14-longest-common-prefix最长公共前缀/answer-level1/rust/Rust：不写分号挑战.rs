@@ -1,5 +1,5 @@
-不写分号挑战
-```
+// 不写分号挑战
+// ```
 impl Solution {
     pub fn longest_common_prefix(strs: Vec<String>) -> String {
         strs.get(0).and_then(|s| s.get(0..(0..strs.iter().min_by_key(|s| s.len()).map(|s| s.len()).unwrap_or(0))
@@ -14,4 +14,4 @@ impl Solution {
             .count())).unwrap_or("").to_string()
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func toHexspeak(num string) string {
 	ints, _ := strconv.Atoi(num)
 	h := fmt.Sprintf("%x",ints)
@@ -23,4 +23,4 @@ func toHexspeak(num string) string {
 	}
 	return ans
 }
-```
+// ```

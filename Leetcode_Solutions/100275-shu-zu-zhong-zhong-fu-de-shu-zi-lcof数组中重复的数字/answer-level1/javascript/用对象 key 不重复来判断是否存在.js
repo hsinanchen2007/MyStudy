@@ -1,9 +1,9 @@
-### 解题思路
-用对象 key 不重复来判断是否存在
+// ### 解题思路
+// 用对象 key 不重复来判断是否存在
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -20,4 +20,4 @@ var findRepeatNumber = function(nums) {
     })
     return repeat;
 };
-```
+// ```

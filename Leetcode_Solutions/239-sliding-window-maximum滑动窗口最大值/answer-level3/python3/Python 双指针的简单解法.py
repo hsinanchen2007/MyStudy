@@ -1,10 +1,10 @@
-### 解题思路
-1、定义两个指针，当作滑动窗口
-2、在右边滑动窗不出界的情况下就一直循环，得到最后结果
+# ### 解题思路
+# 1、定义两个指针，当作滑动窗口
+# 2、在右边滑动窗不出界的情况下就一直循环，得到最后结果
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         ##双指针的方式
@@ -22,5 +22,5 @@ class Solution:
             return nums
 
 
-```
-![image.png](https://pic.leetcode-cn.com/98ff9c6c18c92878e04eafe78339cbfeef6be22f79ac25cd86e9b950aa753f56-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/98ff9c6c18c92878e04eafe78339cbfeef6be22f79ac25cd86e9b950aa753f56-image.png)

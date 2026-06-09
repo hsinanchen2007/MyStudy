@@ -1,4 +1,4 @@
-```
+// ```
 int islandPerimeter(int** grid, int gridSize, int* gridColSize){
     int circle = 0;
     for (int i = 0; i < gridSize; i++) {
@@ -22,4 +22,4 @@ int islandPerimeter(int** grid, int gridSize, int* gridColSize){
     }
     return circle;
 }
-```
+// ```

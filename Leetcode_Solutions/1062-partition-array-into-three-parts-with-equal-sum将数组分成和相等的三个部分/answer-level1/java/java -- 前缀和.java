@@ -1,9 +1,9 @@
-### 解题思路
-利用前缀去累加和，减少运算量
+// ### 解题思路
+// 利用前缀去累加和，减少运算量
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int sum = 0;
@@ -25,4 +25,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

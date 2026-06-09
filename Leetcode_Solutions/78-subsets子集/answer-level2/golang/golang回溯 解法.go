@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-golang回溯解法。题目中说是要去重，但是答案貌似没有去重。
+// ### 解题思路
+// 此处撰写解题思路
+// golang回溯解法。题目中说是要去重，但是答案貌似没有去重。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func backTrack(i, numsLen , k int, nums []int, curr *[]int, res *[][]int){
 	if i <= numsLen && len(*curr) == k{
 		temp := make([]int, len(*curr))
@@ -39,4 +39,4 @@ func subsets(nums []int) [][]int {
 	return result
 }
 
-```
+// ```

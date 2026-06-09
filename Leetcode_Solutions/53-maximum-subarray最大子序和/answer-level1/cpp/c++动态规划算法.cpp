@@ -1,9 +1,9 @@
-### 解题思路
-数组dp用来存储以数组nums中位置为i的元素结尾的最大和子序列。dp[0]=nums[0]，dp[i]=nums[i]>(nums[i]+dp[i-1]) ? nums[i]:(nums[i]+dp[i-1])。最后遍历数组dp，找出值最大的元素即为所求。
+// ### 解题思路
+// 数组dp用来存储以数组nums中位置为i的元素结尾的最大和子序列。dp[0]=nums[0]，dp[i]=nums[i]>(nums[i]+dp[i-1]) ? nums[i]:(nums[i]+dp[i-1])。最后遍历数组dp，找出值最大的元素即为所求。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
      return max; 
     }
 };
-```
+// ```

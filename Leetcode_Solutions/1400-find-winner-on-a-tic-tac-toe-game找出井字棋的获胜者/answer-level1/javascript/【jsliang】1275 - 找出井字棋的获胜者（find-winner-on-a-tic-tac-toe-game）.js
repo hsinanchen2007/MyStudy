@@ -1,10 +1,10 @@
-这道题，在我编写五子棋的游戏中也碰到过。
+// 这道题，在我编写五子棋的游戏中也碰到过。
 
-当初老师教的是暴力编写，所以你懂的：
+// 当初老师教的是暴力编写，所以你懂的：
 
-> 暴力破解
+// > 暴力破解
 
-```js
+// ```js
 /**
  * @name 判断矩阵
  * @param {*} matrix 需要判断的矩阵
@@ -70,27 +70,27 @@ const tictactoe = (moves) => {
     return result;
   }
 };
-```
+// ```
 
-步骤如下：
+// 步骤如下：
 
-1. 设计九宫格元素都为 `NaN`。这里需要强调的是，我们设置 `NaN` 是因为 `NaN !== NaN`。
-2. 遍历 `moves` 命令，对矩阵 `matrix` 进行填充。这里需要注意的是，我们填充 `'A'` 或者 `'B'`，并不需要最后再判断是 `'X'`/`'O'`。
-3. 然后就是通过 `judge` 方法暴力判断矩形，分别列举横排、竖排和斜排的情况即可。
-4. 最后就是 `Draw` 状态和 `Pending` 状态需要进行区分。
+// 1. 设计九宫格元素都为 `NaN`。这里需要强调的是，我们设置 `NaN` 是因为 `NaN !== NaN`。
+// 2. 遍历 `moves` 命令，对矩阵 `matrix` 进行填充。这里需要注意的是，我们填充 `'A'` 或者 `'B'`，并不需要最后再判断是 `'X'`/`'O'`。
+// 3. 然后就是通过 `judge` 方法暴力判断矩形，分别列举横排、竖排和斜排的情况即可。
+// 4. 最后就是 `Draw` 状态和 `Pending` 状态需要进行区分。
 
-搞定收工，Submit 提交：
+// 搞定收工，Submit 提交：
 
-```js
+// ```js
 Accepted
 * 100/100 cases passed (64 ms)
 * Your runtime beats 76.38 % of javascript submissions
 * Your memory usage beats 54.17 % of javascript submissions (33.9 MB)
-```
+// ```
 
-当然，如果小伙伴们有更好的思路想法，欢迎评论留言或者私聊 **jsliang**~
+// 当然，如果小伙伴们有更好的思路想法，欢迎评论留言或者私聊 **jsliang**~
 
 
-公众号：飘飞的心灵
+// 公众号：飘飞的心灵
 
-GitHub：https://github.com/LiangJunrong/document-library
+// GitHub：https://github.com/LiangJunrong/document-library

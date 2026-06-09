@@ -1,11 +1,11 @@
-### 解题思路
-定义两个HashMap分别是Map<Integer, Node> map用来存放key与value值Map<Integer, LinkedList<Node>> linkedListMap中key是使用频率value:是对应这个使用频率的所有元素的组成的链表,元素头部是最近使用过的,尾部是最远使用过的元素
-每一次使用过某个元素,就将对应的元素放到链表头部,这样保证链表头部一直是最近使用的,而尾部是最久远使用的
+// ### 解题思路
+// 定义两个HashMap分别是Map<Integer, Node> map用来存放key与value值Map<Integer, LinkedList<Node>> linkedListMap中key是使用频率value:是对应这个使用频率的所有元素的组成的链表,元素头部是最近使用过的,尾部是最远使用过的元素
+// 每一次使用过某个元素,就将对应的元素放到链表头部,这样保证链表头部一直是最近使用的,而尾部是最久远使用的
 
-ps:以下代码,写的有点乱,很多地方是重复的,可以单独写一个方法...
-### 代码
+// ps:以下代码,写的有点乱,很多地方是重复的,可以单独写一个方法...
+// ### 代码
 
-```java
+// ```java
 class LFUCache {
     //定义Node
     class Node {
@@ -158,4 +158,4 @@ class LFUCache {
     }
 }
 
-```
+// ```

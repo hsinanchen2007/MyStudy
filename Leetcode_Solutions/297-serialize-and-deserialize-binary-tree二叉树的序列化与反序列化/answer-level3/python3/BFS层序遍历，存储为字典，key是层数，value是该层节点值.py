@@ -1,5 +1,5 @@
-二叉树做多了感觉越来越像链表，链表的快慢指针方法、存为列表/字典后操作再转回链表方法，都能找到应用的影子。
-```python
+# 二叉树做多了感觉越来越像链表，链表的快慢指针方法、存为列表/字典后操作再转回链表方法，都能找到应用的影子。
+# ```python
 class Codec:
     
     def serialize(self, root):
@@ -28,4 +28,4 @@ class Codec:
                 if child:data[k-1][i].right = child.pop(0)
             k+=1
         return data[0][0] if data else None
-```
+# ```

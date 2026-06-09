@@ -1,7 +1,7 @@
-参照评论区里的位运算解法写了个c语言版本的
-其中部分代码写法拙劣，还请大神指教
+// 参照评论区里的位运算解法写了个c语言版本的
+// 其中部分代码写法拙劣，还请大神指教
 
-```
+// ```
 int majorityElement(int* nums, int numsSize){
     int result =0,k = numsSize/2,flag=0;
     for(int i=0;i<32;i++){ //int类型占4字节（共32位）
@@ -23,4 +23,4 @@ int majorityElement(int* nums, int numsSize){
 return flag>k?-result-1:result;
 }
 
-```
+// ```

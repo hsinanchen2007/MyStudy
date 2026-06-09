@@ -1,4 +1,4 @@
-```
+// ```
 int* nextLargerNodes(struct ListNode* head, int* returnSize){
     struct ListNode *p = head;
 
@@ -31,4 +31,4 @@ int* nextLargerNodes(struct ListNode* head, int* returnSize){
     *returnSize = count;
     return result;
 }
-```
+// ```

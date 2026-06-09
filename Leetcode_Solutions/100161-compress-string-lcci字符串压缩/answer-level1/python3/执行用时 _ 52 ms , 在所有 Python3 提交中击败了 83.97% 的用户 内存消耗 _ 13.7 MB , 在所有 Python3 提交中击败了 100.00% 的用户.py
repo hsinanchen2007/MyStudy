@@ -1,9 +1,9 @@
-### 解题思路
-出现的元素和次数分别统计再形成字符串
+# ### 解题思路
+# 出现的元素和次数分别统计再形成字符串
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if not S:
@@ -22,4 +22,4 @@ class Solution:
         return ans if len(ans) < len(S) else S
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-感觉没啥可说的，建立一个链表，通过判断不同情况，链表加入某一情况的字符串即可。
+// ### 解题思路
+// 感觉没啥可说的，建立一个链表，通过判断不同情况，链表加入某一情况的字符串即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> list = new LinkedList<String>();
@@ -26,4 +26,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-我先用数组实现，因为用Map很可能超时。
-注意：用数组实现，也可以用递归和非递归两种方式，我觉得递归很可能写的代码栈溢出，所以尽量用非递归吧。
+// ### 解题思路
+// 我先用数组实现，因为用Map很可能超时。
+// 注意：用数组实现，也可以用递归和非递归两种方式，我觉得递归很可能写的代码栈溢出，所以尽量用非递归吧。
 
-### 代码
-递归写法：
-```java
+// ### 代码
+// 递归写法：
+// ```java
 class TrieNode {
         TrieNode[] children;
         boolean isWord;
@@ -73,10 +73,10 @@ class Trie {
         return trieNode.find(prefix, 0) != null;
     }
 }
-```
+// ```
 
-非递归写法：
-```java
+// 非递归写法：
+// ```java
 class TrieNode {
         TrieNode[] children;
         boolean isWord;
@@ -147,4 +147,4 @@ class Trie {
         return trieNode.find(prefix) != null;
     }
 }
-```
+// ```

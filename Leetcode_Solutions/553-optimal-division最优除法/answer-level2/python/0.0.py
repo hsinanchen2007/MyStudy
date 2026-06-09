@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-肯定是数字越做除法就越小的
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 肯定是数字越做除法就越小的
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def optimalDivision(self, nums: List[int]) -> str:
         ans=''
@@ -23,4 +23,4 @@ class Solution:
         print(ans)
         return ans
         
-```
+# ```

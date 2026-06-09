@@ -1,6 +1,6 @@
-### 解题思路
-1.递归
-```
+// ### 解题思路
+// 1.递归
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,14 +31,14 @@ public:
         
     }
 };
-```
+// ```
 
 
-2.BFS
+// 2.BFS
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 class Solution {
 public:
@@ -71,4 +71,4 @@ public:
         return true;       
     }
 };
-```
+// ```

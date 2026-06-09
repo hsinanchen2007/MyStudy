@@ -1,4 +1,4 @@
-```
+// ```
 class Foo {
     mutex mtx;
     condition_variable cv;
@@ -34,4 +34,4 @@ public:
         printThird();
     }
 };
-```
+// ```

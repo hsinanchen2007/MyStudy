@@ -1,8 +1,8 @@
-执行用时 :8 ms, 在所有 C++ 提交中击败了97.77%的用户
+// 执行用时 :8 ms, 在所有 C++ 提交中击败了97.77%的用户
 
-内存消耗 :9.3 MB, 在所有 C++ 提交中击败了81.22%的用户
+// 内存消耗 :9.3 MB, 在所有 C++ 提交中击败了81.22%的用户
 
-```
+// ```
 bool minThanK(const int& a, const int& b, const int& t) {
 	return a > b ? a - b <= t : b - a <= t;
 }
@@ -27,4 +27,4 @@ bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
 	}
 	return false;
 }
-```
+// ```

@@ -1,15 +1,15 @@
-### 思路
+# ### 思路
 
-**递归**
+# **递归**
 
-```
+# ```
 不是求左子树高度 + 右子树高度。
 而是求任意两点之间的路径最大值。
-```
+# ```
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,8 +32,8 @@ class Solution:
         self.max = max(self.max, l + r)
         # 返回高度
         return max(l, r) + 1
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0543-Diameter-of-Binary-Tree/0543.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0543-Diameter-of-Binary-Tree/0543.py)

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-定义两个指针：
-i指向偶数，j指向奇数
-空间复杂度o(1)，时间复杂度O(n)
+// 定义两个指针：
+// i指向偶数，j指向奇数
+// 空间复杂度o(1)，时间复杂度O(n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 双指针 o(n)遍历
     public int[] exchange(int[] nums) {
@@ -29,4 +29,4 @@ class Solution {
         nums[j] = temp;
     }
 }
-```
+// ```

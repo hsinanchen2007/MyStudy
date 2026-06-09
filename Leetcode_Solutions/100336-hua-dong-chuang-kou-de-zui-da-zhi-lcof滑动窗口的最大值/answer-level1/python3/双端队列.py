@@ -1,14 +1,14 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/e84053e51d1ef57de37382f8dea5aafce35bb75f0f3f54af5bcd1c5224c0f8c6-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/e84053e51d1ef57de37382f8dea5aafce35bb75f0f3f54af5bcd1c5224c0f8c6-image.png)
 
-1.使用双端队列(与队列的不同之处在于可以在o(1)时间复杂度内删除,查看队头和队尾元素),将前k个元素的最大值的下标存入双端队列,
-2.然后从k到n-1开始遍历,每次将对头元素放入res,然后看如果对列头元素的下标与当前访问的下标差值>=k,就将对头元素出队,
-3.然后如果队列非空,队尾下标对应的元素如果小于当前访问元素,就将其队尾元素的索引出队,
-4.最后添加在队尾添加当前访问元素的索引
+# 1.使用双端队列(与队列的不同之处在于可以在o(1)时间复杂度内删除,查看队头和队尾元素),将前k个元素的最大值的下标存入双端队列,
+# 2.然后从k到n-1开始遍历,每次将对头元素放入res,然后看如果对列头元素的下标与当前访问的下标差值>=k,就将对头元素出队,
+# 3.然后如果队列非空,队尾下标对应的元素如果小于当前访问元素,就将其队尾元素的索引出队,
+# 4.最后添加在队尾添加当前访问元素的索引
 
-### 代码
+# ### 代码
 
-```
+# ```
 from collections import deque #引入双端队列
 class Solution:
     def maxSlidingWindow(self, nums: [int], k: int) -> [int]:
@@ -31,4 +31,4 @@ class Solution:
         res.append(nums[deq[0]])
         return res
 
-```
+# ```

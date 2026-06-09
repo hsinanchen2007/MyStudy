@@ -1,9 +1,9 @@
-### 解题思路
-把链表中间的元素作为树的根节点,左子链表用来构造左子树,右子链表用来构造右子树.
+// ### 解题思路
+// 把链表中间的元素作为树的根节点,左子链表用来构造左子树,右子链表用来构造右子树.
 
-### 代码
-1. 使用切片复制链表元素再构造二叉树
-```golang
+// ### 代码
+// 1. 使用切片复制链表元素再构造二叉树
+// ```golang
 func sortedListToBST(head *ListNode) *TreeNode {
 	ints := make([]int, 0)
 	p := head
@@ -26,10 +26,10 @@ func buildTreeWithSlice(ints []int, left, right int) *TreeNode {
 	return root
 }
 
-```
+// ```
 
-2. 原地构造二叉树
-```golang
+// 2. 原地构造二叉树
+// ```golang
 func sortedListToBST(head *ListNode) *TreeNode {
 	return buildTree(head)
 }
@@ -61,4 +61,4 @@ func buildTree(head *ListNode) *TreeNode {
 	}
 	return root
 }
-```
+// ```

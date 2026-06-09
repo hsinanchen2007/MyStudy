@@ -1,5 +1,5 @@
 
-```
+// ```
 func deleteAndEarn(nums []int) int {
 	if len(nums) == 0 || nums == nil {
 		return 0
@@ -40,4 +40,4 @@ func rob(nums []int) int {
 	}
 	return dps[len(nums)]
 }
-```
+// ```

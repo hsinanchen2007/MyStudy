@@ -1,8 +1,8 @@
-### 解题思路
-先使用成倍累加，再逐步累加
-### 代码
+// ### 解题思路
+// 先使用成倍累加，再逐步累加
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int divide(int dividend, int divisor) {
@@ -46,4 +46,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先去除字符串中所有的空格，再利用栈的方法存储左右括号和符号进行运算优先级判定
+// ### 解题思路
+// 先去除字符串中所有的空格，再利用栈的方法存储左右括号和符号进行运算优先级判定
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int calculate(string s) {
@@ -46,5 +46,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/5766401d72a186a86f0fc2a86bc446c85dc0c8cef4f4af8a451a5f241f2a756f-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/5766401d72a186a86f0fc2a86bc446c85dc0c8cef4f4af8a451a5f241f2a756f-image.png)

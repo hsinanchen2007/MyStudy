@@ -1,9 +1,9 @@
-### 解题思路
-关键列动态转移方程
+// ### 解题思路
+// 关键列动态转移方程
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isInterleave(char * s1, char * s2, char * s3){
     int len1 = strlen(s1);
     int len2 = strlen(s2);
@@ -38,4 +38,4 @@ bool isInterleave(char * s1, char * s2, char * s3){
 
     return dp[len1][len2];
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-用hash表，（键-值）--->（字符-出现次数）
-若两个字符串中所有字符出现的次数相同，则可以重排成同一字符串
+// ### 解题思路
+// 用hash表，（键-值）--->（字符-出现次数）
+// 若两个字符串中所有字符出现的次数相同，则可以重排成同一字符串
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         char[] c1=s1.toCharArray();
@@ -28,4 +28,4 @@ class Solution {
 		return true;
     }
 }
-```
+// ```

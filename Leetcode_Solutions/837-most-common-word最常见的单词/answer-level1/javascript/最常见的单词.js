@@ -1,4 +1,4 @@
-```js
+// ```js
 var mostCommonWord = function(paragraph, banned) {
     let paragraphArr = paragraph.toLowerCase().replace(/[!?',;\.]/g,' ').split(/[\s]+/);
     let map = new Map();
@@ -23,5 +23,5 @@ var mostCommonWord = function(paragraph, banned) {
     })
     return res
 };
-```
+// ```
 

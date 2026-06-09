@@ -1,9 +1,9 @@
-### 解题思路
-Python3字符串的字符加索引
+# ### 解题思路
+# Python3字符串的字符加索引
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseWords(self, s: str) -> str:
         res = ''
@@ -18,4 +18,4 @@ class Solution:
                 flag = False
                 res = " " +  s[idx:j] + res
         return res[1:]
-```
+# ```

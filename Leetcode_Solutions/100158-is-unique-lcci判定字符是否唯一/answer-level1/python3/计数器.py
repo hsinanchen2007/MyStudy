@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isUnique(self, astr: str) -> bool:
         a=collections.Counter()
@@ -8,4 +8,4 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```

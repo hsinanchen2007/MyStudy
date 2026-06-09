@@ -1,5 +1,5 @@
-两次遍历
-```
+// 两次遍历
+// ```
 fun wiggleMaxLength(nums: IntArray): Int {
         val length = nums.size
         if (length < 2) {
@@ -29,4 +29,4 @@ fun wiggleMaxLength(nums: IntArray): Int {
         }
         return num
     }
-```
+// ```

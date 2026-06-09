@@ -1,9 +1,9 @@
-### 解题思路
-简单的动态规划问题
+// ### 解题思路
+// 简单的动态规划问题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int waysToStep(int n) {
         if(n==0)
@@ -21,4 +21,4 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```

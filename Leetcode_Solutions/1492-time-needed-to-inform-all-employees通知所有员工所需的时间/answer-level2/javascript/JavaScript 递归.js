@@ -1,11 +1,11 @@
-### 解题思路
-week 179 第三题
-创建一个哈希表，用来记录对应上司手下的位置。
-每一个员工递归，获得对应员工手下最长时长。
-时间复杂度 O（log n）
-### 代码
+// ### 解题思路
+// week 179 第三题
+// 创建一个哈希表，用来记录对应上司手下的位置。
+// 每一个员工递归，获得对应员工手下最长时长。
+// 时间复杂度 O（log n）
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} headID
@@ -29,4 +29,4 @@ var numOfMinutes = function(n, headID, manager, informTime) {
   }
   return count(headID)
 };
-```
+// ```

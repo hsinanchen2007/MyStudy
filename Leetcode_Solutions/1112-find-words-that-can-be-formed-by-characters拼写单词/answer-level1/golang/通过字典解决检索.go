@@ -1,10 +1,10 @@
-### 解题思路
-* map能够加快字符检索效率
-* 通过json.Marshal和json.Unmarshal来解决字典重复使用
+// ### 解题思路
+// * map能够加快字符检索效率
+// * 通过json.Marshal和json.Unmarshal来解决字典重复使用
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countCharacters(words []string, chars string) int {
   cnts := 0
   hashStr := charsSerial(chars)
@@ -50,4 +50,4 @@ func masteWord(words string, hashStr []byte) int{
   }
   return cnt
 }
-```
+// ```

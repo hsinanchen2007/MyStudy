@@ -1,9 +1,9 @@
-### 解题思路
-经典的完全背包问题，讲解参考链接：https://zhuanlan.zhihu.com/p/93857890
+// ### 解题思路
+// 经典的完全背包问题，讲解参考链接：https://zhuanlan.zhihu.com/p/93857890
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int coinChange(int* coins, int coinsSize, int amount)
 {
     if (coins == NULL) {
@@ -29,4 +29,4 @@ int coinChange(int* coins, int coinsSize, int amount)
 	}
 	return dp[amount] == INT_MAX ? -1 : dp[amount];
 }
-```
+// ```

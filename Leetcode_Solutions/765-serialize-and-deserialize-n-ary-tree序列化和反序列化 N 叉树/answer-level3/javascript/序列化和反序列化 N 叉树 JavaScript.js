@@ -1,9 +1,9 @@
-### 解题思路
-按层次保存N叉数的值和子树个数即可
+// ### 解题思路
+// 按层次保存N叉数的值和子树个数即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val, children) {
@@ -72,4 +72,4 @@ class Codec {
 // Your Codec object will be instantiated and called as such:
 // Codec codec = new Codec();
 // codec.deserialize(codec.serialize(root));
-```
+// ```

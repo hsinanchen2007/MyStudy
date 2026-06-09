@@ -1,11 +1,11 @@
-### 解题思路
-套用DFS大法，其中，类似树的遍历，需要沿一个分支遍历到头，即遇到墙，才改变方向，与岛屿的题目不同，遍历时每个节点需要记住上次遍历的方向。
-而终点判断条件，也不是简单的到达目的地，还要判断在到达目的地的方向上，相邻的点是否是墙
-![image.png](https://pic.leetcode-cn.com/a086361a3050bb32b97b343be3808f59fc500e68506f865213c7aa68cc3eb5ca-image.png)
+// ### 解题思路
+// 套用DFS大法，其中，类似树的遍历，需要沿一个分支遍历到头，即遇到墙，才改变方向，与岛屿的题目不同，遍历时每个节点需要记住上次遍历的方向。
+// 而终点判断条件，也不是简单的到达目的地，还要判断在到达目的地的方向上，相邻的点是否是墙
+// ![image.png](https://pic.leetcode-cn.com/a086361a3050bb32b97b343be3808f59fc500e68506f865213c7aa68cc3eb5ca-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_SIZE    100
 typedef struct tagPos {
     int row;
@@ -152,4 +152,4 @@ bool hasPath(int** maze, int mazeSize, int* mazeColSize, int* start, int startSi
     free(visited);
     return ret;
 }
-```
+// ```

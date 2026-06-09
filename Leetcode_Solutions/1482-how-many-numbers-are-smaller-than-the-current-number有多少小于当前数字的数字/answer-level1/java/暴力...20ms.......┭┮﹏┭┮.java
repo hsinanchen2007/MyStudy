@@ -1,15 +1,15 @@
-思路：
-逐个从nums数组中取出
-再将其和nums中所有元素比较（注意：比较结束需将count重置为0）
-小于的话count++
-将count存入新数组（这里要注意count存入时要和nums中取出的数的索引位置相同=。=）
+// 思路：
+// 逐个从nums数组中取出
+// 再将其和nums中所有元素比较（注意：比较结束需将count重置为0）
+// 小于的话count++
+// 将count存入新数组（这里要注意count存入时要和nums中取出的数的索引位置相同=。=）
 
-时间复杂度`O(n^2)` 
-枚举nums `O(n)`  和nums中所有数据依次比较`O(n)`
+// 时间复杂度`O(n^2)` 
+// 枚举nums `O(n)`  和nums中所有数据依次比较`O(n)`
 
-就酱（逃.
+// 就酱（逃.
 
-```
+// ```
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         //new一个新数组
@@ -32,4 +32,4 @@ class Solution {
         return newArr;
     }
 }
-```
+// ```

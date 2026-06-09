@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/2e0d66c1450c14c93a75a58bb35e3fdb074dbe03b67f732a5d8e99bbe0716c41-image.png)
+# ![image.png](https://pic.leetcode-cn.com/2e0d66c1450c14c93a75a58bb35e3fdb074dbe03b67f732a5d8e99bbe0716c41-image.png)
 
 
-```
+# ```
 '''
 hash 表保存后缀，枚举每个字符串进行拼接即可
 '''
@@ -39,4 +39,4 @@ class Solution:
                         ans.add(f'{s} {suffix}')
 
         return sorted(list(ans))
-```
+# ```

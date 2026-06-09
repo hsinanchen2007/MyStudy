@@ -1,7 +1,7 @@
-![Snipaste_2020-04-08_17-18-16.jpg](https://pic.leetcode-cn.com/8d0e487b46bf9816ed9fb0e202d29a741a75e74f42dc2a42630d00a21a025d44-Snipaste_2020-04-08_17-18-16.jpg)
+// ![Snipaste_2020-04-08_17-18-16.jpg](https://pic.leetcode-cn.com/8d0e487b46bf9816ed9fb0e202d29a741a75e74f42dc2a42630d00a21a025d44-Snipaste_2020-04-08_17-18-16.jpg)
 
 
-```
+// ```
 #include <string.h>
 char * countAndSay(int n){
     int j,k;
@@ -37,4 +37,4 @@ char * countAndSay(int n){
     st[len] = '\0';
     return st;
 }
-```
+// ```

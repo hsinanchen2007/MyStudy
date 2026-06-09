@@ -1,47 +1,47 @@
-# 差值法
+# # 差值法
 
-## 思路
+# ## 思路
 
-符合直觉的方法是，每次对栈进行修改操作（push和pop）的时候更新最小值。 然后getMin只需要返回我们计算的最小值即可，
-top也是直接返回栈顶元素即可。  这种做法每次修改栈都需要更新最小值，因此时间复杂度是O(n).
+# 符合直觉的方法是，每次对栈进行修改操作（push和pop）的时候更新最小值。 然后getMin只需要返回我们计算的最小值即可，
+# top也是直接返回栈顶元素即可。  这种做法每次修改栈都需要更新最小值，因此时间复杂度是O(n).
 
-![](https://pic.leetcode-cn.com/7beed41b8dc0325445721a36b7db34e1af902441b67996d2eeadcb1f5a5e33d9.jpg)
+# ![](https://pic.leetcode-cn.com/7beed41b8dc0325445721a36b7db34e1af902441b67996d2eeadcb1f5a5e33d9.jpg)
 
-是否有更高效的算法呢？答案是有的。
+# 是否有更高效的算法呢？答案是有的。
 
-我们每次入栈的时候，保存的不再是真正的数字，而是它与当前最小值的差（当前元素没有入栈的时候的最小值）。
-这样我们pop和top的时候拿到栈顶元素再加上**上一个**最小值即可。
-另外我们在push和pop的时候去更新min，这样getMin的时候就简单了，直接返回min。
+# 我们每次入栈的时候，保存的不再是真正的数字，而是它与当前最小值的差（当前元素没有入栈的时候的最小值）。
+# 这样我们pop和top的时候拿到栈顶元素再加上**上一个**最小值即可。
+# 另外我们在push和pop的时候去更新min，这样getMin的时候就简单了，直接返回min。
 
->  注意上面加粗的“上一个”，不是“当前的最小值”
+# >  注意上面加粗的“上一个”，不是“当前的最小值”
 
-经过上面的分析，问题的关键转化为“如何求得上一个最小值”，解决这个的关键点在于利用min。
+# 经过上面的分析，问题的关键转化为“如何求得上一个最小值”，解决这个的关键点在于利用min。
 
-pop或者top的时候：
+# pop或者top的时候：
 
-- 如果栈顶元素小于0，说明栈顶是当前最小的元素，它出栈会对min造成影响，我们需要去更新min。
-上一个最小的是“min - 栈顶元素”,我们需要将上一个最小值更新为当前的最小值
+# - 如果栈顶元素小于0，说明栈顶是当前最小的元素，它出栈会对min造成影响，我们需要去更新min。
+# 上一个最小的是“min - 栈顶元素”,我们需要将上一个最小值更新为当前的最小值
 
- > 因为栈顶元素入栈的时候的通过  `栈顶元素 = 真实值 - 上一个最小的元素` 得到的，
- 而真实值 = min， 因此可以得出`上一个最小的元素 = 真实值 -栈顶元素`
+#  > 因为栈顶元素入栈的时候的通过  `栈顶元素 = 真实值 - 上一个最小的元素` 得到的，
+#  而真实值 = min， 因此可以得出`上一个最小的元素 = 真实值 -栈顶元素`
 
-- 如果栈顶元素大于0，说明它对最小值`没有影响`，上一个最小值就是上上个最小值。
+# - 如果栈顶元素大于0，说明它对最小值`没有影响`，上一个最小值就是上上个最小值。
 
-![](https://pic.leetcode-cn.com/7da0473d92d70bb47ce7b62303c062e5f517b09d1bf501c4ad341b65415d5c43.jpg)
-![](https://pic.leetcode-cn.com/aefec54238c942c484837ea6c724304fb179d3d64f110481d955d9eea65c4fc5.jpg)
+# ![](https://pic.leetcode-cn.com/7da0473d92d70bb47ce7b62303c062e5f517b09d1bf501c4ad341b65415d5c43.jpg)
+# ![](https://pic.leetcode-cn.com/aefec54238c942c484837ea6c724304fb179d3d64f110481d955d9eea65c4fc5.jpg)
 
-## 关键点
+# ## 关键点
 
-- 最小栈存储的不应该是真实值，而是真实值和min的差值
-- top的时候涉及到对数据的还原，这里千万注意是**上一个**最小值
+# - 最小栈存储的不应该是真实值，而是真实值和min的差值
+# - top的时候涉及到对数据的还原，这里千万注意是**上一个**最小值
 
-## 代码
+# ## 代码
 
-* 语言支持：JS，Python
+# * 语言支持：JS，Python
 
-Javascript Code:
+# Javascript Code:
 
-```js
+# ```js
 /*
  * @lc app=leetcode id=155 lang=javascript
  *
@@ -110,11 +110,11 @@ MinStack.prototype.min = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.min()
  */
-```
+# ```
 
-Python Code:
+# Python Code:
 
-```python
+# ```python
 class MinStack:
 
     def __init__(self):
@@ -156,33 +156,33 @@ class MinStack:
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.min()
-```
+# ```
 
-**复杂度分析**
-- 时间复杂度：O(1)
-- 空间复杂度：O(1)
-
-
-# 两个栈
-
-## 思路
-
-我们使用两个栈：
-
-- 一个栈存放全部的元素，push，pop都是正常操作这个正常栈。
-- 另一个存放最小栈。 每次push，如果比最小栈的栈顶还小，我们就push进最小栈，否则不操作
-- 每次pop的时候，我们都判断其是否和最小栈栈顶元素相同，如果相同，那么我们pop掉最小栈的栈顶元素即可
-
-## 关键点
-
-- 往minstack中 push的判断条件。 应该是stack为空或者x小于等于minstack栈顶元素
+# **复杂度分析**
+# - 时间复杂度：O(1)
+# - 空间复杂度：O(1)
 
 
-## 代码
+# # 两个栈
 
-JavaScript：
+# ## 思路
 
-```js
+# 我们使用两个栈：
+
+# - 一个栈存放全部的元素，push，pop都是正常操作这个正常栈。
+# - 另一个存放最小栈。 每次push，如果比最小栈的栈顶还小，我们就push进最小栈，否则不操作
+# - 每次pop的时候，我们都判断其是否和最小栈栈顶元素相同，如果相同，那么我们pop掉最小栈的栈顶元素即可
+
+# ## 关键点
+
+# - 往minstack中 push的判断条件。 应该是stack为空或者x小于等于minstack栈顶元素
+
+
+# ## 代码
+
+# JavaScript：
+
+# ```js
 /**
  * initialize your data structure here.
  */
@@ -234,12 +234,12 @@ MinStack.prototype.min = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.min()
  */
-```
+# ```
 
 
-Python3:
+# Python3:
 
-```python
+# ```python
 class MinStack:
 
     def __init__(self):
@@ -272,12 +272,12 @@ class MinStack:
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.min()
-```
+# ```
 
-**复杂度分析**
-- 时间复杂度：O(1)
-- 空间复杂度：O(N)
+# **复杂度分析**
+# - 时间复杂度：O(1)
+# - 空间复杂度：O(N)
 
-欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
+# 欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
 
-![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
+# ![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)

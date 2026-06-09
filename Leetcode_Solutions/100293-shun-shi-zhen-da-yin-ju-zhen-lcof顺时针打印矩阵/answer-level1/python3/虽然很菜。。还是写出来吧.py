@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法，先从第一行开始遍历，到头后遍历最后一列到达最后一行；再从尾往前遍历。。。等到lists没有增加，即证明遍历完成。
+# ### 解题思路
+# 暴力解法，先从第一行开始遍历，到头后遍历最后一列到达最后一行；再从尾往前遍历。。。等到lists没有增加，即证明遍历完成。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if matrix == []: return []
@@ -36,4 +36,4 @@ class Solution:
         for i in lists:
             res.append(matrix[i[0]][i[1]])
         return res
-```
+# ```

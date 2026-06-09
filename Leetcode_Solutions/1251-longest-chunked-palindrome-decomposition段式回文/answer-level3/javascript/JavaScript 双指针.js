@@ -1,8 +1,8 @@
-这题实在不该是倒困难题哈！  
+// 这题实在不该是倒困难题哈！  
 
-左右两边同时遍历，找到相同的`段`时计数+2即可
+// 左右两边同时遍历，找到相同的`段`时计数+2即可
 
-```javascript
+// ```javascript
 var longestDecomposition = function(text) {
     let i=0,j=text.length-1;
     let word1="",word2="";
@@ -19,4 +19,4 @@ var longestDecomposition = function(text) {
     //如果word1.length>0最后word1+word2必定独自为一段
     return ans+(word1.length>0 || i===j ?1:0);
 };
-```
+// ```

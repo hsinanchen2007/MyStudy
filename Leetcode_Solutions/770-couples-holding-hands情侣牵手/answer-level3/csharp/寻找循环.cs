@@ -1,12 +1,12 @@
-### 解题思路
-将所有座位两两划分
-每组作为 两个人，若是 couple 则不用处理
-不是couple 则 合并两组Couple 到一个集合中
-根据每个集合中 Couple的数量，确定交换次数 = couple数量-1
+// ### 解题思路
+// 将所有座位两两划分
+// 每组作为 两个人，若是 couple 则不用处理
+// 不是couple 则 合并两组Couple 到一个集合中
+// 根据每个集合中 Couple的数量，确定交换次数 = couple数量-1
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 class CoupleNode {
     public int totalNodeCount = 1;
     public int coupleId;
@@ -76,4 +76,4 @@ public class Solution {
         return hh.MinSwapsCouples(row);
     }
 }
-```
+// ```

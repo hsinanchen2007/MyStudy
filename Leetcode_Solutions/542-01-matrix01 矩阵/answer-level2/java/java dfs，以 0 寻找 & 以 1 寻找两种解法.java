@@ -1,6 +1,6 @@
-dp 还没研究。
+// dp 还没研究。
 
-```java
+// ```java
 // 以非 0 坐标进行 bfs 遍历，寻找最短路径
 class Solution {
     private final int[][] around = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};// 遍历四个方向的节点
@@ -41,8 +41,8 @@ class Solution {
         return -1; // 未找到 0 返回 -1
     }
 }
-```
-```java
+// ```
+// ```java
 // 以 0 坐标进行 bfs 遍历，非 0 数字更新为最小路径值
 // 如果 0 太多，比较会低效
 class Solution1 {
@@ -96,4 +96,4 @@ class Solution1 {
         }
     }
 }
-```
+// ```

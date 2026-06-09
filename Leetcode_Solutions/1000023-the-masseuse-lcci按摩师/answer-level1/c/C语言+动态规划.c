@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-dp[i]表示以i结尾的最高值，则动态方程为：
-dp[i] = MAX_HTL(dp[i - 1], dp[i - 2] +  nums[i]);
+// dp[i]表示以i结尾的最高值，则动态方程为：
+// dp[i] = MAX_HTL(dp[i - 1], dp[i - 2] +  nums[i]);
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_HTL(a, b) ((a) > (b) ? (a) : (b))
 
 int massage(int* nums, int numsSize){
@@ -37,4 +37,4 @@ int massage(int* nums, int numsSize){
 
     return res;
 }
-```
+// ```

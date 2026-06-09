@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     class Pair{
         int index;
@@ -53,5 +53,5 @@ class Solution {
         return result;
     }
 }
-```
-SlidingWindow维护一个堆（优先队列太长了就写堆吧）q，堆顶是最大值，为了让堆顶最大值是没有被删除过的，SlidingWindow会记录被删除过的元素，然后 while堆顶元素是被删除过的元素：把该元素移出堆。
+// ```
+// SlidingWindow维护一个堆（优先队列太长了就写堆吧）q，堆顶是最大值，为了让堆顶最大值是没有被删除过的，SlidingWindow会记录被删除过的元素，然后 while堆顶元素是被删除过的元素：把该元素移出堆。

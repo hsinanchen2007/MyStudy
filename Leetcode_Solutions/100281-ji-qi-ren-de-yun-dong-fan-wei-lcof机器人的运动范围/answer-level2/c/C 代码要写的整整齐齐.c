@@ -1,6 +1,6 @@
-click here
+// click here
 
-```
+// ```
 bool valid(int row, int col, int k)
 {
     int digiSum = 0;
@@ -71,4 +71,4 @@ int movingCount(int m, int n, int k){
     return res;
 }
 
-```
+// ```

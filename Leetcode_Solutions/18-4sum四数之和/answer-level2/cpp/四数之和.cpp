@@ -1,9 +1,9 @@
-### 解题思路
-固定两个数，然后用双指针法，主要是如何去重
+// ### 解题思路
+// 固定两个数，然后用双指针法，主要是如何去重
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -45,4 +45,4 @@ public:
         return res;
     }
 };
-```
+// ```

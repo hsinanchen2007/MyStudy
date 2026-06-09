@@ -1,6 +1,6 @@
-时间复杂度： O(n)
-空间复杂度： O(1)
-```
+// 时间复杂度： O(n)
+// 空间复杂度： O(1)
+// ```
  func removeNthFromEnd(head *ListNode, n int) *ListNode {
     slow, fast := head, head
     for n !=0 {
@@ -17,4 +17,4 @@
     slow.Next = slow.Next.Next
     return head
 }
-```
+// ```

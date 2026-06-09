@@ -1,11 +1,11 @@
-思路：一般解法的思路是取子串，测试是否满足题目条件。正则的思路就是匹配字符串是否满足由前面的子串至少重复一次。
-<br/><br/>
-一般解法详细思路和代码：
+// 思路：一般解法的思路是取子串，测试是否满足题目条件。正则的思路就是匹配字符串是否满足由前面的子串至少重复一次。
+// <br/><br/>
+// 一般解法详细思路和代码：
 
-1. 利用StringAPI，如果全是重复的子字符串，那么使用split函数拆分后的数组长度将会是0
-2. 找字符串长度的因子，挨个去拆分出子串，去测试满足split函数拆分的数组长度是否为0
-3. split函数使用的规则是正则匹配，效率略低
-```
+// 1. 利用StringAPI，如果全是重复的子字符串，那么使用split函数拆分后的数组长度将会是0
+// 2. 找字符串长度的因子，挨个去拆分出子串，去测试满足split函数拆分的数组长度是否为0
+// 3. split函数使用的规则是正则匹配，效率略低
+// ```
 class Solution {
     public boolean repeatedSubstringPattern(String s) {
         if (s == null) {
@@ -36,16 +36,16 @@ class Solution {
         return false;
     }
 }
-```
-<br/><br/>
-正则表达式解法代码：
-```
+// ```
+// <br/><br/>
+// 正则表达式解法代码：
+// ```
 class Solution {
     public boolean repeatedSubstringPattern(String s) {
         return s.matches("(\\w+)\\1+");
     }
 }
-```
-<br/><br/>
-效率比较：上面的是正则表达式的解法时间消耗，下面的是一般取子串的解法时间消耗
-![image.png](https://pic.leetcode-cn.com/ff65198d33aa03e18727baa5500e4f754c243c3f580761e9c508202fdefbd57f-image.png)
+// ```
+// <br/><br/>
+// 效率比较：上面的是正则表达式的解法时间消耗，下面的是一般取子串的解法时间消耗
+// ![image.png](https://pic.leetcode-cn.com/ff65198d33aa03e18727baa5500e4f754c243c3f580761e9c508202fdefbd57f-image.png)

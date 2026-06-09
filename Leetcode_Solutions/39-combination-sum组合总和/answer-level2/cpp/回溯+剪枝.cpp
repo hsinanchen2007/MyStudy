@@ -1,19 +1,19 @@
-### 解题思路
-首先用sort函数对candidates排序
-然后深度遍历，每趟累加结果，当等于target时存入二维数组。（具体看下面注释）
+// ### 解题思路
+// 首先用sort函数对candidates排序
+// 然后深度遍历，每趟累加结果，当等于target时存入二维数组。（具体看下面注释）
 
 
 
-#### 注意：需要剪枝（如下图）
-![捕获.JPG](https://pic.leetcode-cn.com/3cbb891fa5de4e3fe8e35c7213aef60d071b70232909b91353666fd573b2dd53-%E6%8D%95%E8%8E%B7.JPG)
+// #### 注意：需要剪枝（如下图）
+// ![捕获.JPG](https://pic.leetcode-cn.com/3cbb891fa5de4e3fe8e35c7213aef60d071b70232909b91353666fd573b2dd53-%E6%8D%95%E8%8E%B7.JPG)
 
-而且每趟遍历选数只能往后选，如果每趟都从头开始遍就会导致同一结果出现不同的排列组合，不合题意。
-【即每趟遍历开始值为  j+abs(i-j)，解释在下面】
+// 而且每趟遍历选数只能往后选，如果每趟都从头开始遍就会导致同一结果出现不同的排列组合，不合题意。
+// 【即每趟遍历开始值为  j+abs(i-j)，解释在下面】
 
 
-### AC代码
+// ### AC代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
@@ -45,5 +45,5 @@ public:
         }
     }
 };
-```
-![捕获.JPG](https://pic.leetcode-cn.com/ef49aeccfe85968c9e74b214bc3fac4dc2218646eeca14833cdae1488fca1fbd-%E6%8D%95%E8%8E%B7.JPG)
+// ```
+// ![捕获.JPG](https://pic.leetcode-cn.com/ef49aeccfe85968c9e74b214bc3fac4dc2218646eeca14833cdae1488fca1fbd-%E6%8D%95%E8%8E%B7.JPG)

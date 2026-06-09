@@ -1,8 +1,8 @@
-### 解题思路
-没脑子与不高兴
-### 代码
+// ### 解题思路
+// 没脑子与不高兴
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums == null || k < 1 || nums.length < k) {
@@ -15,4 +15,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

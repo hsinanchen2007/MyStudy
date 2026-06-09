@@ -1,12 +1,12 @@
-### 解题思路
-使用动态调整内存使用大小，最小化内存使用
+// ### 解题思路
+// 使用动态调整内存使用大小，最小化内存使用
 
-![image.png](https://pic.leetcode-cn.com/118149f1e63035ebb56cb912f5a61c6a34731cd645c36339b59aab55b2c2d1ab-image.png)
+// ![image.png](https://pic.leetcode-cn.com/118149f1e63035ebb56cb912f5a61c6a34731cd645c36339b59aab55b2c2d1ab-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -94,4 +94,4 @@ char * tree2str(struct TreeNode* t){
 	}
 	return str.buf;
 }
-```
+// ```

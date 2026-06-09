@@ -1,6 +1,6 @@
-从下至上逆向求最小和，用dp[i]存储从最后一行走到当前行第i个的最小值
+// 从下至上逆向求最小和，用dp[i]存储从最后一行走到当前行第i个的最小值
 
-```
+// ```
     public int minimumTotal(List<List<Integer>> triangle) {
 
         int size = triangle.size();
@@ -20,4 +20,4 @@
 
         return dp[0];
     }
-```
+// ```

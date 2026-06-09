@@ -1,7 +1,7 @@
-![1574400260(1).jpg](https://pic.leetcode-cn.com/fe13bb207e3c97b71a88c75341995d00d4f5bc092a2b1f8d76ad2ce8f7a55d13-1574400260\(1\).jpg)
+// ![1574400260(1).jpg](https://pic.leetcode-cn.com/fe13bb207e3c97b71a88c75341995d00d4f5bc092a2b1f8d76ad2ce8f7a55d13-1574400260\(1\).jpg)
 
-代码如下
-```
+// 代码如下
+// ```
  public static boolean isValid(String s){
         // 判断符号的长度是否为奇数，奇数直接返回false
         if((s.length() & 1) == 1){
@@ -42,4 +42,4 @@
             return false;
         return true;
     }
-```
+// ```

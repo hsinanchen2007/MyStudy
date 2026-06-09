@@ -1,6 +1,6 @@
-100%  100%
+# 100%  100%
 
-```
+# ```
 class Solution:   
     def dayOfYear(self, date: str) -> int:
         day=0
@@ -15,4 +15,4 @@ class Solution:
                 day+=month_con[i+1]
             day+=int(date[8:])            
         return day
-```
+# ```

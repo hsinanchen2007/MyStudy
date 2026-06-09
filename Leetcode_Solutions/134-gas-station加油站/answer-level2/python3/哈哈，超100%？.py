@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/0db6eae70ab8b6a465dbe044383d4d657384d91b0ec9249074c04a6d2f61bd3c-image.png)
+# ![image.png](https://pic.leetcode-cn.com/0db6eae70ab8b6a465dbe044383d4d657384d91b0ec9249074c04a6d2f61bd3c-image.png)
 
-```
+# ```
 class Solution(object):
     def canCompleteCircuit(self, gas, cost):
         """
@@ -23,4 +23,4 @@ class Solution(object):
                     _station = i+1
                     
             return _station
-```
+# ```

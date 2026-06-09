@@ -1,8 +1,8 @@
-已经战胜 99.03 % 的 java 提交记录
+// 已经战胜 99.03 % 的 java 提交记录
 
-在遍历的同时，根据我们传入的N叉树标识`depth`来不断的对最深的层数进行判断，每次都取其最大的`depth`。
+// 在遍历的同时，根据我们传入的N叉树标识`depth`来不断的对最深的层数进行判断，每次都取其最大的`depth`。
 
-```
+// ```
 class Solution {
     int count = 0;
     public int maxDepth(Node root) {
@@ -23,4 +23,4 @@ class Solution {
         }
     }
 }
-```
+// ```

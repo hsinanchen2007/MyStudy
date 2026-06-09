@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def deleteNode(self, root, key):
         """
@@ -38,4 +38,4 @@ class Solution(object):
                 parent, node = node, node.right
 
         return dummy_head.left
-```
+# ```

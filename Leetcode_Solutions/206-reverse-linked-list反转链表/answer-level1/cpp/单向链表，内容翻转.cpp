@@ -1,23 +1,23 @@
-### 解题思路
+// ### 解题思路
 
-字符串翻转
+// 字符串翻转
 
-定义三个指针 
-前指针   pre
-前期指针 cur
-后指针   next
+// 定义三个指针 
+// 前指针   pre
+// 前期指针 cur
+// 后指针   next
 
-因为是单向链表, 核心逻辑
-```
+// 因为是单向链表, 核心逻辑
+// ```
 next = cur->next;
 cur->next = pre;
 pre = cur;
 cur = next;
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -46,4 +46,4 @@ public:
         return pre;
     }
 };
-```
+// ```

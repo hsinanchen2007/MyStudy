@@ -1,9 +1,9 @@
-### 解题思路
-规律，数字交换；
+// ### 解题思路
+// 规律，数字交换；
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func rotate(matrix [][]int)  {
     n := len(matrix[0])
     for i:=0;i<n/2;i++ {
@@ -26,4 +26,4 @@ func rotate(matrix [][]int)  {
 
     //return matrix
 }
-```
+// ```

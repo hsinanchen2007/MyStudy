@@ -1,11 +1,11 @@
 
-1、长度不同，返回False
-2、两个字符串中元素数量不同，返回False
-3、交换次数在两次或两次以上，返回False
+# 1、长度不同，返回False
+# 2、两个字符串中元素数量不同，返回False
+# 3、交换次数在两次或两次以上，返回False
 
-我在这里做了一个统计函数count_list做判断,或者使用标准库collection中的Counter
+# 我在这里做了一个统计函数count_list做判断,或者使用标准库collection中的Counter
 
-```
+# ```
 # from collections import Counter
 
 def count_list(A):
@@ -31,4 +31,4 @@ def change(A,B):
             return False
     else:
         return False
-```
+# ```

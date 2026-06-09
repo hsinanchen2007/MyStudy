@@ -1,9 +1,9 @@
-### 解题思路
-类似正方形题目
+// ### 解题思路
+// 类似正方形题目
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -27,4 +27,4 @@ public:
         return c[m][n];
     }
 };
-```
+// ```

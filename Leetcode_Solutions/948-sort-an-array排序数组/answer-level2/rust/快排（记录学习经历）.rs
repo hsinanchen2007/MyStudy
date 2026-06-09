@@ -1,9 +1,9 @@
-### 解题思路
-简单的快排
+// ### 解题思路
+// 简单的快排
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn sort_array(nums: Vec<i32>) -> Vec<i32> {
         let mut vec_result = nums.to_owned();
@@ -32,4 +32,4 @@ impl Solution {
         result
     }
 }
-```
+// ```

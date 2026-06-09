@@ -1,9 +1,9 @@
-### 解题思路
-非常感谢[@z1m](/u/z1m/)的题解
+// ### 解题思路
+// 非常感谢[@z1m](/u/z1m/)的题解
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -37,4 +37,4 @@ class Solution {
         }
     }
 }
-```
+// ```

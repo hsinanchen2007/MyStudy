@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maximum69Number (int num) {
         //转成字符串
@@ -15,4 +15,4 @@ class Solution {
         return Integer.parseInt(res);
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-新手很容易和我一样使用错误思路1或2
-```
+# 新手很容易和我一样使用错误思路1或2
+# ```
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         # 错误的思路1：循环过程中nums在变化
@@ -38,5 +38,5 @@ class Solution:
                 nums.remove(val)
         return len(nums)
 
-```
-正确思路1的时间复杂度应该是O(n^2), 如果我没分析错的话。倒序for循环是最简单又好理解的
+# ```
+# 正确思路1的时间复杂度应该是O(n^2), 如果我没分析错的话。倒序for循环是最简单又好理解的

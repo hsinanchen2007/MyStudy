@@ -1,5 +1,5 @@
-基本思路就是递归，临时变量记录计数的值和个数
-```python
+# 基本思路就是递归，临时变量记录计数的值和个数
+# ```python
 class Solution:
     def countAndSay(self, n: int) -> str:
         result = ""
@@ -27,4 +27,4 @@ class Solution:
                 if i == len(pre)-1:
                     result += str(count) + temp
         return result
-```
+# ```

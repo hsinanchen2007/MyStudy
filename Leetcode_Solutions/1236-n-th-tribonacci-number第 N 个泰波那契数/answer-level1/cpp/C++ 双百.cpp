@@ -1,5 +1,5 @@
-思路跟斐波那契数列一样；保存中间状态即可
-```
+// 思路跟斐波那契数列一样；保存中间状态即可
+// ```
 int tribonacci(int n) {
         int t0=0,t1=1,t2=1,res=0;
         if(n==0)
@@ -14,4 +14,4 @@ int tribonacci(int n) {
         }
         return res;
     }
-```
+// ```

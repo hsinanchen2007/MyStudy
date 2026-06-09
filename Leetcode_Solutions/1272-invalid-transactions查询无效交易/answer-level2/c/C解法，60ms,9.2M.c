@@ -1,6 +1,6 @@
-**思路**
-搞个结构体填写好了，再慢慢比较。
-```
+// **思路**
+// 搞个结构体填写好了，再慢慢比较。
+// ```
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -84,4 +84,4 @@ char ** invalidTransactions(char ** transactions, int transactionsSize, int* ret
 }
 
 
-```
+// ```

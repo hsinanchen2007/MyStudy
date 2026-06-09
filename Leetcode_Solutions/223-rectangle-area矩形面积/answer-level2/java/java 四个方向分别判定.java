@@ -1,9 +1,9 @@
-### 解题思路
-medium大水题
+// ### 解题思路
+// medium大水题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
         if(E >= C || F >= D || G <= A || H <= B) return (C - A)*(D - B) + (G - E)*(H -  F);
@@ -27,4 +27,4 @@ class Solution {
         return (C - A)*(D - B) + (G - E)*(H -  F) - wid * height;
     }
 }
-```
+// ```

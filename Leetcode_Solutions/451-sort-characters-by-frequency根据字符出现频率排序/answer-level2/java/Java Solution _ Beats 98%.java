@@ -1,5 +1,5 @@
-先用长度为128的数组统计各个字符的数量，再用优先队列排序
-```
+// 先用长度为128的数组统计各个字符的数量，再用优先队列排序
+// ```
 class Solution {
     class Node{
         int val;
@@ -32,4 +32,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

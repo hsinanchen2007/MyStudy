@@ -1,10 +1,10 @@
-### 解题思路
-时间O(n) 空间O(1) 
-找到最大值，双指针从两头往最大值遍历，如果下一个数比桶边低，说明可以接到水。
+// ### 解题思路
+// 时间O(n) 空间O(1) 
+// 找到最大值，双指针从两头往最大值遍历，如果下一个数比桶边低，说明可以接到水。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
     if(heightSize<1){
         return 0;
@@ -32,4 +32,4 @@ int trap(int* height, int heightSize){
     }
     return result;
 }
-```
+// ```

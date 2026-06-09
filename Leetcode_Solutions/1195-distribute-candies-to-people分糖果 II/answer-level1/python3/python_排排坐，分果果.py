@@ -1,11 +1,11 @@
-### 解题思路
-方法一：遍历
-一次遍历，递减candies，直到分完为止
-时空复杂度O(max(根号c,n)) O(1)
+# ### 解题思路
+# 方法一：遍历
+# 一次遍历，递减candies，直到分完为止
+# 时空复杂度O(max(根号c,n)) O(1)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         disCandies=[0]*num_people
@@ -19,14 +19,14 @@ class Solution:
                 candies-=i
                 i+=1
         return disCandies
-```
+# ```
 
-### 解题思路
-方法二：数学
-解一元二次方程，得到满额分发的次数
+# ### 解题思路
+# 方法二：数学
+# 解一元二次方程，得到满额分发的次数
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         n = num_people
@@ -40,4 +40,4 @@ class Solution:
                 d[i] += i + 1 + rows * n      
         d[cols] += remaining
         return d
-```
+# ```

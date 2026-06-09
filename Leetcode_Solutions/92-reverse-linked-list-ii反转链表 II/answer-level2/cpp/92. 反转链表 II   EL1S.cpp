@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/2e318200e0b8996f097a79cb75a8873c947230757e4d458c081af0b603ebcad9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2e318200e0b8996f097a79cb75a8873c947230757e4d458c081af0b603ebcad9-image.png)
 
-顺序：橙色->红色->蓝色->紫色
+// 顺序：橙色->红色->蓝色->紫色
 
-```
+// ```
 
 /**
  * Definition for singly-linked list.
@@ -44,5 +44,5 @@ public:
     }
 };
 
-```
+// ```
 

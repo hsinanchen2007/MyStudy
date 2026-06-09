@@ -1,10 +1,10 @@
-### 解题思路
-用时1ms
-层次遍历，用一个list存储每层的元素
+// ### 解题思路
+// 用时1ms
+// 层次遍历，用一个list存储每层的元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -47,4 +47,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

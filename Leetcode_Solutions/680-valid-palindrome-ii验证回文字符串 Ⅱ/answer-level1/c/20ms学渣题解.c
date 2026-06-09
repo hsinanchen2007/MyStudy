@@ -1,4 +1,4 @@
-```
+// ```
 bool ss(char* s,int i,int j){
     while(i<j){
         if(s[i]!=s[j])
@@ -19,4 +19,4 @@ bool validPalindrome(char * s){
     }
     return true;
 }
-```
+// ```

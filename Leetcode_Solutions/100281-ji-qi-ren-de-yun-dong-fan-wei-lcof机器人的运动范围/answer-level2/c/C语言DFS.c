@@ -1,4 +1,4 @@
-```
+// ```
 int** record;
 int gIndex;
 
@@ -44,4 +44,4 @@ int movingCount(int m, int n, int k){
     dfs(m, n, k, 0, 0);
     return gIndex ;
 }
-```
+// ```

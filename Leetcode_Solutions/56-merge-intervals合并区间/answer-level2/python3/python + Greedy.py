@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         # Time complexity : O(NlogN)
@@ -15,4 +15,4 @@ class Solution:
                 begin, end = intervals[i]
         res.append([begin, end])
         return res
-```
+# ```

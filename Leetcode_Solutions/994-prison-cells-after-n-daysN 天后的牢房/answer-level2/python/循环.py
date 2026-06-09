@@ -1,6 +1,6 @@
-python3方案，每14轮重复一次。
+# python3方案，每14轮重复一次。
 
-```
+# ```
 class Solution(object):
     def prisonAfterNDays(self, cells, N):
         """
@@ -21,4 +21,4 @@ class Solution(object):
             result.append(0)
             cells = result
         return cells
-```
+# ```

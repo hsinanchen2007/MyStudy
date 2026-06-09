@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -16,4 +16,4 @@ class Solution:
             t1.left = self.mergeTrees(t1.left,t2.left) #递归求解左子树
             t1.right = self.mergeTrees(t1.right,t2.right) #递归求解右子树
         return t1 #返回t1 （包含如果上述条件都不满足 想当于 t2不存在 直接返回t1的情况）
-```
+# ```

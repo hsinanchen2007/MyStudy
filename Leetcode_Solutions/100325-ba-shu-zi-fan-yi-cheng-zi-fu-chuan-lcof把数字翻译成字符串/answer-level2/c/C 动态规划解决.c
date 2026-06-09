@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/0b5240d853ed7853d955ee5bcb02f356a82d0fdac54dc1b0cda8efe69df8de56-image.png)
- 1. int 转换为char数组 
- 2. 动态规划 dp[i] = dp[i-1] + if((i-1)*10 + i) <= 25 ? dp[i-2] : 0
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/0b5240d853ed7853d955ee5bcb02f356a82d0fdac54dc1b0cda8efe69df8de56-image.png)
+//  1. int 转换为char数组 
+//  2. 动态规划 dp[i] = dp[i-1] + if((i-1)*10 + i) <= 25 ? dp[i-2] : 0
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // 1. int 转换为char数组 
 // 2. 动态规划 dp[i] = dp[i-1] + if((i-1)*10 + i) <= 25 ? dp[i-2] : 0
 
@@ -43,4 +43,4 @@ int translateNum(int num)
 
     return dp[strLen - 1];
 }
-```
+// ```

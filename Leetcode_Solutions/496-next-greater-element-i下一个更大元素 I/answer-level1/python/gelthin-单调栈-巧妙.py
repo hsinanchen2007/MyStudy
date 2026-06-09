@@ -1,13 +1,13 @@
-### 解题思路
-官方题解中单调栈的想法很美妙！
-单调栈在习题 [155. 最小栈](https://leetcode-cn.com/problems/min-stack/) 中也被提到并应用非同步保持当前已知的最小值。
+# ### 解题思路
+# 官方题解中单调栈的想法很美妙！
+# 单调栈在习题 [155. 最小栈](https://leetcode-cn.com/problems/min-stack/) 中也被提到并应用非同步保持当前已知的最小值。
 
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
         if len(nums1) == 0:
@@ -30,10 +30,10 @@ class Solution:
         for x in nums1:
             result.append(D[x])
         return result
-```
+# ```
 
-##### 暴力方法
-``` python 
+# ##### 暴力方法
+# ``` python 
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
         if len(nums1) == 0:
@@ -53,4 +53,4 @@ class Solution:
                     if j == n:
                         result.append(-1)
         return result
-```
+# ```

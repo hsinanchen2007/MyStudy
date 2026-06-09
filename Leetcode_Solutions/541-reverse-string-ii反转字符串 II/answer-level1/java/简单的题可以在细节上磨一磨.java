@@ -1,7 +1,7 @@
-- 提前算好 `step = 2 * k`
-- 遍历的索引 `i` 直接用 `left`
-- 交换字符使用位运算
-```java
+// - 提前算好 `step = 2 * k`
+// - 遍历的索引 `i` 直接用 `left`
+// - 交换字符使用位运算
+// ```java
 public String reverseStr(String s, int k) {
     char[] arr = s.toCharArray();
     for (int left = 0, step = 2 * k; left < arr.length; left += step) {
@@ -17,4 +17,4 @@ private void swap(char[] arr, int left, int right) {
         arr[left++] ^= arr[right--];
     }
 }
-```
+// ```

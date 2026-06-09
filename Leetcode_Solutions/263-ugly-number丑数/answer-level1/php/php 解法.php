@@ -1,4 +1,4 @@
-```
+// ```
 function isUgly($num) {
     if($num<1) return false;
     while($num%5==0) $num/=5;
@@ -6,4 +6,4 @@ function isUgly($num) {
     while($num%2==0) $num/=2;
     return $num==1;
 }
-```
+// ```

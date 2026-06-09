@@ -1,5 +1,5 @@
-因为循环，首先判断最后一个数字和target 比较
-```
+// 因为循环，首先判断最后一个数字和target 比较
+// ```
 func nextGreatestLetter(letters []byte, target byte) byte {
     if target >= letters[len(letters)-1] || target < letters[0]{
         return letters[0]
@@ -17,4 +17,4 @@ func nextGreatestLetter(letters []byte, target byte) byte {
     return letters[left]
 }
 
-```
+// ```

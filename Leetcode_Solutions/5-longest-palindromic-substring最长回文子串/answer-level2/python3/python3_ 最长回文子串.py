@@ -1,4 +1,4 @@
-```python
+# ```python
 def longestPalindrome(s):
     def help(s, left, right):
         """
@@ -26,4 +26,4 @@ def longestPalindrome(s):
 
 print(longestPalindrome("babad"))
 print(longestPalindrome("cbbd"))
-```
+# ```

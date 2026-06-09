@@ -1,10 +1,10 @@
-### 解题思路
-带备忘录的递归， 二分法
-不带备忘录会超时
+# ### 解题思路
+# 带备忘录的递归， 二分法
+# 不带备忘录会超时
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         if n<0:
@@ -22,4 +22,4 @@ class Solution:
             return tmp
         return pow(n)
         
-```
+# ```

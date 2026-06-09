@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-迭代
+// 迭代
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func countAndSay(_ n: Int) -> String {
 
@@ -47,4 +47,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-对当前节点有两种情况:
-1. 把当前节点当作路径的开始
-2. 把当前节点的左右孩子作为路径的开始
+// ### 解题思路
+// 对当前节点有两种情况:
+// 1. 把当前节点当作路径的开始
+// 2. 把当前节点的左右孩子作为路径的开始
 
-这里用到双递归，值得理解。
+// 这里用到双递归，值得理解。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ int pathSum(struct TreeNode* root, int sum){
     return pathSum(root->left, sum) + pathSum( root->right, sum) + dfs( root, sum );
 }
 
-```
+// ```

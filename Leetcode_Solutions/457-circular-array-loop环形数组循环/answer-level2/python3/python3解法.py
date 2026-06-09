@@ -1,5 +1,5 @@
-python土方法
-```
+# python土方法
+# ```
 class Solution:
     def circularArrayLoop(self, nums: List[int]) -> bool:
         """
@@ -30,4 +30,4 @@ class Solution:
                 result = True
                 break
         return result
-```
+# ```

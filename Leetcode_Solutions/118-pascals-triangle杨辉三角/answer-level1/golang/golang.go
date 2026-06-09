@@ -1,4 +1,4 @@
-```
+// ```
 func generate(numRows int) [][]int {
 	result := [][]int{}
 
@@ -39,4 +39,4 @@ func generateNewLine(oldLine []int) (newLine []int) {
 	return newLine
 }
 
-```
+// ```

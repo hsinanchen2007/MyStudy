@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/b83eecee2c77f1761cc51c53894f73b89bc8134cb39b6cd3d4b3909a5795e089-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b83eecee2c77f1761cc51c53894f73b89bc8134cb39b6cd3d4b3909a5795e089-image.png)
 
-``` c++
+// ``` c++
 class Solution {
 public:
     bool checkInclusion(string s1, string s2) {  
@@ -31,4 +31,4 @@ public:
         return false;
     }
 };
-```
+// ```

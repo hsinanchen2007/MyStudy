@@ -1,9 +1,9 @@
-### 解题思路
-直接调用Counter统计两个字符串中字符的个数,然后比较
+# ### 解题思路
+# 直接调用Counter统计两个字符串中字符的个数,然后比较
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         '''if len(s) != len(t):
@@ -16,4 +16,4 @@ class Solution:
         return num1.sort()==num2.sort()'''
         from collections import Counter
         return Counter(s)==Counter(t)
-```
+# ```

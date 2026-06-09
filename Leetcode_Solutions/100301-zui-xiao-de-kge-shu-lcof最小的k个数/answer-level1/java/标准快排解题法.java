@@ -1,9 +1,9 @@
-### 快速排序解法
-针对快排的写法，快排后取前k个值
+// ### 快速排序解法
+// 针对快排的写法，快排后取前k个值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public int[] getLeastNumbers(int[] arr, int k) {
         if(k==0||arr.length==0){
@@ -38,4 +38,4 @@ class Solution {
         quickSort(arr,i+1,high);
     }
 }
-```
+// ```

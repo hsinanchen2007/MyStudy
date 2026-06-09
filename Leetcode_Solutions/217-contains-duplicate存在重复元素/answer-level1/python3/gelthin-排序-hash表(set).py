@@ -1,11 +1,11 @@
-### 解题思路
-此题有多种不同思路
-+ 排序后查看相邻位置的元素
-+ 使用 hash 表，记录一个元素是否出现过。 在python 3 中似乎相当于使用 set 以及 dict 等结构，因为这些数据结构就是用 hash 表实现的。 
+# ### 解题思路
+# 此题有多种不同思路
+# + 排序后查看相邻位置的元素
+# + 使用 hash 表，记录一个元素是否出现过。 在python 3 中似乎相当于使用 set 以及 dict 等结构，因为这些数据结构就是用 hash 表实现的。 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     def containsDuplicate(self, nums: List[int]) -> bool:
@@ -30,4 +30,4 @@ class Solution:
                     return True
                 i += 1
             return False
-```
+# ```

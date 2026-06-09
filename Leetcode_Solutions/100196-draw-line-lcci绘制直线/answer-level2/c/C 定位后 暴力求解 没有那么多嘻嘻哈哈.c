@@ -1,4 +1,4 @@
-```
+// ```
 int* drawLine(int length, int w, int x1, int x2, int y, int* returnSize)
 {
   int *ret = malloc(sizeof(int) * length);
@@ -21,4 +21,4 @@ int* drawLine(int length, int w, int x1, int x2, int y, int* returnSize)
   *returnSize = length;
   return ret;
 }
-```
+// ```

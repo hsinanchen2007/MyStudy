@@ -1,10 +1,10 @@
-### 解题思路
-用一个栈储存每一级具有child属性的节点的next节点，然后dfs就行了。
-一定要记住最后要删除节点的child属性（不要问我怎么知道的，改了半天硬是不知道哪错了，想了好久才搞定）
+# ### 解题思路
+# 用一个栈储存每一级具有child属性的节点的next节点，然后dfs就行了。
+# 一定要记住最后要删除节点的child属性（不要问我怎么知道的，改了半天硬是不知道哪错了，想了好久才搞定）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -38,4 +38,4 @@ class Solution:
             prehead = cur
 
         return head
-```
+# ```

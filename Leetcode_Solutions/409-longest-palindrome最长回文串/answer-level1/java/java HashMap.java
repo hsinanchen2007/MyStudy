@@ -1,9 +1,9 @@
-### 解题思路
-首先把字符存入哈希表，然后对哈希表遍历，如果是偶数就直接加上，奇数减1再加，最后判断长度，防止超过字符串的长度
+// ### 解题思路
+// 首先把字符存入哈希表，然后对哈希表遍历，如果是偶数就直接加上，奇数减1再加，最后判断长度，防止超过字符串的长度
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
         Map<Character,Integer> map = new HashMap<>();
@@ -21,4 +21,4 @@ class Solution {
         return count == s.length() ? count : count + 1;
     }
 }
-```
+// ```

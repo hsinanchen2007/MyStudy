@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-每次处理 ptr0-->ptr1-->ptr2　这样一个链表，swap(ptr0, ptr1, ptr2)交换ptr1, ptr2，使新的链表返回：　ptr0-->ptr2-->ptr1;
-然后将ptr0前移，指向下一个要交换的链表,重新构成ptr0-->ptr1-->ptr2重复;
+// 每次处理 ptr0-->ptr1-->ptr2　这样一个链表，swap(ptr0, ptr1, ptr2)交换ptr1, ptr2，使新的链表返回：　ptr0-->ptr2-->ptr1;
+// 然后将ptr0前移，指向下一个要交换的链表,重新构成ptr0-->ptr1-->ptr2重复;
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -65,4 +65,4 @@ struct ListNode* swapPairs(struct ListNode* head){
 
 
 }
-```
+// ```

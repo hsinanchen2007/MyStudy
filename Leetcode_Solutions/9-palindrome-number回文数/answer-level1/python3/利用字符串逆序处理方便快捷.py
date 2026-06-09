@@ -1,9 +1,9 @@
-### 解题思路
-先转类型，再用切片逆序判等
+# ### 解题思路
+# 先转类型，再用切片逆序判等
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         x=str(x)
@@ -11,4 +11,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

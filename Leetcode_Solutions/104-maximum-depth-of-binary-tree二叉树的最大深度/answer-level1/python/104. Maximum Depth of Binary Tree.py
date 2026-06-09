@@ -1,5 +1,5 @@
-和遍历树相似, 求的是递归的次数
-```
+# 和遍历树相似, 求的是递归的次数
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution(object):
         _right_num = self.maxDepth(root.right)
 
         return max(_left_num, _right_num) + 1
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-额外用一个列表进行存储。
+# 额外用一个列表进行存储。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
             if i % 2 != 0: res[i].reverse()
         return res
 
-```
+# ```

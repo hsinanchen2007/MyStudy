@@ -1,9 +1,9 @@
-### 解题思路
-方法比较简单，直接看代码即可。
+// ### 解题思路
+// 方法比较简单，直接看代码即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int integerBreak(int n) {
@@ -20,4 +20,4 @@ public:
         return dp[n];
     }
 };
-```
+// ```

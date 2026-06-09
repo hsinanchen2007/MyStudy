@@ -1,9 +1,9 @@
-### 解题思路
-用C的可能都比较牛B？简化了好一会儿代码，还是在 50%
+// ### 解题思路
+// 用C的可能都比较牛B？简化了好一会儿代码，还是在 50%
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 inline void swap(char *a, char *b) {
     char tmp = *a;
     *a = *b;
@@ -49,4 +49,4 @@ char * reverseWords(char * s){
 
     return s;
 }
-```
+// ```

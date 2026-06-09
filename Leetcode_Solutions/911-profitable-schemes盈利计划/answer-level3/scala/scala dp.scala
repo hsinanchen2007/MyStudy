@@ -1,6 +1,6 @@
-由题可得：$dp(i)(j)(k)$ 表示最多干 $i$ 个任务，$j$ 个人，$k$ 利润，求方案总数。
-第 $i$ 个任务，只与 $i-1$ 个任务的分配方案有关，所以可以降一个维度
-```scala
+// 由题可得：$dp(i)(j)(k)$ 表示最多干 $i$ 个任务，$j$ 个人，$k$ 利润，求方案总数。
+// 第 $i$ 个任务，只与 $i-1$ 个任务的分配方案有关，所以可以降一个维度
+// ```scala
 object Solution {
   def profitableSchemes(G: Int, P: Int, group: Array[Int], profit: Array[Int]): Int = {
     var res = 0
@@ -16,4 +16,4 @@ object Solution {
     res
   }
 }
-```
+// ```

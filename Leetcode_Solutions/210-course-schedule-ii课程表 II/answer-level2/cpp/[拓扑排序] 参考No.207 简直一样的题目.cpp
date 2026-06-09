@@ -1,11 +1,11 @@
-### 题意说明，输出是 依赖“顺序”约定的，因此想到是topo排序，写给新手朋友一同搞定topo排序的题目，207题目注释非常完整可参考 [LeetCode.207](https://leetcode-cn.com/problems/course-schedule/solution/c-tuo-bu-topopai-xu-jian-dan-yi-dong-zhu-shi-wan-z/)
+// ### 题意说明，输出是 依赖“顺序”约定的，因此想到是topo排序，写给新手朋友一同搞定topo排序的题目，207题目注释非常完整可参考 [LeetCode.207](https://leetcode-cn.com/problems/course-schedule/solution/c-tuo-bu-topopai-xu-jian-dan-yi-dong-zhu-shi-wan-z/)
 
 
-![image.png](https://pic.leetcode-cn.com/dcb718fdaa748137415e3bb5bc32e246bea44a7766f546c65c154af49260d7f7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dcb718fdaa748137415e3bb5bc32e246bea44a7766f546c65c154af49260d7f7-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 此题跟 207 题几乎就是一道题，只不过是输出是拓扑排序后的结果
 */
@@ -37,4 +37,4 @@ public:
         else return {} ;
     }
 };
-```
+// ```

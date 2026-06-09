@@ -1,9 +1,9 @@
-### 解题思路
-先对二维数组排序，再借鉴官方题解思路
+// ### 解题思路
+// 先对二维数组排序，再借鉴官方题解思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
                for (int i = 0; i < intervals.length; i++) {
@@ -34,4 +34,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

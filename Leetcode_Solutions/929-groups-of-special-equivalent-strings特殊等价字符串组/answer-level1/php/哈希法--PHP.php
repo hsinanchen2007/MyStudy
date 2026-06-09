@@ -1,9 +1,9 @@
-### 解题思路
-理解题意是关键。把一个字符串数组，拆分成多个子数组，每个子数组中的字符通过排序后是同样的字符串，这里只需要记数，通过map来去重计数即可。
+// ### 解题思路
+// 理解题意是关键。把一个字符串数组，拆分成多个子数组，每个子数组中的字符通过排序后是同样的字符串，这里只需要记数，通过map来去重计数即可。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -27,11 +27,11 @@ class Solution {
         return count($map);
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度: O(M * N)
-- 空间复杂度：O(N)
+// ### 算法复杂度
+// - 时间复杂度: O(M * N)
+// - 空间复杂度：O(N)
 
-### 参考
-[https://leetcode-cn.com/problems/groups-of-special-equivalent-strings/comments/94877](https://leetcode-cn.com/problems/groups-of-special-equivalent-strings/comments/94877)
+// ### 参考
+// [https://leetcode-cn.com/problems/groups-of-special-equivalent-strings/comments/94877](https://leetcode-cn.com/problems/groups-of-special-equivalent-strings/comments/94877)

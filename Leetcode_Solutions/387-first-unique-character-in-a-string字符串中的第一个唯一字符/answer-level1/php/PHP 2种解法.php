@@ -1,4 +1,4 @@
-# **方法一：哈希表**
+// # **方法一：哈希表**
 
     function firstUniqChar($s) {
         $length = strlen($s);

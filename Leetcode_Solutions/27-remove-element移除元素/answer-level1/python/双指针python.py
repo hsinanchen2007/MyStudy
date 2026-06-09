@@ -1,6 +1,6 @@
-解法一：双指针，只覆盖val
+# 解法一：双指针，只覆盖val
 
-```python
+# ```python
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         n = len(nums)
@@ -19,16 +19,16 @@ class Solution:
         for i in range(n):
             if nums[i] == val:
                 return i
-```
+# ```
 
 
 
 
 
 
-解法二：全覆盖
+# 解法二：全覆盖
 
-```python
+# ```python
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         start = 0
@@ -39,6 +39,6 @@ class Solution:
                 nums[start] = nums[i]
                 start = start + 1
         return start
-```
+# ```
 
 

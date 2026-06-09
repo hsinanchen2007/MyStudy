@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         list1,list2,list3,result = [],[],[],[]
@@ -45,4 +45,4 @@ class Solution:
                 if flg == "tr":
                     result.append(kk)
             return(result)
-```
+# ```

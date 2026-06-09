@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isValid(self, s: str) -> bool:
         #if len(s) % 2 != 0: #在系统的测试用例中加入长度判断并没有显著提高速度
@@ -18,4 +18,4 @@ class Solution:
                 else:
                     return False #除此以外都是魂淡
         return not stack #过关斩将还是空的则意味着全部配对上了！
-```
+# ```

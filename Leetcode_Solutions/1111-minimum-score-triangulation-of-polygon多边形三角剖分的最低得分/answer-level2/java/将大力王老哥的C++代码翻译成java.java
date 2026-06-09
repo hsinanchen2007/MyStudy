@@ -1,5 +1,5 @@
-[C++代码](https://leetcode-cn.com/problems/minimum-score-triangulation-of-polygon/solution/c-dong-tai-gui-hua-ti-jie-by-da-li-wang-2/)
-```java
+// [C++代码](https://leetcode-cn.com/problems/minimum-score-triangulation-of-polygon/solution/c-dong-tai-gui-hua-ti-jie-by-da-li-wang-2/)
+// ```java
 class Solution {
     public int minScoreTriangulation(int[] A) {
         int length = A.length;
@@ -19,4 +19,4 @@ class Solution {
         return dp[0][length - 1];
     }
 }
-```
+// ```

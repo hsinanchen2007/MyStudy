@@ -1,9 +1,9 @@
-### 解题思路
-打卡成功
+# ### 解题思路
+# 打卡成功
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import deque
 class MyStack:
 
@@ -13,4 +13,4 @@ class MyStack:
         """
         print('打卡中')
 
-```
+# ```

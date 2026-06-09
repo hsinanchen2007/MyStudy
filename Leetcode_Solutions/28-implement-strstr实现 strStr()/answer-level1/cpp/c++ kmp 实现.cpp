@@ -1,11 +1,11 @@
-### 解题思路
-KMP 算法
-1. 生成next数组
-2. 根据next数组匹配
+// ### 解题思路
+// KMP 算法
+// 1. 生成next数组
+// 2. 根据next数组匹配
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getnext(string& needle){
@@ -55,4 +55,4 @@ public:
         return -1;
     }
 };
-```
+// ```

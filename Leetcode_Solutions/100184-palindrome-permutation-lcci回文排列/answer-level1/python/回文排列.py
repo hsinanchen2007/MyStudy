@@ -1,9 +1,9 @@
-### 解题思路
-1.利用collections.Counter检测奇偶数
+# ### 解题思路
+# 1.利用collections.Counter检测奇偶数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canPermutePalindrome(self, s: str) -> bool:
         from collections import Counter
@@ -22,4 +22,4 @@ class Solution:
 来源：力扣（LeetCode）
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 '''
-```
+# ```

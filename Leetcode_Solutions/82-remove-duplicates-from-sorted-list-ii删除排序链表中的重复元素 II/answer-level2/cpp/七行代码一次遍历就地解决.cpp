@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -11,4 +11,4 @@ public:
         return H.next;
     }
 };
-```
+// ```

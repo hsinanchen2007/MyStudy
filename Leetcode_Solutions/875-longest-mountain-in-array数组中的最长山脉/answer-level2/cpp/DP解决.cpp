@@ -1,8 +1,8 @@
-思路：设dp1[i]是以i为终点的最大递增连续序列的长度，设dp2[i]是以i为起点的最大递减连续序列的长度，那么dp1[i]+dp2[i]-1就是i点的山脉长度，其中dp1[i]、dp2[i]根据题目要求，必须都大于1.
-递推条件：
-dp1[i+1] = dp1[i] + 1, if A[i] > A[i-1]
-dp2[i] = dp1[i+1] + 1, if A[i] > A[i+1]
-```
+// 思路：设dp1[i]是以i为终点的最大递增连续序列的长度，设dp2[i]是以i为起点的最大递减连续序列的长度，那么dp1[i]+dp2[i]-1就是i点的山脉长度，其中dp1[i]、dp2[i]根据题目要求，必须都大于1.
+// 递推条件：
+// dp1[i+1] = dp1[i] + 1, if A[i] > A[i-1]
+// dp2[i] = dp1[i+1] + 1, if A[i] > A[i+1]
+// ```
 class Solution {
 public:
     int longestMountain(vector<int>& A) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

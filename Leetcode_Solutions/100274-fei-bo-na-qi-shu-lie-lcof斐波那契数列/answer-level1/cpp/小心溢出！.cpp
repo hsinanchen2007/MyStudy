@@ -1,9 +1,9 @@
-### 解题思路
-long long都装不下
+// ### 解题思路
+// long long都装不下
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int fib(int n) {
@@ -21,4 +21,4 @@ public:
         return (int)c;
     }
 };
-```
+// ```

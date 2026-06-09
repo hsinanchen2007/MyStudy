@@ -1,9 +1,9 @@
-执行用时 :
-        12 ms
-内存消耗 :
-        12.7 MB
+// 执行用时 :
+//         12 ms
+// 内存消耗 :
+//         12.7 MB
 
-```
+// ```
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
@@ -31,4 +31,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

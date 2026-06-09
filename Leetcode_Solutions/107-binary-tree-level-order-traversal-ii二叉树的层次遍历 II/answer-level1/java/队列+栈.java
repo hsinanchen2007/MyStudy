@@ -1,9 +1,9 @@
-### 解题思路
-在使用队列层次遍历的基础上，使用栈进行逆序输出
+// ### 解题思路
+// 在使用队列层次遍历的基础上，使用栈进行逆序输出
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -43,4 +43,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-Int32 范围构造线段树
-获得区间 则 移除掉区间内节点 
-则所有区间是 不相交的
+// ### 解题思路
+// Int32 范围构造线段树
+// 获得区间 则 移除掉区间内节点 
+// 则所有区间是 不相交的
 
-最后合并相邻区间返回结果
+// 最后合并相邻区间返回结果
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<System.Int64, System.Int64>;
 public class SummaryRanges {
 
@@ -151,4 +151,4 @@ public class SummaryRanges {
  * obj.AddNum(val);
  * int[][] param_2 = obj.GetIntervals();
  */
-```
+// ```

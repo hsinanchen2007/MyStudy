@@ -1,24 +1,24 @@
-## 运行情况
-![image.png](https://pic.leetcode-cn.com/37f4385242506e31b0faeaf6f0aeac7309b94869380219814dbfc99ed2a6e41c-image.png)
+// ## 运行情况
+// ![image.png](https://pic.leetcode-cn.com/37f4385242506e31b0faeaf6f0aeac7309b94869380219814dbfc99ed2a6e41c-image.png)
 
-### 思路
-#### 无法构造的情况
-- a,a,a,b 偶数
-- a,a,a,a,b 基数
+// ### 思路
+// #### 无法构造的情况
+// - a,a,a,b 偶数
+// - a,a,a,a,b 基数
 
-总结: 只要有一个数出现的次数大于`Math.ceil(S.length/2)`就无法构造
+// 总结: 只要有一个数出现的次数大于`Math.ceil(S.length/2)`就无法构造
 
-#### 可以构造的情况
-显而易见，最多的数，一定要放在外面的
-所以我们先放置好最多的数，假设为`a`
-`aaaaaaa`
-然后往里面插入其他的数，插完一个，就隔一个再插入，直到把所有的数插完
-`ababacadae`
-返回答案，完事儿
+// #### 可以构造的情况
+// 显而易见，最多的数，一定要放在外面的
+// 所以我们先放置好最多的数，假设为`a`
+// `aaaaaaa`
+// 然后往里面插入其他的数，插完一个，就隔一个再插入，直到把所有的数插完
+// `ababacadae`
+// 返回答案，完事儿
 
-### 题解
+// ### 题解
 
-```
+// ```
 var reorganizeString = function(S) {
     let hashArr = new Array(26).fill(0);
     for(let i=0;i<S.length;i++){
@@ -63,4 +63,4 @@ var reorganizeString = function(S) {
     }
     return ans.join('');
 };
-```
+// ```

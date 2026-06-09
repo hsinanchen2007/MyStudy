@@ -1,4 +1,4 @@
-非常简短的解题做法，废话不说，上代码。
+# 非常简短的解题做法，废话不说，上代码。
 
 # Definition for a binary tree node.
 # class TreeNode(object):

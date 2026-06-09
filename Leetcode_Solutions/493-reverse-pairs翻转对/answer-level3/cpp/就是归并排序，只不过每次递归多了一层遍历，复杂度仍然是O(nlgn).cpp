@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int reversePairs(vector<int> &nums) {
@@ -20,4 +20,4 @@ private:
         return lcount + rcount + ncount;
     }
 };
-```
+// ```

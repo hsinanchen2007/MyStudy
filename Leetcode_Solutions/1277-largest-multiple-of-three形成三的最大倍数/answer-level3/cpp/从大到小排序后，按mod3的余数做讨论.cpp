@@ -1,6 +1,6 @@
-我后面的分类讨论肯定是写繁了。
-看了一下 [这个](https://leetcode-cn.com/problems/largest-multiple-of-three/solution/c-qu-diao-zui-xiao-zhi-8ms-by-yusenzhang_chatc/) 解法：求和后倒过来减去一些数，这样要判断的简单多了。
-```C++ []
+// 我后面的分类讨论肯定是写繁了。
+// 看了一下 [这个](https://leetcode-cn.com/problems/largest-multiple-of-three/solution/c-qu-diao-zui-xiao-zhi-8ms-by-yusenzhang_chatc/) 解法：求和后倒过来减去一些数，这样要判断的简单多了。
+// ```C++ []
 class Solution {
 public:
 	string largestMultipleOfThree(vector<int>& digits) {
@@ -121,4 +121,4 @@ public:
 		return s;
 	}
 };
-```
+// ```

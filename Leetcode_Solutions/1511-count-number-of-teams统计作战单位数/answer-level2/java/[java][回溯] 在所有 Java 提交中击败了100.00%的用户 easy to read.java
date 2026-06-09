@@ -1,16 +1,16 @@
-### run
-执行用时 : 232ms，在所有 Java 提交中击败了100.00%的用户
-内存消耗 :40.6 MB, 在所有 Java 提交中击败了100.00%的用户
+// ### run
+// 执行用时 : 232ms，在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :40.6 MB, 在所有 Java 提交中击败了100.00%的用户
 
-### 解题思路
+// ### 解题思路
 
-本质是是回溯问题，可以参考`subset`系列和`combination`系列问题。
+// 本质是是回溯问题，可以参考`subset`系列和`combination`系列问题。
 
-临时写的代码有点啰嗦了，优化空间应该不小，各位可以post上来。
+// 临时写的代码有点啰嗦了，优化空间应该不小，各位可以post上来。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numTeams(int[] rating) {
         if(rating == null || rating.length < 3) {
@@ -56,4 +56,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var buddyStrings = function (A, B) {
     if (A.length !== B.length || !A.trim() || !B.trim()) return false;
     let temp = 0, arr = [], tempObj = {}, isReapt = false;
@@ -19,4 +19,4 @@ var buddyStrings = function (A, B) {
     }
     return false;
 };
-```
+// ```

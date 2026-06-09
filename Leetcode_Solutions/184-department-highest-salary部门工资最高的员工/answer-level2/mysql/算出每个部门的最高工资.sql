@@ -1,9 +1,9 @@
-### 解题思路
-先算出每个部门的最高工资,
-然后联合多表查查询结果
-### 代码
+-- ### 解题思路
+-- 先算出每个部门的最高工资,
+-- 然后联合多表查查询结果
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 SELECT
 	b.`Name` AS "Department",
@@ -16,4 +16,4 @@ FROM
 WHERE
  c.Salary = a.Salary AND a.DepartmentId = b.Id AND b.Id = c.DepartmentId
 
-```
+-- ```

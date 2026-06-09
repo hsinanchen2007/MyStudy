@@ -1,5 +1,5 @@
-对每个n，比较小于sqrt（n）的所有数的平方和及n-其平方和的状态。
-```
+// 对每个n，比较小于sqrt（n）的所有数的平方和及n-其平方和的状态。
+// ```
 int numSquares(int n){
     int *ans = (int *)malloc(sizeof(int)*(n+1));
     ans[0]=0;
@@ -14,4 +14,4 @@ int numSquares(int n){
     }
     return ans[n];
 }
-```
+// ```

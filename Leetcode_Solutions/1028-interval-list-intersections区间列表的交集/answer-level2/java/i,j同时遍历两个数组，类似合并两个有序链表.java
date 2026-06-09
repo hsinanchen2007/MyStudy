@@ -1,10 +1,10 @@
-### 解题思路
-![WechatIMG3.jpeg](https://pic.leetcode-cn.com/4309b3c295d4cf2ac2fcdfecf353ec853ac435ef5a7551a66b783ab4ef5831eb-WechatIMG3.jpeg)
+// ### 解题思路
+// ![WechatIMG3.jpeg](https://pic.leetcode-cn.com/4309b3c295d4cf2ac2fcdfecf353ec853ac435ef5a7551a66b783ab4ef5831eb-WechatIMG3.jpeg)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] intervalIntersection(int[][] A, int[][] B) {
         int i = 0;
@@ -32,4 +32,4 @@ class Solution {
         return resArray;
     }
 }
-```
+// ```

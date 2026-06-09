@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isFlipedString(char* s1, char* s2){
     int m=0,i,j=0;
     int len2=strlen(s2);
@@ -30,4 +30,4 @@ bool isFlipedString(char* s1, char* s2){
     }
     return false;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 思路：
+// ### 思路：
 
-- 先计算每个长度为`k`的子数组的和
-- 储存当中间子数组为开始下标为`i`时左子数组的最优开始下标`j`
-- 储存当右子数组开始下标为`r`时中间子数组的最优开始下标`m`，此时可同时计算结果
-### 代码：
-```python []
+// - 先计算每个长度为`k`的子数组的和
+// - 储存当中间子数组为开始下标为`i`时左子数组的最优开始下标`j`
+// - 储存当右子数组开始下标为`r`时中间子数组的最优开始下标`m`，此时可同时计算结果
+// ### 代码：
+// ```python []
 class Solution:
     def maxSumOfThreeSubarrays(self, nums: [int], k: int) -> [int]:
         n = len(nums)
@@ -36,8 +36,8 @@ class Solution:
             if sums[r]+sums[m]+sums[mid[m]] > sums[res[0]]+sums[res[1]]+sums[res[2]]:
                 res = [mid[m], m, r]
         return res
-```
-```javascript []
+// ```
+// ```javascript []
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -82,7 +82,7 @@ var maxSumOfThreeSubarrays = function(nums, k) {
     }
     return res
 };
-```
-### 复杂度分析：
-时间复杂度：O(n)
-空间复杂度：O(n)
+// ```
+// ### 复杂度分析：
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)

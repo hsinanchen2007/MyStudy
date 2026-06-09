@@ -1,6 +1,6 @@
-# 我写的前缀树
-用时超过98.43%，内存超过100%
-```java []
+// # 我写的前缀树
+// 用时超过98.43%，内存超过100%
+// ```java []
 class Node{
         public boolean leaf;
         public Node[] child;
@@ -57,7 +57,7 @@ class Trie {
         return true;
     }
 }
-```
+// ```
 
 
 

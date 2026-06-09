@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {TreeNode} root
  * @return {boolean}
@@ -38,4 +38,4 @@ var isSymmetricDFS = function(root) {
 
   return true
 }
-```
+// ```

@@ -1,8 +1,8 @@
-- dfs暴力做法
+// - dfs暴力做法
 
-题目的标签是dp,想了良久不知这种做法是咋做的。
+// 题目的标签是dp,想了良久不知这种做法是咋做的。
 
-```cpp
+// ```cpp
 class Solution
 {
 public:
@@ -37,4 +37,4 @@ public:
         return false;
     }
 };
-```
+// ```

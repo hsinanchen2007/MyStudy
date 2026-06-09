@@ -1,4 +1,4 @@
-```
+// ```
 func superPow(a int, b []int) int {
 	var pow func(x, y int) int
 	pow = func(x, y int) int {
@@ -17,4 +17,4 @@ func superPow(a int, b []int) int {
 	}
 	return out
 }
-```
+// ```

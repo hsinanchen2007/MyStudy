@@ -1,9 +1,9 @@
-### 解题思路
-递归实现。答案一看就懂，代码一敲就傻。
+// ### 解题思路
+// 递归实现。答案一看就懂，代码一敲就傻。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
                 && isMirror(t1.right,t2.left);
     }
 }
-```
+// ```

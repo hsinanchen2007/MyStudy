@@ -1,9 +1,9 @@
-### 解题思路
-搞清楚JAVA的深度复制和浅度复制就没有什么问题了
+// ### 解题思路
+// 搞清楚JAVA的深度复制和浅度复制就没有什么问题了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
 //因为是同时改变的，所以不能直接在原来的改，不然就会出现异常，创建新二维数组copyBoard[][]
@@ -64,4 +64,4 @@ class Solution {
          return count;
     }
 }
-```
+// ```

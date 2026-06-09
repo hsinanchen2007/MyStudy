@@ -1,11 +1,11 @@
-### 解题思路
-用第一个队列保存加入的顺序
-用另外一个队列进行排序保存
-共同入，共同出
+// ### 解题思路
+// 用第一个队列保存加入的顺序
+// 用另外一个队列进行排序保存
+// 共同入，共同出
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
 
     private Queue<Integer> queue;
@@ -57,4 +57,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

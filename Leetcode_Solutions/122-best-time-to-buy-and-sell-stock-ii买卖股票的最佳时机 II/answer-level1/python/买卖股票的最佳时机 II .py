@@ -1,5 +1,5 @@
-**代码：**
-```
+# **代码：**
+# ```
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             if flag==1 and i+1==l-1 and prices[i+1]>buyin: //边界条件判断
                 profit += prices[i+1] - buyin
         return profit
-```
+# ```

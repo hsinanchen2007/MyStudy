@@ -1,9 +1,9 @@
-### 解题思路
-使用当前状态标识来判定下一个状态
+// ### 解题思路
+// 使用当前状态标识来判定下一个状态
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func myAtoi(str string) int {
     const INT_MAX = int64(^uint32(0) >> 1)
     const INT_MIN = int64(-(1 << 31))
@@ -49,4 +49,4 @@ func myAtoi(str string) int {
     }
     return int(ans)
 }
-```
+// ```

@@ -1,22 +1,22 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/333acf0f1129bb513b99d43ca7c890a2bf148abdf366ebb5a1b17a807d93fdf1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/333acf0f1129bb513b99d43ca7c890a2bf148abdf366ebb5a1b17a807d93fdf1-image.png)
 
-该题的解法跟102大体相同，不同之处在于相同对最后返回的结果进行相应的反转即可：
-```golang
+// 该题的解法跟102大体相同，不同之处在于相同对最后返回的结果进行相应的反转即可：
+// ```golang
 for i := 0; i < len(lists); i++ {
     if i % 2 == 1 {
         reverseList(lists[i])
     }
 }
-```
+// ```
 
-该题的解法思路不在赘述，感兴趣的可以看我[102的题解](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/fei-di-gui-bfsbian-liang-kong-zhi-shuang-100-by-ji/)
+// 该题的解法思路不在赘述，感兴趣的可以看我[102的题解](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/fei-di-gui-bfsbian-liang-kong-zhi-shuang-100-by-ji/)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -80,4 +80,4 @@ func reverseList(nums []int) {
         nums[left], nums[right] = nums[right], nums[left]
     }
 }
-```
+// ```

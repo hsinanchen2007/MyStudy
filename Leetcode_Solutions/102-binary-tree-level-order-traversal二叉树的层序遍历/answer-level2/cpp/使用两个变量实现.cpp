@@ -1,4 +1,4 @@
-使用队列，并记录每一层入队的数和出队数，当本层的全部出队则证明本次已经遍历完成
+// 使用队列，并记录每一层入队的数和出队数，当本层的全部出队则证明本次已经遍历完成
 vector<vector<int>> levelOrder(TreeNode* root)
 {
     vector<vector<int>> ret;

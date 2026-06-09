@@ -1,9 +1,9 @@
-### 解题思路
-从当前节点判断它是奇数还是偶数，再取他的孙子节点就行。
+// ### 解题思路
+// 从当前节点判断它是奇数还是偶数，再取他的孙子节点就行。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ public:
         return sum+sumEvenGrandparent(root->left)+sumEvenGrandparent(root->right);
     }
 };
-```
+// ```

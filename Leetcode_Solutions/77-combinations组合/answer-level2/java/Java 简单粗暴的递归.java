@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/a38e2467e58014409541b07eca281ee46331b0e9c9012b96a16dd33c70853c51-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/a38e2467e58014409541b07eca281ee46331b0e9c9012b96a16dd33c70853c51-image.png)
 
-**为啥会这么慢呀 QAQ**
+// **为啥会这么慢呀 QAQ**
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> result = new LinkedList();
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

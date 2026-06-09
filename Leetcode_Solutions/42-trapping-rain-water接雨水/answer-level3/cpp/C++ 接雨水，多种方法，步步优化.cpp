@@ -1,6 +1,6 @@
-### 方法1. 层层遍历
+// ### 方法1. 层层遍历
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int trap(vector<int>& height) {
@@ -32,11 +32,11 @@ private:
         return ret;
     }
 }; 
-```
+// ```
 
-### 方法2. 按列遍历
+// ### 方法2. 按列遍历
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -58,11 +58,11 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-### 方法3. 方法2的优化, 简化使用空间
+// ### 方法3. 方法2的优化, 简化使用空间
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -84,10 +84,10 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-### 方法四. 方法3的优化 -> 双指针
-```cpp
+// ### 方法四. 方法3的优化 -> 双指针
+// ```cpp
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -107,10 +107,10 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-### 方法5. 学自甜姨的单调栈
-```cpp
+// ### 方法5. 学自甜姨的单调栈
+// ```cpp
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -134,4 +134,4 @@ public:
         return ret;
     }
 }; 
-```
+// ```

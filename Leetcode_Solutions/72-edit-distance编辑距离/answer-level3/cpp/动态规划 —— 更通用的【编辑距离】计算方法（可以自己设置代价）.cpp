@@ -1,6 +1,6 @@
-动态规划 —— 更通用的【编辑距离】计算方法（可以自己设置代价）
+// 动态规划 —— 更通用的【编辑距离】计算方法（可以自己设置代价）
 
-```angelscript
+// ```angelscript
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -36,4 +36,4 @@ public:
         return cost[m][n];
     }
 };
-```
+// ```

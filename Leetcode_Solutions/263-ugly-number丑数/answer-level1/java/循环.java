@@ -1,5 +1,5 @@
-从大到小，不断除下去，最后大于5即含其他质数、即非丑数
-```
+// 从大到小，不断除下去，最后大于5即含其他质数、即非丑数
+// ```
 public class UglyNumber {
 
     /**
@@ -20,4 +20,4 @@ public class UglyNumber {
         return true;
     }
 }
-```
+// ```

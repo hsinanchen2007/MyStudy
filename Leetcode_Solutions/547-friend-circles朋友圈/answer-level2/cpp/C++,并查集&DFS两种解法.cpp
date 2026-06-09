@@ -1,6 +1,6 @@
-方法一：
-并查集：
-```
+// 方法一：
+// 并查集：
+// ```
 const int maxn=205;
 int fathers[maxn];
 class Solution {
@@ -42,10 +42,10 @@ public:
     }
 
 };
-```
-方法二：
-DFS:这个DFS就是只要求解更新vis的数组，其他的不需要做，DFS一直往下搜，出现1，那么说明是一个团伙的
-```
+// ```
+// 方法二：
+// DFS:这个DFS就是只要求解更新vis的数组，其他的不需要做，DFS一直往下搜，出现1，那么说明是一个团伙的
+// ```
 class Solution {
 public:
     void dfs(vector<vector<int>>& M,int i,int n,vector<int>&vis){//更新vis这个数组的情况
@@ -69,4 +69,4 @@ public:
         return ans;
     }
 };
-```
+// ```

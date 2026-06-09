@@ -1,26 +1,26 @@
-### 解题思路
-**本题用深拷贝！！深拷贝！！深拷贝！！！**
-首先：区分一下：直接赋值、浅拷贝、深拷贝
-**直接复制：指向的是引用，还是同一个对象**
-```
+# ### 解题思路
+# **本题用深拷贝！！深拷贝！！深拷贝！！！**
+# 首先：区分一下：直接赋值、浅拷贝、深拷贝
+# **直接复制：指向的是引用，还是同一个对象**
+# ```
 a= [1,2,3,4]
 b = a  ##直接赋值
 a.append(5)
 
 print(a)   ##a = [1,2,3,4,5]
 print(b)   ##b = [1,2,3,4,5]  因为指向的是同一个对象，所以只要对象改变，都会改变
-```
-**浅拷贝：是两个独立的对象，但是还是指向同一个对象**
-```
+# ```
+# **浅拷贝：是两个独立的对象，但是还是指向同一个对象**
+# ```
 a = [1,2,3,4]
 b = a.copy()
 a.append(5)
 
 print(a) ## a = [1,2,3,4,5]
 print(b) ## b = [1,2,3,4,5] 因为还是指向的同一个对象，所以只要对象改变，都会改变
-```
-**深拷贝：真正的完全拷贝了值，是真正的两个独立的个体，没有任何关系，需要import copy**
-```
+# ```
+# **深拷贝：真正的完全拷贝了值，是真正的两个独立的个体，没有任何关系，需要import copy**
+# ```
 import copy
 a = [1,2,3,4]
 b = copy.deepcopy(a)
@@ -28,25 +28,25 @@ a.append(5)
 
 print(a)  ## a = [1,2,3,4,5]
 print(b)  ## b = [1,2,3,4]  ##因为真正独立了，所以a改变并不会影响自己
-```
-详情请戳：[https://www.runoob.com/w3cnote/python-understanding-dict-copy-shallow-or-deep.html]()
-显然，在这里，我们用**深拷贝**，大家不能用错了，所以：
-1、第一种方式
-```
+# ```
+# 详情请戳：[https://www.runoob.com/w3cnote/python-understanding-dict-copy-shallow-or-deep.html]()
+# 显然，在这里，我们用**深拷贝**，大家不能用错了，所以：
+# 1、第一种方式
+# ```
 import copy
 board_copy= copy.deepcopy(board)
-```
-2、第二种方式
-```
+# ```
+# 2、第二种方式
+# ```
 board_copy = [[board[rw][cl] for cl in range(col)] for rw in range(row)]
-```
-PS：好像说的有点远了，整体题目很简单。还需要注意的是，边界的值是不需要判断的，直接略过，因为边界的值是没有八个方向的。
+# ```
+# PS：好像说的有点远了，整体题目很简单。还需要注意的是，边界的值是不需要判断的，直接略过，因为边界的值是没有八个方向的。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
@@ -79,4 +79,4 @@ class Solution:
                     if nums==3:
                         board[i][j] = 1
 
-```
+# ```

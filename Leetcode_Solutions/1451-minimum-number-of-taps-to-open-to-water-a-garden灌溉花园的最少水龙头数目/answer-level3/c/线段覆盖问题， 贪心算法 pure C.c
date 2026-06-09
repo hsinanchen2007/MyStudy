@@ -1,4 +1,4 @@
-```c
+// ```c
 // 线段覆盖问题， 贪心算法
 #define MAX(a, b) ((a) > (b) ? (a): (b))
 typedef struct {
@@ -47,4 +47,4 @@ int minTaps(int n, int* ranges, int rangesSize){
     return ret;
 }
 
-```
+// ```

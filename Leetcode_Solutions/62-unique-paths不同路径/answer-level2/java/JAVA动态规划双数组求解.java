@@ -1,11 +1,11 @@
-类似于青蛙跳的标准dp题
-dp[i][j] = dp[i][j-1] + dp[i-][j] 
-对于两条边的处理，我一开始使用两个循环初始化两条边，结果发现用时只有50%
-后来试了一下不初始化两条边，把对边的处理直接放在dp循环体中，成功100%，不过我个人感觉还是初始化的方式看的条理清晰一点
+// 类似于青蛙跳的标准dp题
+// dp[i][j] = dp[i][j-1] + dp[i-][j] 
+// 对于两条边的处理，我一开始使用两个循环初始化两条边，结果发现用时只有50%
+// 后来试了一下不初始化两条边，把对边的处理直接放在dp循环体中，成功100%，不过我个人感觉还是初始化的方式看的条理清晰一点
 
 
-1ms 50%
-```
+// 1ms 50%
+// ```
 class Solution {
     public int uniquePaths(int m, int n) {
         if( m == 0 || n == 0 )return 0;
@@ -27,11 +27,11 @@ class Solution {
         return dp[m-1][n-1];
     }
 }
-```
+// ```
 
 
-0ms 100%
-```
+// 0ms 100%
+// ```
 class Solution {
     public int uniquePaths(int m, int n) {
         if( m == 0 || n == 0 )return 0;
@@ -55,6 +55,6 @@ class Solution {
         return dp[m-1][n-1];
     }
 }
-```
+// ```
 
 

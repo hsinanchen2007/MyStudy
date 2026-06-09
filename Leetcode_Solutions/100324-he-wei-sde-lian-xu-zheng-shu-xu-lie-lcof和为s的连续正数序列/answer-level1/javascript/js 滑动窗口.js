@@ -1,6 +1,6 @@
-就几行代码，简单易懂
-### 代码
-```javascript
+// 就几行代码，简单易懂
+// ### 代码
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -20,4 +20,4 @@ var findContinuousSequence = function(target) {
     }
     return ans;
 };
-```
+// ```

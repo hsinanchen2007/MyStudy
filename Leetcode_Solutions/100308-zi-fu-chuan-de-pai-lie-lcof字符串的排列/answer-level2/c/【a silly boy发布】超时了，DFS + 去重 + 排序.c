@@ -1,5 +1,5 @@
-![B22F3415-13F7-4D81-B7C0-61C2CD659E63.jpeg](https://pic.leetcode-cn.com/eb008e20b20a3a80fa83530f76b36107519fce481a7a1b4824881c8a69373756-B22F3415-13F7-4D81-B7C0-61C2CD659E63.jpeg)
-```
+// ![B22F3415-13F7-4D81-B7C0-61C2CD659E63.jpeg](https://pic.leetcode-cn.com/eb008e20b20a3a80fa83530f76b36107519fce481a7a1b4824881c8a69373756-B22F3415-13F7-4D81-B7C0-61C2CD659E63.jpeg)
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -84,4 +84,4 @@ char** permutation(char* s, int* returnSize){
 
     return returnStr;
 }
-```
+// ```

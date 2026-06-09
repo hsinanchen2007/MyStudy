@@ -1,9 +1,9 @@
-### 解题思路
-用两个字典一个needs储存t的字母及个数，window作为滑动窗口通过check_window函数比较是否满足needs要求。使用left和right双指针，首先移动right直到check_window返回true，此时有移动右指针的解，接着移动左指针寻找最优解。当左指针最优解找到后，如果字符串长度相比res更小则存入res，左指针移动到下一位，继续移动右指针循环上述过程，直到右指针遍历完s。
+# ### 解题思路
+# 用两个字典一个needs储存t的字母及个数，window作为滑动窗口通过check_window函数比较是否满足needs要求。使用left和right双指针，首先移动right直到check_window返回true，此时有移动右指针的解，接着移动左指针寻找最优解。当左指针最优解找到后，如果字符串长度相比res更小则存入res，左指针移动到下一位，继续移动右指针循环上述过程，直到右指针遍历完s。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minWindow(self, s, t):
         """
@@ -42,4 +42,4 @@ class Solution(object):
         
 
             
-```
+# ```

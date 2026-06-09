@@ -1,6 +1,6 @@
-找到C的索引，S遍历跟它计算距离，选绝对值最小的
+# 找到C的索引，S遍历跟它计算距离，选绝对值最小的
 
-```
+# ```
 class Solution:
     def shortestToChar(self, S: str, C: str) -> List[int]:
         s=[]
@@ -14,4 +14,4 @@ class Solution:
                 t = min(t,abs(j-i))
             r.append(t)
         return r
-```
+# ```

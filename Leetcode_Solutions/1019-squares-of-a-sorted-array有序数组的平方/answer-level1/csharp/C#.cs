@@ -1,8 +1,8 @@
-### 解题思路
-参考大神双指针，@菜鸟
-### 代码
+// ### 解题思路
+// 参考大神双指针，@菜鸟
+// ### 代码
 
-```csharp
+// ```csharp
 // public class Solution {
 //     public int[] SortedSquares(int[] A) {
 //         var res = new int[A.Length];
@@ -41,4 +41,4 @@ public class Solution{
                 return res;
         }
 }
-```
+// ```

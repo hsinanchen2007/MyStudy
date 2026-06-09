@@ -1,6 +1,6 @@
-- 避免构造字符串不断拼接
-- 避免强制转换
-```java
+// - 避免构造字符串不断拼接
+// - 避免强制转换
+// ```java
 public String toLowerCase(String str) {
     char[] arr = str.toCharArray();
     for (int i = 0; i < arr.length; i++) {
@@ -10,4 +10,4 @@ public String toLowerCase(String str) {
     }
     return String.valueOf(arr);
 }
-```
+// ```

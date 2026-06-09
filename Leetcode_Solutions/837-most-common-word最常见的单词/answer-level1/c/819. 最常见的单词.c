@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/45d876695e1f779bf66ba0eb14d51b7af32d86b93a3c1e5ccc1a0dcf82a9cc0f-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/45d876695e1f779bf66ba0eb14d51b7af32d86b93a3c1e5ccc1a0dcf82a9cc0f-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define HASH_SIZE 1333
 #define MAX_LETTER 10
 #define DEBUG 0
@@ -140,4 +140,4 @@ char * mostCommonWord(char * paragraph, char ** banned, int bannedSize){
 "Bob hit a ball, the hit BALL flew far after it was hit."
 ["hit","ball"]
 */
-```
+// ```

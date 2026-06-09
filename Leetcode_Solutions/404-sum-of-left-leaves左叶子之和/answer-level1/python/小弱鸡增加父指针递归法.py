@@ -1,8 +1,8 @@
-### 解题思路
-同样的采用递归遍历树的方式，只不过这次需要增加一个指向父节点的指针，当为叶节点时，利用父节点进行判断，是否需要加和
-### 代码
+# ### 解题思路
+# 同样的采用递归遍历树的方式，只不过这次需要增加一个指向父节点的指针，当为叶节点时，利用父节点进行判断，是否需要加和
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
             helper(root,root.left)
             helper(root,root.right)
         return self.res
-```
+# ```

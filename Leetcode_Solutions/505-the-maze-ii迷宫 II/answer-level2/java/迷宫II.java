@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int shortestDistance(int[][] maze, int[] start, int[] destination) {
         //建立一个函数distance，表示该点到迷宫终点的距离
@@ -35,4 +35,4 @@ class Solution {
         }
     }
 }
-```
+// ```

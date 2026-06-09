@@ -1,5 +1,5 @@
-递归放入k个集合
-```
+// 递归放入k个集合
+// ```
 class Solution {
     public boolean canPartitionKSubsets(int[] nums, int k) {
         int sum = 0;
@@ -45,4 +45,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

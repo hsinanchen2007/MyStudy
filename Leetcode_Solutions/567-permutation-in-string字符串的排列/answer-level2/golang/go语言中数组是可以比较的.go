@@ -1,4 +1,4 @@
-```go
+// ```go
 func checkInclusion(s1 string, s2 string) bool {
     if len(s2)<len(s1){return false}
     var cnt1,cnt2 [26]int
@@ -15,4 +15,4 @@ func checkInclusion(s1 string, s2 string) bool {
     }
     return false
 }
-```
+// ```

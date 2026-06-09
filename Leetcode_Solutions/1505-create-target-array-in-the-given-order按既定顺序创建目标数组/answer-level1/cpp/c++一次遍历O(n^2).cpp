@@ -1,11 +1,11 @@
-### 解题思路
-reindex[i] = 插入位置原位置index[i]+后面index <= i的元素个数
+// ### 解题思路
+// reindex[i] = 插入位置原位置index[i]+后面index <= i的元素个数
 
-在考虑有没有低于O(n^2)的解法
+// 在考虑有没有低于O(n^2)的解法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> createTargetArray(vector<int>& nums, vector<int>& index) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

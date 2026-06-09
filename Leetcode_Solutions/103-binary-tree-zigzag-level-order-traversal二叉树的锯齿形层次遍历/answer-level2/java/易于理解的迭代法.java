@@ -1,8 +1,8 @@
-参考102题[（二叉树的层次遍历）](https://leetcode-cn.com/problems/binary-tree-level-order-traversal)
+// 参考102题[（二叉树的层次遍历）](https://leetcode-cn.com/problems/binary-tree-level-order-traversal)
 
-在该题结果的基础上将索引为奇数的List<Integer>翻转即可。
+// 在该题结果的基础上将索引为奇数的List<Integer>翻转即可。
 
-```
+// ```
 public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> list = new ArrayList<>();
         if (root == null) return list;
@@ -27,4 +27,4 @@ public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         }
         return list;
     }
-```
+// ```

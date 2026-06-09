@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def numberOfArithmeticSlices(self, nums: List[int]) -> int:
         n = len(nums)
@@ -12,4 +12,4 @@ class Solution:
             else:
                 dp[i] = 0
         return sum(dp)
-```
+# ```

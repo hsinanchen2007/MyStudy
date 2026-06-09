@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
   public int[][] generateMatrix(int n) {
     int[][] result = new int[n][n];
@@ -20,4 +20,4 @@ class Solution {
     return result;
   }
 }
-```
+// ```

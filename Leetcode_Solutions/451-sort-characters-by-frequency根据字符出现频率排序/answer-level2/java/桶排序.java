@@ -1,5 +1,5 @@
-算法思想：桶排序，将字符的出现次数作为数组的下标，将出现的字符作为数组的内容。根据坐标进行降序，然后把坐标和对应的内容“相乘”后存放在字符串中，返回遍历后的结果。
-```
+// 算法思想：桶排序，将字符的出现次数作为数组的下标，将出现的字符作为数组的内容。根据坐标进行降序，然后把坐标和对应的内容“相乘”后存放在字符串中，返回遍历后的结果。
+// ```
 public static String frequencySort(String s) {
 		 HashMap<Character,Integer> map = new HashMap<Character,Integer>();
 		 for(int i=0; i< s.length();i++)
@@ -31,4 +31,4 @@ public static String frequencySort(String s) {
 		 }
 	      return result.toString();  
 	 }
-```
+// ```

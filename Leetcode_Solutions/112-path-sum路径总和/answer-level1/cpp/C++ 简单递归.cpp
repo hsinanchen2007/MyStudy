@@ -1,6 +1,6 @@
-题目虽然简单，但是一不留神就会出错
-上代码
-```
+// 题目虽然简单，但是一不留神就会出错
+// 上代码
+// ```
 class Solution {
 public:
     bool hasPathSum(TreeNode* root, int sum) {
@@ -11,5 +11,5 @@ public:
         return false;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/0979f5a9d5308b55c7f1c421b1685c225b9b2abd607a7df39fe275521508ca0a-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/0979f5a9d5308b55c7f1c421b1685c225b9b2abd607a7df39fe275521508ca0a-image.png)

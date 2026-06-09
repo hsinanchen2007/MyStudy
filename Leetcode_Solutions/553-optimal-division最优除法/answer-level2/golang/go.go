@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"bytes"
 	"strconv"
@@ -21,4 +21,4 @@ func optimalDivision(nums []int) string {
 	}
 	return buf.String()
 }
-```
+// ```

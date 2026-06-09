@@ -1,13 +1,13 @@
-### 解题思路
-主要的数据结构包括fresh_set和corrupt_set,即保存了新鲜的橘子的位置和腐烂橘子的位置信息。
-流程可以总结为：
-1. 全局遍历：初始化fresh_set和corrupt_set；
-2. 时间线：在此环节，根据fresh_set和corrupt_set数量的多少，选择遍历哪一个set()集合。即选择数量相对较少的集合进行遍历，节省时间开销；
-3. 注意跳出条件。
+# ### 解题思路
+# 主要的数据结构包括fresh_set和corrupt_set,即保存了新鲜的橘子的位置和腐烂橘子的位置信息。
+# 流程可以总结为：
+# 1. 全局遍历：初始化fresh_set和corrupt_set；
+# 2. 时间线：在此环节，根据fresh_set和corrupt_set数量的多少，选择遍历哪一个set()集合。即选择数量相对较少的集合进行遍历，节省时间开销；
+# 3. 注意跳出条件。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
 
@@ -75,4 +75,4 @@ class Solution:
             if len(cnt_set) == 0: return -1
             timer += 1
         return timer
-```
+# ```

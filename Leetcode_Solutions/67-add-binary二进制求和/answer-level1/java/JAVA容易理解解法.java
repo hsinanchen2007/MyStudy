@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String addBinary(String a, String b) {
         int i = a.length() - 1;
@@ -22,4 +22,4 @@ class Solution {
 
     }
 }
-```
+// ```

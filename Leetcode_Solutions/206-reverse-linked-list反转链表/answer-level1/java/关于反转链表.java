@@ -1,10 +1,10 @@
-### 解题思路
-其实核心就是要记录前后节点，反转指针之后还能找到下个节点
+// ### 解题思路
+// 其实核心就是要记录前后节点，反转指针之后还能找到下个节点
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return reverseHead;
     }
 }
-```
+// ```

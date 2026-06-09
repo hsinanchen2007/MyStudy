@@ -1,9 +1,9 @@
-### 解题思路
-递归超出时间限制，使用迭代
+// ### 解题思路
+// 递归超出时间限制，使用迭代
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int climbStairs(int n) {
        if (n == 1){
@@ -26,4 +26,4 @@ class Solution {
         return f3;
     }
 }
-```
+// ```

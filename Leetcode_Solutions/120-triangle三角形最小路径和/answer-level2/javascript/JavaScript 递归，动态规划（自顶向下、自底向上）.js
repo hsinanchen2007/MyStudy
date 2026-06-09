@@ -1,5 +1,5 @@
-**1.递归加缓存**
-```
+// **1.递归加缓存**
+// ```
 var minimumTotal = function(triangle) {
   let cache={};
   function findMinSum(i,j){
@@ -18,10 +18,10 @@ var minimumTotal = function(triangle) {
   
   return findMinSum(0,0);
 };
-```
+// ```
 
-**2.动态规划 自顶向下**
-```
+// **2.动态规划 自顶向下**
+// ```
 var minimumTotal = function(triangle) {
   for(let i=1;i<triangle.length;i++){
     for(let j=0;j<triangle[i].length;j++){
@@ -38,12 +38,12 @@ var minimumTotal = function(triangle) {
   }
   return Math.min(...triangle[triangle.length-1]);
 }
-```
-**3.动态规划 自底向上 只会改变最后一行数据**
+// ```
+// **3.动态规划 自底向上 只会改变最后一行数据**
 
-  参考了别人的答案
+//   参考了别人的答案
 
-```
+// ```
 var minimumTotal = function(triangle) {
   let line=triangle[triangle.length-1];
   for(let i=triangle.length-2;i>=0;i--){
@@ -53,7 +53,7 @@ var minimumTotal = function(triangle) {
   }
   return line[0];
 };
-```
+// ```
 
 
 

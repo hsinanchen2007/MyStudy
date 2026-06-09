@@ -1,8 +1,8 @@
-![捕获.PNG](https://pic.leetcode-cn.com/705055a0c5b75b884b086038d640e70e28d4d832f0f545299bac3d10f5766ce0-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/705055a0c5b75b884b086038d640e70e28d4d832f0f545299bac3d10f5766ce0-%E6%8D%95%E8%8E%B7.PNG)
 
-迭代解决。
+// 迭代解决。
 
-```
+// ```
 class Solution {
 public:
     int fib(int n) {
@@ -14,5 +14,5 @@ public:
         return res[n];
     }
 };
-```
+// ```
 

@@ -1,4 +1,4 @@
-```
+// ```
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) {
             return null;
@@ -18,4 +18,4 @@
         }
         return cur.next;
     }
-```
+// ```

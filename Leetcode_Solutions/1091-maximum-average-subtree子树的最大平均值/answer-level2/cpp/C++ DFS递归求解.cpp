@@ -1,11 +1,11 @@
-构造pair<int, int>结构
-    - 存储<结点和，结点数>
-    - 平均值 = 结点和/结点数：(double)sum/num
+// 构造pair<int, int>结构
+//     - 存储<结点和，结点数>
+//     - 平均值 = 结点和/结点数：(double)sum/num
 
-全局result用于节省空间，不需要额外数组保存中间均值结果
+// 全局result用于节省空间，不需要额外数组保存中间均值结果
 
 
-```C++
+// ```C++
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ private:
         return {sum, num};
     }
 };
-```
+// ```

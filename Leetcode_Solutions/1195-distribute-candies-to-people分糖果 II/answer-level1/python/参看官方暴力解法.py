@@ -1,11 +1,11 @@
-### 解题思路
-学习到两点：
-1. 利用i%n来控制数组的索引
-2. 利用min()来完成数据的选取
+# ### 解题思路
+# 学习到两点：
+# 1. 利用i%n来控制数组的索引
+# 2. 利用min()来完成数据的选取
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import math
 class Solution(object):
     def distributeCandies(self, candies, num_people):
@@ -21,4 +21,4 @@ class Solution(object):
             candies-=min(i+1,candies)
             i+=1
         return a
-```
+# ```

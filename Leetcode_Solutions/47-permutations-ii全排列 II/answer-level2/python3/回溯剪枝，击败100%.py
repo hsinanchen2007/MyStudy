@@ -1,5 +1,5 @@
-详解很多，直接上代码
-```
+# 详解很多，直接上代码
+# ```
         def backtrack(numbers, pre):
             nonlocal res
             if len(numbers) <= 1:
@@ -13,4 +13,4 @@
         if not len(nums): return []
         backtrack(nums, [])
         return res
-```
+# ```

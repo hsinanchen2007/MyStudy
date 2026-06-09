@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
         int[] trip = new int[1001];
@@ -16,4 +16,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

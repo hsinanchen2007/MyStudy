@@ -1,9 +1,9 @@
-### 解题思路
-python3暴力求解
+# ### 解题思路
+# python3暴力求解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         if s == None:                       #空字符串视作回文序列
@@ -26,4 +26,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

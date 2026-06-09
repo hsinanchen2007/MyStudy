@@ -1,9 +1,9 @@
-### 解题思路
-1、计算出所有公因子
-2、取最大公因子
-### 代码
+// ### 解题思路
+// 1、计算出所有公因子
+// 2、取最大公因子
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str1
  * @param {string} str2
@@ -30,4 +30,4 @@ const gcdOfStrings = (str1, str2) => {
   }
   return arr.pop();
 };
-```
+// ```

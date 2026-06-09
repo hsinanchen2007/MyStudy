@@ -1,10 +1,10 @@
-**用两个变量分别记录分子和分母，由于1/的缘故，所以每次读取元素时需要交换m和n的位置。
-迭代计算，仅需要对数组元素进行倒序读取即可。
-用一个子函数化简**
+// **用两个变量分别记录分子和分母，由于1/的缘故，所以每次读取元素时需要交换m和n的位置。
+// 迭代计算，仅需要对数组元素进行倒序读取即可。
+// 用一个子函数化简**
 
-![1.png](https://pic.leetcode-cn.com/079e0abc3f742bfa22e8e8377377a041e2cc5c797ff572296474bf29d07971ee-1.png)
+// ![1.png](https://pic.leetcode-cn.com/079e0abc3f742bfa22e8e8377377a041e2cc5c797ff572296474bf29d07971ee-1.png)
 
-```
+// ```
 class Solution {
     public static int test1(int a,int b){
         int max=a>b?a:b;
@@ -44,4 +44,4 @@ class Solution {
         }
     }
 }
-```
+// ```

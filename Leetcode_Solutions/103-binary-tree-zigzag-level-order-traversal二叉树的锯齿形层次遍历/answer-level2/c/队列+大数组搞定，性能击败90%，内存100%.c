@@ -1,7 +1,7 @@
-# 
-使用队列先进先出的方式，层次遍历，最后输出的时候做锯齿处理。
+// # 
+// 使用队列先进先出的方式，层次遍历，最后输出的时候做锯齿处理。
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -154,5 +154,5 @@ void ReadDataToQueue(struct TreeNode* root, int *cnt)
 
     return;
 }
-```
-![image.png](https://pic.leetcode-cn.com/fe04f9a08975499ce40204b3626196c49f59a3a0dd8099ce75bed76f7a654eae-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/fe04f9a08975499ce40204b3626196c49f59a3a0dd8099ce75bed76f7a654eae-image.png)

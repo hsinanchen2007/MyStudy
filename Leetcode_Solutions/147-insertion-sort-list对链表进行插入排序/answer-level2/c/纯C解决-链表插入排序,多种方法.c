@@ -1,9 +1,9 @@
-### 解题思路
-代码非常清晰，不明白的欢迎提问`
+// ### 解题思路
+// 代码非常清晰，不明白的欢迎提问`
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,9 +41,9 @@ struct ListNode* insertionSortList(struct ListNode* head){
     }
     return new_head->next;
 }
-```
-把链表存储在数组中进行排序
-```c
+// ```
+// 把链表存储在数组中进行排序
+// ```c
 int getlength(struct ListNode *head)
 {
     int length=0;
@@ -91,4 +91,4 @@ struct ListNode* insertionSortList(struct ListNode* head){//数组里面到底�
     return num[0];
 
 }
-```
+// ```

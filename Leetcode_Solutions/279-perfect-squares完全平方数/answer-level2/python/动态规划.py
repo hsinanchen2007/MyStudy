@@ -1,9 +1,9 @@
-### 解题思路
-思路与之前“零钱兑换”一致，不过需要先自己构建平方数队列，所以空间效率上会差一些，时间是O(nlogn)
+# ### 解题思路
+# 思路与之前“零钱兑换”一致，不过需要先自己构建平方数队列，所以空间效率上会差一些，时间是O(nlogn)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numSquares(self, n: int) -> int:
         nums = []
@@ -18,4 +18,4 @@ class Solution:
                 dp[i] = min(dp[i], dp[i-num]+1)
         return dp[-1]
 
-```
+# ```

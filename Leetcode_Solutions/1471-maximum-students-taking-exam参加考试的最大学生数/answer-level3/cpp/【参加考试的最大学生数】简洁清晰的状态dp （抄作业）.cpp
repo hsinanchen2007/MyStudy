@@ -1,15 +1,15 @@
-### 思路
-1. 对每一行的座位安排进行状态压缩
-2. 检测其座椅是否正常，以及学生是否相邻
-3. 对于合法的座位安排，可以计算出这一行能安排的学生数量
-4. 学生相邻检测，除了本行之内的，仅与上一行相关
-5. 对于上一行和这一行的所有安排组合之后的合法安排，可以保存各种组合的最大值
-6. 令 `dp[i][j]` 表示第 `i` 行的 `j` 种安排方式下，前 `i` 行能安排的学生数量
-7. 那么第 `i` 行的 `j` 种安排方式的数量就等于 `i - 1` 行所有合法排列中最大的数量 + 第 `i` 行的学生数量
-8. 即：$dp[i][j] = max(dp[i][j], dp[i-1][k] + count_i)$
+// ### 思路
+// 1. 对每一行的座位安排进行状态压缩
+// 2. 检测其座椅是否正常，以及学生是否相邻
+// 3. 对于合法的座位安排，可以计算出这一行能安排的学生数量
+// 4. 学生相邻检测，除了本行之内的，仅与上一行相关
+// 5. 对于上一行和这一行的所有安排组合之后的合法安排，可以保存各种组合的最大值
+// 6. 令 `dp[i][j]` 表示第 `i` 行的 `j` 种安排方式下，前 `i` 行能安排的学生数量
+// 7. 那么第 `i` 行的 `j` 种安排方式的数量就等于 `i - 1` 行所有合法排列中最大的数量 + 第 `i` 行的学生数量
+// 8. 即：$dp[i][j] = max(dp[i][j], dp[i-1][k] + count_i)$
 
-### 答题
-```C++
+// ### 答题
+// ```C++
 class Solution {
 public:
 	int getCount(int n)	// 这种安排下的人数
@@ -68,15 +68,15 @@ public:
 		return ans;
 	}
 };
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-学习自 「[简洁清晰的状态dp](https://leetcode-cn.com/problems/maximum-students-taking-exam/solution/jian-ji-qing-xi-de-zhuang-tai-dp-by-newbie-19/)」
+// 学习自 「[简洁清晰的状态dp](https://leetcode-cn.com/problems/maximum-students-taking-exam/solution/jian-ji-qing-xi-de-zhuang-tai-dp-by-newbie-19/)」
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

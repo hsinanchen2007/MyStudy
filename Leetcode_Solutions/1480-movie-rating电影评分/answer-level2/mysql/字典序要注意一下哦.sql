@@ -1,9 +1,9 @@
-### 解题思路
-字典序是指按字典中出现的先后顺序进行排序，写成按id排了就很难受。
+-- ### 解题思路
+-- 字典序是指按字典中出现的先后顺序进行排序，写成按id排了就很难受。
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 (
   select u.name as results
@@ -23,4 +23,4 @@ union
     order by avg(mr.rating) desc, m.title
     limit 1
 );
-```
+-- ```

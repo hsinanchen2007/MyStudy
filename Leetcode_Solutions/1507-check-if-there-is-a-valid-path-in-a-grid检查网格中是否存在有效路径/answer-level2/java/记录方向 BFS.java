@@ -1,10 +1,10 @@
-### 解题思路
-vector用来保存方向 往上、往下、往左、往右
-判断当前点和下一个点是否符合要求
+// ### 解题思路
+// vector用来保存方向 往上、往下、往左、往右
+// 判断当前点和下一个点是否符合要求
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasValidPath(int[][] grid) {
         int[][] visited = new int[grid.length][grid[0].length];
@@ -58,4 +58,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

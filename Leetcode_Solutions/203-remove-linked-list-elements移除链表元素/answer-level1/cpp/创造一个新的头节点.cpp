@@ -1,4 +1,4 @@
-```
+// ```
  ListNode* removeElements(ListNode* head, int val) 
 {
         ListNode* newhead = new ListNode(-1);
@@ -13,4 +13,4 @@
         }
         return newhead->next;
     }
-```
+// ```

@@ -1,18 +1,18 @@
-### 解题思路
-滑动窗口、双指针
+// ### 解题思路
+// 滑动窗口、双指针
 
-算法：
-- 遍历t，把当前字符通过map来计数。
-- 定义一个滑动窗口$window，$front和$rear分别指向窗口的首尾。
-- 遍历s, 检查当前字符是否在t中，如果在，将当前字符加入到$window中并计数，当window中字符数量和t中相等，移动$front, 如果窗口长度比最小值小就替换。
+// 算法：
+// - 遍历t，把当前字符通过map来计数。
+// - 定义一个滑动窗口$window，$front和$rear分别指向窗口的首尾。
+// - 遍历s, 检查当前字符是否在t中，如果在，将当前字符加入到$window中并计数，当window中字符数量和t中相等，移动$front, 如果窗口长度比最小值小就替换。
 
-### 性能
-执行用时 :36 ms, 在所有 PHP 提交中击败了45.45%的用户
-内存消耗 :15 MB, 在所有 PHP 提交中击败了100.00%的用户
+// ### 性能
+// 执行用时 :36 ms, 在所有 PHP 提交中击败了45.45%的用户
+// 内存消耗 :15 MB, 在所有 PHP 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -62,11 +62,11 @@ class Solution {
         return $min_len == PHP_INT_MAX ? '' : substr($s, $start, $min_len);
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度 O(N)
-- 空间复杂度 O(N)
+// ### 算法复杂度
+// - 时间复杂度 O(N)
+// - 空间复杂度 O(N)
 
-### 参考
-[https://leetcode-cn.com/problems/minimum-window-substring/solution/hua-dong-chuang-kou-suan-fa-tong-yong-si-xiang-by-/](https://leetcode-cn.com/problems/minimum-window-substring/solution/hua-dong-chuang-kou-suan-fa-tong-yong-si-xiang-by-/)
+// ### 参考
+// [https://leetcode-cn.com/problems/minimum-window-substring/solution/hua-dong-chuang-kou-suan-fa-tong-yong-si-xiang-by-/](https://leetcode-cn.com/problems/minimum-window-substring/solution/hua-dong-chuang-kou-suan-fa-tong-yong-si-xiang-by-/)

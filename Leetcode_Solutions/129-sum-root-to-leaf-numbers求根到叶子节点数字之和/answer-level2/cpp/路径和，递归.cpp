@@ -1,9 +1,9 @@
-### 解题思路
-类似于求所有从根到叶节点的路径，只不过是把路径作为数字求和
+// ### 解题思路
+// 类似于求所有从根到叶节点的路径，只不过是把路径作为数字求和
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
         sumNumbersHelp(root->right, sum, path);
     }
 };
-```
+// ```

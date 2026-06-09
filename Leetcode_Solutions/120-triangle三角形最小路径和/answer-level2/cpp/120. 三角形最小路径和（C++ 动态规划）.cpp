@@ -1,6 +1,6 @@
-# 120. 三角形最小路径和
-修改原来的二维数组，从下至上修改数组为`本身+左右相邻节点的最小值`
-```
+// # 120. 三角形最小路径和
+// 修改原来的二维数组，从下至上修改数组为`本身+左右相邻节点的最小值`
+// ```
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -12,4 +12,4 @@ public:
         return triangle[0][0];
     }
 };
-```
+// ```

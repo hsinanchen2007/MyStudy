@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     int state = 0; // 表示当前状态，初始态为0
     int sign = 1; // 符号
@@ -38,4 +38,4 @@ class Solution {
         else return 3;
     }
 }
-```
+// ```

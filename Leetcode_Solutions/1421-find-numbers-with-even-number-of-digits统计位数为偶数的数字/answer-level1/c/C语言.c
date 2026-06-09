@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool is_ou(int nums)
 {
     int i = 0;
@@ -33,4 +33,4 @@ int findNumbers(int* nums, int numsSize){
 
     return result;
 }
-```
+// ```

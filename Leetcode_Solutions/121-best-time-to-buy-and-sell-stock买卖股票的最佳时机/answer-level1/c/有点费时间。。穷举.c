@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     int low=0,high=0,max=0;
     for(int i=0;i<pricesSize;i++){
@@ -20,4 +20,4 @@ int maxProfit(int* prices, int pricesSize){
     if(low<high) return prices[high]-prices[low];
     else return 0;
 }
-```
+// ```

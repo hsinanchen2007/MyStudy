@@ -1,9 +1,9 @@
-### 解题思路
-归并法和递归法
+// ### 解题思路
+// 归并法和递归法
 
-### 代码一
+// ### 代码一
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -27,10 +27,10 @@ public:
         }
     }
 };
-```
+// ```
 
-### 代码二
-```cpp
+// ### 代码二
+// ```cpp
 class Solution{
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2){
@@ -51,4 +51,4 @@ public:
         return dummy->next;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def numRookCaptures(self, board):
         """
@@ -64,4 +64,4 @@ class Solution(object):
         if 'Rp' in s:
             result += 1
         return result
-```
+# ```

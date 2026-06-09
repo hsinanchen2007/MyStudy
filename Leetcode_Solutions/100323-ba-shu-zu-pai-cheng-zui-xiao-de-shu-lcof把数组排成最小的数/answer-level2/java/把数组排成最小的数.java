@@ -1,9 +1,9 @@
-### 解题思路
-直接用jdk8的lambda排序比较厚拼接 ，没什么好说的。。。
+// ### 解题思路
+// 直接用jdk8的lambda排序比较厚拼接 ，没什么好说的。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     /**
@@ -20,4 +20,4 @@ class Solution {
         return result.toString();
     }
 }
-```
+// ```

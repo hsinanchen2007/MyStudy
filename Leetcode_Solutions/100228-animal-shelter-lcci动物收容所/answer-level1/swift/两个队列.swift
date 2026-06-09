@@ -1,11 +1,11 @@
-### 解题思路
-主队列负责 enqueue
-dequeue时，优先辅助队列，如果辅助队列不满足，其次主队列
-如果辅助队列为空，主队列不满足，则先把当前元素放到辅助队列里面
+// ### 解题思路
+// 主队列负责 enqueue
+// dequeue时，优先辅助队列，如果辅助队列不满足，其次主队列
+// 如果辅助队列为空，主队列不满足，则先把当前元素放到辅助队列里面
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class AnimalShelf {
     
     private var primaryQueue = [[Int]]()
@@ -72,4 +72,4 @@ class AnimalShelf {
  * let ret_3: [Int] = obj.dequeueDog()
  * let ret_4: [Int] = obj.dequeueCat()
  */
-```
+// ```

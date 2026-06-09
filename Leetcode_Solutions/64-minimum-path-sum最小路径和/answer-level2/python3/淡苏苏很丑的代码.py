@@ -1,8 +1,8 @@
-### 解题思路
-f(m, n) = min(f(m+1, n), f(m, n+1)) + grid[m][n]
+# ### 解题思路
+# f(m, n) = min(f(m+1, n), f(m, n+1)) + grid[m][n]
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         res = {}
@@ -18,4 +18,4 @@ class Solution:
                 res[m1, n1] = min(res[m1+1, n1], res[m1, n1+1]) + grid[m1][n1]
         return res[0,0]
                 
-```
+# ```

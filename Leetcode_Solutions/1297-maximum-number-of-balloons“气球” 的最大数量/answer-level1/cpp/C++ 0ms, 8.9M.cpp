@@ -1,5 +1,5 @@
-主要是统计各个字母出现的次数，然后取出最小值。
-```
+// 主要是统计各个字母出现的次数，然后取出最小值。
+// ```
 class Solution {
 public:
     int maxNumberOfBalloons(string text) {
@@ -24,4 +24,4 @@ public:
         return t1>t2?t2:t1;
     }
 };
-```
+// ```

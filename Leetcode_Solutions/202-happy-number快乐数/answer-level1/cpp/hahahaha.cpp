@@ -1,6 +1,6 @@
-![捕获.PNG](https://pic.leetcode-cn.com/79406330b1641286b858b4cb23958c66ff6bc6cbddf5e30709e48187e7c5673a-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/79406330b1641286b858b4cb23958c66ff6bc6cbddf5e30709e48187e7c5673a-%E6%8D%95%E8%8E%B7.PNG)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isHappy(int n) {
@@ -27,4 +27,4 @@ public:
         return sum;
     }
 };
-```
+// ```

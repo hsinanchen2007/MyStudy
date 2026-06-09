@@ -1,13 +1,13 @@
-### 执行结果
-![image.png](https://pic.leetcode-cn.com/2581b75f2c9adf8c11a2459bcae00fd10361a5881ff127c4ca47d04f3915bde4-image.png)
+// ### 执行结果
+// ![image.png](https://pic.leetcode-cn.com/2581b75f2c9adf8c11a2459bcae00fd10361a5881ff127c4ca47d04f3915bde4-image.png)
 
-### 解题思路
-1. 先遍历一遍二维数组，把所有的腐烂橘子的坐标存在 arr 数组中。
-2. 遍历 arr 数组，按照坐标判断 grid 中相邻的四个位子是否有橘子且橘子没坏。如果有，则让其腐烂。
+// ### 解题思路
+// 1. 先遍历一遍二维数组，把所有的腐烂橘子的坐标存在 arr 数组中。
+// 2. 遍历 arr 数组，按照坐标判断 grid 中相邻的四个位子是否有橘子且橘子没坏。如果有，则让其腐烂。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -62,4 +62,4 @@ var orangesRotting = function(grid) {
     }
     return times
 };
-```
+// ```

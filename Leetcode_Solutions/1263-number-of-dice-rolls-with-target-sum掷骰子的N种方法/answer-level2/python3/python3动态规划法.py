@@ -1,5 +1,5 @@
-参照了别人的动态规划算法，并做了一点点改良。
-```
+# 参照了别人的动态规划算法，并做了一点点改良。
+# ```
 class Solution:
     def numRollsToTarget(self, d: int, f: int, target: int) -> int:
         if d * f < target:
@@ -17,4 +17,4 @@ class Solution:
                     dp[i][j] = (dp[i][j] + dp[i-1][j-k])%mod
                     k += 1
         return dp[d][target]
-```
+# ```

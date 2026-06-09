@@ -1,4 +1,4 @@
-```
+// ```
 import "sort"
 
 func reorganizeString(s string) string {
@@ -28,4 +28,4 @@ func reorganizeString(s string) string {
 	}
 	return string(out)
 }
-```
+// ```

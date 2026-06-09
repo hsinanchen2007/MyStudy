@@ -1,8 +1,8 @@
-### 解题思路
-总体来说就是两棵树同时进行递归，并进行操作，加了各种判断，来构建整棵树，用时和内存都很弱，但是还可行
-### 代码
+# ### 解题思路
+# 总体来说就是两棵树同时进行递归，并进行操作，加了各种判断，来构建整棵树，用时和内存都很弱，但是还可行
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
         root = helper(t1,t2)
         return root
 
-```
+# ```

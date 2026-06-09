@@ -1,19 +1,19 @@
-### 解题思路
+// ### 解题思路
 
-对称二叉树满足条件
+// 对称二叉树满足条件
 
-- 左右子树根节点相等
-- 左子树的左孩子等于右子树的右孩子
-- 左子树的右孩子等于右子树的左孩子
+// - 左右子树根节点相等
+// - 左子树的左孩子等于右子树的右孩子
+// - 左子树的右孩子等于右子树的左孩子
 
-递归判断，递归函数的参数是左右两棵子树，如果只传一棵子树，是无法判断是对称二叉树的，对称行为是两个子树的行为
+// 递归判断，递归函数的参数是左右两棵子树，如果只传一棵子树，是无法判断是对称二叉树的，对称行为是两个子树的行为
 
 
-### 代码
+// ### 代码
 
-cpp
+// cpp
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,11 +37,11 @@ public:
         return dfs(l->left, r->right) && dfs(l->right , r->left);
     }
 };
-```
+// ```
 
-javascript
+// javascript
 
-```javascript
+// ```javascript
 var isSymmetric = function (root) {
     if (root == null) return true
     function dfs(p, q) {
@@ -52,4 +52,4 @@ var isSymmetric = function (root) {
     }
     return dfs(root.left, root.right)
 };
-```
+// ```

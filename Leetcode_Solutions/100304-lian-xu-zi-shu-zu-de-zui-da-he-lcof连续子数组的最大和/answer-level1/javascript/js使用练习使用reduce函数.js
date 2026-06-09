@@ -1,9 +1,9 @@
-### 解题思路
-reduce函数的高级用法传入一个函数参数：reduce(function(total，当前元素，当前索引，当前的数组),total的初始值)。其中函数function(total，当前元素，当前索引，当前的数组)需要返回值return total;
+// ### 解题思路
+// reduce函数的高级用法传入一个函数参数：reduce(function(total，当前元素，当前索引，当前的数组),total的初始值)。其中函数function(total，当前元素，当前索引，当前的数组)需要返回值return total;
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -20,4 +20,4 @@ var maxSubArray = function(nums) {
     },0)
     return max;
 };
-```
+// ```

@@ -1,7 +1,7 @@
-较为直接的方法就是维护一个长度为3的set
+// 较为直接的方法就是维护一个长度为3的set
 
 
-```
+// ```
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
             return *(hash_set.begin());
     }
 };
-```
+// ```

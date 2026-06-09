@@ -1,5 +1,5 @@
-找到车以后朝4个方向搜索，每次搜索都是遇到卒计数然后退出，遇到象直接退出
-```
+// 找到车以后朝4个方向搜索，每次搜索都是遇到卒计数然后退出，遇到象直接退出
+// ```
 func numRookCaptures(board [][]byte) int {
 	var posRow = -1
 	var posCol = -1
@@ -53,4 +53,4 @@ out:
 	return sum
 }
 
-```
+// ```

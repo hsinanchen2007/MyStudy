@@ -1,4 +1,4 @@
-```
+// ```
 public int countCharacters(String[] words, String chars) {
         // 使用数组作为容器，26个字母按照顺序分别用数组的0-25号索引表示
         int[] chararr = new int[26];
@@ -29,4 +29,4 @@ public int countCharacters(String[] words, String chars) {
         }
         return total;
     }
-```
+// ```

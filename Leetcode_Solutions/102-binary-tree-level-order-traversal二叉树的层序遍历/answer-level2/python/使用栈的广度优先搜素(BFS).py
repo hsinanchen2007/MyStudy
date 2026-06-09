@@ -1,5 +1,5 @@
-代码如下:
-```
+# 代码如下:
+# ```
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         if root == None: return [] #排除空
@@ -17,4 +17,4 @@ class Solution:
             stack.append(stack_temp) #将下一层要遍历的元素放入栈中
             ans.append(ans_temp) #将这一层所有值放入答案
         return ans
-```
+# ```

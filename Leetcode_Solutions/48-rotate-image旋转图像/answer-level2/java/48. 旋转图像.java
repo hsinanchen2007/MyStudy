@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/7347b699c11915d9a71f1cc7a2e630a71c4a63f210b833697e7457c21951f976-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/7347b699c11915d9a71f1cc7a2e630a71c4a63f210b833697e7457c21951f976-image.png)
+// ```
 class Solution {
     public void rotate(int[][] matrix) {
         int i, j, k, n, x, y, t;
@@ -29,4 +29,4 @@ class Solution {
 		return answer;
 	}
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-双指针
-![image.png](https://pic.leetcode-cn.com/dac0f3f16e91af76fe0f2156f952d7205884e28acf04a7242a90ea4c76cc27ec-image.png)
+// ### 解题思路
+// 双指针
+// ![image.png](https://pic.leetcode-cn.com/dac0f3f16e91af76fe0f2156f952d7205884e28acf04a7242a90ea4c76cc27ec-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         }
     }
 };
-```
+// ```

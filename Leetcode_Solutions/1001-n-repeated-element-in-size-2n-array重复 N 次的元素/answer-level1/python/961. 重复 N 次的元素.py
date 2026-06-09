@@ -1,5 +1,5 @@
-1. 这个是看了题解, 有2N个数, N + 1不同, 有一个元素是N个重复值. 只需要找那重复的就好了
-```
+# 1. 这个是看了题解, 有2N个数, N + 1不同, 有一个元素是N个重复值. 只需要找那重复的就好了
+# ```
 class Solution(object):
     def repeatedNTimes(self, A):
         """
@@ -12,11 +12,11 @@ class Solution(object):
                 return i
             else:
                 a.add(i)
-```
+# ```
 
 
-2. dictionary 先统计再找值, 也不好
-```
+# 2. dictionary 先统计再找值, 也不好
+# ```
 class Solution(object):
     def repeatedNTimes(self, A):
         dictionary = {}
@@ -30,10 +30,10 @@ class Solution(object):
         for key, value in dictionary.items():
             if value == N:
                 return key
-```
+# ```
 
-3. 开始方向错了, 用了比较蠢的方式, 超时
-```
+# 3. 开始方向错了, 用了比较蠢的方式, 超时
+# ```
 class Solution(object):
     def repeatedNTimes(self, A):
         """
@@ -46,4 +46,4 @@ class Solution(object):
         for i in set_A:
             if A.count(i) == N:
                 return i
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-将链表中的值转成字符串，然后转成int类型，然后直接相加
-将得到的结果转成字符串，然后用字符串里面的值创建链表
+# ### 解题思路
+# 将链表中的值转成字符串，然后转成int类型，然后直接相加
+# 将得到的结果转成字符串，然后用字符串里面的值创建链表
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -45,4 +45,4 @@ class Solution(object):
             pre.next = node
             pre = pre.next
         return dummy.next
-```
+# ```

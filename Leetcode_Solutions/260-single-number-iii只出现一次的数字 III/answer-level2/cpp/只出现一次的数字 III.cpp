@@ -1,9 +1,9 @@
-### 解题思路
-异或分开数组
+// ### 解题思路
+// 异或分开数组
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
@@ -35,4 +35,4 @@ public:
         return res;
     }
 };
-```
+// ```

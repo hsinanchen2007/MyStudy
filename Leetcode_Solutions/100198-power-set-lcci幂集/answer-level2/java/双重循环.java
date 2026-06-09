@@ -1,9 +1,9 @@
-### 解题思路
-每次遍历都复刻下之前的列表，然后对其操作后合并两个列表
+// ### 解题思路
+// 每次遍历都复刻下之前的列表，然后对其操作后合并两个列表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static List<List<Integer>> subsets(int... nums) {
         List<List<Integer>> res = new ArrayList<>();
@@ -25,4 +25,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

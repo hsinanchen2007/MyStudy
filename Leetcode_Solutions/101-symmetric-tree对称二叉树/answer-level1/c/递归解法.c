@@ -1,9 +1,9 @@
-### 解题思路
-把它想象成两个树，两个同时进行遍历，一个用“根节点->左节点->右节点”，一个用“根节点->右节点->左节点”的遍历顺序同时进行遍历比较
+// ### 解题思路
+// 把它想象成两个树，两个同时进行遍历，一个用“根节点->左节点->右节点”，一个用“根节点->右节点->左节点”的遍历顺序同时进行遍历比较
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -29,4 +29,4 @@ bool isSymmetric(struct TreeNode* root)
       return true;
     return search(root,root);
 }
-```
+// ```

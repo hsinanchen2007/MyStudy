@@ -1,9 +1,9 @@
-### 解题思路
-加油!!
+// ### 解题思路
+// 加油!!
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize)
@@ -26,4 +26,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize)
 	*returnSize = k;
 	return arr;
 } 
-```
+// ```

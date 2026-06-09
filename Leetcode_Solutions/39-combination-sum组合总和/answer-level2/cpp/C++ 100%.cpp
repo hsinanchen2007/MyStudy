@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 void backtrack(vector<int>& candidates,int target,vector<vector<int>>& ans,
     vector<int>& cur, int index){
@@ -24,5 +24,5 @@ vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
         return ans;
     }
 };
-```
+// ```
 

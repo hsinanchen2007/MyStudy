@@ -1,9 +1,9 @@
-### 解题思路
-这题真不难
+// ### 解题思路
+// 这题真不难
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> list = new ArrayList<>();
@@ -21,4 +21,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

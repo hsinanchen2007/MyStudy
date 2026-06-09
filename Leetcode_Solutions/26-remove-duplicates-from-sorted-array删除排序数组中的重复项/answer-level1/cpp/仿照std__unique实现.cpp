@@ -1,9 +1,9 @@
-### 解题思路
-仿照std::unique实现
+// ### 解题思路
+// 仿照std::unique实现
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return std::distance(nums.begin(), ++result);
     }
 };
-```
+// ```

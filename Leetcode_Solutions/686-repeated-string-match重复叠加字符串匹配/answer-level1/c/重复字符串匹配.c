@@ -1,11 +1,11 @@
-### 解题思路
-我们strstr需要验证的范围明确后，就比较容易了，字符串A要repeat次数的范围是： 
-最小判断范围： A * repeat  >=B
-最大判断范围： A * repeat <= A+B
-剩下的看代码就很容易了
-### 代码
+// ### 解题思路
+// 我们strstr需要验证的范围明确后，就比较容易了，字符串A要repeat次数的范围是： 
+// 最小判断范围： A * repeat  >=B
+// 最大判断范围： A * repeat <= A+B
+// 剩下的看代码就很容易了
+// ### 代码
 
-```c
+// ```c
 int repeatedStringMatch(char * A, char * B){
     int cntA = strlen(A);
     int cntB = strlen(B);
@@ -45,4 +45,4 @@ int repeatedStringMatch(char * A, char * B){
     free(strtmp);
     return ret;
 }
-```
+// ```

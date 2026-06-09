@@ -1,9 +1,9 @@
-**思路**
-首先最容易想到的是对于每一个1进行BFS,但是这样就会增加无用的遍历次数
-所以提出一个优化方案
-即不对1而对0进行多源BFS,逆向遍历相当于在1处存储信息，可以减少无用遍历次数
-具体参考代码如下
-```
+// **思路**
+// 首先最容易想到的是对于每一个1进行BFS,但是这样就会增加无用的遍历次数
+// 所以提出一个优化方案
+// 即不对1而对0进行多源BFS,逆向遍历相当于在1处存储信息，可以减少无用遍历次数
+// 具体参考代码如下
+// ```
 typedef struct
 {
     int x;
@@ -66,4 +66,4 @@ int** updateMatrix(int** matrix, int matrixSize, int* matrixColSize, int* return
     *returnColumnSizes=matrixColSize;
     return res;
 }
-```
+// ```

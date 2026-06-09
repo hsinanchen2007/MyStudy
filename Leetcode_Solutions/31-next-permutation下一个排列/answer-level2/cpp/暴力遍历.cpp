@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-暴力遍历
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 暴力遍历
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -43,4 +43,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-哈希
+// ### 解题思路
+// 哈希
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
        int[] array=new int[100000];
@@ -18,4 +18,4 @@ class Solution {
         return nums[i];
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 直接法
+# ### 直接法
 
-先把链表转成数组，再判断是否为回文链表，空间复杂度O(n)不符合要求。
+# 先把链表转成数组，再判断是否为回文链表，空间复杂度O(n)不符合要求。
 
-```
+# ```
 class Solution(object):
     def isPalindrome(self, head):
         """
@@ -19,4 +19,4 @@ class Solution(object):
         q = (len(target))//2
         
         return target[0:p]==target[q:len(target)][::-1]
-```
+# ```

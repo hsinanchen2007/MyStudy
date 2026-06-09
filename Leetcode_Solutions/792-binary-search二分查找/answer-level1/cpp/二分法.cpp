@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -16,4 +16,4 @@ public:
         return -1;//不存在待查元素
     }
 };
-```
+// ```

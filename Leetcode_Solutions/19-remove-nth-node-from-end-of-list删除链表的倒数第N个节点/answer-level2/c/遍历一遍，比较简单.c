@@ -1,6 +1,6 @@
 
-![image.png](https://pic.leetcode-cn.com/d7880cd8376f7caa4d121e787014737ece8c0d92f8678fc6c2010c231f977d9a-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/d7880cd8376f7caa4d121e787014737ece8c0d92f8678fc6c2010c231f977d9a-image.png)
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,5 +33,5 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     free(tmp);
     return head;
 }
-```
+// ```
 

@@ -1,6 +1,6 @@
-- 获取链表长度，并根据除法和模运算的结果，将链表划分，获取每个元素的链表长度
-- 注意，当链表为空时的特殊处理。
-```
+// - 获取链表长度，并根据除法和模运算的结果，将链表划分，获取每个元素的链表长度
+// - 注意，当链表为空时的特殊处理。
+// ```
 int getListLenth(struct ListNode* lst){
     struct ListNode* tmp = lst;
     int len = 0;
@@ -71,4 +71,4 @@ struct ListNode** splitListToParts(struct ListNode* root, int k, int* returnSize
     *returnSize = k;
     return returnListNode;
 }
-```
+// ```

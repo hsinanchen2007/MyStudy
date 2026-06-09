@@ -1,4 +1,4 @@
-```
+// ```
 char buf[2000][200];
 char * findReplaceString(char * S, int* indexes, int indexesSize, char ** sources, int sourcesSize, char ** targets, int targetsSize)
 {
@@ -26,4 +26,4 @@ char * findReplaceString(char * S, int* indexes, int indexesSize, char ** source
     }
     return res;
 }
-```
+// ```

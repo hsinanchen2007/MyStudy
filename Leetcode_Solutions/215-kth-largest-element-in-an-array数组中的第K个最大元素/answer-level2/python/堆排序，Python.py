@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findKthLargest(self, nums, k):
         """
@@ -29,5 +29,5 @@ class Solution(object):
             else:
                 break
         li[i] = temp
-```
-没有借助库函数
+# ```
+# 没有借助库函数

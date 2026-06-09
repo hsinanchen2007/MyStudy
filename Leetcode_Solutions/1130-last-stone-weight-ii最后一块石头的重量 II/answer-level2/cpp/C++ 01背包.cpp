@@ -1,6 +1,6 @@
-等价于最大化半个背包的重量
-代码如下：
-```
+// 等价于最大化半个背包的重量
+// 代码如下：
+// ```
 class Solution {
 public:
     int lastStoneWeightII(vector<int>& stones) {
@@ -35,5 +35,5 @@ public:
         return sum - 2 * dp[S];
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/837e7550f42e0884763fc6818c54d54178e090be890e51d103d15bd4b73a935e-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/837e7550f42e0884763fc6818c54d54178e090be890e51d103d15bd4b73a935e-image.png)

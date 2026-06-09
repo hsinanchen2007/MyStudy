@@ -1,4 +1,4 @@
-```
+// ```
 
 
 bool isOP(char c)
@@ -71,4 +71,4 @@ bool parseBoolExpr(char *expression){
     return 1;
 }
 
-```
+// ```

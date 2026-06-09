@@ -1,9 +1,9 @@
-### 解题思路
-加个有效数字
+-- ### 解题思路
+-- 加个有效数字
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -21,4 +21,4 @@ where TIV_2015 in (
     having count(*)=1
 )
 
-```
+-- ```

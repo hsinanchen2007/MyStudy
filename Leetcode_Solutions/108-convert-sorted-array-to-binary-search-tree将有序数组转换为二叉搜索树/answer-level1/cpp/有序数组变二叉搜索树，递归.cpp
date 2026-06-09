@@ -1,9 +1,9 @@
-### 解题思路
-取有序数组中间元素建立根结点，左侧元素递归建立左子树，右侧元素递归建立右子树
+// ### 解题思路
+// 取有序数组中间元素建立根结点，左侧元素递归建立左子树，右侧元素递归建立右子树
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ TreeNode* create_tree(vector<int>& nums, int left, int right)
     return r;
 }
 };
-```
+// ```

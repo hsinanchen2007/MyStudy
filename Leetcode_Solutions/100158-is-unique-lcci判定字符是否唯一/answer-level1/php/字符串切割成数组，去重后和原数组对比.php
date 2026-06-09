@@ -1,11 +1,11 @@
-### 解题思路
-1. 字符串切割成数组`str_split`
-2. 数组做去重处理`array_unique`
-3. 比较去重前后的数组是否相等
+// ### 解题思路
+// 1. 字符串切割成数组`str_split`
+// 2. 数组做去重处理`array_unique`
+// 3. 比较去重前后的数组是否相等
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -21,4 +21,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

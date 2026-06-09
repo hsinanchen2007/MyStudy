@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public ListNode reverseList(ListNode head) {
         ListNode newhead=null;
@@ -11,4 +11,4 @@ class Solution {
         return newhead;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-maxS 表示当前最右方亮着的灯， curMinBlue 表示从最左边开始连续亮着的灯的最右边一个，
-新打开一盏灯后，检查是否全蓝只用从 curMinBlue 到 maxS 就可以了,curMinBlue之前的都是开着的
+# maxS 表示当前最右方亮着的灯， curMinBlue 表示从最左边开始连续亮着的灯的最右边一个，
+# 新打开一盏灯后，检查是否全蓝只用从 curMinBlue 到 maxS 就可以了,curMinBlue之前的都是开着的
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numTimesAllBlue(self, light: List[int]) -> int:
         ret = 0
@@ -26,4 +26,4 @@ class Solution:
                 if v > curMinBlue:
                     curMinBlue = v
         return ret
-```
+# ```

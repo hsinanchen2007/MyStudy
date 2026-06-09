@@ -1,20 +1,20 @@
-## 思路:
+# ## 思路:
 
-动态规划:
+# 动态规划:
 
-自顶向下:
+# 自顶向下:
 
-参照[139. 单词拆分](https://leetcode-cn.com/problems/word-break/) | [题解链接](https://leetcode-cn.com/problems/word-break/solution/dong-tai-gui-hua-zi-ding-xiang-xia-he-zi-di-xiang-)
+# 参照[139. 单词拆分](https://leetcode-cn.com/problems/word-break/) | [题解链接](https://leetcode-cn.com/problems/word-break/solution/dong-tai-gui-hua-zi-ding-xiang-xia-he-zi-di-xiang-)
 
 
 
-相关题型:[139. 单词拆分](https://leetcode-cn.com/problems/word-break/)
+# 相关题型:[139. 单词拆分](https://leetcode-cn.com/problems/word-break/)
 
-## 代码:
+# ## 代码:
 
-思路一:
+# 思路一:
 
-```python []
+# ```python []
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> List[str]:
         import functools
@@ -36,10 +36,10 @@ class Solution:
                             res.append(s[:i+1] + " " + t)
             return res    
         return helper(s)
-```
+# ```
 
 
-```java []
+# ```java []
 class Solution {
     public List<String> wordBreak(String s, List<String> wordDict) {
         int max_len = 0;
@@ -64,5 +64,5 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 

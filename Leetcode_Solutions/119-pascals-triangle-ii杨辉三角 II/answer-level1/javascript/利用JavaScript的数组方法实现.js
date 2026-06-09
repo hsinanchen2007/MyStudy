@@ -1,5 +1,5 @@
-逐层计算中间的值，手动补齐两侧的1
-```
+// 逐层计算中间的值，手动补齐两侧的1
+// ```
 var getRow = function(rowIndex) {
     if(rowIndex == 0) return [1]
     let arr = [1,1],result = [],index = 1;
@@ -16,4 +16,4 @@ var getRow = function(rowIndex) {
     }
     return arr
 };
-```
+// ```

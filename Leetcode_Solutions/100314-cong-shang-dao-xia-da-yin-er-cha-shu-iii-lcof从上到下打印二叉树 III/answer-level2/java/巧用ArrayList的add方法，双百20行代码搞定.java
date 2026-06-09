@@ -1,9 +1,9 @@
-### 解题思路
-利用ArrayList的add(element))和add(index,element)轻松搞定
+// ### 解题思路
+// 利用ArrayList的add(element))和add(index,element)轻松搞定
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -38,4 +38,4 @@ class Solution {
         addLevel2List(depth+1,node.right);
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
 
-![image.png](https://pic.leetcode-cn.com/f96e50a939f5adc7fa3478f9fce8d1be69088bf0271b4b18472ba0a36e6a430b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f96e50a939f5adc7fa3478f9fce8d1be69088bf0271b4b18472ba0a36e6a430b-image.png)
 
-### 解题思路
-遍历bank，统计遍历到的序列与当前序列(start)不同基因的数量，当数量为1时， 进入下一层。
+// ### 解题思路
+// 遍历bank，统计遍历到的序列与当前序列(start)不同基因的数量，当数量为1时， 进入下一层。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minMutation(string start, string end, vector<string>& bank) {
@@ -38,4 +38,4 @@ private:
     
 
 };
-```
+// ```

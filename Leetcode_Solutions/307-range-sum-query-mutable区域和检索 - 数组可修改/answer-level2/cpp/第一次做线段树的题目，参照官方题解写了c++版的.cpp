@@ -1,9 +1,9 @@
-### 解题思路
-如题
+// ### 解题思路
+// 如题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class NumArray {
 public:
     NumArray(vector<int>& nums)
@@ -80,4 +80,4 @@ private:
  * obj->update(i,val);
  * int param_2 = obj->sumRange(i,j);
  */
-```
+// ```

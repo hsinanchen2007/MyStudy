@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int fib(int N) {
@@ -12,4 +12,4 @@ public:
         return b;
     }
 };
-```
+// ```

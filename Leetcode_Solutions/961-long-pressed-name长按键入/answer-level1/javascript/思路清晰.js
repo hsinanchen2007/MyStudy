@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码吧
+// ### 解题思路
+// 直接看代码吧
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var isLongPressedName = function(name, typed) {
     let i = 0, j = 0, len = typed.length, n = name.length;
 
@@ -32,4 +32,4 @@ var isLongPressedName = function(name, typed) {
     }
     return true;
 };
-```
+// ```

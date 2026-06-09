@@ -1,11 +1,11 @@
-### 解题思路
-1.数组之和必须为3的倍数
-2.每小段元素之和必须相等
-3.必须能拆成3部分
+// ### 解题思路
+// 1.数组之和必须为3的倍数
+// 2.每小段元素之和必须相等
+// 3.必须能拆成3部分
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 public boolean canThreePartsEqualSum(int[] A) {
 
@@ -71,4 +71,4 @@ public boolean canThreePartsEqualSum(int[] A) {
     }
 
 }
-```
+// ```

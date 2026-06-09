@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度基本上没优化，空间复杂度还行，编程时设置边界条件太多出了很多差错
+// ### 解题思路
+// 时间复杂度基本上没优化，空间复杂度还行，编程时设置边界条件太多出了很多差错
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //插入排序
 void insertSort(int * arr, int size){
     int i,j;
@@ -63,4 +63,4 @@ int leastInterval(char* tasks, int tasksSize, int n){
      
     return timeCost;
 }
-```
+// ```

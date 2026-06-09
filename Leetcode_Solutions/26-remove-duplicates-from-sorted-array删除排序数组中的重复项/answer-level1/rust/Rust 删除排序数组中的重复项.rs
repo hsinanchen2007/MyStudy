@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
     pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
         let mut index: usize = 0;
@@ -14,4 +14,4 @@ impl Solution {
         return (index + 1) as i32;
     }
 }
-```
+// ```

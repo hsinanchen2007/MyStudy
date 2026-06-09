@@ -1,9 +1,9 @@
-### 解题思路
-4 ms, 在所有 C++ 提交中击败了79.48%的用户
-双指针实现
-### 代码
+// ### 解题思路
+// 4 ms, 在所有 C++ 提交中击败了79.48%的用户
+// 双指针实现
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -31,4 +31,4 @@ public:
         return len + 1;
     }
 };
-```
+// ```

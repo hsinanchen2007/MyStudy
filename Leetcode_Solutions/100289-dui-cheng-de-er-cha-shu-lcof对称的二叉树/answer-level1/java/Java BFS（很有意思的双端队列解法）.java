@@ -1,6 +1,6 @@
-DFS自不必说，就是想试试BFS的写法。
-起初用Queue实现了一个（一层放到一个数组，然后头尾指针判断），后来想想既然是对称，那么Deque就是再合适不过的数据结构了，代码如下：
-```java
+// DFS自不必说，就是想试试BFS的写法。
+// 起初用Queue实现了一个（一层放到一个数组，然后头尾指针判断），后来想想既然是对称，那么Deque就是再合适不过的数据结构了，代码如下：
+// ```java
 class Solution {
     public boolean isSymmetric(TreeNode root) {
         if (root == null || root.left == root.right) return true;
@@ -21,4 +21,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

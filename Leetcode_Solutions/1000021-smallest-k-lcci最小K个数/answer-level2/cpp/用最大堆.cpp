@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-最大堆 取堆顶的最小值
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 最大堆 取堆顶的最小值
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> smallestK(vector<int>& arr, int k) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

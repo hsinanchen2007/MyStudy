@@ -1,13 +1,13 @@
-### 写在前面
-方法一：可以直接调用java.lang.String包自带的函数方法replace(CharSequence target, CharSequence replacement)
+// ### 写在前面
+// 方法一：可以直接调用java.lang.String包自带的函数方法replace(CharSequence target, CharSequence replacement)
 
-方法二：创建一个StringBuilder对象通过遍历字符串将字符串的字符拼接起来，遇到空格着拼接“%20”即可
+// 方法二：创建一个StringBuilder对象通过遍历字符串将字符串的字符拼接起来，遇到空格着拼接“%20”即可
 
-提示：这两种方法对内存的消耗几乎一样
+// 提示：这两种方法对内存的消耗几乎一样
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
 	// 方法一：
@@ -29,6 +29,6 @@ class Solution {
 		return sb.toString();
     }
 }
-```
+// ```
 
 

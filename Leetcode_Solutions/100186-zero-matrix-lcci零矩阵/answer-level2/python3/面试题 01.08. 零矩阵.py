@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-动态类型语言有优势。
+# 动态类型语言有优势。
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         m, n = len(matrix), len(matrix[0])
@@ -19,4 +19,4 @@ class Solution:
         for i, j in itertools.product(range(m), range(n)):
             if matrix[i][j] is None:
                 matrix[i][j] = 0
-```
+# ```

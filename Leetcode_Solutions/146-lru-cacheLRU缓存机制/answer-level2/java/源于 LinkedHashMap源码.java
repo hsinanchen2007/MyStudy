@@ -1,16 +1,16 @@
-相信如果有认真看过 ***LinkedHashMap*** 源码的小伙伴，一定会很快的跟官方题解写的一模一样！
-## 简单介绍LinkedHashMap（跟题目有关的知识点）
-HashMap 大家都清楚，底层是 数组 + 红黑树 + 链表 （不清楚也没有关系），同时其是无序的，而 LinkedHashMap 刚好就比 HashMap 多这一个功能，就是其提供 **有序**，并且，LinkedHashMap的有序可以按两种顺序排列，一种是按照插入的顺序，一种是按照**读取**的顺序（这个题目的示例就是告诉我们要按照读取的顺序进行排序），而其内部是靠 **建立一个双向链表** 来维护这个顺序的，在每次插入、删除后，都会调用一个函数来进行 **双向链表的维护** ，准确的来说，是有三个函数来做这件事，这三个函数都统称为 **回调函数** ，这三个函数分别是：
-* **void afterNodeAccess(Node<K,V> p) { }**
-  其作用就是在访问元素之后，将该元素放到双向链表的尾巴处(所以这个函数只有在按照读取的顺序的时候才会执行)，之所以提这个，是建议大家去看看，如何优美的实现在双向链表中将指定元素放入链尾！
-* **void afterNodeRemoval(Node<K,V> p) { }**
-  其作用就是在删除元素之后，将元素从双向链表中删除，还是非常建议大家去看看这个函数的，很优美的方式在双向链表中删除节点！
-* **void afterNodeInsertion(boolean evict) { }**
-  这个才是我们题目中会用到的，在插入新元素之后，需要回调函数判断是否需要移除一直不用的某些元素！
+// 相信如果有认真看过 ***LinkedHashMap*** 源码的小伙伴，一定会很快的跟官方题解写的一模一样！
+// ## 简单介绍LinkedHashMap（跟题目有关的知识点）
+// HashMap 大家都清楚，底层是 数组 + 红黑树 + 链表 （不清楚也没有关系），同时其是无序的，而 LinkedHashMap 刚好就比 HashMap 多这一个功能，就是其提供 **有序**，并且，LinkedHashMap的有序可以按两种顺序排列，一种是按照插入的顺序，一种是按照**读取**的顺序（这个题目的示例就是告诉我们要按照读取的顺序进行排序），而其内部是靠 **建立一个双向链表** 来维护这个顺序的，在每次插入、删除后，都会调用一个函数来进行 **双向链表的维护** ，准确的来说，是有三个函数来做这件事，这三个函数都统称为 **回调函数** ，这三个函数分别是：
+// * **void afterNodeAccess(Node<K,V> p) { }**
+//   其作用就是在访问元素之后，将该元素放到双向链表的尾巴处(所以这个函数只有在按照读取的顺序的时候才会执行)，之所以提这个，是建议大家去看看，如何优美的实现在双向链表中将指定元素放入链尾！
+// * **void afterNodeRemoval(Node<K,V> p) { }**
+//   其作用就是在删除元素之后，将元素从双向链表中删除，还是非常建议大家去看看这个函数的，很优美的方式在双向链表中删除节点！
+// * **void afterNodeInsertion(boolean evict) { }**
+//   这个才是我们题目中会用到的，在插入新元素之后，需要回调函数判断是否需要移除一直不用的某些元素！
 
-其次，我再介绍一下 LinkedHashMap 的构造函数！
-其主要是两个构造方法，一个是继承 HashMap ，一个是可以选择 accessOrder 的值(默认 false，代表按照插入顺序排序)来确定是按插入顺序还是读取顺序排序。
-```java
+// 其次，我再介绍一下 LinkedHashMap 的构造函数！
+// 其主要是两个构造方法，一个是继承 HashMap ，一个是可以选择 accessOrder 的值(默认 false，代表按照插入顺序排序)来确定是按插入顺序还是读取顺序排序。
+// ```java
 
 /**
  * //调用父类HashMap的构造方法。
@@ -27,10 +27,10 @@ public LinkedHashMap(int initialCapacity, float loadFactor, boolean accessOrder)
     super(initialCapacity, loadFactor);
     this.accessOrder = accessOrder;
 }
-```
-## 思路 & 代码
-下面是我自己在分析 LinkedHashMap 源码时做的一些笔记，应该是比较清楚的，主体意思就是我们要继承 LinkedHashMap，然后复写 removeEldestEntry()函数，就能拥有我们自己的缓存策略！
-```java
+// ```
+// ## 思路 & 代码
+// 下面是我自己在分析 LinkedHashMap 源码时做的一些笔记，应该是比较清楚的，主体意思就是我们要继承 LinkedHashMap，然后复写 removeEldestEntry()函数，就能拥有我们自己的缓存策略！
+// ```java
 // 在插入一个新元素之后，如果是按插入顺序排序，即调用newNode()中的linkNodeLast()完成
 // 如果是按照读取顺序排序，即调用afterNodeAccess()完成
 // 那么这个方法是干嘛的呢，这个就是著名的 LRU 算法啦
@@ -58,28 +58,28 @@ void afterNodeInsertion(boolean evict) { // possibly remove eldest
 protected boolean removeEldestEntry(Map.Entry<K,V> eldest) {
     return false;
 }
-```
+// ```
 
-通过上述代码，我们就已经知道了只要复写 removeEldestEntry() 即可，而条件就是 map 的大小不超过 给定的容量，超过了就得使用 LRU 了！然后根据题目给定的语句构造和调用：
-```java
+// 通过上述代码，我们就已经知道了只要复写 removeEldestEntry() 即可，而条件就是 map 的大小不超过 给定的容量，超过了就得使用 LRU 了！然后根据题目给定的语句构造和调用：
+// ```java
 /**
  * LRUCache 对象会以如下语句构造和调用:
  * LRUCache obj = new LRUCache(capacity);
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
-很明显我们只需要直接继承父类的put函数即可，因为题目没有特殊要求，故可以不写！至于 get() 函数，题目是有要求的！
+// ```
+// 很明显我们只需要直接继承父类的put函数即可，因为题目没有特殊要求，故可以不写！至于 get() 函数，题目是有要求的！
 
-> 获取数据 get(key) - 如果密钥 (key) 存在于缓存中，则获取密钥的值（总是正数），否则返回 -1。
+// > 获取数据 get(key) - 如果密钥 (key) 存在于缓存中，则获取密钥的值（总是正数），否则返回 -1。
 
-所以我们可以调用 LinkedHashMap 中的 getOrDefault()，完美符合这个要求，即当key不存在时会返回默认值 -1。
+// 所以我们可以调用 LinkedHashMap 中的 getOrDefault()，完美符合这个要求，即当key不存在时会返回默认值 -1。
 
-至此，我们就基本完成了本题的要求，只要写一个构造函数即可，答案的 ``super(capacity, 0.75F, true);``，没看过源码的小伙伴可能不太清楚这个构造函数，这就是我上文讲的 LinkedHashMap 中的常用的第二个构造方法，具体大家可以看我上面代码的注释！
+// 至此，我们就基本完成了本题的要求，只要写一个构造函数即可，答案的 ``super(capacity, 0.75F, true);``，没看过源码的小伙伴可能不太清楚这个构造函数，这就是我上文讲的 LinkedHashMap 中的常用的第二个构造方法，具体大家可以看我上面代码的注释！
 
-至此，大功告成！
+// 至此，大功告成！
 
-```java
+// ```java
 class LRUCache extends LinkedHashMap<Integer, Integer>{
     private int capacity;
     
@@ -103,11 +103,11 @@ class LRUCache extends LinkedHashMap<Integer, Integer>{
     }
 }
 
-```
+// ```
 
 
-最后，附上我最开始讲的那两个函数的源码以及部分自己的解析
-```java
+// 最后，附上我最开始讲的那两个函数的源码以及部分自己的解析
+// ```java
 //标准的如何在双向链表中将指定元素放入队尾
 // LinkedHashMap 中覆写
 //访问元素之后的回调方法
@@ -161,8 +161,8 @@ void afterNodeAccess(Node<K,V> e) { // move node to last
         ++modCount;
     }
 }
-```
-```java
+// ```
+// ```java
 void afterNodeRemoval(Node<K,V> e) { // 优美的一笔，学习一波如何在双向链表中删除节点
     LinkedHashMap.Entry<K,V> p =
         (LinkedHashMap.Entry<K,V>)e, b = p.before, a = p.after;
@@ -179,6 +179,6 @@ void afterNodeRemoval(Node<K,V> e) { // 优美的一笔，学习一波如何在�
     else
         a.before = b;
 }
-```
+// ```
 
-希望对大家有所帮助~ 也希望武汉疫情赶紧结束，大家 2020 新年快乐，刷题愉快！！！
+// 希望对大家有所帮助~ 也希望武汉疫情赶紧结束，大家 2020 新年快乐，刷题愉快！！！

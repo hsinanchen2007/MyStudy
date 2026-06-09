@@ -1,4 +1,4 @@
-```
+// ```
 var isPalindrome = function(x){
     if(x<0) return false;
     var reverse = function(x) {
@@ -15,4 +15,4 @@ var isPalindrome = function(x){
         return true
     }
 }
-```
+// ```

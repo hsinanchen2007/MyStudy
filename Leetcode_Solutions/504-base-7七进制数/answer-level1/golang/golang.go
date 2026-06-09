@@ -1,4 +1,4 @@
-```
+// ```
 func convertToBase7(num int) string {
 	var result bytes.Buffer
 	if num < 0 {
@@ -20,4 +20,4 @@ func convertToBase7(num int) string {
 	}
 	return result.String()
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-大概就是反转链表，不过每次k个节点，注意节点的断开和重连就好了
+// ### 解题思路
+// 大概就是反转链表，不过每次k个节点，注意节点的断开和重连就好了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -67,4 +67,4 @@ public:
       return fakeHead->next;
     }
 };
-```
+// ```

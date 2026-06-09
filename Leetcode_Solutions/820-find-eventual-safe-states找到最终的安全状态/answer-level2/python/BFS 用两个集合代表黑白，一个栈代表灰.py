@@ -1,10 +1,10 @@
-判断是否有环，如果有环，则前趋节点都记为不合法的点；
-同样的，如果碰到有后继是不合法的，也将其，及其前缀放入不合法的点中；
-如果碰到无后继节点，则将其加入black中。
+# 判断是否有环，如果有环，则前趋节点都记为不合法的点；
+# 同样的，如果碰到有后继是不合法的，也将其，及其前缀放入不合法的点中；
+# 如果碰到无后继节点，则将其加入black中。
 
-最后输出black和white的并集即可
+# 最后输出black和white的并集即可
 
-```python
+# ```python
 class Solution(object):
     def eventualSafeNodes(self, graph):
         # 初始化
@@ -51,4 +51,4 @@ class Solution(object):
         black = list(black)
         black.sort()
         return black
-```
+# ```

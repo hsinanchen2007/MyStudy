@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -107,4 +107,4 @@ while(flag)
 *returnSize = count;
 return retMat;
 }
-```
+// ```

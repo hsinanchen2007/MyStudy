@@ -1,9 +1,9 @@
-### 解题思路
-使用unordered_map存储数字出现的次数，在遍历nums数组的过程中记录下最大值p，对于0,1,2,...,p，若数字i出现次数为0则返回i,若0-p都出现过，则返回p+1
+// ### 解题思路
+// 使用unordered_map存储数字出现的次数，在遍历nums数组的过程中记录下最大值p，对于0,1,2,...,p，若数字i出现次数为0则返回i,若0-p都出现过，则返回p+1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int missingNumber(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return p+1;
     }
 };
-```
+// ```

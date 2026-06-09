@@ -1,15 +1,15 @@
-### 解题思路
-应该还可以优化
+// ### 解题思路
+// 应该还可以优化
 
-每个方向都有特定的三条路可以走
-![image.png](https://pic.leetcode-cn.com/4e4852c6fc242ad9f3c2d74ab06b1ec5e0d2b0aea8774b5d1ec386e98c4011f5-image.png)
-![image.png](https://pic.leetcode-cn.com/b14073d9719e9bb3eaad4de9736ceb8eb6595222ca2af49a5b46c4317c9609d2-image.png)
-![image.png](https://pic.leetcode-cn.com/5185f6b251a268e3d6ca2bfd5368d516a4308bef2016085dc625d3d4b270c01c-image.png)
-![image.png](https://pic.leetcode-cn.com/2a1c3a5d9fb9bd184710a5586d83b21decf2911555125371461b51442baae457-image.png)
+// 每个方向都有特定的三条路可以走
+// ![image.png](https://pic.leetcode-cn.com/4e4852c6fc242ad9f3c2d74ab06b1ec5e0d2b0aea8774b5d1ec386e98c4011f5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b14073d9719e9bb3eaad4de9736ceb8eb6595222ca2af49a5b46c4317c9609d2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5185f6b251a268e3d6ca2bfd5368d516a4308bef2016085dc625d3d4b270c01c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2a1c3a5d9fb9bd184710a5586d83b21decf2911555125371461b51442baae457-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasValidPath(int[][] grid) {
         int m = grid.length;
@@ -60,4 +60,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

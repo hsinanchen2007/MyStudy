@@ -1,9 +1,9 @@
-### 解题思路
-暴力解
+// ### 解题思路
+// 暴力解
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isUgly(int num) {
@@ -34,4 +34,4 @@ public:
         }
     }
 };
-```
+// ```

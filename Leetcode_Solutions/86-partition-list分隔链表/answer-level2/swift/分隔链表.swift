@@ -1,4 +1,4 @@
-```swift []
+// ```swift []
 class Solution {
 func partition(_ head: ListNode?, _ x: Int) -> ListNode? {
         var beforeHead: ListNode?
@@ -47,10 +47,10 @@ func partition(_ head: ListNode?, _ x: Int) -> ListNode? {
     }
         
 }
-```
-```python []
+// ```
+// ```python []
 print('Hello world!')
-```
-```ruby []
+// ```
+// ```ruby []
 puts 'Hello world!'
-```
+// ```

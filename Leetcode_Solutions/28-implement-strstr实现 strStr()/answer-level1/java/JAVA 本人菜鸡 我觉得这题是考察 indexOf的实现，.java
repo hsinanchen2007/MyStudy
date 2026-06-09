@@ -1,9 +1,9 @@
-### 解题思路
-后续 把 kmp，sunday， bm 等算法学下再写
+// ### 解题思路
+// 后续 把 kmp，sunday， bm 等算法学下再写
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
         return myIndexOf(haystack, needle);
@@ -34,4 +34,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-   想了半天没想出来，把大神[@sun-man-man](/u/sun-man-man/)的代码看明白之后自己敲了一遍，放出来大家共同学习~~
-   每个方格grid[x][y]均有入口和出口，可以根据入口和出口的方向对各个grid[x][y]进行分类，然后对入口前面的方格和出口后面的方格判断其能否形成通路。
+#    想了半天没想出来，把大神[@sun-man-man](/u/sun-man-man/)的代码看明白之后自己敲了一遍，放出来大家共同学习~~
+#    每个方格grid[x][y]均有入口和出口，可以根据入口和出口的方向对各个grid[x][y]进行分类，然后对入口前面的方格和出口后面的方格判断其能否形成通路。
 
-```
+# ```
 import collections
 class Solution:
     def hasValidPath(self, grid: List[List[int]]) -> bool:
@@ -39,4 +39,4 @@ class Solution:
 
 
 
-```
+# ```

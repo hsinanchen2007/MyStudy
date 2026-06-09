@@ -1,9 +1,9 @@
-### 解题思路
-只是为了熟悉HashMap用法，自己在项目中没用过HashMap，这个解法不仅暴力，而且耗时耗空间，但是对程序员感觉友好，，，，不烧脑。。。。。。
+// ### 解题思路
+// 只是为了熟悉HashMap用法，自己在项目中没用过HashMap，这个解法不仅暴力，而且耗时耗空间，但是对程序员感觉友好，，，，不烧脑。。。。。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         //思路：第一个想到的是用HashMap来做，因为key值不允许重复，我修改value值来统计出现次数
@@ -30,4 +30,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

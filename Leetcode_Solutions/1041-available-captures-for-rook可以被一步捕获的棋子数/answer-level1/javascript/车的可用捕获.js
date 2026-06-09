@@ -1,9 +1,9 @@
-### 解题思路
-转换成字符串进行正则匹配
+// ### 解题思路
+// 转换成字符串进行正则匹配
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {number}
@@ -22,4 +22,4 @@ var numRookCaptures = function(board) {
 
   return i;
 }
-```
+// ```

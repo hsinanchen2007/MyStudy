@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canJump(nums []int) bool {
 	length := len(nums)
 	index := make([]int, length)
@@ -26,4 +26,4 @@ func canJump(nums []int) bool {
 	return false
 }
 
-```
+// ```

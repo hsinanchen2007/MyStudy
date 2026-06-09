@@ -1,9 +1,9 @@
-### 解题思路
-简单求解，没有官方思路那么巧妙，所以情况分得比较多。时间复杂度与空间复杂度都是O（N）
+// ### 解题思路
+// 简单求解，没有官方思路那么巧妙，所以情况分得比较多。时间复杂度与空间复杂度都是O（N）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String pushDominoes(String dominoes) {
         char[] chars = dominoes.toCharArray();
@@ -42,4 +42,4 @@ class Solution {
         return new String(chars);
     }
 }
-```
+// ```

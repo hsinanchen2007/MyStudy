@@ -1,12 +1,12 @@
-[LeetCode笔记-Java版-专题篇](https://note.youdao.com/ynoteshare1/index.html?id=e3152a4cf9f16867c36adce45bc134cb&type=note)
+// [LeetCode笔记-Java版-专题篇](https://note.youdao.com/ynoteshare1/index.html?id=e3152a4cf9f16867c36adce45bc134cb&type=note)
 
-`如果觉得写得有帮助的话希望可以给点个赞或是评论，有反馈写的才感觉有动力，有什么错误希望也能够指正。`
+// `如果觉得写得有帮助的话希望可以给点个赞或是评论，有反馈写的才感觉有动力，有什么错误希望也能够指正。`
 
 
-# 回文子串之647. 回文子串 Medium [LeetCode]
-## 方法1：DP
+// # 回文子串之647. 回文子串 Medium [LeetCode]
+// ## 方法1：DP
 
-```java
+// ```java
 
 public int countSubstrings(String s) {
     if (s == null || s.length() == 0) {
@@ -40,13 +40,13 @@ private boolean[][] buildDPForCountSubstrings(String s) {
     }
     return dp;
 }
-```
+// ```
 
 
 
-## 方法2：中心扩展法
-此法运行速度快
-```java
+// ## 方法2：中心扩展法
+// 此法运行速度快
+// ```java
 /**
  * @param s
  * @return
@@ -70,6 +70,6 @@ public int countSegment(String s, int start, int end) {
     }
     return count;
 }
-```
+// ```
 
 

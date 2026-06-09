@@ -1,4 +1,4 @@
-```
+// ```
 	/**类似一趟快排*/
     public int[] sortArrayByParityII(int[] A) {
         for(int i = 0, j = 1; i<A.length&&j<A.length;) {
@@ -15,4 +15,4 @@
         }
         return A;
     }
-```
+// ```

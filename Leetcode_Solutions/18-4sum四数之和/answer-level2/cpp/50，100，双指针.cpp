@@ -1,9 +1,9 @@
-### 解题思路
-思路，双指针，只是在三数之和基础上嵌套了一层循环
+// ### 解题思路
+// 思路，双指针，只是在三数之和基础上嵌套了一层循环
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -53,4 +53,4 @@ public:
 	}
 };
 
-```
+// ```

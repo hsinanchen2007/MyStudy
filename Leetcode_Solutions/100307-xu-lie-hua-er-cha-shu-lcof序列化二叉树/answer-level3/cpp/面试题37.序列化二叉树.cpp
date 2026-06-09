@@ -1,10 +1,10 @@
-### 解题思路
-核心要点:序列化时使用deque按层遍历二叉树，注意ostringstream的使用格式，队头为null时只输出到结果和弹出，不为null时还要把左右节点加入队尾；反序列化时先读入一遍，使用vector存放节点，再遍历vector一遍，使用i和j两个标记添加节点间的指针
-执行用时 :56 ms, 在所有 C++ 提交中击败了32.74%的用户
-内存消耗 :23.3 MB, 在所有 C++ 提交中击败了100.00%的用户
-### 代码
+// ### 解题思路
+// 核心要点:序列化时使用deque按层遍历二叉树，注意ostringstream的使用格式，队头为null时只输出到结果和弹出，不为null时还要把左右节点加入队尾；反序列化时先读入一遍，使用vector存放节点，再遍历vector一遍，使用i和j两个标记添加节点间的指针
+// 执行用时 :56 ms, 在所有 C++ 提交中击败了32.74%的用户
+// 内存消耗 :23.3 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -61,4 +61,4 @@ public:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
-```
+// ```

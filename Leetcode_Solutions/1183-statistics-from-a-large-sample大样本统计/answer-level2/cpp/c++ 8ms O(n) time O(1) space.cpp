@@ -1,9 +1,9 @@
-Logic for median
+// Logic for median
 
-If total count is odd, median is the number at totalCount/2+1. If total count is even, median is average of number at totalCount/2 and totalCount/2+1.
+// If total count is odd, median is the number at totalCount/2+1. If total count is even, median is average of number at totalCount/2 and totalCount/2+1.
 
-Use currentCount to accumulate count until it reaches totalCount/2. If currentCount is greater than totalCount/2, median is that number no matter totalCount is odd or even. Tricky case is currentCount is same as totalCount/2. If totalCount is odd, median is the next number. If totalCount is even, median is average of current and next number.
-```
+// Use currentCount to accumulate count until it reaches totalCount/2. If currentCount is greater than totalCount/2, median is that number no matter totalCount is odd or even. Tricky case is currentCount is same as totalCount/2. If totalCount is odd, median is the next number. If totalCount is even, median is average of current and next number.
+// ```
     vector<double> sampleStats(vector<int>& count) {
         double MIN=-1,MAX=0,AVE,MED,MOD,acc=0;
         int maxCnt = 0, totalCnt = 0;
@@ -27,4 +27,4 @@ Use currentCount to accumulate count until it reaches totalCount/2. If currentCo
         }
         return {MIN,MAX,AVE,MED,MOD};
     }
-```
+// ```

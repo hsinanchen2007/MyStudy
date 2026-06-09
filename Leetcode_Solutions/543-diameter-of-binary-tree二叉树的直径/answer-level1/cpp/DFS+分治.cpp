@@ -1,9 +1,9 @@
-### 解题思路
-用DFS来遍历每一个节点计算其深度，分治来判断最长路径是否经过该节点。
+// ### 解题思路
+// 用DFS来遍历每一个节点计算其深度，分治来判断最长路径是否经过该节点。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -29,4 +29,4 @@ public:
         return max(L, R)+ 1;
     }
 };
-```
+// ```

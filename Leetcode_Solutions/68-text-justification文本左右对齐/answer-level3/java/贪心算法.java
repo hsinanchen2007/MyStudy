@@ -1,9 +1,9 @@
-### 解题思路
-这道题用贪心算法非常简单， 不知道是不是出题人想要的结题方案。
+// ### 解题思路
+// 这道题用贪心算法非常简单， 不知道是不是出题人想要的结题方案。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int maxWidth;
 
@@ -68,4 +68,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

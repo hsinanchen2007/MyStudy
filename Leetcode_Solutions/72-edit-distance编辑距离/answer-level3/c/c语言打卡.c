@@ -1,9 +1,9 @@
-### 解题思路
-二维动态规划，$f(i,j)$表示word1的前$i$个字符变为word2的前$j$个字符所需次数
+// ### 解题思路
+// 二维动态规划，$f(i,j)$表示word1的前$i$个字符变为word2的前$j$个字符所需次数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(a, b, c) ((a) < (b) ? ((a) < (c) ? (a) : (c)) : ((b) < (c) ? (b) : (c)))
 
 int minDistance(char * word1, char * word2){
@@ -50,4 +50,4 @@ int minDistance(char * word1, char * word2){
     free(memorize);
     return result;
 }
-```
+// ```

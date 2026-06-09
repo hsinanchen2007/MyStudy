@@ -1,10 +1,10 @@
-### 减治法C++
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/0e9d5ed3fcd47fa791c21379b2f019108274acd7e54d0d832be520d97f8e9e02-image.png)
+// ### 减治法C++
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/0e9d5ed3fcd47fa791c21379b2f019108274acd7e54d0d832be520d97f8e9e02-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -40,4 +40,4 @@ public:
             return left;
     }
 };
-```
+// ```

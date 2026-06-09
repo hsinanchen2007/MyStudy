@@ -1,6 +1,6 @@
-## 哈希表法
-**其实速度和改进版差不多，代码还更好理解**
-```cpp
+// ## 哈希表法
+// **其实速度和改进版差不多，代码还更好理解**
+// ```cpp
 class Solution {
 public:
     int arrayPairSum(vector<int>& nums) {
@@ -21,10 +21,10 @@ public:
         return ans;
     }
 };
-```
-## 改进的哈希表法
-**用参数d来传递上一个数字的影响**
-```cpp
+// ```
+// ## 改进的哈希表法
+// **用参数d来传递上一个数字的影响**
+// ```cpp
 class Solution {
 public:
     int arrayPairSum(vector<int>& nums) {
@@ -40,9 +40,9 @@ public:
         return ans;
     }
 };
-```
-## 先排序，再遍历
-```cpp
+// ```
+// ## 先排序，再遍历
+// ```cpp
 class Solution {
 public:
     //排序
@@ -55,5 +55,5 @@ public:
         return ans;
     }
 };
-```
+// ```
     

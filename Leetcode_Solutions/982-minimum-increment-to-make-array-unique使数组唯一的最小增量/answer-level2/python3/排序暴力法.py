@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minIncrementForUnique(self, A):
         A.sort()
@@ -8,4 +8,4 @@ class Solution:
                 count += A[i-1] - A[i] + 1
                 A[i] += A[i-1] - A[i] + 1
         return count
-```
+# ```

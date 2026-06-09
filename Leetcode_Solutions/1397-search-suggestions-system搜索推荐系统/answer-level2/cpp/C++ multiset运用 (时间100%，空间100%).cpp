@@ -1,10 +1,10 @@
-其实一开始本能反应是字典树，奈何我许久没做过字典树的题，有些遗忘了。后来一想不用字典树也可以做得出来，运用STL里的multiset就可以。
-为什么想到用multiset呢？
-1. 需要对字符串排序。
-2. 需要根据searchWord删除不匹配的字符串。
-3. 可能会出现重复的字符串。
-因此，我们需要一个一直排好序的，插入删除都为O(lgn)的数据结构----红黑树multiset.
-```c++
+// 其实一开始本能反应是字典树，奈何我许久没做过字典树的题，有些遗忘了。后来一想不用字典树也可以做得出来，运用STL里的multiset就可以。
+// 为什么想到用multiset呢？
+// 1. 需要对字符串排序。
+// 2. 需要根据searchWord删除不匹配的字符串。
+// 3. 可能会出现重复的字符串。
+// 因此，我们需要一个一直排好序的，插入删除都为O(lgn)的数据结构----红黑树multiset.
+// ```c++
 class Solution {
 public:
     vector<vector<string> > suggestedProducts(vector<string>& products, string searchWord) {
@@ -31,4 +31,4 @@ public:
 		return ans;
     }
 };
-```
+// ```

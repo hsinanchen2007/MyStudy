@@ -1,8 +1,8 @@
-### 解题思
+// ### 解题思
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int countLargestGroup(int n){
     int hush[37]={0};
@@ -39,4 +39,4 @@ int getit(int n){//9999
     return sum;
 
 }
-```
+// ```

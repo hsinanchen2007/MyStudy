@@ -1,9 +1,9 @@
-### 解题思路
-桶+容斥原理
+// ### 解题思路
+// 桶+容斥原理
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn first_missing_positive(mut nums: Vec<i32>) -> i32 {
         if nums.is_empty() { return 1; }
@@ -33,4 +33,4 @@ impl Solution {
         return (len + 1) as i32;
     }
 }
-```
+// ```

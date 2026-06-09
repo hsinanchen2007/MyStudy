@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct TreeNode TreeNode;
 
 bool compareOrder(TreeNode *root1, TreeNode *root2) {
@@ -30,4 +30,4 @@ bool isSymmetric(struct TreeNode* root){
 
     return returnValue;
 }
-```
+// ```

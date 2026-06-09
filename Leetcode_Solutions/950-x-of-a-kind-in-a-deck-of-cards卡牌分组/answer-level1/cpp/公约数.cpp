@@ -1,11 +1,11 @@
-### 解题思路
-1. 记录deck中所有数出现次数
-2. 求他们的公约数，大于1就是true
-![image.png](https://pic.leetcode-cn.com/ded29550f74ec4c63f0883cb46f884d2eae42925cd8a4dce175356d41c7b1fb2-image.png)
+// ### 解题思路
+// 1. 记录deck中所有数出现次数
+// 2. 求他们的公约数，大于1就是true
+// ![image.png](https://pic.leetcode-cn.com/ded29550f74ec4c63f0883cb46f884d2eae42925cd8a4dce175356d41c7b1fb2-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -37,4 +37,4 @@ public:
         return true;
     }
 };
-```
+// ```

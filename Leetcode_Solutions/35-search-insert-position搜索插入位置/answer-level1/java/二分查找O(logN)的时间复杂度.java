@@ -1,9 +1,9 @@
-### 解题思路
-二分查找，根据给定的数字进行查找，不论是否存在，都会追踪到最接近target的下标
+// ### 解题思路
+// 二分查找，根据给定的数字进行查找，不论是否存在，都会追踪到最接近target的下标
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
     int res = 0;
@@ -35,4 +35,4 @@ class Solution {
         return start;
     }
 }
-```
+// ```

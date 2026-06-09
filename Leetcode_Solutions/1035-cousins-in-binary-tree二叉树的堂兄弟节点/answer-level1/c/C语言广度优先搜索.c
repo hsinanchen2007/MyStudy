@@ -1,9 +1,9 @@
-### 解题思路
-双百，广度优先搜索，数组模拟队列，详细见注释
+// ### 解题思路
+// 双百，广度优先搜索，数组模拟队列，详细见注释
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -70,4 +70,4 @@ bool isCousins(struct TreeNode* root, int x, int y){
 
     return ret;
 }
-```
+// ```

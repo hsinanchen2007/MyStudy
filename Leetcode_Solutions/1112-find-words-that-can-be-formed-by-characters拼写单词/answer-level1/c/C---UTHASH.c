@@ -1,9 +1,9 @@
-### 解题思路
-UTHASH
+// ### 解题思路
+// UTHASH
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct MHashNode {
 	char key;
 	int lft;
@@ -71,4 +71,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
 
 	return ret;
 }
-```
+// ```

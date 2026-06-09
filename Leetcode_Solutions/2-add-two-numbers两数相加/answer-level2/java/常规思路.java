@@ -1,9 +1,9 @@
-### 解题思路
-先遍历链表得到真正的数字，因为数字太大，用BigInteger进行加和，最后把结果倒着组成链表
+// ### 解题思路
+// 先遍历链表得到真正的数字，因为数字太大，用BigInteger进行加和，最后把结果倒着组成链表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -73,4 +73,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

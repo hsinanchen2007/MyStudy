@@ -1,5 +1,5 @@
-这道题我感觉从前遍历到最后应该是大家能想到的最简单的方法了
-```
+// 这道题我感觉从前遍历到最后应该是大家能想到的最简单的方法了
+// ```
 int balancedStringSplit(string s)
 {
     int R_num = 0,L_num = 0,i = 0,ans = 0;
@@ -14,4 +14,4 @@ int balancedStringSplit(string s)
 
     return ans + 1;
 }
-```
+// ```

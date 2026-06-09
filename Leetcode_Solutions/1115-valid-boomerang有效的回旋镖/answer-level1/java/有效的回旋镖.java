@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-当两点之间的距离不等于三点的距离之和
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 当两点之间的距离不等于三点的距离之和
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isBoomerang(int[][] points) {
        double count,len,fun;
@@ -21,4 +21,4 @@ class Solution {
        return true;
     }
 }
-```
+// ```

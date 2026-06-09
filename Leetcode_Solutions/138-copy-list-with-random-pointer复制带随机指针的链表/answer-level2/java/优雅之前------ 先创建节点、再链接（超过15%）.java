@@ -1,6 +1,6 @@
-第一次遍历：将节点创建，用hashmap保存；
-第二次遍历：将节点链接起来；
-```
+// 第一次遍历：将节点创建，用hashmap保存；
+// 第二次遍历：将节点链接起来；
+// ```
     public Node copyRandomList(Node head) {
         Node ret = new Node(0,null,null);
         Node check1 = head;
@@ -34,4 +34,4 @@
         
         return ret.next;
     }
-```
+// ```

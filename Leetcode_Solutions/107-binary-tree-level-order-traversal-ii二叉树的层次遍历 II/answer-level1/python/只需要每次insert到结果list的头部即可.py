@@ -1,11 +1,11 @@
-### 解题思路
-真的太骗人了，还以为要从底部开始遍历，想想也不可能啊，肯定是从root往下遍历的；
+# ### 解题思路
+# 真的太骗人了，还以为要从底部开始遍历，想想也不可能啊，肯定是从root往下遍历的；
 
-原来考察的是list.insert每次可以往开头放置元素啊
+# 原来考察的是list.insert每次可以往开头放置元素啊
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution(object):
             result.insert(0, curr_data)
         return result
 
-```
+# ```

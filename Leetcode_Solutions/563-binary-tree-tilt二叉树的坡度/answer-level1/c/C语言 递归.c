@@ -1,9 +1,9 @@
-### 解题思路
-代码很简单 只不过效率有点低
+// ### 解题思路
+// 代码很简单 只不过效率有点低
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -22,4 +22,4 @@ int findTilt(struct TreeNode* root){
     if(!root) return 0;
     return findTilt(root->left) + findTilt(root->right) + abs(sum(root->left) - sum(root->right));
 }
-```
+// ```

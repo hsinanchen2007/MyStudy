@@ -1,6 +1,6 @@
 
 
-```
+# ```
 '''
 dp(i, j) 表示序列p[i:]第一次取数上限为j情况下的最高得分
 
@@ -41,4 +41,4 @@ class Solution:
             total[i] = total[i+1] + piles[i]
 
         return self.solve(0, 2, 1, piles, total, {})
-```
+# ```

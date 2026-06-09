@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[][]} points
  * @return {number}
@@ -39,4 +39,4 @@ var minAreaFreeRect = function(points) {
     }
     return ans === Infinity ? 0 : ans
 };
-```
+// ```

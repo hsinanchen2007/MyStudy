@@ -1,5 +1,5 @@
-观察动态规划的递推式可以发现，每个位置的计算仅仅使用到了dp[i-1][j-1], Math.min(dp[i-1][j], dp[i][j-1]) 也就是本行以及上一行的数据，再具体一些就是用到了本行的的前一个数据,以及上一行的数据
-```
+// 观察动态规划的递推式可以发现，每个位置的计算仅仅使用到了dp[i-1][j-1], Math.min(dp[i-1][j], dp[i][j-1]) 也就是本行以及上一行的数据，再具体一些就是用到了本行的的前一个数据,以及上一行的数据
+// ```
 class Solution {
     public int maximalSquare(char[][] matrix) {
         /**
@@ -29,9 +29,9 @@ class Solution {
     }
 }
 
-```
-近一步优化
-```
+// ```
+// 近一步优化
+// ```
 class Solution {
     public int maximalSquare(char[][] matrix) {
         /**
@@ -59,4 +59,4 @@ class Solution {
         return max*max;
     }
 }
-```
+// ```

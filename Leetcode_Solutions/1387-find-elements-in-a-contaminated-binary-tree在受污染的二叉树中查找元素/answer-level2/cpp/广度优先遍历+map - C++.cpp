@@ -1,7 +1,7 @@
-![4b460ab93072b595be330800cbbe90c.png](https://pic.leetcode-cn.com/8a14cb1e307fbb79ec4e62dd339d9b188dd6b109dd44795f1aa9d01826e31dee-4b460ab93072b595be330800cbbe90c.png)
+// ![4b460ab93072b595be330800cbbe90c.png](https://pic.leetcode-cn.com/8a14cb1e307fbb79ec4e62dd339d9b188dd6b109dd44795f1aa9d01826e31dee-4b460ab93072b595be330800cbbe90c.png)
 
-广度优先遍历可以直接在构造函数里完成每个节点的赋值，然后将节点的值存进map里，后续的查找就可以达到O(1)，而不需要重新遍历树。
-```c
+// 广度优先遍历可以直接在构造函数里完成每个节点的赋值，然后将节点的值存进map里，后续的查找就可以达到O(1)，而不需要重新遍历树。
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,4 +47,4 @@ public:
  * FindElements* obj = new FindElements(root);
  * bool param_1 = obj->find(target);
  */
-```
+// ```

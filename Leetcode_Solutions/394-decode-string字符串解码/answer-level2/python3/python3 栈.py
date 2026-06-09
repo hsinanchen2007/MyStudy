@@ -1,5 +1,5 @@
 
-```python
+# ```python
 class Solution:
     def decodeString(self, s: str) -> str:
         num = ''
@@ -25,4 +25,4 @@ class Solution:
 
 
 
-```
+# ```

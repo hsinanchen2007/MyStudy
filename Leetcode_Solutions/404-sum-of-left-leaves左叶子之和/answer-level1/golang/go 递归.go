@@ -1,4 +1,4 @@
-```
+// ```
 //递归解法
 func dfs(root *TreeNode, sum *int,isLeft int) {
 	if root == nil {
@@ -30,4 +30,4 @@ func sumOfLeftLeaves(root *TreeNode) int {
 	return sumOfLeftLeaves(root.Left) + sumOfLeftLeaves(root.Right)
 }
 
-```
+// ```

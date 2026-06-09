@@ -1,4 +1,4 @@
-```
+// ```
 /*
 简洁版（易理解）
 */
@@ -39,4 +39,4 @@ public:
         return left_correct && right_correct;
     }
 };
-```
+// ```

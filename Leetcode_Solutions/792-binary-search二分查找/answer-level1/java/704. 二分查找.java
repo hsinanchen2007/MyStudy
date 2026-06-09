@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         if((nums.length==1)&&(target==nums[0]))return 0;
@@ -21,4 +21,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

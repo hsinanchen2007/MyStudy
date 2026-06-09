@@ -1,8 +1,8 @@
->执行用时 :132 ms, 在所有 JavaScript 提交中击败了97.70%的用户
+// >执行用时 :132 ms, 在所有 JavaScript 提交中击败了97.70%的用户
 
-解法与三数之和思路相同，唯一不同时多一层循环，固定两位数字，用双指针寻找第三位及第四位数字。
+// 解法与三数之和思路相同，唯一不同时多一层循环，固定两位数字，用双指针寻找第三位及第四位数字。
 
-```JavaScript
+// ```JavaScript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -45,4 +45,4 @@ var fourSum = function (nums, target) {
     }
     return result;
 };
-```
+// ```

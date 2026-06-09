@@ -1,5 +1,5 @@
-递归法，深度优先遍历
-```Java
+// 递归法，深度优先遍历
+// ```Java
 class Solution {
     public boolean dfs(TreeNode root, int val){
         if(root==null) return false;
@@ -11,10 +11,10 @@ class Solution {
         return dfs(root,sum);
     }
 }
-```
+// ```
 
-迭代法
-```
+// 迭代法
+// ```
 public boolean hasPathSum(TreeNode root, int sum) {
         if(root==null) return false;
         Stack<TreeNode> st=new Stack();
@@ -33,5 +33,5 @@ public boolean hasPathSum(TreeNode root, int sum) {
         }
         return false;
     }
-```
+// ```
 

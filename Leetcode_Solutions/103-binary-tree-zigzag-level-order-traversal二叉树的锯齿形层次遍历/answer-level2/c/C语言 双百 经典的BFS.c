@@ -1,15 +1,15 @@
-### 解题思路
-设置一个队列 存储每个节点，当读取都某个节点赋值到返回值中，并让其出队列，并将子节点从尾部入队列
-利用队列先进先出保证上一层永远先对列，下一层后出队列。其中增加当前node节点和下一层的nod节点
-利用*returnSize表示当前等层数下一层入队列 nextlevelnode++  上一层出队列curtlevelnode--.curtlevelnode=0表示该层读取完毕进入下一层
-curlevelnode = nextlevelnode; // 将下一层节点数赋予当前节点数，在下次while循环时开启下一个level的遍历
-nextlevelnode = 0;
-*returnSize = *returnSize +1 ;
+// ### 解题思路
+// 设置一个队列 存储每个节点，当读取都某个节点赋值到返回值中，并让其出队列，并将子节点从尾部入队列
+// 利用队列先进先出保证上一层永远先对列，下一层后出队列。其中增加当前node节点和下一层的nod节点
+// 利用*returnSize表示当前等层数下一层入队列 nextlevelnode++  上一层出队列curtlevelnode--.curtlevelnode=0表示该层读取完毕进入下一层
+// curlevelnode = nextlevelnode; // 将下一层节点数赋予当前节点数，在下次while循环时开启下一个level的遍历
+// nextlevelnode = 0;
+// *returnSize = *returnSize +1 ;
 
-### 代码
-![20200401-165413(eSpace).png](https://pic.leetcode-cn.com/43699d85d54f992037f843b2c7332ca3dfbb9271e2b5be93a46c7cb5df4ca80c-20200401-165413\(eSpace\).png)
+// ### 代码
+// ![20200401-165413(eSpace).png](https://pic.leetcode-cn.com/43699d85d54f992037f843b2c7332ca3dfbb9271e2b5be93a46c7cb5df4ca80c-20200401-165413\(eSpace\).png)
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -105,4 +105,4 @@ int** zigzagLevelOrder(struct TreeNode* root, int* returnSize, int** returnColum
     
 
 }
-```
+// ```

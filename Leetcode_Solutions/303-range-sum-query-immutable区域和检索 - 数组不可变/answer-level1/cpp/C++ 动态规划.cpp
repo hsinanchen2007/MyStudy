@@ -1,14 +1,14 @@
-### 解题思路
-dp[i]:nums[0...i-1]的累计和（包括这两个值）
-初始值dp[0]=0;
-状态转移
-dp[i+1]=nums[i]+dp[i];
-计算sumrange如下：
-sumrange(i,j)=dp[j+1]-dp[i]
+// ### 解题思路
+// dp[i]:nums[0...i-1]的累计和（包括这两个值）
+// 初始值dp[0]=0;
+// 状态转移
+// dp[i+1]=nums[i]+dp[i];
+// 计算sumrange如下：
+// sumrange(i,j)=dp[j+1]-dp[i]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 //dp[i]:nums[0...i-1]的累计和（包括这两个值）：
 class NumArray {
 public:
@@ -26,4 +26,4 @@ public:
 		return dp[j + 1] - dp[i];
 	}
 };
-```
+// ```

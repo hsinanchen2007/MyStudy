@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def nextPermutation(self, nums):
         """
@@ -22,4 +22,4 @@ class Solution(object):
           #再排序
           #nums[1+index:]=nums[1+index:][::-1]
           nums[1+index:]=nums[-1:index:-1]
-```
+# ```

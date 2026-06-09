@@ -1,9 +1,9 @@
-### 解题思路
-还不如就直接一行语句呢！速度还快8ms
+# ### 解题思路
+# 还不如就直接一行语句呢！速度还快8ms
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def replaceSpace(self, s: str) -> str:
         # return s.replace(' ', '%20')
@@ -18,4 +18,4 @@ class Solution:
                 i += 3
         return ''.join(res[:i])
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 ListNode* deleteDuplicates(ListNode* head) {
         if(head == NULL) return NULL;
         ListNode* base = head;  //参考节点
@@ -17,4 +17,4 @@ ListNode* deleteDuplicates(ListNode* head) {
         }
         return head;
     }
-```
+// ```

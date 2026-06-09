@@ -1,16 +1,16 @@
-### 题解
+// ### 题解
 
-方法名: 滑动窗口是字符串/数组中常用概念
+// 方法名: 滑动窗口是字符串/数组中常用概念
 
-解法一: `判断字符串 s[i, j) 中是否有 s.charAt(j + 1), 如果有, 给左区间加上相应的值`, 执行时间大致为 98ms 左右。
+// 解法一: `判断字符串 s[i, j) 中是否有 s.charAt(j + 1), 如果有, 给左区间加上相应的值`, 执行时间大致为 98ms 左右。
 
-具体步骤如下:
+// 具体步骤如下:
 
-1. 取滑动列表 [left, right];
-2. 若列表 [left, right] 中的取值之和小于 s, 则列表的有边界 right 往右扩张。
-3. 若列表 [left, right] 中的取值之和大于 s, 则列表的左边界 left 往右扩张。
+// 1. 取滑动列表 [left, right];
+// 2. 若列表 [left, right] 中的取值之和小于 s, 则列表的有边界 right 往右扩张。
+// 3. 若列表 [left, right] 中的取值之和大于 s, 则列表的左边界 left 往右扩张。
 
-```js
+// ```js
 /**
  * @param {string} s
  * @return {number}
@@ -30,11 +30,11 @@ var lengthOfLongestSubstring = function(s) {
   }
   return longest
 }
-```
+// ```
 
-思考: 针对 `判断字符串 s[i, j) 中是否有 s.charAt(j + 1)` 这一句, 是否能使用 O(n) 时间复杂度的算法代替 indexOf 呢? 使用 cacheObj 来缓存值, 测试执行时间大致为 170ms 左右。
+// 思考: 针对 `判断字符串 s[i, j) 中是否有 s.charAt(j + 1)` 这一句, 是否能使用 O(n) 时间复杂度的算法代替 indexOf 呢? 使用 cacheObj 来缓存值, 测试执行时间大致为 170ms 左右。
 
-```js
+// ```js
 /**
  * @param {string} s
  * @return {number}
@@ -59,10 +59,10 @@ var lengthOfLongestSubstring = function(s) {
   }
   return result
 }
-```
+// ```
 
-### 相似题目
+// ### 相似题目
 
-76、209、438
+// 76、209、438
 
-> [leetcode JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)
+// > [leetcode JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/BasicSkill/LeetCode/README.md)

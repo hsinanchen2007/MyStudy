@@ -1,11 +1,11 @@
-### 解题思路
-当确定一个 最低Effect时， 最大performance 是 k-1个最大Speed 
-可以用heap 压入k-1个
-每次下一个数字时，剔除掉当前小于  最小Effect的元素
+// ### 解题思路
+// 当确定一个 最低Effect时， 最大performance 是 k-1个最大Speed 
+// 可以用heap 压入k-1个
+// 每次下一个数字时，剔除掉当前小于  最小Effect的元素
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, System.Int64, System.Int64, int>;
 
 public class Heap<T> {
@@ -225,4 +225,4 @@ public class Solution {
         return ma.MaxPerformance(n, speed, efficiency, k);
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-暴力法运行超时
-```
+// 暴力法运行超时
+// ```
 class Solution {
     public String longestPalindrome(String s) {
         int length = s.length();
@@ -30,9 +30,9 @@ class Solution {
 
     
 }
-```
-中心扩展算法一是要理解拓展算法什么意思，就是以一个字母(s,i,i)或者两个相同(s,i,i+1)为中心点，向两边扩展查看是否对称。
-```
+// ```
+// 中心扩展算法一是要理解拓展算法什么意思，就是以一个字母(s,i,i)或者两个相同(s,i,i+1)为中心点，向两边扩展查看是否对称。
+// ```
 class Solution {
     public String longestPalindrome(String s) {
         if(s==null || s.equals("")){
@@ -64,5 +64,5 @@ class Solution {
         return r-l-1;
     }
 }
-```
-时复O（n^2）里外两层循环。空复O（1）
+// ```
+// 时复O（n^2）里外两层循环。空复O（1）

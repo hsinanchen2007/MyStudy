@@ -1,9 +1,9 @@
-### 解题思路
-省去了判断是否是同一个对象的步骤, 因为在表中寻找时, 当先数字还没有put到表中.
+// ### 解题思路
+// 省去了判断是否是同一个对象的步骤, 因为在表中寻找时, 当先数字还没有put到表中.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public int[] twoSum(int[] nums, int target){
         Map<Integer,Integer> map=new HashMap<>();
@@ -18,4 +18,4 @@ class Solution {
     }
     
 }
-```
+// ```

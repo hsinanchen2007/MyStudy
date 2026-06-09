@@ -1,10 +1,10 @@
-### 解题思路
-使用两个队列，q1存放添加的元素，由于是先进先出，所以在pop的时候，将q1队列中前n-1个元素放入q2，将最后一个元素弹出。
-完成之后q1和q2互换身份。
+// ### 解题思路
+// 使用两个队列，q1存放添加的元素，由于是先进先出，所以在pop的时候，将q1队列中前n-1个元素放入q2，将最后一个元素弹出。
+// 完成之后q1和q2互换身份。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
  Queue<Integer> q1 = new LinkedList();
     Queue<Integer> q2 = new LinkedList();
@@ -54,4 +54,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

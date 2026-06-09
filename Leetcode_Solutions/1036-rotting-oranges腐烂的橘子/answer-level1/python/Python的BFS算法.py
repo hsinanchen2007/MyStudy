@@ -1,10 +1,10 @@
-### 解题思路
-注意yield函数相当于一个一次生成一个的生成器，可以记录上次执行的位置，可以用for循环遍历
-如果用return的话需一次返回整个列表
+# ### 解题思路
+# 注意yield函数相当于一个一次生成一个的生成器，可以记录上次执行的位置，可以用for循环遍历
+# 如果用return的话需一次返回整个列表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         row_len=len(grid)
@@ -32,4 +32,4 @@ class Solution:
 
             
 
-```
+# ```

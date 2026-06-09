@@ -1,7 +1,7 @@
 
-迭代法中序遍历，使用count（统计当前节点出现次数） maxCount(出现最大次数)   preVal(上一个众数) 去记录
+// 迭代法中序遍历，使用count（统计当前节点出现次数） maxCount(出现最大次数)   preVal(上一个众数) 去记录
 
-```swift []
+// ```swift []
 class Solution {
      func findMode(_ root: TreeNode?) -> [Int] {
         
@@ -62,4 +62,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

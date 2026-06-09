@@ -1,11 +1,11 @@
-### 解题思路
-采用动态规划的思想，用dp[i]表示以i节点结尾的子序列和的最大值。其中`dp[i] = max(nums[i], dp[i - 1] + nums[i])`
+// ### 解题思路
+// 采用动态规划的思想，用dp[i]表示以i节点结尾的子序列和的最大值。其中`dp[i] = max(nums[i], dp[i - 1] + nums[i])`
 
-然后再找出dp[i]中的最大值，即为最终结果。
+// 然后再找出dp[i]中的最大值，即为最终结果。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -29,10 +29,10 @@ public:
         return maxNum;
     }
 };
-```
+// ```
 
-### 简化代码
-```cpp
+// ### 简化代码
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -55,4 +55,4 @@ public:
         return maxNum;
     }
 };
-```
+// ```

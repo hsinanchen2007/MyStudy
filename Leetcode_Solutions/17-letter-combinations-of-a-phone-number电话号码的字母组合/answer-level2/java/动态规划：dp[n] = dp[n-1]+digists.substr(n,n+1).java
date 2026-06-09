@@ -1,5 +1,5 @@
-先把digists的第一个数字取出来，有三种或者四种结果，每次新增一个数字的时候，结果都等于前一次的结果的list+当前数字的list遍历相加
-```
+// 先把digists的第一个数字取出来，有三种或者四种结果，每次新增一个数字的时候，结果都等于前一次的结果的list+当前数字的list遍历相加
+// ```
 public List<String> letterCombinations(String digits) {
         if(digits == null || digits.length() == 0){
             return Collections.emptyList();
@@ -30,4 +30,4 @@ public List<String> letterCombinations(String digits) {
         return dp.get(dp.size()-1);
     }
 
-```
+// ```

@@ -1,17 +1,17 @@
-### 解题思路
+# ### 解题思路
 
-按照官网的提示自己实现了一下，对每一个freq构造一个双向列表，用两个hash表，一个用于直接访问到点，另一个用于访问每个freq对应的节点
+# 按照官网的提示自己实现了一下，对每一个freq构造一个双向列表，用两个hash表，一个用于直接访问到点，另一个用于访问每个freq对应的节点
 
-同时维护一个min_freq,用于删除元素。修改min_freq只可能有两种情况:
-- 访问了一个key，这个key的freq为min_freq对应的freq加了1 原来所在的链表为空了，这个时候需要将min_freq+1
-- 新加了一个key，这个时候min_freq为1
+# 同时维护一个min_freq,用于删除元素。修改min_freq只可能有两种情况:
+# - 访问了一个key，这个key的freq为min_freq对应的freq加了1 原来所在的链表为空了，这个时候需要将min_freq+1
+# - 新加了一个key，这个时候min_freq为1
 
 
-时间复杂度`O(1)`, 空间复杂度为`O(n)`
+# 时间复杂度`O(1)`, 空间复杂度为`O(n)`
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Node:
     """
     双向链表节点类
@@ -114,4 +114,4 @@ class LFUCache:
 # obj = LFUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

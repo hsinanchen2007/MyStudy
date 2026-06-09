@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -21,12 +21,12 @@ var removeDuplicates = function(S) {
   }
   return S
 };
-```
-看来不适合用递归, 那么 使用栈方法来解
+// ```
+// 看来不适合用递归, 那么 使用栈方法来解
 
-建个数组arr, 循环把S 挨个字符 往 arr 中push, 每次循环 对比 arr的最后元素 是否与将要 push 的元素 相同, 不相同就push, 相同就删掉arr最后元素, 继续循环下去
+// 建个数组arr, 循环把S 挨个字符 往 arr 中push, 每次循环 对比 arr的最后元素 是否与将要 push 的元素 相同, 不相同就push, 相同就删掉arr最后元素, 继续循环下去
 
-```
+// ```
 如: S = 'abbacd'
 
 arr = ['a']       开始
@@ -41,10 +41,10 @@ arr = ['c']       继续
 
 arr = ['c', 'd']  循环 结束
 
-```
+// ```
 
 
-```js
+// ```js
 var removeDuplicates = function(S) {
   let arr = []
   for(let i = 0; i < S.length; i++){
@@ -57,6 +57,6 @@ var removeDuplicates = function(S) {
   }
   return arr.join('')
 };
-```
+// ```
 
 

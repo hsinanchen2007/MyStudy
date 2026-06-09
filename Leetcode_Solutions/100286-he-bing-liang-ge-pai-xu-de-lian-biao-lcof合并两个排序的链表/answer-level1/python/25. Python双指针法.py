@@ -1,9 +1,9 @@
-### 解题思路
-双指针法很简单，不再赘述，只想再提醒一下，只要有对链表的修改操作，考虑添加虚拟头结点能够使问题变简单。
+# ### 解题思路
+# 双指针法很简单，不再赘述，只想再提醒一下，只要有对链表的修改操作，考虑添加虚拟头结点能够使问题变简单。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution(object):
             t = t.next
         return v_head.next
 
-```
+# ```

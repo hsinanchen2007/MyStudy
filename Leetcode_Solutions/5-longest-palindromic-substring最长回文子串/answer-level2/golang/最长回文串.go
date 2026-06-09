@@ -1,9 +1,9 @@
-### 解题思路
-从一个pos开始， 向两侧移动指针。 注意奇数偶数的方式。
+// ### 解题思路
+// 从一个pos开始， 向两侧移动指针。 注意奇数偶数的方式。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 // babad
 // dabab
@@ -93,4 +93,4 @@ func getPalindrome(s string, pos int) int {
 //     }
 //     return result
 // }
-```
+// ```

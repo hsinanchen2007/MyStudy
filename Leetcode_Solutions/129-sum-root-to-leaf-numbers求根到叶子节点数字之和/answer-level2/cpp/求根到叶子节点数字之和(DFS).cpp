@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ public:
         if(!root->left && !root->right) total+=atoi(num.c_str());
     }
 };
-```
+// ```

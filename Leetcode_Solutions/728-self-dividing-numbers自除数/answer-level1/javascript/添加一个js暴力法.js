@@ -1,5 +1,5 @@
 
-直接上代码
+// 直接上代码
 var selfDividingNumbers = function(left, right) {
     let result = [];
 

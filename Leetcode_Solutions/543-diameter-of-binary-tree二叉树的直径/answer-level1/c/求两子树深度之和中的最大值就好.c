@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     dfs(root);
     return sum-1;//由于我前面加了个1，所以这里减，有点多此一举了，哈哈
 }
-```
+// ```

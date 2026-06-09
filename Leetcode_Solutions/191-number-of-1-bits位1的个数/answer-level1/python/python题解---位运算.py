@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def hammingWeight(self, n):
         """
@@ -9,4 +9,4 @@ class Solution(object):
         while n != 0:
             result += 1
             n &= (n-1)
-```
+# ```

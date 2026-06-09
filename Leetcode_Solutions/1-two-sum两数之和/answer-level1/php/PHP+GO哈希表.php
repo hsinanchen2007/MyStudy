@@ -1,8 +1,8 @@
-- 时间复杂度O(n),空间复杂度O(n)
-- 设计hash表,要找的纸=>索引
-- 目标值 - 当前值 = 要查找的值
-- 存在要查找的值,则返回当前值`i`和hash表中的索引
-```PHP []
+// - 时间复杂度O(n),空间复杂度O(n)
+// - 设计hash表,要找的纸=>索引
+// - 目标值 - 当前值 = 要查找的值
+// - 存在要查找的值,则返回当前值`i`和hash表中的索引
+// ```PHP []
 class Solution {
 
     /**
@@ -25,8 +25,8 @@ class Solution {
         }
     }
 }
-```
-```GO []
+// ```
+// ```GO []
 func twoSum(nums []int, target int) []int {
     count := len(nums)
     hash := map[int]int{}
@@ -43,4 +43,4 @@ func twoSum(nums []int, target int) []int {
     }
     return []int{}
 } 
-```
+// ```

@@ -1,14 +1,14 @@
-### 参考了@派大星星星星 @冯泡泡  两位的解法，感谢2位提供思路
-此处撰写解题思路，本人菜鸡，不涉及对动态规划的空间压缩优化。膜拜大佬
+// ### 参考了@派大星星星星 @冯泡泡  两位的解法，感谢2位提供思路
+// 此处撰写解题思路，本人菜鸡，不涉及对动态规划的空间压缩优化。膜拜大佬
 
-思路1：自顶向下，递推公式  minPath[i][j] = Min()minPath[i-1][j-1], minPath[i-1][j]) + a[i][j], 
-但显然要考虑特殊边界位置，即最左侧，最右侧位置是不同的。
+// 思路1：自顶向下，递推公式  minPath[i][j] = Min()minPath[i-1][j-1], minPath[i-1][j]) + a[i][j], 
+// 但显然要考虑特殊边界位置，即最左侧，最右侧位置是不同的。
 
-自顶向下 做法
-![image.png](https://pic.leetcode-cn.com/47647812c2a77e2b315fa772d330580aad0cbc1d7b1760c1ee537d229a05ea0d-image.png)
-### 代码
+// 自顶向下 做法
+// ![image.png](https://pic.leetcode-cn.com/47647812c2a77e2b315fa772d330580aad0cbc1d7b1760c1ee537d229a05ea0d-image.png)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -44,11 +44,11 @@ public:
 };
 
 
-```
+// ```
 
-思路2： 自底向上 ，这种思路的好处是上面越来越小，没有边界的特殊处理
+// 思路2： 自底向上 ，这种思路的好处是上面越来越小，没有边界的特殊处理
 
-```cpp
+// ```cpp
         // 动态规划, 自底向上  递推式 dp[i][j] = min(dp[i+1][j], dp[i+1[j+1]) + triangle[i][j];
         int rowSize = triangle.size();
         vector<vector<int>> dp(triangle);
@@ -60,6 +60,6 @@ public:
         }
         return dp[0][0];
     }
-```
+// ```
 
 

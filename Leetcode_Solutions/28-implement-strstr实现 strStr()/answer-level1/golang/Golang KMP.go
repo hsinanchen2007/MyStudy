@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func strStr(haystack string, needle string) int {
     if len(needle) == 0 {
         return 0
@@ -60,4 +60,4 @@ func getPartMatch(s string) []int {
     }
     return result
 }
-```
+// ```

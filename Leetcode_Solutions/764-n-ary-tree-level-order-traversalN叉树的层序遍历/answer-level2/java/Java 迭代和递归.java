@@ -1,7 +1,7 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-1.使用Queue进行迭代
-```
+// 1.使用Queue进行迭代
+// ```
 public List<List<Integer>> levelOrder(Node root) {
     List<List<Integer>> res = new ArrayList<>();
     if (root == null) return res;
@@ -25,10 +25,10 @@ public List<List<Integer>> levelOrder(Node root) {
     }
     return res;
 }
-```
+// ```
 
-2.递归
-```
+// 2.递归
+// ```
  public List<List<Integer>> levelOrder(Node root) {
     List<List<Integer>> res = new ArrayList<>();
     if (root == null) return res;
@@ -51,4 +51,4 @@ private void helper(Node root, int depth, List<List<Integer>> res) {
         }
     }
 }
-```
+// ```

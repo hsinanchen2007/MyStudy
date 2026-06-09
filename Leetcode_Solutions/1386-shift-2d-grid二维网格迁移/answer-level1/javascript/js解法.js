@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/d6ba5c7d0d44c56f35d517a03285f046793191b03f971f511ebf32b2be3fa76a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d6ba5c7d0d44c56f35d517a03285f046793191b03f971f511ebf32b2be3fa76a-image.png)
 
-### 解题思路
-将二位数组转换为一维数组，之后操作一位数组转移k个位置，再转换为二维数组
+// ### 解题思路
+// 将二位数组转换为一维数组，之后操作一位数组转移k个位置，再转换为二维数组
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @param {number} k
@@ -44,4 +44,4 @@ var shiftGrid = function(grid, k) {
   
   return grid;
 };
-```
+// ```

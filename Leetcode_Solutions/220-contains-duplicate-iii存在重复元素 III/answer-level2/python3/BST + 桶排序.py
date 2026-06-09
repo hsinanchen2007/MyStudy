@@ -1,12 +1,12 @@
-## 思路：
+# ## 思路：
 
-这道题应该是 `Hard` 难度的（看通过率就知道了）
+# 这道题应该是 `Hard` 难度的（看通过率就知道了）
 
-简单想法：维护一个长度为 `k+1`的**连续**队列， 在这队列里一定任何两个数索引号相差不会超过 `k`，当队列存在两个数相差为`t`，那么返回为 `true`
+# 简单想法：维护一个长度为 `k+1`的**连续**队列， 在这队列里一定任何两个数索引号相差不会超过 `k`，当队列存在两个数相差为`t`，那么返回为 `true`
 
-简单想法代码如下，这个一定要理解，后面只是换了数据结构！
+# 简单想法代码如下，这个一定要理解，后面只是换了数据结构！
 
-```python
+# ```python
 class Solution:
     def containsNearbyAlmostDuplicate(self, nums: List[int], k: int, t: int) -> bool:
         from collections import deque
@@ -35,17 +35,17 @@ class Solution:
                 return True
             to_del.appendleft(nums[i])
         return False
-```
+# ```
 
-上面的代码也能过，但是极慢，为什么？
+# 上面的代码也能过，但是极慢，为什么？
 
-原因就是数组插入删除的时间复杂度为 $O(n)$，有没有一种数据结构**又能排好序**，然而**删除添加的时间复杂度有很少**呢？$log(n)$
+# 原因就是数组插入删除的时间复杂度为 $O(n)$，有没有一种数据结构**又能排好序**，然而**删除添加的时间复杂度有很少**呢？$log(n)$
 
-当然有了，那就是二叉排序树（BST）`Python`没有自带的库， `Java`里有 `TreeSet`
+# 当然有了，那就是二叉排序树（BST）`Python`没有自带的库， `Java`里有 `TreeSet`
 
-但是可以自己实现，网上找到的代码，大家感兴趣研究一下，（哭！不想看，后面还有一个桶排序要看一下啊！
+# 但是可以自己实现，网上找到的代码，大家感兴趣研究一下，（哭！不想看，后面还有一个桶排序要看一下啊！
 
-```python
+# ```python
 from collections import deque
 
 class BSTNode:
@@ -278,15 +278,15 @@ class Solution:
                     return True
                 toDel.append(m)
         return False
-```
+# ```
 
-是的，还有一种思路，**桶排序**[^1]
+# 是的，还有一种思路，**桶排序**[^1]
 
-大家自行用例子模拟，感觉一下！
+# 大家自行用例子模拟，感觉一下！
 
-时间复杂度：$O(n)$
+# 时间复杂度：$O(n)$
 
-```python
+# ```python
 class Solution:
     def containsNearbyAlmostDuplicate(self, nums: List[int], k: int, t: int) -> bool:
         from collections import OrderedDict
@@ -302,8 +302,8 @@ class Solution:
                 queue.popitem(False)
             queue[key] = n
         return False
-```
+# ```
 
 
 
-[^1]: https://leetcode.com/problems/contains-duplicate-iii/discuss/61756/Python-OrderedDict
+# [^1]: https://leetcode.com/problems/contains-duplicate-iii/discuss/61756/Python-OrderedDict

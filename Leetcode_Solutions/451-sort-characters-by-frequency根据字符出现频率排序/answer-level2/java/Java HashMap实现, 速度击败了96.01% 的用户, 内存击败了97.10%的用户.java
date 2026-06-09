@@ -1,12 +1,12 @@
-### 解题思路
-1. 通过 int 数组记录 每个字符出现的次数
-2. 通过 HashMap 将出现次数相同的字符进行拼接
-3. 将 出现次数 排序, 倒序取出所有字符进行拼接
+// ### 解题思路
+// 1. 通过 int 数组记录 每个字符出现的次数
+// 2. 通过 HashMap 将出现次数相同的字符进行拼接
+// 3. 将 出现次数 排序, 倒序取出所有字符进行拼接
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String frequencySort(String s) {
         HashMap<Integer, String> map = new HashMap<>();
@@ -53,4 +53,4 @@ class Solution {
         return res.toString();
     }
 }
-```
+// ```

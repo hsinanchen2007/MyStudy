@@ -1,22 +1,22 @@
-1. 关于复杂度
-<br />&nbsp;1.1 时间复杂度为O(log n)
-<br />&nbsp;1.2 空间负责度为O(1)
-2. 我的解题思路
-<br />&nbsp;2.1 这个解法基于一些位运算的规律
-<br />&nbsp;2.2 如果一个数是2的幂，它的二进制表示一定是第一位是1，后面所有都是0
-<br />&nbsp;2.3 如果一个数是2的幂，它的减1的结果二进制表示一定都是1
-<br />&nbsp;2.4 所以基于2.2以及2.3，我们可以对n以及n-1使用逻辑与运算
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.1 如果运算结果为0，n为2的幂
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.2 如果运算结果为1，n不是2的幂
-3. 提交记录
-<br />&nbsp;3.1 力扣中耗时6ms,消耗33.1MB内存
-<br />&nbsp;3.2 leetcode中耗时1ms,消耗33.6MB内存
-4. Q&A
-<br />&nbsp;4.1 Q:有另外的解法吗？
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A:我觉得还有一个基于2.2的算法，将源数据转换成二进制表示，然后判断第一位是否为1以及其余各位是否全是0。
-我觉得这个算法不算完美，它涉及一个循环以及log n的判断，相对于这个算法更耗费时间。
+// 1. 关于复杂度
+// <br />&nbsp;1.1 时间复杂度为O(log n)
+// <br />&nbsp;1.2 空间负责度为O(1)
+// 2. 我的解题思路
+// <br />&nbsp;2.1 这个解法基于一些位运算的规律
+// <br />&nbsp;2.2 如果一个数是2的幂，它的二进制表示一定是第一位是1，后面所有都是0
+// <br />&nbsp;2.3 如果一个数是2的幂，它的减1的结果二进制表示一定都是1
+// <br />&nbsp;2.4 所以基于2.2以及2.3，我们可以对n以及n-1使用逻辑与运算
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.1 如果运算结果为0，n为2的幂
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.2 如果运算结果为1，n不是2的幂
+// 3. 提交记录
+// <br />&nbsp;3.1 力扣中耗时6ms,消耗33.1MB内存
+// <br />&nbsp;3.2 leetcode中耗时1ms,消耗33.6MB内存
+// 4. Q&A
+// <br />&nbsp;4.1 Q:有另外的解法吗？
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A:我觉得还有一个基于2.2的算法，将源数据转换成二进制表示，然后判断第一位是否为1以及其余各位是否全是0。
+// 我觉得这个算法不算完美，它涉及一个循环以及log n的判断，相对于这个算法更耗费时间。
 
-```
+// ```
 /**
  * Problem
  *     231.Power of Two
@@ -54,6 +54,6 @@ class Solution {
     }
 
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

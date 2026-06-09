@@ -1,4 +1,4 @@
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -15,4 +15,4 @@ class Solution {
         return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
     }
 }
-```
+// ```

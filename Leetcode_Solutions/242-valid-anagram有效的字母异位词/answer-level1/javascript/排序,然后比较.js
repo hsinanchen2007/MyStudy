@@ -1,9 +1,9 @@
-### 解题思路
-使用快排,然后比较两个字符串是否相等,时间复杂度O(nlogn);
+// ### 解题思路
+// 使用快排,然后比较两个字符串是否相等,时间复杂度O(nlogn);
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -29,4 +29,4 @@ var isAnagram = function (s, t) {
     }
     return QuitSort(left).concat(povit, QuitSort(right))
   }
-```
+// ```

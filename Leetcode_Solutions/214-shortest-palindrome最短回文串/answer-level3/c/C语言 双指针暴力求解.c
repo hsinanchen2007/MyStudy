@@ -1,5 +1,5 @@
-抱着会超时的心态试了一下，没想到过了，看来数据不够多
-```
+// 抱着会超时的心态试了一下，没想到过了，看来数据不够多
+// ```
 char * shortestPalindrome(char * s){
     int len = strlen(s);
     if (len == 0) {
@@ -27,4 +27,4 @@ char * shortestPalindrome(char * s){
     }
     return res;
 }
-```
+// ```

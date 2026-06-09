@@ -1,5 +1,5 @@
-解法一：拓扑排序
-```
+// 解法一：拓扑排序
+// ```
 class Solution {
 public:
 //检验是否存在环，，
@@ -37,9 +37,9 @@ public:
         return count==numCourses;
     }
 };
-```
-另外一种使用vector的解法：
-```
+// ```
+// 另外一种使用vector的解法：
+// ```
 class Solution {
 public:
 //拓扑排序写法
@@ -87,9 +87,9 @@ public:
         return count==numCourses;
     }
 };
-```
-方法二：DFS
-```
+// ```
+// 方法二：DFS
+// ```
 const int maxn=1000050;
 class Solution {
 public:
@@ -134,4 +134,4 @@ public:
         return ret;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, str: str) -> int:
         if len(str) == 0:
@@ -44,4 +44,4 @@ class Solution:
         if r > 2 ** 31 - 1:
             r = 2 ** 31 - 1
         return r
-```
+# ```

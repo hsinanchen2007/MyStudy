@@ -1,9 +1,9 @@
-### 解题思路
-设置一个字典，当第一次出现的时候将其赋值为1，再次出现加一，再循环中判断是否大于一半，返回结果
+# ### 解题思路
+# 设置一个字典，当第一次出现的时候将其赋值为1，再次出现加一，再循环中判断是否大于一半，返回结果
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def majorityElement(self, nums):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             if numbers[i] > (n//2):
                 return i
         return 0
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-依靠多重判断
+# ### 解题思路
+# 依靠多重判断
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             return -1
         else:
             return ret
-```
+# ```

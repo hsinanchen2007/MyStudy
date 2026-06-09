@@ -1,4 +1,4 @@
-```python
+# ```python
 def maxSubArray(nums):
     for i in range(1, len(nums)):
         # 当前索引i永远存储0~i的最大和
@@ -7,4 +7,4 @@ def maxSubArray(nums):
     return max(nums)
 
 print(maxSubArray([-2,1,-3,4,-1,2,1,-5,4]))
-```
+# ```

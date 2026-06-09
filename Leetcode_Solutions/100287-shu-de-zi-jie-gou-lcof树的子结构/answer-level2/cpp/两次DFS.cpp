@@ -1,10 +1,10 @@
-### 解题思路
-首先对A进行DFS,找到A中和B的根节点相等的节点,记为A\`。
-对于每一个A\`,用B进行DFS判断A\`是否包含B。
+// ### 解题思路
+// 首先对A进行DFS,找到A中和B的根节点相等的节点,记为A\`。
+// 对于每一个A\`,用B进行DFS判断A\`是否包含B。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ public:
         return dfs(A,B);
     }
 };
-```
+// ```

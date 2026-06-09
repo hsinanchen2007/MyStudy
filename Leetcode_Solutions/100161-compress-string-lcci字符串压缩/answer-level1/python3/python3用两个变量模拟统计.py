@@ -1,9 +1,9 @@
-### 解题思路
-直接用两个变量模拟就行
+# ### 解题思路
+# 直接用两个变量模拟就行
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if not S:
@@ -23,4 +23,4 @@ class Solution:
             return res
         else:
             return S
-```
+# ```

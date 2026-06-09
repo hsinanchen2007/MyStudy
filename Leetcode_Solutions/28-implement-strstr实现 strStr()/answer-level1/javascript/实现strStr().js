@@ -1,10 +1,10 @@
-### 解题思路
-#### 1、sunday解法
-用整个整个的匹配思想
+// ### 解题思路
+// #### 1、sunday解法
+// 用整个整个的匹配思想
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -29,10 +29,10 @@ var strStr = function(haystack, needle) {
     }
     return -1;
 };
-```
-#### 2、直接用js现有的轮子
+// ```
+// #### 2、直接用js现有的轮子
 
-```javascript
+// ```javascript
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -42,4 +42,4 @@ var strStr = function(haystack, needle) {
 var strStr = function(haystack, needle) {
     return haystack.indexOf(needle)
 };
-```
+// ```

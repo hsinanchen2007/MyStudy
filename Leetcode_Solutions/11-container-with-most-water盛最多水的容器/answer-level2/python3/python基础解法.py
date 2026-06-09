@@ -1,9 +1,9 @@
-### 解题思路
-双指针法，其实就是将问题简化为一个双指针遍历问题，容积取决于两个之间较小的height，所以遍历同时记录最大值
+# ### 解题思路
+# 双指针法，其实就是将问题简化为一个双指针遍历问题，容积取决于两个之间较小的height，所以遍历同时记录最大值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         max_area = 0
@@ -16,4 +16,4 @@ class Solution:
                 max_area = max(max_area, height[right_max] * (right_max - left_max))
                 right_max -= 1
         return max_area
-```
+# ```

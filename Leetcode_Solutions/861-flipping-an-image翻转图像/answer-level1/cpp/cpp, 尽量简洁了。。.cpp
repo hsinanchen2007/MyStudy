@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     inline vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
@@ -11,4 +11,4 @@ public:
         return A;
     }
 };
-```
+// ```

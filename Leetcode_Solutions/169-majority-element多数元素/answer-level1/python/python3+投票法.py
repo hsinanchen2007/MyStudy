@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         half_count = len(nums) / 2
@@ -15,4 +15,4 @@ class Solution:
         # print(count_map)
         # count_map = sorted(count_map.items(), key=lambda item: item[1], reverse=True)
         # return count_map[0][0]
-```
+# ```

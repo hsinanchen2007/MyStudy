@@ -1,4 +1,4 @@
-/*根据剑指offer公式来的*/
+// /*根据剑指offer公式来的*/
 class Solution {
 public:
     double myPow(double x, int n) {

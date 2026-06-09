@@ -1,12 +1,12 @@
-### 解题思路
-新手解题。执行时间：**20MS** 。数组为空直接返回-1，一个元素返回0.
-1. 计算数组和sum。
-2. 遍历数组，每个循环累加sumleft,并判断sumright ?= sum-sumleft-当前元素。
-3. 若是直接返回，否则回到第二步。
+// ### 解题思路
+// 新手解题。执行时间：**20MS** 。数组为空直接返回-1，一个元素返回0.
+// 1. 计算数组和sum。
+// 2. 遍历数组，每个循环累加sumleft,并判断sumright ?= sum-sumleft-当前元素。
+// 3. 若是直接返回，否则回到第二步。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
@@ -33,4 +33,4 @@ public:
      return -1;
     }
 };
-```
+// ```

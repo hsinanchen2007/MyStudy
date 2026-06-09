@@ -1,6 +1,6 @@
 
 
-```
+# ```
 '''
 双指针移动求区间交集
 '''
@@ -50,4 +50,4 @@ class Solution:
             cur = new
 
         return [interval for interval in new if interval.start != -0x7fffffff and interval.end != 0x7fffffff]
-```
+# ```

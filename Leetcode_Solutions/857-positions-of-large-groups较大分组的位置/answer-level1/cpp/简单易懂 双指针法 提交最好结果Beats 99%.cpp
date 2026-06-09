@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/fc3e8d5f2a38d0f145cf780199704ee635f44629218d6b2e93d0c1ee43f04cc8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fc3e8d5f2a38d0f145cf780199704ee635f44629218d6b2e93d0c1ee43f04cc8-image.png)
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> largeGroupPositions(string S) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

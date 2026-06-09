@@ -1,9 +1,9 @@
-### 解题思路
-一开始没有理解输出条件，后来才发现是对回溯的考察，通过递归的方式就能解决这道题。
+// ### 解题思路
+// 一开始没有理解输出条件，后来才发现是对回溯的考察，通过递归的方式就能解决这道题。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<String> out = new ArrayList<>();
     public List<String> letterCasePermutation(String S) {
@@ -36,4 +36,4 @@ class Solution {
     }
     
 }
-```
+// ```

@@ -1,6 +1,6 @@
-dp[i][j]表示第i个数的时候，mod 3==j 的最大值
+// dp[i][j]表示第i个数的时候，mod 3==j 的最大值
 
-```golang
+// ```golang
 func maxSumDivThree(nums []int) int {
 	if len(nums) == 0 {
 		return 0
@@ -40,4 +40,4 @@ func max(i, j int) int {
 	return j
 }
 
-```
+// ```

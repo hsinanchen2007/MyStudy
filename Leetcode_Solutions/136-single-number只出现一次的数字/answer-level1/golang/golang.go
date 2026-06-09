@@ -1,4 +1,4 @@
-```
+// ```
 func singleNumber(nums []int) int {
     var res int
     for _, n := range nums{
@@ -6,4 +6,4 @@ func singleNumber(nums []int) int {
     }
     return res
 }
-```
+// ```

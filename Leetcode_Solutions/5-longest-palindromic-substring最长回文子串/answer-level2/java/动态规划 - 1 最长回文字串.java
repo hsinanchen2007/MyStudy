@@ -1,9 +1,9 @@
-### 解题思路
-第一道动态规划题目，参考勒很长时间，小白终于入门勒
+// ### 解题思路
+// 第一道动态规划题目，参考勒很长时间，小白终于入门勒
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
         int len = s.length();
@@ -46,5 +46,5 @@ class Solution {
 		return s.substring(index, index + maxLen);
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/e6bf476be3ab72d295e47457204c634e836658667f3265c61a7a68e76924be74-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e6bf476be3ab72d295e47457204c634e836658667f3265c61a7a68e76924be74-image.png)

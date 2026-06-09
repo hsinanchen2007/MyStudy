@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/77f89a158bcc329e26cef23706f2665c42983d2374462ff55bd07a8f3322b8c4-image.png)
+# ![image.png](https://pic.leetcode-cn.com/77f89a158bcc329e26cef23706f2665c42983d2374462ff55bd07a8f3322b8c4-image.png)
 
 
-```
+# ```
 '''
 滑动窗口维护窗口中元素的和
 '''
@@ -26,4 +26,4 @@ class Solution:
             total += arr[end]
 
         return ans
-```
+# ```

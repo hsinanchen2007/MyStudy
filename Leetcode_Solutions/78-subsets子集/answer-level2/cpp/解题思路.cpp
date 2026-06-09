@@ -1,9 +1,9 @@
-### 解题思路
-递归问题
+// ### 解题思路
+// 递归问题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector< vector<int> > subsets(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return result;
     }
 };
-```
+// ```

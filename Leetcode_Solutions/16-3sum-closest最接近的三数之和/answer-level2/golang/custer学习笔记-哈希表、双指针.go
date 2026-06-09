@@ -1,5 +1,5 @@
-# 暴力解法O(n^3)
-```go
+// # 暴力解法O(n^3)
+// ```go
 func threeSumClosest(nums []int, target int) int {
   res, difference := 0, 1<<15-1
   for i := 0; i < len(nums); i++ {
@@ -21,10 +21,10 @@ func abs(x int) int {
   }
   return -1 * x
 }
-```
+// ```
 
-# hash table哈希表
-```go
+// # hash table哈希表
+// ```go
 func threeSumClosest(nums []int, target int) int {
   res := 1<<31 - 1
   counter := make(map[int]int)
@@ -64,10 +64,10 @@ func abs(x int) int {
   }
   return -1 * x
 }
-```
+// ```
 
-# 双指针
-```go
+// # 双指针
+// ```go
 func threeSumClosest(nums []int, target int) int {
   n, res, diff := len(nums), 0, 1<<15-1
   if n > 2 {
@@ -97,10 +97,10 @@ func abs(x int) int {
   }
   return -1 * x
 }
-```
+// ```
 
-# 另种双指针实现
-```go
+// # 另种双指针实现
+// ```go
 // Sorting + Two Pointer
 // Time complexity: O(nlogn) +O(n^2) Space Complexity: O(1)
 func threeSumClosest(nums []int, target int) int {
@@ -136,4 +136,4 @@ func abs(x int) int {
   }
   return -1 * x
 }
-```
+// ```

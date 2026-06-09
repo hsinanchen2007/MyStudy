@@ -1,5 +1,5 @@
-# dfs 递归
-```golang
+// # dfs 递归
+// ```golang
 var res []int
 
 func postorder(root *Node) []int {
@@ -16,10 +16,10 @@ func dfs(root *Node) {
 		res = append(res, root.Val) //后序输出
 	}
 }
-```
+// ```
 
-# dfs 迭代
-```golang
+// # dfs 迭代
+// ```golang
 func postorder(root *Node) []int {
 	var res = []int{}
     if root == nil{
@@ -42,9 +42,9 @@ func postorder(root *Node) []int {
 	}
 	return res
 }
-```
+// ```
 
 
-#    
-[Go版本 Github](https://github.com/temporaries/leetcode)
-[对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)
+// #    
+// [Go版本 Github](https://github.com/temporaries/leetcode)
+// [对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/2c33b299709c8762a4068f78583107bb1715ccf2ae52eb359691a1f927a3ee0e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/2c33b299709c8762a4068f78583107bb1715ccf2ae52eb359691a1f927a3ee0e-image.png)
 
 
-```
+# ```
 '''
 由于每个周期的运动是重复的，因此可以把终点和障碍点的坐标全部投射
 回第一个周期可能出现的坐标范围内，可以快速判断是否有冲突出现
@@ -39,4 +39,4 @@ class Solution:
             if i <= y and j <= x and self.getReflectioin(i, j, i_circle, j_circle) in pos:
                 return False
         return True
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-默认2月28天，闰年则加一天。
+# ### 解题思路
+# 默认2月28天，闰年则加一天。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def dayOfYear(self, date: str) -> int:
         monthdays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
@@ -19,4 +19,4 @@ class Solution:
 
 
 
-```
+# ```

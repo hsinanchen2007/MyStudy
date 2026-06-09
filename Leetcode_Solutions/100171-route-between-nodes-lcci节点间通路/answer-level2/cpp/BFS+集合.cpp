@@ -1,17 +1,17 @@
-### 解题思路
-![Snipaste_2020-03-16_12-02-32.png](https://pic.leetcode-cn.com/3b85122e0c9e3a47f9119ee88637a0acd58ca5e8781cf55443f1d2195752b202-Snipaste_2020-03-16_12-02-32.png)
+// ### 解题思路
+// ![Snipaste_2020-03-16_12-02-32.png](https://pic.leetcode-cn.com/3b85122e0c9e3a47f9119ee88637a0acd58ca5e8781cf55443f1d2195752b202-Snipaste_2020-03-16_12-02-32.png)
 
-首先，建立一个辅助数组start_index，记录每个结点对应边的下标是从哪里开始的。比如：当n=4, graph=[[0, 1], [0, 2], [1, 2], [1, 3]]时,
-则start_index[0]=0，start_index[1]=2，start_index[2]=-1,start_index[3]=-1。
+// 首先，建立一个辅助数组start_index，记录每个结点对应边的下标是从哪里开始的。比如：当n=4, graph=[[0, 1], [0, 2], [1, 2], [1, 3]]时,
+// 则start_index[0]=0，start_index[1]=2，start_index[2]=-1,start_index[3]=-1。
 
-下一步，使用一个队列来进行BFS，使用集合set来记录已经加入过队列的结点，避免死循环。
+// 下一步，使用一个队列来进行BFS，使用集合set来记录已经加入过队列的结点，避免死循环。
 
-最后，将start结点加入队列进行BFS，直到发现目标结点或队列为空返回false。
+// 最后，将start结点加入队列进行BFS，直到发现目标结点或队列为空返回false。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool findWhetherExistsPath(int n, vector<vector<int>>& graph, int start, int target) {
@@ -43,4 +43,4 @@ public:
         return false;
     }
 };
-```
+// ```

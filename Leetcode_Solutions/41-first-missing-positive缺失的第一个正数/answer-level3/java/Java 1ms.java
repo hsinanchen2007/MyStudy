@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public static int firstMissingPositive(int[] nums) {
         int ans = 1;
@@ -46,4 +46,4 @@ class Solution {
         return hashCode == 0? len-1: hashCode-1;
     }
 }
-```
+// ```

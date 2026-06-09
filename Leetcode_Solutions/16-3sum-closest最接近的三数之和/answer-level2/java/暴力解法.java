@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-很黄很暴力不好，我去看看双指针怎么解
-循环遍历，一一对比，就完了
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 很黄很暴力不好，我去看看双指针怎么解
+// 循环遍历，一一对比，就完了
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
         int sum = Math.abs(nums[0]+nums[1]+nums[2]-target);
@@ -25,4 +25,4 @@ class Solution {
           return p;
     }
 }
-```
+// ```

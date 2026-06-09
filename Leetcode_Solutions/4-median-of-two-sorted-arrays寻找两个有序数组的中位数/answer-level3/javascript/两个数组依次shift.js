@@ -1,4 +1,4 @@
-```
+// ```
 var findMedianSortedArrays = function(nums1, nums2) {
     let contactArr=[]
     let totalLength=(nums1.length+nums2.length)
@@ -23,4 +23,4 @@ var findMedianSortedArrays = function(nums1, nums2) {
     else
         return ((contactArr[totalLength/2-1]+contactArr[totalLength/2])/2).toFixed(5)
 };
-```
+// ```

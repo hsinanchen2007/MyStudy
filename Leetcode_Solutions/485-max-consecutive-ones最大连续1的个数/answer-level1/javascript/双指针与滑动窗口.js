@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var findMaxConsecutiveOnes = function(nums) {
     let left = 0,
        right = 0
@@ -18,6 +18,6 @@ var findMaxConsecutiveOnes = function(nums) {
     }
     return count
 };
-```
-时间复杂度：O(n)
-空间复杂度：O(n)
+// ```
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)

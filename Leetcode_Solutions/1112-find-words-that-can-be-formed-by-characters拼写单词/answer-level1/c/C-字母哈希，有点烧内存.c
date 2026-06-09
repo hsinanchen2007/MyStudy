@@ -1,12 +1,12 @@
-### 解题思路
-思路是首先根据chars，搞一个全局的哈希表
-然后遍历每个单词，给每个单词自己搞一个哈希表
-一旦发现单词里面某个字母的数量超过了全局的哈希表，就认为该单词不可以拼成，不计数
-完整遍历的单词即把它的长度加在结果上
+// ### 解题思路
+// 思路是首先根据chars，搞一个全局的哈希表
+// 然后遍历每个单词，给每个单词自己搞一个哈希表
+// 一旦发现单词里面某个字母的数量超过了全局的哈希表，就认为该单词不可以拼成，不计数
+// 完整遍历的单词即把它的长度加在结果上
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX 128
 int countCharacters(char ** words, int wordsSize, char * chars){
     if (words == NULL || wordsSize == 0 || chars == NULL) {
@@ -42,4 +42,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     free(dict);
     return res;
 }
-```
+// ```

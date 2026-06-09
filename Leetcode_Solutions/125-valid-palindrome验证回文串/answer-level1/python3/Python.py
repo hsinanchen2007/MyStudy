@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         l = 0
@@ -16,4 +16,4 @@ class Solution:
                 if not s[r].isalnum():
                     r-=1
         return True
-```
+# ```

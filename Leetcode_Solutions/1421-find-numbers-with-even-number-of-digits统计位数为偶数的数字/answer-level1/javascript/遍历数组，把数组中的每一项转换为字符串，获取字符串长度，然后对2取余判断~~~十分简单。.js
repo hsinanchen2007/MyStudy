@@ -1,7 +1,7 @@
-废话不多说，
-直接上代码。
+// 废话不多说，
+// 直接上代码。
 
-```
+// ```
 var findNumbers = function(nums) {
     let count = 0;
     for(let i = 0; i < nums.length; i++) {
@@ -9,4 +9,4 @@ var findNumbers = function(nums) {
     }
     return count;
 };
-```
+// ```

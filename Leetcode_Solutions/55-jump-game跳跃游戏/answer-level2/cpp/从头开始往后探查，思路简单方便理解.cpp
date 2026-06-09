@@ -1,15 +1,15 @@
-### 解题思路
-从头遍历数组，可能在中间就结束了，不需要完整遍历，速度还是可以的。
-right记录当前位置可以往后跳到的位置的下标，当前位置能往后跳 i + nums[i]这么远。
-right = max(right, i + nums[i])
-由于right可能大于数组长度-1，所以构建range来表示可以访问的数的范围。
-range = min(range, nums.size() - 1) i只能在这个范围内取值
-当范围到达了最后一位，就输出true。
+// ### 解题思路
+// 从头遍历数组，可能在中间就结束了，不需要完整遍历，速度还是可以的。
+// right记录当前位置可以往后跳到的位置的下标，当前位置能往后跳 i + nums[i]这么远。
+// right = max(right, i + nums[i])
+// 由于right可能大于数组长度-1，所以构建range来表示可以访问的数的范围。
+// range = min(range, nums.size() - 1) i只能在这个范围内取值
+// 当范围到达了最后一位，就输出true。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         return false;
     }
 };
-```
+// ```

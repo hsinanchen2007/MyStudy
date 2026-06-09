@@ -1,6 +1,6 @@
 
 
-```sql
+-- ```sql
 select
     cast
     (
@@ -21,4 +21,4 @@ select
         as number(10, 2)
      ) as fraction
 from dual
-```
+-- ```

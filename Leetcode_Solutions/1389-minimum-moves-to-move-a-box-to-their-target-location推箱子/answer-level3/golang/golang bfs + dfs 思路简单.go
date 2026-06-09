@@ -1,6 +1,6 @@
-广度搜索箱子的时候，每次判断人是否能走到对立面
+// 广度搜索箱子的时候，每次判断人是否能走到对立面
 
-```go
+// ```go
 var (
 	rg   = [][]int{[]int{-1, 0}, []int{1, 0}, []int{0, 1}, []int{0, -1}}
 	n, m int
@@ -100,4 +100,4 @@ func dfs(grid [][]byte, visited map[[2]int]bool, x, y int, box, target [2]int) b
 	return false
 }
 
-```
+// ```

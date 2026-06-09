@@ -1,9 +1,9 @@
-### 解题思路
-求中位数，所以循环只需要跑一半，再判断下奇偶就可以了
+// ### 解题思路
+// 求中位数，所以循环只需要跑一半，再判断下奇偶就可以了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -47,4 +47,4 @@ var findMedianSortedArrays = function(nums1, nums2) {
     }
     else return (num[parseInt((nums1.length+nums2.length)/2)]+num[parseInt((nums1.length+nums2.length)/2)-1])/2
 };
-```
+// ```

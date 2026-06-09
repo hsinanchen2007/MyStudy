@@ -1,4 +1,4 @@
-```
+// ```
 func arrayPairSum(_ nums: [Int]) -> Int {
     var mutNums = nums
     mutNums.sort { (a, b) -> Bool in
@@ -13,4 +13,4 @@ func arrayPairSum(_ nums: [Int]) -> Int {
     }
     return sum
 }
-```
+// ```

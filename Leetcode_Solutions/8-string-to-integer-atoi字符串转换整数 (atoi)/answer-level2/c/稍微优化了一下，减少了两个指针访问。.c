@@ -1,11 +1,11 @@
-![Capture.PNG](https://pic.leetcode-cn.com/463d4595bc9228d741efd9114f6f7c784dd7c32a1e5457c6603182fb2c5ae330-Capture.PNG)
+// ![Capture.PNG](https://pic.leetcode-cn.com/463d4595bc9228d741efd9114f6f7c784dd7c32a1e5457c6603182fb2c5ae330-Capture.PNG)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stype.h>
 
 int myAtoi(char * str){
@@ -26,4 +26,4 @@ int myAtoi(char * str){
     }
     return sign * ans;
 }
-```
+// ```

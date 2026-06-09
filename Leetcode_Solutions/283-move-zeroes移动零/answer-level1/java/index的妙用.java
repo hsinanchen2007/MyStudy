@@ -1,9 +1,9 @@
-### 解题思路
-见注释
+// ### 解题思路
+// 见注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void moveZeroes(int[] nums) {
         int index = 0;                   //index记录下标
@@ -18,4 +18,4 @@ class Solution {
 
     }
 }
-```
+// ```

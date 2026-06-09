@@ -1,11 +1,11 @@
-### 解题思路
-因为忘记在差错处理返回NULL前忘记给入参赋值：*returnSize = 0;
-就报错runtime error: load of null pointer of type 'int'
-花费了20多分钟才发现。。。
+// ### 解题思路
+// 因为忘记在差错处理返回NULL前忘记给入参赋值：*returnSize = 0;
+// 就报错runtime error: load of null pointer of type 'int'
+// 花费了20多分钟才发现。。。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -64,4 +64,4 @@ int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
 
     return return_arr;
 }
-```
+// ```

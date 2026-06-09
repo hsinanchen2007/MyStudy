@@ -1,4 +1,4 @@
-```
+// ```
 int* sortArrayByParityII(int* A, int ASize, int* returnSize){
     //动态申请一块内存
     int *ret = (int *)malloc(sizeof(int) * ASize);
@@ -18,4 +18,4 @@ int* sortArrayByParityII(int* A, int ASize, int* returnSize){
     * returnSize = ASize;
     return ret;
 }
-```
+// ```

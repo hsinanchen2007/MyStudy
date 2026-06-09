@@ -1,9 +1,9 @@
-### 解题思路
-有问题欢迎留言
+// ### 解题思路
+// 有问题欢迎留言
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int len = nums.length;
@@ -19,4 +19,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

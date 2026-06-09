@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestWord(words []string) string {
 	resMap:=make(map[int][]string)
     //以 单词的长度为key，以[]string切片为value，这里面装的是 长度为 key的单词
@@ -60,4 +60,4 @@ func helpLongestWord(resMap map[int][]string,a string,tmp int) bool{
 	}
 	return true
 }
-```
+// ```

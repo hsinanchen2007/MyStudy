@@ -1,5 +1,5 @@
-1使用CASE WHEN做判断，如果player_id一致则累加，否则重新开始赋值
-2CAST (expression AS SIGNED)转化成整型
+-- 1使用CASE WHEN做判断，如果player_id一致则累加，否则重新开始赋值
+-- 2CAST (expression AS SIGNED)转化成整型
 
 SELECT
     player_id

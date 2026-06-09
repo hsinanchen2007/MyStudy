@@ -1,6 +1,6 @@
-套路题, 类似求连通分量, 使用 visited 数组, 如果是anagram则标记。
+// 套路题, 类似求连通分量, 使用 visited 数组, 如果是anagram则标记。
 
-```
+// ```
     public int numSimilarGroups(String[] A) {
         if (null == A || A.length == 0) {
             return 0;
@@ -45,4 +45,4 @@
     }
 
 
-```
+// ```

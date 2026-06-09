@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-滑窗法：用head和cursor两个指针来定位。当从head到cursor之间出现了重复，记录此时长度，将head更新到第一个重复字母后面一个的位置。
+// ### 解题思路
+// 此处撰写解题思路
+// 滑窗法：用head和cursor两个指针来定位。当从head到cursor之间出现了重复，记录此时长度，将head更新到第一个重复字母后面一个的位置。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -32,5 +32,5 @@ public:
         return maxlength;
     }
 };
-```
+// ```
 

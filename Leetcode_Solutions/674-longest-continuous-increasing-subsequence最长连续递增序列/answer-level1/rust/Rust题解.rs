@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn find_length_of_lcis(nums: Vec<i32>) -> i32 {
         let mut i = 0;
@@ -14,5 +14,5 @@ impl Solution {
         max_len as i32
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

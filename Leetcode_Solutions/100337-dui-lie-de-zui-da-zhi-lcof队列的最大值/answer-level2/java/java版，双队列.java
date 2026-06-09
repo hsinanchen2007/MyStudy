@@ -1,11 +1,11 @@
-### 解题思路
-看了官方解题思路，才写出来的。
-java版，双队列。
-队列的最大值与栈的最大值不一样，栈的最大值也要维护另外一个栈。
+// ### 解题思路
+// 看了官方解题思路，才写出来的。
+// java版，双队列。
+// 队列的最大值与栈的最大值不一样，栈的最大值也要维护另外一个栈。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
 
     private LinkedList<Integer> queue;
@@ -50,4 +50,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

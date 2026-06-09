@@ -1,6 +1,6 @@
-**解题思路**
-利用前序遍历找到根节点，然后利用中序遍历找到左右子树的位置，依次递归。
-```
+// **解题思路**
+// 利用前序遍历找到根节点，然后利用中序遍历找到左右子树的位置，依次递归。
+// ```
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
@@ -25,4 +25,4 @@ public:
         return root;
     }
 };
-```
+// ```

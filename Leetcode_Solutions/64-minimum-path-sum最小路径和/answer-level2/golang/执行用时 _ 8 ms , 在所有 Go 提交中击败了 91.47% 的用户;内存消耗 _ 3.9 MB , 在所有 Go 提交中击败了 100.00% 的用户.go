@@ -1,8 +1,8 @@
-### 解题思路
-状态转移方程：g[i][j] += min{ g[i-1][j], g[i][j-1] }
-### 代码
+// ### 解题思路
+// 状态转移方程：g[i][j] += min{ g[i-1][j], g[i][j-1] }
+// ### 代码
 
-```golang
+// ```golang
 //动态规划解法，时间复杂度O(n^2),空间复杂度O(1)
 func minPathSum(grid [][]int) int {
     
@@ -33,4 +33,4 @@ func minPathSum(grid [][]int) int {
     }
     return grid[m-1][n-1]
 }
-```
+// ```

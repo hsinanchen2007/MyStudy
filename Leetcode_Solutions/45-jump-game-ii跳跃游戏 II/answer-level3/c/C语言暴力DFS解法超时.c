@@ -1,4 +1,4 @@
-```
+// ```
 void dfs(int *nums, int step, int jums, int numsSize, int *mim)
 {
     if (step >= numsSize) {
@@ -28,4 +28,4 @@ int jump(int* nums, int numsSize){
     dfs(nums, 0, 0, numsSize - 1, &min);
     return min;
 }
-```
+// ```

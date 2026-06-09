@@ -1,8 +1,8 @@
-### 解题思路
-给每一个结点定义两种状态，0--不偷，1--偷，那么可以自底而上的计算到根节点的最优解
-### 代码
+// ### 解题思路
+// 给每一个结点定义两种状态，0--不偷，1--偷，那么可以自底而上的计算到根节点的最优解
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ int rob(struct TreeNode* root) {
 	return MAX(rob[0], rob[1]);
 }
 
-```
+// ```

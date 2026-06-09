@@ -1,25 +1,25 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/11
- *
- * 解题思路1: 暴力 + hash （770ms）
- *
- * 解题思路2: 有一点技巧 + 滑动窗口 + hash  (12ms)
- *              
- *  滑动窗口:窗口右侧向右移动，直到出现满足目标数组异位的情况, 再移动左侧窗口缩小窗口的长度等于目标数组的长度。
- * 
- *  移动的过程中判断是否符合目标数组异位,符合则继续移动知道数组长度等于窗口长度，则匹配成功。不符合则移动右侧窗口，重复以上动作。
- *       
- *  注意：建议参照代码进行手动画图思考一下 见图。
- *
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/11
+//  *
+//  * 解题思路1: 暴力 + hash （770ms）
+//  *
+//  * 解题思路2: 有一点技巧 + 滑动窗口 + hash  (12ms)
+//  *              
+//  *  滑动窗口:窗口右侧向右移动，直到出现满足目标数组异位的情况, 再移动左侧窗口缩小窗口的长度等于目标数组的长度。
+//  * 
+//  *  移动的过程中判断是否符合目标数组异位,符合则继续移动知道数组长度等于窗口长度，则匹配成功。不符合则移动右侧窗口，重复以上动作。
+//  *       
+//  *  注意：建议参照代码进行手动画图思考一下 见图。
+//  *
  
 
-![DD8A9A6C508203F5CFC76A0D2E35E8F9.png](https://pic.leetcode-cn.com/823d0c80bb9487d6282eb28b2c2c01155d2cca492104feb8f84fc56c1002b80f-DD8A9A6C508203F5CFC76A0D2E35E8F9.png)
-*/
+// ![DD8A9A6C508203F5CFC76A0D2E35E8F9.png](https://pic.leetcode-cn.com/823d0c80bb9487d6282eb28b2c2c01155d2cca492104feb8f84fc56c1002b80f-DD8A9A6C508203F5CFC76A0D2E35E8F9.png)
+// */
 
-```
+// ```
 public class leetcode438 {
     public List<Integer> findAnagrams(String s, String p) {
         char[] s_arr = s.toCharArray();
@@ -105,4 +105,4 @@ public class leetcode438 {
     }
 }
 
-```
+// ```

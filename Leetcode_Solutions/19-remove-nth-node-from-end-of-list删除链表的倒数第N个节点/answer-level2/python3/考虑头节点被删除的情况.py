@@ -1,9 +1,9 @@
-### 解题思路
-唯一需要考虑的就是提前构造一个`headhead`来准备head被删除的情况；
+# ### 解题思路
+# 唯一需要考虑的就是提前构造一个`headhead`来准备head被删除的情况；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
             cnt -= 1
         prev.next = cur.next
         return headhead.next
-```
+# ```

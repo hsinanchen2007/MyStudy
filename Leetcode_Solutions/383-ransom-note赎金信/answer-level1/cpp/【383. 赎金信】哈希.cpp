@@ -1,8 +1,8 @@
-### 思路
+// ### 思路
 
-### 代码
-时间复杂度：O()
-```cpp
+// ### 代码
+// 时间复杂度：O()
+// ```cpp
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
@@ -17,11 +17,11 @@ public:
         return true;
     }
 };
-```
+// ```
 
-### 优化
-用数组模拟哈希表。
-```c++
+// ### 优化
+// 用数组模拟哈希表。
+// ```c++
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
@@ -36,6 +36,6 @@ public:
         return true;
     }
 };
-```
+// ```
 
 

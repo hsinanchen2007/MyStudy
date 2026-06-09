@@ -1,13 +1,13 @@
-### 解题思路
-局部最优解
-从大到小排序 sat
-sat前缀和
-每多一道菜 加一次前缀和
+// ### 解题思路
+// 局部最优解
+// 从大到小排序 sat
+// sat前缀和
+// 每多一道菜 加一次前缀和
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 class DishOrder {
     public int MaxSatisfaction(int[] satisfaction) {
         //TimeSum * Love Sum  Max
@@ -57,4 +57,4 @@ public class Solution {
         return dor.MaxSatisfaction(satisfaction);
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-快排的partition思想，只是把分组的标准改成判断奇偶，而不再是比较相对于pivot的大小。
-单独抽出接口增加可扩展性，以后有其他的分组标准只需改变接口实现即可。
+// 快排的partition思想，只是把分组的标准改成判断奇偶，而不再是比较相对于pivot的大小。
+// 单独抽出接口增加可扩展性，以后有其他的分组标准只需改变接口实现即可。
 
 
-```
+// ```
 class Solution {
     public int[] sortArrayByParity(int[] A) {
         return sortArrayByCriteria(A, element -> (element & 1) == 0);
@@ -34,4 +34,4 @@ class Solution {
         array[j] = temp;
     }
 }
-```
+// ```

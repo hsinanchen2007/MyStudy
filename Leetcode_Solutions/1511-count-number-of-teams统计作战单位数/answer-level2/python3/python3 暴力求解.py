@@ -1,9 +1,9 @@
-### 解题思路
-暴力求解
+# ### 解题思路
+# 暴力求解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numTeams(self, rating: List[int]) -> int:
         count = 0
@@ -18,4 +18,4 @@ class Solution:
                         if rating[y] < rating[j]:
                             count += 1
         return count
-```
+# ```

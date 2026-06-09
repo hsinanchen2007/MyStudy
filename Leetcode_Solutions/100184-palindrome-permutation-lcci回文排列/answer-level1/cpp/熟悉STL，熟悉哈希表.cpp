@@ -1,7 +1,7 @@
-这个题很简单，算是hashmap的入门题
-### 代码
+// 这个题很简单，算是hashmap的入门题
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -15,4 +15,4 @@ public:
         return 1;
     }
 };
-```
+// ```

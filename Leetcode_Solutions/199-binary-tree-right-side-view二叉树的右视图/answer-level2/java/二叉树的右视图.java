@@ -1,8 +1,8 @@
-### 解题思路
-二叉树的右视图，就是每一层中最后一个元素。求取层次遍历序列，每层只保留最后一个元素。
-### 代码
+// ### 解题思路
+// 二叉树的右视图，就是每一层中最后一个元素。求取层次遍历序列，每层只保留最后一个元素。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -42,4 +42,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

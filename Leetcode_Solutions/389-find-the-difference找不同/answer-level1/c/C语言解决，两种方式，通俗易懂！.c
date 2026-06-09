@@ -1,6 +1,6 @@
-# 方式一：利用数组记录s出现字符个数，当遍历t时把相应字符个数减一，因为t=s+一个随机字符，数组出现小于0的情况即为那个随机字符。```
-代码块
-```char findTheDifference(char * s, char * t){
+// # 方式一：利用数组记录s出现字符个数，当遍历t时把相应字符个数减一，因为t=s+一个随机字符，数组出现小于0的情况即为那个随机字符。```
+// 代码块
+// ```char findTheDifference(char * s, char * t){
     int map[26] = {0};
     int len_s = strlen(s);
     int len_t = strlen(t);

@@ -1,7 +1,7 @@
-一个循环下来，用了较多的判断,首先把常用的ascii码列出来以便处理需要；INT_MIN  INT_MAX可以直接用
-为了方便人员阅读，都强制进行了char to int的转换
-为了避免出现 分割的数字，添加了bool变量，只要处理到了数字，这个变量就为true
-```
+// 一个循环下来，用了较多的判断,首先把常用的ascii码列出来以便处理需要；INT_MIN  INT_MAX可以直接用
+// 为了方便人员阅读，都强制进行了char to int的转换
+// 为了避免出现 分割的数字，添加了bool变量，只要处理到了数字，这个变量就为true
+// ```
 int myAtoi(char * str){
     //ASCII 0:48  9:57  space:32  minus:45  plus:43
     int num=0,flag=1,c;
@@ -43,4 +43,4 @@ int myAtoi(char * str){
     }
     return num*flag;
 }
-```
+// ```

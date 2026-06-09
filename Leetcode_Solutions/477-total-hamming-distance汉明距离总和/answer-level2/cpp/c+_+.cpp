@@ -1,9 +1,9 @@
-### 解题思路
-所有数第一位为1的数量乘第一位为0的数量 + 所有数第二位同上
+// ### 解题思路
+// 所有数第一位为1的数量乘第一位为0的数量 + 所有数第二位同上
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int totalHammingDistance(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return ans;
     }
 };
-```
+// ```

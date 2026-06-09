@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         n1 = 0
@@ -11,4 +11,4 @@ class Solution:
                 nums.pop(n1)
             else:
                 n1 += 1
-```
+# ```

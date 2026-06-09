@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isAllLarge(char *word)
 {
     int i = 0;
@@ -53,4 +53,4 @@ bool detectCapitalUse(char * word){
 
     return res;
 }
-```
+// ```

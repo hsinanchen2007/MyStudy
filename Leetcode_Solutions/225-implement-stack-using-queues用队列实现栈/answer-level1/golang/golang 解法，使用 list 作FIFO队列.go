@@ -1,10 +1,10 @@
-golang 解法，使用list作FIFO队列
+// golang 解法，使用list作FIFO队列
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
-1. 利用两个队列
+// 1. 利用两个队列
 
-```
+// ```
 // 使用GO中的list作为FIFO队列, 利用两个队列实现栈
 // "push()"，"pop()"，"top()"，"empty()"的时间复杂度分别为：O(1),O(n),O(1),O(1)
 
@@ -58,11 +58,11 @@ func (this *MyStack) Empty() bool {
 	return this.q1.Len()==0
 }
 
-```
+// ```
 
-2. 利用一个队列
+// 2. 利用一个队列
 
-```
+// ```
 // 使用GO中的list作为FIFO队列, 利用一个队列实现栈,每次push时都将新入队的元素移到队首
 // "push()"，"pop()"，"top()"，"empty()"的时间复杂度分别为：O(n),O(1),O(1),O(1)
 
@@ -111,5 +111,5 @@ func (this *MyStack) Empty() bool {
 
 	return this.q.Len()==0
 }
-```
+// ```
 

@@ -1,11 +1,11 @@
-### 解题思路
-递归方法。
+# ### 解题思路
+# 递归方法。
  
-![image.png](https://pic.leetcode-cn.com/12c56b8ae6da738965ca2d2419959ba93d6dfe97924b7d06fba82f6181575e5b-image.png)
+# ![image.png](https://pic.leetcode-cn.com/12c56b8ae6da738965ca2d2419959ba93d6dfe97924b7d06fba82f6181575e5b-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isMatch(self, s, p):
         """
@@ -24,16 +24,16 @@ class Solution(object):
         else:
             return first_match and self.isMatch(s[1:], p[1:])
 
-```
+# ```
 
-### 解题思路
-动态规划。
+# ### 解题思路
+# 动态规划。
  
-![image.png](https://pic.leetcode-cn.com/ee3daf3acb5a88e8d61716e31431012177624033be322b2f8e2d828299fc2905-image.png)
+# ![image.png](https://pic.leetcode-cn.com/ee3daf3acb5a88e8d61716e31431012177624033be322b2f8e2d828299fc2905-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isMatch(self, s, p):
         """
@@ -59,4 +59,4 @@ class Solution(object):
         
         return dp(0, 0)
 
-```
+# ```

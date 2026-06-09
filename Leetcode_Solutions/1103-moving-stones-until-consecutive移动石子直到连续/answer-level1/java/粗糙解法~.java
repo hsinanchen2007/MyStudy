@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] numMovesStones(int a, int b, int c) {
         int[] temp = new int[3];
@@ -19,4 +19,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

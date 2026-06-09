@@ -1,10 +1,10 @@
-### 解题思路
-1. 本题同[113.路径总和](https://leetcode-cn.com/problems/path-sum-ii/)
-2. [题解](https://leetcode-cn.com/problems/path-sum-ii/solution/di-gui-ji-suan-lu-jing-zong-he-by-jarvis1890/)
+// ### 解题思路
+// 1. 本题同[113.路径总和](https://leetcode-cn.com/problems/path-sum-ii/)
+// 2. [题解](https://leetcode-cn.com/problems/path-sum-ii/solution/di-gui-ji-suan-lu-jing-zong-he-by-jarvis1890/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -34,4 +34,4 @@ public:
         if(root->right) dfs(root->right, sum, tmp);
     }
 };
-```
+// ```

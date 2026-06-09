@@ -1,9 +1,9 @@
-### 解题思路
-JAVA 贪心算法，找交集
+// ### 解题思路
+// JAVA 贪心算法，找交集
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findMinArrowShots(int[][] points) {
         if (points == null || points.length == 0) {
@@ -23,4 +23,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

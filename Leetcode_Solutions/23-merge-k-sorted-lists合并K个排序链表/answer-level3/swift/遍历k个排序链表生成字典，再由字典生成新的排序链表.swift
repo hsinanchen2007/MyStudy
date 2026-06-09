@@ -1,5 +1,5 @@
-思路：遍历k个排序链表，记录到字典中，字典的key是链表中的val，字典的value是k个链表中val出现的次数。然后通过字典再生成新的链表。算法的时间复杂度应该是O(nk),n是排序列表中元素的个数。
-```Swift
+// 思路：遍历k个排序链表，记录到字典中，字典的key是链表中的val，字典的value是k个链表中val出现的次数。然后通过字典再生成新的链表。算法的时间复杂度应该是O(nk),n是排序列表中元素的个数。
+// ```Swift
 func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
     var result: ListNode?
     var dict = [Int: Int]()
@@ -27,4 +27,4 @@ func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
     
     return result
 }
-```
+// ```

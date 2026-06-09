@@ -1,9 +1,9 @@
-### 解题思路
-left和right放两头,求和小于target，说明left++，反之right--
+// ### 解题思路
+// left和right放两头,求和小于target，说明left++，反之right--
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int[] res = new int[2];
@@ -23,4 +23,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

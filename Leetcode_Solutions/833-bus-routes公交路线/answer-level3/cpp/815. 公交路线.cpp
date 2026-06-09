@@ -1,6 +1,6 @@
-![QQ图片20191115161914.png](https://pic.leetcode-cn.com/92dad2de9599fdd64a3d6aeb6a6e67c94830fe616649e5046cbcbd85e0d13800-QQ%E5%9B%BE%E7%89%8720191115161914.png)
+// ![QQ图片20191115161914.png](https://pic.leetcode-cn.com/92dad2de9599fdd64a3d6aeb6a6e67c94830fe616649e5046cbcbd85e0d13800-QQ%E5%9B%BE%E7%89%8720191115161914.png)
 
-```
+// ```
 class Solution {
 public:
     int numBusesToDestination(vector<vector<int>>& routes, int S, int T) {
@@ -45,4 +45,4 @@ public:
         return -1;
     }
 };
-```
+// ```

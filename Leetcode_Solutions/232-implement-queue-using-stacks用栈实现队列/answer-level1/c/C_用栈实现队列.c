@@ -1,10 +1,10 @@
-### 解题思路
-先写链表节点，用链表做写栈，写完栈再写队列。
-![image.png](https://pic.leetcode-cn.com/9567177759921b9c174fcfeeb62880248c54ae504ccbf843dbe2460901e8a0e0-image.png)
+// ### 解题思路
+// 先写链表节点，用链表做写栈，写完栈再写队列。
+// ![image.png](https://pic.leetcode-cn.com/9567177759921b9c174fcfeeb62880248c54ae504ccbf843dbe2460901e8a0e0-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct Node{
     int data;
     struct Node* next;
@@ -103,4 +103,4 @@ void myQueueFree(MyQueue* obj) {
  
  * myQueueFree(obj);
 */
-```
+// ```

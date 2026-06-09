@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseLeftWords(string s, int n) {
@@ -23,6 +23,6 @@ public:
         return ss;
     }
 };
-```
+// ```
 
-需要将char数组长度加一，同时在末尾加上‘\0‘，再转变为string
+// 需要将char数组长度加一，同时在末尾加上‘\0‘，再转变为string

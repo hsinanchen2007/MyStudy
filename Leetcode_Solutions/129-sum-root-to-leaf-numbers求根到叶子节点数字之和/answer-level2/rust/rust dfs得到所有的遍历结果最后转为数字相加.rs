@@ -1,4 +1,4 @@
-```rust
+// ```rust
 pub fn sum_numbers(root: Option<Rc<RefCell<TreeNode>>>) -> i32 {
     let mut res = vec![];
     dfs(root.as_ref(), &mut res, vec![]);
@@ -27,6 +27,6 @@ fn dfs(root: Option<&Rc<RefCell<TreeNode>>>, res: &mut Vec<Vec<i32>>, mut cur: V
         }
     }
 }
-```
+// ```
 
-选定根节点向下递归查找，当查到叶子结点的时候这条回溯路径终止。如果有左右结点则要递归搜索左右分支
+// 选定根节点向下递归查找，当查到叶子结点的时候这条回溯路径终止。如果有左右结点则要递归搜索左右分支

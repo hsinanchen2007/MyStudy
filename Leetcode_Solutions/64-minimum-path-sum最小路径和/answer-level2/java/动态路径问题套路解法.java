@@ -1,7 +1,7 @@
-1. 考虑dp:到这个方格的总步数；
-2. 考虑边界：上下边界的取值范围
-3. 考虑中间方格：dp[i][j]=Math.min(dp[i-1][j],dp[i][j-1])+grid[i][j];
-```
+// 1. 考虑dp:到这个方格的总步数；
+// 2. 考虑边界：上下边界的取值范围
+// 3. 考虑中间方格：dp[i][j]=Math.min(dp[i-1][j],dp[i][j-1])+grid[i][j];
+// ```
     public int minPathSum(int[][] grid) {
         int m=grid.length;
         int n=grid[0].length;
@@ -17,4 +17,4 @@
         }
         return dp[m-1][n-1];
     }
-```
+// ```

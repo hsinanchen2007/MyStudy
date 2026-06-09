@@ -1,9 +1,9 @@
-### 解题思路
-在python中，对象赋值实际上是对象的引用。因此l3是ls的浅复制，两者指向同一个链表。
+# ### 解题思路
+# 在python中，对象赋值实际上是对象的引用。因此l3是ls的浅复制，两者指向同一个链表。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
         if carry > 0:
             l3.next = ListNode(1)
         return ls.next
-```
+# ```

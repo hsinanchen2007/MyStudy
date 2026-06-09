@@ -1,6 +1,6 @@
-通过改写C++STL函数中排序函数sort的规则即可。
-注意：sort默认是升序。
-```
+// 通过改写C++STL函数中排序函数sort的规则即可。
+// 注意：sort默认是升序。
+// ```
  bool cmp ( int a, int b ){
         int i,j; i = 0; j = 0;
         int a0 =a; int b0 = b;
@@ -31,4 +31,4 @@ public:
         return arr;
     }
 };
-```
+// ```

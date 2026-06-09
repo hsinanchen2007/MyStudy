@@ -1,9 +1,9 @@
-### 解题思路
-看代码就可以看明白，代码很简单
+# ### 解题思路
+# 看代码就可以看明白，代码很简单
 
-### 代码
+# ### 代码
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
 
 
 
-```
+# ```

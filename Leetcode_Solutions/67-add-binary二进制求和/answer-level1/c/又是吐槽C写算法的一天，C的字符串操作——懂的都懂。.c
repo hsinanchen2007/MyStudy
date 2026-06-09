@@ -1,4 +1,4 @@
-```
+// ```
 char * addBinary(char * a, char * b){
     int lena=strlen(a);
     int lenb=strlen(b);
@@ -18,5 +18,5 @@ char * addBinary(char * a, char * b){
     if(res[0]!='1') res++;      //处理完了，看res[0]是否产生进位。没有进位直接将res++；
     return res;
 }
-```
-逻辑爆炸的一天。
+// ```
+// 逻辑爆炸的一天。

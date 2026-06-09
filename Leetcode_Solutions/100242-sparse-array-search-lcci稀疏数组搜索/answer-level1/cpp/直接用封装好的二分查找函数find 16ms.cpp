@@ -1,9 +1,9 @@
-### 解题思路
-在头文件algorithm里，本质也是二分查找
+// ### 解题思路
+// 在头文件algorithm里，本质也是二分查找
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findString(vector<string>& words, string s)
@@ -13,4 +13,4 @@ public:
         else return -1;
     }
 };
-```
+// ```

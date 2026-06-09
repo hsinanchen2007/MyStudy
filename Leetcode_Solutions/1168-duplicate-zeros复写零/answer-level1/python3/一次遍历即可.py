@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组添加元素，最后去掉多余的元素即可
+# ### 解题思路
+# 遍历数组添加元素，最后去掉多余的元素即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def duplicateZeros(self, arr: List[int]) -> None:
         """
@@ -22,4 +22,4 @@ class Solution:
             arr.pop()
             num -= 1
 
-```
+# ```

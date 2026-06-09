@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * toLowerCase(char * str){
     int d = 'a' - 'A';
     //if ch=='A' , ch += d ,ch='a'
@@ -12,4 +12,4 @@ char * toLowerCase(char * str){
     }
     return str;
 }
-```
+// ```

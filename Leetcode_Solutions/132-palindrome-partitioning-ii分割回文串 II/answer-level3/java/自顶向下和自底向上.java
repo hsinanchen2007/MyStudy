@@ -1,10 +1,10 @@
-## 思路:
+// ## 思路:
 
-动态规划,
+// 动态规划,
 
-思路一: 自顶向下
+// 思路一: 自顶向下
 
-```python
+// ```python
 import functools
 class Solution:
     @functools.lru_cache(None)
@@ -16,15 +16,15 @@ class Solution:
             if s[:i] == s[:i][::-1]:
                 ans = min(self.minCut(s[i:]) + 1, ans)
         return ans
-```
+// ```
 
-思路二: 自底向上
+// 思路二: 自底向上
 
-可以通过[5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)([题解链接](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/duo-chong-si-lu-qiu-jie-by-powcai))和[131. 分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/)([题解链接](https://leetcode-cn.com/problems/palindrome-partitioning/solution/dong-tai-gui-hua-dfs-by-powcai))看一下关于`dp`的写法
+// 可以通过[5. 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/)([题解链接](https://leetcode-cn.com/problems/longest-palindromic-substring/solution/duo-chong-si-lu-qiu-jie-by-powcai))和[131. 分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/)([题解链接](https://leetcode-cn.com/problems/palindrome-partitioning/solution/dong-tai-gui-hua-dfs-by-powcai))看一下关于`dp`的写法
 
-再用数组`min_s`记录到字符串到`i`位置需要分割次数.
+// 再用数组`min_s`记录到字符串到`i`位置需要分割次数.
 
-```python [1]
+// ```python [1]
 class Solution:
     def minCut(self, s: str) -> int:
         min_s = list(range(len(s)))
@@ -40,11 +40,11 @@ class Solution:
                     else:
                         min_s[i] = min(min_s[i], min_s[j - 1] + 1)
         return min_s[-1]
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public int minCut(String s) {
         int n = s.length();
@@ -62,5 +62,5 @@ class Solution {
         return min_s[n - 1];
     }
 }
-```
+// ```
 

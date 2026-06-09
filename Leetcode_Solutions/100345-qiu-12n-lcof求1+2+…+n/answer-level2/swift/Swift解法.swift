@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func sumNums(_ n: Int) -> Int {
         var sum = n
@@ -10,4 +10,4 @@ class Solution {
     }
 }
 
-```
+// ```

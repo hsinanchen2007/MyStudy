@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
         inf = len(days) * costs[2]
@@ -12,4 +12,4 @@ class Solution:
                 elif days[i - 1] - days[j - 1] < 30:
                     dp[i] = min(dp[i], dp[j - 1] + costs[2])
         return dp[-1]
-```
+# ```

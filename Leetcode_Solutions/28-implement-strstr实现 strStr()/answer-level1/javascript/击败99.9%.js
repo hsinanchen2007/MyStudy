@@ -1,6 +1,6 @@
-![28.png](https://pic.leetcode-cn.com/7b58ca0fa15339478466be2789bc8988215693ba8cde0f304b56909cf85c4312-28.png)  
+// ![28.png](https://pic.leetcode-cn.com/7b58ca0fa15339478466be2789bc8988215693ba8cde0f304b56909cf85c4312-28.png)  
 
-```
+// ```
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -17,5 +17,5 @@ var strStr = function(haystack, needle) {
       return -1;
     }
 };
-```
+// ```
 

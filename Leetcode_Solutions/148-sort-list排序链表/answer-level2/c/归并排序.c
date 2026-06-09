@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* sortList(struct ListNode* head){
     if(head==NULL||head->next==NULL)return head;
     struct ListNode*p=head;
@@ -39,4 +39,4 @@ struct ListNode* sortList(struct ListNode* head){
     
     return node->next;
 }
-```
+// ```

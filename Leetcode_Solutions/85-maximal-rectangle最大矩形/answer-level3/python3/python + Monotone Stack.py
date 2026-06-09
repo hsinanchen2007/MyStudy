@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maximalRectangle(self, matrix: List[List[int]]) -> int:
         # Time complexity : O(MN)
@@ -28,4 +28,4 @@ class Solution:
                 else: heights[j] = 0
             max_area = max(max_area, getRowArea(heights))
         return max_area
-```
+# ```

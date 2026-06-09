@@ -1,11 +1,11 @@
-### 解题思路
-1、特殊情况：None，original = target
-2、遍历左子树、右子树
-3、遍历左子树结果为None，返回右子树遍历返回结果；遍历右子树结果为None，返回左子树遍历返回结果
+# ### 解题思路
+# 1、特殊情况：None，original = target
+# 2、遍历左子树、右子树
+# 3、遍历左子树结果为None，返回右子树遍历返回结果；遍历右子树结果为None，返回左子树遍历返回结果
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
         if result_right == None:
             return result_left
 
-```
+# ```

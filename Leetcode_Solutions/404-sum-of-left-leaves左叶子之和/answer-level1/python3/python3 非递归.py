@@ -1,5 +1,5 @@
-使用堆实现，非递归，只有当左子树无子节点的时候才加上左子树的值
-```
+# 使用堆实现，非递归，只有当左子树无子节点的时候才加上左子树的值
+# ```
 class Solution:
     def sumOfLeftLeaves(self, root: TreeNode) -> int:
         res = 0
@@ -15,4 +15,4 @@ class Solution:
             if node.left and node.left.left == None and node.left.right == None:
                 res += node.left.val
         return res
-```
+# ```

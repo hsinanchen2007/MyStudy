@@ -1,9 +1,9 @@
-### 思路
-看作26进制数。
+// ### 思路
+// 看作26进制数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int titleToNumber(string s) {
@@ -14,4 +14,4 @@ public:
         return res;
     }
 };
-```
+// ```

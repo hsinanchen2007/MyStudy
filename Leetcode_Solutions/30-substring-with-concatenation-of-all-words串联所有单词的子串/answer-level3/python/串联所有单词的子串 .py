@@ -1,4 +1,4 @@
-感觉性能不够优化
+# 感觉性能不够优化
 
 class Solution(object):
     def findSubstring(self, s, words):

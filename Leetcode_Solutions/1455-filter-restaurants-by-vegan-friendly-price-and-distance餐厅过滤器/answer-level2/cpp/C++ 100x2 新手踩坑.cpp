@@ -1,6 +1,6 @@
-排序就手写了个冒泡，没什么好说的。关键在于踩了一个坑：遍历数组时尽量不要写i<id.size();最好写成两步:int n=id.size();i<n，不然会报错。
-当时写题的时候没用第二种写法，直接加了个if(id.size()>0)的判断。
-```
+// 排序就手写了个冒泡，没什么好说的。关键在于踩了一个坑：遍历数组时尽量不要写i<id.size();最好写成两步:int n=id.size();i<n，不然会报错。
+// 当时写题的时候没用第二种写法，直接加了个if(id.size()>0)的判断。
+// ```
  vector<int> filterRestaurants(vector<vector<int>>& restaurants, int veganFriendly, int maxPrice, int maxDistance) {
         int n=restaurants.size();
         vector<int>id;
@@ -46,4 +46,4 @@
     
     return id;
 }
-```
+// ```

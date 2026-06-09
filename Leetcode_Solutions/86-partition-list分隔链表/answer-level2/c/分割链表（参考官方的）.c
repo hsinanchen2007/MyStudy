@@ -1,9 +1,9 @@
-### 解题思路
-指定两个链表，before和after（哑Listnode）。before中存的是小于x的，after中存的是大于等于x的。之后将before的最后一个元素的next连接到after的next的第一个元素。
+// ### 解题思路
+// 指定两个链表，before和after（哑Listnode）。before中存的是小于x的，after中存的是大于等于x的。之后将before的最后一个元素的next连接到after的next的第一个元素。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -46,4 +46,4 @@ struct ListNode* partition(struct ListNode* head, int x){
     free(before);
     return res;
 }
-```
+// ```

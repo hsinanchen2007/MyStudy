@@ -1,16 +1,16 @@
-可以分析出状态转移:
-||0|10|11|111|1111|
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|Start1|Start1|Invalid|Start2|Start3|Start4|
-|Start2|Invalid|Start1|Invalid|Invalid|Invalid|
-|Start3|Invalid|Rest1|Invalid|Invalid|Invalid|
-|Start4|Invalid|Rest2|Invalid|Invalid|Invalid|
-|Rest1|Invalid|Start1|Invalid|Invalid|Invalid|
-|Rest2|Invalid|Rest1|Invalid|Invalid|Invalid|
+// 可以分析出状态转移:
+// ||0|10|11|111|1111|
+// |:-:|:-:|:-:|:-:|:-:|:-:|
+// |Start1|Start1|Invalid|Start2|Start3|Start4|
+// |Start2|Invalid|Start1|Invalid|Invalid|Invalid|
+// |Start3|Invalid|Rest1|Invalid|Invalid|Invalid|
+// |Start4|Invalid|Rest2|Invalid|Invalid|Invalid|
+// |Rest1|Invalid|Start1|Invalid|Invalid|Invalid|
+// |Rest2|Invalid|Rest1|Invalid|Invalid|Invalid|
 
-解释: 如果我们当前处于 Start1 状态，那么当我们遇到的下一个二进制数字以 0 作为开头，也就是说遇到了一个字节的 utf 编码，那么我们仍然处于 Start1状态。如果遇到了一个以 10开头的，那么是不合法的。如果遇到以 11 开头的，那么进入 Start2 状态。以此类推。
-如果我们当前处于 Start4 状态，当我们遇到了一个 10 时，那么后面还需要 2 个数字以 10 开头，所以处于 Rest2状态。 
-```java
+// 解释: 如果我们当前处于 Start1 状态，那么当我们遇到的下一个二进制数字以 0 作为开头，也就是说遇到了一个字节的 utf 编码，那么我们仍然处于 Start1状态。如果遇到了一个以 10开头的，那么是不合法的。如果遇到以 11 开头的，那么进入 Start2 状态。以此类推。
+// 如果我们当前处于 Start4 状态，当我们遇到了一个 10 时，那么后面还需要 2 个数字以 10 开头，所以处于 Rest2状态。 
+// ```java
 class Solution {
     private final static String START1 = "start1";
     private final static String START2 = "start2";
@@ -53,4 +53,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

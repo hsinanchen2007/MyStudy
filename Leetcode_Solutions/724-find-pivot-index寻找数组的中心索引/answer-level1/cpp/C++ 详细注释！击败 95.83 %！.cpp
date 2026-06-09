@@ -1,10 +1,10 @@
-### 解题思路
-每遍历一个元素，计算其是否为中心元素：
-中心元素的性质：sum - cur - cur_left_sum = cur_left_sum
+// ### 解题思路
+// 每遍历一个元素，计算其是否为中心元素：
+// 中心元素的性质：sum - cur - cur_left_sum = cur_left_sum
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {        
@@ -25,4 +25,4 @@ public:
         return -1;
     }
 };
-```
+// ```

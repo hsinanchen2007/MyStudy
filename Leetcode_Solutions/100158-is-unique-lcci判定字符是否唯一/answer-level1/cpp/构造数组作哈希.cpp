@@ -1,9 +1,9 @@
-### 解题思路
-使用26位数组做哈希结构
+// ### 解题思路
+// 使用26位数组做哈希结构
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isUnique(string astr) {
@@ -17,4 +17,4 @@ public:
         return true;
     }
 };
-```
+// ```

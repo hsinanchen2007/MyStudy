@@ -1,9 +1,9 @@
-### 解题思路
-使用priority_queue<int, vector<int>, less<int> >
+// ### 解题思路
+// 使用priority_queue<int, vector<int>, less<int> >
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -28,4 +28,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先将两数组排序，然后根据两数组长度判断，中位数取一个还是两个平均值，返回结果。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先将两数组排序，然后根据两数组长度判断，中位数取一个还是两个平均值，返回结果。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -46,4 +46,4 @@ var findMedianSortedArrays = function(nums1, nums2) {
         return arr[middle-1];
     }
 };
-```
+// ```

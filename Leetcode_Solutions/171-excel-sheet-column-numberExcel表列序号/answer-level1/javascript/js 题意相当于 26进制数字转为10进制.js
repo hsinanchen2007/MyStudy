@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/d822046f15e1f934e6ba5dbb81fb8487af9c2a52a62660f62c7f960cf3bdbfcc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d822046f15e1f934e6ba5dbb81fb8487af9c2a52a62660f62c7f960cf3bdbfcc-image.png)
 
-### 解题思路
-...
+// ### 解题思路
+// ...
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -22,4 +22,4 @@ var titleToNumber = function(s) {
   
   return sum;
 };
-```
+// ```

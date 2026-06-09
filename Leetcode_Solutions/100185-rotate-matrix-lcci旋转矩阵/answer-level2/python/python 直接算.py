@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-仔细观察，新的第i行，是原来的第i列的倒序。
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 仔细观察，新的第i行，是原来的第i列的倒序。
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rotate(self, matrix):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                 y.append(matrix[n-1-j][i])
             x.append(y)
         matrix[::]=x[::]
-```
+# ```

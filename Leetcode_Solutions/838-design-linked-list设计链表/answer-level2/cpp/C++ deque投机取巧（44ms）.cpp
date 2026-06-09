@@ -1,10 +1,10 @@
-### 解题思路
-- 用deque模拟链表，push_back，push_front,insert,erase四个库函数完成插入和删除的操作
-- STL还是厉害啊
+// ### 解题思路
+// - 用deque模拟链表，push_back，push_front,insert,erase四个库函数完成插入和删除的操作
+// - STL还是厉害啊
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyLinkedList {
 public:
     /** Initialize your data structure here. */
@@ -57,4 +57,4 @@ private:
  * obj->addAtIndex(index,val);
  * obj->deleteAtIndex(index);
  */
-```
+// ```

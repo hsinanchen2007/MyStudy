@@ -1,12 +1,12 @@
-### 解题思路
-大概思路就是走到尾节点的时候让中间节点走到一半，也就是尾节点走两步，中间节点走一步。
-没想到打败了100%的用户哈哈
-![image.png](https://pic.leetcode-cn.com/673e21ab910df92a25f086bd56765163ff77a1b9d9af90a9db68cb49073d68bf-image.png)
+// ### 解题思路
+// 大概思路就是走到尾节点的时候让中间节点走到一半，也就是尾节点走两步，中间节点走一步。
+// 没想到打败了100%的用户哈哈
+// ![image.png](https://pic.leetcode-cn.com/673e21ab910df92a25f086bd56765163ff77a1b9d9af90a9db68cb49073d68bf-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -37,4 +37,4 @@ class Solution {
         return middle;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 struct MyHashMap {
     buckets: Vec<Vec<(i32, i32)>>,
 }
@@ -54,5 +54,5 @@ impl MyHashMap {
  * let ret_2: i32 = obj.get(key);
  * obj.remove(key);
  */
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

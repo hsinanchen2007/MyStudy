@@ -1,10 +1,10 @@
-### 解题思路
-1.暴力法(超出时间限制 **!)
-2.滑动窗口
+// ### 解题思路
+// 1.暴力法(超出时间限制 **!)
+// 2.滑动窗口
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findContinuousSequence(target int) [][]int {
 	if target <= 0 {
 		return [][]int{}
@@ -36,4 +36,4 @@ func findContinuousSequence(target int) [][]int {
 	return result
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-纯C 二分法
+// ### 解题思路
+// 纯C 二分法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int search(int* nums, int numsSize, int target){
     if (0 == numsSize)
     {
@@ -59,4 +59,4 @@ int search(int* nums, int numsSize, int target){
 
     return -1;
 }
-```
+// ```

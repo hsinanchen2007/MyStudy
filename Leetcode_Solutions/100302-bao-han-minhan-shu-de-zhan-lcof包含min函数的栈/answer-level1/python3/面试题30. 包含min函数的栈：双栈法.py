@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-设置一颗最辅助的单调递减最小栈，如果主栈弹出元素与最小栈顶一致，则可以同时弹出最小栈的栈顶元素
+# 设置一颗最辅助的单调递减最小栈，如果主栈弹出元素与最小栈顶一致，则可以同时弹出最小栈的栈顶元素
 
-```python []
+# ```python []
 class MinStack:
 
     def __init__(self):
@@ -23,4 +23,4 @@ class MinStack:
 
     def min(self) -> int:
         return self.minstack[-1]
-```
+# ```

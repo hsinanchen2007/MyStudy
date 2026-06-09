@@ -1,9 +1,9 @@
-### 解题思路
-1.深度遍历二叉树，一旦遍历到叶子结点，就把存的路径path压入vector<string> paths中，清空path，再继续遍历所有的路径。
+// ### 解题思路
+// 1.深度遍历二叉树，一旦遍历到叶子结点，就把存的路径path压入vector<string> paths中，清空path，再继续遍历所有的路径。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     string path;
     vector<string> res;
@@ -25,4 +25,4 @@ public:
     }
 };
 
-```
+// ```

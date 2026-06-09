@@ -1,9 +1,9 @@
-### 解题思路
-python 利用9+1的模式来进行代码，但是需要考虑到输入为0的情况
+# ### 解题思路
+# python 利用9+1的模式来进行代码，但是需要考虑到输入为0的情况
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def addDigits(self, num):
         """
@@ -14,4 +14,4 @@ class Solution(object):
             return 0
         return (num-1)%9+1
 
-```
+# ```

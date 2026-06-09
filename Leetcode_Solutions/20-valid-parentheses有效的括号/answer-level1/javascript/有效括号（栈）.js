@@ -1,4 +1,4 @@
-```
+// ```
 var isValid = function (s) {
     let map = new Map();
     map.set(')', '(');
@@ -22,4 +22,4 @@ var isValid = function (s) {
 };
 
 
-```
+// ```

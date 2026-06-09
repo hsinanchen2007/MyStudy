@@ -1,8 +1,8 @@
-- 通过两次 BFS 找出图的直径
-- 第三次 BFS 找出直径中的 length/2 的元素
-- 代码写得比较搓
+// - 通过两次 BFS 找出图的直径
+// - 第三次 BFS 找出直径中的 length/2 的元素
+// - 代码写得比较搓
 
-```
+// ```
 import (
 	"container/list"
 )
@@ -111,4 +111,4 @@ type path struct {
 	Node int
 	Path []int
 }
-```
+// ```

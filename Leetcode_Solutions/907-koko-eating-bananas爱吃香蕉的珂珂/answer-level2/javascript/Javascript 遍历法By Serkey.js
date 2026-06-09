@@ -1,9 +1,9 @@
-/**
- * @param {number[]} piles
- * @param {number} H
- * @return {number}
- */
-```javascript
+// /**
+//  * @param {number[]} piles
+//  * @param {number} H
+//  * @return {number}
+//  */
+// ```javascript
 var minEatingSpeed = function(piles, H) {
     for (let i = 1; i < Number.POSITIVE_INFINITY; i++) {
         if (!test(piles, i, H)) {
@@ -26,4 +26,4 @@ var minEatingSpeed = function(piles, H) {
         }
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var longestPalindrome = function(s) {
     let map = new Map();
     for(let i of s){
@@ -18,4 +18,4 @@ var longestPalindrome = function(s) {
     })
     return res+maxOdd+(maxOdd>0||hasOne?1:0);
 };
-```
+// ```

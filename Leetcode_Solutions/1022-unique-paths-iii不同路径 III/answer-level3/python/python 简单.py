@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def uniquePathsIII(self, grid):
         """
@@ -45,4 +45,4 @@ class Solution(object):
         helper(stx, sty, 0)
 
         return self.ans
-```
+# ```

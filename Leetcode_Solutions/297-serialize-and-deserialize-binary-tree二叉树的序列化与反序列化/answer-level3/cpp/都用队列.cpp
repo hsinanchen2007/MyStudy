@@ -1,11 +1,11 @@
-### 解题思路
-stringstream用于数据转换
-当int等转换成string时，要用stringstream::str("")来清空缓存，不然会保存上次的内容。
-当string转换成int等时，要用stringstream::clear()来清空，不然会一直输出上次的东西。
+// ### 解题思路
+// stringstream用于数据转换
+// 当int等转换成string时，要用stringstream::str("")来清空缓存，不然会保存上次的内容。
+// 当string转换成int等时，要用stringstream::clear()来清空，不然会一直输出上次的东西。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -145,4 +145,4 @@ private:
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
-```
+// ```

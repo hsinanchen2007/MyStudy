@@ -1,9 +1,9 @@
-### 解题思路
-使用for循环+while来遍历数组，符合条件的直接return。优点是简单粗暴，缺点是没有性能可言。
+// ### 解题思路
+// 使用for循环+while来遍历数组，符合条件的直接return。优点是简单粗暴，缺点是没有性能可言。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -25,4 +25,4 @@ var twoSum = function(nums, target) {
   }
   return res;
 };
-```
+// ```

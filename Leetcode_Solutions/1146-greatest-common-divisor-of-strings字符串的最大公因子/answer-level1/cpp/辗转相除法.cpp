@@ -1,9 +1,9 @@
-### 解题思路
-模仿辗转相除法写一下递归还真过了。
+// ### 解题思路
+// 模仿辗转相除法写一下递归还真过了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
@@ -15,4 +15,4 @@ public:
         return gcdOfStrings(str1.substr(str2.size(),str1.size()-str2.size()),str2);
     }
 };
-```
+// ```

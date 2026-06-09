@@ -1,9 +1,9 @@
-### 解题思路
-笨方法，转化为二进制，再检查即可
+// ### 解题思路
+// 笨方法，转化为二进制，再检查即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasAlternatingBits(int n){
     char res[100]="";
     int i=0;
@@ -18,4 +18,4 @@ bool hasAlternatingBits(int n){
     }
     return true;
 }
-```
+// ```

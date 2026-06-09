@@ -1,4 +1,4 @@
-```
+// ```
 func distributeCandies(candies int, num_people int) []int {
     // 循环直到糖果分完，每次分的糖果计数num，(num-1) % num_people就是对应位置
     ret := make([]int, num_people)
@@ -16,4 +16,4 @@ func distributeCandies(candies int, num_people int) []int {
     }
     return ret
 }
-```
+// ```

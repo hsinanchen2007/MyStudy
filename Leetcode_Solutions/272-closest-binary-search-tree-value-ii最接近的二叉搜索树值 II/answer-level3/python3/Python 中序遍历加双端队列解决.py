@@ -1,6 +1,6 @@
 
 
-```
+# ```
 '''
 中序遍历二叉树，用双端队列维护k个最接近target的数值
 '''
@@ -32,4 +32,4 @@ class Solution:
         que = deque()
         self.dfs(root, que, target, k)
         return list(que)
-```
+# ```

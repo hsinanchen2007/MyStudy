@@ -1,10 +1,10 @@
-### 解题思路
-先要获知每个数字二进制下1的数码；
-然后冒泡排序；
+// ### 解题思路
+// 先要获知每个数字二进制下1的数码；
+// 然后冒泡排序；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortByBits(int[] arr) {
         int[] countOfArr = new int[arr.length];
@@ -43,4 +43,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

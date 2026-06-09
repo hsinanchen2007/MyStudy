@@ -1,5 +1,5 @@
-![wjywsnb.png](https://pic.leetcode-cn.com/851518cac90b186a5020902b5fc176850f62d0bbbfcf055098c66d13172c4c6b-wjywsnb.png)
-```
+// ![wjywsnb.png](https://pic.leetcode-cn.com/851518cac90b186a5020902b5fc176850f62d0bbbfcf055098c66d13172c4c6b-wjywsnb.png)
+// ```
 func canMeasureWater(x int, y int, z int) bool {
 
     if x==z||y==z||x+y==z{
@@ -31,5 +31,5 @@ func gongyue(a *int,b *int) int{
     }
     return *a
 }
-```
+// ```
 

@@ -1,4 +1,4 @@
-```c
+// ```c
 int dayOfYear(char * date){
     int year=0,month=0,day=0,result=0,i;
     int days[12]={31,28,31,30,31,30,31,31,30,31,30,31};
@@ -11,4 +11,4 @@ int dayOfYear(char * date){
     result=result+day;
     return result;
 }
-```
+// ```

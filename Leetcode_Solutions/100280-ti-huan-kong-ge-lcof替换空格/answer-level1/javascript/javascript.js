@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -15,4 +15,4 @@ function replaceAll(str , replaceKey , replaceVal){
 var replaceSpace = function(s) {
     return s.replaceAll(' ', '%20')
 }
-```
+// ```

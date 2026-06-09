@@ -1,8 +1,8 @@
-### 解题思路
-把问题看成是求状态(up,ptr,must)的解，up为bool类型，表示父节点是否有监视器，ptr表示指向当前节点的指针，must表示是否必须有监控器，并将求出的解存入名为dp的map<bool,map<bool,int>>>中，以备下次使用。状态转移分多种情况，在代码中可以看出来。每个状态对于不同的must和up会有不同的求解方式。
-### 代码
+// ### 解题思路
+// 把问题看成是求状态(up,ptr,must)的解，up为bool类型，表示父节点是否有监视器，ptr表示指向当前节点的指针，must表示是否必须有监控器，并将求出的解存入名为dp的map<bool,map<bool,int>>>中，以备下次使用。状态转移分多种情况，在代码中可以看出来。每个状态对于不同的must和up会有不同的求解方式。
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -116,4 +116,4 @@ int minCamera(bool up, TreeNode*ptr,bool must,map<TreeNode*,map<bool,map<bool,in
 	return res;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int longestPalindromeSubseq(String s) {
         int n = s.length();
@@ -15,4 +15,4 @@ class Solution {
         return dp[0][n - 1];
     }
 }
-```
+// ```

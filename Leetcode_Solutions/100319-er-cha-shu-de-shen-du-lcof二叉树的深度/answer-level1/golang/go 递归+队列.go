@@ -1,4 +1,4 @@
-```
+// ```
 //先序遍历
 func maxDepth(root *TreeNode) int {
 	if root == nil {
@@ -6,9 +6,9 @@ func maxDepth(root *TreeNode) int {
 	}
 	return int(math.Max(float64(maxDepth(root.Left)), float64(maxDepth(root.Right)))) + 1
 }
-```
+// ```
 
-```
+// ```
 //层序遍历
 func maxDepth(root *TreeNode) int {
 	if root == nil {
@@ -34,5 +34,5 @@ func maxDepth(root *TreeNode) int {
 	}
 	return res
 }
-```
+// ```
 

@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/82f0c056fed9693dbe5fa1d3b5d231a2d8210e652ba157e1e378625037b1161b-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/82f0c056fed9693dbe5fa1d3b5d231a2d8210e652ba157e1e378625037b1161b-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * convertToBase7(int num){
     int flag = num > 0 ? 1 : -1;
     num = abs(num);
@@ -34,4 +34,4 @@ char * convertToBase7(int num){
     sprintf(ret, "%d", flag * num);
     return ret;
 }
-```
+// ```

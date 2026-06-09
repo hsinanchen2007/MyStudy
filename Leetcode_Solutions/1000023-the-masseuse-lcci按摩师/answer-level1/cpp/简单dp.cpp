@@ -1,10 +1,10 @@
-### 解题思路
-dp[n] = max(dp[n-1], dp[n-2] + cur)
-// dp[n] 表示前n项的最大值
+// ### 解题思路
+// dp[n] = max(dp[n-1], dp[n-2] + cur)
+// // dp[n] 表示前n项的最大值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return cur;
     }
 };
-```
+// ```

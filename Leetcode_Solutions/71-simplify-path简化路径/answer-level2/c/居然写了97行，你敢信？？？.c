@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define MAX_DIR 100
 #define MAX_DEP 1000
@@ -102,4 +102,4 @@ char * simplifyPath(char * path){
     ans[index] = '\0';
     return ans;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![QQ截图20200311165424.png](https://pic.leetcode-cn.com/8f6e1017ceea1f946d1e74bc082ff6d58dffbec150cbe4ff9dd5c7bbc79e9db3-QQ%E6%88%AA%E5%9B%BE20200311165424.png)
+// ### 解题思路
+// ![QQ截图20200311165424.png](https://pic.leetcode-cn.com/8f6e1017ceea1f946d1e74bc082ff6d58dffbec150cbe4ff9dd5c7bbc79e9db3-QQ%E6%88%AA%E5%9B%BE20200311165424.png)
 
-m[i]=m[i-1]+m[i-2];i>=3
-### 代码
+// m[i]=m[i-1]+m[i-2];i>=3
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int climbStairs(int n) {
           if(n==1){
@@ -23,4 +23,4 @@ class Solution {
 
     }
 }
-```
+// ```

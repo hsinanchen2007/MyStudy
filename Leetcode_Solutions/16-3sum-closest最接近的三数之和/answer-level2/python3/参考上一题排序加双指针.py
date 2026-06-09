@@ -1,5 +1,5 @@
-三个数的和小于target，往大的方向才有可能找到更接近的值。L+=1
-否则R+=1
+# 三个数的和小于target，往大的方向才有可能找到更接近的值。L+=1
+# 否则R+=1
 
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:

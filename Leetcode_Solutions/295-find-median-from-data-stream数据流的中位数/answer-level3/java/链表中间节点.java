@@ -1,9 +1,9 @@
-### 解题思路
-很笨的办法，维系一个链表，一个指针middle指向(size/2)个元素，当size为奇数时，直接返回middle，当size为偶数时，返回middle 和下一个节点的平均值。
+// ### 解题思路
+// 很笨的办法，维系一个链表，一个指针middle指向(size/2)个元素，当size为奇数时，直接返回middle，当size为偶数时，返回middle 和下一个节点的平均值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MedianFinder {
 
     /** initialize your data structure here. */
@@ -99,4 +99,4 @@ class Node {
  * obj.addNum(num);
  * double param_2 = obj.findMedian();
  */
-```
+// ```

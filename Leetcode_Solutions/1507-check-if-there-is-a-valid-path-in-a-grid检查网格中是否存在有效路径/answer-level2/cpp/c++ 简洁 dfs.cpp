@@ -1,5 +1,5 @@
-判断来的方向是否合理
-```cpp
+// 判断来的方向是否合理
+// ```cpp
 class Solution {
 public:
     using pi = pair<int, int>;
@@ -34,4 +34,4 @@ public:
         return false;
     }
 };
-```
+// ```

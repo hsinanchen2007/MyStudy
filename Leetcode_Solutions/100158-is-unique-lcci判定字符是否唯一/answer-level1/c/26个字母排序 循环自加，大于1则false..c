@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isUnique(char* astr){
 
 bool rel=true;
@@ -34,4 +34,4 @@ if(strlen(astr)==0){
 }
 return rel;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-要把含0的情况考虑全面
+// ### 解题思路
+// 要把含0的情况考虑全面
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numDecodings(char * s){
     int len = strlen(s);
     if (len < 1) {
@@ -55,4 +55,4 @@ int numDecodings(char * s){
 
     return dp[len - 1];
 }
-```
+// ```

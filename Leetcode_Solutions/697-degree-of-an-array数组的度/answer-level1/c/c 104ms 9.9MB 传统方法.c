@@ -1,4 +1,4 @@
-```
+// ```
 /**
 * ... 8 7 6 5 4 3 2 1 0  5到更高位存放：j,频次 j+1:最大下标 0-4位：j,数值 起始下标
 *解题思路：暴力法
@@ -83,4 +83,4 @@ int findShortestSubArray( int * nums , int numsSize ){
     return min + 1;
 
 }
-```
+// ```

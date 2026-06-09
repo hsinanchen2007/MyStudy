@@ -1,9 +1,9 @@
 
-此方法是官方的一次遍历法的变相理解：
-- 设定买入时机 in
-- 后一天比当天价格高，且当前是未买状态，则买
-- 后一天比当天价格低，且当前是已买状态，则卖
-```java
+// 此方法是官方的一次遍历法的变相理解：
+// - 设定买入时机 in
+// - 后一天比当天价格高，且当前是未买状态，则买
+// - 后一天比当天价格低，且当前是已买状态，则卖
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int money = 0;
@@ -23,11 +23,11 @@ class Solution {
         return money;
     }
 }
-```
+// ```
 
-此思想进化之后，即是官方的`一次遍历`题解思想：后一天比前一天价格高，即累加利润值。
+// 此思想进化之后，即是官方的`一次遍历`题解思想：后一天比前一天价格高，即累加利润值。
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int maxprofit = 0;
@@ -38,4 +38,4 @@ class Solution {
         return maxprofit;
     }
 }
-```
+// ```

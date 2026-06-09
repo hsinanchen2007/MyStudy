@@ -1,6 +1,6 @@
-思路：一位数字有9个 两位数字有90个 三位数字有900个...
-注意：本人菜鸡 关键语句基本都写了注释 还请大家多多指教
-```
+# 思路：一位数字有9个 两位数字有90个 三位数字有900个...
+# 注意：本人菜鸡 关键语句基本都写了注释 还请大家多多指教
+# ```
 class Solution:
 	def findNthDigit(self,n):
 		nums=9 #表示该轮数字有多少个 初始化为9 表示的是一位数字的个数是9个 即：1,2,3,4,5,6,7,8,9
@@ -14,4 +14,4 @@ class Solution:
 		if not index_inner: #比如11 到上一步时n=2 index_out=1 index_inner=0
 			return str(start+index_outer-1)[-1]
 		return str(start+index_outer)[index_inner-1] #比如12 到上一步时n=3 index=1 index_inner=1
-```
+# ```

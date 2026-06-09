@@ -1,6 +1,6 @@
-和 767 差不多的思路
+// 和 767 差不多的思路
 
-```go
+// ```go
 import (
     "container/heap"
 )
@@ -74,4 +74,4 @@ func rearrangeBarcodes(barcodes []int) []int {
         }
     }
 }
-```
+// ```

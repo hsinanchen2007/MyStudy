@@ -1,5 +1,5 @@
-思路：先获取上一个字符串，在将它读出来
-```
+# 思路：先获取上一个字符串，在将它读出来
+# ```
 class Solution:
     def countAndSay(self, n: int) -> str:
         if n == 1:
@@ -16,5 +16,5 @@ class Solution:
                 count = 0
         return ''.join(result)
 
-```
+# ```
 

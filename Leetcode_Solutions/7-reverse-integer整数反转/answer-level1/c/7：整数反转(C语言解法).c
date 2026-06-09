@@ -1,4 +1,4 @@
-```
+// ```
 int reverse(int x)
 {
     double ret = 0;
@@ -11,4 +11,4 @@ int reverse(int x)
     }
     return (int)ret;
 }
-```
+// ```

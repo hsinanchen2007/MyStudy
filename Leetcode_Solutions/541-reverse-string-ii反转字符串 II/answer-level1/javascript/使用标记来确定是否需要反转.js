@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {number} k
@@ -14,4 +14,4 @@ var reverseStr = function(s, k) {
   }
   return result;
 };
-```
+// ```

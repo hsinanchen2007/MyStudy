@@ -1,9 +1,9 @@
 
-## 思路
+// ## 思路
 
-二分查找细节，先找左边界，再找右边界，其中若找不到左边界，即可判定找不到
+// 二分查找细节，先找左边界，再找右边界，其中若找不到左边界，即可判定找不到
 
-```
+// ```
 func searchRange(nums []int, target int) (result []int) {
     n := len(nums)
     result = []int{-1, -1}
@@ -50,4 +50,4 @@ func right_bound(nums []int, target int) int {
     return left-1 // 注意
 
 }
-```
+// ```

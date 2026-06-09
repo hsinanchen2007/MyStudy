@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         left=0
@@ -9,7 +9,7 @@ class Solution:
                 n-=1
             left=flowerbed[i]
         return n<=0
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/3c7c9e2ad8ddc1105c03f7ebc22b0ee46d26c5bd4dfcfc356c8fdc8850380076-image.png)
+# ![image.png](https://pic.leetcode-cn.com/3c7c9e2ad8ddc1105c03f7ebc22b0ee46d26c5bd4dfcfc356c8fdc8850380076-image.png)
 

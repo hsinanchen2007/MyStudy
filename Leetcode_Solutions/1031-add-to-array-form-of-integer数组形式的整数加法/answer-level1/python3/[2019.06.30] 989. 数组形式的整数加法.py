@@ -1,6 +1,6 @@
-(1) 暴力求解法
-这个是我刚开始想到的，但是时间复杂度并不好
-```
+# (1) 暴力求解法
+# 这个是我刚开始想到的，但是时间复杂度并不好
+# ```
 def addToArrayForm(A, K):
   Str = ''
   for d in A: Str += str(d)
@@ -10,10 +10,10 @@ def addToArrayForm(A, K):
   for i in range(len(A)): A[i] = int(A[i])
   return A
   print(addToArrayForm([2,7,4], 181))
-```
-(2) 看到官方解题方法
-余数和除数方法
-```
+# ```
+# (2) 看到官方解题方法
+# 余数和除数方法
+# ```
 def addToArrayForm(A, K):
   # A的最后一位加上K, [2,7,185]
   A[-1] += K
@@ -27,4 +27,4 @@ def addToArrayForm(A, K):
   if carry:
     A = map(int, str(carry)) + A
   return A
-```
+# ```

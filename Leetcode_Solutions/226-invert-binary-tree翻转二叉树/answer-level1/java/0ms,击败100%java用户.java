@@ -1,5 +1,5 @@
-我们很容易可以看到，每棵树或子树的左右子树交换之后就是正确答案了，那么我们可以用递归解决就OK
-代码：
+// 我们很容易可以看到，每棵树或子树的左右子树交换之后就是正确答案了，那么我们可以用递归解决就OK
+// 代码：
 class Solution {
     public TreeNode invertTree(TreeNode root) {
         if(root == null)

@@ -1,9 +1,9 @@
-### 解题思路
-在二分查找中，如果中间值等于目标值，则从当前位置向左右查找。
+// ### 解题思路
+// 在二分查找中，如果中间值等于目标值，则从当前位置向左右查找。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int len=nums.length;
@@ -32,4 +32,4 @@ class Solution {
         return new int[]{-1,-1};
     }
 }
-```
+// ```

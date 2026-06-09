@@ -1,10 +1,10 @@
-### 解题思路
-直接遍历数组，若head->val == head->next->val,将head->next = head->next->next;（删掉相同的那一个结点）
-若head->val ！= head->next->val，使head=head->next,(不相同则直接查看下一个结点)
+// ### 解题思路
+// 直接遍历数组，若head->val == head->next->val,将head->next = head->next->next;（删掉相同的那一个结点）
+// 若head->val ！= head->next->val，使head=head->next,(不相同则直接查看下一个结点)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
 
-三指针法：
+// 三指针法：
 
-```
+// ```
 int totalFruit(int* tree, int treeSize){
 
    int start = 0;
@@ -70,4 +70,4 @@ int totalFruit(int* tree, int treeSize){
    }
    return max;
 }
-```
+// ```

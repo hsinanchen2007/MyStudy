@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 
     # 通过二分查找维护一个最长上升子序列
     # 通过循环不断淘汰，腾出位置
@@ -30,8 +30,8 @@
                 low = mid + 1
         
         return low
-```
-```java []
+# ```
+# ```java []
     public int lengthOfLIS(int[] nums) {
         if (nums.length == 0) return 0;
         int[] dp = new int[nums.length];
@@ -48,4 +48,4 @@
         }
         return res;
     }
-```
+# ```

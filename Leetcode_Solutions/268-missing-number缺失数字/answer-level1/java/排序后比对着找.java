@@ -1,9 +1,9 @@
-### 解题思路
-排序后比对着找
+// ### 解题思路
+// 排序后比对着找
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         Arrays.sort(nums);
@@ -15,4 +15,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

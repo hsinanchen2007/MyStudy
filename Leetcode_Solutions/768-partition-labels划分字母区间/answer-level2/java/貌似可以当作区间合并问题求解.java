@@ -1,9 +1,9 @@
-我看好多人都用贪心算法，emmm，但是这道题的第一感觉类似于前面的某道 区间合并问题，具体忘了是哪一道题了。
-所以提供一个区间合并的解法
+// 我看好多人都用贪心算法，emmm，但是这道题的第一感觉类似于前面的某道 区间合并问题，具体忘了是哪一道题了。
+// 所以提供一个区间合并的解法
 
-思路如下：
-首先定义一个简单的类，用来代表每一个字符，该类中有两个主要的成员变量，第一次出现的地方，第二次出现的地方
-```java
+// 思路如下：
+// 首先定义一个简单的类，用来代表每一个字符，该类中有两个主要的成员变量，第一次出现的地方，第二次出现的地方
+// ```java
 static class cus_char{
     // 这个主要用来方便调试，知道当前的对象表示哪一个字符。
     char cur = ' ';
@@ -16,22 +16,22 @@ static class cus_char{
         cur = x;
     }
 }
-```
-这样，我们就得到了每个字符的出现区间，这道题也就自然而然地转化为一个区间合并问题
+// ```
+// 这样，我们就得到了每个字符的出现区间，这道题也就自然而然地转化为一个区间合并问题
 
-然后，我们需要对这些区间排序，自定义一个比较器，用于对cus_char数组排序
-```java
+// 然后，我们需要对这些区间排序，自定义一个比较器，用于对cus_char数组排序
+// ```java
 static class mycmp implements Comparator<cus_char>{
     @Override
     public int compare(cus_char o1, cus_char o2) {
         return o1.begin - o2.begin;
     }
 }
-```
-排序完毕之后，那些在字符串中没有出现过地字符都会被丢到前面去，因为它们地begin变量都是-1
+// ```
+// 排序完毕之后，那些在字符串中没有出现过地字符都会被丢到前面去，因为它们地begin变量都是-1
 
-然后就是区间合并的常规操作了
-```java
+// 然后就是区间合并的常规操作了
+// ```java
     // 排序
     Arrays.sort(chars, new mycmp());
     
@@ -67,10 +67,10 @@ static class mycmp implements Comparator<cus_char>{
     // 对于最后一段，手工执行提取独立区间的操作
     int ans_temp = temp.end - temp.begin + 1;
     ans.add(ans_temp);
-```
+// ```
 
-以下是全部的源代码（太长不看系列）:
-```java
+// 以下是全部的源代码（太长不看系列）:
+// ```java
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -165,4 +165,4 @@ public class solution1 {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def intersection(nums1: Array[Int], nums2: Array[Int]): Array[Int] = {
     import scala.collection.mutable.ArrayBuffer
@@ -16,4 +16,4 @@ object Solution {
     A.distinct.toArray
     }
 }
-```
+// ```

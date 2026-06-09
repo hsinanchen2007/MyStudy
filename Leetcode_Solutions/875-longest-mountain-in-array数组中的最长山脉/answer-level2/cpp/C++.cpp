@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/bdd0cb785c42ea3d9d57a0f751402a00f45d55b4a9506dc186ccf46fc119d247-image.png)
-利用flag标签记录是上山还是下山，然后遍历数组，分情况讨论，详细见注释。
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/bdd0cb785c42ea3d9d57a0f751402a00f45d55b4a9506dc186ccf46fc119d247-image.png)
+// 利用flag标签记录是上山还是下山，然后遍历数组，分情况讨论，详细见注释。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestMountain(vector<int>& A) {
@@ -65,4 +65,4 @@ public:
          return ans;
     }
 };
-```
+// ```

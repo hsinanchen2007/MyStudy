@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         import numpy as np
@@ -20,4 +20,4 @@ class Solution:
         return xunzhao(b1,a[1],-1,-1,count)+xunzhao(b1,a[1],len(b1),1,count)\
             +xunzhao(b2,a[0],-1,-1,count)+xunzhao(b2,a[0],len(b2),1,count)
 
-```
+# ```

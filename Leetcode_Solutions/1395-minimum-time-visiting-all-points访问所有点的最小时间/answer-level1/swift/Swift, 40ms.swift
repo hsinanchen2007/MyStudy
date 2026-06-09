@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func minTimeToVisitAllPoints(_ points: [[Int]]) -> Int {
         var ans: Int = 0
@@ -10,4 +10,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

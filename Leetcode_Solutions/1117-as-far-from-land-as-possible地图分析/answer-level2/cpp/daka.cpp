@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     class Node{
@@ -41,4 +41,4 @@ public:
         return max-1;
     }
 };
-```
+// ```

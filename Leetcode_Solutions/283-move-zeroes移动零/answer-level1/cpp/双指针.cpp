@@ -1,5 +1,5 @@
-若当前指针cur不为0，则交换nums[cur]与nums[pre],pre++
-``` C++
+// 若当前指针cur不为0，则交换nums[cur]与nums[pre],pre++
+// ``` C++
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {

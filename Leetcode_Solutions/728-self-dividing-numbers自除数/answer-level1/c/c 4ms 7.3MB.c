@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -52,4 +52,4 @@ int * selfDividingNumbers( int left , int right , int * returnSize ){
     return buffer;
 
 }
-```
+// ```

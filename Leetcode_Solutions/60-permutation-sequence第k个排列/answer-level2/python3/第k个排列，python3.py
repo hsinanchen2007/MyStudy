@@ -1,5 +1,5 @@
-方法一：回溯（超时）
-```
+# 方法一：回溯（超时）
+# ```
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
         res=0
@@ -21,9 +21,9 @@ class Solution:
         nums=[i for i in range(1,n+1)]
         backtrack("",nums)
         return self.result
-```
-方法二：数学
-```
+# ```
+# 方法二：数学
+# ```
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
         res=""
@@ -40,6 +40,6 @@ class Solution:
         res+=nums[0]
         return res
 
-```
+# ```
 
 

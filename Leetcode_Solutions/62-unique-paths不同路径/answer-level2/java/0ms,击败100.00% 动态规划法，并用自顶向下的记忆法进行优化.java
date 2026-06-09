@@ -1,9 +1,9 @@
-### 解题思路
-每个方格的路径数等于它的上方和左方路径数之和
+// ### 解题思路
+// 每个方格的路径数等于它的上方和左方路径数之和
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int [][] mem;
     public int uniquePaths(int m, int n) {
@@ -32,4 +32,4 @@ class Solution {
 
     }
 }
-```
+// ```

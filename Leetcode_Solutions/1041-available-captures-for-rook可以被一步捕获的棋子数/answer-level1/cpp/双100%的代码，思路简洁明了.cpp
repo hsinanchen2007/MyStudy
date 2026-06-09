@@ -1,9 +1,9 @@
-### 解题思路
-双百分的代码哦，注释写的很清楚哦
+// ### 解题思路
+// 双百分的代码哦，注释写的很清楚哦
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -43,4 +43,4 @@ public:
         return sum;
     }
 };
-```
+// ```

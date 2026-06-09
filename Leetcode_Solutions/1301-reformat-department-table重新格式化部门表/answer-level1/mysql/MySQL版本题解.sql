@@ -1,18 +1,18 @@
 
-原理：某种意义上的转置，也就是行转列
+-- 原理：某种意义上的转置，也就是行转列
 
-1.先解读题意
-2.开始查询一个月的看一下
-```
+-- 1.先解读题意
+-- 2.开始查询一个月的看一下
+-- ```
 select 
     `id`,
     max(if(`month` = 'Jan', revenue, null)) as "Jan_Revenue"
 from
     Department
 group by `id`;
-```
-3.查询12个月的数据
-```
+-- ```
+-- 3.查询12个月的数据
+-- ```
 select 
     `id`,
     max(if(`month` = 'Jan', revenue, null)) as "Jan_Revenue",
@@ -30,8 +30,8 @@ select
 from
     Department
 group by `id`;
-```
+-- ```
 
-感谢这位同学的思路 
+-- 感谢这位同学的思路 
 
-[@chi-chi-ruo-su](/u/chi-chi-ruo-su/)
+-- [@chi-chi-ruo-su](/u/chi-chi-ruo-su/)

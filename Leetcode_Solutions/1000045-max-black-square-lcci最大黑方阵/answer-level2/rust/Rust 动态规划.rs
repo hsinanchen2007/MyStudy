@@ -1,11 +1,11 @@
-用一个二维数组记录某个位置最长连续0个数（行和列），然后沿着对角线检查是否满足边是否是包围的，条件是：
-- `matrix[i - diff][j - diff] == 0`
-- `dp[i - diff][j - diff].0 + diff == dp[i - diff][j].0`
-- `dp[i - diff][j - diff].1 + diff == dp[i][j - diff].1`
-这里`diff`最大取`min(dp[i][j].0, dp[i][j].1)`。
-检查并记录可能的最大边长，最后返回结果即可。
+// 用一个二维数组记录某个位置最长连续0个数（行和列），然后沿着对角线检查是否满足边是否是包围的，条件是：
+// - `matrix[i - diff][j - diff] == 0`
+// - `dp[i - diff][j - diff].0 + diff == dp[i - diff][j].0`
+// - `dp[i - diff][j - diff].1 + diff == dp[i][j - diff].1`
+// 这里`diff`最大取`min(dp[i][j].0, dp[i][j].1)`。
+// 检查并记录可能的最大边长，最后返回结果即可。
 
-```rust
+// ```rust
 use std::cmp::{max, min};
 impl Solution {
 
@@ -53,4 +53,4 @@ impl Solution {
         return vec![];
     }
 }
-```
+// ```

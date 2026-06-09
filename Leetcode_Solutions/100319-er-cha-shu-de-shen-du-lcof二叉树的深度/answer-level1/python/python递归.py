@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution(object):
         left=self.maxDepth(root.left)
         right=self.maxDepth(root.right)
         return max(left,right)+1
-```
+# ```

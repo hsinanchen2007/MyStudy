@@ -1,13 +1,13 @@
-### 解题思路
+-- ### 解题思路
 
-1.提取distinct product_id
-2.提取'2019-08-16'以前的最大日期的售价
-3.join两个表格
-4.用ifnull来补充原始售价10的id情况
+-- 1.提取distinct product_id
+-- 2.提取'2019-08-16'以前的最大日期的售价
+-- 3.join两个表格
+-- 4.用ifnull来补充原始售价10的id情况
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement 
 
 select a.product_id,ifnull(new_price,10) as price
@@ -32,4 +32,4 @@ order by ifnull(new_price,10) desc
 
 
 
-```
+-- ```

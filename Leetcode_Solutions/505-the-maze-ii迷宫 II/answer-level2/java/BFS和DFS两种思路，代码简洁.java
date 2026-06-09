@@ -1,10 +1,10 @@
-### 解题思路
-在上一个题的基础上要找出最短距离，实际上就是单源最短路，迷宫里每个格子都是一个节点，边权为 1，没有负权边，可以用dijkstra，但我感觉我写的不像啊，我也晕了（新手
-，我说的不对麻烦大家帮我指正）用一个二维数组 dist[i][j]表示从起点到这个位置的最短距离（步数），在后面遍历过程中不断的去更新即可
+// ### 解题思路
+// 在上一个题的基础上要找出最短距离，实际上就是单源最短路，迷宫里每个格子都是一个节点，边权为 1，没有负权边，可以用dijkstra，但我感觉我写的不像啊，我也晕了（新手
+// ，我说的不对麻烦大家帮我指正）用一个二维数组 dist[i][j]表示从起点到这个位置的最短距离（步数），在后面遍历过程中不断的去更新即可
 
-### BFS代码
+// ### BFS代码
 
-```java
+// ```java
 class Solution {
     public int shortestDistance(int[][] maze, int[] start, int[] dest) {
         int n = maze.length;
@@ -39,10 +39,10 @@ class Solution {
         return dist[dest[0]][dest[1]] == Integer.MAX_VALUE ? -1 : dist[dest[0]][dest[1]];
     }
 }
-```
+// ```
 
-### DFS代码
-```java
+// ### DFS代码
+// ```java
 class Solution {
     public int shortestDistance(int[][] maze, int[] start, int[] dest) {
         int n = maze.length;
@@ -82,4 +82,4 @@ class Solution {
         }
     }
 }
-```
+// ```

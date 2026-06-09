@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int climbStairs(int n) {
@@ -13,4 +13,4 @@ public:
         return oneStepsDistance + twoStepsDistance;
     }
 };
-```
+// ```

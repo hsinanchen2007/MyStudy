@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows==1:
@@ -17,5 +17,5 @@ class Solution:
             i+=step
             
         return ''.join(res)
-```
+# ```
 

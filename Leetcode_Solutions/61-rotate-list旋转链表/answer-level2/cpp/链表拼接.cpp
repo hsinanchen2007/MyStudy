@@ -1,5 +1,5 @@
-本质还是链表循环右移问题
-```
+// 本质还是链表循环右移问题
+// ```
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

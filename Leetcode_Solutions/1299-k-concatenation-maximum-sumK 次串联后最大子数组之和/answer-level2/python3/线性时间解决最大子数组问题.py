@@ -1,7 +1,7 @@
-![f92643a3d583db56afc7510c201c4d4.png](https://pic.leetcode-cn.com/cc1b778fcfdd37f95df69608b56fbfd80ad705f02c3f601a6bb34a9e0a1c2bf5-f92643a3d583db56afc7510c201c4d4.png)
-##### 这道题的内核是《算法导论》P38的最大子数组问题。
-《导论》介绍了分治法，其时间复杂度为O(nlogn)。这里写出O(n)的方法，没有分治法漂亮但更实用。思路是一次遍历数组，保存每一步的最大子数组和的信息。
-```python []
+# ![f92643a3d583db56afc7510c201c4d4.png](https://pic.leetcode-cn.com/cc1b778fcfdd37f95df69608b56fbfd80ad705f02c3f601a6bb34a9e0a1c2bf5-f92643a3d583db56afc7510c201c4d4.png)
+# ##### 这道题的内核是《算法导论》P38的最大子数组问题。
+# 《导论》介绍了分治法，其时间复杂度为O(nlogn)。这里写出O(n)的方法，没有分治法漂亮但更实用。思路是一次遍历数组，保存每一步的最大子数组和的信息。
+# ```python []
 class Solution:
     def kConcatenationMaxSum(self, arr: List[int], k: int) -> int:
         def max_sub(arr):
@@ -36,5 +36,5 @@ class Solution:
 
         return res % (10 ** 9 + 7)  ## 结果模一个质数，避免过大
 
-```
+# ```
 

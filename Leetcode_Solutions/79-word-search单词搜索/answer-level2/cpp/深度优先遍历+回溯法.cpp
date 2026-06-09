@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/af6b7e14cc781e9ca4fb8c555c07705e0c8e0c5b7ee8c2bf7f0df7799f400420-image.png)
+// ![image.png](https://pic.leetcode-cn.com/af6b7e14cc781e9ca4fb8c555c07705e0c8e0c5b7ee8c2bf7f0df7799f400420-image.png)
 
-### 解题思路
-注意使用引用的方式传递参数。
-同时在递归进行下一步尝试前，就先判断是否已经走到回溯的终点，而不是把判断走到终点的操作丢到下一步回溯的开头，这样可以节省函数压栈的开销，减少递归层次。
+// ### 解题思路
+// 注意使用引用的方式传递参数。
+// 同时在递归进行下一步尝试前，就先判断是否已经走到回溯的终点，而不是把判断走到终点的操作丢到下一步回溯的开头，这样可以节省函数压栈的开销，减少递归层次。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -87,4 +87,4 @@ public:
 }
 
 };
-```
+// ```

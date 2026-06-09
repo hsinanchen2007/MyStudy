@@ -1,9 +1,9 @@
-### 解题思路
-二维求最小距离，分解成x轴上和y轴上求最小距离（Leetcode462里面算法）
-曼哈顿距离的特点是x轴和y轴距离是可以分开计算然后合起来
-### 代码
+// ### 解题思路
+// 二维求最小距离，分解成x轴上和y轴上求最小距离（Leetcode462里面算法）
+// 曼哈顿距离的特点是x轴和y轴距离是可以分开计算然后合起来
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def minTotalDistance(grid: Array[Array[Int]]): Int = {
         //分治思想，这是二维求最小距离，分解成x轴上和y轴上求最小距离；
@@ -32,4 +32,4 @@ object Solution {
         (res/2).toInt
     }
 }
-```
+// ```

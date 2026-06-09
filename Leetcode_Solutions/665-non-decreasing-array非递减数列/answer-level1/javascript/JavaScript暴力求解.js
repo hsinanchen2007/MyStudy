@@ -1,11 +1,11 @@
-### 解题思路
-* 数组有特点，如果长度在1,2这种可以直接提前判断；
-* 通过count来检测是否为true，如果count的数值越小，为0即为 false；
-* 
+// ### 解题思路
+// * 数组有特点，如果长度在1,2这种可以直接提前判断；
+// * 通过count来检测是否为true，如果count的数值越小，为0即为 false；
+// * 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
   /**
  * @param {number[]} nums
  * @return {boolean}
@@ -31,4 +31,4 @@ var checkPossibility = function(nums) {
     }
     return true
 };
-```
+// ```

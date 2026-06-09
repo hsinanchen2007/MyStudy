@@ -1,7 +1,7 @@
-## 解题思路
-主要是通过数组来实现
+// ## 解题思路
+// 主要是通过数组来实现
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -50,4 +50,4 @@ MyQueue.prototype.empty = function() {
  * var param_3 = obj.peek()
  * var param_4 = obj.empty()
  */
-```
+// ```

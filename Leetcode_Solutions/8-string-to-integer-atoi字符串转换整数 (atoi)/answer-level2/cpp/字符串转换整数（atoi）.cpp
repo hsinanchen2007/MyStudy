@@ -1,9 +1,9 @@
-### 解题思路
-利用stringstream流函数
+// ### 解题思路
+// 利用stringstream流函数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -19,4 +19,4 @@ public:
             return num;
     }
 };
-```
+// ```

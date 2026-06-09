@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/58da168a6e09148ee6ce678048edbd007aed4655ab0dd010c9e9c09eeeba9c9b-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/58da168a6e09148ee6ce678048edbd007aed4655ab0dd010c9e9c09eeeba9c9b-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void DFS(char** grid, int gridSize, int* gridColSize,int r,int c)
 {
     if(r < 0 || r > gridSize - 1 || c < 0 ||c > gridColSize[0] - 1 || grid[r][c] != '1')
@@ -44,4 +44,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
 
     return sum;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-还是使用condition_variable，注意要让所有的线程在执行完之后顺利推出。否则会时间超限。
+// 还是使用condition_variable，注意要让所有的线程在执行完之后顺利推出。否则会时间超限。
 
-```
+// ```
 class FizzBuzz {
 private:
     int n;
@@ -85,11 +85,11 @@ public:
         }
     }
 };
-```
+// ```
 
-附上测试用主函数
+// 附上测试用主函数
 
-```
+// ```
 int main(int argc, void** argv)
 {
     FizzBuzz fz(1);
@@ -129,5 +129,5 @@ int main(int argc, void** argv)
 
     return 0;
 }
-```
+// ```
 

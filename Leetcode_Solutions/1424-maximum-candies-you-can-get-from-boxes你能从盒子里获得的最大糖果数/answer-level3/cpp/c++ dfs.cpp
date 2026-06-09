@@ -1,11 +1,11 @@
-![QQ图片20191222210020.png](https://pic.leetcode-cn.com/4e1ce22ba69274124a5386308ec3a431cc320db727fc5336d88ff502e43ead9d-QQ%E5%9B%BE%E7%89%8720191222210020.png)
+// ![QQ图片20191222210020.png](https://pic.leetcode-cn.com/4e1ce22ba69274124a5386308ec3a431cc320db727fc5336d88ff502e43ead9d-QQ%E5%9B%BE%E7%89%8720191222210020.png)
 
-### 解题思路
-第一次dfs先拿到所有钥匙，
-第二次dfs拿到所有糖果。
-### 代码
+// ### 解题思路
+// 第一次dfs先拿到所有钥匙，
+// 第二次dfs拿到所有糖果。
+// ### 代码
 
-```cpp
+// ```cpp
 
 const int kMaxLength = 1000;
 class Solution {
@@ -68,4 +68,4 @@ class Solution {
     }
   }
 };
-```
+// ```

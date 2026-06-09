@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private List<List<Character>> list=new ArrayList<>();
     public List<String> printKMoves(int K) {
@@ -197,4 +197,4 @@ class Solution {
         helper(nextX,nextY,times-1,next);
     }
 }
-```
+// ```

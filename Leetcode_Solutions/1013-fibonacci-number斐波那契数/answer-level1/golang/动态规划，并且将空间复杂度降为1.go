@@ -1,9 +1,9 @@
-### 解题思路
-有点类似于链表
+// ### 解题思路
+// 有点类似于链表
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func fib(N int) int {
     memo := make([]int, N + 1)
     return recur(N, memo)
@@ -19,4 +19,4 @@ func recur(n int, memo []int) int {
     }
     return memo[n]
 }
-```
+// ```

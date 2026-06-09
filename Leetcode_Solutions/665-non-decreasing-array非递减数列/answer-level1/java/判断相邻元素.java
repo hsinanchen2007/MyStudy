@@ -1,14 +1,14 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 循环遍历数组，有三种情况
-        2.1.1 nums[i]>=nums[i-1],符合题意
-        2.1.2 nums[i-2]>nums[i],表示nums[i-1]会小于nums[i-2],所以我们将nums[i]设置为nums[i-1]
-        2.1.3 nums[i-2]<=nums[i],将nums[i-1]设为nums[i]会符合题意
-<br />
-### java实现
-```
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 循环遍历数组，有三种情况
+//         2.1.1 nums[i]>=nums[i-1],符合题意
+//         2.1.2 nums[i-2]>nums[i],表示nums[i-1]会小于nums[i-2],所以我们将nums[i]设置为nums[i-1]
+//         2.1.3 nums[i-2]<=nums[i],将nums[i-1]设为nums[i]会符合题意
+// <br />
+// ### java实现
+// ```
 class Solution{
 
     /**
@@ -48,10 +48,10 @@ class Solution{
         return flag<2;
     }
 }
-```
+// ```
 
-### php实现
-```
+// ### php实现
+// ```
 class Solution{
 
     /**
@@ -91,7 +91,7 @@ class Solution{
         return $flag < 2;
     }
 }
-```
+// ```
 
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

@@ -1,7 +1,7 @@
-思路：递归；
-一：生成一个新的tree；
-二：合并到的t1/t2上
-```
+// 思路：递归；
+// 一：生成一个新的tree；
+// 二：合并到的t1/t2上
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -28,4 +28,4 @@ var mergeTrees = function(t1, t2) {
     }
     
 };
-```
+// ```

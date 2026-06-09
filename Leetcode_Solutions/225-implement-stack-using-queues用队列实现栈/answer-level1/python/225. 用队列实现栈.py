@@ -1,9 +1,9 @@
-### 解题思路
-用主辅两个queue，元素都存在主queue里面，当pop元素时，辅助queue保存主queue的元素(除了主queueu最后的元素)
+# ### 解题思路
+# 用主辅两个queue，元素都存在主queue里面，当pop元素时，辅助queue保存主queue的元素(除了主queueu最后的元素)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from Queue import Queue
 
 class MyStack(object):
@@ -61,4 +61,4 @@ class MyStack(object):
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

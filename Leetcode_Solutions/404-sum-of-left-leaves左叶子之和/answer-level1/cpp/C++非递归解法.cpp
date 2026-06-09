@@ -1,4 +1,4 @@
-看大家基本都是递归解法，贴一个非递归的：
+// 看大家基本都是递归解法，贴一个非递归的：
 
         stack<TreeNode*> tree_node;
         if(NULL == root) return 0;

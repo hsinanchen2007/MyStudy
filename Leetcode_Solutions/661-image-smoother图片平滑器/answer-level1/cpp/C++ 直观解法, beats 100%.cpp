@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> imageSmoother(vector<vector<int>>& M) {
@@ -23,8 +23,8 @@ public:
         return result;
     }
 };
-```
+// ```
 
 
-执行用时 :168 ms, 在所有 C++ 提交中击败了100.00% 的用户
-内存消耗 :17.6 MB, 在所有 C++ 提交中击败了79.09%的用户
+// 执行用时 :168 ms, 在所有 C++ 提交中击败了100.00% 的用户
+// 内存消耗 :17.6 MB, 在所有 C++ 提交中击败了79.09%的用户

@@ -1,7 +1,7 @@
-中序遍历，理解了每个节点都遵循如下结构，就不难实现。
-[头-左子树-尾] <-> 根结点 <-> [头-右子树-尾]
-（定义DoublyList对象是为了便于理解，其实用数组就好了）
-```java
+// 中序遍历，理解了每个节点都遵循如下结构，就不难实现。
+// [头-左子树-尾] <-> 根结点 <-> [头-右子树-尾]
+// （定义DoublyList对象是为了便于理解，其实用数组就好了）
+// ```java
 class Solution {
     public Node treeToDoublyList(Node root) {
         if (root == null) return null;
@@ -46,4 +46,4 @@ class Solution {
         }
     }
 }
-```
+// ```

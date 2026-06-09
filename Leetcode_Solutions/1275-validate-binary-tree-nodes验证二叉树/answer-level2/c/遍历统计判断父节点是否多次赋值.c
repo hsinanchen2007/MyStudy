@@ -1,11 +1,11 @@
-### 解题思路
-1.建立一个节点数组，针对每一个节点，判断其父节点是否存在多次赋值，父节点每赋值一次，nullparenetCount--；
-2.最后判断是否只有一个父节点，如果为0，表示环，大于1表示有多个root节点；
-3.特殊情况：其中部分成环，存在单独的root节点，需要特殊判断
+// ### 解题思路
+// 1.建立一个节点数组，针对每一个节点，判断其父节点是否存在多次赋值，父节点每赋值一次，nullparenetCount--；
+// 2.最后判断是否只有一个父节点，如果为0，表示环，大于1表示有多个root节点；
+// 3.特殊情况：其中部分成环，存在单独的root节点，需要特殊判断
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct{
     int parent;
     int lChild;
@@ -66,4 +66,4 @@ bool validateBinaryTreeNodes(int n, int* leftChild, int leftChildSize, int* righ
 
     return flag;
 }
-```
+// ```

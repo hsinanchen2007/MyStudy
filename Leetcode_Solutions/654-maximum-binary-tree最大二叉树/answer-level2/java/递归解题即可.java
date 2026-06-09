@@ -1,4 +1,4 @@
-```
+// ```
 import java.util.Arrays;
 class Solution {
    public TreeNode constructMaximumBinaryTree(int[] nums) {
@@ -28,6 +28,6 @@ class Solution {
             return t;
         }
 }
-```
+// ```
 
-直接递归解题，找出数组最大值以及最大值的索引，然后根据这个分割数组。之后再递归调用得到最大子数组放到左右子树中即可。
+// 直接递归解题，找出数组最大值以及最大值的索引，然后根据这个分割数组。之后再递归调用得到最大子数组放到左右子树中即可。

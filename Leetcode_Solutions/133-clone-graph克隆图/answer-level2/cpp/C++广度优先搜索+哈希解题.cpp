@@ -1,6 +1,6 @@
-由于100个结点不算很多，开始直接创造100个结点出来，并且绑定哈希。
-然后进行BFS，并且绑定相邻关系。
-```
+// 由于100个结点不算很多，开始直接创造100个结点出来，并且绑定哈希。
+// 然后进行BFS，并且绑定相邻关系。
+// ```
 bitset<101> flag;
     unordered_map<int,Node*> hash;
     Node* cloneGraph(Node* node) {
@@ -32,4 +32,4 @@ bitset<101> flag;
         }
         return hash[node->val];
     }
-```
+// ```

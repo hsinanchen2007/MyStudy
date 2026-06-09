@@ -1,9 +1,9 @@
-### 解题思路
-先将每个单词逆序，之后对words排序，比较相邻两个单词，前一个是否与后一个的前n个字符相等即可。
+// ### 解题思路
+// 先将每个单词逆序，之后对words排序，比较相邻两个单词，前一个是否与后一个的前n个字符相等即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumLengthEncoding(vector<string>& words) {
@@ -24,4 +24,4 @@ public:
         return res + words.back().size() + 1;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
 
 
-### 代码
+# ### 代码
 
-可读代码：
-```python []
+# 可读代码：
+# ```python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -33,10 +33,10 @@ class Solution:
 
         dfs(root, sum)
         return res
-```
+# ```
 
-简洁写法：
-```python []
+# 简洁写法：
+# ```python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -60,9 +60,9 @@ class Solution:
         dfs(root, sum)
         return ans
 
-```
+# ```
 
-```cpp []
+# ```cpp []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -90,8 +90,8 @@ public:
         path.pop_back(); //删除向量中的最后一个元素，有效地将容器大小减小了一个。
     }
 };
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
         self.ans, self.path = [],[]    
@@ -106,9 +106,9 @@ class Solution:
         self.dfs(root.left, sum)
         self.dfs(root.right, sum)
         self.path.pop()
-```
-![截屏2020-03-10下午3.27.28.png](https://pic.leetcode-cn.com/d4547289c9e852abe1fc2d5872f41ccb753055f96503e9921c7c4c907dc22796-%E6%88%AA%E5%B1%8F2020-03-10%E4%B8%8B%E5%8D%883.27.28.png)
+# ```
+# ![截屏2020-03-10下午3.27.28.png](https://pic.leetcode-cn.com/d4547289c9e852abe1fc2d5872f41ccb753055f96503e9921c7c4c907dc22796-%E6%88%AA%E5%B1%8F2020-03-10%E4%B8%8B%E5%8D%883.27.28.png)
 
 
-[更多《剑指 Offer》有趣题解，关注DoneIsBetter简书](https://www.jianshu.com/p/9cbdda8a3e5e)
+# [更多《剑指 Offer》有趣题解，关注DoneIsBetter简书](https://www.jianshu.com/p/9cbdda8a3e5e)
 

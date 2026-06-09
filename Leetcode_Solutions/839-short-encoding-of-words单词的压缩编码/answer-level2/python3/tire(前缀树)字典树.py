@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         class Node():
@@ -27,4 +27,4 @@ class Solution:
                 vis(c)
         vis(root)
         return ans[0]
-```
+# ```

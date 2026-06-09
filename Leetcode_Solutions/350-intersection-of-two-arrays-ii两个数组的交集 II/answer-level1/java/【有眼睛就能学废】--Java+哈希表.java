@@ -1,9 +1,9 @@
-### 解题思路
-统计每个数组中元素出现的次数，并分别存放到两个map中。遍历map，查看另一个map中是否存在该元素，并根据它们出现的次数，存放到一个list中。
+// ### 解题思路
+// 统计每个数组中元素出现的次数，并分别存放到两个map中。遍历map，查看另一个map中是否存在该元素，并根据它们出现的次数，存放到一个list中。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] intersect(int[] nums1, int[] nums2) {
         Map<Integer, Integer> map1 = new HashMap<>();
@@ -35,4 +35,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

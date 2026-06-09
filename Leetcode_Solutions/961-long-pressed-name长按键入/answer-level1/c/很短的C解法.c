@@ -1,6 +1,6 @@
-控制好循环直接判断是否相同就行
+// 控制好循环直接判断是否相同就行
 
-```
+// ```
 bool isLongPressedName(char * name, char * typed){
     int len=(int)strlen(name),k=0;
     for(int i=0;i<len;i++){
@@ -10,5 +10,5 @@ bool isLongPressedName(char * name, char * typed){
     }
     return true;
 }
-```
+// ```
 

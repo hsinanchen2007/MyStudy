@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
-![捕获5.PNG](https://pic.leetcode-cn.com/07e2ff9c42b1109b607e4d6eb581cf7485b762c67029c854eea4001f6fa136b8-%E6%8D%95%E8%8E%B75.PNG)
+// ### 代码
+// ![捕获5.PNG](https://pic.leetcode-cn.com/07e2ff9c42b1109b607e4d6eb581cf7485b762c67029c854eea4001f6fa136b8-%E6%8D%95%E8%8E%B75.PNG)
 
-```java
+// ```java
 class Solution {
     public char firstUniqChar(String s) {
         /*if(s==null||s.length()==0){
@@ -42,4 +42,4 @@ class Solution {
         return ' ';
     }
 }
-```
+// ```

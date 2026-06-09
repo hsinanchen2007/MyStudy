@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int divide(int dividend, int divisor) {
         if(dividend==0)
@@ -31,4 +31,4 @@ class Solution {
         else return number;
         } 
 }
-```
+// ```

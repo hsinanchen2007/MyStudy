@@ -1,9 +1,9 @@
-- 设置左、右`双指针`，向中间判断；
-- 跳过`非数字字母`的字符；
-- 将字母全部转化为`小写体`，之后判断。
-- `java`用了库函数，`python`纯自己实现（运行时间不太理想）。
+# - 设置左、右`双指针`，向中间判断；
+# - 跳过`非数字字母`的字符；
+# - 将字母全部转化为`小写体`，之后判断。
+# - `java`用了库函数，`python`纯自己实现（运行时间不太理想）。
 
-```python []
+# ```python []
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         left, right = 0, len(s) - 1
@@ -20,8 +20,8 @@ class Solution:
     
     def not_letters_digits(self, c):
         return not 'A' <= c <= 'Z' and not 'a' <= c <= 'z' and not '0' <= c <= '9'
-```
-```java []
+# ```
+# ```java []
 class Solution {
     public boolean isPalindrome(String s) {
         int i = 0, j = s.length() - 1;
@@ -34,4 +34,4 @@ class Solution {
         return true;
     }
 }
-```
+# ```

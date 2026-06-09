@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 # define num(x) ( x>='0' && x<='9' )
 # define int_max_safe(x,y) ( x<INT_MAX/10 || ( x==INT_MAX/10 && y<=INT_MAX%10 )  )
 # define int_min_safe(x,y) ( x>INT_MIN/10 || ( x==INT_MIN/10 && y>=INT_MIN%10 ) )
@@ -33,4 +33,4 @@ int myAtoi(char * str){
     }
     return convert_ans;
 }
-```
+// ```

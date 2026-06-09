@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public bool BackspaceCompare(string S, string T) {
         Stack<char> s = new Stack<char>();
@@ -42,4 +42,4 @@ public class Solution {
             } 
     }
 }
-```
+// ```

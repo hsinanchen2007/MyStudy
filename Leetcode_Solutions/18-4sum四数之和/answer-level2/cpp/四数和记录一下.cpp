@@ -1,9 +1,9 @@
-### 解题思路
-先排序，再外面两重遍历，里面双指针法找。一开始要100ms，后来加了判断vector大小以及前四个数的和与target的比较，变成了48ms，效率不太理想。
+// ### 解题思路
+// 先排序，再外面两重遍历，里面双指针法找。一开始要100ms，后来加了判断vector大小以及前四个数的和与target的比较，变成了48ms，效率不太理想。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -54,4 +54,4 @@ public:
         return res;
     }
 };
-```
+// ```

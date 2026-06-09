@@ -1,10 +1,10 @@
-移动元素k位，相对于移动head(N - k % N)位，且新链表的尾结点在该新head的前一位(N - k % N - 1)。
+// 移动元素k位，相对于移动head(N - k % N)位，且新链表的尾结点在该新head的前一位(N - k % N - 1)。
 
-首先，记录结点个数，并且做成环链表；
-然后，计算N - k % N，这个head移动该步数后，新head所在的位置；
-最后，移动head(N - k % N - 1)位，得到新链表的尾指针，该指针的下一位即新表的头结点。
+// 首先，记录结点个数，并且做成环链表；
+// 然后，计算N - k % N，这个head移动该步数后，新head所在的位置；
+// 最后，移动head(N - k % N - 1)位，得到新链表的尾指针，该指针的下一位即新表的头结点。
 
-```
+// ```
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
@@ -31,6 +31,6 @@ public:
         return head;
     }
 };
-```
-![捕获.JPG](https://pic.leetcode-cn.com/c383b95c6628dac2381b7a44ddcec3b4067bc236a26baf913b57b74da09c7898-%E6%8D%95%E8%8E%B7.JPG)
+// ```
+// ![捕获.JPG](https://pic.leetcode-cn.com/c383b95c6628dac2381b7a44ddcec3b4067bc236a26baf913b57b74da09c7898-%E6%8D%95%E8%8E%B7.JPG)
 

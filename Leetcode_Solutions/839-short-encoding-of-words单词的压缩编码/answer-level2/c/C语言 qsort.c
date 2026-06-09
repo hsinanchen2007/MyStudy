@@ -1,9 +1,9 @@
-### 解题思路
-words 中的字符串按长度从大到小排序
-检查每个单词是否是前一个单词的子串，如果是，还要检查是否是前一个单词的末尾。
+// ### 解题思路
+// words 中的字符串按长度从大到小排序
+// 检查每个单词是否是前一个单词的子串，如果是，还要检查是否是前一个单词的末尾。
 
-用到了qsort，
-```
+// 用到了qsort，
+// ```
 int compare(char **a, char **b)
 {
    //按长度排序, 从长到短
@@ -11,20 +11,20 @@ int compare(char **a, char **b)
 }
 
 qsort(words, wordsSize, sizeof(char *), compare);
-```
-qsort 比较字符串数组：
-```
+// ```
+// qsort 比较字符串数组：
+// ```
 int compare(const void *p, const void *q)
 {
     return strcmp(*(char **)p, *(char **)q);
 }
 
 qsort(words, wordsSize, sizeof(char *), compare);
-```
+// ```
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int compare(char **a, char **b)
 {
    //按长度排序, 从长到短
@@ -55,4 +55,4 @@ int minimumLengthEncoding(char ** words, int wordsSize){
     }
     return strlen(ret);
 }
-```
+// ```

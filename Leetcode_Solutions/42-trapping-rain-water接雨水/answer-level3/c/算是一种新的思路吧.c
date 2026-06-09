@@ -1,5 +1,5 @@
-本解是先找出数组中最大的元素，然后分左右两边找出次大的元素，求这两个元素中能装的雨水的量，然后再递归求解。其中，每次取最大的元素比较费时。
-```
+// 本解是先找出数组中最大的元素，然后分左右两边找出次大的元素，求这两个元素中能装的雨水的量，然后再递归求解。其中，每次取最大的元素比较费时。
+// ```
 int raintrapleft(int *height, int heightSize,int left, int right);
 int raintrapright(int *height, int heightSize,int left, int right);
 int findmax(int *height,int left, int right);
@@ -48,4 +48,4 @@ int findmax(int *height,int left, int right){
     }
     return pos;
 }
-```
+// ```

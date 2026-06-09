@@ -1,4 +1,4 @@
-```
+// ```
 int findMin(int* nums, int numsSize){
     int left = 0,right = numsSize - 1;
     if (nums[left] <= nums[right]){
@@ -13,5 +13,5 @@ int findMin(int* nums, int numsSize){
     } 
     return nums[right];
 }
-```
-提交的代码中暴力搜索的比二分查找的快。。。
+// ```
+// 提交的代码中暴力搜索的比二分查找的快。。。

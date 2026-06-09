@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -13,4 +13,4 @@ public:
         return triangle[n-1][0];
     }
 };
-```
+// ```

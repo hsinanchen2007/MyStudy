@@ -1,8 +1,8 @@
-### 解题思路
-使用插入排序的思想进行处理
-### 代码
+// ### 解题思路
+// 使用插入排序的思想进行处理
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
      int index = 0;
@@ -24,4 +24,4 @@ class Solution {
         }
     }
 }
-```
+// ```

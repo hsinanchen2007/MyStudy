@@ -1,15 +1,15 @@
-### 解题思路
-编写一个程序，找到两个单链表相交的起始节点。
+// ### 解题思路
+// 编写一个程序，找到两个单链表相交的起始节点。
 
-如下面的两个链表：
+// 如下面的两个链表：
 
 
 
-在节点 c1 开始相交。
+// 在节点 c1 开始相交。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     }
     return tempa;
 }
-```
+// ```

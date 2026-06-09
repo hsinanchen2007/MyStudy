@@ -1,6 +1,6 @@
-- 首先初始化 1 代表线  或者代表以及当前节点已经被访问过
-- 每个未被访问的节点向 上下左右  四个方向继续访问  并且标记当前节点已经被访问
-```
+// - 首先初始化 1 代表线  或者代表以及当前节点已经被访问过
+// - 每个未被访问的节点向 上下左右  四个方向继续访问  并且标记当前节点已经被访问
+// ```
 var regionsBySlashes = function(grid) {
   let len = grid.length;
   let dp = Array.from({length: 3 * len}, () => new Array(3 * len).fill(0))
@@ -38,4 +38,4 @@ var regionsBySlashes = function(grid) {
   }
   return res;
 };
-```
+// ```

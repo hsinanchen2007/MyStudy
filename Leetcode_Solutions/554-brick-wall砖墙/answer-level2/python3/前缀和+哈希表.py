@@ -1,6 +1,6 @@
-**思路**:能影响到结果的只有每块砖的右端
-**注意**:go还是新手 py3也就那样子 以下代码仅供参考 哪里可以改进的还请各位多多指教
-```python []
+# **思路**:能影响到结果的只有每块砖的右端
+# **注意**:go还是新手 py3也就那样子 以下代码仅供参考 哪里可以改进的还请各位多多指教
+# ```python []
 from collections import defaultdict
 from itertools import accumulate
 class Solution:
@@ -13,8 +13,8 @@ class Solution:
 			_sum_=j #砖墙的最右端 题目中也提示了这种情况是不可以的 也可以把上两行的accumulate(i)改成accumulate(i[:-1])
 		situ[_sum_]=0
 		return len(wall)-max(situ.values())
-```
-```golang []
+# ```
+# ```golang []
 func leastBricks(wall [][]int) int {
 	situ,_sum:=map[int]int{},0
 	for _,i:=range wall {
@@ -34,4 +34,4 @@ func leastBricks(wall [][]int) int {
 	}
 	return len(wall)-ans
 }
-```
+# ```

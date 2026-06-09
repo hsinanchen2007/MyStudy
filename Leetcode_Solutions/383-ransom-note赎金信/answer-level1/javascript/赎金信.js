@@ -1,4 +1,4 @@
-```js
+// ```js
 var canConstruct = function(ransomNote, magazine) {
     for (let i = 0; i < ransomNote.length; i++) {
         let index = magazine.indexOf(ransomNote[i])
@@ -11,4 +11,4 @@ var canConstruct = function(ransomNote, magazine) {
     }
     return true
 };
-```
+// ```

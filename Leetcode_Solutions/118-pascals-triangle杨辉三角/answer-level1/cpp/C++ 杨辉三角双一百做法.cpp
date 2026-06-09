@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -16,5 +16,5 @@ public:
         return res ;
     }
 };
-```
-新人入坑，有更优的解法欢迎分享一下。
+// ```
+// 新人入坑，有更优的解法欢迎分享一下。

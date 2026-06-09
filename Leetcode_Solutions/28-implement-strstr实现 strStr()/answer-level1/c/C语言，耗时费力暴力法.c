@@ -1,9 +1,9 @@
-### 解题思路
-双循环
+// ### 解题思路
+// 双循环
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle){
     int len1=strlen(haystack);
     int len2=strlen(needle);
@@ -25,4 +25,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

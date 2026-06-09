@@ -1,9 +1,9 @@
-### 解题思路
-顺序寻找集合范围
+# ### 解题思路
+# 顺序寻找集合范围
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         intervals.sort(key=lambda x: x[0])
@@ -14,4 +14,4 @@ class Solution:
             else:
                 merged[-1][1] = max(merged[-1][1], interval[1])
         return merged
-```
+# ```

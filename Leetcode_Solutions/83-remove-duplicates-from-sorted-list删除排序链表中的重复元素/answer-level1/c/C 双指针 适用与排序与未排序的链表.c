@@ -1,9 +1,9 @@
-### 解题思路
-本题链表是已经排序的，若题目未排序，则可以通过双指针循环解决
+// ### 解题思路
+// 本题链表是已经排序的，若题目未排序，则可以通过双指针循环解决
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head)
     return head;
 }
 
-```
+// ```

@@ -1,6 +1,6 @@
-把每一轮的结果入栈，之后进行加和
+// 把每一轮的结果入栈，之后进行加和
 
-```
+// ```
 /**
  * @param {string[]} ops
  * @return {number}
@@ -37,4 +37,4 @@ var calPoints = function(ops) {
     })
     return result.reduce((a, b) => {return a + b})
 };
-```
+// ```

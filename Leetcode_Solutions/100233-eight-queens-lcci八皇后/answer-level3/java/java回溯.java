@@ -1,6 +1,6 @@
-#### - 从左到右递归试法，先行后列，满足条件就记录在record数组中
+// #### - 从左到右递归试法，先行后列，满足条件就记录在record数组中
 
-```java
+// ```java
 class Solution {
     public List<List<String>> solveNQueens(int n) {
    List<List<String>> list = new ArrayList<>();
@@ -49,4 +49,4 @@ class Solution {
         list.add(strings);
     }
 }
-```
+// ```

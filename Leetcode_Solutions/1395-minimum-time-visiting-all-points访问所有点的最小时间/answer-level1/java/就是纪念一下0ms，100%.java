@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
         int res = 0;
@@ -13,5 +13,5 @@ class Solution {
         return x>y?x:y;
     }
 }
-```
-![p1266.png](https://pic.leetcode-cn.com/0756309072753adfd11e81cc25925480096a775eb63bd04554dd7ca69c575204-p1266.png)
+// ```
+// ![p1266.png](https://pic.leetcode-cn.com/0756309072753adfd11e81cc25925480096a775eb63bd04554dd7ca69c575204-p1266.png)

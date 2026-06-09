@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-简单递归，代码如下
+# ### 解题思路
+# 此处撰写解题思路
+# 简单递归，代码如下
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -48,4 +48,4 @@ class Solution:
 
 
         
-```
+# ```

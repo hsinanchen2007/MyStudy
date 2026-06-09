@@ -1,1 +1,1 @@
-这一题就是reduce的原理啊。。。wordcount的思想
+# 这一题就是reduce的原理啊。。。wordcount的思想

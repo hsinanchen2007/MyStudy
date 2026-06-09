@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import deque
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
@@ -26,4 +26,4 @@ class Solution:
           sum1 -= q.popleft()   
       
       return result
-```
+# ```

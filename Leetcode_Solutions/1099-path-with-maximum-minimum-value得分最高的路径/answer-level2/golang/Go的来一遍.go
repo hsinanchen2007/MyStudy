@@ -1,9 +1,9 @@
-### 解题思路
-试了好几次深搜+二分，都超时，改成宽搜+二分了
+// ### 解题思路
+// 试了好几次深搜+二分，都超时，改成宽搜+二分了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func min(a, b int) int {
 	if a > b {
 		return b
@@ -70,4 +70,4 @@ func maximumMinimumPath(A [][]int) int {
 	}
 	return result
 }
-```
+// ```

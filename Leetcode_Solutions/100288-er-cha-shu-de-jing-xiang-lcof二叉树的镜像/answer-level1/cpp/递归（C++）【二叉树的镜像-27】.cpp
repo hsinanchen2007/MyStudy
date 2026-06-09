@@ -1,10 +1,10 @@
-### 解题思路
-递归解决。
-记得保存！不然交换时会乱掉！
+// ### 解题思路
+// 递归解决。
+// 记得保存！不然交换时会乱掉！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -24,4 +24,4 @@ public:
         return root;
     }
 };
-```
+// ```

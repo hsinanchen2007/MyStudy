@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if not needle: 
@@ -14,4 +14,4 @@ class Solution:
             if haystack[i:i+len(needle)] == needle:
                 return i
         return -1
-```
+# ```

@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         result = 0
@@ -15,5 +15,5 @@ class Solution:
                 else:
                     break
         return result
-```
+# ```
 

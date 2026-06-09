@@ -1,11 +1,11 @@
-### 解题思路
-这道题用先是排序，然后用的动态规划。
-目前测试用例都能通过，但是超出时间限制，基本都是300ms左右。
-求大神
+// ### 解题思路
+// 这道题用先是排序，然后用的动态规划。
+// 目前测试用例都能通过，但是超出时间限制，基本都是300ms左右。
+// 求大神
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public int bestSeqAtIndex(int[] height, int[] weight) {
         int [][]mix=new int[height.length][2];
         for (int i=0;i<height.length;i++){

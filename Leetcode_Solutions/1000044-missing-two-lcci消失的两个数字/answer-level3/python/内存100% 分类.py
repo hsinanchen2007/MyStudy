@@ -1,9 +1,9 @@
-### 解题思路
-建立新的表进行对比
+# ### 解题思路
+# 建立新的表进行对比
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def missingTwo(self, nums: List[int]) -> List[int]:
         result = []
@@ -20,4 +20,4 @@ class Solution:
             list1 = [1,2,3]
             list1.remove(nums[0])
             return list1
-```
+# ```

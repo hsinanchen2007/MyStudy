@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int[] mDay = new int[] {0,31,28,31,30,31,30,31,31,30,31,30,31};
     String[] wDay = new String[] {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
@@ -35,4 +35,4 @@ class Solution {
         return year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-有限状态机最主要的是把所有条件和图画出来。然后就是根据画的图填具体的内容。
-![image.png](https://pic.leetcode-cn.com/e87dc057b4d26e4b8554b4fb311ffa9df8301ab5f10d3755a1ab115d8cf6c925-image.png)
+// 有限状态机最主要的是把所有条件和图画出来。然后就是根据画的图填具体的内容。
+// ![image.png](https://pic.leetcode-cn.com/e87dc057b4d26e4b8554b4fb311ffa9df8301ab5f10d3755a1ab115d8cf6c925-image.png)
 
-最后其实还有空格也可以加入到状态机中，但是图方便就省掉了，图画的比较搓
-```
+// 最后其实还有空格也可以加入到状态机中，但是图方便就省掉了，图画的比较搓
+// ```
 var (
 	blank  = 0 // 空格
 	digit1 = 1 // 数字(0-9) 无前缀
@@ -53,4 +53,4 @@ func isNumber(s string) bool {
 	return state == digit1 || state == digit2 || state == digit3
 }
 
-```
+// ```

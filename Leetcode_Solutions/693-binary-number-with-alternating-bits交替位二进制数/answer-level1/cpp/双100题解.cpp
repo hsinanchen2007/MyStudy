@@ -1,9 +1,9 @@
-### 解题思路
-构造一个控制变量如果连续两次出现相同数字 则返回 false;
+// ### 解题思路
+// 构造一个控制变量如果连续两次出现相同数字 则返回 false;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasAlternatingBits(int n) {
@@ -20,4 +20,4 @@ public:
         return true;
     }
 };
-```
+// ```

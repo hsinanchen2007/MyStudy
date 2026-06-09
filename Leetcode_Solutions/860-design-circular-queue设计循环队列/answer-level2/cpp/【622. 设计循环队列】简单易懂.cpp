@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class MyCircularQueue {
     int* data;
     int size;
@@ -69,11 +69,11 @@ public:
         return capicity == size;
     }
 };
-```
-#### 简化代码
-- 用模运算取代 if
-- 使用vector
-```c++
+// ```
+// #### 简化代码
+// - 用模运算取代 if
+// - 使用vector
+// ```c++
 class MyCircularQueue {
     vector<int> data;
     int size;
@@ -133,5 +133,5 @@ public:
         return capicity == size;
     }
 };
-```
+// ```
 

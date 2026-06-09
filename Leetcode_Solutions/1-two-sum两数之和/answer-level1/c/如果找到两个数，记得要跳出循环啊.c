@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组中所有两个不同数的组合，当找到满足两数之和为target时，跳出循环
+// ### 解题思路
+// 遍历数组中所有两个不同数的组合，当找到满足两数之和为target时，跳出循环
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -33,4 +33,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     *returnSize = 2;
     return answer;
 }
-```
+// ```

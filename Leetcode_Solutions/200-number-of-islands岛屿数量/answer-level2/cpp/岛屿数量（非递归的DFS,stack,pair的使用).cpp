@@ -1,10 +1,10 @@
-### 解题思路
-官方的思路：线性扫描整个二维网格，如果一个结点包含 1，则以其为根结点启动深度优先搜索。在深度优先搜索过程中，每个访问过的结点被标记为 0。计数启动深度优先搜索的根结点的数量，即为岛屿的数量。
+// ### 解题思路
+// 官方的思路：线性扫描整个二维网格，如果一个结点包含 1，则以其为根结点启动深度优先搜索。在深度优先搜索过程中，每个访问过的结点被标记为 0。计数启动深度优先搜索的根结点的数量，即为岛屿的数量。
 
-总的来说就是：二重循环+找到'1'时，以'1'为根节点启动深搜，直到该区域找不到了'1'，再继续执行循环找到'1'，深搜...
-### 代码
+// 总的来说就是：二重循环+找到'1'时，以'1'为根节点启动深搜，直到该区域找不到了'1'，再继续执行循环找到'1'，深搜...
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numIslands(vector<vector<char>>& grid) {
@@ -37,11 +37,11 @@ public:
 	return res;
 }
 };
-```
-stack在里面
-![image.png](https://pic.leetcode-cn.com/399ddea392b5a7e2e7ecf09bd139691e37b66933a9ec6bf386a72c1f7e80014f-image.png)
+// ```
+// stack在里面
+// ![image.png](https://pic.leetcode-cn.com/399ddea392b5a7e2e7ecf09bd139691e37b66933a9ec6bf386a72c1f7e80014f-image.png)
 
 
 
-stack在外面：
-![image.png](https://pic.leetcode-cn.com/5341d1d4b1b2f1c0b58b507a9e20fe917c00548374e83d63f620bb4a817c668b-image.png)
+// stack在外面：
+// ![image.png](https://pic.leetcode-cn.com/5341d1d4b1b2f1c0b58b507a9e20fe917c00548374e83d63f620bb4a817c668b-image.png)

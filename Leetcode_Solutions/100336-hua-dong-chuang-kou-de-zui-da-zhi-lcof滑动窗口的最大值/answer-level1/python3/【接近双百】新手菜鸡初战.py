@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxSlidingWindow(self, nums, k):
         if not nums:
@@ -38,5 +38,5 @@ class Solution:
             result.append(nums[max_index])
 
         return result
-```
+# ```
 

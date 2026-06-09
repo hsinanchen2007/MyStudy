@@ -1,9 +1,9 @@
-### 解题思路
-遍历一遍list即可：对于列表中的数字，偶数位置是内容，前一个位置（奇数位置）是次数，找到偶数位置的内容，并append相应次数即可。
+# ### 解题思路
+# 遍历一遍list即可：对于列表中的数字，偶数位置是内容，前一个位置（奇数位置）是次数，找到偶数位置的内容，并append相应次数即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def decompressRLElist(self, nums: List[int]) -> List[int]:
         count = 0
@@ -16,4 +16,4 @@ class Solution:
                     nums[count-2] -=1
         return lis
 
-```
+# ```

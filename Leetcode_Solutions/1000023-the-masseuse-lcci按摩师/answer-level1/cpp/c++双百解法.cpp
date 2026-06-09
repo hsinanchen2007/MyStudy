@@ -1,9 +1,9 @@
-### 解题思路
-c++双百解法shyshy
+// ### 解题思路
+// c++双百解法shyshy
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         return b;
     }
 };
-```
+// ```

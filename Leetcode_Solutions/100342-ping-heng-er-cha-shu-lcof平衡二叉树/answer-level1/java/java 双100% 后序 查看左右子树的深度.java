@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isBalanced(TreeNode root) {
         return deep(root) != -1;
@@ -12,4 +12,4 @@ class Solution {
         return Math.abs(left-right)>1?-1:Math.max(left,right)+1;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
 
-一定要把两个board同时代入方法，用原board做判断，在新board上修改！
-一定要把两个board同时代入方法，用原board做判断，在新board上修改！
-一定要把两个board同时代入方法，用原board做判断，在新board上修改！
+// 一定要把两个board同时代入方法，用原board做判断，在新board上修改！
+// 一定要把两个board同时代入方法，用原board做判断，在新board上修改！
+// 一定要把两个board同时代入方法，用原board做判断，在新board上修改！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void gameOfLife(int[][] board) {
     	int[][]previous=new int[board.length][board[0].length];
@@ -48,4 +48,4 @@ class Solution {
 		return board[x][y];
     }
 }
-```
+// ```

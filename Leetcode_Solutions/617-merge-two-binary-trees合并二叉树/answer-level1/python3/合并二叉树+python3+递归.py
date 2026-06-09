@@ -1,9 +1,9 @@
-### 递归
-执行用时 :100 ms, 在所有Python3提交中击败了98.86%的用户；内存消耗 :13.4 MB, 在所有Python3提交中击败了99.19%的用户
+# ### 递归
+# 执行用时 :100 ms, 在所有Python3提交中击败了98.86%的用户；内存消耗 :13.4 MB, 在所有Python3提交中击败了99.19%的用户
 
-思路：如果当前两个树都为非空，则值相加，若有一个为空，则返回另外一个。代码如下：
+# 思路：如果当前两个树都为非空，则值相加，若有一个为空，则返回另外一个。代码如下：
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -21,4 +21,4 @@ class Solution:
             t1.right = self.mergeTrees(t1.right,t2.right)
         return t1
         
-```
+# ```

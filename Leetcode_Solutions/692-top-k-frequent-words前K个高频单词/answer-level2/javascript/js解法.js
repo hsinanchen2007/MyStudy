@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/e42ec4c5f576f28a19616519f42085735d92f68369592e8643ca81ec403707d7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e42ec4c5f576f28a19616519f42085735d92f68369592e8643ca81ec403707d7-image.png)
 
-思路：
-1. 建立一个哈希表，存储每个单词出现的次数
-2. 把map转为数组，按照单词出现次数从大到小排列
-3. 再次遍历一遍数组，把出现次数相同的单词按照字符串排序，小的在前（ 比如：'bbc', 'abc' 都出现5次，但是根据题目要求需要把'abc'放在前面 ）
-4. 此时因为已经按照题目要求排好序了，那就从数组中拿出k个单词放到结果中，返回就可以了
+// 思路：
+// 1. 建立一个哈希表，存储每个单词出现的次数
+// 2. 把map转为数组，按照单词出现次数从大到小排列
+// 3. 再次遍历一遍数组，把出现次数相同的单词按照字符串排序，小的在前（ 比如：'bbc', 'abc' 都出现5次，但是根据题目要求需要把'abc'放在前面 ）
+// 4. 此时因为已经按照题目要求排好序了，那就从数组中拿出k个单词放到结果中，返回就可以了
 
-```javascript
+// ```javascript
 var topKFrequent = function(words, k) {
   let map = new Map(),
         result = [];
@@ -63,4 +63,4 @@ var topKFrequent = function(words, k) {
 
   return result;
 };
-```
+// ```

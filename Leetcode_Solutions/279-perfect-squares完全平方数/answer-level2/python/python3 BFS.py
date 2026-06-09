@@ -1,9 +1,9 @@
-### 解题思路
-BFS就是好使啊！！！！
+# ### 解题思路
+# BFS就是好使啊！！！！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numSquares(self, n: int) -> int:
         #学习一下别人的代码
@@ -22,4 +22,4 @@ class Solution:
                     if x not in visited:
                         deq.appendleft(x)
                         visited.add(x)
-```
+# ```

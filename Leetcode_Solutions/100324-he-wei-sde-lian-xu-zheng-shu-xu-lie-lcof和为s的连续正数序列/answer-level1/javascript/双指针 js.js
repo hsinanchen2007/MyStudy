@@ -1,9 +1,9 @@
-### 解题思路
-看代码
+// ### 解题思路
+// 看代码
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -32,4 +32,4 @@ var findContinuousSequence = function(target) {
     }
     return res
 };
-```
+// ```

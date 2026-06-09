@@ -1,10 +1,10 @@
-### 解题思路
-1. 利用字典模拟哈希表
-2. 双指针
+# ### 解题思路
+# 1. 利用字典模拟哈希表
+# 2. 双指针
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         # hashmap = dict()
@@ -25,4 +25,4 @@ class Solution:
                 j -= 1
             else:
                 i += 1
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-因为是一个区间范围，不是找到就可以退出循环，需要找到边界
+// ### 解题思路
+// 因为是一个区间范围，不是找到就可以退出循环，需要找到边界
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func searchRange(nums []int, target int) []int {
 	if len(nums) < 1 {
 		return []int{-1, -1}
@@ -52,4 +52,4 @@ func searchRange(nums []int, target int) []int {
 
 	return []int{leftIndex, rightIndex}    
 }
-```
+// ```

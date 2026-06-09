@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     static bool cmp(pair<int, int> &a, pair<int, int> &b) {
@@ -19,4 +19,4 @@ public:
         return res;
     }
 };
-```
+// ```

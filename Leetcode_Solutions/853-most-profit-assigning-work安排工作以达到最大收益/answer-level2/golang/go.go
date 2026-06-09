@@ -1,4 +1,4 @@
-```
+// ```
 func maxProfitAssignment(difficulty []int, profit []int, worker []int) int {
 	t := make([]int, 100001)
 	for i, d := range difficulty {
@@ -17,4 +17,4 @@ func maxProfitAssignment(difficulty []int, profit []int, worker []int) int {
 	}
 	return o
 }
-```
+// ```

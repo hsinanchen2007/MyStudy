@@ -1,10 +1,10 @@
-**递归：**
-参考题解热评2“meteorsh”的解答,比较好理解
-思路：
-1.如果root==NULL,则返回NULL，其实就是root本身
-2.如果p==root||q==root,也返回root,可以和第一点合并为一个
-3.然后开始递归 left=isA(root->left,p,q),right=isA(root->right,p,q),如果两边都有返回的值即不为NULL，则说明p,q分布在两边，最近公共祖先是root;如果left==NULL,则说明p,q在右分支，返回right,同理，若right==NULL,则返回left。
-```
+// **递归：**
+// 参考题解热评2“meteorsh”的解答,比较好理解
+// 思路：
+// 1.如果root==NULL,则返回NULL，其实就是root本身
+// 2.如果p==root||q==root,也返回root,可以和第一点合并为一个
+// 3.然后开始递归 left=isA(root->left,p,q),right=isA(root->right,p,q),如果两边都有返回的值即不为NULL，则说明p,q分布在两边，最近公共祖先是root;如果left==NULL,则说明p,q在右分支，返回right,同理，若right==NULL,则返回left。
+// ```
 class Solution {
 
 public:
@@ -17,14 +17,14 @@ public:
 		else return L;
 	}
 };
-```
-**迭代-父指针**
-使用父指针迭代（思路同官方解答方法二--C++版）
-1.从根节点开始,若root==NULL||root==p||root==q，return root;否则将root压栈
-2.出栈，若其存在左右节点，则以点对形式存入vector v中<子节点，根节点>(以便后期回溯到根节点)，并将左右节点压栈，重复此操作直到栈为空。
-2.在vector v中找first为p的点对(注意要从容器尾开始找，方便回溯))，其对应的second即为p的根，再令P=second，继续找，便能找到原p节点的所有祖先，将其放入容器v1中。(回溯，比如<4,7>,<7,root>,若4==p，则说明p的祖先为4,7，root)
-3.判断q是否位于v1中，若是，return q;若不是，在vector v中回溯q的祖先，不过不需要向第2步一样push进容器中保存，而是判断其是否位于容器v1中，若是，返回该祖先。
-```
+// ```
+// **迭代-父指针**
+// 使用父指针迭代（思路同官方解答方法二--C++版）
+// 1.从根节点开始,若root==NULL||root==p||root==q，return root;否则将root压栈
+// 2.出栈，若其存在左右节点，则以点对形式存入vector v中<子节点，根节点>(以便后期回溯到根节点)，并将左右节点压栈，重复此操作直到栈为空。
+// 2.在vector v中找first为p的点对(注意要从容器尾开始找，方便回溯))，其对应的second即为p的根，再令P=second，继续找，便能找到原p节点的所有祖先，将其放入容器v1中。(回溯，比如<4,7>,<7,root>,若4==p，则说明p的祖先为4,7，root)
+// 3.判断q是否位于v1中，若是，return q;若不是，在vector v中回溯q的祖先，不过不需要向第2步一样push进容器中保存，而是判断其是否位于容器v1中，若是，返回该祖先。
+// ```
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -81,5 +81,5 @@ public:
 };
 
 
-```
+// ```
 

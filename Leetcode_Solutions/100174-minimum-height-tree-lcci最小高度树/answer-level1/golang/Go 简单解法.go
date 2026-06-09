@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -20,4 +20,4 @@ func sortedArrayToBST(nums []int) *TreeNode {
         Left:sortedArrayToBST(nums[:len(nums)/2 ]),
         Right:sortedArrayToBST(nums[len(nums)/2+1:])}
 }
-```
+// ```

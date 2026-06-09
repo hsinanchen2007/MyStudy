@@ -1,5 +1,5 @@
-寻找最大值还需要优化一下
-```js
+// 寻找最大值还需要优化一下
+// ```js
 var trap = function(height) {
     function findMaxHeight(i, j, isLast) {
         if (j < 0) return 0;
@@ -37,4 +37,4 @@ var trap = function(height) {
     }
     return half(0, height.length - 1);
 };
-```
+// ```

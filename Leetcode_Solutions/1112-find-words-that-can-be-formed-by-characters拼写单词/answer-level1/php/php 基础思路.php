@@ -1,9 +1,9 @@
-### 解题思路
-先将chars做成关联数组，每次循环words去关联数组里查找
+// ### 解题思路
+// 先将chars做成关联数组，每次循环words去关联数组里查找
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -42,4 +42,4 @@ class Solution {
         return $count;
     }
 }
-```
+// ```

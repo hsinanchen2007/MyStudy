@@ -1,9 +1,9 @@
-### 解题思路
-priority_queue维护了一个小顶堆，每次入队后自动排序。 保持队长为K，则队首就是题解。
+// ### 解题思路
+// priority_queue维护了一个小顶堆，每次入队后自动排序。 保持队长为K，则队首就是题解。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 // priority_queue 小顶堆
 class KthLargest {
 public:
@@ -32,4 +32,4 @@ private:
  * KthLargest* obj = new KthLargest(k, nums);
  * int param_1 = obj->add(val);
  */
-```
+// ```

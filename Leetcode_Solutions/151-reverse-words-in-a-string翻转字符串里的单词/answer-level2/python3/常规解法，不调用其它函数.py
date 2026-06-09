@@ -1,8 +1,8 @@
-执行用时 :32 ms, 在所有 Python3 提交中击败了82.03%的用户
-内存消耗 :13.7 MB, 在所有 Python3 提交中击败了46.23%的用户
+# 执行用时 :32 ms, 在所有 Python3 提交中击败了82.03%的用户
+# 内存消耗 :13.7 MB, 在所有 Python3 提交中击败了46.23%的用户
 
-缺点开辟的空间比较多
-```
+# 缺点开辟的空间比较多
+# ```
 class Solution:
     def reverseWords(self, s: str) -> str:
         n=len(s)
@@ -29,4 +29,4 @@ class Solution:
             else:
                 strs=strs+b[i]+' '
         return strs
-```
+# ```

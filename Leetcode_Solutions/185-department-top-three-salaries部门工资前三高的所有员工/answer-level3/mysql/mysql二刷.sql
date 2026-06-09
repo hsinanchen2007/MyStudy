@@ -1,5 +1,5 @@
-用变量还是可以，挺好的
-```
+-- 用变量还是可以，挺好的
+-- ```
 # Write your MySQL query statement below
 
 SELECT b.Name as Department , a.Name as Employee, a.Salary 
@@ -20,4 +20,4 @@ FROM (
 	ORDER BY a.DepartmentId, Salary DESC
 ) a join Department b on a.DepartmentId  = b.Id
 WHERE a.rk <= 3
-```
+-- ```

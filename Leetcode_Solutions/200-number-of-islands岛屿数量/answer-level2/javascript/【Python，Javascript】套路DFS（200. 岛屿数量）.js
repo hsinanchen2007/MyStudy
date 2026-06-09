@@ -1,34 +1,34 @@
 
 
-## 思路
+// ## 思路
 
-如图，我们其实就是要求红色区域的个数，换句话说就是求连续区域的个数。
+// 如图，我们其实就是要求红色区域的个数，换句话说就是求连续区域的个数。
 
-![](https://pic.leetcode-cn.com/d7f52dda3ccb3b9fd12ad5cf922d286c4917b923729548310dd727f2fbf22558.jpg)
+// ![](https://pic.leetcode-cn.com/d7f52dda3ccb3b9fd12ad5cf922d286c4917b923729548310dd727f2fbf22558.jpg)
 
-符合直觉的做法是用DFS来解：
+// 符合直觉的做法是用DFS来解：
 
-- 我们需要建立一个 visited 数组用来记录某个位置是否被访问过。
-- 对于一个为 `1` 且未被访问过的位置，我们递归进入其上下左右位置上为 `1` 的数，将其 visited 变成 true。
-- 重复上述过程
-- 找完相邻区域后，我们将结果 res 自增1，然后我们在继续找下一个为 `1` 且未被访问过的位置，直至遍历完.
+// - 我们需要建立一个 visited 数组用来记录某个位置是否被访问过。
+// - 对于一个为 `1` 且未被访问过的位置，我们递归进入其上下左右位置上为 `1` 的数，将其 visited 变成 true。
+// - 重复上述过程
+// - 找完相邻区域后，我们将结果 res 自增1，然后我们在继续找下一个为 `1` 且未被访问过的位置，直至遍历完.
 
-但是这道题目只是让我们求连通区域的个数，因此我们其实不需要额外的空间去存储visited信息。
-注意到上面的过程，我们对于数字为0的其实不会进行操作的，也就是对我们“没用”。 因此对于已经访问的元素，
-我们可以将其置为0即可。
+// 但是这道题目只是让我们求连通区域的个数，因此我们其实不需要额外的空间去存储visited信息。
+// 注意到上面的过程，我们对于数字为0的其实不会进行操作的，也就是对我们“没用”。 因此对于已经访问的元素，
+// 我们可以将其置为0即可。
 
 
-## 关键点解析
+// ## 关键点解析
 
-- 二维数组DFS解题模板
-- 将已经访问的元素置为0，省去visited的空间开销
+// - 二维数组DFS解题模板
+// - 将已经访问的元素置为0，省去visited的空间开销
 
-## 代码
+// ## 代码
 
-* 语言支持：JS, python3
+// * 语言支持：JS, python3
 
-Javascript Code:
-```js
+// Javascript Code:
+// ```js
 /*
  * @lc app=leetcode id=200 lang=javascript
  *
@@ -64,11 +64,11 @@ var numIslands = function(grid) {
   }
   return res;
 };
-```
+// ```
 
-python code:
+// python code:
 
-``` python
+// ``` python
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         if not grid: return 0
@@ -91,17 +91,17 @@ class Solution:
         self.dfs(grid, i, j + 1)
         self.dfs(grid, i, j - 1)
 
-```
+// ```
 
-**复杂度分析**
-- 时间复杂度：$O(m * n)$
-- 空间复杂度：$O(m * n)$
+// **复杂度分析**
+// - 时间复杂度：$O(m * n)$
+// - 空间复杂度：$O(m * n)$
 
-欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
+// 欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
 
-![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
+// ![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
 
 
-## 相关题目
+// ## 相关题目
 
-- [695. 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/solution/695-dao-yu-de-zui-da-mian-ji-dfspython3-by-fe-luci/)
+// - [695. 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/solution/695-dao-yu-de-zui-da-mian-ji-dfspython3-by-fe-luci/)

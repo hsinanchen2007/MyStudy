@@ -1,15 +1,15 @@
-### 解题思路
-这一题有大量相似题目，相同思路，我做过好几次习题。
+# ### 解题思路
+# 这一题有大量相似题目，相同思路，我做过好几次习题。
 
-[387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
+# [387. 字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)
 
-还有一些有待寻找。
+# 还有一些有待寻找。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def firstUniqChar(self, s: str) -> str:  #### 肯定又相似题目，我都用了好几次set 了
         n = len(s)
@@ -27,4 +27,4 @@ class Solution:
             if A[x] == 1:
                 return x
         return " "
-```
+# ```

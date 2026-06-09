@@ -1,11 +1,11 @@
-### 解题思路
-list.sort(cmp=None, key=None, reverse=False) 排序。
-reverse -- 排序规则，reverse = True 降序， reverse = False 升序（默认）。
+# ### 解题思路
+# list.sort(cmp=None, key=None, reverse=False) 排序。
+# reverse -- 排序规则，reverse = True 降序， reverse = False 升序（默认）。
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def mergetwo(self, list1, list2):
         if list2[0] <= list1[1]:
@@ -49,17 +49,17 @@ class Solution(object):
         return res
 
 
-```
+# ```
 
 
 
-### 解题思路
-官方答案：https://leetcode-cn.com/problems/merge-intervals/solution/he-bing-qu-jian-by-leetcode/
+# ### 解题思路
+# 官方答案：https://leetcode-cn.com/problems/merge-intervals/solution/he-bing-qu-jian-by-leetcode/
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def merge(self, intervals):
         intervals.sort(key=lambda x: x.start)
@@ -77,4 +77,4 @@ class Solution:
 
         return merged
 
-```
+# ```

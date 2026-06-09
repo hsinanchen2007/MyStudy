@@ -1,12 +1,12 @@
-### 解题思路
-中位数下标包括(n+m-1)/2和(n+m)/2，如果n+m是奇数，就只有一个数字；如果是偶数就是2个数字
-现在需要找到较低的数字下标p=(n+m-1)/2在什么位置，这里需要2个辅助下标num1中偏移i和num2中偏移j，使p=i+j，需要满足以下几个点：
-- num1[i] > num2[j-1]
-- num2[j] > num1[i-1]
-这个时候在num1用二分查找找到i的位置即可（在num2找j的位置一样），时间复杂度O(log(min(n, m)))
-### 代码
+// ### 解题思路
+// 中位数下标包括(n+m-1)/2和(n+m)/2，如果n+m是奇数，就只有一个数字；如果是偶数就是2个数字
+// 现在需要找到较低的数字下标p=(n+m-1)/2在什么位置，这里需要2个辅助下标num1中偏移i和num2中偏移j，使p=i+j，需要满足以下几个点：
+// - num1[i] > num2[j-1]
+// - num2[j] > num1[i-1]
+// 这个时候在num1用二分查找找到i的位置即可（在num2找j的位置一样），时间复杂度O(log(min(n, m)))
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -38,4 +38,4 @@ public:
         return ans;
     }
 };
-```
+// ```

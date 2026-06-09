@@ -1,9 +1,9 @@
-### 解题思路
-简单替换next指向的位置即可。用图画画出来步骤会更清晰。
+// ### 解题思路
+// 简单替换next指向的位置即可。用图画画出来步骤会更清晰。
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 // Definition for singly-linked list.
 // #[derive(PartialEq, Eq, Clone, Debug)]
 // pub struct ListNode {
@@ -36,4 +36,4 @@ impl Solution {
         panic!();
     }
 }
-```
+// ```

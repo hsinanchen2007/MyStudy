@@ -1,5 +1,5 @@
-可以同114题，二叉树的展开一起看，解题思路很相似。
-```java
+// 可以同114题，二叉树的展开一起看，解题思路很相似。
+// ```java
 package test;
 
 /**
@@ -129,4 +129,4 @@ public class T430_FlattenAMultilevelDoublyLinkedList {
         return dummy.next;
     }
 }
-```
+// ```

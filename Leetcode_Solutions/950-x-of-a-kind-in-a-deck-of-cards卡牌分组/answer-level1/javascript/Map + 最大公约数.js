@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/9c08712ed4e4c7bf0dace511ceab161645fed2849b683251dbae59ec39e9e0b4-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/9c08712ed4e4c7bf0dace511ceab161645fed2849b683251dbae59ec39e9e0b4-image.png)
 
-比想象中难一些，居然提交了5次才AC，轻敌了。
+// 比想象中难一些，居然提交了5次才AC，轻敌了。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -41,4 +41,4 @@ var hasGroupsSizeX = function (deck) {
     return true;
 };
 
-```
+// ```

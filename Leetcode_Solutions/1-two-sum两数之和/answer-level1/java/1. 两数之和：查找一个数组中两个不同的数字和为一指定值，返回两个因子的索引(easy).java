@@ -1,9 +1,9 @@
-### 解题思路
-暴力检索，两层嵌套循环。
+// ### 解题思路
+// 暴力检索，两层嵌套循环。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {//nums.length可获得数组长度。
@@ -18,4 +18,4 @@ class Solution {
 }
 
 
-```
+// ```

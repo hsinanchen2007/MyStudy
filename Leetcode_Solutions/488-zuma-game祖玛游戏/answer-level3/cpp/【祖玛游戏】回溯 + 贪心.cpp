@@ -1,21 +1,21 @@
-### 执行时间
-![图片.png](https://pic.leetcode-cn.com/4ec1bed81c00ba97de62d306a58400c8a36363e2156058be87ac0938aa711263-%E5%9B%BE%E7%89%87.png)
-喜提 100%
+// ### 执行时间
+// ![图片.png](https://pic.leetcode-cn.com/4ec1bed81c00ba97de62d306a58400c8a36363e2156058be87ac0938aa711263-%E5%9B%BE%E7%89%87.png)
+// 喜提 100%
 
-### 思路
-1. 回溯 + 贪心
-2. 在新颜色的位置插入 1 - 2 个球使其直接消除
-3. 如果相邻的两个球颜色相同，考虑在中间插入一个其他颜色的球分割
+// ### 思路
+// 1. 回溯 + 贪心
+// 2. 在新颜色的位置插入 1 - 2 个球使其直接消除
+// 3. 如果相邻的两个球颜色相同，考虑在中间插入一个其他颜色的球分割
 
-### 用例
-```
+// ### 用例
+// ```
 输入: "RRWWRRBBRR", "WB"
 输出: 2
 解释: RRWWRRBBRR -> R[B]RWWRRBBRR -> R[B]RWW[W]RRBBRR -> ... -> empty
-```
+// ```
 
-### 答题
-```C++
+// ### 答题
+// ```C++
 class Solution {
 public:
     vector<int> getSame(string& board, int idx)
@@ -111,13 +111,13 @@ public:
         return (ans == INT_MAX) ? -1 : ans;
     }
 };
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

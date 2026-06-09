@@ -1,8 +1,8 @@
 
-思路：最大差值只可能出现在左子树，右子树，或者头节点与左（右）子树某个节点的差值
-所以递归函数返回三个值：子树的最大值，子树的最小值，子树的最大差值
-整合左右子树信息时再考虑头节点即可
-```
+# 思路：最大差值只可能出现在左子树，右子树，或者头节点与左（右）子树某个节点的差值
+# 所以递归函数返回三个值：子树的最大值，子树的最小值，子树的最大差值
+# 整合左右子树信息时再考虑头节点即可
+# ```
 class Solution:
     def maxAncestorDiff(self, root: TreeNode) -> int:
         if root is None:
@@ -26,4 +26,4 @@ class Solution:
                 else:
                     return min(left[0], node.val), max(left[1], node.val), max(abs(left[0]-node.val), abs(left[1]-node.val), left[2])
         return process(root)[2]
-```
+# ```

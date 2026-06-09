@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if not strs:
@@ -24,4 +24,4 @@ class Solution:
             if allSame == True:
                 res = common
         return res
-```
+# ```

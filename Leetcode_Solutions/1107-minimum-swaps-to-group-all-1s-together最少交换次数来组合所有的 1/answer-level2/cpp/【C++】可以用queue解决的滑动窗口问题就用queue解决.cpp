@@ -1,9 +1,9 @@
-1.计算sum
-2.滑动窗口，流入流出一个元素，求和
-3.求max
-4.最大和和所有1的长度和的差值即为最小的交换次数
-注：效率不高，刻意用下queue
-```
+// 1.计算sum
+// 2.滑动窗口，流入流出一个元素，求和
+// 3.求max
+// 4.最大和和所有1的长度和的差值即为最小的交换次数
+// 注：效率不高，刻意用下queue
+// ```
 /*
 * Copyright (c) Nicolas-Tony Technologies Co., Ltd. 2019-2019. All rights reserved.
 * Description: i love leetcode
@@ -64,4 +64,4 @@ public:
     }
 
 };
-```
+// ```

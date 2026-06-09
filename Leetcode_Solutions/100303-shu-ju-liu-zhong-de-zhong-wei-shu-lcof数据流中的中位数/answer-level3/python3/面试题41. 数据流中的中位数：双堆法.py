@@ -1,6 +1,6 @@
-小堆取负，大堆取正，根据堆的大小输出堆顶。
+# 小堆取负，大堆取正，根据堆的大小输出堆顶。
 
-```python []
+# ```python []
 class MedianFinder:
     
     def __init__(self):
@@ -14,4 +14,4 @@ class MedianFinder:
         
     def findMedian(self) -> float:
         return len(self.s) == len(self.l) and (self.l[0] - self.s[0]) / 2 or -self.s[0]
-```
+# ```

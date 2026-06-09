@@ -1,5 +1,5 @@
-从前往后遍历，一次累加即可， 不用重复遍历
-```
+# 从前往后遍历，一次累加即可， 不用重复遍历
+# ```
 class Solution:
     def maxValue(self, grid) -> int:
         # memo = {}
@@ -27,4 +27,4 @@ class Solution:
                 grid[i][j] = grid[i][j] + max(grid[i-1][j], grid[i][j-1])
         return grid[-1][-1]
 
-```
+# ```

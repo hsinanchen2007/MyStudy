@@ -1,13 +1,13 @@
-### 解题思路
-根据题意可知，主要情况为num1.num2(e|E)num3和.num2(e|E)num3。.123=0.123已知
-有几点判断法则
-1.小数点前面是不能有e|E或者小数点的
-2.e|E前面是不能有e|E，且前面一定要有数字。
-3.+和-只能出现在num1和num3前面（e|E后面）
+// ### 解题思路
+// 根据题意可知，主要情况为num1.num2(e|E)num3和.num2(e|E)num3。.123=0.123已知
+// 有几点判断法则
+// 1.小数点前面是不能有e|E或者小数点的
+// 2.e|E前面是不能有e|E，且前面一定要有数字。
+// 3.+和-只能出现在num1和num3前面（e|E后面）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isNumber(String s) {
         if(s==null||s.length()==0)return false;
@@ -38,4 +38,4 @@ class Solution {
     }
 }
 
-```
+// ```

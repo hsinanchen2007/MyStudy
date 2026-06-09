@@ -1,9 +1,9 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
- 使用两个数组分别记录两个字符串中字符的映射，第一个数组记录s->t，第二个数组记录t->s。 然后遍历整个字符串，如果当前字符已经存在在映射数组中且映射值不为自己，则不符合要求。
+//  使用两个数组分别记录两个字符串中字符的映射，第一个数组记录s->t，第二个数组记录t->s。 然后遍历整个字符串，如果当前字符已经存在在映射数组中且映射值不为自己，则不符合要求。
 
 
-```
+// ```
 public boolean isIsomorphic(String s, String t) {
     if (s.length() != t.length()) return false;
     //使用数组记录两个字符串中的映射
@@ -22,4 +22,4 @@ public boolean isIsomorphic(String s, String t) {
     }
     return true;
 }
-```
+// ```

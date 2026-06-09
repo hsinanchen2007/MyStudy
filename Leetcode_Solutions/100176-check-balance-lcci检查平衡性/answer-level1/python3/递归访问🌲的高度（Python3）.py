@@ -1,9 +1,9 @@
-### 解题思路
-我们使用辅助函数 $checkHeight$ 从根节点开始递归向下检查每一棵子树的高度。如果子树的平衡的，返回子树的实际高度；反之返回一个错误代码，这个错误代码可用 `float('inf')` 表示。
+# ### 解题思路
+# 我们使用辅助函数 $checkHeight$ 从根节点开始递归向下检查每一棵子树的高度。如果子树的平衡的，返回子树的实际高度；反之返回一个错误代码，这个错误代码可用 `float('inf')` 表示。
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def isBalanced(self, root: TreeNode) -> bool:
         def checkHeight(root):
@@ -22,7 +22,7 @@ class Solution:
                 return max(leftHeight, rightHeight) + 1
 
         return checkHeight(root) != float('inf')
-```
-### 复杂度分析
-- 时间复杂度：$O(N)$，$N$ 为节点的个数。
-- 空间复杂度：$O(H)$，$H$ 为树的高度。
+# ```
+# ### 复杂度分析
+# - 时间复杂度：$O(N)$，$N$ 为节点的个数。
+# - 空间复杂度：$O(H)$，$H$ 为树的高度。

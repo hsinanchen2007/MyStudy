@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct TreeNode TreeNode; 
 int* postorderTraversal(struct TreeNode* root, int* returnSize){
     if (root == NULL) {
@@ -28,5 +28,5 @@ int* postorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize = arrSize;
     return res;
 }
-```
-![image.png](https://pic.leetcode-cn.com/2751380335f8bb8258b575a8d3a6c46474d6ea27de063741af21c8d1e030160b-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/2751380335f8bb8258b575a8d3a6c46474d6ea27de063741af21c8d1e030160b-image.png)

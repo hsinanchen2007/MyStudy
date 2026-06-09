@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeElement(int* nums, int numsSize, int val){
     int count=0;
     if(numsSize==0) return 0;
@@ -14,4 +14,4 @@ int removeElement(int* nums, int numsSize, int val){
     }
     return count;
 }
-```
+// ```

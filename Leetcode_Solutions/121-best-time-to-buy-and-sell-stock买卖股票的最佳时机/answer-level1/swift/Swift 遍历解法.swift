@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-想法比较简单，虽然效率不是太高
+// 想法比较简单，虽然效率不是太高
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func maxProfit(_ prices: [Int]) -> Int {
         let c = prices.count
@@ -28,4 +28,4 @@ class Solution {
         return income;
     }
 }
-```
+// ```

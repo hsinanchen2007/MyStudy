@@ -1,11 +1,11 @@
-### 解题思路
-维护一个大小为k的小顶堆。
-如果小顶堆目前size小于k，则直接存放。
-如果新增元素小于堆顶元素，则忽略；大于则删除堆顶元素，将新增元素加入优先队列。
+// ### 解题思路
+// 维护一个大小为k的小顶堆。
+// 如果小顶堆目前size小于k，则直接存放。
+// 如果新增元素小于堆顶元素，则忽略；大于则删除堆顶元素，将新增元素加入优先队列。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class KthLargest {
     private final int k;
     private PriorityQueue<Integer> queue;
@@ -35,4 +35,4 @@ class KthLargest {
  * KthLargest obj = new KthLargest(k, nums);
  * int param_1 = obj.add(val);
  */
-```
+// ```

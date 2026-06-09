@@ -1,27 +1,27 @@
 
-### 贪心
+// ### 贪心
 
-#### 算法思路
+// #### 算法思路
 
-- 将所有工人按效率从大到小排序
-- 优先队列 S集合 维护K个工人组成组成的 表现最好的团队，优先队列按速度从小到大排序
-- 枚举 所有工人
-  - 当S集合元素数量小于K时，直接加入集合
-  - 当S集合元素数量大于等于K时，比较当前工人和S集合堆顶的工人的速度大小
-    - 如果当前工人较慢，直接pass
-    - 如果当前工人较快，计算堆顶替换成当前工人，是否能够获得更好的表现
+// - 将所有工人按效率从大到小排序
+// - 优先队列 S集合 维护K个工人组成组成的 表现最好的团队，优先队列按速度从小到大排序
+// - 枚举 所有工人
+//   - 当S集合元素数量小于K时，直接加入集合
+//   - 当S集合元素数量大于等于K时，比较当前工人和S集合堆顶的工人的速度大小
+//     - 如果当前工人较慢，直接pass
+//     - 如果当前工人较快，计算堆顶替换成当前工人，是否能够获得更好的表现
 
-#### 时间复杂度
+// #### 时间复杂度
 
-对所有工人排序 O(nlogn)
+// 对所有工人排序 O(nlogn)
 
-枚举每个工人，与堆顶比较 O(nlogK)
+// 枚举每个工人，与堆顶比较 O(nlogK)
 
-总体时间复杂度 O(nlogn)
+// 总体时间复杂度 O(nlogn)
 
-#### C++ 代码
+// #### C++ 代码
 
-```cpp
+// ```cpp
 bool cmp(vector<int> &n1, vector<int> &n2){
     return n1[1] > n2[1];
 }
@@ -54,12 +54,12 @@ public:
         return ans % mod;
     }
 };
-```
+// ```
 
-#### 同一类型题
+// #### 同一类型题
 
-- [LeetCode 857. Minimum Cost to Hire K Workers (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/801-900/857.minimum-cost-to-hire-k-workers.md)
+// - [LeetCode 857. Minimum Cost to Hire K Workers (hard)](https://github.com/muyids/leetcode/blob/master/algorithms/801-900/857.minimum-cost-to-hire-k-workers.md)
 
-#### 阅读
+// #### 阅读
 
-[从头开始学算法](https://muyids.github.io/simple-algorithm/)
+// [从头开始学算法](https://muyids.github.io/simple-algorithm/)

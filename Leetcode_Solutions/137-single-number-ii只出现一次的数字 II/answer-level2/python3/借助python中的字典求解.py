@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         #使用字典来存储各个元素及其出现次数
@@ -17,4 +17,4 @@ class Solution:
         for key,value in aux.items():
             if value==1:
                 return int(key)
-```
+# ```

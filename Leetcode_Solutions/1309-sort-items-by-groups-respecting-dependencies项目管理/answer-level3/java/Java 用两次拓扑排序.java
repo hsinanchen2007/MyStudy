@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-1. 分别对group和item进行拓扑排序，得到group拓扑排序后的list和item拓扑排序后的list
+// 1. 分别对group和item进行拓扑排序，得到group拓扑排序后的list和item拓扑排序后的list
 
-2. 然后简历一个group -> item 的map
+// 2. 然后简历一个group -> item 的map
 
-3. 遍历itemlist，将item和其对应的group加入到map中
+// 3. 遍历itemlist，将item和其对应的group加入到map中
 
-4. 最后根据grouplist的顺序遍历map，得到结果 
+// 4. 最后根据grouplist的顺序遍历map，得到结果 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     Map<Integer, List<Integer>> groupGraph;
     Map<Integer, List<Integer>> itemGraph;
@@ -100,4 +100,4 @@ class Solution {
     }
 
 }
-```
+// ```

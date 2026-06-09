@@ -1,16 +1,16 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n^2)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 定义一个Hash表保存字母以及对应的行数
-    2.2 循环遍历给定的字符串数组，循环比较给定的字符串
-    2.3 返回数组
-3. 提交记录
-    3.1 力扣中耗时2ms,消耗36.7MB内存
-    3.2 leetcode中耗时1ms,消耗35.9MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n^2)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 定义一个Hash表保存字母以及对应的行数
+//     2.2 循环遍历给定的字符串数组，循环比较给定的字符串
+//     2.3 返回数组
+// 3. 提交记录
+//     3.1 力扣中耗时2ms,消耗36.7MB内存
+//     3.2 leetcode中耗时1ms,消耗35.9MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *      500.Keyboard Row
@@ -94,6 +94,6 @@ class Solution {
         map.put('m',3);
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

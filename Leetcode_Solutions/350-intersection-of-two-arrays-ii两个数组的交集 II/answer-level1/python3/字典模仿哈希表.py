@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-![1580743210(1).png](https://pic.leetcode-cn.com/2580cf0b80b636fe8bb1ea4fa26fef61c141992e664a2cf2d21e9c37b33592bd-1580743210\(1\).png)
+# ![1580743210(1).png](https://pic.leetcode-cn.com/2580cf0b80b636fe8bb1ea4fa26fef61c141992e664a2cf2d21e9c37b33592bd-1580743210\(1\).png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     from collections import Counter
 
@@ -24,4 +24,4 @@ class Solution:
                 nums1[temp] -= 1
                 
         return r
-```
+# ```

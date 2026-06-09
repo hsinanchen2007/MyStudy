@@ -1,11 +1,11 @@
-### 解题思路
-colsum = 2 --> [1, 1]
-colsum = 1 --> [1, 0] 或者[0, 1]
-colsum = 0 --> [0, 0]
+// ### 解题思路
+// colsum = 2 --> [1, 1]
+// colsum = 1 --> [1, 0] 或者[0, 1]
+// colsum = 0 --> [0, 0]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> reconstructMatrix(int upper, int lower, vector<int>& colsum) {
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

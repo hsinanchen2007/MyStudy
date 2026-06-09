@@ -1,9 +1,9 @@
-### 解题思路
-哈哈哈，我还能举例到100000+
+// ### 解题思路
+// 哈哈哈，我还能举例到100000+
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
          switch (n){
@@ -41,4 +41,4 @@ class Solution {
          return "";
     }
 }
-```
+// ```

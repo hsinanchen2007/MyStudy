@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
-字符串拆分成字符数组,比较字符对应的ASCII值总和
-```java
+// ### 代码
+// 字符串拆分成字符数组,比较字符对应的ASCII值总和
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         char[] chars1 = s1.toCharArray();
@@ -21,4 +21,4 @@ class Solution {
         return count == count1;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-**溢出情况的判断：**
-**1.用long存储，转int后不等则溢出**
-**2.与INT_MAX / 10比较**
+// **溢出情况的判断：**
+// **1.用long存储，转int后不等则溢出**
+// **2.与INT_MAX / 10比较**
 
-```cpp
+// ```cpp
 int myAtoi(char * str){
     /*特判*/
     if(!str || str == "")
@@ -39,4 +39,4 @@ int myAtoi(char * str){
     }
     return negtive ? -ans : ans;
 }
-```
+// ```

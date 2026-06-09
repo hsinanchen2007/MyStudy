@@ -1,4 +1,4 @@
-```golang
+// ```golang
 func maxArea(height []int) int {
     ln := len(height)
     ans,l,r :=0,0,ln-1
@@ -32,4 +32,4 @@ func min(a,b int)int {
 
 // i j 使用 (j-i) * min(height[j],height[i]) 最大
 
-```
+// ```

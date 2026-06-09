@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     res = float('inf')
     def coinChange(self, coins: List[int], amount: int) -> int:
@@ -25,4 +25,4 @@ class Solution:
         dfs(amount, 0, 0)
         return self.res if self.res<float('inf') else -1
         
-```
+# ```

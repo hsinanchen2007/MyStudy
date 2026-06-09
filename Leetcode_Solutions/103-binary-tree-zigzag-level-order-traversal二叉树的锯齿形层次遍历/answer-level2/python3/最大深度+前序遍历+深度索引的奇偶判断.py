@@ -1,13 +1,13 @@
-### 解题思路
-1. 题目目的：
-- 从上到下，先从左到右，再从右到左，遍历二叉树
-2. 解题思路：
-- 求二叉树的最大深度
-- 前序遍历+深度索引的奇偶判断
+# ### 解题思路
+# 1. 题目目的：
+# - 从上到下，先从左到右，再从右到左，遍历二叉树
+# 2. 解题思路：
+# - 求二叉树的最大深度
+# - 前序遍历+深度索引的奇偶判断
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
@@ -32,4 +32,4 @@ class Solution:
         if not root:return 0
         return max(self.get_depth(root.left),self.get_depth(root.right))+1
 
-```
+# ```

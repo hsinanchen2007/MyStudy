@@ -1,8 +1,8 @@
 
-执行用时 :1 ms, 在所有 Java 提交中击败了99.67%的用户
-内存消耗 :39.5 MB, 在所有 Java 提交中击败了74.12%的用户
+// 执行用时 :1 ms, 在所有 Java 提交中击败了99.67%的用户
+// 内存消耗 :39.5 MB, 在所有 Java 提交中击败了74.12%的用户
 
-```java
+// ```java
 class Solution {
     public int[][] flipAndInvertImage(int[][] A) {
         //直接在原数组上操作，相对节省内存
@@ -27,4 +27,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

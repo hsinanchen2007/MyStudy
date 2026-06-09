@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String shortestPalindrome(String s) {
         String r = new StringBuilder(s).reverse().toString();
@@ -13,4 +13,4 @@ class Solution {
         return r.substring(0, r.length() - next[str.length() - 1]) + s;
     }
 }
-```
+// ```

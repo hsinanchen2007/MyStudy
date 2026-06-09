@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
         double result = 0.0 ;
@@ -16,4 +16,4 @@ class Solution {
         return result ;
     }
 }
-```
+// ```

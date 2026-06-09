@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -40,4 +40,4 @@ public:
         return ss;
     }
 };
-```
+// ```

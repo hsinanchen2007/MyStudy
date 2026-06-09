@@ -1,7 +1,7 @@
-在strs为空的时候，直接返回""；
-如果strs不为空，就用第一个字符串的长度为外循环，strs.size()为内循环；
-检验前缀字母，不同就用flag = false ；
-用以检验res 是否需要增加
+// 在strs为空的时候，直接返回""；
+// 如果strs不为空，就用第一个字符串的长度为外循环，strs.size()为内循环；
+// 检验前缀字母，不同就用flag = false ；
+// 用以检验res 是否需要增加
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {

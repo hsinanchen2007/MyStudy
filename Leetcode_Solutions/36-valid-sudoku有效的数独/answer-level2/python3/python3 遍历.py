@@ -1,4 +1,4 @@
-```
+# ```
 from collections import defaultdict
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
@@ -22,4 +22,4 @@ class Solution:
                 if c != 3:
                     return False
         return True
-```
+# ```

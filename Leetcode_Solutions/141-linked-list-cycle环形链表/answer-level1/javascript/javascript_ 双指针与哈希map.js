@@ -1,6 +1,6 @@
-快指针与慢指针
+// 快指针与慢指针
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -29,12 +29,12 @@ var hasCycle = function(head) {
     }
     return true
 };
-```
+// ```
 
 
-哈希map
+// 哈希map
 
-```
+// ```
 var hasCycle = function(head) {
     const map = new WeakMap()
     while (head) {
@@ -47,4 +47,4 @@ var hasCycle = function(head) {
     }
     return false
 };
-```
+// ```

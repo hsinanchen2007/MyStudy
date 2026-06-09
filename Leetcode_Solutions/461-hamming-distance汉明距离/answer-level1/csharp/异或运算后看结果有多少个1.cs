@@ -1,5 +1,5 @@
-实现起来很简单：
-```c# []
+// 实现起来很简单：
+// ```c# []
 public int HammingDistance(int x, int y) {
         var r=x^y;
         var res=Convert.ToString(r,2);
@@ -11,5 +11,5 @@ public int HammingDistance(int x, int y) {
         }
         return k;
     }
-```
+// ```
 

@@ -1,11 +1,11 @@
-### 解题思路
-1. 先计算正方体总表面积 S
-2. 计算Z轴（上下）覆盖面积 s1
-3. 计算右侧，后侧覆盖面积 s2
-4. 三维体表面积： S - ( s1 + s2 )
-### 代码
+// ### 解题思路
+// 1. 先计算正方体总表面积 S
+// 2. 计算Z轴（上下）覆盖面积 s1
+// 3. 计算右侧，后侧覆盖面积 s2
+// 4. 三维体表面积： S - ( s1 + s2 )
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -37,4 +37,4 @@ var surfaceArea = function(grid) {
     }
     return S -cover
 };
-```
+// ```

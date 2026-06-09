@@ -1,12 +1,12 @@
-### 解题思路
-istNode dummy(0);
-        dummy.next=head;
-auto t=&dummy;//不要是dummy.next,因为拿下一个节点t->next->val的值比较
+// ### 解题思路
+// istNode dummy(0);
+//         dummy.next=head;
+// auto t=&dummy;//不要是dummy.next,因为拿下一个节点t->next->val的值比较
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ public:
         return dummy.next;
     }
 };
-```
+// ```

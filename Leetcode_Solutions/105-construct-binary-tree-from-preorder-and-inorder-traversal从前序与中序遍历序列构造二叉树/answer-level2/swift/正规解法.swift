@@ -1,6 +1,6 @@
 
-时间很慢，因为我一直在创建Array...赶时间下次再优化
-```
+// 时间很慢，因为我一直在创建Array...赶时间下次再优化
+// ```
 class Solution {
     func buildTree(_ preorder: [Int], _ inorder: [Int]) -> TreeNode? {
         if preorder.count == 0 {
@@ -36,4 +36,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

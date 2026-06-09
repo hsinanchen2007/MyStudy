@@ -1,9 +1,9 @@
-### 解题思路
-python3 切片思路
+# ### 解题思路
+# python3 切片思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         i, j = 0, 0
@@ -31,4 +31,4 @@ class Solution:
         out += tmp[:j:-1].rfind('p') > tmp[:j:-1].rfind('B')
 
         return out
-```
+# ```

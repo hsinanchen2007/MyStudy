@@ -1,17 +1,17 @@
-### 解题思路
-比较典型的双指针游走题目，设有两个指针 p,q ：
+// ### 解题思路
+// 比较典型的双指针游走题目，设有两个指针 p,q ：
 
-初始时，两个指针均指向 head。
-先将 q 向后移动 k 次。此时p，q的距离为 k。
-同时移动 p，q, 直到 q 指向 nullptr。此时p->val即为答案。
-如下图所示：
+// 初始时，两个指针均指向 head。
+// 先将 q 向后移动 k 次。此时p，q的距离为 k。
+// 同时移动 p，q, 直到 q 指向 nullptr。此时p->val即为答案。
+// 如下图所示：
 
-![aa.png](https://pic.leetcode-cn.com/c11759b47df01442d2bacdc3a693531e1c5e905c741307f4bf61efffb08ce15d-aa.png)
+// ![aa.png](https://pic.leetcode-cn.com/c11759b47df01442d2bacdc3a693531e1c5e905c741307f4bf61efffb08ce15d-aa.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -35,4 +35,4 @@ class Solution {
         return head.val;
     }
 }
-```
+// ```

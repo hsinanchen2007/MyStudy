@@ -1,10 +1,10 @@
-### 解题思路
-线性搜索，循环判断第i个元素的左右是否都比自己小，如果比自己小就返回
-针对特殊长度的数组进行特殊处理
+// ### 解题思路
+// 线性搜索，循环判断第i个元素的左右是否都比自己小，如果比自己小就返回
+// 针对特殊长度的数组进行特殊处理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findPeakElement(int[] nums) {
         if (nums.length == 1 || nums == null){
@@ -39,4 +39,4 @@ class Solution {
     //     return nums.length - 1;
     // }
 }
-```
+// ```

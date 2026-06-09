@@ -1,9 +1,9 @@
-### 解题思路
-典型的并查集题目
+// ### 解题思路
+// 典型的并查集题目
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static int* S;
 
 int find(int x)
@@ -57,4 +57,4 @@ bool validTree(int n, int** edges, int edgesSize, int* edgesColSize){
     }
     return true;
 }
-```
+// ```

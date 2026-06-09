@@ -1,9 +1,9 @@
-### 解题思路
-从链表尾开始申请内存拷贝，输入到达链表尾停止并输出结果。
+// ### 解题思路
+// 从链表尾开始申请内存拷贝，输入到达链表尾停止并输出结果。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
    struct ListNode {
@@ -37,4 +37,4 @@ struct ListNode* reverseList(struct ListNode* head){
 
     return p2;
 }
-```
+// ```

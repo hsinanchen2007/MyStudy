@@ -1,9 +1,9 @@
-### 解题思路
-题干解读后就一个条件：三连0位，输出+1
-首尾补零解决边界问题，用于判断i=0&i=len(flowerbed)位
-### 代码
+# ### 解题思路
+# 题干解读后就一个条件：三连0位，输出+1
+# 首尾补零解决边界问题，用于判断i=0&i=len(flowerbed)位
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canPlaceFlowers(self, flowerbed, n):
         newflowerbed = [0] + flowerbed + [0]
@@ -16,4 +16,4 @@ class Solution(object):
             else:
                 i += 1
         return num >= n
-```
+# ```

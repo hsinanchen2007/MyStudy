@@ -1,12 +1,12 @@
-我们用dp[i]来表示和为i的数组的最优值，那么
+// 我们用dp[i]来表示和为i的数组的最优值，那么
 
-dp[i]=max(dp[i],max((i-k)*k),(i-k)*dp[k]);
+// dp[i]=max(dp[i],max((i-k)*k),(i-k)*dp[k]);
 
-即k可以分（dp[k]）,也可以不分（k）
+// 即k可以分（dp[k]）,也可以不分（k）
 
-从而可以求得最大值
+// 从而可以求得最大值
 
-```
+// ```
 class Solution {
 public:
     int cuttingRope(int n) {
@@ -23,4 +23,4 @@ public:
            return dp[n];
     }
 };
-```
+// ```

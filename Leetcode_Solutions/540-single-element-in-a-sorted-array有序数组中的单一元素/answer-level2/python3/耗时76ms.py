@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def singleNonDuplicate(self, nums: List[int]) -> int:
         n1 = len(nums)
@@ -12,4 +12,4 @@ class Solution:
             else:
                 return(nums[i])
         return(nums[-1])
-```
+# ```

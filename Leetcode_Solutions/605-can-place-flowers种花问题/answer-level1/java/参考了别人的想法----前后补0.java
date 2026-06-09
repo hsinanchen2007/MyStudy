@@ -1,9 +1,9 @@
-### 解题思路
-前后补0,为了边界值比较好算
+// ### 解题思路
+// 前后补0,为了边界值比较好算
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         int[] flowerbed1=new int[flowerbed.length+2];
@@ -42,4 +42,4 @@ class Solution {
           return (temp-3)/2+1;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+-- ```
 select a.employee_id as EMPLOYEE_ID
 from 
     Employees as a 
@@ -12,4 +12,4 @@ where
     a.employee_id <> 1 
     and
     d.employee_id = 1; 
-```
+-- ```

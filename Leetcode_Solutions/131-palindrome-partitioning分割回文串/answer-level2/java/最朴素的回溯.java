@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
    List<List<String>> res= new ArrayList<>();
     public List<List<String>> partition(String s) {
@@ -39,4 +39,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

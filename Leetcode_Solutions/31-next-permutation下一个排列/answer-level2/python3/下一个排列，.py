@@ -1,10 +1,10 @@
-### 解题思路
-第一次从后遍历，找到非递增点i，若无则对nums排序
-若找到，则继续从后遍历找到比nums[i]大的位置，进行交换，然后从i+1位置将以后元素reversed
+# ### 解题思路
+# 第一次从后遍历，找到非递增点i，若无则对nums排序
+# 若找到，则继续从后遍历找到比nums[i]大的位置，进行交换，然后从i+1位置将以后元素reversed
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
@@ -24,4 +24,4 @@ class Solution:
             
         
 
-```
+# ```

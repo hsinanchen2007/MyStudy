@@ -1,4 +1,4 @@
-```
+// ```
 public boolean judgeSquareSum(int c) {
         int sqc = (int)Math.sqrt(c);
         int fast = sqc;
@@ -16,4 +16,4 @@ public boolean judgeSquareSum(int c) {
         }
         return false;
     }
-```
+// ```

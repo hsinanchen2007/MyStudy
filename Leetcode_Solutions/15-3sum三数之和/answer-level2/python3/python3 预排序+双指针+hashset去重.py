@@ -1,10 +1,10 @@
-### 解题思路
-先取第一个数nums[i]，使用双指针法在剩余数组中取nums[j]和nums[k]，使得nums[j]+nums[k]=-nums[i]。
-时间复杂度：O(n^2)
+# ### 解题思路
+# 先取第一个数nums[i]，使用双指针法在剩余数组中取nums[j]和nums[k]，使得nums[j]+nums[k]=-nums[i]。
+# 时间复杂度：O(n^2)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         res=set()
@@ -27,4 +27,4 @@ class Solution:
                 else:
                     k-=1
         return list(res)
-```
+# ```

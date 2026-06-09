@@ -1,9 +1,9 @@
-### 解题思路
-  这是排序链表，可以利用该性质 与 pre->val == pre->next->val 判断删除与否
+// ### 解题思路
+//   这是排序链表，可以利用该性质 与 pre->val == pre->next->val 判断删除与否
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
 
 	return head;
 }
-```
+// ```

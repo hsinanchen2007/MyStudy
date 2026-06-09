@@ -1,9 +1,9 @@
-### 解题思路
-先整体反转，再逐单词反转；并独立处理首尾、中间的冗余空格
+// ### 解题思路
+// 先整体反转，再逐单词反转；并独立处理首尾、中间的冗余空格
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 额外空间 O(1)
 先整体反转，再逐单词反转；并独立处理首尾、中间的冗余空格
@@ -33,5 +33,5 @@ public:
         return s.substr(start, tail - start);               //最终返回 从start开始 tail-start长度的最终字符串
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/45ba97e7f79efcdf0f86a541cdb0a828e985fe782db9ddf95dadeb51426f3d77-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/45ba97e7f79efcdf0f86a541cdb0a828e985fe782db9ddf95dadeb51426f3d77-image.png)

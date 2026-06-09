@@ -1,9 +1,9 @@
-### 解题思路
-暴力法
+// ### 解题思路
+// 暴力法
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] TwoSum(int[] nums, int target) {
         for(int i=0;i<nums.Length;i++)
@@ -19,4 +19,4 @@ public class Solution {
         return null;
     }
 }
-```
+// ```

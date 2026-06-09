@@ -1,5 +1,5 @@
-**思路：** 双指针
-```
+// **思路：** 双指针
+// ```
 public int RemoveElement(int[] nums, int val)
         {
             int currentIndex = 0;
@@ -14,4 +14,4 @@ public int RemoveElement(int[] nums, int val)
             //注意不要写成currentIndex + 1，多用例子试一试自己的代码
             return currentIndex;
         }
-```
+// ```

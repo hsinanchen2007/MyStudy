@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compress(self, chars: List[str]) -> int:
         i = 0
@@ -24,4 +24,4 @@ class Solution:
             chars.remove("")
         return len(chars)
 
-```
+# ```

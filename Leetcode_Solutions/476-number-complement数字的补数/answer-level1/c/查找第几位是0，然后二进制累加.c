@@ -1,4 +1,4 @@
-```
+// ```
 int findComplement(int num){
     int n=0,i=0;
     while(num){
@@ -12,4 +12,4 @@ int findComplement(int num){
 }
 
 
-```
+// ```

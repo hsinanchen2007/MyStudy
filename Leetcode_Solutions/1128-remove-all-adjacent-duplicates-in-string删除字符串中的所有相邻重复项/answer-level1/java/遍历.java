@@ -1,5 +1,5 @@
-一次遍历，先往前比较，如果往前比较不同、再往后比较
-```
+// 一次遍历，先往前比较，如果往前比较不同、再往后比较
+// ```
 public String removeDuplicates(String S) {
         if (S == null || S.length() == 0) return S;
         char[] chars = S.toCharArray();
@@ -52,5 +52,5 @@ public String removeDuplicates(String S) {
             }
         }
     }
-```
-![image.png](https://pic.leetcode-cn.com/aa1ac5a27a10f45340916a6d66c9022d5b06d107fdbd5833082e7b4c69d5ea44-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/aa1ac5a27a10f45340916a6d66c9022d5b06d107fdbd5833082e7b4c69d5ea44-image.png)

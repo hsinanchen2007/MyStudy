@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/75a17164ff204c0880b7bc50dea7c7f43f5bb0a257f6ca44c5bde872f0cd401f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/75a17164ff204c0880b7bc50dea7c7f43f5bb0a257f6ca44c5bde872f0cd401f-image.png)
 
 
-```
+# ```
 '''
 枚举正方形左上角和右下角坐标， 用前缀和思想快速判断
 四条边是不是全部为1
@@ -51,4 +51,4 @@ class Solution:
                         break
 
         return ans
-```
+# ```

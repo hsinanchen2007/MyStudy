@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minArray(numbers []int) int {
     // 1.如果数组长度为0
     if len(numbers) == 0 {
@@ -19,9 +19,9 @@ func minArray(numbers []int) int {
     return numbers[0]
 }
 
-```
+// ```
 
-```golang
+// ```golang
 
  2 3 4 5 1 
 
@@ -46,4 +46,4 @@ func minArray2(numbers []int) int {
 	}
 	return numbers[left]
 }
-```
+// ```

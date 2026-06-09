@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // 单调栈
 #define min(a, b) ((a) < (b) ? (a) : (b))
 int trap(int* height, int heightSize)
@@ -32,4 +32,4 @@ int trap(int* height, int heightSize)
     return ans;
 }
 
-```
+// ```

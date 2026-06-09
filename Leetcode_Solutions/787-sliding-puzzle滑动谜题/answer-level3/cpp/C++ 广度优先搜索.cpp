@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     const int M = pow(6, 6);
@@ -66,6 +66,6 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/65544760c527b7d3de05a1a216728f5a83fbd88c470b643e3dacc3e4e1844e90-image.png)
+// ![image.png](https://pic.leetcode-cn.com/65544760c527b7d3de05a1a216728f5a83fbd88c470b643e3dacc3e4e1844e90-image.png)

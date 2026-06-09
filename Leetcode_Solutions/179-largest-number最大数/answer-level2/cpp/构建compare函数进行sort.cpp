@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-构建compare函数进行sort
+// 构建compare函数进行sort
 
-执行用时 :8 ms, 在所有 C++ 提交中击败了91.54%的用户
-内存消耗 :8.7 MB, 在所有 C++ 提交中击败了89.90%的用户
+// 执行用时 :8 ms, 在所有 C++ 提交中击败了91.54%的用户
+// 内存消耗 :8.7 MB, 在所有 C++ 提交中击败了89.90%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static int getIntBit(int a)
@@ -61,4 +61,4 @@ public:
         return result;
     }
 };
-```
+// ```

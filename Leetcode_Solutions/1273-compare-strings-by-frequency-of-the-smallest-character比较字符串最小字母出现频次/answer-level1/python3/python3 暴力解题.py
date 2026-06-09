@@ -1,11 +1,11 @@
-先定义函数f()，此函数实现对单个字符串实现输出最小字母个数的功能。
+# 先定义函数f()，此函数实现对单个字符串实现输出最小字母个数的功能。
 
-根据题干理解，所比较的对象全部是字符串经过f函数处理后得到的数字列表。因此先把queries和words列表中的元素进行f函数处理。
+# 根据题干理解，所比较的对象全部是字符串经过f函数处理后得到的数字列表。因此先把queries和words列表中的元素进行f函数处理。
 
-此时得到两个数字列表num_queries和num_words。对于num_queries中的某个元素，统计 num_words中比此元素大的元素个数。处理完num_queries中的所有元素后，便可以得到题干要求的最终列表。
+# 此时得到两个数字列表num_queries和num_words。对于num_queries中的某个元素，统计 num_words中比此元素大的元素个数。处理完num_queries中的所有元素后，便可以得到题干要求的最终列表。
 
 
-```python3 []
+# ```python3 []
 class Solution:
     def numSmallerByFrequency(self, queries: List[str], words: List[str]) -> List[int]:
         num_words = []
@@ -32,10 +32,10 @@ def f(s):
     return num
 
 #时间 2120ms， 6.66%，内存 14.2Mb， 100%。
-```
+# ```
 
 
-```python3 []
+# ```python3 []
 class Solution:
     def numSmallerByFrequency(self, queries: List[str], words: List[str]) -> List[int]:
         num_words = []
@@ -62,4 +62,4 @@ def f(s):
     num = list_s.count(list_s[0])
     return num
 #时间 564ms， 46.67%，内存 14.3, 100%。
-```
+# ```

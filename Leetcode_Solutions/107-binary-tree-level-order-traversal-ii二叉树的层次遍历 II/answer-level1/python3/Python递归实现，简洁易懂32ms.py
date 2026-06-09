@@ -1,14 +1,14 @@
-### 解题思路
-**递归Python，32ms**
-代码比较简单，一看就懂
-使用一个dict存储每一层的节点值key=层数，value=[值]
-根据先left后right的方法就行，
-最后根据key排序。
-Python大法好，比其他的简洁多了。
+# ### 解题思路
+# **递归Python，32ms**
+# 代码比较简单，一看就懂
+# 使用一个dict存储每一层的节点值key=层数，value=[值]
+# 根据先left后right的方法就行，
+# 最后根据key排序。
+# Python大法好，比其他的简洁多了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
         # print(res)
         result = [res[k] for k in sorted(res.keys(),key=lambda x:x, reverse=True)]
         return result
-```
+# ```

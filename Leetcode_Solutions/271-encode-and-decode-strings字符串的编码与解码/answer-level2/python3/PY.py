@@ -1,4 +1,4 @@
-```
+# ```
 class Codec:
     def encode(self, strs):
         if not strs:
@@ -32,4 +32,4 @@ class Codec:
                 strs.append(meat[start:end])
                 start=end
         return strs
-```
+# ```

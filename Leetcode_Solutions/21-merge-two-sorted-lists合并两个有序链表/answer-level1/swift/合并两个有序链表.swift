@@ -1,5 +1,5 @@
-解法一
-```
+// 解法一
+// ```
 public class ListNode {
     public var val: Int
     public var next: ListNode?
@@ -28,9 +28,9 @@ func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) ->ListNode? {
     return phead.next
 }
 
-```
-解法二: 递归
-```
+// ```
+// 解法二: 递归
+// ```
 public class ListNode {
     public var val: Int
     public var next: ListNode?
@@ -52,4 +52,4 @@ func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         return l2
     }
     }
-```
+// ```

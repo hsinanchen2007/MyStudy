@@ -1,19 +1,19 @@
-### 解题思路
-1.根据函数：
-```
+// ### 解题思路
+// 1.根据函数：
+// ```
     const arr = numbers.sort((a,b) => a-b);
     return arr[0]
-```
-2.一行代码：
+// ```
+// 2.一行代码：
 
-```
+// ```
 return Math.min(...nums); 
 
-```
-众所周知，二分用于有序数组，但我们可以用二分缩小范围
-### 代码
+// ```
+// 众所周知，二分用于有序数组，但我们可以用二分缩小范围
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} numbers
  * @return {number}
@@ -40,4 +40,4 @@ var minArray = function(numbers) {
     //此时只剩一个了 l和r都可以
     return numbers[l]
 };
-```
+// ```

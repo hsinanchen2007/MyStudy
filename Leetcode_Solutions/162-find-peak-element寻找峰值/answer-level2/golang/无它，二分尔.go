@@ -1,4 +1,4 @@
-```
+// ```
 func findPeakElement(nums []int) int {
 	var (
 		left, mid int
@@ -17,4 +17,4 @@ func findPeakElement(nums []int) int {
 	return left
 }
 
-```
+// ```

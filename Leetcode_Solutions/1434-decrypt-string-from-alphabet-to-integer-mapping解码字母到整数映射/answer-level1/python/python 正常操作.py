@@ -1,9 +1,9 @@
-### 解题思路
-遍历,每次遍历时搜索后面第二个字符是不是#
+# ### 解题思路
+# 遍历,每次遍历时搜索后面第二个字符是不是#
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def freqAlphabets(self, s):
         """
@@ -29,4 +29,4 @@ class Solution(object):
                 res=res+chr(ord('a')+int(one)-1)
         # print res
         return res
-```
+# ```

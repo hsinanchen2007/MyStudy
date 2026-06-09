@@ -1,7 +1,7 @@
-## 思路：vector+map
+// ## 思路：vector+map
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class RandomizedSet {
     unordered_map<int, int> umap;
     vector<int> nums;
@@ -39,5 +39,5 @@ public:
         return nums[rand() % nums.size()];
     }
 };
-```
+// ```
 

@@ -1,25 +1,25 @@
-### 解题思路
- 1. 找状态
-    dp[i]为最大上升子序列 满足两个条件
-        1. nums[i] > nums[j]
-        2. j 为所有小于 i，且在i前面的元素中，dp[j]最大的。
-2. 转移方程
-```
+// ### 解题思路
+//  1. 找状态
+//     dp[i]为最大上升子序列 满足两个条件
+//         1. nums[i] > nums[j]
+//         2. j 为所有小于 i，且在i前面的元素中，dp[j]最大的。
+// 2. 转移方程
+// ```
     0<= j < i
     if(nums[j] < nums[i]){
             max = Math.max(dp[j],max);
     }
     dp[i] =max + 1
-```
-3. 初始状态，边界
-```
+// ```
+// 3. 初始状态，边界
+// ```
     dp[0] = [1]; 
-```
-4. 顺序
-    从小到大
-### 代码
+// ```
+// 4. 顺序
+//     从小到大
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -44,4 +44,4 @@ var lengthOfLIS = function(nums) {
     }
     return maxLength;
 };
-```
+// ```

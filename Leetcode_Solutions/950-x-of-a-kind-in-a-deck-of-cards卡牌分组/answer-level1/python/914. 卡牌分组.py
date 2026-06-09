@@ -1,8 +1,8 @@
-### 解题思路
-使用最大公因数，collections.Counter可以直接计数
-### 代码
+# ### 解题思路
+# 使用最大公因数，collections.Counter可以直接计数
+# ### 代码
 
-```python3
+# ```python3
 from functools import reduce
 import collections
 class Solution:
@@ -18,4 +18,4 @@ class Solution:
 
 
         
-```
+# ```

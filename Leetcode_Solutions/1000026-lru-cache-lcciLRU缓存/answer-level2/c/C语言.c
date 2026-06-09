@@ -1,9 +1,9 @@
-### 解题思路
-C语言
+// ### 解题思路
+// C语言
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 struct _LRUEntry {
     struct _LRUEntry* pre;
@@ -194,4 +194,4 @@ void lRUCacheFree(LRUCache* obj) {
  
  * lRUCacheFree(obj);
 */
-```
+// ```

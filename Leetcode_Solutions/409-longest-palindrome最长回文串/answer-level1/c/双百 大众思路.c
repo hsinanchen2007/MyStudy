@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestPalindrome(char * s){
     int logs[63]={0},count=0,single=0;
     while(*s){
@@ -19,4 +19,4 @@ int longestPalindrome(char * s){
     }  
     return count+single;
 }
-```
+// ```

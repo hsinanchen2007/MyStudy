@@ -1,5 +1,5 @@
-###最后的非零判断是真的骚气
-```
+-- ###最后的非零判断是真的骚气
+-- ```
 /* Write your PL/SQL query statement below */
 SELECT *
 FROM (
@@ -31,4 +31,4 @@ WHERE not(a.approved_count = 0
 	AND a.approved_amount = 0
 	AND a.chargeback_count = 0
 	AND a.chargeback_amount = 0)
-```
+-- ```

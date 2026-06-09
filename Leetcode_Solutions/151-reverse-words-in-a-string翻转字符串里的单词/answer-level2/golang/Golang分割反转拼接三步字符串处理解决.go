@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-- 1,分割字符串；
-- 2，反转字符串数组
-- 3，拼接字符串
+// - 1,分割字符串；
+// - 2，反转字符串数组
+// - 3，拼接字符串
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import "strings"
 
 func reverseWords(s string) string {
@@ -20,4 +20,4 @@ func reverseWords(s string) string {
 	//将字符串数组里的元素拼接成一个字符串并返回
 	return strings.Join(reserseSeg, " ")
 }
-```
+// ```

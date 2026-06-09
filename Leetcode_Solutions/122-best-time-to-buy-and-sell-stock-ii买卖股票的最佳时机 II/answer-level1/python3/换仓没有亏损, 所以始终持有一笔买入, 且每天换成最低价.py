@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         buy = 999999999
@@ -10,4 +10,4 @@ class Solution:
             if p < buy:
                 buy = p
         return earn
-```
+# ```

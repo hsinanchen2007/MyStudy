@@ -1,6 +1,6 @@
-递归算法，简单易懂
+# 递归算法，简单易懂
 
-```
+# ```
 class Solution:
     def generateParenthesis(self, n: int):
         self.ans = []
@@ -16,4 +16,4 @@ class Solution:
             self.generate(s+'(',c1-1,c2+1)
         if c2 > 0:
             self.generate(s+')',c1,c2-1)
-```
+# ```

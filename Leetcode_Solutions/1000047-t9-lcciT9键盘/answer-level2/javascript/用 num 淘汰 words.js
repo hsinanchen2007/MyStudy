@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} num
  * @param {string[]} words
@@ -24,4 +24,4 @@ var getValidT9Words = function(num, words) {
     }
     return words;
 };
-```
+// ```

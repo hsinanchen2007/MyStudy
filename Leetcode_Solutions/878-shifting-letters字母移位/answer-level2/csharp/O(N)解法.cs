@@ -1,6 +1,6 @@
-O(N)的解法很简单，先对26求余数处理一遍shifts数据组避免后面int求和溢出，然后从后往前累加shifts数组值，再次对26求余数，得到的是真正每个字符要移动的次数。
-最后遍历字符串，计算出位移结果
-```C# []
+// O(N)的解法很简单，先对26求余数处理一遍shifts数据组避免后面int求和溢出，然后从后往前累加shifts数组值，再次对26求余数，得到的是真正每个字符要移动的次数。
+// 最后遍历字符串，计算出位移结果
+// ```C# []
 public string ShiftingLetters(string S, int[] shifts)
         {
             var len = 26;
@@ -27,6 +27,6 @@ public string ShiftingLetters(string S, int[] shifts)
             return sb.ToString();
 
         }
-```
+// ```
 
 

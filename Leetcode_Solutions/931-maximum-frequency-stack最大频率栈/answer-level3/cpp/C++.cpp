@@ -1,5 +1,5 @@
-看了官方注解之后，添加了一些注释，用C++写了一版
-```
+// 看了官方注解之后，添加了一些注释，用C++写了一版
+// ```
 class FreqStack {
 public:
     unordered_map<int,int>freq;//key->freq;
@@ -25,4 +25,4 @@ public:
         return x;
     }
 };
-```
+// ```

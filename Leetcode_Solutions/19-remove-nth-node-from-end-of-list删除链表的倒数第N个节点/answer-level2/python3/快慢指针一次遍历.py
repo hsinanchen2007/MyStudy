@@ -1,9 +1,9 @@
-**思路**
-一次遍历完成双指针法
-1. 设想删除倒数第二个节点，设定快慢指针，快指针比慢指针遍历节点快n个节点
-2. 当快指针遍历到尾节点时，慢指针的下一个节点就是需要删除的节点
+# **思路**
+# 一次遍历完成双指针法
+# 1. 设想删除倒数第二个节点，设定快慢指针，快指针比慢指针遍历节点快n个节点
+# 2. 当快指针遍历到尾节点时，慢指针的下一个节点就是需要删除的节点
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution(object):
 
         slow.next = slow.next.next
         return dummy.next
-```
+# ```

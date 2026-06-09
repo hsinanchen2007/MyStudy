@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //如果是使用动态规划的算法 那么就需要进行数据 递归 
     public String longestPalindrome(String s) {
@@ -33,4 +33,4 @@ class Solution {
         return R-L-1;
     }
 }
-```
+// ```

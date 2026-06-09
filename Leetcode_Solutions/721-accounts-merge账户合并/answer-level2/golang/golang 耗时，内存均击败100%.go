@@ -1,16 +1,16 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/63635ae61141629d099fcd612b049a65b154c69e10d6cd4058c83cc69f25c0e2-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/63635ae61141629d099fcd612b049a65b154c69e10d6cd4058c83cc69f25c0e2-image.png)
 
-1. 并查集合并包含共同邮件地址的账号的数组下标；
-2. emailToID记录邮件地址第一次出现的账号下标；
-3. 依次遍历所有账号的邮件地址；
-4. 通过查找emailToID，判断是否有可合并的账号；
-5. 遍历emailToID，通过并查集获取邮件所属的集合ID；
-6. 组织返回结果。
+// 1. 并查集合并包含共同邮件地址的账号的数组下标；
+// 2. emailToID记录邮件地址第一次出现的账号下标；
+// 3. 依次遍历所有账号的邮件地址；
+// 4. 通过查找emailToID，判断是否有可合并的账号；
+// 5. 遍历emailToID，通过并查集获取邮件所属的集合ID；
+// 6. 组织返回结果。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type UnionFind struct {
 	count int
 	parent []int
@@ -80,4 +80,4 @@ func accountsMerge(accounts [][]string) [][]string {
 
 	return result
 }
-```
+// ```

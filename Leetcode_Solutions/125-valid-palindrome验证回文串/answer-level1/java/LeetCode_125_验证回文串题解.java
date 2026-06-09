@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-题目很简单，说两个重点：
+// 题目很简单，说两个重点：
 
-- 不能简单的决定偶数长度的字符串就不会回味串 = = 例如：abba, aa等
-- 判断字符是不是数字应该是 `x >= '0' && x <= '9'` 而不是 ~~`x >= 0 && x <= 9`~~
-- 在字符串刚开始全部转为小写，不要再循环里面转
+// - 不能简单的决定偶数长度的字符串就不会回味串 = = 例如：abba, aa等
+// - 判断字符是不是数字应该是 `x >= '0' && x <= '9'` 而不是 ~~`x >= 0 && x <= 9`~~
+// - 在字符串刚开始全部转为小写，不要再循环里面转
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 public boolean isPalindrome(String s) {
         char[] str = s.toLowerCase().toCharArray();
@@ -33,4 +33,4 @@ public boolean isPalindrome(String s) {
         return true;
     }
 }
-```
+// ```

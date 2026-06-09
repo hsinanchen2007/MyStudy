@@ -1,9 +1,9 @@
-### 解题思路
-灵感来自于甜姨，需要注意的是排序的时候，利用qsort就可以，不需要自己单独写。Trie树的题目，可以先做 208. 实现 Trie (前缀树)
+// ### 解题思路
+// 灵感来自于甜姨，需要注意的是排序的时候，利用qsort就可以，不需要自己单独写。Trie树的题目，可以先做 208. 实现 Trie (前缀树)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_CHILD 26
 typedef struct trie {
     struct trie *child[MAX_CHILD];
@@ -59,4 +59,4 @@ int minimumLengthEncoding(char ** words, int wordsSize)
 
     return len;
 }
-```
+// ```

@@ -1,8 +1,8 @@
 
 
-![image.png](https://pic.leetcode-cn.com/5ad8c1fb14ca1e2178d045f0e9018435bfc1e005225f408f58fdbacfa6bddde0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5ad8c1fb14ca1e2178d045f0e9018435bfc1e005225f408f58fdbacfa6bddde0-image.png)
 
-```
+// ```
 func minMutation(start string, end string, bank []string) int {
 	// 边界条件
 	if len(start) == 0 || len(end) == 0 {
@@ -50,4 +50,4 @@ func minMutation(start string, end string, bank []string) int {
 	}
 	return -1
 }
-```
+// ```

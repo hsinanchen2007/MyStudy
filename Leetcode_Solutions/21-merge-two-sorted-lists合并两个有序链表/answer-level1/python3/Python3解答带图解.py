@@ -1,12 +1,12 @@
-### 解题思路
-两个形参l1和l2是两个有序链表的头结点，可以当成是指针来用，利用这两个节点进行迭代。
-先比较l1和l2的value（即data值部分），如果l1的值小于l2的值，则l1保持不变，l1.next在原来的l1.next和l2中间选，哪个小，哪个就是新的l1.next，由此迭代；如果l2的值小于l1的值，同理。
+# ### 解题思路
+# 两个形参l1和l2是两个有序链表的头结点，可以当成是指针来用，利用这两个节点进行迭代。
+# 先比较l1和l2的value（即data值部分），如果l1的值小于l2的值，则l1保持不变，l1.next在原来的l1.next和l2中间选，哪个小，哪个就是新的l1.next，由此迭代；如果l2的值小于l1的值，同理。
 
-![12.PNG](https://pic.leetcode-cn.com/10b05c86b8f5b0de692801b67915df658594e63fd7ff4a2585aa51cc29ea0f03-12.PNG)
+# ![12.PNG](https://pic.leetcode-cn.com/10b05c86b8f5b0de692801b67915df658594e63fd7ff4a2585aa51cc29ea0f03-12.PNG)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
 
 
         
-```
+# ```

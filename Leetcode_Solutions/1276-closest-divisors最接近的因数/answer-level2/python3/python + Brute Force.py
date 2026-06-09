@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def closestDivisors(self, num: int) -> List[int]:
         # a, b => a * b == num + 1 or a * b == num + 2
@@ -13,4 +13,4 @@ class Solution:
             return [a1, b1]
         else:
             return [a2, b2]
-```
+# ```

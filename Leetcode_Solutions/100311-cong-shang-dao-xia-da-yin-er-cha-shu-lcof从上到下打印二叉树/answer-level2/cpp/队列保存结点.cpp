@@ -1,9 +1,9 @@
-### 解题思路
-用队列保存结点遍历即可
+// ### 解题思路
+// 用队列保存结点遍历即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

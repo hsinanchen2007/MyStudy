@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool initial(vector<vector<char>>& board){
@@ -67,4 +67,4 @@ private:
     vector<pair<int,int>> blank;
 };
 
-```
+// ```

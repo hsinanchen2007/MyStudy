@@ -1,9 +1,9 @@
-### 解题思路
-**1。迭代**
+# ### 解题思路
+# **1。迭代**
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -25,23 +25,23 @@ class Solution(object):
                 q.append((cur_depth + 1,r.right))
         return max_depth
 
-```
-**2.递归**
-### 代码
+# ```
+# **2.递归**
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxDepth(self, root):
         if not root:
             return 0
         return 1 + max(self.maxDepth(root.left),self.maxDepth(root.right))
-```
+# ```
 
 
 
-```
+# ```
 
 
-```
+# ```
 
-```
+# ```

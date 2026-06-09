@@ -1,9 +1,9 @@
-### 解题思路
-ArrayList top 列表的最后一个元素，pop 返回 top，push 添加到末尾，empty 直接判断 list 是否为空
+// ### 解题思路
+// ArrayList top 列表的最后一个元素，pop 返回 top，push 添加到末尾，empty 直接判断 list 是否为空
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
     List<Integer> queue = new ArrayList<>();
     
@@ -41,4 +41,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

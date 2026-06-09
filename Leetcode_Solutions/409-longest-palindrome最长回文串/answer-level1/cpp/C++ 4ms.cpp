@@ -1,9 +1,9 @@
-### 解题思路
-打卡打卡
+// ### 解题思路
+// 打卡打卡
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -17,4 +17,4 @@ public:
         return ans;
     }
 };
-```
+// ```

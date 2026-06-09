@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func movingCount(m int, n int, k int) int {
 	dp := make([][]int, m+1)
 	for i := range dp {
@@ -39,4 +39,4 @@ func sumPos(n int) int {
 
 	return sum
 }
-```
+// ```

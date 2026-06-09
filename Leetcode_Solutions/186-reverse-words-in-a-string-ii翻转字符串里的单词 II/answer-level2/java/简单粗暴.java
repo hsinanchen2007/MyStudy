@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1.先reverse单个单词的顺序
-2.在整体数组reverse
+// ### 解题思路
+// 此处撰写解题思路
+// 1.先reverse单个单词的顺序
+// 2.在整体数组reverse
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public void reverseWords(char[] s) {
 		if (s == null || s.length < 2)
@@ -33,4 +33,4 @@ class Solution {
 		}
 	}
 }
-```
+// ```

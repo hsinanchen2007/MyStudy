@@ -1,5 +1,5 @@
-想不出来没有各位聪明才智只好暴力解决了
-```
+// 想不出来没有各位聪明才智只好暴力解决了
+// ```
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
     }
 };
 
-```
+// ```

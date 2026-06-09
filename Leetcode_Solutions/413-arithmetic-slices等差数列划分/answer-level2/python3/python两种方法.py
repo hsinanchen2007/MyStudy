@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def numberOfArithmeticSlices(self, A):
         """
@@ -29,8 +29,8 @@ class Solution(object):
             return sum
         else:
             return 0
-```
-```
+# ```
+# ```
 class Solution(object):
     def numberOfArithmeticSlices(self, A):
         """
@@ -53,5 +53,5 @@ class Solution(object):
         return sum
         
             
-```
+# ```
 

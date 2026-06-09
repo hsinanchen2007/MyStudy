@@ -1,6 +1,6 @@
-解法：分析可知，第一个总是"(",在逐个生成字符串的过程中，遵循"("的数量大于等于")"的数量的规则添加新的符号。不过事实上超过10就会超时了。
+// 解法：分析可知，第一个总是"(",在逐个生成字符串的过程中，遵循"("的数量大于等于")"的数量的规则添加新的符号。不过事实上超过10就会超时了。
 
-```cpp
+// ```cpp
 vector<string> vTotal;
 void generateParenthesis(int n, string s, int iLeft, int iRight) {
     if (iLeft == n && iRight == n) {
@@ -18,4 +18,4 @@ vector<string> generateParenthesis(int n) {
         generateParenthesis(n, "(", 1, 0);
     return vTotal;
 }
-```
+// ```

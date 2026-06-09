@@ -1,10 +1,10 @@
-### 解题思路
-双指针遍历数组
-每次比较保留值最大指针，另外的指针进行移动
+// ### 解题思路
+// 双指针遍历数组
+// 每次比较保留值最大指针，另外的指针进行移动
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxArea(int[] height) {
                if (height.length < 2) {
@@ -26,4 +26,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

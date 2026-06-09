@@ -1,7 +1,7 @@
-数组先排序，先排序，先排序，如果数组是有序的，很容易就可以用dp求解了
+// 数组先排序，先排序，先排序，如果数组是有序的，很容易就可以用dp求解了
 
 
-```golang
+// ```golang
 func largestDivisibleSubset(nums []int) []int {
 	if len(nums) == 0 {
 		return nil
@@ -32,4 +32,4 @@ func largestDivisibleSubset(nums []int) []int {
 	return dp[m]
 
 }
-```
+// ```

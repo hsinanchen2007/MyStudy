@@ -1,11 +1,11 @@
-### 解题思路
-需要申请临时头结点，然后将小于目标值x的数和大于等于目标值的数分别建立链表（less和more），并申请两个指针分别指向这两个链表，这两个新申请的指针始终指向最后一个节点（lessPtr，morePtr）。
-最后，将两个新建立的链表链接起来，即less的链表尾指向more链表的head->next，并且morePtr->next=NULL。
-最后返回less->next。
+// ### 解题思路
+// 需要申请临时头结点，然后将小于目标值x的数和大于等于目标值的数分别建立链表（less和more），并申请两个指针分别指向这两个链表，这两个新申请的指针始终指向最后一个节点（lessPtr，morePtr）。
+// 最后，将两个新建立的链表链接起来，即less的链表尾指向more链表的head->next，并且morePtr->next=NULL。
+// 最后返回less->next。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -55,4 +55,4 @@ struct ListNode* partition(struct ListNode* head, int x){
     return lessHead->next;
 
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-选取第一个字符串作为参照，与后面的字符串逐一比较，某个字符不相同时，此时打上字符串结束标志'\0'。
-### 代码
+// ### 解题思路
+// 选取第一个字符串作为参照，与后面的字符串逐一比较，某个字符不相同时，此时打上字符串结束标志'\0'。
+// ### 代码
 
-```c
+// ```c
 char * longestCommonPrefix(char ** strs, int strsSize)
 {
     if(!strsSize)               /* 空字符串，返回"" */
@@ -17,10 +17,10 @@ char * longestCommonPrefix(char ** strs, int strsSize)
     return s;
 }
 
-```
+// ```
 
-如果指针不是很熟练的话，也可以这样
-```c
+// 如果指针不是很熟练的话，也可以这样
+// ```c
 char * longestCommonPrefix(char ** strs, int strsSize)
 {
     if(!strsSize)
@@ -37,4 +37,4 @@ char * longestCommonPrefix(char ** strs, int strsSize)
     return s;
 }
 
-```
+// ```

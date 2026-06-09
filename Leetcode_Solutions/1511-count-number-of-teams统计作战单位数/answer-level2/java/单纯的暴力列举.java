@@ -1,9 +1,9 @@
-### 解题思路
-单纯的暴力列举，就能双100%
+// ### 解题思路
+// 单纯的暴力列举，就能双100%
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numTeams(int[] rating) {
         int len = rating.length;
@@ -34,4 +34,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 void findSecond(struct TreeNode* root, int *m){
     if (!root)
         return ;
@@ -28,4 +28,4 @@ int findSecondMinimumValue(struct TreeNode* root){
     findSecond(root, m);
     return m[1];
 }
-```
+// ```

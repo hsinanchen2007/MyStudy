@@ -1,10 +1,10 @@
-### 解题思路
-dp, dp[i] = 从0-i进行遍历，若nums[j]<nums[i],则尝试更新dp[i];
-完成dp数组后，遍历得到最大值
+// ### 解题思路
+// dp, dp[i] = 从0-i进行遍历，若nums[j]<nums[i],则尝试更新dp[i];
+// 完成dp数组后，遍历得到最大值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         int len = nums.length;
@@ -26,4 +26,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

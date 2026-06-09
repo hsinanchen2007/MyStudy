@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def numberOfSubarrays(self, nums: List[int], k: int) -> int:
         # two pointers
@@ -19,4 +19,4 @@ class Solution:
             if ans == 0:
                 r += 1
         return ans
-```
+# ```

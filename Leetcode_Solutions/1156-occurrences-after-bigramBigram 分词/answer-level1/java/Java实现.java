@@ -1,5 +1,5 @@
-这道题难度不大，主要是for循环的终止条件，要注意数组越界
-```
+// 这道题难度不大，主要是for循环的终止条件，要注意数组越界
+// ```
 class Solution {
     public String[] findOcurrences(String text, String first, String second) {
         String[] words = text.split(" ");
@@ -13,4 +13,4 @@ class Solution {
         return res.toArray(new String[res.size()]);
     }
 }
-```
+// ```

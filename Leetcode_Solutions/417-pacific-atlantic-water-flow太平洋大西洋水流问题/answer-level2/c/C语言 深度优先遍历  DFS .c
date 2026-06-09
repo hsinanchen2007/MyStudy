@@ -1,8 +1,8 @@
-**解题思路**
-逆向遍历，构建两个状态矩阵，分别存储从太平洋和大西洋边缘开始遍历所能到达的位置，两个矩阵重合之处即为所求。
+// **解题思路**
+// 逆向遍历，构建两个状态矩阵，分别存储从太平洋和大西洋边缘开始遍历所能到达的位置，两个矩阵重合之处即为所求。
 
-**代码如下**
-```
+// **代码如下**
+// ```
 void dfs(int** matrix, int i, int j, int pre, int row, int col, int visited[row][col])
 {
     // 设定边界
@@ -59,4 +59,4 @@ int** pacificAtlantic(int** matrix, int matrixSize, int* matrixColSize, int* ret
     return res;
 }
 
-```
+// ```

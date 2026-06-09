@@ -1,9 +1,9 @@
-### 解题思路
-普通循环法，用一个数组保存数字，然后逆序遍历
+# ### 解题思路
+# 普通循环法，用一个数组保存数字，然后逆序遍历
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution(object):
         return head
         
         
-```
+# ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         # use dfs
@@ -15,4 +15,4 @@ class Solution:
                 generate_pairs(l, r - 1, pairs + ')')
         generate_pairs(n, n, '')
         return res
-```
+# ```

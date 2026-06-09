@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
         heap = []
@@ -22,4 +22,4 @@ class Solution:
                 heapq.heappush(heap, t)
             res += n + 1 if temp else i
         return res
-```
+# ```

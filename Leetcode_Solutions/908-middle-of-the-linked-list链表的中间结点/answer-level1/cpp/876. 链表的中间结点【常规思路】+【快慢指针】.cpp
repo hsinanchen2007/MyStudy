@@ -1,9 +1,9 @@
-### 解题思路【常规思路】
-把链表先存入数组，然后数组可以直接获取对应的中间结点
+// ### 解题思路【常规思路】
+// 把链表先存入数组，然后数组可以直接获取对应的中间结点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -24,13 +24,13 @@ public:
 
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/7229aca96a3dc6d781c11347c5b51ee9901b462f44c76ed938651630b6ec0a92-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/7229aca96a3dc6d781c11347c5b51ee9901b462f44c76ed938651630b6ec0a92-image.png)
 
-### 解题思路【快慢指针】
-    使用慢指针 slow 和快指针fast 两个指针同时遍历链表。快指针一次前进两个结点，速度是慢指针的两倍，
-    那么，当快指针到达链表末尾时，慢指针正好到达链表的中间。
-```java
+// ### 解题思路【快慢指针】
+//     使用慢指针 slow 和快指针fast 两个指针同时遍历链表。快指针一次前进两个结点，速度是慢指针的两倍，
+//     那么，当快指针到达链表末尾时，慢指针正好到达链表的中间。
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -52,4 +52,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numSubarrayProductLessThanK(vector<int>& nums, int k) {
@@ -15,4 +15,4 @@ public:
          return sum;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-O(n**2)太慢了。。。
+# ### 解题思路
+# O(n**2)太慢了。。。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def relativeSortArray(self, arr1, arr2):
         """
@@ -37,15 +37,15 @@ class Solution(object):
 
             
 
-```
+# ```
 
-执行用时 :
-44 ms
-, 在所有 python 提交中击败了
-22.34%
-的用户
-内存消耗 :
-11.9 MB
-, 在所有 python 提交中击败了
-100.00%
-的用户
+# 执行用时 :
+# 44 ms
+# , 在所有 python 提交中击败了
+# 22.34%
+# 的用户
+# 内存消耗 :
+# 11.9 MB
+# , 在所有 python 提交中击败了
+# 100.00%
+# 的用户

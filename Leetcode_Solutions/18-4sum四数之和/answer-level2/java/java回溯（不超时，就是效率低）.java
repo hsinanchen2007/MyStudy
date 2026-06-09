@@ -1,9 +1,9 @@
-![360截图17001018474358.png](https://pic.leetcode-cn.com/d699413f87ed47e2b9d70b0e46a45e3047c6d2c8cef8e2b1d8a4ee8a2c5a6650-360%E6%88%AA%E5%9B%BE17001018474358.png)
+// ![360截图17001018474358.png](https://pic.leetcode-cn.com/d699413f87ed47e2b9d70b0e46a45e3047c6d2c8cef8e2b1d8a4ee8a2c5a6650-360%E6%88%AA%E5%9B%BE17001018474358.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> res=new ArrayList<>();
     public List<List<Integer>> fourSum(int[] nums, int target) {
@@ -37,4 +37,4 @@ class Solution {
         }
     }
 }
-```
+// ```

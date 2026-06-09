@@ -1,21 +1,21 @@
-floyd 逻辑最简单：   
+// floyd 逻辑最简单：   
 
-    使用邻接矩阵g保持最短距离，g[f][t] 表示 从 f -> t 的最短时延，一开始只有初始化数据，需要不断迭代更新。
-    更新过程：遍历所有节点K， 看 从任意节点f到t的直达时延是否超过 f -> K -> t时延之和，如果是，则更近时延数据。
-    最终从邻接矩阵g的K列中获取各最短时延的最大值即为结果（如果有结果为MAX_W，则表明某节点不可达， 返回 -1)
+//     使用邻接矩阵g保持最短距离，g[f][t] 表示 从 f -> t 的最短时延，一开始只有初始化数据，需要不断迭代更新。
+//     更新过程：遍历所有节点K， 看 从任意节点f到t的直达时延是否超过 f -> K -> t时延之和，如果是，则更近时延数据。
+//     最终从邻接矩阵g的K列中获取各最短时延的最大值即为结果（如果有结果为MAX_W，则表明某节点不可达， 返回 -1)
 
 
-Dijkstra逻辑相对复杂：
+// Dijkstra逻辑相对复杂：
 
-    使用dis数组表示从K到各节点的时延，一开始只有初始化的信息。需要后面依次更新最短时延。
-    使用mark数组将节点标记为两个集合（mark[i] 表示从K到i节点是否已经确认为最短时延。
-    每次从未确认的集合（mark[i]=0)选取最小的节点，此节点i为可以确认的最小时延。
-    遍历从i出发到各target，判断 K -> i -> target的时延是否要比 K -> target的时延短，是则更新。
+//     使用dis数组表示从K到各节点的时延，一开始只有初始化的信息。需要后面依次更新最短时延。
+//     使用mark数组将节点标记为两个集合（mark[i] 表示从K到i节点是否已经确认为最短时延。
+//     每次从未确认的集合（mark[i]=0)选取最小的节点，此节点i为可以确认的最小时延。
+//     遍历从i出发到各target，判断 K -> i -> target的时延是否要比 K -> target的时延短，是则更新。
 
-    最终从dis数组中获取各最短时延的最大值即为结果（如果有结果为MAX_W，则表明某节点不可达， 返回 -1)
+//     最终从dis数组中获取各最短时延的最大值即为结果（如果有结果为MAX_W，则表明某节点不可达， 返回 -1)
 
-floyd 代码：
-```cpp
+// floyd 代码：
+// ```cpp
 
 #define MAX_N   100
 #define MAX_W   (MAX_N * 100 + 1)
@@ -57,10 +57,10 @@ public:
         return maxTime;
     }
 };
-```
-Dijkstra相对麻烦一些：
+// ```
+// Dijkstra相对麻烦一些：
 
-```cpp
+// ```cpp
 #define MAX_N   100
 #define MAX_W   (MAX_N * 100 + 1)
 
@@ -129,9 +129,9 @@ public:
         return max;
     }
 };
-```
+// ```
 
-附上两个算法的通俗易懂的解释：
+// 附上两个算法的通俗易懂的解释：
 
-算法1： floyd，逻辑最简 参考 http://wiki.jikexueyuan.com/project/easy-learn-algorithm/floyd.html
-算法2： Dijkstra，参考 http://wiki.jikexueyuan.com/project/easy-learn-algorithm/dijkstra.html
+// 算法1： floyd，逻辑最简 参考 http://wiki.jikexueyuan.com/project/easy-learn-algorithm/floyd.html
+// 算法2： Dijkstra，参考 http://wiki.jikexueyuan.com/project/easy-learn-algorithm/dijkstra.html

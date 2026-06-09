@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool backspaceCompare(string S, string T) {
@@ -39,4 +39,4 @@ public:
         return str1;
     }
 };
-```
+// ```

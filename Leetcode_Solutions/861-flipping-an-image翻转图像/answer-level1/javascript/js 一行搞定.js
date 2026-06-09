@@ -1,7 +1,7 @@
-双指针发减少了内层循环的次数（1/2）；可以为什么用时比暴力破解法用的时间还长--这不科学
+// 双指针发减少了内层循环的次数（1/2）；可以为什么用时比暴力破解法用的时间还长--这不科学
 
-解法1：利用array.map--暴力破解
-```
+// 解法1：利用array.map--暴力破解
+// ```
 /**
  * @param {number[][]} A
  * @return {number[][]}
@@ -9,9 +9,9 @@
 var flipAndInvertImage = function(A) {
     return A.map(i => i.map(j => (j^1)).reverse())
 };
-```
-解法二：双指针
-```
+// ```
+// 解法二：双指针
+// ```
 var flipAndInvertImage = function(A) {
     for (let i = 0; i < A.length; i++) {
         let endPonit = A[i].length -1;
@@ -27,6 +27,6 @@ var flipAndInvertImage = function(A) {
     }
     return A
 };
-```
-求教：怎么计算时间及空间复杂度
+// ```
+// 求教：怎么计算时间及空间复杂度
 

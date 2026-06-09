@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,4 +47,4 @@ bool isSymmetric(struct TreeNode* root)
         return chkIsMirror(root->left, root->right);
     }
 }
-```
+// ```

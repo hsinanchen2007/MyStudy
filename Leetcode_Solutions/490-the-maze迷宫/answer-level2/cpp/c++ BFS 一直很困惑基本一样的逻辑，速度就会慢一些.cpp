@@ -1,11 +1,11 @@
-能想到唯一的地方大概就是visited的判断后置了，可以在插入队列前就判断一下？ 速度会差这么多的吗
+// 能想到唯一的地方大概就是visited的判断后置了，可以在插入队列前就判断一下？ 速度会差这么多的吗
 
-[自己动手实现分布式缓存](https://github.com/wfnuser/burrow)
-[我的题解](https://www.github.com/wfnuser/leetcode)
-[我的github](https://www.github.com/wfnuser)
-欢迎大家在github follow我 对分布式缓存感兴趣的可以看第一个项目，希望之后可以发布更多的玩具项目
+// [自己动手实现分布式缓存](https://github.com/wfnuser/burrow)
+// [我的题解](https://www.github.com/wfnuser/leetcode)
+// [我的github](https://www.github.com/wfnuser)
+// 欢迎大家在github follow我 对分布式缓存感兴趣的可以看第一个项目，希望之后可以发布更多的玩具项目
 
-```
+// ```
 class Solution {
 public:
     bool hasPath(vector<vector<int>>& maze, vector<int>& start, vector<int>& destination) {
@@ -44,4 +44,4 @@ public:
         return false;
     }
 };
-```
+// ```

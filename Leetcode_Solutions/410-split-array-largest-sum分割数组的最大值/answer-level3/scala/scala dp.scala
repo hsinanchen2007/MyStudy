@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def splitArray(nums: Array[Int], m: Int): Int = {
     val sums = Array.fill(nums.length + 1)(0)
@@ -9,4 +9,4 @@ object Solution {
     dp(m)(nums.length)
   }
 }
-```
+// ```

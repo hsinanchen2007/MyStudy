@@ -1,10 +1,10 @@
-### 解题思路
-不使用数组，维护一个head指针，一个tail指针，以及链表长度length
-![leetcode707.jpg](https://pic.leetcode-cn.com/3c497c8766c1414e1c1148de1149f354f9e3ea71a3fa145c31319e07e3e57b41-leetcode707.jpg)
+// ### 解题思路
+// 不使用数组，维护一个head指针，一个tail指针，以及链表长度length
+// ![leetcode707.jpg](https://pic.leetcode-cn.com/3c497c8766c1414e1c1148de1149f354f9e3ea71a3fa145c31319e07e3e57b41-leetcode707.jpg)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
         /**
 * Initialize your data structure here.
 */
@@ -134,4 +134,4 @@ MyLinkedList.prototype.deleteAtIndex = function(index) {
 * obj.addAtIndex(index,val)
 * obj.deleteAtIndex(index)
 */
-```
+// ```

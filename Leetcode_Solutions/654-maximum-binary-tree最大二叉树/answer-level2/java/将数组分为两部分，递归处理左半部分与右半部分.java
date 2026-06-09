@@ -1,4 +1,4 @@
-```
+// ```
 public TreeNode constructMaximumBinaryTree(int[] nums) {
         if (nums.length < 1) return null;//如果数组为空，直接返回null
         int maxIndex = findMax(nums);//找出数组中的最大数据的下标
@@ -20,4 +20,4 @@ private int findMax(int[] arr) {
         }
         return index;
     }
-```
+// ```

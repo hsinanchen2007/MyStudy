@@ -1,4 +1,4 @@
-C语言：
+// C语言：
 
 #include <stdio.h>
 #include <stdlib.h>

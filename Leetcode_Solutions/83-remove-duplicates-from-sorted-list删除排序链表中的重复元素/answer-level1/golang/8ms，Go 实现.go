@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/de44de7ad70ede0a1782e4f4666006b02b1dc512ca3b98f18f6ab859396a4cca-image.png)
+// ![image.png](https://pic.leetcode-cn.com/de44de7ad70ede0a1782e4f4666006b02b1dc512ca3b98f18f6ab859396a4cca-image.png)
 
-疑惑还要做什么优化才能到 0ms
+// 疑惑还要做什么优化才能到 0ms
 
-代码
-```
+// 代码
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -27,4 +27,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
     }
     return head 
 }
-```
+// ```

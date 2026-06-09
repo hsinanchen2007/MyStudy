@@ -1,4 +1,4 @@
-```
+// ```
 
 /**
  * @param {string} s
@@ -18,4 +18,4 @@ var findTheDifference = function(s, t) {
 };
 
 
-```
+// ```

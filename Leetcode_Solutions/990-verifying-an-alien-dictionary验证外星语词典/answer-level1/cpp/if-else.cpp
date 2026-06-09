@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
 
-![image.png](https://pic.leetcode-cn.com/9e6d7eb6b5d7aaff4cb123a7b39af7e7e7efb3c5da9a819183cbfdc0b6024200-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9e6d7eb6b5d7aaff4cb123a7b39af7e7e7efb3c5da9a819183cbfdc0b6024200-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int find(char c,string &s){
@@ -38,4 +38,4 @@ public:
 		return 1; 
     }
 };
-```
+// ```

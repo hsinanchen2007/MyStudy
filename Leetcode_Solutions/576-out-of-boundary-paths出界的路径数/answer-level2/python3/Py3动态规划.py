@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def findPaths(self, m: int, n: int, N: int, i: int, j: int) -> int:
         map=[[0]*(n+2) for _ in range(m+2)]
@@ -35,5 +35,5 @@ class Solution:
                         res%=(10 * * 9+7)
             temp=map.copy()
         return res
-```
+# ```
 

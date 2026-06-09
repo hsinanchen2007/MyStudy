@@ -1,11 +1,11 @@
-### 解题思路
-此题可以看成[https://leetcode-cn.com/problems/largest-rectangle-in-histogram/](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
-![image.png](https://pic.leetcode-cn.com/a51844e53b540e2ff5c2a54b2ff7acb9cb1fcdd0e768b39834df6765e9249f61-image.png)
-所以将此题转换成84题,进行计算即可
+// ### 解题思路
+// 此题可以看成[https://leetcode-cn.com/problems/largest-rectangle-in-histogram/](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
+// ![image.png](https://pic.leetcode-cn.com/a51844e53b540e2ff5c2a54b2ff7acb9cb1fcdd0e768b39834df6765e9249f61-image.png)
+// 所以将此题转换成84题,进行计算即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximalRectangle(char[][] matrix) {
         if(matrix.length==0){
@@ -51,4 +51,4 @@ class Solution {
        return result;
     }
 }
-```
+// ```

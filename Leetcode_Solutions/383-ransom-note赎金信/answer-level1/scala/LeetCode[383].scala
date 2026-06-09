@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
     def canConstruct(ransomNote: String, magazine: String): Boolean = {
       val mymap= scala.collection.mutable.Map[Char,Int]()
@@ -20,4 +20,4 @@ object Solution {
     }
 }
 
-```
+// ```

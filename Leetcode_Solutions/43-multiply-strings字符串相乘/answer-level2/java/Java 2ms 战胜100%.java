@@ -1,5 +1,5 @@
-![F1AE3FC1-2F8E-4F46-B620-6DF0D9EB6DE0.png](https://pic.leetcode-cn.com/20d223ca9371bce5b76f39bc4666a7b9b0040b9ff88a8d21540f24ebdfeaa916-F1AE3FC1-2F8E-4F46-B620-6DF0D9EB6DE0.png)
-```
+// ![F1AE3FC1-2F8E-4F46-B620-6DF0D9EB6DE0.png](https://pic.leetcode-cn.com/20d223ca9371bce5b76f39bc4666a7b9b0040b9ff88a8d21540f24ebdfeaa916-F1AE3FC1-2F8E-4F46-B620-6DF0D9EB6DE0.png)
+// ```
 解题思路：
 1、考虑到题目要求及和转成int两数相乘可能越界，故采用小学两数相乘思想，一位一位计算相乘；
 2、两个字符串相乘，最长长度不超过两个字符串的总长度.
@@ -62,4 +62,4 @@ public String multiply(String num1, String num2) {
             }
         }
     }
-```
+// ```

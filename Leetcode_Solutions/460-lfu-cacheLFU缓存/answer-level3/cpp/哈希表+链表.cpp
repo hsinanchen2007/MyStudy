@@ -1,8 +1,8 @@
-链表的节点: pair<访问频率, 键值对链表指针>
-键值对链表: pair<key, value>, 新值放在尾
-哈希表:     pair<key, pair<链表中的节点的迭代器, 键值对节点的迭代器>>    记录该key在链表中的准确位置
+// 链表的节点: pair<访问频率, 键值对链表指针>
+// 键值对链表: pair<key, value>, 新值放在尾
+// 哈希表:     pair<key, pair<链表中的节点的迭代器, 键值对节点的迭代器>>    记录该key在链表中的准确位置
 
-```C++
+// ```C++
 class LFUCache {
 	typedef pair<unsigned int, list<pair<int, int>>* > orderNode;
 	typedef pair<list<orderNode>::iterator, list<pair<int, int>>::iterator> mapValue;
@@ -73,5 +73,5 @@ public:
 		}
 	}
 };
-```
-最快144ms吧
+// ```
+// 最快144ms吧

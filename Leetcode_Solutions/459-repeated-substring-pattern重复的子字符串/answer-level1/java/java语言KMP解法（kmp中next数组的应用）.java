@@ -1,5 +1,5 @@
-时间复杂度为O(n)
-```
+// 时间复杂度为O(n)
+// ```
 class Solution {
     public boolean repeatedSubstringPattern(String s) {
 		int len = s.length();
@@ -34,5 +34,5 @@ class Solution {
 		return next;
 	}
 }
-```
-getNext()方法返回的数组 下标加一后 为KMP算法中的next数组。
+// ```
+// getNext()方法返回的数组 下标加一后 为KMP算法中的next数组。

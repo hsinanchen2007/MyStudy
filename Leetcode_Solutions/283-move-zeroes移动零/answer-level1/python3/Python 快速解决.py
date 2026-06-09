@@ -1,11 +1,11 @@
-### 解题思路
-用一个指针p表示为0的位置，另一个指针i来扫描数组。
-当i遇到非零位置并且p的位置为0时，进行两个值的互换，此时p向前一步
-当i遇到为0的位置并且p的位置不为0时，p要变成i
+# ### 解题思路
+# 用一个指针p表示为0的位置，另一个指针i来扫描数组。
+# 当i遇到非零位置并且p的位置为0时，进行两个值的互换，此时p向前一步
+# 当i遇到为0的位置并且p的位置不为0时，p要变成i
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -21,4 +21,4 @@ class Solution:
                 zero += 1
             elif nums[i] == 0 and nums[zero] != 0:
                 zero = i
-```
+# ```

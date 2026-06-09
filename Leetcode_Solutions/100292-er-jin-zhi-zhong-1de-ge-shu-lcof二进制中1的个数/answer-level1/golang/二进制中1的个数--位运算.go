@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hammingWeight(num uint32) int {
     var count int
     for num > 0 {
@@ -16,4 +16,4 @@ func hammingWeight(num uint32) int {
 
     return count
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-- 求和为target的所有有序序列a,a+1,a+2,...a+k (其中a > 0,k >=1)
-- 序列和公式： a(k+1) + k(k+1)/2
-- 只需知道a和k就能确定一个序列
-- k递增，求a是否符合要求。当 k(k+1)/2 >= target时，退出循环
-- a > 0 且 target - k(k+1)/2 能被 k+1 整除
-### 代码
-```cpp
+// ### 解题思路
+// - 求和为target的所有有序序列a,a+1,a+2,...a+k (其中a > 0,k >=1)
+// - 序列和公式： a(k+1) + k(k+1)/2
+// - 只需知道a和k就能确定一个序列
+// - k递增，求a是否符合要求。当 k(k+1)/2 >= target时，退出循环
+// - a > 0 且 target - k(k+1)/2 能被 k+1 整除
+// ### 代码
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int *g_arr;
 int g_count;
 int *g_size;
@@ -148,4 +148,4 @@ void solve(char **board, int boardSize, int* boardColSize)
 
 }
 
-```
+// ```

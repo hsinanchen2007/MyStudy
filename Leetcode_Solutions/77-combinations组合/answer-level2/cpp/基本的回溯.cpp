@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     void backtrack(vector<vector<int>>& ans, int n, int k, vector<int>& curr, int start){
@@ -23,4 +23,4 @@ public:
     }
 };
 
-```
+// ```

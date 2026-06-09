@@ -1,9 +1,9 @@
-### [https://mojotv.cn/go/golang-torrent](https://mojotv.cn/go/golang-torrent)
+// ### [https://mojotv.cn/go/golang-torrent](https://mojotv.cn/go/golang-torrent)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func subtractProductAndSum(n int) int {
     s := 0
     m := 1
@@ -17,4 +17,4 @@ func subtractProductAndSum(n int) int {
     return m-s
     
 }
-```
+// ```

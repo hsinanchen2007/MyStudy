@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -13,4 +13,4 @@ where id=
 group by CandidateId having count(CandidateId)=
 (select max(total_count) from (select count(CandidateId) as total_count from 
 Vote group by CandidateId) tmp))
-```
+-- ```

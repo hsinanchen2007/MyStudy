@@ -1,7 +1,7 @@
-## 思路一：暴力递归（超时）
-反向思维，保留最后一个被爆气球时最大值情况。
-### 代码
-```c++
+// ## 思路一：暴力递归（超时）
+// 反向思维，保留最后一个被爆气球时最大值情况。
+// ### 代码
+// ```c++
 class Solution {
 public:
     int maxCoins(vector<int>& nums) {
@@ -37,9 +37,9 @@ public:
         return res;
     }
 };
-```
-#### 另一种写法
-```c++
+// ```
+// #### 另一种写法
+// ```c++
 class Solution {
 public:
     int maxCoins(vector<int>& nums) {
@@ -71,11 +71,11 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 思路二：记忆搜索
-### 代码
-```c++
+// ## 思路二：记忆搜索
+// ### 代码
+// ```c++
 class Solution {
 public:
     int maxCoins(vector<int>& nums) {
@@ -115,9 +115,9 @@ public:
         return res;
     }
 };
-```
-#### 另一种写法
-```
+// ```
+// #### 另一种写法
+// ```
 class Solution {
 public:
     int maxCoins(vector<int>& nums) {
@@ -158,11 +158,11 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 思路三：动态规划
-### 代码
-```c++
+// ## 思路三：动态规划
+// ### 代码
+// ```c++
 class Solution {
 public:
     int maxCoins(vector<int>& nums) {
@@ -196,7 +196,7 @@ public:
         return dp[1][size];        
     }
 };
-```
+// ```
 
 
 

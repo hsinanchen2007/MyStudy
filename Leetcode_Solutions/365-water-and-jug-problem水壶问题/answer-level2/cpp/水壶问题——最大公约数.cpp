@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     bool canMeasureWater(int x, int y, int z) {
@@ -9,5 +9,5 @@ public:
         return z%tmp == 0;
     }
 };
-```
+// ```
 

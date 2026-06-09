@@ -1,9 +1,9 @@
-#### 左右分，主要是判断是否符合数字要求，我用了js中的恶Number再转字符串比较
-```javascript
+// #### 左右分，主要是判断是否符合数字要求，我用了js中的恶Number再转字符串比较
+// ```javascript
     return str==new Number(str).toString()
-```
-#### 完整代码如下
-```javascript
+// ```
+// #### 完整代码如下
+// ```javascript
 /**
  * @param {string} S
  * @return {string[]}
@@ -55,4 +55,4 @@ var match = function (str) {
     return true
 }
 
-```
+// ```

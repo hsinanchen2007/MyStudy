@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/9f470a9655146adcac6a8538d16019881b3055d2ed6b0dce599928e71171d67f-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/9f470a9655146adcac6a8538d16019881b3055d2ed6b0dce599928e71171d67f-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
     
     return g_res;
 }
-```
+// ```

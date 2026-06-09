@@ -1,8 +1,8 @@
-1.动态规划 
-这次用的方法不需要额外的存储空间,直接在原数组上进行修改
-时间复杂度O(m*n),空间复杂度O(1)
+# 1.动态规划 
+# 这次用的方法不需要额外的存储空间,直接在原数组上进行修改
+# 时间复杂度O(m*n),空间复杂度O(1)
 
-```python
+# ```python
 class Solution(object):
     def maxValue(self, grid):
         """
@@ -24,9 +24,9 @@ class Solution(object):
         return grid[len(grid)-1][len(grid[0])-1]
 
 
-```
-2.记忆存储
-```
+# ```
+# 2.记忆存储
+# ```
 #记忆存储法
 class Solution(object):
     def maxValue(self, grid):
@@ -55,5 +55,5 @@ class Solution(object):
             return max(A, B)
 
 
-```
+# ```
 

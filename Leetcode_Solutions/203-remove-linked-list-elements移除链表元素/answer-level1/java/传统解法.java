@@ -1,5 +1,5 @@
-没什么新意，最传统的解法
-```
+// 没什么新意，最传统的解法
+// ```
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
         if (head == null)
@@ -17,4 +17,4 @@ class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```

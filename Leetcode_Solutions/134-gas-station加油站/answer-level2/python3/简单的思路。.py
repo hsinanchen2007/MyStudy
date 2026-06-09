@@ -1,11 +1,11 @@
-### 解题思路
-  思路还是比较好理解的吧 
-  先查找到所有能出发的位置。然后在从每个可以出发的位置开始，
-  判断剩余的油量
+# ### 解题思路
+#   思路还是比较好理解的吧 
+#   先查找到所有能出发的位置。然后在从每个可以出发的位置开始，
+#   判断剩余的油量
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
         if not gas or not cost:
@@ -36,4 +36,4 @@ class Solution:
             if flag:
                 return i
         return -1
-```
+# ```

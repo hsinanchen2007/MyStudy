@@ -1,18 +1,18 @@
-### 解题思路
-典型的递归函数解题型，需要注意的是，数字长度可变，因此使用while循环按照计算符进行分割。
+// ### 解题思路
+// 典型的递归函数解题型，需要注意的是，数字长度可变，因此使用while循环按照计算符进行分割。
 
-注意点：
+// 注意点：
 
-1.无需去重；
+// 1.无需去重；
 
-2.结果数目不定，使用单链表存储数据，在输出前还原为数组，这里是C的短板。
+// 2.结果数目不定，使用单链表存储数据，在输出前还原为数组，这里是C的短板。
 
-![image.png](https://pic.leetcode-cn.com/71093c613b3589b0a5c9761a6c60655c8e7352f3018e29f355f98f0bd397fb68-image.png)
+// ![image.png](https://pic.leetcode-cn.com/71093c613b3589b0a5c9761a6c60655c8e7352f3018e29f355f98f0bd397fb68-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
  * @lc app=leetcode.cn id=241 lang=c
  *
@@ -176,4 +176,4 @@ int* diffWaysToCompute(char * input, int* returnSize){
 // @lc code=end
 
 
-```
+// ```

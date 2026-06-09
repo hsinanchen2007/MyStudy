@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def mctFromLeafValues(self, arr: List[int]) -> int:
         # positive numbers
@@ -13,4 +13,4 @@ class Solution:
             res += arr[tmpIndex] * arr[tmpIndex + 1]
             arr = arr[:tmpIndex] + [max(arr[tmpIndex], arr[tmpIndex + 1])] + arr[tmpIndex + 2:]
         return res
-```
+# ```

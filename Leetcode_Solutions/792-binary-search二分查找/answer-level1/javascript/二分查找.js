@@ -1,4 +1,4 @@
-```js
+// ```js
 var search = function(nums, target) {
     let left = 0;
     let right = nums.length - 1;
@@ -14,5 +14,5 @@ var search = function(nums, target) {
     }
     return -1;
 };
-```
+// ```
 

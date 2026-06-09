@@ -1,5 +1,5 @@
-1 用数组来充当栈
-2 由于是用栈，虽然是DLR 遍历在 child入栈的时候是先入R child 再入L child。
+// 1 用数组来充当栈
+// 2 由于是用栈，虽然是DLR 遍历在 child入栈的时候是先入R child 再入L child。
 var arr:[Int] = []
     
     func preorderTraversal(_ root: TreeNode?) -> [Int] {

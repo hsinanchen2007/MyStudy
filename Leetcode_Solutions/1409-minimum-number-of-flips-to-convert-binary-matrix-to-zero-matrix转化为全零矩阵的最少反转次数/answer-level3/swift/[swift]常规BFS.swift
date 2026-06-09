@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```swift
+// ```swift
   class Solution {
     typealias Direction = (dx:Int,dy:Int)
     private let directions: [Direction] = [(0,1),(0,-1),(-1,0),(1,0)]
@@ -56,4 +56,4 @@
         return -1
     }
  }
-```
+// ```

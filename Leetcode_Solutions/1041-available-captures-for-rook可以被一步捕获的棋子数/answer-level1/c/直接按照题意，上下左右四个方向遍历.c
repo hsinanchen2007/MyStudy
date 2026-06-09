@@ -1,10 +1,10 @@
-### 解题思路
-1、从[i][j]的位置，分上下左右进行遍历；
-2、注意，遇到第一个兵或者己方的棋子，循环退出；
+// ### 解题思路
+// 1、从[i][j]的位置，分上下左右进行遍历；
+// 2、注意，遇到第一个兵或者己方的棋子，循环退出；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int dfs(char **grid, int m, int n, int gridSize, int *gridColSize)
 {
     int i, j;
@@ -76,4 +76,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize)
 
     return count;
 }
-```
+// ```

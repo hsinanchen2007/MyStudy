@@ -1,8 +1,8 @@
-### 解题思路
-遍历原链表，复制结点，改成头插法建立新链表
-### 代码
+// ### 解题思路
+// 遍历原链表，复制结点，改成头插法建立新链表
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -39,4 +39,4 @@ class Solution {
         return $new_head;
     }
 }
-```
+// ```

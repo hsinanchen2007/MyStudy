@@ -1,4 +1,4 @@
-```
+// ```
 int subtractProductAndSum(int n) {
     int ji = 1;
 	 int he = 0;
@@ -11,4 +11,4 @@ int subtractProductAndSum(int n) {
 	 }
 	 return ji-he;    
     }
-```
+// ```

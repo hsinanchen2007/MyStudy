@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def snakesAndLadders(self, board: List[List[int]]) -> int:
         n = len(board)
@@ -40,4 +40,4 @@ class Solution:
             stack = next_step
             next_step = []
         return -1
-```
+# ```

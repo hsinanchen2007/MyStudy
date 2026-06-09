@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *时间复杂度O(2n),空间复杂度O(n)
 *整体思路:
@@ -41,4 +41,4 @@ void moveZeroes( int * nums , int numsSize ){
     free( buffer );
 
 }
-```
+// ```

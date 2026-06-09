@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 private:
     double calcMidNum(int nBegin1,int nBegin2,int nDecrease,vector<int>& nums1, vector<int>& nums2,int nRest, int isOdd,int nSize1,int nSize2){
@@ -160,4 +160,4 @@ public:
         }
     }
 };
-```
+// ```

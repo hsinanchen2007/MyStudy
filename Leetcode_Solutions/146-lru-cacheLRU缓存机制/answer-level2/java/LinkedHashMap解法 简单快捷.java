@@ -1,10 +1,10 @@
-### 解题思路
-LinkedHashMap解法，其实还有一种思路可以维护一个双向链表，
-获取更新的时候更新头节点，删除的时候删除尾节点。
+// ### 解题思路
+// LinkedHashMap解法，其实还有一种思路可以维护一个双向链表，
+// 获取更新的时候更新头节点，删除的时候删除尾节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LRUCache  extends LinkedHashMap<Integer, Integer> {
 
     private int capacity;
@@ -32,4 +32,4 @@ class LRUCache  extends LinkedHashMap<Integer, Integer> {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

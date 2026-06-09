@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class StockSpanner {
     
     public StockSpanner() {
@@ -31,4 +31,4 @@ class StockSpanner {
  * StockSpanner obj = new StockSpanner();
  * int param_1 = obj.next(price);
  */
-```
+// ```

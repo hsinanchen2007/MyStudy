@@ -1,4 +1,4 @@
-```
+// ```
 func numIslands(grid [][]byte) int {
     if grid == nil || len(grid) == 0{
         return 0
@@ -28,4 +28,4 @@ func inflect(grid [][]byte,i,j,N,M int){
     inflect(grid,i,j-1,N,M)
     return 
 }
-```
+// ```

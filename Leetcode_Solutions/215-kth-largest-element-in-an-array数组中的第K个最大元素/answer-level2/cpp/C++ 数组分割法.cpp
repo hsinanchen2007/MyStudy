@@ -1,5 +1,5 @@
-逻辑简单，代码如下：
-```
+// 逻辑简单，代码如下：
+// ```
 class Solution {
 public:
     int helper(vector<int>& nums, int l, int r, int k) {
@@ -19,5 +19,5 @@ public:
         return helper(nums, 0, nums.size() - 1, k);
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d4cb41e5ccbb074b540de683cd4485cd5de8bb2a32310bc721401119baf19ff5-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d4cb41e5ccbb074b540de683cd4485cd5de8bb2a32310bc721401119baf19ff5-image.png)

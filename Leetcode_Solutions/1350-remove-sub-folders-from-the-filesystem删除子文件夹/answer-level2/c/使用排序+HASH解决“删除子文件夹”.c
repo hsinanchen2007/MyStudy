@@ -1,20 +1,20 @@
-### 解题思路
-1.排序，保证根目录最先出现，记录在hash表中
+// ### 解题思路
+// 1.排序，保证根目录最先出现，记录在hash表中
 
-2.逐字符拷贝文件夹路径，遇到'/'判断如果有该长度的key，则进行查找
+// 2.逐字符拷贝文件夹路径，遇到'/'判断如果有该长度的key，则进行查找
 
-3.如果找到，则处理下一路径
+// 3.如果找到，则处理下一路径
 
-4.如果未找到，则将当前子串记录在hash表中
+// 4.如果未找到，则将当前子串记录在hash表中
 
-注意，使用数组hash表对key的长度进行记录，加速判断。
+// 注意，使用数组hash表对key的长度进行记录，加速判断。
 
-![image.png](https://pic.leetcode-cn.com/e47e1e5c58ffa8da6b36b1d5ecdadb493ca56dfa111e1c35b6095284555c5cd2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e47e1e5c58ffa8da6b36b1d5ecdadb493ca56dfa111e1c35b6095284555c5cd2-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -100,4 +100,4 @@ char ** removeSubfolders(char ** folder, int folderSize, int* returnSize){
     *returnSize = rsize;
     return res;
 }
-```
+// ```

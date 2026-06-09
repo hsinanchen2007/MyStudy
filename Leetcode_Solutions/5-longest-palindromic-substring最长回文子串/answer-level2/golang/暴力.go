@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) string {
         ans :=""
         n := len(s)
@@ -35,4 +35,4 @@ func isPalindromic(s string)bool{
     }
     return true
 }
-```
+// ```

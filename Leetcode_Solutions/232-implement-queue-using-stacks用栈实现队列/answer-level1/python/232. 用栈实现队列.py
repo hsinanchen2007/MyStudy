@@ -1,8 +1,8 @@
 
-- list.pop() / list.pop(1) 指定位置pop出去元素
-- list.append()
+# - list.pop() / list.pop(1) 指定位置pop出去元素
+# - list.append()
 
-```
+# ```
 class MyQueue(object):
   
     def __init__(self):
@@ -41,4 +41,4 @@ class MyQueue(object):
         """
         return len(self.Queue) == 0
 
-```
+# ```

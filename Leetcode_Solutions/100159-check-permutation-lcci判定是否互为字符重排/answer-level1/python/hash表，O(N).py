@@ -1,9 +1,9 @@
-### 解题思路
-看代码很好理解
+# ### 解题思路
+# 看代码很好理解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def CheckPermutation(self, s1: str, s2: str) -> bool:
         from collections import Counter
@@ -15,4 +15,4 @@ class Solution:
             s1_map[c]-=1
         return True
 
-```
+# ```

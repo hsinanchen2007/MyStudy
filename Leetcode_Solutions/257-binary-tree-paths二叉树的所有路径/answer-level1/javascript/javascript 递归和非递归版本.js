@@ -1,4 +1,4 @@
-```
+// ```
 // 递归的版本
 var binaryTreePaths = function(root) {
 	const res = [];
@@ -37,4 +37,4 @@ var binaryTreePaths = function(root) {
 	}
 	return res;
 };
-```
+// ```

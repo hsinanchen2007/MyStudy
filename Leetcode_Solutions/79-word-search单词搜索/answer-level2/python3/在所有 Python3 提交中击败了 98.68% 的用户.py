@@ -1,8 +1,8 @@
-### 解题思路
-不断循环，兄弟们
-### 代码
+# ### 解题思路
+# 不断循环，兄弟们
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def exist(self, board, word: str) -> bool:
         m = len(board)
@@ -52,4 +52,4 @@ class Solution:
             hitmap[row][col + 1] = 0
 
         return False
-```
+# ```

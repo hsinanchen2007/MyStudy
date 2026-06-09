@@ -1,4 +1,4 @@
-```python
+# ```python
 def minPathSum(dp):
     """
         1. dp问题: dp[i][j] += min(dp[i-1][j], dp[i][j-1])
@@ -16,4 +16,4 @@ def minPathSum(dp):
     return dp[m-1][n-1]
 
 print(minPathSum([[1,3,1],[1,5,1],[4,2,1]]))
-```
+# ```

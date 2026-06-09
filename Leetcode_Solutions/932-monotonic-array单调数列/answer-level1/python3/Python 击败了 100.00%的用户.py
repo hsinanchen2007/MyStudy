@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/a127646a6f6c3c5d9ebf055cf86f33623a27af84e2f34a5656ae65737e155a92-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a127646a6f6c3c5d9ebf055cf86f33623a27af84e2f34a5656ae65737e155a92-image.png)
 
-```
+# ```
 class Solution:
     def isMonotonic(self, A: List[int]) -> bool:
         if len(A) <=2: True
@@ -17,7 +17,7 @@ class Solution:
             if F1 * F2 > 0:
                 return False
         return True
-```
+# ```
 
 
 

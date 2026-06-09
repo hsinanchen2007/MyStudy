@@ -1,6 +1,6 @@
-*法一：双指针*
+// *法一：双指针*
 
-```js
+// ```js
 var findContentChildren = function(g, s) {
     g.sort((a, b) => a - b);
     s.sort((a, b) => a - b);
@@ -18,11 +18,11 @@ var findContentChildren = function(g, s) {
     }
     return count;
 };
-```
+// ```
 
-*法二：贪心算法*
+// *法二：贪心算法*
 
-```js
+// ```js
 var findContentChildren = function(g, s) {
 
     let res = 0;
@@ -40,5 +40,5 @@ var findContentChildren = function(g, s) {
 
     return res;
 };
-```
+// ```
 

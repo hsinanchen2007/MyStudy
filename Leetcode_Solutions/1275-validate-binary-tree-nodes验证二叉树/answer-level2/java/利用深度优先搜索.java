@@ -1,10 +1,10 @@
-### 解题思路
-1:首先第一步我们得找到根节点 因为我们要从根节点开始便利
-2：从根节点进行深度优先搜索 如果每个结点都能遍历到且不存在一个结点被多次遍历就返回true
+// ### 解题思路
+// 1:首先第一步我们得找到根节点 因为我们要从根节点开始便利
+// 2：从根节点进行深度优先搜索 如果每个结点都能遍历到且不存在一个结点被多次遍历就返回true
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {
         boolean[] isVisited=new boolean[n];
@@ -43,4 +43,4 @@ class Solution {
 	    return true;
 	}
 }
-```
+// ```

@@ -1,18 +1,18 @@
-### 解题思路
-执行用时 :
-9 ms
-, 在所有 java 提交中击败了
-16.17%
-的用户
-内存消耗 :
-36.3 MB
-, 在所有 java 提交中击败了
-83.62%
-的用户
+// ### 解题思路
+// 执行用时 :
+// 9 ms
+// , 在所有 java 提交中击败了
+// 16.17%
+// 的用户
+// 内存消耗 :
+// 36.3 MB
+// , 在所有 java 提交中击败了
+// 83.62%
+// 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] shortestToChar(String S, char C) {
      int [] res=new int[S.length()];
@@ -42,4 +42,4 @@ class Solution {
 	        return res;
 	    }
 }
-```
+// ```

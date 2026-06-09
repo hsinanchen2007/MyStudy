@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-空间复杂度$O(1)$
+# 空间复杂度$O(1)$
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def getKthFromEnd(self, head: ListNode, k: int) -> ListNode:
         p = q = head
@@ -14,4 +14,4 @@ class Solution:
             p = p.next
             q = q.next
         return p
-```
+# ```

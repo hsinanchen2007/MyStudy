@@ -1,5 +1,5 @@
-# C
-```
+// # C
+// ```
 int searchInsert(int* nums, int numsSize, int target){
     for(int i = 0; i < numsSize; i++) {
         if(*nums++ >= target) {
@@ -8,10 +8,10 @@ int searchInsert(int* nums, int numsSize, int target){
     }
     return numsSize;
 }
-```
+// ```
 
-# Java
-```
+// # Java
+// ```
 class Solution {
     public int searchInsert(int[] nums, int target) {
         for(int i = 0; i < nums.length; i++) {
@@ -22,6 +22,6 @@ class Solution {
         return nums.length;
     }
 }
-```
+// ```
 
 

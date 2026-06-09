@@ -1,4 +1,4 @@
-```
+// ```
 bool find132pattern(vector<int>& nums) {
     if (nums.size() < 3) return false;
     vector<int> mins(nums.size());
@@ -23,4 +23,4 @@ bool find132pattern(vector<int>& nums) {
     }
     return false;
 }
-```
+// ```

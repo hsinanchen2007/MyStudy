@@ -1,7 +1,7 @@
-一个结论:
-动态规划是更高效的“缓存”；
-所以：
-```python
+# 一个结论:
+# 动态规划是更高效的“缓存”；
+# 所以：
+# ```python
 class Solution:
     def numDecodings(self, s: str) -> int:
         cache = {}
@@ -25,4 +25,4 @@ class Solution:
             return count
         
         return helper(s)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-看大佬的公交车思路。
+// ### 解题思路
+// 看大佬的公交车思路。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -28,4 +28,4 @@ int* corpFlightBookings(int** bookings, int bookingsSize, int* bookingsColSize, 
     *returnSize = n;
     return answer;
 }
-```
+// ```

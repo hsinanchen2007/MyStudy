@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-根据https://www.nayuki.io/page/next-lexicographical-permutation-algorithm描述的next permutation算法实现
+// 根据https://www.nayuki.io/page/next-lexicographical-permutation-algorithm描述的next permutation算法实现
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // see https://www.nayuki.io/page/next-lexicographical-permutation-algorithm
 func nextPermutation(nums []int) ([]int, bool) {
 	n := len(nums)
@@ -64,4 +64,4 @@ func permute(nums []int) [][]int {
 
 	return result
 }
-```
+// ```

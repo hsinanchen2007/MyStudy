@@ -1,7 +1,7 @@
-- 一个 `while`
-- 无 `indexOf()`
-- 无 `split()`
-```java
+// - 一个 `while`
+// - 无 `indexOf()`
+// - 无 `split()`
+// ```java
 public int lengthOfLastWord(String s) {
     int res = 0, i = s.length() - 1;
     while (i >= 0) {
@@ -10,4 +10,4 @@ public int lengthOfLastWord(String s) {
     }
     return res;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-图1中10的子节点有两个，11和12，其中12有子节点
-![20191011-210624(eSpace).JPG](https://pic.leetcode-cn.com/943bd0f54e4e849ea6342a80412c516fa0b2bc7684b3982243aec6ac00cbdb00-20191011-210624\(eSpace\).JPG)
-图2中16有4个子节点，17、18、19、20，其中只有20有子节点
-![20191011-210630(eSpace).JPG](https://pic.leetcode-cn.com/12b46b1f57f9d0ca06ee7e8bf0770304dcf3650dc1f1238e16e6f39913f922ec-20191011-210630\(eSpace\).JPG)
-```
+// 图1中10的子节点有两个，11和12，其中12有子节点
+// ![20191011-210624(eSpace).JPG](https://pic.leetcode-cn.com/943bd0f54e4e849ea6342a80412c516fa0b2bc7684b3982243aec6ac00cbdb00-20191011-210624\(eSpace\).JPG)
+// 图2中16有4个子节点，17、18、19、20，其中只有20有子节点
+// ![20191011-210630(eSpace).JPG](https://pic.leetcode-cn.com/12b46b1f57f9d0ca06ee7e8bf0770304dcf3650dc1f1238e16e6f39913f922ec-20191011-210630\(eSpace\).JPG)
+// ```
 /*
  * Copyright (c) Nicolas-Tony Technologies Co., Ltd. 2019-2019. All rights reserved.
  * Description: i love leetcode
@@ -77,4 +77,4 @@ private:
 private:
     int data;
 };
-```
+// ```

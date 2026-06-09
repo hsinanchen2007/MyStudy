@@ -1,8 +1,8 @@
-1. 输出当前节点值root.val(即存到list)
-2. 若存在左子树，更新root为左子树，同时若存在右子树，右子树入栈
-3. 若不存在左子树,弹出栈顶元素，root更新为栈顶元素（遍历右子树）
-4. root为空时，遍历结束
-```java
+// 1. 输出当前节点值root.val(即存到list)
+// 2. 若存在左子树，更新root为左子树，同时若存在右子树，右子树入栈
+// 3. 若不存在左子树,弹出栈顶元素，root更新为栈顶元素（遍历右子树）
+// 4. root为空时，遍历结束
+// ```java
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
 		List<Integer> list = new ArrayList<Integer>();
@@ -30,4 +30,4 @@ class Solution {
 		return list;
     }
 }
-```
+// ```

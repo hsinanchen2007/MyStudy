@@ -1,4 +1,4 @@
-```c
+// ```c
 bool isPowerOfThree(int n){
     int result=n;
     if(n==0) return 0;
@@ -8,4 +8,4 @@ bool isPowerOfThree(int n){
     if (result!=1) return 0;
     else return 1;
 }
-```
+// ```

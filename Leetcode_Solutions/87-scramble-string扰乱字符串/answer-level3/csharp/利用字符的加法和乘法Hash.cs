@@ -1,11 +1,11 @@
-### 解题思路
-字符和 快速比较子串 是否有相同数量的字符
-字符加权乘积 快速比较 字符串是否相等
-递归比较 S1 S2 长度 Len 的子串是否 为扰乱子串
+// ### 解题思路
+// 字符和 快速比较子串 是否有相同数量的字符
+// 字符加权乘积 快速比较 字符串是否相等
+// 递归比较 S1 S2 长度 Len 的子串是否 为扰乱子串
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, int, int>;
 class ScramStr
 {
@@ -155,4 +155,4 @@ public class Solution {
         return ss.IsScramble(s1, s2);
     }
 }
-```
+// ```

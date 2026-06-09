@@ -1,7 +1,7 @@
-题目很简单，记录字母出现的个数，偶数个直接加上
-如果出现奇数，则加奇数-1，并在最后的答案上加 1
-但是有个坑是，'z'.charCodeAt()是57，并不是 51，A-Z 和 a-z并不是连续的，所以最后遍历的时候不能用 52
-```
+// 题目很简单，记录字母出现的个数，偶数个直接加上
+// 如果出现奇数，则加奇数-1，并在最后的答案上加 1
+// 但是有个坑是，'z'.charCodeAt()是57，并不是 51，A-Z 和 a-z并不是连续的，所以最后遍历的时候不能用 52
+// ```
 var longestPalindrome = function (s) {
     var arr = []
     var judge = false
@@ -22,4 +22,4 @@ var longestPalindrome = function (s) {
     }
     return judge ? res + 1 : res
 };
-```
+// ```

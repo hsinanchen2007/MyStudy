@@ -1,9 +1,9 @@
-### 解题思路
-除第0行和第0列，每个元素与对应左上角元素比较
+// ### 解题思路
+// 除第0行和第0列，每个元素与对应左上角元素比较
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isToeplitzMatrix(vector<vector<int>>& matrix)
@@ -21,4 +21,4 @@ public:
         return true;
     }
 };
-```
+// ```

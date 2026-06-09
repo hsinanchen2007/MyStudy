@@ -1,13 +1,13 @@
-### 解题思路
-以后取第k个
-注意从1开始计数
-注意链表操作
-leetcode的链表从来都是不带头的
-带头的易于操作
+// ### 解题思路
+// 以后取第k个
+// 注意从1开始计数
+// 注意链表操作
+// leetcode的链表从来都是不带头的
+// 带头的易于操作
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ int kthToLast(struct ListNode* head, int k){
     }
     return p->val;
 }
-```
+// ```

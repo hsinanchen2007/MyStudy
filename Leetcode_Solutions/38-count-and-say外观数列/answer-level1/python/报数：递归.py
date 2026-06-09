@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/cc56acf05116ce0251a5dcc33e9194c7e181e0a4e19f80b7a2d714d1ae73f2f5-image.png)
+# ![image.png](https://pic.leetcode-cn.com/cc56acf05116ce0251a5dcc33e9194c7e181e0a4e19f80b7a2d714d1ae73f2f5-image.png)
 
 
-```
+# ```
         if n == 1: return '1'
         
         previous_ = '1'
@@ -22,4 +22,4 @@
             previous_ = next_
             
         return next_
-```
+# ```

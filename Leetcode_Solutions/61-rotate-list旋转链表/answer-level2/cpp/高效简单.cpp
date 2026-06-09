@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/7e2a546dc45c2f77962a9618af71187acb4853ccb1562316dc626a5dcc202a84-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7e2a546dc45c2f77962a9618af71187acb4853ccb1562316dc626a5dcc202a84-image.png)
 
-思路就是变循环链表，再计算跳几次，以哪个节点为头拆成单链表
-```
+// 思路就是变循环链表，再计算跳几次，以哪个节点为头拆成单链表
+// ```
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
@@ -24,4 +24,4 @@ public:
         return head;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-递归深度优先搜索
-```
+// 递归深度优先搜索
+// ```
 class Solution {
     public boolean canReach(int[] arr, int start) {
         return dfs(start, arr, new boolean[arr.length]);
@@ -18,4 +18,4 @@ class Solution {
         return dfs(start + arr[start], arr, visited) || dfs(start - arr[start], arr, visited);
     }
 }
-```
+// ```

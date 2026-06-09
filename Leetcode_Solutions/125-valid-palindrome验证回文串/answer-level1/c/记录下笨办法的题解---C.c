@@ -1,4 +1,4 @@
-```
+// ```
 #define ISNUM(x) ((x) >= '0' && (x) <= '9')
 #define ISLETTERH(x) ((x) >= 'A' && (x) <= 'Z')
 #define ISLETTERL(x) ((x) >= 'a' && (x) <= 'z')
@@ -44,4 +44,4 @@ bool isPalindrome(char * s){
     
     return true;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -34,4 +34,4 @@ public:
         return (m+n)%2==0?(l+r)/2.0:max(l,r);
     }
 };
-```
+// ```

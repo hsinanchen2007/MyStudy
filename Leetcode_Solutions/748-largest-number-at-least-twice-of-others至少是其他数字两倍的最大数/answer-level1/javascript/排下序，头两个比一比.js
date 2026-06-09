@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/726a4ab13f2a0f915013e445a46e180f79be38fed25bd5d36e80419ac5ad1b5d-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/726a4ab13f2a0f915013e445a46e180f79be38fed25bd5d36e80419ac5ad1b5d-image.png)
 
 
-排下序，头两个比一比
+// 排下序，头两个比一比
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -26,4 +26,4 @@ var dominantIndex = function(nums) {
     }
     return nums.indexOf(max);
 };
-```
+// ```

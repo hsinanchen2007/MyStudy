@@ -1,9 +1,9 @@
-### 解题思路
-是一个类似与层序遍历的解题方法。方法我都懂，但是学习了题解里面用一个类来表示orange,真的方便又好用。
-![43v1528553893.png](https://pic.leetcode-cn.com/c3eaa6899a035d1c4721a4e9523f068f471151c0e86c9182361dedf9ef241459-43v1528553893.png)
-### 代码
+// ### 解题思路
+// 是一个类似与层序遍历的解题方法。方法我都懂，但是学习了题解里面用一个类来表示orange,真的方便又好用。
+// ![43v1528553893.png](https://pic.leetcode-cn.com/c3eaa6899a035d1c4721a4e9523f068f471151c0e86c9182361dedf9ef241459-43v1528553893.png)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     class orange{
         int x,y,timer;
@@ -63,4 +63,4 @@ class Solution {
 
     }
 }
-```
+// ```

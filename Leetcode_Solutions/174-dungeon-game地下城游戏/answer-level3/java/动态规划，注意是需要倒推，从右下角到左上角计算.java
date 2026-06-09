@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-3 ms
-, 在所有 Java 提交中击败了
-95.74%
-的用户
-内存消耗 :
-38.2 MB
-, 在所有 Java 提交中击败了
-60.43%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 3 ms
+// , 在所有 Java 提交中击败了
+// 95.74%
+// 的用户
+// 内存消耗 :
+// 38.2 MB
+// , 在所有 Java 提交中击败了
+// 60.43%
+// 的用户
+// ```
 class Solution {
     public int calculateMinimumHP(int[][] dungeon) {
         int x = dungeon.length;
@@ -33,4 +33,4 @@ class Solution {
         return res[0][0];
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-观察发现数n中1的个数有一下规律：
-1.当n为奇数，f(n) = f(n-1)+1;
-2.当n为偶数，f(n) = f(n/2);
-根据这两条式子可以递归出所有数字中1的个数。
-```
+// 观察发现数n中1的个数有一下规律：
+// 1.当n为奇数，f(n) = f(n-1)+1;
+// 2.当n为偶数，f(n) = f(n/2);
+// 根据这两条式子可以递归出所有数字中1的个数。
+// ```
 class Solution{
     public int[] countBits(int num) {
         int[] res = new int[num + 1];
@@ -18,4 +18,4 @@ class Solution{
         return res;
     }
 }
-```
+// ```

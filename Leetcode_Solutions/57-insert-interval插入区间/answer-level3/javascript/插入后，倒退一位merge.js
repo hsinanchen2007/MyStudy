@@ -1,9 +1,9 @@
-### 解题思路
- * 和leetcode-56有点类似，可以采用插入后倒退一位进行merge:
- * 其中index不必须
-### 代码
+// ### 解题思路
+//  * 和leetcode-56有点类似，可以采用插入后倒退一位进行merge:
+//  * 其中index不必须
+// ### 代码
 
-```javascript
+// ```javascript
 const insert = (intervals, newInterval)=>{
     if(intervals.length===0) return [newInterval];
     let index=0,len=intervals.length;
@@ -28,4 +28,4 @@ const insert = (intervals, newInterval)=>{
     }
     return intervals;
 };
-```
+// ```

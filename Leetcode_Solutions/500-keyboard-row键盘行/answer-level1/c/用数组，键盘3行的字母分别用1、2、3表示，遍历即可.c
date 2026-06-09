@@ -1,10 +1,10 @@
-### 解题思路
-1、将每个字母根据其所在行分别置为1/2/3
-2、遍历words，不再同一行，则进入下一个单次遍历
+// ### 解题思路
+// 1、将每个字母根据其所在行分别置为1/2/3
+// 2、遍历words，不再同一行，则进入下一个单次遍历
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -59,4 +59,4 @@ char ** findWords(char ** words, int wordsSize, int* returnSize){
 	return ret;
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-辗转相除法
+// ### 解题思路
+// 辗转相除法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func gcdOfStrings(str1 string, str2 string) string {
     if !((str1 + str2) == (str2 + str1)) {
             return "";
@@ -18,4 +18,4 @@ func gcd(a, b int) int {
     }
     return gcd(b, a % b)
 }
-```
+// ```

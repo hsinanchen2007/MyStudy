@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isValidBST(self, root: TreeNode) -> bool:
         def helper(root: TreeNode, lower=float('-inf'), upper=float('inf')):
@@ -8,4 +8,4 @@ class Solution:
             return helper(root.left,lower,root.val) and helper(root.right, root.val,upper)
         
         return help(root)
-```
+# ```

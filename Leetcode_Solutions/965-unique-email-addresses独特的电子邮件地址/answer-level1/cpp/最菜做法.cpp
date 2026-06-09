@@ -1,8 +1,8 @@
-### 解题思路
-做道题我容易吗
-### 代码
+// ### 解题思路
+// 做道题我容易吗
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numUniqueEmails(vector<string>& emails) {
@@ -41,4 +41,4 @@ public:
         return emails.size();
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int lengthOfLastWord(String s) {
         int len = 0;
@@ -18,5 +18,5 @@ class Solution {
         return len;
     }
 }
-```
-设个标志位，有空格就重新计数
+// ```
+// 设个标志位，有空格就重新计数

@@ -1,6 +1,6 @@
-无论是用3次遍历还是一次遍历，C语言写的代码始终停留在第345个用例上。
-思考许久确实不知何错，烦请大家帮忙看看。
-```
+// 无论是用3次遍历还是一次遍历，C语言写的代码始终停留在第345个用例上。
+// 思考许久确实不知何错，烦请大家帮忙看看。
+// ```
 bool isValidSudoku(char** board, int boardSize, int* boardColSize){ 
     
 	int rows[9][10], cols[9][10], boxs[9][10];
@@ -28,4 +28,4 @@ bool isValidSudoku(char** board, int boardSize, int* boardColSize){
 	}
 	return true;
 }
-```
+// ```

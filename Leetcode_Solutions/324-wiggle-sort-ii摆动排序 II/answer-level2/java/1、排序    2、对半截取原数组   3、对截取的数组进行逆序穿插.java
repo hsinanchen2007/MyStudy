@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public void wiggleSort(int[] nums) {
         if(nums == null || nums.length < 2)
@@ -18,4 +18,4 @@ class Solution {
             nums[index] = nums1[0];
     }
 }
-```
+// ```

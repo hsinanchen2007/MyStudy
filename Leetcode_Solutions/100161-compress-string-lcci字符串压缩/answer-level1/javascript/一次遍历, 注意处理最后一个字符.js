@@ -1,4 +1,4 @@
-```
+// ```
 var compressString = function(S) {
   if (S.length === 0) {
     return S
@@ -19,4 +19,4 @@ var compressString = function(S) {
     return res.length < S.length ? res : S
   }
 };
-```
+// ```

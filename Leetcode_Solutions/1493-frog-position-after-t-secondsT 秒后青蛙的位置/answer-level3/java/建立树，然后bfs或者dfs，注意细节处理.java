@@ -1,6 +1,6 @@
-bfs:注意到达目标点后还有时间和节点会让概率置0
-dfs:注意选择下一步时减去相应的概率，就会让跳过的点概率归0
-```
+// bfs:注意到达目标点后还有时间和节点会让概率置0
+// dfs:注意选择下一步时减去相应的概率，就会让跳过的点概率归0
+// ```
 class Solution {
 
     int[] visited=new int[105];  
@@ -47,9 +47,9 @@ class Solution {
     }
 }
 
-```
+// ```
 
-```
+// ```
 class Solution {
 	HashMap<Integer,List<Integer>> map=new HashMap<>();
 	public double frogPosition(int n, int[][] edges, int t, int target) {
@@ -114,5 +114,5 @@ class Solution {
 	}
 }
 
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-通过系统函数完成
+// ### 解题思路
+// 通过系统函数完成
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int NumberOfDays(int Y, int M) {
                 DateTime _time = new DateTime(Y, M, 1);
@@ -12,4 +12,4 @@ public class Solution {
                 return day;
     }
 }
-```
+// ```

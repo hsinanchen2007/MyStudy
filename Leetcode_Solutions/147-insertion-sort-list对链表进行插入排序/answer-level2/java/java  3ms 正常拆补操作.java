@@ -1,18 +1,18 @@
-### 解题思路
-正常思路，找到要插入的curr节点，将它拆出来，然后补到合适的位置。
+// ### 解题思路
+// 正常思路，找到要插入的curr节点，将它拆出来，然后补到合适的位置。
 
-【拆的部分】
-  众所周知，要拆除一个节点，必须要知道它的前一个节点prev，即prev.next = prev.next.next
-  我们可以利用这个prev节点，在不断拆除的while循环中，先将它与curr的值比较，
-        如果prev值小于curr值，说明两者是顺序的，不需要拆除curr。
-【补的部分】
-   从头到尾遍历，找到合适的位置插入curr。
+// 【拆的部分】
+//   众所周知，要拆除一个节点，必须要知道它的前一个节点prev，即prev.next = prev.next.next
+//   我们可以利用这个prev节点，在不断拆除的while循环中，先将它与curr的值比较，
+//         如果prev值小于curr值，说明两者是顺序的，不需要拆除curr。
+// 【补的部分】
+//    从头到尾遍历，找到合适的位置插入curr。
  
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 class Solution {
     public ListNode insertionSortList(ListNode head) {
@@ -44,4 +44,4 @@ class Solution {
         }
         return dummyHead.next;
 }
-```
+// ```

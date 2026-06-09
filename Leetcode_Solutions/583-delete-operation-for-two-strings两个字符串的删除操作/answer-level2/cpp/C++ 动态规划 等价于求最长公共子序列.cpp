@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -17,6 +17,6 @@ public:
         return N1 + N2 - 2 * dp[N1][N2];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f7116ec2bd96d45474d553455edcb650f1de6151853f65827a1b5638a446b9b5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f7116ec2bd96d45474d553455edcb650f1de6151853f65827a1b5638a446b9b5-image.png)

@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def peakIndexInMountainArray(A: Array[Int]): Int = {
     for (i <- 1 to A.length - 2) {
@@ -7,10 +7,10 @@ object Solution {
     return -1
   }
 }
-```
+// ```
 
 
-```
+// ```
 object Solution {
   def peakIndexInMountainArray(A: Array[Int]): Int = {
     var left = 0
@@ -27,4 +27,4 @@ object Solution {
     return -1
   }
 }
-```
+// ```

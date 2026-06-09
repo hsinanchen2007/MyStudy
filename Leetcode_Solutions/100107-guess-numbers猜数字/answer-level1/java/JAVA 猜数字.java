@@ -1,9 +1,9 @@
-### 解题思路
-循环同一索引位置判断值是否相等
+// ### 解题思路
+// 循环同一索引位置判断值是否相等
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int game(int[] guess, int[] answer) {
         int i = 0;
@@ -15,4 +15,4 @@ class Solution {
         return i;
     }
 }
-```
+// ```

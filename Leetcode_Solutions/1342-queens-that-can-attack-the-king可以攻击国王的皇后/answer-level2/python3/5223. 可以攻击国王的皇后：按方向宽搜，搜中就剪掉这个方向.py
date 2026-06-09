@@ -1,6 +1,6 @@
-数据小到不用其他多余剪枝，越界也没必要判断。
+# 数据小到不用其他多余剪枝，越界也没必要判断。
 
-```python []
+# ```python []
 class Solution:
     def queensAttacktheKing(self, queens: List[List[int]], king: List[int]) -> List[List[int]]:
         p = {(x, y) for x, y in queens}
@@ -16,4 +16,4 @@ class Solution:
                     c |= {(i, j)}
             d -= c
         return ans
-```
+# ```

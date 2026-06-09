@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public boolean canReach(int[] arr, int start) {
         return dfs(arr,start,0);
@@ -15,4 +15,4 @@ class Solution {
         return dfs(arr,start+arr[start],count+1)||dfs(arr,start-arr[start],count+1);
     }
 }
-```
+// ```

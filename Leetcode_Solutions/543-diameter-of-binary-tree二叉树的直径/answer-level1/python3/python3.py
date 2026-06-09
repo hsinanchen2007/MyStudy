@@ -1,11 +1,11 @@
-### 解题思路
-稀里糊涂就过了，思路就是找左边节点和右边节点的最大值，加起来就是最长直径。
-然后迭代每个点
+# ### 解题思路
+# 稀里糊涂就过了，思路就是找左边节点和右边节点的最大值，加起来就是最长直径。
+# 然后迭代每个点
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
         return ans
 
 
-```
+# ```

@@ -1,6 +1,6 @@
-构造一个矩阵，使每个元素为该元素到第零个元素构成区域的和
+# 构造一个矩阵，使每个元素为该元素到第零个元素构成区域的和
 
-```
+# ```
 class NumMatrix:
 
     def __init__(self, matrix: List[List[int]]):
@@ -24,4 +24,4 @@ class NumMatrix:
         c = self.data[row1-1][col1-1] if row1 >0 and col1 >0 else 0
         return self.data[row2][col2]-a-b+c
 
-```
+# ```

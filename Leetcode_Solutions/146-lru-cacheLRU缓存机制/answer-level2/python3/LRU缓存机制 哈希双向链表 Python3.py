@@ -1,16 +1,16 @@
-### 解题思路
-执行用时 :232 ms, 在所有 Python3 提交中击败了64.68%的用户
-内存消耗 :22.7 MB, 在所有 Python3 提交中击败了5.13%的用户
+# ### 解题思路
+# 执行用时 :232 ms, 在所有 Python3 提交中击败了64.68%的用户
+# 内存消耗 :22.7 MB, 在所有 Python3 提交中击败了5.13%的用户
 
-1. 双向链表，每个节点有key val prev nxt四个属性
-2. 哈希表cache = {}，其中的key值与双向链表节点的key值对应，value是对应的链表节点
-3. get()的时候，直接从哈希表中取值复杂度O(1)
-4. put()的时候，向链表中插入/删除/移动元素复杂度O(1)
-5. 注意，add_head、delete_node、move_to_head、pop_tail等函数都只是改变了链表的连接关系，从cache中添加/删除节点的操作在put()中
+# 1. 双向链表，每个节点有key val prev nxt四个属性
+# 2. 哈希表cache = {}，其中的key值与双向链表节点的key值对应，value是对应的链表节点
+# 3. get()的时候，直接从哈希表中取值复杂度O(1)
+# 4. put()的时候，向链表中插入/删除/移动元素复杂度O(1)
+# 5. 注意，add_head、delete_node、move_to_head、pop_tail等函数都只是改变了链表的连接关系，从cache中添加/删除节点的操作在put()中
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class DLinkedNode:
     def __init__(self, key, val, prev=None, nxt=None):
         self.key = key
@@ -84,4 +84,4 @@ class LRUCache:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

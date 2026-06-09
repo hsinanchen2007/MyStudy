@@ -1,13 +1,13 @@
-### 解题思路
-观察链表可以看得出来，我们只需要同时遍历两个链表，然后累加成为一个新的链表，结果就出来了
-但是建个新的链表也吃吃内存的，所以思路是直接以L1的基础链表上做累计，最后我们返回L1就好了，这样可以节省空间
-下面是关于算法的思路图解，有区分两种情况
-![addTwoNumbers.png](https://pic.leetcode-cn.com/f4b257c735ae1301f18d89229cf546fc94488d36f9fe460a72c5a62b448c9364-addTwoNumbers.png)
+// ### 解题思路
+// 观察链表可以看得出来，我们只需要同时遍历两个链表，然后累加成为一个新的链表，结果就出来了
+// 但是建个新的链表也吃吃内存的，所以思路是直接以L1的基础链表上做累计，最后我们返回L1就好了，这样可以节省空间
+// 下面是关于算法的思路图解，有区分两种情况
+// ![addTwoNumbers.png](https://pic.leetcode-cn.com/f4b257c735ae1301f18d89229cf546fc94488d36f9fe460a72c5a62b448c9364-addTwoNumbers.png)
 
-代码中有一些特殊的临界点处理，可看注释
-### 代码
+// 代码中有一些特殊的临界点处理，可看注释
+// ### 代码
 
-```golang
+// ```golang
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	var cur, lv2, nex int
 	var l3 *ListNode
@@ -56,4 +56,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	return l3
 }
 
-```
+// ```

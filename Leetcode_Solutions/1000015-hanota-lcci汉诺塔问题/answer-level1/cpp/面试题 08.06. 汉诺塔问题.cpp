@@ -1,9 +1,9 @@
-### 解题思路
-双百，同样的操作做两次，helper封装操作，调用两次就行。
+// ### 解题思路
+// 双百，同样的操作做两次，helper封装操作，调用两次就行。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void helper(vector<int>& A, vector<int>& B){
@@ -22,4 +22,4 @@ public:
         helper(B,C);
     }
 };
-```
+// ```

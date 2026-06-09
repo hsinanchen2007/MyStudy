@@ -1,9 +1,9 @@
-### 解题思路
-min = 14, max = 0为了找出最大最小值，坑。
+// ### 解题思路
+// min = 14, max = 0为了找出最大最小值，坑。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isStraight(vector<int>& nums) {
@@ -37,4 +37,4 @@ public:
         return false;
     }
 };
-```
+// ```

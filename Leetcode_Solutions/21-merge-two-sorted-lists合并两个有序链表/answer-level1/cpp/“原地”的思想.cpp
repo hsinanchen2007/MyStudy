@@ -1,9 +1,9 @@
-### 解题思路
-create the merged list on-the-fly, that is, compare each value of l1* and l2*, and create the new node then. No need using a vector to hold all the values, and then sort.
+// ### 解题思路
+// create the merged list on-the-fly, that is, compare each value of l1* and l2*, and create the new node then. No need using a vector to hold all the values, and then sort.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -73,4 +73,4 @@ public:
     	return merged_list;
     }*/
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //暴力,两次遍历
     public int maxProfit(int[] prices) {
@@ -18,8 +18,8 @@ class Solution {
         }
         return result;
     }
-```
-```java
+// ```
+// ```java
     //一次遍历
     public int maxProfit(int[] prices) {
         //保留最小值
@@ -39,4 +39,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

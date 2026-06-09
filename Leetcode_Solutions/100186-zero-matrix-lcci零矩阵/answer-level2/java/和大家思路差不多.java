@@ -1,8 +1,8 @@
-### 解题思路
-用两个一维数组来做标记
-### 代码
+// ### 解题思路
+// 用两个一维数组来做标记
+// ### 代码
 
-```java
+// ```java
 class Solution {
         public void setZeroes(int[][] matrix) {
 
@@ -29,4 +29,4 @@ class Solution {
 
     }
 }
-```
+// ```

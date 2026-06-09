@@ -1,4 +1,4 @@
-代码：
+// 代码：
     #define MAX_RES_SIZE    500
 #define MAX_COLUMN_SIZE 100
 

@@ -1,4 +1,4 @@
-```
+// ```
 func trulyMostPopular(names []string, synonyms []string) []string {
     n := len(names)
     h := make(map[string]uint64, n)
@@ -72,4 +72,4 @@ func min(a, b int) int {
     return a
 }
 
-```
+// ```

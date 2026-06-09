@@ -1,9 +1,9 @@
-### 解题思路
-看了大佬们的题解才想起来用switch代替if-else可以加快判断速度
+// ### 解题思路
+// 看了大佬们的题解才想起来用switch代替if-else可以加快判断速度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int romanToInt(string s) {
@@ -35,4 +35,4 @@ public:
 		return ans;
 	}
 };
-```
+// ```

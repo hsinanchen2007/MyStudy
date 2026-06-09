@@ -1,4 +1,4 @@
-```
+# ```
 class NumMatrix(object):
 
     def __init__(self, matrix):
@@ -65,5 +65,5 @@ class NumMatrix(object):
 # obj = NumMatrix(matrix)
 # obj.update(row,col,val)
 # param_2 = obj.sumRegion(row1,col1,row2,col2)
-```
-具体思路请参考链接：[leetcode303.区域和检索 - 数组不可变、leetcode307.区域和检索 - 数组可修改、lc304.二维区域和检索 - 矩阵不可变、lc308.二维区域和检索 - 可变](https://blog.csdn.net/qq_28468707/article/details/103748050)
+# ```
+# 具体思路请参考链接：[leetcode303.区域和检索 - 数组不可变、leetcode307.区域和检索 - 数组可修改、lc304.二维区域和检索 - 矩阵不可变、lc308.二维区域和检索 - 可变](https://blog.csdn.net/qq_28468707/article/details/103748050)

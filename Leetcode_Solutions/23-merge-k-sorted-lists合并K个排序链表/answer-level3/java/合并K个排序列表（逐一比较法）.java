@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         int a = Integer.MAX_VALUE;
@@ -20,6 +20,6 @@ class Solution {
         return pre;
     }
 }
-```
+// ```
 
 

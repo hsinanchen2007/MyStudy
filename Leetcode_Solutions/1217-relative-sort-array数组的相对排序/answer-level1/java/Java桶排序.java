@@ -1,5 +1,5 @@
-使用桶排序来处理：
-```java
+// 使用桶排序来处理：
+// ```java
 class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
         int[] bucket=new int[1001];
@@ -24,4 +24,4 @@ class Solution {
         return arr1;
     }
 }
-```
+// ```

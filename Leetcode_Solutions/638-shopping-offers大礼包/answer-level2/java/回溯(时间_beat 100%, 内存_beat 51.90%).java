@@ -1,11 +1,11 @@
-![微信图片_20191110142256.png](https://pic.leetcode-cn.com/ad16dc04b059f6f43af14ecdb6cd4814a947c2e893b096e90e2c4e625ffa4e2f-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191110142256.png)
+// ![微信图片_20191110142256.png](https://pic.leetcode-cn.com/ad16dc04b059f6f43af14ecdb6cd4814a947c2e893b096e90e2c4e625ffa4e2f-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191110142256.png)
 
 
-**本人不喜欢函数的参数列表过长，看的眼花，故弄了几个全局变量，不喜勿喷。**
+// **本人不喜欢函数的参数列表过长，看的眼花，故弄了几个全局变量，不喜勿喷。**
 
 
-# 代码
-```java [-无注释]
+// # 代码
+// ```java [-无注释]
 class Solution {
     private List<Integer> global_needs, global_price;
     private List<List<Integer>> global_special;
@@ -56,8 +56,8 @@ class Solution {
         return max;
     }
 }
-```
-```java [-有注释]
+// ```
+// ```java [-有注释]
 class Solution {
     private List<Integer> global_needs, global_price;
     private List<List<Integer>> global_special;
@@ -127,4 +127,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

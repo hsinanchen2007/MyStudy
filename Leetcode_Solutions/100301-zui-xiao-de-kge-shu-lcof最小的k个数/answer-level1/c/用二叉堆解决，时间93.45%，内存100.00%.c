@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-用堆维护最小的k个数组，有更小的就把数组里delete最大的，然后把小的加到堆里。
+// ### 解题思路
+// 此处撰写解题思路
+// 用堆维护最小的k个数组，有更小的就把数组里delete最大的，然后把小的加到堆里。
 
-最终将堆的size和堆的数据返回。
-### 代码
+// 最终将堆的size和堆的数据返回。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -87,4 +87,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
     *returnSize = h->size;
     return h->data+1;
 }
-```
+// ```

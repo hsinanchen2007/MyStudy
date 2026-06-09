@@ -1,12 +1,12 @@
-### 解题思路
-dp[i][j]是到当前节点的最大值
-状态转移方程为：
-dp[i][j] = Math.min(dp[i-1][j], dp[i][j-1]) + grid[i][j];
-考虑下i > 0 || j > 0 || i == 0 && j == 0
-的边界条件即可
-### 代码
+// ### 解题思路
+// dp[i][j]是到当前节点的最大值
+// 状态转移方程为：
+// dp[i][j] = Math.min(dp[i-1][j], dp[i][j-1]) + grid[i][j];
+// 考虑下i > 0 || j > 0 || i == 0 && j == 0
+// 的边界条件即可
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minPathSum(int[][] grid) {
         //bad-case
@@ -43,4 +43,4 @@ class Solution {
         return dp[rows-1][cols-1];
     }
 }
-```
+// ```

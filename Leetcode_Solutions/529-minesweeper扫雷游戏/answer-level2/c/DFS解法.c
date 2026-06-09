@@ -1,10 +1,10 @@
-### 解题思路
-0、根据题意，当前点内容为E，才进行计算，否自直接返回；
-1、更新当前点，根据周围雷的数量;
-2、如果当前点是为空，即B，则往8个方向dfs。
+// ### 解题思路
+// 0、根据题意，当前点内容为E，才进行计算，否自直接返回；
+// 1、更新当前点，根据周围雷的数量;
+// 2、如果当前点是为空，即B，则往8个方向dfs。
 
-### 代码
-```c
+// ### 代码
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.

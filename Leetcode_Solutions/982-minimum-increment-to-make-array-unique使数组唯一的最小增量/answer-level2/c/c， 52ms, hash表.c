@@ -1,18 +1,18 @@
-### 解题思路
-参考：
-作者：asentry
-链接：https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/solution/cyu-yan-by-asentry-5/
+// ### 解题思路
+// 参考：
+// 作者：asentry
+// 链接：https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/solution/cyu-yan-by-asentry-5/
 
-同时在原基础上增加遍历元素个数统计，优化后可提前退出，不用遍历到第80000个元素。
-执行结果：
-通过
-显示详情
-执行用时 :52 ms, 在所有 C 提交中击败了94.68%的用户
-内存消耗 :8.3 MB, 在所有 C 提交中击败了100.00%的用户
+// 同时在原基础上增加遍历元素个数统计，优化后可提前退出，不用遍历到第80000个元素。
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :52 ms, 在所有 C 提交中击败了94.68%的用户
+// 内存消耗 :8.3 MB, 在所有 C 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define HASH_VALUE_SIZE 80000   // 注意此值要大于40000, 如果最大数正好为40000，那么往后操作还要向后累加的
 int gHash[HASH_VALUE_SIZE] = { 0 };
@@ -108,4 +108,4 @@ int minIncrementForUnique(int* A, int ASize){
 
 
 
-```
+// ```

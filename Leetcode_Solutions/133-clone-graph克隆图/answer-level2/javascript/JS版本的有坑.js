@@ -1,13 +1,13 @@
 
-```
+// ```
 [[]]
-```
-测试时，执行代码是正确的，但是提交时一直报错
-```
+// ```
+// 测试时，执行代码是正确的，但是提交时一直报错
+// ```
 Node with value 2 doesn't exist in the original graph.
-```
-代码如下：
-```
+// ```
+// 代码如下：
+// ```
 //解法1. visited 放在了外面
 let visited = new Map();
 
@@ -31,12 +31,12 @@ var cloneGraph = function (node) {
     }
     return newNode;
 };
-```
-此时代码执行结果下面会提示
-**注意：假如发现执行代码和提交解答结果不同的话，很有可能是因为您使用了 C 或者 C++ 的全局变量**
+// ```
+// 此时代码执行结果下面会提示
+// **注意：假如发现执行代码和提交解答结果不同的话，很有可能是因为您使用了 C 或者 C++ 的全局变量**
 
-但是把```visited```挪到内部就能提交通过。
-```
+// 但是把```visited```挪到内部就能提交通过。
+// ```
 //将全局visited放在内部
 // let visited = new Map();
 var cloneGraph = function (node,visited) {
@@ -62,5 +62,5 @@ var cloneGraph = function (node,visited) {
     }
     return newNode;
 };
-```
-这是为啥？
+// ```
+// 这是为啥？

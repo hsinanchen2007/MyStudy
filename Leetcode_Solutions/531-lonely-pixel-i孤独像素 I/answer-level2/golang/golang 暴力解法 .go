@@ -1,10 +1,10 @@
-### 解题思路
-暴力循环 如果有对应符合要求的直接break即可 减少循环次数
+// ### 解题思路
+// 暴力循环 如果有对应符合要求的直接break即可 减少循环次数
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func findLonelyPixel(picture [][]byte) int {
 	if len(picture) == 0 {
@@ -50,4 +50,4 @@ func findLonelyPixel(picture [][]byte) int {
 	return count
 }
 
-```
+// ```

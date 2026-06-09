@@ -1,9 +1,9 @@
-### 解题思路
-注意使用原来的node，new很消耗时间。
+// ### 解题思路
+// 注意使用原来的node，new很消耗时间。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ public:
         return result->next;
     }
 };
-```
+// ```

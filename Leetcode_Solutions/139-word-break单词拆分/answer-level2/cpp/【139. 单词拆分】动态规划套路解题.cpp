@@ -1,8 +1,8 @@
-## 思路一：暴力（超时）
-尝试每一个可能的前缀。
-### 代码
-时间复杂度：O(n^n)
-```c++
+// ## 思路一：暴力（超时）
+// 尝试每一个可能的前缀。
+// ### 代码
+// 时间复杂度：O(n^n)
+// ```c++
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -21,11 +21,11 @@ public:
         return false;
     }
 };
-```
+// ```
 
-## 思路二：记忆化搜索
-### 代码
-```c++
+// ## 思路二：记忆化搜索
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -50,11 +50,11 @@ public:
         return memo[start];
     }
 };
-```
+// ```
 
-## 思路三：动态规划
-### 代码
-```c++
+// ## 思路三：动态规划
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -72,5 +72,5 @@ public:
         return dp[s.size()];
     }
 };
-```
+// ```
 

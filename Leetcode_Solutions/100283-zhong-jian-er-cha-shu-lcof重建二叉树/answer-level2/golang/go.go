@@ -1,4 +1,4 @@
-```
+// ```
 func buildTree(preorder []int, inorder []int) *TreeNode {
 	var cal func(pl, pr, il, ir int) *TreeNode
 	cal = func(pl, pr, il, ir int) *TreeNode {
@@ -18,4 +18,4 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
 	}
 	return cal(0, len(preorder)-1, 0, len(inorder)-1)
 }
-```
+// ```

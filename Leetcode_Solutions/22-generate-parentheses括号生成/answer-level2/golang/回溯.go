@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func generateParenthesis(n int) []string {
     var track string
     result := make([]string,0)
@@ -36,4 +36,4 @@ func backtrack( count, left, right int, track string,result *[]string) {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```go
+// ```go
 // Time: O(n), Space: O(n)
 func jump(nums []int) int {
     if nums == nil || len(nums) == 0 {
@@ -23,9 +23,9 @@ func jump(nums []int) int {
     }
     return -1 // 循环结束后还没有提前返回，就返回-1
 }
-```
+// ```
 
-```go
+// ```go
 // Time: O(n), Space: O(1)
 func jumpToLast(nums []int) int {
     if nums == nil || len(nums) == 0 {
@@ -50,4 +50,4 @@ func jumpToLast(nums []int) int {
     }
     return -1
 }
-```
+// ```

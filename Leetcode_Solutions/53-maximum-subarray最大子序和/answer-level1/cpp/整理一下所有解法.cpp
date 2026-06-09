@@ -1,10 +1,10 @@
-## 蛮力算法
+// ## 蛮力算法
 
-The time complexity of this method is up to $O(n^3)$, run in cubic time.
+// The time complexity of this method is up to $O(n^3)$, run in cubic time.
 
-两层遍历，枚举所有子区段，并对每个子区段求和，并取最大值。
+// 两层遍历，枚举所有子区段，并对每个子区段求和，并取最大值。
 
-```c++
+// ```c++
 // brute force solution. O(n^3)
 class SolutionBF
 {
@@ -25,14 +25,14 @@ public:
         return gs;
     }
 };
-```
+// ```
 
 
-## 蛮力算法的一点改进，递增策略
+// ## 蛮力算法的一点改进，递增策略
 
-求和时复用之前的结果
+// 求和时复用之前的结果
 
-```c++
+// ```c++
 //incremental strategy, a little improvement, but not enough. O(n^2)
 class SolutionIC
 {
@@ -55,16 +55,16 @@ public:
         return gs;
     }
 };
-```
+// ```
 
 
-## 分治
+// ## 分治
 
-求得前缀、后缀的最大值
+// 求得前缀、后缀的最大值
 
-求得跨越前、后缀的最大值
+// 求得跨越前、后缀的最大值
 
-```c++
+// ```c++
 class SolutionDC
 {
 public:
@@ -90,13 +90,13 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 贪心
+// ## 贪心
 
-从右向左迭代求和，小于 0 则重新计算。
+// 从右向左迭代求和，小于 0 则重新计算。
 
-```c++
+// ```c++
 // greedy algorithm. O(n)
 class SolutionGR
 {
@@ -117,11 +117,11 @@ public:
         return gs;
     }
 };
-```
+// ```
 
-## 动态规划
+// ## 动态规划
 
-```c++
+// ```c++
 // dynamic programming. O(n)
 class SolutionDP
 {
@@ -139,15 +139,15 @@ public:
         return gs;
     }
 };
-```
+// ```
 
-最大子区段取决于（之前的和加上当前值）与（当前值）中的较大者
+// 最大子区段取决于（之前的和加上当前值）与（当前值）中的较大者
 
-https://www.zhihu.com/question/23995189/answer/613096905
+// https://www.zhihu.com/question/23995189/answer/613096905
 
-## Driver Code
+// ## Driver Code
 
-```c++
+// ```c++
 
 #include <algorithm>
 #include <iostream>
@@ -166,4 +166,4 @@ int main()
     cout << res;
 }
 
-```
+// ```

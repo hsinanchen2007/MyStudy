@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def jump(self, nums):
         """
@@ -27,5 +27,5 @@ class Solution(object):
             begin = end+1
             end = maxPos
         return steps
-```
-广泛参考了大佬们的解题思路，枯了
+# ```
+# 广泛参考了大佬们的解题思路，枯了

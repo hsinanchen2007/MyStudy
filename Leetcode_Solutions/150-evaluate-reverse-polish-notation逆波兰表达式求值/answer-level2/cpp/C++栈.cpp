@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 	bool yunsuan(string s)
@@ -36,4 +36,4 @@ public:
 		return s.top();
 	}
 };
-```
+// ```

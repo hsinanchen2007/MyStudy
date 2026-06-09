@@ -1,13 +1,13 @@
-## 解题思路
+# ## 解题思路
 
-要想要个数最少，总和是一定的，所以尽量选大的即可。排序之后再扫描
+# 要想要个数最少，总和是一定的，所以尽量选大的即可。排序之后再扫描
 
-时间复杂度`O(n logn)` 空间复杂度`O(1)`
+# 时间复杂度`O(n logn)` 空间复杂度`O(1)`
 
 
-## 代码
+# ## 代码
 
-```python
+# ```python
 class Solution:
     def minSubsequence(self, nums: List[int]) -> List[int]:
         nums.sort(reverse=True)
@@ -18,4 +18,4 @@ class Solution:
             if t_s > s // 2:
                 return nums[:i + 1]
 
-```
+# ```

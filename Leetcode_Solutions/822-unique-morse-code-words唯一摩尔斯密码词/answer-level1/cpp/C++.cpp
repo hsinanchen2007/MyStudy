@@ -1,10 +1,10 @@
-### 解题思路
-先用 string[] 保存摩尔斯密码映射字典
-set<string> ans 保存单词映射后的摩尔斯密码(去重)
-返回ans.size()即可
-### 代码
+// ### 解题思路
+// 先用 string[] 保存摩尔斯密码映射字典
+// set<string> ans 保存单词映射后的摩尔斯密码(去重)
+// 返回ans.size()即可
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniqueMorseRepresentations(vector<string>& words) {
@@ -22,4 +22,4 @@ public:
         return ans.size();
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-双指针法
-- 先让`P1`跑N个节点，然后`P1` `P2`一块遍历，当`P1`为`None`时即停下
+# ### 解题思路
+# 双指针法
+# - 先让`P1`跑N个节点，然后`P1` `P2`一块遍历，当`P1`为`None`时即停下
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
         p2.next = p2.next.next
         return res.next
         
-```
+# ```

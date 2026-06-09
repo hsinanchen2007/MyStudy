@@ -1,4 +1,4 @@
-```scala []
+// ```scala []
 // a3::a2::a1::a0::Nil
 // rear         front
 class MyCircularDeque(_k: Int) {
@@ -25,4 +25,4 @@ class MyCircularDeque(_k: Int) {
     def isEmpty(): Boolean = l.isEmpty
     def isFull(): Boolean = l.length == k
 }
-```
+// ```

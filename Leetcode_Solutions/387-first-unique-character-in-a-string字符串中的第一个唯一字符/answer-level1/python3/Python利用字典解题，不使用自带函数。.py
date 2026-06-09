@@ -1,9 +1,9 @@
-### 解题思路
-为（字符，索引）创建字典，记录每个字符出现的次数。
+# ### 解题思路
+# 为（字符，索引）创建字典，记录每个字符出现的次数。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         sta = {}
@@ -13,4 +13,4 @@ class Solution:
             if sta[s[i]] == 1:
                 return i
         return -1
-```
+# ```

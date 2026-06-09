@@ -1,13 +1,13 @@
-### 解题思路
-1、记录起始站、和终点站的座位数；
-2、计算前缀和
-3、判断空座是否小于前缀和
-![image.png](https://pic.leetcode-cn.com/a384bedfbfcf7354401df4dfc98e861429d86e9f24d456e0f918f69169728118-image.png)
+// ### 解题思路
+// 1、记录起始站、和终点站的座位数；
+// 2、计算前缀和
+// 3、判断空座是否小于前缀和
+// ![image.png](https://pic.leetcode-cn.com/a384bedfbfcf7354401df4dfc98e861429d86e9f24d456e0f918f69169728118-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool carPooling(int** trips, int tripsSize, int* tripsColSize, int capacity)
 {
     int ans[1001] = {0};
@@ -27,4 +27,4 @@ bool carPooling(int** trips, int tripsSize, int* tripsColSize, int capacity)
     }
     return true;
 }
-```
+// ```

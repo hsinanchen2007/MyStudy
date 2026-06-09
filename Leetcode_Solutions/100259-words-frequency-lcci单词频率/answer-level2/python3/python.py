@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class WordsFrequency:
     def __init__(self, book: List[str]):
         self.word_dict = collections.Counter(book)
@@ -17,4 +17,4 @@ class WordsFrequency:
 # Your WordsFrequency object will be instantiated and called as such:
 # obj = WordsFrequency(book)
 # param_1 = obj.get(word)
-```
+# ```

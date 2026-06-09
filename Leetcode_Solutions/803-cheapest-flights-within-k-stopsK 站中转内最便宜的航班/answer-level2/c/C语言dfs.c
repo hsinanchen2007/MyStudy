@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void dfs(int** flights, int flightsSize,int src, int dst, int K, int *max, int depth, int curvalue, int** info, int *count)
 {
     if (depth > K){
@@ -45,4 +45,4 @@ int findCheapestPrice(int n, int** flights, int flightsSize, int* flightsColSize
         return max;
     }
 }
-```
+// ```

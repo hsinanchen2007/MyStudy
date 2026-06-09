@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def numEnclaves(self, A: List[List[int]]) -> int:
         def dfs(i, j):
@@ -20,4 +20,4 @@ class Solution:
                     if not flag: res += cnt
         return res
 
-```
+# ```

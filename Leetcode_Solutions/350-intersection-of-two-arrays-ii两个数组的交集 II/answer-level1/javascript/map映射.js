@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -23,4 +23,4 @@ var intersect = function(nums1, nums2) {
     }
     return res
 };
-```
+// ```

@@ -1,5 +1,5 @@
-应该是用动态规划思想。定义一个概念，f(k)表示以当前元素结尾的子数组的最大值，则f(k)应该等于max(num[k],f(k-1)+num[k])
-```
+// 应该是用动态规划思想。定义一个概念，f(k)表示以当前元素结尾的子数组的最大值，则f(k)应该等于max(num[k],f(k-1)+num[k])
+// ```
 func max(x,y int) int {
 	if x>y{
 		return x
@@ -25,4 +25,4 @@ func maxSubArray(nums []int) int {
 	return res
 
 }
-```
+// ```

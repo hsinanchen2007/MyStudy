@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/fba8c996e90c5c4b9be515d16c294165acb4f0e694c2e911677a439b5149efe1-image.png)
-看着官方题解写的，不然实在想不到
-```
+// ![image.png](https://pic.leetcode-cn.com/fba8c996e90c5c4b9be515d16c294165acb4f0e694c2e911677a439b5149efe1-image.png)
+// 看着官方题解写的，不然实在想不到
+// ```
 int minSwapsCouples(int* row, int rowSize){
     int rst = 0;
     for (int i = 0; i < rowSize; i+=2) {
@@ -17,4 +17,4 @@ int minSwapsCouples(int* row, int rowSize){
     }
     return rst;
 }
-```
+// ```

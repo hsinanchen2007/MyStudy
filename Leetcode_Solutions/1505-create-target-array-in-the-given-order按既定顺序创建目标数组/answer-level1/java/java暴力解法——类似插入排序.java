@@ -1,6 +1,6 @@
-类似于插入排序中的插入操作，要插入的位置有元素，则将该元素以及其后的元素后移一位。
+// 类似于插入排序中的插入操作，要插入的位置有元素，则将该元素以及其后的元素后移一位。
 
-```
+// ```
 class Solution {
     public int[] createTargetArray(int[] nums, int[] index) {
         int[] ans = new int[nums.length];
@@ -14,4 +14,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

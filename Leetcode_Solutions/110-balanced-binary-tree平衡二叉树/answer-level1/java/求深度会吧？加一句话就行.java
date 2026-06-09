@@ -1,5 +1,5 @@
-时间100%
-```
+// 时间100%
+// ```
 class Solution {
     private boolean ret = true;
     public boolean isBalanced(TreeNode root) {
@@ -22,4 +22,4 @@ class Solution {
         return deep;
     }
 }
-```
+// ```

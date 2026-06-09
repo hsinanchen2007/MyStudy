@@ -1,13 +1,13 @@
-### 解题思路
-- 首先来分解题目，两棵树相同，分到每一层下面其实就是每个节点相同，以及它的左右节点相同，这样遍历到两棵树的最后，得解
-- 两个节点有多少种情况？ A、B节点为例子 ， 
-    - 1.A == null && B == null （有两种情况，a遍历到最后节点，两者为空 b有可能接下来还有别的节点比对，所以不能贸然返回true，可以好好理解下这句话）
-    - 2.A == null || B == null 这种肯定是false
-    - 3.A != null && B!= null （接下来无非就是A和B的值相不相等）
-- 废话少说，直接上代码
-### 代码
+// ### 解题思路
+// - 首先来分解题目，两棵树相同，分到每一层下面其实就是每个节点相同，以及它的左右节点相同，这样遍历到两棵树的最后，得解
+// - 两个节点有多少种情况？ A、B节点为例子 ， 
+//     - 1.A == null && B == null （有两种情况，a遍历到最后节点，两者为空 b有可能接下来还有别的节点比对，所以不能贸然返回true，可以好好理解下这句话）
+//     - 2.A == null || B == null 这种肯定是false
+//     - 3.A != null && B!= null （接下来无非就是A和B的值相不相等）
+// - 废话少说，直接上代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -53,9 +53,9 @@ class Solution {
     
 
 }
-```
-- 既然成对出现，为啥不可以尝试使用一个queue去优化
-```java
+// ```
+// - 既然成对出现，为啥不可以尝试使用一个queue去优化
+// ```java
      public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) return true;
         if(p == null || q == null){
@@ -82,4 +82,4 @@ class Solution {
       }
       return true;
     }
-```
+// ```

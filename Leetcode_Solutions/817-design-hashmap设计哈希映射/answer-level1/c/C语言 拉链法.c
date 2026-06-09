@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/891dc4f010099352714358dcfd4d8edda378e621bd7679545e3b5aa9209e008e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/891dc4f010099352714358dcfd4d8edda378e621bd7679545e3b5aa9209e008e-image.png)
 
 
-```
+// ```
 // 单链表操作
 typedef struct node {
     int key;
@@ -154,15 +154,15 @@ void myHashMapFree(MyHashMap* obj)
     free(obj);
     return;
 }
-```
-/**
- * Your MyHashMap struct will be instantiated and called as such:
- * MyHashMap* obj = myHashMapCreate();
- * myHashMapPut(obj, key, value);
+// ```
+// /**
+//  * Your MyHashMap struct will be instantiated and called as such:
+//  * MyHashMap* obj = myHashMapCreate();
+//  * myHashMapPut(obj, key, value);
  
- * int param_2 = myHashMapGet(obj, key);
+//  * int param_2 = myHashMapGet(obj, key);
  
- * myHashMapRemove(obj, key);
+//  * myHashMapRemove(obj, key);
  
- * myHashMapFree(obj);
-*/
+//  * myHashMapFree(obj);
+// */

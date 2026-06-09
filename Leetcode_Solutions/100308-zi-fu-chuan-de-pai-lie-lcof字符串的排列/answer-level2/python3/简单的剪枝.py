@@ -1,9 +1,9 @@
-![kkkk.png](https://pic.leetcode-cn.com/ec48f20e7ef758ace15ed5126e634daff5a8f2e19f270a5a8f85fa9eda07fa6c-kkkk.png)
-从上面这个图来看 要获得不重复的，就要把同一层中相同元素去掉。
-所以首先对字符串排序
+# ![kkkk.png](https://pic.leetcode-cn.com/ec48f20e7ef758ace15ed5126e634daff5a8f2e19f270a5a8f85fa9eda07fa6c-kkkk.png)
+# 从上面这个图来看 要获得不重复的，就要把同一层中相同元素去掉。
+# 所以首先对字符串排序
 
-然后同一层剪枝
-```
+# 然后同一层剪枝
+# ```
 
 class Solution:
 
@@ -36,5 +36,5 @@ class Solution:
                 self.dfs(s, visited)
                 visited[i] = False
                 self.path.pop()
-```
+# ```
 

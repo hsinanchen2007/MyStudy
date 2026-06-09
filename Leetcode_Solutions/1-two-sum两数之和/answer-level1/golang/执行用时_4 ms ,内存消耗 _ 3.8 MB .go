@@ -1,4 +1,4 @@
-```
+// ```
 func twoSum(nums []int, target int) []int {
    	m:=make(map[int]int)
 
@@ -10,4 +10,4 @@ func twoSum(nums []int, target int) []int {
 	}
 	return []int{}
 }
-```
+// ```

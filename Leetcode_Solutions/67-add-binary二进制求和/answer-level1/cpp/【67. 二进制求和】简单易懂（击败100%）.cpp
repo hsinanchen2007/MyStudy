@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -29,10 +29,10 @@ public:
         return str;
     }
 };
-```
-#### 简化代码
-补0法。
-```c++
+// ```
+// #### 简化代码
+// 补0法。
+// ```c++
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -49,5 +49,5 @@ public:
         return str;
     }
 };
-```
+// ```
 

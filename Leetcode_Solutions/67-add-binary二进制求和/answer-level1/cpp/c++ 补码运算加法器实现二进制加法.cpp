@@ -1,5 +1,5 @@
-![tu.jpg](https://pic.leetcode-cn.com/7a8abac70af6d1cebdd14c9293bfa836c0857cd22504978a3afa255d5724c3ba-tu.jpg)
-```
+// ![tu.jpg](https://pic.leetcode-cn.com/7a8abac70af6d1cebdd14c9293bfa836c0857cd22504978a3afa255d5724c3ba-tu.jpg)
+// ```
 class Solution {
 public:
     char Xor(const char &a,const char &b){ //按位异或运算
@@ -36,5 +36,5 @@ string addBinary(string a,string b){
 }
 
 };
-```
+// ```
 

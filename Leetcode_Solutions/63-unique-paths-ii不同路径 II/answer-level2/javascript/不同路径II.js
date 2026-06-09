@@ -1,5 +1,5 @@
-原理大体和上一题一样，这里相当于不加所有经过有障碍的路径
-```javascript
+// 原理大体和上一题一样，这里相当于不加所有经过有障碍的路径
+// ```javascript
 /**
  * @param {number[][]} obstacleGrid
  * @return {number}
@@ -29,4 +29,4 @@ var uniquePathsWithObstacles = function(obstacleGrid) {
     }
     return dp[m-1][n-1]
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
         nodes = []
         stack = []
         while stack or root:
@@ -22,4 +22,4 @@
             nodes[i].right = nodes[i + 1]
 
         return None if not nodes else nodes[0]
-```
+# ```

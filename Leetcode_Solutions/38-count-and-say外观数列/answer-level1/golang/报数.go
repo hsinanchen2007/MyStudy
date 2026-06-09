@@ -1,4 +1,4 @@
-```golang
+// ```golang
 import "fmt"
 import "strings"
 
@@ -36,4 +36,4 @@ func countAndSay(n int) string {
     
     return strings.Join(result, "")
 }
-```
+// ```

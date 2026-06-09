@@ -1,9 +1,9 @@
-### 解题思路
-每位都和1做异或即可
+// ### 解题思路
+// 每位都和1做异或即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findComplement(int num) {
@@ -15,4 +15,4 @@ public:
         return num^(int)(pow(2,cnt)-1);
     }
 };
-```
+// ```

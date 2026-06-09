@@ -1,9 +1,9 @@
-### 解题思路
-遍历二维数组的每个节点，当节点为0不进行任何操作，然后对有值节点进行DFS+回溯，注意结束条件即可
+// ### 解题思路
+// 遍历二维数组的每个节点，当节点为0不进行任何操作，然后对有值节点进行DFS+回溯，注意结束条件即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int getMaximumGold(int[][] grid) {
       if(grid == null || grid.length == 0){
@@ -41,4 +41,4 @@ class Solution {
         max -= grid[i][j];
     }
 }
-```
+// ```

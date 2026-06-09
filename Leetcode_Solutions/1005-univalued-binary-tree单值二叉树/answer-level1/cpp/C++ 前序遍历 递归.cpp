@@ -1,9 +1,9 @@
-### 解题思路
-树的所有节点与根节点的值进行比较  需要根节点、左子树、右子树 都等于该值
+// ### 解题思路
+// 树的所有节点与根节点的值进行比较  需要根节点、左子树、右子树 都等于该值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:
         return is_unival_tree(root->left, val) && is_unival_tree(root->right, val);
     }
 };
-```
+// ```

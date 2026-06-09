@@ -1,5 +1,5 @@
-方法一：DFS。
-```java
+// 方法一：DFS。
+// ```java
 class Solution {
     public TreeNode invertTree(TreeNode root) {
         if (root != null) {
@@ -11,9 +11,9 @@ class Solution {
         return root;
     }
 }
-```
-方法二：BFS。
-```java
+// ```
+// 方法二：BFS。
+// ```java
 class Solution {
     public TreeNode invertTree(TreeNode root) {
         if (root == null) {
@@ -36,4 +36,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

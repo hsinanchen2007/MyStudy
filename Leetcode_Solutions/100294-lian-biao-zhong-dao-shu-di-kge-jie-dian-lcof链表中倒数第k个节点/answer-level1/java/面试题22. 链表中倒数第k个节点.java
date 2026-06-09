@@ -1,8 +1,8 @@
-### 解题思路
-两个指针，一个用于先探明链表长度，再根据给定的位置，用第二个指针移动到给定位置的前一个。
-### 代码
+// ### 解题思路
+// 两个指针，一个用于先探明链表长度，再根据给定的位置，用第二个指针移动到给定位置的前一个。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return result.next;
     }
 }
-```
+// ```

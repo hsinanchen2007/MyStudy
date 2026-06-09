@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func search(nums []int, target int) bool {
     l := 0
 	r := len(nums) - 1
@@ -28,4 +28,4 @@ func search(nums []int, target int) bool {
 	}
 	return false
 }
-```
+// ```

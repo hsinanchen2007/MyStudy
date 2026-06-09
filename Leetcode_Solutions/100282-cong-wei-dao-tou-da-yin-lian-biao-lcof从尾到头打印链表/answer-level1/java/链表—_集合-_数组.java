@@ -1,17 +1,17 @@
-### 解题思路
-这个反转，从尾到头打印链表。其实就是中间带个转换，把链表的值存储到集合中
-最后把集合中元素挨个传给数组。
+// ### 解题思路
+// 这个反转，从尾到头打印链表。其实就是中间带个转换，把链表的值存储到集合中
+// 最后把集合中元素挨个传给数组。
 
-注意的几点：
-1. 没有集合的size()函数，那就在遍历链表的时候用一个计数器count=0;count++
-2. 链表遍历的通常套路list.add(p.val);
-                     p=p.next;
-3. 定义ArrayList加泛型，否则会报错。
+// 注意的几点：
+// 1. 没有集合的size()函数，那就在遍历链表的时候用一个计数器count=0;count++
+// 2. 链表遍历的通常套路list.add(p.val);
+//                      p=p.next;
+// 3. 定义ArrayList加泛型，否则会报错。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -39,4 +39,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

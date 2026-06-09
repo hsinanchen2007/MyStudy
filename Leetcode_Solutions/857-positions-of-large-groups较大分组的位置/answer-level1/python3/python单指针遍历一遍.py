@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def largeGroupPositions(self, S: str) -> List[List[int]]:
         count = 1
@@ -15,4 +15,4 @@ class Solution:
         if count >= 3:
             ans.append([i-count+2,i+1])
         return ans
-```
+# ```

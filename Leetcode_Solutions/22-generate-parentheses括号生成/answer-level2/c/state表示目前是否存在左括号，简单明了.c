@@ -1,8 +1,8 @@
-### 解题思路
-max记录还可以插入多少个左括号，state记录已使用多少个左括号。代码很短好理解。
+// ### 解题思路
+// max记录还可以插入多少个左括号，state记录已使用多少个左括号。代码很短好理解。
 
-### 代码
-```c
+// ### 代码
+// ```c
 
 void MyDfs (char **ans, char *record, int pos, int* floor, int state, int max, int n) {
     if (pos == n) {
@@ -34,4 +34,4 @@ char ** generateParenthesis(int n, int* returnSize){
     *returnSize = floor;
     return ans;
 }
-```
+// ```

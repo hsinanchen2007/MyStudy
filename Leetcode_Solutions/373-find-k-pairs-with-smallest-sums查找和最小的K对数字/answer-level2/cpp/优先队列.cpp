@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) {
@@ -39,4 +39,4 @@ private:
         Pair(int _first, int _second) : first(_first), second(_second){}
     };
 };
-```
+// ```

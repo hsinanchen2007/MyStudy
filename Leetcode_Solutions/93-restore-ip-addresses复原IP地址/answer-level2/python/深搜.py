@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def restoreIpAddresses(self, s):
         ret = []
@@ -19,4 +19,4 @@ class Solution(object):
         dfs("25525511135",0,1,res)
         return ret
 
-```
+# ```

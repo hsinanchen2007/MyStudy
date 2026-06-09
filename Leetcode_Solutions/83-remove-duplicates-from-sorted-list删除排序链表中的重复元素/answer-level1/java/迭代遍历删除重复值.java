@@ -1,8 +1,8 @@
-### 解题思路
-迭代遍历，详见代码注释
-### 代码
+// ### 解题思路
+// 迭代遍历，详见代码注释
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

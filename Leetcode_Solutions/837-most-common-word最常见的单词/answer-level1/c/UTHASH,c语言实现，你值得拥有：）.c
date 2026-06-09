@@ -1,11 +1,11 @@
-### 解题思路
-因为c语言没有C++的hash map映射机制，所以需要使用c语言实现其hash。
-![image.png](https://pic.leetcode-cn.com/5af69967b004e19e721693d214e6444b5821fb7e172df82227a16fcf63a3e0aa-image.png)
+// ### 解题思路
+// 因为c语言没有C++的hash map映射机制，所以需要使用c语言实现其hash。
+// ![image.png](https://pic.leetcode-cn.com/5af69967b004e19e721693d214e6444b5821fb7e172df82227a16fcf63a3e0aa-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define WORDLENGTH 20
 
 typedef struct _tagHASHNODE
@@ -143,4 +143,4 @@ char * mostCommonWord(char * paragraph, char ** banned, int bannedSize){
     return res;
 
 }
-```
+// ```

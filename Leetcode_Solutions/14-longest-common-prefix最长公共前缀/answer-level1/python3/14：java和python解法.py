@@ -1,9 +1,9 @@
-### 解题思路
-java和python。python的执行用时和内存消耗击败99%，java较慢。
-判断所有字符串的第一个字母，如果相同判断下一个字母。
+# ### 解题思路
+# java和python。python的执行用时和内存消耗击败99%，java较慢。
+# 判断所有字符串的第一个字母，如果相同判断下一个字母。
 
-### 代码
-```java
+# ### 代码
+# ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         int index = 0;
@@ -22,8 +22,8 @@ class Solution {
         return strs[0].substring(0, index);
     }
 }
-```
-```python []
+# ```
+# ```python []
 def longestCommonPrefix(self,strs: List[str]) -> str:
     if len(strs) == 0 :
         return ""
@@ -33,5 +33,5 @@ def longestCommonPrefix(self,strs: List[str]) -> str:
             if i >= len(s) or prefix != s[i]:
                  return (strs[0])[0:i] 
     return (strs[0])[0:i+1]
-```
+# ```
 

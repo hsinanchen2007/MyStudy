@@ -1,5 +1,5 @@
-老铁们，这题不用并查集，别秀了嗷。直接从四个边界开始爆搜就完了。
-```c++
+// 老铁们，这题不用并查集，别秀了嗷。直接从四个边界开始爆搜就完了。
+// ```c++
 class Solution {
 public:
   int numEnclaves(vector<vector<int>>& A) {
@@ -36,4 +36,4 @@ public:
     return ret;
   }
 };
-```
+// ```

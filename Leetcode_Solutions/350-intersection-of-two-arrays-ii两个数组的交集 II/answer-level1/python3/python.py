@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intersect(self, nums1, nums2):
         num=[];
@@ -20,4 +20,4 @@ class Solution:
                 j+=1;
             i+=1;j=0;
         return num;
-```
+# ```

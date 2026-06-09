@@ -1,9 +1,9 @@
-### 解题思路
-今天的太难了
+// ### 解题思路
+// 今天的太难了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int movingCount(int m, int n, int k) {
         boolean[][] visited = new boolean[m][n];
@@ -24,4 +24,4 @@ class Solution {
 
 
 }
-```
+// ```

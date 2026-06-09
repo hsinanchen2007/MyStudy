@@ -1,4 +1,4 @@
-```ruby
+// ```ruby
 object Solution {
     case class State(path:List[Int])
     def leadsToDestination(n: Int, edges: Array[Array[Int]], source: Int, destination: Int): Boolean = {
@@ -26,4 +26,4 @@ object Solution {
         table.getOrElse(destination, Nil).isEmpty &&solve(List(State(source::Nil)))
     }
 }
-```
+// ```

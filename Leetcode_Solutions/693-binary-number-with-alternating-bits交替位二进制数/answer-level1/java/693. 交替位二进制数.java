@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/8
- *
- * 解题思路: 位运算 不多说了
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/8
+//  *
+//  * 解题思路: 位运算 不多说了
+//  *
+//  */
+// ```
 public boolean hasAlternatingBits(int n) {
     boolean res = true;
     int pre = -1;
@@ -25,4 +25,4 @@ public boolean hasAlternatingBits(int n) {
 
     return res;
 }
-```
+// ```

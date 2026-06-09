@@ -1,5 +1,5 @@
-思路简单，详见注释
-```
+// 思路简单，详见注释
+// ```
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -28,6 +28,6 @@ public:
         return sit_sum - dup_sum;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/a2298877a8a296531833d8a95b1cff1801c56020cdb73a614641e98deaa011e6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a2298877a8a296531833d8a95b1cff1801c56020cdb73a614641e98deaa011e6-image.png)

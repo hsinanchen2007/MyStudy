@@ -1,5 +1,5 @@
-注意在索引后移时，res[idx[j]] * primes[j]是最小值min的所有索引位置j都要+1。
-```java
+// 注意在索引后移时，res[idx[j]] * primes[j]是最小值min的所有索引位置j都要+1。
+// ```java
 class Solution {
     public int nthSuperUglyNumber(int n, int[] primes) {
         //idx保存每个primes中的值下次要做乘法的res数组中的数的位置指针
@@ -27,4 +27,4 @@ class Solution {
         return res[n - 1];
     }
 }
-```
+// ```

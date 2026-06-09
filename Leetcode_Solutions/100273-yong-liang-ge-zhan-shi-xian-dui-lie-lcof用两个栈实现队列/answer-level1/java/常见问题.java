@@ -1,9 +1,9 @@
-### 解题思路
-这里注意，要先把st2的数据全部拿出后才能再从st1中拿数据去st2
+// ### 解题思路
+// 这里注意，要先把st2的数据全部拿出后才能再从st1中拿数据去st2
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CQueue {
 	private Stack<Integer> st1 ;
 	private Stack<Integer> st2 ;
@@ -37,4 +37,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

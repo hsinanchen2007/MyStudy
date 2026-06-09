@@ -1,11 +1,11 @@
-### 解题思路
-哈希，异或
+// ### 解题思路
+// 哈希，异或
 
-### 代码
+// ### 代码
 
-#### 哈希
+// #### 哈希
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -17,12 +17,12 @@ public:
         return p.begin()->first;
     }
 };
-```
+// ```
 
-#### 异或
-0与任意值异或为任意值，任意值两次异或为零。
+// #### 异或
+// 0与任意值异或为任意值，任意值两次异或为零。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -33,4 +33,4 @@ public:
         return p;
     }
 };
-```
+// ```

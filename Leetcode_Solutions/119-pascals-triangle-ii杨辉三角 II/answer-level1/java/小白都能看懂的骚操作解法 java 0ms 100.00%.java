@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         if (rowIndex == 0) return Arrays.asList(1);
@@ -38,4 +38,4 @@ class Solution {
         else return new ArrayList<>();
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-边界条件：两个都是null，返回任意  一个为null，返回非null
-创建一个dummyhead，必须这么做因为后面每一轮我们连向从剩余2个列表中最小那个来构筑链表， 如果开始直接将头设为最小那个再连向两个list最小的会造成环
+// ### 解题思路
+// 边界条件：两个都是null，返回任意  一个为null，返回非null
+// 创建一个dummyhead，必须这么做因为后面每一轮我们连向从剩余2个列表中最小那个来构筑链表， 如果开始直接将头设为最小那个再连向两个list最小的会造成环
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if(l1 == null) return l2;
@@ -25,4 +25,4 @@ class Solution {
         return dummyhead.next;
     }
 }
-```
+// ```

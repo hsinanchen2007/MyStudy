@@ -1,6 +1,6 @@
-## 先排序，再遍历
-**因为不知道数据范围，所以不能开哈希表**
-```cpp
+// ## 先排序，再遍历
+// **因为不知道数据范围，所以不能开哈希表**
+// ```cpp
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-注意数据的唯一性就好，这样写运行速度慢了些
+// 注意数据的唯一性就好，这样写运行速度慢了些
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class AnimalShelf {
 
     private LinkedList<int[]> setOfAnimalShelf;
@@ -57,4 +57,4 @@ class AnimalShelf {
  * int[] param_3 = obj.dequeueDog();
  * int[] param_4 = obj.dequeueCat();
  */
-```
+// ```

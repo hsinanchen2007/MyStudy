@@ -1,10 +1,10 @@
-### 解题思路
-加多一圈 防止数组越界 
-之后判断临近1与0的关系 先1后0则周长+1 先0后1周长+1
-上下左右判断
-### 代码
+# ### 解题思路
+# 加多一圈 防止数组越界 
+# 之后判断临近1与0的关系 先1后0则周长+1 先0后1周长+1
+# 上下左右判断
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
         for i in grid:
@@ -26,4 +26,4 @@ class Solution:
                 if (grid[i][j+1] == 0) & (grid[i][j] == 1):
                     num = num + 1
         return num
-```
+# ```

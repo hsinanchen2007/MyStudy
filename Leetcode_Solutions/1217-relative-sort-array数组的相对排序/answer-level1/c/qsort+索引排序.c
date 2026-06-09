@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/0d10870498d1cbcdd641ffef3eb995a1ed592dcd42b14d59d89f7d78294faa1c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0d10870498d1cbcdd641ffef3eb995a1ed592dcd42b14d59d89f7d78294faa1c-image.png)
 
-```
+// ```
  typedef struct
  {
      int value;
@@ -64,4 +64,4 @@ int* relativeSortArray(int* arr1, int arr1Size, int* arr2, int arr2Size, int* re
     *returnSize = arr1Size;
     return res;
 }
-```
+// ```

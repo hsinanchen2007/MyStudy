@@ -1,5 +1,5 @@
-常规做法没什么好说的
-```js
+// 常规做法没什么好说的
+// ```js
 var maxValue = function(grid) {
     if (!grid.length) return 0;
     const col = grid[0].length;
@@ -20,4 +20,4 @@ var maxValue = function(grid) {
     }
     return dp[grid.length - 1][col - 1];
 };
-```
+// ```

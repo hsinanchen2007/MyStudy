@@ -1,9 +1,9 @@
-### 解题思路
-正反遍历，关键思路清晰
+// ### 解题思路
+// 正反遍历，关键思路清晰
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int distanceBetweenBusStops(int* distance, int distanceSize, int start, int destination){
     if((distance == NULL) || (distanceSize == 0)){
         return 0;
@@ -27,4 +27,4 @@ int distanceBetweenBusStops(int* distance, int distanceSize, int start, int dest
 
     return disCnt0 < disCnt1 ? disCnt0 : disCnt1;
 }
-```
+// ```

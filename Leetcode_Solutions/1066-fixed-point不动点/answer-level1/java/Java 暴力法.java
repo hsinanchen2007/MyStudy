@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int fixedPoint(int[] A) {
         for (int i = 0; i < A.length; i++) {
@@ -9,4 +9,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

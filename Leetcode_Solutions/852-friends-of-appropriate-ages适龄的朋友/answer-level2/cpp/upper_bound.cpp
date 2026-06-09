@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numFriendRequests(vector<int>& ages) {
@@ -19,4 +19,4 @@ public:
         return res;
     }
 };
-```
+// ```

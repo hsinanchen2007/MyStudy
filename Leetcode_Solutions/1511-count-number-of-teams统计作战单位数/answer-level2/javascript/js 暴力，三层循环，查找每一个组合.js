@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/1fea04b0e068614c57038dbdf5f1b915b3d3c99665c9a1db0f6c4aa0daeb8ef4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1fea04b0e068614c57038dbdf5f1b915b3d3c99665c9a1db0f6c4aa0daeb8ef4-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   以每一个数为结尾，查看所有组合是否能组成作战单位
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} rating
  * @return {number}
@@ -31,4 +31,4 @@ var numTeams = function(rating) {
   
   return count;
 };
-```
+// ```

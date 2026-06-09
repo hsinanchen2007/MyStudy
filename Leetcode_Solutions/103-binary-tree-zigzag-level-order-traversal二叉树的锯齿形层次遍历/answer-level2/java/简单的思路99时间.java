@@ -1,9 +1,9 @@
-### 解题思路
-就是一个层序遍历，然后判断奇数偶数层加以list反转，非常简单
+// ### 解题思路
+// 就是一个层序遍历，然后判断奇数偶数层加以list反转，非常简单
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -49,4 +49,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-和官方题解接近，关键在于，不要数字串中的单个字符数，要去数一个字符单独出现的子串数
+// ### 解题思路
+// 和官方题解接近，关键在于，不要数字串中的单个字符数，要去数一个字符单独出现的子串数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniqueLetterString(String S) {
         int len = S.length();
@@ -33,4 +33,4 @@ class Solution {
         return res%mod;
     }
 }
-```
+// ```

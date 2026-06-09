@@ -1,4 +1,4 @@
-```
+// ```
 function generateMatrix($n) {
     $ans = array_fill(0,$n,array_fill(0,$n,0));
     $up = 0;
@@ -22,4 +22,4 @@ function generateMatrix($n) {
     }
     return $ans;
 }
-```
+// ```

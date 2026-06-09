@@ -1,10 +1,10 @@
-### 解题思路
-第一次遍历找出第K大的距离。这里用到了TreeSet，同时为了避免删除距离相等的元素，重写了比较器。
-第二遍直接取答案了。
+// ### 解题思路
+// 第一次遍历找出第K大的距离。这里用到了TreeSet，同时为了避免删除距离相等的元素，重写了比较器。
+// 第二遍直接取答案了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] kClosest(int[][] points, int K) {
         TreeSet<Integer> ts = new TreeSet(new Comparator<Integer>() { //重写一下比较器，使他可以保存相同的元素。
@@ -38,4 +38,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

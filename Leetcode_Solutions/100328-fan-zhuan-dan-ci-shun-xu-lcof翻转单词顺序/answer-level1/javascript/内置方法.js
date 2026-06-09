@@ -1,9 +1,9 @@
-### 解题思路
-看
+// ### 解题思路
+// 看
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -24,4 +24,4 @@ var reverseWords = function(s) {
                 .join(" ")
     return res
 };
-```
+// ```

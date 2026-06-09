@@ -1,4 +1,4 @@
-```
+// ```
 int lengthOfLastWord(char * s){
     int k=0,j=0;
     while(*s)
@@ -37,4 +37,4 @@ int lengthOfLastWord(char * s){
     }
     return k;*/
 }
-```
+// ```

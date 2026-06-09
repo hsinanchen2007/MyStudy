@@ -1,6 +1,6 @@
 
-在字典转 HashMap 时，如果一个缩写映射了超过 1 个单词时，该缩写永远为不是唯一的了。
-```java
+// 在字典转 HashMap 时，如果一个缩写映射了超过 1 个单词时，该缩写永远为不是唯一的了。
+// ```java
 class ValidWordAbbr {
 
     private final HashMap<String, String> map = new HashMap<>();
@@ -30,4 +30,4 @@ class ValidWordAbbr {
         return word.charAt(0) + String.valueOf(length - 2) + word.charAt(length - 1);
     }
 }
-```
+// ```

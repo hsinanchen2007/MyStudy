@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn can_visit_all_rooms(rooms: Vec<Vec<i32>>) -> bool {
         let mut opened = vec![false; rooms.len()];
@@ -18,5 +18,5 @@ impl Solution {
         opened.iter().all(|&room| room)
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

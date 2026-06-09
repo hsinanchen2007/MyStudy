@@ -1,6 +1,6 @@
 
-[参考链接](https://blog.csdn.net/ft_sunshine/article/details/103243034)
-```
+// [参考链接](https://blog.csdn.net/ft_sunshine/article/details/103243034)
+// ```
 typedef long long LL;
 
 class Solution {
@@ -47,4 +47,4 @@ public:
     }
     
 };
-```
+// ```

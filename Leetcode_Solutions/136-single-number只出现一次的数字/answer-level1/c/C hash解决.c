@@ -1,9 +1,9 @@
-### 解题思路
-数组元素作为key 数组个数作为cnt 找到cnt=1的那个key既为最终值
+// ### 解题思路
+// 数组元素作为key 数组个数作为cnt 找到cnt=1的那个key既为最终值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int key;
     int value;
@@ -39,4 +39,4 @@ int singleNumber(int* nums, int numsSize) {
     }
     return ret;   
 }
-```
+// ```

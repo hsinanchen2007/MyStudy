@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法
+// ### 解题思路
+// 暴力解法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a, b) (a) > (b) ? (a) : (b)
 
 bool IsStrHasSameChar(char *s, int start, int end)
@@ -37,4 +37,4 @@ int lengthOfLongestSubstring(char * s)
 
     return ans;
 }
-```
+// ```

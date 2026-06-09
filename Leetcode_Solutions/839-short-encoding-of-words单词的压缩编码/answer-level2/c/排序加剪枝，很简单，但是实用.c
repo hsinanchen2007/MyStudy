@@ -1,4 +1,4 @@
-```
+// ```
 int Compare(const void *a, const void *b) {
     char** ca = (char**)a;
     char** cb = (char**)b;
@@ -45,4 +45,4 @@ int minimumLengthEncoding(char ** words, int wordsSize){
 }
 
 
-```
+// ```

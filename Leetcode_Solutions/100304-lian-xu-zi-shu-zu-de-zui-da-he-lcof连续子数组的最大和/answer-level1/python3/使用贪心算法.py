@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         # 本题用分治法nlgn.用贪心算法o(n)
@@ -22,4 +22,4 @@ class Solution:
                 maxsum = tmp
         return maxsum
 
-```
+# ```

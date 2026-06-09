@@ -1,4 +1,4 @@
-```js
+// ```js
 var toLowerCase = function(str) {
     let obj = {
         'A': 'a',
@@ -38,4 +38,4 @@ var toLowerCase = function(str) {
     }
     return res;
 };
-```
+// ```

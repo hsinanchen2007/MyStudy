@@ -1,4 +1,4 @@
-```
+// ```
 为什么没有反转字符串的库函数啊！！！！
 
 bool isPalindrome(char * s){
@@ -26,4 +26,4 @@ bool isPalindrome(char * s){
 }
 
 
-```
+// ```

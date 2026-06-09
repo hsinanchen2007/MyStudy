@@ -1,8 +1,8 @@
 
 
-第二次独立解题，撒花
+// 第二次独立解题，撒花
 
-```
+// ```
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -26,4 +26,4 @@ public:
         return -1;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-首先计算总和，判断是否可以三等分
-然后计算是否刚好有三部分等于总和//3
+# ### 解题思路
+# 首先计算总和，判断是否可以三等分
+# 然后计算是否刚好有三部分等于总和//3
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         if len(A)<3:
@@ -30,4 +30,4 @@ class Solution:
                     tmp+=1
         
         return tmp==3
-```
+# ```

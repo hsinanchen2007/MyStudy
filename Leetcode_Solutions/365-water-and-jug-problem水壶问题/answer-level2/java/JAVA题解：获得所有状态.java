@@ -1,8 +1,8 @@
-将hel设置为较大的桶，之后进入while循环，获得所有状态。
-如果hel大于较小的桶，则hel减去较小桶的水量。
-如果hel小于较小的桶，则hel加上最大桶的水量。
-与纯粹的数学做法相比，时间空间消耗都会多很多，但是能AC。
-```
+// 将hel设置为较大的桶，之后进入while循环，获得所有状态。
+// 如果hel大于较小的桶，则hel减去较小桶的水量。
+// 如果hel小于较小的桶，则hel加上最大桶的水量。
+// 与纯粹的数学做法相比，时间空间消耗都会多很多，但是能AC。
+// ```
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         if (x+y==z || z==0)
@@ -31,4 +31,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
->1.通常我的想法都是暴力的研究数的规律，然后测试调整以通过。也就是说在没有充足的测试案例的情况下通常是有缺陷的.
+# ### 解题思路
+# >1.通常我的想法都是暴力的研究数的规律，然后测试调整以通过。也就是说在没有充足的测试案例的情况下通常是有缺陷的.
 
-循环之前加了一下判断是冗余的提升了点性能。对满足的最大小时的的十位数进行遍历，用一个map记录所有的值，做循环和异常捕捉，因为四个数字的顺序的规律，都是唯一确定的,我的算法就是取所能取得时间的极大值，每一个数字都在存在的情况下取极大值，并且可能第一位取最大值计算，后面的可能不满足时间规则，取小一点就满足了的特殊情况比如[2,0,6,6]，后三位取当前能取的极大值即可，不存在最大值，也不存在其他的可能（观察可知我也不能证明。。）
->2.暴力法，取出所有排列，过滤不合法的组合，比较选出极值,虽然python本身特性,代码比较短，但是算法本身需要穷举比较耗时,优化下提前对A排序，这样第一个合格的就是有效的最大值,有些人通过分钟数来比较思路也很好，其实list本身就可以比较，或者；利用排列本身的序*
-```
+# 循环之前加了一下判断是冗余的提升了点性能。对满足的最大小时的的十位数进行遍历，用一个map记录所有的值，做循环和异常捕捉，因为四个数字的顺序的规律，都是唯一确定的,我的算法就是取所能取得时间的极大值，每一个数字都在存在的情况下取极大值，并且可能第一位取最大值计算，后面的可能不满足时间规则，取小一点就满足了的特殊情况比如[2,0,6,6]，后三位取当前能取的极大值即可，不存在最大值，也不存在其他的可能（观察可知我也不能证明。。）
+# >2.暴力法，取出所有排列，过滤不合法的组合，比较选出极值,虽然python本身特性,代码比较短，但是算法本身需要穷举比较耗时,优化下提前对A排序，这样第一个合格的就是有效的最大值,有些人通过分钟数来比较思路也很好，其实list本身就可以比较，或者；利用排列本身的序*
+# ```
 ans =-1
  ans = max(ans, 60*(a*10+b) + (c*10+d))
 "{:02}:{:02}".format(*divmod(ans, 60))
-```
-### 代码
-```python3
+# ```
+# ### 代码
+# ```python3
 class Solution:
     def largestTimeFromDigits(self, A: List[int]) -> str:
         hour_ten_list = [i for i in A if i <= 2]
@@ -32,9 +32,9 @@ class Solution:
             except Exception as e:
                     print('exception',str(e),new)
         return res[max(res.keys())] if res else ''
-```
+# ```
 
-```python3
+# ```python3
 class Solution:
     def largestTimeFromDigits(self, A: List[int]) -> str:
 
@@ -70,8 +70,8 @@ class Solution:
             except Exception as e:
                     print('exception',str(e),new)
         return res[max(res.keys())] if res else ''
-```
-```python3
+# ```
+# ```python3
 import itertools
 from typing import List
 class Solution(object):
@@ -87,8 +87,8 @@ class Solution(object):
                 return True
         res = list(filter(is_valid, sum_list))
         return '{}{}:{}{}'.format(*max(res)) if res else ''
-```
-```python3
+# ```
+# ```python3
 class Solution:
     def largestTimeFromDigits(self, A: List[int]) -> str:
         sum_list = itertools.permutations(sorted(A,reverse=1), 4)
@@ -100,4 +100,4 @@ class Solution:
             if is_valid(i):
                 return '{}{}:{}{}'.format(*i)
         return ''
-```
+# ```

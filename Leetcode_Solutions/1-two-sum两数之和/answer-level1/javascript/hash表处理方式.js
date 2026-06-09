@@ -1,9 +1,9 @@
-### 解题思路
-使用hash表的方式，对数据进行hash对象处理，在hash处理的时候为了不增加数据碰撞概率，对数据进行以
+// ### 解题思路
+// 使用hash表的方式，对数据进行hash对象处理，在hash处理的时候为了不增加数据碰撞概率，对数据进行以
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
        /**
  * @param {number[]} nums
  * @param {number} target
@@ -116,4 +116,4 @@ function getNumber(index,num,target,dict) {
     }
     return objs
 }
-```
+// ```

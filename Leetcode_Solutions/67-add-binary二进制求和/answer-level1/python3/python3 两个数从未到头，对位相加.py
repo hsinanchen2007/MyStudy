@@ -1,7 +1,7 @@
-两个数从尾到头，对位相加
-carry进行二进制进位
-while n1 >= 0 or n2 >= 0，一次性对位加完两个数所有的位
-```python3
+# 两个数从尾到头，对位相加
+# carry进行二进制进位
+# while n1 >= 0 or n2 >= 0，一次性对位加完两个数所有的位
+# ```python3
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         i, j = len(a) - 1, len(b) - 1
@@ -18,4 +18,4 @@ class Solution:
             i, j = i - 1, j - 1
         # 最高位如果有进位，需要加上carry
         return res if not carry else '1' + res
-```
+# ```

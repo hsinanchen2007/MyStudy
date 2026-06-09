@@ -1,8 +1,8 @@
-1.枚举可以等分为两个合法子集的集合
+// 1.枚举可以等分为两个合法子集的集合
 
-2.判断是否可以分成（1）中的两个集合
+// 2.判断是否可以分成（1）中的两个集合
 
-```
+// ```
 class Solution {
 public:
     bool check(vector<int> &nums, int x, int target){
@@ -53,11 +53,11 @@ public:
         return false;
     }
 };
-```
+// ```
 
-比较短的code
+// 比较短的code
 
-```
+// ```
 class Solution {
 public:
     bool makesquare(vector<int>& nums) {
@@ -100,4 +100,4 @@ public:
         return false;
     }
 };
-```
+// ```

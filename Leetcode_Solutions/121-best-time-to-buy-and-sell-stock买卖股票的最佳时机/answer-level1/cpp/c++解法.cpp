@@ -1,9 +1,9 @@
-### 解题思路
-记录当前所遇到过的最小值，如果后面的值比cur_min大的话，就计算max（result，prices[i]-cur_min）。否则就cur_min=prices[i]。
+// ### 解题思路
+// 记录当前所遇到过的最小值，如果后面的值比cur_min大的话，就计算max（result，prices[i]-cur_min）。否则就cur_min=prices[i]。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -22,4 +22,4 @@ public:
         return result;
     }
 };
-```
+// ```

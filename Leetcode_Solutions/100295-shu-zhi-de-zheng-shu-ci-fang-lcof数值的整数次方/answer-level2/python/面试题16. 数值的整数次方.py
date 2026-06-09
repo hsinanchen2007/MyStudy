@@ -1,10 +1,10 @@
-### 解题思路
-递归，当幂为奇数时，(x*x)^(n-1)/2 * (x*x)^(n-1)/2 * x
-偶数时：(x*x)^n/2 * (x*x)^n/2
+# ### 解题思路
+# 递归，当幂为奇数时，(x*x)^(n-1)/2 * (x*x)^(n-1)/2 * x
+# 偶数时：(x*x)^n/2 * (x*x)^n/2
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         if n < 0:
@@ -18,4 +18,4 @@ class Solution:
             return self.myPow(x*x, n/2)
         else:
             return self.myPow(x*x, (n-1)//2) * x
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-定义一个慢指针和快指针做对照，如果两个指针指向的值不等，就将快指针的值赋给慢指针
+// ### 解题思路
+// 定义一个慢指针和快指针做对照，如果两个指针指向的值不等，就将快指针的值赋给慢指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         int s = 0;
@@ -17,4 +17,4 @@ class Solution {
         return s+1;
     }
 }
-```
+// ```

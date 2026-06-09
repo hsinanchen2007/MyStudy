@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Operations {
 public:
     Operations() {
@@ -74,4 +74,4 @@ public:
  * int param_2 = obj->multiply(a,b);
  * int param_3 = obj->divide(a,b);
  */
-```
+// ```

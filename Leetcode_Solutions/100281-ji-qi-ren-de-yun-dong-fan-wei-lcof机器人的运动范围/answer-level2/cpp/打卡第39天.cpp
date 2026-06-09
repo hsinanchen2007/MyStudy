@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int get(int x) {
         int res=0;
@@ -26,4 +26,4 @@ public:
     }
 };
 
-```
+// ```

@@ -1,5 +1,5 @@
-题目没有要求元素排列顺序，所以用双指针，检查到奇数就直接跟low指针指向的那个数调换位置。
-```
+// 题目没有要求元素排列顺序，所以用双指针，检查到奇数就直接跟low指针指向的那个数调换位置。
+// ```
 class Solution {
     public int[] exchange(int[] nums) {
         int fast = 0;
@@ -19,4 +19,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

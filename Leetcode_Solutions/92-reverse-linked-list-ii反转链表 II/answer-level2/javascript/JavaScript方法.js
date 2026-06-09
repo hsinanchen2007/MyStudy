@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-主要注意区间的头尾节点(start, end)和距离区间最近的两个节点(first, second)，区间反转之后，要把first、second指向正确的位置。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 主要注意区间的头尾节点(start, end)和距离区间最近的两个节点(first, second)，区间反转之后，要把first、second指向正确的位置。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -43,4 +43,4 @@ var reverseBetween = function(head, m, n) {
     }
     return reverse(pre, cur, length);
 };
-```
+// ```

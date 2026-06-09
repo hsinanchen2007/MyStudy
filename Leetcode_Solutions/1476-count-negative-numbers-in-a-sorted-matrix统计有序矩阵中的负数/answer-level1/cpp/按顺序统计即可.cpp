@@ -1,5 +1,5 @@
-暴力
-```class Solution {
+// 暴力
+// ```class Solution {
 public:
     int countNegatives(vector<vector<int>>& grid) {
         int count = 0;
@@ -13,4 +13,4 @@ public:
         return count;
     }
 };
-```
+// ```

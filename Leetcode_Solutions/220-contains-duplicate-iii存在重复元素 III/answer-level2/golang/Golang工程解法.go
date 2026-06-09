@@ -1,10 +1,10 @@
-工程解法。
-滑动窗口没毛病。
-直接使用map存储就行。
-在map存储亮不大时，遍历map。
-其余情况，遍历map中的[-k, k]。
+// 工程解法。
+// 滑动窗口没毛病。
+// 直接使用map存储就行。
+// 在map存储亮不大时，遍历map。
+// 其余情况，遍历map中的[-k, k]。
 
-``` go
+// ``` go
 func containsNearbyAlmostDuplicate(nums []int, k int, t int) bool {
 	windowSize := k + 1
 	if windowSize > len(nums) {
@@ -65,4 +65,4 @@ func contains(maps map[int]int, t int, addNum int) bool {
 		return false
 	}
 }
-```
+// ```

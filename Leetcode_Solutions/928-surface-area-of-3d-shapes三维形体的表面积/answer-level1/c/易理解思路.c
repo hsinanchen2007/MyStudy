@@ -1,9 +1,9 @@
-### 解题思路
-先统计本块，再统计左侧，最后上侧。
+// ### 解题思路
+// 先统计本块，再统计左侧，最后上侧。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
     int count=0;
     for(int i=0;i<gridSize;i++){
@@ -28,4 +28,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     }
     return count;    
 }
-```
+// ```

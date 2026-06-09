@@ -1,4 +1,4 @@
-```
+// ```
 func getLeastNumbers(arr []int, k int) []int {
 	sort.Ints(arr[:])
 	nums := make([]int, k)
@@ -7,4 +7,4 @@ func getLeastNumbers(arr []int, k int) []int {
 	}
 	return nums
 }
-```
+// ```

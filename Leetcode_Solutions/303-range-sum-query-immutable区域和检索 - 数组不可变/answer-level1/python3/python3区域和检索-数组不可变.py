@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class NumArray:
 
     def __init__(self, nums: List[int]):
@@ -18,4 +18,4 @@ class NumArray:
 # Your NumArray object will be instantiated and called as such:
 # obj = NumArray(nums)
 # param_1 = obj.sumRange(i,j)
-```
+# ```

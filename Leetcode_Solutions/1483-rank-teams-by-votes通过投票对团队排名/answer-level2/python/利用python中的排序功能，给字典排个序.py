@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def rankTeams(self, votes):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             if sum(v)>0:
                 res+=k   
         return res
-```
+# ```

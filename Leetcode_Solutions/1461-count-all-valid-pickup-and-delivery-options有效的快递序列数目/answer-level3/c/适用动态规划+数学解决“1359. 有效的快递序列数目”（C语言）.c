@@ -1,24 +1,24 @@
-### 解题思路
-本题采用动态规划和排列组合的知识解决，思路非常清晰，具体分析过程如下：
+// ### 解题思路
+// 本题采用动态规划和排列组合的知识解决，思路非常清晰，具体分析过程如下：
 
-1.利用dp思路，对于dp[n]利用dp[n-1]的结果得到
+// 1.利用dp思路，对于dp[n]利用dp[n-1]的结果得到
 
-2.如何利用dp[n-1]得到dp[n]?
+// 2.如何利用dp[n-1]得到dp[n]?
 
-3.对于前n-1个D&P，有gap=(n-1)*2+1个缝隙，可供第n个D&P插入
+// 3.对于前n-1个D&P，有gap=(n-1)*2+1个缝隙，可供第n个D&P插入
 
-4.可以从gap中任选两个分别插入D和P，即C(gap, 2)
+// 4.可以从gap中任选两个分别插入D和P，即C(gap, 2)
 
-5.也可以从gap中选择1个，放入DP，即C(gap,1)
+// 5.也可以从gap中选择1个，放入DP，即C(gap,1)
 
-6.得到结果dp[n] = dp[n-1] * (C(gap,2) + C(gap,1))
+// 6.得到结果dp[n] = dp[n-1] * (C(gap,2) + C(gap,1))
 
-![image.png](https://pic.leetcode-cn.com/a9277f634b0f9523183be5fd7149fac6bcccf30cc7c3d73e61b267b7c26d4f71-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a9277f634b0f9523183be5fd7149fac6bcccf30cc7c3d73e61b267b7c26d4f71-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 typedef long long ll_t;
 
@@ -64,4 +64,4 @@ int countOrders(int n){
 
     return dp[n];
 }
-```
+// ```

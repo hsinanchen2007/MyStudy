@@ -1,9 +1,9 @@
-[blog](https://blog.csdn.net/zzzfeiyu/article/details/100112362)
--  递归+回溯
-- 二维数组标识row = left，col = right 表示当前 pla[left,right]是否回文（不使用二维数组每次调用函数也可以，没测试过效率差异，感觉应该会低一点）
-- 起始为0到len之间成立的任一pla[0,r_1],然后继续查找第二段pla[r_1 +1,r_2]、[r_2 +1,r_3]...直到[r_n+1,r_(n+1)]不存在，即n+1越界时保存当前 List<String> list，然后回溯
+// [blog](https://blog.csdn.net/zzzfeiyu/article/details/100112362)
+// -  递归+回溯
+// - 二维数组标识row = left，col = right 表示当前 pla[left,right]是否回文（不使用二维数组每次调用函数也可以，没测试过效率差异，感觉应该会低一点）
+// - 起始为0到len之间成立的任一pla[0,r_1],然后继续查找第二段pla[r_1 +1,r_2]、[r_2 +1,r_3]...直到[r_n+1,r_(n+1)]不存在，即n+1越界时保存当前 List<String> list，然后回溯
 
-```
+// ```
 class Solution {
     List<List<String>> ret = new ArrayList<>();
     public List<List<String>> partition(String s) {
@@ -59,4 +59,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

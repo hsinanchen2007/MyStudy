@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def highFive(self, items: List[List[int]]) -> List[List[int]]:
         # 1.用defaultdict O(n) with extra O(n) space
@@ -21,4 +21,4 @@ class Solution:
             else:
                 d[i].append(score)  
         return [[k, int(sum(v) / 5)] for k, v in d.items()]
-```
+# ```

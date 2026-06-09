@@ -1,4 +1,4 @@
-```
+// ```
 int orangesRotting(int** grid, int gridSize, int* gridColSize){
     int queue[200], head = -1, tail = -1; // 队列，由于grid的元素最多100个，此处queue要存储坐标，所以分配200个int大小的空间
     int goodOrangeCnt = 0; // 记录当前grid中存在的没有腐烂的橘子
@@ -40,4 +40,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
     } 
     return goodOrangeCnt > 0 ? -1 : ans;  
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先排序，再遍历，时间复杂度为排序的时间复杂度$O(n\log n)$
+// ### 解题思路
+// 先排序，再遍历，时间复杂度为排序的时间复杂度$O(n\log n)$
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmpfunc(const void* a, const void* b){
     return *(int*)a - *(int*)b;
 }
@@ -28,4 +28,4 @@ int minIncrementForUnique(int* A, int ASize){
     sum += num * (num + 1) / 2;
     return sum;
 }
-```
+// ```

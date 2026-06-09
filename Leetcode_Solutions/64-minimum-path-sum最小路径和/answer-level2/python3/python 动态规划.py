@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         arr = grid
@@ -25,4 +25,4 @@ class Solution:
                     else:
                         new_arr[i][j] = new_arr[i-1][j] + arr[i][j]
         return (new_arr[-1][-1])
-```
+# ```

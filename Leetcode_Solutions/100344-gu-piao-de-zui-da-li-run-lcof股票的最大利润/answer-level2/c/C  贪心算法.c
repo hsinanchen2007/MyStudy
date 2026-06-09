@@ -1,9 +1,9 @@
 
 
-![image.png](https://pic.leetcode-cn.com/179b87843673a56ed884ada929bff25b7fc48220fc683040f4b41240f2b791da-image.png)
+// ![image.png](https://pic.leetcode-cn.com/179b87843673a56ed884ada929bff25b7fc48220fc683040f4b41240f2b791da-image.png)
 
 
-```
+// ```
 int maxProfit(int* prices, int pricesSize){
     int inPrice = 0;
     int i = 0;
@@ -29,4 +29,4 @@ int maxProfit(int* prices, int pricesSize){
 
     return maxPrice;
 }
-```
+// ```

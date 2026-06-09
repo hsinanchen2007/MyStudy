@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     /**
      * 要验证一个数字是否是 “完美数”，我们需要获得这个数所有可能的正因子
@@ -25,4 +25,4 @@ class Solution {
         return  count == num ? true : false;
     }
 }
-```
+// ```

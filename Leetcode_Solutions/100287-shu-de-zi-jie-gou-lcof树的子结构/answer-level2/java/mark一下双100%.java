@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,5 +28,5 @@ class Solution {
         return check(A.left,B.left) && check(A.right,B.right);
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/401b0b8499f4c2b6e35bf70c2295652e105abc39401985d87080188671b89d27-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/401b0b8499f4c2b6e35bf70c2295652e105abc39401985d87080188671b89d27-image.png)

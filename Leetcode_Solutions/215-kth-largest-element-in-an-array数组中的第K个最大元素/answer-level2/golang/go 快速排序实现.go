@@ -1,14 +1,14 @@
 
-#### 思路
-方法大致与快速排序相同
-1. 随机选择一个数作为中值, 然后遍历数组将小于中值的数字交换到左侧,大于中值的到右侧.
-2. 根据右侧数量判断
-    1. 如果右侧大于中值的数量等于 k-1, 那中值就是第k大的, 返回中值
-    2. 右侧数量大于等于k, 递归在右侧继续查找
-    3. 上面两个条件都不满足, 则递归继续在左侧查找
+// #### 思路
+// 方法大致与快速排序相同
+// 1. 随机选择一个数作为中值, 然后遍历数组将小于中值的数字交换到左侧,大于中值的到右侧.
+// 2. 根据右侧数量判断
+//     1. 如果右侧大于中值的数量等于 k-1, 那中值就是第k大的, 返回中值
+//     2. 右侧数量大于等于k, 递归在右侧继续查找
+//     3. 上面两个条件都不满足, 则递归继续在左侧查找
 
-#### 代码
-```
+// #### 代码
+// ```
 func findKthLargest(nums []int, k int) int {
 
 	l := len(nums)
@@ -41,8 +41,8 @@ func findKthLargest(nums []int, k int) int {
 	//在左侧继续查找
 	return findKthLargest(nums[1:mark], k - rightCount - 1)
 }
-```
+// ```
 
-<br />
+// <br />
 
-![image.png](https://pic.leetcode-cn.com/c0334af55551d670bc99eb540702cef5e7f255ffe278b08dad46c2238429ea73-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c0334af55551d670bc99eb540702cef5e7f255ffe278b08dad46c2238429ea73-image.png)

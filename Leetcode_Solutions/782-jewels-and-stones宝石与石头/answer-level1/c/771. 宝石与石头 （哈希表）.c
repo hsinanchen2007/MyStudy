@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int key;
     int val;
@@ -55,4 +55,4 @@ int numJewelsInStones(char * J, char * S){
     DeleteHashTable(&hashTable);
     return cnt;
 }
-```
+// ```

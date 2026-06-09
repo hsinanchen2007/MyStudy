@@ -1,10 +1,10 @@
-### 运行结果
+// ### 运行结果
 
-![image.png](https://pic.leetcode-cn.com/098c615405d269ba2116eb9ce06a403dcb784a873f8fd9146dcebb02fe4dec48-image.png)
+// ![image.png](https://pic.leetcode-cn.com/098c615405d269ba2116eb9ce06a403dcb784a873f8fd9146dcebb02fe4dec48-image.png)
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn di_string_match(s: String) -> Vec<i32> {
         let len = s.len();
@@ -27,10 +27,10 @@ impl Solution {
         (ans)
     }
 }
-```
+// ```
 
-### 算法复杂度
+// ### 算法复杂度
 
-**空间复杂度：O(n)**
+// **空间复杂度：O(n)**
 
-**时间复杂度：O(n)**
+// **时间复杂度：O(n)**

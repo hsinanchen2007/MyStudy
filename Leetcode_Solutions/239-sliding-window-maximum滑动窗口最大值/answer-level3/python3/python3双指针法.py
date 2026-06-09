@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         i,j=0,k
@@ -10,4 +10,4 @@ class Solution:
             i+=1
             j+=1
         return res
-```
+# ```

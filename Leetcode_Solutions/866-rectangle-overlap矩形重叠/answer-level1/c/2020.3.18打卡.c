@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
     return !(
         rec1[0]>=rec2[2] ||
@@ -12,4 +12,4 @@ bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
         rec1[3]<=rec2[1]     );
    
 }
-```
+// ```

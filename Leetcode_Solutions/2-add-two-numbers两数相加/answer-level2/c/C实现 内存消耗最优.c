@@ -1,11 +1,11 @@
-### 解题思路
-先判断两个链表长度，找到较长的链表；
-将较短链表加到较长链表上，考虑进位；
-只会最多消耗一个节点的内存，内存消耗最优
+// ### 解题思路
+// 先判断两个链表长度，找到较长的链表；
+// 将较短链表加到较长链表上，考虑进位；
+// 只会最多消耗一个节点的内存，内存消耗最优
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -86,4 +86,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
         return l2;
     }
 }
-```
+// ```

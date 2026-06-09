@@ -1,5 +1,5 @@
-出数据的人全家福贵嗷
-```c++
+// 出数据的人全家福贵嗷
+// ```c++
 class Solution {
 public:
   double myPow(double x, int n) {
@@ -15,4 +15,4 @@ public:
     return ret;
   }
 };
-```
+// ```

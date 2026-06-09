@@ -1,6 +1,6 @@
-过于简单了，基本不用过脑子的那种。。练练语法基本功吧
+# 过于简单了，基本不用过脑子的那种。。练练语法基本功吧
 
-```
+# ```
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         if not grid:
@@ -16,4 +16,4 @@ class Solution:
                 if i and j:
                     grid[i][j]+=min(grid[i-1][j],grid[i][j-1])
         return grid[-1][-1]
-```
+# ```

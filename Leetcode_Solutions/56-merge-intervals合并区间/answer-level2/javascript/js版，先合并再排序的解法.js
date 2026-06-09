@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 function merge(intervals) {
     if (!intervals.length) return []
     intervals.sort((a, b) => a[0] - b[0])
@@ -13,4 +13,4 @@ function merge(intervals) {
     }, [intervals[0]])
     return result
 }
-```
+// ```

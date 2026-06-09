@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *   要求O(1)时间复杂度，很自然想到用Map。
 *   所以用双向链表和HashMap解决。
@@ -98,4 +98,4 @@ class LRUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

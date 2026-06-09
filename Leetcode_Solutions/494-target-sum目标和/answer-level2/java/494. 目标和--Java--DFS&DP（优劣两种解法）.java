@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_494_findTargetSumWays.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_494_findTargetSumWays.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 暴力解法：每一位有两种操作（+、-），深度遍历整个数组，得到满足条件的个数，时间复杂度O(2^n) {@link _494_findTargetSumWays#findTargetSumWays1(int[], int)}
@@ -73,4 +73,4 @@
         dfs(nums, S, index + 1, cS - nums[index]);
     }
 
-```
+// ```

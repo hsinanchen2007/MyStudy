@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、取余%比取并集&所耗费时间短
+// ### 解题思路
+// 此处撰写解题思路
+// 1、取余%比取并集&所耗费时间短
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int hammingWeight(uint32_t n) {
     int results = 0;
 
@@ -16,4 +16,4 @@ int hammingWeight(uint32_t n) {
 
     return results;
 }
-```
+// ```

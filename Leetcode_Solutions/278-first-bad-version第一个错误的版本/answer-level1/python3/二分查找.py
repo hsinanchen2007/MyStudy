@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def firstBadVersion(self, n):
         i,j=2,n
@@ -11,4 +11,4 @@ class Solution:
             else:
                 return k
         return 1
-```
+# ```

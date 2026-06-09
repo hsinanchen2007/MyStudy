@@ -1,9 +1,9 @@
-遍历字符串数组, 如果字符不为空格, 则直接追加到数组;
-如果是空格, 追加 “%20”. 
+// 遍历字符串数组, 如果字符不为空格, 则直接追加到数组;
+// 如果是空格, 追加 “%20”. 
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func replaceSpace(_ s: String) -> String {
         if s.isEmpty { return s }
@@ -25,4 +25,4 @@ class Solution {
         return resultString
     }
 }
-```
+// ```

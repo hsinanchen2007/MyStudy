@@ -1,4 +1,4 @@
-   ```
+//    ```
     func repeatedNTimes(_ A: [Int]) -> Int {
     var set = Set<Int>()
     for num in A.enumerated() {
@@ -9,4 +9,4 @@
     }
     return 0
 }
-    ```
+//     ```

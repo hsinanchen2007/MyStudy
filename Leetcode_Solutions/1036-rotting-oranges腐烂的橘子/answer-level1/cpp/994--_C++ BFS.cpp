@@ -1,10 +1,10 @@
-### 解题思路
-广度优先算法（Breadth-First-Search），简称BFS，是一种图形搜索演算法。BFS是从根节点开始，沿着树的宽度遍历树的节点，如果发现目标，则演算终止。
+// ### 解题思路
+// 广度优先算法（Breadth-First-Search），简称BFS，是一种图形搜索演算法。BFS是从根节点开始，沿着树的宽度遍历树的节点，如果发现目标，则演算终止。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
@@ -38,4 +38,4 @@ public:
         return fresh ? -1 : min;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 使用二分搜索，返回恰好小于或等于target的数字下标。
-2. 先对列进行二分，再对行进行二分。
+// ### 解题思路
+// 1. 使用二分搜索，返回恰好小于或等于target的数字下标。
+// 2. 先对列进行二分，再对行进行二分。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         // corner case
@@ -34,4 +34,4 @@ class Solution {
         return binarySearch(nums, target, idx + 1, right);
     }
 }
-```
+// ```

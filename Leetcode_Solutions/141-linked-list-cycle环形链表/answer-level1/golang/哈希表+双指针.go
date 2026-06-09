@@ -1,9 +1,9 @@
-### 解题思路
-哈希表 值存什么就无所谓了（
+// ### 解题思路
+// 哈希表 值存什么就无所谓了（
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -25,14 +25,14 @@ func hasCycle(head *ListNode) bool {
 	}
 	return false
 }
-```
+// ```
 
-### 解题思路
-双指针 慢指针一次走一步 快指针一次走两步
+// ### 解题思路
+// 双指针 慢指针一次走一步 快指针一次走两步
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -55,4 +55,4 @@ func hasCycle(head *ListNode) bool {
 	}
 	return true
 }
-```
+// ```

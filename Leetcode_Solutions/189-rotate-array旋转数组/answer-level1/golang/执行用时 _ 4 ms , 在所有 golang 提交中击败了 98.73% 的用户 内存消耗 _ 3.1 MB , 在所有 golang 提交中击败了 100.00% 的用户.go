@@ -1,4 +1,4 @@
-```
+// ```
 func rotate(nums []int, k int) {
 	numMoveFront:=k%len(nums)
 	// 整体反转数组
@@ -15,8 +15,8 @@ func reverseNums(nums []int) {
 		nums[i], nums[j] = nums[j], nums[i]
 	}
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/2d5231d716a95f6391687075e3f1be68ffa413c43163a414c2094badee7d30dd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2d5231d716a95f6391687075e3f1be68ffa413c43163a414c2094badee7d30dd-image.png)
 
 

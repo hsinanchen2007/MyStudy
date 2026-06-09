@@ -1,13 +1,13 @@
-### 解题思路
-对当前节点计数。画图有助于理解。
+// ### 解题思路
+// 对当前节点计数。画图有助于理解。
 
-### 性能
-执行用时 :16 ms, 在所有 PHP 提交中击败了100.00%的用户
-内存消耗 :18.5 MB, 在所有 PHP 提交中击败了100.00%的用户
+// ### 性能
+// 执行用时 :16 ms, 在所有 PHP 提交中击败了100.00%的用户
+// 内存消耗 :18.5 MB, 在所有 PHP 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -55,7 +55,7 @@ class Solution {
         $this->inorderTraversal($node->right, $pre, $cur_times, $max_times, $res);
     }
 }
-```
+// ```
 
-参考：
-[二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/solution/er-cha-sou-suo-shu-zhong-de-zhong-shu-by-junstat/)
+// 参考：
+// [二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/solution/er-cha-sou-suo-shu-zhong-de-zhong-shu-by-junstat/)

@@ -1,11 +1,11 @@
-### 解题思路
-借鉴github上大神的思路，整理了一下发出来，还有很多不足，欢迎指正
-![微信截图_20200305101122.png](https://pic.leetcode-cn.com/564ecb873e4eb2e2fae424579c713e487e6fd8d0cafe257650b5b6d4caa0c2af-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200305101122.png)
+// ### 解题思路
+// 借鉴github上大神的思路，整理了一下发出来，还有很多不足，欢迎指正
+// ![微信截图_20200305101122.png](https://pic.leetcode-cn.com/564ecb873e4eb2e2fae424579c713e487e6fd8d0cafe257650b5b6d4caa0c2af-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200305101122.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func solveSudoku(board [][]byte)  {
 	// 三个布尔数组 表明 行, 列, 还有 3*3 的方格的数字是否被使用过
@@ -60,4 +60,4 @@ func recall(n int,board [][]byte,rowUsed [9][10]bool,listUsed [9][10]bool,chunkU
 	}
 	return false
 }
-```
+// ```

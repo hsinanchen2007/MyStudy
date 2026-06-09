@@ -1,8 +1,8 @@
-一次就AC还行，只维护一个$2n$的数组，二分查找坐标插入，如果查找出来的坐标为奇数，则说明插入了已有的区间，为偶数才需要修改区间。
+# 一次就AC还行，只维护一个$2n$的数组，二分查找坐标插入，如果查找出来的坐标为奇数，则说明插入了已有的区间，为偶数才需要修改区间。
 
-![image.png](https://pic.leetcode-cn.com/65dcd21406447db41ee4cb5f0912bcff5c8e01da3c15103528e228f0ddb9df97-image.png)
+# ![image.png](https://pic.leetcode-cn.com/65dcd21406447db41ee4cb5f0912bcff5c8e01da3c15103528e228f0ddb9df97-image.png)
 
-```python []
+# ```python []
 class SummaryRanges:
 
     def __init__(self):
@@ -22,4 +22,4 @@ class SummaryRanges:
 
     def getIntervals(self) -> List[List[int]]:
         return zip(self.d[:: 2], self.d[1:: 2])         #按奇偶顺序打包输出
-```
+# ```

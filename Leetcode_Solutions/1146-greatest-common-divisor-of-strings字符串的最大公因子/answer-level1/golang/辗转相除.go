@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func gcdOfStrings(str1 string, str2 string) string {
 	G := gcd(len(str1), len(str2))
 	S := str1[:G]
@@ -31,4 +31,4 @@ func check(s, t string) bool {
 
 	return s == ""
 }
-```
+// ```

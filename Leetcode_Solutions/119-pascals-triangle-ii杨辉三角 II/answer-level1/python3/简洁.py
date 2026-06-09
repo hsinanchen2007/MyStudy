@@ -1,4 +1,4 @@
-```python
+# ```python
 from typing import List
 
 class Solution:
@@ -11,4 +11,4 @@ class Solution:
                 res[j] += pre
                 pre = tmp
         return res
-```
+# ```

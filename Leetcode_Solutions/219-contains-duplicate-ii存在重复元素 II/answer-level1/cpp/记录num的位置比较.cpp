@@ -1,9 +1,9 @@
-### 解题思路
-使用map记录上一个元素的位置，当再次出现时比较差值与k
+// ### 解题思路
+// 使用map记录上一个元素的位置，当再次出现时比较差值与k
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
@@ -16,4 +16,4 @@ public:
         return false;
     }
 };
-```
+// ```

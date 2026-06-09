@@ -1,5 +1,5 @@
-直接一个一个判断，然后累加来的，有点暴力，欢迎评论
-```
+// 直接一个一个判断，然后累加来的，有点暴力，欢迎评论
+// ```
 int romanToInt(char * s){
     int num = 0;
     int increment = 1000;
@@ -67,4 +67,4 @@ int romanToInt(char * s){
     return num;
     
 }
-```
+// ```

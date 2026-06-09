@@ -1,9 +1,9 @@
-### 解题思路
-思路主要是通过检测有无多余一个A，然后将出现了L的序号提取出来，在前后加一个，切片进行比较
+# ### 解题思路
+# 思路主要是通过检测有无多余一个A，然后将出现了L的序号提取出来，在前后加一个，切片进行比较
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def checkRecord(self, s):
         """
@@ -34,4 +34,4 @@ class Solution(object):
         if r == 1:
             return True
                 
-```
+# ```

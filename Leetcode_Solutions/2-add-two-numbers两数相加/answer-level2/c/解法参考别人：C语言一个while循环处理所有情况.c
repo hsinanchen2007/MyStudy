@@ -1,10 +1,10 @@
-### 解题思路
-学习小结：
-使用dummuyhead避免在代码中判断头结点，简化操作，最后有效的头结点是dummyhead的后一个。
+// ### 解题思路
+// 学习小结：
+// 使用dummuyhead避免在代码中判断头结点，简化操作，最后有效的头结点是dummyhead的后一个。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -60,4 +60,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
 }
 
 
-```
+// ```

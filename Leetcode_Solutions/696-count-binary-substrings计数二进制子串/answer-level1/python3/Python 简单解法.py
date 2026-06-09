@@ -1,9 +1,9 @@
-### 思路：
-1、计算当前这个与前面字符是否相同，并记录个数，curLen
-2、when当前的字符与前面的字符不相同时，将前面字符的个数保存,preLen
-3、当preLen>=curLen时，说明存在01和0011这两种情况中的一种，所以个数count=1
-### 代码
-```
+# ### 思路：
+# 1、计算当前这个与前面字符是否相同，并记录个数，curLen
+# 2、when当前的字符与前面的字符不相同时，将前面字符的个数保存,preLen
+# 3、当preLen>=curLen时，说明存在01和0011这两种情况中的一种，所以个数count=1
+# ### 代码
+# ```
 class Solution:
     def countBinarySubstrings(self, s: str) -> int:
          n = len(s)
@@ -25,4 +25,4 @@ class Solution:
                 count+=1
                 
          return count
-```
+# ```

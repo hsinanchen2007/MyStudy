@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     Node* flatten(Node* head) {
@@ -47,4 +47,4 @@ public:
         return head;
     }
 };
-```
+// ```

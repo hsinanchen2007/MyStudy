@@ -1,16 +1,16 @@
-### 解题思路
-**算法实现的核心过程：**
-1. 设置数据（引用计数设为1）
-    1. key不存在
-        - 未满，在队列末尾插入数据
-        - 已满，淘汰末尾数据
-    1. key存在，更新对应值（注意这边也要将其引用数设为1，我之前因为没有设为1，由一组数据过不去）
-2. 获取数据
-队列中数据被访问后，其引用计数先增加，之后将其移到比它大的后面，比它小或等于的前面
+// ### 解题思路
+// **算法实现的核心过程：**
+// 1. 设置数据（引用计数设为1）
+//     1. key不存在
+//         - 未满，在队列末尾插入数据
+//         - 已满，淘汰末尾数据
+//     1. key存在，更新对应值（注意这边也要将其引用数设为1，我之前因为没有设为1，由一组数据过不去）
+// 2. 获取数据
+// 队列中数据被访问后，其引用计数先增加，之后将其移到比它大的后面，比它小或等于的前面
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type LFUCache struct {
 	qm map[int][3]int	// key => val, 引用次数, 伪时间戳
 	t int				// 伪时间戳
@@ -77,6 +77,6 @@ func (this *LFUCache)exist(key int) bool {
  * param_1 := obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```
 
-[leetcode-golang](https://github.com/laijinhang/leetcode-golang)
+// [leetcode-golang](https://github.com/laijinhang/leetcode-golang)

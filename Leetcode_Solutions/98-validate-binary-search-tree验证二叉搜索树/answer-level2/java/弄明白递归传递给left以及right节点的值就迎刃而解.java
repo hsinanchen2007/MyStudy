@@ -1,11 +1,11 @@
-### 解题思路
-这个题目主要是需要研究明白递归时，传递给left以及right的变量，总体的规则就是
-node=left upper=self lower=lower
-node=right upper=upper lower=self
+// ### 解题思路
+// 这个题目主要是需要研究明白递归时，传递给left以及right的变量，总体的规则就是
+// node=left upper=self lower=lower
+// node=right upper=upper lower=self
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

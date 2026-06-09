@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn moving_count(m: i32, n: i32, k: i32) -> i32 {
         let (mut count, mut matrix) = (0, vec![vec![0;n as usize];m as usize]);
@@ -41,4 +41,4 @@ impl Solution {
         sum
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 double findMedianSortedArrays(int *nums1, int nums1Size, int *nums2, int nums2Size) {
     if ((nums1Size + nums2Size) % 2 == 0) {
         int fig = (nums1Size + nums2Size) / 2;
@@ -78,4 +78,4 @@ double findMedianSortedArrays(int *nums1, int nums1Size, int *nums2, int nums2Si
         return num2;
     }
 }
-```
+// ```

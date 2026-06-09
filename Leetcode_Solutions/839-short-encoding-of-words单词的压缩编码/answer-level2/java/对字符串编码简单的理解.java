@@ -1,6 +1,6 @@
-**算法思想**
-    先将字符串数组排序，将长的字符串放前面，短的放后面，长的会先添加，短的判断添加过的字符串是否包含了这个短的字符串，若包含，则进行添加下一个。
-```
+// **算法思想**
+//     先将字符串数组排序，将长的字符串放前面，短的放后面，长的会先添加，短的判断添加过的字符串是否包含了这个短的字符串，若包含，则进行添加下一个。
+// ```
 class Solution {
 public int minimumLengthEncoding(String[] words) {
         String[] words2 =  Arrays.stream(words).sorted(new Comparator<String>() {
@@ -33,4 +33,4 @@ public int minimumLengthEncoding(String[] words) {
 
     }
 }
-```
+// ```

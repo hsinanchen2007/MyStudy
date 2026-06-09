@@ -1,8 +1,8 @@
 
-1：BFS 方法,性能比较好：
-![image.png](https://pic.leetcode-cn.com/80444fa28a76e9503e6bd76ce388a3704fdbbfa6cb4a4b235bbb90307141e9db-image.png)
+// 1：BFS 方法,性能比较好：
+// ![image.png](https://pic.leetcode-cn.com/80444fa28a76e9503e6bd76ce388a3704fdbbfa6cb4a4b235bbb90307141e9db-image.png)
 
-```
+// ```
 #define MIN(a, b) (((a) > (b)) ? (b) : (a))
 #define MAX_FLIGHT_NUM 100
 int RefreshNextPathPrice(int startpos, int flightMatrix[MAX_FLIGHT_NUM][MAX_FLIGHT_NUM],
@@ -66,10 +66,10 @@ int findCheapestPrice(int n, int** flights, int flightsSize, int* flightsColSize
 
     return minTotalPrice == 0 ? -1 : minTotalPrice;
 }
-```
-2: DFS 方法
+// ```
+// 2: DFS 方法
 
-```
+// ```
 #define MIN(a, b) (((a) > (b)) ? (b) : (a))
 #define MAX_FLIGHT_NUM 100
 int RefreshPathPrice(int startpos, int flightMatrix[MAX_FLIGHT_NUM ][MAX_FLIGHT_NUM ],  
@@ -122,4 +122,4 @@ int findCheapestPrice(int n, int** flights, int flightsSize, int* flightsColSize
 
     return minTotalPrice == 0 ? -1 : minTotalPrice;
 }
-```
+// ```

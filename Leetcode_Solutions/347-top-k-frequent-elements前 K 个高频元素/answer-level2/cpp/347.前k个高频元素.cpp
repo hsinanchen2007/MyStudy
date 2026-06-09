@@ -1,10 +1,10 @@
-### 解题思路
-先遍历，以nums里面的值为key,次数为 value，构建哈希表。
-然后维护一个小顶堆，插入后取出来逆序。
+// ### 解题思路
+// 先遍历，以nums里面的值为key,次数为 value，构建哈希表。
+// 然后维护一个小顶堆，插入后取出来逆序。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <queue>
 #include <map>
 class Solution {
@@ -58,4 +58,4 @@ public:
         return output;
     }
 };
-```
+// ```

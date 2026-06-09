@@ -1,9 +1,9 @@
-### 方法一:
-先找到峰頂，再向左右查找，其優點為思路簡單，撰寫容易。
+// ### 方法一:
+// 先找到峰頂，再向左右查找，其優點為思路簡單，撰寫容易。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestMountain(int[] A) {
         if(A==null||A.length<3) return 0;
@@ -20,13 +20,13 @@ class Solution {
         return max;
     }
 }
-```
+// ```
 
-### 方法二:
-以 while 迴圈 由左向右持續檢視陣列中的點，在每次迴圈操作中，以完成辨識一座山(一個主題)為目標。
-若成功辨識一座山，則計算山長，保留山長最大值。
+// ### 方法二:
+// 以 while 迴圈 由左向右持續檢視陣列中的點，在每次迴圈操作中，以完成辨識一座山(一個主題)為目標。
+// 若成功辨識一座山，則計算山長，保留山長最大值。
 
-```java
+// ```java
 class Solution {
     public int longestMountain(int[] A) {
         if(A==null||A.length<3) return 0;
@@ -50,4 +50,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

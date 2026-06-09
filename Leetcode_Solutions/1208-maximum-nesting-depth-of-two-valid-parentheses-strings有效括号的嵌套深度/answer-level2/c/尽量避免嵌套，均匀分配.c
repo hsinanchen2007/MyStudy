@@ -1,10 +1,10 @@
-### 解题思路
-尽量避免嵌套。
-所以维护一个0的左括号数量、1的左括号数量，两者尽量轮流来。
+// ### 解题思路
+// 尽量避免嵌套。
+// 所以维护一个0的左括号数量、1的左括号数量，两者尽量轮流来。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -59,4 +59,4 @@ int* maxDepthAfterSplit(char * seq, int* returnSize){
     *returnSize = len;
     return ans;
 }
-```
+// ```

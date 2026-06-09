@@ -1,11 +1,11 @@
-### 解题思路
-origin存放 appendTail 的数据
-mirror中存放需要pop的数据，仅当mirror为空时才可以从origin pop并插入，结束后从mirror中pop出数据
+// ### 解题思路
+// origin存放 appendTail 的数据
+// mirror中存放需要pop的数据，仅当mirror为空时才可以从origin pop并插入，结束后从mirror中pop出数据
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CQueue {
     private Stack<Integer> origin  = new Stack<>() ;
     private Stack<Integer> mirror  = new Stack<>() ;
@@ -35,4 +35,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

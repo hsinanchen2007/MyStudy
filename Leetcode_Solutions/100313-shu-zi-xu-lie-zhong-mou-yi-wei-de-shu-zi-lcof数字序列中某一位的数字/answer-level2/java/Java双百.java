@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/6299731bb38137204acc23676e076a671cec93e2e544b1e658e150765920bf20-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6299731bb38137204acc23676e076a671cec93e2e544b1e658e150765920bf20-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findNthDigit(int n) {
         if (n < 10) return n;
@@ -19,4 +19,4 @@ class Solution {
         return String.valueOf(num).charAt(n % temp) - '0';
     }
 }
-```
+// ```

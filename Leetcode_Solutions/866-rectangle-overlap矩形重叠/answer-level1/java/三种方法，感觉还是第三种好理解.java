@@ -1,35 +1,35 @@
-### 解题思路
+// ### 解题思路
 
-### 主要讲一下，第三种判断重叠时的取值范围
+// ### 主要讲一下，第三种判断重叠时的取值范围
 
-*若两个矩形相交，则rec2取值范围中必须和rec1的取值范围有交集*
-![图片.png](https://pic.leetcode-cn.com/0e127d86dc073dc152c75848f6b349fdb23288e5f979eae9e61bee2b0c5f5049-%E5%9B%BE%E7%89%87.png)
+// *若两个矩形相交，则rec2取值范围中必须和rec1的取值范围有交集*
+// ![图片.png](https://pic.leetcode-cn.com/0e127d86dc073dc152c75848f6b349fdb23288e5f979eae9e61bee2b0c5f5049-%E5%9B%BE%E7%89%87.png)
 
-*rec1 X取值范围rec1[0]--->rec1[2] Y取值范围rec1[1]--->rec1[3] 
-rec2 X取值范围rec2[0]--->rec2[2] Y取值范围rec2[1]--->rec2[3]*
+// *rec1 X取值范围rec1[0]--->rec1[2] Y取值范围rec1[1]--->rec1[3] 
+// rec2 X取值范围rec2[0]--->rec2[2] Y取值范围rec2[1]--->rec2[3]*
 
-#### rec2的X取值范围必须要和rec1X的取值范围有交集，也可以是说是rec2的X取值范围不能落在rec1的X取值范围左右两侧
-![图片.png](https://pic.leetcode-cn.com/ef361d6620cad352967ac70faf182cacc072d35cd5980b1675fb67b2f9a4ba03-%E5%9B%BE%E7%89%87.png)
-
-
-其中rec2 Xmax对应rec2[2],rec2 Xmin对应rec2[0],rec1 Xmax对应rec1[2],rec2 Xmin对应rec1[0]
-可表示为 !(rec2[0]>=rec1[2]||rec2[2]<=rec1[0])
+// #### rec2的X取值范围必须要和rec1X的取值范围有交集，也可以是说是rec2的X取值范围不能落在rec1的X取值范围左右两侧
+// ![图片.png](https://pic.leetcode-cn.com/ef361d6620cad352967ac70faf182cacc072d35cd5980b1675fb67b2f9a4ba03-%E5%9B%BE%E7%89%87.png)
 
 
-#### 同理rec2的Y取值范围必须要和rec1的Y取值范围有交集,也可以是说是rec2的Y取值范围不能落在rec1的Y取值范围上下两侧
-
-可表示为 !(rec2[1]>=rec1[3]||rec2[3]<=rec1[1])
-
-两个条件必须同时满足，所有得到
-return (!(rec2[0]>=rec1[2]||rec2[2]<=rec1[0]))&&(!(rec2[1]>=rec1[3]||rec2[3]<=rec1[1]));
-简化一下即
-return rec2[0]<rec1[2]&&rec2[2]>rec1[0]&&rec2[1]<rec1[3]&&rec2[3]>rec1[1];
+// 其中rec2 Xmax对应rec2[2],rec2 Xmin对应rec2[0],rec1 Xmax对应rec1[2],rec2 Xmin对应rec1[0]
+// 可表示为 !(rec2[0]>=rec1[2]||rec2[2]<=rec1[0])
 
 
+// #### 同理rec2的Y取值范围必须要和rec1的Y取值范围有交集,也可以是说是rec2的Y取值范围不能落在rec1的Y取值范围上下两侧
 
-### 代码
+// 可表示为 !(rec2[1]>=rec1[3]||rec2[3]<=rec1[1])
 
-```java
+// 两个条件必须同时满足，所有得到
+// return (!(rec2[0]>=rec1[2]||rec2[2]<=rec1[0]))&&(!(rec2[1]>=rec1[3]||rec2[3]<=rec1[1]));
+// 简化一下即
+// return rec2[0]<rec1[2]&&rec2[2]>rec1[0]&&rec2[1]<rec1[3]&&rec2[3]>rec1[1];
+
+
+
+// ### 代码
+
+// ```java
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         return cal3(rec1,rec2);
@@ -108,4 +108,4 @@ class Solution {
 
 
 }
-```
+// ```

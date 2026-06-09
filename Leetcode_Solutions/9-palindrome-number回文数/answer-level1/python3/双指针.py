@@ -1,9 +1,9 @@
-### 解题思路
-双指针，时间复杂度O(n)
+# ### 解题思路
+# 双指针，时间复杂度O(n)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isPalindrome(self, x):
         """
@@ -32,4 +32,4 @@ class Solution(object):
 
                 
 
-```
+# ```

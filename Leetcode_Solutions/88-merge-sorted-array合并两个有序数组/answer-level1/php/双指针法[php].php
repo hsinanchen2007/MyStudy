@@ -1,9 +1,9 @@
-### 解题思路
-官方题解第2个
+// ### 解题思路
+// 官方题解第2个
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -28,4 +28,4 @@ class Solution {
         $nums1 = array_slice($nums1,0,$m+$n);
     }
 }
-```
+// ```

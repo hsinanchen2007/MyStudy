@@ -1,6 +1,6 @@
-### 递归
-思路：左右子树同时为True才为True, 递归终点：当前节点为None。代码如下：
-```
+# ### 递归
+# 思路：左右子树同时为True才为True, 递归终点：当前节点为None。代码如下：
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -21,15 +21,15 @@ class Solution:
                 return False
             else:
                 return self.isUnivalTree(root.left) and self.isUnivalTree(root.right)
-```
-#### 复杂度分析
-__时间复杂度__: O(n)，每个值访问一遍
+# ```
+# #### 复杂度分析
+# __时间复杂度__: O(n)，每个值访问一遍
 
-__空间复杂度__: 平衡树O(log(n))，非平衡树O(n)
+# __空间复杂度__: 平衡树O(log(n))，非平衡树O(n)
 
-### 迭代
-思路就是用一个栈存储起来，在一个个的判断，代码如下：
-```
+# ### 迭代
+# 思路就是用一个栈存储起来，在一个个的判断，代码如下：
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -50,7 +50,7 @@ class Solution:
                 stack.append(tmp.right)
         return True
         
-```
-#### 复杂度分析
+# ```
+# #### 复杂度分析
 
-都是O（n）,目前来看，好像是比set快一点的
+# 都是O（n）,目前来看，好像是比set快一点的

@@ -1,5 +1,5 @@
-其实就是轮流把括号分配给A和B
-```
+// 其实就是轮流把括号分配给A和B
+// ```
 func maxDepthAfterSplit(seq string) []int {
     l, r := 0, 0
     ret := make([]int, len(seq))
@@ -14,4 +14,4 @@ func maxDepthAfterSplit(seq string) []int {
     }
     return ret
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_SIZE (100)
 
 char g_nums[MAX_SIZE];
@@ -41,4 +41,4 @@ int maximumSwap(int num)
     ret = atoi(g_nums);
     return ret;
 }
-```
+// ```

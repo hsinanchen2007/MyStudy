@@ -1,9 +1,9 @@
-### 解题思路
-遍历进行查找
+// ### 解题思路
+// 遍历进行查找
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -27,4 +27,4 @@ var repeatedSubstringPattern = function(s) {
   }
   return false;
 };
-```
+// ```

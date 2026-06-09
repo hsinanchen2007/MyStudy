@@ -1,8 +1,8 @@
-# 思路：
-利用双栈，区分push和pop的情况
+// # 思路：
+// 利用双栈，区分push和pop的情况
 
-# 代码：
-```
+// # 代码：
+// ```
 
 #define max 100
 
@@ -76,5 +76,5 @@ void myQueueFree(MyQueue* obj) {
  
  * myQueueFree(obj);
 */
-```
+// ```
 

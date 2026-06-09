@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/2af6dc26b45d250ac225681e5fe40d7b2737f725d79a3052dea19ba0f789a681-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2af6dc26b45d250ac225681e5fe40d7b2737f725d79a3052dea19ba0f789a681-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   从每一个是陆地的网格向四周进行 dfs，直到遇到边界停止，记为一个岛屿
   标记一下遍历过的陆地就不要再次遍历了，否则会造成重复(把遍历过的陆地标记为0就好了)
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} grid
  * @return {number}
@@ -53,4 +53,4 @@ var numIslands = function(grid) {
   
   return count;
 };
-```
+// ```

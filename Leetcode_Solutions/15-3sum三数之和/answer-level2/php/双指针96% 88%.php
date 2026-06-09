@@ -1,9 +1,9 @@
-### 解题思路
-双指针咻咻咻，严重感谢[@guanpengchn](/u/guanpengchn/)的不吝赐教
+// ### 解题思路
+// 双指针咻咻咻，严重感谢[@guanpengchn](/u/guanpengchn/)的不吝赐教
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -53,4 +53,4 @@ class Solution {
 
     }
 }
-```
+// ```

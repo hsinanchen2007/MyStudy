@@ -1,7 +1,7 @@
-## 思路
-向下递归中不断递减目标和，当遇到叶子节点时判断减去之和是否等于0。
-### 代码
-```c++
+// ## 思路
+// 向下递归中不断递减目标和，当遇到叶子节点时判断减去之和是否等于0。
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool hasPathSum(TreeNode* root, int sum) {
@@ -14,10 +14,10 @@ public:
         return hasPathSum(root->left, sum-root->val) || hasPathSum(root->right, sum-root->val);
     }
 };
-```
-#### 另一种写法
-不断累加和
-```c++
+// ```
+// #### 另一种写法
+// 不断累加和
+// ```c++
 class Solution {
 public:
     bool hasPathSum(TreeNode* root, int sum) {
@@ -41,5 +41,5 @@ public:
         return left || right;
     }
 };
-```
+// ```
 

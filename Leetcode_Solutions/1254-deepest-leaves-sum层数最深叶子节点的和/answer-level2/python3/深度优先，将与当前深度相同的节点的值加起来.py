@@ -1,15 +1,15 @@
-执行用时 :160 ms, 在所有 python3 提交中击败了100.00%的用户
-内存消耗 :14.6 MB, 在所有 python3 提交中击败了100.00%的用户
+# 执行用时 :160 ms, 在所有 python3 提交中击败了100.00%的用户
+# 内存消耗 :14.6 MB, 在所有 python3 提交中击败了100.00%的用户
 
-### 解题思路
-深度优先：
-1. 设置dep变量来记录当前的深度；
-2. 将节点的值按照dep键存放；
-3. 返回键值最大的那个数。
+# ### 解题思路
+# 深度优先：
+# 1. 设置dep变量来记录当前的深度；
+# 2. 将节点的值按照dep键存放；
+# 3. 返回键值最大的那个数。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -43,4 +43,4 @@ class Solution:
                 dep -= 1
                 stack.pop()
         return sum[max(sum)]
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历+记忆
+// ### 解题思路
+// 遍历+记忆
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func majorityElement(_ nums: [Int]) -> Int {
         var memo = [Int]() // 记录已经遍历过的数
@@ -28,4 +28,4 @@ class Solution {
         return maxNum
     }
 }
-```
+// ```

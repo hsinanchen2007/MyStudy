@@ -1,4 +1,4 @@
-```python
+# ```python
 def isToeplitzMatrix(matrix):
     m, n = len(matrix), len(matrix[0])
     for i in range(m - 2, -1, -1):
@@ -19,4 +19,4 @@ def isToeplitzMatrix(matrix):
 
 matrix = [[1,2,3,4],[5,1,2,3],[9,5,1,2]]
 print(isToeplitzMatrix(matrix))
-```
+# ```

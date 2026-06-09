@@ -1,8 +1,8 @@
-    //从右上角开始查找
-    //比target大往左走
-    //比target小往下走
-    //等于target返回true
-    //走出去了都没找到返回false
+//     //从右上角开始查找
+//     //比target大往左走
+//     //比target小往下走
+//     //等于target返回true
+//     //走出去了都没找到返回false
 
     class Solution {
         public boolean findNumberIn2DArray(int[][] matrix, int target) {

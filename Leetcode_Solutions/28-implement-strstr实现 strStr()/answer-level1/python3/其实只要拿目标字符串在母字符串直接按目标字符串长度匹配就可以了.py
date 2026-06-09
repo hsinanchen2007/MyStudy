@@ -1,4 +1,4 @@
-```
+# ```
 def strStr(haystack, needle):
     if not needle:
         return 0
@@ -12,4 +12,4 @@ def strStr(haystack, needle):
         if i == length1-length and haystack[i:i + length] != needle:
             return -1
 
-```
+# ```

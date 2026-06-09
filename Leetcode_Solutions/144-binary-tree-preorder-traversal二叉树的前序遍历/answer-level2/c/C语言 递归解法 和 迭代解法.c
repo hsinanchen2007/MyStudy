@@ -1,9 +1,9 @@
-### 解题思路
-两种都在代码里了
+// ### 解题思路
+// 两种都在代码里了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -58,4 +58,4 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
     free(stack);
     return res;
 }
-```
+// ```

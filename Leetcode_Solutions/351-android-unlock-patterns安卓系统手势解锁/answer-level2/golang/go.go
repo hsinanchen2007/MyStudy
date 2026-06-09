@@ -1,4 +1,4 @@
-```
+// ```
 func cal(m,n int, u,i0,j0 uint)int {
      if 0==n {
         return 1
@@ -22,4 +22,4 @@ func cal(m,n int, u,i0,j0 uint)int {
 func numberOfPatterns(m int, n int) int {
     return cal(m, n, 0, 1, 1)
 }
-```
+// ```

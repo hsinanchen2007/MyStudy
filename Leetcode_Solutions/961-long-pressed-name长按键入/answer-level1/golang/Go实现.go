@@ -1,4 +1,4 @@
-```
+// ```
 func isLongPressedName(name string, typed string) bool {
         i, j := 0, 0
         for i < len(name) && j < len(typed){
@@ -22,6 +22,6 @@ func isLongPressedName(name string, typed string) bool {
     return true
     
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/1b37742f4ec6eaf624f470570bd9fbe39bf5e349830e2c1b37f7d1c02240b182-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1b37742f4ec6eaf624f470570bd9fbe39bf5e349830e2c1b37f7d1c02240b182-image.png)

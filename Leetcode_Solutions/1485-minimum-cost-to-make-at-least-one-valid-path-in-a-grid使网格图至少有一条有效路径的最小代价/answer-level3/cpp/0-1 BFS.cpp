@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-单源最小路径，边权值可以是0或者1，时间复杂度 O(E)。
-参考了 [@wnjxyk](/u/wnjxyk/) 的[题解](https://leetcode-cn.com/circle/discuss/y0Hu6V/view/Vf82NM/)。
+// 单源最小路径，边权值可以是0或者1，时间复杂度 O(E)。
+// 参考了 [@wnjxyk](/u/wnjxyk/) 的[题解](https://leetcode-cn.com/circle/discuss/y0Hu6V/view/Vf82NM/)。
 
-1. 因为同一节点可能多次松弛，所以不需要 Visited记录访问过的节点；
-2. 因为最终松弛条件不满足了，所以不会无限次重复访问节点。
+// 1. 因为同一节点可能多次松弛，所以不需要 Visited记录访问过的节点；
+// 2. 因为最终松弛条件不满足了，所以不会无限次重复访问节点。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     int dir[4][2] = {
@@ -58,4 +58,4 @@ public:
         return dp[m-1][n-1];
     }
 };
-```
+// ```

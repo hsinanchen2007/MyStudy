@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         if(numbers.length==0)
@@ -18,4 +18,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

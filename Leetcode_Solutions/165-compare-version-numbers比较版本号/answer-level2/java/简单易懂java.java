@@ -1,9 +1,9 @@
-### 解题思路
-分割字符串，从前到后比较，考虑特殊情况
+// ### 解题思路
+// 分割字符串，从前到后比较，考虑特殊情况
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int compareVersion(String version1, String version2) {
         String[] v1=version1.split("\\.");
@@ -36,4 +36,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

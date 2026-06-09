@@ -1,6 +1,6 @@
-思路：设置plus标志表示进位，然后记录两个字符串的最后一位索引，进行反向遍历，然后把所有情况判断一下。
-代码有点傻-、-！
-```
+# 思路：设置plus标志表示进位，然后记录两个字符串的最后一位索引，进行反向遍历，然后把所有情况判断一下。
+# 代码有点傻-、-！
+# ```
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         plus = False
@@ -67,4 +67,4 @@ class Solution:
         if plus:
             res = '1' + res
         return res
-```
+# ```

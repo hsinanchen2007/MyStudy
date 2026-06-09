@@ -1,4 +1,4 @@
-```
+// ```
 //转移前后的区别 转移前：i j 转制后：j col-1-i
 
 class Solution {
@@ -18,4 +18,4 @@ class Solution {
         }
     }
 }
-```
+// ```

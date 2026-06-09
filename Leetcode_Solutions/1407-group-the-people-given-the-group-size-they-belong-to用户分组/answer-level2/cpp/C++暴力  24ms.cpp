@@ -1,7 +1,7 @@
-**很简单的做法，就是用buff存放下标，根据数组里面的下标是否满足，存入到resr**
-*需要注意的就是每次加入之后需要跳出循环*
+// **很简单的做法，就是用buff存放下标，根据数组里面的下标是否满足，存入到resr**
+// *需要注意的就是每次加入之后需要跳出循环*
 
-```
+// ```
 class Solution {
 public:
 	vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
@@ -50,4 +50,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

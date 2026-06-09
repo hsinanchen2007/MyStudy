@@ -1,18 +1,18 @@
-### 解题思路
+// ### 解题思路
 
-首先遍历一遍，目的有两个
+// 首先遍历一遍，目的有两个
 
-- 将腐烂的橘子的坐标找出来
-- 记录新鲜橘子的数量
+// - 将腐烂的橘子的坐标找出来
+// - 记录新鲜橘子的数量
 
-然后进行广搜，初始量是腐烂的橘子。
-每搜一层，时间加一。知道都搜索完。
+// 然后进行广搜，初始量是腐烂的橘子。
+// 每搜一层，时间加一。知道都搜索完。
 
-如果最后新鲜橘子还有，就返回 -1 。否则返回时间
+// 如果最后新鲜橘子还有，就返回 -1 。否则返回时间
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -50,11 +50,11 @@ var orangesRotting = function(grid) {
   }
   return freshNum === 0 ? (ans < 0 ? 0 : ans) : -1
 };
-```
+// ```
 
-### typescript
+// ### typescript
 
-```typescript
+// ```typescript
 const orangesRotting = function(grid: number[][]): number {
   if (grid.length === 0) return 0
   const helperQueue: [number, number][] = []
@@ -88,4 +88,4 @@ const orangesRotting = function(grid: number[][]): number {
   }
   return freshNum === 0 ? (ans < 0 ? 0 : ans) : -1
 }
-```
+// ```

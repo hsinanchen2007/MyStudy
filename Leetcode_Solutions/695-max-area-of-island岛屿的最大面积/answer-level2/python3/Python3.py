@@ -1,11 +1,11 @@
-### 解题思路
-1. bfs
-2. dfs
-3. 并查集
+# ### 解题思路
+# 1. bfs
+# 2. dfs
+# 3. 并查集
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
@@ -34,4 +34,4 @@ class Solution:
                     visit[i][j] = True
                     area = max(area, bfs(i, j))
         return area
-```
+# ```

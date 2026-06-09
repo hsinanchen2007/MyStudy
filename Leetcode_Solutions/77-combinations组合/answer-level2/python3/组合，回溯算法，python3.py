@@ -1,9 +1,9 @@
-### 解题思路
-回溯算法都长得差不多
+# ### 解题思路
+# 回溯算法都长得差不多
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         def backtrack(N, K, temp):
@@ -15,4 +15,4 @@ class Solution:
         res = []
         backtrack(1, k, [])
         return res
-```
+# ```

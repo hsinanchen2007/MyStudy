@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isAnagram(String s, String t) {
         HashMap <Character, Integer> hm = new HashMap ();
@@ -15,4 +15,4 @@ class Solution {
         else return false;
     }
 }
-```
+// ```

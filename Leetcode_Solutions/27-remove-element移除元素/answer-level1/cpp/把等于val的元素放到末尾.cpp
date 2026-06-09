@@ -1,9 +1,9 @@
-### 解题思路
-把等于val的元素放（交换）到末尾
+// ### 解题思路
+// 把等于val的元素放（交换）到末尾
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void swap(int& i, int& j)
@@ -46,4 +46,4 @@ public:
         return newlen;
     }
 };
-```
+// ```

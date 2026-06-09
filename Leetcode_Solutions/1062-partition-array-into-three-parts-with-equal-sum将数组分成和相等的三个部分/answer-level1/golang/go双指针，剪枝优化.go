@@ -1,10 +1,10 @@
-### 解题思路
-双指针法。从头到尾，从尾到头，先要算出3等分的值，再进行遍历
-一个优化点是左边遍历结束如果不满足等于1/3 直接返回false
+// ### 解题思路
+// 双指针法。从头到尾，从尾到头，先要算出3等分的值，再进行遍历
+// 一个优化点是左边遍历结束如果不满足等于1/3 直接返回false
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canThreePartsEqualSum(A []int) bool {
 var sum int = 0
 for _,val :=range A{
@@ -43,4 +43,4 @@ if right>left+1 {
 }
 return false
 }
-```
+// ```

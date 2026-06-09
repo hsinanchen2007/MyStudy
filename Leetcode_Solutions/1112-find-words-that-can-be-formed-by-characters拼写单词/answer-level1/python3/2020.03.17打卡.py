@@ -1,9 +1,9 @@
-### 解题思路
-每个词汇依次判断，能否由字母表拼写成功。
+# ### 解题思路
+# 每个词汇依次判断，能否由字母表拼写成功。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         ans = 0
@@ -22,4 +22,4 @@ class Solution:
                 
 
 
-```
+# ```

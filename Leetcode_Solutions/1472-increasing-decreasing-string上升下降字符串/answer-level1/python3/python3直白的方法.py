@@ -1,9 +1,9 @@
-此方法内存占用少，但是时间复杂度高
-1、把s变成list类型
-2、将s去重排序
-3、取去重排序后的s_uniq进行遍历，然后去对比s_list中的元素
-4、如果相同删掉s_list中的，并加入result中
-```
+# 此方法内存占用少，但是时间复杂度高
+# 1、把s变成list类型
+# 2、将s去重排序
+# 3、取去重排序后的s_uniq进行遍历，然后去对比s_list中的元素
+# 4、如果相同删掉s_list中的，并加入result中
+# ```
 class Solution:
     def sortString(self, s: str) -> str:
         result = ""
@@ -29,4 +29,4 @@ class Solution:
                     else:
                         i += 1
         return result
-```
+# ```

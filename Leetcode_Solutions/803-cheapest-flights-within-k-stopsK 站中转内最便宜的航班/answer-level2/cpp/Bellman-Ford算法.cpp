@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-松弛 K+1 轮。
+// 松弛 K+1 轮。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findCheapestPrice(int n, vector<vector<int>>& flights, int src, int dst, int K) {
@@ -27,4 +27,4 @@ public:
         return dis[dst] == INT_MAX ? -1 : dis[dst];
     }
 };
-```
+// ```

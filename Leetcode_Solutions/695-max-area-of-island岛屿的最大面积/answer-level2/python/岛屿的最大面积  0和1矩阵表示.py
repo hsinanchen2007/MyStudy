@@ -1,20 +1,20 @@
-### 解题思路
-1. 题意非常容易理解，思路也很好规划，但是还是用了40分钟
-    - 真正思考并敲代码时间也就15分钟，而是用来25分钟进行代码调试
-    - 错误，异常
-        - TimeOut(visit[i][j] 设置true时机错误，思考良久)； 
-        - 仍然TimeOut，主函数有一个二的continue,造成i和j 不增加了，**这就while的坑，不能轻易continue...，若是遍历元素强烈建议能用for i,val in enumerate() 就用for**
-        -  主函数没有return (运行结果None); 
+# ### 解题思路
+# 1. 题意非常容易理解，思路也很好规划，但是还是用了40分钟
+#     - 真正思考并敲代码时间也就15分钟，而是用来25分钟进行代码调试
+#     - 错误，异常
+#         - TimeOut(visit[i][j] 设置true时机错误，思考良久)； 
+#         - 仍然TimeOut，主函数有一个二的continue,造成i和j 不增加了，**这就while的坑，不能轻易continue...，若是遍历元素强烈建议能用for i,val in enumerate() 就用for**
+#         -  主函数没有return (运行结果None); 
 
 
 
 
 
 
-### 代码
+# ### 代码
 
-#### 第二次书写的代码：
-```
+# #### 第二次书写的代码：
+# ```
 # python3
 from queue import Queue
 class Solution:
@@ -54,11 +54,11 @@ class Solution:
                     pass 
         
         return res 
-```
+# ```
 
-#### 第一次写的代码
+# #### 第一次写的代码
 
-```python3
+# ```python3
 from queue import Queue
 class Solution:
     def __init__(self):
@@ -113,4 +113,4 @@ class Solution:
         
         return cur 
 
-```
+# ```

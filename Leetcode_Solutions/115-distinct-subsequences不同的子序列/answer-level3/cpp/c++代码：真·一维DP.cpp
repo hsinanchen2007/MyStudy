@@ -1,8 +1,8 @@
-![捕获.PNG](https://pic.leetcode-cn.com/4788195432f1a95736ac203fa22617f76d92261e3f26c05f9a5ceb543003fe6e-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/4788195432f1a95736ac203fa22617f76d92261e3f26c05f9a5ceb543003fe6e-%E6%8D%95%E8%8E%B7.PNG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numDistinct(string s, string t) {
@@ -21,7 +21,7 @@ public:
         return dp[n];
     }
 };
-```
+// ```
 
-### 解题思路
-观察状态转移方程就可以得出
+// ### 解题思路
+// 观察状态转移方程就可以得出

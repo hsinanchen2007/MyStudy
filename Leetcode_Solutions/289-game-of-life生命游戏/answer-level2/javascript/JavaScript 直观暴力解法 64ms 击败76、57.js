@@ -1,9 +1,9 @@
-### 解题思路
-此方法复杂度还是太高，逻辑还算清晰，关于数组解法可以考虑位运算
+// ### 解题思路
+// 此方法复杂度还是太高，逻辑还算清晰，关于数组解法可以考虑位运算
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -90,4 +90,4 @@ const isValid = (i, j, row, column) => {
     }
     return true;
 }
-```
+// ```

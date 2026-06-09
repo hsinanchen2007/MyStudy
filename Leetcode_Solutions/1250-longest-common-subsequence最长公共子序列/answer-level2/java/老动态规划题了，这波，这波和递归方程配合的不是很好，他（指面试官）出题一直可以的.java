@@ -1,15 +1,15 @@
-### 解题思路
-![QQ截图20200315215937.png](https://pic.leetcode-cn.com/88ddbdf6ca5565f24c834d3899e89029c96c741d90a0ca13cc3c40c827b6f859-QQ%E6%88%AA%E5%9B%BE20200315215937.png)
+// ### 解题思路
+// ![QQ截图20200315215937.png](https://pic.leetcode-cn.com/88ddbdf6ca5565f24c834d3899e89029c96c741d90a0ca13cc3c40c827b6f859-QQ%E6%88%AA%E5%9B%BE20200315215937.png)
 
-递归方程：
-dp_len[i][j]={
-0       if:i==0 or j==0
-dp_len[i-1][j-1]+1      if:text1[i-1]==text2[j-1]
-max(dp_len[i-1][j],dp_len[i][j-1])    if:text1[i-1]!=text2[j-1]
-}
-### 代码
+// 递归方程：
+// dp_len[i][j]={
+// 0       if:i==0 or j==0
+// dp_len[i-1][j-1]+1      if:text1[i-1]==text2[j-1]
+// max(dp_len[i-1][j],dp_len[i][j-1])    if:text1[i-1]!=text2[j-1]
+// }
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         char [] chars_text1=text1.toCharArray();
@@ -32,4 +32,4 @@ class Solution {
 
     }
 }
-```
+// ```

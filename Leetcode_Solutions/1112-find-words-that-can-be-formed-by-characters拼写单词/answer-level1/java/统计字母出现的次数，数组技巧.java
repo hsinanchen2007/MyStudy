@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
  int[] chars_count = count(chars); // 统计字母表的字母出现次数
@@ -37,4 +37,4 @@ int[] count(String word) {
     return counter;
     }
 }
-```
+// ```

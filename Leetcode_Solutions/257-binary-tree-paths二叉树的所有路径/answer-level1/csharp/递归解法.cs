@@ -1,9 +1,9 @@
-### 解题思路
-二叉树刷下来大多递归，拿到题目先看是否可以拆分成子问题进行求解。
+// ### 解题思路
+// 二叉树刷下来大多递归，拿到题目先看是否可以拆分成子问题进行求解。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -46,4 +46,4 @@ public class Solution {
             return result;
         }
 }
-```
+// ```

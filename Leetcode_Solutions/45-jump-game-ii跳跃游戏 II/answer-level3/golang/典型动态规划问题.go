@@ -1,4 +1,4 @@
-```go
+// ```go
 func jump(nums []int) int {
     // 状态：f[i] 表示从起点到当前位置最小次数
     // 推导：f[i] = f[j],a[j]+j >=i,min(f[j]+1)
@@ -24,4 +24,4 @@ func min(a, b int) int {
     }
     return a
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-枚举法，用`set`对象保存所有的子字符串
+# ### 解题思路
+# 枚举法，用`set`对象保存所有的子字符串
 
-执行用时: `1908 ms`, 在所有 `Python3` 提交中击败了`72.35%`的用户
-内存消耗: `13.5 MB`, 在所有 `Python3` 提交中击败了`100.00%`的用户
+# 执行用时: `1908 ms`, 在所有 `Python3` 提交中击败了`72.35%`的用户
+# 内存消耗: `13.5 MB`, 在所有 `Python3` 提交中击败了`100.00%`的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distinctEchoSubstrings(self, text: str) -> int:
         n = len(text)
@@ -18,4 +18,4 @@ class Solution:
         
         return len(all_s)
 
-```
+# ```

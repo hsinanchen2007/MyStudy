@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-参考答案，还是需要多练习，多努力！！！
-时间复杂度：O(log2n)
-空间复杂度：O(1)
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 参考答案，还是需要多练习，多努力！！！
+// 时间复杂度：O(log2n)
+// 空间复杂度：O(1)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int devide(int []nums,int target,boolean left){
         int l=0,r=nums.length;
@@ -31,4 +31,4 @@ class Solution {
     }
 
 }
-```
+// ```

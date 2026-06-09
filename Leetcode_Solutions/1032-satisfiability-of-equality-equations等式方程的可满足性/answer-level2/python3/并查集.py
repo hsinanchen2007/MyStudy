@@ -1,7 +1,7 @@
-使用并查集，先处理等式，将所有的相等的字符连通，然后处理不等式，检查是否出现矛盾。
-在python3的提交中，时间上战胜了100%的用户。
+# 使用并查集，先处理等式，将所有的相等的字符连通，然后处理不等式，检查是否出现矛盾。
+# 在python3的提交中，时间上战胜了100%的用户。
 
-```
+# ```
 class Solution:
     def equationsPossible(self, equations: List[str]) -> bool:
         alphabet = 'abcdefghijklmnopqrstuvwxyz'
@@ -29,4 +29,4 @@ class Solution:
             return a, b, True
         else:
             return a, b, False
-```
+# ```

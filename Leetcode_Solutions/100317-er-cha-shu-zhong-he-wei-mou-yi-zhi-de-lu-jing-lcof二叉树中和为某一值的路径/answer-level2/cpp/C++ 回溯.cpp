@@ -1,5 +1,5 @@
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> pathSum(TreeNode* root, int sum) {
@@ -25,4 +25,4 @@ private:
     vector<int> result;
     vector<vector<int>> results;
 };
-```
+// ```

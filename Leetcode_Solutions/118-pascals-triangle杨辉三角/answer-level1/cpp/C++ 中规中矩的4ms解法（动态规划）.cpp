@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-大概把几种排序算法都实现了一遍
+// ### 解题思路
+// 大概把几种排序算法都实现了一遍
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArray(int[] nums) {
         // 选择排序
@@ -102,4 +102,4 @@ class Solution {
         quickSort(nums, left, end);
     }
 }
-```
+// ```

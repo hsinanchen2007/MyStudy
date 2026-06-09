@@ -1,16 +1,16 @@
-### 解题思路
-1.先找到一个最大值，从而将整个数组分成两半，最开始maxl=maxr，maxl和maxr都是下标；
-2.[0,maxl)中找到一个最靠近maxl的最大值下标max_left;
-(maxr,heightSzie-1]中找到一个最靠近maxr的最大值下标max_right;
-3.然后将区间[max_left+1,maxl-1]中每一个下标对应的值与height[max_left]做差，累计相加；
-将区间[maxr+1,max_rigth-1]中每一个下标对应的值与height[max_right]做差，累计相加；
-很明显，height[max_left]是大于区间内每一个下标对应的值的，height[max_rigth]也是一样的。
-4.令maxl=max_left,maxr=max_rigth;
-5.直到maxl=0左边循环结束，直到maxr=heightSize-1右边循环结束。
+// ### 解题思路
+// 1.先找到一个最大值，从而将整个数组分成两半，最开始maxl=maxr，maxl和maxr都是下标；
+// 2.[0,maxl)中找到一个最靠近maxl的最大值下标max_left;
+// (maxr,heightSzie-1]中找到一个最靠近maxr的最大值下标max_right;
+// 3.然后将区间[max_left+1,maxl-1]中每一个下标对应的值与height[max_left]做差，累计相加；
+// 将区间[maxr+1,max_rigth-1]中每一个下标对应的值与height[max_right]做差，累计相加；
+// 很明显，height[max_left]是大于区间内每一个下标对应的值的，height[max_rigth]也是一样的。
+// 4.令maxl=max_left,maxr=max_rigth;
+// 5.直到maxl=0左边循环结束，直到maxr=heightSize-1右边循环结束。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
     if(heightSize==0 || heightSize==1 || heightSize==2)
         return 0;
@@ -58,5 +58,5 @@ int trap(int* height, int heightSize){
 	}
     return count;
 }
-```
+// ```
 

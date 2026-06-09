@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
     int i,j;
     i=0;
@@ -19,5 +19,5 @@ int removeDuplicates(int* nums, int numsSize){
         return 0;
     return i+1;
 }
-```
-好坑啊 还要考虑空数组
+// ```
+// 好坑啊 还要考虑空数组

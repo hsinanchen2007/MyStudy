@@ -1,12 +1,12 @@
-### 解题思路
-规律题，理解前序，中序，后序遍历的规律，手速一把梭
+// ### 解题思路
+// 规律题，理解前序，中序，后序遍历的规律，手速一把梭
 
-以 `后序遍历 root (index=length-1)` 寻找 `中序遍历 root (index=k)`
+// 以 `后序遍历 root (index=length-1)` 寻找 `中序遍历 root (index=k)`
 
-### 代码
-[github](https://github.com/temporaries/leetcode)
+// ### 代码
+// [github](https://github.com/temporaries/leetcode)
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -28,5 +28,5 @@ func buildTree(inorder []int, postorder []int) *TreeNode {
 	}
 	return nil
 }
-```
+// ```
 

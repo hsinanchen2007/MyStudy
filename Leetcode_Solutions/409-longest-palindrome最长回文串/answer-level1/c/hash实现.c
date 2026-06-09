@@ -1,4 +1,4 @@
-```c
+// ```c
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -16,4 +16,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
- 如果一个树是bst
- * 那么他的每个节点n的 n.left也是一个bst, n.right也是一个bst
- * 并且n.val > n.left.max, n.val < n.right.min
+// ### 解题思路
+//  如果一个树是bst
+//  * 那么他的每个节点n的 n.left也是一个bst, n.right也是一个bst
+//  * 并且n.val > n.left.max, n.val < n.right.min
 
-min max方法在递归调用后，确定bst后使用min max方法
-max空节点返回最小值，min空节点返回最大值，保证null的成立
-### 代码
+// min max方法在递归调用后，确定bst后使用min max方法
+// max空节点返回最小值，min空节点返回最大值，保证null的成立
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -48,4 +48,4 @@ function minVal(root) {
     if(root.left) return maxVal(root.left);
     else return root.val;
 }
-```
+// ```

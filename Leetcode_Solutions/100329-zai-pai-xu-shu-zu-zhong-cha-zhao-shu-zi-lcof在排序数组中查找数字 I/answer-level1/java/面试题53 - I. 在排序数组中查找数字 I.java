@@ -1,9 +1,9 @@
-### 解题思路
-二分查找法，找到对应的数，然后这个数左右找，就能把和target相同的数全部找出来。
+// ### 解题思路
+// 二分查找法，找到对应的数，然后这个数左右找，就能把和target相同的数全部找出来。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         int count=0;//计数
@@ -39,4 +39,4 @@ class Solution {
             return count;
     }
 }
-```
+// ```

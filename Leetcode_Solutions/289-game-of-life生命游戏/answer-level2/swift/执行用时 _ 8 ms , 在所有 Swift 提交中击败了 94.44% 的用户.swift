@@ -1,8 +1,8 @@
-### 解题思路
-简单的方法，判断8个面的值，进行改值
-### 代码
+// ### 解题思路
+// 简单的方法，判断8个面的值，进行改值
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
 func gameOfLife(_ board: inout [[Int]]) {
         
@@ -124,4 +124,4 @@ func gameOfLife(_ board: inout [[Int]]) {
         
     }
 }
-```
+// ```

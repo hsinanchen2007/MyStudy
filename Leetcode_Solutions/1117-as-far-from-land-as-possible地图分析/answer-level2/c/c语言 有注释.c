@@ -1,4 +1,4 @@
-```
+// ```
 #define max(a, b) a > b ? a : b
 
 typedef struct {
@@ -53,4 +53,4 @@ int maxDistance(int** grid, int gridSize, int* gridColSize){
     }
     return res;
 }
-```
+// ```

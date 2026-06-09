@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-将第1个和第二个比对，得出最长公共后缀后，将此后缀与下一个比对，一直到最后一个或者到公共后缀为空字符串。
+// 将第1个和第二个比对，得出最长公共后缀后，将此后缀与下一个比对，一直到最后一个或者到公共后缀为空字符串。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var longestCommonPrefix = function(strs) {
   if (strs.length == 0) {
     return ''
@@ -33,4 +33,4 @@ var longestCommonPrefix = function(strs) {
   }
   return sameletter;
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-并查集
-![image.png](https://pic.leetcode-cn.com/f782f2d1e5aba6fcd17fb51a3f0e187e4ecdd778fca89498eefa56189e77ac18-image.png)
+// ### 解题思路
+// 并查集
+// ![image.png](https://pic.leetcode-cn.com/f782f2d1e5aba6fcd17fb51a3f0e187e4ecdd778fca89498eefa56189e77ac18-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type BabyUnionFind struct {
 	parent []int
 	names  []string
@@ -82,4 +82,4 @@ func trulyMostPopular(names []string, synonyms []string) []string {
 	}
 	return result
 }
-```
+// ```

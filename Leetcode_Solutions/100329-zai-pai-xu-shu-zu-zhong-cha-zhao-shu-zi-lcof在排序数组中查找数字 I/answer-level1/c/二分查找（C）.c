@@ -1,5 +1,5 @@
-二分查找找到target所在位置，又因为是排序数组，只需看找到的位置附近的值是否为target即可。
-```
+// 二分查找找到target所在位置，又因为是排序数组，只需看找到的位置附近的值是否为target即可。
+// ```
 int search(int* nums, int numsSize, int target){
     int fre=0;                      
     int low=0,high=numsSize-1;      
@@ -27,4 +27,4 @@ int search(int* nums, int numsSize, int target){
     }
     return 0;
 }
-```
+// ```

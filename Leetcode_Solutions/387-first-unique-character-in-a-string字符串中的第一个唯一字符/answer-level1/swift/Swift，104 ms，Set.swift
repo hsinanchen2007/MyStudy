@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func firstUniqChar(_ s: String) -> Int {
         var set = Set<Character>()
@@ -15,4 +15,4 @@ class Solution {
         return -1
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -31,6 +31,6 @@ public:
         return prefix;
     }
 };
-```
+// ```
 
-主要利用prefix.substr(0,i)方法获取前缀子串
+// 主要利用prefix.substr(0,i)方法获取前缀子串

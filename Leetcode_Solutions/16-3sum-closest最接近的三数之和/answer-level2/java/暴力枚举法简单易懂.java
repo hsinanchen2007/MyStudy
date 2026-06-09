@@ -1,5 +1,5 @@
-穷举出所有可能计算与target差的绝对值算到最小的num
-```
+// 穷举出所有可能计算与target差的绝对值算到最小的num
+// ```
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
         int num = nums[0] + nums[1] + nums[2];
@@ -27,4 +27,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

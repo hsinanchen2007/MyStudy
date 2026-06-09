@@ -1,14 +1,14 @@
-### 解题思路
+// ### 解题思路
 
-大家好，我是 17
+// 大家好，我是 17
 
-没什么说的，就是官方解法的javascript 版本。
+// 没什么说的，就是官方解法的javascript 版本。
 
-总结一下，就是这种有限的，象是 26个字母，或 100左右量级的有限数，可以考虑装桶。
+// 总结一下，就是这种有限的，象是 26个字母，或 100左右量级的有限数，可以考虑装桶。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} ages
  * @return {number}
@@ -31,4 +31,4 @@ var numFriendRequests = function (ages) {
   }
   return count
 };
-```
+// ```

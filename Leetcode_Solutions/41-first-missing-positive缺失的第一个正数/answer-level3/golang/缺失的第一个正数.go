@@ -1,9 +1,9 @@
-### 解题思路
-注释于代码中
+// ### 解题思路
+// 注释于代码中
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func firstMissingPositive(nums []int) int {
     sort.Ints(nums)//先从小到大排序，不想写一个排序算法，直接引用
     var flag=true //判断数组中是否有1
@@ -43,4 +43,4 @@ func firstMissingPositive(nums []int) int {
     return nums[len(nums)-1]+1  //如果上面都不成立，则只有一种情况就是0，1，1，2，3这种中间不缺少最少正整数的，取nums最后一个数+1
 
 }
-```
+// ```

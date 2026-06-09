@@ -1,5 +1,5 @@
-看懂题解后尝试自己捋了下思路
-```
+# 看懂题解后尝试自己捋了下思路
+# ```
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
@@ -47,4 +47,4 @@ class Solution:
 
 
 
-```
+# ```

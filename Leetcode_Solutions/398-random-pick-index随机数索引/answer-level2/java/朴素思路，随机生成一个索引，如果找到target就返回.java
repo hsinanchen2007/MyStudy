@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :70 ms, 在所有 Java 提交中击败了71.49%的用户
-内存消耗 :48.2 MB, 在所有 Java 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :70 ms, 在所有 Java 提交中击败了71.49%的用户
+// 内存消耗 :48.2 MB, 在所有 Java 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int[] nums;
     public Solution(int[] nums) {
@@ -28,4 +28,4 @@ class Solution {
  * Solution obj = new Solution(nums);
  * int param_1 = obj.pick(target);
  */
-```
+// ```

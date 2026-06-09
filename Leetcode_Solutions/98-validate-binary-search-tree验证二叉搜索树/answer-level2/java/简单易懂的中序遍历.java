@@ -1,5 +1,5 @@
-先吐槽一下：这个题真的搞，搞了这么一个数据：[-2147483648]
-```java
+// 先吐槽一下：这个题真的搞，搞了这么一个数据：[-2147483648]
+// ```java
 class Solution {
     public boolean isValidBST(TreeNode root) {
         if(root == null) return true;

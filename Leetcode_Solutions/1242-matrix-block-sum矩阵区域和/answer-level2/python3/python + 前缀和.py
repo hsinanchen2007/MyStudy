@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def matrixBlockSum(self, mat: List[List[int]], K: int) -> List[List[int]]:
         row, col = len(mat), len(mat[0])
@@ -25,4 +25,4 @@ class Solution:
             for c in range(col):
                 res[r][c] = calculate(r + K, c + K) - calculate(r - K - 1, c + K) - calculate(r + K, c - K - 1) + calculate(r - K - 1, c - K -1)
         return res
-```
+# ```

@@ -1,6 +1,6 @@
-因为每个字母只重复一遍，所以可以采用全排列方法做。
+// 因为每个字母只重复一遍，所以可以采用全排列方法做。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> permutation(string S) {
@@ -29,4 +29,4 @@ public:
         }
     }
 };
-```
+// ```

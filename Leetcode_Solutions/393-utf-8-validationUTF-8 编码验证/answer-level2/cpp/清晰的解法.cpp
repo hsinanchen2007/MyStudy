@@ -1,13 +1,13 @@
-[**leetcode 数据库题目全部题解**](https://leetcode-cn.com/circle/article/vGr1Mc/)
+// [**leetcode 数据库题目全部题解**](https://leetcode-cn.com/circle/article/vGr1Mc/)
 
-题意不难理解。utf-8最多4个字节。
+// 题意不难理解。utf-8最多4个字节。
 
-位操作，特别是左移和右移，是易出错的。由于本题的二进制格式是固定的，可以不用左移或右移操作。
+// 位操作，特别是左移和右移，是易出错的。由于本题的二进制格式是固定的，可以不用左移或右移操作。
 
-用二进制整数：0bxxxxxxxx，表示二进制格式，避免位操作出错。
+// 用二进制整数：0bxxxxxxxx，表示二进制格式，避免位操作出错。
 
-检测思路：
-```
+// 检测思路：
+// ```
 while (位置p有效){
     位置p处的整数v;
     if((v & 0b10000000) == 0){
@@ -30,9 +30,9 @@ while (位置p有效){
     if(还要检测的字节数 > 0，说明碰到格式不正确) 错误;
 }
 到此处，格式一定正确。
-```
-代码：
-```
+// ```
+// 代码：
+// ```
 bool validUtf8(vector<int>& data) {
 	int p=0;
 	while(p < data.size()){
@@ -59,4 +59,4 @@ bool validUtf8(vector<int>& data) {
 	}
 	return true;
 }
-```
+// ```

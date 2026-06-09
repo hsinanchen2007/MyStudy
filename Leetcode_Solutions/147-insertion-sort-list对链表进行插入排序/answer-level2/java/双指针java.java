@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-笨方法但是总算解决了
+// ### 解题思路
+// 此处撰写解题思路
+// 笨方法但是总算解决了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -45,4 +45,4 @@ class Solution {
 	return start.next;
     }
 }
-```
+// ```

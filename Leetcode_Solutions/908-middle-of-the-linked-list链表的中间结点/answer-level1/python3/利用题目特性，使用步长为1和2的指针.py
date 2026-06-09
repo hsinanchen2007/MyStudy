@@ -1,10 +1,10 @@
-### 解题思路
-双指针法：只需遍历一次链表
+# ### 解题思路
+# 双指针法：只需遍历一次链表
 
-**题目中说取中间元素或第2个中间元素**
-### 代码
+# **题目中说取中间元素或第2个中间元素**
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
                 return slow.next
 
             slow, fast = slow.next, fast.next.next
-```
+# ```

@@ -1,14 +1,14 @@
-### 解题思路
-参考剑指offer第39题题解
-二叉树的深度：
-  如果二叉树为一个节点 则深度为1
-  如果二叉树没有左子树，则深度为1+右子树的深度
-  反之相同
-  如果既有左子树，也有右子树，则二叉树的深度为1+ left>right:left:right
+// ### 解题思路
+// 参考剑指offer第39题题解
+// 二叉树的深度：
+//   如果二叉树为一个节点 则深度为1
+//   如果二叉树没有左子树，则深度为1+右子树的深度
+//   反之相同
+//   如果既有左子树，也有右子树，则二叉树的深度为1+ left>right:left:right
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
         return (left>right)? (left+1):(right+1);
     }
 }
-```
+// ```

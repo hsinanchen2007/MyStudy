@@ -1,7 +1,7 @@
 
-解法一：递归快乐+catch非快乐数
+// 解法一：递归快乐+catch非快乐数
 
-```js
+// ```js
 /**
  * @param {number} n
  * @return {boolean}
@@ -33,16 +33,16 @@ var isHappy = function (n) {
     }
 
 };
-```
+// ```
 
-慢是慢了点，至少能跑，再想办法优化吧。
+// 慢是慢了点，至少能跑，再想办法优化吧。
 
-![image.png](https://pic.leetcode-cn.com/e34b64a3077d1db7b058561de2a1263253138afdd254f11f3e198310631f0f0b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e34b64a3077d1db7b058561de2a1263253138afdd254f11f3e198310631f0f0b-image.png)
 
 
-解法2：递归+Set
+// 解法2：递归+Set
 
-```js
+// ```js
 /**
  * @param {number} n
  * @return {boolean}
@@ -75,7 +75,7 @@ var isHappy = function (n, arr) {
     }
     return nextNum === 1;
 };
-```
+// ```
 
-这才算是一种正常的解法。
-![image.png](https://pic.leetcode-cn.com/d8ca57b0246720c7d2682c0216dc85202f894e17e4057c43020fa1a1375442ec-image.png)
+// 这才算是一种正常的解法。
+// ![image.png](https://pic.leetcode-cn.com/d8ca57b0246720c7d2682c0216dc85202f894e17e4057c43020fa1a1375442ec-image.png)

@@ -1,4 +1,4 @@
-```
+// ```
 int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes){ 
     int len = (int)pow(2, numsSize); //所有排列个数为2**n，包含空集
     *returnSize = len;
@@ -21,4 +21,4 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     }
     return res;
 }
-```
+// ```

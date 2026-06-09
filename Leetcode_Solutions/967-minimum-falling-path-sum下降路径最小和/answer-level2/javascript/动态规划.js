@@ -1,6 +1,6 @@
 
-简单的讲就是每遍历一行找出与上一行之间的最小值
-```
+// 简单的讲就是每遍历一行找出与上一行之间的最小值
+// ```
 var minFallingPathSum = function(A) {
     const rowLen = A.length;
     const colLen = A[0].length;
@@ -20,4 +20,4 @@ var minFallingPathSum = function(A) {
     }
     return Math.min(...A[rowLen -1])
 };
-```
+// ```

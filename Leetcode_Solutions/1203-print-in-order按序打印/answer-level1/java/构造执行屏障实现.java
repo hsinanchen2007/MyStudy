@@ -1,15 +1,15 @@
-### 解题思路：
-这是一个典型的执行屏障的问题，可以通过构造屏障来实现。
+// ### 解题思路：
+// 这是一个典型的执行屏障的问题，可以通过构造屏障来实现。
 
-如下图，我们需要构造 $2$ 道屏障，`second` 线程等待 `first` 屏障，`third` 线程等待 `second` 屏障。：
-![image.png](https://pic.leetcode-cn.com/879c5abd22c2dbc2618a1433dfbeb02a34b9586a10425986fafdc90eef978cc1-image.png){:width=450}
-{:align=center}
+// 如下图，我们需要构造 $2$ 道屏障，`second` 线程等待 `first` 屏障，`third` 线程等待 `second` 屏障。：
+// ![image.png](https://pic.leetcode-cn.com/879c5abd22c2dbc2618a1433dfbeb02a34b9586a10425986fafdc90eef978cc1-image.png){:width=450}
+// {:align=center}
 
-`first` 线程会释放 `first` 屏障，而 `second` 线程会释放 `second` 屏障。
+// `first` 线程会释放 `first` 屏障，而 `second` 线程会释放 `second` 屏障。
 
-Java 中，我们使用线程等待的方式实现执行屏障，使用释放线程等待的方式实现屏障消除。具体代码如下：
-### 代码：
-```java [-Java]
+// Java 中，我们使用线程等待的方式实现执行屏障，使用释放线程等待的方式实现屏障消除。具体代码如下：
+// ### 代码：
+// ```java [-Java]
 class Foo {
     
     private boolean firstFinished;
@@ -56,6 +56,6 @@ class Foo {
         } 
     }
 }
-```
+// ```
 
-我们使用一个 `Ojbect` 对象 `lock` 实现所有执行屏障的锁对象，两个布尔型对象 `firstFinished`，`secondFinished` 保存屏障消除的条件。
+// 我们使用一个 `Ojbect` 对象 `lock` 实现所有执行屏障的锁对象，两个布尔型对象 `firstFinished`，`secondFinished` 保存屏障消除的条件。

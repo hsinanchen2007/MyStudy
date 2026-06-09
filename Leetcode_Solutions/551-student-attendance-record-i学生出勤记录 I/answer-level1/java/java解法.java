@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码 ，肯定能看懂  A的个数大于1，直接返回false， L连着三个直接返回false。 其他的就进入下一次循环，最后返回true
+// ### 解题思路
+// 直接看代码 ，肯定能看懂  A的个数大于1，直接返回false， L连着三个直接返回false。 其他的就进入下一次循环，最后返回true
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkRecord(String s) {
         int countA = 0;
@@ -19,4 +19,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

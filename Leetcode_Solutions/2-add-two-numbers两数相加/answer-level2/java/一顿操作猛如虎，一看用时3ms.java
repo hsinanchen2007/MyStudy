@@ -1,8 +1,8 @@
-### 解题思路
-构造虚节点。
-### 代码
+// ### 解题思路
+// 构造虚节点。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -40,4 +40,4 @@ class Solution {
         return root.next;
     }
 }
-```
+// ```

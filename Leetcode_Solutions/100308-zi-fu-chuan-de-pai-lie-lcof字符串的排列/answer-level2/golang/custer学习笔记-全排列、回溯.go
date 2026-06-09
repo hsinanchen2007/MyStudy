@@ -1,9 +1,9 @@
-### 解题思路
-[全排列的方法](https://leetcode-cn.com/problems/permutations-ii/solution/custerxue-xi-bi-ji-ji-shu-by-custergo/)
+// ### 解题思路
+// [全排列的方法](https://leetcode-cn.com/problems/permutations-ii/solution/custerxue-xi-bi-ji-ji-shu-by-custergo/)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func permutation(s string) []string {
   var res []string
   helper([]byte(s), 0, &res)
@@ -25,4 +25,4 @@ func helper(s []byte, start int, res *[]string) {
     m[s[i]] = 1
   }
 }
-```
+// ```

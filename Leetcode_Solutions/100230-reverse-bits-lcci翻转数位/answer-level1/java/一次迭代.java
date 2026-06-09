@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/4964df7bff3d570248e52e281af203138bcd47b89035f55d1c63c8854bde6896-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4964df7bff3d570248e52e281af203138bcd47b89035f55d1c63c8854bde6896-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverseBits(int num) {
         int cnt1 = 1;
@@ -24,4 +24,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

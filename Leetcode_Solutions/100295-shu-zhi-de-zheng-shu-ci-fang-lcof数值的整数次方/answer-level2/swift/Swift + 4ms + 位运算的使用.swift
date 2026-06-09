@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func myPow(_ x: Double, _ n: Int) -> Double {
         if n == 0 {
@@ -19,4 +19,4 @@ class Solution {
         return x
     }
 }
-```
+// ```

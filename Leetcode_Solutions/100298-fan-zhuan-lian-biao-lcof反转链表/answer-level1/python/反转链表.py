@@ -1,15 +1,15 @@
-### 解题思路
-1、要注意判断边界条件，链表是否为空，链表是否只有1个数
-2、整体的思路一定要清楚，总共要记3个变量，当前节点，前一个节点，下一个节点，每次只处理当前节点的next，其他节点的不要动。
-来到当前节点，先记录当前节点的next；
-如果当前节点为头结点，让当前节点的next为空；
-如果当前节点是中间节点，让当前节点的next为last_node；
-记录当前节点的last_node；
-如果遍历到了最后一个节点，直接让这个节点的next为last_node。
+# ### 解题思路
+# 1、要注意判断边界条件，链表是否为空，链表是否只有1个数
+# 2、整体的思路一定要清楚，总共要记3个变量，当前节点，前一个节点，下一个节点，每次只处理当前节点的next，其他节点的不要动。
+# 来到当前节点，先记录当前节点的next；
+# 如果当前节点为头结点，让当前节点的next为空；
+# 如果当前节点是中间节点，让当前节点的next为last_node；
+# 记录当前节点的last_node；
+# 如果遍历到了最后一个节点，直接让这个节点的next为last_node。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution(object):
         head.next = last_node
         return head
 
-```
+# ```

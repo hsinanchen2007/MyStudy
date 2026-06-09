@@ -1,4 +1,4 @@
-```
+// ```
 struct Node {
     int index;
     int fight;
@@ -29,4 +29,4 @@ int *kWeakestRows(int **mat, int matSize, int *matColSize, int k, int *returnSiz
     }
     return res;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-使用三根指针，slow/fast表示重复元素的起始位置，pre表示slow的前置节点。
+// 使用三根指针，slow/fast表示重复元素的起始位置，pre表示slow的前置节点。
 
-```
+// ```
 public ListNode deleteDuplicates(ListNode head) {
     ListNode fakeHead = new ListNode(0), pre = fakeHead, slow = head, fast = head;
     fakeHead.next = head;
@@ -27,4 +27,4 @@ public ListNode deleteDuplicates(ListNode head) {
     }
     return fakeHead.next;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxTurbulenceSize(int* A, int ASize){
     if(ASize<=1) return ASize;
     int cnt=1,maxLen=0,cnt_0=0;
@@ -24,4 +24,4 @@ int maxTurbulenceSize(int* A, int ASize){
 
     return maxLen+1;
 }
-```
+// ```

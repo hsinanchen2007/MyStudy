@@ -1,12 +1,12 @@
-### 解题思路
-利用STL中lower_bound和upper_bound函数解决
-step1：容器为空时，初始化容器vector<int>{-1,-1}返回容器{-1,-1}
-step2：调用STL中的lower_bound函数返回第一个大于等于target位置的迭代器left；使用STL中的upper_bound函数返回第一个大于target的位置的迭代器right
-step3：若left == right表明找到的是大于target的数，left == nums.end()时说明target比数组所有元素大，这两种情况下均没有找到，则返回{-1,-1}，否则，返回{left - nums.begin(), right - nums.begin() - 1}
+// ### 解题思路
+// 利用STL中lower_bound和upper_bound函数解决
+// step1：容器为空时，初始化容器vector<int>{-1,-1}返回容器{-1,-1}
+// step2：调用STL中的lower_bound函数返回第一个大于等于target位置的迭代器left；使用STL中的upper_bound函数返回第一个大于target的位置的迭代器right
+// step3：若left == right表明找到的是大于target的数，left == nums.end()时说明target比数组所有元素大，这两种情况下均没有找到，则返回{-1,-1}，否则，返回{left - nums.begin(), right - nums.begin() - 1}
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -32,4 +32,4 @@ public:
              return {left - nums.begin(), right - nums.begin() - 1};
     }
 };
-```
+// ```

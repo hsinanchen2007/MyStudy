@@ -1,10 +1,10 @@
-### 解题思路
-第一个indexOf获取第一个下标，
-第二个indexOf判断截取的字符串还是否有这个字符，如果没有这个字符则是第一个单字符。
+// ### 解题思路
+// 第一个indexOf获取第一个下标，
+// 第二个indexOf判断截取的字符串还是否有这个字符，如果没有这个字符则是第一个单字符。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char firstUniqChar(String s) {
         for (int i = 0; i < s.length(); i++) {
@@ -20,4 +20,4 @@ class Solution {
         return ' ';
     }
 }
-```
+// ```

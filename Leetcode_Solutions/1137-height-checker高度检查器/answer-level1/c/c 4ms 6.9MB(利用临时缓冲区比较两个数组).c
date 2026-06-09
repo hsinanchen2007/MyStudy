@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *总体思路：
@@ -47,4 +47,4 @@ int heightChecker( int* heights, int heightsSize ){
     return count;
 
 }
-```
+// ```

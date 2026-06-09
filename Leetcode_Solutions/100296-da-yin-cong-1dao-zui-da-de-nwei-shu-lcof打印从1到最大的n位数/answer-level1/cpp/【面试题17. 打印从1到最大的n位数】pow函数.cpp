@@ -1,10 +1,10 @@
-## 思路
+// ## 思路
 
 
-### 代码
-时间复杂度：O(10^n)
-空间复杂度：O(1)
-```cpp
+// ### 代码
+// 时间复杂度：O(10^n)
+// 空间复杂度：O(1)
+// ```cpp
 class Solution {
 public:
     vector<int> printNumbers(int n) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

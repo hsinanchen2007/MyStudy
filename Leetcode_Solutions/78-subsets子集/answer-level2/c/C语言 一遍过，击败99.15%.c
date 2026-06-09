@@ -1,10 +1,10 @@
-### 解题思路
-写得有点儿长，不过各函数功能独立，思路主要是递归
-![image.png](https://pic.leetcode-cn.com/930df98b768bdfb9280506d9dc7a9f699b2bedec3990940580d58d74a705420b-image.png)
+// ### 解题思路
+// 写得有点儿长，不过各函数功能独立，思路主要是递归
+// ![image.png](https://pic.leetcode-cn.com/930df98b768bdfb9280506d9dc7a9f699b2bedec3990940580d58d74a705420b-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -137,4 +137,4 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
 	*returnColumnSizes = r.columnSizes;
 	return r.rlt;
 }
-```
+// ```

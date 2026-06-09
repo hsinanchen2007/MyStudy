@@ -1,9 +1,9 @@
-### 解题思路
-堆栈的思路，笨且低效。
+# ### 解题思路
+# 堆栈的思路，笨且低效。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def balancedStringSplit(self, s: str) -> int:
         counter = 0
@@ -19,4 +19,4 @@ class Solution:
                     counter += 1
                 
         return counter
-```
+# ```

@@ -1,7 +1,7 @@
-借助树的层次遍历的思想，要成为一棵树 要满足下面两点
-1.目前层不能指向上一层，使用`visit`数组来判重
-2.在目前层给下一层压入队列的时候，不能压入同一个节点（会形成环），使用set来判重
-```
+// 借助树的层次遍历的思想，要成为一棵树 要满足下面两点
+// 1.目前层不能指向上一层，使用`visit`数组来判重
+// 2.在目前层给下一层压入队列的时候，不能压入同一个节点（会形成环），使用set来判重
+// ```
  bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) {
         unordered_map<int,vector<int>> mp;
         queue<int> q;
@@ -42,4 +42,4 @@
         return true;
 
     }
-```
+// ```

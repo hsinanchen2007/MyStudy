@@ -1,7 +1,7 @@
-改造了下UnionFind，因为每次之加入一个元素，所以把union改成add。
+# 改造了下UnionFind，因为每次之加入一个元素，所以把union改成add。
 
 
-```python
+# ```python
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
 
@@ -34,4 +34,4 @@ class Solution:
                 max_l = l
 
         return max_l
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-字典解决数组的度
+# ### 解题思路
+# 字典解决数组的度
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findShortestSubArray(self, nums: List[int]) -> int:
         left, right, count = {}, {}, {}
@@ -27,4 +27,4 @@ class Solution:
         return minLoc
 
         
-```
+# ```

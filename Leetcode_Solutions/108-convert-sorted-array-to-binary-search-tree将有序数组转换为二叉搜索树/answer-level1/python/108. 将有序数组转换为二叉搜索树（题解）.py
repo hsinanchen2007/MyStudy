@@ -1,11 +1,11 @@
-### 解题思路
-1.中间位置为根结点；
-2.处理左子树，把左子树的根结点挂上去；
-2.处理右子树，把右子树的根结点挂上去；
+# ### 解题思路
+# 1.中间位置为根结点；
+# 2.处理左子树，把左子树的根结点挂上去；
+# 2.处理右子树，把右子树的根结点挂上去；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
         root.left = self.sortedArrayToBST(nums[:mid])
         root.right = self.sortedArrayToBST(nums[mid+1:])
         return root
-```
+# ```

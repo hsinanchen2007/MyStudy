@@ -1,9 +1,9 @@
-### 解题思路
-dps解法，保存当前节点到根节点的路径和。
+# ### 解题思路
+# dps解法，保存当前节点到根节点的路径和。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -19,4 +19,4 @@ class Solution:
             return sum_from_root.count(sum)+dps(tree.left, sum_from_root)+dps(tree.right, sum_from_root)
         return dps(root, [])
 
-```
+# ```

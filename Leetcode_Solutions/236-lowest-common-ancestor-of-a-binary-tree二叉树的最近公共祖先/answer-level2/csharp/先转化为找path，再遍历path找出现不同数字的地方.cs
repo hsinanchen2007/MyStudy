@@ -1,13 +1,13 @@
-### 解题思路
-1. 获得root到p、q节点的path；
-2. 遍历两个路径，出现不同节点时即找到公共祖先
+// ### 解题思路
+// 1. 获得root到p、q节点的path；
+// 2. 遍历两个路径，出现不同节点时即找到公共祖先
 
-类似题目：[113路径总和](https://leetcode-cn.com/problems/path-sum-ii/submissions/)
-这样做的出发点：1.把问题转化到之前解决过的问题；2.用一个思路解多个题目。
+// 类似题目：[113路径总和](https://leetcode-cn.com/problems/path-sum-ii/submissions/)
+// 这样做的出发点：1.把问题转化到之前解决过的问题；2.用一个思路解多个题目。
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -48,9 +48,9 @@ class Solution {
         return pPath.get(min - 1);
     }
 }
-```
+// ```
 
-```C# []
+// ```C# []
     public class Solution 
     {
         public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) 
@@ -86,4 +86,4 @@ class Solution {
         }
 }
 
-```
+// ```

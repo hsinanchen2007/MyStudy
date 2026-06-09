@@ -1,29 +1,29 @@
-## 思路:
+// ## 思路:
 
-**思路一:** 动态规划
+// **思路一:** 动态规划
 
-当前面的总和是负数的,加上去一定会使总和减小,不如从自己重新开始.
+// 当前面的总和是负数的,加上去一定会使总和减小,不如从自己重新开始.
 
-例如,`[-2,1,-3,4]`
+// 例如,`[-2,1,-3,4]`
 
-`1`就不需要加前面`-2`,自己可以重新开始.
+// `1`就不需要加前面`-2`,自己可以重新开始.
 
-**思路二:**
+// **思路二:**
 
-`sum(i,j) = sum(0,j) - sum(0,i)`
+// `sum(i,j) = sum(0,j) - sum(0,i)`
 
-我们只要记录前`i`总和最小值就可以了!
+// 我们只要记录前`i`总和最小值就可以了!
 
-上面时间复杂度都是:$O(n)$
-
-
-## 代码:
-
-思路一:
+// 上面时间复杂度都是:$O(n)$
 
 
+// ## 代码:
 
-```python [1]
+// 思路一:
+
+
+
+// ```python [1]
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         n = len(nums)
@@ -34,10 +34,10 @@ class Solution:
             dp[i] = max(dp[i-1] + nums[i], nums[i])
             res = max(dp[i], res)
         return res
-```
+// ```
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public int maxSubArray(int[] nums) {
         int[] dp = new int[nums.length];
@@ -50,13 +50,13 @@ class Solution {
         return res;  
     }
 }
-```
+// ```
 
-思路二:
+// 思路二:
 
 
 
-```python [2]
+// ```python [2]
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         cur_sum = 0
@@ -67,11 +67,11 @@ class Solution:
             res = max(res, cur_sum - min_sum)
             min_sum = min(min_sum, cur_sum)
         return res
-```
+// ```
 
 
 
-```java [2]
+// ```java [2]
 class Solution {
     public int maxSubArray(int[] nums) {
         int all_sum = 0;
@@ -85,7 +85,7 @@ class Solution {
         return res;   
     }
 }
-```
+// ```
 
 
 

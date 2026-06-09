@@ -1,9 +1,9 @@
-### 解题思路
-用多一个vector来接收数字，然后求最小值，注意不能用sort函数，这样会改变栈的排列顺序
+// ### 解题思路
+// 用多一个vector来接收数字，然后求最小值，注意不能用sort函数，这样会改变栈的排列顺序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -48,4 +48,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->min();
  */
-```
+// ```

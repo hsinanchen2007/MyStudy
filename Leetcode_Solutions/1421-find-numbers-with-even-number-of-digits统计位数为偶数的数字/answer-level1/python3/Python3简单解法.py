@@ -1,5 +1,5 @@
-循环计算每个数字的位数，然后判断位数是否为偶数。
-```
+# 循环计算每个数字的位数，然后判断位数是否为偶数。
+# ```
 class Solution(object):
     def findNumbers(self, nums):
         count = 0
@@ -11,4 +11,4 @@ class Solution(object):
             if n % 2 == 0:
                 count += 1
         return count
-```
+# ```

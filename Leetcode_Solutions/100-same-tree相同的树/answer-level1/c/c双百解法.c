@@ -1,4 +1,4 @@
-```
+// ```
 bool isSameTree(struct TreeNode* p, struct TreeNode* q){
     if(p==NULL&&q!=NULL||p!=NULL&&q==NULL)
         return false;
@@ -12,4 +12,4 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q){
     }
     
 }
-```
+// ```

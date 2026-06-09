@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int ans = 0;
@@ -23,4 +23,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

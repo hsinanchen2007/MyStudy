@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/355212821e27d0cac8ad955573a39c15ae3c02be07c7da77137a23231a3fac6e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/355212821e27d0cac8ad955573a39c15ae3c02be07c7da77137a23231a3fac6e-image.png)
 
-这个版本做了些代码上优化，参考了很多大佬的代码，使用了“board[x][y] = '#';//标记路径被占用”设置和重置路径状态。
-```
+// 这个版本做了些代码上优化，参考了很多大佬的代码，使用了“board[x][y] = '#';//标记路径被占用”设置和重置路径状态。
+// ```
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -58,13 +58,13 @@ private:
     int n;
     string word;
 };
-```
+// ```
 
 
-这个版本属于为参考大佬代码，个人单独完成。对比之下，一个是visited造成内存增加，和getDir造成性能增加，其耗时和性能如下。
-![image.png](https://pic.leetcode-cn.com/e8c0a25b0369727280d28fc3ed280872f4e1ad74f81d05daedf3fd20d5330f56-image.png)
+// 这个版本属于为参考大佬代码，个人单独完成。对比之下，一个是visited造成内存增加，和getDir造成性能增加，其耗时和性能如下。
+// ![image.png](https://pic.leetcode-cn.com/e8c0a25b0369727280d28fc3ed280872f4e1ad74f81d05daedf3fd20d5330f56-image.png)
 
-```
+// ```
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {
@@ -148,5 +148,5 @@ private:
     int n;
     string word;
 };
-```
+// ```
 

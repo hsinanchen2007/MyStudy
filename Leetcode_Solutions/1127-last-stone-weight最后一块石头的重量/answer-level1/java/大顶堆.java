@@ -1,8 +1,8 @@
-### 解题思路
-大顶堆解决问题
-### 代码
+// ### 解题思路
+// 大顶堆解决问题
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int lastStoneWeight(int[] stones) {
         if(stones.length==0){
@@ -56,4 +56,4 @@ class Solution {
     }
     
 }
-```
+// ```

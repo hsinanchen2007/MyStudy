@@ -1,5 +1,5 @@
-利用bfs进行求解，先找到所有0元素的位置，然后更新所有1位置的距离，更新完毕后获得的值即为每个1距离0最近的距离。
-```
+// 利用bfs进行求解，先找到所有0元素的位置，然后更新所有1位置的距离，更新完毕后获得的值即为每个1距离0最近的距离。
+// ```
 class Solution {
 public:
     vector<vector<int>> updateMatrix(vector<vector<int>>& matrix) {
@@ -26,4 +26,4 @@ public:
         return matrix;
     }
 };
-```
+// ```

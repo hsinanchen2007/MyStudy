@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn game_of_life(board: &mut Vec<Vec<i32>>) {
         let pos = [(-1,-1),(-1,0),(1,-1),(1,0),(1,1),(0,1),(-1,1),(0,-1)];
@@ -31,4 +31,4 @@ impl Solution {
 
     }
 }
-```
+// ```

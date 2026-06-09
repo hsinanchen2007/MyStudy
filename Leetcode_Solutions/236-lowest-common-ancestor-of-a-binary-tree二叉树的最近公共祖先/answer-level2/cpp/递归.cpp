@@ -1,11 +1,11 @@
-### 解题思路
-//以root为根节点的树中包含p和q，则返回它们的最低公共祖先
-//以root为根节点的树中只包含p或q,则返回p或q
-//以root为根节点的树中不包含p和q，则返回NULL
+// ### 解题思路
+// //以root为根节点的树中包含p和q，则返回它们的最低公共祖先
+// //以root为根节点的树中只包含p或q,则返回p或q
+// //以root为根节点的树中不包含p和q，则返回NULL
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:
         return root;
     }
 };
-```
+// ```

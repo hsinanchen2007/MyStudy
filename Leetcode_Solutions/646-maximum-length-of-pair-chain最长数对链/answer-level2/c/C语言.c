@@ -1,9 +1,9 @@
-### 解题思路
-先对数组第一列元素有小到大排序，然后动态规划计算以第i行结尾的话最多有多少个数对（dp[i]）
+// ### 解题思路
+// 先对数组第一列元素有小到大排序，然后动态规划计算以第i行结尾的话最多有多少个数对（dp[i]）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a,const void *b)
 {
     int *ap = *(int **)a;       
@@ -39,4 +39,4 @@ int findLongestChain(int** pairs, int pairsSize, int* pairsColSize){
     }
     return max;
 }
-```
+// ```

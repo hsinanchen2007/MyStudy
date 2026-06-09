@@ -1,9 +1,9 @@
-### 解题思路
-简单动态规划
+// ### 解题思路
+// 简单动态规划
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
     return maximum;
     }
 };
-```
+// ```

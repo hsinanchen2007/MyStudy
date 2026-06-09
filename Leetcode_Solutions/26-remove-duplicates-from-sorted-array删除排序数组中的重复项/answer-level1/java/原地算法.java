@@ -1,9 +1,9 @@
-### 解题思路
-因为数组已经是有序的，所以只需要将前后进行比较是否会出现重复，重复则使用temp变量将其覆盖。
+// ### 解题思路
+// 因为数组已经是有序的，所以只需要将前后进行比较是否会出现重复，重复则使用temp变量将其覆盖。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         int temp=0;
@@ -17,4 +17,4 @@ class Solution {
         return temp;
     }
 }
-```
+// ```

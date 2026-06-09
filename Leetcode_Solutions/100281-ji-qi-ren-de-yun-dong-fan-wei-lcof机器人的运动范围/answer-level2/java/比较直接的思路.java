@@ -1,8 +1,8 @@
-### 解题思路
-最直接的解法，判断每个坐标是否可以到达且是否有路径到达
-### 代码
+// ### 解题思路
+// 最直接的解法，判断每个坐标是否可以到达且是否有路径到达
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int movingCount(int m, int n, int k) {
         int res = 1;
@@ -23,4 +23,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

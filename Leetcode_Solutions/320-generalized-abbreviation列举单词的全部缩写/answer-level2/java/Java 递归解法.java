@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-用递归来解
+// 用递归来解
 
-因为一个单词里面可能有多个数字，所以递归的的时候应该用一个变量start来记录目前我们递归的位置。
+// 因为一个单词里面可能有多个数字，所以递归的的时候应该用一个变量start来记录目前我们递归的位置。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<String> res = new ArrayList<>();
     public List<String> generateAbbreviations(String word) {
@@ -26,4 +26,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def repeatedSubstringPattern(s: String): Boolean = {
     val dp = Array.fill(s.length + 1)(0)
@@ -15,4 +15,4 @@ object Solution {
     (dp(s.length) > 0) && (dp(s.length) % (s.length - dp(s.length)) == 0)
   }
 }
-```
+// ```

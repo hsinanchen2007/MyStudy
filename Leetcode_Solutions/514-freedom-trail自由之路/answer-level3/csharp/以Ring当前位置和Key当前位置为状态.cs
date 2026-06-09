@@ -1,12 +1,12 @@
-### 解题思路
-所有动态规划问题，本质是独立子状态的递推
-这里以Ring Key 位置为状态
-Cache这些状态结果
-Ring旋转最小值 到达某个目标位置
+// ### 解题思路
+// 所有动态规划问题，本质是独立子状态的递推
+// 这里以Ring Key 位置为状态
+// Cache这些状态结果
+// Ring旋转最小值 到达某个目标位置
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int,int>;
 class RingBoard{
     public int total = 0;
@@ -73,4 +73,4 @@ public class Solution {
         return rb.FindRotateSteps(ring, key);
     }
 }
-```
+// ```

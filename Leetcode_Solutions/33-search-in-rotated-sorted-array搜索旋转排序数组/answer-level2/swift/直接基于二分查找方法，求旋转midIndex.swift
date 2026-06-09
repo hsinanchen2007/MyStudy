@@ -1,14 +1,14 @@
-### 解题思路
-1. 找到最小数字的位置minIndex
-2. 二分法求mid（相当于当前数组的mid索引），然后根据当前mid求rotateMidIndex（也就是完整排好顺序的数组index）
-3. 将数组当成排好顺序的数组，使用对应的rotateMidIndex比较。
+// ### 解题思路
+// 1. 找到最小数字的位置minIndex
+// 2. 二分法求mid（相当于当前数组的mid索引），然后根据当前mid求rotateMidIndex（也就是完整排好顺序的数组index）
+// 3. 将数组当成排好顺序的数组，使用对应的rotateMidIndex比较。
 
-注意
-`mid = low + ((high - low) >> 1)` 跟`mid = (high + low) / 2` 一样。但是前者效率更高。
+// 注意
+// `mid = low + ((high - low) >> 1)` 跟`mid = (high + low) / 2` 一样。但是前者效率更高。
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func search(_ nums: [Int], _ target: Int) -> Int {
         guard nums.count > 0 else {
@@ -44,4 +44,4 @@ class Solution {
         return -1
     }
 }
-```
+// ```

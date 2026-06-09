@@ -1,10 +1,10 @@
-### 解题思路
-使用广度优先，一层一层遍历。
-遍历每一层的时候，将它的孩子加入队列，并将这一层用next连起来
+# ### 解题思路
+# 使用广度优先，一层一层遍历。
+# 遍历每一层的时候，将它的孩子加入队列，并将这一层用next连起来
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -37,4 +37,4 @@ class Solution:
             temp[-1].next=None
         return root
         
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numSubarrayProductLessThanK(vector<int>& nums, int k) {
@@ -18,6 +18,6 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/2468df58d0a8dc77e0d016eedce95750ea7999ea790549f218e1c7391031291f-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/2468df58d0a8dc77e0d016eedce95750ea7999ea790549f218e1c7391031291f-image.png)
 

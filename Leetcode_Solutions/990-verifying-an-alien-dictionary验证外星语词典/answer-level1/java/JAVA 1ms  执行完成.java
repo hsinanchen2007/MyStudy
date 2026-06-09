@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1、根据order的字母顺序，给予每个字母定义权重
-2、words 中后一个跟前一个进行比较，比较的顺序是通过 order 定义的权重。
+// ### 解题思路
+// 此处撰写解题思路
+// 1、根据order的字母顺序，给予每个字母定义权重
+// 2、words 中后一个跟前一个进行比较，比较的顺序是通过 order 定义的权重。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     private Map<Character, Integer> orders;
@@ -57,4 +57,4 @@ class Solution {
         }
     }
 }
-```
+// ```

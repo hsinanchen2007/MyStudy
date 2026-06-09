@@ -1,7 +1,7 @@
-思路：挨个删除两个重复的字符即可。
-<br/><br/>
-代码：
-```
+// 思路：挨个删除两个重复的字符即可。
+// <br/><br/>
+// 代码：
+// ```
 class Solution {
     public String removeDuplicates(String S) {
         StringBuilder sb = new StringBuilder(S);
@@ -20,4 +20,4 @@ class Solution {
         }
     }
 }
-```
+// ```

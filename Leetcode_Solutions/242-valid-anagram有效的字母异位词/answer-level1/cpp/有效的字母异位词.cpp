@@ -1,6 +1,6 @@
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //构建哈希数组，用索引0~26代表a~z
@@ -22,4 +22,4 @@ public:
         return true;
     }
 };
-```
+// ```

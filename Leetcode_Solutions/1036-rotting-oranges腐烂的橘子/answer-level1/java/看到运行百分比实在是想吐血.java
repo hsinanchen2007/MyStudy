@@ -1,6 +1,6 @@
-**第一版本：**
-先将腐烂的橘子放入队列，出队遍历队列，将四周的新鲜橘子污染成腐烂橘子，如果有将新鲜的橘子置为腐烂的橘子，加一分钟，继续下一轮。否则跳出遍历。最后查看是否还有新鲜橘子，如有则返回-1。
-```
+// **第一版本：**
+// 先将腐烂的橘子放入队列，出队遍历队列，将四周的新鲜橘子污染成腐烂橘子，如果有将新鲜的橘子置为腐烂的橘子，加一分钟，继续下一轮。否则跳出遍历。最后查看是否还有新鲜橘子，如有则返回-1。
+// ```
 public int orangesRotting(int[][] grid) {
         int count = 0;
         int x = grid.length;
@@ -71,10 +71,10 @@ public int orangesRotting(int[][] grid) {
         }
         return count;
     }
-```
-**第二版本**
-在第一版本的基础上，当之前已经腐烂的橘子入队之后，则将腐烂的橘子置为状态3，避免以后再次无效遍历。
-```
+// ```
+// **第二版本**
+// 在第一版本的基础上，当之前已经腐烂的橘子入队之后，则将腐烂的橘子置为状态3，避免以后再次无效遍历。
+// ```
 public int orangesRotting(int[][] grid) {
         int count = 0;
         int x = grid.length;
@@ -147,10 +147,10 @@ public int orangesRotting(int[][] grid) {
         }
         return count;
     }
-```
-**第三版本**
-将队列改成了ArrayList。
-```
+// ```
+// **第三版本**
+// 将队列改成了ArrayList。
+// ```
 public int orangesRotting(int[][] grid) {
         int count = 0;
         int x = grid.length;
@@ -223,4 +223,4 @@ public int orangesRotting(int[][] grid) {
         }
         return count;
     }
-```
+// ```

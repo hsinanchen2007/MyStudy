@@ -1,8 +1,8 @@
-### 解题思路
-脑袋一拍，就这样了，欢迎指正 :)
-### 代码
+// ### 解题思路
+// 脑袋一拍，就这样了，欢迎指正 :)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         int maxSum = Integer.MIN_VALUE;
@@ -20,4 +20,4 @@ class Solution {
         return maxSum;
     }
 }
-```
+// ```

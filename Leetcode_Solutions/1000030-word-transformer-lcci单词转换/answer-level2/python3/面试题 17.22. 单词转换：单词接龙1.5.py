@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-预处理单词到通配符以及通配符到单词的路径，用字典来作为层次宽搜的容器进行宽搜扩展即可。
+# 预处理单词到通配符以及通配符到单词的路径，用字典来作为层次宽搜的容器进行宽搜扩展即可。
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[str]:
         d = collections.defaultdict(list)
@@ -24,8 +24,8 @@ class Solution:
                 q = {w: [*q[i], w] for i in q for j in d[i] for w in d[j] if w not in v}
                 v.update(q.keys())
         return []
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[str]:
         alpha = 'abcdefghijklmnopqrstuvwxyz'
@@ -46,4 +46,4 @@ class Solution:
                                 notvst.remove(w)
                 q = t
         return []
-```
+# ```

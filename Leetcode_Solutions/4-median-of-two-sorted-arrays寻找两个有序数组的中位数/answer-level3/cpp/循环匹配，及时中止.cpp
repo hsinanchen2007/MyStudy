@@ -1,5 +1,5 @@
-由于两个数组严格增序，故可循环比较两数组的左边值，而且不需要比完，一旦指到了中位值的位置，就可以中止了。```
-```
+// 由于两个数组严格增序，故可循环比较两数组的左边值，而且不需要比完，一旦指到了中位值的位置，就可以中止了。```
+// ```
 double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
     int n_1 = nums1.size();
     int n_2 = nums2.size();
@@ -42,5 +42,5 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
     else mid = double(dp[k]);
     return mid;
 }
-```
+// ```
 

@@ -1,5 +1,5 @@
-代码比较简单，看起来也好理解
-```
+# 代码比较简单，看起来也好理解
+# ```
 class Solution:
     def findCircleNum(self, M) -> int:
         father = [i for i in range(len(M))]
@@ -18,4 +18,4 @@ class Solution:
         for i in range(len(M)): find(i)
         return len(set(father))
 
-```
+# ```

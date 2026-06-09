@@ -1,4 +1,4 @@
-```js
+// ```js
 var rotate = function(nums, k) {
     if (k == 0 || nums.length < 2) {
         return nums
@@ -10,4 +10,4 @@ var rotate = function(nums, k) {
     }
     return nums;
 };
-```
+// ```

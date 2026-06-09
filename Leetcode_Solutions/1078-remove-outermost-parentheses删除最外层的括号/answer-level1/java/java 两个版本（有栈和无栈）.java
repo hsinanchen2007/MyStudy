@@ -1,9 +1,9 @@
-### 解题思路
-有栈：通过栈是否非空来进行判断
+// ### 解题思路
+// 有栈：通过栈是否非空来进行判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String removeOuterParentheses(String S) {
         Stack<Character> sta1 = new Stack<Character>();
@@ -22,13 +22,13 @@ class Solution {
         return sb.toString();
     }
 }
-```
-### 解题思路
-无栈：通过左括号的个数来进行判断
+// ```
+// ### 解题思路
+// 无栈：通过左括号的个数来进行判断
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String removeOuterParentheses(String S) {
         StringBuilder sb=new StringBuilder();
@@ -40,4 +40,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

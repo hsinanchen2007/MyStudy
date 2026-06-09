@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String shortestPalindrome(String s) {
         int i = 0;
@@ -36,4 +36,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

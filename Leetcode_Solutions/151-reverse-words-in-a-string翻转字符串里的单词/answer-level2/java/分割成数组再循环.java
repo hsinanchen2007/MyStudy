@@ -1,6 +1,6 @@
-用空格分隔成数组，倒序循环一次即可
-    }
-```
+// 用空格分隔成数组，倒序循环一次即可
+//     }
+// ```
     public String reverseWords(String s) {
         StringBuilder outStr = new StringBuilder();
         String[] arr = s.split(" ");
@@ -14,4 +14,4 @@
             out = out.substring(0, out.length() - 1);
         }
         return out;
-```
+// ```

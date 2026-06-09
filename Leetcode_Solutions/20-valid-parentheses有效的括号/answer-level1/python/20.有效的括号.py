@@ -1,9 +1,9 @@
-### 解题思路
-判断整个（）、[]、{}，由内而外逐个删除
+# ### 解题思路
+# 判断整个（）、[]、{}，由内而外逐个删除
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         n=len(s)
@@ -33,4 +33,4 @@ class Solution:
 
 
 
-```
+# ```

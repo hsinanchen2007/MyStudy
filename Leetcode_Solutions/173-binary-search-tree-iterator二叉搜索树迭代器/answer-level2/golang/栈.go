@@ -1,6 +1,6 @@
-用栈需要额外的空间，如果用莫里斯方法的话，可以不用多余的空间
+// 用栈需要额外的空间，如果用莫里斯方法的话，可以不用多余的空间
 
-```
+// ```
 import (
 	"container/list"
 )
@@ -69,4 +69,4 @@ func (this *BSTIterator) pushNode(root *TreeNode) {
 		})
 	}
 }
-```
+// ```

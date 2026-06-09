@@ -1,7 +1,7 @@
-没啥好说的，单纯的利用**内置函数**
+// 没啥好说的，单纯的利用**内置函数**
 
-# 代码
-```java [-二维数组]
+// # 代码
+// ```java [-二维数组]
 class Solution {
     public int[] drawLine(int length, int w, int x1, int x2, int y) {
         int width = w >> 5, height = length / width, idx = 0;
@@ -18,8 +18,8 @@ class Solution {
         return res;
     }
 }
-```
-```java [-一维数组]
+// ```
+// ```java [-一维数组]
 class Solution {
     public int[] drawLine(int length, int w, int x1, int x2, int y) {
         char[] screen = new char[length << 5];
@@ -35,4 +35,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

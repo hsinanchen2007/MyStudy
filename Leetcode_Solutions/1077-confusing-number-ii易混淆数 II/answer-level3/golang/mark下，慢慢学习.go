@@ -1,6 +1,6 @@
-mark下[大佬](https://leetcode-cn.com/u/resara)实现，后面慢慢学习
+// mark下[大佬](https://leetcode-cn.com/u/resara)实现，后面慢慢学习
 
-```go
+// ```go
 var tas = map[int]int{6: 9, 9: 6, 0: 0, 1: 1, 8: 8}
 
 func confusingNumberII(N int) int {
@@ -38,4 +38,4 @@ func check(x int) bool {
 	}
 	return true
 }
-```
+// ```

@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/0a44469b488fd8f31ad27178e982ba7addee898b36c08af8812adc1aaa2b060d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0a44469b488fd8f31ad27178e982ba7addee898b36c08af8812adc1aaa2b060d-image.png)
 
-### 解题思路
-使用List<int>存储集合数据，使用 Dictionary<int, HashSet<int>> 维护每个值的索引集合，可以O(1)找到值的索引集合，也可以O(1)增删值的某个索引。
-**添加值时**，因为随机插入时需要后移插入位置之后的元素，时间复杂度是O(n)，因此直接往List<int>尾部追加数据，不需要后移元素，即实现了 O(1) 添加。
-**删除某个值时**，判断字典内是否存在此值的索引集合或索引集合是否为空，不存在索引值则无法删除直接返回false；若存在则将要删除的值替换为Values里的最后一个元素的值，并将Values最后一个元素移除，此时需要更新最后一个元素的值和删除的值的索引，因为索引集合使用HashSet，因此也可以在O(1)实现。
+// ### 解题思路
+// 使用List<int>存储集合数据，使用 Dictionary<int, HashSet<int>> 维护每个值的索引集合，可以O(1)找到值的索引集合，也可以O(1)增删值的某个索引。
+// **添加值时**，因为随机插入时需要后移插入位置之后的元素，时间复杂度是O(n)，因此直接往List<int>尾部追加数据，不需要后移元素，即实现了 O(1) 添加。
+// **删除某个值时**，判断字典内是否存在此值的索引集合或索引集合是否为空，不存在索引值则无法删除直接返回false；若存在则将要删除的值替换为Values里的最后一个元素的值，并将Values最后一个元素移除，此时需要更新最后一个元素的值和删除的值的索引，因为索引集合使用HashSet，因此也可以在O(1)实现。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
     public class RandomizedCollection
     {
         // 字典内使用 HashSet 是为了实现 O(1) 删除索引，而且索引不会重复
@@ -75,4 +75,4 @@
             return Values[new Random().Next(0, Values.Count)];
         }
     }
-```
+// ```

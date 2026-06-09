@@ -1,9 +1,9 @@
-### 解题思路
-采用双栈的办法以空间换时间，栈s1作为普通的数据栈，栈s2用来保存每次入栈时的较小值，这样s2栈顶的值总是栈中元素的最小值。
+// ### 解题思路
+// 采用双栈的办法以空间换时间，栈s1作为普通的数据栈，栈s2用来保存每次入栈时的较小值，这样s2栈顶的值总是栈中元素的最小值。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -47,4 +47,4 @@ private:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 1. 暴力法
 func maxSubArray(nums []int) int {
     maxSum := nums[0]
@@ -25,4 +25,4 @@ func maxSubArray(nums []int) int {
     }
     return res
 }
-```
+// ```

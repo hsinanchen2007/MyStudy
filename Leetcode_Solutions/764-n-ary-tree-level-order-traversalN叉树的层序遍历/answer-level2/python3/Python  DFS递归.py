@@ -1,8 +1,8 @@
-用递归写的，方法和二叉树的层次遍历一样。 
-用bfs和dfs迭代也都很简单，三种方法可见我那篇题解。
+# 用递归写的，方法和二叉树的层次遍历一样。 
+# 用bfs和dfs迭代也都很简单，三种方法可见我那篇题解。
 
 
-```
+# ```
 class Solution:
     def levelOrder(self, root: 'Node') -> List[List[int]]:
         res=[]
@@ -18,5 +18,5 @@ class Solution:
         if not root: return []
         travel(root,level)
         return res
-```
+# ```
 

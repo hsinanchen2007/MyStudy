@@ -1,4 +1,4 @@
-```
+// ```
 
 func cuttingRope(n int) int {
 	// 用的是动态规划的方法，分解问题 f(n)=max(f(i)*f(n-i)),
@@ -57,4 +57,4 @@ func cuttingRope2(n int) int {
 
 }
 
-```
+// ```

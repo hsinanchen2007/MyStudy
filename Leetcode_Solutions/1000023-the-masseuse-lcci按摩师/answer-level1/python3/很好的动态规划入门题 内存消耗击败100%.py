@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         
@@ -16,4 +16,4 @@ class Solution:
             dp[i][1] = dp[i-1][0] + nums[i]
         
         return(max(dp[-1][0],dp[-1][1]))
-```
+# ```

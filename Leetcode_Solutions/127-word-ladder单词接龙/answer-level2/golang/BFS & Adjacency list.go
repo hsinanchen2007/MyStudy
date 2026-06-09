@@ -1,5 +1,5 @@
-邻接表
-```
+// 邻接表
+// ```
 func ladderLength(beginWord string, endWord string, wordList []string) int {
     adjList := make(map[string][]string)
     wordList = append(wordList, beginWord)
@@ -49,11 +49,11 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 
     return 0
 }
-```
+// ```
 
 
-直接BFS搜索
-```
+// 直接BFS搜索
+// ```
 func ladderLength(beginWord string, endWord string, wordList []string) int {
     set := make(map[string][]string)
     for _, v := range wordList {
@@ -94,4 +94,4 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
     }
     return 0
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string toHex(int num) {
@@ -14,4 +14,4 @@ public:
         return ret;
     }
 };
-```
+// ```

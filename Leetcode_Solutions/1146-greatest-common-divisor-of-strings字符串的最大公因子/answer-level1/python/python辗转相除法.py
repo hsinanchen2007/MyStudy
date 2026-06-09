@@ -1,10 +1,10 @@
-### 解题思路
-s1 s2判断是否字符相同
-diff为余数
+# ### 解题思路
+# s1 s2判断是否字符相同
+# diff为余数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         s1 = str1 + str2
@@ -25,4 +25,4 @@ class Solution:
             return str1
         return self.gcdOfStrings(str1,str2)
 
-```
+# ```

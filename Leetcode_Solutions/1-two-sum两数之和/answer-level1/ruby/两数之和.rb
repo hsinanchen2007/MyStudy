@@ -1,9 +1,9 @@
-### 解题思路
-什么情况啊这是
+# ### 解题思路
+# 什么情况啊这是
 
-### 代码
+# ### 代码
 
-```ruby
+# ```ruby
 # @param {Integer[]} nums
 # @param {Integer} target
 # @return {Integer[]}
@@ -21,4 +21,4 @@ def two_sum(nums, target)
     end
 end
 
-``` 
+# ``` 

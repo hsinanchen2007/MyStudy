@@ -1,9 +1,9 @@
-### 解题思路
-纯C++
+// ### 解题思路
+// 纯C++
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void solve(vector<vector<char>>& board) {
@@ -53,4 +53,4 @@ public:
         }
     }
 };
-```
+// ```

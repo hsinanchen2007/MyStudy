@@ -1,9 +1,9 @@
-### 解题思路
-用一个list存储Stack,push操作只管往最后一个Stack加,当然要判断list是否为空和最后一个Stack是否满了,注意栈最大值为0的情况,pop和popAt操作只要从最后一个Stack里面取就行了,取完判断一下该Stack是否为空,为空直接移除
+// ### 解题思路
+// 用一个list存储Stack,push操作只管往最后一个Stack加,当然要判断list是否为空和最后一个Stack是否满了,注意栈最大值为0的情况,pop和popAt操作只要从最后一个Stack里面取就行了,取完判断一下该Stack是否为空,为空直接移除
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class StackOfPlates {
     ArrayList<Stack<Integer>> stacks = new ArrayList<Stack<Integer>>();
     int max;
@@ -45,4 +45,4 @@ class StackOfPlates {
  * int param_2 = obj.pop();
  * int param_3 = obj.popAt(index);
  */
-```
+// ```

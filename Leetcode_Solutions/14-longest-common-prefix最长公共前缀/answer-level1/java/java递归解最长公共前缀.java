@@ -1,5 +1,5 @@
-使用递归循环遍历并筛选
-```
+// 使用递归循环遍历并筛选
+// ```
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         boolean b = true;
@@ -34,4 +34,4 @@ class Solution {
         }
 	}
 }
-```
+// ```

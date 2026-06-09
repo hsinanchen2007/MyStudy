@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/f0403247b66a542fb9b23c2a1b3bfb57a8e05c68f654818b3c610ba8a7fdab16-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f0403247b66a542fb9b23c2a1b3bfb57a8e05c68f654818b3c610ba8a7fdab16-image.png)
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,9 +38,9 @@ PostOrder(root,returnSize,res);
 
 return res;
 }
-```
-//迭代，利用莫里斯遍历，核心模板如下：其中需注意的是，本人利用一个pre指针保存前一个结点的情况来判断是否重复计数
-```
+// ```
+// //迭代，利用莫里斯遍历，核心模板如下：其中需注意的是，本人利用一个pre指针保存前一个结点的情况来判断是否重复计数
+// ```
 
 int TreeSize(struct TreeNode* root)
 {
@@ -82,12 +82,12 @@ int* postorderTraversal(struct TreeNode* root, int* returnSize){
    }
 return res;
 }
-```
-//双栈法，栈1从左至右依次层次遍历，栈2作为记录栈，最后将栈2中结点值逆序输出即可
-思路是：
-用一个栈实现 根->右->左 的遍历
-用另一个栈将遍历顺序反过来，使之变成 左->右->根
-```
+// ```
+// //双栈法，栈1从左至右依次层次遍历，栈2作为记录栈，最后将栈2中结点值逆序输出即可
+// 思路是：
+// 用一个栈实现 根->右->左 的遍历
+// 用另一个栈将遍历顺序反过来，使之变成 左->右->根
+// ```
 # define MAXSIZE 1000
 int TreeSize(struct TreeNode*root)
 {
@@ -128,4 +128,4 @@ return res;
 }
 
 
-```
+// ```

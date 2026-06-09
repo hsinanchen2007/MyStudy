@@ -1,10 +1,10 @@
-## 思路:
+// ## 思路:
 
-模拟过程
+// 模拟过程
 
-简单实现过程
+// 简单实现过程
 
-```python
+// ```python
 def generate(self, numRows: int) -> List[List[int]]:
         res = []
         while numRows:
@@ -19,15 +19,15 @@ def generate(self, numRows: int) -> List[List[int]]:
                 res.append(tmp)
             numRows -= 1
         return res
-```
+// ```
 
-接下来, 我们把代码简化!
+// 接下来, 我们把代码简化!
 
-相似题型:[119. 杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/)
+// 相似题型:[119. 杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/)
 
-## 代码:
+// ## 代码:
 
-```python [1]
+// ```python [1]
 def generate(self, numRows: int) -> List[List[int]]:
         res = []
         tmp = []
@@ -37,11 +37,11 @@ def generate(self, numRows: int) -> List[List[int]]:
                 tmp[i] = tmp[i] + tmp[i+1]
             res.append(tmp[:])
         return res
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> res = new LinkedList<>();
@@ -56,5 +56,5 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 

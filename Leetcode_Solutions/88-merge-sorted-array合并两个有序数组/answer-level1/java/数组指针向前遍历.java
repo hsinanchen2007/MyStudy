@@ -1,6 +1,6 @@
-利用指针, 从num1最后一位开始向前遍历
-**note:** 如果m=0(num1全为0值),直接将num2复制给num1
-```
+// 利用指针, 从num1最后一位开始向前遍历
+// **note:** 如果m=0(num1全为0值),直接将num2复制给num1
+// ```
 class Solution {
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
 
@@ -22,4 +22,4 @@ class Solution {
         }
     }
 }
-```
+// ```

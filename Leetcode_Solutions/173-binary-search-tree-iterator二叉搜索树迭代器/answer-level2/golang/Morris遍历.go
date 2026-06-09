@@ -1,9 +1,9 @@
-### 解题思路
-`Morris遍历`
+// ### 解题思路
+// `Morris遍历`
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -61,7 +61,7 @@ func (this *BSTIterator) n(move bool) (int, bool) {
 	}
 	return 0, false
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
-[对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)
+// [Go版本 Github](https://github.com/temporaries/leetcode)
+// [对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)

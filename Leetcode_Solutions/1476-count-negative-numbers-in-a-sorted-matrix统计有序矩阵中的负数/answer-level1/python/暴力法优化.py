@@ -1,9 +1,9 @@
-### 解题思路
- 当遇到每一行的第一个负数，直接计算出该行的负数个数（因为递减顺序排列）
+# ### 解题思路
+#  当遇到每一行的第一个负数，直接计算出该行的负数个数（因为递减顺序排列）
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countNegatives(self, grid):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                     count += m - y
                     break
         return count
-```
+# ```

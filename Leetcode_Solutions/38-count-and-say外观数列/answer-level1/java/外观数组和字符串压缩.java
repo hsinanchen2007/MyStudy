@@ -1,11 +1,11 @@
-此题类似于[面试题 01.06. 字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci/)
+// 此题类似于[面试题 01.06. 字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci/)
 
-1. 一般思路，当字符发生变化时记入上一次的字符以及统计的个数，同时统计的个数重置。字符不发生变化继续累加统计的个数。
-当扫描到达尾部，再将最后的字符添加上即可。
-2. 也可使用快慢指针进行个数统计，当字符发生变化时，计算个数，同时改变快慢指针。
+// 1. 一般思路，当字符发生变化时记入上一次的字符以及统计的个数，同时统计的个数重置。字符不发生变化继续累加统计的个数。
+// 当扫描到达尾部，再将最后的字符添加上即可。
+// 2. 也可使用快慢指针进行个数统计，当字符发生变化时，计算个数，同时改变快慢指针。
 
-一般思路的核心代码：
-```
+// 一般思路的核心代码：
+// ```
 int i = 1;
 int count = 1;
 StringBuilder sb = new StringBuilder();
@@ -19,10 +19,10 @@ while( i < str.length()){
     i++;
 }
 sb.append(count).append(str.charAt(i-1));
-```
+// ```
 
-**递归方式代码：**
-```
+// **递归方式代码：**
+// ```
 class Solution {
     public String countAndSay(int n) {
         if( n == 1) return "1";
@@ -43,10 +43,10 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```
 
-**迭代方式代码：**
-```
+// **迭代方式代码：**
+// ```
 class Solution {
     public String countAndSay(int n) {
         String pre = "1";        
@@ -69,6 +69,6 @@ class Solution {
         return pre;
     }
 }
-```
+// ```
 
 

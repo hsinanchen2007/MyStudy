@@ -1,9 +1,9 @@
-### 解题思路
-比较简单，超过100%
+// ### 解题思路
+// 比较简单，超过100%
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun findNumbers(nums: IntArray): Int {
       var count:Int =0
@@ -15,4 +15,4 @@ class Solution {
         return count
     }
 }
-```
+// ```

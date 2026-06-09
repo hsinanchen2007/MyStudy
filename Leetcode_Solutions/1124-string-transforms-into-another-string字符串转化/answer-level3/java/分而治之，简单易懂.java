@@ -1,12 +1,12 @@
-### 解题思路
-此题很简单分为下面几种情况：
-1、字符完全相等，返回true；
-2、26个字符绕回字符串"abcdefghijklmnopqrstuvwxyz","bcdefghijklmnopqrstuvwxyza"，最后转a的时候会触发头部转换。
-3、其中有交替字符无法转换，如a->b a->c,返回false
+// ### 解题思路
+// 此题很简单分为下面几种情况：
+// 1、字符完全相等，返回true；
+// 2、26个字符绕回字符串"abcdefghijklmnopqrstuvwxyz","bcdefghijklmnopqrstuvwxyza"，最后转a的时候会触发头部转换。
+// 3、其中有交替字符无法转换，如a->b a->c,返回false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public boolean canConvert(String str1, String str2) {
@@ -45,4 +45,4 @@ class Solution {
 
     }
 }
-```
+// ```

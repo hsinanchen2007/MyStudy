@@ -1,11 +1,11 @@
-### 解题思路
-使用回溯枚举所有可能的情况，因为可能有重复值，用一个数组记录每次旋转，选择每个值的总步数，输出数组最小值就是要求的结果。
-第一次没有记忆化超时了，自己使用字典进行记忆化，结果不太对（只考虑了index做为标识），lru_cache真香。
+# ### 解题思路
+# 使用回溯枚举所有可能的情况，因为可能有重复值，用一个数组记录每次旋转，选择每个值的总步数，输出数组最小值就是要求的结果。
+# 第一次没有记忆化超时了，自己使用字典进行记忆化，结果不太对（只考虑了index做为标识），lru_cache真香。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRotateSteps(self, ring: str, key: str) -> int:
         from functools import lru_cache
@@ -38,4 +38,4 @@ class Solution:
             return res
 
         return dfs(ring, key, 0)
-```
+# ```

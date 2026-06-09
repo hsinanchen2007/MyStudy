@@ -1,17 +1,17 @@
 
-## 思路:
+# ## 思路:
 
-思路一:递归
+# 思路一:递归
 
-思路二:迭代
+# 思路二:迭代
 
-直接看代码!
+# 直接看代码!
 
-## 代码:
+# ## 代码:
 
-思路一:递归
+# 思路一:递归
 
-```python [1]
+# ```python [1]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,11 +25,11 @@ class Solution:
         if p and q and p.val == q.val :
             return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)     
         return False
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -46,13 +46,13 @@ class Solution {
         else return false;
     }
 }
-```
+# ```
 
 
 
-思路二:
+# 思路二:
 
-```python [2]
+# ```python [2]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -73,11 +73,11 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```
 
 
 
-```java [2]
+# ```java [2]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -107,5 +107,5 @@ class Solution {
         return stack1.isEmpty() && stack2.isEmpty();
     }
 }
-```
+# ```
 

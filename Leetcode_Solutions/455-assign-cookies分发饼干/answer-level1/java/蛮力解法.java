@@ -1,8 +1,8 @@
-有点暴力，向别人学习，先满足小的，且分配的饼干刚好满足，在满足大的
+// 有点暴力，向别人学习，先满足小的，且分配的饼干刚好满足，在满足大的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
       Arrays.sort(g);
@@ -25,4 +25,4 @@ class Solution {
 
     }
 }
-```
+// ```

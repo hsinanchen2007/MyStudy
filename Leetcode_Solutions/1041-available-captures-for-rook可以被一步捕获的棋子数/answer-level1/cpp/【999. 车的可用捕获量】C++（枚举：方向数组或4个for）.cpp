@@ -1,10 +1,10 @@
-### 解题思路
-枚举四个方向：四个for或者方向数组；
-![image.png](https://pic.leetcode-cn.com/a27400c30a2cd7e70ecb8cd14615b48baa10a404049f6cdbf3999fa281af5153-image.png)
-**一点优化**：找R的同时统计p的总数，之后遍历的时候一旦res等于总数直接返回。
-### 代码
+// ### 解题思路
+// 枚举四个方向：四个for或者方向数组；
+// ![image.png](https://pic.leetcode-cn.com/a27400c30a2cd7e70ecb8cd14615b48baa10a404049f6cdbf3999fa281af5153-image.png)
+// **一点优化**：找R的同时统计p的总数，之后遍历的时候一旦res等于总数直接返回。
+// ### 代码
 
-```cpp []
+// ```cpp []
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -83,8 +83,8 @@ public:
         return res;
     }
 };
-```
-```cpp []
+// ```
+// ```cpp []
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -121,4 +121,4 @@ public:
         return res;
     }
 };
-```
+// ```

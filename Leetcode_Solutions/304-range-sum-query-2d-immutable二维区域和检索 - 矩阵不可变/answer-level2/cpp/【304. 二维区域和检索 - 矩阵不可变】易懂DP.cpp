@@ -1,10 +1,10 @@
-### 思路
-暴力计算超时，因此考虑预计算的方法，在构造函数中，计算每个顶点dp[i][j]值，表示与[0, 0]点之间构成的正方形内所有数字和。
-在sumRegion中，如果快速计算(r1, c1)和(r2, c2)构成矩形的值，当r1和c1都大于0，通过计算dp[r2][c2] - dp[r1 - 1][c2] - dp[r2][c1 - 1] + dp[r1 - 1][c1 - 1]即可，注意判断下标范围。
+// ### 思路
+// 暴力计算超时，因此考虑预计算的方法，在构造函数中，计算每个顶点dp[i][j]值，表示与[0, 0]点之间构成的正方形内所有数字和。
+// 在sumRegion中，如果快速计算(r1, c1)和(r2, c2)构成矩形的值，当r1和c1都大于0，通过计算dp[r2][c2] - dp[r1 - 1][c2] - dp[r2][c1 - 1] + dp[r1 - 1][c1 - 1]即可，注意判断下标范围。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class NumMatrix {
     vector<vector<int>> dp;
 public:
@@ -44,4 +44,4 @@ public:
  * NumMatrix* obj = new NumMatrix(matrix);
  * int param_1 = obj->sumRegion(row1,col1,row2,col2);
  */
-```
+// ```

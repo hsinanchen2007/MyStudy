@@ -1,6 +1,6 @@
-先计算出链表的长度，然后再去打印链表
+// 先计算出链表的长度，然后再去打印链表
 
-```
+// ```
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -35,4 +35,4 @@ class Solution {
         return $head;
     }
 }
-```
+// ```

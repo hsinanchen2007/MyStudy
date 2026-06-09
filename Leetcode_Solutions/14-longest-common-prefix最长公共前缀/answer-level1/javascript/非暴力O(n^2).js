@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :60 ms, 在所有 JavaScript 提交中击败了94.48%的用户
-内存消耗 :34 MB, 在所有 JavaScript 提交中击败了90.46%的用户
-非暴力O(n^2)
+// ### 解题思路
+// 执行用时 :60 ms, 在所有 JavaScript 提交中击败了94.48%的用户
+// 内存消耗 :34 MB, 在所有 JavaScript 提交中击败了90.46%的用户
+// 非暴力O(n^2)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string}
@@ -43,4 +43,4 @@ function callBack(value, nextValue) {
 	}
 	return prefix;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-发现自带的list比导入的queue好用= =
-思路基本上就是滑动窗口
+# ### 解题思路
+# 发现自带的list比导入的queue好用= =
+# 思路基本上就是滑动窗口
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         if not s: return 0
@@ -24,4 +24,4 @@ class Solution:
             if max_result<result:
                 max_result = result
         return max_result
-```
+# ```

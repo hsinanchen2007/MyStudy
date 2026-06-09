@@ -1,9 +1,9 @@
 
-![截屏2019-12-14下午3.57.21.png](https://pic.leetcode-cn.com/27f2fcfc1e3544553213ccf5667de22db2cebd1ece5243e905b82fcbe2971064-%E6%88%AA%E5%B1%8F2019-12-14%E4%B8%8B%E5%8D%883.57.21.png)
+// ![截屏2019-12-14下午3.57.21.png](https://pic.leetcode-cn.com/27f2fcfc1e3544553213ccf5667de22db2cebd1ece5243e905b82fcbe2971064-%E6%88%AA%E5%B1%8F2019-12-14%E4%B8%8B%E5%8D%883.57.21.png)
 
-一次深度+一次广度，第一次将两岛标记出来，第二次从岛1广度遍历每个点的邻居是否为岛2，是则返回，否则标记该点为岛1，继续遍历。
+// 一次深度+一次广度，第一次将两岛标记出来，第二次从岛1广度遍历每个点的邻居是否为岛2，是则返回，否则标记该点为岛1，继续遍历。
 
-```
+// ```
 /**
  * @param {number[][]} A
  * @return {number}
@@ -99,4 +99,4 @@ const find_boundary = function(A) {
     }
     return covers;
 }
-```
+// ```

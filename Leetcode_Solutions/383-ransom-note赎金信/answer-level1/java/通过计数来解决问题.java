@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] num=new int[26]; //定义一个int型数组，来统计每个字符出现的次数
@@ -14,5 +14,5 @@ class Solution {
         return true; 
     }
 }
-```
+// ```
 

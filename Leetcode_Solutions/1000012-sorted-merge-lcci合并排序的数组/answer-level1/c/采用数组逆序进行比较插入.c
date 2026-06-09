@@ -1,4 +1,4 @@
-```
+// ```
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     int totalSize = m + n;
 
@@ -11,4 +11,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
          A[--totalSize] = A[m - 1] > B[n - 1] ? A[--m] : B[--n];
     }
 }
-```
+// ```

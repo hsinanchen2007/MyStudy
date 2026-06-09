@@ -1,5 +1,5 @@
-考虑了多人被所有人信任的情况
-```
+// 考虑了多人被所有人信任的情况
+// ```
 package leetcode;
 
 public class FindtheTownJudge {
@@ -33,6 +33,6 @@ public class FindtheTownJudge {
         return man;
     }
 }
-```
+// ```
 
 

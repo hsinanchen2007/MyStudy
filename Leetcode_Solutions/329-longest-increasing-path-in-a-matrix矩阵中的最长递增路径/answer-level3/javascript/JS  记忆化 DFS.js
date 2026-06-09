@@ -1,9 +1,9 @@
-### 解题思路
-注释写的挺清楚了。
-主要就是记忆化，不然一直超时很烦。
-### 代码
+// ### 解题思路
+// 注释写的挺清楚了。
+// 主要就是记忆化，不然一直超时很烦。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {number}
@@ -56,4 +56,4 @@ var longestIncreasingPath = function(matrix) {
     }
     return max;
 };
-```
+// ```

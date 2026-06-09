@@ -1,9 +1,9 @@
-### 解题思路
-参照注解
+// ### 解题思路
+// 参照注解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /* The knows API is defined in the parent class Relation.
       boolean knows(int a, int b); */
 
@@ -32,4 +32,4 @@ public class Solution extends Relation {
         return i;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int nthUglyNumber(int n, int a, int b, int c) 
     {
@@ -71,4 +71,4 @@ class Solution {
         return sum / a;
     }
 }
-```
+// ```

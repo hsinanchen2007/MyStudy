@@ -1,6 +1,6 @@
-C 语言实现
-遍历 60 分钟 LED 的个数，再遍历出 12 小时 LED 的个数，如果相加等于 num，就保存。
-```C []
+// C 语言实现
+// 遍历 60 分钟 LED 的个数，再遍历出 12 小时 LED 的个数，如果相加等于 num，就保存。
+// ```C []
 char ** readBinaryWatch(int num, int* returnSize) {
     char **res = NULL;
     *returnSize = 0;
@@ -19,4 +19,4 @@ char ** readBinaryWatch(int num, int* returnSize) {
     }
     return res;
 }
-```
+// ```

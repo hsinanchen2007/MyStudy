@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def binaryTreePaths(self, root: TreeNode) -> List[str]:
         if not root: return []
@@ -16,4 +16,4 @@ class Solution:
         dfs(root)
         
         return paths
-```
+# ```

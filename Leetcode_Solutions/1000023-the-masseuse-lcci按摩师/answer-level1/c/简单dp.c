@@ -1,4 +1,4 @@
-```c
+// ```c
 #define SIZE 50000
 #define MAX(a, b) ((a) < (b) ? (b) : (a))
 #define MIN(a, b) ((a) > (b) ? (b) : (a))
@@ -22,4 +22,4 @@ int massage(int* nums, int numsSize){
     return dp[numsSize - 1];
 }
 
-```
+// ```

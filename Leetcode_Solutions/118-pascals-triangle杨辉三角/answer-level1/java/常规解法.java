@@ -1,4 +1,4 @@
-```
+// ```
 public static List<List<Integer>> generate(int numRows) {
         List<List<Integer>> list=new ArrayList<List<Integer>>();
         for(int i=0;i<numRows;i++){
@@ -20,4 +20,4 @@ public static List<List<Integer>> generate(int numRows) {
         }
         return list;
     }
-```
+// ```

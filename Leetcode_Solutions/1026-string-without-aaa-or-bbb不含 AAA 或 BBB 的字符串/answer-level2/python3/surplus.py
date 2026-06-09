@@ -1,4 +1,4 @@
-```
+# ```
 # https://leetcode-cn.com/problems/string-without-aaa-or-bbb/
 class Solution:
     def strWithout3a3b(self, A: int, B: int) -> str:
@@ -29,4 +29,4 @@ class Solution:
             res_str += i
         return res_str
 
-```
+# ```

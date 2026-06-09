@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-第一步：根据 grid 初始化并查集，所有为 1 的都初始化为小的岛屿
-第二步：遍历 grid 合并岛屿
-第三步：遍历 并查集 得到最大岛屿
+// 第一步：根据 grid 初始化并查集，所有为 1 的都初始化为小的岛屿
+// 第二步：遍历 grid 合并岛屿
+// 第三步：遍历 并查集 得到最大岛屿
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var maxAreaOfIsland = function(grid) {
   if (!grid.length) return 0
   // 初始化并查集
@@ -71,4 +71,4 @@ UninFind.prototype.max = function() {
   }
   return max
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### python 二分查找
+// ### python 二分查找
 
-![image.png](https://pic.leetcode-cn.com/002d3a53716720d2d55275313a40bb0d3258fc3e7059c492f0705d693268b4c5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/002d3a53716720d2d55275313a40bb0d3258fc3e7059c492f0705d693268b4c5-image.png)
 
-```python []
+// ```python []
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         if matrix and matrix[0]:
@@ -17,11 +17,11 @@ class Solution:
                     return True
                 p = m
         return False
-```
+// ```
 
-### rust 蛇皮走位
+// ### rust 蛇皮走位
 
-```rust []
+// ```rust []
 impl Solution {
     pub fn find_number_in2_d_array(matrix: Vec<Vec<i32>>, target: i32) -> bool {
         let (m, n) = (matrix.len(), if matrix.len() > 0 {matrix[0].len()} else {0});
@@ -39,4 +39,4 @@ impl Solution {
         false
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-## 代码
-```cpp
+// ## 代码
+// ```cpp
 class Solution {
 public:
     double frogPosition(int n, vector<vector<int>>& edges, int t, int target) {
@@ -47,4 +47,4 @@ public:
         return ret[target] > 0 ? ((double)1 / ret[target]) : 0;
     }
 };
-```
+// ```

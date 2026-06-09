@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/4
- *
- * 解题思路: hash 表解决 1. java自带hashmap  2. 自己构造一个26个空间字符数组进行散列存储
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/4
+//  *
+//  * 解题思路: hash 表解决 1. java自带hashmap  2. 自己构造一个26个空间字符数组进行散列存储
+//  *
+//  */
+// ```
 
  public boolean canConstruct(String ransomNote, String magazine) {
     HashMap<Character , Integer> hashMap = new HashMap<>();
@@ -51,4 +51,4 @@ public boolean canConstruct2(String ransomNote, String magazine) {
     return true;
 }
 
-```
+// ```

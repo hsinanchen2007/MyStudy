@@ -1,9 +1,9 @@
-### 解题思路
-左叶子条件：root->left!=NULL&&root->left->right==NULL&&root->left->left==NULL
+// ### 解题思路
+// 左叶子条件：root->left!=NULL&&root->left->right==NULL&&root->left->left==NULL
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ public:
         return sum;
     }
 };
-```
+// ```

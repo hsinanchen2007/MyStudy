@@ -1,10 +1,10 @@
-### 解题思路
-每次pop()和top()之后, q1, q2交换一下, 始终保持q1指向有元素的队列, 
-这样每次插入的时候就不需要判断该往哪个队列中插入新元素
+# ### 解题思路
+# 每次pop()和top()之后, q1, q2交换一下, 始终保持q1指向有元素的队列, 
+# 这样每次插入的时候就不需要判断该往哪个队列中插入新元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -63,4 +63,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

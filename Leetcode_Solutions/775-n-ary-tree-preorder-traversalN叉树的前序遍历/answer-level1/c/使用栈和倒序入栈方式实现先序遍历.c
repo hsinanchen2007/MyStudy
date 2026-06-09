@@ -1,6 +1,6 @@
-因为这道题地两个二维数组把我给难住了，借鉴了一下一位网友在题解里的解法
+// 因为这道题地两个二维数组把我给难住了，借鉴了一下一位网友在题解里的解法
 
-```
+// ```
 int* preorder(struct Node* root, int* returnSize) {
     *returnSize = 0;
     if (!root)
@@ -23,4 +23,4 @@ int* preorder(struct Node* root, int* returnSize) {
     }
     return arr;
 }
-```
+// ```

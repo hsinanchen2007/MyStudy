@@ -1,10 +1,10 @@
-### 解题思路
-此处要先判断特殊情况，一种是都小于目标的选第一个，还有就是都大于的也选第一个
-再就是不需要找到相同的目标，因为他的后一个可能还是相同的
+// ### 解题思路
+// 此处要先判断特殊情况，一种是都小于目标的选第一个，还有就是都大于的也选第一个
+// 再就是不需要找到相同的目标，因为他的后一个可能还是相同的
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[]} letters
  * @param {character} target
@@ -26,4 +26,4 @@ var nextGreatestLetter = function(letters, target) {
     } 
     return letters[r] 
 };
-```
+// ```

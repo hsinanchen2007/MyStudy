@@ -1,10 +1,10 @@
-## 算法
+# ## 算法
 
-人为规定顺序，只能够按照次序加入，一旦跳过之后就不能在加入。
+# 人为规定顺序，只能够按照次序加入，一旦跳过之后就不能在加入。
 
-## 代码
+# ## 代码
 
-```python
+# ```python
 
 from copy import deepcopy
 
@@ -31,4 +31,4 @@ class Solution:
                                  sum_result+candidates[i], record, result)  # 改变候选的元素集合
             record.pop()
 
-```
+# ```

@@ -1,5 +1,5 @@
-将二叉树每一层（先左后右）依次存入数组，再从头取出判断是否为空
-```js
+// 将二叉树每一层（先左后右）依次存入数组，再从头取出判断是否为空
+// ```js
 var CBTInserter = function(root) {
     this.root = root;
 };
@@ -30,4 +30,4 @@ CBTInserter.prototype.insert = function(v) {
 CBTInserter.prototype.get_root = function() {
     return this.root;
 };
-```
+// ```

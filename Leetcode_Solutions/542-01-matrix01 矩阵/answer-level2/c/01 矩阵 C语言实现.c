@@ -1,6 +1,6 @@
-C总是很难， 因为少很多标准库。
+// C总是很难， 因为少很多标准库。
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -367,4 +367,4 @@ int updateMatrix_tester(void)
     return 0;
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 
     private HashMap<Node,Node> oldtonew=new HashMap<Node, Node>();
     private Node cloneNode(Node old){
@@ -19,4 +19,4 @@
     public Node cloneGraph(Node node) {
         return cloneNode(node);
     }
-```
+// ```

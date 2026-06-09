@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int characterReplacement(String s, int k) {
         // 存储最终的结果
@@ -36,4 +36,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

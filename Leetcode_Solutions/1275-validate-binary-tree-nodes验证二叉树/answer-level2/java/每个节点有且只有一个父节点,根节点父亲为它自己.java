@@ -1,4 +1,4 @@
-```
+// ```
     public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {
         //每个节点有且只有一个父节点,0是root,父节点为自己,-2表示没有父节点
         int[] parent = new int[n];
@@ -28,4 +28,4 @@
         }
         return true;
     }
-```
+// ```

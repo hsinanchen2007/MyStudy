@@ -1,10 +1,10 @@
-### 解题思路
-// （*returnColumnSizes）[]  用来存储每行的列数...不知道有什么屌用...
-//思想就是快排变成有序数列，然后两层循环，第二层循环使用双指针low，high。每次提交执行时间都不一样，很费解
+// ### 解题思路
+// // （*returnColumnSizes）[]  用来存储每行的列数...不知道有什么屌用...
+// //思想就是快排变成有序数列，然后两层循环，第二层循环使用双指针low，high。每次提交执行时间都不一样，很费解
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -65,4 +65,4 @@ int** threeSum(int* nums, int numsSize, int* returnSize, int** returnColumnSizes
     }
     return result;
 }
-```
+// ```

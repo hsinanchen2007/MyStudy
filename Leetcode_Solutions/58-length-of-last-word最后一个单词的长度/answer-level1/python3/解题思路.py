@@ -1,9 +1,9 @@
-### 解题思路
-直接用split分隔开
+# ### 解题思路
+# 直接用split分隔开
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         if s=="" or s==" ":
@@ -13,4 +13,4 @@ class Solution:
         if ss[-1]!=" ":
             return len(ss[-1])
         return 0
-```
+# ```

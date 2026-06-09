@@ -1,9 +1,9 @@
-### 解题思路
-排序后，使用hashset，然后每次在上一次安插的地方继续安插。
+// ### 解题思路
+// 排序后，使用hashset，然后每次在上一次安插的地方继续安插。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -21,4 +21,4 @@ public:
         return ret;
     }
 };
-```
+// ```

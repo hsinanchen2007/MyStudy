@@ -1,12 +1,12 @@
-### 解题思路
-核心思路是两个数组的标记，对这两个标记添加限制条件：
-标记的左方元素个数与标记右方的元素个数相同或只差一个。
-较小数组中的标记通过二分法在较小数组中找到正确的位置，每次移动的步伐就是较小数组长度的一半。
-正确位置的条件即实现标记右边的元素总是比标记左边的元素大。
+// ### 解题思路
+// 核心思路是两个数组的标记，对这两个标记添加限制条件：
+// 标记的左方元素个数与标记右方的元素个数相同或只差一个。
+// 较小数组中的标记通过二分法在较小数组中找到正确的位置，每次移动的步伐就是较小数组长度的一半。
+// 正确位置的条件即实现标记右边的元素总是比标记左边的元素大。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] shorterArray = findShorterArray(nums1, nums2);
@@ -71,10 +71,10 @@ class Solution {
     }
 
 }
-```
+// ```
 
 
-```java
+// ```java
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
@@ -146,4 +146,4 @@ public class SolutionTest {
         assertEquals(valueExpected, Solution.findMedianSortedArrays(arrayInput1Covert, arrayInput2Covert), 0);
     }
 }
-```
+// ```

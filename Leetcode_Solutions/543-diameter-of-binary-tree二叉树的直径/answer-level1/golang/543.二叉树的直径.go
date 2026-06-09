@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-二叉树直径就是路径经过节点的最大值-1.递归求出路径经过节点的最大值，减去1就是直径。
+// 二叉树直径就是路径经过节点的最大值-1.递归求出路径经过节点的最大值，减去1就是直径。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var res int
 func diameterOfBinaryTree(root *TreeNode) int {
 	res = 1
@@ -26,4 +26,4 @@ func depth(node *TreeNode) int {
 		return r + 1
 	}
 }
-```
+// ```

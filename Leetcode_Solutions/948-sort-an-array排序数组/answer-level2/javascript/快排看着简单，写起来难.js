@@ -1,10 +1,10 @@
-### 解题思路
- * 快速排序
- * 最大最小swap
+// ### 解题思路
+//  * 快速排序
+//  * 最大最小swap
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * 快速排序
  * 
@@ -55,4 +55,4 @@ function swap(list, i, j) {
     list[j] = list[i];
     list[i] = temp;
 }
-```
+// ```

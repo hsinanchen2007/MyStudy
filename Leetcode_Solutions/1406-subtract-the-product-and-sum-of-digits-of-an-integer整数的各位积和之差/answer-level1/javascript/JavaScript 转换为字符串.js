@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -23,4 +23,4 @@ var subtractProductAndSum = function(n) {
     })
     return product - sum
 };
-```
+// ```

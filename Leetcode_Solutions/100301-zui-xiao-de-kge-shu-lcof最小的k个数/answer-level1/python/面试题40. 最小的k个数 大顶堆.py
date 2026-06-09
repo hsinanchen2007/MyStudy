@@ -1,9 +1,9 @@
-### 解题思路
-1. 基于堆的方法，思路同书。
+# ### 解题思路
+# 1. 基于堆的方法，思路同书。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def getLeastNumbers(self, arr, k):
         """
@@ -49,4 +49,4 @@ class Solution(object):
         
         return LeastNumbers(arr, k)
 
-```
+# ```

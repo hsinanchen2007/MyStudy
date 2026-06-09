@@ -1,5 +1,5 @@
-解析都在代码注释中，请仔细看
-```
+// 解析都在代码注释中，请仔细看
+// ```
 class Solution {
 public:
     bool checkStraightLine(vector<vector<int>>& coordinates) {
@@ -35,4 +35,4 @@ public:
 	    return isLine; 
     }
 };
-```
+// ```

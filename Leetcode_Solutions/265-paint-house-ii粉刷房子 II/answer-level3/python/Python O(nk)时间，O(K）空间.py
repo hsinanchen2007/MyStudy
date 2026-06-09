@@ -1,5 +1,5 @@
-思想跟粉刷房子差不多，实现的时候需要一个辅助函数
-```
+# 思想跟粉刷房子差不多，实现的时候需要一个辅助函数
+# ```
 class Solution:
     def minCostII(self, C: List[List[int]]) -> int:
         if not C:
@@ -21,4 +21,4 @@ class Solution:
             last=minExceptSelf(cur)
             cur=[c[i]+last[i] for i in range(k)]
         return min(cur)
-```
+# ```

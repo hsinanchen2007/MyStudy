@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def binaryGap(self, N: int) -> int:
         
@@ -12,4 +12,4 @@ class Solution:
             return 0
 
         return max(A[idx]-A[idx-1] for idx in range(1, len(A)))
-```
+# ```

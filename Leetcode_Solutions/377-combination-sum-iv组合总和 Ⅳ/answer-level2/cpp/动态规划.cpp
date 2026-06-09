@@ -1,12 +1,12 @@
-![377](https://pic.leetcode-cn.com/852288577e6bf8d9fe7fae6d5e64e004566612ed0455aacd6aab8083deaf9b4c-377.PNG)
+// ![377](https://pic.leetcode-cn.com/852288577e6bf8d9fe7fae6d5e64e004566612ed0455aacd6aab8083deaf9b4c-377.PNG)
 
-### 解题思路
-动态规划。
-定义状态memo[i]表示取走一个数后和为i有几种方式，状态转移方程：$memo[i] = \sum_{j=1}^{nums.size()}memo[i - nums[j]]$
+// ### 解题思路
+// 动态规划。
+// 定义状态memo[i]表示取走一个数后和为i有几种方式，状态转移方程：$memo[i] = \sum_{j=1}^{nums.size()}memo[i - nums[j]]$
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 typedef unsigned long long ull;
 class Solution {//memo(i)表示取走一个数后和为i有几种方式
 public:
@@ -23,4 +23,4 @@ public:
         return memo[target];
     }
 };
-```
+// ```

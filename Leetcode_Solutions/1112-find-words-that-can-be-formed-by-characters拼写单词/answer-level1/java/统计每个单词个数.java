@@ -1,9 +1,9 @@
-### 解题思路
-统计每个单词个数，然后比较
+// ### 解题思路
+// 统计每个单词个数，然后比较
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         if(words==null || words.length==0 || chars == null){
@@ -39,4 +39,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

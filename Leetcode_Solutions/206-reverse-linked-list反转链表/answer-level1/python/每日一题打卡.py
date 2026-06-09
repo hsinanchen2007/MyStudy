@@ -1,9 +1,9 @@
-### 解题思路
- 递归就完事了嗷嗷嗷
+# ### 解题思路
+#  递归就完事了嗷嗷嗷
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution(object):
         head.next.next=head
         head.next=None
         return nextnode
-```
+# ```

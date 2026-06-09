@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-跟其他人的思路差不多
+// 跟其他人的思路差不多
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -43,4 +43,4 @@ var addTwoNumbers = function(l1, l2) {
     return res;
 
 };
-```
+// ```

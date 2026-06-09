@@ -1,7 +1,7 @@
-#### 解题思路
-&emsp;&emsp; 标准的DFS题目，根据题意值都大于等于0，4个方向遍历打标记就行，注意处理数组的边界问题。最后将标记的值替换成目标值即可。
-#### 代码
-```javascript []
+// #### 解题思路
+// &emsp;&emsp; 标准的DFS题目，根据题意值都大于等于0，4个方向遍历打标记就行，注意处理数组的边界问题。最后将标记的值替换成目标值即可。
+// #### 代码
+// ```javascript []
 var floodFill = function(image, sr, sc, newColor) {
     function dfs(image, x, y, target){
         if(image[x][y] < 0) return;
@@ -23,4 +23,4 @@ var floodFill = function(image, sr, sc, newColor) {
     }
     return image;
 };
-```
+// ```

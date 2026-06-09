@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maximum69Number (int num) {
         StringBuilder  test = new StringBuilder( ""+num);
@@ -11,5 +11,5 @@ class Solution {
         return  Integer.parseInt(test.toString()) ;
     }
 }
-```
+// ```
 

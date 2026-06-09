@@ -1,5 +1,5 @@
-**方法一：暴力循环**
-```
+// **方法一：暴力循环**
+// ```
 class Solution {
     /**
     * 思路：
@@ -28,10 +28,10 @@ class Solution {
         return list.get(0);
     }
 }
-```
+// ```
 
-**方法二：数学+递归**
-```
+// **方法二：数学+递归**
+// ```
 class Solution {
     /**
     * 思路：
@@ -50,10 +50,10 @@ class Solution {
         return (m + x) % n;
     }
 }
-```
+// ```
 
-**方法三：数学+迭代**
-```
+// **方法三：数学+迭代**
+// ```
 class Solution {
     /**
     * 思路：
@@ -68,4 +68,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

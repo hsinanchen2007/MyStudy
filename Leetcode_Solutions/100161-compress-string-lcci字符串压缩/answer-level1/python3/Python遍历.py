@@ -1,9 +1,9 @@
-### 解题思路
-注意为结果字符串res添加的条件，在循环结束后需要多一次添加。
+# ### 解题思路
+# 注意为结果字符串res添加的条件，在循环结束后需要多一次添加。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         res = ''
@@ -28,4 +28,4 @@ class Solution:
         return res if len(res) < n else S
                 
                 
-```
+# ```

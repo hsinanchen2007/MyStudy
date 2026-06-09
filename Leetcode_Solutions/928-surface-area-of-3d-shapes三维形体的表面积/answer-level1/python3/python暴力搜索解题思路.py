@@ -1,6 +1,6 @@
-方向搜索的笨办法解题：
+# 方向搜索的笨办法解题：
 
-```
+# ```
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         m = len(grid)
@@ -20,5 +20,5 @@ class Solution:
                         if 0 <= new_x and new_x < m and 0 <= new_y and new_y < n and grid[new_x][new_y] > 0:
                             area -= min(grid[new_x][new_y], grid[i][j])
         return area
-```
+# ```
 

@@ -1,4 +1,4 @@
-```js
+// ```js
 var shortestCompletingWord = function(licensePlate, words) {
     // 有效牌照，只包含小写字母
     let license = licensePlate.replace(/[^a-zA-Z]/g, '').toLowerCase();
@@ -32,4 +32,4 @@ var shortestCompletingWord = function(licensePlate, words) {
     }
     return minVals[0]
 };
-```
+// ```

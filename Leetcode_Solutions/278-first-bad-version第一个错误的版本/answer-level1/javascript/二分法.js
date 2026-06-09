@@ -1,5 +1,5 @@
-**代码**
-```
+// **代码**
+// ```
 /**
  * Definition for isBadVersion()
  * 
@@ -32,4 +32,4 @@ var solution = function(isBadVersion) {
       return l;
     };
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strToInt(self, str: str) -> int:
         INT_MAX = 2 ** 31 -1
@@ -32,4 +32,4 @@ class Solution:
         if res < INT_MIN:   return INT_MIN
         if res > INT_MAX:   return INT_MAX
         return res
-```
+# ```

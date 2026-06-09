@@ -1,10 +1,10 @@
-### 解题思路
-![无标题.jpg](https://pic.leetcode-cn.com/1c330dce72cb65d61a25b25bd3d7592b91a47a70411ce1ddf3ce90321b00621e-%E6%97%A0%E6%A0%87%E9%A2%98.jpg)
-与实现next_permutation的题目类似，需要考虑结果会不会超过INT_MAX.
+// ### 解题思路
+// ![无标题.jpg](https://pic.leetcode-cn.com/1c330dce72cb65d61a25b25bd3d7592b91a47a70411ce1ddf3ce90321b00621e-%E6%97%A0%E6%A0%87%E9%A2%98.jpg)
+// 与实现next_permutation的题目类似，需要考虑结果会不会超过INT_MAX.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -33,4 +33,4 @@ public:
         return -1;
     }
 };
-```
+// ```

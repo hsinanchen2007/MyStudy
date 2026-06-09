@@ -1,10 +1,10 @@
-### 解题思路 
-假设缺失的数字为x,则数组nums中所有元素之和sum1再加上x，不就是0到n-1的等差数列求和吗？
-- 即x = sum2 - sum1
+// ### 解题思路 
+// 假设缺失的数字为x,则数组nums中所有元素之和sum1再加上x，不就是0到n-1的等差数列求和吗？
+// - 即x = sum2 - sum1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         int sum1 = 0;
@@ -17,4 +17,4 @@ class Solution {
         return sum2 - sum1;
     }
 }
-```
+// ```

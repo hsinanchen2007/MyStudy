@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func compressString(S string) string {
     if len(S) == 0 {
         return ""
@@ -31,4 +31,4 @@ func compressString(S string) string {
     }
     return str.String()
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/0fe09322ac3afbffa8703072cbbe2edfc6ecd076c252b7c28a0bda11641e27a3-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/0fe09322ac3afbffa8703072cbbe2edfc6ecd076c252b7c28a0bda11641e27a3-image.png)
 
-### 代码
+// ### 代码
 
 
-```golang
+// ```golang
 func maxSlidingWindow(nums []int, k int) []int {
 	var result []int
 	if len(nums) == 0 {
@@ -63,4 +63,4 @@ func maxSlidingWindow(nums []int, k int) []int {
 	return result
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool IsRectangleOverlap(int[] rec1, int[] rec2) {
         if(rec1[2] <= rec2[0] || rec1[0] >= rec2[2] || rec1[3] <= rec2[1] || rec1[1] >= rec2[3])
@@ -14,4 +14,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

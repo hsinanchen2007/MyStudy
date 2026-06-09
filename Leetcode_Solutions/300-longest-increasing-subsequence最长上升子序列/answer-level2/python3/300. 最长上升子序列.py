@@ -1,10 +1,10 @@
-### 解题思路
-动态规划，定义dp[i]表示元素i位置的最长上升子序列的长度
-对于nums[i], 和从0到i-1的元素比较，确定是否上升，从而计算出dp[i]
-最大的dp[i]即为整个数组的最长上升子序列
-### 代码
+# ### 解题思路
+# 动态规划，定义dp[i]表示元素i位置的最长上升子序列的长度
+# 对于nums[i], 和从0到i-1的元素比较，确定是否上升，从而计算出dp[i]
+# 最大的dp[i]即为整个数组的最长上升子序列
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         res = 0
@@ -25,4 +25,4 @@ class Solution:
                     res = dp[i]
 
         return res
-```
+# ```

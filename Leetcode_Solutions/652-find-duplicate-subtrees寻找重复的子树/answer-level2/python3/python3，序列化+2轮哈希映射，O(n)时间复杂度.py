@@ -1,4 +1,4 @@
-```py
+# ```py
 class Solution:
 
     def __init__(self):
@@ -29,4 +29,4 @@ class Solution:
         if self.count[t] == 2:  # 出现次数刚好等于2时，把节点添加到res中，避免重复
             self.res.append(root)
         return str(t)
-```
+# ```

@@ -1,6 +1,6 @@
-基本思路就是拿当前的项对比后面所有项，遇到比自己大的就停止，记录当前下标，如果一直没找到，记录0.
+// 基本思路就是拿当前的项对比后面所有项，遇到比自己大的就停止，记录当前下标，如果一直没找到，记录0.
 
-``` javascript
+// ``` javascript
 var dailyTemperatures = function(T) {
     let nextDays = []
     T.forEach((item, index) => {
@@ -16,4 +16,4 @@ var dailyTemperatures = function(T) {
 
     return nextDays
 };
-```
+// ```

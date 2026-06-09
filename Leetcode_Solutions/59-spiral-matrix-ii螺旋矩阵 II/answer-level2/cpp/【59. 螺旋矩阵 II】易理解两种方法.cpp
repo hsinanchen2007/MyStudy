@@ -1,7 +1,7 @@
-## 思路一：模拟法
-一圈一圈打印，由外向内。
-### 代码
-```c++
+// ## 思路一：模拟法
+// 一圈一圈打印，由外向内。
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -39,13 +39,13 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 思路二：宏观控制
-通过左上角和右下角两个点控制一圈输出。
-**注意参数K为引用。**
-### 代码
-```c++
+// ## 思路二：宏观控制
+// 通过左上角和右下角两个点控制一圈输出。
+// **注意参数K为引用。**
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -90,5 +90,5 @@ public:
         }
     }
 };
-```
+// ```
 

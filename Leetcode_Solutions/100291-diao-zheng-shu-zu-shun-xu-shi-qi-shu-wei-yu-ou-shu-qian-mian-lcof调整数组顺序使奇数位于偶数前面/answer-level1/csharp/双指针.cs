@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] Exchange(int[] nums) {
         if(nums == null || nums.Length == 0 || nums.Length == 1)
@@ -28,4 +28,4 @@ public class Solution {
         return nums;
     }
 }
-```
+// ```

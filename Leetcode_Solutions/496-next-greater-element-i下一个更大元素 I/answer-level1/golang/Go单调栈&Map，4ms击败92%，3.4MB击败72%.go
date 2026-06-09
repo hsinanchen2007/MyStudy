@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-单调栈Top加上哨兵不用判断是否空
-1. 遍历nums2进入单调栈，大于栈顶，更新进dataMap，并出栈
-2. 小于栈顶，入栈
-3. 遍历nums1赋值，存在Map则赋值，不存在则为-1
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 单调栈Top加上哨兵不用判断是否空
+// 1. 遍历nums2进入单调栈，大于栈顶，更新进dataMap，并出栈
+// 2. 小于栈顶，入栈
+// 3. 遍历nums1赋值，存在Map则赋值，不存在则为-1
+// ### 代码
 
-```golang
+// ```golang
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	if len(nums2) <= 1 {
 		for i := 0; i < len(nums1); i++ {
@@ -62,4 +62,4 @@ func (s *Stack) Push(val int) {
 func (s *Stack) Pop() {
 	s.length--
 }
-```
+// ```

@@ -1,7 +1,7 @@
-第一种：正向判断，从0开始计算所能到达的最远处；
-第二种：反向判断，从len(nums) - 1开始，计算所能到达的最左端。
+// 第一种：正向判断，从0开始计算所能到达的最远处；
+// 第二种：反向判断，从len(nums) - 1开始，计算所能到达的最左端。
 
-```go
+// ```go
 // 正向判断
 func canJump(nums []int) bool {
   if len(nums) <= 1 {return true}
@@ -27,5 +27,5 @@ func canJump(nums []int) bool {
     }
     return left == 0
 }
-```
+// ```
 

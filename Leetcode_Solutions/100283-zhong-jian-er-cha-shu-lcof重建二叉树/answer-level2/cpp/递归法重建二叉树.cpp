@@ -1,10 +1,10 @@
-### 解题思路
-需要首先熟悉二叉树先序遍历与中序遍历的规则。
-先找到preorder中的起始元素作为根节点，在inorder中找到根节点的索引mid；那么，preorder[1:mid + 1]为左子树，preorder[mid + 1:]为右子树；inorder[0:mid]为左子树，inorder[mid + 1:]为右子树。递归建立二叉树。
+// ### 解题思路
+// 需要首先熟悉二叉树先序遍历与中序遍历的规则。
+// 先找到preorder中的起始元素作为根节点，在inorder中找到根节点的索引mid；那么，preorder[1:mid + 1]为左子树，preorder[mid + 1:]为右子树；inorder[0:mid]为左子树，inorder[mid + 1:]为右子树。递归建立二叉树。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,6 +32,6 @@ public:
         return treeNode;
     }
 };
-```
+// ```
 
-![捕获.JPG](https://pic.leetcode-cn.com/8cc24805015a8acee6e8df4cac9fe31005e3fb4430ce9c439f788fff085096d3-%E6%8D%95%E8%8E%B7.JPG)
+// ![捕获.JPG](https://pic.leetcode-cn.com/8cc24805015a8acee6e8df4cac9fe31005e3fb4430ce9c439f788fff085096d3-%E6%8D%95%E8%8E%B7.JPG)

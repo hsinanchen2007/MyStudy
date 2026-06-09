@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-直接一次遍历就可以解出此题。
+// 直接一次遍历就可以解出此题。
 
-![image.png](https://pic.leetcode-cn.com/7fd16822141e6765cdcf712ba8fc76222fbcd5e4dbc628cba69b214dde6f0675-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7fd16822141e6765cdcf712ba8fc76222fbcd5e4dbc628cba69b214dde6f0675-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,4 +39,4 @@ class Solution {
         cur.remove(cur.size() - 1);
     }
 }
-```
+// ```

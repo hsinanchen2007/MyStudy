@@ -1,8 +1,8 @@
-### 解题思路
-先对两数组进行排序，其次使用两个指针分别指向两个数组比较的值，一次遍历。
+# ### 解题思路
+# 先对两数组进行排序，其次使用两个指针分别指向两个数组比较的值，一次遍历。
 
-### 代码
-```
+# ### 代码
+# ```
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         nums1.sort()
@@ -20,6 +20,6 @@ class Solution:
             elif nums1[i]>nums2[j]:
                 j+=1
         return res
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/151e1068aa19364be3464d2b1a3ef2dbe140f6f92d2238b8190c071f9256113e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/151e1068aa19364be3464d2b1a3ef2dbe140f6f92d2238b8190c071f9256113e-image.png)

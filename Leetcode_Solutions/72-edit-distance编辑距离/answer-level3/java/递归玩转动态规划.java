@@ -1,8 +1,8 @@
-- 首先理解一下暴力递归的思路：
-![编辑距离](https://pic.leetcode-cn.com/28aac500f3a8228d034a9fd230f3647b6fe0d3e29ed0c4b87f1e0cf85a702f1b.png)
+// - 首先理解一下暴力递归的思路：
+// ![编辑距离](https://pic.leetcode-cn.com/28aac500f3a8228d034a9fd230f3647b6fe0d3e29ed0c4b87f1e0cf85a702f1b.png)
 
-- 下面展示出暴力递归的代码，这里用了哈希表存储了中间重复计算的结果，在很多情况下这是一个非常好用的方法，但是他的效果和动态规划还是有非常大的差距。
-```
+// - 下面展示出暴力递归的代码，这里用了哈希表存储了中间重复计算的结果，在很多情况下这是一个非常好用的方法，但是他的效果和动态规划还是有非常大的差距。
+// ```
     // 编辑距离
     public int minDistance2(String word1, String word2) {
         if(word1.equals("")) return word2.length();
@@ -29,9 +29,9 @@
         memo.put(key,ans);
         return ans;
     }
-```
-- 下面再用dp数组优化一下代码，构成动态规划。
-```
+// ```
+// - 下面再用dp数组优化一下代码，构成动态规划。
+// ```
 class Solution {
     public int minDistance(String word1, String word2) {
         int len1 = word1.length();
@@ -56,4 +56,4 @@ class Solution {
         return dp[0][0];
     }
 }
-```
+// ```

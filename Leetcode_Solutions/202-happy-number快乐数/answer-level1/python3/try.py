@@ -1,9 +1,9 @@
-### 解题思路
-try
+# ### 解题思路
+# try
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def m(self,n):
         if n==1:
@@ -27,4 +27,4 @@ class Solution:
                 else:
                     return False
         return False
-```
+# ```

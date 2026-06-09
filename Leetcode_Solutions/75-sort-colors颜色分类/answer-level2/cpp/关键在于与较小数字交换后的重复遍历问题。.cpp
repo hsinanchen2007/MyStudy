@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/76fa6a5aa719e7e4be568f0f7e626bfbae4b40fcc2cd2cdd64dbd45a2fa176ef-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/76fa6a5aa719e7e4be568f0f7e626bfbae4b40fcc2cd2cdd64dbd45a2fa176ef-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -36,4 +36,4 @@ public:
         }
     }
 };
-```
+// ```

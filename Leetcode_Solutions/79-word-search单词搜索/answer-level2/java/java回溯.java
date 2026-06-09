@@ -1,9 +1,9 @@
-### 解题思路
-使用使用visited数组记录每个位置有没有被访问过，每到一个位置，继续向四周试探。
+// ### 解题思路
+// 使用使用visited数组记录每个位置有没有被访问过，每到一个位置，继续向四周试探。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     boolean[][] visited;
     int iLen, jLen;
@@ -55,4 +55,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

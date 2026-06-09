@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numSmallerByFrequency(self, queries: List[str], words: List[str]) -> List[int]:
         #列表li1用来存放queries中对应字符串的字母最小频次数
@@ -27,4 +27,4 @@ class Solution:
         li.sort()        
         nums = li.count(li[0])
         return nums
-```
+# ```

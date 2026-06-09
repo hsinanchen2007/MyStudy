@@ -1,4 +1,4 @@
-```
+// ```
 typedef int QDataType;
 typedef struct QListNode
 {
@@ -174,4 +174,4 @@ void myStackFree(MyStack* obj) {
     QueueDestroy(&obj->Stack2);  
     free(obj);
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-* 先确定head节点，然后迭代两个链，最后有其中一条空，则遍历另一条非空直接加在尾部。
-* head固定头节点，h则指向尾。
+// ### 解题思路
+// * 先确定head节点，然后迭代两个链，最后有其中一条空，则遍历另一条非空直接加在尾部。
+// * head固定头节点，h则指向尾。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -59,5 +59,5 @@ public:
         l = l->next;
     }
 };
-```
-![4.png](https://pic.leetcode-cn.com/dc1fbc8ff6c52c150ec00afc5097ba6c057a38558280bc06d85bb83188932756-4.png)
+// ```
+// ![4.png](https://pic.leetcode-cn.com/dc1fbc8ff6c52c150ec00afc5097ba6c057a38558280bc06d85bb83188932756-4.png)

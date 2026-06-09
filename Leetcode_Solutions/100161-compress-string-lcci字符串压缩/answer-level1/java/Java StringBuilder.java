@@ -1,9 +1,9 @@
-### 解题思路
-String builder快一点
+// ### 解题思路
+// String builder快一点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
         
@@ -33,4 +33,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var jump = function (nums) {
     let count = 0
     for (let index = 0; index < nums.length - 1; count++) {
@@ -20,5 +20,5 @@ const findMax = function (size, nums, from) {
     }
     return maxIndex
 }
-```
+// ```
 

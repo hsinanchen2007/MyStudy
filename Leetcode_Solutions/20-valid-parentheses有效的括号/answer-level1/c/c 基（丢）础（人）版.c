@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isValid(char * s){
     int i,j;
     char *p=s,*str=NULL;
@@ -53,4 +53,4 @@ bool isValid(char * s){
         return false;
     }
 }
-```
+// ```

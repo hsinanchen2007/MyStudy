@@ -1,5 +1,5 @@
-参考了官方题解，需要注意的地方是原地修改，就是不能修改原始的数据的长度之类的
-```
+// 参考了官方题解，需要注意的地方是原地修改，就是不能修改原始的数据的长度之类的
+// ```
 var nextPermutation = function(nums) {
     let len = nums.length
     if(len<2) return nums;
@@ -27,4 +27,4 @@ var nextPermutation = function(nums) {
 	}
 	return nums
 };
-```
+// ```

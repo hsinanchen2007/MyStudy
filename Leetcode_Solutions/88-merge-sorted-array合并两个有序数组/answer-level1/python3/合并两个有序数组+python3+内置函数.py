@@ -1,14 +1,14 @@
-### 解法1：内置函数sort
-```python []
+# ### 解法1：内置函数sort
+# ```python []
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
         for i in range(m,m+n):
             nums1[i] = nums2[i-m]
         nums1.sort()
-```
+# ```
 
-### 解法2：从后往前归并
-```python []
+# ### 解法2：从后往前归并
+# ```python []
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
         i, j, k = m-1, n-1, m+n-1
@@ -23,4 +23,4 @@ class Solution(object):
                 k -= 1
         for i in range(0,j+1):
             nums1[i] = nums2[i]
-```
+# ```

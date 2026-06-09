@@ -1,12 +1,12 @@
-### 解题思路
-先层次遍历，然后判断除去最后一层外，其余各层有没有放满节点，如果存在没有放满节点的层，直接返回False，否则，根据最后一层节点的数量来判断
-如果这棵树是一个完全二叉树，那么最后一层的最后一个节点应该是倒数第二层的第a个节点的左节点或是右节点，直接判断这个节点是否符合就行。
-![UC截图20191210140336.png](https://pic.leetcode-cn.com/c47400e2dcd1bcfbb6e15688fccf13aa13ed83e125beb880bef9d65790edbd96-UC%E6%88%AA%E5%9B%BE20191210140336.png)
+# ### 解题思路
+# 先层次遍历，然后判断除去最后一层外，其余各层有没有放满节点，如果存在没有放满节点的层，直接返回False，否则，根据最后一层节点的数量来判断
+# 如果这棵树是一个完全二叉树，那么最后一层的最后一个节点应该是倒数第二层的第a个节点的左节点或是右节点，直接判断这个节点是否符合就行。
+# ![UC截图20191210140336.png](https://pic.leetcode-cn.com/c47400e2dcd1bcfbb6e15688fccf13aa13ed83e125beb880bef9d65790edbd96-UC%E6%88%AA%E5%9B%BE20191210140336.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -46,4 +46,4 @@ class Solution:
                 return res[-2][a-1].right == res[-1][-1]
             else:
                 return res[-2][a].left == res[-1][-1]
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-简单的遍历，做的一般，希望大佬多多指导
-### 代码
+// ### 解题思路
+// 简单的遍历，做的一般，希望大佬多多指导
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -23,4 +23,4 @@ public:
         return distributeCandies;
     }
 };
-```
+// ```

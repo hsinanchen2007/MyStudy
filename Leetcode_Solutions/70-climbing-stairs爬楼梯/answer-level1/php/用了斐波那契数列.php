@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-方法一：迭代
-### 代码
+// 方法一：迭代
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -26,13 +26,13 @@ class Solution {
         return $second;
     }
 }
-```
+// ```
 
 
 
-方法二递归
-思路最后一步台阶有2种选择，跨1步或者是跨2步，对应就是 f(n) = f(n-1)+f(n-2)
-```
+// 方法二递归
+// 思路最后一步台阶有2种选择，跨1步或者是跨2步，对应就是 f(n) = f(n-1)+f(n-2)
+// ```
 function climbStairs1($n)
 {
     if ($n == 1) {
@@ -45,4 +45,4 @@ function climbStairs1($n)
 
     return climbStairs1($n - 1) + climbStairs1($n - 2);
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def cuttingRope(self, n: int) -> int:
         # # 解法 1： 动态规划
@@ -34,4 +34,4 @@ class Solution:
 
         times_of_2 = (n - times_of_3 * 3) //2
         return (pow(3, times_of_3) * pow(2, times_of_2)) % 1000000007
-```
+# ```

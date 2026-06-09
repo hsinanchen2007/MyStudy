@@ -1,9 +1,9 @@
-### 解题思路
-代码写的比较冗长，但是窃以为思路比较清晰，分类讨论+dfs
+// ### 解题思路
+// 代码写的比较冗长，但是窃以为思路比较清晰，分类讨论+dfs
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ public:
         return dfs(root,sum,0);
     }
 };
-```
+// ```

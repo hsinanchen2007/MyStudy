@@ -1,7 +1,7 @@
-采用递归回溯的方法，因为一个LED灯代表的数值只能计算一次，递归函数参数除了当前时刻，剩余LED灯数外，还需要记录备选LED灯的起点i(索引小于i的LED灯不再考虑)。
-hour和minute可以用一个列表表示，但个人认为这样更清晰。
-combination第一个元素为小时，第二个元素为分钟。
-```
+# 采用递归回溯的方法，因为一个LED灯代表的数值只能计算一次，递归函数参数除了当前时刻，剩余LED灯数外，还需要记录备选LED灯的起点i(索引小于i的LED灯不再考虑)。
+# hour和minute可以用一个列表表示，但个人认为这样更清晰。
+# combination第一个元素为小时，第二个元素为分钟。
+# ```
 def readBinaryWatch(self, num: int) -> List[str]:
         hour = [1, 2, 4, 8]
         minute = [1, 2, 4, 8, 16, 32]
@@ -30,4 +30,4 @@ def readBinaryWatch(self, num: int) -> List[str]:
         cur = [0] * 2
         time(cur, num, 0)
         return res
-```
+# ```

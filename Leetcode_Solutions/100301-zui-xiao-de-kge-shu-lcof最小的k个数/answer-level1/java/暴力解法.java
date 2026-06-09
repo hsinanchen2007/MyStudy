@@ -1,10 +1,10 @@
-### 解题思路
-先将数组进行排列，后用循环
-代码如下
+// ### 解题思路
+// 先将数组进行排列，后用循环
+// 代码如下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
            Arrays.sort(arr);
@@ -15,4 +15,4 @@ class Solution {
             return a;
 	    }   
 }
-```
+// ```

@@ -1,6 +1,6 @@
-# 方法1：1个 set + array
+// # 方法1：1个 set + array
 
-```java []
+// ```java []
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> set = new HashSet<>();
@@ -22,18 +22,18 @@ class Solution {
         return Arrays.copyOf(res, k);
     }
 }
-```
+// ```
 
-复杂度分析
+// 复杂度分析
 
-- 时间复杂度：O(m+n)。
-- 空间复杂度：O(m+n)， 最坏的情况是数组中的所有元素都不同。
+// - 时间复杂度：O(m+n)。
+// - 空间复杂度：O(m+n)， 最坏的情况是数组中的所有元素都不同。
 
 
 
-# 方法2 ： 2个set,求交集，再转换成数组
+// # 方法2 ： 2个set,求交集，再转换成数组
 
-```java []
+// ```java []
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> s1 = new HashSet<>();
@@ -58,11 +58,11 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-复杂度分析
+// 复杂度分析
 
-- 时间复杂度：一般情况下是 O(m+n)，最坏情况下是当数组元素都不相同时 O(m×n)。
-- 空间复杂度：最坏的情况是 O(m+n)，当数组中的元素全部不一样时。
+// - 时间复杂度：一般情况下是 O(m+n)，最坏情况下是当数组元素都不相同时 O(m×n)。
+// - 空间复杂度：最坏的情况是 O(m+n)，当数组中的元素全部不一样时。
 
 

@@ -1,9 +1,9 @@
-### 解题思路
-找出最高的两个点，分成三份即左中右，本函数算中间区域的水量。然后分治其他两个区域。
+// ### 解题思路
+// 找出最高的两个点，分成三份即左中右，本函数算中间区域的水量。然后分治其他两个区域。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
 	int val;
 	int pos;
@@ -59,4 +59,4 @@ int trapFZ(int* height, int start, int end){
 int trap(int* height, int heightSize){
     return trapFZ(height, 0, heightSize - 1);
 }
-```
+// ```

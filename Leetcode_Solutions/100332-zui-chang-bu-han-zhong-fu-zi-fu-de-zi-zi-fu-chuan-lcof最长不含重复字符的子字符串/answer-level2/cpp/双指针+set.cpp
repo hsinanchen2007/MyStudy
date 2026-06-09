@@ -1,12 +1,12 @@
-### 解题思路
-解题思路： 双指针
-双指针之间存放的是最长无重复子串，
-指针：left right， right依次像右遍历， 无重复子串保留在set中，
-当发现s[right]在set中出现， 则移动left，直到将s[]right]剔除
+// ### 解题思路
+// 解题思路： 双指针
+// 双指针之间存放的是最长无重复子串，
+// 指针：left right， right依次像右遍历， 无重复子串保留在set中，
+// 当发现s[right]在set中出现， 则移动left，直到将s[]right]剔除
 
 
-### 代码
-```
+// ### 代码
+// ```
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -29,4 +29,4 @@ public:
         return result;
     }
 };
-```
+// ```

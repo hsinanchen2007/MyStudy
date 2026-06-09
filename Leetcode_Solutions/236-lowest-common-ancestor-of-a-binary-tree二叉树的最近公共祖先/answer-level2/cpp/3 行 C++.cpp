@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -16,5 +16,5 @@ public:
         return (root == p or root == q or (l and r)) ? root : l ? l : r;
     }
 };
-```
-- 递归全部节点，p 的祖先节点全部返回 p，q 的祖先节点全部返回 q，如果它同时是俩个节点的最近祖先，那么返回自身，否则返回 nullptr
+// ```
+// - 递归全部节点，p 的祖先节点全部返回 p，q 的祖先节点全部返回 q，如果它同时是俩个节点的最近祖先，那么返回自身，否则返回 nullptr

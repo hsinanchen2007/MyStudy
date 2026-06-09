@@ -1,4 +1,4 @@
-```python
+# ```python
 class ValidWordAbbr:
 
     def __init__(self, dictionary: List[str]):
@@ -27,4 +27,4 @@ class ValidWordAbbr:
 # Your ValidWordAbbr object will be instantiated and called as such:
 # obj = ValidWordAbbr(dictionary)
 # param_1 = obj.isUnique(word)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用数组的反转函数，先将链表中的数据全部存入到数组中，接着使用reverse函数，最后再重新存储到链表中即可。
+// ### 解题思路
+// 利用数组的反转函数，先将链表中的数据全部存入到数组中，接着使用reverse函数，最后再重新存储到链表中即可。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -30,4 +30,4 @@ var reverseList = function(head) {
     }
     return head;
 };
-```
+// ```

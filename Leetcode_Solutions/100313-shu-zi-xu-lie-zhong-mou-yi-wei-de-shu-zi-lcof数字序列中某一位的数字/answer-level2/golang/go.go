@@ -1,4 +1,4 @@
-```
+// ```
 import "strconv"
 
 func findNthDigit(n int) int {
@@ -14,4 +14,4 @@ func findNthDigit(n int) int {
 	return int(s[(n-1)%l] - '0')
 }
 
-```
+// ```

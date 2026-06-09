@@ -1,11 +1,11 @@
-### 解题思路
-线性思维
-定义一个数组，数组长度n, 顺序给数组的值 +糖果数
+// ### 解题思路
+// 线性思维
+// 定义一个数组，数组长度n, 顺序给数组的值 +糖果数
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} candies
  * @param {number} num_people
@@ -31,4 +31,4 @@ var distributeCandies = function(candies, num_people) {
     
 };
 
-```
+// ```

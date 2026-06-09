@@ -1,9 +1,9 @@
-### 解题思路
-先排序，从最小寻找路径，要得到该路径下的值之和等于目标值。使用了for循环模拟递归的解法。
+// ### 解题思路
+// 先排序，从最小寻找路径，要得到该路径下的值之和等于目标值。使用了for循环模拟递归的解法。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
@@ -63,4 +63,4 @@ public:
         return ret;
     }
 };
-```
+// ```

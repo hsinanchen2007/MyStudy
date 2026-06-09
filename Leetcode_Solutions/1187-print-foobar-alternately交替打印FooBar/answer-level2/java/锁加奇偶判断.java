@@ -1,6 +1,6 @@
-规律：当i从0开始计数时， foo在i为偶数打印， bar在i为奇数时打印。
+// 规律：当i从0开始计数时， foo在i为偶数打印， bar在i为奇数时打印。
 
-```java
+// ```java
 class FooBar {
     int n;
     int i = 0;
@@ -37,4 +37,4 @@ class FooBar {
         }
     }
 }
-```
+// ```

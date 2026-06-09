@@ -1,12 +1,12 @@
-### 解题思路
-两种方式
-1.递归
-2.非递归
+// ### 解题思路
+// 两种方式
+// 1.递归
+// 2.非递归
 
-### 代码
+// ### 代码
 
-递归：
-```golang
+// 递归：
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -32,24 +32,24 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 		return l2
 	}
 }
-```
+// ```
 
 
-递归举例说明
-l1 :  1 -> 2 -> 5
-l2 :  3 -> 4
-total: 1 -> 2 -> 3 -> 4 -> 5
+// 递归举例说明
+// l1 :  1 -> 2 -> 5
+// l2 :  3 -> 4
+// total: 1 -> 2 -> 3 -> 4 -> 5
 
-round 1 
-l1        			 l2
-l1 = l1.next 		
-l1 = l1.next           
-                     l2 = l2.next
- 					 l2 = l2.next
- return l1
+// round 1 
+// l1        			 l2
+// l1 = l1.next 		
+// l1 = l1.next           
+//                      l2 = l2.next
+//  					 l2 = l2.next
+//  return l1
 
-// 1->  2->  3 -> 4 -> 5
-最终结果:l1.next -> l1.next -> l2.next -> l2.next -> l1
+// // 1->  2->  3 -> 4 -> 5
+// 最终结果:l1.next -> l1.next -> l2.next -> l2.next -> l1
 	    
 
 

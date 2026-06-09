@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int n,m,ji;
     int [][] grid;
@@ -41,4 +41,4 @@ class Solution {
        grid[x][y]=0;  
     }
 }
-```
+// ```

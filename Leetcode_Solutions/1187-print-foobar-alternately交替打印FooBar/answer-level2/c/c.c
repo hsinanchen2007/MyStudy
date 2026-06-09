@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int n;
   pthread_mutex_t first_lock;
@@ -42,4 +42,4 @@ void bar(FooBar* obj) {
 void fooBarFree(FooBar* obj) {
     free(obj);
 }
-```
+// ```

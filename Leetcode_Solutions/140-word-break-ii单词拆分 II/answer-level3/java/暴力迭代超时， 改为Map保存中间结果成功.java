@@ -1,18 +1,18 @@
-比之间解法改为Map保存中间结果
-执行结果：
-通过
-显示详情
-执行用时 :
-13 ms
-, 在所有 Java 提交中击败了
-78.28%
-的用户
-内存消耗 :
-38.4 MB
-, 在所有 Java 提交中击败了
-73.33%
-的用户
-```
+// 比之间解法改为Map保存中间结果
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 13 ms
+// , 在所有 Java 提交中击败了
+// 78.28%
+// 的用户
+// 内存消耗 :
+// 38.4 MB
+// , 在所有 Java 提交中击败了
+// 73.33%
+// 的用户
+// ```
 class Solution {
     Set<String> set = new HashSet<>();
     
@@ -70,14 +70,14 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
 
 
-遍历可能的单词然后递归，不出意外的超时了。
-"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-["a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa"]
-```
+// 遍历可能的单词然后递归，不出意外的超时了。
+// "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+// ["a","aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa"]
+// ```
 class Solution {
     Set<String> set = new HashSet<>();
     List<StringBuffer> res = new ArrayList<>();
@@ -140,4 +140,4 @@ class Solution {
         }
     }
 }
-```
+// ```

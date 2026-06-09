@@ -1,5 +1,5 @@
-思路和题目描述一样，先看「排位第一」的票的多少决定，这里进行一次排序，迭代下去
-```python []
+# 思路和题目描述一样，先看「排位第一」的票的多少决定，这里进行一次排序，迭代下去
+# ```python []
 # 下面写上代码块
 class Solution:
     def rankTeams(self, votes: List[str]) -> str:
@@ -26,6 +26,6 @@ class Solution:
             return res
 
         return rank_k(persons, 0)
-```
-`执行用时：44 ms
-内存消耗：14.5 MB`
+# ```
+# `执行用时：44 ms
+# 内存消耗：14.5 MB`

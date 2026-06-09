@@ -1,4 +1,4 @@
-```
+-- ```
 SELECT DISTINCT id AS "id",
 SUM(IF (month = "Jan", revenue, null)) AS "Jan_Revenue",
 SUM(IF (month = "Feb", revenue, null)) AS "Feb_Revenue",
@@ -13,4 +13,4 @@ SUM(IF (month = "Oct", revenue, null)) AS "Oct_Revenue",
 SUM(IF (month = "Nov", revenue, null)) AS "Nov_Revenue",
 SUM(IF (month = "Dec", revenue, null)) AS "Dec_Revenue" 
 FROM Department GROUP BY id
-```
+-- ```

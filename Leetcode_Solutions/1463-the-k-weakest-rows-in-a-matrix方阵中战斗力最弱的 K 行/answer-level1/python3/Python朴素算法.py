@@ -1,9 +1,9 @@
-### 解题思路
-定义一个rank列表，存储mat中每一行对应的下标及其1的个数，之后对rank进行稳定排序，最后提取出rank的前k个元素。
+# ### 解题思路
+# 定义一个rank列表，存储mat中每一行对应的下标及其1的个数，之后对rank进行稳定排序，最后提取出rank的前k个元素。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def kWeakestRows(self, mat: List[List[int]], k: int) -> List[int]:
         rank = []
@@ -18,4 +18,4 @@ class Solution:
             res.append(rank.pop(0)[1])
             k -= 1
         return res
-```
+# ```

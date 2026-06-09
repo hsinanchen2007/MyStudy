@@ -1,6 +1,6 @@
-判断下一个格子是否可以和当前格子接上(valid)，并字典记录已经访问过的格子(visited[i][j])。
-只要到了一次终点就可以了。
-```
+// 判断下一个格子是否可以和当前格子接上(valid)，并字典记录已经访问过的格子(visited[i][j])。
+// 只要到了一次终点就可以了。
+// ```
 public class Solution {
     int[,] visited;
     public bool HasValidPath(int[][] grid) {
@@ -48,4 +48,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

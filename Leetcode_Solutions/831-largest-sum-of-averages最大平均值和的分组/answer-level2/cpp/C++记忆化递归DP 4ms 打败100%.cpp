@@ -1,8 +1,8 @@
-给定数组A分成K个相邻的非空子数组的最大分数：
-1、选定 1 ~ N(N与数组长度与K有关) 个连续数字作为第一组
-2、剩余的连续数字组成数组B获取其分成K - 1个相邻的非空子数组的最大分数
-3、取选择 1 ~ N 中的最大分数为DP(A, K)的结果
-```
+// 给定数组A分成K个相邻的非空子数组的最大分数：
+// 1、选定 1 ~ N(N与数组长度与K有关) 个连续数字作为第一组
+// 2、剩余的连续数字组成数组B获取其分成K - 1个相邻的非空子数组的最大分数
+// 3、取选择 1 ~ N 中的最大分数为DP(A, K)的结果
+// ```
 class Solution {
 public:
     double dp[101][101];
@@ -42,5 +42,5 @@ public:
     }
 };
 
-```
-![image.png](https://pic.leetcode-cn.com/26f8444e7cc2c3c2af3a19d772e67e27aadc6c88334859a79a96788f30db0590-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/26f8444e7cc2c3c2af3a19d772e67e27aadc6c88334859a79a96788f30db0590-image.png)

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-因为这个问题没有顺序的问题，至于数量的问题，可以利用HashMap，把字符串都放到HashMap中，然后判断两个HashMap是否一致，就可以求解。
+// 因为这个问题没有顺序的问题，至于数量的问题，可以利用HashMap，把字符串都放到HashMap中，然后判断两个HashMap是否一致，就可以求解。
 
-这一题取自“字符串中的第一个唯一字符”的灵感，感觉很相似。
+// 这一题取自“字符串中的第一个唯一字符”的灵感，感觉很相似。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isAnagram(String s, String t) {
     
@@ -34,4 +34,4 @@ class Solution {
 
     }
 }
-```
+// ```

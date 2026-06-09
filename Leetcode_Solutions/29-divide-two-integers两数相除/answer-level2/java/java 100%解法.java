@@ -1,10 +1,10 @@
-解题的关键有一下三点：
-1. 将除数与被除数扩展至long
-2. 正负号的判断，满足(t1 == dividend) ^ (t2 == divisor)则结果为负
-3. 如何计算商（help()解决）
-4. help结果返回的有可能是>Integer.Max_Value的所以再处理下结果即可。
+// 解题的关键有一下三点：
+// 1. 将除数与被除数扩展至long
+// 2. 正负号的判断，满足(t1 == dividend) ^ (t2 == divisor)则结果为负
+// 3. 如何计算商（help()解决）
+// 4. help结果返回的有可能是>Integer.Max_Value的所以再处理下结果即可。
 
-```
+// ```
 private long help(long dividend, long divisor) {
         if (dividend < divisor) return 0;
         long t = divisor, res = 1;
@@ -26,5 +26,5 @@ private long help(long dividend, long divisor) {
             return -(int)help;
         return help > Integer.MAX_VALUE ? Integer.MAX_VALUE : (int)help;
     }
-```
-如果对您有帮助，请给个赞^_^
+// ```
+// 如果对您有帮助，请给个赞^_^

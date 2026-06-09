@@ -1,6 +1,6 @@
-#### 1. 迭代法
+// #### 1. 迭代法
 
-```php
+// ```php
     function reverseList($head) {
         $current_node = $head;
         $prev_node = null;
@@ -12,11 +12,11 @@
         }
         return $prev_node;
     }
-```
+// ```
 
-#### 2. 递归法
+// #### 2. 递归法
 
-```php
+// ```php
     function reverseList($head) {
         if ($head === null || $head->next === null) {
             return $head;
@@ -28,4 +28,4 @@
         $head->next = null;
         return $res;
     }
-```
+// ```

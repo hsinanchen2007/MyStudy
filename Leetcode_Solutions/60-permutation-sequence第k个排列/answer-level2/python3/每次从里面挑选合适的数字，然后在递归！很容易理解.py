@@ -1,9 +1,9 @@
-### 解题思路
-比如果 123的全部排列中，要挑选第3个 ，那么第一个开始的元素就是1
+# ### 解题思路
+# 比如果 123的全部排列中，要挑选第3个 ，那么第一个开始的元素就是1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def __init__(self):
@@ -41,4 +41,4 @@ class Solution:
             return 1
         return n * self.stage_multiply(n - 1)
 
-```
+# ```

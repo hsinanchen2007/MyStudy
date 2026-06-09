@@ -1,9 +1,9 @@
-### 解题思路
-整个程序都很简单，主要用字符构造器预先分配内存，减少内存多次分配，就能达到最优性能和内存
+// ### 解题思路
+// 整个程序都很简单，主要用字符构造器预先分配内存，减少内存多次分配，就能达到最优性能和内存
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func compressString(S string) string {
     length := len(S)
     if length == 0 {
@@ -36,6 +36,6 @@ func compressString(S string) string {
     }
     return output.String()
 }
-```
-![image.png](https://pic.leetcode-cn.com/2459ec9556934d7d5bb4562ea33eef879434f4a602012ecdafb53f2df71df2b1-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/2459ec9556934d7d5bb4562ea33eef879434f4a602012ecdafb53f2df71df2b1-image.png)
 

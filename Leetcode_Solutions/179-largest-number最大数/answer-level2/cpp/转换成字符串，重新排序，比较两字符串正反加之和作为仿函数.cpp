@@ -1,9 +1,9 @@
-### 解题思路
-转换成字符串，重新排序，比较两字符串正反加之和作为仿函数
+// ### 解题思路
+// 转换成字符串，重新排序，比较两字符串正反加之和作为仿函数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	string largestNumber(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

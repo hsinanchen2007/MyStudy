@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type CQueue struct {
 	stack1 []int
 	stack2 []int
@@ -45,4 +45,4 @@ func (this *CQueue) DeleteHead() int {
 
 	return this.stack1[n-1]
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
     public boolean flipEquiv(TreeNode root1, TreeNode root2) {
         if (root1 == root2) return true;//这是都为null
         if (root1 == null || root2 == null) return false;
@@ -11,4 +11,4 @@
 
 
     }
-```
+// ```

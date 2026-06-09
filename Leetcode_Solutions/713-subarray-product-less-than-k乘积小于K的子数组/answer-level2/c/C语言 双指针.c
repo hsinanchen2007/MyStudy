@@ -1,5 +1,5 @@
-乘积大于等于k时l右移，小于k时r右移，同时记录以不超过l为开头，以r为结尾的子序列个数。
-```
+// 乘积大于等于k时l右移，小于k时r右移，同时记录以不超过l为开头，以r为结尾的子序列个数。
+// ```
 #define MAX_SIZE 50001
 int numSubarrayProductLessThanK(int* nums, int numsSize, int k){
     int l = 0; 
@@ -23,4 +23,4 @@ int numSubarrayProductLessThanK(int* nums, int numsSize, int k){
     }
     return res;
 }
-```
+// ```

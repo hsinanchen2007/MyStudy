@@ -1,4 +1,4 @@
-```
+// ```
 func getRow(rowIndex int) (rst []int) {
 	rst = make([]int, rowIndex+1)
 	// 方法一：
@@ -14,4 +14,4 @@ func getRow(rowIndex int) (rst []int) {
 	}
 	return
 }
-```
+// ```

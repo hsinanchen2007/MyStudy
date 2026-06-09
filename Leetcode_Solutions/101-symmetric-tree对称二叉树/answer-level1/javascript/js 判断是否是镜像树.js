@@ -1,4 +1,4 @@
-```
+// ```
 var isSymmetric = function(root) {
      if(root === null) return true;
     function iS(left,right){
@@ -9,4 +9,4 @@ var isSymmetric = function(root) {
     }
     return iS(root.left,root.right)
 };
-```
+// ```

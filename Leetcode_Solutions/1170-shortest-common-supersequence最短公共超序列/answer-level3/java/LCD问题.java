@@ -1,6 +1,6 @@
-问题可以分解为3步。求最长公共子序列，构造最长公共子序列，然后根据最长公共子序列构造最短公共超序列。
+// 问题可以分解为3步。求最长公共子序列，构造最长公共子序列，然后根据最长公共子序列构造最短公共超序列。
 
-```
+// ```
 class Solution {
     public String shortestCommonSupersequence(String str1, String str2) {
         
@@ -68,4 +68,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

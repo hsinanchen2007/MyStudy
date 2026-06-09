@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
  public  boolean isSelfCrossing(int[] x) {
         int n=x.length;
@@ -19,5 +19,5 @@ class Solution {
         return false;
     }
 }
-```
-writeen by Zixuan Tang; 
+// ```
+// writeen by Zixuan Tang; 

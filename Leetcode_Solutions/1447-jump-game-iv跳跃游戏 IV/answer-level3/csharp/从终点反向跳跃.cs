@@ -1,11 +1,11 @@
-### 解题思路
-终点 广度优先 确定每个点的最近距离
-cache下来结果
-直到回到起点
+// ### 解题思路
+// 终点 广度优先 确定每个点的最近距离
+// cache下来结果
+// 直到回到起点
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, int>;
 class JumpEnd{
     public Dictionary<int, int> cache = new Dictionary<int, int>();
@@ -74,4 +74,4 @@ public class Solution {
         return j.MinJumps(arr);
     }
 }
-```
+// ```

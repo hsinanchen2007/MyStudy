@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-由题可知：$nums.length$ 为偶数，令糖果种类为 $category$，那么容易知道：
+// 由题可知：$nums.length$ 为偶数，令糖果种类为 $category$，那么容易知道：
 
-$y=\begin{cases}
-category,\quad category\leq nums.length / 2\\
-nums.length / 2, \quad category > nums.length / 2
-\end{cases}$
+// $y=\begin{cases}
+// category,\quad category\leq nums.length / 2\\
+// nums.length / 2, \quad category > nums.length / 2
+// \end{cases}$
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} candies
  * @return {number}
@@ -33,7 +33,7 @@ var distributeCandies = function(candies) {
     // 否则直接取种类数
     return category
 };
-```
+// ```
 
-- 时间复杂度：$O(n)$
-- 空间复杂度：$O(n)$
+// - 时间复杂度：$O(n)$
+// - 空间复杂度：$O(n)$

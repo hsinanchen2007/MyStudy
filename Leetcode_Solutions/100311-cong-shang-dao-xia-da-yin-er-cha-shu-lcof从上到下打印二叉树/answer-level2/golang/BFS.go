@@ -1,9 +1,9 @@
-### 解题思路
-BFS遍历即可
+// ### 解题思路
+// BFS遍历即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -32,4 +32,4 @@ func levelOrder(root *TreeNode) []int {
     }
     return res
 }
-```
+// ```

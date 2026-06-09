@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，用dp[i]表示以第i个字母开头的最长的序列长度，本来dp开了个数组，后来发现不需要，然后就用int dp 了
+// ### 解题思路
+// 动态规划，用dp[i]表示以第i个字母开头的最长的序列长度，本来dp开了个数组，后来发现不需要，然后就用int dp 了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -41,4 +41,4 @@ public:
         return res;
     }
 };
-```
+// ```

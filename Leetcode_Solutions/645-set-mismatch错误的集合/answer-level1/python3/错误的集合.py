@@ -1,9 +1,9 @@
-### 解题思路
-单纯的数组统计
+# ### 解题思路
+# 单纯的数组统计
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
         res = []
@@ -17,4 +17,4 @@ class Solution:
                 res.append(i+1)
         
         return res
-```
+# ```

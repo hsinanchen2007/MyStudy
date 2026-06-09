@@ -1,9 +1,9 @@
-### 解题思路
-没啥思路,就用暴力的了.
+# ### 解题思路
+# 没啥思路,就用暴力的了.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
         List = []
@@ -17,4 +17,4 @@ class Solution:
             else:
                 List.append(str(i))
         return List
-```
+# ```

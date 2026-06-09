@@ -1,4 +1,4 @@
-```       
+// ```       
 int uniquePath_2(vector<<vector<int>>& obs){
             if(obs[0][0]){
                 return 0;
@@ -19,4 +19,4 @@ int uniquePath_2(vector<<vector<int>>& obs){
             return dp[sizeL-1];
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-抽屉原理 + 二分法
+// ### 解题思路
+// 抽屉原理 + 二分法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return r;
     }
 };
-```
+// ```

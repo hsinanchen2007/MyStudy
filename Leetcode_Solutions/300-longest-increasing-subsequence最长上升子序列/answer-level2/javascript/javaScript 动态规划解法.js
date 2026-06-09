@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var lengthOfLIS = function(nums) {
     if(nums.length == 0) return 0;
     if(nums.length == 1) return 1;
@@ -12,4 +12,4 @@ var lengthOfLIS = function(nums) {
     }
     return Math.max.apply(null, dp);
 };
-```
+// ```

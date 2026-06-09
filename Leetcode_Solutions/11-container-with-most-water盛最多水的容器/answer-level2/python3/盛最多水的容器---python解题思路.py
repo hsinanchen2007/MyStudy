@@ -1,6 +1,6 @@
-一开始想到的无疑就是暴力破解了（滑稽）
+# 一开始想到的无疑就是暴力破解了（滑稽）
 
-```python
+# ```python
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         max_area = 0
@@ -8,15 +8,15 @@ class Solution:
             for j, second in enumerate(height):
                 max_area = max_area if max_area > min(first, second) * abs(i - j) else min(first, second) * abs(i - j)
         return max_area
-```
+# ```
 
-果然遇到了超时
- 42 / 50 个通过测试用例
- 43 号测试用例长度 5000
+# 果然遇到了超时
+#  42 / 50 个通过测试用例
+#  43 号测试用例长度 5000
 
-稍微看了一下官方的解答，有了下面的代码
+# 稍微看了一下官方的解答，有了下面的代码
 
-```python
+# ```python
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         max_area = 0
@@ -31,11 +31,11 @@ class Solution:
             else:
                 right_index -= 1
         return max_area
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :252 ms, 在所有 python3 提交中击败了18.62% 的用户
 内存消耗 :15.2 MB, 在所有 python3 提交中击败了5.18%的用户
 
@@ -44,7 +44,7 @@ class Solution:
 
 执行用时 :152 ms, 在所有 python3 提交中击败了89.01% 的用户
 内存消耗 :15.3 MB, 在所有 python3 提交中击败了5.18%的用户
-```
+# ```
 
-卧槽这测试速度怎么越来越快额（-_-||）
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 卧槽这测试速度怎么越来越快额（-_-||）
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)

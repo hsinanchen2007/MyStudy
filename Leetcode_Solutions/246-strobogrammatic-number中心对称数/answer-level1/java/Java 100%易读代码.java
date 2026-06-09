@@ -1,6 +1,6 @@
 
 
-```
+// ```
 public boolean isStrobogrammatic(String num) {
 		HashMap<Character, Character> map = getMap();
 		int n = num.length();
@@ -31,4 +31,4 @@ public boolean isStrobogrammatic(String num) {
 		map.put('9', '6');
 		return map;
 	}
-```
+// ```

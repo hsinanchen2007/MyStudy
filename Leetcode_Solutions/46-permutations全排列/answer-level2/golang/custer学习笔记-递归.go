@@ -1,4 +1,4 @@
-```go
+// ```go
 // Time: O(n*n!), Space: O(n)
 func permute(nums []int) [][]int {
     if nums == nil || len(nums) == 0 {
@@ -23,4 +23,4 @@ func permuteRec(nums []int, start int, result *[][]int) {
     }
 }
 
-```
+// ```

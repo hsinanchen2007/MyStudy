@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var complexNumberMultiply = function(a, b) {
     let alist = a.includes("+")?a.split("+"):a.split("-")
     let blist = b.includes("+")?b.split("+"):b.split("-")
@@ -9,4 +9,4 @@ var complexNumberMultiply = function(a, b) {
   
     return r+"+"+c+"i"
 };
-```
+// ```

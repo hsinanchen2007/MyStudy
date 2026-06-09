@@ -1,5 +1,5 @@
 
-```
+// ```
 //dp[step][x][y]表示在（x，y）坐标处，在step步数内可以到达边界的路径数目
 //状态转移：dp[step][x][y]=dp[step-1][x-1][y]+dp[step-1][x+1][y]+dp[step-1][x][y-1]+dp[step-1][x][y+1]；
 var findPaths = function(m, n, N, i, j) {
@@ -42,4 +42,4 @@ var findPaths = function(m, n, N, i, j) {
     }
     return dp[N][i][j];
 };
-```
+// ```

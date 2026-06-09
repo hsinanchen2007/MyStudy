@@ -1,11 +1,11 @@
-### 解题思路
-1.排序
-2.设置三个指针。i指针从头至尾遍历。j、k在i的循环内部，j指针初值为i+1，k指针初值为numsSize-1。
-3.判断三数之和与target的大小，并移动j或k。
-4.j=k时，跳出最内层循环，i++，j、k设为初值，回到3，直到i=numsSize-2或ans==target
-### 代码
+// ### 解题思路
+// 1.排序
+// 2.设置三个指针。i指针从头至尾遍历。j、k在i的循环内部，j指针初值为i+1，k指针初值为numsSize-1。
+// 3.判断三数之和与target的大小，并移动j或k。
+// 4.j=k时，跳出最内层循环，i++，j、k设为初值，回到3，直到i=numsSize-2或ans==target
+// ### 代码
 
-```c
+// ```c
 int comp(const void* a, const void* b)
 {
     return *(int*)a - *(int*)b; // 快排构造递增序列
@@ -28,4 +28,4 @@ int threeSumClosest(int* nums, int numsSize, int target){
 }
 
 
-```
+// ```

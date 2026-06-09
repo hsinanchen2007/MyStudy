@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int left,right;
@@ -35,4 +35,4 @@ public:
         return false;
     }
 };
-```
+// ```

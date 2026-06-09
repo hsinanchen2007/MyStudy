@@ -1,5 +1,5 @@
-从数组右侧向左侧遍历，基于右侧已知数据，减少当前查找比较次数。
-```
+// 从数组右侧向左侧遍历，基于右侧已知数据，减少当前查找比较次数。
+// ```
 int* dailyTemperatures(int* T, int TSize, int* returnSize){
     int  i;
     int  j;
@@ -23,4 +23,4 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
     *returnSize = TSize;
     return returnArr;
 }
-```
+// ```

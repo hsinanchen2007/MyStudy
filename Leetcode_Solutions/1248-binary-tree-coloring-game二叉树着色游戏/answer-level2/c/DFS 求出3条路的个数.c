@@ -1,10 +1,10 @@
-### 解题思路
-求出3条路的个数
-然后分别相减，大于等于2 则为true
+// ### 解题思路
+// 求出3条路的个数
+// 然后分别相减，大于等于2 则为true
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -56,4 +56,4 @@ bool btreeGameWinningMove(struct TreeNode *root, int n, int x)
 
 	return false;
 }
-```
+// ```

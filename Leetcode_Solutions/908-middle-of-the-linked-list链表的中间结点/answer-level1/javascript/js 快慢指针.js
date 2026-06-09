@@ -1,5 +1,5 @@
-js 快慢指针
-```js
+// js 快慢指针
+// ```js
 var middleNode = function(head) {
     if(!head) return null;
     let slow = head;
@@ -10,4 +10,4 @@ var middleNode = function(head) {
     }
     return quick ? slow.next : slow;
 };
-```
+// ```

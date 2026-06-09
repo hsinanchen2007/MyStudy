@@ -1,8 +1,8 @@
-### 解题思路
-见注释
-### 代码
+// ### 解题思路
+// 见注释
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -45,4 +45,4 @@ var allPossibleFBT = function(N) {
     }
     return map.get(N)
 };
-```
+// ```

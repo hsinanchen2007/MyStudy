@@ -1,6 +1,6 @@
-通过二分查找，判断 mid 是第几个丑数，套用 lower_bound 的模板。
-求第几个丑数用到最小公倍数。
-```c++
+// 通过二分查找，判断 mid 是第几个丑数，套用 lower_bound 的模板。
+// 求第几个丑数用到最小公倍数。
+// ```c++
 class Solution {
 public:
     int nthUglyNumber(int n, int a, int b, int c) {
@@ -20,4 +20,4 @@ public:
         return left;
     }
 };
-```
+// ```

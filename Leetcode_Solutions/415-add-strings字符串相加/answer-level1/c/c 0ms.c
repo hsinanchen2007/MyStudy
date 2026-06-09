@@ -1,4 +1,4 @@
-c中100%
+// c中100%
 char * addStrings(char * num1, char * num2){
     int cf=0;
     int l1=0;

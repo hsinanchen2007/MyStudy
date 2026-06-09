@@ -1,9 +1,9 @@
-### 解题思路
-n为倒数，用链表的总长度-n+1得到要删除的第len个结点，
-然后通过循环找到len，删除即可
-### 代码
+// ### 解题思路
+// n为倒数，用链表的总长度-n+1得到要删除的第len个结点，
+// 然后通过循环找到len，删除即可
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     p->next=p->next->next;
     return head;
 }
-```
+// ```

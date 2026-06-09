@@ -1,11 +1,11 @@
-### 解题思路
-1、依然是queue，来实现层次遍历；
-2、依然是为了得到level，那么每次把一个level的都处理完；
-3、queue中保存的是下一层的所有元素，每次记录size，只处理这一层的内容，剩余节点就是下一层了下次循环处理；
+# ### 解题思路
+# 1、依然是queue，来实现层次遍历；
+# 2、依然是为了得到level，那么每次把一个level的都处理完；
+# 3、queue中保存的是下一层的所有元素，每次记录size，只处理这一层的内容，剩余节点就是下一层了下次循环处理；
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution(object):
         return level
 
 
-```
+# ```

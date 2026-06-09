@@ -1,6 +1,6 @@
-记录的目的是在目标行动到某一位置时，访问过的状态不能重复。
+# 记录的目的是在目标行动到某一位置时，访问过的状态不能重复。
 
-```
+# ```
 class Solution:
     def shortestPathLength(self, graph: List[List[int]]) -> int:
         n=len(graph)
@@ -31,4 +31,4 @@ class Solution:
         for i in range(n):f(i)      #从各个节点开始走
             
         return ans
-```
+# ```

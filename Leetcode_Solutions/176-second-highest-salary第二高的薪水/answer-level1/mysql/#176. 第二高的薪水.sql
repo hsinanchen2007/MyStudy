@@ -1,4 +1,4 @@
-```mysql
+-- ```mysql
 SELECT 
     (SELECT DISTINCT
             Salary
@@ -8,4 +8,4 @@ SELECT
         LIMIT 1 OFFSET 1) AS SecondHighestSalary
 ;
 
-```
+-- ```

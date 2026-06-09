@@ -1,12 +1,12 @@
-### 解题思路
-快乐小白的遍历 找到最高值k
-核心 最高值左边 递增 右边递减
-在0到k  找当前最大值 判断height[i]是否大于当前最大值,若大于就变当前最大值,否则 累加差值;
-在heightSize-1到k 找当前最大值 判断height[i]是否大于当前最大值;
+// ### 解题思路
+// 快乐小白的遍历 找到最高值k
+// 核心 最高值左边 递增 右边递减
+// 在0到k  找当前最大值 判断height[i]是否大于当前最大值,若大于就变当前最大值,否则 累加差值;
+// 在heightSize-1到k 找当前最大值 判断height[i]是否大于当前最大值;
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
     int num,sum=0,max=0,k=0,i;
     for(i=0;i<heightSize;i++)
@@ -42,4 +42,4 @@ int trap(int* height, int heightSize){
     }
     return sum;
 }
-```
+// ```

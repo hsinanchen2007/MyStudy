@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public void ReverseString(char[] s) {
         int l=0,r=s.Length-1;
@@ -22,4 +22,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-思路：利用php的优先队列，重写compare接口，保持一个最小堆
-```php
+// 思路：利用php的优先队列，重写compare接口，保持一个最小堆
+// ```php
 class Solution {
 
     /**
@@ -46,4 +46,4 @@ class SplPriorityQueue2 extends SplPriorityQueue{
         return $a>$b?-1:1;
     }
 }
-```
+// ```

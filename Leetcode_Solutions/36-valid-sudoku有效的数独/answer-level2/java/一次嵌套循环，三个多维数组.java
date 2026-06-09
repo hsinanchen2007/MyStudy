@@ -1,5 +1,5 @@
-本来使用的boolean数组，发现替换成int数组用01代表是否后，速度提高了不少
-```
+// 本来使用的boolean数组，发现替换成int数组用01代表是否后，速度提高了不少
+// ```
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         int[][][] smallBox = new int[3][3][9];
@@ -22,4 +22,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

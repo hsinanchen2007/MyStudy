@@ -1,6 +1,6 @@
-思路：
-找到最小长度字符串，然后依次取该字符串的子串，和其他字符串比较，如果某一个字符串不是以该子串开头，就break，直接比较更短子串。
-```
+// 思路：
+// 找到最小长度字符串，然后依次取该字符串的子串，和其他字符串比较，如果某一个字符串不是以该子串开头，就break，直接比较更短子串。
+// ```
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if(strs.length == 0){
@@ -27,4 +27,4 @@ class Solution {
         return "";
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
   public int numJewelsInStones(String J, String S) {
       if (J.length() == 0 || S.length() == 0) return 0;
@@ -17,4 +17,4 @@ class Solution {
       return sum;
     }
 }
-```
+// ```

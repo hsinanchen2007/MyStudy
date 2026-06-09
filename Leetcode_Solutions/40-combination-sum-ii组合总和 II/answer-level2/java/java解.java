@@ -1,9 +1,9 @@
-### 解题思路
-在之前上面加了去重
+// ### 解题思路
+// 在之前上面加了去重
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private static List<List<Integer>> res;
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
@@ -29,4 +29,4 @@ class Solution {
         }
     }
 }
-```
+// ```

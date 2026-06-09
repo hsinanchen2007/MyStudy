@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         # maximum heap, size is K
@@ -11,4 +11,4 @@ class Solution:
             else:
                 if num > res[0]: heapq.heappushpop(res, num)
         return sorted(res)[0]
-```
+# ```

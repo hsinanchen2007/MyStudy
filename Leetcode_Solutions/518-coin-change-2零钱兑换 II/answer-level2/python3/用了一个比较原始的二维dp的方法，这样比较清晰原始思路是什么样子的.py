@@ -1,14 +1,14 @@
-### 解题思路
+# ### 解题思路
 
-coins/amount+1
-  0,1,2,3,4,5,6...
-1 1
-2 1
-5 1
+# coins/amount+1
+#   0,1,2,3,4,5,6...
+# 1 1
+# 2 1
+# 5 1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def change(self, amount: int, coins: List[int]) -> int:
 
@@ -24,4 +24,4 @@ class Solution:
                 else:
                     dp[c][j] = dp[c][j-coins[c]]+dp[c-1][j]
         return dp[-1][-1]
-```
+# ```

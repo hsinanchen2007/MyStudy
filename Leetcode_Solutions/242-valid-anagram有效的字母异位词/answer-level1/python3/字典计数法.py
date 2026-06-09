@@ -1,4 +1,4 @@
-```
+# ```
 import collections
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
@@ -13,5 +13,5 @@ class Solution:
                 return False
         
         return True
-```
+# ```
 

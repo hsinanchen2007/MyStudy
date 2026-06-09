@@ -1,4 +1,4 @@
-//自己写个哈希表就行了
+// //自己写个哈希表就行了
 class Solution {
 public:
 struct Node{

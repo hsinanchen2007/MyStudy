@@ -1,12 +1,12 @@
-# 思路：
-1，定义数组`arm[N][N][4]`为点在四方向上延伸的最大长度
-`arm[i][j][0]`代表点`[i, j]`向上最长延伸的1的最大长度
-`arm[i][j][1]`代表点`[i, j]`向左最长延伸的1的最大长度
-`arm[i][j][2]`代表点`[i, j]`向下最长延伸的1的最大长度
-`arm[i][j][3]`代表点`[i, j]`向右最长延伸的1的最大长度
-2，遍历所有点四方向延伸手臂最小值的最大值即可
-找到`max{min{arm[i][j][0], arm[i][j][1], arm[i][j][2], arm[i][j][3]}}`即是答案
-```C++ []
+// # 思路：
+// 1，定义数组`arm[N][N][4]`为点在四方向上延伸的最大长度
+// `arm[i][j][0]`代表点`[i, j]`向上最长延伸的1的最大长度
+// `arm[i][j][1]`代表点`[i, j]`向左最长延伸的1的最大长度
+// `arm[i][j][2]`代表点`[i, j]`向下最长延伸的1的最大长度
+// `arm[i][j][3]`代表点`[i, j]`向右最长延伸的1的最大长度
+// 2，遍历所有点四方向延伸手臂最小值的最大值即可
+// 找到`max{min{arm[i][j][0], arm[i][j][1], arm[i][j][2], arm[i][j][3]}}`即是答案
+// ```C++ []
 class Solution {
 public:
     int orderOfLargestPlusSign(int N, vector<vector<int>>& mines) {
@@ -46,6 +46,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/4e8d438630f48fe8399815eab5da1d66406e55dc2dae4cde35f6b8a80dc4dfc8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4e8d438630f48fe8399815eab5da1d66406e55dc2dae4cde35f6b8a80dc4dfc8-image.png)

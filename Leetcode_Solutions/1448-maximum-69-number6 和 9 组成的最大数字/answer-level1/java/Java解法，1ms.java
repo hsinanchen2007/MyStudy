@@ -1,9 +1,9 @@
-执行用时 :1 ms, 在所有 Java 提交中击败了96.40%的用户
-内存消耗 :33.1 MB, 在所有 Java 提交中击败了100.00%的用户
+// 执行用时 :1 ms, 在所有 Java 提交中击败了96.40%的用户
+// 内存消耗 :33.1 MB, 在所有 Java 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximum69Number (int num) {
         StringBuilder s = new StringBuilder(String.valueOf(num));
@@ -16,4 +16,4 @@ class Solution {
         }
     }
 }
-```
+// ```

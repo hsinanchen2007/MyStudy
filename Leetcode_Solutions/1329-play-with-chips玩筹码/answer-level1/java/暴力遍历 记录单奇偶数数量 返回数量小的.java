@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/0d38a4b1a645aaefc374ae1727bcedc7d2eed887174f4d08ea70c7de6fc2586c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0d38a4b1a645aaefc374ae1727bcedc7d2eed887174f4d08ea70c7de6fc2586c-image.png)
 
-```
+// ```
 class Solution {
     public int minCostToMoveChips(int[] chips) {
         Arrays.sort(chips);
@@ -16,4 +16,4 @@ class Solution {
         return Math.min(singleNum, doubleNum);
     }
 }
-```
+// ```

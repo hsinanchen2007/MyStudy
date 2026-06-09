@@ -1,8 +1,8 @@
-### 解题思路
-打卡
-### 代码
+// ### 解题思路
+// 打卡
+// ### 代码
 
-```golang
+// ```golang
 func minDistance(word1 string, word2 string) int {
 	m, n := len(word1), len(word2)
 	var dp = make([][]int, m+1)
@@ -44,4 +44,4 @@ func min(a, b int) int {
 // 作者：rh01
 // 链接：https://leetcode-cn.com/problems/edit-distance/solution/golang-dong-tai-gui-hua-by-rh01-3/
 // 来源：力扣（LeetCode）
-```
+// ```

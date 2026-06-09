@@ -1,11 +1,11 @@
-### 解题思路
-自底向上的动态规划，dp[i] 表示总金额为i时，在给定coins下，最少数量的硬币组合。dp[i]也可表示为 dp[i-coins[j]]+1，在不同的j情况下取最小值。
+// ### 解题思路
+// 自底向上的动态规划，dp[i] 表示总金额为i时，在给定coins下，最少数量的硬币组合。dp[i]也可表示为 dp[i-coins[j]]+1，在不同的j情况下取最小值。
 
-贪心+dfs，因求最小值，所以需要尽可能多的使用面额大的硬币，故将coins数组逆序排列，需要k = amount/coins[i]个硬币,下一次递归开始将余额分配给更小面额的硬币，即amount = amount-k*coins[i],i = i+1,如果dfs的过程没找到结果，需要回溯 将k-1，继续dfs。
+// 贪心+dfs，因求最小值，所以需要尽可能多的使用面额大的硬币，故将coins数组逆序排列，需要k = amount/coins[i]个硬币,下一次递归开始将余额分配给更小面额的硬币，即amount = amount-k*coins[i],i = i+1,如果dfs的过程没找到结果，需要回溯 将k-1，继续dfs。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int coinChange1(int[] coins, int amount) {
         int[] dp = new int[amount+1];
@@ -41,4 +41,4 @@ class Solution {
         return ans==Integer.MAX_VALUE?-1:ans;
     }
 }
-```
+// ```

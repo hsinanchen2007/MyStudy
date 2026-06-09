@@ -1,9 +1,9 @@
-### 解题思路
-直观思路，先对矩阵转置，再对矩阵翻转
+// ### 解题思路
+// 直观思路，先对矩阵转置，再对矩阵翻转
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void transpose(vector<vector<int>> &matrix)  //转置
@@ -40,4 +40,4 @@ public:
         return;
     }
 };
-```
+// ```

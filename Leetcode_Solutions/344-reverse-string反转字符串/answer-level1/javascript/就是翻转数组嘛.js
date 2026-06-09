@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[]} s
  * @return {void} Do not return anything, modify s in-place instead.
@@ -14,10 +14,10 @@ var reverseString = function(s) {
     }
     return s
 };
-```
-本身有个高阶函数
-```
+// ```
+// 本身有个高阶函数
+// ```
 var reverseString = function(s) {
     return s.reverse()
 };
-```
+// ```

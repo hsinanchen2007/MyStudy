@@ -1,8 +1,8 @@
-### 思路一：随机交换元素
+// ### 思路一：随机交换元素
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     vector<int> vec;  
     vector<int> ori;
@@ -27,12 +27,12 @@ public:
         return vec;
     }
 };
-```
+// ```
 
-### 思路二：全部重排
+// ### 思路二：全部重排
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
     vector<int> vec;    
 public:
@@ -55,4 +55,4 @@ public:
         return res;
     }
 };
-```
+// ```

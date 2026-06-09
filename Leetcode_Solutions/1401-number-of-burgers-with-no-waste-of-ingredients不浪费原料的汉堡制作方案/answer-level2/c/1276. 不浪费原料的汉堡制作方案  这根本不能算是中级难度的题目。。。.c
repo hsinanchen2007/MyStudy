@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-就是鸡兔同笼的变形。。。需要注意结果需要大于等于0。
+// 就是鸡兔同笼的变形。。。需要注意结果需要大于等于0。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -24,4 +24,4 @@ int* numOfBurgers(int tomatoSlices, int cheeseSlices, int* returnSize)
     }
     return ret;
 }
-```
+// ```

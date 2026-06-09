@@ -1,9 +1,9 @@
-### 解题思路
-双指针，从两边遍历
+// ### 解题思路
+// 双指针，从两边遍历
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private  boolean ishuiwen(String s,int i,int j){
         while(i<j){//判断左右两边是否相等，然后再进行i++和j--
@@ -23,4 +23,4 @@ class Solution {
     }
 
 }
-```
+// ```

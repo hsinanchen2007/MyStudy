@@ -1,9 +1,9 @@
-### 解题思路
-从后往前找最大的6 然后加上shift让6变成9
+// ### 解题思路
+// 从后往前找最大的6 然后加上shift让6变成9
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximum69Number (int num) {
@@ -22,4 +22,4 @@ public:
         return num+shift;
     }
 };
-```
+// ```

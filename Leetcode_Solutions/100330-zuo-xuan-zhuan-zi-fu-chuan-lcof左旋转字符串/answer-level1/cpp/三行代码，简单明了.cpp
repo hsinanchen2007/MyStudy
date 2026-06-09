@@ -1,9 +1,9 @@
-三行代码不就可以了
+// 三行代码不就可以了
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseLeftWords(string s, int n) {
@@ -12,4 +12,4 @@ public:
         return s;
     }
 };
-```
+// ```

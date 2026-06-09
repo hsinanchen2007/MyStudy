@@ -1,10 +1,10 @@
-### 解题思路
-0ms 2.2MB
-使用双指针, 第一个指针先走, 并开始计数, 计数从1开始, 计数到k后, 第二个指针走
+// ### 解题思路
+// 0ms 2.2MB
+// 使用双指针, 第一个指针先走, 并开始计数, 计数从1开始, 计数到k后, 第二个指针走
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -25,4 +25,4 @@ func getKthFromEnd(head *ListNode, k int) *ListNode {
     }
     return pre
 }
-```
+// ```

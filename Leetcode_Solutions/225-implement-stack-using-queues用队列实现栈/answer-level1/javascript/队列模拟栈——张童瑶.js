@@ -1,11 +1,11 @@
-### 解题思路
-1. 使用数组模拟
-2. 作为构造函数的this指针用法
-3. 通过构造函数可以new出一个新对象，此时，this就指向这个新对象
+// ### 解题思路
+// 1. 使用数组模拟
+// 2. 作为构造函数的this指针用法
+// 3. 通过构造函数可以new出一个新对象，此时，this就指向这个新对象
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -57,4 +57,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

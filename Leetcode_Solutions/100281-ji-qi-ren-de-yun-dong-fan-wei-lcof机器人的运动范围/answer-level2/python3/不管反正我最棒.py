@@ -1,4 +1,4 @@
-```
+# ```
 def addDigits(num):
     newNum = 0
     for i in str(num):
@@ -23,4 +23,4 @@ class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         visited=[([0]*n) for i in range(m)]
         return dfs(visited,0,0,k)
-```
+# ```

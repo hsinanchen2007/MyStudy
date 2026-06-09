@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
@@ -18,4 +18,4 @@ public:
         return pop_index>=len;
     }
 };
-```
+// ```

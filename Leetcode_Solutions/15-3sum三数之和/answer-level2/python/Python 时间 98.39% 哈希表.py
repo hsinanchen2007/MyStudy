@@ -1,8 +1,8 @@
-### 主要思想
+# ### 主要思想
 
-哈希表记录数字出现次数 + 分正负 + 减法，判断差是否出现
+# 哈希表记录数字出现次数 + 分正负 + 减法，判断差是否出现
 
-```python
+# ```python
 class Solution(object):
     def threeSum(self, nums):
         res, negs, poses = [], [], []
@@ -30,4 +30,4 @@ class Solution(object):
                         res.append([neg, diff, pos])
         return res
 
-```
+# ```

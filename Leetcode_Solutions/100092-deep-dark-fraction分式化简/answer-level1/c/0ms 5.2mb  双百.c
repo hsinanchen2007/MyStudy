@@ -1,9 +1,9 @@
-### 解题思路
-循环计算，直到走到第一个元素
+// ### 解题思路
+// 循环计算，直到走到第一个元素
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -36,4 +36,4 @@ int* fraction(int* cont, int contSize, int* returnSize) {
 
 	return retArr;
 } 
-```
+// ```

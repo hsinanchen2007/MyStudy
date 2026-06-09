@@ -1,9 +1,9 @@
-### 解题思路
-Go  math.Sqrt 解法 是件复杂度 O(sqrt(c)) , 空间复杂度O(1)
+// ### 解题思路
+// Go  math.Sqrt 解法 是件复杂度 O(sqrt(c)) , 空间复杂度O(1)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func judgeSquareSum(c int) bool {
     if c < 0 {
         return false
@@ -21,4 +21,4 @@ func judgeSquareSum(c int) bool {
     }
     return false
 }
-```
+// ```

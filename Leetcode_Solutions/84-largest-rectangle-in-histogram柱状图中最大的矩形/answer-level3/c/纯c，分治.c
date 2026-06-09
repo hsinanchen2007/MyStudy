@@ -1,9 +1,9 @@
-### 解题思路
-以最低处为分界线，分成左右两部分，计算其最大面积
+// ### 解题思路
+// 以最低处为分界线，分成左右两部分，计算其最大面积
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //设置头尾指针，每次移动低那边的指针
 int searchminidx(int* heights, int low, int high)
 {
@@ -50,4 +50,4 @@ int largestRectangleArea(int* heights, int heightsSize){
     return helper(heights,low,high);
 
 }
-```
+// ```

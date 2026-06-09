@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
 
@@ -15,4 +15,4 @@ class Solution:
                     lens2%(i+1) == 0 and tmp * (lens2//(i+1)) == str2 :
                 ans = tmp
         return ans
-```
+# ```

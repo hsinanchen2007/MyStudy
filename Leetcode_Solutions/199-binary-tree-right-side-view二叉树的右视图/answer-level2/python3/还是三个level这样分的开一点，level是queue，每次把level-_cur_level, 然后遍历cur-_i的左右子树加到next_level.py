@@ -1,9 +1,9 @@
-### 解题思路
-还是三个level这样分的开一点，level是queue，每次把level->cur_level, 然后遍历cur->i的左右子树加到next_level
+# ### 解题思路
+# 还是三个level这样分的开一点，level是queue，每次把level->cur_level, 然后遍历cur->i的左右子树加到next_level
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
 
 
 
-```
+# ```

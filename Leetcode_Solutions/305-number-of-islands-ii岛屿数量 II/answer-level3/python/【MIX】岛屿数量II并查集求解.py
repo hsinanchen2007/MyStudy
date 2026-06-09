@@ -1,9 +1,9 @@
-### 解题思路
-构造并查集, 使用BFS求解
+# ### 解题思路
+# 构造并查集, 使用BFS求解
 
-### 代码
+# ### 代码
 
-```c++ []
+# ```c++ []
 class Solution {
 
 private:
@@ -80,8 +80,8 @@ private:
     int R, C;
     vector<vector<int>> dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 };
-```
-```java []
+# ```
+# ```java []
 class Solution {
 
     // 定义并查集
@@ -168,8 +168,8 @@ class Solution {
     private int R, C;
     private int[][] dirs = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     # 并查集
     class UnionFind:
@@ -217,4 +217,4 @@ class Solution:
 
     def __inArea(self, x, y):
         return 0<=x and x<self.R and 0<=y and y<self.C
-```
+# ```

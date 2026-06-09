@@ -1,9 +1,9 @@
-### 解题思路
-(1) 使用哈希表两两分块
+// ### 解题思路
+// (1) 使用哈希表两两分块
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -38,9 +38,9 @@ public:
         return res;
     }
 };
-```
-(2) 双指针法
-```cpp
+// ```
+// (2) 双指针法
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -79,4 +79,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-**思路1：** 递归，前序遍历对比是否为相同的树，详情如下。
-```
+// **思路1：** 递归，前序遍历对比是否为相同的树，详情如下。
+// ```
 public bool IsSameTree(TreeNode p, TreeNode q)
         {
             //递归终止情况1：p, q都是null
@@ -21,4 +21,4 @@ public bool IsSameTree(TreeNode p, TreeNode q)
                 return isLeftSameTree && isRightSameTree;
             }
         }
-```
+// ```

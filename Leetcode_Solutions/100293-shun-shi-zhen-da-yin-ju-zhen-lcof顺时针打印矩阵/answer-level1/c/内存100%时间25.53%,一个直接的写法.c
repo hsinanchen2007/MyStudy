@@ -1,12 +1,12 @@
-### 解题思路
-写一下我出错的几点：
-1.判断矩阵为空一定要放到第一步（别问我为什么）
-2.一定要搞清楚遍历之后少的是right和down还是增加了left和up
-3.代码里的注释写的很清楚了看一遍就应该懂了
+// ### 解题思路
+// 写一下我出错的几点：
+// 1.判断矩阵为空一定要放到第一步（别问我为什么）
+// 2.一定要搞清楚遍历之后少的是right和down还是增加了left和up
+// 3.代码里的注释写的很清楚了看一遍就应该懂了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -56,4 +56,4 @@ int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
     return res;
 
 }
-```
+// ```

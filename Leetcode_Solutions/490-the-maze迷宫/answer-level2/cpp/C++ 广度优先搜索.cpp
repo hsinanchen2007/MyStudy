@@ -1,6 +1,6 @@
-# 思路
-1，从终点开始做BFS，直到遇到起点
-```C++ []
+// # 思路
+// 1，从终点开始做BFS，直到遇到起点
+// ```C++ []
 class Solution {
 public:
     int dirs[4][2] = {{0, 1}, {1, 0}, {-1, 0}, {0, -1}};
@@ -49,7 +49,7 @@ public:
         return false;
     }
 };
-```
+// ```
 
 
-![image.png](https://pic.leetcode-cn.com/30210c6ec3c14d9a69e350d9eaed5ace49e611a08217e7adea57863beaf40119-image.png)
+// ![image.png](https://pic.leetcode-cn.com/30210c6ec3c14d9a69e350d9eaed5ace49e611a08217e7adea57863beaf40119-image.png)

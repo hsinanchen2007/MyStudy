@@ -1,8 +1,8 @@
-### 鸽巢原理（抽屉原理）
-把n+1个物体放进n个盒子中，一定有至少一个盒子中有多个物体
-原地置换，为了空间复杂度变O(1).这种做法会改变原数组的值
-遍历一次，时间复杂度O(N)
-```C++
+// ### 鸽巢原理（抽屉原理）
+// 把n+1个物体放进n个盒子中，一定有至少一个盒子中有多个物体
+// 原地置换，为了空间复杂度变O(1).这种做法会改变原数组的值
+// 遍历一次，时间复杂度O(N)
+// ```C++
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -19,13 +19,13 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-### unordered_set
- 底层用hash存储,插入、查找时间复杂度为O(1)
- 注意c++中的set是红黑树存储插入、查找时间复杂度为O(logn)
- 此题解空间复杂度 O(n)
-```C++
+// ### unordered_set
+//  底层用hash存储,插入、查找时间复杂度为O(1)
+//  注意c++中的set是红黑树存储插入、查找时间复杂度为O(logn)
+//  此题解空间复杂度 O(n)
+// ```C++
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -39,12 +39,12 @@ public:
         return -1;
     }
 };
-```
+// ```
 
-### bool数组 
- 新建一个bool数组，长度为输入数组的长度
- 空间复杂度O(n) 时间复杂度O(n)
-```C++
+// ### bool数组 
+//  新建一个bool数组，长度为输入数组的长度
+//  空间复杂度O(n) 时间复杂度O(n)
+// ```C++
 class Solution{
     public:
     int findRepeatNumber(vector<int>& nums) {
@@ -60,6 +60,6 @@ class Solution{
         return -1;
     }
 };
-```
+// ```
 
 

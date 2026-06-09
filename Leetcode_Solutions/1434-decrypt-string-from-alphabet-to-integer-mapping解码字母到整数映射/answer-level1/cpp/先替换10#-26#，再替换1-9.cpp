@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string freqAlphabets(string s) {
@@ -25,4 +25,4 @@ public:
         return s;
     }
 };
-```
+// ```

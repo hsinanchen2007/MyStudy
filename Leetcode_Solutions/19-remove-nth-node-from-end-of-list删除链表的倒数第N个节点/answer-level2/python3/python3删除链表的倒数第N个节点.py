@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针一次遍历
+# ### 解题思路
+# 快慢指针一次遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,6 +25,6 @@ class Solution:
         else:
             head=head.next
         return head
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/6e520403aaa936fabf5d8b47c59f6bd8e5a9eabff50c374e5cd78eb6aee35ea7-image.png)
+# ![image.png](https://pic.leetcode-cn.com/6e520403aaa936fabf5d8b47c59f6bd8e5a9eabff50c374e5cd78eb6aee35ea7-image.png)

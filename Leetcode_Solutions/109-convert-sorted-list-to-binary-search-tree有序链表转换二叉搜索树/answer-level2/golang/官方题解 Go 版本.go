@@ -1,5 +1,5 @@
-# 递归
-```golang
+// # 递归
+// ```golang
 func sortedListToBST(head *ListNode) *TreeNode {
 	if head == nil {
 		return nil
@@ -39,11 +39,11 @@ func findMiddle(node *ListNode) *ListNode {
 	//6=>4
 	//7=>4
 }
-```
+// ```
 
 
-# 数组
-```golang
+// # 数组
+// ```golang
 func sortedListToBST(head *ListNode) *TreeNode {
 	var arr []int
 	for head != nil {
@@ -59,10 +59,10 @@ func sortedArrayToBST(nums []int) *TreeNode {
 	}
 	return &TreeNode{nums[len(nums)/2], sortedArrayToBST(nums[:len(nums)/2]), sortedArrayToBST(nums[len(nums)/2+1:])}
 }
-```
+// ```
 
-# 中序遍历
-```golang
+// # 中序遍历
+// ```golang
 var head *ListNode
 
 func sortedListToBST(h *ListNode) *TreeNode {
@@ -89,7 +89,7 @@ func convertListToBST(l, r int) *TreeNode {
 	node.Right = convertListToBST(mid+1, r)
 	return node
 }
-```
+// ```
 
 
-[Go版本的一题多解 Github](https://github.com/temporaries/leetcode)
+// [Go版本的一题多解 Github](https://github.com/temporaries/leetcode)

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/c0e84de6e6483ab6faff64dfb8b7834bcf83094ea6f88994b2f99e0be6efbed6-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c0e84de6e6483ab6faff64dfb8b7834bcf83094ea6f88994b2f99e0be6efbed6-image.png)
 
 
-```
+# ```
 '''
 (i, arr1[i], arr2[i])  和 (j, arr1[j], arr2[j])
 可以看成三维平面上两个点，题目就是求两个点曼哈顿距离最大值
@@ -31,4 +31,4 @@ class Solution:
             ans = max(ans, (max_val - min_val))
 
         return ans
-```
+# ```

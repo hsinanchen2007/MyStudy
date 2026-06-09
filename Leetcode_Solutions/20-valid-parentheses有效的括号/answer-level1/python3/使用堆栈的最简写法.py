@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isValid(self, s):
         """
@@ -17,4 +17,4 @@ class Solution(object):
             
         return not stack #stack 已空说明合法
 
-```
+# ```

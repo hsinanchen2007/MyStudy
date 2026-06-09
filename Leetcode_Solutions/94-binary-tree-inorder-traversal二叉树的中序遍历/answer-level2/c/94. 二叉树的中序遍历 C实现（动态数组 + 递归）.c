@@ -1,9 +1,9 @@
-### 解题思路
-    无法确定树的节点个数，c实现主要难点在内存申请上，自己写了个简易的arraylist。
+// ### 解题思路
+//     无法确定树的节点个数，c实现主要难点在内存申请上，自己写了个简易的arraylist。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -59,4 +59,4 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize = l->index;
     return l->arr;
 }
-```
+// ```

@@ -1,8 +1,8 @@
 
 
-一开始动态规划超时了，时间复杂度N^3, 自己太愚蠢了
+# 一开始动态规划超时了，时间复杂度N^3, 自己太愚蠢了
 
-```
+# ```
 '''
 动态规划
 dp(i, j) 表示前i个巧克力分成j份，不管用什么分法，所有可能的和的组合里面，组合里面最小的和的最大值是多少
@@ -30,11 +30,11 @@ class Solution:
                         break
                     k -= 1
         return dp[n-1][K+1]
-```
+# ```
 
-二分法才是正解
+# 二分法才是正解
 
-```
+# ```
 from typing import List
 import bisect
 class Solution:
@@ -67,5 +67,5 @@ class Solution:
             else:
                 r = mid - 1
         return ans
-```
+# ```
 

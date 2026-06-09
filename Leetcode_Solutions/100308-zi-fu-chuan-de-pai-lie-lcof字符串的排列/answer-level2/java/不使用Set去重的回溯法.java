@@ -1,5 +1,5 @@
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     private LinkedList<String> list = new LinkedList<>();
     private StringBuilder sb;
@@ -40,4 +40,4 @@ class Solution {
         }
     }
 }
-```
+// ```

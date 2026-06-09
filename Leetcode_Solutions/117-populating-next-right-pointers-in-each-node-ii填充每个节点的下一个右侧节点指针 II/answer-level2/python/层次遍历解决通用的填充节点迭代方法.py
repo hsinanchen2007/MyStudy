@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
         if not root:
@@ -15,4 +15,4 @@ class Solution:
                     next_level.append(cur_node.right)
             cur_level = next_level
         return root
-```
+# ```

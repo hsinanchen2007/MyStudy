@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：斜率公式k=(y2-y1)/(x2-x1)
@@ -45,4 +45,4 @@ bool checkStraightLine( int ** coordinates , int coordinatesSize , int * coordin
     return true;
 
 }
-```
+// ```

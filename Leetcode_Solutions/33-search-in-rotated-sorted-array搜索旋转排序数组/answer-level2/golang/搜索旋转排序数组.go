@@ -1,9 +1,9 @@
-### 解题思路
-代码中注释
+// ### 解题思路
+// 代码中注释
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func search(nums []int, target int) int {
 
     var i int 
@@ -58,4 +58,4 @@ func search(nums []int, target int) int {
     
     return -1
 }
-```
+// ```

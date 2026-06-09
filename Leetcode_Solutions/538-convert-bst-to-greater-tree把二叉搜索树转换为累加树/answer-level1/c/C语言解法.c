@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d8ec264f92169439828cffea7d1e3a372ef42ebc63f019dd7a16c7bd067b2fa9-image.png)
-中序遍历，边遍历边累加
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d8ec264f92169439828cffea7d1e3a372ef42ebc63f019dd7a16c7bd067b2fa9-image.png)
+// 中序遍历，边遍历边累加
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ struct TreeNode* convertBST(struct TreeNode* root){
     preorder(root);
     return root;
 }
-```
+// ```

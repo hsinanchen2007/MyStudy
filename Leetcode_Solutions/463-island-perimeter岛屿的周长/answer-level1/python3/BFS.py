@@ -1,5 +1,5 @@
-写完BFS，才发现不需要对值进行累计计算...
-```
+# 写完BFS，才发现不需要对值进行累计计算...
+# ```
 class Solution(object):
     def islandPerimeter(self, grid):
         """
@@ -64,4 +64,4 @@ class Solution(object):
                     list1.append((next_x,next_y,node_step+1,tmp_sum))
                     visit[next_x][next_y]=1
         return rs
-```
+# ```

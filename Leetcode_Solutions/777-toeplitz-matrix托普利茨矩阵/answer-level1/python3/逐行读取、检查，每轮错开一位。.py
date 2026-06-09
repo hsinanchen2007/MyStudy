@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isToeplitzMatrix(self, matrix: list) -> bool:
         res = matrix[0][:-1]
@@ -8,9 +8,9 @@ class Solution:
                 return False
             res = line[:-1]
         return True
-```
-或者，
-```
+# ```
+# 或者，
+# ```
 class Solution:
     def isToeplitzMatrix(self, matrix: list) -> bool:
         for k in range(1, len(matrix)):
@@ -19,4 +19,4 @@ class Solution:
                 if tmp[p] != matrix[k-1][p]:
                     return False
         return True
-```
+# ```

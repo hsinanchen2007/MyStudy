@@ -1,9 +1,9 @@
-### 解题思路
-1. 使用hash table
+// ### 解题思路
+// 1. 使用hash table
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findString(vector<string>& words, string s) {
@@ -24,4 +24,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-如果n是偶数，则添加对称的数：i和-i
-如果n是奇数，最中间的数为0
+// ### 解题思路
+// 如果n是偶数，则添加对称的数：i和-i
+// 如果n是奇数，最中间的数为0
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sumZero(int n) {
         int[] res =new int[n];
@@ -25,4 +25,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

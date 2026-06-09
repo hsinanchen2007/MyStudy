@@ -1,9 +1,9 @@
-### 解题思路
-dfs(root) 根据 树是否是单值，返回true 或者 False
+# ### 解题思路
+# dfs(root) 根据 树是否是单值，返回true 或者 False
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
                 return False
             return True
         return dfs(root)
-```
+# ```

@@ -1,4 +1,4 @@
-````
+// ````
 func isValid(s string) bool {
 	var stack []string
 	m := map[string]string{
@@ -18,4 +18,4 @@ func isValid(s string) bool {
 	}
 	return len(stack) == 0
 }
-````
+// ````

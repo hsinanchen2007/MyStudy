@@ -1,9 +1,9 @@
-### 解题思路
-先数组排序，在求出相同数的数量，该数量跟前一个求出的数量求最大公约数，若该公约数小于2，return false
-若大于2，继续重复先前的工作，下面代码3ms，击败84%
-### 代码
+// ### 解题思路
+// 先数组排序，在求出相同数的数量，该数量跟前一个求出的数量求最大公约数，若该公约数小于2，return false
+// 若大于2，继续重复先前的工作，下面代码3ms，击败84%
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] dock) {
         if (dock.length < 2)
@@ -44,4 +44,4 @@ class Solution {
 		return num2;
 	}
 }
-```
+// ```

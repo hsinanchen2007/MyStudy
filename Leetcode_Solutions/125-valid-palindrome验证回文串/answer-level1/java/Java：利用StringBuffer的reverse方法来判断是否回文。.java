@@ -1,7 +1,7 @@
-逐个字符读取到StringBuffer，过滤不需要字符，并进行大小写转换。
-最后使用StringBuffer的reverse()方法翻转字符串，判断是否相等即可。
+// 逐个字符读取到StringBuffer，过滤不需要字符，并进行大小写转换。
+// 最后使用StringBuffer的reverse()方法翻转字符串，判断是否相等即可。
 
-```
+// ```
 class Solution {
     public boolean isPalindrome(String s) {
         StringBuffer sb = new StringBuffer();
@@ -13,4 +13,4 @@ class Solution {
         return sb.toString().equals(sb.reverse().toString());
     }
 }
-```
+// ```

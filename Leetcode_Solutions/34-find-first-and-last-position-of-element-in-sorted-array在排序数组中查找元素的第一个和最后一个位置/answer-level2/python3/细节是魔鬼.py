@@ -1,8 +1,8 @@
-### 解题思路
-疑问：删去关于处理列表长度为二的代码，，运行时间更长，这是为什么呢？
-### 代码
+# ### 解题思路
+# 疑问：删去关于处理列表长度为二的代码，，运行时间更长，这是为什么呢？
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         n =len(nums)
@@ -50,4 +50,4 @@ class Solution:
                 right = mid-1
         return k
         
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-没有思路
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 没有思路
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -44,4 +44,4 @@ bool* camelMatch(char ** queries, int queriesSize, char * pattern, int* returnSi
     *returnSize = queriesSize;
     return answer;
 }
-```
+// ```

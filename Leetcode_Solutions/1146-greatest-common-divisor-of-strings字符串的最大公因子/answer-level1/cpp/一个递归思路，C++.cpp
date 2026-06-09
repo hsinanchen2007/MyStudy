@@ -1,9 +1,9 @@
-### 解题思路
-除了官方题解的几种方法
+// ### 解题思路
+// 除了官方题解的几种方法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
@@ -13,4 +13,4 @@ public:
         return gcdOfStrings(str1.substr(str2.size()), str2);
     }
 };
-```
+// ```

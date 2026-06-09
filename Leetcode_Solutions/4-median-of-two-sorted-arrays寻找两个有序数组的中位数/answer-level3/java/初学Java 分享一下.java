@@ -1,9 +1,9 @@
-### 解题思路
-将两个有序数组按序存放在一个新数组中，再根据奇偶性计算中位数。
+// ### 解题思路
+// 将两个有序数组按序存放在一个新数组中，再根据奇偶性计算中位数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
@@ -36,4 +36,4 @@ class Solution {
 
     }
 }
-```
+// ```

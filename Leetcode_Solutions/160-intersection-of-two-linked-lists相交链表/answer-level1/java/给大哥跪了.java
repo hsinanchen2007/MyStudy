@@ -1,9 +1,9 @@
-### 解题思路
-评论区的大神太强了，不看图真的难想到啊我这猪脑子qaq
+// ### 解题思路
+// 评论区的大神太强了，不看图真的难想到啊我这猪脑子qaq
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -25,4 +25,4 @@
         return ha;
     }
 }
-```
+// ```

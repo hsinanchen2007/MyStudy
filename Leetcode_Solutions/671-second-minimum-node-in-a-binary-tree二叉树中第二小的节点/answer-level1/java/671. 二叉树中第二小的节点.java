@@ -1,15 +1,15 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/28
- *
- * 解题思路: 求出最小值 次小值 在进行整数类型的最大值最小值比较的时候 可以使用long 类型来简化边界操作
- *
- * long 类型和 int 类型可以直接比较大小
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/28
+//  *
+//  * 解题思路: 求出最小值 次小值 在进行整数类型的最大值最小值比较的时候 可以使用long 类型来简化边界操作
+//  *
+//  * long 类型和 int 类型可以直接比较大小
+//  *
+//  */
+// ```
 public class leetcode671 {
     long min1 = 2147483647L + 1;
     long min2 = 2147483647L + 1;
@@ -44,4 +44,4 @@ public class leetcode671 {
     }
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 type elem struct {
 	Node *TreeNode
 	Type int
@@ -36,4 +36,4 @@ func postorderTraversal(root *TreeNode) (rst []int) {
 
 	return
 }
-```
+// ```

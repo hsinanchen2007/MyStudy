@@ -1,9 +1,9 @@
-### 解题思路
-replace函数替换即可
+# ### 解题思路
+# replace函数替换即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def replaceSpace(self, s):
         """
@@ -11,4 +11,4 @@ class Solution(object):
         :rtype: str
         """
         return s.replace(" ","%20")
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 var MaxQueue = function() {
     this.que = []
     // 临时保存最大值
@@ -24,4 +24,4 @@ MaxQueue.prototype.pop_front = function() {
     }
     return temp
 }
-```
+// ```

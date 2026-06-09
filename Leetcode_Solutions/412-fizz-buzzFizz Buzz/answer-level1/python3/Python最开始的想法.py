@@ -1,9 +1,9 @@
-### 解题思路
-数学不好，只能算是暴力法的优化？害。
+# ### 解题思路
+# 数学不好，只能算是暴力法的优化？害。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
         result = []
@@ -21,4 +21,4 @@ class Solution:
             count += 1
             
         return result
-```
+# ```

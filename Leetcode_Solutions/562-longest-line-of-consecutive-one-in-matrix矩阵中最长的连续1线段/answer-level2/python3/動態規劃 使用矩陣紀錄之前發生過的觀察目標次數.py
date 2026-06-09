@@ -1,11 +1,11 @@
-### 解题思路
-動態規劃 使用矩陣紀錄之前發生過的觀察目標次數
-有發生就把值+1 一路記下所有位置發生過的次數
-最後再找出最大值即可
+# ### 解题思路
+# 動態規劃 使用矩陣紀錄之前發生過的觀察目標次數
+# 有發生就把值+1 一路記下所有位置發生過的次數
+# 最後再找出最大值即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import numpy as np
 class Solution:
     def longestLine(self, M: List[List[int]]) -> int:
@@ -29,4 +29,4 @@ class Solution:
         return int(res)
               
 
-```
+# ```

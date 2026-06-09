@@ -1,10 +1,10 @@
-## 思路:
+# ## 思路:
 
-一句话解释:  栈解决,把当前目录压入栈中,遇到`..`弹出栈顶,最后返回栈中元素.
+# 一句话解释:  栈解决,把当前目录压入栈中,遇到`..`弹出栈顶,最后返回栈中元素.
 
-## 代码:
+# ## 代码:
 
-```python [1]
+# ```python [1]
 class Solution:
     def simplifyPath(self, path: str) -> str:
         stack = []
@@ -16,11 +16,11 @@ class Solution:
             elif item and item != ".":
                 stack.append(item)
         return "/" + "/".join(stack)
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public String simplifyPath(String path) {
         Deque<String> stack = new LinkedList<>();
@@ -34,5 +34,5 @@ class Solution {
         return res.isEmpty() ? "/" : res;  
     }
 }
-```
+# ```
 

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -61,4 +61,4 @@ bool isCousins( struct TreeNode * root , int x , int y ){
     return false;
 
 }
-```
+// ```

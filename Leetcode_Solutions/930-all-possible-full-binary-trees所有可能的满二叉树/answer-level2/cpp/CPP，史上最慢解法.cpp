@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/7c89ab5932447ac48401bfd60aa3527bf3b2bdda8fa1d3430b4f22175b9c1265-image.png)
-我写的时候就想歪了，想着把上一组树的每个叶子结点都插两个就可以，之后全是指针（没去改返回值），到处都要深复制，之后还要去重，感觉是最蠢的解法了
-```
+// ![image.png](https://pic.leetcode-cn.com/7c89ab5932447ac48401bfd60aa3527bf3b2bdda8fa1d3430b4f22175b9c1265-image.png)
+// 我写的时候就想歪了，想着把上一组树的每个叶子结点都插两个就可以，之后全是指针（没去改返回值），到处都要深复制，之后还要去重，感觉是最蠢的解法了
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -109,5 +109,5 @@ public:
         }
     }
 };
-```
+// ```
 

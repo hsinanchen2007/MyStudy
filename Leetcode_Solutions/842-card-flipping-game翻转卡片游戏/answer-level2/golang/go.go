@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 
 func flipgame(fronts []int, backs []int) int {
@@ -24,4 +24,4 @@ func flipgame(fronts []int, backs []int) int {
 	}
 	return o
 }
-```
+// ```

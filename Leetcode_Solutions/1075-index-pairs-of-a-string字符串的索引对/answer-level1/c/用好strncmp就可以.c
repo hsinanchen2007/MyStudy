@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*int** indexPairs(char * text, char ** words, int wordsSize, int* returnSize, int** returnColumnSizes){
     int len = strlen(text);
     if (len < 1 || len > 100 || wordsSize < 1 || wordsSize > 20) {
@@ -70,4 +70,4 @@ int** indexPairs(char * text, char ** words, int wordsSize, int* returnSize, int
 	}
 	return res;
 }
-```
+// ```

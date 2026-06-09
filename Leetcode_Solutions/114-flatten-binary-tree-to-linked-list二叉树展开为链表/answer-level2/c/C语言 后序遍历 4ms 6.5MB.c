@@ -1,10 +1,10 @@
-### 解题思路
-类似后续遍历
-基本思想就是   右 左 左连右 根连左
+// ### 解题思路
+// 类似后续遍历
+// 基本思想就是   右 左 左连右 根连左
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ void flatten(struct TreeNode* root){
     // flatten
     MinTri(root, &now_r);
 }
-```
+// ```

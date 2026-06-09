@@ -1,9 +1,9 @@
-### 解题思路
-好方法
+// ### 解题思路
+// 好方法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     void backtrack(vector<string>& ans, string& cur, int open, int close, int n) {
         if (cur.size() == n * 2) {
@@ -29,4 +29,4 @@ public:
         return result;
     }
 };
-```
+// ```

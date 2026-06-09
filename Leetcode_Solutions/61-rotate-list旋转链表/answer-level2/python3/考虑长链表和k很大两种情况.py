@@ -1,5 +1,5 @@
-在获取链表长度时，能得到第k个节点直接跳出，击败95%
-```
+# 在获取链表长度时，能得到第k个节点直接跳出，击败95%
+# ```
 class Solution(object):
     def rotateRight(self, head, k):
         if not head :return head
@@ -22,4 +22,4 @@ class Solution(object):
         slow.next=None
         fast.next=head
         return res 
-```
+# ```

@@ -1,4 +1,4 @@
-    // 先分析低位两位，因为10几和20-90几字母不一样
+//     // 先分析低位两位，因为10几和20-90几字母不一样
     class Solution {
         public String numberToWords(int num) {
             String[] one = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};

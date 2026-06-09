@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     struct TrieTree {
@@ -49,6 +49,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/ecab1f89cccfd36f49bfdd54e8913085eb9e74e9302b867973c2ebc1a0e0b9e5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ecab1f89cccfd36f49bfdd54e8913085eb9e74e9302b867973c2ebc1a0e0b9e5-image.png)

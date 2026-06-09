@@ -1,9 +1,9 @@
-### 解题思路
-我这个时间复杂度应该是o(n)吧
+// ### 解题思路
+// 我这个时间复杂度应该是o(n)吧
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int[] result = {-1, -1};
@@ -20,4 +20,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

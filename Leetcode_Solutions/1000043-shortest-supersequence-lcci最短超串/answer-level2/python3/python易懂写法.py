@@ -1,12 +1,12 @@
-### 解题思路
-参考链接[python 简洁滑动窗口详解](https://leetcode-cn.com/problems/minimum-window-substring/solution/python-jian-ji-hua-dong-chuang-kou-xiang-jie-by-am/)
-cnt:字典形式存储small
-l:左指针
-n：统计cnt[r] = 0，当n = len(cnt)时表示r-l内满足small条件
-ans:存储l，r
-### 代码
+# ### 解题思路
+# 参考链接[python 简洁滑动窗口详解](https://leetcode-cn.com/problems/minimum-window-substring/solution/python-jian-ji-hua-dong-chuang-kou-xiang-jie-by-am/)
+# cnt:字典形式存储small
+# l:左指针
+# n：统计cnt[r] = 0，当n = len(cnt)时表示r-l内满足small条件
+# ans:存储l，r
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def shortestSeq(self, big: List[int], small: List[int]) -> List[int]:
         import collections
@@ -30,4 +30,4 @@ class Solution:
                     ans.append(l)
                     ans.append(r)
         return ans
-```
+# ```

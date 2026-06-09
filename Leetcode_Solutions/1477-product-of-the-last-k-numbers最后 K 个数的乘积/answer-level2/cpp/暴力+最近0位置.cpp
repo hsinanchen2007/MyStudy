@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <vector> 
 class ProductOfNumbers {
     vector<int> arr={};
@@ -37,4 +37,4 @@ public:
  * obj->add(num);
  * int param_2 = obj->getProduct(k);
  */
-```
+// ```

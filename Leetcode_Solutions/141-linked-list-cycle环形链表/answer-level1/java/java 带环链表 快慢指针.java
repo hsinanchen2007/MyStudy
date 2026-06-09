@@ -1,10 +1,10 @@
-### 解题思路
-    快指针和慢指针从头开始走，快的走两步，慢的走一步，如果 两个指针相遇则存在环，返回true；否则false。
-    需要注意：快指针的next 如果是null,返回false，需要判断一下，不然会报错。
+// ### 解题思路
+//     快指针和慢指针从头开始走，快的走两步，慢的走一步，如果 两个指针相遇则存在环，返回true；否则false。
+//     需要注意：快指针的next 如果是null,返回false，需要判断一下，不然会报错。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -36,4 +36,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

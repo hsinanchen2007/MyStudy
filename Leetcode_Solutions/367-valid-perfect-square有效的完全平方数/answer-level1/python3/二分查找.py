@@ -1,5 +1,5 @@
-python版本二分查找：
-```
+# python版本二分查找：
+# ```
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
         if num <= 4:
@@ -15,9 +15,9 @@ class Solution:
             else:
                 r = mid
         return False
-```
-go版本二分查找：
-```
+# ```
+# go版本二分查找：
+# ```
 func isPerfectSquare(num int) bool {
     if num <= 4 {
         return num == 1 || num == 4
@@ -36,4 +36,4 @@ func isPerfectSquare(num int) bool {
     }
     return false
 }
-```
+# ```

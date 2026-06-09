@@ -1,14 +1,14 @@
-### 小根堆
-1. 遍历数组，哈希表录入频率
-2. 遍历哈希表，维护一个出现频率前k多的小根堆
-3. 优先队列已满，需要判断当前元素的频率是否大于优先队列的最小频率元素的频率，如果大于，则替换。
-4. 优先队列未满，进队即可
+// ### 小根堆
+// 1. 遍历数组，哈希表录入频率
+// 2. 遍历哈希表，维护一个出现频率前k多的小根堆
+// 3. 优先队列已满，需要判断当前元素的频率是否大于优先队列的最小频率元素的频率，如果大于，则替换。
+// 4. 优先队列未满，进队即可
 
-**注意**：c++ 优先队列默认大根堆，设置时需要`priority_queue< pair<int,int> , vector< pair<int,int> >, greater< pair<int,int> > >`实现小根堆。
-<br/>
+// **注意**：c++ 优先队列默认大根堆，设置时需要`priority_queue< pair<int,int> , vector< pair<int,int> >, greater< pair<int,int> > >`实现小根堆。
+// <br/>
 
-### 代码
-```
+// ### 代码
+// ```
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
@@ -47,16 +47,16 @@ public:
         return result;
     }
 };
-```
+// ```
 
-<br/>
-### 大根堆
-通常情况下求前k大用小根堆，求前k小用大根堆。我们知道，小根堆的方法的时间复杂度为`O(nlogk)`，如果`k`与`n`很接近呢？如果我非要用大根堆呢？其实也是可以的，只是需要转换一下思路即可。既然让我们求前k大，那么我们是不是可以转换一下思路求前n-k小呢？当然是可以的，而且c++的堆默认是大根堆，这样会稍微省一下声明的麻烦。但最后两者的执行用时一样，哭了～～
-<br/>
-**注意**：一定要考虑`n == k`的情况，不然你就会像我一样卡在测试用例`nums = [1], k = 1`上，错误信息为`Char 17: runtime error: reference binding to null pointer of type 'const struct pair' (stl_iterator.h)`。其实很好理解：对于该测试用例，`n == k`会使得一开始`if( (n - k) == (int)pq.size() )`就通过，那么在初始条件下，就会进行**取堆顶**和**出堆**的操作，显然队列为空，不能访问。
-<br/>
-### 代码
-```
+// <br/>
+// ### 大根堆
+// 通常情况下求前k大用小根堆，求前k小用大根堆。我们知道，小根堆的方法的时间复杂度为`O(nlogk)`，如果`k`与`n`很接近呢？如果我非要用大根堆呢？其实也是可以的，只是需要转换一下思路即可。既然让我们求前k大，那么我们是不是可以转换一下思路求前n-k小呢？当然是可以的，而且c++的堆默认是大根堆，这样会稍微省一下声明的麻烦。但最后两者的执行用时一样，哭了～～
+// <br/>
+// **注意**：一定要考虑`n == k`的情况，不然你就会像我一样卡在测试用例`nums = [1], k = 1`上，错误信息为`Char 17: runtime error: reference binding to null pointer of type 'const struct pair' (stl_iterator.h)`。其实很好理解：对于该测试用例，`n == k`会使得一开始`if( (n - k) == (int)pq.size() )`就通过，那么在初始条件下，就会进行**取堆顶**和**出堆**的操作，显然队列为空，不能访问。
+// <br/>
+// ### 代码
+// ```
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
@@ -99,8 +99,8 @@ public:
         return result;
     }
 };
-```
-<br/>
+// ```
+// <br/>
 
->如果有错误或者不严谨的地方，请务必给予指正，十分感谢。
->本人blog：<https://zhengguanyu.github.io>
+// >如果有错误或者不严谨的地方，请务必给予指正，十分感谢。
+// >本人blog：<https://zhengguanyu.github.io>

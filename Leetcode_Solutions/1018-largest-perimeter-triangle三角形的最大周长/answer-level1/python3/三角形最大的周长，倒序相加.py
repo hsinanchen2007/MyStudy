@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def largestPerimeter(self, A) -> int:
         a = len((A)) -1
@@ -12,5 +12,5 @@ class Solution:
 
         return 0
 
-```
-从最后一个数开始往前推，可以减少计算量
+# ```
+# 从最后一个数开始往前推，可以减少计算量

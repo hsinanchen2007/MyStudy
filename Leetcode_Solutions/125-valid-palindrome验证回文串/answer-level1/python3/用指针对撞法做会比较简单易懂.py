@@ -1,6 +1,6 @@
-设置头尾两个指针，往中间靠拢，依次比较对应的字符是否相等即可。
+# 设置头尾两个指针，往中间靠拢，依次比较对应的字符是否相等即可。
 
-```python []
+# ```python []
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         l, r = 0, len(s) - 1
@@ -15,4 +15,4 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isUgly(int num) {
         if(num==0){
@@ -18,4 +18,4 @@ class Solution {
     }
 
 }
-```
+// ```

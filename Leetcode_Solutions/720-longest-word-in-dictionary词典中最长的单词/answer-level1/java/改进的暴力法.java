@@ -1,9 +1,9 @@
 
-# 改进的暴力法
+// # 改进的暴力法
 
-和官方题解的暴力法思路类似，但是把Set换成Map，用来存储当前单词的前缀是否全部存在，这样就不用重复判断，每个单词就只需要判断一次即可。
+// 和官方题解的暴力法思路类似，但是把Set换成Map，用来存储当前单词的前缀是否全部存在，这样就不用重复判断，每个单词就只需要判断一次即可。
 
-```java
+// ```java
 
 class Solution {
     public boolean isValid(Map<String,Integer> s, String str){
@@ -61,4 +61,4 @@ class Solution {
 
     }
 }
-```
+// ```

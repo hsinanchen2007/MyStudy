@@ -1,4 +1,4 @@
-```
+// ```
 void reverse(char *s,int start,int end)
 {
     while(start<end)
@@ -58,4 +58,4 @@ char * reverseParentheses(char * s){
     result[j]='\0';
     return result;
 }
-```
+// ```

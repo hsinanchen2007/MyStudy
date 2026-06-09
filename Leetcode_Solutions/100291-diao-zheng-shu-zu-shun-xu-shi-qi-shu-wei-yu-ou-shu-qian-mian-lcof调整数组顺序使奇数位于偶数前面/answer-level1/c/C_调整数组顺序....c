@@ -1,9 +1,9 @@
-### 解题思路
-根据快速排序改编
+// ### 解题思路
+// 根据快速排序改编
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -21,4 +21,4 @@ int* exchange(int* nums, int numsSize, int* returnSize){
     }
     return nums;
 }
-```
+// ```

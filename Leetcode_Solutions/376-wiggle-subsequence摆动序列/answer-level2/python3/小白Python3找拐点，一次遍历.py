@@ -1,5 +1,5 @@
-left指向了最后一个是拐点的值，如果i遍历的元素不是拐点则会往后跳，当i指向的元素是拐点时，则把left更新为当前i。
-```
+# left指向了最后一个是拐点的值，如果i遍历的元素不是拐点则会往后跳，当i指向的元素是拐点时，则把left更新为当前i。
+# ```
 class Solution:
     def wiggleMaxLength(self, nums: List[int]) -> int:
         #根据题目要求，小于两个元素的序列都是摆动序列
@@ -16,4 +16,4 @@ class Solution:
             if nums[-1]!=nums[left]:
                 count+=1
         return count
-```
+# ```

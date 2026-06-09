@@ -1,10 +1,10 @@
-### 解题思路
-数学问题，寻找最大公因子即可
+// ### 解题思路
+// 数学问题，寻找最大公因子即可
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canMeasureWater(x int, y int, z int) bool {
      if z == 0 {
 		return true
@@ -22,4 +22,4 @@ func canMeasureWater(x int, y int, z int) bool {
 	}
 	return false
 }
-```
+// ```

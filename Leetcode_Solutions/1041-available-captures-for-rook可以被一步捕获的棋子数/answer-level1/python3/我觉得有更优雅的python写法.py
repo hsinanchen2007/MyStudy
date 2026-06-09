@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         for r in board:
@@ -21,4 +21,4 @@ class Solution:
             if 0<=tx<8 and 0<=ty<8 and board[tx][ty] == 'p':
                 ans = ans + 1
         return ans
-```
+# ```

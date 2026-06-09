@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def dominantIndex(self, nums: List[int]) -> int:
       l=len(nums)
@@ -13,4 +13,4 @@ class Solution:
       else:
         return 0
 
-```
+# ```

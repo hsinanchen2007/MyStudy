@@ -1,14 +1,14 @@
-### 解题思路
-+ 快排  [506. 相对名次](https://leetcode-cn.com/problems/relative-ranks/)
-+ 归并排序 代码有更加优雅地写法，在先前哪道题的题解中有看到过
-+ 堆排序 这个主要来自于 《算法4》 课本 
-+ 桶排序 使用一个计数数组简单计数
+# ### 解题思路
+# + 快排  [506. 相对名次](https://leetcode-cn.com/problems/relative-ranks/)
+# + 归并排序 代码有更加优雅地写法，在先前哪道题的题解中有看到过
+# + 堆排序 这个主要来自于 《算法4》 课本 
+# + 桶排序 使用一个计数数组简单计数
 
-python 写快排时发现的一个 BUG:
-+ self.sortArray(nums[left:i]) 这样传递的是副本，在函数内部修改 nums， 不会影响到外面的变量
-+ quicksort(nums, left, i-1) 这样 nums 才是直接传引用的
-例如下面的示例代码：
-``` python3
+# python 写快排时发现的一个 BUG:
+# + self.sortArray(nums[left:i]) 这样传递的是副本，在函数内部修改 nums， 不会影响到外面的变量
+# + quicksort(nums, left, i-1) 这样 nums 才是直接传引用的
+# 例如下面的示例代码：
+# ``` python3
 In: A = [1,2,3,4]
 In: def B(A):
         A[1] = 100
@@ -18,16 +18,16 @@ Out: [1, 100, 3, 4]
 In: B(A[1:])  # A[:] 也是类似的效果，传的是副本（copy）
 In: A
 Out: [1, 100, 3, 4]
-```
+# ```
 
 
-官方题解的快排 类似于 童老师所讲的快排，i 先初始化为 left-1, 然后重复 i += 1
-我更习惯于 i 初始化为 left。
+# 官方题解的快排 类似于 童老师所讲的快排，i 先初始化为 left-1, 然后重复 i += 1
+# 我更习惯于 i 初始化为 left。
 
-官方题解的堆排序代码比较冗余，不过把功能都抽象出来了，看上去易懂。
+# 官方题解的堆排序代码比较冗余，不过把功能都抽象出来了，看上去易懂。
 
-### 代码
-``` python3
+# ### 代码
+# ``` python3
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         ## 练习 快排，堆排序，归并排序
@@ -171,4 +171,4 @@ class Solution:
         for i in range(len(bucket)):
             result += [i-50000]*bucket[i]
         return result
-```
+# ```

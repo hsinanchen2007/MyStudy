@@ -1,9 +1,9 @@
-### 解题思路
-##虽然官方答案很简约，直接用了接口实现。但是对于我这种小白来说还是想要多了解实现的原理。
-##希望能给想了解具体思路的朋友一点帮助。
-### 代码
+// ### 解题思路
+// ##虽然官方答案很简约，直接用了接口实现。但是对于我这种小白来说还是想要多了解实现的原理。
+// ##希望能给想了解具体思路的朋友一点帮助。
+// ### 代码
 
-```c
+// ```c
 int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize) {
 	int *anwser = (int *)malloc(sizeof(int) * (k));
     if(k == 0){
@@ -69,4 +69,4 @@ void heapify(int *arr, int index, int size) {
 	}
 
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class MyStack:
 
     def __init__(self):
@@ -16,9 +16,9 @@ class MyStack:
     
     def empty(self):
         return not len(self.q)
-```
-- push 的时候把 x 放入队尾，然后遍历一遍原始队列元素，每次弹出之后加入队尾
-```python
+# ```
+# - push 的时候把 x 放入队尾，然后遍历一遍原始队列元素，每次弹出之后加入队尾
+# ```python
 from queue import Queue
 
 class MyStack:
@@ -42,5 +42,5 @@ class MyStack:
     
     def empty(self):
         return not self.q.qsize()
-```
-- Queue模式
+# ```
+# - Queue模式

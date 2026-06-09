@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 // 双指针
 // 在排好序的数组里，取第一个元素为target，剩余的左(x)右(y)夹逼。target+x+y，>0时右边缩进，<0时左边缩进。当x==y相遇后，target+1
 // 时间复杂度O(n)
@@ -33,4 +33,4 @@ var threeSum = function(nums) {
     }
     return arr
 };
-```
+// ```

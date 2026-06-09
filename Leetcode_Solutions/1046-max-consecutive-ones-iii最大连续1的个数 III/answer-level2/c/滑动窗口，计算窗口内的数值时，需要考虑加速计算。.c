@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口解法。
+// ### 解题思路
+// 滑动窗口解法。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define max(a, b) a > b ? a : b
 #define min(a, b) a < b ? a : b
 
@@ -67,4 +67,4 @@ while(right < ASize)
 }
 return maxvalue;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-任取vector中三点A(a1,a2),B(b1,b2),C(c1,c2)
-面积计算简化为area = abs( (a1-b1)(b2-c2) - (a2-b2)(b1-c1) )
-公式由向量叉乘得，area值为面积两倍
-### 代码
+// ### 解题思路
+// 任取vector中三点A(a1,a2),B(b1,b2),C(c1,c2)
+// 面积计算简化为area = abs( (a1-b1)(b2-c2) - (a2-b2)(b1-c1) )
+// 公式由向量叉乘得，area值为面积两倍
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double largestTriangleArea(vector<vector<int>>& points) {
@@ -27,4 +27,4 @@ public:
         return area2 / 2.0;
     }
 };
-```
+// ```

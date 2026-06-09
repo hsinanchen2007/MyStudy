@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         res=[]
@@ -32,4 +32,4 @@ class Solution:
                             r -= 1
         return res
 
-```
+# ```

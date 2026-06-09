@@ -1,9 +1,9 @@
-### 解题思路
-就是从0开始，不断递归向四周找能走的路，一个深度遍历，加上一个走过的flag，防止重复行走，迷路。
+// ### 解题思路
+// 就是从0开始，不断递归向四周找能走的路，一个深度遍历，加上一个走过的flag，防止重复行走，迷路。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool inBoard(int row, int column, int m, int n){
     if(row>-1 && row < m && column > -1 && column < n)  return true;
     return false;
@@ -76,4 +76,4 @@ int movingCount(int m, int n, int k){
     nums[0][0] = 1;
     return find(nums, 0, 0, 1, k, m, n);
 }
-```
+// ```

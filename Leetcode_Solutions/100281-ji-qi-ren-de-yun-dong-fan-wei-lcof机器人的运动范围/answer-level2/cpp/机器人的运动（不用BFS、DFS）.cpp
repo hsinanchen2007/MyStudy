@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     int positionSum(int num){
@@ -46,4 +46,4 @@ public:
         return res;
     }
 };
-```
+// ```

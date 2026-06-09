@@ -1,4 +1,4 @@
-```Java
+// ```Java
 public String gcdOfStrings(String str1, String str2) {
     if (invalid(str1, str2)) {
         return "";
@@ -27,4 +27,4 @@ public int gcd(int a, int b) {
     }
     return a;
 }
-```
+// ```

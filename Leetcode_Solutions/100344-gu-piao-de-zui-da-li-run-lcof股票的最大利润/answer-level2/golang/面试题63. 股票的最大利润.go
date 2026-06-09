@@ -1,9 +1,9 @@
-### 解题思路
-找到数组中最小的数 ， 记录一下子
+// ### 解题思路
+// 找到数组中最小的数 ， 记录一下子
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(num []int) int {
 
 	if len(num) == 0 {
@@ -22,4 +22,4 @@ func maxProfit(num []int) int {
 	return max
 
 }
-```
+// ```

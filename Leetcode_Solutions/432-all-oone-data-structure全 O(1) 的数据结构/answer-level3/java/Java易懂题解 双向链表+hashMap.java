@@ -1,5 +1,5 @@
 
-```
+// ```
 class AllOne {
 
     class Node{
@@ -111,4 +111,4 @@ class AllOne {
         return head.next.key;
     }
 }
-```
+// ```

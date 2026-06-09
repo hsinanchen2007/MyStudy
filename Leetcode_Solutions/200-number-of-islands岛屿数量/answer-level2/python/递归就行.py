@@ -1,9 +1,9 @@
-### 解题思路
-和695 是同样的题目
+# ### 解题思路
+# 和695 是同样的题目
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         ans = 0
@@ -28,4 +28,4 @@ class Solution:
                     check(x, y)
                     ans += 1
         return ans
-```
+# ```

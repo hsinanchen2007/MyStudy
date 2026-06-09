@@ -1,8 +1,8 @@
-### 解题思路
-抄别人的
-### 代码
+// ### 解题思路
+// 抄别人的
+// ### 代码
 
-```java
+// ```java
 class LRUCache {
 
  Map<Integer,Integer> cache = null;
@@ -40,4 +40,4 @@ class LRUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

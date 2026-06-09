@@ -1,9 +1,9 @@
-### 解题思路
-使用Map记录路径上会存在的障碍
+// ### 解题思路
+// 使用Map记录路径上会存在的障碍
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int robotSim(int[] commands, int[][] obstacles) {
         int x = 0;
@@ -100,4 +100,4 @@ class Solution {
         return tempMove;
     }
 }
-```
+// ```

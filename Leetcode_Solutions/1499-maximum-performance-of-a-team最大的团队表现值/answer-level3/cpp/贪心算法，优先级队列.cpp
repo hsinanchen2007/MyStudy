@@ -1,5 +1,5 @@
-1. 一定要在最后的返回结果再取模，否则就出错。
-```c++
+// 1. 一定要在最后的返回结果再取模，否则就出错。
+// ```c++
 typedef pair<int,int> pii;
 
 class Solution {
@@ -34,4 +34,4 @@ public:
         return res%mod;
     }
 };
-```
+// ```

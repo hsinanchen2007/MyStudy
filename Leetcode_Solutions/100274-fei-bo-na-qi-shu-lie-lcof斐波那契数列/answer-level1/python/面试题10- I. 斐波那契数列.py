@@ -1,9 +1,9 @@
-### 解题思路
-使用dp记录每一次的结果。
+# ### 解题思路
+# 使用dp记录每一次的结果。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fib(self, n: int) -> int:
         dp = {}
@@ -15,4 +15,4 @@ class Solution:
             else:
                 dp[i] =(dp[i-1] + dp[i-2])% 1000000007
         return dp[n]
-```
+# ```

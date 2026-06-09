@@ -1,9 +1,9 @@
-### 解题思路
-就按照题意去写，内部容器用vector模拟，利用push_back和pop_back来达到LIFO的效果
+// ### 解题思路
+// 就按照题意去写，内部容器用vector模拟，利用push_back和pop_back来达到LIFO的效果
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class CustomStack {
 private:
     int maxStackSize;
@@ -45,4 +45,4 @@ public:
  * int param_2 = obj->pop();
  * obj->increment(k,val);
  */
-```
+// ```

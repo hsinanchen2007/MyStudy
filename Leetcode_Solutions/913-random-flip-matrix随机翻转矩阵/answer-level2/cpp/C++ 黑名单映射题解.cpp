@@ -1,10 +1,10 @@
-### 解题思路
-1，每次flip后都将flip的值记录到黑名单中，并将其映射到最后一个数上
-2，每次flip后最后一个数都减一，因为之前的数已经被映射过了
+// ### 解题思路
+// 1，每次flip后都将flip的值记录到黑名单中，并将其映射到最后一个数上
+// 2，每次flip后最后一个数都减一，因为之前的数已经被映射过了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int R;
@@ -35,6 +35,6 @@ public:
         BL.clear();
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/b3e2a4bb52d9db877ef8b2de26b5edaa668a6469fb02ac69d391fa07b55aecd1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b3e2a4bb52d9db877ef8b2de26b5edaa668a6469fb02ac69d391fa07b55aecd1-image.png)

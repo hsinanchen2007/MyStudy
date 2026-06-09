@@ -1,10 +1,10 @@
-### 解题思路
-先组成一个新的数组，然后快速排序，取中位数！
-快速算法排序还是掌握的不太好，加油吧！
+// ### 解题思路
+// 先组成一个新的数组，然后快速排序，取中位数！
+// 快速算法排序还是掌握的不太好，加油吧！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
          int lengthNums= nums1.length +nums2.length ;
@@ -69,4 +69,4 @@ class Solution {
       }
 
 }
-```
+// ```

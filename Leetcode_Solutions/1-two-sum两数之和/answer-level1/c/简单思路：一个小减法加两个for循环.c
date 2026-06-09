@@ -1,10 +1,10 @@
-### 解题思路
-第一个for循环中利用减法找到另一个数的值，用tmp记录，然后捏，
-第二个for循环中用拿tmp去匹配，找到结果就开始书写返回部分咯。
+// ### 解题思路
+// 第一个for循环中利用减法找到另一个数的值，用tmp记录，然后捏，
+// 第二个for循环中用拿tmp去匹配，找到结果就开始书写返回部分咯。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -25,4 +25,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     }
        return 0;
 }
-```
+// ```

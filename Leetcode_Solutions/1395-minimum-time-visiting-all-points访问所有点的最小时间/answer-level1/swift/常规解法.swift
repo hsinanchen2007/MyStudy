@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-向量的特性
+// 向量的特性
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func minTimeToVisitAllPoints(_ points: [[Int]]) -> Int {
         
@@ -34,4 +34,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

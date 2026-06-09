@@ -1,8 +1,8 @@
-### 解题思路
-上下左右分四步走。
-### 代码
+// ### 解题思路
+// 上下左右分四步走。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {number[]}
@@ -57,4 +57,4 @@ var spiralOrder = function(matrix) {
     }
     return result;
 };
-```
+// ```

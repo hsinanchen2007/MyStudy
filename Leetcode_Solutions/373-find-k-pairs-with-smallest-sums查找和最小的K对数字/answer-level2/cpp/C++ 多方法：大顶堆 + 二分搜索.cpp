@@ -1,6 +1,6 @@
-# 方法一：
-大顶堆
-```
+// # 方法一：
+// 大顶堆
+// ```
 class Solution {
 public:
     struct P {
@@ -29,12 +29,12 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/b377e059f925015ed8d318f2550064e918e35c5d34f21a76e463783abc22202d-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/b377e059f925015ed8d318f2550064e918e35c5d34f21a76e463783abc22202d-image.png)
 
-# 方法二：
-二分搜索
-```
+// # 方法二：
+// 二分搜索
+// ```
 class Solution {
 public:
     int bisearch(vector<int>& nums, int t) {
@@ -89,5 +89,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d91cef2a5248b1477c2c62f112e7ffff26a75a6d7b1f2a85b4d4a9402802bb9a-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d91cef2a5248b1477c2c62f112e7ffff26a75a6d7b1f2a85b4d4a9402802bb9a-image.png)

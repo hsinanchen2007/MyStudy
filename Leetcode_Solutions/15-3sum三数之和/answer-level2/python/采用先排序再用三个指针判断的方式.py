@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def threeSum(self, nums):
         """
@@ -36,4 +36,4 @@ class Solution(object):
                     while l<r and nums[l] == nums[l - 1]:
                         l += 1
         return res
-```
+# ```

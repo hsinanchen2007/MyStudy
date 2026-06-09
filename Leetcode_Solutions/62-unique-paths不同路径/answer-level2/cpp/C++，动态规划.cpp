@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -20,9 +20,9 @@ public:
         return dp[m][n];
     }
 };
-```
-### 这是一开始的，超时，看得出来有很多重复计算
-```cpp
+// ```
+// ### 这是一开始的，超时，看得出来有很多重复计算
+// ```cpp
 class Solution {
 public:
     int res=0;
@@ -39,4 +39,4 @@ public:
         if(y+1<=n) dfs(x,y+1,m,n);
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 
 var sumOfLeftLeaves = function(root) {
     if(!root) return 0;
@@ -20,6 +20,6 @@ var sumOfLeftLeaves = function(root) {
     fn(root)
     return sum;
 };
-```
+// ```
 
-我的前端算法库：https://github.com/cunzaizhuyi/js-leetcode
+// 我的前端算法库：https://github.com/cunzaizhuyi/js-leetcode

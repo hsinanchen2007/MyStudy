@@ -1,6 +1,6 @@
 
-hash 字典序求解，需要注意的是，要找到数组中最小的元素或者target-nums[index]最小值作为字典序的起始位置，不然当nums里面数字很大的时候，会造成内存申请超出限制
-```
+// hash 字典序求解，需要注意的是，要找到数组中最小的元素或者target-nums[index]最小值作为字典序的起始位置，不然当nums里面数字很大的时候，会造成内存申请超出限制
+// ```
 #define UNFIND (-1)
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     (*returnSize) = 0;
@@ -57,5 +57,5 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 
     return res;
 }
-```
+// ```
 

@@ -1,6 +1,6 @@
-维护一个重复点的次数的hash_map
-从而避免对同一个点多次循环
-```
+# 维护一个重复点的次数的hash_map
+# 从而避免对同一个点多次循环
+# ```
 class Solution:
     def maxPoints(self, points: List[List[int]]) -> int:
         k_b = {}
@@ -38,6 +38,6 @@ class Solution:
                         k_b[(k,b)][1] += repeated[points[j]]
                         max_nums = max(k_b[(k,b)][1], max_nums)
         return max_nums
-```
+# ```
 
 

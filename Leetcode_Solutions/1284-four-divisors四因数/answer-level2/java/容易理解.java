@@ -1,9 +1,9 @@
-### 解题思路
-注意两点：除1和本身以外的第一对能整除的因数是质数；本身是立方数
+// ### 解题思路
+// 注意两点：除1和本身以外的第一对能整除的因数是质数；本身是立方数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int sumFourDivisors(int[] nums) {
         int sum=0;
@@ -21,4 +21,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

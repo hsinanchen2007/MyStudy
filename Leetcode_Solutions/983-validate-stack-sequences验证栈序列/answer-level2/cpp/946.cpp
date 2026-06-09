@@ -1,5 +1,5 @@
-最直接（二）的方法模拟入栈出栈操作，成功即可：
-```
+// 最直接（二）的方法模拟入栈出栈操作，成功即可：
+// ```
 bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
         int n_push = pushed.size();
         int n_pop = popped.size();
@@ -43,4 +43,4 @@ bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
         else
             return false;
         }
-```
+// ```

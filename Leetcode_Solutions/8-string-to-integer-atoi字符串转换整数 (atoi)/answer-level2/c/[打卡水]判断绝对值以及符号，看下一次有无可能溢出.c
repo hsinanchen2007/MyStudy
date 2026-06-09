@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str){
     int i,num,flagf;
     num=0;flagf=0;
@@ -24,4 +24,4 @@ int myAtoi(char * str){
     if(flagf) num=-num;
     return num;
 }
-```
+// ```

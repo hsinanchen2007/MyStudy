@@ -1,11 +1,11 @@
-### 解题思路
-这题用Hashmap做就可以吧。
-1.对magazine使用Hashmap统计出现的字符及次数
-2.扫描ransomNote，如果出现没有的字符或者次数不够了，都返回false;
+// ### 解题思路
+// 这题用Hashmap做就可以吧。
+// 1.对magazine使用Hashmap统计出现的字符及次数
+// 2.扫描ransomNote，如果出现没有的字符或者次数不够了，都返回false;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
@@ -28,4 +28,4 @@ public:
         return true;
     }
 };
-```
+// ```

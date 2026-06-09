@@ -1,4 +1,4 @@
-```
+// ```
 func simplifyPath(path string) string {
     res := make([]string,0)
 	arr := strings.Split(path, "/")
@@ -18,4 +18,4 @@ func simplifyPath(path string) string {
 
 	return "/"+strings.Trim(strings.Join(res, "/"), "/")
 }
-```
+// ```

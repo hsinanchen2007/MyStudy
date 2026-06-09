@@ -1,5 +1,5 @@
-方法1： 利用栈模拟递归
-```c++
+// 方法1： 利用栈模拟递归
+// ```c++
 vector<int> preorderTraversal(TreeNode* root) {
         //前序遍历 栈
         vector<int>vec;
@@ -25,9 +25,9 @@ vector<int> preorderTraversal(TreeNode* root) {
         }
         return vec;
     }
-```
-方法2：直接前序遍历 +递归
-```c++
+// ```
+// 方法2：直接前序遍历 +递归
+// ```c++
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
@@ -46,4 +46,4 @@ private:
         preorder(root->right,vec);
     }
 };
-```
+// ```

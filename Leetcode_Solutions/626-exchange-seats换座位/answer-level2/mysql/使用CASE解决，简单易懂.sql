@@ -1,6 +1,6 @@
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 SELECT 
@@ -10,4 +10,4 @@ WHEN id % 2 = 0 THEN id - 1
 ELSE id END) AS id, student
 FROM seat
 ORDER BY id;
-```
+-- ```

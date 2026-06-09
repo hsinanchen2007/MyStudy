@@ -1,9 +1,9 @@
-![...etCode 1. TwoSum.mp4](2c32f094-dfca-4284-a77d-786f81408413)
+// ![...etCode 1. TwoSum.mp4](2c32f094-dfca-4284-a77d-786f81408413)
 
-**Java 视频讲解系列 - 两数之和**
-{:align=center}
+// **Java 视频讲解系列 - 两数之和**
+// {:align=center}
 
-```java [-Java]
+// ```java [-Java]
 package Algorithms;
 
 import java.util.Arrays;
@@ -60,6 +60,6 @@ public class TwoSum {
     }
 }
 
-```
+// ```
 
-我的 [Youtube频道](https://www.youtube.com/channel/UC6sXxjf9HMntbtDu5SsWLAg)
+// 我的 [Youtube频道](https://www.youtube.com/channel/UC6sXxjf9HMntbtDu5SsWLAg)

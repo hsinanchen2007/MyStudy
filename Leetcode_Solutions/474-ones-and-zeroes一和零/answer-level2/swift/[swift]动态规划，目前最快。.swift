@@ -1,4 +1,4 @@
-```swift
+// ```swift
  struct Counter: Hashable {
     var ones: Int
     var zeros: Int
@@ -37,4 +37,4 @@
     }
  }
 
-```
+// ```

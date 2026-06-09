@@ -1,6 +1,6 @@
-![屏幕快照 2019-07-07 上午2.50.25.png](https://pic.leetcode-cn.com/99127bdcd2d5c9e79b7fa7b66b1825745523ee23712ebd308d94f39f3963e7b0-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-07-07%20%E4%B8%8A%E5%8D%882.50.25.png)
+// ![屏幕快照 2019-07-07 上午2.50.25.png](https://pic.leetcode-cn.com/99127bdcd2d5c9e79b7fa7b66b1825745523ee23712ebd308d94f39f3963e7b0-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-07-07%20%E4%B8%8A%E5%8D%882.50.25.png)
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -55,4 +55,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
     
     return resultListNode
 }
-```
+// ```

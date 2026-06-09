@@ -1,7 +1,7 @@
-代码有点啰嗦，没有继续简化，但是逻辑比较清晰
+// 代码有点啰嗦，没有继续简化，但是逻辑比较清晰
 
 
-```java
+// ```java
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
 
@@ -83,4 +83,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

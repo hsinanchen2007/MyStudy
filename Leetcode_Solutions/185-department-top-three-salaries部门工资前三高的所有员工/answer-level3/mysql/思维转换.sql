@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思
+-- ### 解题思路
+-- 此处撰写解题思
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select d1.Name as Department,e1.Name as Employee,e1.Salary
 from Employee e1 join Department d1
@@ -14,4 +14,4 @@ where (
     and e1.DepartmentId=e2.departmentId
 )<3
 ;
-```
+-- ```

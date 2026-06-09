@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-![Screenshot from 2020-03-24 20-43-33.png](https://pic.leetcode-cn.com/0e83d13edcbe5911d65a8b8dca86cf9dc751180b38be9b6d03b07be3683ef8f8-Screenshot%20from%202020-03-24%2020-43-33.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![Screenshot from 2020-03-24 20-43-33.png](https://pic.leetcode-cn.com/0e83d13edcbe5911d65a8b8dca86cf9dc751180b38be9b6d03b07be3683ef8f8-Screenshot%20from%202020-03-24%2020-43-33.png)
 
-采用两个队列q1 q2来保存
-首先放q1 q1的子节点往q2放 q2正相反
-### 代码
+// 采用两个队列q1 q2来保存
+// 首先放q1 q1的子节点往q2放 q2正相反
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -75,4 +75,4 @@ public:
         return ans;
     }
 };
-```
+// ```

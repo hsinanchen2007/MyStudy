@@ -1,7 +1,7 @@
-基于两个优先队列
-max 存中位数左侧的最大值，
-min 存中位数右侧的最小值
-```
+// 基于两个优先队列
+// max 存中位数左侧的最大值，
+// min 存中位数右侧的最小值
+// ```
 class MedianFinder {
 public:
     /** initialize your data structure here. */
@@ -50,4 +50,4 @@ public:
     priority_queue<int,vector<int>,greater<int>> min;
     priority_queue<int,vector<int>,less<int>> max;
 };
-```
+// ```

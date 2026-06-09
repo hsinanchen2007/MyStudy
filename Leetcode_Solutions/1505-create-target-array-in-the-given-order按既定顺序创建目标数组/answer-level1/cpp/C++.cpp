@@ -1,9 +1,9 @@
-### 解题思路
-简单的c++
+// ### 解题思路
+// 简单的c++
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> createTargetArray(vector<int>& nums, vector<int>& index) {
@@ -22,4 +22,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-四句话，首先第一第二句就是为了推进head
-中间两句，对着用例，读两遍就懂了
+// ### 解题思路
+// 四句话，首先第一第二句就是为了推进head
+// 中间两句，对着用例，读两遍就懂了
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return $pre;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] decompressRLElist(int[] nums) {
         int length=0,trage=0;
@@ -20,4 +20,4 @@ for(int j=nums[i];j!=0;j--){
         return array;
     }
 }
-```
+// ```

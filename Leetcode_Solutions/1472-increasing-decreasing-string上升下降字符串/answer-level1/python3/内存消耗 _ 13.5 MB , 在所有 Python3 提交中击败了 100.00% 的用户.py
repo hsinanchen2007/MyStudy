@@ -1,9 +1,9 @@
-### 解题思路
-注意指针从右往左和从左往右的区别
+# ### 解题思路
+# 注意指针从右往左和从左往右的区别
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortString(self, s: str) -> str:
         RE=''
@@ -34,4 +34,4 @@ class Solution:
                 else:
                     i-=1
         return RE
-```
+# ```

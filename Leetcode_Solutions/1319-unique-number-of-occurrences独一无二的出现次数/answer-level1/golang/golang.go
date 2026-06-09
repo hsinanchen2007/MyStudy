@@ -1,4 +1,4 @@
-```
+// ```
 func uniqueOccurrences(arr []int) bool {
     m := make(map[int]int)
 
@@ -16,4 +16,4 @@ func uniqueOccurrences(arr []int) bool {
 
 	return true
 }
-```
+// ```

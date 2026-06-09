@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define INF 2147483647
 #define MAX_MN_VAL 40
 
@@ -180,4 +180,4 @@ int shortestPath(int **grid, int gridSize, int* gridColSize, int k)
 
     return GetResult();
 }
-```
+// ```

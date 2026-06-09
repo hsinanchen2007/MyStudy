@@ -1,13 +1,13 @@
-### 解题思路
-1、DFS将所有二叉树的子树都展开为string。
-2、用string做为Hash key，TreeNode做为Hash data。
-3、输出Hash中重复项。
+// ### 解题思路
+// 1、DFS将所有二叉树的子树都展开为string。
+// 2、用string做为Hash key，TreeNode做为Hash data。
+// 3、输出Hash中重复项。
 
-备注：用C求解有一处困难点，展开为string的时候到底分配多大的内存好.....
+// 备注：用C求解有一处困难点，展开为string的时候到底分配多大的内存好.....
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_STRING_LEN 20000
 #define DEBUG 
 
@@ -91,4 +91,4 @@ struct TreeNode** findDuplicateSubtrees(struct TreeNode* root, int* returnSize)
     DelHash(&hashObj);
 	return recordData;
 }
-```
+// ```

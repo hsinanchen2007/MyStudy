@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isPalindrome(x int) bool {
     var str = strconv.Itoa(x)
     if x < 0 {
@@ -15,4 +15,4 @@ func isPalindrome(x int) bool {
     }
     return true
 }
-```
+// ```

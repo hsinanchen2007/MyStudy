@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverseWords(self, s):
         """
@@ -13,4 +13,4 @@ class Solution(object):
         vs = [word for word in vs if word != '']
         vs.reverse()
         return ' '.join(vs)
-```
+# ```

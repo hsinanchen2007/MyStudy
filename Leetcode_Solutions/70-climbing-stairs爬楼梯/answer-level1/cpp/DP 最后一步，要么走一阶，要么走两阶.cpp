@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) {
@@ -29,4 +29,4 @@ public:
         return dp;
     }
 };
-```
+// ```

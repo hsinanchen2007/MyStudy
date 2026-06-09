@@ -1,10 +1,10 @@
-性能和内存并非最优，但是逻辑简单易懂
-1. 变成一个set表
-2. 从其中随机取一个数。
-3. 先往后找是否存在。
-4. 然后往前找是否存在。
-5. 再比较max_ans即可
-```python
+# 性能和内存并非最优，但是逻辑简单易懂
+# 1. 变成一个set表
+# 2. 从其中随机取一个数。
+# 3. 先往后找是否存在。
+# 4. 然后往前找是否存在。
+# 5. 再比较max_ans即可
+# ```python
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         all_set = set(nums)
@@ -28,4 +28,4 @@ class Solution:
             max_ans = max(max_ans, cur_ans)
         
         return max_ans
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-寻找切分点i和j，a1 = A[0,1,...,i]; a2 = A[i+1,i+2,...,j]; a3 = A[j+1,...,A.length]
-满足：sum(a1) = sum(a2) = sum(a3) = sum(A)/3
-注意：选择前两个满足 1/3sum(A)的切分点即可（cnt=2）；
+// ### 解题思路
+// 寻找切分点i和j，a1 = A[0,1,...,i]; a2 = A[i+1,i+2,...,j]; a3 = A[j+1,...,A.length]
+// 满足：sum(a1) = sum(a2) = sum(a3) = sum(A)/3
+// 注意：选择前两个满足 1/3sum(A)的切分点即可（cnt=2）；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -30,4 +30,4 @@ public:
         return false;
     }
 };
-```
+// ```

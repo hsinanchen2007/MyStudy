@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-	判断 N<0 ? avg(Salary):index=N的data
-### 代码
+-- ### 解题思路
+-- 此处撰写解题思路
+-- 	判断 N<0 ? avg(Salary):index=N的data
+-- ### 代码
 
-```mysql
+-- ```mysql
 
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
@@ -26,4 +26,4 @@ BEGIN
 	    );
 	end if;
 END
-```
+-- ```

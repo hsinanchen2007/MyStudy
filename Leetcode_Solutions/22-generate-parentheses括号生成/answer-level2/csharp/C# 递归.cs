@@ -1,5 +1,5 @@
-方法一：递归
-```csharp
+// 方法一：递归
+// ```csharp
 public class Solution {
     public IList<string> GenerateParenthesis(int n) {
         if(n == 0) return new List<string>();
@@ -16,10 +16,10 @@ public class Solution {
         return ans.Distinct().ToList();
     }
 }
-```
+// ```
 
-方法二：穷举（可能超时）
-```csharp
+// 方法二：穷举（可能超时）
+// ```csharp
 public class Solution {
     public IList<string> GenerateParenthesis(int n) {
         List<string> l1 = new List<string>() { "(" };
@@ -59,4 +59,4 @@ public class Solution {
         return temp.Length == 0;
     }
 }
-```
+// ```

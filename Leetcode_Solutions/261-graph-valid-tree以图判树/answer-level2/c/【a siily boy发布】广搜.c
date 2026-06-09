@@ -1,4 +1,4 @@
-```
+// ```
 bool SubFunc(int** edges, int edgesSize, int* edgesColSize, int *flag, int index, int *visited) {
     int i = 0;
     bool returnValue = true;
@@ -52,4 +52,4 @@ bool validTree(int n, int** edges, int edgesSize, int* edgesColSize){
     }
     return returnValue;
 }
-```
+// ```

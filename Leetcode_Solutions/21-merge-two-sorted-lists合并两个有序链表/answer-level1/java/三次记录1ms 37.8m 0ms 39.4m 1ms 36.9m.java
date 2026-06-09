@@ -1,9 +1,9 @@
-### 解题思路
-设置p指针在l1和l2之间指来指去，同时l1和l2后移，知道两者中的一个为null衔接另一个链表剩余的部分结束
+// ### 解题思路
+// 设置p指针在l1和l2之间指来指去，同时l1和l2后移，知道两者中的一个为null衔接另一个链表剩余的部分结束
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -48,4 +48,4 @@ public class Solution {
 }
 
 
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def reversePairs(self, nums: List[int]) -> int:
         # merge sort
@@ -25,4 +25,4 @@ class Solution:
         res = [0] * len(nums)
         merge_sort(list(enumerate(nums)))
         return ans
-```
+# ```

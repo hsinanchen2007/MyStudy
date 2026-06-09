@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/dedfae0e4b121e1f9320b4bfa68d09b0ee0c32f7c0bab44bde5621e205fa0e88-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/dedfae0e4b121e1f9320b4bfa68d09b0ee0c32f7c0bab44bde5621e205fa0e88-image.png)
 
-内存优化，使用两个vector<int>替换m x n的vector<vector<int>>
-### 代码
+// 内存优化，使用两个vector<int>替换m x n的vector<vector<int>>
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximalSquare(vector<vector<char>>& matrix) {
@@ -35,4 +35,4 @@ public:
         return max_length * max_length;
     }
 };
-```
+// ```

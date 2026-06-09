@@ -1,20 +1,20 @@
-# dp方程分析
-（初始说明：i为word1上的指针，j为word2上的指针。word1进行（删除，替换，增加）操作转换为word2）
-1. word1.charAt(i) == word2.charAt(j)
-相等情况时，不需要进行任何操作，等于这两个字符对操作数没有的影响时的操作数，则dp[i][j] = dp[i-1][j-1];
-2. word1.charAt(i) != word2.charAt(j)
-     - 插入一个字符：
-     dp[i][j] = dp[i-1][j] + 1;
-     - 删除一个字符：
-     dp[i][j] = dp[i][j-1] + 1;
-     - 替换一个字符：
-     dp[i][j] = dp[i-1][j-1] + 1;
-# 初始条件base case
-- word1与word2都为空，则无需操作
-- 若word1长度为0，则 word1一直需要插入字符
-- 若word2长度为0，则 word1一直需要删除字符
+// # dp方程分析
+// （初始说明：i为word1上的指针，j为word2上的指针。word1进行（删除，替换，增加）操作转换为word2）
+// 1. word1.charAt(i) == word2.charAt(j)
+// 相等情况时，不需要进行任何操作，等于这两个字符对操作数没有的影响时的操作数，则dp[i][j] = dp[i-1][j-1];
+// 2. word1.charAt(i) != word2.charAt(j)
+//      - 插入一个字符：
+//      dp[i][j] = dp[i-1][j] + 1;
+//      - 删除一个字符：
+//      dp[i][j] = dp[i][j-1] + 1;
+//      - 替换一个字符：
+//      dp[i][j] = dp[i-1][j-1] + 1;
+// # 初始条件base case
+// - word1与word2都为空，则无需操作
+// - 若word1长度为0，则 word1一直需要插入字符
+// - 若word2长度为0，则 word1一直需要删除字符
 
-```
+// ```
 class Solution {
     public int minDistance(String word1, String word2) {
         int[][] dp = new int[word1.length()+1][word2.length()+1];   
@@ -62,4 +62,4 @@ class Solution {
         return dp[word1.length()][word2.length()];
     }
 }
-```
+// ```

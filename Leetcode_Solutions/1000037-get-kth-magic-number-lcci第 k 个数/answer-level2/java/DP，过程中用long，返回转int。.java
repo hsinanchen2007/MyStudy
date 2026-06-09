@@ -1,10 +1,10 @@
-### 解题思路
-这里用动态规划来实现，但是对于java语言有一个地方需要注意，就是越界问题。在计算过程中需要用long来装，返回结果时，需要用Integer进行一次安全转换。不可直接强转。
-后一个结果是前面所有值分别乘以3,5,7最小的那一个。
+// ### 解题思路
+// 这里用动态规划来实现，但是对于java语言有一个地方需要注意，就是越界问题。在计算过程中需要用long来装，返回结果时，需要用Integer进行一次安全转换。不可直接强转。
+// 后一个结果是前面所有值分别乘以3,5,7最小的那一个。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int getKthMagicNumber(int k) {
         long[] dp = new long[k];
@@ -27,4 +27,4 @@ class Solution {
         return Integer.parseInt(String.valueOf(dp[k - 1]));
     }
 }
-```
+// ```

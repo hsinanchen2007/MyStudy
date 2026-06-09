@@ -1,9 +1,9 @@
-### 解题思路
-遍历text的每个单词进行比较即可，找到紧随first的second，然后添加second后面的third。
+// ### 解题思路
+// 遍历text的每个单词进行比较即可，找到紧随first的second，然后添加second后面的third。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] findOcurrences(String text, String first, String second) {
         String[] word = text.split("\\s");
@@ -14,4 +14,4 @@ class Solution {
         return list.toArray(new String[list.size()]);
     }
 }
-```
+// ```

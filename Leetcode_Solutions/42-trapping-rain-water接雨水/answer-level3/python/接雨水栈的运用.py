@@ -1,8 +1,8 @@
-本题利用栈的性质去维护一个栈，不断将栈顶的值和现在的比较
+# 本题利用栈的性质去维护一个栈，不断将栈顶的值和现在的比较
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def trap(self, height):
         """
@@ -31,4 +31,4 @@ class Solution(object):
 
         
 
-```
+# ```

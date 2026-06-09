@@ -1,9 +1,9 @@
-### 解题思路
-开始用的邻接矩阵来存边的信息，超时，改用邻接表存储，通过
+// ### 解题思路
+// 开始用的邻接矩阵来存边的信息，超时，改用邻接表存储，通过
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_VERTEX_NUM 10000
 
 #define VERTEX_VISITED 0x1
@@ -167,4 +167,4 @@ int* eventualSafeNodes(int** graph, int graphSize, int* graphColSize, int* retur
 
     return res;
 }
-```
+// ```

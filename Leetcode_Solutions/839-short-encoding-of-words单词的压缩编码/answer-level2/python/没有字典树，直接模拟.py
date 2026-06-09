@@ -1,5 +1,5 @@
 
-```python3
+# ```python3
 class Solution:
     def minimumLengthEncoding(self, words) -> int:
         size = len(words)
@@ -20,4 +20,4 @@ class Solution:
             else:
                 S += elem + '#'
         return len(S)
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-如果字符串长度不一样，不符合题意
-把每个字符出现的次数用字典记录
-如果2这两个字典一样，符合题意
+# ### 解题思路
+# 如果字符串长度不一样，不符合题意
+# 把每个字符出现的次数用字典记录
+# 如果2这两个字典一样，符合题意
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s)!=len(t):
@@ -25,4 +25,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

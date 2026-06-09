@@ -1,4 +1,4 @@
-``` go
+// ``` go
 var preNode *TreeNode
 
 func getMinimumDifference(root *TreeNode) int {
@@ -20,4 +20,4 @@ func getMinimumDifference(root *TreeNode) int {
 	}
 	return rightMin
 }
-```
+// ```

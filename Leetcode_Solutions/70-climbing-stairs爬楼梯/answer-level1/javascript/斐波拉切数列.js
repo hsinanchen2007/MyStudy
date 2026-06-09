@@ -1,4 +1,4 @@
-```
+// ```
 var climbStairs1 = function(n) {
   if(n===1) return 1
   let f = 1, s = 2
@@ -10,4 +10,4 @@ var climbStairs1 = function(n) {
   return s
 };
 
-```
+// ```

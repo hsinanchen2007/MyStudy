@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int compress(char[] chars) {
         int index = 1;
@@ -26,4 +26,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

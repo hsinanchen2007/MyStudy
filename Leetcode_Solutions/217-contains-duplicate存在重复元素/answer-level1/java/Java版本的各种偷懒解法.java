@@ -1,8 +1,8 @@
-#### 思路一：
+// #### 思路一：
 
-利用数组排序，然后比较相邻两个数字是否相等，相等为`true`, 
+// 利用数组排序，然后比较相邻两个数字是否相等，相等为`true`, 
 
-```java
+// ```java
 class solution{
 	public boolean containsDuplicate(int[] nums){
         Arrays.sort(nums);
@@ -14,13 +14,13 @@ class solution{
         return false;
     }
 }
-```
+// ```
 
-#### 思路二：
+// #### 思路二：
 
-利用`set`去重
+// 利用`set`去重
 
-```java
+// ```java
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         Set<Integer> set = new HashSet<>(nums.length);
@@ -30,13 +30,13 @@ class Solution {
         return nums.length != set.size();
     }
 }
-```
+// ```
 
-#### 思路三：
+// #### 思路三：
 
-利用`map`
+// 利用`map`
 
-```java
+// ```java
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>(nums.length);
@@ -49,5 +49,5 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 

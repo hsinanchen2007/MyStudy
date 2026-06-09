@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         def sum_two(a, b):
@@ -10,4 +10,4 @@ class Solution:
             visited.add((x,y))
             return 1 + dfs(x + 1, y) + dfs(x, y + 1)
         return dfs(0, 0)
-```
+# ```

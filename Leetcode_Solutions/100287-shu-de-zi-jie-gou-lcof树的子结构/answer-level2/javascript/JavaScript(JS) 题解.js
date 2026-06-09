@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -54,4 +54,4 @@ function AHasB(A, B) {
     // 结点相等，继续判断左右子节点
     return AHasB(A.left, B.left) && AHasB(A.right, B.right)
 }
-```
+// ```

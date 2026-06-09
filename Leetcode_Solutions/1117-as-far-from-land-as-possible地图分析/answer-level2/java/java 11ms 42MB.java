@@ -1,10 +1,10 @@
-### 解题思路
-每一步扩大一圈海岸线，直到全部填成陆地，步数就是最大距离
-数组记录单指针 代替每一步的集合类
+// ### 解题思路
+// 每一步扩大一圈海岸线，直到全部填成陆地，步数就是最大距离
+// 数组记录单指针 代替每一步的集合类
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private static final int[][] DIRECTIONS = new int[][]{
             new int[]{-1, 0},
@@ -54,4 +54,4 @@ class Solution {
         return step;
     }
 }
-```
+// ```

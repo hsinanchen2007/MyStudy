@@ -1,9 +1,9 @@
-### 解题思路
-1.使用二分查找法查找对应元素，若找到则元素下标为left，若未找到元素，则插入下标仍然为left。
+// ### 解题思路
+// 1.使用二分查找法查找对应元素，若找到则元素下标为left，若未找到元素，则插入下标仍然为left。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
@@ -27,4 +27,4 @@ public:
         return left;
     }
 };
-```
+// ```

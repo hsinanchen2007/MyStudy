@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/de0b2bb969f356ac9ed5aa3fac58bf7472c4ee9ce44aba72d41707ac2db3260b-image.png)
+# ![image.png](https://pic.leetcode-cn.com/de0b2bb969f356ac9ed5aa3fac58bf7472c4ee9ce44aba72d41707ac2db3260b-image.png)
 
-```python []
+# ```python []
 class Solution:
     def maskPII(self, S: str) -> str:
         i = S.find('@')
@@ -10,4 +10,4 @@ class Solution:
             s = re.sub('[\+\-\(\) ]', '', S)
             return '***-***-' + s[-4: ] if len(s) == 10 \
                 else '+' + '*' * (len(s) - 10) + '-***-***-' + s[-4: ]
-```
+# ```

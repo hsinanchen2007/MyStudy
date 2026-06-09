@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<String> readBinaryWatch(int num) {
         List<String> result = new ArrayList<>();
@@ -27,4 +27,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

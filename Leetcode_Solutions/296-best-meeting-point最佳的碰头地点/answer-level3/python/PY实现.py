@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minTotalDistance(self, grid: List[List[int]]) -> int:
         R,C,r,c=len(grid),len(grid[0]),[],[]
@@ -13,4 +13,4 @@ class Solution:
             return sum(abs(l[i]-mid) for i in range(len(l)))
         
         return d(r)+d(c)
-```
+# ```

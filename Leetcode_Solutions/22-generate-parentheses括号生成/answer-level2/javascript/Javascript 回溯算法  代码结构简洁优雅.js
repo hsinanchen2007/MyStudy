@@ -1,8 +1,8 @@
-本题考察知识点：
-  - 对于回溯算法的理解与运用
-  - 对于DFS的编码功底 
+// 本题考察知识点：
+//   - 对于回溯算法的理解与运用
+//   - 对于DFS的编码功底 
 
-```javascript
+// ```javascript
 /**
  * 22. Generate Parentheses
  * https://leetcode.com/problems/generate-parentheses/
@@ -27,6 +27,6 @@ const generateParenthesis = (n, result = []) => {
   backtrack(0, 0, "")
   return result
 }
-```
+// ```
 
-[更多 JS-Leetcode 题解请关注](https://github.com/dwgeneral/JS-Leetcode)
+// [更多 JS-Leetcode 题解请关注](https://github.com/dwgeneral/JS-Leetcode)

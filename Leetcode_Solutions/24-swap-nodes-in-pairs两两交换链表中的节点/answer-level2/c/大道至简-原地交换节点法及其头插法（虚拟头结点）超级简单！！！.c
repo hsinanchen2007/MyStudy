@@ -1,14 +1,14 @@
-执行用时 :
-0 ms
-, 在所有 c 提交中击败了
-100.00%
-的用户
-内存消耗 :
-7 MB
-, 在所有 c 提交中击败了
-95.77%
-的用户
-```
+// 执行用时 :
+// 0 ms
+// , 在所有 c 提交中击败了
+// 100.00%
+// 的用户
+// 内存消耗 :
+// 7 MB
+// , 在所有 c 提交中击败了
+// 95.77%
+// 的用户
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -46,8 +46,8 @@ while(p->next)
 } 
 return L->next;
 }
-```
-```
+// ```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -95,9 +95,9 @@ free(L);
 head=pre;
 return head;
 }
-```
-//递归解法
-```
+// ```
+// //递归解法
+// ```
 
 struct ListNode* swapPairs(struct ListNode* head){
 
@@ -110,4 +110,4 @@ p->next=head;
 return p;
 }
 
-```
+// ```

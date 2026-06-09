@@ -1,9 +1,9 @@
-思路：从1到n的数值依次作为根节点，从1到当前值的前一个数作为左子树，从当前值的下一个数到n作为右子树，递归生成所有可能的组合。
-```
+// 思路：从1到n的数值依次作为根节点，从1到当前值的前一个数作为左子树，从当前值的下一个数到n作为右子树，递归生成所有可能的组合。
+// ```
 执行用时 :48 ms, 在所有 Go 提交中击败了62.07%的用户
 内存消耗 :26 MB, 在所有 Go 提交中击败了34.61%的用户
-```
-```Go []
+// ```
+// ```Go []
 func generateTrees(n int) []*TreeNode {
 	if n == 0 {
 		return make([]*TreeNode, 0)
@@ -33,5 +33,5 @@ func generate(start, end int) []*TreeNode {
 	}
 	return trees
 }
-```
-[LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)
+// ```
+// [LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)

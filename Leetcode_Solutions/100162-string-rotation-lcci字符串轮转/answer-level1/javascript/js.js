@@ -1,9 +1,9 @@
-### 解题思路
-思路很简单，将字符串s1与自身拼接，如果s2在拼接后的字符串中，就哦了
+// ### 解题思路
+// 思路很简单，将字符串s1与自身拼接，如果s2在拼接后的字符串中，就哦了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s1
  * @param {string} s2
@@ -20,4 +20,4 @@ var isFlipedString = function(s1, s2) {
         return false
     }
 };
-```
+// ```

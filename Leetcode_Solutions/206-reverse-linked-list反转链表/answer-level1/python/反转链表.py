@@ -1,5 +1,5 @@
-* 递归解法
-```
+# * 递归解法
+# ```
 def reverseList(self, head):
         """
         :type head: ListNode
@@ -16,9 +16,9 @@ def reverseList(self, head):
         head.next = None
 		# 每层递归函数都返回cur，也就是最后一个节点
         return cur
-```
-* 迭代解法
-```
+# ```
+# * 迭代解法
+# ```
 def reverseList(self, head):
         """
         :type head: ListNode
@@ -34,4 +34,4 @@ def reverseList(self, head):
             pre=cur
             cur=tmp
         return pre
-```
+# ```

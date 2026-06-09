@@ -1,5 +1,5 @@
-这种目标字符串在集合中得题。通过大 -> 小 往往更加容易
-```go
+// 这种目标字符串在集合中得题。通过大 -> 小 往往更加容易
+// ```go
 
 import "sort"
 
@@ -51,4 +51,4 @@ func dfs(word string, wordsMap map[string]bool) bool {
     }
     return false
 }
-```
+// ```

@@ -1,5 +1,5 @@
-快速排序：
-```
+// 快速排序：
+// ```
 class Solution {
    public int[] sortArray(int[] nums) {
         if(nums == null || nums.length == 0){
@@ -35,9 +35,9 @@ class Solution {
         quickSort(nums, left, end);
     }
 }
-```
-归并排序：
-```
+// ```
+// 归并排序：
+// ```
 class Solution {
    public int[] sortArray(int[] nums) {
         if(nums == null || nums.length == 0){
@@ -81,4 +81,4 @@ class Solution {
         }
     }
 }
-```
+// ```

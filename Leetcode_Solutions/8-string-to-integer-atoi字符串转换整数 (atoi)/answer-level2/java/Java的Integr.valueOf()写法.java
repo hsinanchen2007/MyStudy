@@ -1,9 +1,9 @@
-### 解题思路
-Java的Integr.valueOf()写法
+// ### 解题思路
+// Java的Integr.valueOf()写法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         if (str==null){
@@ -49,4 +49,4 @@ class Solution {
         return negative ? result : -result;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-第一种Python解法：**添加一个辅助元素，避免了`需要单独判断`。**
+# 第一种Python解法：**添加一个辅助元素，避免了`需要单独判断`。**
 
-第二种Java解法：**快慢指针,`i为慢指针， j为快指针`。很巧妙的把慢指针和快指针的值进行比较。**
+# 第二种Java解法：**快慢指针,`i为慢指针， j为快指针`。很巧妙的把慢指针和快指针的值进行比较。**
 
 
 
-```Python3 []
+# ```Python3 []
 class Solution:
     def compressString(self, S: str) -> str:
         ans = ""
@@ -17,8 +17,8 @@ class Solution:
             else:
                 count += 1
         return ans if len(ans) < len(S)-1 else S[:-1]
-```
-```Java []
+# ```
+# ```Java []
 class Solution {
     public String compressString(String S) {
         StringBuffer sb = new StringBuffer();
@@ -34,4 +34,4 @@ class Solution {
         return sb.toString().length() < S.length() ? sb.toString() : S;
     }
 }
-```
+# ```

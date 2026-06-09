@@ -1,6 +1,6 @@
-![leetcode24.jpeg](https://pic.leetcode-cn.com/55e220335a9c00002a9c3767e720c008693e8499415bd1d7ead0986a25b32b24-leetcode24.jpeg)
+// ![leetcode24.jpeg](https://pic.leetcode-cn.com/55e220335a9c00002a9c3767e720c008693e8499415bd1d7ead0986a25b32b24-leetcode24.jpeg)
 
-```
+// ```
 class Solution {
     public ListNode swapPairs(ListNode head) {
         ListNode dummy = new ListNode(-1);
@@ -30,4 +30,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

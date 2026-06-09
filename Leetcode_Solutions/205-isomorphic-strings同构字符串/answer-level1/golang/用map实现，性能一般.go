@@ -1,6 +1,6 @@
 
-![image.png](https://pic.leetcode-cn.com/1a51d38199a034cdf276d4c3395cfc4061bb8ad1aeb7654ad647549a03fbfd62-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/1a51d38199a034cdf276d4c3395cfc4061bb8ad1aeb7654ad647549a03fbfd62-image.png)
+// ```
 func isIsomorphic(s string, t string) bool {
     smap := make(map[byte]byte)
     tmap := make(map[byte]byte)
@@ -29,4 +29,4 @@ func isIsomorphic(s string, t string) bool {
     //fmt.Println(smap, tmap)
     return ret
 }
-```
+// ```

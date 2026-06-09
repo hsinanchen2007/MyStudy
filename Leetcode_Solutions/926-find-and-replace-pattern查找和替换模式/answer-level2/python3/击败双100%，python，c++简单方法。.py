@@ -1,11 +1,11 @@
-### 解题思路
-判断对应位置是否相同。
+# ### 解题思路
+# 判断对应位置是否相同。
 
 
-C++
-### 代码
+# C++
+# ### 代码
 
-```cpp
+# ```cpp
 class Solution {
 public:
     vector<string> findAndReplacePattern(vector<string>& words, string pattern) {
@@ -23,9 +23,9 @@ public:
     return true;
     }
 };
-```
-python3:
-```
+# ```
+# python3:
+# ```
 class Solution:
     def findAndReplacePattern(self, words: List[str], pattern: str) -> List[str]:
         def check(word,pattern):
@@ -40,4 +40,4 @@ class Solution:
             if check(words[i],pattern):
                 res.append(words[i])
         return res
-```
+# ```

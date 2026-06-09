@@ -1,7 +1,7 @@
-- 字符翻转后建立字典树进行统计
+// - 字符翻转后建立字典树进行统计
 
 
-```
+// ```
 typedef struct WordNode {
     int count;
     struct WordNode *next[26];
@@ -51,5 +51,5 @@ int minimumLengthEncoding(char ** words, int wordsSize){
     countWordDict(root, &count);
     return count;
 }
-```
+// ```
 

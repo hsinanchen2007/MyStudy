@@ -1,9 +1,9 @@
-### 解题思路
-分治算法，逐步进行；设 low = 0, high = 2 * k - 1; 对s[low]~ s[low + k - 1] 进行字符串的反转，即reverse(s, low, low + k - 1)，然后 循环(low < s.size()) low = high + 1, high = high + 2 * k 重复以上步骤
+// ### 解题思路
+// 分治算法，逐步进行；设 low = 0, high = 2 * k - 1; 对s[low]~ s[low + k - 1] 进行字符串的反转，即reverse(s, low, low + k - 1)，然后 循环(low < s.size()) low = high + 1, high = high + 2 * k 重复以上步骤
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseStr(string s, int k) {
@@ -29,4 +29,4 @@ public:
         }
     }
 };
-```
+// ```

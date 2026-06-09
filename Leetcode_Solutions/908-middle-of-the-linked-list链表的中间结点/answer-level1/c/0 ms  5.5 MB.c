@@ -1,9 +1,9 @@
-### 解题思路
-这个不是头结点吧？题目描述有问题
+// ### 解题思路
+// 这个不是头结点吧？题目描述有问题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct ListNode* middleNode(struct ListNode* head)
 {
     struct ListNode *p = head;
@@ -19,4 +19,4 @@ struct ListNode* middleNode(struct ListNode* head)
         p = p->next;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intersection(self, nums1: List[int], nums2: List[int]) -> List[int]:
         res = []
@@ -13,4 +13,4 @@ class Solution:
             if x in nums2 and x not in res:
                 res.append(x)
         return res
-```
+# ```

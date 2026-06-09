@@ -1,9 +1,9 @@
-### 解题思路
-栈的使用，注意如果已经没有元素可以弹出了，不理会退格即可。
+// ### 解题思路
+// 栈的使用，注意如果已经没有元素可以弹出了，不理会退格即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXLENGTH 200
 #define OK 0
 #define ERR 1
@@ -90,4 +90,4 @@ bool backspaceCompare(char * S, char * T){
         return false;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
     
-将两个单次(奇数次)数的划分到两个不同子数组  再使用按位异或分别求出两个子数组中的单次(奇数次)数
+// 将两个单次(奇数次)数的划分到两个不同子数组  再使用按位异或分别求出两个子数组中的单次(奇数次)数
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {

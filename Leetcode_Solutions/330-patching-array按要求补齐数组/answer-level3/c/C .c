@@ -1,5 +1,5 @@
-一趟循环解决
-```
+// 一趟循环解决
+// ```
 int minPatches(int* nums, int numsSize, int n){
     long int sum = 0;
     int i = 0;
@@ -24,4 +24,4 @@ int minPatches(int* nums, int numsSize, int n){
     }
     return count;
 }
-```
+// ```

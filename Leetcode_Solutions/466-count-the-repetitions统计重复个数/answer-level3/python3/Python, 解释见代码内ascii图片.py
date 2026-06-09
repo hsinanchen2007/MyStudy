@@ -1,6 +1,6 @@
-参考思路 https://leetcode.com/problems/count-the-repetitions/discuss/95398/c-solution-inspired-by-70664914-with-organized-explanation
-但是我的方法更为直观简单
-```
+# 参考思路 https://leetcode.com/problems/count-the-repetitions/discuss/95398/c-solution-inspired-by-70664914-with-organized-explanation
+# 但是我的方法更为直观简单
+# ```
 class Solution:
     # input: baba 6 baab 4
     # k = [0,n1)
@@ -56,4 +56,4 @@ class Solution:
         return s[max(s, key = lambda k:s[k][1])][1] // n2
         
         
-```
+# ```

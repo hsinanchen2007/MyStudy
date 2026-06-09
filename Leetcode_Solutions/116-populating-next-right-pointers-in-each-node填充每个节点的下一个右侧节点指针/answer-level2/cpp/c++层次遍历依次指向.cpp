@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     Node* connect(Node* root) {
@@ -22,4 +22,4 @@ public:
         return root;
     }
 };
-```
+// ```

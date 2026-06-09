@@ -1,10 +1,10 @@
-### 解题思路
-使用一个双向链表辅助，保存最大值序列
-Note：链表中小于后插入的元素的元素，对结果没有影响
+// ### 解题思路
+// 使用一个双向链表辅助，保存最大值序列
+// Note：链表中小于后插入的元素的元素，对结果没有影响
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 private:
     queue<int> que;
@@ -64,4 +64,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

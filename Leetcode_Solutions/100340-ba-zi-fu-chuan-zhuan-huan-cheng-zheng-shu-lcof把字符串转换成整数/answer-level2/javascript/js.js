@@ -1,9 +1,9 @@
-### 解题思路
-看代码
+// ### 解题思路
+// 看代码
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {number}
@@ -14,4 +14,4 @@ var strToInt = function(str) {
      */
    return Math.max(Math.min(parseInt(str) || 0, 2147483647), -2147483648);
 };
-```
+// ```

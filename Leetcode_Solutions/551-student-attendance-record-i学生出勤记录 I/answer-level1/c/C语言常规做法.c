@@ -1,5 +1,5 @@
-先检查是否有一次以上缺勤，再检查是否有连续两次以上迟到。
-```c
+// 先检查是否有一次以上缺勤，再检查是否有连续两次以上迟到。
+// ```c
 bool checkRecord(char * s){
     int i,a=0,length=0;
     while(s[length]!=0) length++;
@@ -12,4 +12,4 @@ bool checkRecord(char * s){
     }
     return 1;
 }
-```
+// ```

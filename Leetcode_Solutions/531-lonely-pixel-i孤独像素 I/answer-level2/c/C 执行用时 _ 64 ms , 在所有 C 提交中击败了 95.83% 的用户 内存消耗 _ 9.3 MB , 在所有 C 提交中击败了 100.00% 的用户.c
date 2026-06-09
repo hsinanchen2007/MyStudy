@@ -1,4 +1,4 @@
-```
+// ```
 int findLonelyPixel(char** picture, int pictureSize, int* pictureColSize){
     if(pictureSize == 0) {
         return 0;
@@ -37,4 +37,4 @@ int findLonelyPixel(char** picture, int pictureSize, int* pictureColSize){
     }
     return ans;
 }
-```
+// ```

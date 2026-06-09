@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -22,4 +22,4 @@ var maxProfit = function(prices) {
     }
     return res;
 };
-```
+// ```

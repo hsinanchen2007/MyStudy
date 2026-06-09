@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -34,4 +34,4 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 }
 
 
-```
+// ```

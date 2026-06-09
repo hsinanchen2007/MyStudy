@@ -1,6 +1,6 @@
-先遍历求长度,再进行取模运算,然后将链表变成环,找到旋转后的尾结点进行拆环
+// 先遍历求长度,再进行取模运算,然后将链表变成环,找到旋转后的尾结点进行拆环
 
-```
+// ```
 struct ListNode* rotateRight(struct ListNode* head, int k){
     if(!head)//链表为空时直接返回
         return head;
@@ -26,4 +26,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
          return p;
     }
 }
-```
+// ```

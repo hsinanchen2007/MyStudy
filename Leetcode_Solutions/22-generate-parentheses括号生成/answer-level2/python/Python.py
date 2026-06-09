@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def generateParenthesis(self, n):
         ans=[]
@@ -25,4 +25,4 @@ class Solution(object):
 
         help("",0,0,['(',')'])
         return ans
-```
+# ```

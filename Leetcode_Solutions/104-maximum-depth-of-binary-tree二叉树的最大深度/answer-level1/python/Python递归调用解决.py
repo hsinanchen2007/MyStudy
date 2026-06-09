@@ -1,9 +1,9 @@
-### 解题思路
-代码很简单，看代码把
+# ### 解题思路
+# 代码很简单，看代码把
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -19,4 +19,4 @@ class Solution:
         max_left = self.maxDepth(root.left)
         max_right = self.maxDepth(root.right)
         return max(max_left,max_right)+1 #还要加上根节点
-```
+# ```

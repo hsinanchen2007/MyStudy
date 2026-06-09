@@ -1,9 +1,9 @@
-### 解题思路
-双指针法，两个指针距离为k，同时向链表尾移动，第一个到达表尾后，第二个就是倒数第k的节点
+// ### 解题思路
+// 双指针法，两个指针距离为k，同时向链表尾移动，第一个到达表尾后，第二个就是倒数第k的节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -28,4 +28,4 @@ class Solution {
         return first;
     }
 }
-```
+// ```

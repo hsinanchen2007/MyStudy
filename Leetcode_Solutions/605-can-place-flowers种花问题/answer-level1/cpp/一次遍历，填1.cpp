@@ -1,4 +1,4 @@
-``` C++
+// ``` C++
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
@@ -16,4 +16,4 @@ public:
         return n<=0?true:false;
     }
 };
-```
+// ```

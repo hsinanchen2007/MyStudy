@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         l, r = 0, len(nums) - 1
@@ -20,4 +20,4 @@ class Solution:
             while l < r and nums[l] <= pivotVal:  l += 1
             nums[l], nums[r] = nums[r], nums[l]
         return l
-```
+# ```

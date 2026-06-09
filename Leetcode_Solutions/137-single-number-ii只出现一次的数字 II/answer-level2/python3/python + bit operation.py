@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         # each element apperas three time except for one
@@ -18,4 +18,4 @@ class Solution:
             if negCnt1 % 3 == 1:
                 negative += 1 << i
         return positive if positive else -negative
-```
+# ```

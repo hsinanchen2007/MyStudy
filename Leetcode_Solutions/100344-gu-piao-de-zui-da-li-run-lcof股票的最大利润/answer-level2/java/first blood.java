@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-取数组里面的递增最大值和最小值，并且保存上一次的最大利润。
+// ### 解题思路
+// 此处撰写解题思路
+// 取数组里面的递增最大值和最小值，并且保存上一次的最大利润。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int maxProfit(int[] prices) {
         int minValue = 22222222;
@@ -21,4 +21,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

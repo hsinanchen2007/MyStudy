@@ -1,5 +1,5 @@
-总思路：先用快慢指针确认中点，然后将后半段翻转，最后两个交叉插入
-```
+# 总思路：先用快慢指针确认中点，然后将后半段翻转，最后两个交叉插入
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
         node2 = right_head
         while(node1 and node2):
             node2.next, node1.next, node1, node2 = node1.next, node2, node1.next, node2.next
-```
+# ```

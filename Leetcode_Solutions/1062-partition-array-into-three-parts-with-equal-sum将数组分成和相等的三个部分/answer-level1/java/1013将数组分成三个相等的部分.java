@@ -1,10 +1,10 @@
-### 解题思路
-因为是整数数组，先求出数组的和并除以3，如果为小数则返回false
-使用双指针，分别从左右两边对部分和进行计算
+// ### 解题思路
+// 因为是整数数组，先求出数组的和并除以3，如果为小数则返回false
+// 使用双指针，分别从左右两边对部分和进行计算
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int sum = 0;
@@ -39,4 +39,4 @@ class Solution {
     
     }
 }
-```
+// ```

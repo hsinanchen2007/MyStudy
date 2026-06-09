@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int findComplement(int num) {
         int i = 0x7fffffff;
@@ -8,4 +8,4 @@ class Solution {
         return (i << 1) ^ num ^ 1;
     }
 }
-```
+// ```

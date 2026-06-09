@@ -1,9 +1,9 @@
-### 解题思路
-try
+# ### 解题思路
+# try
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         dic={}
@@ -16,4 +16,4 @@ class Solution:
         m=[i for i in dic.values()]
         return m
         
-```
+# ```

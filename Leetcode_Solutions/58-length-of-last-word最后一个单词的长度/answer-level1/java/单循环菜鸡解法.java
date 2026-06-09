@@ -1,10 +1,10 @@
-### 解题思路
-直接上代码.
-比较简单
+// ### 解题思路
+// 直接上代码.
+// 比较简单
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
            //这里的顺序是倒着来的
         public int lengthOfLastWord(String s) {
@@ -24,4 +24,4 @@ class Solution {
         }
 
 }
-```
+// ```

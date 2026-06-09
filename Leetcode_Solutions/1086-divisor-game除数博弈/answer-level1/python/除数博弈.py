@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def divisorGame(self, N):
         return (N-1) % 2
-```
+# ```

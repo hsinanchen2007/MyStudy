@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/085437a532bf07e8adf981a3da367f0fd862abd0e91dcf4918f20136f2437d1d-image.png)
+# ![image.png](https://pic.leetcode-cn.com/085437a532bf07e8adf981a3da367f0fd862abd0e91dcf4918f20136f2437d1d-image.png)
 
-涉及到了字典操作就没有用Counter。
+# 涉及到了字典操作就没有用Counter。
 
-```python []
+# ```python []
 class Solution:
     def sortString(self, s: str) -> str:
         ab = 'abcdefghijklmnopqrstuvwxyzzyxwvutsrqponmlkjihgfedcba'
@@ -18,4 +18,4 @@ class Solution:
                     if not d[c]:
                         del d[c]
         return ans
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-升序排序，与原数组比较，算出中间两数组不同的一段长度即可。
+// 升序排序，与原数组比较，算出中间两数组不同的一段长度即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findUnsortedSubarray(nums []int) int {
 	tmp := []int{}
 	tmp = append(tmp,nums...)
@@ -28,4 +28,4 @@ func findUnsortedSubarray(nums []int) int {
 		return end - start + 1
 	}
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 function maxProfit($prices) {
     if(empty($prices)) return 0;
     $sell[0] = 0;
@@ -11,4 +11,4 @@ function maxProfit($prices) {
     }
     return max($sell[count($prices)-1],$buy[count($prices)-1],$cool[count($prices)-1]);
 }
-```
+// ```

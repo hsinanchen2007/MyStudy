@@ -1,9 +1,9 @@
-### 解题思路
-c++暴力bfs
+// ### 解题思路
+// c++暴力bfs
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 
 
@@ -68,4 +68,4 @@ public:
         double ans = 1/(double)div;
     return  ans;}
 };
-```
+// ```

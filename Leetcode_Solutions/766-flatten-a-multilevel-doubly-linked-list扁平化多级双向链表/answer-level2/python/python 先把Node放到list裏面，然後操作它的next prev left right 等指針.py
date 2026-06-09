@@ -1,4 +1,4 @@
-```
+# ```
 def bfs(root, rev):
     if root is not None:
         rev.append(Node(root.val, None, None, None))
@@ -21,5 +21,5 @@ class Solution(object):
             rev[i+1].prev = rev[i]
         return rev[0]
 
-```
-好像有好几个题目了，要根据某个遍历方式重构树（这个是bfs序列重构所谓链表）。
+# ```
+# 好像有好几个题目了，要根据某个遍历方式重构树（这个是bfs序列重构所谓链表）。

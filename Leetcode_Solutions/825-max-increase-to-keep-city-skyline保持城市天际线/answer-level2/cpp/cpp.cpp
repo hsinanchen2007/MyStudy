@@ -1,9 +1,9 @@
-### 解题思路
-短板效应
+// ### 解题思路
+// 短板效应
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {	
 	public:
 		int maxIncreaseKeepingSkyline(vector<vector<int>>& grid) {
@@ -32,4 +32,4 @@ class Solution {
 			return ret;
 		}
 };
-```
+// ```

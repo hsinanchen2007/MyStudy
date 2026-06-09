@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，比较简单吧，注意一下循环顺序就行
+# ### 解题思路
+# 动态规划，比较简单吧，注意一下循环顺序就行
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         length = len(s)
@@ -22,4 +22,4 @@ class Solution:
         return s[start:end+1]
 
 
-```
+# ```

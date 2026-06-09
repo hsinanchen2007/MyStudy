@@ -1,4 +1,4 @@
-```C []
+// ```C []
 int compareSelect(const void *a, const void *b) {
      char tmpA = *(char*)a;
      char tmpB = *(char*)b;
@@ -60,4 +60,4 @@ bool checkInclusion(char * s1, char * s2) {
     free(tmpStr);
     return result;
 }
-```
+// ```

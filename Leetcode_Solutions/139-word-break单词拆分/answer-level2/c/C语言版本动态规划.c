@@ -1,9 +1,9 @@
-- 状态定义：dp[i] == true 为前i个字符组成的单词在字典中
-- 状态转移：使dp[j] == true (j>i)成立的条件是dp[i]为true 且s[i+1,j]在字典中，否则dp[j]为false
-- 初始值： dp[0] == true, 即空字符串在字典中
+// - 状态定义：dp[i] == true 为前i个字符组成的单词在字典中
+// - 状态转移：使dp[j] == true (j>i)成立的条件是dp[i]为true 且s[i+1,j]在字典中，否则dp[j]为false
+// - 初始值： dp[0] == true, 即空字符串在字典中
 
 
-```
+// ```
 bool wordBreak(char * s, char ** wordDict, int wordDictSize){
     int len = strlen(s);
     if(len == 0 || wordDictSize == 0) return false;
@@ -25,4 +25,4 @@ bool wordBreak(char * s, char ** wordDict, int wordDictSize){
     return dp[len];
 }
 
-```
+// ```

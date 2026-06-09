@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
         HashSet<Integer> set1 = new HashSet<>();
@@ -17,4 +17,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

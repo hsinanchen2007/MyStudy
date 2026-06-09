@@ -1,11 +1,11 @@
-### 解题思路
-1.会输入不足3个数
-2.会输入个数大于三个，但是种数小于三个的数组
-3.会输入int的最小值
-4.前三个最大的数字必须互不相等
-### 代码
+// ### 解题思路
+// 1.会输入不足3个数
+// 2.会输入个数大于三个，但是种数小于三个的数组
+// 3.会输入int的最小值
+// 4.前三个最大的数字必须互不相等
+// ### 代码
 
-```c
+// ```c
 int thirdMax(int* nums, int numsSize){
 
     long max[3];
@@ -24,4 +24,4 @@ int thirdMax(int* nums, int numsSize){
 
     return max[2]==(long)(((unsigned long)1)<<(sizeof(long)*8-1))?max[0]:max[2];
 }
-```
+// ```

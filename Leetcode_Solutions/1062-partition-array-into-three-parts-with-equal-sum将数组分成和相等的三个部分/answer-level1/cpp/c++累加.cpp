@@ -1,5 +1,5 @@
-累加
-```cpp
+// 累加
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -17,4 +17,4 @@ public:
         return count>=3;
     }
 };
-```
+// ```

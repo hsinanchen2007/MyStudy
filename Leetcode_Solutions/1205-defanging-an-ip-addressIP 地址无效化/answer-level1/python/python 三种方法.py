@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def defangIPaddr(self, address):
         """
@@ -31,4 +31,4 @@ class Solution(object):
         :rtype: str
         """
         return '[.]'.join(address.split("."))
-```
+# ```

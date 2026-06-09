@@ -1,7 +1,7 @@
 
-按行添加，每行个数=行数+1 即 `j <= i`
-每行首尾都为1，其余数字为上方和左上方的和`result[i-1][j] + result[i-1][j-1])`
-```javascript
+// 按行添加，每行个数=行数+1 即 `j <= i`
+// 每行首尾都为1，其余数字为上方和左上方的和`result[i-1][j] + result[i-1][j-1])`
+// ```javascript
 /**
  * @param {number} numRows
  * @return {number[][]}
@@ -18,4 +18,4 @@ var generate = function(numRows) {
     }
     return result;
 };
-```
+// ```

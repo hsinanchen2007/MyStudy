@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func validPalindrome(s string) bool {
 
 	for i,j:=0, len(s)-1;i<=j;{
@@ -26,4 +26,4 @@ func findValidPalindrome(s []rune,i, j int) bool{
 	}
 	return true
 }
-```
+// ```

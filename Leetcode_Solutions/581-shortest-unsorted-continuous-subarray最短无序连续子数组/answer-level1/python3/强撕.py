@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findUnsortedSubarray(self, nums: List[int]) -> int:
         nums_ = sorted(nums)
@@ -15,4 +15,4 @@ class Solution:
         while nums[j] == nums_[j]:
             j -= 1
         return j-i+1
-```
+# ```

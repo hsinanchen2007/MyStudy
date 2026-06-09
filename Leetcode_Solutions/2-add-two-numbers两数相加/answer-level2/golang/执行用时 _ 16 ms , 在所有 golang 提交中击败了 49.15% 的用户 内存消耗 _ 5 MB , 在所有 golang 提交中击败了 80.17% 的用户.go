@@ -1,5 +1,5 @@
-#### 预先创建下一个结点，如果之前结点相加超过10，也创建下一个即将进位的结点并加上1
-```
+// #### 预先创建下一个结点，如果之前结点相加超过10，也创建下一个即将进位的结点并加上1
+// ```
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	var list = new(ListNode)
 	var cur = list
@@ -31,4 +31,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return list.Next
 }
-```
+// ```

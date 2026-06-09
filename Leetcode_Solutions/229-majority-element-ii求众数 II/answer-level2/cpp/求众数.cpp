@@ -1,10 +1,10 @@
-### 解题思路
-![1577356935(1).jpg](https://pic.leetcode-cn.com/a27d852cc9851a1de5f1a8310b514b11d160e013b2267541fe2661c281b48415-1577356935\(1\).jpg)
-利用Map的特性 记录每个数字出现的次数 然后再最后遍历map 每个键对于的值（就是出现的次数） 是否大于 长度/3
+// ### 解题思路
+// ![1577356935(1).jpg](https://pic.leetcode-cn.com/a27d852cc9851a1de5f1a8310b514b11d160e013b2267541fe2661c281b48415-1577356935\(1\).jpg)
+// 利用Map的特性 记录每个数字出现的次数 然后再最后遍历map 每个键对于的值（就是出现的次数） 是否大于 长度/3
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
@@ -32,4 +32,4 @@ public:
 	return res;
     }
 };
-```
+// ```

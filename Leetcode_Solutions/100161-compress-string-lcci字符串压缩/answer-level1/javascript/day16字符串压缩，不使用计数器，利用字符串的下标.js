@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
-方法一：不使用计数器，利用数组的下标
-```javascript
+// ### 代码
+// 方法一：不使用计数器，利用数组的下标
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -39,4 +39,4 @@ function compressString(S){
 				str += S[len-1] +count;
 				return str.length<len?str:S;
 			}
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class WordDictionary:
 
     def __init__(self):
@@ -55,4 +55,4 @@ class WordDictionary:
 # obj = WordDictionary()
 # obj.addWord(word)
 # param_2 = obj.search(word)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-请看代码
+// ### 解题思路
+// 请看代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         if(nums.length == 0){
@@ -45,4 +45,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

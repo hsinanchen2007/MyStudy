@@ -1,13 +1,13 @@
-### 解题思路
-通过循环哈希表，`从大到小`依次判断当前数是否`大于等于`哈希表的key
+// ### 解题思路
+// 通过循环哈希表，`从大到小`依次判断当前数是否`大于等于`哈希表的key
 
-### JavaScript的坑
-1、forin循环遍历对象为无序，通过`Object.keys(hashMap).reverse()`曲线救国
-2、必须通过循环才能批量处理字符串，看都python居然可以通过"M"*2输出"MM"，泪流满面
+// ### JavaScript的坑
+// 1、forin循环遍历对象为无序，通过`Object.keys(hashMap).reverse()`曲线救国
+// 2、必须通过循环才能批量处理字符串，看都python居然可以通过"M"*2输出"MM"，泪流满面
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {string}
@@ -39,4 +39,4 @@ var intToRoman = function(num) {
     }
     return s;
 };
-```
+// ```

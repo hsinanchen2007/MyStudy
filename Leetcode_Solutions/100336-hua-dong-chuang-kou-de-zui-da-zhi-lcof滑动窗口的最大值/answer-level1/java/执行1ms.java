@@ -1,9 +1,9 @@
-### 解题思路
-1ms 双百分百=。=
+// ### 解题思路
+// 1ms 双百分百=。=
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if(nums.length==0)
@@ -40,4 +40,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

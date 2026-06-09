@@ -1,5 +1,5 @@
-先调换左右子树，再递归左右子树
-```go
+// 先调换左右子树，再递归左右子树
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -19,4 +19,4 @@ func invertTree(root *TreeNode) *TreeNode {
     
     return root
 }
-```
+// ```

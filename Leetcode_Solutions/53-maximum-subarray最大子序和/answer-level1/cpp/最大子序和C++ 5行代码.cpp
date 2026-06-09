@@ -1,7 +1,7 @@
-### 解题思路
-动态规划法
-### 代码
-```cpp
+// ### 解题思路
+// 动态规划法
+// ### 代码
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
         return Max>sum?Max:sum;
     }
 };
-```
+// ```

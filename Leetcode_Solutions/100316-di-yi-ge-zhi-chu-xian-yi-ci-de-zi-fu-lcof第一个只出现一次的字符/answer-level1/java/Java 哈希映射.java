@@ -1,4 +1,4 @@
-```java
+// ```java
 public char firstUniqChar(String s) {
     HashMap<Character, Integer> count = new HashMap<>();
     int n = s.length();
@@ -16,4 +16,4 @@ public char firstUniqChar(String s) {
     }
     return ' ';
 }
-```
+// ```

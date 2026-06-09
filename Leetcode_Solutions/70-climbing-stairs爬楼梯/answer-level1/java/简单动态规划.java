@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int climbStairs(int n) {
         if (n == 1) {
@@ -18,4 +18,4 @@ class Solution {
         return dp[n-1];
     }
 }
-```
+// ```

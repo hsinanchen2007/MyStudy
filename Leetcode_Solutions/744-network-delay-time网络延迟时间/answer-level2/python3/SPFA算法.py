@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 
     def networkDelayTime(self, times: List[List[int]], N: int, K: int) -> int:
@@ -26,4 +26,4 @@ class Solution:
                         inq[v] = True
                         stack.append(v)
         return -1 if max(dis[1:]) == float('inf') else max(dis[1:])
-```
+# ```

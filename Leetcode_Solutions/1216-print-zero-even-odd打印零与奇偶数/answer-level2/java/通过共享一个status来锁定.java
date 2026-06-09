@@ -1,5 +1,5 @@
-通过共享1个信号量实现
-```
+// 通过共享1个信号量实现
+// ```
 class ZeroEvenOdd {
     private int n;
     private volatile int status=0;
@@ -48,5 +48,5 @@ class ZeroEvenOdd {
         }  
     }
 }
-```
+// ```
 

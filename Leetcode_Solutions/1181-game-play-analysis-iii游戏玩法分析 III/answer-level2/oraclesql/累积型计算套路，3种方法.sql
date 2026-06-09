@@ -1,6 +1,6 @@
 
-#累积型计算套路
-#方法1：计算型子查询
+-- #累积型计算套路
+-- #方法1：计算型子查询
 /*
 select player_id,event_date,(select sum(games_played) from Activity a2 where a2.player_id=a1.player_id and a2.event_date<=a1.event_date) games_played_so_far
 from Activity a1

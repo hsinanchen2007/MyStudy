@@ -1,5 +1,5 @@
-从第一间房子开始依次，广度优先的规则把所有房子都进一遍，每次进新房都标记一下，如果是老房子就不用再进一遍，最后数数进过的房子有多少间就可以了。
-```
+# 从第一间房子开始依次，广度优先的规则把所有房子都进一遍，每次进新房都标记一下，如果是老房子就不用再进一遍，最后数数进过的房子有多少间就可以了。
+# ```
 class Solution:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
         stack = [rooms[0]]
@@ -19,4 +19,4 @@ class Solution:
             if not r:
                 return False
         return True
-```
+# ```

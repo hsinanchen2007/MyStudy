@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def allExt(mymap: scala.collection.mutable.Map[String, Int], str: String): Boolean = {
     (1 to str.size - 1).forall(x => mymap.contains(str.slice(0, x)))
@@ -25,4 +25,4 @@ object Solution {
   }
 }
 
-```
+// ```

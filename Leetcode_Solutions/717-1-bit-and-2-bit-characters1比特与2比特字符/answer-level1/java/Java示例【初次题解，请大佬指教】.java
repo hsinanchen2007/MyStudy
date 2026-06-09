@@ -1,7 +1,7 @@
-执行用时 :1 ms, 在所有 Java 提交中击败了99.70%的用户
-内存消耗 :37.1 MB, 在所有 Java 提交中击败了83.04%的用户
+// 执行用时 :1 ms, 在所有 Java 提交中击败了99.70%的用户
+// 内存消耗 :37.1 MB, 在所有 Java 提交中击败了83.04%的用户
 
-```java
+// ```java
 class Solution {
     public boolean isOneBitCharacter(int[] bits) {     
         int length = bits.length;
@@ -66,4 +66,4 @@ class Solution {
     }
 }
 
-```
+// ```

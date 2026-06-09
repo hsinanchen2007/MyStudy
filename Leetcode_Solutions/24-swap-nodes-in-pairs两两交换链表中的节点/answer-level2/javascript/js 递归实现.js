@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var swapPairs = function(head) {
     if (head === null || head.next === null) {
         return head;
@@ -13,4 +13,4 @@ var swapPairs = function(head) {
     next.next = head;
     return next;
 };
-```
+// ```

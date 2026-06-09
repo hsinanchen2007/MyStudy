@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def longestOnes(self, A: List[int], K: int) -> int:
         # 用来记录子串的开始下标
@@ -14,5 +14,5 @@ class Solution:
                     k += 1
                 i += 1
         return j-i+1
-```
-此解法为b站大佬的解法，为搬运而来，膜拜大佬的链接https://www.bilibili.com/video/av45741013?t=40
+# ```
+# 此解法为b站大佬的解法，为搬运而来，膜拜大佬的链接https://www.bilibili.com/video/av45741013?t=40

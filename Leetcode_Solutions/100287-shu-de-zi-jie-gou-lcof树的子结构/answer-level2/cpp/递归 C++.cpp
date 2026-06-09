@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     //比较从当前节点a开始b是否为a的子树
     bool helper(TreeNode* a, TreeNode* b){
@@ -16,4 +16,4 @@ public:
         return isSubStructure(A->left,B) || isSubStructure(A->right,B);
     }
 };
-```
+// ```

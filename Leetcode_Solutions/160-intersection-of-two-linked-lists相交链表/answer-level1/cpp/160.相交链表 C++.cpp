@@ -1,9 +1,9 @@
-### 解题思路
-主要的思想还是先整理链表长度一致，然后按顺序比较
+// ### 解题思路
+// 主要的思想还是先整理链表长度一致，然后按顺序比较
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -61,4 +61,4 @@ public:
         return NULL;
         }
 };
-```
+// ```

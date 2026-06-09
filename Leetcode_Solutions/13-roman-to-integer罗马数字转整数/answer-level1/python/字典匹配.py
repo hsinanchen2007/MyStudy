@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def romanToInt(self, s):
         """
@@ -21,4 +21,4 @@ class Solution(object):
             if key in string:
                 res += trans1[key] * string.count(key)
         return res
-```
+# ```

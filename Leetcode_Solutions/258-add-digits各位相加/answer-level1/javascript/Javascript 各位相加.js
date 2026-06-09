@@ -1,4 +1,4 @@
-```
+// ```
 const myWay = num => {
     do {
         num = num.toString().split('').reduce((a, b) => parseInt(a) + parseInt(b))
@@ -6,4 +6,4 @@ const myWay = num => {
     return num
 }
 
-```
+// ```

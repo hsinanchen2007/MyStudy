@@ -1,23 +1,23 @@
-## 思路:
+# ## 思路:
 
-可以把N叉树一个节点的第一个孩子都作为二叉树的左节点，然后该节点兄弟挂载在第一个孩子的右节点上。
+# 可以把N叉树一个节点的第一个孩子都作为二叉树的左节点，然后该节点兄弟挂载在第一个孩子的右节点上。
 
-如图所示：
+# 如图所示：
 
-![image-20200229160301999.png](https://pic.leetcode-cn.com/3c6fe6a29bac6f6f14a7c15df8d4fefa3b31850e3b7accf72353e4c920158da4-image-20200229160301999.png)
+# ![image-20200229160301999.png](https://pic.leetcode-cn.com/3c6fe6a29bac6f6f14a7c15df8d4fefa3b31850e3b7accf72353e4c920158da4-image-20200229160301999.png)
 
 
-树有两种遍历方式：
+# 树有两种遍历方式：
 
-思路一：DFS
+# 思路一：DFS
 
-思路二：BFS
+# 思路二：BFS
 
-## 代码:
+# ## 代码:
 
-思路一：DFS
+# 思路一：DFS
 
-```python
+# ```python
 class Codec:
 
     # Encodes an n-ary tree to a binary tree.
@@ -41,11 +41,11 @@ class Codec:
             res.children.append(self.decode(cur))
             cur = cur.right
         return res
-```
+# ```
 
-思路二：BFS
+# 思路二：BFS
 
-```python
+# ```python
 class Codec:
 
     # Encodes an n-ary tree to a binary tree.
@@ -70,5 +70,5 @@ class Codec:
                 cur_TreeNode = cur_TreeNode.right
                 queue.appendleft([new_node, node])
         return new_TreeNode
-```
+# ```
 

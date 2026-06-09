@@ -1,10 +1,10 @@
-### 解题思路
-* 排序+哈希
-* 将每个单词排序，得到唯一的key，对于的value用字符数组存储vector<string>
+// ### 解题思路
+// * 排序+哈希
+// * 将每个单词排序，得到唯一的key，对于的value用字符数组存储vector<string>
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
@@ -22,6 +22,6 @@ public:
         return GpAnagram;
     }
 };
-```
+// ```
 
-![2.png](https://pic.leetcode-cn.com/246544f2eeae633de5eb049cf47be09f0dc66ddc66059dbda85d6662fd6c8e9d-2.png)
+// ![2.png](https://pic.leetcode-cn.com/246544f2eeae633de5eb049cf47be09f0dc66ddc66059dbda85d6662fd6c8e9d-2.png)

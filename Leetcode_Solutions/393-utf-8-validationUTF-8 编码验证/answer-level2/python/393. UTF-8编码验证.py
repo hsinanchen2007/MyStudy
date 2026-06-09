@@ -1,9 +1,9 @@
-### 解题思路
-面向case编程。python中二进制数前加0b。
+# ### 解题思路
+# 面向case编程。python中二进制数前加0b。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def validUtf8(self, data: List[int]) -> bool:
         length = len(data)
@@ -37,4 +37,4 @@ class Solution:
                 return False
         return True    
 
-```
+# ```

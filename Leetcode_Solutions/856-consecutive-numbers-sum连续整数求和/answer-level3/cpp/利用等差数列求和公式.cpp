@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/b94ae44a60e18580ddd6cf300c191ee1ac53eaf334c580362915dec3bfb9b278-image.png)
-设有首项A1，n个数的公差为1等差数列，有(n-1+2*A1)*n=2*N;所以我们只需要求出2*N的某种因子i的数目，该因子i具有：2*N/i-i为奇数。
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/b94ae44a60e18580ddd6cf300c191ee1ac53eaf334c580362915dec3bfb9b278-image.png)
+// 设有首项A1，n个数的公差为1等差数列，有(n-1+2*A1)*n=2*N;所以我们只需要求出2*N的某种因子i的数目，该因子i具有：2*N/i-i为奇数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int consecutiveNumbersSum(int N) {
@@ -27,4 +27,4 @@ public:
         return res;
     }
 };
-```
+// ```

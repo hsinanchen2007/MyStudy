@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码，而且考虑了整形溢出问题
+// ### 解题思路
+// 直接看代码，而且考虑了整形溢出问题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a, const void *b){
     return *(int*)a - *(int*)b;
 }
@@ -65,4 +65,4 @@ int threeSumClosest(int* nums, int numsSize, int target){
 
     return min;
 }
-```
+// ```

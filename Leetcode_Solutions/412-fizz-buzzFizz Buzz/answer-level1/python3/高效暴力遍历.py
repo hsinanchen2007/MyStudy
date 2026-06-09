@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
         a=[]
@@ -17,14 +17,14 @@ class Solution:
             else:
                 a.append(str(i))
         return a
-```
-执行用时 :
-32 ms
-, 在所有 python3 提交中击败了
-99.89%
-的用户
-内存消耗 :
-13.7 MB
-, 在所有 python3 提交中击败了
-99.38%
-的用户
+# ```
+# 执行用时 :
+# 32 ms
+# , 在所有 python3 提交中击败了
+# 99.89%
+# 的用户
+# 内存消耗 :
+# 13.7 MB
+# , 在所有 python3 提交中击败了
+# 99.38%
+# 的用户

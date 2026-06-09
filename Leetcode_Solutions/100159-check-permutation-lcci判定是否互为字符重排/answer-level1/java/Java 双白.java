@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-建立两个大小为26的int类型数组，然后每次读一个字母就放入对应的位置，最后比较数组是否一致。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 建立两个大小为26的int类型数组，然后每次读一个字母就放入对应的位置，最后比较数组是否一致。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         int[] intArray1 = new int[26];
@@ -26,4 +26,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-思路请看注释
+# 思路请看注释
 
-```
+# ```
 class Solution:
     def isNumber(self, s: str) -> bool:
         s = s.strip()  # 去掉两端的空白符
@@ -24,4 +24,4 @@ class Solution:
                 if s.isnumeric():
                     return True
                 return False
-```
+# ```

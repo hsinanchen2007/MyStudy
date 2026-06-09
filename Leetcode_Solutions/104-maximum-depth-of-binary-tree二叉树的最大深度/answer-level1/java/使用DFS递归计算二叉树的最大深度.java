@@ -1,11 +1,11 @@
 
-**思路**
+// **思路**
 
-使用DFS(深度优先搜索)，递归遍历节点的左右子节点，若左节点的深度大于右节点的深度，则当前节点的最大深度为：currentDepth+ leftChildDepth, 反之，currentDepth+ rightChildDepth。
+// 使用DFS(深度优先搜索)，递归遍历节点的左右子节点，若左节点的深度大于右节点的深度，则当前节点的最大深度为：currentDepth+ leftChildDepth, 反之，currentDepth+ rightChildDepth。
 
-**实现代码**
+// **实现代码**
 
-```java
+// ```java
 
 package leetcode;
 
@@ -92,4 +92,4 @@ public class leetcode_104 {
     
 }
 
-```
+// ```

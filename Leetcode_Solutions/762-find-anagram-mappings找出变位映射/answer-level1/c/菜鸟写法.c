@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :0 ms, 在所有 c 提交中击败了100.00%的用户
-内存消耗 :7 MB, 在所有 c 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :0 ms, 在所有 c 提交中击败了100.00%的用户
+// 内存消耗 :7 MB, 在所有 c 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -24,4 +24,4 @@ int* anagramMappings(int* A, int ASize, int* B, int BSize, int* returnSize){
     *returnSize = ASize;
     return ret;
 }
-```
+// ```

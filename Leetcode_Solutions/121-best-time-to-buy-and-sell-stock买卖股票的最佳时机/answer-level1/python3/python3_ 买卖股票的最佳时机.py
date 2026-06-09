@@ -1,4 +1,4 @@
-```python
+# ```python
 def maxProfit(prices):
     # 倒序遍历数组, 获取其最大值
     # 将最大值 - 每个值 = 当前的最大利润
@@ -16,4 +16,4 @@ def maxProfit(prices):
 
 print(maxProfit([7,1,5,3,6,4]))
 print(maxProfit([7,6,4,3,1]))
-```
+# ```

@@ -1,5 +1,5 @@
-有2个人排成一排有2种站法，第3人插入这一排的左、中、右位置，然后循环插入第4人，第5人...
-```javascript []
+// 有2个人排成一排有2种站法，第3人插入这一排的左、中、右位置，然后循环插入第4人，第5人...
+// ```javascript []
 function T46(nums) {
 	var left = [];
 	if (nums.length == 0) return [[]];
@@ -23,8 +23,8 @@ function T46(nums) {
 	}
 	return left;
 }
-```
-```Java []
+// ```
+// ```Java []
 public List<List<Integer>> T46(int[] nums) {
 	List<List<Integer>> left = new ArrayList<>();
 	if (nums.length == 0) {
@@ -54,4 +54,4 @@ public List<List<Integer>> T46(int[] nums) {
 	}
 	return left;
 }
-```
+// ```

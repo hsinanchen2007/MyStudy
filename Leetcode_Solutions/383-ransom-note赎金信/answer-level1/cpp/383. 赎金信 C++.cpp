@@ -1,10 +1,10 @@
-### 解题思路
-1.使用hash_map给magainze中所有的出现的字符进行计数。
-2.遍历赎金信是查找hash_map中计数其是否为0，若为0说明字母不够返回false，若没找到字符说明缺字符也返回false，检查全通过才能返回true。
+// ### 解题思路
+// 1.使用hash_map给magainze中所有的出现的字符进行计数。
+// 2.遍历赎金信是查找hash_map中计数其是否为0，若为0说明字母不够返回false，若没找到字符说明缺字符也返回false，检查全通过才能返回true。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
@@ -31,4 +31,4 @@ public:
     return true;
     }
 };
-```
+// ```

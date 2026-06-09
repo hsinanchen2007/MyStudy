@@ -1,4 +1,4 @@
-```
+// ```
 func findRestaurant(list1 []string, list2 []string) []string {
     m := make(map[string]int)
 	for i, l := range list1 {
@@ -22,4 +22,4 @@ func findRestaurant(list1 []string, list2 []string) []string {
 
 	return result
 }
-```
+// ```

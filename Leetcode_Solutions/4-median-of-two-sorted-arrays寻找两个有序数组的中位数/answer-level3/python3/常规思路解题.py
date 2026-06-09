@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
-简单来说，就是先排序，再查找。先对两个有序数组排序，每次取两个数组中最小值进行比较，较小的数组向后移动一个位置，当一个数组已经取完的时候，则将未取完的数组直接复制，即可。
-### 代码
-```python3
+# ### 解题思路
+# 此处撰写解题思路
+# 简单来说，就是先排序，再查找。先对两个有序数组排序，每次取两个数组中最小值进行比较，较小的数组向后移动一个位置，当一个数组已经取完的时候，则将未取完的数组直接复制，即可。
+# ### 代码
+# ```python3
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         length1=len(nums1)
@@ -40,4 +40,4 @@ class Solution:
             return(res[int(length/2)]+res[int(length/2-1)])/2.0
         else:
             return(res[int(length/2)])*1.0
-```
+# ```

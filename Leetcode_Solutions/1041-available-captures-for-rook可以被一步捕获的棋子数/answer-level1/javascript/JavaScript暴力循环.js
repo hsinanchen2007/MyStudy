@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-找到车后开始捕猎，暴力
+// 找到车后开始捕猎，暴力
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {number}
@@ -59,4 +59,4 @@ var numRookCaptures = function(board) {
     }
     return res
 };
-```
+// ```

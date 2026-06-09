@@ -1,10 +1,10 @@
-### 解题思路
-快排 +　字典
-下面的快排写成有返回值这种也是自己基本功不扎实，不知道字符串中的元素不能赋值，最后也就没改了。
+# ### 解题思路
+# 快排 +　字典
+# 下面的快排写成有返回值这种也是自己基本功不扎实，不知道字符串中的元素不能赋值，最后也就没改了。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def groupAnagrams(self, strs):
         """
@@ -39,4 +39,4 @@ class Solution(object):
             else:
                 my_dict[str] = [strs[i]]
         return list(my_dict.values())
-```
+# ```

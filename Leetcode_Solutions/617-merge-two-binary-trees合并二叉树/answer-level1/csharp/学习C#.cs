@@ -1,8 +1,8 @@
-### 解题思路
-跟语言没关的一道题
-### 代码
+// ### 解题思路
+// 跟语言没关的一道题
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ public class Solution {
             return t1;
     }
 }
-```
+// ```

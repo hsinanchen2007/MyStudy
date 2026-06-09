@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def leafSimilar(self, root1, root2):
         """
@@ -24,4 +24,4 @@ class Solution(object):
             return True
         else:
             False
-```
+# ```

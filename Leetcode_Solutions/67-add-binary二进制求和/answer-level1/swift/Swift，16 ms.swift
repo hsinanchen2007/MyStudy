@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func addBinary(_ a: String, _ b: String) -> String {
         let cA = a.count
@@ -39,4 +39,4 @@ class Solution {
         return String(right.reversed())
     }
 }
-```
+// ```

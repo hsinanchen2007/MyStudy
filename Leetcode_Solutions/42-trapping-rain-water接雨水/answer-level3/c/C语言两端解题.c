@@ -1,9 +1,9 @@
-### 解题思路
-先找到最大值所在的下标,然后分别计算最大值左边和最大值右边的储存量，左边的向右方移动左墙，右边的将右墙向左边移动，最后将两边的水加起来
+// ### 解题思路
+// 先找到最大值所在的下标,然后分别计算最大值左边和最大值右边的储存量，左边的向右方移动左墙，右边的将右墙向左边移动，最后将两边的水加起来
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
     int all_water = 0,left_water = 0,right_water = 0;
     int temp = 0;
@@ -61,4 +61,4 @@ int trap(int* height, int heightSize){
     all_water = left_water+right_water;
     return all_water;
 }
-```
+// ```

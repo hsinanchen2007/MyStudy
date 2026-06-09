@@ -1,15 +1,15 @@
-### 解题思路
-思路：去掉字母次数是偶数次的字母后，检查剩余的字符个数， 偶数个字符需要变换一半的字符才能是回文，奇数个字符类似
-1、srcTimes[i][26]表示s里i索引左边包含的字符次数统计，方便后续计算i~j之间的字符次数
-2、计算i~j区间各个字符出现的次数
-times[x] = srcTimes[j][x] - srcTimes[i][x]; //计算字符x在i~j之间出现的次数
-times[s[i] - 'a']++; //i被减掉了，加回来
+// ### 解题思路
+// 思路：去掉字母次数是偶数次的字母后，检查剩余的字符个数， 偶数个字符需要变换一半的字符才能是回文，奇数个字符类似
+// 1、srcTimes[i][26]表示s里i索引左边包含的字符次数统计，方便后续计算i~j之间的字符次数
+// 2、计算i~j区间各个字符出现的次数
+// times[x] = srcTimes[j][x] - srcTimes[i][x]; //计算字符x在i~j之间出现的次数
+// times[s[i] - 'a']++; //i被减掉了，加回来
 
-耗时跟内存都比较多，代码比较清晰。
+// 耗时跟内存都比较多，代码比较清晰。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool CheckPaliValid(char *s, int l, int r)
 {
     if (r - l == 0) {
@@ -102,4 +102,4 @@ bool* canMakePaliQueries(char * s, int** queries, int queriesSize, int* queriesC
     free(srcTimes);
     return retBool;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-有序数组想双指针，一头一尾，根据和值与target大小关系调整指针位置，直至相等
+// 有序数组想双指针，一头一尾，根据和值与target大小关系调整指针位置，直至相等
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
 	vector<int> twoSum(vector<int>& numbers, int target) {
@@ -22,4 +22,4 @@ public:
         return ans;
 	}
 };
-```
+// ```

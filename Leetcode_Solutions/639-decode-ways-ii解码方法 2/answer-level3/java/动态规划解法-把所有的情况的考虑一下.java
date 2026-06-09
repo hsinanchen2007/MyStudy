@@ -1,6 +1,6 @@
-动态规划，每种情况，不要漏了就可以了，体力劳动。
+// 动态规划，每种情况，不要漏了就可以了，体力劳动。
 
-```
+// ```
 public int numDecodings(String s) {
         int m = 1000000007;
         
@@ -54,4 +54,4 @@ public int numDecodings(String s) {
         }
         return (int)dp[len];
     }
-```
+// ```

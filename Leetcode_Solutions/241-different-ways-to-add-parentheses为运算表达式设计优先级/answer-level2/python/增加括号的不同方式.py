@@ -1,11 +1,11 @@
-### 解题思路
-分治法，递归解决；同时注意增加cache避免重复计算。python2.7貌似不支持@functools.lru_cache, 手动创建dict实现该功能。
+# ### 解题思路
+# 分治法，递归解决；同时注意增加cache避免重复计算。python2.7貌似不支持@functools.lru_cache, 手动创建dict实现该功能。
 
-python的加减乘除可以用operator.add operator.sub operator.mul 进行，因此定义 op_set = {'+':operator.add,'-':operator.sub,'*':operator.mul}， 根据操作符，直接进行计算，减少代码上的if else判断，更加pythonic
+# python的加减乘除可以用operator.add operator.sub operator.mul 进行，因此定义 op_set = {'+':operator.add,'-':operator.sub,'*':operator.mul}， 根据操作符，直接进行计算，减少代码上的if else判断，更加pythonic
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def diffWaysToCompute(self, s):
         """
@@ -45,4 +45,4 @@ class Solution(object):
                 start = end+1
         l.append(int(s[start:end+1]))
         return recursive(l)
-```
+# ```

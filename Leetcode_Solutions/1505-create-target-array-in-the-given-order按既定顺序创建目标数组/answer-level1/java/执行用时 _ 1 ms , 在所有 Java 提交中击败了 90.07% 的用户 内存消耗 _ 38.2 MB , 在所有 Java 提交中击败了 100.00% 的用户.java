@@ -1,9 +1,9 @@
-### 解题思路
-用一个list循环遍历即可
+// ### 解题思路
+// 用一个list循环遍历即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] createTargetArray(int[] nums, int[] index) {
         List<Integer> list = new ArrayList<>();
@@ -17,4 +17,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/dd6921ec8093ed2f123c4f3410fb85b153f3573fddda99951badf66b4ac8cd1d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dd6921ec8093ed2f123c4f3410fb85b153f3573fddda99951badf66b4ac8cd1d-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ int findTilt(struct TreeNode* root){
 	trans(root, &tilt);
 	return tilt;
 }
-```
+// ```

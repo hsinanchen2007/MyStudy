@@ -1,6 +1,6 @@
-**思路**：先计算每个断垣个独立的表面积（grid[i][j]*4+2）
-          再减去相贴的面积（min(grid[i][j],grid[h][k])*2）
-```
+# **思路**：先计算每个断垣个独立的表面积（grid[i][j]*4+2）
+#           再减去相贴的面积（min(grid[i][j],grid[h][k])*2）
+# ```
 def surfaceArea(self, grid: List[List[int]]) -> int:
         res,sub=0,0
         for i in range(len(grid)):
@@ -17,4 +17,4 @@ def surfaceArea(self, grid: List[List[int]]) -> int:
                 if grid[i][j]!=0 and 0<=j+1<len(grid[0]) and grid[i][j+1]!=0:
                     sub+=min(grid[i][j],grid[i][j+1])
         return res-sub
-```
+# ```

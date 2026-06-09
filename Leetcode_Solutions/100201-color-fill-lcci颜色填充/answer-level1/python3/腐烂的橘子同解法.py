@@ -1,9 +1,9 @@
-### 解题思路
-和腐烂的橘子同样的解法
+# ### 解题思路
+# 和腐烂的橘子同样的解法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:
         row=len(image)
@@ -36,4 +36,4 @@ class Solution:
 
 
 
-```
+# ```

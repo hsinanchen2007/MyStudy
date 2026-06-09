@@ -1,9 +1,9 @@
-### 解题思路
-思路同题解中大佬的双层拓扑排序，不过通过sort自定义比较等级，一次排序实现。要注意检查两个拓扑序是否冲突。
+// ### 解题思路
+// 思路同题解中大佬的双层拓扑排序，不过通过sort自定义比较等级，一次排序实现。要注意检查两个拓扑序是否冲突。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sortItems(int n, int m, vector<int>& group, vector<vector<int>>& beforeItems) {
@@ -104,4 +104,4 @@ public:
         return sortTable;
     }
 };
-```
+// ```

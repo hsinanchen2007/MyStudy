@@ -1,14 +1,14 @@
-### 解题思路
-I tried to use the normal approach:
-1. get distinct elements
-2. sort and reverse the list/array
-and the execution failed due to timeout.
+// ### 解题思路
+// I tried to use the normal approach:
+// 1. get distinct elements
+// 2. sort and reverse the list/array
+// and the execution failed due to timeout.
 
-To cope with the time requirements, I have to use dictionary and SortedSet to minimize the time, and it works.
+// To cope with the time requirements, I have to use dictionary and SortedSet to minimize the time, and it works.
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] ArrayRankTransform(int[] arr) {
         if (arr.Length == 0) { return arr; }
@@ -18,4 +18,4 @@ public class Solution {
         return arr.Select(arrElem => sortedDistinctArr[arrElem.ToString()] + 1).ToArray();
     }
 }
-```
+// ```

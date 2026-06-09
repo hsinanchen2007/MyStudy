@@ -1,6 +1,6 @@
-执行用时 : 2 ms, 在Find Mode in Binary Search Tree的Java提交中击败了97.23% 的用户   
-内存消耗 : 41.4 MB, 在Find Mode in Binary Search Tree的Java提交中击败了60.51% 的用户  
-```
+// 执行用时 : 2 ms, 在Find Mode in Binary Search Tree的Java提交中击败了97.23% 的用户   
+// 内存消耗 : 41.4 MB, 在Find Mode in Binary Search Tree的Java提交中击败了60.51% 的用户  
+// ```
 class Solution {
     List<Integer> list = new ArrayList<>();
     TreeNode pre;
@@ -42,4 +42,4 @@ class Solution {
         inorder(root.right);
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:###比赛时没有考虑len(path)==3的情况加break导致超时
     def numTeams(self, rating):
         self.res=0
@@ -22,4 +22,4 @@ class Solution:###比赛时没有考虑len(path)==3的情况加break导致超时
         if len(p)==3:
             return p[0]>p[1]>p[2] or p[0]<p[1]<p[2]
 
-```
+# ```

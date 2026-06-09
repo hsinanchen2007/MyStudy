@@ -1,5 +1,5 @@
-如果遍历结束还未return，说明数组全是9，需要在原数组的首位补一个1.
-```
+// 如果遍历结束还未return，说明数组全是9，需要在原数组的首位补一个1.
+// ```
 public int[] plusOne(int[] digits) {
         //倒序遍历
         int length = digits.length;
@@ -18,6 +18,6 @@ public int[] plusOne(int[] digits) {
         System.arraycopy(digits, 0, newArr, 1, length);
         return newArr;
     }
-```
+// ```
 
-可优化的地方在于：首位数组补1，可简化。
+// 可优化的地方在于：首位数组补1，可简化。

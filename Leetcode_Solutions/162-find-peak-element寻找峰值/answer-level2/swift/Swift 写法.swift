@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func findPeakElement(_ nums: [Int]) -> Int {
         if nums.count == 1 {
@@ -34,4 +34,4 @@ class Solution {
 
     }
 }
-```
+// ```

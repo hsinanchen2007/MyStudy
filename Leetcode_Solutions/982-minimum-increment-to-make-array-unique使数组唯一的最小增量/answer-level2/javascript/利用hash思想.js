@@ -1,9 +1,9 @@
-### 解题思路
-将数值映射到地址，碰撞则右移，右移次数即move次数
+// ### 解题思路
+// 将数值映射到地址，碰撞则右移，右移次数即move次数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number}
@@ -20,4 +20,4 @@ var minIncrementForUnique = function(A) {
     }
     return count
 };
-```
+// ```

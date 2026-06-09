@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/40ac894c2f5178f21e41722e9fd25294cf72f73d8d0ee1d9d8e018ff946979dd-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/40ac894c2f5178f21e41722e9fd25294cf72f73d8d0ee1d9d8e018ff946979dd-image.png)
 
-就想到用一个sorted array，每次push都排下序，肯定慢啊。。让我看看高手的题解。。。
+// 就想到用一个sorted array，每次push都排下序，肯定慢啊。。让我看看高手的题解。。。
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * initialize your data structure here.
  */
@@ -55,4 +55,4 @@ MinStack.prototype.getMin = function () {
  * var param_3 = obj.top()
  * var param_4 = obj.getMin()
  */
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 递归获取所有的节点
-2. 计算出最小差值
+// ### 解题思路
+// 1. 递归获取所有的节点
+// 2. 计算出最小差值
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ public class Solution {
             GetNodeValueList(root.right, nodeValue);
         }
 }
-```
+// ```

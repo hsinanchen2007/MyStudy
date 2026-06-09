@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         def check(nums,new):
@@ -17,4 +17,4 @@ class Solution:
         backtrack([])
         return ans
  
-```
+# ```

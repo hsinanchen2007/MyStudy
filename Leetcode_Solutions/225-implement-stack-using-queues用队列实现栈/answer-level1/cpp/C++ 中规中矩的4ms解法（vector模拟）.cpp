@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -29,4 +29,4 @@ public:
         return res.empty();
     }
 };
-```
+// ```

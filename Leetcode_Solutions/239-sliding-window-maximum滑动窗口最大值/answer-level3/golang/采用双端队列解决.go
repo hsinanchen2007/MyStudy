@@ -1,4 +1,4 @@
-```
+// ```
 //方法1：维护k个大顶堆的heap 方法2：采用一个双端队列
 func maxSlidingWindow(nums []int, k int) []int {
 	window, res := []int{}, []int{}
@@ -19,4 +19,4 @@ func maxSlidingWindow(nums []int, k int) []int {
 	}
 	return res
 }
-```
+// ```

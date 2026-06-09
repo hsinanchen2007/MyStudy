@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/c89965da13bd8e566a4410c8ceac6ef2f3434b1aafba237446da012cb6c12924-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/c89965da13bd8e566a4410c8ceac6ef2f3434b1aafba237446da012cb6c12924-image.png)
 
-与200题类似，用队列来搜寻一个岛。
+// 与200题类似，用队列来搜寻一个岛。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -68,4 +68,4 @@ var maxAreaOfIsland = function(grid) {
     }
     return maxSize;
 };
-```
+// ```

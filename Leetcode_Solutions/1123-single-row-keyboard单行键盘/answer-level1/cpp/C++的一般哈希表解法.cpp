@@ -1,10 +1,10 @@
-### 解题思路
-1. 遍历keyboard，将keyboard键位存入哈希表
-2. 将word中相邻两个字母的键位差相加，并加上word中第一个字母与keyboard第一个键位的键位差
+// ### 解题思路
+// 1. 遍历keyboard，将keyboard键位存入哈希表
+// 2. 将word中相邻两个字母的键位差相加，并加上word中第一个字母与keyboard第一个键位的键位差
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int calculateTime(string keyboard, string word) {
@@ -24,4 +24,4 @@ public:
         return time + hashmap[word[0]];
     }
 };
-```
+// ```

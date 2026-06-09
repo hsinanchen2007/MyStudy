@@ -1,10 +1,10 @@
-### 解题思路
-1、递归
-递归的点是根节点的左右子树，判断左子树的左节点、右子树的右节点，左子树的右节点、右子树的左节点是否相等.
+// ### 解题思路
+// 1、递归
+// 递归的点是根节点的左右子树，判断左子树的左节点、右子树的右节点，左子树的右节点、右子树的左节点是否相等.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,15 +34,15 @@ class Solution {
         return isSame(left.left, right.right) && isSame(left.right, right.left);
     }
 }
-```
+// ```
 
-### 解题思路
-2、迭代
-使用队列来辅助，初始时将root加入两次，以后 每次按照 左右对称加入队列
+// ### 解题思路
+// 2、迭代
+// 使用队列来辅助，初始时将root加入两次，以后 每次按照 左右对称加入队列
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -80,4 +80,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

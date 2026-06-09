@@ -1,9 +1,9 @@
-### 解题思路
-先交换对角（左上和右下），再上下交换，等价于旋转90°。
+// ### 解题思路
+// 先交换对角（左上和右下），再上下交换，等价于旋转90°。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -16,4 +16,4 @@ public:
                 swap(matrix[i][j], matrix[n-1-i][j]);
     }
 };
-```
+// ```

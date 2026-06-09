@@ -1,5 +1,5 @@
-优先级从右向左，因此反向遍历字符串，可用两个栈分别记录操作（?的前一个字符）和值，当值有两个且有一个操作时，执行三元运算。
-```
+// 优先级从右向左，因此反向遍历字符串，可用两个栈分别记录操作（?的前一个字符）和值，当值有两个且有一个操作时，执行三元运算。
+// ```
 string parseTernary(string expression) {
         stack<char> op;
         stack<char> val;
@@ -26,4 +26,4 @@ string parseTernary(string expression) {
         }
         return string(1, val.top());
     }
-```
+// ```

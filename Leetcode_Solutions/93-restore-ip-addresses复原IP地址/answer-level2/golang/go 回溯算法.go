@@ -1,4 +1,4 @@
-```
+// ```
 func dfs(ss []string, s string, res *[]string) {
 	lens := len(ss)
 	if lens == 4 {
@@ -34,4 +34,4 @@ func restoreIpAddresses(s string) []string {
 	dfs(make([]string, 0), s, &res)
 	return res
 }
-```
+// ```

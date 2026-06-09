@@ -1,9 +1,9 @@
-### 解题思路
-创建一个空列表用来装不重复的子串，创建一个空字符串来装  当遇到有重复的字母时 的不重复的子串
+# ### 解题思路
+# 创建一个空列表用来装不重复的子串，创建一个空字符串来装  当遇到有重复的字母时 的不重复的子串
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
@@ -21,4 +21,4 @@ class Solution:
         if len(a) > len(b): # 当最后一次不会进到else里面时，所以在这里拦截一下a是否会比b大
             b = ''.join(a)
         return len(b)
-```
+# ```

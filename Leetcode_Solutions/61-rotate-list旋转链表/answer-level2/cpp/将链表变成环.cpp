@@ -1,5 +1,5 @@
-//代码有点复杂 但是可以运行
-```
+// //代码有点复杂 但是可以运行
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ public:
             return q;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-![捕获.PNG](https://pic.leetcode-cn.com/0890366c71697f58ae31da6293087c63eadad34d34d01c4e96960e209fb4518d-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/0890366c71697f58ae31da6293087c63eadad34d34d01c4e96960e209fb4518d-%E6%8D%95%E8%8E%B7.PNG)
 
-根据官方算法改编而来，采用桶排序，可以将复杂度减小为O(n).
-```
+// 根据官方算法改编而来，采用桶排序，可以将复杂度减小为O(n).
+// ```
 class Solution {
     public int numRescueBoats(int[] people, int limit) {
         int max = -1;
@@ -31,4 +31,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

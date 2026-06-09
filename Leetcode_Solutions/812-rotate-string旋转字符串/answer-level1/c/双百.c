@@ -1,14 +1,14 @@
-### 解题思路
-两者长度不等返回false
-长度皆为0返回true
-记录下B中有几个字符与A[0]相等，用sum来记录，表示允许失配的次数，用count来记录匹配的字符数
-count==len1时返回true
+// ### 解题思路
+// 两者长度不等返回false
+// 长度皆为0返回true
+// 记录下B中有几个字符与A[0]相等，用sum来记录，表示允许失配的次数，用count来记录匹配的字符数
+// count==len1时返回true
 
-失配时若sum==1则返回false,否则i重置为0，j循环返回，并寻找下一个满足B[j]==A[0]的位置，
+// 失配时若sum==1则返回false,否则i重置为0，j循环返回，并寻找下一个满足B[j]==A[0]的位置，
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool rotateString(char * A, char * B){
     int len1=strlen(A),len2=strlen(B);
     if(len1!=len2){
@@ -53,4 +53,4 @@ bool rotateString(char * A, char * B){
     }
     return count==len2;
 }
-```
+// ```

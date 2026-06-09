@@ -1,8 +1,8 @@
-### 解题思路
-先排序再计算
-### 代码
+// ### 解题思路
+// 先排序再计算
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int i = 0;
@@ -32,4 +32,4 @@ class Solution {
         }
     }
 }
-```
+// ```

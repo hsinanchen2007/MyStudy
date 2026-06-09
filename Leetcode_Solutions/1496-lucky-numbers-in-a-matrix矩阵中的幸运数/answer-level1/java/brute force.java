@@ -1,9 +1,9 @@
-### 解题思路
-list存行最小数，再找行最大数，如果list存在，则存入ans数组。
+// ### 解题思路
+// list存行最小数，再找行最大数，如果list存在，则存入ans数组。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> luckyNumbers (int[][] matrix) {
         List<Integer> list = new ArrayList<>();
@@ -27,4 +27,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

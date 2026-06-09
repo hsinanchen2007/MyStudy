@@ -1,5 +1,5 @@
-7行解决战斗
-```js
+// 7行解决战斗
+// ```js
 /**
  * @param {number[]} postorder
  * @return {boolean}
@@ -13,4 +13,4 @@ var verifyPostorder = function(postorder) {
     if (left.some(i => i > top)) return false;
     return verifyPostorder(left) && verifyPostorder(postorder.slice(i));
 };
-```
+// ```

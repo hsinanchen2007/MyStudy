@@ -1,9 +1,9 @@
-### 解题思路
-读取最长11位数字存入long，判断其是否超出int边界
+// ### 解题思路
+// 读取最长11位数字存入long，判断其是否超出int边界
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -26,4 +26,4 @@ public:
         else return ans;
     }
 };
-```
+// ```

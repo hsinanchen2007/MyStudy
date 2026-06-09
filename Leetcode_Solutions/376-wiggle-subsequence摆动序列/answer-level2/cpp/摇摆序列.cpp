@@ -1,13 +1,13 @@
-### 解题思路
-有限自动机实现 状态转化
-只有在转台转化的时候 长度才会增加
-begain->up len++ (s[i-1]<s[i])
-begain->down len++ (s[i-1]>s[i]) 否则 状态不变
-up->down len++ (s[i-1]>s[i]) 否则 状态不变 
-down->up len++(s[i-1]<s[i])  否则 状态不变
-### 代码
+// ### 解题思路
+// 有限自动机实现 状态转化
+// 只有在转台转化的时候 长度才会增加
+// begain->up len++ (s[i-1]<s[i])
+// begain->down len++ (s[i-1]>s[i]) 否则 状态不变
+// up->down len++ (s[i-1]>s[i]) 否则 状态不变 
+// down->up len++(s[i-1]<s[i])  否则 状态不变
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int wiggleMaxLength(vector<int>& nums) 
@@ -61,4 +61,4 @@ public:
         return len;
     }
 };
-```
+// ```

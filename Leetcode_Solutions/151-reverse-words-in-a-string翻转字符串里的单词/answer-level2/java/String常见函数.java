@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         String[] ss=s.trim().split(" +");//" +"表示可能有多个空格.
@@ -16,4 +16,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 运行结果
+// ### 运行结果
 
-![image.png](https://pic.leetcode-cn.com/2456cfbe21af781406ae9297e7eaaf51011a061baa95c46f55eade9232e2b837-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2456cfbe21af781406ae9297e7eaaf51011a061baa95c46f55eade9232e2b837-image.png)
 
-效率有点低
+// 效率有点低
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::collections::vec_deque::VecDeque;
 
 struct RecentCounter {
@@ -44,4 +44,4 @@ impl RecentCounter {
  * let obj = RecentCounter::new();
  * let ret_1: i32 = obj.ping(t);
  */
-```
+// ```

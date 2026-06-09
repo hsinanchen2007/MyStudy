@@ -1,4 +1,4 @@
-```
+// ```
 /** 和104题基本类似 只是加了个特殊情况的判断 */
 class Solution {
 	public int minDepth(TreeNode root) {

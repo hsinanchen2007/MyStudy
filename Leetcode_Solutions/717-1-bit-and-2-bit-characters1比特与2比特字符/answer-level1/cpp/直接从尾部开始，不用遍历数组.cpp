@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isOneBitCharacter(vector<int>& bits) {
@@ -17,4 +17,4 @@ public:
         return true;
     }
 };
-```直接计算尾部连续的1的个数，当个数为奇数时，末尾的0必须与1结合；当为偶数时，0单列。
+// ```直接计算尾部连续的1的个数，当个数为奇数时，末尾的0必须与1结合；当为偶数时，0单列。

@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int exchangeBits(int num) {
@@ -11,4 +11,4 @@ public:
         return ((num&even)>>1)^((num&odd)<<1);
     }
 };
-```
+// ```

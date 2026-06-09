@@ -1,9 +1,9 @@
-### 解题思路
-建立一个新的长度为两个数组中位数长度的数组记录排序，遍历两个数组比较大小，总是将小的数存在新数组中，等到得到中位数就计算中位数并返回
+// ### 解题思路
+// 建立一个新的长度为两个数组中位数长度的数组记录排序，遍历两个数组比较大小，总是将小的数存在新数组中，等到得到中位数就计算中位数并返回
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size){
     if(nums1Size+nums2Size==1)
     {
@@ -72,4 +72,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
     }
     return minNum;
 }
-```
+// ```

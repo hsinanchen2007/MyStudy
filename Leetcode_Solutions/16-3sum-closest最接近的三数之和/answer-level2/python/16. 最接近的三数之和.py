@@ -1,8 +1,8 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/77e4adde05a480b50b1c4756e36cd49e201f810b2e04574f4fc01e50b855afb2-image.png)
-### 代码
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/77e4adde05a480b50b1c4756e36cd49e201f810b2e04574f4fc01e50b855afb2-image.png)
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def threeSumClosest(self, nums, target):
         """
@@ -43,4 +43,4 @@ class Solution(object):
 
 
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func isValid(s string) bool {
     
     // 这里用切片来模拟栈，用于暂存左括号
@@ -28,4 +28,4 @@ func isValid(s string) bool {
     }
     return false
 }
-```
+// ```

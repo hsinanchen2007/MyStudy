@@ -1,9 +1,9 @@
-### 解题思路
-创建两条新链表，根据val分别连接，最后再拼接再一齐
+# ### 解题思路
+# 创建两条新链表，根据val分别连接，最后再拼接再一齐
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
         less_ptr.next = more_head.next
         more_ptr.next = None
         return less_head.next
-```
+# ```

@@ -1,10 +1,10 @@
-先上结果
-![微信图片_20200304001339.png](https://pic.leetcode-cn.com/2af5c78c344ec17cdfd7fc695bf9550d6aef62c813fe06ef579ebf280f3363a2-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200304001339.png)
+// 先上结果
+// ![微信图片_20200304001339.png](https://pic.leetcode-cn.com/2af5c78c344ec17cdfd7fc695bf9550d6aef62c813fe06ef579ebf280f3363a2-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200304001339.png)
 
 
-此题中，找最大的利润，实际是找数组中有多少升序的子段。
-每找到一段，则用最大的减去最小的，则是这段的利润。
-```
+// 此题中，找最大的利润，实际是找数组中有多少升序的子段。
+// 每找到一段，则用最大的减去最小的，则是这段的利润。
+// ```
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -32,4 +32,4 @@ public:
 
     }
 };
-```
+// ```

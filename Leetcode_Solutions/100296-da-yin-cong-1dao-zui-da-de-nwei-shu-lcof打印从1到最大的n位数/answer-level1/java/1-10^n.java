@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-时间复杂度：O(10^n)
-空间复杂度：O(3)
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 时间复杂度：O(10^n)
+// 空间复杂度：O(3)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] printNumbers(int n) {
         int s=(int)Math.pow(10,n);
@@ -14,4 +14,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

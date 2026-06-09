@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             flag = pre_traversal(node1.left,node2.left) & pre_traversal(node1.right,node2.right)
             return flag
         return pre_traversal(p,q)
-```
+# ```

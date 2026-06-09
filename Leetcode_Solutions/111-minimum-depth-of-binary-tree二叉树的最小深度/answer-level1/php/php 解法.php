@@ -1,4 +1,4 @@
-```
+// ```
 function minDepth($root) {
     if($root == null) return 0;
     if($root->left == null && $root->right == null) return 1;
@@ -8,4 +8,4 @@ function minDepth($root) {
         $minDepth = isset($minDepth)?min($this->minDepth($root->right),$minDepth):$this->minDepth($root->right);
     return $minDepth+1;
 }
-```
+// ```

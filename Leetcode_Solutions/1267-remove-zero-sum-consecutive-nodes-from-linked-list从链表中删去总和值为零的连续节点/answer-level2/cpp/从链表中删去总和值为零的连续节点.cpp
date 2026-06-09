@@ -1,9 +1,9 @@
-### 解题思路
-题解Java区大佬的C++ 版本，结果很慢，不如C语言直接两指针暴力搜索
+// ### 解题思路
+// 题解Java区大佬的C++ 版本，结果很慢，不如C语言直接两指针暴力搜索
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
         return dummy->next;
     }
 };
-```
+// ```

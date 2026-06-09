@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         //x为pushed数组的指针、y为popped数组的指针、z为tmp数组的指针
@@ -37,4 +37,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

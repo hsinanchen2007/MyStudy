@@ -1,11 +1,11 @@
-### 解题思路
-1. 创建长度为人数的数组，并且每一项都等于0
-2. 循环，当前剩下的糖果大于0
-3. 循环下标，或取当前的应该给的糖果数目
+// ### 解题思路
+// 1. 创建长度为人数的数组，并且每一项都等于0
+// 2. 循环，当前剩下的糖果大于0
+// 3. 循环下标，或取当前的应该给的糖果数目
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} candies
  * @param {number} num_people
@@ -32,4 +32,4 @@ var distributeCandies = function(candies, num_people) {
     res[index] += cur;
     return res;
 };
-```
+// ```

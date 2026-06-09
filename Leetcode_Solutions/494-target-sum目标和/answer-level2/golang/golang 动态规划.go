@@ -1,6 +1,6 @@
-字典存当前和为某值的方法数
-对每一个num in nums，都可以选择两种符号，每个选择都会使字典的键值对发生偏移，偏移两次后组成新字典
-```
+// 字典存当前和为某值的方法数
+// 对每一个num in nums，都可以选择两种符号，每个选择都会使字典的键值对发生偏移，偏移两次后组成新字典
+// ```
 func findTargetSumWays(nums []int, S int) int {
     dp := make(map[int]int)
     if len(nums) == 0{
@@ -21,4 +21,4 @@ func findTargetSumWays(nums []int, S int) int {
     }
     return dp[S]
 }
-```
+// ```

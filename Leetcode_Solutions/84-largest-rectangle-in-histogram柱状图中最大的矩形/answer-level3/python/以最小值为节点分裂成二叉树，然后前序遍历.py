@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def __init__(self):
         self.res=0
@@ -20,4 +20,4 @@ class Solution(object):
         if j>mi+1:self.find(l,mi+1,j,iter+1)
         elif mi+1==j:self.res=max(self.res,l[j])
 
-```
+# ```

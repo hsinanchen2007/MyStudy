@@ -1,10 +1,10 @@
-### 解题思路
-- 需要注意层次的遍历。
-- 临时数组的位置和queue的长度
+// ### 解题思路
+// - 需要注意层次的遍历。
+// - 临时数组的位置和queue的长度
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -50,4 +50,4 @@ var levelOrder = function(root) {
     }
     return res
 };
-```
+// ```

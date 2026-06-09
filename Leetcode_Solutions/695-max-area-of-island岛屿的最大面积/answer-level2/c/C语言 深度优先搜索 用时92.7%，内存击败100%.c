@@ -1,9 +1,9 @@
-### 解题思路
-深度优先搜索，置为1-0，统计各个启动深度优先搜索岛屿数量，取最大值即可
+// ### 解题思路
+// 深度优先搜索，置为1-0，统计各个启动深度优先搜索岛屿数量，取最大值即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void dfs(int** grid, int maxRow, int maxCol, int curRow, int curCol, int* curCnt, int* maxCnt)
 {
     grid[curRow][curCol] = 0;
@@ -48,4 +48,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
     }
     return maxCnt;
 }
-```
+// ```

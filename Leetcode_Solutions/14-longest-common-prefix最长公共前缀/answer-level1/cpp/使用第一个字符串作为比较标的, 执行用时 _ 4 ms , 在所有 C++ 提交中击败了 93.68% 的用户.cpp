@@ -1,12 +1,12 @@
-### 解题思路
-直接用第一个作为标的.
-如果有不一样的,或者说index已经超过了某个字符串(包括第一个)的长度,那就立刻返回.
+// ### 解题思路
+// 直接用第一个作为标的.
+// 如果有不一样的,或者说index已经超过了某个字符串(包括第一个)的长度,那就立刻返回.
 
-最后的一个返回return strs[0]不会被调用到.
+// 最后的一个返回return strs[0]不会被调用到.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -30,4 +30,4 @@ public:
         return strs[0];
     }
 };
-```
+// ```

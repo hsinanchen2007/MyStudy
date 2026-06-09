@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public List<String> generatePossibleNextMoves(String s) {
         if (s == null || s.isEmpty() || s.length() == 1) {
@@ -18,4 +18,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

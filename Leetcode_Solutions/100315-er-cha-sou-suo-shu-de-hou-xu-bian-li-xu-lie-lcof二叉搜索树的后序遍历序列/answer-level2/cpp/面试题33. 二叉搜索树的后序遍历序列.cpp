@@ -1,5 +1,5 @@
-once
-```cpp
+// once
+// ```cpp
 class Solution {
 
 private:
@@ -30,4 +30,4 @@ public:
         return verifyPostorder(postorder, 0, postorder.size()-1);
     }
 };
-```
+// ```

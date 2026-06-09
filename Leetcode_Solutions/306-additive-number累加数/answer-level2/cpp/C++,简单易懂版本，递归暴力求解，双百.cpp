@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b1994e611cc043232b6ac0bb8dbb6154ddf2ba8ae981eef4b327bc818cfb56d0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b1994e611cc043232b6ac0bb8dbb6154ddf2ba8ae981eef4b327bc818cfb56d0-image.png)
 
 
-```
+// ```
 typedef long long ll;
 class Solution {
 public:
@@ -32,6 +32,6 @@ public:
         return false;
     }
 };
-```
+// ```
 
 

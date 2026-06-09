@@ -1,7 +1,7 @@
-1. 找打新链表的头
-2. 将原链表尾指向原链表头（成环）
-3. 将新头的上一个节点指向NULL
-```python
+# 1. 找打新链表的头
+# 2. 将原链表尾指向原链表头（成环）
+# 3. 将新头的上一个节点指向NULL
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution(object):
             cur = cur.next
         cur.next = None
         return break_point
-```
+# ```

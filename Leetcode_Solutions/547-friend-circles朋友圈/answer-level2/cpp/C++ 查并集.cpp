@@ -1,6 +1,6 @@
-查并集解法
+// 查并集解法
 
-```
+// ```
 class Solution {
 public:
     
@@ -48,4 +48,4 @@ public:
         return count;
     }
 };
-```
+// ```

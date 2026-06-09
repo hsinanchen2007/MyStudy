@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-根据递推公式:a1+..+an = (a1+an)*n/2 = (a1+an)*(an-a1+1)/2反推a1和an.
+// 根据递推公式:a1+..+an = (a1+an)*n/2 = (a1+an)*(an-a1+1)/2反推a1和an.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         if (target <= 2) {
@@ -28,4 +28,4 @@ class Solution {
         return result.toArray(new int[0][]);
     }
 }
-```
+// ```

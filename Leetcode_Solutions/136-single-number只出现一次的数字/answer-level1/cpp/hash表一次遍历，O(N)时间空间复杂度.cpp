@@ -1,6 +1,6 @@
 
-思路：将数组假装变成两个一模一样的数组，然后统计hash[nums[i]] 的值。
-```
+// 思路：将数组假装变成两个一模一样的数组，然后统计hash[nums[i]] 的值。
+// ```
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
     }
 };
 
-```
+// ```

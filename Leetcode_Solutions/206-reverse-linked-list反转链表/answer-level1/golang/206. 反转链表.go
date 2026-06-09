@@ -1,6 +1,6 @@
-### 方法一：双指针
-#### 代码实现：
-```golang
+// ### 方法一：双指针
+// #### 代码实现：
+// ```golang
 func reverseList(head *ListNode) *ListNode {
     if head == nil || head.Next == nil {
         return head
@@ -14,11 +14,11 @@ func reverseList(head *ListNode) *ListNode {
 
     return pre
 }
-```
+// ```
 
-### 方法二：递归迭代
-#### 代码实现：
-```golang
+// ### 方法二：递归迭代
+// #### 代码实现：
+// ```golang
 func reverseList(head *ListNode) *ListNode {
     if head == nil || head.Next == nil {
         return head
@@ -30,4 +30,4 @@ func reverseList(head *ListNode) *ListNode {
 
     return cur
 }
-```
+// ```

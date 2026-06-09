@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean validWordSquare(List<String> words) {
         // 获取二维数组最大尺寸
@@ -28,4 +28,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

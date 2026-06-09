@@ -1,9 +1,9 @@
-本道例题可以通过双栈的方式来实现，一个栈记录一层，算法中的关键点是反向记录的栈要先入右边的节点。
+# 本道例题可以通过双栈的方式来实现，一个栈记录一层，算法中的关键点是反向记录的栈要先入右边的节点。
 
-最终结果是：执行用时 :56 ms, 在所有Python3提交中击败了80.42%的用户
-                      内存消耗 :13.3 MB, 在所有Python3提交中击败了61.40%的用户
+# 最终结果是：执行用时 :56 ms, 在所有Python3提交中击败了80.42%的用户
+#                       内存消耗 :13.3 MB, 在所有Python3提交中击败了61.40%的用户
 
-``` python
+# ``` python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -51,4 +51,4 @@ class Solution:
                 break
         
         return res
-```
+# ```

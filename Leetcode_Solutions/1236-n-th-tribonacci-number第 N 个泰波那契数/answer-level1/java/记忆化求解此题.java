@@ -1,5 +1,5 @@
-此题为70爬楼梯以及509斐波那契数的变体。
-```
+// 此题为70爬楼梯以及509斐波那契数的变体。
+// ```
 class Solution {
     public int tribonacci(int n) {
     int []a=new int[n+1];
@@ -14,4 +14,4 @@ class Solution {
     return a[i];    
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maximum(a int, b int) int {
     c := a-b
     sa := sign(a) //如果a≥0，则返回1，否则返回0
@@ -28,4 +28,4 @@ func sign(a int) int {
     return flip((a >> 31) & 0x1)
 }
 
-```
+// ```

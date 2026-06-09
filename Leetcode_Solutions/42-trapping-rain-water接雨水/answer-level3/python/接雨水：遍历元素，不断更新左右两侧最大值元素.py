@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRightV(self, j0, height): # 更新右侧最大值及索引
         rightv, ri = height[j0], j0
@@ -29,5 +29,5 @@ class Solution:
                 rightv, ri = self.findRightV(i+2, height)
         return sumv
 
-```
-最差情况时间复杂度O(N^2)
+# ```
+# 最差情况时间复杂度O(N^2)

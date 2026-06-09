@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
 
@@ -23,4 +23,4 @@ class Solution:
         return ans
 
 
-```
+# ```

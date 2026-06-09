@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/8da6eac8dbf05fe69074e567daac932bfd9019ef781889b9d4d612f63cca718d-image.png)
-哈希表支持随机查找,时间复杂度为O(n)
-但是需要额外存储空间.
-```
+// ![image.png](https://pic.leetcode-cn.com/8da6eac8dbf05fe69074e567daac932bfd9019ef781889b9d4d612f63cca718d-image.png)
+// 哈希表支持随机查找,时间复杂度为O(n)
+// 但是需要额外存储空间.
+// ```
 class Solution {
 
     /**
@@ -29,4 +29,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

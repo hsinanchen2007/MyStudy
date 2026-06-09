@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //注意 得分可能为负
 func calPoints(ops []string) int {
     var stack []int
@@ -48,4 +48,4 @@ func str2int(s string) int {
     i,_:=strconv.Atoi(s)
     return i
 }
-```
+// ```

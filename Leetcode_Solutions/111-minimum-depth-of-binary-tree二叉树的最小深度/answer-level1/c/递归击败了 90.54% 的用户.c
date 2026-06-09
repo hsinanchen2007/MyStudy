@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,4 +23,4 @@ int minDepth(struct TreeNode* root){
 
     return (numl < numr) ? numl + 1 : numr + 1;
 }
-```
+// ```

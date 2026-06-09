@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeElement(self, nums: List[int], val: int) -> int:
         #solution 1 
@@ -21,4 +21,4 @@ class Solution:
         return len(nums)
 
             
-```
+# ```

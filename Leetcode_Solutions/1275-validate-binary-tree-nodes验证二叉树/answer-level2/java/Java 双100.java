@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-1、统计每个节点的入度，如果存在节点入度大于2或总入度不等于n-1则返回false,其他返回true
-```java
+// ### 代码
+// 1、统计每个节点的入度，如果存在节点入度大于2或总入度不等于n-1则返回false,其他返回true
+// ```java
 class Solution {
     public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {
         int[] table = new int[n];
@@ -25,4 +25,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

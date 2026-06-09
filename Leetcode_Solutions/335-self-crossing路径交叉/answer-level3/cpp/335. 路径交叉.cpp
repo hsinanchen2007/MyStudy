@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isSelfCrossing(vector<int>& x) {
@@ -20,4 +20,4 @@ public:
         return false;
     }
 };
-```
+// ```

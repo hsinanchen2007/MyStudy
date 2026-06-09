@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int oddCells(int n, int m, vector<vector<int>>& indices) {
@@ -15,4 +15,4 @@ public:
         return (sum_r*m+sum_c*n-2*sum_r*sum_c);
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-利用了搜索树的性质，利用递归非常简单
+// 利用了搜索树的性质，利用递归非常简单
 
-```
+// ```
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -12,4 +12,4 @@ public:
                 return root;
     }
 };
-```
+// ```

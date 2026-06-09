@@ -1,9 +1,9 @@
-### 解题思路
-构造cmp，join
+# ### 解题思路
+# 构造cmp，join
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minNumber(self, nums):
         """
@@ -26,4 +26,4 @@ class Solution(object):
 
         result=''.join(nums)
         return result
-```
+# ```

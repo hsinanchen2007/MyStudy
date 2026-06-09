@@ -1,4 +1,4 @@
-```Java
+// ```Java
 class Solution{
 	public int sumOfLeftLeaves(TreeNode root){
 		int res=0;
@@ -16,4 +16,4 @@ class Solution{
 	}
 
 }
-```
+// ```

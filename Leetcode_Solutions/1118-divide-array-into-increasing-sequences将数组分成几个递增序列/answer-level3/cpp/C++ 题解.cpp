@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool canDivideIntoSubsequences(vector<int>& nums, int K) {
@@ -14,6 +14,6 @@ public:
         return s * K <= nums.size();
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/dbbbe85b492a7cb7a8907d0b6f69a0aade839a8ed396b5d9490ac8da982e11d5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dbbbe85b492a7cb7a8907d0b6f69a0aade839a8ed396b5d9490ac8da982e11d5-image.png)

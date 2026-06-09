@@ -1,5 +1,5 @@
-## 1. 标准哈希表
-```java
+// ## 1. 标准哈希表
+// ```java
 class Solution {
     public int numRabbits(int[] ans) {
         Map<Integer, Integer> map = new HashMap<>(ans.length);
@@ -15,10 +15,10 @@ class Solution {
         return num;
     }
 }
-```
+// ```
 
-## 2. 使用数组提高效率
-```java
+// ## 2. 使用数组提高效率
+// ```java
 class Solution {
     public int numRabbits(int[] ans) {
         int[] map = new int[1000];
@@ -34,4 +34,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

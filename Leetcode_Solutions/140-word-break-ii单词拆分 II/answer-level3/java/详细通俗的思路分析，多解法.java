@@ -1,52 +1,52 @@
-# 题目描述（困难难度）
+// # 题目描述（困难难度）
 
-![](https://pic.leetcode-cn.com/04751f40895ec89d5d94b6c9e486fb27d8533decf1232937ebb1493efe107275.png)
+// ![](https://pic.leetcode-cn.com/04751f40895ec89d5d94b6c9e486fb27d8533decf1232937ebb1493efe107275.png)
 
-[139 题](https://leetcode.wang/leetcode-139-Word-Break.html) 的升级版。给一个字符串，和一些单词，找出由这些单词组成该字符串的所有可能，每个单词可以用多次，也可以不用。
+// [139 题](https://leetcode.wang/leetcode-139-Word-Break.html) 的升级版。给一个字符串，和一些单词，找出由这些单词组成该字符串的所有可能，每个单词可以用多次，也可以不用。
 
-完全按照 [139 题](https://leetcode.wang/leetcode-139-Word-Break.html)  的思路做了，大家可以先过去看一下。
+// 完全按照 [139 题](https://leetcode.wang/leetcode-139-Word-Break.html)  的思路做了，大家可以先过去看一下。
 
-# 解法一 动态规划
+// # 解法一 动态规划
 
-先考虑 `139 题` 最后一个解法，动态规划，看起来也比较简单粗暴。
+// 先考虑 `139 题` 最后一个解法，动态规划，看起来也比较简单粗暴。
 
-> 用 `dp[i]` 表示字符串 `s[0,i)` 能否由 `wordDict` 构成。
->
-> ```java
-> public boolean wordBreak(String s, List<String> wordDict) {
->     HashSet<String> set = new HashSet<>();
->     for (int i = 0; i < wordDict.size(); i++) {
->         set.add(wordDict.get(i));
->     }
->     boolean[] dp = new boolean[s.length() + 1];
->     dp[0] = true;
->     for (int i = 1; i <= s.length(); i++) {
->         for (int j = 0; j < i; j++) {
->             dp[i] = dp[j] && wordDict.contains(s.substring(j, i));
->             if (dp[i]) {
->                 break;
->             }
->         }
->     }
->     return dp[s.length()];
-> }
-> ```
+// > 用 `dp[i]` 表示字符串 `s[0,i)` 能否由 `wordDict` 构成。
+// >
+// > ```java
+// > public boolean wordBreak(String s, List<String> wordDict) {
+// >     HashSet<String> set = new HashSet<>();
+// >     for (int i = 0; i < wordDict.size(); i++) {
+// >         set.add(wordDict.get(i));
+// >     }
+// >     boolean[] dp = new boolean[s.length() + 1];
+// >     dp[0] = true;
+// >     for (int i = 1; i <= s.length(); i++) {
+// >         for (int j = 0; j < i; j++) {
+// >             dp[i] = dp[j] && wordDict.contains(s.substring(j, i));
+// >             if (dp[i]) {
+// >                 break;
+// >             }
+// >         }
+// >     }
+// >     return dp[s.length()];
+// > }
+// > ```
 
-这里修改的话，我们只需要用 `dp[i]` 表示字符串 `s[0,i)` 由 `wordDict` 构成的所有情况。
+// 这里修改的话，我们只需要用 `dp[i]` 表示字符串 `s[0,i)` 由 `wordDict` 构成的所有情况。
 
-总体思想还是和之前一样的。
+// 总体思想还是和之前一样的。
 
-```java
+// ```java
 X X X X X X
 ^     ^   ^
 0     j   i
 先判断 j 到 i 的字符串在没在 wordDict 中
 然后把 0 到 j 的字符串由 wordDict 构成所有情况后边加空格再加上 j 到 i 的字符串即可
-```
+// ```
 
-结合上边的思想，然后把它放到循环中，考虑所有情况即可。
+// 结合上边的思想，然后把它放到循环中，考虑所有情况即可。
 
-```java
+// ```java
 public List<String> wordBreak(String s, List<String> wordDict) {
     HashSet<String> set = new HashSet<>();
     for (int i = 0; i < wordDict.size(); i++) {
@@ -79,17 +79,17 @@ public List<String> wordBreak(String s, List<String> wordDict) {
     }
     return dp.get(s.length());
 }
-```
+// ```
 
-遗憾的是，熟悉的问题又来了。
+// 遗憾的是，熟悉的问题又来了。
 
-![](https://pic.leetcode-cn.com/660a8a304f4a954031c476af2a3e5844ecf9ec6fc2f3835e9621432a6941dd95.jpg)
+// ![](https://pic.leetcode-cn.com/660a8a304f4a954031c476af2a3e5844ecf9ec6fc2f3835e9621432a6941dd95.jpg)
 
-由于 `s` 中的 `b` 字母在 `wordDict` 中并没有出现，所以其实我们并不需要做那么多循环，直接返回空列表即可。
+// 由于 `s` 中的 `b` 字母在 `wordDict` 中并没有出现，所以其实我们并不需要做那么多循环，直接返回空列表即可。
 
-和之前一样，所以我们可以先遍历一遍 `s` 和 `wordDict` ，从而确定 `s` 中的字符是否在 `wordDict` 中存在，如果不存在可以提前返回空列表。
+// 和之前一样，所以我们可以先遍历一遍 `s` 和 `wordDict` ，从而确定 `s` 中的字符是否在 `wordDict` 中存在，如果不存在可以提前返回空列表。
 
-```java
+// ```java
 public List<String> wordBreak(String s, List<String> wordDict) {
     //提前进行一次判断
     HashSet<Character> set2 = new HashSet<>();
@@ -133,32 +133,32 @@ public List<String> wordBreak(String s, List<String> wordDict) {
     }
     return dp.get(s.length());
 }
-```
+// ```
 
-遗憾的是，刚刚那个例子通过了，又出现了新的问题。
+// 遗憾的是，刚刚那个例子通过了，又出现了新的问题。
 
-![](https://pic.leetcode-cn.com/ee3ea0bdc86174e4b7a92459ae93423ff2c99acd5b014dbe01481b3f4271d6d5.jpg)
+// ![](https://pic.leetcode-cn.com/ee3ea0bdc86174e4b7a92459ae93423ff2c99acd5b014dbe01481b3f4271d6d5.jpg)
 
-由于 `wordDict`  有 `b` 字母了，所以并没有提前结束，而是进了 `for` 循环。
+// 由于 `wordDict`  有 `b` 字母了，所以并没有提前结束，而是进了 `for` 循环。
 
-再优化也想不到方法了，是我们的算法出问题了。因为 `139` 题中找到一个解以后就 `break` 了，而这里我们要考虑所有子串，所有的解，极端情况下时间复杂度达到了 `O(n³)`。还有一点致命的是，我们之前求的解最后可能并不需要。举个例子。
+// 再优化也想不到方法了，是我们的算法出问题了。因为 `139` 题中找到一个解以后就 `break` 了，而这里我们要考虑所有子串，所有的解，极端情况下时间复杂度达到了 `O(n³)`。还有一点致命的是，我们之前求的解最后可能并不需要。举个例子。
 
-```java
+// ```java
 "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabad"
 ["aa","aaa","aaaa","aaaaa","aaaaaa","aaaaaaa","aaaaaaaa","aaaaaaaaa","aaaaaaaaaa","b","ba","de"]
 
 我们之前求了 "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" 的所有组成可能，但由于剩余字符串 "bad" 不在 wordDict 中，所有之前求出来并没有用
 
 又比如，我们之前求了 "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaab" 的所有组成可能，但由于剩余字符串 "ad" 不在 wordDict 中，所有之前求出来也并没有用
-```
+// ```
 
-针对这个问题，我们可以优化一下，也就是下边的解法二
+// 针对这个问题，我们可以优化一下，也就是下边的解法二
 
-# 解法二
+// # 解法二
 
-我们直接用递归的方法，先判断当前字符串在不在 `wordDict` 中，如果在的话就递归的去求剩余字符串的所有组成可能。此外，吸取之前的教训，直接使用 `memoization`  技术，将递归过程中求出来的解缓存起来，便于之后直接用。
+// 我们直接用递归的方法，先判断当前字符串在不在 `wordDict` 中，如果在的话就递归的去求剩余字符串的所有组成可能。此外，吸取之前的教训，直接使用 `memoization`  技术，将递归过程中求出来的解缓存起来，便于之后直接用。
 
-```java
+// ```java
 public List<String> wordBreak(String s, List<String> wordDict) {
     HashSet<String> set = new HashSet<>();
     for (int i = 0; i < wordDict.size(); i++) {
@@ -196,10 +196,10 @@ private List<String> wordBreakHelper(String s, HashSet<String> set, HashMap<Stri
     map.put(s, res);
     return res;
 }
-```
+// ```
 
-# 总
+// # 总
 
-按理说其实可以直接就想到解法二，但受之前写的题的影响，这种分治的问题，都最终能转成动态规划，所以先写了动态规划的思路，想直接一步到位，没想到反而遇到了问题，很有意思，哈哈。原因就是你求子问题的代价很大，而动态规划就是要求所有的子问题。而解决最终问题的时候，一些子问题其实是没有必要的。
+// 按理说其实可以直接就想到解法二，但受之前写的题的影响，这种分治的问题，都最终能转成动态规划，所以先写了动态规划的思路，想直接一步到位，没想到反而遇到了问题，很有意思，哈哈。原因就是你求子问题的代价很大，而动态规划就是要求所有的子问题。而解决最终问题的时候，一些子问题其实是没有必要的。
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minWindow(self, S: str, T: str) -> str:
         # T = 'bdd'
@@ -30,4 +30,4 @@ class Solution:
                 if len(sub_str) < len(res) or res == '':
                     res = sub_str
         return res
-```
+# ```

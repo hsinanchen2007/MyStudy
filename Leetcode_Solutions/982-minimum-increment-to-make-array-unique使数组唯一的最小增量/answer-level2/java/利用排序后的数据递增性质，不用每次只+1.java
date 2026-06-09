@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
       int res = 0;
@@ -18,4 +18,4 @@ class Solution {
 		return res;
     }
 }
-```
+// ```

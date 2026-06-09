@@ -1,9 +1,9 @@
-### 解题思路
-这里需要注意的就是弄清楚辅助栈和数据栈里面数据的存储，并且注意每次进行pop和top操作都需要把辅助栈的元素重新放回数据栈
+# ### 解题思路
+# 这里需要注意的就是弄清楚辅助栈和数据栈里面数据的存储，并且注意每次进行pop和top操作都需要把辅助栈的元素重新放回数据栈
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MyStack(object):
 
     def __init__(self):
@@ -77,4 +77,4 @@ class MyStack(object):
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
-另外谁教下我二维数组怎么求和？
-发现用sum()不行，然后for-loop又各种出错
-我偷懒直接用的计数
-有没有一句的那种 谢谢大佬了
+# ### 解题思路
+# 另外谁教下我二维数组怎么求和？
+# 发现用sum()不行，然后for-loop又各种出错
+# 我偷懒直接用的计数
+# 有没有一句的那种 谢谢大佬了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countSubstrings(self, s: str) -> int:
         n=len(s)
@@ -32,4 +32,4 @@ class Solution:
                 j+=1
 
         return sum
-```
+# ```

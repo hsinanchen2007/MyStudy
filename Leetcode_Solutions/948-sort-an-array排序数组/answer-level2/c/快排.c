@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int* sortArray(int* nums, int numsSize, int* returnSize)
 {
     int lo = 0, hi = numsSize-1;
@@ -30,4 +30,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize)
     *returnSize = numsSize;
     return nums;
 }
-```
+// ```

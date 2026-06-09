@@ -1,12 +1,12 @@
-### 解题思路
-开局也不知道有多少数字，最终来看样本最多就不到10个数字，双100，C的效率继续保持
+// ### 解题思路
+// 开局也不知道有多少数字，最终来看样本最多就不到10个数字，双100，C的效率继续保持
 
-![image.png](https://pic.leetcode-cn.com/98ee4efca08cc9e9d6ffcfb45446ed85256bf3480e9eb162d6ec462eef088cfc-image.png)
-动态规划想出来很容易，写出来有点绕
+// ![image.png](https://pic.leetcode-cn.com/98ee4efca08cc9e9d6ffcfb45446ed85256bf3480e9eb162d6ec462eef088cfc-image.png)
+// 动态规划想出来很容易，写出来有点绕
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // dp[i][j]的结果存储
 typedef struct 
 {
@@ -168,4 +168,4 @@ int* diffWaysToCompute(char * input, int* returnSize){
     free(operators);
     return g_dpResult[0][numberCnt-1].calRst;
 }
-```
+// ```

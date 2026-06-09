@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[][]} bookings
  * @param {number} n
@@ -18,4 +18,4 @@ var corpFlightBookings = function(bookings, n) {
     }
     return ans
 };
-```
+// ```

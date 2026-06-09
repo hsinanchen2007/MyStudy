@@ -1,9 +1,9 @@
-```python      
+# ```python      
         A[:] = A[:m] + B
         A.sort()
-```     
+# ```     
 
-```python
+# ```python
         copy = A[:m]
         a, b, i = 0, 0, 0
         while a < m and b < n:
@@ -18,4 +18,4 @@
             A[a+n:] = copy[a:]
         if b<n:
             A[b+m:] = B[b:]
-```
+# ```

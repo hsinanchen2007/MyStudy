@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、使用wo数组存储【字母表】中的各字母的个数
-2、遍历字符串字符串数组，根据ascii表，使用 flag =words[i].charAt(j)-'a';  来确定要比较字符的存储位置。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1、使用wo数组存储【字母表】中的各字母的个数
+// 2、遍历字符串字符串数组，根据ascii表，使用 flag =words[i].charAt(j)-'a';  来确定要比较字符的存储位置。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         int wo[] = new int[26];
@@ -48,4 +48,4 @@ class Solution {
         return len;
     }
 }
-```
+// ```

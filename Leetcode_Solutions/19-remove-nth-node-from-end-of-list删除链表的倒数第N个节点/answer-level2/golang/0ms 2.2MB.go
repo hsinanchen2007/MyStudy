@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/851fd75b2b076e1165710d9f49fcdffde8019a8b1ca67854e3a7ecec5b18f4f9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/851fd75b2b076e1165710d9f49fcdffde8019a8b1ca67854e3a7ecec5b18f4f9-image.png)
 
-### 解题思路
-先遍历n个,保证head就是倒数第n个。
-再继续遍历，到底，删除这时候的倒数第n个。
+// ### 解题思路
+// 先遍历n个,保证head就是倒数第n个。
+// 再继续遍历，到底，删除这时候的倒数第n个。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -43,4 +43,4 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 
     return head
 }
-```
+// ```

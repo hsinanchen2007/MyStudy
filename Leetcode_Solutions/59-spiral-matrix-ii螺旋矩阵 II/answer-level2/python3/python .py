@@ -1,9 +1,9 @@
-### 解题思路
-设置一个方向，一旦触底就旋转方向
+# ### 解题思路
+# 设置一个方向，一旦触底就旋转方向
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         direction=[(0,1),(1,0),(0,-1),(-1,0)]
@@ -32,4 +32,4 @@ class Solution:
 
 
 
-```
+# ```

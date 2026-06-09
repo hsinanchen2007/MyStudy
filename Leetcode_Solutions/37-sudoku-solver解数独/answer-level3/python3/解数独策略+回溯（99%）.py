@@ -1,14 +1,14 @@
-### 解题思路
-![5b4e6860de992e8fdb0fd89f1f13501.png](https://pic.leetcode-cn.com/fea6921c48f47b9dff933c93684cf2467fb3f8ff702dc9979db8ac9959d312c0-5b4e6860de992e8fdb0fd89f1f13501.png)
+# ### 解题思路
+# ![5b4e6860de992e8fdb0fd89f1f13501.png](https://pic.leetcode-cn.com/fea6921c48f47b9dff933c93684cf2467fb3f8ff702dc9979db8ac9959d312c0-5b4e6860de992e8fdb0fd89f1f13501.png)
 
-1.利用解数独策略把可以确定的值先确定下来；
-2.常规回溯；
+# 1.利用解数独策略把可以确定的值先确定下来；
+# 2.常规回溯；
 
-详见代码注释
+# 详见代码注释
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import defaultdict
 class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
@@ -111,4 +111,4 @@ class Solution:
         for i in range(9):
             empty2.extend(list(empty[i]))
         backtrack(0) # 回溯
-```
+# ```

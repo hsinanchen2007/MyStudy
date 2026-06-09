@@ -1,7 +1,7 @@
-### 解题思路：
-复制一个图，图的节点定义如下。
+// ### 解题思路：
+// 复制一个图，图的节点定义如下。
 
-```java [-Java]
+// ```java [-Java]
 class Node {
     public int val;
     public List<Node> neighbors;
@@ -13,21 +13,21 @@ class Node {
         neighbors = _neighbors;
     }
 };
-```
+// ```
 
-`neighbors` 是一个装 `Node` 的 `list`，因为对象的话，`java` 变量都存储的是引用，所以复制的话要新 `new` 一个 `Node` 放到 `neighbors`。
+// `neighbors` 是一个装 `Node` 的 `list`，因为对象的话，`java` 变量都存储的是引用，所以复制的话要新 `new` 一个 `Node` 放到 `neighbors`。
 
-这个题其实就是对图进行一个遍历，通过 `BFS` 或者 `DFS`。需要解决的问题就是怎么添加当前节点的 `neighbors`，因为遍历当前节点的时候，它的邻居节点可能还没有生成。
+// 这个题其实就是对图进行一个遍历，通过 `BFS` 或者 `DFS`。需要解决的问题就是怎么添加当前节点的 `neighbors`，因为遍历当前节点的时候，它的邻居节点可能还没有生成。
 
-### 解法一：BFS
+// ### 解法一：BFS
 
-先来一个简单粗暴的想法。
+// 先来一个简单粗暴的想法。
 
-首先对图进行一个 `BFS`，把所有节点 `new` 出来，不处理 `neighbors`，并且把所有的节点存到 `map` 中。
+// 首先对图进行一个 `BFS`，把所有节点 `new` 出来，不处理 `neighbors`，并且把所有的节点存到 `map` 中。
 
-然后再对图做一个 `BFS`，因为此时所有的节点已经创建了，只需要更新所有节点的 `neighbors`。
+// 然后再对图做一个 `BFS`，因为此时所有的节点已经创建了，只需要更新所有节点的 `neighbors`。
 
-```java [-Java]
+// ```java [-Java]
 public Node cloneGraph(Node node) {
     if (node == null) {
         return node;
@@ -75,15 +75,15 @@ public Node cloneGraph(Node node) {
     return map.get(node.val);
 }
 
-```
+// ```
 
-当然再仔细思考一下，其实我们不需要两次 `BFS`。
+// 当然再仔细思考一下，其实我们不需要两次 `BFS`。
 
-我们要解决的问题是遍历当前节点的时候，邻居节点没有生成，那么我们可以一边遍历一边生成邻居节点，就可以同时更新 `neighbors` 了。
+// 我们要解决的问题是遍历当前节点的时候，邻居节点没有生成，那么我们可以一边遍历一边生成邻居节点，就可以同时更新 `neighbors` 了。
 
-同样需要一个 `map` 记录已经生成的节点。
+// 同样需要一个 `map` 记录已经生成的节点。
 
-```java [-Java]
+// ```java [-Java]
 public Node cloneGraph(Node node) {
     if (node == null) {
         return node;
@@ -113,13 +113,13 @@ public Node cloneGraph(Node node) {
 
     return map.get(node.val);
 }
-```
+// ```
 
-### 解法二：DFS
+// ### 解法二：DFS
 
-`DFS` 的话用递归即可，也用一个 `map` 记录已经生成的节点。
+// `DFS` 的话用递归即可，也用一个 `map` 记录已经生成的节点。
 
-```java [-Java]
+// ```java [-Java]
 public Node cloneGraph(Node node) {
     if (node == null) {
         return node;
@@ -143,8 +143,8 @@ private Node cloneGrapthHelper(Node node, Map<Integer, Node> map) {
     }
     return n;
 }
-```
+// ```
 
-### 总结：
+// ### 总结：
 
-这道题本质上就是对图的遍历，只要想到用 `map` 去存储已经生成的节点，题目基本上就解决了。
+// 这道题本质上就是对图的遍历，只要想到用 `map` 去存储已经生成的节点，题目基本上就解决了。

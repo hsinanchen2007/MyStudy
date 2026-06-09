@@ -1,5 +1,5 @@
-感觉就是纯粹的DFS...从前往后遍历，每一步保存当前的字符串，当遍历到最后的时候将所得字符串添加到结果列表中。
-```java
+// 感觉就是纯粹的DFS...从前往后遍历，每一步保存当前的字符串，当遍历到最后的时候将所得字符串添加到结果列表中。
+// ```java
 class Solution {
     private Map<Character, String> map;
     private List<String> result = new ArrayList<>();
@@ -34,4 +34,4 @@ class Solution {
         
     }
 }
-```
+// ```

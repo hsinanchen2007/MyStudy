@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
 
@@ -32,4 +32,4 @@ class Solution:
         return(''.join([''.join(i) for i in result]))
 
 
-```
+# ```

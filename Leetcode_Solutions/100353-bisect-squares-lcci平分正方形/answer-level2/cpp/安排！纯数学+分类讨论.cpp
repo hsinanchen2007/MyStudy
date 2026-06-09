@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<double> cutSquares(vector<int>& square1, vector<int>& square2) {
@@ -30,4 +30,4 @@ public:
         }
     }
 };
-```
+// ```

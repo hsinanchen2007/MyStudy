@@ -1,10 +1,10 @@
-### 解题思路
-思路：令每个节点都能够成为路径的根节点去搜索。
-注意：节点值可能为负数，所以每条路径都要从头找到叶子才行。
+# ### 解题思路
+# 思路：令每个节点都能够成为路径的根节点去搜索。
+# 注意：节点值可能为负数，所以每条路径都要从头找到叶子才行。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution(object):
         return get_res(root, sum)
             
             
-```
+# ```

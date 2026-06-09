@@ -1,4 +1,4 @@
-```js
+// ```js
 interface TreeNode {
   val: any;
   left: TreeNode | null;
@@ -32,4 +32,4 @@ var isSameTree = function(p: TreeNode, q: TreeNode): boolean {
   return rescure(p, q);
 };
 
-```
+// ```

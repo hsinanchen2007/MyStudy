@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1.长的先和短的对齐
-2.注意是地址相同不是值相同
-3.干就完了
+// ### 解题思路
+// 此处撰写解题思路
+// 1.长的先和短的对齐
+// 2.注意是地址相同不是值相同
+// 3.干就完了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -64,4 +64,4 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
 
 }
 
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-拷贝一份原始状态，根据规则更新状态；
-或者引入复合状态，能知道之前和之后的状态（-1：从活到死；2：从死到活）
-溜了溜了。
+// ### 解题思路
+// 拷贝一份原始状态，根据规则更新状态；
+// 或者引入复合状态，能知道之前和之后的状态（-1：从活到死；2：从死到活）
+// 溜了溜了。
 
-### 代码1
+// ### 代码1
 
-```c
+// ```c
 int calLiveAround(int** board, int x, int y, int row, int col) {
     int i;
     int j;
@@ -58,10 +58,10 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
 
     return;
 }
-```
-### 代码2
+// ```
+// ### 代码2
 
-```c
+// ```c
 int calLive(int** board, int boardSize, int* boardColSize, int i, int j) {
     int neighbor[] = {-1, 0, 1};
     int liveCnt = 0;
@@ -98,4 +98,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
     }
     return;
 }
-```
+// ```

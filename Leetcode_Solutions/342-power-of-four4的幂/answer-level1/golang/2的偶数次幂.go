@@ -1,4 +1,4 @@
-```
+// ```
 func isPowerOfFour(num int) bool {
     if num == 0 || num & (num -1) != 0{
         return false
@@ -10,5 +10,5 @@ func isPowerOfFour(num int) bool {
     }
     return (count % 2) == 0
 }
-```
-先判断是否是2的幂，再判断是否是偶数次幂
+// ```
+// 先判断是否是2的幂，再判断是否是偶数次幂

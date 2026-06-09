@@ -1,8 +1,8 @@
-### 解题思路
-dp解法：dp(i)表示从i到最后一天的最小开销
-### 代码
+# ### 解题思路
+# dp解法：dp(i)表示从i到最后一天的最小开销
+# ### 代码
 
-```python3
+# ```python3
 import functools
 
 class Solution:
@@ -17,4 +17,4 @@ class Solution:
             else:
                 return dp(i+1)
         return dp(1)
-```
+# ```

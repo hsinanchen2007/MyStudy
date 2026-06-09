@@ -1,11 +1,11 @@
-### 解题思路
-数组的索引用ASCII码（类似hash）
-开始把所有偶数个的存进去 奇数个的按偶数个存
-最后判断sum和原长度大小
+// ### 解题思路
+// 数组的索引用ASCII码（类似hash）
+// 开始把所有偶数个的存进去 奇数个的按偶数个存
+// 最后判断sum和原长度大小
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -51,4 +51,4 @@ public:
 
     }
 };
-```
+// ```

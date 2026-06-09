@@ -1,5 +1,5 @@
-能力不足，不了解链表结构，这里的思路是先把入参的l1,l2 打印了下，发现是构造函数ListNode生成的实例。一开始看测试用例以为是数组相加。所以将入参先转数组，计算后再转回链表
-```javascript []
+// 能力不足，不了解链表结构，这里的思路是先把入参的l1,l2 打印了下，发现是构造函数ListNode生成的实例。一开始看测试用例以为是数组相加。所以将入参先转数组，计算后再转回链表
+// ```javascript []
 var addTwoNumbers = function(l1, l2) {
     a1 = listNode2Array(l1)
     a2 = listNode2Array(l2)
@@ -38,4 +38,4 @@ function array2ListNode(arr){
   return line[0]
 }
 
-```
+// ```

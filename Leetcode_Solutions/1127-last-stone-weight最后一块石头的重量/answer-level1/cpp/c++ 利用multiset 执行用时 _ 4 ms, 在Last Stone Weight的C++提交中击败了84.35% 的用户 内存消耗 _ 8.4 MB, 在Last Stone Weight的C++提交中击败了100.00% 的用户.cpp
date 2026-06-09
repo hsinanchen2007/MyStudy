@@ -1,5 +1,5 @@
-思路很简单，每次拿最大的2个相减，有余的话重新插入multiset中，然后删掉已经处理的2个数
-```
+// 思路很简单，每次拿最大的2个相减，有余的话重新插入multiset中，然后删掉已经处理的2个数
+// ```
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
@@ -26,4 +26,4 @@ public:
         return tmpStones.begin() != tmpStones.end() ? *(tmpStones.begin()) : 0;
     }
 };
-```
+// ```

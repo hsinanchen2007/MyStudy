@@ -1,11 +1,11 @@
-### 解题思路
-先找到数组的中间值。然后左右两边分割
+# ### 解题思路
+# 先找到数组的中间值。然后左右两边分割
 
-设立基本的返回情况,分别为长度为0,1,或者2 的时候
+# 设立基本的返回情况,分别为长度为0,1,或者2 的时候
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
         res.right = self.sortedArrayToBST(nums[mid+1:])
 
         return res
-```
+# ```

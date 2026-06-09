@@ -1,5 +1,5 @@
-注意使用全局变量时，记得在当前调用函数中进行初始化
-```
+// 注意使用全局变量时，记得在当前调用函数中进行初始化
+// ```
 int ans;
 int count;
 
@@ -27,4 +27,4 @@ int kthLargest(struct TreeNode* root, int k)
 
     return ans;
 }
-```
+// ```

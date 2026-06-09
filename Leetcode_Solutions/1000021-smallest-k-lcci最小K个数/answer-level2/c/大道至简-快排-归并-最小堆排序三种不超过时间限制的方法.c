@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/1db93deee7001eff6b84d965ccdfefa1298d3eaf4c71855a90f897bb41254904-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1db93deee7001eff6b84d965ccdfefa1298d3eaf4c71855a90f897bb41254904-image.png)
 
-最小堆：
-```
+// 最小堆：
+// ```
 class Solution {
 public:
     vector<int> smallestK(vector<int>& arr, int k) {
@@ -47,11 +47,11 @@ public:
         arr[i]=tmp;    
     }
 };
-```
+// ```
 
 
-快排：
-```
+// 快排：
+// ```
 std::mt19937 rnd(time(NULL));
 class Solution {
 public:
@@ -90,11 +90,11 @@ public:
         return j;
     }
 };
-```
+// ```
 
 
-归并：
-```
+// 归并：
+// ```
 class Solution {
 public:
     vector<int> smallestK(vector<int>& arr, int k) {
@@ -145,4 +145,4 @@ public:
         vector<int>().swap(TmpArray);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLastWord(s string) int {
 	length := 0
 	for i := len(s) - 1; i >= 0; i-- {
@@ -18,4 +18,4 @@ func lengthOfLastWord(s string) int {
 	}
 	return length
 }
-```
+// ```

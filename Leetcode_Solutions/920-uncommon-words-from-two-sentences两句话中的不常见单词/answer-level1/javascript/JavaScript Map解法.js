@@ -1,11 +1,11 @@
-### 解题思路
-使用一个map统计两个句子中不同单词数，最终返回所有只出现1次的单词即可
-![leetcode884.jpg](https://pic.leetcode-cn.com/a27c026528b9f6de97ebd99473e6b145a3b0e63977d38f574fcb52625432212b-leetcode884.jpg)
+// ### 解题思路
+// 使用一个map统计两个句子中不同单词数，最终返回所有只出现1次的单词即可
+// ![leetcode884.jpg](https://pic.leetcode-cn.com/a27c026528b9f6de97ebd99473e6b145a3b0e63977d38f574fcb52625432212b-leetcode884.jpg)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} A
  * @param {string} B
@@ -35,4 +35,4 @@ var uncommonFromSentences = function(A, B) {
     })
     return res
 };
-```
+// ```

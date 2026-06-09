@@ -1,15 +1,15 @@
-不算很快：
-递归法求了树的大小，迭代法访问数值
-![image.png](https://pic.leetcode-cn.com/1a09a819547a8fe8a64d730ea930bff6311c93c138c6b3a4f677729beaa4d756-image.png)
+// 不算很快：
+// 递归法求了树的大小，迭代法访问数值
+// ![image.png](https://pic.leetcode-cn.com/1a09a819547a8fe8a64d730ea930bff6311c93c138c6b3a4f677729beaa4d756-image.png)
 
-![image.png](https://pic.leetcode-cn.com/f663838d9d421b74e6d2b402710400cc4504821cfbff5aa55e608a77bb41e374-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f663838d9d421b74e6d2b402710400cc4504821cfbff5aa55e608a77bb41e374-image.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -55,4 +55,4 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
 
 
 
-```
+// ```

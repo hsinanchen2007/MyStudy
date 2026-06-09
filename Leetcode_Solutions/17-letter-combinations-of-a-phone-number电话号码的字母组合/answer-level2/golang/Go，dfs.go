@@ -1,9 +1,9 @@
-### 解题思路
-这中排列组合问题，用dfs可以很容易得到答案，对go还不太熟，之前一直以为参数用slice传递和cpp中的引用类似，今天才发现不完全是这样。想要修改传递进来的slice的内容，需要通过指针才行，具体的大家可以自己查查资料。
+// ### 解题思路
+// 这中排列组合问题，用dfs可以很容易得到答案，对go还不太熟，之前一直以为参数用slice传递和cpp中的引用类似，今天才发现不完全是这样。想要修改传递进来的slice的内容，需要通过指针才行，具体的大家可以自己查查资料。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func letterCombinations(digits string) []string {
     if digits == "" {
 		return nil
@@ -25,4 +25,4 @@ func dfs(digits string, loc int, letters []string, cur string, ans *[]string) {
         dfs(digits, loc + 1, letters, cur + string(ch), ans)
     }
 }
-```
+// ```

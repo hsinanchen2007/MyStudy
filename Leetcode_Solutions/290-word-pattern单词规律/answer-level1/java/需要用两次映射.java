@@ -1,9 +1,9 @@
-**个人觉得需要用两次映射**
-**示例 "abba" "dog dog dog dog" 返回false**
-**说明一个单词只能由一种字符表示**
-**所以反过来判断一次HashMap<String Character>时是否符合**
-**有不懂或者错误都可以call我嘻嘻**
-```
+// **个人觉得需要用两次映射**
+// **示例 "abba" "dog dog dog dog" 返回false**
+// **说明一个单词只能由一种字符表示**
+// **所以反过来判断一次HashMap<String Character>时是否符合**
+// **有不懂或者错误都可以call我嘻嘻**
+// ```
 ![1571038140.png](https://pic.leetcode-cn.com/dceb1a766eb741c8b87731d156cc58eea2e6707612d73b0f496a9756245c0d21-1571038140.png)
 class Solution {
     public boolean wordPattern(String pattern, String str) {
@@ -57,4 +57,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

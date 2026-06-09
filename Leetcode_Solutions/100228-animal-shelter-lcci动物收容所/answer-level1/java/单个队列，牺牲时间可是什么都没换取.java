@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class AnimalShelf {
 
     private final static int[] NULL = {-1, -1};
@@ -54,4 +54,4 @@ class AnimalShelf {
  * int[] param_3 = obj.dequeueDog();
  * int[] param_4 = obj.dequeueCat();
  */
-```
+// ```

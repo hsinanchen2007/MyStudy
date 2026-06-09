@@ -1,8 +1,8 @@
 
-按右、下、左、上四个方向顺序写
-将二维数组赋0
-若超出边界或下一个值不为0则改变方向
-```
+// 按右、下、左、上四个方向顺序写
+// 将二维数组赋0
+// 若超出边界或下一个值不为0则改变方向
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -64,4 +64,4 @@ int** generateMatrix(int n, int* returnSize, int** returnColumnSizes){
     }
     return matrix;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * addStrings(char * num1, char * num2){
     int len1=strlen(num1);
     int len2=strlen(num2);
@@ -35,4 +35,4 @@ char * addStrings(char * num1, char * num2){
     else
         return res+1;
 }
-```
+// ```

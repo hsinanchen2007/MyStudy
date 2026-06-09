@@ -1,10 +1,10 @@
-### 解题思路
-最开始的想法：第一次做这种题想了好久都没思路，看了一眼答案，使用dfs做，并且对woldList进行处理（hit->*it,h*t,hi*）。之后按照官方答案我自己用c++实现了一遍（普通bfs和双端bfs），可能自己优化的不好，在wordlist较大的情况始终超时（本地可以）。之后参考[https://blog.csdn.net/x603560617/article/details/87992660?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task]()，他是的代码进行实现，并对其进行双端bfs的优化，执行时间从208ms提升到76ms。
-下面代码我直接注释了，写这个主要就是为了记录解题过程加深印象。
+// ### 解题思路
+// 最开始的想法：第一次做这种题想了好久都没思路，看了一眼答案，使用dfs做，并且对woldList进行处理（hit->*it,h*t,hi*）。之后按照官方答案我自己用c++实现了一遍（普通bfs和双端bfs），可能自己优化的不好，在wordlist较大的情况始终超时（本地可以）。之后参考[https://blog.csdn.net/x603560617/article/details/87992660?depth_1-utm_source=distribute.pc_relevant.none-task&utm_source=distribute.pc_relevant.none-task]()，他是的代码进行实现，并对其进行双端bfs的优化，执行时间从208ms提升到76ms。
+// 下面代码我直接注释了，写这个主要就是为了记录解题过程加深印象。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
@@ -67,4 +67,4 @@ public:
         return 0;
     }
 };
-```
+// ```

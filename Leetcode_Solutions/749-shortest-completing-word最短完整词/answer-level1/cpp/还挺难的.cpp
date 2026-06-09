@@ -1,4 +1,4 @@
-![捕获.PNG](https://pic.leetcode-cn.com/7e6eae2c062d3357b25a9e4a4eb09a5d78df73090be71ce9a7f522fbf3bedea8-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/7e6eae2c062d3357b25a9e4a4eb09a5d78df73090be71ce9a7f522fbf3bedea8-%E6%8D%95%E8%8E%B7.PNG)
 
 class Solution {
 public:

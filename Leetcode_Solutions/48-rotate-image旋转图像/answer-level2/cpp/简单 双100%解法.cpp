@@ -1,5 +1,5 @@
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
 	int temp;
 	int i,j;
@@ -21,4 +21,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
 		}
 	}
 }
-```
+// ```

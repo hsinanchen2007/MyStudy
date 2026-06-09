@@ -1,6 +1,6 @@
-这道题坑很多！正解用的是成段的直接位移，先将多次重复位移复位成一次位移；再将末尾待移到头部的元素存储。然后倒序将头部后移，最后将临时存储的部分写入头部。
-代码如下：
-```
+// 这道题坑很多！正解用的是成段的直接位移，先将多次重复位移复位成一次位移；再将末尾待移到头部的元素存储。然后倒序将头部后移，最后将临时存储的部分写入头部。
+// 代码如下：
+// ```
 class Solution {
     public void rotate(int[] nums, int k) {
         int length = nums.length;
@@ -31,11 +31,11 @@ class Solution {
         
     }
 }
-```
-常见错解一：
-k次大循环！老老实实位移，这样会被最后一个变态测试例卡住！
-代码如下：
-```
+// ```
+// 常见错解一：
+// k次大循环！老老实实位移，这样会被最后一个变态测试例卡住！
+// 代码如下：
+// ```
 class Solution {
     public void rotate(int[] nums, int k) {
         int length = nums.length;
@@ -62,11 +62,11 @@ class Solution {
         }   
     }
 }
-```
-错解二：
-计算每个数应移到何处，移动后再将该位上的元素进行位移。但是！当nums.length 为 k的整数倍时，倍数位上的元素被重复移动！
-代码如下：
-```
+// ```
+// 错解二：
+// 计算每个数应移到何处，移动后再将该位上的元素进行位移。但是！当nums.length 为 k的整数倍时，倍数位上的元素被重复移动！
+// 代码如下：
+// ```
 class Solution {
     public void rotate(int[] nums, int k) {
         int length = nums.length;
@@ -104,5 +104,5 @@ class Solution {
         
     }
 }
-```
+// ```
 

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/60bd88dce178afbcac32a6717f4334619a4208eab53d8cff197450d76fd04c7c-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/60bd88dce178afbcac32a6717f4334619a4208eab53d8cff197450d76fd04c7c-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -20,4 +20,4 @@ int* sumZero(int n, int* returnSize){
 
     return data_buf;
 }
-```
+// ```

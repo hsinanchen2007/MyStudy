@@ -1,9 +1,9 @@
-### 解题思路
-括号深搜
+// ### 解题思路
+// 括号深搜
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var res []string
 var buf []byte
 func generateParenthesis(n int) []string {
@@ -26,4 +26,4 @@ func todo(l,r,index int){
     }
 }
 
-```
+// ```

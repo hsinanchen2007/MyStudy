@@ -1,9 +1,9 @@
-### 解题思路
-动态规划 比官方的好理解多了
+// ### 解题思路
+// 动态规划 比官方的好理解多了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -33,4 +33,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-# 方法一：双指针
+# # 方法一：双指针
 
-- left指针从左往右扫，right指针从右往左扫
-- 如果numbers[left]+numbers[right]==target说明匹配 输出left+1和right+1 (下标从1开始，所以加一)
-- 如果numbers[left]+numbers[right]<target 说明两数之和需要增加 左边指针往右移(数组升序排列)
-- 如果numbers[left]+numbers[right]>target 说明两数之和需要减少 右边指针忘左移（数组升序排列）
-```
+# - left指针从左往右扫，right指针从右往左扫
+# - 如果numbers[left]+numbers[right]==target说明匹配 输出left+1和right+1 (下标从1开始，所以加一)
+# - 如果numbers[left]+numbers[right]<target 说明两数之和需要增加 左边指针往右移(数组升序排列)
+# - 如果numbers[left]+numbers[right]>target 说明两数之和需要减少 右边指针忘左移（数组升序排列）
+# ```
 class Solution(object):
     def twoSum(self, numbers, target):
         """
@@ -21,14 +21,14 @@ class Solution(object):
                 left+=1
             else:
                 right-=1
-```
+# ```
 
-# 方法二：需要额外的空间(字典)存储已经扫过的元素的值和下标 
-- 每次在字典中查找有没有target-numbers[i]
-  -  如果有，则输出对应的i+1 和字典中对应键的值
-  -  如果没有，将numbers[i]加入字典中
+# # 方法二：需要额外的空间(字典)存储已经扫过的元素的值和下标 
+# - 每次在字典中查找有没有target-numbers[i]
+#   -  如果有，则输出对应的i+1 和字典中对应键的值
+#   -  如果没有，将numbers[i]加入字典中
 
-```
+# ```
 class Solution(object):
     def twoSum(self, numbers, target):
         """
@@ -42,10 +42,10 @@ class Solution(object):
             if count in dict_1:
                 return [dict_1[n],i+1]
             dict_1[numbers[i]]=i+1
-```
+# ```
 
-#  方法三（超时）
-```
+# #  方法三（超时）
+# ```
 class Solution(object):
     def twoSum(self, numbers, target):
         """
@@ -59,4 +59,4 @@ class Solution(object):
                 s=[i+1,numbers.index(count)+1]
                 s.sort()
                 return s
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-通过观察可知，两点之间最短距离就是，|x1-x2|和|y1-y2|中的最大值
-最后相关即可
+// ### 解题思路
+// 通过观察可知，两点之间最短距离就是，|x1-x2|和|y1-y2|中的最大值
+// 最后相关即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
         int sum=0;
@@ -21,4 +21,4 @@ class Solution {
         return row > col ? row : col;
     }
 }
-```
+// ```

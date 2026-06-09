@@ -1,5 +1,5 @@
-方法一：利用stl find函数（达不到题目中要求的时间复杂度要求）
-```
+// 方法一：利用stl find函数（达不到题目中要求的时间复杂度要求）
+// ```
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -9,9 +9,9 @@ public:
         else return -1;
     }
 };
-```
-方法二：二分查找
-```
+// ```
+// 方法二：二分查找
+// ```
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -34,5 +34,5 @@ public:
         return -1;
     }
 };
-```
+// ```
 

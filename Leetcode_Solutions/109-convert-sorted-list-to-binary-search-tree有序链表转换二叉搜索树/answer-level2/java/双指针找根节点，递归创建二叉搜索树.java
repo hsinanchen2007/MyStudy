@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/4b08d631542a53e0eb42c9983fa050e789bf7247909db59a88ef84758a15ec81-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4b08d631542a53e0eb42c9983fa050e789bf7247909db59a88ef84758a15ec81-image.png)
 
 
-### 解题思路
-1. 首先用快慢指针找到根节点位置
-2. 保留根节点前一个链表指针指向null
-3. 递归创建树并返回
+// ### 解题思路
+// 1. 首先用快慢指针找到根节点位置
+// 2. 保留根节点前一个链表指针指向null
+// 3. 递归创建树并返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -64,4 +64,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

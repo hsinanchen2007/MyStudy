@@ -1,9 +1,9 @@
-### 解题思路
-使用正则表达式匹配到符号和数字，再比较数字
+// ### 解题思路
+// 使用正则表达式匹配到符号和数字，再比较数字
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {number}
@@ -21,4 +21,4 @@ var myAtoi = function(str) {
     }
     return result;
 };
-```
+// ```

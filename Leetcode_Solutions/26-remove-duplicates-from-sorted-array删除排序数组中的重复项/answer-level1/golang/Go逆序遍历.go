@@ -1,5 +1,5 @@
-逆序遍历数组，将重复数值排除并重组数组切片。
-```go []
+// 逆序遍历数组，将重复数值排除并重组数组切片。
+// ```go []
 func removeDuplicates(nums []int) int {
 	if len(nums) < 2 {
 		return len(nums)

@@ -1,4 +1,4 @@
-    // 其实是找后缀与完全相等的词汇去掉
+//     // 其实是找后缀与完全相等的词汇去掉
     class Solution {
         public class Node{
             boolean isEnd;

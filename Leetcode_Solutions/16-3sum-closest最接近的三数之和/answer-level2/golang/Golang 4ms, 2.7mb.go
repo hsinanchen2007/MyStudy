@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func threeSumClosest(nums []int, target int) int {
 	sort.Ints(nums)
 	similar := math.MaxInt64
@@ -38,4 +38,4 @@ func abs(a int) int {
 	}
 	return a
 }
-```
+// ```

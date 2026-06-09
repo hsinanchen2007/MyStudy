@@ -1,6 +1,6 @@
-不知跟双指针差异多大？
+// 不知跟双指针差异多大？
 
-```
+// ```
 
 var sortArrayByParity = function(A) {
     var left = 0;
@@ -18,4 +18,4 @@ var sortArrayByParity = function(A) {
     return A;
 };
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-1. 递归，试用递归去判断值是否相等，判断left.left与right.right；left.right与right.left是否相等。递归的出口有三个：1. left和right都为空 2. left和right一边为空 3. left和right的值不相等
-2. 使用队列保存值，然后去判断是否成立
-### 代码
+# ### 解题思路
+# 1. 递归，试用递归去判断值是否相等，判断left.left与right.right；left.right与right.left是否相等。递归的出口有三个：1. left和right都为空 2. left和right一边为空 3. left和right的值不相等
+# 2. 使用队列保存值，然后去判断是否成立
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -44,4 +44,4 @@ class Solution:
             queue.append(right.left)
         return True
             
-```
+# ```

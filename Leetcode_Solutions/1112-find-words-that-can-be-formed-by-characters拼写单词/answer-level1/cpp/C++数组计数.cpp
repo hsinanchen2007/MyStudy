@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-char中讲各个字母计数，再与words中的字母计数比较，个数足够给words分配则可以被拼写并计数。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// char中讲各个字母计数，再与words中的字母计数比较，个数足够给words分配则可以被拼写并计数。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -31,4 +31,4 @@ public:
         return ret;
     }
 };
-```
+// ```

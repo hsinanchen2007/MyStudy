@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trailingZeroes(self, n: int) -> int:
         # 尾部的 0 由 2 * 5 得来，2 的数量明显多于 5 的数量，因此只要统计有多少个 5 即可。
@@ -20,4 +20,4 @@ class Solution:
             n = n // 5
             count += n
         return count
-```
+# ```

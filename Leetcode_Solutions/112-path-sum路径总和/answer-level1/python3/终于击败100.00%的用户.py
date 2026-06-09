@@ -1,12 +1,12 @@
-### 解题思路
-递归进行遍历节点
-每次遍历减去当前节点的值，
-直到是叶子节点判断sum的值是不是等于0就可以了
+# ### 解题思路
+# 递归进行遍历节点
+# 每次遍历减去当前节点的值，
+# 直到是叶子节点判断sum的值是不是等于0就可以了
 
-### 代码
-![739870203.png](https://pic.leetcode-cn.com/7171995bf32e1ab89c5b538ce04f3b5e9fccc7aaded1580cc5529988e12c3a62-739870203.png)
+# ### 代码
+# ![739870203.png](https://pic.leetcode-cn.com/7171995bf32e1ab89c5b538ce04f3b5e9fccc7aaded1580cc5529988e12c3a62-739870203.png)
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
         else:
             return False
 
-```
+# ```

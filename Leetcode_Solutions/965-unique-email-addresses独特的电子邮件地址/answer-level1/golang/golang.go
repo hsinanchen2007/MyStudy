@@ -1,4 +1,4 @@
-```
+// ```
 func numUniqueEmails(emails []string) int {
     m := make(map[string]bool)
 
@@ -38,4 +38,4 @@ func numUniqueEmails(emails []string) int {
 
 	return len(m)
 }
-```
+// ```

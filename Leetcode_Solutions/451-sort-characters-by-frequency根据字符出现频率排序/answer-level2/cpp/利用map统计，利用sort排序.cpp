@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 bool comp(const pair<char, int>& left, const pair<char, int>& right)
 {
     if(left.second > right.second){
@@ -34,4 +34,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-BFS
+# BFS
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         def bfs():
@@ -45,4 +45,4 @@ class Solution:
         if day == -1:
             return 0
         return day
-```
+# ```

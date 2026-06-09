@@ -1,9 +1,9 @@
-### 解题思路
-把A链表的末尾接到B链表的开头上，然后查找环形链表的入环节点（[142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)），最后再把它断开（不知道要不要，还是断了把）
+// ### 解题思路
+// 把A链表的末尾接到B链表的开头上，然后查找环形链表的入环节点（[142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)），最后再把它断开（不知道要不要，还是断了把）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -74,4 +74,4 @@ ListNode *Solution::detectCycle(ListNode *head) { //这个是142题找环形链�
     }
     return NULL;
 }
-```
+// ```

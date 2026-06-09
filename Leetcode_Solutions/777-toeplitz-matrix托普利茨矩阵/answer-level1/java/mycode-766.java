@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isToeplitzMatrix(int[][] matrix) {
         for(int i = 0; i < matrix.length - 1; i++){
@@ -16,4 +16,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

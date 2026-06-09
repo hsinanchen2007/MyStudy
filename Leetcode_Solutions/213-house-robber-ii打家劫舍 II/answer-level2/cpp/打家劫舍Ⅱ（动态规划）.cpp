@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-分两种情况
-### 代码
+// 分两种情况
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         return max(c1[n-2], c2[n-1]);
     }
 };
-```
+// ```

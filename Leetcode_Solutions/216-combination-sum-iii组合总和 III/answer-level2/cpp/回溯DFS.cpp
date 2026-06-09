@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/01850b5da7b52d03126eee6209db3e140949bd3504d15a1aea73c17a0f4c58f0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/01850b5da7b52d03126eee6209db3e140949bd3504d15a1aea73c17a0f4c58f0-image.png)
 
-### 解题思路
-给定数组不含重复元素、使用时也不能重复使用的组合问题。
+// ### 解题思路
+// 给定数组不含重复元素、使用时也不能重复使用的组合问题。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;
@@ -34,4 +34,4 @@ public:
         return res;
     }
 };
-```
+// ```

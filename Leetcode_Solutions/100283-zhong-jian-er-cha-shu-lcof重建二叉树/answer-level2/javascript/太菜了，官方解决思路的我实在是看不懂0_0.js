@@ -1,11 +1,11 @@
-![FZ99EA7JMGUTPF@(}MJJAQ8.png](https://pic.leetcode-cn.com/18af71d461266a9b4c9e31667294e34655b4b0de44d8a21a428d4ab1f1efddb7-FZ99EA7JMGUTPF@\(%7DMJJAQ8.png)
+// ![FZ99EA7JMGUTPF@(}MJJAQ8.png](https://pic.leetcode-cn.com/18af71d461266a9b4c9e31667294e34655b4b0de44d8a21a428d4ab1f1efddb7-FZ99EA7JMGUTPF@\(%7DMJJAQ8.png)
 
-### 解题思路
-通过前序数组找到root，通过中序数组递归拆分左右子树。
+// ### 解题思路
+// 通过前序数组找到root，通过中序数组递归拆分左右子树。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -48,4 +48,4 @@ var buildTree = function(preorder, inorder) {
 
     return fn([0, len - 1])
 };
-```
+// ```

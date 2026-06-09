@@ -1,4 +1,4 @@
-```
+// ```
 func addBinary(a string, b string) string {
 	bytesA, bytesB := []byte(a), []byte(b)
 	lenA, lenB := len(bytesA), len(bytesB)
@@ -94,7 +94,7 @@ func bitAdd(b1, b2 byte, carryBit *bool) (ret byte) {
 	return
 }
 
-```
+// ```
 
 
-![image.png](https://pic.leetcode-cn.com/a4a915c60e3460ea4cfdd75fde536c7934006992feba420a031f4f7fee5e71bc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a4a915c60e3460ea4cfdd75fde536c7934006992feba420a031f4f7fee5e71bc-image.png)

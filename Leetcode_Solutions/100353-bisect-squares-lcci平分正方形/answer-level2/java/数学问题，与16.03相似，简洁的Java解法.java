@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public double[] cutSquares(int[] square1, int[] square2) {
         // center1 (square1[0]+square1[2]/2.0, square1[1]+square1[2]/2.0)   计算两正方形中心位置
@@ -33,4 +33,4 @@ class Solution {
         return new double[]{p1X, p1Y, p2X, p2Y};
     }
 }
-```
+// ```

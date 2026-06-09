@@ -1,5 +1,5 @@
-效率不高，但胜在通俗易懂
-```
+// 效率不高，但胜在通俗易懂
+// ```
 import java.util.HashMap;
 
 class Trie {
@@ -42,4 +42,4 @@ class Trie {
         else return false;
     }
 }
-```
+// ```

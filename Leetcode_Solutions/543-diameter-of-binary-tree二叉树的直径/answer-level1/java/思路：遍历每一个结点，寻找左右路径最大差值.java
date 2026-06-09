@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     private int ans = 0;//存放答案
     public int diameterOfBinaryTree(TreeNode root) {
@@ -19,4 +19,4 @@ class Solution {
         return Math.max(left, right);
     }
 }
-```
+// ```

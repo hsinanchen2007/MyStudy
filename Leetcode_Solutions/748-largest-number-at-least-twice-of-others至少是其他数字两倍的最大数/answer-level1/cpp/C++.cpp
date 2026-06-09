@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int dominantIndex(vector<int>& nums) {
@@ -23,5 +23,5 @@ public:
         return -1;
     }
 };
-```
-一次遍历找到最大和第二大的数字。
+// ```
+// 一次遍历找到最大和第二大的数字。

@@ -1,10 +1,10 @@
-[516.最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/submissions/)
+// [516.最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
-## 动态规划 
+// ## 动态规划 
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -34,15 +34,15 @@ var longestPalindromeSubseq = function(s) {
     }
     return dp[0][length-1];
 };
-```
+// ```
 
-## 动态规划降维
-![image.png](https://pic.leetcode-cn.com/5dbaa940ad2c9bf35ff174a62c2ea24b499b0d3c1c4e9d352720773a68671c5f-image.png)
+// ## 动态规划降维
+// ![image.png](https://pic.leetcode-cn.com/5dbaa940ad2c9bf35ff174a62c2ea24b499b0d3c1c4e9d352720773a68671c5f-image.png)
 
 
-这类问题一般都可以进行降维处理
+// 这类问题一般都可以进行降维处理
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -66,4 +66,4 @@ var longestPalindromeSubseq = function(s) {
     }
     return dp[length-1];
 };
-```
+// ```

@@ -1,8 +1,8 @@
-执行用时 :
-100 ms, 在所有 Python3 提交中击败了96.92%的用户
-内存消耗 :
-14.1 MB, 在所有 Python3 提交中击败了100.00%的用户
-```
+# 执行用时 :
+# 100 ms, 在所有 Python3 提交中击败了96.92%的用户
+# 内存消耗 :
+# 14.1 MB, 在所有 Python3 提交中击败了100.00%的用户
+# ```
 class Solution:
     def numSmallerByFrequency(self, q: List[str], w: List[str]) -> List[int]:
         su, dic, lis = len(w), dict(), list()
@@ -30,4 +30,4 @@ class Solution:
                     index += 1
             lis.append(dic[index])
         return lis
-```
+# ```

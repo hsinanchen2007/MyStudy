@@ -1,9 +1,9 @@
-### 解题思路
-按官方题解，实现了一个简略版的前缀树，conform to Hashable是为了支持TrieNode做Dictionary的Key。后来考虑是否可以用NSMapTable来搞，等下修改下试一试。
+// ### 解题思路
+// 按官方题解，实现了一个简略版的前缀树，conform to Hashable是为了支持TrieNode做Dictionary的Key。后来考虑是否可以用NSMapTable来搞，等下修改下试一试。
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     class TrieNode: Hashable {
     
@@ -61,4 +61,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

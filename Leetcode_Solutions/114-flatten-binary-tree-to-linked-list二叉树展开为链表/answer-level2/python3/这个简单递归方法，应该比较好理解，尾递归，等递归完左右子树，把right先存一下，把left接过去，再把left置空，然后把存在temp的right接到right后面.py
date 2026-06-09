@@ -1,11 +1,11 @@
-### 解题思路
-这个简单递归方法，应该比较好理解，尾递归，
-等递归完左右子树，
-把right先存一下，
-把left接过去，
-再把left置空，
-然后把存在temp的right接到right后面
-```
+# ### 解题思路
+# 这个简单递归方法，应该比较好理解，尾递归，
+# 等递归完左右子树，
+# 把right先存一下，
+# 把left接过去，
+# 再把left置空，
+# 然后把存在temp的right接到right后面
+# ```
 def flatten(self, root: TreeNode) -> None:
     if root is None:
         return None
@@ -21,10 +21,10 @@ def flatten(self, root: TreeNode) -> None:
         root = root.right
     root.right = temp
 
-```
-### 代码
+# ```
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -48,4 +48,4 @@ class Solution:
             root = root.right
         root.right = temp
         
-```
+# ```

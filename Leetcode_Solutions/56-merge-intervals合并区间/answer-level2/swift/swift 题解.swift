@@ -1,5 +1,5 @@
 
-    主要思路是先排序，再求区间
+//     主要思路是先排序，再求区间
 
     class Solution {
         func merge(_ intervals: [[Int]]) -> [[Int]] {

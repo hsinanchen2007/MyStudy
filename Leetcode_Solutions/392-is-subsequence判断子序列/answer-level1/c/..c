@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isSubsequence(char * s, char * t){
     int i,j;
     char *p=s,*q=t;
@@ -17,4 +17,4 @@ bool isSubsequence(char * s, char * t){
     }
     return false;
 }
-```
+// ```

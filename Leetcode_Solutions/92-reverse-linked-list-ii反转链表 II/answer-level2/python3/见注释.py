@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
             result = new_head  # 如果pre_head为空，说明 m==1从第一个节点开始逆置，记过即为逆置后的头节点
         return result
 
-```
+# ```

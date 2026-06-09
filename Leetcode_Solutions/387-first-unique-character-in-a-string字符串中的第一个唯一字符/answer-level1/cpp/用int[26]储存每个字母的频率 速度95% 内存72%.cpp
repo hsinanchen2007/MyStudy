@@ -1,9 +1,9 @@
-### 解题思路
-两次遍历即可 时间复杂度O(N)
+// ### 解题思路
+// 两次遍历即可 时间复杂度O(N)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int firstUniqChar(string s)
@@ -17,4 +17,4 @@ public:
         return -1;
     }
 };
-```
+// ```

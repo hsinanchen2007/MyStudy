@@ -1,9 +1,9 @@
-### 解题思路 而后缀乘积只需要保存在一个值里面
-此处撰写解题思路
+# ### 解题思路 而后缀乘积只需要保存在一个值里面
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 
 # -*- coding:utf-8 -*-
 class Solution:
@@ -20,4 +20,4 @@ class Solution:
             cur_suffix *= A[i]
         return prefix
         # write code here
-```
+# ```

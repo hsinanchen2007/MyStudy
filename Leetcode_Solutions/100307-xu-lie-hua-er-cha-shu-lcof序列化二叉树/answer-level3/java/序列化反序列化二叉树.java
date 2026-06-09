@@ -1,17 +1,17 @@
-### 解题思路
-//1.序列化
-    1.1 层次遍历，null值也要添加。然后拼“[,]”
-  2.反序列化
-    2.1 去掉[]，用截取字符串操作
-    2.2 按照“,”分割成s[]
-    2.3 设置root结点以s[0]的值建立的节点
-    2.4 设置遍历索引index = 1；
-    2.5 循环的添加结点，与层次遍历一致，只不过终止条件变为index来控制
-    2.6 注意：遍历过程中要对index实时判断，队列中为null的结点取出来要continue
+// ### 解题思路
+// //1.序列化
+//     1.1 层次遍历，null值也要添加。然后拼“[,]”
+//   2.反序列化
+//     2.1 去掉[]，用截取字符串操作
+//     2.2 按照“,”分割成s[]
+//     2.3 设置root结点以s[0]的值建立的节点
+//     2.4 设置遍历索引index = 1；
+//     2.5 循环的添加结点，与层次遍历一致，只不过终止条件变为index来控制
+//     2.6 注意：遍历过程中要对index实时判断，队列中为null的结点取出来要continue
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -72,4 +72,4 @@ public class Codec {
 // Your Codec object will be instantiated and called as such:
 // Codec codec = new Codec();
 // codec.deserialize(codec.serialize(root));
-```
+// ```

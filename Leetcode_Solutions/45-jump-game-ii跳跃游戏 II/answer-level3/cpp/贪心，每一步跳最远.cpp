@@ -1,4 +1,4 @@
-类似题，最小加油次数
+// 类似题，最小加油次数
 class Solution {
 public:
     int jump(vector<int>& nums) {

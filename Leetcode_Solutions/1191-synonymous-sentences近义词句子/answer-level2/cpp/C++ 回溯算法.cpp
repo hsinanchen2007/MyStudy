@@ -1,14 +1,14 @@
-### 解题思路
-1. 把近义词数组转换成vector<set<string>>，set中自然是按照字典序排列
-2. 把句子字符串转换成vector<string>单词数组
-3. 遍历单词数组，如果单词不在任何一个set中，则直接拼接到输出；反之则按set中的顺序回溯
+// ### 解题思路
+// 1. 把近义词数组转换成vector<set<string>>，set中自然是按照字典序排列
+// 2. 把句子字符串转换成vector<string>单词数组
+// 3. 遍历单词数组，如果单词不在任何一个set中，则直接拼接到输出；反之则按set中的顺序回溯
 
-![图片.png](https://pic.leetcode-cn.com/e766b29b01f7a4f6bbe77fe019512400297011df7fbb8401dc68b0ba888d226d-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/e766b29b01f7a4f6bbe77fe019512400297011df7fbb8401dc68b0ba888d226d-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> ans;
@@ -89,4 +89,4 @@ public:
         return ans;
     }
 };
-```
+// ```

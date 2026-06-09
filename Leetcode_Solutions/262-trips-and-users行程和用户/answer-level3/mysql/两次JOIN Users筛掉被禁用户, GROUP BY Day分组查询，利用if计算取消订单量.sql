@@ -1,4 +1,4 @@
-```sql
+-- ```sql
 SELECT
     Request_at AS Day,
     round(
@@ -15,4 +15,4 @@ FROM
 GROUP BY Day
 HAVING Day BETWEEN '2013-10-01' AND '2013-10-03'
 ORDER BY Day;
-```
+-- ```

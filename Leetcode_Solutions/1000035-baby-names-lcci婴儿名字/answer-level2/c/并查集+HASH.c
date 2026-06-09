@@ -1,11 +1,11 @@
-### 解题思路
-核心思想是并查集，中间造了无数个轮子。
+// ### 解题思路
+// 核心思想是并查集，中间造了无数个轮子。
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -257,4 +257,4 @@ char** trulyMostPopular(char** names, int namesSize, char** synonyms, int synony
 	*returnSize = curResultNum;
 	return resultArray;
 }
-```
+// ```

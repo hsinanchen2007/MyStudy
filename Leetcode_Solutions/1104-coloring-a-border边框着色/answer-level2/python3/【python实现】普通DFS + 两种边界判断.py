@@ -1,7 +1,7 @@
-解题思路：只需要一个普通的DFS，然后再判断当前位置是否是矩形边界or四周存在非联通量
-![1.png](https://pic.leetcode-cn.com/df869a92306b258bd282105030bf49f28bd809675132e8eb92ac22c4b3137549-1.png)
+# 解题思路：只需要一个普通的DFS，然后再判断当前位置是否是矩形边界or四周存在非联通量
+# ![1.png](https://pic.leetcode-cn.com/df869a92306b258bd282105030bf49f28bd809675132e8eb92ac22c4b3137549-1.png)
 
-```
+# ```
 from typing import List
 
 
@@ -42,4 +42,4 @@ class Solution:
         dfs(r0, c0)  # 寻找连通分量
 
         return grid
-```
+# ```

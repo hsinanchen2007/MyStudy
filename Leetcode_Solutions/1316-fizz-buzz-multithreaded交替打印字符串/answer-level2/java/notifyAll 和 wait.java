@@ -1,6 +1,6 @@
-通过notifyAll 和 wait进行线程通信，通过finish投票是否都已经完成，完成则i+1并唤醒所有线程，如果没有，则wait
+// 通过notifyAll 和 wait进行线程通信，通过finish投票是否都已经完成，完成则i+1并唤醒所有线程，如果没有，则wait
 
-```
+// ```
 class FizzBuzz {
     private int n;
     private int i = 1;
@@ -102,4 +102,4 @@ class FizzBuzz {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-发现自己写的很麻烦，哈哈哈。。。
-但是关键就是求最大公约数啦~
+// 发现自己写的很麻烦，哈哈哈。。。
+// 但是关键就是求最大公约数啦~
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -45,4 +45,4 @@ public:
         else return gcd(j,i%j);
     }
 };
-```
+// ```

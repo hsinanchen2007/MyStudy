@@ -1,9 +1,9 @@
-### 解题思路
-由题意知道，先要判断，还没有学习队列就采用遍历的方法。题解中遍历是用了新的矩阵，这一点可以不断完善
+// ### 解题思路
+// 由题意知道，先要判断，还没有学习队列就采用遍历的方法。题解中遍历是用了新的矩阵，这一点可以不断完善
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
         int a=nums.length*nums[0].length;
@@ -33,4 +33,4 @@ class Solution {
     }
     
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-两次循环，先保存每一位取反后的结果，再颠倒即可
+// ### 解题思路
+// 两次循环，先保存每一位取反后的结果，再颠倒即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findComplement(int num){
     int res=0,temp=0,c=0;
     while(num){
@@ -20,4 +20,4 @@ int findComplement(int num){
     }
     return res;
 }
-```
+// ```

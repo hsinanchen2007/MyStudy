@@ -1,9 +1,9 @@
-### 解题思路
-**回溯算法**
+# ### 解题思路
+# **回溯算法**
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def permute(self, nums):
         self.ans = []
@@ -26,4 +26,4 @@ class Solution(object):
             #取消标记
             self.visit[i] = 0
     
-```
+# ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   public boolean canMeasureWater(int x, int y, int z) {
         return z == 0 || (x+y >= z && z%gcd(x,y) == 0);
@@ -10,4 +10,4 @@ class Solution {
         return b == 0 ? a:gcd(b, a%b);
     }
 }
-```
+// ```

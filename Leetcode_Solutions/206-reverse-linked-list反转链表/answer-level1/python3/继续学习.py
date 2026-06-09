@@ -1,8 +1,8 @@
-### 解题思路
-普通迭代，后期继续优化
-### 代码
+# ### 解题思路
+# 普通迭代，后期继续优化
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution(object):
 
 
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func inorderSuccessor(root *TreeNode, p *TreeNode) *TreeNode {
 	var out *TreeNode
 	for nil != root {
@@ -10,4 +10,4 @@ func inorderSuccessor(root *TreeNode, p *TreeNode) *TreeNode {
 	}
 	return out
 }
-```
+// ```

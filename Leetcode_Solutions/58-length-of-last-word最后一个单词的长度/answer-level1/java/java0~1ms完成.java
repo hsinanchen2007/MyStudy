@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int lengthOfLastWord(String s) {
         int count = 0;                      //定义计数器
@@ -12,4 +12,4 @@ class Solution {
         return count;                       //空串直接返回零
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-字符流操作 istringstream 可以分割单词并自动去除空格，然后用栈逆序。
-```
+// 字符流操作 istringstream 可以分割单词并自动去除空格，然后用栈逆序。
+// ```
 class Solution {
 public:
     string reverseWords(string s) {
@@ -20,4 +20,4 @@ public:
         return ans;
     }
 };
-```
+// ```

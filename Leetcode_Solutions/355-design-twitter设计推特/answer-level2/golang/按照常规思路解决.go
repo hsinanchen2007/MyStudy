@@ -1,4 +1,4 @@
-```go
+// ```go
 type Twitter struct {
 	user map[int]*User
 }
@@ -97,4 +97,4 @@ func (this *Twitter) Unfollow(followerId int, followeeId int) {
 	}
 	delete(user.friends, followeeId)
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```C
+// ```C
 int strStr(char * haystack, char * needle){
 
 	if (haystack == NULL || needle == NULL || strlen(needle)==0)
@@ -58,4 +58,4 @@ int strStr(char * haystack, char * needle){
 
 	return -1;
 }
-```
+// ```

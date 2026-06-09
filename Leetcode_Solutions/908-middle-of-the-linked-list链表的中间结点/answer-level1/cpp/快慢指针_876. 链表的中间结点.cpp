@@ -1,15 +1,15 @@
-### 解题思路
-    /*
-     * 快慢指针
-     *
-     * 定义两个指针fastPtr和slowPtr同时指向头节点,其中fastPtr每次走两步,slowPtr每次走一步。
-     * 当fastPtr->next时，表示fastPtr走到链表尾，此时slowPtr指向链表中间节点，直接返回；
-     * 或当fastPtr->next->next为空时，表示fastPtr走到链表尾前一个节点，
-     * 此时slowPtr指向链表中间节点的第一个节点，所以返回slowPtr->next节点。
-     * */
-### 代码
+// ### 解题思路
+//     /*
+//      * 快慢指针
+//      *
+//      * 定义两个指针fastPtr和slowPtr同时指向头节点,其中fastPtr每次走两步,slowPtr每次走一步。
+//      * 当fastPtr->next时，表示fastPtr走到链表尾，此时slowPtr指向链表中间节点，直接返回；
+//      * 或当fastPtr->next->next为空时，表示fastPtr走到链表尾前一个节点，
+//      * 此时slowPtr指向链表中间节点的第一个节点，所以返回slowPtr->next节点。
+//      * */
+// ### 代码
 
-```cpp
+// ```cpp
 ListNode *middleNode(ListNode *head) {
     if (head == nullptr) {
         return nullptr;
@@ -35,4 +35,4 @@ ListNode *middleNode(ListNode *head) {
         return slowPtr;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-    使用最常规的遍历思路即可，首先计算从左边到右边的正向的距离，然后计算从右边到边缘然后循环回到顶点的距离，比较两个距离的大小即可。
+// ### 解题思路
+//     使用最常规的遍历思路即可，首先计算从左边到右边的正向的距离，然后计算从右边到边缘然后循环回到顶点的距离，比较两个距离的大小即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int distanceBetweenBusStops(int[] distance, int start, int destination) {
          int left=start<destination? start:destination;
@@ -26,4 +26,4 @@ class Solution {
 	     return des1<=des2? des1:des2;
     }
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-欧几里得算法:
-```
+// ### 解题思路
+// 欧几里得算法:
+// ```
  function gcd(num1, num2) {
     return num2 === 0 ? num1 : gcd(num2, num1 % num2);
   }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str1
  * @param {string} str2
@@ -26,4 +26,4 @@ var gcdOfStrings = function (str1, str2) {
   // 截取匹配的字符串
   return str1.substring(0, gcd(str1.length, str2.length));
 };
-```
+// ```

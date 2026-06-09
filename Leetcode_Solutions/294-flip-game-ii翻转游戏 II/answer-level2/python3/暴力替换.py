@@ -1,9 +1,9 @@
-### 解题思路
-暴力替换'++'为'-', 递归
+# ### 解题思路
+# 暴力替换'++'为'-', 递归
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from functools import lru_cache
 class Solution:
     @lru_cache(None)
@@ -13,4 +13,4 @@ class Solution:
                 return True
         return False
                 
-```
+# ```

@@ -1,4 +1,4 @@
-    // 往第二个队列里添加数据要始终保持队列里值是单调递增的
+//     // 往第二个队列里添加数据要始终保持队列里值是单调递增的
     class MaxQueue {
         Queue<Integer> queue;
         LinkedList<Integer> maxlist;     // Monotonic queue

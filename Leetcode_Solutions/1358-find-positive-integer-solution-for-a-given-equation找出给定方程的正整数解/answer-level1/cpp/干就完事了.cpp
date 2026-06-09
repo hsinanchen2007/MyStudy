@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/d2e2f9c10e63e64b98e21c52a052747c11056b0a8e4db22bf4f14be8402f7f16-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d2e2f9c10e63e64b98e21c52a052747c11056b0a8e4db22bf4f14be8402f7f16-image.png)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findSolution(CustomFunction& customfunction, int z) {
@@ -18,4 +18,4 @@ public:
         return res;
     }
 };
-```
+// ```

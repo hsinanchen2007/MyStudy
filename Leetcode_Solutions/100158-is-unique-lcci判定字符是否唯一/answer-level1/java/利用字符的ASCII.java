@@ -1,8 +1,8 @@
-### 解题思路
-利用字符的ASCII破题，大家看看有没问题
-### 代码
+// ### 解题思路
+// 利用字符的ASCII破题，大家看看有没问题
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         char[] str = astr.toCharArray();
@@ -21,4 +21,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-![1584506327(1).jpg](https://pic.leetcode-cn.com/616dad0259ef89c4b4a0297ed99bf2d5bca8e01e1688d735b50f98661ea3f6a8-1584506327\(1\).jpg)
-```
+// ![1584506327(1).jpg](https://pic.leetcode-cn.com/616dad0259ef89c4b4a0297ed99bf2d5bca8e01e1688d735b50f98661ea3f6a8-1584506327\(1\).jpg)
+// ```
 
 int minSteps(char * s, char * t){
     int hash[26];
@@ -21,4 +21,4 @@ int minSteps(char * s, char * t){
     }
     return len;
 }
-```
+// ```

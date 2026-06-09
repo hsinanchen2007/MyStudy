@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 哈希表
+// # 哈希表
 
-时间复杂度是O(n)，其中n是time数组的长度。空间复杂度是O(1)。
+// 时间复杂度是O(n)，其中n是time数组的长度。空间复杂度是O(1)。
 
-执行用时：2ms，击败100.00%。消耗内存：43.1MB，击败7.68%。
+// 执行用时：2ms，击败100.00%。消耗内存：43.1MB，击败7.68%。
 
-```java
+// ```java
 public class Solution {
     public int numPairsDivisibleBy60(int[] time) {
         int n;
@@ -29,4 +29,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int min = Integer.MAX_VALUE;
     public int minimumTotal(List<List<Integer>> triangle) {
@@ -53,4 +53,4 @@ class Solution {
 
 
 }
-```
+// ```

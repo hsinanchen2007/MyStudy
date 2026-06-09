@@ -1,9 +1,9 @@
-## 解析
-本题和[第102题](http://51leetcode.top/article/1575102182 "第102题")的思路基本一致，也是两种方法。
-方法一：用两个栈来模拟从右向左和从左向右的过程。
-方法二：递归解法的时候，根据层数是奇数还是偶数，来判断添加到开头还是添加到末尾。
-## 代码
-```html
+// ## 解析
+// 本题和[第102题](http://51leetcode.top/article/1575102182 "第102题")的思路基本一致，也是两种方法。
+// 方法一：用两个栈来模拟从右向左和从左向右的过程。
+// 方法二：递归解法的时候，根据层数是奇数还是偶数，来判断添加到开头还是添加到末尾。
+// ## 代码
+// ```html
 public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
 
         List<List<Integer>> lists = new ArrayList<>();
@@ -76,4 +76,4 @@ public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         DFS(root.left, level + 1, ans);
         DFS(root.right, level + 1, ans);
     }
-```
+// ```

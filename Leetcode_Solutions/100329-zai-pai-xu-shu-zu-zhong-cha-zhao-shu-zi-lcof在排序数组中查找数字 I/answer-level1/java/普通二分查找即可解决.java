@@ -1,6 +1,6 @@
-# 方法一
-因为参数是整形，可以用二分查找 k-0.5、k+0.5 两数应该插入的位置，相减即次数。
-```
+// # 方法一
+// 因为参数是整形，可以用二分查找 k-0.5、k+0.5 两数应该插入的位置，相减即次数。
+// ```
 class Solution {
     public int search(int[] nums, int target) {
         return binarySearch(nums, target + 0.5) - binarySearch(nums, target - 0.5);
@@ -19,10 +19,10 @@ class Solution {
         return left;
     }
 }
-```
-# 方法二
-二分查找左右边界
-```
+// ```
+// # 方法二
+// 二分查找左右边界
+// ```
 class Solution {
     public int search(int[] nums, int target) {
         return rightBound(nums, target) - leftBound(nums, target) + 1;
@@ -56,4 +56,4 @@ class Solution {
         return right;
     }
 }
-```
+// ```

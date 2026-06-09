@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import defaultdict
 class Solution:
     def totalHammingDistance(self, nums: List[int]) -> int:
@@ -35,4 +35,4 @@ class Solution:
 # 比如n = 1001  1001 & 1000 = 1000 此时消除了最右边的1,1001^1000 = 1 
 # 然后n &= n-1之后，n=1000, 1000 & 0111 = 0000,1000^0000 = 8
 # 最后map中存储着数组中所有元素的每一位翻译为int之后的0和1的个数，最后需要用长度来计算对应位置为0的个数
-```
+# ```

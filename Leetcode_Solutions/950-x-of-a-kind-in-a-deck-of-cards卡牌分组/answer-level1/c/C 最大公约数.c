@@ -1,9 +1,9 @@
-### 解题思路
-最大公约数
+// ### 解题思路
+// 最大公约数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gcd(int num1, int num2) {
 	int mod = num1 % num2;
 	if (mod == 0) {
@@ -32,4 +32,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
     free(counts);
     return currentGCD >= 2;
 }
-```
+// ```

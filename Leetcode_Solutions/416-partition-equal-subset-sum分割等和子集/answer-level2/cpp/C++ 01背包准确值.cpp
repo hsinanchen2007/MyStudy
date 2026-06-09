@@ -1,6 +1,6 @@
-01背包准确值解法
+// 01背包准确值解法
 
-```
+// ```
 class Solution {
 public:
     bool canPartition(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         return dp.back() == target;
     }
 };
-```
+// ```

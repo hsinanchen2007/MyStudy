@@ -1,4 +1,4 @@
-```
+// ```
 func strStr(haystack string, needle string) int {
     if len(needle) == 0 {
 		return 0
@@ -41,4 +41,4 @@ func strStr(haystack string, needle string) int {
 
 	return -1
 }
-```
+// ```

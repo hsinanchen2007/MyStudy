@@ -1,4 +1,4 @@
-// 因为C语言没有queue等，所以只能用struct和双指针来实现一个类似的队列功能了
+// // 因为C语言没有queue等，所以只能用struct和双指针来实现一个类似的队列功能了
 typedef struct {
     int row;
     int column;

@@ -1,9 +1,9 @@
-### 解题思路
-简洁
+# ### 解题思路
+# 简洁
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, arr: List[int], target: int) -> int:
         try:
@@ -11,4 +11,4 @@ class Solution:
         except:
             return -1
         
-```
+# ```

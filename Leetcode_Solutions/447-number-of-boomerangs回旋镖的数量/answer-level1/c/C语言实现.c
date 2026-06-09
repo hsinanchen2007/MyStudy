@@ -1,5 +1,5 @@
-C语言实现，执行用时:252 ms, 在所有 C 提交中击败了100.00%的用户。
-```C []
+// C语言实现，执行用时:252 ms, 在所有 C 提交中击败了100.00%的用户。
+// ```C []
 int getDistance(int *a, int *b)
 {
     return (a[0]-b[0])*(a[0]-b[0])+(a[1]-b[1])*(a[1]-b[1]);
@@ -42,4 +42,4 @@ int numberOfBoomerangs(int** points, int pointsSize, int* pointsColSize){
     }
     return res;
 }
-```
+// ```

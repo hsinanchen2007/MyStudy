@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * 反而比leetcode-274 更加简单了
  * 时间复杂度:O(n)
@@ -38,4 +38,4 @@ const hIndex1=citations=>{
         }
     }
 };
-```
+// ```

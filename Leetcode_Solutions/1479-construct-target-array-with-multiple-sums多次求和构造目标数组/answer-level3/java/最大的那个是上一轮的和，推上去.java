@@ -1,9 +1,9 @@
-二哥牛逼，一楼孝敬二哥，比赛时参考了[二哥的方法](https://leetcode-cn.com/circle/discuss/0gO5RS/)，但是有很多不足，下面这个是直接推的思路：
+// 二哥牛逼，一楼孝敬二哥，比赛时参考了[二哥的方法](https://leetcode-cn.com/circle/discuss/0gO5RS/)，但是有很多不足，下面这个是直接推的思路：
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;关键是我们要倒推当前数组中最大元素的位置上它的上一个值是多少，比如 $[5,8]$，当前最大是 $8$，$cur=8$ ,$rest = sum(为13)-8=5$，计算$8$的这个位置之前是几: $pre=8-5=3$，这样我们就得到 $8$ 之前位置上的数字是 $3$ 了，同样的原理，倒推，模拟一下：$[5,8]==>[5,3]==>[2,3]==>[2,1]==>[1,1]$
+// &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;关键是我们要倒推当前数组中最大元素的位置上它的上一个值是多少，比如 $[5,8]$，当前最大是 $8$，$cur=8$ ,$rest = sum(为13)-8=5$，计算$8$的这个位置之前是几: $pre=8-5=3$，这样我们就得到 $8$ 之前位置上的数字是 $3$ 了，同样的原理，倒推，模拟一下：$[5,8]==>[5,3]==>[2,3]==>[2,1]==>[1,1]$
 
-能过是力扣数据弱，碰到 $[1000000000, 1]$ 这样的用例，就过不去了。推荐二哥的题解！。
-```java
+// 能过是力扣数据弱，碰到 $[1000000000, 1]$ 这样的用例，就过不去了。推荐二哥的题解！。
+// ```java
     public boolean isPossible(int[] target) {
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
         int sum = 0;
@@ -24,11 +24,11 @@
         }
         return true;
     }
-```
+// ```
 
 
-二哥的题解[@scut_dell](/u/scut_dell/)，我只是搬运！大家参考[讨论区](https://leetcode-cn.com/circle/discuss/0gO5RS/view/2jxd1d/)即可
-```java
+// 二哥的题解[@scut_dell](/u/scut_dell/)，我只是搬运！大家参考[讨论区](https://leetcode-cn.com/circle/discuss/0gO5RS/view/2jxd1d/)即可
+// ```java
     public boolean isPossible(int[] target) {
         if (target.length == 1) {
             return true;
@@ -64,4 +64,4 @@
             }
         }
     }
-```
+// ```

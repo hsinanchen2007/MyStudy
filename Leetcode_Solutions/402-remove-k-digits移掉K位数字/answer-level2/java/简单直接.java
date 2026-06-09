@@ -1,12 +1,12 @@
-### 解题思路
-从左往右比较，
-1.当 [i]>[i+1] 那就说明这个数([i])需要移除,
-2.当遍历到最后一个元素[length-1]时，说明需要移除最后一个元素!
-每移动一次更新char数组
+// ### 解题思路
+// 从左往右比较，
+// 1.当 [i]>[i+1] 那就说明这个数([i])需要移除,
+// 2.当遍历到最后一个元素[length-1]时，说明需要移除最后一个元素!
+// 每移动一次更新char数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String removeKdigits(String num, int k) {
 		if (num == null || num.length() <= k)
@@ -40,4 +40,4 @@ class Solution {
 
     
 }
-```
+// ```

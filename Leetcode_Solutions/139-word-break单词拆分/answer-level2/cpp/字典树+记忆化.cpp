@@ -1,8 +1,8 @@
-### 解题思路
-字典树方便查找字符串，记忆化是指记忆无法分解的字串
-### 代码
+// ### 解题思路
+// 字典树方便查找字符串，记忆化是指记忆无法分解的字串
+// ### 代码
 
-```cpp
+// ```cpp
 struct tire{
     bool is_word;
     map<char,tire*>children;
@@ -47,4 +47,4 @@ public:
         return decompse(s,0,s.size()-1);
     }
 };
-```
+// ```

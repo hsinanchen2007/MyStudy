@@ -1,10 +1,10 @@
-1.找到R车的位置
-2.分别向四个方向找卒,如果遇到像则结束循环，如果遇到卒加一并且结束
+// 1.找到R车的位置
+// 2.分别向四个方向找卒,如果遇到像则结束循环，如果遇到卒加一并且结束
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int x = 0;
@@ -60,4 +60,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

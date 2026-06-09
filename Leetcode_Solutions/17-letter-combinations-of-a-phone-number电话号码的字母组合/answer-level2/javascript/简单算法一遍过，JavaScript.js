@@ -1,20 +1,20 @@
-### 解题思路
+// ### 解题思路
 
-首先创建dictionary字典存储该9个数字所对应的所有字母
+// 首先创建dictionary字典存储该9个数字所对应的所有字母
 
-然后将digits[0]中所有字母放入res中
+// 然后将digits[0]中所有字母放入res中
 
-然后遍历digits，解析出此时的数字所对应的字母，放入arr中。  
+// 然后遍历digits，解析出此时的数字所对应的字母，放入arr中。  
 
-    然后将arr中的所有字母都与res中的字母相加一遍，将结果放入临时变量temp中
+//     然后将arr中的所有字母都与res中的字母相加一遍，将结果放入临时变量temp中
 
-    最后将temp赋值给res，继续下一个循环
+//     最后将temp赋值给res，继续下一个循环
 
-最后res中的所有字符串即为所求。
+// 最后res中的所有字符串即为所求。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} digits
  * @return {string[]}
@@ -38,4 +38,4 @@ var letterCombinations = function(digits) {
     }
     return res;
 };
-```
+// ```

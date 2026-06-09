@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     private Random random = new Random();
 
@@ -50,4 +50,4 @@ class Solution {
     }
 }
 
-```
+// ```

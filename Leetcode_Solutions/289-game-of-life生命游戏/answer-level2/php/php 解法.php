@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 
     /**
@@ -35,4 +35,4 @@ class Solution {
         return $board[$i][$j]==1 ? ($count==3||$count==4?1:-1) : (($count==3)?-2:0);
     }
 }
-```
+// ```

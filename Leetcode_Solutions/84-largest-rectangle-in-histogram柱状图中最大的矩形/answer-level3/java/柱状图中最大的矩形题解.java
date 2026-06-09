@@ -1,9 +1,9 @@
-### 解题思路
-穷举法，从中心向两边扩展
+// ### 解题思路
+// 穷举法，从中心向两边扩展
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int largestRectangleArea(int[] heights) {
         //穷举法
@@ -30,4 +30,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

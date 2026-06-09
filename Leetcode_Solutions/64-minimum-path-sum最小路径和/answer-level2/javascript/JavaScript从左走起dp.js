@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-从左走起
+// 从左走起
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -27,4 +27,4 @@ var minPathSum = function(grid) {
     }
     return memo[m - 1][n - 1]
 };
-```
+// ```

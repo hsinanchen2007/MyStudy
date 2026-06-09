@@ -1,4 +1,4 @@
-```
+// ```
 func addBinary(a string, b string) string {
 	x, _ := new(big.Int).SetString(a, 2)
 	y, _ := new(big.Int).SetString(b, 2)
@@ -11,4 +11,4 @@ func addBinary(a string, b string) string {
 	}
 	return fmt.Sprintf("%b", x)
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
     def maxNumberOfBalloons(self, text):
         """
@@ -14,5 +14,5 @@ class Solution(object):
             dictAlpha[t] += 1
         #各个字母的个数          
         return min(dictAlpha["b"],dictAlpha["a"],dictAlpha["l"]/2,dictAlpha["o"]/2,dictAlpha["n"])
-```
+# ```
 

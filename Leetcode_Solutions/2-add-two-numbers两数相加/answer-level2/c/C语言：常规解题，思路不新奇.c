@@ -1,7 +1,7 @@
-![两数相加.png](https://pic.leetcode-cn.com/6cd292faffd6af49f52c8e8d38e84dfeae39a31524227c7955aa0b7623cc270f-%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.png)
+// ![两数相加.png](https://pic.leetcode-cn.com/6cd292faffd6af49f52c8e8d38e84dfeae39a31524227c7955aa0b7623cc270f-%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.png)
 
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -84,9 +84,9 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
 }
 
 
-```
-方法2（学习题解区方法）：时空效率低一些，但代码更好编写。
-```
+// ```
+// 方法2（学习题解区方法）：时空效率低一些，但代码更好编写。
+// ```
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     struct ListNode *head, *q, *l3;
     q = (struct ListNode*)malloc(sizeof(struct ListNode));
@@ -122,9 +122,9 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return head;
 }
-```
-方法3（递归）：总给人神奇的感觉，大道至简！
-```
+// ```
+// 方法3（递归）：总给人神奇的感觉，大道至简！
+// ```
 int c = 0;
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     if(l1 == NULL && l2 == NULL && c == 0)
@@ -137,5 +137,5 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     cur -> next = addTwoNumbers(l1, l2);
     return cur;
 }
-```
+// ```
 

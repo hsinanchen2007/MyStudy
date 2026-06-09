@@ -1,4 +1,4 @@
-没啥难点
+// 没啥难点
 
          if (timeSeries.length==0){
             return 0;

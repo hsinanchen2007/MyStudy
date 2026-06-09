@@ -1,8 +1,8 @@
-思路来自[官方题解](https://leetcode-cn.com/problems/two-city-scheduling/solution/er-cha-shu-de-chui-xu-bian-li-by-leetcode/)
-执行用时 :68 ms, 在所有 JavaScript 提交中击败了100.00%的用户
-内存消耗 :35 MB, 在所有 JavaScript 提交中击败了100.00%的用户
+// 思路来自[官方题解](https://leetcode-cn.com/problems/two-city-scheduling/solution/er-cha-shu-de-chui-xu-bian-li-by-leetcode/)
+// 执行用时 :68 ms, 在所有 JavaScript 提交中击败了100.00%的用户
+// 内存消耗 :35 MB, 在所有 JavaScript 提交中击败了100.00%的用户
 
-```javascript
+// ```javascript
 var twoCitySchedCost = function(costs) {
     costs.sort((o1, o2) => {
         return o1[0]-o1[1]-(o2[0]-o2[1]);
@@ -18,4 +18,4 @@ var twoCitySchedCost = function(costs) {
     }
     return sum;
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-The lower_bound() function returns an iterator to the first element which has a value **greater** than or **equal** to key.
+// ### 解题思路
+// The lower_bound() function returns an iterator to the first element which has a value **greater** than or **equal** to key.
 
-The upper_bound() function returns an iterator to the first element in the set with a key **greater** than key.
+// The upper_bound() function returns an iterator to the first element in the set with a key **greater** than key.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
@@ -27,4 +27,4 @@ public:
         return false;
     }
 };
-```
+// ```

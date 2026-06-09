@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/0e26360d1fd6426a7110fe9cd728d57ee21bb01a3e043be128d36e6f3595ed4c-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/0e26360d1fd6426a7110fe9cd728d57ee21bb01a3e043be128d36e6f3595ed4c-image.png)
 
-这个程序不是我写出来的，是我debug出来的。。。。。 ;-(
-### 代码
+// 这个程序不是我写出来的，是我debug出来的。。。。。 ;-(
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} m
@@ -37,4 +37,4 @@ var lastRemaining = function(n, m) {
     }
     return arr[0];
 };
-```
+// ```

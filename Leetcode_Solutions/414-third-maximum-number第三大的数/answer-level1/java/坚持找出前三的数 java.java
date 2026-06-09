@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public static int thirdMax(int[] nums) {
 		int max = Integer.MIN_VALUE;
@@ -27,4 +27,4 @@ class Solution {
 	}
 	
 }
-```
+// ```

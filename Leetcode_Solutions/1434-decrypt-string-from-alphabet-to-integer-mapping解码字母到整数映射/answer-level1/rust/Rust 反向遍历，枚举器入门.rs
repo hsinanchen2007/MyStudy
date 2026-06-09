@@ -1,4 +1,4 @@
-```rust
+// ```rust
 // 字符类型 char 可以转换成数字， 也就是其 codepoint 的值
 const ascii_a: i32 = 'a' as i32;
 
@@ -37,6 +37,6 @@ impl Solution {
         r.iter().rev().map(|&x| (x-1+ascii_a) as u8 as char).collect::<String>()
     }
 }
-```
+// ```
 
-执行消耗 0ms， 2.1mb
+// 执行消耗 0ms， 2.1mb

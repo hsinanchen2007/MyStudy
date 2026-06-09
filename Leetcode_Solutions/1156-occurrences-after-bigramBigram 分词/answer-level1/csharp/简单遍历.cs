@@ -1,5 +1,5 @@
-注意边界处理
-```
+// 注意边界处理
+// ```
  public string[] FindOcurrences(string text, string first, string second) {
       
         var strs=text.Split(' ').ToArray();
@@ -12,4 +12,4 @@
         }
         return res.ToArray();
     }
-```
+// ```

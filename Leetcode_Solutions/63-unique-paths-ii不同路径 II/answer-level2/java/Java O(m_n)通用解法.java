@@ -1,12 +1,12 @@
-现在看来做题的时候也要有Dynamic Programming的精神。
-做一道题之前先画个图然后考虑一下有哪些情况存在。
-像这道题就是的：先假设你是机器人，然后考虑情况：
-1.如果在最上面一排有任何一个被堵上了，你这一排下面就不要走了。
-对列同理。
-2.剩下的用二维数组构建一个地图就好了。
-代码：
+// 现在看来做题的时候也要有Dynamic Programming的精神。
+// 做一道题之前先画个图然后考虑一下有哪些情况存在。
+// 像这道题就是的：先假设你是机器人，然后考虑情况：
+// 1.如果在最上面一排有任何一个被堵上了，你这一排下面就不要走了。
+// 对列同理。
+// 2.剩下的用二维数组构建一个地图就好了。
+// 代码：
 
-```
+// ```
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int[][] arr = new int[obstacleGrid.length][obstacleGrid[0].length];
@@ -22,4 +22,4 @@ class Solution {
         return arr[obstacleGrid.length-1][obstacleGrid[0].length-1];
     }
 }
-```
+// ```

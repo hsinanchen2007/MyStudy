@@ -1,5 +1,5 @@
-暴力
-```
+# 暴力
+# ```
 class Solution:
     def countNegatives(self, grid: List[List[int]]) -> int:
         m = len(grid)
@@ -10,4 +10,4 @@ class Solution:
                 if grid[i][j] < 0:
                     count += 1
         return count
-```
+# ```

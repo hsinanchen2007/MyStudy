@@ -1,14 +1,14 @@
-# 题目描述（中等难度）
+// # 题目描述（中等难度）
 
-![image.png](https://pic.leetcode-cn.com/08f8dd0aadc0f68568917c9a663b4715eb6279d7ae585591f0138f52d198793a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/08f8dd0aadc0f68568917c9a663b4715eb6279d7ae585591f0138f52d198793a-image.png)
 
-给定 n ，k ，表示从 { 1, 2, 3 ... n } 中选 k 个数，输出所有可能，并且选出数字从小到大排列，每个数字只能用一次。
+// 给定 n ，k ，表示从 { 1, 2, 3 ... n } 中选 k 个数，输出所有可能，并且选出数字从小到大排列，每个数字只能用一次。
 
-# 解法一 回溯法
+// # 解法一 回溯法
 
-这种选数字很经典的回溯法问题了，先选一个数字，然后进入递归继续选，满足条件后加到结果中，然后回溯到上一步，继续递归。直接看代码吧，很好理解。
+// 这种选数字很经典的回溯法问题了，先选一个数字，然后进入递归继续选，满足条件后加到结果中，然后回溯到上一步，继续递归。直接看代码吧，很好理解。
 
-```java
+// ```java
 public List<List<Integer>> combine(int n, int k) {
     List<List<Integer>> ans = new ArrayList<>();
     getAns(1,n, k, new ArrayList<Integer>(), ans);
@@ -31,13 +31,13 @@ private void getAns(int start, int n, int k, ArrayList<Integer> temp,List<List<I
         temp.remove(temp.size() - 1);
     }
 }
-```
+// ```
 
-一个 for 循环，添加，递归，删除，很经典的回溯框架了。在[这里](<https://leetcode.com/problems/combinations/discuss/27002/Backtracking-Solution-Java>)发现了一个优化方法。for 循环里 i 从 start 到 n，其实没必要到 n。比如，n = 5，k = 4，temp.size( ) == 1，此时代表我们还需要（4 - 1 = 3）个数字，如果 i = 4 的话，以后最多把 4 和 5 加入到 temp 中，而此时 temp.size() 才等于 1 + 2 = 3，不够 4 个，所以 i 没必要等于 4，i 循环到 3 就足够了。
+// 一个 for 循环，添加，递归，删除，很经典的回溯框架了。在[这里](<https://leetcode.com/problems/combinations/discuss/27002/Backtracking-Solution-Java>)发现了一个优化方法。for 循环里 i 从 start 到 n，其实没必要到 n。比如，n = 5，k = 4，temp.size( ) == 1，此时代表我们还需要（4 - 1 = 3）个数字，如果 i = 4 的话，以后最多把 4 和 5 加入到 temp 中，而此时 temp.size() 才等于 1 + 2 = 3，不够 4 个，所以 i 没必要等于 4，i 循环到 3 就足够了。
 
-所以 for 循环的结束条件可以改成， i <= n - ( k - temp.size ( ) ) + 1，k - temp.size ( )  代表我们还需要的数字个数。因为我们最后取到了 n，所以还要加 1。
+// 所以 for 循环的结束条件可以改成， i <= n - ( k - temp.size ( ) ) + 1，k - temp.size ( )  代表我们还需要的数字个数。因为我们最后取到了 n，所以还要加 1。
 
-```java
+// ```java
 public List<List<Integer>> combine(int n, int k) {
     List<List<Integer>> ans = new ArrayList<>();
     getAns(1,n, k, new ArrayList<Integer>(), ans);
@@ -55,19 +55,19 @@ private void getAns(int start, int n, int k, ArrayList<Integer> temp, List<List<
         temp.remove(temp.size() - 1);
     }
 }
-```
+// ```
 
-虽然只改了一句代码，速度却快了很多。
+// 虽然只改了一句代码，速度却快了很多。
 
-# 解法二 迭代
+// # 解法二 迭代
 
-参考[这里](<https://leetcode.com/problems/combinations/discuss/26992/Short-Iterative-C%2B%2B-Answer-8ms>)，完全按照解法一回溯的思想改成迭代。我们思考一下，回溯其实有三个过程。
+// 参考[这里](<https://leetcode.com/problems/combinations/discuss/26992/Short-Iterative-C%2B%2B-Answer-8ms>)，完全按照解法一回溯的思想改成迭代。我们思考一下，回溯其实有三个过程。
 
-* for 循环结束，也就是 i == n + 1，然后回到上一层的 for 循环
-* temp.size() == k，也就是所需要的数字够了，然后把它加入到结果中。
-* 每个 for 循环里边，进入递归，添加下一个数字
+// * for 循环结束，也就是 i == n + 1，然后回到上一层的 for 循环
+// * temp.size() == k，也就是所需要的数字够了，然后把它加入到结果中。
+// * 每个 for 循环里边，进入递归，添加下一个数字
 
-```java
+// ```java
 public List<List<Integer>> combine(int n, int k) {
     List<List<Integer>> ans = new ArrayList<>();
     List<Integer> temp = new ArrayList<>();
@@ -92,27 +92,27 @@ public List<List<Integer>> combine(int n, int k) {
     }
     return ans;
 }
-```
+// ```
 
-# 解法三 迭代法2
+// # 解法三 迭代法2
 
-解法二的迭代法是基于回溯的思想，还有一种思想，参考[这里](<https://leetcode.com/problems/combinations/discuss/27032/Iterative-Java-solution>)。类似于[46题](<https://leetcode.windliang.cc/leetCode-46-Permutations.html>)的解法一，找 k 个数，我们可以先找出 1 个的所有结果，然后在 1 个的所有结果再添加 1 个数，变成 2 个，然后依次迭代，直到有 k 个数。
+// 解法二的迭代法是基于回溯的思想，还有一种思想，参考[这里](<https://leetcode.com/problems/combinations/discuss/27032/Iterative-Java-solution>)。类似于[46题](<https://leetcode.windliang.cc/leetCode-46-Permutations.html>)的解法一，找 k 个数，我们可以先找出 1 个的所有结果，然后在 1 个的所有结果再添加 1 个数，变成 2 个，然后依次迭代，直到有 k 个数。
 
-比如 n = 5， k = 3
+// 比如 n = 5， k = 3
 
-![image.png](https://pic.leetcode-cn.com/363a6d288eecc5a6a3d78f78a0895aacc3e3f5388b20256e914ddeaf0d58c3ca-image.png)
+// ![image.png](https://pic.leetcode-cn.com/363a6d288eecc5a6a3d78f78a0895aacc3e3f5388b20256e914ddeaf0d58c3ca-image.png)
 
-第 1 次循环，我们找出所有 1 个数的可能 [ 1 ]，[ 2 ]，[ 3 ]。4 和 5 不可能，解法一分析过了，因为总共需要 3 个数，4，5 全加上才 2 个数。
+// 第 1 次循环，我们找出所有 1 个数的可能 [ 1 ]，[ 2 ]，[ 3 ]。4 和 5 不可能，解法一分析过了，因为总共需要 3 个数，4，5 全加上才 2 个数。
 
-第 2 次循环，在每个 list 添加 1 个数， [ 1 ] 扩展为 [ 1 , 2 ]，[ 1 , 3 ]，[ 1 , 4 ]。[ 1 , 5 ] 不可能，因为 5 后边没有数字了。 [ 2 ] 扩展为 [ 2 , 3 ]，[ 2 , 4 ]。[ 3 ] 扩展为 [ 3 , 4 ]；
+// 第 2 次循环，在每个 list 添加 1 个数， [ 1 ] 扩展为 [ 1 , 2 ]，[ 1 , 3 ]，[ 1 , 4 ]。[ 1 , 5 ] 不可能，因为 5 后边没有数字了。 [ 2 ] 扩展为 [ 2 , 3 ]，[ 2 , 4 ]。[ 3 ] 扩展为 [ 3 , 4 ]；
 
-第 3 次循环，在每个 list 添加 1 个数， [ 1，2 ]  扩展为[ 1，2，3]， [ 1，2，4]， [ 1，2，5]；[ 1，3 ]  扩展为 [ 1，3，4]， [ 1，3，5]；[ 1，4 ]  扩展为  [ 1，4，5]；[ 2，3 ]  扩展为 [ 2，3，4]， [ 2，3，5]；[ 2，4 ]  扩展为  [ 2，4，5]；[ 3，4 ]  扩展为  [ 3，4，5]；
+// 第 3 次循环，在每个 list 添加 1 个数， [ 1，2 ]  扩展为[ 1，2，3]， [ 1，2，4]， [ 1，2，5]；[ 1，3 ]  扩展为 [ 1，3，4]， [ 1，3，5]；[ 1，4 ]  扩展为  [ 1，4，5]；[ 2，3 ]  扩展为 [ 2，3，4]， [ 2，3，5]；[ 2，4 ]  扩展为  [ 2，4，5]；[ 3，4 ]  扩展为  [ 3，4，5]；
 
-最后结果就是，\[[ 1，2，3]， [ 1，2，4]， [ 1，2，5]，[ 1，3，4]， [ 1，3，5]， [ 1，4，5]， [ 2，3，4]， [ 2，3，5]，[ 2，4，5]， [ 3，4，5]\]。
+// 最后结果就是，\[[ 1，2，3]， [ 1，2，4]， [ 1，2，5]，[ 1，3，4]， [ 1，3，5]， [ 1，4，5]， [ 2，3，4]， [ 2，3，5]，[ 2，4，5]， [ 3，4，5]\]。
 
-上边分析很明显了，三个循环，第一层循环是 1 到 k ，代表当前有多少个数。第二层循环就是遍历之前的所有结果。第三次循环就是将当前结果扩展为多个。
+// 上边分析很明显了，三个循环，第一层循环是 1 到 k ，代表当前有多少个数。第二层循环就是遍历之前的所有结果。第三次循环就是将当前结果扩展为多个。
 
-```java
+// ```java
 public List<List<Integer>> combine(int n, int k) {
     if (n == 0 || k == 0 || k > n) return Collections.emptyList();
     List<List<Integer>> res = new ArrayList<List<Integer>>();
@@ -136,21 +136,21 @@ public List<List<Integer>> combine(int n, int k) {
     }
     return res;
 }
-```
+// ```
 
-# 解法四 递归
+// # 解法四 递归
 
-参考[这里](<https://leetcode.com/problems/combinations/discuss/27019/A-short-recursive-Java-solution-based-on-C(nk)C(n-1k-1)%2BC(n-1k)>)。基于这个公式 C ( n, k ) = C ( n - 1, k - 1) + C ( n - 1, k )  所用的思想，这个思想之前刷题也用过，但忘记是哪道了。
+// 参考[这里](<https://leetcode.com/problems/combinations/discuss/27019/A-short-recursive-Java-solution-based-on-C(nk)C(n-1k-1)%2BC(n-1k)>)。基于这个公式 C ( n, k ) = C ( n - 1, k - 1) + C ( n - 1, k )  所用的思想，这个思想之前刷题也用过，但忘记是哪道了。
 
-从 n 个数字选 k 个，我们把所有结果分为两种，包含第 n 个数和不包含第 n 个数。这样的话，就可以把问题转换成
+// 从 n 个数字选 k 个，我们把所有结果分为两种，包含第 n 个数和不包含第 n 个数。这样的话，就可以把问题转换成
 
-* 从 n - 1 里边选 k - 1 个，然后每个结果加上 n 
-* 从 n - 1 个里边直接选 k 个。
+// * 从 n - 1 里边选 k - 1 个，然后每个结果加上 n 
+// * 从 n - 1 个里边直接选 k 个。
 
-把上边两个的结果合起来就可以了。
+// 把上边两个的结果合起来就可以了。
 
 
-```java
+// ```java
 public List<List<Integer>> combine(int n, int k) {
     if (k == n || k == 0) {
         List<Integer> row = new LinkedList<>();
@@ -167,13 +167,13 @@ public List<List<Integer>> combine(int n, int k) {
     result.addAll(combine(n - 1, k));
     return result;
 }
-```
+// ```
 
-# 解法五 动态规划
+// # 解法五 动态规划
 
-参考[这里](<https://leetcode.com/problems/combinations/discuss/27090/DP-for-the-problem>)，既然有了解法四的递归，那么一定可以有动态规划。递归就是压栈压栈压栈，然后到了递归出口，开始出栈出栈出栈。而动态规划一个好处就是省略了出栈的过程，我们直接从递归出口网上走。
+// 参考[这里](<https://leetcode.com/problems/combinations/discuss/27090/DP-for-the-problem>)，既然有了解法四的递归，那么一定可以有动态规划。递归就是压栈压栈压栈，然后到了递归出口，开始出栈出栈出栈。而动态规划一个好处就是省略了出栈的过程，我们直接从递归出口网上走。
 
-```java
+// ```java
 public List<List<Integer>> combine(int n, int k) { 
     List<List<Integer>>[][] dp = new List[n + 1][k + 1];
     //更新 k = 0 的所有情况
@@ -200,21 +200,21 @@ public List<List<Integer>> combine(int n, int k) {
     }
     return dp[n][k];
 }
-```
+// ```
 
-这里遇到个神奇的问题，提一下，开始的的时候，最里边的 for 循环是这样写的
+// 这里遇到个神奇的问题，提一下，开始的的时候，最里边的 for 循环是这样写的
 
-```java
+// ```java
 for (List<Integer> list: dp[i - 1][j - 1]) {
     List<Integer> tmpList = new LinkedList<>(list);
     tmpList.add(i);
     dp[i][j].add(tmpList);
 } 
-```
+// ```
 
-就是 List 用的 Linked，而不是 Array，看起来没什么大问题，在 leetcode 上竟然报了超时。看了下 java 的源码。
+// 就是 List 用的 Linked，而不是 Array，看起来没什么大问题，在 leetcode 上竟然报了超时。看了下 java 的源码。
 
-```java
+// ```java
 //ArrayList
 public boolean add(E e) {
     ensureCapacityInternal(size + 1);  // Increments modCount!!
@@ -237,13 +237,13 @@ void linkLast(E e) {
     size++;
     modCount++;
 }
-```
+// ```
 
-猜测原因可能是因为 linked 每次 add 的时候，都需要 new 一个节点对象，而我们进行了很多次 add，所以这里造成了时间的耗费，导致了超时。所以刷题的时候还是优先用 ArrayList 吧。
+// 猜测原因可能是因为 linked 每次 add 的时候，都需要 new 一个节点对象，而我们进行了很多次 add，所以这里造成了时间的耗费，导致了超时。所以刷题的时候还是优先用 ArrayList 吧。
 
-接下来就是动态规划的常规操作了，空间复杂度的优化，我们注意到更新 dp [ i \] \[ \* \] 的时候，只用到dp [ i - 1 \] \[  \* \] 的情况，所以我们可以只用一个一维数组就够了。和[72题](<https://leetcode.windliang.cc/leetCode-72-Edit-Distance.html>)解法二，以及[5题](<https://leetcode.windliang.cc/leetCode-5-Longest-Palindromic-Substring.html>)，[10题](<https://leetcode.windliang.cc/leetCode-10-Regular-Expression-Matching.html>)，[53题](<https://leetcode.windliang.cc/leetCode-53-Maximum-Subarray.html)等等优化思路一样，这里不详细说了。
+// 接下来就是动态规划的常规操作了，空间复杂度的优化，我们注意到更新 dp [ i \] \[ \* \] 的时候，只用到dp [ i - 1 \] \[  \* \] 的情况，所以我们可以只用一个一维数组就够了。和[72题](<https://leetcode.windliang.cc/leetCode-72-Edit-Distance.html>)解法二，以及[5题](<https://leetcode.windliang.cc/leetCode-5-Longest-Palindromic-Substring.html>)，[10题](<https://leetcode.windliang.cc/leetCode-10-Regular-Expression-Matching.html>)，[53题](<https://leetcode.windliang.cc/leetCode-53-Maximum-Subarray.html)等等优化思路一样，这里不详细说了。
 
-```java
+// ```java
 public List<List<Integer>> combine(int n, int k) {
     List<List<Integer>>[] dp = new ArrayList[k + 1]; 
     // i 从 1 到 n
@@ -271,10 +271,10 @@ public List<List<Integer>> combine(int n, int k) {
     }
     return dp[k];
 }
-```
+// ```
 
-# 总
+// # 总
 
-开始的时候直接用了动态规划，然后翻了一些 Discuss 感觉发现了新世界，把目前为止常用的思路都用到了，回溯，递归，迭代，动态规划，这道题也太经典了！值得细细回味。
+// 开始的时候直接用了动态规划，然后翻了一些 Discuss 感觉发现了新世界，把目前为止常用的思路都用到了，回溯，递归，迭代，动态规划，这道题也太经典了！值得细细回味。
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

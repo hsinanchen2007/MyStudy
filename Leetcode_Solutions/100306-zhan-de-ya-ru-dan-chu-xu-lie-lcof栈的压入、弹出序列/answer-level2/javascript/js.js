@@ -1,11 +1,11 @@
-### 解题思路
-辅助栈
-当两个 pushed 数组或者poped数组的长度大于0的时候
-stack最后一项跟popped首项相等的话 都推出去
+// ### 解题思路
+// 辅助栈
+// 当两个 pushed 数组或者poped数组的长度大于0的时候
+// stack最后一项跟popped首项相等的话 都推出去
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} pushed
  * @param {number[]} popped
@@ -25,4 +25,4 @@ var validateStackSequences = function(pushed, popped) {
     }
     return true
 };
-```
+// ```

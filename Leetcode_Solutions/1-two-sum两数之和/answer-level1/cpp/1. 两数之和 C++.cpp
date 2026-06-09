@@ -1,4 +1,4 @@
-```cpp    
+// ```cpp    
 class Solution {
 public:
     //1、暴力法

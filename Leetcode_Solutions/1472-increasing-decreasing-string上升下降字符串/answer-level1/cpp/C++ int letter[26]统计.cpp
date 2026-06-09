@@ -1,5 +1,5 @@
-用 int letter[26]统计每个字母的个数
-```
+// 用 int letter[26]统计每个字母的个数
+// ```
 class Solution {
 public:
    string sortString(string s) {
@@ -28,4 +28,4 @@ public:
 	return ans;
 }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-单链表解题思路：
-* 哨兵节点
-* 快慢指针
+// ### 解题思路
+// 单链表解题思路：
+// * 哨兵节点
+// * 快慢指针
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -28,4 +28,4 @@ func getKthFromEnd(head *ListNode, k int) *ListNode {
     }
     return slow
 }
-```
+// ```

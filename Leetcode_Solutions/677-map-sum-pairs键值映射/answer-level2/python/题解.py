@@ -1,4 +1,4 @@
-```
+# ```
 class MapSum:
 
     def __init__(self):
@@ -39,4 +39,4 @@ class MapSum:
 # obj = MapSum()
 # obj.insert(key,val)
 # param_2 = obj.sum(prefix)
-```
+# ```

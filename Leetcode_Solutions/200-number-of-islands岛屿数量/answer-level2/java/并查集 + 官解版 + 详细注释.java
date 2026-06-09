@@ -1,38 +1,38 @@
-## 1. 并查集（Union-Find）是什么
-简单来说，**并查集（Union-Find）是一种树型的数据结构，用于处理一些不相交集合（Disjoint Sets）的合并及查询问题。常常在使用中以森林来表示。**
-![image.png](https://pic.leetcode-cn.com/9c0923a4b9f08367e14397ad959b7777d7f6373099d2a47badf8282543cd4367-image.png)
+// ## 1. 并查集（Union-Find）是什么
+// 简单来说，**并查集（Union-Find）是一种树型的数据结构，用于处理一些不相交集合（Disjoint Sets）的合并及查询问题。常常在使用中以森林来表示。**
+// ![image.png](https://pic.leetcode-cn.com/9c0923a4b9f08367e14397ad959b7777d7f6373099d2a47badf8282543cd4367-image.png)
   
 
-**并查集的数据结构**
-![image.png](https://pic.leetcode-cn.com/079b6c7fc044e568d207a52c08554df8e275a01981205782a971ad441bf1e787-image.png)
+// **并查集的数据结构**
+// ![image.png](https://pic.leetcode-cn.com/079b6c7fc044e568d207a52c08554df8e275a01981205782a971ad441bf1e787-image.png)
 
-**对于并查集结构里的元素和元素之间的连接关系，使用数组来保存。其中，有两种基本的算法来保存元素的连接关系。**
+// **对于并查集结构里的元素和元素之间的连接关系，使用数组来保存。其中，有两种基本的算法来保存元素的连接关系。**
 
-**Quick-find：**
-数组表示下图中的并集关系。其中元素的值代表组别，值相同，元素的组别相同。
-![image.png](https://pic.leetcode-cn.com/377c7634e2e975be08bca819916d6c09521f9626c86556e90929d909477a74a0-image.png)
+// **Quick-find：**
+// 数组表示下图中的并集关系。其中元素的值代表组别，值相同，元素的组别相同。
+// ![image.png](https://pic.leetcode-cn.com/377c7634e2e975be08bca819916d6c09521f9626c86556e90929d909477a74a0-image.png)
 
-**Quick-union（官解方法，后面会详解）:**
-和quick-find不同的是，quick-union算法中数组元素的值代表的是根节点的id，以树的方式储存。
-![image.png](https://pic.leetcode-cn.com/79a122b2df6772f3aca4484f4731b1d185e6dcedfdc9d7e6f98dc78fa05da3ae-image.png)
+// **Quick-union（官解方法，后面会详解）:**
+// 和quick-find不同的是，quick-union算法中数组元素的值代表的是根节点的id，以树的方式储存。
+// ![image.png](https://pic.leetcode-cn.com/79a122b2df6772f3aca4484f4731b1d185e6dcedfdc9d7e6f98dc78fa05da3ae-image.png)
 
-其实，Quick-find和Quick-union算法都不算是最高效的算法，如果有兴趣的小伙伴可以计算一下两种算法的union和find的时间/空间复杂度。不过，基于这两种算法的优化版，则可以达到logN级别的复杂度。主要的方法有三种，**带权重的QU（weighted QU）** 和 **路径压缩QU（QU + path compression）** 及 **带权重的路径压缩QU（weighted QU + path compression）.**
+// 其实，Quick-find和Quick-union算法都不算是最高效的算法，如果有兴趣的小伙伴可以计算一下两种算法的union和find的时间/空间复杂度。不过，基于这两种算法的优化版，则可以达到logN级别的复杂度。主要的方法有三种，**带权重的QU（weighted QU）** 和 **路径压缩QU（QU + path compression）** 及 **带权重的路径压缩QU（weighted QU + path compression）.**
 
-![image.png](https://pic.leetcode-cn.com/ddfcb1a8522ba6d09a77af9eec141933c76a0ffe9b46c5d9ceb973eb6dddc189-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ddfcb1a8522ba6d09a77af9eec141933c76a0ffe9b46c5d9ceb973eb6dddc189-image.png)
 
-对于这几种算法数据结构，实现和复杂度分析感兴趣的小伙伴，可以去看看普林斯顿大学在coursera开设的[Algorithms](https://www.coursera.org/learn/algorithms-part1/home/welcome)课程（第一周课程内容），强烈建议学习（学习时间1.5h），你会对并查集有更系统的认识。
+// 对于这几种算法数据结构，实现和复杂度分析感兴趣的小伙伴，可以去看看普林斯顿大学在coursera开设的[Algorithms](https://www.coursera.org/learn/algorithms-part1/home/welcome)课程（第一周课程内容），强烈建议学习（学习时间1.5h），你会对并查集有更系统的认识。
 
-## 官解思路：
+// ## 官解思路：
 
-官解使用的是**带权重的QU路径压缩（weighted QU + path compression）** 算法。 
-关于带权重的QU和不带权重的QU有什么区别，感兴趣的小伙伴自己去摸索哦。
+// 官解使用的是**带权重的QU路径压缩（weighted QU + path compression）** 算法。 
+// 关于带权重的QU和不带权重的QU有什么区别，感兴趣的小伙伴自己去摸索哦。
 
-对于本问题，小岛则代表每一个并集；我们需要求得在矩阵中有多少个并集。
-上文提到，QU（quick-union）算法中，将元素之间的连接关系用一个数组来保存，数组的值表示元素的父节点的id。
+// 对于本问题，小岛则代表每一个并集；我们需要求得在矩阵中有多少个并集。
+// 上文提到，QU（quick-union）算法中，将元素之间的连接关系用一个数组来保存，数组的值表示元素的父节点的id。
 
-我们来跟着官解一起来构造一个Union-Find类：
+// 我们来跟着官解一起来构造一个Union-Find类：
 
-```
+// ```
 class UnionFind {
     // 这里的count就是我们要求的岛屿数量，也是并集的数量
     int count; // # of connected components
@@ -130,6 +130,6 @@ public int numIslands(char[][] grid) {
 
     return uf.getCount();
 }
-```
+// ```
 
 

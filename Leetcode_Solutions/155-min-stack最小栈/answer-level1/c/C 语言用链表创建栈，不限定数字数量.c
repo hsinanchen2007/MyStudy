@@ -1,4 +1,4 @@
-```
+// ```
 #define MIN(a,b) ((a) < (b) ? (a) : (b))
 
 typedef struct node{
@@ -78,4 +78,4 @@ void minStackFree(MinStack* obj) {
  
  * minStackFree(obj);
 */
-```
+// ```

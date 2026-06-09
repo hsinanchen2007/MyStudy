@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-使用cmath头文件中的库函数 pow(x,y)计算10的n次方 这里x,y都是double类型的值 pow返回double类型的值。
+// ### 解题思路
+// 此处撰写解题思路
+// 使用cmath头文件中的库函数 pow(x,y)计算10的n次方 这里x,y都是double类型的值 pow返回double类型的值。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <cmath>
 
 class Solution {
@@ -19,4 +19,4 @@ public:
         return Res;
     }
 };
-```
+// ```

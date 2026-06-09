@@ -1,10 +1,10 @@
-### 解题思路
-这一题印象深刻，是2017年南京大学计算机机试题，当时没分数。
-循环后最后一次中间结果经常忘了加，一定要小心。
+# ### 解题思路
+# 这一题印象深刻，是2017年南京大学计算机机试题，当时没分数。
+# 循环后最后一次中间结果经常忘了加，一定要小心。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         n = len(prices)
@@ -29,4 +29,4 @@ class Solution:
         result += pre - current_min
         return result
             
-```
+# ```

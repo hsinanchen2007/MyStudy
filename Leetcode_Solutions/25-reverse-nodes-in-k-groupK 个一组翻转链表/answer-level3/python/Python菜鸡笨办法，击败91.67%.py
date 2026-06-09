@@ -1,13 +1,13 @@
-只写了一次肉眼目测没问题，直接提交竟然通过了。
-![image.png](https://pic.leetcode-cn.com/9faba9475434a7eb966e1c638b30fbc12d8c083f8c4f497ab2002477935ba76f-image.png)
+# 只写了一次肉眼目测没问题，直接提交竟然通过了。
+# ![image.png](https://pic.leetcode-cn.com/9faba9475434a7eb966e1c638b30fbc12d8c083f8c4f497ab2002477935ba76f-image.png)
 
-想法很简单，就是按照要求来硬做。
+# 想法很简单，就是按照要求来硬做。
 
-1. 把任务拆分成n/k组子序列，然后写一个helper方法，实现子序列内部翻转
-2. 注意上一步中需要暴露出3个变量：当前子序列的next，翻转后的head，和翻转后的tail
-3. 把不同子序列串起来。
+# 1. 把任务拆分成n/k组子序列，然后写一个helper方法，实现子序列内部翻转
+# 2. 注意上一步中需要暴露出3个变量：当前子序列的next，翻转后的head，和翻转后的tail
+# 3. 把不同子序列串起来。
 
-```python
+# ```python
 class Solution(object):
     def reverseKGroup(self, head, k):
         """
@@ -52,12 +52,12 @@ class Solution(object):
             tail.next = _head
             tail = _tail
         return head
-```
+# ```
 
-## 复杂度分析
-**时间复杂度**：
-### O(2N)
-因为q是跳跃的，所以只需遍历一遍list，然而每个子序列也需要遍历一次获得length，所以一共需要遍历2次。
+# ## 复杂度分析
+# **时间复杂度**：
+# ### O(2N)
+# 因为q是跳跃的，所以只需遍历一遍list，然而每个子序列也需要遍历一次获得length，所以一共需要遍历2次。
 
-**空间复杂度**：
-### O(1)
+# **空间复杂度**：
+# ### O(1)

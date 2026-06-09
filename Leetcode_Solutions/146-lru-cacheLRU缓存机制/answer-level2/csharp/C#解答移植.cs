@@ -1,5 +1,5 @@
-## 自己很菜第一想法
-```csharp
+// ## 自己很菜第一想法
+// ```csharp
 public class LRUCache
 {
     private List<int> Keys;
@@ -49,14 +49,14 @@ public class LRUCache
         }
     }
 }
-```
+// ```
 
-## 小的总结
+// ## 小的总结
 
-本题的要求让我想到了之前做过的辅助栈与数据栈，我想的是一个列表储存键的排序，另一个字典储存键值对。之后看了官方的双向链表加哈希的方法，是满足进阶的要求。发现题解没有C#的，于是移植到C#上稍加改进，然后顺手发了一个C#的题解，如下。
+// 本题的要求让我想到了之前做过的辅助栈与数据栈，我想的是一个列表储存键的排序，另一个字典储存键值对。之后看了官方的双向链表加哈希的方法，是满足进阶的要求。发现题解没有C#的，于是移植到C#上稍加改进，然后顺手发了一个C#的题解，如下。
 
-## 官方题解
-```csharp
+// ## 官方题解
+// ```csharp
 public class LRUCache
 {
     class DLinkedNode
@@ -164,5 +164,5 @@ public class LRUCache
         }
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/2fc6ee49b726b12eb5c4f3bf6d31ccb0f73603164a76cb1a60c007df36ac0e1f-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/2fc6ee49b726b12eb5c4f3bf6d31ccb0f73603164a76cb1a60c007df36ac0e1f-image.png)

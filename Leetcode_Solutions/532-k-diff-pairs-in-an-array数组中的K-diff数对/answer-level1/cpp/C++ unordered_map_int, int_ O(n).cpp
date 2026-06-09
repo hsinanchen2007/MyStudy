@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findPairs(vector<int>& nums, int k) {
@@ -23,4 +23,4 @@ public:
         return ans;
     }
 };
-```
+// ```

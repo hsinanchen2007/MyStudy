@@ -1,9 +1,9 @@
-### 解题思路
-就每次递归减去当前节点的值，要注意的是要判断当前节点是否是叶子节点
-![TIM截图20191220125446.jpg](https://pic.leetcode-cn.com/32c0e625a95f19c5ceb6656f9eb17eec80f5890cd90f7dbd5b1b716e5cb5428c-TIM%E6%88%AA%E5%9B%BE20191220125446.jpg)
-### 代码
+# ### 解题思路
+# 就每次递归减去当前节点的值，要注意的是要判断当前节点是否是叶子节点
+# ![TIM截图20191220125446.jpg](https://pic.leetcode-cn.com/32c0e625a95f19c5ceb6656f9eb17eec80f5890cd90f7dbd5b1b716e5cb5428c-TIM%E6%88%AA%E5%9B%BE20191220125446.jpg)
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             return True
 
         return self.PathSum(root.left,sum ) or self.PathSum(root.right,sum)
-```
+# ```

@@ -1,6 +1,6 @@
-和二叉树的前序遍历方法类似：
-1、递归方式实现
-```
+// 和二叉树的前序遍历方法类似：
+// 1、递归方式实现
+// ```
 /**
  * @param {Node} root
  * @return {number[]}
@@ -24,10 +24,10 @@ var preorder = function(root) {
         }
     }
 };
-```
+// ```
 
-2、迭代方式实现：
-```
+// 2、迭代方式实现：
+// ```
 /**
  * 第二种方式：迭代
  * @param root
@@ -49,5 +49,5 @@ var preorder2 = function(root) {
     }
     return res;
 };
-```
+// ```
 

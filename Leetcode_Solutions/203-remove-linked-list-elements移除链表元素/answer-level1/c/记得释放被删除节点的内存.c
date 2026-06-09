@@ -1,9 +1,9 @@
-### 解题思路
-遍历的时候保留前向节点的指针就可以了。这问题不难，不过我发现很多人都忘了释放被删除节点的内存了
+// ### 解题思路
+// 遍历的时候保留前向节点的指针就可以了。这问题不难，不过我发现很多人都忘了释放被删除节点的内存了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct ListNode* removeElements(struct ListNode* head, int val){
     struct ListNode *prev = NULL, *cur = head, *t;
     while(cur != NULL){
@@ -23,4 +23,4 @@ struct ListNode* removeElements(struct ListNode* head, int val){
     }
     return head;
 }
-```
+// ```

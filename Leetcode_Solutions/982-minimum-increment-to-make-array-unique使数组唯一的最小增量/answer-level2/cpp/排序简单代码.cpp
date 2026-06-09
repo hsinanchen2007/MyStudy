@@ -1,9 +1,9 @@
-### 解题思路
-排序后必须比前一个大就行
+// ### 解题思路
+// 排序后必须比前一个大就行
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -19,4 +19,4 @@ public:
         return ans;
     }
 };
-```
+// ```

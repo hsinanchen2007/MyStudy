@@ -1,6 +1,6 @@
-为了处理好类似于 23:59 00:00这种时间间隔，申请2880长度的数组
-在获取时间时，同时维护arr[time]与arr[time + 1440]，这样就能在一个arr中处理了
-```
+// 为了处理好类似于 23:59 00:00这种时间间隔，申请2880长度的数组
+// 在获取时间时，同时维护arr[time]与arr[time + 1440]，这样就能在一个arr中处理了
+// ```
 #define TIME_NUM_MAX 1440
 
 // 字符串转分钟
@@ -59,4 +59,4 @@ int findMinDifference(char ** timePoints, int timePointsSize){
 
     return checkarr(count_arr);
 }
-```
+// ```

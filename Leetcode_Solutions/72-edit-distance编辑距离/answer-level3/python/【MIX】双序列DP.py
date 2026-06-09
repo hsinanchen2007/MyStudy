@@ -1,10 +1,10 @@
-### 解题思路
-1. 4中可能, 替换/删除/添加/不变
-2. 注意检查边界条件, 时间复杂度$O(NM)$, 空间复杂度$O(MN)$
+# ### 解题思路
+# 1. 4中可能, 替换/删除/添加/不变
+# 2. 注意检查边界条件, 时间复杂度$O(NM)$, 空间复杂度$O(MN)$
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public int minDistance(String word1, String word2) {
         // 状态: f[i][j]: A[0..i-1]和B[0..j-1]的最小编辑距离
@@ -37,8 +37,8 @@ class Solution {
         return f[M][N];
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         N, M = len(word1), len(word2)
@@ -61,8 +61,8 @@ class Solution:
                         f[i][j] = min(f[i][j], f[i-1][j-1])
 
         return f[N][M]
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -90,4 +90,4 @@ public:
         return f[N][M];
     }
 };
-```
+# ```

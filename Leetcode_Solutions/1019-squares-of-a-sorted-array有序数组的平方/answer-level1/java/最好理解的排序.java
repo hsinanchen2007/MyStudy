@@ -1,6 +1,6 @@
-数组有序，则数组的第一个元素的平方与最后一个元素的平方中的最大值一定为整个数组的最大值，故给定2个指针，一个为从0开始，一个为最大值。
+// 数组有序，则数组的第一个元素的平方与最后一个元素的平方中的最大值一定为整个数组的最大值，故给定2个指针，一个为从0开始，一个为最大值。
 
-```
+// ```
 public int[] sortedSquares(int[] A) {
         int maxIndex = A.length;
         int beforeIndex = 0;
@@ -17,4 +17,4 @@ public int[] sortedSquares(int[] A) {
         resultArr[0] = A[beforeIndex]*A[beforeIndex];
         return resultArr;
     }
-```
+// ```

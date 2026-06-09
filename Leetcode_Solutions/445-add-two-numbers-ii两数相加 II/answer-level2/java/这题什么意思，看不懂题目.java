@@ -1,9 +1,9 @@
-### 解题思路
-题目完全没有读懂，摘抄的大佬的代码，等待有缘人帮我讲解下题目，再回来试试怎么么做
+// ### 解题思路
+// 题目完全没有读懂，摘抄的大佬的代码，等待有缘人帮我讲解下题目，再回来试试怎么么做
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -39,4 +39,4 @@ class Solution {
         return stack;
     }
 }
-```
+// ```

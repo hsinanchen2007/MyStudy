@@ -1,10 +1,10 @@
-思想：
-动态规划 得到前i-1个最大（由于i-1可以要或者不要，因此为Max）
- temp1得到前i个最大
+// 思想：
+// 动态规划 得到前i-1个最大（由于i-1可以要或者不要，因此为Max）
+//  temp1得到前i个最大
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a,b) (a>b?a:b)
 int massage(int* nums, int numsSize) {
 	if (!numsSize) return 0;
@@ -20,4 +20,4 @@ int massage(int* nums, int numsSize) {
 	return MAX(dp0, dp1);
 }
 
-```
+// ```

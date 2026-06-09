@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-执行用时 : 112 ms,内存消耗 : 38.3 MB
-def就是为了节省内存开销(浅拷贝注意)，如果要修改数据的话还是直接{ val: 0, next: null }
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 执行用时 : 112 ms,内存消耗 : 38.3 MB
+// def就是为了节省内存开销(浅拷贝注意)，如果要修改数据的话还是直接{ val: 0, next: null }
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -37,4 +37,4 @@ var addTwoNumbers = function (l1, l2) {
     next(l1, l2, List, 0)
     return List
 };
-```
+// ```

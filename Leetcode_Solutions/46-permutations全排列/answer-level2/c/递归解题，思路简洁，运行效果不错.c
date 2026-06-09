@@ -1,13 +1,13 @@
-### 解题思路
-思路是递归，不过有几个坑需要注意；
-坑一、输入输出的内存到底是在哪申请，题解使用output外部申请；
-坑二、一直没搞明白returnColumnSizes该怎么赋值，其实功能大概二十分钟就写对了，愣是返回错误，加了无数打印，发现不是递归的问题。
-![全排列.JPG](https://pic.leetcode-cn.com/b39e6865c9077da41c5d6abfd731a13d19c7c7bae5a27da2f37604e50bca84b0-%E5%85%A8%E6%8E%92%E5%88%97.JPG)
+// ### 解题思路
+// 思路是递归，不过有几个坑需要注意；
+// 坑一、输入输出的内存到底是在哪申请，题解使用output外部申请；
+// 坑二、一直没搞明白returnColumnSizes该怎么赋值，其实功能大概二十分钟就写对了，愣是返回错误，加了无数打印，发现不是递归的问题。
+// ![全排列.JPG](https://pic.leetcode-cn.com/b39e6865c9077da41c5d6abfd731a13d19c7c7bae5a27da2f37604e50bca84b0-%E5%85%A8%E6%8E%92%E5%88%97.JPG)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -63,4 +63,4 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     DFS(returnArray,nums,numsSize);
     return returnArray;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-别怕，这个题目限定了word集合里面的长度，都是一致的，那么就可以按照这个长度去一个坐标一个坐标的遍历S字符串
-字符串每次从i index出发，每次递增一，且每次检索从index出发的word长度字符子串，并拿去进行比较，用hashmap的containsKey方法
-如果匹配，那么就从temp_map (每个index都进行一个hash初始化，在检索匹配之后用来比较sourcemap，从而得出是不是真的匹配上了，)里面hash获取其对应的值，并+1，这里可以直接跟source_map里面的对应value进行比较，如果此处就超过了source——Map,就完全可以跳过该index，直接进行下一个index的匹配。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 别怕，这个题目限定了word集合里面的长度，都是一致的，那么就可以按照这个长度去一个坐标一个坐标的遍历S字符串
+// 字符串每次从i index出发，每次递增一，且每次检索从index出发的word长度字符子串，并拿去进行比较，用hashmap的containsKey方法
+// 如果匹配，那么就从temp_map (每个index都进行一个hash初始化，在检索匹配之后用来比较sourcemap，从而得出是不是真的匹配上了，)里面hash获取其对应的值，并+1，这里可以直接跟source_map里面的对应value进行比较，如果此处就超过了source——Map,就完全可以跳过该index，直接进行下一个index的匹配。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findSubstring(String s, String[] words) {
         List<Integer> res=new ArrayList<Integer>();
@@ -58,4 +58,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

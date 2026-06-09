@@ -1,9 +1,9 @@
-执行结果：通过
-显示详情
-执行用时 :8 ms, 在所有 C 提交中击败了100.00%的用户
-内存消耗 :9.3 MB, 在所有 C 提交中击败了19.67%的用户
+// 执行结果：通过
+// 显示详情
+// 执行用时 :8 ms, 在所有 C 提交中击败了100.00%的用户
+// 内存消耗 :9.3 MB, 在所有 C 提交中击败了19.67%的用户
 
-```
+// ```
 int numIslands(char** grid, int gridSize, int* gridColSize){
     int land = 1;
     char *gColur = NULL;
@@ -74,4 +74,4 @@ int numIslands(char** grid, int gridSize, int* gridColSize){
     return (land - 1);
 }
 
-```
+// ```

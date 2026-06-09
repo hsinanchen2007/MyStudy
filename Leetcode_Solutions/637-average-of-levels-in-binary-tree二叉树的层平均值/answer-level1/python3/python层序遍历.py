@@ -1,8 +1,8 @@
-### 解题思路
-层序遍历的变形，把每一层节点存起来求平均值，加到答案的列表里面
+# ### 解题思路
+# 层序遍历的变形，把每一层节点存起来求平均值，加到答案的列表里面
 
-### 代码
-```
+# ### 代码
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
                     deque.append(node.right)
             res.append(sum(tmp)/count)
         return res
-```
+# ```

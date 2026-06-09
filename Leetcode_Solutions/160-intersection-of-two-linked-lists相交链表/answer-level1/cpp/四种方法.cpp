@@ -1,5 +1,5 @@
-方法一 利用栈
-```
+// 方法一 利用栈
+// ```
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -27,9 +27,9 @@ public:
         return res;
     }
 };
-```
-方法二、利用set
-```
+// ```
+// 方法二、利用set
+// ```
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -45,9 +45,9 @@ public:
         return NULL;
     }
 };
-```
-方法三
-```
+// ```
+// 方法三
+// ```
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -73,9 +73,9 @@ public:
         return NULL;
     }
 };
-```
-方法四 官方的方法三
-```
+// ```
+// 方法四 官方的方法三
+// ```
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -88,5 +88,5 @@ public:
         return pA;
     }
 };
-```
+// ```
 

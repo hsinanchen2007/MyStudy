@@ -1,17 +1,17 @@
-### 解题思路
-1.插入排序+二分查找（通过）
-2.插入排序+遍历查找（超时）
-3.2层for循环暴力方法（超时）
+// ### 解题思路
+// 1.插入排序+二分查找（通过）
+// 2.插入排序+遍历查找（超时）
+// 3.2层for循环暴力方法（超时）
 
 
-方法1：插入排序+二分查找（通过）
-原理：
-1）从后往前找。
-2）每找到1个，进行二分查找，依据找到的位置进行插入排序。构建有序序列
+// 方法1：插入排序+二分查找（通过）
+// 原理：
+// 1）从后往前找。
+// 2）每找到1个，进行二分查找，依据找到的位置进行插入排序。构建有序序列
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> countSmaller(vector<int>& nums) {
@@ -26,10 +26,10 @@ public:
         return counts;
     }
 };
-```
+// ```
 
-方法2：插入排序+遍历查找（超时）
-```cpp
+// 方法2：插入排序+遍历查找（超时）
+// ```cpp
 class Solution {
 public:
     vector<int> countSmaller(vector<int>& nums) {
@@ -66,9 +66,9 @@ public:
         return result;
     }
 };
-```
-方法3：2层for循环暴力方法（超时）
-```cpp
+// ```
+// 方法3：2层for循环暴力方法（超时）
+// ```cpp
 class Solution {
 public:
     vector<int> countSmaller(vector<int>& nums) {
@@ -86,4 +86,4 @@ public:
         return result;
     }
 };
-```
+// ```

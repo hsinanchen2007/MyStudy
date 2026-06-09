@@ -1,9 +1,9 @@
-### 解题思路
-递归记录可以到达的路径，最后计算路径即可
+// ### 解题思路
+// 递归记录可以到达的路径，最后计算路径即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private static int[][] r;
     public int movingCount(int m, int n, int k) {
@@ -56,4 +56,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

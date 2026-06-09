@@ -1,9 +1,9 @@
-### 解题思路
-思路见代码
+// ### 解题思路
+// 思路见代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.Random;
 
 /**
@@ -63,4 +63,4 @@ class Solution {
         arr[j] = tmp;
     }
 }
-```
+// ```

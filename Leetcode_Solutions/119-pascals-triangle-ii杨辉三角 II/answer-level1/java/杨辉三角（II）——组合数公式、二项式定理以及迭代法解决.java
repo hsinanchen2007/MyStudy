@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         /*/方法1：和118题思路一样，采用递归法
@@ -40,4 +40,4 @@ class Solution {
         return (int)res;
     }
 }
-```
+// ```

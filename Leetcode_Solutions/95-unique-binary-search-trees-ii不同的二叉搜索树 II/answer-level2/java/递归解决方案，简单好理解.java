@@ -1,9 +1,9 @@
-### 解题思路
-递归方式，通过使用两个数组保存根节点的左右子树，最后将根节点的所有左右子树情况汇总到list中即可
+// ### 解题思路
+// 递归方式，通过使用两个数组保存根节点的左右子树，最后将根节点的所有左右子树情况汇总到list中即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -81,4 +81,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

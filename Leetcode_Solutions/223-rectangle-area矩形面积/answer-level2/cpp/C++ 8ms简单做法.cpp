@@ -1,5 +1,5 @@
 
-叠加法 Area = Area(rect1) + Area(rect2) - Area(rect1^rect2)
+// 叠加法 Area = Area(rect1) + Area(rect2) - Area(rect1^rect2)
 
 class Solution {
 public:

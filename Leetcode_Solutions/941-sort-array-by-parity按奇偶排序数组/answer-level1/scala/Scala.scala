@@ -1,10 +1,10 @@
-### 解题思路
-用两个listbuffer动态增加偶数元素和奇数元素，
-再将两个listbuffer合并转换成array
+// ### 解题思路
+// 用两个listbuffer动态增加偶数元素和奇数元素，
+// 再将两个listbuffer合并转换成array
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 import scala.collection.mutable.ListBuffer
 object Solution {
     def sortArrayByParity(A: Array[Int]): Array[Int] = {
@@ -21,4 +21,4 @@ object Solution {
     list3.toArray
     }
 }
-```
+// ```

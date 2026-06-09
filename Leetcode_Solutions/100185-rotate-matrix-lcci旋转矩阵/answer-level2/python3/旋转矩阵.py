@@ -1,9 +1,9 @@
-### 解题思路
-先上下镜像翻转，再以对角线翻转
+# ### 解题思路
+# 先上下镜像翻转，再以对角线翻转
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -20,4 +20,4 @@ class Solution:
                 matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
 
 
-```
+# ```

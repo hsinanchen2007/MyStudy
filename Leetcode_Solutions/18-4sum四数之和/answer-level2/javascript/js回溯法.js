@@ -1,9 +1,9 @@
-### 解题思路
-回溯法，之前三数和用回溯法超时了，没想到四数和不会超时
+// ### 解题思路
+// 回溯法，之前三数和用回溯法超时了，没想到四数和不会超时
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -24,4 +24,4 @@ var fourSum = function(nums, target) {
     backTrack(res, [], nums.sort(), target, 0)
     return res
 };
-```
+// ```

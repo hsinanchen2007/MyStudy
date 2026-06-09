@@ -1,9 +1,9 @@
-### 解法一: 后序遍历、递归
+# ### 解法一: 后序遍历、递归
 
-依据二叉树展开为链表的特点，使用后序遍历完成展开。
+# 依据二叉树展开为链表的特点，使用后序遍历完成展开。
 
 
-```Python []
+# ```Python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,10 +28,10 @@ class Solution:
                 root.left = None # 置空根节点的左子树
             root = root.right # 令当前节点指向下一个节点
         helper(root)
-```
+# ```
 
 
-```C++ []
+# ```C++ []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -60,14 +60,14 @@ public:
         return;
     }
 };
-```
+# ```
 
-### 解法二: 非递归，不使用辅助空间及全局变量
+# ### 解法二: 非递归，不使用辅助空间及全局变量
 
-前面的递归解法实际上也使用了额外的空间，因为递归需要占用额外空间。下面的解法无需申请栈，也不用全局变量，是真正的 `In-Place` 解法。
+# 前面的递归解法实际上也使用了额外的空间，因为递归需要占用额外空间。下面的解法无需申请栈，也不用全局变量，是真正的 `In-Place` 解法。
 
 
-```C++ []
+# ```C++ []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -93,9 +93,9 @@ public:
         return;
     }
 };
-```
+# ```
 
-```Python []
+# ```Python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -118,4 +118,4 @@ class Solution:
             root = root.right
         return
             
-```
+# ```

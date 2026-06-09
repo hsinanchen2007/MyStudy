@@ -1,9 +1,9 @@
-### 解题思路
-方法一：倒序加1
-1,注意加1之后超过10特殊处理即可
-### 代码
+// ### 解题思路
+// 方法一：倒序加1
+// 1,注意加1之后超过10特殊处理即可
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -40,4 +40,4 @@ int* plusOne(int* digits, int digitsSize, int* returnSize){
         return &pRet[0];
     }
 }
-```
+// ```

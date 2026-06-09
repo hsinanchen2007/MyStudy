@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/b02a7fba2f51eaa394cb6311778629077214db1553c1a860cc2d5b4da496c1fb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b02a7fba2f51eaa394cb6311778629077214db1553c1a860cc2d5b4da496c1fb-image.png)
 
-```
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -38,7 +38,7 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
 
     return res;
 }
-```
+// ```
 
 
 

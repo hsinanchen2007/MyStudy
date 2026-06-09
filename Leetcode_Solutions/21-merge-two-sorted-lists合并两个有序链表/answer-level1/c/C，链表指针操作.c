@@ -1,12 +1,12 @@
-### 解题思路
-1，创建链表头
-2，双链表，双指针判断
-3，定位，找到需要插入的位置，注意组合链表的形成
-4， l1链表节点数大于l2链表节点数，将l1插入l2中
-5，链表尾部处理
-### 代码
+// ### 解题思路
+// 1，创建链表头
+// 2，双链表，双指针判断
+// 3，定位，找到需要插入的位置，注意组合链表的形成
+// 4， l1链表节点数大于l2链表节点数，将l1插入l2中
+// 5，链表尾部处理
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -97,4 +97,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 
     return pHeadNode->next;
 }
-```
+// ```

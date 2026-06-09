@@ -1,5 +1,5 @@
-朴素算法：
-```
+// 朴素算法：
+// ```
 int strStr(char * haystack, char * needle){
     int i =0,j=0;
     while (i<strlen(haystack)&&j<strlen(needle))
@@ -20,9 +20,9 @@ int strStr(char * haystack, char * needle){
         return -1;
     
 }
-```
-KMP算法，啧.....其实我下面这个有缺陷，多用了一个Char空间。
-```
+// ```
+// KMP算法，啧.....其实我下面这个有缺陷，多用了一个Char空间。
+// ```
 int strStr(char * haystack, char * needle){
 
     int i=0,j=-1;
@@ -52,6 +52,6 @@ int strStr(char * haystack, char * needle){
     else
         return -1;
 }
-```
+// ```
 
 

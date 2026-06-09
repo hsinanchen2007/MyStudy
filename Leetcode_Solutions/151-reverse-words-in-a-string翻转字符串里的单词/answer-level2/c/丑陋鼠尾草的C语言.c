@@ -1,9 +1,9 @@
-### 解题思路
-暴力解决
+// ### 解题思路
+// 暴力解决
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * reverseWords(char * s){
     
     int len = strlen(s);
@@ -60,4 +60,4 @@ char * reverseWords(char * s){
     return ret; 
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-1、思路一，实时校验，校验时循环行、列、块判重
-```java
+// 1、思路一，实时校验，校验时循环行、列、块判重
+// ```java
 class Solution {
     public void solveSudoku(char[][] board) {
         if (board == null || board.length != 9 || board[0].length != 9) return;
@@ -28,11 +28,11 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-2、思路二，提前预设行、列、块，避免校验时循环（效率更高）
+// 2、思路二，提前预设行、列、块，避免校验时循环（效率更高）
 
-```java
+// ```java
 class Solution {
     public void solveSudoku(char[][] board) {
         if (board == null || board.length != 9 || board[0].length != 9) return;
@@ -66,7 +66,7 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 
-3、思路三，通过位运算快速判重
-待更新
+// 3、思路三，通过位运算快速判重
+// 待更新

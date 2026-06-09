@@ -1,4 +1,4 @@
-思路：为每个房屋找到最近的供暖器，并记录距离；在所有最近的里挑最大的距离返回
+// 思路：为每个房屋找到最近的供暖器，并记录距离；在所有最近的里挑最大的距离返回
 class Solution {
 public:
     int findRadius(vector<int>& houses, vector<int>& heaters) {

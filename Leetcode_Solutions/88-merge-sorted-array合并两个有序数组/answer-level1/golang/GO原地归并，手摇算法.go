@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用手摇算法进行原地归并，时间复杂度O(N),空间复杂度O(1)
+// 使用手摇算法进行原地归并，时间复杂度O(N),空间复杂度O(1)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func merge(nums1 []int, m int, nums2 []int, n int) {
 	nums1 = append(nums1[:m], nums2[:n]...)
 	if n == 0 || m == 0 {
@@ -42,4 +42,4 @@ func reverse(nums []int, l, r int) {
 	}
 }
 
-```
+// ```

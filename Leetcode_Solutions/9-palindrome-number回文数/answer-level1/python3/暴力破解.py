@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         #如果输入负数，则肯定不是回文数
@@ -9,5 +9,5 @@ class Solution:
             return True
         else:
             return False
-```
+# ```
 

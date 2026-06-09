@@ -1,6 +1,6 @@
-直接构建结果数组, 按所在 index 逐个插入
+// 直接构建结果数组, 按所在 index 逐个插入
 
-```
+// ```
 /**
  * @param {number[]} nums
  * @param {number[]} index
@@ -13,6 +13,6 @@ var createTargetArray = function(nums, index) {
     }
     return result;
 };
-```
+// ```
 
-我的所有题解 <https://github.com/yinxin630/leetcode>
+// 我的所有题解 <https://github.com/yinxin630/leetcode>

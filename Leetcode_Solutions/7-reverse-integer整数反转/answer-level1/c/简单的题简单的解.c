@@ -1,9 +1,9 @@
-### 解题思路
-整数溢出判断
+// ### 解题思路
+// 整数溢出判断
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int reverse(int x){
     long long ret = 0;
     int num = 0;
@@ -17,4 +17,4 @@ int reverse(int x){
         return 0;
     return ret;
 }
-```
+// ```

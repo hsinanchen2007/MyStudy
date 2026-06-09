@@ -1,9 +1,9 @@
-### 解题思路
-反向累加
+// ### 解题思路
+// 反向累加
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         int reverse=0;
@@ -20,4 +20,4 @@ class Solution {
 
     }
 }
-```
+// ```

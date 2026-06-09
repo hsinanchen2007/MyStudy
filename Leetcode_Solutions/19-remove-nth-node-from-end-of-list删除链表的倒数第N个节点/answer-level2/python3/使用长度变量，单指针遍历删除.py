@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         lenOfLis = 0
@@ -25,4 +25,4 @@ class Solution:
                 curr = curr.next
                 curr_n = curr_n + 1
         return headnode.next
-```
+# ```

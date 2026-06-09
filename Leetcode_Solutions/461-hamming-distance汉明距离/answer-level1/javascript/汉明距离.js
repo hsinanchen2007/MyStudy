@@ -1,8 +1,8 @@
-*法一：二进制异或运算*
+// *法一：二进制异或运算*
 
-`^`：（`x^y`）两二进制上下比较只有位不相等时才取1，否则取零
+// `^`：（`x^y`）两二进制上下比较只有位不相等时才取1，否则取零
 
-```js
+// ```js
 var hammingDistance = function(x, y) {
     let k = x^y;
     let str = k.toString(2);
@@ -14,11 +14,11 @@ var hammingDistance = function(x, y) {
     }
     return count
 };
-```
+// ```
 
-*法二*
+// *法二*
 
-```js
+// ```js
 var hammingDistance = function(x, y) {
     let max = x >= y ? x : y;
     let max2 = max.toString(2);
@@ -32,4 +32,4 @@ var hammingDistance = function(x, y) {
     }
     return count
 };
-```
+// ```

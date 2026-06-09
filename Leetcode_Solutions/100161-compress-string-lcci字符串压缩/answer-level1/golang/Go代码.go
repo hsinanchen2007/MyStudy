@@ -1,6 +1,6 @@
-![微信图片_20200316095857.png](https://pic.leetcode-cn.com/8c450bf3e939dc9258b270229a4066c304b081aab289a7d4174ec71a117071c1-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200316095857.png)
+// ![微信图片_20200316095857.png](https://pic.leetcode-cn.com/8c450bf3e939dc9258b270229a4066c304b081aab289a7d4174ec71a117071c1-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200316095857.png)
 
-```golang
+// ```golang
 func compressString(S string) string {
     if len(S) < 3 {
         return S
@@ -25,4 +25,4 @@ func compressString(S string) string {
 	}
 	return string(buf)
 }
-```
+// ```

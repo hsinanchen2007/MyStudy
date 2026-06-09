@@ -1,8 +1,8 @@
-python DFS操作
-我感觉主要麻烦的点是怎么在DFS里面存访问过的点
-我用的集合存储访问过的点, 构造nonlocal 变量来进行类似的剪枝操作
+# python DFS操作
+# 我感觉主要麻烦的点是怎么在DFS里面存访问过的点
+# 我用的集合存储访问过的点, 构造nonlocal 变量来进行类似的剪枝操作
 
-```python
+# ```python
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         if not word or not board:
@@ -43,4 +43,4 @@ class Solution:
                     dfs(i, j, 0)
                 if res: return True
         return False
-```
+# ```

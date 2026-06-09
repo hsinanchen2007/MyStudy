@@ -1,7 +1,7 @@
-该题是找最深的叶子节点的最近公共祖先，如果只有一个最深叶子节点就是它本身。
-递归查找每一个节点深度，如果两个子节点深度一样，公共节点就是该节点，不等的话，找深度大的子节点，继续往下查找
+// 该题是找最深的叶子节点的最近公共祖先，如果只有一个最深叶子节点就是它本身。
+// 递归查找每一个节点深度，如果两个子节点深度一样，公共节点就是该节点，不等的话，找深度大的子节点，继续往下查找
 
-```
+// ```
 func lcaDeepestLeaves(root *TreeNode) *TreeNode {
 	node, _ := recursion(root,0)
 	return node
@@ -28,4 +28,4 @@ func recursion(node *TreeNode, depth int) (*TreeNode, int)  {
 		return node, rightDepth
 	}
 }
-```
+// ```

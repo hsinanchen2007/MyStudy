@@ -1,16 +1,16 @@
-### 解题思路
-参考了@失火的夏天的题解。
-1. 判断是否为二叉搜索树；
-2. 树键值的求和；
-3. 遍历寻找最大值。
-每对BST做一次求和，就更新一下答案
+// ### 解题思路
+// 参考了@失火的夏天的题解。
+// 1. 判断是否为二叉搜索树；
+// 2. 树键值的求和；
+// 3. 遍历寻找最大值。
+// 每对BST做一次求和，就更新一下答案
 
-![图片.png](https://pic.leetcode-cn.com/7137c3030c071d5b22a2699e79fe436aebb5e06c14b2fc1fdd8c051f7c0fb142-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/7137c3030c071d5b22a2699e79fe436aebb5e06c14b2fc1fdd8c051f7c0fb142-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -54,4 +54,4 @@ public:
         return maxSum;
     }
 };
-```
+// ```

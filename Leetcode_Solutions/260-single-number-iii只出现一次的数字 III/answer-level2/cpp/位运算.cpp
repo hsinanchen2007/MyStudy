@@ -1,5 +1,5 @@
-挺简单的
-```c++
+// 挺简单的
+// ```c++
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
@@ -12,4 +12,4 @@ public:
         return {t,res^t};
     }
 };
-```
+// ```

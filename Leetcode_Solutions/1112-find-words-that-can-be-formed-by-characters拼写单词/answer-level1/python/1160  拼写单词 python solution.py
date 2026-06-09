@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import Counter
 class Solution(object):
         
@@ -28,9 +28,9 @@ class Solution(object):
         return res
 
 
-```
+# ```
 
 
 
 
-the nice method for this problem
+# the nice method for this problem

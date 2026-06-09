@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/9c36c315fb14cda8e3a905cac851292bcb78b059acb7b6ea3026c19eff93229d-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/9c36c315fb14cda8e3a905cac851292bcb78b059acb7b6ea3026c19eff93229d-image.png)
 
-学习了，二维的dp。
+// 学习了，二维的dp。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} slices
  * @return {number}
@@ -30,4 +30,4 @@ var maxSizeSlices = function(slices) {
     }
     return Math.max(dpMeth(slices.slice(1)), dpMeth(slices.slice(0, slices.length - 1)));
 };
-```
+// ```

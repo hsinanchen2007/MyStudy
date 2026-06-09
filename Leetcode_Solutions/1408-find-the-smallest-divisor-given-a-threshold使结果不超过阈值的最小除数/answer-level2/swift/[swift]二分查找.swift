@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
      func smallestDivisor(_ nums: [Int], _ threshold: Int) -> Int {
          let numsDouble = nums.map { Double($0)}
@@ -19,4 +19,4 @@ class Solution {
          return left
      }
   }
-```
+// ```

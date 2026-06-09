@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] generateMatrix(int n) {
 		int[][] re = new int[n][n];
@@ -46,4 +46,4 @@ class Solution {
 		return re;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-就是判断B是否为A+A的子串，主要是因为A中两部分元素交换顺序，这两部分元素间的顺序没有改变。
-双指针，对A+A中前l1 - l2 + 1个元素去遍历，判断B是否为从当前元素开始的子串
+# ### 解题思路
+# 就是判断B是否为A+A的子串，主要是因为A中两部分元素交换顺序，这两部分元素间的顺序没有改变。
+# 双指针，对A+A中前l1 - l2 + 1个元素去遍历，判断B是否为从当前元素开始的子串
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rotateString(self, A, B):
         """
@@ -28,4 +28,4 @@ class Solution(object):
                 return True
         return False
         
-```
+# ```

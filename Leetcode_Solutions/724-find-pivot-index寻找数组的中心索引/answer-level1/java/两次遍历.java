@@ -1,16 +1,16 @@
-1. 关于复杂度
-  1.1 时间复杂度为 O(n)
-  1.2 空间负责度为 O(1)
-2. 我的解题思路
-  2.1 循环遍历数组将所有数加到 right 变量中
-  2.2 先用首元素减掉 right 变量，然后跟 left 变量对比
-  2.3 循环遍历数组，不断减掉 right 变量以及加上 left 变量，对比返回 
-3. 提交记录
-  3.1 力扣中耗时2ms,消耗39MB内存
-  3.2 leetcode中耗时1ms,消耗40MB内存
-4. Q&A
+// 1. 关于复杂度
+//   1.1 时间复杂度为 O(n)
+//   1.2 空间负责度为 O(1)
+// 2. 我的解题思路
+//   2.1 循环遍历数组将所有数加到 right 变量中
+//   2.2 先用首元素减掉 right 变量，然后跟 left 变量对比
+//   2.3 循环遍历数组，不断减掉 right 变量以及加上 left 变量，对比返回 
+// 3. 提交记录
+//   3.1 力扣中耗时2ms,消耗39MB内存
+//   3.2 leetcode中耗时1ms,消耗40MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     724.Find Pivot Index
@@ -63,6 +63,6 @@ public class Solution724 {
     }
 
 }
-```
-如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
-你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
+// 你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路

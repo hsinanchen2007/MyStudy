@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void search4Director(vector<vector<char>>& board, int x, int y, int& count, int exclude)
@@ -107,4 +107,4 @@ public:
     }
 
 };
-```
+// ```

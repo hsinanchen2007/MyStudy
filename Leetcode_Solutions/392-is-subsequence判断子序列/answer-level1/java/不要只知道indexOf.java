@@ -1,9 +1,9 @@
-### 解题思路
-indexOf还有一个多参数的，第二个参数表示起始位置，可以过滤到重复的情况，了解API 重要。
+// ### 解题思路
+// indexOf还有一个多参数的，第二个参数表示起始位置，可以过滤到重复的情况，了解API 重要。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isSubsequence(String s, String t) {
         int i = -1;
@@ -16,4 +16,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

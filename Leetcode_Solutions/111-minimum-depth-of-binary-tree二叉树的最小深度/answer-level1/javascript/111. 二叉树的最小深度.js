@@ -1,17 +1,17 @@
-#### 各类算法模板
-+ [递归 + DFS + BFS 算法模板](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/AlgorithmTemplate%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF.md)
-#### 解法一：递归 DFS
-+ [思路同 104. 二叉树的最大深度 - 解法一](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/104-er-cha-shu-de-zui-da-shen-du-by-alexer-660/)
-+ 区别
-  + 求最小深度时，有特殊情况
-    + 当根节点只有一个左子节点或右子节点时，最小深度为1，不包括根节点自己
-  + 类似
-    + ```root.left === null || root.right === null```
-    + 此时，如104解法一，```leftSubDepth```和```rightSubDepth```必定有一个为0
-      + 如果还用```Math.min(leftSubDepth,rightSubDepth) + 1 ```来算的话，会算得```0+1=1```，此时就相当于把当前```rooot```节点算进去了，这显然是不和题意的
-      + 因此要特殊处理，把其中一个不等于0的算进去才对，即
-        + ```leftSubDepth + rightSubDepth + 1```
-```javascript
+// #### 各类算法模板
+// + [递归 + DFS + BFS 算法模板](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/AlgorithmTemplate%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF.md)
+// #### 解法一：递归 DFS
+// + [思路同 104. 二叉树的最大深度 - 解法一](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/104-er-cha-shu-de-zui-da-shen-du-by-alexer-660/)
+// + 区别
+//   + 求最小深度时，有特殊情况
+//     + 当根节点只有一个左子节点或右子节点时，最小深度为1，不包括根节点自己
+//   + 类似
+//     + ```root.left === null || root.right === null```
+//     + 此时，如104解法一，```leftSubDepth```和```rightSubDepth```必定有一个为0
+//       + 如果还用```Math.min(leftSubDepth,rightSubDepth) + 1 ```来算的话，会算得```0+1=1```，此时就相当于把当前```rooot```节点算进去了，这显然是不和题意的
+//       + 因此要特殊处理，把其中一个不等于0的算进去才对，即
+//         + ```leftSubDepth + rightSubDepth + 1```
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -34,10 +34,10 @@ var minDepth = function(root) {
     }
     return getDepth(root)
 };
-```
-#### 解法二：迭代+栈+DFS
-+ [思路同 104. 二叉树的最大深度 - 解法二](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/104-er-cha-shu-de-zui-da-shen-du-by-alexer-660/)
-```javascript
+// ```
+// #### 解法二：迭代+栈+DFS
+// + [思路同 104. 二叉树的最大深度 - 解法二](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/104-er-cha-shu-de-zui-da-shen-du-by-alexer-660/)
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -71,10 +71,10 @@ var minDepth = function(root) {
   }
   return depth;
 };
-```
-#### 解法三：BFS
-+ [思路同 104. 二叉树的最大深度 - 解法三](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/104-er-cha-shu-de-zui-da-shen-du-by-alexer-660/)
-```javascript
+// ```
+// #### 解法三：BFS
+// + [思路同 104. 二叉树的最大深度 - 解法三](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/104-er-cha-shu-de-zui-da-shen-du-by-alexer-660/)
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -112,10 +112,10 @@ var minDepth = function(root) {
   }
   return depth;
 };
-```
-#### 解法四：递归DFS
-+ [思路同 104. 二叉树的最大深度 - 解法四](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/104-er-cha-shu-de-zui-da-shen-du-by-alexer-660/)
-```javascript
+// ```
+// #### 解法四：递归DFS
+// + [思路同 104. 二叉树的最大深度 - 解法四](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/104-er-cha-shu-de-zui-da-shen-du-by-alexer-660/)
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -146,4 +146,4 @@ var minDepth = function(root) {
   helper(root,1);
   return result;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public ListNode removeNthFromEnd(ListNode head, int n) {
 	ListNode temp = head;
 	int length = 1;
@@ -23,5 +23,5 @@ public ListNode removeNthFromEnd(ListNode head, int n) {
 		pre.next = temp.next;
 	return head;
 }
-```
+// ```
 

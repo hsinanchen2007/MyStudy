@@ -1,5 +1,5 @@
-用双端队列实现一个单调栈，其实可以叫单调队列了。
-```cpp
+// 用双端队列实现一个单调栈，其实可以叫单调队列了。
+// ```cpp
 class MaxQueue {
 public:
     MaxQueue() {
@@ -30,4 +30,4 @@ private:
     queue<int> q;
     deque<int> dq;
 };
-```
+// ```

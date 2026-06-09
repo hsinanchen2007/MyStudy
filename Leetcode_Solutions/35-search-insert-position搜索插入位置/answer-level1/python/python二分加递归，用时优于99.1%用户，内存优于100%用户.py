@@ -1,6 +1,6 @@
-![leetcode.png](https://pic.leetcode-cn.com/4d45bc3595c7188acba71ea982bd7ff091d5c20490473a70d49e8e47b046a6cb-leetcode.png)
+# ![leetcode.png](https://pic.leetcode-cn.com/4d45bc3595c7188acba71ea982bd7ff091d5c20490473a70d49e8e47b046a6cb-leetcode.png)
 
-```
+# ```
 class Solution(object):
     def searchInsert(self, nums, target):
         """
@@ -18,4 +18,4 @@ class Solution(object):
         elif target < nums[middle]:
             middle = self.searchInsert(nums[:middle], target)
         return middle
-```
+# ```

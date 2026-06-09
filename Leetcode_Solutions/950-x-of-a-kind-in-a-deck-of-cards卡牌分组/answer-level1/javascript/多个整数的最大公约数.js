@@ -1,18 +1,18 @@
-## 简介
-- [题目链接](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/)
+// ## 简介
+// - [题目链接](https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/)
 
 
-## 解法一 - 多个数的最大公约数
-本题转换成数学题就是求所有整数个数的最大公约数。
+// ## 解法一 - 多个数的最大公约数
+// 本题转换成数学题就是求所有整数个数的最大公约数。
 
-通常我们是求两个数的最大公约数，使用辗转相除法：
-```javascript
+// 通常我们是求两个数的最大公约数，使用辗转相除法：
+// ```javascript
 function gcd(a, b) {
   return b === 0 ? a : gcd(b, a % b);
 }
-```
+// ```
 
-```javascript
+// ```javascript
 var hasGroupsSizeX = function(deck) {
     let map = {};
 
@@ -33,9 +33,9 @@ var hasGroupsSizeX = function(deck) {
         return b === 0 ? a : gcd(b, a % b);
     }
 };
-```
-**复杂度分析**:
-- 时间复杂度： $O(N)$，$N$ 是数组长度。建立 map 需要 $O(N)$。求两个数的最大公约数为 $O(lgK)$ 级别。为了简化问题，我们假设 map 中所有元素的值都是相等的，因此求多个数的最大公约数的时间复杂度即为： $\frac{lgK * N}{K} < N$。因此，总的时间复杂度为 $O(N)$
-- 空间复杂度： $O(N)$
+// ```
+// **复杂度分析**:
+// - 时间复杂度： $O(N)$，$N$ 是数组长度。建立 map 需要 $O(N)$。求两个数的最大公约数为 $O(lgK)$ 级别。为了简化问题，我们假设 map 中所有元素的值都是相等的，因此求多个数的最大公约数的时间复杂度即为： $\frac{lgK * N}{K} < N$。因此，总的时间复杂度为 $O(N)$
+// - 空间复杂度： $O(N)$
 
-对于多个数的最大公约数问题，如果数量级达到一定级别，我们可以通过排序进行优化处理。
+// 对于多个数的最大公约数问题，如果数量级达到一定级别，我们可以通过排序进行优化处理。

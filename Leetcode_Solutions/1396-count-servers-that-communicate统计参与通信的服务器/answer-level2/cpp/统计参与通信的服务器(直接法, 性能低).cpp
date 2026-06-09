@@ -1,7 +1,7 @@
-### 解题思路
-### 代码
+// ### 解题思路
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -50,4 +50,4 @@ public:
         if(find) num++;
     }
 };
-```
+// ```

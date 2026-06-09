@@ -1,9 +1,9 @@
-### 解题思路
-合并数组，用快速选择，时间复杂度为O(n+m),还是能过
+// ### 解题思路
+// 合并数组，用快速选择，时间复杂度为O(n+m),还是能过
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -17,4 +17,4 @@ public:
         return (m1+m2)/2.0;
     }
 };
-```
+// ```

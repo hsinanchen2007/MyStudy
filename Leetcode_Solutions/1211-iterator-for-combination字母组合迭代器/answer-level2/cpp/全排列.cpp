@@ -1,6 +1,6 @@
-求全排列并存储，每次 next() 以后删除一个元素。
+// 求全排列并存储，每次 next() 以后删除一个元素。
 
-```
+// ```
 class CombinationIterator {
    public:
     CombinationIterator(string characters, int combinationLength) {
@@ -30,6 +30,6 @@ class CombinationIterator {
    private:
     vector<string> paths;
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/eb84a2203e38f204a16ec9ae5f8148f0582f4271e0d3fb13d7803b7f9807e193-image.png)
+// ![image.png](https://pic.leetcode-cn.com/eb84a2203e38f204a16ec9ae5f8148f0582f4271e0d3fb13d7803b7f9807e193-image.png)

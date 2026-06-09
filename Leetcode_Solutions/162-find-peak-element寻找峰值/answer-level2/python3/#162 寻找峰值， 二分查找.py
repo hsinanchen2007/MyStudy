@@ -1,11 +1,11 @@
-### 解题思路
-时间复杂度：O(log(n))
-空间复杂度：O(1)
+# ### 解题思路
+# 时间复杂度：O(log(n))
+# 空间复杂度：O(1)
 
-和有序数组的二分查找一样，只不过加一个每一步判断l，r，mid对应的位置是不是峰值，最好情况时间复杂度可以是O(1)。
-### 代码
+# 和有序数组的二分查找一样，只不过加一个每一步判断l，r，mid对应的位置是不是峰值，最好情况时间复杂度可以是O(1)。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
         if len(nums) == 1:
@@ -25,4 +25,4 @@ class Solution:
                 l = mid + 1
             else:
                 r = mid - 1
-```
+# ```

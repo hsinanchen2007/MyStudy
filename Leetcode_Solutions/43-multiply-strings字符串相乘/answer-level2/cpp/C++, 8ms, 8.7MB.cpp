@@ -1,9 +1,9 @@
-### 解题思路
-两个数对应位相乘，再相加，用的比较笨的方法，看代码很容易懂。
+// ### 解题思路
+// 两个数对应位相乘，再相加，用的比较笨的方法，看代码很容易懂。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string multiply(string num1, string num2) {
@@ -31,4 +31,4 @@ public:
         return ans;
     }
 };
-```
+// ```

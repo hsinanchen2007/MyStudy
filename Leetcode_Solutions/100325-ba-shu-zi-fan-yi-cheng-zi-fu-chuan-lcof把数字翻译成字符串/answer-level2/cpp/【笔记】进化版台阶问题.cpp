@@ -1,9 +1,9 @@
-### 解题思路
-该问题是台阶问题的进化版。转移方程为：
+// ### 解题思路
+// 该问题是台阶问题的进化版。转移方程为：
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int translateNum(int num) {
@@ -24,4 +24,4 @@ public:
         return dp[numStr.size()];
     }
 };
-```
+// ```

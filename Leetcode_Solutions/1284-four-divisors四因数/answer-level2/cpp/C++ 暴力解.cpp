@@ -1,7 +1,7 @@
-**C++暴力可过，需要注意几个条件**
-* 筛选时只筛选nums[i]/2的部分
-* 当找到的因数大于4时立即break
-```
+// **C++暴力可过，需要注意几个条件**
+// * 筛选时只筛选nums[i]/2的部分
+// * 当找到的因数大于4时立即break
+// ```
 class Solution {
 public:
     int sumFourDivisors(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

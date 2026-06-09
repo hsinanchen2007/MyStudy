@@ -1,16 +1,16 @@
-# 题解 
-这道题可以用滑动窗口的方式来解决，窗口的大小是words数组里面所有单词的总和。   
-因为字符串s如果有子串能完全匹配words，那肯定是words中的每个单词都要出现若干次的(words里面的单词可能有重复)。   
-以barfoothefoobarman为例，words=["foo","bar"]，那么窗口大小就是6(foo+bar的长度)。   
-![img_2644.jpg](https://pic.leetcode-cn.com/008b03dade01dbb56460891a0e54ba4db32c7d1a08d025d6aa6cadde6e047047-img_2644.jpg)
+// # 题解 
+// 这道题可以用滑动窗口的方式来解决，窗口的大小是words数组里面所有单词的总和。   
+// 因为字符串s如果有子串能完全匹配words，那肯定是words中的每个单词都要出现若干次的(words里面的单词可能有重复)。   
+// 以barfoothefoobarman为例，words=["foo","bar"]，那么窗口大小就是6(foo+bar的长度)。   
+// ![img_2644.jpg](https://pic.leetcode-cn.com/008b03dade01dbb56460891a0e54ba4db32c7d1a08d025d6aa6cadde6e047047-img_2644.jpg)
    
-我们从字符串s的开始位置起，每次截取6位长度记做tmp，跟words的单词比较。words中的单词都放到一个map中，key是单词，value是这个单词出现的次数。我们比较tmp和map是否完全匹配，如果是就找到了一个索引位置。   
-我们按照这种方式迭代完整个数组，就可以求出解了。   
-![动态图.gif](https://pic.leetcode-cn.com/93fb4436340daedd835496ea52c7b5c16761bc115f621dc656c625e044038379-%E5%8A%A8%E6%80%81%E5%9B%BE.gif)
+// 我们从字符串s的开始位置起，每次截取6位长度记做tmp，跟words的单词比较。words中的单词都放到一个map中，key是单词，value是这个单词出现的次数。我们比较tmp和map是否完全匹配，如果是就找到了一个索引位置。   
+// 我们按照这种方式迭代完整个数组，就可以求出解了。   
+// ![动态图.gif](https://pic.leetcode-cn.com/93fb4436340daedd835496ea52c7b5c16761bc115f621dc656c625e044038379-%E5%8A%A8%E6%80%81%E5%9B%BE.gif)
 
 
-代码实现：
-```java []
+// 代码实现：
+// ```java []
 class Solution {
 	public List<Integer> findSubstring(String s, String[] words) {
 		if(s==null || "".equals(s) || words==null || words.length==0) {
@@ -57,8 +57,8 @@ class Solution {
 		return res;
 	}
 }
-```
-```python []
+// ```
+// ```python []
 class Solution(object):
 	def findSubstring(self, s, words):
 		"""
@@ -96,8 +96,8 @@ class Solution(object):
 			if not d:
 				res.append(i)
 		return res
-```
-(全文完)   
-**如果你觉得本文对你有帮助，欢迎关注我的公众号。**
+// ```
+// (全文完)   
+// **如果你觉得本文对你有帮助，欢迎关注我的公众号。**
    
-![ban.png](https://pic.leetcode-cn.com/6b52b8de211ec9b634d7aaf6ccf2d9149160ca3b67ea0742c57f622f1c54e47d-ban.png)
+// ![ban.png](https://pic.leetcode-cn.com/6b52b8de211ec9b634d7aaf6ccf2d9149160ca3b67ea0742c57f622f1c54e47d-ban.png)

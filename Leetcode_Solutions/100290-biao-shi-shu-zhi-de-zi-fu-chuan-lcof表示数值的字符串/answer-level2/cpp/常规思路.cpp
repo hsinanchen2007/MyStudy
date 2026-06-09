@@ -1,12 +1,12 @@
-### 常规解法
+// ### 常规解法
 
-1. 去除首尾空格
-2. 判断字符是否合法及特殊符号的个数，`.` 最多有1个，`+-`最多有2个，`e`最多有1个
-3. 根据是否含有 e 进行判断
-   3.1 如果没有 e, check0
-   3.2 如果有 e，check0 && check1
+// 1. 去除首尾空格
+// 2. 判断字符是否合法及特殊符号的个数，`.` 最多有1个，`+-`最多有2个，`e`最多有1个
+// 3. 根据是否含有 e 进行判断
+//    3.1 如果没有 e, check0
+//    3.2 如果有 e，check0 && check1
 
-```
+// ```
 class Solution {
    public:
     bool isNumber(string s) {
@@ -92,6 +92,6 @@ class Solution {
         return true;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/64436cdeba7ac4a6ab6b60224ab07e4b899f0c57bf1171a02012d8eb172be83a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/64436cdeba7ac4a6ab6b60224ab07e4b899f0c57bf1171a02012d8eb172be83a-image.png)

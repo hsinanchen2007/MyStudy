@@ -1,4 +1,4 @@
-解法一：思维：将int整数转化为字符串，再转化为char[]数组进行倒叙遍历
+// 解法一：思维：将int整数转化为字符串，再转化为char[]数组进行倒叙遍历
 
         String a = Integer.toString(x);
         int b = 1;

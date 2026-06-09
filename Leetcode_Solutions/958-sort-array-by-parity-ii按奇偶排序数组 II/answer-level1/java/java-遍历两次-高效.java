@@ -1,4 +1,4 @@
-```
+// ```
 		int[] result = new int[A.length];
 		int size = A.length;
 		//奇数数组
@@ -24,4 +24,4 @@
         	result[i] = temp1[t1++];
 		}
 ## 		return result;
-```
+// ```

@@ -1,5 +1,5 @@
-转码
-```javascript
+// 转码
+// ```javascript
 /**
  * @param {number} n
  * @return {number[]}
@@ -18,6 +18,6 @@ var grayCode = function(n) {
     }
     return ans;
 };
-```
-时间复杂度: O(2^N)
-空间复杂度: O(1)
+// ```
+// 时间复杂度: O(2^N)
+// 空间复杂度: O(1)

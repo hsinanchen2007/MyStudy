@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number}
@@ -17,4 +17,4 @@ var exchangeBits = function(num) {
     odds<<=1;
     return even|odds; //OR相当于交换当前位的bit值如2的话：01 OR 00->01, 3的话：10 OR 01->11
 };
-```
+// ```

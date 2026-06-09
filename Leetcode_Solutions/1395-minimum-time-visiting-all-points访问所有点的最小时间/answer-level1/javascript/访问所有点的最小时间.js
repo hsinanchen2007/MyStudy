@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} points
  * @return {number}
@@ -16,4 +16,4 @@ var minTimeToVisitAllPoints = function(points) {
     }
     return count;
 };
-```
+// ```

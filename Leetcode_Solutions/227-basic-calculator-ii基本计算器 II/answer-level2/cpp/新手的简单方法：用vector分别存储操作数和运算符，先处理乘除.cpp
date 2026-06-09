@@ -1,20 +1,20 @@
-### 解题思路
-初学编程，记录一下自己的解题。
-num依次存储数，op依次存储运算符，op的长度的num的长度减1。
-![image.png](https://pic.leetcode-cn.com/4507d8ab682cd81ad4228a605f62d36cd3b7fdb37a89721f5692c93a3e39485f-image.png)
-算法：忽略加号和减号，碰到符号i是乘（除号一样的操作），
-则： 
-     int 新数=数i*数i+1;
-     从vector op中删除此操作符op[i]，
-     从vector num中删除num[i+1];
-     num[i]=新数；
+// ### 解题思路
+// 初学编程，记录一下自己的解题。
+// num依次存储数，op依次存储运算符，op的长度的num的长度减1。
+// ![image.png](https://pic.leetcode-cn.com/4507d8ab682cd81ad4228a605f62d36cd3b7fdb37a89721f5692c93a3e39485f-image.png)
+// 算法：忽略加号和减号，碰到符号i是乘（除号一样的操作），
+// 则： 
+//      int 新数=数i*数i+1;
+//      从vector op中删除此操作符op[i]，
+//      从vector num中删除num[i+1];
+//      num[i]=新数；
 
-要注意的是忽略加号减号的时候i++，操作一次之后i不需要变动。循环应该进行n次，n是最初的op的长度，我采用了while(n--)。
-循环之后，op中只剩下加和减，最后依次取出操作数和操作符进行加减。
-后缀表达式和栈还不太会，这两天抓紧学习一下。
-### 代码
+// 要注意的是忽略加号减号的时候i++，操作一次之后i不需要变动。循环应该进行n次，n是最初的op的长度，我采用了while(n--)。
+// 循环之后，op中只剩下加和减，最后依次取出操作数和操作符进行加减。
+// 后缀表达式和栈还不太会，这两天抓紧学习一下。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int calculate(string s) {
@@ -67,4 +67,4 @@ public:
     return sum;
     }
 };
-```
+// ```

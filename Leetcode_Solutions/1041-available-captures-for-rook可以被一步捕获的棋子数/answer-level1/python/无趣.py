@@ -1,9 +1,9 @@
-### 解题思路
-暴力
+# ### 解题思路
+# 暴力
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numRookCaptures(self, board):
         """
@@ -32,4 +32,4 @@ class Solution(object):
 
         return ret
         
-```
+# ```

@@ -1,16 +1,16 @@
-### 解题思路
-经典的DFS题目。注意题目中地图为15x15，金矿数目不超过25，因此直接遍历所有金矿点，进行dfs即可，速度并不会慢。
+// ### 解题思路
+// 经典的DFS题目。注意题目中地图为15x15，金矿数目不超过25，因此直接遍历所有金矿点，进行dfs即可，速度并不会慢。
 
-如果只遍历端点及拐角点，无法解决“日”字形金矿分布。
+// 如果只遍历端点及拐角点，无法解决“日”字形金矿分布。
 
-注意：解决dfs时，使用数组记录走过的路线，处理完成后将标志还原。
+// 注意：解决dfs时，使用数组记录走过的路线，处理完成后将标志还原。
 
-![image.png](https://pic.leetcode-cn.com/30246b6ac05d3d10c11a0f1a826575d799b62ef948970ffa9153bf8ed33334e1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/30246b6ac05d3d10c11a0f1a826575d799b62ef948970ffa9153bf8ed33334e1-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
  * @lc app=leetcode.cn id=1219 lang=c
  *
@@ -102,4 +102,4 @@ int getMaximumGold(int** grid, int gridSize, int* gridColSize){
 // @lc code=end
 
 
-```
+// ```

@@ -1,9 +1,9 @@
-执行用时 :16 ms, 在所有 C++ 提交中击败了45.09%的用户
-内存消耗 :7 MB, 在所有 C++ 提交中击败了100.00%的用户
+// 执行用时 :16 ms, 在所有 C++ 提交中击败了45.09%的用户
+// 内存消耗 :7 MB, 在所有 C++ 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	string addStrings(string num1, string num2) 
@@ -25,4 +25,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

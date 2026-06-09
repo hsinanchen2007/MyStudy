@@ -1,4 +1,4 @@
-```
+# ```
  class Solution(object):
 	def shortestDistance(self, words, word1, word2):       
         res=len(words)
@@ -12,4 +12,4 @@
                 continue
             res = min(res, abs(pos1-pos2))
         return res
-```
+# ```

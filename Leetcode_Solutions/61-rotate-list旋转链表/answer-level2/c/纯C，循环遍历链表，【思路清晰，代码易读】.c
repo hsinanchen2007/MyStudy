@@ -1,11 +1,11 @@
-### 解题思路
-方法二：循环遍历,修改原链表
-1,循环遍历一遍，算出节点个数n，
-2,根据 n 和 k 找到需要旋转的位置，修改输出链表
+// ### 解题思路
+// 方法二：循环遍历,修改原链表
+// 1,循环遍历一遍，算出节点个数n，
+// 2,根据 n 和 k 找到需要旋转的位置，修改输出链表
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -101,4 +101,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
     return pHead->next;
 }
 */
-```
+// ```

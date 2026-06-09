@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int p = 0;
@@ -14,4 +14,4 @@ class Solution {
         return p;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-用hash存储每一个字母的位置，需要回溯时，直接取这个值即可
-但整体效率不是很高
-```
+// 用hash存储每一个字母的位置，需要回溯时，直接取这个值即可
+// 但整体效率不是很高
+// ```
 int lengthOfLongestSubstring(char * s){
     int hash[127]={-1};//创建哈希表
     int flag=0;//子串初始长度
@@ -25,4 +25,4 @@ int lengthOfLongestSubstring(char * s){
     }
     return temp;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1.遍历比较，记录命中项，可能会多次触发，set保存以去重
-2.根据记录从数组中取值，返回
+// ### 解题思路
+// 1.遍历比较，记录命中项，可能会多次触发，set保存以去重
+// 2.根据记录从数组中取值，返回
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} transactions
  * @return {string[]}
@@ -29,4 +29,4 @@ var invalidTransactions = function(transactions) {
         return tra[i].join(',')
     })
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 //C++:记忆化搜索
 vector<vector<int>> memo;
 // memo[index]:用 [0...index]的物品,能否将容积为c的背包填充满
@@ -67,4 +67,4 @@ bool canPartition(vector<int>& nums) {
     }
     return memo[c];
 }
-```
+// ```

@@ -1,5 +1,5 @@
-对中心索引值算出边的值，对比一下即可。
-```
+// 对中心索引值算出边的值，对比一下即可。
+// ```
 int pivotIndex(int* nums, int numsSize){
     int i,left=0,right=0;
     if(numsSize==0)//考虑极端情况
@@ -17,4 +17,4 @@ int pivotIndex(int* nums, int numsSize){
             return i;
         return -1;
 }
-```
+// ```

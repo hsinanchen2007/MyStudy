@@ -1,4 +1,4 @@
-```
+// ```
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
     var stack []int
     var m = make(map[int]int)
@@ -21,4 +21,4 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
     }
     return res
 }
-```
+// ```

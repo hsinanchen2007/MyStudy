@@ -1,9 +1,9 @@
-### 解题思路
-同样为计数，下面的方法更快
+# ### 解题思路
+# 同样为计数，下面的方法更快
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
@@ -17,4 +17,4 @@ class Solution:
         for each in data:
             if data[each] == 1:
                 return each
-```
+# ```

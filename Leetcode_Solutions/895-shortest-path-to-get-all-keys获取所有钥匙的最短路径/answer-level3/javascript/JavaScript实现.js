@@ -1,5 +1,5 @@
-JS实现
-```js
+// JS实现
+// ```js
 /* eslint-disable max-len */
 /* eslint-disable no-bitwise */
 class Step {
@@ -82,4 +82,4 @@ const shortestPathAllKeys = function (grid) {
   return -1;
 };
 
-```
+// ```

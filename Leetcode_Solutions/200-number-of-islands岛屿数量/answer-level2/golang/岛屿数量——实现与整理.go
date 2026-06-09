@@ -1,20 +1,20 @@
 
-go语言版本：深度优先搜索、广度优先搜索、并查集解法。
+// go语言版本：深度优先搜索、广度优先搜索、并查集解法。
 
-![image.png](https://pic.leetcode-cn.com/b024265ae859dbcee136f73abc94c751c8a0099b647a66401f24e830d7872801-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b024265ae859dbcee136f73abc94c751c8a0099b647a66401f24e830d7872801-image.png)
 
 
-## 主要参考
+// ## 主要参考
 
-- <https://leetcode-cn.com/problems/number-of-islands/solution/dao-yu-shu-liang-by-leetcode/>
-- <https://leetcode-cn.com/problems/number-of-islands/solution/dfs-bfs-bing-cha-ji-python-dai-ma-java-dai-ma-by-l/>
-- <https://leetcode-cn.com/problems/number-of-islands/solution/dao-yu-shu-liang-bfsdfsbing-cha-ji-by-coldme-2/>
+// - <https://leetcode-cn.com/problems/number-of-islands/solution/dao-yu-shu-liang-by-leetcode/>
+// - <https://leetcode-cn.com/problems/number-of-islands/solution/dfs-bfs-bing-cha-ji-python-dai-ma-java-dai-ma-by-l/>
+// - <https://leetcode-cn.com/problems/number-of-islands/solution/dao-yu-shu-liang-bfsdfsbing-cha-ji-by-coldme-2/>
 
-这些题解都是比较好的，讲的也挺详细，但我在实现时发现他们或多或少存在一些错误。我下面给出的解法中，除了Sol_1_1（使用BFS）未通过（有路过的高手可以帮忙看下问题出在哪，我自己的话下次刷这题再来想想），其他解法都通过测试。深度优先搜索的递归实现版本在本题应该是最优解了。
+// 这些题解都是比较好的，讲的也挺详细，但我在实现时发现他们或多或少存在一些错误。我下面给出的解法中，除了Sol_1_1（使用BFS）未通过（有路过的高手可以帮忙看下问题出在哪，我自己的话下次刷这题再来想想），其他解法都通过测试。深度优先搜索的递归实现版本在本题应该是最优解了。
 
-## 实现与整理
+// ## 实现与整理
 
-```go
+// ```go
 package lt200
 
 import (
@@ -423,4 +423,4 @@ func (ufs *UnionFindSet) Count() int {
 }
 
 
-```
+// ```

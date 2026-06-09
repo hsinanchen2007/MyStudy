@@ -1,5 +1,5 @@
-代码如下：
-```
+// 代码如下：
+// ```
 #include <stdlib.h>
 #include <pthread.h>
 #include <stdio.h>
@@ -65,4 +65,4 @@ public:
         pthread_mutex_unlock(&mutex);
     }
 };
-```
+// ```

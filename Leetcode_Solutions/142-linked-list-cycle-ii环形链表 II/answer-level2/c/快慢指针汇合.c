@@ -1,8 +1,8 @@
-快慢指针先求出交点，然后交点和起点相向而行，汇合处则为回环起点
+// 快慢指针先求出交点，然后交点和起点相向而行，汇合处则为回环起点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ struct ListNode *detectCycle(struct ListNode *head)
     return meet;
     
 }
-```
+// ```

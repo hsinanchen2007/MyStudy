@@ -1,7 +1,7 @@
-### bfs
-[对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree/bfs.go)
+// ### bfs
+// [对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree/bfs.go)
 
-```golang
+// ```golang
 func connect(root *Node) *Node {
 	if root == nil {
 		return nil
@@ -21,15 +21,15 @@ func connect(root *Node) *Node {
 	}
 	return root
 }
-```
+// ```
 
-### dfs
-因为根节点先处理，勉强当作 `前序遍历`
-[对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree/preorder.go)
+// ### dfs
+// 因为根节点先处理，勉强当作 `前序遍历`
+// [对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree/preorder.go)
 
-1. 左节点不断往右，右节点不断往左，像拉链一样拉紧！
+// 1. 左节点不断往右，右节点不断往左，像拉链一样拉紧！
 
-```golang
+// ```golang
 func connect(root *Node) *Node {
 	if root == nil {
 		return nil
@@ -45,6 +45,6 @@ func connect(root *Node) *Node {
 	connect(root.Right)
 	return root
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
+// [Go版本 Github](https://github.com/temporaries/leetcode)

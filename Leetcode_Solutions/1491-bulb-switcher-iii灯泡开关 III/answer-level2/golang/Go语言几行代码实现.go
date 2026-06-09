@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/f969207e134813562ad93e085423f74806bfc9162b666fdcb771d334729b45b4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f969207e134813562ad93e085423f74806bfc9162b666fdcb771d334729b45b4-image.png)
 
-```
+// ```
 func numTimesAllBlue(light []int) int {
     lenth := len(light)
 	sum,max := 0,0
@@ -18,4 +18,4 @@ func numTimesAllBlue(light []int) int {
 	}
 	return sum
 }
-```
+// ```

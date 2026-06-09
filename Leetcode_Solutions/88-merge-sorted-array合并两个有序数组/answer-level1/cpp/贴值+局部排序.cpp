@@ -1,9 +1,9 @@
-### 解题思路
-使用了STL
+// ### 解题思路
+// 使用了STL
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -13,4 +13,4 @@ public:
         sort(nums1.begin(), nums1.begin()+m+n);
     }
 };
-```
+// ```

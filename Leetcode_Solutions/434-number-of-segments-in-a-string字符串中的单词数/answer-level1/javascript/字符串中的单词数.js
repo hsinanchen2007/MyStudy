@@ -1,15 +1,15 @@
-*法一： trim()+split()*
-```js
+// *法一： trim()+split()*
+// ```js
 var countSegments = function(s) {
     s = s.trim();
     if (s === '') return 0
     return s.split(/\s+/).length
 };
-```
+// ```
 
-*法二：遍历*
+// *法二：遍历*
 
-```js
+// ```js
 var countSegments = function(s) {
     let count = 0;
     s += ' ';
@@ -18,5 +18,5 @@ var countSegments = function(s) {
     }
     return count;
 };
-```
+// ```
 

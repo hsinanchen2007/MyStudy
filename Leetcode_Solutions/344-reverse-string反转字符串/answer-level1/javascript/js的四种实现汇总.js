@@ -1,12 +1,12 @@
 
-```
+// ```
 // 内置函数
 var reverseString = function(s) {
   s.reverse()
 }
-```
+// ```
 
-```
+// ```
 // 单索引循环
 var reverseString = function(s) {
   let len = s.length
@@ -14,9 +14,9 @@ var reverseString = function(s) {
     ;[s[i], s[len - i - 1]] = [s[len - i - 1], s[i]]
   }
 }
-```
+// ```
 
-```
+// ```
 // 双指针
 var reverseString = function(s) {
   let i = 0,
@@ -27,9 +27,9 @@ var reverseString = function(s) {
     j--
   }
 }
-```
+// ```
 
-```
+// ```
 // 递归
 var reverseString = function(s) {
   let reverseSwap = function(s, i, j) {
@@ -40,4 +40,4 @@ var reverseString = function(s) {
 
   reverseSwap(s, 0, s.length - 1)
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-用substr后，感觉只有O(N)的复杂度。。哈哈
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 用substr后，感觉只有O(N)的复杂度。。哈哈
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -21,4 +21,4 @@ public:
         return -1;
     }
 };
-```
+// ```

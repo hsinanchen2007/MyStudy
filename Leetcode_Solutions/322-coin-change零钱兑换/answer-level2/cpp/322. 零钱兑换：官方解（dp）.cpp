@@ -1,11 +1,11 @@
-### 状态转移方程
-dp[amount] = 0, amount = 0;
-dp[amount] = -1, amount < 0;
-dp[amount] = min{dp[amount - coin]} + 1;
+// ### 状态转移方程
+// dp[amount] = 0, amount = 0;
+// dp[amount] = -1, amount < 0;
+// dp[amount] = min{dp[amount - coin]} + 1;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     
 public:
@@ -29,5 +29,5 @@ public:
         return dp[amt];
     }
 };
-```
-![a.png](https://pic.leetcode-cn.com/986326fcd3a900e48a1c777b35e8debed13b19a87c8f33fc52af959c0e6d680b-a.png)
+// ```
+// ![a.png](https://pic.leetcode-cn.com/986326fcd3a900e48a1c777b35e8debed13b19a87c8f33fc52af959c0e6d680b-a.png)

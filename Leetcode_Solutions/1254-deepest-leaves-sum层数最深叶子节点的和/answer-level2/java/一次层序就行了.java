@@ -1,6 +1,6 @@
-层序遍历二叉树，利用变量size获取每一行的节点数，更新每一行的节点之和。
+// 层序遍历二叉树，利用变量size获取每一行的节点数，更新每一行的节点之和。
 
-```
+// ```
 class Solution {
     public int deepestLeavesSum(TreeNode root) {
         int res = 0;
@@ -22,4 +22,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

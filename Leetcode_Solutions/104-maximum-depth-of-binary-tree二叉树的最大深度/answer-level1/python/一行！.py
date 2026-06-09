@@ -1,9 +1,9 @@
 
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -18,4 +18,4 @@ class Solution(object):
         :rtype: int
         """
         return 0 if not root else max(self.maxDepth(root.left),self.maxDepth(root.right))+1
-```
+# ```

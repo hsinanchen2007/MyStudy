@@ -1,9 +1,9 @@
-### 解题思路
-无他暴力
+// ### 解题思路
+// 无他暴力
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -17,4 +17,4 @@ var twoSum = function(nums, target) {
     }
     return res;
 };
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-思路关键在于：将问题转化为当前路径上的最大值和最小值问题。
+// ### 解题思路
+// 思路关键在于：将问题转化为当前路径上的最大值和最小值问题。
 
-具体解法上，将最大值、最小值随着DFS参数传递，在叶子节点处统计即可。
+// 具体解法上，将最大值、最小值随着DFS参数传递，在叶子节点处统计即可。
 
-![image.png](https://pic.leetcode-cn.com/713505bbfc62c830a018af9a55767080adedb7ef07857b0ba1f698c9583b65e3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/713505bbfc62c830a018af9a55767080adedb7ef07857b0ba1f698c9583b65e3-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -53,4 +53,4 @@ int maxAncestorDiff(struct TreeNode* root){
 
     return max_diff;
 }
-```
+// ```

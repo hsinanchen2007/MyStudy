@@ -1,9 +1,9 @@
-### 解题思路
-# *N皇后很有趣喔，很有味道*
+// ### 解题思路
+// # *N皇后很有趣喔，很有味道*
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    List<HashSet<Character>> rows=new ArrayList<>(9);
 	List<HashSet<Character>> cols=new ArrayList<>(9);
@@ -61,4 +61,4 @@ class Solution {
 		return false;
 	}
 }
-```
+// ```

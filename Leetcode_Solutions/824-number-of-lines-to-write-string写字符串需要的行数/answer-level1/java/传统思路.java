@@ -1,9 +1,9 @@
-### 解题思路
-就是常规的遍历字符串，用字符-'a'得它在数组里对应的大小，依次相加，若大于等于100则line加一，count变为这个最后加的数，最后看count是不是大于0，大于0就说明最后一行还有line再+1，count就是最后一行的个数啦，返回line和count即可
+// ### 解题思路
+// 就是常规的遍历字符串，用字符-'a'得它在数组里对应的大小，依次相加，若大于等于100则line加一，count变为这个最后加的数，最后看count是不是大于0，大于0就说明最后一行还有line再+1，count就是最后一行的个数啦，返回line和count即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] numberOfLines(int[] widths, String S) {
         int l = S.length();
@@ -28,4 +28,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

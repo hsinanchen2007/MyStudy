@@ -1,10 +1,10 @@
-### 解题思路
-按照每辆车的position从小到大排序，计算对应的到达终点需要的时间，对时间进行操作；
-从后往前遍历；
+// ### 解题思路
+// 按照每辆车的position从小到大排序，计算对应的到达终点需要的时间，对时间进行操作；
+// 从后往前遍历；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define ZERO 1e-6 //double型数值比较，通常设置一个比较精度
 int comp(double *a, double *b){
     return *a > *b ? 1 : -1;
@@ -31,4 +31,4 @@ int carFleet(int target, int* position, int positionSize, int* speed, int speedS
     }
     return fleetNum;
 }
-```
+// ```

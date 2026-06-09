@@ -1,6 +1,6 @@
-观察dp的计算顺序，其实并不需要二维数组，只需要一维的就够了。
+// 观察dp的计算顺序，其实并不需要二维数组，只需要一维的就够了。
 
-```
+// ```
 	bool isMatch(string s, string p) {
 		int s_len = s.size();
 		int p_len = p.size();
@@ -33,4 +33,4 @@
 		}
 		return dp_new[0];
     }
-```
+// ```

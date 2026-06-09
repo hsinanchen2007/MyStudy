@@ -1,9 +1,9 @@
-### 解题思路
-maxval为优先级队列，保证队列单调递减，加入元素时如果value大于队列尾部val就pop，保证队列单调性。（这题目也中等难度。。）
+# ### 解题思路
+# maxval为优先级队列，保证队列单调递减，加入元素时如果value大于队列尾部val就pop，保证队列单调性。（这题目也中等难度。。）
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MaxQueue(object):
 
     def __init__(self):
@@ -46,4 +46,4 @@ class MaxQueue(object):
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

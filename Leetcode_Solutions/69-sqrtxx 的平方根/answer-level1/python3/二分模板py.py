@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     # 二分法
     def mySqrt(self, x: int) -> int:
@@ -38,4 +38,4 @@ class Solution:
     #     while r > x / r:
     #         r = (r + x / r) // 2
     #     return int(r)
-```
+# ```

@@ -1,18 +1,18 @@
-### 解题思路
-此处撰写解题思路
-1.定义哈希映射key_table存储真正的键值，定义min保存最少访问的键，定义cap为容量
-2.定义频率哈希映射freq_table，保存每个键访问的次数，value使用双链表
-3.get操作
-    3.1 检查key_table是否存在Key,不存在返回-1
-    3.2 Key存在，更新访问频率,删除上一次的频率，新增fred+1
-    3.3 更新key_table的访问频率
-4.put操作
-    4.1 检查Key_table是否存在Key，存在直接替换,同时更新freq_table
-    4.2 不存在，检查容量，根据淘汰策略进行淘汰，这里使用min作为最少访问的键，根据min淘汰双链表尾部的数据
-    4.3 新增节点,更新访问频率
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1.定义哈希映射key_table存储真正的键值，定义min保存最少访问的键，定义cap为容量
+// 2.定义频率哈希映射freq_table，保存每个键访问的次数，value使用双链表
+// 3.get操作
+//     3.1 检查key_table是否存在Key,不存在返回-1
+//     3.2 Key存在，更新访问频率,删除上一次的频率，新增fred+1
+//     3.3 更新key_table的访问频率
+// 4.put操作
+//     4.1 检查Key_table是否存在Key，存在直接替换,同时更新freq_table
+//     4.2 不存在，检查容量，根据淘汰策略进行淘汰，这里使用min作为最少访问的键，根据min淘汰双链表尾部的数据
+//     4.3 新增节点,更新访问频率
+// ### 代码
 
-```csharp
+// ```csharp
 public class LFUCache {
     private Dictionary<int, Node> key_table;
     private Dictionary<int, LinkedList<Node>> freq_table;
@@ -123,4 +123,4 @@ public class LFUCache {
  * int param_1 = obj.Get(key);
  * obj.Put(key,value);
  */
-```
+// ```

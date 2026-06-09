@@ -1,12 +1,12 @@
-### 解题思路
-递归遍历所有节点，用ans记录最大值
-与 124.二叉树最大路径和 有相似之处
-以下是我的代码，同样是递归
-https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/cdi-gui-by-zan-wu-ni-cheng-5/
+// ### 解题思路
+// 递归遍历所有节点，用ans记录最大值
+// 与 124.二叉树最大路径和 有相似之处
+// 以下是我的代码，同样是递归
+// https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/cdi-gui-by-zan-wu-ni-cheng-5/
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,4 +38,4 @@ int func(TreeNode* root){
         return ans;
     }
 };
-```
+// ```

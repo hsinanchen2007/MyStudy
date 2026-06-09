@@ -1,9 +1,9 @@
-### 解题思路
-相对于[LeetCode153题解](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/c-er-fen-mo-ban-by-codave/),其实只需要把与数组第一个元素相等的数组尾部元素删除干净，即可用和上一题一样的思路来处理。
+// ### 解题思路
+// 相对于[LeetCode153题解](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/c-er-fen-mo-ban-by-codave/),其实只需要把与数组第一个元素相等的数组尾部元素删除干净，即可用和上一题一样的思路来处理。
 
-### 代码
-解法一
-```cpp
+// ### 代码
+// 解法一
+// ```cpp
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -20,10 +20,10 @@ public:
         return nums[r];
     }
 };
-```
-解法二
+// ```
+// 解法二
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -40,4 +40,4 @@ public:
         return nums[r];
     }
 };
-```
+// ```

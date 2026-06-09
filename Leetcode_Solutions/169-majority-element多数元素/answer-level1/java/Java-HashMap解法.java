@@ -1,8 +1,8 @@
-### 解题思路
-将数组元素放入hashmap，存放的时候将元素作为key，元素出现个数作为value，存map的时候出现一次key就将value值加一，最后找出map中value值最大的，把相应的key也取出来就行了。
-### 代码
+// ### 解题思路
+// 将数组元素放入hashmap，存放的时候将元素作为key，元素出现个数作为value，存map的时候出现一次key就将value值加一，最后找出map中value值最大的，把相应的key也取出来就行了。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         //将元素放入map中
@@ -33,4 +33,4 @@ class Solution {
         return maxKey;
     }
 }
-```
+// ```

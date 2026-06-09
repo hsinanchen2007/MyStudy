@@ -1,5 +1,5 @@
-跟108差不多。。把直接算中点换成快慢指针就ok
-```
+# 跟108差不多。。把直接算中点换成快慢指针就ok
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
             return root
 
         return helper(head)
-```
+# ```

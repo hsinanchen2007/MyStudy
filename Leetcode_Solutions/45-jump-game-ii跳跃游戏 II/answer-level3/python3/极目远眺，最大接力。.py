@@ -1,9 +1,9 @@
-### 解题思路
-站在当前位置，向前极目远眺，从视野之内选择：max(位置+其视距),的那个位置作为吓一跳。 就可尽快到达终点。
+# ### 解题思路
+# 站在当前位置，向前极目远眺，从视野之内选择：max(位置+其视距),的那个位置作为吓一跳。 就可尽快到达终点。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def jump(self, nums):
         if len(nums)==1:return 0
@@ -22,4 +22,4 @@ class Solution:
             start=nextJumpPos
             ans+=1
         return ans
-```
+# ```

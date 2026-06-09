@@ -1,10 +1,10 @@
-### 解题思路
-每次取出一个字符放在首位，然后剩下的字符全排列后拼接上第一个字符。
-使用递归完成全排列操作。
+// ### 解题思路
+// 每次取出一个字符放在首位，然后剩下的字符全排列后拼接上第一个字符。
+// 使用递归完成全排列操作。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     set<string> do_permutation(string s) {
@@ -31,4 +31,4 @@ public:
         return vector<string>(sset.begin(), sset.end());
     }
 };
-```
+// ```

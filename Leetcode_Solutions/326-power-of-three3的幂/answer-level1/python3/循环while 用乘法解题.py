@@ -1,6 +1,6 @@
-[python3]()
+# [python3]()
 
-```
+# ```
 class Solution(object):
     def isPowerOfThree(self, n):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             sumk=sumk*3
 
         return dd
-```
+# ```

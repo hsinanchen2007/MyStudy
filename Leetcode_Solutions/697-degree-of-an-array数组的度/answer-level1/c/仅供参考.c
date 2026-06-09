@@ -1,4 +1,4 @@
-```
+// ```
 int findShortestSubArray(int* nums, int numsSize){
 int sum[50000]={0},first[50000],last[50000]={0};
     int i,min=50000,max=0;
@@ -25,4 +25,4 @@ int sum[50000]={0},first[50000],last[50000]={0};
     return min;
 }
 
-```
+// ```

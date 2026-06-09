@@ -1,14 +1,14 @@
-### 解题思路
-取两个栈，sStack与tStack，进行如下操作：
-（1）对于S字符串而言，当遇到字母时，将其入sStack，如果遇到#时出栈一个字符，注意栈为空时的操作；
-（2）对于T字符串而言，进行与S字符串同样的操作即可；
-最后添加'\0'结束符，比较字符串是否相等；
-![123.PNG](https://pic.leetcode-cn.com/bd4076bfc64cbce90ac468e31445e9aad84d7242bc7384df51a963b27c411fe2-123.PNG)
+// ### 解题思路
+// 取两个栈，sStack与tStack，进行如下操作：
+// （1）对于S字符串而言，当遇到字母时，将其入sStack，如果遇到#时出栈一个字符，注意栈为空时的操作；
+// （2）对于T字符串而言，进行与S字符串同样的操作即可；
+// 最后添加'\0'结束符，比较字符串是否相等；
+// ![123.PNG](https://pic.leetcode-cn.com/bd4076bfc64cbce90ac468e31445e9aad84d7242bc7384df51a963b27c411fe2-123.PNG)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool backspaceCompare(char * S, char * T) {
     char *sStack = NULL;
     char *tStack = NULL;
@@ -54,4 +54,4 @@ bool backspaceCompare(char * S, char * T) {
     }
     return false;
 }
-```
+// ```

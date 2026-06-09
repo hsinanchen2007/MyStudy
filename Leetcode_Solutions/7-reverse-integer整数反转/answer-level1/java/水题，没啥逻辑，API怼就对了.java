@@ -1,8 +1,8 @@
-### 解题思路
-try catch来检测Integer parse操作的溢出。嘻嘻
-### 代码
+// ### 解题思路
+// try catch来检测Integer parse操作的溢出。嘻嘻
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
 		try {
@@ -23,4 +23,4 @@ class Solution {
 		}
     }
 }
-```
+// ```

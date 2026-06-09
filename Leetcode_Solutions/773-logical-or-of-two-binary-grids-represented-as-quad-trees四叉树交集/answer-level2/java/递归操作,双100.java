@@ -1,7 +1,7 @@
 
-![2_100.jpg](https://pic.leetcode-cn.com/a2867fdcc630e4028f4026038b8a776fc57ba181e47ee2e8efd0ffaf305422d7-2_100.jpg)
+// ![2_100.jpg](https://pic.leetcode-cn.com/a2867fdcc630e4028f4026038b8a776fc57ba181e47ee2e8efd0ffaf305422d7-2_100.jpg)
 
-```
+// ```
 public Node intersect(Node quadTree1, Node quadTree2) {
 
         return or(quadTree1, quadTree2);
@@ -54,4 +54,4 @@ public Node intersect(Node quadTree1, Node quadTree2) {
     private int val(boolean b) {
         return b ? 1 : 0;
     }
-```
+// ```

@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/23594cdf37e37eddbba2384c199955a3f4520b435f74116b21201bcbca464b92-image.png)
+// ![image.png](https://pic.leetcode-cn.com/23594cdf37e37eddbba2384c199955a3f4520b435f74116b21201bcbca464b92-image.png)
 
-# 解法一：对身高升序排序，身高相同，按体重降序排序
-
-
-1. 对身高升序排完序后，问题转换为求 体重的**最长递增子序列**长度 -> [最长递增子序列](https://blog.csdn.net/u013178472/article/details/54926531)
-2. 身高相同时，体重需要是降序的状态
+// # 解法一：对身高升序排序，身高相同，按体重降序排序
 
 
-## 解法一：
-```c
+// 1. 对身高升序排完序后，问题转换为求 体重的**最长递增子序列**长度 -> [最长递增子序列](https://blog.csdn.net/u013178472/article/details/54926531)
+// 2. 身高相同时，体重需要是降序的状态
+
+
+// ## 解法一：
+// ```c
 #define MAX_SIZE 10005
 
 struct Person
@@ -70,4 +70,4 @@ int bestSeqAtIndex(int* height, int heightSize, int* weight, int weightSize) {
 
     return index;
 }
-```
+// ```

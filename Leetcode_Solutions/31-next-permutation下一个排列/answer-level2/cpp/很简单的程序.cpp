@@ -1,4 +1,4 @@
-```
+// ```
 ![image.png](https://pic.leetcode-cn.com/ae8f1de3682cb099876aa7bcc4319408d803c4a4e3f845eedb970c537407f2cf-image.png)
 class Solution {
 public:
@@ -22,4 +22,4 @@ public:
         reverse(nums.begin()+k+1,nums.end());
     }
 };
-```
+// ```

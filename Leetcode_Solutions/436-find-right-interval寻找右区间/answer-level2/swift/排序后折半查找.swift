@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func findRightInterval(_ intervals: [[Int]]) -> [Int] {
         var dic:[String:Int] = [:]
@@ -39,4 +39,4 @@ class Solution {
     }
 
 }
-```
+// ```

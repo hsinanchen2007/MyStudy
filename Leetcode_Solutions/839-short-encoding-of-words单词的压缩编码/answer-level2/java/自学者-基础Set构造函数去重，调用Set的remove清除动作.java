@@ -1,11 +1,11 @@
-### 解题思路
-* HashSet构造函数传参数直接去重
-* 利用Set的remove存在立刻删除，不存在无反应的功能删除自己所有的重复后缀
-* 每个单词结尾用#号截止，所以每个单词长度要加1.
+// ### 解题思路
+// * HashSet构造函数传参数直接去重
+// * 利用Set的remove存在立刻删除，不存在无反应的功能删除自己所有的重复后缀
+// * 每个单词结尾用#号截止，所以每个单词长度要加1.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         // Arrays.asList(words)先转为List<String>,作为Collections接口传递给HashSet构造函数
@@ -25,4 +25,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

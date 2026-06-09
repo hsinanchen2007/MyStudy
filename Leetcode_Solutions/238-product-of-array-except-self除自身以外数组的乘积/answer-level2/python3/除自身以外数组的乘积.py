@@ -1,16 +1,16 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2ace851d94724593cb4d626fedb4bf11ed54e7cb1863442d06908bb1a5d560c5-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/2ace851d94724593cb4d626fedb4bf11ed54e7cb1863442d06908bb1a5d560c5-image.png)
 
-考虑数组`[a,b,c,d,e]`，则返回结果为`[1*bcde, a*cde, ab*de, abc*e, abcd*1]`可以拆分为两个列表对位位置元素相乘，即`[1,a,ab,abc,abcd]`和`[bcde, cde, de, e, 1]`；显然，这两个列表分别为数组`[a,b,c,d,e]`分别从左向右遍历和从右向左遍历时遍历元素的乘积；
+# 考虑数组`[a,b,c,d,e]`，则返回结果为`[1*bcde, a*cde, ab*de, abc*e, abcd*1]`可以拆分为两个列表对位位置元素相乘，即`[1,a,ab,abc,abcd]`和`[bcde, cde, de, e, 1]`；显然，这两个列表分别为数组`[a,b,c,d,e]`分别从左向右遍历和从右向左遍历时遍历元素的乘积；
 
-因此用两次遍历即可完成；
+# 因此用两次遍历即可完成；
 
-时间复杂度：`O(n)`
-空间复杂度：`O(1)`
+# 时间复杂度：`O(n)`
+# 空间复杂度：`O(1)`
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     """
     考虑数组[a,b,c,d,e]，从左到右遍历，tmp为当前遍历到的元素的乘积；
@@ -42,4 +42,4 @@ class Solution:
         
         return res
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路 
-it take maybe too much time to find out our result, just use % and // we can reverse the int. but we should also care about the negative int so we just use cache c to sure positive or negative result to return
+# ### 解题思路 
+# it take maybe too much time to find out our result, just use % and // we can reverse the int. but we should also care about the negative int so we just use cache c to sure positive or negative result to return
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import numpy as np
 class Solution(object):
     def reverse(self, x):
@@ -28,4 +28,4 @@ class Solution(object):
         if c<0:
             return -rev    
         return rev
-```
+# ```

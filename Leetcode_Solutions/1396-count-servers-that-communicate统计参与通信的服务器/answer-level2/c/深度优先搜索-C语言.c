@@ -1,4 +1,4 @@
-```
+// ```
 /*
 1、深度优先搜索，遍历所有连接行和列；
 2、如果最终大于1 是有效的连接；
@@ -47,4 +47,4 @@ int countServers(int** grid, int gridSize, int* gridColSize) {
 
     return max;
 }
-```
+// ```

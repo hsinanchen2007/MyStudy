@@ -1,9 +1,9 @@
-### 解题思路
-用子集的每一个元素拿来和大集合中的元素对比，先在大集合中找到子集元素的对应位，再找出比子集元素大的第一个元素。注意越界返回-1
+// ### 解题思路
+// 用子集的每一个元素拿来和大集合中的元素对比，先在大集合中找到子集元素的对应位，再找出比子集元素大的第一个元素。注意越界返回-1
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -19,4 +19,4 @@ int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, in
     }
     return result;
 }
-```
+// ```

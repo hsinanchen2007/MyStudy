@@ -1,5 +1,5 @@
-### 解法1： 递归法
-```
+// ### 解法1： 递归法
+// ```
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -15,10 +15,10 @@ public:
         }
     }
 };
-```
-### 解法2： 模拟排队 （迭代
-想象：让两个队伍的小朋友自己根据从矮到高的原则排队。从两队的队首开始对比，由于时有序链表，若其中一队排列结束，另一队剩余的人直接接在整个队伍的后方。
-```
+// ```
+// ### 解法2： 模拟排队 （迭代
+// 想象：让两个队伍的小朋友自己根据从矮到高的原则排队。从两队的队首开始对比，由于时有序链表，若其中一队排列结束，另一队剩余的人直接接在整个队伍的后方。
+// ```
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -46,4 +46,4 @@ public:
         return begin;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     vector<int> singleNumbers(vector<int>& nums) {
@@ -34,5 +34,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

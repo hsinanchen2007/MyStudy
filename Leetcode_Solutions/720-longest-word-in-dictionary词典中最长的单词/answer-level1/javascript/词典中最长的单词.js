@@ -1,4 +1,4 @@
-```js
+// ```js
 var longestWord = function(words) {
     // 按照字典顺序排序 ["a", "ap", "app", "appl", "apple", "apply", "peer"]
     words.sort();
@@ -13,5 +13,5 @@ var longestWord = function(words) {
     }
     return res
 };
-```
+// ```
 

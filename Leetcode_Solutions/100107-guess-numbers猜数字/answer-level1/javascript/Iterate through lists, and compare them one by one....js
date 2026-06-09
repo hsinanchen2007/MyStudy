@@ -1,8 +1,8 @@
-### 解题思路
-Just iterate through these two lists, and compare them one by one
-### 代码
+// ### 解题思路
+// Just iterate through these two lists, and compare them one by one
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} guess
  * @param {number[]} answer
@@ -17,9 +17,9 @@ var game = function(guess, answer) {
     }
     return correct_count;
 };
-```
+// ```
 
-```python3
+// ```python3
 def game(self, guess: List[int], answer: List[int]) -> int:
     correct_count = 0
 
@@ -28,4 +28,4 @@ def game(self, guess: List[int], answer: List[int]) -> int:
             correct_count += 1
 
     return correct_count
-```
+// ```

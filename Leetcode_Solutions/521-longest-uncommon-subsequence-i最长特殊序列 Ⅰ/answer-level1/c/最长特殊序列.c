@@ -1,9 +1,9 @@
-### 解题思路
-寻找最长，嘻嘻嘻嘻
+// ### 解题思路
+// 寻找最长，嘻嘻嘻嘻
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findLUSlength(char * a, char * b){
     if(!strcmp(a,b))
         return -1;

@@ -1,6 +1,6 @@
-java基于递归实现思路(非long类型) 基于位运算，指数增长除数，加快运算
-4ms
-```
+// java基于递归实现思路(非long类型) 基于位运算，指数增长除数，加快运算
+// 4ms
+// ```
     public int divide(int dividend, int divisor) {
         if (dividend == Integer.MIN_VALUE && divisor == -1) {
             return Integer.MAX_VALUE;
@@ -50,4 +50,4 @@ java基于递归实现思路(非long类型) 基于位运算，指数增长除数
             }
             return sum;
     }
-```
+// ```

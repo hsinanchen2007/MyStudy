@@ -1,10 +1,10 @@
-### 解题思路
-双指针法很简单，设置指针p、q，让q指针先行n步，然后让p和q一起向后走直到q达到最后一个元素，需要注意的是，这时q指向倒数第一个结点，而p指向倒数第n+1个节点，之所以这样做是方便删除。
-这里使用了虚拟头结点的trick，这样在删除头结点的时候不用分类讨论。
+# ### 解题思路
+# 双指针法很简单，设置指针p、q，让q指针先行n步，然后让p和q一起向后走直到q达到最后一个元素，需要注意的是，这时q指向倒数第一个结点，而p指向倒数第n+1个节点，之所以这样做是方便删除。
+# 这里使用了虚拟头结点的trick，这样在删除头结点的时候不用分类讨论。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution(object):
         head = v_head.next
         return head
     
-```
+# ```

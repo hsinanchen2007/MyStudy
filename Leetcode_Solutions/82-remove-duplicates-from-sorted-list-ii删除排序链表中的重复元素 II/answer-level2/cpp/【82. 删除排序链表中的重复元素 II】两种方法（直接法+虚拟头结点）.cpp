@@ -1,6 +1,6 @@
-## 思路一：直接法
-### 代码
-```c++
+// ## 思路一：直接法
+// ### 代码
+// ```c++
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -29,12 +29,12 @@ public:
         return head;        
     }
 };
-```
+// ```
 
-## 思路二：虚拟头节点
-为了便于删除原链表第一个节点就出现重复，新增一个虚拟节点并设置pre指针指向虚拟节点。
-### 代码
-```
+// ## 思路二：虚拟头节点
+// 为了便于删除原链表第一个节点就出现重复，新增一个虚拟节点并设置pre指针指向虚拟节点。
+// ### 代码
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -60,4 +60,4 @@ public:
         return newHead->next;
     }
 };
-```
+// ```

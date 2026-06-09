@@ -1,6 +1,6 @@
-对x，逐个判断，然后去最长连续上升序列的长度
+# 对x，逐个判断，然后去最长连续上升序列的长度
 
-```
+# ```
 class Solution(object):
     def longestConsecutive(self, nums):
         """
@@ -16,4 +16,4 @@ class Solution(object):
                     y += 1
                 res = max(res,y-x)
         return res
-```
+# ```

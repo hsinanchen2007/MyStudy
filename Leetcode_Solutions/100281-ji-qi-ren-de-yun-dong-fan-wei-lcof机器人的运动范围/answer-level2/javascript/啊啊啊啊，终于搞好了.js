@@ -1,10 +1,10 @@
-### 解题思路
-大概就是BFS广度优先搜索，反正我讲的肯定不如官方讲的好就不讲了
-我这个肯定是还得优化的
+// ### 解题思路
+// 大概就是BFS广度优先搜索，反正我讲的肯定不如官方讲的好就不讲了
+// 我这个肯定是还得优化的
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} m
  * @param {number} n
@@ -50,4 +50,4 @@ var movingCount = function(m, n, k) {
 	return result;
 };
 
-```
+// ```

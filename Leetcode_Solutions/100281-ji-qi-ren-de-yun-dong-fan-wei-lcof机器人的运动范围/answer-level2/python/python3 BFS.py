@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         #思路：宽搜？
@@ -32,4 +32,4 @@ class Solution:
                                 deque.appendleft((i,j))
         return len(memory)  
 
-```
+# ```

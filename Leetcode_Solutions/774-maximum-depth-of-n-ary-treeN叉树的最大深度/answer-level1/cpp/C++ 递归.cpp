@@ -1,4 +1,4 @@
-```c++
+// ```c++
 /*
 // Definition for a Node.
 class Node {
@@ -29,4 +29,4 @@ public:
         return 1 + depth;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-依葫芦画瓢
+# ### 解题思路
+# 依葫芦画瓢
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:       
         max_sum=cur=nums[0]
@@ -11,4 +11,4 @@ class Solution:
             cur=max(nums[i],cur+nums[i])
             max_sum=max(max_sum,cur)   
         return max_sum
-```
+# ```

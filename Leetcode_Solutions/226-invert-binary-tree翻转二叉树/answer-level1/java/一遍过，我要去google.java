@@ -1,9 +1,9 @@
-### 解题思路
-递归思路 言简意赅
+// ### 解题思路
+// 递归思路 言简意赅
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -45,4 +45,4 @@ class Solution {
         invertBinaryTree(node.right);
     }
 }
-```
+// ```

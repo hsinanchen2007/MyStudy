@@ -1,8 +1,8 @@
-### 先对于大于9 的数循环取余，得到num，此过程中若num为0，则判定为9的倍数。在100以内的9的倍数，个十位相加计算num结果都是9。而当num< 9时，直接输出。
+// ### 先对于大于9 的数循环取余，得到num，此过程中若num为0，则判定为9的倍数。在100以内的9的倍数，个十位相加计算num结果都是9。而当num< 9时，直接输出。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int addDigits(int num);
@@ -19,4 +19,4 @@ int Solution::addDigits(int num)
   return num;
    
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-关键在push新元素的时候，把目前已经在栈里的元素最小值也存进去，这样在pop后获取最小值不用遍历去求值了。
+# ### 解题思路
+# 关键在push新元素的时候，把目前已经在栈里的元素最小值也存进去，这样在pop后获取最小值不用遍历去求值了。
 
-本来还做了很多空的判断，譬如空的时候pop，top等动作的时候异常处理，但是发现不需要，就清了。
+# 本来还做了很多空的判断，譬如空的时候pop，top等动作的时候异常处理，但是发现不需要，就清了。
 
-PS：python的小伙伴不要用min等函数，会变慢
+# PS：python的小伙伴不要用min等函数，会变慢
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MinStack(object):
 
     def __init__(self):
@@ -58,4 +58,4 @@ class MinStack(object):
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.getMin()
-```
+# ```

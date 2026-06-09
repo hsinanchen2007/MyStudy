@@ -1,12 +1,12 @@
-### 解题思路
-很直观的想法，把域名分隔，存在map中，记数。
+// ### 解题思路
+// 很直观的想法，把域名分隔，存在map中，记数。
 
-### 算法
+// ### 算法
 
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -35,7 +35,7 @@ class Solution {
         return $res;
     }
 }
-```
+// ```
 
-### 参考
-[leetcode](https://leetcode-cn.com/problems/subdomain-visit-count/solution/zi-yu-ming-fang-wen-ji-shu-by-leetcode/)
+// ### 参考
+// [leetcode](https://leetcode-cn.com/problems/subdomain-visit-count/solution/zi-yu-ming-fang-wen-ji-shu-by-leetcode/)

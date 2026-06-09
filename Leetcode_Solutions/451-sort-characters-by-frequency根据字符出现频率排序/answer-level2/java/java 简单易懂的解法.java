@@ -1,8 +1,8 @@
-一、按照出现频率将元素和出现次数放到map中。
+// 一、按照出现频率将元素和出现次数放到map中。
 
-二、通过map的value进行排序。
+// 二、通过map的value进行排序。
 
-三、然后取出排序后的key和value，通过循环value次将key拼接到string中。
+// 三、然后取出排序后的key和value，通过循环value次将key拼接到string中。
 
 class Solution {
     public String frequencySort(String s) {

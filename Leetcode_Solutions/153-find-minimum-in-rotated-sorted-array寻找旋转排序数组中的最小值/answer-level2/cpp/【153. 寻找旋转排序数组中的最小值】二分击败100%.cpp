@@ -1,7 +1,7 @@
-## 思路一：顺序遍历
-### 代码
-时间复杂度：O(n)
-```c++
+// ## 思路一：顺序遍历
+// ### 代码
+// 时间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     int findMin(vector<int>& nums) {        
@@ -14,12 +14,12 @@ public:
         return nums[0];
     }
 };
-```
+// ```
 
-## 思路二：二分
-### 代码
-时间复杂度：O(logn)
-```c++
+// ## 思路二：二分
+// ### 代码
+// 时间复杂度：O(logn)
+// ```c++
 class Solution {
 public:
     int findMin(vector<int>& nums) {        
@@ -35,9 +35,9 @@ public:
         return nums[left];
     }
 };
-```
-##### 另一种写法
-```c++
+// ```
+// ##### 另一种写法
+// ```c++
 class Solution {
 public:
     int findMin(vector<int>& nums) {        
@@ -54,6 +54,6 @@ public:
         return nums[left];
     }
 };
-```
+// ```
 
 

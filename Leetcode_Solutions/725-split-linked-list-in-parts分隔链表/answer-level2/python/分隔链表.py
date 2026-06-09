@@ -1,10 +1,10 @@
-####  方法一：创建新列表
-**算法：**
-- 如果链表有 $N$ 个结点，则分隔的链表中每个部分中都有 $n/k$ 个结点，且前 $N\%k$ 部分有一个额外的结点。我们可以用一个简单的循环来计算 $N$。
-- 现在对于每个部分，我们已经计算出该部分有多少个节点：`width + (i < remainder ? 1 : 0)`。我们创建一个新列表并将该部分写入该列表。
+# ####  方法一：创建新列表
+# **算法：**
+# - 如果链表有 $N$ 个结点，则分隔的链表中每个部分中都有 $n/k$ 个结点，且前 $N\%k$ 部分有一个额外的结点。我们可以用一个简单的循环来计算 $N$。
+# - 现在对于每个部分，我们已经计算出该部分有多少个节点：`width + (i < remainder ? 1 : 0)`。我们创建一个新列表并将该部分写入该列表。
 
 
-```Python [ ]
+# ```Python [ ]
 class Solution(object):
     def splitListToParts(self, root, k):
         cur = root
@@ -22,9 +22,9 @@ class Solution(object):
                 if cur: cur = cur.next
             ans.append(head.next)
         return ans
-```
+# ```
 
-```Java [ ]
+# ```Java [ ]
 class Solution {
     public ListNode[] splitListToParts(ListNode root, int k) {
         ListNode cur = root;
@@ -49,19 +49,19 @@ class Solution {
         return ans;
     }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N + k)$。$N$ 指的是链表的结点数，若 $k$ 很大，则还需要添加许多空列表。
-* 空间复杂度：$O(max(N, k))$，存放答案所需的空间。
+# * 时间复杂度：$O(N + k)$。$N$ 指的是链表的结点数，若 $k$ 很大，则还需要添加许多空列表。
+# * 空间复杂度：$O(max(N, k))$，存放答案所需的空间。
 
 
-####  方法二：拆分链表
-**算法：**
-- 在方法 1 中，我们知道每个部分的大小。我们将不创建新列表，而是直接拆分原链表，并根据需要返回指向原始链表中节点的指针列表。
+# ####  方法二：拆分链表
+# **算法：**
+# - 在方法 1 中，我们知道每个部分的大小。我们将不创建新列表，而是直接拆分原链表，并根据需要返回指向原始链表中节点的指针列表。
 
-```Python [ ]
+# ```Python [ ]
 class Solution(object):
     def splitListToParts(self, root, k):
         cur = root
@@ -80,9 +80,9 @@ class Solution(object):
                 cur.next, cur = None, cur.next
             ans.append(head)
         return ans
-```
+# ```
 
-```Java [ ]
+# ```Java [ ]
 class Solution {
     public ListNode[] splitListToParts(ListNode root, int k) {
         ListNode cur = root;
@@ -111,9 +111,9 @@ class Solution {
         return ans;
     }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N + k)$。$N$ 指的是所给链表的结点数，若 $k$ 很大，则还需要添加许多空列表。
-* 空间复杂度：$O(k)$，存储答案时所需的额外空格。
+# * 时间复杂度：$O(N + k)$。$N$ 指的是所给链表的结点数，若 $k$ 很大，则还需要添加许多空列表。
+# * 空间复杂度：$O(k)$，存储答案时所需的额外空格。

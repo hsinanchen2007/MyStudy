@@ -1,7 +1,7 @@
-与[傅里叶变身老兄的解答](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/solution/cdi-gui-shi-xian-by-fu-li-xie-bian-she-yymodya3tg/)基本相同，只是获取左右子数组的方式不同。
+// 与[傅里叶变身老兄的解答](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/solution/cdi-gui-shi-xian-by-fu-li-xie-bian-she-yymodya3tg/)基本相同，只是获取左右子数组的方式不同。
 
 
-```cpp
+// ```cpp
 TreeNode* sortedArrayToBST(vector<int>& nums) {
 	if (nums.empty()) return NULL;
 	int mid_idx = nums.size() / 2;
@@ -12,4 +12,4 @@ TreeNode* sortedArrayToBST(vector<int>& nums) {
 	root->right = sortedArrayToBST(right);
 	return root;
 }
-```
+// ```

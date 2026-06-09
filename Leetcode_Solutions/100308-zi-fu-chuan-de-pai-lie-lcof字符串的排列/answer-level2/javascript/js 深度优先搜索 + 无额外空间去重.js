@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/6236554163e9280bf3c5534234a38772c115d006e1ea042bbb30633e1f0b5a16-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6236554163e9280bf3c5534234a38772c115d006e1ea042bbb30633e1f0b5a16-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 无额外空间去重 + DFS
 偷个懒，题解看这里，已经写过一遍了，哈哈：
 https://leetcode-cn.com/problems/permutation-ii-lcci/solution/js-hui-su-qu-zhong-by-ignore_express/
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string[]}
@@ -42,4 +42,4 @@ var permutation = function(s) {
   
   return ans;
 };
-```
+// ```

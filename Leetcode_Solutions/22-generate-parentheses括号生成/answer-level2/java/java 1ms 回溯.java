@@ -1,6 +1,6 @@
-left:需求'('的数量，每次添加一个'('都要多需求一个')'
-right:需求')'的数量
-```java
+// left:需求'('的数量，每次添加一个'('都要多需求一个')'
+// right:需求')'的数量
+// ```java
 class Solution {
     public List<String> generateParenthesis(int n) {
         List<String> res = new ArrayList<>();
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

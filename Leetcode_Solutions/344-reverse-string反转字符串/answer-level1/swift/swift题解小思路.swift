@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-用一个right和left计数指针，用了swift的新方法swapAt，提替换了两个值交换的方法
+// 用一个right和left计数指针，用了swift的新方法swapAt，提替换了两个值交换的方法
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func reverseString(_ s: inout [Character]) {
         guard !s.isEmpty else {
@@ -20,4 +20,4 @@ class Solution {
         }
     }
 }
-```
+// ```

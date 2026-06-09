@@ -1,5 +1,5 @@
-吐槽一下这个Java版方法，居然输入一个字符串，再返回一个字符串数组，正常题肯定是输入一个数组，返回一个二维列表吧，这个输入和输出也太脑瘫了
-```
+// 吐槽一下这个Java版方法，居然输入一个字符串，再返回一个字符串数组，正常题肯定是输入一个数组，返回一个二维列表吧，这个输入和输出也太脑瘫了
+// ```
 class Solution {
     public String[] permutation(String s) {
       StringBuilder sb = new StringBuilder();
@@ -31,4 +31,4 @@ class Solution {
       }
     }
 }
-```
+// ```

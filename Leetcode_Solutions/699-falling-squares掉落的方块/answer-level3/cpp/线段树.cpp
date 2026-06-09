@@ -1,5 +1,5 @@
-普通线段树开的数组过大，显示超过内存限制，为解决这个问题，通过离散化解决，运用set和map
-```
+// 普通线段树开的数组过大，显示超过内存限制，为解决这个问题，通过离散化解决，运用set和map
+// ```
 class Solution {
 public:
     vector<int> fallingSquares(vector<vector<int>>& positions) {
@@ -87,4 +87,4 @@ public:
 
 
 };
-```
+// ```

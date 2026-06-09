@@ -1,10 +1,10 @@
-### 解题思路
-菜鸟分享一下自己的思路
-大佬们多多指教
+# ### 解题思路
+# 菜鸟分享一下自己的思路
+# 大佬们多多指教
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
             awr.append(list(level_list))
         return awr
 
-```
+# ```

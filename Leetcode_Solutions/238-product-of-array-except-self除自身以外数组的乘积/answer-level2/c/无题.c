@@ -1,9 +1,9 @@
-### 解题思路
-参考了其他人和官方的才勉强写出答案
+// ### 解题思路
+// 参考了其他人和官方的才勉强写出答案
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -23,4 +23,4 @@ int* productExceptSelf(int* nums, int numsSize, int* returnSize){
     }
     return nums;
 }
-```
+// ```

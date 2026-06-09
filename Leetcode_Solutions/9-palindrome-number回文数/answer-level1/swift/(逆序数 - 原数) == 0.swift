@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-(逆序数 - 原数) == 0
+// (逆序数 - 原数) == 0
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func isPalindrome(_ x: Int) -> Bool {
         if x < 0 {
@@ -23,4 +23,4 @@ class Solution {
     }
 }
 
-```
+// ```

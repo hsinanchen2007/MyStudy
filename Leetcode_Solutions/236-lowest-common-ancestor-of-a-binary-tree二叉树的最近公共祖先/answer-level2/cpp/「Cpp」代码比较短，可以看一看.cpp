@@ -1,18 +1,18 @@
-### 解题思路
+// ### 解题思路
 
-p和q只有两种情况
+// p和q只有两种情况
 
-- 其中一方是一方的父节点，
-- 两个是同一个父节点的后代
+// - 其中一方是一方的父节点，
+// - 两个是同一个父节点的后代
 
-因此，分别从左右子树上找p和q，找到之后返回p和q所在节点。如果找不到返回是NULL
+// 因此，分别从左右子树上找p和q，找到之后返回p和q所在节点。如果找不到返回是NULL
 
-如果两个都找到，那么`left != nullptr && right != nullptr`, 当前的root就是LCA。否则，就看哪个节点找到了p或q，找到的位置就是p和q的LCA。
+// 如果两个都找到，那么`left != nullptr && right != nullptr`, 当前的root就是LCA。否则，就看哪个节点找到了p或q，找到的位置就是p和q的LCA。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ public:
         
     }
 };
-```
+// ```

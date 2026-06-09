@@ -1,7 +1,7 @@
-单向扫描，大小关系变化马上返回对应索引
+// 单向扫描，大小关系变化马上返回对应索引
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int peakIndexInMountainArray(vector<int>& A) {
@@ -13,4 +13,4 @@ public:
         return -1;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
 
-![image.png](https://pic.leetcode-cn.com/4d716e0cff57ae91286a81932c35eeb2871212e55d2d8c11f60ad7c1ba10aecb-image.png)
-```python
+# ![image.png](https://pic.leetcode-cn.com/4d716e0cff57ae91286a81932c35eeb2871212e55d2d8c11f60ad7c1ba10aecb-image.png)
+# ```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         l = list(map(lambda x: target-x, nums))
@@ -14,4 +14,4 @@ class Solution:
                     if nums.count(m) > 1:
                         y = nums.index(m,y+1)
                         return [x,y]
-```
+# ```

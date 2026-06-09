@@ -1,13 +1,13 @@
-### 解题思路
-看了下现有的题解，可能很多人都做的比我好，但是变量名都太随意了，我好多都看不明白。
-我看很多人都用了两个滑窗，但是我自己的思路感觉一个就够了？？？
-刚开始的做法跟大家都一样，先将p里所有元素统计进dict中。
-然后设置两个指针，begin和end，遍历，到了end的地方先将dict对应字母的次数-1，如果此时该字典小于0，start一直增加直到end代表的字母在dict中不再小于0.
-最后如果begin\end表示的字符串长度等于strlen(p)，将begin的值存入结果数组中，然后begin进位（并且消除原begin对应dict），循环这个过程
+// ### 解题思路
+// 看了下现有的题解，可能很多人都做的比我好，但是变量名都太随意了，我好多都看不明白。
+// 我看很多人都用了两个滑窗，但是我自己的思路感觉一个就够了？？？
+// 刚开始的做法跟大家都一样，先将p里所有元素统计进dict中。
+// 然后设置两个指针，begin和end，遍历，到了end的地方先将dict对应字母的次数-1，如果此时该字典小于0，start一直增加直到end代表的字母在dict中不再小于0.
+// 最后如果begin\end表示的字符串长度等于strlen(p)，将begin的值存入结果数组中，然后begin进位（并且消除原begin对应dict），循环这个过程
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -54,4 +54,4 @@ int* findAnagrams(char * s, char * p, int* returnSize){
 
     return result;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 首先第k大数一定落在[l, r]中，其中l = matrix[0][0], r = matrix[row - 1][col - 1].
 我们二分值域[l, r]区间，mid = (l + r) >> 1, 对于mid，我们检查矩阵中有多少元素小于等于mid，
 记个数为cnt，那么有：
@@ -43,4 +43,4 @@ int kthSmallest(int** matrix, int matrixSize, int* matrixColSize, int k){
     }
     return l;
 }
-```
+// ```

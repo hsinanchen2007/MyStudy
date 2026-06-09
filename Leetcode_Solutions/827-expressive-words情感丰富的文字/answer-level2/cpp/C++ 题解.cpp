@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool valid(const string& s, const string& q) {
@@ -33,6 +33,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/2fa383b4e96b6463a5b2437c0c51698587d71ea57d827e7382217b33611b7d91-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2fa383b4e96b6463a5b2437c0c51698587d71ea57d827e7382217b33611b7d91-image.png)

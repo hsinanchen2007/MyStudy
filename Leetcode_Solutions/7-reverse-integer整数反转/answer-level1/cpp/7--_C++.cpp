@@ -1,9 +1,9 @@
-### 解题思路
-善用INT_MAX和INT_MIN
+// ### 解题思路
+// 善用INT_MAX和INT_MIN
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution{
 public:
     int reverse(int x){
@@ -18,4 +18,4 @@ public:
         return rev;
     }
 };
-```
+// ```

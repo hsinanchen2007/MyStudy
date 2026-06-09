@@ -1,9 +1,9 @@
-### 解题思路
-其实就是做完正向的层次遍历，然后反转结果
+// ### 解题思路
+// 其实就是做完正向的层次遍历，然后反转结果
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -48,4 +48,4 @@ public:
        return res;
     }
 };
-```
+// ```

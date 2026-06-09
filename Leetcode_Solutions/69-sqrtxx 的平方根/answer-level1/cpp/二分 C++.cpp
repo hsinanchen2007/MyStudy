@@ -1,9 +1,9 @@
-### 解题思路
-二分
+// ### 解题思路
+// 二分
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int mySqrt(int x) {
@@ -25,4 +25,4 @@ public:
         return (int)tar;
     }
 };
-```
+// ```

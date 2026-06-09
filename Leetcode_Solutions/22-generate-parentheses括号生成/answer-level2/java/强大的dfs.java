@@ -1,9 +1,9 @@
-### 解题思路
-注意一点：验证程序中用到的static要去掉，否则不通过，可能是leetcode的验证程序设定的原因
+// ### 解题思路
+// 注意一点：验证程序中用到的static要去掉，否则不通过，可能是leetcode的验证程序设定的原因
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	List<String>res = new ArrayList<String>();
     public List<String> generateParenthesis(int n) {
@@ -23,4 +23,4 @@ class Solution {
 		}
 	}
 }
-```
+// ```

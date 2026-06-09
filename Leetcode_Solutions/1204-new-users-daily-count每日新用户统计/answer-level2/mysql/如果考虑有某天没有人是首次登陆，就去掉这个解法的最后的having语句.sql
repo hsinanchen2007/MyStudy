@@ -1,9 +1,9 @@
-### 解题思路
-这里有个坑就是有人在同天多次登陆，恰好那天也是他第一次登陆的日子，要去重
+-- ### 解题思路
+-- 这里有个坑就是有人在同天多次登陆，恰好那天也是他第一次登陆的日子，要去重
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select  tr.activity_date as login_date , count(distinct t1.user_id) as user_count from Traffic as tr  #tr.activity_date as login_date , count(t1.fd) as
@@ -20,4 +20,4 @@ group by tr.activity_date
 having user_count != 0
 
 
-```
+-- ```

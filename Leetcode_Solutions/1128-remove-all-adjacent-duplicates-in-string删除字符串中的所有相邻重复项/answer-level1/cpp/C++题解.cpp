@@ -1,4 +1,4 @@
-用C++写的，用了stack,string.append(),和reverse()几个函数
+// 用C++写的，用了stack,string.append(),和reverse()几个函数
 
     string removeDuplicates(string S) {
         stack<char> s_stack;

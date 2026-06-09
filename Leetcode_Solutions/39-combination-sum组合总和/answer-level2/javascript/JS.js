@@ -1,9 +1,9 @@
-代码如下
+// 代码如下
 
-基本思想基于深度搜索和回溯。
+// 基本思想基于深度搜索和回溯。
 
-先对候选数组做一个排序，且由于数组都是正数，可以直接进行搜索。
-```javascript []
+// 先对候选数组做一个排序，且由于数组都是正数，可以直接进行搜索。
+// ```javascript []
 /**
  * @param {number[]} candidates
  * @param {number} target
@@ -34,4 +34,4 @@ var combinationSum = function (candidates, target) {
   }
   return item
 };
-```
+// ```

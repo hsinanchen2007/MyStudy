@@ -1,9 +1,9 @@
-### 解题思路
-从str = “1”开始，遍历“读”str。
+// ### 解题思路
+// 从str = “1”开始，遍历“读”str。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string countAndSay(int n) {
@@ -33,5 +33,5 @@ public:
         return ret;
     }
 };
-```
-![12.png](https://pic.leetcode-cn.com/b69a8be1157b12460aac15cdcff01d95d88a85e5382a2392b25125210633a8f3-12.png)
+// ```
+// ![12.png](https://pic.leetcode-cn.com/b69a8be1157b12460aac15cdcff01d95d88a85e5382a2392b25125210633a8f3-12.png)

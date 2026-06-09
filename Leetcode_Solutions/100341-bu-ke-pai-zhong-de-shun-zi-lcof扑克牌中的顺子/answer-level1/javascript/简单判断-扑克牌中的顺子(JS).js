@@ -1,4 +1,4 @@
-```js
+// ```js
 var isStraight = function(nums) {
   let res = nums.filter(cur => cur !== 0);
   let res2 = [...new Set(res)];
@@ -9,4 +9,4 @@ var isStraight = function(nums) {
     return true;
   return false;
 };
-```
+// ```

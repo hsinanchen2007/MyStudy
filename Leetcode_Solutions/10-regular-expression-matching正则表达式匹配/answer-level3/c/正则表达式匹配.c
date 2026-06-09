@@ -1,9 +1,9 @@
-### 解题思路
-使用暴力回溯
+// ### 解题思路
+// 使用暴力回溯
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isMatch(char * s, char * p){
     int slen = strlen(s), plen = strlen(p);
     if(plen==0)
@@ -45,4 +45,4 @@ bool isMatch(char * s, char * p){
         return isMatch(s+1,p+1);
     return false;
 }
-```
+// ```

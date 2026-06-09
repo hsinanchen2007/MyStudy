@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double myPow(double x, int n) {
         if(n==0) return 1;
@@ -13,4 +13,4 @@ class Solution {
         return half*half/x;
     }
 }
-```
+// ```

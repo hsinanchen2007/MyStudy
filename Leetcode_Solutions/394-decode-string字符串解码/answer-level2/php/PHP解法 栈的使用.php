@@ -1,4 +1,4 @@
-```php
+// ```php
 function decodeString($s)
 {
     // 初始化结果为空
@@ -41,4 +41,4 @@ function decodeString($s)
 
     return $res;
 }
-```
+// ```

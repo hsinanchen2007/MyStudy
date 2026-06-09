@@ -1,5 +1,5 @@
-## 直接上代码
-```
+# ## 直接上代码
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -26,7 +26,7 @@ class Solution:
             
                 
         return dummy.next
-```
+# ```
 
 
-定义虚拟节点dummy，真实节点real 返回值。前驱节点preNode和当前节点curNode
+# 定义虚拟节点dummy，真实节点real 返回值。前驱节点preNode和当前节点curNode

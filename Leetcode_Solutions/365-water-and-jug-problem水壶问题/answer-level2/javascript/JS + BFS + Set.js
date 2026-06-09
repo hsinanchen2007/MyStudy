@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} x
  * @param {number} y
@@ -31,4 +31,4 @@ var canMeasureWater = function(x, y, z) {
 
     return false;
 };
-```
+// ```

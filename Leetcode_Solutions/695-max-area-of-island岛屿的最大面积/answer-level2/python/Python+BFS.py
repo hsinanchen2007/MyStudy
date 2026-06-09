@@ -1,9 +1,9 @@
-### 解题思路
-沉岛，将访问过的岛设为海洋，免去了访问数组，节省了空间
+# ### 解题思路
+# 沉岛，将访问过的岛设为海洋，免去了访问数组，节省了空间
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid):
         m = len(grid)
@@ -26,4 +26,4 @@ class Solution:
                                 grid[x][y] = 0 #访问过置零
                     ans = max(ans, cnt)
         return ans
-```
+# ```

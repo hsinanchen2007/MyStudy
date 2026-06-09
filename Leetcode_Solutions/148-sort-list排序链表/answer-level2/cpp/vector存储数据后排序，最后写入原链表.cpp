@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
@@ -19,5 +19,5 @@ public:
         return head;
     }
 };
-```
-![1.png](https://pic.leetcode-cn.com/6a8a4c66ffcf0970ba7c762da538d15ef6ce87cefb061b8b992023fba49baf9c-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/6a8a4c66ffcf0970ba7c762da538d15ef6ce87cefb061b8b992023fba49baf9c-1.png)

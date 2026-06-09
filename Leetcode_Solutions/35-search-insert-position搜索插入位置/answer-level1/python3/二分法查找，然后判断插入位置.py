@@ -1,19 +1,19 @@
-### 解题思路
-此处撰写解题思路
-因为给的数组是有序的，用二分法查找很快。只要1-log2(n)次既可以找出target的位置。
-初始化两个指针，头尾指针
-begin = 0, end = len(nums)-1
-中间:middle = int((begin+end)/2)
-if nums[middle] == target:
-    return middle
-elif target >nums[middle]:
-    begin = middle
-else:
-    end = middle
-循环更改middle值和判断
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 因为给的数组是有序的，用二分法查找很快。只要1-log2(n)次既可以找出target的位置。
+# 初始化两个指针，头尾指针
+# begin = 0, end = len(nums)-1
+# 中间:middle = int((begin+end)/2)
+# if nums[middle] == target:
+#     return middle
+# elif target >nums[middle]:
+#     begin = middle
+# else:
+#     end = middle
+# 循环更改middle值和判断
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         if not nums:
@@ -43,4 +43,4 @@ class Solution:
         else:
             nums.insert(begin+1, target)
             return begin+1
-```
+# ```

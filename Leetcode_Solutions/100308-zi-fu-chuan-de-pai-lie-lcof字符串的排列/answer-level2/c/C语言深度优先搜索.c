@@ -1,5 +1,5 @@
-[根据这位的`C++`版本改编](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/solution/c-dfs-mian-shi-ti-38-zi-fu-chuan-de-pai-lie-by-yue/)
-```c
+// [根据这位的`C++`版本改编](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/solution/c-dfs-mian-shi-ti-38-zi-fu-chuan-de-pai-lie-by-yue/)
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -55,4 +55,4 @@ char** permutation(char* s, int* returnSize){
 
     return re;
 }
-```
+// ```

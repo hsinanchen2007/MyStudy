@@ -1,14 +1,14 @@
-首先考虑边界，当l1或l2为空，直接返回另一个链表
+# 首先考虑边界，当l1或l2为空，直接返回另一个链表
 
-当两者均非空时，由于两链表递增，设两指针指向两链表头结点，插入元素较小者，并将对应指针后移，如此循环
+# 当两者均非空时，由于两链表递增，设两指针指向两链表头结点，插入元素较小者，并将对应指针后移，如此循环
 
-当其中一个链表全部插入，则直接将另一个链表尾部接到新链表后面即可，此时不需要循环了
+# 当其中一个链表全部插入，则直接将另一个链表尾部接到新链表后面即可，此时不需要循环了
 
-代码：
+# 代码：
 
-C++：
+# C++：
 
-```
+# ```
 class Solution {
 public:
 	ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -51,9 +51,9 @@ public:
 		}
 	}
 };
-```
-Python3：
-```
+# ```
+# Python3：
+# ```
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         if not l1:
@@ -85,6 +85,6 @@ class Solution:
             if q:
                 r.next = q
             return ans
-```
+# ```
 
 

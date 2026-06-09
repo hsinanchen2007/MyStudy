@@ -1,9 +1,9 @@
-### 解题思路
-核心思想 cur_max_value[i] = max(cur_max_value[i-1],cur_max_value[i-2]+nums[i])
+# ### 解题思路
+# 核心思想 cur_max_value[i] = max(cur_max_value[i-1],cur_max_value[i-2]+nums[i])
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         cur_max_value = []
@@ -24,4 +24,4 @@ class Solution:
             return a
         return b           
                  
-```
+# ```

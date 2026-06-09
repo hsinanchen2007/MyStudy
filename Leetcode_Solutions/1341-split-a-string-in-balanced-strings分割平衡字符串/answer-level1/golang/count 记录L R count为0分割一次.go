@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-count 记录L R count为0分割一次
-令 L 为增1  R为 -1
+// ### 解题思路
+// 此处撰写解题思路
+// count 记录L R count为0分割一次
+// 令 L 为增1  R为 -1
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func balancedStringSplit(s string) int {
     if len(s) < 2 {
         return 0
@@ -30,4 +30,4 @@ func balancedStringSplit(s string) int {
 
     return res
 }
-```
+// ```

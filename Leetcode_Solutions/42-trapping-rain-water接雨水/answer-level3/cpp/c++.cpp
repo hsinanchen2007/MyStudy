@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![捕获1.PNG](https://pic.leetcode-cn.com/31917b2bac0e9ef1bfeb8f60ef4f3cab645984e04bb9b428a3f5e5475d93bb20-%E6%8D%95%E8%8E%B71.PNG)
+// ### 解题思路
+// 此处撰写解题思路
+// ![捕获1.PNG](https://pic.leetcode-cn.com/31917b2bac0e9ef1bfeb8f60ef4f3cab645984e04bb9b428a3f5e5475d93bb20-%E6%8D%95%E8%8E%B71.PNG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -42,4 +42,4 @@ public:
         return res;
     }
 };
-```
+// ```

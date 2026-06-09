@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Initialize your data structure here.
  */
@@ -107,4 +107,4 @@ class TrieNode {
   }
 }
 
-```
+// ```

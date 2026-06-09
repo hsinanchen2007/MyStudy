@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-大家好， 我是 17。
+// 大家好， 我是 17。
 
-设 max 为当前可以达到的最远距离。
-1. 迭代。
-2. 如果当前位置超出最远距离，返回 false
-3. 计算新的 max
+// 设 max 为当前可以达到的最远距离。
+// 1. 迭代。
+// 2. 如果当前位置超出最远距离，返回 false
+// 3. 计算新的 max
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -23,4 +23,4 @@ var canJump = function(nums) {
    }
    return true
 };
-```
+// ```

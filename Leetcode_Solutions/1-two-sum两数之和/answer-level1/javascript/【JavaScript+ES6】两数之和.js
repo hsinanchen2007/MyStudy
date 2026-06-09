@@ -1,9 +1,9 @@
-### 解题思路
-纯ES6写法，利用新的数据结构Map
+// ### 解题思路
+// 纯ES6写法，利用新的数据结构Map
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -36,4 +36,4 @@ var twoSum = function(nums, target) {
     }
   }
 twoSum([5, 2, 11, 15, 7, 6], 9)
-```
+// ```

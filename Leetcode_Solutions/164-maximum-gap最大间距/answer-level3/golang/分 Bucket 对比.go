@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 
 type Bucket struct {
@@ -76,4 +76,4 @@ func maximumGap(nums []int) (rtn int) {
 	return
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-当函数最终需要返回一个列表（或者字典、元组、集合）时，则应该定义一个函数内部的递归函数。
+# ### 解题思路
+# 当函数最终需要返回一个列表（或者字典、元组、集合）时，则应该定义一个函数内部的递归函数。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution(object):
         return res
         
 
-```
+# ```

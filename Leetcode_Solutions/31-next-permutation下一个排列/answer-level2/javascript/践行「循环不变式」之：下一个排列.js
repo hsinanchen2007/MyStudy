@@ -1,13 +1,13 @@
-循环不变式，即 loop invariant，是循环迭代能够正确解决问题的「关键所在」。
+// 循环不变式，即 loop invariant，是循环迭代能够正确解决问题的「关键所在」。
 
-每一个使用循环迭代解决问题的程序，都有一个或显式或隐式的「loop invariant」。
+// 每一个使用循环迭代解决问题的程序，都有一个或显式或隐式的「loop invariant」。
 
-循环迭代能解决问题的核心：保证每一次子循环中的「loop invariant」。
+// 循环迭代能解决问题的核心：保证每一次子循环中的「loop invariant」。
 
-时刻记住：**循环不变式虽然是求解问题的关键，但循环不变式本身并不等同于问题答案**。
+// 时刻记住：**循环不变式虽然是求解问题的关键，但循环不变式本身并不等同于问题答案**。
 
 
-```js
+// ```js
 var nextPermutation = function(nums) {
   // initialize start and end index
   // at last we will reverse range [start, end] of nums
@@ -44,4 +44,4 @@ var nextPermutation = function(nums) {
     swap(i, sum - i)
   }
 };
-```
+// ```

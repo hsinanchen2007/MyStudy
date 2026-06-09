@@ -1,5 +1,5 @@
-和官方题解类似，加入了自己的注解
-```
+// 和官方题解类似，加入了自己的注解
+// ```
 class Solution {
 public:
     vector<int> findErrorNums(vector<int>& nums) {
@@ -16,4 +16,4 @@ public:
         return vec;
     }
 };
-```
+// ```

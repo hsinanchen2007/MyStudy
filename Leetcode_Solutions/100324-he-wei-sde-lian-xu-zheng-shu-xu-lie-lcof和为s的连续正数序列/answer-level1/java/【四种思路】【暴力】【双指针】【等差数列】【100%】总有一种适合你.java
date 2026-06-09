@@ -1,10 +1,10 @@
-### 思路一：
+// ### 思路一：
 
-暴力
+// 暴力
 
-### 代码：
+// ### 代码：
 
-```
+// ```
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int []> res = new ArrayList<>();
@@ -28,32 +28,32 @@ class Solution {
         return res.toArray(new int[0][]);
     }
 }
-```
-### Result：
+// ```
+// ### Result：
 
-Runtime：10ms
+// Runtime：10ms
 
-Your runtime beats 31.57% of java submissions.
+// Your runtime beats 31.57% of java submissions.
 
-### 思路二：
+// ### 思路二：
 
-有点双指针的感觉。。（滑动窗口）
+// 有点双指针的感觉。。（滑动窗口）
 
-其实在找第一组满足条件的序列时，已经计算了部分和，并不需要重新算了。只需要用当前和减去上个序列的最小值即为下个待求序列的和，再从 high++ 即可。
+// 其实在找第一组满足条件的序列时，已经计算了部分和，并不需要重新算了。只需要用当前和减去上个序列的最小值即为下个待求序列的和，再从 high++ 即可。
 
-low 指针标志序列的起点，high 指针标志序列的终点。
+// low 指针标志序列的起点，high 指针标志序列的终点。
 
-![image](https://pic.leetcode-cn.com/af4821c41d5b093e6a41ad5602208f9e7057cc1b002cd0053de71bc9a0e35b12.jpg)
+// ![image](https://pic.leetcode-cn.com/af4821c41d5b093e6a41ad5602208f9e7057cc1b002cd0053de71bc9a0e35b12.jpg)
 
-至于为什么是 (target + 1) / 2
+// 至于为什么是 (target + 1) / 2
 
-```
+// ```
 因为 (target/2 + (target+1)/2) > target
-```
+// ```
 
-### 代码：
+// ### 代码：
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int []> res = new ArrayList<>();
@@ -78,33 +78,33 @@ class Solution {
         return res.toArray(new int[0][]);
     }
 }
-```
+// ```
 
-### Result：
+// ### Result：
 
-Runtime：5ms
+// Runtime：5ms
 
-Your runtime beats 67.35% of java submissions.
+// Your runtime beats 67.35% of java submissions.
 
-### 思路三：
+// ### 思路三：
 
-数学推导（等差数列）
+// 数学推导（等差数列）
 
-1）由于我们要找的是和为S的连续正数序列，因此这个序列是个公差为1的等差数列，**而这个序列的中间值代表了平均值的大小**。假设序列长度为n，那么这个序列的中间值可以通过（S / n）得到，知道序列的中间值和长度，也就不难求出这段序列了。
+// 1）由于我们要找的是和为S的连续正数序列，因此这个序列是个公差为1的等差数列，**而这个序列的中间值代表了平均值的大小**。假设序列长度为n，那么这个序列的中间值可以通过（S / n）得到，知道序列的中间值和长度，也就不难求出这段序列了。
 
-2）满足条件的n分两种情况：
+// 2）满足条件的n分两种情况：
 
-**n为奇数时**，序列中间的数正好是序列的平均值，所以条件为：(n & 1) == 1 && sum % n == 0；
+// **n为奇数时**，序列中间的数正好是序列的平均值，所以条件为：(n & 1) == 1 && sum % n == 0；
 
-**n为偶数时**，序列中间两个数的平均值是序列的平均值，而这个平均值的小数部分为0.5，所以条件为：(sum % n) * 2 == n.
+// **n为偶数时**，序列中间两个数的平均值是序列的平均值，而这个平均值的小数部分为0.5，所以条件为：(sum % n) * 2 == n.
 
-3）由题可知n >=2，那么n的最大值是多少呢？我们完全可以将n从2到S全部遍历一次，但是大部分遍历是不必要的。为了让n尽可能大，我们让序列从1开始，根据等差数列的求和公式：S = (1 + n) * n / 2，得到n最大为sqrt(2*sum)
+// 3）由题可知n >=2，那么n的最大值是多少呢？我们完全可以将n从2到S全部遍历一次，但是大部分遍历是不必要的。为了让n尽可能大，我们让序列从1开始，根据等差数列的求和公式：S = (1 + n) * n / 2，得到n最大为sqrt(2*sum)
 
-最后举一个例子，假设输入sum = 100，我们只需遍历n = 13~2的情况（按题意应从大到小遍历），n = 8时，得到序列[9, 10, 11, 12, 13, 14, 15, 16]；n = 5时，得到序列[18, 19, 20, 21, 22]。
+// 最后举一个例子，假设输入sum = 100，我们只需遍历n = 13~2的情况（按题意应从大到小遍历），n = 8时，得到序列[9, 10, 11, 12, 13, 14, 15, 16]；n = 5时，得到序列[18, 19, 20, 21, 22]。
 
-### 代码：
+// ### 代码：
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int []> res = new ArrayList<>();
@@ -122,21 +122,21 @@ class Solution {
         return res.toArray(new int[0][]);
     }
 }
-```
+// ```
 
-### Result：
+// ### Result：
 
-Runtime：0ms
+// Runtime：0ms
 
-Your runtime beats 100% of java submissions.
+// Your runtime beats 100% of java submissions.
 
-### 思路四：
+// ### 思路四：
 
-还是数学推导（等差数列）
+// 还是数学推导（等差数列）
 
-### 代码：
+// ### 代码：
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int []> res = new ArrayList<>();
@@ -161,10 +161,10 @@ class Solution {
         return res.toArray(new int[0][]);
     }
 }
-```
+// ```
 
-### Result：
+// ### Result：
 
-Runtime：0ms
+// Runtime：0ms
 
-Your runtime beats 100% of java submissions.
+// Your runtime beats 100% of java submissions.

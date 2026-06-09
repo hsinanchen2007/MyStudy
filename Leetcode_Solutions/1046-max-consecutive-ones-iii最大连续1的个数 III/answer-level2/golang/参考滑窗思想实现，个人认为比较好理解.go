@@ -1,5 +1,5 @@
-大致思想：若为1则往后走，若为0，则考虑使用K补救，若K已经用完，则告一段落，进行下一轮的计数
-```
+// 大致思想：若为1则往后走，若为0，则考虑使用K补救，若K已经用完，则告一段落，进行下一轮的计数
+// ```
 func longestOnes(A []int, K int) int {
 	// left记录起始位置，right记录终点位置
 	var result, left, right int
@@ -31,4 +31,4 @@ func longestOnes(A []int, K int) int {
 	}
 	return result
 }
-```
+// ```

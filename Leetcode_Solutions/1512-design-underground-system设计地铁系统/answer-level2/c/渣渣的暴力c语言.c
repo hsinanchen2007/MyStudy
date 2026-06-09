@@ -1,9 +1,9 @@
-### 解题思路
-渣渣的暴力c语言
+// ### 解题思路
+// 渣渣的暴力c语言
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct UndergroundSystem{
     int i;
     char *str;
@@ -92,4 +92,4 @@ void undergroundSystemFree(UndergroundSystem* obj) {
  
  * undergroundSystemFree(obj);
 */
-```
+// ```

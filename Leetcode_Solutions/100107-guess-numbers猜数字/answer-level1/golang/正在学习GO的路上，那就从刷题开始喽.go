@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func game(guess []int, answer []int) int {
     if len(guess) != len(answer) {
 		return 0
@@ -17,4 +17,4 @@ func game(guess []int, answer []int) int {
 	}
 	return count
 }
-```
+// ```

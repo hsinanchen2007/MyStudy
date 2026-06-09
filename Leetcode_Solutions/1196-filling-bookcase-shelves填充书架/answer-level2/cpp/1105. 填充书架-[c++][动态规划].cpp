@@ -1,13 +1,13 @@
-记第 $i$ 本书的高度为 $h_i$，宽度为 $w_i$，当第 $i$ 本书排在书架某一层第一个位置的时候，第 $i$ 本到最后一本书形成的最小高度为 $dp_i$. 递推公式为：
-$$
-dp_i = min\{max(h_i)+dp_{i+1},max(h_i,h_{i+1})+dp_{i+2},...,max(h_i,...,h_j)+dp_{j+1}\}
-\\ s.t.\sum_{k=i}^{j}{w_k}<=shelf
-\_width
-$$
+// 记第 $i$ 本书的高度为 $h_i$，宽度为 $w_i$，当第 $i$ 本书排在书架某一层第一个位置的时候，第 $i$ 本到最后一本书形成的最小高度为 $dp_i$. 递推公式为：
+// $$
+// dp_i = min\{max(h_i)+dp_{i+1},max(h_i,h_{i+1})+dp_{i+2},...,max(h_i,...,h_j)+dp_{j+1}\}
+// \\ s.t.\sum_{k=i}^{j}{w_k}<=shelf
+// \_width
+// $$
 
-思路的含义非常简单，就是不断的把第 $i$ 本书后面的书拿到和 $i$ 本书同层的位置（如果这一层放的下的话），计算这种情况下 $dp_i$ 形成的高度。
+// 思路的含义非常简单，就是不断的把第 $i$ 本书后面的书拿到和 $i$ 本书同层的位置（如果这一层放的下的话），计算这种情况下 $dp_i$ 形成的高度。
 
-```cpp [-c++]
+// ```cpp [-c++]
 int minHeightShelves(vector<vector<int>>& books, int shelf_width) {
     vector<int> dp(books.size() + 1, INT_MAX);
     dp[books.size()] = 0;
@@ -23,4 +23,4 @@ int minHeightShelves(vector<vector<int>>& books, int shelf_width) {
     }
     return dp[0];
 }
-```
+// ```

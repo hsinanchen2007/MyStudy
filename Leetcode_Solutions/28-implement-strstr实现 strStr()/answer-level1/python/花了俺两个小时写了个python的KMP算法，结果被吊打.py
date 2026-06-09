@@ -1,9 +1,9 @@
-### 解题思路
-先用getnext获得next列表，后面就是常规操作了
+# ### 解题思路
+# 先用getnext获得next列表，后面就是常规操作了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def strStr(self, haystack, needle):
         """
@@ -41,4 +41,4 @@ class Solution(object):
         
         
         
-```
+# ```

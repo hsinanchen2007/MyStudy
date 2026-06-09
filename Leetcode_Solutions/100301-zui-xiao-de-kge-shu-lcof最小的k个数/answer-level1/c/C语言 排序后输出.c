@@ -1,9 +1,9 @@
-### 解题思路
-	排序后输出
+// ### 解题思路
+// 	排序后输出
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 
 const void* cmp(const void *a, const void *b) {
@@ -31,4 +31,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize) {
 	*returnSize = k;
 	return returnArray;
 }
-```
+// ```

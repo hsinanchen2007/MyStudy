@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func plusOne(digits []int) []int {
     n := len(digits)
     pre := 1
@@ -28,4 +28,4 @@ func plus(v,pre int)(n,m int){
         return 0,s
     }
 }
-```
+// ```

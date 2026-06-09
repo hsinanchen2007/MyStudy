@@ -1,4 +1,4 @@
-```
+// ```
     public int[] smallerNumbersThanCurrent(int[] nums) {
         int[] res = new int[nums.length];
         int[] map = new int[101];
@@ -15,4 +15,4 @@
         return res;
     }
 
-```
+// ```

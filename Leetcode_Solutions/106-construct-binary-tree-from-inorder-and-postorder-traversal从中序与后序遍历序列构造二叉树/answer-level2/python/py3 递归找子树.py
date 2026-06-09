@@ -1,9 +1,9 @@
-### 解题思路
-其实和前序、中序的题一样，都是分治找子树
+# ### 解题思路
+# 其实和前序、中序的题一样，都是分治找子树
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
         root.left=self.buildTree(inorder[:idx],postorder[:idx])
         return root
 
-```
+# ```

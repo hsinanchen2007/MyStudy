@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} array
  * @return {number[]}
@@ -25,4 +25,4 @@ var subSort = function (array) {
     return [index[0], index[index.length - 1]]
 
 };
-```
+// ```

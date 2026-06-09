@@ -1,10 +1,10 @@
-### 解题思路
-插入 排序
-找
+# ### 解题思路
+# 插入 排序
+# 找
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         if target in nums:
@@ -14,4 +14,4 @@ class Solution:
             nums.sort()
             return nums.index(target)
 
-```
+# ```

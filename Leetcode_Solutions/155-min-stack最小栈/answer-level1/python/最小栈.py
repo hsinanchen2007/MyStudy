@@ -1,4 +1,4 @@
-```
+# ```
 class MinStack(object):
 
     def __init__(self):
@@ -38,4 +38,4 @@ class MinStack(object):
         :rtype: int
         """
         return self.s2[-1]
-```
+# ```

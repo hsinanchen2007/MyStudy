@@ -1,13 +1,13 @@
-1. ### 解题思路
-1.创建一个函数overflow来判断输入和输出的x是否溢出
-2.x为正数时，先化为字符串，再转化为数组，利用数组的reverse方法进行翻转
-3.翻转后的x数组利用join方法重新化为字符串
-4.利用parseInt转化为数字型,再return x
-5.x为负数时，先x=-x，再重复2，3，4  步骤    
+// 1. ### 解题思路
+// 1.创建一个函数overflow来判断输入和输出的x是否溢出
+// 2.x为正数时，先化为字符串，再转化为数组，利用数组的reverse方法进行翻转
+// 3.翻转后的x数组利用join方法重新化为字符串
+// 4.利用parseInt转化为数字型,再return x
+// 5.x为负数时，先x=-x，再重复2，3，4  步骤    
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -39,4 +39,4 @@ var reverse = function(x) {
         return 0;
     }      
 };
-```
+// ```

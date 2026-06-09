@@ -1,10 +1,10 @@
-注释 ：
-- 你可以认为数组中所有元素的值互不相同。
-- 数组元素的值域是 [-9999, 9999]。
+// 注释 ：
+// - 你可以认为数组中所有元素的值互不相同。
+// - 数组元素的值域是 [-9999, 9999]。
 
-因此我们认为，数组最大长度为 2 万。
+// 因此我们认为，数组最大长度为 2 万。
 
-```java
+// ```java
 public int search(ArrayReader reader, int target) {
     int left = 0, right = 20000;
     while (left <= right) {
@@ -20,4 +20,4 @@ public int search(ArrayReader reader, int target) {
     }
     return -1;
 }
-```
+// ```

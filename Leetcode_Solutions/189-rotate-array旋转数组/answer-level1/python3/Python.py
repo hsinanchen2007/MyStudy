@@ -1,5 +1,5 @@
-#  方法一：Python内置函数，取表尾（并将其删除）加入到表头，循环k次
-```
+# #  方法一：Python内置函数，取表尾（并将其删除）加入到表头，循环k次
+# ```
 class Solution(object):
     def rotate(self, nums, k):
         """
@@ -12,13 +12,13 @@ class Solution(object):
             nums.insert(0,nums.pop())
         
         return nums
-```
+# ```
 
-# 方法二：反转法
-- 将列表反转
-- 将前k个元素反转
-- 将后n-k个元素反转
-```
+# # 方法二：反转法
+# - 将列表反转
+# - 将前k个元素反转
+# - 将后n-k个元素反转
+# ```
 class Solution(object):
     def rotate(self, nums, k):
         """
@@ -42,10 +42,10 @@ class Solution(object):
             nums[start],nums[end]=nums[end],nums[start]
             start+=1
             end-=1
-```
+# ```
 
-#  方法三：
-```
+# #  方法三：
+# ```
 class Solution(object):
     def rotate(self, nums, k):
         """
@@ -57,4 +57,4 @@ class Solution(object):
         t=nums[-k:]
         nums[k:]=nums[:-k]
         nums[:k]=t
-```
+# ```

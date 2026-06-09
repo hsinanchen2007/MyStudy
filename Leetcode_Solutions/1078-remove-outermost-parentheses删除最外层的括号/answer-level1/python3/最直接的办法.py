@@ -1,6 +1,6 @@
-判断'(' AND ')' 的数量，相等的时候，则匹配，去掉最外层括号即可
+# 判断'(' AND ')' 的数量，相等的时候，则匹配，去掉最外层括号即可
 
-```
+# ```
 class Solution:
     def removeOuterParentheses(self, S: str) -> str:
         l_num = 0
@@ -21,7 +21,7 @@ class Solution:
                 r_num = 0
                 sub_s = ''
         return total_s
-```
+# ```
 
 
 

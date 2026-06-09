@@ -1,9 +1,9 @@
-### 解题思路
-完全按照题目要求，使用字符数组实现，在字符数组上进行操作
+// ### 解题思路
+// 完全按照题目要求，使用字符数组实现，在字符数组上进行操作
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpaces(String S, int length) {
         char[] s=S.toCharArray();
@@ -28,4 +28,4 @@ class Solution {
         return new String(res);
     }
 }
-```
+// ```

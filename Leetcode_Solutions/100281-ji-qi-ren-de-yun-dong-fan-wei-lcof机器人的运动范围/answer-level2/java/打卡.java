@@ -1,10 +1,10 @@
-### 解题思路
-![QQ截图20200408130838.png](https://pic.leetcode-cn.com/3b7a6aac1626507fdb6c9b76ac8099bc6aaef396f894482ee9257d1e970dfd1e-QQ%E6%88%AA%E5%9B%BE20200408130838.png)
+// ### 解题思路
+// ![QQ截图20200408130838.png](https://pic.leetcode-cn.com/3b7a6aac1626507fdb6c9b76ac8099bc6aaef396f894482ee9257d1e970dfd1e-QQ%E6%88%AA%E5%9B%BE20200408130838.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     boolean[][] matrix;
     int count=0;
@@ -32,4 +32,4 @@ public class Solution {
         return 1;   //m <=100
     }
 }
-```
+// ```

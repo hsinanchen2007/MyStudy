@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用lower_bound来查找数值
+// 使用lower_bound来查找数值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 class Solution
 {
@@ -22,4 +22,4 @@ public:
         return lower_bound(dp, dp + nums.size(), INT_MAX) - dp;
     }
 };
-```
+// ```

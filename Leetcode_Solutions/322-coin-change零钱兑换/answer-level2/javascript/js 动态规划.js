@@ -1,4 +1,4 @@
-```js
+// ```js
 var coinChange = function(coins, amount) {
     let dp = Array(amount+1).fill(amount+1)
     dp[0] = 0
@@ -11,4 +11,4 @@ var coinChange = function(coins, amount) {
     }
     return dp[amount] > amount ? -1 : dp[amount]
 };
-```
+// ```

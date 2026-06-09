@@ -1,9 +1,9 @@
-### 解题思路
-用 ans 迭代取出的每位数进行平方求和，再判断是否已经出现过这个 ans ，是则 False,否则
-放入集合，循环开始判断 ans 是否为1。
-### 代码
+# ### 解题思路
+# 用 ans 迭代取出的每位数进行平方求和，再判断是否已经出现过这个 ans ，是则 False,否则
+# 放入集合，循环开始判断 ans 是否为1。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isHappy(self, n: int) -> bool:
         
@@ -20,4 +20,4 @@ class Solution:
                 n , ans = ans , n       # --------将 n , ans 互换重新开始下一轮循环
             ans += (n%10) ** 2
             n //= 10
-```
+# ```

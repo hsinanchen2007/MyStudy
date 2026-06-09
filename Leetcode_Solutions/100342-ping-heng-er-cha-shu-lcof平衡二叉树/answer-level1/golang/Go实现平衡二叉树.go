@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -37,4 +37,4 @@ func Process(Node *TreeNode)Info{
 	}
 	return Info{int(math.Abs(float64(leftInfo.height-rightInfo.height)))<2,int(math.Max(float64(leftInfo.height),float64(rightInfo.height)))+1}
 }
-```
+// ```

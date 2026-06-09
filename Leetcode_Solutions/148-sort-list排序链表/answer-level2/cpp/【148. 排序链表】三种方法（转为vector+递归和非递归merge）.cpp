@@ -1,6 +1,6 @@
-## 思路一：利用vector
-### 代码
-```c++
+// ## 思路一：利用vector
+// ### 代码
+// ```c++
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
@@ -24,12 +24,12 @@ public:
         return head;
     }
 };
-```
+// ```
 
-## 思路二：归并排序
-利用递归
-### 代码
-```c++
+// ## 思路二：归并排序
+// 利用递归
+// ### 代码
+// ```c++
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
@@ -62,9 +62,9 @@ public:
         }        
     }
 };
-```
-#### 非递归
-```c++
+// ```
+// #### 非递归
+// ```c++
 class Solution {
 public:
     ListNode* sortList(ListNode* head) {
@@ -109,5 +109,5 @@ public:
         return pHead->next;
     }
 };
-```
+// ```
 

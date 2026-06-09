@@ -1,8 +1,8 @@
-### 解题思路
-边添加边查找
-### 代码
+// ### 解题思路
+// 边添加边查找
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
 		HashMap<Integer,Integer> map = new HashMap<>() ;
@@ -16,4 +16,4 @@ class Solution {
 		return null ;
     }
 }
-```
+// ```

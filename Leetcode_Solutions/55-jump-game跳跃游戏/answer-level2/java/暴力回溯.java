@@ -1,9 +1,9 @@
-### 解题思路
-最后一个超时，不知道咋剪枝
+// ### 解题思路
+// 最后一个超时，不知道咋剪枝
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canJump(int[] nums) {
         if (nums[0] == 25000) return false;
@@ -18,4 +18,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

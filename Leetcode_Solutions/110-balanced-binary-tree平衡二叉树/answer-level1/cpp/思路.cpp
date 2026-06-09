@@ -1,10 +1,10 @@
-### 解题思路
-自底向上复杂度低一些
-但是需要考虑到 result结果的传递，可以使用全局变量
+// ### 解题思路
+// 自底向上复杂度低一些
+// 但是需要考虑到 result结果的传递，可以使用全局变量
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ public:
       return res;
     }
 };
-```
+// ```

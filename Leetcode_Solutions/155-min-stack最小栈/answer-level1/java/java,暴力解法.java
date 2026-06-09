@@ -1,17 +1,17 @@
-### 解题思路
- 最小栈
-  因为 data > min 的时候还是min入入栈，造成大量重复的min
-  所以只记录比min小的值入栈，为了minlist和list保持一致，当list
-  pop的时候，需要进行一次比较如果top 小于等于min的时候，minlist出栈
-  否则不出栈
-  push  时间复杂度 O(1) ,空间复杂度 O(n)
-  pop  时间复杂度 O(1) ,空间复杂度 O(n)
-  top  时间复杂度 O(1) ,空间复杂度 O(n)
-  getMin 时间复杂度 O(1) ,空间复杂度 O(n)
+// ### 解题思路
+//  最小栈
+//   因为 data > min 的时候还是min入入栈，造成大量重复的min
+//   所以只记录比min小的值入栈，为了minlist和list保持一致，当list
+//   pop的时候，需要进行一次比较如果top 小于等于min的时候，minlist出栈
+//   否则不出栈
+//   push  时间复杂度 O(1) ,空间复杂度 O(n)
+//   pop  时间复杂度 O(1) ,空间复杂度 O(n)
+//   top  时间复杂度 O(1) ,空间复杂度 O(n)
+//   getMin 时间复杂度 O(1) ,空间复杂度 O(n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
     /** initialize your data structure here. */
@@ -69,4 +69,4 @@ class MinStack {
         Assertions.assertEquals(1, minStack.getMin());
         Assertions.assertEquals(1, minStack.getMin());
     }
-```
+// ```

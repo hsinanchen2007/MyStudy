@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 def DFS(grid,mark,x,y):
     
     mark[x][y]=1
@@ -49,4 +49,4 @@ class Solution(object):
                     
                     
                 
-```
+# ```

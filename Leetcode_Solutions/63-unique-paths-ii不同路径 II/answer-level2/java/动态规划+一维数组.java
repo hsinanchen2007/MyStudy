@@ -1,9 +1,9 @@
-### 解题思路
-这就是严谨的java吗，i了i了，思路和C++一致，但判断和强制转换要严谨很多。
+// ### 解题思路
+// 这就是严谨的java吗，i了i了，思路和C++一致，但判断和强制转换要严谨很多。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;
@@ -24,4 +24,4 @@ class Solution {
         return (int)dp[n-1];
     }
 }
-```
+// ```

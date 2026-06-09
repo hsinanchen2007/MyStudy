@@ -1,11 +1,11 @@
-### 解题思路
-此题不难，就是要多考虑边界条件。
-暴力也行，DFS也成。
-唯尾递归容易些。
+// ### 解题思路
+// 此题不难，就是要多考虑边界条件。
+// 暴力也行，DFS也成。
+// 唯尾递归容易些。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func restoreIpAddresses(s string) []string {
 
 	var recur func(s string, l int) []string
@@ -58,4 +58,4 @@ func restoreIpAddresses(s string) []string {
 
 	return recur(s, 4)
 }
-```
+// ```

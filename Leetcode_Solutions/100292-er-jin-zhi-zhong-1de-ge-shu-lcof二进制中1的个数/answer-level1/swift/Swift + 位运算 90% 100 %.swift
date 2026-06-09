@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func hammingWeight(_ n: Int) -> Int {
         if n == 0 {
@@ -13,4 +13,4 @@ class Solution {
         return count
     }
 }
-```
+// ```

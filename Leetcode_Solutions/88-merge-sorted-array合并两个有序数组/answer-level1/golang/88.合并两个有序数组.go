@@ -1,9 +1,9 @@
-### 解题思路
-思路：双指针法 i->nums1,j->nums2 先把nums1拷贝一份，最终排序结果放入原nums1，否则会导致nums1被覆盖
+// ### 解题思路
+// 思路：双指针法 i->nums1,j->nums2 先把nums1拷贝一份，最终排序结果放入原nums1，否则会导致nums1被覆盖
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //思路：双指针法 i->nums1,j->nums2 先把nums1拷贝一份，最终排序结果放入原nums1，否则会导致nums1被覆盖
 func merge(nums1 []int, m int, nums2 []int, n int)  {
 	bak := make([]int, m)
@@ -34,4 +34,4 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
 		}
 	}
 }
-```
+// ```

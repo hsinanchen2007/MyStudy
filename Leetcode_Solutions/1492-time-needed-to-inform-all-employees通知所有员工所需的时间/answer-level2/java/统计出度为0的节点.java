@@ -1,4 +1,4 @@
-```
+// ```
 public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {               
         List<Integer> leafs = new ArrayList<>();
         for(int i =0;i<n;i++){
@@ -16,4 +16,4 @@ public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
         }
         return Arrays.stream(times).max().getAsInt();
 }
-```
+// ```

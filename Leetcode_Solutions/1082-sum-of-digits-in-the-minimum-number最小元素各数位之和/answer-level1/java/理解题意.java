@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int sumOfDigits(int[] A) {
         Arrays.sort(A);
@@ -16,4 +16,4 @@ class Solution {
         return sum%2==0?1:0;
     }
 }
-```
+// ```

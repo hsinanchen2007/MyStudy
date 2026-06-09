@@ -1,10 +1,10 @@
 
-广度优先遍历，关键点  
-1.创建层次数组的时机
-2.传递层次进去是很美妙的实现
+// 广度优先遍历，关键点  
+// 1.创建层次数组的时机
+// 2.传递层次进去是很美妙的实现
 
-Java
-```java
+// Java
+// ```java
 class Solution {
     private List<List<Integer>> levels;
     public Solution() {
@@ -33,4 +33,4 @@ class Solution {
         bfsBinaryTree(node.right,level+1);
     }    
 }
-```
+// ```

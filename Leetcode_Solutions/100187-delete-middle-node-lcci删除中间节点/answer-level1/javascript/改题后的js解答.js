@@ -1,9 +1,9 @@
-### 解题思路
-题目改了，先通过n找到被删的node，再进行删除
+// ### 解题思路
+// 题目改了，先通过n找到被删的node，再进行删除
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -27,4 +27,4 @@ var deleteNode = function(node, n) {
     
 
 };
-```
+// ```

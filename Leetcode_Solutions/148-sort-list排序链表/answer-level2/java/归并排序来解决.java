@@ -1,5 +1,5 @@
-这道题一看到时间复杂度为O(nlongn),首先想到的就是使用归并排序来完成，思路其实很简单，就是把链表分为两部分，分别对它们进行排序，然后合并这两个有序的链表就好了
-```
+// 这道题一看到时间复杂度为O(nlongn),首先想到的就是使用归并排序来完成，思路其实很简单，就是把链表分为两部分，分别对它们进行排序，然后合并这两个有序的链表就好了
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -60,4 +60,4 @@ class Solution {
         return dummyHead.next;
     }
 }
-```
+// ```

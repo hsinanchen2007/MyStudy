@@ -1,6 +1,6 @@
-![TIM截图20190820172503.png](https://pic.leetcode-cn.com/f2da4f214d9d0c339034c128e0237ebb139ce1ca46667289bd1af7c173648c44-TIM%E6%88%AA%E5%9B%BE20190820172503.png)
+// ![TIM截图20190820172503.png](https://pic.leetcode-cn.com/f2da4f214d9d0c339034c128e0237ebb139ce1ca46667289bd1af7c173648c44-TIM%E6%88%AA%E5%9B%BE20190820172503.png)
 
-```
+// ```
 var lengthOfLongestSubstring = function(s) {
     var max = 0; // 存放 没有重复字符串的最大长度
     var index = 0; //  存放当前没有重复字串的开始索引
@@ -31,4 +31,4 @@ var lengthOfLongestSubstring = function(s) {
     return max;
 };
 
-```
+// ```

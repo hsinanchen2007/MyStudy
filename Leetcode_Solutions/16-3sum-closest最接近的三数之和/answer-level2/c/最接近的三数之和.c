@@ -1,8 +1,8 @@
-### 解题思路
-双指针法+去重处理
-### 代码
+// ### 解题思路
+// 双指针法+去重处理
+// ### 代码
 
-```c
+// ```c
 int cmp_int(const void * a, const void * b)
 {
 	return *(int *)a - *(int *)b;
@@ -43,4 +43,4 @@ int threeSumClosest(int* nums, int numsSize, int target){
 	}
 	return res;
 }
-```
+// ```

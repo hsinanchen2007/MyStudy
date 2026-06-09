@@ -1,13 +1,13 @@
-### 解题思路
-联通类问题，使用并查集解决。
+// ### 解题思路
+// 联通类问题，使用并查集解决。
 
-将边界和水域的father设置为0，然后将岛屿归并，最终不为0的根数目，即为封闭岛屿数目。
+// 将边界和水域的father设置为0，然后将岛屿归并，最终不为0的根数目，即为封闭岛屿数目。
 
-![image.png](https://pic.leetcode-cn.com/f16de8f80e30062a74856df4cb248d2669c2b13935f7855c6aac2097f6e2734c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f16de8f80e30062a74856df4cb248d2669c2b13935f7855c6aac2097f6e2734c-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define FA_(a, b)		fa[(a) * col + (b)]
 #define FA_ID(a, b)		((a) * col + (b))
@@ -110,4 +110,4 @@ int closedIsland(int** grid, int gridSize, int* gridColSize){
 	return cnt;
 
 }
-```
+// ```

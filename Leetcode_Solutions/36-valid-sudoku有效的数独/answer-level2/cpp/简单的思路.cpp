@@ -1,9 +1,9 @@
-### 解题思路
-记录数字的位置信息
+// ### 解题思路
+// 记录数字的位置信息
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
@@ -22,4 +22,4 @@ public:
         return true;
     }
 };
-```
+// ```

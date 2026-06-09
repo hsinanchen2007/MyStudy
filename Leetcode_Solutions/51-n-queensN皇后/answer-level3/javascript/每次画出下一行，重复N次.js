@@ -1,8 +1,8 @@
-暴力法
-虽然速度很慢，比较好理解
-写个题解纪念一下
+// 暴力法
+// 虽然速度很慢，比较好理解
+// 写个题解纪念一下
 
-```
+// ```
 var solveNQueens = function(n) {
   let result = []
 
@@ -59,4 +59,4 @@ var solveNQueens = function(n) {
     
   return result
 };
-```
+// ```

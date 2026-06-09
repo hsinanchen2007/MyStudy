@@ -1,12 +1,12 @@
-### 解题思路
-1.思路简单，注意边界条件
-2.在while等循条件里面，同一行代码是从左往右执行的，所以
-while（nums[i]>0 && i<size）//i是可能越界的
-while (i<size && nums[i]>0)//这样即可
+// ### 解题思路
+// 1.思路简单，注意边界条件
+// 2.在while等循条件里面，同一行代码是从左往右执行的，所以
+// while（nums[i]>0 && i<size）//i是可能越界的
+// while (i<size && nums[i]>0)//这样即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int searchInsert(int* nums, int numsSize, int target){
     int head = 0;
     int rear = numsSize-1;
@@ -55,4 +55,4 @@ int searchInsert(int* nums, int numsSize, int target){
 //     return i;
 
 // }
-```
+// ```

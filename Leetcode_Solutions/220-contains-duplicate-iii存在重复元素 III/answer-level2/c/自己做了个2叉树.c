@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-c的实现，好搓啊，自己实现了个2叉树
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// c的实现，好搓啊，自己实现了个2叉树
+// ### 代码
 
-```c
+// ```c
 struct btree {
     int data;
     int tag;
@@ -141,4 +141,4 @@ bool containsNearbyAlmostDuplicate(int* nums, int numsSize, int k, int t){
     //freebt(br.root);
     return false;
 }
-```
+// ```

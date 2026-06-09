@@ -1,5 +1,5 @@
-对宝石进行遍历，对每一种宝石直接在石头中计数，然后相加即可，用到了count函数
-用时0s
+// 对宝石进行遍历，对每一种宝石直接在石头中计数，然后相加即可，用到了count函数
+// 用时0s
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {

@@ -1,4 +1,4 @@
-# 利用union格式化最终结果(t2 left join t3)
+-- # 利用union格式化最终结果(t2 left join t3)
 select t2.*,ifnull(t3.total_amount,0)total_amount,ifnull(t3.total_users,0)total_users
 from
 (select spend_date,"desktop" platform

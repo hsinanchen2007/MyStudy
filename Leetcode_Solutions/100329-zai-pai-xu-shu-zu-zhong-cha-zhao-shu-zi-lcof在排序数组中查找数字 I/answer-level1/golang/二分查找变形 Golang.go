@@ -1,9 +1,9 @@
-### 解题思路
-用个flag，将flag初始值设为-1，如果没找到就是-1，找到了记下找到的位置，向两边扩散遍历
+// ### 解题思路
+// 用个flag，将flag初始值设为-1，如果没找到就是-1，找到了记下找到的位置，向两边扩散遍历
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func search(nums []int, target int) int {
     if len(nums) == 0 {
         return 0
@@ -33,4 +33,4 @@ func search(nums []int, target int) int {
     }
     return cnt
 }
-```
+// ```

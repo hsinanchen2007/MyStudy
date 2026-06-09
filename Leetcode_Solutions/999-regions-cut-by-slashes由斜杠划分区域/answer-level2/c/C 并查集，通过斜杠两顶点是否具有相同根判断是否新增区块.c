@@ -1,11 +1,11 @@
-思路：由于每次增加斜线的长度固定，只会增加0或者1个区块，通过斜线两端点是否具有相同根即可判断是否新增区块
-方法：
-1. 将N*N方格按照1*1拆分， 编号
-![图示.png](https://pic.leetcode-cn.com/0e13d6a901e179d0639bf0e0c5c51a526a73cf2462f8ef2f82e73603b885aba3-%E5%9B%BE%E7%A4%BA.png)
-2. 初始化并查集数组，N*N边上所有点的根节点都是0
-3. 遍历grid，当遇到'\\'或者'/'时判断两端点的根是否相同，如果相同说明增加线段后会新增区块 result++
+// 思路：由于每次增加斜线的长度固定，只会增加0或者1个区块，通过斜线两端点是否具有相同根即可判断是否新增区块
+// 方法：
+// 1. 将N*N方格按照1*1拆分， 编号
+// ![图示.png](https://pic.leetcode-cn.com/0e13d6a901e179d0639bf0e0c5c51a526a73cf2462f8ef2f82e73603b885aba3-%E5%9B%BE%E7%A4%BA.png)
+// 2. 初始化并查集数组，N*N边上所有点的根节点都是0
+// 3. 遍历grid，当遇到'\\'或者'/'时判断两端点的根是否相同，如果相同说明增加线段后会新增区块 result++
 
-```
+// ```
 #define MAX 1000
 int g_boss[MAX];
 int g_result = 0;
@@ -65,4 +65,4 @@ int regionsBySlashes(char ** grid, int gridSize){
     }
     return g_result;
 }
-```
+// ```

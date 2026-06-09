@@ -1,8 +1,8 @@
-1. 把坏点标记出来，好的点做标记；
-2. 上下左右建边；
-3. 跑一遍匈牙利
+# 1. 把坏点标记出来，好的点做标记；
+# 2. 上下左右建边；
+# 3. 跑一遍匈牙利
 
-```python
+# ```python
 class Solution:
     def __init__(self):
         self.E = [[] for _ in range(65)]
@@ -54,4 +54,4 @@ class Solution:
 
         return self.hungarian()            
     
-```
+# ```

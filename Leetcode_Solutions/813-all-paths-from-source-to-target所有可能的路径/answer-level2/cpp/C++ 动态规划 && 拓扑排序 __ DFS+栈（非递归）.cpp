@@ -1,6 +1,6 @@
-## 思路一
-动态规范+拓扑排序
-```cpp
+// ## 思路一
+// 动态规范+拓扑排序
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
@@ -38,11 +38,11 @@ public:
         return std::move(dp[n - 1]);
     }
 };
-```
+// ```
 
-## 思路二
-DFS+栈
-```cpp
+// ## 思路二
+// DFS+栈
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> allPathsSourceTarget(vector<vector<int>>& graph) {
@@ -80,4 +80,4 @@ public:
         return std::move(ret);
     }
 };
-```
+// ```

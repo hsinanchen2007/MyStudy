@@ -1,5 +1,5 @@
-//从root一次遍历出来 再去除set里面出现的项
-```
+// //从root一次遍历出来 再去除set里面出现的项
+// ```
 class Solution {
      List<TreeNode> list = new ArrayList<>();
 
@@ -60,4 +60,4 @@ class Solution {
         return isExist(set, root.left) || isExist(set, root.right);
     }
 } 
-```
+// ```

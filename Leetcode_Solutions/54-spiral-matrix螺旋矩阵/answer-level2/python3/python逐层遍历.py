@@ -1,9 +1,9 @@
-**思路：**
-看这位同学的思路吧，很简单
-https://leetcode-cn.com/problems/spiral-matrix/solution/luo-xuan-ju-zhen-by-liao-tian-yi-jian/
+# **思路：**
+# 看这位同学的思路吧，很简单
+# https://leetcode-cn.com/problems/spiral-matrix/solution/luo-xuan-ju-zhen-by-liao-tian-yi-jian/
 
-**代码：**
-```
+# **代码：**
+# ```
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if not matrix: return []
@@ -27,4 +27,4 @@ class Solution:
                 for r1 in range(last_row-1, start, -1):  # from bottom to top
                     res_list.append(matrix[r1][start])
         return res_list
-```
+# ```

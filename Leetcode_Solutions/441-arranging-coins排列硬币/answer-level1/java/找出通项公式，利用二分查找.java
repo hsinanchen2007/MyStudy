@@ -1,7 +1,7 @@
-前n行最多包含`(n * n + n) / 2`个硬币。
+// 前n行最多包含`(n * n + n) / 2`个硬币。
 
-从而可以在`1`到`n`之间利用二分查找做。
-```
+// 从而可以在`1`到`n`之间利用二分查找做。
+// ```
 public static int arrangeCoins2(int n) {
         int left = 1, right = n;
         while (left <= right) {
@@ -24,4 +24,4 @@ public static int arrangeCoins2(int n) {
     public static int cal(int num) {
         return (num * num + num) / 2;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-因为数组有序，所以左右指针相加和target相比就可以确定两个数和为s
+// ### 解题思路
+// 因为数组有序，所以左右指针相加和target相比就可以确定两个数和为s
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         if(nums==null||nums.length==0){
@@ -24,4 +24,4 @@ class Solution {
         return new int[]{};
     }
 }
-```
+// ```

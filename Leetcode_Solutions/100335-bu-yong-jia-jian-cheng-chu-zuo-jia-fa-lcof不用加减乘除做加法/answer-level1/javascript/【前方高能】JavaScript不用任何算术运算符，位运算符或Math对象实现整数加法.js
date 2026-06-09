@@ -1,5 +1,5 @@
 
-```javascript
+// ```javascript
 /**
  * @param {number} a
  * @param {number} b
@@ -68,4 +68,4 @@ var add = function(a, b) {
 
 
 };
-```
+// ```

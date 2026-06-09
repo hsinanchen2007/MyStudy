@@ -1,5 +1,5 @@
-1.从后往前递归，使用字典保存递归过的路径结果，加速计算
-```c# []
+// 1.从后往前递归，使用字典保存递归过的路径结果，加速计算
+// ```c# []
 public class Solution {
     Dictionary<int,List<IList<string>>> dict=new Dictionary<int,List<IList<string>>>();
     public IList<IList<string>> Partition(string s) {
@@ -64,10 +64,10 @@ public class Solution {
         return true;
     }
 }
-```
+// ```
 
-2.从前往后，无记忆化加速
-```
+// 2.从前往后，无记忆化加速
+// ```
 public class Solution {
     IList<IList<string>> res=new List<IList<string>>();
     public IList<IList<string>> Partition(string s) {
@@ -117,4 +117,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         flag = True  # 用于判断最后结果的符号
@@ -20,4 +20,4 @@ class Solution:
                 count <<= 1
                 cur_divisor <<= 1
         return min(n,2**31-1) if flag else max(-n,-2**31)
-```
+# ```

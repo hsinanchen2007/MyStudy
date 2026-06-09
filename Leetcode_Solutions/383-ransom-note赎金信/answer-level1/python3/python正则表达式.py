@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         for i in ransomNote:
@@ -7,4 +7,4 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```

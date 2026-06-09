@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 vector<double> averageOfLevels(TreeNode* root) {
   if (!root) return {};
   vector<double> res;
@@ -18,4 +18,4 @@ vector<double> averageOfLevels(TreeNode* root) {
   }
   return res;
 }
-```
+// ```

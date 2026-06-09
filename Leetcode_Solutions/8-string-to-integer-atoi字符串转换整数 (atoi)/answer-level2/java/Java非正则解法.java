@@ -1,6 +1,6 @@
-根据@一行 的解法写的Java版。保存数字串的开始及结束位置，然后根据题目要求判断溢出及非法情况。
+// 根据@一行 的解法写的Java版。保存数字串的开始及结束位置，然后根据题目要求判断溢出及非法情况。
 
-```java
+// ```java
 
 class Solution {
     public int myAtoi(String str) {
@@ -42,5 +42,5 @@ class Solution {
         return ret;
     }
 }
-```
+// ```
 

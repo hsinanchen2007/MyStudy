@@ -1,5 +1,5 @@
-本来自己的暴力解法超时了，看了别人的三指针才知道比较好的这个解法
-```swift
+// 本来自己的暴力解法超时了，看了别人的三指针才知道比较好的这个解法
+// ```swift
 class Solution {
     func nthUglyNumber(_ n: Int) -> Int {
         var res = [1]
@@ -25,4 +25,4 @@ class Solution {
         return res[n - 1]
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     struct Node {
@@ -45,7 +45,7 @@ public:
         return N * N - 1;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f34603d1a8671ace86924db14cadf2a031823515e8c14b0ea269323ec30c2d46-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f34603d1a8671ace86924db14cadf2a031823515e8c14b0ea269323ec30c2d46-image.png)
 

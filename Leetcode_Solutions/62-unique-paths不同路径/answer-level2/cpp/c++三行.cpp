@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/8a69eda06b184736192756e092cc49a09a7948d0d2360e30304d74e6b235b6c8-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/8a69eda06b184736192756e092cc49a09a7948d0d2360e30304d74e6b235b6c8-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -13,4 +13,4 @@ public:
         return v[n-1];
     }
 };
-```
+// ```

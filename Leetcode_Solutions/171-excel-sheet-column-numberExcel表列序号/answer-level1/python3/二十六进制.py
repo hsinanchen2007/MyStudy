@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
     def titleToNumber(self, s):
         """
@@ -11,4 +11,4 @@ class Solution(object):
             result += (ord(x)-64)*26**(i)
         return result
             
-```
+# ```

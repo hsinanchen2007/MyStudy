@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int removeDuplicates(int[] nums) {
         boolean hasTwo = false;
@@ -23,11 +23,11 @@ class Solution {
         return index + 1;
     }
 }
-```
-之前加了一个：
-```
+// ```
+// 之前加了一个：
+// ```
         if(nums == null || nums.length < 1){
             return -1;
         }
-```
-就一直在[]的情况下执行出错，有人知道为什么吗。。。感觉这就是很标准的一种处理空数组的方式。。
+// ```
+// 就一直在[]的情况下执行出错，有人知道为什么吗。。。感觉这就是很标准的一种处理空数组的方式。。

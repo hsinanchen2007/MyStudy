@@ -1,9 +1,9 @@
-### 解题思路
-将每个单词生成的摩尔斯密码放入集合当中，返回集合中元素的个数即可。
+// ### 解题思路
+// 将每个单词生成的摩尔斯密码放入集合当中，返回集合中元素的个数即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.TreeSet;
 class Solution {
     public int uniqueMorseRepresentations(String[] words) {
@@ -21,4 +21,4 @@ class Solution {
         return set.size();
     }
 }
-```
+// ```

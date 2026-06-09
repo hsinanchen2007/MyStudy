@@ -1,9 +1,9 @@
-### 解题思路
-其实完全可以把target看成是在TreeNode中要查找的点，target如果大于root.val，那么最接近target的值，肯定在root.right的子树中，我们只要进入右子树去查找就行，反之就去root.left的子树中查找，每次都计算一下node.val和target的差的绝对值，遍历的同时，使用找最小值的思想，log(N)的时间复杂度就能找到最接近的值，空间复杂度是O(1)，还避免的递归中栈的消耗
+// ### 解题思路
+// 其实完全可以把target看成是在TreeNode中要查找的点，target如果大于root.val，那么最接近target的值，肯定在root.right的子树中，我们只要进入右子树去查找就行，反之就去root.left的子树中查找，每次都计算一下node.val和target的差的绝对值，遍历的同时，使用找最小值的思想，log(N)的时间复杂度就能找到最接近的值，空间复杂度是O(1)，还避免的递归中栈的消耗
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
         return closestNode.val;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/225e3734e73c7b93c9a37267868998a1a1d61367464aa4902a790b5099d28cc5-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/225e3734e73c7b93c9a37267868998a1a1d61367464aa4902a790b5099d28cc5-image.png)
+// ```
 var generateParenthesis = function(n) {
     // 找 f(n) 与f(n - 1) 的关系
     // 发现规律是: f(n) 是f(n - 1)的所有答案中进行插空、去重后得来的
@@ -66,5 +66,5 @@ function flatten (arr) {
     }
     return res
 }
-```
+// ```
 

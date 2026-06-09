@@ -1,10 +1,10 @@
-### 解题思路
-先找到最后一个节点定为ret，head表示它的前一个 head->next->next=head,head->next=null
-有点迷惑……
+// ### 解题思路
+// 先找到最后一个节点定为ret，head表示它的前一个 head->next->next=head,head->next=null
+// 有点迷惑……
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -25,4 +25,4 @@ public:
         return ret;
     }
 };
-```
+// ```

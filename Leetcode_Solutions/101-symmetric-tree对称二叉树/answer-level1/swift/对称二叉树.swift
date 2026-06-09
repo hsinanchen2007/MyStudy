@@ -1,7 +1,7 @@
 
-递归法
+// 递归法
 
-```swift []
+// ```swift []
 class Solution {
     func isSymmetric(_ root: TreeNode?) -> Bool {
         guard let root = root else {
@@ -24,5 +24,5 @@ class Solution {
         return isSym && compareIsSymmetric(p.left, q.right) && compareIsSymmetric(p.right, q.left)
     }
 }
-```
+// ```
 

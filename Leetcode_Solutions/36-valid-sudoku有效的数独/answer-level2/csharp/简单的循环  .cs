@@ -1,9 +1,9 @@
-### 解题思路
-因为题目固定了是9*9的格子，所以横与竖的检测可以放置在一起。
+// ### 解题思路
+// 因为题目固定了是9*9的格子，所以横与竖的检测可以放置在一起。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool IsValidSudoku(char[][] board) {
         int[] statsCountRow = new int[10];
@@ -82,4 +82,4 @@ public class Solution {
 			}
 		}
 }
-```
+// ```

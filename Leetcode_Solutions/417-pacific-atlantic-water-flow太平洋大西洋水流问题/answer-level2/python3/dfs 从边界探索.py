@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     
     def pacificAtlantic(self, matrix: List[List[int]]) -> List[List[int]]:
@@ -35,4 +35,4 @@ class Solution:
             dfs(len(matrix)-1, i, to_Atlantic)
         # to_Pacific 和 to_Atlantic 的交集即为即能到太平洋， 又能到大西洋的点
         return to_Pacific.intersection(to_Atlantic)
-```
+# ```

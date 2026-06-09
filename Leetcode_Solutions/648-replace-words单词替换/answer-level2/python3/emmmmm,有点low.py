@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def replaceWords(self, dict: List[str], sentence: str) -> str:
         dict = sorted(dict)
@@ -9,4 +9,4 @@ class Solution:
                     sentence[i] = j
                     break
         return " ".join(sentence)
-```
+# ```

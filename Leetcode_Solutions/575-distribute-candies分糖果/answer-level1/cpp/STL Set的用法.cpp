@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int distributeCandies(vector<int>& candies) {
@@ -8,4 +8,4 @@ public:
         return  (res.size()<candies.size()/2)?res.size():candies.size()/2;
     }
 };
-```
+// ```

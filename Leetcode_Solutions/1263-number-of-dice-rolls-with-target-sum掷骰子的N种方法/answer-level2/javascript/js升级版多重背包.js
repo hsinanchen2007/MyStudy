@@ -1,11 +1,11 @@
-### 解题思路
-dp[i][j]是前i个骰子，剩余重量j的搭配方式
-当投完i个骰子，前一个状态就是[i - 1][j],遍历k，取这个物品为j - k => dp[i - 1][j - k]
-将所有能组合的情况相加，即dp[i][j] += dp[i - 1][j - k]
+// ### 解题思路
+// dp[i][j]是前i个骰子，剩余重量j的搭配方式
+// 当投完i个骰子，前一个状态就是[i - 1][j],遍历k，取这个物品为j - k => dp[i - 1][j - k]
+// 将所有能组合的情况相加，即dp[i][j] += dp[i - 1][j - k]
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} d
  * @param {number} f
@@ -42,4 +42,4 @@ var numRollsToTarget = function(d, f, target) {
 
 
 };
-```
+// ```

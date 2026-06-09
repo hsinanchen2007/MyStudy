@@ -1,9 +1,9 @@
-### 解题思路
-只要查找每行的第一个负数，就可以知道后面的全部是负数，在while判断的时候先判断当前index小于列数，不然会有超出序列报错。
+# ### 解题思路
+# 只要查找每行的第一个负数，就可以知道后面的全部是负数，在while判断的时候先判断当前index小于列数，不然会有超出序列报错。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countNegatives(self, grid):
         #行数
@@ -17,4 +17,4 @@ class Solution(object):
                 j += 1
             count += (n - j)
         return count
-```
+# ```

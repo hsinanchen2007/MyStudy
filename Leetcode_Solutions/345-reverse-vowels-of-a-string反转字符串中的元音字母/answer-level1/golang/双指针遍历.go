@@ -1,9 +1,9 @@
-### 解题思路
-双指针遍历，唯一的区别是指针的移动条件，如果不是元音字符则继续移动。
+// ### 解题思路
+// 双指针遍历，唯一的区别是指针的移动条件，如果不是元音字符则继续移动。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseVowels(s string) string {
 	sr := []rune(s)
 	if len(sr) <= 1 {
@@ -35,4 +35,4 @@ func reverseVowels(s string) string {
 	return string(sr)
 }
 
-```
+// ```

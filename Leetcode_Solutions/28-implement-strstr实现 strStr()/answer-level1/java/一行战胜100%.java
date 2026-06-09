@@ -1,11 +1,11 @@
-解法一：一行解决
-```
+// 解法一：一行解决
+// ```
 return haystack.indexOf(needle);
-```
+// ```
 
-解法二：双指针法，优化了一个头尾判断，就可以过滤掉很多不符合的答案了。
+// 解法二：双指针法，优化了一个头尾判断，就可以过滤掉很多不符合的答案了。
 
-```
+// ```
 class Solution {
     public int strStr(String haystack, String needle) {
         if("".equals(needle) || needle == null) return 0;
@@ -36,4 +36,4 @@ class Solution {
     }
         
 }
-```
+// ```

@@ -1,11 +1,11 @@
-不知道为啥，总感觉题解里的C解法都好复杂的样子，又是栈，又是数组的。我个人感觉直接原地就行了，不知道是不是考虑不周了。
-放下执行结果：
-![image.png](https://pic.leetcode-cn.com/bdb60cf657e605ee4f789c6149a571f3625016d6c6591bd3cb175c3b9fa4d773-image.png)
+// 不知道为啥，总感觉题解里的C解法都好复杂的样子，又是栈，又是数组的。我个人感觉直接原地就行了，不知道是不是考虑不周了。
+// 放下执行结果：
+// ![image.png](https://pic.leetcode-cn.com/bdb60cf657e605ee4f789c6149a571f3625016d6c6591bd3cb175c3b9fa4d773-image.png)
 
 
-总感觉leetcode加了注释的代码好丑，先放一份没注释的代码，带注释的代码见更下一段代码
-## 不带注释的代码
-```
+// 总感觉leetcode加了注释的代码好丑，先放一份没注释的代码，带注释的代码见更下一段代码
+// ## 不带注释的代码
+// ```
 bool isValid(char * s){
     int low = -1, high = 0;
 
@@ -23,10 +23,10 @@ bool isValid(char * s){
 
     return low == -1;
 }
-```
+// ```
 
-## 带注释的代码
-```
+// ## 带注释的代码
+// ```
 bool isValid(char * s){
     int low = -1, high = 0; // 两个指针，low用于模拟栈，high往后遍历数据
 
@@ -49,4 +49,4 @@ bool isValid(char * s){
     // 若栈为空，则true，否则false
     return low == -1;
 }
-```
+// ```

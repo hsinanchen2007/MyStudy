@@ -1,9 +1,9 @@
-### 解题思路
-常规case很容易，但是‘abab’和‘abab’这类case容易出错，还需要引入set
+# ### 解题思路
+# 常规case很容易，但是‘abab’和‘abab’这类case容易出错，还需要引入set
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def buddyStrings(self, A: str, B: str) -> bool:
         len_A = len(A)
@@ -39,4 +39,4 @@ class Solution:
 
         return not(diff_count%2)
 
-```
+# ```

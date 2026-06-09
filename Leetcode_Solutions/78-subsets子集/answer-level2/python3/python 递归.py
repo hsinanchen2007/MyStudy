@@ -1,9 +1,9 @@
-### 解题思路
-记录当前索引到达的位置，避免重复搜索
+# ### 解题思路
+# 记录当前索引到达的位置，避免重复搜索
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         res=[]
@@ -14,4 +14,4 @@ class Solution:
             res.append(pre)      
         findSet(0,[])
         return res
-```
+# ```

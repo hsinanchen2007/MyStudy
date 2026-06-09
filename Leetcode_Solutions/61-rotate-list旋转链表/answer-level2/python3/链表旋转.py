@@ -1,11 +1,11 @@
-### 解题思路
-首先特异点排除和测量链表长度。
-然后，对k进行化简。
-最后，进行旋转即可。
+# ### 解题思路
+# 首先特异点排除和测量链表长度。
+# 然后，对k进行化简。
+# 最后，进行旋转即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
             vol, vol.next, head.next = head.next, temp, None
             head, k = vol, k - 1
         return head
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用splice合理i++
+// ### 解题思路
+// 利用splice合理i++
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -20,4 +20,4 @@ var removeElement = function(nums, val) {
     }
     return nums.length;
 };
-```
+// ```

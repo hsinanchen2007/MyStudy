@@ -1,5 +1,5 @@
-把问题当成怎么跳最远（最远的index，可能大于数组长度）来做，i处能到达的最远位置是max(从i处之前跳能到达的最远位置，从i处跳能到达的最远位置)，前提是i-1处能到达i处。
-```
+// 把问题当成怎么跳最远（最远的index，可能大于数组长度）来做，i处能到达的最远位置是max(从i处之前跳能到达的最远位置，从i处跳能到达的最远位置)，前提是i-1处能到达i处。
+// ```
 class Solution {
     public boolean canJump(int[] nums) {
         if (nums.length < 2) {
@@ -19,4 +19,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

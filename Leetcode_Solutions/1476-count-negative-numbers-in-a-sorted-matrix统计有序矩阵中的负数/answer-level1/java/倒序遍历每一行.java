@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-改进第一次的倒序遍历代码，减少时间复杂度
-时间复杂度：O(n)
-空间复杂度：O(5)
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 改进第一次的倒序遍历代码，减少时间复杂度
+// 时间复杂度：O(n)
+// 空间复杂度：O(5)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countNegatives(int[][] grid) {
         int m=grid.length;
@@ -32,16 +32,16 @@ class Solution {
         return count;
     }
 }
-```
-###解题思路
+// ```
+// ###解题思路
 
-倒序遍历每一行，遇到grid[i][j]<0是count+1，否则跳转到下一行继续倒序遍历
-时间复杂度：O(n^2)
-空间复杂度：定义了m,count,i,n,j五个变量，O(5)
+// 倒序遍历每一行，遇到grid[i][j]<0是count+1，否则跳转到下一行继续倒序遍历
+// 时间复杂度：O(n^2)
+// 空间复杂度：定义了m,count,i,n,j五个变量，O(5)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countNegatives(int[][] grid) {
         int m=grid.length;
@@ -60,4 +60,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

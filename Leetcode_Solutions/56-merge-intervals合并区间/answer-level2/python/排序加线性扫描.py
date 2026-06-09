@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self,l):
         l.sort(key=lambda i:i[0])
@@ -15,4 +15,4 @@ class Solution(object):
                 i+=1
         return l
 
-```
+# ```

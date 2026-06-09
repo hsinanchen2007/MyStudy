@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -40,4 +40,4 @@ func getMax(i,j int) int {
     }
     return i
 }
-```
+// ```

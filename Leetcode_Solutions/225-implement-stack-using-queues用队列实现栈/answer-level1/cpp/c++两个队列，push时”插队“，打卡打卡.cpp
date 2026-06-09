@@ -1,14 +1,14 @@
-### 解题思路
-两个队列，一个push队列，一个pop队列
+// ### 解题思路
+// 两个队列，一个push队列，一个pop队列
 
-pop：直接pop队列弹出就可以
+// pop：直接pop队列弹出就可以
 
-push：1.先放进push队列 2.把pop队列的全部拉过来push队列 3.把push队列的再拉回pop队列
-其实思想就是：新的元素通过这样“插队”，通过上面三步，最终插队在pop队列最前面
+// push：1.先放进push队列 2.把pop队列的全部拉过来push队列 3.把push队列的再拉回pop队列
+// 其实思想就是：新的元素通过这样“插队”，通过上面三步，最终插队在pop队列最前面
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -59,4 +59,4 @@ private:
 };
 
 
-```
+// ```

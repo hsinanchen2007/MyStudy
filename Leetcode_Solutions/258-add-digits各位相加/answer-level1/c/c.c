@@ -1,4 +1,4 @@
-```
+// ```
 int fun( int num ){
 
     int tmp = num;
@@ -31,4 +31,4 @@ int addDigits( int num ){
     return fun( num );
 
 }
-```
+// ```

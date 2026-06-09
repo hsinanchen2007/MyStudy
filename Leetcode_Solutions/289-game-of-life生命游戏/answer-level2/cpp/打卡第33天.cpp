@@ -1,5 +1,5 @@
-打卡
-```
+// 打卡
+// ```
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -57,4 +57,4 @@ public:
     }
 };
 
-```
+// ```

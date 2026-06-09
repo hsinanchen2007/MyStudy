@@ -1,7 +1,7 @@
-仿java
+// 仿java
 
-递归解法：
-```
+// 递归解法：
+// ```
 function isMatch($s, $p) {
     if(empty($p)) return empty($s);
     $first_match = !empty($s) && ($p[0]==$s[0] || $p[0]=='.');
@@ -12,9 +12,9 @@ function isMatch($s, $p) {
         return $first_match && $this->isMatch(substr($s,1), substr($p,1));
     }
 }
-```
-动态规划解法：
-```
+// ```
+// 动态规划解法：
+// ```
 function isMatch($s, $p) {
     $m = strlen($s);
     $n = strlen($p);
@@ -36,4 +36,4 @@ function isMatch($s, $p) {
     }
     return $f[$m][$n];
 }
-```
+// ```

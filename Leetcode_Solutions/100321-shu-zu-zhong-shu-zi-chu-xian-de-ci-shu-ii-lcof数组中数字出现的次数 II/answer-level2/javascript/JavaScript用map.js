@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-map大法好
+// map大法好
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -22,4 +22,4 @@ var singleNumber = function(nums) {
         if(val === 1) return key
     }
 };
-```
+// ```

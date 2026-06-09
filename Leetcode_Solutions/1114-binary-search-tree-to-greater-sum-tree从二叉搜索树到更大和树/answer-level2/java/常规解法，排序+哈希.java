@@ -1,12 +1,12 @@
-### 解题思路
-1、线遍历二叉树，因为值各不相同，所以把它的值放到一个list里面，然后排序
-2、遍历排序后的list，从大到小分别计算每个值对应的大于它和它自身的值的累加和，node值为键累加和为value，放到一个map中
-3、遍历二叉树，根据map修改每个节点的值
+// ### 解题思路
+// 1、线遍历二叉树，因为值各不相同，所以把它的值放到一个list里面，然后排序
+// 2、遍历排序后的list，从大到小分别计算每个值对应的大于它和它自身的值的累加和，node值为键累加和为value，放到一个map中
+// 3、遍历二叉树，根据map修改每个节点的值
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -57,4 +57,4 @@ class Solution {
         helper(root.right,sumMap);
     }
 }
-```
+// ```

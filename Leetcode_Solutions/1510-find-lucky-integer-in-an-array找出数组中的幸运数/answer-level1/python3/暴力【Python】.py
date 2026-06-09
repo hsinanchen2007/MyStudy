@@ -1,14 +1,14 @@
-### 思路
+# ### 思路
 
-**暴力**
+# **暴力**
 
-```
+# ```
 自定义排序，然后暴力求解。
-```
+# ```
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 from typing import List
 import collections
 
@@ -22,8 +22,8 @@ class Solution:
             if res[i][0] == res[i][1]:
                 return res[i][0]
         return -1
-```
+# ```
 
-### GitHub链接
+# ### GitHub链接
 
-[Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1394-Find-Lucky-Integer-in-an-Array/1394.py)
+# [Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1394-Find-Lucky-Integer-in-an-Array/1394.py)

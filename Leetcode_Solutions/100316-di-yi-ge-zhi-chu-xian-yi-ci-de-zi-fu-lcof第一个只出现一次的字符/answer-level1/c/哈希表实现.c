@@ -1,4 +1,4 @@
-```
+// ```
 char firstUniqChar(char* s){
     if (s == "") {
         return ' ';
@@ -16,4 +16,4 @@ char firstUniqChar(char* s){
     }
     return ' '; 
 }
-```
+// ```

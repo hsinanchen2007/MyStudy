@@ -1,9 +1,9 @@
-### 解题思路
-哈希表统计接缝最多的位置（即穿过砖块最少的位置）
+// ### 解题思路
+// 哈希表统计接缝最多的位置（即穿过砖块最少的位置）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int leastBricks(vector<vector<int>>& wall) {
@@ -21,4 +21,4 @@ public:
         return wall.size()-res;
     }
 };
-```
+// ```

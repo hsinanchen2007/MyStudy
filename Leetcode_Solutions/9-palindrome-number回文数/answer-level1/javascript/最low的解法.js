@@ -1,9 +1,9 @@
-### 解题思路
-先转换成字符串，再转成数组
+// ### 解题思路
+// 先转换成字符串，再转成数组
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {boolean}
@@ -23,4 +23,4 @@ var isPalindrome = function(x) {
     } 
     return true;
 };
-```
+// ```

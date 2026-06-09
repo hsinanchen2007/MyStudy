@@ -1,10 +1,10 @@
-### 解题思路
-两个数组连起来，模拟连续数组
-只需处理最大元素，即循环次数=2倍原数组长度-（下标+1）
+// ### 解题思路
+// 两个数组连起来，模拟连续数组
+// 只需处理最大元素，即循环次数=2倍原数组长度-（下标+1）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -30,4 +30,4 @@ int* nextGreaterElements(int* nums, int numsSize, int* returnSize){
     *returnSize = numsSize;
     return ret;
 }
-```
+// ```

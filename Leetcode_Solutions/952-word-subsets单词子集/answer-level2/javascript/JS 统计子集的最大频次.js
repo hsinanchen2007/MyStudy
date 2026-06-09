@@ -1,9 +1,9 @@
-### 解题思路
-&emsp;&emsp;统计B集合种所有单词中单个字母出现的最大频次，拿去与A集合的单词比对即可。没必要用hashmap。
+// ### 解题思路
+// &emsp;&emsp;统计B集合种所有单词中单个字母出现的最大频次，拿去与A集合的单词比对即可。没必要用hashmap。
 
-### 代码
+// ### 代码
 
-```javascript []
+// ```javascript []
 /**
  * @param {string[]} A
  * @param {string[]} B
@@ -37,4 +37,4 @@ var wordSubsets = function(A, B) {
     }
     return res;
 };
-```
+// ```

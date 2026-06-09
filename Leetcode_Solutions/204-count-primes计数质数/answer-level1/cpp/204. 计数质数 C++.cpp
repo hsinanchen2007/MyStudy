@@ -1,11 +1,11 @@
-### 解题思路
-1.参考labuladong的方法 地址：https://leetcode-cn.com/problems/count-primes/solution/ru-he-gao-xiao-pan-ding-shai-xuan-su-shu-by-labula/
+// ### 解题思路
+// 1.参考labuladong的方法 地址：https://leetcode-cn.com/problems/count-primes/solution/ru-he-gao-xiao-pan-ding-shai-xuan-su-shu-by-labula/
 
-2.对方使用java，此处使用C++编写
+// 2.对方使用java，此处使用C++编写
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countPrimes(int n) {
@@ -28,4 +28,4 @@ public:
     return count;
     }
 };
-```
+// ```

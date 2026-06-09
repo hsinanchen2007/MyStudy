@@ -1,4 +1,4 @@
-```
+// ```
 public int[] sortArrayByParity(int[] A) {
         int l = 0, r = A.length - 1;
         while (l < r) {
@@ -10,4 +10,4 @@ public int[] sortArrayByParity(int[] A) {
         }
         return A;
     }
-```
+// ```

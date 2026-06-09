@@ -1,4 +1,4 @@
-```
+# ```
 class Solution {
     int[][] dir = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
     public int surfaceArea(int[][] grid) {
@@ -26,9 +26,9 @@ class Solution {
         return result;
     }
 }
-```
-python3实现
-```
+# ```
+# python3实现
+# ```
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -44,4 +44,4 @@ class Solution:
                             nval = 0
                         result += max(grid[i][j] - nval, 0)
         return result
-```
+# ```

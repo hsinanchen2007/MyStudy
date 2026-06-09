@@ -1,5 +1,5 @@
-在playground看到函数调用方式是Solution().Codec(root)，因此把类的名称修改成solution，Codec修改为一个方法。
-```
+# 在playground看到函数调用方式是Solution().Codec(root)，因此把类的名称修改成solution，Codec修改为一个方法。
+# ```
 class Solution:
     def Codec(self,root):
         return self.deserialize(self.serialize(root))
@@ -59,4 +59,4 @@ class Solution:
                 if i==len(Data):
                     break
             return Res
-```
+# ```

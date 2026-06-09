@@ -1,11 +1,11 @@
-### 思路
-1. 通过遍历，找到所有陆地
-2. 判断是否全陆地或全海洋
-3. 使用 bfs 
-4. 直接修改原数组，对于距离为 1 的海洋格子，设置为 2 ；对于距离为 2 的海洋格子，设置为 3
+// ### 思路
+// 1. 通过遍历，找到所有陆地
+// 2. 判断是否全陆地或全海洋
+// 3. 使用 bfs 
+// 4. 直接修改原数组，对于距离为 1 的海洋格子，设置为 2 ；对于距离为 2 的海洋格子，设置为 3
 
-### 答题
-```C++ []
+// ### 答题
+// ```C++ []
 int maxDistance(vector<vector<int>>& grid)
 {
     queue<pair<int, int>> que;
@@ -40,13 +40,13 @@ int maxDistance(vector<vector<int>>& grid)
     }
     return ans - 1;
 }
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

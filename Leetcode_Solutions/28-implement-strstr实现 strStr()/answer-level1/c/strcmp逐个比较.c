@@ -1,6 +1,6 @@
 
 
-```
+// ```
 int strStr(char * haystack, char * needle){
     int len0 = strlen(haystack);
     int len1 = strlen(needle);
@@ -15,4 +15,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

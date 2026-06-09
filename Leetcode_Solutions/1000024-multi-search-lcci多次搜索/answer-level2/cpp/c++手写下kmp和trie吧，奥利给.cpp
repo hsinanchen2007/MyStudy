@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-kmp
-```cpp
+// ### 代码
+// kmp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> multiSearch(string big, vector<string>& smalls) {
@@ -34,10 +34,10 @@ public:
         return res;
     }
 };
-```
+// ```
 
-trie
-```
+// trie
+// ```
 class Solution {
 public:
     vector<vector<int>> multiSearch(string big, vector<string>& smalls) {
@@ -85,4 +85,4 @@ private:
     }
 
 };
-```
+// ```

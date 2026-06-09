@@ -1,11 +1,11 @@
-### 解题思路
-1. 有同学分享了递归解法，考虑性能采用 深度广先遍历 + 栈解法
-2. 使用 js 数组 实现栈， 时间/空间复杂度表现不错
-3. 多写几个测试例子，保证case执行正确 
+// ### 解题思路
+// 1. 有同学分享了递归解法，考虑性能采用 深度广先遍历 + 栈解法
+// 2. 使用 js 数组 实现栈， 时间/空间复杂度表现不错
+// 3. 多写几个测试例子，保证case执行正确 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -40,4 +40,4 @@ var isSymmetric = function (node) {
     }
     return true;
 };
-```
+// ```

@@ -1,5 +1,5 @@
-大体就是先二分找到最接近的数，然后向两边扩散依次比较
-```
+// 大体就是先二分找到最接近的数，然后向两边扩散依次比较
+// ```
 class Solution {
     func findClosestElements(_ arr: [Int], _ k: Int, _ x: Int) -> [Int] {
         var minminus = arr.last!
@@ -65,4 +65,4 @@ class Solution {
     }
 }
 
-```
+// ```

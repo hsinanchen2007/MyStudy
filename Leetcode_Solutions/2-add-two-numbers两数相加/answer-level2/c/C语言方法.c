@@ -1,11 +1,11 @@
-### 解题思路
-代码核心为以下几点：
-1、对于不同长度的l1和l2，统一化处理
-2、利用了加法有进位的特点，使用了old_one和new_one，其中old_one表示接收到的进位，而new_one表示产生的进位
-3、分别讨论了最后产生进位情况
-### 代码
+// ### 解题思路
+// 代码核心为以下几点：
+// 1、对于不同长度的l1和l2，统一化处理
+// 2、利用了加法有进位的特点，使用了old_one和new_one，其中old_one表示接收到的进位，而new_one表示产生的进位
+// 3、分别讨论了最后产生进位情况
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -69,4 +69,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return head;
 }
-```
+// ```

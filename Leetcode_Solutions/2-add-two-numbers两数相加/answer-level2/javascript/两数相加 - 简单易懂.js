@@ -1,17 +1,17 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/61142770768fe2b09526e5f06f213d3098135cf957b3bbaa533720e75af9bde9-image.png)
-因为是逆序，+10 向后进位
-```
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/61142770768fe2b09526e5f06f213d3098135cf957b3bbaa533720e75af9bde9-image.png)
+// 因为是逆序，+10 向后进位
+// ```
     2 -> 4 -> 3 
     5 -> 6 -> 4 +
     --------------
     7 -> 0 -> 8
-```
-注意： 第二列 4+6 进一位，向后进   3 + 4 + 1 = 8 
+// ```
+// 注意： 第二列 4+6 进一位，向后进   3 + 4 + 1 = 8 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -40,4 +40,4 @@ var addTwoNumbers = function(l1, l2) {
     if( n > 0 ) temp.next = new ListNode(n)
     return node.next
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minCostToMoveChips(int[] chips) {
         int[] f = new int[2];
@@ -8,4 +8,4 @@ class Solution {
         return Math.min(f[0], f[1]);
     }
 }	
-```
+// ```

@@ -1,6 +1,6 @@
-# 大顶堆
+// # 大顶堆
 
-```Java
+// ```Java
 public int[] getLeastNumbers(int[] arr, int k) {
     if (k <= 0) {
         return new int[0];
@@ -23,12 +23,12 @@ public int[] getLeastNumbers(int[] arr, int k) {
     }
     return res;
 }
-```
+// ```
 
 
-# 快速选择
+// # 快速选择
 
-```Java
+// ```Java
 public int[] getLeastNumbers(int[] arr, int k) {
     if (arr == null || arr.length <= k) {
         return arr;
@@ -69,5 +69,5 @@ private void swap(int[] arr, int i, int j) {
         arr[j] = temp;
     }
 }
-```
+// ```
 

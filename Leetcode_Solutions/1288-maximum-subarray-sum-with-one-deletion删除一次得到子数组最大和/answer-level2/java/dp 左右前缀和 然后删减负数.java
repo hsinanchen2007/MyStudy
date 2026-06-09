@@ -1,11 +1,11 @@
-### 解题思路
-找出左右前缀和
-leftdp[i]、rightdp[i]分别代表从左到i和从右到i的最大子数组和
-我们用max记录两者中最大那个，用于表示如果没有需要删减的数的时候的最大子数组和
-接下来我们遍历arr数组，逐个尝试删减后的结果是否比max大
-### 代码
+// ### 解题思路
+// 找出左右前缀和
+// leftdp[i]、rightdp[i]分别代表从左到i和从右到i的最大子数组和
+// 我们用max记录两者中最大那个，用于表示如果没有需要删减的数的时候的最大子数组和
+// 接下来我们遍历arr数组，逐个尝试删减后的结果是否比max大
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maximumSum(int[] arr) {
         if(arr.length==1) return arr[0];
@@ -35,4 +35,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

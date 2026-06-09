@@ -1,5 +1,5 @@
-就不抖正则了，也没用到StringBuilder，遍历实现，思路在注释详细说明。
-```java
+// 就不抖正则了，也没用到StringBuilder，遍历实现，思路在注释详细说明。
+// ```java
 class Solution {
 	public static String replaceSpace(String s) {
 		//如果s全是空格的话所需的数组大小会是s的3倍，这是极端情况
@@ -18,4 +18,4 @@ class Solution {
 		return new String(reChar, 0, size);
 	}
 }
-```
+// ```

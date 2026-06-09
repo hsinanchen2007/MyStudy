@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-map, join的使用
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# map, join的使用
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         res = []
@@ -19,4 +19,4 @@ class Solution:
         else:
             return S
 
-```
+# ```

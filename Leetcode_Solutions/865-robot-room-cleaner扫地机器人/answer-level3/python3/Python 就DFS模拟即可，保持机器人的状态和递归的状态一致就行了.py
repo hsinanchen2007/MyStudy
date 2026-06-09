@@ -1,6 +1,6 @@
 
 
-```
+# ```
 '''
 dfs 模拟即可
 '''
@@ -70,4 +70,4 @@ class Solution:
 
     def cleanRoom(self, robot):
         self.dfs(1, 3, set(), robot, 0)
-```
+# ```

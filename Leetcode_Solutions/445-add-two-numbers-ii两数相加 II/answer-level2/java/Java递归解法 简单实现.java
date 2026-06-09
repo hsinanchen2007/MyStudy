@@ -1,6 +1,6 @@
-Java 2ms，时间100%，空间99%
-解法：先计算两个链表的长度，较短的链表高位补0，使两个链表长度一致。然后递归计算结果，将所得结果保存到其中一个链表中，对最高位进位进行判断，返回链表头即可。代码逻辑较简单。
-```
+// Java 2ms，时间100%，空间99%
+// 解法：先计算两个链表的长度，较短的链表高位补0，使两个链表长度一致。然后递归计算结果，将所得结果保存到其中一个链表中，对最高位进位进行判断，返回链表头即可。代码逻辑较简单。
+// ```
 public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int len1 = 0, len2 = 0;
         ListNode cur = l1;
@@ -43,4 +43,4 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         }
         return 0;
     }
-```
+// ```

@@ -1,5 +1,5 @@
-友情提示：字符串比较记得用equals
-```
+// 友情提示：字符串比较记得用equals
+// ```
 
 public class Codec {
 
@@ -54,4 +54,4 @@ public class Codec {
     }
 }
 
-```
+// ```

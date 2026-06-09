@@ -1,4 +1,4 @@
-```
+-- ```
 select
         t.request_at `day`,
         cast( count(if(locate('cancelled',t.status),true,null))/count(1) as decimal(10,2)) `Cancellation Rate`
@@ -12,4 +12,4 @@ select
         t.driver_id in(select concat_ws(',',users_id) us from  Users where Banned='No')
     group by
         t.request_at
-```
+-- ```

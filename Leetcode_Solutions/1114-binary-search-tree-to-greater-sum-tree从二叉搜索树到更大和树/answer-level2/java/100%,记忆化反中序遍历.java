@@ -1,9 +1,9 @@
-### 解题思路
-由题意可看出，将树反过来看，中序遍历修改值即可
+// ### 解题思路
+// 由题意可看出，将树反过来看，中序遍历修改值即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -27,4 +27,4 @@ class Solution {
     }
 
 }
-```
+// ```

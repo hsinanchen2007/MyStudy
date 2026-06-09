@@ -1,9 +1,9 @@
-和39题的区别在避免重复上
-如{1，1，2，4，6,7} sum=8，要保证[1，1，6]在解中,而解中只能有一个[1,7]
-通过判断i>index && candidates[i] == candidates[i-1]来去重
+// 和39题的区别在避免重复上
+// 如{1，1，2，4，6,7} sum=8，要保证[1，1，6]在解中,而解中只能有一个[1,7]
+// 通过判断i>index && candidates[i] == candidates[i-1]来去重
 
 
-```
+// ```
 class Solution {
 
     List<List<Integer>> ans = new ArrayList<>();
@@ -34,4 +34,4 @@ class Solution {
         else    return;
     }
 }
-```
+// ```

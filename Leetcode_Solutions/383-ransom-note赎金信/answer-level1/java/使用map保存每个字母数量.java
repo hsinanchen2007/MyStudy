@@ -1,5 +1,5 @@
-//题目关键是magazine中的每个字母只能用一个，所以这里用map维护magazine中每个字母的数量
-```
+// //题目关键是magazine中的每个字母只能用一个，所以这里用map维护magazine中每个字母的数量
+// ```
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         if (null == magazine || null == ransomNote){
@@ -27,4 +27,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

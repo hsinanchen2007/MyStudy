@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-Kick the card. 
-Math is fun. 
-Again, I will give you the code. 
+# Kick the card. 
+# Math is fun. 
+# Again, I will give you the code. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         if z == 0:
@@ -20,4 +20,4 @@ class Solution:
         if c==0:
             return b
         return self.gcd(b,c)
-```
+# ```

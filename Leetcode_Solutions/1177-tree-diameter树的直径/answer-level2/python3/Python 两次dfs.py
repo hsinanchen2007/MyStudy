@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/1dae7d973cd26e25e80861c8ad677aec76573ec8a5bdf4a0c608e7291d5fda94-image.png)
+# ![image.png](https://pic.leetcode-cn.com/1dae7d973cd26e25e80861c8ad677aec76573ec8a5bdf4a0c608e7291d5fda94-image.png)
 
 
-```
+# ```
 '''
 两次dfs 第一次找一个度为1的节点，找距离它最远的节点
 这个节点作为第二次dfs起点，再找一次距离最远的节点
@@ -55,4 +55,4 @@ class Solution:
                 ans = [0, 0]  # [终点，最长路径长度]
                 self.dfs(start, start, c, link, 0, set(), ans)
                 return ans[1]
-```
+# ```

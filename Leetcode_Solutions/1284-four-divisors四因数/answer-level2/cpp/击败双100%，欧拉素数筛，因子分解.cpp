@@ -1,15 +1,15 @@
-### 解题思路
-使用欧拉素数筛得到素数表，可以按需动态扩展素数表
-然后分析四因子只有两种可能性：
-a*b=num(a≠b)     sum+=(1+a+b+num)
-或者a*(a*a)=num   sum+=(1+a+a*a+num)
-其中a,b均为素数
-遍历素数表查找素数因子即可，每个数只需要最多查询两个最小的素因子即可判断
-![dddd.png](https://pic.leetcode-cn.com/a3e781894c646b3daf0d77d8364be501ed947c56f874b790d005f2bf3c7373ff-dddd.png)
+// ### 解题思路
+// 使用欧拉素数筛得到素数表，可以按需动态扩展素数表
+// 然后分析四因子只有两种可能性：
+// a*b=num(a≠b)     sum+=(1+a+b+num)
+// 或者a*(a*a)=num   sum+=(1+a+a*a+num)
+// 其中a,b均为素数
+// 遍历素数表查找素数因子即可，每个数只需要最多查询两个最小的素因子即可判断
+// ![dddd.png](https://pic.leetcode-cn.com/a3e781894c646b3daf0d77d8364be501ed947c56f874b790d005f2bf3c7373ff-dddd.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include<vector>
 class Solution {
 public:
@@ -81,4 +81,4 @@ public:
 		curprime = x;
 	}
 };
-```
+// ```

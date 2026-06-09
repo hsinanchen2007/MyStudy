@@ -1,8 +1,8 @@
-### 解题思路
-将后一个结点的状态复制到当前结点，删除后一个结点即可
-### 代码
+// ### 解题思路
+// 将后一个结点的状态复制到当前结点，删除后一个结点即可
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -16,4 +16,4 @@ void deleteNode(struct ListNode* node) {
     node->next = p->next;
     free(p);
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-使用積分影像 再算出每個小區塊八鄰邊總合
-積分影項可以減少 計算量
+# ### 解题思路
+# 使用積分影像 再算出每個小區塊八鄰邊總合
+# 積分影項可以減少 計算量
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import numpy as np
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
@@ -39,4 +39,4 @@ class Solution:
 
 
 
-```
+# ```

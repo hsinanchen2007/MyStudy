@@ -1,6 +1,6 @@
-在没有进位，并且已经遍历完一个ListNode并且无需再进位以后，会跳出循环。
+// 在没有进位，并且已经遍历完一个ListNode并且无需再进位以后，会跳出循环。
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -90,7 +90,7 @@ public class Solution {
             return res;
     }
 }
-```
+// ```
 
 
-PS，同样的代码，两次提交会出现耗时差异，一次124，一次168，不知道为啥
+// PS，同样的代码，两次提交会出现耗时差异，一次124，一次168，不知道为啥

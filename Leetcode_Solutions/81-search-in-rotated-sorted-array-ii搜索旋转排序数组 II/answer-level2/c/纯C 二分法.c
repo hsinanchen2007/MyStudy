@@ -1,9 +1,9 @@
-### 解题思路
-二分法
+// ### 解题思路
+// 二分法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool search(int* nums, int numsSize, int target){
     if (0 == numsSize)
     {
@@ -57,4 +57,4 @@ bool search(int* nums, int numsSize, int target){
 
     return false;
 }
-```
+// ```

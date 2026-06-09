@@ -1,9 +1,9 @@
-### 解题思路
-1.首先判断字符串长度能否被整除
-2.利用切词及集合长度
-### 代码
+# ### 解题思路
+# 1.首先判断字符串长度能否被整除
+# 2.利用切词及集合长度
+# ### 代码
 
-```python3
+# ```python3
 import math
 class Solution:
     def repeatedSubstringPattern(self, s: str) -> bool:
@@ -13,4 +13,4 @@ class Solution:
                 if len(set(s.split(s[:x])))==1:
                     return True
         return False
-```
+# ```

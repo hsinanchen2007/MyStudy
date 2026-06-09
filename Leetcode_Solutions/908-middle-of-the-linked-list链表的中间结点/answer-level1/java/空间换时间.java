@@ -1,8 +1,8 @@
-直接把链表存在数组里,虽然存节点比较省内存,可是我就喜欢简单粗暴的
+// 直接把链表存在数组里,虽然存节点比较省内存,可是我就喜欢简单粗暴的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -23,4 +23,4 @@ class Solution {
 
     }
 }
-```
+// ```

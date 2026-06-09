@@ -1,4 +1,4 @@
-```
+// ```
 
 func removeDuplicates(nums []int) int {
 
@@ -13,4 +13,4 @@ func removeDuplicates(nums []int) int {
 	return location
 }
 
-```
+// ```

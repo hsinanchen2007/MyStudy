@@ -1,9 +1,9 @@
-### 解题思路
-递归遍历ip地址的段，临时数组记录过程ip数据,满足条件申请内存挂在返回值上。
+// ### 解题思路
+// 递归遍历ip地址的段，临时数组记录过程ip数据,满足条件申请内存挂在返回值上。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -95,4 +95,4 @@ char ** restoreIpAddresses(char * s, int* returnSize){
     checkVaild(s, 1, ip, out, returnSize);
     return out;
 }
-```
+// ```

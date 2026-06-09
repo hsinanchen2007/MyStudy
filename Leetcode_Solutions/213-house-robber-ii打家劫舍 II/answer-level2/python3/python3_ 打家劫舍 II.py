@@ -1,4 +1,4 @@
-```python
+# ```python
 def rob(nums):
     """
         1. dp问题: dp[i] += max(dp[i-2], dp[i - 3])
@@ -19,4 +19,4 @@ def rob(nums):
 
 print(rob([2,3,2]))
 print(rob([1,2,3,1]))
-```
+# ```

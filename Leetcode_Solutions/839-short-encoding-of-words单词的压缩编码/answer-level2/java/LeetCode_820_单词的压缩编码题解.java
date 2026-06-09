@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-- 去重+删除那些是其它字符串后缀的串
-- 字典树
+// - 去重+删除那些是其它字符串后缀的串
+// - 字典树
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeEndWith(String[] words) {
         if (words == null || words.length == 0) return 0;
@@ -72,4 +72,4 @@ class Trie {
     }
 }
 
-```
+// ```

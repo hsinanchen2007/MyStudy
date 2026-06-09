@@ -1,4 +1,4 @@
-```
+// ```
 class MaxStack {
 public:
     /** initialize your data structure here. */
@@ -57,4 +57,4 @@ public:
         return ret;
     }
 };
-```
+// ```

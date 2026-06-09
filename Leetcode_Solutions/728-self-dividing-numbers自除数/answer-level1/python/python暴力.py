@@ -1,4 +1,4 @@
-题目提示 每个输入参数的边界满足 1 <= left <= right <= 10000,直接算出这个区间的自除数，然后用区间去框
+# 题目提示 每个输入参数的边界满足 1 <= left <= right <= 10000,直接算出这个区间的自除数，然后用区间去框
 
 class Solution(object):
     def selfDividingNumbers(self, left, right):

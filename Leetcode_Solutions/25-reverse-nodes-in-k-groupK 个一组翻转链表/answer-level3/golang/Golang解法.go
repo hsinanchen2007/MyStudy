@@ -1,9 +1,9 @@
-### 解题思路
-先判断是否满足条件。然后使用三指针和递归的方式反转
+// ### 解题思路
+// 先判断是否满足条件。然后使用三指针和递归的方式反转
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -43,4 +43,4 @@ func reverseKGroup(head *ListNode, k int) *ListNode {
     }
     return prev
 }
-```
+// ```

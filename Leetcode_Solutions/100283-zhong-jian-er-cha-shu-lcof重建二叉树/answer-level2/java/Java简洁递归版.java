@@ -1,5 +1,5 @@
-虽然效率不高，但很简洁易懂，随便吐槽下Java的基本类库用的太恼火了，远不如Python一半。
-```
+// 虽然效率不高，但很简洁易懂，随便吐槽下Java的基本类库用的太恼火了，远不如Python一半。
+// ```
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
       List<Integer> pre = new ArrayList();
@@ -20,4 +20,4 @@ class Solution {
       return root;
     }
 }
-```
+// ```

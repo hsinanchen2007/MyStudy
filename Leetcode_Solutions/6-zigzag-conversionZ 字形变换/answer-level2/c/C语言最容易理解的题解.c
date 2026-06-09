@@ -1,17 +1,17 @@
-### 解题思路
-numRows = 4时；
-P     I     N
-A   L S   I G
-Y A   H R 
-P     I
-用下标来表示
-PAYPALISHIRING
-01232101232101
-使用一个temp数组做下标，标记Z字形的字母的下标，分为0行，1行，2行，3行分别输出；办法比较笨，但是比较好理解。看了别人的解法，感觉很汗颜，没看懂别人的。
+// ### 解题思路
+// numRows = 4时；
+// P     I     N
+// A   L S   I G
+// Y A   H R 
+// P     I
+// 用下标来表示
+// PAYPALISHIRING
+// 01232101232101
+// 使用一个temp数组做下标，标记Z字形的字母的下标，分为0行，1行，2行，3行分别输出；办法比较笨，但是比较好理解。看了别人的解法，感觉很汗颜，没看懂别人的。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * convert(char * s, int numRows){
     if(numRows <= 1){
         return s;
@@ -61,4 +61,4 @@ char * convert(char * s, int numRows){
     free(ntemp);
     return newstr;
 }
-```
+// ```

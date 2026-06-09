@@ -1,11 +1,11 @@
-### 解题思路
-**如何解决重复？**  
-利用了排序和set集合来解决重复问题。  
+// ### 解题思路
+// **如何解决重复？**  
+// 利用了排序和set集合来解决重复问题。  
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         if (nums.length<3 || nums==null){
@@ -44,4 +44,4 @@ class Solution {
         return  new ArrayList<>(lists) ;
     }
 }
-```
+// ```

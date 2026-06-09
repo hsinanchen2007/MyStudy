@@ -1,9 +1,9 @@
-### 解题思路
-将每个节点放入数组，中序遍历后数组为递增次序，输出从end起的第K个即可。
+// ### 解题思路
+// 将每个节点放入数组，中序遍历后数组为递增次序，输出从end起的第K个即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:
         dfs(root->right,res);
     }
 };
-```
+// ```

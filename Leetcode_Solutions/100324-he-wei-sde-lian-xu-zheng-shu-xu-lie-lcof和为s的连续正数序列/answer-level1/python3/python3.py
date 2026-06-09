@@ -1,9 +1,9 @@
-### 解题思路
-暴力遍历
+# ### 解题思路
+# 暴力遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         ans = []
@@ -19,4 +19,4 @@ class Solution:
                     ans.append(tmp)
                 num += 1
         return ans
-```
+# ```

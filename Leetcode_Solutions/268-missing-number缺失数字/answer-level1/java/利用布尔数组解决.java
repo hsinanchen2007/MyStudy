@@ -1,9 +1,9 @@
-### 解题思路
-将数组中每个值对应的布尔数组的位置设置为true，然后遍历这个布尔数组，返回为false的元素的位置
+// ### 解题思路
+// 将数组中每个值对应的布尔数组的位置设置为true，然后遍历这个布尔数组，返回为false的元素的位置
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         boolean[] bucket = new boolean[nums.length + 1];
@@ -18,4 +18,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

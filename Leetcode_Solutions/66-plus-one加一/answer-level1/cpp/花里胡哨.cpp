@@ -1,14 +1,14 @@
-### 解题思路
-倒序遍历，
-加一判断，
-yes return，
-no 循环，
-循环结束，
-头前插一，
-return 结束。
-### 代码
+// ### 解题思路
+// 倒序遍历，
+// 加一判断，
+// yes return，
+// no 循环，
+// 循环结束，
+// 头前插一，
+// return 结束。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -20,4 +20,4 @@ public:
         return digits;
     }
 };
-```
+// ```

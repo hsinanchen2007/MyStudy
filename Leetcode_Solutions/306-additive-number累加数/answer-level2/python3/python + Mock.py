@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:	
     def isAdditiveNumber(self, num: str) -> bool:
         # the first segment is significant
@@ -16,4 +16,4 @@ class Solution:
             for j in range(i + 1, len(num)):
                 if judge(0, i, j):  return True
         return False
-```
+# ```

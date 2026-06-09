@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 十进制转其他进制：num/7取余
     public String convertToBase7(int num) {
@@ -21,4 +21,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

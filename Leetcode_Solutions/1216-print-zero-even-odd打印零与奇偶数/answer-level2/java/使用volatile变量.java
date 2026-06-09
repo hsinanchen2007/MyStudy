@@ -1,5 +1,5 @@
-使用volatile变量，比semaphore信号量时间短一些
-```
+// 使用volatile变量，比semaphore信号量时间短一些
+// ```
 class ZeroEvenOdd {
     private int n;
     private volatile boolean zeroOutput=true,oddOutput=false,evenOutput=false;
@@ -46,4 +46,4 @@ class ZeroEvenOdd {
         }
     }
 }
-```
+// ```

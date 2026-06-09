@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/48d129edcbe24ed700411ed70210a69afc48d51af7d4f6ba992f109c4b6146d3-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/48d129edcbe24ed700411ed70210a69afc48d51af7d4f6ba992f109c4b6146d3-image.png)
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

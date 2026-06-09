@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def hIndex(self, nums):
         # 首先要明确，h 不一定 是来自数组中的元素！
@@ -24,4 +24,4 @@ class Solution:
         if count >= h:
             return True
         return False
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-Go 直接写了
+// ### 解题思路
+// Go 直接写了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func replaceWords(dict []string, sentence string) string {
 	sort.Slice(dict, func(i, j int) bool {
@@ -23,4 +23,4 @@ func replaceWords(dict []string, sentence string) string {
 	return strings.Join(words, " ")
 }
 
-```
+// ```

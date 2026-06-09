@@ -1,11 +1,11 @@
-### 解题思路
-中文版没有筛选语言的功能吗？？？
+# ### 解题思路
+# 中文版没有筛选语言的功能吗？？？
 
-最后递归结束条件卡了好久，各种判断None不None的人都傻了。
+# 最后递归结束条件卡了好久，各种判断None不None的人都傻了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -48,4 +48,4 @@ class Solution:
         add(ret, l1, l2)
 
         return ret.next
-```
+# ```

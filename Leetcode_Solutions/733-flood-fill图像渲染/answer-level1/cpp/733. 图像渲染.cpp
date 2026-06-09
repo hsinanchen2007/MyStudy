@@ -1,9 +1,9 @@
 
-这道题BFS和DFS都可以做，算是一道比较基础的模板题。
+// 这道题BFS和DFS都可以做，算是一道比较基础的模板题。
 
-#### 方法1 DFS
+// #### 方法1 DFS
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {
@@ -30,11 +30,11 @@ private:
         return ;
     }
 };
-```
+// ```
 
-#### 方法2 BFS
+// #### 方法2 BFS
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {
@@ -69,4 +69,4 @@ private:
         return ;
     }
 };
-```
+// ```

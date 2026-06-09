@@ -1,9 +1,9 @@
-### 解题思路
-细品，仔细品，其实是拿到一下个的值，把下一个删除，够毒
+// ### 解题思路
+// 细品，仔细品，其实是拿到一下个的值，把下一个删除，够毒
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -18,4 +18,4 @@ class Solution {
         node.next = node.next.next;
     }
 }
-```
+// ```

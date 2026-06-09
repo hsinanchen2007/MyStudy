@@ -1,11 +1,11 @@
-### 解题思路
-总递归: 在root为根节点的二叉树中寻找和为sum的路径
-子递归: 在包含node的节点中寻找和为sum的路径
+# ### 解题思路
+# 总递归: 在root为根节点的二叉树中寻找和为sum的路径
+# 子递归: 在包含node的节点中寻找和为sum的路径
 
-### 代码
+# ### 代码
 
-**递归嵌套**
-```java []
+# **递归嵌套**
+# ```java []
 class Solution {
     // 总递归
     public int pathSum(TreeNode root, int sum) {
@@ -34,8 +34,8 @@ class Solution {
         return 0;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> int:
         # 双重递归
@@ -54,8 +54,8 @@ class Solution:
             res += self.findPath(node.left, sum-node.val) + self.findPath(node.right, sum-node.val)
             return res
         return 0
-```
-```c++ []
+# ```
+# ```c++ []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -97,9 +97,9 @@ private:
         return 0;
     }
 };
-```
-**前缀和**
-```c++ []
+# ```
+# **前缀和**
+# ```c++ []
 class Solution {
 public:
     int pathSum(TreeNode* root, int sum) {
@@ -128,4 +128,4 @@ private:
 private:
     unordered_map<int, int> rec;
 };
-```
+# ```

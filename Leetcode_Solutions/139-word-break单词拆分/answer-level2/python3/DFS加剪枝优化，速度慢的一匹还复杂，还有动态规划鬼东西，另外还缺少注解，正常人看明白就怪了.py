@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         self.se=set()
@@ -38,9 +38,9 @@ class Solution:
         # print(self.se)
         self.hasdone.clear()
         return func(s)
-```
-方法二：动态规划，当前位置满足条件则变为1，不满足还是0，只对是1的位置继续往后伸展，配合适当的剪枝。我知道我表达的不明白，你也看不明白。
-```
+# ```
+# 方法二：动态规划，当前位置满足条件则变为1，不满足还是0，只对是1的位置继续往后伸展，配合适当的剪枝。我知道我表达的不明白，你也看不明白。
+# ```
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         lens=len(s)
@@ -62,4 +62,4 @@ class Solution:
                     if dp[i+j]==0:
                         if s[i:i+j] in se:dp[i+j]=1
         return False if dp[-1]==0 else True
-```
+# ```

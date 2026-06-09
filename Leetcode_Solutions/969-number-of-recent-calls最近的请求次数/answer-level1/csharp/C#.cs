@@ -1,8 +1,8 @@
-### 解题思路
-模仿官方题解代码，用队列维持在3000 以内的数，超过的话就直接删除
-### 代码
+// ### 解题思路
+// 模仿官方题解代码，用队列维持在3000 以内的数，超过的话就直接删除
+// ### 代码
 
-```csharp
+// ```csharp
 public class RecentCounter{
     public Queue<int> pings;
     public RecentCounter(){
@@ -41,4 +41,4 @@ public class RecentCounter{
  * RecentCounter obj = new RecentCounter();
  * int param_1 = obj.Ping(t);
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-从前往后找到第一个不符合要求的位数，然后该位减一，后面的都变成9，再从头判断，执行整个过程，直到满足要求
+# ### 解题思路
+# 从前往后找到第一个不符合要求的位数，然后该位减一，后面的都变成9，再从头判断，执行整个过程，直到满足要求
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def monotoneIncreasingDigits(self, N: int) -> int:
         nums = list(str(N))
@@ -18,4 +18,4 @@ class Solution:
                 end = i+1
                 i = 0
         return int(''.join(nums))
-```
+# ```

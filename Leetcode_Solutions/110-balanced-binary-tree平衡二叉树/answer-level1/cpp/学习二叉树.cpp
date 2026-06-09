@@ -1,17 +1,17 @@
-### 解题思路
-学习官方递归解法
-函数int hight(TreeNode* root)的过程
-例[1,1,1]
-1 + max(hight(左子), hight(右子))
-1 + max(1 + max(hight(左子)，hight(右子))，1 + max(hight(左子), hight(右子)))
-1 + max(1 + max(-1, -1), 1 + max(-1, -1))
-1 + max(0, 0)
-1   <-----即求出根节点高度
+// ### 解题思路
+// 学习官方递归解法
+// 函数int hight(TreeNode* root)的过程
+// 例[1,1,1]
+// 1 + max(hight(左子), hight(右子))
+// 1 + max(1 + max(hight(左子)，hight(右子))，1 + max(hight(左子), hight(右子)))
+// 1 + max(1 + max(-1, -1), 1 + max(-1, -1))
+// 1 + max(0, 0)
+// 1   <-----即求出根节点高度
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ public:
         && isBalanced(root->right);
     }
 };
-```
+// ```

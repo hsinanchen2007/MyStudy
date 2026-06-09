@@ -1,9 +1,9 @@
-### 解题思路
-数组a[i]表示在数组deck中有a[i]个i,找出a[i]中最小的数min，若数组a[i]中的所有数存在一个公约数d，a在(1,min]之间，则返回true,否则，返回false
+// ### 解题思路
+// 数组a[i]表示在数组deck中有a[i]个i,找出a[i]中最小的数min，若数组a[i]中的所有数存在一个公约数d，a在(1,min]之间，则返回true,否则，返回false
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasGroupsSizeX(int* deck, int deckSize){
 //数组中的数值相同的的个数，所有的个数都能整除最小的（不为1）；
         int i,max=-1,j,min;
@@ -19,4 +19,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
         }
         return false;
         }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用层次遍历，每跳一层level加1 ，最后值就是最大深度
+// ### 解题思路
+// 使用层次遍历，每跳一层level加1 ，最后值就是最大深度
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -33,4 +33,4 @@ var maxDepth = function(root) {
     }
     return level;
 };
-```
+// ```

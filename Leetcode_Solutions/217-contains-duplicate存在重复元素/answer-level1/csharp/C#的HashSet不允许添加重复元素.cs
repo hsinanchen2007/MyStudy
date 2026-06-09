@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public bool ContainsDuplicate(int[] nums) {
         if(nums.Length==0) return false;
@@ -6,4 +6,4 @@ public class Solution {
         return set.Count==nums.Length?false:true;
     }
 }
-```
+// ```

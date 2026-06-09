@@ -1,11 +1,11 @@
 
-动态规划，空间换时间
-dp[i][j]表示从i到j的字符是否为回文，状态转移方程为：
-dp[i][j] = dp[i + 1][j - 1] && s.charAt(i) == s.charAt[j] st. j - i > 1
-一开始的思路是： 两层遍历，i从0开始，j从0开始，但是发现这样会有中间状态没有计算到
-故采取步长递增的方式计算
+// 动态规划，空间换时间
+// dp[i][j]表示从i到j的字符是否为回文，状态转移方程为：
+// dp[i][j] = dp[i + 1][j - 1] && s.charAt(i) == s.charAt[j] st. j - i > 1
+// 一开始的思路是： 两层遍历，i从0开始，j从0开始，但是发现这样会有中间状态没有计算到
+// 故采取步长递增的方式计算
 
-```
+// ```
     public String longestPalindrome(String s) {
         if (s == null || s.length() <= 1) {
             return s;
@@ -36,4 +36,4 @@ dp[i][j] = dp[i + 1][j - 1] && s.charAt(i) == s.charAt[j] st. j - i > 1
         }
         return s.substring(dist[0], dist[1] + 1);
     }
-```
+// ```

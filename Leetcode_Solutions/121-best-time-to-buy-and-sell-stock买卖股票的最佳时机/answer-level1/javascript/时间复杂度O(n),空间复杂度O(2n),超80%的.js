@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-分别定义
-```javascript
+// ### 代码
+// 分别定义
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -18,4 +18,4 @@ const maxProfit = function(prices) {
   }
   return profit;
 };
-```
+// ```

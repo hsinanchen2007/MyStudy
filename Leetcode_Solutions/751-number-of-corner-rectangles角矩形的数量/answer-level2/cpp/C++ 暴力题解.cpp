@@ -1,5 +1,5 @@
-**解法一：**
-```
+// **解法一：**
+// ```
 class Solution {
 public:
     int countCornerRectangles(vector<vector<int>>& grid) {
@@ -22,11 +22,11 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/c8a4bb793df30095352ae3387e1829efe50f4cd2adb76aabcc0d8f705abe9efe-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/c8a4bb793df30095352ae3387e1829efe50f4cd2adb76aabcc0d8f705abe9efe-image.png)
 
-**解法二：**
-```
+// **解法二：**
+// ```
 class Solution {
 public:
     int countCornerRectangles(vector<vector<int>>& grid) {
@@ -58,6 +58,6 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/6f2006082bf7ee16f38a687f99f57abc2d3c68874ac1b9ef7315412efd0cc722-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6f2006082bf7ee16f38a687f99f57abc2d3c68874ac1b9ef7315412efd0cc722-image.png)
 

@@ -1,7 +1,7 @@
-一看就会
+// 一看就会
 
 
-```
+// ```
 var lengthOfLongestSubstring = function(s) {
    
             var res1 = [];
@@ -27,5 +27,5 @@ var lengthOfLongestSubstring = function(s) {
        
     };
 
-```
+// ```
 

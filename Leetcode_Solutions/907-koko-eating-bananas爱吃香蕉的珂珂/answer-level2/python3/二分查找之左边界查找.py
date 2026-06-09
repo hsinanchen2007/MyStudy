@@ -1,9 +1,9 @@
-### 解题思路
-见代码注释
+# ### 解题思路
+# 见代码注释
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minEatingSpeed(self, piles, H):
         """
@@ -36,4 +36,4 @@ class Solution(object):
                 left = mid + 1
 
         return left + 1
-```
+# ```

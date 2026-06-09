@@ -1,9 +1,9 @@
-**解题思路**
-将两个数组的元素进行比较，每次把较小的元素放入一个新的数组，直到最后，将A或B剩下的元素复制到C中，最后将C中排好序的元素再复制到A中。
+// **解题思路**
+// 将两个数组的元素进行比较，每次把较小的元素放入一个新的数组，直到最后，将A或B剩下的元素复制到C中，最后将C中排好序的元素再复制到A中。
 
 
 
-```
+// ```
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         int[] C = new int[m + n];
@@ -23,4 +23,4 @@ class Solution {
         if (m + n >= 0) System.arraycopy(C, 0, A, 0, m + n);
     }
 }
-```
+// ```

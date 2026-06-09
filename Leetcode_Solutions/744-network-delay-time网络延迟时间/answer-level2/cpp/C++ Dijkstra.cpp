@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int N, int K) {
@@ -38,4 +38,4 @@ public:
         return (max_dist == INT_MAX) ? -1 : max_dist;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-找出左右，找出上下
-完了
+# ### 解题思路
+# 找出左右，找出上下
+# 完了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
         if rec1[0] > rec2[0]:
@@ -29,4 +29,4 @@ class Solution:
         
 
 
-```
+# ```

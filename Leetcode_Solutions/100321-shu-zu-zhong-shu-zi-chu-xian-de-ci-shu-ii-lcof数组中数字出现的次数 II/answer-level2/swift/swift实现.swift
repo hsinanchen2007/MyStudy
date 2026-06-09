@@ -1,9 +1,9 @@
-### 解题思路
-用时40% 内存100%
+// ### 解题思路
+// 用时40% 内存100%
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func singleNumber(_ nums: [Int]) -> Int {
         var array = nums.sorted()
@@ -24,4 +24,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

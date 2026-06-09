@@ -1,5 +1,5 @@
-![rwerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.PNG](https://pic.leetcode-cn.com/f78e13fa634796f4b9f45abcdf4c7d9d49a481a43655c33ad5adae0bfadba7c6-rwerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.PNG)
-```
+// ![rwerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.PNG](https://pic.leetcode-cn.com/f78e13fa634796f4b9f45abcdf4c7d9d49a481a43655c33ad5adae0bfadba7c6-rwerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.PNG)
+// ```
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -20,4 +20,4 @@ public:
         return my_vec;
     }
 };
-```
+// ```

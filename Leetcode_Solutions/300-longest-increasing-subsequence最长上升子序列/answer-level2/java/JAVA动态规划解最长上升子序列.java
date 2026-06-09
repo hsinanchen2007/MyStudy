@@ -1,8 +1,8 @@
-### 解题思路
- 动态规划，最长上升子序列
-### 代码
+// ### 解题思路
+//  动态规划，最长上升子序列
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         if (nums.length == 0) {
@@ -29,4 +29,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

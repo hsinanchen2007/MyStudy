@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,5 +41,5 @@ public:
         return helper(A->left,B->right) && helper(A->right,B->left);
     }
 };
-```
-//递归 若发现递归至空则为出口，若A左与B右不同则说明不对称
+// ```
+// //递归 若发现递归至空则为出口，若A左与B右不同则说明不对称

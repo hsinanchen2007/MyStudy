@@ -1,10 +1,10 @@
-## 解题思路
+// ## 解题思路
 
-1. 数组  
-  排序  
-  遍历，如果当前的数小于或等于前一个数，说明要加  
-  计算当前数和前一个数的差值再加 1，就实现了当前数比前一个数多 1
-```bash
+// 1. 数组  
+//   排序  
+//   遍历，如果当前的数小于或等于前一个数，说明要加  
+//   计算当前数和前一个数的差值再加 1，就实现了当前数比前一个数多 1
+// ```bash
 var minIncrementForUnique = function (A) {
 	A = A.sort((a, b) => a - b)
 	// console.log(A);
@@ -20,12 +20,12 @@ var minIncrementForUnique = function (A) {
 };
 console.log(minIncrementForUnique([3, 2, 1, 2, 1, 7]))
 
-```
-2. Map  
-	新建一个Map，数值作为key  
-	如果该数值第一次出现，则存入Map中  否则加 1  
-	结果执行超时
-```bash
+// ```
+// 2. Map  
+// 	新建一个Map，数值作为key  
+// 	如果该数值第一次出现，则存入Map中  否则加 1  
+// 	结果执行超时
+// ```bash
 var minIncrementForUnique = function (A) {
 	let count = 0
 	let map = new Map()
@@ -40,4 +40,4 @@ var minIncrementForUnique = function (A) {
 }
 
 console.log(minIncrementForUnique([3, 2, 1, 2, 1, 7]))
-```
+// ```

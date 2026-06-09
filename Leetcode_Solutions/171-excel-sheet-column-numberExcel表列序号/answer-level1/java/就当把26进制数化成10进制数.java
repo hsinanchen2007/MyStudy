@@ -1,9 +1,9 @@
-### 解题思路
-随便举个例子
-就相当于把  32341化成10进制那么简单
-### 代码
+// ### 解题思路
+// 随便举个例子
+// 就相当于把  32341化成10进制那么简单
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int titleToNumber(String s) {
          int ans=0;
@@ -15,4 +15,4 @@ class Solution {
 	        return ans;
     }
 }
-```
+// ```

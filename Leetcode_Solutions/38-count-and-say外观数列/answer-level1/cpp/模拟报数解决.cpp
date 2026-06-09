@@ -1,6 +1,6 @@
-### 模拟报数解决
+// ### 模拟报数解决
 
-```c
+// ```c
  string countAndSay(int n) {
     string ret = "1";
     string tmp;
@@ -33,4 +33,4 @@
     }
     return ret;
 }
-```
+// ```

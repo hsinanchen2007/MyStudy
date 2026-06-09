@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     //将temp字符串复制nums数量个，然后返回这个字符串
@@ -75,4 +75,4 @@ public:
         return res;
     }
 };
-```
+// ```

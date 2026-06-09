@@ -1,9 +1,9 @@
-### 解题思路
-先获取链表的长度，然后根据奇偶性适当除以2即可；
+// ### 解题思路
+// 先获取链表的长度，然后根据奇偶性适当除以2即可；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ struct ListNode* middleNode(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

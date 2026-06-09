@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def longestPalindrome(self, s):
         """
@@ -17,4 +17,4 @@ class Solution(object):
             return len(s) - len(ss) + 1
         else:
             return len(s)
-```
+# ```

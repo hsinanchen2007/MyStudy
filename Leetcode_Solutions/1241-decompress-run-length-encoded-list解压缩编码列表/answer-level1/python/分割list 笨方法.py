@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def decompressRLElist(self, nums: List[int]) -> List[int]:
         num1 =nums[0::2]
@@ -12,4 +12,4 @@ class Solution:
         for i in range(len(num1)):
             num3+=(num1[i] * [num2[i]])
         return num3
-```
+# ```

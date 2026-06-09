@@ -1,4 +1,4 @@
-参考了作者：steamedfish-2 的解法
+// 参考了作者：steamedfish-2 的解法
 
 #define WALLMAXCOLSIZE 20001
 int cmp(const void *p1, const void *p2) 

@@ -1,6 +1,6 @@
 
-本道题的核心思想就是dfs,利用两个栈来实现非递归的版本。
-```
+# 本道题的核心思想就是dfs,利用两个栈来实现非递归的版本。
+# ```
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         if not grid:
@@ -43,4 +43,4 @@ class Solution:
                         grid_t[p[0]][p[1]] = 0
                         p = (p[0], p[1]+1)
         return count
-```
+# ```

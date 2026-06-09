@@ -1,4 +1,4 @@
-![屏幕快照 2019-11-27 下午10.02.36.png](https://pic.leetcode-cn.com/caa78a74eb8003e6810707d302ce01c567e0c24c21b9e566547dac9d93255b54-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-11-27%20%E4%B8%8B%E5%8D%8810.02.36.png)
+# ![屏幕快照 2019-11-27 下午10.02.36.png](https://pic.leetcode-cn.com/caa78a74eb8003e6810707d302ce01c567e0c24c21b9e566547dac9d93255b54-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-11-27%20%E4%B8%8B%E5%8D%8810.02.36.png)
 
 class Solution:
     def oddCells(self, n: int, m: int, indices: List[List[int]]) -> int:

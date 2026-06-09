@@ -1,4 +1,4 @@
-最长公共字符串
+// 最长公共字符串
 `#define MIN(a, b) (((a) > (b)) ? (b) : (a))
 #define MAX(a, b) (((a) < (b)) ? (b) : (a))
 int found(char *str0, char ** strs, int strsSize)

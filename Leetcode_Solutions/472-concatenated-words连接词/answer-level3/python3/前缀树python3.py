@@ -1,6 +1,6 @@
-由[208. 前缀树](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)得来的思路
-需要注意去除自身字符串
-```
+# 由[208. 前缀树](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)得来的思路
+# 需要注意去除自身字符串
+# ```
 class TrieNode:
     def __init__(self):
         self.child = {}
@@ -51,4 +51,4 @@ class Solution:
                 res.append(w)
         return res
 
-```
+# ```

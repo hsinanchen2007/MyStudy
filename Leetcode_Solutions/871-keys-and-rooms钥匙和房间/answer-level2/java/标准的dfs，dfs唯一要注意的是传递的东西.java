@@ -1,9 +1,9 @@
-### 解题思路
-标准的dfs，dfs唯一要注意的是传递的东西。
+// ### 解题思路
+// 标准的dfs，dfs唯一要注意的是传递的东西。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         int size = rooms.size();
@@ -30,4 +30,4 @@ public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         return false;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用栈，栈为空或栈顶元素和当前元素相同入栈，不同则出栈，并删除两元素，栈中剩余即为所求；
+// ### 解题思路
+// 用栈，栈为空或栈顶元素和当前元素相同入栈，不同则出栈，并删除两元素，栈中剩余即为所求；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
 
@@ -21,4 +21,4 @@ class Solution {
         return stack.isEmpty() ? 0 : stack.pop();
     }
 }
-```
+// ```

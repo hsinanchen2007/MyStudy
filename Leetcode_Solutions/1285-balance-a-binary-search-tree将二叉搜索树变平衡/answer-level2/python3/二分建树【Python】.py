@@ -1,14 +1,14 @@
-### 思路
+# ### 思路
 
-**二分建树**
+# **二分建树**
 
-```
+# ```
 先把二叉搜索树转为数组，再二分建树。
-```
+# ```
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -44,8 +44,8 @@ class Solution:
         node.right = self.build(right)
         
         return node
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1382-Balance-a-Binary-Search-Tree/1382.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1382-Balance-a-Binary-Search-Tree/1382.py)

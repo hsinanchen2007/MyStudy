@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def climbStairs(self, n: int) -> int:
         def mul(a,b):
@@ -19,4 +19,4 @@ class Solution:
         return sum(power(x,n-1)[0])
             
         
-```
+# ```

@@ -1,5 +1,5 @@
-在纸张上写写算算就能算出来的
-```java
+// 在纸张上写写算算就能算出来的
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
@@ -14,4 +14,4 @@ class Solution {
         }
     } 
 }
-```
+// ```

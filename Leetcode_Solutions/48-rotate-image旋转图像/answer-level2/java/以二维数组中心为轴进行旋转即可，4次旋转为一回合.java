@@ -1,6 +1,6 @@
-因为是90°顺时针旋转，所以旋转前后的数组下标有如下关系：
-[x,y] ==> [y, matrix.length - 1 - x],至于数学证明可以百度上找
-```
+// 因为是90°顺时针旋转，所以旋转前后的数组下标有如下关系：
+// [x,y] ==> [y, matrix.length - 1 - x],至于数学证明可以百度上找
+// ```
 class Solution {
     public void rotate(int[][] matrix) {       
         int length = matrix.length;
@@ -27,4 +27,4 @@ class Solution {
         }   
     }
 }
-```
+// ```

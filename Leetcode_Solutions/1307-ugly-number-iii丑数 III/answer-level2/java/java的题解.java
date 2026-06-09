@@ -1,4 +1,4 @@
-```
+// ```
 import java.util.*;
 class Solution {
 
@@ -52,4 +52,4 @@ class Solution {
         return gcd(min, max % min);
     }
 }
-```
+// ```

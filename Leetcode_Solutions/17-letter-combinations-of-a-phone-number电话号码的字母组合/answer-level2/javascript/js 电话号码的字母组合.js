@@ -1,6 +1,6 @@
-回溯算法，String.fromCharCode() 获取数字对应的英文字母，因为 2-6、8 分别对应三个字母，7、9分别对应四个字母，所以2-6对应的开头字母是 String.fromCharCode(63 + num + 3 * (num - 2))，65 对应 A，8、9因为7对应四个字母，所以需推后一位
+// 回溯算法，String.fromCharCode() 获取数字对应的英文字母，因为 2-6、8 分别对应三个字母，7、9分别对应四个字母，所以2-6对应的开头字母是 String.fromCharCode(63 + num + 3 * (num - 2))，65 对应 A，8、9因为7对应四个字母，所以需推后一位
 
-```
+// ```
 /**
  * @param {string} digits
  * @return {string[]}
@@ -28,4 +28,4 @@ var letterCombinations = function(digits) {
     fn('', digits)
     return list
 };
-```
+// ```

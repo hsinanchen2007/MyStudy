@@ -1,4 +1,4 @@
-```
+// ```
 //执行用时 :64 ms, 在所有 C++ 提交中击败了83.38%的用户
 class MyLinkedList {
 public:
@@ -73,4 +73,4 @@ public:
         if(!maxsize) lastnode = NULL; //如果链表长度为0，lastnode值置为空
     }
 };
-```
+// ```

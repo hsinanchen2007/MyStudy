@@ -1,9 +1,9 @@
-### 解题思路
-三路快排
+// ### 解题思路
+// 三路快排
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
     
     }
 };
-```
+// ```

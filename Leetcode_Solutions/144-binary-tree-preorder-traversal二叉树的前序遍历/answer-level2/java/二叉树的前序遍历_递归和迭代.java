@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-#### 迭代
-```java
+// #### 迭代
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,10 +36,10 @@ class Solution {
         return retList;
     }
 }
-```
+// ```
 
-#### 递归
-```golang
+// #### 递归
+// ```golang
 func preorderTraversal(root *TreeNode) []int {
 
     if root == nil {
@@ -59,4 +59,4 @@ func preorder(node *TreeNode, ret* []int) {
     preorder(node.Left, ret)
     preorder(node.Right, ret)
 }
-```
+// ```

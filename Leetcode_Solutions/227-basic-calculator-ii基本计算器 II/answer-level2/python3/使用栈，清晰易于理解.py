@@ -1,5 +1,5 @@
-使用栈
-```
+# 使用栈
+# ```
 class Solution:
     def calculate(self , s):
         # 初始化sign为 “+”，是因为开头是数字
@@ -22,5 +22,5 @@ class Solution:
                 num = 0
                 sign = ch
         return sum(stack)
-```
-[参考](https://leetcode.com/problems/basic-calculator-ii/discuss/63076/Python-short-solution-with-stack.)
+# ```
+# [参考](https://leetcode.com/problems/basic-calculator-ii/discuss/63076/Python-short-solution-with-stack.)

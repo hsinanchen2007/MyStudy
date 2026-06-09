@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int maxDepth(Node* root) {
@@ -15,4 +15,4 @@ public:
         return 1+max_depth;
     }
 };
-```
+// ```

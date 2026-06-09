@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int divide(int dividend, int divisor) {
         int negtive=0;
@@ -36,4 +36,4 @@ class Solution {
         return negtive==0?ret:-ret;//正负判断
     }
 }
-```
+// ```

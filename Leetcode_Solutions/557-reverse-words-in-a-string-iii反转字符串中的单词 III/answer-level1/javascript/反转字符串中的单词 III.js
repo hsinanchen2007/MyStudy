@@ -1,4 +1,4 @@
-```js
+// ```js
 var reverseWords = function(s) {
     let arr = s.split(' ');
     let arr2 = [];
@@ -7,6 +7,6 @@ var reverseWords = function(s) {
     }
     return arr2.join(' ');
 };
-```
+// ```
 
 

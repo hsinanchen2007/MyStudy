@@ -1,5 +1,5 @@
-第一种是采用左右指针,第二种是列表切片
-```python
+# 第一种是采用左右指针,第二种是列表切片
+# ```python
 class Solution(object):
     def sortArray(self, nums):
         """
@@ -41,4 +41,4 @@ class Solution(object):
         right = self.quick_sort(right)
         
         return  left + [tmp] + right
-```
+# ```

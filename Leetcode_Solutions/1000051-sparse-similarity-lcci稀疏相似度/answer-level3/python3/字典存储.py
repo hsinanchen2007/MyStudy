@@ -1,7 +1,7 @@
-# 思路
-1. dic1[num] 记录含有num的所有doc的id
-2. 对每一个id数组，两两元素记录到dic2[i, j]，即为docs[i]与docs[j]的交集大小
-```
+# # 思路
+# 1. dic1[num] 记录含有num的所有doc的id
+# 2. 对每一个id数组，两两元素记录到dic2[i, j]，即为docs[i]与docs[j]的交集大小
+# ```
 class Solution:
     def computeSimilarities(self, docs: List[List[int]]) -> List[str]:
         dic1 = collections.defaultdict(list)
@@ -19,4 +19,4 @@ class Solution:
             u = len(docs[p]) + len(docs[q]) - i
             res.append("{0:d},{1:d}: {2:.4f}".format(p, q, i / u + minn))
         return res
-```
+# ```

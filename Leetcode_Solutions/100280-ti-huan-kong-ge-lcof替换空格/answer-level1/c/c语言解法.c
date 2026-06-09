@@ -1,9 +1,9 @@
-### 解题思路
-常规思路
+// ### 解题思路
+// 常规思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* replaceSpace(char* s){
     int n=strlen(s);
     char* num=(char*)malloc(sizeof(char)*(n+1)*3);
@@ -24,4 +24,4 @@ char* replaceSpace(char* s){
     num[cnt]='\0';
     return num;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-二分法
+// 二分法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool search(vector<int>& nums, int target) 
@@ -36,4 +36,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-典型的回溯算法题，可以小样本量在纸上画出递归树。
-![111.png](https://pic.leetcode-cn.com/acc478c9f2eadfe4aadb46bef583131e51ea4c556aadf6add3565875b882bdbd-111.png)
+// 典型的回溯算法题，可以小样本量在纸上画出递归树。
+// ![111.png](https://pic.leetcode-cn.com/acc478c9f2eadfe4aadb46bef583131e51ea4c556aadf6add3565875b882bdbd-111.png)
 
-```php
+// ```php
 class Solution
 {
     protected $result = [];
@@ -38,4 +38,4 @@ class Solution
         }
     }
 }
-```
+// ```

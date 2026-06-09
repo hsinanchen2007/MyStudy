@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class Solution {
     public String defangIPaddr(String address) {
         char[] temp = address.toCharArray();
@@ -16,5 +16,5 @@ class Solution {
         return String.valueOf(result);
     }
 }
-```
+// ```
 

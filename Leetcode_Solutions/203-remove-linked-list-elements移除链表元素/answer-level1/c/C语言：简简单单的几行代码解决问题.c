@@ -1,5 +1,5 @@
 
-```
+// ```
 struct ListNode* removeElements(struct ListNode* head, int val){
     struct ListNode  ret_head;
     struct ListNode* fir_node = &ret_head;
@@ -18,4 +18,4 @@ struct ListNode* removeElements(struct ListNode* head, int val){
     }
     return ret_head.next;
 }
-```
+// ```

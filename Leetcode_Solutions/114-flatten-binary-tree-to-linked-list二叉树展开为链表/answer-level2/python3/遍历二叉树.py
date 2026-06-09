@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1.深度优先遍历子树
-2.如果存在父节点存在左节点，就把左节点插入到父节点与右节点之间，把父节点的做节点置为None即可
+# ### 解题思路
+# 此处撰写解题思路
+# 1.深度优先遍历子树
+# 2.如果存在父节点存在左节点，就把左节点插入到父节点与右节点之间，把父节点的做节点置为None即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
                 r.left = None
             return
         helper(root)
-```
+# ```

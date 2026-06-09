@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maxRepOpt1(self, text: str) -> int:
         counts, lens, _len = {}, [], 0
@@ -26,5 +26,5 @@ class Solution:
                 elif counts[_alpha] == len_l+len_r and len_l+len_r > _max:  # 不可替换了
                     _max = len_l+len_r
         return _max
-```
+# ```
             

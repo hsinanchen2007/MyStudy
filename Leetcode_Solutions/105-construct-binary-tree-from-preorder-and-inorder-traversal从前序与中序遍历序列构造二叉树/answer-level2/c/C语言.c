@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-递归就完事儿了哥哥们。
-Preorder: ROOT [LEFT SUBTREE PREORDER] [RIGHT SUBTREE PREORDER]
-inorder   : [LEFT SUBTREE    INORDER] ROOT [RIGHT SUBTREE INORDER]
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 递归就完事儿了哥哥们。
+// Preorder: ROOT [LEFT SUBTREE PREORDER] [RIGHT SUBTREE PREORDER]
+// inorder   : [LEFT SUBTREE    INORDER] ROOT [RIGHT SUBTREE INORDER]
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ struct TreeNode* buildTree(int* preorder, int preorderSize, int* inorder, int in
         return root;
 
 }
-```
+// ```

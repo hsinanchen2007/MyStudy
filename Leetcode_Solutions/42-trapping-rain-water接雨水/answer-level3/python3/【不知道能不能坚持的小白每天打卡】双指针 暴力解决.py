@@ -1,11 +1,11 @@
-### 解题思路
-以前看过解题思路，只记得这种双指针解法，不确定是不是完全复刻了那个解法。大家如果需要图解的话，需要自己翻翻别人的解题。
+# ### 解题思路
+# 以前看过解题思路，只记得这种双指针解法，不确定是不是完全复刻了那个解法。大家如果需要图解的话，需要自己翻翻别人的解题。
 
-**本题关键思路**：List中任意一个点（用current_idx来指代）能不能接雨水，取决于current_idx左边所有柱子的left_max和右边所有柱子的right_max的min是否高于current_idx的柱子。
+# **本题关键思路**：List中任意一个点（用current_idx来指代）能不能接雨水，取决于current_idx左边所有柱子的left_max和右边所有柱子的right_max的min是否高于current_idx的柱子。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         # 题目只说了n个非负整数，所以len(height)应该可以是1或2。这种情况下，不可能有雨水，所以特殊情况先写为敬。
@@ -42,4 +42,4 @@ class Solution:
             
 
 
-```
+# ```

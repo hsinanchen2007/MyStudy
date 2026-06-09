@@ -1,9 +1,9 @@
-### 解题思路
-easy做了一小时...好在思考尝试结果和官方方法2一样,恢复了一点信心
+# ### 解题思路
+# easy做了一小时...好在思考尝试结果和官方方法2一样,恢复了一点信心
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -86,4 +86,4 @@ class Solution:
 
 
 
-```
+# ```

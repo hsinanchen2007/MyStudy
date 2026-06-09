@@ -1,12 +1,12 @@
-环形链表II--->[三种方法解环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/solution/huan-xing-lian-biao-ii-by-leetcode/)
+// 环形链表II--->[三种方法解环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/solution/huan-xing-lian-biao-ii-by-leetcode/)
 
-### 141. 环形链表 Easy
-> Two Pointer: Slow Fast Pointer
->- O(1) sapce: 用快慢指针。一个跑.next, 一个跑.next.next。 总有一次，fast会因为cycle而追上slow。
->- 那个时候其实slow.val = fast.val.
+// ### 141. 环形链表 Easy
+// > Two Pointer: Slow Fast Pointer
+// >- O(1) sapce: 用快慢指针。一个跑.next, 一个跑.next.next。 总有一次，fast会因为cycle而追上slow。
+// >- 那个时候其实slow.val = fast.val.
 
 
-```
+// ```
 /**
  * 141. 环形链表 Easy
  *
@@ -28,4 +28,4 @@ public boolean hasCycle(ListNode head) {
     }
     return slow == fast;
 }
-```
+// ```

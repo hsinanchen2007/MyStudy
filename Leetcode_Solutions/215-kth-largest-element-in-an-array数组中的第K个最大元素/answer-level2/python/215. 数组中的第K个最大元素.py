@@ -1,9 +1,9 @@
-### 解题思路
-快速排序，时间复杂度O(N * log N)
+# ### 解题思路
+# 快速排序，时间复杂度O(N * log N)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findKthLargest(self, nums, k):
         """
@@ -39,4 +39,4 @@ class Solution(object):
             return nums[k - 1]
         
         return -1
-```
+# ```

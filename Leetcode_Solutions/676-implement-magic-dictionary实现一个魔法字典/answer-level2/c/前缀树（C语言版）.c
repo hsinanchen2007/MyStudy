@@ -1,10 +1,10 @@
-### 解题思路
-1.前缀树思路构建，插入
-2.为了能够实现search的功能(给定单词和词典单词只差一个字母)，我们需要先建立查看词典单词功能(即给出一个单词看此单词是否在词典中)；参考注释；
+// ### 解题思路
+// 1.前缀树思路构建，插入
+// 2.为了能够实现search的功能(给定单词和词典单词只差一个字母)，我们需要先建立查看词典单词功能(即给出一个单词看此单词是否在词典中)；参考注释；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct node{
     struct node *next[26];
     bool isEnd;
@@ -89,4 +89,4 @@ void magicDictionaryFree(MagicDictionary* obj) {
  
  * magicDictionaryFree(obj);
 */
-```
+// ```

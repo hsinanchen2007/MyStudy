@@ -1,4 +1,4 @@
-```
+// ```
 int findMin(int* nums, int numsSize){
     int left = 0;
     int right = numsSize - 1;
@@ -12,4 +12,4 @@ int findMin(int* nums, int numsSize){
     }
     return nums[left];
 }
-```
+// ```

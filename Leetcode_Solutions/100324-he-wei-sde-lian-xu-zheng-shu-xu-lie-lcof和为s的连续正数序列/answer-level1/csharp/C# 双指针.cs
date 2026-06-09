@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[][] FindContinuousSequence(int target) {
             int low = 1;
@@ -38,4 +38,4 @@ public class Solution {
             return list.ToArray();
     }
 }
-```
+// ```

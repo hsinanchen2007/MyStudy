@@ -1,13 +1,13 @@
 
--   逆序对判断
+# -   逆序对判断
 
-全局倒置就等于求解逆序对的数量
+# 全局倒置就等于求解逆序对的数量
 
-局部倒置就是相邻元素的倒置
+# 局部倒置就是相邻元素的倒置
 
-如果想让全局倒置等于局部倒置，只能是数组中相邻元素进行交换，判断这个规则即可
+# 如果想让全局倒置等于局部倒置，只能是数组中相邻元素进行交换，判断这个规则即可
 
-```python
+# ```python
 class Solution:
     def isIdealPermutation(self, A: List[int]) -> bool:
         length = len(A)
@@ -21,15 +21,15 @@ class Solution:
             else:
                 index += 1
         return True
-```
+# ```
 
--   使用树状数组求解
+# -   使用树状数组求解
 
-```
+# ```
 下面代码在python2中通过，python3中超时
-```
+# ```
 
-```python
+# ```python
 class BinaryIndexTree:
     def __init__(self, num):
         """
@@ -76,6 +76,6 @@ class Solution:
         return total == neighbor
 
 
-```
+# ```
 
 

@@ -1,10 +1,10 @@
-### 解题思路
-使用之前一题的动态规划来辅助，不过方向反过来，判断从当前下标到最后是否能够被正确划分。
-然后就直接回溯就行了。
+// ### 解题思路
+// 使用之前一题的动态规划来辅助，不过方向反过来，判断从当前下标到最后是否能够被正确划分。
+// 然后就直接回溯就行了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private void wordBreak_help(String s, HashSet<String> words, StringBuilder curr, boolean dp[]){
         if (s.isEmpty()){
@@ -46,4 +46,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

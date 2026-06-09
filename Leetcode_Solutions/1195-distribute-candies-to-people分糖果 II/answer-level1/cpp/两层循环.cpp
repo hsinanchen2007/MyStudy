@@ -1,9 +1,9 @@
-### 解题思路
-两层循环来处理，外层循环控制已分发糖果的数量，内层循环来分发糖果
+// ### 解题思路
+// 两层循环来处理，外层循环控制已分发糖果的数量，内层循环来分发糖果
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -26,4 +26,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
+# ### 解题思路
 
-先输出个迭代器，然后验证不在同一个斜线上就可以输出了，因为是遍历后验证，其实是非常慢的方法。
+# 先输出个迭代器，然后验证不在同一个斜线上就可以输出了，因为是遍历后验证，其实是非常慢的方法。
 
-```python []
+# ```python []
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         for arr in itertools.permutations(range(n)):
             if all(abs(arr[i] - arr[j]) != j - i for i, j in itertools.combinations(range(n), 2)):
                 yield ("." * i + "Q" + "." * (n - i - 1) for i in arr)
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         return (
@@ -20,11 +20,11 @@ class Solution:
                 for i, j in itertools.combinations(range(n), 2)
             )
         )
-```
+# ```
 
-### 标准回溯
+# ### 标准回溯
 
-```python []
+# ```python []
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         ans = []
@@ -37,8 +37,8 @@ class Solution:
                     and f({**a, **{i: 0}}, {**b, **{i - j: 0}}, {**c, **{i + j: 0}})
         f({}, {}, {})
         return (("." * i + "Q" + "." * (n - i - 1) for i in arr) for arr in ans)
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         ans = []
@@ -51,4 +51,4 @@ class Solution:
                     and f([*a, i], [*b, i - j], [*c, i + j])
         f([], [], [])
         return (("." * i + "Q" + "." * (n - i - 1) for i in arr) for arr in ans)
-```
+# ```

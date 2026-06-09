@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def findMaxAverage(nums: Array[Int], k: Int): Double = {
     var sum = 0.0
@@ -14,4 +14,4 @@ object Solution {
     sum / k
   }
 }
-```
+// ```

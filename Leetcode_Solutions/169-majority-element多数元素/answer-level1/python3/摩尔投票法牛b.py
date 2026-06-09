@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-摩尔投票法牛b，快去看看吧！
+# 摩尔投票法牛b，快去看看吧！
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         n = len(nums)
@@ -23,4 +23,4 @@ class Solution:
         if cc >0:
             return res 
 
-```
+# ```

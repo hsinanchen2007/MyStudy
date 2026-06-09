@@ -1,12 +1,12 @@
-### 解题思路
-遍历从根节点到叶子节点的过程中，寻找最大数和最小数，再比较差值大小
+# ### 解题思路
+# 遍历从根节点到叶子节点的过程中，寻找最大数和最小数，再比较差值大小
 
-时间复杂度： o(n)
-空间复杂度： 如果不算递归栈的调用的话，空间复杂度为o(1), 算的话是，空间复杂度是o(n)
+# 时间复杂度： o(n)
+# 空间复杂度： 如果不算递归栈的调用的话，空间复杂度为o(1), 算的话是，空间复杂度是o(n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
             dfs(root.right, max_num, min_num)
         dfs(root, float('-inf'), float('inf'))
         return self.max
-```
+# ```

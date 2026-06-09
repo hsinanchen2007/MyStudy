@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/4307320f3254703959f036516d77bba0de3e3df9f4ce2f823f3d23755bf1088b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4307320f3254703959f036516d77bba0de3e3df9f4ce2f823f3d23755bf1088b-image.png)
 
-```
+// ```
 impl Solution {
     pub fn search_insert(nums: Vec<i32>, target: i32) -> i32 {
         let mut left:i32 = 0;
@@ -20,4 +20,4 @@ impl Solution {
         return left;
     }
 }
-```
+// ```

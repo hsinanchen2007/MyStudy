@@ -1,9 +1,9 @@
-### 解题思路
-hashmap+滑动窗口
+// ### 解题思路
+// hashmap+滑动窗口
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] shortestSeq(int[] big, int[] small) {
         HashMap<Integer,Integer> s=new HashMap<>();
@@ -61,4 +61,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,47 +1,47 @@
-### 解题思路
-#### 方法一（用 C 写可以 O(1) 空间，原地翻转）
-1、去掉 s 头尾和中间多余的空格
-```
+// ### 解题思路
+// #### 方法一（用 C 写可以 O(1) 空间，原地翻转）
+// 1、去掉 s 头尾和中间多余的空格
+// ```
 "  hello world!  " -> "hello world!"
 "a good   example" -> "a good example"
-```
-2、反转整个字符串 s，得到字符串 s1
-```
+// ```
+// 2、反转整个字符串 s，得到字符串 s1
+// ```
 "hello world!" -> "!dlrow olleh"
 "a good example" -> "elpmaxe doog a"
-```
-3、依次反转 s1 的每个单词
-```
+// ```
+// 3、依次反转 s1 的每个单词
+// ```
  "!dlrow olleh" -> "world! hello"
 "elpmaxe doog a" -> "example good a"
-```
-**用 char[] 处理。(4ms C风格)，但因为 java 的 s.toCharArray() 会拷贝一份，所以有点慢。用 C 写出来应该会快不少**
+// ```
+// **用 char[] 处理。(4ms C风格)，但因为 java 的 s.toCharArray() 会拷贝一份，所以有点慢。用 C 写出来应该会快不少**
 
-#### 方法二（用 StringBuilder 最快可以 3ms）
-**从后往前**扫描字符串，依次把扫描到的单词连接起来。
-拿 "a good   example" 举例。
-1、扫描到 "example"
-```
+// #### 方法二（用 StringBuilder 最快可以 3ms）
+// **从后往前**扫描字符串，依次把扫描到的单词连接起来。
+// 拿 "a good   example" 举例。
+// 1、扫描到 "example"
+// ```
 "a good   example" 
 stringBuilder <- "example"
-```
-2、扫描到 "good"
-```
+// ```
+// 2、扫描到 "good"
+// ```
 "a good   example" 
 stringBuilder <- "example good"
-```
+// ```
 
-3、扫描到 "a"
-```
+// 3、扫描到 "a"
+// ```
 "a good   example" 
 stringBuilder <- "example good a"
-```
+// ```
 
-### 方法一代码（4ms/14ms）
-**以下两个代码没有任何本质区别**
-1. 直接用 char[] 处理。(4ms C风格)
-2. 用 StringBuilder 处理。(14ms StringBuilder)
-```java []
+// ### 方法一代码（4ms/14ms）
+// **以下两个代码没有任何本质区别**
+// 1. 直接用 char[] 处理。(4ms C风格)
+// 2. 用 StringBuilder 处理。(14ms StringBuilder)
+// ```java []
 class Solution {
     public String reverseWords(String s) {
         return reverseWords(s.toCharArray());
@@ -124,8 +124,8 @@ class Solution {
         }
     }
 }
-```
-```java []
+// ```
+// ```java []
   public String reverseWords(String s) {
         StringBuilder stringBuilder = trimString(s);
 
@@ -198,14 +198,14 @@ class Solution {
             s.setCharAt(r - i, ch1);
         }
     }
-```
+// ```
 
-### 方法二代码（8ms/3ms）
-** 以下代码没有本质区别 **
-1. 单独用一个 StringBuilder 记录扫描到的单词，8ms
-2. 用两个指针记录扫描到的单词 [l, r），3ms
+// ### 方法二代码（8ms/3ms）
+// ** 以下代码没有本质区别 **
+// 1. 单独用一个 StringBuilder 记录扫描到的单词，8ms
+// 2. 用两个指针记录扫描到的单词 [l, r），3ms
 
-```java []
+// ```java []
 class Solution {
        public String reverseWords(String s) {
         StringBuilder stringBuilder = new StringBuilder();
@@ -234,8 +234,8 @@ class Solution {
         return stringBuilder.toString();
     }
 }
-```
-```java []
+// ```
+// ```java []
     public String reverseWords(String s) {
         StringBuilder stringBuilder = new StringBuilder();
         int l = s.length();
@@ -264,4 +264,4 @@ class Solution {
 
         return stringBuilder.toString();
     }
-```
+// ```

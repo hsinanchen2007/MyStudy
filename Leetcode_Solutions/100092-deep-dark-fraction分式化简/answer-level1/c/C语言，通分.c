@@ -1,4 +1,4 @@
-C语言，从后往前迭代计算
+// C语言，从后往前迭代计算
 
 int* fraction(int* cont, int contSize, int* returnSize){
     //分配内存

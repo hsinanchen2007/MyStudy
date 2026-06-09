@@ -1,4 +1,4 @@
-```
+// ```
 bool isPalindrome(char * s)
 {
     if(s == NULL)return false;
@@ -45,4 +45,4 @@ bool isPalindrome(char * s)
     }
      return true;
 }
-```
+// ```

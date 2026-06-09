@@ -1,7 +1,7 @@
 
-### 一、暴力法
-遍历出所有的可能值，会超时
-```javascript
+// ### 一、暴力法
+// 遍历出所有的可能值，会超时
+// ```javascript
  /**
  * @param {string} s
  * @return {string}
@@ -30,19 +30,19 @@ const isPalindrome = function(s) {
     }
     return true;
 }
-```
-时间复杂度: O(N^3)
-空间复杂度: 0(1)
-### 二、动态规划
-- 确定dp[i][j]是否是回文数，只需要dp[i+1][j-1]是回文数并且s[i] == s[j]即可。
-- 但是长度为0或1的回文传需要特殊处理，即j-i < 2;
-- 因为知道dp[i]需要先知道dp[i+1],所以i需要从大到小开始遍历
-- 因为知道dp[j]需要先知道dp[j-1],所以j需要从小到大开始遍历
+// ```
+// 时间复杂度: O(N^3)
+// 空间复杂度: 0(1)
+// ### 二、动态规划
+// - 确定dp[i][j]是否是回文数，只需要dp[i+1][j-1]是回文数并且s[i] == s[j]即可。
+// - 但是长度为0或1的回文传需要特殊处理，即j-i < 2;
+// - 因为知道dp[i]需要先知道dp[i+1],所以i需要从大到小开始遍历
+// - 因为知道dp[j]需要先知道dp[j-1],所以j需要从小到大开始遍历
 
 
-##### 即: dp[i][j] = s[i] == s[j] && ( dp[i+1][j-1] || j - i < 2)
+// ##### 即: dp[i][j] = s[i] == s[j] && ( dp[i+1][j-1] || j - i < 2)
 
-```javascript
+// ```javascript
  /**
  * @param {string} s
  * @return {string}
@@ -62,12 +62,12 @@ var longestPalindrome = function(s) {
     }
     return ans;
 }
-```
-时间复杂度: O(N^2)
-空间复杂度: 0(N^2)
+// ```
+// 时间复杂度: O(N^2)
+// 空间复杂度: 0(N^2)
 
-### 三、扩展中心
-```javascript
+// ### 三、扩展中心
+// ```javascript
  /**
  * @param {string} s
  * @return {string}
@@ -95,6 +95,6 @@ const expandCenter = function(s,l,r) {
     }
     return r - l -1;
 }
-```
-时间复杂度: O(N)
-空间复杂度: 0(1)
+// ```
+// 时间复杂度: O(N)
+// 空间复杂度: 0(1)

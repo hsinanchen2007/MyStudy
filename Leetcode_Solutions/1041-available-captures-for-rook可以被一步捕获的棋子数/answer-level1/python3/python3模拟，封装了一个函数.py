@@ -1,5 +1,5 @@
-模拟行为
-```
+# 模拟行为
+# ```
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         for i in range(8):
@@ -41,4 +41,4 @@ class Solution:
             
 
         
-```
+# ```

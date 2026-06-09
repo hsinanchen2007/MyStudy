@@ -1,17 +1,17 @@
-### 解题思路：
-看到最短路径，首先想到的就是 `BFS`。这题主要的难点在于颜色的变换
+// ### 解题思路：
+// 看到最短路径，首先想到的就是 `BFS`。这题主要的难点在于颜色的变换
 
-遇到 `dfs/bfs` 相关问题，先转换成多维数组，再写一个 `visited`，标记是否被访问过。后面就是简单的状态转换
+// 遇到 `dfs/bfs` 相关问题，先转换成多维数组，再写一个 `visited`，标记是否被访问过。后面就是简单的状态转换
 
-我们考虑从 `A->B` 的所有情况，并计算出下一步的颜色保存到队列中即可。再通过队列不断往下走。
+// 我们考虑从 `A->B` 的所有情况，并计算出下一步的颜色保存到队列中即可。再通过队列不断往下走。
 
-![image.png](https://pic.leetcode-cn.com/1456a2bf0f87b5e36df775035cc597b0cb2ef27258b864caf92f75618288c203-image.png){:width=500}
-{:align=center}
+// ![image.png](https://pic.leetcode-cn.com/1456a2bf0f87b5e36df775035cc597b0cb2ef27258b864caf92f75618288c203-image.png){:width=500}
+// {:align=center}
 
-合并相同情况后的状态转换，其中 `none` 是 $0$ 节点开始的状态。其他节点不存在这种情况，具体看注释。
-### 代码：
+// 合并相同情况后的状态转换，其中 `none` 是 $0$ 节点开始的状态。其他节点不存在这种情况，具体看注释。
+// ### 代码：
 
-``` [-GO]
+// ``` [-GO]
 switch nowColor {
 case NONE, ALL:
 	diff = grid[nowIdx][i]
@@ -29,11 +29,11 @@ func ex(color int) int {
 	}
 	return RED
 }
-```
+// ```
 
 
 
-``` [-GO]
+// ``` [-GO]
 var (
 	NONE = 0
 	RED  = 1
@@ -112,4 +112,4 @@ func min(x, y int) int {
 	return y
 }
 
-```
+// ```

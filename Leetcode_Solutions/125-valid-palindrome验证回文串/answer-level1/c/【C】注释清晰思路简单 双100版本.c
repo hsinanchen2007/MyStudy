@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-![TIM截图20200313214010.jpg](https://pic.leetcode-cn.com/0a780aeaacb935e352511780a26d006fcbffb4111d27a1d37e01c2c349b0ebb8-TIM%E6%88%AA%E5%9B%BE20200313214010.jpg)
+// ### 代码
+// ![TIM截图20200313214010.jpg](https://pic.leetcode-cn.com/0a780aeaacb935e352511780a26d006fcbffb4111d27a1d37e01c2c349b0ebb8-TIM%E6%88%AA%E5%9B%BE20200313214010.jpg)
 
-```c
+// ```c
 bool isPalindrome(char * s){
     int len=strlen(s);
     int left=-1;
@@ -63,4 +63,4 @@ bool isPalindrome(char * s){
 
 
 }
-```
+// ```

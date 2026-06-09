@@ -1,9 +1,9 @@
-### 解题思路
-通过维护一个hash 表，key 是字符，value是索引。当出现重复的字符时更新字串的索引和hash对应的value。
+// ### 解题思路
+// 通过维护一个hash 表，key 是字符，value是索引。当出现重复的字符时更新字串的索引和hash对应的value。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
@@ -30,4 +30,4 @@ public:
         
     }
 };
-```
+// ```

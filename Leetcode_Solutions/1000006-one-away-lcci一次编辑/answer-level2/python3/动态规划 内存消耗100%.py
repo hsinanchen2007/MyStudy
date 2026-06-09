@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def oneEditAway(self, first: str, second: str) -> bool:
         if abs(len(first)-len(second))>1: return False
@@ -15,4 +15,4 @@ class Solution:
                     dp[i][j] = min(dp[i][j-1], dp[i-1][j], dp[i-1][j-1]) + 1
         
         return dp[-1][-1]<2
-```
+# ```

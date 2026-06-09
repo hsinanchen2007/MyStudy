@@ -1,4 +1,4 @@
-如下，逐个对比即可
+# 如下，逐个对比即可
 class Solution:
     def game(self, guess: List[int], answer: List[int]) -> int:
         a = 0

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] countBits(int num) {
         int[] res = new int[num+1];
@@ -17,5 +17,5 @@ class Solution {
         return res;
     }
 }
-```
-对于2的整数幂的数，比特位所含1的个数为1，在2^i到2^i+1之间的数k，例如3等于2^1+1,位于2^1和2^2之间，所含比特1的个数为res[2^i]+res[k-2^i]=1+res[k-2^i];
+// ```
+// 对于2的整数幂的数，比特位所含1的个数为1，在2^i到2^i+1之间的数k，例如3等于2^1+1,位于2^1和2^2之间，所含比特1的个数为res[2^i]+res[k-2^i]=1+res[k-2^i];

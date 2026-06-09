@@ -1,4 +1,4 @@
-```
+// ```
 class MyQueue {
     /**
      * Initialize your data structure here.
@@ -51,4 +51,4 @@ class MyQueue {
         return empty($this->in) && empty($this->out);
     }
 }
-```
+// ```

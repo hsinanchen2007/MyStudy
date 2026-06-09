@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def myAtoi(self, str: str) -> int:
         s = list(str)
@@ -33,5 +33,5 @@ class Solution:
         if m<-2**31:
             m = -2**31
             return m
-```
+# ```
 

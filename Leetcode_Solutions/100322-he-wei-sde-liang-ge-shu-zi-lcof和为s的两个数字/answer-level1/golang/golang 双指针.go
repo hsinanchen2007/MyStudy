@@ -1,9 +1,9 @@
-### 解题思路
-有序，所以直接上双指针不用hash法。
+// ### 解题思路
+// 有序，所以直接上双指针不用hash法。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func twoSum(nums []int, target int) []int {
     var res []int
     if len(nums) <= 1 {
@@ -24,4 +24,4 @@ func twoSum(nums []int, target int) []int {
     }
     return res
 }
-```
+// ```

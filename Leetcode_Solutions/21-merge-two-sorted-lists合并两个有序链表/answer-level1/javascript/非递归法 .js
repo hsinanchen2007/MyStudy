@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-非递归法 
-### 代码
+// 非递归法 
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -36,4 +36,4 @@ var mergeTwoLists = function(l1, l2) {
     }
     return ans.next
 };
-```
+// ```

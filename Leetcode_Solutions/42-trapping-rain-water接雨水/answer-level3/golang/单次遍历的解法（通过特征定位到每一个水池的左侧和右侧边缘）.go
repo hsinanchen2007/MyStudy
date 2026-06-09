@@ -1,4 +1,4 @@
-```Go []
+// ```Go []
 // 2019/10/10 23:40 by fzls
 func trap(height []int) int {
 	rain := 0
@@ -56,4 +56,4 @@ func trap(height []int) int {
 	return rain
 }
 
-```
+// ```

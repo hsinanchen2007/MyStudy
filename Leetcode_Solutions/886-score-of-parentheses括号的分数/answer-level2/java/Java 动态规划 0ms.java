@@ -1,5 +1,5 @@
 
-```java 
+// ```java 
 class Solution {
     public int scoreOfParentheses(String S) {
         int score[] = new int[S.length() + 1];
@@ -23,4 +23,4 @@ class Solution {
         return score[1];
     }
 }
-```
+// ```

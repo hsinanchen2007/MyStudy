@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-诶，我还是菜，得多锻炼。这个题目首先想到的办法是借助于HashMap。运行速度只超过5.%，内存超过6%。。哈哈哈哈哈，慢慢来吧。现在需要开阔思路，能把题目先解决出来。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 诶，我还是菜，得多锻炼。这个题目首先想到的办法是借助于HashMap。运行速度只超过5.%，内存超过6%。。哈哈哈哈哈，慢慢来吧。现在需要开阔思路，能把题目先解决出来。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int resultLength = 0;       //最后的结果        
@@ -27,4 +27,4 @@ class Solution {
         return resultLength;
     }
 }
-```
+// ```

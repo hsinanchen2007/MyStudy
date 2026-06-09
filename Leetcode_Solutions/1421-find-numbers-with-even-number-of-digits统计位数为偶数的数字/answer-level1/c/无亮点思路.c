@@ -1,6 +1,6 @@
 
 
-```c
+// ```c
 int findNumbers(int* nums, int numsSize){
     int i,count=0,ou=0;
     for(i=0;i<numsSize;i++)
@@ -18,4 +18,4 @@ int findNumbers(int* nums, int numsSize){
     }
     return count;
 }
-```
+// ```

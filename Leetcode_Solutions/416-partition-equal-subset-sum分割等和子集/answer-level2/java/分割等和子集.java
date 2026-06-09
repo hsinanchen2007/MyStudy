@@ -1,10 +1,10 @@
-### 解题思路
-1. 搜索加剪枝，参考大神的题解。
-2. 01背包解法，递归或动态规划。
+// ### 解题思路
+// 1. 搜索加剪枝，参考大神的题解。
+// 2. 01背包解法，递归或动态规划。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canPartition(int[] nums) {
         Arrays.sort(nums);
@@ -21,4 +21,4 @@ class Solution {
         return dp(nums, idx-1, left-nums[idx], right) || dp(nums, idx-1, left, right-nums[idx]);
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-思路：定义变量res =0； 先搜索到 车 的坐标。然后 上下左右遍历，碰到黑色的卒 res加1终止循环 或碰到白色的象终止循环， 最后返回res数量 。
+// 思路：定义变量res =0； 先搜索到 车 的坐标。然后 上下左右遍历，碰到黑色的卒 res加1终止循环 或碰到白色的象终止循环， 最后返回res数量 。
 
-```
+// ```
 var numRookCaptures = function(board) {
     let n = board.length
     let res = 0
@@ -57,4 +57,4 @@ var numRookCaptures = function(board) {
         }
     }
 }
-```
+// ```

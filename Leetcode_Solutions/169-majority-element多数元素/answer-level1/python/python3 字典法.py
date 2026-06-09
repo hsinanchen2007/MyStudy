@@ -1,9 +1,9 @@
-### 解题思路
-采用字典法统计列表每个元素的出现次数，但凡元素的出现次数超过n/2，就跳出循环输出该元素。
+# ### 解题思路
+# 采用字典法统计列表每个元素的出现次数，但凡元素的出现次数超过n/2，就跳出循环输出该元素。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         record={}
@@ -16,4 +16,4 @@ class Solution:
         return nums[i]
         
 
-```
+# ```

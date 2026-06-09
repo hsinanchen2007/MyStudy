@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def leafSimilar(self, root1: TreeNode, root2: TreeNode) -> bool:
         def helper(root, lst):
@@ -9,4 +9,4 @@ class Solution:
             helper(root.right, lst)
             return lst
         return helper(root1, []) == helper(root2, [])
-```
+# ```

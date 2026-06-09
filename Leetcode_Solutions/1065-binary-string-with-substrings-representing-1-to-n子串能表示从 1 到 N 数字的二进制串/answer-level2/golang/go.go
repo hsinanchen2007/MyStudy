@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"fmt"
 	"strings"
@@ -12,4 +12,4 @@ func queryString(S string, N int) bool {
 	}
 	return true
 }
-```
+// ```

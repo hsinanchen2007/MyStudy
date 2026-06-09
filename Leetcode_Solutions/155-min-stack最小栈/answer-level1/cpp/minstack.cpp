@@ -1,9 +1,9 @@
-### 解题思路
-维护一个最小栈记录历史最小值
+// ### 解题思路
+// 维护一个最小栈记录历史最小值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -41,4 +41,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

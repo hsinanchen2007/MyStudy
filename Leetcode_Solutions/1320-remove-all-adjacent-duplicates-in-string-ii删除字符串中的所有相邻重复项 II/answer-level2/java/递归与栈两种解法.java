@@ -1,8 +1,8 @@
-# 递归
-竞赛的时候用的是递归不断扫描S存在重复的字符串位置，用list记录下标，然后拼接成一个新的字符串，递归，直到list为空证明无符合的重复
-时间复杂度： 最好的情况 O(N) 最差 O(N* N/K ) 例如 ABCCBA这种要递归3次
-空间复杂度： O(N)
-```
+// # 递归
+// 竞赛的时候用的是递归不断扫描S存在重复的字符串位置，用list记录下标，然后拼接成一个新的字符串，递归，直到list为空证明无符合的重复
+// 时间复杂度： 最好的情况 O(N) 最差 O(N* N/K ) 例如 ABCCBA这种要递归3次
+// 空间复杂度： O(N)
+// ```
 class Solution {
     	public String removeDuplicates(String s, int k) {
 		// 无限删除的问题 统计连续字母达到K的坐标
@@ -51,11 +51,11 @@ class Solution {
 	}
 
 }
-```
+// ```
 
-# 用栈计数
-时间复杂度 O(N) 空间复杂度O(N) ,不过奇怪的是这种提交用了60ms，递归反而只用了 9ms
-```
+// # 用栈计数
+// 时间复杂度 O(N) 空间复杂度O(N) ,不过奇怪的是这种提交用了60ms，递归反而只用了 9ms
+// ```
 class Solution {
     	public String removeDuplicates(String s, int k) {
 		Stack<Integer[]> stack = new Stack<>();
@@ -84,4 +84,4 @@ class Solution {
 	}
 
 }
-```
+// ```

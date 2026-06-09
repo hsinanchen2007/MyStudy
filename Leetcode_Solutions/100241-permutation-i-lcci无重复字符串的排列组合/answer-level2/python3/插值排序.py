@@ -1,5 +1,5 @@
-#思路如提示，假如有旧组合qw，新字母e就可以插在前中后三个位置组成新组合
-```
+# #思路如提示，假如有旧组合qw，新字母e就可以插在前中后三个位置组成新组合
+# ```
 class Solution(object):
     def permutation(self, S):
         result = [S[0]]   #一个字母时
@@ -11,4 +11,4 @@ class Solution(object):
             result = m  #生成新的组合
         return result
 
-```
+# ```

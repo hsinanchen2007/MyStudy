@@ -1,17 +1,17 @@
-# 解法五：
-![截屏2019-11-04下午2.33.19.png](https://pic.leetcode-cn.com/a4de1c06aeb88171982f58ccc825989eaf4d0e52790fd560cfde7821ecd81b42-%E6%88%AA%E5%B1%8F2019-11-04%E4%B8%8B%E5%8D%882.33.19.png)
+// # 解法五：
+// ![截屏2019-11-04下午2.33.19.png](https://pic.leetcode-cn.com/a4de1c06aeb88171982f58ccc825989eaf4d0e52790fd560cfde7821ecd81b42-%E6%88%AA%E5%B1%8F2019-11-04%E4%B8%8B%E5%8D%882.33.19.png)
 
-#### 解法一：二分查找法
-+ 时间复杂度：
-  + $$O\log(n)$$
-+ 类似题型
-  1. [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/33-sou-suo-xuan-zhuan-pai-xu-shu-zu-by-alexer-660/)  
-  2. [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/solution/69-x-de-ping-fang-gen-by-alexer-660/)
-  3. [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/153-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-z-4/) 
-  4. [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/solution/154-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-z-3/)
-+ 简便二分法模板，公式不多说
-    + java
-      ```java
+// #### 解法一：二分查找法
+// + 时间复杂度：
+//   + $$O\log(n)$$
+// + 类似题型
+//   1. [33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/33-sou-suo-xuan-zhuan-pai-xu-shu-zu-by-alexer-660/)  
+//   2. [69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/solution/69-x-de-ping-fang-gen-by-alexer-660/)
+//   3. [153. 寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/solution/153-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-z-4/) 
+//   4. [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/solution/154-xun-zhao-xuan-zhuan-pai-xu-shu-zu-zhong-de-z-3/)
+// + 简便二分法模板，公式不多说
+//     + java
+//       ```java
       public int bsearch(int[] a, int n, int value) {
         int low = 0;
         int high = n - 1;
@@ -29,9 +29,9 @@
 
         return -1;
       }
-      ```  
-    + python
-      ```python
+//       ```  
+//     + python
+//       ```python
       left, right = 0, len(array) - 1 
       while left <= right: 
           mid = (left + right) / 2 
@@ -42,9 +42,9 @@
               left = mid + 1 
           else: 
               right = mid - 1
-      ```   
-+ 代码如下         
-    ```javascript
+//       ```   
+// + 代码如下         
+//     ```javascript
     /**
      * @param {number} num
      * @return {boolean}
@@ -66,10 +66,10 @@
         }
         return false;
     };
-    ```
-#### 解法二：牛顿迭代法
-+ 参考[69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/solution/69-x-de-ping-fang-gen-by-alexer-660/)
-```javascript
+//     ```
+// #### 解法二：牛顿迭代法
+// + 参考[69. x 的平方根](https://leetcode-cn.com/problems/sqrtx/solution/69-x-de-ping-fang-gen-by-alexer-660/)
+// ```javascript
 /**
  * @param {number} num
  * @return {boolean}
@@ -84,11 +84,11 @@ var isPerfectSquare = function(num) {
     }
     return num*num == tmp;
 };
-```
-+ 优化+1
-  + 上述代码会超时
-  + 使用位运算如下 
-```javascript
+// ```
+// + 优化+1
+//   + 上述代码会超时
+//   + 使用位运算如下 
+// ```javascript
 /**
  * @param {number} num
  * @return {boolean}
@@ -103,14 +103,14 @@ var isPerfectSquare = function(num) {
     }
     return num*num == tmp;
 };
-```
-#### 解法三：数学定理
-+ 时间复杂度： 
-  + $$O(\sqrt{n})$$
-+ 等差数列
-  + 任意一个平方数都可以表示出下面的奇数序列和
-    + $$1+3+5+7+...+(2N-1) = N^2$$  
-```javascript
+// ```
+// #### 解法三：数学定理
+// + 时间复杂度： 
+//   + $$O(\sqrt{n})$$
+// + 等差数列
+//   + 任意一个平方数都可以表示出下面的奇数序列和
+//     + $$1+3+5+7+...+(2N-1) = N^2$$  
+// ```javascript
 /**
  * @param {number} num
  * @return {boolean}
@@ -126,15 +126,15 @@ var isPerfectSquare = function(num) {
     }
     return num == 0;
 };
-```
-#### 解法四：暴力法
-+ 时间复杂度：
-  + $$O(\sqrt{n})$$
-+ 迭代判断一个累加的数的平方是否到了num的边界
-  + 直到大于等于原值
-    + 当它的平方等于num时，即为所求
-    + 否则，不是
-```javascript
+// ```
+// #### 解法四：暴力法
+// + 时间复杂度：
+//   + $$O(\sqrt{n})$$
+// + 迭代判断一个累加的数的平方是否到了num的边界
+//   + 直到大于等于原值
+//     + 当它的平方等于num时，即为所求
+//     + 否则，不是
+// ```javascript
 /**
  * @param {number} num
  * @return {boolean}
@@ -149,9 +149,9 @@ var isPerfectSquare = function(num) {
     }
     return tmp*tmp == num;
 };
-```
-#### 解法五：位运算
-```javascript
+// ```
+// #### 解法五：位运算
+// ```javascript
 /**
  * @param {number} num
  * @return {boolean}
@@ -168,4 +168,4 @@ var isPerfectSquare = function(num) {
     }
     return root*root == num;
 };
-```
+// ```

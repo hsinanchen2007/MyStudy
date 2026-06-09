@@ -1,13 +1,13 @@
-### 解题思路
-front：指向队列头部第 1 个有效数据的位置；
-rear：指向队列尾部（即最后 1 个有效数据）的下一个位置，即下一个从队尾入队元素的位置。
-避免“队列为空”和“队列为满”的判别条件冲突：
-判别队列为空的条件是：front == rear;
-判别队列为满的条件是：(rear + 1) % capacity == front;
+// ### 解题思路
+// front：指向队列头部第 1 个有效数据的位置；
+// rear：指向队列尾部（即最后 1 个有效数据）的下一个位置，即下一个从队尾入队元素的位置。
+// 避免“队列为空”和“队列为满”的判别条件冲突：
+// 判别队列为空的条件是：front == rear;
+// 判别队列为满的条件是：(rear + 1) % capacity == front;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyCircularDeque {
 
     private int cap;
@@ -103,4 +103,4 @@ class MyCircularDeque {
  * boolean param_7 = obj.isEmpty();
  * boolean param_8 = obj.isFull();
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历字符串，碰到大写字母+32再强转，别问为什么
+// ### 解题思路
+// 遍历字符串，碰到大写字母+32再强转，别问为什么
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String toLowerCase(String str) {
     	if (str==null) {
@@ -20,4 +20,4 @@ class Solution {
 		return stringBuilder.toString();
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var minIncrementForUnique = function(A) {
   if (A.length === 0) {
     return 0
@@ -31,4 +31,4 @@ var minIncrementForUnique = function(A) {
   }
   return res
 };
-```
+// ```

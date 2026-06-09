@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDepthAfterSplit(self, seq: str) -> List[int]:
         ans = []
@@ -25,4 +25,4 @@ class Solution:
                 ans.append((len(q)+1)%2)
         return ans
 
-```
+# ```

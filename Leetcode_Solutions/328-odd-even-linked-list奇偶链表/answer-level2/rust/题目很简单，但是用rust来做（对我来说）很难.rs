@@ -1,11 +1,11 @@
-### 解题思路
-思路没什么好说的，但是用Rust来实现对链表对操作真的让人头大。本来想在题解中抄个答案，都没找到Rust的实现，所以这里补一个。
+// ### 解题思路
+// 思路没什么好说的，但是用Rust来实现对链表对操作真的让人头大。本来想在题解中抄个答案，都没找到Rust的实现，所以这里补一个。
 
 
 
-### 代码
-搞了半天，连编译都通不过，最后只能退而求其次用naive的解法来做：
-```rust
+// ### 代码
+// 搞了半天，连编译都通不过，最后只能退而求其次用naive的解法来做：
+// ```rust
 impl Solution {
     pub fn odd_even_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut odd = vec![];
@@ -40,9 +40,9 @@ impl Solution {
         cur
     }
 }
-```
-通过了之后看到别的大佬提交的代码，才知道原来O(1) space的解法应该怎样写。也整理如下：
-```rust
+// ```
+// 通过了之后看到别的大佬提交的代码，才知道原来O(1) space的解法应该怎样写。也整理如下：
+// ```rust
 impl Solution {
     pub fn odd_even_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut dummy_list1 = Some(Box::new(ListNode::new(0)));
@@ -69,6 +69,6 @@ impl Solution {
         dummy_list1.unwrap().next
     }
 }
-```
+// ```
 
-PS：虽然我naive的解法看起来会比O(1) space的解法慢很多，但是提交后两者通过时间都是0ms，嗯，不愧是Rust。
+// PS：虽然我naive的解法看起来会比O(1) space的解法慢很多，但是提交后两者通过时间都是0ms，嗯，不愧是Rust。

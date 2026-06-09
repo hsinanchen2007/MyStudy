@@ -1,8 +1,8 @@
-思路：
-1：遍历两个链表分别记录链表长度
-2：长链表的指针往后移动，直到两个链表长度一致
-3：两个链表的指针同时后移，直到遇到相同节点
-```
+// 思路：
+// 1：遍历两个链表分别记录链表长度
+// 2：长链表的指针往后移动，直到两个链表长度一致
+// 3：两个链表的指针同时后移，直到遇到相同节点
+// ```
 public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null){
             return null;
@@ -32,4 +32,4 @@ public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         }
         return curA;
     }
-```
+// ```

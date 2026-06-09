@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/95e0ed5cbc7e99eff07544907b5d868a63742e725f900dee38a8c5102851128e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/95e0ed5cbc7e99eff07544907b5d868a63742e725f900dee38a8c5102851128e-image.png)
 
-```
+// ```
 int cmp(const void *a, const void *b)
 {
     return strlen(*(char **)b) - strlen(*(char **)a);
@@ -78,4 +78,4 @@ int minimumLengthEncoding(char ** words, int wordsSize)
 
     return returnValue;
 }
-```
+// ```

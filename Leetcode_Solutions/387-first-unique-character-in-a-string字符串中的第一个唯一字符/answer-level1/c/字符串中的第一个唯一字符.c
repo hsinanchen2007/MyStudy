@@ -1,5 +1,5 @@
-**用一个数组保存s中每个字符的出现次数，然后遍历时输出第一个次数为1的索引即可。**
-```c
+// **用一个数组保存s中每个字符的出现次数，然后遍历时输出第一个次数为1的索引即可。**
+// ```c
 int firstUniqChar(char * s){
     int i, len = strlen(s);
     int p[26];
@@ -14,4 +14,4 @@ int firstUniqChar(char * s){
     }
     return -1;
 }
-```
+// ```

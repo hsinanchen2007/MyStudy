@@ -1,4 +1,4 @@
-```
+// ```
 class HitCounter {
 
     function __construct() {
@@ -16,4 +16,4 @@ class HitCounter {
         return count($this->queue);
     }
 }
-```
+// ```

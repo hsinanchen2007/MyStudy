@@ -1,11 +1,11 @@
-动态规划自底向上推理。设dp[i][j]表示从位置(i,j)处开始走到公主位置，所需要的体力。
-则有两种路径到达(i,j)：从(i+1,j)或者从(i,j+1)。
-如果当前dungeon[i][j]魔法值大于dp[i+1][j]则(i,j)处需要0体力即可，另一个类似；
-如果当前dungeon[i][j]小于零，则(i,j)处需要-dungeon[i][j]+dp[i+1][j]体力，另一个类似。
-注意体力和魔法值的正负情况，可以合并为dp[i][j]=max(0,min(dp[i+1][j],dp[i][j+1])-dungeon[i][j]).
-最后，要保证勇者体力始终大于0。
-很容易写出下面动态规划代码：
-```
+// 动态规划自底向上推理。设dp[i][j]表示从位置(i,j)处开始走到公主位置，所需要的体力。
+// 则有两种路径到达(i,j)：从(i+1,j)或者从(i,j+1)。
+// 如果当前dungeon[i][j]魔法值大于dp[i+1][j]则(i,j)处需要0体力即可，另一个类似；
+// 如果当前dungeon[i][j]小于零，则(i,j)处需要-dungeon[i][j]+dp[i+1][j]体力，另一个类似。
+// 注意体力和魔法值的正负情况，可以合并为dp[i][j]=max(0,min(dp[i+1][j],dp[i][j+1])-dungeon[i][j]).
+// 最后，要保证勇者体力始终大于0。
+// 很容易写出下面动态规划代码：
+// ```
 class Solution {
 public:
 	int calculateMinimumHP(vector<vector<int>>& dungeon) {
@@ -24,9 +24,9 @@ public:
 		return dp[0][0]+1;
 	}
 };
-```
-注意上面两层for循环内部，down需要的状态仅与上一层循环有关，可以进行行状态压缩，如下：
-```
+// ```
+// 注意上面两层for循环内部，down需要的状态仅与上一层循环有关，可以进行行状态压缩，如下：
+// ```
 class Solution {
 public:
 	int calculateMinimumHP(vector<vector<int>>& dungeon) {
@@ -44,5 +44,5 @@ public:
 		return dp[0]+1;
 	}
 };
-```
+// ```
 

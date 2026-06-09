@@ -1,8 +1,8 @@
-### 解题思路
-我觉得考虑0是很正常的啊，五分钟就搞定了
-### 代码
+// ### 解题思路
+// 我觉得考虑0是很正常的啊，五分钟就搞定了
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numDecodings(string s) {
@@ -19,4 +19,4 @@ public:
         return a[n];
     }
 };
-```
+// ```

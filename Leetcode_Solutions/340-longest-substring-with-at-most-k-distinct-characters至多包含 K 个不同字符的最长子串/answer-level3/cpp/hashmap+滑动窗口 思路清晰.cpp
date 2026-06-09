@@ -1,9 +1,9 @@
-### 解题思路
-hashmap+滑动窗口
-不明白的可以在评论留言，一起讨论。
-### 代码
+// ### 解题思路
+// hashmap+滑动窗口
+// 不明白的可以在评论留言，一起讨论。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLongestSubstringKDistinct(string s, int k) {
@@ -32,4 +32,4 @@ public:
         return maxLen;
     }
 };
-```
+// ```

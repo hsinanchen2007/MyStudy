@@ -1,9 +1,9 @@
-### 解题思路
-这样做比较没技术含量，唯一要注意一下pop或者top时判断队列是否为空。
+# ### 解题思路
+# 这样做比较没技术含量，唯一要注意一下pop或者top时判断队列是否为空。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -51,4 +51,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

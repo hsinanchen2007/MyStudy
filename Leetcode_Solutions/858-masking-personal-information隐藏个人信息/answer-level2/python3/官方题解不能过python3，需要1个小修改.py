@@ -1,9 +1,9 @@
-### format使用
+# ### format使用
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maskPII(self, S: str) -> str:
         if "@" in S:
@@ -14,4 +14,4 @@ class Solution:
         if len(digits) ==10:
             return local
         return "+{}-".format("*"*(len(digits)-10))+local
-```
+# ```

@@ -1,15 +1,15 @@
 
-### 思路
+# ### 思路
 
-简单的双指针问题，$i$指向A待排序的末尾，$j$指向B中待排序的末尾。注意处理特殊情况即可。
-因为至多只扫描m+n个元素，所以时间复杂度为$O(m+n)$。只储存$i$和$j$两个指针，所以空间复杂度$O(1)$。
+# 简单的双指针问题，$i$指向A待排序的末尾，$j$指向B中待排序的末尾。注意处理特殊情况即可。
+# 因为至多只扫描m+n个元素，所以时间复杂度为$O(m+n)$。只储存$i$和$j$两个指针，所以空间复杂度$O(1)$。
 
-![image.png](https://pic.leetcode-cn.com/9e7041c4267282df8da876eb24a54fc53cb34639fede170dfb8306f4690e4267-image.png)
+# ![image.png](https://pic.leetcode-cn.com/9e7041c4267282df8da876eb24a54fc53cb34639fede170dfb8306f4690e4267-image.png)
 
-### 代码
+# ### 代码
 
 
-```python []
+# ```python []
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -29,7 +29,7 @@ class Solution:
                 A[index] = B[j]
                 j -= 1 # 更新j
             index -= 1 # 更新插入的索引
-```
+# ```
 
 
 

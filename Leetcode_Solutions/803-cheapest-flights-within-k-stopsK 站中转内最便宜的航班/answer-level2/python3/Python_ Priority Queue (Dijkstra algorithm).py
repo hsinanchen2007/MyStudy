@@ -1,9 +1,9 @@
-### 解题思路
-此题于 dijkstra algorithm 十分相似，唯一的不同是规定了经停数量。所以我们要做的是在确保还能经停的情况下，才能往优先队列里放。
+# ### 解题思路
+# 此题于 dijkstra algorithm 十分相似，唯一的不同是规定了经停数量。所以我们要做的是在确保还能经停的情况下，才能往优先队列里放。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 import queue
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
@@ -22,4 +22,4 @@ class Solution:
                 for t in dic.get(f, []):
                     q.put((pre + dic[f][t], t, k-1))
         return -1
-```
+# ```

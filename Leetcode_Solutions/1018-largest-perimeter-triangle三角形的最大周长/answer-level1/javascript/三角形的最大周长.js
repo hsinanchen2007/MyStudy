@@ -1,6 +1,6 @@
-先排序
+// 先排序
 
-```js
+// ```js
 var largestPerimeter = function(A) {
     A.sort((a, b) => a - b)
     let n = A.length;
@@ -11,4 +11,4 @@ var largestPerimeter = function(A) {
     }
     return 0
 };
-```
+// ```

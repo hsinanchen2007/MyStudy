@@ -1,11 +1,11 @@
-### 解题思路
-可以进行两遍遍历：
-第一遍记录有多少节点
-第二遍找到中间节点
+# ### 解题思路
+# 可以进行两遍遍历：
+# 第一遍记录有多少节点
+# 第二遍找到中间节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
         return node
             
 
-```
+# ```

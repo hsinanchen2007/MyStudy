@@ -1,10 +1,10 @@
-### 解题思路1
-**使用map**
-第一轮循环让map中的value值存储nums1中对应key值的元素数量，第二轮循环遍历num2中的元素，如果map中此时key为i对应的value大于等于1,即为交集元素，加入存储答案的vector中
+// ### 解题思路1
+// **使用map**
+// 第一轮循环让map中的value值存储nums1中对应key值的元素数量，第二轮循环遍历num2中的元素，如果map中此时key为i对应的value大于等于1,即为交集元素，加入存储答案的vector中
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
@@ -22,13 +22,13 @@ public:
        return res;
     }
 };
-```
-### 解题思路2
-**排序+双指针**
+// ```
+// ### 解题思路2
+// **排序+双指针**
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
@@ -53,5 +53,5 @@ public:
        return res;
     }
 };
-```
+// ```
 

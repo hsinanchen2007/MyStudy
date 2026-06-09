@@ -1,9 +1,9 @@
-### 解题思路
-在偶数位置判断奇偶性。
+# ### 解题思路
+# 在偶数位置判断奇偶性。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def sortArrayByParityII(self, A):
         odd = 1
@@ -13,5 +13,5 @@ class Solution(object):
                     odd += 2
                 A[i], A[odd] = A[odd], A[i]
         return A
-```
-### 结果200ms，排名93%
+# ```
+# ### 结果200ms，排名93%

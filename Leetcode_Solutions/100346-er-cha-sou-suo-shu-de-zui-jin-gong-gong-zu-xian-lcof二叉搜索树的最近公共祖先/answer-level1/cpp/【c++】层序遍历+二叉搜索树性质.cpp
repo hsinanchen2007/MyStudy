@@ -1,11 +1,11 @@
-## 解题思路
-先确保p.val < q.val
-再层序遍历，返回第一个满足下述条件的节点tmp
-+ p.val < tmp.val < q.val
-+ p.val == tmp.val < q.val
-+ p.val < tmp.val == q.val
-## 代码
-```
+// ## 解题思路
+// 先确保p.val < q.val
+// 再层序遍历，返回第一个满足下述条件的节点tmp
+// + p.val < tmp.val < q.val
+// + p.val == tmp.val < q.val
+// + p.val < tmp.val == q.val
+// ## 代码
+// ```
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -33,4 +33,4 @@ public:
         return NULL;
     }
 };
-```
+// ```

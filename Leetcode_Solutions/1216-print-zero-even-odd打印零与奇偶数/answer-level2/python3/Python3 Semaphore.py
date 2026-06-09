@@ -1,4 +1,4 @@
-```
+# ```
 import threading
 
 class ZeroEvenOdd:
@@ -24,4 +24,4 @@ class ZeroEvenOdd:
             self.s[1].acquire()
             printNumber(i)
             self.s[2].release()
-```
+# ```

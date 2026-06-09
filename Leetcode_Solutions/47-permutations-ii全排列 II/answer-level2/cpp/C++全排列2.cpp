@@ -1,5 +1,5 @@
-哈哈，全排列和全排列2一样的代码
-```
+// 哈哈，全排列和全排列2一样的代码
+// ```
 class Solution {
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) {
@@ -11,4 +11,4 @@ public:
         return ans;
     }
 };
-```
+// ```

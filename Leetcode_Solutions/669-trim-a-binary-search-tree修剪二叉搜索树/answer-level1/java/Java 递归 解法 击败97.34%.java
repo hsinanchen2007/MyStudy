@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/90c5d48950cb77889b54899e1ade1ff43d4f7ea7e845b2d3968b7475d16febe6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/90c5d48950cb77889b54899e1ade1ff43d4f7ea7e845b2d3968b7475d16febe6-image.png)
 
-直接上代码：
-首先，注意二叉搜索树的特性，左子树均小于根节点，右子树均大于根节点
-```
+// 直接上代码：
+// 首先，注意二叉搜索树的特性，左子树均小于根节点，右子树均大于根节点
+// ```
 public TreeNode trimBST(TreeNode root, int L, int R) {
     if (root == null) return null;
     root.left = trimBST(root.left,L,R);
@@ -15,5 +15,5 @@ public TreeNode trimBST(TreeNode root, int L, int R) {
         return  root;
     }
 }
-```
+// ```
 

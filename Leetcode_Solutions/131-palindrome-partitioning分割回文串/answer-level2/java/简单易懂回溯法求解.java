@@ -1,9 +1,9 @@
-### 解题思路
-从字符串头部开始，每次截取字符串中存在的回文，通过回溯法进行求解。
+// ### 解题思路
+// 从字符串头部开始，每次截取字符串中存在的回文，通过回溯法进行求解。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<String>> partition(String s) {
         ArrayList<List<String>> result = new ArrayList<List<String>>();
@@ -46,4 +46,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

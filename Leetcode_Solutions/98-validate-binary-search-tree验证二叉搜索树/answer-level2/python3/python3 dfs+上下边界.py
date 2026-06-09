@@ -1,9 +1,9 @@
-### 解题思路
-用一次深度优先搜索来遍历所有的节点，同时将该节点的上下界限传递进去，时间复杂度O(N)
+# ### 解题思路
+# 用一次深度优先搜索来遍历所有的节点，同时将该节点的上下界限传递进去，时间复杂度O(N)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
 
 
         
-```
+# ```

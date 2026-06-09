@@ -1,11 +1,11 @@
-### 解题思路
-对问题分情况讨论
-每种情况 都有最优递归结构存在
+// ### 解题思路
+// 对问题分情况讨论
+// 每种情况 都有最优递归结构存在
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 
 using VT = System.ValueTuple<int, int>;
 class JobDiff{
@@ -78,4 +78,4 @@ public class Solution {
         return jd.MinDifficulty(jobDifficulty, d);
     }
 }
-```
+// ```

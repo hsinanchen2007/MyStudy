@@ -1,16 +1,16 @@
-#F1
+// #F1
 
-##思路
+// ##思路
 
-```
+// ```
 1. string --> []byte
 2. 计算最大、最小数组
 3. 反转
 4. 计算 按照最大[]的计算（最小[]的不足，补0）
 5. 反转
-```
+// ```
 
-```
+// ```
 func reverse(nums []byte)  {
 	for i:=0;i<len(nums)/2;i++  {
 		nums[i],nums[len(nums)-i-1] = nums[len(nums)-i-1],nums[i]
@@ -52,5 +52,5 @@ func addStrings(num1 string, num2 string) string {
 	reverse(maxSlice)
 	return string(maxSlice)
 }
-```
+// ```
 

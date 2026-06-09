@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1 、先找最短字符串长度
-2、 双循环遍历，利用set
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1 、先找最短字符串长度
+// 2、 双循环遍历，利用set
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         StringBuilder res = new StringBuilder();
@@ -29,4 +29,4 @@ class Solution {
         return res.toString();
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 //中序遍历
 func isValidBST(root *TreeNode) bool {
 	inorder := math.MinInt64
@@ -18,9 +18,9 @@ func isValidBST(root *TreeNode) bool {
 	return true
 }
 
-```
+// ```
 
-```
+// ```
 //递归
 func isValidBST(root *TreeNode) bool {
 	return dfsisValidBST(root, math.MinInt64, math.MaxInt64)
@@ -29,5 +29,5 @@ func isValidBST(root *TreeNode) bool {
 func dfsisValidBST(root *TreeNode, low, up int) bool {
 	return root == nil || low < root.Val && root.Val < up && dfsisValidBST(root.Left, low, root.Val) && dfsisValidBST(root.Right, root.Val, up)
 }
-```
+// ```
 

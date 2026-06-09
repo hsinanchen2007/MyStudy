@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //https://blog.csdn.net/lengxiao1993/article/details/52303492
 
 #define max(x,y) (x > y ? x : y)
@@ -18,4 +18,4 @@ int maxSubArray(int* nums, int numsSize){
     }
     return max_so_far;
 }
-```
+// ```

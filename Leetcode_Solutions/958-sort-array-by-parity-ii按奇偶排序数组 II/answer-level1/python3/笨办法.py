@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sortArrayByParityII(self, A: List[int]) -> List[int]:
         new_arry = []
@@ -10,4 +10,4 @@ class Solution:
             elif i % 2 != 0:
                 new_arry.append(Ji_num.pop())  # #注意这里不能用new_arry[i] = Ou_num.pop()
         return new_arry
-```
+# ```

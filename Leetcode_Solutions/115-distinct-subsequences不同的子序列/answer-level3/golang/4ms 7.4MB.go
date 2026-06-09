@@ -1,18 +1,18 @@
-### 解题思路
+// ### 解题思路
 
-dp【m】【n】表示 s的前m个字符串 包含 t的前n个字符串的个数
+// dp【m】【n】表示 s的前m个字符串 包含 t的前n个字符串的个数
 
-```golang
+// ```golang
 			if s[i-1] != t[j-1] { //如果s的第i个字符和t的第j个字符不同，那么s删去第i个字符
 				dp[i&1][j] = dp[(i+1)&1][j]
 			} else {
 				// 如果s的第i个字符和t的第j个字符相同，那么就要考虑 s删去第i个字符的情况，s和t都删去这个字符的情况
 				dp[i&1][j] = dp[(i+1)&1][j-1] + dp[(i+1)&1][j]
 			}
-```
-### 代码
+// ```
+// ### 代码
 
-```golang
+// ```golang
 func numDistinct(s string, t string) int {
 	tLen := len(t)
 	if tLen == 0 {
@@ -46,4 +46,4 @@ func numDistinct(s string, t string) int {
 	return dp[sLen&1][tLen]
 
 }
-```
+// ```

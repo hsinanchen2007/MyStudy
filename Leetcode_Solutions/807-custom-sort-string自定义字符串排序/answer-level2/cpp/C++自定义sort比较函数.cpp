@@ -1,6 +1,6 @@
-以写结构体，重载 () 的方式自定义 sort 的比较函数。结构体内部可以维护从 S 获得的字典序信息
+// 以写结构体，重载 () 的方式自定义 sort 的比较函数。结构体内部可以维护从 S 获得的字典序信息
 
-```C++
+// ```C++
 class Solution {
 public:
     string customSortString(string S, string T) {
@@ -28,4 +28,4 @@ private:
     };
 };
 
-```
+// ```

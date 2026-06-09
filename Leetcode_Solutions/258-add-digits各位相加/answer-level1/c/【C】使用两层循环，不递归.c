@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int addDigits(int num){
     int res=0;
     while(num>=10)
@@ -20,4 +20,4 @@ int addDigits(int num){
     return num;
 
 }
-```
+// ```

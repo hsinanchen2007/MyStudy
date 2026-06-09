@@ -1,4 +1,4 @@
-```
+// ```
 public int lengthOfLongestSubstringKDistinct(String s, int k) {
         int[] a = new int[128];
         int j =0;
@@ -19,4 +19,4 @@ public int lengthOfLongestSubstringKDistinct(String s, int k) {
         }
         return res;
     }
-```
+// ```

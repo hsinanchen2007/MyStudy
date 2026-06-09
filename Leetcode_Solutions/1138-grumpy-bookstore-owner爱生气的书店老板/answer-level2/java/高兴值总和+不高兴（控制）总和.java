@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSatisfied(int[] customers, int[] grumpy, int X) {
         int res = 0;int value = 0,getMax = 0;
@@ -21,4 +21,4 @@ class Solution {
         return res+getMax;
     }
 }
-```
+// ```

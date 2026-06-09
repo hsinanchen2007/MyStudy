@@ -1,6 +1,6 @@
-純 C 實現，不對原字符串做修改，返回字符串全部分配堆內存，保證返回值行爲的一致性
+// 純 C 實現，不對原字符串做修改，返回字符串全部分配堆內存，保證返回值行爲的一致性
 
-```c
+// ```c
 char * strCopy(char * s, int start, int end) {
     // 從原字符串 s 拷貝索引 [start, end) 之間的字符到新字符串
     int len = end - start;
@@ -47,4 +47,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     }
     return strCopy(*strs, 0, offset);
 }
-```
+// ```

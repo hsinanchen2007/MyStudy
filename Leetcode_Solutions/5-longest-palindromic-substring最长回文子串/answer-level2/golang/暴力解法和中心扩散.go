@@ -1,5 +1,5 @@
-暴力解法
-```
+// 暴力解法
+// ```
 func isPalindrome(s string) bool {
 
 	length := len(s)
@@ -57,10 +57,10 @@ func longestPalindrome(s string) string {
 
 	return longestStr
 }
-```
+// ```
 
-中心扩散
-```
+// 中心扩散
+// ```
 func longestPalindrome(s string) string {
 	length := len(s)
 
@@ -92,5 +92,5 @@ func expandAroundCenter(s string, length int, left int, right int) (int, int) {
 	//fmt.Println("=================", left, right, "|", L, R, "|", s, s[L+1:R])
 	return L, R
 }
-```
+// ```
 

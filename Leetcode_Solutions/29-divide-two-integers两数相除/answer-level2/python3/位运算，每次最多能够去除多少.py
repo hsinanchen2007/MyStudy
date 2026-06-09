@@ -1,13 +1,13 @@
-### 解题思路
+# ### 解题思路
 
-直接一个一个减会超时，可以使用移位操作，每次看最多能够减掉多少
+# 直接一个一个减会超时，可以使用移位操作，每次看最多能够减掉多少
 
-时间复杂度`O(1)` 空间复杂度`O(1)`
+# 时间复杂度`O(1)` 空间复杂度`O(1)`
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         if dividend == 0:
@@ -38,4 +38,4 @@ class Solution:
             if res > (1 << 31) - 1:
                 return (1 << 31) - 1
             return res
-```
+# ```

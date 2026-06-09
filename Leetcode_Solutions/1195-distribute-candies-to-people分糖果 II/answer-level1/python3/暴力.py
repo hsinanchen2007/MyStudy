@@ -1,6 +1,6 @@
-最直观的方法是不断地遍历数组，如果还有糖就一直分，直到没有糖为止
+# 最直观的方法是不断地遍历数组，如果还有糖就一直分，直到没有糖为止
 
-``` python
+# ``` python
 
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
@@ -17,7 +17,7 @@ class Solution:
         return res
 
 
-```
+# ```
 
 
 

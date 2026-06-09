@@ -1,9 +1,9 @@
-### 解题思路
-//n 与 n-1 相与每次向右移动一位
+// ### 解题思路
+// //n 与 n-1 相与每次向右移动一位
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
@@ -16,4 +16,4 @@ public class Solution {
         return count;
     }
 }
-```
+// ```

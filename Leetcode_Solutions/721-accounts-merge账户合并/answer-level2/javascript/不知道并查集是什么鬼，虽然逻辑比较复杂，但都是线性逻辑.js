@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string[][]} accounts
  * @return {string[][]}
@@ -43,4 +43,4 @@ function union(array,from,to){
         if(array[i] === from) array[i] = to
     }
 }
-```
+// ```

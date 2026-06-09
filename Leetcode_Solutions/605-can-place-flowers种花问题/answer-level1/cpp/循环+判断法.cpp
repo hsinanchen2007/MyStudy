@@ -1,5 +1,5 @@
-C++使用while循环+if判断
-```
+// C++使用while循环+if判断
+// ```
 class Solution
 {
 public:
@@ -21,4 +21,4 @@ public:
         return n == 0; // 因为前面while循环加了条件限制n必须不为0，所以结束后n必然>=0
     }
 };
-```
+// ```

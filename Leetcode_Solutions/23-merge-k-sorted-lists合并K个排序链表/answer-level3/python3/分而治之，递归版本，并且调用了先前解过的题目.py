@@ -1,9 +1,9 @@
-### 解题思路
-0，1，2，个的时候可以直接处理出结果，3个以上的时候分成小规模，不断合并
+# ### 解题思路
+# 0，1，2，个的时候可以直接处理出结果，3个以上的时候分成小规模，不断合并
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -31,14 +31,14 @@ class Solution:
             return self.mergeTwoLists(self.mergeKLists(lists[:medium]),self.mergeKLists(lists[medium:]))
 
 
-```
-执行用时 :
-136 ms
-, 在所有 Python3 提交中击败了
-43.47%
-的用户
-内存消耗 :
-23.6 MB
-, 在所有 Python3 提交中击败了
-5.45%
-的用户
+# ```
+# 执行用时 :
+# 136 ms
+# , 在所有 Python3 提交中击败了
+# 43.47%
+# 的用户
+# 内存消耗 :
+# 23.6 MB
+# , 在所有 Python3 提交中击败了
+# 5.45%
+# 的用户

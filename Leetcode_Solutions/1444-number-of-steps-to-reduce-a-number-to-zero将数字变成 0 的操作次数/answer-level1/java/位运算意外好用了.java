@@ -1,9 +1,9 @@
-### 解题思路
-**如果只是判断是否为偶数,与(&)比取余(%)效率要好**
+// ### 解题思路
+// **如果只是判断是否为偶数,与(&)比取余(%)效率要好**
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numberOfSteps (int num) {
         int result=0;
@@ -19,4 +19,4 @@ class Solution {
         return --result;
     }
 }
-```
+// ```

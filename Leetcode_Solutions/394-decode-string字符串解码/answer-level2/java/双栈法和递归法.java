@@ -1,5 +1,5 @@
-1.双栈法
-```
+// 1.双栈法
+// ```
 class Solution {
     public String decodeString(String s) {    
         Stack<Integer> timesStack = new Stack<>();
@@ -36,9 +36,9 @@ class Solution {
         return res.toString();
     }
 }
-```
-2.递归法
-```
+// ```
+// 2.递归法
+// ```
 class Solution {
     
     class Data {
@@ -87,5 +87,5 @@ class Solution {
     
     
 }
-```
+// ```
 

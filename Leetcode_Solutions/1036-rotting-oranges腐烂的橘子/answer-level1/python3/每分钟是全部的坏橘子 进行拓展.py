@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def __init__(self):
         self.directions = [[0, 1], [1, 0], [0, -1], [-1, 0]]
@@ -45,4 +45,4 @@ class Solution:
                 # 新鲜橘子变为腐烂橘子
                 grid[ni][nj] = 2
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
       # if k == 0 or len(nums) == 1:
@@ -18,4 +18,4 @@ class Solution:
           j = i
           tmp = nums[j]
         count += 1
-```
+# ```

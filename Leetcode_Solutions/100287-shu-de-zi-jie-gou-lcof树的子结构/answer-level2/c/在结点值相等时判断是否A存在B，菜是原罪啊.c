@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ bool isSubStructure(struct TreeNode* A, struct TreeNode* B){
         if(is_eql(A,B)) return 1;
     return isSubStructure(A->left,B)||isSubStructure(A->right,B);
 }
-```
+// ```

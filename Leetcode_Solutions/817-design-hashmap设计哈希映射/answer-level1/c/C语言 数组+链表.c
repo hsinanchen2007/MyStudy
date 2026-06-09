@@ -1,11 +1,11 @@
-### 解题思路
-没什么特别的，一般实现
-![image.png](https://pic.leetcode-cn.com/51a59320dcc0201b22524b108b6de0a57e161c70f347a0f70b47ecfbccec2ee3-image.png)
+// ### 解题思路
+// 没什么特别的，一般实现
+// ![image.png](https://pic.leetcode-cn.com/51a59320dcc0201b22524b108b6de0a57e161c70f347a0f70b47ecfbccec2ee3-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define HASH_SIZE	1001
 struct MyListNode {
 	int key;
@@ -120,4 +120,4 @@ void myHashMapFree(MyHashMap* obj) {
  
  * myHashMapFree(obj);
 */
-```
+// ```

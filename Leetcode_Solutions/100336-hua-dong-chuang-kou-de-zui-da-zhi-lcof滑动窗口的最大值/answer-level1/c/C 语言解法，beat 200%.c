@@ -1,12 +1,12 @@
 
-![image.png](https://pic.leetcode-cn.com/6171e6d4a480a5c4e5a676f396dc8787721d4bc269d286216382c1f04fb5a015-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6171e6d4a480a5c4e5a676f396dc8787721d4bc269d286216382c1f04fb5a015-image.png)
 
-### 解题思路
-感谢大佬  [@labuladong](/u/labuladong/) 的讲解!
+// ### 解题思路
+// 感谢大佬  [@labuladong](/u/labuladong/) 的讲解!
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -45,4 +45,4 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize) {
 	free(queue);
 	return res;
 }
-```
+// ```

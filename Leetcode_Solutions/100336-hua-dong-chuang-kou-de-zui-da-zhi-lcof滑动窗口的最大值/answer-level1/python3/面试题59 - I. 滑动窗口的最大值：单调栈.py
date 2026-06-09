@@ -1,9 +1,9 @@
-### 解题思路
-单调栈
+# ### 解题思路
+# 单调栈
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         s = collections.deque()
@@ -15,4 +15,4 @@ class Solution:
                 yield s[0]
                 if nums[i - k] == s[0]:
                     s.popleft()
-```
+# ```

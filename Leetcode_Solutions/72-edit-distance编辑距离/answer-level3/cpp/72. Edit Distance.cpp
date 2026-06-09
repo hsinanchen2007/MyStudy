@@ -1,10 +1,10 @@
-### 解题思路
-DP。
-二维的状态表达式，一个维度描述一个字符串的状态。
+// ### 解题思路
+// DP。
+// 二维的状态表达式，一个维度描述一个字符串的状态。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -30,4 +30,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

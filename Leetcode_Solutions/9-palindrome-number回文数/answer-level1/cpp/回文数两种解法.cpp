@@ -1,5 +1,5 @@
-如下写法执行时间24ms
-```cpp
+// 如下写法执行时间24ms
+// ```cpp
 class Solution 
 {
 public:
@@ -21,28 +21,28 @@ public:
         return (x == y) || (x == y / 10);
     }
 };
-```
+// ```
 
-如下写法执行时间16ms
-class Solution 
-{
-public:
-    bool isPalindrome(int x) 
-    {
-        if(x < 0)
-        {
-            return false;
-        }
+// 如下写法执行时间16ms
+// class Solution 
+// {
+// public:
+//     bool isPalindrome(int x) 
+//     {
+//         if(x < 0)
+//         {
+//             return false;
+//         }
 
-        long long ox = x;
-        long long y = 0;
+//         long long ox = x;
+//         long long y = 0;
 
-        while(x > 0)
-        {
-            y = y * 10 + x % 10;
-            x /= 10;
-        }
+//         while(x > 0)
+//         {
+//             y = y * 10 + x % 10;
+//             x /= 10;
+//         }
 
-        return ox == y;
-    }
-};
+//         return ox == y;
+//     }
+// };

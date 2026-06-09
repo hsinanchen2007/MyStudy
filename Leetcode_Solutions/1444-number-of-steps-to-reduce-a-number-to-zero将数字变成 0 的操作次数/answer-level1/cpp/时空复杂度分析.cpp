@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度O(logn)
-空间复杂度O(1)
+// ### 解题思路
+// 时间复杂度O(logn)
+// 空间复杂度O(1)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOfSteps (int num) {
@@ -22,4 +22,4 @@ public:
         return step;
     }
 };
-```
+// ```

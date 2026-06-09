@@ -1,10 +1,10 @@
-### 解题思路
-这道题没啥难点，就是考虑两点
-1、如何保证循环，取余运算可以解决
-2、对最后一个小朋友分糖果注意一下就行
-### 代码
+// ### 解题思路
+// 这道题没啥难点，就是考虑两点
+// 1、如何保证循环，取余运算可以解决
+// 2、对最后一个小朋友分糖果注意一下就行
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -28,4 +28,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
     nums[index]=candies+nums[index];
     return nums;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-使用字典来记录元素出现的次数，然后使用gcd来计算是否存在某个不为1的x。
-为了效率，计算前过滤掉了如果某个元素唯一这种情况。
+# ### 解题思路
+# 使用字典来记录元素出现的次数，然后使用gcd来计算是否存在某个不为1的x。
+# 为了效率，计算前过滤掉了如果某个元素唯一这种情况。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         l = len(deck)
@@ -32,4 +32,4 @@ class Solution:
         if tmp < 2:
             return False
         return True
-```
+# ```

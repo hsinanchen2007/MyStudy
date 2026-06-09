@@ -1,4 +1,4 @@
-```python
+# ```python
 from functools import lru_cache
 class Solution:
     def findPaths(self, m: int, n: int, N: int, i: int, j: int) -> int:
@@ -13,4 +13,4 @@ class Solution:
                 pathNumber += getPathNumber(x, y, steps - 1)
             return int(pathNumber % mod)
         return getPathNumber(i, j, N)
-```
+# ```

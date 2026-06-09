@@ -1,13 +1,13 @@
-### 解题思路
-注意几点：
-1.题目没有明确是几个人交换，每个人的代号也不是按1,2,3...n排列的
-2.总余额为0
-3.暴力法虽然简便，但仍需提前处理余额表，这样会极大提升效率
+# ### 解题思路
+# 注意几点：
+# 1.题目没有明确是几个人交换，每个人的代号也不是按1,2,3...n排列的
+# 2.总余额为0
+# 3.暴力法虽然简便，但仍需提前处理余额表，这样会极大提升效率
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def __init__(self):
         self.mins = float("inf")
@@ -84,4 +84,4 @@ class Solution(object):
             j+=1
         self.Baolifa(surplus_a,surplus_b,ao,bo,s,count)
         return self.mins
-```
+# ```

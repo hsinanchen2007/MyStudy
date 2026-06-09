@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def triangleNumber(self, nums: List[int]) -> int:
         # won't exceed 1000
@@ -15,4 +15,4 @@ class Solution:
                 index = bisect.bisect_right(nums, a + b - 1) - 1
                 res += index - j
         return res
-```
+# ```

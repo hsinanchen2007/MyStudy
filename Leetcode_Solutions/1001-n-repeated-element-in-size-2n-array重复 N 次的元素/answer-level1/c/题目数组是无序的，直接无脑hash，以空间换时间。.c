@@ -1,4 +1,4 @@
-```
+// ```
 int repeatedNTimes(int* A, int ASize){
 
     int hash[10000]={0};
@@ -18,4 +18,4 @@ int repeatedNTimes(int* A, int ASize){
     return res;
     
 }
-```
+// ```

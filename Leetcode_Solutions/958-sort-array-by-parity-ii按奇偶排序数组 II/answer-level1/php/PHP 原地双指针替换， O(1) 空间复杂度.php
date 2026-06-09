@@ -1,4 +1,4 @@
-```php
+// ```php
 function sortArrayByParityII($a)
 {
     $count = count($a);
@@ -24,4 +24,4 @@ function sortArrayByParityII($a)
 
     return $a;
 }
-```
+// ```

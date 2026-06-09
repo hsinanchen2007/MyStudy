@@ -1,6 +1,6 @@
-执行用时 :56 ms, 在所有C++提交中击败了81.14%的用户
-内存消耗 :11.8 MB, 在所有C++提交中击败了84.24%的用户
-```
+// 执行用时 :56 ms, 在所有C++提交中击败了81.14%的用户
+// 内存消耗 :11.8 MB, 在所有C++提交中击败了84.24%的用户
+// ```
 class Solution {
 public:
     vector<vector<int>> matrixReshape(vector<vector<int>>& nums, int r, int c) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

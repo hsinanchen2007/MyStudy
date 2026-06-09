@@ -1,25 +1,25 @@
-1. 关于复杂度
-<br />&nbsp;1.1 时间复杂度为 $O(n)$
-<br />&nbsp;1.2 空间负责度为 $O(1)$
-2. 我的解题思路
-<br />&nbsp;2.1 我觉得这道题的关键是在 BST 上，中序遍历 BST 可以得到升序的数组，而这个意味着我们可以利用升序数组的特性进行解题
-<br />&nbsp;2.2 定义四个变量
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 list，用来存储最终结果
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 pre，上一个遍历的元素
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.3 cnt，当前元素重复的次数
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.4 max，当前最大的元素重复次数
-<br />&nbsp;2.3 传统中序遍历，只是遍历当前节点的值进行我们的众数的求解，分为两个情况
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.1 pre 等于当前节点的值，cnt 加 1
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.2 pre 不等于当前节点的值，cnt 置 1，pre 置为当前节点的值
-<br />&nbsp;2.4 对比 cnt 以及 max 的值，有两种情况
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.1 cnt=max，将 pre 加入到结果 list 中
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.2 cnt>max，新的众数诞生，清空当前 list，将 pre 加入到 list 中
-3. 提交记录
-<br />&nbsp;3.1 力扣中耗时 2ms,消耗 41.4MB 内存
-<br />&nbsp;3.2 leetcode 中耗时 1ms,消耗 37.8MB 内存
-4. Q&A
+// 1. 关于复杂度
+// <br />&nbsp;1.1 时间复杂度为 $O(n)$
+// <br />&nbsp;1.2 空间负责度为 $O(1)$
+// 2. 我的解题思路
+// <br />&nbsp;2.1 我觉得这道题的关键是在 BST 上，中序遍历 BST 可以得到升序的数组，而这个意味着我们可以利用升序数组的特性进行解题
+// <br />&nbsp;2.2 定义四个变量
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 list，用来存储最终结果
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 pre，上一个遍历的元素
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.3 cnt，当前元素重复的次数
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.4 max，当前最大的元素重复次数
+// <br />&nbsp;2.3 传统中序遍历，只是遍历当前节点的值进行我们的众数的求解，分为两个情况
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.1 pre 等于当前节点的值，cnt 加 1
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.2 pre 不等于当前节点的值，cnt 置 1，pre 置为当前节点的值
+// <br />&nbsp;2.4 对比 cnt 以及 max 的值，有两种情况
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.1 cnt=max，将 pre 加入到结果 list 中
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.2 cnt>max，新的众数诞生，清空当前 list，将 pre 加入到 list 中
+// 3. 提交记录
+// <br />&nbsp;3.1 力扣中耗时 2ms,消耗 41.4MB 内存
+// <br />&nbsp;3.2 leetcode 中耗时 1ms,消耗 37.8MB 内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     501. Find Mode in Binary Search Tree
@@ -101,6 +101,6 @@ class Solution {
         inOrder(root.right);
     }
 }
-```
+// ```
 
 

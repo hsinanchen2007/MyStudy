@@ -1,6 +1,6 @@
-利用两个指针，往中间收拢查找。
-10 分钟前	通过	8 ms	3.2 MB	golang
-```
+// 利用两个指针，往中间收拢查找。
+// 10 分钟前	通过	8 ms	3.2 MB	golang
+// ```
 func twoSum(numbers []int, target int) []int {
     alen := len(numbers)
     arr := make([]int, 0)
@@ -20,4 +20,4 @@ func twoSum(numbers []int, target int) []int {
     }
     return arr
 }
-```
+// ```

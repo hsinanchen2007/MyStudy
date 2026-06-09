@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def grayCode(self, n: int) -> List[int]:
         grayArray=[[0]]
@@ -18,4 +18,4 @@ class Solution:
                     grayArray[i].append(grayArray[i][count-1-j]+temp)
         return grayArray[n]
             
-```
+# ```

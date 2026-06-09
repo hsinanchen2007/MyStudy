@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int numSpecialEquivGroups(vector<string>& A) {
@@ -15,4 +15,4 @@ public:
         return s.size();
     }
 };
-```
+// ```

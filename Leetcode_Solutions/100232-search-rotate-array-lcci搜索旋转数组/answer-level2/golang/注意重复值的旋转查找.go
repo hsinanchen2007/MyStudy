@@ -1,6 +1,6 @@
-可以在查找之前先判断第一个元素是否为target，排除旋转的重复值如：[2,1,2,2]
+// 可以在查找之前先判断第一个元素是否为target，排除旋转的重复值如：[2,1,2,2]
 
-```
+// ```
   
 func search(arr []int, target int) int {
 	var left = 0
@@ -50,4 +50,4 @@ func search(arr []int, target int) int {
 
 
 
-```
+// ```

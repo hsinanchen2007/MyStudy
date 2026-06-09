@@ -1,4 +1,4 @@
-```
+// ```
 function threeSumClosest($nums, $target) {
     if(count($nums)<=3) return array_sum($nums);
     sort($nums);
@@ -29,4 +29,4 @@ function threeSumClosest($nums, $target) {
     }
     return $res;
 }
-```
+// ```

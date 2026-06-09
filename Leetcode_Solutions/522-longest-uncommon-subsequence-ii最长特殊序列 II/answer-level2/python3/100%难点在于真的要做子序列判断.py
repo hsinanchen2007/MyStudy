@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/c5cd4a78e6bec8aaed8852b4380f8c4e14ec46f3d266125fc693246b43209308-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c5cd4a78e6bec8aaed8852b4380f8c4e14ec46f3d266125fc693246b43209308-image.png)
 
-先按长度降序排词，然后字典化，从前往后遍历找数量唯一的词，然后再从看是否是比自己长的词的子序列，如果确定不是其他词的子序列就输出，反之继续
+# 先按长度降序排词，然后字典化，从前往后遍历找数量唯一的词，然后再从看是否是比自己长的词的子序列，如果确定不是其他词的子序列就输出，反之继续
 
-```
+# ```
 class Solution:
     def findLUSlength(self, strs: List[str]) -> int:
         strs.sort(key=lambda x:-len(x))
@@ -34,4 +34,4 @@ class Solution:
                     return len(i)
                 
         return -1
-```
+# ```

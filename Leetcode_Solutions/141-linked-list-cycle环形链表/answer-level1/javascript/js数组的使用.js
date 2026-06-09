@@ -1,8 +1,8 @@
-### javascript数组方法
+// ### javascript数组方法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -30,9 +30,9 @@ var hasCycle = function(head) {
     }
     return !bol;
 };
-```
-### 大神的作品：用set代替数组
-```
+// ```
+// ### 大神的作品：用set代替数组
+// ```
 var hasCycle = function (head) {
     let set = new Set()
     while (head != null) {
@@ -45,4 +45,4 @@ var hasCycle = function (head) {
     }
     return false
 };
-```
+// ```

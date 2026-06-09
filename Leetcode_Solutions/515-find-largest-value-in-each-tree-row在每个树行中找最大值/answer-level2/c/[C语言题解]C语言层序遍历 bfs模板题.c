@@ -1,12 +1,12 @@
-### 解题思路
-1. 先遍历求树的高度，对应开辟内存记录层数更新对应层数的值
+// ### 解题思路
+// 1. 先遍历求树的高度，对应开辟内存记录层数更新对应层数的值
 
-1. C语言层序遍历，bfs 上手的很好的一个题目，个人认为是模板级题目
-![image.png](https://pic.leetcode-cn.com/105ce0ffeb02206193db842770a1e83cbb9cd9c2521d779c15c7cacaedf837aa-image.png)
+// 1. C语言层序遍历，bfs 上手的很好的一个题目，个人认为是模板级题目
+// ![image.png](https://pic.leetcode-cn.com/105ce0ffeb02206193db842770a1e83cbb9cd9c2521d779c15c7cacaedf837aa-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -55,4 +55,4 @@ int* largestValues(struct TreeNode* root, int* returnSize){
 
 	return res;
 }
-```
+// ```

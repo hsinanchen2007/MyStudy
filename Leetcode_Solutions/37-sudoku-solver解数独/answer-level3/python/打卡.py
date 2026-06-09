@@ -1,15 +1,15 @@
-### 解题思路
-直接套用回溯法模板
-一、初始化
-二、找到返回条件
-三、找到进入条件
-四、使用
-五、递归
-六、回溯
+# ### 解题思路
+# 直接套用回溯法模板
+# 一、初始化
+# 二、找到返回条件
+# 三、找到进入条件
+# 四、使用
+# 五、递归
+# 六、回溯
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
         """
@@ -58,4 +58,4 @@ class Solution:
         else:
             return self.solveSudokuCore(board, rows, cols, boxes, row, col+1)
         return False
-```
+# ```

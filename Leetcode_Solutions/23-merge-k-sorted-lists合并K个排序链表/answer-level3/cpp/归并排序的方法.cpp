@@ -1,9 +1,9 @@
-### 解题思路
-利用归并排序的方法，先切片至只剩一个链表，再两两合并链表
+// ### 解题思路
+// 利用归并排序的方法，先切片至只剩一个链表，再两两合并链表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -54,4 +54,4 @@ public:
         return help(lists,0,lists.size() - 1);
     }
 };
-```
+// ```

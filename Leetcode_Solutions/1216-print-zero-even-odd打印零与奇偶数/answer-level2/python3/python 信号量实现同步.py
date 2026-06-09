@@ -1,9 +1,9 @@
-### 解题思路
-有几个线程就用几个信号量，最先开始的信号量初始化为1，其他初始化为0，然后根据条件判断实现同步
+# ### 解题思路
+# 有几个线程就用几个信号量，最先开始的信号量初始化为1，其他初始化为0，然后根据条件判断实现同步
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import threading
 class ZeroEvenOdd:
     def __init__(self, n):
@@ -40,4 +40,4 @@ class ZeroEvenOdd:
                 self.Odd.acquire()
                 printNumber(i)
                 self.Zero.release()
-```
+# ```

@@ -1,5 +1,5 @@
-方法一：将三数之和简化为两数之和
-```c++
+// 方法一：将三数之和简化为两数之和
+// ```c++
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -31,4 +31,4 @@ public:
         return result;
     }
 };
-```
+// ```

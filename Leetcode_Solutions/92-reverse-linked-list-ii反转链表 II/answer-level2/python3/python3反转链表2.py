@@ -1,9 +1,9 @@
-### 解题思路
-使用双指针，先找出反转链表的头部和尾部，再使用反转链表方法对目标区域进行反转
+# ### 解题思路
+# 使用双指针，先找出反转链表的头部和尾部，再使用反转链表方法对目标区域进行反转
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -33,5 +33,5 @@ class Solution:
             prev=front
             front=r
         return prevh.next
-```
-![image.png](https://pic.leetcode-cn.com/521399b3fed58e02ad79944009ea223a69c8db981fa1b969e4f56cd30ec8e104-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/521399b3fed58e02ad79944009ea223a69c8db981fa1b969e4f56cd30ec8e104-image.png)

@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/61ac2f8b15681d405d68dc2ba556e339674a21f01541eb27f705e0360b3285df-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/61ac2f8b15681d405d68dc2ba556e339674a21f01541eb27f705e0360b3285df-image.png)
+// ```
 int minSwaps(int* data, int dataSize){
     int num = 0;
     int rst = 0;
@@ -19,4 +19,4 @@ int minSwaps(int* data, int dataSize){
     }
     return num - rst;
 }
-```
+// ```

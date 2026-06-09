@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String[] permutation(String S) {
         if(S==null||S.length()==0) {
@@ -35,4 +35,4 @@ class Solution {
         
     }
 }
-```
+// ```

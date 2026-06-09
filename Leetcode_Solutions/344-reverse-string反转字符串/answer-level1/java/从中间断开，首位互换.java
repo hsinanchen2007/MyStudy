@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public void reverseString(char[] s) {
         for(int i=0;i<s.length/2;i++)
@@ -10,4 +10,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -15,4 +15,4 @@ on d.Id = e.DepartmentId
 where (e.Salary,e.DepartmentId) in (select max(Salary),DepartmentId from Employee group by DepartmentId)
 
 
-```
+-- ```

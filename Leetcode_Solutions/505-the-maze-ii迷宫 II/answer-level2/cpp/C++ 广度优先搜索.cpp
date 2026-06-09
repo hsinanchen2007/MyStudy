@@ -1,6 +1,6 @@
-# 思路
-从终点逐步往前倒推，BFS求解
-```C++ []
+// # 思路
+// 从终点逐步往前倒推，BFS求解
+// ```C++ []
 class Solution {
 public:
     int dirs[4][2] = {{0, 1}, {1, 0}, {-1, 0}, {0, -1}};
@@ -54,5 +54,5 @@ public:
         return -1;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/a5bf5148a42c7192cc6c17fcfb120fcc8471e7006c71406230532a9417f04676-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/a5bf5148a42c7192cc6c17fcfb120fcc8471e7006c71406230532a9417f04676-image.png)

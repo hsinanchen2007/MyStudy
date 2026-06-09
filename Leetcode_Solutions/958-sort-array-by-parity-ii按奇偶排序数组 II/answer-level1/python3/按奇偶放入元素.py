@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArrayByParityII(self, A: List[int]) -> List[int]:
         B = [0] * len(A)
@@ -17,4 +17,4 @@ class Solution:
                 e += 2
         return B
 
-```
+# ```

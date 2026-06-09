@@ -1,5 +1,5 @@
-//看了“熊猫刷题Python3”大佬的栈的讲解有部分案列没考虑到做些更正
-```
+// //看了“熊猫刷题Python3”大佬的栈的讲解有部分案列没考虑到做些更正
+// ```
 int MIN(int a,int b){return  a>b?b:a;}
 int trap(int* height, int heightSize){
 	int s[100005];  //模拟栈 
@@ -16,6 +16,6 @@ int trap(int* height, int heightSize){
 	} 
 	return sum;
 }
-```
+// ```
 
-![无标题.png](https://pic.leetcode-cn.com/7607a6897e194e0a314f35d389671575960d29ca446a155692595a5f2409dc41-%E6%97%A0%E6%A0%87%E9%A2%98.png)
+// ![无标题.png](https://pic.leetcode-cn.com/7607a6897e194e0a314f35d389671575960d29ca446a155692595a5f2409dc41-%E6%97%A0%E6%A0%87%E9%A2%98.png)

@@ -1,18 +1,18 @@
-# 审题
-1. 不能交换值，要节点交换
+// # 审题
+// 1. 不能交换值，要节点交换
 
-# 思路
-1. 迭代，最近重复问题abc简化
-2. 递归
+// # 思路
+// 1. 迭代，最近重复问题abc简化
+// 2. 递归
 
-# 代码实现
-1. 迭代，最近重复问题abc简化
-2. 递归
-3. 旧代码
+// # 代码实现
+// 1. 迭代，最近重复问题abc简化
+// 2. 递归
+// 3. 旧代码
 
-## 1.迭代
+// ## 1.迭代
 
-```java
+// ```java
 /**
     * 迭代
     * 0 ms	37.5 MB
@@ -42,11 +42,11 @@ private ListNode traverseSolution(ListNode head) {
     }
     return ret.next;
 }
-```
+// ```
 
-## 2 递归
+// ## 2 递归
 
-```java
+// ```java
 /**
     * 递归
     * 0 ms	37.3 MB
@@ -69,11 +69,11 @@ private ListNode recursiveSolution(ListNode head) {
     first.next = third;
     return second;
 }
-```
+// ```
 
-## 3.旧代码
+// ## 3.旧代码
 
-```java
+// ```java
 public ListNode swapPairs201911011(ListNode head) {
     if (head == null || head.next == null) {
         return head;
@@ -113,4 +113,4 @@ public ListNode swapPairsRecursive(ListNode head) {
 
     return end;
 }
-```
+// ```

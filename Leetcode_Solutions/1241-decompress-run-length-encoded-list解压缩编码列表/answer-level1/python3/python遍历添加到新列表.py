@@ -1,9 +1,9 @@
 
-执行用时 :52 ms, 在所有 Python 提交中击败了69.03%的用户
-内存消耗 :12 MB, 在所有 Python 提交中击败了100.00%的用户
-### 代码
+# 执行用时 :52 ms, 在所有 Python 提交中击败了69.03%的用户
+# 内存消耗 :12 MB, 在所有 Python 提交中击败了100.00%的用户
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def decompressRLElist(self, nums):
         """
@@ -16,4 +16,4 @@ class Solution(object):
                 for _ in range(nums[i]):
                     nums1.append(nums[i+1])
         return nums1
-```
+# ```

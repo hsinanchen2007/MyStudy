@@ -1,8 +1,8 @@
-### 解题思路
-竟然一次写过通过了。。。刷了大概150道力扣了，好像有点感觉了。
-### 代码
+// ### 解题思路
+// 竟然一次写过通过了。。。刷了大概150道力扣了，好像有点感觉了。
+// ### 代码
 
-```java
+// ```java
 class Trie {
     boolean isEnd = false;
     Trie[] children = new Trie[26];
@@ -62,4 +62,4 @@ class Trie {
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
-```
+// ```

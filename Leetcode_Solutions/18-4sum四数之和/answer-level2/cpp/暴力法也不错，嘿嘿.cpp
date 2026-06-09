@@ -1,12 +1,12 @@
-# 暴力法+剪枝？？四个for速度也不慢**
-执行结果：
-通过
-显示详情
-执行用时 :44 ms, 在所有 cpp 提交中击败了86.01% 的用户
-内存消耗 :11.9 MB, 在所有 cpp 提交中击败了6.23%的用户
-![QQ截图20191031234822.png](https://pic.leetcode-cn.com/c5658822ff7bf6c6ccf99aa4b6479c10e9e6c824cd94d7e7cf7c974011000b78-QQ%E6%88%AA%E5%9B%BE20191031234822.png)
+// # 暴力法+剪枝？？四个for速度也不慢**
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :44 ms, 在所有 cpp 提交中击败了86.01% 的用户
+// 内存消耗 :11.9 MB, 在所有 cpp 提交中击败了6.23%的用户
+// ![QQ截图20191031234822.png](https://pic.leetcode-cn.com/c5658822ff7bf6c6ccf99aa4b6479c10e9e6c824cd94d7e7cf7c974011000b78-QQ%E6%88%AA%E5%9B%BE20191031234822.png)
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums1, int target) {
@@ -65,4 +65,4 @@ public:
         
     }
 };
-```
+// ```

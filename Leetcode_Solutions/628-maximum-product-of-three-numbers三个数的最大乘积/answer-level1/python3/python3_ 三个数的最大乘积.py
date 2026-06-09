@@ -1,4 +1,4 @@
-```python
+# ```python
 def maximumProduct(nums):
     # 最大三个数, 要么都是正数, 要么是两个负数+一个正数
     nums.sort()
@@ -8,4 +8,4 @@ def maximumProduct(nums):
 
 print(maximumProduct([1,2,3]))
 print(maximumProduct([1,2,3,4]))
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def computeArea(self, A: int, B: int, C: int, D: int, E: int, F: int, G: int, H: int) -> int:
         # 和之前判断重叠很类似，找到重叠的x范围和重叠y的范围，求出重叠区域即可
@@ -20,5 +20,5 @@ class Solution:
         
         return (C-A)*(D-B)+(G-E)*(H-F)-helper(rec1_x,rec2_x) * helper(rec1_y,rec2_y)
         
-```
+# ```
 

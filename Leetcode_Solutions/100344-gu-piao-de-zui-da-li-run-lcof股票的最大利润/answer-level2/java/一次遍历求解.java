@@ -1,10 +1,10 @@
-### 解题思路
-每次判断当前是否为高价，是则替换max和priceHigh。
-同时判断是否低于最低价，在判断完max后更新priceLow。
+// ### 解题思路
+// 每次判断当前是否为高价，是则替换max和priceHigh。
+// 同时判断是否低于最低价，在判断完max后更新priceLow。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         if(prices.length == 0) return 0;
@@ -23,4 +23,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

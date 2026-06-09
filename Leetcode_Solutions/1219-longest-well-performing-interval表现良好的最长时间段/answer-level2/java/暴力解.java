@@ -1,9 +1,9 @@
-### 解题思路
-暴力求解，前缀和和单调栈思路好难理解
+// ### 解题思路
+// 暴力求解，前缀和和单调栈思路好难理解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public int longestWPI(int[] hours) {
         //遍历一遍数组将数据变成1或-1
@@ -30,4 +30,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

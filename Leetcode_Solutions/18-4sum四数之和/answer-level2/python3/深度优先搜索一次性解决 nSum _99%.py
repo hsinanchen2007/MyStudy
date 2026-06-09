@@ -1,10 +1,10 @@
-类似 3sum 的方法.
+# 类似 3sum 的方法.
 
-1. 首先还是排序
-2. 当 n > 2 的时候深度优先搜索可能的解
-3. 然后当 n == 2 的时候利用 3sum 的方法求出结果
+# 1. 首先还是排序
+# 2. 当 n > 2 的时候深度优先搜索可能的解
+# 3. 然后当 n == 2 的时候利用 3sum 的方法求出结果
 
-```py
+# ```py
 class Solution:
     def fourSum(self, nums: List[int], target: int) -> List[List[int]]:
         return self.nSum(nums, target, 4)
@@ -47,4 +47,4 @@ class Solution:
         nums.sort()
         dfs(0, [], n, target)
         return ans
-```
+# ```

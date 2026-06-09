@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
     def deleteDuplicates(self, head):
         """
@@ -22,4 +22,4 @@ class Solution(object):
             newHead.next = ListNode(item)
             newHead = newHead.next
         return pHead.next
-```
+# ```

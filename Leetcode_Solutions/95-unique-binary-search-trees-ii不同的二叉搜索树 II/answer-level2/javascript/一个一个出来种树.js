@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/58c7c4d76f47c77b3b8265b8e8f35f8644419859ae69aa277be318b0d3dc527d-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/58c7c4d76f47c77b3b8265b8e8f35f8644419859ae69aa277be318b0d3dc527d-image.png)
 
-一个一个排好队，挨个出来种大树，左边的管左边种搜索树，右边的管右边种搜索树。然后，下一个继续。。
-### 代码
+// 一个一个排好队，挨个出来种大树，左边的管左边种搜索树，右边的管右边种搜索树。然后，下一个继续。。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -74,4 +74,4 @@ var generateTrees = function(n) {
     }
     return buildTreeArr(nArr);
 };
-```
+// ```

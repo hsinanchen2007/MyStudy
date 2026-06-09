@@ -1,13 +1,13 @@
-### 解题思路
-执行时间4ms优于97.86%C++提交，内存消耗13.7MB优于5.29%C++提交。
-**算法流程**
-1.获取链表长度n
-2.根据n，k确定k次旋转后链表的头head_node和尾tail
-3.将原链表变为环链表
-4.令tail->next = NULL，返回head_node
-### 代码
+// ### 解题思路
+// 执行时间4ms优于97.86%C++提交，内存消耗13.7MB优于5.29%C++提交。
+// **算法流程**
+// 1.获取链表长度n
+// 2.根据n，k确定k次旋转后链表的头head_node和尾tail
+// 3.将原链表变为环链表
+// 4.令tail->next = NULL，返回head_node
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -57,4 +57,4 @@ public:
         return head_node;
     }
 };
-```
+// ```

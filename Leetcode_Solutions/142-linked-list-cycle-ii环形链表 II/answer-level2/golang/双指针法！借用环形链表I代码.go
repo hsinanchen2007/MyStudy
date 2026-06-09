@@ -1,9 +1,9 @@
-### 解题思路
-双指针法，每次双指针相交的节点，总是链表入口的前一个节点
+// ### 解题思路
+// 双指针法，每次双指针相交的节点，总是链表入口的前一个节点
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -60,4 +60,4 @@ func hasCycle(head *ListNode) *ListNode {
 // 	}
 // 	return fast
 // }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-首先用res得到第一堆原语（用栈来判断，"("push, ")"pop, 当栈为空说明得到第一堆原语），
-接着将它脱衣，得到res1;
-接着用res2存放res1，将res,res1重新置为“”，继续循环，不断加给res2.最终return res2.
+// ### 解题思路
+// 首先用res得到第一堆原语（用栈来判断，"("push, ")"pop, 当栈为空说明得到第一堆原语），
+// 接着将它脱衣，得到res1;
+// 接着用res2存放res1，将res,res1重新置为“”，继续循环，不断加给res2.最终return res2.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string removeOuterParentheses(string S) {
@@ -35,4 +35,4 @@ public:
         return res2;
     }
 };
-```
+// ```

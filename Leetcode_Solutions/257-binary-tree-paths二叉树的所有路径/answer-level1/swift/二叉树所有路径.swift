@@ -1,9 +1,9 @@
 
-思路：
+// 思路：
 
-迭代法
+// 迭代法
 
-```swift []
+// ```swift []
 class Solution {
     func binaryTreePaths(_ root: TreeNode?) -> [String] {
         guard let root = root else {
@@ -39,10 +39,10 @@ class Solution {
         return result
     }
 }
-```
+// ```
 
-递归法：
-```swift []
+// 递归法：
+// ```swift []
     func binaryTreePaths(_ root: TreeNode?) -> [String] {
         var result = [String].init()
         var str = ""
@@ -71,4 +71,4 @@ class Solution {
             searchPath(right, &result, newStr)
         }
     }
-```
+// ```

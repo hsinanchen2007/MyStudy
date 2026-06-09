@@ -1,10 +1,10 @@
-### 解题思路
-与[子集](https://leetcode-cn.com/problems/subsets/)那个题思路大致相同,
-多了先排序,然后数组第一个进入递归,后面跳过即可!
+// ### 解题思路
+// 与[子集](https://leetcode-cn.com/problems/subsets/)那个题思路大致相同,
+// 多了先排序,然后数组第一个进入递归,后面跳过即可!
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	List<List<Integer>> res = new ArrayList<List<Integer>>();
 	int[] nums;
@@ -32,4 +32,4 @@ class Solution {
     	
     }
 }
-```
+// ```

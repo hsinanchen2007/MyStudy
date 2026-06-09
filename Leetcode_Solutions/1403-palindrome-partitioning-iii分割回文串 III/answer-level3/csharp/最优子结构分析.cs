@@ -1,12 +1,12 @@
-### 解题思路
-拆分字符串为 两部分
-第一个 回文 和 后面部分
-后面部分 必然是一个最优解 且 不受前面部分影响
-独立 计算 所有组合 中最优解
+// ### 解题思路
+// 拆分字符串为 两部分
+// 第一个 回文 和 后面部分
+// 后面部分 必然是一个最优解 且 不受前面部分影响
+// 独立 计算 所有组合 中最优解
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, int>;
 class PalStr{
     public Dictionary<VT, int> cache = new Dictionary<VT, int>();
@@ -82,4 +82,4 @@ public class Solution {
         return ps.PalindromePartition(s, k);
     }
 }
-```
+// ```

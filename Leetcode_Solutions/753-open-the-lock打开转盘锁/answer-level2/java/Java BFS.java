@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int openLock(String[] deadends, String target) {
         if("0000".equals(target)) return 0;
@@ -52,4 +52,4 @@ class Solution {
     }
     
 }
-```
+// ```

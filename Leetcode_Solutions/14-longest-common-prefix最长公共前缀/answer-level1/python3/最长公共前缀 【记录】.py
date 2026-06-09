@@ -1,9 +1,9 @@
-### 解题思路
-垂直扫描法
+# ### 解题思路
+# 垂直扫描法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         common=""
@@ -19,4 +19,4 @@ class Solution:
                     return common
             common=common+char
         return common
-```
+# ```

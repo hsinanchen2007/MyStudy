@@ -1,9 +1,9 @@
-golang解法，逆向归并
+// golang解法，逆向归并
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
 
-```go
+// ```go
 // 归并思路，逆向归并到数组A中，可避免另外开辟空间
 // 时间复杂度：O(m+n)  空间复杂度：O(1)
 
@@ -30,4 +30,4 @@ func merge(A []int, m int, B []int, n int)  {
 		}
 	}
 }
-```
+// ```

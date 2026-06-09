@@ -1,7 +1,7 @@
-额，话不多说直接上dp。
-![image.png](https://pic.leetcode-cn.com/63d9089fbaea6a7b5734704eadd48faa28ad4e682e6eafb9e89a94667fa2c45c-image.png)
+// 额，话不多说直接上dp。
+// ![image.png](https://pic.leetcode-cn.com/63d9089fbaea6a7b5734704eadd48faa28ad4e682e6eafb9e89a94667fa2c45c-image.png)
 
-```
+// ```
 func GetMax(val1 int, val2 int) int {
     if val1 > val2 {
         return val1
@@ -30,4 +30,4 @@ func massage(nums []int) int {
 
     return dp[size - 1]
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先遍历树s的每个结点，保存与t结点值相同的结点指针，然后对每个可能的指针，做同步比对，有一个完全相同，则返回True；否则False。时间复杂度为O(MN)，M为s树结点个数，N为t树结点个数，空间复杂度为O(M)。
+# ### 解题思路
+# 先遍历树s的每个结点，保存与t结点值相同的结点指针，然后对每个可能的指针，做同步比对，有一个完全相同，则返回True；否则False。时间复杂度为O(MN)，M为s树结点个数，N为t树结点个数，空间复杂度为O(M)。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
                 return True
         return False
 
-```
+# ```

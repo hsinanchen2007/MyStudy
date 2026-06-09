@@ -1,6 +1,6 @@
-首先我们考虑如何通过idx获取board的下标
-横坐标很好计算，就是倒过来 。纵坐标的话需要考虑奇偶。如果横坐标正过来的偶数。那么就是余数。反之则要倒过来。这里要记得加n取余，具体看代码：
-```
+// 首先我们考虑如何通过idx获取board的下标
+// 横坐标很好计算，就是倒过来 。纵坐标的话需要考虑奇偶。如果横坐标正过来的偶数。那么就是余数。反之则要倒过来。这里要记得加n取余，具体看代码：
+// ```
 func getIdx(idx int, n int) (i int,j int) {
 	i = n - 1 - (idx-1)/n
 	if (n - 1 - i)%2 == 0 {
@@ -10,9 +10,9 @@ func getIdx(idx int, n int) (i int,j int) {
 	}
 	return
 }
-```
-个人认为这题的关键就是计算坐标，之后的dfs就很简单了。用二维数组记录到达该坐标的最小步数即可。
-```
+// ```
+// 个人认为这题的关键就是计算坐标，之后的dfs就很简单了。用二维数组记录到达该坐标的最小步数即可。
+// ```
 func snakesAndLadders(board [][]int) int {
     minReach := make([][]int, len(board))
     for i := 0; i < len(minReach); i++ {
@@ -68,4 +68,4 @@ func getIdx(idx int, n int) (i int,j int) {
 	return
 }
 
-```
+// ```

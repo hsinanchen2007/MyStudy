@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-很简单，直接看代码
+# 很简单，直接看代码
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         def fun(x):
@@ -27,4 +27,4 @@ class Solution:
         cnt = helper(0, 0)
 
         return cnt
-```
+# ```

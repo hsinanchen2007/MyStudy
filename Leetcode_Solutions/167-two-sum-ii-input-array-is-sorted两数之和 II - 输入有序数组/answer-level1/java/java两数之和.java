@@ -1,5 +1,5 @@
-解法：设置左指针(left)与右指针(right)，如果numbers[left]+numbers[right]>target;那么右指针像左移动，反之小于左指针向右移动，```
-代码块
+// 解法：设置左指针(left)与右指针(right)，如果numbers[left]+numbers[right]>target;那么右指针像左移动，反之小于左指针向右移动，```
+// 代码块
 int [] index = new int[2];
         int left = 0;
         int right = numbers.length-1;

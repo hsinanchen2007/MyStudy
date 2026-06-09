@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool detectCapitalUse(string word) {
@@ -25,4 +25,4 @@ public:
         return flag;
     }
 };
-```
+// ```

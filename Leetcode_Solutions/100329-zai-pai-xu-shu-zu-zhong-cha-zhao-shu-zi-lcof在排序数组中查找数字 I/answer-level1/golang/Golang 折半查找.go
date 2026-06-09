@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func search(nums []int, target int) int {
     if len(nums)==0{
         return 0
@@ -30,4 +30,4 @@ func search(nums []int, target int) int {
     }
     return count
 }
-```
+// ```

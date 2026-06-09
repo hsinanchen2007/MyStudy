@@ -1,9 +1,9 @@
-### 解题思路
-向量矩阵、直线参数方程、克莱姆法则求解方程组
+// ### 解题思路
+// 向量矩阵、直线参数方程、克莱姆法则求解方程组
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func intersection(start1 []int, end1 []int, start2 []int, end2 []int) []float64 {
     const eps = 1e-6
     sub := func(a, b []int) []int {
@@ -54,4 +54,4 @@ func intersection(start1 []int, end1 []int, start2 []int, end2 []int) []float64 
     }
     return ans
 }
-```
+// ```

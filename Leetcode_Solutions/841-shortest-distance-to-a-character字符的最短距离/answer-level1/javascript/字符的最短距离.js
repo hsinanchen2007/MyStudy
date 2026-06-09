@@ -1,6 +1,6 @@
-*法一：双循环*
+// *法一：双循环*
 
-```js
+// ```js
 var shortestToChar = function(S, C) {
     let len = S.length;
     // 存储C出现在S中的index
@@ -22,11 +22,11 @@ var shortestToChar = function(S, C) {
     }
     return res;
 };
-```
+// ```
 
-*法二： 双指针*
+// *法二： 双指针*
 
-```js
+// ```js
 var shortestToChar2 = function(S, C) {
     let len = S.length;
     let res = [];
@@ -49,6 +49,6 @@ var shortestToChar2 = function(S, C) {
     }
     return res;
 };
-```
+// ```
 
-此题用双指针没有双循环快
+// 此题用双指针没有双循环快

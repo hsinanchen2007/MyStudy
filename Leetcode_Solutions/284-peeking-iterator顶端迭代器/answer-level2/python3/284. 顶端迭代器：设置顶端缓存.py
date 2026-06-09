@@ -1,6 +1,6 @@
-常规类型：
+# 常规类型：
 
-```python []
+# ```python []
 class PeekingIterator:
     def __init__(self, iterator):
         self.iterator = iterator
@@ -21,11 +21,11 @@ class PeekingIterator:
 
     def hasNext(self):
         return bool(self.top())
-```
+# ```
 
-支持自定类型：
+# 支持自定类型：
 
-```python []
+# ```python []
 class PeekingIterator:
     def __init__(self, iterator):
         self.iterator = iterator
@@ -42,6 +42,6 @@ class PeekingIterator:
 
     def hasNext(self):
         return self.top() or bool(self.cache)
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/e812665d732a7e15a3677a2e1637d440e48a305831b97c99a6789f74ba2713f6-image.png)
+# ![image.png](https://pic.leetcode-cn.com/e812665d732a7e15a3677a2e1637d440e48a305831b97c99a6789f74ba2713f6-image.png)

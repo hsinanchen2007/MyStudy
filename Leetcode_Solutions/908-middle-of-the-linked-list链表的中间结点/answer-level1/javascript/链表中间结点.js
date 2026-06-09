@@ -1,12 +1,12 @@
-## 简介
-- [题目链接](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
+// ## 简介
+// - [题目链接](https://leetcode-cn.com/problems/middle-of-the-linked-list/)
 
 
-## 解法一 - 快慢指针
-1. 设定快慢指针 fast 和 slow，都初始化为 head
-2. fast 每次走两步，slow 每次走一步，直到 fast 走到链表结尾
+// ## 解法一 - 快慢指针
+// 1. 设定快慢指针 fast 和 slow，都初始化为 head
+// 2. fast 每次走两步，slow 每次走一步，直到 fast 走到链表结尾
 
-```javascript
+// ```javascript
 var middleNode = function(head) {
     let slow = head;
     let fast = head;
@@ -18,8 +18,8 @@ var middleNode = function(head) {
 
     return slow;
 };
-```
+// ```
 
-**复杂度分析**: 
-- 时间复杂度： $O(N)$， $N$ 是链表长度
-- 空间复杂度： $O(1)$
+// **复杂度分析**: 
+// - 时间复杂度： $O(N)$， $N$ 是链表长度
+// - 空间复杂度： $O(1)$

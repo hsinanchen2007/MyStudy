@@ -1,4 +1,4 @@
-```
+// ```
 func kthSmallest(root *TreeNode, k int) int {
 	nums := make([]int, 0)
 	helperKthSmallest(root, &nums)
@@ -13,4 +13,4 @@ func helperKthSmallest(root *TreeNode, nums *[]int) {
 	*nums = append(*nums, root.Val)
 	helperKthSmallest(root.Right, nums)
 }
-```
+// ```

@@ -1,10 +1,10 @@
-思路：
-用array存要随机洗牌的数组，origin存初始的数组用于复位
-产生区间[min,max]的随机数用 rand()%(max - min + 1) + min
-（注意，这里用srand(time(NULL))的话不能得到全排列的“均匀”随机数，所以不用）
-洗牌：遍历数组，在当前元素(包括当前)后面的所有项中随机一个和当前元素交换
-复位：把array循环赋值恢复为origin
-```
+// 思路：
+// 用array存要随机洗牌的数组，origin存初始的数组用于复位
+// 产生区间[min,max]的随机数用 rand()%(max - min + 1) + min
+// （注意，这里用srand(time(NULL))的话不能得到全排列的“均匀”随机数，所以不用）
+// 洗牌：遍历数组，在当前元素(包括当前)后面的所有项中随机一个和当前元素交换
+// 复位：把array循环赋值恢复为origin
+// ```
 #include <time.h>
 
 typedef struct {
@@ -64,4 +64,4 @@ void solutionFree(Solution* obj) {
     free(obj);
     return;
 }
-```
+// ```

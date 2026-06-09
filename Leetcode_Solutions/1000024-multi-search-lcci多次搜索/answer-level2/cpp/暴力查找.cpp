@@ -1,9 +1,9 @@
-### 解题思路
-遍历small中的字符串，在大串中连续使用find查找
+// ### 解题思路
+// 遍历small中的字符串，在大串中连续使用find查找
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> multiSearch(string big, vector<string>& smalls) {
@@ -24,4 +24,4 @@ public:
         return output;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-Split后reverse再拼接
+// ### 解题思路
+// Split后reverse再拼接
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         String[] arr = s.split(" ");
@@ -20,4 +20,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

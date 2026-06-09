@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         def quick(x,n):
@@ -16,4 +16,4 @@ class Solution:
         if n<0:
             ans = 1/ans
         return ans
-```
+# ```

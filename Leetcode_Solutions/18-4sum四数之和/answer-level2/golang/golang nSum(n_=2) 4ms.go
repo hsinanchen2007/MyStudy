@@ -1,5 +1,5 @@
-方法跟三数之和一致
-```go
+// 方法跟三数之和一致
+// ```go
 func fourSum(nums []int, target int) [][]int {
     sort.Ints(nums)
     var res [][]int
@@ -46,4 +46,4 @@ func nSum(nums []int, target int, pos int, n int, res *[][]int, cur []int) {
         cur = cur[:len(cur)-1]
     }
 }
-```
+// ```

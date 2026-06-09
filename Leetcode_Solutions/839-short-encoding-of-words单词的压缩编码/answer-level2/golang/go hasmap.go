@@ -1,4 +1,4 @@
-```
+// ```
 //存储后缀
 func minimumLengthEncoding(words []string) int {
 	tm := make(map[string]int, 0)
@@ -19,4 +19,4 @@ func minimumLengthEncoding(words []string) int {
 	}
 	return ans
 }
-```
+// ```

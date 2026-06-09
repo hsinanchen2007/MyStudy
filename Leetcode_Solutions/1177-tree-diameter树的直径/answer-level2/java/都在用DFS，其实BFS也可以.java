@@ -1,6 +1,6 @@
-用BFS，，每次取出度为1的节点，并把层数k加一。若最后剩一个节点，则最长路径长度为2 * k;
-若最后剩两个节点，则最长路径为 2*k+1
-```
+// 用BFS，，每次取出度为1的节点，并把层数k加一。若最后剩一个节点，则最长路径长度为2 * k;
+// 若最后剩两个节点，则最长路径为 2*k+1
+// ```
 class Solution {
     public int treeDiameter(int[][] edges) {
         int n = edges.length+1;
@@ -36,4 +36,4 @@ class Solution {
         return left == 2 ? 2*k+1 : 2*k;
     }
 }
-```
+// ```

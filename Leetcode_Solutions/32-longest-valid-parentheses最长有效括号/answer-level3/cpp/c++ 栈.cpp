@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestValidParentheses(string s) {
@@ -18,4 +18,4 @@ public:
         return res;
     }
 };
-```
+// ```

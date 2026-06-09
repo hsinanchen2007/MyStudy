@@ -1,4 +1,4 @@
-```
+// ```
 function isStrobogrammatic($num) {
     $map['6'] = '9';
     $map['9'] = '6';
@@ -12,4 +12,4 @@ function isStrobogrammatic($num) {
     }
     return true;
 }
-```
+// ```

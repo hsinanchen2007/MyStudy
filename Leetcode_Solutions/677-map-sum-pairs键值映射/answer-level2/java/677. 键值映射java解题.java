@@ -1,10 +1,10 @@
-### 解题思路
-使用Trie进行解题，完成单词与值的映射关系
+// ### 解题思路
+// 使用Trie进行解题，完成单词与值的映射关系
 
-### 代码
+// ### 代码
 
 
-```java
+// ```java
 import java.util.TreeMap;
 
 class MapSum {
@@ -72,4 +72,4 @@ class MapSum {
  * obj.insert(key,val);
  * int param_2 = obj.sum(prefix);
  */
-```
+// ```

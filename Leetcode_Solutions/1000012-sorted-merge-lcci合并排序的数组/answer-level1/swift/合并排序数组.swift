@@ -1,8 +1,8 @@
-### 解题思路
-- 暴力解法
+// ### 解题思路
+// - 暴力解法
 
-### 代码
-```
+// ### 代码
+// ```
 class Solution {
     func merge(_ A: inout [Int], _ m: Int, _ B: [Int], _ n: Int) {
         var res = [Int]()  
@@ -17,10 +17,10 @@ class Solution {
         A.sort { return $0 < $1 }
     }
 }
-```
-- 双指针解法
+// ```
+// - 双指针解法
 
-```swift
+// ```swift
 class Solution {
     func merge(_ A: inout [Int], _ m: Int, _ B: [Int], _ n: Int) {
         var a = m - 1
@@ -45,4 +45,4 @@ class Solution {
        
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     int Binarysearch(const vector<int>& nums,double target, bool left){
         int l = 0,r = nums.size()-1;
@@ -31,4 +31,4 @@ public:
         return {Binarysearch(nums, target-0.5,true),Binarysearch(nums, target+0.5,false)};
     }
 };
-```
+// ```

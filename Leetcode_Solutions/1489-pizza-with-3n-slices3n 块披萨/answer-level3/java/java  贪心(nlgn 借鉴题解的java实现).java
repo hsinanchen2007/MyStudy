@@ -1,9 +1,9 @@
-题解里面双向链表+贪心的思路  java实现
+// 题解里面双向链表+贪心的思路  java实现
 
-nlgn来自于构建优先队列的时间复杂度
+// nlgn来自于构建优先队列的时间复杂度
 
 
-```
+// ```
 class Solution {
     public int maxSizeSlices(int[] slices) {
         ArrayList<Map<String, Object>> list = new ArrayList();
@@ -84,5 +84,5 @@ class Solution {
     }
 
 }
-```
+// ```
 

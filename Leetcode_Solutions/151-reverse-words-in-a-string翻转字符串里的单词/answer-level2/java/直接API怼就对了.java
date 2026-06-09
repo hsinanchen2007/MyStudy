@@ -1,8 +1,8 @@
-### 解题思路
-先把多的空格replace，再split，倒着放到list中，顺着取出来拼在一起(遇到空格和空字符不管，因为前面和尾巴可能还剩空格)。
-### 代码
+// ### 解题思路
+// 先把多的空格replace，再split，倒着放到list中，顺着取出来拼在一起(遇到空格和空字符不管，因为前面和尾巴可能还剩空格)。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
 		s.replaceAll(" {2,}"," ");
@@ -23,4 +23,4 @@ class Solution {
 		return new String(ans) ;
     }
 }
-```
+// ```

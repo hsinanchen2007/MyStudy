@@ -1,8 +1,8 @@
 
-思路：递归
-1.所有的值都要和root.val相等
-2.只要有一个值不等就会返回false
-```
+// 思路：递归
+// 1.所有的值都要和root.val相等
+// 2.只要有一个值不等就会返回false
+// ```
 public static boolean get(TreeNode root,int k) {
 		if (root == null) return true;
 		
@@ -15,5 +15,5 @@ public static boolean get(TreeNode root,int k) {
         if (root == null) return true;
         return get(root,root.val);
     }
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-看代码，一看就懂
+// ### 解题思路
+// 看代码，一看就懂
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} intervals
  * @return {number[][]}
@@ -21,4 +21,4 @@ var merge = function(intervals) {
     }
     return ans;
 };
-```
+// ```

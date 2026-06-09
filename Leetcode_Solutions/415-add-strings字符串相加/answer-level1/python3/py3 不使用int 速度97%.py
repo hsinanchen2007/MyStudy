@@ -1,5 +1,5 @@
-#善于利用ord和chr
-```
+# #善于利用ord和chr
+# ```
 class Solution:
     def addStrings(self, num1: str, num2: str) -> str:
         ret = ''
@@ -14,4 +14,4 @@ class Solution:
             i -= 1
             j -= 1
         return ret if up == 0 else chr(up + ord('0')) + ret
-```
+# ```

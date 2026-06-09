@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（1）
-空间复杂度：O（1）
+# ### 解题思路
+# 时间复杂度：O（1）
+# 空间复杂度：O（1）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mySqrt(self, x: int) -> int:
         if x < 2:
@@ -16,4 +16,4 @@ class Solution:
             x1 = 0.5 * (x0 + x / x0)
 
         return int(x1)
-```
+# ```

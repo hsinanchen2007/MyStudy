@@ -1,10 +1,10 @@
-执行用时 :23 ms, 在所有 java 提交中击败了100.00%的用户内存消耗 :43.9 MB, 在所有 java 提交中击败了100.00%的用户
+// 执行用时 :23 ms, 在所有 java 提交中击败了100.00%的用户内存消耗 :43.9 MB, 在所有 java 提交中击败了100.00%的用户
 
-题目考点就是维护最大值表,而最大值表是有序的,在这里用二分比较快.
+// 题目考点就是维护最大值表,而最大值表是有序的,在这里用二分比较快.
 
-(本来用了2个linkedlist,效率感人.换成了arraylist直接第一了.)
+// (本来用了2个linkedlist,效率感人.换成了arraylist直接第一了.)
 
-```
+// ```
 class MaxStack {
   ArrayList<Integer> linkedStacks=new ArrayList<>();
     ArrayList<Integer> maxStacks=new ArrayList<>();
@@ -64,4 +64,4 @@ class MaxStack {
     }
 }
 
-```
+// ```

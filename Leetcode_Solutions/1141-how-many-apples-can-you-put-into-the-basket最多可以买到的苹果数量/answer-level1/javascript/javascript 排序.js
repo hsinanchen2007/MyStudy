@@ -1,8 +1,8 @@
-### 解题思路
-从小到大排序，从小到大取就可以。。。
-### 代码
+// ### 解题思路
+// 从小到大排序，从小到大取就可以。。。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {number}
@@ -22,4 +22,4 @@ var maxNumberOfApples = function(arr) {
     }
     return count
 }; 
-```
+// ```

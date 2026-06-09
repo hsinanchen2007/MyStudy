@@ -1,8 +1,8 @@
-### 解题思路
-判断每个点的出度与入度的情况即可～
-### 代码
+// ### 解题思路
+// 判断每个点的出度与入度的情况即可～
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findJudge(int N, vector<vector<int>>& trust) {
@@ -27,4 +27,4 @@ public:
         return -1;
     }
 };
-```
+// ```

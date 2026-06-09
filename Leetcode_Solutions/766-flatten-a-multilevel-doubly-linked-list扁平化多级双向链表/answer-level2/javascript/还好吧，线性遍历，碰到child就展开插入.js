@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * // Definition for a Node.
  * function Node(val,prev,next,child) {
@@ -34,4 +34,4 @@ function get_child(node){
     while(cur.next) cur = cur.next
     return [node, cur]
 }
-```
+// ```

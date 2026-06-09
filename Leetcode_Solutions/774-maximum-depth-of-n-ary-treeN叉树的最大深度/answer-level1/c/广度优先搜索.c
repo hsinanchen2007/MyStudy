@@ -1,5 +1,5 @@
-纯c手写队列，加上bfs
-```
+// 纯c手写队列，加上bfs
+// ```
 /**
  * Definition for a Node.
  * struct Node {
@@ -63,4 +63,4 @@ int* maxDepth(struct Node* root) {
     }
     return temp->val;
 }
-```
+// ```

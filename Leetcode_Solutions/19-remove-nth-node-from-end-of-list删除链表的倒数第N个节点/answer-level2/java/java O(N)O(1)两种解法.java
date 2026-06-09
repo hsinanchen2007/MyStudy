@@ -1,8 +1,8 @@
 
-单指针两次遍历O(N)时间O(1)空间
-倒数第N=正数第(len+1-n) 遍历一遍获得长度 再遍历一遍找到要删除位置元素前一个元素进行删除操作
+// 单指针两次遍历O(N)时间O(1)空间
+// 倒数第N=正数第(len+1-n) 遍历一遍获得长度 再遍历一遍找到要删除位置元素前一个元素进行删除操作
 
-```
+// ```
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         int length = 0;
@@ -23,10 +23,10 @@ class Solution {
         return dummy_head.next;
     }
 }
-```
-双指针一次遍历  O(N)O(1)   首先需要明白一个道理：指针2先走n-1步到正数第n个节点 两个指针同时滑行直到指针2到末尾节点，此时指针1一定指向要删除的倒数第n个节点。 按这个思路我们只需要将指针1滑到要删除节点前一个即可。  1个节点的链表：特殊情况处理
-2个或以上：删除头节点或非头节点 分类讨论
-```
+// ```
+// 双指针一次遍历  O(N)O(1)   首先需要明白一个道理：指针2先走n-1步到正数第n个节点 两个指针同时滑行直到指针2到末尾节点，此时指针1一定指向要删除的倒数第n个节点。 按这个思路我们只需要将指针1滑到要删除节点前一个即可。  1个节点的链表：特殊情况处理
+// 2个或以上：删除头节点或非头节点 分类讨论
+// ```
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if(head.next == null && n == 1) return null;//special case
@@ -52,9 +52,9 @@ class Solution {
         return head;
     }
 }
-```
-同样双指针一次遍历 使用dummyhead会简单很多 参考官方解。 主要思想：先移动一个指针pt1 n+1步使其位于第n+2个节点上，他与初始节点相隔n个节点  保持这个距离滑动 当pt1为null时 pt2刚好指向要删除节点前一个。
-```
+// ```
+// 同样双指针一次遍历 使用dummyhead会简单很多 参考官方解。 主要思想：先移动一个指针pt1 n+1步使其位于第n+2个节点上，他与初始节点相隔n个节点  保持这个距离滑动 当pt1为null时 pt2刚好指向要删除节点前一个。
+// ```
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode(-1);
@@ -69,4 +69,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

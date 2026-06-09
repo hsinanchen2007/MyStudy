@@ -1,8 +1,8 @@
-### 解题思路
-要把字符变成数字，再把数字变成字符
-### 代码
+// ### 解题思路
+// 要把字符变成数字，再把数字变成字符
+// ### 代码
 
-```c
+// ```c
 char * complexNumberMultiply(char * a, char * b){
     char *s,t;
     s=(char*)malloc(sizeof(char)*20);
@@ -90,4 +90,4 @@ char * complexNumberMultiply(char * a, char * b){
     s[i]='\0';
     return s;
 }
-```
+// ```

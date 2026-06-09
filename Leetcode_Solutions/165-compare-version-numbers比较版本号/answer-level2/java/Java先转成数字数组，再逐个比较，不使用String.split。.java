@@ -1,9 +1,9 @@
 
-### 执行结果：
-![1573463735363-image.png](https://pic.leetcode-cn.com/2d7d976699616abf97e559545eff8aa0867d82f62ae32d70a1ead3d382036358-1573463735363-image.png)
+// ### 执行结果：
+// ![1573463735363-image.png](https://pic.leetcode-cn.com/2d7d976699616abf97e559545eff8aa0867d82f62ae32d70a1ead3d382036358-1573463735363-image.png)
 
-### 实现代码：
-```
+// ### 实现代码：
+// ```
 class Solution {
     public int compareVersion(String version1, String version2) {
         int[] arr1 = toArray(version1);
@@ -76,4 +76,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

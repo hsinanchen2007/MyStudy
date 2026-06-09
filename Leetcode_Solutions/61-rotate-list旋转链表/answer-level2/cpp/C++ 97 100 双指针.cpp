@@ -1,6 +1,6 @@
 
 
-```
+// ```
 class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
@@ -28,9 +28,9 @@ public:
         return r;
     }
 };
-```
+// ```
 
 
 
 
-![image.png](https://pic.leetcode-cn.com/805bb02a4be14aff4fb9b0992513a906ecbf2adae4e4fe8eead962cc3a3b3912-image.png)
+// ![image.png](https://pic.leetcode-cn.com/805bb02a4be14aff4fb9b0992513a906ecbf2adae4e4fe8eead962cc3a3b3912-image.png)

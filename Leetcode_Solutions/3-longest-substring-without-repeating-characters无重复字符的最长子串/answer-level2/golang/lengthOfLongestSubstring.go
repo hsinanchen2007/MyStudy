@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 
 func lengthOfLongestSubstring(s string) int {
@@ -18,4 +18,4 @@ func lengthOfLongestSubstring(s string) int {
 	return int(math.Max(float64(len(s)-start), float64(res)))
 
 }
-```
+// ```

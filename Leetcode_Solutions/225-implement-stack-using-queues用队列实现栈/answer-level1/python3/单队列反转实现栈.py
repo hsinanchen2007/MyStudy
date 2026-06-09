@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-使用单个队列来实现
+# ### 解题思路
+# 此处撰写解题思路
+# 使用单个队列来实现
 
-其实思路在于进队后对前n-1个元素反转，这样就不用再创建一个新队列了
+# 其实思路在于进队后对前n-1个元素反转，这样就不用再创建一个新队列了
 
 
-```
+# ```
 class MyStack:
 
     def __init__(self):
@@ -39,5 +39,5 @@ class MyStack:
         Returns whether the stack is empty.
         """
         return not len(self.q)
-```
+# ```
 

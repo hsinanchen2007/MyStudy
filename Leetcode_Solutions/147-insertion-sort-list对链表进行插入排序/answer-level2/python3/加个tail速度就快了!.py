@@ -1,8 +1,8 @@
-## 思路:
+# ## 思路:
 
-这个道题就像排队,先找个排头`dummy`,然后依次从`head`节点放入`dummy`,只需要依次`dummy`现有节点比较,插入其中!
+# 这个道题就像排队,先找个排头`dummy`,然后依次从`head`节点放入`dummy`,只需要依次`dummy`现有节点比较,插入其中!
 
-```python []
+# ```python []
 class Solution:
     def insertionSortList(self, head: ListNode) -> ListNode:
      	# 找个排头
@@ -22,11 +22,11 @@ class Solution:
             pre= dummy
             cur = tmp
         return dummy.next
-```
+# ```
 
 
 
-```java []
+# ```java []
 class Solution {
     public ListNode insertionSortList(ListNode head) {
         ListNode dummy = new ListNode(0);
@@ -43,13 +43,13 @@ class Solution {
         return dummy.next;
     }
 }
-```
+# ```
 
 
 
-一看执行时间`2000ms`,排名靠后,不应该哎!看了别人代码,原来是因为我们每次都要从头比较,但是测试集很多都是顺序排列的,没必要从头开始,我们直接比较最后一个`tail`,放在后面!
+# 一看执行时间`2000ms`,排名靠后,不应该哎!看了别人代码,原来是因为我们每次都要从头比较,但是测试集很多都是顺序排列的,没必要从头开始,我们直接比较最后一个`tail`,放在后面!
 
-```python []
+# ```python []
 class Solution:
     def insertionSortList(self, head: ListNode) -> ListNode:
         # 找个排头
@@ -76,11 +76,11 @@ class Solution:
                 pre= dummy
                 cur = tmp
         return dummy.next
-```
+# ```
 
 
 
-```java []
+# ```java []
 class Solution {
     public ListNode insertionSortList(ListNode head) {
         ListNode dummy = new ListNode(Integer.MIN_VALUE);
@@ -105,5 +105,5 @@ class Solution {
         return dummy.next;
     }
 }
-```
+# ```
 

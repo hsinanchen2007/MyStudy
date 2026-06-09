@@ -1,6 +1,6 @@
-用一个set，使劲往里面塞就行了。。。提前退出条件是set的大小等于数组一半的时候。最后返回set的大小
+// 用一个set，使劲往里面塞就行了。。。提前退出条件是set的大小等于数组一半的时候。最后返回set的大小
 
-```
+// ```
 class Solution {
 public:
     int distributeCandies(vector<int>& candies) {
@@ -15,4 +15,4 @@ public:
         return cans.size();
     }
 };
-```
+// ```

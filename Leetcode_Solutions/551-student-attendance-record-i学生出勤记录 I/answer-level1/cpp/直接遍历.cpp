@@ -1,5 +1,5 @@
-整就完事了
-```
+// 整就完事了
+// ```
 class Solution {
 public:
 	bool checkRecord(string s) {
@@ -18,4 +18,4 @@ public:
 
 	}
 };
-```
+// ```

@@ -1,8 +1,8 @@
-## 思路 动态规划
-时间复杂度：O(N)
-空间复杂度：O(N) -> O(1) [压缩后]
+// ## 思路 动态规划
+// 时间复杂度：O(N)
+// 空间复杂度：O(N) -> O(1) [压缩后]
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numDecodings(string s) {
@@ -30,4 +30,4 @@ public:
         return dp_last;
     }
 };
-```
+// ```

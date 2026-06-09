@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O(m*n)
-唉，代码写的太杂了！！！
+# ### 解题思路
+# 时间复杂度：O(m*n)
+# 唉，代码写的太杂了！！！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         if not num1 or not num2:
@@ -50,4 +50,4 @@ class Solution:
         return s
 
 
-```
+# ```

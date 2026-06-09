@@ -1,9 +1,9 @@
-### 解题思路
-simple case 
+// ### 解题思路
+// simple case 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import (
 	"strings"
 	"strconv"
@@ -39,4 +39,4 @@ func subdomainVisits(cpdomains []string) []string {
 	}
 	return result
 }
-```
+// ```

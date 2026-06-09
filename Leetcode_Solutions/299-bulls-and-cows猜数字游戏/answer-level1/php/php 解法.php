@@ -1,4 +1,4 @@
-```
+// ```
 function getHint($secret, $guess) {
     $a = 0;
     $b = 0;
@@ -24,4 +24,4 @@ function getHint($secret, $guess) {
     }
     return $a."A".$b."B";
 }
-```
+// ```

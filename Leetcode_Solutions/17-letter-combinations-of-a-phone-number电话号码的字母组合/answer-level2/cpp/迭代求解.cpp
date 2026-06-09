@@ -1,9 +1,9 @@
-### 解题思路
-用两个vector pre,ans进行迭代，每次从pre里取出字符串，在其末尾加入相应的字符，得到新一轮迭代的字符串，将每个字符串加入到ans中，最后，更新pre=ans，进行下一轮迭代
+// ### 解题思路
+// 用两个vector pre,ans进行迭代，每次从pre里取出字符串，在其末尾加入相应的字符，得到新一轮迭代的字符串，将每个字符串加入到ans中，最后，更新pre=ans，进行下一轮迭代
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> letterCombinations(string digits) {
@@ -41,4 +41,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-现成的reverse方法反转数组，之后每个元素取反
+// 现成的reverse方法反转数组，之后每个元素取反
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
 	vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
@@ -14,4 +14,4 @@ public:
 		return A;
 	}
 };
-```
+// ```

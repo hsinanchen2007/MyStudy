@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-起点为 1-9
-下一位 满足条件 差值为K  就接入 长度-1 继续dfs
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 起点为 1-9
+// 下一位 满足条件 差值为K  就接入 长度-1 继续dfs
+// ### 代码
 
-```golang
+// ```golang
 func numsSameConsecDiff(N int, K int) []int {
 	if N == 1 {
 		return []int{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
@@ -33,4 +33,4 @@ func dfs(node, len, k, re int, ans *[]int) {
 		re = (re - next) / 10
 	}
 }
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/eef558e46f0986482240d02b7da84d838e343f638095f8cc361aa9f1197028a4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/eef558e46f0986482240d02b7da84d838e343f638095f8cc361aa9f1197028a4-image.png)
 
-```
+// ```
 #define MAXSIZE 52
 
 int longestPalindrome(char * s){
@@ -45,4 +45,4 @@ int longestPalindrome(char * s){
 
     return returnValue;
 }
-```
+// ```

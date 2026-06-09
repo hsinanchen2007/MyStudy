@@ -1,13 +1,13 @@
 
-![javascript.jpg](https://pic.leetcode-cn.com/cc0450d884c0b1859adb21cd8cc5dda72eb1133ce891fef07749f15fa0858e8b-javascript.jpg)
+// ![javascript.jpg](https://pic.leetcode-cn.com/cc0450d884c0b1859adb21cd8cc5dda72eb1133ce891fef07749f15fa0858e8b-javascript.jpg)
 
-<br />
+// <br />
 
-> 首先看递归
+// > 首先看递归
 
-- 比较求值
+// - 比较求值
 
-```javascript []
+// ```javascript []
 const maxDepth = (root, n = 0) => {
   if (!root) return 0
   n++
@@ -16,15 +16,15 @@ const maxDepth = (root, n = 0) => {
   if (root.right) n2 = maxDepth(root.right, n)
   return Math.max(n, n1, n2)
 }
-```
+// ```
 
-<br />
+// <br />
 
-> 然后看迭代
+// > 然后看迭代
 
-- 利用层序遍历累加
+// - 利用层序遍历累加
 
-```javascript []
+// ```javascript []
 const maxDepth = root => {
   if (!root) return 0
   let queue = [root], n = 0
@@ -40,4 +40,4 @@ const maxDepth = root => {
   }
   return n
 }
-```
+// ```

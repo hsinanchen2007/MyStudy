@@ -1,5 +1,5 @@
-维护了一个乘积前缀树，同时维护一个数组存放0所在的位置
-```
+# 维护了一个乘积前缀树，同时维护一个数组存放0所在的位置
+# ```
 class ProductOfNumbers:
 
     def __init__(self):
@@ -24,4 +24,4 @@ class ProductOfNumbers:
         # 否则，返回self.prefixTree[-1] // self.prefixTree[-k-1]
         else:
             return self.prefixTree[-1] // self.prefixTree[-k-1]
-```
+# ```

@@ -1,4 +1,4 @@
-使用target记录数组最右端的数字，然后用start和end标志寻找区间，如果mid位置上的数字小于等于最右端的数字时，区间向左移动，其余向右移动即可，返回start和end位置上较小值即可。
+# 使用target记录数组最右端的数字，然后用start和end标志寻找区间，如果mid位置上的数字小于等于最右端的数字时，区间向左移动，其余向右移动即可，返回start和end位置上较小值即可。
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         

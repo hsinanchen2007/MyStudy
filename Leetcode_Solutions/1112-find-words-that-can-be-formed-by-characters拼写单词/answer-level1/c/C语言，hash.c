@@ -1,9 +1,9 @@
-### 解题思路
-使用字符hash
+// ### 解题思路
+// 使用字符hash
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     int chars_map[26] = {0};
     int chars_map_rsv[26] = {0};
@@ -38,4 +38,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
 
     return count;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} m
@@ -30,4 +30,4 @@ var merge = function (A, m, B, n) {
     A.unshift(...a)
     A.splice(A.length / 2)
 };
-```
+// ```

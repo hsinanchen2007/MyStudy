@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-记录两个指针，一个扫描指针end，找到第k个位置，一个前置指针pre, 单独写一个函数反转 pre->end之间的链表，
-反转后重新建立好关系，两个指针 pre\end 都需要重新置位
+// 记录两个指针，一个扫描指针end，找到第k个位置，一个前置指针pre, 单独写一个函数反转 pre->end之间的链表，
+// 反转后重新建立好关系，两个指针 pre\end 都需要重新置位
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -51,4 +51,4 @@ class Solution {
         return pre;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-如下代码所示
+# ### 解题思路
+# 如下代码所示
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -25,4 +25,4 @@ class Solution:
         if j<n:
             A[m:] = B[j:]
         return A
-```
+# ```

@@ -1,5 +1,5 @@
-我的想法是这道题符合辅助空间，所以可以用这种空间换时间。
-```
+// 我的想法是这道题符合辅助空间，所以可以用这种空间换时间。
+// ```
 public static List<Integer> findDisappearedNumbers(int[] nums) {
         int length = nums.length;
         int[] arrays = new int[length+1];
@@ -14,6 +14,6 @@ public static List<Integer> findDisappearedNumbers(int[] nums) {
         }
         return integerList;
     }
-```
+// ```
 
 

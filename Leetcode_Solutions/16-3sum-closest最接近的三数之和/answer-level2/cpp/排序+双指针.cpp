@@ -1,11 +1,11 @@
-和精选题解的算法一样，使用的是Cpp实现。
-如果单纯的暴力求解那么就会用$O(N^3)$时间复杂度，即三次for循环遍历。
-使用排序+头尾双指针查找则减少了一层遍历，时间复杂度为$$O(NlogN)+O(N^2)=O(N^2)$
+// 和精选题解的算法一样，使用的是Cpp实现。
+// 如果单纯的暴力求解那么就会用$O(N^3)$时间复杂度，即三次for循环遍历。
+// 使用排序+头尾双指针查找则减少了一层遍历，时间复杂度为$$O(NlogN)+O(N^2)=O(N^2)$
 
-如果tmp值比target值小，那将头指针即start指针后移
-如果tmp值比target值大，则将尾指针即end指针前移
+// 如果tmp值比target值小，那将头指针即start指针后移
+// 如果tmp值比target值大，则将尾指针即end指针前移
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -30,4 +30,4 @@ public:
         return ans;
     }
 };
-```
+// ```

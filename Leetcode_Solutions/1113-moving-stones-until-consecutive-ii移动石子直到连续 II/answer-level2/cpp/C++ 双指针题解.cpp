@@ -1,9 +1,9 @@
-### 解题思路
-参考@owen的题解
+// ### 解题思路
+// 参考@owen的题解
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> numMovesStonesII(vector<int>& stones) {
@@ -33,6 +33,6 @@ public:
         return {min_step, max_step};
     }
 }; 
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/5a35c242c81445b9e445b9cb96a9d9cb4e5d320319f914438cc500a51bc88d72-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5a35c242c81445b9e445b9cb96a9d9cb4e5d320319f914438cc500a51bc88d72-image.png)

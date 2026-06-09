@@ -1,9 +1,9 @@
-### 解题思路
-同26题，设置单指针
+// ### 解题思路
+// 同26题，设置单指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -40,4 +40,4 @@ public:
         
     }
 };
-```
+// ```

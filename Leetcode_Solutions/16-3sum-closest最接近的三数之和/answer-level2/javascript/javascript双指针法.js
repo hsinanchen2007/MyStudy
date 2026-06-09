@@ -1,9 +1,9 @@
-### 解题思路
-假如使用三层for循环，时间复杂度将为O(n^3)。因此，只使用一层外部循环，循环内部使用双指针法。从而减小时间复杂度。
+// ### 解题思路
+// 假如使用三层for循环，时间复杂度将为O(n^3)。因此，只使用一层外部循环，循环内部使用双指针法。从而减小时间复杂度。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -30,4 +30,4 @@ var threeSumClosest = function(nums, target) {
     }
     return threeSumCLosest;
 };
-```
+// ```

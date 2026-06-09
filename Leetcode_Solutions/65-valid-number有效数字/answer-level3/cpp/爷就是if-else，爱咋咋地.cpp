@@ -1,8 +1,8 @@
-### 解题思路
-if-else 暴力***
-### 代码
+// ### 解题思路
+// if-else 暴力***
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isNumber(string s) {
@@ -47,4 +47,4 @@ public:
         return s.find_first_not_of("0123456789.+-") == string::npos; 
     }
 };
-```
+// ```

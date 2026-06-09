@@ -1,10 +1,10 @@
-### 解题思路
-二叉搜索树卡片要求用BST来解这道题，所以就这么来写，当然是复杂了很多，但是可以把BST的几个知识点综合一起，还是比较好的。
-BST中始终保留K个值，所以每次只要返回最小的值即可
+# ### 解题思路
+# 二叉搜索树卡片要求用BST来解这道题，所以就这么来写，当然是复杂了很多，但是可以把BST的几个知识点综合一起，还是比较好的。
+# BST中始终保留K个值，所以每次只要返回最小的值即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class TreeNode:
     def __init__(self, val):
         self.val = val
@@ -92,4 +92,4 @@ class KthLargest:
 # Your KthLargest object will be instantiated and called as such:
 # obj = KthLargest(k, nums)
 # param_1 = obj.add(val)
-```
+# ```

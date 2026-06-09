@@ -1,15 +1,15 @@
-### 解题思路
-观察过程规律并使用倒推法
-![image.png](https://pic.leetcode-cn.com/567187c4bac658a03837aa5b5c0681bc9080ca8fcb2a94b1a2acf248366e9e22-image.png)
-遍历排序后的deck(从大到小)
-{
-    List在表头插入元素
-    List表位的元素移动到表头
-}
+// ### 解题思路
+// 观察过程规律并使用倒推法
+// ![image.png](https://pic.leetcode-cn.com/567187c4bac658a03837aa5b5c0681bc9080ca8fcb2a94b1a2acf248366e9e22-image.png)
+// 遍历排序后的deck(从大到小)
+// {
+//     List在表头插入元素
+//     List表位的元素移动到表头
+// }
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] DeckRevealedIncreasing(int[] deck) {
         Array.Sort(deck);
@@ -25,4 +25,4 @@ public class Solution {
         return newDeck.ToArray();
     }
 }
-```
+// ```

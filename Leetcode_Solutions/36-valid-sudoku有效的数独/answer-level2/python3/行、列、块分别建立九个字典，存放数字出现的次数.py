@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         r=[{} for i in range(9)]
@@ -22,4 +22,4 @@ class Solution:
                     return False
         return True
 
-```
+# ```

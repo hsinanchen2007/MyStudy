@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * *********************************************************************
  * // This is the Master's API interface.
@@ -91,5 +91,5 @@ void findSecretWord(char** wordlist, int wordlistSize, Master* master) {
         }
     }
 }
-```
-基本上目前看就一个思路，但是官方题解感觉有点小瑕疵。
+// ```
+// 基本上目前看就一个思路，但是官方题解感觉有点小瑕疵。

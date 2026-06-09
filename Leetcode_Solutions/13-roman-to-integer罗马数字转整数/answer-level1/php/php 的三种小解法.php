@@ -1,5 +1,5 @@
-初解法1：
-```
+// 初解法1：
+// ```
 function romanToInt($s) {
         $value = [900,400,90,40,9,4,1000,500,100,50,10,5,1];
         $str = ['CM','CD','XC','XL','IX','IV','M','D','C','L','X','V','I'];
@@ -10,9 +10,9 @@ function romanToInt($s) {
         }
         return $int;
     }
-```
-初解法2：
-```
+// ```
+// 初解法2：
+// ```
 function romanToInt($s) {
         $value = [900,400,90,40,9,4,1000,500,100,50,10,5,1];
         $str = ['CM','CD','XC','XL','IX','IV','M','D','C','L','X','V','I'];
@@ -28,9 +28,9 @@ function romanToInt($s) {
         }
         return $int;
     }
-```
-解法3：
-```
+// ```
+// 解法3：
+// ```
 function romanToInt($s) {
         $rule = ['M'=>1000,'D'=>500,'C'=>100,'L'=>50,'X'=>10,'V'=>5,'I'=>1];
         $int = 0;
@@ -44,4 +44,4 @@ function romanToInt($s) {
         }
         return $int;
     }
-```
+// ```

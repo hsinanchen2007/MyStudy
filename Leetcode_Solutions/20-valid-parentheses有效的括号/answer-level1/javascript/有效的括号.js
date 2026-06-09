@@ -1,4 +1,4 @@
-```
+// ```
 /*
  * @lc app=leetcode id=20 lang=javascript
  *
@@ -30,4 +30,4 @@ var isValid = function (s) {
 };
 
 
-```
+// ```

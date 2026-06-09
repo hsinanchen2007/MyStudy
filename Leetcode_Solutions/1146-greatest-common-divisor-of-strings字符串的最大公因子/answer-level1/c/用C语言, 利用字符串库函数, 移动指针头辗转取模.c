@@ -1,14 +1,14 @@
-### 解题思路
-使用c语言解题,在字符串处理上会比较麻烦.因为不想开辟多余的空间,多使用比较函数.
-原理就是利用辗转取模,不过这里通过移动字符串指针头的方法,就可以实现.
-![image.png](https://pic.leetcode-cn.com/87fe3fc8c74695b2c5f3eab42d1286e3e1c0364a565aebb343ce3635eeab489c-image.png)
+// ### 解题思路
+// 使用c语言解题,在字符串处理上会比较麻烦.因为不想开辟多余的空间,多使用比较函数.
+// 原理就是利用辗转取模,不过这里通过移动字符串指针头的方法,就可以实现.
+// ![image.png](https://pic.leetcode-cn.com/87fe3fc8c74695b2c5f3eab42d1286e3e1c0364a565aebb343ce3635eeab489c-image.png)
 
-一开始没有考虑@滥意的示例, 经提醒已经修改, 但是判题的示例没有这一类也是有问题的
+// 一开始没有考虑@滥意的示例, 经提醒已经修改, 但是判题的示例没有这一类也是有问题的
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char *gcdOfStrings(char *str1, char *str2)
 {
     //if (strstr(str1, str2) == NULL && strstr(str2, str1) == NULL) 原答案
@@ -25,4 +25,4 @@ char *gcdOfStrings(char *str1, char *str2)
     } while (cmp);
     return str1 + p_a;
 }
-```
+// ```

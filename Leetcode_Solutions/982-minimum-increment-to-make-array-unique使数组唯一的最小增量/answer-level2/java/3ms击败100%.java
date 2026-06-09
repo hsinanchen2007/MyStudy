@@ -1,9 +1,9 @@
-### 解题思路
-长度少于1000用排序
+// ### 解题思路
+// 长度少于1000用排序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private static final int EFFECTIVE_LIMIT_LENGTH = 1000;
 
@@ -43,4 +43,4 @@ class Solution {
         return move;
     }
 }
-```
+// ```

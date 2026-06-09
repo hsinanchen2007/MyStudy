@@ -1,9 +1,9 @@
 
-- 1、处理S长度为 0 1，直接返回S
+// - 1、处理S长度为 0 1，直接返回S
 
-- 2、模拟下就行了，设置一个temp = 1
+// - 2、模拟下就行了，设置一个temp = 1
 
-```js
+// ```js
 var compressString = function(S) {
     let ans = "";
     if (S.length <= 1)
@@ -21,4 +21,4 @@ var compressString = function(S) {
 
     return ans.length < S.length ? ans : S;
 };
-```
+// ```

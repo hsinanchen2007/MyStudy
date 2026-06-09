@@ -1,5 +1,5 @@
-先将链表反转，然后遍历节点，节点值为1时，加上对应的count，count每进行一次循环往左移一位
-```
+// 先将链表反转，然后遍历节点，节点值为1时，加上对应的count，count每进行一次循环往左移一位
+// ```
 class Solution {
     public int getDecimalValue(ListNode head) {
         head = reverse(head);
@@ -34,4 +34,4 @@ class Solution {
         return prev;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int singleNonDuplicate(vector<int>& nums) {
@@ -18,6 +18,6 @@ public:
         return 0;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/17eac52b65e445093a0928271e77a39464cfee5eb275f10743e2845ce3bc8b57-image.png)
+// ![image.png](https://pic.leetcode-cn.com/17eac52b65e445093a0928271e77a39464cfee5eb275f10743e2845ce3bc8b57-image.png)

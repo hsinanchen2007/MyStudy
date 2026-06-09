@@ -1,5 +1,5 @@
 
-```
+// ```
 var surfaceArea = function (grid) {
     let area = 0;
     for (var i in grid) {
@@ -12,8 +12,8 @@ var surfaceArea = function (grid) {
 
     return area
 };
-```
-首先就是遍历长宽，然后计算面积，完啦！
-这个题读了半天才明白意思，二维数组分别代表grid[i][j],v=grid[i][j]表示坐标为(i,j)的地方有v个小方块，我选择从右上角开始计算，然后依次向右上减去重叠的面积！
+// ```
+// 首先就是遍历长宽，然后计算面积，完啦！
+// 这个题读了半天才明白意思，二维数组分别代表grid[i][j],v=grid[i][j]表示坐标为(i,j)的地方有v个小方块，我选择从右上角开始计算，然后依次向右上减去重叠的面积！
 
 

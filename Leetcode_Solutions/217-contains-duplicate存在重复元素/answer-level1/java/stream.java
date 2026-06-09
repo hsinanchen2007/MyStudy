@@ -1,9 +1,9 @@
-### 解题思路
-直接用Stream流去重
+// ### 解题思路
+// 直接用Stream流去重
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         
@@ -11,4 +11,4 @@ class Solution {
         
     }
 }
-```
+// ```

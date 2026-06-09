@@ -1,5 +1,5 @@
-# 代码
-```javascript []
+// # 代码
+// ```javascript []
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -15,4 +15,4 @@ var moveZeroes = function(nums) {
   }
   // return nums;
 };
-```
+// ```

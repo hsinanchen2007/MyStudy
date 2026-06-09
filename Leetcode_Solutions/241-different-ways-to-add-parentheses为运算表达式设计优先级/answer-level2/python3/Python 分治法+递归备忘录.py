@@ -1,6 +1,6 @@
-在递归算法中加入备忘录；
-相当于对递归树剪枝，加快速度
-```python
+# 在递归算法中加入备忘录；
+# 相当于对递归树剪枝，加快速度
+# ```python
 class Solution:
     def diffWaysToCompute(self, input: str):
         # 递归 + 备忘录
@@ -21,4 +21,4 @@ class Solution:
                 ret.extend([eval(str(i) + char + str(j)) for i in leftResult for j in rightResult])
                 self.memo[(lo, hi)] = ret
         return ret
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
-将从第2个节点到第N个节点
-依次逐节点插入到第1个节点(head节点)之后
-最后将第一个节点挪到新表的表尾
-前两个用例真的是忘了
-[]和[1]特殊情况的考虑
+// ### 解题思路
+// 将从第2个节点到第N个节点
+// 依次逐节点插入到第1个节点(head节点)之后
+// 最后将第一个节点挪到新表的表尾
+// 前两个用例真的是忘了
+// []和[1]特殊情况的考虑
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ struct ListNode* reverseList(struct ListNode* head)
 	a->next->next=NULL;//断掉环
 	return head;
 }
-```
+// ```

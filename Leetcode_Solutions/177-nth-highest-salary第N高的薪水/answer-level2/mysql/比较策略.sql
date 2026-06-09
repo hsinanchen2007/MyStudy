@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 #这里必须要做个笔记了
 #之前写select distinct Salary from employee E1 where N=select count(*) 
 # from Employee  E2  where E1.Salary <E2.Salary 
@@ -31,4 +31,4 @@ from (select * from employee group  by Salary
       
   );
 END 
-```
+-- ```

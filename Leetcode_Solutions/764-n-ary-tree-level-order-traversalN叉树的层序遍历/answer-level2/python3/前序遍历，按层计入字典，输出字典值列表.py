@@ -1,6 +1,6 @@
-最好一次是120ms,94.42%
+# 最好一次是120ms,94.42%
 
-```
+# ```
 class Solution:
     def levelOrder(self, root: 'Node') -> List[List[int]]:
         if not root:return []
@@ -11,4 +11,4 @@ class Solution:
                 f(j,i+1)
         f(root)
         return list(d.values())
-```
+# ```

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 string minWindow(string s, string t) {
     int count[256] = { 0 };
     for (auto c : t) ++count[c];
@@ -19,11 +19,11 @@ string minWindow(string s, string t) {
     }
     return res;
 }
-```
+// ```
 
-再压缩一下：
+// 再压缩一下：
 
-```cpp
+// ```cpp
 string minWindow(string s, string t) {
     int count[256] = { 0 };
     for (auto c : t) ++count[c];
@@ -41,5 +41,5 @@ string minWindow(string s, string t) {
     }
     return res;
 }
-```
+// ```
 

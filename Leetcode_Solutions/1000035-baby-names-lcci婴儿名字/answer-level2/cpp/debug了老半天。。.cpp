@@ -1,6 +1,6 @@
-- 用并查集把同一类的名字按字典序并在一起，再把属于同一根节点的频率加到根节点
+// - 用并查集把同一类的名字按字典序并在一起，再把属于同一根节点的频率加到根节点
 
-```cpp
+// ```cpp
 class Solution {
 public:
     unordered_map<string,string>father;
@@ -51,4 +51,4 @@ public:
         return res;
     }
 };
-```
+// ```

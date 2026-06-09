@@ -1,5 +1,5 @@
-因为刚做完 相同的树 和 二叉树的镜像 两道题，所以很容易想到：将root左子树的左右子树递归交换，再和root的右子树比较，如果相同，说明该树是对称的。
-```
+// 因为刚做完 相同的树 和 二叉树的镜像 两道题，所以很容易想到：将root左子树的左右子树递归交换，再和root的右子树比较，如果相同，说明该树是对称的。
+// ```
 class Solution {
     public boolean isSymmetric(TreeNode root) {
         if(root == null) return true;
@@ -32,4 +32,4 @@ class Solution {
 				isSameTree(p.left, q.left);
     }
 }
-```
+// ```

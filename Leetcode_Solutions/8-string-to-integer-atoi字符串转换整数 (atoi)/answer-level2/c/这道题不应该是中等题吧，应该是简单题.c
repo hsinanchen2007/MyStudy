@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d300729ee8ce7cae0dfbc3ede842ab24711457571da244581cf75866d7a16d32-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d300729ee8ce7cae0dfbc3ede842ab24711457571da244581cf75866d7a16d32-image.png)
 
-转换算法很简单，主要是花时间去调试各种边界条件。
+// 转换算法很简单，主要是花时间去调试各种边界条件。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int myAtoi(char * str){
 
@@ -57,4 +57,4 @@ int myAtoi(char * str){
 
 	return flag * num;
 }
-```
+// ```

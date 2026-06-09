@@ -1,6 +1,6 @@
-二叉搜索树特征，左子树所有节点的值<根节点的值<右子树节点的值
-递归检查根节点是否将序列划分为左右子树
-```
+// 二叉搜索树特征，左子树所有节点的值<根节点的值<右子树节点的值
+// 递归检查根节点是否将序列划分为左右子树
+// ```
 class Solution {
     bool helper(vector<int>& post,int lo, int hi){
         if(lo >= hi) return true; //单节点或空节点返回true
@@ -19,4 +19,4 @@ public:
         return helper(postorder,0,postorder.size()-1);
     }
 };
-```
+// ```

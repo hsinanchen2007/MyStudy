@@ -1,9 +1,9 @@
-### 解题思路
-Character.isLetterOrDigit 判断是否是字符或者数字
+// ### 解题思路
+// Character.isLetterOrDigit 判断是否是字符或者数字
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(String s) {
   char[] cha = s.toCharArray();
@@ -25,4 +25,4 @@ class Solution {
 
     }
 }
-```
+// ```

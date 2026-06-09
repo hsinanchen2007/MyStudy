@@ -1,6 +1,6 @@
-方法一：
-bfs，用vector替代queue方便遍历获取每层元素：
-```
+// 方法一：
+// bfs，用vector替代queue方便遍历获取每层元素：
+// ```
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
@@ -39,10 +39,10 @@ public:
         return res;
     }
 };
-```
-方法二：
-dfs，每次遍历元素的时候根据节点所在深度的奇偶性决定是在头部添加元素还是在尾部添加元素：
-```
+// ```
+// 方法二：
+// dfs，每次遍历元素的时候根据节点所在深度的奇偶性决定是在头部添加元素还是在尾部添加元素：
+// ```
 /**
 class Solution {
 public:
@@ -67,4 +67,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-debug要吐血了
-```Java
+// debug要吐血了
+// ```Java
 class Solution {
     public boolean isNumber(String s) {
         s = s.trim();
@@ -50,4 +50,4 @@ class Solution {
         
     }
 }
-```
+// ```

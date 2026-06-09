@@ -1,10 +1,10 @@
-解题思路： 
-1. `new int[]`为每一个航班初始化计数
-2. 遍历`bookings`，把每个`booking`的`booking[2]`（`预订航班数`）分别加给： 从`booking[0]` 到 `booking[1]` 的航班
-3. 返回计数结果
+// 解题思路： 
+// 1. `new int[]`为每一个航班初始化计数
+// 2. 遍历`bookings`，把每个`booking`的`booking[2]`（`预订航班数`）分别加给： 从`booking[0]` 到 `booking[1]` 的航班
+// 3. 返回计数结果
 
 
-```java []
+// ```java []
 class Solution {
     public int[] corpFlightBookings(int[][] bookings, int n) {
         int[] result = new int[n]; //为每一个航班初始化计数
@@ -21,4 +21,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

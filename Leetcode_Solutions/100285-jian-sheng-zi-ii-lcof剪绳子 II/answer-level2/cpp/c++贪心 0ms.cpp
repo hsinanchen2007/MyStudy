@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     //n >= 5 2*(n-2) > n   3*(n-3) > n  且3*(n-3) >= 2*(n-2)
@@ -22,4 +22,4 @@ public:
         return (rs * n) % 1000000007;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var uniqueMorseRepresentations = function(words) {
     let morseMap = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."];
     return new Set(words.map(word=>{
@@ -7,4 +7,4 @@ var uniqueMorseRepresentations = function(words) {
         },"")
     })).size
 };
-```
+// ```

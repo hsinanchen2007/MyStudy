@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-对数组排序之后，用同时遍历两个数组，把相同元素放在第三个数组中，直到一个数组遍历完，结束。
+// 对数组排序之后，用同时遍历两个数组，把相同元素放在第三个数组中，直到一个数组遍历完，结束。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func intersect(nums1 []int, nums2 []int) []int {
 	sort.Ints(nums1)
 	sort.Ints(nums2)
@@ -23,4 +23,4 @@ func intersect(nums1 []int, nums2 []int) []int {
 	}
 	return result
 }
-```
+// ```

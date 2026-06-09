@@ -1,9 +1,9 @@
-### 解题思路
-先压入后检查弹出序列
+// ### 解题思路
+// 先压入后检查弹出序列
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean validateStackSequences(int[] pushed, int[] popped) {
         //用于遍历poped
@@ -21,4 +21,4 @@ class Solution {
         return stack.isEmpty();
     }
 }
-```
+// ```

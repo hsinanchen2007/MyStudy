@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyQueue struct {
     value []int
 }
@@ -50,4 +50,4 @@ func (this *MyQueue) Empty() bool {
  * param_3 := obj.Peek();
  * param_4 := obj.Empty();
  */
-```
+// ```

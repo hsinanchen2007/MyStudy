@@ -1,9 +1,9 @@
-### 解题思路
-注意点就是最后要单独再判断一下倒数两个台阶
+// ### 解题思路
+// 注意点就是最后要单独再判断一下倒数两个台阶
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCostClimbingStairs(vector<int>& cost) {
@@ -17,4 +17,4 @@ public:
     return min(dp[cost.size()], dp[cost.size() + 1]);
     }
 };
-```
+// ```

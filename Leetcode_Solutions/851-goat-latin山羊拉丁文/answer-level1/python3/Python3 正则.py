@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def toGoatLatin(self, S: str) -> str:
         S = S.split()
@@ -13,4 +13,4 @@ class Solution:
             end += "a"
 
         return " ".join(ans)
-```
+# ```

@@ -1,5 +1,5 @@
-规律：vs[row][col]=vs[row-1][col-1]+vs[row-1][col];注意边界。
-```
+// 规律：vs[row][col]=vs[row-1][col-1]+vs[row-1][col];注意边界。
+// ```
 class Solution {
 public:
     vector<vector<int> > generate(int numRows) {
@@ -12,4 +12,4 @@ public:
         return vs;
     }
 };
-```
+// ```

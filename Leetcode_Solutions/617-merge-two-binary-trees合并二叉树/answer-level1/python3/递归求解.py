@@ -1,11 +1,11 @@
-### 解题思路
-大概思路：
-1.合并根节点的值作为新树的根
-2.新树根节点的左子树 为第一棵树和第二棵树的左子树的合并，故而这里直接递归，右树同理
+# ### 解题思路
+# 大概思路：
+# 1.合并根节点的值作为新树的根
+# 2.新树根节点的左子树 为第一棵树和第二棵树的左子树的合并，故而这里直接递归，右树同理
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
         newtree.right = self.mergeTrees(t1.right,t2.right)
          
         return newtree
-```
+# ```

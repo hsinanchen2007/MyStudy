@@ -1,7 +1,7 @@
-bool dp[MAX_LENGTH]，表示从index 0到i的子串能否拆分为多个单词。
-从end index 0开始遍历到结尾，如果子串的尾部能够匹配到字典中的某个单词，则再判断子串余下部分的dp是否也为TRUE，如果未TRUE则表示该子串也可以拆分。
+// bool dp[MAX_LENGTH]，表示从index 0到i的子串能否拆分为多个单词。
+// 从end index 0开始遍历到结尾，如果子串的尾部能够匹配到字典中的某个单词，则再判断子串余下部分的dp是否也为TRUE，如果未TRUE则表示该子串也可以拆分。
 
-```
+// ```
 #define MAX_LENGTH  (200)
 
 bool isStrEndWith(char *s, int endIdx, char *wordDict, int *left)
@@ -48,4 +48,4 @@ bool wordBreak(char *s, char **wordDict, int wordDictSize)
     
     return dp[stringLen - 1];
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/28a22207a1bda667390d5c8777f48488a2490a3b532a7a3cc89c601af4c3e9a1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/28a22207a1bda667390d5c8777f48488a2490a3b532a7a3cc89c601af4c3e9a1-image.png)
 
 
-```
+// ```
 func longestCommonPrefix(strs []string) string {
 	strNumber := len(strs)
 
@@ -36,4 +36,4 @@ I:
 
 	return strs[0][0:i]
 }
-```
+// ```

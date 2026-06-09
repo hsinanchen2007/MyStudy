@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -54,4 +54,4 @@ var orangesRotting = function(grid) {
 //没有新鲜橘子，返回腐烂的时间
     return time;
 };
-```
+// ```

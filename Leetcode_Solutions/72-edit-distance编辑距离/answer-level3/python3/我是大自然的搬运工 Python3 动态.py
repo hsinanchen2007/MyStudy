@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         m, n = len(word1), len(word2)
@@ -16,4 +16,4 @@ class Solution:
             for j in range(1, n+1):
                 dp[i][j] = min(dp[i-1][j-1]+(0 if word1[i-1] == word2[j-1] else 1), dp[i-1][j]+1, dp[i][j-1]+1)
         return dp[m][n]
-```
+# ```

@@ -1,6 +1,6 @@
-**思路**:就是把每个子树的元素和收集在一起 最后集中处理就行了
-**注意**:本人菜鸡+go新手(贴上来算是用来记录自己的成长) 双重debuff加持 py3也就那样 代码仅供参考 哪里有可以改进的地方还请大佬们多多指教
-```golang []
+// **思路**:就是把每个子树的元素和收集在一起 最后集中处理就行了
+// **注意**:本人菜鸡+go新手(贴上来算是用来记录自己的成长) 双重debuff加持 py3也就那样 代码仅供参考 哪里有可以改进的地方还请大佬们多多指教
+// ```golang []
 type TreeNode struct { //创建树结构的结构体
 	Left *TreeNode //左子树
 	Right *TreeNode //右子树
@@ -54,8 +54,8 @@ func findFrequentTreeSum(root *TreeNode) []int {
 	}
 	return make([]int,0) //int切片的创建方式2 需要显式指定len cap可以不指定
 }
-```
-```python []
+// ```
+// ```python []
 from collections import defaultdict #使用defaultdict可以处理得更加方便
 class Solution: 
 	def findFrequentTreeSum(self,root):
@@ -78,4 +78,4 @@ class Solution:
 			goal=max(situ.values())
 			return [i for i,j in situ.items() if j==goal]
 		return []
-```
+// ```

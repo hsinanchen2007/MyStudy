@@ -1,9 +1,9 @@
-### 解题思路
-dp[i][j]表示由i到j，最长的公共子序列长度。
+// ### 解题思路
+// dp[i][j]表示由i到j，最长的公共子序列长度。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
@@ -23,4 +23,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

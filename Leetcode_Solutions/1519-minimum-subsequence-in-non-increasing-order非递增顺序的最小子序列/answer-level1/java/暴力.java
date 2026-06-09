@@ -1,7 +1,7 @@
-* 先排序下
-* 倒序遍历当前和是否大于剩余和，并去符合条件的元素
-# 代码
-```
+// * 先排序下
+// * 倒序遍历当前和是否大于剩余和，并去符合条件的元素
+// # 代码
+// ```
 class Solution {
     public List<Integer> minSubsequence(int[] nums) {
         Arrays.sort(nums);
@@ -20,5 +20,5 @@ class Solution {
         return list;
     }
 }
-```
+// ```
 

@@ -1,5 +1,5 @@
-【总体思路】先找出数组中只出现1次的元素，然后取其中的最大值。
-```
+// 【总体思路】先找出数组中只出现1次的元素，然后取其中的最大值。
+// ```
 import java.util.*;
 
 class Solution {
@@ -24,10 +24,10 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-附测试用例：
-```
+// 附测试用例：
+// ```
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -46,6 +46,6 @@ public class SolutionTest {
         Assert.assertEquals(solution.largestUniqueNumber(a),-1);
     }
 }
-```
+// ```
 
 

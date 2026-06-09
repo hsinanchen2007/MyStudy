@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 INT_MAX = 2 ** 31 - 1
 INT_MIN = -2 ** 31
 class Solution:
@@ -46,4 +46,4 @@ class Solution:
             ans = max(INT_MIN,-ans)
         return ans
         
-```
+# ```

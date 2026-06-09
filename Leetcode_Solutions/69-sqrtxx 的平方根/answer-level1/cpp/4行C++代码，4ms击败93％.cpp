@@ -1,6 +1,6 @@
-- 就想刷个题，结果还得数学好
+// - 就想刷个题，结果还得数学好
 
-```
+// ```
 class Solution {
 public:
     int mySqrt(int x) {
@@ -10,4 +10,4 @@ public:
         return r;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-菜鸡抠脚代码：
-```
+// 菜鸡抠脚代码：
+// ```
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         char[] ch = seq.toCharArray();
@@ -24,4 +24,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

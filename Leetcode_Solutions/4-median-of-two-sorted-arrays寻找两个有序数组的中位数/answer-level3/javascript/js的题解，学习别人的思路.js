@@ -1,11 +1,11 @@
-### 解题思路
-思路来自大佬[思路](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-2/)
+// ### 解题思路
+// 思路来自大佬[思路](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-2/)
 
-- 最重要的地方在于，条件判断的顺序不能颠倒，不然会造成下标越界，判断不到临界值的问题
+// - 最重要的地方在于，条件判断的顺序不能颠倒，不然会造成下标越界，判断不到临界值的问题
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -30,4 +30,4 @@ var findMedianSortedArrays = function(nums1, nums2) {
         else return getKth(arr1, i + 1, e1, arr2, s2, e2, k - ( i - s1 + 1 ))
     }
 };
-```
+// ```

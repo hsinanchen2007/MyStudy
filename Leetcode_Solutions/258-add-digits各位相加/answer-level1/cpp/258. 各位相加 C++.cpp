@@ -1,9 +1,9 @@
-### 解题思路
-1.递归调用，若还不是个位数就继续调用。
+// ### 解题思路
+// 1.递归调用，若还不是个位数就继续调用。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int addDigits(int num) {
@@ -20,4 +20,4 @@ public:
         return ans < 10 ? ans : addDigits(ans);
     }
 };
-```
+// ```

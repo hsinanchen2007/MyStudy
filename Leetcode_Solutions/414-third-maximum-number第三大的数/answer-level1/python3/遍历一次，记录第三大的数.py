@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度要求为0(n),想到了遍历一次数组
+# ### 解题思路
+# 时间复杂度要求为0(n),想到了遍历一次数组
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def thirdMax(self, nums: List[int]) -> int:
         fir_max, sec_max, thi_max = -1,-1,-1
@@ -15,4 +15,4 @@ class Solution:
             elif nums[i] < sec_max and (nums[i] > thi_max or thi_max == -1):
                 thi_max = nums[i]
         return max(nums) if thi_max == -1 else thi_max
-```
+# ```

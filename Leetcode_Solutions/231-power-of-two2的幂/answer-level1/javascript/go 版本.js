@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 func isPowerOfTwo(n int) bool {
     res := false
     for (n > 0) {
@@ -16,5 +16,5 @@ func isPowerOfTwo(n int) bool {
     }
     return res
 }
-```
+// ```
 

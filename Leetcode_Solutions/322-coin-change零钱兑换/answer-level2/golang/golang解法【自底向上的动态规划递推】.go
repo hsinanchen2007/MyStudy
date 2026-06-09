@@ -1,4 +1,4 @@
-```go
+// ```go
 // 典型的动态规划问题，采用自底向上的递推公式
 // 递推公式
 // opt[amount] = min(opt[amount], 1+opt[amount-coin])
@@ -26,4 +26,4 @@ func min(x, y int) int {
     if x < y { return x }
     return y
 }
-```
+// ```

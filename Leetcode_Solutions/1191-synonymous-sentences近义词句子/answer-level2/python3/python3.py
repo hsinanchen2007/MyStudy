@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generateSentences(self, synonyms: List[List[str]], text: str) -> List[str]:
         G=collections.defaultdict(set)
@@ -29,4 +29,4 @@ class Solution:
                         words[i]=u
         backtrack(0)  
         return sorted(res)
-```
+# ```

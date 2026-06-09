@@ -1,9 +1,9 @@
-### 解题思路
-常规思路，DFS。
+// ### 解题思路
+// 常规思路，DFS。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define         MAX_SIZE        200
 #define         MAX_IP_LEN      20
 #define         MIN_IP_LEN      4
@@ -190,4 +190,4 @@ char ** restoreIpAddresses(char * s, int* returnSize)
 
     return rslt;
 }
-```
+// ```

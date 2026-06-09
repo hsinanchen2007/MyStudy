@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str){
     int result = 0, sign = 1;
     int c, count = 0;
@@ -36,4 +36,4 @@ int myAtoi(char * str){
     }
     return sign * result;
 }
-```
+// ```

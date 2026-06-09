@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int hIndex(int[] citations) {
         int len = citations.length;
@@ -22,4 +22,4 @@ class Solution {
         return len - left;
     }
 }
-```
+// ```

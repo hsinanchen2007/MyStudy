@@ -1,7 +1,7 @@
-简单粗暴
-执行用时708 ms,击败了9.42%
-内存消耗9.9 MB,击败了100.00%
-```
+// 简单粗暴
+// 执行用时708 ms,击败了9.42%
+// 内存消耗9.9 MB,击败了100.00%
+// ```
 class Solution {
 public:
     string removeDuplicates(string s, int k) {
@@ -19,4 +19,4 @@ public:
         return s; 
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-最后一个case，使用中序遍历无法判断出不同。
-强行加戏了left null 和 right null的string类型val，与其他正常val一起压栈。
-最后两个栈的内容同步比较。
+// 最后一个case，使用中序遍历无法判断出不同。
+// 强行加戏了left null 和 right null的string类型val，与其他正常val一起压栈。
+// 最后两个栈的内容同步比较。
 
-总觉得实现特别挫。。还没看其他解法，只是自己尝试实现：
-```
+// 总觉得实现特别挫。。还没看其他解法，只是自己尝试实现：
+// ```
 /*
  * @lc app=leetcode.cn id=100 lang=csharp
  *
@@ -61,4 +61,4 @@ public class Solution {
 }
 
 
-```
+// ```

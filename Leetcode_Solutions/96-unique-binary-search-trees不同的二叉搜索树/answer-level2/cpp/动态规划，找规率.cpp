@@ -1,11 +1,11 @@
-### 解题思路
-![SharedScreenshot.jpg](https://pic.leetcode-cn.com/9e28498d209559477a12a1f0f7a9679bf302c0adf5b4d9af701b55fe03c02269-SharedScreenshot.jpg)
-从1到n，挨个做根节点。
-根节点左边的数做左子树，右边的树做右子树。
-两种子树的可能相乘得到该根节点的子树总和
-### 代码
+// ### 解题思路
+// ![SharedScreenshot.jpg](https://pic.leetcode-cn.com/9e28498d209559477a12a1f0f7a9679bf302c0adf5b4d9af701b55fe03c02269-SharedScreenshot.jpg)
+// 从1到n，挨个做根节点。
+// 根节点左边的数做左子树，右边的树做右子树。
+// 两种子树的可能相乘得到该根节点的子树总和
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numTrees(int n) {
@@ -26,4 +26,4 @@ public:
         return result[n];
     }
 };
-```
+// ```

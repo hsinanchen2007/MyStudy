@@ -1,10 +1,10 @@
-### 解题思路
-![QQ图片20200410232113.png](https://pic.leetcode-cn.com/6a2529fea89900b8b3d1c3ae41223c46eb7f86c2510ab03554dcd81400a667c1-QQ%E5%9B%BE%E7%89%8720200410232113.png)
-双百的暴力法
+// ### 解题思路
+// ![QQ图片20200410232113.png](https://pic.leetcode-cn.com/6a2529fea89900b8b3d1c3ae41223c46eb7f86c2510ab03554dcd81400a667c1-QQ%E5%9B%BE%E7%89%8720200410232113.png)
+// 双百的暴力法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle)
 {
 	int n=strlen(haystack);
@@ -40,4 +40,4 @@ int strStr(char * haystack, char * needle)
 	}
 	return -1;
 }
-```
+// ```

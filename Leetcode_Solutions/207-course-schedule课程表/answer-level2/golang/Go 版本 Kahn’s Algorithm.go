@@ -1,4 +1,4 @@
-```
+// ```
 import "container/list"
 
 // Kahn’s Algorithm
@@ -38,4 +38,4 @@ func canFinish(numCourses int, prerequisites [][]int) bool {
 	return len(visitedMap) == numCourses
 }
 
-```
+// ```

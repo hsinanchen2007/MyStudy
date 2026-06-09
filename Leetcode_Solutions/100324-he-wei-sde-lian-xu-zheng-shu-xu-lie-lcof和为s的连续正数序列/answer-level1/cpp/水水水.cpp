@@ -1,10 +1,10 @@
-### 解题思路
-数学加暴力美学
-等差数列求和 + 暴力求解
+// ### 解题思路
+// 数学加暴力美学
+// 等差数列求和 + 暴力求解
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -29,4 +29,4 @@ public:
         return ans;
     }
 };
-```
+// ```

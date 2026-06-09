@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，清清爽爽
+// ### 解题思路
+// 动态规划，清清爽爽
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int coinChange(int* coins, int coinsSize, int amount){
     int* pCount = (int*)malloc(sizeof(int) * (amount + 1));
     int indexOfCount = 0;
@@ -34,4 +34,4 @@ int coinChange(int* coins, int coinsSize, int amount){
 
     return pCount[amount];
 }
-```
+// ```

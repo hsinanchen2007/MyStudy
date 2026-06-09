@@ -1,10 +1,10 @@
-### 解题思路1.利用一个setset集合，里面不包括相同的元素，在遍历树的同时，判断集合中是否包含k-cur.val
-的值，其中cur是当前正在访问的结点。
+// ### 解题思路1.利用一个setset集合，里面不包括相同的元素，在遍历树的同时，判断集合中是否包含k-cur.val
+// 的值，其中cur是当前正在访问的结点。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ class Solution {
        
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var findOcurrences = function(text, first, second) {
     var textArr = text.split(' ')
     var addArr = []
@@ -11,7 +11,7 @@ var findOcurrences = function(text, first, second) {
     }
     return result 
 };
-```
-1. 同时遍历三个数
-2. 用时：80ms
-3. 内存：33.9MB（js100%）
+// ```
+// 1. 同时遍历三个数
+// 2. 用时：80ms
+// 3. 内存：33.9MB（js100%）

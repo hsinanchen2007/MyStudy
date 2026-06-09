@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
         //由于找的是超过三分之一的元素，那么最多是有两个元素的，我们找第一多和第二多的元素。看一下它们是否满足题意
@@ -22,4 +22,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

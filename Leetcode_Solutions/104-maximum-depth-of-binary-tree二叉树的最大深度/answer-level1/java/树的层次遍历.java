@@ -1,9 +1,9 @@
-### 解题思路
-套用了一下树的层次遍历的代码
+// ### 解题思路
+// 套用了一下树的层次遍历的代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         return level;
     }
 }
-```
+// ```

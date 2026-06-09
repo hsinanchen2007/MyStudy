@@ -1,4 +1,4 @@
-```
+# ```
 代码块class Solution:
     def balancedStringSplit(self, s: str) -> int:
         l_list=[]
@@ -14,5 +14,5 @@
                 l_list.clear()
                 r_list.clear()
         return c
-```
-第一次写就成功了，没想到用时还挺快的。
+# ```
+# 第一次写就成功了，没想到用时还挺快的。

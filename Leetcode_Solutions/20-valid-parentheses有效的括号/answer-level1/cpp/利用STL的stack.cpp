@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     bool isValid(string s) {
@@ -18,4 +18,4 @@ public:
         else return false;
     }
 };
-```
+// ```

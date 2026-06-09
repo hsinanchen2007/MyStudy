@@ -1,6 +1,6 @@
-将每个字母坐标记录在字典，然后模拟路径，顺序是上，左，右下随意。
+# 将每个字母坐标记录在字典，然后模拟路径，顺序是上，左，右下随意。
 
-```
+# ```
 class Solution:
     def alphabetBoardPath(self, target: str) -> str:
         alphabet = 'abcdefghijklmnopqrstuvwxyz'
@@ -30,4 +30,4 @@ class Solution:
             if hashMap[i] == hashMap[tmp]:
                 ans += '!'
         return ans
-```
+# ```

@@ -1,8 +1,8 @@
-## 双指针 一次遍历
+// ## 双指针 一次遍历
 
-- 时间复杂度：O(N), 一次循环搞定
-- 空间复杂度：O(1), 两个临时变量
-```
+// - 时间复杂度：O(N), 一次循环搞定
+// - 空间复杂度：O(1), 两个临时变量
+// ```
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -23,4 +23,4 @@ var removeElement = function (nums, val) {
 
     return slow;
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-将num1建立一个unordered_set为m,查找nums2中的元素是否在m中，在的话加入vector res中，并且删除在m中的该元素，避免待会儿出现重复
+// ### 解题思路
+// 将num1建立一个unordered_set为m,查找nums2中的元素是否在m中，在的话加入vector res中，并且删除在m中的该元素，避免待会儿出现重复
 
-### 代码
+// ### 代码
 
 
-```cpp
+// ```cpp
 
 class Solution {
 public:
@@ -21,5 +21,5 @@ public:
     }
 };
 
-```
-```
+// ```
+// ```

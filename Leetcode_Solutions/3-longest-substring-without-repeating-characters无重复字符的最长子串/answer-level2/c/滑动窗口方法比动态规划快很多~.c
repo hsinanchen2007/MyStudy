@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口方法快很多啊！~
+// ### 解题思路
+// 滑动窗口方法快很多啊！~
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(X,Y) ((X) > (Y) ? (X) : (Y))
 static int find(int L, int R, char *s)
 {
@@ -42,4 +42,4 @@ int lengthOfLongestSubstring(char * s){
     }
     return max;
 }
-```
+// ```

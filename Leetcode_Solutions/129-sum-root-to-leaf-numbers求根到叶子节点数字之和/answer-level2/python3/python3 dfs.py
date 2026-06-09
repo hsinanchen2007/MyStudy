@@ -1,6 +1,6 @@
-dfs遍历每个路径，其中用字符串连接与转换的方式，将每个路径的值放在列表中，求和列表得到结果
+# dfs遍历每个路径，其中用字符串连接与转换的方式，将每个路径的值放在列表中，求和列表得到结果
 
-```
+# ```
 class Solution:
     def sumNumbers(self, root: TreeNode) -> int:
         if not root: return 0
@@ -15,4 +15,4 @@ class Solution:
             dfs(node.right,tmp,res)
         dfs(root,'',res)
         return sum(res)
-```
+# ```

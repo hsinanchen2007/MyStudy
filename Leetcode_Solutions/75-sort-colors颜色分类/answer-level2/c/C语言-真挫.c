@@ -1,12 +1,12 @@
-### 解题思路
-C语言/
-qsort最简单了；
-第二种方法：
-先把2放到最后面，然后把1放到2的前面，很挫。。。
+// ### 解题思路
+// C语言/
+// qsort最简单了；
+// 第二种方法：
+// 先把2放到最后面，然后把1放到2的前面，很挫。。。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Compare(const void *a, const void *b) {
     return (*(int *)a - *(int *)b);
 }
@@ -19,9 +19,9 @@ void sortColors(int* nums, int numsSize){
     qsort(nums, numsSize, sizeof(int), Compare);
 }
 
-```
+// ```
 
-```
+// ```
 void swap(int *nums, int i, int j) {
     int temp = nums[i];
     nums[i] = nums[j];
@@ -71,4 +71,4 @@ void sortColors(int* nums, int numsSize){
     }
 }
 
-```
+// ```

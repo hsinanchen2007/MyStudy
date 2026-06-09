@@ -1,9 +1,9 @@
-### 解题思路
-我想的是依次比较，X的最低位和最高位的数字
+// ### 解题思路
+// 我想的是依次比较，X的最低位和最高位的数字
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         if(x < 0){
@@ -24,4 +24,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

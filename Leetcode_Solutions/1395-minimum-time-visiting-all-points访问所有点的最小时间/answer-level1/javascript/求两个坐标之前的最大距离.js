@@ -1,10 +1,10 @@
-### 解题思路
-分为两种情况，两个点的线路是一条直线（直线，斜线）， 两个点之间的路线需要转折的。
-发现就是求两个点之间距离的最大值就可以了
+// ### 解题思路
+// 分为两种情况，两个点的线路是一条直线（直线，斜线）， 两个点之间的路线需要转折的。
+// 发现就是求两个点之间距离的最大值就可以了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} points
  * @return {number}
@@ -20,4 +20,4 @@ var minTimeToVisitAllPoints = function(points) {
     }
     return count;
 };
-```
+// ```

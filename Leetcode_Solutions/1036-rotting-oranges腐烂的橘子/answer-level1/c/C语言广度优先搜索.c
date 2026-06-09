@@ -1,12 +1,12 @@
-### 解题思路
-用数组模拟队列，先将初始烂橘子入队后，每层遍历mins++，注意可能会出现没有橘子可污染的情况，这时候会
-出队但是不会入队，不能加时间
-而在广度优先遍历过程中队列需要一个start和一个end，但是由于进队出队的时候start和end会变，
-所以一开始要用两个flag记录这两个值用于for循环
+// ### 解题思路
+// 用数组模拟队列，先将初始烂橘子入队后，每层遍历mins++，注意可能会出现没有橘子可污染的情况，这时候会
+// 出队但是不会入队，不能加时间
+// 而在广度优先遍历过程中队列需要一个start和一个end，但是由于进队出队的时候start和end会变，
+// 所以一开始要用两个flag记录这两个值用于for循环
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 void bfs(int** grid, int gridSize, int* gridColSize, int **queue, int start, int end, int *mins)
 {
@@ -93,4 +93,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
     }
     return mins;
 }
-```
+// ```

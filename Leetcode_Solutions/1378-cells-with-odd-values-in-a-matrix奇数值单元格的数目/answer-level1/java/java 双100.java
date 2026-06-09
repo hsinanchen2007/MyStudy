@@ -1,10 +1,10 @@
-### 解题思路
-核心思想求出，出现次数为奇数的行，列 。
-异或用来标记出现为奇数的位。
+// ### 解题思路
+// 核心思想求出，出现次数为奇数的行，列 。
+// 异或用来标记出现为奇数的位。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int oddCells(int n, int m, int[][] indices) {
         long x = 0;
@@ -32,4 +32,4 @@ class Solution {
         return countx;
     }
 }
-```
+// ```

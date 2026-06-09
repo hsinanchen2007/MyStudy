@@ -1,9 +1,9 @@
-### 解题思路
-dp[i]存储的是丢第 i 个后每个点数出现的概率
+// ### 解题思路
+// dp[i]存储的是丢第 i 个后每个点数出现的概率
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number[]}
@@ -28,4 +28,4 @@ var twoSum = function(n) {
     }
     return dp.slice(cnt-1);
 };
-```
+// ```

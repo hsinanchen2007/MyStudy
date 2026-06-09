@@ -1,5 +1,5 @@
-**利用集合元素互异性去重，来找到无重复对.**
-```
+# **利用集合元素互异性去重，来找到无重复对.**
+# ```
 class Solution:
     def findPairs(self, nums: List[int], k: int) -> int:
         if k < 0:
@@ -9,4 +9,4 @@ class Solution:
         cl = [i+k for i in nums]
         return len(set(cl)&set(nums))
             
-```
+# ```

@@ -1,7 +1,7 @@
-执行用时 :68 ms, 在所有 Python3 提交中击败了90.88%的用户
-内存消耗 :13.1 MB, 在所有 Python3 提交中击败了91.67%的用户
+# 执行用时 :68 ms, 在所有 Python3 提交中击败了90.88%的用户
+# 内存消耗 :13.1 MB, 在所有 Python3 提交中击败了91.67%的用户
 
-```python [3]
+# ```python [3]
 class Solution:
     def compress(self, chars: List[str]) -> int:
         if len(chars) < 2:
@@ -47,6 +47,6 @@ class Solution:
                         p_new_value = p_new_value+1
         return p_new_value
 
-```
+# ```
 
 

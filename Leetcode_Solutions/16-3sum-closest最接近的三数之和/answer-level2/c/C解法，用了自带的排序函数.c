@@ -1,9 +1,9 @@
-### 解题思路
-因为之前做过三数和的题目，这道题终于不用看别人的题解了，不过效率不高，怕是有很多可以改进的地方，望指正
+// ### 解题思路
+// 因为之前做过三数和的题目，这道题终于不用看别人的题解了，不过效率不高，怕是有很多可以改进的地方，望指正
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int compare(const void *value1, const void *value2) 
 {
     return *(int*)value1 - *(int*)value2;
@@ -51,4 +51,4 @@ int threeSumClosest(int* nums, int numsSize, int target){
 }
 
 
-```
+// ```

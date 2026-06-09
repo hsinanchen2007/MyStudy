@@ -1,8 +1,8 @@
-## 解题思路：
-通过找出从根到两个节点的路径，再比较两个路径最后一个共同节点，就是两个节点的最近公共祖先。
+// ## 解题思路：
+// 通过找出从根到两个节点的路径，再比较两个路径最后一个共同节点，就是两个节点的最近公共祖先。
 
-函数1，找出路径：
-```go
+// 函数1，找出路径：
+// ```go
 func getPath(root, node *TreeNode) []*TreeNode{
     var res []*TreeNode
     cur := root
@@ -18,10 +18,10 @@ func getPath(root, node *TreeNode) []*TreeNode{
     res = append(res, cur)
     return res
 }
-```
+// ```
 
-函数2，遍历两条路径，找出最近公共祖先
-```go
+// 函数2，遍历两条路径，找出最近公共祖先
+// ```go
 func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
     path1 := getPath(root, p)
     path2 := getPath(root, q)
@@ -35,7 +35,7 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
     }
     return cur
 }
-```
+// ```
 
-这样的时间复杂度是O(N)，但是系数较大. 不是一个很快的时间复杂度。但是逻辑很清晰。
+// 这样的时间复杂度是O(N)，但是系数较大. 不是一个很快的时间复杂度。但是逻辑很清晰。
 

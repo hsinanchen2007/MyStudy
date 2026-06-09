@@ -1,9 +1,9 @@
-### 解题思路
-<<1
+// ### 解题思路
+// <<1
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -20,4 +20,4 @@ func getDecimalValue(head *ListNode) int {
     }
     return num
 }
-```
+// ```

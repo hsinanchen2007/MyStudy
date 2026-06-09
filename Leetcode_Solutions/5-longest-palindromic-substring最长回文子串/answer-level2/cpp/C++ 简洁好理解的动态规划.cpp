@@ -1,9 +1,9 @@
-### 解题思路
-dp[i][j]存放的是[i,,,,j]是否是回文区间
-dp[i][j]=dp[i+1][j-1]&&(s[i]==s[j])去除两端之间的子串是回文子串，且两端相等
-### 代码
+// ### 解题思路
+// dp[i][j]存放的是[i,,,,j]是否是回文区间
+// dp[i][j]=dp[i+1][j-1]&&(s[i]==s[j])去除两端之间的子串是回文子串，且两端相等
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

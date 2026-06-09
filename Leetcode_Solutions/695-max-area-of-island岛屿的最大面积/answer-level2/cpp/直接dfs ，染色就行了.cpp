@@ -1,5 +1,5 @@
-直接dfs ，染色就行了
-```
+// 直接dfs ，染色就行了
+// ```
 class Solution {
 public:
     int maxx;
@@ -39,4 +39,4 @@ public:
         return maxx;
     }
 };
-```
+// ```

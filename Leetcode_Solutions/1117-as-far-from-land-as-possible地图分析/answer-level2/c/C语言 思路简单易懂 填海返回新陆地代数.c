@@ -1,9 +1,9 @@
-### 解题思路
-模拟填海，从新一代陆地将周围距离为1的海洋填成陆地，最后返回填海产生的代数k == 2 ? -1 : k - 2
+// ### 解题思路
+// 模拟填海，从新一代陆地将周围距离为1的海洋填成陆地，最后返回填海产生的代数k == 2 ? -1 : k - 2
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxDistance(int** grid, int gridSize, int* gridColSize){
     int k = 2; // 填海代数
 	int flag = 0;
@@ -41,4 +41,4 @@ int maxDistance(int** grid, int gridSize, int* gridColSize){
 	} while (flag);
 	return	k == 2 ? -1 : k - 2;
 }
-```
+// ```

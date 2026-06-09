@@ -1,9 +1,9 @@
-### 解题思路
-没找到太好的去重方法，就用了set去重
+# ### 解题思路
+# 没找到太好的去重方法，就用了set去重
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findSubsequences(self, nums: List[int]) -> List[List[int]]:
         if len(nums) < 2:
@@ -20,4 +20,4 @@ class Solution:
         for i in range(len(nums)):
             helper(nums,i,[nums[i]])
         return [list(a) for a in ans]
-```
+# ```

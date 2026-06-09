@@ -1,9 +1,9 @@
-### 解题思路
-使用哈希表，键值对
+// ### 解题思路
+// 使用哈希表，键值对
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} J
  * @param {string} S
@@ -26,4 +26,4 @@ var numJewelsInStones = function(J, S) {
     }
     return count;
 };
-```
+// ```

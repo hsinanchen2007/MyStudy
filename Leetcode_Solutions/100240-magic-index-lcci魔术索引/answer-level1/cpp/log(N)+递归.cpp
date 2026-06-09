@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 	int findMagicIndex(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
 		return ret == INT_MAX ? -1 : ret;
 	}
 };
-```
+// ```

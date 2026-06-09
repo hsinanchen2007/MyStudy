@@ -1,5 +1,5 @@
-#python3 在每一步递归前查重（字典），用元组hash，用时104ms。
-```python3 []
+# #python3 在每一步递归前查重（字典），用元组hash，用时104ms。
+# ```python3 []
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         if not nums:
@@ -26,4 +26,4 @@ class Solution:
                         pailie(f1, f2, i+1)
         pailie(nums)
         return s
-```
+# ```

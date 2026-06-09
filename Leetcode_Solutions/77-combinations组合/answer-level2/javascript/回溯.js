@@ -1,9 +1,9 @@
-### 解题思路
-典型的回溯。
+// ### 解题思路
+// 典型的回溯。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} k
@@ -28,8 +28,8 @@ var combine = function(n, k) {
     backTrace([], 0);
     return resArr;
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(k*Cnk) Cnk = N!/((N-k)!k!)
-- 空间复杂度 O(Cnk)
+// ### 复杂度
+// - 时间复杂度 O(k*Cnk) Cnk = N!/((N-k)!k!)
+// - 空间复杂度 O(Cnk)

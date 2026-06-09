@@ -1,4 +1,4 @@
-```
+// ```
 function isSameTree($p, $q) {
     if($p===null && $q===null) return true;
     if($p===null || $q===null) return false;
@@ -7,4 +7,4 @@ function isSameTree($p, $q) {
                 && $this->isSameTree($p->right, $q->right);
     return false;
 }
-```
+// ```

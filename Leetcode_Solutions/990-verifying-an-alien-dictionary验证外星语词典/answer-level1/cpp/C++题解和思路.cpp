@@ -1,6 +1,6 @@
-跳过前面相同部分，比较两个单词不同的地方，注意点在注释中
+// 跳过前面相同部分，比较两个单词不同的地方，注意点在注释中
 
-```
+// ```
 class Solution {
     unordered_map<char, int> hash;
 
@@ -27,4 +27,4 @@ public:
         return true;
     }
 };
-```
+// ```

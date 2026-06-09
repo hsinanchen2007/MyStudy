@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-"穿着衣服洗澡"
+// "穿着衣服洗澡"
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int* nums;
     int numsSize;
@@ -35,4 +35,4 @@ void numArrayFree(NumArray* obj) {
  
  * numArrayFree(obj);
 */
-```
+// ```

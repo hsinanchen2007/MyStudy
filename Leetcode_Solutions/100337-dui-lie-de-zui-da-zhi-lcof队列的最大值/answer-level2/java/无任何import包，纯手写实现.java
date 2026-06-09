@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/da7882d8deb83c8aa54c1356b870c473a4b4a3c30058cb722c0d40203796b738-image.png)
+// ![image.png](https://pic.leetcode-cn.com/da7882d8deb83c8aa54c1356b870c473a4b4a3c30058cb722c0d40203796b738-image.png)
 
-### 解题思路
-内置内部内Queue处理
+// ### 解题思路
+// 内置内部内Queue处理
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
     private int maxValue;
     private Queue firstValueIndex;
@@ -86,4 +86,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

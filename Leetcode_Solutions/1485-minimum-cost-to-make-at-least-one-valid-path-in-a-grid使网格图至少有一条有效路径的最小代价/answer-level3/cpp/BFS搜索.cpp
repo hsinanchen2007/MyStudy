@@ -1,13 +1,13 @@
-### 解题思路
-BFS广度优先搜索，最短路径
-将箭头可以走到的地方全部加入队列，并标记访问过
-然后将队列里的取出，向4个方向反转路径，并一路添加新的没访问的可走点
+// ### 解题思路
+// BFS广度优先搜索，最短路径
+// 将箭头可以走到的地方全部加入队列，并标记访问过
+// 然后将队列里的取出，向4个方向反转路径，并一路添加新的没访问的可走点
 
-[https://michael.blog.csdn.net/article/details/104598714](https://michael.blog.csdn.net/article/details/104598714)
+// [https://michael.blog.csdn.net/article/details/104598714](https://michael.blog.csdn.net/article/details/104598714)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCost(vector<vector<int>>& grid) {
@@ -55,4 +55,4 @@ public:
         return flip;
     }
 };
-```
+// ```

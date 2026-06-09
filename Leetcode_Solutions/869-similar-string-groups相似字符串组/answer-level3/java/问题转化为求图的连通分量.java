@@ -1,9 +1,9 @@
-题目说的有点绕，我们可以这样理解：  
-对于A中的每个字符串，它们都是某个图的点，这个图的顶点个数就是A数组的长度。   
-那么如何判断图中的顶点是否相连呢？题目中给出了判定两个字符串是否相似的方法：  
-即如果交换两个字符后，它们相同，可判定为相似，也就是图中的顶点连通。  
-判定相似的方法如下：  
-```
+// 题目说的有点绕，我们可以这样理解：  
+// 对于A中的每个字符串，它们都是某个图的点，这个图的顶点个数就是A数组的长度。   
+// 那么如何判断图中的顶点是否相连呢？题目中给出了判定两个字符串是否相似的方法：  
+// 即如果交换两个字符后，它们相同，可判定为相似，也就是图中的顶点连通。  
+// 判定相似的方法如下：  
+// ```
 public boolean Similar(String a,String b) {
         char[] ca = a.toCharArray();
         char[] cb = b.toCharArray();
@@ -16,12 +16,12 @@ public boolean Similar(String a,String b) {
         if(count == 2 || count == 0) return true;
         return false;
     }
-```  
-于是我们得到了一个图，问题是求有多少组是相似的，也就是有多少组是连通的。  
-图的极大连通子图称为连通分量，此题也就是求图的连通分量个数。
-求图的连通分量个数可以采用BFS和DFS，当然采用并查集的方法也是好的。  
-这里贴出BFS和并查集的方法，仅供参考：  
-```
+// ```  
+// 于是我们得到了一个图，问题是求有多少组是相似的，也就是有多少组是连通的。  
+// 图的极大连通子图称为连通分量，此题也就是求图的连通分量个数。
+// 求图的连通分量个数可以采用BFS和DFS，当然采用并查集的方法也是好的。  
+// 这里贴出BFS和并查集的方法，仅供参考：  
+// ```
 class Solution {
     public int numSimilarGroups(String[] A) {
            /*
@@ -70,8 +70,8 @@ class Solution {
     }
 }  
   
-``` 
-```
+// ``` 
+// ```
 public int numSimilarGroups(String[] A) {
          /*并查集方法*/
         int n = A.length;
@@ -118,4 +118,4 @@ public boolean Similar(String a,String b) {
         if(count == 2 || count == 0) return true;
         return false;
     }
-```
+// ```

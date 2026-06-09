@@ -1,10 +1,10 @@
-### 解题思路
-BFS:学习BUF框架，参考
-https://leetcode-cn.com/problems/rotting-oranges/solution/li-qing-si-lu-wei-shi-yao-yong-bfsyi-ji-ru-he-xie-/
+// ### 解题思路
+// BFS:学习BUF框架，参考
+// https://leetcode-cn.com/problems/rotting-oranges/solution/li-qing-si-lu-wei-shi-yao-yong-bfsyi-ji-ru-he-xie-/
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 struct Pos {
     Pos (int r, int c) : row(r), col(c) {}
@@ -73,4 +73,4 @@ public:
     }
 
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-新建一个ArrayList把结果存进去，再将ArrayList转成int数组
+// ### 解题思路
+// 新建一个ArrayList把结果存进去，再将ArrayList转成int数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 class Solution {
     public int[] decompressRLElist(int[] nums) {
@@ -17,4 +17,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-更新 index的位置信息 规则是后边又相同或者小于当前数字的 自动位置更新+1 同时用更新后的数继续比 
+// 更新 index的位置信息 规则是后边又相同或者小于当前数字的 自动位置更新+1 同时用更新后的数继续比 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] CreateTargetArray(int[] nums, int[] index) {
         int[] target = new int[nums.Length];
@@ -29,4 +29,4 @@ public class Solution {
         return cur;
     }
 }
-```
+// ```

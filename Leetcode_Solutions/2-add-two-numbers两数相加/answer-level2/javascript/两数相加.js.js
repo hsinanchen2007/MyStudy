@@ -1,8 +1,8 @@
-### 解题思路
-当链表未到末尾时正常迭代，利用与逻辑阻断到达末尾后的迭代操作
-### 代码
+// ### 解题思路
+// 当链表未到末尾时正常迭代，利用与逻辑阻断到达末尾后的迭代操作
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -31,4 +31,4 @@ var addTwoNumbers = function(l1, l2) {
     }
     return r.next
 }
-```
+// ```

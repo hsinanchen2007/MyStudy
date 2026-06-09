@@ -1,5 +1,5 @@
-![QQ截图20200114141023.png](https://pic.leetcode-cn.com/97a0bdb86b1122fcabc64577e1f8f81a2ecb8d014433dc1c6e2a19392eb81fbb-QQ%E6%88%AA%E5%9B%BE20200114141023.png)
-```java
+// ![QQ截图20200114141023.png](https://pic.leetcode-cn.com/97a0bdb86b1122fcabc64577e1f8f81a2ecb8d014433dc1c6e2a19392eb81fbb-QQ%E6%88%AA%E5%9B%BE20200114141023.png)
+// ```java
 // 莫非我是漏网之鱼?
 public class SlidingWindowMaximum {
     public int[] maxSlidingWindow(int[] nums, int k) {
@@ -43,4 +43,4 @@ public class SlidingWindowMaximum {
     }
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```golang
+// ```golang
 type UFS struct {
     roots []int
     cnt int
@@ -50,4 +50,4 @@ func findCircleNum(M [][]int) int {
     }
     return ufs.cnt
 }
-```
+// ```

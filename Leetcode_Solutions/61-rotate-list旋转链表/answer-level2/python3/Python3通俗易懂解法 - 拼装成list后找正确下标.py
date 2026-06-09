@@ -1,10 +1,10 @@
-### 解题思路
-思路贼简单, 直接把链表读出来装入list中. 然后算出新的头结点的下标, 再修改回输入链表中. 
-时间开销: O(N), 空间开销: O(N)
+# ### 解题思路
+# 思路贼简单, 直接把链表读出来装入list中. 然后算出新的头结点的下标, 再修改回输入链表中. 
+# 时间开销: O(N), 空间开销: O(N)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
         return head
 
             
-```
+# ```

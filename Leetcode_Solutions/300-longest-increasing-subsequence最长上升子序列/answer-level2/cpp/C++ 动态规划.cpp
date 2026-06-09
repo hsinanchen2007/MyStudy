@@ -1,9 +1,9 @@
-### 解题思路
-标准的动态规划，每一个数字向前找，如果比前面的数字大，则此时的递增序列为dp(i) = max(dp(i), dp(j) + 1);
+// ### 解题思路
+// 标准的动态规划，每一个数字向前找，如果比前面的数字大，则此时的递增序列为dp(i) = max(dp(i), dp(j) + 1);
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return dp.back() + 1;
     }
 };
-```
+// ```

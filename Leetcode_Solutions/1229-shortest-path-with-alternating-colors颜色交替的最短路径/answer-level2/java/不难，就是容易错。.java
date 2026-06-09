@@ -1,9 +1,9 @@
-### 解题思路
-参考各位大佬的想法写的，就是要记得上一个访问的边的颜色，还要记录访问过的点。写起来没什么，就是可能容易乱。
+// ### 解题思路
+// 参考各位大佬的想法写的，就是要记得上一个访问的边的颜色，还要记录访问过的点。写起来没什么，就是可能容易乱。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] shortestAlternatingPaths(int n, int[][] red_edges, int[][] blue_edges) {
     	Queue<int []>queue=new LinkedList();
@@ -66,4 +66,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

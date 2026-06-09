@@ -1,5 +1,5 @@
-# 代码
-```java []
+// # 代码
+// ```java []
 class Solution {
     public TreeNode dfs(TreeNode root){
         if(root==null) return null;
@@ -14,4 +14,4 @@ class Solution {
         return dfs(root);
     }
 }
-```
+// ```

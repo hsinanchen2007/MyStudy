@@ -1,4 +1,4 @@
-```
+-- ```
 select 
     u.user_id as seller_id, 
     if(isnull(s1.item_brand) ||(s1.item_brand != u.favorite_brand ) ,'no','yes') as 2nd_item_fav_brand 
@@ -21,4 +21,4 @@ order by seller_id,order_date
 where num = 2
 group by seller_id
 )s1 right join Users u on u.user_id=s1.seller_id
-```
+-- ```

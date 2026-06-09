@@ -1,6 +1,6 @@
-//int a[n] = {};数组初始化赋值，没有赋值的就会变为，所以这行代码等于全部初始化为0
-代码思想：递归dps，借助一个标记数组。
-```
+// //int a[n] = {};数组初始化赋值，没有赋值的就会变为，所以这行代码等于全部初始化为0
+// 代码思想：递归dps，借助一个标记数组。
+// ```
 void recursion(int i,int j,int* temp,int* sign,int* nums,int numsSize,int* returnSize,int** result){
     temp[i] = nums[j];
     if(i == numsSize-1){
@@ -46,4 +46,4 @@ int** permute(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     }
     return result;
 }
-```
+// ```

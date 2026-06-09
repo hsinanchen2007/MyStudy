@@ -1,9 +1,9 @@
-### 解题思路
-寻找每段连续递增子数组，记录长度，与上次的子数组比较长度，取较大者。
+// ### 解题思路
+// 寻找每段连续递增子数组，记录长度，与上次的子数组比较长度，取较大者。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findLengthOfLCIS(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return max_len;
     }
 };
-```
+// ```

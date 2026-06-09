@@ -1,5 +1,5 @@
 
-```
+# ```
 def heightChecker(self, heights: List[int]) -> int:
     a = sorted(heights)
     n = 0
@@ -7,4 +7,4 @@ def heightChecker(self, heights: List[int]) -> int:
         if a[i] ^ heights[i] != 0:
             n += 1
     return n
-```
+# ```

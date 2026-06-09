@@ -1,5 +1,5 @@
-经典的最大路径问题，可以DP 也可以 递归+缓存，这里贴上 **相对** 不常见的递归
-```js
+// 经典的最大路径问题，可以DP 也可以 递归+缓存，这里贴上 **相对** 不常见的递归
+// ```js
 var maxValue = function(grid ) {
     
     if(grid.length === 0 || grid[0].length === 0) return 0
@@ -24,4 +24,4 @@ function isVaildPath(grid,row,col){
     return row >= 0 && row <= grid.length && col >= 0 && col <= grid[0].length
 }
 
-```
+// ```

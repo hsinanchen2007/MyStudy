@@ -1,9 +1,9 @@
-### 解题思路
-找好传递的变量，写好输出条件
+# ### 解题思路
+# 找好传递的变量，写好输出条件
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         result = []
@@ -17,4 +17,4 @@ class Solution:
             backtrack(0, [], i)
         return result
 
-```
+# ```

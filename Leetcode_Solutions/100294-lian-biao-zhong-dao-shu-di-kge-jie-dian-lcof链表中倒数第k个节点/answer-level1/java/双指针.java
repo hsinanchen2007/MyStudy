@@ -1,9 +1,9 @@
-### 解题思路
-i先走k步，然后i，j同步走直到i到达终点
+// ### 解题思路
+// i先走k步，然后i，j同步走直到i到达终点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ class Solution {
         return j;
     }
 }
-```
+// ```

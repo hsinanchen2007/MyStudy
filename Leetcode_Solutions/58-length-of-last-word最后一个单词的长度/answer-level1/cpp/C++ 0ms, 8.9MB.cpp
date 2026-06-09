@@ -1,11 +1,11 @@
-### 解题思路
-倒着数
+// ### 解题思路
+// 倒着数
 
-![image.png](https://pic.leetcode-cn.com/e0065ba47cc265cb542a5871c5796a950622f67c25fe75d0fb863cbd15968705-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e0065ba47cc265cb542a5871c5796a950622f67c25fe75d0fb863cbd15968705-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -19,4 +19,4 @@ public:
         return len - now;
     }
 };
-```
+// ```

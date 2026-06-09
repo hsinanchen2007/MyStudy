@@ -1,6 +1,6 @@
-先求最大的子数组和
+// 先求最大的子数组和
 
-```javascript []
+// ```javascript []
 var findMaxAverage = function(nums, k) {
   let max=0,sum=0;
   for(let i = 0; i<k&&i<nums.length;i++){
@@ -15,5 +15,5 @@ var findMaxAverage = function(nums, k) {
   }
   return max/k;
 };
-```
+// ```
 

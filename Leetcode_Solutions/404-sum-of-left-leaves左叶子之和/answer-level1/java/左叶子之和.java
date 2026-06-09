@@ -1,8 +1,8 @@
-### 解题思路
-    求取二叉树左子树之和，那么可以递归求取。首先判断它是不是左叶子节点，如果是则加进去
-### 代码
+// ### 解题思路
+//     求取二叉树左子树之和，那么可以递归求取。首先判断它是不是左叶子节点，如果是则加进去
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ class Solution {
         return sumOfLeftLeaves(root.left)+sumOfLeftLeaves(root.right)+sum;
     }
 }
-```
+// ```

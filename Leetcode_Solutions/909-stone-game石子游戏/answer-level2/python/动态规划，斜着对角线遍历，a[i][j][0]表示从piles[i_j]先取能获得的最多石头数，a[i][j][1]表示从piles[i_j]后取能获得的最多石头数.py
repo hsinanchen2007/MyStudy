@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
 
     def stoneGame(self, piles):
@@ -31,4 +31,4 @@ class Solution(object):
                     a[i][j][0]=piles[j]+a[i][j-1][1]
                     a[i][j][1]=a[i][j-1][0]
         return a[0][len(piles)-1][0]>=a[0][len(piles)-1][1]
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def sortedSquares(A: Array[Int]): Array[Int] = {
     import scala.collection.mutable.ArrayBuffer
@@ -29,4 +29,4 @@ object Solution {
     return myArrayBuffer.toArray
   }
 }
-```
+// ```

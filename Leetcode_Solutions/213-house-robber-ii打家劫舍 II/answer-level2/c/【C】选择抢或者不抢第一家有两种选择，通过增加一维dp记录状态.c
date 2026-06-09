@@ -1,8 +1,8 @@
-1.添加第一家抢和不抢两种状态
-dp[1][0] 抢第一家
-dp[1][1] 不抢第一家
-2.最后在dp[n][0]与dp[n][1]中求最大值
-```
+// 1.添加第一家抢和不抢两种状态
+// dp[1][0] 抢第一家
+// dp[1][1] 不抢第一家
+// 2.最后在dp[n][0]与dp[n][1]中求最大值
+// ```
 #ifndef __cplusplus
 #define max(a,b)    (((a) > (b)) ? (a) : (b))
 #define min(a,b)    (((a) < (b)) ? (a) : (b))
@@ -56,4 +56,4 @@ int rob(int* nums, int numsSize)
     return result;
 }
 
-```
+// ```

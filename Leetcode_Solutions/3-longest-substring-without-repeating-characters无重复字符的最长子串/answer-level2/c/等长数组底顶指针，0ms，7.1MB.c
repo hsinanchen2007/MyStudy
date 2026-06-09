@@ -1,4 +1,4 @@
-```python3 []
+// ```python3 []
 def lengthOfLongestSubString(s):
     length = len(s)
     if length <= 1:
@@ -10,8 +10,8 @@ def lengthOfLongestSubString(s):
             lst = lst[lst.index(s[i])+1:]
         lst.append(s[i])
     return max(_max, len(lst))
-```
-```c []
+// ```
+// ```c []
 int lengthOfLongestSubString(char *s){
     int len = strlen(s);
     if(len<=1) return len;
@@ -33,7 +33,7 @@ int lengthOfLongestSubString(char *s){
     }
     return top-base>max?top-base:max;
 }
-```
+// ```
 
 
 

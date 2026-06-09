@@ -1,9 +1,9 @@
-### 解题思路
-全部遍历超出时长，用二分法求解
+# ### 解题思路
+# 全部遍历超出时长，用二分法求解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mySqrt(self, x: int) -> int:
         if  x < 2:
@@ -22,4 +22,4 @@ class Solution:
                 left = mid + 1
         
         return right
-```
+# ```

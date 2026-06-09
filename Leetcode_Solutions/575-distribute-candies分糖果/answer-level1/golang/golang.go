@@ -1,4 +1,4 @@
-```
+// ```
 func distributeCandies(candies []int) int {
     m := make(map[int]int)
 	sum := len(candies)
@@ -13,4 +13,4 @@ func distributeCandies(candies []int) int {
 
 	return sum / 2
 }
-```
+// ```

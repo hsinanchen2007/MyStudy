@@ -1,9 +1,9 @@
-### 解题思路
-链表转换为数组，取出合为0的序列后，在转换为链表
+// ### 解题思路
+// 链表转换为数组，取出合为0的序列后，在转换为链表
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -53,4 +53,4 @@ var removeZeroSumSublists = function(head) {
     }
     return node
 };
-```
+// ```

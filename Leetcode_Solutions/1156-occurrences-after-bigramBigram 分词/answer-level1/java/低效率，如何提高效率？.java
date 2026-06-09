@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] findOcurrences(String text, String first, String second) {
         String[] strings = text.split(" ");
@@ -22,4 +22,4 @@ class Solution {
         return reals;
     }
 }
-```
+// ```

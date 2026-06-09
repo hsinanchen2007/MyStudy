@@ -1,4 +1,4 @@
-//必须在stackPop为空时，一次性把stackPush的所有数据全部压入
+// //必须在stackPop为空时，一次性把stackPush的所有数据全部压入
 class MyQueue {
 public:
 	stack<int>stackPush;

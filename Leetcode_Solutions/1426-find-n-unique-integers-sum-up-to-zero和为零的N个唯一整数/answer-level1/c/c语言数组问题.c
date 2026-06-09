@@ -1,9 +1,9 @@
-### 解题思路
-先动态申请一块空间，然后左右分别从1，-1算起，若n为偶数择n/2位置需要置零，n为奇数则不用。
+// ### 解题思路
+// 先动态申请一块空间，然后左右分别从1，-1算起，若n为偶数择n/2位置需要置零，n为奇数则不用。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -21,4 +21,4 @@ int* sumZero(int n, int* returnSize){
     *returnSize=n;
     return sum;
 }
-```
+// ```

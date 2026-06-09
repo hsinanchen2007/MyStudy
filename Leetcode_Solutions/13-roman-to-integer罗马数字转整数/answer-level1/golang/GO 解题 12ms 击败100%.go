@@ -1,11 +1,11 @@
-执行用时 : 12 ms, 在Roman to Integer的Go提交中击败了100.00% 的用户
+// 执行用时 : 12 ms, 在Roman to Integer的Go提交中击败了100.00% 的用户
 
 
-内存消耗 : 3.7 MB, 在Roman to Integer的Go提交中击败了11.26% 的用户
+// 内存消耗 : 3.7 MB, 在Roman to Integer的Go提交中击败了11.26% 的用户
 
-我感觉还不是很优秀，一定还有更短的写法。
+// 我感觉还不是很优秀，一定还有更短的写法。
 
-``` go
+// ``` go
 package main
 
 import (
@@ -57,4 +57,4 @@ func romanToInt(s string) int {
 	}
 	return number
 }
-```
+// ```

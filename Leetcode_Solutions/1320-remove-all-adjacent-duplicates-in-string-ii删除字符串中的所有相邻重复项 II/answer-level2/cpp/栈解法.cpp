@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     string removeDuplicates(string s, int k) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

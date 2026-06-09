@@ -1,11 +1,11 @@
-c++中用greater<int> 的是小顶堆 small;
-用less<int> 的是大顶堆 big;
+// c++中用greater<int> 的是小顶堆 small;
+// 用less<int> 的是大顶堆 big;
 
-但有趣的是 你需要保证小顶堆中的所有数字 必须大于 大顶堆中的所有数字。
+// 但有趣的是 你需要保证小顶堆中的所有数字 必须大于 大顶堆中的所有数字。
 
-所以呢 我们需要根据当前数字的大小决定放在大顶堆还是 小顶堆。
+// 所以呢 我们需要根据当前数字的大小决定放在大顶堆还是 小顶堆。
 
-```
+// ```
 class MedianFinder {
 	int cnt;
 	priority_queue<int, vector<int>, greater<int>> small;
@@ -42,4 +42,4 @@ public:
 		else return (small.top() + big.top()) / 2.0f;
 	}
 };
-```
+// ```

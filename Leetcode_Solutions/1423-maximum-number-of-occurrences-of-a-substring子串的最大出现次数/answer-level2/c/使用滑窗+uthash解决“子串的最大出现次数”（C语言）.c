@@ -1,16 +1,16 @@
-### 解题思路
-本题关键点在于只需要关注minsize即可。
+// ### 解题思路
+// 本题关键点在于只需要关注minsize即可。
 
-1.使用滑动窗口遍历字串，找到满足maxLetters的字串
+// 1.使用滑动窗口遍历字串，找到满足maxLetters的字串
 
-2.使用uthash进行统计记录
+// 2.使用uthash进行统计记录
 
-![image.png](https://pic.leetcode-cn.com/3ce7474aec00ec3e266222b28cc36eaaef67131f87a915d688f675ee0886a916-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3ce7474aec00ec3e266222b28cc36eaaef67131f87a915d688f675ee0886a916-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
  * @lc app=leetcode.cn id=1297 lang=c
  *
@@ -137,4 +137,4 @@ int maxFreq(char * s, int maxLetters, int minSize, int maxSize){
 // @lc code=end
 
 
-```
+// ```

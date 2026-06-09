@@ -1,4 +1,4 @@
-```
+-- ```
 SELECT
     S1.id,
     ifnull(S2.student, S1.student) AS student
@@ -12,4 +12,4 @@ ON
     mod(S1.id,2) = 0 AND S1.id = S2.id + 1
 ORDER BY 
     S1.id;
-```
+-- ```

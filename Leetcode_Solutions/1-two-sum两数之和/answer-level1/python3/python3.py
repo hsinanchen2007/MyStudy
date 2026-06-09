@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) :
         dic = {}
@@ -16,4 +16,4 @@ class Solution:
 
 
 
-```
+# ```

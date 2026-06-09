@@ -1,7 +1,7 @@
-C++ DFS实现遍历全排列
-![image.png](https://pic.leetcode-cn.com/3cfc84b7aba31aa17727ba2f71634fb19882d84c48805810a2246385f3fb395a-image.png)
+// C++ DFS实现遍历全排列
+// ![image.png](https://pic.leetcode-cn.com/3cfc84b7aba31aa17727ba2f71634fb19882d84c48805810a2246385f3fb395a-image.png)
 
-```
+// ```
 class Solution {
     vector<string> charOptions;
     vector<string> res;
@@ -31,4 +31,4 @@ public:
         }
     }
 };
-```
+// ```

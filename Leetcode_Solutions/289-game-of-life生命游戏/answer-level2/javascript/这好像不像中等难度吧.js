@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2956cffc25d93d56e671bf4c875f162b5fdce252d0c0cf4a47e1f28665be80b5-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/2956cffc25d93d56e671bf4c875f162b5fdce252d0c0cf4a47e1f28665be80b5-image.png)
 
-直接干，没绕啥弯子。。。
+// 直接干，没绕啥弯子。。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -46,4 +46,4 @@ var gameOfLife = function(board) {
         board[val[0]][val[1]] = 0;
     })
 };
-```
+// ```

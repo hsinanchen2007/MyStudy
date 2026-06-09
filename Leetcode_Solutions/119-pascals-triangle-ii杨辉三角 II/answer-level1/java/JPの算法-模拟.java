@@ -1,6 +1,6 @@
-跟上题差不多，就保存上一行就行了
+// 跟上题差不多，就保存上一行就行了
 
-```
+// ```
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> last = new ArrayList<>();
@@ -18,4 +18,4 @@ class Solution {
         return last;
     }
 }
-```
+// ```

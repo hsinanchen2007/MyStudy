@@ -1,11 +1,11 @@
-### 解题思路
-用链表建立队列
-对队列进行bfs
-同时记录宽度搜索层数，层数即为距离
+// ### 解题思路
+// 用链表建立队列
+// 对队列进行bfs
+// 同时记录宽度搜索层数，层数即为距离
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -121,4 +121,4 @@ int maxDistance(int** grid, int gridSize, int* gridColSize){
     return bfs(q,grid,gridColSize,gridSize);
 
 }
-```
+// ```

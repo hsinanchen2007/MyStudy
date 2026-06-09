@@ -1,5 +1,5 @@
-先将数组从小到大排列，后续请查看while循环内部，较易理解。
-```c
+// 先将数组从小到大排列，后续请查看while循环内部，较易理解。
+// ```c
 int numRabbits(int* answers, int answersSize){
     if(answersSize==0) return 0;
     int i,j,tmp;
@@ -25,4 +25,4 @@ int numRabbits(int* answers, int answersSize){
     }
     return result;
 }
-```
+// ```

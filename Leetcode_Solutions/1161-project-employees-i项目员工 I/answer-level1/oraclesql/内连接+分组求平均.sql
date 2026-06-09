@@ -1,4 +1,4 @@
-法一：
+-- 法一：
 select p.project_id,
        round(sum(e.experience_years) / count(e.employee_id), 2) as average_years
   from Project p

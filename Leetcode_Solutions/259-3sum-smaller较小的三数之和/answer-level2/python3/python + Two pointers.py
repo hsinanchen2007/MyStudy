@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def threeSumSmaller(self, nums: List[int], target: int) -> int:
         # Time complexity : O(N ** 2)
@@ -20,4 +20,4 @@ class Solution:
         for i in range(len(nums) - 2):
            ans += get_cnt(i + 1, len(nums) - 1, target - nums[i])
         return ans
-```
+# ```

@@ -1,24 +1,24 @@
-### 解题思路
-对于C语言，本题的难点在于数据的存储。
+// ### 解题思路
+// 对于C语言，本题的难点在于数据的存储。
 
-由于题目数据量不大，因此直接使用数组实现hash，注意记录结果值和层级。
+// 由于题目数据量不大，因此直接使用数组实现hash，注意记录结果值和层级。
 
-最终输出需要排序，优先排序层级，层级相同排序val。
+// 最终输出需要排序，优先排序层级，层级相同排序val。
 
-C语言在实现的时候，可以考虑单链表插入排序，但是编程复杂度较高，因此选择任意插入，处理结果时qsort的方案。
+// C语言在实现的时候，可以考虑单链表插入排序，但是编程复杂度较高，因此选择任意插入，处理结果时qsort的方案。
 
-1.dfs遍历二叉树，将存有val和层级信息的数据，放入hash表
+// 1.dfs遍历二叉树，将存有val和层级信息的数据，放入hash表
 
-2.遍历hash表处理结果，注意使用qsort完成两重条件排序
+// 2.遍历hash表处理结果，注意使用qsort完成两重条件排序
 
-3.构造结果数组，存储结果
+// 3.构造结果数组，存储结果
 
-![image.png](https://pic.leetcode-cn.com/66293649eb416fd92d993d249807dbb59979d7e6f3c4f47ebcee823b7b7fd467-image.png)
+// ![image.png](https://pic.leetcode-cn.com/66293649eb416fd92d993d249807dbb59979d7e6f3c4f47ebcee823b7b7fd467-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -125,4 +125,4 @@ int** verticalTraversal(struct TreeNode* root, int* returnSize, int** returnColu
     *returnColumnSizes = rcol_size;
     return res;
 }
-```
+// ```

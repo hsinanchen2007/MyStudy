@@ -1,9 +1,9 @@
-### 解题思路
-![3CE5A021-B18D-47B3-9282-AD6145B9EDBB.png](https://pic.leetcode-cn.com/93ffcdedbb4c6b3a6f7d388b39f733f1e8d943243b0e1107e44c149a51957e74-3CE5A021-B18D-47B3-9282-AD6145B9EDBB.png)
-### 代码
+// ### 解题思路
+// ![3CE5A021-B18D-47B3-9282-AD6145B9EDBB.png](https://pic.leetcode-cn.com/93ffcdedbb4c6b3a6f7d388b39f733f1e8d943243b0e1107e44c149a51957e74-3CE5A021-B18D-47B3-9282-AD6145B9EDBB.png)
+// ### 代码
 
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string[]}
@@ -25,4 +25,4 @@ var permutation = function(S) {
     }
     return res
 };
-```
+// ```

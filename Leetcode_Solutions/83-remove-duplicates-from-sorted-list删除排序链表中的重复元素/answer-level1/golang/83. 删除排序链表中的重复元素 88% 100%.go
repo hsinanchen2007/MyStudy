@@ -1,9 +1,9 @@
-### 解题思路
-算法：充分利用排序特性，如果重复则肯定是前后节点关系，直接顺序比较。如果重复则即就地删除节点，否则更新前置节点。
+// ### 解题思路
+// 算法：充分利用排序特性，如果重复则肯定是前后节点关系，直接顺序比较。如果重复则即就地删除节点，否则更新前置节点。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -28,4 +28,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
 	}
 	return head
 }
-```
+// ```

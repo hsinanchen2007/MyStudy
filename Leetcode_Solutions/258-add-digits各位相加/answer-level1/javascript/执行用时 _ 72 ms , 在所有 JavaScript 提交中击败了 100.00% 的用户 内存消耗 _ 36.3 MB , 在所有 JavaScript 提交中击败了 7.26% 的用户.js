@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var addDigits = function (num) {
     
     let final = 0
@@ -25,4 +25,4 @@ console.log(addDigits(38))
  * 
  *  1. 将数字分解，转换为数组，进行计算，直到加到最后只剩下一个个位数
  */
-```
+// ```

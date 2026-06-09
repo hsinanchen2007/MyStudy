@@ -1,4 +1,4 @@
-```
+// ```
 class DinnerPlates {
     
     private int capacity;
@@ -90,4 +90,4 @@ class DinnerPlates {
         return res;
     }
 }
-```
+// ```

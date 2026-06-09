@@ -1,7 +1,7 @@
 
-# 利用数组模拟栈的操作，完成迭代算法的实现。
+// # 利用数组模拟栈的操作，完成迭代算法的实现。
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
     }
     return res;
 }
-```
+// ```

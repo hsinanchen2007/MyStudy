@@ -1,4 +1,4 @@
-```
+// ```
 func strToInt(str string) int {
 ds, m, started := []byte{}, false, false
 	for i := 0; i < len(str); i++ {
@@ -57,4 +57,4 @@ ds, m, started := []byte{}, false, false
 	}
 	return i
 }
-```
+// ```

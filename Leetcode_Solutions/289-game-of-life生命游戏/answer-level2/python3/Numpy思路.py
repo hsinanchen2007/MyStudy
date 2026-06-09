@@ -1,9 +1,9 @@
-### 解题思路
-代码如下，欢迎交流～
+# ### 解题思路
+# 代码如下，欢迎交流～
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import numpy as np
 def count_living_around(l):
     m, n = len(l), len(l[0])
@@ -28,4 +28,4 @@ class Solution:
                         board[row][col] = 0
         return
 
-```
+# ```

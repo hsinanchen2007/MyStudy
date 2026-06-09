@@ -1,8 +1,8 @@
-乏善可陈。
+# 乏善可陈。
 
-整道题目的代码如下：
+# 整道题目的代码如下：
 
-```python
+# ```python
 class Solution(object):
     def longestCommonPrefix(self, strs):
         """
@@ -27,5 +27,5 @@ class Solution(object):
                 res += min_s[i]
 
         return res
-```
+# ```
 

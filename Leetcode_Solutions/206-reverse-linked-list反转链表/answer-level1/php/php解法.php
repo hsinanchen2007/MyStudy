@@ -1,9 +1,9 @@
-### 解题思路
-参考官方 PHP版本
+// ### 解题思路
+// 参考官方 PHP版本
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return $newHead;
     }
 }
-```
+// ```

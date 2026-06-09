@@ -1,8 +1,8 @@
-### 解题思路
-没什么思路，单纯为了降低点内存消耗
-### 代码
+// ### 解题思路
+// 没什么思路，单纯为了降低点内存消耗
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findOcurrences(string text, string first, string second) {
@@ -47,4 +47,4 @@ public:
         return res;
     }
 };
-```
+// ```

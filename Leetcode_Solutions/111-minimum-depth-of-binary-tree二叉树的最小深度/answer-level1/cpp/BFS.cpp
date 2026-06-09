@@ -1,8 +1,8 @@
-### 解题思路
-BFS到达第一个无子节点的节点即可
-### 代码
+// ### 解题思路
+// BFS到达第一个无子节点的节点即可
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDepth(TreeNode* root) {
@@ -27,4 +27,4 @@ public:
         return -1;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-非最优，但是简单不易出错，qsort index
+// ### 解题思路
+// 非最优，但是简单不易出错，qsort index
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -66,4 +66,4 @@ void leaderboardFree(Leaderboard *obj)
 {
 	return;
 }
-```
+// ```

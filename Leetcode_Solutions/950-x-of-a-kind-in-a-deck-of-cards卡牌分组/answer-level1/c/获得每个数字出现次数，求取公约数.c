@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasGroupsSizeX(int* deck, int deckSize){
     int gcd(int a,int b);
     int hash[10001]={0};
@@ -42,4 +42,4 @@ int gcd(int a,int b){//求取公约数
 
 
 
-```
+// ```

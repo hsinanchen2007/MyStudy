@@ -1,9 +1,9 @@
-### 解题思路
-牛顿法正解。
+# ### 解题思路
+# 牛顿法正解。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mySqrt(self, x: int) -> int:
         # newton法
@@ -14,4 +14,4 @@ class Solution:
             cur = 1/2*(pre+x/pre)
         return int(cur)
 
-```
+# ```

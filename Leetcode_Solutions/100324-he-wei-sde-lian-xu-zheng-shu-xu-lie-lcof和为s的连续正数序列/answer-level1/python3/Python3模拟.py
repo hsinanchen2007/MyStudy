@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         res = []
@@ -14,4 +14,4 @@ class Solution:
                     n += 1
                     continue 
         return res
-```
+# ```

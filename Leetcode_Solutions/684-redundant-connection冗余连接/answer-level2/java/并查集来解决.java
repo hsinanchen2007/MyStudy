@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private int find(int p,int[]parent) {
 	while(p!=parent[p]) {
@@ -36,4 +36,4 @@ public int[] findRedundantConnection(int[][] edges) {
 	return res;
 }
 }
-```
+// ```

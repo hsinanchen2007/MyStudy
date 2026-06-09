@@ -1,5 +1,5 @@
-//计数，对数组排序，分配一个最大差值大小的数组，然后记录所有差值一样的个数，最后个数相加到大于k的时候，第k个就是对应数组的index
-```
+// //计数，对数组排序，分配一个最大差值大小的数组，然后记录所有差值一样的个数，最后个数相加到大于k的时候，第k个就是对应数组的index
+// ```
 func smallestDistancePair(nums []int, k int) int {
 	sort.Ints(nums)
 	r := make([]int, nums[len(nums) - 1] - nums[0] + 1)
@@ -20,4 +20,4 @@ func smallestDistancePair(nums []int, k int) int {
 	}
 	return 0
 }
-```
+// ```

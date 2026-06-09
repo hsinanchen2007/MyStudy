@@ -1,9 +1,9 @@
-### 解题思路
-思路详见代码和注释，重点是找到字典序下的循环规律
+// ### 解题思路
+// 思路详见代码和注释，重点是找到字典序下的循环规律
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -70,4 +70,4 @@ char ** letterCombinations(char * digits, int* returnSize){
 
     return rslt;
 }
-```
+// ```

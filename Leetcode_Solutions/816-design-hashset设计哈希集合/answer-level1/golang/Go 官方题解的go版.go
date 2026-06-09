@@ -1,12 +1,12 @@
-#### 解题思路
+// #### 解题思路
 
-官方题解单链表法的golang版本
+// 官方题解单链表法的golang版本
 
 
 
-#### 参考代码
+// #### 参考代码
 
-```go
+// ```go
 type MyHashSet struct {
 	bucketArray [769]*bucket
 }
@@ -70,6 +70,6 @@ func (b *bucket) exists(key int) bool {
 	}
 	return false
 }
-```
+// ```
 
-**更多题解可以在我的[github](https://github.com/LZH139/leetcode_Go)上看到，每天都在持续更新，觉得还不错的话，记得点个小星星哈，谢谢啦**
+// **更多题解可以在我的[github](https://github.com/LZH139/leetcode_Go)上看到，每天都在持续更新，觉得还不错的话，记得点个小星星哈，谢谢啦**

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int removeDuplicates(int[] nums) {
         int len=nums.length;
@@ -13,4 +13,4 @@ class Solution {
         return pos;
     }
 }
-```
+// ```

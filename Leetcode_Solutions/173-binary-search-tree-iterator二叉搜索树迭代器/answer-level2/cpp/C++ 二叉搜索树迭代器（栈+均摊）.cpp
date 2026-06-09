@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-思路的话很简单，和中序遍历的做法一样
+// 思路的话很简单，和中序遍历的做法一样
 
-需要注意的是，在next方法中，虽然存在while循环，但是均摊到每一次next时间复杂度为O(1)
+// 需要注意的是，在next方法中，虽然存在while循环，但是均摊到每一次next时间复杂度为O(1)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -51,4 +51,4 @@ private:
  * int param_1 = obj->next();
  * bool param_2 = obj->hasNext();
  */
-```
+// ```

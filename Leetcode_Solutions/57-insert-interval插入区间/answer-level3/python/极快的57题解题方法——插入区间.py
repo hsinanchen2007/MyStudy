@@ -1,5 +1,5 @@
-直接上代码，详见博客——https://blog.csdn.net/TeFuirnever/article/details/99228215
-```py
+# 直接上代码，详见博客——https://blog.csdn.net/TeFuirnever/article/details/99228215
+# ```py
 class Solution(object):
     def insert(self, intervals, newInterval):
         intervals.append(newInterval)
@@ -14,4 +14,4 @@ class Solution(object):
             else:
                 merged[-1][-1] = max(merged[-1][-1], interval[-1])
         return merged
-```
+# ```

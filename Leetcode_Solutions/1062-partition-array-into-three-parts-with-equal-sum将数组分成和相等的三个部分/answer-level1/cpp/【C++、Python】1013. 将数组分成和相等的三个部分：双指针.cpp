@@ -1,11 +1,11 @@
-### 双指针 ###
-#### 思路 ####
-- 先对数组求和，如果所求之和不是 $3$ 的倍数，直接返回`false`
-- 双指针`left`和`right`分别从数组两端开始向中间累加，直到部分和等于总和的 $1 / 3$ 或越过边界
-- 最后通过边界条件和两边的部分和是否相等判断返回结果
-#### 代码 ####
-- Python 中没有 `do {} while ();`循环，所以最后条件判断有差异
-```cpp []
+// ### 双指针 ###
+// #### 思路 ####
+// - 先对数组求和，如果所求之和不是 $3$ 的倍数，直接返回`false`
+// - 双指针`left`和`right`分别从数组两端开始向中间累加，直到部分和等于总和的 $1 / 3$ 或越过边界
+// - 最后通过边界条件和两边的部分和是否相等判断返回结果
+// #### 代码 ####
+// - Python 中没有 `do {} while ();`循环，所以最后条件判断有差异
+// ```cpp []
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -17,8 +17,8 @@ public:
         return left <= right && sl == sr;
     }
 };
-```
-```python3 []
+// ```
+// ```python3 []
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         s = sum(A)
@@ -32,8 +32,8 @@ class Solution:
             sr += A[right]
             right -= 1
         return sl == t and sl == sr
-```
-#### 复杂度分析 ####
-- 时间复杂度 $O(n)$
-- 空间复杂度 $O(1)$
+// ```
+// #### 复杂度分析 ####
+// - 时间复杂度 $O(n)$
+// - 空间复杂度 $O(1)$
 

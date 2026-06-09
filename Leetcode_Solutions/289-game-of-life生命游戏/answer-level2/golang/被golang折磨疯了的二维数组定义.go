@@ -1,9 +1,9 @@
-### 解题思路
-动态定义二维数组的方式如下：board_exp := make([][]int, 0) 然后使用append数组进来的形式来定义
+// ### 解题思路
+// 动态定义二维数组的方式如下：board_exp := make([][]int, 0) 然后使用append数组进来的形式来定义
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func gameOfLife(board [][]int)  {
 if len(board)<1{
   return
@@ -48,4 +48,4 @@ func numOf8Grid(board [][]int,i int,j int) int{
  }
  return cnt
 }
-```
+// ```

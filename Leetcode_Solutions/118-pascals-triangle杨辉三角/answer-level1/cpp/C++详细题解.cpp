@@ -1,6 +1,6 @@
-杨辉三角即该位置的值为左上角与右上角的和，注释很清楚了（note for self数组初始化方法）。
+// 杨辉三角即该位置的值为左上角与右上角的和，注释很清楚了（note for self数组初始化方法）。
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -19,4 +19,4 @@ public:
         return ans;
     }
 };
-```
+// ```

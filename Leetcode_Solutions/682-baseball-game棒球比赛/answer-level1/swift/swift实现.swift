@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func calPoints(_ ops: [String]) -> Int {
         var scoreStack:[Int] = []
@@ -20,4 +20,4 @@ class Solution {
         return scoreStack.reduce(0,+)
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-思路：统计杂志内字符出现的次数，再扫描dst一旦对应字符统计出现负值，就错了。
+// 思路：统计杂志内字符出现的次数，再扫描dst一旦对应字符统计出现负值，就错了。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canConstruct(char * ransomNote, char * magazine){
 	int len1 = strlen(ransomNote), len2=strlen(magazine);
 
@@ -22,4 +22,4 @@ bool canConstruct(char * ransomNote, char * magazine){
 	}
 	return true;	
 }
-```
+// ```

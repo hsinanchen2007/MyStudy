@@ -1,9 +1,9 @@
-### 解题思路
-先遍历求长度，然后再找中间节点返回即可。
+// ### 解题思路
+// 先遍历求长度，然后再找中间节点返回即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
@@ -24,4 +24,4 @@ public:
         return q;
     }
 };
-```
+// ```

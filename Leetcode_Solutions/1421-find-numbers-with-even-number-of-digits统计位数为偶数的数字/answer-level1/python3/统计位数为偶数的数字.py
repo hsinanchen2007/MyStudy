@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
 
@@ -17,4 +17,4 @@ class Solution:
         #         count += 1
         
         # return count
-```
+# ```

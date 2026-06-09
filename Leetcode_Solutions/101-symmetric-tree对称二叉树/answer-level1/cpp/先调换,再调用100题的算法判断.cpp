@@ -1,5 +1,5 @@
-先把右半边的树中的每个节点的两个叉左右调换,再调用100题的解法,判断左半边和右半边是不是同样的树.
-```cpp
+// 先把右半边的树中的每个节点的两个叉左右调换,再调用100题的解法,判断左半边和右半边是不是同样的树.
+// ```cpp
 class Solution {
 public:
 	bool isSymmetric(TreeNode* root) {
@@ -24,4 +24,4 @@ public:
 		if (root->right != nullptr) mySwap(root->right);
 	}
 };
-```
+// ```

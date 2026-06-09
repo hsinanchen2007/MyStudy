@@ -1,8 +1,8 @@
-### 解题思路
-核心思路：采用深度优先遍历
-### 代码
+// ### 解题思路
+// 核心思路：采用深度优先遍历
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

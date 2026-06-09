@@ -1,5 +1,5 @@
-先求了最小公因子，从最小公因子翻倍得到最大公因子。
-```
+// 先求了最小公因子，从最小公因子翻倍得到最大公因子。
+// ```
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         String ans = "";
@@ -67,4 +67,4 @@ class Solution {
         else return true;
     }
 }
-```
+// ```

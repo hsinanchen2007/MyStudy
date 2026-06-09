@@ -1,5 +1,5 @@
-go解法（个人）
-1、暴力解法
+// go解法（个人）
+// 1、暴力解法
 func twoSum(nums []int, target int) []int {
 	var re []int
 	for i:=0;i<len(nums)-1;i++{

@@ -1,5 +1,5 @@
-归并排序，注释写的很清晰
-```gradle
+// 归并排序，注释写的很清晰
+// ```gradle
 class Solution {
     public ListNode sortList(ListNode head) {
 
@@ -59,4 +59,4 @@ class Solution {
         return sentinal.next;
     }
 }
-```
+// ```

@@ -1,20 +1,20 @@
-### 解题思路
-虽然C代码实现字符串处理略长，但处理思路非常清晰。
+// ### 解题思路
+// 虽然C代码实现字符串处理略长，但处理思路非常清晰。
 
-1.将pattern统一为a开头形式
+// 1.将pattern统一为a开头形式
 
-2.统计a,b个数
+// 2.统计a,b个数
 
-3.遍历a的可能长度，确定b的长度，然后调用子函数，判断当前a，b是否成立
+// 3.遍历a的可能长度，确定b的长度，然后调用子函数，判断当前a，b是否成立
 
-注意b==0时单独处理，因为计算b的长度，要除以b，这里可以有更简洁的写法。
+// 注意b==0时单独处理，因为计算b的长度，要除以b，这里可以有更简洁的写法。
 
-![image.png](https://pic.leetcode-cn.com/b90ffad971438b0e05da5d2da4670b46bcf8b39fcdcaedf20934d7a37e346bb5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b90ffad971438b0e05da5d2da4670b46bcf8b39fcdcaedf20934d7a37e346bb5-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define STR_LEN     1000
 
 //根据输入模式，进行匹配
@@ -170,4 +170,4 @@ bool patternMatching(char* pattern, char* value){
 
     return false;
 }
-```
+// ```

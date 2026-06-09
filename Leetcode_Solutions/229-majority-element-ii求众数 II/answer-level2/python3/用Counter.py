@@ -1,9 +1,9 @@
-### 解题思路
-始终让Counter里面只有两个元素
+# ### 解题思路
+# 始终让Counter里面只有两个元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
         from collections import Counter
@@ -16,4 +16,4 @@ class Solution:
                 count -= Counter(set(count))
         # final check
         return [n for n in count if nums.count(n) > len(nums) / 3]
-```
+# ```

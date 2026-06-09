@@ -1,5 +1,5 @@
-先排序，最大积只会是最大三个正数积或者最小两个负数和一个最大正数的积
-```
+// 先排序，最大积只会是最大三个正数积或者最小两个负数和一个最大正数的积
+// ```
 class Solution {
 public:
     int maximumProduct(vector<int>& nums) {
@@ -11,4 +11,4 @@ public:
 		return res;
     }
 };
-```
+// ```

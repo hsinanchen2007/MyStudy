@@ -1,7 +1,7 @@
-## 思路
-    简单的广度优先搜索。用一个List维护同一层的节点，cur变量维护当前层节点数量，next变量维护下层节点数量。每次从队列中取出是，cur--,每次将当前层节点的儿子节点加入队列时，next++，当cur变量减为0时，当前层的节点访问完毕，将next付给cur，访问下一层的节点
-## 代码
-```
+// ## 思路
+//     简单的广度优先搜索。用一个List维护同一层的节点，cur变量维护当前层节点数量，next变量维护下层节点数量。每次从队列中取出是，cur--,每次将当前层节点的儿子节点加入队列时，next++，当cur变量减为0时，当前层的节点访问完毕，将next付给cur，访问下一层的节点
+// ## 代码
+// ```
     public List<List<Integer>> levelOrder(Node root) {
         List<List<Integer>> res=new ArrayList<>();
         if(root==null)
@@ -29,4 +29,4 @@
         }
         return res;
     }
-```
+// ```

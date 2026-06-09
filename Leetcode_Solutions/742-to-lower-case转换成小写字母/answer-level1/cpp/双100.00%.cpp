@@ -1,9 +1,9 @@
-### 解题思路
-遍历str，遇到大写字母就改成小写字母
+// ### 解题思路
+// 遍历str，遇到大写字母就改成小写字母
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string toLowerCase(string str) {
@@ -20,4 +20,4 @@ public:
 
     }
 };
-```
+// ```

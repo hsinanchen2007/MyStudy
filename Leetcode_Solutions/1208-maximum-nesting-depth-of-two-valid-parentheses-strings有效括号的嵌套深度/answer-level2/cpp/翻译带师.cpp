@@ -1,6 +1,6 @@
-讲真题我是真没看懂，官方题解真好。
-就奇数偶数分类就行，实际上很简单
-```cpp
+// 讲真题我是真没看懂，官方题解真好。
+// 就奇数偶数分类就行，实际上很简单
+// ```cpp
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
@@ -20,5 +20,5 @@ public:
     return ans;
     }
 };
-```
+// ```
 

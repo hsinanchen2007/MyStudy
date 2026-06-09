@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/solution/li-yong-zhan-lai-qian-xu-fang-wen-by-hongan/
-都是前序遍历，这篇与链接中这上篇还是有区别。
-上篇，按照节点上下级关系进行压栈。
->同一个节点在回溯时会再次被加入，所以要区分，防止重复。
-本篇，只对新节点进行压栈。
->更为清晰。
+// https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/solution/li-yong-zhan-lai-qian-xu-fang-wen-by-hongan/
+// 都是前序遍历，这篇与链接中这上篇还是有区别。
+// 上篇，按照节点上下级关系进行压栈。
+// >同一个节点在回溯时会再次被加入，所以要区分，防止重复。
+// 本篇，只对新节点进行压栈。
+// >更为清晰。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -48,4 +48,4 @@ class Solution {
         return Integer.MIN_VALUE;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] numberOfLines(int[] widths, String S) {
         int cnt = 100;
@@ -15,4 +15,4 @@ class Solution {
         return new int[] {line, 100 - cnt};
     }
 }
-```
+// ```

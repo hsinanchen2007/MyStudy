@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/e55cfaa40f10fa065d3ac2928e8335d12d1cae1c246c674db5bc3c35e741adaf-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e55cfaa40f10fa065d3ac2928e8335d12d1cae1c246c674db5bc3c35e741adaf-image.png)
 
-```rust
+// ```rust
 impl Solution {
     pub fn min_moves2(mut nums: Vec<i32>) -> i32 {
         nums.sort();
@@ -12,5 +12,5 @@ impl Solution {
         min_moves
     }
 }
-```
+// ```
 

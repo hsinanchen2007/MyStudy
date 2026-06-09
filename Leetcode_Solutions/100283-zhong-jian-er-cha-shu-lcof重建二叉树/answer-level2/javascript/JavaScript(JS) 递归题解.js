@@ -1,9 +1,9 @@
-### 解题思路
-获取根节点区分左右子树，对于左子树的前序和中序采取同样的操作。
+// ### 解题思路
+// 获取根节点区分左右子树，对于左子树的前序和中序采取同样的操作。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -28,4 +28,4 @@ var buildTree = function (preorder, inorder) {
     node.right = buildTree(preorder.slice(i + 1), inorder.slice(i + 1));
     return node
 };
-```
+// ```

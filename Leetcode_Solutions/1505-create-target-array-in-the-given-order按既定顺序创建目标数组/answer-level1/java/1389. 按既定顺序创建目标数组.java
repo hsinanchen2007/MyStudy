@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] createTargetArray(int[] nums, int[] index) {
         // 利用ArrayList中的add(int index,E element)方法
@@ -14,4 +14,4 @@ class Solution {
         return target;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-如题
+// ### 解题思路
+// 如题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverse(int a[],int l,int h){
   int p=l,q=h;
   while(p<q){
@@ -23,4 +23,4 @@ void rotate(int* nums, int numsSize, int k){
   reverse(nums,0,kreal-1);
   reverse(nums,kreal,numsSize-1);
 }
-```
+// ```

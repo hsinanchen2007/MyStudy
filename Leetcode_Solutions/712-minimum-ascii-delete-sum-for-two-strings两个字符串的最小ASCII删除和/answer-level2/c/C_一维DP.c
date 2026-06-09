@@ -1,9 +1,9 @@
-### 解题思路
-思路同1143和删除操作那题一模一样！优化Dp空间到O(1)代码可读性可能没有二维好。
+// ### 解题思路
+// 思路同1143和删除操作那题一模一样！优化Dp空间到O(1)代码可读性可能没有二维好。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define min(a, b) ((a) > (b) ? (b) : (a))
 
 int minimumDeleteSum(char * s1, char * s2){
@@ -37,4 +37,4 @@ int minimumDeleteSum(char * s1, char * s2){
     }
     return dp[len2];
 }
-```
+// ```

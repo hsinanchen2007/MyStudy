@@ -1,11 +1,11 @@
-### 解题思路
-slow指针每次只移动一格，
-quick指针每次移动两格，
-当quick移动到null时，slow即为所求
+// ### 解题思路
+// slow指针每次只移动一格，
+// quick指针每次移动两格，
+// 当quick移动到null时，slow即为所求
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -31,4 +31,4 @@ var middleNode = function(head) {
 
 
 };
-```
+// ```

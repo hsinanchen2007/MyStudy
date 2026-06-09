@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1、c使用指针时，必须要malloc空间，才能使用；
-2、字符串结尾是'\0'；
-3、strcpy进行字符串拷贝；
+// ### 解题思路
+// 此处撰写解题思路
+// 1、c使用指针时，必须要malloc空间，才能使用；
+// 2、字符串结尾是'\0'；
+// 3、strcpy进行字符串拷贝；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * countAndSay(int n){
     char *arr = (char *)malloc(sizeof(char) * 5000);
     char *tmp = (char *)malloc(sizeof(char) * 5000);
@@ -46,4 +46,4 @@ char * countAndSay(int n){
 
     return arr;
 }
-```
+// ```

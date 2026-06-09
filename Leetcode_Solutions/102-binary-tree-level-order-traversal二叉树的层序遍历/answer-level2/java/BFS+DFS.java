@@ -1,6 +1,6 @@
-# BFS
-**思路: 利用BFS每次遍历一层, 而不是每次遍历一个**
-```
+// # BFS
+// **思路: 利用BFS每次遍历一层, 而不是每次遍历一个**
+// ```
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         //判空
@@ -31,14 +31,14 @@ class Solution {
         return result;
     }
 }
-```
-时间复杂度: O(n)
-空间复杂度: O(n)
+// ```
+// 时间复杂度: O(n)
+// 空间复杂度: O(n)
 
-# DFS
-**思路: 利用参数传入level信息、结果集合, 每次利用level信息将当前节点的值加入结果集合**
-采用先序遍历的DFS可以保证访问顺序与level对应, 若采用中序、后序则可以先计算层高并初始化结果集合
-```
+// # DFS
+// **思路: 利用参数传入level信息、结果集合, 每次利用level信息将当前节点的值加入结果集合**
+// 采用先序遍历的DFS可以保证访问顺序与level对应, 若采用中序、后序则可以先计算层高并初始化结果集合
+// ```
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         //创建结果集合
@@ -60,6 +60,6 @@ class Solution {
     }
 }
 
-```
-时间复杂度: O(n)
-空间复杂度: O(n)
+// ```
+// 时间复杂度: O(n)
+// 空间复杂度: O(n)

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     // 二分查找，我们可以将二维数组转成一维数组来左；
     public boolean searchMatrix(int[][] matrix, int target) {
@@ -21,4 +21,4 @@ class Solution {
         return matrix[start / C][start % C] == target;
     }
 }
-```
+// ```

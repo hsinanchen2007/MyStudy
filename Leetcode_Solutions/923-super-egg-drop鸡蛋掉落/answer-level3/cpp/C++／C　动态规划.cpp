@@ -1,7 +1,7 @@
 
-见代码注释
+// 见代码注释
 
-```
+// ```
 class Solution {
 public:
     int superEggDrop(int K, int N) {
@@ -23,10 +23,10 @@ public:
         return m;
     }
 };
-```
+// ```
 
 
-```
+// ```
 int fun(int K, int T)	// 计算 K 个鸡蛋，扔 T 次，可以覆盖多少个区间
 {
 	if (T == 1 || K == 1) 
@@ -41,4 +41,4 @@ int superEggDrop(int K, int N)
         T++;
 	return T;
 }
-```
+// ```

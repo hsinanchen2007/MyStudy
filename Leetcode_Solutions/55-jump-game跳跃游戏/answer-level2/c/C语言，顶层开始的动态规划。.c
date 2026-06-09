@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canJump(int* nums, int numsSize){
     bool result;
     int i;
@@ -23,4 +23,4 @@ bool canJump(int* nums, int numsSize){
         return false;
     }
 }
-```
+// ```

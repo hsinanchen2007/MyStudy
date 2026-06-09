@@ -1,5 +1,5 @@
-在二十次提交之后终于过了，踩在了各种内存不足，以及神奇的输入的坑上
-```
+// 在二十次提交之后终于过了，踩在了各种内存不足，以及神奇的输入的坑上
+// ```
 int myAtoi(char* str)
 {
     int len = strlen(str);
@@ -52,4 +52,4 @@ int myAtoi(char* str)
     }
     return flag * ret;
 }
-```
+// ```

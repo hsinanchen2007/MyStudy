@@ -1,6 +1,6 @@
 
 
-```
+// ```
 class Solution {
     public List<List<String>> wordSquares(String[] words) {
         int n = words[0].length();
@@ -91,15 +91,15 @@ class TrieNode {
         return children[c - 'a'];
     }
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/e2981413be8ceb1713b64f5760756c875811f0ad206a3984208b854f890558c7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e2981413be8ceb1713b64f5760756c875811f0ad206a3984208b854f890558c7-image.png)
 
 
 
-再补充一个C++的，递归参数和Java的有所不同。
+// 再补充一个C++的，递归参数和Java的有所不同。
 
-```
+// ```
 class TrieNode {
 public:
     string* word = nullptr;
@@ -184,4 +184,4 @@ public:
         return result;
     }
 };
-```
+// ```

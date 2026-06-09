@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/10df5094305da614da78f3ad3c05229b7073e14c4a4fcf6c4e4e417c7388f9f3-image.png)
+# ![image.png](https://pic.leetcode-cn.com/10df5094305da614da78f3ad3c05229b7073e14c4a4fcf6c4e4e417c7388f9f3-image.png)
 
-瞎蒙出来的时间orz， 思路很简单，一个个去找。
+# 瞎蒙出来的时间orz， 思路很简单，一个个去找。
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -29,7 +29,7 @@ class Solution(object):
                 p=p.next
         #返回头结点
         return head
-```
+# ```
 
 
 

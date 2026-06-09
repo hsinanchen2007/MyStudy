@@ -1,11 +1,11 @@
-### 解题思路
-注意：如果相等，继续让i或j向右滑动；
-注意它的终止条件是i<=target/2
-还有就是二位动态数组：先定义一个vector存储 然后pushback到二维里
+// ### 解题思路
+// 注意：如果相等，继续让i或j向右滑动；
+// 注意它的终止条件是i<=target/2
+// 还有就是二位动态数组：先定义一个vector存储 然后pushback到二维里
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -38,4 +38,4 @@ public:
 
     }
 };
-```
+// ```

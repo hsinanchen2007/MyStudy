@@ -1,4 +1,4 @@
-```
+// ```
 /*
 // Definition for a QuadTree node.
 class Node {
@@ -58,4 +58,4 @@ public:
         }
     }
 };
-```
+// ```

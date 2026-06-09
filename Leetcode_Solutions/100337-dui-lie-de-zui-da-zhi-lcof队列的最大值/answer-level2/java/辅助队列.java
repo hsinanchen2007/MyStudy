@@ -1,4 +1,4 @@
-```Java
+// ```Java
 public class MaxQueue {
     /**
      * 所有元素都入队的队列
@@ -45,4 +45,4 @@ public class MaxQueue {
     }
 
 }
-```
+// ```

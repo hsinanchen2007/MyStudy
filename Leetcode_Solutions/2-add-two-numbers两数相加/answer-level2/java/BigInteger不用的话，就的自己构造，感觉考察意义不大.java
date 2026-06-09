@@ -1,13 +1,13 @@
-### 解题思路
-1、用Int越界；
-2、用Long越界；
-3、用BigInteger，通过；
+// ### 解题思路
+// 1、用Int越界；
+// 2、用Long越界；
+// 3、用BigInteger，通过；
 
-这个题目不知道想考察啥，感觉考察到long，用数学算更有考察意义。
+// 这个题目不知道想考察啥，感觉考察到long，用数学算更有考察意义。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.math.BigInteger;
 /**
  * Definition for singly-linked list.
@@ -71,4 +71,4 @@ class Solution {
     }
     
 }
-```
+// ```

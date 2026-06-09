@@ -1,10 +1,10 @@
-### 解题思路
-每次都是菜鸟解题：暴力。
-要注意arr长度的判断。
+// ### 解题思路
+// 每次都是菜鸟解题：暴力。
+// 要注意arr长度的判断。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] replaceElements(int[] arr) {
         if(arr.length==0)  return null;
@@ -30,4 +30,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

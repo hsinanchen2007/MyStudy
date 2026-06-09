@@ -1,9 +1,9 @@
-### 解题思路
-这是类似我爱的人曾让我写过的那道题
+// ### 解题思路
+// 这是类似我爱的人曾让我写过的那道题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int dayOfYear(string date)
@@ -42,4 +42,4 @@ public:
         return subs;
     }
 };
-```
+// ```

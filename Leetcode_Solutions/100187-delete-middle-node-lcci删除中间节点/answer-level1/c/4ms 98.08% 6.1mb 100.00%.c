@@ -1,10 +1,10 @@
-### 解题思路
-把下一节点的值挪到当前位置
-然后删除下一节点
+// ### 解题思路
+// 把下一节点的值挪到当前位置
+// 然后删除下一节点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -19,4 +19,4 @@ void deleteNode(struct ListNode* node) {
     node->next=t->next;
     free(t);
 }
-```
+// ```

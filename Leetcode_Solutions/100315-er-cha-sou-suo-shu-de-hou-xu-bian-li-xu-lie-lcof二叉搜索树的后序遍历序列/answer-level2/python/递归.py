@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def verifyPostorder(self, postorder: List[int]) -> bool:
         if not postorder:return True
@@ -17,4 +17,4 @@ class Solution:
             return partion(l,ind-1) and partion(ind,r-1)
         return partion(0,len(postorder)-1)
 
-```
+# ```

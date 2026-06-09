@@ -1,12 +1,12 @@
-![1.png](https://pic.leetcode-cn.com/483090472421749bc4286e43717c04f8ed22b47f701febb9b8955b324213396e-1.png)
+// ![1.png](https://pic.leetcode-cn.com/483090472421749bc4286e43717c04f8ed22b47f701febb9b8955b324213396e-1.png)
 
-### 解题思路
-1、遍历一次数组的第一个元素。找出不信任任何人的编号res；如果所有人都信任了其他人，返回-1；
-2、遍历一次数组的第二个元素。如果N-1个人信任res，则返回res,否则返回-1.
+// ### 解题思路
+// 1、遍历一次数组的第一个元素。找出不信任任何人的编号res；如果所有人都信任了其他人，返回-1；
+// 2、遍历一次数组的第二个元素。如果N-1个人信任res，则返回res,否则返回-1.
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findJudge(int N, int** trust, int trustSize, int* trustColSize){
 	int i, res = 0;
 	int *map = (int*)calloc(N + 2, sizeof(int));
@@ -26,4 +26,4 @@ int findJudge(int N, int** trust, int trustSize, int* trustColSize){
 		return res;
 	return -1;
 }
-```
+// ```

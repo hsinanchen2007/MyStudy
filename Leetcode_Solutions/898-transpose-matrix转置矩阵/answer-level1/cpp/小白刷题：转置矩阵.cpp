@@ -1,7 +1,7 @@
-送分题，创建新数组存储返回值，ij互换位置即可
+// 送分题，创建新数组存储返回值，ij互换位置即可
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     vector<vector<int>> transpose(vector<vector<int>>& A) {
@@ -17,4 +17,4 @@ public:
         return ans;
     }
 };
-```
+// ```

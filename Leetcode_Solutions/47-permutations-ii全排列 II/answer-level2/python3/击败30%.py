@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         list1 = []
@@ -23,4 +23,4 @@ class Solution:
             n2 += 1
         return(list1)
 
-```
+# ```

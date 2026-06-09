@@ -1,5 +1,5 @@
-- 保证a[0]始终保存当前窗口最大值的索引
-```
+# - 保证a[0]始终保存当前窗口最大值的索引
+# ```
 def maxSlideNum(arr,k):
     a = []#存索引 a[0]最大 a[-1]最小
     res = []
@@ -20,4 +20,4 @@ def maxSlideNum(arr,k):
             res.append(arr[a[0]])
     return res
 print(maxSlideNum([1,3,1,2,0,5],3))
-```
+# ```

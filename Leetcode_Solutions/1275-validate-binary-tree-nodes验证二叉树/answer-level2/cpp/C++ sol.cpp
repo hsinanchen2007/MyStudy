@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-解释如下所示。
+// 解释如下所示。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) { // 图的问题
@@ -43,4 +43,4 @@ public:
         return visited.size() == n;
     }
 };
-```
+// ```

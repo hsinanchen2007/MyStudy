@@ -1,6 +1,6 @@
-先转化 `digits` 顺序，最后 `plus one` 之后转化回来。
+// 先转化 `digits` 顺序，最后 `plus one` 之后转化回来。
 
-```
+// ```
 /**
  * @param {number[]} digits
  * @return {number[]}
@@ -25,4 +25,4 @@ var plusOne = function (digits) {
   }
   return values.reverse()
 };
-```
+// ```

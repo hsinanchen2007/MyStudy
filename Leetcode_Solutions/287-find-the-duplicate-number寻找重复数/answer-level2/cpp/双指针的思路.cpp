@@ -1,9 +1,9 @@
-### 解题思路
-仿照链表判断有还的思路，使用快慢指针
+// ### 解题思路
+// 仿照链表判断有还的思路，使用快慢指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
        
     }
 };
-```
+// ```

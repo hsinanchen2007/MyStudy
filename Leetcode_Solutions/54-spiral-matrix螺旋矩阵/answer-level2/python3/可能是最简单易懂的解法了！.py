@@ -1,7 +1,7 @@
-思路超级简单，类似剥洋葱，一层一层剥开它的心！
-加个try--except--else，搞定啦！
+# 思路超级简单，类似剥洋葱，一层一层剥开它的心！
+# 加个try--except--else，搞定啦！
 
-```
+# ```
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         
@@ -19,4 +19,4 @@ class Solution:
                 rst.extend(a+b+c+d)
             
         return rst
-```
+# ```

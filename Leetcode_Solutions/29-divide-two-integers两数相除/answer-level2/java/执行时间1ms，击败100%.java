@@ -1,7 +1,7 @@
-参考评论区的题解，用左移去减。
-正数边界问题比较麻烦，所以改用负数计算。
+// 参考评论区的题解，用左移去减。
+// 正数边界问题比较麻烦，所以改用负数计算。
 
-```
+// ```
 
 class Solution {
     public int divide(int dividend, int divisor) {
@@ -29,6 +29,6 @@ class Solution {
         return result;
     }
 }
-```
+// ```
 
 

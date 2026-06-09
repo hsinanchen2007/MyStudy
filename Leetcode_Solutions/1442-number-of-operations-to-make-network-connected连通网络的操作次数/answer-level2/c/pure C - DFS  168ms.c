@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/5c8d1ed25cac46c5a196ed947a6801e81f1f7ad5c50bd80ccff40f1ed70d9a8d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5c8d1ed25cac46c5a196ed947a6801e81f1f7ad5c50bd80ccff40f1ed70d9a8d-image.png)
 
-```c
+// ```c
 #define HASH_SIZE 100005
 
 int cmp(const void *a, const void *b) {
@@ -76,4 +76,4 @@ int makeConnected(int n, int** connections, int connectionsSize, int* connection
     }
     return ret;
 }
-```
+// ```

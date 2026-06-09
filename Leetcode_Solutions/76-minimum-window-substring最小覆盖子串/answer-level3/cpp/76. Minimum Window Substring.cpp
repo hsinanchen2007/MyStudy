@@ -1,7 +1,7 @@
-### 一个错误的尝试
-没有pass, 使用索引作为键值，无法处理T中重复字母的情况。
+// ### 一个错误的尝试
+// 没有pass, 使用索引作为键值，无法处理T中重复字母的情况。
 
-```
+// ```
 class Solution {
 public:
     Solution() {
@@ -47,14 +47,14 @@ private:
         }
     int minwindowLength;
 };
-```
+// ```
 
-### 解题思路
-滑动窗口，两个map。
+// ### 解题思路
+// 滑动窗口，两个map。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     Solution() {
@@ -112,4 +112,4 @@ public:
     }
     int minwindowLength;
 };
-```
+// ```

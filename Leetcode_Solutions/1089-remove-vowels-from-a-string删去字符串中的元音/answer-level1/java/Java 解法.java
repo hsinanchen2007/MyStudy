@@ -1,4 +1,4 @@
-```java
+// ```java
 public String removeVowels(String S) {
     char[] letters = S.toCharArray();
     int pos = 0;
@@ -16,4 +16,4 @@ public String removeVowels(String S) {
 
     return new String(letters, 0, pos);
 }
-```
+// ```

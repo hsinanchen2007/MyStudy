@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func kClosest(points [][]int, K int) [][]int {
 	pq := make(priorityQueue, 0)
 	heap.Init(&pq)
@@ -59,4 +59,4 @@ func (p *priorityQueue) Pop() interface{} {
 	return v
 }
 
-```
+// ```

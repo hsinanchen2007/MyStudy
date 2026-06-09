@@ -1,10 +1,10 @@
-### 解题思路
-1.遍历数组用map保存每个数字出现的次数。
-2.遍历map，找出value为1的key。
+// ### 解题思路
+// 1.遍历数组用map保存每个数字出现的次数。
+// 2.遍历map，找出value为1的key。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     Map<Integer, Integer> map = new HashMap<>();
 
@@ -21,4 +21,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

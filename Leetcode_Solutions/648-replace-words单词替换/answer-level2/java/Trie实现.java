@@ -1,5 +1,5 @@
-正常版本直接用双重循环很容易解决，不过该题目可以使用前缀树来实现，找到前缀树里第一个前缀然后替换，如果找不到前缀就使用原字符串。
-```
+// 正常版本直接用双重循环很容易解决，不过该题目可以使用前缀树来实现，找到前缀树里第一个前缀然后替换，如果找不到前缀就使用原字符串。
+// ```
 class Solution {
     public String replaceWords(List<String> dict, String sentence) {
         Trie trie = buildTrie(dict);
@@ -77,4 +77,4 @@ class Node{
         this(false);
     }
 }
-```
+// ```

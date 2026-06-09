@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArrayByParity(int[] A) {
         int i=0,j=A.length-1,t;
@@ -29,4 +29,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

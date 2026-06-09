@@ -1,6 +1,6 @@
-解法一：直接利用String类型的indexOf方法：
+// 解法一：直接利用String类型的indexOf方法：
 
-```
+// ```
 class Solution {
     public boolean isUnique(String astr) {
         for(int i = 0; i < astr.length() - 1; i++)
@@ -13,11 +13,11 @@ class Solution {
 
         return true;
     }
-```
+// ```
 
-解法二：双指针暴力循环
+// 解法二：双指针暴力循环
 
-```
+// ```
 class Solution {
     public boolean isUnique(String astr) {
         boolean isSame = true;
@@ -35,4 +35,4 @@ class Solution {
         return isSame;
     }
 }
-```
+// ```

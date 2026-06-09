@@ -1,14 +1,14 @@
-### 解题思路
- * obj对象 collect S
- * 查找出出现次数最多的字母
- * 剩下的字母依次按照空隙进行插入,重复此过程
- * 易错点1：未插满的空隙应该按顺序继续插入，否则会出现有空隙的case：'vvvlo'
- * 时间复杂度：
- * 空间复杂度：O(n)
+// ### 解题思路
+//  * obj对象 collect S
+//  * 查找出出现次数最多的字母
+//  * 剩下的字母依次按照空隙进行插入,重复此过程
+//  * 易错点1：未插满的空隙应该按顺序继续插入，否则会出现有空隙的case：'vvvlo'
+//  * 时间复杂度：
+//  * 空间复杂度：O(n)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 const reorganizeString = S=>{
     let obj={},res='';
     for(let i=0;i<S.length;i++){
@@ -55,4 +55,4 @@ const reorganizeString = S=>{
         return res;
     }
 };
-```
+// ```

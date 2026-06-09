@@ -1,4 +1,4 @@
-```
+// ```
 var n = 25
 var m
 var arr = []
@@ -22,5 +22,5 @@ for(var i=3; i<=n; i++){
     m = arr[i]
 }    
 console.log(m)
-```
-朴素的for循环解法，有点low，内存-js-100%。
+// ```
+// 朴素的for循环解法，有点low，内存-js-100%。

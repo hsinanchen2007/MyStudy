@@ -1,9 +1,9 @@
-### 解题思路
-    对salary分组再salary倒叙排序，返回第二行数据
+-- ### 解题思路
+--     对salary分组再salary倒叙排序，返回第二行数据
 
-### 代码
+-- ### 代码
 
-```mssql
+-- ```mssql
 CREATE FUNCTION getNthHighestSalary(@N INT) RETURNS INT AS
 BEGIN
     RETURN (
@@ -15,4 +15,4 @@ BEGIN
         where a.flag = @N
     );
 END
-```
+-- ```

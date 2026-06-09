@@ -1,9 +1,9 @@
-### 解题思路
-循环解法(非递归&非dp)
+// ### 解题思路
+// 循环解法(非递归&非dp)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -20,4 +20,4 @@ var numWays = function (n) {
     }
     return now % 1000000007
 };
-```
+// ```

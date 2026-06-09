@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 	public String replaceSpace(String s) {
 		String out="";
@@ -10,5 +10,5 @@ class Solution {
 		
 	}
 }
-```
-这样很简单
+// ```
+// 这样很简单

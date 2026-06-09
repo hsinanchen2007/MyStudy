@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-复制成二维数组直观理解
-### 代码
+# 复制成二维数组直观理解
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def convert(self, s: str, n: int) -> str:
         if n<=1:
@@ -28,4 +28,4 @@ class Solution:
             u=u+s     
         return u
             
-```
+# ```

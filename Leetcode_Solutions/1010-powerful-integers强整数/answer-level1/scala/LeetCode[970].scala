@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def pow(in: Int, num: Int): Int = {
     var ret = 1
@@ -25,4 +25,4 @@ object Solution {
     mymap.keys.toList
   }
 }
-```
+// ```

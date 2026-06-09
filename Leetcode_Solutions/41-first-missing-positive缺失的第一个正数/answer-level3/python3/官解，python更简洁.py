@@ -1,12 +1,12 @@
-### 解题思路
-中心思路跟官解是一样的
-自己理解写了一遍
+# ### 解题思路
+# 中心思路跟官解是一样的
+# 自己理解写了一遍
 
-[@sinclairwang](/u/sinclairwang/) 感谢C++的答案。
+# [@sinclairwang](/u/sinclairwang/) 感谢C++的答案。
 
 
-### 代码
-```python [group1-Python]
+# ### 代码
+# ```python [group1-Python]
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
         # 保证有1
@@ -34,8 +34,8 @@ class Solution:
         return n+1
 
 
-```
-```cpp [group1-cpp]
+# ```
+# ```cpp [group1-cpp]
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
@@ -58,4 +58,4 @@ public:
 };
 
 
-```
+# ```

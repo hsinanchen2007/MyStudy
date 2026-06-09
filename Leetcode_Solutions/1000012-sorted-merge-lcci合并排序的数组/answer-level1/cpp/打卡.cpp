@@ -1,6 +1,6 @@
-其实可以不用新的vector的
-当A[i]>B[j]时,只需保存A[i]即可
-```
+// 其实可以不用新的vector的
+// 当A[i]>B[j]时,只需保存A[i]即可
+// ```
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -22,4 +22,4 @@ public:
         B.pop_back();
     }
 };
-```
+// ```

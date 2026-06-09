@@ -1,12 +1,12 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 解题思路
+# ### 解题思路
 
-用快慢指针，快指针比慢指针快k步，到尾结点了慢指针就是倒数第k个结点。
+# 用快慢指针，快指针比慢指针快k步，到尾结点了慢指针就是倒数第k个结点。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution(object):
             fast_p = fast_p.next
             slow_p = slow_p.next
         return slow_p
-```
+# ```

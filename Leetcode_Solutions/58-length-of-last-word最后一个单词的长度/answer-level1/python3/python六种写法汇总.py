@@ -1,4 +1,4 @@
-```py
+# ```py
 # 方法 1
 class Solution1:
     def lengthOfLastWord(self, s):
@@ -58,4 +58,4 @@ class Solution6:
             if s[i] == " ":
                 return i
         return len(s)
-```
+# ```

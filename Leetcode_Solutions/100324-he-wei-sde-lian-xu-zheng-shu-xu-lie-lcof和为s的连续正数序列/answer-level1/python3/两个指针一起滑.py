@@ -1,10 +1,10 @@
-设置两个指针i, j分别代表左边界和右边界，从i累加到j
-当前的和为cur_sum
-- 如果cur_sum大于target, i+1
-- 如果cur_sum小于target, j+1
-- 如果等于，添加到结果集中
+# 设置两个指针i, j分别代表左边界和右边界，从i累加到j
+# 当前的和为cur_sum
+# - 如果cur_sum大于target, i+1
+# - 如果cur_sum小于target, j+1
+# - 如果等于，添加到结果集中
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         i = j = 1
@@ -19,4 +19,4 @@ class Solution:
             if cur_sum == target:
                 res.append(list(range(i, j)))
         return res
-```
+# ```

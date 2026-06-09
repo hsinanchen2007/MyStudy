@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/258f3a32fee6feaca1322e0a387a1ed52d20c43dee5caf766f35bd0347e70295-image.png)
+# ![image.png](https://pic.leetcode-cn.com/258f3a32fee6feaca1322e0a387a1ed52d20c43dee5caf766f35bd0347e70295-image.png)
 
 
-```
+# ```
 '''
 递归生成格雷编码，然后查找起始数值的位置
 '''
@@ -24,4 +24,4 @@ class Solution:
                 pos = i
                 break
         return data[pos:] + data[: pos]
-```
+# ```

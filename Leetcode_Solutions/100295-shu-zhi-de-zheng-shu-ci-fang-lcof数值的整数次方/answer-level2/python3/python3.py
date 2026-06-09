@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         if n==0:
@@ -14,4 +14,4 @@ class Solution:
 
         return self.myPow(x,n//2)**2*self.myPow(x,n%2)
         
-```
+# ```

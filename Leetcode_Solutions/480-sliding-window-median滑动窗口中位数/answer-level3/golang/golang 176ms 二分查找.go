@@ -1,11 +1,11 @@
-使用二分查找找到每一次要删的idx和要插入的idx即可
+// 使用二分查找找到每一次要删的idx和要插入的idx即可
 
-1. 先对前k个排序，计算中位数
-2. 遍历后面的数
-3. 二分查找到第一个数的位置，删除
-4. 二分查找到需要插入数的位置，添加
-5. 计算中位数
-```
+// 1. 先对前k个排序，计算中位数
+// 2. 遍历后面的数
+// 3. 二分查找到第一个数的位置，删除
+// 4. 二分查找到需要插入数的位置，添加
+// 5. 计算中位数
+// ```
 func medianSlidingWindow(nums []int, k int) []float64 {
 	knums := make([]int, k)
 	copy(knums, nums[:k])
@@ -47,4 +47,4 @@ func calMid(nums []int, k int) float64 {
 	}
 	return float64(n1 + n2)/float64(2)
 }
-```
+// ```

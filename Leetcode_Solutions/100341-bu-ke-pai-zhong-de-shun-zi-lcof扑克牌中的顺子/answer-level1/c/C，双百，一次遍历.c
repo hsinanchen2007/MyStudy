@@ -1,10 +1,10 @@
-### 解题思路
-先排序；
-后面好理解了
+// ### 解题思路
+// 先排序；
+// 后面好理解了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmq(int*a,int*b){
     return *a-*b;
 }
@@ -23,4 +23,4 @@ bool isStraight(int* nums, int numsSize){
     }
     return zero>=bug;
 }
-```
+// ```

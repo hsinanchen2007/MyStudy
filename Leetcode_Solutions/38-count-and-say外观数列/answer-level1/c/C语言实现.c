@@ -1,4 +1,4 @@
-```
+// ```
 char arr0[5000];
 char arr1[5000];
 char * countAndSay(int n){
@@ -68,4 +68,4 @@ char * countAndSay(int n){
     if(n%2==0)return arr1;
     else return arr0;
 }
-```
+// ```

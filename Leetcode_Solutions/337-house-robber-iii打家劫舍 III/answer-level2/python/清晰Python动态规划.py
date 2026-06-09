@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     import functools
     @functools.lru_cache(None)
@@ -16,4 +16,4 @@ class Solution:
         not_do = self.rob(root.left) + self.rob(root.right)
         res = max(do, not_do)
         return res
-```
+# ```

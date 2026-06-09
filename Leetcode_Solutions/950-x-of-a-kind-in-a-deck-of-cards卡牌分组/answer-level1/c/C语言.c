@@ -1,9 +1,9 @@
-### 解题思路
-看代码就能懂
+// ### 解题思路
+// 看代码就能懂
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* 卡牌分组 */
 
 int cmp(const void *a, const void *b)
@@ -48,4 +48,4 @@ bool hasGroupsSizeX(int *deck, int deckSize)
 
     return false;
 }
-```
+// ```

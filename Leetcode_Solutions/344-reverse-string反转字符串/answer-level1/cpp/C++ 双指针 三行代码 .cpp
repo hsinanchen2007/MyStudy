@@ -1,6 +1,6 @@
-注意while循环的条件是`l<r`不是`l<=r`
+// 注意while循环的条件是`l<r`不是`l<=r`
 
-```
+// ```
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -9,4 +9,4 @@ public:
             swap(s[l++], s[r--]);
     }
 };
-```
+// ```

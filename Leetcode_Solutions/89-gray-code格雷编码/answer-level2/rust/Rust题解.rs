@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn gray_code(n: i32) -> Vec<i32> {
         let mut x = 1;
@@ -13,5 +13,5 @@ impl Solution {
         ret
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

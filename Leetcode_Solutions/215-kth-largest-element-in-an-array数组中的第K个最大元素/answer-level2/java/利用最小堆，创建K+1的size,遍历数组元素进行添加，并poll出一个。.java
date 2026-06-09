@@ -1,6 +1,6 @@
 
 
-```java
+// ```java
 class Solution {
     public int findKthLargest(int[] nums, int k) {
           //利用最小堆，创建K+1的size,遍历数组元素进行添加，并poll出一个。
@@ -15,4 +15,4 @@ class Solution {
                 return largeK.poll(); 
     }
 }
-```
+// ```

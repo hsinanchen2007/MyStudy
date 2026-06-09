@@ -1,6 +1,6 @@
-补充下Go的BFS实现
+// 补充下Go的BFS实现
 
-```golang
+// ```golang
 func updateBoard(board [][]byte, click []int) [][]byte {
 	if board[click[0]][click[1]]=='M' {
 		board[click[0]][click[1]]='X'
@@ -49,4 +49,4 @@ func checkAround(board [][]byte,m,n int) int{
 	}
 	return res
 }
-```
+// ```

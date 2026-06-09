@@ -1,6 +1,6 @@
-方法很传统，但流和Lambda表达式真香！
+// 方法很传统，但流和Lambda表达式真香！
 
-```java
+// ```java
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -12,4 +12,4 @@ class Solution {
         return i1 == i2;
     }
 }
-```
+// ```

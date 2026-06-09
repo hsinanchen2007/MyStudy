@@ -1,14 +1,14 @@
-# 题目描述（简单难度）
+// # 题目描述（简单难度）
 
-![](https://pic.leetcode-cn.com/5ff12b3ff92255f99fb300fbff2997ade1157fdeccc847fe359cf7ebf40f1156.jpg)
+// ![](https://pic.leetcode-cn.com/5ff12b3ff92255f99fb300fbff2997ade1157fdeccc847fe359cf7ebf40f1156.jpg)
 
-树的层次遍历，和 [102 题](<https://leetcode.wang/leetcode-102-Binary-Tree-Level-Order-Traversal.html>) 的不同之处是，之前输出的数组顺序是从根部一层一层的输出，现在是从底部，一层一层的输出。
+// 树的层次遍历，和 [102 题](<https://leetcode.wang/leetcode-102-Binary-Tree-Level-Order-Traversal.html>) 的不同之处是，之前输出的数组顺序是从根部一层一层的输出，现在是从底部，一层一层的输出。
 
-# 解法一 DFS
+// # 解法一 DFS
 
-把 [102 题](<https://leetcode.wang/leetcode-102-Binary-Tree-Level-Order-Traversal.html>) 的`DFS`贴过来看一下。
+// 把 [102 题](<https://leetcode.wang/leetcode-102-Binary-Tree-Level-Order-Traversal.html>) 的`DFS`贴过来看一下。
 
-```java
+// ```java
 public List<List<Integer>> levelOrder(TreeNode root) {
     List<List<Integer>> ans = new ArrayList<>(); 
     DFS(root, 0, ans);
@@ -29,11 +29,11 @@ private void DFS(TreeNode root, int level, List<List<Integer>> ans) {
     DFS(root.left,level+1,ans);
     DFS(root.right,level+1,ans);
 } 
-```
+// ```
 
-之前我们根据 level 得到数组的位置，然后添加。
+// 之前我们根据 level 得到数组的位置，然后添加。
 
-```java
+// ```java
 ans.get(level).add(root.val);
 
 ans    [] [] [] [] [].
@@ -52,11 +52,11 @@ index = 4 - level
 4 就是 ans 的末尾下标，就是 ans.size() - 1
 所以代码变为
 ans.get(ans.size() - 1 - level).add(root.val);
-```
+// ```
 
-此外还有句代码要改。
+// 此外还有句代码要改。
 
-```java
+// ```java
 if(ans.size()<=level){
     ans.add(new ArrayList<>());
 }
@@ -71,11 +71,11 @@ index   0   1   2
 level   2   1   0  
 所以代码改成下边的样子
  ans.add(0，new ArrayList<>());
-```
+// ```
 
-综上，只要改了这两处就可以了。
+// 综上，只要改了这两处就可以了。
 
-```java
+// ```java
 public List<List<Integer>> levelOrderBottom(TreeNode root) {
     List<List<Integer>> ans = new ArrayList<>();
     DFS(root, 0, ans);
@@ -96,13 +96,13 @@ private void DFS(TreeNode root, int level, List<List<Integer>> ans) {
     DFS(root.left, level + 1, ans);
     DFS(root.right, level + 1, ans);
 }
-```
+// ```
 
-# 解法二 BFS
+// # 解法二 BFS
 
- [102 题](<https://leetcode.wang/leetcode-102-Binary-Tree-Level-Order-Traversal.html>)  从根节点往下走的代码贴过来。
+//  [102 题](<https://leetcode.wang/leetcode-102-Binary-Tree-Level-Order-Traversal.html>)  从根节点往下走的代码贴过来。
 
-```java
+// ```java
 public List<List<Integer>> levelOrder(TreeNode root) {
     Queue<TreeNode> queue = new LinkedList<TreeNode>();
     List<List<Integer>> ans = new LinkedList<List<Integer>>();
@@ -126,23 +126,23 @@ public List<List<Integer>> levelOrder(TreeNode root) {
     }
     return ans;
 } 
-```
+// ```
 
-`BFS`相比于`DFS`要简单些，因为`BFS`是一次性把当前层的元素都添加到`ans`中，所以我们只需要改一句代码。
+// `BFS`相比于`DFS`要简单些，因为`BFS`是一次性把当前层的元素都添加到`ans`中，所以我们只需要改一句代码。
 
-```java
+// ```java
 ans.add(subList);
-```
+// ```
 
-改成添加到头部即可。
+// 改成添加到头部即可。
 
-```java
+// ```java
 ans.add(0,subList);
-```
+// ```
 
-再改个函数名字， 总体代码就是
+// 再改个函数名字， 总体代码就是
 
-```java
+// ```java
 public List<List<Integer>> levelOrderBottom(TreeNode root) {
     Queue<TreeNode> queue = new LinkedList<TreeNode>();
     List<List<Integer>> ans = new LinkedList<List<Integer>>();
@@ -166,10 +166,10 @@ public List<List<Integer>> levelOrderBottom(TreeNode root) {
     }
     return ans;
 }
-```
+// ```
 
-# 总
+// # 总
 
-这道题依旧考层次遍历，只需要在  [102 题](<https://leetcode.wang/leetcode-102-Binary-Tree-Level-Order-Traversal.html>) 的基础上，找到 `level` 和 `index` 的对应关系即可。此外，因为我们在头部添加元素，所以用链表会好一些。如果数组的话，还得整体后移才能添加新的元素。
+// 这道题依旧考层次遍历，只需要在  [102 题](<https://leetcode.wang/leetcode-102-Binary-Tree-Level-Order-Traversal.html>) 的基础上，找到 `level` 和 `index` 的对应关系即可。此外，因为我们在头部添加元素，所以用链表会好一些。如果数组的话，还得整体后移才能添加新的元素。
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

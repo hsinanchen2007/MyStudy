@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String[] findRelativeRanks(int[] nums) {
         Integer[] copy = new Integer[nums.length];
@@ -36,4 +36,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

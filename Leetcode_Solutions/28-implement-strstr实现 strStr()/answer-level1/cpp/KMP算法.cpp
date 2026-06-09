@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int showNext(string s, int target) {
@@ -51,4 +51,4 @@ public:
 		return -1;
 	}
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char *removeKdigits(char *num, int k)
 {
     int i;
@@ -42,4 +42,4 @@ char *removeKdigits(char *num, int k)
         num = "0";
     return num;
 }
-```
+// ```

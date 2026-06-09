@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSatisfied(int[] customers, int[] grumpy, int X) {
         int sum = 0;
@@ -23,4 +23,4 @@ class Solution {
 
     }
 }
-```
+// ```

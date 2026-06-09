@@ -1,5 +1,5 @@
-根据已经插入层次数的奇偶来判断下一次插入的方向
-```
+// 根据已经插入层次数的奇偶来判断下一次插入的方向
+// ```
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
@@ -41,5 +41,5 @@ class Solution {
         return result;
     }
 }
-```
-[Github](https://github.com/hncboy/LeetCode)
+// ```
+// [Github](https://github.com/hncboy/LeetCode)

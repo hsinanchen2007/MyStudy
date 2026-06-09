@@ -1,5 +1,5 @@
-这题用动态规划的话与[**Leetcode第十题**](https://leetcode-cn.com/problems/regular-expression-matching/)很类似，相对来说第十题甚至难很多，可以先去细看第十题的题解，理解之后这道题就很简单了，有兴趣的话请看[**我的第十题题解**](https://leetcode-cn.com/problems/regular-expression-matching/solution/kan-liao-jiu-ming-bai-de-dong-tai-gui-hua-by-stree/)，有什么不足的还望指出。
-```c++
+// 这题用动态规划的话与[**Leetcode第十题**](https://leetcode-cn.com/problems/regular-expression-matching/)很类似，相对来说第十题甚至难很多，可以先去细看第十题的题解，理解之后这道题就很简单了，有兴趣的话请看[**我的第十题题解**](https://leetcode-cn.com/problems/regular-expression-matching/solution/kan-liao-jiu-ming-bai-de-dong-tai-gui-hua-by-stree/)，有什么不足的还望指出。
+// ```c++
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -32,4 +32,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

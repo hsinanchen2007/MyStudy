@@ -1,9 +1,9 @@
-### 解题思路
-递归，循环找根节点，左边就是左子树，右边是右子树
+// ### 解题思路
+// 递归，循环找根节点，左边就是左子树，右边是右子树
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -39,4 +39,4 @@ func generateSubTrees(from, n int) []*TreeNode {
     }
     return trees
 }
-```
+// ```

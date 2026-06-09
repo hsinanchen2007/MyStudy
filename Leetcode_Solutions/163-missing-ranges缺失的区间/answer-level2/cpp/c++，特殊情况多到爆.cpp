@@ -1,5 +1,5 @@
-使用long long扩大范围
-```
+// 使用long long扩大范围
+// ```
 class Solution {
 public:
     vector<string> findMissingRanges(vector<int> &nums, int lower, int upper) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

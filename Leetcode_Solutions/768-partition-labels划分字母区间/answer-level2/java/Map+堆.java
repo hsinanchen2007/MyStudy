@@ -1,11 +1,11 @@
-### 解题思路
-1. 遍历字符串，存储每个字母的第一次出现的位置和最后一次的位置
-2. 将存储位置存入堆，每次从堆中取出起始位置最小的
-3. 用start和end标记当前的区间范围
+// ### 解题思路
+// 1. 遍历字符串，存储每个字母的第一次出现的位置和最后一次的位置
+// 2. 将存储位置存入堆，每次从堆中取出起始位置最小的
+// 3. 用start和end标记当前的区间范围
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> partitionLabels(String S) {
         List<Integer> res = new ArrayList<>();
@@ -52,4 +52,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

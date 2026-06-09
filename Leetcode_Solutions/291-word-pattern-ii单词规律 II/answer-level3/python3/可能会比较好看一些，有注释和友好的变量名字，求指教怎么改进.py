@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def wordPatternMatch(self, pattern: str, string: str) -> bool:
         def helper(pattern, string, left_pattern, left_str, map_relation,
@@ -52,4 +52,4 @@ class Solution:
         return helper(pattern, string, left_pattern, left_str, map_relation,
                       map_relation_inverse)
 
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-把得分和有效数据放入一个栈中，最后对栈求和
+// 把得分和有效数据放入一个栈中，最后对栈求和
 
-利用工具去做的推算
-https://www.cs.usfca.edu/~galles/visualization/StackArray.html
+// 利用工具去做的推算
+// https://www.cs.usfca.edu/~galles/visualization/StackArray.html
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func calPoints(ops []string) int {
 var stack []int
 	for i := 0; i < len(ops); i++ {
@@ -48,4 +48,4 @@ var stack []int
 
 	return totalScore
 }
-```
+// ```

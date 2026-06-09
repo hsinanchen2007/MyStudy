@@ -1,9 +1,9 @@
-![51D14073-C4D7-4634-90D3-3D071CD7A0B1.jpeg](https://pic.leetcode-cn.com/9cd4c3ebd3b73c910bd79ba812d2120a346adb5b153680b138ae53f2cdd34d23-51D14073-C4D7-4634-90D3-3D071CD7A0B1.jpeg)
+// ![51D14073-C4D7-4634-90D3-3D071CD7A0B1.jpeg](https://pic.leetcode-cn.com/9cd4c3ebd3b73c910bd79ba812d2120a346adb5b153680b138ae53f2cdd34d23-51D14073-C4D7-4634-90D3-3D071CD7A0B1.jpeg)
 
-=======》搞定
-![CB4D240F-E357-43E9-B006-8E37470A9C7B.jpeg](https://pic.leetcode-cn.com/73ba97e2d50255cfd5995cd0ef337b867a37a9f3cd2ab29f01fae919706994a0-CB4D240F-E357-43E9-B006-8E37470A9C7B.jpeg)
+// =======》搞定
+// ![CB4D240F-E357-43E9-B006-8E37470A9C7B.jpeg](https://pic.leetcode-cn.com/73ba97e2d50255cfd5995cd0ef337b867a37a9f3cd2ab29f01fae919706994a0-CB4D240F-E357-43E9-B006-8E37470A9C7B.jpeg)
 
-```
+// ```
 //数据结构: 队列，先入先出
 typedef struct {
     char c;
@@ -128,10 +128,10 @@ void stringIteratorFree(StringIterator* obj) {
  
  * stringIteratorFree(obj);
 */
-```
+// ```
 
 
-```
+// ```
 //数据结构: 队列，先入先出
 typedef struct {
     char c;
@@ -250,4 +250,4 @@ void stringIteratorFree(StringIterator* obj) {
  
  * stringIteratorFree(obj);
 */
-```
+// ```

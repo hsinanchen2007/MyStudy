@@ -1,5 +1,5 @@
-注意就是maxSize可以省略，因为超过minSize的字符传的数量一定被符合minSize的要少。
-```
+// 注意就是maxSize可以省略，因为超过minSize的字符传的数量一定被符合minSize的要少。
+// ```
 class Solution {
     public int maxFreq(String s, int maxLetters, int minSize, int maxSize) {
         int dnum = 0;
@@ -53,4 +53,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

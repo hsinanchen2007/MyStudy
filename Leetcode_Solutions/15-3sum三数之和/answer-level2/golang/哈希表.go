@@ -1,5 +1,5 @@
-记录数组中各个数字出现的次数，使用两个slice分别保存正数和负数，然后两层循环遍历数组，找到所有结果。
-```
+// 记录数组中各个数字出现的次数，使用两个slice分别保存正数和负数，然后两层循环遍历数组，找到所有结果。
+// ```
 func threeSum(nums []int) [][]int {
     res := [][]int{}
     maps := make(map[int]int)
@@ -39,4 +39,4 @@ func threeSum(nums []int) [][]int {
     }
     return res
 }
-```
+// ```

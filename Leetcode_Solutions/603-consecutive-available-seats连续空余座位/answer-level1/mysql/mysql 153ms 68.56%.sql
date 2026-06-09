@@ -1,9 +1,9 @@
-### 解题思路
-用了近似lag的方法
+-- ### 解题思路
+-- 用了近似lag的方法
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement bel
 
 (
@@ -21,4 +21,4 @@ and c1.free *c2.free !=0
 )
 order by seat_id
 
-```
+-- ```

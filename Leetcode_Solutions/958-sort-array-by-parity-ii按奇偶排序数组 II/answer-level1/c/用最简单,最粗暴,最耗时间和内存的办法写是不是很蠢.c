@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -27,4 +27,4 @@ int* sortArrayByParityII(int* A, int ASize, int* returnSize)
 	*returnSize = ASize;
 	return B;
 }
-```
+// ```

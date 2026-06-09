@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/27f04e0315406a76c53695e5a9739ea881ec30eda878bac5707ce9f47bd66c14-image.png)
+# ![image.png](https://pic.leetcode-cn.com/27f04e0315406a76c53695e5a9739ea881ec30eda878bac5707ce9f47bd66c14-image.png)
 
 
-```
+# ```
 
 '''
 模拟打开盒子过程，直到没有新盒子可以打开为止
@@ -48,4 +48,4 @@ class Solution:
         for box in opened_box:
             ans += candies[box]
         return ans
-```
+# ```

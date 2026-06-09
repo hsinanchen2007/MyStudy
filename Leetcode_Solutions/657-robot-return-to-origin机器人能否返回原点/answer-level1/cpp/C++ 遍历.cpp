@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     bool judgeCircle(string moves) {
@@ -22,4 +22,4 @@ public:
         return !h && !v;
     }
 };
-```
+// ```

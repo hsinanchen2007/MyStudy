@@ -1,9 +1,9 @@
-### 解题思路
-DFS搜索，记录下搜索的环数目
+// ### 解题思路
+// DFS搜索，记录下搜索的环数目
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXNUM 201
 int visited[201];
 int MaxRow = 0;
@@ -33,4 +33,4 @@ int findCircleNum(int** M, int MSize, int* MColSize){
     }
     return circules;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-打卡
+// ### 解题思路
+// 打卡
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hasGroupsSizeX(deck []int) bool {
     var count = make(map[int]int,0)
     for _,v := range deck{
@@ -35,4 +35,4 @@ func MaxFactor(x,y int) int{
 	}
 }
 
-```
+// ```

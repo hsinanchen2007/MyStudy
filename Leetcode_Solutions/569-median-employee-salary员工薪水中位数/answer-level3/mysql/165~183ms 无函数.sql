@@ -1,4 +1,4 @@
-```
+-- ```
 #	165~183 ms
 select e1.Id,
        e1.Company,
@@ -22,4 +22,4 @@ select e1.Id,
   ) as e2
   where e1.Company = e2.Company
     and (e1.num = e2.mid_num or e1.num = e2.mid_num+0.5 or e1.num = e2.mid_num+1)
-```
+-- ```

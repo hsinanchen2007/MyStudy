@@ -1,6 +1,6 @@
-从 0 到n - 1循环一次，假设 i 为名人，看是否符合条件。过程中用一个二维数组缓存结果。
+// 从 0 到n - 1循环一次，假设 i 为名人，看是否符合条件。过程中用一个二维数组缓存结果。
 
-```
+// ```
 /* The knows API is defined in the parent class Relation.
       boolean knows(int a, int b); */
 
@@ -43,4 +43,4 @@ public class Solution extends Relation {
     }
 
 }
-```
+// ```

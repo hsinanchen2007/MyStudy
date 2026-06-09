@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] singleNumbers(int[] nums) {
         Set<Integer> set = new HashSet<>();
@@ -11,4 +11,4 @@ class Solution {
         return set.stream().mapToInt(Integer::intValue).toArray();
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-请参考注释，JUC包中有支持LRU的天然内部工具类，使用匿名对象初始化即可完成
+// ### 解题思路
+// 请参考注释，JUC包中有支持LRU的天然内部工具类，使用匿名对象初始化即可完成
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LRUCache {
 
     // JUC中适合作为LRE缓存的就是这个map
@@ -40,4 +40,4 @@ class LRUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

@@ -1,10 +1,10 @@
-动态规划
+# 动态规划
 
-`dp[i]`到以索引`i`为最后一个数差值为`A[i] - A[i - 1]`的等差数列的个数
+# `dp[i]`到以索引`i`为最后一个数差值为`A[i] - A[i - 1]`的等差数列的个数
 
-写法1:
+# 写法1:
 
-```python
+# ```python
 class Solution:
     def numberOfArithmeticSlices(self, A: List[int]) -> int:
         from collections import defaultdict
@@ -18,11 +18,11 @@ class Solution:
             res += dp[i][diff]
 
         return res
-```
+# ```
 
-写法2:
+# 写法2:
 
-```python
+# ```python
 class Solution:
     def numberOfArithmeticSlices(self, A: List[int]) -> int:
         if len(A) <= 2: return 0
@@ -37,5 +37,5 @@ class Solution:
                 cur = 0
 
         return res
-```
+# ```
 

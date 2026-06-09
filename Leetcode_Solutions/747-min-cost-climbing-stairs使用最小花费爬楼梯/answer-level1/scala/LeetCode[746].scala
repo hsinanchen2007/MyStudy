@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def minCostClimbingStairs(cost: Array[Int]): Int = {
     val ret = new Array[Int](cost.length)
@@ -10,4 +10,4 @@ object Solution {
     math.min(ret(cost.length-1), ret(cost.length-2))
   }
 }
-```
+// ```

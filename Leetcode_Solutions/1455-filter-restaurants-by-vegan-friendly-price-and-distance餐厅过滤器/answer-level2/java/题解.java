@@ -1,9 +1,9 @@
-### 解题思路
-很简单的模拟题，就是老老实实过滤三种情况，然后把结果按照rating排序，再按照编号排序，但是java里好像没有一个特别好的数据结构能够存储单个的键值对，我就用二维数组存了一下，然后用lambda表达式重写了sort
+// ### 解题思路
+// 很简单的模拟题，就是老老实实过滤三种情况，然后把结果按照rating排序，再按照编号排序，但是java里好像没有一个特别好的数据结构能够存储单个的键值对，我就用二维数组存了一下，然后用lambda表达式重写了sort
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> filterRestaurants(int[][] restaurants, int veganFriendly, int maxPrice, int maxDistance) {
         int len = restaurants.length;
@@ -30,4 +30,4 @@ class Solution {
         return l;
     }
 }
-```
+// ```

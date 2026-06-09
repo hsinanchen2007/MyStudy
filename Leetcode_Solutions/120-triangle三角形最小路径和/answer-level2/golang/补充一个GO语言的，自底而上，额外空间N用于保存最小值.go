@@ -1,4 +1,4 @@
-```
+// ```
 func minimumTotal(triangle [][]int) int {
     
     n := len(triangle)
@@ -32,4 +32,4 @@ func min(a int,b int) int{
         return b
     }
 }
-```
+// ```

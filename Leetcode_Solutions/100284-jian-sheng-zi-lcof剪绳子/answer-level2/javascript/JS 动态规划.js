@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var cuttingRope = function(n) {
     let dp = new Array(n + 1).fill(1);
     for(let i = 3; i <= n; i++){
@@ -10,4 +10,4 @@ var cuttingRope = function(n) {
     }
     return dp[n]
 };
-```
+// ```

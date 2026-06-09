@@ -1,11 +1,11 @@
-### 解题思路
-1. 创建一个新链表的起始点 None
-2. 原链表节点作为新链表的起始点，之前链表的起始点作为该节点的 Next
-3. 顺延原链表的节点
+# ### 解题思路
+# 1. 创建一个新链表的起始点 None
+# 2. 原链表节点作为新链表的起始点，之前链表的起始点作为该节点的 Next
+# 3. 顺延原链表的节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
             head = tmp_node
         return r_node
 
-```
+# ```

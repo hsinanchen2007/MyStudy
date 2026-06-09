@@ -1,11 +1,11 @@
-### 解题思路
-注意设为len-1，而不是len，因为i+1
- for (int i = 0;i < len-1;++i){
-            if (mp[s[i]] < mp[s[i+1]])
+// ### 解题思路
+// 注意设为len-1，而不是len，因为i+1
+//  for (int i = 0;i < len-1;++i){
+//             if (mp[s[i]] < mp[s[i+1]])
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int romanToInt(string s) {
@@ -35,4 +35,4 @@ public:
 
 };
 
-```
+// ```

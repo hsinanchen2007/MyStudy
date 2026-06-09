@@ -1,4 +1,4 @@
-```
+// ```
 ![image.png](https://pic.leetcode-cn.com/9bf33f06ee9b15fe2bb230c72c84443793df2ce92e079c05ffd7bf69473ec1f4-image.png)
 /**
  * Definition for a binary tree node.
@@ -31,4 +31,4 @@ public:
         return max(nextDepth(root->left), nextDepth(root->right));
     }
 };
-```
+// ```

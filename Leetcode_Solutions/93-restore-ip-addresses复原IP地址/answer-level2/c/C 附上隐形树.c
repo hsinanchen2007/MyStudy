@@ -1,7 +1,7 @@
-![捕获.JPG](https://pic.leetcode-cn.com/8d5bb6f3f210c22222920df5b02c43c1c94e8c1cf76c75634a39ada678af98c6-%E6%8D%95%E8%8E%B7.JPG)
+// ![捕获.JPG](https://pic.leetcode-cn.com/8d5bb6f3f210c22222920df5b02c43c1c94e8c1cf76c75634a39ada678af98c6-%E6%8D%95%E8%8E%B7.JPG)
 
 
-````
+// ````
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -65,4 +65,4 @@ char ** restoreIpAddresses(char * s, int* returnSize){
     BackTrace(s, res, returnSize, str, 0, 0);
     return res;    
 }`
-```
+// ```

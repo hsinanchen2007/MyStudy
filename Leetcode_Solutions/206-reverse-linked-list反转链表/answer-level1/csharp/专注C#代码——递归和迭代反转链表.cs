@@ -1,7 +1,7 @@
-**专注C#的学习**
+// **专注C#的学习**
 
-数据结构
-```
+// 数据结构
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -10,10 +10,10 @@
  *     public ListNode(int x) { val = x; }
  * }
  */
-```
-递归方法
+// ```
+// 递归方法
 
-```
+// ```
 
 public class Solution {
     public ListNode ReverseList(ListNode head) {  
@@ -25,9 +25,9 @@ public class Solution {
         return p;
     }
 }
-```
-迭代方法
-```
+// ```
+// 迭代方法
+// ```
 
 public class Solution {
     public ListNode ReverseList(ListNode head) {
@@ -43,5 +43,5 @@ public class Solution {
          return result.next;
     }
 }
-```
+// ```
 

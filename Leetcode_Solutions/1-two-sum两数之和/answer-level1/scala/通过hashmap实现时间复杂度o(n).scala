@@ -1,10 +1,10 @@
-### 解题思路
-hashMap 查找时间效率o(1)，把nums放入hashmap中
-遍历nums 判断hashmap中是否存在 target - nums(i)
+// ### 解题思路
+// hashMap 查找时间效率o(1)，把nums放入hashmap中
+// 遍历nums 判断hashmap中是否存在 target - nums(i)
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 import scala.collection.mutable
 
 object Solution {
@@ -22,4 +22,4 @@ object Solution {
         null
     }
 }
-```
+// ```

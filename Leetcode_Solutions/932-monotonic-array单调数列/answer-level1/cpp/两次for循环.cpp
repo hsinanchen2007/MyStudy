@@ -1,6 +1,6 @@
-![6.PNG](https://pic.leetcode-cn.com/3bfe96b9dc037240273763ecf204c25f8f9321b2a2a7c00f7b0165fdc13007ce-6.PNG)
+// ![6.PNG](https://pic.leetcode-cn.com/3bfe96b9dc037240273763ecf204c25f8f9321b2a2a7c00f7b0165fdc13007ce-6.PNG)
 
-```
+// ```
 class Solution {
 public:
     bool isMonotonic(vector<int>& A) {
@@ -16,4 +16,4 @@ public:
 		return 1;
     }
 };
-```
+// ```

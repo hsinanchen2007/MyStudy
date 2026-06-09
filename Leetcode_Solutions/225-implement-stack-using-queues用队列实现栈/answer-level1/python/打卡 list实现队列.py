@@ -1,9 +1,9 @@
-### 解题思路
-用列表模拟队列，没有特别考虑队列对应列表的顺序，相当于直接把列表末尾当成栈顶
+# ### 解题思路
+# 用列表模拟队列，没有特别考虑队列对应列表的顺序，相当于直接把列表末尾当成栈顶
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MyStack(object):
 
     def __init__(self):
@@ -57,4 +57,4 @@ class MyStack(object):
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

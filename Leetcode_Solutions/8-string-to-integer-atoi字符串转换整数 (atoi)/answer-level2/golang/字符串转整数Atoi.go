@@ -1,13 +1,13 @@
-### 解题思路
-1.首先把左边的空格去掉。
-2.判断是否是-或者+开头，去除开头+-符号，并确定是正数还是负数
-3.从头开始验证字符是否在'0' <= c <= '9'之间
-4.判断是否越界
-4.1 如果是正数，10*n + int(c - '0') > math.MaxInt 也就是10*n < math.MaxInt - int(c - '0')
-4.2 如果是负数 10*n + int(c - '0') > math.MaxInt + 1 也就是10*n - 1 > math.MaxInt - int(c - '0')
-### 代码
+// ### 解题思路
+// 1.首先把左边的空格去掉。
+// 2.判断是否是-或者+开头，去除开头+-符号，并确定是正数还是负数
+// 3.从头开始验证字符是否在'0' <= c <= '9'之间
+// 4.判断是否越界
+// 4.1 如果是正数，10*n + int(c - '0') > math.MaxInt 也就是10*n < math.MaxInt - int(c - '0')
+// 4.2 如果是负数 10*n + int(c - '0') > math.MaxInt + 1 也就是10*n - 1 > math.MaxInt - int(c - '0')
+// ### 代码
 
-```golang
+// ```golang
 func myAtoi(s string) int {
 	s = trimLeft(s)
 	if len(s) == 0 {
@@ -57,4 +57,4 @@ func trimLeft(s string) string {
 	}
 	return s
 }
-```
+// ```

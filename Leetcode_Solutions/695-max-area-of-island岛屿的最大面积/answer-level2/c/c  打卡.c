@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int search(int **grid, int i, int j,int s, int c){
     int sum=0,n1=0,n2=0,n3=0,n4=0;
     if(grid[i][j]==1){
@@ -27,4 +27,4 @@ for(int i=0; i<=gridSize-1; i++)
  }
 return max;
 }
-```
+// ```

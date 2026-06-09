@@ -1,8 +1,8 @@
 
 
-![image.png](https://pic.leetcode-cn.com/2046825625bfea938b1e3d4ff7e6b3b8c293b750a60c98e9b7fd1b79055134a9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2046825625bfea938b1e3d4ff7e6b3b8c293b750a60c98e9b7fd1b79055134a9-image.png)
 
-``` cpp
+// ``` cpp
 class LRUCache {
 private:
     int _capacity;
@@ -39,4 +39,4 @@ public:
         }
     }
 };
-```
+// ```

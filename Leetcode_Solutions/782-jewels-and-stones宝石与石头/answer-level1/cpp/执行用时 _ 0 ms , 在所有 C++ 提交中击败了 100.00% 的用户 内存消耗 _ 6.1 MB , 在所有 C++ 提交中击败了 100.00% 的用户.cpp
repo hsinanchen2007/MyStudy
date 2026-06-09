@@ -1,9 +1,9 @@
-### 解题思路
-count(begin,end,val)函数功能：查找容器里从begin开始到end结束中元素val的个数。
+// ### 解题思路
+// count(begin,end,val)函数功能：查找容器里从begin开始到end结束中元素val的个数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -19,4 +19,4 @@ public:
 
     }
 };
-```
+// ```

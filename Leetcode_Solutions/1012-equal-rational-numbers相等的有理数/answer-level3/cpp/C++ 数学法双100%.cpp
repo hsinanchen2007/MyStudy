@@ -1,10 +1,10 @@
-# 思路
-这道题主要涉及到两点知识
-1，无限循环小数如何转化为有理数（涉及到等比数列加和的极限知识）
-2，有理数的化简（涉及到最大公约数）
-把两个数都化简为最简的有理数，比较是否相等即可
+// # 思路
+// 这道题主要涉及到两点知识
+// 1，无限循环小数如何转化为有理数（涉及到等比数列加和的极限知识）
+// 2，有理数的化简（涉及到最大公约数）
+// 把两个数都化简为最简的有理数，比较是否相等即可
 
-```
+// ```
 class Solution {
 public:
     using ll = long long;
@@ -84,6 +84,6 @@ public:
         return trans(S) == trans(T);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/31e8ae4f94a48587adcb3afc517466cba1c10d5008976e5324a984744dc939b9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/31e8ae4f94a48587adcb3afc517466cba1c10d5008976e5324a984744dc939b9-image.png)

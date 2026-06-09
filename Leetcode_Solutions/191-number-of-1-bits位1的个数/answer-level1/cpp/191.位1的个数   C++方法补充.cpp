@@ -1,7 +1,7 @@
-1. **使用`bitset`**   8 ms
+// 1. **使用`bitset`**   8 ms
 
-count() 函数返回1的个数
-```c++
+// count() 函数返回1的个数
+// ```c++
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -9,25 +9,25 @@ public:
         return b.count();
     }
 };
-```
-2. **使用神奇的函数`__builtin_popcount`**   8 ms
+// ```
+// 2. **使用神奇的函数`__builtin_popcount`**   8 ms
 
-GCC有一个叫做__builtin_popcount的内建函数，它可以精确的计算1的个数
-```c++
+// GCC有一个叫做__builtin_popcount的内建函数，它可以精确的计算1的个数
+// ```c++
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
         return __builtin_popcount(n);
     }
 };
-```
+// ```
 
-3. **二进制骚操作**   4 ms
+// 3. **二进制骚操作**   4 ms
 
-参考李博杰的《骗分导论》
+// 参考李博杰的《骗分导论》
 
-一波操作猛如虎，其实我也没看懂
-```
+// 一波操作猛如虎，其实我也没看懂
+// ```
 class Solution {
 public:
     int hammingWeight(uint32_t n) {
@@ -39,5 +39,5 @@ public:
         return n;
     }
 };
-```
+// ```
 

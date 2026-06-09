@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/deed76a9484e4808622703ec554d79a6723ca83ca561a9e500109f7b91c80839-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/deed76a9484e4808622703ec554d79a6723ca83ca561a9e500109f7b91c80839-image.png)
+// ```
 class Solution {
     public int[] sortArrayByParity(int[] A) {
         int i = 0;
@@ -23,7 +23,7 @@ class Solution {
         return A;
     }
 }
-```
+// ```
 
 
 

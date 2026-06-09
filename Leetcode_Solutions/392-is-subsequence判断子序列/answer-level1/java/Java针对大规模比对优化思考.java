@@ -1,20 +1,20 @@
-### 解题思路
+// ### 解题思路
 
-这个解法主要是对后续挑战中大规模比对进行的，首先在初始化时讲T系列通过`getSourceMap`转换为一个表（字母：字母在T中位置列表）。
+// 这个解法主要是对后续挑战中大规模比对进行的，首先在初始化时讲T系列通过`getSourceMap`转换为一个表（字母：字母在T中位置列表）。
 
-执行判断时，根据当前字母和当前位置`index`，在map中查找大于index的该字母的位置，能找到就继续，否则返回`false`。
+// 执行判断时，根据当前字母和当前位置`index`，在map中查找大于index的该字母的位置，能找到就继续，否则返回`false`。
 
-其中`getIndex`还有两个优化点：
+// 其中`getIndex`还有两个优化点：
 
-1. 使用二分查找法进一步提升查找性能
-2. 通过一个位置记录表，记录某个字母现在已经查找过的位置，加速二分查找过程
+// 1. 使用二分查找法进一步提升查找性能
+// 2. 通过一个位置记录表，记录某个字母现在已经查找过的位置，加速二分查找过程
 
-![image.png](https://pic.leetcode-cn.com/eb3ebc5a1c493797cb0ccb2a4f39fd5de7c23d39dd5807a9b9cc03ce0bb65140-image.png)
+// ![image.png](https://pic.leetcode-cn.com/eb3ebc5a1c493797cb0ccb2a4f39fd5de7c23d39dd5807a9b9cc03ce0bb65140-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int[][] getSourceMap(String t) {
         // 计算字符数量
@@ -62,4 +62,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-dp[i]=dp[i-1]+dp[i-2]+dp[i-3]
+// ### 解题思路
+// dp[i]=dp[i-1]+dp[i-2]+dp[i-3]
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //#define   max(a,b)  ((a)>(b)?(a):(b))
 //#define   MAX(a,b,c)  ((c)>max(a,b)?(c):max(a,b))
 
@@ -19,4 +19,4 @@ dp[i]%=1000000007;
 }
 return dp[n];
 }
-```
+// ```

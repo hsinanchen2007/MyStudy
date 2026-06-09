@@ -1,5 +1,5 @@
 
-```
+// ```
 /**
  * @param {character[][]} board
  * @param {number[]} click
@@ -50,4 +50,4 @@ var updateBoard = function(board, click) {
     
     return board;
 };
-```
+// ```

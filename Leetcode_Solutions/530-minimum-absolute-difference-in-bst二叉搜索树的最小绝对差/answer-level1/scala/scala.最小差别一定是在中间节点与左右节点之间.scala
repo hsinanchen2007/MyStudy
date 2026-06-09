@@ -1,5 +1,5 @@
 
-```scala
+// ```scala
 object Solution {
     def getMinimumDifference(root: TreeNode): Int = {
         var min=Int.MaxValue;
@@ -18,4 +18,4 @@ object Solution {
 
     }
 }
-```
+// ```

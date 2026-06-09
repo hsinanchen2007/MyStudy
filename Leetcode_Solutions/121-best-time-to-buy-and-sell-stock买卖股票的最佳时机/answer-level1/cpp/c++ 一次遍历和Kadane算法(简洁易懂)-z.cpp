@@ -1,6 +1,6 @@
-### 一次遍历
+// ### 一次遍历
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -13,10 +13,10 @@ public:
         return maxprofit;
     }
 };
-```
-### Kadane算法
+// ```
+// ### Kadane算法
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -32,11 +32,11 @@ public:
 };
 
 
-```
+// ```
 
-### 暴力
+// ### 暴力
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -50,4 +50,4 @@ public:
         return max;
     }
 };
-```
+// ```

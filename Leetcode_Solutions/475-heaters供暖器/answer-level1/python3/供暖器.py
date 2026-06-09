@@ -1,9 +1,9 @@
-### 解题思路
-初做比较涉及算法和数据结构的题，第一天完全做懵，也是看了题解，咀嚼思路后自己写了代码，bisect函数很重要，自己写的逻辑严重超时
+# ### 解题思路
+# 初做比较涉及算法和数据结构的题，第一天完全做懵，也是看了题解，咀嚼思路后自己写了代码，bisect函数很重要，自己写的逻辑严重超时
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRadius(self, houses, heaters):
         houses.sort()
@@ -21,4 +21,4 @@ class Solution:
             length_min = min(length_left,length_right)#左右两边的距离最小值
             length_max=max(length_max,length_min)#左右供暖距离的最大值
         return length_max
-```
+# ```

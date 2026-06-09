@@ -1,9 +1,9 @@
-### 解题思路
-双指针二分查找
+# ### 解题思路
+# 双指针二分查找
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
         l = 0
@@ -17,4 +17,4 @@ class Solution:
             else:
                 l = m + 1
         return False
-```
+# ```

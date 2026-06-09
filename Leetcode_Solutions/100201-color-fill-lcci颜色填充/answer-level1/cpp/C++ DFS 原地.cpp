@@ -1,5 +1,5 @@
-解题思路：递归解决（sr, sc）的上下左右四个方向，用一个二维数组来标记已被访问过的点。
-```
+// 解题思路：递归解决（sr, sc）的上下左右四个方向，用一个二维数组来标记已被访问过的点。
+// ```
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {
@@ -22,4 +22,4 @@ public:
         }
     }
 };
-```
+// ```

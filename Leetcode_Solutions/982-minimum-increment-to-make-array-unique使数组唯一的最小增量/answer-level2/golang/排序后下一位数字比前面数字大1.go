@@ -1,4 +1,4 @@
-```
+// ```
 func minIncrementForUnique(A []int) int {
       sort.Ints(A)
     
@@ -14,4 +14,4 @@ func minIncrementForUnique(A []int) int {
      }
      return num
      }
-```
+// ```

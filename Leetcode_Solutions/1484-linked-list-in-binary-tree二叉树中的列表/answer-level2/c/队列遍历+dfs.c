@@ -1,10 +1,10 @@
-### 解题思路
-1.使用队列找出所有的取值和链表起点值相同的点
-2.从满足条件的点开始执行dfs
+// ### 解题思路
+// 1.使用队列找出所有的取值和链表起点值相同的点
+// 2.从满足条件的点开始执行dfs
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -73,4 +73,4 @@ bool isSubPath(struct ListNode* head, struct TreeNode* root){
     return false;
 
 }
-```
+// ```

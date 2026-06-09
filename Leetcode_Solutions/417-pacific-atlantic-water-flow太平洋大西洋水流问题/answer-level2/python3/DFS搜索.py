@@ -1,7 +1,7 @@
-从海洋边界向陆地搜索，否则会超时。。。这点要注意。找到所有连接大西洋和太平洋的路径。   
+# 从海洋边界向陆地搜索，否则会超时。。。这点要注意。找到所有连接大西洋和太平洋的路径。   
 
-还有此题有个地方没说清楚，边界的水流是可以直接流入相临的洋的。所以n 0 和 0 m 两个对角是必流通的。
-```
+# 还有此题有个地方没说清楚，边界的水流是可以直接流入相临的洋的。所以n 0 和 0 m 两个对角是必流通的。
+# ```
 class Solution:
     def pacificAtlantic(self, matrix: List[List[int]]) -> List[List[int]]:
     
@@ -38,4 +38,4 @@ class Solution:
             if(matrix[i+pos1][j+pos2] >= matrix[i][j]):
                 self._dfs(matrix,i+pos1,j+pos2,connect)
             
-```
+# ```

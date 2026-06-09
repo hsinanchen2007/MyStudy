@@ -1,13 +1,13 @@
-### 解题思路
+# ### 解题思路
 
-辅助值来帮助
-输入的链表头指针是NULL
-输入的链表只有一个结点
-输入的链表有多个结点
+# 辅助值来帮助
+# 输入的链表头指针是NULL
+# 输入的链表只有一个结点
+# 输入的链表有多个结点
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution(object):
         p.next =left
         return p
 
-```
+# ```

@@ -1,6 +1,6 @@
 
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,11 +28,11 @@ class Solution {
     
     
 }
-```
+// ```
 
-> 11.26 python
+// > 11.26 python
 
-```python
+// ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -66,4 +66,4 @@ class Solution:
             return dfs(root.left, root.val, lower_bounds) and dfs(root.right, upper_bounds, root.val)
 
         return dfs(root, self.maxval, self.minval)
-```
+// ```

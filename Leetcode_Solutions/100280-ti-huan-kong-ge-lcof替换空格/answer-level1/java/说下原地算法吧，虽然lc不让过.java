@@ -1,27 +1,27 @@
-## 05. 替换空格
+// ## 05. 替换空格
 
-### Information
+// ### Information
 
-* TIME: 2020/02/27
-* LINK: [Click Here](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
-* TAG: 
+// * TIME: 2020/02/27
+// * LINK: [Click Here](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
+// * TAG: 
 
-### Description
+// ### Description
 
-> 请实现一个函数，把字符串 `s` 中的每个空格替换成"%20"。
+// > 请实现一个函数，把字符串 `s` 中的每个空格替换成"%20"。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入：s = "We are happy."
 输出："We%20are%20happy."
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> StringBuilder线程不安全，单例模式下比较快
+// > StringBuilder线程不安全，单例模式下比较快
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         StringBuilder sb = new StringBuilder();
@@ -37,13 +37,13 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```
 
-### Best Answer
+// ### Best Answer
 
-> 原地算法，从后往前
+// > 原地算法，从后往前
 
-```c
+// ```c
 char* replaceSpace(char* s){
     int length = strlen(s);
     int spaceCount = 0;
@@ -65,23 +65,23 @@ char* replaceSpace(char* s){
     }
     return s;
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/333acacfb5858a0c47e3ce7f736c7b0987b965c95d152bd24245634f51092e14-file_1582778065170)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/333acacfb5858a0c47e3ce7f736c7b0987b965c95d152bd24245634f51092e14-file_1582778065170)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

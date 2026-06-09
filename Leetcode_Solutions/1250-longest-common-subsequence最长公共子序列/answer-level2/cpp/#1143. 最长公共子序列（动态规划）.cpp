@@ -1,13 +1,13 @@
-### 状态转移方程
-```cpp
+// ### 状态转移方程
+// ```cpp
 f(i, j) 代表 text1[0...i] 和 text2[0...j] 的最长公共子串长度
 f(i, j) = f(i-1, j-1) + 1,              text1[i] == text2[j]
 f(i, j) = max(f(i-1, j), f(i, j-1)),    text1[i] != text2[j]
-```
+// ```
 
 
-### 递归+备忘录（每求得一个 dp 就存进备忘录，注意备忘录访问不要越界！）
-```cpp
+// ### 递归+备忘录（每求得一个 dp 就存进备忘录，注意备忘录访问不要越界！）
+// ```cpp
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
@@ -33,10 +33,10 @@ public:
         return table[i][j];
     }
 };
-```
+// ```
 
-### 迭代
-```cpp
+// ### 迭代
+// ```cpp
 class Solution {
 public:
     int longestCommonSubsequence(string text1, string text2) {
@@ -65,4 +65,4 @@ public:
         return table.back().back();
     }    
 };
-```
+// ```

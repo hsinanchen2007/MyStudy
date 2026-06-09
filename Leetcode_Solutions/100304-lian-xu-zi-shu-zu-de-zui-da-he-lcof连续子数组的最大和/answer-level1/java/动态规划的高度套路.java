@@ -1,10 +1,10 @@
-### 解题思路
-高度套路的动态规划
-https://zhuanlan.zhihu.com/p/107457744
+// ### 解题思路
+// 高度套路的动态规划
+// https://zhuanlan.zhihu.com/p/107457744
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         if(nums==null||nums.length==0){
@@ -23,4 +23,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

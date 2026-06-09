@@ -1,9 +1,9 @@
-### 解题思路
-参考感染岛屿思路，每次遇见1，dfs，将搜索到的点感染(设置为2)
+// ### 解题思路
+// 参考感染岛屿思路，每次遇见1，dfs，将搜索到的点感染(设置为2)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int count = 0;
     public int maxAreaOfIsland(int[][] grid) {
@@ -30,4 +30,4 @@ class Solution {
         dfs(grid, i, j + 1); 
     }
 }
-```
+// ```

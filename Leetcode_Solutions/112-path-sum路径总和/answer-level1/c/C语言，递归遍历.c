@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-（1）如果给定树结点如果为空，则直接返回false；
-（2）分别遍历左右子树，如果已经到叶子节点且根节点到叶子结点的和为sum，则返回false；否则返回false；如果左右子树有一个为true，则返回true，否则返回false；
+// ### 解题思路
+// 此处撰写解题思路
+// （1）如果给定树结点如果为空，则直接返回false；
+// （2）分别遍历左右子树，如果已经到叶子节点且根节点到叶子结点的和为sum，则返回false；否则返回false；如果左右子树有一个为true，则返回true，否则返回false；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -43,13 +43,13 @@ bool hasPathSum(struct TreeNode* root, int sum){
     return myHasPathSum(root, sum);
 }
 
-```
+// ```
 
-优化一下吧...
+// 优化一下吧...
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasPathSum(struct TreeNode* root, int sum){
     if (root == NULL) {
         return false;
@@ -61,4 +61,4 @@ bool hasPathSum(struct TreeNode* root, int sum){
 
     return hasPathSum(root->left, sum - root->val) || hasPathSum(root->right, sum - root->val);
 }
-```
+// ```

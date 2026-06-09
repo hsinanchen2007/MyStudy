@@ -1,10 +1,10 @@
-### 解题思路
-本题目的是将searching tree反向遍历，但由于TreeNode结构没有存放parent节点信息，为了减少遍历次数我们将整个树看作多个子树。
-我们进行反向遍历，每次遍历一个子树时，将根节点的值 += right tree的所有值的和(最左叶子节点的值)，左节点的值 += root的值。
+// ### 解题思路
+// 本题目的是将searching tree反向遍历，但由于TreeNode结构没有存放parent节点信息，为了减少遍历次数我们将整个树看作多个子树。
+// 我们进行反向遍历，每次遍历一个子树时，将根节点的值 += right tree的所有值的和(最左叶子节点的值)，左节点的值 += root的值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         return root.val;
     }
 }
-```
+// ```

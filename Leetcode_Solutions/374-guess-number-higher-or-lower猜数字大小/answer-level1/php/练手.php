@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /** 
  * The API guess is defined in the parent class.
  * @param  num   your guess
@@ -45,4 +45,4 @@ class Solution extends GuessGame {
     }
     
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-注意考虑z作为下一个需要移动到位置时的情况
-### 代码
+# ### 解题思路
+# 注意考虑z作为下一个需要移动到位置时的情况
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def alphabetBoardPath(self, target: str) -> str:
         result = ''
@@ -31,4 +31,4 @@ class Solution:
             x_now, y_now = x, y
         return result
 
-```
+# ```

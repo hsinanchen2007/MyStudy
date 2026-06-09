@@ -1,5 +1,5 @@
-0ms时间
-```
+// 0ms时间
+// ```
 class Solution {
 public:
     string encode(int num) {
@@ -13,4 +13,4 @@ public:
         return str;
     }
 };
-```
+// ```

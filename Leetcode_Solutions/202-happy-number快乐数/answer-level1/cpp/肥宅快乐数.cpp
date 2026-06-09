@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int convert(int x){
@@ -16,4 +16,4 @@ public:
         return n==1||n==7;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-回溯 当遍历到null则退出 否则取树节点的值到list中
+// ### 解题思路
+// 回溯 当遍历到null则退出 否则取树节点的值到list中
 
-核心在于用level记录下当前的层次 在res中通过level索引追加元素。
-### 代码
+// 核心在于用level记录下当前的层次 在res中通过level索引追加元素。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
         dfs(res, root.right, level + 1);
     }
 }
-```
+// ```

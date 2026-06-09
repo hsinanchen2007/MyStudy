@@ -1,5 +1,5 @@
-这道题给出的节点编号是按照层次遍历给出的，所以我们可以逆遍历一次，并用一个数组记录每一个节点节点值之和，如果某一个节点的节点值之和为0，我们就把这个节点以及其子树的所有节点都标记一下，最后统计一下没有标记的节点有哪些即可。（第一次发布题解，请大家多多指正）
-```
+// 这道题给出的节点编号是按照层次遍历给出的，所以我们可以逆遍历一次，并用一个数组记录每一个节点节点值之和，如果某一个节点的节点值之和为0，我们就把这个节点以及其子树的所有节点都标记一下，最后统计一下没有标记的节点有哪些即可。（第一次发布题解，请大家多多指正）
+// ```
 class Solution {
    public:
     int deleteTreeNodes(int nodes, vector<int>& parent, vector<int>& value) {
@@ -21,5 +21,5 @@ class Solution {
         return ans;
     }
 };
-```
-[https://github.com/gxsoar/LeetCode_Practice]
+// ```
+// [https://github.com/gxsoar/LeetCode_Practice]

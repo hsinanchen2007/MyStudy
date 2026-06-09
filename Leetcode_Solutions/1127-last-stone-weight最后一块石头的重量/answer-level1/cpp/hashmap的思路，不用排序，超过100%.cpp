@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/573b69b89f13829a2a48da11e6a28bacf7057c343428ca4d84633188f4944d56-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/573b69b89f13829a2a48da11e6a28bacf7057c343428ca4d84633188f4944d56-image.png)
 
-石头重量是正数，且<=1000, 那么自己构造一个以重量当做index的数组完全可以，这样就避免了排序。
-从大到小遍历一遍即可，新重量再放入数组。数组记录的是每种重量的石头数量。
+// 石头重量是正数，且<=1000, 那么自己构造一个以重量当做index的数组完全可以，这样就避免了排序。
+// 从大到小遍历一遍即可，新重量再放入数组。数组记录的是每种重量的石头数量。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lastStoneWeight(vector<int>& stones) {
@@ -45,4 +45,4 @@ public:
             return j;
     }
 };
-```
+// ```

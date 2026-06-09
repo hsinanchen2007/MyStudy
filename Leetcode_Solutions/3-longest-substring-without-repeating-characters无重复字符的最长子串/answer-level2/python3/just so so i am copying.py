@@ -1,4 +1,4 @@
-```
+# ```
 def lengthOfLongestSubstring(s: str ) -> int:
     # you题意可知
     # 找出没有重复字符的最常子串
@@ -18,4 +18,4 @@ def lengthOfLongestSubstring(s: str ) -> int:
         maxv = max(maxv, right - left + 1)
         right += 1
     return maxv
-```
+# ```

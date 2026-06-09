@@ -1,4 +1,4 @@
-```
+// ```
 /**
     * @param {string} s
     * @return {number}
@@ -37,4 +37,4 @@
         return s.length;
     }
 }
-```
+// ```

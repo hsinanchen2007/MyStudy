@@ -1,7 +1,7 @@
-- 左右指针
-- 注意最后边界
+// - 左右指针
+// - 注意最后边界
 
-```PHP []
+// ```PHP []
 class Solution {
 
     /**
@@ -35,8 +35,8 @@ class Solution {
         return count($chars);
     }
 }
-```
-```GO []
+// ```
+// ```GO []
 func compress(chars []byte) int {
     if len(chars)==0 {return -1}
     num, count, idx, times := 1, len(chars), 0, 0
@@ -62,4 +62,4 @@ func compress(chars []byte) int {
 	chars = chars[:times] // 切个到操作次数处
     return times
 }
-```
+// ```

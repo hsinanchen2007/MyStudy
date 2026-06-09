@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 
 class Solution:
@@ -17,4 +17,4 @@ class Solution:
             if i-1 in count.keys() and count[i] + count[i - 1] > max_len:
                 max_len = count[i] + count[i - 1]
         return max_len
-```
+# ```

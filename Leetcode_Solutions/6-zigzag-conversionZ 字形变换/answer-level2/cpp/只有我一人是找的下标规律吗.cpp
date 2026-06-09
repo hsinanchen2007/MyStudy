@@ -1,11 +1,11 @@
-### 解题思路
-1   5   9      r0+4 ...
-2 4 6 8 10     r1+2 r1+2 ...
-3   7   11     r2+4 ...
+// ### 解题思路
+// 1   5   9      r0+4 ...
+// 2 4 6 8 10     r1+2 r1+2 ...
+// 3   7   11     r2+4 ...
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -35,4 +35,4 @@ public:
         return res;
     }
 };
-```
+// ```

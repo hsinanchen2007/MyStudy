@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -21,4 +21,4 @@ public:
         return count;
     }
 };
-```
+// ```

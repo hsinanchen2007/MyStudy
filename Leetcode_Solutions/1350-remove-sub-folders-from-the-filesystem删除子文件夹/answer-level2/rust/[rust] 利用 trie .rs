@@ -1,9 +1,9 @@
-### 解题思路
-构造一个简单的 trie，将 folder 中所有的字符串存入 trie 后再遍历一遍 folder，找出非子目录
+// ### 解题思路
+// 构造一个简单的 trie，将 folder 中所有的字符串存入 trie 后再遍历一遍 folder，找出非子目录
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
 
     pub fn remove_subfolders(folder: Vec<String>) -> Vec<String> {
@@ -81,4 +81,4 @@ impl<T: Eq + Debug + Hash + Clone> TrieNode<T> {
         result
     }
 }
-```
+// ```

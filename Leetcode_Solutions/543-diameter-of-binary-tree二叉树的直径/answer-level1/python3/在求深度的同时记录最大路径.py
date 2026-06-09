@@ -1,9 +1,9 @@
-### 解题思路
-在求深度时，多写一行res=max(res,l+r+1)来记录最大路径
+# ### 解题思路
+# 在求深度时，多写一行res=max(res,l+r+1)来记录最大路径
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
         dfs(root)
         return res-1
             
-```
+# ```

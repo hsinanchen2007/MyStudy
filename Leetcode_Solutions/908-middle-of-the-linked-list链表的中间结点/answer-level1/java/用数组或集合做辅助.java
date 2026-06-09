@@ -1,9 +1,9 @@
-### 解题思路
-把结点放到数组里，长度除以二的位置的结点就是要找的那个结点
+// ### 解题思路
+// 把结点放到数组里，长度除以二的位置的结点就是要找的那个结点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -24,4 +24,4 @@ class Solution {
         return list.get(list.size()/2);
     }
 }
-```
+// ```

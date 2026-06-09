@@ -1,9 +1,9 @@
-### 解题思路
-先排序，然后当前项与前一项进行对比
+// ### 解题思路
+// 先排序，然后当前项与前一项进行对比
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -15,4 +15,4 @@ var findRepeatNumber = function(nums) {
    
     return repeatArr[parseInt(Math.random()*repeatArr.length)]
 };
-```
+// ```

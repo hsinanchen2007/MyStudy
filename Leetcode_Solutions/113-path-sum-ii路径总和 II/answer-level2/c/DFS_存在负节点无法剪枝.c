@@ -1,9 +1,9 @@
-### 解题思路
-DFS搜索，因为有负节点，不能剪枝。
+// ### 解题思路
+// DFS搜索，因为有负节点，不能剪枝。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define MAX_PATH_LEN 1000
 #define MAX_PATH_CNT 1000
@@ -69,4 +69,4 @@ int** pathSum(struct TreeNode* root, int sum, int* returnSize, int** returnColum
 
     return path;
 }
-```
+// ```

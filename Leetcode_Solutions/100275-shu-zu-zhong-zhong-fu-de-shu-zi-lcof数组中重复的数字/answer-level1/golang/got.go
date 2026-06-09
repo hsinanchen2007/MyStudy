@@ -1,10 +1,10 @@
-### 解题思路
-时间o(n),空间o(1)
-注意交换元素时别换错了
+// ### 解题思路
+// 时间o(n),空间o(1)
+// 注意交换元素时别换错了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findRepeatNumber(nums []int) int {
     index:=0
     for{
@@ -23,4 +23,4 @@ func swap(nums []int,a,b int){
     nums[a]=nums[b]
     nums[b]=temp
 }
-```
+// ```

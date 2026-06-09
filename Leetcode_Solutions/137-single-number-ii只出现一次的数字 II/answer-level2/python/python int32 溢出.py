@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         bit, result = 1, 0
@@ -17,4 +17,4 @@ class Solution:
             result -= 4294967296
 
         return result
-```
+# ```

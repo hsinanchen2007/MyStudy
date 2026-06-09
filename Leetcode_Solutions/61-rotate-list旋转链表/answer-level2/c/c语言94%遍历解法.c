@@ -1,9 +1,9 @@
 
-![微信图片_20190922155527.jpg](https://pic.leetcode-cn.com/eac101a4039d571ea071d17aaf4b944e46053a8a611420ab138ac0a0ea2ad1b6-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190922155527.jpg)
+// ![微信图片_20190922155527.jpg](https://pic.leetcode-cn.com/eac101a4039d571ea071d17aaf4b944e46053a8a611420ab138ac0a0ea2ad1b6-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190922155527.jpg)
 
 
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -54,4 +54,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
 }
 
 
-```
+// ```

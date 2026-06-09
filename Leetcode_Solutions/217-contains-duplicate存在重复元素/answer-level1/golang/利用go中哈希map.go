@@ -1,4 +1,4 @@
-```
+// ```
 func containsDuplicate(nums []int) bool {
     mmap := make(map[int]int)
 
@@ -14,4 +14,4 @@ func containsDuplicate(nums []int) bool {
 
 }
 
-```
+// ```

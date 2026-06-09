@@ -1,6 +1,6 @@
-![0364BF95-A547-4921-AE37-D05EE02CCBAB.jpeg](https://pic.leetcode-cn.com/fdd21b11e77495331c0a03c3ab8d6f1bef393836d3a98b8308edbd9a6deeaf5c-0364BF95-A547-4921-AE37-D05EE02CCBAB.jpeg)
+// ![0364BF95-A547-4921-AE37-D05EE02CCBAB.jpeg](https://pic.leetcode-cn.com/fdd21b11e77495331c0a03c3ab8d6f1bef393836d3a98b8308edbd9a6deeaf5c-0364BF95-A547-4921-AE37-D05EE02CCBAB.jpeg)
 
-```
+// ```
 
 #define MAXSIZE 1000001
 
@@ -52,4 +52,4 @@ void myHashSetFree(MyHashSet* obj) {
  
  * myHashSetFree(obj);
 */
-```
+// ```

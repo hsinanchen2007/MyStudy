@@ -1,6 +1,6 @@
 
 
-```
+// ```
 impl Solution {
     pub fn backspace_compare(s: String, t: String) -> bool {
         let mut v_s = Vec::<char>::new();
@@ -44,4 +44,4 @@ impl Solution {
         v_s == v_t
     }
 }
-```
+// ```

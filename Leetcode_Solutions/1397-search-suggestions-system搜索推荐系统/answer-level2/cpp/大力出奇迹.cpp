@@ -1,5 +1,5 @@
-对于每个前缀构建个堆，堆大小为 3 ，最后遍历 searchword 的前缀就可以了。
-```
+// 对于每个前缀构建个堆，堆大小为 3 ，最后遍历 searchword 的前缀就可以了。
+// ```
     vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
       map<string,priority_queue<string,vector<string>,less<string> > >p;
       for(auto i :products){
@@ -29,4 +29,4 @@
       
       return ans;
     }
-```
+// ```

@@ -1,5 +1,5 @@
-首先采用二进制加法的计算方式，得到一个整形的包含相加结果的数组，再将数组转化为字符串返回。
-```java []
+// 首先采用二进制加法的计算方式，得到一个整形的包含相加结果的数组，再将数组转化为字符串返回。
+// ```java []
 class Solution {
     public String addBinary(String a, String b) {
         int length = Math.max(a.length(), b.length());
@@ -32,4 +32,4 @@ class Solution {
         return res.toString();
     }
 }
-```
+// ```

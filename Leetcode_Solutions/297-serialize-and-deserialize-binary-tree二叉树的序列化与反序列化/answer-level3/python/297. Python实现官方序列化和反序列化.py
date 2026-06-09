@@ -1,9 +1,9 @@
-### 解题思路
-官方序列化和反序列化即为层次遍历，层次遍历常用方法是用栈，所以在序列化和反序列化中都使用了栈作为基础数据结构，具体实现方法和用栈做树的层次遍历基本一致，具体细节可以看下面代码。
+# ### 解题思路
+# 官方序列化和反序列化即为层次遍历，层次遍历常用方法是用栈，所以在序列化和反序列化中都使用了栈作为基础数据结构，具体实现方法和用栈做树的层次遍历基本一致，具体细节可以看下面代码。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -71,4 +71,4 @@ class Codec:
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()
 # codec.deserialize(codec.serialize(root))
-```
+# ```

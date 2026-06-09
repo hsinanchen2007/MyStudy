@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var temp=make([]int,100010)
 //var size=make([]int,100010)
 func find(x int) int {
@@ -62,4 +62,4 @@ func largestComponentSize(A []int) int {
     return res
 
 }
-```
+// ```

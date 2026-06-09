@@ -1,6 +1,6 @@
-只要做好存储的string中能反应边界条件，那么ser与deser一定能相互转化
+// 只要做好存储的string中能反应边界条件，那么ser与deser一定能相互转化
 
-```
+// ```
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -163,4 +163,4 @@ class Codec {
 // Your Codec object will be instantiated and called as such:
 // Codec codec = new Codec();
 // codec.deserialize(codec.serialize(root));
-```
+// ```

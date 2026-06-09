@@ -1,7 +1,7 @@
-![20200331102530183.jpg](https://pic.leetcode-cn.com/afad31ed773d1c560e971736d8e2f3594205bbb58aff4f64ed884da9a3312a82-20200331102530183.jpg)
+// ![20200331102530183.jpg](https://pic.leetcode-cn.com/afad31ed773d1c560e971736d8e2f3594205bbb58aff4f64ed884da9a3312a82-20200331102530183.jpg)
 
 
-```
+// ```
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -28,5 +28,5 @@ public:
 		return h;
 	}
 };
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-找出当前行和上一行的关系， 即可降低空间复杂度
+// ### 解题思路
+// 找出当前行和上一行的关系， 即可降低空间复杂度
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -27,4 +27,4 @@ int* getRow(int rowIndex, int* returnSize){
     }
     return res;
 }
-```
+// ```

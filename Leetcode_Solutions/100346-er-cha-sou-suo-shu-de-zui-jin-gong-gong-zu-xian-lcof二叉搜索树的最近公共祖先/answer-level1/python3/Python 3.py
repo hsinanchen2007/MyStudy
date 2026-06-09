@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -21,9 +21,9 @@ class Solution:
             return self.lowestCommonAncestor(root.right, p, q)
         else: 
             return root
-```
+# ```
 
-```python []
+# ```python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -42,8 +42,8 @@ class Solution:
             else:
                 return pointer
 
-```
-```
+# ```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -63,4 +63,4 @@ class Solution:
                 node = node.right
             else:
                 return node
-```
+# ```

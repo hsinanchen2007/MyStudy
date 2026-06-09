@@ -1,9 +1,9 @@
-### 解题思路
-看不懂题，请看英文。
-- 模拟就完事
-### 代码
+// ### 解题思路
+// 看不懂题，请看英文。
+// - 模拟就完事
+// ### 代码
 
-```golang
+// ```golang
 func countLargestGroup(n int) int {
     if n < 10 {
         return n
@@ -36,4 +36,4 @@ func getSum(n int) int {
     }
     return res
 }
-```
+// ```

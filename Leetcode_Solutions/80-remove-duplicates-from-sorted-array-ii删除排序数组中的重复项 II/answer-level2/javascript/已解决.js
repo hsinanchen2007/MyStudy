@@ -1,9 +1,9 @@
-### 解题思路
-利用数组删除指定元素，并判断左右是否和本身相等。
+// ### 解题思路
+// 利用数组删除指定元素，并判断左右是否和本身相等。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -17,4 +17,4 @@ var removeDuplicates = function (nums) {
     }
     return nums.length;
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-先翻转单个单词，后翻转整个字符串
-最后，会出现首、尾元素是空格的情况，erase去除
-中间也会出现多个空格连接的情况，仅保留一个
+// ### 解题思路
+// 先翻转单个单词，后翻转整个字符串
+// 最后，会出现首、尾元素是空格的情况，erase去除
+// 中间也会出现多个空格连接的情况，仅保留一个
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution{
 public:
 void ChangePos(string &s,int begin ,int end){//翻转函数；
@@ -71,4 +71,4 @@ string reverseWords(string s) {
     return s;
 }
 };
-```
+// ```

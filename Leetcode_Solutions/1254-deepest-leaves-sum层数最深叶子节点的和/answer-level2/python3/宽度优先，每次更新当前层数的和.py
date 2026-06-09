@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def deepestLeavesSum(self, root: TreeNode) -> int:
         nodes=[root]
@@ -12,4 +12,4 @@ class Solution:
                 if root.right is not None:
                     nodes.append(root.right)
         return sumx
-```
+# ```

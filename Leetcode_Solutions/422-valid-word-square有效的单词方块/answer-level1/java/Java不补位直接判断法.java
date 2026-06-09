@@ -1,6 +1,6 @@
 
 
-```
+// ```
 	public boolean validWordSquare(List<String> words) {
 		if (words == null)
 			return true;
@@ -29,4 +29,4 @@
 		}
 		return true;
 	}
-```
+// ```

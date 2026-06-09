@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-利用数组判断，就是慢了点
+// 利用数组判断，就是慢了点
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -24,4 +24,4 @@ var isAnagram = function(s, t) {
     }
     return true
 };
-```
+// ```

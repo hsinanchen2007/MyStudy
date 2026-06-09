@@ -1,9 +1,9 @@
-### 解题思路
-先排序，记录前一个最小的尾数
+# ### 解题思路
+# 先排序，记录前一个最小的尾数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
         if not intervals: return 0
@@ -18,4 +18,4 @@ class Solution:
                 dp[i] = dp[i - 1]
                 flag = min(intervals[i][1], flag)
         return len(intervals) - dp[len(intervals) - 1]
-```
+# ```

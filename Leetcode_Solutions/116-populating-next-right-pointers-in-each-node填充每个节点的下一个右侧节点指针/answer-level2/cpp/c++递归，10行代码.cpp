@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 Node* connect(Node* root) {
         if(root == NULL or root->left == NULL)
             return root;
@@ -9,5 +9,5 @@ Node* connect(Node* root) {
         connect(root->right);
         return root;        
     }
-```
-`   
+// ```
+// `   

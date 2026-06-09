@@ -1,8 +1,8 @@
-### 解题思路
-先取字符串数组中的最小字符串，把该字符串转为字符数组char[]，将char[]中的元素与剩下的字符串逐一比对
-### 代码
+// ### 解题思路
+// 先取字符串数组中的最小字符串，把该字符串转为字符数组char[]，将char[]中的元素与剩下的字符串逐一比对
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
  
@@ -49,4 +49,4 @@ class Solution {
     }
 
 }
-```
+// ```

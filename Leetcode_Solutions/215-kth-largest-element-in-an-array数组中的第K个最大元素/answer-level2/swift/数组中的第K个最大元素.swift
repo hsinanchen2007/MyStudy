@@ -1,8 +1,8 @@
 
-使用类似快排的思想
+// 使用类似快排的思想
 
 
-```swift []
+// ```swift []
 class Solution {
     func findKthLargest(_ nums: [Int], _ k: Int) -> Int {
         return findKth(nums, k, low: 0, high: nums.count - 1)
@@ -42,4 +42,4 @@ class Solution {
         return startIdx
     }
 }
-```
+// ```

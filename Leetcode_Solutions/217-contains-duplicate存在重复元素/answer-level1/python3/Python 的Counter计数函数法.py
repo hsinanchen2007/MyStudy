@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 from collections import Counter
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
@@ -9,7 +9,7 @@ class Solution:
                 return True
         else:
             return False
-```
+# ```
 
 
 

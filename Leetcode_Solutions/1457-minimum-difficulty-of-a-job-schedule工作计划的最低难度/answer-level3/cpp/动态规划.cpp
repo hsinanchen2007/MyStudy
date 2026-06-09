@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minDifficulty(vector<int>& jobDifficulty, int d) {
@@ -26,5 +26,5 @@ public:
         return dp[d-1][n-1];
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/5494b181b4b4782580960896b8557147f76fa5411106c121f6b624c4b16d5722-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/5494b181b4b4782580960896b8557147f76fa5411106c121f6b624c4b16d5722-image.png)

@@ -1,12 +1,12 @@
-### 解题思路
-一个python小白写的解题 阅读起来完全没有压力。
-把s得长度用k来分 0*k 1*k 2*k 3*k 4*k  还有剩余得部分len(s) - n*k
-发现只要会被2整除得部分都需要反转
-这个就是解题思路
+# ### 解题思路
+# 一个python小白写的解题 阅读起来完全没有压力。
+# 把s得长度用k来分 0*k 1*k 2*k 3*k 4*k  还有剩余得部分len(s) - n*k
+# 发现只要会被2整除得部分都需要反转
+# 这个就是解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseStr(self, s: str, k: int) -> str:
         ans = ''
@@ -27,4 +27,4 @@ class Solution:
         else:
             ans += s[count*k:len(s)]
         return ans
-```
+# ```

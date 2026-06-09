@@ -1,7 +1,7 @@
-要点：
-1.找到起点状态，根据状态判断下一部操作。
-2.判断溢出。
-```
+// 要点：
+// 1.找到起点状态，根据状态判断下一部操作。
+// 2.判断溢出。
+// ```
 class Solution {
 public:
     int myAtoi(string str) {
@@ -44,4 +44,4 @@ public:
         else return (int)tmp;
     }
 };
-```
+// ```

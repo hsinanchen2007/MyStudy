@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-数组元素总和为sum，当前索引左边所有元素的和为cur_sum，当cur_sum满足cur_sum == sum - 当前元素值 - cur_sum 时，当前索引即为中心索引。
+// 数组元素总和为sum，当前索引左边所有元素的和为cur_sum，当cur_sum满足cur_sum == sum - 当前元素值 - cur_sum 时，当前索引即为中心索引。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func pivotIndex(nums []int) int {
 	sum := 0
 	cur_sum := 0
@@ -19,4 +19,4 @@ func pivotIndex(nums []int) int {
 	}
 	return -1
 }
-```
+// ```

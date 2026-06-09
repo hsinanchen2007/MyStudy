@@ -1,5 +1,5 @@
-极慢算法
-```
+// 极慢算法
+// ```
 var gardenNoAdj = function(N, paths) {
     const record = {};
     paths.forEach(path => {
@@ -20,4 +20,4 @@ var gardenNoAdj = function(N, paths) {
     }
     return res.slice(1);
 };
-```
+// ```

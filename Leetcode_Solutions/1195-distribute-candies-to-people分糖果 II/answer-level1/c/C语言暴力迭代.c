@@ -1,9 +1,9 @@
-### 解题思路
-直接上代码
+// ### 解题思路
+// 直接上代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -26,4 +26,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
     }
     return ret;
 }
-```
+// ```

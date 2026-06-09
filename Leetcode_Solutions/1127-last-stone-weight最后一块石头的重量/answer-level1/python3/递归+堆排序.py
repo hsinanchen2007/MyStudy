@@ -1,5 +1,5 @@
-# 使用递归的解法如下
-# 每次对stones进行排序并输出x和y，直到stoens的长度为0或者1时为止
+# # 使用递归的解法如下
+# # 每次对stones进行排序并输出x和y，直到stoens的长度为0或者1时为止
          if len(stones) == 1:
              return stones[0]
          elif len(stones) == 0:

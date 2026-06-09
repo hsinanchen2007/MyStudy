@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/1eebac9fd16e3844fa7627e3f4673ae8937172a058a9e3cd0caa733cc95c51f0-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/1eebac9fd16e3844fa7627e3f4673ae8937172a058a9e3cd0caa733cc95c51f0-image.png)
 
-parseInt本身可以覆盖正则表达式的那部分处理，但是似乎会稍稍慢一些。
+// parseInt本身可以覆盖正则表达式的那部分处理，但是似乎会稍稍慢一些。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {number}
@@ -28,4 +28,4 @@ var myAtoi = function (str) {
     if (ret < MIN) ret = MIN;
     return ret;
 }
-```
+// ```

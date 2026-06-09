@@ -1,9 +1,9 @@
-### 解题思路
-借助队列，实现层序遍历以及层平均数求解。
+// ### 解题思路
+// 借助队列，实现层序遍历以及层平均数求解。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -49,4 +49,4 @@ public class Solution {
             return result;
         }
 }
-```
+// ```

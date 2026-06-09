@@ -1,9 +1,9 @@
-### 解题思路
-首先计算链表的总结点数，其次再从头遍历链表，直至到达中间结点。
+# ### 解题思路
+# 首先计算链表的总结点数，其次再从头遍历链表，直至到达中间结点。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -24,6 +24,6 @@ class Solution:
             ptr=ptr.next
             n+=1
         return ptr
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/afef0595431fa6c43037f422841043e06fce8a4d7100d84528123a9d3adeac5f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/afef0595431fa6c43037f422841043e06fce8a4d7100d84528123a9d3adeac5f-image.png)

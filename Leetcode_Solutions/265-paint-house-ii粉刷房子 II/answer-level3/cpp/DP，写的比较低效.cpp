@@ -1,9 +1,9 @@
-### 解题思路
-如代码dp[i][j]表示从i刷到j的可用颜色组合种类
+// ### 解题思路
+// 如代码dp[i][j]表示从i刷到j的可用颜色组合种类
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCostII(vector<vector<int>>& costs) {
@@ -26,4 +26,4 @@ public:
         return min_num;
     }
 };
-```
+// ```

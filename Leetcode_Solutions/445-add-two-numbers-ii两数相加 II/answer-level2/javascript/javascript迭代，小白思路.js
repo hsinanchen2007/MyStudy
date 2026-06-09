@@ -1,13 +1,13 @@
-### 解题思路
-1. 将链表l1, l2转换为数组
-2. 补齐空位，使其有相同的长度（当然也可以跳过，取Math.max的length也可以）
-3. 按后进先出逐个取出数组中的数组，维护一个遍历next，每次得到相加后的ListNode后，将next至为当前ListNode
-4. 将next指向当前ListNode，开始计算下一个ListNode，（同时维护进位变量）
-5. 当数组完成遍历后，next就是所需要的链表head
+// ### 解题思路
+// 1. 将链表l1, l2转换为数组
+// 2. 补齐空位，使其有相同的长度（当然也可以跳过，取Math.max的length也可以）
+// 3. 按后进先出逐个取出数组中的数组，维护一个遍历next，每次得到相加后的ListNode后，将next至为当前ListNode
+// 4. 将next指向当前ListNode，开始计算下一个ListNode，（同时维护进位变量）
+// 5. 当数组完成遍历后，next就是所需要的链表head
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -67,4 +67,4 @@ var addTwoNumbers = function(l1, l2) {
 
   return next
 };
-```
+// ```

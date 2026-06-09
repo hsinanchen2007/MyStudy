@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         row , col, time = len(grid), len(grid[0]), 0
@@ -19,4 +19,4 @@ class Solution:
             if 1 in i: return -1
         return time
 
-```
+# ```

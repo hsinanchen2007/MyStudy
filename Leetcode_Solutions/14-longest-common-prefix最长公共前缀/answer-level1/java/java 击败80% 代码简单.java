@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-时间复杂度 nlongn
-代码还是挺简单的
-思路 先排序，这样就可以比较第一和最后一个
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 时间复杂度 nlongn
+// 代码还是挺简单的
+// 思路 先排序，这样就可以比较第一和最后一个
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if(strs.length == 0) return "";
@@ -24,4 +24,4 @@ class Solution {
         return res.toString();
     }
 }
-```
+// ```

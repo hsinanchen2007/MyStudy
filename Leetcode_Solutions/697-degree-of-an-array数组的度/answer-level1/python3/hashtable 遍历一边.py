@@ -1,9 +1,9 @@
-### 解题思路
-哈希表遍历一边，记录t[i][0]=次数，t[i][1]=第一次出现位置，t[i][2]=最后一次出现位置
+# ### 解题思路
+# 哈希表遍历一边，记录t[i][0]=次数，t[i][1]=第一次出现位置，t[i][2]=最后一次出现位置
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findShortestSubArray(self, nums: List[int]) -> int:
         maxCount = 0
@@ -32,4 +32,4 @@ class Solution:
         return minLengh + 1 
 
         
-```
+# ```

@@ -1,6 +1,6 @@
-虽然很慢，但代码比较短的广度优先搜索（手动狗头）
+// 虽然很慢，但代码比较短的广度优先搜索（手动狗头）
 
-```
+// ```
 class Solution {
     HashSet<Integer> hs = new HashSet();
     public boolean canMeasureWater(int x, int y, int z) {
@@ -14,5 +14,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

@@ -1,6 +1,6 @@
-思路：见标题
-注意：没怎么往非递归方向想(本人菜鸡) 但通过之后看了看有不少的非递归题解 一般来说有迭代且不复杂就迭代吧 以下代码仅供参考
-```
+# 思路：见标题
+# 注意：没怎么往非递归方向想(本人菜鸡) 但通过之后看了看有不少的非递归题解 一般来说有迭代且不复杂就迭代吧 以下代码仅供参考
+# ```
 class Solution:
 	def flatten(self,root):
 		if root:
@@ -20,4 +20,4 @@ class Solution:
 					return right_tail #Node2
 				return helper(root.right)
 			helper(root)
-```
+# ```

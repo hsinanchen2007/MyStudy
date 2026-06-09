@@ -1,10 +1,10 @@
-写了几道题
+// 写了几道题
 
-rust 的特点太明显了
+// rust 的特点太明显了
 
-内存占用极少
+// 内存占用极少
 
-```rust
+// ```rust
 impl Solution {
     fn back_trace(s: String, n: usize, right: usize, left: usize, result: &mut Vec<String>) {
 		if s.len() == 2 * n {
@@ -31,4 +31,4 @@ impl Solution {
 		result
 	}
 }
-```
+// ```

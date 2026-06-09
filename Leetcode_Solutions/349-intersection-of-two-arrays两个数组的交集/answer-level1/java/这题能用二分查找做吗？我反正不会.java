@@ -1,7 +1,7 @@
-**参考自以下题解**
-[https://leetcode-cn.com/problems/intersection-of-two-arrays/solution/2ge-shu-zu-jiao-ji-by-bisonjuzi/](https://leetcode-cn.com/problems/intersection-of-two-arrays/solution/2ge-shu-zu-jiao-ji-by-bisonjuzi/)
+// **参考自以下题解**
+// [https://leetcode-cn.com/problems/intersection-of-two-arrays/solution/2ge-shu-zu-jiao-ji-by-bisonjuzi/](https://leetcode-cn.com/problems/intersection-of-two-arrays/solution/2ge-shu-zu-jiao-ji-by-bisonjuzi/)
 
-```
+// ```
 	public int[] intersection(int[] nums1, int[] nums2) {
 		Set<Integer> set = new HashSet<Integer>();// Set集合存放唯一不重复的值
 
@@ -26,10 +26,10 @@
 		// 返回一个新的数组，copyof(复制的对象是数组,复制的长度)
 		return Arrays.copyOf(result, i);
 	}
-```
-写这道题目的时候，我想着二分查找，但是感觉行不通，会比较麻烦吧
-二分查找，我的思路是，先把数组排序，然后用二分查找，但是时间和空间都会消耗很大
+// ```
+// 写这道题目的时候，我想着二分查找，但是感觉行不通，会比较麻烦吧
+// 二分查找，我的思路是，先把数组排序，然后用二分查找，但是时间和空间都会消耗很大
 
-最终采用上面这种方法，是**参考别人的题解**所写的
+// 最终采用上面这种方法，是**参考别人的题解**所写的
 
-*如果有用二分查找尝试过的，可以分享一下经验和结果，谢谢*
+// *如果有用二分查找尝试过的，可以分享一下经验和结果，谢谢*

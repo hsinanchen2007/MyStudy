@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-先对字符串去空格
-在使用正则表达式匹配
-正则表达式为[+-]?\d*  
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 先对字符串去空格
+# 在使用正则表达式匹配
+# 正则表达式为[+-]?\d*  
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, str: str) -> int:
         s = str.strip()
@@ -20,4 +20,4 @@ class Solution:
             return -2**31
         else:
             return res
-```
+# ```

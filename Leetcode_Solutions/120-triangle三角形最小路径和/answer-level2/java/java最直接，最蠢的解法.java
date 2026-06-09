@@ -1,4 +1,4 @@
-```最直接的动态规划，不掺杂任何优化
+// ```最直接的动态规划，不掺杂任何优化
 public  int minimumTotal(List<List<Integer>> triangle) {
 		 int n = triangle.size();
 		 int[][] dp = new int[n][n];
@@ -25,4 +25,4 @@ public  int minimumTotal(List<List<Integer>> triangle) {
 		 }
 		 return min;
 	 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1. 确定dp的含义：dp是个二维数组，代表着 在点(i,j)能拿到的最大礼物数量
-2. 找状态转移方程：dp[i][j] = grid[i][j] + max(dp[i-1][j],dp[i][j-1]) 因为只能下走或者右走
-3. 确定初始值：由于i-1>=0 j-1>=0所以在第一行、第一列应该为初值，（因为从第一行和第一列只有一种走法就是直着走）
+// ### 解题思路
+// 1. 确定dp的含义：dp是个二维数组，代表着 在点(i,j)能拿到的最大礼物数量
+// 2. 找状态转移方程：dp[i][j] = grid[i][j] + max(dp[i-1][j],dp[i][j-1]) 因为只能下走或者右走
+// 3. 确定初始值：由于i-1>=0 j-1>=0所以在第一行、第一列应该为初值，（因为从第一行和第一列只有一种走法就是直着走）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxValue(int** grid, int gridSize, int* gridColSize){
     int **dp;
     dp = (int**)malloc(sizeof(int*)*gridSize);
@@ -26,4 +26,4 @@ int maxValue(int** grid, int gridSize, int* gridColSize){
     } 
     return dp[gridSize-1][gridColSize[0]-1];
 }
-```
+// ```

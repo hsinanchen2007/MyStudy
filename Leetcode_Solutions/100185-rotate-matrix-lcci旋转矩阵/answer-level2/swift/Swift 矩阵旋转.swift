@@ -1,9 +1,9 @@
-m*n也可以旋转
-第row行col列 转换后变为 所在的位置是 col行m-row-1
-逆推下新的row行col列   m-1-col行row列
-### 代码
+// m*n也可以旋转
+// 第row行col列 转换后变为 所在的位置是 col行m-row-1
+// 逆推下新的row行col列   m-1-col行row列
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func rotate(_ matrix: inout [[Int]]) {
         var matrix0: [[Int]] = [[Int]]()
@@ -19,4 +19,4 @@ class Solution {
         matrix = matrix0
     }
 }
-```
+// ```

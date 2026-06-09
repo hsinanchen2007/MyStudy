@@ -1,5 +1,5 @@
-不说明数据范围出题人属实牛逼嗷，全家发财。
-```c++
+// 不说明数据范围出题人属实牛逼嗷，全家发财。
+// ```c++
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -21,4 +21,4 @@ public:
     return dfs(root, -1E18, 1E18);
   }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-思路：
+# 思路：
 
-第一眼，双指针
+# 第一眼，双指针
 
-利用sum//3来判断，注意每次分割前后中间不能是空数组。
+# 利用sum//3来判断，注意每次分割前后中间不能是空数组。
 
-```python
+# ```python
 class Solution:
     def canThreePartsEqualSum(self, A: [int]) -> bool:
         asum = sum(A)
@@ -23,10 +23,10 @@ class Solution:
                 R -= 1
                 pr += A[R]
         return False
-```
+# ```
 
-> 执行用时 :60 ms, 在所有 Python3 提交中击败了98.63% 的用户
->
-> 内存消耗 :18.4 MB, 在所有 Python3 提交中击败了98.29%的用户
+# > 执行用时 :60 ms, 在所有 Python3 提交中击败了98.63% 的用户
+# >
+# > 内存消耗 :18.4 MB, 在所有 Python3 提交中击败了98.29%的用户
 
-就舒服就完了
+# 就舒服就完了

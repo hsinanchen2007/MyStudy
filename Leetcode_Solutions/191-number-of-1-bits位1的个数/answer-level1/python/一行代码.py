@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def hammingWeight(self, n):
         """
@@ -11,4 +11,4 @@ class Solution(object):
         :rtype: int
         """
         return bin(n).count('1')
-```
+# ```

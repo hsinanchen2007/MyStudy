@@ -1,9 +1,9 @@
-### 解题思路
-看着还行
+# ### 解题思路
+# 看着还行
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         if x == 0: return 0
@@ -19,4 +19,4 @@ class Solution:
         if -2**31 <= x <= 2 **31-1:
             return x
         else:return 0
-```
+# ```

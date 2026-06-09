@@ -1,5 +1,5 @@
-建议与《两个栈实现队列》一题一起做
-```
+// 建议与《两个栈实现队列》一题一起做
+// ```
 class MyStack {
         // master用来保存数据，slave为辅助队列用来转移数据
         Deque<Integer> master, slave;
@@ -53,4 +53,4 @@ class MyStack {
             return master.isEmpty();
         }
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int comp2(const void* a, const void* b)
 {
         int *an = *(int **)a;
@@ -38,4 +38,4 @@ int** reconstructQueue(int** people, int peopleSize, int* peopleColSize, int* re
         }   
         return people;
 }
-```
+// ```

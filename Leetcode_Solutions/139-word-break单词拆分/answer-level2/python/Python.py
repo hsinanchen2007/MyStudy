@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def wordBreak(self, s, wordDict):
         help=[0 for i in range(len(s)+1)]
@@ -14,4 +14,4 @@ class Solution(object):
                     help[i]=1
                     break
         return help[len(s)]==1
-```
+# ```

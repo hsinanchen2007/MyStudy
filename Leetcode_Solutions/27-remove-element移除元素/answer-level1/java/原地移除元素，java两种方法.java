@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int i = 0;
@@ -20,9 +20,9 @@ class Solution {
         return i;
     }
 }
-```
+// ```
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         int p = 0;
@@ -37,4 +37,4 @@ class Solution {
         return p;
     }
 }
-```
+// ```

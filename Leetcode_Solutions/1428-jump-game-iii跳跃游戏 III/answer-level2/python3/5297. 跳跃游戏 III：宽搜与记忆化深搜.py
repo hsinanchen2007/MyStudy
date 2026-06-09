@@ -1,9 +1,9 @@
-### 解题思路
-BFS
+# ### 解题思路
+# BFS
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def canReach(self, arr: List[int], start: int) -> bool:
         q, v, n = [start], {start}, len(arr)
@@ -18,14 +18,14 @@ class Solution:
                         v.add(j)
             q = p
         return False
-```
+# ```
 
-### 解题思路
-记忆化DFS
+# ### 解题思路
+# 记忆化DFS
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def canReach(self, arr: List[int], start: int) -> bool:
         n, v = len(arr), {}
@@ -37,8 +37,8 @@ class Solution:
                 v[i] = 0 <= i - arr[i] < n and f(i - arr[i]) or 0 <= i + arr[i] < n and f(i + arr[i])
             return v[i]
         return f(start)
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def canReach(self, arr: List[int], start: int) -> bool:
         n, v = len(arr), set()
@@ -49,7 +49,7 @@ class Solution:
                 v.add(i)
                 return 0 <= i - arr[i] < n and f(i - arr[i]) or 0 <= i + arr[i] < n and f(i + arr[i])
         return f(start)
-```
+# ```
 
 
-![image.png](https://pic.leetcode-cn.com/7d6642e57d0cffc7dad1e60c0a74b82c968b1ee133ee489b8b4bd8e39c74685e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7d6642e57d0cffc7dad1e60c0a74b82c968b1ee133ee489b8b4bd8e39c74685e-image.png)

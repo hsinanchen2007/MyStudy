@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-二分法：
-用mid将判断区间分为两部分，如若mid小于target的话说明目标值在mid右边区间，反之同理
-时间复杂度：O(longn)
-空间复杂度：O(3),设定了min,mid,max三个变量
+// ### 解题思路
+// 此处撰写解题思路
+// 二分法：
+// 用mid将判断区间分为两部分，如若mid小于target的话说明目标值在mid右边区间，反之同理
+// 时间复杂度：O(longn)
+// 空间复杂度：O(3),设定了min,mid,max三个变量
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int min=0;
@@ -28,12 +28,12 @@ class Solution {
         return min;
         }
     }
-```
-暴力法：
-当数组长度较大时，时间复杂度较高
-时间复杂度：O(n),取决于数组的长度
-空间复杂度：O(2)
-```
+// ```
+// 暴力法：
+// 当数组长度较大时，时间复杂度较高
+// 时间复杂度：O(n),取决于数组的长度
+// 空间复杂度：O(2)
+// ```
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int s=0;
@@ -48,5 +48,5 @@ class Solution {
         return s;
     }
 }
-```
+// ```
 

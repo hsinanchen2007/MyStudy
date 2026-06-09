@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minDepth(TreeNode root) {
         return mindepth(root);
@@ -13,4 +13,4 @@ class Solution {
         return Math.min(left_height,right_height)+1;
     }
 }
-```
+// ```

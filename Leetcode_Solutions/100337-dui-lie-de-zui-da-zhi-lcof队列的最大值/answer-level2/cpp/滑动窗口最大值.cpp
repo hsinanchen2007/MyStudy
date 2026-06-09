@@ -1,4 +1,4 @@
-```
+// ```
 class MaxQueue {
 public:
     queue<int> que;
@@ -33,4 +33,4 @@ public:
         return ans;
     }
 };
-```
+// ```

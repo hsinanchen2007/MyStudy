@@ -1,7 +1,7 @@
-题目意思很明确，不能用超过32位以上的类型，所以考虑完边界情况后，输入值任何值，除法的结果是不会溢出的。
-下面的JavaScript和Java代码在凌晨3点半左右执行均打败99以上，甚至高达99.92%，或许是并发量小的原因吧。
+// 题目意思很明确，不能用超过32位以上的类型，所以考虑完边界情况后，输入值任何值，除法的结果是不会溢出的。
+// 下面的JavaScript和Java代码在凌晨3点半左右执行均打败99以上，甚至高达99.92%，或许是并发量小的原因吧。
 
-```
+// ```
 function T29(dividend, divisor) {
 	//除数为0返回-1，测试用例写的
 	if (divisor == 0) return -1;
@@ -33,9 +33,9 @@ function T29(dividend, divisor) {
     if (dividend > 0 ^ divisor > 0) ans = -ans;
     return ans;
 }
-```
+// ```
 
-```
+// ```
 public int T29(int dividend, int divisor) {
 	//除数为0返回-1，测试用例写的
 	if (divisor == 0) return -1;
@@ -67,4 +67,4 @@ public int T29(int dividend, int divisor) {
     if (dividend > 0 ^ divisor > 0) ans = -ans;
     return ans;
 }
-```
+// ```

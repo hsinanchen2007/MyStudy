@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-直接通分求和，每次循环，转换分子分母的位置，遍历一次。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 直接通分求和，每次循环，转换分子分母的位置，遍历一次。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -24,4 +24,4 @@ int* fraction(int* cont, int contSize, int* returnSize)
     *returnSize = 2;
     return ret;
 }
-```
+// ```

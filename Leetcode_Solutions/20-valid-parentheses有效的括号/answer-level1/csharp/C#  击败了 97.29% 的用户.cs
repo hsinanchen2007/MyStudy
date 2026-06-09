@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public bool IsValid(string s) {
         if(s.Length==0)return true;
@@ -34,4 +34,4 @@ public class Solution {
         return stack.Count==0;
     }
 }
-```
+// ```

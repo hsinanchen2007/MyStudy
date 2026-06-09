@@ -1,6 +1,6 @@
-### 大神的代码
-两个栈实现队列，要删除队列头部时，将instack弹出存入outstack中，接下来不用管将outstack还给instack，因为不影响instack
-```
+// ### 大神的代码
+// 两个栈实现队列，要删除队列头部时，将instack弹出存入outstack中，接下来不用管将outstack还给instack，因为不影响instack
+// ```
 var CQueue = function() {
     this.inStack = [];
     this.outStack = [];
@@ -25,11 +25,11 @@ CQueue.prototype.deleteHead = function() {
     }
 };
 
-```
+// ```
 
-### 利用js原有方法，执行速度慢且不符合题意
+// ### 利用js原有方法，执行速度慢且不符合题意
 
-```
+// ```
 var CQueue = function() {
     this.queue = [];
 };
@@ -59,4 +59,4 @@ CQueue.prototype.deleteHead = function() {
  * obj.appendTail(value)
  * var param_2 = obj.deleteHead()
  */
-```
+// ```

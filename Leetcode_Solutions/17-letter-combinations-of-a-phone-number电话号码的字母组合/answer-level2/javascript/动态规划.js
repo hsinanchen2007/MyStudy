@@ -1,8 +1,8 @@
-> 状态转移方程：dp[i] = dp[i - 1].forEach + currentChar
+// > 状态转移方程：dp[i] = dp[i - 1].forEach + currentChar
 
-### 解法
+// ### 解法
 
-```
+// ```
 var letterCombinations = function(digits) {
     if (!digits) return [];
     var map = {
@@ -29,12 +29,12 @@ var letterCombinations = function(digits) {
     }
     return dp[digits.length - 1];
 };
-```
+// ```
 
-### 优化
-dp数组存储基本可以转换成两个变量来存储状态，节约内存空间，因此有：
+// ### 优化
+// dp数组存储基本可以转换成两个变量来存储状态，节约内存空间，因此有：
 
-```
+// ```
 var letterCombinations = function(digits) {
     if (!digits) return [];
     var map = {
@@ -63,4 +63,4 @@ var letterCombinations = function(digits) {
     }
     return dp;
 };
-```
+// ```

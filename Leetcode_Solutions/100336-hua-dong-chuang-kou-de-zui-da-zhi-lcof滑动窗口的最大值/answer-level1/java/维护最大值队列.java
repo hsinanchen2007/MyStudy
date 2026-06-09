@@ -1,18 +1,18 @@
-## 59-I.滑动窗口的最大值
+// ## 59-I.滑动窗口的最大值
 
-### Information
+// ### Information
 
-* TIME: 2020/02/24
-* LINK: [Click Here](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)
-* TAG: `Queue`
+// * TIME: 2020/02/24
+// * LINK: [Click Here](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)
+// * TAG: `Queue`
 
-### Description
+// ### Description
 
-> 给定一个数组 `nums` 和滑动窗口的大小 `k`，请找出所有滑动窗口里的最大值。
+// > 给定一个数组 `nums` 和滑动窗口的大小 `k`，请找出所有滑动窗口里的最大值。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入: nums = [1,3,-1,-3,5,3,6,7], 和 k = 3
 输出: [3,3,5,5,6,7] 
 解释: 
@@ -25,31 +25,31 @@
  1  3  -1 [-3  5  3] 6  7       5
  1  3  -1  -3 [5  3  6] 7       6
  1  3  -1  -3  5 [3  6  7]      7
-```
+// ```
 
-### My Answer
+// ### My Answer
 
-> 维护最大值队列：队头为当前最大值
->
-> 滑动窗口每移动一次，会出队入队各一次
->
-> 对于**出队**，会有两种情况，次要元素出队，主要元素（当前最大值）出队
->
-> * 对于次要元素，也就是不在最大值队列中的元素，此时不必任何操作
-> * 对于当前最大值出队，`deque.removeFirst()`
->
-> 对于**入队**
->
-> * 设当前入队元素为`num`,`num`会依次和队尾进行比较，将小于`num`的元素清除出队
->
->   * 对于当前滑动窗口，假设清除后剩下`max1， max2`
->     * 那么它们在滑动窗口当中的位置为`max1, max2 ........  num`
->   * 而`num`比较清除实际上就是清除这些`....`的元素，因为它们的存在是多余的
->     * `num`已经在窗口内了，`...`元素肯定是比`num`先出去的，所以它们不是最大值的候选，直接删除就可以了
->
->   
+// > 维护最大值队列：队头为当前最大值
+// >
+// > 滑动窗口每移动一次，会出队入队各一次
+// >
+// > 对于**出队**，会有两种情况，次要元素出队，主要元素（当前最大值）出队
+// >
+// > * 对于次要元素，也就是不在最大值队列中的元素，此时不必任何操作
+// > * 对于当前最大值出队，`deque.removeFirst()`
+// >
+// > 对于**入队**
+// >
+// > * 设当前入队元素为`num`,`num`会依次和队尾进行比较，将小于`num`的元素清除出队
+// >
+// >   * 对于当前滑动窗口，假设清除后剩下`max1， max2`
+// >     * 那么它们在滑动窗口当中的位置为`max1, max2 ........  num`
+// >   * 而`num`比较清除实际上就是清除这些`....`的元素，因为它们的存在是多余的
+// >     * `num`已经在窗口内了，`...`元素肯定是比`num`先出去的，所以它们不是最大值的候选，直接删除就可以了
+// >
+// >   
 
-```java
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if(nums == null || nums.length == 0){
@@ -73,23 +73,23 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/b48cb4da5c061827033a0d062e86a809ca3f5bb3028a57565950a177282ce368-file_1582546612520)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/b48cb4da5c061827033a0d062e86a809ca3f5bb3028a57565950a177282ce368-file_1582546612520)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

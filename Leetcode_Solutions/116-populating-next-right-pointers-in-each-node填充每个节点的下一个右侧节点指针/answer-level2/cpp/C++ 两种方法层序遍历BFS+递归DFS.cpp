@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 方法1：BFS，每层前后连接
+// ### 方法1：BFS，每层前后连接
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -45,9 +45,9 @@ public:
         return root;
     }
 };
-```
-### 递归DFS，学习自[动画演示+三种实现 ](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/dong-hua-yan-shi-san-chong-shi-xian-116-tian-chong/)
-```
+// ```
+// ### 递归DFS，学习自[动画演示+三种实现 ](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/dong-hua-yan-shi-san-chong-shi-xian-116-tian-chong/)
+// ```
 class Solution {
 public:
     Node* connect(Node* root) {
@@ -71,4 +71,4 @@ public:
 		dfs(root->right);
     }
 };
-```
+// ```

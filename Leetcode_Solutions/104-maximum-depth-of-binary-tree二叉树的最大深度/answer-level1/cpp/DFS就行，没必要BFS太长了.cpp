@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int  dfs(TreeNode* p, int deep){
@@ -12,6 +12,6 @@ public:
     }
 };
 
-```
+// ```
 
-感觉dfs挺好做的
+// 感觉dfs挺好做的

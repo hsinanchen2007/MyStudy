@@ -1,8 +1,8 @@
-### 解题思路
-搜索题简单BFS即可
-### 代码
+// ### 解题思路
+// 搜索题简单BFS即可
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     
@@ -51,4 +51,4 @@ public:
         return sum;
     }
 };
-```
+// ```

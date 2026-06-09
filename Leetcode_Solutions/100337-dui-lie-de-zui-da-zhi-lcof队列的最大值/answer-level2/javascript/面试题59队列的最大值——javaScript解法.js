@@ -1,12 +1,12 @@
-### 解题思路
-借助自带的Math.max方法返回队列的最大值
-借助push方法在队列末尾加入值
-借助shift方法从队列首部删除元素
-注意：插入和删除元素都要判断最大值有没有变化并返回最大值
+// ### 解题思路
+// 借助自带的Math.max方法返回队列的最大值
+// 借助push方法在队列末尾加入值
+// 借助shift方法从队列首部删除元素
+// 注意：插入和删除元素都要判断最大值有没有变化并返回最大值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var MaxQueue = function() {
     this.queue = [];
     this.maxValue = -1;
@@ -55,4 +55,4 @@ MaxQueue.prototype.pop_front = function() {
  * obj.push_back(value)
  * var param_3 = obj.pop_front()
  */
-```
+// ```

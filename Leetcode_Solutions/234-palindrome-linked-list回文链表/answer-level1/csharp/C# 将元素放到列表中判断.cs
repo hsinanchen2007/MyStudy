@@ -1,9 +1,9 @@
-### 解题思路
-先将元素放到列表中，然后再到列表中对首尾元素进行判断。
+// ### 解题思路
+// 先将元素放到列表中，然后再到列表中对首尾元素进行判断。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -29,4 +29,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

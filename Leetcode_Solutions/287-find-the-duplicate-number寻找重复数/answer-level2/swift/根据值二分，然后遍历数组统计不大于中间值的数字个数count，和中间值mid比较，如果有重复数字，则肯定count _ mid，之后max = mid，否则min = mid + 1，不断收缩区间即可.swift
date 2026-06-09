@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func findDuplicate(_ nums: [Int]) -> Int {
         var min = 1, max = nums.count - 1
@@ -19,4 +19,4 @@ class Solution {
         return min
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-主体思路是把链表连接成环状,计算出新head位置后，把新head之前那个元素的next取为null，这样就可以形成新链表，最后返回新head。
+// ### 解题思路
+// 主体思路是把链表连接成环状,计算出新head位置后，把新head之前那个元素的next取为null，这样就可以形成新链表，最后返回新head。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -42,4 +42,4 @@ var rotateRight = function(head, k) {
     originhead.next=null;
     return newhead;
 }
-```
+// ```

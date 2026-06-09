@@ -1,4 +1,4 @@
-```
+# ```
         result_list = []
         if strs:
             if len(strs) == 1:  # 只有一个字符串数组
@@ -28,4 +28,4 @@
         else:  # 空数组
             return ''
 
-```
+# ```

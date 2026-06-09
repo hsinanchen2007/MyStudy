@@ -1,7 +1,7 @@
-//找到左右两边最小的柱子，大柱子不动，小柱子往内收敛一个算面积比大小
-//如此循环;
+// //找到左右两边最小的柱子，大柱子不动，小柱子往内收敛一个算面积比大小
+// //如此循环;
 
-```java
+// ```java
 class Solution {
     public int maxArea(int[] height) {
         int max = 0;
@@ -17,4 +17,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

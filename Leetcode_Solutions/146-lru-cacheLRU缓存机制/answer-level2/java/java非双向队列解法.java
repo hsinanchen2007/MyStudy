@@ -1,11 +1,11 @@
-### 解题思路
-最开始使用currentTimeMillis发现解答一直错误，之后仔细想了下，发现是因为计算机执行的太快，currentTimeMillis很多时候都是一样的值，当时觉得以时间计数不可行，看了题解准备用双向队列实现，实现之后突然想到，如果把currentTimeMillis换成更小的单位，说不定就能成功了，因此换成了nanoTime。
-剩下的思路非常简单，就是用java自带的PriorityQueue维护一个以时间为索引的小顶堆，为了更快找到，用HashMap维护一个key和队列中的对象的对应关系。
-最后执行用时确实是不如双向队列的，因为题解里都是双向队列的解法，在这里提供一个另一种思路。
+// ### 解题思路
+// 最开始使用currentTimeMillis发现解答一直错误，之后仔细想了下，发现是因为计算机执行的太快，currentTimeMillis很多时候都是一样的值，当时觉得以时间计数不可行，看了题解准备用双向队列实现，实现之后突然想到，如果把currentTimeMillis换成更小的单位，说不定就能成功了，因此换成了nanoTime。
+// 剩下的思路非常简单，就是用java自带的PriorityQueue维护一个以时间为索引的小顶堆，为了更快找到，用HashMap维护一个key和队列中的对象的对应关系。
+// 最后执行用时确实是不如双向队列的，因为题解里都是双向队列的解法，在这里提供一个另一种思路。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 class LRUCache {
     private int capacity;
@@ -72,4 +72,4 @@ class LRUCache {
         }
     }
 }
-```
+// ```

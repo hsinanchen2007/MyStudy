@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/d6d712a45be20535a9c1667cdd4912cbde56b47f92da0922f8e4dafb46d572d6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d6d712a45be20535a9c1667cdd4912cbde56b47f92da0922f8e4dafb46d572d6-image.png)
 
-```
+// ```
 class Solution {
 public:
     vector<int> deckRevealedIncreasing(vector<int>& deck) {
@@ -19,6 +19,6 @@ public:
 private:
     list<int> temp_;
 };
-```
+// ```
 
-list能够高效地两端插入删除，因此用list作中转
+// list能够高效地两端插入删除，因此用list作中转

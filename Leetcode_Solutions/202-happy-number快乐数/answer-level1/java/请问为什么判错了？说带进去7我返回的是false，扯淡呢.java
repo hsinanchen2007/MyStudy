@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     static int times = 1;
     public boolean isHappy(int n) {
@@ -16,4 +16,4 @@ class Solution {
         return count == 1 ? true : isHappy(count);
     }
 }
-```
+// ```

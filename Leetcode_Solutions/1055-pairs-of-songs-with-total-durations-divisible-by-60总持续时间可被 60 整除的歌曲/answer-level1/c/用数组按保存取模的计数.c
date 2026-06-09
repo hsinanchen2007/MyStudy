@@ -1,6 +1,6 @@
-# 用数组按保存取模的计数
+// # 用数组按保存取模的计数
 
-```
+// ```
 int numPairsDivisibleBy60(int* time, int timeSize){
     int *arry = (int *)malloc(60 * sizeof(int));
     memset(arry, 0, 60 * sizeof(int));
@@ -21,4 +21,4 @@ int numPairsDivisibleBy60(int* time, int timeSize){
     arry = NULL;
     return sum;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用index记录位置
+# ### 解题思路
+# 用index记录位置
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         index = [""]*(len(nums)+1)
@@ -12,4 +12,4 @@ class Solution:
         for j in index:
             if j == "":
                 return index.index(j)
-```
+# ```

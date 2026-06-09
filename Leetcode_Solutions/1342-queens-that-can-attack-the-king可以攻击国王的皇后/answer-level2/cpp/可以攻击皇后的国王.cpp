@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> queensAttacktheKing(vector<vector<int>>& queens, vector<int>& king) {
@@ -38,5 +38,5 @@ public:
 		return ansArr;
     }
 };
-```
-以国王为起点，向八个方向查找皇后，找到第一个就跳出，查找下一个。
+// ```
+// 以国王为起点，向八个方向查找皇后，找到第一个就跳出，查找下一个。

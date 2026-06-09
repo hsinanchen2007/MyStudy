@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int bagOfTokensScore(int[] tokens, int P) {
         Arrays.sort(tokens);
@@ -27,4 +27,4 @@ class Solution {
         return ismax ? count + 1 : count;
     }
 }
-```
+// ```

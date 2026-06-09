@@ -1,5 +1,5 @@
-和题解中某位小伙伴一样，借助了"求二叉树深度"（题号104）那一题的思路，解法如下：
-```java
+// 和题解中某位小伙伴一样，借助了"求二叉树深度"（题号104）那一题的思路，解法如下：
+// ```java
 class Solution {
     private boolean flag=true;
     public boolean isBalanced(TreeNode root) {
@@ -19,5 +19,5 @@ class Solution {
         return 1+Math.max(leftDepth,rightDepth);
     }
 }
-```
+// ```
 

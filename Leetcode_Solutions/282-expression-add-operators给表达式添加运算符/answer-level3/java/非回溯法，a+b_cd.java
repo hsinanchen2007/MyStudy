@@ -1,9 +1,9 @@
-### 解题思路
-逐步公式都可以转换为a+b*cd，next方法即是基于此
+// ### 解题思路
+// 逐步公式都可以转换为a+b*cd，next方法即是基于此
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.LinkedList;
 import java.util.List;
 
@@ -71,4 +71,4 @@ class Calculator {
         return true;
     }
 }
-```
+// ```

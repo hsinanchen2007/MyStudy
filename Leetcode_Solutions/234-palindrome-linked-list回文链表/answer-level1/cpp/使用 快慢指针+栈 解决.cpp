@@ -1,5 +1,5 @@
 
-```c++
+// ```c++
    bool isPalindrome(ListNode* head) {
         if(head == nullptr) return true;
         if(head->next == nullptr) return true;
@@ -37,4 +37,4 @@
         }
         return true;
     }
-```
+// ```

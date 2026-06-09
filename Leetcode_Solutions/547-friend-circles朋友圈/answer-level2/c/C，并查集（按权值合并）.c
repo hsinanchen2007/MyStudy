@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/99fef30ced222619cb6362f11cac2af5dce028692319fdf0c5277d6b8e909dd8-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/99fef30ced222619cb6362f11cac2af5dce028692319fdf0c5277d6b8e909dd8-image.png)
 
-并查集介绍，其他见代码注释
-https://segmentfault.com/a/1190000004023326
-### 代码
+// 并查集介绍，其他见代码注释
+// https://segmentfault.com/a/1190000004023326
+// ### 代码
 
-```c
+// ```c
 struct node {
     int father;
     int weight;
@@ -60,4 +60,4 @@ int findCircleNum(int** M, int MSize, int* MColSize){
     free(f);
     return count;
 }
-```
+// ```

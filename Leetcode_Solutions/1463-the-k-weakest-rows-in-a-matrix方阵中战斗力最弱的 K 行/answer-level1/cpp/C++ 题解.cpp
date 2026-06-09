@@ -1,15 +1,15 @@
-### [1337. 方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/submissions/)
+// ### [1337. 方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/submissions/)
 
-#### 题解
+// #### 题解
 
-  + 统计战斗力
-  + 根据战斗力和行标排序
-  + 时间复杂度$O(m*n)$
-  + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
+//   + 统计战斗力
+//   + 根据战斗力和行标排序
+//   + 时间复杂度$O(m*n)$
+//   + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
 
-#### 代码
+// #### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> kWeakestRows(vector<vector<int>>& mat, int k) {
@@ -32,4 +32,4 @@ public:
         return ans;
     }
 };
-```
+// ```

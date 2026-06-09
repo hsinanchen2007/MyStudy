@@ -1,13 +1,13 @@
-### 解题思路
-参见高赞题解。
- 先统计只出现一个5： 5,10,15,20, 25, 30, ...
- 统计出现 2 个 5， 25,50,75,100,125, ...
- 统计出现 3 个 5： 125, 250, 375, ...
- 这有点像 [233. 数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one/)对于 “11”，统计个位上的 1，count+=1,然后统计十位上的 “1”，count+=1
+# ### 解题思路
+# 参见高赞题解。
+#  先统计只出现一个5： 5,10,15,20, 25, 30, ...
+#  统计出现 2 个 5， 25,50,75,100,125, ...
+#  统计出现 3 个 5： 125, 250, 375, ...
+#  这有点像 [233. 数字 1 的个数](https://leetcode-cn.com/problems/number-of-digit-one/)对于 “11”，统计个位上的 1，count+=1,然后统计十位上的 “1”，count+=1
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trailingZeroes(self, n: int) -> int:
         # a2, a5 = 0, 0
@@ -33,4 +33,4 @@ class Solution:
             k = 5*k
         return a5
 
-```
+# ```

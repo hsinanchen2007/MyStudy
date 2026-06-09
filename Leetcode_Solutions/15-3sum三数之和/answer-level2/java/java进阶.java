@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
@@ -58,5 +58,5 @@ class Solution {
 		return res;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/6ab6bd70eba7373d1f28b6792a9753dd7786d46d1fdd173cc277bfd4463218a4-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6ab6bd70eba7373d1f28b6792a9753dd7786d46d1fdd173cc277bfd4463218a4-image.png)

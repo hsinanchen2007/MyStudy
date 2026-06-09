@@ -1,4 +1,4 @@
-```
+// ```
 struct trie_node {
     bool is_end;
     struct trie_node *child[26];
@@ -69,4 +69,4 @@ char * longestWord(char ** words, int wordsSize){
 
     return ret;
 }
-```
+// ```

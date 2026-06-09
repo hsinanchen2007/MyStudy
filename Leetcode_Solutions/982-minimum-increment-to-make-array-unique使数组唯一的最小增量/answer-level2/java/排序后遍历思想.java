@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-先排序，然后遍历 速度中规中矩吧
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 先排序，然后遍历 速度中规中矩吧
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
         Arrays.sort(A); //排序
@@ -18,4 +18,4 @@ class Solution {
         return move;
     }
 }
-```
+// ```

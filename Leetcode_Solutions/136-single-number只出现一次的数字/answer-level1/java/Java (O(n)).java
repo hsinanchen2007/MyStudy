@@ -1,9 +1,9 @@
-### 解题思路
-使用异或的方法(XOR)发现只出现一次的数字。
+// ### 解题思路
+// 使用异或的方法(XOR)发现只出现一次的数字。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         int res = 0;
@@ -13,4 +13,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

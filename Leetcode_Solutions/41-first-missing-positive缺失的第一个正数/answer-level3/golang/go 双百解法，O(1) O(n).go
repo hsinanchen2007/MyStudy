@@ -1,9 +1,9 @@
-### 解题思路
-官方思路实现 
+// ### 解题思路
+// 官方思路实现 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func firstMissingPositive(nums []int) int {
 	// 如果只有1就返回2
 	if len(nums) == 1 {
@@ -56,4 +56,4 @@ func firstMissingPositive(nums []int) int {
 	return nums[0] + 1
 }
 
-```
+// ```

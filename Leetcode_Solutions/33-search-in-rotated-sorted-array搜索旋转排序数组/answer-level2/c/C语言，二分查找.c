@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-注意：临界条件，left <= right；初始调试，left = 0, right = len - 1, mid = (left + right) / 2;
+// 注意：临界条件，left <= right；初始调试，left = 0, right = len - 1, mid = (left + right) / 2;
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int search(int* nums, int numsSize, int target){
     int left, right, mid;
 
@@ -38,4 +38,4 @@ int search(int* nums, int numsSize, int target){
 
     return -1;
 }
-```
+// ```

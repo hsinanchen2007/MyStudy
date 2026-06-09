@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * addStrings(char * num1, char * num2){
 int l1=strlen(num1),l2=strlen(num2);
 int l=l1>l2?l1:l2,a,k,i=l1-1,j=l2-1;
@@ -34,4 +34,4 @@ if(ret[0]=='0')return ret+1;
 return ret;
 }
 
-```
+// ```

@@ -1,6 +1,6 @@
-用栈就可以了, 遇到数字压入栈, 遇到操作符,弹出栈顶两个元素操作就可以了!
+// 用栈就可以了, 遇到数字压入栈, 遇到操作符,弹出栈顶两个元素操作就可以了!
 
-```python 
+// ```python 
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         stack = []
@@ -12,11 +12,11 @@ class Solution:
             else:
                 stack.append(t)
         return stack.pop()     
-```
+// ```
 
-执行速度太慢, 可能用了`eval`原因,换一种写法,大家可以借鉴这样写法, 看起来很舒服!
+// 执行速度太慢, 可能用了`eval`原因,换一种写法,大家可以借鉴这样写法, 看起来很舒服!
 
-```python []
+// ```python []
 class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         stack = []
@@ -36,11 +36,11 @@ class Solution:
             else:
                 stack.append(int(t))
         return stack.pop()
-```
+// ```
 
 
 
-```java []
+// ```java []
 class Solution {
     public int evalRPN(String[] tokens) {
         Deque<Integer> stack = new LinkedList<>();
@@ -59,5 +59,5 @@ class Solution {
         return stack.pop();
     }
 }
-```
+// ```
 

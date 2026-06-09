@@ -1,15 +1,15 @@
-### 解题思路
-其实就是LeetCode的200.海岛问题
-寻找的就是与（0,0）相连的岛屿个数
-因此使用相同的回溯就可以实现
+# ### 解题思路
+# 其实就是LeetCode的200.海岛问题
+# 寻找的就是与（0,0）相连的岛屿个数
+# 因此使用相同的回溯就可以实现
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 def __init__(self):
     self.res = 0
-```
-```python3
+# ```
+# ```python3
 def movingCount(self, m: int, n: int, k: int) -> int:
 
         if k==0:
@@ -29,4 +29,4 @@ def movingCount(self, m: int, n: int, k: int) -> int:
         backtrack(0,0)
         
         return self.res
-```
+# ```

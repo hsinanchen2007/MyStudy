@@ -1,9 +1,9 @@
-### 解题思路
-初次学习并查集
+# ### 解题思路
+# 初次学习并查集
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findCircleNum(self, M: List[List[int]]) -> int:
         #定义一个集合，保证每个元素的父节点是自己，各自都是独立集合
@@ -32,4 +32,4 @@ class Solution:
         for i in range(len(M)):   #每次这个操作，都是把所有节点指向同一个根节点
             find(i)               #从头遍历，找出每个元素的父节点，因为合并时候只返回了a父节点
         return len(set(father))
-```
+# ```

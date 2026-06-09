@@ -1,8 +1,8 @@
-1. 将链表存入数组
+# 1. 将链表存入数组
 
-2. 遍历数组前半部分 ，每次从数组尾部获取节点，插入当前节点之后，并修改从尾部获取的节点的next
+# 2. 遍历数组前半部分 ，每次从数组尾部获取节点，插入当前节点之后，并修改从尾部获取的节点的next
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
             
         if n > 0:
             l[n//2].next = None
-```
+# ```

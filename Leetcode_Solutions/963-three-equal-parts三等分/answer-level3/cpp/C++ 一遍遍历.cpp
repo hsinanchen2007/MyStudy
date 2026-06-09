@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> threeEqualParts(vector<int>& A) {
@@ -35,6 +35,6 @@ public:
         return {v[0], v[1] + 1};
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/9202edf152b94372fa5d9213869abc145e1bffd5ff9cc2fe024fe8c3817f9aa6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9202edf152b94372fa5d9213869abc145e1bffd5ff9cc2fe024fe8c3817f9aa6-image.png)

@@ -1,10 +1,10 @@
-### 解题思路
-要想 如果一个大于minsize的子串满足条件，那一个等于minsize的子串一定也满足。
-因此我们直接去检查minsize的子串就可以了。
+// ### 解题思路
+// 要想 如果一个大于minsize的子串满足条件，那一个等于minsize的子串一定也满足。
+// 因此我们直接去检查minsize的子串就可以了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     map<string,int> mp;
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

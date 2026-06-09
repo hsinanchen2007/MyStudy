@@ -1,9 +1,9 @@
-### 解题思路
-求所有整数出现次数的最大公约数，判断是否>=2
+// ### 解题思路
+// 求所有整数出现次数的最大公约数，判断是否>=2
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -22,4 +22,4 @@ public:
         return true;
     }
 };
-```
+// ```

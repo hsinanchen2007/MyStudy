@@ -1,10 +1,10 @@
-题的用例有很多坑，尤其是[[[[]]],[]]这种，不知道谁想出来的，真是......
-用栈倒序保存，内存动态重规划即可。
-执行结果：通过
-显示详情
-执行用时 :12 ms, 在所有 C 提交中击败了100.00%的用户
-内存消耗 :11.8 MB, 在所有 C 提交中击败了100.00%的用户
-```
+// 题的用例有很多坑，尤其是[[[[]]],[]]这种，不知道谁想出来的，真是......
+// 用栈倒序保存，内存动态重规划即可。
+// 执行结果：通过
+// 显示详情
+// 执行用时 :12 ms, 在所有 C 提交中击败了100.00%的用户
+// 内存消耗 :11.8 MB, 在所有 C 提交中击败了100.00%的用户
+// ```
 *
  * // Return the single integer that this NestedInteger holds, if it holds a single integer
  * // The result is undefined if this NestedInteger holds a nested list
@@ -79,4 +79,4 @@ void nestedIterFree(struct NestedIterator *iter)
  * while (nestedIterHasNext(i)) printf("%d\n", nestedIterNext(i));
  * nestedIterFree(i);
  */
-```
+// ```

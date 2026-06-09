@@ -1,4 +1,4 @@
-暴力破解：若不存在正整数，则结果为1；若存在正整数，则结果<=max+1，暴力max*size遍数组。max为常数，size为n，保证时间为O(N)
+// 暴力破解：若不存在正整数，则结果为1；若存在正整数，则结果<=max+1，暴力max*size遍数组。max为常数，size为n，保证时间为O(N)
 int firstMissingPositive(int* nums, int numsSize){
       int i = 0;
       int zero_count=0;

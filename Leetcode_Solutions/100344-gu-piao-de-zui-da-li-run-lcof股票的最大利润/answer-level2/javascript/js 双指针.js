@@ -1,6 +1,6 @@
-方法一： 双指针
+// 方法一： 双指针
 
-```
+// ```
 var maxProfit = function(prices) {
     let count =0  // 最大值
     // 双指针 p, q
@@ -21,10 +21,10 @@ var maxProfit = function(prices) {
     }
     return count
 };
-```
-方法二 暴力解法 双层循环
+// ```
+// 方法二 暴力解法 双层循环
 
-```
+// ```
 var maxProfit = function(prices) {
         let res = 0
         for(let i=prices.length;i>0;i--){
@@ -37,4 +37,4 @@ var maxProfit = function(prices) {
         }
         return res
 };
-```
+// ```

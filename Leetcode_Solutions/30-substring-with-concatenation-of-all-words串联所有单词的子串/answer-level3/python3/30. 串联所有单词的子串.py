@@ -1,9 +1,9 @@
-### 解题思路
-暴力匹配的方法,时间复杂度为O(n1*n2*n3),n1为字符串的长度，n2为单词个数，n3为每个单词的长度。
+# ### 解题思路
+# 暴力匹配的方法,时间复杂度为O(n1*n2*n3),n1为字符串的长度，n2为单词个数，n3为每个单词的长度。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findSubstring(self, s: str, words):
         if not s or not words:
@@ -31,4 +31,4 @@ class Solution:
             if flag:
                 res.append(i)
         return res
-```
+# ```

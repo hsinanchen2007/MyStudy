@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-把 n 每一位摘出来比较
+// ### 解题思路
+// 此处撰写解题思路
+// 把 n 每一位摘出来比较
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> selfDividingNumbers(int left, int right) {
         List<Integer> res = new ArrayList<>();
@@ -41,4 +41,4 @@ class Solution {
     
 }
  
-```
+// ```

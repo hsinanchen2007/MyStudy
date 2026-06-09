@@ -1,9 +1,9 @@
-### 解题思路
-在之前的基础上加上了重复检测，效果有点显著（因为样例里的重复项着实多）
+# ### 解题思路
+# 在之前的基础上加上了重复检测，效果有点显著（因为样例里的重复项着实多）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         l = len(nums)
@@ -39,4 +39,4 @@ class Solution:
                     return target
         return res
 
-```
+# ```

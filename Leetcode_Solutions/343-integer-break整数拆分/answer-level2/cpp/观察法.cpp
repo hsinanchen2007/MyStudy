@@ -1,13 +1,13 @@
-### 解题思路
-观察，只有2和3是特殊的，其余的都是分奇数偶数两种情况：
-奇数n : temp = (n - 1) / 2;
-a[n] = max(a[temp] * a[temp + 1], a[temp - 1] * a[temp + 2]);
-偶数n : temp = k / 2;
-a[n] = max(a[temp] * a[temp], a[temp - 1] * a[temp + 1]);
+// ### 解题思路
+// 观察，只有2和3是特殊的，其余的都是分奇数偶数两种情况：
+// 奇数n : temp = (n - 1) / 2;
+// a[n] = max(a[temp] * a[temp + 1], a[temp - 1] * a[temp + 2]);
+// 偶数n : temp = k / 2;
+// a[n] = max(a[temp] * a[temp], a[temp - 1] * a[temp + 1]);
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 long long a[59];
@@ -42,4 +42,4 @@ int integerBreak(int n)
     return a[n];
 }
 };
-```
+// ```

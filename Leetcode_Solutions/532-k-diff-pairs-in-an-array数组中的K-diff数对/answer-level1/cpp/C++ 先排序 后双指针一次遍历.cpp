@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findPairs(vector<int>& nums, int k) {
@@ -21,5 +21,5 @@ public:
         return cnt;
     }
 };
-```
-用双指针一次遍历，用哈希表来剔除重复数字的影响
+// ```
+// 用双指针一次遍历，用哈希表来剔除重复数字的影响

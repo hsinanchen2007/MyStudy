@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     double r,x,y;
@@ -20,4 +20,4 @@ public:
         return {x + rx * r, y + ry * r};
     }
 };
-```
+// ```

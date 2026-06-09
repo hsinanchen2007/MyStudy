@@ -1,5 +1,5 @@
 
-```
+// ```
 const getMaxDepth = (node) => {
   if(!node) return 0
   if(!node.children.length) return 1
@@ -12,4 +12,4 @@ const getMaxDepth = (node) => {
 var maxDepth = function(root) {
     return getMaxDepth(root)
 };
-```
+// ```

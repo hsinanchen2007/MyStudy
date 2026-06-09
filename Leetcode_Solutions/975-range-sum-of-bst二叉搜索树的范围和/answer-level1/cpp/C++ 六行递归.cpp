@@ -1,4 +1,4 @@
-```class Solution {
+// ```class Solution {
 public:
     int rangeSumBST(TreeNode* root, int L, int R) {
         if(!root) return 0;//若树为空返回0
@@ -10,4 +10,4 @@ public:
             return root->val+rangeSumBST(root->left,L,R)+rangeSumBST(root->right,L,R);
     }
 };
-```
+// ```

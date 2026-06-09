@@ -1,10 +1,10 @@
-- 首先定义一个sort数组，表示到idx最大已排序长度。初始化为1
-- 遍历i，比较每一行[0, i）和 i的大小，如果有一行k的A[k][j] > A[k][i]，说明j->i不是顺序的，直接break，如果所有行的 A[k][j] <= A[k][i],说明 j->i是有序的。 所以：
-```
+// - 首先定义一个sort数组，表示到idx最大已排序长度。初始化为1
+// - 遍历i，比较每一行[0, i）和 i的大小，如果有一行k的A[k][j] > A[k][i]，说明j->i不是顺序的，直接break，如果所有行的 A[k][j] <= A[k][i],说明 j->i是有序的。 所以：
+// ```
 sort[i] = Max(sort[i], sort[j] + 1)
-```
-我们只要找到sort的最大值，就可以知道最多需要删除多少列了。
-```
+// ```
+// 我们只要找到sort的最大值，就可以知道最多需要删除多少列了。
+// ```
 func minDeletionSize(A []string) int {
         sort := make([]int, len(A[0]))
 	for i := 0; i < len(sort); i++ {
@@ -33,4 +33,4 @@ func Max(x, y int) int {
 	return y
 }
 
-```
+// ```

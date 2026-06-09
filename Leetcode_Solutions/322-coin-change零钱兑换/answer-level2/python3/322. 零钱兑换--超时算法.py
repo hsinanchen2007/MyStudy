@@ -1,7 +1,7 @@
-TLE解法：
-求每个硬币的最小使用次数
-coinchange(x,coins,S):x为硬币在列表中的下标，S为使用了i个面值为coins[x]后的值。
-主要思路，假设已经用掉i个面值为coins[x]的硬币，求剩下的费用需要的最小硬币。
+# TLE解法：
+# 求每个硬币的最小使用次数
+# coinchange(x,coins,S):x为硬币在列表中的下标，S为使用了i个面值为coins[x]后的值。
+# 主要思路，假设已经用掉i个面值为coins[x]的硬币，求剩下的费用需要的最小硬币。
 
 def coinchange(x:int, coins:list, S:int) -> int:
     if S==0: return 0    

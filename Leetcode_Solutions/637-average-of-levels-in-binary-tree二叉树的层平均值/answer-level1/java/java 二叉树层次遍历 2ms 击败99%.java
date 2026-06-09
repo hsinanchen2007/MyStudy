@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<Double> averageOfLevels(TreeNode root) {
         List<Double> res = new ArrayList<>();
@@ -20,4 +20,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

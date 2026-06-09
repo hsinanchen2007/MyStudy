@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def addNegabinary(self, arr1: List[int], arr2: List[int]) -> List[int]:
         # 进位是-,借位是+
@@ -42,4 +42,4 @@ class Solution:
         if len(result) == 0:
             result = [0]
         return reversed(result)
-```
+# ```

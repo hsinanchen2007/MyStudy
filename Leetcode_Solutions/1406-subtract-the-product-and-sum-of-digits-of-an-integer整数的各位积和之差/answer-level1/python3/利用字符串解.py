@@ -1,9 +1,9 @@
-### 解题思路
-python 中字符串本身也是一种列表，可迭代
+# ### 解题思路
+# python 中字符串本身也是一种列表，可迭代
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:
         sum_ = 0
@@ -14,4 +14,4 @@ class Solution:
             mul *= int(i)
 
         return(mul-sum_)
-```
+# ```

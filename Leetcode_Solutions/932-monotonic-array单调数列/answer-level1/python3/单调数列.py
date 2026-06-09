@@ -1,9 +1,9 @@
-### 解题思路
-all()的用法，但内存占用较大
+# ### 解题思路
+# all()的用法，但内存占用较大
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isMonotonic(self, A: List[int]) -> bool:
         if len(A) < 2 or len(set(A)) == 1:
@@ -22,4 +22,4 @@ class Solution:
             False
         
         
-```
+# ```

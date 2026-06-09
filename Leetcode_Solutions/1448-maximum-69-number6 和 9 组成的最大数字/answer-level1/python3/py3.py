@@ -1,9 +1,9 @@
-### 解题思路
-方法一：不用replace()函数
-方法二：用replace()函数
+# ### 解题思路
+# 方法一：不用replace()函数
+# 方法二：用replace()函数
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 class Solution:
     def maximum69Number (self, num: int) -> int:
         num = list(str(num))
@@ -12,9 +12,9 @@ class Solution:
                 num[i] = '9'
                 break
         return int(''.join(num))
-```
-```python3
+# ```
+# ```python3
 class Solution:
     def maximum69Number (self, num: int) -> int:
         return int(str(num).replace('6','9',1))
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /** 
  * Forward declaration of guess API.
  * @param  num   your guess
@@ -27,4 +27,4 @@ func guessNumber(n int) int {
 	}
 	return 0
 }
-```
+// ```

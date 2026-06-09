@@ -1,10 +1,10 @@
-### 
-若是R则把标准++ 若是L则--
-当重回为0时则对应一个目标子串
+// ### 
+// 若是R则把标准++ 若是L则--
+// 当重回为0时则对应一个目标子串
 
-###
+// ###
 
-```java
+// ```java
 class Solution {
     public int balancedStringSplit(String s) {
     	int count = 0;
@@ -18,4 +18,4 @@ class Solution {
         return total;
     }
 }
-```
+// ```

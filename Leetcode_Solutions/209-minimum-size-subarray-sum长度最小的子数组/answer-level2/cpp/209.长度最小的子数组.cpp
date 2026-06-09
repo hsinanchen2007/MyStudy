@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums) {
@@ -16,5 +16,5 @@ public:
         return (ans==INT_MAX)?0:ans;
     }
 };
-```
-这道题好奇怪，我已经是log(n)的解法了，可是运行时间才击败20%。我看了更快的人的解法，和我是完全一样的，不知道为啥。
+// ```
+// 这道题好奇怪，我已经是log(n)的解法了，可是运行时间才击败20%。我看了更快的人的解法，和我是完全一样的，不知道为啥。

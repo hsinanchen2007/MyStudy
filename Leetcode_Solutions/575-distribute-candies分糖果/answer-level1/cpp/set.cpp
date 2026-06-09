@@ -1,4 +1,4 @@
-```scala []
+// ```scala []
 import scala.collection.mutable
 
 object Solution {
@@ -8,13 +8,13 @@ object Solution {
     s.size.min(candies.length / 2)
   }
 }
-```
-```cpp []
+// ```
+// ```cpp []
 class Solution {
 public:
     int distributeCandies(vector<int>& candies) {
         return min(unordered_set<int>(candies.begin(), candies.end()).size(), candies.size() / 2);
     }
 };
-```
+// ```
 

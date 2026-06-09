@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     int index;
     int group_nums;
@@ -42,4 +42,4 @@ int** groupThePeople(int* groupSizes, int groupSizesSize, int* returnSize, int**
     *returnSize = index_r;
     return ret;
 }
-```
+// ```

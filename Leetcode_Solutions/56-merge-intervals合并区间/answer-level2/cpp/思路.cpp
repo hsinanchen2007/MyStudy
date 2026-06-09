@@ -1,9 +1,9 @@
-### 解题思路
-思路不难，有细节需要注意一点，二维数组的排序
+// ### 解题思路
+// 思路不难，有细节需要注意一点，二维数组的排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -28,4 +28,4 @@ public:
       return res;  
     }
 };
-```
+// ```

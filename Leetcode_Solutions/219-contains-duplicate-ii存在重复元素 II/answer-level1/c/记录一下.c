@@ -1,6 +1,6 @@
-一开始用的常规方法超时，参考评论区大神的解法，先排序，后遍历
+// 一开始用的常规方法超时，参考评论区大神的解法，先排序，后遍历
 
-```
+// ```
 #define myAbs(x)    ((x) > 0 ? (x) : (-x))
 
 typedef struct node 
@@ -50,8 +50,8 @@ bool containsNearbyDuplicate(int* nums, int numsSize, int k){
     }
     return false;
 }
-```
-![1.png](https://pic.leetcode-cn.com/1ee447a4540d15f63f2016cced3eae14387e8a15584662cb6b72756640b7ad31-1.png)
+// ```
+// ![1.png](https://pic.leetcode-cn.com/1ee447a4540d15f63f2016cced3eae14387e8a15584662cb6b72756640b7ad31-1.png)
 
-内存占用太多- -、、
+// 内存占用太多- -、、
 

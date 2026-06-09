@@ -1,9 +1,9 @@
-### 解题思路
-在修改.next指向之前，把原先的.next用个变量缓存，防止丢失。
+// ### 解题思路
+// 在修改.next指向之前，把原先的.next用个变量缓存，防止丢失。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ public class Solution {
         return nhead;    
     }
 }
-```
+// ```

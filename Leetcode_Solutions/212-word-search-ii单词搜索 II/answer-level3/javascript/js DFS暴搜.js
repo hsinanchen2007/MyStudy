@@ -1,5 +1,5 @@
-js DFS暴搜22行代码
-```js
+// js DFS暴搜22行代码
+// ```js
 /**
  * @param {character[][]} board
  * @param {string[]} words
@@ -29,4 +29,4 @@ var findWords = function(board, words) {
     }
     return words.filter(i => isExist(i, JSON.parse(JSON.stringify(board))));
 };
-```
+// ```

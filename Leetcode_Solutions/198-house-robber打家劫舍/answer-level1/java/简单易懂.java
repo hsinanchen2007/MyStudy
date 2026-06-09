@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int rob(int[] nums) {
         // int prevMax=0;
@@ -24,4 +24,4 @@ class Solution {
         return dp[n-1];
     }
 }
-```
+// ```

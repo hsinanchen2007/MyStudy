@@ -1,12 +1,12 @@
-早上睡过头了，错过了竞赛。。。补个题解。T_T
+// 早上睡过头了，错过了竞赛。。。补个题解。T_T
 
-树状数组。不是最快的，但是可以提供一个参考。
+// 树状数组。不是最快的，但是可以提供一个参考。
 
-![image.png](https://pic.leetcode-cn.com/d028ef1a83988b16b51de139c35105fe0809d01fb2d26f04a0b4429cd81c8508-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d028ef1a83988b16b51de139c35105fe0809d01fb2d26f04a0b4429cd81c8508-image.png)
 
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     // O(nlogn)
@@ -42,4 +42,4 @@ private:
 
     int c[20010] = { 0 };
 };
-```
+// ```

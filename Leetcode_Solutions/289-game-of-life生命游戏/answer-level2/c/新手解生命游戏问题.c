@@ -1,19 +1,19 @@
-### 解题思路
-1. 新建两个数组row和col，用来更新board这个二维矩阵，存的数据是下一时刻数值为一的行列位置
-2. 在执行代码时通过了测试样例，在提交时报错说：variable length array bound evaluates to non-positive value 0（可变长度数组绑定的计算结果为非正值0），去解题思路里看了一下是若行或列为0的情况，return就可
-3. num用来计数周围活细胞的数量
-4. i为行，j为列，通过加减1判断周围的细胞是否在边界内，若在，则判断是否为活细胞，更新num
-5. 当判断完周围细胞后，判断中心位置的细胞死活来对row和col数值进行更新
-6. 用一个for循环将原二维矩阵全部归零
-7. 用存在row和col数组里的数据对该二维矩阵进行更新
+// ### 解题思路
+// 1. 新建两个数组row和col，用来更新board这个二维矩阵，存的数据是下一时刻数值为一的行列位置
+// 2. 在执行代码时通过了测试样例，在提交时报错说：variable length array bound evaluates to non-positive value 0（可变长度数组绑定的计算结果为非正值0），去解题思路里看了一下是若行或列为0的情况，return就可
+// 3. num用来计数周围活细胞的数量
+// 4. i为行，j为列，通过加减1判断周围的细胞是否在边界内，若在，则判断是否为活细胞，更新num
+// 5. 当判断完周围细胞后，判断中心位置的细胞死活来对row和col数值进行更新
+// 6. 用一个for循环将原二维矩阵全部归零
+// 7. 用存在row和col数组里的数据对该二维矩阵进行更新
 
-看了些别人的code，觉得自己的code里有很多可以简化的地方
-1. 申请的数组空间过大
-2. 在num更新时可以j直接加该位置的值，而不是先判断是否为活细胞
+// 看了些别人的code，觉得自己的code里有很多可以简化的地方
+// 1. 申请的数组空间过大
+// 2. 在num更新时可以j直接加该位置的值，而不是先判断是否为活细胞
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void gameOfLife(int** board, int boardSize, int* boardColSize){
     if ( !boardColSize[0] ||  !boardSize) {
         return ;
@@ -90,4 +90,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
         board[ row[m] ][ col[m] ] = 1;
     }
 }
-```
+// ```

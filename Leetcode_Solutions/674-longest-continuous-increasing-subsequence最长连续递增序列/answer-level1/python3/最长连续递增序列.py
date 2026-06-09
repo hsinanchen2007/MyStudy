@@ -1,9 +1,9 @@
-### 解题思路
-countList.append(asecCount+1): 加1是因为每次比较的是两个数，有asecCount次递增，其实是比较了asecCount+1个数
+# ### 解题思路
+# countList.append(asecCount+1): 加1是因为每次比较的是两个数，有asecCount次递增，其实是比较了asecCount+1个数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findLengthOfLCIS(self, nums: List[int]) -> int:
         lenNums = len(nums)
@@ -27,4 +27,4 @@ class Solution:
                 continue
     
         return max(countList)
-```
+# ```

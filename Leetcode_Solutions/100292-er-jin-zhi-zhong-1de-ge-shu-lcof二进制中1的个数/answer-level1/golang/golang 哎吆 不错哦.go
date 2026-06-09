@@ -1,9 +1,9 @@
-### 解题思路
-位运算：与、位移
+// ### 解题思路
+// 位运算：与、位移
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hammingWeight(num uint32) int {
     res := 0
     for num > 0 {
@@ -15,4 +15,4 @@ func hammingWeight(num uint32) int {
     }
     return res
 }
-```
+// ```

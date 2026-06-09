@@ -1,9 +1,9 @@
-### 解题思路
-只比较数字的前半部分和后半部分，所以绝对不会溢出
+// ### 解题思路
+// 只比较数字的前半部分和后半部分，所以绝对不会溢出
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
     if(x<0) return false;//负数直接返回
     int res=0;//用来存储后n位数
@@ -23,4 +23,4 @@ bool isPalindrome(int x){
     return(true);
 
 }
-```
+// ```

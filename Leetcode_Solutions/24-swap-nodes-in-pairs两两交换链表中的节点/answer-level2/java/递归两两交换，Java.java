@@ -1,5 +1,5 @@
-官方题解没怎么看懂，我自己草稿纸上画，然后代码就出来了，通过之后也很高兴...
-```
+// 官方题解没怎么看懂，我自己草稿纸上画，然后代码就出来了，通过之后也很高兴...
+// ```
 class Solution {
     public ListNode swapPairs(ListNode head) {
         if (head == null || head.next == null) return head;
@@ -21,8 +21,8 @@ class Solution {
         return second;
     }
 }
-```
-执行用时 :0 ms, 在所有 Java 提交中击败了100.00% 的用户
-内存消耗 :34 MB, 在所有 Java 提交中击败了89.88%的用户
+// ```
+// 执行用时 :0 ms, 在所有 Java 提交中击败了100.00% 的用户
+// 内存消耗 :34 MB, 在所有 Java 提交中击败了89.88%的用户
 
 

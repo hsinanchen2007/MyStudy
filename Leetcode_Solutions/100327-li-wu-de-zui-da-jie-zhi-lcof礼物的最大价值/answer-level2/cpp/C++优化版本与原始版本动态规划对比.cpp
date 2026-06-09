@@ -1,14 +1,14 @@
-### 解题思路
-优化版本的动态规划。
-分析过程：
-//原始版本
-1、动态规划的状态dp[i][j]表示到位置（i,j）可获得的最大礼物价值；
-2、动态规划的递推公式为dp[i][j] = max(dp[i-1][j], dp[i][j-1]) + grid[i][j];
-3、动态规划的边界条件为：第一行（第一列）只能从左至右（从上至下）累加；
-代码如下：
+// ### 解题思路
+// 优化版本的动态规划。
+// 分析过程：
+// //原始版本
+// 1、动态规划的状态dp[i][j]表示到位置（i,j）可获得的最大礼物价值；
+// 2、动态规划的递推公式为dp[i][j] = max(dp[i-1][j], dp[i][j-1]) + grid[i][j];
+// 3、动态规划的边界条件为：第一行（第一列）只能从左至右（从上至下）累加；
+// 代码如下：
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     int maxValue(vector<vector<int>>& grid) {
@@ -31,18 +31,18 @@ public:
     }
     
 };
-```
+// ```
 
-//优化版本
-   上述版本需要与grid同样大小的二维数组空间来存储中间dp值。有递归过程中，仅使用上侧和左侧的值，因此只需保留上一行dp值、并从左至右从上至下检索即可，因此可进行空间优化，只用使用一维数组即可。具体描述如下：
-4、状态dp[j]:某行第j列可获得的最大礼物值；
-5、递推公式：dp[j] = max(dp[j-1], dp[j]) + grid[i][j]
-6、边界条件：第一行只能从左至右累加。
-代码如下
+// //优化版本
+//    上述版本需要与grid同样大小的二维数组空间来存储中间dp值。有递归过程中，仅使用上侧和左侧的值，因此只需保留上一行dp值、并从左至右从上至下检索即可，因此可进行空间优化，只用使用一维数组即可。具体描述如下：
+// 4、状态dp[j]:某行第j列可获得的最大礼物值；
+// 5、递推公式：dp[j] = max(dp[j-1], dp[j]) + grid[i][j]
+// 6、边界条件：第一行只能从左至右累加。
+// 代码如下
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxValue(vector<vector<int>>& grid) {
@@ -62,9 +62,9 @@ public:
     }
     
 };
-```
-![image.png](https://pic.leetcode-cn.com/2595817d0271ccbe4f3a80397200b4be661214a9a626aae80d13d643d7e5d850-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/2595817d0271ccbe4f3a80397200b4be661214a9a626aae80d13d643d7e5d850-image.png)
 
-两个版本运行情况对比
-![image.png](https://pic.leetcode-cn.com/635ff2cd17c7eb610669a1588c92cf1af3bdd18c99977a01b9a7d47fa7fde59d-image.png)
+// 两个版本运行情况对比
+// ![image.png](https://pic.leetcode-cn.com/635ff2cd17c7eb610669a1588c92cf1af3bdd18c99977a01b9a7d47fa7fde59d-image.png)
 

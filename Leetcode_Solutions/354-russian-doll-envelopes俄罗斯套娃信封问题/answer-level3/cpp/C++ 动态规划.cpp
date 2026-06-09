@@ -1,11 +1,11 @@
-### 解题思路
-注意 dp 数组初始值为1
-更新公式：dp[i] = max(dp[i], dp[j]+1);
-用 maxE = max(dp[i], maxE); 记录最多套娃数
+// ### 解题思路
+// 注意 dp 数组初始值为1
+// 更新公式：dp[i] = max(dp[i], dp[j]+1);
+// 用 maxE = max(dp[i], maxE); 记录最多套娃数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxEnvelopes(vector<vector<int>>& envelopes) {
@@ -25,4 +25,4 @@ public:
         return maxE;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/ad3237b9fb98657e80d5aa16128a9d9fb52d8d07f0f6253a41dc5f47d730b20a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ad3237b9fb98657e80d5aa16128a9d9fb52d8d07f0f6253a41dc5f47d730b20a-image.png)
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     dfs(root);
     return maxdeep;
 }
-```
+// ```

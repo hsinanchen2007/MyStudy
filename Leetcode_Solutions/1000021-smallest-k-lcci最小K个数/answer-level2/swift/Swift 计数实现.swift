@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-因为有负数，没有采用桶，还是计数的路子
+// 因为有负数，没有采用桶，还是计数的路子
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func smallestK(_ arr: [Int], _ k: Int) -> [Int] {
         var dict:[Int:Int] = [:]
@@ -38,4 +38,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

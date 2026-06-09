@@ -1,6 +1,6 @@
-# 暴力求和
-每次遍历都将索引两边元素相加求和，然后进行判断相等就抛出结果；
-``` javascript
+// # 暴力求和
+// 每次遍历都将索引两边元素相加求和，然后进行判断相等就抛出结果；
+// ``` javascript
 var pivotIndex = function(nums) {
     var left = [];
   var sum = 0;
@@ -25,4 +25,4 @@ var pivotIndex = function(nums) {
   }
   return -1;
 };
-```
+// ```

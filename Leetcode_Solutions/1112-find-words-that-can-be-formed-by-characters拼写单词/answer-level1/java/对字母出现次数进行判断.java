@@ -1,9 +1,9 @@
-### 解题思路
-对字母出现次数进行判断，如果字母表中字母出现次数小于单词中字母出现次数，则说明该单词有字母不在字母表中
+// ### 解题思路
+// 对字母出现次数进行判断，如果字母表中字母出现次数小于单词中字母出现次数，则说明该单词有字母不在字母表中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
 		// 统计字母表中的字母出现次数
@@ -57,4 +57,4 @@ class Solution {
 		return counter;
 	}
 }
-```
+// ```

@@ -1,8 +1,8 @@
-本题可以直接sort()，反而是最快的。当然，维护一个优先队列也是常见思路，这里不加赘述。
-我扫了一眼题解区暂时没看到用计数排序的。
-这道题因为给了数据范围，小于10000，所以我认为使用计数排序的思路是一个比较优质的选择。
-时间复杂度O(n+max(arr)),空间复杂度O(max(arr))
-```
+# 本题可以直接sort()，反而是最快的。当然，维护一个优先队列也是常见思路，这里不加赘述。
+# 我扫了一眼题解区暂时没看到用计数排序的。
+# 这道题因为给了数据范围，小于10000，所以我认为使用计数排序的思路是一个比较优质的选择。
+# 时间复杂度O(n+max(arr)),空间复杂度O(max(arr))
+# ```
 from queue import PriorityQueue
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
@@ -27,4 +27,4 @@ class Solution:
                     ans.append(i)
                 break
         return ans
-```
+# ```

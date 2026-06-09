@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //如果中间的数字小于最右边的数，则右半段有序；若中间的数大于最右边的数，则左半段有序
 //这里注意判断的条件
 int search(int* nums, int numsSize, int target){
@@ -41,4 +41,4 @@ int search(int* nums, int numsSize, int target){
     }
     return -1;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void nextStr(char *data1, char **data2) {
     int num = 0;
     int i;
@@ -39,4 +39,4 @@ char * countAndSay(int n){
 
     return data1;
 }
-```
+// ```

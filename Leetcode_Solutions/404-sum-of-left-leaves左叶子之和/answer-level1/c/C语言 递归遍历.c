@@ -1,12 +1,12 @@
-### 解题思路
-递归遍历
+// ### 解题思路
+// 递归遍历
 
-![image.png](https://pic.leetcode-cn.com/0d77d48a3d854cbaf3975c1ab78dd4f29437f8d78d68a86bac07b4e01ac5fa23-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0d77d48a3d854cbaf3975c1ab78dd4f29437f8d78d68a86bac07b4e01ac5fa23-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ int sumOfLeftLeaves(struct TreeNode* root){
 	trans(root, false, &sum);
 	return sum;
 }
-```
+// ```

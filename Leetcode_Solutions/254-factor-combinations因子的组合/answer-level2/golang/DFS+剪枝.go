@@ -1,10 +1,10 @@
-### 解题思路
-![1.png](https://pic.leetcode-cn.com/02a54d927a4079b55dfd2c88cb7795aa0f4928e0676b86be60c079b09f964185-1.png)
-此处撰写解题思路
+// ### 解题思路
+// ![1.png](https://pic.leetcode-cn.com/02a54d927a4079b55dfd2c88cb7795aa0f4928e0676b86be60c079b09f964185-1.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func getFactors(n int) [][]int {
 	result := make([][]int, 0, 4)
 	list := make([]int, 0, 2)
@@ -35,4 +35,4 @@ func dfsGetFactors(n int, result *[][]int, list []int) {
 		}
 	}
 }
-```
+// ```

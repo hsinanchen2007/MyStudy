@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string[]} d
@@ -41,4 +41,4 @@ const isSub = function(s,key){
     }
     return true
 }
-```
+// ```

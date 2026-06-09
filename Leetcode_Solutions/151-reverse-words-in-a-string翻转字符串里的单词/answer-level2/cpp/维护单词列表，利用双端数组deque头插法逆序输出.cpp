@@ -1,9 +1,9 @@
-### 解题思路
-利用deque可以头插的特性，降低时间复杂度
+// ### 解题思路
+// 利用deque可以头插的特性，降低时间复杂度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -35,4 +35,4 @@ public:
         return retstr;
     }
 };
-```
+// ```

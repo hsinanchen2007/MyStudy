@@ -1,6 +1,6 @@
-这题的难点关键是边界条件能否一次考虑到
+// 这题的难点关键是边界条件能否一次考虑到
 
-```
+// ```
     public String convertToBase7(int num) {
         if(num == 0)return "0";
         boolean nagetive = num >= 0 ? false : true;  
@@ -15,4 +15,4 @@
         }
         return ret.reverse().toString();
     }
-```
+// ```

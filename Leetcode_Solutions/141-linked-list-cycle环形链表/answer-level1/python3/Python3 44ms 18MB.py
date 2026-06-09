@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
     def hasCycle(self, head):
         slow, fast = head, head
         while fast and fast.next:
@@ -8,5 +8,5 @@
             if fast == slow:
                 return True
         return False
-```
+# ```
 

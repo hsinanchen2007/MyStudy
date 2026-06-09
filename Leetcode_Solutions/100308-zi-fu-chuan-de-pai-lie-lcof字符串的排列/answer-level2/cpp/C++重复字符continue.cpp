@@ -1,10 +1,10 @@
-### 解题思路
-如出现重复字符，如abcb：1、交换ab后b acb 2、交换第二个b后b bca
-会重复 所以在要写重复跳过 且for循环
+// ### 解题思路
+// 如出现重复字符，如abcb：1、交换ab后b acb 2、交换第二个b后b bca
+// 会重复 所以在要写重复跳过 且for循环
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
  vector<string> res;
@@ -40,4 +40,4 @@ public:
         }
     
 };
-```
+// ```

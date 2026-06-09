@@ -1,9 +1,9 @@
-### 解题思路
-见注释
+// ### 解题思路
+// 见注释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) { // 计数法
@@ -31,4 +31,4 @@ public:
         return ans;
     }
 };
-```
+// ```

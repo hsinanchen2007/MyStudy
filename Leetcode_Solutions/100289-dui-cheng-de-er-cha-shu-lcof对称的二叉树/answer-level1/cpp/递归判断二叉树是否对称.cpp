@@ -1,8 +1,8 @@
-### 解题思路
-从根节点开始，通过递归的方式以此判断其子节点是否对称
-### 代码
+// ### 解题思路
+// 从根节点开始，通过递归的方式以此判断其子节点是否对称
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -25,4 +25,4 @@ public:
 		return SynTree(root->left, root->right);
 	}
 };
-```
+// ```

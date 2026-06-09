@@ -1,4 +1,4 @@
-```js
+// ```js
 var checkPossibility = function(nums) {
     let count = 0;
     if (nums[0] > nums[1]) {
@@ -25,5 +25,5 @@ var checkPossibility = function(nums) {
 };
 var nums = [3,4,2,3];
 console.log(checkPossibility(nums));
-```
+// ```
 

@@ -1,19 +1,19 @@
 
 
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/23
- *
- * 解题思路: 搞清楚题目的逻辑 反转每2*k个子序列的前k个序列 如果最后的序列不足2k 则 k<=l<2K  依旧反转前k个 0<l<k 全部反转
- *
- *  反转k个 跳过k个 最后剩余的不够k个,全部反转
- *
- *  代码两种写法 第二种好理解
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/23
+//  *
+//  * 解题思路: 搞清楚题目的逻辑 反转每2*k个子序列的前k个序列 如果最后的序列不足2k 则 k<=l<2K  依旧反转前k个 0<l<k 全部反转
+//  *
+//  *  反转k个 跳过k个 最后剩余的不够k个,全部反转
+//  *
+//  *  代码两种写法 第二种好理解
+//  *
+//  */
+// ```
 public String reverseStr(String s, int k) {
         char[] s_arr = s.toCharArray();
 
@@ -62,4 +62,4 @@ public void reverseArr(char[] arr , int from , int end){
         arr[j] = t;
     }
 }
-```
+// ```

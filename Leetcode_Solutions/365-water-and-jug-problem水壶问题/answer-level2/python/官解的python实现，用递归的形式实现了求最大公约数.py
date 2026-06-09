@@ -1,8 +1,8 @@
-还在leetcode继续学习的菜鸡，写出来不怕献丑，希望能得到大家的建议：
+# 还在leetcode继续学习的菜鸡，写出来不怕献丑，希望能得到大家的建议：
 
-官解链接：https://leetcode-cn.com/problems/water-and-jug-problem/solution/shui-hu-wen-ti-by-leetcode-solution/
+# 官解链接：https://leetcode-cn.com/problems/water-and-jug-problem/solution/shui-hu-wen-ti-by-leetcode-solution/
 
-附官解中对该数学法的解释：“而贝祖定理告诉我们，ax+by=z 有解当且仅当 z 是 x,y 的最大公约数的倍数。因此我们只需要找到 x,y 的最大公约数并判断 z 是否是它的倍数即可。”
+# 附官解中对该数学法的解释：“而贝祖定理告诉我们，ax+by=z 有解当且仅当 z 是 x,y 的最大公约数的倍数。因此我们只需要找到 x,y 的最大公约数并判断 z 是否是它的倍数即可。”
 
 class Solution(object):
     def canMeasureWater(self, x, y, z):

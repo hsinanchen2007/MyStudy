@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gcd(int a, int b){
     int newb;
     while(b != 0){
@@ -34,4 +34,4 @@ char * gcdOfStrings(char * str1, char * str2){
     return str;
 }
 
-```
+// ```

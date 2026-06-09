@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} n
  * @param {number} k
@@ -32,4 +32,4 @@ var getPermutation = function(n, k) {
     getNum(init, k);
     return res.join("");
 };
-```
+// ```

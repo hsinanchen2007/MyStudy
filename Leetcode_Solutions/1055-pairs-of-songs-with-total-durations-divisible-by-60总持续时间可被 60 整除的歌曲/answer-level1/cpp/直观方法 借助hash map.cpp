@@ -1,5 +1,5 @@
-比较直观的方法就是借助于hash map
-```
+// 比较直观的方法就是借助于hash map
+// ```
 class Solution {
 public:
     int numPairsDivisibleBy60(vector<int>& time) {
@@ -19,4 +19,4 @@ public:
         return res;
     }
 };
-```
+// ```

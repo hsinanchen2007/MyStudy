@@ -1,5 +1,5 @@
-两行两行比较，每行的第i个数跟下一行的第i+1个数比较
-```
+// 两行两行比较，每行的第i个数跟下一行的第i+1个数比较
+// ```
 public static boolean isToeplitzMatrix(int[][] matrix){
 		int M = matrix.length, N = matrix[0].length;
 		int[] temp1 = new int[N];
@@ -14,4 +14,4 @@ public static boolean isToeplitzMatrix(int[][] matrix){
 		}
 		return true;
 	}
-```
+// ```

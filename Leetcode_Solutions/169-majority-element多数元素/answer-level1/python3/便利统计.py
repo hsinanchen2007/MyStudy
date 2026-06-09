@@ -1,9 +1,9 @@
-### 解题思路
-set()去重，在统计sum()
+# ### 解题思路
+# set()去重，在统计sum()
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         half = len(nums) // 2
@@ -13,4 +13,4 @@ class Solution:
             if count1 > half:
                 return num
 
-```
+# ```

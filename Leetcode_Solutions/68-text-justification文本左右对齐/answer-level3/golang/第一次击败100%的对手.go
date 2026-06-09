@@ -1,10 +1,10 @@
-常规算法，时间复杂度o(n)，空间o(n)；
+// 常规算法，时间复杂度o(n)，空间o(n)；
 
-merge函数作用是合并在一行的单词；
+// merge函数作用是合并在一行的单词；
 
-fullJustify 函数是找到在一行的单词，调用merge合并，直到结束
+// fullJustify 函数是找到在一行的单词，调用merge合并，直到结束
 
-```
+// ```
 func merge(words []string,start,end int,isEnd bool,maxWidth int)string{
     //start:单词开始的位置
     //end: 单词结束的位置
@@ -90,4 +90,4 @@ func fullJustify(words []string,maxWidth int)[]string{
     retSlice =append(retSlice,merge(words,startIndex,endIndex,true,maxWidth))
     return retSlice
 }
-```
+// ```

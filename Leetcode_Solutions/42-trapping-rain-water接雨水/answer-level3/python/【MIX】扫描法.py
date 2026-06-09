@@ -1,11 +1,11 @@
-### 解题思路
-1. 左右侧扫描, 时间复杂度$O(N)$, 空间复杂度$O(N)$
-2. 中间向两侧扫描, 时间复杂度$O(N)$, 空间复杂度$O(1)$
-3. 栈辅助求解
+# ### 解题思路
+# 1. 左右侧扫描, 时间复杂度$O(N)$, 空间复杂度$O(N)$
+# 2. 中间向两侧扫描, 时间复杂度$O(N)$, 空间复杂度$O(1)$
+# 3. 栈辅助求解
 
-### 代码
-**解法1**
-```c++ []
+# ### 代码
+# **解法1**
+# ```c++ []
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -33,9 +33,9 @@ public:
         return sum;
     }
 };
-```
-**解法2**
-```java []
+# ```
+# **解法2**
+# ```java []
 class Solution {
     public int trap(int[] height) {
         if(height == null || height.length==0)
@@ -72,8 +72,8 @@ class Solution {
         return sum;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def trap(self, height: List[int]) -> int:
         if height == None or len(height) == 0:
@@ -97,8 +97,8 @@ class Solution:
                 Sum += (peak-height[i])
 
         return Sum
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -129,9 +129,9 @@ public:
         return sum;
     }
 };
-```
-**解法3**
-```c++ []
+# ```
+# **解法3**
+# ```c++ []
 class Solution {
 public:
     int trap(vector<int>& height) {
@@ -158,4 +158,4 @@ public:
         return sum;
     }
 };
-```
+# ```

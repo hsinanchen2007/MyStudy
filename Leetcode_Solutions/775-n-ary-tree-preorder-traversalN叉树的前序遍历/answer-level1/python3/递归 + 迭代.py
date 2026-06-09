@@ -1,5 +1,5 @@
-### 解题思路
-```javascript []
+# ### 解题思路
+# ```javascript []
 
 //递归
 var preorder = function(root) {
@@ -19,8 +19,8 @@ var preorder = function(root) {
   return res;
 };
 
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def preorder(self, root: 'Node') -> List[int]:
         if root == None:
@@ -36,4 +36,4 @@ class Solution:
 
         return output
 
-```
+# ```

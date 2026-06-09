@@ -1,4 +1,4 @@
-```
+// ```
 public int thirdMax(int[] nums) {
         Set<Integer> set = new HashSet<>();
         for(int data : nums) {
@@ -21,4 +21,4 @@ public int thirdMax(int[] nums) {
 
         return -1;
     }
-```
+// ```

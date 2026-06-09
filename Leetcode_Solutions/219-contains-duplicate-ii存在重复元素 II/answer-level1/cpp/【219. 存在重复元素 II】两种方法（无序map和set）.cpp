@@ -1,6 +1,6 @@
-## 思路一：利用map
-### 代码
-```c++
+// ## 思路一：利用map
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
@@ -20,12 +20,12 @@ public:
         return false;
     }
 };
-```
+// ```
 
-## 思路二：利用set
-散列表来维护k大小的滑动窗口。
-### 代码
-```c++
+// ## 思路二：利用set
+// 散列表来维护k大小的滑动窗口。
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool containsNearbyDuplicate(vector<int>& nums, int k) {
@@ -41,5 +41,5 @@ public:
         return false;
     }
 };
-```
+// ```
 

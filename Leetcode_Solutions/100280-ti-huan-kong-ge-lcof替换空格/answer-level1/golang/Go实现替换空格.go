@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func replaceSpace(s string) string {
     if s ==""{
         return ""
@@ -15,9 +15,9 @@ func replaceSpace(s string) string {
     }
     return string(res)
 }
-```
+// ```
 
-```
+// ```
 func replaceSpace(s string) string {
     if len(s)==0{
         return ""
@@ -32,4 +32,4 @@ func replaceSpace(s string) string {
     }
     return res
 }
-```
+// ```

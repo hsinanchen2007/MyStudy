@@ -1,4 +1,4 @@
-```
+// ```
 function productExceptSelf($nums) {
     $k = 1;
     $n = count($nums);
@@ -14,4 +14,4 @@ function productExceptSelf($nums) {
     }
     return $res;
 }
-```
+// ```

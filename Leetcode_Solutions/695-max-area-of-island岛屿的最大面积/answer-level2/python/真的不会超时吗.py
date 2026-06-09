@@ -1,8 +1,8 @@
-### 解题思路
-我想通了,时间复杂度是O(n^2)
-### 代码
+# ### 解题思路
+# 我想通了,时间复杂度是O(n^2)
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         r = len(grid)
@@ -32,4 +32,4 @@ class Solution:
 
 
 
-```
+# ```

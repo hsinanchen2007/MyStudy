@@ -1,5 +1,5 @@
-太闲的话就看代码吧。。
-```
+// 太闲的话就看代码吧。。
+// ```
 class Solution {
 public:
 
@@ -73,5 +73,5 @@ public:
         return nums[len-k];
     }
 };
-```
-`
+// ```
+// `

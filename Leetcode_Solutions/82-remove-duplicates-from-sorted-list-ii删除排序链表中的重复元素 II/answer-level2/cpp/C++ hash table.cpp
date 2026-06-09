@@ -1,9 +1,9 @@
-### 解题思路
-两次遍历，第一次遍历删除重复的元素，只保留一个，并记录下出现重复的元素(std::set)；第二次遍历，是否是hash table中出现，如果是，删除
+// ### 解题思路
+// 两次遍历，第一次遍历删除重复的元素，只保留一个，并记录下出现重复的元素(std::set)；第二次遍历，是否是hash table中出现，如果是，删除
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,4 +43,4 @@ public:
         return dummy -> next;
     }
 };
-```
+// ```

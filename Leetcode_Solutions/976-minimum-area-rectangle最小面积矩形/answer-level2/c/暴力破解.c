@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_NUM 504
 
 typedef struct{
@@ -74,4 +74,4 @@ int minAreaRect(int** points, int pointsSize, int* pointsColSize){
 	}
 	return result == INT_MAX ? 0 : result;
 }
-```
+// ```

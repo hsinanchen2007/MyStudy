@@ -1,8 +1,8 @@
-### 解题思路
-题目描述的乱七八糟的，看这里: https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/solution/nao-jin-ji-zhuan-wan-by-zlhmyl/
-### 代码
+// ### 解题思路
+// 题目描述的乱七八糟的，看这里: https://leetcode-cn.com/problems/longest-uncommon-subsequence-i/solution/nao-jin-ji-zhuan-wan-by-zlhmyl/
+// ### 代码
 
-```c
+// ```c
 int findLUSlength(char * a, char * b){
     int alen=strlen(a),blen=strlen(b);
     if (strcmp(a,b)==0)return -1;
@@ -39,4 +39,4 @@ int findLUSlength(char * a, char * b){
     if(A==0&&B==0) return -1;
     return A>B?A:B;
 }*/
-```
+// ```

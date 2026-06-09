@@ -1,9 +1,9 @@
-### 解题思路
-不要见到二叉树就去递归
+// ### 解题思路
+// 不要见到二叉树就去递归
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -51,4 +51,4 @@ List<TreeNode> nodes = getAllTreeNode(root);
 		return res;
 	}
 }
-```
+// ```

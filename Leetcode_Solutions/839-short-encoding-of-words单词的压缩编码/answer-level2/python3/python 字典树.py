@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-构造字典树，对于每个单词从从后往前处理。
-最后答案是每个叶子节点的层数的和（编码字符串中的单词长度） + 叶子节点数量（#数量）
+# 构造字典树，对于每个单词从从后往前处理。
+# 最后答案是每个叶子节点的层数的和（编码字符串中的单词长度） + 叶子节点数量（#数量）
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         class Node:
@@ -32,16 +32,16 @@ class Solution:
                 vis(c)
         vis(root)
         return ans[0]
-```
+# ```
 
 
-相关题目：
+# 相关题目：
 
-字典树的非递归构造方法： [Kick Start 2020 Round A 第四题 python 解法](https://codeplot.top/2020/03/22/Round-A-2020-Kick-Start-2020-python-%E7%89%88%E4%BB%A3%E7%A0%81/#Bundling)
-这个题因为层数很多，直接用递归方法导致栈溢出
+# 字典树的非递归构造方法： [Kick Start 2020 Round A 第四题 python 解法](https://codeplot.top/2020/03/22/Round-A-2020-Kick-Start-2020-python-%E7%89%88%E4%BB%A3%E7%A0%81/#Bundling)
+# 这个题因为层数很多，直接用递归方法导致栈溢出
 
 
 
-[我的博客](https://codeplot.top/)
+# [我的博客](https://codeplot.top/)
 
-[博客刷题分类](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)
+# [博客刷题分类](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)

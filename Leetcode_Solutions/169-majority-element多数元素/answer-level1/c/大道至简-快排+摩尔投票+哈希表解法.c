@@ -1,5 +1,5 @@
-//快排
-```
+// //快排
+// ```
 int cmp (const void * a, const void * b)
 {
    return ( *(int*)a - *(int*)b );
@@ -33,9 +33,9 @@ for(int i=0;i<numsSize;i++)
 return res;
 }
 
-```
-//摩尔投票法
-```
+// ```
+// //摩尔投票法
+// ```
 int majorityElement(int* nums, int numsSize){
     int flag=nums[0];
     int count=0;
@@ -55,9 +55,9 @@ int majorityElement(int* nums, int numsSize){
     }
     return flag;
 }
-```
-//哈希
-```
+// ```
+// //哈希
+// ```
 struct node {
     int val;
     int num;
@@ -105,4 +105,4 @@ int majorityElement(int* nums, int numsSize){
 
     return val;
 }
-```
+// ```

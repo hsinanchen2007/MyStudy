@@ -1,8 +1,8 @@
-我用的两个map实现，一个hashMap实现playerId到score的映射，一个TreeMap实现score到playerId列表的映射，
-addScore的时候同时更新这两个map，取top(k)的时候直接从treeMap里面取，treeMap按照score从大到小排序，
-这样可以实现o(n)的复杂度。
-代码如下:
-```
+// 我用的两个map实现，一个hashMap实现playerId到score的映射，一个TreeMap实现score到playerId列表的映射，
+// addScore的时候同时更新这两个map，取top(k)的时候直接从treeMap里面取，treeMap按照score从大到小排序，
+// 这样可以实现o(n)的复杂度。
+// 代码如下:
+// ```
 class Leaderboard {
 
     Map<Integer, List<Integer>> scoreMap;
@@ -74,4 +74,4 @@ class MyComparator implements Comparator<Integer> {
         return i2 - i1;
     }
 }
-```
+// ```

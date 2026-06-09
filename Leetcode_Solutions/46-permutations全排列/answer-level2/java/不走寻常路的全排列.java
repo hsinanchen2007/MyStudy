@@ -1,9 +1,9 @@
-因为是不重复的，所以用了这个方法。结果：运行时间1ms。
+// 因为是不重复的，所以用了这个方法。结果：运行时间1ms。
 
-全排列II用这个思路做了一些剪枝，但由于思路的局限性，效果不是很好，最后还是要去重。
+// 全排列II用这个思路做了一些剪枝，但由于思路的局限性，效果不是很好，最后还是要去重。
 
-思路：遍历添加元素到一个list中。list为空时，直接add();list不为空时，添加一个元素，有list.size()个位置可以选择，然后遍历都选一遍插进去，再利用递归和回溯，直到所有元素都放到list中，ok，一个排列结果出来了。
-```
+// 思路：遍历添加元素到一个list中。list为空时，直接add();list不为空时，添加一个元素，有list.size()个位置可以选择，然后遍历都选一遍插进去，再利用递归和回溯，直到所有元素都放到list中，ok，一个排列结果出来了。
+// ```
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> results = new ArrayList<List<Integer>>();
         List<Integer> result = new ArrayList<Integer>();
@@ -44,4 +44,4 @@
            }
         }   
     }
-```
+// ```

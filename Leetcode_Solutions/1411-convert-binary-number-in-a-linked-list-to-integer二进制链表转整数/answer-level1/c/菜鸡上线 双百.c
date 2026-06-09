@@ -1,9 +1,9 @@
-### 解题思路
-反转链表然后位运算
+// ### 解题思路
+// 反转链表然后位运算
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ int getDecimalValue(struct ListNode* head)
     }
     return sum;
 }
-```
+// ```

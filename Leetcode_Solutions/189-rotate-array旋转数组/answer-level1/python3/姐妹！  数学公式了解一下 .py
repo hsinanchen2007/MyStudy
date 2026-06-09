@@ -1,7 +1,7 @@
 
 
 
-```python []
+# ```python []
 
 def rotate(nums,k):
     ne_nums=[0]*len(nums)
@@ -10,10 +10,10 @@ def rotate(nums,k):
         ne_nums[ne_i]=nums[i]
     return ne_nums
 print(rotate([1,2,3,4,5,6,7],3))
-```
-```ruby []
+# ```
+# ```ruby []
 puts 'Hello world!'
-```
+# ```
 
-简单易懂，不需托马斯全旋翻转~
-但是我也会去了解一下的！@
+# 简单易懂，不需托马斯全旋翻转~
+# 但是我也会去了解一下的！@

@@ -1,6 +1,6 @@
-### 解题思路
-1.暴力求解
-```C++ []
+// ### 解题思路
+// 1.暴力求解
+// ```C++ []
 class Solution {
     bool check(string t,string s){
         int lenx = (int)s.length() / (int)t.length();
@@ -22,8 +22,8 @@ public:
         return "";
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def check (self, str_t, str_s):
         x = len(str_s)//len(str_t)
@@ -37,10 +37,10 @@ class Solution:
                 if self.check(str1[:i], str1) and self.check(str1[:i], str2):
                     return str1[:i]
         return ''
-```
-2.辗转相除法
-新知识：求最大公约数的方法gcd
-```C++ []
+// ```
+// 2.辗转相除法
+// 新知识：求最大公约数的方法gcd
+// ```C++ []
 class Solution {
     bool check(string t,string s){
         int lenx = (int)s.length() / (int)t.length();
@@ -58,8 +58,8 @@ public:
         return "";
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def check (self, str_t, str_s):
         x = len(str_s)//len(str_t)
@@ -72,5 +72,5 @@ class Solution:
         if self.check(str1[:i], str1) and self.check(str1[:i], str2):
             return str1[:i]
         return ''
-```
+// ```
 

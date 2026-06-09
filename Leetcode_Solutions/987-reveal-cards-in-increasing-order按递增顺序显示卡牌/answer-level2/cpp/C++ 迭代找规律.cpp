@@ -1,5 +1,5 @@
-在剩余的空位中找到第二个空位放下一个较大的数即可
-```
+// 在剩余的空位中找到第二个空位放下一个较大的数即可
+// ```
 class Solution {
 public:
     vector<int> deckRevealedIncreasing(vector<int>& deck) {
@@ -21,5 +21,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/cd012269df6631a3939e5d01762dddae9183fe17a5a1a46131b8c3a1f6711a47-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/cd012269df6631a3939e5d01762dddae9183fe17a5a1a46131b8c3a1f6711a47-image.png)

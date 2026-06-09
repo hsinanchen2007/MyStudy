@@ -1,4 +1,4 @@
-``` c []
+// ``` c []
 
 typedef struct tagLRUCache {
     int key;
@@ -195,4 +195,4 @@ void lRUCacheFree(LRUCache* obj) {
 
 * lRUCacheFree(obj);
 */
-```
+// ```

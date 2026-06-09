@@ -1,6 +1,6 @@
-![截屏2020-03-2114.59.03.png](https://pic.leetcode-cn.com/6d5f2cb3f3b9ed450deb2a556e7982a966ca161db623bd08c6de39cba7f184d0-%E6%88%AA%E5%B1%8F2020-03-2114.59.03.png)
+// ![截屏2020-03-2114.59.03.png](https://pic.leetcode-cn.com/6d5f2cb3f3b9ed450deb2a556e7982a966ca161db623bd08c6de39cba7f184d0-%E6%88%AA%E5%B1%8F2020-03-2114.59.03.png)
 
-从空集合逐步扩张
+// 从空集合逐步扩张
 {}
 {}, 1
 {}, 1, 2, 12

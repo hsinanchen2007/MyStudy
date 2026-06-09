@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-简单粗暴的方法：
-将三行字母放在 字符串数组中，并用两个标志位来表示每个单词首字母在哪一行以及当前遍历的字母在哪一行，如果两个标志位不相等，则跳过这个单词遍历下一个单词，若所有字母 都在一行上，就把 该单词添加进结果数组。
+// 简单粗暴的方法：
+// 将三行字母放在 字符串数组中，并用两个标志位来表示每个单词首字母在哪一行以及当前遍历的字母在哪一行，如果两个标志位不相等，则跳过这个单词遍历下一个单词，若所有字母 都在一行上，就把 该单词添加进结果数组。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findWords(words []string) []string {
 	str := []string{"qwertyuiopQWERTYUIOP","asdfghjklASDFGHJKL","zxcvbnmZXCVBNM"}
 	res := []string{}
@@ -42,4 +42,4 @@ func findWords(words []string) []string {
 	}
 	return res
 }
-```
+// ```

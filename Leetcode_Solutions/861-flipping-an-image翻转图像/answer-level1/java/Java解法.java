@@ -1,10 +1,10 @@
-### 解题思路
-对矩阵的每一行进行双向遍历。
-遍历的当前行左右两端元素相同则取反，相异则不需做修改。
+// ### 解题思路
+// 对矩阵的每一行进行双向遍历。
+// 遍历的当前行左右两端元素相同则取反，相异则不需做修改。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] flipAndInvertImage(int[][] A) {
         for (int i = 0; i < A.length; i++) {
@@ -25,4 +25,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

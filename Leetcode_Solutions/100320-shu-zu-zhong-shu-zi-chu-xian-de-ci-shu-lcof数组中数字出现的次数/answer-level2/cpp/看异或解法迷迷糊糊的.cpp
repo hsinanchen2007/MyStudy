@@ -1,9 +1,9 @@
-### 解题思路
-不太好理解，先记着好了
+// ### 解题思路
+// 不太好理解，先记着好了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> singleNumbers(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         return {a, b};
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * toGoatLatin(char * S){
     char* result=(char*)malloc(sizeof(char)*10000);
     char temp[1000];
@@ -35,4 +35,4 @@ char * toGoatLatin(char * S){
     result[position-1]='\0';
     return result;
 }
-```
+// ```

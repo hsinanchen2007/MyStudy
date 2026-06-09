@@ -1,4 +1,4 @@
-```
+// ```
 var canReorderDoubled = function (A) {
     var cntMap = new Map()
     for (var i = 0; i < A.length; i++) {
@@ -15,4 +15,4 @@ var canReorderDoubled = function (A) {
     }
     return true
 };
-```
+// ```

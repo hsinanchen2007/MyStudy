@@ -1,9 +1,9 @@
-### 解题思路
-先把people数组按k大小排序，相同k的值按h值大小排序。然后依次放入一个整数对，并插入对应位置。
+// ### 解题思路
+// 先把people数组按k大小排序，相同k的值按h值大小排序。然后依次放入一个整数对，并插入对应位置。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] reconstructQueue(int[][] people) {
         int[][] res = new int[people.length][2];
@@ -43,4 +43,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

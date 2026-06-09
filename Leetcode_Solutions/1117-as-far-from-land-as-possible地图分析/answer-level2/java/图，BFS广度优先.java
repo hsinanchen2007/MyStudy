@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxDistance(int[][] grid) {
         int[] dx = new int[]{0, 0, 1, -1};
@@ -42,4 +42,4 @@ class Solution {
         return grid[point[0]][point[1]] - 1;
     }
 }
-```
+// ```

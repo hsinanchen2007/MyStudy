@@ -1,5 +1,5 @@
-H最大就是数组长度，因此递减判断有没有H个大于H的论文就好了
-```java
+// H最大就是数组长度，因此递减判断有没有H个大于H的论文就好了
+// ```java
 class Solution {
     public int hIndex(int[] citations) {
         Arrays.sort(citations);
@@ -12,4 +12,4 @@ class Solution {
         return h;
     }
 }
-```
+// ```

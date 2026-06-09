@@ -1,7 +1,7 @@
-用空格进行分割，之后按规则构造新单词并插入返回值字符串中
+// 用空格进行分割，之后按规则构造新单词并插入返回值字符串中
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     string toGoatLatin(string S) {
@@ -29,4 +29,4 @@ public:
         return ans;
     }
 };
-```
+// ```

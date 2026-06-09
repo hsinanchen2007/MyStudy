@@ -1,4 +1,4 @@
-```from math import factorial
+# ```from math import factorial
 
 
 class Solution(object):
@@ -38,4 +38,4 @@ if __name__ == "__main__":
 
 
 # 代码块
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-C语言，使用三个指针记录，第一个用来获取链表的总长度，两个指针分别交换彼此的值
+// ### 解题思路
+// C语言，使用三个指针记录，第一个用来获取链表的总长度，两个指针分别交换彼此的值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ struct ListNode* reverseList(struct ListNode* head){
 }
 
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -16,4 +16,4 @@ var invertTree = function(root) {
     }
     return root;
 };
-```
+// ```

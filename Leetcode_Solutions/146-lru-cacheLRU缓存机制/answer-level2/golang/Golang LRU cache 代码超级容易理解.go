@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/dd1dc47d665f97a6890ece15360a10e4936ddc3f1f14e1be6cc0d840137f8205-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dd1dc47d665f97a6890ece15360a10e4936ddc3f1f14e1be6cc0d840137f8205-image.png)
 
-```
+// ```
 package leetcode
 
 /*
@@ -82,5 +82,5 @@ func (this *LRUCache) remove(node *Node) {
  */
 // @lc code=end
 
-```
+// ```
 

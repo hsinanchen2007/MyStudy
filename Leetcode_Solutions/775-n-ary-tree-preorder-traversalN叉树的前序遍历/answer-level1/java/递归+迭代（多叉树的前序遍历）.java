@@ -1,4 +1,4 @@
-	//1.递归
+// 	//1.递归
 	public List<Integer> preorder(Node root) {
 		List<Integer> list = new ArrayList<Integer>();
 		if (root == null) return list;	

@@ -1,6 +1,6 @@
 
-解题思路如题所示
-```java
+// 解题思路如题所示
+// ```java
 class Solution {}
     public int numOfMinutes(int n, int headID, int[] manager, int[] informTime) {
         int ans = 0;
@@ -23,4 +23,4 @@ class Solution {}
         return ans;
     }
 }
-```
+// ```

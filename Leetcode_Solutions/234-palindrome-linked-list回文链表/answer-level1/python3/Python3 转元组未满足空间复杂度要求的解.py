@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         target = []
@@ -6,4 +6,4 @@ class Solution:
             target.append(head.val)
             head=head.next    
         return target == target[::-1]
-```
+# ```

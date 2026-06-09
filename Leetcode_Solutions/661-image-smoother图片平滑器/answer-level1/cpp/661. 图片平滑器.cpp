@@ -1,5 +1,5 @@
-## 提前找好上下限
-```cpp
+// ## 提前找好上下限
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> imageSmoother(vector<vector<int>>& M) {
@@ -24,9 +24,9 @@ public:
         return ans;
     }
 };
-```
-## 边判断上下限边操作
-```cpp
+// ```
+// ## 边判断上下限边操作
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> imageSmoother(vector<vector<int>>& M) {
@@ -50,4 +50,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-## 动态规划
-状态转移方程：`dp[i][j] = max(dp[i-1][j], dp[i-1][(ModNum + j - nums[i] % ModNum) % ModNum] + nums[i])`
-1. `dp[i][j]`代表前`i`个数余数为`j`时最大和。
-2. 知道了`dp[i][j]`代表的状态意义之后，状态转移方程就好理解了。如果不将`nums[i]`加进来，`dp[i][j]`取值即为`dp[i-1][j]`；如果将`nums[i]`加进来，则`dp[i][j]`取值为`dp[i-1][nMutNum] + nums[i]`，其中`(nMutNum + nums[i]) % ModNum == j`，因此`nMutNum = ModNum + j - nums[i] % ModNum`，两者取最大值即为`dp[i][j]`的最优解。
-3. 比如，`num[i]`等于`5`时，那么它除以`ModNum(3)`的余数是`nMod(2)`，所以`dp[i][j(1)] = max(dp[i-1][j(1)], dp[i-1][nMutNum(2)] + nums[i])`。
-4. 由于状态转移方程中只用到了`dp[i]`和`dp[i-1]`，因此空间也可以优化到只使用`2 * ModNum`。
-```
+// ## 动态规划
+// 状态转移方程：`dp[i][j] = max(dp[i-1][j], dp[i-1][(ModNum + j - nums[i] % ModNum) % ModNum] + nums[i])`
+// 1. `dp[i][j]`代表前`i`个数余数为`j`时最大和。
+// 2. 知道了`dp[i][j]`代表的状态意义之后，状态转移方程就好理解了。如果不将`nums[i]`加进来，`dp[i][j]`取值即为`dp[i-1][j]`；如果将`nums[i]`加进来，则`dp[i][j]`取值为`dp[i-1][nMutNum] + nums[i]`，其中`(nMutNum + nums[i]) % ModNum == j`，因此`nMutNum = ModNum + j - nums[i] % ModNum`，两者取最大值即为`dp[i][j]`的最优解。
+// 3. 比如，`num[i]`等于`5`时，那么它除以`ModNum(3)`的余数是`nMod(2)`，所以`dp[i][j(1)] = max(dp[i-1][j(1)], dp[i-1][nMutNum(2)] + nums[i])`。
+// 4. 由于状态转移方程中只用到了`dp[i]`和`dp[i-1]`，因此空间也可以优化到只使用`2 * ModNum`。
+// ```
 class Solution {
 public:
 	int maxSumDivThree(vector<int>& nums) {
@@ -34,5 +34,5 @@ public:
 		return dpAns[0][0];
 	}
 };
-```
-我果真不适合写题解，写文章啊！
+// ```
+// 我果真不适合写题解，写文章啊！

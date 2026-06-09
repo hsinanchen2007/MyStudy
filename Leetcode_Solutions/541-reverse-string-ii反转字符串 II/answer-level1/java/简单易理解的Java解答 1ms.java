@@ -1,7 +1,7 @@
 
-话不多说，直接上代码！
+// 话不多说，直接上代码！
 
-```java
+// ```java
     public String reverseStr(String s, int k) {
       char[] chs = s.toCharArray();
       for (int i = 0, len = chs.length; i < len; i += 2 * k) {
@@ -17,4 +17,4 @@
         chs[end--] = temp;
       }
     }
-```
+// ```

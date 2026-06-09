@@ -1,9 +1,9 @@
-### 解题思路
-思路就是如果前序中某一元素的值与中序的某一元素值相同时，该值就是左右子树的划分点，最大的关注点在于左右子树中的节点的数量，向下递归子树的时候前序和中序数组的划分注意下就可以了，自认为代码足够短，也很好理解
+// ### 解题思路
+// 思路就是如果前序中某一元素的值与中序的某一元素值相同时，该值就是左右子树的划分点，最大的关注点在于左右子树中的节点的数量，向下递归子树的时候前序和中序数组的划分注意下就可以了，自认为代码足够短，也很好理解
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func build(preorder []int, inorder []int) *TreeNode {
 	if len(preorder) == 0 {
 		return nil
@@ -28,4 +28,4 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
 	return build(preorder, inorder)
 }
 
-```
+// ```

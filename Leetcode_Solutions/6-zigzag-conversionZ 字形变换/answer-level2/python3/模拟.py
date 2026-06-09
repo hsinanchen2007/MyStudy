@@ -1,4 +1,4 @@
-```py3
+# ```py3
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows == 1:
@@ -30,4 +30,4 @@ class Solution:
             ans += "".join(v)
 
         return ans
-```
+# ```

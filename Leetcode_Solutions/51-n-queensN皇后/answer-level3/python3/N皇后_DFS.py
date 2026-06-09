@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 ans = []
 y_valid, xy_sum_valid, xy_dif_valid = [True for _ in range(n)], [True for _ in range(2 * n - 1)], [True for _ in range(2 * n - 1)]  # state
 
@@ -16,6 +16,6 @@ def dfs(path: List[int]):
 
 dfs([])
 return ans
-```
+# ```
 
 

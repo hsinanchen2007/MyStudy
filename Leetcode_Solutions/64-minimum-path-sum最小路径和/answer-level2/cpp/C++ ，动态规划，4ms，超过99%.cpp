@@ -1,7 +1,7 @@
-直接在原数组上修改
+// 直接在原数组上修改
 
-![QQ图片20190728102827.png](https://pic.leetcode-cn.com/f401b98eed302b14fa3ec12a0b9fef87add96012591816d986405f4e6f2408c9-QQ%E5%9B%BE%E7%89%8720190728102827.png)
-```c++ []
+// ![QQ图片20190728102827.png](https://pic.leetcode-cn.com/f401b98eed302b14fa3ec12a0b9fef87add96012591816d986405f4e6f2408c9-QQ%E5%9B%BE%E7%89%8720190728102827.png)
+// ```c++ []
 class Solution {
 public:
     int minPathSum(vector<vector<int>>& grid) {
@@ -30,5 +30,5 @@ public:
         return grid[n-1][m-1];
     }
 };
-```
+// ```
 

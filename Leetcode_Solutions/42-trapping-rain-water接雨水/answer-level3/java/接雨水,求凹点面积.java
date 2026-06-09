@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/6e2e1dc8588830b5ad477510b4756865f699957dea7d864a21d0a82bd3e6821e-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/6e2e1dc8588830b5ad477510b4756865f699957dea7d864a21d0a82bd3e6821e-image.png)
 
-![image.png](https://pic.leetcode-cn.com/b18b45ac03c7babd12f1e2b858eb7ce1005f3e71a99a1d016e3a8b10097e1d4c-image.png)
-凹点必须有至少三个数组成每一个凹点的面积是(Math.min(height[j], height[i]) * (j - i - 1)) - (max * (j - i - 1)),其中i是左边界,j是右边界max是i到j之间中最大的值,这是每一个凹点的面积,全部累加得到最终结果
+// ![image.png](https://pic.leetcode-cn.com/b18b45ac03c7babd12f1e2b858eb7ce1005f3e71a99a1d016e3a8b10097e1d4c-image.png)
+// 凹点必须有至少三个数组成每一个凹点的面积是(Math.min(height[j], height[i]) * (j - i - 1)) - (max * (j - i - 1)),其中i是左边界,j是右边界max是i到j之间中最大的值,这是每一个凹点的面积,全部累加得到最终结果
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public  int trap(int[] height) {
         int result = 0;
@@ -47,4 +47,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

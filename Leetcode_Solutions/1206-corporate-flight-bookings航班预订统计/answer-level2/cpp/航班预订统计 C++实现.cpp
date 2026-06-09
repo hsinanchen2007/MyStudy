@@ -1,9 +1,9 @@
-暴力超时，原来有一个思路，线段树，嫌麻烦。最后发现还是有大神的，参考 
-https://leetcode-cn.com/problems/corporate-flight-bookings/solution/5118_hang-ban-yu-ding-tong-ji-by-user9081a/
+// 暴力超时，原来有一个思路，线段树，嫌麻烦。最后发现还是有大神的，参考 
+// https://leetcode-cn.com/problems/corporate-flight-bookings/solution/5118_hang-ban-yu-ding-tong-ji-by-user9081a/
 
-C++实现，差异点：多申请一个位置，减少一次判断。
+// C++实现，差异点：多申请一个位置，减少一次判断。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> corpFlightBookings(vector<vector<int>>& bookings, int n) {
@@ -15,4 +15,4 @@ public:
         return ret;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         length,sub_str = 0 ,''
@@ -11,4 +11,4 @@ class Solution:
                 repeat_char_index = sub_str.index(i)
                 sub_str = sub_str[repeat_char_index+1:] + i
         return length
-```
+# ```

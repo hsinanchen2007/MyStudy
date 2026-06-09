@@ -1,9 +1,9 @@
-### 解题思路
-首先实现两个空列表来装链表数据，再写个链表头插入方法
+# ### 解题思路
+# 首先实现两个空列表来装链表数据，再写个链表头插入方法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution:
 
 
 
-```
+# ```

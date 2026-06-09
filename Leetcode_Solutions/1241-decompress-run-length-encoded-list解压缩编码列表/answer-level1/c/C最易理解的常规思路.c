@@ -1,4 +1,4 @@
-```
+// ```
 int* decompressRLElist(int* nums, int numsSize, int* returnSize){
     int count = 0;
     //1.获得返回数组的长度
@@ -22,5 +22,5 @@ int* decompressRLElist(int* nums, int numsSize, int* returnSize){
 
     return res;
 }
-```
+// ```
 

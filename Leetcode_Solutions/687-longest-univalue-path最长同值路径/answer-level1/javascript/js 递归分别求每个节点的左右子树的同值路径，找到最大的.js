@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/c2ee987a8c668da9eac6f9d1dc2cbdd9d3f2ab9fc5fc058d708f126ebf5056dc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c2ee987a8c668da9eac6f9d1dc2cbdd9d3f2ab9fc5fc058d708f126ebf5056dc-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   1. 中序遍历二叉树的所有节点，求每个节点的左右子树连续起来的路径值，比较当前的 ans
   2. 对每个节点递归：从节点往两侧延伸，寻找同值路径的最大长度
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -48,4 +48,4 @@ var longestUnivaluePath = function(root) {
   
   return ans;
 };
-```
+// ```

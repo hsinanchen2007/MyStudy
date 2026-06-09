@@ -1,9 +1,9 @@
-### 解题思路
-以A和B中的最小值作为递归变量
+// ### 解题思路
+// 以A和B中的最小值作为递归变量
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} A
  * @param {number} B
@@ -15,4 +15,4 @@ var multiply = function(A, B) {
     if(tempMin === 1) return tempMax
     return tempMax + multiply(tempMin-1, tempMax)
 };
-```
+// ```

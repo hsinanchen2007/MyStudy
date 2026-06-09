@@ -1,9 +1,9 @@
-### 解题思路
-用数组保存填写的状态，在填写时，除非到最后一个空的时候return true，否则1-9依次尝试。
+// ### 解题思路
+// 用数组保存填写的状态，在填写时，除非到最后一个空的时候return true，否则1-9依次尝试。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findThreeIndex(int i, int j)
@@ -127,4 +127,4 @@ public:
         }
     }
 };
-```
+// ```

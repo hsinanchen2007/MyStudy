@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
     pub fn simplify_path(path: String) -> String {
 		let mut stack: Vec<String> = vec![];
@@ -19,4 +19,4 @@ impl Solution {
 		result
 	}
 }
-```
+// ```

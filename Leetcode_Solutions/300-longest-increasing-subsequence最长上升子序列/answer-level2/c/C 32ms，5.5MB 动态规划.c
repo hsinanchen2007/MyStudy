@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-码，动态规划
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 码，动态规划
+// ### 代码
 
-```c
+// ```c
 int lengthOfLIS(int* nums, int numsSize){
     int *dp = (int*)malloc(numsSize * sizeof(int));     // store the length
     int longest = 0;
@@ -17,4 +17,4 @@ int lengthOfLIS(int* nums, int numsSize){
     free(dp);
     return longest;
 }
-```
+// ```

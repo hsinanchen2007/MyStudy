@@ -1,9 +1,9 @@
-### 解题思路
-  * 读懂题目很重要，特别是值只有0，1两种结果，表示属于A或B
+// ### 解题思路
+//   * 读懂题目很重要，特别是值只有0，1两种结果，表示属于A或B
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxDepthAfterSplit(seq string) []int {
   var res []int
   level := 0
@@ -18,4 +18,4 @@ func maxDepthAfterSplit(seq string) []int {
   }
   return res
 }
-```
+// ```

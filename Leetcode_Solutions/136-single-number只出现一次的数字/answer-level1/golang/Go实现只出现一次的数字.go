@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func singleNumber(nums []int) int {
     eor := 0
     for i := 0;i<len(nums);i++{
@@ -8,4 +8,4 @@ func singleNumber(nums []int) int {
     }
     return eor
 }
-```
+// ```

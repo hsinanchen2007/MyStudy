@@ -1,8 +1,8 @@
-### 解题思路
-直接暴力，i、j遍历
-### 代码
+// ### 解题思路
+// 直接暴力，i、j遍历
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int a[]=new int[2];
@@ -17,4 +17,4 @@ class Solution {
         return a;
     }
 }
-```
+// ```

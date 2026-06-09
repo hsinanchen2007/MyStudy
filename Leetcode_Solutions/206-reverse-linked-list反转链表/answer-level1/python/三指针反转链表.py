@@ -1,10 +1,10 @@
-### 解题思路
-每个节点都指向其前一个节点，把最后一个节点作为头节点返回
-三个指针，一个当前指针cur，一个指向前一个节点的指针pre，一个指向后一个节点的指针next
+# ### 解题思路
+# 每个节点都指向其前一个节点，把最后一个节点作为头节点返回
+# 三个指针，一个当前指针cur，一个指向前一个节点的指针pre，一个指向后一个节点的指针next
 
-### 代码
-**c++**
-```c++
+# ### 代码
+# **c++**
+# ```c++
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,10 +29,10 @@ public:
         
     }
 };
-```
+# ```
 
-**python**
-```python
+# **python**
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -53,7 +53,7 @@ class Solution:
             cur = next_node
 
         return pre
-```
+# ```
 
 
 

@@ -1,8 +1,8 @@
-### 思路一：循环
+// ### 思路一：循环
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPowerOfThree(int n) {
@@ -15,9 +15,9 @@ public:
         return true;
     }
 };
-```
-### 简化代码
-```c++
+// ```
+// ### 简化代码
+// ```c++
 class Solution {
 public:
     bool isPowerOfThree(int n) {  
@@ -27,18 +27,18 @@ public:
         return n == 1;
     }
 };
-```
+// ```
 
 
-### 思路二：整数限制
-用整数范围内最大数 % n 看是否为0。
+// ### 思路二：整数限制
+// 用整数范围内最大数 % n 看是否为0。
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool isPowerOfThree(int n) {  
         return n > 0 && (1162261467 % n == 0);
     }
 };
-```
+// ```

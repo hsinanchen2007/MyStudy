@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -37,4 +37,4 @@ func helpIncreasingBST(root *TreeNode)[]int{
 	right:=helpIncreasingBST(root.Right)
 	return append(append(left,root.Val),right...)
 }
-```
+// ```

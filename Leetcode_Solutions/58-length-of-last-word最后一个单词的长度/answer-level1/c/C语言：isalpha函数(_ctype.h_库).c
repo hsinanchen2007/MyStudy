@@ -1,4 +1,4 @@
-```
+// ```
 int lengthOfLastWord(char * s){
     int i, flag = 0, len = 0;
     for (i = strlen(s) - 1; i >= 0; i--){
@@ -11,4 +11,4 @@ int lengthOfLastWord(char * s){
     }
     return len;
 }
-```
+// ```

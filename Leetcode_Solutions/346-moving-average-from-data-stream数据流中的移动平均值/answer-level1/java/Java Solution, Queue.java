@@ -1,4 +1,4 @@
-```
+// ```
 class MovingAverage {
 
     private Queue<Integer> q;
@@ -19,4 +19,4 @@ class MovingAverage {
         return (double) sum / q.size();
     }
 }
-```
+// ```

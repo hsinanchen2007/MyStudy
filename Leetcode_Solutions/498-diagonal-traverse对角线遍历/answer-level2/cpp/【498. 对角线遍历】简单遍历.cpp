@@ -1,7 +1,7 @@
-## 思路一：直接遍历
-**注意：两个特列，左下角和右上角，先判断大于等于越界范围，再判断小于0越界范围，**
-### 代码
-```c++
+// ## 思路一：直接遍历
+// **注意：两个特列，左下角和右上角，先判断大于等于越界范围，再判断小于0越界范围，**
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<int> findDiagonalOrder(vector<vector<int>>& matrix) {
@@ -21,9 +21,9 @@ public:
         return res;      
     }
 };
-```
-#### 另一种写法
-```c++
+// ```
+// #### 另一种写法
+// ```c++
 class Solution {
 public:
     vector<int> findDiagonalOrder(vector<vector<int>>& matrix) {
@@ -53,5 +53,5 @@ public:
         return res;      
     }
 };
-```
+// ```
 

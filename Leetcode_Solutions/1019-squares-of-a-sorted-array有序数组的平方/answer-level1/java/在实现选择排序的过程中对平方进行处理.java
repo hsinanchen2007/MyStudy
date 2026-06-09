@@ -1,5 +1,5 @@
-挺慢的
-```
+// 挺慢的
+// ```
 class Solution {
     public int[] sortedSquares(int[] A) {
         if(A == null || A.length < 1) return A;
@@ -22,4 +22,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

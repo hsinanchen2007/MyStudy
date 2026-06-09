@@ -1,10 +1,10 @@
-### 解题思路
-每一位都比一下，大的放后面，小的放前面
-![批注 2020-04-09 143301.png](https://pic.leetcode-cn.com/d0b80707366af39d2081b2d24deaac88d743e8aef397fc62560bab28d63d81bd-%E6%89%B9%E6%B3%A8%202020-04-09%20143301.png)
-又快又小
-### 代码
+// ### 解题思路
+// 每一位都比一下，大的放后面，小的放前面
+// ![批注 2020-04-09 143301.png](https://pic.leetcode-cn.com/d0b80707366af39d2081b2d24deaac88d743e8aef397fc62560bab28d63d81bd-%E6%89%B9%E6%B3%A8%202020-04-09%20143301.png)
+// 又快又小
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -29,4 +29,4 @@ public:
         return;
     }
 };
-```
+// ```

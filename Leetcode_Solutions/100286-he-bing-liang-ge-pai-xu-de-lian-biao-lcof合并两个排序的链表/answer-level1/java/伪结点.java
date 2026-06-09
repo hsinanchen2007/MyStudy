@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-主要思路就是要用到伪结点，和谁小谁做下一个节点。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 主要思路就是要用到伪结点，和谁小谁做下一个节点。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return q.next;
     }
 }
-```
+// ```

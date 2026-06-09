@@ -1,5 +1,5 @@
 
-```
+// ```
 bool isMonotonic(int* A, int ASize){
     if (ASize <= 2)                                                         return true;
     int i = 0;
@@ -10,4 +10,4 @@ bool isMonotonic(int* A, int ASize){
 
     return true;
 }
-```
+// ```

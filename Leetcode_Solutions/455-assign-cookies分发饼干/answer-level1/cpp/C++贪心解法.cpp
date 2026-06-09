@@ -1,5 +1,5 @@
-先排序两个数组，然后再利用双指针，简单易懂
-```
+// 先排序两个数组，然后再利用双指针，简单易懂
+// ```
 int findContentChildren(vector<int>& g, vector<int>& s) {
         sort(g.begin(),g.end());
         sort(s.begin(),s.end());
@@ -20,4 +20,4 @@ int findContentChildren(vector<int>& g, vector<int>& s) {
         }
         return ans;
     }
-```
+// ```

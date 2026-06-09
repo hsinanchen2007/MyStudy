@@ -1,6 +1,6 @@
 
 
-```python
+# ```python
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         wordDict = dict(zip(wordDict, range(len(wordDict))))
@@ -46,4 +46,4 @@ class Solution:
                 return True
         memo[start] = False
         return False
-```
+# ```

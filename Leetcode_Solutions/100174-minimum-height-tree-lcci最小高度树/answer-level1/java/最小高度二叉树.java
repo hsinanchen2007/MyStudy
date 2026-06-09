@@ -1,9 +1,9 @@
-### 解题思路
-树本身就是一个递归结构，所以在利用树的时候要充分利用递归结构。
+// ### 解题思路
+// 树本身就是一个递归结构，所以在利用树的时候要充分利用递归结构。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -26,4 +26,4 @@ class Solution {
 
     }
 }
-```
+// ```

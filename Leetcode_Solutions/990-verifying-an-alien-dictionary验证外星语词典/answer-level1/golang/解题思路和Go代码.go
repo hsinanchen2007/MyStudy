@@ -1,9 +1,9 @@
-### 解题思路
-1. 构造字典集
-2. 比较 words[n-1] <= words[n]，1 <= n < len(words)，如果为false，则返回false
+// ### 解题思路
+// 1. 构造字典集
+// 2. 比较 words[n-1] <= words[n]，1 <= n < len(words)，如果为false，则返回false
 
-### 代码
-```golang
+// ### 代码
+// ```golang
 func isAlienSorted(words []string, order string) bool {
     orderM := make(map[byte]int)
 
@@ -26,4 +26,4 @@ func wordsComp(words1, words2 string, orderM map[byte]int) bool {
     }
     return len(words1) <= len(words2)
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-如果在某个线段加入后路径变为交叉的，那么新加入的线段必然和在它之前加入的5条线段相交
+// ### 解题思路
+// 如果在某个线段加入后路径变为交叉的，那么新加入的线段必然和在它之前加入的5条线段相交
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isSelfCrossing(int* x, int xSize){
     int pres[5] = { 0 };
     int presSize = 0;
@@ -17,4 +17,4 @@ bool isSelfCrossing(int* x, int xSize){
     }
     return false;
 }
-```
+// ```

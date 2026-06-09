@@ -1,10 +1,10 @@
-### 解题思路
-![QQ截图20200309203925.png](https://pic.leetcode-cn.com/01f5cd314891f8bc6740d986289b2850319c0671f8882b683f0163c3c4fb8bf6-QQ%E6%88%AA%E5%9B%BE20200309203925.png)
+// ### 解题思路
+// ![QQ截图20200309203925.png](https://pic.leetcode-cn.com/01f5cd314891f8bc6740d986289b2850319c0671f8882b683f0163c3c4fb8bf6-QQ%E6%88%AA%E5%9B%BE20200309203925.png)
 
-没少好说的，m(i)=max{m(i-1),第i天的价格-前i-1天的最小价格}
-### 代码
+// 没少好说的，m(i)=max{m(i-1),第i天的价格-前i-1天的最小价格}
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
           if(prices.length<2){
@@ -33,4 +33,4 @@ class Solution {
 
     }
 }
-```
+// ```

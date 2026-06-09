@@ -1,9 +1,9 @@
-### 解题思路
-两种解法，第一种是利用sort（）和find（）函数，借鉴了题解中的大神思路；第二种是sort（）排序加双指针，用时更短
+# ### 解题思路
+# 两种解法，第一种是利用sort（）和find（）函数，借鉴了题解中的大神思路；第二种是sort（）排序加双指针，用时更短
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findLongestWord(self, s: str, d: List[str]) -> str:
         
@@ -56,4 +56,4 @@ class Solution:
 
             
 
-```
+# ```

@@ -1,17 +1,17 @@
 
 
    
-### 选择算法，尝试过计数排序，选择桶排序
+// ### 选择算法，尝试过计数排序，选择桶排序
 
-#### 牺牲空间获取时间
+// #### 牺牲空间获取时间
 
-```bash
+// ```bash
 执行结果：通过
 执行用时 :100 ms, 在所有 JavaScript 提交中击败了98.39% 的用户
 内存消耗 :41.2 MB, 在所有 JavaScript 提交中击败了5.48%的用户
-```
+// ```
 
-```bash
+// ```bash
 
 function bucketSort(arr,bucketNum){
   if(arr.length === 0){
@@ -56,5 +56,5 @@ var maximumGap = function(nums) {
   }
   return max
 };
-```
+// ```
 

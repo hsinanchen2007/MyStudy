@@ -1,11 +1,11 @@
-### 解题思路
-下一层的数组由上一层的数组构成，index满足条件的时候相加，不满足直接设为1
-![image.png](https://pic.leetcode-cn.com/8774fe4b96b141965cfaccfb2b4aff255682dc14b72acdcde61ccde60018fc4b-image.png)
+// ### 解题思路
+// 下一层的数组由上一层的数组构成，index满足条件的时候相加，不满足直接设为1
+// ![image.png](https://pic.leetcode-cn.com/8774fe4b96b141965cfaccfb2b4aff255682dc14b72acdcde61ccde60018fc4b-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> generate(int numRows) {
       List<List<Integer>> result = new ArrayList<>();
@@ -33,4 +33,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-1. BST的中序遍历是升序序列
-```golang
+// 1. BST的中序遍历是升序序列
+// ```golang
 func isValidBST(root *TreeNode) bool {
 	val := -1 << (8*unsafe.Sizeof(1) - 1)
 	cur := root
@@ -33,10 +33,10 @@ func isValidBST(root *TreeNode) bool {
 	}
 	return true
 }
-```
+// ```
 
-2. 直接根据BST的定义递归判断
-```golang
+// 2. 直接根据BST的定义递归判断
+// ```golang
 func isValidBST(root *TreeNode) bool {
 	min := -1 << (8*unsafe.Sizeof(1) - 1)
 	max := 1<<(8*unsafe.Sizeof(1)-1) - 1
@@ -63,4 +63,4 @@ func _isValidBST(root *TreeNode, min, max int) bool {
 	return _isValidBST(root.Right, v, max) && _isValidBST(root.Left, min, v)
 }
 
-```
+// ```

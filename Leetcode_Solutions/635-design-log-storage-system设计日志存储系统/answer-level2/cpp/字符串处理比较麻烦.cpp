@@ -1,9 +1,9 @@
-### 解题思路
-主要是把时间戳转成数字，放到map中，自动排序
+// ### 解题思路
+// 主要是把时间戳转成数字，放到map中，自动排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class LogSystem {
 public:
     LogSystem() {
@@ -86,4 +86,4 @@ private:
  * obj->put(id,timestamp);
  * vector<int> param_2 = obj->retrieve(s,e,gra);
  */
-```
+// ```

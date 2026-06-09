@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         import itertools 
@@ -7,4 +7,4 @@ class Solution:
             for item in itertools.combinations(nums, i):
                 res.append(list(item))
         return res
-```
+# ```

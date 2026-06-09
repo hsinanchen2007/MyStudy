@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def shortestCompletingWord(self, licensePlate: str, words: List[str]) -> str:
         li=[i.lower() for i in licensePlate if i.isalpha()]
@@ -13,4 +13,4 @@ class Solution:
                     ans=word
 
         return ans
-```
+# ```

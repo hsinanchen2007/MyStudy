@@ -1,9 +1,9 @@
-### 解题思路
-代码中已写，最直接的方法
+// ### 解题思路
+// 代码中已写，最直接的方法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         //如果输入的字符串数组中没有元素时
@@ -38,4 +38,4 @@ class Solution {
         return ss;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-c 代码解法
-```c
+// ### 代码
+// c 代码解法
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -28,9 +28,9 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes){
     }
     return res;
 }
-```
-python解法1
-```
+// ```
+// python解法1
+// ```
 class Solution:
     def generate(self, numRows) :
         """
@@ -64,9 +64,9 @@ class Solution:
                     sTriangle[i].append(temp)
         return sTriangle
 
-```
-python 解法2
-```
+// ```
+// python 解法2
+// ```
 def generate2(self, numRows) :
         """
         input: numRows: int
@@ -105,4 +105,4 @@ def generate2(self, numRows) :
             genTri(i)
         genTri(row0)
         return sTriangle
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int nthUglyNumber(int n) {
@@ -38,4 +38,4 @@ public:
         return vec[n-1];
     }
 };
-```
+// ```

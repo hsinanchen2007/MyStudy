@@ -1,15 +1,15 @@
-### 解题思路
-1
-vector<vector<int>>v
-for(auto i:v )sort(i.begin(),i.end());//无法影响到v
-for(auto &i:v)sort(i.begin(),i.end());
+// ### 解题思路
+// 1
+// vector<vector<int>>v
+// for(auto i:v )sort(i.begin(),i.end());//无法影响到v
+// for(auto &i:v)sort(i.begin(),i.end());
 
-2.vector和list的区别相当于数组和链表
+// 2.vector和list的区别相当于数组和链表
 
-3.由于需要找的path需要字典序最小，那么我们就在每次找邻接点的时候都先找字典序最小的那个结点，而不是全部遍历一遍，这样找到的第一条成功的路径就是最佳的。如果选最小的那个结点走不通，那么就继续选第二小的。这要求我们在dfs之前对每个结点的直连结点list进行排序。
-### 代码
+// 3.由于需要找的path需要字典序最小，那么我们就在每次找邻接点的时候都先找字典序最小的那个结点，而不是全部遍历一遍，这样找到的第一条成功的路径就是最佳的。如果选最小的那个结点走不通，那么就继续选第二小的。这要求我们在dfs之前对每个结点的直连结点list进行排序。
+// ### 代码
 
-```cpp
+// ```cpp
 
 class Solution {
 public:
@@ -51,4 +51,4 @@ public:
         return finalPath;
     }
 };
-```
+// ```

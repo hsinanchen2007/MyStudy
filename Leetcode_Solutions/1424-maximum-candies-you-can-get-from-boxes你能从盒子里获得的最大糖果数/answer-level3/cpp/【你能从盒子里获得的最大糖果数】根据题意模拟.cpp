@@ -1,16 +1,16 @@
-### 思路
-1. 按照题意模拟即可。
-2. 使用`vector<int> haveStatus(status.size(), 0);`表示已经拿到手的盒子。
-3. 使用`vector<int> keyStatus(status.size(), 0);`表示已经取得的钥匙。
-4. 然后就从拿到手的盒子遍历，判断是否打开的，或者有钥匙。
-    41. 如果能打开，执行打开操作。
-    42. 拿糖果
-    43. 拿盒子
-    44. 拿钥匙
-5. 一直到没有盒子可以打开为止。
+// ### 思路
+// 1. 按照题意模拟即可。
+// 2. 使用`vector<int> haveStatus(status.size(), 0);`表示已经拿到手的盒子。
+// 3. 使用`vector<int> keyStatus(status.size(), 0);`表示已经取得的钥匙。
+// 4. 然后就从拿到手的盒子遍历，判断是否打开的，或者有钥匙。
+//     41. 如果能打开，执行打开操作。
+//     42. 拿糖果
+//     43. 拿盒子
+//     44. 拿钥匙
+// 5. 一直到没有盒子可以打开为止。
 
-### 答题
-```C++
+// ### 答题
+// ```C++
 vector<int> getHaveBoxes(vector<int>& haveStatus)
 {
 	vector<int> ret;
@@ -61,12 +61,12 @@ int maxCandies(vector<int>& status, vector<int>& candies, vector<vector<int>>& k
 	}
 	return ans;
 }
-```
+// ```
 
 
 
-### 致谢
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// ### 致谢
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * defangIPaddr(char * address){
     int i=0,j=0,addresslength,sign[4],num,m=0;
     char c[22],temp;
@@ -39,4 +39,4 @@ char * defangIPaddr(char * address){
     }
     return a;
 }
-```如果您能看完那真是牛皮
+// ```如果您能看完那真是牛皮

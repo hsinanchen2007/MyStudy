@@ -1,9 +1,9 @@
-### 解题思路
-先算单柱子并累加，再减去侧面重叠
+# ### 解题思路
+# 先算单柱子并累加，再减去侧面重叠
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         acc = 0
@@ -15,4 +15,4 @@ class Solution:
                 if col:
                     acc -= 2 * min(val,grid[row][col-1])
         return acc
-```
+# ```

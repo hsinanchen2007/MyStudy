@@ -1,4 +1,4 @@
-```
+// ```
 vector<string>re;
 void dfs(int n,int l,int r,string s) {
     if(r == n){
@@ -17,4 +17,4 @@ vector<string> generateParenthesis(int n) {
     dfs(n,0,0,s);
     return re;
 }
-```
+// ```

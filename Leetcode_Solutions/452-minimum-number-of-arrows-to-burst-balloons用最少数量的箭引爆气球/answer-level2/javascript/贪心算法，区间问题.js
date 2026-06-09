@@ -1,9 +1,9 @@
-### 解题思路
-想到用贪心算法也想到区间了，但是没有想到取起始点或者终点作为判断依据。
+// ### 解题思路
+// 想到用贪心算法也想到区间了，但是没有想到取起始点或者终点作为判断依据。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} points
  * @return {number}
@@ -21,4 +21,4 @@ var findMinArrowShots = function(points) {
     }
     return arrows;
 };
-```
+// ```

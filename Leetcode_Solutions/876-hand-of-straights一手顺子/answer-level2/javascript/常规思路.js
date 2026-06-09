@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} hand
  * @param {number} W
@@ -27,4 +27,4 @@ var isNStraightHand = function(hand, W) {
     }
     return true
 };
-```
+// ```

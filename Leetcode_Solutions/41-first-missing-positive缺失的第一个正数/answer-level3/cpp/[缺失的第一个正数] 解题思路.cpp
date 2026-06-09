@@ -1,10 +1,10 @@
-### 解题思路
-大致思路是将nums[i]和i建立联系，最后找到nums[i]不等于i的那一项就好了。
-有些特殊情况需要处理。
+// ### 解题思路
+// 大致思路是将nums[i]和i建立联系，最后找到nums[i]不等于i的那一项就好了。
+// 有些特殊情况需要处理。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int firstMissingPositive(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
         return nums[0] == nums.size() ? nums.size() + 1 : nums.size();
     }
 };
-```
+// ```

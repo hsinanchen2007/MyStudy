@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isBalanced(self, root):
         """
@@ -19,4 +19,4 @@ class Solution(object):
             return True, max(l[1], r[1])+1
         return check(root)[0]
 
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
-https://leetcode-cn.com/problems/minimum-window-substring/solution/hua-dong-chuang-kou-suan-fa-tong-yong-si-xiang-by-/
+// ### 解题思路
+// https://leetcode-cn.com/problems/minimum-window-substring/solution/hua-dong-chuang-kou-suan-fa-tong-yong-si-xiang-by-/
 
-写的非常好，参考题解写出来的
-特别是如何满足条件，有些小细节还是很难想到的
+// 写的非常好，参考题解写出来的
+// 特别是如何满足条件，有些小细节还是很难想到的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string minWindow(string s, string t) {
@@ -49,4 +49,4 @@ public:
       return minLenght == INT_MAX ? "" : s.substr(start, minLenght);
     }
 };
-```
+// ```

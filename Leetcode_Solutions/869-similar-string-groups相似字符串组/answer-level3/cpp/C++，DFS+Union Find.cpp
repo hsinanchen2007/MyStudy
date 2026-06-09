@@ -1,5 +1,5 @@
-#### 解法一：DFS
-```
+// #### 解法一：DFS
+// ```
 const int maxn=1e4+10;
 class Solution {
 public:
@@ -42,9 +42,9 @@ public:
         return cnt;
     }
 };
-```
-#### 解法二：Union Find
-```
+// ```
+// #### 解法二：Union Find
+// ```
 const int maxn=1e4+10;
 class Solution {
 public:
@@ -83,4 +83,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

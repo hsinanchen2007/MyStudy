@@ -1,9 +1,9 @@
-### 解题思路
-贪心策略：按end排序后每次比较当前区间起始值是否大于等于前一区间的end值即可
+# ### 解题思路
+# 贪心策略：按end排序后每次比较当前区间起始值是否大于等于前一区间的end值即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def eraseOverlapIntervals(self, intervals):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             
                 
 
-```
+# ```

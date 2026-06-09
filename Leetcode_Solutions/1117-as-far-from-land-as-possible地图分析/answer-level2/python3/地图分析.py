@@ -1,9 +1,9 @@
-### 解题思路
-学习广度搜索
+# ### 解题思路
+# 学习广度搜索
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         # 作者：guliqianxun
@@ -34,4 +34,4 @@ class Solution:
                                 
         return stage  
 
-```
+# ```

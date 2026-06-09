@@ -1,4 +1,4 @@
-```
+// ```
 class LRUCache {
     LinkedHashMap<Integer,Integer> map;
     public LRUCache(int capacity) {
@@ -26,4 +26,4 @@ class LRUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

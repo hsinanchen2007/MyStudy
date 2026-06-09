@@ -1,7 +1,7 @@
-## 思路一：排序
-排序后判断是否相等。
-### 代码
-```c++
+// ## 思路一：排序
+// 排序后判断是否相等。
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -13,11 +13,11 @@ public:
         return s == t;
     }
 };
-```
+// ```
 
-## 思路二：哈希表（最优解）
-### 代码
-```c++
+// ## 思路二：哈希表（最优解）
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -38,10 +38,10 @@ public:
         return true;
     }
 };
-```
+// ```
 
-#### 另一种写法
-```c++
+// #### 另一种写法
+// ```c++
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -61,10 +61,10 @@ public:
         return true;
     }
 };
-```
+// ```
 
-#### vector模拟哈希
-```c++
+// #### vector模拟哈希
+// ```c++
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -85,7 +85,7 @@ public:
         return true;
     }
 };
-```
+// ```
 
 
 

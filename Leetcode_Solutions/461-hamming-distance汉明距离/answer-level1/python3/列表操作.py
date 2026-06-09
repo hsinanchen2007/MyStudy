@@ -1,8 +1,8 @@
->执行用时 :28 ms, 在所有 python3 提交中击败了98.93%的用户
-内存消耗 :12.7 MB, 在所有 python3 提交中击败了99.45%的用户
--------
+# >执行用时 :28 ms, 在所有 python3 提交中击败了98.93%的用户
+# 内存消耗 :12.7 MB, 在所有 python3 提交中击败了99.45%的用户
+# -------
 
-```python
+# ```python
 class Solution:
     def hammingDistance(self, x: int, y: int) -> int:
         num = 0
@@ -15,4 +15,4 @@ class Solution:
             if xii != yii:
                 num += 1 
         return num
-```
+# ```

@@ -1,12 +1,12 @@
 
 
-两步法-1 找到岛屿的一个点
-      2 标记这个点周围的点为已经访问过，避免重复计数
+// 两步法-1 找到岛屿的一个点
+//       2 标记这个点周围的点为已经访问过，避免重复计数
 
 
 
 
-```java []
+// ```java []
         public static int numIslands(char[][] grid) {
         boolean[][] visited = new boolean[grid.length][grid[0].length];
        // System.out.print(visited[0][0]);
@@ -50,5 +50,5 @@
 
 return;
     }
-```
+// ```
 

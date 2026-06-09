@@ -1,20 +1,20 @@
-## 思路：
+# ## 思路：
 
-动态规划
+# 动态规划
 
-思路一：自顶向下
+# 思路一：自顶向下
 
-思路二：自底向上
+# 思路二：自底向上
 
-动态方程：`dp[i] = max(dp[i - 1], dp[i - 2] + nums[i - 1])`
+# 动态方程：`dp[i] = max(dp[i - 1], dp[i - 2] + nums[i - 1])`
 
-大家有不清楚的地方，欢迎留言！
+# 大家有不清楚的地方，欢迎留言！
 
-## 代码：
+# ## 代码：
 
-思路一：
+# 思路一：
 
-```python
+# ```python
 class Solution:
     def rob(self, nums: List[int]) -> int:
         import functools 
@@ -24,11 +24,11 @@ class Solution:
             if i >= n: return 0
             return max(helper(i + 1), nums[i] + helper(i + 2))
         return helper(0)
-```
+# ```
 
-思路二：
+# 思路二：
 
-```python
+# ```python
 class Solution:
     def rob(self, nums: List[int]) -> int:
         n = len(nums)
@@ -39,5 +39,5 @@ class Solution:
             dp[i] = max(dp[i - 1], dp[i - 2] + nums[i - 1])
         return dp[-1]
         
-```
+# ```
 

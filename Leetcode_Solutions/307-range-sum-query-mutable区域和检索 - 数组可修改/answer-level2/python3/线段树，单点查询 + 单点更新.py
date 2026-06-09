@@ -1,7 +1,7 @@
-关于线段树基础知识可查看我的公众号 [线段树基础与 RMQ 问题](https://mp.weixin.qq.com/s/Wc4RCXlxe1a3RDwg_WzOyg)。
-这题要注意的是，不是一颗标准的完全二叉树，所有数组空间开大一点就好了。
+# 关于线段树基础知识可查看我的公众号 [线段树基础与 RMQ 问题](https://mp.weixin.qq.com/s/Wc4RCXlxe1a3RDwg_WzOyg)。
+# 这题要注意的是，不是一颗标准的完全二叉树，所有数组空间开大一点就好了。
 
-```python
+# ```python
 #
 # @lc app=leetcode.cn id=307 lang=python3
 #
@@ -63,4 +63,4 @@ class NumArray:
 # param_2 = obj.sumRange(i,j)
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-动态规划思想，由已知求未知，打败99%
+// ### 解题思路
+// 动态规划思想，由已知求未知，打败99%
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<int> countBits(int num) {
@@ -29,4 +29,4 @@ public:
 		return result;
 	}
 };
-```
+// ```

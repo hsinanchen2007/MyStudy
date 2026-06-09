@@ -1,6 +1,6 @@
-## 思路一：递归
-### 代码
-```c++
+// ## 思路一：递归
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool isMatch(string s, string p) {        
@@ -18,9 +18,9 @@ public:
         return false;
     }
 };
-```
-#### 另一种写法
-```c++
+// ```
+// #### 另一种写法
+// ```c++
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -32,11 +32,11 @@ public:
         }
     }
 };
-```
+// ```
 
-## 思路二：记忆化搜索
-### 代码
-```c++
+// ## 思路二：记忆化搜索
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool isMatch(string s, string p) {        
@@ -57,11 +57,11 @@ public:
         return memo[i][j] = 0;
     }
 };
-```
+// ```
 
-## 思路三：动态规划
-### 代码
-```c++
+// ## 思路三：动态规划
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool isMatch(string s, string p) {     
@@ -80,6 +80,6 @@ public:
         return dp[0][0];        
     }
 };
-```
+// ```
 
 

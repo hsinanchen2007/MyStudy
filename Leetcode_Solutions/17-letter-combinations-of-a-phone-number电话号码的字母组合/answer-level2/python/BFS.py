@@ -1,4 +1,4 @@
-对于这种全排列的题，其实DFS、BFS和所谓的暴力时间空间复杂度都是一样的。
+# 对于这种全排列的题，其实DFS、BFS和所谓的暴力时间空间复杂度都是一样的。
 
 class Solution(object):
     def letterCombinations(self, digits):

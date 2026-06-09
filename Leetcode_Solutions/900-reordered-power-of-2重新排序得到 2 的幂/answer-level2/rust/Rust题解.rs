@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn reordered_power_of2(n: i32) -> bool {
         let mut power_of2 = Vec::new();
@@ -23,5 +23,5 @@ impl Solution {
         power_of2.contains(&arr)
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

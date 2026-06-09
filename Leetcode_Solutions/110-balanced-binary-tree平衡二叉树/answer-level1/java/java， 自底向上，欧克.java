@@ -1,9 +1,9 @@
-### 解题思路
-在计算高度的同时判断是否是平衡树，不是的话就返回Integer.MAX_VALUE,判断左右子树是否有MAX_VALUE可以判断是否这个树是不是平衡树。
+// ### 解题思路
+// 在计算高度的同时判断是否是平衡树，不是的话就返回Integer.MAX_VALUE,判断左右子树是否有MAX_VALUE可以判断是否这个树是不是平衡树。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ class Solution {
     }
 
 }
-```
+// ```

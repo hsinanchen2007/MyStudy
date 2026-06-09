@@ -1,11 +1,11 @@
-一 算法
-1 暴力法（3940ms）
-2 中间扩展法（700-800ms）
-3 中间扩展法+特殊值处理（180ms-200ms）
-4 优化中间扩展法(140ms-180ms 85%-90%)
-5 优化中间扩展法+ 特殊值处理(60-80ms 99%-100%)
-二 python3实现
-```
+# 一 算法
+# 1 暴力法（3940ms）
+# 2 中间扩展法（700-800ms）
+# 3 中间扩展法+特殊值处理（180ms-200ms）
+# 4 优化中间扩展法(140ms-180ms 85%-90%)
+# 5 优化中间扩展法+ 特殊值处理(60-80ms 99%-100%)
+# 二 python3实现
+# ```
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         ## method 1 暴力法
@@ -96,4 +96,4 @@ class Solution:
         per = (res - counts[c][1]) >> 1
         start = ss - per
         return s[start:start + res]
-```
+# ```

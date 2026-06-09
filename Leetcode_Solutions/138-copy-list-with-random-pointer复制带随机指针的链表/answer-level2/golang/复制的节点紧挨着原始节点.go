@@ -1,4 +1,4 @@
-```go
+// ```go
 func copyRandomList(head *Node) *Node {
 	if head == nil {
 		return head
@@ -32,4 +32,4 @@ func copyRandomList(head *Node) *Node {
 	// 克隆的链表头：cloneHead 1'->2'->3'
 	return cloneHead
 }
-```
+// ```

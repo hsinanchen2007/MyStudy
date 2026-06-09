@@ -1,8 +1,8 @@
-var arr = ["(","(",")"]
+// var arr = ["(","(",")"]
 
-一次遍历就可以解决，碰到左括号加入数组，右括号，看当前数组里是不是可以入右括号，最后做一个减法就可以算出最长有效括号```
-代码块
-```
+// 一次遍历就可以解决，碰到左括号加入数组，右括号，看当前数组里是不是可以入右括号，最后做一个减法就可以算出最长有效括号```
+// 代码块
+// ```
 func maxVaildLength(arr: [String]) {
     var current = 0
     var targetArr = [String]()
@@ -22,4 +22,4 @@ func maxVaildLength(arr: [String]) {
 }
 
 maxVaildLength(arr: arr)
-```
+// ```

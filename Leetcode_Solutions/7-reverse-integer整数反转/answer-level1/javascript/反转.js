@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -21,4 +21,4 @@ const reverse = x => {
   if (x > Math.pow(2, 31) - 1 || x < -Math.pow(2, 31)) return 0;
   else return x;
 };
-```
+// ```

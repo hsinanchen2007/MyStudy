@@ -1,16 +1,16 @@
-题目说数据范围在int内，于是我们可以设N=2^16,弄N个大小为N的块。
-分2种情况讨论：
-1.当a[i] / N == a[j] / N（2个数在同一个块）时，ans=max(ans, a[i] - a[j]);
-对此我们只要对于所有的y = a[i] % N，存上对应的x = a[i] / N
-从0~N枚举y，然后维护pre_y[x]
-ans = max(ans, y - pre_y[x])
+// 题目说数据范围在int内，于是我们可以设N=2^16,弄N个大小为N的块。
+// 分2种情况讨论：
+// 1.当a[i] / N == a[j] / N（2个数在同一个块）时，ans=max(ans, a[i] - a[j]);
+// 对此我们只要对于所有的y = a[i] % N，存上对应的x = a[i] / N
+// 从0~N枚举y，然后维护pre_y[x]
+// ans = max(ans, y - pre_y[x])
 
-2.当a[i] / N < a[j] / N时，ans=max(ans,(j - i) * N + a[j] % N - a[i] % N);
-我们只要对每个块存它的最大值和最小值
-ans = max(ans, (j - i) * N + mi[j] - mx[i]);
+// 2.当a[i] / N < a[j] / N时，ans=max(ans,(j - i) * N + a[j] % N - a[i] % N);
+// 我们只要对每个块存它的最大值和最小值
+// ans = max(ans, (j - i) * N + mi[j] - mx[i]);
 
-时间复杂度O(n + N)
-```
+// 时间复杂度O(n + N)
+// ```
 const int N = 1 << 16;
 
 class Solution {
@@ -46,4 +46,4 @@ public:
         return ans;
     }
 };
-```
+// ```

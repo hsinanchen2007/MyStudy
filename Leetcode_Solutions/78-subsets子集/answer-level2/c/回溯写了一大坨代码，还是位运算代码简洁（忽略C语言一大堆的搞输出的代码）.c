@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_SIZE 10000
 int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes){
     int **result = (int**)malloc(MAX_SIZE * sizeof(int*));
@@ -25,4 +25,4 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
     *returnSize = len;
     return result;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-剑指offer  python3 版本
+# ### 解题思路
+# 剑指offer  python3 版本
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -54,4 +54,4 @@ class Solution:
 
 
         
-```
+# ```

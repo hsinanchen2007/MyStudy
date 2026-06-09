@@ -1,4 +1,4 @@
-```js
+// ```js
 var bitwiseComplement = function(N) {
     let NTo2 = N.toString(2)
     let len = NTo2.length;
@@ -12,4 +12,4 @@ var bitwiseComplement = function(N) {
     }
     return parseInt(res2,2)
 };
-```
+// ```

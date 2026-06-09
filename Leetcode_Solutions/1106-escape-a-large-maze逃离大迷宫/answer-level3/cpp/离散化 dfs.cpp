@@ -1,4 +1,4 @@
-```
+// ```
 int dx[] = { -1, 1, 0, 0 }, dy[] = { 0, 0, 1, -1 };
 class Solution {
 private:
@@ -50,6 +50,6 @@ public:
         return dfs(grid, sx, sy);
     }
 };
-```
-![Screenshot from 2019-12-06 12-17-20.png](https://pic.leetcode-cn.com/dcb1ffcd7eef3bf63a51a2e736d1a1024e2123dc86b8957dddb5f8bc002f14a7-Screenshot%20from%202019-12-06%2012-17-20.png)
+// ```
+// ![Screenshot from 2019-12-06 12-17-20.png](https://pic.leetcode-cn.com/dcb1ffcd7eef3bf63a51a2e736d1a1024e2123dc86b8957dddb5f8bc002f14a7-Screenshot%20from%202019-12-06%2012-17-20.png)
 

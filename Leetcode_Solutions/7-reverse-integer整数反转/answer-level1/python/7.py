@@ -1,13 +1,13 @@
-### 解题思路
-该思路较复杂：
-1、写一个反转函数，反转list
-2、将输入整数转换成list，调用反转函数得到反转后的list
-3、将反转后的list转换为str，比较是否溢出，溢出返回0，否则返回实际int型反转值
-4、注意处理特殊情况，个位数反转可优先特殊处理（我第一次提交没处理导致执行出错）
+# ### 解题思路
+# 该思路较复杂：
+# 1、写一个反转函数，反转list
+# 2、将输入整数转换成list，调用反转函数得到反转后的list
+# 3、将反转后的list转换为str，比较是否溢出，溢出返回0，否则返回实际int型反转值
+# 4、注意处理特殊情况，个位数反转可优先特殊处理（我第一次提交没处理导致执行出错）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverse(self, x: int) -> int:
         def list_reverse(y: list) -> list:
@@ -43,4 +43,4 @@ class Solution:
                 return 0
             else:
                 return int(out_s)
-```
+# ```

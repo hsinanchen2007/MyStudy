@@ -1,6 +1,6 @@
-先做并查集，再检验符号。
+# 先做并查集，再检验符号。
 
-```python
+# ```python
 class Solution:
     def equationsPossible(self, equations: List[str]) -> bool:
         p = {chr(97+i):{chr(97+i)} for i in range(26)}      #并查集初始化
@@ -13,4 +13,4 @@ class Solution:
             if (s == '=') == (p[a] != p[b]):
                 return False
         return True
-```
+# ```

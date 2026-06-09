@@ -1,8 +1,8 @@
-设定一个`getNest()`函数用于返回一个列表类型的NestedInteger。
+// 设定一个`getNest()`函数用于返回一个列表类型的NestedInteger。
 
-重要的思想是通过类的全局字符数组和一个下标值让每次调用递归函数都知道要处理哪个位置。
+// 重要的思想是通过类的全局字符数组和一个下标值让每次调用递归函数都知道要处理哪个位置。
 
-```java
+// ```java
 class Solution {
     //递归函数通过字符数组和cur下标确定要处理的位置
     char[] chars;
@@ -38,4 +38,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

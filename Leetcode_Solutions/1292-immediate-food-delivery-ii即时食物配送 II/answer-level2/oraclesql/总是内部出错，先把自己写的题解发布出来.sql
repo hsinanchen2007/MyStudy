@@ -1,4 +1,4 @@
-1: 找出首次订单数=>首次订单为根据顾客分组 ,选择每组中order_date最小的订单即：每个客户时间最早的第一笔订单
+-- 1: 找出首次订单数=>首次订单为根据顾客分组 ,选择每组中order_date最小的订单即：每个客户时间最早的第一笔订单
 
 with c as (select t.customer_id,min(order_date) order_date from delivery t group by t.customer_id ) ,
 

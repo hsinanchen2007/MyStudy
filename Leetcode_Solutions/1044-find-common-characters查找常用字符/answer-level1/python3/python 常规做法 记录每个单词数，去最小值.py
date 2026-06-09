@@ -1,5 +1,5 @@
-解题思路：用数组代替哈希表，记录每个字母的个数
-```
+# 解题思路：用数组代替哈希表，记录每个字母的个数
+# ```
 class Solution:
     def commonChars(self, A: List[str]) -> List[str]:
         a = [0 for _ in range(26)]
@@ -22,4 +22,4 @@ class Solution:
             for x in range(elemt):
                 b.append(chr(i+ord('a')))
         return b
-```
+# ```

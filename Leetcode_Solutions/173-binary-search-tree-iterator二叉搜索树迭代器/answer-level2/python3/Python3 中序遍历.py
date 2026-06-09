@@ -1,4 +1,4 @@
-```
+# ```
 class BSTIterator:
     """二叉搜索树迭代器
 
@@ -32,9 +32,9 @@ class BSTIterator:
             helper(root.right)
         helper(root)
         return result
-```
+# ```
 
-利用二叉搜索树的特性：中序遍历为有序数组
-1.构造函数的时候执行中序遍历，并指定应用self.result
-2.next()函数直接使用self.result出队即可。
-3.hasNext()函数直接判断self.result是否为空
+# 利用二叉搜索树的特性：中序遍历为有序数组
+# 1.构造函数的时候执行中序遍历，并指定应用self.result
+# 2.next()函数直接使用self.result出队即可。
+# 3.hasNext()函数直接判断self.result是否为空

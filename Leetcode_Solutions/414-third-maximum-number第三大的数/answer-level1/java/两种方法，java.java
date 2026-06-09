@@ -1,6 +1,6 @@
-## 414. 第三大的数   Easy
-### 方法1：PriorityQueue
-```
+// ## 414. 第三大的数   Easy
+// ### 方法1：PriorityQueue
+// ```
 public int thirdMax(int[] nums) {
     PriorityQueue<Integer> queue = new PriorityQueue<>();
     int max = nums[0];
@@ -15,12 +15,12 @@ public int thirdMax(int[] nums) {
     }
     return queue.size() < 3 ? max : queue.peek();
 }
-```
+// ```
 
 
 
-### 方法2：三个参数
-```
+// ### 方法2：三个参数
+// ```
  public int thirdMax(int[] nums) {
         long max1 = Long.MIN_VALUE, max2 = Long.MIN_VALUE, max3 = Long.MIN_VALUE;
         for (int num : nums) {
@@ -42,5 +42,5 @@ public int thirdMax(int[] nums) {
     }
 
 
-```
+// ```
 

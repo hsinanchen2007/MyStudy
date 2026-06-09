@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/93dd22fb551f655fd274aa353c9680b643c79e01d8e80176675340b866893365-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/93dd22fb551f655fd274aa353c9680b643c79e01d8e80176675340b866893365-image.png)
 
 
-- 根据递推公式`f(n) = f(n-1) + f(n-2)`可以很容易写出递归的代码,这里就不写了
-- 其实这题是考大家dp的思想,代码直接给出了,很简单
-### dp代码
+# - 根据递推公式`f(n) = f(n-1) + f(n-2)`可以很容易写出递归的代码,这里就不写了
+# - 其实这题是考大家dp的思想,代码直接给出了,很简单
+# ### dp代码
 
-```python
+# ```python
 class Solution(object):
     def fib(self, n):
         """
@@ -25,4 +25,4 @@ class Solution(object):
             f_0 = f_1
             f_1 = f_n
         return f_n % 1000000007
-```
+# ```

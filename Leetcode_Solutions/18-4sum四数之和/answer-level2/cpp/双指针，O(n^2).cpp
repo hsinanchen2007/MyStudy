@@ -1,5 +1,5 @@
-1，15，16和这道题类似吧，双指针的思路是一样的。
-```
+// 1，15，16和这道题类似吧，双指针的思路是一样的。
+// ```
 class Solution {
 public:
     vector<vector<int>> fourSum(vector<int>& nums, int target) {
@@ -45,4 +45,4 @@ public:
         return ret;
     }
 };
-```
+// ```

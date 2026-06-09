@@ -1,7 +1,7 @@
-- 遍历字符串,遇到不相等的字符,左侧指针+1判断 || 右侧指针-1判断
-- 时间复杂度O(n)
-- 空间复杂度O(1)
-```PHP []
+// - 遍历字符串,遇到不相等的字符,左侧指针+1判断 || 右侧指针-1判断
+// - 时间复杂度O(n)
+// - 空间复杂度O(1)
+// ```PHP []
 class Solution {
 
     /**
@@ -29,8 +29,8 @@ class Solution {
         return true;
     }
 }
-```
-```GO []
+// ```
+// ```GO []
 func validPalindrome(s string) bool {
     r := len(s) - 1
     for i:=0;i<len(s);i++ {
@@ -52,4 +52,4 @@ func isBool (s string, l int, r int) bool {
     }
     return true
 }
-```
+// ```

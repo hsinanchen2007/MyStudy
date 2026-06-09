@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/cdb3efa0abf5695f67798681c4deb1449067351064b0704bfd4970c98f0122a7-image.png)
+# ![image.png](https://pic.leetcode-cn.com/cdb3efa0abf5695f67798681c4deb1449067351064b0704bfd4970c98f0122a7-image.png)
 
 
-```
+# ```
 '''
 朴素模拟数据填写即可
 '''
@@ -33,4 +33,4 @@ class Solution:
                 ii, jj, idx = ii+1, jj+1, idx+1
 
         return mat
-```
+# ```

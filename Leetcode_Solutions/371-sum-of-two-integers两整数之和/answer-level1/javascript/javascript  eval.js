@@ -1,9 +1,9 @@
-### 解题思路
-eval函数直接运算
+// ### 解题思路
+// eval函数直接运算
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} a
  * @param {number} b
@@ -12,4 +12,4 @@ eval函数直接运算
 var getSum = function(a, b) {
     return eval('a+b') 
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     // User defined data may be declared here.
     pthread_barrier_t second;
@@ -43,4 +43,4 @@ void fooFree(Foo* obj) {
     pthread_barrier_destroy(&obj->third);
     free(obj);
 }
-```
+// ```

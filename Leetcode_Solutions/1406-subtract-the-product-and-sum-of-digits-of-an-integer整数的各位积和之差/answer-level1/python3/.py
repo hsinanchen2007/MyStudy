@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:
         sum = 0
@@ -15,4 +15,4 @@ class Solution:
             n = (n-k)/10
         s = ml - sum
         return int(s)
-```
+# ```

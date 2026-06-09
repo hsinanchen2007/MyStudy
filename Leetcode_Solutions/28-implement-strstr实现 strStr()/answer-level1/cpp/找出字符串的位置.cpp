@@ -1,9 +1,9 @@
-### 解题思路
-双指针解法内存消耗比较小,但是效率比较低,下面学习一下KMP再来做一遍
+// ### 解题思路
+// 双指针解法内存消耗比较小,但是效率比较低,下面学习一下KMP再来做一遍
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -27,4 +27,4 @@ public:
 
     }
 };
-```
+// ```

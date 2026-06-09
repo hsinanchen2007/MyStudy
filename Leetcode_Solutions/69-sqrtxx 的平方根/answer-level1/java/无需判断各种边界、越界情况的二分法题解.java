@@ -1,6 +1,6 @@
-该题解无需刻意判断各类边界、越界情况，更易于理解、记忆。
+// 该题解无需刻意判断各类边界、越界情况，更易于理解、记忆。
 
-``` Java
+// ``` Java
 class Solution {
     public int mySqrt(int x) {
         long left = 0;
@@ -22,4 +22,4 @@ class Solution {
         return x;
     }
 }
-```
+// ```

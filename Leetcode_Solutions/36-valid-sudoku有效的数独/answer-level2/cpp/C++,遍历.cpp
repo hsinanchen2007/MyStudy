@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isValid(vector<vector<char>>& board,int i,int j,char c){
@@ -29,4 +29,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-因为nums1是nums2的子集，那我不管三七二十一，将nums2中的所有元素都设置成字典map的key，且初始值val为-1。用两层循环找出nums2里每个元素v右边第一个比它大的元素V，将map中key=v的val改为V，最后根据nums1的元素K查找key=K对应的val并将val覆盖掉nums1中的K，最后返回nums1。
+// ### 解题思路
+// 因为nums1是nums2的子集，那我不管三七二十一，将nums2中的所有元素都设置成字典map的key，且初始值val为-1。用两层循环找出nums2里每个元素v右边第一个比它大的元素V，将map中key=v的val改为V，最后根据nums1的元素K查找key=K对应的val并将val覆盖掉nums1中的K，最后返回nums1。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
@@ -33,4 +33,4 @@ public:
 
     }
 };
-```
+// ```

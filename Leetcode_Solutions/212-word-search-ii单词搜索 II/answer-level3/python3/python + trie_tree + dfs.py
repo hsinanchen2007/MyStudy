@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
         # build a trie tree: O(N * M)
@@ -41,4 +41,4 @@ class Solution:
             for j in range(col):
                 traverse(i, j, board, visited, res_set, '')
         return list(res_set)
-```
+# ```

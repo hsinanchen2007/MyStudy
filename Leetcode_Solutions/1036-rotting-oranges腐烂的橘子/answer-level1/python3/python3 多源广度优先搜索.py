@@ -1,11 +1,11 @@
-### 解题思路
-与官方题解2思路类似，细节见代码注释
-时间复杂度：O(mn)
-空间复杂度：O(mn)
+# ### 解题思路
+# 与官方题解2思路类似，细节见代码注释
+# 时间复杂度：O(mn)
+# 空间复杂度：O(mn)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         res=0  #当前分钟数
@@ -47,4 +47,4 @@ class Solution:
 
         #BFS完成后，若新鲜橘子数大于0，则说明有橘子未被腐烂，返回-1；否则返回最后的分钟数res
         return res if count==0 else -1   
-```
+# ```

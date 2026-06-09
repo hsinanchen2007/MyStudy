@@ -1,5 +1,5 @@
-直接使用vector的insert函数，非常简单。
-```
+// 直接使用vector的insert函数，非常简单。
+// ```
 class Solution {
 public:
     vector<int> createTargetArray(vector<int>& nums, vector<int>& index) {
@@ -10,4 +10,4 @@ public:
         return res;
     }
 };
-```
+// ```

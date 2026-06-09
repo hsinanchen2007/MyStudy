@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
     if(!heightSize) return 0;
     int max=0;
@@ -20,4 +20,4 @@ int trap(int* height, int heightSize){
         else count+=height[temp]-height[k];   
     return count;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-关键在于求最大公约数
-### 代码
+// ### 解题思路
+// 关键在于求最大公约数
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str1
  * @param {string} str2
@@ -18,4 +18,4 @@ var gcdOfStrings = function(str1, str2) {
    }
    return str1.substring(0, gcd(str1.length, str2.length))
 };
-```
+// ```

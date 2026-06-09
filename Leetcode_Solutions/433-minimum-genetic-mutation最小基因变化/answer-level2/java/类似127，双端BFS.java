@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private char[] res = {'A', 'C', 'G', 'T'};
     public int minMutation(String start, String end, String[] bank) {
@@ -43,4 +43,4 @@ class Solution {
         return bfs(next, ed, banks, dep + 1);
     }
 }
-```
+// ```

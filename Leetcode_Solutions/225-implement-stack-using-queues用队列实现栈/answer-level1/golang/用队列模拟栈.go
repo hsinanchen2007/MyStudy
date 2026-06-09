@@ -1,9 +1,9 @@
-### 解题思路
-直接使用一个 slice 模拟 queue
+// ### 解题思路
+// 直接使用一个 slice 模拟 queue
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     data []int
 }
@@ -57,4 +57,4 @@ func (this *MyStack) Top() int {
 func (this *MyStack) Empty() bool {
     return len(this.data) == 0
 }
-```
+// ```

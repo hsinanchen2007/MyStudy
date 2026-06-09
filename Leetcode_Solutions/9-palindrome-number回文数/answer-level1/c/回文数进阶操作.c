@@ -1,4 +1,4 @@
-```
+// ```
 bool isPalindrome(int x){
     int Fan = 0,fnum,num,i,len;
     num = x;
@@ -19,4 +19,4 @@ bool isPalindrome(int x){
     else
         return false;
 }
-```
+// ```

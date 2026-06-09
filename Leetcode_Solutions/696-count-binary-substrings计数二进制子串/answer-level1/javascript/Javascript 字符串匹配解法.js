@@ -1,9 +1,9 @@
-### 解题思路
-使用字符串匹配来找到子串中符合条件的值
+// ### 解题思路
+// 使用字符串匹配来找到子串中符合条件的值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -32,4 +32,4 @@ var countBinarySubstrings = function(s) {
 
   return result
 };
-```
+// ```

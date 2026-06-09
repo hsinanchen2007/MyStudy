@@ -1,4 +1,4 @@
-```csharp
+// ```csharp
 // 思路1 借助哈希保存节点信息。
 public Node CopyRandomList(Node head)
 {
@@ -81,4 +81,4 @@ public Node CopyRandomList2(Node head)
 
     return newHead;
 }
-```
+// ```

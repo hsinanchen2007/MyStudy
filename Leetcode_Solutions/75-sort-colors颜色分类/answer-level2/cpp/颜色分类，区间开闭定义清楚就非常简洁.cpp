@@ -1,5 +1,5 @@
-其实左开右闭能够解决绝大部分问题。而且非常清晰。
-```
+// 其实左开右闭能够解决绝大部分问题。而且非常清晰。
+// ```
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         }
     }
 };
-```
+// ```

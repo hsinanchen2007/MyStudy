@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
     def maxProduct(A: Array[String]): Int = {
         def f(A:Array[Boolean], B:Array[Boolean]):Boolean = {
@@ -20,4 +20,4 @@ object Solution {
         g(A map toVec)(A)
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-**不用递归，就硬做 好理解**
-```
+// **不用递归，就硬做 好理解**
+// ```
 class Solution {
 public:
 	void merge(vector<string>& v, string str) {
@@ -45,5 +45,5 @@ public:
 		return result;
 	}
 };
-```
+// ```
 

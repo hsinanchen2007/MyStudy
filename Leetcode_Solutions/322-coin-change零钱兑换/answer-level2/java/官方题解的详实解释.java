@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
         //  if(amount<1)
@@ -30,7 +30,7 @@ class Solution {
     }
 }
 
-```
+// ```
 
 
 
@@ -66,30 +66,30 @@ class Solution {
 
 
 
-// public class Solution {
+// // public class Solution {
 
-//   public int coinChange(int[] coins, int amount) {
-//     if (amount < 1) return 0;
-//     return coinChange(coins, amount, new int[amount]);
-//   }
+// //   public int coinChange(int[] coins, int amount) {
+// //     if (amount < 1) return 0;
+// //     return coinChange(coins, amount, new int[amount]);
+// //   }
 
-//   private int coinChange(int[] coins, int rem, int[] count) {
-//     if (rem < 0) return -1;
-//     if (rem == 0) return 0;
-//     if (count[rem - 1] != 0) return count[rem - 1];
-//     int min = Integer.MAX_VALUE;
-//     for (int coin : coins) {
-//       int res = coinChange(coins, rem - coin, count);
-//       if (res >= 0 && res < min)
-//         min = 1 + res;
-//     }
-//     count[rem - 1] = (min == Integer.MAX_VALUE) ? -1 : min;
-//     return count[rem - 1];
-//   }
-// }
+// //   private int coinChange(int[] coins, int rem, int[] count) {
+// //     if (rem < 0) return -1;
+// //     if (rem == 0) return 0;
+// //     if (count[rem - 1] != 0) return count[rem - 1];
+// //     int min = Integer.MAX_VALUE;
+// //     for (int coin : coins) {
+// //       int res = coinChange(coins, rem - coin, count);
+// //       if (res >= 0 && res < min)
+// //         min = 1 + res;
+// //     }
+// //     count[rem - 1] = (min == Integer.MAX_VALUE) ? -1 : min;
+// //     return count[rem - 1];
+// //   }
+// // }
 
-// 作者：LeetCode-Solution
-// 链接：https://leetcode-cn.com/problems/coin-change/solution/322-ling-qian-dui-huan-by-leetcode-solution/
-// 来源：力扣（LeetCode）
-// 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-```
+// // 作者：LeetCode-Solution
+// // 链接：https://leetcode-cn.com/problems/coin-change/solution/322-ling-qian-dui-huan-by-leetcode-solution/
+// // 来源：力扣（LeetCode）
+// // 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+// ```

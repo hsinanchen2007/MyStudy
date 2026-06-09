@@ -1,9 +1,9 @@
-### 解题思路
-Fn = Max(F(n-1), F(n-2)+An)
+// ### 解题思路
+// Fn = Max(F(n-1), F(n-2)+An)
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn rob(nums: Vec<i32>) -> i32 {
         let mut dp = vec![0; nums.len() + 1_usize];
@@ -17,4 +17,4 @@ impl Solution {
         dp[nums.len()]
     }
 }
-```
+// ```

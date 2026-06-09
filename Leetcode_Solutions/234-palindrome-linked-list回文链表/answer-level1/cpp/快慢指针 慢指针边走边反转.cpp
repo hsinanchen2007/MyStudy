@@ -1,6 +1,6 @@
-快慢指针 慢指针边走边反转。走到中点后慢指针继续往前，pre也超着next的方向往后，逐个对比val是否相等
+// 快慢指针 慢指针边走边反转。走到中点后慢指针继续往前，pre也超着next的方向往后，逐个对比val是否相等
 
-```
+// ```
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
@@ -28,6 +28,6 @@ public:
       return true;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/4099394b8b6299686d0b3afb1506107e89321ef0ce16e143850979d2d53eb818-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/4099394b8b6299686d0b3afb1506107e89321ef0ce16e143850979d2d53eb818-image.png)
 

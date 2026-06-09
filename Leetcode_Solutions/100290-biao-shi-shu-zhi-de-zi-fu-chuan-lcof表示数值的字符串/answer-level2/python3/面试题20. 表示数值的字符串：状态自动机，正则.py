@@ -1,6 +1,6 @@
-### 状态自动机
+# ### 状态自动机
 
-```python []
+# ```python []
 class Solution:
     def isNumber(self, s: str) -> bool:
         S = [
@@ -23,12 +23,12 @@ class Solution:
                 return False
             p = S[p][t[c]]
         return p in {2, 3, 7, 8}
-```
+# ```
 
-### 正则
+# ### 正则
 
-```python []
+# ```python []
 class Solution:
     def isNumber(self, s: str) -> bool:
         return re.match(" *[+-]?((\d+(\.\d*)?)|\.\d+)([e][+-]?\d+)? *$", s)
-```
+# ```

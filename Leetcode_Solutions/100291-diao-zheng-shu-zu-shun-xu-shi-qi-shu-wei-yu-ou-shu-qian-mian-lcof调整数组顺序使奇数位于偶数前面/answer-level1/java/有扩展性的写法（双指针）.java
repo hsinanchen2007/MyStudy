@@ -1,13 +1,13 @@
-来自剑指offer书
+// 来自剑指offer书
 
-考虑扩展性的解法，可以将指针替换操作定义为不同的函数（如快排中的比较大小）
-本例的判断函数为tailCorrect和headCorrect
+// 考虑扩展性的解法，可以将指针替换操作定义为不同的函数（如快排中的比较大小）
+// 本例的判断函数为tailCorrect和headCorrect
 
-执行用时 : 4 ms  在所有 Java 提交中击败了 20.42% 的用户
-惹，速度不是很快。期待交流。
+// 执行用时 : 4 ms  在所有 Java 提交中击败了 20.42% 的用户
+// 惹，速度不是很快。期待交流。
 
 
-```
+// ```
 class Solution {
     public int[] exchange(int[] nums) {
         if(nums.length==0) return nums;
@@ -38,4 +38,4 @@ class Solution {
         n[i] = tmp;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var balancedStringSplit = function (s) {
     let arr = s.split('')
     let length = arr.length
@@ -20,4 +20,4 @@ var balancedStringSplit = function (s) {
     }
     return count
 };
-```
+// ```

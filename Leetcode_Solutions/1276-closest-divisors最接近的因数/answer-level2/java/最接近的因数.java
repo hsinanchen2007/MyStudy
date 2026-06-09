@@ -1,17 +1,17 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 从平方根数开始查找
+// # 从平方根数开始查找
 
-如果是num + 1或num + 2是一个完全平方数，那结果中的两个数均是num + 1或num + 2的平方根。
+// 如果是num + 1或num + 2是一个完全平方数，那结果中的两个数均是num + 1或num + 2的平方根。
 
-如果num + 1或num + 2不是一个完全平方数，要使结果中的两个数相差最小，那就是从num + 1或num + 2的平方跟开始遍历得到的第一对数。
+// 如果num + 1或num + 2不是一个完全平方数，要使结果中的两个数相差最小，那就是从num + 1或num + 2的平方跟开始遍历得到的第一对数。
 
-时间复杂度是O(num ^ 0.5)。空间复杂度是O(1)。
+// 时间复杂度是O(num ^ 0.5)。空间复杂度是O(1)。
 
-执行用时：9ms，击败100.00%。消耗内存：37.2MB，击败100.00%。
+// 执行用时：9ms，击败100.00%。消耗内存：37.2MB，击败100.00%。
 
-```java
+// ```java
 public class Solution {
     public int[] closestDivisors(int num) {
         int num1 = -1, num2 = -1;
@@ -34,4 +34,4 @@ public class Solution {
         return new int[] {num1, num2};
     }
 }
-```
+// ```

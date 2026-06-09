@@ -1,10 +1,10 @@
-### 解题思路
-先排序,后比较,但是发现使用ArrayList.add 方法如果看源码的话,会知道add的过程中,会进行几次比较验证,所以速度其实是比较慢的,
-如果用asList则没有这个问题,比使用add更快一点.
+// ### 解题思路
+// 先排序,后比较,但是发现使用ArrayList.add 方法如果看源码的话,会知道add的过程中,会进行几次比较验证,所以速度其实是比较慢的,
+// 如果用asList则没有这个问题,比使用add更快一点.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> minimumAbsDifference(int[] arr) {
       List<List<Integer>>   listList = new ArrayList<>();
@@ -29,4 +29,4 @@ class Solution {
 
     
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func validMountainArray(A []int) bool {
 	if len(A) < 3 {
 		return false
@@ -26,7 +26,7 @@ func validMountainArray(A []int) bool {
 	}
 	return false
 }
-```
+// ```
 
-时间复杂度为 O(n)
-空间复杂度为 O(1)
+// 时间复杂度为 O(n)
+// 空间复杂度为 O(1)

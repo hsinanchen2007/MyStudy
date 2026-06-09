@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canPermutePalindrome(String s) {
         int count = 0;
@@ -15,4 +15,4 @@ class Solution {
         return count<=1;
     }
 }
-```
+// ```

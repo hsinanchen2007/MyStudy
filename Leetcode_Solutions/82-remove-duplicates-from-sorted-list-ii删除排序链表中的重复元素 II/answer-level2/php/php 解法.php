@@ -1,4 +1,4 @@
-```
+// ```
 function deleteDuplicates($head) {
     if($head==null && $head->next==null) return $head;
     $curr = new ListNode(-1);
@@ -18,4 +18,4 @@ function deleteDuplicates($head) {
     $curr->next = null;// 例如1->2->2，断开用于断开后面的2->2 
     return $dummy->next;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-双重for循环遍历所有组合，复杂度为O(n^2)
+// ### 解题思路
+// 双重for循环遍历所有组合，复杂度为O(n^2)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         if (numbers == null) {
@@ -20,4 +20,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

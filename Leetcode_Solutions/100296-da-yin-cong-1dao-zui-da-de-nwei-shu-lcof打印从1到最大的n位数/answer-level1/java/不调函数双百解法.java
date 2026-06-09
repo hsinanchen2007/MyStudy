@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/a14acb1fa4c1aec449de1e747ca581fd004381d6aea661f6c6ee6e3e893aaf8e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a14acb1fa4c1aec449de1e747ca581fd004381d6aea661f6c6ee6e3e893aaf8e-image.png)
 
-```
+// ```
 class Solution {
     public int[] printNumbers(int n) {
         int max=0;
@@ -16,4 +16,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

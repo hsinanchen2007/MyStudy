@@ -1,9 +1,9 @@
-### 解题思路
-1.先排序 2.有重复且不是大小王直接跳错误 3.判定最大差值只要小于4即可
+// ### 解题思路
+// 1.先排序 2.有重复且不是大小王直接跳错误 3.判定最大差值只要小于4即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isStraight(int[] nums) {
         
@@ -36,4 +36,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

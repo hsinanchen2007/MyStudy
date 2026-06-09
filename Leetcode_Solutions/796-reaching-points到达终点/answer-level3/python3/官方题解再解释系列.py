@@ -1,4 +1,4 @@
-```
+# ```
 '''
 LeetCode 780 到达终点
 A move consists of taking a point (x, y) and transforming it to either (x, x+y) or (x+y, y).
@@ -133,4 +133,4 @@ if __name__ == "__main__":
     ty = 5
     s = Solution()
     print(s.reachingPoints(sx, sy, tx, ty))
-```
+# ```

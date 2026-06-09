@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestPalindrome(char * s){
 	int d[26]={0},x[26]={0};   //一个记录大写字母 一个记录小写字母
 	for(int i=0;i<strlen(s);i++){
@@ -20,4 +20,4 @@ int longestPalindrome(char * s){
 	}
 	return sum+flag;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-遍历的时候用int[] lastInterval来存储上一个数组
-若lastInterval为空或者lastInterval[1] < interval[0]，则将当前interval添加进list
-若当前lastInterval不为空且lastInterval[1] >= interval[0]，同时lastInterval[1] < interval[1]，就修改lastInterval[1]为interval[1]即可，还是挺优雅的。
+// ### 解题思路
+// 遍历的时候用int[] lastInterval来存储上一个数组
+// 若lastInterval为空或者lastInterval[1] < interval[0]，则将当前interval添加进list
+// 若当前lastInterval不为空且lastInterval[1] >= interval[0]，同时lastInterval[1] < interval[1]，就修改lastInterval[1]为interval[1]即可，还是挺优雅的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
         if(intervals.length < 2) return intervals;
@@ -34,4 +34,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

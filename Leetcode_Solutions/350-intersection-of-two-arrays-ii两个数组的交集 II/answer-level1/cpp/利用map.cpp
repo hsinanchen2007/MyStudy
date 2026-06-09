@@ -1,9 +1,9 @@
-### 解题思路
-一开始没理解题意，以为必须要挨着的才叫交集。
+// ### 解题思路
+// 一开始没理解题意，以为必须要挨着的才叫交集。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
@@ -24,4 +24,4 @@ public:
         return ans;
     }
 };
-```
+// ```

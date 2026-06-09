@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numSubarraysWithSum(vector<int>& A, int S) {
@@ -34,5 +34,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/8d90334a4d05c461295af8b5f7967b6b3d3ea75e5c1b26e79beef72cd5ee198c-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/8d90334a4d05c461295af8b5f7967b6b3d3ea75e5c1b26e79beef72cd5ee198c-image.png)

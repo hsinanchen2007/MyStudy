@@ -1,5 +1,5 @@
-常规二分搜索，参考@liweiwei1419代码, 只是将循环条件还原到了普通的退出条件 left<=right,个人感觉好理解些
-```
+# 常规二分搜索，参考@liweiwei1419代码, 只是将循环条件还原到了普通的退出条件 left<=right,个人感觉好理解些
+# ```
 from typing import List
 
 class Solution:
@@ -27,4 +27,4 @@ class Solution:
                 right = mid - 1
 
         return left
-```
+# ```

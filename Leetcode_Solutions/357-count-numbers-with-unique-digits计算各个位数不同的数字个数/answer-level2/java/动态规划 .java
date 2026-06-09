@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int countNumbersWithUniqueDigits(int n) {
         //dp[0]=1; dp[1]=10;  dp[2]=9X9+dp[1]=91; dp[3]=9x9x8+dp[2]
@@ -22,4 +22,4 @@ class Solution {
        return sum;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-如果直接做个变量的存储的话，每次push或pop的时候更新存储的最大值
-push更新比较简单，pop就需要搞到去掉pop的数后的最大值，然而一求最大值就又不是O(1)了。
-所以再弄个一个序列去按大小顺序存下队列的数值
+# ### 解题思路
+# 如果直接做个变量的存储的话，每次push或pop的时候更新存储的最大值
+# push更新比较简单，pop就需要搞到去掉pop的数后的最大值，然而一求最大值就又不是O(1)了。
+# 所以再弄个一个序列去按大小顺序存下队列的数值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import queue
 class MaxQueue:
 
@@ -52,4 +52,4 @@ class MaxQueue:
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

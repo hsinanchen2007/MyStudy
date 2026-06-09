@@ -1,8 +1,8 @@
-### 解题思路
-先将饼干和孩子所需大小都进行排序，计算这些饼干能够被多少个小朋友吃掉
-### 代码
+// ### 解题思路
+// 先将饼干和孩子所需大小都进行排序，计算这些饼干能够被多少个小朋友吃掉
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findContentChildren(int[] g, int[] s) {
         int result = 0;
@@ -24,4 +24,4 @@ class Solution {
 		return result;
     }
 }
-```
+// ```

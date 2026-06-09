@@ -1,9 +1,9 @@
-### 解题思路
-双指针固然优秀。从前往后遍历，对每一个元素，二分查找其后的元素中是否有与其和为目标值的。
+// ### 解题思路
+// 双指针固然优秀。从前往后遍历，对每一个元素，二分查找其后的元素中是否有与其和为目标值的。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& numbers, int target) {
@@ -22,4 +22,4 @@ public:
         return vector<int>{0, 0};// 无意义
     }
 };
-```
+// ```

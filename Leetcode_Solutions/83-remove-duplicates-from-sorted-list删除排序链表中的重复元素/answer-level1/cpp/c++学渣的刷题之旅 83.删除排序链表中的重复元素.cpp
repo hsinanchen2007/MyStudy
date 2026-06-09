@@ -1,9 +1,9 @@
-### 解题思路
-留下链头用来返回，创造临时变量p用来检查重复元素。
+// ### 解题思路
+// 留下链头用来返回，创造临时变量p用来检查重复元素。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ public:
         return head;
     }
 };
-```
+// ```

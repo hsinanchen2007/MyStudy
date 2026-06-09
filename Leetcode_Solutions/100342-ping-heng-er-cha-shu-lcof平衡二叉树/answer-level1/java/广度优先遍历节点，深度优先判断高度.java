@@ -1,9 +1,9 @@
-### 解题思路
-用层次遍历的方式将树的节点存进一个队列，再逐个取出判断左右子树的高度差
+// ### 解题思路
+// 用层次遍历的方式将树的节点存进一个队列，再逐个取出判断左右子树的高度差
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -45,4 +45,4 @@ class Solution {
 		return result;
 	}
 }
-```
+// ```

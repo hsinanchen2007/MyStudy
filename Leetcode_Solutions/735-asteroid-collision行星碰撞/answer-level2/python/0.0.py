@@ -1,9 +1,9 @@
-### 解题思路
-堆栈的 使用
+# ### 解题思路
+# 堆栈的 使用
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def asteroidCollision(self, asteroids: List[int]) -> List[int]:
         class Stack(object):
@@ -52,4 +52,4 @@ class Solution:
         return (ans+pos_stk.stack)
             
         
-```
+# ```

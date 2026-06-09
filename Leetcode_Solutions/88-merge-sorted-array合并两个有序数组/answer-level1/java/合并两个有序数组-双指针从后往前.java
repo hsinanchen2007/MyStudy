@@ -1,9 +1,9 @@
-### 解题思路
-官方题解的解法。
+// ### 解题思路
+// 官方题解的解法。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         int i=m-1,j=n-1,k=n+m-1;
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

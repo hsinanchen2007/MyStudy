@@ -1,5 +1,5 @@
-**方法一：暴力查询**
-```
+// **方法一：暴力查询**
+// ```
 class Solution {
     /**
     * 思路：
@@ -34,10 +34,10 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 
-**方法二：最大公约数**
-```
+// **方法二：最大公约数**
+// ```
 class Solution {
     /**
     * 思路：
@@ -77,4 +77,4 @@ class Solution {
         return x == 0 ? y : gcd(y%x, x);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -90,4 +90,4 @@ int* filterRestaurants(int** restaurants, int restaurantsSize, int* restaurantsC
     return ans;
 }
 
-```
+// ```

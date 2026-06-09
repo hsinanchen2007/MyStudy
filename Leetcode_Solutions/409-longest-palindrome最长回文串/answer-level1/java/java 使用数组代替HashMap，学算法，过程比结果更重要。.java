@@ -1,10 +1,10 @@
-一道比较简单的题。
+// 一道比较简单的题。
 
-学算法，过程比结果更重要。
+// 学算法，过程比结果更重要。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
     class Solution {
     public int longestPalindrome(String s) {
         if(s.length() == 0){
@@ -33,4 +33,4 @@
         }
     }
 }
-```
+// ```

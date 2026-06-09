@@ -1,12 +1,12 @@
-### 解题思路
-![截屏2019-12-29下午1.26.55.png](https://pic.leetcode-cn.com/c069c1ff2336fbd48ef8753bc5cda0ff5035d4c00af02c7e1fc49c1e3950d856-%E6%88%AA%E5%B1%8F2019-12-29%E4%B8%8B%E5%8D%881.26.55.png)
-参考归并排序 merge 部分的思路
-时间复杂度 O(N)
-空间复杂度 O(N)
+// ### 解题思路
+// ![截屏2019-12-29下午1.26.55.png](https://pic.leetcode-cn.com/c069c1ff2336fbd48ef8753bc5cda0ff5035d4c00af02c7e1fc49c1e3950d856-%E6%88%AA%E5%B1%8F2019-12-29%E4%B8%8B%E5%8D%881.26.55.png)
+// 参考归并排序 merge 部分的思路
+// 时间复杂度 O(N)
+// 空间复杂度 O(N)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,4 +47,4 @@ public:
         return result;
     }
 };
-```
+// ```

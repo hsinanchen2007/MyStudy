@@ -1,4 +1,4 @@
-```
+// ```
 class WordDictionary {
     bool isEnd=false;
     WordDictionary *next[26];
@@ -45,4 +45,4 @@ public:
  * obj->addWord(word);
  * bool param_2 = obj->search(word);
  */
-```
+// ```

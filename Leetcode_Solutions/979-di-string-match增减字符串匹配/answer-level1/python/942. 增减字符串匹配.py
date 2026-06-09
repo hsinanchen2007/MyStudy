@@ -1,7 +1,7 @@
-看解题思路才弄明白的题 😅
+# 看解题思路才弄明白的题 😅
 
 
-```
+# ```
 class Solution(object):
     def diStringMatch(self, S):
         """
@@ -18,4 +18,4 @@ class Solution(object):
                 right -= 1
         # 剩下的值无论是left 或 right都是可以满足条件的
         return L + [left]
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-按小学学的乘法，一行一行的计算
-这里有个技巧，不用错位（相当于不断乘10），而是用遍历的索引，直接设置错位
+// ### 解题思路
+// 按小学学的乘法，一行一行的计算
+// 这里有个技巧，不用错位（相当于不断乘10），而是用遍历的索引，直接设置错位
 
-### 按行求解
+// ### 按行求解
 
-```golang
+// ```golang
 func multiply(num1 string, num2 string) string {
     if num1 == "0" || num2 == "0" {
 		return "0"
@@ -34,4 +34,4 @@ func multiply(num1 string, num2 string) string {
 	return string(result)
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-一个map用来保存原来的字符的个数  一个map用来减  最后用第一个复制回给第二个
+// ### 解题思路
+// 一个map用来保存原来的字符的个数  一个map用来减  最后用第一个复制回给第二个
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -42,4 +42,4 @@ public:
         return count;
     }
 };
-```
+// ```

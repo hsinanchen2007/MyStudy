@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-时间复杂度O(n) ，空间复杂度O(1) 常量级别的
+// 时间复杂度O(n) ，空间复杂度O(1) 常量级别的
 
-只需注意两个数组都是有序的，不需要排序，最多只需对其中一部分进行遍历就可以得到结果
+// 只需注意两个数组都是有序的，不需要排序，最多只需对其中一部分进行遍历就可以得到结果
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func median(nums []int) float64 {
 	single := true
@@ -140,4 +140,4 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	return median2(nums2, nums1, single, mIndex)
 }
 
-```
+// ```

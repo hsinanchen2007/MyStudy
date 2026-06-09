@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -40,4 +40,4 @@ bool isPowerOfTwo( int n ){
     return false;
 
 }
-```
+// ```

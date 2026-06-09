@@ -1,9 +1,9 @@
-### 解题思路
-双指针法，复杂度线性级别，空间复杂度也是线性级别，击败99.36%的用户
+// ### 解题思路
+// 双指针法，复杂度线性级别，空间复杂度也是线性级别，击败99.36%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int m=0,n=0,k,board=0;
@@ -35,4 +35,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

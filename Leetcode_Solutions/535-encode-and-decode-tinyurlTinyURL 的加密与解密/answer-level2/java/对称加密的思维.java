@@ -1,4 +1,4 @@
-解答代码：
+// 解答代码：
 `public class Codec {
 
 	private static final char SECRET_KEY = 8;

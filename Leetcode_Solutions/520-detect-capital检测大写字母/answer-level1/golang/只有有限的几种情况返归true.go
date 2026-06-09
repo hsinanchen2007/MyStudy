@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func detectCapitalUse(word string) bool {
 	n:=0
 	for _,v:=range word{
@@ -22,4 +22,4 @@ func detectCapitalUse(word string) bool {
 	}
 	return false
 }
-```
+// ```

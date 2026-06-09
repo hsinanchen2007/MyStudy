@@ -1,12 +1,12 @@
 
-![image.png](https://pic.leetcode-cn.com/ca086057dbfec9f41527ce5ddee3b53876317591b67e77f5139f52bd6fa820d6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ca086057dbfec9f41527ce5ddee3b53876317591b67e77f5139f52bd6fa820d6-image.png)
 
-动态规划嘛
-先列两个算式：
-1. 有效子串 = ( + 有效子子串 + )
-2. 有效子串 = 有效子子串 + 有效子子串
-3. 最小有效子串 = ()
-```
+// 动态规划嘛
+// 先列两个算式：
+// 1. 有效子串 = ( + 有效子子串 + )
+// 2. 有效子串 = 有效子子串 + 有效子子串
+// 3. 最小有效子串 = ()
+// ```
 public int longestValidParentheses(String s) {
     boolean a = true;
     int max = 0;
@@ -44,4 +44,4 @@ public int longestValidParentheses(String s) {
     } while (a);
     return max;
 }
-```
+// ```

@@ -1,18 +1,18 @@
-### 解题思路
-此处撰写解题思路
-方法1：暴力解法
-（1）先使用qsort快速排序，为后续去重做铺垫；
-（2）4个for循环遍历查找；遍历时，如遇到已遍历元素，则跳过；
+// ### 解题思路
+// 此处撰写解题思路
+// 方法1：暴力解法
+// （1）先使用qsort快速排序，为后续去重做铺垫；
+// （2）4个for循环遍历查找；遍历时，如遇到已遍历元素，则跳过；
 
-方法2：首尾双指针优化算法
-（1）先使用qsort快速排序，为后续去重做铺垫；
-（2）固定两个数（即两层for循环），另外两个数采用首尾双指针遍历查找；
+// 方法2：首尾双指针优化算法
+// （1）先使用qsort快速排序，为后续去重做铺垫；
+// （2）固定两个数（即两层for循环），另外两个数采用首尾双指针遍历查找；
 
-注意：二维指针的内存空间分配方法；先分配行，再分配列；
+// 注意：二维指针的内存空间分配方法；先分配行，再分配列；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -70,4 +70,4 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
     }
     return returnArray;
 }
-```
+// ```

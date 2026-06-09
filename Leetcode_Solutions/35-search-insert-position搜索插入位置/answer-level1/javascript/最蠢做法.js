@@ -1,9 +1,9 @@
-### 解题思路
-我是蠢
+// ### 解题思路
+// 我是蠢
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -28,4 +28,4 @@ var searchInsert = function(nums, target) {
         
     }
 };
-```
+// ```

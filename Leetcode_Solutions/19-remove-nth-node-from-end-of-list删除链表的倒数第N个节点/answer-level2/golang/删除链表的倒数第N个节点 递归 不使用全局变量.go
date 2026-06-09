@@ -1,5 +1,5 @@
-**最好的说明就是代码吧**
-```
+// **最好的说明就是代码吧**
+// ```
 type ListNode struct {
      Val  int
      Next *ListNode
@@ -30,4 +30,4 @@ func _removeNthFromEnd(node *ListNode, n int) int{
      }
      return endNth
 }
-```
+// ```

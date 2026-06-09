@@ -1,4 +1,4 @@
-```java
+// ```java
 public class Solution {
     public int countNegatives(int[][] grid) {
         int count = 0;
@@ -29,4 +29,4 @@ public class Solution {
         return count;
     }
 }
-```
+// ```

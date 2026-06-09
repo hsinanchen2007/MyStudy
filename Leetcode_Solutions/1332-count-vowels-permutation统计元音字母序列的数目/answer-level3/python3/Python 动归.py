@@ -1,8 +1,8 @@
-记 ``A = {a, e, i, o, u}`` 分别计作，使用数组 valid[i][j] 表示 ``A[i]A[j]`` 是否符合规则。
+# 记 ``A = {a, e, i, o, u}`` 分别计作，使用数组 valid[i][j] 表示 ``A[i]A[j]`` 是否符合规则。
 
-使用 ``dp[k][i]`` 表示长度为 $k$ 的以 ``A[i]`` 结尾的序列个数。
+# 使用 ``dp[k][i]`` 表示长度为 $k$ 的以 ``A[i]`` 结尾的序列个数。
 
-```python
+# ```python
 class Solution:
     def countVowelPermutation(self, n: int) -> int:
         valid = [[0, 1, 0, 0, 0],
@@ -26,4 +26,4 @@ class Solution:
             ret = (ret + dp[n][i]) % MOD
 
         return ret
-```
+# ```

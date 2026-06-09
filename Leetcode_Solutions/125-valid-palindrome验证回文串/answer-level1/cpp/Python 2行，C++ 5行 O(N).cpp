@@ -1,10 +1,10 @@
-```python []
+// ```python []
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         s = [*filter(str.isalnum, s.lower())]
         return s == s[::-1]
-```
-```cpp []
+// ```
+// ```cpp []
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -15,6 +15,6 @@ public:
         return true;
     }
 };
-```
-- 首先利用`isalnum`函数排除非字母数字，`lower/tolower`将所有字母转为小写
-- 然后镜像对比处理后的字符串
+// ```
+// - 首先利用`isalnum`函数排除非字母数字，`lower/tolower`将所有字母转为小写
+// - 然后镜像对比处理后的字符串

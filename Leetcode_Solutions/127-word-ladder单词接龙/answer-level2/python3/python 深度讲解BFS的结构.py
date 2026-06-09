@@ -1,23 +1,23 @@
-### 关键点：
-1. 这道题对 检查两个单词是否是相邻的，复杂度要求很高。我们需要在很快的速度上判定，是否有可用的相邻节点
-2. 需要将问题抽象化成为图论问题。
+# ### 关键点：
+# 1. 这道题对 检查两个单词是否是相邻的，复杂度要求很高。我们需要在很快的速度上判定，是否有可用的相邻节点
+# 2. 需要将问题抽象化成为图论问题。
 
 
 
-### 函数：defaultdict( type )
-其传入参数必须是type, 例如 int, list, set等，而返回的默认值，就是这些type下的默认值，例如int返回的默认值是0，list是空list等
+# ### 函数：defaultdict( type )
+# 其传入参数必须是type, 例如 int, list, set等，而返回的默认值，就是这些type下的默认值，例如int返回的默认值是0，list是空list等
 
-defaultdict与普通dict的最大作用在于：
-你可以直接call一个不存在的key， 如果不存在这个key，那就先直接创建这个key，并根据默认值的设置，赋值value，而后在继续操作。
-省去了
-      dict[new] = dict.get(new, default = [])
-      然后才能使用dict[new]来进一步操作。
-相比之下：你可放心大胆的用：defaultdict[new] 管他有没有。
+# defaultdict与普通dict的最大作用在于：
+# 你可以直接call一个不存在的key， 如果不存在这个key，那就先直接创建这个key，并根据默认值的设置，赋值value，而后在继续操作。
+# 省去了
+#       dict[new] = dict.get(new, default = [])
+#       然后才能使用dict[new]来进一步操作。
+# 相比之下：你可放心大胆的用：defaultdict[new] 管他有没有。
 
 
-### BFS的标准套路：
+# ### BFS的标准套路：
 
-```
+# ```
 for head in all_node()
     if head 没有visited过   # 以上两步是为了防止有孤立的部分存在而被遗漏，如果没有孤立的部分可以不写，直接放queue里一个就开始循环即可
 
@@ -36,30 +36,30 @@ for head in all_node()
                     mark -> cur_neighbour
                     inject -> cur_neighbour
 
-```
-#### 结构总结
-上述过程可以总结为四个模块
+# ```
+# #### 结构总结
+# 上述过程可以总结为四个模块
 
-```
+# ```
 for 找head
     while queue：
         for 找邻居
             if 没有重复：处理，标记，入队
 
-```
-#### 如何mark
-mark的方法有很多，常见的方法是把所有遍历过的node放到set里，每次都去set里查看，是否已经存在于set里了。
-也可以写一个dict，key是node，value是bool，表示是否访问过了
+# ```
+# #### 如何mark
+# mark的方法有很多，常见的方法是把所有遍历过的node放到set里，每次都去set里查看，是否已经存在于set里了。
+# 也可以写一个dict，key是node，value是bool，表示是否访问过了
 
-#### 如何找邻居
-在这道题中，找邻居的方法比较复杂：
-```
+# #### 如何找邻居
+# 在这道题中，找邻居的方法比较复杂：
+# ```
 for 所有可能去掉一个字母的同源
     for 每个同源的都是邻居
 
-```
+# ```
 
-```
+# ```
 from collections import defaultdict
 from collections import deque
 class Solution(object):
@@ -83,4 +83,4 @@ class Solution(object):
                         mark_dic[neighbour] = True
                         queue.append((neighbour, level+1))  #符合条件（neighbour + unmarked)的进去
         return 0
-```
+# ```

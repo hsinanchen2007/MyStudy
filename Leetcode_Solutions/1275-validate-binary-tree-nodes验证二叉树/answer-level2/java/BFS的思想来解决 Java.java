@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     boolean[] visited;
     public boolean validateBinaryTreeNodes(int n, int[] leftChild, int[] rightChild) {
@@ -31,5 +31,5 @@ class Solution {
         return true;
     }
 }
-```
-看到一个老哥用计算图的入度算的，那个更加高效[https://leetcode-cn.com/problems/validate-binary-tree-nodes/solution/ji-suan-tu-de-ru-du-by-codehuman/]()
+// ```
+// 看到一个老哥用计算图的入度算的，那个更加高效[https://leetcode-cn.com/problems/validate-binary-tree-nodes/solution/ji-suan-tu-de-ru-du-by-codehuman/]()

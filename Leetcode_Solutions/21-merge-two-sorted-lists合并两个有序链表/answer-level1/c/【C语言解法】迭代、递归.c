@@ -1,5 +1,5 @@
 
-```
+// ```
 // 1.递归
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 
@@ -47,4 +47,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     return head->next;
 
 }
-```
+// ```

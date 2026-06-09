@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-搞我心态哦
+// 搞我心态哦
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} cost
  * @return {number}
@@ -21,4 +21,4 @@ var minCostClimbingStairs = function(cost) {
     // 文字游戏？？不是到倒数第一层，而是上天台？？？
     return Math.min(dp[cost.length - 2], dp[cost.length -1])
 };
-```
+// ```

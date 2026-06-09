@@ -1,9 +1,9 @@
-### 解题思路
-观察发现，可以用一个数组储存一行字符，由于字符数量不定故使用vector数组；本题使用的是二维vector数组。可以利用一个flag标签来判断字符放在哪个vector数组，详细介绍见代码注释。
+// ### 解题思路
+// 观察发现，可以用一个数组储存一行字符，由于字符数量不定故使用vector数组；本题使用的是二维vector数组。可以利用一个flag标签来判断字符放在哪个vector数组，详细介绍见代码注释。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -26,4 +26,4 @@ public:
         return ss;
     }
 };
-```
+// ```

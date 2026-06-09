@@ -1,13 +1,13 @@
-### 解题思路
-建立统计信息后，可以采取两种做法：
-1. 直接遍历map，取出次数 > 1 的键值
-2. 排序map的items，然后取出次数 > 1 的键值，> 1 不成立时，可以停止；
+# ### 解题思路
+# 建立统计信息后，可以采取两种做法：
+# 1. 直接遍历map，取出次数 > 1 的键值
+# 2. 排序map的items，然后取出次数 > 1 的键值，> 1 不成立时，可以停止；
 
-实际做法`2`的效率并不如`1`好。
+# 实际做法`2`的效率并不如`1`好。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findRepeatedDnaSequences(self, s):
         """
@@ -35,4 +35,4 @@ class Solution(object):
         #         break
         # return ret
 
-```
+# ```

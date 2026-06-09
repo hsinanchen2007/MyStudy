@@ -1,11 +1,11 @@
-假设数组$arr$中小于$x$的元素组成的数组为$left(x)$，大于等于$x$的元素组成的数组为$right(x)$，则截断前缀和可写为：
-$S(x) = sum(left(x)) + x * len(right(x))$
-可见，求解本问题的算法必须基于数组的元素的序。
+// 假设数组$arr$中小于$x$的元素组成的数组为$left(x)$，大于等于$x$的元素组成的数组为$right(x)$，则截断前缀和可写为：
+// $S(x) = sum(left(x)) + x * len(right(x))$
+// 可见，求解本问题的算法必须基于数组的元素的序。
 
-### 解法一：排序+二分查找
-对数组进行预排序，然后计算数组的截断前缀和数组$S$，然后找出$target$在截断前缀和数组$S$中的位置即可。
-假设数组$arr$的长度为$n$，算法的时间复杂度为：$O(n \log n)$、 空间复杂度： $O(n)$。
-```python
+// ### 解法一：排序+二分查找
+// 对数组进行预排序，然后计算数组的截断前缀和数组$S$，然后找出$target$在截断前缀和数组$S$中的位置即可。
+// 假设数组$arr$的长度为$n$，算法的时间复杂度为：$O(n \log n)$、 空间复杂度： $O(n)$。
+// ```python
 class Solution:
     def findBestValue(self, arr: List[int], target: int) -> int:
         n = len(arr)
@@ -36,14 +36,14 @@ class Solution:
         if S[i] == target: return arr[i]
         q, r = divmod(target - S[i - 1], n - i)
         return q + 1 + arr[i - 1] if r > (n - i) // 2 else q + arr[i - 1]
-```
+// ```
 
-### 解法二：二分查找
-利用截断前缀和$S(x)$关于$x$的单调非减特性，在闭区间$[\min(arr), \max(arr)]$内对$x$进行二分查找。
-假设数组$arr$的长度为$n$，算法的时间复杂度为：$O(n \log (\max(arr) - \min(arr)))$、 空间复杂度： $O(1)$。
-可见，本解法中空间复杂度得到了优化。
+// ### 解法二：二分查找
+// 利用截断前缀和$S(x)$关于$x$的单调非减特性，在闭区间$[\min(arr), \max(arr)]$内对$x$进行二分查找。
+// 假设数组$arr$的长度为$n$，算法的时间复杂度为：$O(n \log (\max(arr) - \min(arr)))$、 空间复杂度： $O(1)$。
+// 可见，本解法中空间复杂度得到了优化。
 
-```python []
+// ```python []
 class Solution:
     def findBestValue(self, arr: List[int], target: int) -> int:
         n = len(arr)
@@ -70,8 +70,8 @@ class Solution:
         S1 = abs(truncated_sum(x - 1) - target)
         S2 = abs(truncated_sum(x) - target)
         return x if S1 > S2 else x - 1
-```
-```c++ []
+// ```
+// ```c++ []
 #include <vector>
 #include <climits>
 #include <algorithm>
@@ -128,7 +128,7 @@ public:
         return S1 > S2? left: left - 1;
     }
 };
-```
+// ```
 
 
-注： 感谢[@Magic](/u/magic/)的提醒。经过验证，[@xlz](/u/xlz/)的解法是有瑕疵的。之所以有瑕疵，除了没有考虑边界情况以外，还没有注意到截断和是基于排序的求和，[@xlz](/u/xlz/)的解法中直接把$\lfloor target / n \rfloor$作为数组的截断点是不正确的。建议[@LeetCode](/u/leetcode/)官方增加更多的测试用例。
+// 注： 感谢[@Magic](/u/magic/)的提醒。经过验证，[@xlz](/u/xlz/)的解法是有瑕疵的。之所以有瑕疵，除了没有考虑边界情况以外，还没有注意到截断和是基于排序的求和，[@xlz](/u/xlz/)的解法中直接把$\lfloor target / n \rfloor$作为数组的截断点是不正确的。建议[@LeetCode](/u/leetcode/)官方增加更多的测试用例。

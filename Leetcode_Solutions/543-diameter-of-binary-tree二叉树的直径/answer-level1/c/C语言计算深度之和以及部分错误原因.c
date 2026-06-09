@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,10 +36,10 @@ int deep (struct TreeNode* root)
     }
 }
 
-```
-参照大佬写的C++题解，用C语言与全局变量实现
-一般计算二叉树的深度返回值用来操作深度，即为retuen的值必然为树的深度；
-本题需要两者最大深度之和，使用全局变量实现；（全局变量每次使用之前要初始化）
- length=(length>=(leftmax+rightmax)?length:(leftmax+rightmax));记录直径的最大值；
+// ```
+// 参照大佬写的C++题解，用C语言与全局变量实现
+// 一般计算二叉树的深度返回值用来操作深度，即为retuen的值必然为树的深度；
+// 本题需要两者最大深度之和，使用全局变量实现；（全局变量每次使用之前要初始化）
+//  length=(length>=(leftmax+rightmax)?length:(leftmax+rightmax));记录直径的最大值；
 
 

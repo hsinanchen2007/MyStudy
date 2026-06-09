@@ -1,15 +1,15 @@
-其实这个问题还有一个变形，就是求能够组成[1,amount]中所有值得最少硬币数，我觉得更有挑战性一点（2019腾讯开发岗实习生笔试第一题）
+# 其实这个问题还有一个变形，就是求能够组成[1,amount]中所有值得最少硬币数，我觉得更有挑战性一点（2019腾讯开发岗实习生笔试第一题）
 
-可以参考:
+# 可以参考:
 
-**[硬币问题——组成一个值和组成所有值(腾讯笔试题)](https://www.cnblogs.com/anzhengyu/p/11176134.html)**
+# **[硬币问题——组成一个值和组成所有值(腾讯笔试题)](https://www.cnblogs.com/anzhengyu/p/11176134.html)**
 
-###  动态规划
-dp[i] = 1 + min(dp[i-coins[0]],dp[i-coins[1]],dp[i-coins[2]]...)
+# ###  动态规划
+# dp[i] = 1 + min(dp[i-coins[0]],dp[i-coins[1]],dp[i-coins[2]]...)
 
-写的罗里吧嗦的乐色算法......
-代码如下：
-```
+# 写的罗里吧嗦的乐色算法......
+# 代码如下：
+# ```
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         if amount ==0:   # 总数为0，消耗钱为0
@@ -32,4 +32,4 @@ class Solution:
             return dp[-1]
         else:
             return -1
-```
+# ```

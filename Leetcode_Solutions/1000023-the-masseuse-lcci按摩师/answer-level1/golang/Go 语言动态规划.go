@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func massage(nums []int) int {
 	var ans = make([]int,0)
 	if len(nums) == 0{
@@ -22,4 +22,4 @@ func massage(nums []int) int {
 	}
 	return ans[len(nums)-1]
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+-- ```
 SELECT CASE 
 		WHEN COUNT(*) = 2 THEN SUM(f.Number) / 2
 		ELSE f.Number
@@ -26,4 +26,4 @@ FROM (
 		OR (e.midIndex + needPlus <= f.rightIndex
 			AND e.midIndex + needPlus >= leftIndex)
 WHERE f.Frequency > 0
-```
+-- ```

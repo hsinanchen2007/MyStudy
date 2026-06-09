@@ -1,20 +1,20 @@
-### 解题思路
-1. 首先建立队列，遍历地图记录陆地所在点
-2. 然后记录此时队列的长度，遍历队列中的点，向其上下左右的海洋区域扩张，每生成一块陆地都放入队列中。
-3. 直至到队列为空，结束遍历。
-4. 查找地图中最高的数值并返回。
+// ### 解题思路
+// 1. 首先建立队列，遍历地图记录陆地所在点
+// 2. 然后记录此时队列的长度，遍历队列中的点，向其上下左右的海洋区域扩张，每生成一块陆地都放入队列中。
+// 3. 直至到队列为空，结束遍历。
+// 4. 查找地图中最高的数值并返回。
 
-### UpDate
-参考其他题解[🌊简单Java, 秒懂图的BFS～](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/jian-dan-java-miao-dong-tu-de-bfs-by-sweetiee/)
-本次删去扩张遍历中判断方向的四个if，改为用数组控制方向，
-把声明点位置提出队列循环，提前声明，不用再次遍历数组找最大值，直接调用最后一次赋值陆地点
+// ### UpDate
+// 参考其他题解[🌊简单Java, 秒懂图的BFS～](https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/jian-dan-java-miao-dong-tu-de-bfs-by-sweetiee/)
+// 本次删去扩张遍历中判断方向的四个if，改为用数组控制方向，
+// 把声明点位置提出队列循环，提前声明，不用再次遍历数组找最大值，直接调用最后一次赋值陆地点
 
 
-![TIM图片20200403001744.png](https://pic.leetcode-cn.com/508e14732775fd6eeeec2efd0532308844eb8ef80b5d3129295ccd5a093b60d5-TIM%E5%9B%BE%E7%89%8720200403001744.png)
+// ![TIM图片20200403001744.png](https://pic.leetcode-cn.com/508e14732775fd6eeeec2efd0532308844eb8ef80b5d3129295ccd5a093b60d5-TIM%E5%9B%BE%E7%89%8720200403001744.png)
 
-### 代码
+// ### 代码
 
-```java  [group1-Java]
+// ```java  [group1-Java]
 public class Land{
     int x;
     int y;
@@ -61,4 +61,4 @@ class Solution {
 
     }
 }
-```
+// ```

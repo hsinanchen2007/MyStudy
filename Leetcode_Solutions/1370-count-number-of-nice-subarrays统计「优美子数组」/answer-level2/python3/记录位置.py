@@ -1,9 +1,9 @@
-### 解题思路
-用列表记录前面有多少个偶数，找到对应的加一相乘
+# ### 解题思路
+# 用列表记录前面有多少个偶数，找到对应的加一相乘
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numberOfSubarrays(self, nums: List[int], k: int) -> int:
         res = 0
@@ -24,4 +24,4 @@ class Solution:
             for i in range(index + 1 - k):
                 res = (num2[i] + 1) * (num2[i + k] + 1) + res
             return res
-```
+# ```

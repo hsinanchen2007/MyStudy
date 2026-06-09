@@ -1,9 +1,9 @@
-### 解题思路
-先计算两个数组的中的元素总数sum，将两个数组归并，若总数为偶数：则在归并到sum/2和sum/2+1时将归并的数加和并除2；若总数为奇数：则在归并到sum/2+1时将归并的数直接返回。
+// ### 解题思路
+// 先计算两个数组的中的元素总数sum，将两个数组归并，若总数为偶数：则在归并到sum/2和sum/2+1时将归并的数加和并除2；若总数为奇数：则在归并到sum/2+1时将归并的数直接返回。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size){
     nums1Size--;
     nums2Size--;
@@ -68,4 +68,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
     return anwser;
     }
 }
-```
+// ```

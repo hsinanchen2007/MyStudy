@@ -1,5 +1,5 @@
 
-```golang []
+// ```golang []
 func isValid(s string) bool {
     stack := []rune{}
     dict := map[rune]rune{')': '(', ']': '[', '}': '{'}
@@ -14,6 +14,6 @@ func isValid(s string) bool {
     }
     return len(stack) == 0
 }
-```
-![image.png](https://pic.leetcode-cn.com/97538683a76155a00e9e45c01ceacb5c9adacff8a5236721e90599ebc0e1e164-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/97538683a76155a00e9e45c01ceacb5c9adacff8a5236721e90599ebc0e1e164-image.png)
 

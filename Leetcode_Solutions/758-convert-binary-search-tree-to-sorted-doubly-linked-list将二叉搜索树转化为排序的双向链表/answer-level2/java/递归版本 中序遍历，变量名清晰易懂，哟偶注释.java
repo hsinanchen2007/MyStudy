@@ -1,4 +1,4 @@
-```
+// ```
 // 426. 将二叉搜索树转化为排序的双向链表
     // 构建一个引子节点pre，指向head，遍历完, prev is tail ,然后首尾相连即可
     public TreeNode treeToDoublyList(TreeNode root) {
@@ -25,4 +25,4 @@
         tail.right=head;
         return   head;
     }
-```
+// ```

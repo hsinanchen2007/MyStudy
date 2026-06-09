@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -22,4 +22,4 @@ func hasPathSum(root *TreeNode, sum int) bool {
     }
     return false
 }
-```
+// ```

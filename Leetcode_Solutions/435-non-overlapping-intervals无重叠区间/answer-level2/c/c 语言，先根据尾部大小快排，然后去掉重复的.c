@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int compare(const void *a, const void *b) {
     int *range1 = *(int **)a;
     int *range2 = *(int **)b;
@@ -31,4 +31,4 @@ int eraseOverlapIntervals(int** intervals, int intervalsSize, int* intervalsColS
     }
     return num;
 }
-```
+// ```

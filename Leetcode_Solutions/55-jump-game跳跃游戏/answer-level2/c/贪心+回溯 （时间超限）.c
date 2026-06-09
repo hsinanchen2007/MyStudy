@@ -1,4 +1,4 @@
-```
+// ```
 
 
 bool walk(int* nums, int numsSize, int step) {
@@ -28,4 +28,4 @@ bool canJump(int* nums, int numsSize){
 	return walk(nums, numsSize, 0);
 }
 
-```
+// ```

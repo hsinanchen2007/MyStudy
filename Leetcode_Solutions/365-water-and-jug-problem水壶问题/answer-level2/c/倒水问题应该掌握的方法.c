@@ -1,9 +1,9 @@
-### 解题思路
-深度优先搜索
+// ### 解题思路
+// 深度优先搜索
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_SIZE 1000000
 bool dfs(int x, int y, int z, int water, int *visited)
 {
@@ -37,4 +37,4 @@ bool canMeasureWater(int x, int y, int z){
     
     return dfs(x, y, z, 0, visited);
 }
-```
+// ```

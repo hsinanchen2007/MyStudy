@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} N
  * @return {number}
@@ -24,4 +24,4 @@ var knightDialer = function(N) {
     }
     return (a0 + a1 + a2 + a3 + a4 + a6 + a7 + a8 + a9) % mod
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历字符串，符合常规，查询字典累加；你符合常规，按两位查询特殊字典累加
+# ### 解题思路
+# 遍历字符串，符合常规，查询字典累加；你符合常规，按两位查询特殊字典累加
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def romanToInt(self, s):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                 result+=mydict[s[i]]
             i=i+1
         return result
-```
+# ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
         return resV;
     }
 };
-```
+// ```

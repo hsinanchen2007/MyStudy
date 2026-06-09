@@ -1,4 +1,4 @@
-```sql
+-- ```sql
 SELECT t1.Day AS Day,
     /*t2.Cancelled, t1.Total,*/ 
     round(IFNULL(t2.Cancelled,0.0)/t1.Total,2) AS 'Cancellation Rate'
@@ -25,4 +25,4 @@ LEFT JOIN (
     HAVING Day BETWEEN '2013-10-01' AND '2013-10-03'
 ) t2 ON t1.Day=t2.Day
 ORDER BY Day
-```
+-- ```

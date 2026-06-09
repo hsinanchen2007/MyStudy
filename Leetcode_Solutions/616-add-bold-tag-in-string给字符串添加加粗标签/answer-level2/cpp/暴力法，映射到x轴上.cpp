@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addBoldTag(string s, vector<string>& dict) {
@@ -41,6 +41,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/5811a7c23d019e8f59fde904bf83407aa30937cdf2397d9b00f8553d25728973-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5811a7c23d019e8f59fde904bf83407aa30937cdf2397d9b00f8553d25728973-image.png)

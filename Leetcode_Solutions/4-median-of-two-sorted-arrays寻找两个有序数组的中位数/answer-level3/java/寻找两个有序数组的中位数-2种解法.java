@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 解法一：寻找第k个数和第k - 1个数
+// # 解法一：寻找第k个数和第k - 1个数
 
-时间复杂度是O(n)，其中n为nums1数组的长度和nums2数组的长度总和。空间复杂度是O(1)。
+// 时间复杂度是O(n)，其中n为nums1数组的长度和nums2数组的长度总和。空间复杂度是O(1)。
 
-执行用时：12ms，击败86.12%。消耗内存：52.8MB，击败69.61%。
+// 执行用时：12ms，击败86.12%。消耗内存：52.8MB，击败69.61%。
 
-```java
+// ```java
 public class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n1 = nums1.length, n2 = nums2.length, n = n1 + n2;
@@ -36,15 +36,15 @@ public class Solution {
         return cur;
     }
 }
-```
+// ```
 
-# 解法二：二分查找法
+// # 解法二：二分查找法
 
-时间复杂度和空间复杂度均是O(log(n1 + n2))，其中n1是nums1数组的长度，n2是nums2数组的长度。
+// 时间复杂度和空间复杂度均是O(log(n1 + n2))，其中n1是nums1数组的长度，n2是nums2数组的长度。
 
-执行用时：13ms，击败71.43%。消耗内存：50.3MB，击败78.50%。
+// 执行用时：13ms，击败71.43%。消耗内存：50.3MB，击败78.50%。
 
-```java
+// ```java
 public class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int n1 = nums1.length, n2 = nums2.length, n = n1 + n2, target = (n >> 1) + 1;
@@ -86,4 +86,4 @@ public class Solution {
         return findKthInTwoArrays(nums1, left1 + i, right1, nums2, left2, right2, k - i);
     }
 }
-```
+// ```

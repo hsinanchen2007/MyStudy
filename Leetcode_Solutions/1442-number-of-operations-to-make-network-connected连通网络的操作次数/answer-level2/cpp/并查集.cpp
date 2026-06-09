@@ -1,9 +1,9 @@
-### 解题思路
-并查集模板题，注释在代码中
+// ### 解题思路
+// 并查集模板题，注释在代码中
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int find(vector<int>&father,int x){//查找根节点
@@ -30,4 +30,4 @@ public:
         return cicle-1;//返回圈子连线数
     }
 };
-```
+// ```

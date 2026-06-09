@@ -1,12 +1,12 @@
-解题思路：
-1、备份数组；
-2、对备份数组进行快排，从小到大；
-3、从最大到最小搜寻元素(下标flag)在原始数组中的索引index，交换0~index 之间所有元素的位置，记录index;
-4、交换0~flag之间所有元素，记录flag；
-5、按照3 & 4步骤全部遍历，最后获取结果；
+// 解题思路：
+// 1、备份数组；
+// 2、对备份数组进行快排，从小到大；
+// 3、从最大到最小搜寻元素(下标flag)在原始数组中的索引index，交换0~index 之间所有元素的位置，记录index;
+// 4、交换0~flag之间所有元素，记录flag；
+// 5、按照3 & 4步骤全部遍历，最后获取结果；
 
-示例代码如下：
-```
+// 示例代码如下：
+// ```
 static int ComFun(const void *a, const void *b)
 {
     return *((int *)a) - *((int *)b);
@@ -62,4 +62,4 @@ int* pancakeSort(int* A, int ASize, int* returnSize){
     *returnSize = cnt;
     return result;
 }
-```
+// ```

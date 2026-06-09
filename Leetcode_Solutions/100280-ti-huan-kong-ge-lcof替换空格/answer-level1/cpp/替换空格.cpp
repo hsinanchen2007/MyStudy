@@ -1,9 +1,9 @@
-### 解题思路
-很神奇的一道题，变量名换为res时可以变为双百，执行时间0ms
+// ### 解题思路
+// 很神奇的一道题，变量名换为res时可以变为双百，执行时间0ms
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -17,4 +17,4 @@ public:
         return ans; 
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func nthUglyNumber(n int) int {
 	if n == 1 {
 		return 1
@@ -31,4 +31,4 @@ func nthUglyNumber(n int) int {
 	return nums[n-1]
 }
 
-```
+// ```

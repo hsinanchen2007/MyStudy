@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     string deal(string& s)
@@ -39,4 +39,4 @@ public:
         return ret;
     }
 };
-```
+// ```

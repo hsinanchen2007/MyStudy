@@ -1,11 +1,11 @@
-### 解题思路
-dp 先画图，再写公式，再写代码。
+// ### 解题思路
+// dp 先画图，再写公式，再写代码。
 
-![Screenshot from 2020-02-29 16-59-49.png](https://pic.leetcode-cn.com/86b616d89bf9e8941630c2226e7390a8d85f734df6421c05b42020264f8165b9-Screenshot%20from%202020-02-29%2016-59-49.png)
+// ![Screenshot from 2020-02-29 16-59-49.png](https://pic.leetcode-cn.com/86b616d89bf9e8941630c2226e7390a8d85f734df6421c05b42020264f8165b9-Screenshot%20from%202020-02-29%2016-59-49.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 // 二维DP
 int numDistinct(string s, string t) {
     int s_size = s.size(), t_size = t.size();
@@ -37,4 +37,4 @@ int numDistinct(string s, string t) {
     return dp.back();
 }
 
-```
+// ```

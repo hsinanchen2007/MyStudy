@@ -1,9 +1,9 @@
-### 解题思路
-价格依次取（当前的-过去的最低价）然后取价格的最高
+# ### 解题思路
+# 价格依次取（当前的-过去的最低价）然后取价格的最高
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                 pass
         return total
                 
-```
+# ```

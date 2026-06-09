@@ -1,9 +1,9 @@
-### 解题思路
-单词之间只有尾部包含关系，才能压缩在一起，所以按照这个思路，迭代数组，筛选出相对应的单词即可
+// ### 解题思路
+// 单词之间只有尾部包含关系，才能压缩在一起，所以按照这个思路，迭代数组，筛选出相对应的单词即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         List<String> resultList = new LinkedList<String>();
@@ -37,4 +37,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

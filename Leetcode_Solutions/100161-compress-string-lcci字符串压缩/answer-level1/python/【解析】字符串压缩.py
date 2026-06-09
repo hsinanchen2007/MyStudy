@@ -1,9 +1,9 @@
-### 解题思路
-比较简单的字符串题目，只要照着题目的思路去做基本就可以。
+# ### 解题思路
+# 比较简单的字符串题目，只要照着题目的思路去做基本就可以。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if S == "":
@@ -26,4 +26,4 @@ class Solution:
         else:
             return S
 
-```
+# ```

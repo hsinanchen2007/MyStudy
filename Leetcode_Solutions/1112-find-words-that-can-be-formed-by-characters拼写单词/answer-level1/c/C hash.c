@@ -1,9 +1,9 @@
-### 解题思路
-上代码
+// ### 解题思路
+// 上代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int countCharacters(char ** words, int wordsSize, char * chars){
     int length = strlen(chars);
@@ -36,4 +36,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     free(characters);
     return ret;
 }
-```
+// ```

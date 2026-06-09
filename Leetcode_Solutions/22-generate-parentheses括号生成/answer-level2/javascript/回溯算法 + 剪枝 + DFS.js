@@ -1,10 +1,10 @@
-### 解题思路
-通过回溯算法 + 剪枝 + DFS 实现
-![WechatIMG298.png](https://pic.leetcode-cn.com/956ce0288fd39336d85a883ab1c68e7251996f4264ff6db31ffaf02f21c7f84b-WechatIMG298.png)
+// ### 解题思路
+// 通过回溯算法 + 剪枝 + DFS 实现
+// ![WechatIMG298.png](https://pic.leetcode-cn.com/956ce0288fd39336d85a883ab1c68e7251996f4264ff6db31ffaf02f21c7f84b-WechatIMG298.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -32,4 +32,4 @@ var generateParenthesis = function(n) {
 
     return list
 };
-```
+// ```

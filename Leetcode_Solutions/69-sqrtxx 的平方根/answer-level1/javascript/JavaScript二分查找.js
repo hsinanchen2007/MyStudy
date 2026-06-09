@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-简单的二分查找
+// 简单的二分查找
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -21,4 +21,4 @@ var mySqrt = function(x) {
     }
     return right
 };
-```
+// ```

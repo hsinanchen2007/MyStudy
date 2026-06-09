@@ -1,4 +1,4 @@
-```
+// ```
 var groupAnagrams = function(strs) {
     var res=[];
     var map={};//new Map();
@@ -17,4 +17,4 @@ var groupAnagrams = function(strs) {
     return res;
 };
 
-```
+// ```

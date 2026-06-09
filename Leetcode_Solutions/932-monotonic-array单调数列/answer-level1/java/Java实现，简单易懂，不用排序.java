@@ -1,8 +1,8 @@
 
-![WX20191104-201203@2x.png](https://pic.leetcode-cn.com/bea89fa33772f780273552ee0b4f7d6e9675b3c18855a154765eaf62992b32ca-WX20191104-201203@2x.png)
+// ![WX20191104-201203@2x.png](https://pic.leetcode-cn.com/bea89fa33772f780273552ee0b4f7d6e9675b3c18855a154765eaf62992b32ca-WX20191104-201203@2x.png)
 
-看注释就能看懂了
-```
+// 看注释就能看懂了
+// ```
 public boolean isMonotonic(int[] A) {
         int upNum = 0;//记录数组递增次数
         int downNum = 0;//记录数组递减次数
@@ -28,4 +28,4 @@ public boolean isMonotonic(int[] A) {
         }
         return true;
     }
-```
+// ```

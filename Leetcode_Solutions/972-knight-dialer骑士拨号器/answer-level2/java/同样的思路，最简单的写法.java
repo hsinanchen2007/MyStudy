@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     
     private static final int mod = 1000000007;
@@ -36,4 +36,4 @@ class Solution {
         return (int)(sum % mod);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```go
+// ```go
 // 双指针法
 // 时间复杂度：O(n)，假设数组的长度是n，那么k和i分别最多遍历n步
 // 空间复杂度：O(1)
@@ -12,4 +12,4 @@ func removeDuplicates(nums []int) int {
     }
     return k + 1
 }
-```
+// ```

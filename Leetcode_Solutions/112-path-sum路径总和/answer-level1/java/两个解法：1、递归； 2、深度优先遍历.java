@@ -1,4 +1,4 @@
-```
+// ```
 1、递归
 class Solution {
     public boolean hasPathSum(TreeNode root, int sum) {
@@ -51,4 +51,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-发现需要修改的地方，还望指正，谢谢！
+// ### 解题思路
+// 发现需要修改的地方，还望指正，谢谢！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
    int lengthOfLIS(vector<int>& nums)
@@ -50,4 +50,4 @@ public:
 		return max(nNUmber1, nNumber2);
 	}
 };
-```
+// ```

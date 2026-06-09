@@ -1,5 +1,5 @@
-[https://michael.blog.csdn.net/](https://michael.blog.csdn.net/)
-```
+// [https://michael.blog.csdn.net/](https://michael.blog.csdn.net/)
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -35,4 +35,4 @@ public:
     }
 };
 
-```
+// ```

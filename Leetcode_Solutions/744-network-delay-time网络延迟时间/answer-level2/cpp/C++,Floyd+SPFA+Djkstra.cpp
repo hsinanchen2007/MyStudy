@@ -1,5 +1,5 @@
-# Floyd
-```
+// # Floyd
+// ```
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int N, int K) {
@@ -26,9 +26,9 @@ public:
 
     }
 };
-```
-# SPFA
-```
+// ```
+// # SPFA
+// ```
 class Solution {
 public:
 //SPFA解法
@@ -60,9 +60,9 @@ public:
         return ans;
     }
 };
-```
-# dijkstra
-```
+// ```
+// # dijkstra
+// ```
 struct edge{
     int to;
     int cost;
@@ -101,6 +101,6 @@ public:
         return vis.size()==N?res:-1;
     }
 };
-```
+// ```
 
 

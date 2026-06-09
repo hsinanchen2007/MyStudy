@@ -1,10 +1,10 @@
-### 解题思路
-快速选择之前将选择头、尾、中三者中大小居中的（代码简单粗暴）
-![捕获.PNG](https://pic.leetcode-cn.com/3570cb6d3614a5ceace2a7c6be4b4ad02befc9698e9f20ccdcdd7a0a1c7ebd1a-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 快速选择之前将选择头、尾、中三者中大小居中的（代码简单粗暴）
+// ![捕获.PNG](https://pic.leetcode-cn.com/3570cb6d3614a5ceace2a7c6be4b4ad02befc9698e9f20ccdcdd7a0a1c7ebd1a-%E6%8D%95%E8%8E%B7.PNG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -38,4 +38,4 @@ private:
             return findKth(nums, k, i+1, high);
     }
 };
-```
+// ```

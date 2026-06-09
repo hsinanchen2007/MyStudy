@@ -1,7 +1,7 @@
-动态规划：
-首先按Capital排序
-当k大于等于Profits的长度时，dp[i][j], i是第i个项目，j是是否做这个项目，取0和1
-当k小于Profits的长度时，dp[i][j][k]，i是第一个项目，j是当前做的第j个项目，k是是否做这个项目，取0和1
+// 动态规划：
+// 首先按Capital排序
+// 当k大于等于Profits的长度时，dp[i][j], i是第i个项目，j是是否做这个项目，取0和1
+// 当k小于Profits的长度时，dp[i][j][k]，i是第一个项目，j是当前做的第j个项目，k是是否做这个项目，取0和1
 
 class Solution {
     public int findMaximizedCapital(int k, int W, int[] Profits, int[] Capital) {

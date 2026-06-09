@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def shortestPalindrome(self, s: str) -> str:
         L=len(s)
@@ -9,4 +9,4 @@ class Solution:
             elif i%2==1 and s[:(i+1)//2]==s[(i+1)//2:i+1][::-1]:
                 break 
         return s[i+1:L][::-1]+s
-```
+# ```

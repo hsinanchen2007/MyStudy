@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int countCornerRectangles(vector<vector<int>>& grid) {
@@ -54,4 +54,4 @@ auto _ = [](){
     cout.tie(0);
     return 0;
 }();
-```
+// ```

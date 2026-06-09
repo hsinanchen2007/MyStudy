@@ -1,11 +1,11 @@
-细节题，用一个数组记录下从每个方向进和某个街道对应的出口方向，
-出口方向是进入下一个街道的放方向
-0 是从上往下走
-1 从下往上
-2 从右往左
-3 从左往右
-这样写就不用写太多的if case 不然代码就会像裹脚布一样ORZ
-```java
+// 细节题，用一个数组记录下从每个方向进和某个街道对应的出口方向，
+// 出口方向是进入下一个街道的放方向
+// 0 是从上往下走
+// 1 从下往上
+// 2 从右往左
+// 3 从左往右
+// 这样写就不用写太多的if case 不然代码就会像裹脚布一样ORZ
+// ```java
     public boolean hasValidPath(int[][] grid) {
         if (grid[0][0] == 5) return false;
         ftMap = new int[4][7];
@@ -53,4 +53,4 @@
         if (x < 0 || x >= grid.length || y < 0 || y >= grid[0].length || ftMap[np][grid[x][y]] == -1) return false;
         return help(grid, x, y, np);
     }
-```
+// ```

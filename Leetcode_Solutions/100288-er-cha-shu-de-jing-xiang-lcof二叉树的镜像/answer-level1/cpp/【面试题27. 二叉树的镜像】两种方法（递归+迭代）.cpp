@@ -1,10 +1,10 @@
-## 思路一：递归
-自底向上。
+// ## 思路一：递归
+// 自底向上。
 
-### 代码
-时间复杂度：O(n)
-空间复杂度：O(n)
-```cpp
+// ### 代码
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```cpp
 class Solution {
 public:
     TreeNode* mirrorTree(TreeNode* root) {
@@ -17,13 +17,13 @@ public:
         return root;
     }
 };
-```
+// ```
 
-### 另一种写法
-自顶向下。
-时间复杂度：O(n)
-空间复杂度：O(n)
-```c++
+// ### 另一种写法
+// 自顶向下。
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ```c++
 class Solution {
 public:
     TreeNode* mirrorTree(TreeNode* root) {
@@ -37,10 +37,10 @@ public:
         return root;
     }
 };
-```
+// ```
 
-### 化简
-```c++
+// ### 化简
+// ```c++
 class Solution {
 public:
     TreeNode* mirrorTree(TreeNode* root) {
@@ -52,14 +52,14 @@ public:
         return root;
     }
 };
-```
+// ```
 
-## 思路二：迭代
-层次遍历。
-时间复杂度：O(n)
-空间复杂度：O(n)
-### 代码
-```c++
+// ## 思路二：迭代
+// 层次遍历。
+// 时间复杂度：O(n)
+// 空间复杂度：O(n)
+// ### 代码
+// ```c++
 class Solution {
 public:
     TreeNode* mirrorTree(TreeNode* root) {
@@ -79,6 +79,6 @@ public:
         return root;
     }
 };
-```
+// ```
 
 

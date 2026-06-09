@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-找到Z字自上而下的规律挨个遍历字符串
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 找到Z字自上而下的规律挨个遍历字符串
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String convert(String s, int numRows) {
         if (numRows == 1) {
@@ -60,4 +60,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

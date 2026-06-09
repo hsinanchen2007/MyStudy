@@ -1,8 +1,8 @@
-### 解题思路
-#比较每一个与其他的大小，
-### 代码
+# ### 解题思路
+# #比较每一个与其他的大小，
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def smallerNumbersThanCurrent(self,nums):
         """检测小的数字"""
@@ -22,4 +22,4 @@ class Solution(object):
 
 
 
-```
+# ```

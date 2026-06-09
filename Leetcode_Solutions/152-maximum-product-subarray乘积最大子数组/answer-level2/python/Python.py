@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxProduct(self, nums):
         maxx=-100
@@ -18,4 +18,4 @@ class Solution(object):
             imin=min(i*imin,i)
             maxx=max(imax,maxx)
         return maxx
-```
+# ```

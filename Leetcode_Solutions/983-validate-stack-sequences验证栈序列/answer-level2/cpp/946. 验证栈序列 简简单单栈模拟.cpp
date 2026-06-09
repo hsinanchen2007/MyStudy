@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![946.jpg](https://pic.leetcode-cn.com/272d1208c6dc24fa7caa267bc8895043f4ca7e626e599da4c64b46d937cd818a-946.jpg)
+// ### 解题思路
+// 此处撰写解题思路
+// ![946.jpg](https://pic.leetcode-cn.com/272d1208c6dc24fa7caa267bc8895043f4ca7e626e599da4c64b46d937cd818a-946.jpg)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <stack>
 class Solution {
 public:
@@ -27,4 +27,4 @@ public:
 
 
 
-```
+// ```

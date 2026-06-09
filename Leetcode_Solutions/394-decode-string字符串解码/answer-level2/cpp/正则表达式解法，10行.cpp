@@ -1,5 +1,5 @@
-一看到字符串的题，我就默默的掏出正则表达式。
-```
+// 一看到字符串的题，我就默默的掏出正则表达式。
+// ```
 class Solution {
 public:
     inline string MultiStr(string &&sub, int num) {
@@ -19,4 +19,4 @@ public:
         return s;
     }
 };
-```
+// ```

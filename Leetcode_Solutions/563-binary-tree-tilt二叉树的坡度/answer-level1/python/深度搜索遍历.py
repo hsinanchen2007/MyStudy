@@ -1,9 +1,9 @@
-### 解题思路
-一开始没有看清是左右子树之和，结果错了还很纳闷哪里出了问题。后来加上了dfs部分。
+# ### 解题思路
+# 一开始没有看清是左右子树之和，结果错了还很纳闷哪里出了问题。后来加上了dfs部分。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
                 queue.append(temp.right)
 
         return sum_
-```
+# ```

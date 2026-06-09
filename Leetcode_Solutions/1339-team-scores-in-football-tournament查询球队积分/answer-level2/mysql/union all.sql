@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-分别算出客队跟主队的分数然后union  注意这里需要union all
-### 代码
+-- ### 解题思路
+-- 此处撰写解题思路
+-- 分别算出客队跟主队的分数然后union  注意这里需要union all
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select a.team_id as team_id,a.team_name as team_name,ifnull(b.num_points,0) as num_points    
@@ -46,4 +46,4 @@ order by num_points desc,team_id
 
 
 
-```
+-- ```

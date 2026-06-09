@@ -1,5 +1,5 @@
-记忆化比区间dp好理解一点 40ms  
-```
+// 记忆化比区间dp好理解一点 40ms  
+// ```
 class Solution {
 public:
     int dp[505][505][2];//左端是l,右端是r,现在到0/1走
@@ -14,4 +14,4 @@ public:
         return dp[l][r][x]+=max(piles[l]-dfs(l+1,r,x^1,n,piles),piles[r]-dfs(l,r-1,x^1,n,piles));
     }
 };
-```
+// ```

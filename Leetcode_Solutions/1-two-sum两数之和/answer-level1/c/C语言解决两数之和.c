@@ -1,12 +1,12 @@
-### 解题思路
-用C语言暴力解法。两个嵌套的for循环进行查找。根据题目要求自行创建新数组。创建时，假如出现
->>load of null pointer of type 'const int'
+// ### 解题思路
+// 用C语言暴力解法。两个嵌套的for循环进行查找。根据题目要求自行创建新数组。创建时，假如出现
+// >>load of null pointer of type 'const int'
 
 
-说明函数返回的指针指向函数内变量，当函数退出后，变量存储空间被销毁。所以可以用static去修饰变量，也可以malloc函数分配内存空间，也可以使用全局变量。
-### 代码
+// 说明函数返回的指针指向函数内变量，当函数退出后，变量存储空间被销毁。所以可以用static去修饰变量，也可以malloc函数分配内存空间，也可以使用全局变量。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -25,4 +25,4 @@ int* twoSum(int* nums, int numsSize, int target,int *returnSize){
     *returnSize=0;
     return ans;
 }
-```
+// ```

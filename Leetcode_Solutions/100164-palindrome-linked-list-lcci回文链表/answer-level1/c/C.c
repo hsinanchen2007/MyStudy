@@ -1,7 +1,7 @@
 
-Reverse the latter half list then compare with the former.
+// Reverse the latter half list then compare with the former.
 
-```
+// ```
 struct ListNode *reverse(struct ListNode* head)
 {
   if(head == NULL || head->next == NULL) return head;
@@ -36,4 +36,4 @@ bool isPalindrome(struct ListNode* head){
 
   return 1;
 }
-```
+// ```

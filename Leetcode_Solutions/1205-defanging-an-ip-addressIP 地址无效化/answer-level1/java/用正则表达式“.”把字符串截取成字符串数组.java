@@ -1,5 +1,5 @@
-用正则表达式“\\.”把字符串截取成字符串数组,遍历字符串数组，取出每一项后边追加“[.]”直到最后一项不用追加
-```
+// 用正则表达式“\\.”把字符串截取成字符串数组,遍历字符串数组，取出每一项后边追加“[.]”直到最后一项不用追加
+// ```
 public static String defangIPaddr(String address) {
         StringBuffer sb = new StringBuffer();
         String [] arr = address.split("\\.");
@@ -12,6 +12,6 @@ public static String defangIPaddr(String address) {
         }
         return sb.toString();
     }
-```
+// ```
 
-第二种：还可以用Java内置函数replaceAll("\\.","[.]");
+// 第二种：还可以用Java内置函数replaceAll("\\.","[.]");

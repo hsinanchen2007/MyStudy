@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def distributeCandies(self, candies, num_people):
         """
@@ -21,4 +21,4 @@ class Solution(object):
                     break
             t += 1 
         return result
-```
+# ```

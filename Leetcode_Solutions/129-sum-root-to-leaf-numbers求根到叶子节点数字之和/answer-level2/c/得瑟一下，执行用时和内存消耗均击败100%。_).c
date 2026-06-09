@@ -1,20 +1,20 @@
-### 解题思路
-简单递归
+// ### 解题思路
+// 简单递归
 
-执行用时 :
-0 ms
-, 在所有 C 提交中击败了
-100.00%
-的用户
-内存消耗 :
-5.8 MB
-, 在所有 C 提交中击败了
-100.00%
-的用户
+// 执行用时 :
+// 0 ms
+// , 在所有 C 提交中击败了
+// 100.00%
+// 的用户
+// 内存消耗 :
+// 5.8 MB
+// , 在所有 C 提交中击败了
+// 100.00%
+// 的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ int sumNumbers(struct TreeNode* root){
 	goThroughTree(root, 0, &total);
 	return total;
 }
-```
+// ```

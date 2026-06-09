@@ -1,7 +1,7 @@
-1. 用hash表存键盘位置数据
-2. 优化使用长度为26的数组存键盘位置数据
+// 1. 用hash表存键盘位置数据
+// 2. 优化使用长度为26的数组存键盘位置数据
 
-```
+// ```
 class Solution {
     public int calculateTime(String keyboard, String word) {
         int[] arr = new int[26];
@@ -23,4 +23,4 @@ class Solution {
         
     }
 }
-```
+// ```

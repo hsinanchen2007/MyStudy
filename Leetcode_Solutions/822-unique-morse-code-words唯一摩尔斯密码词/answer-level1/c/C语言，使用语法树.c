@@ -1,4 +1,4 @@
-```
+// ```
 #define RET_OK	0
 #define RET_ERR	1
 
@@ -95,4 +95,4 @@ int uniqueMorseRepresentations(char ** words, int wordsSize){
 	freeTree(&head);
 	return cnt;
 }
-```
+// ```

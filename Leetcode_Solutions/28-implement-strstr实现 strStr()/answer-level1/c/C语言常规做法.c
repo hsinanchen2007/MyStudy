@@ -1,4 +1,4 @@
-```c
+// ```c
 int strStr(char * haystack, char * needle){
     short len_haystack=0,len_needle=0,i,j;
     while(haystack[len_haystack]!=0) len_haystack++;
@@ -16,4 +16,4 @@ int strStr(char * haystack, char * needle){
     if(i==len_haystack) return -1;
     return 0;
 }
-```
+// ```

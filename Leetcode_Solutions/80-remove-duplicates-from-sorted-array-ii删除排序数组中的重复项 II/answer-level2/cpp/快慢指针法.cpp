@@ -1,12 +1,12 @@
-### 解题思路
-p指针对应慢指针,[0,p]数组中保持着题目要求的，最多为2重复的数组，cur永远大于p
-思路1:nums[p] != nums[p-1]时，那么无论i+1指向什么值都应该替换掉nums[p+1]
-思路2:nums[p] == nums[p-1] 且num[i] != nums[p]时，p指针也要递增，否则p指针保持不变
+// ### 解题思路
+// p指针对应慢指针,[0,p]数组中保持着题目要求的，最多为2重复的数组，cur永远大于p
+// 思路1:nums[p] != nums[p-1]时，那么无论i+1指向什么值都应该替换掉nums[p+1]
+// 思路2:nums[p] == nums[p-1] 且num[i] != nums[p]时，p指针也要递增，否则p指针保持不变
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -31,4 +31,4 @@ public:
         return p+1;
     }
 };
-```
+// ```

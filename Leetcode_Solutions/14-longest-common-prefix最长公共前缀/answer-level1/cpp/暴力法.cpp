@@ -1,8 +1,8 @@
-记得写break，不然后面后相同的也会算进去。
+// 记得写break，不然后面后相同的也会算进去。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var getLeastNumbers = function(arr, k) {
     let newarr = quickSort(arr);
     return newarr.slice(0, k);
@@ -29,4 +29,4 @@ var quickSort = function(array) {
         sort(newArr);
         return newArr;
     }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-滑块窗口模板题
-维护一段连续序列，一旦序列和小于0（也就是说这一段序列对区间和的贡献为负），就清空序列，重新开始计数。
-其他例题可以参考bzoj等
+// ### 解题思路
+// 滑块窗口模板题
+// 维护一段连续序列，一旦序列和小于0（也就是说这一段序列对区间和的贡献为负），就清空序列，重新开始计数。
+// 其他例题可以参考bzoj等
 
-![image.png](https://pic.leetcode-cn.com/e2fc967822ab3595bea6f2ee4cf8f1ebce8146ef6e659a4b4648d03a6691f9bd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e2fc967822ab3595bea6f2ee4cf8f1ebce8146ef6e659a4b4648d03a6691f9bd-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         return ans;
     }
 };
-```
+// ```

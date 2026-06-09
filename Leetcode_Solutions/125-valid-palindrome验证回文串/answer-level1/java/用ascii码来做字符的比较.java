@@ -1,12 +1,12 @@
-### 解题思路
-解题思路太简单了。
+// ### 解题思路
+// 解题思路太简单了。
 
-被0P坑了。
-![WX20200322-234745.png](https://pic.leetcode-cn.com/b239da09b0874f1c2e3b1fc197e468fca621f18c58a3fd3a4828b8fc353c5f83-WX20200322-234745.png)
+// 被0P坑了。
+// ![WX20200322-234745.png](https://pic.leetcode-cn.com/b239da09b0874f1c2e3b1fc197e468fca621f18c58a3fd3a4828b8fc353c5f83-WX20200322-234745.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(String s) {
         if (s == null || s.length() == 0 || s.length() == 1) {
@@ -50,4 +50,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

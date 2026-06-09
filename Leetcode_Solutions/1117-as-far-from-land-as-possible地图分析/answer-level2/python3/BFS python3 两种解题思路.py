@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/b21350eb05f6281b4c240114d01c1cd8074c9906c816238bdf2f5b6f0dfbe83c-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b21350eb05f6281b4c240114d01c1cd8074c9906c816238bdf2f5b6f0dfbe83c-image.png)
 
-```
+# ```
 class Solution:
     def maxDistance(self, grid) -> int:
         '''
@@ -30,4 +30,4 @@ class Solution:
                     queue.append((neighbor[0], neighbor[1], dist + 1))
         return max_dist
 
-```
+# ```

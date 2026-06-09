@@ -1,10 +1,10 @@
-### 解题思路
-算天际线，然后逐个算高度即可
-![image.png](https://pic.leetcode-cn.com/3a2138425fc12a66017e719671e7b3f278abd6fe4754c9e16f1463ed4b487264-image.png)
+// ### 解题思路
+// 算天际线，然后逐个算高度即可
+// ![image.png](https://pic.leetcode-cn.com/3a2138425fc12a66017e719671e7b3f278abd6fe4754c9e16f1463ed4b487264-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxCol(int** grid, int gridSize, int gridColSize, int **colMax)
 {
 	int i, j;
@@ -60,4 +60,4 @@ int maxIncreaseKeepingSkyline(int** grid, int gridSize, int* gridColSize){
 	free(rowMax);
 	return rlt;
 }
-```
+// ```

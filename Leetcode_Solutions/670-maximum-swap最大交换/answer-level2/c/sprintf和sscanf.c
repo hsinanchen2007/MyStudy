@@ -1,4 +1,4 @@
-```c
+// ```c
 int maximumSwap(int num){
     char nums[10];
     sprintf(nums, "%d", num);
@@ -33,4 +33,4 @@ int maximumSwap(int num){
     }
     return num;
 }
-```
+// ```

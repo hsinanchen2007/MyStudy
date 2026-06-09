@@ -1,14 +1,14 @@
-### 解题思路一
-使用 `OrderedDictionary` 来储存frequency，当出现超过一次时，直接移除旧的记录，然后添加一个值为false的记录。
+// ### 解题思路一
+// 使用 `OrderedDictionary` 来储存frequency，当出现超过一次时，直接移除旧的记录，然后添加一个值为false的记录。
 
-我本来是想通过使用OrderedDictionary来
-1. 避免使用额外的属性来记录该 char 第一次出现的index
-2. 繁琐的 List 查询，看是否存在于该 List 中
+// 我本来是想通过使用OrderedDictionary来
+// 1. 避免使用额外的属性来记录该 char 第一次出现的index
+// 2. 繁琐的 List 查询，看是否存在于该 List 中
 
-可是目前看来，`OrderedDictionary` 相较于 Dictionary 的优势，并没有那么明显。（或者我使用方法错了）
+// 可是目前看来，`OrderedDictionary` 相较于 Dictionary 的优势，并没有那么明显。（或者我使用方法错了）
 
-### 代码
-```csharp
+// ### 代码
+// ```csharp
 using System.Collections.Specialized;
 
 public class Solution 
@@ -52,13 +52,13 @@ public class Solution
         }
     }
 }
-```
+// ```
 
-### 解题思路二
-使用一个 `Dictionary<char, (int, int)>` 来储存 char 的频率和首次出现的 index。
+// ### 解题思路二
+// 使用一个 `Dictionary<char, (int, int)>` 来储存 char 的频率和首次出现的 index。
 
-### 代码
-```csharp
+// ### 代码
+// ```csharp
 public class Solution
 {
     public char FirstUniqChar(string s)
@@ -94,4 +94,4 @@ public class Solution
         }
     }
 }
-```
+// ```

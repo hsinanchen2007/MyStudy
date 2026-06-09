@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-利用内积函数就行了
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 利用内积函数就行了
+# ### 代码
 
-```ruby
+# ```ruby
 # @param {String} digits
 # @return {String[]}
 def letter_combinations(digits)
@@ -25,4 +25,4 @@ def letter_combinations(digits)
 
     arr.empty? ? [] : arr[0].product(*arr[1..-1]).map{|e| e.join("")}
 end
-```
+# ```

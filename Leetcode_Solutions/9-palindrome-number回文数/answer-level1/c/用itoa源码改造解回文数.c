@@ -1,9 +1,9 @@
-### 解题思路
-因为itoaz用不了所以去查了查它源码，然后直接把最后数组反转改成了回文验证
+// ### 解题思路
+// 因为itoaz用不了所以去查了查它源码，然后直接把最后数组反转改成了回文验证
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 
 bool isPalindrome(int x){
@@ -27,4 +27,4 @@ bool isPalindrome(int x){
         return true;
     }
 }
-```
+// ```

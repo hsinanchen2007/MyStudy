@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def searchInsert(self, nums, target):
         left_pointer = 0
@@ -20,4 +20,4 @@ class Solution:
             if nums[mid] < target:
                 left_pointer = mid
         return left_pointer + 1
-```
+# ```

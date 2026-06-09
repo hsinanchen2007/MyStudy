@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2f19f507955ee65db8558e39403a1075da1032970734d7bd52f84b5cbbfd6023-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/2f19f507955ee65db8558e39403a1075da1032970734d7bd52f84b5cbbfd6023-image.png)
 
-不断逼近L R，直到最后L==R
-不清楚最后return L/R，取mid就好了
-### 代码
+// 不断逼近L R，直到最后L==R
+// 不清楚最后return L/R，取mid就好了
+// ### 代码
 
-```c
+// ```c
 int findPeakElement(int* nums, int numsSize){
     if(nums==NULL || numsSize==1) return 0;
 
@@ -25,4 +25,4 @@ int findPeakElement(int* nums, int numsSize){
     mid = (left + right) /2;
     return mid;
 }
-```
+// ```

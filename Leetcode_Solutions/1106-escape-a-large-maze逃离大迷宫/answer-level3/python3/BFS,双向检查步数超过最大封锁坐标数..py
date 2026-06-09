@@ -1,16 +1,16 @@
-第一次写题解,当作笔记吧.
+# 第一次写题解,当作笔记吧.
 
-        思路: blocked 能封锁的 最多坐标数是 (len(blocked)*(len(blocked)-1))//2, 
-              如果从开始-->目标 能走的步数大于这个数,
-                 从 目标-->开始 能走的步数大于这个数,  (因为目标也可能被blocked包围,双向检测)
-                 则True   
-              广度搜索,走过的放入walked.
-              判断是否走过或者在blocked里,用set()查询O(1).
+#         思路: blocked 能封锁的 最多坐标数是 (len(blocked)*(len(blocked)-1))//2, 
+#               如果从开始-->目标 能走的步数大于这个数,
+#                  从 目标-->开始 能走的步数大于这个数,  (因为目标也可能被blocked包围,双向检测)
+#                  则True   
+#               广度搜索,走过的放入walked.
+#               判断是否走过或者在blocked里,用set()查询O(1).
 
-下图是用 Onenote画的,最大封锁坐标数. 等差为1的等差数列求和.
-![1036. 逃离大迷宫_草图.png](https://pic.leetcode-cn.com/45fde40094c9b17243e055621fe5356f2f26d2f60dc5092baab4def795dd6b27-1036.%20%E9%80%83%E7%A6%BB%E5%A4%A7%E8%BF%B7%E5%AE%AB_%E8%8D%89%E5%9B%BE.png)
-具体代码都写了注释,变量名都是很直观的.
-```
+# 下图是用 Onenote画的,最大封锁坐标数. 等差为1的等差数列求和.
+# ![1036. 逃离大迷宫_草图.png](https://pic.leetcode-cn.com/45fde40094c9b17243e055621fe5356f2f26d2f60dc5092baab4def795dd6b27-1036.%20%E9%80%83%E7%A6%BB%E5%A4%A7%E8%BF%B7%E5%AE%AB_%E8%8D%89%E5%9B%BE.png)
+# 具体代码都写了注释,变量名都是很直观的.
+# ```
 class Solution:
 
     def isEscapePossible(self, blocked: list, source: list, target: list) -> bool:
@@ -44,4 +44,4 @@ class Solution:
                             q.append([new_x, new_y])  # 加到q里, 下一次开始走的坐标.
                             walked.add((new_x, new_y))  # 加到走过的坐标集合walked里.
         return False  # 能走的都走过了,步数没有超过最大封锁数,或者没有走到end(即target).
-```
+# ```

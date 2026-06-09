@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，开启上帝视角后面利润会不会超过现在。
+// ### 解题思路
+// 动态规划，开启上帝视角后面利润会不会超过现在。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     if(pricesSize==0)
         return 0;
@@ -20,4 +20,4 @@ int maxProfit(int* prices, int pricesSize){
     }
     return mprofit;   
 }
-```
+// ```

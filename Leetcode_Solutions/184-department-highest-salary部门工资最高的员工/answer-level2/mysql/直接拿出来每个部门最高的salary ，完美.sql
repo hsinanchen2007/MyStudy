@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select 
@@ -18,4 +18,4 @@ left join
     Department t3 on t3.Id =t1.DepartmentId 
 where t1.Salary =t2.Salary and t3.Name is not null
 
-```
+-- ```

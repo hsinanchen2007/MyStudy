@@ -1,9 +1,9 @@
-### 解题思路
-编写哈希映射函数解决同构问题
+# ### 解题思路
+# 编写哈希映射函数解决同构问题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
 
@@ -24,4 +24,4 @@ class Solution:
         else:
             return False
 
-```
+# ```

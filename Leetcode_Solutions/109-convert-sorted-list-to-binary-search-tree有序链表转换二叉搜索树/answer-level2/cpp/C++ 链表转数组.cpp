@@ -1,9 +1,9 @@
-### 解题思路
-先把链表转化成数组，题目变成了一个easy题目。
+// ### 解题思路
+// 先把链表转化成数组，题目变成了一个easy题目。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,4 +43,4 @@ public:
         return dfs(ans,0,ans.size());
     }
 };
-```
+// ```

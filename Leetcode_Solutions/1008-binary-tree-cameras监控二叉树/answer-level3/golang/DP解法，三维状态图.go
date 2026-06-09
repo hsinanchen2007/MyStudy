@@ -1,9 +1,9 @@
-### 解题思路
-参考官方解法的三维DP
+// ### 解题思路
+// 参考官方解法的三维DP
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -59,4 +59,4 @@ func minThree(a, b, c int) int {
     }
     return res
 } 
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int rangeSumBST(TreeNode root, int l, int r) {
         if (root == null) {
@@ -13,4 +13,4 @@ class Solution {
         }
     }
 }
-```
+// ```

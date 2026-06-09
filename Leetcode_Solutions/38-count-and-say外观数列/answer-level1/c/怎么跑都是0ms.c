@@ -1,5 +1,5 @@
-本解法就是简单的用代码将推算的过程模拟出来
-```
+// 本解法就是简单的用代码将推算的过程模拟出来
+// ```
 void cas(int n,char *s1, char *s2, char* s1head, char *s2head);
 char * countAndSay(int n){
     char *s1=(char *)calloc(5000,sizeof(char));
@@ -34,5 +34,5 @@ void cas(int n,char *s1, char *s2, char* s1head, char *s2head){
     strcpy(s1head,s2head);
     cas(n-1,s1head,s2head,s1head,s2head);
 }
-```
-![image.png](https://pic.leetcode-cn.com/20eb0e3e24c6fc031f709bbb79cd10de99d34fb63ed43f191cb26c1f1d446c40-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/20eb0e3e24c6fc031f709bbb79cd10de99d34fb63ed43f191cb26c1f1d446c40-image.png)

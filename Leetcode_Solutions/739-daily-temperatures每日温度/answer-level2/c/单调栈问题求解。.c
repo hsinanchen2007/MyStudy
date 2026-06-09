@@ -1,9 +1,9 @@
-### 解题思路
-注意边界问题，尤其是自定义的库。
+// ### 解题思路
+// 注意边界问题，尤其是自定义的库。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_ITEMS       300001
 
 
@@ -122,4 +122,4 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
 	*returnSize = TSize;
     return ret;
 }
-```
+// ```

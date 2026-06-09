@@ -1,6 +1,6 @@
-本来是用两个map来解决的，但是效率不是很高，参考了最佳答案，改为map + doubly linked list
+// 本来是用两个map来解决的，但是效率不是很高，参考了最佳答案，改为map + doubly linked list
 
-```golang
+// ```golang
 import "container/list"
 
 type Node struct {
@@ -50,4 +50,4 @@ func (this *LRUCache) Put(key int, value int)  {
     
     this.cache[key] = ele
 }
-```
+// ```

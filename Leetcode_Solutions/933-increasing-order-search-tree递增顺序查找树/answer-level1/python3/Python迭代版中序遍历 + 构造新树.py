@@ -1,6 +1,6 @@
-利用栈来模拟中序遍历的递归过程， 然后再建立一个新树
+# 利用栈来模拟中序遍历的递归过程， 然后再建立一个新树
 
-```python []
+# ```python []
 def increasingBST(root):
     if root:
         stack = []
@@ -22,5 +22,5 @@ def increasingBST(root):
             cur.right = TreeNode(v)
             cur = cur.right
         return ans.right
-```
+# ```
 

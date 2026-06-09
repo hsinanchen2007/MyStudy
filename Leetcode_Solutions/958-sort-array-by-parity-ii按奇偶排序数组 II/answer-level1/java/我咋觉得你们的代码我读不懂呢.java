@@ -1,5 +1,5 @@
-思路：找到奇指针不满足的位置；找到偶指针不满足的位置；交换即可；
-```java
+// 思路：找到奇指针不满足的位置；找到偶指针不满足的位置；交换即可；
+// ```java
     public static int[] sortArrayByParityII(int[] arr) {
         if(arr.length<2){//边界
             return arr;

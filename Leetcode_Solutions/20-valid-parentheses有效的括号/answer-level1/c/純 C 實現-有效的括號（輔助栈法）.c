@@ -1,6 +1,6 @@
-![2019-09-28_00-07.png](https://pic.leetcode-cn.com/5c6c1decb922d405a8fa73806ccdfe70422bf82ae9c38f96da85edbfba57d28d-2019-09-28_00-07.png)
+// ![2019-09-28_00-07.png](https://pic.leetcode-cn.com/5c6c1decb922d405a8fa73806ccdfe70422bf82ae9c38f96da85edbfba57d28d-2019-09-28_00-07.png)
 
-```c
+// ```c
 struct Node {
     char c;
     struct Node * next;
@@ -55,4 +55,4 @@ bool isValid(char * s){
         return 0;
     }
 }
-```
+// ```

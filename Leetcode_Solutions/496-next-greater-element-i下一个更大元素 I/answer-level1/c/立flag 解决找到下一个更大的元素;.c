@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1 step 返回长度,申请空间;
-2 step 立flag 判定何时跳出；
-3 step 返回指针;
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1 step 返回长度,申请空间;
+// 2 step 立flag 判定何时跳出；
+// 3 step 返回指针;
+// ### 代码
 
-```c      
+// ```c      
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -32,30 +32,30 @@ int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, in
        return p;
 }
 
-```法二普通的循环法;
-/**
- * Note: The returned array must be malloced, assume caller calls free().
- */
-int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, int* returnSize){
-    int i,j;
-    int *result;
-    result=(int *)malloc(sizeof(int)*nums1Size);
-    *returnSize=nums1Size;
-    for(i=0;i<nums1Size;i++){
-        for(j=0;j<nums2Size;j++){
-            if(nums2[j]==nums1[i]){
-                while(j<nums2Size&&nums2[j]<=nums1[i]){  //判段条件在首while() 由 nums2[j]<=nums1[i]最后跳出的j为需要的j 
-                    j++;
-                }
-                break;
-            }
-        }
-         if(j==nums2Size){
-                    result[i]=-1;
-                }
-                else{
-                    result[i]=nums2[j];
-                }
-    }
-    return result;
-}
+// ```法二普通的循环法;
+// /**
+//  * Note: The returned array must be malloced, assume caller calls free().
+//  */
+// int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, int* returnSize){
+//     int i,j;
+//     int *result;
+//     result=(int *)malloc(sizeof(int)*nums1Size);
+//     *returnSize=nums1Size;
+//     for(i=0;i<nums1Size;i++){
+//         for(j=0;j<nums2Size;j++){
+//             if(nums2[j]==nums1[i]){
+//                 while(j<nums2Size&&nums2[j]<=nums1[i]){  //判段条件在首while() 由 nums2[j]<=nums1[i]最后跳出的j为需要的j 
+//                     j++;
+//                 }
+//                 break;
+//             }
+//         }
+//          if(j==nums2Size){
+//                     result[i]=-1;
+//                 }
+//                 else{
+//                     result[i]=nums2[j];
+//                 }
+//     }
+//     return result;
+// }

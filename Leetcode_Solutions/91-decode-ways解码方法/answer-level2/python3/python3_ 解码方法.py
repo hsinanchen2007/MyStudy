@@ -1,4 +1,4 @@
-```python
+# ```python
 def numDecodings(s):
     """
         1. dp问题: dp[i] = dp[i - 1] + dp[i-2]
@@ -26,4 +26,4 @@ def numDecodings(s):
 print(numDecodings("12"))
 print(numDecodings("226"))
 print(numDecodings("4123718931"))
-```
+# ```

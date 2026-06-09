@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def computeArray(self,pattern):
         lps = [0]*len(pattern)
@@ -35,10 +35,10 @@ class Solution:
         if not needle:
             return 0
         return self.KMP(haystack,needle)
-```
+# ```
 
-双指针-python
-```
+# 双指针-python
+# ```
 class Solution:
     #use two needles
     def strStr(self, haystack: str, needle: str) -> int:
@@ -59,4 +59,4 @@ class Solution:
                  return i
             i += 1
         return -1
-```
+# ```

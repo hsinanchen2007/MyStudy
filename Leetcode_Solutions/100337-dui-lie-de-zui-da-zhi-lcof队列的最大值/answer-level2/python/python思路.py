@@ -1,11 +1,11 @@
-### 解题思路
-push_back 其实也是利用了队列先进先出的特性 因为如果先进队列的值小于当前要插入的值，那么这些小的值在主队列pop他们的时候是不影响最大值的变化
-所以维护的 sort_queue 是一个由大到小递减的队列 当有更大的值插入时 把那些先插入队列较小的值可以pop出去了
+# ### 解题思路
+# push_back 其实也是利用了队列先进先出的特性 因为如果先进队列的值小于当前要插入的值，那么这些小的值在主队列pop他们的时候是不影响最大值的变化
+# 所以维护的 sort_queue 是一个由大到小递减的队列 当有更大的值插入时 把那些先插入队列较小的值可以pop出去了
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import deque
 class MaxQueue(object):
 
@@ -48,4 +48,4 @@ class MaxQueue(object):
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

@@ -1,14 +1,14 @@
-1. 计算高度、最大宽度，期间会遍历该树，同时生成每一层的 `map[层号]节点列表`，空的用nil占位（主要是这一步比较难）
-遍历方式：前序遍历，生成的map结构如下：
-```
+// 1. 计算高度、最大宽度，期间会遍历该树，同时生成每一层的 `map[层号]节点列表`，空的用nil占位（主要是这一步比较难）
+// 遍历方式：前序遍历，生成的map结构如下：
+// ```
 [0xc00000a160]
 [<nil> 0xc00000a180]
 [<nil> <nil> 0xc00000a1a0 <nil>]
 [<nil> <nil> <nil> <nil> <nil> 0xc00000a1e0 <nil> <nil>]
 [<nil> <nil> <nil> <nil> <nil> <nil> <nil> <nil> <nil> <nil> <nil> 0xc00000a200 <nil> <nil> <nil> <nil>]
-```
-2. 然后对每一层的节点列表依次填充进matrix，具体填充算法就是计算每一行的 start 和 gap，可以自己找找规律
-```
+// ```
+// 2. 然后对每一层的节点列表依次填充进matrix，具体填充算法就是计算每一行的 start 和 gap，可以自己找找规律
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -87,4 +87,4 @@ func pow(x, y int) int {
 	return int(math.Pow(float64(x), float64(y)))
 }
 
-```
+// ```

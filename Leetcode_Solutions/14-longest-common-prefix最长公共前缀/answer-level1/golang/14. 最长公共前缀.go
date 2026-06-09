@@ -1,9 +1,9 @@
-### 解题思路
-通过两次遍历，逐个比较
+// ### 解题思路
+// 通过两次遍历，逐个比较
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestCommonPrefix(strs []string) string {
 	itemsNum:=len(strs)
 	//判断空切片
@@ -45,4 +45,4 @@ func getShortestLen(strs []string)int{
 	}
 	return result
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
 
-```java
+// ```java
     public int reverseBits(int n) {
         int n1 = 0;  //返回结果
         //遍历n二进制的每一位
@@ -11,4 +11,4 @@
         }
         return n1;
     }
-```
+// ```

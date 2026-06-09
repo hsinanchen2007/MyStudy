@@ -1,4 +1,4 @@
-```
+# ```
     def maxDepth(self, root):
         """
         :type root: TreeNode
@@ -30,4 +30,4 @@
                 stack.append((current_depth + 1, root.right))
 
         return depth
-```
+# ```

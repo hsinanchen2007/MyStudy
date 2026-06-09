@@ -1,9 +1,9 @@
-### 解题思路
-我就无脑用了一下istringstream的操作，先把原字符串存进流里面，然后再从流里面用'>>'读入（自动忽略空白字符），最后倒着输出就行了
+// ### 解题思路
+// 我就无脑用了一下istringstream的操作，先把原字符串存进流里面，然后再从流里面用'>>'读入（自动忽略空白字符），最后倒着输出就行了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -21,4 +21,4 @@ public:
         return ans;
     }
 };
-```
+// ```

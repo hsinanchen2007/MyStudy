@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         deque = collections.deque()
@@ -10,4 +10,4 @@ class Solution:
             if i >= k - 1:
                 res.append(nums[deque[0]])
         return res
-```
+# ```

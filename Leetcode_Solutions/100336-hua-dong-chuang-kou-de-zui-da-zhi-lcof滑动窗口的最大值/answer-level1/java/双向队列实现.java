@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-双向队列
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 双向队列
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (null == nums || nums.length == 0 || k > nums.length ) {
@@ -30,4 +30,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

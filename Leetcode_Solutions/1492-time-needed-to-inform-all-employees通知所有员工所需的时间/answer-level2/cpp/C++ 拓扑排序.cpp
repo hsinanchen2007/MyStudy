@@ -1,5 +1,5 @@
-## 代码
-```cpp
+// ## 代码
+// ```cpp
 class Solution {
 public:
     int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
@@ -32,4 +32,4 @@ public:
         return cost[headID] + informTime[headID];
     }
 };
-```
+// ```

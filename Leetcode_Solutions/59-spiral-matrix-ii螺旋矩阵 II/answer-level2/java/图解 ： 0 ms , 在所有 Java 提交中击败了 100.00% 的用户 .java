@@ -1,14 +1,14 @@
-### 解题思路
-![(69}\[L(YJT~X9WBT`JC1NXJ.png](https://pic.leetcode-cn.com/4868647ad5d8ca659b6ab55784dc818c1649a0e82abf266c753d6f14e75c4475-\(69%7D%5BL\(YJT~X9WBT%60JC1NXJ.png)
+// ### 解题思路
+// ![(69}\[L(YJT~X9WBT`JC1NXJ.png](https://pic.leetcode-cn.com/4868647ad5d8ca659b6ab55784dc818c1649a0e82abf266c753d6f14e75c4475-\(69%7D%5BL\(YJT~X9WBT%60JC1NXJ.png)
 
-螺旋的规律是 向右 - 向下 - 向左 - 向上 构建一个矩形
+// 螺旋的规律是 向右 - 向下 - 向左 - 向上 构建一个矩形
 
-之后再继续构建内部的矩形
+// 之后再继续构建内部的矩形
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] generateMatrix(int n) {
         int[][] res = new int[n][n];
@@ -46,4 +46,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

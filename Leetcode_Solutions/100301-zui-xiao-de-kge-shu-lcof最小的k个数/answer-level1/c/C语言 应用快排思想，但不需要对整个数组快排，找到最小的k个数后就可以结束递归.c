@@ -1,6 +1,6 @@
-思路：
-    利用快排思想，实现Partition()函数，当Partition()返回的索引值刚好等于k时，结束递归。
-代码：
+// 思路：
+//     利用快排思想，实现Partition()函数，当Partition()返回的索引值刚好等于k时，结束递归。
+// 代码：
 void Swap(int *arr, int p, int q)
 {
     int tmp;

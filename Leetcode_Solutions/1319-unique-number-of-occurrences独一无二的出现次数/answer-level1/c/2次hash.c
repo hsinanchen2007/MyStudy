@@ -1,10 +1,10 @@
-执行用时 :0 ms, 在所有 c 提交中击败了100.00%的用户
-内存消耗 :7.1 MB, 在所有 c 提交中击败了100.00%的用户
+// 执行用时 :0 ms, 在所有 c 提交中击败了100.00%的用户
+// 内存消耗 :7.1 MB, 在所有 c 提交中击败了100.00%的用户
 
-第一次用传入的参数，作为key，init hash map；
-第二次一第一次制作的hash map为key，init hash map2；
+// 第一次用传入的参数，作为key，init hash map；
+// 第二次一第一次制作的hash map为key，init hash map2；
 
-```
+// ```
 bool uniqueOccurrences(int* arr, int arrSize){
     
     int hash_table[2000];
@@ -31,6 +31,6 @@ bool uniqueOccurrences(int* arr, int arrSize){
     } 
     return true;
 }
-```
+// ```
 
 

@@ -1,9 +1,9 @@
-### 解题思路
-定义了一个全局数组，然后队尾相当于栈顶，写完发现队头front用不到。
+// ### 解题思路
+// 定义了一个全局数组，然后队尾相当于栈顶，写完发现队头front用不到。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_SIZE 1024
 int array[MAX_SIZE];
 //队尾相当于栈顶
@@ -57,4 +57,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

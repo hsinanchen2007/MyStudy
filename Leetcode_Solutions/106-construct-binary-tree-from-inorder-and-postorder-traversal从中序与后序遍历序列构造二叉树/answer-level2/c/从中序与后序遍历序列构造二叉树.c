@@ -1,9 +1,9 @@
-### 解题思路
-要细心哟！！！！！！😁
+// ### 解题思路
+// 要细心哟！！！！！！😁
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ struct TreeNode* sloveTree(int* inorder, int inStart, int inEnd, int* postorder,
     node->right = sloveTree(inorder, i+1, inEnd, postorder, postStart+(i-inStart), postEnd-1);
     return node;
 }
-```
+// ```

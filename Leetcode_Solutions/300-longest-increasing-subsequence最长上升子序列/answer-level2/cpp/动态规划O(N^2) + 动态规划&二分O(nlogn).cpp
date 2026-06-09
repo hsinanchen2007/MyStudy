@@ -1,17 +1,17 @@
 
-## 动态规划O(N^2)
+// ## 动态规划O(N^2)
 
-### 01背包
+// ### 01背包
 
-dp[i]表示以第i个元素结尾的，最长上升子序列的长度
+// dp[i]表示以第i个元素结尾的，最长上升子序列的长度
 
-如果存在第i个元素大于之前的某个元素 nums[j]; `dp[i] = Max(dp[i], dp[j] + 1)`
+// 如果存在第i个元素大于之前的某个元素 nums[j]; `dp[i] = Max(dp[i], dp[j] + 1)`
 
-### 代码实现
+// ### 代码实现
 
-cpp
+// cpp
 
-```cpp
+// ```cpp
 bool cmp(int a, int b){
     return a < b;
 }
@@ -27,13 +27,13 @@ public:
         return *max_element(dp.begin(), dp.end(), cmp);
     }
 };
-```
+// ```
 
-## 动态规划+二分O(nlogn)
+// ## 动态规划+二分O(nlogn)
 
-f[i] 表示 长度为 i+1的递增子序列 最后一个元素的最小值
+// f[i] 表示 长度为 i+1的递增子序列 最后一个元素的最小值
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int f[100000];
@@ -56,4 +56,4 @@ public:
         return l;
     }
 };
-```
+// ```

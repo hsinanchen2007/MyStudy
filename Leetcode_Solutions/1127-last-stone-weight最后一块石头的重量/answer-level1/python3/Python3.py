@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lastStoneWeight(self, stones: List[int]) -> int:    
         req_sorted = True    
@@ -15,4 +15,4 @@ class Solution:
                 stones.append(new_stone)
 
         return 0 if len(stones) == 0 else stones[0]
-```
+# ```

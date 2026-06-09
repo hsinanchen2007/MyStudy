@@ -1,9 +1,9 @@
-### 解题思路
-其实最关键的是我们判断当前数字加入后符合斐波那契，才放入。
+// ### 解题思路
+// 其实最关键的是我们判断当前数字加入后符合斐波那契，才放入。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> splitIntoFibonacci(string S) {
@@ -51,4 +51,4 @@ private:
     vector<int> ans;
     bool find = false;
 };
-```
+// ```

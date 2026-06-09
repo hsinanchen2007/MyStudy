@@ -1,5 +1,5 @@
-**方法一：HashMap存储计数**
-```
+// **方法一：HashMap存储计数**
+// ```
 class Solution {
     /**
     * 思路：
@@ -21,10 +21,10 @@ class Solution {
         return 0;
     }
 }
-```
+// ```
 
-**方法二：数组排序**
-```
+// **方法二：数组排序**
+// ```
 class Solution {
     /**
     * 思路：
@@ -36,10 +36,10 @@ class Solution {
         return nums[nums.length/2];
     }
 }
-```
+// ```
 
-**方法三：Boyer-Moore投票算法**
-```
+// **方法三：Boyer-Moore投票算法**
+// ```
 class Solution {
     /**
     * 思路：
@@ -64,4 +64,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

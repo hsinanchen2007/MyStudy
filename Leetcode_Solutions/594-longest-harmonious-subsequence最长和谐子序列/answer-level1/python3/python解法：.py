@@ -1,9 +1,9 @@
-### 解题思路
-统计每个数字出现的次数并存入字典，再去找满足情况的最长组合长度
+# ### 解题思路
+# 统计每个数字出现的次数并存入字典，再去找满足情况的最长组合长度
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findLHS(self, nums: List[int]) -> int:
         countdict = {}
@@ -18,4 +18,4 @@ class Solution:
                 ret = max(countdict[num]+countdict[num+1],ret)
         return ret
         
-```
+# ```

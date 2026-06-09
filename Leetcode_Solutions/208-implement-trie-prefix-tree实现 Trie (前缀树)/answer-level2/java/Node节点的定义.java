@@ -1,9 +1,9 @@
-### 解题思路
-定义一个Node节点，包含俩个属性：标志是否是单词，映射到下一个字符。使用Map结构，将Node作为map的值，字符作为map的键。
+// ### 解题思路
+// 定义一个Node节点，包含俩个属性：标志是否是单词，映射到下一个字符。使用Map结构，将Node作为map的值，字符作为map的键。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Trie {
 
     private class Node {
@@ -76,4 +76,4 @@ class Trie {
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
-```
+// ```

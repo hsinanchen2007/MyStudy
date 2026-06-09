@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findDisappearedNumbers(nums []int) []int {
 
 	N:= len(nums)
@@ -73,4 +73,4 @@ func findDisappearedNumbers1(nums []int) []int {
 	}
 	return res
 }
-```
+// ```

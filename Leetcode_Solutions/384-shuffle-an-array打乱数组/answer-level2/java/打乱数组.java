@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
         static int originalarr[];
         static int resarr[];
@@ -42,4 +42,4 @@ class Solution {
  * int[] param_1 = obj.reset();
  * int[] param_2 = obj.shuffle();
  */
-```
+// ```

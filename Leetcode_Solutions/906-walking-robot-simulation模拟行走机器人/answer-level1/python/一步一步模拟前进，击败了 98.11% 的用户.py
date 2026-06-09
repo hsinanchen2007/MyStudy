@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def robotSim(self, commands, obstacles):
         """
@@ -41,6 +41,6 @@ class Solution(object):
                 if new_l > max_l:
                     max_l = new_l
         return max_l
-```
+# ```
 
-执行用时 :340 ms, 在所有 python 提交中击败了98.11%的用户
+# 执行用时 :340 ms, 在所有 python 提交中击败了98.11%的用户

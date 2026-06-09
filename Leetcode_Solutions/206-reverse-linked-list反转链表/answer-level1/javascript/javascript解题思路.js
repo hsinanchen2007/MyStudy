@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-这道题主要思路是确定三个点：前一个节点（prev），当前节点（cur），后一个节点（temp），
-每次循环，缓存后一个节点，把前一个节点赋值给当前节点的next，prev和cur依次往前移动一位
-起始条件: cur = head
-终止条件: cur===null
+// ### 解题思路
+// 此处撰写解题思路
+// 这道题主要思路是确定三个点：前一个节点（prev），当前节点（cur），后一个节点（temp），
+// 每次循环，缓存后一个节点，把前一个节点赋值给当前节点的next，prev和cur依次往前移动一位
+// 起始条件: cur = head
+// 终止条件: cur===null
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -30,4 +30,4 @@ var reverseList = function(head) {
     }
     return prev
 };
-```
+// ```

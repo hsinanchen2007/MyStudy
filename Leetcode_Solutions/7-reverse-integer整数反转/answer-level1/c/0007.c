@@ -1,4 +1,4 @@
-```
+// ```
 int reverse(int n) {
     long num = n;
 
@@ -18,4 +18,4 @@ int reverse(int n) {
         return result * flag;
     }
 }
-```
+// ```

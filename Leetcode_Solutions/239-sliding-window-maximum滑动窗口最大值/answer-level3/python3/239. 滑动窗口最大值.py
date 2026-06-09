@@ -1,5 +1,5 @@
-双端队列。建队列和更新队列都属于双端队列的push和pop操作，只不过建立的时候只有push，而更新的时候（本题中）包含一次push和一次pop，因此将这两个函数写出来就可以了。
-```
+# 双端队列。建队列和更新队列都属于双端队列的push和pop操作，只不过建立的时候只有push，而更新的时候（本题中）包含一次push和一次pop，因此将这两个函数写出来就可以了。
+# ```
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         stack = []
@@ -19,4 +19,4 @@ class Solution:
             pushQueue(i)
             res.append(nums[stack[0]])
         return res
-```
+# ```

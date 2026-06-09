@@ -1,6 +1,6 @@
-两个指针分别从左右向中间移动，不是字母或数字的直接跳过，如果字母或数字不相等，直接返回 false;
+// 两个指针分别从左右向中间移动，不是字母或数字的直接跳过，如果字母或数字不相等，直接返回 false;
 
-```
+// ```
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -19,4 +19,4 @@ public:
         return true;
     }
 };
-```
+// ```

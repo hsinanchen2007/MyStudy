@@ -1,5 +1,5 @@
-简单易懂的实现。
-```java
+// 简单易懂的实现。
+// ```java
 class Solution {
     public int myAtoi(String str) {
         int len = str.length();
@@ -40,4 +40,4 @@ class Solution {
         return flag*ans;
     }
 }
-```
+// ```

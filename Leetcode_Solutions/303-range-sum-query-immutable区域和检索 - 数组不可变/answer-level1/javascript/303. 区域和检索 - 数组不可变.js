@@ -1,6 +1,6 @@
-# 暴力法
-直接挂起数组，每次检索时求和
-```
+// # 暴力法
+// 直接挂起数组，每次检索时求和
+// ```
 var NumArray = function(nums) {
     this.nums = nums;
 };
@@ -17,10 +17,10 @@ NumArray.prototype.sumRange = function(i, j) {
     }
     return sum;
 };
-```
-# 尝试二维DP
-其实也是暴力法，只不过是在创建该对象时将所有结果穷举了出来，
-```
+// ```
+// # 尝试二维DP
+// 其实也是暴力法，只不过是在创建该对象时将所有结果穷举了出来，
+// ```
 var NumArray = function(nums) {
     let len = nums.length;
     let dp = Array.from({length:len},x=>Array.from({length:len}, y=>0));
@@ -45,10 +45,10 @@ var NumArray = function(nums) {
 NumArray.prototype.sumRange = function(i, j) {
     return this.result[i][j];
 };
-```
-# DP
-DP结果数组与输出结果的关系是差值关系，想透这点就没有问题了
-```
+// ```
+// # DP
+// DP结果数组与输出结果的关系是差值关系，想透这点就没有问题了
+// ```
 
 var NumArray = function(nums) {
     let dp = [0];
@@ -67,5 +67,5 @@ NumArray.prototype.sumRange = function(i, j) {
     let re = this.re;
     return re[j+1]-re[i];
 };
-```
+// ```
 

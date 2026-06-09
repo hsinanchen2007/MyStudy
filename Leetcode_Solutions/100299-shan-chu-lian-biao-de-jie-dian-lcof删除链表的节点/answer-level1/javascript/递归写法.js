@@ -1,9 +1,9 @@
-### 解题思路
-1.改变val值的head.next指向
+// ### 解题思路
+// 1.改变val值的head.next指向
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -31,4 +31,4 @@ var deleteNode = function(head, val) {
     head.next = deleteNode(head.next,val);
     return head
 };
-```
+// ```

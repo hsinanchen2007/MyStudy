@@ -1,19 +1,19 @@
-### 解题思路
-核心思路：
-1.先排除为无解的场景
-1）行的和与列的和不相等：upper+lower 与colsum不相等
-2）行的和大于列的个数：因为只有0,1两个值，因此行的最大和就是列的长度
-3）行的和小于2的个数：2的个数一定是平分在上下两列，因此行的和必须大于等于2的个数
+// ### 解题思路
+// 核心思路：
+// 1.先排除为无解的场景
+// 1）行的和与列的和不相等：upper+lower 与colsum不相等
+// 2）行的和大于列的个数：因为只有0,1两个值，因此行的最大和就是列的长度
+// 3）行的和小于2的个数：2的个数一定是平分在上下两列，因此行的和必须大于等于2的个数
 
-2.把列和为2的对upperrow进行赋值
-3.如果upperrow未达到upper，且colsum[i] == 1 && upperrow[i] = 0，则对upperrow[i]继续赋值1
-4.lowerrow = colsum - upperrow;
+// 2.把列和为2的对upperrow进行赋值
+// 3.如果upperrow未达到upper，且colsum[i] == 1 && upperrow[i] = 0，则对upperrow[i]继续赋值1
+// 4.lowerrow = colsum - upperrow;
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> reconstructMatrix(int upper, int lower, vector<int>& colsum) {
@@ -58,4 +58,4 @@ public:
         return result;
     }
 };
-```
+// ```

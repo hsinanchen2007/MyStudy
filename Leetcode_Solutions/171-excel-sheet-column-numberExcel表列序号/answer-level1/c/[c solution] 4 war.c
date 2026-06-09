@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-都为了一场没有硝烟的战场。
+// 都为了一场没有硝烟的战场。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int titleToNumber(char * s){
     if(strlen(s) <= 0){
         return -1;
@@ -16,4 +16,4 @@ int titleToNumber(char * s){
     }
     return num;
 }
-```
+// ```

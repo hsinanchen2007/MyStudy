@@ -1,8 +1,8 @@
-### 解题思路
-暴力法：分4个方向寻找
-### 代码
+// ### 解题思路
+// 暴力法：分4个方向寻找
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -58,4 +58,4 @@ public:
         return sum;
     }
 };
-```
+// ```

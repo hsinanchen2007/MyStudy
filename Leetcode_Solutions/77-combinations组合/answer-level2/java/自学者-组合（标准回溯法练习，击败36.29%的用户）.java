@@ -1,10 +1,10 @@
-### 解题思路
-* 标准回溯法
-* 根据条件要求获取结果。
+// ### 解题思路
+// * 标准回溯法
+// * 根据条件要求获取结果。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> result = new ArrayList<>();
@@ -24,4 +24,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-排序 O(nlogn)时间, O(1)空间
-```
+// 排序 O(nlogn)时间, O(1)空间
+// ```
 class Solution {
 public:
     vector<vector<int>> pairSums(vector<int>& nums, int target) {
@@ -21,9 +21,9 @@ public:
         return res;
     }
 };
-```
-hash O(n)时间 O(n)空间
-```
+// ```
+// hash O(n)时间 O(n)空间
+// ```
 class Solution {
 public:
     vector<vector<int>> pairSums(vector<int>& nums, int target) {
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

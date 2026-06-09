@@ -1,24 +1,24 @@
-### 解题思路
-刚开始做，大佬不要嘲笑
-我一开始是想每次遇到重复的字符，从他开始再找最长子串，r题目给的特例通过了
-错误的例子:
-```
+// ### 解题思路
+// 刚开始做，大佬不要嘲笑
+// 我一开始是想每次遇到重复的字符，从他开始再找最长子串，r题目给的特例通过了
+// 错误的例子:
+// ```
 abcabcbb
 01234567  3和0重复，我从3开始再计数
-```
+// ```
 
-but 提交就出现问题了
-想了半天找到了问题，遇到重复的字符，应该从他前一次的下一个开始而不是从新开始
-正确的例子:   
-```
+// but 提交就出现问题了
+// 想了半天找到了问题，遇到重复的字符，应该从他前一次的下一个开始而不是从新开始
+// 正确的例子:   
+// ```
 abcabcbb
 01234567  3和0重复，我从1开始再计数
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
     int len = strlen(s);
     char zichuan[len+1];
@@ -50,6 +50,6 @@ int lengthOfLongestSubstring(char * s){
     now = ((j-front)>temp)?(j-front):temp;
     return now;
 }
-```
+// ```
 
-![H8FO2BWS~3S223~@)DK\]7W1.png](https://pic.leetcode-cn.com/0b50d56c8a6ebb2bae8c4049234ce76dcc5a9db04527ac6514cf41a549137a56-H8FO2BWS~3S223~@\)DK%5D7W1.png)
+// ![H8FO2BWS~3S223~@)DK\]7W1.png](https://pic.leetcode-cn.com/0b50d56c8a6ebb2bae8c4049234ce76dcc5a9db04527ac6514cf41a549137a56-H8FO2BWS~3S223~@\)DK%5D7W1.png)

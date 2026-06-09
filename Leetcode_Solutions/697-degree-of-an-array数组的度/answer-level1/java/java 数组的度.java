@@ -1,6 +1,6 @@
-思路：
-遍历数组，每个数组的元素作为map的key，map的value是一个数组，数组里面有三个值，第一个值是度，第二个值时开始位置，第三个值是长度。
-```
+// 思路：
+// 遍历数组，每个数组的元素作为map的key，map的value是一个数组，数组里面有三个值，第一个值是度，第二个值时开始位置，第三个值是长度。
+// ```
 class Solution {
     public int findShortestSubArray(int[] nums) {
         int length = nums.length;
@@ -24,4 +24,4 @@ class Solution {
         return len;
     }
 }
-```
+// ```

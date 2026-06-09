@@ -1,5 +1,5 @@
-Go优先队列解法
-```
+// Go优先队列解法
+// ```
 // 执行用时 :4 ms, 在所有Go提交中击败了100.00%的用户
 // 内存消耗 :4.7 MB, 在所有Go提交中击败了100.00%的用户
 
@@ -72,4 +72,4 @@ func topKFrequent(words []string, k int) []string {
 	return result
 }
 
-```
+// ```

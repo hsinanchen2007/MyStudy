@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLastWord(char * s){
     if(strlen(s)==0) return 0;
     int i=strlen(s)-1,k=0;
@@ -13,4 +13,4 @@ int lengthOfLastWord(char * s){
     return k;
 
 }
-```
+// ```

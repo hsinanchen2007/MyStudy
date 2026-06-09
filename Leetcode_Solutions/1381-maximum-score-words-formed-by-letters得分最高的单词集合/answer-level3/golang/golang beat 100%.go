@@ -1,7 +1,7 @@
-题目链接:<https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/>  
+// 题目链接:<https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/>  
 
-题目很长，本场比赛作为压轴题，理解题意后其实就是对words满足条件的子集中选出分数最高的组合，对于每个单词有两种选择，拼写或者不拼写，拼写则消耗掉对应的字母，words最大长度为15，数据规模不大，可以采用递归，万能回溯大法，注意不拼写的时候需要先还原消耗掉的字母
-```
+// 题目很长，本场比赛作为压轴题，理解题意后其实就是对words满足条件的子集中选出分数最高的组合，对于每个单词有两种选择，拼写或者不拼写，拼写则消耗掉对应的字母，words最大长度为15，数据规模不大，可以采用递归，万能回溯大法，注意不拼写的时候需要先还原消耗掉的字母
+// ```
 func dfs(words []string,k int,n int,storage *[]int,ans *[]string,score []int,maxScore *int) {
     //如果某个字母剩余使用个数小于0直接return
 	if !check(storage){
@@ -62,4 +62,4 @@ func maxScoreWords(words []string, letters []byte, score []int) int {
 	dfs(words,0,len(words),&storage,&ans,score,&maxScore)
 	return maxScore
 }
-```
+// ```

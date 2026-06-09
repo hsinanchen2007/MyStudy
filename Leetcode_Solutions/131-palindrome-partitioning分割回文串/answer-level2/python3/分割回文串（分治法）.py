@@ -1,15 +1,15 @@
-### 分治法
-1. 对于字符串“s0s1...sn”，先计算出字符串“sn”,"sn-1sn",...,"s1s2...sn"这些字符串的所有分割方法，并将结果保存下来；
-2. 此时计算“s0s1...sn”的所有分割方法：遍历整个字符串，若“s0s1...sk”为回文子串，则其分割方法包括"s0s1...sk"+"sk+1sk+2...sn"的所有分割方法；
-3. 通过1，2步的归纳推导，可以计算出最终字符串s的所有分割方法；
+# ### 分治法
+# 1. 对于字符串“s0s1...sn”，先计算出字符串“sn”,"sn-1sn",...,"s1s2...sn"这些字符串的所有分割方法，并将结果保存下来；
+# 2. 此时计算“s0s1...sn”的所有分割方法：遍历整个字符串，若“s0s1...sk”为回文子串，则其分割方法包括"s0s1...sk"+"sk+1sk+2...sn"的所有分割方法；
+# 3. 通过1，2步的归纳推导，可以计算出最终字符串s的所有分割方法；
 
-#### 优化技巧
-通过阅读[@windliang](/u/windliang/)的题解，可以通过一个dp的二维列表（如dp[i][j]表示s[i,j+1]是否为回文子串，这里是基于[动态规划](https://leetcode-cn.com/problems/palindrome-partitioning/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-3-7/)来求解的）来进一步降低时间复杂度；
+# #### 优化技巧
+# 通过阅读[@windliang](/u/windliang/)的题解，可以通过一个dp的二维列表（如dp[i][j]表示s[i,j+1]是否为回文子串，这里是基于[动态规划](https://leetcode-cn.com/problems/palindrome-partitioning/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-3-7/)来求解的）来进一步降低时间复杂度；
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     """
     对于字符串“s0s1s2...sn”而言，先计算字符串[“s0”,“s0s1”,"s0s1s2",...,"s0s1s2...sn-1"]的分割方案，然后从“sn”开始遍历整个字符串，若“sksk+1...sn”是回文串，则“s0s1...sk-1”的分割方案后+“sksk+1...sn”是部分分割方案；继续遍历从而找到所有的“s0s1s2...sn”的分割方案
@@ -59,4 +59,4 @@ class Solution:
             self.calculation(s[numsOfChar-i-1:], partition_ways, i+1)
 
         return partition_ways[numsOfChar]
-```
+# ```

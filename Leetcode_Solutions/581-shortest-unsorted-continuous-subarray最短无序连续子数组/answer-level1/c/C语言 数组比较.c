@@ -1,10 +1,10 @@
-### 解题思路
-将原数组与排序后的数组进行比较，找到左右边界即可
-![image.png](https://pic.leetcode-cn.com/0cbb50011aab182c462fb126f79a35737d4b93af12f75b5f778469ab1f8682c5-image.png)
+// ### 解题思路
+// 将原数组与排序后的数组进行比较，找到左右边界即可
+// ![image.png](https://pic.leetcode-cn.com/0cbb50011aab182c462fb126f79a35737d4b93af12f75b5f778469ab1f8682c5-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a, const void *b)
 {
 	return *(int*)a > *(int*)b;
@@ -31,4 +31,4 @@ int findUnsortedSubarray(int* nums, int numsSize){
 	free(buf);
 	return r > l ? r - l + 1 : 0;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-1.使用MyStack标记队列中元素个数和队列的头和尾
-2.使用ListCell结构体来形成队列
+// 1.使用MyStack标记队列中元素个数和队列的头和尾
+// 2.使用ListCell结构体来形成队列
 
-```
+// ```
 typedef struct ListCell {
     int val;
     struct ListCell* next;
@@ -79,4 +79,4 @@ void myStackFree(MyStack* obj) {
     obj->tail = NULL;
     obj->len = 0;
 }
-```
+// ```

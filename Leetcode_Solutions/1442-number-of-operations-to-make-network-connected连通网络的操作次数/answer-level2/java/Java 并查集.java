@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
         public int makeConnected(int n, int[][] connections) {
         if (connections.length < n - 1) {
@@ -46,4 +46,4 @@ class Solution {
         }
     }
 }
-```
+// ```

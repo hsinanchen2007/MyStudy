@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/c1c8d88b41fb88db1af5cee0cde92d5fd19508b6faa7d79ea332185feb3298a3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c1c8d88b41fb88db1af5cee0cde92d5fd19508b6faa7d79ea332185feb3298a3-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 思路：
 观察题意和案例可以得出结论
 - 首先，如果 a 和 b 长度不等，那么一定为 false
@@ -9,11 +9,11 @@
 通过条件：
 1.a 和 b 仅有两个字符不等，并且交换后相等
 2.a 和 b 全等，但是必须有重复字母
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} A
  * @param {string} B
@@ -46,4 +46,4 @@ var buddyStrings = function(A, B) {
   return (notEqualA.length === 2 && notEqualA === notEqualB) || 
     (hasRepeat && notEqualA.length === 0);
 };
-```
+// ```

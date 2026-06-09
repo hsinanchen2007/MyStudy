@@ -1,8 +1,8 @@
-使用进位加法原理进行计算
-先转换两个字符串到相同长度，用变量 summ 存储进位值（ 0 表示进位，1 不进位），然后从后到前依次计算
-感觉写出来也没有很长，啦啦啦
+# 使用进位加法原理进行计算
+# 先转换两个字符串到相同长度，用变量 summ 存储进位值（ 0 表示进位，1 不进位），然后从后到前依次计算
+# 感觉写出来也没有很长，啦啦啦
 
-```python
+# ```python
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         if len(a) < len(b): 
@@ -20,4 +20,4 @@ class Solution:
         if summ == 1:    #判断最高位是否需要进位
             result = '1' + result
         return result
-```
+# ```

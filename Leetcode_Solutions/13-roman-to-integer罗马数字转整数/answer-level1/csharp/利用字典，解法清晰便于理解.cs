@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :108 ms, 在所有 csharp 提交中击败了73.77%的用户
-内存消耗 :25 MB, 在所有 csharp 提交中击败了5.69%的用户
-将所有可能构建规则字典，循环每个字符利用Substring截取字符串字典匹配，解法简单明了。
-### 代码
+// ### 解题思路
+// 执行用时 :108 ms, 在所有 csharp 提交中击败了73.77%的用户
+// 内存消耗 :25 MB, 在所有 csharp 提交中击败了5.69%的用户
+// 将所有可能构建规则字典，循环每个字符利用Substring截取字符串字典匹配，解法简单明了。
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int RomanToInt(string s) {
         var dc = new Dictionary<string,int>();
@@ -37,4 +37,4 @@ public class Solution {
         return sum;
     }
 }
-```
+// ```

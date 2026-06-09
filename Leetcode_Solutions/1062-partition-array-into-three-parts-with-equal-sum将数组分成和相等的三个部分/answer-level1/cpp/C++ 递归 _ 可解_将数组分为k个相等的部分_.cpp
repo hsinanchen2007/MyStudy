@@ -1,5 +1,5 @@
-48ms 97.41%
-```
+// 48ms 97.41%
+// ```
     bool canThreePartsEqualSum(vector<int>& s) {
         if(s.size()<3) return 0;
         int sum=accumulate(s.cbegin(),s.cend(),0);
@@ -16,4 +16,4 @@
         }
         return 0;
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func toGoatLatin(S string) string {
 	slice := strings.Fields(S)
 	//用作后缀(ma+第一个a)
@@ -21,4 +21,4 @@ func toGoatLatin(S string) string {
 	return strings.Join(slice," ")
 }
 
-```
+// ```

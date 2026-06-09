@@ -1,9 +1,9 @@
-### 解题思路
-left, right为待扫描索引范围，leftMax为left左边元素的最大值，rightMax为right右边元素的最大值
+// ### 解题思路
+// left, right为待扫描索引范围，leftMax为left左边元素的最大值，rightMax为right右边元素的最大值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
         int len = height.length;
@@ -29,4 +29,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

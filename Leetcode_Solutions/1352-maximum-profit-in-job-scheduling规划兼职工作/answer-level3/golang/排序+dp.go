@@ -1,5 +1,5 @@
-先按照结束时间排序，然后预处理每一个任务的前一个可执行任务的位置，最后dp
-```
+// 先按照结束时间排序，然后预处理每一个任务的前一个可执行任务的位置，最后dp
+// ```
 type AllTask struct {
 	Tasks []*Task
 }
@@ -61,4 +61,4 @@ func jobScheduling(startTime []int, endTime []int, profit []int) int {
 
 	return dp[len(profit)-1]
 }
-```
+// ```

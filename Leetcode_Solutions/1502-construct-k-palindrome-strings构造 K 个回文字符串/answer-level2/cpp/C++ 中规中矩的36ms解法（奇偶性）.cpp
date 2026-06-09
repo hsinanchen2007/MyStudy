@@ -1,5 +1,5 @@
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     bool canConstruct(string s, int k) {
@@ -10,4 +10,4 @@ public:
         return (odd <= k && k <= (int)s.size());
     }
 };
-```
+// ```

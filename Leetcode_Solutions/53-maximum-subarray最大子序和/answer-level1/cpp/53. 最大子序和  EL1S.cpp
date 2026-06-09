@@ -1,5 +1,5 @@
-dp
-```
+// dp
+// ```
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -12,9 +12,9 @@ public:
         return maxsum;
     }
 };
-```
-归并的方式
-```
+// ```
+// 归并的方式
+// ```
 class Solution {
     vector<int> nums;
     int dac(int left, int right)
@@ -48,4 +48,4 @@ public:
         return dac(0, nums.size() - 1);
     }
 };
-```
+// ```

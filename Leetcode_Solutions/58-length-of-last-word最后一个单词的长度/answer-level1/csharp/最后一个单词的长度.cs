@@ -1,5 +1,5 @@
-**思路1：** 利用C#现成类库中的split方法，但是要特别注意"a  "这种情况，不能直接取最后一个string数组元素。
-```
+// **思路1：** 利用C#现成类库中的split方法，但是要特别注意"a  "这种情况，不能直接取最后一个string数组元素。
+// ```
 public int LengthOfLastWord(string s)
         {
             string[] array = s.Split(' ');
@@ -12,11 +12,11 @@ public int LengthOfLastWord(string s)
             }
             return 0;
         }
-```
+// ```
 
 
-**思路2：** 一次遍历，从头开始遍历，计算沿路的每一个单词的长度并将结果更新为最新计算的单词长度，直到结尾(详情见代码及注释)。
-```
+// **思路2：** 一次遍历，从头开始遍历，计算沿路的每一个单词的长度并将结果更新为最新计算的单词长度，直到结尾(详情见代码及注释)。
+// ```
 public int LengthOfLastWord2(string s)
         {
             int result = 0;
@@ -47,6 +47,6 @@ public int LengthOfLastWord2(string s)
 
             return result;
         }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/b98e53b022bcd612211746351e2b2aae525c049de1d55868b51247482bbb56e3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b98e53b022bcd612211746351e2b2aae525c049de1d55868b51247482bbb56e3-image.png)

@@ -1,13 +1,13 @@
-### 解题思路
-二分法：
-![...5%A4%8D%E6%95%B0.MP4](c044a07f-3090-4acf-a438-b8f212e15c5e)
+# ### 解题思路
+# 二分法：
+# ![...5%A4%8D%E6%95%B0.MP4](c044a07f-3090-4acf-a438-b8f212e15c5e)
 
-快慢指针：
-![image.png](https://pic.leetcode-cn.com/1e530fbf0d8ab6be38bace38671ba66d81bad43fbcebe706042d1c519d455304-image.png)
+# 快慢指针：
+# ![image.png](https://pic.leetcode-cn.com/1e530fbf0d8ab6be38bace38671ba66d81bad43fbcebe706042d1c519d455304-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         #二分法
@@ -40,4 +40,4 @@ class Solution:
             slow = nums[slow]
             if (find == slow):
                 return find
-``` 
+# ``` 

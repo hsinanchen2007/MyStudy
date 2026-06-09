@@ -1,9 +1,9 @@
-### 解题思路
-广度优先搜索
+# ### 解题思路
+# 广度优先搜索
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution(object):
 
         bfs(root, 0)
         return levels
-```
+# ```

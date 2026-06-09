@@ -1,5 +1,5 @@
-1. 第一个字符去匹配, 找到集合S1，剩下的字符只需要匹配S1是否满足条件。
-```
+# 1. 第一个字符去匹配, 找到集合S1，剩下的字符只需要匹配S1是否满足条件。
+# ```
 
 class Solution(object):
     def select (self, j_first):
@@ -33,12 +33,12 @@ class Solution(object):
         return R
                              
 print Solution().findWords(["Hello", "Alaska", "Dad", "Peace"])
-```
+# ```
 
-2. **set('ac') <= set('eacb') 测试是否 s 中的每一个元素都在 t 中。**
-该方法更好
+# 2. **set('ac') <= set('eacb') 测试是否 s 中的每一个元素都在 t 中。**
+# 该方法更好
 
-```
+# ```
 class Solution(object):
     def findWords(self, words):
         """
@@ -53,4 +53,4 @@ class Solution(object):
             if j <= set(s1) or j <= set(s2) or j <= set(s3):
                 R.append(i)
         return R
-```
+# ```

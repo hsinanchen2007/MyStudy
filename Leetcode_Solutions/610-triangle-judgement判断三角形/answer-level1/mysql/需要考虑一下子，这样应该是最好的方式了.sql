@@ -1,4 +1,4 @@
-```
+-- ```
 /* Write your PL/SQL query statement below */
 SELECT x, y, z
 	, CASE 
@@ -6,4 +6,4 @@ SELECT x, y, z
 		ELSE 'No'
 	END as triangle 
 FROM triangle
-```
+-- ```

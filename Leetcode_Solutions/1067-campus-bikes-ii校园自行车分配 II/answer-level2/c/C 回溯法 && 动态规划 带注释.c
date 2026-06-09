@@ -1,5 +1,5 @@
-因为回溯法有固定格式，所以一开始用的回溯法
-```
+// 因为回溯法有固定格式，所以一开始用的回溯法
+// ```
 void assignBikesCore(int workersSize, int bikesSize, int* used, int** cost, int result, int cur, int* min);
 int Manhattan(int* woker, int* bike);
 
@@ -62,33 +62,33 @@ int Manhattan(int* woker, int* bike)
 {
 	return (abs(woker[0] - bike[0]) + abs(woker[1] - bike[1]));
 }
-```
+// ```
 
-但是性能太差， 596ms
+// 但是性能太差， 596ms
 
-学习了c速度第一的答案，重写了一遍。
-最后是4ms，
+// 学习了c速度第一的答案，重写了一遍。
+// 最后是4ms，
 
-用的dp，思路是，对于workers， 从左到右依次分配（和回溯法一样）。
+// 用的dp，思路是，对于workers， 从左到右依次分配（和回溯法一样）。
 
-那么bikes的分配状态就可以描述整个的状态了。
-可以使用一个int值的各位描述对应bike的分配状态。
-所以有dp[state] = MIN(dp[nextState_j] + cost[j])。（其中j是当前state下可以分配的车）
+// 那么bikes的分配状态就可以描述整个的状态了。
+// 可以使用一个int值的各位描述对应bike的分配状态。
+// 所以有dp[state] = MIN(dp[nextState_j] + cost[j])。（其中j是当前state下可以分配的车）
 
-动态规划应该是先算小后算大，不过因为使用state描述bikes的分配状态，使用循环很难描述出计算的先后顺序。
-所以使用了递归，并且用-1标记dp， 当我们需要用到dp[i]时如果它为-1，说明dp[i]还没算过，那么就先算出dp[i]。 
+// 动态规划应该是先算小后算大，不过因为使用state描述bikes的分配状态，使用循环很难描述出计算的先后顺序。
+// 所以使用了递归，并且用-1标记dp， 当我们需要用到dp[i]时如果它为-1，说明dp[i]还没算过，那么就先算出dp[i]。 
 
-dp 的边界是dp[state中有workersSize 个 1 时] = 0；
-但实际程序中并不把dp[state中有workersSize 个 1 时] = 0，放入dp，
-而是使用workerLeft 即剩余工人，因为剩余工人 + state中1的个数 = workersSize;
-所以程序可以写成workerLeft == 0 时， return 0;
-也可以在workerLeft == 1 时 修改求返回值的方式，提前终止递归。
+// dp 的边界是dp[state中有workersSize 个 1 时] = 0；
+// 但实际程序中并不把dp[state中有workersSize 个 1 时] = 0，放入dp，
+// 而是使用workerLeft 即剩余工人，因为剩余工人 + state中1的个数 = workersSize;
+// 所以程序可以写成workerLeft == 0 时， return 0;
+// 也可以在workerLeft == 1 时 修改求返回值的方式，提前终止递归。
 
 
 
-注意车比工人多。
+// 注意车比工人多。
 
-```
+// ```
 define STATEMAX 1024  // bikesSize <= 10, 所以最多十位， 1024
 #define MIN(X,Y) (X < Y ? X : Y)
 
@@ -185,5 +185,5 @@ int Manhattan(int* woker, int* bike)
 {
 	return (abs(woker[0] - bike[0]) + abs(woker[1] - bike[1]));
 }
-```
+// ```
 

@@ -1,4 +1,4 @@
-```
+// ```
 int getListLen(struct ListNode *head)
 {
     int len = 0;
@@ -46,4 +46,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
 
     return NULL;
 }
-```
+// ```

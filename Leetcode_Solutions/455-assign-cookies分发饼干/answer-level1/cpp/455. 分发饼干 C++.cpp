@@ -1,9 +1,9 @@
-### 解题思路
-1.将胃口和饼干大小降序排列，优先满足胃口大的孩子也是最优解。
+// ### 解题思路
+// 1.将胃口和饼干大小降序排列，优先满足胃口大的孩子也是最优解。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findContentChildren(vector<int>& g, vector<int>& s) {
@@ -18,4 +18,4 @@ public:
         return ans;
     }
 };
-```
+// ```

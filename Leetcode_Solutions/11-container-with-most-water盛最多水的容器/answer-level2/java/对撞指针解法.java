@@ -1,9 +1,9 @@
-### 解题思路
-对撞指针，从两头找，短边为高乘底算体积，每次短边偏移高边不变。
+// ### 解题思路
+// 对撞指针，从两头找，短边为高乘底算体积，每次短边偏移高边不变。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxArea(int[] height) {
         int l = 0;
@@ -19,4 +19,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

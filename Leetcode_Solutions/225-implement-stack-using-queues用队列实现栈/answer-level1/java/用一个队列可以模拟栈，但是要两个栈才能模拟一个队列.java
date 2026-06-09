@@ -1,9 +1,9 @@
-### 解题思路
-因为队列基于链表构成，LinkedList可以两头操作，所以用一个队列就可以模拟栈，实际上如果想要用栈模拟队列，则必须用两个栈才可以。
+// ### 解题思路
+// 因为队列基于链表构成，LinkedList可以两头操作，所以用一个队列就可以模拟栈，实际上如果想要用栈模拟队列，则必须用两个栈才可以。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
 
     Queue<Integer> queue;
@@ -44,4 +44,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

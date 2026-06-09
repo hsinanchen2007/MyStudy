@@ -1,5 +1,5 @@
-### 利用快速排序对数组里面的数进行 数位比较 的排序，最后转换成字符串
-```
+// ### 利用快速排序对数组里面的数进行 数位比较 的排序，最后转换成字符串
+// ```
 class Solution {
     public String minNumber(int[] nums) {
         quickSortByDit(nums);
@@ -68,4 +68,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

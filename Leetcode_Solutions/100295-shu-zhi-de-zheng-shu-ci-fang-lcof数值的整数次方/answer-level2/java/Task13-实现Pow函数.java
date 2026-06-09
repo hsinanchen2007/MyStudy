@@ -1,9 +1,9 @@
-### 解题思路
-基本上就是将X^n -> X ^ 2 ^ n/2来计算。
+// ### 解题思路
+// 基本上就是将X^n -> X ^ 2 ^ n/2来计算。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double myPow(double x, int n) {
         // 只能使用递归方法
@@ -22,4 +22,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-比较菜，二维的感觉通俗易懂
-```
+# 比较菜，二维的感觉通俗易懂
+# ```
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         n=len(grid[0])
@@ -16,5 +16,5 @@ class Solution:
                 else:
                     dp[i][j]=grid[i][j]
         return dp[-1][-1]
-```
+# ```
 

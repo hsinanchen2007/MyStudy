@@ -1,5 +1,5 @@
-参照了官方题解和下面一些小伙伴的讲解。哈哈哈
-```
+// 参照了官方题解和下面一些小伙伴的讲解。哈哈哈
+// ```
 public class Solution {
     public void NextPermutation(int[] nums) {
         bool find = false;
@@ -40,4 +40,4 @@ public class Solution {
         nums[j]= m;
     }
 }
-```
+// ```

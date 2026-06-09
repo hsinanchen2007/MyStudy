@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn flood_fill(image: Vec<Vec<i32>>, sr: i32, sc: i32, new_color: i32) -> Vec<Vec<i32>> {
         let mut image = image;
@@ -25,5 +25,5 @@ impl Solution {
         image
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

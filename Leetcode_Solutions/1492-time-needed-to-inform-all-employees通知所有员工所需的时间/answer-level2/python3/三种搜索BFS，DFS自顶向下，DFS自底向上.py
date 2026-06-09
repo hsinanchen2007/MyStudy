@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-* DFS自底向上
-```python3
+# * DFS自底向上
+# ```python3
 from queue import Queue
 from collections import defaultdict
 
@@ -27,11 +27,11 @@ class Solution:
             result = max(total, result)
 
         return result
-```
+# ```
 
-* DFS自顶向下
+# * DFS自顶向下
 
-```python3
+# ```python3
 from collections import defaultdict
 
 class Solution:
@@ -52,11 +52,11 @@ class Solution:
 
         for id_ in tmp[head_id]:
             self.dfs(tmp, informTime, id_, total+informTime[head_id])
-```
+# ```
 
-* BFS
+# * BFS
 
-```python3
+# ```python3
 from queue import Queue
 from collections import defaultdict
 class Solution:
@@ -82,7 +82,7 @@ class Solution:
                 result = max(result, val+informTime[this_id])
 
         return result
-```
+# ```
 
     
 

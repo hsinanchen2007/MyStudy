@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路:
-逐次对比，提取公共部分，直到不存在公共部分为止
+# ### 解题思路
+# 此处撰写解题思路:
+# 逐次对比，提取公共部分，直到不存在公共部分为止
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestCommonPrefix(self, strs):
         """
@@ -34,4 +34,4 @@ class Solution(object):
             return nstr
 
         
-```
+# ```

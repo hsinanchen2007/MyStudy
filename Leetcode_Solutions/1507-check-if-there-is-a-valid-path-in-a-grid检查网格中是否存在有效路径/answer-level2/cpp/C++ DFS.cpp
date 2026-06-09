@@ -1,11 +1,11 @@
-### 解题思路
-共6种街型，每种街型有2个方向可以走，每个方向有3种街型可以对接。
+// ### 解题思路
+// 共6种街型，每种街型有2个方向可以走，每个方向有3种街型可以对接。
 
-![图片.png](https://pic.leetcode-cn.com/3e42520c66ac0e6baae1c69903a9a3d2b16339ca269f90ee16e121558604b41b-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/3e42520c66ac0e6baae1c69903a9a3d2b16339ca269f90ee16e121558604b41b-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void WalkNext(const vector<vector<int>>& grid, stack<pair<int, int>>& stk, 
@@ -84,4 +84,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-例子说明的有误导
+# 例子说明的有误导
 
-```
+# ```
 class Solution(object):
     def nextGreaterElement(self, nums1, nums2):
         """
@@ -19,4 +19,4 @@ class Solution(object):
             L.append(default)
         return L
 
-```
+# ```

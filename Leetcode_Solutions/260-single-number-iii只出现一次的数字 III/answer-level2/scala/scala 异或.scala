@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def singleNumber(nums: Array[Int]): Array[Int] = {
     val res = new Array[Int](2)
@@ -9,4 +9,4 @@ object Solution {
     res
   }
 }
-```
+// ```

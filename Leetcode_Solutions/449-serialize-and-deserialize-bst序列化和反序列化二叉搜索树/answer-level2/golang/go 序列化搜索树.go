@@ -1,6 +1,6 @@
-1 前序遍历思想 根->左->右 to string
-2 递归插入 先拿出根  搜索树的思想  左树比根小 依次插入到左树， 右比根大  依次插入到右树
-```
+// 1 前序遍历思想 根->左->右 to string
+// 2 递归插入 先拿出根  搜索树的思想  左树比根小 依次插入到左树， 右比根大  依次插入到右树
+// ```
 type Codec struct {
 }
 
@@ -62,4 +62,4 @@ func (this *Codec) deserialize(data string) *TreeNode {
 	}
 	return &node
 }
-```
+// ```

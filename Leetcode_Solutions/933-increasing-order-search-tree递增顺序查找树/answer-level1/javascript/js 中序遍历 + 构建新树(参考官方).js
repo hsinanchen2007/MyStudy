@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/b544914b96438aefd759a911b1c414936c98711abaec42d464a05056fe4a8e3a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b544914b96438aefd759a911b1c414936c98711abaec42d464a05056fe4a8e3a-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 中序遍历 + 构建新树
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -42,4 +42,4 @@ var increasingBST = function(root) {
   
   return ans.right;
 };
-```
+// ```

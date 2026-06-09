@@ -1,9 +1,9 @@
-### 解题思路
-记录各个字母在各个位置所得的票再利用comparator进行排序。
+// ### 解题思路
+// 记录各个字母在各个位置所得的票再利用comparator进行排序。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String rankTeams(String[] votes) {
         //投票人数
@@ -46,4 +46,4 @@ class Solution {
         return String.valueOf(temp);
     }
 }
-```
+// ```

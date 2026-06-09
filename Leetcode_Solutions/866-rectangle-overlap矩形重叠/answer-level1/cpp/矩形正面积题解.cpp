@@ -1,11 +1,11 @@
-### 解题思路
-1、计算矩形1到矩形2，x轴的距离
-2、计算矩形1和矩形2，x轴的边长之和
-3、进行比较。。
+// ### 解题思路
+// 1、计算矩形1到矩形2，x轴的距离
+// 2、计算矩形1和矩形2，x轴的边长之和
+// 3、进行比较。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -30,4 +30,4 @@ public:
         return true;
     }
 };
-```
+// ```

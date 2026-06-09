@@ -1,9 +1,9 @@
-### 解题思路
-哈希表实现。只能存在一个为奇数，其它必须为偶数才行。
+// ### 解题思路
+// 哈希表实现。只能存在一个为奇数，其它必须为偶数才行。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // a-z:97-122,A-Z:65-90
     public boolean canPermutePalindrome(String s) {
@@ -41,4 +41,4 @@ class Solution {
 
     }
 }
-```
+// ```

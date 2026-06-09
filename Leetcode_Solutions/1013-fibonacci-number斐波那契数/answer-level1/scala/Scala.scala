@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def fib(N: Int): Int = {
         var res = 0
@@ -14,4 +14,4 @@ object Solution {
     res
     }
 }
-```
+// ```

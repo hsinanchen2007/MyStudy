@@ -1,6 +1,6 @@
-时间复杂度 o(n),空间复杂度 o(n)
+// 时间复杂度 o(n),空间复杂度 o(n)
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -37,4 +37,4 @@ func minDepth(root *TreeNode) int {
 	}
 	return 0
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var longestWord = function(words) {
     //按长度排序，如果长度相同，按字典序降序排列,
     let map = new Map();
@@ -23,4 +23,4 @@ var longestWord = function(words) {
     }
     return "";
 };
-```
+// ```

@@ -1,5 +1,5 @@
-归并排序求解，如下：
-```
+// 归并排序求解，如下：
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -38,4 +38,4 @@ public:
         }
     }
 };
-```
+// ```

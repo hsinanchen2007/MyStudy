@@ -1,9 +1,9 @@
-### 解题思路
-栈
+// ### 解题思路
+// 栈
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func preorderTraversal(root *TreeNode) []int {
 	if root == nil {
 		return nil
@@ -25,4 +25,4 @@ func preorderTraversal(root *TreeNode) []int {
 	return res
 }
 
-```
+// ```

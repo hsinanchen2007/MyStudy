@@ -1,8 +1,8 @@
-### 解题思路
-先找出R的位置，然后行列扫描能吃到的p
-### 代码
+// ### 解题思路
+// 先找出R的位置，然后行列扫描能吃到的p
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize) {
 	int res = 0;  
 	int flag = 0;
@@ -41,4 +41,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize) {
 	}
 	return res;
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```python
+# ```python
 class Solution:
     def exist(self, board, word: str) -> bool:
         if (len(board) == 0 or len(board[0]) == 0) and len(word) > 0:
@@ -30,4 +30,4 @@ class Solution:
                 if y == len_y:
                     break
         return len(word) == 0
-```
+# ```

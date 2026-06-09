@@ -1,9 +1,9 @@
-### 解题思路
-连续的和可以看成是range sum问题，那么求出所有的range sum。接下来的问题就是找出所有差为target的可能。
+# ### 解题思路
+# 连续的和可以看成是range sum问题，那么求出所有的range sum。接下来的问题就是找出所有差为target的可能。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findContinuousSequence(self, target):
         """
@@ -25,4 +25,4 @@ class Solution(object):
                 result.append(range(sum_record[sum_arrary[i]], i + 1))
         return result
 
-```
+# ```

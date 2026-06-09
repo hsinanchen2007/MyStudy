@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针，快指针每次走两步，慢指针每次走一步
+// ### 解题思路
+// 快慢指针，快指针每次走两步，慢指针每次走一步
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -38,4 +38,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

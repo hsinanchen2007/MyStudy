@@ -1,4 +1,4 @@
-```
+// ```
 var isBalanced = function(root) {
     function getHeight(node) {
         if (node === null) return 0;
@@ -9,4 +9,4 @@ var isBalanced = function(root) {
     return isBalanced(root.left) && isBalanced(root.right) && 
         Math.abs( getHeight(root.left) - getHeight(root.right) ) < 2;
 };
-```
+// ```

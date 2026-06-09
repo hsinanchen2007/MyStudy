@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-关键就在于要想清楚设置为None之后就不存在属性了，所以就从最下边那一层开始设置
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 关键就在于要想清楚设置为None之后就不存在属性了，所以就从最下边那一层开始设置
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             return self.is_zero(s.left) and self.is_zero(s.right)
         return False
 
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
-改进的二分查找思路：
-    第一次找到左边界
-    第二次找到右边界
-见如下代码：注意左右边界的结束条件（难点）ps:我是根据测试样例慢慢完善结束条件的，智商不足
-整体时间复杂度为O(logn)
+# ### 解题思路
+# 改进的二分查找思路：
+#     第一次找到左边界
+#     第二次找到右边界
+# 见如下代码：注意左右边界的结束条件（难点）ps:我是根据测试样例慢慢完善结束条件的，智商不足
+# 整体时间复杂度为O(logn)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         # 改进的二分查找（O(logn)）
@@ -37,4 +37,4 @@ class Solution:
             return [-1, -1]
         right = find(left, len(nums)-1, 1)  # 找到右边界
         return [left, right]
-```
+# ```

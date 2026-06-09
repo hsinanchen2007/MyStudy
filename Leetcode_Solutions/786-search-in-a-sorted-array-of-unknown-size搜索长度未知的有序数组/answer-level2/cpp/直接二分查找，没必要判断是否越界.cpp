@@ -1,5 +1,5 @@
-right 设置为不可能达到的值，越界的情况包含在 midValue > target 的情况下。
-```C++
+// right 设置为不可能达到的值，越界的情况包含在 midValue > target 的情况下。
+// ```C++
 int search(const ArrayReader& reader, int target) {
     int left = 0, right = 20000;
     while(left <= right){
@@ -14,4 +14,4 @@ int search(const ArrayReader& reader, int target) {
     }
     return -1;
 }
-```
+// ```

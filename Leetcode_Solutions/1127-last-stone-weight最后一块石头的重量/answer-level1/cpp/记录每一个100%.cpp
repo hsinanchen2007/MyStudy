@@ -1,11 +1,11 @@
-### 解题思路
-![1.png](https://pic.leetcode-cn.com/f809673dc8708fec8f9eeeb9ba5ee51d4aada4452c683e2f1d84c572b156c991-1.png)
+// ### 解题思路
+// ![1.png](https://pic.leetcode-cn.com/f809673dc8708fec8f9eeeb9ba5ee51d4aada4452c683e2f1d84c572b156c991-1.png)
 
-感觉思路还是挺简单，每次都把最大的两个拿出来判断，只是最后的结果有时候运行很快，有时候很慢，
+// 感觉思路还是挺简单，每次都把最大的两个拿出来判断，只是最后的结果有时候运行很快，有时候很慢，
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution 
 {
 public:
@@ -38,4 +38,4 @@ public:
         
     }
 };
-```
+// ```

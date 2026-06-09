@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/4a57cb6a72d73287b323d2e92eb739118e20330de54a035e1d8462f2f604e308-image.png)
+# ![image.png](https://pic.leetcode-cn.com/4a57cb6a72d73287b323d2e92eb739118e20330de54a035e1d8462f2f604e308-image.png)
 
 
-```
+# ```
 '''
 贪心策略
 想象一下每个数值的贡献，正数直接给最后的总和增加价值，越大的数放后面越有利，
@@ -31,4 +31,4 @@ class Solution:
             cur_sum += val
 
         return total
-```
+# ```

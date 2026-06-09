@@ -1,12 +1,12 @@
-### 解题思路
-本次解答完全参照高赞题解解法，很Niubility。
-原理：假设a为headA**独有**的前半段，b为headB**独有**的前半段,c为**共有段**，则：
-    a+c+b == b+c+a 理解这个次序，最终在c处相遇。
-若headA与headB没有共有段(没有c),则：
-    a+b = b+a 最终都指向NULL
-### 代码
+// ### 解题思路
+// 本次解答完全参照高赞题解解法，很Niubility。
+// 原理：假设a为headA**独有**的前半段，b为headB**独有**的前半段,c为**共有段**，则：
+//     a+c+b == b+c+a 理解这个次序，最终在c处相遇。
+// 若headA与headB没有共有段(没有c),则：
+//     a+b = b+a 最终都指向NULL
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -24,4 +24,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     }
     return pa;
 }
-```
+// ```

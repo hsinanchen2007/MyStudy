@@ -1,4 +1,4 @@
-```
+// ```
 void getAreaOfIsland(int** grid, int gridSize, int gridColSize, int i, int j, int *area) {
     if (grid[i][j] == 1) {
         (*area)++;
@@ -34,4 +34,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
     }
     return max;
 }
-```
+// ```

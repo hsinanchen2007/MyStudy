@@ -1,7 +1,7 @@
 
-### 思路
-根据反馈进行调整，使用二分查找
-```cpp
+// ### 思路
+// 根据反馈进行调整，使用二分查找
+// ```cpp
 class Solution {
 public:
     int guessNumber(int n) {
@@ -17,4 +17,4 @@ public:
         return 0;
     }
 };
-```
+// ```

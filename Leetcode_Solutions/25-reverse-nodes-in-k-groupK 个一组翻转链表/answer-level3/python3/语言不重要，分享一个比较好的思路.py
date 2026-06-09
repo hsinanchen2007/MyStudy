@@ -1,12 +1,12 @@
-以K个为一个整体来看，我们需要定位三个位置，一个指向链表首节点的指针h，一个此段链表初始的第一个节点g_0，以及从节点f往后遍历的节点g_i；
-翻转链表=将每个g_0.next的节点g_i放到h.next，一段长度为k的链表需要执行k-1次。
+# 以K个为一个整体来看，我们需要定位三个位置，一个指向链表首节点的指针h，一个此段链表初始的第一个节点g_0，以及从节点f往后遍历的节点g_i；
+# 翻转链表=将每个g_0.next的节点g_i放到h.next，一段长度为k的链表需要执行k-1次。
 
-第一次的情况：
-![image.png](https://pic.leetcode-cn.com/d7e9dd37137c1a648a39caed5655425b181ab3310b3672ee721f201e6ed1b744-image.png)
-第i次的情况：
-![image.png](https://pic.leetcode-cn.com/eea3aeb43eb46d058f8d0ea1f35dabfc9da2ffe16afed7d4edf23c74768c4101-image.png)
-python3代码如下：
-```
+# 第一次的情况：
+# ![image.png](https://pic.leetcode-cn.com/d7e9dd37137c1a648a39caed5655425b181ab3310b3672ee721f201e6ed1b744-image.png)
+# 第i次的情况：
+# ![image.png](https://pic.leetcode-cn.com/eea3aeb43eb46d058f8d0ea1f35dabfc9da2ffe16afed7d4edf23c74768c4101-image.png)
+# python3代码如下：
+# ```
 class Solution:
     def reverseKGroup(self, head: ListNode, k: int) -> ListNode:
         # 所谓的颠翻转其实可以理解为，规定指向下一轮k个节点的指针h，将后面顺序遍历到的k个节点依次放到h.next，这样就可以达到翻转的效果
@@ -37,6 +37,6 @@ class Solution:
             h0 = pair_rev(a)
         return a.next
                     
-```
+# ```
 
 

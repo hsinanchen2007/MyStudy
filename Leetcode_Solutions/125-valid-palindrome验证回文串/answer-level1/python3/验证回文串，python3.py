@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         s = s.lower()
@@ -15,4 +15,4 @@ class Solution:
             else:
                 s = s[:i]+s[i+1:]
         return s[:] == s[::-1]
-```
+# ```

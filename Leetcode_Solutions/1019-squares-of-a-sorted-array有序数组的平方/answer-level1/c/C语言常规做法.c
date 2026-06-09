@@ -1,6 +1,6 @@
-- 方法一
-由于数组已经排好序，所以将数组元素平方后不需要再用复杂的算法进行排序。
-```c
+// - 方法一
+// 由于数组已经排好序，所以将数组元素平方后不需要再用复杂的算法进行排序。
+// ```c
 int* sortedSquares(int* A, int ASize, int* returnSize){
     short i,j=0,k=ASize-1;
     for(i=0;i<ASize;i++) A[i]=A[i]*A[i];
@@ -11,10 +11,10 @@ int* sortedSquares(int* A, int ASize, int* returnSize){
     *returnSize=ASize;
     return res;
 }
-```
-- 方法二
-该方法较为常规，且有超时风险。
-```c
+// ```
+// - 方法二
+// 该方法较为常规，且有超时风险。
+// ```c
 int* sortedSquares(int* A, int ASize, int* returnSize){
     short i=0,j,min,min_index;
     while(i<ASize&&A[i]<0){
@@ -39,4 +39,4 @@ int* sortedSquares(int* A, int ASize, int* returnSize){
     for(i=0;i<ASize;i++) res[i]=A[i]*A[i];
     return res;
 }
-```
+// ```

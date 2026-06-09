@@ -1,9 +1,9 @@
-### 解题思路
-DFS搜索，挑选士兵的时候注意下标保持升序，就无需访问标记
+// ### 解题思路
+// DFS搜索，挑选士兵的时候注意下标保持升序，就无需访问标记
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     inline bool IsVaild(vector<int>& rating, vector<int>& team)
@@ -52,4 +52,4 @@ public:
         return ans;
     }
 };
-```
+// ```

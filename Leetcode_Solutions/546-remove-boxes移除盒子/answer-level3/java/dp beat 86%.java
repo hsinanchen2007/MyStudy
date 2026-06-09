@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int removeBoxes(int[] boxes) {
         int n = boxes.length;
@@ -25,4 +25,4 @@ class Solution {
 }
 
 
-```
+// ```

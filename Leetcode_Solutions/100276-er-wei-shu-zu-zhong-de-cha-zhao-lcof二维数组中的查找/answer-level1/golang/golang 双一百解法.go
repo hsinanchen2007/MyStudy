@@ -1,11 +1,11 @@
-### 解题思路
-由于该矩阵有序. 则每一行类似于区间 [n, m]
+// ### 解题思路
+// 由于该矩阵有序. 则每一行类似于区间 [n, m]
 
-则判断每一行的区间是否包括 target. 如果包括,直接在该区间搜索即可.
+// 则判断每一行的区间是否包括 target. 如果包括,直接在该区间搜索即可.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findNumberIn2DArray(matrix [][]int, target int) bool {
     if    row := len(matrix) ; row == 0 {
         return false
@@ -32,4 +32,4 @@ func findNumberIn2DArray(matrix [][]int, target int) bool {
     }
     return false
 }
-```
+// ```

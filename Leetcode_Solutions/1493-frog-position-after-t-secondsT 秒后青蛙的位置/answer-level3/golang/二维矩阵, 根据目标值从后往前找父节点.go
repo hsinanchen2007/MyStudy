@@ -1,12 +1,12 @@
-### 解题思路
-1. 二维矩阵 记录图 
-2. grid[i][0] 记录出度 ， 算概率 
-3. 从后往前找 
-4. 比较 所需的最小时长， 以及该目标节点是否为叶子节点(出度是否为0))
+// ### 解题思路
+// 1. 二维矩阵 记录图 
+// 2. grid[i][0] 记录出度 ， 算概率 
+// 3. 从后往前找 
+// 4. 比较 所需的最小时长， 以及该目标节点是否为叶子节点(出度是否为0))
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func frogPosition(n int, edges [][]int, t int, target int) float64 {
     if len(edges) == 0 || len(edges[0]) == 0 { 
         if target == n {
@@ -75,4 +75,4 @@ func helper(target int,time int, pro float64, result *int, resultpro *float64, g
     
     
 }
-```
+// ```

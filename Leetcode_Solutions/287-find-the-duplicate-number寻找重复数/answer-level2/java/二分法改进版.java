@@ -1,9 +1,9 @@
 
-首先是二分的思路, 在这个高亮答案里添加了一点东西. 提高了二分的效率.
+// 首先是二分的思路, 在这个高亮答案里添加了一点东西. 提高了二分的效率.
 
-https://leetcode-cn.com/problems/find-the-duplicate-number/solution/er-fen-fa-si-lu-ji-dai-ma-python-by-liweiwei1419/
+// https://leetcode-cn.com/problems/find-the-duplicate-number/solution/er-fen-fa-si-lu-ji-dai-ma-python-by-liweiwei1419/
 
-```{java}
+// ```{java}
 class Solution {
     public int findDuplicate(int[] nums) {
         int len = nums.length;

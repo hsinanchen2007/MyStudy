@@ -1,6 +1,6 @@
-- 遍历每个节点，并从该节点开始计算和
+// - 遍历每个节点，并从该节点开始计算和
 
-```cpp
+// ```cpp
 class Solution {
     int count = 0;
 public:
@@ -22,4 +22,4 @@ public:
         calsum(root->right,s+root->val,sum);
     }
 };
-```
+// ```

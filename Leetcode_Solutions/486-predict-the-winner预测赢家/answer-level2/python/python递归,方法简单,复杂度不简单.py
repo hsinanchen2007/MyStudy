@@ -1,9 +1,9 @@
-### 解题思路
-看到最多20个数就无脑递归了
+# ### 解题思路
+# 看到最多20个数就无脑递归了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def PredictTheWinner(self, nums):
         """
@@ -24,4 +24,4 @@ class Solution(object):
             return True
         else:
             return False
-```
+# ```

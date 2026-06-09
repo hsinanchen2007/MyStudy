@@ -1,9 +1,9 @@
-### 解题思路
-这个题目贼简单 不像算法
+// ### 解题思路
+// 这个题目贼简单 不像算法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void reverseString(char[] s) {
         //双指针
@@ -23,4 +23,4 @@ class Solution {
         }
     }
 }
-```
+// ```

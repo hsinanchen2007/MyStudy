@@ -1,4 +1,4 @@
-```
+// ```
 int findPeakElement(vector<int>& nums) {
     int lo = 0, hi = nums.size() - 1;
     while (lo < hi) {
@@ -11,4 +11,4 @@ int findPeakElement(vector<int>& nums) {
     }
     return lo;
 }
-```
+// ```

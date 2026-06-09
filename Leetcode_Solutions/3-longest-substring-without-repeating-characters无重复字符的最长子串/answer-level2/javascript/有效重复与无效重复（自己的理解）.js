@@ -1,9 +1,9 @@
-## 要点
-1. 区分有效重复和无效重复
-2. 处理末尾不重复情况
+// ## 要点
+// 1. 区分有效重复和无效重复
+// 2. 处理末尾不重复情况
 
-### js
-```js
+// ### js
+// ```js
 var lengthOfLongestSubstring = function (s) {
     let m = new Map();
     let res = 0, counter = 0;
@@ -24,10 +24,10 @@ var lengthOfLongestSubstring = function (s) {
     }
     return res
 };
-```
+// ```
 
-### golang
-```go
+// ### golang
+// ```go
 func lengthOfLongestSubstring(s string) int {
 	indexMap := make([]int, 128)
 	var max, start, num int
@@ -44,11 +44,11 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return max
 }
-```
-使用数组记录字符下标借鉴了解题区里一位大神的思路，运行结果惊人！
-> Accepted
-> - 987/987 cases passed (0 ms)
-> - Your runtime beats 100 % of golang submissions
-> - Your memory usage beats 93.16 % of golang submissions (2.6 MB)
+// ```
+// 使用数组记录字符下标借鉴了解题区里一位大神的思路，运行结果惊人！
+// > Accepted
+// > - 987/987 cases passed (0 ms)
+// > - Your runtime beats 100 % of golang submissions
+// > - Your memory usage beats 93.16 % of golang submissions (2.6 MB)
 
-至于sliding-window，尚待学习。
+// 至于sliding-window，尚待学习。

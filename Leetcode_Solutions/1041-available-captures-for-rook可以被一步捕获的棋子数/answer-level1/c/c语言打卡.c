@@ -1,9 +1,9 @@
-### 解题思路
-四个for
+// ### 解题思路
+// 四个for
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void catchRook(char** board, int boardSize, int* boardColSize, int* r, int* c){
     int i, j;
     for(i = 0;i < boardSize;i ++)
@@ -50,4 +50,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
             break;
     return num;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-执行用时 :11 ms, 击败了97.01%的用户。
-内存消耗 :40.8 MB,中击败了93.48%的用户。
-```
+// 执行用时 :11 ms, 击败了97.01%的用户。
+// 内存消耗 :40.8 MB,中击败了93.48%的用户。
+// ```
 class Solution {
     public boolean canCross(int[] stones) {
         if(stones[1]>1){//第一跳只能跳一格，如果stones[1]不为1，肯定为false
@@ -42,4 +42,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int search(int[] nums, int target) {
         return searchIndex1(nums,target)-searchIndex2(nums,target)+1;
@@ -30,4 +30,4 @@ class Solution {
         return low;
     }
 }
-```
+// ```

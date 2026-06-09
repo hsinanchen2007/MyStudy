@@ -1,9 +1,9 @@
-### 解题思路
-用滑动窗口法：将小字符串的大小作为窗口，在大字符串滑动比较，如果相等则返回索引位置
+// ### 解题思路
+// 用滑动窗口法：将小字符串的大小作为窗口，在大字符串滑动比较，如果相等则返回索引位置
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
     int hl=haystack.length();
@@ -14,4 +14,4 @@ class Solution {
     return -1;
     }
 }
-```
+// ```

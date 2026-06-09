@@ -1,7 +1,7 @@
-思路和上一题基本一样，
-不过9和4放前边，先筛掉
+# 思路和上一题基本一样，
+# 不过9和4放前边，先筛掉
 
-```python []
+# ```python []
 class Solution(object):
     def romanToInt(self, s):
         """
@@ -18,5 +18,5 @@ class Solution(object):
                 t_num += num_l[i]
                 s = s.replace(str_l[i], '', 1)
         return t_num
-```
+# ```
 

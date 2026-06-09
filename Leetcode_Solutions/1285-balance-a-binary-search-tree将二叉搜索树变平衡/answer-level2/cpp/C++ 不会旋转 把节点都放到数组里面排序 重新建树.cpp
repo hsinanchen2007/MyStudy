@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,4 +47,4 @@ public:
         return buildBST(vec, 0, vec.size());
     }
 };
-```
+// ```

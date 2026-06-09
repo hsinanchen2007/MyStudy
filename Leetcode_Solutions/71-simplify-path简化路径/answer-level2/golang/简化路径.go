@@ -1,9 +1,9 @@
-### 解题思路
-栈
+// ### 解题思路
+// 栈
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func simplifyPath(path string) string {
 	stack := make([]string, 0, len(path))
     path = path + "/"
@@ -27,4 +27,4 @@ func simplifyPath(path string) string {
 	dir := strings.Join(stack, "/")
 	return "/" + dir
 }
-```
+// ```

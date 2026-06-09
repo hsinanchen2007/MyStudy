@@ -1,4 +1,4 @@
-```
+// ```
     int minCostClimbingStairs(vector<int>& cost) {
         cost.push_back(0);                      //用于收尾，最后一级 也可在最后return min(curr, pre);
         int pre = 0, curr = 0;                  //存放前两级台阶的花费,初始为0
@@ -9,6 +9,6 @@
         }
         return curr;
     }
-```
+// ```
 
 

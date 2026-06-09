@@ -1,7 +1,7 @@
-思路：将所有`n`个`1`的可能组合计算出来
+// 思路：将所有`n`个`1`的可能组合计算出来
 
 
-``` go
+// ``` go
 import (
 	"fmt"
 )
@@ -41,4 +41,4 @@ func watchHelper(rec int, bits []int, start int) {
 		start++
 	}
 }
-```
+// ```

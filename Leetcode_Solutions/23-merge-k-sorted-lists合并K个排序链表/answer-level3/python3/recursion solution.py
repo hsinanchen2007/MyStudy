@@ -1,5 +1,5 @@
-靓仔，递归方法很简单喔
-```python
+# 靓仔，递归方法很简单喔
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -35,6 +35,6 @@ class Solution:
         curr.next = self.mergeKLists(lists)
         
         return head
-```
+# ```
 
-计算开销在于几次取最小值，复杂度为O(k*n)
+# 计算开销在于几次取最小值，复杂度为O(k*n)

@@ -1,5 +1,5 @@
-# 版本1.0，问题点，内存使用过高
-```
+// # 版本1.0，问题点，内存使用过高
+// ```
     function maxSubArray($nums) {
         $max = $nums[0];
         $sum = $nums[0];
@@ -19,4 +19,4 @@
         return $max;
     }
 
-```
+// ```

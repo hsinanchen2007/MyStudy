@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func numberOfBoomerangs(_ points: [[Int]]) -> Int {
         let pointsCount = points.count
@@ -33,4 +33,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

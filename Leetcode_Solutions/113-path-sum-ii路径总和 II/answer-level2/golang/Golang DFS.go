@@ -1,7 +1,7 @@
 
-通过一个 slice 记录中间路径结果
+// 通过一个 slice 记录中间路径结果
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -45,4 +45,4 @@ func pathSumRecur(root *TreeNode, sum int, rs *[][]int, r []int) {
     }
     
 }
-```
+// ```

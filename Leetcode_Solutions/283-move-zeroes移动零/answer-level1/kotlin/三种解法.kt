@@ -1,6 +1,6 @@
 
-### 第一种
-```
+// ### 第一种
+// ```
 fun moveZeroes(nums: IntArray): Unit {
     if (nums.size == 1) return
     var i = 0
@@ -21,9 +21,9 @@ fun moveZeroes(nums: IntArray): Unit {
         j++
     }
 }
-```
-### 第二种
-```
+// ```
+// ### 第二种
+// ```
 fun moveZeroes(nums: IntArray): Unit {
     var index = 0
     nums.forEach {
@@ -35,11 +35,11 @@ fun moveZeroes(nums: IntArray): Unit {
         nums[index++] = 0
     }
 }
-```
+// ```
 
-### 第三种
-* 这一种是针对第二种的优化
-```
+// ### 第三种
+// * 这一种是针对第二种的优化
+// ```
 fun moveZeroes(nums: IntArray): Unit {
     var index = 0
     for ((i, value) in nums.withIndex()) {
@@ -49,5 +49,5 @@ fun moveZeroes(nums: IntArray): Unit {
         }
     }
 }
-```
+// ```
 

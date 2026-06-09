@@ -1,5 +1,5 @@
-1. 题目本身很简单，主要是求字符串中字符'b','a','l','o','n'的次数.
-```c++ []
+// 1. 题目本身很简单，主要是求字符串中字符'b','a','l','o','n'的次数.
+// ```c++ []
 class Solution {
 public:
     int maxNumberOfBalloons(string text) {
@@ -20,8 +20,8 @@ public:
         return ans;
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int maxNumberOfBalloons(String text) {
         int[] cnt = new int[26];
@@ -44,8 +44,8 @@ class Solution {
         return ans;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def maxNumberOfBalloons(self, text: str) -> int:
         cnt = [0 for _ in range(26)]
@@ -61,4 +61,4 @@ class Solution:
         ans = min(ans,cnt[ord('n')-ord('a')])
         
         return ans
-```
+// ```

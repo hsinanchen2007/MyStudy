@@ -1,4 +1,4 @@
-```
+// ```
 public int BitwiseComplement(int N) {
         if(N==0){
             return 1;
@@ -11,4 +11,4 @@ public int BitwiseComplement(int N) {
         }
         return N^t;
     }
-```
+// ```

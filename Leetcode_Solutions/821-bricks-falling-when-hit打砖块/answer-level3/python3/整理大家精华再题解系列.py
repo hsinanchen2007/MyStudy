@@ -1,4 +1,4 @@
-```
+# ```
 '''
 LeetCode 803 打砖块
 We have a grid of 1s and 0s; the 1s in a cell represent bricks.
@@ -163,4 +163,4 @@ if __name__ == "__main__":
     hits = [[1, 0]]
     s = Solution()
     print(s.hitBricks(grid, hits))
-```
+# ```

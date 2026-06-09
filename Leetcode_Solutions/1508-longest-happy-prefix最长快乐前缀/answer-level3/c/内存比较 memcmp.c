@@ -1,7 +1,7 @@
-暴力破解
-用memcmp比较，顺利通过
+// 暴力破解
+// 用memcmp比较，顺利通过
 
-```
+// ```
 bool check_char(char *num1, char *num2, int len)
 {
     return (memcmp(num1, num2, len) == 0);
@@ -19,4 +19,4 @@ char * longestPrefix(char * s){
     
     return "";
 }
-```
+// ```

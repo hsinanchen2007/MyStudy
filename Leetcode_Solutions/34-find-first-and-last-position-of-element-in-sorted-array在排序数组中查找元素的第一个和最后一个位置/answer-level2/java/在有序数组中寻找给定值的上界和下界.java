@@ -1,9 +1,9 @@
-### 解题思路
-首先使用二分法获取left和right，然后分别向左右延申找到上下界
+// ### 解题思路
+// 首先使用二分法获取left和right，然后分别向左右延申找到上下界
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         if(nums.length < 1){
@@ -38,4 +38,4 @@ class Solution {
         return new int[]{++left, --right};
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-从根节点开始遍历右节点，再遍历左节点，并得出当前节点值及其排位，递归直到排位为k为止。
+# ### 解题思路
+# 从根节点开始遍历右节点，再遍历左节点，并得出当前节点值及其排位，递归直到排位为k为止。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def kthLargest(self, root: TreeNode, k: int) -> int:
         return self.kLargest(root, k)[-1]
@@ -25,4 +25,4 @@ class Solution:
                 return n + nr, v
 
             return n, v
-```
+# ```

@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/923d132cbd898275bd949b5b20c9107344830b397034e05d8ecfd88d3db014ae-image.png)
-时间虽然不是最优，但模板都是这样
+// ![image.png](https://pic.leetcode-cn.com/923d132cbd898275bd949b5b20c9107344830b397034e05d8ecfd88d3db014ae-image.png)
+// 时间虽然不是最优，但模板都是这样
 
-一直害怕二分，现在彻底搞明白，三种情况搞懂就OK，这道题很好综合了三种情况，考察的很全面，值的收藏复习！
+// 一直害怕二分，现在彻底搞明白，三种情况搞懂就OK，这道题很好综合了三种情况，考察的很全面，值的收藏复习！
 
-这道题：
-1.先判读有没有这个数字
-2.查找第一个大于等于它的数
-3.查找第一个大于等于它的数
+// 这道题：
+// 1.先判读有没有这个数字
+// 2.查找第一个大于等于它的数
+// 3.查找第一个大于等于它的数
 
-3个模板
+// 3个模板
 
-```c
+// ```c
 //先判读有没有这个数字
 int binary_search(int *nums, int n, int target) {
     int l = 0, r = n - 1, mid;
@@ -60,4 +60,4 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize){
     return arr;
 }
 
-```
+// ```

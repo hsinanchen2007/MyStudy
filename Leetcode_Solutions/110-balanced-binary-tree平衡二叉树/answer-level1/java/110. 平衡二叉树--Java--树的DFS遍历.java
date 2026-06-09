@@ -1,9 +1,9 @@
-### 解题思路
-[Leetcode-Java(240+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_110_isBalanced.java)
+// ### 解题思路
+// [Leetcode-Java(240+题解，持续更新、欢迎star&留言&交流)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_110_isBalanced.java)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         return new Pair<>(left.getKey() && right.getKey() && (Math.abs(left.getValue() - right.getValue()) <= 1), Math.max(left.getValue(), right.getValue()) + 1);
     }
 }
-```
+// ```

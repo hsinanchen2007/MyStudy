@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-这是一位大神的题解笔记哦，不是我的，真的讲的特别好，贪心的证明、动态规划的设计都……哇塞~的那种感觉，放在这里方便我以后忘记了再看看~
-https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/tan-xin-suan-fa-by-liweiwei1419-2/
-嗯……我第一次转载别人的，要注明“侵权删”，竖起三根手指！
+// ### 解题思路
+// 此处撰写解题思路
+// 这是一位大神的题解笔记哦，不是我的，真的讲的特别好，贪心的证明、动态规划的设计都……哇塞~的那种感觉，放在这里方便我以后忘记了再看看~
+// https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/tan-xin-suan-fa-by-liweiwei1419-2/
+// 嗯……我第一次转载别人的，要注明“侵权删”，竖起三根手指！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -47,4 +47,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-没看题解，双100%，斗胆发出来看看
+// ### 解题思路
+// 没看题解，双100%，斗胆发出来看看
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func judgeNumber(num string) bool {
 	if len(num) > 1 && num[0] == '0' {
 		return false
@@ -34,4 +34,4 @@ func restoreIpAddresses(s string) []string {
 	}
 	return result
 }
-```
+// ```

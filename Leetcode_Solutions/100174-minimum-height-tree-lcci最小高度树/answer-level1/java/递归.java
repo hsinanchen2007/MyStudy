@@ -1,9 +1,9 @@
-### 解题思路
-大家都是二分法
+// ### 解题思路
+// 大家都是二分法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -32,4 +32,4 @@ class Solution {
     }
 }
 
-```
+// ```

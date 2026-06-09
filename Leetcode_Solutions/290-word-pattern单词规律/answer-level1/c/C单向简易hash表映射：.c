@@ -1,12 +1,12 @@
 
-![截图.PNG](https://pic.leetcode-cn.com/09c9770e80eb0f5842bbd2c47defa884c8648d4c5fd12c33acddfdc9eb2afbb3-%E6%88%AA%E5%9B%BE.PNG)
+// ![截图.PNG](https://pic.leetcode-cn.com/09c9770e80eb0f5842bbd2c47defa884c8648d4c5fd12c33acddfdc9eb2afbb3-%E6%88%AA%E5%9B%BE.PNG)
 
-核心思想建立pattern->str和str->pattern的双向映射保证都是一一对应的
-由于C没有内置hash表，pattern->str的映射可以用字符串数组（下标为字母编号）简单代替
-str->pattern映射不好实现，用遍历方法保证str和pattern的一一对应
+// 核心思想建立pattern->str和str->pattern的双向映射保证都是一一对应的
+// 由于C没有内置hash表，pattern->str的映射可以用字符串数组（下标为字母编号）简单代替
+// str->pattern映射不好实现，用遍历方法保证str和pattern的一一对应
 
 
-```
+// ```
 //字符串比较函数，可以用内置strcpy代替
 /*
 bool comparaStr(char* a, char* b) {
@@ -71,4 +71,4 @@ bool wordPattern(char * pattern, char * str){
         return true;
     }
 }
-```
+// ```

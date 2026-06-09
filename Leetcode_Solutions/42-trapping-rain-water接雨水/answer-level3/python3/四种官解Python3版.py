@@ -1,15 +1,15 @@
-方法一：暴力法
-```
+# 方法一：暴力法
+# ```
 class Solution:
     def trap(self, height: List[int]) -> int:
         all_rain = 0
         for i in range(1,len(height)-1):
             all_rain+=max((min(max(height[0:i]),max(height[i:]))-height[i]),0)
         return all_rain
-```
+# ```
 
-方法二：动态编程
-```
+# 方法二：动态编程
+# ```
 class Solution:
     def trap(self, height: List[int]) -> int:
         left_max = []
@@ -31,10 +31,10 @@ class Solution:
         for i in range(1,len(height)-1):
             temp_num+=max(0,(min(left_max[i-1],right_max[i+1])-height[i]))
         return temp_num
-```
+# ```
 
-方法三：栈的应用
-```
+# 方法三：栈的应用
+# ```
 class Solution:
     def trap(self, height) -> int:
         ans = 0
@@ -53,10 +53,10 @@ class Solution:
             stack_list.append(current)
             current+=1
         return ans        
-```
+# ```
 
-方法四：双指针
-```
+# 方法四：双指针
+# ```
 class Solution:
     def trap(self, height) -> int:
         left = 0
@@ -78,6 +78,6 @@ class Solution:
                     ans+=(right_max-height[right])
                 right-=1
         return ans
-```
+# ```
 
 

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void dfs(const vector<vector<int> >& graph, vector<bool>& visited, int i, vector<int>& status) {
@@ -30,8 +30,8 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/4f15bbc89190e8a477604df35a14e07f2eee84925d939d2391a163e3e00c012a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4f15bbc89190e8a477604df35a14e07f2eee84925d939d2391a163e3e00c012a-image.png)
 
 

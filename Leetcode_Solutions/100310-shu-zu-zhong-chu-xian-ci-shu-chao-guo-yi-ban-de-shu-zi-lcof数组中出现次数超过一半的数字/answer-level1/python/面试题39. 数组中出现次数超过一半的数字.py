@@ -1,9 +1,9 @@
-### 解题思路
-**投票法
-**
-### 代码
+# ### 解题思路
+# **投票法
+# **
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def majorityElement(self, nums):
         cur = nums[0]
@@ -17,4 +17,4 @@ class Solution(object):
                 cur = nums[i]
                 count = 1
         return cur
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-三个相等部分==总和可以被三整除==每个部分都是总和1/3
+// ### 解题思路
+// 三个相等部分==总和可以被三整除==每个部分都是总和1/3
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canThreePartsEqualSum(int* A, int ASize){
     //看一下总和是否能被三整除
     int sum=0;
@@ -31,4 +31,4 @@ bool canThreePartsEqualSum(int* A, int ASize){
     }
 return 0;
 }
-```
+// ```

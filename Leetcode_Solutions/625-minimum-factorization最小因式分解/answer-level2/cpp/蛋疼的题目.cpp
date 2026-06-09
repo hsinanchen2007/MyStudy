@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int smallestFactorization(int a) {
@@ -27,4 +27,4 @@ public:
         return 0;
     }
 };
-```
+// ```

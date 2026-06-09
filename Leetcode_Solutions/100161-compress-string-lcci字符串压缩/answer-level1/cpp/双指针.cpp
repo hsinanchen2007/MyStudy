@@ -1,9 +1,9 @@
-### 解题思路
-双指针，难得有思路。。。
+// ### 解题思路
+// 双指针，难得有思路。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string compressString(string S) {
@@ -29,4 +29,4 @@ public:
         return S1.size() > S.size() ? S : S1;
     }
 };
-```
+// ```

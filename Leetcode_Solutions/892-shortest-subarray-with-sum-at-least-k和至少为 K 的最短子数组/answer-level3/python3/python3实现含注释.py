@@ -1,4 +1,4 @@
-```python3 []
+# ```python3 []
 class Solution:
     def shortestSubarray(self, A: List[int], K: int) -> int:
         n = len(A)
@@ -15,5 +15,5 @@ class Solution:
                 ans = min(ans, y - de.popleft())  # 如此循环，则可得到所有满足条件的解，然后在其中寻找最小的
             de.append(y)
         return -1 if ans == n+1 else ans  # n+1不可能
-```
+# ```
 

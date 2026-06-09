@@ -1,4 +1,4 @@
-```
+// ```
 bool isAlienSorted(char ** words, int wordsSize, char * order){
     char map[26] = {0};
     for (int i = 0; i < strlen(order); i++) {
@@ -14,4 +14,4 @@ bool isAlienSorted(char ** words, int wordsSize, char * order){
     }
     return true;
 }
-```
+// ```

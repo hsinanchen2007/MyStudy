@@ -1,10 +1,10 @@
-### 解题思路
-看完这篇你就会自己写动态规划了
-https://zhuanlan.zhihu.com/p/107457744
+// ### 解题思路
+// 看完这篇你就会自己写动态规划了
+// https://zhuanlan.zhihu.com/p/107457744
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
         int[] dp=new int[amount+1];
@@ -20,4 +20,4 @@ class Solution {
         return dp[amount]>amount?-1:dp[amount];
     }
 }
-```
+// ```

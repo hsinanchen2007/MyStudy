@@ -1,9 +1,9 @@
-### 解题思路
-思路和前一题一样。不过为啥我用了哈希表，内存消耗打败了95%，可时间消耗却只击败了16%，我也只是线性时间啊。
+// ### 解题思路
+// 思路和前一题一样。不过为啥我用了哈希表，内存消耗打败了95%，可时间消耗却只击败了16%，我也只是线性时间啊。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int singleNumber(int[] nums) {
         HashMap<Integer, Integer> hashmap = new HashMap<>();
@@ -26,4 +26,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

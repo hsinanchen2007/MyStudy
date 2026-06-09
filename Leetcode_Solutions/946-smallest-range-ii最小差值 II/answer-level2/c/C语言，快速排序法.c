@@ -1,16 +1,16 @@
-### 解题思路
-1, 极端情况，数组长度小于等于1， 返回0
-2. 对于数组进行快速排序。
-3. 存在两种最小值的可能，一种直接就是minValue = （最大值-最小值），
-4. 另外一种就是找到一个中间值，比这个小的+k， 比这个大的-K；
-5. 此时的
-5.      realMin = min(a[0] + K, a[i] - K); 
-6.      realMax = max(a[Asize-1] -K, a[i-1] + K);
-7.      如果 (realMax - realMin) < minValue, 则更新 minValue = (realMax - realMin);
+// ### 解题思路
+// 1, 极端情况，数组长度小于等于1， 返回0
+// 2. 对于数组进行快速排序。
+// 3. 存在两种最小值的可能，一种直接就是minValue = （最大值-最小值），
+// 4. 另外一种就是找到一个中间值，比这个小的+k， 比这个大的-K；
+// 5. 此时的
+// 5.      realMin = min(a[0] + K, a[i] - K); 
+// 6.      realMax = max(a[Asize-1] -K, a[i-1] + K);
+// 7.      如果 (realMax - realMin) < minValue, 则更新 minValue = (realMax - realMin);
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int compare(const void *a, const void *b){
     return (*(int *)a - *(int *)b);
 }
@@ -35,4 +35,4 @@ int smallestRangeII(int* A, int ASize, int K){
     }
     return res;
 }
-```
+// ```

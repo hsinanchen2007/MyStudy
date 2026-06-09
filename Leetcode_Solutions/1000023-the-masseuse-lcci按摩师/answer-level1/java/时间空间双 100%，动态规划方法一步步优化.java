@@ -1,12 +1,12 @@
-这道题和第 198 题 ”打家劫舍“ (House Robber) 是完全相同的题目，只是换了一个场景。
+// 这道题和第 198 题 ”打家劫舍“ (House Robber) 是完全相同的题目，只是换了一个场景。
 
-打家劫舍题目我已经写了详细的题解：[图解动态规划的解题四步骤](https://leetcode-cn.com/problems/house-robber/solution/dong-tai-gui-hua-jie-ti-si-bu-zou-xiang-jie-cjavap/)，以一道题为例子讲了动态规划题目的解题四步骤。因为这道题完全相同，解法我就不赘述了。
+// 打家劫舍题目我已经写了详细的题解：[图解动态规划的解题四步骤](https://leetcode-cn.com/problems/house-robber/solution/dong-tai-gui-hua-jie-ti-si-bu-zou-xiang-jie-cjavap/)，以一道题为例子讲了动态规划题目的解题四步骤。因为这道题完全相同，解法我就不赘述了。
 
-那么正式开始我们的代码：
+// 那么正式开始我们的代码：
 
-首先是常规的一维 DP 数组解法：
+// 首先是常规的一维 DP 数组解法：
 
-```Java []
+// ```Java []
 public int massage(int[] nums) {
     if (nums.length == 0) {
         return 0;
@@ -26,11 +26,11 @@ public int massage(int[] nums) {
     }
     return dp[N];
 }
-```
+// ```
 
-然后我们进行空间优化。这道题和斐波那契数列一样，可以只用两个变量记录中间结果：
+// 然后我们进行空间优化。这道题和斐波那契数列一样，可以只用两个变量记录中间结果：
 
-```Java []
+// ```Java []
 public int massage(int[] nums) {
     if (nums.length == 0) {
         return 0;
@@ -45,11 +45,11 @@ public int massage(int[] nums) {
     }
     return curr;
 }
-```
+// ```
 
-再稍微优化一下数组下标：
+// 再稍微优化一下数组下标：
 
-```Java []
+// ```Java []
 public int massage(int[] nums) {
     int prev = 0;
     int curr = 0;
@@ -60,16 +60,16 @@ public int massage(int[] nums) {
     }
     return curr;
 }
-```
+// ```
 
-OK，一份简洁、高效的题解代码诞生了！
+// OK，一份简洁、高效的题解代码诞生了！
 
-提交结果：
+// 提交结果：
 
-![](https://pic.leetcode-cn.com/18a559217a65a3a78ec90033b964d5cda4ad991d61c2d6504719c509cd5f5231.jpg)
+// ![](https://pic.leetcode-cn.com/18a559217a65a3a78ec90033b964d5cda4ad991d61c2d6504719c509cd5f5231.jpg)
 
----
+// ---
 
-如果你觉得本文对你有帮助，欢迎关注我的公众号《面向大象编程》，其中的《LeetCode 例题精讲》系列文章正在写作，不仅有题解，更能让你学会解题的通用思路，举一反三！
+// 如果你觉得本文对你有帮助，欢迎关注我的公众号《面向大象编程》，其中的《LeetCode 例题精讲》系列文章正在写作，不仅有题解，更能让你学会解题的通用思路，举一反三！
 
-![](https://pic.leetcode-cn.com/d43932512708c2dc020640b967f7cecae44ba58562fd1da7deeb6c10c91e0d47.jpg)
+// ![](https://pic.leetcode-cn.com/d43932512708c2dc020640b967f7cecae44ba58562fd1da7deeb6c10c91e0d47.jpg)

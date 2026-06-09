@@ -1,8 +1,8 @@
-### 解题思路
-数组存储结点，然后就能很清楚的获取中间结点。
-### 代码
+// ### 解题思路
+// 数组存储结点，然后就能很清楚的获取中间结点。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -22,4 +22,4 @@ class Solution {
         return arry[index/2];
     }
 }
-```
+// ```

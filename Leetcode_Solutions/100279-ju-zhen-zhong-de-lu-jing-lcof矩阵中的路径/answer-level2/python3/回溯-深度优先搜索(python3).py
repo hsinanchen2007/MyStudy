@@ -1,8 +1,8 @@
-### 效率
-![回溯.jpg](https://pic.leetcode-cn.com/2477d74ddf54c758785e0093b8863b3bc2d80af5c75ae2138eaec65a43e2061d-%E5%9B%9E%E6%BA%AF.jpg)
+# ### 效率
+# ![回溯.jpg](https://pic.leetcode-cn.com/2477d74ddf54c758785e0093b8863b3bc2d80af5c75ae2138eaec65a43e2061d-%E5%9B%9E%E6%BA%AF.jpg)
 
-### 解题思路
-```python3
+# ### 解题思路
+# ```python3
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         if not board or not board[0]: return False
@@ -37,4 +37,4 @@ class Solution:
                 res = res or self._dfs(nr, nc, board, word, visited, start + 1)
                 visited[nr][nc] = False
         return res
-```
+# ```

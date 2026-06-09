@@ -1,4 +1,4 @@
-```
+// ```
 public static int hIndex(int[] citations){
         int j=0;
         int res = -1;
@@ -11,4 +11,4 @@ public static int hIndex(int[] citations){
         }
         return res;
 }
-```
+// ```

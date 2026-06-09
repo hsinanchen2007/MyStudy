@@ -1,9 +1,9 @@
-## 思路
+# ## 思路
 
-遍历所有的位置，遇到1则作为起点开始深度优先遍历，同时将遍历过的地方置为0，维护最大的值返回
+# 遍历所有的位置，遇到1则作为起点开始深度优先遍历，同时将遍历过的地方置为0，维护最大的值返回
 
-## 代码
-```python
+# ## 代码
+# ```python
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         self.grid = grid
@@ -34,4 +34,4 @@ class Solution:
 
     def is_ok(self, i, j):
         return i >= 0 and i < self.m  and j >= 0 and j < self.n and self.grid[i][j] == 1
-```
+# ```

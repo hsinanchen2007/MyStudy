@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         boolean true1=false,true2=false;
@@ -18,4 +18,4 @@ class Solution {
         return true1&&true2;
     }
 }
-```
+// ```

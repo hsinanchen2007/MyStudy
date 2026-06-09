@@ -1,10 +1,10 @@
-### 解题思路
-1、声明一个二维切片，每两个是一组。遍历链表，填充到切片中
-2、遍历切片，重新生成一个链表
+// ### 解题思路
+// 1、声明一个二维切片，每两个是一组。遍历链表，填充到切片中
+// 2、遍历切片，重新生成一个链表
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -61,4 +61,4 @@ func swapPairs(head *ListNode) *ListNode {
 	}
 	return ret.Next
 }
-```
+// ```

@@ -1,6 +1,6 @@
-考察的是对链表的基本操作，不多做赘述直接上代码。
+// 考察的是对链表的基本操作，不多做赘述直接上代码。
 
-```
+// ```
 struct ListNode* deleteDuplicates(struct ListNode* head){
     //空链表情况
     if (!head)
@@ -24,4 +24,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
 
     return head;
 }
-```
+// ```

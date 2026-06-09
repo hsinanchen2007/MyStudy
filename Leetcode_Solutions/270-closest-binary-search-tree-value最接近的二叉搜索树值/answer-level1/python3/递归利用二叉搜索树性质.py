@@ -1,10 +1,10 @@
-### 解题思路
-如果目标值大于当前节点的值，那么舍掉当前节点的左子树
-如果目标节点的值小于当前节点，那么舍掉当前节点的右子树
+# ### 解题思路
+# 如果目标值大于当前节点的值，那么舍掉当前节点的左子树
+# 如果目标节点的值小于当前节点，那么舍掉当前节点的右子树
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
         return self.res
 
        
-```
+# ```

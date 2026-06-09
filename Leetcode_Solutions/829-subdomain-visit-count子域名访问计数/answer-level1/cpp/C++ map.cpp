@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/1deb6d24b249b480732be054fedf9de7318544c5cc0319f9697d556732b6ed74-image.png)
-解题思路：先拆分，得到最低级域名及个数，再往高级统计，并存入map中，最后将个数个域名转化为res并输出
-```
+// ![image.png](https://pic.leetcode-cn.com/1deb6d24b249b480732be054fedf9de7318544c5cc0319f9697d556732b6ed74-image.png)
+// 解题思路：先拆分，得到最低级域名及个数，再往高级统计，并存入map中，最后将个数个域名转化为res并输出
+// ```
     vector<string> subdomainVisits(vector<string>& cpdomains) {
         map<string, int> count;
         vector<string> res;
@@ -27,4 +27,4 @@
         }
         return res;
     }
-```
+// ```

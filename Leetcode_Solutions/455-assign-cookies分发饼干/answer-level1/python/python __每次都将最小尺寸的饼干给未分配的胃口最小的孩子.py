@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findContentChildren(self, g, s):
         """
@@ -17,4 +17,4 @@ class Solution(object):
                 count+=1
                 j+=1
         return count
-```
+# ```

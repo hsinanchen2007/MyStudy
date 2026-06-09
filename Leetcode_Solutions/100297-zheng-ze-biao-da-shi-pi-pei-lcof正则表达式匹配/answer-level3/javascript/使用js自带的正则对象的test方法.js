@@ -1,9 +1,9 @@
-### 解题思路
-这里使用js自带的正则表达式，新建一个正则对象reg = RegExp("^("+p+")$")，然后reg.test(s)返回即可
+// ### 解题思路
+// 这里使用js自带的正则表达式，新建一个正则对象reg = RegExp("^("+p+")$")，然后reg.test(s)返回即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} p
@@ -16,4 +16,4 @@ var isMatch = function(s, p) {
     
 
 };
-```
+// ```

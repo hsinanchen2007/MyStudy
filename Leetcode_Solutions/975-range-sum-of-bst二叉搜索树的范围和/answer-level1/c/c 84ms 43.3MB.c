@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：中序遍历
@@ -81,4 +81,4 @@ int rangeSumBST( struct TreeNode* root , int L , int R ){
     return *( buffer + 0 );
 
 }
-```
+// ```

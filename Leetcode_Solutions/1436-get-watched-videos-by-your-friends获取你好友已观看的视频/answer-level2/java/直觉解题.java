@@ -1,6 +1,6 @@
-解题思路：
-1.遍历每一层朋友，直到遍历到给定层次
-2.统计给定层次所有朋友观看的视频，并排序
+// 解题思路：
+// 1.遍历每一层朋友，直到遍历到给定层次
+// 2.统计给定层次所有朋友观看的视频，并排序
 
 public List<String> watchedVideosByFriends(List<List<String>> watchedVideos, int[][] friends, int id, int level) {
         

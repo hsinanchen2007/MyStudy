@@ -1,9 +1,9 @@
-### 解题思路
-遍历入栈，然后出栈的时候相加生成新的链表
+// ### 解题思路
+// 遍历入栈，然后出栈的时候相加生成新的链表
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -62,4 +62,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

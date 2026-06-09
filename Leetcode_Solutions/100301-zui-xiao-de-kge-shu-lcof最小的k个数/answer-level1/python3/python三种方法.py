@@ -1,9 +1,9 @@
-### 解题思路
-python三种方法
+# ### 解题思路
+# python三种方法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         #排序
@@ -27,4 +27,4 @@ class Solution:
         res3=q
         return res3
 
-```
+# ```

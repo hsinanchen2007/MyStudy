@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-punch in the card.
+// punch in the card.
 
-Again I will give you the code. 
+// Again I will give you the code. 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *pa, const void *pb)
 {
     char a=*(char*)pa;
@@ -55,4 +55,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return out;
 }
-```
+// ```

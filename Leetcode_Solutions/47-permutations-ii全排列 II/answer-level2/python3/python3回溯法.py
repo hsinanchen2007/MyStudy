@@ -1,9 +1,9 @@
-### 解题思路
-python3回溯法
+# ### 解题思路
+# python3回溯法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         len_nums = len(nums)
@@ -33,4 +33,4 @@ class Solution:
         return self.ret_list
 
 
-```
+# ```

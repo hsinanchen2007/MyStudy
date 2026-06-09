@@ -1,9 +1,9 @@
-### 解题思路
-这题目真的很弱智
+// ### 解题思路
+// 这题目真的很弱智
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findLUSlength(char * a, char * b){
     int len1 = strlen(a);
     int len2 = strlen(b);
@@ -18,4 +18,4 @@ int findLUSlength(char * a, char * b){
     }
     return fmax(len1, len2);
 }
-```
+// ```

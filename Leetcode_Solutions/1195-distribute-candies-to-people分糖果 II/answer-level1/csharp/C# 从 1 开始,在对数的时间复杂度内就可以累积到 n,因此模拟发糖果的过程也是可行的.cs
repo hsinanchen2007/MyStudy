@@ -1,4 +1,4 @@
-```C# []
+// ```C# []
         public int[] DistributeCandies(int candies, int num_people)
         {
             /*
@@ -40,4 +40,4 @@
 
             return forReturn;
         }
-```
+// ```

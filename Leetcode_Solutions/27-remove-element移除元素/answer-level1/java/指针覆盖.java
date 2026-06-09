@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         if(nums.length == 0) return 0;
@@ -14,4 +14,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

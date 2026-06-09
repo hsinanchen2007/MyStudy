@@ -1,6 +1,6 @@
-原数组第一位一定是根节点。其**左子树，右子树插入顺序交换不会影响二叉搜索树形态**。保证左子树的相对顺序不变、右子树的相对顺序不变，罗列所有可能的组合
+// 原数组第一位一定是根节点。其**左子树，右子树插入顺序交换不会影响二叉搜索树形态**。保证左子树的相对顺序不变、右子树的相对顺序不变，罗列所有可能的组合
 
-```
+// ```
 class Solution {
      public List<List<Integer>> BSTSequences(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
@@ -62,4 +62,4 @@ class Solution {
         temp.remove(temp.size() - 1);
     }
 }
-```
+// ```

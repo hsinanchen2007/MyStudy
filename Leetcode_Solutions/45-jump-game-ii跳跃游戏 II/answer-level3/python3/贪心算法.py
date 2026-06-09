@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def jump(self, nums: List[int]) -> int:
         #因为当前数字是能跑最远的地方，所以下一个地点是能跑最远的地方
@@ -19,4 +19,4 @@ class Solution:
                     max_dist = cur_max_dist
             cur = next_step
         return res+1 if len(nums)>1 else res
-```
+# ```

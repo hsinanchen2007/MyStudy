@@ -1,9 +1,9 @@
-### 解题思路
-中右左 -> 倒序 -> 左右中
+// ### 解题思路
+// 中右左 -> 倒序 -> 左右中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -69,4 +69,4 @@ class Solution {
         list.add(root.val);
     }
 }
-```
+// ```

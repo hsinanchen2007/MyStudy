@@ -1,6 +1,6 @@
-# Solution0
-思路是逐层遍历字符，每层开始的\t个数即层数，栈v用于保存当前的各层长度（记得加上“/”哦）。此法相当于深度优先遍历。
-```C++
+// # Solution0
+// 思路是逐层遍历字符，每层开始的\t个数即层数，栈v用于保存当前的各层长度（记得加上“/”哦）。此法相当于深度优先遍历。
+// ```C++
 class Solution {
 public:
     int sum(vector<int>& v){
@@ -38,5 +38,5 @@ public:
         return answer;
     }
 };
-```
-![MrHuangIsShowingOff.png](https://pic.leetcode-cn.com/d8a3a89a1c68d271abecfed55a95a7042e6bc8bc03b81b95128dfed4e4fe4aa2-%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_8e735450-1d04-44f8-aa51-dcbe41343e9e.png)
+// ```
+// ![MrHuangIsShowingOff.png](https://pic.leetcode-cn.com/d8a3a89a1c68d271abecfed55a95a7042e6bc8bc03b81b95128dfed4e4fe4aa2-%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_8e735450-1d04-44f8-aa51-dcbe41343e9e.png)

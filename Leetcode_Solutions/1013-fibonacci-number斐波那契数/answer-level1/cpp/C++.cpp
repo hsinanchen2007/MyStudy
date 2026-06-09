@@ -1,9 +1,9 @@
-### 解题思路
-分情况讨论
+// ### 解题思路
+// 分情况讨论
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int fib(int N) 
@@ -26,4 +26,4 @@ public:
         return sum;
     }
 };
-```
+// ```

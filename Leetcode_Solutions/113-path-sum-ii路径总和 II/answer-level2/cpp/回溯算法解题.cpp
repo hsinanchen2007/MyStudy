@@ -1,9 +1,9 @@
-### 解题思路
-要注意底部状态的辨别。思考：如果要求不能有值相同的路径怎么办？
+// ### 解题思路
+// 要注意底部状态的辨别。思考：如果要求不能有值相同的路径怎么办？
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void pathSum_core(TreeNode* root, vector<vector<int>>& re, vector<int>& ans, int& sum_temp, int& sum) {
@@ -31,4 +31,4 @@ public:
         return re;
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### BFS搜集最短距离为`level`的好友
- - 如题目中的图示，我和我的好友距离等于1，以`id`为起点，搜集距离为`level`的好友；
- - 使用广度优先搜索`(BFS)`的方式进行搜集，用`visited`数组标记是否搜集过该好友；
- - 初始时，向`bfsQueue`添加起始`id`和距离`0`，并打上标记，开始BFS;
- - 当距离小于`level`时，将该好友的`id`和距离添加到`bfsQueue`，并标记该好友已被搜集过；
- - 当距离等于`level`时，将该好友观看过的视频纳入统计；
- - 最后，将统计的视频的数据按照频率排序，频率相同的按照名字字典序排序。
+// ### BFS搜集最短距离为`level`的好友
+//  - 如题目中的图示，我和我的好友距离等于1，以`id`为起点，搜集距离为`level`的好友；
+//  - 使用广度优先搜索`(BFS)`的方式进行搜集，用`visited`数组标记是否搜集过该好友；
+//  - 初始时，向`bfsQueue`添加起始`id`和距离`0`，并打上标记，开始BFS;
+//  - 当距离小于`level`时，将该好友的`id`和距离添加到`bfsQueue`，并标记该好友已被搜集过；
+//  - 当距离等于`level`时，将该好友观看过的视频纳入统计；
+//  - 最后，将统计的视频的数据按照频率排序，频率相同的按照名字字典序排序。
 
-```
+// ```
 class Solution {
 public:
 	vector<string> watchedVideosByFriends(vector<vector<string>>& watchedVideos, vector<vector<int>>& friends, int id, int level) {
@@ -75,4 +75,4 @@ public:
 			return a.second < b.second;
 	}
 };
-```
+// ```

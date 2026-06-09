@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         # 从腐烂的橘子开始广搜
@@ -33,4 +33,4 @@ class Solution:
                     return -1
         return current[2]
 
-```
+# ```

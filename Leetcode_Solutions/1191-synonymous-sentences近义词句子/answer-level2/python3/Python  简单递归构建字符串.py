@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/02df71b7f0b5a38da0258e3bf5f98fa6001f4449bd4dbe3668bb3e721e6afc14-image.png)
+# ![image.png](https://pic.leetcode-cn.com/02df71b7f0b5a38da0258e3bf5f98fa6001f4449bd4dbe3668bb3e721e6afc14-image.png)
 
 
-```
+# ```
 '''
 邻接表记录邻接关系，递归构建字符串
 '''
@@ -46,4 +46,4 @@ class Solution:
 
         ans = self.solve(0, text.split(' '), m)
         return sorted(ans)
-```
+# ```

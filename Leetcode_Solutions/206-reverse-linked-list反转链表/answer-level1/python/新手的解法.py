@@ -1,9 +1,9 @@
-### 解题思路
-用列表存储，然后反转列表
+# ### 解题思路
+# 用列表存储，然后反转列表
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution(object):
             return rnew
         else:
             return []
-```
+# ```

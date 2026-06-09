@@ -1,9 +1,9 @@
-### 解题思路
-先用正则表达式分割字符串，然后再求一下最小公倍数，最大公约数，再加减。
+# ### 解题思路
+# 先用正则表达式分割字符串，然后再求一下最小公倍数，最大公约数，再加减。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def fractionAddition(self, expression: str) -> str:
         #求最小公倍数
@@ -56,4 +56,4 @@ class Solution:
         else:
             gys = zuidagongyueshu(abs(a), help)
             return '{0}/{1}'.format(a//gys,help//gys)
-```
+# ```

@@ -1,15 +1,15 @@
-### 解题思路
-- 先求直线交点: 用ax+by+c=0的一般式, a = y2-y1, b = x1-x2, c = x2*y1-x1*y2
-- 这时候需要判断两个直线是否平行/共线
-- 不是的话求二元一次方程即可得交点
-- 交点是:
--   x = (c2 * b1 - c1 * b2) / (a1 * b2 - a2 * b1)
--   y = (c1 * a2 - c2 * a1) / (a1 * b2 - a2 * b1)
-- 然后再判断交点是否在两个线段上
+# ### 解题思路
+# - 先求直线交点: 用ax+by+c=0的一般式, a = y2-y1, b = x1-x2, c = x2*y1-x1*y2
+# - 这时候需要判断两个直线是否平行/共线
+# - 不是的话求二元一次方程即可得交点
+# - 交点是:
+# -   x = (c2 * b1 - c1 * b2) / (a1 * b2 - a2 * b1)
+# -   y = (c1 * a2 - c2 * a1) / (a1 * b2 - a2 * b1)
+# - 然后再判断交点是否在两个线段上
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def intersection(self, start1: List[int], end1: List[int],
                      start2: List[int], end2: List[int]) -> List[float]:
@@ -52,4 +52,4 @@ class Solution:
             return [x, y]
         else:
             return []
-```
+# ```

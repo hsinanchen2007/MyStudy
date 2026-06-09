@@ -1,7 +1,7 @@
-为了实现O(1)的空间效率，不能用栈
-但是回文判断需要知道中间节点，然后双指针才能实现O(n)+O(1)的效率
-参考的其他答案，提供C#版本的代码
-```
+// 为了实现O(1)的空间效率，不能用栈
+// 但是回文判断需要知道中间节点，然后双指针才能实现O(n)+O(1)的效率
+// 参考的其他答案，提供C#版本的代码
+// ```
 public class Solution
 {
     public bool IsPalindrome(ListNode head)
@@ -30,4 +30,4 @@ public class Solution
         return true;
     }
 }
-```
+// ```

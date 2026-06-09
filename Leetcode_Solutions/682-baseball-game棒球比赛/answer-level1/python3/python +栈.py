@@ -1,5 +1,5 @@
 
-```python3
+# ```python3
 class Solution:
     def calPoints(self, ops: List[str]) -> int:
         result = 0
@@ -22,4 +22,4 @@ class Solution:
                 result += i
             print(result)
         return result
-```
+# ```

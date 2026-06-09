@@ -1,8 +1,8 @@
-作弊作弊，用了Counter计数器
+# 作弊作弊，用了Counter计数器
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def majorityElement(self, nums):
         """
@@ -11,4 +11,4 @@ class Solution(object):
         """
         n = collections.Counter(nums).most_common(1)
         return n[0][0]
-```
+# ```

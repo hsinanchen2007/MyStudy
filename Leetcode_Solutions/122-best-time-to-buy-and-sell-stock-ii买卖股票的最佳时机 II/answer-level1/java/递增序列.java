@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-题意大概就是找到递增序列然后在递增序列的开始买入结束卖出
-O（n）就可以找到
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 题意大概就是找到递增序列然后在递增序列的开始买入结束卖出
+// O（n）就可以找到
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int amount = 0;
@@ -23,4 +23,4 @@ class Solution {
         return amount;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-二分查找目标元素
-找到目标元素后再向前 向后探索
+// ### 解题思路
+// 二分查找目标元素
+// 找到目标元素后再向前 向后探索
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int[] res = {-1, -1};
@@ -38,4 +38,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,24 +1,24 @@
-## 思路:
+# ## 思路:
 
-栈
+# 栈
 
-把括号里先算出来，
+# 把括号里先算出来，
 
-最好表达是用代码展现出来， 直接看代码！
+# 最好表达是用代码展现出来， 直接看代码！
 
-两种写法， 第一种好理解， 第二种简介！
+# 两种写法， 第一种好理解， 第二种简介！
 
-------
+# ------
 
-如有疑惑， 欢迎留言~
+# 如有疑惑， 欢迎留言~
 
-相关链接： [227. 基本计算器 II](https://leetcode-cn.com/problems/basic-calculator-ii/)
+# 相关链接： [227. 基本计算器 II](https://leetcode-cn.com/problems/basic-calculator-ii/)
 
-## 代码:
+# ## 代码:
 
-第一种
+# 第一种
 
-```python
+# ```python
 class Solution:
     def calculate(self, s: str) -> int:
         res = 0
@@ -53,11 +53,11 @@ class Solution:
                     i += 1
                 res += tmp * sign
         return res
-```
+# ```
 
-第二种
+# 第二种
 
-```python
+# ```python
 class Solution:
     def calculate(self, s: str) -> int:
         stack = []
@@ -91,7 +91,7 @@ class Solution:
                 res = stack.pop() * res + stack.pop()
         res += sign * num
         return res
-```
+# ```
 
 
 

@@ -1,10 +1,10 @@
-### 解题思路
-两个指针逐个遍历, 
-要留意移动过程中
+# ### 解题思路
+# 两个指针逐个遍历, 
+# 要留意移动过程中
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intervalIntersection(self, A: List[List[int]], B: List[List[int]]) -> List[List[int]]:
         res = []
@@ -20,4 +20,4 @@ class Solution:
             elif ea<eb: i += 1
             else: i, j = i+1, j+1
         return res            
-```
+# ```

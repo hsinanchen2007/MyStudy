@@ -1,7 +1,7 @@
-- 通过Map来记录类加过的行列以及值，最后用迭代器遍历一下
-- 用普通对象也可以
+// - 通过Map来记录类加过的行列以及值，最后用迭代器遍历一下
+// - 用普通对象也可以
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} m
@@ -26,4 +26,4 @@ var oddCells = function(n, m, indices) {
     }
     return count
 };
-```
+// ```

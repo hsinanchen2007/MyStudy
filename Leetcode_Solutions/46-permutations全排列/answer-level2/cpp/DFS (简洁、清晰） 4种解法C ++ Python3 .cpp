@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-## 时间复杂度：O(n!)   空间：O(n)
-### 代码
-## 方法一：递归
+// ## 时间复杂度：O(n!)   空间：O(n)
+// ### 代码
+// ## 方法一：递归
 
-```python []
+// ```python []
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:     
         if len(nums) <= 1: return [nums]
@@ -15,14 +15,14 @@ class Solution:
             for rest_num in self.permute(rest):
                 res.append([num] + rest_num)
         return res
-```
+// ```
 
-## 方法二：枚举可能的数字给当前的位置
-![截屏2020-03-15下午9.23.49.png](https://pic.leetcode-cn.com/1c719b34d273b93816e08c196d27f117d50c398e59968027447bec78f841cfc8-%E6%88%AA%E5%B1%8F2020-03-15%E4%B8%8B%E5%8D%889.23.49.png)
+// ## 方法二：枚举可能的数字给当前的位置
+// ![截屏2020-03-15下午9.23.49.png](https://pic.leetcode-cn.com/1c719b34d273b93816e08c196d27f117d50c398e59968027447bec78f841cfc8-%E6%88%AA%E5%B1%8F2020-03-15%E4%B8%8B%E5%8D%889.23.49.png)
 
-写法A：推荐
-![截屏2020-03-15下午9.20.12.png](https://pic.leetcode-cn.com/78a136db69b9bc1e5e50252a518fc72208598de4423327b8e3ba64d0939c2d43-%E6%88%AA%E5%B1%8F2020-03-15%E4%B8%8B%E5%8D%889.20.12.png)
-```cpp []
+// 写法A：推荐
+// ![截屏2020-03-15下午9.20.12.png](https://pic.leetcode-cn.com/78a136db69b9bc1e5e50252a518fc72208598de4423327b8e3ba64d0939c2d43-%E6%88%AA%E5%B1%8F2020-03-15%E4%B8%8B%E5%8D%889.20.12.png)
+// ```cpp []
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -51,12 +51,12 @@ public:
     }
 };
 
-```
+// ```
 
-![截屏2020-03-15下午9.50.41.png](https://pic.leetcode-cn.com/977b85ad3c46652cf6a2f3c128dbe6c9b748309d3db7a1fdc576adaeb7d1c15f-%E6%88%AA%E5%B1%8F2020-03-15%E4%B8%8B%E5%8D%889.50.41.png)
-写法B：
+// ![截屏2020-03-15下午9.50.41.png](https://pic.leetcode-cn.com/977b85ad3c46652cf6a2f3c128dbe6c9b748309d3db7a1fdc576adaeb7d1c15f-%E6%88%AA%E5%B1%8F2020-03-15%E4%B8%8B%E5%8D%889.50.41.png)
+// 写法B：
 
-```cpp []
+// ```cpp []
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -85,16 +85,16 @@ public:
     }
 };
 
-```
+// ```
 
 
-## 方法三：enumerate possible positions for current number
-![截屏2020-03-15下午9.38.12.png](https://pic.leetcode-cn.com/65baac0763b324d30369aa418eb2bab97d6798e2308ffb181936d3f2c8d6ba52-%E6%88%AA%E5%B1%8F2020-03-15%E4%B8%8B%E5%8D%889.38.12.png)
+// ## 方法三：enumerate possible positions for current number
+// ![截屏2020-03-15下午9.38.12.png](https://pic.leetcode-cn.com/65baac0763b324d30369aa418eb2bab97d6798e2308ffb181936d3f2c8d6ba52-%E6%88%AA%E5%B1%8F2020-03-15%E4%B8%8B%E5%8D%889.38.12.png)
 
-![截屏2020-03-15下午10.06.37.png](https://pic.leetcode-cn.com/ef2840173f25d8a93a98dd22af85275546f68a87be91c82c3542e0fda75a90ce-%E6%88%AA%E5%B1%8F2020-03-15%E4%B8%8B%E5%8D%8810.06.37.png)
-推荐
+// ![截屏2020-03-15下午10.06.37.png](https://pic.leetcode-cn.com/ef2840173f25d8a93a98dd22af85275546f68a87be91c82c3542e0fda75a90ce-%E6%88%AA%E5%B1%8F2020-03-15%E4%B8%8B%E5%8D%8810.06.37.png)
+// 推荐
 
-```cpp []
+// ```cpp []
 class Solution {
 public:
     vector<vector<int>> permute(vector<int>& nums) {
@@ -123,5 +123,5 @@ public:
     }
 };
 
-```
+// ```
 

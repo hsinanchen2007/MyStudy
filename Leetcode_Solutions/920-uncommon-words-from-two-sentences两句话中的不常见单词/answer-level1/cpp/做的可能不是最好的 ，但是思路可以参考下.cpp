@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<string> uncommonFromSentences(string A, string B) {
@@ -46,5 +46,5 @@ public:
     }
 
 };
-```
-![image.png](https://pic.leetcode-cn.com/9c25df313ff3a9289f9483c59ed0d128fc99580f41e82dd0f1cea29bc0ab0f47-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/9c25df313ff3a9289f9483c59ed0d128fc99580f41e82dd0f1cea29bc0ab0f47-image.png)

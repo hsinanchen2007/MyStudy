@@ -1,9 +1,9 @@
-### 解题思路
-自己看吧
+# ### 解题思路
+# 自己看吧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import bisect
 class Solution:
     def reversePairs(self, nums) -> int:
@@ -15,4 +15,4 @@ class Solution:
             ans += idx
             next_nums.pop(idx)
         return ans
-```
+# ```

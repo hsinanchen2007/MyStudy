@@ -1,4 +1,4 @@
-computecompute获取对应的值，然后比较该字符与后一个字符，若前大于后则直接计算两个的值，i多+1，否则正常加上
+// computecompute获取对应的值，然后比较该字符与后一个字符，若前大于后则直接计算两个的值，i多+1，否则正常加上
 
 int compute(char a){
     int sum=0;

@@ -1,4 +1,4 @@
-python 双端队列
+# python 双端队列
 class Solution(object):
     def maxSlidingWindow(self, nums, k):
         """

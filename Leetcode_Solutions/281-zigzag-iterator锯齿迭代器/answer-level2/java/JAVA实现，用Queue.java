@@ -1,13 +1,13 @@
 
-将List变成Queue，放入LinkedList中。
-1. next
-则取第一个Queue的第一个元素。
-取完后：1.Queue仍然有值则放到最后；2.Queue为空则抛弃。
-2. hasNext
-因为Queue为空则抛弃，元素遍历完后整个LindedList是空的。
+// 将List变成Queue，放入LinkedList中。
+// 1. next
+// 则取第一个Queue的第一个元素。
+// 取完后：1.Queue仍然有值则放到最后；2.Queue为空则抛弃。
+// 2. hasNext
+// 因为Queue为空则抛弃，元素遍历完后整个LindedList是空的。
 
 
-```java 
+// ```java 
 public class ZigzagIterator extends LinkedList<Queue<Integer>> {
 
     public ZigzagIterator(List<Integer> v1, List<Integer> v2) {
@@ -38,5 +38,5 @@ public class ZigzagIterator extends LinkedList<Queue<Integer>> {
         }
     }
 }
-```
+// ```
 

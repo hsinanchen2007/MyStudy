@@ -1,6 +1,6 @@
-其实仔细观察就是个数学问题, 附上代码解释:
+// 其实仔细观察就是个数学问题, 附上代码解释:
 
-```go []
+// ```go []
 func findContinuousSequence(target int) [][]int {
 	var a [][]int
 	i := 2 // 起始组
@@ -29,8 +29,8 @@ func findContinuousSequence(target int) [][]int {
 
 	return a
 }
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int[]> res = new LinkedList<>(); // 此处使用 LinkedList 而不是 ArrayList , 因为需要头插入
@@ -63,4 +63,4 @@ class Solution {
         return res.toArray(new int[0][]);
     }
 }
-```
+// ```

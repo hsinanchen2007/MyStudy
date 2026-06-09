@@ -1,13 +1,13 @@
-从后往前遍历，三个下标
-- idx指向合并后数组的当前值
-- a_idx指向A数组的当前值
-- b_idx指向A数组的当前值
+// 从后往前遍历，三个下标
+// - idx指向合并后数组的当前值
+// - a_idx指向A数组的当前值
+// - b_idx指向A数组的当前值
 
-只要b_idx>=0，就进行循环
-- 如果a_idx不为零，就比较A[a_idx]和B[b_idx]的值，把较大的放在A[idx]处，并减小相应的下标值
-- 如果a_idx为0，那么只需将B[b_idx]放到A[idx]处，并减小相应的下标
+// 只要b_idx>=0，就进行循环
+// - 如果a_idx不为零，就比较A[a_idx]和B[b_idx]的值，把较大的放在A[idx]处，并减小相应的下标值
+// - 如果a_idx为0，那么只需将B[b_idx]放到A[idx]处，并减小相应的下标
 
-```
+// ```
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -51,4 +51,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-貌似比官方的解法要快些
+# ### 解题思路
+# 貌似比官方的解法要快些
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         """
@@ -50,4 +50,4 @@ class Solution:
 
         # print(result)
         return len(result)
-```
+# ```

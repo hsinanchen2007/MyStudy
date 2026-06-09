@@ -1,8 +1,8 @@
 
 
-![1.png](https://pic.leetcode-cn.com/2a6450e588dee701afc442dc347723b7a6bf34aee4fcbe65bc3bf5d51ec976e3-1.png)
+// ![1.png](https://pic.leetcode-cn.com/2a6450e588dee701afc442dc347723b7a6bf34aee4fcbe65bc3bf5d51ec976e3-1.png)
 
-```C++
+// ```C++
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -31,5 +31,5 @@ public:
 
     }
 };
-```
+// ```
 

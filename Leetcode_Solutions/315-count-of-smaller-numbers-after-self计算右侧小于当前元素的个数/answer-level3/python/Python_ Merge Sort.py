@@ -1,8 +1,8 @@
-### 解题思路
-直接从merge sort代码修改。
-### 代码
+# ### 解题思路
+# 直接从merge sort代码修改。
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def countSmaller(self, nums: List[int]) -> List[int]:
         n = len(nums)
@@ -33,4 +33,4 @@ class Solution:
         sort(list(range(n)))
         return smaller
     
-```
+# ```

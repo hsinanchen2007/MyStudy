@@ -1,5 +1,5 @@
-法1
-```
+// 法1
+// ```
 class Solution {
 public:
     int candy(vector<int>& ratings) {
@@ -27,4 +27,4 @@ public:
         return ans;
     }
 };
-```
+// ```

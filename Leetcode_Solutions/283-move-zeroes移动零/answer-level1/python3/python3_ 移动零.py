@@ -1,4 +1,4 @@
-```python
+# ```python
 def moveZeroes(nums):
     # i为0的索引, j为非0的索引
     i, j = 0, 0
@@ -19,4 +19,4 @@ def moveZeroes(nums):
 nums1 = [1,0,1,1]
 moveZeroes(nums1)
 print(nums1)
-```
+# ```

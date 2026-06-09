@@ -1,17 +1,17 @@
-### 解题思路
-[参考题解](https://leetcode-cn.com/problems/path-sum-ii/solution/dfs-by-powcai-2/)
+# ### 解题思路
+# [参考题解](https://leetcode-cn.com/problems/path-sum-ii/solution/dfs-by-powcai-2/)
 
-本题需要细细思考。
-1. python 的全局变量
-2. python 的append 和 copy
-3. 是否在进入递归前，判断边界条件，还是进入后第一条判断边界条件。 
-   这里是在进入更深一层的递归之前判断是否为 None, 但是我忘了考虑初始 root 可能就是 None，而函数内部也不判断是否为 None, 导致错误。 也可见 [695. 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/solution/gelthin-dfs-by-gelthin/)
-4. 这里的 root 是啥，为何放入 list 会直接报各种看不懂的错误。
+# 本题需要细细思考。
+# 1. python 的全局变量
+# 2. python 的append 和 copy
+# 3. 是否在进入递归前，判断边界条件，还是进入后第一条判断边界条件。 
+#    这里是在进入更深一层的递归之前判断是否为 None, 但是我忘了考虑初始 root 可能就是 None，而函数内部也不判断是否为 None, 导致错误。 也可见 [695. 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/solution/gelthin-dfs-by-gelthin/)
+# 4. 这里的 root 是啥，为何放入 list 会直接报各种看不懂的错误。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
             return []
         helper(result, root, [], sum)  ## 进入这一函数时必须要保证 root 非空，否则报错
         return result
-```
+# ```

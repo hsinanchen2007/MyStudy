@@ -1,9 +1,9 @@
-### 解题思路
-![图片.png](https://pic.leetcode-cn.com/775873d611fd9ba6a7d68fa1e57c15ef4f4ead31dd9d0a59d369dbf293a6cba5-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// ![图片.png](https://pic.leetcode-cn.com/775873d611fd9ba6a7d68fa1e57c15ef4f4ead31dd9d0a59d369dbf293a6cba5-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -70,4 +70,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
 }
 
 
-```
+// ```

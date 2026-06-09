@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/f0af3277cf04c4b27e530c02b22c91d3ffe976622e58d4237dfd7671cd2f5daf-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f0af3277cf04c4b27e530c02b22c91d3ffe976622e58d4237dfd7671cd2f5daf-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   思路：
   1.中序遍历二叉搜索树，存到一个数组中，数组是升序的(因为二叉搜索树的特性)
   2.层层构建二叉搜索树，每次以中位数为根节点，这样树就是最趋近平衡的
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -52,4 +52,4 @@ var balanceBST = function(root) {
   
   return build(nodes);
 };
-```
+// ```

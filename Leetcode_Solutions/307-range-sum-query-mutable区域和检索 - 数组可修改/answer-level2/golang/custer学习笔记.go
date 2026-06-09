@@ -1,4 +1,4 @@
-```go []
+// ```go []
 type NumArray struct {
     sum  []int
 	data []int
@@ -40,4 +40,4 @@ func (this *NumArray) SumRange(i int, j int) int {
  * obj.Update(i,val);
  * param_2 := obj.SumRange(i,j);
  */
-```
+// ```

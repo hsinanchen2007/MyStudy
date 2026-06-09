@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         p={}
@@ -18,4 +18,4 @@ class Solution:
         for i in p:
             k.append(p[i])
         return k
-```
+# ```

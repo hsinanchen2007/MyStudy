@@ -1,12 +1,12 @@
-# **方法1：利用python3中set的特性（不含重复元素）**
-```
+# # **方法1：利用python3中set的特性（不含重复元素）**
+# ```
 class Solution:
     def containsDuplicate(self, nums) -> bool:
         return len(set(nums)) != len(nums)
-```
+# ```
 
-# **方法2：利用字典查找**
-```
+# # **方法2：利用字典查找**
+# ```
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         dict = {}
@@ -16,7 +16,7 @@ class Solution:
             else:
                 return True
         return False
-```
+# ```
 
-*第二篇题解啦！！！*
+# *第二篇题解啦！！！*
 

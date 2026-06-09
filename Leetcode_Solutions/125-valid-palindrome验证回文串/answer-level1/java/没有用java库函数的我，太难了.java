@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isPalindrome(String s) {
         int i = 0;
@@ -20,4 +20,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

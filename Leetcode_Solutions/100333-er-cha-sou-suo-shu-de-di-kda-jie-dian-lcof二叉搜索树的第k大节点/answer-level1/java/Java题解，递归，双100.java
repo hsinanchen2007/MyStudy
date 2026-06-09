@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int res=0,len=0;  // 递归全局变量，结果值，当前判断位置
     public int kthLargest(TreeNode root, int k) {
@@ -16,4 +16,4 @@ class Solution {
         inTraverseReversal(root.left);
     }
 }
-```
+// ```

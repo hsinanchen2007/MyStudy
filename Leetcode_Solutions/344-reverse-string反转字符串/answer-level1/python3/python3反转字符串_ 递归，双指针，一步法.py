@@ -1,5 +1,5 @@
-1. 递归
-```
+# 1. 递归
+# ```
 class Solution:
     def reverseString_v0(self, s: List[str]) -> None:
         """
@@ -12,11 +12,11 @@ class Solution:
             else:
                 return recur(tmps[1:])+[tmps[0]]
         s[:] = recur(s)
-```
-内存溢出
+# ```
+# 内存溢出
 
-2. 双指针
-```
+# 2. 双指针
+# ```
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -27,10 +27,10 @@ class Solution:
         while i<j:
             s[i],s[j] = s[j],s[i]
             i+=1;j-=1
-```
-执行用时：288 ms
-3. 一步法
-```
+# ```
+# 执行用时：288 ms
+# 3. 一步法
+# ```
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -38,11 +38,11 @@ class Solution:
         """
         # one step by python
         s[:] = s[::-1]
-```
-执行用时：348 ms
+# ```
+# 执行用时：348 ms
 
-4. 递归+双指针
-```
+# 4. 递归+双指针
+# ```
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -56,7 +56,7 @@ class Solution:
                 s[i],s[j] = s[j],s[i]
                 recur_(s,i+1,j-1)
         recur_(s,0,len(s)-1)
-```
-执行用时：252 ms
+# ```
+# 执行用时：252 ms
 
-[Aunity](https://github.com/Aunity)
+# [Aunity](https://github.com/Aunity)

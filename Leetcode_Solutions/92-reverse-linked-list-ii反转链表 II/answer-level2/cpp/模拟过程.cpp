@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-写一个反转函数即可
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 写一个反转函数即可
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ public:
         return head;
     }
 };
-```
+// ```

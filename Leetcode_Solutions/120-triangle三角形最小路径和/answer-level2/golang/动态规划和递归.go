@@ -1,9 +1,9 @@
-### 解题思路
-### 自底向上，对每个点进行遍历
+// ### 解题思路
+// ### 自底向上，对每个点进行遍历
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minimumTotal(triangle [][]int) int {
     // return searchMin(triangle, 0, 0, len(triangle))
     length := len(triangle)

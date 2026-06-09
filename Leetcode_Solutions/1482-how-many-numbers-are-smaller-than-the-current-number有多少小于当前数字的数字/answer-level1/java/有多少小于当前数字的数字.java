@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] smallerNumbersThanCurrent(int[] nums) {
         //注意：这个题数据量不大，而且nus.length<=500,每个数组元素的值都在0-100之间
@@ -21,4 +21,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

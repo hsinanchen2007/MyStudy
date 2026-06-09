@@ -1,4 +1,4 @@
-````
+// ````
 func countAndSay(n int) string {
 	// 递归出口
 	if n == 1 {
@@ -24,4 +24,4 @@ func countAndSay(n int) string {
 	result.WriteByte(prev[lastIndex])
 	return result.String()
 }
-````
+// ````

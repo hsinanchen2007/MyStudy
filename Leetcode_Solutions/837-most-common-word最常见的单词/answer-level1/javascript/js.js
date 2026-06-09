@@ -1,5 +1,5 @@
-js
-```
+// js
+// ```
 var mostCommonWord = function(paragraph, banned) {
     const Objbanned = {}
     for(let i = 0;i<banned.length;i++){
@@ -23,4 +23,4 @@ var mostCommonWord = function(paragraph, banned) {
     }
     return revl
 };
-```
+// ```

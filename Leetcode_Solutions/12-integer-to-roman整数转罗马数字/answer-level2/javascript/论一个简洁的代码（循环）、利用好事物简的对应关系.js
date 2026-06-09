@@ -1,5 +1,5 @@
-### 自己的代码：冗余、没有利用好题目的性质，虽说自己写的也是贪心算法的思路
-```
+// ### 自己的代码：冗余、没有利用好题目的性质，虽说自己写的也是贪心算法的思路
+// ```
 var intToRoman = function(num) {
     var str = '';
     var thousand, nineHundred, fivHundred, fourHundred, hundred, ninty, fifity, forty, ten, nine, five, four;
@@ -96,10 +96,10 @@ var intToRoman = function(num) {
     }
     return str;
 };
-```
-### 大神的代码，简洁、易读性强
-1. 暴力法，列举每一位上可能的罗马字母，根据每一个位对应的罗马字母来
-```
+// ```
+// ### 大神的代码，简洁、易读性强
+// 1. 暴力法，列举每一位上可能的罗马字母，根据每一个位对应的罗马字母来
+// ```
 var intToRoman = function(num) {
     var Q = ["", "M", "MM", "MMM"];
     var B = ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"];
@@ -107,9 +107,9 @@ var intToRoman = function(num) {
     var G = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"];
     return Q[Math.floor(num/1000)] + B[Math.floor((num%1000)/100)] + S[Math.floor((num%100)/10)] + G[num%10];
 };
-```
-2. 贪心算法
-```
+// ```
+// 2. 贪心算法
+// ```
 var intToRoman = function(num) {
     var romanArr = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I']
     var arr = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
@@ -125,5 +125,5 @@ var intToRoman = function(num) {
     }
     return str
 };
-```
+// ```
 

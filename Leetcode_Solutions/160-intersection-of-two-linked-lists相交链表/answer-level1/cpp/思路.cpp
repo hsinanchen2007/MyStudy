@@ -1,9 +1,9 @@
-### 解题思路
-蛮巧妙的，比不同起点的方法要简洁 简单很多
+// ### 解题思路
+// 蛮巧妙的，比不同起点的方法要简洁 简单很多
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -30,4 +30,4 @@ public:
       return pA;
     }
 };
-```
+// ```

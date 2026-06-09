@@ -1,9 +1,9 @@
-### 解题思路
-双层循环
+// ### 解题思路
+// 双层循环
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} J
  * @param {string} S
@@ -18,4 +18,4 @@ var numJewelsInStones = function(J, S) {
     }
     return count
 };
-```
+// ```

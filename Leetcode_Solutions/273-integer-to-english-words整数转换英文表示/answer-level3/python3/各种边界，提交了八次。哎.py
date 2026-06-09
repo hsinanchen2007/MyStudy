@@ -1,9 +1,9 @@
-### 解题思路
-思路很简单 但是边界条件太多了
+# ### 解题思路
+# 思路很简单 但是边界条件太多了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numberToWords(self, num: int) -> str:
         if num <= 0:
@@ -59,4 +59,4 @@ class Solution:
         answer = [' '.join(item.split()) for item in answer if item.strip() != '']
         print(answer)
         return ' '.join(answer).strip()
-```
+# ```

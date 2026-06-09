@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-- 先找到车的位置 
-- 然后在所在的行和列中判断即可
+// - 先找到车的位置 
+// - 然后在所在的行和列中判断即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numRookCaptures(board [][]byte) int {
     if board == nil || len(board) == 0 || len(board[0]) == 0 {
 		return 0
@@ -53,4 +53,4 @@ func numRookCaptures(board [][]byte) int {
 	}
 	return cnt
 }
-```
+// ```

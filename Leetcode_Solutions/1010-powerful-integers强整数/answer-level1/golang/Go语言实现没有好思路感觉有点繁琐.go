@@ -1,4 +1,4 @@
-```
+// ```
 
 
 func powerfulIntegers(x int, y int, bound int) []int {
@@ -57,6 +57,6 @@ func powerfulIntegers(x int, y int, bound int) []int {
 }
 
 
-```
+// ```
 
-![BaiduShurufa_2019-5-22_9-30-13.png](https://pic.leetcode-cn.com/60f8948ad6aa5e2f6a0f6f251923e00d6353baa1e21dae0899d9e69f097f949c-BaiduShurufa_2019-5-22_9-30-13.png)
+// ![BaiduShurufa_2019-5-22_9-30-13.png](https://pic.leetcode-cn.com/60f8948ad6aa5e2f6a0f6f251923e00d6353baa1e21dae0899d9e69f097f949c-BaiduShurufa_2019-5-22_9-30-13.png)

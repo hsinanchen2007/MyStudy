@@ -1,11 +1,11 @@
-### 解题思路
-注意点：
-1、“0xxx”
-2、字符串长度
+// ### 解题思路
+// 注意点：
+// 1、“0xxx”
+// 2、字符串长度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isAdditiveNumber(string num) {
@@ -55,4 +55,4 @@ public:
         return false;
     }
 };
-```
+// ```

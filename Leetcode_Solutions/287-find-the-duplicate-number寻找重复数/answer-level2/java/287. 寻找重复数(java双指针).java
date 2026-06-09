@@ -1,12 +1,12 @@
-### 解题思路
-如果把数据看做一个 LinkedList，第 i 个位置上的值代表第 i 个点的下一个点是什么的话，我们就能画出一个从 0 出发的，一共有 n + 1 个点的 Linked List。
-可以证明的一件事情是，这个 Linked List 一定存在环。因为无环的 Linked List 里 非空next 的数目和节点的数目关系是差一个（节点多，非空next少）
+// ### 解题思路
+// 如果把数据看做一个 LinkedList，第 i 个位置上的值代表第 i 个点的下一个点是什么的话，我们就能画出一个从 0 出发的，一共有 n + 1 个点的 Linked List。
+// 可以证明的一件事情是，这个 Linked List 一定存在环。因为无环的 Linked List 里 非空next 的数目和节点的数目关系是差一个（节点多，非空next少）
 
-那么，我们证明了这是一个带环链表。而我们要找的重复的数，也就是两个点都指向了同一个点作为 next 的那个点。也就是环的入口。
-类似的题142. 环形链表 II
-### 代码
+// 那么，我们证明了这是一个带环链表。而我们要找的重复的数，也就是两个点都指向了同一个点作为 next 的那个点。也就是环的入口。
+// 类似的题142. 环形链表 II
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findDuplicate(int[] nums) {
         if(nums == null || nums.length <= 1){
@@ -27,4 +27,4 @@ class Solution {
         return slow;
     }
 }
-```
+// ```

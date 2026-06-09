@@ -1,11 +1,11 @@
-### 解题思路
-题解来自于 [画解算法：15. 三数之和](https://leetcode-cn.com/problems/3sum/solution/hua-jie-suan-fa-15-san-shu-zhi-he-by-guanpengchn/)
+# ### 解题思路
+# 题解来自于 [画解算法：15. 三数之和](https://leetcode-cn.com/problems/3sum/solution/hua-jie-suan-fa-15-san-shu-zhi-he-by-guanpengchn/)
 
-主要是去重，以及特殊样例 [0,0,0,0,0]
+# 主要是去重，以及特殊样例 [0,0,0,0,0]
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)
@@ -37,4 +37,4 @@ class Solution:
                         j += 1
         return result
 
-```
+# ```

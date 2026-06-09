@@ -1,9 +1,9 @@
-### 解题思路
-认真写，注意不要将某次的sum初始化为0了，因为整个数组的和可能就是0。
+// ### 解题思路
+// 认真写，注意不要将某次的sum初始化为0了，因为整个数组的和可能就是0。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -33,4 +33,4 @@ public:
         return true;
     }
 };
-```
+// ```

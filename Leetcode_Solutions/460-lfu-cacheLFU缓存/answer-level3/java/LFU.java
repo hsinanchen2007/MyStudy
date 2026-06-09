@@ -1,8 +1,8 @@
-copy解題好幾天了......欠的賬總是要還的.......
+// copy解題好幾天了......欠的賬總是要還的.......
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LFUCache {
     Map<Integer, Node> cache;  // 存储缓存的内容
     Map<Integer, LinkedHashSet<Node>> freqMap; // 存储每个频次对应的双向链表
@@ -95,4 +95,4 @@ class Node {
     }
 }
 
-```
+// ```

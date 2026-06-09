@@ -1,4 +1,4 @@
-```
+// ```
 func hasAlternatingBits(n int) bool {
     // 定义：n 的最后一位是0，则flag为true，否则为false
     var flag bool
@@ -27,4 +27,4 @@ func hasAlternatingBits(n int) bool {
     return true
 
 }
-```
+// ```

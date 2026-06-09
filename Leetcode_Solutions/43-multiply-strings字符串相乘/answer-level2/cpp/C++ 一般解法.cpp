@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/1a34707bb4b86e30a7227e2b0731f8b124842df99417dece7b7babed9c1551f5-image.png)
-计算每一位，当前位置 i 的值 str[i] 等于 num1[j] * num2[i-j],j 从 0 到 len1 的遍历之和，再加上进位carry。
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/1a34707bb4b86e30a7227e2b0731f8b124842df99417dece7b7babed9c1551f5-image.png)
+// 计算每一位，当前位置 i 的值 str[i] 等于 num1[j] * num2[i-j],j 从 0 到 len1 的遍历之和，再加上进位carry。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string multiply(string num1, string num2)
@@ -30,4 +30,4 @@ public:
         return str;
     }
 };
-```
+// ```

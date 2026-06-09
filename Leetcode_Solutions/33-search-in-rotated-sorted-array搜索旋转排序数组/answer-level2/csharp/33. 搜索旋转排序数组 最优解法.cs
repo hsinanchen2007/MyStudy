@@ -1,8 +1,8 @@
-### 解题思路
-利用中点左右的区间始终有一边有序的性质可以晒掉一边，如果目标在有序的一边，那么就是普通的二分。
-### 代码
+// ### 解题思路
+// 利用中点左右的区间始终有一边有序的性质可以晒掉一边，如果目标在有序的一边，那么就是普通的二分。
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int Search(int[] nums, int target) {
        int len = nums.Length;
@@ -36,4 +36,4 @@ public class Solution {
        return -1;
     }
 }
-```
+// ```

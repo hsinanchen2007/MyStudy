@@ -1,6 +1,6 @@
-直接模拟
-技巧:使用同长度的数组存放压缩结果,如果压缩结果超出存放数组的大小,就退出返回原来字符串,,否则返回压缩后的字符串.
-```
+// 直接模拟
+// 技巧:使用同长度的数组存放压缩结果,如果压缩结果超出存放数组的大小,就退出返回原来字符串,,否则返回压缩后的字符串.
+// ```
 class Solution {
     public String compressString(String S) {
         char[] cs = new char[S.length()];
@@ -22,4 +22,4 @@ class Solution {
         return S;
     }
 }
-```
+// ```

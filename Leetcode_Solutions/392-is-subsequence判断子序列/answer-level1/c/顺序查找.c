@@ -1,10 +1,10 @@
-### 解题思路
-空字符判断
-顺序查找
+// ### 解题思路
+// 空字符判断
+// 顺序查找
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isSubsequence(char * s, char * t){
     if(s[0] == '\0')
         return true;
@@ -20,4 +20,4 @@ bool isSubsequence(char * s, char * t){
     }
     return false;
 }
-```
+// ```

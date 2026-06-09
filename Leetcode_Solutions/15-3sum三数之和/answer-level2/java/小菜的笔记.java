@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-注意数组排序后的去重，且排序后才用左右双指针。不然得到的数组有重复的。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 注意数组排序后的去重，且排序后才用左右双指针。不然得到的数组有重复的。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         List<List<Integer>> list = new ArrayList();
@@ -33,4 +33,4 @@ class Solution {
 
     }
 }
-```
+// ```

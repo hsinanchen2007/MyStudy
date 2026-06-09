@@ -1,9 +1,9 @@
-### 解题思路
-递归处理即可，每次找到数组的最大值，然后设置好左右子节点。
+// ### 解题思路
+// 递归处理即可，每次找到数组的最大值，然后设置好左右子节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
     }
 
 }
-```
+// ```

@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_543_diameterOfBinaryTree.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_543_diameterOfBinaryTree.java)
 
-```java
+// ```java
     private int ret = 0;
 
     /**
@@ -27,4 +27,4 @@
         ret = Math.max(ret, count);
         return Math.max(left, right) + 1;
     }
-```
+// ```

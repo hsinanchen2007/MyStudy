@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度:O(n),n为数组长度
-空间复杂度：O(1)
+// ### 解题思路
+// 时间复杂度:O(n),n为数组长度
+// 空间复杂度：O(1)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -34,4 +34,4 @@ var search = function(nums, target) {
     }
     return 0;
 };
-```
+// ```

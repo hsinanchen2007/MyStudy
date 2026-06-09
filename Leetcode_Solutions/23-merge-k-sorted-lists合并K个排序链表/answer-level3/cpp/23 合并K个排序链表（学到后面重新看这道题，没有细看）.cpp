@@ -1,7 +1,7 @@
-方法一：逐一两两合并链表：通过两个链表的合并，循环求出K个链表的合并
+// 方法一：逐一两两合并链表：通过两个链表的合并，循环求出K个链表的合并
 
 
-```
+// ```
 class Solution {
 public:
     ListNode* mergetwolist(ListNode* l1,ListNode* l2)
@@ -38,4 +38,4 @@ public:
         return cur;
     }
 };
-```
+// ```

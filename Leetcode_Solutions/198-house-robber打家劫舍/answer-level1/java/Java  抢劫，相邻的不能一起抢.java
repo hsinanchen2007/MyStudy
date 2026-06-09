@@ -1,9 +1,9 @@
-### 
-解题思路状态转移方程：dp[i] = Math.max(dp[i - 1], dp[i - 2] + nums[i])
+// ### 
+// 解题思路状态转移方程：dp[i] = Math.max(dp[i - 1], dp[i - 2] + nums[i])
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -21,4 +21,4 @@ class Solution {
         return dp1;
     }
 }
-```
+// ```

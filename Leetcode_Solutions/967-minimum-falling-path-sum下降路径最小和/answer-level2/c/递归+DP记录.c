@@ -1,14 +1,14 @@
-### 解题思路
-f(col, row) = val + MIN(f(col + 1, row -1), f(col + 1, row), f(col + 1, row + 1))
+// ### 解题思路
+// f(col, row) = val + MIN(f(col + 1, row -1), f(col + 1, row), f(col + 1, row + 1))
 
-然后第一行每个元素计算一遍f(), 结果就是MIN(f(0~ASize))
+// 然后第一行每个元素计算一遍f(), 结果就是MIN(f(0~ASize))
 
-如果直接这样写，会超时，所以增加一个dp[][]记录已有结果加快速度
+// 如果直接这样写，会超时，所以增加一个dp[][]记录已有结果加快速度
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <limits.h>
 int MIN(int a, int b, int c)
 {
@@ -46,4 +46,4 @@ int minFallingPathSum(int** A, int ASize, int* AColSize){
     return result;
 }
 
-```
+// ```

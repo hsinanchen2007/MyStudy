@@ -1,10 +1,10 @@
-### 解题思路
-循环队列
-从队头到队尾
-从队尾到队头
-### 代码
+// ### 解题思路
+// 循环队列
+// 从队头到队尾
+// 从队尾到队头
+// ### 代码
 
-```c
+// ```c
 #define MIN(a, b) ((a < b) ? a : b)
 #define PRINTF // printf
 int distanceBetweenBusStops(int* distance, int distanceSize, int start, int destination){
@@ -32,4 +32,4 @@ int distanceBetweenBusStops(int* distance, int distanceSize, int start, int dest
     }
     return MIN(rightDis, leftDis);
 }
-```
+// ```

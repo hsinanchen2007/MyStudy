@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def reverseStr(s: String, k: Int): String = {
 
@@ -25,4 +25,4 @@ object Solution {
     sArray.mkString
   }
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/6541be6244da3de462884d9e4dd701ab3a9a5a056e8c54d527803c9b02253a6f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6541be6244da3de462884d9e4dd701ab3a9a5a056e8c54d527803c9b02253a6f-image.png)
 
-```
+// ```
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -51,4 +51,4 @@ int* topKFrequent(int* nums, int numsSize, int k, int* returnSize){
     *returnSize=k;
     return nums;
 }
-```
+// ```

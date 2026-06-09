@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String reverseLeftWords(String s, int n) {
            int count=0;
@@ -14,5 +14,5 @@ class Solution {
         String news=String.copyValueOf(newch);
         return news;
 }}
-```
-也可以直接substring。
+// ```
+// 也可以直接substring。

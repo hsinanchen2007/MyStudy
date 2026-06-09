@@ -1,14 +1,14 @@
-本质还是**滑动窗口**。
-因为不想再写个循环找重复点。所以第一次用了hashmap存index。
+// 本质还是**滑动窗口**。
+// 因为不想再写个循环找重复点。所以第一次用了hashmap存index。
 
-后来想到所有字符不超过ascii码。所以干脆找了个128数组存index。空间更省速度更快。
-
-
-第一次写hashmap还是脑子抽了找到重复点后还是写了个小循环把重复点前的index都置零。
-再想想就想通了，有begin存开始点。如果index不超过begin都可以当做无效。就不用置零了。
+// 后来想到所有字符不超过ascii码。所以干脆找了个128数组存index。空间更省速度更快。
 
 
-```
+// 第一次写hashmap还是脑子抽了找到重复点后还是写了个小循环把重复点前的index都置零。
+// 再想想就想通了，有begin存开始点。如果index不超过begin都可以当做无效。就不用置零了。
+
+
+// ```
 func lengthOfLongestSubstring(s string) int {
     if len(s) <= 1{                 //too short to calculate
         return len(s)
@@ -38,4 +38,4 @@ func max(a, b int) int{    // max function
         return b
     }
 }
-```
+// ```

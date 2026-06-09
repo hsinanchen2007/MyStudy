@@ -1,6 +1,6 @@
-参考官方题解c++实现。我自己写卡在了元音的判断哪里。没想到官方的'*'替代的方法。
+// 参考官方题解c++实现。我自己写卡在了元音的判断哪里。没想到官方的'*'替代的方法。
 
-```
+// ```
 class Solution {
 public:
     vector<string> spellchecker(vector<string>& wordlist, vector<string>& queries) {
@@ -38,4 +38,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public ListNode deleteNode(ListNode head, int val) {
         ListNode thead=new ListNode(0);
@@ -15,4 +15,4 @@ class Solution {
         return thead.next;
     }
 }
-```
+// ```

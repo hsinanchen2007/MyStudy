@@ -1,7 +1,7 @@
-先求数组元素和sum，然后遍历索引左侧元素和left，应满足2*left+flag=sum
+// 先求数组元素和sum，然后遍历索引左侧元素和left，应满足2*left+flag=sum
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return -1;
     }
 };
-```
+// ```

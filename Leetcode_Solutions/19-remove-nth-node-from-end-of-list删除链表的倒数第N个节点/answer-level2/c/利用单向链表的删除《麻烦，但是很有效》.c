@@ -1,4 +1,4 @@
-```
+// ```
 代码块/**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -49,4 +49,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
 }
 
 
-```
+// ```

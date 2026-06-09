@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-用最后4个元素存下容量，以及各个栈的栈顶坐标
+# 用最后4个元素存下容量，以及各个栈的栈顶坐标
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class TripleInOne:
 
     def __init__(self, stackSize: int):
@@ -26,4 +26,4 @@ class TripleInOne:
 
     def isEmpty(self, stackNum: int) -> bool:
         return self.d[~stackNum] < 3
-```
+# ```

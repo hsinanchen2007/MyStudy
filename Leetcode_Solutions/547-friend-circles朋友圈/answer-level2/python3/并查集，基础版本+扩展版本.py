@@ -1,5 +1,5 @@
-基础版本：
-```python []
+# 基础版本：
+# ```python []
 class Solution:
     def _find(self, k, parent):
         while k != parent[k]:
@@ -35,7 +35,7 @@ class Solution:
                 count -= self._union(i, j, parent, rank)
 
         return count
-```
-扩展版
+# ```
+# 扩展版
 
 

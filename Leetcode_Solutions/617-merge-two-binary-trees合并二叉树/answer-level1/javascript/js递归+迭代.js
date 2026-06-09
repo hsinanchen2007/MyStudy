@@ -1,5 +1,5 @@
-迭代
-```js
+// 迭代
+// ```js
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -38,9 +38,9 @@ var mergeTrees = function(t1, t2) {
     }
     return t1;
 };
-```
-递归
-```js
+// ```
+// 递归
+// ```js
 var mergeTrees = function(t1, t2) {
     if(!t1) {
             return t2;
@@ -53,4 +53,4 @@ var mergeTrees = function(t1, t2) {
         t1.right = mergeTrees(t1.right, t2.right);
         return t1;
 }
-```
+// ```

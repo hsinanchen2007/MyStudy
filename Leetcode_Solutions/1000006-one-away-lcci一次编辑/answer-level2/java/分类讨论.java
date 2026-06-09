@@ -1,8 +1,8 @@
-三种情况：
-1. 如果个数相差大于1个，就不能。
-2. 如果个数相同，至多允许一个字符不同，其余必须均相同，包括顺序
-3. 如果个数相差1个，需要短的字符串在长的字符串中 连续 顺序 出现，且至多允许一个不连续。
-```
+// 三种情况：
+// 1. 如果个数相差大于1个，就不能。
+// 2. 如果个数相同，至多允许一个字符不同，其余必须均相同，包括顺序
+// 3. 如果个数相差1个，需要短的字符串在长的字符串中 连续 顺序 出现，且至多允许一个不连续。
+// ```
 public boolean oneEditAway(String first, String second) {
 		int len1 = first.length();
 		int len2 = second.length();
@@ -44,4 +44,4 @@ public boolean oneEditAway(String first, String second) {
 		}
 		return true;
 	}
-```
+// ```

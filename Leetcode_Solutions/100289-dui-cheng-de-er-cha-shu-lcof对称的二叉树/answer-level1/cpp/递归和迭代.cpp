@@ -1,5 +1,5 @@
-递归
-```
+// 递归
+// ```
     bool isSymmetric(TreeNode*A,TreeNode*B){
         if(A==NULL&&B==NULL)
             return true;
@@ -12,11 +12,11 @@
             return true;
         return isSymmetric(root->left,root->right);
     }
-```
-迭代：
-想问题不要总是想的太复杂，递归问题总是依赖于遍历来解决，迭代问题同样也是遍历，只要熟练掌握迭代方法的那几种遍历，迭代也同样是信手拈来。
-迭代1：queue的层次遍历
-```
+// ```
+// 迭代：
+// 想问题不要总是想的太复杂，递归问题总是依赖于遍历来解决，迭代问题同样也是遍历，只要熟练掌握迭代方法的那几种遍历，迭代也同样是信手拈来。
+// 迭代1：queue的层次遍历
+// ```
 class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
@@ -44,9 +44,9 @@ public:
         return true;
     }
 };
-```
-迭代2：stack的遍历
-```
+// ```
+// 迭代2：stack的遍历
+// ```
 class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
@@ -74,4 +74,4 @@ public:
         return true;
     }
 };
-```
+// ```

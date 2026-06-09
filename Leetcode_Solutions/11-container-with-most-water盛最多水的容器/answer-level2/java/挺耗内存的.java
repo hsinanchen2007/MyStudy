@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.lang.Math;
 class Solution {
     public int maxArea(int[] height) {
@@ -22,4 +22,4 @@ class Solution {
     return max;
     }
 }
-```
+// ```

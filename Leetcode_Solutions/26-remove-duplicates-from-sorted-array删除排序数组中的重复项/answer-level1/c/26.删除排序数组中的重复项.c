@@ -1,10 +1,10 @@
-### 方法1：暴力移位法
-和前一项不一样，保留；否则，全部往前挪一个位置。
-时间复杂度为O(n^2)，很明显不好，需要优化。
+// ### 方法1：暴力移位法
+// 和前一项不一样，保留；否则，全部往前挪一个位置。
+// 时间复杂度为O(n^2)，很明显不好，需要优化。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
 
 
@@ -31,15 +31,15 @@ int removeDuplicates(int* nums, int numsSize){
     }
     return numsSize;     
 }
-```
+// ```
 
-### 方法2：建立虚拟的数组
-同样采用遍历，若元素和虚拟数组当前元素不一样，更新虚拟数组的下一元素
-时间复杂度为O(n)。
+// ### 方法2：建立虚拟的数组
+// 同样采用遍历，若元素和虚拟数组当前元素不一样，更新虚拟数组的下一元素
+// 时间复杂度为O(n)。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
 
 
@@ -57,4 +57,4 @@ int removeDuplicates(int* nums, int numsSize){
     }
     return index;     
 }
-```
+// ```

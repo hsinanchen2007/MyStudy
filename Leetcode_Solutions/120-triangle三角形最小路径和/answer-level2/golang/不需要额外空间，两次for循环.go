@@ -1,9 +1,9 @@
-### 解题思路
-从低至上找出最小值，使用三角形最后一行保存最小值
+// ### 解题思路
+// 从低至上找出最小值，使用三角形最后一行保存最小值
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minimumTotal(triangle [][]int) int {
 	if len(triangle) == 0 {
 		return 0
@@ -20,4 +20,4 @@ func minimumTotal(triangle [][]int) int {
 	}
 	return minList[0]
 }
-```
+// ```

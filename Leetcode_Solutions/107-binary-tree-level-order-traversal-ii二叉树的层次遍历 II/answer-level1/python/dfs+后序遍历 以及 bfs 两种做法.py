@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         ret = []
@@ -27,10 +27,10 @@ class Solution:
                 ret.append([])
             postorder(root, 0)
             return list(reversed(ret))
-```
-dfs+后序遍历
+# ```
+# dfs+后序遍历
 
-```
+# ```
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         ret = []
@@ -53,6 +53,6 @@ class Solution:
                         if temp.right:
                             queue.append(temp.right)
             return list(reversed(ret))
-```
-bfs方法
+# ```
+# bfs方法
 

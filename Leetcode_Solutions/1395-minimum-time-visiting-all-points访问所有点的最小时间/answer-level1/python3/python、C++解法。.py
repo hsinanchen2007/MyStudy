@@ -1,7 +1,7 @@
 
-C++:
+# C++:
 
-```
+# ```
 class Solution {
 public:
 	int minTimeToVisitAllPoints(vector<vector<int>>& points) {
@@ -14,10 +14,10 @@ public:
         return T;
 	}
 };
-```
+# ```
 
-python:
-```
+# python:
+# ```
 class Solution:
     def minTimeToVisitAllPoints(self, points: List[List[int]]) -> int:
         def time(l1, l2):
@@ -31,5 +31,5 @@ class Solution:
             T += t
         return T
 
-```
+# ```
 

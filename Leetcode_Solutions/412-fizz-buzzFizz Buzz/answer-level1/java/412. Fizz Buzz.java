@@ -1,12 +1,12 @@
-/**
- * @Project
- * @Author zhaozhen
- * @Email 
- * @Date 2019/9/7
- * 
- * 解题思路:怎么想 怎么做
- */
-```
+// /**
+//  * @Project
+//  * @Author zhaozhen
+//  * @Email 
+//  * @Date 2019/9/7
+//  * 
+//  * 解题思路:怎么想 怎么做
+//  */
+// ```
     public List<String> fizzBuzz(int n) {
 
         List<String> list = new ArrayList<>();
@@ -24,4 +24,4 @@
         return list;
 
     }
-```
+// ```

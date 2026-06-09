@@ -1,9 +1,9 @@
-### 解题思路
-见注释
+// ### 解题思路
+// 见注释
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int titleToNumber(char * s){
     int len =1; // 字符长度
     long int sum =0; // 结果
@@ -21,4 +21,4 @@ int titleToNumber(char * s){
     }
     return sum;
 }
-```
+// ```

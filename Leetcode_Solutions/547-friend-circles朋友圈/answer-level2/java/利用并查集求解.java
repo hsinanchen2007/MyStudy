@@ -1,5 +1,5 @@
-这里首先给出我自己定义的并查集代码，写的很粗糙，见谅。代码如下：
-``` java
+// 这里首先给出我自己定义的并查集代码，写的很粗糙，见谅。代码如下：
+// ``` java
 class Union_Find_Set{
     ArrayList<Integer> father = new ArrayList<>();
     int SIZE = 0;
@@ -60,10 +60,10 @@ class Union_Find_Set{
         return ans;
     }
 }
-```
-然后简单的利用并查集就可以很方便的实现了，就是时间复杂度貌似有点高，emmm，凑合用
-全部代码如下：
-``` java
+// ```
+// 然后简单的利用并查集就可以很方便的实现了，就是时间复杂度貌似有点高，emmm，凑合用
+// 全部代码如下：
+// ``` java
 public class solution{
     private class Union_Find_Set{
         ArrayList<Integer> father = new ArrayList<>();
@@ -132,4 +132,4 @@ public class solution{
         return set.NumOfSet();
     }
 }
-```
+// ```

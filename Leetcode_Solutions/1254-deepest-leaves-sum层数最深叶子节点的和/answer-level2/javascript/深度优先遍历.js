@@ -1,9 +1,9 @@
-### 解题思路
-遍历二叉树，将每一层值以数组的形式存入数组，将获取的数组末尾元素叠加求和输出结果
+// ### 解题思路
+// 遍历二叉树，将每一层值以数组的形式存入数组，将获取的数组末尾元素叠加求和输出结果
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -32,4 +32,4 @@ var deepestLeavesSum = function(root) {
         dfs(root.right, n+1);
     }
 };
-```
+// ```

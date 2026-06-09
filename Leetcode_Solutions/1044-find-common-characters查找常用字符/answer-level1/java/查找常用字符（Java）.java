@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> commonChars(String[] A) {
         //本题可以理解为求每个字符串之间字符数量的交集,考虑到效率，我们可以使用数组优化哈希表的代码，用数组res的下标i分清是哪个字符，用res[i]表示字符出现的次数。（类似哈希表的思想）
@@ -31,4 +31,4 @@ class Solution {
         return list;   
     }
 }
-```
+// ```

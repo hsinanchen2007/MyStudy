@@ -1,4 +1,4 @@
-```python
+# ```python
 from typing import List
 class Solution:
     def findCircleNum(self, M: List[List[int]]) -> int:
@@ -33,4 +33,4 @@ class Solution:
                     ut.union(i, j)
     
         return ut.get_count()
-```
+# ```

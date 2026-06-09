@@ -1,8 +1,8 @@
-### 解题思路
-set去重不算作弊吗？还可以直接用interaction函数呢！
-### 代码
+# ### 解题思路
+# set去重不算作弊吗？还可以直接用interaction函数呢！
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def intersection(self, nums1, nums2):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                 res.append(i)
         return res
 
-```
+# ```

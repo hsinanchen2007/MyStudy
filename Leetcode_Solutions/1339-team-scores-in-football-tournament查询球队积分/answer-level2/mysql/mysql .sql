@@ -1,4 +1,4 @@
-```
+-- ```
 select  
    t.team_id ,
    t.team_name,
@@ -30,4 +30,4 @@ from(
 right join Teams t on t.team_id=a.host_team
 group by t.team_id
 order by num_points desc,team_id 
-```
+-- ```

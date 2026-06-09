@@ -1,5 +1,5 @@
-# 从左往右
-```python
+# # 从左往右
+# ```python
 class Solution:
     def canJump(self, nums) -> bool:
         end = 0
@@ -16,10 +16,10 @@ class Solution:
                 return True
         # 这个其实主要是，nums，length为1的时候
         return True
-```
+# ```
 
-# 从右往左
-```python
+# # 从右往左
+# ```python
 class Solution:
     def canJump(self, nums) -> bool:
         end = len(nums) - 1
@@ -30,8 +30,8 @@ class Solution:
             if end == 0:
                 return True
         return end == 0
-```
+# ```
 
-**两种方案比较：**
-都是利用了贪心算法，两种方案都有各自的好处，从右往左，代码简单了些，但是需要遍历所有的nums，这个一定的。
-但是从左往右，却可以提前判断，在中间就能去掉不能到达的一部分数据，不一定需要遍历所有的数据，如[0, 0, 1, 6, 3]，而从右往左，却一定要遍历整个list的。
+# **两种方案比较：**
+# 都是利用了贪心算法，两种方案都有各自的好处，从右往左，代码简单了些，但是需要遍历所有的nums，这个一定的。
+# 但是从左往右，却可以提前判断，在中间就能去掉不能到达的一部分数据，不一定需要遍历所有的数据，如[0, 0, 1, 6, 3]，而从右往左，却一定要遍历整个list的。

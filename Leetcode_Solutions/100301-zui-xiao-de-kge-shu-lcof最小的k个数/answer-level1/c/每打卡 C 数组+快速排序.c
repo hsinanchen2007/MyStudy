@@ -1,9 +1,9 @@
-### 解题思路
-快速排序后将前k个输出
+// ### 解题思路
+// 快速排序后将前k个输出
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -27,4 +27,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize)
     return result;
 }
 
-```
+// ```

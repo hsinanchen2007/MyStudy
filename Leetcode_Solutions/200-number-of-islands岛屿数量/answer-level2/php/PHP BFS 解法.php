@@ -1,6 +1,6 @@
-参考[高分题解](https://leetcode-cn.com/problems/number-of-islands/solution/dfs-bfs-bing-cha-ji-python-dai-ma-java-dai-ma-by-l/)
+// 参考[高分题解](https://leetcode-cn.com/problems/number-of-islands/solution/dfs-bfs-bing-cha-ji-python-dai-ma-java-dai-ma-by-l/)
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -54,4 +54,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

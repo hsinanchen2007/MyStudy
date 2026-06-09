@@ -1,13 +1,13 @@
-## 方法一：
+// ## 方法一：
 
-二维数组的动态规划：O(n^2)
+// 二维数组的动态规划：O(n^2)
 
-- mat[i][j]表示s[i:j+1]为有效括号
-- 如何求mat[i][j]?
-- 先借用栈获取k，使得s[k:j+1]为以s[j]为结尾的最短有效括号,mat[k][j]=true
-- 如果mat[i][k-1]=true,则mat[i][j]=true
+// - mat[i][j]表示s[i:j+1]为有效括号
+// - 如何求mat[i][j]?
+// - 先借用栈获取k，使得s[k:j+1]为以s[j]为结尾的最短有效括号,mat[k][j]=true
+// - 如果mat[i][k-1]=true,则mat[i][j]=true
 
-```
+// ```
 func longestValidParentheses(s string) int {
     if s==""||len(s)<2{
         return 0
@@ -55,15 +55,15 @@ func max(i ,j int) int {
     }
     return j
 }
-```
+// ```
 
 
-## 方法二：
+// ## 方法二：
 
-- 栈+动态规划:时间复杂度O(n)
-- dp[i]表示已s[i]结尾的最长有效括号
+// - 栈+动态规划:时间复杂度O(n)
+// - dp[i]表示已s[i]结尾的最长有效括号
 
-```
+// ```
 func longestValidParentheses(s string) int {
     if s==""||len(s)<2{
         return 0
@@ -97,4 +97,4 @@ func max(i ,j int) int {
     }
     return j
 }
-```
+// ```

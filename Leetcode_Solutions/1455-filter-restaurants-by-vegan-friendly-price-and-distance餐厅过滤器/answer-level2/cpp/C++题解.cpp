@@ -1,13 +1,13 @@
-### [1333. 餐厅过滤器](https://leetcode-cn.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/)
+// ### [1333. 餐厅过滤器](https://leetcode-cn.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance/)
 
-#### 题解
-  + 先模拟筛选，注意当$veganFriendly$为False时所有restaurant都满足
-  + 对筛选过后的restaurants按rating和id排序
-  + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
+// #### 题解
+//   + 先模拟筛选，注意当$veganFriendly$为False时所有restaurant都满足
+//   + 对筛选过后的restaurants按rating和id排序
+//   + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
 
-#### 代码
+// #### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> filterRestaurants(vector<vector<int>>& restaurants, int veganFriendly, int maxPrice, int maxDistance) {
@@ -27,4 +27,4 @@ public:
         return ans;
     }
 };
-```
+// ```

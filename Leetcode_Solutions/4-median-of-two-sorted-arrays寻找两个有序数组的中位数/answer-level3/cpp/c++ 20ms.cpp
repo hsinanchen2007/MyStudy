@@ -1,10 +1,10 @@
-### 解题思路
-每个数组一个指针，从前往后进行合并
-最后返回中位数
+// ### 解题思路
+// 每个数组一个指针，从前往后进行合并
+// 最后返回中位数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -37,4 +37,4 @@ public:
         else return (nums[len/2]+nums[len/2-1])/2;
     }
 };
-```
+// ```

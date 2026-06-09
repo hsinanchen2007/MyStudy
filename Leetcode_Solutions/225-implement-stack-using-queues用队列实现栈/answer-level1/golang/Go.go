@@ -1,15 +1,15 @@
-### 解题思路
-执行用时 :
-0 ms, 在所有 Go 提交中击败了100.00%的用户
-内存消耗 :
-2 MB, 在所有 Go 提交中击败了73.75%的用户
+// ### 解题思路
+// 执行用时 :
+// 0 ms, 在所有 Go 提交中击败了100.00%的用户
+// 内存消耗 :
+// 2 MB, 在所有 Go 提交中击败了73.75%的用户
 
-双slice，来回倒换，如果是Top，最后一个元素不倒换
+// 双slice，来回倒换，如果是Top，最后一个元素不倒换
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
 	repo []int
 }
@@ -56,4 +56,4 @@ func (this *MyStack) Top() int {
 func (this *MyStack) Empty() bool {
 	return len(this.repo) == 0
 }
-```
+// ```

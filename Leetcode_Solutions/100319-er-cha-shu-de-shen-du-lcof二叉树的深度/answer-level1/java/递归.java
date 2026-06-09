@@ -1,9 +1,9 @@
-### 解题思路
-Math.max(maxDepth(root.left),maxDepth(root.right))+1
+// ### 解题思路
+// Math.max(maxDepth(root.left),maxDepth(root.right))+1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ class Solution {
         }
     }
 }
-```
+// ```

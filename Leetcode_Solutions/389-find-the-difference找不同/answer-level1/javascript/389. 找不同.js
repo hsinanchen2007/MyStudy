@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-#### 思路一
+// #### 思路一
 
-对于这种 ``字符串`` 类型的题目，通常 ``哈希表`` 都是比较容易想到的解法，通常会出现在这样的题目中：
+// 对于这种 ``字符串`` 类型的题目，通常 ``哈希表`` 都是比较容易想到的解法，通常会出现在这样的题目中：
 
-- 两个 ``字符串`` 比对 / 找不同
-- 单个值映射出现的次数（不唯一）
+// - 两个 ``字符串`` 比对 / 找不同
+// - 单个值映射出现的次数（不唯一）
 
-#### 代码
+// #### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -51,18 +51,18 @@ var findTheDifference = function(s, t) {
         }
     }
 };
-```
+// ```
 
-时间复杂度： $O(n)$
-空间复杂度： $O(n)$
+// 时间复杂度： $O(n)$
+// 空间复杂度： $O(n)$
 
-#### 思路二
+// #### 思路二
 
-由于每个字母都只对应一个 ``ASCII 码``，所以这道题可以演化成为求 [数组中只出现一次的数字](https://leetcode-cn.com/problems/single-number/)，这里直接用 ``位运算`` 即可。
+// 由于每个字母都只对应一个 ``ASCII 码``，所以这道题可以演化成为求 [数组中只出现一次的数字](https://leetcode-cn.com/problems/single-number/)，这里直接用 ``位运算`` 即可。
 
-#### 代码
+// #### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -78,16 +78,16 @@ var findTheDifference = function(s, t) {
     }
     return String.fromCharCode(temp)
 };
-```
+// ```
 
-时间复杂度： $O(n)$
-空间复杂度： $O(1)$
+// 时间复杂度： $O(n)$
+// 空间复杂度： $O(1)$
 
-#### 思路三
+// #### 思路三
 
-由上一个思路演化，除了采用 ``位运算``，也可以直接求两个字符串的 ``ASCII 码`` 的差值。
+// 由上一个思路演化，除了采用 ``位运算``，也可以直接求两个字符串的 ``ASCII 码`` 的差值。
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -103,7 +103,7 @@ var findTheDifference = function(s, t) {
     }
     return String.fromCharCode(sum)
 };
-```
+// ```
 
-时间复杂度： $O(n)$
-空间复杂度： $O(1)$
+// 时间复杂度： $O(n)$
+// 空间复杂度： $O(1)$

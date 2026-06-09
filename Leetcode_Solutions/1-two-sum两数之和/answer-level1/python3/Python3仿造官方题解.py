@@ -1,5 +1,5 @@
-第一种，执行时间6604ms
-```
+# 第一种，执行时间6604ms
+# ```
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         length = len(nums)
@@ -7,11 +7,11 @@ class Solution:
             for j in range(i+1,length):
                 if nums[i] + nums[j] == target:
                     return [i,j]
-```
+# ```
 
-第二种执行时间84ms，不过空间复杂度高
+# 第二种执行时间84ms，不过空间复杂度高
 
-```
+# ```
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hashmap = {}
@@ -20,4 +20,4 @@ class Solution:
             if complement in hashmap:
                 return {hashmap[complement],index}
             hashmap[value] = index
-```
+# ```

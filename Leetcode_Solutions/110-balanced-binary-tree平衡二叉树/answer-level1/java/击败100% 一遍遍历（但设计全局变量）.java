@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     //弊端是使用了全局变量
     private boolean res;
@@ -25,4 +25,4 @@ class Solution {
         return Math.max(left, right);     
     }  
 }
-```
+// ```

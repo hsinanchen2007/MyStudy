@@ -1,9 +1,9 @@
-### 解题思路
-剪枝是这道题的精髓，函数参数加引用加速
+// ### 解题思路
+// 剪枝是这道题的精髓，函数参数加引用加速
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
@@ -32,4 +32,4 @@ public:
 private:
     vector<vector<int> > vv;
 };
-```
+// ```

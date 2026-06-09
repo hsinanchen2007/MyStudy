@@ -1,9 +1,9 @@
-这一题也介绍两种方法。
-### 方法一：
-第一种是大家最熟悉的暴力法，两层循环遍历，即可得出答案。
+# 这一题也介绍两种方法。
+# ### 方法一：
+# 第一种是大家最熟悉的暴力法，两层循环遍历，即可得出答案。
 
-代码如下：
-```python
+# 代码如下：
+# ```python
 class Solution:
     def twoSum(self, nums, target):
         """
@@ -24,17 +24,17 @@ if __name__ == '__main__':
     solution = Solution()
     result = solution.twoSum(nums, target)
     print(result)
-```
+# ```
 
-执行效率那自然是不用说了，差的不能再差了，差点要超出时间限制了。
+# 执行效率那自然是不用说了，差的不能再差了，差点要超出时间限制了。
 
-### 方法二：
+# ### 方法二：
 
-此方法在方法一的基础上改进了，只需要一层循环即可找出答案。即根据当前遍历得到的元素index，查找target-index是否在剩余数组里出现，如果找得到，则返回其下标值；反之则说明没有该答案。
+# 此方法在方法一的基础上改进了，只需要一层循环即可找出答案。即根据当前遍历得到的元素index，查找target-index是否在剩余数组里出现，如果找得到，则返回其下标值；反之则说明没有该答案。
 
-代码如下：
+# 代码如下：
 
-```python
+# ```python
 class Solution(object):
     # 可用一遍遍历，即根据当前遍历得到的元素index，
     # 查找target-index是否在剩余数组里出现
@@ -61,5 +61,5 @@ if __name__ == "__main__":
     target = -8
     answer = Solution().twoSum(nums, target)
     print(answer)
-```
-执行效率还算不错，在 60% 左右。
+# ```
+# 执行效率还算不错，在 60% 左右。

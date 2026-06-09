@@ -1,8 +1,8 @@
-建议大家每种方法都自己画图试一次，可以方便理解很多
-### 头插法
-使用头结点
+// 建议大家每种方法都自己画图试一次，可以方便理解很多
+// ### 头插法
+// 使用头结点
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -22,11 +22,11 @@ public:
     return head;
     }
 };
-```
+// ```
 
-### 逆置
+// ### 逆置
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -44,10 +44,10 @@ public:
    return cur;
     }
 };
-```
-### 递归
+// ```
+// ### 递归
 
-```cpp
+// ```cpp
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -61,4 +61,4 @@ public:
     }
     
 };
-```
+// ```

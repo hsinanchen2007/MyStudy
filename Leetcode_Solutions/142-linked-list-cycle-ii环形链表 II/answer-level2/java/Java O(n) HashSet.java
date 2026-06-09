@@ -1,9 +1,9 @@
-### 解题思路
-简单的利用Hash查找是否有循环。
+// ### 解题思路
+// 简单的利用Hash查找是否有循环。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -29,4 +29,4 @@ public class Solution {
         return null;
     }
 }
-```
+// ```

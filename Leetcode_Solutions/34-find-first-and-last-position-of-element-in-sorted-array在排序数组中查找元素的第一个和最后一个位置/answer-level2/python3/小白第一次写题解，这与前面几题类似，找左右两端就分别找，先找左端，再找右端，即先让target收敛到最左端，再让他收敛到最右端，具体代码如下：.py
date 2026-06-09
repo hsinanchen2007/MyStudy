@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         if len(nums)==0:  #当为空的情况
@@ -21,5 +21,5 @@ class Solution:
         # print(r1)
         return [l,r1] if nums[l]==target else [-1,-1]
 
-```
+# ```
 

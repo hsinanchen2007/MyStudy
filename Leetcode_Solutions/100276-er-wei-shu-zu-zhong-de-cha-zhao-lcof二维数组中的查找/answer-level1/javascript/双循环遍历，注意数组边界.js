@@ -1,9 +1,9 @@
-### 解题思路
-双循环遍历，注意数组边界
+// ### 解题思路
+// 双循环遍历，注意数组边界
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -26,4 +26,4 @@ var findNumberIn2DArray = function(matrix, target) {
     }
     return false;
 };
-```
+// ```

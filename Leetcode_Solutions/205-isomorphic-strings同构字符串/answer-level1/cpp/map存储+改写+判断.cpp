@@ -1,9 +1,9 @@
-### 解题思路
-使用unordered_map存储字符串元素的序号，改写原字符串，判断二者是否相等
+// ### 解题思路
+// 使用unordered_map存储字符串元素的序号，改写原字符串，判断二者是否相等
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string deal(string s,unordered_map<char,int>& x,int p){
@@ -24,4 +24,4 @@ public:
             return false;
     }
 };
-```
+// ```

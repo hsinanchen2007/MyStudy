@@ -1,16 +1,16 @@
-## 思路:
+# ## 思路:
 
-匹配问题，我们一般使用 **栈**
+# 匹配问题，我们一般使用 **栈**
 
-遍历字符串，我们把左括号压入栈中，当遇到右括号，和栈顶元素比较！
+# 遍历字符串，我们把左括号压入栈中，当遇到右括号，和栈顶元素比较！
 
-时间复杂度：$O(n)$
+# 时间复杂度：$O(n)$
 
-空间复杂度：$O(n)$
+# 空间复杂度：$O(n)$
 
-## 代码：
+# ## 代码：
 
-```Python []
+# ```Python []
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
@@ -28,9 +28,9 @@ class Solution:
             else:
                 return False
         return True if not stack else False
-```
+# ```
 
-```Java []
+# ```Java []
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<Character>();
@@ -44,7 +44,7 @@ class Solution {
         
     }
 }
-```
+# ```
 
 
 

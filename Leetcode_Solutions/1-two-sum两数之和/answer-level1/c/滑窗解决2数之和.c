@@ -1,9 +1,9 @@
-### 解题思路
-滑窗遍历数据组合
+// ### 解题思路
+// 滑窗遍历数据组合
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 
 /**
@@ -25,4 +25,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     }
     return res;
 }
-```
+// ```

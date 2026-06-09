@@ -1,9 +1,9 @@
-### 解题思路
-emmm确实还不会...
+# ### 解题思路
+# emmm确实还不会...
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,9 +32,9 @@ class Solution:
             return root
         return helper()
 
-```
-写法二，效率较低：
-```
+# ```
+# 写法二，效率较低：
+# ```
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         if not inorder:
@@ -45,4 +45,4 @@ class Solution:
         root.left = self.buildTree(preorder[1:index+1],inorder[:index])
         root.right = self.buildTree(preorder[index+1:],inorder[index+1:])
         return root
-```
+# ```

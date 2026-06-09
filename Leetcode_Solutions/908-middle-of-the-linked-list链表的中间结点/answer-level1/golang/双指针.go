@@ -1,9 +1,9 @@
-### 解题思路
-快慢双指针
+// ### 解题思路
+// 快慢双指针
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -22,4 +22,4 @@ func middleNode(head *ListNode) *ListNode {
     }
     return slow
 }
-```
+// ```

@@ -1,8 +1,8 @@
-## 方法1：暴力破解---超时
+# ## 方法1：暴力破解---超时
 
-思路：从这个字符串最大的长度开始，后面依次减1进行比较，比较的方法也十分简单，从左往右移动
+# 思路：从这个字符串最大的长度开始，后面依次减1进行比较，比较的方法也十分简单，从左往右移动
 
-```python
+# ```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         str_array = []
@@ -35,27 +35,27 @@ class Solution:
     def check_string(self, str_list) -> bool:
         str_set = set(str_list)
         return True if len(str_set) == len(str_list) else False
-```
+# ```
 
-**喜儿乐见的是又超时了**
-然后我多试了几次，发现结果还不一样
+# **喜儿乐见的是又超时了**
+# 然后我多试了几次，发现结果还不一样
 
-```
+# ```
 819 / 987 个通过测试用例 820 卡住
 820 / 987 个通过测试用例 821 卡住
 849 / 987 个通过测试用例 850 卡住
 832 / 987 个通过测试用例 833 卡住
 837 / 987 个通过测试用例 838 卡住
-```
+# ```
 
-看来得优化一下， 看了官方的思路感觉自己也可以换一种思路
+# 看来得优化一下， 看了官方的思路感觉自己也可以换一种思路
 
-## 方法2：滑动扩展
+# ## 方法2：滑动扩展
 
-从左到右的固定长度滑动，可以改成进行滑动扩展，遇到连续相同的字符就从最后一个元素开始继续，从左到右滑动扩展，遇到非连续的就把之前那个已经存在的字符后开始
-例如：
+# 从左到右的固定长度滑动，可以改成进行滑动扩展，遇到连续相同的字符就从最后一个元素开始继续，从左到右滑动扩展，遇到非连续的就把之前那个已经存在的字符后开始
+# 例如：
 
-```
+# ```
 KWWPAGPP12345PZ
 开始是K 列表['K']
 然后是W 列表['K', 'W']
@@ -64,11 +64,11 @@ KWWPAGPP12345PZ
 ...
 遇到G 列表['W', 'P', 'A', 'G']
 现在又遇到P 列表['W', 'P', 'A', 'G']新添加的元素'P'在之前的列表里面有存在， 于是取这个存在之后的数据 ['A', 'G', 'P']
-```
+# ```
 
-感觉可以，于是写了下面的代码
+# 感觉可以，于是写了下面的代码
 
-```python
+# ```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:        
         max_num = 0
@@ -88,12 +88,12 @@ class Solution:
                     check_list.append(each)
             max_num = len(check_list) if len(check_list) > max_num else max_num
         return max_num
-```
+# ```
 
-果然通过了LeetCode的检查，美滋滋(^▽^)
-虽然感觉好像效率不高，但是起码通过检查就已经是一大进步了
+# 果然通过了LeetCode的检查，美滋滋(^▽^)
+# 虽然感觉好像效率不高，但是起码通过检查就已经是一大进步了
 
-```
+# ```
 执行用时 :116 ms, 在所有 python3 提交中击败了38.00% 的用户
 内存消耗 :14 MB, 在所有 python3 提交中击败了5.01%的用户
 
@@ -102,12 +102,12 @@ class Solution:
 
 执行用时 :120 ms, 在所有 python3 提交中击败了35.99% 的用户
 内存消耗 :14 MB, 在所有 python3 提交中击败了5.01%的用户
-```
+# ```
 
-感觉速度这么慢可能和我使用了List的关系
-所以打算使用一个字典来试试，字典的key就保存下标，value就保存字母
+# 感觉速度这么慢可能和我使用了List的关系
+# 所以打算使用一个字典来试试，字典的key就保存下标，value就保存字母
 
-```python
+# ```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int: 
         # 保存不重复的最大值       
@@ -144,11 +144,11 @@ class Solution:
             max_num = len(check_dict.keys()) if len(check_dict.keys()) > max_num else max_num
             index += 1
         return max_num
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :540 ms, 在所有 python3 提交中击败了10.84% 的用户
 内存消耗 :14.1 MB, 在所有 python3 提交中击败了5.01%的用户
 
@@ -157,15 +157,15 @@ class Solution:
 
 执行用时 :656 ms, 在所有 python3 提交中击败了9.16% 的用户
 内存消耗 :13.8 MB, 在所有 python3 提交中击败了5.01%的用户
-```
+# ```
 
-结果更久了，肯定是哪里不对[○･｀Д´･ ○] 结果变成负优化了。
+# 结果更久了，肯定是哪里不对[○･｀Д´･ ○] 结果变成负优化了。
 
-后面看了一下用set进行处理的解题思路，突然有种想法，上面的两种无非是使用了Dict和List的外界条件
-为何不能把List用一个string字符串替代呢，因为其实字符串和列表在操作上还是蛮相似的
-于是有了下面的代码
+# 后面看了一下用set进行处理的解题思路，突然有种想法，上面的两种无非是使用了Dict和List的外界条件
+# 为何不能把List用一个string字符串替代呢，因为其实字符串和列表在操作上还是蛮相似的
+# 于是有了下面的代码
 
-```python
+# ```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:        
         max_num = 0
@@ -184,11 +184,11 @@ class Solution:
                     new_str += each
             max_num = len(new_str) if len(new_str) > max_num else max_num
         return max_num
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :68 ms, 在所有 python3 提交中击败了93.47% 的用户
 内存消耗 :13.8 MB, 在所有 python3 提交中击败了5.01%的用户
 
@@ -197,17 +197,17 @@ class Solution:
 
 执行用时 :68 ms, 在所有 python3 提交中击败了93.47% 的用户
 内存消耗 :13.9 MB, 在所有 python3 提交中击败了5.01%的用户
-```
+# ```
 
-结果喜出望外O(∩_∩)O哈哈~
+# 结果喜出望外O(∩_∩)O哈哈~
 
-## 方法3：切片判断---2020-03-26添加
+# ## 方法3：切片判断---2020-03-26添加
 
-重新看这题的时候，方法1我没有马上想到，可能做了几十题的LeetCode连暴力破解都不会了（滑稽）
+# 重新看这题的时候，方法1我没有马上想到，可能做了几十题的LeetCode连暴力破解都不会了（滑稽）
 
-想到无非就是维护一组连续的不重复列表，其实这里用字符串也可以，字符串也支持切片
+# 想到无非就是维护一组连续的不重复列表，其实这里用字符串也可以，字符串也支持切片
 
-```python
+# ```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         result = []
@@ -219,11 +219,11 @@ class Solution:
             result.append(each)
             MAX = max(MAX, len(result))
         return MAX
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :104 ms, 在所有 Python3 提交中击败了38.30% 的用户
 内存消耗 :13.7 MB, 在所有 Python3 提交中击败了5.43%的用户
 
@@ -232,11 +232,11 @@ class Solution:
 
 执行用时 :84 ms, 在所有 Python3 提交中击败了52.25% 的用户
 内存消耗 :13.6 MB, 在所有 Python3 提交中击败了5.43%的用户
-```
+# ```
 
-字符串版本
+# 字符串版本
 
-```python
+# ```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         result = ""
@@ -248,11 +248,11 @@ class Solution:
             result += each
             MAX = max(MAX, len(result))
         return MAX
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :104 ms, 在所有 Python3 提交中击败了38.30% 的用户
 内存消耗 :13.6 MB, 在所有 Python3 提交中击败了5.43%的用户
 
@@ -261,6 +261,6 @@ class Solution:
 
 执行用时 :88 ms, 在所有 Python3 提交中击败了48.70% 的用户
 内存消耗 :13.7 MB, 在所有 Python3 提交中击败了5.43%的用户
-```
+# ```
 
-欢迎来github上看更多题目的解答[力扣解题思路](
+# 欢迎来github上看更多题目的解答[力扣解题思路](

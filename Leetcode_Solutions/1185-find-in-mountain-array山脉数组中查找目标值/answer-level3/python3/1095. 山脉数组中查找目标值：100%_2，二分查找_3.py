@@ -1,14 +1,14 @@
-困难里的基础题，只要用了分治，时间都差不多的。
+# 困难里的基础题，只要用了分治，时间都差不多的。
 
-解法一是把二分查找坐标做成函数了，二分查找中值判断条件用匿名函数传递。
+# 解法一是把二分查找坐标做成函数了，二分查找中值判断条件用匿名函数传递。
 
-解法二就是正常分开做的，解法一比较快，解法二比较容易理解,其实解法一也就是把解法二的条件泛化而已。
+# 解法二就是正常分开做的，解法一比较快，解法二比较容易理解,其实解法一也就是把解法二的条件泛化而已。
 
-解法一：
+# 解法一：
 
-![image.png](https://pic.leetcode-cn.com/da7c7c95cfb8d3def7fb6eba9b53a7bf255917761abc9bab0507535d474597cb-image.png)
+# ![image.png](https://pic.leetcode-cn.com/da7c7c95cfb8d3def7fb6eba9b53a7bf255917761abc9bab0507535d474597cb-image.png)
 
-```python []
+# ```python []
 class Solution:
     def findInMountainArray(self, target: int, arr: 'MountainArray') -> int:
         def f(l, r, gl, gr):
@@ -27,13 +27,13 @@ class Solution:
         if t != -1:
             return t
         return f(h + 1, n - 1, lambda m: arr.get(m) > target, lambda m: arr.get(m) < target)
-```
+# ```
 
-解法二：
+# 解法二：
 
-![image.png](https://pic.leetcode-cn.com/d7d25f51d0d4074e66a672362f849089a2e585fee8b5a8acfe5cdfe4cb169e87-image.png)
+# ![image.png](https://pic.leetcode-cn.com/d7d25f51d0d4074e66a672362f849089a2e585fee8b5a8acfe5cdfe4cb169e87-image.png)
 
-```python []
+# ```python []
 class Solution:
     def findInMountainArray(self, target: int, mountain_arr: 'MountainArray') -> int:
 
@@ -71,4 +71,4 @@ class Solution:
                 return m
         
         return -1
-```
+# ```

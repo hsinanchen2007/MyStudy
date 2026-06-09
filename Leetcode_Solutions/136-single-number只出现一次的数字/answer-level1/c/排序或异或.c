@@ -1,4 +1,4 @@
-```
+// ```
 int cmp(const int *a, const int *b)
 {
     return (*(int *)a - *(int *)b);
@@ -27,4 +27,4 @@ int singleNumber(int* nums, int numsSize){
 
 #endif
 }
-```
+// ```

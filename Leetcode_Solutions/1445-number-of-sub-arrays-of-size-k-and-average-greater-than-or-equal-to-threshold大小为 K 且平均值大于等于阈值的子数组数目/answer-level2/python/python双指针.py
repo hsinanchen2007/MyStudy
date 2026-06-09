@@ -1,9 +1,9 @@
-### 解题思路
-一路推进
+# ### 解题思路
+# 一路推进
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numOfSubarrays(self, arr, k, threshold):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             if total>=target:
                 result+=1
         return result
-```
+# ```

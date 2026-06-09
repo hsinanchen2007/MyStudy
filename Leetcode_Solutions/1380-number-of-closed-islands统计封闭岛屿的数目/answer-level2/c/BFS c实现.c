@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     int r;
     int c;
@@ -60,4 +60,4 @@ int closedIsland(int** grid, int gridSize, int* gridColSize){
    // printf("return num %d", ret);
     return ret;
 }
-```
+// ```

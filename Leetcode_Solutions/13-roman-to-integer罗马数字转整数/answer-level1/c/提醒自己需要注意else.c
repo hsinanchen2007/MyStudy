@@ -1,9 +1,9 @@
-### 解题思路
-else绝对不能少
-如果少了，下一行代码result+=map(s[i]);也会执行，比如IV result=0-1又执行result=0-1-1
-### 代码
+// ### 解题思路
+// else绝对不能少
+// 如果少了，下一行代码result+=map(s[i]);也会执行，比如IV result=0-1又执行result=0-1-1
+// ### 代码
 
-```c
+// ```c
 char norm[]= "IVXLCDM";
 int number[]={1,5,10,50,100,500,1000};
 
@@ -32,4 +32,4 @@ int romanToInt(char * s){
     return result;
 
 }
-```
+// ```

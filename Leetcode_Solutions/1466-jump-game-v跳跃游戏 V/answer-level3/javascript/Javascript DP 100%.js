@@ -1,6 +1,6 @@
-![dp.png](https://pic.leetcode-cn.com/ad4462c229f4d0ced82ccbbc7dacc43a744541c121476f26298d39c083975291-dp.png)
+// ![dp.png](https://pic.leetcode-cn.com/ad4462c229f4d0ced82ccbbc7dacc43a744541c121476f26298d39c083975291-dp.png)
 
-```
+// ```
 var maxJumps = function(arr, d) {
     const len = arr.length;
     const a = new Array(len).fill(0);
@@ -24,5 +24,5 @@ var maxJumps = function(arr, d) {
     }
     return Math.max.apply(null, a);
 }
-```
+// ```
 

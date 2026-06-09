@@ -1,4 +1,4 @@
-```
+# ```
     def constructRectangle(self, area: int) -> List[int]:
         left = 0
         right = area
@@ -15,4 +15,4 @@
             if area % index == 0:
                 break
         return [area//index, index]
-```
+# ```

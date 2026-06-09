@@ -1,9 +1,9 @@
-### 解题思路
-在此提示：这个题没有不存放有效数据的头结点，为了操作方便，需要自己手动设置
-每次检查一个结点，我就通过函数得到这个结点后的N个结点，看看是否后N个结点是最后一个结点
-### 代码
+// ### 解题思路
+// 在此提示：这个题没有不存放有效数据的头结点，为了操作方便，需要自己手动设置
+// 每次检查一个结点，我就通过函数得到这个结点后的N个结点，看看是否后N个结点是最后一个结点
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
     // }
     return dummy->next;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public int[] deckRevealedIncreasing(int[] deck) {
         int len = deck.length;
         int n = len;
@@ -46,4 +46,4 @@ public int[] deckRevealedIncreasing(int[] deck) {
         deck[i - 1] = deck[j - 1];
         deck[j - 1] = temp;
     }
-```
+// ```

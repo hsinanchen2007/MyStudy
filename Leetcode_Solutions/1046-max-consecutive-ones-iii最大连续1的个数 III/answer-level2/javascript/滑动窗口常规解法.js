@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} A
  * @param {number} K
@@ -22,4 +22,4 @@ var longestOnes = function(A, K) {
     }
     return n - i
 };
-```
+// ```

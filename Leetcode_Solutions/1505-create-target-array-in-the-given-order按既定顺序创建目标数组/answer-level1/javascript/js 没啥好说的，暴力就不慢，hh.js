@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/d075eda80c7fff2a73544518cee438b9dddcafb50a6f089ff9eaf5d35b5455ff-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d075eda80c7fff2a73544518cee438b9dddcafb50a6f089ff9eaf5d35b5455ff-image.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number[]} index
@@ -21,4 +21,4 @@ var createTargetArray = function(nums, index) {
   
   return arr;
 };
-```
+// ```

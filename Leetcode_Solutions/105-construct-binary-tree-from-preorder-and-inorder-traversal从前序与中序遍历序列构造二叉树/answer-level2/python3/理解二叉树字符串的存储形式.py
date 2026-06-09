@@ -1,9 +1,9 @@
-### 解题思路
-按照一定规律，拆分二叉树字符串。
+# ### 解题思路
+# 按照一定规律，拆分二叉树字符串。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
         right_pre = preorder[len(left_in)+1:]
         return middle, right_in, left_in, right_pre, left_pre
 
-```
+# ```

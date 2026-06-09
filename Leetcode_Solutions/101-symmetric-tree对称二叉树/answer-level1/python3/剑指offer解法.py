@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
         return self.traversing_binary_tree(root, root)
@@ -15,4 +15,4 @@ class Solution:
             return False
         
         return self.traversing_binary_tree(root1.left, root2.right) and self.traversing_binary_tree(root1.right, root2.left)
-```
+# ```

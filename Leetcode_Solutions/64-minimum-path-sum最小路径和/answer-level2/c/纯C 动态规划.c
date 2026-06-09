@@ -1,9 +1,9 @@
-### 解题思路
-动态规划 清清爽爽
+// ### 解题思路
+// 动态规划 清清爽爽
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static inline int min(int a, int b)
 {
     return a < b ? a : b;
@@ -49,4 +49,4 @@ int minPathSum(int** grid, int gridSize, int* gridColSize){
 
     return dp[gridSize - 1][*gridColSize - 1];
 }
-```
+// ```

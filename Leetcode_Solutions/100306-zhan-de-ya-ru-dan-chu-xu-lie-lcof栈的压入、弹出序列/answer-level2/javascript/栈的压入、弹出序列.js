@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} pushed
  * @param {number[]} popped
@@ -29,4 +29,4 @@ var validateStackSequences = function(pushed, popped) {
     }
     return false; // 无法栈空时就说明出栈序列有问题
 };
-```
+// ```

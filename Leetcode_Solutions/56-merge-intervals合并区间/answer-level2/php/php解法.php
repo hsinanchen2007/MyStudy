@@ -1,5 +1,5 @@
-先将区间数组根据左边界进行排序（如果本身就是有序的，可以不用排序）
-```
+// 先将区间数组根据左边界进行排序（如果本身就是有序的，可以不用排序）
+// ```
 function merge($intervals) {
     if(count($intervals)<1) return [];
     // 默认二维数组排序，是根据一维数组的第一个值进行排序的
@@ -18,4 +18,4 @@ function merge($intervals) {
     }
     return $ans;
 }
-```
+// ```

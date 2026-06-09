@@ -1,9 +1,9 @@
-### 解题思路
-右括号入栈，左括号时看和栈顶是不是同类型。
+# ### 解题思路
+# 右括号入栈，左括号时看和栈顶是不是同类型。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         lefts={"(":0,"{":1,"[":2,}
@@ -20,4 +20,4 @@ class Solution:
                 if lefts[bracket]!=rights[char]:
                     return False
         return len(stack)==0
-```
+# ```

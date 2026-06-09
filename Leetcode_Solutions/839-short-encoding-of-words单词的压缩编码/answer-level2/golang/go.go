@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minimumLengthEncoding(words []string) int {
     suffix := map[string]bool{}
     sort.Sort(ByLength(words))
@@ -32,4 +32,4 @@ func (p ByLength) Less(i, j int) bool {
 func (p ByLength) Swap(i, j int) {
 	p[i], p[j] = p[j], p[i]
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路，官方解题思路，dij的最短距离，等于di-1,j/di,j-1/di-1,j-1距离的最小值，其中di-1,j-1的值当i-1,j-1值相等时为di-1,j-1否则需要加1.
+// ### 解题思路
+// 此处撰写解题思路，官方解题思路，dij的最短距离，等于di-1,j/di,j-1/di-1,j-1距离的最小值，其中di-1,j-1的值当i-1,j-1值相等时为di-1,j-1否则需要加1.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minDistance(String word1, String word2) {
         int n=word1.length();
@@ -35,4 +35,4 @@ class Solution {
    
    
 }
-```
+// ```

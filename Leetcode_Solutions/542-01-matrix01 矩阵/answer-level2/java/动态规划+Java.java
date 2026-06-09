@@ -1,9 +1,9 @@
-![捕获.JPG](https://pic.leetcode-cn.com/9388038b64a72fa19fc823eb5e969cc5d4b2150e6b9f9c30988719e4c0ce7618-%E6%8D%95%E8%8E%B7.JPG)
+// ![捕获.JPG](https://pic.leetcode-cn.com/9388038b64a72fa19fc823eb5e969cc5d4b2150e6b9f9c30988719e4c0ce7618-%E6%8D%95%E8%8E%B7.JPG)
 
-在正序遍历时，把不为0的元素存入队列，
-在倒序遍历时，就可以倒序取出，节省时间（不用像官方的那样再次挨个遍历）。
+// 在正序遍历时，把不为0的元素存入队列，
+// 在倒序遍历时，就可以倒序取出，节省时间（不用像官方的那样再次挨个遍历）。
 
-```
+// ```
 class Solution {
     public int[][] updateMatrix(int[][] matrix) {
         int m = matrix.length;
@@ -34,5 +34,5 @@ class Solution {
         return out;
     }
 }
-```
+// ```
 

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countBits(self, num: int) -> List[int]:
         res = [0]*(num+1)
@@ -9,4 +9,4 @@ class Solution:
                 res[j] = 1+res[j-i]
             i *= 2
         return res
-```
+# ```

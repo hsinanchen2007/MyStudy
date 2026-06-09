@@ -1,15 +1,15 @@
-### 解题思路
-将矩阵旋转分解成为：从最外圈到最内圈，每个圈旋转90度。将每个圈的旋转分解为若干组四个对应元素的旋转，可利用公式matrix[row][col]->matrix[col][n - row - 1]。
-执行用时: 0 ms, 在所有 C++ 提交中击败了100.00%的用户
-内存消耗: 8.4 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ### 解题思路
+// 将矩阵旋转分解成为：从最外圈到最内圈，每个圈旋转90度。将每个圈的旋转分解为若干组四个对应元素的旋转，可利用公式matrix[row][col]->matrix[col][n - row - 1]。
+// 执行用时: 0 ms, 在所有 C++ 提交中击败了100.00%的用户
+// 内存消耗: 8.4 MB, 在所有 C++ 提交中击败了100.00%的用户
 
-![leetcode48 (2).png](https://pic.leetcode-cn.com/30383b2f9a978c0caa68bb460d657d905e116b48e89de92a14d3ee4ea03595a0-leetcode48%20\(2\).png)
-
-
-### 代码
+// ![leetcode48 (2).png](https://pic.leetcode-cn.com/30383b2f9a978c0caa68bb460d657d905e116b48e89de92a14d3ee4ea03595a0-leetcode48%20\(2\).png)
 
 
-```cpp
+// ### 代码
+
+
+// ```cpp
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -50,4 +50,4 @@ public:
         col = n - tempRow - 1;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-不用数组存储
-### 代码
+// ### 解题思路
+// 不用数组存储
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
 		return helper(parent.right);
 	}
 }
-```
+// ```

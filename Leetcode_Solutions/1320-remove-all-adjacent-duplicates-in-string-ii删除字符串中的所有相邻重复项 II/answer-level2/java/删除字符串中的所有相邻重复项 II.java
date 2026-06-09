@@ -1,24 +1,24 @@
-#### 方法一：暴力解法
+// #### 方法一：暴力解法
 
-按照问题要求操作：对重复的相邻字母计数，当计数达到 `k` 时将其删除。重复此操作，直到没有删除的字符为止。
+// 按照问题要求操作：对重复的相邻字母计数，当计数达到 `k` 时将其删除。重复此操作，直到没有删除的字符为止。
 
-![](https://pic.leetcode-cn.com/Figures/1209/1209_approach1.png){:width=500}
+// ![](https://pic.leetcode-cn.com/Figures/1209/1209_approach1.png){:width=500}
 
-**算法**
+// **算法**
 
-1. 记录字符串的长度。
+// 1. 记录字符串的长度。
 
-2. 遍历字符串：
+// 2. 遍历字符串：
 
-    - 如果当前字符与前一个相同，计数器加 1。
+//     - 如果当前字符与前一个相同，计数器加 1。
 
-        - 否则，重置计数器为 `1`。
+//         - 否则，重置计数器为 `1`。
 
-    - 如果计数器等于 `k`，删除这 `k` 个字符。
+//     - 如果计数器等于 `k`，删除这 `k` 个字符。
 
-3. 如果字符串的长度被改变，从头开始重新遍历字符串。
+// 3. 如果字符串的长度被改变，从头开始重新遍历字符串。
 
-```java [solution1-Java]
+// ```java [solution1-Java]
 public String removeDuplicates(String s, int k) {
     StringBuilder sb = new StringBuilder(s);
     int length = -1;
@@ -35,9 +35,9 @@ public String removeDuplicates(String s, int k) {
     }
     return sb.toString();
 }
-```
+// ```
 
-```cpp [solution1-Cpp]
+// ```cpp [solution1-Cpp]
 string removeDuplicates(string s, int k) {
     int length = -1;
     while (length != s.size()) {
@@ -53,32 +53,32 @@ string removeDuplicates(string s, int k) {
     }
     return s;
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-- 时间复杂度：$\mathcal{O}(n^2 / k)$，其中 $n$ 是字符串的长度。字符串扫描不超过 $n / k$ 次。
+// - 时间复杂度：$\mathcal{O}(n^2 / k)$，其中 $n$ 是字符串的长度。字符串扫描不超过 $n / k$ 次。
 
-- 空间复杂度：$\mathcal{O}(1)$。某些语言会创建字符串的副本，但算法只在字符串本身上操作。
+// - 空间复杂度：$\mathcal{O}(1)$。某些语言会创建字符串的副本，但算法只在字符串本身上操作。
 
 
-#### 方法二：记忆计数
+// #### 方法二：记忆计数
 
-从方法一中可以看出，如果为每个字符设置计数器，就不必每次删除完字符后从头开始。这种方法具有线性复杂度，但需要额外空间存储字符的计数器。
+// 从方法一中可以看出，如果为每个字符设置计数器，就不必每次删除完字符后从头开始。这种方法具有线性复杂度，但需要额外空间存储字符的计数器。
 
-**算法**
+// **算法**
 
-1. 初始长度为 `n` 的数组 `counts`。
+// 1. 初始长度为 `n` 的数组 `counts`。
 
-2. 遍历字符串：
+// 2. 遍历字符串：
 
-    - 如果当前字符与上一个字符相等，令 `counts[i] = counts[i - 1] + 1`。
+//     - 如果当前字符与上一个字符相等，令 `counts[i] = counts[i - 1] + 1`。
 
-        - 否则，令 `counts[i] = 1`。
+//         - 否则，令 `counts[i] = 1`。
 
-    - 如果 `counts[i] = k`，删除这 `k` 个字符，令 `i = i - k`。
+//     - 如果 `counts[i] = k`，删除这 `k` 个字符，令 `i = i - k`。
 
-```java [solution2-Java]
+// ```java [solution2-Java]
 public String removeDuplicates(String s, int k) {
     StringBuilder sb = new StringBuilder(s);
     int count[] = new int[sb.length()];
@@ -95,9 +95,9 @@ public String removeDuplicates(String s, int k) {
     }
     return sb.toString();
 }
-```
+// ```
 
-```cpp [solution2-Cpp]
+// ```cpp [solution2-Cpp]
 string removeDuplicates(string s, int k) {
     vector<int> count(s.size());
     for (int i = 0; i < s.size(); ++i) {
@@ -113,34 +113,34 @@ string removeDuplicates(string s, int k) {
     }
     return s;
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-- 时间复杂度：$\mathcal{O}(n)$，其中 $n$ 是字符串长度。每个字符仅被处理一次。
+// - 时间复杂度：$\mathcal{O}(n)$，其中 $n$ 是字符串长度。每个字符仅被处理一次。
 
-- 空间复杂度：$\mathcal{O}(n)$，存储每个字符的计数器。
+// - 空间复杂度：$\mathcal{O}(n)$，存储每个字符的计数器。
 
 
-#### 方法三：栈
+// #### 方法三：栈
 
-当前字符与前一个不同时，往栈中压入 `1`。否则栈顶元素加 `1`。
+// 当前字符与前一个不同时，往栈中压入 `1`。否则栈顶元素加 `1`。
 
-![](https://pic.leetcode-cn.com/Figures/1209/1209_approach3.png){:width=500}
+// ![](https://pic.leetcode-cn.com/Figures/1209/1209_approach3.png){:width=500}
 
-**算法**
+// **算法**
 
-1. 迭代字符串：
+// 1. 迭代字符串：
 
-    - 如果当前字符与前一个相同，栈顶元素加 1。
+//     - 如果当前字符与前一个相同，栈顶元素加 1。
 
-        - 否则，往栈中压入 `1`。
+//         - 否则，往栈中压入 `1`。
 
-    - 如果栈顶元素等于 `k`，则从字符串中删除这 `k` 个字符，并将 `k` 从栈顶移除。
+//     - 如果栈顶元素等于 `k`，则从字符串中删除这 `k` 个字符，并将 `k` 从栈顶移除。
 
-> 注意：因为在 Java 中 `Integer` 是不可变的，需要先弹出栈顶元素，然后加 1，再压入栈顶。
+// > 注意：因为在 Java 中 `Integer` 是不可变的，需要先弹出栈顶元素，然后加 1，再压入栈顶。
 
-```java [solution3-Java]
+// ```java [solution3-Java]
 public String removeDuplicates(String s, int k) {
     StringBuilder sb = new StringBuilder(s);
     Stack<Integer> counts = new Stack<>();
@@ -159,9 +159,9 @@ public String removeDuplicates(String s, int k) {
     }
     return sb.toString();
 }
-```
+// ```
 
-```cpp [solution3-Cpp]
+// ```cpp [solution3-Cpp]
 string removeDuplicates(string s, int k) {
     stack<int> counts;
     for (int i = 0; i < s.size(); ++i) {
@@ -175,32 +175,32 @@ string removeDuplicates(string s, int k) {
     }
     return s;
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-- 时间复杂度：$\mathcal{O}(n)$，其中 $n$ 是字符串长度。每个字符只处理一次。
+// - 时间复杂度：$\mathcal{O}(n)$，其中 $n$ 是字符串长度。每个字符只处理一次。
 
-- 空间复杂度：$\mathcal{O}(n)$，栈空间。
+// - 空间复杂度：$\mathcal{O}(n)$，栈空间。
 
 
-#### 方法四：栈重建
+// #### 方法四：栈重建
 
-如果将计数器和字符都存储在栈中，则不需要修改字符串，只需要根据栈中结果重建字符串即可。
+// 如果将计数器和字符都存储在栈中，则不需要修改字符串，只需要根据栈中结果重建字符串即可。
 
-**算法**
+// **算法**
 
-1. 迭代字符串：
+// 1. 迭代字符串：
 
-    - 如果当前字符与栈顶元素相同，则栈顶元素计数器加 1。
+//     - 如果当前字符与栈顶元素相同，则栈顶元素计数器加 1。
 
-        - 否则，计数器设为 `1`，当前字符压入栈。
+//         - 否则，计数器设为 `1`，当前字符压入栈。
 
-    - 如果栈顶元素计数器等于 `k`，则弹出栈顶元素。
+//     - 如果栈顶元素计数器等于 `k`，则弹出栈顶元素。
 
-2. 使用栈中元素和计数器构建结果字符串。
+// 2. 使用栈中元素和计数器构建结果字符串。
 
-```java [solution4-Java]
+// ```java [solution4-Java]
 class Pair {
     int cnt;
     char ch;
@@ -229,9 +229,9 @@ public String removeDuplicates(String s, int k) {
     }
     return b.reverse().toString();
 }
-```
+// ```
 
-```cpp [solution4-Cpp]
+// ```cpp [solution4-Cpp]
 string removeDuplicates(string s, int k) {
     vector<pair<int, char>> counts;
     for (int i = 0; i < s.size(); ++i) {
@@ -247,36 +247,36 @@ string removeDuplicates(string s, int k) {
     }
     return s;
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-- 与方法三相同。
+// - 与方法三相同。
 
 
-#### 方法五：双指针
+// #### 方法五：双指针
 
-该方法由[lee215](https://leetcode-cn.com/u/lee215/)提出，使用双指针可以优化方法二和三中的字符串操作。这里，使用快慢指针复制字符。每次需要删除 `k` 个元素时，只需要将慢指针回退 `k` 个位置。
+// 该方法由[lee215](https://leetcode-cn.com/u/lee215/)提出，使用双指针可以优化方法二和三中的字符串操作。这里，使用快慢指针复制字符。每次需要删除 `k` 个元素时，只需要将慢指针回退 `k` 个位置。
 
-![](https://pic.leetcode-cn.com/Figures/1209/1209_approach5.png){:width=500}
+// ![](https://pic.leetcode-cn.com/Figures/1209/1209_approach5.png){:width=500}
 
-**算法**
+// **算法**
 
-1. 初始慢指针 `j` 等于 0。
+// 1. 初始慢指针 `j` 等于 0。
 
-2. 使用快指针 `i` 遍历字符串：
+// 2. 使用快指针 `i` 遍历字符串：
 
-    - 令 `s[i] = s[j]`。
+//     - 令 `s[i] = s[j]`。
 
-    - 如果 `s[j] = s[j - 1]`，则栈顶元素加 1。
+//     - 如果 `s[j] = s[j - 1]`，则栈顶元素加 1。
 
-        - 否则，栈中压入 `1`。
+//         - 否则，栈中压入 `1`。
 
-    - 如果计数器等于 `k`，`j = j - k`，并弹出栈顶元素。
+//     - 如果计数器等于 `k`，`j = j - k`，并弹出栈顶元素。
 
-3. 返回字符串的前 `j` 个字符。
+// 3. 返回字符串的前 `j` 个字符。
 
-```java [solution5-Java]
+// ```java [solution5-Java]
 public String removeDuplicates(String s, int k) {
     Stack<Integer> counts = new Stack<>();
     char[] sa = s.toCharArray();
@@ -296,9 +296,9 @@ public String removeDuplicates(String s, int k) {
     }
     return new String(sa, 0, j);
 }
-```
+// ```
 
-```cpp [solution5-Cpp]
+// ```cpp [solution5-Cpp]
 string removeDuplicates(string s, int k) {
     auto j = 0;
     stack<int> counts;
@@ -313,8 +313,8 @@ string removeDuplicates(string s, int k) {
     }
     return s.substr(0, j);
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-- 与方法三相同。
+// - 与方法三相同。

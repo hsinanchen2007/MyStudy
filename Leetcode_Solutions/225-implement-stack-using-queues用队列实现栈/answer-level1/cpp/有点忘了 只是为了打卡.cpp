@@ -1,9 +1,9 @@
-### 解题思路
-有点忘了 只是为了打卡
+// ### 解题思路
+// 有点忘了 只是为了打卡
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     queue<int> st;
@@ -50,4 +50,4 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

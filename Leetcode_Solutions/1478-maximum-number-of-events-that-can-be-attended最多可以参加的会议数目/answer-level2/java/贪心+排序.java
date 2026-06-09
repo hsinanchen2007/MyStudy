@@ -1,9 +1,9 @@
-贪心的思想
-先按会议结束的位置排序
-然后使用一个vis数组记录该天是否已经使用
-遍历会议，从start 到end 使用靠前的day用来参加会议（贪心思想）
+// 贪心的思想
+// 先按会议结束的位置排序
+// 然后使用一个vis数组记录该天是否已经使用
+// 遍历会议，从start 到end 使用靠前的day用来参加会议（贪心思想）
 
-```
+// ```
 class Solution {
     public int maxEvents(int[][] events) {
         Arrays.sort(events, new Comparator<int[]>() {
@@ -27,4 +27,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

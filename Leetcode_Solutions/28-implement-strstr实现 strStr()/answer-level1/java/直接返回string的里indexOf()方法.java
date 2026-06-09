@@ -1,9 +1,9 @@
-### 解题思路
-....
+// ### 解题思路
+// ....
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
         if ("".equals(needle))
@@ -11,4 +11,4 @@ class Solution {
         return haystack.indexOf(needle);
     }
 }
-```
+// ```

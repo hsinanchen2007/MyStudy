@@ -1,10 +1,10 @@
-# 思路：
-构建一个状态矩阵：
-用第一个bit存储太平洋是否能达到此点
-用第二个bit存储大西洋是否能达到此点
-最终查询点状态为3（二进制为11）的点即可。
-代码如下：
-```C++ []
+// # 思路：
+// 构建一个状态矩阵：
+// 用第一个bit存储太平洋是否能达到此点
+// 用第二个bit存储大西洋是否能达到此点
+// 最终查询点状态为3（二进制为11）的点即可。
+// 代码如下：
+// ```C++ []
 class Solution {
 public:
     int dirs[4][2] = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
@@ -54,5 +54,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/e044dd88a80ae68e0fe4db9b497a3f72cb282e5015d07641f5f5cbefb485c022-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e044dd88a80ae68e0fe4db9b497a3f72cb282e5015d07641f5f5cbefb485c022-image.png)

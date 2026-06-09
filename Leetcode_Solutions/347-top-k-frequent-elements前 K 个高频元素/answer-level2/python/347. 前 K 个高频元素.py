@@ -1,10 +1,10 @@
-### 解题思路
-第一步：用字典统计每个数字出现的频率
-第二步：根据字段中的value降序排序
-第三步：输出前 K 个高频元素
-### 代码
+# ### 解题思路
+# 第一步：用字典统计每个数字出现的频率
+# 第二步：根据字段中的value降序排序
+# 第三步：输出前 K 个高频元素
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def topKFrequent(self, nums, k):
         """
@@ -30,4 +30,4 @@ class Solution(object):
             res.append(dic[i][0])
 
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> closestDivisors(int num) {
@@ -21,4 +21,4 @@ public:
         return {a,b};
     }
 };
-```
+// ```

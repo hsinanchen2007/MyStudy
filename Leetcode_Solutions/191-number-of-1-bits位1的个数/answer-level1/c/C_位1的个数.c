@@ -1,9 +1,9 @@
-### 解题思路
-位操作//常规操作
+// ### 解题思路
+// 位操作//常规操作
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int hammingWeight(uint32_t n) {
     int result=0;
     while(n!=0)
@@ -14,4 +14,4 @@ int hammingWeight(uint32_t n) {
     }
     return result;
 }
-```
+// ```

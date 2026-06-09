@@ -1,8 +1,8 @@
-### 解题思路
-先设置一个前继节点，指向head，其他操作与正常删除操作一样，最后返回的时head，要查看head的val是否被删除，删除用while循环使head = head.next
-### 代码
+// ### 解题思路
+// 先设置一个前继节点，指向head，其他操作与正常删除操作一样，最后返回的时head，要查看head的val是否被删除，删除用while循环使head = head.next
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

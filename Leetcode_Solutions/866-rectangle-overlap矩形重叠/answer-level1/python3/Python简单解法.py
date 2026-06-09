@@ -1,9 +1,9 @@
-### 解题思路
-逆向思维，考虑不重叠的情况即可，代码简单易懂，可以在脑子里思考整个过程
+# ### 解题思路
+# 逆向思维，考虑不重叠的情况即可，代码简单易懂，可以在脑子里思考整个过程
 
-### 代码
+# ### 代码
 
-```
+# ```
 
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
@@ -27,4 +27,4 @@ class Solution:
         else:
             return True
         
-```
+# ```

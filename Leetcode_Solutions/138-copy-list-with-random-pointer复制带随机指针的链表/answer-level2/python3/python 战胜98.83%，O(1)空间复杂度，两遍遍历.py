@@ -1,10 +1,10 @@
-# 思路
-遍历链表两次：
-第一遍：把每个新生成的结点放在对应的旧结点后面， 形如: 1->1'->2->2'->3->3'->4->4'->null。
-第二遍：修改每个新结点的 next 指针和 random 指针。
+# # 思路
+# 遍历链表两次：
+# 第一遍：把每个新生成的结点放在对应的旧结点后面， 形如: 1->1'->2->2'->3->3'->4->4'->null。
+# 第二遍：修改每个新结点的 next 指针和 random 指针。
 
-# 代码：
-```
+# # 代码：
+# ```
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':
         if not head:
@@ -29,4 +29,4 @@ class Solution:
             p = next_origin         # 下一个旧结点
         
         return head.next
-```
+# ```

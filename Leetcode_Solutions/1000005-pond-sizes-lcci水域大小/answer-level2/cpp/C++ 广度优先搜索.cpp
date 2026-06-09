@@ -1,9 +1,9 @@
-类似于 [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
+// 类似于 [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> pondSizes(vector<vector<int>>& land) {
@@ -55,4 +55,4 @@ public:
 
 
  
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遇到非#入栈，遇到#，将栈内的数据出栈。如果此时栈为空，则跳过，继续执行
+// ### 解题思路
+// 遇到非#入栈，遇到#，将栈内的数据出栈。如果此时栈为空，则跳过，继续执行
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func backspaceCompare(S string, T string) bool {
  
  s:=parseString(S)
@@ -37,4 +37,4 @@ func parseString(S string) string{
       }
 
 }
-```
+// ```

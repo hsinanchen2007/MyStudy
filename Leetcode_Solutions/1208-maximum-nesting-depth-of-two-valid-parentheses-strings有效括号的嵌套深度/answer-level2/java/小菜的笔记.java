@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-奇数用0标记，偶数用1标记
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 奇数用0标记，偶数用1标记
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         if(seq==null||seq=="")return new int[0];
@@ -25,4 +25,4 @@ class Solution {
 
     }
 }
-```
+// ```

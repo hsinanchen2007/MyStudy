@@ -1,6 +1,6 @@
-![图片2.png](https://pic.leetcode-cn.com/5ea1b26b8c1cf0daf4add7e221400833f258d6178542850ee2d998ff1102e64c-%E5%9B%BE%E7%89%872.png)
+// ![图片2.png](https://pic.leetcode-cn.com/5ea1b26b8c1cf0daf4add7e221400833f258d6178542850ee2d998ff1102e64c-%E5%9B%BE%E7%89%872.png)
 
-```rust
+// ```rust
 impl Solution {
     pub fn delete_duplicates(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut dummy_head = Some(Box::new(ListNode{val:0, next:head}));
@@ -47,4 +47,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

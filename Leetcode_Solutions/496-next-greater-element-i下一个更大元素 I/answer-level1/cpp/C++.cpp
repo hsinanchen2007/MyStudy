@@ -1,7 +1,7 @@
-- 开一个map将小数组中的数字存进去，方便后续查找。空间换时间的思路
-- 然后遍历大数组，同时维持一个栈
-- 如果当前这个数比栈顶大，就将当前栈pop出来，同时就代表当前pop的这个数在右侧最大的就是当前这个数
-```
+// - 开一个map将小数组中的数字存进去，方便后续查找。空间换时间的思路
+// - 然后遍历大数组，同时维持一个栈
+// - 如果当前这个数比栈顶大，就将当前栈pop出来，同时就代表当前pop的这个数在右侧最大的就是当前这个数
+// ```
 class Solution {
     public:
         vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
@@ -26,7 +26,7 @@ class Solution {
             return nums1;
         }
     };
-```
+// ```
 
-执行用时 : 20 ms, 在Next Greater Element I的C++提交中击败了90.06% 的用户
-内存消耗 : 9.5 MB, 在Next Greater Element I的C++提交中击败了25.23% 的用户
+// 执行用时 : 20 ms, 在Next Greater Element I的C++提交中击败了90.06% 的用户
+// 内存消耗 : 9.5 MB, 在Next Greater Element I的C++提交中击败了25.23% 的用户

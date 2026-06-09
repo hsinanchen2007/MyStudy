@@ -1,10 +1,10 @@
-### 解题思路-合并排序；
-1. 将链表从中间分开生成两个链表`head1, head2`（利用快慢指针）；分别对这两个链表排序；再将排好序的链表合并成一个链表；
-2. 排序主要是通过递归的方法两两合并从而排好序；
+# ### 解题思路-合并排序；
+# 1. 将链表从中间分开生成两个链表`head1, head2`（利用快慢指针）；分别对这两个链表排序；再将排好序的链表合并成一个链表；
+# 2. 排序主要是通过递归的方法两两合并从而排好序；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -57,4 +57,4 @@ class Solution:
         head2 = self.sortList(head2)
         return self.merge(head, head2)
 
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxProfit(int[] prices) {
         /*
@@ -19,5 +19,5 @@ class Solution {
         return profit;
     }
 }
-```
-![QQ截图20200320210325.png](https://pic.leetcode-cn.com/b153f89a62f01383d82d3ee2f2a5d036f0722e5ec1e3ac6545dcf060d2326bcb-QQ%E6%88%AA%E5%9B%BE20200320210325.png)
+// ```
+// ![QQ截图20200320210325.png](https://pic.leetcode-cn.com/b153f89a62f01383d82d3ee2f2a5d036f0722e5ec1e3ac6545dcf060d2326bcb-QQ%E6%88%AA%E5%9B%BE20200320210325.png)

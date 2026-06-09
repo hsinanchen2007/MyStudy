@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         for i in s:
@@ -7,4 +7,4 @@ class Solution:
             else:
                 return False
         return True
-```
+# ```

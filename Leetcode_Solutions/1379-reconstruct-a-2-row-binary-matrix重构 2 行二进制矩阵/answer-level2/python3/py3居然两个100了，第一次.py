@@ -1,6 +1,6 @@
-python居然全部100了，神奇（其实技术很渣）
+# python居然全部100了，神奇（其实技术很渣）
 
-做法就是先判断两个和一样不，不一样肯定不行，2 对应两个都是1,0对应两个都是0 1就用up 和low之中较大的先减一 最后完了再判断最后的情况能不能对的上
+# 做法就是先判断两个和一样不，不一样肯定不行，2 对应两个都是1,0对应两个都是0 1就用up 和low之中较大的先减一 最后完了再判断最后的情况能不能对的上
 import copy
 class Solution:
     def reconstructMatrix(self, upper: int, lower: int, colsum: List[int]) -> List[List[int]]:

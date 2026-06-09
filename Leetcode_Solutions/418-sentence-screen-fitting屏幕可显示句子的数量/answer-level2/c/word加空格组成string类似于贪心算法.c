@@ -1,11 +1,11 @@
-### 解题思路
-1. 每个单词中间加空格组成String；
-2. string放入屏幕中看你能够放多少，注意结尾为空格说明还可以继续放入空格，start++;
-3. 结尾为非空格需要找到之前第一个空格的位置。
+// ### 解题思路
+// 1. 每个单词中间加空格组成String；
+// 2. string放入屏幕中看你能够放多少，注意结尾为空格说明还可以继续放入空格，start++;
+// 3. 结尾为非空格需要找到之前第一个空格的位置。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int wordsTyping(char ** sentence, int sentenceSize, int rows, int cols){
     /* 组成String再往里面放,每个string中间放空格 */
     char *string = malloc(sizeof(char) * 10001);
@@ -45,4 +45,4 @@ int wordsTyping(char ** sentence, int sentenceSize, int rows, int cols){
     free(string);
     return start/len;
 } 
-```
+// ```

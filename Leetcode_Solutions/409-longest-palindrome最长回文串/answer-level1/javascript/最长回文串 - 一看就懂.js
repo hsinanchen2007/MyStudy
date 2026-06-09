@@ -1,9 +1,9 @@
-### 解题思路
-一看就懂
+// ### 解题思路
+// 一看就懂
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -53,4 +53,4 @@ var longestPalindrome = function(s) {
 //     if(JSON.stringify(o) != "{}") n++
 //     return n
 // };
-```
+// ```

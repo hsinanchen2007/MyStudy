@@ -1,9 +1,9 @@
-### 解题思路
-一切尽在代码中
+// ### 解题思路
+// 一切尽在代码中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
        List<List<Integer>> result = new ArrayList();
@@ -41,4 +41,4 @@ class Solution {
         return result;
         }
 }
-```
+// ```

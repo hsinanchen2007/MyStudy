@@ -1,18 +1,18 @@
-![20200209233821.png](https://pic.leetcode-cn.com/b57b36d20c93b645bf181a7ff729a0c91b617bdc4c73c1a546ba1991baa149fc-20200209233821.png)
+// ![20200209233821.png](https://pic.leetcode-cn.com/b57b36d20c93b645bf181a7ff729a0c91b617bdc4c73c1a546ba1991baa149fc-20200209233821.png)
 
-建议做完121，122，123再做188,方法通用，“关注买卖的最大收益，不关注天数”。
-建立长度为k*2的dp数组，偶买奇卖。
-dp[0] = max(dp[0], -prices[i]); // 买 （第一次买，实际为 "0 - price[i]"）
-dp[1] = max(dp[1], dp[0] + prices[i]); //卖
-dp[2] = max(dp[2], dp[1] - prices[i]); // 买
-...
-dp[2*k] = max(dp[2*k], dp[2k - 1] + prices[i]); // 卖, 最后一个是偶数需要卖， 也因为卖掉是最划算的
-最后 dp.back()就是结果。
+// 建议做完121，122，123再做188,方法通用，“关注买卖的最大收益，不关注天数”。
+// 建立长度为k*2的dp数组，偶买奇卖。
+// dp[0] = max(dp[0], -prices[i]); // 买 （第一次买，实际为 "0 - price[i]"）
+// dp[1] = max(dp[1], dp[0] + prices[i]); //卖
+// dp[2] = max(dp[2], dp[1] - prices[i]); // 买
+// ...
+// dp[2*k] = max(dp[2*k], dp[2k - 1] + prices[i]); // 卖, 最后一个是偶数需要卖， 也因为卖掉是最划算的
+// 最后 dp.back()就是结果。
 
-k = 1可以解121题。
-k = 2可以解123题。
+// k = 1可以解121题。
+// k = 2可以解123题。
 
-```
+// ```
 class Solution {
 public:
     int maxProfit(int k, vector<int>& prices) { 
@@ -36,4 +36,4 @@ public:
         return max(0, dp.back());
     }
 };
-```
+// ```

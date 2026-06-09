@@ -1,4 +1,4 @@
-```
+// ```
 var numWays = function(n) {
    let dp=new Array(n+1).fill(1);
    for(let i=2;i<=n;i++){
@@ -6,4 +6,4 @@ var numWays = function(n) {
    }
    return dp[n]
 };
-```
+// ```

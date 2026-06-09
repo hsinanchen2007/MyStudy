@@ -1,9 +1,9 @@
-### 解题思路
-KMP在pattern较长和pattern里重复较多的时候才有优势。
+# ### 解题思路
+# KMP在pattern较长和pattern里重复较多的时候才有优势。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         if needle == '':
@@ -27,4 +27,4 @@ class Solution:
             if j == n:
                 return i - n + 1
         return -1
-```
+# ```

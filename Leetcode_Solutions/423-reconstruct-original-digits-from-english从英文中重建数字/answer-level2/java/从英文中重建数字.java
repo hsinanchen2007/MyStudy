@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 找规律
+// # 找规律
 
-时间复杂度是O(n)，其中n是字符串s的长度。空间复杂度是O(1)。
+// 时间复杂度是O(n)，其中n是字符串s的长度。空间复杂度是O(1)。
 
-执行用时：6ms，击败82.35%。消耗内存：41.4MB，击败6.28%。
+// 执行用时：6ms，击败82.35%。消耗内存：41.4MB，击败6.28%。
 
-```java
+// ```java
 public class Solution {
     public String originalDigits(String s) {
         int[] countLetter = new int[26];
@@ -44,4 +44,4 @@ public class Solution {
         return sb.toString();
     }
 }
-```
+// ```

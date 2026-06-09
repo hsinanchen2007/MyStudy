@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-首先求出整条链表的节点个数，需要翻转的组数group为count/k。然后使用双指针，一个指针pre指向当前组第一个待插入元素的前置元素，另一个指针cur指向当前需要翻转的元素，翻转(group*(k-1))次即可。
+// 首先求出整条链表的节点个数，需要翻转的组数group为count/k。然后使用双指针，一个指针pre指向当前组第一个待插入元素的前置元素，另一个指针cur指向当前需要翻转的元素，翻转(group*(k-1))次即可。
 
-```
+// ```
 public ListNode reverseKGroup(ListNode head, int k) {
     if (head == null) return null;
     //1.获得链表节点个数
@@ -35,4 +35,4 @@ public ListNode reverseKGroup(ListNode head, int k) {
     }
     return fakeHead.next;
 }
-```
+// ```

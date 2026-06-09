@@ -1,8 +1,8 @@
-### 解题思路
-1.层序遍历，然后翻转
-2.v.insert(v.begin(),tmp);
+// ### 解题思路
+// 1.层序遍历，然后翻转
+// 2.v.insert(v.begin(),tmp);
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
@@ -37,8 +37,8 @@ public:
         return ans;        
     }
 };
-```
-```
+// ```
+// ```
 vector<vector<int>> levelOrderBottom(TreeNode* root) {
         vector<vector<int>> res;
         if (!root) {
@@ -64,11 +64,11 @@ vector<vector<int>> levelOrderBottom(TreeNode* root) {
         }
         return res;        
     }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -106,4 +106,4 @@ public:
         return res;        
     }
 };
-```
+// ```

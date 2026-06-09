@@ -1,4 +1,4 @@
-```
+// ```
     int maxProfit(vector<int>& prices) {
         if(prices.empty())return 0;
         int mc0=0;//保存的前天卖出利润
@@ -12,4 +12,4 @@
         }
         return mc2;
     }
-```
+// ```

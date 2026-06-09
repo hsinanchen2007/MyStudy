@@ -1,9 +1,9 @@
-### 解题思路
-就是简单的回溯，从第0行到第n-1行开始递归，这样不用考虑行冲突，然后用三个bool数组分别标记列、正对角线和反对角线，不冲突再继续向下递归，直到最后一行以后把解记录下来。
+// ### 解题思路
+// 就是简单的回溯，从第0行到第n-1行开始递归，这样不用考虑行冲突，然后用三个bool数组分别标记列、正对角线和反对角线，不冲突再继续向下递归，直到最后一行以后把解记录下来。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void f(vector<vector<string>>& result, vector<string>& s, bool* mark_col, bool* mark_zheng, bool* mark_fan, int row, int n)
@@ -60,4 +60,4 @@ public:
         return result;
     }
 };
-```
+// ```

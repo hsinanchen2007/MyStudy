@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 int roww[1000] = { 0 };
 int coll[1000] = { 0 };
@@ -44,4 +44,4 @@ int findLonelyPixel(char** picture, int pictureSize, int* pictureColSize) {
 	}
 	return count;
 }
-```
+// ```

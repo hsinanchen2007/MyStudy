@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         #初始化一个全0数组
@@ -28,4 +28,4 @@ class Solution:
                     res.append(intervals[i])
 
         return res
-```
+# ```

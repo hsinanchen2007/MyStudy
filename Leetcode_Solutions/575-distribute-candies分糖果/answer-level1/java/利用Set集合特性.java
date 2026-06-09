@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int distributeCandies(int[] candies) {
         // 可拥有的最多糖果
@@ -20,4 +20,4 @@ class Solution {
         return type.size();
     }
 }
-```
+// ```

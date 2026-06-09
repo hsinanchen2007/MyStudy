@@ -1,9 +1,9 @@
-### 解题思路
-先遍历A树，直到找到和B树的root相同的节点，再同时遍历A、B树并对比。
+// ### 解题思路
+// 先遍历A树，直到找到和B树的root相同的节点，再同时遍历A、B树并对比。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -38,4 +38,4 @@ class Solution {
         return compare(A.left, B.left) && compare(A.right, B.right);
     }
 }
-```
+// ```

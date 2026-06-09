@@ -1,6 +1,6 @@
-啊哈
+# 啊哈
 
-```python []
+# ```python []
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         n = len(nums)
@@ -23,4 +23,4 @@ class Solution:
             elif target>nums[mid]:
                 l = mid + 1
         return [-1,-1]
-```
+# ```

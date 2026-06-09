@@ -1,4 +1,4 @@
-```js
+// ```js
 var binaryGap = function(N) {
     let nTo2 = N.toString(2);
     let left = nTo2.indexOf('1');
@@ -13,4 +13,4 @@ var binaryGap = function(N) {
     }
     return max
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 def minCostClimbingStairs(cost):
     """
         1. dp问题: dp[i] = min(dp[i] + dp[i - 1], dp[i] + dp[i - 2])
@@ -10,4 +10,4 @@ def minCostClimbingStairs(cost):
 print(minCostClimbingStairs([10,15,20]))
 print(minCostClimbingStairs([10,15]))
 print(minCostClimbingStairs([1, 100, 1, 1, 1, 100, 1, 1, 100, 1]))
-```
+# ```

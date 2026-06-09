@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-1、设置两个变量来存储最低售价和最大利润：
-min_price:最低售价；
-max_profit:最高利润；
-2、遍历整个数组，实时更新min_price和max_profit;
-3、返回最终的最大利润即可。
+// ### 解题思路
+// 此处撰写解题思路
+// 1、设置两个变量来存储最低售价和最大利润：
+// min_price:最低售价；
+// max_profit:最高利润；
+// 2、遍历整个数组，实时更新min_price和max_profit;
+// 3、返回最终的最大利润即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) 
@@ -25,4 +25,4 @@ public:
         return max_profit;
     }
 };
-```
+// ```

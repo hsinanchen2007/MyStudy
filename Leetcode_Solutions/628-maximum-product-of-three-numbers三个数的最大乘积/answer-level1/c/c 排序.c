@@ -1,4 +1,4 @@
-```
+// ```
 int my_compare(const void* a, const void* b)
 {
     return *(int*)a - *(int*)b;
@@ -16,4 +16,4 @@ int maximumProduct(int* nums, int numsSize){
     int max = MAX(nums, numsSize);
     return max;
 }
-```
+// ```

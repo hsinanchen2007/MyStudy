@@ -1,5 +1,5 @@
-X2 - X1, Y2 - Y1 的最大值为必须走的距离,即斜线之后剩下的直线
-```
+// X2 - X1, Y2 - Y1 的最大值为必须走的距离,即斜线之后剩下的直线
+// ```
 class Solution {
     public int minTimeToVisitAllPoints(int[][] points) {
         if(points.length < 2){
@@ -12,4 +12,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

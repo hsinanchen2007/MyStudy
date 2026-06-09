@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```Java []
+// ```Java []
 class MaxQueue {
 
     int[] queue = new int[10001];
@@ -47,9 +47,9 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```
 
-```rust []
+// ```rust []
 struct MaxQueue {
     queue:Vec<i32>,
     max_queue:Vec<i32>,
@@ -117,4 +117,4 @@ impl MaxQueue {
  * obj.push_back(value);
  * let ret_3: i32 = obj.pop_front();
  */
-```
+// ```

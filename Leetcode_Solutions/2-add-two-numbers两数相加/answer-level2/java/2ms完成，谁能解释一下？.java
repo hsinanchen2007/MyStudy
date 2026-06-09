@@ -1,9 +1,9 @@
-### 解题思路
-            carry = (x + y + carry) > 9 ? 1 : 0;
+// ### 解题思路
+//             carry = (x + y + carry) > 9 ? 1 : 0;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -39,4 +39,4 @@ class Solution {
         return result.next;
     }
 }
-```
+// ```

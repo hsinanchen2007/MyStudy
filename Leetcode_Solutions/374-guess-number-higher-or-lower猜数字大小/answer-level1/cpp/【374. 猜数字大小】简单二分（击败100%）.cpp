@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Solution {
 public:
     int guessNumber(int n) {
@@ -18,4 +18,4 @@ public:
         return 0;
     }
 };
-```
+// ```

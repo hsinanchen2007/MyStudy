@@ -1,9 +1,9 @@
-### 解题思路
-动态规划、记忆化存储
+// ### 解题思路
+// 动态规划、记忆化存储
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCut(string s) {
@@ -34,6 +34,6 @@ public:
         return dp[n - 1];
     }
 };
-```
+// ```
 
 

@@ -1,15 +1,15 @@
-### 解题思路
-方法一的思路，就是看最后一个0前面有单数 还是双数个1。
+// ### 解题思路
+// 方法一的思路，就是看最后一个0前面有单数 还是双数个1。
 
-方法二是 从头到尾数，每遇到1，计算器就加2，如果最后的0不在这个1的覆盖范围，就代表这个0是1比特。
+// 方法二是 从头到尾数，每遇到1，计算器就加2，如果最后的0不在这个1的覆盖范围，就代表这个0是1比特。
 
-方法二的执行用时要38ms
+// 方法二的执行用时要38ms
 
-两种方法都没什么技巧，靠的是对题目的分析
+// 两种方法都没什么技巧，靠的是对题目的分析
 
-### 代码
-方法一：
-```java
+// ### 代码
+// 方法一：
+// ```java
 
 class Solution {
     public boolean isOneBitCharacter(int[] bits) {
@@ -25,9 +25,9 @@ class Solution {
         return count % 2 == 0 ? true : false;
     }
 }
-```
-方法二：
-```java
+// ```
+// 方法二：
+// ```java
 class Solution {
     public boolean isOneBitCharacter(int[] bits) {
 
@@ -43,4 +43,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

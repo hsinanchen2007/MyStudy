@@ -1,9 +1,9 @@
-### 解题思路
-比较难看到C写得答案，参考大神们的思路，写了一个；
+// ### 解题思路
+// 比较难看到C写得答案，参考大神们的思路，写了一个；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -64,4 +64,4 @@ void Dfs(int* nums, int numsSize, int* returnSize, int** returnColumnSizes, int*
         }
     }
 }
-```
+// ```

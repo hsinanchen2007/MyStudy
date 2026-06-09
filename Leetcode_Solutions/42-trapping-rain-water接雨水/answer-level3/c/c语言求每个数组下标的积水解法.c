@@ -1,12 +1,12 @@
-### 解题思路
-遍历height，按下标一列一列求积水，再加和。
-能写出来我就很满意了，所以效率比较低下。
-执行用时 :116 ms, 在所有 C 提交中击败了12.95%的用户
-内存消耗 :5.9 MB, 在所有 C 提交中击败了100.00%的用户
+// ### 解题思路
+// 遍历height，按下标一列一列求积水，再加和。
+// 能写出来我就很满意了，所以效率比较低下。
+// 执行用时 :116 ms, 在所有 C 提交中击败了12.95%的用户
+// 内存消耗 :5.9 MB, 在所有 C 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int trap(int* height, int heightSize){
     int i,j,waternum=0,maxleft=0,maxright=0;
     for(i=1;i<heightSize-1;i++){//对height中可能出现积水的下标进行遍历
@@ -31,4 +31,4 @@ int trap(int* height, int heightSize){
     }
     return waternum;
 }
-```
+// ```

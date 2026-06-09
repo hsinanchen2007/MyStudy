@@ -1,6 +1,6 @@
-执行用时 :4 ms, 在所有 java 提交中击败了98.71%的用户
-内存消耗 :40.7 MB, 在所有 java 提交中击败了94.74%的用户
-```
+// 执行用时 :4 ms, 在所有 java 提交中击败了98.71%的用户
+// 内存消耗 :40.7 MB, 在所有 java 提交中击败了94.74%的用户
+// ```
 class Solution {
     public int longestOnes(int[] A, int K) {
         int[] nums;
@@ -61,4 +61,4 @@ class Solution {
         return Math.min(answer, A.length);
     }
 }
-```
+// ```

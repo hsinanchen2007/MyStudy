@@ -1,7 +1,7 @@
-思想很简单 可以先做完206的反转链表再来做，这里每k个为翻转循环，每次翻转k个，一旦链表不满足k个之后直接返回。在这里是单独写了一个翻转函数进行。
-![image.png](https://pic.leetcode-cn.com/8cc76e690388e96b3212bcd01fb1d8cb275f4ef91a98e277dff3d4dcda7a6e49-image.png)
+// 思想很简单 可以先做完206的反转链表再来做，这里每k个为翻转循环，每次翻转k个，一旦链表不满足k个之后直接返回。在这里是单独写了一个翻转函数进行。
+// ![image.png](https://pic.leetcode-cn.com/8cc76e690388e96b3212bcd01fb1d8cb275f4ef91a98e277dff3d4dcda7a6e49-image.png)
 
-```
+// ```
 class Solution {
 public:
     ListNode* reverseKGroup(ListNode* head, int k) {
@@ -36,4 +36,4 @@ public:
         return res;
     }
 };
-```
+// ```

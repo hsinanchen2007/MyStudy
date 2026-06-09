@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         dp=[0]*len(nums)
@@ -13,8 +13,8 @@ class Solution:
                 except ValueError:
                     dp[i]=1
         return max(dp)
-```
-```python3
+# ```
+# ```python3
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         '''当看到题目的要求，我的第一反应也是二分法，关键二分法只是对于排序是nlogn，对于查找是logn
@@ -52,4 +52,4 @@ class Solution:
 
         #print(tail)
         return len(tail)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def canThreePartsEqualSum(A: Array[Int]): Boolean = {
     if (A.sum % 3 != 0) return false
@@ -29,4 +29,4 @@ object Solution {
     false
     }
 }
-```
+// ```

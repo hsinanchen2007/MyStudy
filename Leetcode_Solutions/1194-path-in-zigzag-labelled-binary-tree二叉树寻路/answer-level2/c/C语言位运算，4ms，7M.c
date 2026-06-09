@@ -1,5 +1,5 @@
-思路在评论中看到大神的位运算，发现好巧妙自己试了一下。
-```
+// 思路在评论中看到大神的位运算，发现好巧妙自己试了一下。
+// ```
 int* pathInZigZagTree(int label, int* returnSize){
     int count = 0;
     int tmp = label;
@@ -20,4 +20,4 @@ int* pathInZigZagTree(int label, int* returnSize){
     }
     return ret;
 }
-```
+// ```

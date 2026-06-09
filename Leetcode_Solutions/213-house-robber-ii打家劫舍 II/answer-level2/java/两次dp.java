@@ -1,16 +1,16 @@
-### 解题思路
-拆圆圈
-分别对
-0 - n-2
-1 - n-1
-应用dp求最大值即可
-状态转移方程为：
-dp[i] = Math.max(dp[i-1], dp[i-2] + nums[i])
+// ### 解题思路
+// 拆圆圈
+// 分别对
+// 0 - n-2
+// 1 - n-1
+// 应用dp求最大值即可
+// 状态转移方程为：
+// dp[i] = Math.max(dp[i-1], dp[i-2] + nums[i])
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         //两次dp思路
@@ -52,4 +52,4 @@ class Solution {
         return Math.max(dp1[n-2], dp2[n-1]);
     }
 }
-```
+// ```

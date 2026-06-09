@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def compress(self, chars: List[str]) -> int:
         if not chars:
@@ -26,4 +26,4 @@ class Solution:
         
         while write<len(chars):
             del chars[write]
-```
+# ```

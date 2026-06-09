@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public int tribonacci(int n) {
         int prev = 0;
@@ -12,4 +12,4 @@ public class Solution {
         return prev;
     }
 }
-```
+// ```

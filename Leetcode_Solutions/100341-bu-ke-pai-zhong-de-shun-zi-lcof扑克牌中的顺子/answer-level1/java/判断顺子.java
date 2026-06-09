@@ -1,9 +1,9 @@
-### 解题思路
-一副牌有三张王是没想到的。
+// ### 解题思路
+// 一副牌有三张王是没想到的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 两个0，1~13.判断是否是顺子
     public boolean isStraight(int[] nums) {
@@ -44,4 +44,4 @@ class Solution {
             return false;
     }
 }
-```
+// ```

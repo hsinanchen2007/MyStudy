@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-见代码注释
+// 见代码注释
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -30,4 +30,4 @@ class Solution {
         return $this->getSum($c, $d);
     }
 }
-```
+// ```

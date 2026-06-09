@@ -1,8 +1,8 @@
-### 解题思路
-指示牌排序，击败100%的人
-### 代码
+// ### 解题思路
+// 指示牌排序，击败100%的人
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void sortColors(int[] nums) {
         int Max=2;
@@ -21,4 +21,4 @@ class Solution {
         System.arraycopy(tmp,0,nums,0,nums.length);
     }
 }
-```
+// ```

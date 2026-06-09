@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-很简单，沿着上下左右四个方向扫描就行了。
+// 很简单，沿着上下左右四个方向扫描就行了。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numRookCaptures(board [][]byte) int {
 	l,r := 0,0
 	res := 0
@@ -58,4 +58,4 @@ func numRookCaptures(board [][]byte) int {
 	}
 	return res
 }
-```
+// ```

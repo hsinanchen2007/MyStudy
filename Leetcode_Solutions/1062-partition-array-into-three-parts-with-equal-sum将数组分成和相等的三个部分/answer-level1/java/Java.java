@@ -1,4 +1,4 @@
-```
+// ```
 
 public boolean canThreePartsEqualSum(int[] A) {
     int sum = 0;
@@ -29,4 +29,4 @@ public boolean canThreePartsEqualSum(int[] A) {
     return false;
 }
 
-```
+// ```

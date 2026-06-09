@@ -1,4 +1,4 @@
-```
+// ```
 fun oddCells(n: Int, m: Int, indices: Array<IntArray>): Int {
     var oddNumCount = 0
     for (array in indices) {
@@ -23,4 +23,4 @@ fun oddCells(n: Int, m: Int, indices: Array<IntArray>): Int {
     }
     return oddNumCount
 }
-```
+// ```

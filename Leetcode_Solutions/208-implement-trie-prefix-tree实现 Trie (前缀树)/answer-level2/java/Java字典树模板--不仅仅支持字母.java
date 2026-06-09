@@ -1,6 +1,6 @@
-# 可以支持数字或字母的字典树模板
+// # 可以支持数字或字母的字典树模板
 
-```Java
+// ```Java
 public class Trie {
 
     class TrieNode {
@@ -89,4 +89,4 @@ public class Trie {
         return null;
     }
 }
-```
+// ```

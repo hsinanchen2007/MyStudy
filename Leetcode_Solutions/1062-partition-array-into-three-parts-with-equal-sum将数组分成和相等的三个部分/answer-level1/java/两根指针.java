@@ -1,10 +1,10 @@
-### 解题思路
-1、利用性质，三等分，所以一定要能被3整除
-2、从首位找到三等分点，找的到则为真，否则为假
+// ### 解题思路
+// 1、利用性质，三等分，所以一定要能被3整除
+// 2、从首位找到三等分点，找的到则为真，否则为假
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int sum = 0;
@@ -34,4 +34,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-#### 解法一：递归回溯
-+ [参考-51. N皇后-解法一](https://leetcode-cn.com/problems/n-queens/solution/51-nhuang-hou-by-alexer-660/)
-  + ![截屏2019-11-26下午2.45.37.png](https://pic.leetcode-cn.com/b896844bf389d8e10438db680981fe4f2080c3846e639c25cd331b68a8447c47-%E6%88%AA%E5%B1%8F2019-11-26%E4%B8%8B%E5%8D%882.45.37.png)
-```javascript
+// #### 解法一：递归回溯
+// + [参考-51. N皇后-解法一](https://leetcode-cn.com/problems/n-queens/solution/51-nhuang-hou-by-alexer-660/)
+//   + ![截屏2019-11-26下午2.45.37.png](https://pic.leetcode-cn.com/b896844bf389d8e10438db680981fe4f2080c3846e639c25cd331b68a8447c47-%E6%88%AA%E5%B1%8F2019-11-26%E4%B8%8B%E5%8D%882.45.37.png)
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -42,10 +42,10 @@ var totalNQueens = function(n) {
     Nqueens(0);
     return results;
 };
-```
-#### 解法二：对角线约束
-+ [参考-51. N皇后-解法二](https://leetcode-cn.com/problems/n-queens/solution/51-nhuang-hou-by-alexer-660/)
-```javascript
+// ```
+// #### 解法二：对角线约束
+// + [参考-51. N皇后-解法二](https://leetcode-cn.com/problems/n-queens/solution/51-nhuang-hou-by-alexer-660/)
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -68,15 +68,15 @@ var totalNQueens = function(n) {
     dfs();
     return result;
 };
-```
-#### 解法三：位运算
-+ DFS
-+ 当前列、左斜对角线、右斜对角线
-+ 二进制为1代表不可放置，0相反
-+ x & -x ：得到最低位的1
-+ x & (x-1)：清零最低位的1
-+ x & ((1 << n) - 1)：将x最高位至第n位(含)清零
-```javascript
+// ```
+// #### 解法三：位运算
+// + DFS
+// + 当前列、左斜对角线、右斜对角线
+// + 二进制为1代表不可放置，0相反
+// + x & -x ：得到最低位的1
+// + x & (x-1)：清零最低位的1
+// + x & ((1 << n) - 1)：将x最高位至第n位(含)清零
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -101,4 +101,4 @@ var totalNQueens = function(n) {
     dfs(n,0,0,0,0);
     return res;
 };
-```
+// ```

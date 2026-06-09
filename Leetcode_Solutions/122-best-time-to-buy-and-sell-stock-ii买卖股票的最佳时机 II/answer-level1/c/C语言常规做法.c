@@ -1,4 +1,4 @@
-```c
+// ```c
 int maxProfit(int* prices, int pricesSize){
     short i;
     int profit=0;
@@ -7,4 +7,4 @@ int maxProfit(int* prices, int pricesSize){
             profit=profit+prices[i+1]-prices[i];
     return profit;
 }
-```
+// ```

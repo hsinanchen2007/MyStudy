@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int OpenLock(string[] deadends, string target)
     {
@@ -43,4 +43,4 @@ public class Solution {
         return -1;
     }
 }
-```
+// ```

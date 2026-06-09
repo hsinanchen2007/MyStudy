@@ -1,5 +1,5 @@
-说实话一直觉得递归的代码有点难理解，因此本人的方法是先排序，最后生成链表，代码如下：
-```
+// 说实话一直觉得递归的代码有点难理解，因此本人的方法是先排序，最后生成链表，代码如下：
+// ```
 public ListNode MergeTwoLists(ListNode l1, ListNode l2)
         {
             List<int> list = new List<int>();
@@ -63,4 +63,4 @@ public ListNode MergeTwoLists(ListNode l1, ListNode l2)
             root.next = nextNode;
             return root;
         }
-```
+// ```

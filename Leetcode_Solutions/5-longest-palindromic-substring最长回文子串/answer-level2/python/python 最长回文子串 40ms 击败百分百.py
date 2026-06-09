@@ -1,5 +1,5 @@
-改进中心移动扩展，回文长度分奇数偶数单独考虑，可先只中心移动扩展查找偶数长度回文，找完之后再按查找到的最长偶数回文长度+1查找奇数回文长度，减少查找量，最快可达40ms，击败百分百。有兴趣可以查看[博客](https://blog.csdn.net/qq_33758867/article/details/90031889)，小白相互学习，共同进步。
-```
+# 改进中心移动扩展，回文长度分奇数偶数单独考虑，可先只中心移动扩展查找偶数长度回文，找完之后再按查找到的最长偶数回文长度+1查找奇数回文长度，减少查找量，最快可达40ms，击败百分百。有兴趣可以查看[博客](https://blog.csdn.net/qq_33758867/article/details/90031889)，小白相互学习，共同进步。
+# ```
 class Solution(object):
     def longestPalindrome(self, s):
         """
@@ -39,4 +39,4 @@ class Solution(object):
                 return s[0]
             else:
                 return s[odd_medium + half + 1 - length: odd_medium + half + 1]
-```
+# ```

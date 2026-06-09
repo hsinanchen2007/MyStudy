@@ -1,8 +1,8 @@
-![图片.png](https://pic.leetcode-cn.com/a7a65ea1745659fb9b45c8d1eb942c542ff6475bde95e211cb027b567ab848f4-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/a7a65ea1745659fb9b45c8d1eb942c542ff6475bde95e211cb027b567ab848f4-%E5%9B%BE%E7%89%87.png)
 
-每轮都在 k 个链表中找一个最小值插入
+// 每轮都在 k 个链表中找一个最小值插入
 
-```
+// ```
 typedef struct ListNode *List;
 
 List
@@ -47,4 +47,4 @@ mergeKLists( List *lists, int listsSize )
 	
 	return P;
 }
-```
+// ```

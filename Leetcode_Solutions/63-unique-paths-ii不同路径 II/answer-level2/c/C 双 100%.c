@@ -1,4 +1,4 @@
-```
+// ```
 执行用时 : 0 ms , 在所有 C 提交中击败了 100.00% 的用户 内存消耗 : 5.7 MB , 在所有 C 提交中击败了 100.00% 的用户
 int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obstacleGridColSize){
     //不能直接使用公式求解 使用动态规划求解
@@ -45,4 +45,4 @@ int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obst
 
     return path[obstacleGridSize - 1][*obstacleGridColSize - 1];
 }
-```
+// ```

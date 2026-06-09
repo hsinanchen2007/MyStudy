@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func max(x, y int) int {
 	if x > y {
 		return x
@@ -30,4 +30,4 @@ func maxProfit(prices []int) int {
 	return dp[n-1][0]
 }
 
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-贪婪算法，每一步都跳能跳范围最大的，画图很容易理解。
+// ### 解题思路
+// 贪婪算法，每一步都跳能跳范围最大的，画图很容易理解。
 
-**注意：最后一个元素不用遍历到，因为第一个已经加1了。**
+// **注意：最后一个元素不用遍历到，因为第一个已经加1了。**
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -27,11 +27,11 @@ class Solution {
         return $count;
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度 O(N)
-- 空间复杂度 O(1)
+// ### 算法复杂度
+// - 时间复杂度 O(N)
+// - 空间复杂度 O(1)
 
-### 参考
-[https://leetcode-cn.com/problems/jump-game-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-10/](https://leetcode-cn.com/problems/jump-game-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-10/)
+// ### 参考
+// [https://leetcode-cn.com/problems/jump-game-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-10/](https://leetcode-cn.com/problems/jump-game-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-10/)

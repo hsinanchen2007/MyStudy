@@ -1,4 +1,4 @@
-```JavaScript
+// ```JavaScript
 /**
  * @param {number} n
  * @return {number[][]}
@@ -75,6 +75,6 @@ var generateMatrix = function(n) {
     var ans = arr.slice(1, arr.length - 1).map(x => x.slice(1, x.length - 1));
     return ans;
 };
-```
-代码先放上，解释稍后补。（如果有必要的话）
-去学习大佬们的做法了。😂
+// ```
+// 代码先放上，解释稍后补。（如果有必要的话）
+// 去学习大佬们的做法了。😂

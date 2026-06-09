@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-直接利用C语言的结构体模拟栈操作，结构体内的top变量代表栈定元素的下一个下标。当top=0的时候栈空
-### c代码
+// ### 解题思路
+// 此处撰写解题思路
+// 直接利用C语言的结构体模拟栈操作，结构体内的top变量代表栈定元素的下一个下标。当top=0的时候栈空
+// ### c代码
 
-```c
+// ```c
 typedef struct {
     int data[1001];
     int top;
@@ -55,9 +55,9 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
-### python代码
-```python
+// ```
+// ### python代码
+// ```python
 class MyStack(object):
 
     def __init__(self):
@@ -104,6 +104,6 @@ class MyStack(object):
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+// ```
 
 

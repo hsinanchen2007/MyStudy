@@ -1,12 +1,12 @@
-// 可重复时一定短单词是长单词的后缀，按单词长度从长到短进行编码
-如 time,me,bell
-先进行排序 time>bell>me
-先编码time 为time#
-判断bell#是否在编码里，结果是不在，将bell#追加到编码里变成time#bell#
-判断me#是否在编码里，结果是在，不对编码进行修改，接着判断下一单词
+// // 可重复时一定短单词是长单词的后缀，按单词长度从长到短进行编码
+// 如 time,me,bell
+// 先进行排序 time>bell>me
+// 先编码time 为time#
+// 判断bell#是否在编码里，结果是不在，将bell#追加到编码里变成time#bell#
+// 判断me#是否在编码里，结果是在，不对编码进行修改，接着判断下一单词
 
 
-```
+// ```
 class Solution {
 public:
     int minimumLengthEncoding(vector<string>& words) {
@@ -32,4 +32,4 @@ public:
         return a.size()>b.size();
     }
 };
-```
+// ```

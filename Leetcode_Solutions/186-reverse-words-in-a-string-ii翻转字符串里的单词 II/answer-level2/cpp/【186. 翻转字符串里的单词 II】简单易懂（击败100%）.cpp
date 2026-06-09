@@ -1,7 +1,7 @@
-## 思路
-先整体反转，再逐个单词反转。
-### 代码
-```c++
+// ## 思路
+// 先整体反转，再逐个单词反转。
+// ### 代码
+// ```c++
 class Solution {
 public:
     void reverseWords(vector<char>& s) {
@@ -15,5 +15,5 @@ public:
         }
     }
 };
-```
+// ```
 

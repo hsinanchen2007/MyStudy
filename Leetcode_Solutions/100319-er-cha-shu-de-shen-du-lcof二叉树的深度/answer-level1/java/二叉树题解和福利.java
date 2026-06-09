@@ -1,10 +1,10 @@
-### 解题思路
-知乎写的很详细的一个二叉树遍历算法，morris遍历
-https://zhuanlan.zhihu.com/p/101321696
+// ### 解题思路
+// 知乎写的很详细的一个二叉树遍历算法，morris遍历
+// https://zhuanlan.zhihu.com/p/101321696
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -24,4 +24,4 @@ class Solution {
         return left>right?left+1:right+1;
     }
 }
-```
+// ```

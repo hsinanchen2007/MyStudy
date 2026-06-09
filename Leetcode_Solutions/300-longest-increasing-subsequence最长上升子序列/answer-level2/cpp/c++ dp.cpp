@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-以nums[i]为当前结尾值，将小于i之前的所有元素与当前进行比较，只有满足严格上升，才会更新。
+// 以nums[i]为当前结尾值，将小于i之前的所有元素与当前进行比较，只有满足严格上升，才会更新。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

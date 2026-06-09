@@ -1,6 +1,6 @@
-中序遍历：
-若节点值大于等于L, 且小于等于R, 将该节点的值累加到sum上。
-```
+// 中序遍历：
+// 若节点值大于等于L, 且小于等于R, 将该节点的值累加到sum上。
+// ```
 class Solution {
     int sum=0;
     public int rangeSumBST(TreeNode root, int L, int R) {
@@ -18,4 +18,4 @@ class Solution {
         inOrder(root.right,L,R);
     }
 }
-```
+// ```

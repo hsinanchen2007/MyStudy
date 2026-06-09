@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def coinChange(self, coins, amount):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                 if i - coin >= 0:
                     dp[i] = min(dp[i - coin] + 1, dp[i]) 
         return dp[amount] if dp[amount] != max_num else -1
-```
+# ```

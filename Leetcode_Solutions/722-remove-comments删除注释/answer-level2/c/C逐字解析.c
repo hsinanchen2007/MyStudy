@@ -1,5 +1,5 @@
-最复杂的测试用例：
-```
+// 最复杂的测试用例：
+// ```
 /*/dadb/*/aec*////*//*ee*//*//b*////*badbda//*bbacdbbd*//ceb//*cdd//**//de*////*
 ec//*//*eebd/*/*//*////*ea/*/bc*//cbdacbeadcac/*/cee*//bcdcdde*//adabeaccdd//*
 ddadbede//*//*/*/ac/*/ea//*bbeb/*/ea//*a//*//*cdbeb*//ab/*/abde/*//*/d//**////*
@@ -100,9 +100,9 @@ c//*/*/decadeed*//a*//ca//*/*/e*//bd*///*/db*////*a/*/cabdaddbeadbdaaacb*//b//*
 d/*/aee*//d/*/*///*/de*//de//*ab*///*/ccb/*/adbab*//c//*/*/e*//eee*//e/*//*///*
 d/*/*//c//**//cd/*///*d/*/b/*/bba*//dc//**///*/baca*//ddbc*//deeaead//*bd*//dd
 dbbdedece//*dceaa//*aeb/*/bdead//*ccbeb*////**//b//*d*//aecad//*a*////**//abeb
-```
+// ```
 
-```
+// ```
 #define MAX_STRING_LEN  80
 #define MAX_LINE        100
 #define PRINTF          // printf
@@ -192,4 +192,4 @@ char** removeComments(char** source, int sourceSize, int* returnSize)
 
     return result;
 }
-```
+// ```

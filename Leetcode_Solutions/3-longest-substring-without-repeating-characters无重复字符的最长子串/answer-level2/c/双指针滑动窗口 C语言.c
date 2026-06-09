@@ -1,9 +1,9 @@
-### 解题思路
-套用模板，hash数组记录当前窗口内元素计数，大于1时移动左指针直至满足条件为止。
+// ### 解题思路
+// 套用模板，hash数组记录当前窗口内元素计数，大于1时移动左指针直至满足条件为止。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
     int* hash = (int*)malloc(sizeof(int) * 128);
     memset(hash, 0, sizeof(int) * 128);
@@ -30,4 +30,4 @@ int lengthOfLongestSubstring(char * s){
 
 
 
-```
+// ```

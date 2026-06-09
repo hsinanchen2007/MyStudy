@@ -1,7 +1,7 @@
-# $O(N^2)$
-## Brute-force
-### Nested *for* loop
-```cpp
+// # $O(N^2)$
+// ## Brute-force
+// ### Nested *for* loop
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -19,28 +19,28 @@ public:
         return max;
     }
 };
-```
-### Complexity
-- Time: $O(N^2)$
-- Space: $O(1)$
+// ```
+// ### Complexity
+// - Time: $O(N^2)$
+// - Space: $O(1)$
 
-# $O(N)$
-## Divide and Conquer
-### TODO: *Too complicated...*
-```cpp
+// # $O(N)$
+// ## Divide and Conquer
+// ### TODO: *Too complicated...*
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
 
     }
 };
-```
+// ```
 
 
 
-## DP & Greedy
-### DP function: $f(k) = \max(nums[k], f(k +1)+nums[k])$
-```cpp
+// ## DP & Greedy
+// ### DP function: $f(k) = \max(nums[k], f(k +1)+nums[k])$
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -55,7 +55,7 @@ public:
         return max;
     }
 };
-```
-### Complextity
-- Time: $O(N)$
-- Space: $O(1)$
+// ```
+// ### Complextity
+// - Time: $O(N)$
+// - Space: $O(1)$

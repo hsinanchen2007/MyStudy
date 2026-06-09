@@ -1,15 +1,15 @@
-### 解题思路
-同主站习题 [400. 第N个数字](https://leetcode-cn.com/problems/nth-digit/)
+# ### 解题思路
+# 同主站习题 [400. 第N个数字](https://leetcode-cn.com/problems/nth-digit/)
 
-些微不同：
-1. 当 n = 0, 输出 0
-2. 主站400题，输出str("1"), 这一题需要输出 int 值 1。
+# 些微不同：
+# 1. 当 n = 0, 输出 0
+# 2. 主站400题，输出str("1"), 这一题需要输出 int 值 1。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNthDigit(self, n: int) -> int:
         if n == 0:
@@ -26,4 +26,4 @@ class Solution:
         # (n-old_count+k-1)//k 恰好代表了需要顺延的下一个数
         # (n-old_count+k-1)%k 恰好对应了下标
         return int(str(first-1 + (n-old_count+k-1)//k)[(n-old_count+k-1)%k]) #下标从 0 开始
-```
+# ```

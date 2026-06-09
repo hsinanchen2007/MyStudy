@@ -1,4 +1,4 @@
-```js
+// ```js
 var isMonotonic = function(A) {
     let isUp = false;
     let isDown = false;
@@ -16,4 +16,4 @@ var isMonotonic = function(A) {
     // 同时出现 isUp = true && isUp = true，说明有问题
     return !(isUp && isDown)
 };
-```
+// ```

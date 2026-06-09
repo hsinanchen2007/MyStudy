@@ -1,9 +1,9 @@
-### 解题思路
-层间用了递归，一层一层叠起来
+// ### 解题思路
+// 层间用了递归，一层一层叠起来
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -31,4 +31,4 @@ public:
         return result;
     }
 };
-```
+// ```

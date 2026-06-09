@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         num1, num2 = num1[::-1], num2[::-1]
@@ -19,4 +19,4 @@ class Solution:
         res_str = ''.join(map(str, res))
         res_str = res_str.rstrip('0')
         return res_str[::-1] if res_str != '' else '0'
-```
+# ```

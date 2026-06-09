@@ -1,9 +1,9 @@
-### 解题思路
-双指针，为防止加法溢出，条件判断写为i*i<c-j*j
+// ### 解题思路
+// 双指针，为防止加法溢出，条件判断写为i*i<c-j*j
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool judgeSquareSum(int c) {
@@ -16,4 +16,4 @@ public:
        return false;
     }
 };
-```
+// ```

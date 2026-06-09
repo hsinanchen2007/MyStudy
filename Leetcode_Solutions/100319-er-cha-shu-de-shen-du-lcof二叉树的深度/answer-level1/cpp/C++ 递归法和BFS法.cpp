@@ -1,10 +1,10 @@
-### 解题思路
-方法一：递归
-方法二：BFS
-### 代码
-#### 方法一
+// ### 解题思路
+// 方法一：递归
+// 方法二：BFS
+// ### 代码
+// #### 方法一
 
-```cpp
+// ```cpp
 //递归求解
 //考虑只有一个结点的树
 //对于该树，左子树高度为leftDepth
@@ -19,10 +19,10 @@ public:
 		return leftDepth < rightDepth ? leftDepth + 1 : rightDepth + 1;
 	}
 };
-```
+// ```
 
-#### 方法二
-```cpp
+// #### 方法二
+// ```cpp
 class Solution {
 public:
 	int maxDepth(TreeNode* root) {
@@ -44,4 +44,4 @@ public:
 		return layer;
 	}
 };
-```
+// ```

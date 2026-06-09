@@ -1,12 +1,12 @@
-### 解题思路
-申请的内存没办法释放，也不能定义全局变量。有点难搞。
+// ### 解题思路
+// 申请的内存没办法释放，也不能定义全局变量。有点难搞。
 
-第一个函数，就是解析字符串，生成新的字符串。
-然后递归调用readchar（countAndSay(n-1)）;
+// 第一个函数，就是解析字符串，生成新的字符串。
+// 然后递归调用readchar（countAndSay(n-1)）;
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 char* readchar(char *input)//"111221"
 {
@@ -58,4 +58,4 @@ char * countAndSay(int n){
     }
     return readchar(countAndSay(n-1));
 }
-```
+// ```

@@ -1,14 +1,14 @@
-#### 方法一：哈希映射
+# #### 方法一：哈希映射
 
-**思路**
+# **思路**
 
-我们可以使用哈希映射来解决这个问题，把数值作为键，把数值出现的次数作为值。具体地，我们先遍历原数组建立哈希表，然后遍历哈希表找到最大的键和值相等的元素作为答案，如果找不到就返回 -1。
+# 我们可以使用哈希映射来解决这个问题，把数值作为键，把数值出现的次数作为值。具体地，我们先遍历原数组建立哈希表，然后遍历哈希表找到最大的键和值相等的元素作为答案，如果找不到就返回 -1。
 
-![fig1](https://assets.leetcode-cn.com/solution-static/1394_fig1.gif)
+# ![fig1](https://assets.leetcode-cn.com/solution-static/1394_fig1.gif)
 
-**代码**
+# **代码**
 
-```cpp [sol1-cpp]
+# ```cpp [sol1-cpp]
 class Solution {
 public:
     unordered_map <int, int> m;
@@ -23,9 +23,9 @@ public:
         return ans;
     }
 };
-```
+# ```
 
-```python [sol1-python3]
+# ```python [sol1-python3]
 class Solution:
     def findLucky(self, arr: List[int]) -> int:
         m = dict()
@@ -36,9 +36,9 @@ class Solution:
             if key == value:
                 ans = max(ans, key)
         return ans
-```
+# ```
 
-```js [sol1-javascript]
+# ```js [sol1-javascript]
 var findLucky = function(arr) {
     let m = {}
     arr.forEach((x) => {
@@ -50,12 +50,12 @@ var findLucky = function(arr) {
     })
     return ans
 };
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-记数组中的的元素个数为 $n$，则哈希表中最多有 $n$ 个键值对。
+# 记数组中的的元素个数为 $n$，则哈希表中最多有 $n$ 个键值对。
 
-- 时间复杂度：遍历数组的时间代价是 $O(n)$，遍历哈希表的时间代价也是 $O(n)$，故渐进时间复杂度 $O(n)$。
+# - 时间复杂度：遍历数组的时间代价是 $O(n)$，遍历哈希表的时间代价也是 $O(n)$，故渐进时间复杂度 $O(n)$。
 
-- 空间复杂度：哈希表中最多有 $n$ 个键值对，故渐进空间复杂度 $O(n)$。
+# - 空间复杂度：哈希表中最多有 $n$ 个键值对，故渐进空间复杂度 $O(n)$。

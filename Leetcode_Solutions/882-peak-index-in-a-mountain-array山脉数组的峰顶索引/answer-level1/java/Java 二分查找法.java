@@ -1,6 +1,6 @@
-执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户  
-内存消耗 :42.7 MB, 在所有 Java 提交中击败了47.70%的用户  
-```
+// 执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户  
+// 内存消耗 :42.7 MB, 在所有 Java 提交中击败了47.70%的用户  
+// ```
 class Solution {
     public int peakIndexInMountainArray(int[] A) {
         int low = 0;
@@ -23,12 +23,12 @@ class Solution {
         return -1;
     }
 }
-```
-感谢@Uneed提出的测试用例[3,5,3,2,0]，这个用例上边的代码会越界，抱歉没有考虑清楚。  
-更新代码如下  
-执行用时 :1 ms, 在所有 Java 提交中击败了88.80%的用户  
-内存消耗 ：37.6 MB, 在所有 Java 提交中击败了95.64%的用户  
-```
+// ```
+// 感谢@Uneed提出的测试用例[3,5,3,2,0]，这个用例上边的代码会越界，抱歉没有考虑清楚。  
+// 更新代码如下  
+// 执行用时 :1 ms, 在所有 Java 提交中击败了88.80%的用户  
+// 内存消耗 ：37.6 MB, 在所有 Java 提交中击败了95.64%的用户  
+// ```
 class Solution {
     public int peakIndexInMountainArray(int[] A) {
         int low = 0;
@@ -48,4 +48,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

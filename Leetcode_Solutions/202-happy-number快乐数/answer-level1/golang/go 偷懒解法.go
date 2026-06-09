@@ -1,4 +1,4 @@
-```
+// ```
 func isHappy(n int) bool {
     s := n 
     for n > 1 {
@@ -17,7 +17,7 @@ func isHappy(n int) bool {
     
     return true 
 }
-```
+// ```
 
 
-//  4 → 16 → 37 → 58 → 89 → 145 → 42 → 20 → 4 
+// //  4 → 16 → 37 → 58 → 89 → 145 → 42 → 20 → 4 

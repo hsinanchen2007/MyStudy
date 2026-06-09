@@ -1,10 +1,10 @@
-### 解题思路
-![批注 2020-03-21 113207.png](https://pic.leetcode-cn.com/2d69126a1a42ae108b3c174ec9fedef7b7c36cc1f205cc3cf79014103544da2d-%E6%89%B9%E6%B3%A8%202020-03-21%20113207.png)
+// ### 解题思路
+// ![批注 2020-03-21 113207.png](https://pic.leetcode-cn.com/2d69126a1a42ae108b3c174ec9fedef7b7c36cc1f205cc3cf79014103544da2d-%E6%89%B9%E6%B3%A8%202020-03-21%20113207.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -33,4 +33,4 @@ public:
 
 
 
-```
+// ```

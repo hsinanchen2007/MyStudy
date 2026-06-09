@@ -1,8 +1,8 @@
-思路比较简单，直接看代码
+// 思路比较简单，直接看代码
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -67,4 +67,4 @@ MyStack.prototype.empty = function() {
 // console.log(obj.pop())
 // console.log(obj.pop())
 // console.log(obj.empty())
-```
+// ```

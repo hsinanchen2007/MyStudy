@@ -1,5 +1,5 @@
-![1583578454(1).png](https://pic.leetcode-cn.com/86877908988ef056d693a6b5099241f73efe6b722ff75b0048d9cb4917bb419e-1583578454\(1\).png)
-```
+// ![1583578454(1).png](https://pic.leetcode-cn.com/86877908988ef056d693a6b5099241f73efe6b722ff75b0048d9cb4917bb419e-1583578454\(1\).png)
+// ```
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
@@ -24,4 +24,4 @@ public:
         return s;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-dp， 好像还可以滑动窗口
-```
+// dp， 好像还可以滑动窗口
+// ```
 func numberOfArithmeticSlices(A []int) int {
     if len(A) <= 2 {
         return 0
@@ -16,4 +16,4 @@ func numberOfArithmeticSlices(A []int) int {
     }
     return sum
 }
-```
+// ```

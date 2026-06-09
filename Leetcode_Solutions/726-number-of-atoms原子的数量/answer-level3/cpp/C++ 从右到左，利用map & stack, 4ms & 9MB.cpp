@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/7f5dfcdd742f26b635915ef844ac3e031e780d5701993e0f17b3e9ab01197d91-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7f5dfcdd742f26b635915ef844ac3e031e780d5701993e0f17b3e9ab01197d91-image.png)
 
-```
+// ```
 class Solution {
 public:
     string countOfAtoms(string formula) {
@@ -66,8 +66,8 @@ public:
         return res;
     }
 };
-```
+// ```
 
-最终运行结果：
-![image.png](https://pic.leetcode-cn.com/a773f1ebcf3b6e00da253bad1311d0f60c8c39d94d75a295f6a76130bd1d9c08-image.png)
+// 最终运行结果：
+// ![image.png](https://pic.leetcode-cn.com/a773f1ebcf3b6e00da253bad1311d0f60c8c39d94d75a295f6a76130bd1d9c08-image.png)
 

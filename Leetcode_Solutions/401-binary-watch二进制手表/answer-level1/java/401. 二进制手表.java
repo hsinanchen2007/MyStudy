@@ -1,13 +1,13 @@
-/**
- * 
- * author: zhaozhen
- * 
- * 解题思路：类似于暴力,主要检测当前十进制的二进制表示的1的个数
- * 
- * bitCount_jdk() //判断十进制的二进制表示的1的个数 jdk 源码
- * 
- */
-```
+// /**
+//  * 
+//  * author: zhaozhen
+//  * 
+//  * 解题思路：类似于暴力,主要检测当前十进制的二进制表示的1的个数
+//  * 
+//  * bitCount_jdk() //判断十进制的二进制表示的1的个数 jdk 源码
+//  * 
+//  */
+// ```
     public List<String> readBinaryWatch(int num) {
 
         List<String> list = new ArrayList<>();
@@ -32,4 +32,4 @@
         i = i + (i >>> 16);
         return i & 0x3f;
     }
-```
+// ```

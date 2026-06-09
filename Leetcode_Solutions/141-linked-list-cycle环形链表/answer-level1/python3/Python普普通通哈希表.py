@@ -1,9 +1,9 @@
-### 解题思路
-记录访问过的位置
+# ### 解题思路
+# 记录访问过的位置
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
             node = node.next
         return False
         
-```
+# ```

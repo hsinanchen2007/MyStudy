@@ -1,8 +1,8 @@
-本题的关键在于理解preorder表和inorder表在建树中各自起到的作用。
-inorder表：维护了左右子树与根节点的关系，因此可以基于它来划分子任务。
-preorder表：我们建树的顺序是基于preorder表来建树的，所以preorder表里的第一个值必定是根节点，因此可以基于它来取当前节点的值。
-另外一个关键点是，在建树过程中要维护一个全局变量first，来记录当前build的是第几个节点，这个first的值与preorder表的顺序是一致的。
-```c++
+// 本题的关键在于理解preorder表和inorder表在建树中各自起到的作用。
+// inorder表：维护了左右子树与根节点的关系，因此可以基于它来划分子任务。
+// preorder表：我们建树的顺序是基于preorder表来建树的，所以preorder表里的第一个值必定是根节点，因此可以基于它来取当前节点的值。
+// 另外一个关键点是，在建树过程中要维护一个全局变量first，来记录当前build的是第几个节点，这个first的值与preorder表的顺序是一致的。
+// ```c++
 class Solution {
 public:
     unordered_map<int,int> idx_map;
@@ -30,4 +30,4 @@ public:
         return dfs(preorder, inorder, 0, inorder.size());
     }
 };
-```
+// ```

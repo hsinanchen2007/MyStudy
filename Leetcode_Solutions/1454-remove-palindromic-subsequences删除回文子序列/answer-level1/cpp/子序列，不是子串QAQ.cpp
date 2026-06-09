@@ -1,9 +1,9 @@
-### 解题思路
-子序列，不是子串……坑死我了，想了一个多小时硬是没看明白。这就三种可能，因为只有a,b。
-如果是子串的话，我写了另一个版本的：
+// ### 解题思路
+// 子序列，不是子串……坑死我了，想了一个多小时硬是没看明白。这就三种可能，因为只有a,b。
+// 如果是子串的话，我写了另一个版本的：
 
-# 子串
-```cpp
+// # 子串
+// ```cpp
 bool ishuiwen(string s) {//判断是否为回文串
 	string rs = s;
 	reverse(s.begin(), s.end());
@@ -34,12 +34,12 @@ int removePalindromeSub(string s) {
 	}	
 		return count;
 }
-```
-# 本题：
+// ```
+// # 本题：
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindromic(string s){
@@ -53,4 +53,4 @@ public:
         else return 2;
     }
 };
-```
+// ```

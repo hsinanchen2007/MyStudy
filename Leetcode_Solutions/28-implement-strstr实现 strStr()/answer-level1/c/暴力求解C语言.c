@@ -1,5 +1,5 @@
 
-```
+// ```
    int cmp(char * str1, char * str2, int lenth1)
     {
         int i = 0;
@@ -34,4 +34,4 @@ int strStr(char * haystack, char * needle){
     return -1;
 
 }
-```
+// ```

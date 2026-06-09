@@ -1,5 +1,5 @@
 
-```
+// ```
 var findLongestChain = function(pairs) {
     if(pairs.length == 0){
         return 0
@@ -21,6 +21,6 @@ var findLongestChain = function(pairs) {
     return count
 
 };
-```
+// ```
 
 

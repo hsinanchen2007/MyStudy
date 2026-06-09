@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string minNumber(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return a + b < b + a;
     }
 };
-```
+// ```

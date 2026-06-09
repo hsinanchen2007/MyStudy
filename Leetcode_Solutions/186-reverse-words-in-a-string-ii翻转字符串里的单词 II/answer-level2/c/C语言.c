@@ -1,5 +1,5 @@
-一重循环
-```
+// 一重循环
+// ```
 char g_str[100000][1000];
 int g_num;
 char ss[100000];
@@ -33,9 +33,9 @@ void reverseWords(char* s, int sSize)
         s[i] = ss[i];
     }
 }
-```
-额外O(1)空间
-```
+// ```
+// 额外O(1)空间
+// ```
 char ss[100000];
 
 void reverseWords(char* s, int sSize)
@@ -64,5 +64,5 @@ void reverseWords(char* s, int sSize)
     }
 }
 
-```
+// ```
 

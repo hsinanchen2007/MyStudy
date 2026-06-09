@@ -1,13 +1,13 @@
-### 解题思路
-```text
+// ### 解题思路
+// ```text
 1. 贪心算法，下一跳的位置为可以使下下步到达的最远位置
 2. 当前可以跳的最远位置为max(i+nums[i], nums.length - 1)
 3. 从i到max(i+nums[i], nums.length - 1)中选取可以使下下步到达的最远位置为max{j+nums[j]}
-```
+// ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int jump(int[] nums) {
         // 记录步数
@@ -34,10 +34,10 @@ class Solution {
         return count;
     }
 }
-```
+// ```
 
-### 测试用例
-```java
+// ### 测试用例
+// ```java
 public class SolutionTest {
     Solution solution = new Solution();
 
@@ -64,4 +64,4 @@ public class SolutionTest {
         assertEquals(expect3, result3);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-两重hash，第二遍用了三个hash表，不得不说，在hash方面，C语言就是垃圾。
-字符串转数字hash函数参考网上，数字再hash自己写的。
-基本思路：
-1、把原始单词列表，大写转小写后的列表，和把元音替换掉的列表，分别做hash（两重）。
-1、待查单词，用hash先原单词寻找，再转小写寻找，再把元音也换掉查找。哪个能找到就返回处理下个词。
-```
+// 两重hash，第二遍用了三个hash表，不得不说，在hash方面，C语言就是垃圾。
+// 字符串转数字hash函数参考网上，数字再hash自己写的。
+// 基本思路：
+// 1、把原始单词列表，大写转小写后的列表，和把元音替换掉的列表，分别做hash（两重）。
+// 1、待查单词，用hash先原单词寻找，再转小写寻找，再把元音也换掉查找。哪个能找到就返回处理下个词。
+// ```
 #define MAX_SIZE 5001
 #define HASH_LEN 1000
 struct HashData {
@@ -186,6 +186,6 @@ char ** spellchecker(char ** wordlist, int wordlistSize, char ** queries, int qu
     *returnSize = queriesSize;
     return result;
 }
-```
+// ```
 
 

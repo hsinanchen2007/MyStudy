@@ -1,9 +1,9 @@
-### 解题思路
-一看就懂
+// ### 解题思路
+// 一看就懂
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {string} t
@@ -18,4 +18,4 @@ var isIsomorphic = function(s, t) {
     }
     return true;
 };
-```
+// ```

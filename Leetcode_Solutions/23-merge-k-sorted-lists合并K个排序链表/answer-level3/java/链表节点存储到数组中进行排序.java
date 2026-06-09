@@ -1,11 +1,11 @@
-### 解题思路
-1.将链表数据转存到数组中；
-2.对数组排序；
-3.排序后的链表节点重新连接起来。
+// ### 解题思路
+// 1.将链表数据转存到数组中；
+// 2.对数组排序；
+// 3.排序后的链表节点重新连接起来。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -77,4 +77,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

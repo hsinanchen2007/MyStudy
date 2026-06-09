@@ -1,9 +1,9 @@
-### 解题思路
-使用哈希表创建字母易位比较基线
-按照匹配的字符串长度建立滑动窗口，窗口内的哈希值和基线比较，匹配上表示属于异位子串
-### 代码
+// ### 解题思路
+// 使用哈希表创建字母易位比较基线
+// 按照匹配的字符串长度建立滑动窗口，窗口内的哈希值和基线比较，匹配上表示属于异位子串
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -50,4 +50,4 @@ int* findAnagrams(char * s, char * p, int* returnSize){
     free(pMaskHash);
     return pRet;
 }
-```
+// ```

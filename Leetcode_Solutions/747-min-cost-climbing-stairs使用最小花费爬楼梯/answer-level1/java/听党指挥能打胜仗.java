@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minCostClimbingStairs(int[] cost) {
         if (cost.length == 0)
@@ -16,4 +16,4 @@ class Solution {
         return dp[cost.length] ;
     }
 }
-```
+// ```

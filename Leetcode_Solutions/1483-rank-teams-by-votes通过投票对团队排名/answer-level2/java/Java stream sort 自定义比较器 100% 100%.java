@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public String rankTeams(String[] votes) {
         class People{
@@ -49,4 +49,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

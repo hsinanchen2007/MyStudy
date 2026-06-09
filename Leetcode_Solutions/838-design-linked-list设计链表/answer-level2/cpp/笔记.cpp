@@ -1,9 +1,9 @@
-### 解题思路
-效率不高的双向链表，不过一眼看不出特别的瓶颈点
+// ### 解题思路
+// 效率不高的双向链表，不过一眼看不出特别的瓶颈点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyLinkedList {
 private:
     int val;
@@ -127,4 +127,4 @@ public:
  * obj->addAtIndex(index,val);
  * obj->deleteAtIndex(index);
  */
-```
+// ```

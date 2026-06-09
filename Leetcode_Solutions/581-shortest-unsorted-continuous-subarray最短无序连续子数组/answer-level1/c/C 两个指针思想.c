@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MIN(x,y) (x < y ? x : y)
 #define MAX(x,y) (x > y ? x : y)
 int findUnsortedSubarray(int* nums, int numsSize){
@@ -27,4 +27,4 @@ int findUnsortedSubarray(int* nums, int numsSize){
     }
     return r > l ? r - l + 1 : 0;
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-1. res 负责记录循环期间三数和减target的绝对值最小时的三数和
-2. 数组从小到大排序
-3. 三数和小于target, L左指针右移，反之，右指针左移
-4. 如果三数和等于target，直接返回res
+// ### 解题思路
+// 1. res 负责记录循环期间三数和减target的绝对值最小时的三数和
+// 2. 数组从小到大排序
+// 3. 三数和小于target, L左指针右移，反之，右指针左移
+// 4. 如果三数和等于target，直接返回res
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -33,4 +33,4 @@ var threeSumClosest = function(nums, target) {
     }
     return res
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-贪心算法，以区间结尾排序
-如果cur_end 小于 下一个的start，那箭数+1。
-注意：要讨论points为0的情况
+# ### 解题思路
+# 贪心算法，以区间结尾排序
+# 如果cur_end 小于 下一个的start，那箭数+1。
+# 注意：要讨论points为0的情况
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findMinArrowShots(self, points):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                 pass
         return arrows
 
-```
+# ```

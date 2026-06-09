@@ -1,8 +1,8 @@
-思路：前序序列为【根，左子树，右子树】，中序序列为【左子树，根，右子树】。
-          我们可以不断从前序序列把根拿出来，划分中序序列。
-Tips: 前序序列拿出根后，就分为左右子树。其中左右子树的组成还是【根，左子树，右子树】，并且前序和中序的左右子树是对应的。
+# 思路：前序序列为【根，左子树，右子树】，中序序列为【左子树，根，右子树】。
+#           我们可以不断从前序序列把根拿出来，划分中序序列。
+# Tips: 前序序列拿出根后，就分为左右子树。其中左右子树的组成还是【根，左子树，右子树】，并且前序和中序的左右子树是对应的。
 
-```python3 []
+# ```python3 []
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         def goujian(p1, p2):
@@ -20,4 +20,4 @@ class Solution:
             
         T = goujian(preorder, inorder)
         return T
-```
+# ```

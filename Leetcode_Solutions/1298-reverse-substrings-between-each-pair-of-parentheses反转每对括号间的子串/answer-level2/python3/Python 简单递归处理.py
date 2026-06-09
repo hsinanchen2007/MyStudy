@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/ae9b4c6a153a339733f44feb103704d067b2ed351599bed162c8e3016ffb6c35-image.png)
+# ![image.png](https://pic.leetcode-cn.com/ae9b4c6a153a339733f44feb103704d067b2ed351599bed162c8e3016ffb6c35-image.png)
 
 
-```
+# ```
 
 '''
 先从左到右把配对的括号找到，然后递归处理括号中的字符串，最后进行
@@ -36,4 +36,4 @@ class Solution:
                     stack.append(i)
 
         return self.solve(s, 0, len(s)-1, m)
-```
+# ```

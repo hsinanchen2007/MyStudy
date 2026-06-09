@@ -1,11 +1,11 @@
-```
+// ```
 f(0) = nums[0]
 f(1) = max(nums[1], nums[1]+f(0))
 f(n) = max(nums[n], nums[n]+f(n-1))
 result = max(f(0), f(1), ... , f(n))
-```
+// ```
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         return maxValue;
     }
 };
-```
+// ```

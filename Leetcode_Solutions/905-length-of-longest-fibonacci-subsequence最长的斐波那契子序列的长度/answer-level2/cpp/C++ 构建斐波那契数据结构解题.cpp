@@ -1,5 +1,5 @@
-思路比较简单，代码如下：
-```
+// 思路比较简单，代码如下：
+// ```
 class Solution {
 public:
     struct Fib {
@@ -36,4 +36,4 @@ public:
         return (res > 2) ? res : 0;
     }
 };
-```
+// ```

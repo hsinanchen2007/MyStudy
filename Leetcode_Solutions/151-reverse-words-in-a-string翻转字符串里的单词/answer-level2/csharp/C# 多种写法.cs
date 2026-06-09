@@ -1,9 +1,9 @@
-### 解题思路
-本题和[剑指offer](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/) 里面的一题基本一致，我就直接搬运自己的原答案好了。。。
+// ### 解题思路
+// 本题和[剑指offer](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/) 里面的一题基本一致，我就直接搬运自己的原答案好了。。。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution
 {
     public string ReverseWords(string s)
@@ -79,4 +79,4 @@ public class Solution
     }
 
 }
-```
+// ```

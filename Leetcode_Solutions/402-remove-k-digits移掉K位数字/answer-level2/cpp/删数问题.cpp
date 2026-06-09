@@ -1,9 +1,9 @@
-### 解题思路
-1.找到第一个递减序列 依次删除k个
+// ### 解题思路
+// 1.找到第一个递减序列 依次删除k个
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string removeKdigits(string num, int k) {
@@ -32,4 +32,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用优先队列，把链表元素放进去，理由底层排序原理，对其大顶堆排序，在把排序好的节点拿出来连接成链表
+// ### 解题思路
+// 利用优先队列，把链表元素放进去，理由底层排序原理，对其大顶堆排序，在把排序好的节点拿出来连接成链表
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -35,4 +35,4 @@ class Solution {
         return dummynode.next;
     }
 }
-```
+// ```

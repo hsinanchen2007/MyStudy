@@ -1,9 +1,9 @@
-### 解题思路
-比较暴力，用stringstream类型把int转化成string，再正反比较，不用多说，自己看看。
+// ### 解题思路
+// 比较暴力，用stringstream类型把int转化成string，再正反比较，不用多说，自己看看。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string int2str(int aNum){
@@ -28,4 +28,4 @@ public:
             return false;
     }
 };
-```
+// ```

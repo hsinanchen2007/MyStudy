@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-每个key保存count和当前时间戳，把每个key都放进去一个pool里面，更加先count大到小，时间戳大到小排序。如果put的时候出现capacity不够，那就把pool最后一个删除
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 每个key保存count和当前时间戳，把每个key都放进去一个pool里面，更加先count大到小，时间戳大到小排序。如果put的时候出现capacity不够，那就把pool最后一个删除
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 import java.time.Instant;
 import java.util.concurrent.ConcurrentHashMap;
@@ -130,4 +130,4 @@ class LFUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

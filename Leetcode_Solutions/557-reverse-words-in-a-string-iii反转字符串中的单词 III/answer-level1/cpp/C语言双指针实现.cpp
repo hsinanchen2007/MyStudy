@@ -1,6 +1,6 @@
-用一个pos定位空格位置
+// 用一个pos定位空格位置
 
-用left,right 指针处理单个单词返转   直到结束 
+// 用left,right 指针处理单个单词返转   直到结束 
 
 string reverseWords(string s) {
 	string res = "";

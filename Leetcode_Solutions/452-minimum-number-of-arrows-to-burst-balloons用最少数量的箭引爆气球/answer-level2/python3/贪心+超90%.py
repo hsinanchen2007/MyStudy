@@ -1,5 +1,5 @@
-> 贪心思路：两个区间相交时，选择右端最小值作为射箭点（更新当前左区间右端值）
-```python
+# > 贪心思路：两个区间相交时，选择右端最小值作为射箭点（更新当前左区间右端值）
+# ```python
 class Solution:
     def findMinArrowShots(self, points: List[List[int]]) -> int:
 
@@ -18,4 +18,4 @@ class Solution:
                 j += 1
         
         return len(points)-res
-```
+# ```

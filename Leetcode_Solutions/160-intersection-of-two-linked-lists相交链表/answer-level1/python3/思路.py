@@ -1,9 +1,9 @@
-### 解题思路
-先对比两条链表的长度，然后移动相同长度的head起点，开始对比，寻找相同的节点返回，若没有则返回None
+# ### 解题思路
+# 先对比两条链表的长度，然后移动相同长度的head起点，开始对比，寻找相同的节点返回，若没有则返回None
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
             length += 1
             head = head.next
         return length
-```
+# ```

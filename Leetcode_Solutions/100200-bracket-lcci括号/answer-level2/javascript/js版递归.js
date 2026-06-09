@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-递归
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 递归
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -20,4 +20,4 @@ var generateParenthesis = function(n) {
   })('',0,0);
   return ans;
 };
-```
+// ```

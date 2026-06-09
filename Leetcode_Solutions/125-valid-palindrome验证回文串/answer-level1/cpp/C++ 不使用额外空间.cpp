@@ -1,13 +1,13 @@
-### 解题思路
-首先读懂题意，不是字母或数字都忽略；
-那么就从两端开始找字母或数字的字符，如果不相等就返回false，走到最后就返回true
+// ### 解题思路
+// 首先读懂题意，不是字母或数字都忽略；
+// 那么就从两端开始找字母或数字的字符，如果不相等就返回false，走到最后就返回true
 
-![图片.png](https://pic.leetcode-cn.com/e89136dd209248dbce071f3e49b1a98a194f75b4818b2df5ebdc0416c7f3f9f4-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/e89136dd209248dbce071f3e49b1a98a194f75b4818b2df5ebdc0416c7f3f9f4-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -27,4 +27,4 @@ public:
         return true;
     }
 };
-```
+// ```

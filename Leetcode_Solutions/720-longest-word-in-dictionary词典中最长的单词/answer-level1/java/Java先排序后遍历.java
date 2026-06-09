@@ -1,6 +1,6 @@
-执行用时 : 27 ms, 在Longest Word in Dictionary的Java提交中击败了77.05% 的用户
-内存消耗 : 44 MB, 在Longest Word in Dictionary的Java提交中击败了78.46% 的用户
-```
+// 执行用时 : 27 ms, 在Longest Word in Dictionary的Java提交中击败了77.05% 的用户
+// 内存消耗 : 44 MB, 在Longest Word in Dictionary的Java提交中击败了78.46% 的用户
+// ```
 class Solution {
     public String longestWord(String[] words) {
         if(words.length==1){//先判断特殊用例
@@ -36,4 +36,4 @@ class Solution {
         return "";
     }
 }
-```
+// ```

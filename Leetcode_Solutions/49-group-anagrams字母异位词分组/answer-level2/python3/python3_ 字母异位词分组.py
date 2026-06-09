@@ -1,4 +1,4 @@
-```python
+# ```python
 import collections
 def groupAnagrams(strs):
     dic = collections.defaultdict(list)
@@ -9,4 +9,4 @@ def groupAnagrams(strs):
     return dic.values()
 
 print(groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]))
-```
+# ```

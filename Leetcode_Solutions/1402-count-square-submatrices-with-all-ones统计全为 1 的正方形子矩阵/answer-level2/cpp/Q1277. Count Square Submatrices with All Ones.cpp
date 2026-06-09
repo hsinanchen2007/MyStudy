@@ -1,11 +1,11 @@
-### 动态规划（递推）
-文首推荐LeetCode官方题解：[A1277. Count Square Submatrices with All Ones](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/solution/tong-ji-quan-wei-1-de-zheng-fang-xing-zi-ju-zhen-b/)
- - 我也是看了官方题解的提示之后才做出来的。
- - `dp[i][j]`表示以`(i, j)`为右下角的最大正方形边长，同时，也表示以`(i, j)`为右下角的正方形的个数。
- - 状态转移方程是：`dp[i][j] = min(min(dp[i-1][j], dp[i][j-1]), dp[i-1][j-1])`。
- - 在计算出所有的`dp[i][j]`后，我们将它们进行累加，就可以得到矩阵中正方形的数目。
+// ### 动态规划（递推）
+// 文首推荐LeetCode官方题解：[A1277. Count Square Submatrices with All Ones](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/solution/tong-ji-quan-wei-1-de-zheng-fang-xing-zi-ju-zhen-b/)
+//  - 我也是看了官方题解的提示之后才做出来的。
+//  - `dp[i][j]`表示以`(i, j)`为右下角的最大正方形边长，同时，也表示以`(i, j)`为右下角的正方形的个数。
+//  - 状态转移方程是：`dp[i][j] = min(min(dp[i-1][j], dp[i][j-1]), dp[i-1][j-1])`。
+//  - 在计算出所有的`dp[i][j]`后，我们将它们进行累加，就可以得到矩阵中正方形的数目。
 
-```
+// ```
 class Solution {
 public:
 	int countSquares(vector<vector<int>>& matrix) {
@@ -33,4 +33,4 @@ public:
 		return nCount;
 	}
 };
-```
+// ```

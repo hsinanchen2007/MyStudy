@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/64f7b6f99cbde319e86b8de702094e6177739fb7592820b8751b9c3e9e91faff-image.png)
+// ![image.png](https://pic.leetcode-cn.com/64f7b6f99cbde319e86b8de702094e6177739fb7592820b8751b9c3e9e91faff-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   按题意走就完事了，定义三个函数判断当前数字是否为3的倍数、5的倍数、3 和 5 的倍数
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -49,4 +49,4 @@ var fizzBuzz = function(n) {
   
   return ans;
 };
-```
+// ```

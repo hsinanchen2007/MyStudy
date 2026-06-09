@@ -1,15 +1,15 @@
-思路：
-1. 找出所有near距离为1的字母:  题目要求每次只能转换一个字母。
-   Map<String,Set<String>> map   key: 该字母。 Set<String> 与该字母距离为1的全局。
+// 思路：
+// 1. 找出所有near距离为1的字母:  题目要求每次只能转换一个字母。
+//    Map<String,Set<String>> map   key: 该字母。 Set<String> 与该字母距离为1的全局。
 
-2.  如果该map里不存在endword 或者endWord 和 beginWord的相近的字符个数为0，返回0.
+// 2.  如果该map里不存在endword 或者endWord 和 beginWord的相近的字符个数为0，返回0.
 
-3. 创建一个Map<String,Integer> distance ，来表示每一个字母距离endWord的最短距离。
+// 3. 创建一个Map<String,Integer> distance ，来表示每一个字母距离endWord的最短距离。
 
-4. 从key=endWord，还是遍历1所构建的map。直到计算出distance里包含beginWord。或者 找不出下一个更近的单词。终止。
+// 4. 从key=endWord，还是遍历1所构建的map。直到计算出distance里包含beginWord。或者 找不出下一个更近的单词。终止。
 
 
-```java
+// ```java
 
 public class Lesson127 {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
@@ -81,6 +81,6 @@ class WordDistance {
     String word;
     String near;
 }
-```
+// ```
 
 

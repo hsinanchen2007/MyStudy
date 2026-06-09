@@ -1,8 +1,8 @@
-### 解题思路
-思路很明确，借用UTHASH构造HASH表后，后面根据HASH表进行查找
-### 代码
+// ### 解题思路
+// 思路很明确，借用UTHASH构造HASH表后，后面根据HASH表进行查找
+// ### 代码
 
-```c
+// ```c
 #include <uthash.h>
 typedef struct E {
     int key;
@@ -46,4 +46,4 @@ int* anagramMappings(int* A, int ASize, int* B, int BSize, int* returnSize){
     *returnSize = ASize;
     return ret;
 }
-```
+// ```

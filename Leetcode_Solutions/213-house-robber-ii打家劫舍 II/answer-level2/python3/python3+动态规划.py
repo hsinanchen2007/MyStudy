@@ -1,6 +1,6 @@
-两次dp，dp1考虑从第一家偷到倒数第二家，dp2考虑从第二家偷到最后一家，最后比较dp1[-1]和dp2[-1]，取大的。
-![UC截图20191201160059.png](https://pic.leetcode-cn.com/bd2442be675f079c9d33c8059de4e0986b926cda08e36be54e32be1ef6909a69-UC%E6%88%AA%E5%9B%BE20191201160059.png)
-```
+# 两次dp，dp1考虑从第一家偷到倒数第二家，dp2考虑从第二家偷到最后一家，最后比较dp1[-1]和dp2[-1]，取大的。
+# ![UC截图20191201160059.png](https://pic.leetcode-cn.com/bd2442be675f079c9d33c8059de4e0986b926cda08e36be54e32be1ef6909a69-UC%E6%88%AA%E5%9B%BE20191201160059.png)
+# ```
 class Solution:
     def rob(self, nums: List[int]) -> int:
         n = len(nums)
@@ -22,4 +22,4 @@ class Solution:
             dp2[i] = max(dp2[i - 1], dp2[i - 2] + nums[i+1])
         return max(dp1[-1],dp2[-1])
 
-```
+# ```

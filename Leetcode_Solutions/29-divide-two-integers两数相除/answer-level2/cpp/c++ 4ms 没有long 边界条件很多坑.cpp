@@ -1,14 +1,14 @@
-### 解题思路
-先不用管溢出且假设两个数均非负（当然除数不为0）。为了便于形式化描述，使用以下符号：
+// ### 解题思路
+// 先不用管溢出且假设两个数均非负（当然除数不为0）。为了便于形式化描述，使用以下符号：
 
-- dividend 表示被除数
-- divisor 表示除数
-- tmp 记录翻倍前的除数
-- cnt 临时结果满足 `dividend >= cnt * divisor` 
-- ans 最终的结果
+// - dividend 表示被除数
+// - divisor 表示除数
+// - tmp 记录翻倍前的除数
+// - cnt 临时结果满足 `dividend >= cnt * divisor` 
+// - ans 最终的结果
 
-算法如下：
-```python
+// 算法如下：
+// ```python
 while num >= den:
     cnt = 0
     den_copy = den
@@ -26,39 +26,39 @@ while num >= den:
     ans += cnt
     num -= tmp
     den = den_copy
-```
+// ```
 
-我们举个例子来说明上述过程：
+// 我们举个例子来说明上述过程：
 
-以`dividend = 19, divisor = 3`为例:
+// 以`dividend = 19, divisor = 3`为例:
 
-<br>
+// <br>
 
-|num|den|tmp|cnt|
-|---|---|---|---|
-|19|3||0|
-|19|6|3|1|
-|19|12|6|2|
-|19|24|12|4|
-|19 - 12 = 7|3||0|
-|7|6|3|1|
-|7|12|6|2|
-|7 - 6 = 1||||
+// |num|den|tmp|cnt|
+// |---|---|---|---|
+// |19|3||0|
+// |19|6|3|1|
+// |19|12|6|2|
+// |19|24|12|4|
+// |19 - 12 = 7|3||0|
+// |7|6|3|1|
+// |7|12|6|2|
+// |7 - 6 = 1||||
 
-最终的结果是`19/3 = 4 + 2 = 6`。
+// 最终的结果是`19/3 = 4 + 2 = 6`。
 
-边界情况梳理:
+// 边界情况梳理:
 
-1. If divisor == 1, simply return divisor
-2. If dividend == divisor, simply return 1, which can avoid INT_MIN / INT_MIN
-3. If not case 1 or case 2, when divisor == INT_MIN, return 0
-4. If dividend == INT_MIN
-   1. If divisor == -1, overflow will occurr, in this case return INT_MAX
-   2. To avoid overflow when using abs, we increment dividend and mark, the mark will used later to determine if increment the final result
+// 1. If divisor == 1, simply return divisor
+// 2. If dividend == divisor, simply return 1, which can avoid INT_MIN / INT_MIN
+// 3. If not case 1 or case 2, when divisor == INT_MIN, return 0
+// 4. If dividend == INT_MIN
+//    1. If divisor == -1, overflow will occurr, in this case return INT_MAX
+//    2. To avoid overflow when using abs, we increment dividend and mark, the mark will used later to determine if increment the final result
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int divide(int dividend, int divisor) {
@@ -106,4 +106,4 @@ public:
         return ans;
     }
 };
-```
+// ```

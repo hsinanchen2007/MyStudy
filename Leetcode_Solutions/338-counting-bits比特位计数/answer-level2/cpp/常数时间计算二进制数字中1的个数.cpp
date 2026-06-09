@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-用一个mask掩码每8位存储1的个数，最后对这个32位整型每8位叠加输出
+// 用一个mask掩码每8位存储1的个数，最后对这个32位整型每8位叠加输出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> countBits(int num) {
@@ -33,4 +33,4 @@ public:
         return (bits&0xff)+((bits>>8)&0xff)+((bits>>16)&0xff)+((bits>>24)&0xff);
     }
 };
-```
+// ```

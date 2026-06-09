@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def bstFromPreorder(self, preorder: [int]) -> TreeNode:
         
@@ -15,4 +15,4 @@ class Solution:
             return root
         
         return build(1 << 31)
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-操作线性数组会更方便一些，不过性能确实下降了，毕竟多了一次遍历
-![image.png](https://pic.leetcode-cn.com/b30755f4df98c13e8d7985a7945e43939710f56c2eee641fa19d14e18325e6f3-image.png)
+// ### 解题思路
+// 操作线性数组会更方便一些，不过性能确实下降了，毕竟多了一次遍历
+// ![image.png](https://pic.leetcode-cn.com/b30755f4df98c13e8d7985a7945e43939710f56c2eee641fa19d14e18325e6f3-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -56,4 +56,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
     }
     return lrotate(head, n, k);
 }
-```
+// ```

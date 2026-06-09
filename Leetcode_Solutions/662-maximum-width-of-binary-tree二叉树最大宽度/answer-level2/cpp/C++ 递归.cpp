@@ -1,5 +1,5 @@
-为了避免溢出，使用double来存储序号信息
-```
+// 为了避免溢出，使用double来存储序号信息
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,5 +33,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/6b97ae56675a5baf974c550c7b67459e403ce94b6d5d3b386ae48e37cec361c4-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/6b97ae56675a5baf974c550c7b67459e403ce94b6d5d3b386ae48e37cec361c4-image.png)

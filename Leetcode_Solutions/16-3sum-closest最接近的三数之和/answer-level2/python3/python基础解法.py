@@ -1,9 +1,9 @@
-### 解题思路
-先排序，后双指针更新和差距最小的值，如果相等直接输出
+# ### 解题思路
+# 先排序，后双指针更新和差距最小的值，如果相等直接输出
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         if len(nums) == 3:
@@ -27,4 +27,4 @@ class Solution:
                     l -= 1
         return mindiff
 
-```
+# ```

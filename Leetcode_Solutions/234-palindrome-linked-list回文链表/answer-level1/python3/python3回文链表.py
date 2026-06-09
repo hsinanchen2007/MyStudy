@@ -1,9 +1,9 @@
-### 解题思路
-遍历两次，反转链表一次
+# ### 解题思路
+# 遍历两次，反转链表一次
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,6 +25,6 @@ class Solution:
             num2=num2*10+prev.val
             prev=prev.next
         return num1==num2
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/5c1d3a91f19a8cbcc929b25574285463d7330d26c19d9651ac50948bbc37c897-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5c1d3a91f19a8cbcc929b25574285463d7330d26c19d9651ac50948bbc37c897-image.png)

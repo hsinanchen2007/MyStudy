@@ -1,10 +1,10 @@
-执行用时 :60 ms, 在所有 JavaScript 提交中击败了86.46%的用户
+// 执行用时 :60 ms, 在所有 JavaScript 提交中击败了86.46%的用户
 
-内存消耗 :33.6 MB, 在所有 JavaScript 提交中击败了99.38%的用户
+// 内存消耗 :33.6 MB, 在所有 JavaScript 提交中击败了99.38%的用户
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -28,4 +28,4 @@ var searchInsert = function(nums, target) {
         }
     }
 };
-```
+// ```

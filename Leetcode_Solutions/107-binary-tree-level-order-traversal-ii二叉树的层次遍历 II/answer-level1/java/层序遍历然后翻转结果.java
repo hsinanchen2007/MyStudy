@@ -1,8 +1,8 @@
-### 解题思路
-最基础的方案：先层序遍历，然后再翻转结果。高深的暂没有
-### 代码
+// ### 解题思路
+// 最基础的方案：先层序遍历，然后再翻转结果。高深的暂没有
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,4 +39,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

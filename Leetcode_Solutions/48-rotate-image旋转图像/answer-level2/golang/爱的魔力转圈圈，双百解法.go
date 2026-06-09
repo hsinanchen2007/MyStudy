@@ -1,4 +1,4 @@
-```
+// ```
 func rotate(matrix [][]int)  {
 	size := len(matrix)
 	subsize := size - 1
@@ -10,6 +10,6 @@ func rotate(matrix [][]int)  {
 		}
 	}
 }
-```
-![image.png](https://pic.leetcode-cn.com/9892e5c40250316695331cce7b128e0d444df82ecab730f55baa991a55cce763-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/9892e5c40250316695331cce7b128e0d444df82ecab730f55baa991a55cce763-image.png)
 

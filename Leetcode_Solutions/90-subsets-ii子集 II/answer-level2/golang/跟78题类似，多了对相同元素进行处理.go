@@ -1,10 +1,10 @@
-### 解题思路
-1. 先对代码进行排序，使相同的元素相邻
-2. 对相同元素进行统一处理，先得到相同元素的个数count，分别添加1, ..., count个相同元素到当时集合中
+// ### 解题思路
+// 1. 先对代码进行排序，使相同的元素相邻
+// 2. 对相同元素进行统一处理，先得到相同元素的个数count，分别添加1, ..., count个相同元素到当时集合中
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func subsetsWithDup(nums []int) [][]int {
 	sort.Ints(nums)
 	var ans = make([][]int, 0)
@@ -38,4 +38,4 @@ func subsetsWithDup(nums []int) [][]int {
 	}
 	return ans
 }
-```
+// ```

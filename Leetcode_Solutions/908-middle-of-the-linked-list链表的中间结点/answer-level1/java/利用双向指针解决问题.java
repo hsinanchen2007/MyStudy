@@ -1,9 +1,9 @@
-### 解题思路
-使用2个指针，first 和 second 第一个指针每次走一步，第二个指针每次走2步；
+// ### 解题思路
+// 使用2个指针，first 和 second 第一个指针每次走一步，第二个指针每次走2步；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return pre;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
         if (amount < 1 || coins == null || coins.length == 0) return 0;
@@ -77,4 +77,4 @@ class Solution {
     // 0*6 -> 1*4 -> 3*2（无法凑）, ans = MAX
     // 0*6 -> 0*4 -> 5*2（无法凑）, ans = MAX
 }
-```
+// ```

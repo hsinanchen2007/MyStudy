@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/f1e4049dcd889113b3d03f2d6359595848671302d6881dd7fd4e898786c0fe1e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f1e4049dcd889113b3d03f2d6359595848671302d6881dd7fd4e898786c0fe1e-image.png)
 
-把链表的尾部和头部连一起，方便查找
-然后根据位置的关系找出来新的尾部，新的尾部的下一个就是新的头部
-```
+// 把链表的尾部和头部连一起，方便查找
+// 然后根据位置的关系找出来新的尾部，新的尾部的下一个就是新的头部
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ public:
 
     }
 };
-```
+// ```

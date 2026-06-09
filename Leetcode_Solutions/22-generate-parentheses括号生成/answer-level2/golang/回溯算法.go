@@ -1,10 +1,10 @@
-### 解题思路
-  * 回溯法模板套用，确定终止条件，剪枝条件
-  * 使用new来创建res变量，来存储所有字符结果
+// ### 解题思路
+//   * 回溯法模板套用，确定终止条件，剪枝条件
+//   * 使用new来创建res变量，来存储所有字符结果
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func generateParenthesis(n int) []string {
   res := new([]string)
@@ -44,4 +44,4 @@ func isValid(trace []byte,n int)bool{
   }
   return true
 }
-```
+// ```

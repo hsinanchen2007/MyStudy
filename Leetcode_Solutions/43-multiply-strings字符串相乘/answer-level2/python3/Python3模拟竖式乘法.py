@@ -1,9 +1,9 @@
-### 解题思路
-Python3模拟竖式乘法逐步实现,O(n^2),耗时较长
+# ### 解题思路
+# Python3模拟竖式乘法逐步实现,O(n^2),耗时较长
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         la = len(num1)-1  
@@ -28,4 +28,4 @@ class Solution:
         for i in res:
             s = s + i
         return str(s)
-```
+# ```

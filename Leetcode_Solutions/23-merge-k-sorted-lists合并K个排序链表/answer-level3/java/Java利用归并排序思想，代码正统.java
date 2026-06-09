@@ -1,4 +1,4 @@
-    ```
+//     ```
     public  ListNode mergeList(List<ListNode> list,int start,int end){
         if(start==end){
             return list.get(start);
@@ -30,4 +30,4 @@
         }
         return dummy.next;
     }
-```
+// ```

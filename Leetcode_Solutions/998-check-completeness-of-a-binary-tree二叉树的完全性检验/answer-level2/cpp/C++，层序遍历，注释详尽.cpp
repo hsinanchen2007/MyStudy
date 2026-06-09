@@ -1,5 +1,5 @@
-直接看注释吧
-```
+// 直接看注释吧
+// ```
     bool isCompleteTree(TreeNode* root) {
         queue<TreeNode*> q;
         q.push(root);       // 首先根节点入队
@@ -23,4 +23,4 @@
         }
         return true;
     }
-```
+// ```

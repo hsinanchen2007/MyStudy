@@ -1,9 +1,9 @@
-### 解题思路
-字符串数字相乘
+// ### 解题思路
+// 字符串数字相乘
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string Multiply(string num1, string num2)
     {
@@ -88,4 +88,4 @@ public class Solution {
         return new string(resultStack.Reverse<char>().ToArray());
     }
 }
-```
+// ```

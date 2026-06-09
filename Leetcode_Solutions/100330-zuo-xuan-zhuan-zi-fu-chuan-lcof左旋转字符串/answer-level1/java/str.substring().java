@@ -1,8 +1,8 @@
-### 解题思路
-substring()
-### 代码
+// ### 解题思路
+// substring()
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseLeftWords(String s, int n) {
         String str = s.substring(n);
@@ -11,4 +11,4 @@ class Solution {
 
     }
 }
-```
+// ```

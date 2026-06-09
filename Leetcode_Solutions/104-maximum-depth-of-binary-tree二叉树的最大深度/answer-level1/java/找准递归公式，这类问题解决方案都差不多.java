@@ -1,8 +1,8 @@
-抽象问题：父节点层数 = 最大子节点层数 + 1;
+// 抽象问题：父节点层数 = 最大子节点层数 + 1;
 
-f(n) = max(f(n.left),f(n.right)) + 1;
+// f(n) = max(f(n.left),f(n.right)) + 1;
 
-```
+// ```
 public int maxDepth(TreeNode root) {
        if (root == null){
            return 0;
@@ -16,4 +16,4 @@ public int maxDepth(TreeNode root) {
         }
         return b;
     }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-DFS
-### 代码
+// ### 解题思路
+// DFS
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func eventualSafeNodes(_ graph: [[Int]]) -> [Int] {
         // 0: 默认
@@ -38,4 +38,4 @@ class Solution {
         return states[cur]
     }
 }
-```
+// ```

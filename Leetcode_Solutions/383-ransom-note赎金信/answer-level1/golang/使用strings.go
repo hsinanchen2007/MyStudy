@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canConstruct(ransomNote string, magazine string) bool {
 	counts := make(map[byte]int)
 	lenNote := len(ransomNote)
@@ -17,4 +17,4 @@ func canConstruct(ransomNote string, magazine string) bool {
 	}
 	return true
 }
-```
+// ```

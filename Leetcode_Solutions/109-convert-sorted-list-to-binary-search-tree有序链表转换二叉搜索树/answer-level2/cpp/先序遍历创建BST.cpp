@@ -1,5 +1,5 @@
-首先遍历一遍计算链表长度。
-```
+// 首先遍历一遍计算链表长度。
+// ```
 class Solution {
     TreeNode *preorder(ListNode *head, int len){
         if(head==NULL || len==0) return NULL;
@@ -17,4 +17,4 @@ public:
         return preorder(head, len);
     }
 };
-```
+// ```

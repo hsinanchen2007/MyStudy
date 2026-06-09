@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 
     /**
@@ -21,4 +21,4 @@ class Solution {
         if($root->right != null) $this->dfs($root->right,$cursum*10+$root->right->val);
     }
 }
-```
+// ```

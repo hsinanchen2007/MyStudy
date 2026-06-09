@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int strToInt(string str) {
@@ -25,4 +25,4 @@ public:
         return sign? res:-res;
     }
 };
-```
+// ```

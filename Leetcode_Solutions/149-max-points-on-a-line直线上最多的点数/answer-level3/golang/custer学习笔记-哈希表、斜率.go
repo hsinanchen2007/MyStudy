@@ -1,8 +1,8 @@
-参考leetcode447题解的思路：
+// 参考leetcode447题解的思路：
 
-[https://leetcode-cn.com/problems/number-of-boomerangs/solution/custerxue-xi-bi-ji-cha-zhao-biao-by-custergo/](https://leetcode-cn.com/problems/number-of-boomerangs/solution/custerxue-xi-bi-ji-cha-zhao-biao-by-custergo/)
+// [https://leetcode-cn.com/problems/number-of-boomerangs/solution/custerxue-xi-bi-ji-cha-zhao-biao-by-custergo/](https://leetcode-cn.com/problems/number-of-boomerangs/solution/custerxue-xi-bi-ji-cha-zhao-biao-by-custergo/)
 
-```go
+// ```go
 package leetcode
 
 import (
@@ -84,4 +84,4 @@ func max(a, b int) int {
    }
    return b
 }
-```
+// ```

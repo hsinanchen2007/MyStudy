@@ -1,6 +1,6 @@
-# 代码供参考
-**暴力法**
-```
+// # 代码供参考
+// **暴力法**
+// ```
 #define MAXSIZE 50000
 int* dailyTemperatures(int* T, int TSize, int* returnSize){
     
@@ -31,9 +31,9 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
     * returnSize=TSize;
     return ans;
 }
-```
-**单调栈**
-```
+// ```
+// **单调栈**
+// ```
 #define MAXSIZE 50000
 int* dailyTemperatures(int* T, int TSize, int* returnSize){    
     
@@ -57,4 +57,4 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
     * returnSize=TSize;
     return ans;
 }
-```
+// ```

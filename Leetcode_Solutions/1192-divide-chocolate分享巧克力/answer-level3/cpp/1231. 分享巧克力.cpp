@@ -1,9 +1,9 @@
-### 解题思路
-二分法去尝试可能的最大甜度值。详情见代码注释
+// ### 解题思路
+// 二分法去尝试可能的最大甜度值。详情见代码注释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximizeSweetness(vector<int>& sweetness, int K) {
@@ -58,4 +58,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-把*和++分开写
+// ### 解题思路
+// 把*和++分开写
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* replaceSpace(char* s){
 
     int spaceNum=0,num=0;
@@ -39,4 +39,4 @@ char* replaceSpace(char* s){
     *newIter=*iter;
     return newS;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-采用暴力方法，在超出时间限制与通过中摇摆
+# 采用暴力方法，在超出时间限制与通过中摇摆
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         tem2 = len(nums)
@@ -25,4 +25,4 @@ class Solution:
 
             
 
-```
+# ```

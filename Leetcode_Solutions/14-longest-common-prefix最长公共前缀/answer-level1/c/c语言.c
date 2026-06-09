@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-注意两点：
-1、字符串最后是以‘\0’结尾；
-2、需考虑到strsSize等于0或1的情况；
+// ### 解题思路
+// 此处撰写解题思路
+// 注意两点：
+// 1、字符串最后是以‘\0’结尾；
+// 2、需考虑到strsSize等于0或1的情况；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * longestCommonPrefix(char ** strs, int strsSize){
     if(!strsSize)
     {
@@ -68,4 +68,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
 	
 	return results;
 }
-```
+// ```

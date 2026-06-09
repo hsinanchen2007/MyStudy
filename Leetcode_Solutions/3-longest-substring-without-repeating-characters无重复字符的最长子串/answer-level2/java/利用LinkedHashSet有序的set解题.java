@@ -1,13 +1,13 @@
-### 解题思路
-主要的思路是利用的set的LinkedHashSet 是有序的;
-1)当碰到重复的字符时，保留之前没有遇到重复字符的maxCount
-2)当第二次遇到重复字符时，判断本次set.size() 是否大于上次的maxCount
-  maxCount = maxCount > set.size()?maxCount:set.size();
-3)再返回时比较最后一次的set.size()与maxCount的大小;
+// ### 解题思路
+// 主要的思路是利用的set的LinkedHashSet 是有序的;
+// 1)当碰到重复的字符时，保留之前没有遇到重复字符的maxCount
+// 2)当第二次遇到重复字符时，判断本次set.size() 是否大于上次的maxCount
+//   maxCount = maxCount > set.size()?maxCount:set.size();
+// 3)再返回时比较最后一次的set.size()与maxCount的大小;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
             //创建一个有序set;
@@ -31,4 +31,4 @@ class Solution {
             return maxCount > set.size()?maxCount:set.size();
         }
 }
-```
+// ```

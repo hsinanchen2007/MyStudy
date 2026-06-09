@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/5db9c55b9611a8365930ee2797eec58e21468cb08dd885979cd70ccaf1ce3b69-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5db9c55b9611a8365930ee2797eec58e21468cb08dd885979cd70ccaf1ce3b69-image.png)
 
 
-```
+// ```
 
 // 仿层序遍历，使用队列，层数level为奇数时，该层结果列表反转。
 public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
@@ -44,4 +44,4 @@ public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
     }
     return res;
 }
-```
+// ```

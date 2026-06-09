@@ -1,5 +1,5 @@
-`辅助栈m用来存放某个阶段内出现的最小元素，栈顶元素表示到当前为止出现的最小元素`
-```
+// `辅助栈m用来存放某个阶段内出现的最小元素，栈顶元素表示到当前为止出现的最小元素`
+// ```
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -31,4 +31,4 @@ public:
 private:
     stack<int> s, m;
 };
-```
+// ```

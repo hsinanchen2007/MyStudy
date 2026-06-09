@@ -1,9 +1,9 @@
-### 解题思路
-分开判断
+// ### 解题思路
+// 分开判断
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -24,4 +24,4 @@ var search = function(nums, target) {
     }
     return binarySearch(nums, 0, nums.length - 1, target)
 };
-```
+// ```

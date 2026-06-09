@@ -1,5 +1,5 @@
-和官方思路一样，求最大公约数。
-```
+// 和官方思路一样，求最大公约数。
+// ```
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -16,4 +16,4 @@ public:
         else return false;
     }
 };
-```
+// ```

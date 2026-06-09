@@ -1,11 +1,11 @@
 
-看到整数序列之后原来的思路是想通过List来模拟队列实现，后来发现初始计数比较困难就改用计数和索引实现。
+// 看到整数序列之后原来的思路是想通过List来模拟队列实现，后来发现初始计数比较困难就改用计数和索引实现。
 
-![1573112275(1).jpg](https://pic.leetcode-cn.com/f6dccd46106bc40a0d670c9e9e16cff124c3a74ec3abfd8bc5589cbab024ee87-1573112275\(1\).jpg)
+// ![1573112275(1).jpg](https://pic.leetcode-cn.com/f6dccd46106bc40a0d670c9e9e16cff124c3a74ec3abfd8bc5589cbab024ee87-1573112275\(1\).jpg)
 
-代码与思路如下：
+// 代码与思路如下：
 
-```
+// ```
 public String countAndSay(int n) {
        //初始为1
        String init = "1";
@@ -42,4 +42,4 @@ public String countAndSay(int n) {
         }
         return sb.toString();
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-主要是搞清楚左右节点和根节点是否相等即可。然后递归求解即可。
+// ### 解题思路
+// 主要是搞清楚左右节点和根节点是否相等即可。然后递归求解即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,4 +39,4 @@ public int maxLenght(TreeNode root){
     return Math.max(leftLength,rightLength);//每次递归结束后，返回左右子树中最长的同值路径。
 }
 }
-```
+// ```

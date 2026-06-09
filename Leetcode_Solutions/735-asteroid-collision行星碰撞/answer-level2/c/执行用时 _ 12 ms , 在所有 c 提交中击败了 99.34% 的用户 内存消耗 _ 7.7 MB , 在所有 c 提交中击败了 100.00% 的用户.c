@@ -1,4 +1,4 @@
-```
+// ```
 int* asteroidCollision(int* asteroids, int asteroidsSize, int* returnSize){
     if (asteroidsSize == 0) {
         *returnSize = 0;
@@ -34,4 +34,4 @@ int* asteroidCollision(int* asteroids, int asteroidsSize, int* returnSize){
     return res;
 }
 
-```
+// ```

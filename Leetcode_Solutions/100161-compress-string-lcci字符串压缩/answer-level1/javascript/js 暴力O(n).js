@@ -1,4 +1,4 @@
-```js
+// ```js
 var compressString = function(S) {
 	let res = '';
     let j;
@@ -12,4 +12,4 @@ var compressString = function(S) {
 	}
 	return res.length < len ? res : S;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-[借鉴](https://leetcode-cn.com/problems/max-area-of-island/solution/dao-yu-de-zui-da-mian-ji-jian-dan-de-di-gui-tu-jie/)
+// ### 解题思路
+// [借鉴](https://leetcode-cn.com/problems/max-area-of-island/solution/dao-yu-de-zui-da-mian-ji-jian-dan-de-di-gui-tu-jie/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int getArea( vector<vector<int>>& grid, int i, int j, int rows, int cols ) {
@@ -30,4 +30,4 @@ public:
         return maxArea;
     }
 };
-```
+// ```

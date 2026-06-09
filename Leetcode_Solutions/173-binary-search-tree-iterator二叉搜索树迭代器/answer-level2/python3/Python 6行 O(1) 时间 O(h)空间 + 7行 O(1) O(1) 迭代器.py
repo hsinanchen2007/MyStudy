@@ -1,4 +1,4 @@
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -31,12 +31,12 @@ class BSTIterator:
 # obj = BSTIterator(root)
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
-```
-- 模拟中序遍历的迭代过程，使用堆栈 `self.s` 进行深度优先搜索
-- 空间复杂度为 O(树的高度)
-- 平均时间复杂度 = 循环总次数（N） / 迭代器长度（N） = O(1)
+# ```
+# - 模拟中序遍历的迭代过程，使用堆栈 `self.s` 进行深度优先搜索
+# - 空间复杂度为 O(树的高度)
+# - 平均时间复杂度 = 循环总次数（N） / 迭代器长度（N） = O(1)
 
-```python
+# ```python
 from itertools import chain
 
 class BSTIterator:
@@ -58,5 +58,5 @@ class BSTIterator:
         @return whether we have a next smallest number
         """
         return bool(self.len)
-```
-- 平均时空复杂度： O(1)，O(1)
+# ```
+# - 平均时空复杂度： O(1)，O(1)

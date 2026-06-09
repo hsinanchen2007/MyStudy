@@ -1,9 +1,9 @@
-### 解题思路
-模拟现实分配的过程，具体见注释
+// ### 解题思路
+// 模拟现实分配的过程，具体见注释
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] DistributeCandies(int candies, int num_people) {
         if(num_people<=1) return new int[candies];
@@ -44,4 +44,4 @@ public class Solution {
         return p;
     }
 }
-```
+// ```

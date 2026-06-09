@@ -1,5 +1,5 @@
-用的马拉车算法，累加每个位置可能参数的回文子串个数
-```
+// 用的马拉车算法，累加每个位置可能参数的回文子串个数
+// ```
 class Solution {
 public:
     int countSubstrings(string s) {
@@ -23,7 +23,7 @@ public:
         return res;
     }
 };
-```
+// ```
 
 
-![image.png](https://pic.leetcode-cn.com/4493be673267ef014a3bb185160eb9a7b3940a4abeb17605a5954b9d79f176b2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4493be673267ef014a3bb185160eb9a7b3940a4abeb17605a5954b9d79f176b2-image.png)

@@ -1,5 +1,5 @@
-- 终止条件 二分法 nums[left]>left   nums[right]==right
-```
+# - 终止条件 二分法 nums[left]>left   nums[right]==right
+# ```
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         n = len(nums)
@@ -19,4 +19,4 @@ class Solution:
                 left = mid+1
             else:
                 right = mid
-```
+# ```

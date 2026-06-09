@@ -1,9 +1,9 @@
-### 解题思路
-52 ms, faster than 57.66% of Python3 
+# ### 解题思路
+# 52 ms, faster than 57.66% of Python3 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,10 +27,10 @@ class Solution:
 
 
 
-```
+# ```
 
-标准前序, 更快些28ms
-```
+# 标准前序, 更快些28ms
+# ```
 def kthSmallest(self, root: TreeNode, k: int) -> int:
         
         stack = []
@@ -44,4 +44,4 @@ def kthSmallest(self, root: TreeNode, k: int) -> int:
             if not k:
                 return root.val
             root = root.right
-```
+# ```

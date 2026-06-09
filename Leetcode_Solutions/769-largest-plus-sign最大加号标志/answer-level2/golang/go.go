@@ -1,4 +1,4 @@
-```
+// ```
 func orderOfLargestPlusSign(n int, mines [][]int) int {
 	t := make([][]int, n)
 	for i := 0; i < n; i++ {
@@ -60,4 +60,4 @@ func orderOfLargestPlusSign(n int, mines [][]int) int {
 	}
 	return out
 }
-```
+// ```

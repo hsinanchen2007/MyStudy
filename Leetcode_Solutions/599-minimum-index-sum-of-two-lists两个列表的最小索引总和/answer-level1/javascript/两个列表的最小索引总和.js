@@ -1,4 +1,4 @@
-```js
+// ```js
 var findRestaurant = function(list1, list2) {
     let map = new Map();
     let res = [];
@@ -15,5 +15,5 @@ var findRestaurant = function(list1, list2) {
     }
     return res
 };
-```
+// ```
 

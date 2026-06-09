@@ -1,9 +1,9 @@
-### 解题思路
-保持大小顶堆的平衡，大小差不超过1
+// ### 解题思路
+// 保持大小顶堆的平衡，大小差不超过1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MedianFinder {
 public:
     MedianFinder() {}
@@ -49,4 +49,4 @@ private:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
-```
+// ```

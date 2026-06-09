@@ -1,10 +1,10 @@
-### 解题思路
-1、递归
-递归相当简单.
+// ### 解题思路
+// 1、递归
+// 递归相当简单.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -22,14 +22,14 @@ class Solution {
         return Math.max(maxDepth(root.left)+1, maxDepth(root.right)+1);
     }
 }
-```
+// ```
 
-2、迭代
-使用队列，返回最后迭代的深度
+// 2、迭代
+// 使用队列，返回最后迭代的深度
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -64,4 +64,4 @@ class Solution {
         return depth;
     }
 }
-```
+// ```

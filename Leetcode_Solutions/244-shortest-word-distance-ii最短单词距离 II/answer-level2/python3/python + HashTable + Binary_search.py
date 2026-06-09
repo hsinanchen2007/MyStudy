@@ -1,4 +1,4 @@
-```python
+# ```python
 import bisect
 class WordDistance:
     def __init__(self, words: List[str]):
@@ -21,4 +21,4 @@ class WordDistance:
 # Your WordDistance object will be instantiated and called as such:
 # obj = WordDistance(words)
 # param_1 = obj.shortest(word1,word2)
-```
+# ```

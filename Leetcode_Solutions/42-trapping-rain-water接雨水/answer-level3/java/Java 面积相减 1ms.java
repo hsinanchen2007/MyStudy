@@ -1,9 +1,9 @@
-### 解题思路
-Java双指针
-总面积 = 柱子面积 + 雨水面积
-### 代码
+// ### 解题思路
+// Java双指针
+// 总面积 = 柱子面积 + 雨水面积
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
         int c = 0,len = height.length, l = 0, r = len - 1, sum = 0, last = 0;
@@ -38,4 +38,4 @@ class Solution {
         return sum - c;
     }
 }
-```
+// ```

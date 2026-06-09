@@ -1,8 +1,8 @@
-### 解题思路
-从中间分开，一边一定有序，这个思路，去判断target在中间的哪一边
-### 代码
+# ### 解题思路
+# 从中间分开，一边一定有序，这个思路，去判断target在中间的哪一边
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         L = 0
@@ -34,4 +34,4 @@ class Solution:
 
         
 
-```
+# ```

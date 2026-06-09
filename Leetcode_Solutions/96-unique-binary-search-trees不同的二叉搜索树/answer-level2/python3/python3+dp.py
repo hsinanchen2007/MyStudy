@@ -1,9 +1,9 @@
-### 解题思路
-原来叫卡特兰数
+# ### 解题思路
+# 原来叫卡特兰数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numTrees(self, n: int) -> int:
         if n == 1:
@@ -15,4 +15,4 @@ class Solution:
                 res += dp[j-1] * dp[i - j]
             dp[i] = res
         return dp[-1]
-```
+# ```

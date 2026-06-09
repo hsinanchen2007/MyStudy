@@ -1,9 +1,9 @@
-### 解题思路
-1.利用C#先分组，然后在筛选组里面只有一个元素的
+// ### 解题思路
+// 1.利用C#先分组，然后在筛选组里面只有一个元素的
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int SingleNonDuplicate(int[] list) {
            if (list==null)
@@ -18,4 +18,4 @@ public class Solution {
             return num??0;
     }
 }
-```
+// ```

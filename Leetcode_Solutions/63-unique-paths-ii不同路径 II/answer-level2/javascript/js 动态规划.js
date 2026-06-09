@@ -1,21 +1,21 @@
-### 解题思路
-如果没有做过不同路径的初阶版本，先去做一下。
+// ### 解题思路
+// 如果没有做过不同路径的初阶版本，先去做一下。
 
-延续I的思路， 这里不同的就是，如果 arr[i][j] == 1, 也就是有石头了，直接dp[i][j] = 0.
-我这里没路，你还是从别处走吧。
-```
+// 延续I的思路， 这里不同的就是，如果 arr[i][j] == 1, 也就是有石头了，直接dp[i][j] = 0.
+// 我这里没路，你还是从别处走吧。
+// ```
     if(obstacleGrid[i][j] == 1){
             dp[i][j] = 0;
             continue;
     }
-```
-也就是说，他的下面的那一块，只能从右边那条路到达，他的右边的那一块，只能从上面那条路到达。
-![dp.png](https://pic.leetcode-cn.com/e8909aa4840d34f7e08d51f3e68e5aa32eaae015c5d8568d141746cf555e1948-dp.png)
+// ```
+// 也就是说，他的下面的那一块，只能从右边那条路到达，他的右边的那一块，只能从上面那条路到达。
+// ![dp.png](https://pic.leetcode-cn.com/e8909aa4840d34f7e08d51f3e68e5aa32eaae015c5d8568d141746cf555e1948-dp.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} obstacleGrid
  * @return {number}
@@ -56,4 +56,4 @@ var uniquePathsWithObstacles = function(obstacleGrid) {
     }
     return dp[xlen-1][ylen-1];
 };
-```
+// ```

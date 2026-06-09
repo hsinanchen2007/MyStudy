@@ -1,9 +1,9 @@
-### 解题思路
-思路很容易想到，利用广度优先搜索，但记得要维护一个已访问节点的坐标的集合
+// ### 解题思路
+// 思路很容易想到，利用广度优先搜索，但记得要维护一个已访问节点的坐标的集合
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxAreaOfIsland(int[][] grid) {
         int res = 0;
@@ -44,4 +44,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type Node struct {
 	X int
 	Y int
@@ -81,4 +81,4 @@ func abs(a int) int {
 		return -a
 	}
 }
-```
+// ```

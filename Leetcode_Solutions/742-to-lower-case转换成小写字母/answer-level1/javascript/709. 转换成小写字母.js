@@ -1,9 +1,9 @@
-### 解题思路
-A-Z编码为65-90, a编码为97
+// ### 解题思路
+// A-Z编码为65-90, a编码为97
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {string}
@@ -19,4 +19,4 @@ var toLowerCase = function(str) {
     }
     return result
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-深搜
+// ### 解题思路
+// 深搜
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -28,4 +28,4 @@ public:
     }
 
 };
-```
+// ```

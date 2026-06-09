@@ -1,9 +1,9 @@
-### 解题思路
-最大堆
+// ### 解题思路
+// 最大堆
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lastStoneWeight(stones []int) int {
 	maxHeap := &IntMaxHeap{}
 	for _, s := range stones {
@@ -47,4 +47,4 @@ func (pq *IntMaxHeap) Pop() interface{} {
 func (pq *IntMaxHeap) Peek() int {
 	return (*pq)[0]
 }
-```
+// ```

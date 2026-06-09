@@ -1,9 +1,9 @@
-### 解题思路
-这题类似1221分割平衡字符串的做法
+// ### 解题思路
+// 这题类似1221分割平衡字符串的做法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string removeOuterParentheses(string s) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

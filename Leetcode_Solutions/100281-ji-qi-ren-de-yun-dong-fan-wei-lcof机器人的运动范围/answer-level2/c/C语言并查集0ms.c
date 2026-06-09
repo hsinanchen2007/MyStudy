@@ -1,4 +1,4 @@
-```
+// ```
 #include <stdbool.h>
 
 static inline bool can_walk(int row, int col, int k);
@@ -66,4 +66,4 @@ static inline void union_join(int set[], int a, int b)
         return;
     set[a_root] = b_root;
 }
-```
+// ```

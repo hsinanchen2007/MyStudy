@@ -1,9 +1,9 @@
-### 解题思路
-动态规划的记忆机制
+# ### 解题思路
+# 动态规划的记忆机制
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums) -> int:
         # 这显然是个贪心算法，动态规划的求解问题 约等于最长路径？
@@ -38,4 +38,4 @@ class Solution:
                 self.memory[i] = max_val
             # print(max_val)
             return max_val
-```
+# ```

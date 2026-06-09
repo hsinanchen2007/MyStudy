@@ -1,9 +1,9 @@
-### 解题思路
-递归生成左右子树
+# ### 解题思路
+# 递归生成左右子树
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
             return []
         return self.generate(1, n)
             
-```
+# ```

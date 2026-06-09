@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
     /**
      * 对上一期组合总和代码稍加修改即可
      * @param candidates
@@ -23,4 +23,4 @@
         dfs(0,0,target);
         return [...new Set(res)].map(item=>JSON.parse(item));
     };
-```
+// ```

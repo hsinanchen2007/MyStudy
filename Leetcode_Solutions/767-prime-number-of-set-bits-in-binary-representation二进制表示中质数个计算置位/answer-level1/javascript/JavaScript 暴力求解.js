@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/3eec9d52cd83e5763de95f760ad24b6f18fbf16f429c3e52a70b25c4a73e7b05-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/3eec9d52cd83e5763de95f760ad24b6f18fbf16f429c3e52a70b25c4a73e7b05-image.png)
 
-- 如图
+// - 如图
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} L
  * @param {number} R
@@ -31,4 +31,4 @@ var countPrimeSetBits = function(L, R) {
     }
     return sum
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-为了过关先用链表堆栈实现了，因为还没用过c里面的队列，也不知道怎么用队列实现T T
+// ### 解题思路
+// 为了过关先用链表堆栈实现了，因为还没用过c里面的队列，也不知道怎么用队列实现T T
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct STACK_NODE{
     int value;
     struct STACK_NODE *next;
@@ -71,4 +71,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

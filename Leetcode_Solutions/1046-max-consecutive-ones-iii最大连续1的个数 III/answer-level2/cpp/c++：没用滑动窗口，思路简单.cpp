@@ -1,9 +1,9 @@
-### 解题思路
-在A数组的首尾两端添加0，用index数组存储A数组中0的索引值，index[0] = -1,index[index.size() - 1] = A.size();  
-第(i + K)个零的索引值-第i个零的索引值-1，比较取最大值为结果。
-### 代码
+// ### 解题思路
+// 在A数组的首尾两端添加0，用index数组存储A数组中0的索引值，index[0] = -1,index[index.size() - 1] = A.size();  
+// 第(i + K)个零的索引值-第i个零的索引值-1，比较取最大值为结果。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestOnes(vector<int>& A, int K) {
@@ -28,4 +28,4 @@ public:
         return maxLen;
     }
 };
-```
+// ```

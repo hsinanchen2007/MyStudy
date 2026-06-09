@@ -1,11 +1,11 @@
-### 解题思路
-从左下角开始
-目标元素>左下角 右移
-目标元素<左下角 上移
+// ### 解题思路
+// 从左下角开始
+// 目标元素>左下角 右移
+// 目标元素<左下角 上移
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int m = matrix.length;
@@ -71,4 +71,4 @@ class Solution {
     }
     */
 }
-```
+// ```

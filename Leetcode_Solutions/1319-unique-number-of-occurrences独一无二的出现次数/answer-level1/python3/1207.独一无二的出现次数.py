@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniqueOccurrences(self, arr: List[int]) -> bool:
         dico = collections.Counter(arr)
@@ -10,4 +10,4 @@ class Solution:
         co = collections.Counter(dicov)
         cov = [j for j in co.values()]
         return True if set(cov) == {1} else False
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-LCOF
+// ### 解题思路
+// LCOF
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lastRemaining(int n, int m) {
@@ -15,4 +15,4 @@ public:
 
     }
 };
-```
+// ```

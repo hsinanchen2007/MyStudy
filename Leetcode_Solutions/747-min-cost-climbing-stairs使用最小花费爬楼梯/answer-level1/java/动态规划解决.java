@@ -1,14 +1,14 @@
-### 解题思路
-/*
-到达某个点有两种方式，一种是经过这个点，另一种是跳过这个点；
-使用动态规划，建造两个dp数组分别存储上述两个状态的最小花费：dp0，dp1；
-那么就可以得到递推关系式：dp0[i]=dp1[i-1];dp1[i]=min(dp1[i-1],dp0[i-1])+cost[i].
-最后输出min(dp0[n-1],dp1[n-1])
-*/
+// ### 解题思路
+// /*
+// 到达某个点有两种方式，一种是经过这个点，另一种是跳过这个点；
+// 使用动态规划，建造两个dp数组分别存储上述两个状态的最小花费：dp0，dp1；
+// 那么就可以得到递推关系式：dp0[i]=dp1[i-1];dp1[i]=min(dp1[i-1],dp0[i-1])+cost[i].
+// 最后输出min(dp0[n-1],dp1[n-1])
+// */
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minCostClimbingStairs(int[] cost) {
         int n = cost.length;
@@ -23,4 +23,4 @@ class Solution {
         return Math.min(dp0[n-1],dp1[n-1]);
     }
 }
-```
+// ```

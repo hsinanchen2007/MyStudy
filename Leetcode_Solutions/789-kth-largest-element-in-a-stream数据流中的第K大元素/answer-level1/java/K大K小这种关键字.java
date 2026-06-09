@@ -1,9 +1,9 @@
-### 解题思路
-固有套路
+// ### 解题思路
+// 固有套路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class KthLargest {
 
     PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
@@ -42,4 +42,4 @@ class KthLargest {
  * KthLargest obj = new KthLargest(k, nums);
  * int param_1 = obj.add(val);
  */
-```
+// ```

@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/0436009bf121ab425677a9d4faf4ae39a8279dd1a972cbb682f2618f71bea79f-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/0436009bf121ab425677a9d4faf4ae39a8279dd1a972cbb682f2618f71bea79f-image.png)
+// ```
 // 获取最短单词距离：首先获取距离最近的两个单词，随后计算二者距离
 // 哈希表：字典功能、无重复：word -> ArrayList<Integer>()
 // 遍历数组并储存在HashMap<word, indexes>
@@ -35,4 +35,4 @@ class WordDistance {
  * WordDistance obj = new WordDistance(words);
  * int param_1 = obj.shortest(word1,word2);
  */
-```
+// ```

@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/de9ba4f8f58ddac30b579481dd52da596dd3997a9272d1e0df96ececd75595d2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/de9ba4f8f58ddac30b579481dd52da596dd3997a9272d1e0df96ececd75595d2-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   DFS，访问过的点标记为 0，就不再访问了
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -105,4 +105,4 @@ var maxAreaOfIsland = function(grid) {
   
   return max;
 };
-```
+// ```

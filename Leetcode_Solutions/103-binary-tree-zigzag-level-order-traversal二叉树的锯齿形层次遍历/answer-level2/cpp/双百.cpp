@@ -1,9 +1,9 @@
-### 解题思路
-只需要比常规层序遍历增加一个当前遍历层次即可，当times为奇数时，不需要翻转数组tem_res，
-偶数时，翻转数组tem_res即可
-### 代码
+// ### 解题思路
+// 只需要比常规层序遍历增加一个当前遍历层次即可，当times为奇数时，不需要翻转数组tem_res，
+// 偶数时，翻转数组tem_res即可
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ public:
         return res;
     }
 };
-```
+// ```

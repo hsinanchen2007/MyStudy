@@ -1,6 +1,6 @@
-### rust 替换
+// ### rust 替换
 
-```rust []
+// ```rust []
 impl Solution {
     pub fn replace_space(s: String) -> String {
         let mut ans = String::from("");
@@ -13,11 +13,11 @@ impl Solution {
         ans
     }
 }
-```
-```rust []
+// ```
+// ```rust []
 impl Solution {
     pub fn replace_space(s: String) -> String {
         s.replace(" ", "%20")
     }
 }
-```
+// ```

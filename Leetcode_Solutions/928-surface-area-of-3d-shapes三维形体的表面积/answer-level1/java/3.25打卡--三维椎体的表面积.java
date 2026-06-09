@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-比较简单的思路可以理解，先找多少个块，再找多少个重叠的面。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 比较简单的思路可以理解，先找多少个块，再找多少个重叠的面。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int surfaceArea(int[][] grid) {
         if(grid == null || grid.length == 0 || grid[0].length == 0){
@@ -26,4 +26,4 @@ class Solution {
         return block * 6 - cover * 2;
     }
 }
-```
+// ```

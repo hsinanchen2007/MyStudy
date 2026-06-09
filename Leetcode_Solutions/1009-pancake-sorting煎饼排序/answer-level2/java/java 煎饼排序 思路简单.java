@@ -1,10 +1,10 @@
-### 解题思路
-![1X6J196HHG4W@Z2MDXZ8~{S.png](https://pic.leetcode-cn.com/c5db3ac17944f58bebe798dc796227c06fc9731771c01fc8ebaedef7a873d2c5-1X6J196HHG4W@Z2MDXZ8~%7BS.png)
+// ### 解题思路
+// ![1X6J196HHG4W@Z2MDXZ8~{S.png](https://pic.leetcode-cn.com/c5db3ac17944f58bebe798dc796227c06fc9731771c01fc8ebaedef7a873d2c5-1X6J196HHG4W@Z2MDXZ8~%7BS.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> pancakeSort(int[] A) {
         int l=A.length;
@@ -48,4 +48,4 @@ class Solution {
 
     }
 }
-```
+// ```

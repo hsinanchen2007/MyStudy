@@ -1,6 +1,6 @@
-二分查找求解阈值，通过排序可以稍微优化求和的速度。
+// 二分查找求解阈值，通过排序可以稍微优化求和的速度。
 
-```
+// ```
 int findBestValue(vector<int>& arr, int target) {
 	// 排序后方便计算和
 	sort(arr.begin(), arr.end());
@@ -47,4 +47,4 @@ int findBestValue(vector<int>& arr, int target) {
 		return low;
 	}
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-递归(其实和迭代差不多)
+// ### 解题思路
+// 递归(其实和迭代差不多)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
         return root;
     }
 };
-```
+// ```

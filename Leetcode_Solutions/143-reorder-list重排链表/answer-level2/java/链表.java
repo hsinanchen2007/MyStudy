@@ -1,9 +1,9 @@
-### 解题思路
-用栈保存，然后依次弹栈来保存节点。
+// ### 解题思路
+// 用栈保存，然后依次弹栈来保存节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -49,4 +49,4 @@ class Solution {
         }
     }
 }
-```
+// ```

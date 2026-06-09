@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String frequencySort(String s) {
         // 1.找出每个字符和它出现的频率，放到Hashmap中
@@ -36,4 +36,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

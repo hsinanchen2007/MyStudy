@@ -1,8 +1,8 @@
-思路同  Q124. 二叉树中的最大路径和
-以任意一点为root，与其关联的点为子节点，求出所有子节点对应的路径的前两大值max1,max2，则该点对应的最长路径为max1+max2
-![image.png](https://pic.leetcode-cn.com/32a36001d6816edfe1e2875d1555792b959503f5802469ddce2e59813ab79fd9-image.png)
+// 思路同  Q124. 二叉树中的最大路径和
+// 以任意一点为root，与其关联的点为子节点，求出所有子节点对应的路径的前两大值max1,max2，则该点对应的最长路径为max1+max2
+// ![image.png](https://pic.leetcode-cn.com/32a36001d6816edfe1e2875d1555792b959503f5802469ddce2e59813ab79fd9-image.png)
 
-```
+// ```
 class Solution {
     int res = 0;
     public int treeDiameter(int[][] edges) {
@@ -42,6 +42,6 @@ class Solution {
         
     }
 }
-```
+// ```
 
 

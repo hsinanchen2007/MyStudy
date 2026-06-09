@@ -1,5 +1,5 @@
-使用visited数组记录访问过的位置
-```Java
+// 使用visited数组记录访问过的位置
+// ```Java
     public int movingCount(int m, int n, int k) {
         boolean[][] visited = new boolean[m][n];
         return dfs(k, m, n, 0, 0, visited);
@@ -24,5 +24,5 @@
         }
         return sum;
     }
-```
-这是我的[LeetCode分类题解](https://github.com/caipengbo/LeetCode)（每日更新, issue内有总结），和我一起每日刷题吧！
+// ```
+// 这是我的[LeetCode分类题解](https://github.com/caipengbo/LeetCode)（每日更新, issue内有总结），和我一起每日刷题吧！

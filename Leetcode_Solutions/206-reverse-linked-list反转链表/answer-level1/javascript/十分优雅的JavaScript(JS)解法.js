@@ -1,10 +1,10 @@
-### 解题思路
-JavaScript题解
+// ### 解题思路
+// JavaScript题解
 
-### 代码
-非递归版本
+// ### 代码
+// 非递归版本
 
-```javascript
+// ```javascript
 var reverseList = function (head) {
     let pre = new ListNode(0)
     while (head) {
@@ -13,10 +13,10 @@ var reverseList = function (head) {
     }
     return pre.next
 };
-```
-递归版本
+// ```
+// 递归版本
 
-```javascript
+// ```javascript
 var reverseList = function (head) {
     // 利用头结点result,合并head为空的情况
     let result = new ListNode(0);
@@ -30,4 +30,4 @@ var reverseList = function (head) {
     reverseNode(pre, head)
     return result.next
 };
-```
+// ```

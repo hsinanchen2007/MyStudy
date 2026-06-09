@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def binaryTreePaths(self, root: TreeNode) -> List[str]:
         

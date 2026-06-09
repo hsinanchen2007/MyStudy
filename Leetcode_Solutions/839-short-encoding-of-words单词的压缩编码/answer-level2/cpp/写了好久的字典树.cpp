@@ -1,6 +1,6 @@
-递归查找长度的地方写了很久
+// 递归查找长度的地方写了很久
 
-```
+// ```
 struct node{
     node *next[26];
     int cnt;
@@ -58,4 +58,4 @@ public:
         return ans;
     }
 };
-```
+// ```

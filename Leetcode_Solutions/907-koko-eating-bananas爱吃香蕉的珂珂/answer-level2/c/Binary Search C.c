@@ -1,10 +1,10 @@
 
-# 方法：二分查找
+// # 方法：二分查找
 
-## 注意：
-- sum的求解方式：`sum += (piles[i] + mid - 1) / mid`
+// ## 注意：
+// - sum的求解方式：`sum += (piles[i] + mid - 1) / mid`
 
-```c []
+// ```c []
 int minEatingSpeed(int* piles, int pilesSize, int H) {
     int low = 1;
     int high = 1000000001; // < INI_MAX: 2147483647

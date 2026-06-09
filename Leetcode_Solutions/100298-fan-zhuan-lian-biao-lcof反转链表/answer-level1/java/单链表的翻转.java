@@ -1,8 +1,8 @@
-### 解题思路
-链表的翻转就是要创建哨兵结点，同时也要注意指针的变换
-### 代码
+// ### 解题思路
+// 链表的翻转就是要创建哨兵结点，同时也要注意指针的变换
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return node;
     }
 }
-```
+// ```

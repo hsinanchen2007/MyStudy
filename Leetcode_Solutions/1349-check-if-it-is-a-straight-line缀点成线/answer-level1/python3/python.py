@@ -1,5 +1,5 @@
-很普通的解法，献丑了。
-```python
+# 很普通的解法，献丑了。
+# ```python
 class Solution(object):
     def checkStraightLine(self, coordinates):
         """
@@ -17,4 +17,4 @@ class Solution(object):
             if x1 ==x0 or (y1 - y0)/(x1 - x0) != k:
                 return False
         return True
-```
+# ```

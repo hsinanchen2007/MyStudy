@@ -1,4 +1,4 @@
-```Golang
+// ```Golang
 func hasCycle(head *ListNode) bool {
 	if head == nil  || head.Next == nil {
 		return false
@@ -21,4 +21,4 @@ func hasCycle(head *ListNode) bool {
 	}
 	return true
 }
-```
+// ```

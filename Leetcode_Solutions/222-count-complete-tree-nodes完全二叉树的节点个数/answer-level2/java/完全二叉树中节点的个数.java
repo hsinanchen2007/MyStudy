@@ -1,9 +1,9 @@
-### 解题思路
-    此题考查满二叉树和完全二叉树的性质，请认真掌握。
+// ### 解题思路
+//     此题考查满二叉树和完全二叉树的性质，请认真掌握。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         return 1+Math.max(getDepth(root.left),getDepth(root.right));
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-排序，固定，双指针类似2sum模式
+// ### 解题思路
+// 排序，固定，双指针类似2sum模式
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -28,4 +28,4 @@ public:
         return closest;
     }
 };
-```
+// ```

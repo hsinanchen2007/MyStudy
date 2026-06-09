@@ -1,6 +1,6 @@
-执行用时 : 116 ms, 在所有 csharp 提交中击败了96.01%的用户
-内存消耗 : 23.4 MB, 在所有 csharp 提交中击败了11.69%的用户
-```
+// 执行用时 : 116 ms, 在所有 csharp 提交中击败了96.01%的用户
+// 内存消耗 : 23.4 MB, 在所有 csharp 提交中击败了11.69%的用户
+// ```
 public class Solution {
     public string LongestCommonPrefix(string[] strs) {
         //1、判断数组是否为空
@@ -32,4 +32,4 @@ public class Solution {
         
     }
 }
-```
+// ```

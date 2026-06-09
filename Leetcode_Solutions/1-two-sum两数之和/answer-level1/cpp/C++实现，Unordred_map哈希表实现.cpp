@@ -1,4 +1,4 @@
-```
+// ```
 // 第一种：暴力法 O(n²)太差了
     vector<int> twoSum1(vector<int>& nums, int target) {
         
@@ -34,4 +34,4 @@
 
         return {-1, -1};
     }
-```
+// ```

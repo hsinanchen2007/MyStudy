@@ -1,11 +1,11 @@
-### 解题思路
-执行结果：通过显示详情 执行用时 :48 ms, 在所有 c 提交中击败了97.10%的用户
-内存消耗 :12.8 MB, 在所有 c 提交中击败了76.19%的用户
-（1）找出特殊情况，返回原有矩阵，注意空间开辟
-（2）按r/c的关系进行循环赋值即可，关键在于二级指针的应用及相应空间开辟
-### 代码
+// ### 解题思路
+// 执行结果：通过显示详情 执行用时 :48 ms, 在所有 c 提交中击败了97.10%的用户
+// 内存消耗 :12.8 MB, 在所有 c 提交中击败了76.19%的用户
+// （1）找出特殊情况，返回原有矩阵，注意空间开辟
+// （2）按r/c的关系进行循环赋值即可，关键在于二级指针的应用及相应空间开辟
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -51,4 +51,4 @@ int** matrixReshape(int** nums, int numsSize, int* numsColSize, int r, int c, in
     return pArr;
 
 }
-```
+// ```

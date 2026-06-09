@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/abe2b669e5d5a88713098dabd3b9b62a8466ee44092aadaf8ad16fefc75e9892-image.png)
+// ![image.png](https://pic.leetcode-cn.com/abe2b669e5d5a88713098dabd3b9b62a8466ee44092aadaf8ad16fefc75e9892-image.png)
 
-```
+// ```
     public boolean isPalindrome(ListNode head) {
         if(head == null || head.next == null) {
             return true;
@@ -26,4 +26,4 @@
         }
         return true;
     }
-```
+// ```

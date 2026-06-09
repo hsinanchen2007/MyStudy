@@ -1,4 +1,4 @@
-```go
+// ```go
 func invertTree(root *TreeNode) *TreeNode {
     if root == nil {
         return nil
@@ -25,4 +25,4 @@ func invertTree(root *TreeNode) *TreeNode {
     
     return newRoot
 }
-```
+// ```

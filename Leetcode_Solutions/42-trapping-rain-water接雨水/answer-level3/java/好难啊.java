@@ -1,9 +1,9 @@
-### 解题思路
-有点难
+// ### 解题思路
+// 有点难
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int trap(int[] height) {
         if (height == null) {
@@ -34,4 +34,4 @@ class Solution {
 //作者：sweetiee
 
 }
-```
+// ```

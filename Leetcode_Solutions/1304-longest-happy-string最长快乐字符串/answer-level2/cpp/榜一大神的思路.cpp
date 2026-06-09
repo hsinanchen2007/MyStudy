@@ -1,9 +1,9 @@
-### 解题思路
-用一个vector容器存abc对应的数量信息，采用贪心策略，每次都取最多的那个字母，如果等于两个，就ban掉，取次多的
+// ### 解题思路
+// 用一个vector容器存abc对应的数量信息，采用贪心策略，每次都取最多的那个字母，如果等于两个，就ban掉，取次多的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestDiverseString(int a, int b, int c) {
@@ -35,4 +35,4 @@ public:
         return x;
     }
 };
-```
+// ```

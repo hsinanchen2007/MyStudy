@@ -1,12 +1,12 @@
-### 解题思路
-1> 将木桩转换为hashMap,提高比较次数，便于判断是否撞墙;
-2> 逐一按照命令移动，判断是否撞墙
+// ### 解题思路
+// 1> 将木桩转换为hashMap,提高比较次数，便于判断是否撞墙;
+// 2> 逐一按照命令移动，判断是否撞墙
 
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public boolean robot(String command, int[][] obstacles, int x, int y) {
         Map<Integer, Set<Integer>> map = new HashMap<>();
@@ -55,4 +55,4 @@ class Solution {
         return obstacles.containsKey(x) && obstacles.get(x).contains(y);
     }
 }
-```
+// ```

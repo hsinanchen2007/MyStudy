@@ -1,5 +1,5 @@
-考点：1、hash的理解
-2、字符串函数的使用
+// 考点：1、hash的理解
+// 2、字符串函数的使用
 
 int uniqueMorseRepresentations(char ** words, int wordsSize){
     char table[26][5] = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---",

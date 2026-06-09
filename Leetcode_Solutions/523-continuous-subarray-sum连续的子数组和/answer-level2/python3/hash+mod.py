@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def checkSubarraySum(self, nums: list, k: int) -> bool:
         if nums == [] or nums.__len__()<=1:
@@ -28,4 +28,4 @@ class Solution:
             pre_set = tmp_set
 
         return False
-```
+# ```

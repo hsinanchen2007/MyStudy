@@ -1,8 +1,8 @@
-## 优先队列 priority_queue
-运行时间`28ms`
-非常容易想到的做法，把所有节点都压到优先队列中，然后依次选出，相当于堆排序
-时间复杂度 `O(nlog(n))` ,可以通过每次放k个元素优化为`O(n(log(k)))`
-```c++
+// ## 优先队列 priority_queue
+// 运行时间`28ms`
+// 非常容易想到的做法，把所有节点都压到优先队列中，然后依次选出，相当于堆排序
+// 时间复杂度 `O(nlog(n))` ,可以通过每次放k个元素优化为`O(n(log(k)))`
+// ```c++
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
@@ -28,12 +28,12 @@ public:
         return ans;
     }
 };
-```
-## 分治
-运行时间`16ms`
-相邻两个链表两两合并，从k个链表合并到 k / 2，k / 4 ....一直合并到1个
-时间复杂度`O(nlog(k))`
-```c++
+// ```
+// ## 分治
+// 运行时间`16ms`
+// 相邻两个链表两两合并，从k个链表合并到 k / 2，k / 4 ....一直合并到1个
+// 时间复杂度`O(nlog(k))`
+// ```c++
 class Solution {
 public:
     ListNode* merge2List(ListNode* l1, ListNode* l2)
@@ -80,4 +80,4 @@ public:
         return mergeKLists(newList);
     }
 };
-```
+// ```

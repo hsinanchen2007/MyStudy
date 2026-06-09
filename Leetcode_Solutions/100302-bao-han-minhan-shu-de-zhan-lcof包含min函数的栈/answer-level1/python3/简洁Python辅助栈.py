@@ -1,9 +1,9 @@
-### 解题思路
-数据栈与辅助栈同步
+# ### 解题思路
+# 数据栈与辅助栈同步
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MinStack:
 
     def __init__(self):
@@ -30,4 +30,4 @@ class MinStack:
     def min(self) -> int:
         return self.helper[-1]
 
-```
+# ```

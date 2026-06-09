@@ -1,9 +1,9 @@
-### 解题思路 
-运气成分，占多数
+// ### 解题思路 
+// 运气成分，占多数
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using System.Threading;
 public class FooBar {
     private int n;
@@ -30,4 +30,4 @@ public class FooBar {
         }
     }
 }
-```
+// ```

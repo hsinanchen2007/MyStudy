@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minCostII(self, costs: List[List[int]]) -> int:
         # n houses, can be painted with one of the k colors
@@ -20,4 +20,4 @@ class Solution:
                 if dp[j] != firVal: dp[j] = costs[i][j] + firVal
                 else: dp[j] = costs[i][j] +  secVal
         return min(dp)	
-```
+# ```

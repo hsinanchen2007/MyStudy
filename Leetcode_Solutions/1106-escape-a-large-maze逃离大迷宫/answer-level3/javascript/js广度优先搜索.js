@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[][]} blocked
  * @param {number[]} source
@@ -64,4 +64,4 @@ var isEscapePossible = function(blocked, source, target) {
   }
 };
 
-```
+// ```

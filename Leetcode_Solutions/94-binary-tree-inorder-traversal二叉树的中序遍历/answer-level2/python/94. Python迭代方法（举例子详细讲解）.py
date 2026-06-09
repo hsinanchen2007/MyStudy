@@ -1,7 +1,7 @@
-### 解题思路
-其实用迭代方法也就是变相地实现一下递归而已，那么递归是怎么实现的呢？用栈，所以迭代方法也是用栈。这里需要注意的是，要保存每个节点的状态，拿中序遍历来说就是**记录当前节点的左子树是否遍历过**，如果不记录该状态会造成死循环。
-以如下树为例：
-```
+# ### 解题思路
+# 其实用迭代方法也就是变相地实现一下递归而已，那么递归是怎么实现的呢？用栈，所以迭代方法也是用栈。这里需要注意的是，要保存每个节点的状态，拿中序遍历来说就是**记录当前节点的左子树是否遍历过**，如果不记录该状态会造成死循环。
+# 以如下树为例：
+# ```
     1
      \
       2
@@ -18,55 +18,55 @@
 
 ### 代码
 
-```python
-# Definition for a binary tree node.
-# class TreeNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.left = None
-#         self.right = None
+# ```python
+# # Definition for a binary tree node.
+# # class TreeNode(object):
+# #     def __init__(self, x):
+# #         self.val = x
+# #         self.left = None
+# #         self.right = None
 
-class Solution(object):
-    def inorderTraversal_2(self, root):
-        """ 递归方法
-        :type root: TreeNode
-        :rtype: List[int]
-        """
-        if root is None:
-            return []
+# class Solution(object):
+#     def inorderTraversal_2(self, root):
+#         """ 递归方法
+#         :type root: TreeNode
+#         :rtype: List[int]
+#         """
+#         if root is None:
+#             return []
         
-        def get_res(node):
-            if node is None:
-                return 
-            get_res(node.left)
-            res.append(node.val)
-            get_res(node.right)
-        res = []
-        get_res(root)
-        return res
+#         def get_res(node):
+#             if node is None:
+#                 return 
+#             get_res(node.left)
+#             res.append(node.val)
+#             get_res(node.right)
+#         res = []
+#         get_res(root)
+#         return res
     
-    def inorderTraversal(self, root):
-        """ 迭代方法
-        :type root: TreeNode
-        :rtype: List[int]
-        """
-        if root is None:
-            return []
-        stack = []
-        res = []
-        stack.append([root, 0])
-        while len(stack):
-            node = stack[-1][0]
-            flag = stack[-1][1]
-            if node.left and flag == 0:
-                # 只有左子树存在并且未访问过才应该访问左子树
-                stack[-1][1] = 1
-                stack.append([node.left, 0])
-            else:
-                res.append(node.val)
-                del stack[-1]
-                if node.right:
-                    stack.append([node.right, 0])
-                flag = 0
-        return res
-```
+#     def inorderTraversal(self, root):
+#         """ 迭代方法
+#         :type root: TreeNode
+#         :rtype: List[int]
+#         """
+#         if root is None:
+#             return []
+#         stack = []
+#         res = []
+#         stack.append([root, 0])
+#         while len(stack):
+#             node = stack[-1][0]
+#             flag = stack[-1][1]
+#             if node.left and flag == 0:
+#                 # 只有左子树存在并且未访问过才应该访问左子树
+#                 stack[-1][1] = 1
+#                 stack.append([node.left, 0])
+#             else:
+#                 res.append(node.val)
+#                 del stack[-1]
+#                 if node.right:
+#                     stack.append([node.right, 0])
+#                 flag = 0
+#         return res
+# ```

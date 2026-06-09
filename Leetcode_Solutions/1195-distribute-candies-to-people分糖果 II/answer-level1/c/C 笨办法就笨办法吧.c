@@ -1,4 +1,4 @@
-```
+// ```
 int* distributeCandies(int candies, int num_people, int* returnSize)
 {
     int *ret = malloc(sizeof(int) * num_people);
@@ -15,4 +15,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize)
 
     return ret;
 }
-```
+// ```

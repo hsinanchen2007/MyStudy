@@ -1,9 +1,9 @@
-### 解题思路
-node指针遍历所有节点，mid表示当前的中间节点。
+// ### 解题思路
+// node指针遍历所有节点，mid表示当前的中间节点。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -29,4 +29,4 @@ var middleNode = function(head) {
     }
     return mid;
 };
-```
+// ```

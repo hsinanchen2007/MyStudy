@@ -1,12 +1,12 @@
-### 解题思路
-1、BFS找到距离为K的朋友，注意：距离不为K的朋友包括自身都需要去掉
-2、朋友看过的视频入Hash
-3、Hash排序，先频率，再字符
-4、输出结果
+// ### 解题思路
+// 1、BFS找到距离为K的朋友，注意：距离不为K的朋友包括自身都需要去掉
+// 2、朋友看过的视频入Hash
+// 3、Hash排序，先频率，再字符
+// 4、输出结果
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXSIZE_QL1 10000
 #define MAXSIZE_VIDSTRLEN 100
 #define DEBUG 
@@ -193,4 +193,4 @@ char ** watchedVideosByFriends(
 
     return returnData;
 }
-```
+// ```

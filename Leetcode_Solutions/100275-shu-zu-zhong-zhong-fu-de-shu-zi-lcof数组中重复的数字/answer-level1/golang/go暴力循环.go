@@ -1,9 +1,9 @@
-### 解题思路
-无脑暴力循环，看看其他高手怎么弄的
+// ### 解题思路
+// 无脑暴力循环，看看其他高手怎么弄的
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findRepeatNumber(nums []int) int {
     var m = make(map[int]bool)
     for _, ns := range nums {
@@ -16,4 +16,4 @@ func findRepeatNumber(nums []int) int {
     }
     panic("未发现重复的数字")
 }
-```
+// ```

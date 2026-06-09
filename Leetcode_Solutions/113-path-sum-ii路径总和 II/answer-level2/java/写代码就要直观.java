@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/90f74bfc23d1776aa65371120ae9e8a60a4c91feacaf87fc22acd324c11350eb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/90f74bfc23d1776aa65371120ae9e8a60a4c91feacaf87fc22acd324c11350eb-image.png)
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,12 +39,12 @@ class Solution {
         
     }
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/ee12a83de79decfa86d3b70493bfbdc77788fc63ca20111400be83281add827b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ee12a83de79decfa86d3b70493bfbdc77788fc63ca20111400be83281add827b-image.png)
 
-性能优化  list比stack快 原因:stack加锁了
-```
+// 性能优化  list比stack快 原因:stack加锁了
+// ```
 class Solution {
     List<List<Integer>> res = new ArrayList<>();
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
@@ -71,4 +71,4 @@ class Solution {
         
     }
 }
-```
+// ```

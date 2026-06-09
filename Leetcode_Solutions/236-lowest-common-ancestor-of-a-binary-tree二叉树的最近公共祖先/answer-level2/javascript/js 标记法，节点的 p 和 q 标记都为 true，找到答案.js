@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/f0b43dcad4b34c49f33e991f6572ce2ee303188bd8c3d3262c21b3628c412328-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f0b43dcad4b34c49f33e991f6572ce2ee303188bd8c3d3262c21b3628c412328-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   参考官方题解
   后序遍历二叉树，给每个节点 + 一个额外的属性存储当前节点的子树下是否存在 p 和 q
   
@@ -9,11 +9,11 @@
   
   - 某个节点的子节点的 p 为 true，那么它的父节点的 p 为true，q 同理
   - 只要遇到第一个节点，它的 target 中的 p 和 q 都为 true ，那么即为最近公共祖先
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -61,4 +61,4 @@ var lowestCommonAncestor = function(root, p, q) {
   
   return ans;
 };
-```
+// ```

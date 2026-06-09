@@ -1,17 +1,17 @@
-**思路**
+// **思路**
 
-```
+// ```
 1. 获取树的高度--->构造[][]string
     1. 树高 = 数组row数
     2. 2^树高-1 = 数组row数
 2. 二分搜索递归
     1. 每次将root.val分装到数组当前行中间
     2. 左右递归树&数组下移一行
-```
+// ```
 
-**代码**
+// **代码**
 
-```
+// ```
 
 func getHeight(root *TreeNode) int {
 	if root == nil{
@@ -51,4 +51,4 @@ func printTree(root *TreeNode) [][]string {
 	helper(root,0,0,width-1)
 	return result
 }
-```
+// ```

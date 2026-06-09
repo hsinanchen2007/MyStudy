@@ -1,6 +1,6 @@
-第一种思路：
+// 第一种思路：
 
-```
+// ```
 public boolean carPooling(int[][] trips, int capacity) {
         int len = trips.length;
         int num[] = new int[1000];
@@ -19,11 +19,11 @@ public boolean carPooling(int[][] trips, int capacity) {
         }
         return true;
     }
-```
+// ```
 
-第二种思路：
+// 第二种思路：
 
-```
+// ```
 public boolean carPooling(int[][] trips, int capacity) {
         int len = trips.length;
         int num[] = new int[1000];
@@ -42,8 +42,8 @@ public boolean carPooling(int[][] trips, int capacity) {
         }
         return true;
     }
-```
+// ```
 
-created 2019-9-3 20:13:26
+// created 2019-9-3 20:13:26
 
-v4.2 准入测试=
+// v4.2 准入测试=

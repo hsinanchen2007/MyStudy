@@ -1,12 +1,12 @@
-### 解题思路
-模拟竖式乘法，注释详尽，思路参考以下题解：
-https://leetcode-cn.com/problems/multiply-strings/solution/ji-bai-100-by-nuo-33/
+// ### 解题思路
+// 模拟竖式乘法，注释详尽，思路参考以下题解：
+// https://leetcode-cn.com/problems/multiply-strings/solution/ji-bai-100-by-nuo-33/
 
-![截屏2020-03-17下午11.47.44.png](https://pic.leetcode-cn.com/670f60931b5e35d75b96c1151e23fc53b665ce5b724b7fc53470664560e9a45a-%E6%88%AA%E5%B1%8F2020-03-17%E4%B8%8B%E5%8D%8811.47.44.png)
+// ![截屏2020-03-17下午11.47.44.png](https://pic.leetcode-cn.com/670f60931b5e35d75b96c1151e23fc53b665ce5b724b7fc53470664560e9a45a-%E6%88%AA%E5%B1%8F2020-03-17%E4%B8%8B%E5%8D%8811.47.44.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string multiply(string num1, string num2) {
@@ -54,4 +54,4 @@ public:
         return res;
     }
 };
-```
+// ```

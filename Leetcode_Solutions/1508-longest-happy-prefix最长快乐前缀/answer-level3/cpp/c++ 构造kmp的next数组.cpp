@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
  public:
   string longestPrefix(string s) {
@@ -22,4 +22,4 @@ class Solution {
     return next[n - 1] == -1 ? "" : s.substr(0, next[n - 1] + 1);
   }
 };
-```
+// ```

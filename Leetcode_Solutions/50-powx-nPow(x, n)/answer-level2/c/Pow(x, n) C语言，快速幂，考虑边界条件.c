@@ -1,6 +1,6 @@
-![2020-01-01_21-33.png](https://pic.leetcode-cn.com/07f55224e48f9fe774ffdce6b96a38dc24a20e7e8a8846b2f5d5a97f80749044-2020-01-01_21-33.png)
+// ![2020-01-01_21-33.png](https://pic.leetcode-cn.com/07f55224e48f9fe774ffdce6b96a38dc24a20e7e8a8846b2f5d5a97f80749044-2020-01-01_21-33.png)
 
-```c
+// ```c
 double myPow(double x, int n) {
   // 如果底为 0 则直接返回 0
   if (x == 0)
@@ -35,4 +35,4 @@ double myPow(double x, int n) {
 
   return ret;
 }
-```
+// ```

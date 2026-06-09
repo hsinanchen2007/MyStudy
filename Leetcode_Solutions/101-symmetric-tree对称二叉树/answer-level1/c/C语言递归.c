@@ -1,4 +1,4 @@
-```
+// ```
 ool Check(struct TreeNode *left, struct TreeNode *right)
 {
     if (left == NULL && right == NULL) {
@@ -20,4 +20,4 @@ bool isSymmetric(struct TreeNode* root){
     }
     return Check(root->left, root->right);
 }
-```
+// ```

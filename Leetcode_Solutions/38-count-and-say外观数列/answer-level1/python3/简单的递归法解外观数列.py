@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countAndSay(self, n: int) -> str:
         if n == 1:
@@ -20,4 +20,4 @@ class Solution:
                     count = 1
             res += str(count) + s[i]
             return res 
-```
+# ```

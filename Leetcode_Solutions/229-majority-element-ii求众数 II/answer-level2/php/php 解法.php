@@ -1,5 +1,5 @@
-解法一：暴力法
-```
+// 解法一：暴力法
+// ```
 function majorityElement($nums) {
     sort($nums);
     $e = $nums[0];
@@ -22,4 +22,4 @@ function majorityElement($nums) {
     }
     return $ans;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-增加2个中间状态活变死,死变活
+// ### 解题思路
+// 增加2个中间状态活变死,死变活
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -73,4 +73,4 @@ var gameOfLife = function(board) {
     visitBoard(transformStat);
     return board;
 };
-```
+// ```

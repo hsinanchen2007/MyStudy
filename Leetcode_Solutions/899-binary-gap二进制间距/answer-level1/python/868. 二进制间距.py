@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def binaryGap(self, N: int) -> int:
         bs = list('{:b}'.format(N))
@@ -17,4 +17,4 @@ class Solution:
             if d > max: max = d
         return max
 
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
-原题是不占用额外空间
+// ### 解题思路
+// 原题是不占用额外空间
 
-![](https://pic.leetcode-cn.com/586d3e3277914aee6027f593277b117170040e124cee702e64ddf51fdbc0aa6f-%5D3HU%5B72H~4Z8P@G9_UJ5~$P.png)
+// ![](https://pic.leetcode-cn.com/586d3e3277914aee6027f593277b117170040e124cee702e64ddf51fdbc0aa6f-%5D3HU%5B72H~4Z8P@G9_UJ5~$P.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -23,4 +23,4 @@ public:
         return s;
     }
 };
-```
+// ```

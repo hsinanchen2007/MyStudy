@@ -1,9 +1,9 @@
-### 解题思路
-找出差集、共有元素->将arr2的所有共有元素push入res->合并数组
+// ### 解题思路
+// 找出差集、共有元素->将arr2的所有共有元素push入res->合并数组
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr1
  * @param {number[]} arr2
@@ -28,4 +28,4 @@ var relativeSortArray = function(arr1, arr2) {
     }
     return res.concat(sub.sort((a,b) => a-b))
 };
-``` 
+// ``` 

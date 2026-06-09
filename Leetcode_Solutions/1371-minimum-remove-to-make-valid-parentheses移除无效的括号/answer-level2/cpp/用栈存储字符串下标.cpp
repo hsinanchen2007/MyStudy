@@ -1,9 +1,9 @@
-### 解题思路
-用栈存储字符串下标
+// ### 解题思路
+// 用栈存储字符串下标
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string minRemoveToMakeValid(string s) {
@@ -30,4 +30,4 @@ public:
         return s;
     }
 };
-```
+// ```

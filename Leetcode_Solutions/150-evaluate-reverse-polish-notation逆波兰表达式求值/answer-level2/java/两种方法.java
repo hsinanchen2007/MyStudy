@@ -1,6 +1,6 @@
-**1、第一种，也就是最容易想到的，调用栈**
-这里我用到了异常，总体来说效率堪忧
-```
+// **1、第一种，也就是最容易想到的，调用栈**
+// 这里我用到了异常，总体来说效率堪忧
+// ```
     public int evalRPN(String[] tokens) {
         int ans = 0;
         if (tokens.length == 0) return ans;
@@ -33,10 +33,10 @@
         }
         return stack.pop();
     }
-```
-**第二种使用数组存储数字，遇到运算符就运算**
-运行以后，发现效率还不错
-```
+// ```
+// **第二种使用数组存储数字，遇到运算符就运算**
+// 运行以后，发现效率还不错
+// ```
 public int evalRPN2(String[] tokens) {
         int[] nums = new int[tokens.length];
         int ansInd = -1;
@@ -66,5 +66,5 @@ public int evalRPN2(String[] tokens) {
         }
         return nums[ansInd];
     }
-```
+// ```
 

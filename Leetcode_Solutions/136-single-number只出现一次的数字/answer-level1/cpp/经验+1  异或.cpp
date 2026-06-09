@@ -1,9 +1,9 @@
-### 解题思路
-嗯，学习到一个新知识点  异或^
+// ### 解题思路
+// 嗯，学习到一个新知识点  异或^
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
 
     }
 };
-```
+// ```

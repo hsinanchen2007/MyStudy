@@ -1,10 +1,10 @@
-### 解题思路
-1. 计算长度为x的连续的+是否能够胜利，可以有grundy number 得出
-2. 每一段+的grundy number的异或就是结果
+# ### 解题思路
+# 1. 计算长度为x的连续的+是否能够胜利，可以有grundy number 得出
+# 2. 每一段+的grundy number的异或就是结果
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 from functools import lru_cache
 
@@ -48,4 +48,4 @@ class Solution:
             v^= dfs(x)
             
         return v > 0
-```
+# ```

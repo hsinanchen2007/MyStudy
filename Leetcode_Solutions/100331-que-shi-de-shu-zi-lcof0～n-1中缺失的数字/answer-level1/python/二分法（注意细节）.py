@@ -1,9 +1,9 @@
-### 解题思路
-找第一个缺失后的值
+# ### 解题思路
+# 找第一个缺失后的值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         if not nums:
@@ -20,4 +20,4 @@ class Solution:
 
                 
 
-```
+# ```

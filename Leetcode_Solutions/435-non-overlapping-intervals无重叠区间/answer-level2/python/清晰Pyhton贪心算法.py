@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def eraseOverlapIntervals(self, intervals: List[List[int]]) -> int:
         if not intervals or not intervals[0]:
@@ -14,4 +14,4 @@ class Solution:
                 timePoint = intervals[i][1]
         return len(intervals) - result
 
-```
+# ```

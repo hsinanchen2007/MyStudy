@@ -1,10 +1,10 @@
-题目**没有说明**包含什么类型字符，完全记录ASCII可能也不够，所以使用map
+// 题目**没有说明**包含什么类型字符，完全记录ASCII可能也不够，所以使用map
 
-遍历两次
-时间复杂度O(n)
-空间复杂度O(n)
+// 遍历两次
+// 时间复杂度O(n)
+// 空间复杂度O(n)
 
-```
+// ```
     char firstUniqChar(string s) {
         map<char, int>mp;
         for(int i = 0; i<s.length(); i++)
@@ -24,5 +24,5 @@
         }
         return ' ';
     }
-```
+// ```
 

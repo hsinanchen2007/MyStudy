@@ -1,4 +1,4 @@
-```
+// ```
 public int strToInt(String str) {
         char[] chars = str.toCharArray();
         int len = chars.length;
@@ -36,4 +36,4 @@ public int strToInt(String str) {
         //由于上面已经做了判断，程序进行到这里说明res一定是int支持以内的值，放心强转
         return (int)res;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-字典树
+// ### 解题思路
+// 字典树
 
-### 代码
-字典树
-```cpp
+// ### 代码
+// 字典树
+// ```cpp
 const static int __ = [](){ 
   ios::sync_with_stdio(false); 
   cin.tie(NULL); 
@@ -62,9 +62,9 @@ public:
         }
     }
 };
-```
-**map调用**
-```
+// ```
+// **map调用**
+// ```
 const static int x = [](){ 
   ios::sync_with_stdio(false); 
   cin.tie(NULL); 
@@ -96,10 +96,10 @@ public:
     }
 
 };
-```
+// ```
 
-递归
-```
+// 递归
+// ```
 class Solution {
 public:
     vector<vector<int>> multiSearch(string big, vector<string>& smalls) {
@@ -127,5 +127,5 @@ public:
         }
     }
 };
-```
+// ```
 

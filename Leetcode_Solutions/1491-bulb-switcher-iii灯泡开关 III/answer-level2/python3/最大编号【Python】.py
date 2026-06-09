@@ -1,18 +1,18 @@
-### 思路
+# ### 思路
 
-**最大编号**
+# **最大编号**
 
-```
+# ```
 遍历一遍，修改当前状态为开灯，并比较开灯次数是否等于记录的最大编号。
 如果相等，表示灯可以变蓝，于是就计数 + 1。
-```
+# ```
 
-**时间复杂度:** O(n)
-**空间复杂度:** O(1)
+# **时间复杂度:** O(n)
+# **空间复杂度:** O(1)
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution:
     def numTimesAllBlue(self, light: List[int]) -> int:
         n = len(light)
@@ -27,8 +27,8 @@ class Solution:
             if cnt_light == max_i:
                 cnt_blue += 1
         return cnt_blue
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1375-Bulb-Switcher-III/1375.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1375-Bulb-Switcher-III/1375.py)

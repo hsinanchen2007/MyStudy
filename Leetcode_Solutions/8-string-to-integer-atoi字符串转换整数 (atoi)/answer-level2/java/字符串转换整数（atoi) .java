@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int myAtoi(String str) {
         str = str.trim();
@@ -36,4 +36,4 @@ class Solution {
         else return (int)-doub;
     }
 }
-```
+// ```

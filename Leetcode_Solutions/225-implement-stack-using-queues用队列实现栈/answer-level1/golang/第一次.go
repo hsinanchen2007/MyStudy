@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-辛辛苦苦写的解析没了...
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 辛辛苦苦写的解析没了...
+// ### 代码
 
-```golang
+// ```golang
 import (
 	"fmt"
 	"testing"
@@ -82,4 +82,4 @@ func (this *MyStack) Empty() bool {
 	param4 := obj.Empty()
 	fmt.Printf("param_4 = %v\n", param4)
 }
-```
+// ```

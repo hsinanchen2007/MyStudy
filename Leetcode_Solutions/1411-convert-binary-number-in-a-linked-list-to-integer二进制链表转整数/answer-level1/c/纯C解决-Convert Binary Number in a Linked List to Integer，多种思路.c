@@ -1,9 +1,9 @@
-### 解题思路
-这里给了存储法和递归法
+// ### 解题思路
+// 这里给了存储法和递归法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,9 +41,9 @@ int getDecimalValue(struct ListNode* head){
 }
 
 
-```
+// ```
 
-```c
+// ```c
 //递归
 void Translation(struct ListNode *head,int *result,int *base)
 {
@@ -59,4 +59,4 @@ int getDecimalValue(struct ListNode* head){
     Translation(head,&result,&base);
     return result;
 }
-```
+// ```

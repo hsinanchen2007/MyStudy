@@ -1,6 +1,6 @@
-执行用时：3 ms
-内存消耗：40.9 MB
-```
+// 执行用时：3 ms
+// 内存消耗：40.9 MB
+// ```
 class Solution {
     //创建一个静态内部类
     static class Point {
@@ -40,5 +40,5 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 

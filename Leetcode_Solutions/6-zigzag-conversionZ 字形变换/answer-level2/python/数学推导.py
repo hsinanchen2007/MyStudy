@@ -1,8 +1,8 @@
-对每一行进行计算，算出来每一行当中每一个位置对应的字母即可。
+# 对每一行进行计算，算出来每一行当中每一个位置对应的字母即可。
 
-整道题目的代码如下：
+# 整道题目的代码如下：
 
-```python
+# ```python
 class Solution(object):
     def convert(self, s, numRows):
         """
@@ -32,5 +32,5 @@ class Solution(object):
                     index += (2*numRows - 2)
 
         return res
-```
+# ```
 

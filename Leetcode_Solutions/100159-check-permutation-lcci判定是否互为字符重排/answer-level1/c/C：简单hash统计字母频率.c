@@ -1,7 +1,7 @@
-思路：
-简单用字母值-'a'哈希，分别统计两个字符串的字符个数，然后遍历比较，不同则false
-加了打印可以看具体的统计数据
-```
+// 思路：
+// 简单用字母值-'a'哈希，分别统计两个字符串的字符个数，然后遍历比较，不同则false
+// 加了打印可以看具体的统计数据
+// ```
 #define MAX 26
 bool CheckPermutation(char* s1, char* s2){
     if (strlen(s1) != strlen(s2)) {
@@ -22,4 +22,4 @@ bool CheckPermutation(char* s1, char* s2){
     }
     return true;
 }
-```
+// ```

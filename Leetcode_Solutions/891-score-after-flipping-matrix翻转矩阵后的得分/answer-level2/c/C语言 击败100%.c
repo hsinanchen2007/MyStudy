@@ -1,11 +1,11 @@
-### 解题思路
-保证最高位为1
-其他位保证1多于0
-![image.png](https://pic.leetcode-cn.com/c1babea547326227efa3ad31c953d9c1c79375ffa3cbe03747d5ae507adb873d-image.png)
+// ### 解题思路
+// 保证最高位为1
+// 其他位保证1多于0
+// ![image.png](https://pic.leetcode-cn.com/c1babea547326227efa3ad31c953d9c1c79375ffa3cbe03747d5ae507adb873d-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverseRow(int** A, int ASize, int* AColSize, int row)
 {
 	int i;
@@ -62,4 +62,4 @@ int matrixScore(int** A, int ASize, int* AColSize){
 	
     return rlt;
 }
-```
+// ```

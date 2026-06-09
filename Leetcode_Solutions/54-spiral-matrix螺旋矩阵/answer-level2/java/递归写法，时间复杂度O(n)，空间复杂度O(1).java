@@ -1,6 +1,6 @@
-思路：根据元素的坐标可以通过计算判断出下一个元素的位置，时间复杂度 O(n)，空间复杂度 O（1）， n为矩阵元素总数，
-解法：
-`
+// 思路：根据元素的坐标可以通过计算判断出下一个元素的位置，时间复杂度 O(n)，空间复杂度 O（1）， n为矩阵元素总数，
+// 解法：
+// `
 public List<Integer> spiralOrder(int[][] matrix) {
          List<Integer> result = new LinkedList<>();
 
@@ -34,4 +34,4 @@ public List<Integer> spiralOrder(int[][] matrix) {
             move(x, y + 1, matrix, list, vCenter, hCenter);
         }
     }
-`
+// `

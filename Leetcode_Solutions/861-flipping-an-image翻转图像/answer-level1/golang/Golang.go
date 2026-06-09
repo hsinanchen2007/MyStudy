@@ -1,4 +1,4 @@
-```
+// ```
 
 func flipAndInvertImage(A [][]int) [][]int {
 	for i, row := range A {
@@ -20,4 +20,4 @@ func flipAndInvertImage(A [][]int) [][]int {
 	}
 	return A
 }
-```
+// ```

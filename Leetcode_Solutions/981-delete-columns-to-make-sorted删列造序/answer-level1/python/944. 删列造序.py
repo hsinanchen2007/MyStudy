@@ -1,9 +1,9 @@
-### 解题思路
-首先需要将字符转换为ASCII码，然后按列比较
+# ### 解题思路
+# 首先需要将字符转换为ASCII码，然后按列比较
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minDeletionSize(self, A):
         if len(A) == 1:
@@ -21,4 +21,4 @@ class Solution(object):
                     ans += 1
                     break
         return ans
-```
+# ```

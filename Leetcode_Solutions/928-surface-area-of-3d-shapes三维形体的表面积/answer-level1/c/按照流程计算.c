@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/41218b1697b8b3681256e437e984ed950646fcc992d750d4456fba132cca00e6-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/41218b1697b8b3681256e437e984ed950646fcc992d750d4456fba132cca00e6-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
     int ans = 0;
 
@@ -53,4 +53,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
 
     return ans;
 }
-```
+// ```

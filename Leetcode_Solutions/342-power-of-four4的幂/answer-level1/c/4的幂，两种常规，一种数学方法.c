@@ -1,9 +1,9 @@
-### 解题思路
-数学方法：通过换底公式
+// ### 解题思路
+// 数学方法：通过换底公式
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 bool isPowerOfFour(int num){
@@ -28,7 +28,7 @@ bool isPowerOfFour(int num){
     return(num%4==0)&&isPowerOfFour(num/4); 
 }
 
-```
+// ```
 
 
 

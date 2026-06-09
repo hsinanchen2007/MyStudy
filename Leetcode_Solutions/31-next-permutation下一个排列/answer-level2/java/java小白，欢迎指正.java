@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-![java成绩.png](https://pic.leetcode-cn.com/b233d751ecb6cb61de54a5df89ce6e5b53bb2662cccac89c99da6f8db0a3fcbb-java%E6%88%90%E7%BB%A9.png)
+// ### 代码
+// ![java成绩.png](https://pic.leetcode-cn.com/b233d751ecb6cb61de54a5df89ce6e5b53bb2662cccac89c99da6f8db0a3fcbb-java%E6%88%90%E7%BB%A9.png)
 
-```java
+// ```java
 class Solution {
     public void nextPermutation(int[] nums) {
 		if(nums.length==0||nums.length==1)
@@ -36,4 +36,4 @@ class Solution {
 		}
 	}
 }
-```
+// ```

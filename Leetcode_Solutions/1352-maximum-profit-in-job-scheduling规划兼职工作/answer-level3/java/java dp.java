@@ -1,9 +1,9 @@
-### 解题思路
-按照endtime排序 动态规划
+// ### 解题思路
+// 按照endtime排序 动态规划
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int jobScheduling(int[] startTime, int[] endTime, int[] profit) {
         int n = startTime.length;
@@ -45,4 +45,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

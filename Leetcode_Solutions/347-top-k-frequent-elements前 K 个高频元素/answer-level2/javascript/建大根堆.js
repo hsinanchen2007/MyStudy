@@ -1,9 +1,9 @@
-### 解题思路
-- 时间复杂度：O(nlogk)
+// ### 解题思路
+// - 时间复杂度：O(nlogk)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 function Heap() {
     this.data = [];
     this.build =build;
@@ -86,4 +86,4 @@ const topKFrequent=(nums,k)=>{
     }
     return res;
 };
-```
+// ```

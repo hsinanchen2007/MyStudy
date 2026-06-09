@@ -1,7 +1,7 @@
-对于直接将对应的i值放到对应的nums[i]的位置。如果nums[i]==i，说明重复，直接返回i
+// 对于直接将对应的i值放到对应的nums[i]的位置。如果nums[i]==i，说明重复，直接返回i
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
     public int findRepeatNumber(int[] nums) {
         int sum = nums.length;
@@ -20,4 +20,4 @@ class Solution {
         return 1;
     }
 }
-```
+// ```

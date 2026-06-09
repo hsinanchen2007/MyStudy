@@ -1,8 +1,8 @@
-### 解题思路
-minn这个有点迷，不懂什么意思
-### 代码
+# ### 解题思路
+# minn这个有点迷，不懂什么意思
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def computeSimilarities(self, docs: List[List[int]]) -> List[str]:
         
@@ -21,4 +21,4 @@ class Solution:
                 sim = len(s1 & s2) / len(s1 | s2) + minn
                 res.append("{0:d},{1:d}: {2:.4f}".format(i, j, sim))
         return res;
-```
+# ```

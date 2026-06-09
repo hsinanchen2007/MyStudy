@@ -1,9 +1,9 @@
-### 解题思路
-两个表 ，同时再建立一个存放字母做后续判定条件依据
+// ### 解题思路
+// 两个表 ，同时再建立一个存放字母做后续判定条件依据
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 bool canConstruct(char * ransomNote, char * magazine){
     int mark1[26]={0},mark2[26]={0};//模拟HASH
@@ -34,4 +34,4 @@ bool canConstruct(char * ransomNote, char * magazine){
     }
     return true;
 }
-```
+// ```

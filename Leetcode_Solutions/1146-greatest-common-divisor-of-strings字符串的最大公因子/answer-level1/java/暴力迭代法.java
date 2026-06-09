@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-首先判断两个字符串的相似字符串项，然后求出两个字符串长度的最大公因子，最后即可得出最大相似字符串<br/>
-### 代码
+// 首先判断两个字符串的相似字符串项，然后求出两个字符串长度的最大公因子，最后即可得出最大相似字符串<br/>
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         if (!str1.concat(str2).equals(str2.concat(str1))) {
@@ -71,4 +71,4 @@ class Solution {
         return parent;
     }
 }
-```
+// ```

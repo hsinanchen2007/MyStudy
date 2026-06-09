@@ -1,5 +1,5 @@
-**方法一：HashMap记录字符个数**
-```
+// **方法一：HashMap记录字符个数**
+// ```
 class Solution {
     /**
     * 思路：
@@ -29,10 +29,10 @@ class Solution {
         return ans < s.length() ? ans + 1 : ans;
     }
 }
-```
+// ```
 
-**方法二：HashMap记录字符一次循环**
-```
+// **方法二：HashMap记录字符一次循环**
+// ```
 class Solution {
     /**
     * 思路：
@@ -55,10 +55,10 @@ class Solution {
         return ans < s.length() ? ans + 1 : ans;
     }
 }
-```
+// ```
 
-**方法三：ASCII字符编码表计数**
-```
+// **方法三：ASCII字符编码表计数**
+// ```
 class Solution {
     /**
     * 思路：
@@ -80,4 +80,4 @@ class Solution {
         return ans < s.length() ? ans + 1 : ans;
     }
 }
-```
+// ```

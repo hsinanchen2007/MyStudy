@@ -1,19 +1,19 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 动态规划
+// # 动态规划
 
-状态定义：
-dp[i][j]：从[i, j]范围内猜一个数的最大代价
+// 状态定义：
+// dp[i][j]：从[i, j]范围内猜一个数的最大代价
 
-状态转移：
-dp[i][j] = min(i + dp[i + 1][j], j + dp[i][j - 1], k + max(dp[i][k - 1], dp[k + 1][j])), k∈(i, j)
+// 状态转移：
+// dp[i][j] = min(i + dp[i + 1][j], j + dp[i][j - 1], k + max(dp[i][k - 1], dp[k + 1][j])), k∈(i, j)
 
-时间复杂度和空间复杂度均是O(n ^ 2)。
+// 时间复杂度和空间复杂度均是O(n ^ 2)。
 
-执行用时：9ms，击败42.82。消耗内存：36.9MB，击败6.36%。
+// 执行用时：9ms，击败42.82。消耗内存：36.9MB，击败6.36%。
 
-```java
+// ```java
 public class Solution {
     public int getMoneyAmount(int n) {
         int[][] dp = new int[n + 1][n + 1]; //从[i, j]内猜一个数的最大代价是dp[i][j]
@@ -35,4 +35,4 @@ public class Solution {
         return dp[1][n];
     }
 }
-```
+// ```

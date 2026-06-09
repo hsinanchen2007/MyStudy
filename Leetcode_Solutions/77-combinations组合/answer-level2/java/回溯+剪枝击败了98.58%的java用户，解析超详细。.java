@@ -1,10 +1,10 @@
-![图片.png](https://pic.leetcode-cn.com/bfaad0ab80369381c92217de37784aaa583c2f2c699f51b2c9b98e792882437b-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/bfaad0ab80369381c92217de37784aaa583c2f2c699f51b2c9b98e792882437b-%E5%9B%BE%E7%89%87.png)
 
 
-本题详细解析，
-## [请看这里](https://leetcode-cn.com/circle/article/GV6eQ2/)
+// 本题详细解析，
+// ## [请看这里](https://leetcode-cn.com/circle/article/GV6eQ2/)
 
-```
+// ```
 private ArrayList<List<Integer>> res;
     // 求解C(n,k), 当前已经找到的组合存储在c中, 需要从start开始搜索新的元素
     private void generateCombinations(int n, int k, int start, List<Integer> list) {
@@ -33,4 +33,4 @@ private ArrayList<List<Integer>> res;
         return res;
 
     }
-```
+// ```

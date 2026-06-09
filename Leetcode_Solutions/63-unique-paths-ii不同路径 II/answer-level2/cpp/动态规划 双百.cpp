@@ -1,9 +1,9 @@
-### 解题思路
-[0][0]位置为1，直接结束。
-第一行、第一列不但要考虑当前位置是否有障碍物，而且要考虑前位置是否可以访问。
-### 代码
+// ### 解题思路
+// [0][0]位置为1，直接结束。
+// 第一行、第一列不但要考虑当前位置是否有障碍物，而且要考虑前位置是否可以访问。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -35,4 +35,4 @@ public:
     return dp[m-1][n-1];
     }
 };
-```
+// ```

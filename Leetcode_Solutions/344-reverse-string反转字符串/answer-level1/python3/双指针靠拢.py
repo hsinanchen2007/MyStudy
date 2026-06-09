@@ -1,11 +1,11 @@
-### 解题思路
-1. 两个指针一头一尾
-2. 同时向中间靠拢，并交换两者的值
-3. 直到head和tail相遇为止
+# ### 解题思路
+# 1. 两个指针一头一尾
+# 2. 同时向中间靠拢，并交换两者的值
+# 3. 直到head和tail相遇为止
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
@@ -18,4 +18,4 @@ class Solution:
             head += 1
             tail -= 1
         return s
-```
+# ```

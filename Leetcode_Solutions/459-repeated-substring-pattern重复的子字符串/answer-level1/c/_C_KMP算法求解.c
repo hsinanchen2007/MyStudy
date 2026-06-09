@@ -1,14 +1,14 @@
-### 解题思路
-借用next数组求解子字符串，如：
-abacababacab,对应next数组为[-1,0,0,1,0,1,2,3,2,3,4,5]，字符串的index为[0,1,2,3,4,5,6,7,8,9,10,11]
-最后一个字符串index=11减去next[11]（最后一个next索引）即11-5=6为子字符串的长度，
-再用子字符串与原字符串依次按子字符串长度对比，如果有不相等的则返回false；否则为true;
-![123.PNG](https://pic.leetcode-cn.com/ae400006941198064732843eb6cd1695ff558671a68a9921a84b143b4f169572-123.PNG)
+// ### 解题思路
+// 借用next数组求解子字符串，如：
+// abacababacab,对应next数组为[-1,0,0,1,0,1,2,3,2,3,4,5]，字符串的index为[0,1,2,3,4,5,6,7,8,9,10,11]
+// 最后一个字符串index=11减去next[11]（最后一个next索引）即11-5=6为子字符串的长度，
+// 再用子字符串与原字符串依次按子字符串长度对比，如果有不相等的则返回false；否则为true;
+// ![123.PNG](https://pic.leetcode-cn.com/ae400006941198064732843eb6cd1695ff558671a68a9921a84b143b4f169572-123.PNG)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void GetNext(char *s, int *next)
 {
     int k = -1;
@@ -50,4 +50,4 @@ bool repeatedSubstringPattern(char * s) {
     return true;
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(int *a,int *b){
    char s[100],s1[100];
    sprintf(s,"%d%d",*a,*b);
@@ -22,4 +22,4 @@ char * largestNumber(int* nums, int numsSize){
     }
     return s;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-窗口滑动
+// ### 解题思路
+// 窗口滑动
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minSubArrayLen(int s, vector<int>& nums)
@@ -33,4 +33,4 @@ public:
 };
 
 
-```
+// ```

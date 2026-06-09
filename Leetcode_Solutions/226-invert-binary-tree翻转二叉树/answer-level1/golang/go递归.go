@@ -1,8 +1,8 @@
-### 解题思路
- 递归
-### 代码
+// ### 解题思路
+//  递归
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -18,4 +18,4 @@ func invertTree(root *TreeNode) *TreeNode {
     root.Left, root.Right = invertTree(root.Right), invertTree(root.Left)
     return root
 }
-```
+// ```

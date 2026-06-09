@@ -1,7 +1,7 @@
-# 思路
-dfs的时候传入父节点的值以及截止到父节点的有效序列长度
+// # 思路
+// dfs的时候传入父节点的值以及截止到父节点的有效序列长度
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     void dfs(TreeNode* root, int p, int k, int& res) {
@@ -23,6 +23,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/55d8c32f527b4ea9916a06497ad7c040c351ed78e67ca2e272916ac46537167b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/55d8c32f527b4ea9916a06497ad7c040c351ed78e67ca2e272916ac46537167b-image.png)

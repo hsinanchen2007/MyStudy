@@ -1,14 +1,14 @@
-### 解题思路
-用二分法进行查找，
-1. 设 left, mid, right 三个指针，目标为num
-2. mid^2 == num，则停止；mid^2 < num，则right=mid, mid=(left+right)/2; mid^2 > num, 则left=mid, mid=(left+right)/2；
-3. 循环条件为 left < mid && right > mid
+// ### 解题思路
+// 用二分法进行查找，
+// 1. 设 left, mid, right 三个指针，目标为num
+// 2. mid^2 == num，则停止；mid^2 < num，则right=mid, mid=(left+right)/2; mid^2 > num, 则left=mid, mid=(left+right)/2；
+// 3. 循环条件为 left < mid && right > mid
 
-为了不溢出，判断 mid^2 时不能直接相乘，而是用 num 除以 mid 看看商和余数的大小来进行比较。
+// 为了不溢出，判断 mid^2 时不能直接相乘，而是用 num 除以 mid 看看商和余数的大小来进行比较。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPerfectSquare(int num) {
@@ -34,4 +34,4 @@ public:
         return mid*mid == num;
     }
 };
-```
+// ```

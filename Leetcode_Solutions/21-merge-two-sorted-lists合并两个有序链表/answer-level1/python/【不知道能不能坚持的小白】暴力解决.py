@@ -1,11 +1,11 @@
-### 解题思路
-题目本身没有任何难度，只是要熟悉一下怎么用ListNode。可以把ListNode想象成一个指针，指针指向一个value和一个next，next所指向的东西也必须是一个ListNode。
+# ### 解题思路
+# 题目本身没有任何难度，只是要熟悉一下怎么用ListNode。可以把ListNode想象成一个指针，指针指向一个value和一个next，next所指向的东西也必须是一个ListNode。
 
-**本题关键思路**：构建一个船新的List，由于l1和l2都是有序的，所以只要不停的比较l1和l2当前指针的数，小的就弄成一个ListNode赋给那个船新的List，并且把指针指向next一直循环到next为None。
+# **本题关键思路**：构建一个船新的List，由于l1和l2都是有序的，所以只要不停的比较l1和l2当前指针的数，小的就弄成一个ListNode赋给那个船新的List，并且把指针指向next一直循环到next为None。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
         # 此时由于构建l的时候给了一个0打头，所以要返回l.next才是后面构建的List
         return l.next
             
-```
+# ```

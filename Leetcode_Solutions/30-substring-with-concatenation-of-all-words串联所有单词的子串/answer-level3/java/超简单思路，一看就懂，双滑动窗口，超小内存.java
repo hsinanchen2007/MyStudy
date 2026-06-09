@@ -1,7 +1,7 @@
-  题中的words里面，所有的单词长度都是相同的，所以我们可以通过以单词长度为窗口进行滑动，通过hashmap查看单词是否存在就能轻松解决这个问题。
-里面的一些代码进行了一点小优化
+//   题中的words里面，所有的单词长度都是相同的，所以我们可以通过以单词长度为窗口进行滑动，通过hashmap查看单词是否存在就能轻松解决这个问题。
+// 里面的一些代码进行了一点小优化
 
-```
+// ```
 class Solution {
     public static List<Integer> findSubstring(String s, String[] words) {
         List<Integer> res=new ArrayList<>();
@@ -65,8 +65,8 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
 
-[@lexisen](/u/lexisen/)感谢指正
+// [@lexisen](/u/lexisen/)感谢指正
 

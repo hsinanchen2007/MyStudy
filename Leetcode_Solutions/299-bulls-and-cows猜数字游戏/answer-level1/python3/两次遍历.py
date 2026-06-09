@@ -1,9 +1,9 @@
-### 解题思路
-虽然简单，但是还是提交了很多次！
+# ### 解题思路
+# 虽然简单，但是还是提交了很多次！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getHint(self, secret: str, guess: str) -> str:
         if not secret or not guess:
@@ -29,4 +29,4 @@ class Solution:
         return str(A)+"A"+str(B)+"B"
 
 
-```
+# ```

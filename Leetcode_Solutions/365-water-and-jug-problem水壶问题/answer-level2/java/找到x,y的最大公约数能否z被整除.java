@@ -1,9 +1,9 @@
-### 解题思路
-找到x,y的最大公约数能否z被整除
+// ### 解题思路
+// 找到x,y的最大公约数能否z被整除
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canMeasureWater(int x, int y, int z) {
         boolean b1= false;
@@ -32,4 +32,4 @@ class Solution {
         
     }
 }
-```
+// ```

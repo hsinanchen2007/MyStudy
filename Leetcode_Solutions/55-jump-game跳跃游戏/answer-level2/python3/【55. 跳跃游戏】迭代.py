@@ -1,9 +1,9 @@
-### 解题思路
-坑[0]
+# ### 解题思路
+# 坑[0]
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         maxCurrent = 0
@@ -14,4 +14,4 @@ class Solution:
         if maxCurrent < len(nums) - 1:
             return False
         return True
-```
+# ```

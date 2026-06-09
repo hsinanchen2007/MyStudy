@@ -1,13 +1,13 @@
-### 解题思路
-每次找到最大的index
-从开头到最大的index反转
-然后整体反转，这将最大的归位
-如果找到的最大的index就是归位的位置，则直接continue
-如果找到的最大的index为0，可以少一次反转。
+// ### 解题思路
+// 每次找到最大的index
+// 从开头到最大的index反转
+// 然后整体反转，这将最大的归位
+// 如果找到的最大的index就是归位的位置，则直接continue
+// 如果找到的最大的index为0，可以少一次反转。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -73,4 +73,4 @@ int *pancakeSort(int *A, int ASize, int *returnSize)
         *returnSize = ans_size;
         return ans;
 }
-```
+// ```

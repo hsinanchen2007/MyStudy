@@ -1,14 +1,14 @@
-### 解题思路
-1. 用unordered_map保存所有region的parent
-2. 从region1和region2开始网上查找，并保存找到的父区域到Set
-3. 如果region1新增的父区域，在region2的父区域Set里，则说明找到了，反之亦然。
+// ### 解题思路
+// 1. 用unordered_map保存所有region的parent
+// 2. 从region1和region2开始网上查找，并保存找到的父区域到Set
+// 3. 如果region1新增的父区域，在region2的父区域Set里，则说明找到了，反之亦然。
 
-![图片.png](https://pic.leetcode-cn.com/2e71289320ae87cc57a52522f4ee58872d0a5ae9a355282c018c816cca27bd47-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/2e71289320ae87cc57a52522f4ee58872d0a5ae9a355282c018c816cca27bd47-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string findSmallestRegion(vector<vector<string>>& regions, string region1, string region2) {
@@ -55,4 +55,4 @@ public:
         return string();
     }
 };
-```
+// ```

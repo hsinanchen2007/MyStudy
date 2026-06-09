@@ -1,5 +1,5 @@
-利用两个栈，`Stack`存储数据，`minStack`更新当前最小值
-```
+// 利用两个栈，`Stack`存储数据，`minStack`更新当前最小值
+// ```
 class MinStack {
     stack<int> Stack;
     stack<int> minStack; //minStack的末尾存储最小值
@@ -28,4 +28,4 @@ public:
         return minStack.top();
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-栈和队列用得不熟，还是用集合做的，想了好久
-```
+// 栈和队列用得不熟，还是用集合做的，想了好久
+// ```
     public List<Integer> postorder(Node root) {
         List<Integer> nums = new LinkedList<>();
         List<Node> list = new ArrayList<>();
@@ -24,4 +24,4 @@
         }
         return nums;
     }
-```
+// ```

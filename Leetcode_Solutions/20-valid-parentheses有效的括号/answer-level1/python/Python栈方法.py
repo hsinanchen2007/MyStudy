@@ -1,9 +1,9 @@
-### 解题思路
-用栈解决即可，其中关于栈的定义需要注意pop和top操作需要对栈进行判空。
+# ### 解题思路
+# 用栈解决即可，其中关于栈的定义需要注意pop和top操作需要对栈进行判空。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isValid(self, s):
         """
@@ -47,4 +47,4 @@ class Stack(object):
         if self.is_empty():
             raise Exception('stack is empty!')
         return self.stack[-1] 
-```
+# ```

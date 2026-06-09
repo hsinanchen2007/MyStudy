@@ -1,7 +1,7 @@
-大佬勿喷，没利用好有序链表是真的蠢，上传一波留个痕迹（4ms，7.6MB）
-大体思路就很直接：
-   把链表里的数存到数组里，然后排序，用排序好的数组生成有序链表
-```
+// 大佬勿喷，没利用好有序链表是真的蠢，上传一波留个痕迹（4ms，7.6MB）
+// 大体思路就很直接：
+//    把链表里的数存到数组里，然后排序，用排序好的数组生成有序链表
+// ```
 void trav(struct ListNode* l1,int *ret){
     int i=0;
     struct ListNode*node;
@@ -84,4 +84,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     
     return pos; 
 }
-```
+// ```

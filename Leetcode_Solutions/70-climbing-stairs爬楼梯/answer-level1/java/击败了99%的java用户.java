@@ -1,7 +1,7 @@
-## 题目分析
-其实这个可以看做一个斐波那锲数问题。因为每次只能跳一步或者两步。所以a[n]=a[n-1]+a[n-2];
-## 代码
-```java
+// ## 题目分析
+// 其实这个可以看做一个斐波那锲数问题。因为每次只能跳一步或者两步。所以a[n]=a[n-1]+a[n-2];
+// ## 代码
+// ```java
 public int climbStairs(int n) {
         if (n < 1) {
             return 0;
@@ -19,4 +19,4 @@ public int climbStairs(int n) {
         }
         return res;
     }
-```
+// ```

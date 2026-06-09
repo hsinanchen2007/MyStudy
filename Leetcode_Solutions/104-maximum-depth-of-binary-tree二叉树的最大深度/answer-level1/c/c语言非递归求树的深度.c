@@ -1,12 +1,12 @@
-### 解题思路
-这里是根据树的层序遍历的原理，通过计算层数求树的深度。
-每次访问一层树ans加一，关键是记住每一层的节点数，在我的代码中是用currentLevel和nextLevel表示当前层和下一层的节点树。
+// ### 解题思路
+// 这里是根据树的层序遍历的原理，通过计算层数求树的深度。
+// 每次访问一层树ans加一，关键是记住每一层的节点数，在我的代码中是用currentLevel和nextLevel表示当前层和下一层的节点树。
 
-![image.png](https://pic.leetcode-cn.com/d0c71b6ef84c3d6fc740fb503ff81aef2eac0d998a082b644caaec5eed806126-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d0c71b6ef84c3d6fc740fb503ff81aef2eac0d998a082b644caaec5eed806126-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -47,4 +47,4 @@ int maxDepth(struct TreeNode* root){
     }
     return ans;
 }
-```
+// ```

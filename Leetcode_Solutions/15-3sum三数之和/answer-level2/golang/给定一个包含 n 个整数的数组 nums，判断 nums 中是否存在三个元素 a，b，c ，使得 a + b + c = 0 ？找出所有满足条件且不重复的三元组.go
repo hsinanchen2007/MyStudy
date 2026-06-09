@@ -1,4 +1,4 @@
-```
+// ```
 func threeSum(nums []int) [][]int {
     //capLen := int( len(nums) / 12)
     result := make([][]int, 0, 0 )
@@ -53,4 +53,4 @@ func threeSum(nums []int) [][]int {
     }
     return result
 }
-```
+// ```

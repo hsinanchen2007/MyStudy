@@ -1,6 +1,6 @@
-查找最大值下标->移除最大值->判断剩余内容
+// 查找最大值下标->移除最大值->判断剩余内容
 
-```
+// ```
 class Solution {
 public:
     int dominantIndex(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
         return all_of(copy.begin(), copy.end(), [&maxVal](int v){ return v * 2 <= maxVal;}) ? maxIndex : -1;
     }
 };
-```
+// ```

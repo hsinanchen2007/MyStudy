@@ -1,7 +1,7 @@
-参考评论的思路，C实现了一版，看着很少有C的题解，就发出来以供参考。
-![image.png](https://pic.leetcode-cn.com/c788c04b7fc3d595f936bbe231fab19c48cca2d1938ccf0d99935423b50da489-image.png)
+// 参考评论的思路，C实现了一版，看着很少有C的题解，就发出来以供参考。
+// ![image.png](https://pic.leetcode-cn.com/c788c04b7fc3d595f936bbe231fab19c48cca2d1938ccf0d99935423b50da489-image.png)
 
-```
+// ```
 char * predictPartyVictory(char * senate){
     int senateLen = 0;
     int ran_ban_dir = 0;
@@ -51,4 +51,4 @@ char * predictPartyVictory(char * senate){
         if (cntDire == 0) return Radiant;
     } 
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-> 分别统计字符出现次数，判断单词所有字符都出现在字典中且出现次数小于等于字典中的则是合理的；
-- 分别用Counter和defaultdict做了尝试， 后者效率略高一点；
+# ### 解题思路
+# > 分别统计字符出现次数，判断单词所有字符都出现在字典中且出现次数小于等于字典中的则是合理的；
+# - 分别用Counter和defaultdict做了尝试， 后者效率略高一点；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter, defaultdict
 
 
@@ -55,4 +55,4 @@ class Solution:
             if is_known(word):
                 ans += len(word)
         return ans
-```
+# ```

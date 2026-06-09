@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findLengthOfLCIS(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return max>now?max:now;  //如果一直递增到结束，没机会赋值给max；每次都这里出错
     }
 };
-```
+// ```

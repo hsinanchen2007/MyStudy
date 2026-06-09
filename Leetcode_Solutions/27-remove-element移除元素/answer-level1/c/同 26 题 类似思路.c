@@ -1,6 +1,6 @@
-同样是交换原则，使用一个角标进行操作
+// 同样是交换原则，使用一个角标进行操作
 
-```cpp
+// ```cpp
 int removeElement(int* nums, int numsSize, int val) {
   if (numsSize == 0) {
       return 0;
@@ -21,4 +21,4 @@ int removeElement(int* nums, int numsSize, int val) {
     
     
 }
-```
+// ```

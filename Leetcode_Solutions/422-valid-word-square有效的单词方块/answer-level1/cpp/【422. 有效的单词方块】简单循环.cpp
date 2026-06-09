@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool validWordSquare(vector<string>& words) {
@@ -15,4 +15,4 @@ public:
         return true;
     }
 };
-```
+// ```

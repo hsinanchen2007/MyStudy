@@ -1,5 +1,5 @@
-**简单二分根据返回值检查搜索区间即可**
-```
+// **简单二分根据返回值检查搜索区间即可**
+// ```
 #define long long int
 class Solution {
 public:
@@ -28,4 +28,4 @@ public:
         return ans;
     }
 };
-```
+// ```

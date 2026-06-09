@@ -1,9 +1,9 @@
-### 解题思路
-两层循环解决
+// ### 解题思路
+// 两层循环解决
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func smallerNumbersThanCurrent(nums []int) []int {
 	ret := make([]int, len(nums))
 	for i := 0; i < len(nums); i++ {
@@ -18,4 +18,4 @@ func smallerNumbersThanCurrent(nums []int) []int {
 	}
 	return ret
 }
-```
+// ```

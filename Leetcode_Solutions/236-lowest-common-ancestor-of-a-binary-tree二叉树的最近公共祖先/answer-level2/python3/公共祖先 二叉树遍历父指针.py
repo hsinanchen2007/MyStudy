@@ -1,7 +1,7 @@
-### 解题思路
-一开始先写了用两个栈的递归写法, 记录每个节点的path, 然后都找到后再倒序寻找公共结点
+# ### 解题思路
+# 一开始先写了用两个栈的递归写法, 记录每个节点的path, 然后都找到后再倒序寻找公共结点
 
-```
+# ```
 def search(path, root, target):
             if not root: return False
             path.append(root)
@@ -27,10 +27,10 @@ def search(path, root, target):
             n1, n2 = s1.pop(), s2.pop()
             if n1.val==n2.val: return n1
             l -= 1
-```
-然后在题解里看到个更简洁的递归遍历, 只需要遍历一次
+# ```
+# 然后在题解里看到个更简洁的递归遍历, 只需要遍历一次
 
-```
+# ```
 def solve(node):
             if not node: return None
             if node==p or node==q:
@@ -45,10 +45,10 @@ def solve(node):
             else: # 如果两边都非空, 说明一边一个, 则当前结点即为公共祖先
                 return node
         return solve(root)
-```
+# ```
 
-非递归写法! 父指针技巧, 新建一个parent字典存储每个节点的父节点, 学习!
-```
+# 非递归写法! 父指针技巧, 新建一个parent字典存储每个节点的父节点, 学习!
+# ```
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
@@ -120,4 +120,4 @@ class Solution:
 
         
 
-```
+# ```

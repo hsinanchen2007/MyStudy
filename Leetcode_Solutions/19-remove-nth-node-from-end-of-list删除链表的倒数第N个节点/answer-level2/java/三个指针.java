@@ -1,12 +1,12 @@
-### 解题思路
-cur存遍历的指针
-pre存前驱
-target存要删除的
-用pre是否等于target来判断是否删除头结点
+// ### 解题思路
+// cur存遍历的指针
+// pre存前驱
+// target存要删除的
+// 用pre是否等于target来判断是否删除头结点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -40,4 +40,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

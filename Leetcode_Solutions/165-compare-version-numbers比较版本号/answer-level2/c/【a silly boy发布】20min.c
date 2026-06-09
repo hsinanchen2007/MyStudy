@@ -1,6 +1,6 @@
-![BC0F9914-E72D-441B-8D67-8328C6A20CF0.jpeg](https://pic.leetcode-cn.com/4a2ebbeb4c0e43b62c23cddf03902366e7632806faeca1f2b12709ebf8f608b8-BC0F9914-E72D-441B-8D67-8328C6A20CF0.jpeg)
+// ![BC0F9914-E72D-441B-8D67-8328C6A20CF0.jpeg](https://pic.leetcode-cn.com/4a2ebbeb4c0e43b62c23cddf03902366e7632806faeca1f2b12709ebf8f608b8-BC0F9914-E72D-441B-8D67-8328C6A20CF0.jpeg)
 
-```
+// ```
 int compareVersion(char * version1, char * version2){
     int lenVersion1 = strlen(version1);
     int lenVersion2 = strlen(version2);
@@ -74,4 +74,4 @@ int compareVersion(char * version1, char * version2){
     }
     return 1; 
 }
-```
+// ```

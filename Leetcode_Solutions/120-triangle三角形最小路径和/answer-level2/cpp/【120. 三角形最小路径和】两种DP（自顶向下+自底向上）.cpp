@@ -1,8 +1,8 @@
-## 思路一：自顶向下
-**注意：下一层相邻节点为位置**
+// ## 思路一：自顶向下
+// **注意：下一层相邻节点为位置**
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -27,12 +27,12 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 思路二：自底向上
+// ## 思路二：自底向上
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -45,12 +45,12 @@ public:
         return triangle[0][0];
     }
 };
-```
+// ```
 
-### 另一种写法
-不修改原始数组，利用最后一行作为DP数组，自底向上更新DP数组。
+// ### 另一种写法
+// 不修改原始数组，利用最后一行作为DP数组，自底向上更新DP数组。
 
-```c++
+// ```c++
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -63,4 +63,4 @@ public:
         return dp[0];
     }
 };
-```
+// ```

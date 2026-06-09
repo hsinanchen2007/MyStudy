@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     struct point{
@@ -50,4 +50,4 @@ public:
         }
     }
 };
-```
+// ```

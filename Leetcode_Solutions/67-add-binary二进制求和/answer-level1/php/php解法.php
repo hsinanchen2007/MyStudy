@@ -1,4 +1,4 @@
-```
+// ```
 function addBinary($a, $b) {
     $an = strlen($a);
     $bn = strlen($b);
@@ -24,4 +24,4 @@ function addBinary($a, $b) {
     }
     return $a;
 }
-```
+// ```

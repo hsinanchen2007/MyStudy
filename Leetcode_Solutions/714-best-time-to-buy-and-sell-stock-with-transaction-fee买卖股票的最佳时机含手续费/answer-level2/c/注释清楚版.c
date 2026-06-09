@@ -1,9 +1,9 @@
-### 解题思路
-看题干，买入是不需要手续费的。在卖出的时候结算一次手续费。
+// ### 解题思路
+// 看题干，买入是不需要手续费的。在卖出的时候结算一次手续费。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int max(int a, int b)
 {
     return a > b ? (a) : (b);
@@ -22,4 +22,4 @@ int maxProfit(int* prices, int pricesSize, int fee) {
 
     return max(dp[pricesSize - 1][0], dp[pricesSize - 1][1]);
 }
-```
+// ```

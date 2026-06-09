@@ -1,9 +1,9 @@
-### 解题思路
-最大深度的一半就够了
+// ### 解题思路
+// 最大深度的一半就够了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
@@ -34,4 +34,4 @@ public:
     }
 };
 
-```
+// ```

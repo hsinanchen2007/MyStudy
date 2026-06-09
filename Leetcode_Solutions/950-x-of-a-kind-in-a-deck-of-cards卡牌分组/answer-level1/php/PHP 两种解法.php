@@ -1,5 +1,5 @@
-### 解法一 按题意暴力解法
-```php
+// ### 解法一 按题意暴力解法
+// ```php
 class Solution
 {
     function hasGroupsSizeX($deck)
@@ -22,12 +22,12 @@ class Solution
         return false;
     }
 }
-```
+// ```
 
 
-### 解法二 最大公约数解法
+// ### 解法二 最大公约数解法
 
-```php
+// ```php
 class Solution {
     public function hasGroupsSizeX($deck)
     {
@@ -47,4 +47,4 @@ class Solution {
         return $b == 0 ? $a : $this->gcd($b, $a % $b);
     }
 }
-```
+// ```

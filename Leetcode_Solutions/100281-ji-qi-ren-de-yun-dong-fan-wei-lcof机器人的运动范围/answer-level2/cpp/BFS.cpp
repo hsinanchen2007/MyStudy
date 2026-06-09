@@ -1,9 +1,9 @@
-### 解题思路
-BFS
+// ### 解题思路
+// BFS
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int movingCount(int m, int n, int k) {
@@ -45,4 +45,4 @@ public:
     private:
     vector<pair<int, int>>directions = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
 };
-```
+// ```

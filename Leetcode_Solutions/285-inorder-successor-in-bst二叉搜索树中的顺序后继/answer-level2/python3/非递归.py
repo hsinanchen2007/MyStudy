@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def inorderSuccessor(self, root: 'TreeNode', p: 'TreeNode') -> 'TreeNode':
         # 非递归
@@ -22,4 +22,4 @@ class Solution:
                 if node == p:
                     got_it = True
         return None
-```
+# ```

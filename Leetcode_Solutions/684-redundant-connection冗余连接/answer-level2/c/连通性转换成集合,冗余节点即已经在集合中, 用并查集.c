@@ -1,9 +1,9 @@
-### 解题思路
-> 连通图,可以转换成一个连通的集合, 冗余的边表示 两个顶点已经在集合中了; 一边构建连通集合一边检查, 遇到冗余的直接输出; 打败100%
+// ### 解题思路
+// > 连通图,可以转换成一个连通的集合, 冗余的边表示 两个顶点已经在集合中了; 一边构建连通集合一边检查, 遇到冗余的直接输出; 打败100%
 
-### 代码
+// ### 代码
 
-```c [groups1-c]
+// ```c [groups1-c]
 #define MAX_GROUPS_COUNT 1001
 int g_groups[MAX_GROUPS_COUNT];
 
@@ -53,9 +53,9 @@ int *findRedundantConnection(int **edges, int edgesSize, int *edgesColSize, int 
     *returnSize = 2;
     return result;
 }
-```
+// ```
 
-```python3 [groups1-python3]
+// ```python3 [groups1-python3]
 class Solution:
     def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
         groups = [i for i in range(1001)]
@@ -74,13 +74,13 @@ class Solution:
             groups[vg] = ug
         # should not run to here!!!
         return [0, 0]
-```
+// ```
 
-# 运行情况
-```
+// # 运行情况
+// ```
 执行用时 :4 ms, 在所有 C 提交中击败了100.00%的用户
 内存消耗 :5.6 MB, 在所有 C 提交中击败了100.00%的用户
 
 执行用时 :60 ms, 在所有 Python3 提交中击败了79.95%的用户
 内存消耗 :14.2 MB, 在所有 Python3 提交中击败了5.26%的用户
-```
+// ```

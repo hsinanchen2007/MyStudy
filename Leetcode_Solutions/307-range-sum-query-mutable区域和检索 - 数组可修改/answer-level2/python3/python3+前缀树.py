@@ -1,9 +1,9 @@
-### 解题思路
-直接撸一个前缀树就行
+# ### 解题思路
+# 直接撸一个前缀树就行
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class NumArray:
 
     def __init__(self, nums: List[int]):
@@ -64,4 +64,4 @@ class NumArray:
 # obj = NumArray(nums)
 # obj.update(i,val)
 # param_2 = obj.sumRange(i,j)
-```
+# ```

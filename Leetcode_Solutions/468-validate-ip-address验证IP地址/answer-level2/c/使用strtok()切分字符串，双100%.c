@@ -1,5 +1,5 @@
-这是对C充满恶意的一道题~
-```
+// 这是对C充满恶意的一道题~
+// ```
 #define NEITHER    "Neither"
 #define IPV4       "IPv4"
 #define IPV6       "IPv6"
@@ -87,4 +87,4 @@ char * validIPAddress(char * IP){
     
     return NEITHER;
 }
-```
+// ```

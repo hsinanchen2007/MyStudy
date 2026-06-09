@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool valid(const vector<int>& e1, const vector<int>& e2) {
@@ -40,6 +40,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/e70372cd307d344fe7bcdba0c3aad51e1f938e423d035f65b3e0d016c1311936-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e70372cd307d344fe7bcdba0c3aad51e1f938e423d035f65b3e0d016c1311936-image.png)

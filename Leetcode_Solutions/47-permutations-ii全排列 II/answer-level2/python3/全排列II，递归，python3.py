@@ -1,9 +1,9 @@
-### 解题思路
-一眼懂
+# ### 解题思路
+# 一眼懂
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
@@ -19,4 +19,4 @@ class Solution:
             if i>0 and nums[i] == nums[i-1]:
                 continue
             self.method(nums[:i]+nums[i+1:],temp+[nums[i]])
-```
+# ```

@@ -1,6 +1,6 @@
-不断地分糖，知道没有糖可分。
+// 不断地分糖，知道没有糖可分。
 
-```
+// ```
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

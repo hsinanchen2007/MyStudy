@@ -1,6 +1,6 @@
-呕心沥血写的注释 大傻子都能看懂
+// 呕心沥血写的注释 大傻子都能看懂
 
-```
+// ```
 class Solution {
     public boolean isMatch(String s, String p) {
         int slen=s.length();
@@ -67,4 +67,4 @@ class Solution {
         return dp[slen][plen];
     }
 }
-```
+// ```

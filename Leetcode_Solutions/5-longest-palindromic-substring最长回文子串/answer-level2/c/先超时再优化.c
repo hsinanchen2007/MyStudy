@@ -1,5 +1,5 @@
-先超时，再试着自己优化立个flag
-```
+// 先超时，再试着自己优化立个flag
+// ```
 int isPalindrome(char *s, int i, int j)
 {
     while(i <= j)
@@ -45,4 +45,4 @@ char *longestPalindrome(char *s)
     //printf("%s", ret);
     return ret;
 }
-```
+// ```

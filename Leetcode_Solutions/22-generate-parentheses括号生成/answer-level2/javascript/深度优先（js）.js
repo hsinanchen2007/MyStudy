@@ -1,10 +1,10 @@
-### 解题思路
-![微信截图_20200408104750.png](https://pic.leetcode-cn.com/56eeffa87727ac44e06da73881bf9373f5182988f1955ce6bf381382bab4120c-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200408104750.png)
+// ### 解题思路
+// ![微信截图_20200408104750.png](https://pic.leetcode-cn.com/56eeffa87727ac44e06da73881bf9373f5182988f1955ce6bf381382bab4120c-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200408104750.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -32,4 +32,4 @@ var generateParenthesis = function(n) {
     return res;
 };
 
-```
+// ```

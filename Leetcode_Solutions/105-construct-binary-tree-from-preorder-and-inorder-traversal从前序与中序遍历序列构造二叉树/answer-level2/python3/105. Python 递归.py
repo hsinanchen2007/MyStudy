@@ -1,9 +1,9 @@
-### 解题思路
-这道题的思路我觉得不需要多啰嗦，用递归做是标准解法。
+# ### 解题思路
+# 这道题的思路我觉得不需要多啰嗦，用递归做是标准解法。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution(object):
             root.right = get_res(preorder[ind + 1:], inorder[ind + 1:])
             return root
         return get_res(preorder, inorder)
-```
+# ```

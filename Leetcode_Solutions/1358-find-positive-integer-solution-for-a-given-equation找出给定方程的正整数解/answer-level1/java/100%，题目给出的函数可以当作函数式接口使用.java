@@ -1,13 +1,13 @@
-### 解题思路
-双指针，思路清晰
-本地测试可以使用 BiFunction<Integer, Integer, Integer> function = (x, y) -> x + y; 
-模拟 + ， * 类似。 当然BinaryOperator extends BiFunction 同样可以
-附上本地测试代码
-` BiFunction<Integer, Integer, Integer> function = (x, y) -> x + y;`
-` System.out.println(findSolution(function, 5));`
-### 代码
+// ### 解题思路
+// 双指针，思路清晰
+// 本地测试可以使用 BiFunction<Integer, Integer, Integer> function = (x, y) -> x + y; 
+// 模拟 + ， * 类似。 当然BinaryOperator extends BiFunction 同样可以
+// 附上本地测试代码
+// ` BiFunction<Integer, Integer, Integer> function = (x, y) -> x + y;`
+// ` System.out.println(findSolution(function, 5));`
+// ### 代码
 
-```java
+// ```java
 /*
  * // This is the custom function interface.
  * // You should not implement it, or speculate about its implementation
@@ -39,4 +39,4 @@ class Solution {
 		return res;
     }
 }
-```
+// ```

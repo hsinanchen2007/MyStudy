@@ -1,4 +1,4 @@
-```
+// ```
 int compare(const void *p1, const void *p2)
 {
     int *e1 = *(int **) p1;
@@ -43,4 +43,4 @@ int** merge(int** intervals, int intervalsSize, int* intervalsColSize, int* retu
     return returnValue;
 
 }
-```
+// ```

@@ -1,5 +1,5 @@
-使用26长度的repo数组存储所有big中字母的坐标，扫描模式串数组，通过首字母定位repo数组，以此来知道big中有没有这个字母，如果有那就比较子串，可以先把big哈希出来，然后在遍历每个子串也把子串哈希了，比较相等就是O(1)的而不是O(N)。
-```
+// 使用26长度的repo数组存储所有big中字母的坐标，扫描模式串数组，通过首字母定位repo数组，以此来知道big中有没有这个字母，如果有那就比较子串，可以先把big哈希出来，然后在遍历每个子串也把子串哈希了，比较相等就是O(1)的而不是O(N)。
+// ```
 func multiSearch(big string, smalls []string) [][]int {
     n := len(smalls)
     if n == 0 {
@@ -35,4 +35,4 @@ func multiSearch(big string, smalls []string) [][]int {
     }
     return res
 }
-```
+// ```

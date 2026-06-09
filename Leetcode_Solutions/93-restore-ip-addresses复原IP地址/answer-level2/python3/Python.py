@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
         res = []    # 定义全局变量保存最终结果
@@ -22,4 +22,4 @@ class Solution:
                     back(state+[temp_num],i+1,deep+1)
         back(state,0,deep)
         return res
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-思路很简单，postorder遍历下树，每个节点比较下左右子树高度。
-只是写的时候又踩坑了，如果只有一棵子树，最小值只能是那颗子树的高度，因为它并不是叶子结点。
-最尴尬的是题目的note:A leaf node is a node with no children.
+// ### 解题思路
+// 思路很简单，postorder遍历下树，每个节点比较下左右子树高度。
+// 只是写的时候又踩坑了，如果只有一棵子树，最小值只能是那颗子树的高度，因为它并不是叶子结点。
+// 最尴尬的是题目的note:A leaf node is a node with no children.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:
         return min(leftDepth,rightDepth) + 1;
     }
 };
-```
+// ```

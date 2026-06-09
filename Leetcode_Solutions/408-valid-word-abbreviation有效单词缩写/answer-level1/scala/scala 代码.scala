@@ -1,7 +1,7 @@
-1、不应该遍历未压缩的字符串，因为它可能很长
-2、 解析压缩字符串，比如"w3d"，表示第0个字符为w， 第4个字符为d
-3、一些特殊情况，数字不能以0开头，以及总长度相等。
-```
+// 1、不应该遍历未压缩的字符串，因为它可能很长
+// 2、 解析压缩字符串，比如"w3d"，表示第0个字符为w， 第4个字符为d
+// 3、一些特殊情况，数字不能以0开头，以及总长度相等。
+// ```
 object Solution {
     def validWordAbbreviation(word: String, abbr: String): Boolean = {
         def f(l:List[Char], i:Int, tmp:Int, acc:List[(Int, Char)]):List[(Int, Char)] = l match {
@@ -31,4 +31,4 @@ object Solution {
         (f(abbr.toArray.toList, 0, 0, Nil) forall {case (i, char) =>if(i >= word.length) false else word(i) == char})
     }
 }
-```
+// ```

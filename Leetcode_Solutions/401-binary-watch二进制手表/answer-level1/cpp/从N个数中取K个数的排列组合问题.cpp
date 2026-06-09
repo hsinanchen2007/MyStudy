@@ -1,8 +1,8 @@
-//n个数中取k个数
-//参考：https://blog.csdn.net/hf19931101/article/details/79452799  
-递归写法：
+// //n个数中取k个数
+// //参考：https://blog.csdn.net/hf19931101/article/details/79452799  
+// 递归写法：
 
-```
+// ```
 class Solution {
 public:
   
@@ -77,10 +77,10 @@ public:
         return results;
     }
 };
-```
+// ```
 
-非递归写法：
-```
+// 非递归写法：
+// ```
 class Solution {
 public:
     
@@ -152,4 +152,4 @@ public:
         return dfs(minMap,10,num);
     }
 };
-```
+// ```

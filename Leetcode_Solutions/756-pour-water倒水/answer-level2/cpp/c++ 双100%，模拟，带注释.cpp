@@ -1,9 +1,9 @@
-### 解题思路
-主要思路是区分左右两侧不同的操作，分开来处理，处理思路完全一致
+// ### 解题思路
+// 主要思路是区分左右两侧不同的操作，分开来处理，处理思路完全一致
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> pourWater(vector<int>& heights, int V, int K) {
@@ -52,4 +52,4 @@ public:
         }
     }
 };
-```
+// ```

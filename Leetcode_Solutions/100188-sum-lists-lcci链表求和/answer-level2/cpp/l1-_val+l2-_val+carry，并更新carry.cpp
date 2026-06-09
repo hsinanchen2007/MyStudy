@@ -1,10 +1,10 @@
-### 解题思路
-每次相加都是l1->val+l2->val+carry，并且根据结果更新carry。
-需要注意的是最后有可能进位不为0，需要创建一个新节点，该节点的值为carry。
+// ### 解题思路
+// 每次相加都是l1->val+l2->val+carry，并且根据结果更新carry。
+// 需要注意的是最后有可能进位不为0，需要创建一个新节点，该节点的值为carry。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ public:
         return h->next;
     }
 };
-```
+// ```

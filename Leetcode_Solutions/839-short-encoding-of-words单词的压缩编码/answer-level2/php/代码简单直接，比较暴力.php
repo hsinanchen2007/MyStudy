@@ -1,8 +1,8 @@
-### 解题思路
-利用字符串统计字串出现次数
-### 代码
+// ### 解题思路
+// 利用字符串统计字串出现次数
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -26,4 +26,4 @@ class Solution {
         return strlen($str_words) - $left_nums - 1;
     }
 }
-```
+// ```

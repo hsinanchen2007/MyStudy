@@ -1,9 +1,9 @@
-### 解题思路
-数组和链表两种方式
+// ### 解题思路
+// 数组和链表两种方式
 
-### 方法一：数组形式
+// ### 方法一：数组形式
 
-```java
+// ```java
 class MyCircularQueue {
     private int[] nums;
     private int size;
@@ -73,10 +73,10 @@ class MyCircularQueue {
         return front == (tail+1) % size;
     }
 }
-```
+// ```
 
-### 方法二: 链表
-```java
+// ### 方法二: 链表
+// ```java
 class Node{
     public int value;
     public  Node nextNode;
@@ -156,4 +156,4 @@ class MyCircularQueue {
     }
 }
 
-```
+// ```

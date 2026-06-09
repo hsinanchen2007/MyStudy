@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-最开始忽略了字符串剩余字符，后面加上，完美解决
-### 代码
+// 最开始忽略了字符串剩余字符，后面加上，完美解决
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean oneEditAway(String first, String second) {
         int len1 = first.length();
@@ -33,4 +33,4 @@ class Solution {
         return count + Math.abs(index1 - len1) + Math.abs(index2 - len2) < 2;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```js
+// ```js
 var deleteDuplicates = function(head, preVal = null) {
   if (!head) return head;
 
@@ -12,4 +12,4 @@ var deleteDuplicates = function(head, preVal = null) {
 
   return head;
 };
-```
+// ```

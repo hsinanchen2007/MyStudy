@@ -1,10 +1,10 @@
-用了双向队列保存。
-依靠层数判断是否要倒着读还是顺着读，可能因为push_back的有点多，所以有点慢。
-比如从front开始取的时候，push就到back，然后front已经是下一层的了，就要翻转了。
-翻转之后从back开始取，push到front，到back已经是下一层的时候，就正着读。
-再用层数当下标，push到result数组里就好了，前面加一个判断，result数组空间不足时，加一层。
+// 用了双向队列保存。
+// 依靠层数判断是否要倒着读还是顺着读，可能因为push_back的有点多，所以有点慢。
+// 比如从front开始取的时候，push就到back，然后front已经是下一层的了，就要翻转了。
+// 翻转之后从back开始取，push到front，到back已经是下一层的时候，就正着读。
+// 再用层数当下标，push到result数组里就好了，前面加一个判断，result数组空间不足时，加一层。
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -45,4 +45,4 @@ public:
         return res;
     }
 };
-```
+// ```

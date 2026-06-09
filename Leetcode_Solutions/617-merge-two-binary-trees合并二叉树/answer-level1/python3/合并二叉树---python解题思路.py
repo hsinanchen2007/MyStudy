@@ -1,12 +1,12 @@
-套递归模板
+# 套递归模板
 
-1.**递归终止条件**  两个二叉树都遍历完毕
+# 1.**递归终止条件**  两个二叉树都遍历完毕
 
-2.**本次递归做什么** 把当前节点根据题目要求进行合并到t1，但是要注意一个问题，递归前要先判断一下如果t2 有left t1一定也要有 left （因为我们把新的树直接合在t1）不然到下一次递归的时候想要把新建立的节点和之前的树进行连接就很麻烦，所以在本次递归的时候就进行判断，如果 t2 有left 那就对应得创建一个新的 t1的left , right同理
+# 2.**本次递归做什么** 把当前节点根据题目要求进行合并到t1，但是要注意一个问题，递归前要先判断一下如果t2 有left t1一定也要有 left （因为我们把新的树直接合在t1）不然到下一次递归的时候想要把新建立的节点和之前的树进行连接就很麻烦，所以在本次递归的时候就进行判断，如果 t2 有left 那就对应得创建一个新的 t1的left , right同理
 
-3.**返回什么** 合并后的新树
+# 3.**返回什么** 合并后的新树
 
-```python
+# ```python
 class Solution:
     def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
         # 迭代结束条件1：两个树的节点都为空了
@@ -22,11 +22,11 @@ class Solution:
             self.mergeTrees(t1.left, t2.left)
             self.mergeTrees(t1.right, t2.right)
         return t1
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :100 ms, 在所有 python3 提交中击败了42.74% 的用户
 内存消耗 :13.1 MB, 在所有 python3 提交中击败了100.00%的用户
 
@@ -35,11 +35,11 @@ class Solution:
 
 执行用时 :88 ms, 在所有 python3 提交中击败了79.09% 的用户
 内存消耗 :13.1 MB, 在所有 python3 提交中击败了100.00%的用户
-```
+# ```
 
-虽然也能通过，但是看了一下其他大神的答案，发现自己这个还是不够美观，改一下
+# 虽然也能通过，但是看了一下其他大神的答案，发现自己这个还是不够美观，改一下
 
-```python
+# ```python
 class Solution:
     def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
         if t1 and t2 :
@@ -53,11 +53,11 @@ class Solution:
             return t1
        	# 这个or就很好用， 如果t1存在就返回t1 否则就返回t2
         return t1 or t2
-```
+# ```
 
-但是上面这样还不是标准的递归，其实 t1 可以直接用递归来赋值,下面就是最终的代码
+# 但是上面这样还不是标准的递归，其实 t1 可以直接用递归来赋值,下面就是最终的代码
 
-```python
+# ```python
 class Solution:
     def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
         if t1 and t2 :
@@ -66,11 +66,11 @@ class Solution:
             t1.right = self.mergeTrees(t1.right, t2.right)
             return t1
         return t1 or t2
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :84 ms, 在所有 python3 提交中击败了91.20% 的用户
 内存消耗 :13.1 MB, 在所有 python3 提交中击败了100.00%的用户
 
@@ -79,8 +79,8 @@ class Solution:
 
 执行用时 :76 ms, 在所有 python3 提交中击败了98.92% 的用户
 内存消耗 :12.9 MB, 在所有 python3 提交中击败了100.00%的用户
-```
+# ```
 
-不知道是LeetCode的原因还是真的变快了一点
+# 不知道是LeetCode的原因还是真的变快了一点
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)

@@ -1,16 +1,16 @@
-首先对于这一题可以分析一下样例：
-String[] paths = {"root/a 1.txt(abcd) 2.txt(efgh)", "root/c 3.txt(abcd)", "root/c/d 4.txt(efgh)", "root 4.txt(efgh)"};
-文件路径和文件名之间由空格隔开，从而用split函数可以**分割出路径名 和 文件名**。
-对于每个 paths[i] 都有一个分割出的String数组 check，**check[0]就是路径名**（由于一个路径中存在多个文件，还是遍历后面的文件名比较合适）。
+// 首先对于这一题可以分析一下样例：
+// String[] paths = {"root/a 1.txt(abcd) 2.txt(efgh)", "root/c 3.txt(abcd)", "root/c/d 4.txt(efgh)", "root 4.txt(efgh)"};
+// 文件路径和文件名之间由空格隔开，从而用split函数可以**分割出路径名 和 文件名**。
+// 对于每个 paths[i] 都有一个分割出的String数组 check，**check[0]就是路径名**（由于一个路径中存在多个文件，还是遍历后面的文件名比较合适）。
 
-接下来有这么几种情况：
-1. 前面没有出现过的内容，map<String,Integer>中压入**check[i].substring(left,right)** 和 **index**。
-`index 即为 ans.get(index)，即该文件所应该加入的列表`
-重新创建一个 list，并向其中添加文件的绝对路径：check[0] + "/" + check[i].substring(0,left - 1)，将 list 加入 ans 中；
-2. 前面出现过的内容，找到其对应的index，再向 ans.get(index) 中加入即可
+// 接下来有这么几种情况：
+// 1. 前面没有出现过的内容，map<String,Integer>中压入**check[i].substring(left,right)** 和 **index**。
+// `index 即为 ans.get(index)，即该文件所应该加入的列表`
+// 重新创建一个 list，并向其中添加文件的绝对路径：check[0] + "/" + check[i].substring(0,left - 1)，将 list 加入 ans 中；
+// 2. 前面出现过的内容，找到其对应的index，再向 ans.get(index) 中加入即可
 
-代码如下：
-```
+// 代码如下：
+// ```
 class Solution {
     public List<List<String>> findDuplicate(String[] paths) {
         HashMap<String,Integer> map = new HashMap<>();
@@ -44,6 +44,6 @@ class Solution {
         return ans;
     }
 }
-```
-（为啥把提交的代码复制过来之后排版会变成这样呢？QWQ）
-（方法可能不够高效，请各位大佬多多包含，顺便可以提提建议）
+// ```
+// （为啥把提交的代码复制过来之后排版会变成这样呢？QWQ）
+// （方法可能不够高效，请各位大佬多多包含，顺便可以提提建议）

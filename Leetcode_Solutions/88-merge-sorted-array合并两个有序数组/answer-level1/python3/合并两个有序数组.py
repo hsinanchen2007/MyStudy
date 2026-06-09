@@ -1,5 +1,5 @@
-## 堆(两个数组必须有序)
-```
+# ## 堆(两个数组必须有序)
+# ```
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -7,18 +7,18 @@ class Solution:
         """
         import heapq
         nums1[0:m+n] = list(heapq.merge(nums1[0:m], nums2))
-```
-## sorted
-```
+# ```
+# ## sorted
+# ```
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
         Do not return anything, modify nums1 in-place instead.
         """
         nums1[0:m+n] = sorted(nums2 + nums1[0:m])
-```
-## 归并排序的merge
-```
+# ```
+# ## 归并排序的merge
+# ```
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -34,4 +34,4 @@ class Solution:
                 i -= 1
         if j >= 0:
             nums1[0:j+1] = nums2[0:j+1]
-```
+# ```

@@ -1,19 +1,19 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/6ca021ec26d9a269efc91ff16d2b4d6100b1be71ef9851453353f82ea633be2d-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/6ca021ec26d9a269efc91ff16d2b4d6100b1be71ef9851453353f82ea633be2d-image.png)
 
 
-除了双指针法，还可以用二分法来求解，但由于二分法需要数组有序，所以首先要排序。
-二分法的核心在于找到要删除val的第一个位置,即l，和最后一个位置，即r，然后再从l开始，
-将r+1后的数组赋值。
-此题所用如下二分法模板可参照：
-https://leetcode-cn.com/explore/learn/card/binary-search/210/template-ii/839/
+// 除了双指针法，还可以用二分法来求解，但由于二分法需要数组有序，所以首先要排序。
+// 二分法的核心在于找到要删除val的第一个位置,即l，和最后一个位置，即r，然后再从l开始，
+// 将r+1后的数组赋值。
+// 此题所用如下二分法模板可参照：
+// https://leetcode-cn.com/explore/learn/card/binary-search/210/template-ii/839/
 
-此题也可以通过这种方法求解：
-https://leetcode-cn.com/explore/learn/card/binary-search/211/template-iii/844/
+// 此题也可以通过这种方法求解：
+// https://leetcode-cn.com/explore/learn/card/binary-search/211/template-iii/844/
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void BubbleSort(int *A, int len){
     for(int i=0;i<len-1;i++){
         int flag=1;
@@ -81,4 +81,4 @@ int removeElement(int* nums, int numsSize, int val) {
 	}
 	return len;
 }
-```
+// ```

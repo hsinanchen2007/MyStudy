@@ -1,10 +1,10 @@
-**思路**:在分组的基础上对结果有影响的其实就只有三种情况
-	- 1.如:aabaaa<-两组可以合并成一个新组
-	- 2.如:abbaaa<-较长的一组可以长度+1
-	- 3.1-2的结合 如:aabaaacdea<-aaaaaacdeb
-**注意**:之所以我觉得这方法还可以主要是因为py3有提供groupby,defaultdict,Counter...写起来比较方便 ac之后有看到大佬们的滑动窗口法 那当然更好 本人菜鸡 主要的语句都添加了注释(详见py版本 go版本只对部分区别于py的语句加了注释) 还请大家多多指教
+# **思路**:在分组的基础上对结果有影响的其实就只有三种情况
+# 	- 1.如:aabaaa<-两组可以合并成一个新组
+# 	- 2.如:abbaaa<-较长的一组可以长度+1
+# 	- 3.1-2的结合 如:aabaaacdea<-aaaaaacdeb
+# **注意**:之所以我觉得这方法还可以主要是因为py3有提供groupby,defaultdict,Counter...写起来比较方便 ac之后有看到大佬们的滑动窗口法 那当然更好 本人菜鸡 主要的语句都添加了注释(详见py版本 go版本只对部分区别于py的语句加了注释) 还请大家多多指教
 
-```python []
+# ```python []
 from itertools import groupby
 from collections import defaultdict,Counter
 class Solution:
@@ -29,8 +29,8 @@ class Solution:
 				else: #上面的第二个示例 可以调换两组之外的一个相应字符作为两段的纽带
 					p_ans[t_aft]=max(p_ans[t_aft],legt[i-2]+legt[i]+1)
 		return max(p_ans.values())
-```
-```golang []
+# ```
+# ```golang []
 func maxRepOpt1(text string) (ans int) {
 	s_slice:=[]rune{}
 	for _,i:=range text+" " { //对字符串range遍历就相当于string->[]rune再遍历
@@ -82,6 +82,6 @@ func maxRepOpt1(text string) (ans int) {
 	}
 	return
 }
-```
+# ```
 
 

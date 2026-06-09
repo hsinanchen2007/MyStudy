@@ -1,11 +1,11 @@
-### 解题思路
-当num=0结束
-当num为偶数，num=num/2 计数加一
-当num为奇数，num=num-1 计数加一
+# ### 解题思路
+# 当num=0结束
+# 当num为偶数，num=num/2 计数加一
+# 当num为奇数，num=num-1 计数加一
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numberOfSteps (self, num):
         i = 0
@@ -18,4 +18,4 @@ class Solution(object):
             num = num - 1
             i = 1 + self.numberOfSteps(num)
         return i
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-窗口大小：i~j
-用hashmap来检查某字符是否在窗口中
+// ### 解题思路
+// 窗口大小：i~j
+// 用hashmap来检查某字符是否在窗口中
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
     int n = strlen(s);
     int hashmap[95] = {0};
@@ -25,4 +25,4 @@ int lengthOfLongestSubstring(char * s){
     }
     return max;
 }
-```
+// ```

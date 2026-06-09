@@ -1,9 +1,9 @@
-### 解题思路
-看注释吧，看完就会BFS了，BFS和先入先出的队列是分不开的。
+// ### 解题思路
+// 看注释吧，看完就会BFS了，BFS和先入先出的队列是分不开的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 //BFS
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
@@ -66,4 +66,4 @@ class Solution {
 
 
 
-```
+// ```

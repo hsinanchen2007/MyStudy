@@ -1,6 +1,6 @@
-两个串都转成数组
+// 两个串都转成数组
 
-设置空数组，如果有#则删除最后一个元素，通过array_splice或者array_pop都行
+// 设置空数组，如果有#则删除最后一个元素，通过array_splice或者array_pop都行
 
 function backspaceCompare($S, $T) {
         $s_arr = str_split($S);

@@ -1,9 +1,9 @@
-### 解题思路
-做法就是在线性时间用双数组先把对应的乘数都计算出来
+# ### 解题思路
+# 做法就是在线性时间用双数组先把对应的乘数都计算出来
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def constructArr(self, a: List[int]) -> List[int]:
         C = [1 for _ in range(len(a))]
@@ -19,4 +19,4 @@ class Solution:
             B[i] = C[i] * D[i]
             
         return B
-```
+# ```

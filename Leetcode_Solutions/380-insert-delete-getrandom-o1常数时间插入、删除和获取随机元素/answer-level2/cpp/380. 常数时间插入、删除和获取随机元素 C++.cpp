@@ -1,17 +1,17 @@
-### 解题思路
-使用两张hash表
+// ### 解题思路
+// 使用两张hash表
 
-map1 存 (val，索引)
-map2 存 (索引，val)
+// map1 存 (val，索引)
+// map2 存 (索引，val)
 
-getRandom 等概率随机返回： map2[(rand() % size)]
+// getRandom 等概率随机返回： map2[(rand() % size)]
 
-注意：因为删除操作会把原来连续的索引值变得不连续，中间有空缺，此时无法使用rand()在常数时间获取到有效值  
-     需要在删除操作中把删除后留下的空缺填补上
+// 注意：因为删除操作会把原来连续的索引值变得不连续，中间有空缺，此时无法使用rand()在常数时间获取到有效值  
+//      需要在删除操作中把删除后留下的空缺填补上
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class RandomizedSet {
 public:
     /** Initialize your data structure here. */
@@ -73,4 +73,4 @@ private:
     int m_size;
 
 };
-```
+// ```

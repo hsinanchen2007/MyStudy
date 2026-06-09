@@ -1,11 +1,11 @@
-### 解题思路
-* 方法三：动态规划-自下而上
-* 没有采用官方的Arrays.fill(dp,amount+1),这样不容易理解
-* dp[(long)i+ coins[j]中要把i金额转换为long型，避免coins-j给定一个很大整数造成越界。
+// ### 解题思路
+// * 方法三：动态规划-自下而上
+// * 没有采用官方的Arrays.fill(dp,amount+1),这样不容易理解
+// * dp[(long)i+ coins[j]中要把i金额转换为long型，避免coins-j给定一个很大整数造成越界。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int coinChange(int[] coins, int amount) {
         if(amount == 0) {
@@ -37,4 +37,4 @@ class Solution {
     }
      
 }
-```
+// ```

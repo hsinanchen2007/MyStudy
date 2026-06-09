@@ -1,9 +1,9 @@
-### 解题思路
-当 n 为 INT_MIN 时， 如果取负号， 整型变量会溢出。可以先让其加上 1, 再取负号。
+// ### 解题思路
+// 当 n 为 INT_MIN 时， 如果取负号， 整型变量会溢出。可以先让其加上 1, 再取负号。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double myPow(double x, int n) {
@@ -32,4 +32,4 @@ public:
         return t1;
     }
 };
-```
+// ```

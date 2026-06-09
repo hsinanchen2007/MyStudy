@@ -1,6 +1,6 @@
 
 
-```java
+// ```java
 class CQueue {
 
     Stack<Integer> head = new Stack<>();
@@ -31,4 +31,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

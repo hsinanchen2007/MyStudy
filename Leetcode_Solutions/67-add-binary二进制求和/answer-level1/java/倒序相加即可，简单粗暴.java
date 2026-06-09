@@ -1,4 +1,4 @@
-```
+// ```
 public String addBinary(String a, String b) {
         //1. 非空字符串 2. 倒序相加即可
         int al = a.length();
@@ -25,4 +25,4 @@ public String addBinary(String a, String b) {
         }
         return sb.toString();
     }
-```
+// ```

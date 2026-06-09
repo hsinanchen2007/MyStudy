@@ -1,5 +1,5 @@
-这个只需要判别前一个是不是刚被访问过，如果是则进行剪枝：
-```
+// 这个只需要判别前一个是不是刚被访问过，如果是则进行剪枝：
+// ```
 class Solution {
 public:
     int preVisit=INT_MIN;
@@ -27,4 +27,4 @@ public:
         return res;
     }
 };
-```
+// ```

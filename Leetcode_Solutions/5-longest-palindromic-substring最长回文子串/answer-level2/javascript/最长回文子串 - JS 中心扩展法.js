@@ -1,10 +1,10 @@
-### 解题思路
-中心扩展法, 根据回文数的特性： 对称结构。
-有两种情况   aba  ||  aa
+// ### 解题思路
+// 中心扩展法, 根据回文数的特性： 对称结构。
+// 有两种情况   aba  ||  aa
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -61,4 +61,4 @@ var getStr = ( s, i , j) => {
 //     }
 //     return true
 // };
-```
+// ```

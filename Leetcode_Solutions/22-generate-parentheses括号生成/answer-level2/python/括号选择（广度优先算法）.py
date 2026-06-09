@@ -1,8 +1,8 @@
-利用广度搜索算法来求解。
+# 利用广度搜索算法来求解。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def generateParenthesis(self, n):
         """
@@ -22,4 +22,4 @@ class Solution(object):
         return result   
 
       
-```
+# ```

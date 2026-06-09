@@ -1,9 +1,9 @@
-### 解题思路
-最难是读题。
-读懂以后，思路见下面
-### 代码
+// ### 解题思路
+// 最难是读题。
+// 读懂以后，思路见下面
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int surfaceArea(int[][] grid) {
     	int area= 0;
@@ -28,4 +28,4 @@ class Solution {
 		return area*6-(vOverlap+rOverlap+cOverlap)*2;    
     }
 }
-```
+// ```

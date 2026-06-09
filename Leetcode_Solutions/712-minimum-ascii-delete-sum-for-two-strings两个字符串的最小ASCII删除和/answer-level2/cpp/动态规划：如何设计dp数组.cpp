@@ -1,6 +1,6 @@
-1. dp[i][j]代表的含义很重要,会影响状态转移方程的设计。
-2. 设计dp数组的维度，可按情况增添行列，以防处理边界情况。
-```
+// 1. dp[i][j]代表的含义很重要,会影响状态转移方程的设计。
+// 2. 设计dp数组的维度，可按情况增添行列，以防处理边界情况。
+// ```
 class Solution {
 public:
     int minimumDeleteSum(string s1, string s2) {
@@ -33,5 +33,5 @@ public:
         return dp[0][0];
     }
 };
-```
-![屏幕快照 2020-02-24 上午9.24.51.png](https://pic.leetcode-cn.com/3eaaae4c4ba78a175173b3f3628667c09e097542e6aae65496de3e5a74bb9dd1-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-24%20%E4%B8%8A%E5%8D%889.24.51.png)
+// ```
+// ![屏幕快照 2020-02-24 上午9.24.51.png](https://pic.leetcode-cn.com/3eaaae4c4ba78a175173b3f3628667c09e097542e6aae65496de3e5a74bb9dd1-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-02-24%20%E4%B8%8A%E5%8D%889.24.51.png)

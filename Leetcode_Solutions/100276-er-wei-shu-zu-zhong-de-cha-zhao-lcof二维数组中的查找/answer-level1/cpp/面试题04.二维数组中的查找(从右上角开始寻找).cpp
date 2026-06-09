@@ -1,5 +1,5 @@
-从右上角开始寻找，也可从左下角开始
-```
+// 从右上角开始寻找，也可从左下角开始
+// ```
 class Solution {
 public:
     bool findNumberIn2DArray(vector<vector<int>>& matrix, int target) {
@@ -12,4 +12,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int magicalString(int n) {
@@ -9,4 +9,4 @@ public:
         return count(s.begin(), s.begin() + n, '1');
     }
 };
-```
+// ```

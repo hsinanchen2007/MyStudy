@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
-暴力遍历，不费脑子
+// ### 代码
+// 暴力遍历，不费脑子
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int flipgame(vector<int>& fronts, vector<int>& backs) {
@@ -23,4 +23,4 @@ public:
         return ans;
     }
 };
-```
+// ```

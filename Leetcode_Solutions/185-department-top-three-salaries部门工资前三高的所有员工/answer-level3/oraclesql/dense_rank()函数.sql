@@ -1,10 +1,10 @@
-### 解题思路
-此题不能使用常规的row_number()函数，因为可能存在两个工资并列的情况
-所以要用dense_rank()要解题
+-- ### 解题思路
+-- 此题不能使用常规的row_number()函数，因为可能存在两个工资并列的情况
+-- 所以要用dense_rank()要解题
 
-### 代码
+-- ### 代码
 
-```oraclesql
+-- ```oraclesql
 /* Write your PL/SQL query statement below */
 
 select n.Department, n.Employee, n.Salary  from 
@@ -25,4 +25,4 @@ from
 where n.rm < 4
 
 
-```
+-- ```

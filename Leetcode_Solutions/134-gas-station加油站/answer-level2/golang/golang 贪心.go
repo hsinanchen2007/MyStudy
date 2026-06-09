@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canCompleteCircuit(gas []int, cost []int) int {
     var length = len(gas)
     var surplus int
@@ -21,4 +21,4 @@ func canCompleteCircuit(gas []int, cost []int) int {
 
 
 
-```
+// ```

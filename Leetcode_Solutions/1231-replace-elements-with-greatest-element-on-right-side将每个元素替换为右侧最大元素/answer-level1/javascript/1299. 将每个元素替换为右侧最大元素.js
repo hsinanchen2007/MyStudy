@@ -1,9 +1,9 @@
-### 解题思路
-从后向前遍历, 同时记录当前遇到过的最大值
+// ### 解题思路
+// 从后向前遍历, 同时记录当前遇到过的最大值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {number[]}
@@ -19,4 +19,4 @@ var replaceElements = function(arr) {
     }
     return arr
 };
-```
+// ```

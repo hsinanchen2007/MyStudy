@@ -1,4 +1,4 @@
-```js
+// ```js
 var longestPalindrome = function(s) {
     let map = new Map();
     let num = 0;
@@ -26,4 +26,4 @@ var longestPalindrome = function(s) {
     }
     return num;
 };
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-思路很简单，将原向量种的每一个数放到数轴上，并且区间左边的附上一个-（在pair里表示为second=0)，区间右边的附加一个负号（在pair里表示为1
-### 代码
+// ### 解题思路
+// 思路很简单，将原向量种的每一个数放到数轴上，并且区间左边的附上一个-（在pair里表示为second=0)，区间右边的附加一个负号（在pair里表示为1
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool mycmp(pair<int,bool>a,pair<int,bool>b){
@@ -51,4 +51,4 @@ public:
     }
 };
 
-```
+// ```

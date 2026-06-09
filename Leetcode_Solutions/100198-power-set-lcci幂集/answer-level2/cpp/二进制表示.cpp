@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -19,5 +19,5 @@ public:
         return res;
     }
 };
-```
-去除最高位之后，之前的子集一定已经计算过（即temp），可以直接加以使用。
+// ```
+// 去除最高位之后，之前的子集一定已经计算过（即temp），可以直接加以使用。

@@ -1,5 +1,5 @@
-今天又涨知识了，原来BigInteger可以进制转换，临时百度的，之前只知道大数取模很好用，就是不知道速度怎么样
-```
+// 今天又涨知识了，原来BigInteger可以进制转换，临时百度的，之前只知道大数取模很好用，就是不知道速度怎么样
+// ```
 import java.math.BigInteger;
 class Solution {
     public int numSteps(String s) {
@@ -22,4 +22,4 @@ class Solution {
         return step;
     }
 }
-```
+// ```

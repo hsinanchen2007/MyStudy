@@ -1,9 +1,9 @@
-### 解题思路
-通过两个快慢指针实现，当快指针没有next后停止，慢指针即为所找的中间节点。
+// ### 解题思路
+// 通过两个快慢指针实现，当快指针没有next后停止，慢指针即为所找的中间节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ class Solution {
         return slowPoint;
     }
 }
-```
+// ```

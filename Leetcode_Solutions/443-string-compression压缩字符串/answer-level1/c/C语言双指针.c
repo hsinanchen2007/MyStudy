@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-虽然题目里面的测试数据最多两位数，但是还是考虑最多四位的情况，使用test[4]数组进行存储
-另外使用start,end双指针来进行判断
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 虽然题目里面的测试数据最多两位数，但是还是考虑最多四位的情况，使用test[4]数组进行存储
+// 另外使用start,end双指针来进行判断
+// ### 代码
 
-```c
+// ```c
 int compress(char* chars, int charsSize){
     int start=0,end=0;
     int flag=0;
@@ -33,4 +33,4 @@ int compress(char* chars, int charsSize){
     }
     return flag;
 }
-```
+// ```

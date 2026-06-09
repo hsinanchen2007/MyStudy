@@ -1,12 +1,12 @@
-### 解题思路
-直接模拟十进制加法的计算过程
-sum(i) = (a(i) + b(i) + carry(i - 1) % 10
-carry(i) = (a(i) + b(i) + carry(i - 1) / 10
+// ### 解题思路
+// 直接模拟十进制加法的计算过程
+// sum(i) = (a(i) + b(i) + carry(i - 1) % 10
+// carry(i) = (a(i) + b(i) + carry(i - 1) / 10
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addStrings(String num1, String num2) {
         StringBuilder sb = new StringBuilder();
@@ -33,4 +33,4 @@ class Solution {
     	return sb.toString();
     }
 }
-```
+// ```

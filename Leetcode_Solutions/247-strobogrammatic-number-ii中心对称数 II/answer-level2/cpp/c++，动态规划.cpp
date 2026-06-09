@@ -1,5 +1,5 @@
-始终在中心插入一个（dp[1]）或两个（dp[2]）对称的元素。注意特殊处理dp[3]和dp[4]中"00"不能出现在两边的情况。
-```
+// 始终在中心插入一个（dp[1]）或两个（dp[2]）对称的元素。注意特殊处理dp[3]和dp[4]中"00"不能出现在两边的情况。
+// ```
 class Solution {
 public:
     vector<string> findStrobogrammatic(int n) {
@@ -45,4 +45,4 @@ public:
         return res[n];
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
         nums.sort()
@@ -10,4 +10,4 @@ class Solution:
             ans += nums[i]
             i += 2
         return ans
-```
+# ```

@@ -1,5 +1,5 @@
-#### 方法一：递归
-```
+// #### 方法一：递归
+// ```
 class Solution {
     fun sortedArrayToBST(nums: IntArray): TreeNode? {
         if(nums.size == 0){
@@ -26,4 +26,4 @@ class Solution {
         return parent.right
     }
 }
-```
+// ```

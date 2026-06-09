@@ -1,8 +1,8 @@
-1. 查找key
-2. 将左右子数合并，左子树挂到右子树的最左
-3. 更新root，如果存在
+// 1. 查找key
+// 2. 将左右子数合并，左子树挂到右子树的最左
+// 3. 更新root，如果存在
 
-``` scala []
+// ``` scala []
 
 object Solution {   
     type T = TreeNode    
@@ -35,4 +35,4 @@ object Solution {
         root
     }
 }
-```
+// ```

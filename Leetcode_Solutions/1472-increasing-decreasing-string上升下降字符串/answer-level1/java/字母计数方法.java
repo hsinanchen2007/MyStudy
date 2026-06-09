@@ -1,9 +1,9 @@
-### 解题思路
-计算字母个数
-依次从小到大 和 从大到小 append
-### 代码
+// ### 解题思路
+// 计算字母个数
+// 依次从小到大 和 从大到小 append
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String sortString(String s) {
         StringBuilder sb = new StringBuilder();
@@ -49,4 +49,4 @@ class Solution {
 		return sb.toString();
     }
 }
-```
+// ```

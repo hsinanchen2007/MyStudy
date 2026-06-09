@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -11,5 +11,5 @@ public:
         return distance(nums.begin(), output);
     }
 };
-```
-提交效果：执行用时12ms,内存消耗10MB
+// ```
+// 提交效果：执行用时12ms,内存消耗10MB

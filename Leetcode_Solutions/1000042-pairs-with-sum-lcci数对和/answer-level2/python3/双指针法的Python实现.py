@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def pairSums(self, nums: List[int], target: int) -> List[List[int]]:
         start, end = 0, len(nums) - 1
@@ -14,4 +14,4 @@ class Solution:
                 start += 1
                 end -= 1
         return res
-```
+# ```

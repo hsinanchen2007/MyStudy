@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def minCostToMoveChips(self, chips):
         """
@@ -13,4 +13,4 @@ class Solution(object):
             else:
                 l2 += 1
         return min(l1,l2)
-```
+# ```

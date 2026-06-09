@@ -1,5 +1,5 @@
-将原来的题改改
-```
+// 将原来的题改改
+// ```
 public int rob(int[] nums) {
         if(nums.length<3)
             return getInteger(nums);
@@ -32,4 +32,4 @@ public int rob(int[] nums) {
         else
             return null;
     }
-```
+// ```

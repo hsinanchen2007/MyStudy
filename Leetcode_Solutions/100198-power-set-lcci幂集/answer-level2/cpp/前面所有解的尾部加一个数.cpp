@@ -1,8 +1,8 @@
-### 解题思路
-在前面已经放入ret中的所有解的尾部加一个数
-### 代码
+// ### 解题思路
+// 在前面已经放入ret中的所有解的尾部加一个数
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         return ret;
     }
 };
-```
+// ```

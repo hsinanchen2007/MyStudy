@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * 借助哑节点，简化操作.
  * 时间复杂度：O(n)，空间复杂度：O(1)
@@ -30,4 +30,4 @@ public ListNode deleteNode(ListNode head, int val) {
     
     return dummy.next;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-- 方法一：基于栈
-```c
+// - 方法一：基于栈
+// ```c
 int* inorderTraversal(struct TreeNode* root, int* returnSize){
     if (root == NULL) {
         *returnSize = 0;
@@ -35,9 +35,9 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize = p + 1;
     return arr;
 }
-```
-- 方法二：Morris方法
-```c
+// ```
+// - 方法二：Morris方法
+// ```c
 int* inorderTraversal(struct TreeNode* root, int* returnSize){
     if (root == NULL) {
         *returnSize = 0;
@@ -80,5 +80,5 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize = p + 1;
     return out;
 }
-```
+// ```
 

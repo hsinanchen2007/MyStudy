@@ -1,9 +1,9 @@
-### 解题思路
-cpp精简代码题解
+// ### 解题思路
+// cpp精简代码题解
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     char findTheDifference(string s, string t) {
@@ -18,4 +18,4 @@ public:
         return ' ';
     }
 };
-```
+// ```

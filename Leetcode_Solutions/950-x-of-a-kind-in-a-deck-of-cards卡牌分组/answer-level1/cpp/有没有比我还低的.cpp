@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int gcd(int a,int b) //辗转相除法
@@ -42,5 +42,5 @@ public:
 
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d67b7d8377550a8b68fc62a8f5b3f838ab8ff16f45840baf4054cacd18d5a4dc-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d67b7d8377550a8b68fc62a8f5b3f838ab8ff16f45840baf4054cacd18d5a4dc-image.png)

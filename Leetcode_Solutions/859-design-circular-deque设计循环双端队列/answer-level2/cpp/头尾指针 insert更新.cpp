@@ -1,9 +1,9 @@
-### 解题思路
-类似622题，但因为新增从头部插入以及从尾部删除，insert操作时，需要调整更新head, rear
+// ### 解题思路
+// 类似622题，但因为新增从头部插入以及从尾部删除，insert操作时，需要调整更新head, rear
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyCircularDeque {
 public:
     /** Initialize your data structure here. Set the size of the deque to be k. */
@@ -97,4 +97,4 @@ private:
  * bool param_7 = obj->isEmpty();
  * bool param_8 = obj->isFull();
  */
-```
+// ```

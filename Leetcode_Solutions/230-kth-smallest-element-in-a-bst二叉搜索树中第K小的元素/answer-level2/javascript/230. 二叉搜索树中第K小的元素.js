@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-- 中序遍历 ``二叉搜索树``
-- 对 ``k`` 进行自减，直至 ``k === 0``，那么当前节点为第 ``k`` 小的元素
+// - 中序遍历 ``二叉搜索树``
+// - 对 ``k`` 进行自减，直至 ``k === 0``，那么当前节点为第 ``k`` 小的元素
 
-⚠️注意：``二叉搜索树`` 的中序遍历结果是有序的
+// ⚠️注意：``二叉搜索树`` 的中序遍历结果是有序的
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -36,4 +36,4 @@ var kthSmallest = function(root, k) {
     helper(root)
     return target
 };
-```
+// ```

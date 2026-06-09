@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def groupStrings(self, strings: List[str]) -> List[List[str]]:
         hash_table = collections.defaultdict(list)
@@ -18,4 +18,4 @@ class Solution:
             res += gap_str.zfill(2)
         return res
 
-```
+# ```

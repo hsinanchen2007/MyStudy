@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-使用冒泡排序
+// ### 解题思路
+// 此处撰写解题思路
+// 使用冒泡排序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         for(int i = 0;i<arr.length;i++){
@@ -25,4 +25,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

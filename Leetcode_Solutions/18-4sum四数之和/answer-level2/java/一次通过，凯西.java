@@ -1,10 +1,10 @@
-### 解题思路
-应该是参考第十六题最接近的三数之和
-双指针low 、high 可以代替for循环遍历最里层的两个数字，
+// ### 解题思路
+// 应该是参考第十六题最接近的三数之和
+// 双指针low 、high 可以代替for循环遍历最里层的两个数字，
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         //首先排好序
@@ -40,5 +40,5 @@ class Solution {
 		return result;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/b9e23c5e79c5383e37f3140699599bfe870fa6fe65d0dabe9f012692729e8de7-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/b9e23c5e79c5383e37f3140699599bfe870fa6fe65d0dabe9f012692729e8de7-image.png)

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-[leetcode-409. 最长回文串](https://leetcode-cn.com/problems/longest-palindrome/solution/custerxue-xi-bi-ji-zui-chang-hui-wen-chuan-by-cust/)
+// [leetcode-409. 最长回文串](https://leetcode-cn.com/problems/longest-palindrome/solution/custerxue-xi-bi-ji-zui-chang-hui-wen-chuan-by-cust/)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canPermutePalindrome(s string) bool {
   // 初始化用于计数的数组，因为只有大小写英文字母
   m := make([]int, 256)
@@ -24,4 +24,4 @@ func canPermutePalindrome(s string) bool {
   }
   return true
 }
-```
+// ```

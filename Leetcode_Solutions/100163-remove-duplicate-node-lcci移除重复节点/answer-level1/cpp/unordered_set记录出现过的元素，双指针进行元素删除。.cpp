@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
 	ListNode* removeDuplicateNodes(ListNode* head) {
@@ -22,4 +22,4 @@ public:
 		return head;
 	}
 };
-```
+// ```

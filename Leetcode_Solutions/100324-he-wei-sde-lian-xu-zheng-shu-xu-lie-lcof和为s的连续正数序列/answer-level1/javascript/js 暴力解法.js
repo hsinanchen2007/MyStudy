@@ -1,9 +1,9 @@
-### 解题思路
- 暴力的方法，1 ~ target / 2，每个数开始，加起来看看是否相等于target
- 小于则继续加，大于则不成立，等于则数组有效
-### 代码
+// ### 解题思路
+//  暴力的方法，1 ~ target / 2，每个数开始，加起来看看是否相等于target
+//  小于则继续加，大于则不成立，等于则数组有效
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} target
  * @return {number[][]}
@@ -38,4 +38,4 @@ var findContinuousSequence = function(target) {
 
     return result;
 };
-```
+// ```

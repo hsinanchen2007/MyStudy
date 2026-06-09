@@ -1,9 +1,9 @@
-### 解题思路
-建立两个变量分别更新
+// ### 解题思路
+// 建立两个变量分别更新
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int fib(int n) {
         if(n == 0){
@@ -22,4 +22,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

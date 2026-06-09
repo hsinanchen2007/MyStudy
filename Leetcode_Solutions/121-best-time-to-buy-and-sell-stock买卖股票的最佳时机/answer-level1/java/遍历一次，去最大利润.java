@@ -1,9 +1,9 @@
-### 解题思路
-一边遍历选择最低价格买入，同时比较所有大于最低价格所获得的利润，取最大
+// ### 解题思路
+// 一边遍历选择最低价格买入，同时比较所有大于最低价格所获得的利润，取最大
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         if (prices.length == 0){
@@ -22,4 +22,4 @@ class Solution {
     return max_pro;
     }
 }
-```
+// ```

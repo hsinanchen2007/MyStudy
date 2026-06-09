@@ -1,18 +1,18 @@
-### 解题思路
-这题用**C语言**做应该不算简单难度~
-主要2个点：
-1. 循环怎么写。用2个索引记住每次找到单词的起始位置和结束位置：wordSt和wordEt
-      wordSt找第一个字母，wordEt找第一个非字母，单词长度为wordLen = wordEt - wordSt
-      单词与ban中的禁用单词比较，如果有则继续往下找单词，如果没有则记录单词，count计数++
-2. 测试用例考虑特殊情况：字符串不是以标点符号结束的。`"Bob"`测试用例可以测出，需要添加如下代码
-```c
+// ### 解题思路
+// 这题用**C语言**做应该不算简单难度~
+// 主要2个点：
+// 1. 循环怎么写。用2个索引记住每次找到单词的起始位置和结束位置：wordSt和wordEt
+//       wordSt找第一个字母，wordEt找第一个非字母，单词长度为wordLen = wordEt - wordSt
+//       单词与ban中的禁用单词比较，如果有则继续往下找单词，如果没有则记录单词，count计数++
+// 2. 测试用例考虑特殊情况：字符串不是以标点符号结束的。`"Bob"`测试用例可以测出，需要添加如下代码
+// ```c
     if (j == len) {
         wordEt = len;
     }
-```
-### 代码
+// ```
+// ### 代码
 
-```c
+// ```c
 struct wordCount {
     int count;
     char word[20];
@@ -94,4 +94,4 @@ char * mostCommonWord(char * paragraph, char ** banned, int bannedSize)
     strcpy(res, wordCnt[index].word);
     return res;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-思路：
-先处理掉一些非法数值，留下纯数字
-接着对纯数字字符串进行处理，判断是否溢出
+// ### 解题思路
+// 思路：
+// 先处理掉一些非法数值，留下纯数字
+// 接着对纯数字字符串进行处理，判断是否溢出
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func myAtoi(str string) int {
 	return convert(clean(str))
 }
@@ -63,4 +63,4 @@ func convert(sign int, absStr string) int {
 }
 
 
-```
+// ```

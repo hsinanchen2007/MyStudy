@@ -1,9 +1,9 @@
-### 解题思路
-借助一个与board同样大小的整型矩阵记录某一格子是否访问过，并在此基础上进行回溯，控制边界即使不是方阵也没关系
+// ### 解题思路
+// 借助一个与board同样大小的整型矩阵记录某一格子是否访问过，并在此基础上进行回溯，控制边界即使不是方阵也没关系
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool fillArr(char** board, int **follow, int boardSize, int* boardColSize, int x, int y, char * word)
 {
     bool ret = false;
@@ -85,4 +85,4 @@ bool exist(char** board, int boardSize, int* boardColSize, char * word){
     }
     return ret;
 }
-```
+// ```

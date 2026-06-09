@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -58,4 +58,4 @@ int majorityElement( int * nums , int numsSize ){
     return *( nums + 0 );
 
 }
-```
+// ```

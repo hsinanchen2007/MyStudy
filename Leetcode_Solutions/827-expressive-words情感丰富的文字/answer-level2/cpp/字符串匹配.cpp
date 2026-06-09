@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public://执行用时 :8 ms, 在所有 C++ 提交中击败了90.28%的用户
     int i,j,cnt,cnt1,res;
@@ -20,4 +20,4 @@ public://执行用时 :8 ms, 在所有 C++ 提交中击败了90.28%的用户
         return res;
     }
 };
-```
+// ```

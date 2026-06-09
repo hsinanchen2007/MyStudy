@@ -1,11 +1,11 @@
-### 解题思路
-1. 将单链表转成整数
-2. 求和
-3. 将结果转成单链表
+# ### 解题思路
+# 1. 将单链表转成整数
+# 2. 求和
+# 3. 将结果转成单链表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
             return a
 
         return getList(num(l1)+num(l2)) 
-```
+# ```

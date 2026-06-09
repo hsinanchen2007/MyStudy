@@ -1,6 +1,6 @@
-执行用时 :7 ms, 中击败了48.28%的用户。
-内存消耗 :38.1 MB,击败了79.25%的用户。
-```
+// 执行用时 :7 ms, 中击败了48.28%的用户。
+// 内存消耗 :38.1 MB,击败了79.25%的用户。
+// ```
 class Solution {
     public int bagOfTokensScore(int[] tokens, int P) {
         int count = 0;
@@ -31,4 +31,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

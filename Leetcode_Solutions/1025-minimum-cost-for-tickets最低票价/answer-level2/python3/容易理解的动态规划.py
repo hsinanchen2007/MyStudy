@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def mincostTickets(self, days: list, costs: list) -> int:
         #dp[i]是直到第i天的累积票价
@@ -24,4 +24,4 @@ class Solution:
             dp[k] = min(tmp_costs_1, tmp_costs_7, tmp_costs_30)
         
         return dp[-1]
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-1、后序遍历思想，左>右>根
-2、全局变量，最大路径和
-3、返回左右节点最大和值，若为负数，则比路径和小
+# ### 解题思路
+# 1、后序遍历思想，左>右>根
+# 2、全局变量，最大路径和
+# 3、返回左右节点最大和值，若为负数，则比路径和小
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution(object):
         return self.res 
 
 
-```
+# ```

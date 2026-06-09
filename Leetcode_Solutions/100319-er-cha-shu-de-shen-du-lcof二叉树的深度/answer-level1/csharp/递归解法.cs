@@ -1,9 +1,9 @@
-### 递归
-深度优先遍历计算最大深度
+// ### 递归
+// 深度优先遍历计算最大深度
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ public class Solution {
         return Math.Max(MaxDepth(root.left, currentDepth + 1), MaxDepth(root.right, currentDepth + 1));
     }
 }
-```
+// ```

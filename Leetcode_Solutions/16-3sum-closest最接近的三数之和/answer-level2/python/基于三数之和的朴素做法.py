@@ -1,9 +1,9 @@
-### 解题思路
-看来不咋样
-基本就是把0视作target，并根据这个把代码里面的判断条件改一遍
-### 代码
+# ### 解题思路
+# 看来不咋样
+# 基本就是把0视作target，并根据这个把代码里面的判断条件改一遍
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         l = len(nums)
@@ -35,4 +35,4 @@ class Solution:
                     return target
         return res
 
-```
+# ```

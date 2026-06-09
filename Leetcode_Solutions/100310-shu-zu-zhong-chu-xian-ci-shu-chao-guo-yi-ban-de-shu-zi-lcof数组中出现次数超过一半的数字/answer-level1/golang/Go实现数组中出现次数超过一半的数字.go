@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func majorityElement(nums []int) int {
    left,right:= 0,len(nums)-1
    mid := left+(right-left)/2
@@ -36,4 +36,4 @@ func partition(arr []int,left,right int)int{
 	return p1+1
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int smallestRepunitDivByK(int K) {
@@ -13,5 +13,5 @@ public:
         return (n == 0) ? c : -1;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/c98eaab83438cc372921c23489f9393609b2e5c6b6f077c99055398998b037fa-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/c98eaab83438cc372921c23489f9393609b2e5c6b6f077c99055398998b037fa-image.png)

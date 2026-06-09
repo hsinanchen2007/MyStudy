@@ -1,5 +1,5 @@
-具体看注释
-```js
+// 具体看注释
+// ```js
 var maxDistance = function(grid) {
 	//获取二维数组宽高
 	let m = grid.length;
@@ -47,4 +47,4 @@ var maxDistance = function(grid) {
 	//取最后一次出发的左边，输出结果
 	return grid[temp[0]][temp[1]] - 1;
 };
-```
+// ```

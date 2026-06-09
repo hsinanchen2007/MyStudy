@@ -1,10 +1,10 @@
-### 解题思路
-设置三个变量i,j,k分别表示三个数组的初试位置
-由于数组严格递增，所以在每次比较时，将值位最小的位加一（注意不一定是一个，有可能是两个，所以用三个if）
+// ### 解题思路
+// 设置三个变量i,j,k分别表示三个数组的初试位置
+// 由于数组严格递增，所以在每次比较时，将值位最小的位加一（注意不一定是一个，有可能是两个，所以用三个if）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -37,4 +37,4 @@ int* arraysIntersection(int* arr1, int arr1Size, int* arr2, int arr2Size, int* a
     return res;
 
 }
-```
+// ```

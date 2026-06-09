@@ -1,5 +1,5 @@
-遇到空格就翻转之前的单词，然后拼接到结果字符串之中
-```
+// 遇到空格就翻转之前的单词，然后拼接到结果字符串之中
+// ```
     string reverseWords1(string s){
         int len = s.size();
         string temp = "", res = "";
@@ -15,4 +15,4 @@
         }
         return res;
     }
-```
+// ```

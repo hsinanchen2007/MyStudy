@@ -1,4 +1,4 @@
-```
+// ```
 public void flatten(TreeNode root) {
 
         if (root == null) return;
@@ -15,4 +15,4 @@ public void flatten(TreeNode root) {
         }
         flatten(root.right);
     }
-```
+// ```

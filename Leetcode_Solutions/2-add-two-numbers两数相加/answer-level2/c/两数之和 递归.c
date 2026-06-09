@@ -1,11 +1,11 @@
-### 解题思路
-    写了一个递归函数：
-        每次同一位数相加，如有进位就记下，没有就设置为0
-    然后考虑了两个不同位数的链表相加的情况，就成了现在的代码
+// ### 解题思路
+//     写了一个递归函数：
+//         每次同一位数相加，如有进位就记下，没有就设置为0
+//     然后考虑了两个不同位数的链表相加的情况，就成了现在的代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -67,4 +67,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
 
 
 
-```
+// ```

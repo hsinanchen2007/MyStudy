@@ -1,11 +1,11 @@
-### 解题思路
-递归，遍历根，左，右；然后再合并数组
-执行用时 :8 ms, 在所有 PHP 提交中击败了58.13%的用户
-内存消耗 :14.8 MB, 在所有 PHP 提交中击败了100.00%的用户
+// ### 解题思路
+// 递归，遍历根，左，右；然后再合并数组
+// 执行用时 :8 ms, 在所有 PHP 提交中击败了58.13%的用户
+// 内存消耗 :14.8 MB, 在所有 PHP 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         return array_merge($node,$leftnode,$rightnode);
     }
 }
-```
+// ```

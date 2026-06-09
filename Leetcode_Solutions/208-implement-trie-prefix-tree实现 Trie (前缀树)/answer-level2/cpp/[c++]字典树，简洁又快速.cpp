@@ -1,9 +1,9 @@
-### 解题思路
-站在各位大佬的肩膀上
+// ### 解题思路
+// 站在各位大佬的肩膀上
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Trie {
 public:
     /** Initialize your data structure here. */
@@ -58,4 +58,4 @@ private:
  * bool param_2 = obj->search(word);
  * bool param_3 = obj->startsWith(prefix);
  */
-```
+// ```

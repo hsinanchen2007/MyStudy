@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> closestDivisors(int num) {
@@ -21,4 +21,4 @@ public:
     	return {x2, y2};
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-送分题，遍历0到根号(c/2)
+// 送分题，遍历0到根号(c/2)
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
 	bool judgeSquareSum(int c) {
@@ -13,4 +13,4 @@ public:
 		return false;
 	}
 };
-```
+// ```

@@ -1,7 +1,7 @@
-建议：先看一下精选题解的回溯图解，更容易理解一些。
+# 建议：先看一下精选题解的回溯图解，更容易理解一些。
                                                      
-# 优化前
-```
+# # 优化前
+# ```
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         
@@ -27,22 +27,22 @@ class Solution:
         candidates.sort()
         back_fun(candidates, target)
         return res
-```
+# ```
 
-# 优化后
+# # 优化后
 
-哪里可以优化：
-```
+# 哪里可以优化：
+# ```
 elif c < path[-1]:  # 下一层的递归用来计算的c值一定要比上一层的大
     continue
-```
-因为每一层的递归都需要从头到尾遍历candidates，虽然用了continue来跳过它，但是还是浪费时间。
+# ```
+# 因为每一层的递归都需要从头到尾遍历candidates，虽然用了continue来跳过它，但是还是浪费时间。
 
-想法：
-记录上一层c值的索引，在它的下一层直接遍历candidates中索引比它的部分。
+# 想法：
+# 记录上一层c值的索引，在它的下一层直接遍历candidates中索引比它的部分。
 
-代码：
-```
+# 代码：
+# ```
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         
@@ -61,5 +61,5 @@ class Solution:
         candidates.sort()
         back_fun(candidates, target)
         return res
-```
+# ```
 

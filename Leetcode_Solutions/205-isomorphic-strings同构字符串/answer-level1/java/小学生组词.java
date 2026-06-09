@@ -1,8 +1,8 @@
- 所谓同构就跟小学生组词一样，例如abb、aabb、abab这些种类型的。
- 思路就是判断两个字符串对应位置的字母第一次出现在字符串中位置是否相同，
- 例如:egg 每个字母第一次出现的位置是 0 1 1，add同样也是0 1 1,所以这两个字符串是同构的。
+//  所谓同构就跟小学生组词一样，例如abb、aabb、abab这些种类型的。
+//  思路就是判断两个字符串对应位置的字母第一次出现在字符串中位置是否相同，
+//  例如:egg 每个字母第一次出现的位置是 0 1 1，add同样也是0 1 1,所以这两个字符串是同构的。
 
-```
+// ```
 class Solution {
     public boolean isIsomorphic(String s, String t) {
         Map<String, Integer> mapS = new HashMap<String, Integer>();
@@ -32,4 +32,4 @@ class Solution {
 		return true;
     }
 }
-```
+// ```

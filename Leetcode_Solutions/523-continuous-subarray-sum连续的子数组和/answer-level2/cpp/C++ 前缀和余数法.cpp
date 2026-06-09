@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     bool checkSubarraySum(vector<int>& nums, int k) {
@@ -24,5 +24,5 @@ public:
         return false;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/de2708023de3fbff86f986369beae147c9f96630e66b882cca959fa1356c1322-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/de2708023de3fbff86f986369beae147c9f96630e66b882cca959fa1356c1322-image.png)

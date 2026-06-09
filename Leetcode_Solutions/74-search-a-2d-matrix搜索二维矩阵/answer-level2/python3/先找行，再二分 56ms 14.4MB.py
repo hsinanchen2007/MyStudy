@@ -1,9 +1,9 @@
-### 解题思路
-先找行，再二分
+# ### 解题思路
+# 先找行，再二分
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # https://leetcode-cn.com/problems/search-a-2d-matrix/
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
@@ -75,4 +75,4 @@ class Solution:
                 right = mid
         return False
 
-```
+# ```

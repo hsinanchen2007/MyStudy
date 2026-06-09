@@ -1,11 +1,11 @@
-### 解题思路
-28ms 5.6MB
-比较笨的方法，建一个数组对应ASCII码计数来判断是否重复。
-start从头开始向后逐个移动，计数，效率很低
-不做题不知道水平有多差。相对来说,控制类比赛的代码真的太简单了
-### 代码
+// ### 解题思路
+// 28ms 5.6MB
+// 比较笨的方法，建一个数组对应ASCII码计数来判断是否重复。
+// start从头开始向后逐个移动，计数，效率很低
+// 不做题不知道水平有多差。相对来说,控制类比赛的代码真的太简单了
+// ### 代码
 
-```c
+// ```c
 #include <string.h>
 int lengthOfLongestSubstring(char * s){
     //使用类似桶排序方式计数
@@ -40,4 +40,4 @@ int lengthOfLongestSubstring(char * s){
     }
     return maxLength;
 }
-```
+// ```

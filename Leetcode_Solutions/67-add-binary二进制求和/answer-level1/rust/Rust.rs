@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/0dde746eeab8af852569344fa7fc1852fd6d9d1af9c6b6c12de99f7c4ba159fb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0dde746eeab8af852569344fa7fc1852fd6d9d1af9c6b6c12de99f7c4ba159fb-image.png)
 
-这类加法题最重要的就是注意溢出，字符串数字要多大就有多大。
+// 这类加法题最重要的就是注意溢出，字符串数字要多大就有多大。
 
-```Rust
+// ```Rust
 impl Solution {
     pub fn add_binary(mut a: String, mut b: String) -> String {
         let mut carry = 0;
@@ -27,6 +27,6 @@ impl Solution {
         res
     }
 }
-```
+// ```
 
 

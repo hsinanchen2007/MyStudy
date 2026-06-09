@@ -1,4 +1,4 @@
-```
+# ```
 from functools import reduce
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
@@ -11,4 +11,4 @@ class Solution:
             d.append(dict[dd])
         fn = lambda x : reduce(lambda x, y: [i+j for i in x for j in y], x)
         return fn(d)
-```
+# ```

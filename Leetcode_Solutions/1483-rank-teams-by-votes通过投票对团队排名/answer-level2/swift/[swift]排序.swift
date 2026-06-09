@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution2 {
     func rankTeams(_ votes: [String]) -> String {
         guard votes.count > 1 else {
@@ -35,4 +35,4 @@ class Solution2 {
         return ans
     }
  }
-```
+// ```

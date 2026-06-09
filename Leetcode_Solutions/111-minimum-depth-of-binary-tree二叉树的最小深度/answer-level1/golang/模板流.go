@@ -1,7 +1,7 @@
-# dfs
-模板流选手,`前序遍历` 手速一把梭，没啥思路
+// # dfs
+// 模板流选手,`前序遍历` 手速一把梭，没啥思路
 
-```golang
+// ```golang
 var min int
 
 func minDepth(root *TreeNode) int {
@@ -29,12 +29,12 @@ func dfs(node *TreeNode, depth int) {
 		dfs(node.Right, depth+1)
 	}
 }
-```
+// ```
 
-# bfs
-模板流选手,`广度遍历` 手速一把梭，没啥思路
+// # bfs
+// 模板流选手,`广度遍历` 手速一把梭，没啥思路
 
-```golang
+// ```golang
 func minDepth(root *TreeNode) int {
 	var level int
 	if root == nil {
@@ -62,10 +62,10 @@ func minDepth(root *TreeNode) int {
 	}
 	return level
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
-[对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)
-[本题完整思路 Github](https://github.com/temporaries/leetcode/tree/master/tree/0111.minimum-depth-of-binary-tree)
+// [Go版本 Github](https://github.com/temporaries/leetcode)
+// [对应模板 Github](https://github.com/temporaries/leetcode/blob/master/templates/tree)
+// [本题完整思路 Github](https://github.com/temporaries/leetcode/tree/master/tree/0111.minimum-depth-of-binary-tree)
 
 

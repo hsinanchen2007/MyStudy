@@ -1,9 +1,9 @@
-### 解题思路
-参考评论
+// ### 解题思路
+// 参考评论
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isSubsequence(char * s, char * t){
     // 如果*s和*t不为空，一直遍历
     while(*s && *t){
@@ -20,4 +20,4 @@ bool isSubsequence(char * s, char * t){
     // 如果*s不为空说明s不是t的子序列
     return *s == '\0';
 }
-```
+// ```

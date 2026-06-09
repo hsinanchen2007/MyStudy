@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-动态规划
+// 动态规划
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lastRemaining(int n, int m) {
@@ -13,4 +13,4 @@ public:
         return dp;
     }
 };
-```
+// ```

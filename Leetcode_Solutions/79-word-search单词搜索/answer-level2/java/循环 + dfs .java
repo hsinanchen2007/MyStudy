@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean exist(char[][] board, String word) {
         
@@ -50,4 +50,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

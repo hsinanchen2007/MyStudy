@@ -1,9 +1,9 @@
-### 解题思路
-第一眼想用递归,后来一看还要取余感觉不对,数肯定很大
+# ### 解题思路
+# 第一眼想用递归,后来一看还要取余感觉不对,数肯定很大
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numRollsToTarget(self, d, f, target):
         """
@@ -25,4 +25,4 @@ class Solution(object):
         #     print i
         return dp[d-1][target]%(10**9+7)
 
-```
+# ```

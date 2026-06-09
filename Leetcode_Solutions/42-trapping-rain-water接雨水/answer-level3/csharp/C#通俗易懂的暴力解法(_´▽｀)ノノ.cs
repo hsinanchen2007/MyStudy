@@ -1,5 +1,5 @@
-总之就是从左遍历到右找凹陷的地方，填满水，再从右遍历到左找凹陷的地方，填满水，就OK啦）
-```
+// 总之就是从左遍历到右找凹陷的地方，填满水，再从右遍历到左找凹陷的地方，填满水，就OK啦）
+// ```
 public class Solution {
     public int Trap(int[] height) {
         int answer=0;
@@ -65,4 +65,4 @@ public class Solution {
         return answer;//大功告成！
     }
 }
-```
+// ```

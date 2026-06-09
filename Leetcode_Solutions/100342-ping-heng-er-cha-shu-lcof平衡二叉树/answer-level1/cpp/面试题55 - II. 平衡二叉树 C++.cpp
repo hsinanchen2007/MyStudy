@@ -1,9 +1,9 @@
-### 解题思路
-基本思路：递归判断左右子树的高度差是否大于1。
+// ### 解题思路
+// 基本思路：递归判断左右子树的高度差是否大于1。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
         return false;
     }
 };
-```
+// ```

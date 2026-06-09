@@ -1,8 +1,8 @@
-加这句
-if(len % 2) 
-    return false;
+// 加这句
+// if(len % 2) 
+//     return false;
 
-```
+// ```
 bool judgeCircle(char * moves){
     int i = 0, j = 0;   
     int len = strlen(moves);
@@ -33,4 +33,4 @@ bool judgeCircle(char * moves){
     }
     return false;
 }
-```
+// ```

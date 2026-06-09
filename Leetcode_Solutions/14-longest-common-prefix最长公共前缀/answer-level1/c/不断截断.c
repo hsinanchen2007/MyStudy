@@ -1,9 +1,9 @@
-### 解题思路
-令最长前缀为第一个字符串，然后不断和之后的字符串比较，不断截断得到所有字符串的前缀。
+// ### 解题思路
+// 令最长前缀为第一个字符串，然后不断和之后的字符串比较，不断截断得到所有字符串的前缀。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * longestCommonPrefix(char ** strs, int strsSize){
     int i=0,j=0;
     if(strsSize==0) {
@@ -26,4 +26,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
 
 
 
-```
+// ```

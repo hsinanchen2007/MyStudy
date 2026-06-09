@@ -1,9 +1,9 @@
-### 解题思路
-桶排序，将非0值依次相加，只要和大于可容纳最多人数，则返回FALSE
+# ### 解题思路
+# 桶排序，将非0值依次相加，只要和大于可容纳最多人数，则返回FALSE
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def carPooling(self, trips, capacity):
         buckets = [0] * 1001
@@ -19,4 +19,4 @@ class Solution(object):
                     return False
             i += 1
         return True
-```
+# ```

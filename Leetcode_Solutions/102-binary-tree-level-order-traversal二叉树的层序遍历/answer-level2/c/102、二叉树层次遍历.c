@@ -1,9 +1,9 @@
-### 解题思路
-bfs遍历树 + 统计每个节点深度，按深度从左到右输出，复杂度O(n).
+// ### 解题思路
+// bfs遍历树 + 统计每个节点深度，按深度从左到右输出，复杂度O(n).
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes){
     //广度优先遍历 + 统计每个节点的深度
     int **res = (int **) malloc(sizeof(int *) * 1000);
@@ -48,4 +48,4 @@ int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes
     *returnSize = row;
     return res;
 }
-```
+// ```

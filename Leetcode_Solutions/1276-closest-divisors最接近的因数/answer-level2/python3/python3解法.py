@@ -1,9 +1,9 @@
-### 解题思路
-找出最大平方根之后逐次减一找出第一个可以被整除的数字
+# ### 解题思路
+# 找出最大平方根之后逐次减一找出第一个可以被整除的数字
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def closestDivisors(self, num: int) -> List[int]:
         #求平方根
@@ -21,4 +21,4 @@ class Solution:
             return num1,num2
 
 
-```
+# ```

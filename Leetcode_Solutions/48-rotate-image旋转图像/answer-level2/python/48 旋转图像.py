@@ -1,10 +1,10 @@
-### 解题思路
-先转置矩阵，然后翻转每一行。
-![image.png](https://pic.leetcode-cn.com/964671298c87387f7d5fa9900e907dceea885ee8c5ff7f0a5bf8ad04a69b26c7-image.png)
+# ### 解题思路
+# 先转置矩阵，然后翻转每一行。
+# ![image.png](https://pic.leetcode-cn.com/964671298c87387f7d5fa9900e907dceea885ee8c5ff7f0a5bf8ad04a69b26c7-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rotate(self, matrix):
         """
@@ -26,4 +26,4 @@ class Solution(object):
 
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-将偶数位置不匹配的存一个集合，奇数不匹配的存一个集合。遍历偶数集合，调换两个集合的元素位置。
+# ### 解题思路
+# 将偶数位置不匹配的存一个集合，奇数不匹配的存一个集合。遍历偶数集合，调换两个集合的元素位置。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArrayByParityII(self, A: List[int]) -> List[int]:
         x = 0
@@ -22,4 +22,4 @@ class Solution:
             A[b] = tmp
         return A
 
-```
+# ```

@@ -1,4 +1,4 @@
-使用双指针的方式，一个指针先游走k个位置，判断是否需要反转，然后通过另一个指针来进行实际的移动操作。
+// 使用双指针的方式，一个指针先游走k个位置，判断是否需要反转，然后通过另一个指针来进行实际的移动操作。
  public ListNode reverseKGroup(ListNode head, int k) {
 		if (head == null)
 			return null;

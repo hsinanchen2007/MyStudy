@@ -1,9 +1,9 @@
-### 解题思路
-遍历整棵树，记录偶数祖父节点，递归累加
+// ### 解题思路
+// 遍历整棵树，记录偶数祖父节点，递归累加
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
 		return rst+ find(node.left,node.val,parent) + find(node.right,node.val,parent) ;
 	}
 }
-```
+// ```

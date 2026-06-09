@@ -1,9 +1,9 @@
-### 解题思路
-使用中心拓展的方法，复杂度是 O(n^2)
+// ### 解题思路
+// 使用中心拓展的方法，复杂度是 O(n^2)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -28,4 +28,4 @@ public:
         return right - left + 1;
     }
 };
-```
+// ```

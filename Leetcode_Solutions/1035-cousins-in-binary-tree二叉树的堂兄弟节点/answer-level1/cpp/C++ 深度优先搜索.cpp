@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,6 +30,6 @@ public:
         return (dx == dy) && (px != py);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/fa20b3976d2e7a12c9940247b2c0c3adb255275b9b1b0d1565f3c78850633bf7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fa20b3976d2e7a12c9940247b2c0c3adb255275b9b1b0d1565f3c78850633bf7-image.png)

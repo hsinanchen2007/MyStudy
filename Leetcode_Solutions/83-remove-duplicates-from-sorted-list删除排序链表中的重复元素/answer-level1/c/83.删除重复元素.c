@@ -1,9 +1,9 @@
-### 解题思路
-![1578232629(1).png](https://pic.leetcode-cn.com/c3e67bc0395597ade9d64cf957f0df4e3700bd7698de49c1215024a44ceef688-1578232629\(1\).png)
-写的比较乱，特别是指针不为空的条件。主要的方向为双指针循环访问链表，问题在保证指向head->next的指针在定义时不为空，因此我添加了一个if条件之后再初始化的指针q。
-### 代码
+// ### 解题思路
+// ![1578232629(1).png](https://pic.leetcode-cn.com/c3e67bc0395597ade9d64cf957f0df4e3700bd7698de49c1215024a44ceef688-1578232629\(1\).png)
+// 写的比较乱，特别是指针不为空的条件。主要的方向为双指针循环访问链表，问题在保证指向head->next的指针在定义时不为空，因此我添加了一个if条件之后再初始化的指针q。
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,4 +43,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

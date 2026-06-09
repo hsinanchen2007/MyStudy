@@ -1,6 +1,6 @@
-follow me：
-两个队分头打劫，一个从nums[0]开始，一个从nums[1] 开始，go go，。 follow me
-```
+// follow me：
+// 两个队分头打劫，一个从nums[0]开始，一个从nums[1] 开始，go go，。 follow me
+// ```
 /*
  * Copyright (c) Nicolas-Tony Technologies Co., Ltd. 2019-2019. All rights reserved.
  * Description: i love leetcode
@@ -37,4 +37,4 @@ private:
         return more;
     }
 };
-```
+// ```

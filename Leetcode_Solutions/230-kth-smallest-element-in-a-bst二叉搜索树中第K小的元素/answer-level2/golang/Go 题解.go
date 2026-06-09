@@ -1,10 +1,10 @@
-思路：递归中序遍历BST，直到第K个元素为止。
+// 思路：递归中序遍历BST，直到第K个元素为止。
 
-```
+// ```
 执行用时 :12 ms, 在所有 Go 提交中击败了99.30%的用户
 内存消耗 :6 MB, 在所有 Go 提交中击败了56.10%的用户
-```
-```Go []
+// ```
+// ```Go []
 func kthSmallest(root *TreeNode, k int) int {
 	kv := 0
 	var findKth func(r *TreeNode)
@@ -23,5 +23,5 @@ func kthSmallest(root *TreeNode, k int) int {
 	findKth(root)
 	return kv
 }
-```
-[LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)
+// ```
+// [LeetCodeByGo: 更多LeetCode题库Go语言题解](https://github.com/mrandmrsbenben/LeetCodeByGo)

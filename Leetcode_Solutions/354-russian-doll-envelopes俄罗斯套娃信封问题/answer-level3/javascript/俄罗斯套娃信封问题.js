@@ -1,4 +1,4 @@
-```
+// ```
 var maxEnvelopes = function(envelopes) {
     if(!envelopes.length) return 0;
     let count = [];
@@ -18,6 +18,6 @@ var maxEnvelopes = function(envelopes) {
     console.log(count);
     return Math.max(...count[0],...count[1]);
 };
-```
+// ```
 
-这个就利用求最长上升子序列多包裹一层循环就可以简单的实现效果了
+// 这个就利用求最长上升子序列多包裹一层循环就可以简单的实现效果了

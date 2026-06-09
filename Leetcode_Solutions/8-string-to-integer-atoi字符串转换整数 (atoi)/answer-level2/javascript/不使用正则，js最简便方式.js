@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} str
  * @return {number}
@@ -13,4 +13,4 @@ var myAtoi = function(str) {
         return 2147483647
     return number
 };
-```
+// ```

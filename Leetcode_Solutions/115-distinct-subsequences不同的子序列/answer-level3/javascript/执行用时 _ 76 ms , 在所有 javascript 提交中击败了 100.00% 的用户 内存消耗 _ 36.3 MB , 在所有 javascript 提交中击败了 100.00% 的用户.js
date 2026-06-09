@@ -1,6 +1,6 @@
-大家勉强看吧， 
+// 大家勉强看吧， 
 
-```
+// ```
 var numDistinct = function (s, t) {
     if (!s || !t) {
       return 0
@@ -44,8 +44,8 @@ var numDistinct = function (s, t) {
 	}
 	return obj[t] || 0
 };
-```
-从时间复杂度和空间复杂度来计算
-常规是优于O(m * n)
-最坏的情况是O(m * n)
+// ```
+// 从时间复杂度和空间复杂度来计算
+// 常规是优于O(m * n)
+// 最坏的情况是O(m * n)
 

@@ -1,4 +1,4 @@
-```Java
+// ```Java
 public int minimumLengthEncoding(String[] words) {
     // 按长度排序
     Arrays.sort(words, (o1, o2) -> o2.length() - o1.length());
@@ -17,4 +17,4 @@ public int minimumLengthEncoding(String[] words) {
     }
     return res;
 }
-```
+// ```

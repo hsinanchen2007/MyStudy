@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func makesquare(_ nums: [Int]) -> Bool {
         if nums.count < 4 {
@@ -40,4 +40,4 @@ class Solution {
         return false
     }
 }
-```
+// ```

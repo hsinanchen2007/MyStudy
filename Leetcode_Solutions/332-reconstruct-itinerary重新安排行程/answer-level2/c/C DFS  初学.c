@@ -1,12 +1,12 @@
-### 解题思路
-供大家参考！
-1、排序 自然序
-2、DFS 遍历 机票打标签
-3、回读数据
+// ### 解题思路
+// 供大家参考！
+// 1、排序 自然序
+// 2、DFS 遍历 机票打标签
+// 3、回读数据
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -70,4 +70,4 @@ char ** findItinerary(char *** tickets, int ticketsSize, int* ticketsColSize, in
 
     return res;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-递归，DFS的思路，去掉不符合的情况，每次从字符串开始位置截掉长度为 1，2，3之后剩下的子串，用于递归。
-注意 0开头，
-### 代码
+// ### 解题思路
+// 递归，DFS的思路，去掉不符合的情况，每次从字符串开始位置截掉长度为 1，2，3之后剩下的子串，用于递归。
+// 注意 0开头，
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string[]}
@@ -37,4 +37,4 @@ var restoreIpAddresses = function(s) {
     helper(s, "", 0);
     return result;
 };
-```
+// ```

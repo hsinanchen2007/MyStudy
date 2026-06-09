@@ -1,19 +1,19 @@
-### 解题思路
-二分法，对于第k值的问题，一般情况下都可以用二分来解
-关键点在于找到二分的目标，思路见代码注释。
+// ### 解题思路
+// 二分法，对于第k值的问题，一般情况下都可以用二分来解
+// 关键点在于找到二分的目标，思路见代码注释。
 
-[719. 找出第 k 小的距离对](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/)
-[786. 第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/)
+// [719. 找出第 k 小的距离对](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance/)
+// [786. 第 K 个最小的素数分数](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction/)
 
-上面两题其实是同样的思路
-  > 素数分数稍微多一点处理，就是找到的最合适的分数值d可能不是我们表里面能够构成的分数值，那就需要在原列表里面找到最接近的数据对
-  > 可以遍历数据A[i]，通过A[i]/d去查找该数据在原列表中的插入位置，该位置即为分子为i时的最接近数据，找到所有i的最接近d的数据即是答案
+// 上面两题其实是同样的思路
+//   > 素数分数稍微多一点处理，就是找到的最合适的分数值d可能不是我们表里面能够构成的分数值，那就需要在原列表里面找到最接近的数据对
+//   > 可以遍历数据A[i]，通过A[i]/d去查找该数据在原列表中的插入位置，该位置即为分子为i时的最接近数据，找到所有i的最接近d的数据即是答案
 
-28ms 8.3M
---- wangtao HW-2020/2/27
-### 代码
+// 28ms 8.3M
+// --- wangtao HW-2020/2/27
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     /*
@@ -48,4 +48,4 @@ public:
         return l;
     }
 };
-```
+// ```

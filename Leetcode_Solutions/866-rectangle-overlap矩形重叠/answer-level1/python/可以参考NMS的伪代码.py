@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isRectangleOverlap(self, rec1, rec2):
         """
@@ -19,4 +19,4 @@ class Solution(object):
         h = max(0,miny2-maxy1)
         area = w * h
         return area != 0
-```
+# ```

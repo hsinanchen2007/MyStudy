@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 # define MAX(a,b) ((a) > (b)) ? (a) : (b)
 
 int lengthOfLIS(int* nums, int numsSize){
@@ -27,4 +27,4 @@ int lengthOfLIS(int* nums, int numsSize){
 }
 
 // 优化称O(nlogn)时间复杂度需要在升序dp数组中采用二分查找方式降低内部循环复杂度
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-说实话我到现在还没看懂题...
+// ### 解题思路
+// 说实话我到现在还没看懂题...
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func minCostToMoveChips(_ chips: [Int]) -> Int {
         
@@ -14,4 +14,4 @@ class Solution {
         return min(odd,even)
     }
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-每三位一组解析
-0 1 2 3 1 2 3
-量词 根据 当前组 位置决定
-个位 需要考虑 十位情况
-十位 需要考虑个位 和 十位数情况决定
-百位 
+// ### 解题思路
+// 每三位一组解析
+// 0 1 2 3 1 2 3
+// 量词 根据 当前组 位置决定
+// 个位 需要考虑 十位情况
+// 十位 需要考虑个位 和 十位数情况决定
+// 百位 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, string>;
 class ConvertState{
     private enum State {
@@ -235,4 +235,4 @@ public class Solution {
         return et.NumberToWords(num);
     }
 }
-```
+// ```

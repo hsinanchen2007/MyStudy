@@ -1,11 +1,11 @@
-![2020011901.PNG](https://pic.leetcode-cn.com/cf9d48ccb051ab157ce3378b7e480d904d5060bc4d324ee6c16ec682b693a162-2020011901.PNG)
-### 解题思路
-//先遍历一遍数组grumpy,当grumpy[i]的值为0时,out加上customers[i]的值,并将该customers[i]重新置为0;
-//再遍历一遍数组customers,用滑动窗口来计算customers数组中的连续X个数之和(记为sum),并且用max记录当前出现的最大的sum;
-//最后返回(out+max)
-### 代码
+// ![2020011901.PNG](https://pic.leetcode-cn.com/cf9d48ccb051ab157ce3378b7e480d904d5060bc4d324ee6c16ec682b693a162-2020011901.PNG)
+// ### 解题思路
+// //先遍历一遍数组grumpy,当grumpy[i]的值为0时,out加上customers[i]的值,并将该customers[i]重新置为0;
+// //再遍历一遍数组customers,用滑动窗口来计算customers数组中的连续X个数之和(记为sum),并且用max记录当前出现的最大的sum;
+// //最后返回(out+max)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSatisfied(int[] customers, int[] grumpy, int X) {
         //解1：耗时3ms
@@ -32,4 +32,4 @@ class Solution {
         return out+max;
     }
 }
-```
+// ```

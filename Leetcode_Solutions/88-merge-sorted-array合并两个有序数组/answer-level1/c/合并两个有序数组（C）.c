@@ -1,11 +1,11 @@
-### 解题思路
-方法一：采用插入排序的思想，将nums2中的元素插入到nums1中的有序表中即可。
-方法二：类似于归并排序，从尾部合并两个有序表。
+// ### 解题思路
+// 方法一：采用插入排序的思想，将nums2中的元素插入到nums1中的有序表中即可。
+// 方法二：类似于归并排序，从尾部合并两个有序表。
 
-### 代码
-# 插入排序
+// ### 代码
+// # 插入排序
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     if(nums1Size == 0 || nums2Size == 0 || n == 0)
         return;
@@ -24,9 +24,9 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
         l++;   //每次插入后nums1有序部分长度加1
     }
 }
-```
-# 从尾部归并
-```
+// ```
+// # 从尾部归并
+// ```
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     if(nums1Size == 0 || nums2Size == 0 || n == 0)
         return;
@@ -53,4 +53,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     }
 
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-L数组: 左侧乘积
-R数组: 右侧乘积
-output[i] = L[i] * R[i]
+# ### 解题思路
+# L数组: 左侧乘积
+# R数组: 右侧乘积
+# output[i] = L[i] * R[i]
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         length = len(nums)
@@ -22,4 +22,4 @@ class Solution:
         for k in range(length):
             output[k] = L[k] * R[k]
         return output
-```
+# ```

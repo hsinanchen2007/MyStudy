@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/bfed2f12404dd968013e439463f58548842f4343f5065b17b5270e05f3869f28-image.png)
-1、4个数据先随便选两个进行各种计算，变成3个
-2、递归3个数据先随便选两个进行各种计算，变成2个
-3、递归2个数据各种运算，判断是否为24点
+// ![image.png](https://pic.leetcode-cn.com/bfed2f12404dd968013e439463f58548842f4343f5065b17b5270e05f3869f28-image.png)
+// 1、4个数据先随便选两个进行各种计算，变成3个
+// 2、递归3个数据先随便选两个进行各种计算，变成2个
+// 3、递归2个数据各种运算，判断是否为24点
 
-注意doule数据的相等判断，坑人(fabs((nums[0] - 24)) <= 1e-6);
-```
+// 注意doule数据的相等判断，坑人(fabs((nums[0] - 24)) <= 1e-6);
+// ```
 typedef double (*ClacFunc) (double a, double b);
 #define DEBUG_PRINTF // printf
 
@@ -86,4 +86,4 @@ bool judgePoint24(int* nums, int numsSize)
 
     return calc(tmpNums, numsSize);
 }
-```
+// ```

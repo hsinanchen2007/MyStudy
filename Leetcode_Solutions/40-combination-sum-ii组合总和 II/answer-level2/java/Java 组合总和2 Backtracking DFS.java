@@ -1,15 +1,15 @@
-### 解题思路
-穷举类问题想到用回溯算法。
-为什么要进行排序呢？我们先看一下排序后的效果。
-如candidates = [10,1,2,7,6,1,5], target = 8。
-排序后candidates = [1,1,2,5,6,7,10] 假如做到1+1+2，下一步加5已经大于target，因此
-在这种情况之后的所有组合都可以跳过不做，如果不排序是达不到这种效果的。
-关于去重的问题，在这里另外提供一个比较麻烦但是很容易理解的思路：
-开一个HashSet<List<Integer>>,每次加入结果前,判断set是否包含即将添加的list。
+// ### 解题思路
+// 穷举类问题想到用回溯算法。
+// 为什么要进行排序呢？我们先看一下排序后的效果。
+// 如candidates = [10,1,2,7,6,1,5], target = 8。
+// 排序后candidates = [1,1,2,5,6,7,10] 假如做到1+1+2，下一步加5已经大于target，因此
+// 在这种情况之后的所有组合都可以跳过不做，如果不排序是达不到这种效果的。
+// 关于去重的问题，在这里另外提供一个比较麻烦但是很容易理解的思路：
+// 开一个HashSet<List<Integer>>,每次加入结果前,判断set是否包含即将添加的list。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<List<Integer>> ans = new ArrayList<>() ;
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
@@ -34,4 +34,4 @@ class Solution {
         }
     }
 }
-```
+// ```

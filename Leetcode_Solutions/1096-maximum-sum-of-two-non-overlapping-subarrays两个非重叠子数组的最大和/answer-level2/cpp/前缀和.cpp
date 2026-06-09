@@ -1,6 +1,6 @@
-lsum[i]:起始位置为i、长度为L的子数组和，msum[i]同理。
-对于每个位置i开始的长度为L的子数组,搜索与其没有重复元素的所有长度为M的子数组（起始位置为j,判断条件为j+M <= i || j>=i+L），并保存最大值。
-```
+// lsum[i]:起始位置为i、长度为L的子数组和，msum[i]同理。
+// 对于每个位置i开始的长度为L的子数组,搜索与其没有重复元素的所有长度为M的子数组（起始位置为j,判断条件为j+M <= i || j>=i+L），并保存最大值。
+// ```
 class Solution {
 public:
     int maxSumTwoNoOverlap(vector<int>& A, int L, int M) {
@@ -32,4 +32,4 @@ public:
         return re;
     }
 };
-```
+// ```

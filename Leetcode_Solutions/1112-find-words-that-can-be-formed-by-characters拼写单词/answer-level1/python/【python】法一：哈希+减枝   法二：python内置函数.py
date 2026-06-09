@@ -1,9 +1,9 @@
-### 解题思路
-方法一用字典来实现查找，每次查找O（1）；方法二主要利用python的collections包的Counter计数，和alla（）的迭代实现类似功能，但因为没有剪枝，所以比方法一慢一些。
+# ### 解题思路
+# 方法一用字典来实现查找，每次查找O（1）；方法二主要利用python的collections包的Counter计数，和alla（）的迭代实现类似功能，但因为没有剪枝，所以比方法一慢一些。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         #方法一
@@ -35,4 +35,4 @@ class Solution:
             if all(k[j]<=char[j] for j in i):
                 ans += len(i)
         return ans
-```
+# ```

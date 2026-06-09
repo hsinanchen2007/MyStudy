@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *数据说明：
 *每个整形queue存储说明：32 31 30 ... 4,3位：用于存放x坐标，2 1 0位：用于存放y坐标
@@ -97,4 +97,4 @@ int maxDistance( int ** grid , int gridSize , int * gridColSize ){
     return dis - 2;
 
 }
-```
+// ```

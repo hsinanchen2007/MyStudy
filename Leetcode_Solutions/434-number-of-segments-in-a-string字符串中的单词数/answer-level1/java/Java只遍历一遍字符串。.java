@@ -1,12 +1,12 @@
-![2019122901.PNG](https://pic.leetcode-cn.com/e7754d5007b7a84d503d4c452464f58cbeeb94d5410551a4956de59077643781-2019122901.PNG)
+// ![2019122901.PNG](https://pic.leetcode-cn.com/e7754d5007b7a84d503d4c452464f58cbeeb94d5410551a4956de59077643781-2019122901.PNG)
 
-### 解题思路
-1)考虑字符串的长度为0;
-2)考虑字符串长度为1;
-3)考虑遍历到字符串最后一个字符时的情况
-### 代码
+// ### 解题思路
+// 1)考虑字符串的长度为0;
+// 2)考虑字符串长度为1;
+// 3)考虑遍历到字符串最后一个字符时的情况
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countSegments(String s) {
     	int right=0;
@@ -46,4 +46,4 @@ class Solution {
     	return count;
     }
 }
-```
+// ```

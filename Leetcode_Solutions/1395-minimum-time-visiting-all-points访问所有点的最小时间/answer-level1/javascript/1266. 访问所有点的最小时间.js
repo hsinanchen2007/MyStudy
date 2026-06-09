@@ -1,9 +1,9 @@
-### 解题思路
-两点之间需要的时间就是x, y坐标差的绝对值中较大的那个值
+// ### 解题思路
+// 两点之间需要的时间就是x, y坐标差的绝对值中较大的那个值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} points
  * @return {number}
@@ -17,4 +17,4 @@ var minTimeToVisitAllPoints = function (points) {
     }
     return result
 };
-```
+// ```

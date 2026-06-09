@@ -1,5 +1,5 @@
-**1.递归**  
-```
+// **1.递归**  
+// ```
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
@@ -10,9 +10,9 @@ public:
         return isSameTree(p->left,q->left)&&isSameTree(p->right,q->right);
     }
 };
-```
-**2.迭代**  
-```
+// ```
+// **2.迭代**  
+// ```
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
@@ -40,4 +40,4 @@ public:
         return true;
     }
 };
-```
+// ```

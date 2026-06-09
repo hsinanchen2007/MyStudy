@@ -1,6 +1,6 @@
-# 一、代码及注释：
+# # 一、代码及注释：
 
-```
+# ```
 class Solution:
     def duplicateZeros(self, arr: List[int]) -> None:
         """
@@ -49,6 +49,6 @@ class Solution:
                     arr[index] = arr[i]
                     index -= 1
 
-```
+# ```
 
-![微信截图_20200207111939.png](https://pic.leetcode-cn.com/be4208901fe638faab82dda07049fadb9e07cd5e3db763c257178f2f7be72c28-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200207111939.png)
+# ![微信截图_20200207111939.png](https://pic.leetcode-cn.com/be4208901fe638faab82dda07049fadb9e07cd5e3db763c257178f2f7be72c28-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200207111939.png)

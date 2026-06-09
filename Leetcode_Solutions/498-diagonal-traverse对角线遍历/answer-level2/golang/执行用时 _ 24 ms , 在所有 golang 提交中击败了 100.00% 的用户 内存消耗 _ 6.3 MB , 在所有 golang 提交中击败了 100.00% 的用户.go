@@ -1,4 +1,4 @@
-```
+// ```
 func findDiagonalOrder(matrix [][]int) []int {
 	// 思路：每条对角线上元素 横纵坐标之和相等
 	m := len(matrix)
@@ -71,7 +71,7 @@ func findDiagonalOrder(matrix [][]int) []int {
 	return out
 }
 
-```
+// ```
 
 
-![image.png](https://pic.leetcode-cn.com/e150b03d3193b134c4e501c96452dcb662c8b303c6078c621f9d5d7178c6be19-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e150b03d3193b134c4e501c96452dcb662c8b303c6078c621f9d5d7178c6be19-image.png)

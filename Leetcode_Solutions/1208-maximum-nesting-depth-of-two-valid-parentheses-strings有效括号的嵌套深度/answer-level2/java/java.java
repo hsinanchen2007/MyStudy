@@ -1,9 +1,9 @@
-### 解题思路
-无言，可能是我阅读理解能力太差了
+// ### 解题思路
+// 无言，可能是我阅读理解能力太差了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         int[] ans = new int [seq.length()];
@@ -14,4 +14,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

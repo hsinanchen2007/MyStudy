@@ -1,9 +1,9 @@
-### 解题思路
-java统计字符的个数，偶数个直接相加，奇数减一再加，最后再加1
+// ### 解题思路
+// java统计字符的个数，偶数个直接相加，奇数减一再加，最后再加1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
          char[] a = s.toCharArray();
@@ -29,4 +29,4 @@ class Solution {
 		 return count+flag;
     }
 }
-```
+// ```

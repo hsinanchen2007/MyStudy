@@ -1,6 +1,6 @@
-思路：排除一些特定的测试用例情况，把A和B链表长度确定。
-因为单链表后半段相同，所以分别循环向后找到相同的，返回
-```
+# 思路：排除一些特定的测试用例情况，把A和B链表长度确定。
+# 因为单链表后半段相同，所以分别循环向后找到相同的，返回
+# ```
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution(object):
         
         
 
-```
+# ```

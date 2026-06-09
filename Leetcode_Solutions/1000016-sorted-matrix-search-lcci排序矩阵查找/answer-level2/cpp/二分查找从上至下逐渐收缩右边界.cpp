@@ -1,5 +1,5 @@
-因为数组对于每一列递增，当我们对于一列使用二分查找找到target的插入序号后，在下一行我们可以将二分查找的右边界缩小到这个值。平均时间复杂度为logN*logN
-```
+// 因为数组对于每一列递增，当我们对于一列使用二分查找找到target的插入序号后，在下一行我们可以将二分查找的右边界缩小到这个值。平均时间复杂度为logN*logN
+// ```
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -21,4 +21,4 @@ public:
         return false;
     }
 };
-```
+// ```

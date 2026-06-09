@@ -1,11 +1,11 @@
-### 解题思路
-1. 循环一遍数组，统计各个整数的个数。
-2. 循环处理整数个数的最大公约数GCD，出现<2的情况立刻返回false。
-3. 所有整数的最大公约数结果>=2，则true
+// ### 解题思路
+// 1. 循环一遍数组，统计各个整数的个数。
+// 2. 循环处理整数个数的最大公约数GCD，出现<2的情况立刻返回false。
+// 3. 所有整数的最大公约数结果>=2，则true
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func hasGroupsSizeX(deck []int) bool {
 	M := make(map[int]int)
@@ -47,4 +47,4 @@ func hasGroupsSizeX(deck []int) bool {
 	return true
 }
 
-```
+// ```

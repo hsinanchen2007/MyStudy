@@ -1,4 +1,4 @@
-```
+// ```
 func shortestToChar(S string, C byte) []int {
     result := []int{}
 
@@ -33,4 +33,4 @@ func shortestToChar(S string, C byte) []int {
 
 	return result
 }
-```
+// ```

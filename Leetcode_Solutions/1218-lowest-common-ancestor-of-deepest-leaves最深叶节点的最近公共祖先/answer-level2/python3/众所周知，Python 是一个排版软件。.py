@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-解题思路抄题解的，主要是想展示一下 Python 的排版功能而已。
+# 解题思路抄题解的，主要是想展示一下 Python 的排版功能而已。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
                 l[1] if l[0] >  r[0] else \
                 r[1]
         return recursion(root)[1]
-```
+# ```

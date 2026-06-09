@@ -1,9 +1,9 @@
-### 解题思路
-难点就是每个字符的个数>9，需要翻转
+// ### 解题思路
+// 难点就是每个字符的个数>9，需要翻转
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MaxSize 100000
 char* compressString(char* S){
     int length=strlen(S);
@@ -75,4 +75,4 @@ char* compressString(char* S){
     return S;
     return result;
 }
-```
+// ```

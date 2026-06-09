@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortedSquares(self, A: List[int]) -> List[int]:
         res = []
@@ -30,4 +30,4 @@ class Solution:
             res.append(A[i]**2)
             i = i + 1
         return res
-```
+# ```

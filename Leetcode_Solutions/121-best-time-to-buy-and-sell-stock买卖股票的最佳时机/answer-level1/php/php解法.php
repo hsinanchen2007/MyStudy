@@ -1,10 +1,10 @@
-### 解题思路
-根据首页官方解题思路，关键点在 $minPrice = min($minPrice,$value); 通过不断筛选最小的价格，来做到动态规划的处理。
-官方的思路很好懂~
+// ### 解题思路
+// 根据首页官方解题思路，关键点在 $minPrice = min($minPrice,$value); 通过不断筛选最小的价格，来做到动态规划的处理。
+// 官方的思路很好懂~
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -23,4 +23,4 @@ class Solution {
         return $maxProfit;
     }
 }
-```
+// ```

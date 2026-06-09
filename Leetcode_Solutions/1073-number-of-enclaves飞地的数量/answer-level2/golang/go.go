@@ -1,4 +1,4 @@
-```
+// ```
 func numEnclaves(A [][]int) int {
 	if 0 == len(A) || 0 == len(A[0]) {
 		return 0
@@ -33,4 +33,4 @@ func numEnclaves(A [][]int) int {
 	}
 	return cnt
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/0e67690c8121693629e6191b11da676bb1c0956c82c8375e123653f62cc6208d-image.png)
+# ![image.png](https://pic.leetcode-cn.com/0e67690c8121693629e6191b11da676bb1c0956c82c8375e123653f62cc6208d-image.png)
 
 
-```
+# ```
 from typing import List
 from collections import Counter
 from copy import deepcopy
@@ -91,4 +91,4 @@ class Solution:
             start, end = start + 1, end + 1
 
         return ans
-```
+# ```

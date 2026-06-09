@@ -1,11 +1,11 @@
-### 解题思路
-1，连接vector内多个链表头尾，合成一条链表
-2，依次取链表值保存在vector，sort.
-3，依次将有序值存回链表
+// ### 解题思路
+// 1，连接vector内多个链表头尾，合成一条链表
+// 2，依次取链表值保存在vector，sort.
+// 3，依次将有序值存回链表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 void addlists(ListNode*& head, ListNode*&it, ListNode*&result, vector<int>&listtemmp)
 {
 	if (head == NULL)
@@ -70,4 +70,4 @@ public:
 	}
 
 };
-```
+// ```

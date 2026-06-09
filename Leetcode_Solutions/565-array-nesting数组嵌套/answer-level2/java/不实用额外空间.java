@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int arrayNesting(int[] nums) {
         int max =0;
@@ -18,6 +18,6 @@ class Solution {
         nums[hi] = temp;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/98dcda07700e916dfb0d460917b9a7f502b49b34533886249de60db53ba2b40f-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/98dcda07700e916dfb0d460917b9a7f502b49b34533886249de60db53ba2b40f-image.png)
 

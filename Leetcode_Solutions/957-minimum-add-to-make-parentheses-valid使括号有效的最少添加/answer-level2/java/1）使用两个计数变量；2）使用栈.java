@@ -1,13 +1,13 @@
-非栈方法：
-![2020022701.PNG](https://pic.leetcode-cn.com/a402ad2e89c8d8b6674ae2cd8b1cc3a05136e3b6e4679093303f1d5240b46964-2020022701.PNG)
-使用栈：
-![2020022702.PNG](https://pic.leetcode-cn.com/d8770b504d229ce26c59cc6f8517dbfaf36ba224c398fea47b721bc8086853f6-2020022702.PNG)
-### 解题思路
-优先将"("和")"配对;
+// 非栈方法：
+// ![2020022701.PNG](https://pic.leetcode-cn.com/a402ad2e89c8d8b6674ae2cd8b1cc3a05136e3b6e4679093303f1d5240b46964-2020022701.PNG)
+// 使用栈：
+// ![2020022702.PNG](https://pic.leetcode-cn.com/d8770b504d229ce26c59cc6f8517dbfaf36ba224c398fea47b721bc8086853f6-2020022702.PNG)
+// ### 解题思路
+// 优先将"("和")"配对;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minAddToMakeValid(String S) {
         //########使用两个计数变量
@@ -37,4 +37,4 @@ class Solution {
     	return stack.size();
     }
 }
-```
+// ```

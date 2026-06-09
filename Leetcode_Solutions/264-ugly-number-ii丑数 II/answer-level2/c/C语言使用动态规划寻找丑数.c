@@ -1,5 +1,5 @@
-解题思路：见leetcode官方解释
-```
+// 解题思路：见leetcode官方解释
+// ```
 int nthUglyNumber(int n){
     int p2 = 0, p3 = 0, p5 = 0, pu = 1, uNums[n], nums[3], ugly;
 
@@ -25,4 +25,4 @@ int nthUglyNumber(int n){
 
     return uNums[pu-1];
 }
-```
+// ```

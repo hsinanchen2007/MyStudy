@@ -1,4 +1,4 @@
-```
+// ```
   def compress(chars: Array[Char]): Int = {
     if (chars.size == 1) return 1
     var prev = chars(0)
@@ -30,4 +30,4 @@
     }
     j
   }
-```
+// ```

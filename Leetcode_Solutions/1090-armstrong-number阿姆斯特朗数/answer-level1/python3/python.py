@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码把
+# ### 解题思路
+# 直接看代码把
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isArmstrong(self, N: int) -> bool:
         s=str(N)
@@ -12,4 +12,4 @@ class Solution:
         for i in s:
             res+=int(i)**k
         return res==N
-```
+# ```

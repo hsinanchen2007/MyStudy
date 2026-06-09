@@ -1,8 +1,8 @@
-先对两个二维数组按照起始时间进行排序，首先双指针指向起始位置，然后移动找到有公共区间的位置。
-由len=min(c,d)-max(a,b)，求出公共区间长度，如果大于duration，则返回正确的区间。
-否则，end较小的一者的指针向后移动。
+// 先对两个二维数组按照起始时间进行排序，首先双指针指向起始位置，然后移动找到有公共区间的位置。
+// 由len=min(c,d)-max(a,b)，求出公共区间长度，如果大于duration，则返回正确的区间。
+// 否则，end较小的一者的指针向后移动。
 
-```
+// ```
 class Solution {
     public List<Integer> minAvailableDuration(int[][] slots1, int[][] slots2, int duration) {
         List<Integer> list = new ArrayList<>();
@@ -38,4 +38,4 @@ class MyComparator implements Comparator<int[]> {
         return o1[0] - o2[0];
     }
 }
-```
+// ```

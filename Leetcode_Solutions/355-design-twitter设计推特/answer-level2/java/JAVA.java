@@ -1,5 +1,5 @@
-如题
-```java
+// 如题
+// ```java
 class Twitter {
 
     private int time = 0;
@@ -141,4 +141,4 @@ class Twitter {
 
     }
 }
-```
+// ```

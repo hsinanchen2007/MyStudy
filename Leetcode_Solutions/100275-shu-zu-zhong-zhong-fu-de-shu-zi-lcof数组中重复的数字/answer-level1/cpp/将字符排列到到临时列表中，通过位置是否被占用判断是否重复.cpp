@@ -1,10 +1,10 @@
-### 解题思路
-发现使用map效率并没有比vector更高，可能是因为map的insert太耗时。
-vector的at(i)方法比[i]效率高一些。
+// ### 解题思路
+// 发现使用map效率并没有比vector更高，可能是因为map的insert太耗时。
+// vector的at(i)方法比[i]效率高一些。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
         return ret;
     }
 };
-```
+// ```

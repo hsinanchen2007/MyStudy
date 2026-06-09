@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         HashMap<Integer, Integer> uniqueNums = new HashMap<Integer, Integer>();
@@ -25,4 +25,4 @@ class Solution {
         return majority;
     }
 }
-```
+// ```

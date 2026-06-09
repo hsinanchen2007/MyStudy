@@ -1,9 +1,9 @@
-### 解题思路
-map+set，对set的操作比较麻烦，搞了一天才好
+// ### 解题思路
+// map+set，对set的操作比较麻烦，搞了一天才好
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxEqualFreq(vector<int>& nums)
@@ -71,4 +71,4 @@ private:
         }
     }
 };
-```
+// ```

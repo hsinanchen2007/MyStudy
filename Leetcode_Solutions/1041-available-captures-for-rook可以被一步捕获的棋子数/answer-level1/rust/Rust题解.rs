@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn num_rook_captures(board: Vec<Vec<char>>) -> i32 {
         let mut rook = (0, 0);
@@ -42,5 +42,5 @@ impl Solution {
         flag.iter().sum()
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

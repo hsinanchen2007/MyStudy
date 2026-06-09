@@ -1,8 +1,8 @@
-### 解题思路
-看了答案，在使用了javafx.util.Pair之后，实际上BFS和DFS具有相同的时空复杂度。
-### 代码
+// ### 解题思路
+// 看了答案，在使用了javafx.util.Pair之后，实际上BFS和DFS具有相同的时空复杂度。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -25,4 +25,4 @@ class Solution {
         return 1 + Math.min(minDepth(root.left), minDepth(root.right));
     }
 }
-```
+// ```

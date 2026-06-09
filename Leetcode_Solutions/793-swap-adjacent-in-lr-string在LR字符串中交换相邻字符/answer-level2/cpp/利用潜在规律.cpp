@@ -1,9 +1,9 @@
-### 解题思路
-容易看出，若可以转换，则start和end的长度要相同，且将start和end中X去掉后，剩下的由L、R构成的字符串应该相等。还有一点，若可以转换，则将start和end中的X去掉后，剩下的两个字符串st，et应相同，且st中的第i个字符和et中第i个字符应该相同。若st的第i个字符为L，则在原start字符串中该L的位置应该小于et的第i个字符在原end字符串中的位置，若st的第i个字符为R是情况相反。
+// ### 解题思路
+// 容易看出，若可以转换，则start和end的长度要相同，且将start和end中X去掉后，剩下的由L、R构成的字符串应该相等。还有一点，若可以转换，则将start和end中的X去掉后，剩下的两个字符串st，et应相同，且st中的第i个字符和et中第i个字符应该相同。若st的第i个字符为L，则在原start字符串中该L的位置应该小于et的第i个字符在原end字符串中的位置，若st的第i个字符为R是情况相反。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canTransform(string start, string end) {
@@ -46,4 +46,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-注意如果image[sr][sc]和newColor相同的时候就直接返回原image了，不然会无限递归爆栈
+// ### 解题思路
+// 注意如果image[sr][sc]和newColor相同的时候就直接返回原image了，不然会无限递归爆栈
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor)
@@ -29,4 +29,4 @@ public:
         }
     }
 };
-```
+// ```

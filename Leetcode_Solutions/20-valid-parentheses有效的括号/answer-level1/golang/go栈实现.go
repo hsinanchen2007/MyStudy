@@ -1,9 +1,9 @@
-### 解题思路
-go栈实现
+// ### 解题思路
+// go栈实现
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isValid(s string) bool {
 	var st Stack
 	for _, v := range s {
@@ -74,4 +74,4 @@ func (this *Stack) Push(value interface{}) {
 	this.length++
 }
 
-```
+// ```

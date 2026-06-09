@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int in_stack[100];
     int out_stack[100];
@@ -66,4 +66,4 @@ void myQueueFree(MyQueue* obj) {
  
  * myQueueFree(obj);
 */
-```
+// ```

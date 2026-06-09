@@ -1,4 +1,4 @@
-先找root节点，然后bfs遍历。思路简单
+# 先找root节点，然后bfs遍历。思路简单
 
 class Solution:
     def validateBinaryTreeNodes(self, n: int, leftChild: List[int], rightChild: List[int]) -> bool:

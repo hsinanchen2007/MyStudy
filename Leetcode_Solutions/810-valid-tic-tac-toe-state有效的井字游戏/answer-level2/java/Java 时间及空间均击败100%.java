@@ -1,4 +1,4 @@
-```
+// ```
 private boolean isSuccess(boolean[] count)
 {
     int[][] success =
@@ -50,4 +50,4 @@ public boolean validTicTacToe(String[] board)
     }
     return false;
 }
-```
+// ```

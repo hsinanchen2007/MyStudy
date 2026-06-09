@@ -1,9 +1,9 @@
-### 解题思路
-就是按照题意解答，标识一个轮数d,当循环结束后轮数+1，分得糖果数在原来基础上 (n*d + i);直到糖果分完，返回。
+// ### 解题思路
+// 就是按照题意解答，标识一个轮数d,当循环结束后轮数+1，分得糖果数在原来基础上 (n*d + i);直到糖果分完，返回。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} candies
  * @param {number} num_people
@@ -39,4 +39,4 @@ var distributeCandies = function(candies, num_people) {
     }
     return arr;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 private:
     bool Judge(vector<int>& judge, int idx) {
@@ -42,4 +42,4 @@ public:
         return res;
     }
 };
-```
+// ```

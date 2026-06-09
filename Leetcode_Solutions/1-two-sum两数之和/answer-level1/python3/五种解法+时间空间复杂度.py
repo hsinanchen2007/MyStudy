@@ -1,8 +1,8 @@
-class Solution:
-# APP1: nested loop get all combination of two numbers
-# Time: O(n^2), Space: O(1)
+# class Solution:
+# # APP1: nested loop get all combination of two numbers
+# # Time: O(n^2), Space: O(1)
 
-```
+# ```
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         if not nums or len(nums) < 2:
             return [-1, -1]
@@ -11,12 +11,12 @@ class Solution:
                 if nums[i] + nums[j] == target:
                     return [i, j]
         return [-1, -1]
-```
+# ```
 
-# APP2: sort the array for (num, index), use two pointers to find target
-# Time: O(nlgn), Space: O(n)
+# # APP2: sort the array for (num, index), use two pointers to find target
+# # Time: O(nlgn), Space: O(n)
 
-```
+# ```
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         if not nums or len(nums) < 2:
             return [-1, -1]
@@ -35,12 +35,12 @@ class Solution:
             if cur_sum > target:
                 right -= 1
         return [-1, -1]
-```
+# ```
     
-# APP3: loop through array, use binary search to find target - nums[i]
-# Time: O(nlgn), Space: O(1)
+# # APP3: loop through array, use binary search to find target - nums[i]
+# # Time: O(nlgn), Space: O(1)
  
-```
+# ```
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         if not nums or len(nums) < 2:
             return [-1, -1]
@@ -69,12 +69,12 @@ class Solution:
         if nums[right][0] == target:
             return nums[right][1]
         return -1
-```
+# ```
 
-# APP4: first pass: use hashtable {num: index}, second pass: find target - nums[i]
-# Time: O(n), Space: O(n)
+# # APP4: first pass: use hashtable {num: index}, second pass: find target - nums[i]
+# # Time: O(n), Space: O(n)
 
-```
+# ```
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         if not nums or len(nums) < 2:
             return [-1, -1]
@@ -86,13 +86,13 @@ class Solution:
             if lookup in mapping and mapping[lookup] != index:
                 return [index, mapping[lookup]]
         return [-1, -1]
-```
+# ```
         
         
-# APP5: one pass, store and find target - nums[i] same time
-# Time: O(n), Space: O(n)
+# # APP5: one pass, store and find target - nums[i] same time
+# # Time: O(n), Space: O(n)
 
-```
+# ```
    def twoSum(self, nums: List[int], target: int) -> List[int]:
         if not nums or len(nums) < 2:
             return [-1, -1]
@@ -102,5 +102,5 @@ class Solution:
                 return [mapping[target - num], index]
             mapping[num] = index
         return [-1, -1]
-```
+# ```
         

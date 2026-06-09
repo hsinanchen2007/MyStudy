@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/6111bf9c8e0b26c4ae91797d66ae3dab4fe1cb9d5ed215561ac2baa90f614af4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6111bf9c8e0b26c4ae91797d66ae3dab4fe1cb9d5ed215561ac2baa90f614af4-image.png)
 
-在草稿纸上比划比划，搞清楚下标变化和边界情况即可
+// 在草稿纸上比划比划，搞清楚下标变化和边界情况即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSize){
     if(matrixSize==0){
         *returnSize = 0;
@@ -64,4 +64,4 @@ int* spiralOrder(int** matrix, int matrixSize, int* matrixColSize, int* returnSi
 
     return res;
 }
-```
+// ```

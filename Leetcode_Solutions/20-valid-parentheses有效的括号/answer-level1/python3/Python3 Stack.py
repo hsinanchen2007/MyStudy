@@ -1,10 +1,10 @@
-### 解题思路
-用时击败99.92%
-内存击败99.66%
+# ### 解题思路
+# 用时击败99.92%
+# 内存击败99.66%
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
@@ -29,4 +29,4 @@ class Solution:
         else:
             return False
 
-```
+# ```

@@ -1,9 +1,9 @@
-结果:
+// 结果:
 
-![WX20190617-135447@2x.png](https://pic.leetcode-cn.com/e27f73bbd54dcee01671d948f25fa302be1f963193fc49469dc06450cd6df5b2-WX20190617-135447@2x.png)
+// ![WX20190617-135447@2x.png](https://pic.leetcode-cn.com/e27f73bbd54dcee01671d948f25fa302be1f963193fc49469dc06450cd6df5b2-WX20190617-135447@2x.png)
 
-代码:
-```
+// 代码:
+// ```
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -96,4 +96,4 @@ class Solution {
         return $result;
     }
 }
-```
+// ```

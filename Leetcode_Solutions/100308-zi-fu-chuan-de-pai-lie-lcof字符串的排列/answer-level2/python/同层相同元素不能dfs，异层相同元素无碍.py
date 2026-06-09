@@ -1,9 +1,9 @@
-### 解题思路
-如题
+# ### 解题思路
+# 如题
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permutation(self, s: str) -> List[str]:
         n=len(s)
@@ -23,4 +23,4 @@ class Solution:
         dfs(s,'')
         return res
 
-```
+# ```

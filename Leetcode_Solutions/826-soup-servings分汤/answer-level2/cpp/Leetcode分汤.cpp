@@ -1,5 +1,5 @@
-    和题解1的思路类似，但是方向相反，我们从dp[N][N]反推概率P。代码如下：
-```
+//     和题解1的思路类似，但是方向相反，我们从dp[N][N]反推概率P。代码如下：
+// ```
 public:
     double soupServings(int N) {
         if (N > 6000)
@@ -35,5 +35,5 @@ public:
         }
         return p;
     }
-```
-![image.png](https://pic.leetcode-cn.com/acc9f18a9fec8aeaccfc451c5361b3877d187165fafebd2f63e51e297429daf4-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/acc9f18a9fec8aeaccfc451c5361b3877d187165fafebd2f63e51e297429daf4-image.png)

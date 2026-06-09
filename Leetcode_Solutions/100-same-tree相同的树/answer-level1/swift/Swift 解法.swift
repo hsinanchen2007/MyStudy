@@ -1,4 +1,4 @@
-```swift []
+// ```swift []
 class Solution {
     func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
         if p == nil && q == nil {
@@ -13,4 +13,4 @@ class Solution {
         return isSameTree(p!.left, q!.left) && isSameTree(p!.right, q!.right)
     }
 }
-```
+// ```

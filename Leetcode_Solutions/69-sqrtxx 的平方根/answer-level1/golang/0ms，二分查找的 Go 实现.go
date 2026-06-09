@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/6a5ea918e769b7fb272e5d7ec2b626ab8ee6aa630c387473f7782306c1f94fc0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6a5ea918e769b7fb272e5d7ec2b626ab8ee6aa630c387473f7782306c1f94fc0-image.png)
 
-顺序查找，定位平方根（24ms，2.2 MB）
-```
+// 顺序查找，定位平方根（24ms，2.2 MB）
+// ```
 func mySqrt(x int) int {
     // 顺序查找，定位平方根
     for i:=0; i<=x; i++ {
@@ -12,10 +12,10 @@ func mySqrt(x int) int {
     }
     return x
 }
-```
+// ```
 
-二分查找，定位平方根（0ms，2.2 MB）
-```
+// 二分查找，定位平方根（0ms，2.2 MB）
+// ```
 func mySqrt(x int) int {
     // 二分查找，定位平方根
     i,j := 1,x
@@ -31,4 +31,4 @@ func mySqrt(x int) int {
     }
     return i-1
 }
-```
+// ```

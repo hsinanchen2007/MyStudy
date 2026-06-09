@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <string.h>
 
 int* reversePrint(struct ListNode* head, int* returnSize){
@@ -25,4 +25,4 @@ int* reversePrint(struct ListNode* head, int* returnSize){
     return res;
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```Java []
+// ```Java []
 class DeckRevealedIncreasing{
 	/**
 	 * 1.倒叙:观察示例可得:
@@ -25,4 +25,4 @@ class DeckRevealedIncreasing{
 	}
 }
 
-```
+// ```

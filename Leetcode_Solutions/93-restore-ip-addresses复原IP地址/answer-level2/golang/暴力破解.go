@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func restoreIpAddresses(s string) []string {
     n := len(s)
     if n<4 || n > 12{
@@ -65,4 +65,4 @@ func valid(s string)( ok bool){
     }
     return false
 }
-```
+// ```

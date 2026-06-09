@@ -1,9 +1,9 @@
-### 解题思路
-最大公因子串的长度sublen一定是str1和str2的长度的最大公因数，所以先计算两串长度len1,len2，再求出len1,len2的最大公因数，记为最大公因子串的长度sublen,把假设的substr的值赋值为str1的前sublen个元素，将substr依次和str1，str2比对，如果出现匹配不上的说明答案为空串，全匹配完的话，最后返回substr
+// ### 解题思路
+// 最大公因子串的长度sublen一定是str1和str2的长度的最大公因数，所以先计算两串长度len1,len2，再求出len1,len2的最大公因数，记为最大公因子串的长度sublen,把假设的substr的值赋值为str1的前sublen个元素，将substr依次和str1，str2比对，如果出现匹配不上的说明答案为空串，全匹配完的话，最后返回substr
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gcd(int a,int b)
 {
    // printf("%d %d\n",a,b);
@@ -55,4 +55,4 @@ char * gcdOfStrings(char * str1, char * str2){
     }
     return substr;
 }
-```
+// ```

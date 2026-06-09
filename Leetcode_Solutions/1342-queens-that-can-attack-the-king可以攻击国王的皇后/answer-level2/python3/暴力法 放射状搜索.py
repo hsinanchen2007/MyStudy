@@ -1,10 +1,10 @@
-### 解题思路
-![捕获.PNG](https://pic.leetcode-cn.com/63036c137c4dd2b44caaf983cb11731301fc98dffb5801986218b176e1f41d09-%E6%8D%95%E8%8E%B7.PNG)
+# ### 解题思路
+# ![捕获.PNG](https://pic.leetcode-cn.com/63036c137c4dd2b44caaf983cb11731301fc98dffb5801986218b176e1f41d09-%E6%8D%95%E8%8E%B7.PNG)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def queensAttacktheKing(self, queens: List[List[int]], king: List[int]) -> List[List[int]]:
         res = []
@@ -52,4 +52,4 @@ class Solution:
 
         return res
 
-```
+# ```

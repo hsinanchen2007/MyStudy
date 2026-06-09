@@ -1,9 +1,9 @@
-### 解题思路
-我只能想到用另外一个队列把前一个队列的都保存起来，为了提高（打卡）我只能把题解发出来了。
+// ### 解题思路
+// 我只能想到用另外一个队列把前一个队列的都保存起来，为了提高（打卡）我只能把题解发出来了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
     private Queue<Integer> queue;
     /** Initialize your data structure here. */
@@ -63,4 +63,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

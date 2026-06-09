@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         maxlen = 0
@@ -16,4 +16,4 @@ class Solution:
                 l.append(i)
         curlen = len(l)
         return curlen if maxlen < curlen else maxlen
-```
+# ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 int missingElement(int* nums, int numsSize, int k){
 	int res = 0;
 	int len = 0;
@@ -18,4 +18,4 @@ int missingElement(int* nums, int numsSize, int k){
     res = nums[numsSize-1] + (k - len);
 	return res;
 }
-```
+// ```

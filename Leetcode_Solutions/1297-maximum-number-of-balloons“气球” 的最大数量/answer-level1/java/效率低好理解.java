@@ -1,10 +1,10 @@
-### 解题思路
-将text所有字符存入map
-一直遍历balloon字符串，然后map里一直--，直到map中有字符不够的情况，结束循环。
+// ### 解题思路
+// 将text所有字符存入map
+// 一直遍历balloon字符串，然后map里一直--，直到map中有字符不够的情况，结束循环。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     String target = "balloon";
 
@@ -39,4 +39,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-发现和国际版大佬思路一样，只是我用 vector 代替了 hash_map
-https://leetcode.com/problems/longest-well-performing-interval/discuss/334565/JavaC%2B%2BPython-O(N)-Solution-Life-needs-996-and-669
-```c++
+// 发现和国际版大佬思路一样，只是我用 vector 代替了 hash_map
+// https://leetcode.com/problems/longest-well-performing-interval/discuss/334565/JavaC%2B%2BPython-O(N)-Solution-Life-needs-996-and-669
+// ```c++
     int longestWPI(vector<int>& hours) {
         vector<int> vt; 
         int n = hours.size(), ans = 0, cur = 0;
@@ -15,4 +15,4 @@ https://leetcode.com/problems/longest-well-performing-interval/discuss/334565/Ja
         }
         return ans;
     }
-```
+// ```

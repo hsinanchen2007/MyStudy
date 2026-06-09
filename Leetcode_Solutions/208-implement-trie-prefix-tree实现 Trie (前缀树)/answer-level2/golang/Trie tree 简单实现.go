@@ -1,4 +1,4 @@
-```
+// ```
 type Trie struct {
 	Next        [26]*Trie
 	isEndOfWord bool
@@ -48,4 +48,4 @@ func (this *Trie) StartsWith(prefix string) bool {
  * param_2 := obj.Search(word);
  * param_3 := obj.StartsWith(prefix);
  */
-```
+// ```

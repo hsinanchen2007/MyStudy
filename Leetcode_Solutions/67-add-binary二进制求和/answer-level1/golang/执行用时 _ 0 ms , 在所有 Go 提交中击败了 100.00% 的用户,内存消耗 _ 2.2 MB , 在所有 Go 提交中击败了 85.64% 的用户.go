@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // and：算是否进位，xor：计算加法结果（半加，即不带进位的加法）
 func addBinary(a string, b string) string {
     var (
@@ -59,4 +59,4 @@ func addBinary(a string, b string) string {
 
 	return string(ans)
 }
-```
+// ```

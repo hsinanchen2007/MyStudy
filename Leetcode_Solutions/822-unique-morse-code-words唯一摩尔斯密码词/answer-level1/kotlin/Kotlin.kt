@@ -1,17 +1,17 @@
-### 解题思路
-执行用时 :
-196 ms
-, 在所有 kotlin 提交中击败了
-100.00%
-的用户
-内存消耗 :
-33.7 MB
-, 在所有 kotlin 提交中击败了
-66.67%
+// ### 解题思路
+// 执行用时 :
+// 196 ms
+// , 在所有 kotlin 提交中击败了
+// 100.00%
+// 的用户
+// 内存消耗 :
+// 33.7 MB
+// , 在所有 kotlin 提交中击败了
+// 66.67%
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
 fun uniqueMorseRepresentations(words: Array<String>): Int {
     val morse:Array<String> = arrayOf(".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--..")
@@ -31,4 +31,4 @@ fun uniqueMorseRepresentations(words: Array<String>): Int {
     return count1
 }
 }
-```
+// ```

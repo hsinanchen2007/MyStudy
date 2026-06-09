@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     /*
@@ -18,4 +18,4 @@ public:
         return dp[q_r][q_g]>1?1:dp[q_r][q_g];
     }
 }; 
-```
+// ```

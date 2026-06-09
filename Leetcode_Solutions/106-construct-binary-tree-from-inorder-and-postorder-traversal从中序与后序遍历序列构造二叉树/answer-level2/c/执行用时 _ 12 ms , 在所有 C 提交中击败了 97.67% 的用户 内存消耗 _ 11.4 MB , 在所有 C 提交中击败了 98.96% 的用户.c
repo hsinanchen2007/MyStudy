@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ struct TreeNode* buildTree(int* inorder, int inorderSize, int* postorder, int po
     struct TreeNode *root=fun(0,postorderSize-1,0,inorderSize-1,postorder,inorder);
     return root;
 }
-```
+// ```

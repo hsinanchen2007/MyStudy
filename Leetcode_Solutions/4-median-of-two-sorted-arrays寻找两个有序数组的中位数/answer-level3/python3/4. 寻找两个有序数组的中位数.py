@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         nums1.extend(nums2)
@@ -10,7 +10,7 @@ class Solution:
             mid = temp[len(temp) // 2]
 
         return mid
-```
+# ```
 
 
 

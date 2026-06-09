@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numWays(self, n: int) -> int:
         if n == 0:
@@ -19,4 +19,4 @@ class Solution:
         for i in range (3, n+1):
             dp[i] = dp[i-1] + dp[i-2]
         return dp[-1]%1000000007
-```
+# ```

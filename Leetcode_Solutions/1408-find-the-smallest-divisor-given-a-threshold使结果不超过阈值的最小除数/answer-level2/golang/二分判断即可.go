@@ -1,7 +1,7 @@
-题解 大佬们都写了,  我来分享想`Go`的代码
+// 题解 大佬们都写了,  我来分享想`Go`的代码
 
 
-```go
+// ```go
 func smallestDivisor(nums []int, threshold int) int {
     var l = 1
     var r = 5000000
@@ -23,4 +23,4 @@ func smallestDivisor(nums []int, threshold int) int {
     }
     return ans
 }
-```
+// ```

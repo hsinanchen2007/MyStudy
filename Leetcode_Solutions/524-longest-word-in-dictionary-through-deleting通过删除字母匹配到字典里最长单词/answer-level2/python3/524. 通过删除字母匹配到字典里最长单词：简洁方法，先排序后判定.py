@@ -1,8 +1,8 @@
-用好系统函数sort()和find()就行，详见注释。
+# 用好系统函数sort()和find()就行，详见注释。
 
-![image.png](https://pic.leetcode-cn.com/8671538b0233d950d48569568479ef8c2374b72e212d0b66b23edac080087a15-image.png)
+# ![image.png](https://pic.leetcode-cn.com/8671538b0233d950d48569568479ef8c2374b72e212d0b66b23edac080087a15-image.png)
 
-```python []
+# ```python []
 class Solution:
     def findLongestWord(self, s: str, d: List[str]) -> str:
         d.sort(key = lambda x: [-len(x), x])#对字典d进行排序，第一关键字是长度升序，第二关键字是字符串本身字典序
@@ -18,8 +18,8 @@ class Solution:
             if f(c):                #如果匹配就返回单词
                 return c
         return ''
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def findLongestWord(self, s: str, d: List[str]) -> str:
         d.sort(key = lambda x: (-len(x), x))
@@ -32,4 +32,4 @@ class Solution:
                 i = k + 1
             return True
         return next((c for c in d if f(c)), '')
-```
+# ```

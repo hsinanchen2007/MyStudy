@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/8d5e30d31a63950aaf2b3d2f06bce6dab2fa51c369fd9865077ae24b5c4958d1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8d5e30d31a63950aaf2b3d2f06bce6dab2fa51c369fd9865077ae24b5c4958d1-image.png)
 
-```
+// ```
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> answer, left, right;
@@ -17,4 +17,4 @@ class Solution {
         return answer;
     }
 }
-```
+// ```

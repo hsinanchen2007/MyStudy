@@ -1,9 +1,9 @@
-### 解题思路
-这也是一道动态规划的典型题目
+// ### 解题思路
+// 这也是一道动态规划的典型题目
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];
@@ -16,4 +16,4 @@ class Solution {
         return dp[m - 1][n - 1];
     }
 }
-```
+// ```

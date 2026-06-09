@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* replaceSpaces(char* S, int length){
     int spaceNum = 0;
     int i, j, index;
@@ -28,4 +28,4 @@ char* replaceSpaces(char* S, int length){
 
     return S;
 }
-```
+// ```

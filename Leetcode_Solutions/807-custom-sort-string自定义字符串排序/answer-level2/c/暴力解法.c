@@ -1,9 +1,9 @@
-### 解题思路
-首先遍历T，记录下每个字符出现的次数。由于没有规定不再S中的T的字符位置。优先排列S中的字符，然后再把T剩下的字符输出。
+// ### 解题思路
+// 首先遍历T，记录下每个字符出现的次数。由于没有规定不再S中的T的字符位置。优先排列S中的字符，然后再把T剩下的字符输出。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * customSortString(char * S, char * T) {
     if (*T == '\0') {
         return "";
@@ -52,4 +52,4 @@ char * customSortString(char * S, char * T) {
     printf("ans is %s", ans);
     return ans;
 }
-```
+// ```

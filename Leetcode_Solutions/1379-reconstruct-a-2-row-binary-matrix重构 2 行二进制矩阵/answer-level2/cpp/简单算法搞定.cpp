@@ -1,10 +1,10 @@
-1. 合法性校验，如果colsum的总和不等于upper+lower，必然返回空。
-2. 先处理2和0：如果colsum的2的，肯定上下都是1，upper, lower都减1；如果是0的肯定上下都是0；upper和lower都不变。
-3. 再处理1：剩下的没有分配的位，要么upper为1，要么lower为1；如果分配完成则返回，分配不完就返回空。
+// 1. 合法性校验，如果colsum的总和不等于upper+lower，必然返回空。
+// 2. 先处理2和0：如果colsum的2的，肯定上下都是1，upper, lower都减1；如果是0的肯定上下都是0；upper和lower都不变。
+// 3. 再处理1：剩下的没有分配的位，要么upper为1，要么lower为1；如果分配完成则返回，分配不完就返回空。
 
-![捕获.PNG](https://pic.leetcode-cn.com/a0c194f1449492c66936f0d94736158efa8f630bf86657f2cc6acd6fc7876696-%E6%8D%95%E8%8E%B7.PNG)
+// ![捕获.PNG](https://pic.leetcode-cn.com/a0c194f1449492c66936f0d94736158efa8f630bf86657f2cc6acd6fc7876696-%E6%8D%95%E8%8E%B7.PNG)
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> reconstructMatrix(int upper, int lower, vector<int>& colsum) 
@@ -64,4 +64,4 @@ public:
     }
 };
 
-```
+// ```

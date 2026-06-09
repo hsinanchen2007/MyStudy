@@ -1,8 +1,8 @@
-### 解题思路
->##### 46题结果 + 二维数组去重 
-### 代码
+// ### 解题思路
+// >##### 46题结果 + 二维数组去重 
+// ### 代码
 
-```javascript
+// ```javascript
 var permuteUnique = function(nums) {
     if(!nums.length) return [];
     const res = [];
@@ -38,4 +38,4 @@ const _permute = (arr, start, res) => {
         [arr[i], arr[start]] = [arr[start], arr[i]];
     }
 }
-```
+// ```

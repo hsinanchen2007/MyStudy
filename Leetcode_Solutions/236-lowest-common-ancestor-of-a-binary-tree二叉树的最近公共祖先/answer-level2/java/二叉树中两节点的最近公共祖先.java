@@ -1,11 +1,11 @@
-# 1.祖先字典（父指针）
-## 1.1 分析
-- 遍历二叉树，建立Map存各个结点的父节点，key为当前节点，value为其父节点。
-- 通过Map找到p节点到root的路径（包括p），存入Set。
-- 沿着q节点到root的路径往上找，直到路径上某节点在Set中，极为LCA。
+// # 1.祖先字典（父指针）
+// ## 1.1 分析
+// - 遍历二叉树，建立Map存各个结点的父节点，key为当前节点，value为其父节点。
+// - 通过Map找到p节点到root的路径（包括p），存入Set。
+// - 沿着q节点到root的路径往上找，直到路径上某节点在Set中，极为LCA。
 
-## 1.2 代码
-```java
+// ## 1.2 代码
+// ```java
 import java.util.*;
 class Solution {
     HashMap<TreeNode, TreeNode> map = new HashMap<>();
@@ -39,8 +39,8 @@ class Solution {
         return q;
     }
 }
-```
+// ```
 
-## 1.3 复杂度
-时间：O(n),建立字典要遍历所有节点
-空间：O(h)，h为树高，辅助空间为
+// ## 1.3 复杂度
+// 时间：O(n),建立字典要遍历所有节点
+// 空间：O(h)，h为树高，辅助空间为

@@ -1,11 +1,11 @@
-### 解题思路
-模拟
-又一次双百
-![捕获.JPG](https://pic.leetcode-cn.com/b84beebfd7f7319bb3d24aedca10a8355874b8add59e2dcaf27222d4fae475cc-%E6%8D%95%E8%8E%B7.JPG)
+// ### 解题思路
+// 模拟
+// 又一次双百
+// ![捕获.JPG](https://pic.leetcode-cn.com/b84beebfd7f7319bb3d24aedca10a8355874b8add59e2dcaf27222d4fae475cc-%E6%8D%95%E8%8E%B7.JPG)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int compareVersion(string version1, string version2) {
@@ -47,4 +47,4 @@ public:
         return 0;
     }
 };
-```
+// ```

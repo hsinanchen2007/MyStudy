@@ -1,9 +1,9 @@
-### 解题思路
-先寻找R的位置，然后向四个方向遍历，直到碰到卒或者象
+// ### 解题思路
+// 先寻找R的位置，然后向四个方向遍历，直到碰到卒或者象
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int sum=0,i,j,m,n,q=0;
     //寻找R的位置坐标
@@ -71,4 +71,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
         return sum;
 }
-```
+// ```

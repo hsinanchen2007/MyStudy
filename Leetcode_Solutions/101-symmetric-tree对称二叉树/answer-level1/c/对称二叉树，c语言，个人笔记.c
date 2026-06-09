@@ -1,9 +1,9 @@
-### 解题思路
-方法一：递归,看左右子树它们的两个是否有相同的值，每个树的右子树都与另一个树的左子树镜像对称。
-方法二：利用队列，进行层序遍历，每一层的子树插入队列时按照相邻两个结点是镜像关系插入。
+// ### 解题思路
+// 方法一：递归,看左右子树它们的两个是否有相同的值，每个树的右子树都与另一个树的左子树镜像对称。
+// 方法二：利用队列，进行层序遍历，每一层的子树插入队列时按照相邻两个结点是镜像关系插入。
 
-### 代码
-```c
+// ### 代码
+// ```c
 //方法一：递归,看左右子树它们的两个是否有相同的值，每个树的右子树都与另一个树的左子树镜像对称。
 int  isSymmetricRercursion(struct TreeNode* l,struct TreeNode* r){
     if(!l && !r){
@@ -29,9 +29,9 @@ bool isSymmetric(struct TreeNode* root){
     }
     return true;
 }
-```
+// ```
 
-```
+// ```
 //方法二：利用队列，进行层序遍历，每一层的子树插入队列时按照相邻两个结点是镜像关系插入。
 bool isSymmetric(struct TreeNode* root){
     struct TreeNode* queue[500];
@@ -58,4 +58,4 @@ bool isSymmetric(struct TreeNode* root){
     }
     return true;
 }
-```
+// ```

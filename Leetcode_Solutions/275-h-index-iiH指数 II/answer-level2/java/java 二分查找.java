@@ -1,4 +1,4 @@
-执行用时：1 ms
+// 执行用时：1 ms
 
 class Solution {
     public int hIndex(int[] citations) {

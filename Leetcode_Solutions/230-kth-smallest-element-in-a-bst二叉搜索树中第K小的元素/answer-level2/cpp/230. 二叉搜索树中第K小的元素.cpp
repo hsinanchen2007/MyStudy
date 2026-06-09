@@ -1,11 +1,11 @@
-### 中序遍历
-中序遍历，取出第k个即可。
-### 时间/空间复杂度
-时间：O（n）
-空间：O（n）
-### 代码
+// ### 中序遍历
+// 中序遍历，取出第k个即可。
+// ### 时间/空间复杂度
+// 时间：O（n）
+// 空间：O（n）
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -29,4 +29,4 @@ public:
         inorder(root->right,ans);
     }
 };
-```
+// ```

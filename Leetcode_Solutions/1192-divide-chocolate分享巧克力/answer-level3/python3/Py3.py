@@ -1,5 +1,5 @@
-思路就是最经典的最大化最小值二分，给一份python的代码
-```python
+# 思路就是最经典的最大化最小值二分，给一份python的代码
+# ```python
 class Solution:
     def maximizeSweetness(self, sweetness: List[int], K: int) -> int:
         def judge(x):
@@ -18,4 +18,4 @@ class Solution:
             else:
                 hi = t
         return lo
-```
+# ```

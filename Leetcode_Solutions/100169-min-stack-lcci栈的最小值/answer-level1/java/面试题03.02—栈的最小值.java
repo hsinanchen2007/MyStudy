@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
     int min;
     int top;
@@ -57,4 +57,4 @@ return min;
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

@@ -1,9 +1,9 @@
-## 思路
-**注意**
-- 判断是否为数字不能用 isdigit()
-- 将string转为 int
-### 代码
-```c++
+// ## 思路
+// **注意**
+// - 判断是否为数字不能用 isdigit()
+// - 将string转为 int
+// ### 代码
+// ```c++
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
@@ -34,4 +34,4 @@ public:
         return st.top();
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /*
 遍历数组
 出现5，5的个数++
@@ -46,4 +46,4 @@ func lemonadeChange(bills []int) bool {
 	}
 	return true
 }
-```
+// ```

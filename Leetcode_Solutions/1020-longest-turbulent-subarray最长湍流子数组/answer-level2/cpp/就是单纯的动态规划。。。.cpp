@@ -1,5 +1,5 @@
-注意：这个dp的含义是以A[i]为结尾(必须包含A[i])的湍流数组长度，不是记录前i个数中(不一定要包含A[i])最大的湍流数组的长度
-```
+// 注意：这个dp的含义是以A[i]为结尾(必须包含A[i])的湍流数组长度，不是记录前i个数中(不一定要包含A[i])最大的湍流数组的长度
+// ```
 class Solution {
 public:
     int maxTurbulenceSize(vector<int>& A) {
@@ -34,4 +34,4 @@ public:
         return ans;
     }
 };
-```
+// ```

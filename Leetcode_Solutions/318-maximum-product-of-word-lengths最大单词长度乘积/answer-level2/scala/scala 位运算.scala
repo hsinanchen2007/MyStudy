@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def maxProduct(words: Array[String]): Int = {
     var res = 0
@@ -10,4 +10,4 @@ object Solution {
     res
   }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-从1开始遍历到数组长度+1；看数组中是否存在该最小整数，没有则返回
+// ### 解题思路
+// 从1开始遍历到数组长度+1；看数组中是否存在该最小整数，没有则返回
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -15,4 +15,4 @@ var firstMissingPositive = function(nums) {
         }
     }
 };
-```
+// ```

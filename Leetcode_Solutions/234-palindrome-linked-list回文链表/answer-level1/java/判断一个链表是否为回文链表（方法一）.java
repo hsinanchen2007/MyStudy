@@ -1,11 +1,11 @@
-### 解题思路
-借助于栈的特点：先进后出，即逆序。
-如下代码实现的时间复杂度和空间复杂度均为O(N).
-todo：后续编码降低空间复杂度分别为O(logN)和O(1).
+// ### 解题思路
+// 借助于栈的特点：先进后出，即逆序。
+// 如下代码实现的时间复杂度和空间复杂度均为O(N).
+// todo：后续编码降低空间复杂度分别为O(logN)和O(1).
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -32,4 +32,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

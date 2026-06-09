@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} pushed
  * @param {number[]} popped
@@ -18,4 +18,4 @@ var validateStackSequences = function(pushed, popped) {
     }
     return stack.length == 0;
 };
-```
+// ```

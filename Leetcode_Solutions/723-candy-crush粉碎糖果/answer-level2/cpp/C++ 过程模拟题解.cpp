@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     const int LINK_COUNT_CUT = 3;
@@ -77,6 +77,6 @@ public:
         return board;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/0f22894e1568e051beba4c6b3131c40bcce70d50cf11afe20fef25816dddee31-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0f22894e1568e051beba4c6b3131c40bcce70d50cf11afe20fef25816dddee31-image.png)

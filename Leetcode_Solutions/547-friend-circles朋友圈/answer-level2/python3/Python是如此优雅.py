@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def findCircleNum(self, M: List[List[int]]) -> int:
         circleNum = 0
@@ -19,4 +19,4 @@ class Solution:
                 que.pop(0)
         return circleNum
 
-```
+# ```

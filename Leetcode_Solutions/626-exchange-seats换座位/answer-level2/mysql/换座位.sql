@@ -1,4 +1,4 @@
-```
+-- ```
 select
     s1.id ,
     case
@@ -10,4 +10,4 @@ from seat s1
 left join seat s2 on (s2.id - 1= s1.id)
 left join seat s3 on (s3.id + 1= s1.id)
 order by s1.id
-```
+-- ```

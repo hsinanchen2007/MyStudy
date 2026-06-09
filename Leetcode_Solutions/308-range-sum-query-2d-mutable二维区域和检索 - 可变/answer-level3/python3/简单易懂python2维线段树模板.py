@@ -1,17 +1,17 @@
-### 解题思路
-构造一棵2维线段树即可得解。
+# ### 解题思路
+# 构造一棵2维线段树即可得解。
 
-图解：
-![2维线段树.001.jpeg](https://pic.leetcode-cn.com/f03bbaee310aea37367f94894413967c679a77d23c8e8df24ec8d08d362a61fd-2%E7%BB%B4%E7%BA%BF%E6%AE%B5%E6%A0%91.001.jpeg)
+# 图解：
+# ![2维线段树.001.jpeg](https://pic.leetcode-cn.com/f03bbaee310aea37367f94894413967c679a77d23c8e8df24ec8d08d362a61fd-2%E7%BB%B4%E7%BA%BF%E6%AE%B5%E6%A0%91.001.jpeg)
 
-易错点：
-1. node的上下左右边界有可能不合法
-2. 每一个node未必都有四个子node，每次node对应的区间矩阵和应当清零后，根据子node的有无进行重新计算
-3. 求区间矩阵和的时候，上下左右边界要收缩至不能收缩
+# 易错点：
+# 1. node的上下左右边界有可能不合法
+# 2. 每一个node未必都有四个子node，每次node对应的区间矩阵和应当清零后，根据子node的有无进行重新计算
+# 3. 求区间矩阵和的时候，上下左右边界要收缩至不能收缩
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Node:
     def __init__(self, topIndex, bottomIndex, leftIndex, rightIndex, val):
         self.topIndex = topIndex
@@ -125,4 +125,4 @@ class NumMatrix:
 # obj = NumMatrix(matrix)
 # obj.update(row,col,val)
 # param_2 = obj.sumRegion(row1,col1,row2,col2)
-```
+# ```

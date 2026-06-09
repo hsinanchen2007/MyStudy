@@ -1,7 +1,7 @@
-思路是统计陆地的位置, 入队, 记录陆地的位置对应距离为0
-然后出队, 搜索四个方向是否是海, 记录已经被搜索过的节点,  对新的节点入队,
-代码比较简单直观
-```python
+# 思路是统计陆地的位置, 入队, 记录陆地的位置对应距离为0
+# 然后出队, 搜索四个方向是否是海, 记录已经被搜索过的节点,  对新的节点入队,
+# 代码比较简单直观
+# ```python
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         if not grid:
@@ -39,4 +39,4 @@ class Solution:
                     # 被探索的位置, 带着当前的路径入队
                     que.append((xx, yy, cnt + 1))
         return res
-```
+# ```

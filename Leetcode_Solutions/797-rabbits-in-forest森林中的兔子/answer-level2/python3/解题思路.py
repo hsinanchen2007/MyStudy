@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numRabbits(self, answers):
         # 示例[1,0,1,0,0]
@@ -20,4 +20,4 @@ class Solution:
         for res in res1:
             result += (res[0]+1)
         return result
-```
+# ```

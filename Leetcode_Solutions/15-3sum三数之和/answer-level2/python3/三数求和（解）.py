@@ -1,4 +1,4 @@
-小白一枚，找了一个方法给出结果：
+# 小白一枚，找了一个方法给出结果：
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()

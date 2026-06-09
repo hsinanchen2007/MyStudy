@@ -1,9 +1,9 @@
-### 解题思路
-想来想去还是需要额外写一个函数。
+# ### 解题思路
+# 想来想去还是需要额外写一个函数。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
         if A == None:
             return False
         return A.val == B.val and self.dfs(A.left,B.left) and self.dfs(A.right,B.right)
-```
+# ```

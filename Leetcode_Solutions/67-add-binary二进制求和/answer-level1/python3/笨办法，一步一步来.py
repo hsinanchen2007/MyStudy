@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-1.建立元组c，最长为max（lena，lenb）+ 1
-2.从低位向高位遍历，直到a或b遍历完，进位用flag = 1表示，value = 0，1，2，3表示不用的当前位的结果和高位的进位情况
-3.b遍历完后，计算a+flag
-4.a也遍历完后，注意flag==1时，c[0]=1,并返回c。否则c[0]=0，直接返回c[1:]
+# ### 解题思路
+# 此处撰写解题思路
+# 1.建立元组c，最长为max（lena，lenb）+ 1
+# 2.从低位向高位遍历，直到a或b遍历完，进位用flag = 1表示，value = 0，1，2，3表示不用的当前位的结果和高位的进位情况
+# 3.b遍历完后，计算a+flag
+# 4.a也遍历完后，注意flag==1时，c[0]=1,并返回c。否则c[0]=0，直接返回c[1:]
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         lena, lenb = len(a), len(b)
@@ -75,4 +75,4 @@ class Solution:
             return "".join(c[1:])
 
 
-```
+# ```

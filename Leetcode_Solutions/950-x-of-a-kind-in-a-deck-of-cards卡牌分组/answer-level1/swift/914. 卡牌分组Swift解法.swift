@@ -1,11 +1,11 @@
-### 解题思路
-> 求最大公约数
-- 先找出每张牌的个数
-- 对牌的个数求最大公约数，只要最大公约数为`1`则`false`
+// ### 解题思路
+// > 求最大公约数
+// - 先找出每张牌的个数
+// - 对牌的个数求最大公约数，只要最大公约数为`1`则`false`
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func hasGroupsSizeX(_ deck: [Int]) -> Bool {
         
@@ -38,4 +38,4 @@ class Solution {
         return x % y == 0 ? y : gcd(y, x % y)
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
 
     //确定两个矩形的四个坐标
@@ -30,4 +30,4 @@ bool isRectangleOverlap(int* rec1, int rec1Size, int* rec2, int rec2Size){
 
     return false;
 }
-```
+// ```

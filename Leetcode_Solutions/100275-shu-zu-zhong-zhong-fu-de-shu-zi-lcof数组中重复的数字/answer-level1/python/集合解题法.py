@@ -1,9 +1,9 @@
-### 解题思路
-设置一个空集合，遍历挨个往集合里放，放之前先检测如果集合里面这个数已经存在了，返回这个值
+# ### 解题思路
+# 设置一个空集合，遍历挨个往集合里放，放之前先检测如果集合里面这个数已经存在了，返回这个值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         sets = set()     #设置空集合
@@ -12,4 +12,4 @@ class Solution:
                 return i #存在返回这个值
             else:
                 sets.add(i) #不存在添加到集合
-```
+# ```

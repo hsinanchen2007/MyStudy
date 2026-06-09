@@ -1,12 +1,12 @@
-### 解题思路
-首先今天看了另一道题【翻转链表中第m到第n个元素】的题解，我觉得写得特别好，其中有只翻转前n个：https://leetcode-cn.com/problems/reverse-linked-list-ii/solution/bu-bu-chai-jie-ru-he-di-gui-di-fan-zhuan-lian-biao/
+// ### 解题思路
+// 首先今天看了另一道题【翻转链表中第m到第n个元素】的题解，我觉得写得特别好，其中有只翻转前n个：https://leetcode-cn.com/problems/reverse-linked-list-ii/solution/bu-bu-chai-jie-ru-he-di-gui-di-fan-zhuan-lian-biao/
 
-指针p初使在头结点，p=p.next k次，进行一次将p.next的前k个元素翻转的操作
-（先判断一下剩余节点格式是否够k个，不够的话return）
+// 指针p初使在头结点，p=p.next k次，进行一次将p.next的前k个元素翻转的操作
+// （先判断一下剩余节点格式是否够k个，不够的话return）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -58,4 +58,4 @@ class Solution {
         return p;
     }
 }
-```
+// ```

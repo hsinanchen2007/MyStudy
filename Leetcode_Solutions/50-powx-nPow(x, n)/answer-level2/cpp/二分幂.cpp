@@ -1,12 +1,12 @@
-### 解题思路
-基于以下事实：
-    对 x^n，
-    若 n 为奇数，有 x^n = x * x^(n-1)
-    若 n 为偶数，有 x^n = x^(n/2) * x^(n/2)
+// ### 解题思路
+// 基于以下事实：
+//     对 x^n，
+//     若 n 为奇数，有 x^n = x * x^(n-1)
+//     若 n 为偶数，有 x^n = x^(n/2) * x^(n/2)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double myPow(double x, int n) {
@@ -17,9 +17,9 @@ public:
         return half * half / x;
     }
 };
-```
+// ```
 
-```cpp
+// ```cpp
 //迭代的解法
 class Solution {
 public:
@@ -32,4 +32,4 @@ public:
         return n < 0 ? 1 / res : res;
     }
 };
-```
+// ```

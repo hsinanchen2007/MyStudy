@@ -1,9 +1,9 @@
-### 解题思路
-谁长剪谁的JJ，剪到一样长为止
+// ### 解题思路
+// 谁长剪谁的JJ，剪到一样长为止
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func gcdOfStrings(str1 string, str2 string) string {
     len1 := len(str1)
@@ -49,6 +49,6 @@ func swapStr(str1 *string, str2 *string) {
     }
 }
 
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/71f6ba9f8e99b539ad978f6caa8705bdb4acea08bb4593f22aaaf9539c05fbda-image.png)
+// ![image.png](https://pic.leetcode-cn.com/71f6ba9f8e99b539ad978f6caa8705bdb4acea08bb4593f22aaaf9539c05fbda-image.png)

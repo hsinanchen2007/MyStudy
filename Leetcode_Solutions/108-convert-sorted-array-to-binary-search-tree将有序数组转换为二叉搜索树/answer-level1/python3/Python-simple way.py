@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> TreeNode:
         '''
@@ -19,4 +19,4 @@ class Solution:
         root.left = self.sortedArrayToBST(nums[:mid_index])
         root.right = self.sortedArrayToBST(nums[mid_index+1:])
         return root
-```
+# ```

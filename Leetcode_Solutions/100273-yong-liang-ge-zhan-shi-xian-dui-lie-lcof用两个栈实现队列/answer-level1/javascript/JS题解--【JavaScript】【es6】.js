@@ -1,6 +1,6 @@
-这里自己写的部分使用了es6的小技巧
+// 这里自己写的部分使用了es6的小技巧
 
-```
+// ```
 var CQueue = function() {
     this.outStack = []
     this.inStack = []
@@ -35,4 +35,4 @@ CQueue.prototype.deleteHead = function() {
  * obj.appendTail(value)
  * var param_2 = obj.deleteHead()
  */
-```
+// ```

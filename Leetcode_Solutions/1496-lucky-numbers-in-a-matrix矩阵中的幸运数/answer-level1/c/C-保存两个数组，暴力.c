@@ -1,10 +1,10 @@
-### 解题思路
-保存两个数组，分别记录每一行最小的和每一列最大的。
-遍历matrix，如果发现刚好符合这两个条件，则加入到结果集里。
+// ### 解题思路
+// 保存两个数组，分别记录每一行最小的和每一列最大的。
+// 遍历matrix，如果发现刚好符合这两个条件，则加入到结果集里。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -50,4 +50,4 @@ int* luckyNumbers (int** matrix, int matrixSize, int* matrixColSize, int* return
 
     return res;
 }
-```
+// ```

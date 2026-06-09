@@ -1,13 +1,13 @@
-### 运行结果
-执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :45 MB, 在所有 Java 提交中击败了5.07%的用户
-### 解题思路
-- 编写了一个二分查找的程序；
-- 通过条件分支结构（if语句）来查找不存在target的插入坐标；
+// ### 运行结果
+// 执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :45 MB, 在所有 Java 提交中击败了5.07%的用户
+// ### 解题思路
+// - 编写了一个二分查找的程序；
+// - 通过条件分支结构（if语句）来查找不存在target的插入坐标；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int index=binarySearch(nums, 0, nums.length-1, target);
@@ -41,4 +41,4 @@ class Solution {
 		}
 	}
 }
-```
+// ```

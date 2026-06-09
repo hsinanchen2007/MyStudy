@@ -1,10 +1,10 @@
-### 解题思路
-二叉树广度优先搜索(BFS)：用队列完成二叉树层次遍历
+// ### 解题思路
+// 二叉树广度优先搜索(BFS)：用队列完成二叉树层次遍历
 
-### 知识点：二叉树BFS + 队列
+// ### 知识点：二叉树BFS + 队列
 
-### 代码
-```golang
+// ### 代码
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -37,4 +37,4 @@ func levelOrder(root *TreeNode) []int {
 	}
 	return res
 }
-```
+// ```

@@ -1,6 +1,6 @@
-C语言DFS代码。这个题有个比较tricky的地方，就是当目标(sr, sc)坐标位置的颜色与newColor一样时，就不能再进行dfs遍历。不知道为啥有这个限制。
+// C语言DFS代码。这个题有个比较tricky的地方，就是当目标(sr, sc)坐标位置的颜色与newColor一样时，就不能再进行dfs遍历。不知道为啥有这个限制。
 
-```
+// ```
 #define DIRECTIONS 4
 #define COORDINATE_DIM 2
 int directions[DIRECTIONS][COORDINATE_DIM] = {
@@ -51,5 +51,5 @@ int** floodFill(int** image, int imageSize, int* imageColSize, int sr, int sc, i
 
     return image;
 }
-```
-![image.png](https://pic.leetcode-cn.com/7c36542f4e33f909c5794f23ff3f42fd1de6c599fda5ae3ca57346e045232c12-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/7c36542f4e33f909c5794f23ff3f42fd1de6c599fda5ae3ca57346e045232c12-image.png)

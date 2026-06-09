@@ -1,9 +1,9 @@
-### 解题思路
-DFS+剪枝，用flag记录点的个数，每次遍历判断是否合法，记录访问路径，往前走一步记录flag减一。
+# ### 解题思路
+# DFS+剪枝，用flag记录点的个数，每次遍历判断是否合法，记录访问路径，往前走一步记录flag减一。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def restoreIpAddresses(self, s: str) -> List[str]:
         n = len(s)
@@ -27,4 +27,4 @@ class Solution:
 
         backtrack(0, "", 4)
         return res
-```
+# ```

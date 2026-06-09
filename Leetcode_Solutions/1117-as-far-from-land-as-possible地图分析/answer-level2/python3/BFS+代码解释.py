@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         """
@@ -37,4 +37,4 @@ class Solution:
             queue = queue_next
             cnt+=1
         return cnt-1
-```
+# ```

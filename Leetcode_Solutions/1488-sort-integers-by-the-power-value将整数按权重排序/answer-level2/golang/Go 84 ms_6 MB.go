@@ -1,4 +1,4 @@
-```go
+// ```go
 func getKth(lo, hi, k int) int {
 	power := make(map[int]int)
 	arr := make([]int, hi-lo+1)
@@ -35,4 +35,4 @@ func getPower(x int, power map[int]int) int {
 	power[tmp] = ans
 	return ans
 }
-```
+// ```

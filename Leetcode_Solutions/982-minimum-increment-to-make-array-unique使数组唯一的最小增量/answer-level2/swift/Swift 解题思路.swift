@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-- 计算数组里面各个 num 出现的次数，存到 dic 中，并得出最大的数 max。
-- 从0开始遍历到 max，在 dic 中查询该数 num 是不是出现超过1次。
-    - 如果超过，统一将这几个数都+1，即 dic[num + 1] 需要加上 dic[num] - 1
-    - 当然，移动的次数也需要加上 dic[num] - 1
-- 以此类推，最后多余重复的数值都在 max 上
-    - 如果 dic[max] > 1，那么将多作的数进行加法运算 max + 1, max + 2...
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// - 计算数组里面各个 num 出现的次数，存到 dic 中，并得出最大的数 max。
+// - 从0开始遍历到 max，在 dic 中查询该数 num 是不是出现超过1次。
+//     - 如果超过，统一将这几个数都+1，即 dic[num + 1] 需要加上 dic[num] - 1
+//     - 当然，移动的次数也需要加上 dic[num] - 1
+// - 以此类推，最后多余重复的数值都在 max 上
+//     - 如果 dic[max] > 1，那么将多作的数进行加法运算 max + 1, max + 2...
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func minIncrementForUnique(_ A: [Int]) -> Int {
         var result = 0
@@ -36,4 +36,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

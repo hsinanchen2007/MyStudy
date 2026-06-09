@@ -1,4 +1,4 @@
-该题是算字符串的最大公因子，不过还是记录一下求字符串的最小公因子的代码
+# 该题是算字符串的最大公因子，不过还是记录一下求字符串的最小公因子的代码
 
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:

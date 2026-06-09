@@ -1,8 +1,8 @@
-### 解题思路
-先找出旋转的位置，然后用二分法直接解决
-### 代码
+// ### 解题思路
+// 先找出旋转的位置，然后用二分法直接解决
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean search(int[] nums, int target) {
         int left=0,right=nums.length-1;
@@ -29,4 +29,4 @@ class Solution {
         
     }
 }
-```
+// ```

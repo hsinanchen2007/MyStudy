@@ -1,9 +1,9 @@
-### 解题思路
-读懂题目是关键，读懂了，写代码就很简单了。
+// ### 解题思路
+// 读懂题目是关键，读懂了，写代码就很简单了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] decompressRLElist(int[] nums) {
         int size = 0;
@@ -24,4 +24,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

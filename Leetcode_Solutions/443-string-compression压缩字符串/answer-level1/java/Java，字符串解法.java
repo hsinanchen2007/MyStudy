@@ -1,6 +1,6 @@
 
 
-```
+// ```
 class Solution {
     public int compress(char[] chars) {
         int n=chars.length;
@@ -31,5 +31,5 @@ class Solution {
         return s.length();
     }
 }
-```
+// ```
 

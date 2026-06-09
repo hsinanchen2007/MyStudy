@@ -1,9 +1,9 @@
-### 解题思路
-自己对代码的一些理解都通过备注写在代码里了，记录一下方便自己今后复习
+# ### 解题思路
+# 自己对代码的一些理解都通过备注写在代码里了，记录一下方便自己今后复习
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minimumLengthEncoding(self, words):
         #y = set('google')---> set(['e', 'o', 'g', 'l']
@@ -17,4 +17,4 @@ class Solution(object):
                 group.discard(word[k:])
         #返回单词长度+1（#号）的求和
         return sum(len(word)+1 for word in group)
-```
+# ```

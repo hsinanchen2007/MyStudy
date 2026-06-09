@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-算法思想：递归调用，只需要存储左子树的左叶子之和，右子树的左子叶之和。
+// ### 解题思路
+// 此处撰写解题思路
+// 算法思想：递归调用，只需要存储左子树的左叶子之和，右子树的左子叶之和。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ int sumOfLeftLeaves(struct TreeNode* root){
         right = sumOfLeftLeaves(root->right);//右子树的值
         return right+left+current;
 }
-```
+// ```

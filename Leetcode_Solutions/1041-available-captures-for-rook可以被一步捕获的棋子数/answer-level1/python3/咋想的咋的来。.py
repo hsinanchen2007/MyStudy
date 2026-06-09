@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         result = 0
@@ -42,4 +42,4 @@ class Solution:
                         else:
                             continue
         return result 
-```
+# ```

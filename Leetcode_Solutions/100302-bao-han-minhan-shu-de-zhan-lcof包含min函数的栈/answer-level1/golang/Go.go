@@ -1,9 +1,9 @@
-### 解题思路
-Pop操作是O(n)的时间复杂度，空间复杂度O(1)
+// ### 解题思路
+// Pop操作是O(n)的时间复杂度，空间复杂度O(1)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MinStack struct {
     nums []int
     min int
@@ -62,4 +62,4 @@ func (this *MinStack) Min() int {
  * param_3 := obj.Top();
  * param_4 := obj.Min();
  */
-```
+// ```

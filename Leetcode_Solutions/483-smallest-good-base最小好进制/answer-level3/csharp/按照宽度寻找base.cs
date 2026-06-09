@@ -1,14 +1,14 @@
-### 解题思路
-base 2 确定最长 宽度 maxLen
-base n-1 是 宽度 为2 的base
+// ### 解题思路
+// base 2 确定最长 宽度 maxLen
+// base n-1 是 宽度 为2 的base
 
-maxLen-1 ->3
-二分查找一个 base 长度为 特定值
-若 全是1 则 这个 base 是最长宽度的结果
+// maxLen-1 ->3
+// 二分查找一个 base 长度为 特定值
+// 若 全是1 则 这个 base 是最长宽度的结果
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 class GoodBase2
 {
     private UInt64 FindSqrt(UInt64 nv)
@@ -154,4 +154,4 @@ public class Solution {
         return gb.SmallestGoodBase(n);
     }
 }
-```
+// ```

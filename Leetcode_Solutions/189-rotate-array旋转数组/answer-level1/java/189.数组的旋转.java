@@ -1,11 +1,11 @@
-### 解题思路
-1.把后面的k个元素存储备份
-2.所有的元素向后平移k个单位  
-3.把备份的存回来
+// ### 解题思路
+// 1.把后面的k个元素存储备份
+// 2.所有的元素向后平移k个单位  
+// 3.把备份的存回来
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[] nums, int k) {
         int[] current = new int[k];
@@ -22,4 +22,4 @@ class Solution {
         }
     }
 }
-```
+// ```

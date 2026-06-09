@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void merge(vector<int>& nums1,int i,vector<int>& nums2,int j,int cnt)
@@ -26,5 +26,5 @@ public:
         merge(nums1,m-1,nums2,n-1,cnt);
     }
 };
-```
-好像必须构造一个新函数才行
+// ```
+// 好像必须构造一个新函数才行

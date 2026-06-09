@@ -1,10 +1,10 @@
-1. 用一个同等大小的flag数组记录边表所属阵营，对边表进行遍历：
-        * 将属于同一连通分量的边表flag置为同一个值；
-        * 不属于同一连通分量的边表flag置为不同值；
-2. 返回flag数组中，不同值的个数。
-![image.png](https://pic.leetcode-cn.com/c86c0caf6010841198fe9b568f82731c571e0ab038950ede16e7f1a7c37e844a-image.png)
+// 1. 用一个同等大小的flag数组记录边表所属阵营，对边表进行遍历：
+//         * 将属于同一连通分量的边表flag置为同一个值；
+//         * 不属于同一连通分量的边表flag置为不同值；
+// 2. 返回flag数组中，不同值的个数。
+// ![image.png](https://pic.leetcode-cn.com/c86c0caf6010841198fe9b568f82731c571e0ab038950ede16e7f1a7c37e844a-image.png)
 
-```
+// ```
 int countComponents(int n, int** edges, int edgesSize, int* edgesColSize){
     if (n == 0 || edges == NULL || edgesSize == 0 || *edgesColSize == 0) {
         return n;
@@ -50,12 +50,12 @@ int countComponents(int n, int** edges, int edgesSize, int* edgesColSize){
     free(flag);
     return number + n;
 }
-```
+// ```
 
-*学习了一下先进的并查集方法，结合上面的思路，修改了一番，最快达到了16ms，看来还是需要多学习：
-![image.png](https://pic.leetcode-cn.com/c013c379d01bc412c27e0a2f8e49a016830e40995ebd99b4374bf364a80a6fbc-image.png)
+// *学习了一下先进的并查集方法，结合上面的思路，修改了一番，最快达到了16ms，看来还是需要多学习：
+// ![image.png](https://pic.leetcode-cn.com/c013c379d01bc412c27e0a2f8e49a016830e40995ebd99b4374bf364a80a6fbc-image.png)
 
-```
+// ```
 int GetParent(int *flag, int i) {
 	if (i != flag[i]) {
         flag[i] = GetParent(flag, flag[i]);
@@ -92,4 +92,4 @@ int countComponents(int n, int** edges, int edgesSize, int* edgesColSize){
     free(flag);
     return n;
 }
-```
+// ```

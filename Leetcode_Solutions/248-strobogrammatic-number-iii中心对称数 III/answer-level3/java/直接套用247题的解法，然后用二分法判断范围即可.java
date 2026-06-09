@@ -1,12 +1,12 @@
-套用一下247题的解法,得到从长度在n位数之间的所有中心对称数
-当low.length()=high.length()的时候，先得到从长度在low.length()之间的所有中心对称数,
-然后用二分法得到在low和high之间的中心对称数;
-当low.length()< high.length()的时候,先得到长度在low.length()之间的所有中心对称数,
-然后用二分法得到在low和列表长度之间的中心对称数;再加上长度在low.length()+1和high.length()-1
-之间的中心对称数;最后再用二分法得到长度在high.length()之间的所有中心对称数,然后加上在0到
-high之间的中心对称数。
-代码如下:
-```
+// 套用一下247题的解法,得到从长度在n位数之间的所有中心对称数
+// 当low.length()=high.length()的时候，先得到从长度在low.length()之间的所有中心对称数,
+// 然后用二分法得到在low和high之间的中心对称数;
+// 当low.length()< high.length()的时候,先得到长度在low.length()之间的所有中心对称数,
+// 然后用二分法得到在low和列表长度之间的中心对称数;再加上长度在low.length()+1和high.length()-1
+// 之间的中心对称数;最后再用二分法得到长度在high.length()之间的所有中心对称数,然后加上在0到
+// high之间的中心对称数。
+// 代码如下:
+// ```
 class Solution {
     public int strobogrammaticInRange(String low, String high) {
 
@@ -118,5 +118,5 @@ class Solution {
         dfs(ans, buf, l + 1, r - 1);
     }
 }
-```
+// ```
 

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minAddToMakeValid(self, S: str) -> int:
         # Time complexity: O(N)
@@ -11,4 +11,4 @@ class Solution:
                 else: stack.append(ch)
             else: stack.append(ch)
         return len(stack)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-学俩库函数
+// ### 解题思路
+// 学俩库函数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverseWords(s string) string {
 	parts := strings.Split(s, " ")
 	size := len(parts)
@@ -15,4 +15,4 @@ func reverseWords(s string) string {
 	}
 	return strings.Join(rparts, " ")
 }
-```
+// ```

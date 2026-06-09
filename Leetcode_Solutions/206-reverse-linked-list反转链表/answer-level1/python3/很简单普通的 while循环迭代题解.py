@@ -1,9 +1,9 @@
-### 解题思路
-代码中有注释,直接看注释吧
+# ### 解题思路
+# 代码中有注释,直接看注释吧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -20,4 +20,4 @@ class Solution:
             k = cur_node # k存储当前节点带入下一次循环
             cur_node = temp # 当前节点替换成下一节点进入下一轮循环
         return k #返回反转后的头节点(原来顺序的最终节点)
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-用的是level order traversal. 用空间换取了时间。
-### 代码
+// ### 解题思路
+// 用的是level order traversal. 用空间换取了时间。
+// ### 代码
 
-```
+// ```
 class Solution {
 public:
     int countNodes(TreeNode* root) {
@@ -21,4 +21,4 @@ public:
         return ans;
     }
 };
-```
+// ```

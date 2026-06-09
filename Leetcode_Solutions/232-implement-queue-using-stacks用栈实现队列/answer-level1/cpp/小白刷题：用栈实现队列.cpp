@@ -1,6 +1,6 @@
-队首元素的相关操作，两个stack来回倒一下就行了
+// 队首元素的相关操作，两个stack来回倒一下就行了
 
-代码：
+// 代码：
 class MyQueue {
 public:
     /** Initialize your data structure here. */

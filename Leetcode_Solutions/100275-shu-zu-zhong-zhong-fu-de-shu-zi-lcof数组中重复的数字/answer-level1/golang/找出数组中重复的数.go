@@ -1,10 +1,10 @@
-### 解题思路
-俩种方法：
+// ### 解题思路
+// 俩种方法：
 
-### 代码
+// ### 代码
 
-第一种使用数组做标记
-```
+// 第一种使用数组做标记
+// ```
 func findRepeatNumber(nums []int) int{
 
     max := mAX(nums)
@@ -30,10 +30,10 @@ func mAX(arr []int) int {
     }
     return max
 }
-```
+// ```
 
-第二种方法用set
-```
+// 第二种方法用set
+// ```
 func findRepeatNumber(nums []int) int {
     
     map1 := make(map[int]int)
@@ -46,4 +46,4 @@ func findRepeatNumber(nums []int) int {
     }
     return -1
 }
-```
+// ```

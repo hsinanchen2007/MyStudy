@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -23,5 +23,5 @@ var isUnivalTree = function (root) {
     }
     return check(root, root.left) && check(root, root.right);
 };
-```
+// ```
 

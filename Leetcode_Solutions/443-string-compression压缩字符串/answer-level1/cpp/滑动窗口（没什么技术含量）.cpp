@@ -1,9 +1,9 @@
-### 解题思路
-没用到vector的特性，基本是纯C解决的
+// ### 解题思路
+// 没用到vector的特性，基本是纯C解决的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int compress(vector<char>& chars) {
@@ -30,4 +30,4 @@ public:
         return si;
     }
 };
-```
+// ```

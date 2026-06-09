@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-构造两个递归函数，一个递归函数用于判断一个节点是否是另一个节点的字节点，另一个递归用于后序遍历整个二叉树。
+# 构造两个递归函数，一个递归函数用于判断一个节点是否是另一个节点的字节点，另一个递归用于后序遍历整个二叉树。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         if not root:
@@ -21,4 +21,4 @@ class Solution:
         if not root:
             return False
         return root.val == p.val or self.is_children(root.left, p) or self.is_children(root.right, p)
-```
+# ```

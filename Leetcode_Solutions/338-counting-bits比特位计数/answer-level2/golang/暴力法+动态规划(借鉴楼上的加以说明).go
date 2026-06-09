@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-#### 1. 暴力法
-```golang
+// ### 代码
+// #### 1. 暴力法
+// ```golang
 func countBits(num int) []int {
     var res []int
     for i := 0 ;i <= num ; i ++ {
@@ -24,14 +24,14 @@ func getCount(num int)int{
     }
     return sum
 }
-```
-#### 2. 来自于楼主分享  借鉴说明一下
-公式为  `p(x) = p(x/2) + x mode 2` 拆解如下:
-x/2 = x >> 1
+// ```
+// #### 2. 来自于楼主分享  借鉴说明一下
+// 公式为  `p(x) = p(x/2) + x mode 2` 拆解如下:
+// x/2 = x >> 1
 
-x mode 2 :存在这样的公式转换
->a % (2^n) == a & (2^n -1)  = > x & 1
-```golang
+// x mode 2 :存在这样的公式转换
+// >a % (2^n) == a & (2^n -1)  = > x & 1
+// ```golang
 func countBits(num int) []int {
     ret:=make([]int,num+1)
     for i:=1;i<=num;i++{
@@ -40,4 +40,4 @@ func countBits(num int) []int {
     return ret
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-bfs
+# ### 解题思路
+# bfs
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import deque
 class Solution:
     def numSquares(self, n: int) -> int:
@@ -24,4 +24,4 @@ class Solution:
                         queue.append(mid)
                     a-=1
             seq+=1
-```
+# ```

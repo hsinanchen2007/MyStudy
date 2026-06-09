@@ -1,5 +1,5 @@
 
-```python
+# ```python
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         #三指针，把0往前放，2最后放，1不管

@@ -1,6 +1,6 @@
-![2019-10-03_20-51.png](https://pic.leetcode-cn.com/4914481579a813121b0a8085d20dba6ecac0baf11e26c6e2441a5ac9e94d918c-2019-10-03_20-51.png)
+// ![2019-10-03_20-51.png](https://pic.leetcode-cn.com/4914481579a813121b0a8085d20dba6ecac0baf11e26c6e2441a5ac9e94d918c-2019-10-03_20-51.png)
 
-```c
+// ```c
 // 从倒序列表中找出比 target 大的第一个元素
 int findIndex(int * nums, int start, int end, int target) {
     // 二分法中点
@@ -51,4 +51,4 @@ void nextPermutation(int* nums, int numsSize){
     nums[swap] = tmp;
     reverse(nums, index + 1, numsSize);
 }
-```
+// ```

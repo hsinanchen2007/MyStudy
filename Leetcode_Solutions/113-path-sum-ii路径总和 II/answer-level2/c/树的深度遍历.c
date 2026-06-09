@@ -1,9 +1,9 @@
-### 解题思路
-树的深度遍历，记录沿途的每个节点，最后找到符合要求的路径添加到返回数组中。
+// ### 解题思路
+// 树的深度遍历，记录沿途的每个节点，最后找到符合要求的路径添加到返回数组中。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -63,4 +63,4 @@ int** pathSum(struct TreeNode* root, int sum, int* returnSize, int** returnColum
 
     return retArr;
 }
-```
+// ```

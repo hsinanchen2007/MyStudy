@@ -1,17 +1,17 @@
-### 解题思路
-两个步骤：
-1、遍历找Rook
-2、发散4个方向找p即可
+// ### 解题思路
+// 两个步骤：
+// 1、遍历找Rook
+// 2、发散4个方向找p即可
 
-其中有1个细节我觉得可以分享下：就是用一个循环完成4个方向查找：用一个二维数组表达4个方向
-int[][] DIRECTIONS = new int[][]{{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
+// 其中有1个细节我觉得可以分享下：就是用一个循环完成4个方向查找：用一个二维数组表达4个方向
+// int[][] DIRECTIONS = new int[][]{{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 
-![image.png](https://pic.leetcode-cn.com/c9bd2c5e32edde54b85bbcf9dcca3700389b4bbd439c045e638f6da1b029989e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c9bd2c5e32edde54b85bbcf9dcca3700389b4bbd439c045e638f6da1b029989e-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     private static final char BLANK = '.';
     private static final char ROOK_WHITE = 'R';
@@ -83,4 +83,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

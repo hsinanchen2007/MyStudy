@@ -1,5 +1,5 @@
-递归方法，java实现：
-```
+# 递归方法，java实现：
+# ```
 class Solution {
     public List<List<Integer>> levelOrderBottom(TreeNode root) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
@@ -22,9 +22,9 @@ class Solution {
     }
             
 }
-```
-迭代方法，Python实现：
-```
+# ```
+# 迭代方法，Python实现：
+# ```
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         res=[]
@@ -42,5 +42,5 @@ class Solution:
                 if(len(res)==level): res.insert(0,[]) # insert实现头部插入list
                 res[-1-level].append(node.val) # -1-level 实现尾部添加元素
         return res
-```
+# ```
 

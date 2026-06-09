@@ -1,9 +1,9 @@
-### 解题思路
-java
+// ### 解题思路
+// java
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     /**
      * 很简单的题，一次遍历即可解决问题
@@ -22,4 +22,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

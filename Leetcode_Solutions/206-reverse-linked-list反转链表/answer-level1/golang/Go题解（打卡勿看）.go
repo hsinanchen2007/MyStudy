@@ -1,6 +1,6 @@
-这个世界需要大佬的题解，也需要菜鸡的题解
-三月二日打卡
-```golang
+// 这个世界需要大佬的题解，也需要菜鸡的题解
+// 三月二日打卡
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -27,4 +27,4 @@ func rList(head *ListNode, ht []*ListNode) {
 	head.Next=nil
 	ht[1]=head
 }
-```
+// ```

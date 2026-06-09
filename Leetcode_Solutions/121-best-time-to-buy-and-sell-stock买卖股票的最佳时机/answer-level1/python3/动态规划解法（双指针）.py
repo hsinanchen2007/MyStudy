@@ -1,12 +1,12 @@
-### 解题思路
-双指针一前一后，分别记录**当前最低价**和**当前利润**。
-最后将前指针（当前价格）归零、`max(prices)`即求最大利润。
+# ### 解题思路
+# 双指针一前一后，分别记录**当前最低价**和**当前利润**。
+# 最后将前指针（当前价格）归零、`max(prices)`即求最大利润。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if not prices: # case when prices = []
@@ -20,4 +20,4 @@ class Solution:
                 prices[pnt2] = prices[pnt2] - prices[pnt1]
         prices[pnt1] = 0
         return max(prices)
-```
+# ```

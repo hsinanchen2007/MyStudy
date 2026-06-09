@@ -1,5 +1,5 @@
-为了递归强行递归 锻炼一下自己递归手法吧
-```
+# 为了递归强行递归 锻炼一下自己递归手法吧
+# ```
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         def helper(nums,left,right,target) :
@@ -11,4 +11,4 @@ class Solution:
             else :
                 return helper(nums,left,mid-1,target)
         return helper(nums,0,len(nums)-1,target)
-```
+# ```

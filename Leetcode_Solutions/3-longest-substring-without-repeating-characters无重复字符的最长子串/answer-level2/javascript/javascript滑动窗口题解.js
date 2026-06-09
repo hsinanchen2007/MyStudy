@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口
+// ### 解题思路
+// 滑动窗口
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -25,4 +25,4 @@ var lengthOfLongestSubstring = function(s) {
     }
     return max;
 };
-```
+// ```

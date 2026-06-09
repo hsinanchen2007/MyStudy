@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLIS(int* nums, int numsSize){
     int base,point,max,max2=0;
     int count[10000];
@@ -65,4 +65,4 @@ class Solution {
     }
 }
 */
-```
+// ```

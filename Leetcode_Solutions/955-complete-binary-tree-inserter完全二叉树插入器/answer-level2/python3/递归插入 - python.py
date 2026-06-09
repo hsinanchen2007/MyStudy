@@ -1,19 +1,19 @@
-### 解题思路
+# ### 解题思路
 
-需要维护树的节点数、高度。
+# 需要维护树的节点数、高度。
 
-树的高度 h = math.floor(math.log(节点数,2)+1)
+# 树的高度 h = math.floor(math.log(节点数,2)+1)
 
-每次插入的时候：
-1. 计算当前的叶子节点数（`leaf_cnt = int(cnt - 2 ** (h-1)+1)`），当前最后一层叶子节点最多有多少（`full_leaf_cnt = int(2 ** (h-1))`）
-  1. 如果当前叶子节点数是 0 到 最大数//2，或者是叶子节点满了递归到左子树
-  2. 如果不是递归到右子树
+# 每次插入的时候：
+# 1. 计算当前的叶子节点数（`leaf_cnt = int(cnt - 2 ** (h-1)+1)`），当前最后一层叶子节点最多有多少（`full_leaf_cnt = int(2 ** (h-1))`）
+#   1. 如果当前叶子节点数是 0 到 最大数//2，或者是叶子节点满了递归到左子树
+#   2. 如果不是递归到右子树
 
-递归的退出条件是：子树的节点数 == 1 直接插入当前节点的左孩子，节点数 == 2 插入为右孩子。
+# 递归的退出条件是：子树的节点数 == 1 直接插入当前节点的左孩子，节点数 == 2 插入为右孩子。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -71,8 +71,8 @@ class CBTInserter:
 # obj = CBTInserter(root)
 # param_1 = obj.insert(v)
 # param_2 = obj.get_root()
-```
+# ```
 
 
-欢迎来我的博客： [https://codeplot.top/](https://codeplot.top/)
-我的博客刷题分类：[https://codeplot.top/categories/%E5%88%B7%E9%A2%98/](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)
+# 欢迎来我的博客： [https://codeplot.top/](https://codeplot.top/)
+# 我的博客刷题分类：[https://codeplot.top/categories/%E5%88%B7%E9%A2%98/](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int mount;
@@ -59,4 +59,4 @@ public:
          return true;
     }
 };
-```
+// ```

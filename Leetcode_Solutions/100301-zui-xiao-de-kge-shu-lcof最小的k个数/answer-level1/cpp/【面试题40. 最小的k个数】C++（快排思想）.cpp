@@ -1,10 +1,10 @@
-### 解题思路
-利用快排思想划分数组
-注：两种快排过程，第一种取`base=q[l+r >>1]`和用`do ;while();`更快；
+// ### 解题思路
+// 利用快排思想划分数组
+// 注：两种快排过程，第一种取`base=q[l+r >>1]`和用`do ;while();`更快；
 
-### 代码
+// ### 代码
 
-```cpp []
+// ```cpp []
 class Solution {
     void quick_sort(vector<int> &q,int k,int l,int r)
     {
@@ -36,8 +36,8 @@ public:
         return res;
     }
 };
-```
-```cpp []
+// ```
+// ```cpp []
 class Solution {
     void quick_sort(vector<int> &q,int k,int l,int r)
     {
@@ -70,4 +70,4 @@ public:
         return res;
     }
 };
-```
+// ```

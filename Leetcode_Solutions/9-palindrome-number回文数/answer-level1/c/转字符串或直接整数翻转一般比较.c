@@ -1,4 +1,4 @@
-```
+// ```
 class Solution(object):
     def isPalindrome(self, x):
         """
@@ -7,9 +7,9 @@ class Solution(object):
         """
         s = str(x)
         return s == s[::-1]
-```
-整数翻转一半比较
-```
+// ```
+// 整数翻转一半比较
+// ```
 bool isPalindrome(int x){
     int r = 0;
     int m = 0;
@@ -25,4 +25,4 @@ bool isPalindrome(int x){
     }
     return x==r;
 }
-```
+// ```

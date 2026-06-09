@@ -1,10 +1,10 @@
-go
-1. 暴力破解
-2. 记忆
-3. 动态规划
-4. 优化动态规划
+// go
+// 1. 暴力破解
+// 2. 记忆
+// 3. 动态规划
+// 4. 优化动态规划
 
-``` golang
+// ``` golang
 func climbStairs(n int) int {
     //方法2
     // var tempMap = make(map[int]int)
@@ -70,4 +70,4 @@ func climb4(n int) int {
 
     return two
 }
-```
+// ```

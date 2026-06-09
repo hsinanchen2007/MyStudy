@@ -1,11 +1,11 @@
-![绘制直线.png](https://pic.leetcode-cn.com/1abf3e25dfb1d618b1a632484d7072ced53a004730fb63930ac66bcdbaeb48a6-%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF.png)
+// ![绘制直线.png](https://pic.leetcode-cn.com/1abf3e25dfb1d618b1a632484d7072ced53a004730fb63930ac66bcdbaeb48a6-%E7%BB%98%E5%88%B6%E7%9B%B4%E7%BA%BF.png)
 
-### 解题思路
-详见代码和注释。
+// ### 解题思路
+// 详见代码和注释。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] drawLine(int length, int w, int x1, int x2, int y) {
         int[] ret = new int[length];
@@ -25,4 +25,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

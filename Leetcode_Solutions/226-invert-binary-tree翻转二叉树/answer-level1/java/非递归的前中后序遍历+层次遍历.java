@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-关注好当前节点就好，不要钻牛角尖，下一层的事情，迭代过去了，自然就会做的，计算机擅长的就是重复的事情。
+// 关注好当前节点就好，不要钻牛角尖，下一层的事情，迭代过去了，自然就会做的，计算机擅长的就是重复的事情。
 
-之前已经看到有蛮多大佬已经写了前中后序的递归解法了，我这边就写一个非递归的代码，给大家参考了。
+// 之前已经看到有蛮多大佬已经写了前中后序的递归解法了，我这边就写一个非递归的代码，给大家参考了。
 
-### 前序遍历非递归
+// ### 前序遍历非递归
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,11 +44,11 @@ class Solution {
         node.right = temp;
     }
 }
-```
+// ```
 
-### 中序遍历非递归
+// ### 中序遍历非递归
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -87,11 +87,11 @@ class Solution {
         node.right = temp;
     }
 }
-```
+// ```
 
-### 后序遍历非递归
+// ### 后序遍历非递归
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -137,11 +137,11 @@ class Solution {
         node.right = temp;
     }
 }
-```
+// ```
 
-### 层次遍历
+// ### 层次遍历
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -179,4 +179,4 @@ class Solution {
         node.right = temp;
     }
 }
-```
+// ```

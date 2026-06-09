@@ -1,12 +1,12 @@
-### 解题思路
-一行解决。。
+// ### 解题思路
+// 一行解决。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseLeftWords(String s, int n) {
         return s.substring(n) + s.substring(0, n);
     }
 }
-```
+// ```

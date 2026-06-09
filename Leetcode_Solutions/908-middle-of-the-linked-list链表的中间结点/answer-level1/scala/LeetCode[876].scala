@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def middleNode(head: ListNode): ListNode = {
     var slow = head
@@ -13,4 +13,4 @@ object Solution {
     slow
   }
 }
-```
+// ```

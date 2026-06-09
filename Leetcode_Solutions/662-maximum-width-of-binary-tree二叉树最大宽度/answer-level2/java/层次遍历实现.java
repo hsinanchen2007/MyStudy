@@ -1,8 +1,8 @@
-思路：将二叉树的下标存储到数组中，根节点下标为 1，左子树结点为 2 * i，右子树下标为 2 * i+1。
-然后我们层次遍历，每次比较最大宽度值。具体实现见代码，简单移动。
-![leetcode1.png](https://pic.leetcode-cn.com/5d45c8accc2f8ee854a788aecc8a3a0d2b029703993b606c018a0f8dda6202d9-leetcode1.png)
+// 思路：将二叉树的下标存储到数组中，根节点下标为 1，左子树结点为 2 * i，右子树下标为 2 * i+1。
+// 然后我们层次遍历，每次比较最大宽度值。具体实现见代码，简单移动。
+// ![leetcode1.png](https://pic.leetcode-cn.com/5d45c8accc2f8ee854a788aecc8a3a0d2b029703993b606c018a0f8dda6202d9-leetcode1.png)
 
-```
+// ```
 public int widthOfBinaryTree(TreeNode root) {
         if(root == null) return 0;
         Queue<TreeNode> q = new LinkedList<>();
@@ -32,4 +32,4 @@ public int widthOfBinaryTree(TreeNode root) {
 
         return res;
     }
-```
+// ```

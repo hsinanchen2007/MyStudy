@@ -1,9 +1,9 @@
-### 解题思路
-菜鸡打卡
+// ### 解题思路
+// 菜鸡打卡
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int exsistsIn(int a[],int x){
     int i=0,k=7;
     for(i=0;i<k;i++){
@@ -35,4 +35,4 @@ int rotatedDigits(int N){
     }
     return sum;
 }
-```
+// ```

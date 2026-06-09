@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def replaceWords(self, dict: List[str], sentence: str) -> str:
         wordlist = sentence.split(' ')
@@ -22,4 +22,4 @@ class Solution:
                     tempword += wordlist[i][j]
                                 
         return ' '.join(wordlist)
-```
+# ```

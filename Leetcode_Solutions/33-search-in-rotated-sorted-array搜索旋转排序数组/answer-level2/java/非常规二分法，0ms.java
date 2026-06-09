@@ -1,9 +1,9 @@
-### 解题思路
-要理解二分法，旋转后肯定是两部分的连续递增，折半后肯定有一部分是连续的。
+// ### 解题思路
+// 要理解二分法，旋转后肯定是两部分的连续递增，折半后肯定有一部分是连续的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         int left = 0;
@@ -28,4 +28,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

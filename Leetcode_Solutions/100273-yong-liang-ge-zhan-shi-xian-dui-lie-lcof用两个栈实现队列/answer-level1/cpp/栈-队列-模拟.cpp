@@ -1,10 +1,10 @@
-### 解题思路
-1.stack1只用于入队，Stack2只用于出队。
-2.入栈时直接放入stack1,出栈时若stack2不空直接删其栈顶，若stack2为空，把stack1中元素倒进stack2,然后删除其栈顶，若stack1也空则返回-1.
+// ### 解题思路
+// 1.stack1只用于入队，Stack2只用于出队。
+// 2.入栈时直接放入stack1,出栈时若stack2不空直接删其栈顶，若stack2为空，把stack1中元素倒进stack2,然后删除其栈顶，若stack1也空则返回-1.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class CQueue {
 public:
     stack<int>stackIn;
@@ -32,4 +32,4 @@ public:
         else return -1;
     }
 };
-```
+// ```

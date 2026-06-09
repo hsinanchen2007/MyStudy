@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1.找到数组的中点下标(privot_index)的值，将小于这个值的数放在左边，大于或等于这个数的值放在右边,即patition过程。
-2.比较arr.length-k与privot_index,若arr.length-k大，那么就将privot_index右侧的数进行patition；若相等直接返回arr[privot_index]；若arr.length-l小，就将privot_index左侧的数进行patition.
-3.while循环结束条件：1、直接找到break; 2、l=r;
-4.注意patition过程只需要处理答案所在的那一侧，另外一侧不需要管。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1.找到数组的中点下标(privot_index)的值，将小于这个值的数放在左边，大于或等于这个数的值放在右边,即patition过程。
+// 2.比较arr.length-k与privot_index,若arr.length-k大，那么就将privot_index右侧的数进行patition；若相等直接返回arr[privot_index]；若arr.length-l小，就将privot_index左侧的数进行patition.
+// 3.while循环结束条件：1、直接找到break; 2、l=r;
+// 4.注意patition过程只需要处理答案所在的那一侧，另外一侧不需要管。
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public static int findKthLargest(int[] arr,int k){
         k=arr.length-k;
@@ -54,4 +54,4 @@ class Solution {
         arr[j]=temp;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-sh
+// ### 解题思路
+// sh
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} flowerbed
  * @param {number} n
@@ -37,4 +37,4 @@ var canPlaceFlowers = function(flowerbed, n) {
     return actualCount >= n;
 
 };
-```
+// ```

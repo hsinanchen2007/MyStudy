@@ -1,11 +1,11 @@
-### 解题思路
-字符的ASCII值在处理字符串类算法时其实也是比较常见
-A-Z 65-90  a-z 97-12 差值为32
-具体应用见代码
+// ### 解题思路
+// 字符的ASCII值在处理字符串类算法时其实也是比较常见
+// A-Z 65-90  a-z 97-12 差值为32
+// 具体应用见代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String toLowerCase(String str) {
         StringBuilder sBuilder = new StringBuilder();
@@ -21,4 +21,4 @@ class Solution {
     	return sBuilder.toString();
     }
 }
-```
+// ```

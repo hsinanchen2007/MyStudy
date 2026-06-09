@@ -1,5 +1,5 @@
-二分插入
-```
+// 二分插入
+// ```
 class MedianFinder {
 public:
     /** initialize your data structure here. */
@@ -49,5 +49,5 @@ public:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
-```
+// ```
 

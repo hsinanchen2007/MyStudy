@@ -1,15 +1,15 @@
-### 思路
+# ### 思路
 
-**双指针**
+# **双指针**
 
-逆序，nums1 从 第 m 元素往前，nums2 从第 n 元素往前，哪个大哪个存在 nums1 的第 n+m-1 位置，然后慢慢从后往前存。最后看一下 nums2 是否还有剩余，如果还有就全部加到 nums1 中。
+# 逆序，nums1 从 第 m 元素往前，nums2 从第 n 元素往前，哪个大哪个存在 nums1 的第 n+m-1 位置，然后慢慢从后往前存。最后看一下 nums2 是否还有剩余，如果还有就全部加到 nums1 中。
 
-**时间复杂度:** O(m+n)
-**空间复杂度:** O(1)
+# **时间复杂度:** O(m+n)
+# **空间复杂度:** O(1)
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
         """
@@ -28,16 +28,16 @@ class Solution(object):
                 n -= 1
         if n > 0:  # 如果 nums2 有剩余, 全部加到 nums1 中
             nums1[:n] = nums2[:n]
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0088-Merge-Sorted-Array/0088.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0088-Merge-Sorted-Array/0088.py)
 
-### 相关题目
+# ### 相关题目
 
-[LeetCode 面试题 10.01. Sorted Merge LCCI](https://leetcode-cn.com/problems/sorted-merge-lcci/)
+# [LeetCode 面试题 10.01. Sorted Merge LCCI](https://leetcode-cn.com/problems/sorted-merge-lcci/)
 
-### 一点疑惑
+# ### 一点疑惑
 
-如果 nums1 = [1,2,3,0,0,0,0]，而 nums2 = [2,5,6]，m = 3，n = 3，那么合并之后的 nums1 = [1,2,2,3,5,6,0]，多余的 0 并没有自动销掉。
+# 如果 nums1 = [1,2,3,0,0,0,0]，而 nums2 = [2,5,6]，m = 3，n = 3，那么合并之后的 nums1 = [1,2,2,3,5,6,0]，多余的 0 并没有自动销掉。

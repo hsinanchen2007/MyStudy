@@ -1,6 +1,6 @@
-当两个指针一个在 12 周围的时候需要特殊处理。
+# 当两个指针一个在 12 周围的时候需要特殊处理。
 
-```python
+# ```python
 class Solution:
     def angleClock(self, hour: int, minutes: int) -> float:
         hour %= 12
@@ -14,4 +14,4 @@ class Solution:
             return 360 - hour_angle + minute_angle
         # 普通情况
         return abs(minute_angle - hour_angle)
-```
+# ```

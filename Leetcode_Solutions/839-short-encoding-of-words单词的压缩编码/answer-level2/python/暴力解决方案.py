@@ -1,9 +1,9 @@
-### 解题思路
-贪心处理，保留比较长的，短的加入时，判定时候已经存在就可以了
+# ### 解题思路
+# 贪心处理，保留比较长的，短的加入时，判定时候已经存在就可以了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def cmp_to_key(self, mycmp):
         """Convert a cmp= function into a key= function"""
@@ -52,4 +52,4 @@ class Solution:
                 cur_len += len(word) + 1
         return cur_len
                 
-```
+# ```

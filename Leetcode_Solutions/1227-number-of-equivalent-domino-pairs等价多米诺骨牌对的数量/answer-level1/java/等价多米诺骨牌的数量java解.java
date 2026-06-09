@@ -1,4 +1,4 @@
-java 解决该问题
+// java 解决该问题
 class Solution {
     public int numEquivDominoPairs(int[][] dominoes) 
     {

@@ -1,9 +1,9 @@
-### 解题思路
-用栈就行了，比较简单，就不赘述了，自己看代码吧
+// ### 解题思路
+// 用栈就行了，比较简单，就不赘述了，自己看代码吧
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char str[100010];
 char * minRemoveToMakeValid(char * s){
     char stack[100010];
@@ -40,4 +40,4 @@ char * minRemoveToMakeValid(char * s){
     str[k]='\0';
     return str;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-二叉树是从数据结构课开始接触的，宋文老师讲过用栈的方式解决遍历，转眼毕业6年了，感恩的心！
+// ### 解题思路
+// 二叉树是从数据结构课开始接触的，宋文老师讲过用栈的方式解决遍历，转眼毕业6年了，感恩的心！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -42,4 +42,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

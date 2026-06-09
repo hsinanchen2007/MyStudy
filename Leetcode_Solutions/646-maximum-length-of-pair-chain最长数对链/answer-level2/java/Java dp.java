@@ -1,14 +1,14 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
- 有题意可知，对于两个数对(a,b)和(c,d)，当`c > b`时，两个数对可以连在一起
+//  有题意可知，对于两个数对(a,b)和(c,d)，当`c > b`时，两个数对可以连在一起
 
-考虑使用DP，`dp[i]`为第i个数对作为结尾的最长数对链长度。将数对先按照第一个元素排序，然后按照按照第二个元素从小到大排序：
- * 如果`paris[i][0] > pairs[0~i-1][1]`，则`dp[i]=dp[i-1]+1`
- * 注意每个`dp[i]`需要初始化为1，如果前面没有数对与其构成数对链，则`dp[i]=1`
+// 考虑使用DP，`dp[i]`为第i个数对作为结尾的最长数对链长度。将数对先按照第一个元素排序，然后按照按照第二个元素从小到大排序：
+//  * 如果`paris[i][0] > pairs[0~i-1][1]`，则`dp[i]=dp[i-1]+1`
+//  * 注意每个`dp[i]`需要初始化为1，如果前面没有数对与其构成数对链，则`dp[i]=1`
 
-```
+// ```
 class Solution {
     public int findLongestChain(int[][] pairs) {
         int n = pairs.length;
@@ -38,4 +38,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

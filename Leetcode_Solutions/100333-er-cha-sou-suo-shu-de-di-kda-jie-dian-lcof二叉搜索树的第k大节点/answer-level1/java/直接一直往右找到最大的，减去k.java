@@ -1,9 +1,9 @@
-### 解题思路
-有点坑爹是，这道题没明确说他的数字都是从1到n
+// ### 解题思路
+// 有点坑爹是，这道题没明确说他的数字都是从1到n
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-思路：「贪心」
-    差最后一个测试样例超时。
-```
+# 思路：「贪心」
+#     差最后一个测试样例超时。
+# ```
 class Solution(object):
     def findMaximizedCapital(self, k, W, Profits, Capital):
         """
@@ -62,4 +62,4 @@ class Solution(object):
             return None
         else:
             return itemList[-1]
-```
+# ```

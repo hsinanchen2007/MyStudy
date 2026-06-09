@@ -1,8 +1,8 @@
-dfs 返回结果记录两个值 
-第一个 当前节点所在的子树 目前还多多少个硬币(可为负)
-第二个 当前节点所在的子树需要多少次移动 移动：left节点所在的子数总移动数目+right节点所在的子数总移动数目+abs(left节点多的硬币)+abs(right节点多的硬币)
+# dfs 返回结果记录两个值 
+# 第一个 当前节点所在的子树 目前还多多少个硬币(可为负)
+# 第二个 当前节点所在的子树需要多少次移动 移动：left节点所在的子数总移动数目+right节点所在的子数总移动数目+abs(left节点多的硬币)+abs(right节点多的硬币)
 
-```
+# ```
 class Solution(object):
     def distributeCoins(self, root):
         """
@@ -19,4 +19,4 @@ class Solution(object):
             total= total1+total2+abs(val1)+abs(val2)
             return val,total
         return count(root)[1]
-```
+# ```

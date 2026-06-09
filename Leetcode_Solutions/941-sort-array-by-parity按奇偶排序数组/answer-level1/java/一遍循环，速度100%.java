@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[] sortArrayByParity(int[] A) {
         int l = 0;
@@ -25,4 +25,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

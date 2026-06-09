@@ -1,4 +1,4 @@
-```
+// ```
 func removeElements(head *ListNode, val int) *ListNode {
     tmp := new(ListNode)
     tmp.Next = head
@@ -13,4 +13,4 @@ func removeElements(head *ListNode, val int) *ListNode {
     }
     return tmp.Next
 }
-```
+// ```

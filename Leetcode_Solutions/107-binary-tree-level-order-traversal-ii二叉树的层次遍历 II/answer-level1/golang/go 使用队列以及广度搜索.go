@@ -1,8 +1,8 @@
-- 使用双向队列 https://golang.org/pkg/container/list/
-- 每层遍历的时候，队列长度即是上一层的元素个数listLength，使用尾部移除，头部插入的方式，每次尾部移除listLength个元素。
-- 结果数组append的时候，每次将已有结果append到当前层结果之后，`result = append([][]int{currentLevel}, result...)`
+// - 使用双向队列 https://golang.org/pkg/container/list/
+// - 每层遍历的时候，队列长度即是上一层的元素个数listLength，使用尾部移除，头部插入的方式，每次尾部移除listLength个元素。
+// - 结果数组append的时候，每次将已有结果append到当前层结果之后，`result = append([][]int{currentLevel}, result...)`
 
-```
+// ```
 func levelOrderBottom(root *TreeNode) [][]int {
 	var result [][]int
 	if root == nil {
@@ -32,4 +32,4 @@ func levelOrderBottom(root *TreeNode) [][]int {
 	}
 	return result
 }
-```
+// ```

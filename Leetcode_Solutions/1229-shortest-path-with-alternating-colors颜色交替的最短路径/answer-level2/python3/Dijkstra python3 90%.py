@@ -1,9 +1,9 @@
-### 解题思路
-直接使用Dijkstra即可
+# ### 解题思路
+# 直接使用Dijkstra即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def shortestAlternatingPaths(self, n: int, red_edges: List[List[int]], blue_edges: List[List[int]]) -> List[int]:
 
@@ -30,4 +30,4 @@ class Solution:
                     heapq.heappush(q, (nd, v, nc))
 
         return [min(d) if min(d) < float('inf') else -1 for d in dist]
-```
+# ```

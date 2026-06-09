@@ -1,9 +1,9 @@
-### 解题思路
-按照***题43思路完成如下，就是不明白为什么一定取模才行？
+// ### 解题思路
+// 按照***题43思路完成如下，就是不明白为什么一定取模才行？
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} d
  * @param {number} f
@@ -30,4 +30,4 @@ var numRollsToTarget = function(d, f, target) {
     return df[target-1] || 0;
 };
 
-```
+// ```

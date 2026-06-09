@@ -1,10 +1,10 @@
-### 解题思路
-小白分享：
-主要是对输入的特殊情况一定要进行判断，我开始错了好多遍都是因为没有对输入的特殊情况进行判断，ε=(´ο｀*)))唉
+// ### 解题思路
+// 小白分享：
+// 主要是对输入的特殊情况一定要进行判断，我开始错了好多遍都是因为没有对输入的特殊情况进行判断，ε=(´ο｀*)))唉
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minDistance(String word1, String word2) {
         if ((word1 == null || word1.equals("")) && (word2 == null || word2 .equals(""))) {
@@ -56,4 +56,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

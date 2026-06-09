@@ -1,8 +1,8 @@
-### 一、深度优先搜索
-#### 减法
-- 可以生出左枝的条件是: 左括号的数量大于0
-- 可以生出又支的条件是: 右括号的数量大于0并且左括号的数量小于右括号的数量
-```javascript
+// ### 一、深度优先搜索
+// #### 减法
+// - 可以生出左枝的条件是: 左括号的数量大于0
+// - 可以生出又支的条件是: 右括号的数量大于0并且左括号的数量小于右括号的数量
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -26,9 +26,9 @@ const dfs = function(str,left,right,ans) {
         dfs(str+')',left,right-1,ans);
     }
 }
-```
-#### 加法
-```javascript
+// ```
+// #### 加法
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -52,9 +52,9 @@ const dfs = function(str,left,right,ans,n) {
         dfs(str+')',left,right+1,ans,n);
     }
 }
-```
-### 二、广度优先搜索
-```javascript
+// ```
+// ### 二、广度优先搜索
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -85,4 +85,4 @@ var generateParenthesis = function(n) {
     }
     return ans;
 };
-```
+// ```

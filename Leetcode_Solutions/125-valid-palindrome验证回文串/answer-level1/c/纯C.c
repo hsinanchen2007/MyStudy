@@ -1,9 +1,9 @@
-### 解题思路
-纯C
+// ### 解题思路
+// 纯C
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(char * s){
     int length = strlen(s);
     int indexOfS = 0;
@@ -38,4 +38,4 @@ bool isPalindrome(char * s){
 
     return true;
 }
-```
+// ```

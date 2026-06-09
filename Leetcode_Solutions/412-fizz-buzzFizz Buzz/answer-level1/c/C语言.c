@@ -1,5 +1,5 @@
-逻辑挺简单的，对C语言来说主要考察二级指针
-```c
+// 逻辑挺简单的，对C语言来说主要考察二级指针
+// ```c
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -37,4 +37,4 @@ int main(void)
     return 0;
 }
 
-```
+// ```

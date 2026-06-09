@@ -1,4 +1,4 @@
-```java
+// ```java
 public boolean buddyStrings(String A, String B) {
 
 		// 如果A 、 B中有一个长度小于2的，则直接返回false

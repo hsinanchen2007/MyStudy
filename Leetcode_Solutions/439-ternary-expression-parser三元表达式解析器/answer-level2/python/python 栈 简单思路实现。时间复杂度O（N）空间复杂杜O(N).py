@@ -1,10 +1,10 @@
-我写了一个更简单的。
-执行用时 : 84 ms , 在所有 Python 提交中击败了 17.65% 的用户
-内存消耗 : 13.1 MB , 在所有 Python 提交中击败了 100.00% 的用户
+# 我写了一个更简单的。
+# 执行用时 : 84 ms , 在所有 Python 提交中击败了 17.65% 的用户
+# 内存消耗 : 13.1 MB , 在所有 Python 提交中击败了 100.00% 的用户
 
-T?T?F?7:T?T?F?3:**F?0:0**:6:1:0:5
+# T?T?F?7:T?T?F?3:**F?0:0**:6:1:0:5
 
-```py
+# ```py
 class Solution(object):
     def parseTernary(self, expression):
         """
@@ -36,4 +36,4 @@ class Solution(object):
                 # print("stack = ", stack[::-1])
         return stack[0]
         
-```
+# ```

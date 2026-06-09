@@ -1,7 +1,7 @@
-暴力again……
+// 暴力again……
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     bool isPowerOfFour(int num) {
@@ -26,4 +26,4 @@ public:
         }
     }
 };
-```
+// ```

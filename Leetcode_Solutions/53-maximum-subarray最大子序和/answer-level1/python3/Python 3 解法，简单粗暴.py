@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         # nums为空，返回0，否则先取出数组中最大的数
@@ -10,4 +10,4 @@ class Solution:
             # 每次更新res的值
             res = max(res, temp)
         return res
-```
+# ```

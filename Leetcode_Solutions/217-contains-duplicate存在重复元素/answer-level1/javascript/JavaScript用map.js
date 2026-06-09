@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-用map即可
-对比size和length
+// 用map即可
+// 对比size和length
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -17,4 +17,4 @@ var containsDuplicate = function(nums) {
     }
     return nums.length !== map.size
 };
-```
+// ```

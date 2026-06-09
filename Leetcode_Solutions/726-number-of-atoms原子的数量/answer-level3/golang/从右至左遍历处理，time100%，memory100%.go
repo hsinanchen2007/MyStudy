@@ -1,6 +1,6 @@
-原帖：[https://leetcode.com/problems/number-of-atoms/discuss/319807/Runtime%3A-0-ms-faster-than-100.00-of-Go]()
+// 原帖：[https://leetcode.com/problems/number-of-atoms/discuss/319807/Runtime%3A-0-ms-faster-than-100.00-of-Go]()
 
-```
+// ```
 func countOfAtoms(formula string) string {
 	var maps = make(map[string]int)
 	var multiple []int
@@ -54,4 +54,4 @@ func countOfAtoms(formula string) string {
 	}
 	return result
 }
-```
+// ```

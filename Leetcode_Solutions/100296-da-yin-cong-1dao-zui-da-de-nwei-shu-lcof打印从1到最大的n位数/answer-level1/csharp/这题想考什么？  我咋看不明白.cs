@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] PrintNumbers(int n) {
         int max = (int)Math.Pow(10, n) - 1;
@@ -16,4 +16,4 @@ public class Solution {
         return nums;
     }
 }
-```
+// ```

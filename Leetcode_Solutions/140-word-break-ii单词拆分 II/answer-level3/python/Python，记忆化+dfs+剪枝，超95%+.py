@@ -1,7 +1,7 @@
-![lc140.png](https://pic.leetcode-cn.com/ccdf2b410caa59fc2433a568fbfb168187532909ef8e89b2f0013f051313de80-lc140.png)
+# ![lc140.png](https://pic.leetcode-cn.com/ccdf2b410caa59fc2433a568fbfb168187532909ef8e89b2f0013f051313de80-lc140.png)
 
-剪枝同样能大大减小空间复杂度，对aaaaaaaaaabaaaa那个用例不用特意优化
-```python
+# 剪枝同样能大大减小空间复杂度，对aaaaaaaaaabaaaa那个用例不用特意优化
+# ```python
     def wordBreak(self, s: str, wordDict: list) -> list:
         if not s:
             return []
@@ -22,4 +22,4 @@
 
         memo = {_len: ['']}  # 初始化记忆化存储
         return list(map(lambda x: x[:-1], dfs(0)))  # 去掉末尾多出的一个空格
-```
+# ```

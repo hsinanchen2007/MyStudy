@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] anagramMappings(int[] A, int[] B) {
         int[] P = new int[A.length];
@@ -13,4 +13,4 @@ class Solution {
         return P;
     }
 }
-```
+// ```

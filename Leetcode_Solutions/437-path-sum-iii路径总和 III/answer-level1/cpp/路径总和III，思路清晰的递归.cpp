@@ -1,13 +1,13 @@
-### 解题思路
-1、首先想到一种较为简单的情况，求从根节点root出发，所有路径和等于sum的不同路径条数；写出该辅助函数void path(TreeNode* root, int sum, int& num)//sum为目标和，num满足条件的不同路径数
-2、在1的基础上，求从任意结点出发，所有路径和等于sum的不同路径条数；写出辅助函数
-void path_sum_help(TreeNode* root, int sum, int& num)函数思路如下：
-调用path(root),找出以root为起始点的路径数，
-调用 path_sum_help(root->left)，找出以root->left为树根的路径数
-调用 path_sum_help(root->right), 找出以root->right为树根的路径数
-### 代码
+// ### 解题思路
+// 1、首先想到一种较为简单的情况，求从根节点root出发，所有路径和等于sum的不同路径条数；写出该辅助函数void path(TreeNode* root, int sum, int& num)//sum为目标和，num满足条件的不同路径数
+// 2、在1的基础上，求从任意结点出发，所有路径和等于sum的不同路径条数；写出辅助函数
+// void path_sum_help(TreeNode* root, int sum, int& num)函数思路如下：
+// 调用path(root),找出以root为起始点的路径数，
+// 调用 path_sum_help(root->left)，找出以root->left为树根的路径数
+// 调用 path_sum_help(root->right), 找出以root->right为树根的路径数
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -44,4 +44,4 @@ public:
         path(root->right, sum, num);
     }
 };
-```
+// ```

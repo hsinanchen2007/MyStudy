@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeDuplicates(self, n):
         if len(n)==0:return 
@@ -14,4 +14,4 @@ class Solution(object):
                 del n[i]
             else:#如果与后一项不同则下标加1来往后循环
                 i+=1
-```
+# ```

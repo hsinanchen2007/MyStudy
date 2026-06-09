@@ -1,4 +1,4 @@
-```
+// ```
 var isValidBST = function(root, max = Infinity, min = -Infinity) {
     let rtn = true;
     if (root) {
@@ -13,4 +13,4 @@ var isValidBST = function(root, max = Infinity, min = -Infinity) {
     }
     return rtn;
 };
-```
+// ```

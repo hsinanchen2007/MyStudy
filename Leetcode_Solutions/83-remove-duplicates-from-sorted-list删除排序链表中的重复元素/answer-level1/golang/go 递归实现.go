@@ -1,6 +1,6 @@
-递归方法实现
+// 递归方法实现
 
-```
+// ```
 func deleteDuplicates(head *ListNode) *ListNode {
     if head == nil || head.Next == nil {
         return head                             // 终止条件
@@ -11,6 +11,6 @@ func deleteDuplicates(head *ListNode) *ListNode {
     }
     return head
 }
-```
+// ```
 
 

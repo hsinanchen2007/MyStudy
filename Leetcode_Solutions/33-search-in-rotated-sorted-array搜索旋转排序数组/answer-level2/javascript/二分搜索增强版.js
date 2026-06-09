@@ -1,5 +1,5 @@
 
-```javascript
+// ```javascript
 var search = function(nums, target) {
   if (nums.length === 0) return -1
 
@@ -24,4 +24,4 @@ var search = function(nums, target) {
 
   return bSearch(nums, 0, nums.length - 1, target)
 };
-```
+// ```

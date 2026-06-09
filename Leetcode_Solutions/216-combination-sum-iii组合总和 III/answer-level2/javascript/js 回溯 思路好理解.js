@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/457182d1304f66772dc259ee7b8742dca1b3514a8ee80fb2a207fa82d2e37069-image.png)
+// ![image.png](https://pic.leetcode-cn.com/457182d1304f66772dc259ee7b8742dca1b3514a8ee80fb2a207fa82d2e37069-image.png)
 
-### 解题思路
-思路：
-1. 建立一个 1 - 9 的数组，作为备选
-2. 回溯：注意，只能向后选，不要选完 3，再去选择 1 或 2，会造成重复
-3. 优化：如果当前和已经超过 n 了，那么直接结束此次递归即可(可节约一大部分时间)
+// ### 解题思路
+// 思路：
+// 1. 建立一个 1 - 9 的数组，作为备选
+// 2. 回溯：注意，只能向后选，不要选完 3，再去选择 1 或 2，会造成重复
+// 3. 优化：如果当前和已经超过 n 了，那么直接结束此次递归即可(可节约一大部分时间)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} k
  * @param {number} n
@@ -49,4 +49,4 @@ var combinationSum3 = function(k, n) {
   
   return ans;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& A) {
@@ -11,4 +11,4 @@ public:
         return ret;            
     }
 };
-```
+// ```

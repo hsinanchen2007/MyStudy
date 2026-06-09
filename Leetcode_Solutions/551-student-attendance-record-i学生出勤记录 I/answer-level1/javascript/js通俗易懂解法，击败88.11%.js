@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} s
  * @return {boolean}
@@ -22,9 +22,9 @@ var checkRecord = function(s) {
     }
     return true;
 };
-```
-优化后的解法，代码更简洁，但是执行时间并没有提高多少，和前面一种差不多
-```
+// ```
+// 优化后的解法，代码更简洁，但是执行时间并没有提高多少，和前面一种差不多
+// ```
 /**
  * @param {string} s
  * @return {boolean}
@@ -44,4 +44,4 @@ var checkRecord = function(s) {
     }
     return s.indexOf("LLL") < 0;
 };
-```
+// ```

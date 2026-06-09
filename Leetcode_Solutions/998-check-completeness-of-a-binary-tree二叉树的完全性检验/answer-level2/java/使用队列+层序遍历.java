@@ -1,4 +1,4 @@
-```
+// ```
 public boolean isCompleteTree(TreeNode root) {
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
@@ -25,4 +25,4 @@ public boolean isCompleteTree(TreeNode root) {
         }
         return true;
     }
-```
+// ```

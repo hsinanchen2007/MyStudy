@@ -1,10 +1,10 @@
-### 解题思路
-1、递归
-2、斐波那契数列生成；再获取
+// ### 解题思路
+// 1、递归
+// 2、斐波那契数列生成；再获取
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int fib(int N) {
@@ -16,10 +16,10 @@ public:
         return fib(N-1) + fib(N-2);
     }
 };
-```
+// ```
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -34,4 +34,4 @@ public:
         return nums[N];
     }
 };
-```
+// ```

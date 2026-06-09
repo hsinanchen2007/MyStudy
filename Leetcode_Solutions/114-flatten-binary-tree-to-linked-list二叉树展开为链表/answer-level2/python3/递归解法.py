@@ -1,8 +1,8 @@
-# 说明
-本解法翻译自: https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--26 java 版代码。
+# # 说明
+# 本解法翻译自: https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by--26 java 版代码。
 
-# 代码
-```
+# # 代码
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -48,4 +48,4 @@ class Solution:
 
         # 继续下一轮右子树的展开
         return self.flatten(root.right)
-```
+# ```

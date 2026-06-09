@@ -1,5 +1,5 @@
 
-```
+// ```
 bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         std::unordered_map<int, int> indegree;
         for(auto& v : prerequisites) {
@@ -27,4 +27,4 @@ bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         if(cnt != numCourses)
             return false;
         return true;
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-并查集
+// ### 解题思路
+// 并查集
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_CNT 26
 int g_father[MAX_CNT];
 void init(void) {
@@ -50,4 +50,4 @@ bool equationsPossible(char ** equations, int equationsSize){
     }
     return true;
 }
-```
+// ```

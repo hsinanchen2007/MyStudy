@@ -1,4 +1,4 @@
-```js
+// ```js
 var findShortestSubArray = function(nums) {
     let map = new Map();
     let len = nums.length;
@@ -26,4 +26,4 @@ var findShortestSubArray = function(nums) {
     }
     return min;
 };
-```
+// ```

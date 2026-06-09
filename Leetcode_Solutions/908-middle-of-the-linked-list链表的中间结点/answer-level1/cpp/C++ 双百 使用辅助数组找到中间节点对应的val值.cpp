@@ -1,9 +1,9 @@
-### 解题思路
-注意一点：要先拷贝一份head以存储节点的val值，原head来用于找中间节点。
+// ### 解题思路
+// 注意一点：要先拷贝一份head以存储节点的val值，原head来用于找中间节点。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -35,4 +35,4 @@ public:
         return resnode; 
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-单纯遍历字符串，无法判断（是否有效，需要用数据结构存储先出现的（，后续有匹配的）才是有效的，前面的（才是有效的
+// ### 解题思路
+// 单纯遍历字符串，无法判断（是否有效，需要用数据结构存储先出现的（，后续有匹配的）才是有效的，前面的（才是有效的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String minRemoveToMakeValid(String s) {
        StringBuffer sb =  new StringBuffer();
@@ -35,4 +35,4 @@ class Solution {
     } 
     
 }
-```
+// ```

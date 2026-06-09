@@ -1,9 +1,9 @@
-### 解题思路
-找到数组中的中间值作为根节点。中间值的左边为左子树，右边为右子树。
+// ### 解题思路
+// 找到数组中的中间值作为根节点。中间值的左边为左子树，右边为右子树。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-#### 方法1 暴力
+// #### 方法1 暴力
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int fib(int N) {
@@ -9,11 +9,11 @@ public:
         else return fib(N-1)+fib(N-2);
     }
 };
-```
+// ```
 
-#### 方法2 动态规划
+// #### 方法2 动态规划
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int fib(int N) {
@@ -25,22 +25,22 @@ public:
 private:
     int res[31] = {0,1};
 };
-```
+// ```
 
-#### 方法3 数列通项法
+// #### 方法3 数列通项法
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int fib(int N) {
         return 1/sqrt(5) * ( pow((1+sqrt(5))/2,N) - pow((1-sqrt(5))/2, N) );
     }
 };
-```
+// ```
 
-#### 方法4 投机取巧法
+// #### 方法4 投机取巧法
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int fib(int N) {
@@ -52,4 +52,4 @@ private:
         10946,17711,28657,46368,75025,121393,196418,317811,514229,832040
     };
 };
-```
+// ```

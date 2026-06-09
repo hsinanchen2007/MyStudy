@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class MyHashMap {
 private:
     struct node {
@@ -68,4 +68,4 @@ public:
  * int param_2 = obj->get(key);
  * obj->remove(key);
  */
-```
+// ```

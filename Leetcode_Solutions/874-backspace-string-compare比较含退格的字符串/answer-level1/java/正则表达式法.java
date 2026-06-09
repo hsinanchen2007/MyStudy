@@ -1,9 +1,9 @@
-### 解题思路
-算是开拓思路吧,效率不佳的方法
+// ### 解题思路
+// 算是开拓思路吧,效率不佳的方法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean backspaceCompare(String S, String T) {
     	S=S.replaceAll("\\w#", "");
@@ -19,4 +19,4 @@ class Solution {
     	return S.equals(T);
     }
 }
-```
+// ```

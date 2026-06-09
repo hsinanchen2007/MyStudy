@@ -1,9 +1,9 @@
-### 解题思路
-1.直接使用数组的sort的方式进行完成，核心在于先排序，然后在取值
+// ### 解题思路
+// 1.直接使用数组的sort的方式进行完成，核心在于先排序，然后在取值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -79,4 +79,4 @@ function sort(arr,item) {
     }
     return arr
 }
-```
+// ```

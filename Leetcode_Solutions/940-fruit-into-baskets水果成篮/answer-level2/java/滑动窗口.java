@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int totalFruit(int[] tree) {
         // 收集的水果总量最大值
@@ -38,4 +38,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

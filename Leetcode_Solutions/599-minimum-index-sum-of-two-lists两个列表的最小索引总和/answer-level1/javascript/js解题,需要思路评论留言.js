@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {string[]} list1
  * @param {string[]} list2
@@ -52,4 +52,4 @@ var findRestaurant = function(list1, list2) {
     
     return result
 };
-```
+// ```

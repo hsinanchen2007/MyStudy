@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * @param {number} a
  * @param {number} b
@@ -136,4 +136,4 @@ var longestDiverseString = function (a, b, c) {
 // console.log(longestDiverseString(2, 2, 1))
 // console.log(longestDiverseString(7, 1, 0))
 // console.log(longestDiverseString(0, 8, 11))
-```
+// ```

@@ -1,9 +1,9 @@
-### 先对nums1进行map无序编号保存，再去nums2中找到相同元素，找到就将频数归零。用s去保存每次相同的元素。
-本人是个小菜菜，希望能碰到大佬指教。
+// ### 先对nums1进行map无序编号保存，再去nums2中找到相同元素，找到就将频数归零。用s去保存每次相同的元素。
+// 本人是个小菜菜，希望能碰到大佬指教。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
@@ -23,4 +23,4 @@ public:
         return s;
     }
 };
-```
+// ```

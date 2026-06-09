@@ -1,11 +1,11 @@
-### 解题思路
-循环，用stringbuilder进行拼接，最后用reverse，再用tostring进行字符串转换
-当前位置为sum%2
-进位为sum/2
+// ### 解题思路
+// 循环，用stringbuilder进行拼接，最后用reverse，再用tostring进行字符串转换
+// 当前位置为sum%2
+// 进位为sum/2
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addBinary(String a, String b) {
         int m=a.length();
@@ -26,4 +26,4 @@ class Solution {
         return sb.reverse().toString();
     }
 }
-```
+// ```

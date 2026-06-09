@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string[][]} watchedVideos
  * @param {number[][]} friends
@@ -53,4 +53,4 @@ var watchedVideosByFriends = function(watchedVideos, friends, id, level) {
 
   return res;
 };
-```
+// ```

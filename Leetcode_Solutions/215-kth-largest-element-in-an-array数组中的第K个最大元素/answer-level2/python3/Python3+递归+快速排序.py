@@ -1,4 +1,4 @@
-```
+# ```
 from typing import List
 
 class Solution:
@@ -38,4 +38,4 @@ class Solution:
 
         elif(left==right and left == k-1):  #如果数组内只有一个元素
             return nums[left]
-```
+# ```

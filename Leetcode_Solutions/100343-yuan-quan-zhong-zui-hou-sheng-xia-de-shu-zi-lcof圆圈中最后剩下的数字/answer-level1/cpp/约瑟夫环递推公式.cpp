@@ -1,11 +1,11 @@
-### 解题思路
-约瑟夫环递推公式：
-f(n, m) = 0 (n = 1)
-f(n, m) = (f(n - 1, m) + m) % n (n > 1)
+// ### 解题思路
+// 约瑟夫环递推公式：
+// f(n, m) = 0 (n = 1)
+// f(n, m) = (f(n - 1, m) + m) % n (n > 1)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int lastRemaining(int n, int m) {
@@ -19,4 +19,4 @@ int lastRemaining(int n, int m) {
     return f;
 }
 };
-```
+// ```

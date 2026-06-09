@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn merge_k_lists(lists: Vec<Option<Box<ListNode>>>) -> Option<Box<ListNode>> {
         let mut lists = lists;
@@ -93,7 +93,7 @@ impl Solution {
         ans
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/15a8d0f297002da19d7102b4e54af698110577445283766fc2d23774be66f2ab-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/15a8d0f297002da19d7102b4e54af698110577445283766fc2d23774be66f2ab-image.png)
 
-合并两个链表的部分比较头疼，虽然在“21. 合并两个有序链表”中尝试的“迭代法”和“取链表头组合法”都是0ms通过，但放在这道题中，前者要比后者慢100倍之多。猜测是迭代法的实现存在大量的clone，拖慢了时间。若要在摆脱clone，转为调用指针的方法，那就要通过rc智能指针或者unsafe的裸指针，前者与所给的数据结构不匹配，后者打算之后进一步尝试。递归法和取链表头组合差不多时间。目前最快的还是自己构造优先队列的方法，能达到4ms
+// 合并两个链表的部分比较头疼，虽然在“21. 合并两个有序链表”中尝试的“迭代法”和“取链表头组合法”都是0ms通过，但放在这道题中，前者要比后者慢100倍之多。猜测是迭代法的实现存在大量的clone，拖慢了时间。若要在摆脱clone，转为调用指针的方法，那就要通过rc智能指针或者unsafe的裸指针，前者与所给的数据结构不匹配，后者打算之后进一步尝试。递归法和取链表头组合差不多时间。目前最快的还是自己构造优先队列的方法，能达到4ms

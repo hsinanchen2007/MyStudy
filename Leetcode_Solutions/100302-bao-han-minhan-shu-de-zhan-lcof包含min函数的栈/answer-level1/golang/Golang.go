@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MinStack struct {
     nums,mins []int
 }
@@ -46,4 +46,4 @@ func (this *MinStack) Min() int {
  * param_3 := obj.Top();
  * param_4 := obj.Min();
  */
-```
+// ```

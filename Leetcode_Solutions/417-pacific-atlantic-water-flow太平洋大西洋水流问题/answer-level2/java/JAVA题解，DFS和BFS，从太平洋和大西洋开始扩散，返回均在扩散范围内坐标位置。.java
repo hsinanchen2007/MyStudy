@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int m, n, nextI, nextJ;
     int direct[][] = {{-1,0,1,0},{0,1,0,-1}};
@@ -69,4 +69,4 @@ class Solution {
         }
     }
 }
-```
+// ```

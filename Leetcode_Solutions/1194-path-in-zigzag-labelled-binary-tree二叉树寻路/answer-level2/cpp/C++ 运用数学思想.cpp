@@ -1,9 +1,9 @@
-### 解题思路
-1.计算出所给序号所在层数
-2.利用对称思想
-### 代码
+// ### 解题思路
+// 1.计算出所给序号所在层数
+// 2.利用对称思想
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> pathInZigZagTree(int label) {
@@ -21,4 +21,4 @@ public:
 };
 ![1104.PNG](https://pic.leetcode-cn.com/aefb9be76f16253d237f67bb15ef7d96509e787ff7a7dcd1c0bb893ea1cbe0aa-1104.PNG)
 
-```
+// ```

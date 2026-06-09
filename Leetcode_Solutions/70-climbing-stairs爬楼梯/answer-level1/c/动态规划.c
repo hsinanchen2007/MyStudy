@@ -1,4 +1,4 @@
-```
+// ```
 int climbStairs(int n){
     int dp[n+1];
     dp[0] = 1;//没上台阶
@@ -9,4 +9,4 @@ int climbStairs(int n){
     }
     return dp[n];
 }
-```
+// ```

@@ -1,5 +1,5 @@
-耗时20ms,看题目第一反应就是用广度优先遍历
-```
+// 耗时20ms,看题目第一反应就是用广度优先遍历
+// ```
  public int maxLevelSum(TreeNode root) {
         if (root == null) return 0;
         int res = 0, sum = 0, floor = 0;
@@ -22,4 +22,4 @@
         }
         return res;
     }
-```
+// ```

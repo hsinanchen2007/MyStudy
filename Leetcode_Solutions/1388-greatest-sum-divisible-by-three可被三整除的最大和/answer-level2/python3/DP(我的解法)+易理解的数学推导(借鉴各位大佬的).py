@@ -1,5 +1,5 @@
-1.DP 代码写起来比较简单 但是这一条用DP效率不是很好
-```
+# 1.DP 代码写起来比较简单 但是这一条用DP效率不是很好
+# ```
 class Solution:
 	def maxSumDivThree(self,nums):
 		dp=[0,0,0] #dp[i]表示已遍历完成的数字们能组成的最大的sum sum满足sum%3==i 一开始的情况下都置零
@@ -8,9 +8,9 @@ class Solution:
 			for ele in new:
 				dp[ele%3]=max(dp[ele%3],ele) #更新每个index上的sum
 		return dp[0]
-```
-2.数学推理 比较关键的都添加了注释 本人菜鸡 哪里不行还各位多多指教 /(ㄒoㄒ)/~~
-```
+# ```
+# 2.数学推理 比较关键的都添加了注释 本人菜鸡 哪里不行还各位多多指教 /(ㄒoㄒ)/~~
+# ```
 class Solution:
 	def maxSumDivThree(self,nums):
 		_all_=0 #表示sum(nums)
@@ -31,4 +31,4 @@ class Solution:
 			a=_all_-sum(situ[1][:2]) if len(situ[1])>=2 else 0
 			b=_all_-sum(situ[2][:1]) if len(situ[2])>=1 else 0
 			return max(a,b,0)
-```
+# ```

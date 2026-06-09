@@ -1,9 +1,9 @@
-### 解题思路
-这种题冒泡肯定死掉，干脆用快排，就这样了
+// ### 解题思路
+// 这种题冒泡肯定死掉，干脆用快排，就这样了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -53,4 +53,4 @@ int* sortArray(int* nums, int numsSize, int* returnSize){
     return nums;
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-两种方法
+// ### 解题思路
+// 两种方法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -31,4 +31,4 @@ public:
         return res;
     }
 };
-```
+// ```

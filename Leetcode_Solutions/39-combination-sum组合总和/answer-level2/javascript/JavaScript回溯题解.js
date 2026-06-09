@@ -1,9 +1,9 @@
-### 解题思路
-典型的回溯
+// ### 解题思路
+// 典型的回溯
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} candidates
  * @param {number} target
@@ -24,4 +24,4 @@ var combinationSum = function(candidates, target) {
     trackback(0,[]);
     return result;
 }
-```
+// ```

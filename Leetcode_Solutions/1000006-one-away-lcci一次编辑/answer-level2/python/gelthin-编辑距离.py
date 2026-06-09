@@ -1,13 +1,13 @@
-### 解题思路
-这一题实际上是编辑距离题的简化版。
+# ### 解题思路
+# 这一题实际上是编辑距离题的简化版。
 
-原始版的 [72. 编辑距离题](https://leetcode-cn.com/problems/edit-distance/) 需要使用 DP 求解。
-注意到当两个字符串相差 1， 删去一个字符和补充一个字符是等价的。
-写代码需要小心，不要导致 bug.
+# 原始版的 [72. 编辑距离题](https://leetcode-cn.com/problems/edit-distance/) 需要使用 DP 求解。
+# 注意到当两个字符串相差 1， 删去一个字符和补充一个字符是等价的。
+# 写代码需要小心，不要导致 bug.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def oneEditAway(self, first: str, second: str) -> bool:
         n1, n2 = len(first), len(second)
@@ -35,4 +35,4 @@ class Solution:
             return first[i+1:] == second[j:]
 
 
-```
+# ```

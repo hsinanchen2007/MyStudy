@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //补充一个并查集的解法
 int[] parent=null;
@@ -61,4 +61,4 @@ public int maxAreaOfIsland(int[][] grid) {
 
 
 }
-```
+// ```

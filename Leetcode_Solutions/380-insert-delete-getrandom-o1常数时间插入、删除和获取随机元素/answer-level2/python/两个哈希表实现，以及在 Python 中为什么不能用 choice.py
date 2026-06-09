@@ -1,20 +1,20 @@
-### 思路
+# ### 思路
 
-题目要求时间复杂度为 `O(1)`，所以需要使用两个哈希表进行数据的存储：
+# 题目要求时间复杂度为 `O(1)`，所以需要使用两个哈希表进行数据的存储：
 
-1. 哈希表一：元素值作为 `key`，元素下标作为 `value`
-2. 哈希表二：元素下标作为 `key`，元素值作为 `value`。该表的存在是为了 `getRandom` 时达到时间复杂度 `O(1)`
+# 1. 哈希表一：元素值作为 `key`，元素下标作为 `value`
+# 2. 哈希表二：元素下标作为 `key`，元素值作为 `value`。该表的存在是为了 `getRandom` 时达到时间复杂度 `O(1)`
 
-具体操作方式如下：
+# 具体操作方式如下：
 
-1. `insert` 操作：判断 `val` 值是否存在，不存在则在两个哈希标中加入该值；
-2. `remove` 操作：取出将要移除 `val` 的下标 `index`，将当前所有元素的最大下标改为 `index` 值，然后 `remove` 元素 `val`
+# 1. `insert` 操作：判断 `val` 值是否存在，不存在则在两个哈希标中加入该值；
+# 2. `remove` 操作：取出将要移除 `val` 的下标 `index`，将当前所有元素的最大下标改为 `index` 值，然后 `remove` 元素 `val`
 
-### 为什么不能用 choice？
+# ### 为什么不能用 choice？
 
-看到有答案用了 `random.choice`，在这里贴一下 Python 中 `random.choice` 的实现方式，事件复杂度不可能是 `O(1)`，一看便知了。
+# 看到有答案用了 `random.choice`，在这里贴一下 Python 中 `random.choice` 的实现方式，事件复杂度不可能是 `O(1)`，一看便知了。
 
-```
+# ```
 def choice(self, seq):
         """Choose a random element from a non-empty sequence."""
         try:
@@ -53,11 +53,11 @@ def _randbelow(self, n, int=int, maxsize=1<<BPF, type=type,
         while r >= limit:
             r = random()
         return int(r*maxsize) % n
-```
+# ```
 
-### 具体实现
+# ### 具体实现
 
-```python
+# ```python
 from random import randint
 
 class RandomizedSet(object):
@@ -119,4 +119,4 @@ class RandomizedSet(object):
 # param_1 = obj.insert(val)
 # param_2 = obj.remove(val)
 # param_3 = obj.getRandom()
-```
+# ```

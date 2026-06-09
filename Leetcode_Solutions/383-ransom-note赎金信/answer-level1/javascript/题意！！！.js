@@ -1,9 +1,9 @@
-### 解题思路
-题意：能不能用杂志中的字符拼成信中的
+// ### 解题思路
+// 题意：能不能用杂志中的字符拼成信中的
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} ransomNote
  * @param {string} magazine
@@ -27,4 +27,4 @@ var canConstruct = function(ransomNote, magazine) {
     }
     return true
 };
-```
+// ```

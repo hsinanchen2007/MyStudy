@@ -1,9 +1,9 @@
-### 解题思路
-定义dp数组,如果存在j<i,并且nums[j]<nums[i] 那么dp[i]=Math.max(dp[i],dp[j]+1);  dp[j]+1是因为把从nums[i]是nums[j]的下一个递增所以加1
+// ### 解题思路
+// 定义dp数组,如果存在j<i,并且nums[j]<nums[i] 那么dp[i]=Math.max(dp[i],dp[j]+1);  dp[j]+1是因为把从nums[i]是nums[j]的下一个递增所以加1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
        if(nums.length<=0){
@@ -22,4 +22,4 @@ class Solution {
        return dp[dp.length-1]+1;
     }
 }
-```
+// ```

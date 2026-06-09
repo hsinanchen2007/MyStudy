@@ -1,5 +1,5 @@
-### BFS
-```
+// ### BFS
+// ```
 typedef pair<int,int>pq;
 int dx[4]={0,-1,1,0};
 int dy[4]={1,0,0,-1};
@@ -36,5 +36,5 @@ public://BFS先放入队列的数据会优先的处理，所以这样会好一�
         return res-1;
     }
 };
-```
+// ```
 

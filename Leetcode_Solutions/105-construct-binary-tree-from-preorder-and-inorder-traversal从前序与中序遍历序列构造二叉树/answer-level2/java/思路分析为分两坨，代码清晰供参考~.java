@@ -1,10 +1,10 @@
-中心思想：
-1 利用preorder确定根； 
-2 在inorder找到根的位置；
-3 通过根在inorder的位置得到左右子树的元素个数；
-4 除了根，分为左右两坨，根据左右子树元素个数得到preorder和inorder的递归起始位置；
-5 递归求左右分支。
-```
+// 中心思想：
+// 1 利用preorder确定根； 
+// 2 在inorder找到根的位置；
+// 3 通过根在inorder的位置得到左右子树的元素个数；
+// 4 除了根，分为左右两坨，根据左右子树元素个数得到preorder和inorder的递归起始位置；
+// 5 递归求左右分支。
+// ```
     /**
      * 提高运行效率两点：
      * 1、利用map存放根节点在inorder中的索引，缩短查找时间；
@@ -39,4 +39,4 @@
         root.right = helper(pFrom + 1 + len1, rootIdx + 1, len2);
         return root;
     }
-```
+// ```

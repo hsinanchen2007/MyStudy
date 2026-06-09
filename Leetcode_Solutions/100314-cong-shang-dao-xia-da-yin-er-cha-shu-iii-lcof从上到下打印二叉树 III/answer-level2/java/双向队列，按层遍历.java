@@ -1,9 +1,9 @@
-### 解题思路
-deque, 从左往右时，deque.addLast(); 从右往左时，deque.addFirst()
+// ### 解题思路
+// deque, 从左往右时，deque.addLast(); 从右往左时，deque.addFirst()
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,4 +44,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

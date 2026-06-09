@@ -1,13 +1,13 @@
-### 解题思路
-循环插值很容易想到
-后面的函数有点吃力
-意义就是 把nums2 放到nums1的前面  注意循环中条件是nums1[i]>nums2[j] 
-若nums2循环完 返回就是nums1
-若nums2未循环完 返回 nums2未循环的部分  +  num1(截取前面的部分 大小为nums2大小的位置)
+// ### 解题思路
+// 循环插值很容易想到
+// 后面的函数有点吃力
+// 意义就是 把nums2 放到nums1的前面  注意循环中条件是nums1[i]>nums2[j] 
+// 若nums2循环完 返回就是nums1
+// 若nums2未循环完 返回 nums2未循环的部分  +  num1(截取前面的部分 大小为nums2大小的位置)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number} m

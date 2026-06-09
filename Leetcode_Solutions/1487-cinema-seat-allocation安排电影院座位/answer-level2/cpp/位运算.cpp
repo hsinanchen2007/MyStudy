@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-1. 按行排序预留座位列表
-2. 逐行处理有预留座位的的行
+// 1. 按行排序预留座位列表
+// 2. 逐行处理有预留座位的的行
 
-时间复杂度: $O(N·LOG(N))$
+// 时间复杂度: $O(N·LOG(N))$
 
-进一步优化:
-将座位表排序改为用hash表维护，时间复杂度可以降为$O(N)$
+// 进一步优化:
+// 将座位表排序改为用hash表维护，时间复杂度可以降为$O(N)$
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
@@ -51,9 +51,9 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {
@@ -103,4 +103,4 @@ public:
         return ret;
     }
 };
-```
+// ```

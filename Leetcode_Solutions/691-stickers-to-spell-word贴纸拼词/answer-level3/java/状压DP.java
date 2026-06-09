@@ -1,6 +1,6 @@
-思路：定义dp[i]：表示状态为i时所用的最少贴纸数量。
-其中i的二进制每一位若为1表示target的该位字符已经拼出来了。
-```
+// 思路：定义dp[i]：表示状态为i时所用的最少贴纸数量。
+// 其中i的二进制每一位若为1表示target的该位字符已经拼出来了。
+// ```
 class Solution {
     public int minStickers(String[] stickers, String target) {
         
@@ -41,4 +41,4 @@ class Solution {
     	return dp[(1<<target.length())-1];
     }
 }
-```
+// ```

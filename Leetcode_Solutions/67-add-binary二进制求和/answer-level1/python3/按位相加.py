@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def addBinary(self, a, b):
         """
@@ -18,4 +18,4 @@ class Solution(object):
             i += 1
         return res
 
-```
+# ```

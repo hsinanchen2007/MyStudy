@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-摘抄自甜姐
-k=1时即棋子向上移动，以此类推
+// 摘抄自甜姐
+// k=1时即棋子向上移动，以此类推
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         // 定义上下左右四个方向
@@ -41,4 +41,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

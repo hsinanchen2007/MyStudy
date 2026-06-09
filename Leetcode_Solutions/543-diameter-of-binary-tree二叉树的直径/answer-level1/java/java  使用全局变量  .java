@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private int res = 0;
     public int diameterOfBinaryTree(TreeNode root) {
@@ -14,4 +14,4 @@ class Solution {
         return 1 + Math.max(left, right);
     }
 }
-```
+// ```

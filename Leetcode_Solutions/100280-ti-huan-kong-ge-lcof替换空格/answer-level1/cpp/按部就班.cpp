@@ -1,9 +1,9 @@
-### 解题思路
-按部就班，遍历原字符串，如果s[i]==' '，则res+="%20"，否则res+=s[i]
+// ### 解题思路
+// 按部就班，遍历原字符串，如果s[i]==' '，则res+="%20"，否则res+=s[i]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

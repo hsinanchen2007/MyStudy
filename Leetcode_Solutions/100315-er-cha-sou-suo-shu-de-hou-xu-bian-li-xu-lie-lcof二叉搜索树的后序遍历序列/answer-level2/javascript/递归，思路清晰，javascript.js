@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/bd60e067249e26ab51fb60a83c54c23ac164145de0e33396aa2d046120a235ff-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/bd60e067249e26ab51fb60a83c54c23ac164145de0e33396aa2d046120a235ff-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} postorder
  * @return {boolean}
@@ -30,4 +30,4 @@ var verifyPostorder = function(postorder) {
         return false;
     }
 };
-```
+// ```

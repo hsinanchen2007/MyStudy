@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 递归
+// ### 递归
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -28,11 +28,11 @@ function helper (ans, root, layer) {
     helper(ans, root.left, layer + 1);
     helper(ans, root.right, layer + 1);
 }
-```
+// ```
 
-### 迭代
+// ### 迭代
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -60,4 +60,4 @@ function bfs (ans, root) {
       if (current.right) queue.push([current.right, layer + 1]);
   }
 }
-```
+// ```

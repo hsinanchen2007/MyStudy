@@ -1,9 +1,9 @@
-### 解题思路
-我是过来抄答案的，我也不是很懂！
+// ### 解题思路
+// 我是过来抄答案的，我也不是很懂！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,4 +44,4 @@ void jinwei(struct ListNode *l1)
     }
 }
 
-```
+// ```

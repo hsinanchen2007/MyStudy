@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/4f28f80682371dc00ea5909266fc45e5c72ccce16d7136e840f8d3c1861dc8cb-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/4f28f80682371dc00ea5909266fc45e5c72ccce16d7136e840f8d3c1861dc8cb-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -82,4 +82,4 @@ var orangesRotting = function(grid) {
 		    if(number > 0) return -1;
 		    return time;
 		};
-```
+// ```

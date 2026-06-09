@@ -1,9 +1,9 @@
-### 解题思路
-这题参照大佬，并且做了完善的解释
+// ### 解题思路
+// 这题参照大佬，并且做了完善的解释
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include<malloc.h>
 
 void gameOfLife(int **board, int boardSize, int* boardColSize)
@@ -78,4 +78,4 @@ void gameOfLife(int **board, int boardSize, int* boardColSize)
 	// 再释放申请的每行的内容
 	free(ret);
 }
-```
+// ```

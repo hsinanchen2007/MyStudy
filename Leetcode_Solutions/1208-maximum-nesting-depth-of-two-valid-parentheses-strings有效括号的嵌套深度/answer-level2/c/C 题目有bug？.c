@@ -1,10 +1,10 @@
 
-看用例推测出只要()()()()() 这样排列就行
-跟原始的序列比较，相同时返回数组元素赋0,不同时赋1；
+// 看用例推测出只要()()()()() 这样排列就行
+// 跟原始的序列比较，相同时返回数组元素赋0,不同时赋1；
 
-题意理解了半天，还写了一段求当前最大深度的代码，不需要
+// 题意理解了半天，还写了一段求当前最大深度的代码，不需要
 
-```
+// ```
 int* maxDepthAfterSplit(char * seq, int* returnSize){
     int len = strlen(seq);
     if (len == 0) {
@@ -42,4 +42,4 @@ int* maxDepthAfterSplit(char * seq, int* returnSize){
     *returnSize = len;
     return ans;
 }
-```
+// ```

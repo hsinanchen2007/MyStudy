@@ -1,10 +1,10 @@
-### 解题思路
-总结，在创建HashMap的时候put的创建思路并不是按照顺序来的，后面可以去钻研一下
-第二，在对比两个HashMap值的情况下，不要忘记了可以用Map的get方法，由key得到值，但是如果是想由值得到Key就只能用entry遍历了
+// ### 解题思路
+// 总结，在创建HashMap的时候put的创建思路并不是按照顺序来的，后面可以去钻研一下
+// 第二，在对比两个HashMap值的情况下，不要忘记了可以用Map的get方法，由key得到值，但是如果是想由值得到Key就只能用entry遍历了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.HashMap;
 import java.util.Map;
 //用HashMap 统计字母表中每个字母的个数，同时统计单词表中每个单词的字母的个数，如果该单词和字母表中的单词字母个数对比
@@ -44,4 +44,4 @@ public class Solution {
         return sum;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-二分查找太容易写崩了...很烦
-```
+// 二分查找太容易写崩了...很烦
+// ```
 class Solution {
 public:
 	int search(vector<int>& arr, int target) {
@@ -30,4 +30,4 @@ public:
 		return -1;
 	}
 };
-```
+// ```

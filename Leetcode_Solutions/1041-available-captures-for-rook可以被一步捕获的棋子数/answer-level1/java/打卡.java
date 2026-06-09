@@ -1,4 +1,4 @@
-    // 简单的搜索
+//     // 简单的搜索
     class Solution {
         public int numRookCaptures(char[][] board) {
             if(board.length == 0) {

@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历，两个循环实际只执行其中一个，且遇到转折点直接退出循环
+# ### 解题思路
+# 一次遍历，两个循环实际只执行其中一个，且遇到转折点直接退出循环
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isMonotonic(self, A: List[int]) -> bool:
         if len(A)<3:
@@ -21,6 +21,6 @@ class Solution:
                 up=False
                 break
         return down or up
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/32c29de0eb9a907bd926d430b5940068a564ba9dba23e21c59b449798356f77e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/32c29de0eb9a907bd926d430b5940068a564ba9dba23e21c59b449798356f77e-image.png)

@@ -1,5 +1,5 @@
-解法看自《极客时间算法训练营》
-```
+// 解法看自《极客时间算法训练营》
+// ```
 class Solution {
 	private $dx = [-1, 1, 0, 0]; 
 	private $dy = [0, 0, -1, 1];
@@ -58,11 +58,11 @@ class Solution {
     }
 }
 
-```
+// ```
 
-下面解法来自《玩转算法面试-- Leetcode真题分门别类讲解》
+// 下面解法来自《玩转算法面试-- Leetcode真题分门别类讲解》
 
-```
+// ```
 class Solution {
 	private $d = [[0, 1], [1, 0], [0, -1], [-1, 0]];
 	private $m;
@@ -107,4 +107,4 @@ class Solution {
 		return $res;
 	}
 }
-```
+// ```

@@ -1,10 +1,10 @@
-## 思路:
+# ## 思路:
 
-模拟过程即可
+# 模拟过程即可
 
-思路一：字符串
+# 思路一：字符串
 
-```python
+# ```python
 class Solution:
     def validUtf8(self, data: List[int]) -> bool:
         if not data: return False
@@ -23,11 +23,11 @@ class Solution:
                 if not d.startswith("10"): return False
                 cnt -= 1
         return cnt == 0
-```
+# ```
 
-思路二：位运算
+# 思路二：位运算
 
-```python
+# ```python
 class Solution:
     def validUtf8(self, data: List[int]) -> bool:
         if not data: return False
@@ -44,4 +44,4 @@ class Solution:
                 cnt -= 1
         return cnt == 0
         
-```
+# ```

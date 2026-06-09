@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_LEN 1000
 
 typedef struct {
@@ -84,4 +84,4 @@ void myQueueFree(MyQueue* obj)
   free(obj);
 }
 
-```
+// ```

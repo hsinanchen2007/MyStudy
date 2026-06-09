@@ -1,5 +1,5 @@
-终于有道题会做了，难受
-排完序就剩两种必然情况。。
+// 终于有道题会做了，难受
+// 排完序就剩两种必然情况。。
 class Solution {
     public int majorityElement(int[] nums) {
         Arrays.sort(nums);

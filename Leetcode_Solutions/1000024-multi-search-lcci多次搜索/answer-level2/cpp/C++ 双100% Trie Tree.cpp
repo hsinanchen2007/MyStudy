@@ -1,10 +1,10 @@
-# 思路：
-对smalls建trie树，其中每个树节点的sid记录对应的smalls id。
-遍历big的所有后缀，并在trie树中查找后缀。对于查找路径上经过的所有有效sid（sid有效值为大于等于0的数），将后缀的起始id加入到sid对应的ans中。
+// # 思路：
+// 对smalls建trie树，其中每个树节点的sid记录对应的smalls id。
+// 遍历big的所有后缀，并在trie树中查找后缀。对于查找路径上经过的所有有效sid（sid有效值为大于等于0的数），将后缀的起始id加入到sid对应的ans中。
 
-![WX20200308-001925@2x.png](https://pic.leetcode-cn.com/49e0e3d0f3022f4dc974f1f16628a159c6af8abe147a5580930133ec5e6998d9-WX20200308-001925@2x.png)
-# 代码
-```
+// ![WX20200308-001925@2x.png](https://pic.leetcode-cn.com/49e0e3d0f3022f4dc974f1f16628a159c6af8abe147a5580930133ec5e6998d9-WX20200308-001925@2x.png)
+// # 代码
+// ```
 struct TrieNode{
     int sid;
     TrieNode *child[26];
@@ -52,4 +52,4 @@ public:
         return ans;
     }
 };
-```
+// ```

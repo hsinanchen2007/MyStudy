@@ -1,9 +1,9 @@
-稍微修改了一点，加了点自己的理解
+// 稍微修改了一点，加了点自己的理解
 
-时间复杂度 O(3n)
-空间复杂度 O(1) 
+// 时间复杂度 O(3n)
+// 空间复杂度 O(1) 
 
-```JavaScript
+// ```JavaScript
 var firstMissingPositive = function (nums) {
   var n = nums.length;
 
@@ -27,4 +27,4 @@ var firstMissingPositive = function (nums) {
   }
 
 };
-```
+// ```

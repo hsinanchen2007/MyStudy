@@ -1,9 +1,9 @@
-### 解题思路
-记录height, left, right数组，每行根据上一行进行更新。
+// ### 解题思路
+// 记录height, left, right数组，每行根据上一行进行更新。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int maximalRectangle(vector<vector<char>> &matrix) {
@@ -40,4 +40,4 @@ int maximalRectangle(vector<vector<char>> &matrix) {
     return maxarea;
 }
 };
-```
+// ```

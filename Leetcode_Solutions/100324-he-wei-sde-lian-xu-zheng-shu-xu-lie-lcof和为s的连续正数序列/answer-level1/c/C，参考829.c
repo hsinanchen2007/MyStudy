@@ -1,4 +1,4 @@
-```
+// ```
 int** findContinuousSequence(int target, int* returnSize, int** returnColumnSizes){
     int count = 0;
     int MAXN = (int)sqrt(2.0 * target - 0.25); // 确定最大可能的连续值
@@ -22,4 +22,4 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
     *returnColumnSizes = col;
     return res;
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
-两个有序数组，利用归并的方法，使前(nums1.size()+nums2.size())/2+1个数有序，再计算(help[mid-1]+help[mid])/2.0f即可。
-```c++
+// 两个有序数组，利用归并的方法，使前(nums1.size()+nums2.size())/2+1个数有序，再计算(help[mid-1]+help[mid])/2.0f即可。
+// ```c++
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -45,4 +45,4 @@ public:
         return ans;
     }
 };
-```
+// ```

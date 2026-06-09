@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def isUnique(self, astr):
         """
@@ -6,4 +6,4 @@ class Solution(object):
         :rtype: bool
         """
         return sorted(list(astr)) == sorted(list(set(astr)))
-```
+# ```

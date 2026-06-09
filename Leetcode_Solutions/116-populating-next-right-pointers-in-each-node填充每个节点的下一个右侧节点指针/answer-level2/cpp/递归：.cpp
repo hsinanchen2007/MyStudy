@@ -1,4 +1,4 @@
-```
+// ```
 /*
 // Definition for a Node.
 class Node {
@@ -40,5 +40,5 @@ public:
     }
 
 };
-```
-![image.png](https://pic.leetcode-cn.com/b40f0762aa80e894f181ec614f83aa53f731db89b8f4ede0197528dfad113a87-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/b40f0762aa80e894f181ec614f83aa53f731db89b8f4ede0197528dfad113a87-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-开始我尝试自己写的比较函数，发现无法通过，卡在特别长的一个用例上，报错`runtime error: reference binding to null pointer of type 'value_type' (stl_vector.h)`。不知道有没有大佬解答一下什么原因。
+// ### 解题思路
+// 开始我尝试自己写的比较函数，发现无法通过，卡在特别长的一个用例上，报错`runtime error: reference binding to null pointer of type 'value_type' (stl_vector.h)`。不知道有没有大佬解答一下什么原因。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -33,4 +33,4 @@ public:
         }
     }
 };
-```
+// ```

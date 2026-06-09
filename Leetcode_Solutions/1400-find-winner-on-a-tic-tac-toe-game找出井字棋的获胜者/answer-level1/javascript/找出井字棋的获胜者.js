@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var tictactoe = function(moves) {
     let A = [];
     let B = [];
@@ -60,4 +60,4 @@ var tictactoe = function(moves) {
         return 'Pending'
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 #include <vector>
 #include <iostream>
 #include <algorithm>
@@ -28,8 +28,8 @@ int main() {
         cout << i << endl;
 }
 
-```
-操作                    对应代码                                                   时间复杂度
-遍历数组构建哈希表       `for (auto num : nums)count[num]++;`                       O(N)
-构建堆                  `make_heap(container.begin(), container.end(), comp);`     O(N)
-k次pop操作              `pop_heap(container.begin(), container.end() - i, comp);`  O(klg(N))
+// ```
+// 操作                    对应代码                                                   时间复杂度
+// 遍历数组构建哈希表       `for (auto num : nums)count[num]++;`                       O(N)
+// 构建堆                  `make_heap(container.begin(), container.end(), comp);`     O(N)
+// k次pop操作              `pop_heap(container.begin(), container.end() - i, comp);`  O(klg(N))

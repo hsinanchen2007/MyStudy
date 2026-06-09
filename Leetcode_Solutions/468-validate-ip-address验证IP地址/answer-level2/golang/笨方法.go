@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func validIPAddress(IP string) string {
     if strings.Contains(IP,".") && isV4(IP){
         return "IPv4"
@@ -66,4 +66,4 @@ func isV6(ip string)bool{
     }
     return firstPart!= 0
 }
-```
+// ```

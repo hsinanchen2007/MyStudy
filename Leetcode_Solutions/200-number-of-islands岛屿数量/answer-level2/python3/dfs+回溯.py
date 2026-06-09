@@ -1,11 +1,11 @@
-### 解题思路
-与第79题思路基本相同,设置4个方向,不断递归向下
-![image.png](https://pic.leetcode-cn.com/348096edaf175c8a3688062fbfe078f751631b0b3b686cf47535ac64339da7f5-image.png)
+# ### 解题思路
+# 与第79题思路基本相同,设置4个方向,不断递归向下
+# ![image.png](https://pic.leetcode-cn.com/348096edaf175c8a3688062fbfe078f751631b0b3b686cf47535ac64339da7f5-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numIslands(self, grid: [[str]]) -> int:
         m=len(grid)
@@ -33,4 +33,4 @@ class Solution:
                     dfs(i,j)
                     island+=1
         return island
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-最大公约数方法真心想不到，直接DFS剪枝可过。。思路还是比较清晰的
-![image.png](https://pic.leetcode-cn.com/a9f2567211798ce1b4ba7a78f6be96f31d522567f777abb40cb35deaeaaf7cd1-image.png)
+// ### 解题思路
+// 最大公约数方法真心想不到，直接DFS剪枝可过。。思路还是比较清晰的
+// ![image.png](https://pic.leetcode-cn.com/a9f2567211798ce1b4ba7a78f6be96f31d522567f777abb40cb35deaeaaf7cd1-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX 1000000
 
 int g_flag[MAX];
@@ -35,4 +35,4 @@ bool canMeasureWater(int x, int y, int z){
     memset(g_flag, 0, sizeof(g_flag));
     return BFS(x, y, z, 0);
 }
-```
+// ```

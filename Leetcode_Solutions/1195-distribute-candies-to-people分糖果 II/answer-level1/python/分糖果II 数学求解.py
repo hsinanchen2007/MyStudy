@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def distributeCandies(self, candies, num_people):
         n = int((2*candies)**0.5)
@@ -19,4 +19,4 @@ class Solution(object):
             if i == n:break
         numcandies[p] += mod
         return numcandies
-```
+# ```

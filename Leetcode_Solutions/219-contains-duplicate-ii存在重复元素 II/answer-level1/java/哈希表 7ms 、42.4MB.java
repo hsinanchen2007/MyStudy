@@ -1,9 +1,9 @@
-### 解题思路
-利用hash表储存已遍历的元素，在hash中提前移除已不符合要求的元素
+// ### 解题思路
+// 利用hash表储存已遍历的元素，在hash中提前移除已不符合要求的元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         Set<Integer> set = new HashSet(nums.length);
@@ -27,4 +27,4 @@ class Solution {
 		return false;
     }
 }
-```
+// ```

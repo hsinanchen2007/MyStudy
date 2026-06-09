@@ -1,9 +1,9 @@
-### 解题思路
-while循环和for循环嵌套判断，选中元素，判断和前面的元素是否有相同，一旦相同，返回跳出
+// ### 解题思路
+// while循环和for循环嵌套判断，选中元素，判断和前面的元素是否有相同，一旦相同，返回跳出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,4 +44,4 @@ public:
             return bIsOK;    
     }
 };
-```
+// ```

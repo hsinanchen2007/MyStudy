@@ -1,9 +1,9 @@
-### 解题思路
-首尾left和right两个指针，如果left<right，就交换，left++，right++
+// ### 解题思路
+// 首尾left和right两个指针，如果left<right，就交换，left++，right++
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void reverseString(vector<char>& s) {
@@ -18,4 +18,4 @@ public:
         }
     }
 };
-```
+// ```

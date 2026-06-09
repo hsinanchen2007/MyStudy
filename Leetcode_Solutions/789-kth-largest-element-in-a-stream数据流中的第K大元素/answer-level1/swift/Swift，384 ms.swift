@@ -1,4 +1,4 @@
-```swift
+// ```swift
 extension RandomAccessCollection {
     func insertIndex(_ block: (Element) -> Bool) -> Index {
         var slice: SubSequence = self[...]
@@ -31,4 +31,4 @@ class KthLargest {
  * let obj = KthLargest(k, nums)
  * let ret_1: Int = obj.add(val)
  */
-```
+// ```

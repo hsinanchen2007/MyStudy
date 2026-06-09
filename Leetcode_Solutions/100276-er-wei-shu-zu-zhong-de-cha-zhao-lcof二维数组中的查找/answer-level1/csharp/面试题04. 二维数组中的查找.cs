@@ -1,9 +1,9 @@
-### 解题思路
-C# 线性查找 O(m+n)
+// ### 解题思路
+// C# 线性查找 O(m+n)
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool FindNumberIn2DArray(int[][] matrix, int target) {
         int height = matrix.Length;
@@ -35,16 +35,16 @@ public class Solution {
         return false;
     }
 }
-```
+// ```
 
-### 解题思路
-C# 二阶二分查找
-此方法并不万年泉符合题意，因为并没有约束下一列的数字全部小于上一列的全部数字。
-仅仅写在题解里分享下。
+// ### 解题思路
+// C# 二阶二分查找
+// 此方法并不万年泉符合题意，因为并没有约束下一列的数字全部小于上一列的全部数字。
+// 仅仅写在题解里分享下。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool FindNumberIn2DArray(int[][] matrix, int target)
     {
@@ -102,4 +102,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

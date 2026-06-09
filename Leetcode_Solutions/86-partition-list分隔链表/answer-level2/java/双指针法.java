@@ -1,5 +1,5 @@
-如图
-```
+// 如图
+// ```
 class Solution {
     public ListNode partition(ListNode head, int x) {
 
@@ -27,4 +27,4 @@ class Solution {
         return newhead.next;
     }
 }
-```
+// ```

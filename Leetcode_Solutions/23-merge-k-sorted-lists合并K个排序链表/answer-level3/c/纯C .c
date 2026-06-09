@@ -1,8 +1,8 @@
-### 解题思路
-brute force
-### 代码
+// ### 解题思路
+// brute force
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -66,4 +66,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
 
     return dummyNode.next;
 }
-```
+// ```

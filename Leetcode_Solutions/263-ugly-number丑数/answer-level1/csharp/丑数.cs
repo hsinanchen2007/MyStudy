@@ -1,4 +1,4 @@
-```
+// ```
 public bool IsUgly(int num)
         {
             if (num < 1)
@@ -27,4 +27,4 @@ public bool IsUgly(int num)
 
             return true;
         }
-```
+// ```

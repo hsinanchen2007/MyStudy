@@ -1,4 +1,4 @@
-```
+// ```
 #define STACK_SIZE 1000
 
 typedef struct {
@@ -206,4 +206,4 @@ char* decodeString(char* s)
 
     return ret;
 }
-```
+// ```

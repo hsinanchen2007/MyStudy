@@ -1,16 +1,16 @@
-## 思路：
+# ## 思路：
 
-思路一：DFS
+# 思路一：DFS
 
-思路二：BFS
+# 思路二：BFS
 
-看代码很好理解的。
+# 看代码很好理解的。
 
-## 代码：
+# ## 代码：
 
-思路一：
+# 思路一：
 
-```python
+# ```python
 class Solution:
     def rightSideView(self, root: TreeNode) -> List[int]:
         res = []
@@ -26,11 +26,11 @@ class Solution:
         
         dfs(root, 0)
         return res
-```
+# ```
 
-思路二：
+# 思路二：
 
-```python
+# ```python
 class Solution:
     def rightSideView(self, root: TreeNode) -> List[int]:
         if not root: return []
@@ -50,5 +50,5 @@ class Solution:
         
         bfs(root)
         return res
-```
+# ```
 

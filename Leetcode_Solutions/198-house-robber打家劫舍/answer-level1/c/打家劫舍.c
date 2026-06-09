@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX(a,b) ((a) > (b) ? (a) : (b))
 int rob(int* nums, int numsSize){
     if(numsSize == 0) {
@@ -15,4 +15,4 @@ int rob(int* nums, int numsSize){
     
     return dp[numsSize];
 }
-```
+// ```

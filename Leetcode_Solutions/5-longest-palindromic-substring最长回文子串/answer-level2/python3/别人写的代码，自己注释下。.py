@@ -1,14 +1,14 @@
-[@powcai](https://leetcode-cn.com/u/powcai) 三种思路：
+# [@powcai](https://leetcode-cn.com/u/powcai) 三种思路：
 
-（ 一）：中心扩展法，这里要考虑两种情况，回文串的长度为奇数或者偶数情况。
+# （ 一）：中心扩展法，这里要考虑两种情况，回文串的长度为奇数或者偶数情况。
 
-（二）： 把每个字母当成回文串的结束。
+# （二）： 把每个字母当成回文串的结束。
 
-（三）： 动态规划。 dp[i][j] 表示字符串从 j 到 i 是否是为回文串，即当 s[j] == s[i] 如果 dp[i-1][j+1] 也是回文串，那么字符串从 j 到 i 也是回文串，即 dp[i][j] 为真。
+# （三）： 动态规划。 dp[i][j] 表示字符串从 j 到 i 是否是为回文串，即当 s[j] == s[i] 如果 dp[i-1][j+1] 也是回文串，那么字符串从 j 到 i 也是回文串，即 dp[i][j] 为真。
 
 
-第一种
-```
+# 第一种
+# ```
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         n = len(s)
@@ -26,10 +26,10 @@ class Solution:
             July(i,i)
             July(i,i+1)
         return self.strhui
-```
+# ```
 
-第二种
-```
+# 第二种
+# ```
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         max_len = 1
@@ -51,9 +51,9 @@ class Solution:
         
         return s[start:start+max_len]
         
-```
-第三种，动态规划
-```
+# ```
+# 第三种，动态规划
+# ```
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         if not s :
@@ -82,4 +82,4 @@ class Solution:
         
         
         
-```
+# ```

@@ -1,18 +1,18 @@
-### 解题思路
+# ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/c2516cc5fc63c047e6455566ce4fadf44eac33ecc08977d3ffa4518092ad0c52-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c2516cc5fc63c047e6455566ce4fadf44eac33ecc08977d3ffa4518092ad0c52-image.png)
 
 
-- 双队列法
-设置两个队列，最大长度为301
-第一个队列存放时间戳
-第二个存放时间戳的累计和
+# - 双队列法
+# 设置两个队列，最大长度为301
+# 第一个队列存放时间戳
+# 第二个存放时间戳的累计和
 
-每次取的时候，使用二分查找，找出时间戳队列的两个索引，然后使用累积和相减的方式求值
+# 每次取的时候，使用二分查找，找出时间戳队列的两个索引，然后使用累积和相减的方式求值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import deque
 import bisect
 
@@ -56,4 +56,4 @@ class HitCounter:
 # obj = HitCounter()
 # obj.hit(timestamp)
 # param_2 = obj.getHits(timestamp)
-```
+# ```

@@ -1,5 +1,5 @@
-执行时间超过96.64%的用户，分享一下，看哪里可以优化不
-```
+# 执行时间超过96.64%的用户，分享一下，看哪里可以优化不
+# ```
 from collections import defaultdict
 class Solution:
     def pyramidTransition(self, bottom: str, allowed: List[str]) -> bool:
@@ -20,4 +20,4 @@ class Solution:
             if self.work(btm, tree, pos + 1):
                 return True
         return False
-```
+# ```

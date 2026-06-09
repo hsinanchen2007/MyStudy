@@ -1,14 +1,14 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 解题思路
-遍历压入栈，存储于栈中，遍历过程中，如果栈顶是出栈结点，推出值。
+# ### 解题思路
+# 遍历压入栈，存储于栈中，遍历过程中，如果栈顶是出栈结点，推出值。
 
-- 最终栈空则弹出序列有效
-- 栈不空则弹出序列无效
+# - 最终栈空则弹出序列有效
+# - 栈不空则弹出序列无效
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def validateStackSequences(self, pushed, popped):
         """
@@ -28,4 +28,4 @@ class Solution(object):
         else:
             return False
 
-```
+# ```

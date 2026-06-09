@@ -1,6 +1,6 @@
-遍历的同时边添加，同129题，最后将所有总和加到sum即可
+// 遍历的同时边添加，同129题，最后将所有总和加到sum即可
 
-```
+// ```
 class Solution {
         public int sum = 0;
         public int sumRootToLeaf(TreeNode root) {
@@ -20,4 +20,4 @@ class Solution {
             helper(root.right,s);
         }
     }
-```
+// ```

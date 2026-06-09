@@ -1,9 +1,9 @@
-### 解题思路
-二分法
+// ### 解题思路
+// 二分法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -16,4 +16,4 @@ public:
         return lo==hi&&nums[lo]==target?lo:-1;
     }
 };
-```
+// ```

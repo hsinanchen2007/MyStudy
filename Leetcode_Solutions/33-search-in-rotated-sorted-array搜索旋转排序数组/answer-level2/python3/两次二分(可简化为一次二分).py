@@ -1,9 +1,9 @@
-第一次二分：找到最小数的位置
-第二次二分：确定 target 在左侧区间还是右侧，用一个普通的二分法即可找到
+# 第一次二分：找到最小数的位置
+# 第二次二分：确定 target 在左侧区间还是右侧，用一个普通的二分法即可找到
 
-其实，可以简化为一次二分
+# 其实，可以简化为一次二分
 
-```
+# ```
 class Solution:
     def search(self, nums, target):
         if len(nums) == 0 or nums is None:
@@ -51,4 +51,4 @@ class Solution:
                 right = mid - 1
                 
         return -1
-```
+# ```

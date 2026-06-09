@@ -1,10 +1,10 @@
-### 解题思路
-- dp[i] = 相连字母 ? dp[i-1] + 1 : 1
-- map_abc[字母x] = max(dp[i], max_abc[字母x])
+// ### 解题思路
+// - dp[i] = 相连字母 ? dp[i-1] + 1 : 1
+// - map_abc[字母x] = max(dp[i], max_abc[字母x])
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findSubstringInWraproundString(p string) int {
     return method_dp(p)
 }
@@ -45,4 +45,4 @@ func getMax(a, b int) int {
 	}
 	return b
 }
-```
+// ```

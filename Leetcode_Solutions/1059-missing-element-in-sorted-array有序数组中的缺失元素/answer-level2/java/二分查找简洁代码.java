@@ -1,9 +1,9 @@
-### 解题思路
-&emsp;看到包括官方和社区二分查找写法思维比较繁杂，各种条件判断，实际形式比较简介，但是包含的思路和技巧比较多，具体见注释。
+// ### 解题思路
+// &emsp;看到包括官方和社区二分查找写法思维比较繁杂，各种条件判断，实际形式比较简介，但是包含的思路和技巧比较多，具体见注释。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingElement(int[] nums, int k) {
         if(k <= 0 || nums == null || nums.length == 0) throw new IllegalArgumentException("invalid param");
@@ -31,4 +31,4 @@ class Solution {
         return min + left + k - 1;
     }
 }
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-排序后好解。
+# ### 解题思路
+# 排序后好解。
 
-这里主要是要注意有相同值，也无法构成顺子。
-没有注意此，第一次提交就报错了.
+# 这里主要是要注意有相同值，也无法构成顺子。
+# 没有注意此，第一次提交就报错了.
 
-注意到，不排序也有解法。
+# 注意到，不排序也有解法。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isStraight(self, nums: List[int]) -> bool:
         nums.sort()
@@ -32,4 +32,4 @@ class Solution:
                 else:
                     gap += nums[j] - nums[j-1]-1
             return gap<=zero_n
-```
+# ```

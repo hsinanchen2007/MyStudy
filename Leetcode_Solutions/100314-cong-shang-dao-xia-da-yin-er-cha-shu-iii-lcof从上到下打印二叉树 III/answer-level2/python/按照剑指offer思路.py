@@ -1,8 +1,8 @@
-# 按照剑指offer，利用双栈实现
-具体思路可以参照书上的来
+# # 按照剑指offer，利用双栈实现
+# 具体思路可以参照书上的来
 
-# 弱鸡第一次发帖，主要请各位大哥帮我分析一下复杂度，弱鸡太菜了
-```
+# # 弱鸡第一次发帖，主要请各位大哥帮我分析一下复杂度，弱鸡太菜了
+# ```
 def levelOrder(self, root: TreeNode) -> List[List[int]]:
     # 1. 特例：根节点为空
     if root is None:
@@ -40,7 +40,7 @@ def levelOrder(self, root: TreeNode) -> List[List[int]]:
         print(res)
 
     return res
-```
-# 复杂度分析：
-时间复杂度：是o(nlogn)吗？
-空间复杂度：o(n)
+# ```
+# # 复杂度分析：
+# 时间复杂度：是o(nlogn)吗？
+# 空间复杂度：o(n)

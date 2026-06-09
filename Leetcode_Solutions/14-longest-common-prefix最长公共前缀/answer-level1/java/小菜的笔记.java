@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-注意寻找最长公共前缀是先将第一个字符串初始化为最长前缀，再依次与后边字符串比较。
+// ### 解题思路
+// 此处撰写解题思路
+// 注意寻找最长公共前缀是先将第一个字符串初始化为最长前缀，再依次与后边字符串比较。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if(strs.length==0)return "";
@@ -30,4 +30,4 @@ class Solution {
     }
    
 }
-```
+// ```

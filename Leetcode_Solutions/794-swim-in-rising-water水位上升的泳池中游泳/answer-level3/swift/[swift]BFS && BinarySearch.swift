@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-1. 二分法枚举可能的时间
-2. BFS判断是否可以到达最后的位置
+// 1. 二分法枚举可能的时间
+// 2. BFS判断是否可以到达最后的位置
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
  class Solution {
     private let dx = [0,0,1,-1]
     private let dy = [1,-1,0,0]
@@ -68,4 +68,4 @@
         return canReach(0,left) ? left : canReachMinHeight
     }
  }
-```
+// ```

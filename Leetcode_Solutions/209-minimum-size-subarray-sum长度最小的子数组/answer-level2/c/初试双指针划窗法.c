@@ -1,9 +1,9 @@
-### 解题思路
-利用双指针或者叫划窗法的方法，编译数组的同时，记录左右窗的位置以及当所有窗中元素的最小个数，所有窗中元素的最小个数即是所要答案
+// ### 解题思路
+// 利用双指针或者叫划窗法的方法，编译数组的同时，记录左右窗的位置以及当所有窗中元素的最小个数，所有窗中元素的最小个数即是所要答案
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minSubArrayLen(int s, int* nums, int numsSize){
     int leftWin = 0;
     int rightWin = 0;
@@ -29,4 +29,4 @@ int minSubArrayLen(int s, int* nums, int numsSize){
     }
     return len != 0xFFFF ? len : 0;
 }
-```
+// ```

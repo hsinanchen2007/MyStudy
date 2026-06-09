@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-算这个数值的集合，主要是确定上限max，很好理解，它就是 10^n - 1 ,有了这个上限，直接输出1...N 即可
+// 算这个数值的集合，主要是确定上限max，很好理解，它就是 10^n - 1 ,有了这个上限，直接输出1...N 即可
 
-### 代码
+// ### 代码
 
-#### 一行代码实现
+// #### 一行代码实现
 
-```swift
+// ```swift
 import Foundation
 
 class Solution {
@@ -14,11 +14,11 @@ class Solution {
         return Array.init(1..<Int(pow(10.0, Double(n))))
     }
 }
-```
+// ```
 
-#### 常规实现
+// #### 常规实现
 
-```swift
+// ```swift
 import Foundation
 
 class Solution {
@@ -32,4 +32,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

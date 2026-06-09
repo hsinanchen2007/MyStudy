@@ -1,4 +1,4 @@
-```go
+// ```go
 func moveZeroes(nums []int)  {
 	var flag bool = false
 	for i := 0; i < len(nums); i++ {
@@ -26,4 +26,4 @@ func moveZeroes(nums []int)  {
 		}
 	}
 }
-```
+// ```

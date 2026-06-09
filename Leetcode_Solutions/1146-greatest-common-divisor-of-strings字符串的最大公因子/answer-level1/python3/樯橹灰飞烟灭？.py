@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         import re
@@ -18,4 +18,4 @@ class Solution:
                 return str1[:l]
             
         return ""
-```
+# ```

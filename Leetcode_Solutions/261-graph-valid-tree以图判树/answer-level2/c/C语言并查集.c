@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/113d85ca959213ebe5176f4b8c7dbba50c5097d034c9acfcfac2a0d715931bdc-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/113d85ca959213ebe5176f4b8c7dbba50c5097d034c9acfcfac2a0d715931bdc-image.png)
+// ```
 int UnionFindSetsFind(int *pre, int x)
 {
     int r = x;
@@ -47,4 +47,4 @@ bool validTree(int n, int** edges, int edgesSize, int* edgesColSize){
     free(pre);
     return rst == 1;
 }
-```
+// ```

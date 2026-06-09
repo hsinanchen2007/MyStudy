@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-进行一次排序，可以减少回溯中for循环的次数
-### 代码
+// 进行一次排序，可以减少回溯中for循环的次数
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} candidates
  * @param {number} target
@@ -24,4 +24,4 @@ var combinationSum = function(candidates, target) {
     })(target, stack, 0);
     return rs;
 };
-```
+// ```

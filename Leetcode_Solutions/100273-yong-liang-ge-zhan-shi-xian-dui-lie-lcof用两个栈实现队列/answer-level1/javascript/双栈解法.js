@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var CQueue = function() {
     s = [], s2 = [] // 双栈 其中s2为辅助栈
 };
@@ -42,4 +42,4 @@ CQueue.prototype.deleteHead = function() {
  * obj.appendTail(value)
  * var param_2 = obj.deleteHead()
  */
-```
+// ```

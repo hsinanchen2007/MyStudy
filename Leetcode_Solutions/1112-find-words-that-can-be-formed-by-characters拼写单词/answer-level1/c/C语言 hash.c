@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     if (words == NULL || wordsSize == 0 || chars == NULL) {
         return 0;
@@ -42,4 +42,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
 
     return result;
 }
-```
+// ```

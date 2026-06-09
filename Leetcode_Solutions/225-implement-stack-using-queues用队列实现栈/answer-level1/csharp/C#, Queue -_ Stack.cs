@@ -1,20 +1,20 @@
-### 解题思路
-Push & Empty & Top,时间复杂度O(1)
-Pop,时间复杂度O(n)
+// ### 解题思路
+// Push & Empty & Top,时间复杂度O(1)
+// Pop,时间复杂度O(n)
 
-push(0)
-push(1)
-push(2)
-=> queue 入队列方向-> 2,1,0 ->出队列方向
+// push(0)
+// push(1)
+// push(2)
+// => queue 入队列方向-> 2,1,0 ->出队列方向
 
-pop()时，期望输出2。
-循环q.Count-1次，将queue元素出队&重新入队，获得入队列方向-> 1,0,2 ->出队列方向。
-此时出队，即获得目标元素。
+// pop()时，期望输出2。
+// 循环q.Count-1次，将queue元素出队&重新入队，获得入队列方向-> 1,0,2 ->出队列方向。
+// 此时出队，即获得目标元素。
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class MyStack {
     private Queue<int> q;
     private int top;
@@ -60,4 +60,4 @@ public class MyStack {
  * int param_3 = obj.Top();
  * bool param_4 = obj.Empty();
  */
-```
+// ```

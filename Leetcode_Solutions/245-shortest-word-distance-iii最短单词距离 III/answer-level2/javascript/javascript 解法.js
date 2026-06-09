@@ -1,9 +1,9 @@
-### 解法一
-word1和word2相同的情况单独处理，不同时，为何word1和word2的索引指针
+// ### 解法一
+// word1和word2相同的情况单独处理，不同时，为何word1和word2的索引指针
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} word1
@@ -42,13 +42,13 @@ var shortestWordDistance = function(words, word1, word2) {
     }
     return distance
 };
-```
+// ```
 
-### 解法二
-将word1和word2相同与否一起考虑，不分类，具体看代码
+// ### 解法二
+// 将word1和word2相同与否一起考虑，不分类，具体看代码
 
-### 代码
-```javascript
+// ### 代码
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} word1
@@ -78,4 +78,4 @@ var shortestWordDistance = function(words, word1, word2) {
     }
     return distance
 };
-```
+// ```

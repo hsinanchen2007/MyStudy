@@ -1,9 +1,9 @@
-### 解题
-二分搜索两次，第一次找到最左边的，第二次找到最右边的
+// ### 解题
+// 二分搜索两次，第一次找到最左边的，第二次找到最右边的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         int[] res = {-1,-1};
@@ -50,4 +50,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

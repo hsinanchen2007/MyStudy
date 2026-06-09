@@ -1,12 +1,12 @@
-### 解题思路
-- 用top，bottom，left，right分别指向上下左右，然后向内循环收缩
-- top所在行遍历完后，top+1
-- rihgt所在列遍历完后，right-1
-- bottom所在行遍历完后，bottom-1
-- left所在列遍历完后，left+1
+// ### 解题思路
+// - 用top，bottom，left，right分别指向上下左右，然后向内循环收缩
+// - top所在行遍历完后，top+1
+// - rihgt所在列遍历完后，right-1
+// - bottom所在行遍历完后，bottom-1
+// - left所在列遍历完后，left+1
 
-### 代码
-```golang
+// ### 代码
+// ```golang
 func spiralOrder(matrix [][]int) []int {
 	if len(matrix) == 0 {
 		return nil
@@ -51,6 +51,6 @@ func spiralOrder(matrix [][]int) []int {
 	return res
 }
 
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f5f949b439b98304d649f58a17053c4a256286f24f969c2a35d5814beefd606e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f5f949b439b98304d649f58a17053c4a256286f24f969c2a35d5814beefd606e-image.png)

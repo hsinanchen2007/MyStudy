@@ -1,4 +1,4 @@
-```
+// ```
 int dp(int k, char * s, int left, int right) {
     if (right <= left) return 0;
     if (right - left + 1 < k) return 0; 
@@ -31,4 +31,4 @@ int longestSubstring(char * s, int k){
     int rst = dp(k, s, 0, len -1); 
     return rst;
 }
-```
+// ```

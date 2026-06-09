@@ -1,9 +1,9 @@
-### 解题思路
-采用Hash保存所有的值，注意每次获取最大值时，从Hash表中获取。
+// ### 解题思路
+// 采用Hash保存所有的值，注意每次获取最大值时，从Hash表中获取。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 
@@ -131,4 +131,4 @@ int maxQueuePop_front(MaxQueue* queue)
  
  * maxQueueFree(obj);
 */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-虽然不是用二分法写的，但还是把它做出来了，让我这个菜鸟开心一下，hhhh
+// ### 解题思路
+// 虽然不是用二分法写的，但还是把它做出来了，让我这个菜鸟开心一下，hhhh
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         Map<Integer,Integer> map=new HashMap<Integer,Integer>();
@@ -20,4 +20,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

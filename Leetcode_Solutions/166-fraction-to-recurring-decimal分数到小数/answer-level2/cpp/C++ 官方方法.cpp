@@ -1,9 +1,9 @@
-### 解题思路
-参考官方方法 评论中也有
+// ### 解题思路
+// 参考官方方法 评论中也有
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //小数部分如果余数重复出现两次就表示该小数是循环小数了
@@ -44,5 +44,5 @@ public:
         return result;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/57585a1aa790fac9a95a54d4b7d6de663484b6ececef885b32c9ec21cc4a30f1-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/57585a1aa790fac9a95a54d4b7d6de663484b6ececef885b32c9ec21cc4a30f1-image.png)

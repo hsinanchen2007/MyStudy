@@ -1,4 +1,4 @@
-```python
+# ```python
 from collections import defaultdict
 
 class Solution:
@@ -24,4 +24,4 @@ class Solution:
             d[arr[i]] = []
 
         return 0
-```
+# ```

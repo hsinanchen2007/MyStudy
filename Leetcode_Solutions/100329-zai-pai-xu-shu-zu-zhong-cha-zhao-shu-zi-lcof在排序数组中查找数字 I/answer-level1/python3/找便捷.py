@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         def findleft(start, end, target):
@@ -21,4 +21,4 @@ class Solution:
             else:
                 return findright(mid+1, end, target)
         return findright(0, len(nums)-1, target) - findleft(0, len(nums)-1, target) 
-```
+# ```

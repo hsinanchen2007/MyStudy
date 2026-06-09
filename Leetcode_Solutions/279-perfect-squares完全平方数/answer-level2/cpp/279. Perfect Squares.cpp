@@ -1,15 +1,15 @@
-### 解题思路
-1. DP 有点类似于背包问题中的完全背包问题
-2. 需要明确的是n值越大，最优解趋向于利用j中更大的平方数来划分出子问题
-![image.png](https://pic.leetcode-cn.com/4ec9f63a36d5605f6cfffc57b9894acf85abed0a4c23fcca4dd2d9d0545fecef-image.png)
+// ### 解题思路
+// 1. DP 有点类似于背包问题中的完全背包问题
+// 2. 需要明确的是n值越大，最优解趋向于利用j中更大的平方数来划分出子问题
+// ![image.png](https://pic.leetcode-cn.com/4ec9f63a36d5605f6cfffc57b9894acf85abed0a4c23fcca4dd2d9d0545fecef-image.png)
 
 
-3. 应该需要优化一下时间效率
-![image.png](https://pic.leetcode-cn.com/8ca82c5c50de15100d8f3d1d9862301095cb9320385463a44598d8fa71c3ce78-image.png)
+// 3. 应该需要优化一下时间效率
+// ![image.png](https://pic.leetcode-cn.com/8ca82c5c50de15100d8f3d1d9862301095cb9320385463a44598d8fa71c3ce78-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //完全背包问题？
@@ -30,13 +30,13 @@ public:
     return dp[n];
     }
 };
-```
+// ```
 
-### 解题思路
-BFS
+// ### 解题思路
+// BFS
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
-```
+// ```

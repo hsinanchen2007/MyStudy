@@ -1,13 +1,13 @@
-### 解题思路
-解题思路通130题
+// ### 解题思路
+// 解题思路通130题
 
-### 性能
-执行用时 :60 ms, 在所有 PHP 提交中击败了31.82%的用户
-内存消耗 :22.7 MB, 在所有 PHP 提交中击败了39.66%的用户
+// ### 性能
+// 执行用时 :60 ms, 在所有 PHP 提交中击败了31.82%的用户
+// 内存消耗 :22.7 MB, 在所有 PHP 提交中击败了39.66%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -45,11 +45,11 @@ class Solution {
         $this->dfs($board, $i, $j + 1, $row, $col);
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度 O(N ^ 2) [不准确]
-- 空间复杂度 O(N)
+// ### 算法复杂度
+// - 时间复杂度 O(N ^ 2) [不准确]
+// - 空间复杂度 O(N)
 
-### 参考
-[https://leetcode-cn.com/problems/number-of-islands/comments/42148](https://leetcode-cn.com/problems/number-of-islands/comments/42148)
+// ### 参考
+// [https://leetcode-cn.com/problems/number-of-islands/comments/42148](https://leetcode-cn.com/problems/number-of-islands/comments/42148)

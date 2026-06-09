@@ -1,8 +1,8 @@
-### 解题思路
-最传统的递归，有0的时候特殊处理一下
-### 代码
+// ### 解题思路
+// 最传统的递归，有0的时候特殊处理一下
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numDecodings(String s) {
         if (!s.contains("0")) {
@@ -36,4 +36,4 @@ class Solution {
         }
     }
 }
-```
+// ```

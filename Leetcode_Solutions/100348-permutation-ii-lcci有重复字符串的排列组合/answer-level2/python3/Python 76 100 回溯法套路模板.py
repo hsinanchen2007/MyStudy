@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/0d4dc14086b23421590ca2aeaf8d8c58a3abdd44d2127b68ccf4fb5df3c5116f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/0d4dc14086b23421590ca2aeaf8d8c58a3abdd44d2127b68ccf4fb5df3c5116f-image.png)
 
 
-本题的解法如下
-```
+# 本题的解法如下
+# ```
 class Solution:
     def permutation(self, S: str) -> List[str]:
         res = []    # 定义全局变量保存最终结果
@@ -19,4 +19,4 @@ class Solution:
                 back(state+S[i],S[:i]+S[i+1:])
         back(state,S)
         return res
-```
+# ```

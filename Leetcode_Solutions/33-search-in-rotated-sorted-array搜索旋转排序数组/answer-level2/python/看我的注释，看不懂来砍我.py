@@ -1,8 +1,8 @@
-### 解题思路
-直接看注释吧，思路很清晰。
-### 代码
+# ### 解题思路
+# 直接看注释吧，思路很清晰。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         mid, left, right = 0, 0, len(nums)-1
@@ -34,4 +34,4 @@ class Solution:
         # 未找到该点
         return -1
 
-```
+# ```

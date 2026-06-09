@@ -1,11 +1,11 @@
-### 解题思路
-算法是从下向上，
-但是内存管理实在是复杂，C语言的强项也是弱项...
-![image.png](https://pic.leetcode-cn.com/7f26186650ab75c3a86322be3e5f47b1fccb7aeb2368910a1e34cf065a596eb4-image.png)
+// ### 解题思路
+// 算法是从下向上，
+// 但是内存管理实在是复杂，C语言的强项也是弱项...
+// ![image.png](https://pic.leetcode-cn.com/7f26186650ab75c3a86322be3e5f47b1fccb7aeb2368910a1e34cf065a596eb4-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -180,4 +180,4 @@ struct TreeNode** allPossibleFBT(int N, int* returnSize){
 	*returnSize = rltArr[N].rltCnt;
 	return rltArr[N].rlt;
 }
-```
+// ```

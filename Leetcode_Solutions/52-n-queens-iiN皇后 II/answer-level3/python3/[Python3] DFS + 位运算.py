@@ -1,5 +1,5 @@
-# 题解
-```python
+# # 题解
+# ```python
 class Solution:
     def totalNQueens(self, n: int) -> int:
         def DFS(n: int, row: int, cols: int, left: int, right: int):
@@ -30,4 +30,4 @@ class Solution:
         self.res = 0
         DFS(n, 0, 0, 0, 0)
         return self.res
-```
+# ```

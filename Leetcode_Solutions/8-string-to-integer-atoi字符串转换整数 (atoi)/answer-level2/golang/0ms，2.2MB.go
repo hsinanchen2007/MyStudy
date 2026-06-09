@@ -1,6 +1,6 @@
-![1.png](https://pic.leetcode-cn.com/a78ce2b0a36805774063c0846a365a197cc5db0fd09c799810a4b2ff5251a9f1-1.png)
-特地绑定手机号来吐槽一下，在safari提交是4ms，换到chrome变成了0ms
-```
+// ![1.png](https://pic.leetcode-cn.com/a78ce2b0a36805774063c0846a365a197cc5db0fd09c799810a4b2ff5251a9f1-1.png)
+// 特地绑定手机号来吐槽一下，在safari提交是4ms，换到chrome变成了0ms
+// ```
 func trans(str string, z bool) int {
 	a := make([]uint8, 0, len(str))
 	for i := 0; i < len(str); i++ {
@@ -64,4 +64,4 @@ func myAtoi(str string) int {
 
 	return 0
 }
-```
+// ```

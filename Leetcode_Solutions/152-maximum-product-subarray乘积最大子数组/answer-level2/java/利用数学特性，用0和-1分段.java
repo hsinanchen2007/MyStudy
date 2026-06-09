@@ -1,17 +1,17 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-4 ms
-, 在所有 Java 提交中击败了
-72.21%
-的用户
-内存消耗 :
-36.6 MB
-, 在所有 Java 提交中击败了
-44.15%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 4 ms
+// , 在所有 Java 提交中击败了
+// 72.21%
+// 的用户
+// 内存消耗 :
+// 36.6 MB
+// , 在所有 Java 提交中击败了
+// 44.15%
+// 的用户
+// ```
 class Solution {
     public int maxProduct(int[] nums) {
         int len = nums.length;
@@ -59,4 +59,4 @@ class Solution {
         return Integer.MIN_VALUE;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int addTwoNumbersCore(struct ListNode*, struct ListNode*, int, int);
 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
@@ -81,5 +81,5 @@ int addTwoNumbersCore(struct ListNode* sum, struct ListNode* add, int sumPos, in
 	return tempSum/10;		
 			
 }
-```
-感觉变量名太乱了。
+// ```
+// 感觉变量名太乱了。

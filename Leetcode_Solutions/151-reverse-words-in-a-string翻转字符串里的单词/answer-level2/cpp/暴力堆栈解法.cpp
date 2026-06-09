@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-建一个string栈，存储每次读到的单词，再出栈生成新的string即可
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 建一个string栈，存储每次读到的单词，再出栈生成新的string即可
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -43,4 +43,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-可以建立一个小顶堆，将这些列表放入，每次从其中取值即可。
+# 可以建立一个小顶堆，将这些列表放入，每次从其中取值即可。
 
-整道题目的代码如下：
+# 整道题目的代码如下：
 
-```python
+# ```python
 class Solution(object):
     def mergeKLists(self, lists):
         """
@@ -28,5 +28,5 @@ class Solution(object):
                 q.put((node.val, node))
 
         return head.next
-```
+# ```
 

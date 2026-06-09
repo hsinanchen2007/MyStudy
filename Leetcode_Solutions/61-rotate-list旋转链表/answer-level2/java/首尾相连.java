@@ -1,6 +1,6 @@
-详细看代码
+// 详细看代码
 
-```
+// ```
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null) {return null;}
@@ -33,4 +33,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

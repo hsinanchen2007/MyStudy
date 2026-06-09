@@ -1,5 +1,5 @@
-> 二叉搜索树的一个重要性质，中序遍历有序，所以我们只需要中序遍历这个树，一边遍历一边计数，找到k就直接返回。
-```
+// > 二叉搜索树的一个重要性质，中序遍历有序，所以我们只需要中序遍历这个树，一边遍历一边计数，找到k就直接返回。
+// ```
 import java.util.*;
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
@@ -27,4 +27,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

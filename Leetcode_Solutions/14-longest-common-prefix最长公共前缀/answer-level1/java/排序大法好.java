@@ -1,10 +1,10 @@
-# 详细内容可以参考链接：[Leetcode 14. 最长公共前缀](https://www.yuque.com/tiantianshuo/coding/longest-common-prefix)
+// # 详细内容可以参考链接：[Leetcode 14. 最长公共前缀](https://www.yuque.com/tiantianshuo/coding/longest-common-prefix)
 
-## 思路1：两两取公共前缀
-每次取2个字符串，获得公共前缀。然后把公共前缀再次当做新的字符串放入数组，进行比较。直到数组中只剩下一个字符串时，该字符串就是最长公共前缀。
+// ## 思路1：两两取公共前缀
+// 每次取2个字符串，获得公共前缀。然后把公共前缀再次当做新的字符串放入数组，进行比较。直到数组中只剩下一个字符串时，该字符串就是最长公共前缀。
 
-### 代码
-```java
+// ### 代码
+// ```java
 public String longestCommonPrefix(String[] strs) {
     if (strs.length == 0) {
         return "";
@@ -39,15 +39,15 @@ private String longestCommonPrefix(LinkedList<String> linkedList) {
     }
     return linkedList.get(0);
 }
-```
+// ```
 
-该方法的时间复杂度是(O2), 虽然比暴利破解O(n3)的解法好，但是依旧不够完美。
+// 该方法的时间复杂度是(O2), 虽然比暴利破解O(n3)的解法好，但是依旧不够完美。
 
-## 思路2：排序
-将字符串排序，然后取第一个字符串和最后一个字符串的公共前缀即可。（排序算法直接使用库函数，获得最优的排序时间复杂度）
+// ## 思路2：排序
+// 将字符串排序，然后取第一个字符串和最后一个字符串的公共前缀即可。（排序算法直接使用库函数，获得最优的排序时间复杂度）
 
-### 代码
-```java
+// ### 代码
+// ```java
 public String longestCommonPrefix(String[] strs) {
     if (strs.length == 0) {
         return "";
@@ -69,4 +69,4 @@ public String longestCommonPrefix(String[] strs) {
     }
     return commonPrefix.toString();
 }
-```
+// ```

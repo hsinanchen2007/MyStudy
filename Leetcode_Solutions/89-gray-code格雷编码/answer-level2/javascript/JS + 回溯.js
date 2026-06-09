@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} n
  * @return {number[]}
@@ -40,4 +40,4 @@ var grayCode = function(n) {
   one(n,list,0);
   return temp;  
 };
-```
+// ```

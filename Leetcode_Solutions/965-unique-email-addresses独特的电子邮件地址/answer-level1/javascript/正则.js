@@ -1,9 +1,9 @@
-### 解题思路
-只管用正则替换@前面部分,利用Set的特性,往里面add,最后返回size
+// ### 解题思路
+// 只管用正则替换@前面部分,利用Set的特性,往里面add,最后返回size
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} emails
  * @return {number}
@@ -17,4 +17,4 @@ var numUniqueEmails = function(emails) {
     })
     return hashSet.size
 };
-```
+// ```

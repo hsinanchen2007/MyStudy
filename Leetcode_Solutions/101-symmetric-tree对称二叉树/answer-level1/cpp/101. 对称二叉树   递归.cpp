@@ -1,8 +1,8 @@
-return r1->val==r2->val&&issy(r1->left,r2->right)&&issy(r1->right,r2->left);
+// return r1->val==r2->val&&issy(r1->left,r2->right)&&issy(r1->right,r2->left);
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -25,4 +25,4 @@ public:
         return issy(root->left,root->right);
     }
 };
-```
+// ```

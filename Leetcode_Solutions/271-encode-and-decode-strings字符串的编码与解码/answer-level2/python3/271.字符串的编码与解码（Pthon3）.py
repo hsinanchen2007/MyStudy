@@ -1,7 +1,7 @@
-#### 思路
-思路就是将字符串数组格式化`['chen','du','xiu'] -> '4,chen,2,du,3,xiu'`，数字是每个字符串的长度~注释里尽量解释了~你细品
-#### 代码
-```
+# #### 思路
+# 思路就是将字符串数组格式化`['chen','du','xiu'] -> '4,chen,2,du,3,xiu'`，数字是每个字符串的长度~注释里尽量解释了~你细品
+# #### 代码
+# ```
 class Codec:
     def encode(self, strs: [str]) -> str:
         """Encodes a list of strings to a single string.
@@ -35,4 +35,4 @@ class Codec:
             self.decode_res.append(s[start:end]) # 将单词添加到结果
             i = end + 1
         return self.decode_res
-```
+# ```

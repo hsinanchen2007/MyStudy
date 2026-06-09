@@ -1,8 +1,8 @@
-### 解题思路
-遍历数组找到车的位置
-从车的位置出发,向4个方向寻找
-### 代码
-```
+# ### 解题思路
+# 遍历数组找到车的位置
+# 从车的位置出发,向4个方向寻找
+# ### 代码
+# ```
 class Solution:
     def numRookCaptures(self, board: [[str]]) -> int:
         ret=0 #返回倅的数目
@@ -29,4 +29,4 @@ class Solution:
         return ret
 
 
-```
+# ```

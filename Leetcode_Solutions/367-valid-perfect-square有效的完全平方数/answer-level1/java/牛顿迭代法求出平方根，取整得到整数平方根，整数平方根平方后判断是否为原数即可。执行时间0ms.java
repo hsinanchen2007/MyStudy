@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isPerfectSquare(int num) {
         long x = num;
@@ -9,4 +9,4 @@ class Solution {
         return (sqnum * sqnum == num);
     }
 }
-```
+// ```

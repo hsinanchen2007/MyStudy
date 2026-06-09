@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-主要是提取数组内元素，用For语句的嵌套进行一一计算
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 主要是提取数组内元素，用For语句的嵌套进行一一计算
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
@@ -17,4 +17,4 @@ class Solution {
 
     }
 }
-```
+// ```

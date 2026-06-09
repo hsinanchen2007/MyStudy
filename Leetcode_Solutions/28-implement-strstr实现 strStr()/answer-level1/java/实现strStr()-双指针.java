@@ -1,11 +1,11 @@
-### 解题思路
-简单的双指针法。注意指示haystack指针需要回退。
-时间复杂度：
-空间复杂度：O（1）
+// ### 解题思路
+// 简单的双指针法。注意指示haystack指针需要回退。
+// 时间复杂度：
+// 空间复杂度：O（1）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
         if(needle.length()==0)
@@ -26,4 +26,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

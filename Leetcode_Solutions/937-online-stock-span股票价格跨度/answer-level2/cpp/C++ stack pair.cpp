@@ -1,7 +1,7 @@
-典型单调栈题型，prices 序列是未知的，暴力一点可以保存以往的每个 price 以及维护 index 变量。使用 pair<int, int> 可以节省不必要的空间浪费。很自然地想到 pair<index, price>，官方题解使用了 pair<weight, price>，学习一下。
+// 典型单调栈题型，prices 序列是未知的，暴力一点可以保存以往的每个 price 以及维护 index 变量。使用 pair<int, int> 可以节省不必要的空间浪费。很自然地想到 pair<index, price>，官方题解使用了 pair<weight, price>，学习一下。
 
-***Talk is cheap. Show me the code.***
-```
+// ***Talk is cheap. Show me the code.***
+// ```
 class StockSpanner {
 private:
     stack<pair<int, int>> stk; // <weight, price>
@@ -20,4 +20,4 @@ public:
         return weight;
     }
 };
-```
+// ```

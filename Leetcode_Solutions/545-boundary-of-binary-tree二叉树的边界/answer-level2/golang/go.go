@@ -1,4 +1,4 @@
-```
+// ```
 func boundaryOfBinaryTree(root *TreeNode) []int {
 	if nil == root {
 		return []int{}
@@ -28,4 +28,4 @@ func boundaryOfBinaryTree(root *TreeNode) []int {
 	cal(root.Right, false, true)
 	return out
 }
-```
+// ```

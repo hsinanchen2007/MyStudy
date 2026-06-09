@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1、需考虑numSize为1和0的情况；
-2、只有当数不一样的时候，才需要进行长度加1，并且进行数组赋值；
+// ### 解题思路
+// 此处撰写解题思路
+// 1、需考虑numSize为1和0的情况；
+// 2、只有当数不一样的时候，才需要进行长度加1，并且进行数组赋值；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int* nums, int numsSize){
     int real_num = 0;
     int i = 0;
@@ -26,4 +26,4 @@ int removeDuplicates(int* nums, int numsSize){
 
     return real_num;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-最老实人的想法。。。
+// ### 解题思路
+// 此处撰写解题思路
+// 最老实人的想法。。。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number}
@@ -28,4 +28,4 @@ var numberOfSteps = function (num) {
     numsolve(num);
     return a;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-用Map(一个二维数组也行)存储商品和价格的映射，一个计数器来判断是否达到打折的人数，累加，乘以折扣即可。
+// ### 解题思路
+// 用Map(一个二维数组也行)存储商品和价格的映射，一个计数器来判断是否达到打折的人数，累加，乘以折扣即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Cashier {
 
     private Map<Integer,Integer> productsPrices = new HashMap<>();
@@ -39,4 +39,4 @@ class Cashier {
  * Cashier obj = new Cashier(n, discount, products, prices);
  * double param_1 = obj.getBill(product,amount);
  */
-```
+// ```

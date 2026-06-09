@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-暴力解法，将 2-9 数字用一个二维数组全部包括起来，然后递归逐步解题。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 暴力解法，将 2-9 数字用一个二维数组全部包括起来，然后递归逐步解题。
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -64,4 +64,4 @@ char ** letterCombinations(char * digits, int* returnSize){
     //printf("check final res basic:%d,%d, %d\n", resLen, charSize, (*returnSize));
     return res;
 }
-```
+// ```

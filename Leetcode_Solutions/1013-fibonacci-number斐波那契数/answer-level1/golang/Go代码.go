@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func fib(N int) int {
     if N == 0 {
         return 0
@@ -10,4 +10,4 @@ func fib(N int) int {
     }
     return fib(N-1) + fib(N-2)
 }
-```
+// ```

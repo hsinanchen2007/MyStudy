@@ -1,11 +1,11 @@
-### 解题思路
-方法一：暴力法
-    1，判断第i个节点是否只认识自己（不是则返回-1）
-    2，再判断其他人是否都认识第i个节点（不是则返回-1）
+// ### 解题思路
+// 方法一：暴力法
+//     1，判断第i个节点是否只认识自己（不是则返回-1）
+//     2，再判断其他人是否都认识第i个节点（不是则返回-1）
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * The knows API is already defined for you.
  *     knows := func(a int, b int) bool
@@ -47,4 +47,4 @@ func check(n,y int,knows func(a int, b int) bool) bool{
     return true
 }
 
-```
+// ```

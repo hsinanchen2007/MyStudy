@@ -1,5 +1,5 @@
-### 解题思路
-```
+// ### 解题思路
+// ```
 执行用时 :
 0 ms
 , 在所有 golang 提交中击败了
@@ -10,11 +10,11 @@
 , 在所有 golang 提交中击败了
 13.04%
 的用户
-```
+// ```
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func fib(N int) int {
     memo := make([]int, N + 1)
     return recur(N, memo)
@@ -30,4 +30,4 @@ func recur(n int, memo []int) int {
     }
     return memo[n]
 }
-```
+// ```

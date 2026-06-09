@@ -1,9 +1,9 @@
-### 解题思路
-根据搜索二叉树的性质即可得出结论
+// ### 解题思路
+// 根据搜索二叉树的性质即可得出结论
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for TreeNode.
  * type TreeNode struct {
@@ -51,4 +51,4 @@ func Run(root *TreeNode,min,max int) *TreeNode{
     return nil   
 }
     
-```
+// ```

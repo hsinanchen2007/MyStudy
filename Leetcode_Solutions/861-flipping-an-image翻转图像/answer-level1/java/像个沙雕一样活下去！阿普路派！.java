@@ -1,18 +1,18 @@
-### 解题思路
-执行用时 :
-1 ms
-, 在所有 java 提交中击败了
-76.67%
-的用户
-内存消耗 :
-36.8 MB
-, 在所有 java 提交中击败了
-99.21%
-的用户
+// ### 解题思路
+// 执行用时 :
+// 1 ms
+// , 在所有 java 提交中击败了
+// 76.67%
+// 的用户
+// 内存消耗 :
+// 36.8 MB
+// , 在所有 java 提交中击败了
+// 99.21%
+// 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] flipAndInvertImage(int[][] A) {
         int[][] Res=new int[A.length][A[0].length];
@@ -34,4 +34,4 @@ class Solution {
     	 return Res;
     }
 }
-```
+// ```

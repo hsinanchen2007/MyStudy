@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/2c83f54638e96a0f7af01c1c19897873a9afd95e7998c37da7b4f8025a35ac9c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2c83f54638e96a0f7af01c1c19897873a9afd95e7998c37da7b4f8025a35ac9c-image.png)
 
->这题应该算归为简单题吧，直接看每一个点是否合法就行了。
+// >这题应该算归为简单题吧，直接看每一个点是否合法就行了。
 
-```java
+// ```java
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         for (int i = 0; i < board.length; i++) {
@@ -63,4 +63,4 @@ class Solution {
 
     }
 }
-```
+// ```

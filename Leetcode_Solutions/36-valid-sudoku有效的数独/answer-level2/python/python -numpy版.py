@@ -1,4 +1,4 @@
-```python
+# ```python
 import numpy as np
 import collections
 class Solution(object):
@@ -27,4 +27,4 @@ class Solution(object):
                 return False
 
         return True
-```
+# ```

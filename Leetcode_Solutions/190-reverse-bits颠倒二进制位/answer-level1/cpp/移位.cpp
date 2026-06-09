@@ -1,9 +1,9 @@
-### 解题思路
-不断的取n的最低位并右移，加到ret上并左移，从而实现颠倒
+// ### 解题思路
+// 不断的取n的最低位并右移，加到ret上并左移，从而实现颠倒
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     uint32_t reverseBits(uint32_t n) {
@@ -21,4 +21,4 @@ public:
         return ret;
     }
 };
-```
+// ```

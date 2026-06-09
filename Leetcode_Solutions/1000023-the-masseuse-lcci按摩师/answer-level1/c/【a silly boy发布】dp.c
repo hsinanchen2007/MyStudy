@@ -1,6 +1,6 @@
-![515531AA-CAF4-41A5-B901-31205A2A4BA1.jpeg](https://pic.leetcode-cn.com/acfcda3115d934080a17a2f5e7c4e82a1aea5cf188e87e94a51f8a684bb87e39-515531AA-CAF4-41A5-B901-31205A2A4BA1.jpeg)
+// ![515531AA-CAF4-41A5-B901-31205A2A4BA1.jpeg](https://pic.leetcode-cn.com/acfcda3115d934080a17a2f5e7c4e82a1aea5cf188e87e94a51f8a684bb87e39-515531AA-CAF4-41A5-B901-31205A2A4BA1.jpeg)
 
-```
+// ```
 /*
     动态规划
     dp[i] = max(dp[i - 1], dp[i - 2] + nums[i])
@@ -38,4 +38,4 @@ int massage(int* nums, int numsSize){
 }
 
 
-```
+// ```

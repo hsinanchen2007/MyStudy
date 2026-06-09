@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minCost(self, grid: List[List[int]]) -> int:
         ROW, COL = len(grid), len(grid[0])
@@ -22,4 +22,4 @@ class Solution:
                         dfs(ni, nj)
         return cost
             
-```
+# ```

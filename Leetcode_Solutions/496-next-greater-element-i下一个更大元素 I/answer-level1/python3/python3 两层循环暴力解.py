@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/07a637d1305b3a6ad55ee42c7fffdd02042a271d8eb0287d2bff9c7a74fe29eb-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/07a637d1305b3a6ad55ee42c7fffdd02042a271d8eb0287d2bff9c7a74fe29eb-image.png)
 
-暴力两层循环。
-1. 先用一个数组index存储对应nums2位置的结果。
-2. 再在nums2中找nums1对应数字的下标a，则该数字答案就是index[a]
+# 暴力两层循环。
+# 1. 先用一个数组index存储对应nums2位置的结果。
+# 2. 再在nums2中找nums1对应数字的下标a，则该数字答案就是index[a]
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nextGreaterElement(self, nums1: List[int], nums2: List[int]) -> List[int]:
         index = []
@@ -29,4 +29,4 @@ class Solution:
             res.append(index[nums2.index(num)])
         return res
 
-```
+# ```

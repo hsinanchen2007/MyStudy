@@ -1,9 +1,9 @@
-### 解题思路
-整数取反后，判断两个值是否相等
+// ### 解题思路
+// 整数取反后，判断两个值是否相等
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {boolean}
@@ -26,4 +26,4 @@ var isPalindrome = function(x) {
    }
    return false;
 };
-```
+// ```

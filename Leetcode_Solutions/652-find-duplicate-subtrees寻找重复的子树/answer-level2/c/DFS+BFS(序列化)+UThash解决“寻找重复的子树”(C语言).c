@@ -1,20 +1,20 @@
-### 解题思路
-本题充分暴露了C的短板。解决本题需要处理以下4个子问题：
+// ### 解题思路
+// 本题充分暴露了C的短板。解决本题需要处理以下4个子问题：
 
-1.数字转字符串：通过手写函数实现
+// 1.数字转字符串：通过手写函数实现
 
-2.树的序列化：使用BFS实现
+// 2.树的序列化：使用BFS实现
 
-3.查重：使用uhash实现
+// 3.查重：使用uhash实现
 
-4.遍历树节点：使用DFS实现
+// 4.遍历树节点：使用DFS实现
 
-![image.png](https://pic.leetcode-cn.com/5fe8984c36f616e59032314facd4413c2a13332c559bc9c60408394e28d9d9f2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5fe8984c36f616e59032314facd4413c2a13332c559bc9c60408394e28d9d9f2-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
  * @lc app=leetcode.cn id=652 lang=c
  *
@@ -240,4 +240,4 @@ struct TreeNode** findDuplicateSubtrees(struct TreeNode* root, int* returnSize){
 // @lc code=end
 
 
-```
+// ```

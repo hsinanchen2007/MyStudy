@@ -1,13 +1,13 @@
-提交结果：
-执行用时 :4 ms, 在所有 Java 提交中击败了93.42% 的用户
-内存消耗 :40 MB, 在所有 Java 提交中击败了90.71%的用户
+// 提交结果：
+// 执行用时 :4 ms, 在所有 Java 提交中击败了93.42% 的用户
+// 内存消耗 :40 MB, 在所有 Java 提交中击败了90.71%的用户
 
-思路：拿到这道题，想了很多花里胡哨的方法都没有用，去看了一下我全排列1的做法，
-加了两三行代码处理相同元素就ok了
+// 思路：拿到这道题，想了很多花里胡哨的方法都没有用，去看了一下我全排列1的做法，
+// 加了两三行代码处理相同元素就ok了
 
 
-代码：
-```
+// 代码：
+// ```
 public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>>res =new ArrayList<>();//结果集
         Arrays.sort(nums);//先排个序
@@ -45,4 +45,4 @@ public List<List<Integer>> permute(int[] nums) {
         }
         return res;
     }
-```
+// ```

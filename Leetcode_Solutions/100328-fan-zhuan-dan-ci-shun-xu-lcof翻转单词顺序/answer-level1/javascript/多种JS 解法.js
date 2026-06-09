@@ -1,9 +1,9 @@
-### 解题思路
-其实多种解法的本质是一样的，就是trim() 传入的 string，然后split成一个个单词，然后reverse，再合并起来。
+// ### 解题思路
+// 其实多种解法的本质是一样的，就是trim() 传入的 string，然后split成一个个单词，然后reverse，再合并起来。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * 执行用时: 96 ms, 在所有 JavaScript 提交中击败了 9.07% 的用户
  * 内存消耗: 34.3 MB, 在所有 JavaScript 提交中击败了 100.00% 的用户
@@ -82,4 +82,4 @@ var reverseWordsWithFilter = function (s) {
     .join(" ");
 };
 
-```
+// ```

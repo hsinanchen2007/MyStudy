@@ -1,7 +1,7 @@
-自顶向下，从左至右遍历需要保存上一层数据。
+// 自顶向下，从左至右遍历需要保存上一层数据。
 
 
-```
+// ```
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int m = triangle.size(); 
@@ -29,4 +29,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

@@ -1,21 +1,21 @@
-![题解二指输入.png](https://pic.leetcode-cn.com/b17342e4344efca5aa619c1d2f711282ad84b8ca0122af7f64f767bd3c215ae3-%E9%A2%98%E8%A7%A3%E4%BA%8C%E6%8C%87%E8%BE%93%E5%85%A5.png)
+# ![题解二指输入.png](https://pic.leetcode-cn.com/b17342e4344efca5aa619c1d2f711282ad84b8ca0122af7f64f767bd3c215ae3-%E9%A2%98%E8%A7%A3%E4%BA%8C%E6%8C%87%E8%BE%93%E5%85%A5.png)
 
 
-```python3
+# ```python3
 n = len(s)
 dp = [[float("inf") for _ in range(n)] for _ in range(n)]
-```
-dp[i][j] i j 表示手指的位置状态, 值表示到该状态的移动距离. i == j,表示只用一根手指输入.
-dp[0][0] = 0  一根手指按下第一个字母
-dp[1][0] = 0  一根手指按下第一个字母,另一根手指按下第二个字母
-开始的时候,假设距离都是无穷大.
-另外写个距离函数,可以直接调用,简洁一些.
-```python
+# ```
+# dp[i][j] i j 表示手指的位置状态, 值表示到该状态的移动距离. i == j,表示只用一根手指输入.
+# dp[0][0] = 0  一根手指按下第一个字母
+# dp[1][0] = 0  一根手指按下第一个字母,另一根手指按下第二个字母
+# 开始的时候,假设距离都是无穷大.
+# 另外写个距离函数,可以直接调用,简洁一些.
+# ```python
 def distance(a, b):
     return abs(a[0] - b[0]) + abs(a[1] - b[1])
-```
+# ```
 
-```python
+# ```python
 class Solution:
     def minimumDistance(self, word: str):
         board = [[chr(i) for i in range(65, 91)][_:_ + 6] for _ in range(0, 26, 6)]
@@ -44,7 +44,7 @@ class Solution:
 
         return min(dp[-1])  # dp最后一行,即手指移动到最后一个字母,取最小的.
 
-```
+# ```
 
 
 

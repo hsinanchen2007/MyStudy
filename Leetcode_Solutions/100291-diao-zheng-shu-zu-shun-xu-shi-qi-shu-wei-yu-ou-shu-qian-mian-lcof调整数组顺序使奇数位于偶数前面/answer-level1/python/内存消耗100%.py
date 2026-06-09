@@ -1,9 +1,9 @@
-### 解题思路
-双指针法
+# ### 解题思路
+# 双指针法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def exchange(self, nums: List[int]) -> List[int]:
         left = 0
@@ -23,4 +23,4 @@ class Solution:
                 nums[right] = swap    
         return nums
             
-```
+# ```

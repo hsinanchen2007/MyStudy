@@ -1,6 +1,6 @@
-奇数层从左到右，偶数层从右到左。
-在原来的BFS每层加入奇偶判断即可。
-```
+// 奇数层从左到右，偶数层从右到左。
+// 在原来的BFS每层加入奇偶判断即可。
+// ```
 class Solution {
 public:
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution(object):
     def levelOrder(self, root):
         res = []
@@ -15,4 +15,4 @@ class Solution(object):
                     queue.append(child)
             res.append(cur_level_nodes) #ok
         return res
-```
+# ```

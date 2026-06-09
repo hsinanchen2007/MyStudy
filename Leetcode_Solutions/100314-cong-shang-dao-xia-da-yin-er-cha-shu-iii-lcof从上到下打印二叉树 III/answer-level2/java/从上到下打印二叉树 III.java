@@ -1,9 +1,9 @@
-### 解题思路
-还是层序遍历，只不过集合要放到list大集合之前先reverse一下
+// ### 解题思路
+// 还是层序遍历，只不过集合要放到list大集合之前先reverse一下
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -46,4 +46,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

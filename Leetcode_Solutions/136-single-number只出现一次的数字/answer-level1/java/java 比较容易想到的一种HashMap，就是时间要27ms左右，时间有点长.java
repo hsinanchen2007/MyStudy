@@ -1,6 +1,6 @@
-使用HashMap极好,先遍历一般，目的是添加，数组元素为key,出现次数为value
+// 使用HashMap极好,先遍历一般，目的是添加，数组元素为key,出现次数为value
 
-```
+// ```
 class Solution {
     public int singleNumber(int[] nums) {
         //使用HashMap极好,先遍历一般，目的是添加，数组元素为key,出现次数为value
@@ -21,4 +21,4 @@ class Solution {
         
     }
 }
-```
+// ```

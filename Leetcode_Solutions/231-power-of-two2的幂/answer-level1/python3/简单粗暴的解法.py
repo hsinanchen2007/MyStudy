@@ -1,9 +1,9 @@
-### 解题思路
-最简单的思路，不断地除以2,注意要用/，不能用//,判断结果是否为1，为1，则为True
+# ### 解题思路
+# 最简单的思路，不断地除以2,注意要用/，不能用//,判断结果是否为1，为1，则为True
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
         if n == 0:
@@ -16,4 +16,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

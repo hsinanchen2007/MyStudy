@@ -1,9 +1,9 @@
-### 解题思路
-递归求解，注意需要用一个HashSet来控制不要有重复的数组，因而需要重写相等的比较器，实现接口IEqualityComparer<int[]>即可
+// ### 解题思路
+// 递归求解，注意需要用一个HashSet来控制不要有重复的数组，因而需要重写相等的比较器，实现接口IEqualityComparer<int[]>即可
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MovingCount(int m, int n, int k) {
          TestCompare compare = new TestCompare();
@@ -75,4 +75,4 @@ public class Solution {
             return base.GetHashCode();
         }
     }
-```
+// ```

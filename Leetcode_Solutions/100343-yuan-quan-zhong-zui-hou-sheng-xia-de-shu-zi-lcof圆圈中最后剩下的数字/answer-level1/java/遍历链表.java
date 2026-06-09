@@ -1,9 +1,9 @@
-### 解题思路
-使用ArrayList add remove 索引记得取余数
+// ### 解题思路
+// 使用ArrayList add remove 索引记得取余数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         //基于ArrayList的模拟链表删除
@@ -20,4 +20,4 @@ class Solution {
         return list.get(0);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-最关键的地方是把输入的每一个字符的位置和输出的对应的字符的位置映射起来，这份代码用了一个numpy二维数组保存中间输出结果。时间和空间复杂度都是O(n)。
+# ### 解题思路
+# 最关键的地方是把输入的每一个字符的位置和输出的对应的字符的位置映射起来，这份代码用了一个numpy二维数组保存中间输出结果。时间和空间复杂度都是O(n)。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import numpy as np
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
@@ -24,4 +24,4 @@ class Solution:
             if s_elem!='':
                 result+=s_elem
         return result
-```
+# ```

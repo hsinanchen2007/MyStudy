@@ -1,9 +1,9 @@
-### 解题思路
-二叉树最大深度，递归解法
+# ### 解题思路
+# 二叉树最大深度，递归解法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
             return max(l,r)
         md(root)
         return max_deep
-```
+# ```

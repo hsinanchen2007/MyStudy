@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def findTheDifference(s: String, t: String): Char = {
      var sum1,sum2=0
@@ -16,4 +16,4 @@ object Solution {
     (sum2-sum1).toChar   
     }
 }
-```
+// ```

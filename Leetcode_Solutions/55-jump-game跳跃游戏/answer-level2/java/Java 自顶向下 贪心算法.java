@@ -1,14 +1,14 @@
-### 解题思路
-自顶向下的贪心算法
+// ### 解题思路
+// 自顶向下的贪心算法
 
-核心思路找到目标位置的上一位到达后所剩余的最大步数，如果该位置的上一位剩余步数大于0则，目标位置可达，如果在某一位置步数消耗殆尽，则不可达。
+// 核心思路找到目标位置的上一位到达后所剩余的最大步数，如果该位置的上一位剩余步数大于0则，目标位置可达，如果在某一位置步数消耗殆尽，则不可达。
 
-目标索引的最大剩余步数：MAX（上一位置剩余步数-1，当前位置可获得步数）
-lastStep = Math.max(step,nums[index]);
+// 目标索引的最大剩余步数：MAX（上一位置剩余步数-1，当前位置可获得步数）
+// lastStep = Math.max(step,nums[index]);
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canJump(int[] nums) {
         int lastIndex = nums.length - 1;
@@ -45,4 +45,4 @@ class Solution {
     //     return can;
     // }
 }
-```
+// ```

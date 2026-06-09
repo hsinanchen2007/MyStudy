@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/b4e1119165a7c825c2ad48211b9aae7160532288accce19cc1fe7cca3df43863-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b4e1119165a7c825c2ad48211b9aae7160532288accce19cc1fe7cca3df43863-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isFlipedString(char* s1, char* s2){
     int lens1 = strlen(s1);
     int lens2 = strlen(s2);
@@ -35,4 +35,4 @@ bool isFlipedString(char* s1, char* s2){
     }
     return false;
 }
-```
+// ```

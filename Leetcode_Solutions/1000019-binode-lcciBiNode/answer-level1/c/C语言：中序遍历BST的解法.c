@@ -1,5 +1,5 @@
-C语言，标准的中序遍历，双百通过。代码如下所示，没啥特殊点。
-```
+// C语言，标准的中序遍历，双百通过。代码如下所示，没啥特殊点。
+// ```
 struct TreeNode* dummyHead;
 struct TreeNode* prevNode;
 
@@ -40,4 +40,4 @@ struct TreeNode* convertBiNode(struct TreeNode* root){
     return dummyHead;
 
 }
-```
+// ```

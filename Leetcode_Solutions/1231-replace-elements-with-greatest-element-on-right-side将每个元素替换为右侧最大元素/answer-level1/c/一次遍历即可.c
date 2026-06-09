@@ -1,8 +1,8 @@
-### 解题思路
-这个解法个人绝得还是挺巧的
-### 代码
+// ### 解题思路
+// 这个解法个人绝得还是挺巧的
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -36,4 +36,4 @@ int* replaceElements(int* arr, int arrSize, int* returnSize){
     res[arrSize-1]=-1;
     return res;
 }
-```
+// ```

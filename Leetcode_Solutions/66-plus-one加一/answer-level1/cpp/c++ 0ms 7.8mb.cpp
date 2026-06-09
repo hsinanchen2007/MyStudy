@@ -1,5 +1,5 @@
-![捕d.PNG](https://pic.leetcode-cn.com/aa1d4de039858cec10cc8711d2708e15ae195fce20a2cfe84f64efc4321208e0-%E6%8D%95d.PNG)
-```
+// ![捕d.PNG](https://pic.leetcode-cn.com/aa1d4de039858cec10cc8711d2708e15ae195fce20a2cfe84f64efc4321208e0-%E6%8D%95d.PNG)
+// ```
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -18,5 +18,5 @@ public:
         return digits; 
     }
 };
-```
+// ```
 

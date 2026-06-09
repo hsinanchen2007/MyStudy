@@ -1,4 +1,4 @@
-```js
+// ```js
 var countPrimeSetBits = function(L, R) {
     // 存储二进制中1的个数
     let arr = []
@@ -26,4 +26,4 @@ var countPrimeSetBits = function(L, R) {
     }
     return count
 };
-```
+// ```

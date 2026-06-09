@@ -1,4 +1,4 @@
-```
+// ```
 char ** findAndReplacePattern(char ** words, int wordsSize, char * pattern, int* returnSize){
     int i, b, level = 0;
     char w[26];
@@ -31,4 +31,4 @@ char ** findAndReplacePattern(char ** words, int wordsSize, char * pattern, int*
     *returnSize = level;
     return arr;
 }
-```
+// ```

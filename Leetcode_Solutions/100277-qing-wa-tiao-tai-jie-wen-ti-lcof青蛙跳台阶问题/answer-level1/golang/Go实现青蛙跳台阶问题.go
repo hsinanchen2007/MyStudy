@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func numWays(n int) int {
     if n ==0{
         return 1
@@ -16,4 +16,4 @@ func numWays(n int) int {
     }
     return dp[n]
 }
-```
+// ```

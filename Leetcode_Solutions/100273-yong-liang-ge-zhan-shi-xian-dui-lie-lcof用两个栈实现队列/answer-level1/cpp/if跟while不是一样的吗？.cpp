@@ -1,4 +1,4 @@
-```
+// ```
 class CQueue {
 public:
     CQueue() {
@@ -27,8 +27,8 @@ public:
     }
 };
 
-```
-```
+// ```
+// ```
 class CQueue {
 public:
     CQueue() {
@@ -57,5 +57,5 @@ public:
     }
 };
 
-```
-请大佬指点一下
+// ```
+// 请大佬指点一下

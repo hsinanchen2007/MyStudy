@@ -1,9 +1,9 @@
-### 解题思路
-二分
+// ### 解题思路
+// 二分
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func missingNumber(nums []int) int {
     l, r := 0, len(nums)-1
     for l < r {
@@ -20,4 +20,4 @@ func missingNumber(nums []int) int {
         return r
     }
 }
-```
+// ```

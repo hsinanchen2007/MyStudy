@@ -1,10 +1,10 @@
-### 解题思路
-如果数组都是非0的数，肯定能通过，
-如果有0，则反推是否有能跳过0的值。
+// ### 解题思路
+// 如果数组都是非0的数，肯定能通过，
+// 如果有0，则反推是否有能跳过0的值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canJump(int* nums, int numsSize){
     int pre;
     int cur;
@@ -33,4 +33,4 @@ bool canJump(int* nums, int numsSize){
     }
     return pass;
 }
-```
+// ```

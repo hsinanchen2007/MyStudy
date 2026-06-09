@@ -1,4 +1,4 @@
-```
+// ```
 //碰见左括号就入栈1，碰见右括号，如果栈1为底，则栈2入栈
 //如果栈1有数据，出栈
 char * minRemoveToMakeValid(char * s){
@@ -39,4 +39,4 @@ char * minRemoveToMakeValid(char * s){
     ret[newidx] = '\0';
     return ret;
 }
-```
+// ```

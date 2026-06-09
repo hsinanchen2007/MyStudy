@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numberOfArithmeticSlices(self, A: List[int]) -> int:
         from collections import defaultdict
@@ -18,4 +18,4 @@ class Solution:
                     memo[i][A[i]-A[j]] += memo[j][A[i]-A[j]]
                     res += memo[j][A[i]-A[j]]
         return res
-```
+# ```

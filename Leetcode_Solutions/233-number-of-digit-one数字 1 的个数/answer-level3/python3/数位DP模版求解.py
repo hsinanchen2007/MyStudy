@@ -1,6 +1,6 @@
-分别计算有j个1的数字的个数，然后求和
-1的总数 = sum(j * 有j个1的数字的个数)
-```
+# 分别计算有j个1的数字的个数，然后求和
+# 1的总数 = sum(j * 有j个1的数字的个数)
+# ```
 class Solution:
     def countDigitOne(self, n: int) -> int:
         self.num = 1
@@ -35,4 +35,4 @@ class Solution:
                 total += j * ans[j]
             return total
         return solve(n) if n > 0 else 0
-```
+# ```

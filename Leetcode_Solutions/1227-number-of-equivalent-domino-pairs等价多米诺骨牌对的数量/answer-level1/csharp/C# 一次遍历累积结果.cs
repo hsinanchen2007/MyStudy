@@ -1,4 +1,4 @@
-```C# []
+// ```C# []
         public int NumEquivDominoPairs(int[][] dominoes)
         {
             /*
@@ -32,4 +32,4 @@
 
             return forReturn;
         }
-```
+// ```

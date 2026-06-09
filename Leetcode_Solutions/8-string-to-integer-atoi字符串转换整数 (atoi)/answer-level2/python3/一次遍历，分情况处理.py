@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历，分情况处理
+# ### 解题思路
+# 一次遍历，分情况处理
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, str1: str) -> int:
         is_start = False  # 表示是否开始计算结果
@@ -55,4 +55,4 @@ class Solution:
         if res < -1 * (1 << 31):
             return -1 * (1 << 31)
         return res
-```
+# ```

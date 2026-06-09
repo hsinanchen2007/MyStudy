@@ -1,7 +1,7 @@
-最简单最快
-的自连接
+-- 最简单最快
+-- 的自连接
 
-```
+-- ```
 SELECT DISTINCT
 	a.Email as Email
 FROM
@@ -10,4 +10,4 @@ FROM
 WHERE
 	a.Id < b.Id 
 	AND a.Email = b.Email;
-```
+-- ```

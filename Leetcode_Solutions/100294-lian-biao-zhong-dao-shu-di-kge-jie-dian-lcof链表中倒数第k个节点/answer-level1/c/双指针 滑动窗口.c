@@ -1,10 +1,10 @@
-### 解题思路
-双指针 滑动窗口
-![image.png](https://pic.leetcode-cn.com/bd6110426e24387739ae5d40dafb1089920cb37fca2fb1bcc4511d64f0d9e75c-image.png)
+// ### 解题思路
+// 双指针 滑动窗口
+// ![image.png](https://pic.leetcode-cn.com/bd6110426e24387739ae5d40dafb1089920cb37fca2fb1bcc4511d64f0d9e75c-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ struct ListNode* getKthFromEnd(struct ListNode* head, int k){
     }
     return left;
 }
-```
+// ```

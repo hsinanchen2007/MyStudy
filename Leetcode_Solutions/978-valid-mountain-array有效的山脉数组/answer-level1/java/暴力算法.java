@@ -1,6 +1,6 @@
-解题思路：首先小于等于3 返回false 。然后一个个遍历，判断，确保出现次A[i]<A[i-1]后代表已经出现了最高点，后面只要出现A[i]>A[i-1] 直接返回false。
+// 解题思路：首先小于等于3 返回false 。然后一个个遍历，判断，确保出现次A[i]<A[i-1]后代表已经出现了最高点，后面只要出现A[i]>A[i-1] 直接返回false。
 
-```java []
+// ```java []
 public boolean validMountainArray(int[] A) {
         if (A.length < 3) {
             return false;
@@ -24,6 +24,6 @@ public boolean validMountainArray(int[] A) {
         }
         return hasMountain ;
     }
-```
-* 时间复杂度:O(n)
-* 空间复杂度:O(1)
+// ```
+// * 时间复杂度:O(n)
+// * 空间复杂度:O(1)

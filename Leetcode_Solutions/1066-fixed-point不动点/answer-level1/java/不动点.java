@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int fixedPoint(int[] A) {
        //线性搜索效率太低，可以进行二分搜索
@@ -18,4 +18,4 @@ class Solution {
        return A[l]==l? l:-1;
     }
 }
-```
+// ```

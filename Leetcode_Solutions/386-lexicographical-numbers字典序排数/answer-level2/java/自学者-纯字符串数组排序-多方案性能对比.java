@@ -1,10 +1,10 @@
-### 解题思路
-* 性能对比纯API方案
-* 其他方案参考其他童鞋的作品改写
+// ### 解题思路
+// * 性能对比纯API方案
+// * 其他方案参考其他童鞋的作品改写
 
-### 代码
-// 方案一、纯Java API实现，击败5.09%的用户
-```java []
+// ### 代码
+// // 方案一、纯Java API实现，击败5.09%的用户
+// ```java []
 class Solution {
     public List<Integer> lexicalOrder(int n) {
         List<String> data = new ArrayList<>();
@@ -15,8 +15,8 @@ class Solution {
        return data.stream().mapToInt(Integer::parseInt).boxed().collect(Collectors.toList());
     }
 }
-```
-```java []
+// ```
+// ```java []
 // 方案二、参考C++评论方案，击败52.01%的用户
 class Solution {
     public List<Integer> lexicalOrder(int n) {
@@ -35,4 +35,4 @@ class Solution {
         return data;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 
 #二叉树的公共祖先问题
 class Solution:
@@ -123,6 +123,6 @@ class Solution:
                     return path1[i]
 
         # return None  
-```
+# ```
 
-```
+# ```

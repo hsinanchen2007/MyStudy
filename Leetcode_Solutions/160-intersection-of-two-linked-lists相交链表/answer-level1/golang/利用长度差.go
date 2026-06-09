@@ -1,9 +1,9 @@
-### 解题思路
-长链表的指针先走几步,然后同时走.相遇点就是相交点.
+// ### 解题思路
+// 长链表的指针先走几步,然后同时走.相遇点就是相交点.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -46,4 +46,4 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
 	return pa
 }
 
-```
+// ```

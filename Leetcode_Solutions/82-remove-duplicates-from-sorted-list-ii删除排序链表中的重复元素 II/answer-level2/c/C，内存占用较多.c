@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* deleteDuplicates(struct ListNode* head){
     struct ListNode * preHead = (struct ListNode *)malloc(sizeof(struct ListNode));
     struct ListNode * curNode = NULL;
@@ -27,4 +27,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return preHead->next;
 }
-```
+// ```

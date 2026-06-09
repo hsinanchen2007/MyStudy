@@ -1,12 +1,12 @@
 
 
-Kahn 算法
+// Kahn 算法
 
-执行用时 :20 ms, 在所有 C++ 提交中击败了97.90% 的用户
+// 执行用时 :20 ms, 在所有 C++ 提交中击败了97.90% 的用户
 
-内存消耗 :14.3 MB, 在所有 C++ 提交中击败了43.81%的用户
+// 内存消耗 :14.3 MB, 在所有 C++ 提交中击败了43.81%的用户
 
-```
+// ```
 class Solution {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
@@ -45,11 +45,11 @@ public:
         return res;
     }
 };
-```
+// ```
 
 
-BFS; 和Kahn算法不同之处仅仅在于使用queue而不是stack
-```
+// BFS; 和Kahn算法不同之处仅仅在于使用queue而不是stack
+// ```
 class Solution {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
@@ -87,15 +87,15 @@ public:
         return res;
     }
 };
-```
+// ```
 
-DFS
+// DFS
 
-执行用时 :24 ms, 在所有 C++ 提交中击败了91.92% 的用户
+// 执行用时 :24 ms, 在所有 C++ 提交中击败了91.92% 的用户
 
-内存消耗 :16 MB, 在所有 C++ 提交中击败了20.10%的用户
+// 内存消耗 :16 MB, 在所有 C++ 提交中击败了20.10%的用户
 
-```
+// ```
 class Solution {
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
@@ -136,4 +136,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 思路1：根据两个数组直接生成一个新的有序数组，然后再取中位数（比较暴力的方法，但是这种方法可读性会好些）
+// ### 思路1：根据两个数组直接生成一个新的有序数组，然后再取中位数（比较暴力的方法，但是这种方法可读性会好些）
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
      public double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {
@@ -44,4 +44,4 @@ public class Solution {
             }
         }
 }
-```
+// ```

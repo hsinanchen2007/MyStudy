@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/11
- * 
- * 解题思路: 话不多说 hash
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/11
+//  * 
+//  * 解题思路: 话不多说 hash
+//  * 
+//  */
+// ```
 public int numJewelsInStones(String J, String S) {
     int sum = 0;
     char[] J_arr = J.toCharArray();
@@ -25,4 +25,4 @@ public int numJewelsInStones(String J, String S) {
     }
     return sum;
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-2重循环遍历，组成的数二进制中每个1表示亮灯，灯的数量等于给定值，就符号条件。
+// ### 解题思路
+// 2重循环遍历，组成的数二进制中每个1表示亮灯，灯的数量等于给定值，就符号条件。
 
-### 性能
-执行用时 :12 ms, 在所有 PHP 提交中击败了8.33%的用户
-内存消耗 :15 MB, 在所有 PHP 提交中击败了100.00%的用户
+// ### 性能
+// 执行用时 :12 ms, 在所有 PHP 提交中击败了8.33%的用户
+// 内存消耗 :15 MB, 在所有 PHP 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -29,7 +29,7 @@ class Solution {
         return $res;
     }
 }
-```
+// ```
 
-### 参考
-[简单易理解的Golang代码](https://leetcode-cn.com/problems/binary-watch/solution/jian-dan-yi-li-jie-de-golangdai-ma-by-a-bai-152/)
+// ### 参考
+// [简单易理解的Golang代码](https://leetcode-cn.com/problems/binary-watch/solution/jian-dan-yi-li-jie-de-golangdai-ma-by-a-bai-152/)

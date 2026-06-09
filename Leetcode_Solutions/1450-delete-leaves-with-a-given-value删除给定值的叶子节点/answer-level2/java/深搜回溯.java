@@ -1,5 +1,5 @@
-先深搜，然后通过返回叶子结点的值进行判断是否要将子节点设置为null，然后一直递归返回就完成了
-```
+// 先深搜，然后通过返回叶子结点的值进行判断是否要将子节点设置为null，然后一直递归返回就完成了
+// ```
     public TreeNode removeLeafNodes(TreeNode root, int target) {
     int k = remove(root, target);
     if(k==target)
@@ -29,4 +29,4 @@
       }
 
 
-```
+// ```

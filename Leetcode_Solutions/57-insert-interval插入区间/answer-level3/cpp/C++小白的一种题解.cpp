@@ -1,14 +1,14 @@
-### 解题思路
-12ms ，95.33%
-11.9Mb，100%
+// ### 解题思路
+// 12ms ，95.33%
+// 11.9Mb，100%
 
-将newInterval插入至intervals中，之后将题目当成56题，合并区间做
+// 将newInterval插入至intervals中，之后将题目当成56题，合并区间做
 
-ok废话不多说，我们直接上代码，详细的细节在代码中标出，哈哈哈哈嗝
+// ok废话不多说，我们直接上代码，详细的细节在代码中标出，哈哈哈哈嗝
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
@@ -63,4 +63,4 @@ private:
 		res.push_back(item);                  //由于出来的时候最后一段是没有添加进去的，于是在最后再添加一次item，将最后一段的结果放进res
 	}
 };
-```
+// ```

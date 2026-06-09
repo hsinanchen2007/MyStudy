@@ -1,10 +1,10 @@
-### 解题思路
-先按行统计所有元素
-遍历所有元素构成新的矩阵
+# ### 解题思路
+# 先按行统计所有元素
+# 遍历所有元素构成新的矩阵
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def matrixReshape(self, nums: List[List[int]], r: int, c: int) -> List[List[int]]:
         #元素数量不同不能构成矩阵
@@ -21,4 +21,4 @@ class Solution:
             ans.append(nums_[i*c:(i+1)*c])
         return ans
         
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-java题目越长是不是越简单
+// ### 解题思路
+// java题目越长是不是越简单
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         if(board==null|| board.length==0 || board[0].length ==0){
@@ -62,4 +62,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 int index = address.indexOf(".");
 StringBuilder sb = new StringBuilder(address);
 while(index >= 0){
@@ -7,4 +7,4 @@ while(index >= 0){
     index = sb.indexOf(".",index+2);
 }
 
-```
+// ```

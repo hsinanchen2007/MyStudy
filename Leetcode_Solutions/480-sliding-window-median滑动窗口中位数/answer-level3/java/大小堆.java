@@ -1,10 +1,10 @@
-### 解题思路
-使用大顶堆记录k个数据中较小的一半，使用小顶堆记录k其中较大的一半
-根据两个堆的堆顶即可得到中位数
+// ### 解题思路
+// 使用大顶堆记录k个数据中较小的一半，使用小顶堆记录k其中较大的一半
+// 根据两个堆的堆顶即可得到中位数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	public double[] medianSlidingWindow(int[] nums, int k) {
 		long[] longNums = new long[nums.length];
@@ -88,4 +88,4 @@ class Solution {
     	return;
     }
 }
-```
+// ```

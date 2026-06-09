@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn rob(nums: Vec<i32>) -> i32 {
         if nums.len() < 3 {
@@ -15,5 +15,5 @@ impl Solution {
         dp.pop().unwrap()
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

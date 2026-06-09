@@ -1,4 +1,4 @@
-```csharp
+// ```csharp
 public void GameOfLife(int[][] board) {
     //遍历第一遍查状态
     for(int i = 0; i < board.Length; i++)
@@ -92,4 +92,4 @@ public int CountAlive(int[][] board, int x, int y)
     }
     return aliveCount;
 }
-```
+// ```

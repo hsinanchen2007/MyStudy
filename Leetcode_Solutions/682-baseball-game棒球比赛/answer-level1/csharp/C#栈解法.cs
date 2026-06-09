@@ -1,4 +1,4 @@
-```
+// ```
 public int CalPoints(string[] ops) {
         var stack=new Stack<int>();
         for(var i=0;i<ops.Length;i++){
@@ -28,4 +28,4 @@ public int CalPoints(string[] ops) {
         }
         return sum;
     }
-```
+// ```

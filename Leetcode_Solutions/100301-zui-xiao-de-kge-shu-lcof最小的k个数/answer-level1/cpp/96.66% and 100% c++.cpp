@@ -1,10 +1,10 @@
-### 解题思路
-哈希。
-注意提示：```0<=arr[i]<=10000```;
+// ### 解题思路
+// 哈希。
+// 注意提示：```0<=arr[i]<=10000```;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> getLeastNumbers(vector<int>& arr, int k) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

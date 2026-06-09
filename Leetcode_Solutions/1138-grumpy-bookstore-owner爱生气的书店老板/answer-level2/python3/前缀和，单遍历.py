@@ -1,9 +1,9 @@
-### 解题思路
-一边加一边计算，最后算多一次calm=max(calm,p[-1]-p[-1-X])，是因为len(p)=len(customers)+1.
+# ### 解题思路
+# 一边加一边计算，最后算多一次calm=max(calm,p[-1]-p[-1-X])，是因为len(p)=len(customers)+1.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSatisfied(self, customers: List[int], grumpy: List[int], X: int) -> int:
         total=0
@@ -17,4 +17,4 @@ class Solution:
         calm=max(calm,p[-1]-p[-1-X])
         return total+calm
         
-```
+# ```

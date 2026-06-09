@@ -1,9 +1,9 @@
-### 解题思路
-自己写的和别人的代码，供大家参考，可以直接看注释。
+# ### 解题思路
+# 自己写的和别人的代码，供大家参考，可以直接看注释。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def restoreIpAddresses(self, nums: str) -> List[str]:
         # 回溯  自己写的   start是要添加的下一个子串的起始位置  num是还有多少个点可以放
@@ -51,4 +51,4 @@ class Solution:
         backtrack() 
         return output
         '''
-```
+# ```

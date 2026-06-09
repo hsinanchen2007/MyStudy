@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-- 如果当前差值小于上一个的差值，即：$diff < curr$，那么存下当前的差值和 ``root.val``
-- 如果 $root.val < target$，那么递归右子树
-- 如果 $root.val > target$，那么递归左子树
+// - 如果当前差值小于上一个的差值，即：$diff < curr$，那么存下当前的差值和 ``root.val``
+// - 如果 $root.val < target$，那么递归右子树
+// - 如果 $root.val > target$，那么递归左子树
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -40,4 +40,4 @@ var closestValue = function(root, target) {
     isClosest(root)
     return res
 };
-```
+// ```

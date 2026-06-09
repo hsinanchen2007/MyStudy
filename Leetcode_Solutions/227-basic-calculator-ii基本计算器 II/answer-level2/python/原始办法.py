@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-先读取数值和符号，再计算乘除法，再计算加减法。
+# ### 解题思路
+# 此处撰写解题思路
+# 先读取数值和符号，再计算乘除法，再计算加减法。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def calculate(self, s: str) -> int:
         label=[]
@@ -44,4 +44,4 @@ class Solution:
             elif label[i]=='-':
                 result-=int(nums[i+1])
         return result
-```
+# ```

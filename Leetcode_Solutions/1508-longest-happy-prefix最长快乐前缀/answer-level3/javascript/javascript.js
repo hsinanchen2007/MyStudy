@@ -1,4 +1,4 @@
-```js
+// ```js
 var longestPrefix = function(s) {
     let begin = s.slice(0, -1);
     let end = s.slice(1);
@@ -14,4 +14,4 @@ var longestPrefix = function(s) {
         end = end.slice(1);
     }
 };
-```
+// ```

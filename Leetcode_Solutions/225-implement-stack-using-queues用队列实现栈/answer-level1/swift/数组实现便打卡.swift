@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class MyStack {
 
     var stack: Array<Int>
@@ -43,4 +43,4 @@ class MyStack {
  * let ret_3: Int = obj.top()
  * let ret_4: Bool = obj.empty()
  */
-```
+// ```

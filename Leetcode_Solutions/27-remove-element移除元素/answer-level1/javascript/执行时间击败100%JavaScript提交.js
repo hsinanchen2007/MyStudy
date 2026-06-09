@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -14,4 +14,4 @@ var removeElement = function(nums, val) {
     }
     return j
 };
-```
+// ```

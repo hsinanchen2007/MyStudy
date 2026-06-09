@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numWays(self, n: int) -> int:
         if n == 0: return 1
@@ -12,4 +12,4 @@ class Solution:
         for i in range(2, n):
             dp[i] = dp[i-1] + dp[i-2]
         return int(dp[-1] % 1000000007)
-```
+# ```

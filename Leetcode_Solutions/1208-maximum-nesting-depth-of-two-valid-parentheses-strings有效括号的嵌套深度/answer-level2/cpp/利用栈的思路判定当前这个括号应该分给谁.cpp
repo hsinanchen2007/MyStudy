@@ -1,9 +1,9 @@
-### 解题思路
-利用栈的思路判定当前这个括号应该分给谁
+// ### 解题思路
+// 利用栈的思路判定当前这个括号应该分给谁
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxDepthAfterSplit(string seq) {
@@ -34,4 +34,4 @@ public:
         return result;
     }
 };
-```
+// ```

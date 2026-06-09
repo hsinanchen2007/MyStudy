@@ -1,12 +1,12 @@
-### 解题思路
-简单的暴力解法，时间复杂度是O(m*n)，关键是如何判断何时停止。
-因为多用++和--，所以看起来复杂但是执行用时不会很长。
-![image.png](https://pic.leetcode-cn.com/143e0b461e51e8df5297679ac92c64cbeed4b4b36f64e5daec6c558834062bf7-image.png)
+// ### 解题思路
+// 简单的暴力解法，时间复杂度是O(m*n)，关键是如何判断何时停止。
+// 因为多用++和--，所以看起来复杂但是执行用时不会很长。
+// ![image.png](https://pic.leetcode-cn.com/143e0b461e51e8df5297679ac92c64cbeed4b4b36f64e5daec6c558834062bf7-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
@@ -55,4 +55,4 @@ public:
         return re;
     }
 };
-```
+// ```

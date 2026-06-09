@@ -1,26 +1,26 @@
-## 思路:
+# ## 思路:
 
-动态规划
+# 动态规划
 
-思路一:自顶向下, 
+# 思路一:自顶向下, 
 
-思路二:自底向上,
+# 思路二:自底向上,
 
-`dp[i]`表示`s`到`i`位置是否可以由`wordDict`组成
+# `dp[i]`表示`s`到`i`位置是否可以由`wordDict`组成
 
-所以有 如果`dp[i - j]`是`true`并且`s[j:i]`在`wordDict`里, 那么`dp[i] = true`;
+# 所以有 如果`dp[i - j]`是`true`并且`s[j:i]`在`wordDict`里, 那么`dp[i] = true`;
 
-两种都很容易理解的!看代码就行了
+# 两种都很容易理解的!看代码就行了
 
-------
+# ------
 
-相关题型: [140. 单词拆分 II](https://leetcode-cn.com/problems/word-break-ii/)
+# 相关题型: [140. 单词拆分 II](https://leetcode-cn.com/problems/word-break-ii/)
 
-## 代码:
+# ## 代码:
 
-思路一:
+# 思路一:
 
-```python [1]
+# ```python [1]
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         import functools
@@ -39,11 +39,11 @@ class Solution:
                     return True
             return False
         return helper(s)
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         int max_len = 0;
@@ -65,11 +65,11 @@ class Solution {
         return false;
     }
 }
-```
+# ```
 
-思路二:
+# 思路二:
 
-```python [2]
+# ```python [2]
 class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         n = len(s)
@@ -82,11 +82,11 @@ class Solution:
                     dp[i] = True
                     break
         return dp[-1]
-```
+# ```
 
 
 
-```java [2]
+# ```java [2]
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         if (wordDict == null || wordDict.size() == 0) return s.isEmpty();
@@ -104,5 +104,5 @@ class Solution {
         return dp[n];
     }
 }
-```
+# ```
 

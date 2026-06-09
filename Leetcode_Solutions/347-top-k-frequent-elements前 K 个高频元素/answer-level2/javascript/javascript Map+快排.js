@@ -1,4 +1,4 @@
-```js
+// ```js
 var topKFrequent = function (nums, k) {
     const map = new Map();
     const list = [];
@@ -18,4 +18,4 @@ var topKFrequent = function (nums, k) {
     }
     return result;
 };
-```
+// ```

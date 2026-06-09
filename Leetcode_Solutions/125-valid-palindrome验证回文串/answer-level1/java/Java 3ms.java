@@ -1,4 +1,4 @@
-```
+// ```
 public class Palindrome {
     public boolean isPalindrome(String s) {
         if(s.isEmpty())
@@ -21,4 +21,4 @@ public class Palindrome {
         return true;
     }
 }
-```
+// ```

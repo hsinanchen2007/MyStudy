@@ -1,9 +1,9 @@
-### 解题思路
-官方题解的 js 实现，具体算法请参考官方题解
+// ### 解题思路
+// 官方题解的 js 实现，具体算法请参考官方题解
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -24,4 +24,4 @@ var reverse = function(x) {
   }
   return rev;
 };
-```
+// ```

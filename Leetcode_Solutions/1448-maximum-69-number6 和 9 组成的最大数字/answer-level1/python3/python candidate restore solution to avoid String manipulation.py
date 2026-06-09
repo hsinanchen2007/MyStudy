@@ -1,6 +1,6 @@
-`python candidate restore solution to avoid String manipulation 100% in mem cost.`
+# `python candidate restore solution to avoid String manipulation 100% in mem cost.`
 
-```python3
+# ```python3
 class Solution:
     def maximum69Number (self, num: int) -> int:
         candidate = -1
@@ -19,4 +19,4 @@ class Solution:
 
         return candidate if candidate > 0 else num
 
-```
+# ```

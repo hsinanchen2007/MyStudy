@@ -1,9 +1,9 @@
-### 解题思路
-joshua分享：把二叉树转换成一个图的结构，然后从terget开始深度遍历即可
+// ### 解题思路
+// joshua分享：把二叉树转换成一个图的结构，然后从terget开始深度遍历即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -79,4 +79,4 @@ public:
         }
     }
 };
-```
+// ```

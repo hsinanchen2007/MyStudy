@@ -1,11 +1,11 @@
-### 解题思路
-由于只能用int，
-先判断特殊情况，被除数为INT_MIN的两种特殊情况，除数为INT_MIN的两种特殊情况
-若被除数为INT_MIN，先减一次，再进行运算
+// ### 解题思路
+// 由于只能用int，
+// 先判断特殊情况，被除数为INT_MIN的两种特殊情况，除数为INT_MIN的两种特殊情况
+// 若被除数为INT_MIN，先减一次，再进行运算
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define INT_MAX 0X7FFFFFFF
 #define INT_MIN 0X80000000
 
@@ -48,4 +48,4 @@ int divide(int dividend, int divisor)
         return negative ? -result : result;
     return 0;
 }
-```
+// ```

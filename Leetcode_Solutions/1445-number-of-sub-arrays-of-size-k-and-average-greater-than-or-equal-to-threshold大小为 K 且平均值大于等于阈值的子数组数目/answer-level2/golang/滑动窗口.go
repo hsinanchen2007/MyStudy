@@ -1,4 +1,4 @@
-```
+// ```
 func numOfSubarrays(arr []int, k int, threshold int) int {
 	var (
 		i, sum, count int
@@ -33,4 +33,4 @@ func numOfSubarrays(arr []int, k int, threshold int) int {
 	}
 	return count
 }
-```
+// ```

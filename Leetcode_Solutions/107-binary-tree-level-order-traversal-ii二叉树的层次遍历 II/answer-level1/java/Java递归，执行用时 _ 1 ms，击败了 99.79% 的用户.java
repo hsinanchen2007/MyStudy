@@ -1,14 +1,14 @@
-### 解题思路
-Java
-使用递归完成
-代码使用了ArrayList类中的 size() 返回数组列表中元素大小
-若是当前 Depth+1>size()，则说明之前还未遍历到树的该层
-最后使用 Collections.reverse() 反转数组列表
-代码不够简洁优雅，仅供参考
+// ### 解题思路
+// Java
+// 使用递归完成
+// 代码使用了ArrayList类中的 size() 返回数组列表中元素大小
+// 若是当前 Depth+1>size()，则说明之前还未遍历到树的该层
+// 最后使用 Collections.reverse() 反转数组列表
+// 代码不够简洁优雅，仅供参考
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

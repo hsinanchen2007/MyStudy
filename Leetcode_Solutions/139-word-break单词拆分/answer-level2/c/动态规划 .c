@@ -1,12 +1,12 @@
-执行用时 :4 ms, 在所有 C 提交中击败了89.30%的用户  
-内存消耗 :7.1 MB, 在所有 C 提交中击败了47.41%的用户  
+// 执行用时 :4 ms, 在所有 C 提交中击败了89.30%的用户  
+// 内存消耗 :7.1 MB, 在所有 C 提交中击败了47.41%的用户  
 
-### 解题思路
-详见代码注释
+// ### 解题思路
+// 详见代码注释
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <string.h>
 int wordBreak(char * s, char ** wordDict, int wordDictSize){
@@ -62,4 +62,4 @@ int wordBreak(char * s, char ** wordDict, int wordDictSize){
 	}
 	return 0;
 }
-```
+// ```

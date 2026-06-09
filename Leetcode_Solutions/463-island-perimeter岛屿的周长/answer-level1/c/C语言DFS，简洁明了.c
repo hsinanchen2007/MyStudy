@@ -1,9 +1,9 @@
-### 解题思路
-采用DFS，在搜索遍历的过程中根据模块数据返回有效周长，同时题目表明只有一个岛屿，所以只需找到一个陆地展开一次DFS即可得到整个岛屿周长。
+// ### 解题思路
+// 采用DFS，在搜索遍历的过程中根据模块数据返回有效周长，同时题目表明只有一个岛屿，所以只需找到一个陆地展开一次DFS即可得到整个岛屿周长。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int DFS(int** grid, int row, int col, int u, int v) {
     int line = 0;
 
@@ -48,4 +48,4 @@ int islandPerimeter(int** grid, int gridSize, int* gridColSize) {
     
     return 0;
 }
-```
+// ```

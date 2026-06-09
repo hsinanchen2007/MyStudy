@@ -1,9 +1,9 @@
-### 解题思路
-方法一、普通解法：
+// ### 解题思路
+// 方法一、普通解法：
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -25,9 +25,9 @@ var fizzBuzz = function(n) {
     }
     return arr;
 };
-```
-方法二、改进解法：拼接字符串
-```
+// ```
+// 方法二、改进解法：拼接字符串
+// ```
 var fizzBuzz = function(n) {
     var arr=[];
     for(var i=1;i<=n;i++){
@@ -45,5 +45,5 @@ var fizzBuzz = function(n) {
     }
     return arr;
 };
-```
+// ```
 

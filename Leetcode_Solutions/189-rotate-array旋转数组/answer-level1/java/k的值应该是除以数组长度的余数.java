@@ -1,9 +1,9 @@
-### 解题思路
-三次反转太妙了
+// ### 解题思路
+// 三次反转太妙了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[] nums, int k) {
         //求k的值
@@ -37,4 +37,4 @@ class Solution {
         }
     }
 }
-```
+// ```

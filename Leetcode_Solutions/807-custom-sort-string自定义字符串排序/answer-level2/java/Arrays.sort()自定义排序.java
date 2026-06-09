@@ -1,5 +1,5 @@
-自定义排序，根据优先级大小来排
-```java
+// 自定义排序，根据优先级大小来排
+// ```java
 class Solution {
     public String customSortString(String S, String T) {
         char[] s = S.toCharArray();
@@ -17,4 +17,4 @@ class Solution {
         return new String(t);
     }
 }
-```
+// ```

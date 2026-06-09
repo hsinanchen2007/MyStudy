@@ -1,9 +1,9 @@
-/**
- * @param {number} tomatoSlices
- * @param {number} cheeseSlices
- * @return {number[]}
- */
-```javascript
+// /**
+//  * @param {number} tomatoSlices
+//  * @param {number} cheeseSlices
+//  * @return {number[]}
+//  */
+// ```javascript
 var numOfBurgers = function(tomatoSlices, cheeseSlices) {
     if (tomatoSlices % 2 !== 0) {
         return [];
@@ -16,4 +16,4 @@ var numOfBurgers = function(tomatoSlices, cheeseSlices) {
         return [];
     }
 };
-```
+// ```

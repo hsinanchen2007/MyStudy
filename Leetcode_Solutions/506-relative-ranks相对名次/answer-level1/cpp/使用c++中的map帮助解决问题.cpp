@@ -1,9 +1,9 @@
-### 解题思路
-map 的key是从小到大排列，value记录在nums中的下标, value+1也是排名。通过辅助的len记录剩余num个数，也作为排名的标识，并且需要修改。
+// ### 解题思路
+// map 的key是从小到大排列，value记录在nums中的下标, value+1也是排名。通过辅助的len记录剩余num个数，也作为排名的标识，并且需要修改。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findRelativeRanks(vector<int>& nums) {
@@ -34,4 +34,4 @@ public:
 
     }
 };
-```
+// ```

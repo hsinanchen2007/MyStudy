@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func summaryRanges(nums []int) []string {
 	res := make([]string, 0)
 	exist := make(map[string]struct{})
@@ -37,4 +37,4 @@ func summaryRanges(nums []int) []string {
 	}
 	return res
 }
-```
+// ```

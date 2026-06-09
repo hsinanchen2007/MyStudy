@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int balancedString(String s) {
         // count 的作用：
@@ -43,4 +43,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-菜鸡分享（顶锅盖逃跑
+// ### 解题思路
+// 菜鸡分享（顶锅盖逃跑
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func missingNumber(_ nums: [Int]) -> Int {
 
@@ -20,4 +20,4 @@ class Solution {
         return result.first!
     }
 }
-```
+// ```

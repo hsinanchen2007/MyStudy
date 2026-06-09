@@ -1,4 +1,4 @@
-```js
+// ```js
 var findContentChildren = function(g, s) {
     // 贪心思想, 优先满足胃口小的孩子
 
@@ -17,4 +17,4 @@ var findContentChildren = function(g, s) {
 
     return res;
 };
-```
+// ```

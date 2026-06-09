@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-将字符串按k分割存储到数组，然后反转数组奇数位存储的字符串
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 将字符串按k分割存储到数组，然后反转数组奇数位存储的字符串
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {number} k
@@ -23,4 +23,4 @@ var reverseStr = function(s, k) {
     }
     return tmpstr.join('');
 };
-```
+// ```

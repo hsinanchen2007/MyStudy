@@ -1,10 +1,10 @@
-### 解题思路
-初始队列元素均为0，
-只要糖没发完，就对队列进行轮询
+# ### 解题思路
+# 初始队列元素均为0，
+# 只要糖没发完，就对队列进行轮询
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         ans = [0 for i in range(num_people)]
@@ -20,4 +20,4 @@ class Solution:
                     candies = 0
                     break
         return ans
-```
+# ```

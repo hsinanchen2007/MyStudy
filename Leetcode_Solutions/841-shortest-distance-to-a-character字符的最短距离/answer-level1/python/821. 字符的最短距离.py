@@ -1,8 +1,8 @@
 
-- 当前指向值, 匹配C, 则直接返回
-- 如果不是, 则需要双指针去做匹配, 主要边界问题
+# - 当前指向值, 匹配C, 则直接返回
+# - 如果不是, 则需要双指针去做匹配, 主要边界问题
 
-```
+# ```
 class Solution(object):
     def shortestToChar(self, S, C):
         """
@@ -41,4 +41,4 @@ class Solution(object):
                         else:
                              left -= 1
         return L
-```
+# ```

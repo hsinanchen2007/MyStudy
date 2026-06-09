@@ -1,6 +1,6 @@
-![QQ图片20191113105630.png](https://pic.leetcode-cn.com/cc6ef7682e660c2622bbecd9e0093b18b42ecca160f1a5347b918caf13eb98d3-QQ%E5%9B%BE%E7%89%8720191113105630.png)
+// ![QQ图片20191113105630.png](https://pic.leetcode-cn.com/cc6ef7682e660c2622bbecd9e0093b18b42ecca160f1a5347b918caf13eb98d3-QQ%E5%9B%BE%E7%89%8720191113105630.png)
 
-```
+// ```
 class SnapshotArray {
 private:
     int id;
@@ -50,4 +50,4 @@ public:
         return s[index][low].second;
     }
 };
-```
+// ```

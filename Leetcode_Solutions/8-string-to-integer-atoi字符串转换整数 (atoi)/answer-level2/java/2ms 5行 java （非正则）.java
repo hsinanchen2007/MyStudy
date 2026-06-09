@@ -1,4 +1,4 @@
-```
+// ```
     public int myAtoi(String str) {
         long flag = -1, result = 0;
         for (int i = 0; i < str.length(); i++) {
@@ -6,7 +6,7 @@
         }
         return flag == '-' ? -result < Integer.MIN_VALUE ? Integer.MIN_VALUE : (int) (-result) : result > Integer.MAX_VALUE ? Integer.MAX_VALUE : (int) (result);
     }
-```
+// ```
 
 
-利用语法和结构追求极致行数的奇技淫巧
+// 利用语法和结构追求极致行数的奇技淫巧

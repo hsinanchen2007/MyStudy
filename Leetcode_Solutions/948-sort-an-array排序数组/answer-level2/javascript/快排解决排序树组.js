@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -29,5 +29,5 @@ var sortArray = (nums)=> {
    sort(newArr)
    return newArr
 };
-```
-![image.png](https://pic.leetcode-cn.com/9eec609f16f2f37da1b4c12cf9ac0f48db10ad32154ef07f957f34558f35a449-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/9eec609f16f2f37da1b4c12cf9ac0f48db10ad32154ef07f957f34558f35a449-image.png)

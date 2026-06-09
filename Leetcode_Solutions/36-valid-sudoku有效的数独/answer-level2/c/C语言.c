@@ -1,4 +1,4 @@
-```
+// ```
 bool isValidSudoku(char** board, int boardSize, int* boardColSize){
     int i,j,m,n;
     int nums[10]={0};
@@ -32,4 +32,4 @@ bool isValidSudoku(char** board, int boardSize, int* boardColSize){
     }
     return true;
 }
-```
+// ```

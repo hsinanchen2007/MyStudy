@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} n
  * @param {number} m
@@ -33,4 +33,4 @@ var oddCells = function (n, m, indices) {
     })
     return ans
 };
-```
+// ```

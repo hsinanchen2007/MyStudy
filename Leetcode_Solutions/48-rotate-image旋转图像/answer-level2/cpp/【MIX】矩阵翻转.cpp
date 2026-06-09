@@ -1,10 +1,10 @@
-### 解题思路
-1. 先沿着副对角线翻转,$(i, j)~(N-1-j, N-1-i)$, 再沿着水平中线翻转$(i, j)~(N-1-i, j)$, 时间复杂度$O(N^2)$, 空间复杂度$O(1)$.
-2. 先沿着水平中线翻转, 再沿着主对角线翻转$(i,j)~(j,i)$
+// ### 解题思路
+// 1. 先沿着副对角线翻转,$(i, j)~(N-1-j, N-1-i)$, 再沿着水平中线翻转$(i, j)~(N-1-i, j)$, 时间复杂度$O(N^2)$, 空间复杂度$O(1)$.
+// 2. 先沿着水平中线翻转, 再沿着主对角线翻转$(i,j)~(j,i)$
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public void rotate(int[][] matrix) {
         int N = matrix.length;
@@ -27,8 +27,8 @@ class Solution {
         return;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -43,8 +43,8 @@ class Solution:
         for i in range(N):
             for j in range(i, N):
                 matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix) {
@@ -68,4 +68,4 @@ public:
         return;
     }
 };
-```
+// ```

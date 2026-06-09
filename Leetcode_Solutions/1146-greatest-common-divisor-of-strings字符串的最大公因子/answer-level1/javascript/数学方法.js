@@ -1,13 +1,13 @@
-### 解题思路
-当 str1 与 str2 存在非空的 X 为最大公因子时，
+// ### 解题思路
+// 当 str1 与 str2 存在非空的 X 为最大公因子时，
 
-- 假设 str1 = n*X, str2 = m*X
-   str1 + str2 = (n+m)*X = str2 + str1
+// - 假设 str1 = n*X, str2 = m*X
+//    str1 + str2 = (n+m)*X = str2 + str1
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str1
  * @param {string} str2
@@ -22,8 +22,8 @@ var gcdOfStrings = function(str1, str2) {
     }
     return str1.substring(0, gcd(str2.length, str1.length));
 };
-```
+// ```
 
-###复杂度
-- 时间复杂度 O(N)
-- 空间复杂度 O(N)
+// ###复杂度
+// - 时间复杂度 O(N)
+// - 空间复杂度 O(N)

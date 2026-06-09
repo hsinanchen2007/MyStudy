@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1. 原地算法，用复合状态来解决
-2. if (A && B) 如果 A 为 false ，整个表达式就为 false，不再计算 B 的值了。
-3. if (A & B) 如果 A 为 false ，整个表达式就为 false，但还要计算 B 的值。
+// ### 解题思路
+// 此处撰写解题思路
+// 1. 原地算法，用复合状态来解决
+// 2. if (A && B) 如果 A 为 false ，整个表达式就为 false，不再计算 B 的值了。
+// 3. if (A & B) 如果 A 为 false ，整个表达式就为 false，但还要计算 B 的值。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -52,4 +52,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-数组里的值转换为二叉树
-![image.png](https://pic.leetcode-cn.com/ff86628cadf5615cd423c49e594de3b56a7e5e36a7f741423b1126a528ab688b-image.png)
+// ### 解题思路
+// 数组里的值转换为二叉树
+// ![image.png](https://pic.leetcode-cn.com/ff86628cadf5615cd423c49e594de3b56a7e5e36a7f741423b1126a528ab688b-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -78,4 +78,4 @@ public class Codec {
 // Your Codec object will be instantiated and called as such:
 // Codec codec = new Codec();
 // codec.deserialize(codec.serialize(root));
-```
+// ```

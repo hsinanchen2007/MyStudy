@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func convertToBase7(num int) string {
 	res:=""
     if num==0{
@@ -25,4 +25,4 @@ func convertToBase7(num int) string {
 	}
 	return res
 }
-```
+// ```

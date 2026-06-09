@@ -1,7 +1,7 @@
-### 思路
-注意：迭代解法中每次循环的末尾令current为右节点，可以让已经读取到的左节点不被重新读取。
-### 代码
-```迭代 []
+// ### 思路
+// 注意：迭代解法中每次循环的末尾令current为右节点，可以让已经读取到的左节点不被重新读取。
+// ### 代码
+// ```迭代 []
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
@@ -21,8 +21,8 @@ public:
         return res;
     }
 };
-```
-```递归 []
+// ```
+// ```递归 []
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
@@ -40,4 +40,4 @@ private:
         }
     }
 };
-```
+// ```

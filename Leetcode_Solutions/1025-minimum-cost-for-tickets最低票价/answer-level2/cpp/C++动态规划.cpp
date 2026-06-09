@@ -1,9 +1,9 @@
-### 解题思路
-动态规划 dp[i]=min{dp[i-1]+costs[0],dp[i-7]+costs[1],dp[i-30]+costs[2]}
+// ### 解题思路
+// 动态规划 dp[i]=min{dp[i-1]+costs[0],dp[i-7]+costs[1],dp[i-30]+costs[2]}
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int mincostTickets(vector<int>& days, vector<int>& costs) {

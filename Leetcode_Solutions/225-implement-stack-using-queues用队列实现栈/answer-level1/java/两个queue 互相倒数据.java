@@ -1,10 +1,10 @@
-### 解题思路
-主要是使用两个queue,
-其中一个queue 用来存放, 另一个queue用来当临时queue, 每次pop的时候 把不空的queue里面的值(除了最后一个) 都导到另一个空的queue里面, 然后把最后一个poll出去, 如果是top的话 poll完了 还要再自己push回去就好了.
+// ### 解题思路
+// 主要是使用两个queue,
+// 其中一个queue 用来存放, 另一个queue用来当临时queue, 每次pop的时候 把不空的queue里面的值(除了最后一个) 都导到另一个空的queue里面, 然后把最后一个poll出去, 如果是top的话 poll完了 还要再自己push回去就好了.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
 
     Queue<Integer> queue1;
@@ -68,4 +68,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

@@ -1,8 +1,8 @@
-字符串从左开始遍历字母`i`。并把遍历后的结果放入新的变量中`new_s`。
-然后在新字符串`new_s`中查看遍历字母`i` 是否有重复。
-如果在新字符串`new_s`中出现重复。
-那么截取新字符串`new_s`，去掉重复部分。
-```
+# 字符串从左开始遍历字母`i`。并把遍历后的结果放入新的变量中`new_s`。
+# 然后在新字符串`new_s`中查看遍历字母`i` 是否有重复。
+# 如果在新字符串`new_s`中出现重复。
+# 那么截取新字符串`new_s`，去掉重复部分。
+# ```
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         new_s = ''
@@ -15,4 +15,4 @@ class Solution(object):
             if len(new_s) > max_len:
                 max_len = len(new_s)
         return max_len
-```
+# ```

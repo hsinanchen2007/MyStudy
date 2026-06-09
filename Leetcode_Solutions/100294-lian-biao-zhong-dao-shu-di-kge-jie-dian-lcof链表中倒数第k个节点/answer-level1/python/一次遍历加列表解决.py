@@ -1,11 +1,11 @@
-### 解题思路
-定义一个空列表，每次遍历都将遍历的链表存入列表，再返回倒数第k个列表的值
+# ### 解题思路
+# 定义一个空列表，每次遍历都将遍历的链表存入列表，再返回倒数第k个列表的值
 
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution(object):
             s.append(head)
             head = head.next
         return s[-k]
-```
+# ```

@@ -1,21 +1,21 @@
-### 解题思路
-对于C解决此题的难点在于，如何处理字串结果。
+// ### 解题思路
+// 对于C解决此题的难点在于，如何处理字串结果。
 
-根据题目反推，结果需要按照频率和字典序进行排序，可以构造qsort的compare函数实现，但要求结果存在连续内存中；
+// 根据题目反推，结果需要按照频率和字典序进行排序，可以构造qsort的compare函数实现，但要求结果存在连续内存中；
 
-如果将结果存在连续内存，则不能构造链表实现hash表对查找加速。
+// 如果将结果存在连续内存，则不能构造链表实现hash表对查找加速。
 
-但是可以使用字串hash，对比较过程加速。
+// 但是可以使用字串hash，对比较过程加速。
 
-按照这个思路实现，效率满足要求。
+// 按照这个思路实现，效率满足要求。
 
-![image.png](https://pic.leetcode-cn.com/d99c4b529bf0e3b2ad24291314868e99836895cee293877a01fc403ae018d6ff-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d99c4b529bf0e3b2ad24291314868e99836895cee293877a01fc403ae018d6ff-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 #define QUE_SIZE	10000
 #define RES_SIZE	10000
@@ -185,4 +185,4 @@ char ** watchedVideosByFriends(char *** watchedVideos, int watchedVideosSize, in
 	*returnSize  = isize;
 	return res;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![QQ截图20200329123056.png](https://pic.leetcode-cn.com/77dcc069610cbb2439faab24086a43d0b138d8bf45835625abfd5e5e74b77467-QQ%E6%88%AA%E5%9B%BE20200329123056.png)
+// ![QQ截图20200329123056.png](https://pic.leetcode-cn.com/77dcc069610cbb2439faab24086a43d0b138d8bf45835625abfd5e5e74b77467-QQ%E6%88%AA%E5%9B%BE20200329123056.png)
 
 
-```
+// ```
 class UndergroundSystem {
 
     public class TotalAndTimes{
@@ -46,4 +46,4 @@ class UndergroundSystem {
  * obj.checkOut(id,stationName,t);
  * double param_3 = obj.getAverageTime(startStation,endStation);
  */
-```
+// ```

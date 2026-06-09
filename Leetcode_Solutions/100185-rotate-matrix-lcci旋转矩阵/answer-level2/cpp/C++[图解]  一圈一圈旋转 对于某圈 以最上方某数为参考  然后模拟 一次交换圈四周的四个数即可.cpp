@@ -1,4 +1,4 @@
-```
+// ```
     void rotate(vector<vector<int>>& a) {
         int n = a.size();
         for(int len = n; len >= 2; len -=2){//从外到内 一圈一圈的旋转90° len为当前圈的边长
@@ -10,8 +10,8 @@
             }
         }
     }
-```
-对于边长为len的圈 画图很容易看出坐标变换的关系
-![旋转.jpg](https://pic.leetcode-cn.com/fde10ebe6fb3f94836d8241face48d8cd9708c82451f3a04404fca451bd16da7-%E6%97%8B%E8%BD%AC.jpg)
+// ```
+// 对于边长为len的圈 画图很容易看出坐标变换的关系
+// ![旋转.jpg](https://pic.leetcode-cn.com/fde10ebe6fb3f94836d8241face48d8cd9708c82451f3a04404fca451bd16da7-%E6%97%8B%E8%BD%AC.jpg)
 
 

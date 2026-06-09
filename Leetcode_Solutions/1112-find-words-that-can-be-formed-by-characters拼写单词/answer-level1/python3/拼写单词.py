@@ -1,16 +1,16 @@
-### 解题思路
-我的思路：效率不高，因为每次都要重置数组。有个问题就是其实两个字典就可以了，但是赋值就变成别名...Python没掌握好
+# ### 解题思路
+# 我的思路：效率不高，因为每次都要重置数组。有个问题就是其实两个字典就可以了，但是赋值就变成别名...Python没掌握好
 	
 
-复杂度分析：                                                             
-	• 时间复杂度：o(n^2)
-	• 空间复杂度：o(n)
+# 复杂度分析：                                                             
+# 	• 时间复杂度：o(n^2)
+# 	• 空间复杂度：o(n)
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         dicts = {}
@@ -41,4 +41,4 @@ class Solution:
                     dicts[x] += 1
         return sums
             
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-先熟悉背包算法的递归思路再做这道题
+// ### 解题思路
+// 先熟悉背包算法的递归思路再做这道题
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 int coinChange(int* coins, int coinsSize, int amount){
@@ -34,4 +34,4 @@ int coinChange(int* coins, int coinsSize, int amount){
 }
 
 
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-一直没想好思路，直到看到答案。。。我是真的菜。还是画图比较好懂：
-![leetcode820.jpg](https://pic.leetcode-cn.com/53e363baa4f8dc0b39f91f6eb593ac4f80fb9136d3b70e778afdc03850dfd94b-leetcode820.jpg)
+// ### 解题思路
+// 一直没想好思路，直到看到答案。。。我是真的菜。还是画图比较好懂：
+// ![leetcode820.jpg](https://pic.leetcode-cn.com/53e363baa4f8dc0b39f91f6eb593ac4f80fb9136d3b70e778afdc03850dfd94b-leetcode820.jpg)
 
-里面的每个长条都是capacity为26，可能画得有点不等长，不要介意哈。
+// 里面的每个长条都是capacity为26，可能画得有点不等长，不要介意哈。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         Node root = new Node();
@@ -44,4 +44,4 @@ class Node{
         return nextNode[c-'a'];
     }
 }
-```
+// ```

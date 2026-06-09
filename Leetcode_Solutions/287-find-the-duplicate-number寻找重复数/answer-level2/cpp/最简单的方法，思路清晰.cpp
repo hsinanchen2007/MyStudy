@@ -1,11 +1,11 @@
-### 解题思路
-排序，然后遍历
-比如 1 3 4 2 2 排序后 1 2 2 3 4
-然后遍历 找nums[i] == nums[i+1]就是那个重复的元素了
+// ### 解题思路
+// 排序，然后遍历
+// 比如 1 3 4 2 2 排序后 1 2 2 3 4
+// 然后遍历 找nums[i] == nums[i+1]就是那个重复的元素了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) 
@@ -22,4 +22,4 @@ public:
         return 0;
     }
 };
-```
+// ```

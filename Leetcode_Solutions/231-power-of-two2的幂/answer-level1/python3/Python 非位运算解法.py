@@ -1,5 +1,5 @@
-解题思路：如果一个数是2的n次幂，那么用2不断的去除这个数直到该数变为1都不会出现余数，反之则一定会出现余数。
-```
+# 解题思路：如果一个数是2的n次幂，那么用2不断的去除这个数直到该数变为1都不会出现余数，反之则一定会出现余数。
+# ```
 class Solution:
     def isPowerOfTwo(self, n) -> bool:
         if n==0:
@@ -12,4 +12,4 @@ class Solution:
             if temp!=0:
                 return False
         return True
-```
+# ```

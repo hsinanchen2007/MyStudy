@@ -1,6 +1,6 @@
-1. 先计算伪猜中
-2. 再计算猜中, 减去伪猜中重复的
-```java
+// 1. 先计算伪猜中
+// 2. 再计算猜中, 减去伪猜中重复的
+// ```java
 class Solution {
     public int[] masterMind(String solution, String guess) {
         int[] result = new int[2];
@@ -27,4 +27,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

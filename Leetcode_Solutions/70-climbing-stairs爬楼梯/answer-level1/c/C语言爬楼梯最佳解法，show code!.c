@@ -1,9 +1,9 @@
-### 解题思路
-使用尾递归
+// ### 解题思路
+// 使用尾递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int climb(int n, int first,int second) {
     if (n == 1) {
         return first;
@@ -20,4 +20,4 @@ int climbStairs(int n){
     return climb(n, 1, 2);
 }
 
-```
+// ```

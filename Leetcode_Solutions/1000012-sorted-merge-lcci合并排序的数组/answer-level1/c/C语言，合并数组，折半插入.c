@@ -1,9 +1,9 @@
-### 解题思路
-折半插入，从后向前扫描，每次循环直接移动到位，减少移动次数
+// ### 解题思路
+// 折半插入，从后向前扫描，每次循环直接移动到位，减少移动次数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     int mid = 0;
     int i = 0 , j = m-1 ;
@@ -23,4 +23,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
         low = 0;
     }
 }
-```
+// ```

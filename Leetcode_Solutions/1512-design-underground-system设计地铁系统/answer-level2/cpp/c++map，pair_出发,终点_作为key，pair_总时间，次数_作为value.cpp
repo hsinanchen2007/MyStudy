@@ -1,5 +1,5 @@
-双百，思路：pair<出发,终点>作为key，pair<总时间，次数>作为value。但出了个问题：最后return为什么要返回1.0*，不然通过不了最后一个用例，截取的小数位数有问题。
-```
+// 双百，思路：pair<出发,终点>作为key，pair<总时间，次数>作为value。但出了个问题：最后return为什么要返回1.0*，不然通过不了最后一个用例，截取的小数位数有问题。
+// ```
 struct System{
 int id;
 string stationName;
@@ -42,4 +42,4 @@ public:
        return 1.0*aver[key].first/aver[key].second;
     }
 };
-```
+// ```

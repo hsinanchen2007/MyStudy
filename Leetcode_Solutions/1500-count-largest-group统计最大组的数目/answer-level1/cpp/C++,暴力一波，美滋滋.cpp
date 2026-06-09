@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int solve(int n){
@@ -28,5 +28,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/4a2519ca94f94b392891c379a7b96f57820eb0a2878c37b82ea859d293aefbf4-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/4a2519ca94f94b392891c379a7b96f57820eb0a2878c37b82ea859d293aefbf4-image.png)

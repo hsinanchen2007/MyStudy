@@ -1,5 +1,5 @@
-直接上代码
-```
+# 直接上代码
+# ```
 if len(prices)<2: return 0
         benefits = [0]
         i, j, sum = 0, 1, 0
@@ -12,4 +12,4 @@ if len(prices)<2: return 0
                 benefits = [0]
         sum += benefits[-1]
         return sum
-```
+# ```

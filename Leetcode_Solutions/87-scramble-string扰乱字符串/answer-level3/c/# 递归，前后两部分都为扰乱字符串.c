@@ -1,5 +1,5 @@
-# 递归，前后两部分都为扰乱字符串
-```
+// # 递归，前后两部分都为扰乱字符串
+// ```
 bool isSplitScramble(char * s1, char * s2, int len)
 {
     int sum = 0;
@@ -29,4 +29,4 @@ bool isScramble(char * s1, char * s2){
     }
     return isSplitScramble(s1, s2, len);
 }
-```
+// ```

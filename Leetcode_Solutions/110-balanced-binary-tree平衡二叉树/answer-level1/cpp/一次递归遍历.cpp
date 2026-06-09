@@ -1,8 +1,8 @@
-一次递归遍历即可：
-思路：
-判断根结点左右字数高度
-16ms
-```cpp
+// 一次递归遍历即可：
+// 思路：
+// 判断根结点左右字数高度
+// 16ms
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ public:
         return false;
     }
 };
-```
+// ```

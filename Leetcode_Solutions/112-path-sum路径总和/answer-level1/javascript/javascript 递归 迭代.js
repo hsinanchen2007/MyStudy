@@ -1,10 +1,10 @@
-[112.路径总和](https://leetcode-cn.com/problems/path-sum/submissions/)
+// [112.路径总和](https://leetcode-cn.com/problems/path-sum/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)
 
-## 方法 DFS 递归
+// ## 方法 DFS 递归
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -26,11 +26,11 @@ var hasPathSum = function(root, sum) {
   let right = hasPathSum(root.right, sum - root.val);
   return left || right;
 };
-```
+// ```
 
-## 迭代
+// ## 迭代
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -64,4 +64,4 @@ var hasPathSum = function(root, sum) {
   }
   return false;
 };
-```
+// ```

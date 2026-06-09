@@ -1,6 +1,6 @@
-1.每一轮遇到运算符，则优先计算* /，在deque后端计算
-2.从deque前端计算+ -
-```
+// 1.每一轮遇到运算符，则优先计算* /，在deque后端计算
+// 2.从deque前端计算+ -
+// ```
 class Solution {
 public:
     int calculate(string s) { 
@@ -94,4 +94,4 @@ private:
     deque<char> ops;
     stringstream ss;
 };
-```
+// ```

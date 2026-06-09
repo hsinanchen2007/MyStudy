@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         quotient = abs(divisor) == 1 and abs(dividend) or 0  # 表达式 and value1 or value2 等价于 表达式?value1:value2
@@ -13,4 +13,4 @@ class Solution:
                     if dividend < divisor:
                         break
         return flag and max(-2**31, -quotient) or min(2**31-1, quotient)
-```
+# ```

@@ -1,7 +1,7 @@
-需要注意的是当遇到[["a", "a"]]和"aa"那就是true。就是在函数退出来的时候需要判断
-k == word.size() - 1 ? true : false;因为有可能在最后一个字符发现四周都已经被访问过了，这个时候到达不了word.size()但是且依然匹配。
+// 需要注意的是当遇到[["a", "a"]]和"aa"那就是true。就是在函数退出来的时候需要判断
+// k == word.size() - 1 ? true : false;因为有可能在最后一个字符发现四周都已经被访问过了，这个时候到达不了word.size()但是且依然匹配。
 
-```cpp
+// ```cpp
 class Solution {
 private:
     bool dfs(int i, int j, int k, bool* vis, string& word, 

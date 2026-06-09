@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int kthGrammar(int N, int K) {
@@ -11,4 +11,4 @@ public:
         return count;
     }
 };
-```
+// ```

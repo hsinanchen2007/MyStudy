@@ -1,9 +1,9 @@
-### 解题思路
-在递归时，传递一个boolean的标志。在递归root.left，标志=true
+// ### 解题思路
+// 在递归时，传递一个boolean的标志。在递归root.left，标志=true
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int sum = 0;
     public int sumOfLeftLeaves(TreeNode root) {
@@ -26,4 +26,4 @@ class Solution {
         inScan(root.right, false);
     }
 }
-```
+// ```

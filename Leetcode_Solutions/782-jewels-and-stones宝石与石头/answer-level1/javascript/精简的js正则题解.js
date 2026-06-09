@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} J
  * @param {string} S
@@ -14,4 +14,4 @@ var numJewelsInStones = function(J, S) {
 
 /*执行用时 :68 ms, 在所有 JavaScript 提交中击败了95.07%的用户
 内存消耗 :34.1 MB, 在所有 JavaScript 提交中击败了42.60%的用户*/
-```
+// ```

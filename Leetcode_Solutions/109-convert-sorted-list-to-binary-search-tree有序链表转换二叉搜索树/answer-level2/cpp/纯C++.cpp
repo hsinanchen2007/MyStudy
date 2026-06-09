@@ -1,9 +1,9 @@
-### 解题思路
-纯C++
+// ### 解题思路
+// 纯C++
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -52,4 +52,4 @@ private:
         return node;
     }
 };
-```
+// ```

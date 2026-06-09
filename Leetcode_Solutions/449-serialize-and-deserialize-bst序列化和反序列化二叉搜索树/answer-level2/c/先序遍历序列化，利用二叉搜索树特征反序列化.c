@@ -1,9 +1,9 @@
-对二叉树先序遍历序列化，这个很容易的。但是二叉树反序列化就比较困难了，需要组合才能生成树（例如先序+中序遍历），
+// 对二叉树先序遍历序列化，这个很容易的。但是二叉树反序列化就比较困难了，需要组合才能生成树（例如先序+中序遍历），
 
-但好在这里是二叉搜索树，是有排序特征的（排序后就是中序遍历了），所以是可以直接反序列化的
+// 但好在这里是二叉搜索树，是有排序特征的（排序后就是中序遍历了），所以是可以直接反序列化的
 
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -91,4 +91,4 @@ struct TreeNode* deserialize(char* data) {
 // Your functions will be called as such:
 // char* data = serialize(root);
 // deserialize(data);
-```
+// ```

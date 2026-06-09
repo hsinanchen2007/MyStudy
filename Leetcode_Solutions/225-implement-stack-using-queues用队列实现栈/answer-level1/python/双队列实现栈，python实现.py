@@ -1,6 +1,6 @@
-### 解题思路
-    按照官方题解，用两个队列代替栈，并参考评论大佬，pyhton实现，。打卡打卡！！！
-```
+# ### 解题思路
+#     按照官方题解，用两个队列代替栈，并参考评论大佬，pyhton实现，。打卡打卡！！！
+# ```
 from collections import deque
 
 class MyStack(object):
@@ -51,8 +51,8 @@ class MyStack(object):
         """
         return len(self.q1) == 0
 
-```
-祝大家都找到自己心仪的Offer
+# ```
+# 祝大家都找到自己心仪的Offer
 
 
 

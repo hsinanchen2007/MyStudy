@@ -1,5 +1,5 @@
-因为这题只需要返回一层的数据，所以我们也可以用上一题类似的操作，只不过每个层不通过list来区分，而是都放再一起。当新的一层的数据要放入时，旧一层的数据就要逐渐的poll出去。这样整个List链表的长度不会超过k。那么空间复杂度应该也是O(k)了吧。
-```
+// 因为这题只需要返回一层的数据，所以我们也可以用上一题类似的操作，只不过每个层不通过list来区分，而是都放再一起。当新的一层的数据要放入时，旧一层的数据就要逐渐的poll出去。这样整个List链表的长度不会超过k。那么空间复杂度应该也是O(k)了吧。
+// ```
 public List<Integer> getRow(int rowIndex) {
 
     List<Integer> ls = new LinkedList<>();
@@ -27,4 +27,4 @@ public List<Integer> getRow(int rowIndex) {
 
     return ls;
 }
-```
+// ```

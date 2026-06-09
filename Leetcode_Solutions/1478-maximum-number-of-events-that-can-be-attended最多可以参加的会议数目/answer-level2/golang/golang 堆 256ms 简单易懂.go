@@ -1,5 +1,5 @@
-其实就是每次把，最早开始的拿出来。如果结束时间比当前时间晚，开始时间+1 放到堆中继续
-```
+// 其实就是每次把，最早开始的拿出来。如果结束时间比当前时间晚，开始时间+1 放到堆中继续
+// ```
 func maxEvents(events [][]int) int {
     h := &IntHeap{}
     heap.Init(h)
@@ -47,4 +47,4 @@ func (h *IntHeap) Pop() interface{} {
 	*h = old[0 : n-1]
 	return x
 }
-```
+// ```

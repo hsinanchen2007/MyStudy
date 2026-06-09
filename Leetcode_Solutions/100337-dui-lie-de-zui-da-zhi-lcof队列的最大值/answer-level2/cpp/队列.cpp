@@ -1,8 +1,8 @@
-### 解题思路
-如果只用一个max记录最大值，会在队列pop的时候，找不到下一个最大值是多少，因此想到用一个队列来记录最大值
-### 代码
+// ### 解题思路
+// 如果只用一个max记录最大值，会在队列pop的时候，找不到下一个最大值是多少，因此想到用一个队列来记录最大值
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
 private:
     queue<int> q;
@@ -44,4 +44,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

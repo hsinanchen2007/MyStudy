@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/03984f055bccf0e4ac7bdefc60fe3e0835ca44716d97acf2232a8dfc4fe432fe-image.png)
+// ![image.png](https://pic.leetcode-cn.com/03984f055bccf0e4ac7bdefc60fe3e0835ca44716d97acf2232a8dfc4fe432fe-image.png)
 
-```
+// ```
     public List<Double> averageOfLevels(TreeNode root) {
         List<Double> res = new ArrayList<Double>();
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
@@ -27,4 +27,4 @@
         }
         return res;
     }
-```
+// ```

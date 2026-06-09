@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     
     def storeNodes(self, root, nodes):
@@ -20,4 +20,4 @@ class Solution:
         # print(nodes)
         n = len(nodes)
         return self.buildTree(nodes, 0, n-1)
-```
+# ```

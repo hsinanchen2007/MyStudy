@@ -1,13 +1,13 @@
-### 解题思路
-核心在于如何处理“*”
-按照x*的字符串可分为三种情况，
-1. x 与 x* 匹配：*多余  =>  f(i,j) = f(i, j-1)
-2. xx 与 x* 匹配：*需要扩展  => f(i,j) = f(i-1, j) : if s[i] == p[j - 1] or p[j - 1] == '.'
-3. y 与 x*匹配：x*都多余 => f(i,j) = f(i, j - 2)
+// ### 解题思路
+// 核心在于如何处理“*”
+// 按照x*的字符串可分为三种情况，
+// 1. x 与 x* 匹配：*多余  =>  f(i,j) = f(i, j-1)
+// 2. xx 与 x* 匹配：*需要扩展  => f(i,j) = f(i-1, j) : if s[i] == p[j - 1] or p[j - 1] == '.'
+// 3. y 与 x*匹配：x*都多余 => f(i,j) = f(i, j - 2)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isMatch(char * s, char * p){
     if (s == NULL || p == NULL) {
         return false;
@@ -63,4 +63,4 @@ bool isMatch(char * s, char * p){
     free(f);
     return ret;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 type MyQueue struct {
 	stackPush []int
 	stackPop []int
@@ -55,4 +55,4 @@ func (this *MyQueue) Peek() int {
 func (this *MyQueue) Empty() bool {
 	return (len(this.stackPop) <= 0 && len(this.stackPush)<=0) 
 }
-```
+// ```

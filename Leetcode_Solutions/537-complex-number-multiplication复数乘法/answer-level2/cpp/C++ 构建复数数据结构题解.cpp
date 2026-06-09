@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     struct Complex {
@@ -24,6 +24,6 @@ public:
         return (parse(a) * parse(b)).serial();
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/ad1489a1355b2026d2459037e4c2af8926310331392295b84772808bc4a08cd3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ad1489a1355b2026d2459037e4c2af8926310331392295b84772808bc4a08cd3-image.png)

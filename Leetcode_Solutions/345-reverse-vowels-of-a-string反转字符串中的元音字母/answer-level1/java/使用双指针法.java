@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String reverseVowels(String s) {
         int begin = 0;
@@ -28,4 +28,4 @@ class Solution {
         return new String(sArrays);
     }
 }
-```
+// ```

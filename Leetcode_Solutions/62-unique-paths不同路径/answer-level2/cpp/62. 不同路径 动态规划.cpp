@@ -1,9 +1,9 @@
-### 解题思路
-二维动态规划，dp[i][j]表示m=i,n=j,不同路径个数，因为ij位置只能来自于i-1,j或者i,j-1,所以转移方程dp[i][j]=dp[i-1][j]+dp[i][j-1]
+// ### 解题思路
+// 二维动态规划，dp[i][j]表示m=i,n=j,不同路径个数，因为ij位置只能来自于i-1,j或者i,j-1,所以转移方程dp[i][j]=dp[i-1][j]+dp[i][j-1]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePaths(int m, int n) {
@@ -18,4 +18,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

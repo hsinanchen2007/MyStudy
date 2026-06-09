@@ -1,8 +1,8 @@
-## 思路一：层次遍历+DFS
-从头节点，按层次遍历每个节点，对于每个节点，再按深度遍历，寻找是否存在路径和等于目标值。
-### 代码
-时间复杂度：O(n^2)
-```c++
+// ## 思路一：层次遍历+DFS
+// 从头节点，按层次遍历每个节点，对于每个节点，再按深度遍历，寻找是否存在路径和等于目标值。
+// ### 代码
+// 时间复杂度：O(n^2)
+// ```c++
 class Solution {
 public:
     int pathSum(TreeNode* root, int sum) {
@@ -41,11 +41,11 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-## 思路二：两次递归
-### 代码
-```
+// ## 思路二：两次递归
+// ### 代码
+// ```
 class Solution {
 public:
     int pathSum(TreeNode* root, int sum) {
@@ -62,6 +62,6 @@ public:
         return (sum == 0 ? 1 : 0) + helper(root->left, sum) + helper(root->right, sum);
     }
 };
-```
+// ```
 
 

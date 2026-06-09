@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public void sortColors(int[] nums) {
         int a = 0,j=0,k=nums.length - 1;
@@ -31,4 +31,4 @@ class Solution {
         }
     }
 }
-```
+// ```

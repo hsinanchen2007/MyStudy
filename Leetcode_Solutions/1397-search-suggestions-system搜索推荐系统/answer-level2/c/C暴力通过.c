@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -52,4 +52,4 @@ char *** suggestedProducts(char ** products, int productsSize, char * searchWord
     *returnSize = len;
     return ret;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-思路一：DFS
+# 思路一：DFS
 
-```python
+# ```python
 class Solution:
     def binaryTreePaths(self, root: TreeNode) -> List[str]:
         if not root: return []
@@ -11,11 +11,11 @@ class Solution:
             if root.right:helper(root.right, tmp + [str(root.val)])
         helper(root, [])
         return ["->".join(a) for a in res]     
-```
+# ```
 
-思路二：BFS
+# 思路二：BFS
 
-```python
+# ```python
 class Solution:
     def binaryTreePaths(self, root: TreeNode) -> List[str]:
         from collections import deque
@@ -32,5 +32,5 @@ class Solution:
             if node.right:
                 queue.appendleft([node.right, tmp + [str(node.val)]])
         return res
-```
+# ```
 

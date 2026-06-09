@@ -1,4 +1,4 @@
-offer 有道题和这个很像 于是照着改了一下
+// offer 有道题和这个很像 于是照着改了一下
 
 class MyQueue {
 public:

@@ -1,8 +1,8 @@
-来自官方题解的思路
-但执行用时152 ms
-内存消耗38.1 MB
+// 来自官方题解的思路
+// 但执行用时152 ms
+// 内存消耗38.1 MB
 
-```javascript
+// ```javascript
 var largestPerimeter = function(A) {
     A.sort((a,b) => a - b);
     // console.log(A);
@@ -12,4 +12,4 @@ var largestPerimeter = function(A) {
     }
     return 0;
 }
-```
+// ```

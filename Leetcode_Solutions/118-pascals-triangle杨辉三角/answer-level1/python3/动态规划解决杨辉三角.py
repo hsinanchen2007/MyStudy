@@ -1,10 +1,10 @@
-用的动态规划。
+# 用的动态规划。
 
-注意特殊情况。0行，1行，2行。
+# 注意特殊情况。0行，1行，2行。
 
-详细的解释在注释中。
+# 详细的解释在注释中。
 
-```
+# ```
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         if numRows == 0:
@@ -27,7 +27,7 @@ class Solution:
                 
             
             
-```
+# ```
 
                 
             

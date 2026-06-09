@@ -1,8 +1,8 @@
-### 解题思路
-剑指offer的思路，时间复杂度O(n)，空间复杂度O(1)
-### 代码
+// ### 解题思路
+// 剑指offer的思路，时间复杂度O(n)，空间复杂度O(1)
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -66,4 +66,4 @@ class Solution {
         return copyHead;
     }
 }
-```
+// ```

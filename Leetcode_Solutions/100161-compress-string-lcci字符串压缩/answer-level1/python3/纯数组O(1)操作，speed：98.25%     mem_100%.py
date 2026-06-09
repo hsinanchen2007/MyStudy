@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/b2722d5617e244a52dfd767add47a477b69cc7448010ee2ae78f194da82e7945-image.png)
+# ![image.png](https://pic.leetcode-cn.com/b2722d5617e244a52dfd767add47a477b69cc7448010ee2ae78f194da82e7945-image.png)
 
-看了大多数人都用hash，把所有key塞进去，感觉这样空间复杂度很高，很暴力。这里的解题思路如下：
-# 
-##### 1、申请一个包含两个元素的数组tmp，tmp[0]表示某个单词，tmp[1]表示这个单词连续出现的次数
-##### 2、依次遍历每个元素，如果tmp[0]与这个元素相等，则tmp[1] + 1 
-##### 3、如果当前元素与tmp[0]不相等，则组装输出字符串并把tmp[0] = 当前元素，tmp[1] = 1
-# 
-```python
+# 看了大多数人都用hash，把所有key塞进去，感觉这样空间复杂度很高，很暴力。这里的解题思路如下：
+# # 
+# ##### 1、申请一个包含两个元素的数组tmp，tmp[0]表示某个单词，tmp[1]表示这个单词连续出现的次数
+# ##### 2、依次遍历每个元素，如果tmp[0]与这个元素相等，则tmp[1] + 1 
+# ##### 3、如果当前元素与tmp[0]不相等，则组装输出字符串并把tmp[0] = 当前元素，tmp[1] = 1
+# # 
+# ```python
 def compress_string(input):
     if len(input) <= 2:
         return input
@@ -23,4 +23,4 @@ def compress_string(input):
     if len(output) >= len(input):
         return input
     return output
-```
+# ```

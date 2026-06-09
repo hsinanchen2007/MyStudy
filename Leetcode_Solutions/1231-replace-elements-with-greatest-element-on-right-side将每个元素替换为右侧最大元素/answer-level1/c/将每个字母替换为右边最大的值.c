@@ -1,9 +1,9 @@
-### 解题思路
-倒着从数组右边处理，一遍循环即可
+// ### 解题思路
+// 倒着从数组右边处理，一遍循环即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -20,4 +20,4 @@ int* replaceElements(int* arr, int arrSize, int* returnSize){
     *returnSize=arrSize;
     return arr;
 }
-```
+// ```

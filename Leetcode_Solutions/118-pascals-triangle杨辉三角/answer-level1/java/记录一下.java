@@ -1,10 +1,10 @@
-### 解题思路
-# 起初想法，在进行计算之前的row首位添加0 然后进行连续两个数相加，结果添加进入新的row
-# 发现引用使得整个二维数组都包含了0，最后发现0的作用其实就是为了添加收尾的1，所以直接add（1）避免修改row
+// ### 解题思路
+// # 起初想法，在进行计算之前的row首位添加0 然后进行连续两个数相加，结果添加进入新的row
+// # 发现引用使得整个二维数组都包含了0，最后发现0的作用其实就是为了添加收尾的1，所以直接add（1）避免修改row
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<Integer> row = new LinkedList<>();
@@ -27,4 +27,4 @@ class Solution {
 
     }
 }
-```
+// ```

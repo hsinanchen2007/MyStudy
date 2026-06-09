@@ -1,6 +1,6 @@
-遍历次数小的话hashMap比暴力法用时多啊。。
-Map:
-```JavaScript
+// 遍历次数小的话hashMap比暴力法用时多啊。。
+// Map:
+// ```JavaScript
 var twoSum = function(nums, target) {
     if (Object.prototype.toString.call(nums) !== '[object Array]'|| typeof target !== 'number') {
         return

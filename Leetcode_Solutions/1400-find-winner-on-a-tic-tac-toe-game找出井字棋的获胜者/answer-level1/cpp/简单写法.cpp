@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/b4185793ee46c6cb8c99e33e0f1ef1b63be9771a6bc3e081a3d3ffb73094f81b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b4185793ee46c6cb8c99e33e0f1ef1b63be9771a6bc3e081a3d3ffb73094f81b-image.png)
 
-```
+// ```
 class Solution {
 public:
     string tictactoe(vector<vector<int>>& moves) {
@@ -38,5 +38,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

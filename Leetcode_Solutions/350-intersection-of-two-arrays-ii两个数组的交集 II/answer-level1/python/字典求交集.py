@@ -1,9 +1,9 @@
-### 解题思路
-构建字典，键为数，值为出现次数
+# ### 解题思路
+# 构建字典，键为数，值为出现次数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
         dic1, dic2 = {}, {}
@@ -26,4 +26,4 @@ class Solution:
             
             
 
-```
+# ```

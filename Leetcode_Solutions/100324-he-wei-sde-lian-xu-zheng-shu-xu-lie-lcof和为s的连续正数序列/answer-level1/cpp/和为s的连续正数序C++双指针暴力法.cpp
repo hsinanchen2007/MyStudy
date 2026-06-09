@@ -1,10 +1,10 @@
-### 解题思路
-简单的C++暴力法，希望各位大佬多多指点
-利用双指针，一个low和一个high，指向两端，不断记录两端之间的和。
-效率还行，4ms和9.1MB
-### 代码
+// ### 解题思路
+// 简单的C++暴力法，希望各位大佬多多指点
+// 利用双指针，一个low和一个high，指向两端，不断记录两端之间的和。
+// 效率还行，4ms和9.1MB
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -34,4 +34,4 @@ public:
         return re;
     }
 };
-```
+// ```

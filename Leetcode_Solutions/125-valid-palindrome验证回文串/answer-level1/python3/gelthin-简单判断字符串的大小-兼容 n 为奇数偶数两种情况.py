@@ -1,13 +1,13 @@
-### 解题思路
-首先进行预处理，发现 python3 也可以用 'a'<= x >= 'z' 等来判断
-然后从中间用双指针快速判断是否为回文串。
-注意到令 i, j = int((n-1)/2), int(n/2) 
-则可以兼容 n 为奇数偶数两种情况。
+# ### 解题思路
+# 首先进行预处理，发现 python3 也可以用 'a'<= x >= 'z' 等来判断
+# 然后从中间用双指针快速判断是否为回文串。
+# 注意到令 i, j = int((n-1)/2), int(n/2) 
+# 则可以兼容 n 为奇数偶数两种情况。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         res = ""
@@ -29,4 +29,4 @@ class Solution:
             j += 1
         return flag
 
-```
+# ```

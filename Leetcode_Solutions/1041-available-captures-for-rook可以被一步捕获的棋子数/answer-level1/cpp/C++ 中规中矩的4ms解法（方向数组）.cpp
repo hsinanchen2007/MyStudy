@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -32,4 +32,4 @@ public:
         return res;
     }
 };
-```
+// ```

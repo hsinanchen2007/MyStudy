@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func minRemoveToMakeValid(_ s: String) -> String {
         let lc: String.Element = "("
@@ -24,4 +24,4 @@ class Solution {
         return String(stack)
     }
 }
-```
+// ```

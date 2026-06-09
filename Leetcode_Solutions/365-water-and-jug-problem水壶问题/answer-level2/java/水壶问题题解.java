@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
    public boolean canMeasureWater(int x, int y, int z) {
         if(z==0){
@@ -32,5 +32,5 @@ class Solution {
     }
 
 }
-```
-我感觉我的方法很脑残 ,不断判断判断,然后调用求最大公约数来比较
+// ```
+// 我感觉我的方法很脑残 ,不断判断判断,然后调用求最大公约数来比较

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findLUSlength(String a, String b) {
         int max = Integer.MIN_VALUE;
@@ -27,4 +27,4 @@ class Solution {
         return max==Integer.MIN_VALUE?-1:max;
     }
 }
-```
+// ```

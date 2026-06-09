@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,6 +30,6 @@ class Solution {
 
 
 }
-```
-递归比较好理解
-镜像的话 只要保证 t1.val==t2.val&&treeEquals(t1.left, t2.right) && treeEquals(t1.right, t2.left)
+// ```
+// 递归比较好理解
+// 镜像的话 只要保证 t1.val==t2.val&&treeEquals(t1.left, t2.right) && treeEquals(t1.right, t2.left)

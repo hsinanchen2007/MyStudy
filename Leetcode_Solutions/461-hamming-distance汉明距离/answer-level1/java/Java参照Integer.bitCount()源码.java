@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int hammingDistance(int x, int y) {
         int i=x^y;
@@ -15,4 +15,4 @@ class Solution {
         return i & 0x3f;
     }
 }
-```
+// ```

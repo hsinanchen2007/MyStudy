@@ -1,4 +1,4 @@
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -18,11 +18,11 @@ class Solution:
             if l1.val > l2.val: l1, l2 = l2, l1
             l1.next = self.mergeTwoLists(l1.next, l2)
         return l1 or l2
-```
-- 使用快慢指针寻找链表中点，并分解链表
-- 递归融合俩个有序链表，详解见 21 题
-- 此处忽略了递归开栈导致的非 常数级空间复杂度（想太多了吧:laughing:），如果一定要抬杠，推荐使用quicksort
-	```python
+# ```
+# - 使用快慢指针寻找链表中点，并分解链表
+# - 递归融合俩个有序链表，详解见 21 题
+# - 此处忽略了递归开栈导致的非 常数级空间复杂度（想太多了吧:laughing:），如果一定要抬杠，推荐使用quicksort
+# 	```python
 	class Solution(object):
 	    def sortList(self, head):
 		"""
@@ -59,5 +59,5 @@ class Solution:
 		newHead.next = head
 		quicksort(newHead, None)
 		return newHead.next
-	```
+# 	```
 

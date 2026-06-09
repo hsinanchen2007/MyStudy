@@ -1,18 +1,18 @@
-全局变量prev 指当前指针的前一位 
+// 全局变量prev 指当前指针的前一位 
 
-递归过程中，递归到底部后，将head节点插入到之前的prev节点的前面
+// 递归过程中，递归到底部后，将head节点插入到之前的prev节点的前面
 
-具体过程是：
+// 具体过程是：
 
-1.记录prev的next Node next = prev.next
+// 1.记录prev的next Node next = prev.next
 
-2.将head放到prev的next: prev.next = head
+// 2.将head放到prev的next: prev.next = head
 
-3.将之前的prev的next接到head的next:head.next=next
+// 3.将之前的prev的next接到head的next:head.next=next
 
-4.将next的prev指向head:next.prev = head
+// 4.将next的prev指向head:next.prev = head
 
-```
+// ```
 class Solution {
     Node prev = null;
     public Node flatten(Node head) {
@@ -36,4 +36,4 @@ class Solution {
         
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-纯c面对字符串问题的无奈.....这道题感觉在考字符串排序
-```
+// 纯c面对字符串问题的无奈.....这道题感觉在考字符串排序
+// ```
 int cmp(const void* a,const void* b)
 {
     return strcmp(*(char **)a,*(char**)b);
@@ -44,4 +44,4 @@ int uniqueMorseRepresentations(char ** words, int wordsSize){
     }
     return cn;
 }
-```
+// ```

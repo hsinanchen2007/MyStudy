@@ -1,12 +1,12 @@
-### 解题思路
-“面试官，这是我的优化，能给offer了吗？。。。。欸欸欸，不给就不给，不给也行，就当交个朋友，你别动手。。诶诶，别动手。我自己走。。。。”
+// ### 解题思路
+// “面试官，这是我的优化，能给offer了吗？。。。。欸欸欸，不给就不给，不给也行，就当交个朋友，你别动手。。诶诶，别动手。我自己走。。。。”
 
-![image.png](https://pic.leetcode-cn.com/142f9cf5073490e78b29bed46f02d3aca61318061b68329e701cb32987dff645-image.png)
+// ![image.png](https://pic.leetcode-cn.com/142f9cf5073490e78b29bed46f02d3aca61318061b68329e701cb32987dff645-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -40,4 +40,4 @@ var getLeastNumbers = function (arr, k) {
     arr.forEach(intoK);
     return kArr;
 };
-```
+// ```

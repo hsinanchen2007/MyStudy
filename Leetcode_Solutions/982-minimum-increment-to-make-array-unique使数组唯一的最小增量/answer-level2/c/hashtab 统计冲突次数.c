@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define maxValue  40000
 
 int minIncrementForUnique(int* A, int ASize){
@@ -25,4 +25,4 @@ int minIncrementForUnique(int* A, int ASize){
     }
     return moveCnt;
 }
-```
+// ```

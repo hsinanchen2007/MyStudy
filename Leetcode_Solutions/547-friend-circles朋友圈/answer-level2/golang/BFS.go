@@ -1,5 +1,5 @@
 
-```
+// ```
 // BFS
 func findCircleNum(M [][]int) int {
     if len(M) <= 1 {
@@ -34,4 +34,4 @@ func bfs(data [][]int, visited []bool, root int) {
 		}
 	}
 }
-```
+// ```

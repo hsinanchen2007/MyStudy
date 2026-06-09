@@ -1,9 +1,9 @@
-### 解题思路
-判断当前值是否为0，以及历史最大值是否能够跳跃过去。
+# ### 解题思路
+# 判断当前值是否为0，以及历史最大值是否能够跳跃过去。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
 
@@ -22,4 +22,4 @@ class Solution:
                 return False
 
         return max_dist>=len(nums[:-1])
-```
+# ```

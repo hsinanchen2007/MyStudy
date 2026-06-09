@@ -1,9 +1,9 @@
-### 解题思路
-其实就是交换左右树
+// ### 解题思路
+// 其实就是交换左右树
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -21,4 +21,4 @@ func mirrorTree(root *TreeNode) *TreeNode {
 	root.Right = mirrorTree(root.Right)
 	return root
 }
-```
+// ```

@@ -1,18 +1,18 @@
 
-**UPDATE: 米娜桑下午好～～ 刚刚我在公众号【[甜姨的奇妙冒险](https://pic.leetcode-cn.com/304599b006dd41bcf2042715f31a2dc4fbdc4cf9748a11a81d8978ea1e839956-wxgzh.jpeg)】更新了本题更详细的题解，很多小tips等你来取嗷～～，欢迎大家围观**❤️
+// **UPDATE: 米娜桑下午好～～ 刚刚我在公众号【[甜姨的奇妙冒险](https://pic.leetcode-cn.com/304599b006dd41bcf2042715f31a2dc4fbdc4cf9748a11a81d8978ea1e839956-wxgzh.jpeg)】更新了本题更详细的题解，很多小tips等你来取嗷～～，欢迎大家围观**❤️
 
 
 
 
------s
+// -----s
 
-🙋今日打卡~因为写了2种风格的代码所以慢了点~
-这题其实是构造性的题目，所以只需要尽可能的左右对称地构造字符串就行了，所以回文串里每种字符都出现了偶数次，除了奇数长度的回文串的时候最中间的那个字符可以出现奇数次。
-比如回文串 abba，每个字符都出现了偶数次。而奇数长度的回文串abcbcbcba，c出现了奇数次。
+// 🙋今日打卡~因为写了2种风格的代码所以慢了点~
+// 这题其实是构造性的题目，所以只需要尽可能的左右对称地构造字符串就行了，所以回文串里每种字符都出现了偶数次，除了奇数长度的回文串的时候最中间的那个字符可以出现奇数次。
+// 比如回文串 abba，每个字符都出现了偶数次。而奇数长度的回文串abcbcbcba，c出现了奇数次。
 
-先是利用int数组计数的方法：
+// 先是利用int数组计数的方法：
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
       int[] cnt = new int[58];
@@ -29,12 +29,12 @@ class Solution {
       return ans < s.length() ? ans + 1 : ans;  
     }
 }
-```
+// ```
 
-然后可以用Java8的流式风格来写，好像是在小数据集上用stream会比较慢，这样写的耗时会长一点。
-可以学习下stream的写法~
+// 然后可以用Java8的流式风格来写，好像是在小数据集上用stream会比较慢，这样写的耗时会长一点。
+// 可以学习下stream的写法~
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
       Map<Integer, Integer> count = s.chars().boxed()
@@ -44,5 +44,5 @@ class Solution {
       return ans < s.length() ? ans + 1 : ans;
     }
 }
-```
+// ```
 

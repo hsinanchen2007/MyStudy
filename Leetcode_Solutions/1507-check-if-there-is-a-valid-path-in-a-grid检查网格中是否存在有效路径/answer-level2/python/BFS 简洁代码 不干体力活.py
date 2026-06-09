@@ -1,5 +1,5 @@
-# lalala
-```
+# # lalala
+# ```
 def hasValidPath(self, grid):
     #  记录可以行走的方向
     dirs = {1:[(0, 1), (0, -1)], 2:[(-1, 0), (1, 0)], 3:[(0, -1), (1, 0)], 4:[(0, 1), (1, 0)], 5:[(0, -1), (-1, 0)], 6:[(0, 1), (-1, 0)]}
@@ -18,4 +18,4 @@ def hasValidPath(self, grid):
                 vis.add((nx, ny))
                 Q.append((nx, ny))
     return False
-```
+# ```

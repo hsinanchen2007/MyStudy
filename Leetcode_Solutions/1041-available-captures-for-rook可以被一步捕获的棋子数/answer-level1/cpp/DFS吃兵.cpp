@@ -1,8 +1,8 @@
-### 解题思路
-第一想法是暴力循环但是感觉代码太多，就用了dfs代码应该较短（口糊）。dfs四个方向判断是否有兵加几个判断就行。
-### 代码
+// ### 解题思路
+// 第一想法是暴力循环但是感觉代码太多，就用了dfs代码应该较短（口糊）。dfs四个方向判断是否有兵加几个判断就行。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int dfs(vector<vector<char>>& board, int i, int j, char jl) {
@@ -35,4 +35,4 @@ public:
         return ans;
     }
 };
-```
+// ```

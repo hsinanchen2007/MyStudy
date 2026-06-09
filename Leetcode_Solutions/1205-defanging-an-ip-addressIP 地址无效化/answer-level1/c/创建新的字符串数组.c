@@ -1,9 +1,9 @@
-### 解题思路
-感觉有一点难度
+// ### 解题思路
+// 感觉有一点难度
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * defangIPaddr(char * address){
     char* p=malloc(sizeof(char)*25);
     char *s=p;
@@ -25,4 +25,4 @@ char * defangIPaddr(char * address){
     *p='\0';
     return s;
 }
-```
+// ```

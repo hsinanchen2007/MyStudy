@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static String frequencySort(String s) {
         HashMap<Character, Integer> map = new HashMap<>(); //hashmap统计字符出现频率
@@ -40,4 +40,4 @@ class Nod{
         this.freq=frep;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-思路：
-1.使用map记录ransomNote中每个元素出现的次数
-2.遍历manazine，出现map中的元素时，其对应的键值减一
-3.map中键值存在有大于0的则返回false，否则返回true
-时间复杂度：O(n),空间复杂度O(n)
+// 思路：
+// 1.使用map记录ransomNote中每个元素出现的次数
+// 2.遍历manazine，出现map中的元素时，其对应的键值减一
+// 3.map中键值存在有大于0的则返回false，否则返回true
+// 时间复杂度：O(n),空间复杂度O(n)
 
-```
+// ```
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         int rLen = ransomNote.length();
@@ -36,4 +36,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

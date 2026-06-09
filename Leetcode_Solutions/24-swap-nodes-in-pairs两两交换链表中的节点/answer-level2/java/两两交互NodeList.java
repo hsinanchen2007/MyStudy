@@ -1,5 +1,5 @@
 
-```
+// ```
 public Class ListNodeDemo{
     publc NodeList swapNodeList(NodeList head){
         if(head==null||head.next==null){
@@ -12,4 +12,4 @@ public Class ListNodeDemo{
    }
 
 }
-```
+// ```

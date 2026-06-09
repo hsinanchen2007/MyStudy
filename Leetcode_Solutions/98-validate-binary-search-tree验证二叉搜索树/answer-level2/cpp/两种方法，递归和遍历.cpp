@@ -1,10 +1,10 @@
-### 解题思路
-1. 思路1，中序遍历判断后一个是否大于前一个
-2. 思路2，基于边界的递归，边界使用long long 的（LLONG_MIN, LLONG_MAX）防止int 的溢出
+// ### 解题思路
+// 1. 思路1，中序遍历判断后一个是否大于前一个
+// 2. 思路2，基于边界的递归，边界使用long long 的（LLONG_MIN, LLONG_MAX）防止int 的溢出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -62,4 +62,4 @@ public:
         return true;
     }
 };
-```
+// ```

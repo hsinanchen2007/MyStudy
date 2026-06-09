@@ -1,6 +1,6 @@
 
-只用递归会超时，可见记忆数组提升很大
-```c++
+// 只用递归会超时，可见记忆数组提升很大
+// ```c++
 class Solution {
 public:
     bool recur(size_t cur,string &s,vector<string>&vs,vector<bool>& visit){
@@ -21,4 +21,4 @@ public:
         return recur(0,s,wordDict,visit);
     }
 };
-```
+// ```

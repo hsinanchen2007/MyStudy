@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     //第一个I对应0，第二个I对应0+1。第一个D对应 N ,N第二个对应N-1。
 public:
@@ -25,6 +25,6 @@ public:
         
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/3b40b498a6429686f945c7778f610b093a94a5f1838c69df0e26f8da740714a7-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/3b40b498a6429686f945c7778f610b093a94a5f1838c69df0e26f8da740714a7-image.png)
 

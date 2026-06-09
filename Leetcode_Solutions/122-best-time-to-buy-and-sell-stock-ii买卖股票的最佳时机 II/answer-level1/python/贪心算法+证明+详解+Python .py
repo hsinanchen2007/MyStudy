@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -27,4 +27,4 @@ class Solution(object):
             balance += prices[-1]
 
         return balance
-```
+# ```

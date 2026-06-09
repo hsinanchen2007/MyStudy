@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public void duplicateZeros(int[] arr) {
         //快慢指针，寻找原数组中应该出现在结果数组最后一个位置的元素index
@@ -26,4 +26,4 @@ class Solution {
         }
     }
 }
-```
+// ```

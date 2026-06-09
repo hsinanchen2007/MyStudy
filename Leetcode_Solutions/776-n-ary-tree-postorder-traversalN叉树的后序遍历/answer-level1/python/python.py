@@ -1,9 +1,9 @@
-### 解题思路
-N叉树的后序遍历，同二叉树的后序遍历
+# ### 解题思路
+# N叉树的后序遍历，同二叉树的后序遍历
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node(object):
@@ -28,4 +28,4 @@ class Solution(object):
             ans.append(node.val)#再将当前节点的值写入ans[]中
         postTraversal(root)
         return ans
-```
+# ```

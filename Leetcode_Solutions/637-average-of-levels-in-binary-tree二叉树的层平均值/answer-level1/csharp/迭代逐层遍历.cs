@@ -1,4 +1,4 @@
-```
+// ```
 public IList<double> AverageOfLevels(TreeNode root) {
         var list=new List<TreeNode>(){root};
         var res=new List<double>();
@@ -19,4 +19,4 @@ public IList<double> AverageOfLevels(TreeNode root) {
         }
         return res;
     }
-```
+// ```

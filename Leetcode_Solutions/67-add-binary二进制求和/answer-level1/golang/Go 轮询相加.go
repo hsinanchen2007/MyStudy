@@ -1,4 +1,4 @@
-```
+// ```
  func addBinary(a string, b string) string {
 	ret := ""
 	res := []int{}
@@ -71,4 +71,4 @@ func StrAdd(i, j string) (total int) {
 	intj, _ := strconv.Atoi(j)
 	return inti + intj
 }
-```
+// ```

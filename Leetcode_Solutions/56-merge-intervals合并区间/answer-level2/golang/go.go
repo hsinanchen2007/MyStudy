@@ -1,11 +1,11 @@
-**实现思路**
-```
+// **实现思路**
+// ```
 1. 排序
 2. 遍历：合并
-```
-**代码实现**
+// ```
+// **代码实现**
 
-```
+// ```
 func  helper(a []int,b []int) bool {
 	if a[1] < b[0]{
 		return false
@@ -48,4 +48,4 @@ func merge(intervals [][]int) [][]int {
 	return intervals
 }
 
-```
+// ```

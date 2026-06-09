@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -13,13 +13,13 @@ var removeDuplicates = function(nums) {
     }
     return ++i;
 };
-```
+// ```
 
-### js最高赞解法
+// ### js最高赞解法
 
-[链接在此](https://leetcode.com/problems/remove-duplicates-from-sorted-array/discuss/248020)
+// [链接在此](https://leetcode.com/problems/remove-duplicates-from-sorted-array/discuss/248020)
 
-```javascript
+// ```javascript
 var removeDuplicates = function(nums) {
 	let i = 0;
 	for (let j = 0; j < nums.length; j++) {
@@ -28,4 +28,4 @@ var removeDuplicates = function(nums) {
 	}
 	return ++i;
 };
-```
+// ```

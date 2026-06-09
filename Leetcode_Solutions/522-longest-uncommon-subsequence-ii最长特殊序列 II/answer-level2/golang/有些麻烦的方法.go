@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type data struct{
 	num int
 	len int
@@ -99,4 +99,4 @@ func isChild(father string,son string)bool{
 	return true
 }
 
-```
+// ```

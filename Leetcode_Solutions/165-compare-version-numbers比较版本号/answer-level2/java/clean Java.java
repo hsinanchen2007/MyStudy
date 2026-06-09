@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int compareVersion(String version1, String version2) {
         String[] str1 = version1.split("\\.");
@@ -21,4 +21,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

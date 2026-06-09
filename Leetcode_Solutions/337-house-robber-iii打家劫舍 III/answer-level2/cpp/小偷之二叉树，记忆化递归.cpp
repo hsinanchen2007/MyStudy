@@ -1,12 +1,12 @@
-### 解题思路
-哈希表m记录每个节点的最优结果
-那么对于root，最优情况只有两种
-1.root->val + m[root->left->left] + m[root->left->right] + m[root->right->left] + m[root->right->left]
-2.m[root->left] + m[root->right]
-取两者最大值即可
-### 代码
+// ### 解题思路
+// 哈希表m记录每个节点的最优结果
+// 那么对于root，最优情况只有两种
+// 1.root->val + m[root->left->left] + m[root->left->right] + m[root->right->left] + m[root->right->left]
+// 2.m[root->left] + m[root->right]
+// 取两者最大值即可
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ public:
         return m[root];
     }
 };
-```
+// ```

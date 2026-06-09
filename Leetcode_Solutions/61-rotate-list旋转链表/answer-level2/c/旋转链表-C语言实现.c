@@ -1,10 +1,10 @@
-> 61. 旋转链表  
+// > 61. 旋转链表  
 
-[61. 旋转链表](https://leetcode-cn.com/problems/rotate-list/)  
+// [61. 旋转链表](https://leetcode-cn.com/problems/rotate-list/)  
 
-给定一个链表，旋转链表，将链表每个节点向右移动 k 个位置，其中 k 是非负数。
+// 给定一个链表，旋转链表，将链表每个节点向右移动 k 个位置，其中 k 是非负数。
 
-```c
+// ```c
 
 执行用时 :8 ms, 在所有 C 提交中击败了71.83%的用户  
 内存消耗 :7.3 MB, 在所有 C 提交中击败了86.84%的用户  
@@ -43,4 +43,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
 }
 
 
-```
+// ```

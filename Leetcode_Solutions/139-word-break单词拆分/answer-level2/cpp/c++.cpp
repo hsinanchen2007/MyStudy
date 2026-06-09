@@ -1,9 +1,9 @@
-### 解题思路
-思路见注释
+// ### 解题思路
+// 思路见注释
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -29,4 +29,4 @@ public:
         return dp[size];
     }
 };
-```
+// ```

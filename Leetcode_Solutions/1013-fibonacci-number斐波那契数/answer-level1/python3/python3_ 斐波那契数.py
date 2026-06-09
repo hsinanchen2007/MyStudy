@@ -1,4 +1,4 @@
-```python
+# ```python
 def fib(N):
     if N in [0, 1]:
         return N
@@ -9,4 +9,4 @@ def fib(N):
     return b
 
 print(fib(3))
-```
+# ```

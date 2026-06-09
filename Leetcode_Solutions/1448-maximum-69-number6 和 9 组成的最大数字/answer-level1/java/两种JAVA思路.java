@@ -1,12 +1,12 @@
-### 解题思路
-只需要将从高位到低位遇到的第一个6换成9，就可以得到最大数字。
+// ### 解题思路
+// 只需要将从高位到低位遇到的第一个6换成9，就可以得到最大数字。
 
-### 方法一
-方法一是我想到的笨办法，从高到低入栈，然后依次拿出来，将遇到的第一个6换成9，即可。
+// ### 方法一
+// 方法一是我想到的笨办法，从高到低入栈，然后依次拿出来，将遇到的第一个6换成9，即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.LinkedList;
 class Solution {
     public int maximum69Number (int num) {
@@ -31,10 +31,10 @@ class Solution {
 
     }
 }
-```
-### 方法二 
-看了大佬的题解后，得到的办法。将数字转换为字符串（字符串在Java中不可改变，可以使用一个StringBuilder)，然后从前往后，替换遇到的第一个字符6，即可。
-```java
+// ```
+// ### 方法二 
+// 看了大佬的题解后，得到的办法。将数字转换为字符串（字符串在Java中不可改变，可以使用一个StringBuilder)，然后从前往后，替换遇到的第一个字符6，即可。
+// ```java
 import java.util.LinkedList;
 class Solution {
     public int maximum69Number (int num) {
@@ -51,4 +51,4 @@ class Solution {
 
     }
 }
-```
+// ```

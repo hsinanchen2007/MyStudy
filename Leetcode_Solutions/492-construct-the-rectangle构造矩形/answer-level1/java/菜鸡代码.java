@@ -1,8 +1,8 @@
-### 解题思路
-没有思路，干就完事儿了。
-### 代码
+// ### 解题思路
+// 没有思路，干就完事儿了。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] constructRectangle(int area) {
 int L=area,W=1;
@@ -36,4 +36,4 @@ if(L>0){
     return num;
     }
 }
-```
+// ```

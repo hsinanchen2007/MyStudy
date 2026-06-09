@@ -1,4 +1,4 @@
-```
+// ```
 class TrieNode{
     public $isEnd = false;
     public $next = [];
@@ -60,4 +60,4 @@ class Trie {
         return true;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
         //由于不清楚最后有几个区块，所以构造一个list暂时存放
@@ -32,6 +32,6 @@ class Solution {
         return res;
     }
 }
-``````
-代码块
-```
+// ``````
+// 代码块
+// ```

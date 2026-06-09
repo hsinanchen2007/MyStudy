@@ -1,10 +1,10 @@
-### 解题思路
-是用List
-由于不能边查边删，push_back的复杂度更像是"O(2)"
+// ### 解题思路
+// 是用List
+// 由于不能边查边删，push_back的复杂度更像是"O(2)"
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
     List<Integer> queueList;
     List<Integer> maxQueueList;
@@ -59,4 +59,4 @@ class MaxQueue {
         return value;
     }
 }
-```
+// ```

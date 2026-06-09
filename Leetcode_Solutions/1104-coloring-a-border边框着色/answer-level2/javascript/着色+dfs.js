@@ -1,8 +1,8 @@
-- 访问过的节点 grid[y][x]乘以负一
-- 然后判断是否需要着色
-- 然后依次遍历四周的四个节点
-- 克隆一次grid用来保存结果 空间换时间
-```
+// - 访问过的节点 grid[y][x]乘以负一
+// - 然后判断是否需要着色
+// - 然后依次遍历四周的四个节点
+// - 克隆一次grid用来保存结果 空间换时间
+// ```
 var colorBorder = function(grid, r0, c0, color) {
   let originColor = grid[r0][c0];
   if (originColor === color) return grid;
@@ -28,4 +28,4 @@ var colorBorder = function(grid, r0, c0, color) {
   dfs(r0, c0)
   return cloneGride;
 };
-```
+// ```

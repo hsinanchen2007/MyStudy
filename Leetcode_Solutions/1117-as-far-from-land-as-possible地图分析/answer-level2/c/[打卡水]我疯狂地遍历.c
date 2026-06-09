@@ -1,18 +1,18 @@
-看着我这用来遍历的变量，仿佛看见一个又一个“菜”字。
-但至少写出来了，打卡以示纪念。
-### 解题思路
-解题的思路用四个字概括，那就是“波心荡漾”。
-从海面的0点，顺着矩形的波纹，找到它的1。
-+——————+
-|　　　　　　|
-|　　　0　　|1
-|　　　　　　|
-+——————+
-就像这样。
+// 看着我这用来遍历的变量，仿佛看见一个又一个“菜”字。
+// 但至少写出来了，打卡以示纪念。
+// ### 解题思路
+// 解题的思路用四个字概括，那就是“波心荡漾”。
+// 从海面的0点，顺着矩形的波纹，找到它的1。
+// +——————+
+// |　　　　　　|
+// |　　　0　　|1
+// |　　　　　　|
+// +——————+
+// 就像这样。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxDistance(int** grid, int gridSize, int* gridColSize){
     int i,j,s,n,maxi,flag1,flag2,min,tmp;
     int up,down,left,right;
@@ -46,4 +46,4 @@ int maxDistance(int** grid, int gridSize, int* gridColSize){
     if(flag2&&flag1) return maxi;
     else return -1;
 }
-```
+// ```

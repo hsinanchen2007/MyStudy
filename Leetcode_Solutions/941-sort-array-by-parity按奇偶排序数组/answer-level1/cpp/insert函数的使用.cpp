@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
@@ -13,4 +13,4 @@ public:
         return A2;
     }
 };
-```
+// ```

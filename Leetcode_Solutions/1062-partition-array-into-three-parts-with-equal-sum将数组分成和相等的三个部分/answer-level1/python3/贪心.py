@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         he = 0
@@ -18,4 +18,4 @@ class Solution:
             if tmp == he:ans += 1;tmp = 0
         if ans <3:return False
         else:return True
-```
+# ```

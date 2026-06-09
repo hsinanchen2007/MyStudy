@@ -1,6 +1,6 @@
 
-func findWords(words []string) []string {
-```
+// func findWords(words []string) []string {
+// ```
  	dic1 := "asdfghjklASDFGHJKL"//大小写都放进去就不用在后面再区分了
 	dic2 := "qwertyuiopQWERTYUIOP"
 	dic3 := "zxcvbnmZXCVBNM"
@@ -27,5 +27,5 @@ func findWords(words []string) []string {
         }
 	}
 	return result
-```
-｝
+// ```
+// ｝

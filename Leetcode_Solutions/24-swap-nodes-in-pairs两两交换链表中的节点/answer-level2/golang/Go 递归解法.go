@@ -1,6 +1,6 @@
-Go 递归解法
+// Go 递归解法
 
-```
+// ```
 func swapPairs(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {                 // 终止条件
 		return head
@@ -11,4 +11,4 @@ func swapPairs(head *ListNode) *ListNode {
 	secondNode.Next = firstNode
 	return secondNode
 }
-```
+// ```

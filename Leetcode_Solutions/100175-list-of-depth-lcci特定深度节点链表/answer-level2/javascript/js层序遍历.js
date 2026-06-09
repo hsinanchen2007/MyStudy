@@ -1,4 +1,4 @@
-```
+// ```
 var listOfDepth = function(tree) {
     let arr = [];
     let bfs = (nodeArr) => {
@@ -23,7 +23,7 @@ var listOfDepth = function(tree) {
     bfs([tree]);
     return arr;
 };
-```
+// ```
 
-前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
-这里记录了我刷过的近500道LeetCode的题解
+// 前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
+// 这里记录了我刷过的近500道LeetCode的题解

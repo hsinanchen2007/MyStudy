@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char str[100]={0},tmp[6];
 char * itoa(int x);
 char * optimalDivision(int* nums, int n){
@@ -37,4 +37,4 @@ char* itoa(int x){
     }
     return tmp+i+1;
 }
-```
+// ```

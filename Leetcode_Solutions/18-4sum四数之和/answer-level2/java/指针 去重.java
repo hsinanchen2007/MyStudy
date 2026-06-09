@@ -1,4 +1,4 @@
-package 四数之和;
+// package 四数之和;
 import java.util.*;
 public class Solution {
 	public List<List<Integer>> fourSum(int[] nums, int target) {

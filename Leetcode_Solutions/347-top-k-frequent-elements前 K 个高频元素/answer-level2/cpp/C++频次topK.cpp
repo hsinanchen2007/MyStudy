@@ -1,21 +1,21 @@
 
-C++，最小堆+hash。
+// C++，最小堆+hash。
 
-说一个很多人不知道的小知识点，C++中**不同pair之间大小比较默认先比较first，再比较second**，这样对做这道题有帮助。如果没有pair这个特性的话，可能得写个struct进行重载或者自定义比较函数了。
-思路也是很简单的，先用hash达到记录元素频次的目的，然后再用一个大小为K的最小堆，选出频次最高的K个元素，输出就好了。
+// 说一个很多人不知道的小知识点，C++中**不同pair之间大小比较默认先比较first，再比较second**，这样对做这道题有帮助。如果没有pair这个特性的话，可能得写个struct进行重载或者自定义比较函数了。
+// 思路也是很简单的，先用hash达到记录元素频次的目的，然后再用一个大小为K的最小堆，选出频次最高的K个元素，输出就好了。
 
-思路可以整理一下：
+// 思路可以整理一下：
 
-- 用`unordered_map`进频次统计
-- 遍历`unordered_map`，使用优先队列构造一个容量为K的最小堆
-  - 优先队列使用`priority_queue<T, vector<T>, greater<T>> heap`，其中`T = pair<int, int>`
-  - 构造pair的时候记得频次在前，元素在后，因为pair默认先比较first，再比较second
-  - 把构造的pair按规则决定是否压入优先队列中
-- 输出优先队列
+// - 用`unordered_map`进频次统计
+// - 遍历`unordered_map`，使用优先队列构造一个容量为K的最小堆
+//   - 优先队列使用`priority_queue<T, vector<T>, greater<T>> heap`，其中`T = pair<int, int>`
+//   - 构造pair的时候记得频次在前，元素在后，因为pair默认先比较first，再比较second
+//   - 把构造的pair按规则决定是否压入优先队列中
+// - 输出优先队列
 
-基于上述思路，就可以写出代码了。
+// 基于上述思路，就可以写出代码了。
 
-```cpp
+// ```cpp
 class Solution {
 public:
     using T = pair<int, int>;
@@ -41,4 +41,4 @@ public:
         return ans;
     }
 };
-```
+// ```

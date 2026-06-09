@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def splitArraySameAverage(A: Array[Int]): Boolean = {
     val n = A.sum
@@ -17,4 +17,4 @@ object Solution {
     false
   }
 }
-```
+// ```

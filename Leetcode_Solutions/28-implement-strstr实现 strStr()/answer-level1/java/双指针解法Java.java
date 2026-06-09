@@ -1,5 +1,5 @@
-执行用时 :0 ms,
-内存消耗 :38.2 MB。
+// 执行用时 :0 ms,
+// 内存消耗 :38.2 MB。
 class Solution {
     public int strStr(String haystack, String needle) {
 

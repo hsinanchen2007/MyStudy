@@ -1,10 +1,10 @@
-### 解题思路
-![微信图片_20200313214543.png](https://pic.leetcode-cn.com/932c39043afb028d8c8dfffc6a79f5b219a95a1284ad0f3198744074328f54c2-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200313214543.png)
-php解题如下
+// ### 解题思路
+// ![微信图片_20200313214543.png](https://pic.leetcode-cn.com/932c39043afb028d8c8dfffc6a79f5b219a95a1284ad0f3198744074328f54c2-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200313214543.png)
+// php解题如下
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     function majorityElement($nums) {
@@ -21,4 +21,4 @@ class Solution {
         }
     }
 }
-```
+// ```

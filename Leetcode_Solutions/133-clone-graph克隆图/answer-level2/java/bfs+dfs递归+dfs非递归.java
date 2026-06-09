@@ -1,5 +1,5 @@
-这道题目是图的遍历，节点遍历我们很熟悉，要么dfs，要么dfs。关键点是：**图的边怎么复制**。为了复制两个节点之间边的关系，我们用一个map去记录原节点和新节点之间的对应关系，这样遍历节点的的时候我们就可以通过map 查到复制节点的，把他们的边复制上。我们先采用bfs的方式来复制图。
-```
+// 这道题目是图的遍历，节点遍历我们很熟悉，要么dfs，要么dfs。关键点是：**图的边怎么复制**。为了复制两个节点之间边的关系，我们用一个map去记录原节点和新节点之间的对应关系，这样遍历节点的的时候我们就可以通过map 查到复制节点的，把他们的边复制上。我们先采用bfs的方式来复制图。
+// ```
 class Solution {
     public Node cloneGraph(Node node) {
         if (node == null) return null;
@@ -35,11 +35,11 @@ class Solution {
         return map.get(node);
     }
 }
-```
+// ```
 
-采用dfs的递归方式来复制图。
+// 采用dfs的递归方式来复制图。
 
-```
+// ```
 class Solution {
     public Node cloneGraph(Node node) {
         Map<Node, Node> resNode2CopyNode = new HashMap<>();
@@ -73,9 +73,9 @@ class Solution {
         return copy;
     }
 }
-```
-采用dfs迭代的方式来解。
-```
+// ```
+// 采用dfs迭代的方式来解。
+// ```
 class Solution {
     public Node cloneGraph(Node node) {
         if (node == null) return null;
@@ -113,4 +113,4 @@ class Solution {
         return copy;
     }
 }
-```
+// ```

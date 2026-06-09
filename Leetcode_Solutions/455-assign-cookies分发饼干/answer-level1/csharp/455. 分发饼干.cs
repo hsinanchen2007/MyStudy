@@ -1,9 +1,9 @@
-### 解题思路
-数组排序，一次遍历
+// ### 解题思路
+// 数组排序，一次遍历
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int FindContentChildren(int[] g, int[] s) {
         if (g.Length == 0 || s.Length == 0) return 0;
@@ -20,4 +20,4 @@ public class Solution {
         return child;
     }
 }
-```
+// ```

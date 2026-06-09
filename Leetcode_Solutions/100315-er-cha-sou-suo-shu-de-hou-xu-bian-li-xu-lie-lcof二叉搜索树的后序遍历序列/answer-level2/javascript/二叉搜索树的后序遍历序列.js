@@ -1,9 +1,9 @@
-### 解题思路
-见注释
+// ### 解题思路
+// 见注释
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var verifyPostorder = function(postorder) {
     if (postorder.length != 1) {
         var root = postorder.pop(); // 弹出数组最尾  数组改变
@@ -47,4 +47,4 @@ var verifyPostorder = function(postorder) {
     
     return true;
 };
-```
+// ```

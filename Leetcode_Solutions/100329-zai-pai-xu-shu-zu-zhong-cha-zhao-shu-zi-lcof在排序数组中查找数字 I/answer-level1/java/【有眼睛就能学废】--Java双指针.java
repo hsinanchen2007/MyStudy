@@ -1,12 +1,12 @@
-### 解题思路
-采用双指针方法从数组左右两端向中间开始遍历，统计值为target的元素个数。
-复杂度分析：
-- 时间复杂度：O(N)
-- 空间复杂度：O(1)
+// ### 解题思路
+// 采用双指针方法从数组左右两端向中间开始遍历，统计值为target的元素个数。
+// 复杂度分析：
+// - 时间复杂度：O(N)
+// - 空间复杂度：O(1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         int left = 0;
@@ -33,4 +33,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

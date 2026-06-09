@@ -1,9 +1,9 @@
-### 解题思路
-有些思路了，不过代码方面细节还存在问题*f[i] = Math.max(f[i-1], f[i-2]+nums[i-1]);*
+// ### 解题思路
+// 有些思路了，不过代码方面细节还存在问题*f[i] = Math.max(f[i-1], f[i-2]+nums[i-1]);*
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         int len = nums.length;
@@ -25,5 +25,5 @@ class Solution {
 		return max;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/af937a9ef50702f80a96cab80aa6b4d67bcf874ba33cdd57e5c90e6f8189543c-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/af937a9ef50702f80a96cab80aa6b4d67bcf874ba33cdd57e5c90e6f8189543c-image.png)

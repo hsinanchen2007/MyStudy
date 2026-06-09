@@ -1,4 +1,4 @@
-思路就是分两边遍历，到头后从另一侧继续开始，最后比较哪一条路会更小
+// 思路就是分两边遍历，到头后从另一侧继续开始，最后比较哪一条路会更小
 int distanceBetweenBusStops(int* distance, int distanceSize, int start, int destination){
     int left = 0,right = 0;
     int rightDes = destination - start;

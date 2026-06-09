@@ -1,9 +1,9 @@
-### 解题思路
-异或的结果是1，统计有多少个1即可。
+// ### 解题思路
+// 异或的结果是1，统计有多少个1即可。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -15,8 +15,8 @@ class Solution {
         return substr_count(decbin($x ^ $y), '1');
     }
 }
-```
+// ```
 
-参考：
-[decbin](https://www.php.net/manual/zh/function.decbin)
-[substr_count](https://www.php.net/manual/zh/function.substr-count)
+// 参考：
+// [decbin](https://www.php.net/manual/zh/function.decbin)
+// [substr_count](https://www.php.net/manual/zh/function.substr-count)

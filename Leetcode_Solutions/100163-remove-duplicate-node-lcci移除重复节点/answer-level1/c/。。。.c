@@ -1,9 +1,9 @@
-### 解题思路
-方法比较简单，map标记以下即可
+// ### 解题思路
+// 方法比较简单，map标记以下即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ struct ListNode* removeDuplicateNodes(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

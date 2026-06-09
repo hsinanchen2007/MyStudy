@@ -1,4 +1,4 @@
-```
+# ```
 def gck(a, b):
     while b != 0:
         a, b = b, a % b
@@ -29,6 +29,6 @@ class Solution(object):
                 return False
         return True
 
-```
-把问题抽象出来就是，数字出现的次数有没有>=2的最大公约数。
+# ```
+# 把问题抽象出来就是，数字出现的次数有没有>=2的最大公约数。
 

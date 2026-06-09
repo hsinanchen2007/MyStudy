@@ -1,10 +1,10 @@
-### 解题思路
-dp[i][0], dp[i][1] 分别表示截止到i不偷取nums[i]的最大收益和截止到i偷取nums[i]的最大收益
-加上的限制是能偷取nums[0]处就不能偷取nums[len-1]处，反之亦然，所以可以分为两个问题分别dp，再取两者之大即可
+// ### 解题思路
+// dp[i][0], dp[i][1] 分别表示截止到i不偷取nums[i]的最大收益和截止到i偷取nums[i]的最大收益
+// 加上的限制是能偷取nums[0]处就不能偷取nums[len-1]处，反之亦然，所以可以分为两个问题分别dp，再取两者之大即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func rob(nums []int) int {
     n := len(nums)
     if n == 0 {
@@ -43,4 +43,4 @@ func max(nums ...int) int {
     sort.Ints(tmp)
     return tmp[len(nums)-1]
 }
-```
+// ```

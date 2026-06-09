@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func toGoatLatin(_ S: String) -> String {
         let yuan = [Character]("aeiouAEIOU")
@@ -16,4 +16,4 @@ class Solution {
         return Ss.joined(separator: " ")
     }
 }
-```
+// ```

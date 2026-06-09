@@ -1,4 +1,4 @@
-```
+// ```
  bool checkIfExist(vector<int>& arr) {
     sort(arr.begin(),arr.end());
     int n=arr.size();
@@ -21,4 +21,4 @@
     if(cl>=2)return true;	
 	return false;
 }
-```
+// ```

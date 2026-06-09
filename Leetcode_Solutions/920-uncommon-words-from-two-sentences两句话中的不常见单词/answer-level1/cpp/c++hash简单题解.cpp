@@ -1,7 +1,7 @@
-![3YK\]6@SO32`AFCX`Q_LTHBV.png](https://pic.leetcode-cn.com/f5eff06143599cbee63acad2bfda3a0eb9a0a65422f71c2b904d06f59356a17d-3YK%5D6@SO32%60AFCX%60Q_LTHBV.png)
+// ![3YK\]6@SO32`AFCX`Q_LTHBV.png](https://pic.leetcode-cn.com/f5eff06143599cbee63acad2bfda3a0eb9a0a65422f71c2b904d06f59356a17d-3YK%5D6@SO32%60AFCX%60Q_LTHBV.png)
 
-有一个hash表存储A,B字符串中的单词的个数信息，个数为1，则存入结果
-```
+// 有一个hash表存储A,B字符串中的单词的个数信息，个数为1，则存入结果
+// ```
 class Solution {
 public:
     vector<string> uncommonFromSentences(string A, string B) {
@@ -51,4 +51,4 @@ public:
         return res;
     }
 };
-```
+// ```

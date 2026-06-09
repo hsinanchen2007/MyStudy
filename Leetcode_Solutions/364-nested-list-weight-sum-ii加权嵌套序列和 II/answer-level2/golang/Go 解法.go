@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/266763f32a6bf7dc2f521c25ac72417b0a7f039f5eaf00047b373f6c9f761db7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/266763f32a6bf7dc2f521c25ac72417b0a7f039f5eaf00047b373f6c9f761db7-image.png)
 
 
-```golang
+// ```golang
 func depthSumInverse(nestedList []*NestedInteger) int {
     s := map[int][]int{}
     r := 0
@@ -37,4 +37,4 @@ func sum(nums []int) int{
 
     return r
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-先转成后缀表达式，再计算就方便多了
+// 先转成后缀表达式，再计算就方便多了
 
-![image.png](https://pic.leetcode-cn.com/9a33062cf81bc7c817972b250d4c345679983dd8272118da8c154de98b045e3e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9a33062cf81bc7c817972b250d4c345679983dd8272118da8c154de98b045e3e-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_OK 0
 #define MY_FAIL (-1)
 
@@ -220,4 +220,4 @@ int calculate(char * s){
     sFree(&s_num);
     return ret;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-解题方案。整体思路。将字符串转换为字符数组重后向前按位相加，记录是否进位。如果长度不一致。将字符赋值为0;使计算逻辑统计；如果计算完，进位依然存在结果前补0；
-```
+// 解题方案。整体思路。将字符串转换为字符数组重后向前按位相加，记录是否进位。如果长度不一致。将字符赋值为0;使计算逻辑统计；如果计算完，进位依然存在结果前补0；
+// ```
 public String addBinary(String a, String b) {
         //转数组
         char[] aArray = a.toCharArray();
@@ -34,5 +34,5 @@ public String addBinary(String a, String b) {
         //返回最终结果
         return jw ? "1" + new String(rArray) : new String(rArray);
     }
-```
+// ```
 

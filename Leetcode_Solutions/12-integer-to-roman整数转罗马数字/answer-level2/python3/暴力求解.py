@@ -1,9 +1,9 @@
-### 解题思路
-暴力求解
+# ### 解题思路
+# 暴力求解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intToRoman(self, num: int) -> str:
 
@@ -18,4 +18,4 @@ class Solution:
             res = res + (char[i]*n[i])
 
         return res
-```
+# ```

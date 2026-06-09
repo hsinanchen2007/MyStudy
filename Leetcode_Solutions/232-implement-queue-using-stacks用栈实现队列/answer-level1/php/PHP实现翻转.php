@@ -1,9 +1,9 @@
-### 解题思路
-思路就是用两个栈，当调用pop、peek时将原来压入栈的元素在弹出压入，这样就实现翻转了。
+// ### 解题思路
+// 思路就是用两个栈，当调用pop、peek时将原来压入栈的元素在弹出压入，这样就实现翻转了。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class MyQueue {
     /**
      * Initialize your data structure here.
@@ -73,4 +73,4 @@ class MyQueue {
  * $ret_3 = $obj->peek();
  * $ret_4 = $obj->empty();
  */
-```
+// ```

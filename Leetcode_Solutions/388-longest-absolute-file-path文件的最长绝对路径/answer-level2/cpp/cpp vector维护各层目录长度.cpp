@@ -1,11 +1,11 @@
-### 解题思路
-通过样例可以看出，搜索到当前文件时，只需要确定对应当前文件的目录就行，同一层目录只需要维护最新的目录字符串长度就行，记录下了每一层的目录字符串长度，当前路径的字符串长度为0层~当前各层目录字符串长度之和加上层数（层数对应‘\’的数目，我的层数从0开始）。
-![J5ODM6NU8}B`~69MVQJLY(T.png](https://pic.leetcode-cn.com/448ea944c5cfeb02624cf7ebb551af8b6969c9bb50aa507433e56cf4a73880b7-J5ODM6NU8%7DB%60~69MVQJLY\(T.png)
+// ### 解题思路
+// 通过样例可以看出，搜索到当前文件时，只需要确定对应当前文件的目录就行，同一层目录只需要维护最新的目录字符串长度就行，记录下了每一层的目录字符串长度，当前路径的字符串长度为0层~当前各层目录字符串长度之和加上层数（层数对应‘\’的数目，我的层数从0开始）。
+// ![J5ODM6NU8}B`~69MVQJLY(T.png](https://pic.leetcode-cn.com/448ea944c5cfeb02624cf7ebb551af8b6969c9bb50aa507433e56cf4a73880b7-J5ODM6NU8%7DB%60~69MVQJLY\(T.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthLongestPath(string input) {
@@ -60,4 +60,4 @@ public:
 }
 
 };
-```
+// ```

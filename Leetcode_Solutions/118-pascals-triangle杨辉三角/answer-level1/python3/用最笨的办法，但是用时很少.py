@@ -1,9 +1,9 @@
-### 解题思路
-一个初学者，只能最简单的循环解决
+# ### 解题思路
+# 一个初学者，只能最简单的循环解决
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         if not numRows:return []
@@ -24,4 +24,4 @@ class Solution:
             a = []
             len_ += 1
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-去掉最高找最高就是第二
+-- ### 解题思路
+-- 去掉最高找最高就是第二
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select max(Salary) SecondHighestSalary
@@ -19,4 +19,4 @@ SELECT
         LIMIT 1 OFFSET 1),
     NULL) AS SecondHighestSalary
 
-```
+-- ```

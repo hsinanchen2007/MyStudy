@@ -1,9 +1,9 @@
-### 解题思路
-思路清晰，叫我第一☝️（dfs专练）
+// ### 解题思路
+// 思路清晰，叫我第一☝️（dfs专练）
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -36,4 +36,4 @@ function dfs(root, path, sum){
     dfs(root.right, path, sum)
     path.pop()
 }
-```
+// ```

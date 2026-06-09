@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/a54ed899daee10041c0a5f41124b03ecd74d42816f42c01d7965a746abb1a181-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a54ed899daee10041c0a5f41124b03ecd74d42816f42c01d7965a746abb1a181-image.png)
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -21,4 +21,4 @@ public:
         return res;
     }
 };
-```
+// ```

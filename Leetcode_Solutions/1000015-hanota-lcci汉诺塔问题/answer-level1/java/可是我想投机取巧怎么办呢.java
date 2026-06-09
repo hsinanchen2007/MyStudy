@@ -1,14 +1,14 @@
-### 宣判封顶！！
-```
+// ### 宣判封顶！！
+// ```
 class Solution {
     public void hanota(List<Integer> A, List<Integer> B, List<Integer> C) {
         C.addAll(A);
         A.clear();
     }
 }
-```
-#### 还是好好写代码吧...
-```
+// ```
+// #### 还是好好写代码吧...
+// ```
 class Solution {
     public void hanota(List<Integer> A, List<Integer> B, List<Integer> C) {
         hanota(A.size(), A, B, C);
@@ -26,4 +26,4 @@ class Solution {
         hanota(n - 1, B, A, C);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 def dailyTemperatures(self, T: List[int]) -> List[int]:
         res, length, i = [0] * len(T), len(T), len(T) - 2
         while i >= 0:
@@ -15,4 +15,4 @@ def dailyTemperatures(self, T: List[int]) -> List[int]:
                         j += res[j]
             i -= 1
         return res
-```[@pulsaryu](/u/pulsaryu)
+# ```[@pulsaryu](/u/pulsaryu)

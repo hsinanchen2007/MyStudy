@@ -1,9 +1,9 @@
-### 解题思路
-递归 -》 动态规划 -》 动态规划优化
+// ### 解题思路
+// 递归 -》 动态规划 -》 动态规划优化
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numDecodings(String s) {
         // “12” -> AB or L 即两种结果，返回2
@@ -67,4 +67,4 @@ class Solution {
         return ans1 + ans2;
     }
 }
-```
+// ```

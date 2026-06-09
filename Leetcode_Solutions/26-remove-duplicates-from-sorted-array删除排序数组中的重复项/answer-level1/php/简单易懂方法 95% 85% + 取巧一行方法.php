@@ -1,9 +1,9 @@
-### 解题思路
-从后往前删，不需要额外空间
+// ### 解题思路
+// 从后往前删，不需要额外空间
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -26,9 +26,9 @@ class Solution {
         return count($nums);
     }
 }
-```
+// ```
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -40,4 +40,4 @@ class Solution {
         return count(array_unique($nums));
     }
 }
-```
+// ```

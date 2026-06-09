@@ -1,9 +1,9 @@
-### 解题思路
-主要用到的是迭代，关键点是这样的有实际含义的变量命名要合理一些。两层和上一字符比较的过程。
+# ### 解题思路
+# 主要用到的是迭代，关键点是这样的有实际含义的变量命名要合理一些。两层和上一字符比较的过程。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countAndSay(self, n: int) -> str:
         pre="1"
@@ -23,4 +23,4 @@ class Solution:
             say+=str(count)+cur
             pre=say
         return pre
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-  借用数组来存储字符出现的次数，然后找到第一个值为1的字符
+// ### 解题思路
+//   借用数组来存储字符出现的次数，然后找到第一个值为1的字符
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char firstUniqChar(String s) {
         if(s == "" || s == null) return ' ';
@@ -20,4 +20,4 @@ class Solution {
         return ' ';
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 解法一 两次循环
+// ### 解法一 两次循环
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -33,11 +33,11 @@ class Solution {
         return $maxIndex;
     }
 }
-```
+// ```
 
-### 解法二 利用 PHP 内置函数处理
+// ### 解法二 利用 PHP 内置函数处理
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -57,4 +57,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

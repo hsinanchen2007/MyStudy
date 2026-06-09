@@ -1,4 +1,4 @@
-```
+// ```
 int str_to_minute(char *str)
 {
     return ((str[0] - '0')*10 + str[1] - '0')*60 + (str[3] - '0')*10 + str[4] - '0';
@@ -35,4 +35,4 @@ int findMinDifference(char ** timePoints, int timePointsSize){
 
     return min;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-一行一行的生成法
+// ### 解题思路
+// 一行一行的生成法
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::char::from_digit;
 impl Solution {
     pub fn count_and_say(n: i32) -> String {
@@ -52,4 +52,4 @@ impl Solution {
     return res;
 }
 }
-```
+// ```

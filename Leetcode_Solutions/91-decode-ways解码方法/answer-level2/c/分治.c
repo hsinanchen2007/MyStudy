@@ -1,4 +1,4 @@
-```
+// ```
 int numDecodings(char * s){
     if (s[0] == '\0') {
         return 1;
@@ -15,4 +15,4 @@ int numDecodings(char * s){
     }
     return numDecodings(s + 1);
 }
-```
+// ```

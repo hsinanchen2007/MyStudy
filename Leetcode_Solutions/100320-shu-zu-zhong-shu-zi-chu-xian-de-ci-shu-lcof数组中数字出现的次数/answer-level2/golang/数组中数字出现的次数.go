@@ -1,9 +1,9 @@
-### 解题思路
-使用map计数即可
+// ### 解题思路
+// 使用map计数即可
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func singleNumbers(nums []int) []int {
     var ret []int
     md := make(map[int]int)
@@ -17,4 +17,4 @@ func singleNumbers(nums []int) []int {
     }
     return ret
 }
-```
+// ```

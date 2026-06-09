@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class Solution {
     public int numSquares(int n) {
         Queue<Integer> queue = new LinkedList<>();
@@ -27,8 +27,8 @@ class Solution {
         return distance;
     }
 }
-```
+// ```
 
-照着代码和下面的图一起理解，效果更好
+// 照着代码和下面的图一起理解，效果更好
 
-![image.png](https://pic.leetcode-cn.com/37dd6ca263dd676718fcc99206cbccef4d6e6c21bde487bef20b185016228b20-image.png)
+// ![image.png](https://pic.leetcode-cn.com/37dd6ca263dd676718fcc99206cbccef4d6e6c21bde487bef20b185016228b20-image.png)

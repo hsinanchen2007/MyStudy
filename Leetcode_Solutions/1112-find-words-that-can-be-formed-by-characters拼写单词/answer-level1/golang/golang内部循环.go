@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countCharacters(words []string, chars string) int {
 	res := 0
 	outloop: for _, word := range words {
@@ -16,4 +16,4 @@ func countCharacters(words []string, chars string) int {
 	}
 	return res
 }
-```
+// ```

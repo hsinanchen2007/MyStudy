@@ -1,7 +1,7 @@
-很简单的思路，不需要考虑四个方向
-只需要考虑行和列，每行/列（除最外侧的四个面）的侧面积增加量为两行立方体的高度差，累计求和，最后加上最外侧六个方向的面积
+# 很简单的思路，不需要考虑四个方向
+# 只需要考虑行和列，每行/列（除最外侧的四个面）的侧面积增加量为两行立方体的高度差，累计求和，最后加上最外侧六个方向的面积
 
-```
+# ```
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -17,4 +17,4 @@ class Solution:
                     sum2 += abs(grid[i][j]-grid[i][j-1]) #横向侧面积
         sum4 = 2*(n*n-zero) #两个底面积
         return sum1 + sum2 + sum3 + sum4
-```
+# ```

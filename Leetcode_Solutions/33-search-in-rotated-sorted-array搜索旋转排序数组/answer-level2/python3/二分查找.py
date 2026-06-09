@@ -1,5 +1,5 @@
-做法差不多 先找到旋转的index 然后判断属于哪一个区间 分别二分查找即可
-```
+# 做法差不多 先找到旋转的index 然后判断属于哪一个区间 分别二分查找即可
+# ```
 #
 # @lc app=leetcode.cn id=33 lang=python3
 #
@@ -38,4 +38,4 @@ class Solution:
                 else:
                     left+=1
             return -1
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 struct ListNode* reverseList(struct ListNode* head){//辅助函数，将链表逆序
     struct ListNode* dummyhead = (struct ListNode*)malloc(sizeof(struct ListNode));
     dummyhead->next = NULL;
@@ -38,4 +38,4 @@ void reorderList(struct ListNode* head){
     }
 
 }
-```
+// ```

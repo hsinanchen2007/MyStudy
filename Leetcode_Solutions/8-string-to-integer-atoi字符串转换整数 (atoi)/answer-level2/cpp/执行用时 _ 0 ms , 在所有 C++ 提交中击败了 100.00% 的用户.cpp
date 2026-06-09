@@ -1,11 +1,11 @@
-**方法一：击败了 100.00% 的用户**
-![my.jpg](https://pic.leetcode-cn.com/ba4c91d83b24209cfe4ec73135f94be29cbb892337d0abaccae992c4e9816486-my.jpg)
+// **方法一：击败了 100.00% 的用户**
+// ![my.jpg](https://pic.leetcode-cn.com/ba4c91d83b24209cfe4ec73135f94be29cbb892337d0abaccae992c4e9816486-my.jpg)
 
 
-只能存储32位大小的有符号整数  这个我当初没有注意到(自动忽略了，哈哈
-评论里已经有大佬解决了，大家可以看看评论，基本思路是差不多的
+// 只能存储32位大小的有符号整数  这个我当初没有注意到(自动忽略了，哈哈
+// 评论里已经有大佬解决了，大家可以看看评论，基本思路是差不多的
 
-```
+// ```
 int myAtoi(string str) {
 	if(isalpha(str[0])) return 0;
 	long long  ans=0;
@@ -34,18 +34,18 @@ int myAtoi(string str) {
 }
 
 
-```
-**方法二：超简洁** 
-手动@ 氵丨
-这个方法是我借鉴来的
-个性域名为：san-gun
-```
+// ```
+// **方法二：超简洁** 
+// 手动@ 氵丨
+// 这个方法是我借鉴来的
+// 个性域名为：san-gun
+// ```
 int myAtoi(string str) {
         int d=0;
         istringstream is(str);
         is>>d;
         return d;
     }
-```
+// ```
 
 

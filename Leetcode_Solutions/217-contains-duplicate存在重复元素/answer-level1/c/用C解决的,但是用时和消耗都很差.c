@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct node{
     int val;
     int num;
@@ -48,4 +48,4 @@ bool containsDuplicate(int* nums, int numsSize){
     }
     return false;
 }
-```
+// ```

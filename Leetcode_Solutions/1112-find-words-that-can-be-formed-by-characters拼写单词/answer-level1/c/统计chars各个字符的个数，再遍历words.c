@@ -1,10 +1,10 @@
-### 解题思路
-1、for循环，将chars中各个字符的个数记录到table1[26]中
-2、for循环遍历words，首先判断长度，如果word的长度>chars长度，则直接跳过；否则，拷贝table1到table2中，然后遍历word，遇到字符直接在table2中减一。直至循环结束或者table2中某个字符减到<0
+// ### 解题思路
+// 1、for循环，将chars中各个字符的个数记录到table1[26]中
+// 2、for循环遍历words，首先判断长度，如果word的长度>chars长度，则直接跳过；否则，拷贝table1到table2中，然后遍历word，遇到字符直接在table2中减一。直至循环结束或者table2中某个字符减到<0
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars)
 {
 	int ret = 0;
@@ -41,4 +41,4 @@ int countCharacters(char ** words, int wordsSize, char * chars)
 	return ret;
 }
 
-```
+// ```

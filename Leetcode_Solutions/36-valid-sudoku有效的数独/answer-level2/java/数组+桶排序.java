@@ -1,9 +1,9 @@
-### 解题思路
-利用桶排序的思想
+// ### 解题思路
+// 利用桶排序的思想
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   public boolean isValidSudoku(char[][] board) {
       
@@ -38,4 +38,4 @@ class Solution {
 
 
 }
-```
+// ```

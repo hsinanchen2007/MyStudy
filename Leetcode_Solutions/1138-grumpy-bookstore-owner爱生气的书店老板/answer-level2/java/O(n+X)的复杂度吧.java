@@ -1,13 +1,13 @@
-初学java
+// 初学java
 
-先计算没有X的情况下用户能得到的满意值
+// 先计算没有X的情况下用户能得到的满意值
 
-然后计算X能带来的满意值提升，每次加入一个"分钟"，然后去掉一个"分钟"，然后计算最大值
+// 然后计算X能带来的满意值提升，每次加入一个"分钟"，然后去掉一个"分钟"，然后计算最大值
 
 
-java击败99.66%
+// java击败99.66%
 
-```
+// ```
 class Solution {
     public int maxSatisfied(int[] customers, int[] grumpy, int X) {
         int satisfy = 0;
@@ -46,4 +46,4 @@ class Solution {
         
     }
 }
-```
+// ```

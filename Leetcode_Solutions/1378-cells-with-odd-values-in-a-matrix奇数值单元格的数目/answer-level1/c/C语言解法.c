@@ -1,5 +1,5 @@
-分别统计行和列出现的次数的奇偶性，然后行列进行重合，奇偶性相同为偶数，不同为奇数
-```
+// 分别统计行和列出现的次数的奇偶性，然后行列进行重合，奇偶性相同为偶数，不同为奇数
+// ```
 int oddCells(int n, int m, int** indices, int indicesSize, int* indicesColSize)
 {
     int res = 0;
@@ -23,4 +23,4 @@ int oddCells(int n, int m, int** indices, int indicesSize, int* indicesColSize)
     }
     return res;
 }
-```
+// ```

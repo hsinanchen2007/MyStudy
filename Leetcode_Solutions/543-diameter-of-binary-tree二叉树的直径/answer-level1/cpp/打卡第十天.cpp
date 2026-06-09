@@ -1,4 +1,4 @@
-根据最大距离的节点数减去1 求最大距离
+// 根据最大距离的节点数减去1 求最大距离
 class Solution {
 public:
     int diameterOfBinaryTree(TreeNode* root) {

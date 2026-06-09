@@ -1,9 +1,9 @@
-### 解题思路
-这题应该很简单吧。。
+// ### 解题思路
+// 这题应该很简单吧。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int[] nums;
 
@@ -29,4 +29,4 @@ class Solution {
  * Solution obj = new Solution(nums);
  * int param_1 = obj.pick(target);
  */
-```
+// ```

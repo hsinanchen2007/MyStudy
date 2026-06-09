@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # The guess API is already defined for you.
 # @param num, your guess
 # @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
@@ -43,4 +43,4 @@ class Solution:
 
 
 
-```
+# ```

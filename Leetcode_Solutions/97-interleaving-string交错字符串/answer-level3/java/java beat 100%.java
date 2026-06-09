@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     private boolean[][] dp;
     private char[] s1,s2,s3;
@@ -25,5 +25,5 @@ public class Solution {
         return helper(0,0,0);
     }
 }
-```
-如果有帮助请点个赞吧^_^
+// ```
+// 如果有帮助请点个赞吧^_^

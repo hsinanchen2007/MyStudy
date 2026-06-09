@@ -1,9 +1,9 @@
-### 解题思路
-对于s从后往前进行查找，找了非空格的话就进入把这个单词的起止位置找到，然后把单词赋值给返回字符串。然后继续。
+// ### 解题思路
+// 对于s从后往前进行查找，找了非空格的话就进入把这个单词的起止位置找到，然后把单词赋值给返回字符串。然后继续。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * reverseWords(char * s){
     int len = strlen(s);
     char* new_s = (char*)malloc(sizeof(char)*(len+1));
@@ -39,4 +39,4 @@ char * reverseWords(char * s){
     return new_s;
 }
 
-```
+// ```

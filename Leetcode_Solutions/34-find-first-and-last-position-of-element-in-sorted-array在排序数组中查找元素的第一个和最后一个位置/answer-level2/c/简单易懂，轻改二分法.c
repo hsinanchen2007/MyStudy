@@ -1,9 +1,9 @@
-### 解题思路
-以往二分法是查找某一个元素，这次二分法是查找两个元素，所以把二分法的查找过程写两次，修改一下找到的条件就行了。
+// ### 解题思路
+// 以往二分法是查找某一个元素，这次二分法是查找两个元素，所以把二分法的查找过程写两次，修改一下找到的条件就行了。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int* searchRange(int* nums, int numsSize, int target, int* returnSize) {
 	int *ret = (int*)malloc(2 * sizeof(int));
 	*returnSize = 2;
@@ -40,4 +40,4 @@ int* searchRange(int* nums, int numsSize, int target, int* returnSize) {
 	}
 	return ret;
 }
-```
+// ```

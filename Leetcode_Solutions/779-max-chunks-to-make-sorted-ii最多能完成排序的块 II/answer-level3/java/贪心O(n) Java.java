@@ -1,5 +1,5 @@
-有效位置j应该满足的条件是：```max(arr[0...j]) <= min(arr[j...n-1])```
-```
+// 有效位置j应该满足的条件是：```max(arr[0...j]) <= min(arr[j...n-1])```
+// ```
 // time complexity O(n)
 class Solution {
     public int maxChunksToSorted(int[] arr) {
@@ -19,4 +19,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

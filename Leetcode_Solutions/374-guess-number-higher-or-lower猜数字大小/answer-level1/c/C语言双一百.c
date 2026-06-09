@@ -1,9 +1,9 @@
-### 解题思路
-看代码吧，很简单的二分查找
+// ### 解题思路
+// 看代码吧，很简单的二分查找
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /** 
  * Forward declaration of guess API.
  * @param  num   your guess
@@ -26,4 +26,4 @@ int guessNumber(int n){
     }
     return low;
 }
-```
+// ```

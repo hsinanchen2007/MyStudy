@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/21347703c8df8532fd5bd938a7ac4fee46c659ba44e9c70d14c4f05100d8acb6-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/21347703c8df8532fd5bd938a7ac4fee46c659ba44e9c70d14c4f05100d8acb6-image.png)
+// ```
 class Solution {
 
     /**
@@ -29,4 +29,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

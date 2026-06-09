@@ -1,8 +1,8 @@
-### 解题思路二分法求解
+# ### 解题思路二分法求解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def peakIndexInMountainArray(self, A: List[int]) -> int:
         left=0
@@ -14,6 +14,6 @@ class Solution:
             else:
                 right=mid
         return left
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/5914f59c179e04e4fbe34b9465fbae2cb6470c3fbadf8628aa1b9dfe064b8b25-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5914f59c179e04e4fbe34b9465fbae2cb6470c3fbadf8628aa1b9dfe064b8b25-image.png)

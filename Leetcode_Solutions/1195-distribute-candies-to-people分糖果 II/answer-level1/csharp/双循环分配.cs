@@ -1,9 +1,9 @@
-### 解题思路
-没啥技巧吧。双循环暴力减糖果，分配就行了。
+// ### 解题思路
+// 没啥技巧吧。双循环暴力减糖果，分配就行了。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] DistributeCandies(int candies, int num_people) {
       int[] nums=new int[num_people];
@@ -33,4 +33,4 @@ public class Solution {
       return nums;
     }
 }
-```
+// ```

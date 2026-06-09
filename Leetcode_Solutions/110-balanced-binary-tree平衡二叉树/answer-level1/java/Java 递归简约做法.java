@@ -1,9 +1,9 @@
-### 解题思路
-递归求解子树的高度，根据高度判断是否平衡。
+// ### 解题思路
+// 递归求解子树的高度，根据高度判断是否平衡。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isBalanced(TreeNode root) {
         return getBalancedHegiht(root) != -1;
@@ -24,4 +24,4 @@ class Solution {
         return Math.max(leftHeight, rightHeight) + 1;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-本质还是遍历
+# ### 解题思路
+# 本质还是遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -27,4 +27,4 @@ class Solution:
             return 0
         helper(root,0)
         return max(res)
-```
+# ```

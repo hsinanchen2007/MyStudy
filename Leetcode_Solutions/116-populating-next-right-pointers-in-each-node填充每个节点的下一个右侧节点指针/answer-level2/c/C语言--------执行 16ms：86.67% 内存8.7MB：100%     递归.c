@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a Node.
  * struct Node {
@@ -41,4 +41,4 @@ DFS(root);
 DFS1(root);
 return root;
 }
-```
+// ```

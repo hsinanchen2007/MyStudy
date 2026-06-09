@@ -1,7 +1,7 @@
-根据等差数列求值:
-i + ... + j = (i + j) * (j - i + 1) / 2
-遍历 1～target即可 （其实只要遍历 1 ～ target/2）
-```
+// 根据等差数列求值:
+// i + ... + j = (i + j) * (j - i + 1) / 2
+// 遍历 1～target即可 （其实只要遍历 1 ～ target/2）
+// ```
 func findContinuousSequence(target int) [][]int {
     ret := [][]int{}
     for i := 1; i < target; i++ {
@@ -15,4 +15,4 @@ func findContinuousSequence(target int) [][]int {
     }
     return ret
 }
-```
+// ```

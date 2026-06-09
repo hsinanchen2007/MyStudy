@@ -1,6 +1,6 @@
-![1575172866031.jpg](https://pic.leetcode-cn.com/4c4984d2bd2ec63bbd7a1c4ce3b470fc43056bada093efb7e81e5a289b8df8f8-1575172866031.jpg)
+// ![1575172866031.jpg](https://pic.leetcode-cn.com/4c4984d2bd2ec63bbd7a1c4ce3b470fc43056bada093efb7e81e5a289b8df8f8-1575172866031.jpg)
 
-```
+// ```
 class Solution {
  	//从边界上到O出发,如果非边界O能连通边界O那么都是不可以被改为X的
     public void solve(char[][] board) {
@@ -80,4 +80,4 @@ class Solution {
 		dfs(board, i, j+1, rows, columns);
     }
 }
-```
+// ```

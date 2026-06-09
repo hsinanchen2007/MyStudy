@@ -1,5 +1,5 @@
-![捕获.PNG](https://pic.leetcode-cn.com/25aba95fba34d6114e367c1f0ad141988cecb43070b55e5435245ca862eb981c-%E6%8D%95%E8%8E%B7.PNG)
-```
+// ![捕获.PNG](https://pic.leetcode-cn.com/25aba95fba34d6114e367c1f0ad141988cecb43070b55e5435245ca862eb981c-%E6%8D%95%E8%8E%B7.PNG)
+// ```
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -17,4 +17,4 @@ public:
 
     }
 };
-```
+// ```

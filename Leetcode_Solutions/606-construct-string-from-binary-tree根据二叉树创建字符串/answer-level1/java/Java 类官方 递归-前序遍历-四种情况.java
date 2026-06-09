@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-手写思路：
+// 手写思路：
 
-![IMG_0454.PNG](https://pic.leetcode-cn.com/c9f1c80b383cf14360407785fc8dbb7b74486f88353501c8fc930b7c339c74bb-IMG_0454.PNG)
+// ![IMG_0454.PNG](https://pic.leetcode-cn.com/c9f1c80b383cf14360407785fc8dbb7b74486f88353501c8fc930b7c339c74bb-IMG_0454.PNG)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -25,4 +25,4 @@ class Solution {
         return t.val+"("+tree2str(t.left)+")"+"("+tree2str(t.right)+")";
     }
 }
-```
+// ```

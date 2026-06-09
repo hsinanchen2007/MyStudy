@@ -1,4 +1,4 @@
-```
+// ```
 // 非顺序查找指定字符串
 // 返回num
 var text = "nlaebolko"
@@ -41,7 +41,7 @@ if(arrNum.length >= strArr.length && num1>=2 && num2>=2 ){
     console.log(0)
 }
 
-```
+// ```
 
-执行用时 :68 ms, 在所有 javascript 提交中击败了92.39%的用户
-内存消耗 :35 MB, 在所有 javascript 提交中击败了100.00%的用户
+// 执行用时 :68 ms, 在所有 javascript 提交中击败了92.39%的用户
+// 内存消耗 :35 MB, 在所有 javascript 提交中击败了100.00%的用户

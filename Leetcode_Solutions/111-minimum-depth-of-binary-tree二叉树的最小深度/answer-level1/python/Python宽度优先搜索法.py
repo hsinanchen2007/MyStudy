@@ -1,8 +1,8 @@
-### 解题思路
-python宽度优先搜索法。优化思路：找到第一个叶子节点即退出搜索。
-### 代码
+# ### 解题思路
+# python宽度优先搜索法。优化思路：找到第一个叶子节点即退出搜索。
+# ### 代码
 
-```python
+# ```python
 
 class Solution(object):
     def minDepth(self, root):
@@ -26,4 +26,4 @@ class Solution(object):
                         nextlayer.append(p.right)
             cur=nextlayer
         
-```
+# ```

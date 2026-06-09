@@ -1,9 +1,9 @@
-### 解题思路
-见注释即可。
+// ### 解题思路
+// 见注释即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numMagicSquaresInside(vector<vector<int>>& grid) {
@@ -39,4 +39,4 @@ public:
         return result;
     }
 };
-```
+// ```

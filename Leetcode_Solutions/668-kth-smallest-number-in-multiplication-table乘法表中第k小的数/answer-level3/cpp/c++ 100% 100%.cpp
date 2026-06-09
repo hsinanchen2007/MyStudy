@@ -1,5 +1,5 @@
-和[[https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/](有序矩阵中第k小的元素)]是一样的题，但是多了一个规则：乘法表。因此最好把乘法表的规则用上，而不是简单的有序表。
-```
+// 和[[https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/](有序矩阵中第k小的元素)]是一样的题，但是多了一个规则：乘法表。因此最好把乘法表的规则用上，而不是简单的有序表。
+// ```
 
 class Solution {
 public:
@@ -34,4 +34,4 @@ public:
     }
 };
 
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-一个思路；两种写法
-一是target减数字
-二是使用accumulate计算数组和。
+// ### 解题思路
+// 一个思路；两种写法
+// 一是target减数字
+// 二是使用accumulate计算数组和。
 
 
-### 代码1
+// ### 代码1
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
@@ -37,10 +37,10 @@ public:
         }
     }
 };
-```
-### 代码2
+// ```
+// ### 代码2
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;
@@ -74,4 +74,4 @@ public:
         }
     }
 };
-```
+// ```

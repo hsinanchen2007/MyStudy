@@ -1,11 +1,11 @@
-### 解题思路
-第一种思路：
- dp为二维数组，dp[i][j]
-i 表示 当前排列的长度， j表示当前排列的结束数字是j
-则 
-当S.charAt(i - 1) == 'D'的时候 dp[i][j] += dp[i - 1][k] for k in j to i - 1
-当S.charAt(i - 1) == 'I'的时候 dp[i][j] += dp[i - 1][k] for k in 0 to j - 1
-```java
+// ### 解题思路
+// 第一种思路：
+//  dp为二维数组，dp[i][j]
+// i 表示 当前排列的长度， j表示当前排列的结束数字是j
+// 则 
+// 当S.charAt(i - 1) == 'D'的时候 dp[i][j] += dp[i - 1][k] for k in j to i - 1
+// 当S.charAt(i - 1) == 'I'的时候 dp[i][j] += dp[i - 1][k] for k in 0 to j - 1
+// ```java
 class Solution1 {
     public int numPermsDISequence(String S) {
         int n = S.length();
@@ -34,14 +34,14 @@ class Solution1 {
         return res;
     }
 }
-```
-第二种思路：
- dp为二维数组，dp[i][j]
-i 表示 当前排列的长度， j表示当前排列的结束数字是j + 1小的
-则 
-当S.charAt(i - 1) == 'D'的时候 dp[i][j] = sum(dp[i - 1][k]) for k in j  to n - 1
-当S.charAt(i - 1) == 'I'的时候 dp[i][j] = sum(dp[i - 1][k]) for k in 0 to j
-```java
+// ```
+// 第二种思路：
+//  dp为二维数组，dp[i][j]
+// i 表示 当前排列的长度， j表示当前排列的结束数字是j + 1小的
+// 则 
+// 当S.charAt(i - 1) == 'D'的时候 dp[i][j] = sum(dp[i - 1][k]) for k in j  to n - 1
+// 当S.charAt(i - 1) == 'I'的时候 dp[i][j] = sum(dp[i - 1][k]) for k in 0 to j
+// ```java
 class Solution {
     public int numPermsDISequence(String S) {
         int n = S.length();
@@ -68,4 +68,4 @@ class Solution {
         return dp[n][0];        
     }
 }
-```
+// ```

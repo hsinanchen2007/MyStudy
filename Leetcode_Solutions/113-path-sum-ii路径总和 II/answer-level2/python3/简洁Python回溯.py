@@ -1,9 +1,9 @@
-### 解题思路
-递归回溯
+# ### 解题思路
+# 递归回溯
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
         res = []
@@ -19,4 +19,4 @@ class Solution:
             helper(root.right, sum - root.val, track + [root.val]) 
         helper(root, sum, [])
         return res
-```
+# ```

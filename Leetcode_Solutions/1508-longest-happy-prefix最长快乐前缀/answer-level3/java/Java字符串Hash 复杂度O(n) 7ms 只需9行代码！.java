@@ -1,12 +1,12 @@
-![](https://pic.leetcode-cn.com/dcc1f623bd2d36ae9ab91d376a560b3c09b30e4703e92c37fd74cb980201d627.png)
+// ![](https://pic.leetcode-cn.com/dcc1f623bd2d36ae9ab91d376a560b3c09b30e4703e92c37fd74cb980201d627.png)
 
-$$
-Hash = s[0]*31^{n-1}+s[1]*31^{n-2}+...+s[i]*31^{n-i-1}+...+s[n-2]*31^1+s[n-1]
-$$				
+// $$
+// Hash = s[0]*31^{n-1}+s[1]*31^{n-2}+...+s[i]*31^{n-i-1}+...+s[n-2]*31^1+s[n-1]
+// $$				
 
-关于为什么哈希值计算乘数为31，说法是，首先31是质数，其次编译器会将31*i 优化为 (i<<5)-i
+// 关于为什么哈希值计算乘数为31，说法是，首先31是质数，其次编译器会将31*i 优化为 (i<<5)-i
 			
-```java
+// ```java
 // 本质上就是循环比较前缀与后缀是否相等
 // 利用substring equals会超时
 // 利用字符串hash值来进行比较，每次也不需要重新计算
@@ -24,5 +24,5 @@ public String longestPrefix(String s) {
     }
     return s.substring(0,max);
 }
-```
+// ```
 

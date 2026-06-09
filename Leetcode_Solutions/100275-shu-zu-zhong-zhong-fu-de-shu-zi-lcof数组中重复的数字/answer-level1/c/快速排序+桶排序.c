@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int compare(const void *a,const void *b)
 {
     return (*(int*)a - *(int*)b);
@@ -21,4 +21,4 @@ int findRepeatNumber(int* nums, int numsSize){
     }
     return 0;
 }
-```
+// ```

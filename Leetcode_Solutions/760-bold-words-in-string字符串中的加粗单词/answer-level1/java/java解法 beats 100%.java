@@ -1,6 +1,6 @@
-用indexOf我们可以找到word在S中出现的所有地方，然后根据这些地方我们就知道了哪些区域需要加粗，用isBold记录加粗的区域。最后遍历isBold观察是进入加粗区域还是出加粗区域进行添加符号就行了。还需要注意S的第一个字符是加粗和最后一个字符是加粗的情况。
+// 用indexOf我们可以找到word在S中出现的所有地方，然后根据这些地方我们就知道了哪些区域需要加粗，用isBold记录加粗的区域。最后遍历isBold观察是进入加粗区域还是出加粗区域进行添加符号就行了。还需要注意S的第一个字符是加粗和最后一个字符是加粗的情况。
 
-```
+// ```
 class Solution {
     public String boldWords(String[] words, String S) {
         boolean[] isBold = new boolean[S.length()];
@@ -25,4 +25,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

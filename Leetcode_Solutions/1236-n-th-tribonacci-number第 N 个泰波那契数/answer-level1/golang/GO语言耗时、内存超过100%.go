@@ -1,6 +1,6 @@
-0ms  2MB
+// 0ms  2MB
 
-```
+// ```
 // 非递归解法
 func tribonacci(n int) int {
     if n <= 1 {
@@ -18,4 +18,4 @@ func tribonacci(n int) int {
     }
     return data[n]
 }
-```
+// ```

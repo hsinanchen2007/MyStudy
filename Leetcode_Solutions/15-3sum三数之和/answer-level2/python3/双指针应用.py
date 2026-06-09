@@ -1,9 +1,9 @@
-### 解题思路
-双指针的又一经典题型，每次遍历列表中的元素，寻求两个数的和为-nums[i]，因此就可以采用双指针来遍历剩余的元素，还可以优化，例如若nums[i]>=0时直接跳出循环等等方式
+# ### 解题思路
+# 双指针的又一经典题型，每次遍历列表中的元素，寻求两个数的和为-nums[i]，因此就可以采用双指针来遍历剩余的元素，还可以优化，例如若nums[i]>=0时直接跳出循环等等方式
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         if len(nums)<3:
@@ -39,4 +39,4 @@ class Solution:
             first_set.add(nums[i])
         return final_result
 
-```
+# ```

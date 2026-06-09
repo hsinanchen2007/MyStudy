@@ -1,5 +1,5 @@
 
-```
+// ```
 type UndergroundSystem struct {
 	station map[string]map[int]int
 }
@@ -42,4 +42,4 @@ func (this *UndergroundSystem) GetAverageTime(startStation string, endStation st
 
 	return sum/count
 }
-```
+// ```

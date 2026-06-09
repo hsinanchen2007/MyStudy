@@ -1,9 +1,9 @@
-### 解题思路
-Trie树
+// ### 解题思路
+// Trie树
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type node struct {
 	isStr bool
 	next  []*node
@@ -57,4 +57,4 @@ func minimumLengthEncoding(words []string) int {
 	return findLeaf(root, 0)
 }
 
-```
+// ```

@@ -1,7 +1,7 @@
-# 使用二分法
- - 详细题解在代码注释
+// # 使用二分法
+//  - 详细题解在代码注释
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -28,4 +28,4 @@ public:
         return ans;
     }
 };
-```
+// ```

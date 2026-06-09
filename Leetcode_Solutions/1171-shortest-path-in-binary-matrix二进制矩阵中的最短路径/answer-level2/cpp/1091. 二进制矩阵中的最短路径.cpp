@@ -1,7 +1,7 @@
 
-8方向BFS，注意起点和终点为1的情况。
+// 8方向BFS，注意起点和终点为1的情况。
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
@@ -43,4 +43,4 @@ private:
         {-1,1}
     };
 };
-```
+// ```

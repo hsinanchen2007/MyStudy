@@ -1,9 +1,9 @@
-1. 不需要合并数组，只需要数数
-2. 数数时，注意区分，总数数目是奇数还是偶数即可
-3. 若为奇数，数到一半即可跳出，偶数则要数两个。
-PS：时间复杂度并未满足题目要求，这里是o(m+n).
+// 1. 不需要合并数组，只需要数数
+// 2. 数数时，注意区分，总数数目是奇数还是偶数即可
+// 3. 若为奇数，数到一半即可跳出，偶数则要数两个。
+// PS：时间复杂度并未满足题目要求，这里是o(m+n).
 
-```go
+// ```go
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	var len1, i = len(nums1), 0
 	var len2, j = len(nums2), 0
@@ -46,9 +46,9 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	return ans
 }
 
-```
+// ```
 
-```rust
+// ```rust
 #[allow(dead_code)]
 impl Solution {
     pub fn find_median_sorted_arrays(nums1: Vec<i32>, nums2: Vec<i32>) -> f64 {
@@ -78,4 +78,4 @@ impl Solution {
         ans
     }
 }
-```
+// ```

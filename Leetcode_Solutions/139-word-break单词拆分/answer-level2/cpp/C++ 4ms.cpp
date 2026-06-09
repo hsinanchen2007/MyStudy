@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool wordBreak(string s, vector<string>& wordDict) {
@@ -13,6 +13,6 @@ public:
         return f[n];
     }
 };
-```
-复杂度: $O(nml)$(不是nmsl)
-快仅限于$ml$小于$n$的情况, 标答复杂度是$O(n^2l)$.
+// ```
+// 复杂度: $O(nml)$(不是nmsl)
+// 快仅限于$ml$小于$n$的情况, 标答复杂度是$O(n^2l)$.

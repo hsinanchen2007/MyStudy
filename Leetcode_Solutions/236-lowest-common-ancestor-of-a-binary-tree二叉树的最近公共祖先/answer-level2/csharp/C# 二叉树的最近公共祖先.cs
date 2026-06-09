@@ -1,9 +1,9 @@
-### 解题思路
-递归，具体思路见注释。
+// ### 解题思路
+// 递归，具体思路见注释。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ public class Solution {
         return root;
     }
 }
-```
+// ```

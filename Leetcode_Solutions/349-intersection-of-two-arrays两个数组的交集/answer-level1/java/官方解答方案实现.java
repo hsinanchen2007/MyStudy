@@ -1,8 +1,8 @@
-### 解题思路
-1)利用java.set集合的contains方法判断集合是否包含某个元素
-### 代码
+// ### 解题思路
+// 1)利用java.set集合的contains方法判断集合是否包含某个元素
+// ### 代码
 
-```java
+// ```java
 class Solution {
 public int[] intersection(int[] nums1, int[] nums2) {
         if (nums1.length == 0 || nums2.length == 0) {
@@ -32,4 +32,4 @@ public int[] intersection(int[] nums1, int[] nums2) {
 }
 时间复杂度：O(n)
 空间复杂度：O(n)
-```
+// ```

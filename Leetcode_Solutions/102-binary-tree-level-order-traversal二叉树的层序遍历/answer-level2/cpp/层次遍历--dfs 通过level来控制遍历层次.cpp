@@ -1,10 +1,10 @@
-### 解题思路
-通过level来控制遍历层次
-resize就相当于res.push_back(vector<int>()),不过更易于理解 因为二维数组的大小我们没有预先定义，肯定就没法直接使用一维的res[level]. ， **就像我们使用一维的vector,也是先push_back，才能直接调用他相应的索引 nums[i];**
+// ### 解题思路
+// 通过level来控制遍历层次
+// resize就相当于res.push_back(vector<int>()),不过更易于理解 因为二维数组的大小我们没有预先定义，肯定就没法直接使用一维的res[level]. ， **就像我们使用一维的vector,也是先push_back，才能直接调用他相应的索引 nums[i];**
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -83,4 +83,4 @@ int main()
     
 }
 */
-```
+// ```

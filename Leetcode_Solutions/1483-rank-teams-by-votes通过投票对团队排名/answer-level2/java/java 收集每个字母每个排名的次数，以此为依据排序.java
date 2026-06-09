@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private int getIndex(char c){
         return c - 'A';
@@ -39,6 +39,6 @@ class Solution {
         return sb.toString();
     }
 }
-```
-感觉时间主要在读取一个个投票的，填充数组那边。是O(m*n) 排序O(nlogn) (n是参赛队伍个数)
-空间复杂度 O(1)。固定的，最多 26*26
+// ```
+// 感觉时间主要在读取一个个投票的，填充数组那边。是O(m*n) 排序O(nlogn) (n是参赛队伍个数)
+// 空间复杂度 O(1)。固定的，最多 26*26

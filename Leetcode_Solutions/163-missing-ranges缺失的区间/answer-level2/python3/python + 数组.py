@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findMissingRanges(self, nums: List[int], lower: int, upper: int) -> List[str]:
         res = []
@@ -21,4 +21,4 @@ class Solution:
         return res
         
 
-```
+# ```

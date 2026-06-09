@@ -1,9 +1,9 @@
-### 解题思路
-循环队列需要队front和rear做求模运算
+# ### 解题思路
+# 循环队列需要队front和rear做求模运算
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyCircularQueue:
 
     def __init__(self, k: int):
@@ -83,4 +83,4 @@ class MyCircularQueue:
 # param_4 = obj.Rear()
 # param_5 = obj.isEmpty()
 # param_6 = obj.isFull()
-```
+# ```

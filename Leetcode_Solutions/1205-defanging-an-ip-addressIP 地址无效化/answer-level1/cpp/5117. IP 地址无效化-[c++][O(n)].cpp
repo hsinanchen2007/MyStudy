@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 string defangIPaddr(string address) {
     string res;
     size_t last = 0;
@@ -11,4 +11,4 @@ string defangIPaddr(string address) {
     res += address.substr(last);
     return res;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-利用二分法
+// 利用二分法
 
-```
+// ```
 function isCommonPrefix(strs, len) {
   const str1 = strs[0].substring(0, len)
 
@@ -36,4 +36,4 @@ var longestCommonPrefix = function(strs) {
   }
   return strs[0].substring(0, (left + right) >>> 1)
 }
-```
+// ```

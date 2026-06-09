@@ -1,9 +1,9 @@
-### 解题思路
-设置两个指针，一个遇到重复数字则移动，一个遇到不同数字再移动
+// ### 解题思路
+// 设置两个指针，一个遇到重复数字则移动，一个遇到不同数字再移动
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     low->next=NULL;
     return head;
 }
-```
+// ```

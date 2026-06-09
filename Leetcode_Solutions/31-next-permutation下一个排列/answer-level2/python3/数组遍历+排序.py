@@ -1,7 +1,7 @@
-1. 第一遍从后往前找，找到第一个 nums[i] < nums[i + 1]， 记录i的位置
-2. 第二遍从后往前找，找到第一个 nums[j] > nums[i], 交换这两个元素
-3. 经过前两步之后，我们只需要保持 nums[i:] 逆序即可
-```py3
+# 1. 第一遍从后往前找，找到第一个 nums[i] < nums[i + 1]， 记录i的位置
+# 2. 第二遍从后往前找，找到第一个 nums[j] > nums[i], 交换这两个元素
+# 3. 经过前两步之后，我们只需要保持 nums[i:] 逆序即可
+# ```py3
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
@@ -27,4 +27,4 @@ class Solution:
         tmp = nums[idx+1:]
         tmp = sorted(tmp, key = lambda x: x)
         nums[idx+1:] = tmp
-```
+# ```

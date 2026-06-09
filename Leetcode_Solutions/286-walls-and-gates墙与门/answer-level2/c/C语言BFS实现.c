@@ -1,5 +1,5 @@
-典型的BFS题目，这里自己实现的队列采用的是数组的形式，相对简单，但是比较耗内存。可以优化成按需分配的指针形式，降低内存消耗。
-```
+// 典型的BFS题目，这里自己实现的队列采用的是数组的形式，相对简单，但是比较耗内存。可以优化成按需分配的指针形式，降低内存消耗。
+// ```
 #define INF 2147483647
 
 typedef struct Node {
@@ -134,4 +134,4 @@ void wallsAndGates(int **rooms, int roomsSize, int *roomsColSize)
     }
     free(grid);
 }
-```
+// ```

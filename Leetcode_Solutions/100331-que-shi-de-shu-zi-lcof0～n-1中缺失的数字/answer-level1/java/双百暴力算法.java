@@ -1,9 +1,9 @@
-### 解题思路
-  找到空缺的就返回，找不到就在最后一个数的基础上加1
+// ### 解题思路
+//   找到空缺的就返回，找不到就在最后一个数的基础上加1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         int n = nums.length,i;
@@ -15,4 +15,4 @@ class Solution {
         return nums[i-1]+1;
     }
 }
-```
+// ```

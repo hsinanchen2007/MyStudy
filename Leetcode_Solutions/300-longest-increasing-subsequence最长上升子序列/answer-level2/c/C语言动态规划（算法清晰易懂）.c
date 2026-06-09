@@ -1,9 +1,9 @@
-解题思路
-C语言的动态规划，大家看看吧，在注释里写着易错点和建议
+// 解题思路
+// C语言的动态规划，大家看看吧，在注释里写着易错点和建议
 
-代码
+// 代码
 
-```c
+// ```c
 int max(int n,int m){
     if(n<m){
         return m;
@@ -39,4 +39,4 @@ int lengthOfLIS(int* nums, int numsSize){
     }
     return key;
 }
-```
+// ```

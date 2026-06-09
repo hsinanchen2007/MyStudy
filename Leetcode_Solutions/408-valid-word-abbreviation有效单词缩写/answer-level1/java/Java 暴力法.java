@@ -1,5 +1,5 @@
-双指针 参考@powcai
-```
+// 双指针 参考@powcai
+// ```
 class Solution {
     public boolean validWordAbbreviation(String word, String abbr) {
         int j = 0;
@@ -25,4 +25,4 @@ class Solution {
         return i == word.length() && j == abbr.length();
     }
 }
-```
+// ```

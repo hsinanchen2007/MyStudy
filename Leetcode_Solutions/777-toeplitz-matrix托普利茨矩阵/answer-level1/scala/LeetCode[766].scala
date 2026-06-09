@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
     def isToeplitzMatrix(matrix: Array[Array[Int]]): Boolean = {
       val rows = matrix.length
@@ -13,4 +13,4 @@ object Solution {
     }
 }
 
-```
+// ```

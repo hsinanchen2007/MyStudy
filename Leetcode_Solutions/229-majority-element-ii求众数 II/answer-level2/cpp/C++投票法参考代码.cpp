@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/7b42c846b0dc0006f633b3abfdee3837f1abb0fb0bf747e78347f0130416c2a3-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/7b42c846b0dc0006f633b3abfdee3837f1abb0fb0bf747e78347f0130416c2a3-image.png)
+// ```
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

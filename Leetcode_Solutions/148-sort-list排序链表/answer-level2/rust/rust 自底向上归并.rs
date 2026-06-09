@@ -1,6 +1,6 @@
-12ms，原理参考其它题解，额外难点在所有权系统。
+// 12ms，原理参考其它题解，额外难点在所有权系统。
 
-```
+// ```
 impl Solution {
     pub fn sort_list(mut head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         if head.is_none() {
@@ -77,4 +77,4 @@ impl Solution {
         head
     }
 }
-```
+// ```

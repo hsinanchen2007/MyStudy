@@ -1,9 +1,9 @@
-### 解题思路
-x86 架构上有个 POPCNT 指令专门用来干这个的。
+// ### 解题思路
+// x86 架构上有个 POPCNT 指令专门用来干这个的。
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn convert_integer(a: i32, b: i32) -> i32 {
         #[cfg(target_arch = "x86")]
@@ -15,4 +15,4 @@ impl Solution {
         unsafe { _popcnt32(a ^ b) }
     }
 }
-```
+// ```

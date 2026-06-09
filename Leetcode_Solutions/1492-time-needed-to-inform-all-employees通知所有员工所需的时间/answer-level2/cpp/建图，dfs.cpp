@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     static const int N = 100010;
@@ -22,4 +22,4 @@ public:
         return maxx+informTime[headID];
     }
 };
-```
+// ```

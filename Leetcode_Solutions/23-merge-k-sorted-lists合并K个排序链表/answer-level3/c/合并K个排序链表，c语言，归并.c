@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //思路：类似于外排，12、34、56...两两归并，然后把归并好的在两两归并。时间复杂度O(Nlogk)，N是结点总个数，k是链表个数。空间O(1)。
 //还有多路平衡归并和败者树、最佳归并树之类的思想以后再学.....
 struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
@@ -33,4 +33,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
     }
     return lists[0];
 }
-```
+// ```

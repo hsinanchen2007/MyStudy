@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
     int a=x;//防止下面的while循环将x的值改变
@@ -25,4 +25,4 @@ class Solution {
     return b;
     }
 }
-```
+// ```

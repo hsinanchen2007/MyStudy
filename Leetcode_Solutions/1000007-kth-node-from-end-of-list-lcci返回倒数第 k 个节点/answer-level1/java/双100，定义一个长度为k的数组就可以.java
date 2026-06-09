@@ -1,5 +1,5 @@
-//对数组循环赋值就可以
-```
+// //对数组循环赋值就可以
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -19,4 +19,4 @@ class Solution {
         return ans[tag % k];
     }
 }
-```
+// ```

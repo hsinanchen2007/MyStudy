@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean areSentencesSimilar(String[] words1, String[] words2, List<List<String>> pairs) {
         if (words1.length != words2.length) {
@@ -28,4 +28,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

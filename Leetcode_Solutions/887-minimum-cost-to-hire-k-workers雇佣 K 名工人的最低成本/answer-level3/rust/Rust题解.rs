@@ -1,9 +1,9 @@
-思路同官方，用了以前做的堆（kthLargest）
+// 思路同官方，用了以前做的堆（kthLargest）
 
-执行用时 8 ms, 在所有 Rust 提交中击败了 100.00% 的用户
-内存消耗 2.3 MB, 在所有 Rust 提交中击败了 100.00% 的用户
+// 执行用时 8 ms, 在所有 Rust 提交中击败了 100.00% 的用户
+// 内存消耗 2.3 MB, 在所有 Rust 提交中击败了 100.00% 的用户
 
-```
+// ```
 //#[derive(Debug)]
 pub struct Heap {
     heap:           Vec<i32>,
@@ -99,4 +99,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

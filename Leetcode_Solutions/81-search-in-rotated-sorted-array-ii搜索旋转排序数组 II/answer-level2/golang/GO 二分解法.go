@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/011a3fe31534bb5773b46b94885c8137dd1bc1239be6cad0cda4e465a8048f5a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/011a3fe31534bb5773b46b94885c8137dd1bc1239be6cad0cda4e465a8048f5a-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func search(nums []int, target int) bool {
     l, r := 0, len(nums)
 
@@ -39,4 +39,4 @@ func search(nums []int, target int) bool {
 
     return search(nums[0:mid], target) || search(nums[mid:], target)
 }
-```
+// ```

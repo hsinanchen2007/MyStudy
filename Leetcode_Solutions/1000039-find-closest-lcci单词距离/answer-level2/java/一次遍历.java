@@ -1,4 +1,4 @@
-```
+// ```
 public int findClosest(String[] words, String word1, String word2) {
     int len = words.length;
     int pre = -1, nex = -1, ans = 0x7ffffff;
@@ -14,4 +14,4 @@ public int findClosest(String[] words, String word1, String word2) {
     }
     return ans;
 }
-```
+// ```

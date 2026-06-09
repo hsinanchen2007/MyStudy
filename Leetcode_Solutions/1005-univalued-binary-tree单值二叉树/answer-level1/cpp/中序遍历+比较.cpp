@@ -1,9 +1,9 @@
-### 解题思路
-对树进行中序遍历，中序遍历的结果存入vector，再对vector相邻值比较是否相等。
+// ### 解题思路
+// 对树进行中序遍历，中序遍历的结果存入vector，再对vector相邻值比较是否相等。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
 
-对于树的遍历有DFS(深度优先遍历)和BFS(广度优先遍历)
+// 对于树的遍历有DFS(深度优先遍历)和BFS(广度优先遍历)
 
-方法一: DFS深度优先搜索：
-思想: 以深度为优先级，从根节点开始一直到达叶子结点，再返回根到达另一个分支。
-可以细分为先序遍历，中序遍历和后序遍历。
-递归思想
-```
+// 方法一: DFS深度优先搜索：
+// 思想: 以深度为优先级，从根节点开始一直到达叶子结点，再返回根到达另一个分支。
+// 可以细分为先序遍历，中序遍历和后序遍历。
+// 递归思想
+// ```
 public class TreeNode {
     public var val: Int
     public var left: TreeNode?
@@ -40,13 +40,13 @@ func levelOrder(_ root: TreeNode?) -> [[Int]] {
     levelOrder(tree, level: 0)
     return result
 }
-```
+// ```
 
-方法二: BFS广度优先搜索
-思想: 按照高度顺序一层一层地访问，高层的结点会比低层的结点先被访问到。
-相当于层次遍历--利用队列的方式
+// 方法二: BFS广度优先搜索
+// 思想: 按照高度顺序一层一层地访问，高层的结点会比低层的结点先被访问到。
+// 相当于层次遍历--利用队列的方式
  
-```
+// ```
 //广度优先遍历BFS
 func levelOrder(_ root: TreeNode?) -> [[Int]] {
     guard let tree = root else { return [] }
@@ -73,4 +73,4 @@ func levelOrder(_ root: TreeNode?) -> [[Int]] {
     }
     return result
 }
-```
+// ```

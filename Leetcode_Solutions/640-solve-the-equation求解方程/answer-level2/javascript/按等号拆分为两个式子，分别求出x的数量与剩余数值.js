@@ -1,7 +1,7 @@
-- 把x移到左边 数值移到右边 如下
-- 左边的x的系数直接取用  数值取相反数
-- 右边的x的系数取相反数  数值直接取用
-```
+// - 把x移到左边 数值移到右边 如下
+// - 左边的x的系数直接取用  数值取相反数
+// - 右边的x的系数取相反数  数值直接取用
+// ```
 var solveEquation = function(equation) {
   let xCount = 0; // x的数量
   let param = 0; // 剩余数值
@@ -34,4 +34,4 @@ var solveEquation = function(equation) {
   if (xCount === 0) return "No solution"
   return 'x=' + (param/xCount)
 };
-```
+// ```

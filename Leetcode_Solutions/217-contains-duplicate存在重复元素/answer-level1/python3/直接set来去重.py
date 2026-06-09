@@ -1,9 +1,9 @@
-### 解题思路
-判断先后的长度就行
+# ### 解题思路
+# 判断先后的长度就行
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def containsDuplicate(self, nums):
         # 这个就是判断数组存在不存在重复元素
@@ -14,4 +14,4 @@ class Solution:
             return False
         else:
             return True
-```
+# ```

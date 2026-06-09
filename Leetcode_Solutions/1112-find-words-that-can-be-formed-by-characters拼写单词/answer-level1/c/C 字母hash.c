@@ -1,9 +1,9 @@
-### 解题思路
-构造字母哈希表，遍历匹配求和
+// ### 解题思路
+// 构造字母哈希表，遍历匹配求和
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     int A_Z[26] = {0};
     int tmp[26] = {0};
@@ -33,4 +33,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
 
     return length;
 }
-```
+// ```

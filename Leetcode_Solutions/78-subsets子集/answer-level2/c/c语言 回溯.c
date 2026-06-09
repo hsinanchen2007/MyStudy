@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void backTrace(int index, int *nums, int numsSize, int **res, int *temp, int *tempSize, int** returnColumnSizes, int *resIndex)
 {
     if (index == numsSize){
@@ -47,4 +47,4 @@ int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
 
     return res;
 }
-```
+// ```

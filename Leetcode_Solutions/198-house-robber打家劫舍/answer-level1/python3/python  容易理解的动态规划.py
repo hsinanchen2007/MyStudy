@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def rob(self, nums: List[int]) -> int:
         if len(nums) == 0:
@@ -14,4 +14,4 @@ class Solution:
         for i in range(2, len(nums)):
             dp[i+1] = nums[i] + max(dp[i-1], dp[i-2])  #强行以最后一个数结尾的最大偷窃财富，最后的最大值肯定在dp的最后两个数
         return max(dp[len(nums)], dp[len(nums)-1])
-```
+# ```

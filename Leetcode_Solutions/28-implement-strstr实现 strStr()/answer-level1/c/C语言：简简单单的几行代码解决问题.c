@@ -1,5 +1,5 @@
-用了一点KMP的思想
-```
+// 用了一点KMP的思想
+// ```
 int strStr(char * haystack, char * needle)
 {
     if (haystack == NULL || needle == NULL) return -1;
@@ -14,4 +14,4 @@ int strStr(char * haystack, char * needle)
     }
     return (needle[j] ? -1 : (i - j));//如果needle没有到结尾就输出 -1
 }
-```
+// ```

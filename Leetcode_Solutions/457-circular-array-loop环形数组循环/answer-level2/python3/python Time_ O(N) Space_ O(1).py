@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def circularArrayLoop(self, nums: List[int]) -> bool:
         # if k at index is positive move forward k steps
@@ -37,4 +37,4 @@ class Solution:
             else:
                 if process(i, -1000): return True
         return False
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-HASHSIZE 1000效率最高
-myHashMapRemove出现了删除时的错误，需要记住！
+// ### 解题思路
+// HASHSIZE 1000效率最高
+// myHashMapRemove出现了删除时的错误，需要记住！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define HASHSIZE 1000
 typedef struct node {
     int key;
@@ -117,4 +117,4 @@ void myHashMapFree(MyHashMap* obj) {
  
  * myHashMapFree(obj);
 */
-```
+// ```

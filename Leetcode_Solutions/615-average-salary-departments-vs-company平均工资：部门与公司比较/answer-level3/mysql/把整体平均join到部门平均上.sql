@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 -- select date_format(pay_date, "%Y-%m") as pay_month, avg(amount)
 -- from salary
@@ -27,4 +27,4 @@ join
 from salary
 group by 1) as rhs
 on lhs.pay_month = rhs.pay_month
-```
+-- ```

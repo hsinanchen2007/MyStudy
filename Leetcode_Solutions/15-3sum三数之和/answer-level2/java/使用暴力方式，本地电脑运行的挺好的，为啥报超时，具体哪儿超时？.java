@@ -1,4 +1,4 @@
-使用暴力方式，本地电脑运行的挺好的，为啥在leetcode环境报超时。
+// 使用暴力方式，本地电脑运行的挺好的，为啥在leetcode环境报超时。
 
 
 public List<List<Integer>> threeSum(int[] nums) {

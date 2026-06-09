@@ -1,9 +1,9 @@
-### 解题思路
-链表转数组 -> 数组转数字 -> 求和 -> 输出结果
+// ### 解题思路
+// 链表转数组 -> 数组转数字 -> 求和 -> 输出结果
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var addTwoNumbers = function(l1, l2) {
     // 链表转数组
     const arr1 = [l1 && l1.val || 0]
@@ -33,4 +33,4 @@ var addTwoNumbers = function(l1, l2) {
     }
     return last
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-没啥解释的..
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 没啥解释的..
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -20,4 +20,4 @@ public:
 
     }
 };
-```
+// ```

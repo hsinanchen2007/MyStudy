@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-python3　的代码，就是滑窗，一直往有移动，如果已存在，删除最左边的，一直删，即使是重复值在中间，最左边的值已经没用了，一直删直到再无重复值。
+# python3　的代码，就是滑窗，一直往有移动，如果已存在，删除最左边的，一直删，即使是重复值在中间，最左边的值已经没用了，一直删直到再无重复值。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         content = set()
@@ -19,4 +19,4 @@ class Solution:
             if len(content) > longest:
                 longest = len(content)
         return longest
-```
+# ```

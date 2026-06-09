@@ -1,5 +1,5 @@
-方法一：
-```
+# 方法一：
+# ```
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         nums1.extend(nums2)
@@ -15,11 +15,11 @@ class Solution:
             mid = nums1[s]
             return mid
 
-```
+# ```
 
 
-这个是比较通用的想法，先进行排序，再找中位数。
+# 这个是比较通用的想法，先进行排序，再找中位数。
 
-方法二：
-  在前面排完序的基础上直接使用原有的库函数statistics.median直接就找到中位数。
-  statistics中还有mean，mode分别代表均值和众数。
+# 方法二：
+#   在前面排完序的基础上直接使用原有的库函数statistics.median直接就找到中位数。
+#   statistics中还有mean，mode分别代表均值和众数。

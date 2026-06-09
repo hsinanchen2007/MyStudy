@@ -1,5 +1,5 @@
-优先队列，利润大根堆，资本小根堆
-```c++
+// 优先队列，利润大根堆，资本小根堆
+// ```c++
 class Solution {
 public:
     int findMaximizedCapital(int k, int W, vector<int>& Profits, vector<int>& Capital) {
@@ -21,4 +21,4 @@ public:
         return W;
     }
 };
-```
+// ```

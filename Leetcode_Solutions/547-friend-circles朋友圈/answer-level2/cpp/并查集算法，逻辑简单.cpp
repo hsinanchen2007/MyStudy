@@ -1,6 +1,6 @@
 
 
-```
+// ```
 class Solution {
 public:
     int father[205];
@@ -39,4 +39,4 @@ public:
 
     }
 };
-```
+// ```

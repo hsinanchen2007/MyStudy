@@ -1,9 +1,9 @@
-### 解题思路
-通过for循环来进行解决，两层嵌套，然后进行比较。
+// ### 解题思路
+// 通过for循环来进行解决，两层嵌套，然后进行比较。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
        int[] m=new int[2];
@@ -20,4 +20,4 @@ class Solution {
       }
     }
 
-```
+// ```

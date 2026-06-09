@@ -1,9 +1,9 @@
-### 解题思路
-还是双指针的套路
+// ### 解题思路
+// 还是双指针的套路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) 
@@ -21,4 +21,4 @@ public:
          return i;
     }
 };
-```
+// ```

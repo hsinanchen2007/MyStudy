@@ -1,8 +1,8 @@
-### 解题思路
-- 封装一个方法，先将字符串转换为数组，然后申明一个空数组，遇到#就执行pop(),否则就就执行push().
-- 然后分别将S和T代入此方法。
+// ### 解题思路
+// - 封装一个方法，先将字符串转换为数组，然后申明一个空数组，遇到#就执行pop(),否则就就执行push().
+// - 然后分别将S和T代入此方法。
 
-```javascript
+// ```javascript
 var backspaceCompare = function(S, T) {
   if(S === T) {
     return true;
@@ -32,4 +32,4 @@ var backspaceCompare = function(S, T) {
     return result.join('');
   }
 };
-```
+// ```

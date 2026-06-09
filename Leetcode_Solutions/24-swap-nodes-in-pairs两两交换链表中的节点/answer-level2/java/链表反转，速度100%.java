@@ -1,4 +1,4 @@
-```
+// ```
 if(head == null)
     return null;
 if (head.next == null)
@@ -24,4 +24,4 @@ while (next != null) {
     odd = !odd;
 }
 return head;
-```
+// ```

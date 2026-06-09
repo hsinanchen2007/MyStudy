@@ -1,13 +1,13 @@
-### 解题思路
-找规律解法：
-行数等于一，直接输出字符串；大于一则
-第一行和最后一行相邻字符串位置差2*(numRows-1);
-中间行的相邻字符串位置差分别是2*(numRows-1)-2*row(row代表第几行)、2*row相交替
-依次添加字符就可以了。
+// ### 解题思路
+// 找规律解法：
+// 行数等于一，直接输出字符串；大于一则
+// 第一行和最后一行相邻字符串位置差2*(numRows-1);
+// 中间行的相邻字符串位置差分别是2*(numRows-1)-2*row(row代表第几行)、2*row相交替
+// 依次添加字符就可以了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String convert(String s, int numRows) {
     if(s==null||s.length()==0||numRows==1)
@@ -46,4 +46,4 @@ class Solution {
     return a.toString();
     }
 }
-```
+// ```

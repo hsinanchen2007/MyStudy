@@ -1,9 +1,9 @@
-### 解题思路
-TreeSet底层是二叉树,可以对对象元素进行排序
+// ### 解题思路
+// TreeSet底层是二叉树,可以对对象元素进行排序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestConsecutive(int[] nums) {
         if(nums.length<2){
@@ -29,4 +29,4 @@ class Solution {
 	        return ret;
     }
 }
-```
+// ```

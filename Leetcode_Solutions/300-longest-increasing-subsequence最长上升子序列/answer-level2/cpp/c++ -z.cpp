@@ -1,11 +1,11 @@
-### 解题思路
-来源：https://www.geeksfor@geeks.org/longest-monotonically-increasing-subsequence-size-n-log-n/
-（去掉@）
+// ### 解题思路
+// 来源：https://www.geeksfor@geeks.org/longest-monotonically-increasing-subsequence-size-n-log-n/
+// （去掉@）
 	
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
 		return s.size();
     }
 };
-```
+// ```

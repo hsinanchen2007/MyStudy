@@ -1,4 +1,4 @@
-与LeetCode官方算法思路一样的，却因输出与表达位置不一样失败，求问为啥
+# 与LeetCode官方算法思路一样的，却因输出与表达位置不一样失败，求问为啥
 class LogSystem(object):
 
     def __init__(self):

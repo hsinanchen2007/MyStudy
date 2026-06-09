@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean leafSimilar(TreeNode t1, TreeNode t2) {
         List<Integer> l1 = new LinkedList<>();
@@ -20,4 +20,4 @@ class Solution {
         findLeaf(root.right, list);
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-执行用时 :1 ms , 在所有 Java 提交中击败了 99.41% 的用户
-内存消耗 : 34.1 MB , 在所有 Java 提交中击败了96.33%的用户
-```
+// 执行用时 :1 ms , 在所有 Java 提交中击败了 99.41% 的用户
+// 内存消耗 : 34.1 MB , 在所有 Java 提交中击败了96.33%的用户
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -37,4 +37,4 @@ class Solution {
         helper(root.right,list);
     }
 }
-```
+// ```

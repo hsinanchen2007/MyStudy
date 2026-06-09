@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     int x;
     int y;
@@ -117,4 +117,4 @@ int shortestDistance(int** maze, int mazeSize, int* mazeColSize, int* start, int
 }
 
 
-```
+// ```

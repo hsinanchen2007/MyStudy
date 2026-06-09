@@ -1,18 +1,18 @@
-执行结果：
-通过
-显示详情
-执行用时 :
-4 ms
-, 在所有 Rust 提交中击败了
-100.00%
-的用户
-内存消耗 :
-2.1 MB
-, 在所有 Rust 提交中击败了
-100.00%
-的用户
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 4 ms
+// , 在所有 Rust 提交中击败了
+// 100.00%
+// 的用户
+// 内存消耗 :
+// 2.1 MB
+// , 在所有 Rust 提交中击败了
+// 100.00%
+// 的用户
 
-```
+// ```
 pub fn merge_two_lists(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
     let mut result_head: Option<Box<ListNode>> = Some(Box::new(ListNode { val: -1, next: None }));
     let mut cur = &mut result_head;
@@ -60,4 +60,4 @@ pub fn merge_two_lists(l1: Option<Box<ListNode>>, l2: Option<Box<ListNode>>) -> 
     }
     return result_head.unwrap().next;
 }
-```
+// ```

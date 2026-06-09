@@ -1,7 +1,7 @@
-1. 先将字符串入栈
-2. 碰到右括号时，将入栈数据出栈，出栈中遇到一个左括号则反转这个字串
-3. 然后将反转的字串在入栈
-```
+// 1. 先将字符串入栈
+// 2. 碰到右括号时，将入栈数据出栈，出栈中遇到一个左括号则反转这个字串
+// 3. 然后将反转的字串在入栈
+// ```
 func reverseParentheses(s string) string {
 
 	rightStack := []byte(s)
@@ -48,4 +48,4 @@ func reverseStringByte(start, end int, s []byte) {
 		c = s[start]
 	}
 }
-```
+// ```

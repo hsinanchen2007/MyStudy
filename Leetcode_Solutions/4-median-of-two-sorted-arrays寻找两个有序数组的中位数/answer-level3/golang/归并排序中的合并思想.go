@@ -1,9 +1,9 @@
-### 解题思路
-这里用到的是归并排序中的有序合并思想，将两个有序数组进行合并，合并完成之后求他们中位索引，如果中位有两个索引，就求两个索引所在值的平均数
+// ### 解题思路
+// 这里用到的是归并排序中的有序合并思想，将两个有序数组进行合并，合并完成之后求他们中位索引，如果中位有两个索引，就求两个索引所在值的平均数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
     nums1Len, nums2Len := len(nums1), len(nums2)
     numsLen := nums1Len+nums2Len
@@ -38,4 +38,4 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 }
 
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public int maxJumps(int[] arr, int d) {
         int len = arr.length;
         
@@ -40,4 +40,4 @@ public int maxJumps(int[] arr, int d) {
         
         return res;
     }
-```
+// ```

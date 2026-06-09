@@ -1,5 +1,5 @@
 
-```golang
+// ```golang
 func minIncrementForUnique(A []int) int {
 	arr := [40001]int{} 
 
@@ -41,4 +41,4 @@ func minIncrementForUnique(A []int) int {
 
 	return times
 }
-```
+// ```

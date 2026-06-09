@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func minDeletionSize(_ A: [String]) -> Int {
         var D:[Int] = []
@@ -15,4 +15,4 @@ class Solution {
         return D.count
     }
 }
-```
+// ```

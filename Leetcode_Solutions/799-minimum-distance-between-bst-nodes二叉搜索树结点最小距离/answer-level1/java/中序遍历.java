@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     private int diff = Integer.MAX_VALUE;
     private int pre;
@@ -25,4 +25,4 @@ class Solution {
         inOrder(root.right);
     }
 }
-```
+// ```

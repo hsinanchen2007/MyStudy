@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def firstUniqChar(self, s: str) -> str:
         a = list(s)
@@ -12,4 +12,4 @@ class Solution:
             if b[i]==1:
                 return i
         return " "
-```
+# ```

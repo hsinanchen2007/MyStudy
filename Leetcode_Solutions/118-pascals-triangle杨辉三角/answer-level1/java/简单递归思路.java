@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> lists = new ArrayList<>();
@@ -31,5 +31,5 @@ class Solution {
 
     }
 }
-```
-话不多说，刚从另外一个杨辉三角题目过来，那个是返回第N行，正好那边的代码就在这里拿过来用了
+// ```
+// 话不多说，刚从另外一个杨辉三角题目过来，那个是返回第N行，正好那边的代码就在这里拿过来用了

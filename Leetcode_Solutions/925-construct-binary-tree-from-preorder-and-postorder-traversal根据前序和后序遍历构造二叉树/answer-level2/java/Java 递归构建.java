@@ -1,17 +1,17 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
-中序遍历的第一个元素是根节点，后序遍历的最后一个元素是根节点，倒数第二个元素是右子树的根节点，所以可以根据后序遍历得到右子树根节点的值，然后在中序遍历中找到右子树根节点的位置rightIndex：
+// 中序遍历的第一个元素是根节点，后序遍历的最后一个元素是根节点，倒数第二个元素是右子树的根节点，所以可以根据后序遍历得到右子树根节点的值，然后在中序遍历中找到右子树根节点的位置rightIndex：
 
-对于中序遍历，当前节点的左子树元素索引为[preStart+1,rightIndex-1]，右子树元素的索引为[rightIndex,preEnd]。
+// 对于中序遍历，当前节点的左子树元素索引为[preStart+1,rightIndex-1]，右子树元素的索引为[rightIndex,preEnd]。
 
-而对于后续遍历，可以知道左子树的元素个数为rightIndex-preStart-1，所以后续遍历的左子树元素索引为[postStart,rightIndex-preStart-1-1]，右子树的元素索引为[rightIndex-preStart-1,postEnd-1]
+// 而对于后续遍历，可以知道左子树的元素个数为rightIndex-preStart-1，所以后续遍历的左子树元素索引为[postStart,rightIndex-preStart-1-1]，右子树的元素索引为[rightIndex-preStart-1,postEnd-1]
 
-递归构建树即可
+// 递归构建树即可
 
 
-```
+// ```
 class Solution {
     public TreeNode constructFromPrePost(int[] pre, int[] post) {
         if (pre.length == 0 || post.length == 0 || pre.length != post.length) return null;
@@ -36,12 +36,12 @@ class Solution {
         return root;
     }
 }
-```
+// ```
 
 
-```
+// ```
 代码块
-```
-代码块
-```
-```
+// ```
+// 代码块
+// ```
+// ```

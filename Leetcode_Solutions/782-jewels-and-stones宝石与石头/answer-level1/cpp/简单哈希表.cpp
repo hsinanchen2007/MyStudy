@@ -1,9 +1,9 @@
-### 解题思路
-此处没必要撰写解题思路
+// ### 解题思路
+// 此处没必要撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numJewelsInStones(string J, string S)
@@ -17,4 +17,4 @@ public:
         return sum;
     }
 };
-```
+// ```

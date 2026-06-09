@@ -1,10 +1,10 @@
-### 解题思路
-动态规划
-状态转移方程：dp[i] = max(dp[i-2]+nums[i], dp[i-1])
+# ### 解题思路
+# 动态规划
+# 状态转移方程：dp[i] = max(dp[i-2]+nums[i], dp[i-1])
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     # 递归方法超时
     # def dp(self, nums, res):
@@ -30,4 +30,4 @@ class Solution:
             else:
                 dp[i] = max(dp[i-2]+nums[i], dp[i-1])
         return dp[-1]
-```
+# ```

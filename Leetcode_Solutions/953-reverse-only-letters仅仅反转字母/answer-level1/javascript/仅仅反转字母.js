@@ -1,4 +1,4 @@
-```js
+// ```js
 var reverseOnlyLetters = function(S) {
     let pat = /[^a-zA-Z]/
     let pat2 = /[^a-zA-Z]/g
@@ -15,4 +15,4 @@ var reverseOnlyLetters = function(S) {
     }
     return S2.join('')
 };
-```
+// ```

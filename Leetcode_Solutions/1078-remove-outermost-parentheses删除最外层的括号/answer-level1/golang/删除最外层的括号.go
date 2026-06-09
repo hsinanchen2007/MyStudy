@@ -1,9 +1,9 @@
-### 解题思路
-计数
+// ### 解题思路
+// 计数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func removeOuterParentheses(S string) string {
 	left := 0
 	runes := make([]rune, 0, len(S))
@@ -22,4 +22,4 @@ func removeOuterParentheses(S string) string {
 	}
 	return string(runes)
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -26,4 +26,4 @@ public:
         return root;  //leftNode和rightNode都非空，说明左右子树都找到了公共祖先。p和q在root处分道扬镳，那root为公共祖先
     }
 };
-```
+// ```

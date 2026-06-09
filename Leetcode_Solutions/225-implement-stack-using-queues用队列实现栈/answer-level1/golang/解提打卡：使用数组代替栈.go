@@ -1,9 +1,9 @@
-### 解题思路
-解题打卡，把数组当成栈使用
+// ### 解题思路
+// 解题打卡，把数组当成栈使用
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     stack []int
     top   int
@@ -58,4 +58,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

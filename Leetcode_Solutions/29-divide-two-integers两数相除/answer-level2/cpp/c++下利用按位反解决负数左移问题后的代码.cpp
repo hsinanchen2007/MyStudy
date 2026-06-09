@@ -1,9 +1,9 @@
-### 解题思路
-这里面用到了n和-n在内存中是按位反后+1的知识点，但由于力扣在运行时禁止INT_MAX+1=INT_MIN这样的逻辑，所以有一些代码看上去有些重复
+// ### 解题思路
+// 这里面用到了n和-n在内存中是按位反后+1的知识点，但由于力扣在运行时禁止INT_MAX+1=INT_MIN这样的逻辑，所以有一些代码看上去有些重复
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int divide(int dividend, int divisor) {
@@ -79,4 +79,4 @@ public:
 		return resPositive ? res : -res;
     }
 };
-```
+// ```

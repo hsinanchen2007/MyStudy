@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         # 不转换成字符串
@@ -21,4 +21,4 @@ class Solution:
             tmp -= 2
             reverse_length -= 1
         return True
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用map来找到单词中最少的字符
+// ### 解题思路
+// 使用map来找到单词中最少的字符
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} text
  * @return {number}
@@ -30,4 +30,4 @@ var maxNumberOfBalloons = function(text) {
     })
     return min
 };
-```
+// ```

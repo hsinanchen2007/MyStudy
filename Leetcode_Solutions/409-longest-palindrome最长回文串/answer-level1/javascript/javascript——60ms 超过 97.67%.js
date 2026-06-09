@@ -1,10 +1,10 @@
-### 解题思路
-- 回文排列就是两边单个字符出现的次数需要被2整除。如 'dccaccd'，'c'4次、'd'2次。
-- 如果有能出现一次的字符，则取一次，没有则不取
+// ### 解题思路
+// - 回文排列就是两边单个字符出现的次数需要被2整除。如 'dccaccd'，'c'4次、'd'2次。
+// - 如果有能出现一次的字符，则取一次，没有则不取
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -33,4 +33,4 @@ var longestPalindrome = function(s) {
     }
     return number;
 };
-```
+// ```

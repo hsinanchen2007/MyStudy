@@ -1,5 +1,5 @@
-思路是遍历链表，放入优先队列，按顺序弹出即可
-```python
+# 思路是遍历链表，放入优先队列，按顺序弹出即可
+# ```python
 from queue import PriorityQueue
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
@@ -13,4 +13,4 @@ class Solution:
             ptr.val = p_queue.get()
             ptr = ptr.next
         return head
-```
+# ```

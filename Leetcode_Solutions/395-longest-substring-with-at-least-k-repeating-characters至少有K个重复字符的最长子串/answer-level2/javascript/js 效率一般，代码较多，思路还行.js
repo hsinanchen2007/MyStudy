@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/ba157c2b02a61a62eaacbe53bde9c07412eb63663137475ad8afce13b9987beb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ba157c2b02a61a62eaacbe53bde9c07412eb63663137475ad8afce13b9987beb-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   分治法，不断分解为子问题：
   如果字符串中出现了「出现次数不足 k」的字符，那么最长子串一定不在这里面，以这个不符合条件的字符串
   为分界线，把这个字符串分割为两段，继续递归，以这样的条件来判断分割出去的子串是否满足条件，
   一旦满足条件，统计并更新最大长度。
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {number} k
@@ -95,4 +95,4 @@ var longestSubstring = function(s, k) {
   
   return long;
 };
-```
+// ```

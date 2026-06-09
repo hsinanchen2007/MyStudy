@@ -1,9 +1,9 @@
-### 解题思路
-递归找树的深度即可
+// ### 解题思路
+// 递归找树的深度即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,4 +39,4 @@ class Solution {
         return heightLeft;
     }
 }
-```
+// ```

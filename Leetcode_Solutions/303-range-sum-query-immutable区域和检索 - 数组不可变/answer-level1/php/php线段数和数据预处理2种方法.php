@@ -1,6 +1,6 @@
-思路1：利用线段树，求区间值。
-代码:
-```php
+// 思路1：利用线段树，求区间值。
+// 代码:
+// ```php
 class NumArray {
     private $tree;
     /**
@@ -146,10 +146,10 @@ class SumMerge
  * $obj = NumArray($nums);
  * $ret_1 = $obj->sumRange($i, $j);
  */
-```
-思路2：对数据进行预处理，设置一个sum数组，数组里sum[$i]表示0，1。。i-1的和。
-代码:
-```php
+// ```
+// 思路2：对数据进行预处理，设置一个sum数组，数组里sum[$i]表示0，1。。i-1的和。
+// 代码:
+// ```php
 class NumArray {
     private $sum;
     /**
@@ -177,5 +177,5 @@ class NumArray {
  * $obj = NumArray($nums);
  * $ret_1 = $obj->sumRange($i, $j);
  */
-```
+// ```
 

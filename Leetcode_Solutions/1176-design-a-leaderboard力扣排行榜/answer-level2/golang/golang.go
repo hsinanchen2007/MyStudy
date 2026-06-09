@@ -1,5 +1,5 @@
-简单排序
-```
+// 简单排序
+// ```
 type Leaderboard struct {
     item []Item
     exists map[int]bool
@@ -53,4 +53,4 @@ func (this *Leaderboard) Reset(playerId int)  {
         }
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-一次编辑，意味着只有0次或1次出错的机会，根据这个思路分情况求解。
-```
+// 一次编辑，意味着只有0次或1次出错的机会，根据这个思路分情况求解。
+// ```
  public static boolean oneEditAway(String first, String second) {
         if(first.equals(second)) return true;
         int errorNums=0;
@@ -30,4 +30,4 @@
         return true;
        
     }
-```
+// ```

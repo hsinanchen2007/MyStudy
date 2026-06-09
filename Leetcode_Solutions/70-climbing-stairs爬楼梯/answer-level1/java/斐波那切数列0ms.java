@@ -1,9 +1,9 @@
-### 解题思路
-ways[n]=ways[n-1]+ways[n-2];
-即n的方法数等于n-1的方法数加上n-2的方法数。
-### 代码
+// ### 解题思路
+// ways[n]=ways[n-1]+ways[n-2];
+// 即n的方法数等于n-1的方法数加上n-2的方法数。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int climbStairs(int n) {
         
@@ -17,4 +17,4 @@ class Solution {
         return fibles[n];
     }
 }
-```
+// ```

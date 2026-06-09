@@ -1,9 +1,9 @@
-### 解题思路
-方案1：引入HashSet，存储所有整数，从1daon遍历，找到最小整数，但是不满足空间复杂度要求，[]返回1，[1]返回2，[1,2,3]返回4
+// ### 解题思路
+// 方案1：引入HashSet，存储所有整数，从1daon遍历，找到最小整数，但是不满足空间复杂度要求，[]返回1，[1]返回2，[1,2,3]返回4
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int firstMissingPositive(int[] nums) {
         Set<Integer> set = new HashSet<>();
@@ -21,4 +21,4 @@ class Solution {
         return nums.length  + 1;
     }
 }
-```
+// ```

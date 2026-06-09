@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* replaceSpace(char* s)
 {
     int len1 = strlen(s);
@@ -32,4 +32,4 @@ char* replaceSpace(char* s)
     _s[l] = '\0';
     return _s;
 }
-```
+// ```

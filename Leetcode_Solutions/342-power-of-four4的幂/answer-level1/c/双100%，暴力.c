@@ -1,4 +1,4 @@
-```
+// ```
 bool isPowerOfFour(int num){
     if(num == 1)
         return true;
@@ -18,4 +18,4 @@ bool isPowerOfFour(int num){
     }
     return false;
 }
-```
+// ```

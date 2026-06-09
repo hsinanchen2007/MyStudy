@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-m*x+n*y=z
-在保证y>x的条件下，求最大公约数的过程。只要z是最大公约数的倍数，就能够把x和y组合为z.
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# m*x+n*y=z
+# 在保证y>x的条件下，求最大公约数的过程。只要z是最大公约数的倍数，就能够把x和y组合为z.
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     
     def func(self,a,b):
@@ -34,4 +34,4 @@ class Solution(object):
             return y ==z
         #寻找最大公约数
         return (z % self.func(x, y))==0
-```
+# ```

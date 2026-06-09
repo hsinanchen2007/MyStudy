@@ -1,12 +1,12 @@
-### 解题思路
-对returnColumnSizes这个参数作讨论：
-1)首先觉得这个参数没必要，其次就算实在需要返回列数，貌似一级指针就够了，不过这个参数不赋值测试就是不能通过。
-2)这题无非就是考察边界，以及二级指针和二维数组的使用。
-3)时间复杂度为O(n^2)。
+// ### 解题思路
+// 对returnColumnSizes这个参数作讨论：
+// 1)首先觉得这个参数没必要，其次就算实在需要返回列数，貌似一级指针就够了，不过这个参数不赋值测试就是不能通过。
+// 2)这题无非就是考察边界，以及二级指针和二维数组的使用。
+// 3)时间复杂度为O(n^2)。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -38,4 +38,4 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes){
     }
     return result;
 }
-```
+// ```

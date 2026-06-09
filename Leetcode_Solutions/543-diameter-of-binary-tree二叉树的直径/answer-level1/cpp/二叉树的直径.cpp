@@ -1,9 +1,9 @@
-### 解题思路
-注意优化~
+// ### 解题思路
+// 注意优化~
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
         return 1 + max(ld, rd);
     }
 };
-```
+// ```

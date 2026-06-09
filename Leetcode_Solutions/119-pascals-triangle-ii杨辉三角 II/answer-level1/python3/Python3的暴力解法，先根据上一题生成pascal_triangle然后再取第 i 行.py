@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         y = self.generate(rowIndex+1)
@@ -25,5 +25,5 @@ class Solution:
                     i_row[j]=final[i-1][j-1]+final[i-1][j] #i_row 完成初始化
                 final.append(i_row)                       #将final添加新的行
             return final
-```
+# ```
 

@@ -1,4 +1,4 @@
-```
+// ```
 Node* inorderSuccessor(Node* node) {
     if (node == NULL) return NULL;
     if (node->right) {
@@ -10,4 +10,4 @@ Node* inorderSuccessor(Node* node) {
     }
     return node;
 }
-```
+// ```

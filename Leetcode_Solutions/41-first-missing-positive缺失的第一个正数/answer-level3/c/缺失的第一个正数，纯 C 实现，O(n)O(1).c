@@ -1,4 +1,4 @@
-```c
+// ```c
 // 交换两个 int
 void swap(int *a, int *b) {
     *a = (*a) ^ (*b);
@@ -39,4 +39,4 @@ int firstMissingPositive(int* nums, int numsSize){
     }
     return numsSize + 1;
 }
-```
+// ```

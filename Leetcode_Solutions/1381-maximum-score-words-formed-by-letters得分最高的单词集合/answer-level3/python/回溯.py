@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxScoreWords(self, words: List[str], letters: List[str], score: List[int]) -> int:
         from collections import Counter
@@ -33,4 +33,4 @@ class Solution:
         
         backtrack(0,c,0)
         return self.ans
-```
+# ```

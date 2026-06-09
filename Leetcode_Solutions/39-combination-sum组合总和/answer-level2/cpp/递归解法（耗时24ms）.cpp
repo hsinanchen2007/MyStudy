@@ -1,9 +1,9 @@
-### 解题思路
-用递归算法，比如[2,4,6],target = 8,遍历数组，对每一个元素，用8去整除，保存下除数,分别遍历一个到除数个这个元素，从后面数列中遍历地调用这个递归函数，新的的target = target - 遍历的除数*这个元素。
+// ### 解题思路
+// 用递归算法，比如[2,4,6],target = 8,遍历数组，对每一个元素，用8去整除，保存下除数,分别遍历一个到除数个这个元素，从后面数列中遍历地调用这个递归函数，新的的target = target - 遍历的除数*这个元素。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> find(vector<int>& candidates, int index, int target){
@@ -50,4 +50,4 @@ public:
         return ret;
     }
 };
-```
+// ```

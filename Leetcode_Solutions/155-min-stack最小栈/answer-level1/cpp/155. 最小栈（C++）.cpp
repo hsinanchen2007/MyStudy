@@ -1,5 +1,5 @@
-# 155. 最小栈（C++）
-```
+// # 155. 最小栈（C++）
+// ```
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -59,4 +59,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

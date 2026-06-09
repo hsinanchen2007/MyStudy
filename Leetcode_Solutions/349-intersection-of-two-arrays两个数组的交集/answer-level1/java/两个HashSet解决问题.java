@@ -1,4 +1,4 @@
-```
+// ```
   public int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> set1 = new HashSet<>();
         Set<Integer> set2 = new HashSet<>();
@@ -19,6 +19,6 @@
         }
        return ans;
     }
-```
+// ```
 
-用时9ms
+// 用时9ms

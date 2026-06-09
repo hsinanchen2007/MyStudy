@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（n）
-时间复杂度：O（1）
+# ### 解题思路
+# 时间复杂度：O（n）
+# 时间复杂度：O（1）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         words = s.split(" ")
@@ -13,4 +13,4 @@ class Solution:
             if words[i] and len(re.findall("\w", words[i])) == len(words[i]):
                 return len(words[i])
         return 0
-```
+# ```

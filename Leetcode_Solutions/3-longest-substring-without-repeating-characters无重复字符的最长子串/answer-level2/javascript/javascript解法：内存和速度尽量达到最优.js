@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} s
  * @return {number}
@@ -23,6 +23,6 @@ var lengthOfLongestSubstring = function(s) {
     }
     return maxNumber;
 };
-```
-执行结果：
-![image.png](https://pic.leetcode-cn.com/d8074dcbce8bf3f0e705a18d42f0affd8e5843133d619e2e2a25865128d89f24-image.png)
+// ```
+// 执行结果：
+// ![image.png](https://pic.leetcode-cn.com/d8074dcbce8bf3f0e705a18d42f0affd8e5843133d619e2e2a25865128d89f24-image.png)

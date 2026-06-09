@@ -1,9 +1,9 @@
-执行用时：0 ms
-内存消耗：2.1 MB
-琢磨了半个多小时写出来的，稀里糊涂或许只有我自己能看懂哈哈哈哈。
-简单来说就是在第一行的字符的索引两侧扩散，然后按顺序push进Vec里，踩了很多坑才改好。
+// 执行用时：0 ms
+// 内存消耗：2.1 MB
+// 琢磨了半个多小时写出来的，稀里糊涂或许只有我自己能看懂哈哈哈哈。
+// 简单来说就是在第一行的字符的索引两侧扩散，然后按顺序push进Vec里，踩了很多坑才改好。
 
-```rust
+// ```rust
 impl Solution {
     pub fn convert(s: String, num_rows: i32) -> String {
         let len = s.len();
@@ -39,4 +39,4 @@ impl Solution {
         unsafe { String::from_utf8_unchecked(buf) }
     }
 }
-```
+// ```

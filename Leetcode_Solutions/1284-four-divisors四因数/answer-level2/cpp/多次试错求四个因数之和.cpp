@@ -1,9 +1,9 @@
-### 解题思路
-我之前是直接遍历1到nums[i]求因数，后来到某个测试用例超出时间限制，于是我改变了遍历方式，从1到sqrt(nums[i])，时间问题就解决了。
+// ### 解题思路
+// 我之前是直接遍历1到nums[i]求因数，后来到某个测试用例超出时间限制，于是我改变了遍历方式，从1到sqrt(nums[i])，时间问题就解决了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int sumFourDivisors(vector<int>& nums) {
@@ -28,4 +28,4 @@ public:
 		return s;
 	}
 };
-```
+// ```

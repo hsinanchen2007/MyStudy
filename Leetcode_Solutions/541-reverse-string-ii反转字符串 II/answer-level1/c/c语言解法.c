@@ -1,9 +1,9 @@
-### 解题思路
-正常思路
+// ### 解题思路
+// 正常思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void f1(char* s,int left,int right)
 {
     while(left<right)
@@ -40,4 +40,4 @@ char * reverseStr(char * s, int k){
     printf("%d\n%d",flag1,flag2);
     return s;
 }
-```
+// ```

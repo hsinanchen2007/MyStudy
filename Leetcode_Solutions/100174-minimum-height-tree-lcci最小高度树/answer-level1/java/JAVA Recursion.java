@@ -1,12 +1,12 @@
-### 解题思路
-1. insert into tree the middle element of the array;
-2. insert the left subarray;
-3. insert the right subarray;
-4. recurse;
+// ### 解题思路
+// 1. insert into tree the middle element of the array;
+// 2. insert the left subarray;
+// 3. insert the right subarray;
+// 4. recurse;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -32,4 +32,4 @@ class Solution {
         return n;
     }
 }
-```
+// ```

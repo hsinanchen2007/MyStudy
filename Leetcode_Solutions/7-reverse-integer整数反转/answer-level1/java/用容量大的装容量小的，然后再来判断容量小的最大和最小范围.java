@@ -1,9 +1,9 @@
-### 解题思路
-用一个long类型的存储反转后的数据，然后反转后的数据如果不在int类型的范围，则说明超出
+// ### 解题思路
+// 用一个long类型的存储反转后的数据，然后反转后的数据如果不在int类型的范围，则说明超出
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int reverse(int x) {
         long num = 0;
@@ -20,4 +20,4 @@ class Solution {
         return (new Long(num)).intValue();
     }
 }
-```
+// ```

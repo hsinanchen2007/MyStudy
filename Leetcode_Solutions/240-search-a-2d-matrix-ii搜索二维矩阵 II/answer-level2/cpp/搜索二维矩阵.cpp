@@ -1,9 +1,9 @@
-仔细观察矩阵左下角或者右上角，对于左下角，往右走数字变大，往上走数字变小，
-那么我们从左下角出发，target比当前值大，我们就往右走，target比当前值小，我们就往上走，若target存在一定会找到
+// 仔细观察矩阵左下角或者右上角，对于左下角，往右走数字变大，往上走数字变小，
+// 那么我们从左下角出发，target比当前值大，我们就往右走，target比当前值小，我们就往上走，若target存在一定会找到
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -20,4 +20,4 @@ public:
         return false;
     }
 };
-```
+// ```

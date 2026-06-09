@@ -1,9 +1,9 @@
-### 解题思路
-实际上就是二叉树的层序遍历，利用队列queue进行求解。由于只需要求得层平均值，所以只需要一个sum存储层的和。
+// ### 解题思路
+// 实际上就是二叉树的层序遍历，利用队列queue进行求解。由于只需要求得层平均值，所以只需要一个sum存储层的和。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -43,4 +43,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

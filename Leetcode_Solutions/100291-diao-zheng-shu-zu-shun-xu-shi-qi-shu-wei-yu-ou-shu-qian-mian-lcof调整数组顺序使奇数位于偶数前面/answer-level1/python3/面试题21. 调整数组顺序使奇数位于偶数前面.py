@@ -1,6 +1,6 @@
-### 双指针
+# ### 双指针
 
-```python []
+# ```python []
 class Solution:
     def exchange(self, nums: List[int]) -> List[int]:
         l, r = 0, len(nums) - 1
@@ -14,12 +14,12 @@ class Solution:
                 l += 1
                 r -= 1
         return nums
-```
+# ```
 
-### 排序
+# ### 排序
 
-```python []
+# ```python []
 class Solution:
     def exchange(self, nums: List[int]) -> List[int]:
         return sorted(nums, key=lambda x: ~ x & 1)
-```
+# ```

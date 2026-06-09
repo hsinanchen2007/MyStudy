@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void sortColors(int[] arr) {
 		for (int i = 0; i < arr.length-1; i++) {
@@ -45,4 +45,4 @@ class Solution {
 	}
 }
 }
-```
+// ```

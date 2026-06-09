@@ -1,5 +1,5 @@
-# 标题（使用官方提示的桶排序方法，但是测试用例是真的恶心）
-```
+// # 标题（使用官方提示的桶排序方法，但是测试用例是真的恶心）
+// ```
 class Solution {
 public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
@@ -78,4 +78,4 @@ public:
         return false;
     }
 };
-```
+// ```

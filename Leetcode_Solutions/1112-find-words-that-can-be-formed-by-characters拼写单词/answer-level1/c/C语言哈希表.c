@@ -1,9 +1,9 @@
-### 解题思路
-分别对每行取哈希表，与参考哈希表比较，满足条件的话记录长度
+// ### 解题思路
+// 分别对每行取哈希表，与参考哈希表比较，满足条件的话记录长度
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     
     int hash2[26] = {0};
@@ -33,4 +33,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return num;
 }
-```
+// ```

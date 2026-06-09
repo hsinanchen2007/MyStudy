@@ -1,8 +1,8 @@
-### 解题思路
-没脸见人了，这代码好丑
-### 代码
+// ### 解题思路
+// 没脸见人了，这代码好丑
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isValidSudoku(char[][] board) {
         int[] Mask=new int[10];
@@ -51,4 +51,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

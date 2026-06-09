@@ -1,9 +1,9 @@
-### 解题思路
-使用两个栈实现队列。
+// ### 解题思路
+// 使用两个栈实现队列。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyQueue {
     Stack<Integer> input = new Stack<>();
     Stack<Integer> output = new Stack<>();
@@ -55,4 +55,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

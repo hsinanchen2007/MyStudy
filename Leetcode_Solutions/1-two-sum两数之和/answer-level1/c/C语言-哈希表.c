@@ -1,6 +1,6 @@
 
 
-```
+// ```
  int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     #define H_SIZE 100
     typedef struct member_tag
@@ -75,4 +75,4 @@
 }
 
 
-```
+// ```

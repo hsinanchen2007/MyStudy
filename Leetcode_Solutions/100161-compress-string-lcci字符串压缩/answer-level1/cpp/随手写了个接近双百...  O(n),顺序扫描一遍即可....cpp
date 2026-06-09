@@ -1,5 +1,5 @@
-这个复杂度应该是O(n)吧
-```
+// 这个复杂度应该是O(n)吧
+// ```
 class Solution {
 public:
     string tochar(int num){
@@ -30,4 +30,4 @@ public:
         return res.length()>=s.length()?s:res;
     }
 };
-```
+// ```

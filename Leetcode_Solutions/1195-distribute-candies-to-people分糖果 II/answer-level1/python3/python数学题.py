@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         l = [0 for x in range(num_people)]
@@ -13,4 +13,4 @@ class Solution:
                 l[a-1] += candies
                 candies = 0
         return l
-```
+# ```

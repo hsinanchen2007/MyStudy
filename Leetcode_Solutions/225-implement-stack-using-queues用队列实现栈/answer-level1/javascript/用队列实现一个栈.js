@@ -1,21 +1,21 @@
-### 解题思路
+// ### 解题思路
 
-维持两个队列，用与栈的 pop 和top操作。
+// 维持两个队列，用与栈的 pop 和top操作。
 
-#### 实现队列的方法
+// #### 实现队列的方法
 
-- queue_isEmpty(queue) 判断queu是否为空
-- queue_push(queue, x) 向队列queue中插入元素x
-- queue_pop(queue)  弹出队列的头元素
-- queue_peek(queue) 返回队列的头元素
+// - queue_isEmpty(queue) 判断queu是否为空
+// - queue_push(queue, x) 向队列queue中插入元素x
+// - queue_pop(queue)  弹出队列的头元素
+// - queue_peek(queue) 返回队列的头元素
 
-#### 用队列实现栈
+// #### 用队列实现栈
 
-逻辑比较简单，具体看以下代码
+// 逻辑比较简单，具体看以下代码
 
-### javascript 的实现
+// ### javascript 的实现
 
-```javascript
+// ```javascript
 function queue_isEmpty(queue) {
     return queue.length === 0
   }
@@ -90,11 +90,11 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```
 
-### typescript 的实现
+// ### typescript 的实现
 
-```typescript
+// ```typescript
 class MyStack<T> {
   private queue: T[] = []
   private queue_bak: T[] = []
@@ -158,4 +158,4 @@ class MyStack<T> {
   }
 }
 
-```
+// ```

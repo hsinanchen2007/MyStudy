@@ -1,9 +1,9 @@
-### 解题思路
-广度优先遍历，利用一个队列每次遍历左右孩子，如果左孩子是叶子节点就累加
+// ### 解题思路
+// 广度优先遍历，利用一个队列每次遍历左右孩子，如果左孩子是叶子节点就累加
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -35,4 +35,4 @@ var sumOfLeftLeaves = function(root) {
     }
     return ret
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-优化：将连续相等的去掉
+// ### 解题思路
+// 优化：将连续相等的去掉
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int wiggleMaxLength(vector<int>& nums) {
@@ -50,4 +50,4 @@ public:
         return count;
     }
 };
-```
+// ```

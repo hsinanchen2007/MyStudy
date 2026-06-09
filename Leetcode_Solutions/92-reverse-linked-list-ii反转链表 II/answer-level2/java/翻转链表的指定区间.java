@@ -1,5 +1,5 @@
-分为三段处理，很简单：
-```java
+// 分为三段处理，很简单：
+// ```java
 class Solution {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         if (head == null || m == n) {
@@ -48,4 +48,4 @@ class Solution {
         return m == 1 ? pre : head;
     }
 }
-```
+// ```

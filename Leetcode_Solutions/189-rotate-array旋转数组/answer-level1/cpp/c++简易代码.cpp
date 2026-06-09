@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void rotate(vector<int>& nums, int k) {
@@ -11,4 +11,4 @@ public:
         nums.resize(len);
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func invertTree(_ root: TreeNode?) -> TreeNode? {
         if root == nil {
@@ -15,5 +15,5 @@ class Solution {
         return root
     }
 }
-```
-经典翻转二叉树，据说做对了可以进Google;-)
+// ```
+// 经典翻转二叉树，据说做对了可以进Google;-)

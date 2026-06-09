@@ -1,12 +1,12 @@
-### 双指针解题思路
-先判断head是否为空，不为空才能执行fast.next，不然报错：NoneType
-while循环：
-fast每次跳两格，slow每次跳一格，如果循环必然会相遇
-fast跳两格前需验证fast.next是否为空
+# ### 双指针解题思路
+# 先判断head是否为空，不为空才能执行fast.next，不然报错：NoneType
+# while循环：
+# fast每次跳两格，slow每次跳一格，如果循环必然会相遇
+# fast跳两格前需验证fast.next是否为空
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def hasCycle(self, head):
         if not head:#判断head是否为空
@@ -21,17 +21,17 @@ class Solution(object):
                 return False
             slow = slow.next
         return False
-```
+# ```
 
-### 列表解题思路
-构造列表set
-遍历一个元素，加add（）一个
-利用.next迭代下一个
-当元素已经存在set中时，停止，return True
+# ### 列表解题思路
+# 构造列表set
+# 遍历一个元素，加add（）一个
+# 利用.next迭代下一个
+# 当元素已经存在set中时，停止，return True
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -52,4 +52,4 @@ class Solution(object):
             s.add(head)
             head = head.next
         return False
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 '''
 LeetCode 684. Redundant Connection
 We are given a "tree" in the form of a 2D-array, with distinct values for each node.
@@ -222,4 +222,4 @@ class Solution(object):
             if min(degree[s], degree[t]) > 1: return [s, t] #度不为1的就是要删除的结果
         # 因为无环图经过拓扑排序，将为空
         # 遍历拓扑排序后的图，如果一对边的度有大于1的，那说明，这对边有问题，需要去掉，也就是结果
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-借用第7题解法，先反转 在判断是否相等。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 借用第7题解法，先反转 在判断是否相等。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         int value  =x;
@@ -24,4 +24,4 @@ class Solution {
        
     }
 }
-```
+// ```

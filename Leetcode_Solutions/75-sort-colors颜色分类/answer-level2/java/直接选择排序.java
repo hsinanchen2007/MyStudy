@@ -1,9 +1,9 @@
-### 解题思路
-哈哈 练排序呢
+// ### 解题思路
+// 哈哈 练排序呢
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void sortColors(int[] nums) {
         //直接选择排序
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

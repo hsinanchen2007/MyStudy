@@ -1,4 +1,4 @@
-```java
+// ```java
 
 public class FooBar {
 
@@ -54,4 +54,4 @@ public class FooBar {
         }
     }
 }
-```
+// ```

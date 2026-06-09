@@ -1,5 +1,5 @@
-**思路：** 将26进制转换成10进制，可以和题目168联系起来看。
-```
+// **思路：** 将26进制转换成10进制，可以和题目168联系起来看。
+// ```
 public int TitleToNumber(string s)
         {
             int result = 0;
@@ -10,4 +10,4 @@ public int TitleToNumber(string s)
 
             return result;
         }
-```
+// ```

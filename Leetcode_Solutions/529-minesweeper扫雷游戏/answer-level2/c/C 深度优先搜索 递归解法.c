@@ -1,9 +1,9 @@
-思路：
-1、click为雷直接赋值并返回；
-2、当前点周边有雷，则统计++后修改当前点并返回；
-3、当前点为'E',递归调用Dfs；
+// 思路：
+// 1、click为雷直接赋值并返回；
+// 2、当前点周边有雷，则统计++后修改当前点并返回；
+// 3、当前点为'E',递归调用Dfs；
 
-```
+// ```
 typedef struct Point{
      int rowIdx;
      int colIdx;
@@ -81,4 +81,4 @@ char** updateBoard(char** board, int boardSize, int* boardColSize, int* click, i
     return board;   
 
 }
-```
+// ```

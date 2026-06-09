@@ -1,6 +1,6 @@
 
-代码：（懂的都懂）
-```
+// 代码：（懂的都懂）
+// ```
 class Solution {
     public int maxProduct(int[] nums) {
         int max=nums[0];
@@ -19,4 +19,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

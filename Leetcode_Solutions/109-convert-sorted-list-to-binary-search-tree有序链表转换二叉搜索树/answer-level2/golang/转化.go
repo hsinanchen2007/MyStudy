@@ -1,8 +1,8 @@
-### 解题思路
-继承上一道
-### 代码
+// ### 解题思路
+// 继承上一道
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -48,4 +48,4 @@ func buildTree(nums []int) *TreeNode{
     res.Right = buildTree(nums[mid+1:])
     return res
 }
-```
+// ```

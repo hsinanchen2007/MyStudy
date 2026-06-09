@@ -1,5 +1,5 @@
-先排序，后二分搜0位置，后先正数求和，再从负数中较大的加进来
-```
+# 先排序，后二分搜0位置，后先正数求和，再从负数中较大的加进来
+# ```
 class Solution:
     def maxSatisfaction(self, satisfaction):
         num = sorted(satisfaction)
@@ -31,4 +31,4 @@ class Solution:
         if A[end]>=0:
             return end
         return -1
-```
+# ```

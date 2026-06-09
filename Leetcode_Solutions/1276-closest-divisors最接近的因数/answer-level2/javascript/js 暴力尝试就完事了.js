@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/18f059143ca33f4ad918d42ca560c034cdbf8d7e516d4d9422e46a6297842b74-image.png)
+// ![image.png](https://pic.leetcode-cn.com/18f059143ca33f4ad918d42ca560c034cdbf8d7e516d4d9422e46a6297842b74-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 暴力法：尝试 num + 1，num + 2 的所有成对因子，找到相差最小的
 注意：因子最大只需要尝试到 n的开平方 就可以了
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number[]}
@@ -39,4 +39,4 @@ var closestDivisors = function(num) {
   
   return ans;
 };
-```
+// ```

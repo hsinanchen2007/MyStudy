@@ -1,4 +1,4 @@
-```
+// ```
 public int findLengthOfLCIS(int[] nums) {
         if(nums.length==0) return 0;
         int temp = nums[0];//取第一个作为临时
@@ -15,4 +15,4 @@ public int findLengthOfLCIS(int[] nums) {
         }
         return Math.max(count,max);
     }
-```
+// ```

@@ -1,5 +1,5 @@
-在注释里~
-```
+// 在注释里~
+// ```
 class Solution {
     public int triangleNumber(int[] nums) {
         int cnt = 0;
@@ -23,4 +23,4 @@ class Solution {
         return cnt;
     }
 }
-```
+// ```

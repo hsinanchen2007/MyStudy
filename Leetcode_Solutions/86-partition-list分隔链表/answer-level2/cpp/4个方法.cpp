@@ -1,7 +1,7 @@
-方法1：增加一个哑结点；
-找到比x大的第一个节点的前一个节点，代码中p节点；
-再从该节点的后一个节点开始，依次将比x小的节点用头插法插入p节点之前。
-```
+// 方法1：增加一个哑结点；
+// 找到比x大的第一个节点的前一个节点，代码中p节点；
+// 再从该节点的后一个节点开始，依次将比x小的节点用头插法插入p节点之前。
+// ```
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -28,13 +28,13 @@ public:
         return newHead;
     }
 };
-```
+// ```
 
-方法2：参考的官方题解。
-bigger链接>=x的节点，smaller链接<x的节点；
-将smaller链接bigger中第一个比x大的节点；
-smaller指向空。
-```
+// 方法2：参考的官方题解。
+// bigger链接>=x的节点，smaller链接<x的节点；
+// 将smaller链接bigger中第一个比x大的节点；
+// smaller指向空。
+// ```
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -58,10 +58,10 @@ public:
         return res -> next;
     }
 };
-```
+// ```
 
-方法3：类似方法2，对哑结点的使用很好。
-```
+// 方法3：类似方法2，对哑结点的使用很好。
+// ```
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -87,9 +87,9 @@ public:
 
     }
 };
-```
-方法4：用数组做，思想同方法2。
-```
+// ```
+// 方法4：用数组做，思想同方法2。
+// ```
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
@@ -117,5 +117,5 @@ public:
         return head;
     }
 };
-```
+// ```
 

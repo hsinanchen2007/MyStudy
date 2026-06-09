@@ -1,9 +1,9 @@
-### 解题思路
-1. 首先要明白排序规则是如何起作用的。简单说明: 如果要降序，那么`comp(n1, n2)`这个函数就要返回在`n1 > n2` 为真时返回`true`(或者直接`return n1 > n2`)。降序则是`return n1 < n2` 。
-2. 此题要使得组合起来的数字为最大数，那么就要采取降序排列。根据1.说明的排序规则，要`return n1 > n2`，**即让组合的字符串最大时**`return true`。即下面的代码`if(temp1>temp2) return true;`(或者直接`return temp1 > tmep2`)
-### 代码
+// ### 解题思路
+// 1. 首先要明白排序规则是如何起作用的。简单说明: 如果要降序，那么`comp(n1, n2)`这个函数就要返回在`n1 > n2` 为真时返回`true`(或者直接`return n1 > n2`)。降序则是`return n1 < n2` 。
+// 2. 此题要使得组合起来的数字为最大数，那么就要采取降序排列。根据1.说明的排序规则，要`return n1 > n2`，**即让组合的字符串最大时**`return true`。即下面的代码`if(temp1>temp2) return true;`(或者直接`return temp1 > tmep2`)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool comp(int& n1, int& n2){
@@ -31,4 +31,4 @@ public:
         return result;
     }
 };
-```
+// ```

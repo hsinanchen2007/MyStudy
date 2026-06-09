@@ -1,9 +1,9 @@
-### 解题思路
-第一次使用暴力搜索算法，总是超出时间限制。参考了别人的解法，看到了双指针解法的巧妙，
+// ### 解题思路
+// 第一次使用暴力搜索算法，总是超出时间限制。参考了别人的解法，看到了双指针解法的巧妙，
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -35,4 +35,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize)
     *returnSize = 2;
     return rel;
 }
-```
+// ```

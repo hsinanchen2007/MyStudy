@@ -1,9 +1,9 @@
-### 解题思路
-暴力破解
+# ### 解题思路
+# 暴力破解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         while prices[-1:] == [0]:
@@ -23,4 +23,4 @@ class Solution:
             i += 1
         return mm
 
-```
+# ```

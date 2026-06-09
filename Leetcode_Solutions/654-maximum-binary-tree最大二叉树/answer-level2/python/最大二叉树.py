@@ -1,9 +1,9 @@
-### 解题思路
-递归，每次找出最大二叉树的根节点，划分左右子树
+# ### 解题思路
+# 递归，每次找出最大二叉树的根节点，划分左右子树
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution(object):
         root.right = self.constructMaximumBinaryTree(nums[ix+1:])
 
         return root
-```
+# ```

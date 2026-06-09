@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/9211b7dafb01ecab9906f58b10811ee5cc6ba4dd48051f37c7cc8d5cd41b2ba5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9211b7dafb01ecab9906f58b10811ee5cc6ba4dd48051f37c7cc8d5cd41b2ba5-image.png)
 
-```
+// ```
     TreeNode pre = null;
     int res = Integer.MAX_VALUE;
     public int getMinimumDifference(TreeNode root) {
@@ -18,4 +18,4 @@
         pre = root;
         inOrder(root.right);
     }
-```
+// ```

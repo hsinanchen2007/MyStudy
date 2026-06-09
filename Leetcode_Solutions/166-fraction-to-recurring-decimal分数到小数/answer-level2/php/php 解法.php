@@ -1,4 +1,4 @@
-```
+// ```
 function fractionToDecimal($numerator, $denominator) {
     if($denominator == 0) return "0";
     $ans = "";
@@ -25,4 +25,4 @@ function fractionToDecimal($numerator, $denominator) {
     }
     return $ans;
 }
-```
+// ```

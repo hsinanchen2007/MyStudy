@@ -1,11 +1,11 @@
-### 解题思路
-1. 暴力排序, 时间复杂度$NlogN$
-2. 大顶堆优先队列, 时间复杂度$O(KlgK)$, 空间复杂度$O(K)$
-3. 二分法
+# ### 解题思路
+# 1. 暴力排序, 时间复杂度$NlogN$
+# 2. 大顶堆优先队列, 时间复杂度$O(KlgK)$, 空间复杂度$O(K)$
+# 3. 二分法
 
-### 代码
-**最小堆**
-```c++ []
+# ### 代码
+# **最小堆**
+# ```c++ []
 class Solution {
 private:
     // 定义结构体, 重载比较符号
@@ -61,8 +61,8 @@ private:
     int R, C;
     vector<vector<int>> dirs = {{0, 1}, {1, 0}};
 };
-```
-```java []
+# ```
+# ```java []
 public class Solution {
     private class Node{
         int x,y,v;
@@ -95,9 +95,9 @@ public class Solution {
         return ans;
     }
 }
-```
-**二分法**
-```python []
+# ```
+# **二分法**
+# ```python []
 class Solution:
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
         from bisect import bisect_right
@@ -116,8 +116,8 @@ class Solution:
                 r = mid
         
         return l
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     int kthSmallest(vector<vector<int>>& matrix, int k) {
@@ -141,10 +141,10 @@ public:
         return l;
     }
 };
-```
+# ```
 
-**暴力排序**
-```python []
+# **暴力排序**
+# ```python []
 class Solution:
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
         R, C = len(matrix), len(matrix[0])
@@ -155,9 +155,9 @@ class Solution:
 
         arr.sort()
         return arr[k-1]
-```
-**优先队列**
-```python []
+# ```
+# **优先队列**
+# ```python []
 from queue import PriorityQueue as PQ
 class Solution:
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
@@ -172,4 +172,4 @@ class Solution:
 
         return pq.get()[1]
 
-```
+# ```

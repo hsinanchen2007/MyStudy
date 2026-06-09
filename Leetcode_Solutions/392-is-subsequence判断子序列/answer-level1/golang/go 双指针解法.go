@@ -1,6 +1,6 @@
-双指针 复杂度O(n)
+// 双指针 复杂度O(n)
 
-``` golang
+// ``` golang
 func isSubsequence(s string, t string) bool {
     return method_point2(s, t)
 }
@@ -20,4 +20,4 @@ func method_point2(s string, t string) bool {
     }
     return t1 == len(s)
 }
-```
+// ```

@@ -1,7 +1,7 @@
-Rust的```Option<Box<ListNode>>```型链表实际上是一种栈，因此只能通过较为低效的双栈操作来实现对任意节点的操作
-当然，在unsafe模式下可以利用原始指针达到与C相同的效果
+// Rust的```Option<Box<ListNode>>```型链表实际上是一种栈，因此只能通过较为低效的双栈操作来实现对任意节点的操作
+// 当然，在unsafe模式下可以利用原始指针达到与C相同的效果
 
-```rust
+// ```rust
 #[derive(Clone)]
 struct ListNode {
     val: i32,
@@ -146,4 +146,4 @@ impl MyLinkedList {
  * obj.add_at_index(index, val);
  * obj.delete_at_index(index);
  */
-```
+// ```

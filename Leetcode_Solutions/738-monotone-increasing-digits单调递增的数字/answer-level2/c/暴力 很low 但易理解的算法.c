@@ -1,17 +1,17 @@
-### 解题思路
-![1.png](https://pic.leetcode-cn.com/1c8d182c284ee5c1423ab78760cd71eed2473a034084ffb2dccb5dc8d9f38f38-1.png)
+// ### 解题思路
+// ![1.png](https://pic.leetcode-cn.com/1c8d182c284ee5c1423ab78760cd71eed2473a034084ffb2dccb5dc8d9f38f38-1.png)
 
-害 暴力就完事了 很low 仅供参考
+// 害 暴力就完事了 很low 仅供参考
 
-总体思路是：
-1,将整型转成整型数组
-2,从后往前遍历，对整型数组的每一位进行处理。
-  若当前位i的值小于i-1位的值，则将此两位的值都重新赋值。详细见代码注释
-3,将整型数组转化为整型数。
+// 总体思路是：
+// 1,将整型转成整型数组
+// 2,从后往前遍历，对整型数组的每一位进行处理。
+//   若当前位i的值小于i-1位的值，则将此两位的值都重新赋值。详细见代码注释
+// 3,将整型数组转化为整型数。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int monotoneIncreasingDigits(int N){
 //1,将int类型N转化为int[]类型的digits
     int len = 0;
@@ -49,4 +49,4 @@ int monotoneIncreasingDigits(int N){
 
     return res;
 }
-```
+// ```

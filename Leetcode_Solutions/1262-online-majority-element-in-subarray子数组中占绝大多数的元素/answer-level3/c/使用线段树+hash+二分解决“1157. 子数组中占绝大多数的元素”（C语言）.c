@@ -1,24 +1,24 @@
-### 解题思路
-本题是参考其他人的解法完成的，这里给出C语言的实现。
+// ### 解题思路
+// 本题是参考其他人的解法完成的，这里给出C语言的实现。
 
-1.构建线段树
+// 1.构建线段树
 
-2.构建用于查找结果的id映射
+// 2.构建用于查找结果的id映射
 
-3.在线段树中查询一段区间
+// 3.在线段树中查询一段区间
 
-4.获得该区间最有可能的数值val
+// 4.获得该区间最有可能的数值val
 
-5.从id映射中二分查找落在查询区间的val个数
+// 5.从id映射中二分查找落在查询区间的val个数
 
-其中考察了线段树，uthash，和二分的知识点。
+// 其中考察了线段树，uthash，和二分的知识点。
 
-![image.png](https://pic.leetcode-cn.com/e117fc9c856839f7073999d23c8d12a57973d0f95fb00614e3295c5bf98e6c1f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e117fc9c856839f7073999d23c8d12a57973d0f95fb00614e3295c5bf98e6c1f-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define IDS_MAX     20000
 
 typedef struct _info_st {
@@ -255,4 +255,4 @@ void majorityCheckerFree(MajorityChecker* obj) {
  
  * majorityCheckerFree(obj);
 */
-```
+// ```

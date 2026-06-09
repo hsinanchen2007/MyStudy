@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def getValidT9Words(self, num: str, words: List[str]) -> List[str]:
         hashamap = {'2':['a','b','c'],
@@ -34,4 +34,4 @@ class Solution:
                     dfs(word, i+1, curNode)
         dfs(num, 0, trie)
         return res
-```
+# ```

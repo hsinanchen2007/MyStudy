@@ -1,5 +1,5 @@
-外循环决定填充的方向，内循环决定填充的长度。
-```
+// 外循环决定填充的方向，内循环决定填充的长度。
+// ```
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -22,4 +22,4 @@ public:
         return res;
     }
 };
-```
+// ```

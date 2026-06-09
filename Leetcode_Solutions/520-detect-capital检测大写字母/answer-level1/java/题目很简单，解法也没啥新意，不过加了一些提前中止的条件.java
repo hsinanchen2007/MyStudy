@@ -1,8 +1,8 @@
 
-执行用时 :2 ms, 在所有 Java 提交中击败了97.50%的用户
-内存消耗 :34.8 M, 在所有 Java 提交中击败了93.17%的用户
+// 执行用时 :2 ms, 在所有 Java 提交中击败了97.50%的用户
+// 内存消耗 :34.8 M, 在所有 Java 提交中击败了93.17%的用户
 
-```
+// ```
 class Solution {
     public boolean detectCapitalUse(String word) {
         /*
@@ -38,6 +38,6 @@ class Solution {
             return true;
     }
 }
-```
+// ```
 
 

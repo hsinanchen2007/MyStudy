@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（n）
-空间复杂度：O（n）
+# ### 解题思路
+# 时间复杂度：O（n）
+# 空间复杂度：O（n）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
         return self.symmetric(root, root)
@@ -21,4 +21,4 @@ class Solution:
         return node1.val == node2.val and self.symmetric(node1.left, node2.right) and \
          self.symmetric(node1.right, node2.left)
         
-```
+# ```

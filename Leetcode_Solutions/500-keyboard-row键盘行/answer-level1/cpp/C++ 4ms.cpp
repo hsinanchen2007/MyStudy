@@ -1,9 +1,9 @@
-### 解题思路
-创建数组对应26个字母的行数 注意大小写问题
+// ### 解题思路
+// 创建数组对应26个字母的行数 注意大小写问题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findWords(vector<string>& words)
@@ -29,4 +29,4 @@ public:
         return ans;
     }
 };
-```
+// ```

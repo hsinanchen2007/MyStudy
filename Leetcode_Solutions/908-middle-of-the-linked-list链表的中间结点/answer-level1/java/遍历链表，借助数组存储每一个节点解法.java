@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-遍历链表，借助一个数组存储每一个节点，遍历完成后直接数组的size大小除2即可得到中间节点的下标
+// 遍历链表，借助一个数组存储每一个节点，遍历完成后直接数组的size大小除2即可得到中间节点的下标
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -28,4 +28,4 @@ class Solution {
         return listNodes.get(total/2);
     }
 }
-```
+// ```

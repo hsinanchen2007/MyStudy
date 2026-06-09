@@ -1,4 +1,4 @@
-```
+// ```
 
 /**
 *
@@ -76,4 +76,4 @@ bool isPalindrome( char * s ){
     return true;
 
 }
-```
+// ```

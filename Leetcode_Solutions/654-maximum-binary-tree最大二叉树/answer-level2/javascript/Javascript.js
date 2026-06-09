@@ -1,9 +1,9 @@
-### 解题思路
-找出最大值（root），然后通过分治得到left和right，最后递归
+// ### 解题思路
+// 找出最大值（root），然后通过分治得到left和right，最后递归
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -39,4 +39,4 @@ var constructMaximumBinaryTree = function(nums) {
 
     return root
 };
-```
+// ```

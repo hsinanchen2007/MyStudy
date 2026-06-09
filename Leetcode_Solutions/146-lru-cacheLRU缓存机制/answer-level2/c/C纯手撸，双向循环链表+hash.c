@@ -1,18 +1,18 @@
-先贴运行结果吧！！！
-![运行结果](https://pic.leetcode-cn.com/93595456af03019857bf657d968b2a030f68bbc95ee34d45d639dd1ba8b24764-image.png)
+// 先贴运行结果吧！！！
+// ![运行结果](https://pic.leetcode-cn.com/93595456af03019857bf657d968b2a030f68bbc95ee34d45d639dd1ba8b24764-image.png)
 
-说明：
-    * 采用 hash 表 + 双向循环链表；
-    * 采用 双向循环链表是为了方便将某个节点移动到表头，以及获取表尾节点
-    * hash表采用拉链法，简单的 key % capacity，故时间复杂度只能说接近于O(1)
+// 说明：
+//     * 采用 hash 表 + 双向循环链表；
+//     * 采用 双向循环链表是为了方便将某个节点移动到表头，以及获取表尾节点
+//     * hash表采用拉链法，简单的 key % capacity，故时间复杂度只能说接近于O(1)
 
-思路：
-    * 双链表节点存储 key, value, next, prev 信息，没啥好说的
-    * hash 表采用拉链法，哈希函数使用 key % capacity, 节点存储双链表中key对应节点的地址和next
-    * 创建链表时首先分别分配 capacity 个双向循环链接节点和hash节点，避免后续再分配(但是相应的增加了复杂度，原本是想着可以增加加快运行速度的，从运行结果看来，貌似并不理想)
-    * get 操作直接查找hash表，找到了就返回对应的双链表节点中value，找不到就返回-1
-    * put 操作先判断是否存在 key 对应的节点，找到了就直接替换为新的 value; 否则讲新链表中的最后一个节点替换为新的 key 和 value
-```
+// 思路：
+//     * 双链表节点存储 key, value, next, prev 信息，没啥好说的
+//     * hash 表采用拉链法，哈希函数使用 key % capacity, 节点存储双链表中key对应节点的地址和next
+//     * 创建链表时首先分别分配 capacity 个双向循环链接节点和hash节点，避免后续再分配(但是相应的增加了复杂度，原本是想着可以增加加快运行速度的，从运行结果看来，貌似并不理想)
+//     * get 操作直接查找hash表，找到了就返回对应的双链表节点中value，找不到就返回-1
+//     * put 操作先判断是否存在 key 对应的节点，找到了就直接替换为新的 value; 否则讲新链表中的最后一个节点替换为新的 key 和 value
+// ```
 #define HASH_BUCKET(obj, key) (&obj->hash[key % obj->capacity])
 
 struct double_link_list
@@ -148,4 +148,4 @@ void lRUCacheFree(LRUCache* obj) {
     free(obj);
     obj = NULL;
 }
-```
+// ```

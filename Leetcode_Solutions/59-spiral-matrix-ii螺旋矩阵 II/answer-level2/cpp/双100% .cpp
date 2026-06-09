@@ -1,9 +1,9 @@
-### 解题思路
-参考https://leetcode-cn.com/problems/spiral-matrix/solution/cxiang-xi-ti-jie-by-youlookdeliciousc-3/
+// ### 解题思路
+// 参考https://leetcode-cn.com/problems/spiral-matrix/solution/cxiang-xi-ti-jie-by-youlookdeliciousc-3/
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -27,4 +27,4 @@ public:
         return ans;
     }
 };
-```
+// ```

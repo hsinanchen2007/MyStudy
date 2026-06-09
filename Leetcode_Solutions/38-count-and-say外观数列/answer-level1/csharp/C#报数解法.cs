@@ -1,4 +1,4 @@
-```
+// ```
 public static string CountAndSay(int n)
         {
             string res = "1";
@@ -37,4 +37,4 @@ public static string CountAndSay(int n)
             }
             return res;
         }
-```
+// ```

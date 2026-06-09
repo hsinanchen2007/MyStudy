@@ -1,6 +1,6 @@
-![206AE3BA-02C4-40E8-B02F-87AE718ED219.jpeg](https://pic.leetcode-cn.com/b7dc4e04b596943e50658e1b796f3891c4c86677171cd51935a3119ed67515b7-206AE3BA-02C4-40E8-B02F-87AE718ED219.jpeg)
+// ![206AE3BA-02C4-40E8-B02F-87AE718ED219.jpeg](https://pic.leetcode-cn.com/b7dc4e04b596943e50658e1b796f3891c4c86677171cd51935a3119ed67515b7-206AE3BA-02C4-40E8-B02F-87AE718ED219.jpeg)
 
-```
+// ```
 #define INF 2147483647
 
 void SubFuncDFS(int** rooms, int roomsSize, int* roomsColSize, int i, int j, int level, int **roomsFlag)
@@ -67,4 +67,4 @@ void wallsAndGates(int** rooms, int roomsSize, int* roomsColSize){
 }
 
 
-```
+// ```

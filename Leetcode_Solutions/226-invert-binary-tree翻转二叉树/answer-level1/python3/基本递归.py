@@ -1,9 +1,9 @@
-### 解题思路
-一看就知道递归，没啥
+# ### 解题思路
+# 一看就知道递归，没啥
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
             dochange(node.right)
         '''
 
-```
+# ```

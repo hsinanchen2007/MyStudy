@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public://执行用时 :88 ms, 在所有 C++ 提交中击败了83.33%的用户
     int i,j,left,right,up,down,total,r,c;
@@ -35,4 +35,4 @@ public://执行用时 :88 ms, 在所有 C++ 提交中击败了83.33%的用户
     }
     inline bool judge(int i,int j) {return i>=0&&i<r&&j>=0&&j<c;} //在矩阵内写入坐标
 };
-```
+// ```

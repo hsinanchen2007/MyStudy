@@ -1,9 +1,9 @@
-### 解题思路
-用堆栈的思路，如果遇到c，看看前两个是不是ab，是的话一起去掉，不是的话放入堆栈。
+# ### 解题思路
+# 用堆栈的思路，如果遇到c，看看前两个是不是ab，是的话一起去掉，不是的话放入堆栈。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, S: str) -> bool:
         S2 = ''             # 充当堆栈作用
@@ -14,4 +14,4 @@ class Solution:
             else:
                 S2 += e 
         return S2 == ''
-```
+# ```

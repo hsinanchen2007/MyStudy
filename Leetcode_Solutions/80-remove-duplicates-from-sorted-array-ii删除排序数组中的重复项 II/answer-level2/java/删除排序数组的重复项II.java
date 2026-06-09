@@ -1,5 +1,5 @@
-# 代码
-```java []
+// # 代码
+// ```java []
 class Solution {
     public int removeDuplicates(int[] nums) {
         if(nums.length==0) return 0;
@@ -25,4 +25,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

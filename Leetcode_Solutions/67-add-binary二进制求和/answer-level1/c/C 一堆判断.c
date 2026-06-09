@@ -1,12 +1,12 @@
-### 解题思路
-先把两个字符串放到两个数组中，从低位到高位。
-计算和
-进位计算
-翻转后放到字符数组中
+// ### 解题思路
+// 先把两个字符串放到两个数组中，从低位到高位。
+// 计算和
+// 进位计算
+// 翻转后放到字符数组中
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * addBinary(char * a, char * b){
     //申请数组装 字符串的数字
     int aLength = strlen(a);
@@ -96,4 +96,4 @@ char * addBinary(char * a, char * b){
     free(cArray);
     return returnArray;
 }
-```
+// ```

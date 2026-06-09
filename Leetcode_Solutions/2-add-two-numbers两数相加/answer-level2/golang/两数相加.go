@@ -1,5 +1,5 @@
-思路 就是遍历两个链表，判断两值相加，注意进位就可以了。
-```
+// 思路 就是遍历两个链表，判断两值相加，注意进位就可以了。
+// ```
     firstNode := &ListNode{0, nil}
         cNode := firstNode
 	curL1 := l1
@@ -28,5 +28,5 @@
 		cNode.Next = &ListNode{next, nil}
 		cNode = cNode.Next
 	}
-```
+// ```
 	

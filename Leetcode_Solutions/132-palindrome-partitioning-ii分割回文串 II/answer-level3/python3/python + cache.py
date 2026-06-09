@@ -1,4 +1,4 @@
-```python
+# ```python
 from functools import lru_cache
 class Solution:
     @lru_cache(None)
@@ -12,4 +12,4 @@ class Solution:
         return ans
     
 
-```
+# ```

@@ -1,5 +1,5 @@
-    // min记录i之前股票最小值
-    // max记录到当前位置时收益的最大值
+//     // min记录i之前股票最小值
+//     // max记录到当前位置时收益的最大值
     class Solution {
         public int maxProfit(int[] prices) {
             if(prices.length <= 1) {

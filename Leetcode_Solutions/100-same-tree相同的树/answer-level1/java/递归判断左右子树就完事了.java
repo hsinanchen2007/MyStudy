@@ -1,9 +1,9 @@
-### 解题思路
-递归思想，两颗树一样的条件是左右子树都一样。不断递归下去，最后判断单一的节点值就行了。
+// ### 解题思路
+// 递归思想，两颗树一样的条件是左右子树都一样。不断递归下去，最后判断单一的节点值就行了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 
 class Solution {
 
@@ -16,4 +16,4 @@ class Solution {
         return isSameTree(p.left,q.left)&&isSameTree(p.right,q.right);
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-快慢双指针，若有环，指针必在环内相遇，若无则快指针必先指向nil
+// ### 解题思路
+// 快慢双指针，若有环，指针必在环内相遇，若无则快指针必先指向nil
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -42,4 +42,4 @@ func isCycle(l1,l2 *ListNode) bool {
     return isCycle(l1.Next,l2.Next.Next)
 }
 
-```
+// ```

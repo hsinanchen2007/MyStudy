@@ -1,10 +1,10 @@
-### 解题思路
-其实有一点dp的想法，result一直记录上一步的结果，用temp做中间变量计算现在结果
-最后将temp赋值给result，继续下一次循环
+// ### 解题思路
+// 其实有一点dp的想法，result一直记录上一步的结果，用temp做中间变量计算现在结果
+// 最后将temp赋值给result，继续下一次循环
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> letterCombinations(string digits) {
@@ -41,4 +41,4 @@ public:
         return result;
     }
 };
-```
+// ```

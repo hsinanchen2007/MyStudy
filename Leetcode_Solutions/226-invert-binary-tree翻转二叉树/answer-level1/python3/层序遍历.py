@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode:
         if not root:
@@ -11,4 +11,4 @@ class Solution:
                 if node.right: dq.append(node.right)
                 node.left, node.right = node.right, node.left
         return root
-```
+# ```

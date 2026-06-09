@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-punch in the card. 
+# punch in the card. 
 
-Again, I will give you the code. 
+# Again, I will give you the code. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         x=0
@@ -58,4 +58,4 @@ class Solution:
                 break
             i+=1
         return capture
-```
+# ```

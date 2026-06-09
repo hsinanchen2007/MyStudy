@@ -1,9 +1,9 @@
-### 解题思路
-利用滑块平移慢慢匹配
+// ### 解题思路
+// 利用滑块平移慢慢匹配
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) 
@@ -57,4 +57,4 @@ private:
     }
 
 };
-```
+// ```

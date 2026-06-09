@@ -1,4 +1,4 @@
-```
+// ```
 import "strings"
 
 func findDuplicate(paths []string) [][]string {
@@ -19,4 +19,4 @@ func findDuplicate(paths []string) [][]string {
 	}
 	return out
 }
-```
+// ```

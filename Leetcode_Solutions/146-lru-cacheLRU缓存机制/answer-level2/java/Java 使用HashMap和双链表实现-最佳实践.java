@@ -1,24 +1,24 @@
-LRUCache最简单的实现是单链表
-- get元素时，同时将该元素移动到链表尾部
-- put元素时，先查找
-- 如果没有找到，直接移动到链表尾部
-- 如果找到了，移除原来元素，将新元素插入链表尾部
-- 如果Cache已满，移除链表头结点
+// LRUCache最简单的实现是单链表
+// - get元素时，同时将该元素移动到链表尾部
+// - put元素时，先查找
+// - 如果没有找到，直接移动到链表尾部
+// - 如果找到了，移除原来元素，将新元素插入链表尾部
+// - 如果Cache已满，移除链表头结点
 
-这种做法时间复杂度太高，为O(n),题目要求使用时间复杂度O(1)完成，符合这个条件的只有哈希表,所以最终的答案就是HashMap+双向链表
+// 这种做法时间复杂度太高，为O(n),题目要求使用时间复杂度O(1)完成，符合这个条件的只有哈希表,所以最终的答案就是HashMap+双向链表
 
-Java中LinkedHashMap就是这种结构，但是我们还是决定使用HashMap+双链表实现一个LRUCache，这样对LinkedHashMap这种结构也有了更深的了解
+// Java中LinkedHashMap就是这种结构，但是我们还是决定使用HashMap+双链表实现一个LRUCache，这样对LinkedHashMap这种结构也有了更深的了解
 
-__为什么使用双链表，双链表保存了前驱和后继指针，方便在O(1)的时间复杂度移除元素__
+// __为什么使用双链表，双链表保存了前驱和后继指针，方便在O(1)的时间复杂度移除元素__
 
-LRUCache中保存了一下几个变量
-- HashMap<Integer,Integer> map   保存Node，保证在O(1)的时间复杂度定位到元素位置
-- Node head  双链表的头部，最近没有被访问的元素，Cache满时，移除head元素
-- Node tail  双链表的尾部，所有最近访问的元素都放到尾部
-- int size  当前LRUCache共有多少元素
-- int capacity  当前LRUCache最大大小
+// LRUCache中保存了一下几个变量
+// - HashMap<Integer,Integer> map   保存Node，保证在O(1)的时间复杂度定位到元素位置
+// - Node head  双链表的头部，最近没有被访问的元素，Cache满时，移除head元素
+// - Node tail  双链表的尾部，所有最近访问的元素都放到尾部
+// - int size  当前LRUCache共有多少元素
+// - int capacity  当前LRUCache最大大小
 
-```
+// ```
 public class LRUCache {
     private int size;
     private int capacity;
@@ -102,4 +102,4 @@ public class LRUCache {
         Node prev;
     }
 }
-```
+// ```

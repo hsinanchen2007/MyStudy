@@ -1,5 +1,5 @@
-可以将单词翻转，然后再整体翻转。
-```
+// 可以将单词翻转，然后再整体翻转。
+// ```
 class Solution {
 public:
     string reverseWords(string s) {
@@ -11,10 +11,10 @@ public:
         return res;
     }
 };
-```
-上面使用stringstream间接使用空间O(N)，而且字符串的添加（append）也很耗时。
-下面就地翻转，首先去除多余空格，然后就地翻转。
-```
+// ```
+// 上面使用stringstream间接使用空间O(N)，而且字符串的添加（append）也很耗时。
+// 下面就地翻转，首先去除多余空格，然后就地翻转。
+// ```
 class Solution {
 public:
     string reverseWords(string s) {
@@ -36,5 +36,5 @@ public:
         return s;
     }
 };
-```
+// ```
 

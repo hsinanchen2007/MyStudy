@@ -1,11 +1,11 @@
-### 解题思路
-根据是否有重叠，决定是否增加箭。
-1.有重叠，points[i][0] <= shoot_end,更新结束坐标min(points[i][1], shoot_end);
-2.无重叠，points[i][0] > shoot_end，增加箭数，同时更新结束坐标。
+// ### 解题思路
+// 根据是否有重叠，决定是否增加箭。
+// 1.有重叠，points[i][0] <= shoot_end,更新结束坐标min(points[i][1], shoot_end);
+// 2.无重叠，points[i][0] > shoot_end，增加箭数，同时更新结束坐标。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int min(int &a, int &b)
@@ -33,4 +33,4 @@ public:
         return shootnum;
     }
 };
-```
+// ```

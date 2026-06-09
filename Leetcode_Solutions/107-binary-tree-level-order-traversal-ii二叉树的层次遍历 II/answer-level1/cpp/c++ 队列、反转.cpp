@@ -1,10 +1,10 @@
-### 解题思路
-可以用reverse直接反转，也可以用中间容器逆向输出。
-两种方式执行用时和内存消耗相差无几。。。
+// ### 解题思路
+// 可以用reverse直接反转，也可以用中间容器逆向输出。
+// 两种方式执行用时和内存消耗相差无几。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
@@ -41,4 +41,4 @@ public:
         //return result;
     }
 };
-```
+// ```

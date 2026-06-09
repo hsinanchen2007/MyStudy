@@ -1,9 +1,9 @@
-### 解题思路
-使用Counter计数
+# ### 解题思路
+# 使用Counter计数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
@@ -15,4 +15,4 @@ class Solution:
                 return i
                 
         return -1
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
-遍历一次，使用map保存值。
-如果map存在，那么num + 2，并且删除当前key值
-如果map不存在，把当前值设置到map中
+// ### 解题思路
+// 遍历一次，使用map保存值。
+// 如果map存在，那么num + 2，并且删除当前key值
+// 如果map不存在，把当前值设置到map中
 
-最后判断看看map中有没有键，如果有则加1
+// 最后判断看看map中有没有键，如果有则加1
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -28,4 +28,4 @@ var longestPalindrome = function(s) {
     }
     return num;
 };
-```
+// ```

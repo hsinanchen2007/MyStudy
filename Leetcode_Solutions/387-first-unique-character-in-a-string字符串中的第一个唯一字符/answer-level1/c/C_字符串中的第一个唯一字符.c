@@ -1,9 +1,9 @@
-### 解题思路
-题目说“只有小写字母”，就是建立hash的事了
+// ### 解题思路
+// 题目说“只有小写字母”，就是建立hash的事了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int firstUniqChar(char * s){
     int hash[26]={0};
     for(char* iter=s;*iter!='\0';++iter)
@@ -13,4 +13,4 @@ int firstUniqChar(char * s){
             return iter-s;
     return -1;
 }
-```
+// ```

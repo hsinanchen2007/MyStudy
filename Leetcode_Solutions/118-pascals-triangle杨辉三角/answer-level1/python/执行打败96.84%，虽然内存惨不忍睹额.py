@@ -1,9 +1,9 @@
-### 解题思路
-跟官方差不多的意思，但官方的好简练啊啊啊，妙啊
+# ### 解题思路
+# 跟官方差不多的意思，但官方的好简练啊啊啊，妙啊
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def generate(self, numRows):
         """
@@ -27,4 +27,4 @@ class Solution(object):
                     res.append(1)
                     ress.append(res)
                 return ress
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def countAndSay(self, n):
         """
@@ -18,4 +18,4 @@ class Solution(object):
             next = []
         return ''.join(map(str, nums))
                 
-```
+# ```

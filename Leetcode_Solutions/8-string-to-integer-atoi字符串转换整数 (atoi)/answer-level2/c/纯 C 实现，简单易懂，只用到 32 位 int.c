@@ -1,6 +1,6 @@
-![2019-09-26_21-58.png](https://pic.leetcode-cn.com/b89bc3aab35d4386202108ec906f108cc24359bd56a4d2b9e14a4193819ff4c6-2019-09-26_21-58.png)
+// ![2019-09-26_21-58.png](https://pic.leetcode-cn.com/b89bc3aab35d4386202108ec906f108cc24359bd56a4d2b9e14a4193819ff4c6-2019-09-26_21-58.png)
 
-```c
+// ```c
 int myAtoi(char * str){
     // 移除开头的空格
     while(*str == ' ')
@@ -35,4 +35,4 @@ int myAtoi(char * str){
     }
     return flag * ret;
 }
-```
+// ```

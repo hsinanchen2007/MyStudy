@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
                 min_diff = min(min_diff, node.val - cur)
                 cur = node.val
         return min_diff
-```
+# ```

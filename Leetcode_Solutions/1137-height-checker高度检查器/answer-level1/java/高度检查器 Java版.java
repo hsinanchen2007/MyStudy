@@ -1,4 +1,4 @@
-```Java []
+// ```Java []
 class Solution{
     /**
     * 方法一：将数组heights里对应值赋给数组a，并对a排序，然后用a和heights作比较
@@ -44,4 +44,4 @@ class Solution{
         return count;
     }
 }
-```
+// ```

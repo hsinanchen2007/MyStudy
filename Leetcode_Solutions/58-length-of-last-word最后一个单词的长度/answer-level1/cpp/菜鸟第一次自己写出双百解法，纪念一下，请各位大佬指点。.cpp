@@ -1,9 +1,9 @@
-### 解题思路
-处理好末尾字母之前的空格即可。
+// ### 解题思路
+// 处理好末尾字母之前的空格即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -24,4 +24,4 @@ public:
         return res;
     }
 };
-```
+// ```

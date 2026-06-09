@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int orangesRotting(int[][] grid) {
         if(grid == null) return -1;
@@ -45,8 +45,8 @@ class Solution {
         return time;
     }
 }
-```
+// ```
 
-# 时间复杂度：O(NM)
-- 所有腐烂橘子都经过了**一次**队列
-# 空间复杂度：O(NM)
+// # 时间复杂度：O(NM)
+// - 所有腐烂橘子都经过了**一次**队列
+// # 空间复杂度：O(NM)

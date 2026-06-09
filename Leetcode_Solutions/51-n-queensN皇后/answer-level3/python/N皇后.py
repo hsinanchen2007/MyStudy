@@ -1,5 +1,5 @@
-时间有点长
-```
+# 时间有点长
+# ```
 class Solution(object):
     def solveNQueens(self, n):
         """
@@ -32,4 +32,4 @@ class Solution(object):
                     continue
         generate()
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class MyHashMap {
 private:
     list<pair<int, int>> hashMap[10000];
@@ -42,4 +42,4 @@ public:
         }
     }
 };
-```
+// ```

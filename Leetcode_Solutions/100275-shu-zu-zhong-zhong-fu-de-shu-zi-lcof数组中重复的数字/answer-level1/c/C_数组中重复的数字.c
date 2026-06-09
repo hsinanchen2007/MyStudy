@@ -1,9 +1,9 @@
-### 解题思路
-先排序再查重会超时。直接hash表法。
+// ### 解题思路
+// 先排序再查重会超时。直接hash表法。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findRepeatNumber(int* nums, int numsSize){
     int* hash=(int*)malloc(sizeof(int)*numsSize);
     for(int i=0;i<numsSize;++i)hash[i]=0;
@@ -40,4 +40,4 @@ int findRepeatNumber(int* nums, int numsSize){
             return nums[i];
     return -1;
 }*/
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     struct TreeNode* stack[256];
     int top;
@@ -33,4 +33,4 @@ bool bSTIteratorHasNext(BSTIterator* obj) {
 void bSTIteratorFree(BSTIterator* obj) {
     free(obj);
 }
-```
+// ```

@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/9
- *
- * 解题思路: 递归判断当前字符串是否满足规则
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/9
+//  *
+//  * 解题思路: 递归判断当前字符串是否满足规则
+//  *
+//  */
+// ```
 public boolean isOneBitCharacter(int[] bits) {
     if(bits[bits.length - 1] == 1){
         return false;
@@ -36,4 +36,4 @@ public boolean isBitChar(int[] bits , int start , int end){
 
     return res;
 }
-```
+// ```

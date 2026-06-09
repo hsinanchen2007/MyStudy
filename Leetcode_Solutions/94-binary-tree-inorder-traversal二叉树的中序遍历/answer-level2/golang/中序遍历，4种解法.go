@@ -1,6 +1,6 @@
-# 解法一 递归
-- `中序遍历`
-```golang
+// # 解法一 递归
+// - `中序遍历`
+// ```golang
 var res []int
 
 func inorderTraversal(root *TreeNode) []int {
@@ -16,12 +16,12 @@ func dfs(root *TreeNode) {
 		dfs(root.Right)
 	}
 }
-```
-- ``
-# 解法二 迭代（stack）
-- 逻辑与 **`解法一 递归`** 一致
-- 自建 `stack` 负责 `root` 出栈入栈
-```golang
+// ```
+// - ``
+// # 解法二 迭代（stack）
+// - 逻辑与 **`解法一 递归`** 一致
+// - 自建 `stack` 负责 `root` 出栈入栈
+// ```golang
 func inorderTraversal(root *TreeNode) []int {
 	var res []int
 	var stack []*TreeNode
@@ -41,15 +41,15 @@ func inorderTraversal(root *TreeNode) []int {
 	}
 	return res
 }
-```
+// ```
 
-# 解法三 Morris 破坏树结构 （`二叉树` 转 `单向升序链表`）
-在  **`解法一 递归`**  **`解法二 迭代（stack)`** 中，必须借助 `stack` 来实现 `中序遍历`，增加空间复杂度 `O(n)` 
-`Morris` 则在现有节点上进行节点关联，从而避免了 `stack` 空间复杂度 `O(n)` 的问题
-- 寻找`左子树` `最大节点` 指向`当前节点`
-- 砍掉 `当前节点` 的 `左子树` 
+// # 解法三 Morris 破坏树结构 （`二叉树` 转 `单向升序链表`）
+// 在  **`解法一 递归`**  **`解法二 迭代（stack)`** 中，必须借助 `stack` 来实现 `中序遍历`，增加空间复杂度 `O(n)` 
+// `Morris` 则在现有节点上进行节点关联，从而避免了 `stack` 空间复杂度 `O(n)` 的问题
+// - 寻找`左子树` `最大节点` 指向`当前节点`
+// - 砍掉 `当前节点` 的 `左子树` 
 
-```golang
+// ```golang
 func inorderTraversal(root *TreeNode) []int {
 	var res []int
 	var max *TreeNode
@@ -75,16 +75,16 @@ func inorderTraversal(root *TreeNode) []int {
 	}
 	return res
 }
-```
+// ```
 
-# 解法四 Morris 保持树结构
-在 **`解法三 Morris 破坏树结构`** 中
-- 我们为了避免下一次遍历到`root`时，再进入到`左子树`，直接`砍左子树`
+// # 解法四 Morris 保持树结构
+// 在 **`解法三 Morris 破坏树结构`** 中
+// - 我们为了避免下一次遍历到`root`时，再进入到`左子树`，直接`砍左子树`
 
-为了解决`砍树`问题，我们可以在 **`解法三 Morris 破坏树结构`** 的基础上，增加
-- 在下次遍历到 `root` 时，直接把 `root`加入结果
-- 移动到`root.Right` 就可以避免再进入到`左子树`的死循环
-```golang
+// 为了解决`砍树`问题，我们可以在 **`解法三 Morris 破坏树结构`** 的基础上，增加
+// - 在下次遍历到 `root` 时，直接把 `root`加入结果
+// - 移动到`root.Right` 就可以避免再进入到`左子树`的死循环
+// ```golang
 func inorderTraversal(root *TreeNode) []int {
 	var res []int
 	var max *TreeNode
@@ -113,6 +113,6 @@ func inorderTraversal(root *TreeNode) []int {
 	}
 	return res
 }
-```
+// ```
 
-[github](https://github.com/temporaries/leetcode)
+// [github](https://github.com/temporaries/leetcode)

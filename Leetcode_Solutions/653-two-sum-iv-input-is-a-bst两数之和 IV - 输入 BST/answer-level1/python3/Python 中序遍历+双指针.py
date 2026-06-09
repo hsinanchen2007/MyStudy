@@ -1,8 +1,8 @@
-### 解题思路
-中序遍历后得到有序队列，双指针遍历队列输出结果，复杂度均为O(n)
-### 代码
+# ### 解题思路
+# 中序遍历后得到有序队列，双指针遍历队列输出结果，复杂度均为O(n)
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution(object):
 
 
         
-```
+# ```

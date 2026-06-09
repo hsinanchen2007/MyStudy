@@ -1,4 +1,4 @@
-```
+// ```
 func increasingBST(root *TreeNode) *TreeNode {
 	var nums = make([]int, 0)
 	dfsincreasingBST(root, &nums)
@@ -28,4 +28,4 @@ func dfsincreasingBST(root *TreeNode, nums *[]int) {
 	*nums = append(*nums, root.Val)
 	dfsincreasingBST(root.Right, nums)
 }
-```
+// ```

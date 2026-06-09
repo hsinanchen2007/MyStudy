@@ -1,15 +1,15 @@
-### 解题思路
-这题主要考虑两种情况：
-    1.第一种，数组有正有负的情况，这时我们遍历数组，累计求和total, 如果total小于0，则直接舍弃前面的和，重新从0开始计算，确保子数组和最大
-    2.第二种，数组只有负数的元素，那么最大的子数组和，肯定就是数组中最大的负数。
+// ### 解题思路
+// 这题主要考虑两种情况：
+//     1.第一种，数组有正有负的情况，这时我们遍历数组，累计求和total, 如果total小于0，则直接舍弃前面的和，重新从0开始计算，确保子数组和最大
+//     2.第二种，数组只有负数的元素，那么最大的子数组和，肯定就是数组中最大的负数。
 
-时间复杂度：O(n), 空间复杂度：O(n)
+// 时间复杂度：O(n), 空间复杂度：O(n)
 
-![WeChatcfb7ab578afb328d8d438cf7002a7772.png](https://pic.leetcode-cn.com/5d7045c3e053424174a22325580fec2872b3b20f0b66033926d873256bfaf5d3-WeChatcfb7ab578afb328d8d438cf7002a7772.png)
+// ![WeChatcfb7ab578afb328d8d438cf7002a7772.png](https://pic.leetcode-cn.com/5d7045c3e053424174a22325580fec2872b3b20f0b66033926d873256bfaf5d3-WeChatcfb7ab578afb328d8d438cf7002a7772.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         int total = 0;

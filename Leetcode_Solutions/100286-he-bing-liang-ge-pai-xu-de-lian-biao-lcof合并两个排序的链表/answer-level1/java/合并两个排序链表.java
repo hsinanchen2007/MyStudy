@@ -1,10 +1,10 @@
-### 解题思路
-创建了tail3 都击败了100吗。。。
-这题可以直接在原链表上操作，后期优化。
+// ### 解题思路
+// 创建了tail3 都击败了100吗。。。
+// 这题可以直接在原链表上操作，后期优化。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -71,4 +71,4 @@ class Solution {
         return l3;
     }
 }
-```
+// ```

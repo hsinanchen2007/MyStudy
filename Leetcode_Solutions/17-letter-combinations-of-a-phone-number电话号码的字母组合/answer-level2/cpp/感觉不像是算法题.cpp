@@ -1,9 +1,9 @@
-### 解题思路
-每次拿一个数字，获得新一次的字符串vector，和存量字符串vector做full join，结果作为存量字符串。
+// ### 解题思路
+// 每次拿一个数字，获得新一次的字符串vector，和存量字符串vector做full join，结果作为存量字符串。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> letterCombinations(string digits) {
@@ -55,4 +55,4 @@ public:
         return one;
     }
 };
-```
+// ```

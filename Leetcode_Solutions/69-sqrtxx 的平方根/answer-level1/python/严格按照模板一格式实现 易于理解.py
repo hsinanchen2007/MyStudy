@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def mySqrt(self, x: int) -> int:
         left, right = 0, x
@@ -16,4 +16,4 @@ class Solution:
                 right = mid - 1
 
         return right
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-C# 没有实现默认的优先队列，可以使用快速排序；
+// ### 解题思路
+// C# 没有实现默认的优先队列，可以使用快速排序；
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] GetLeastNumbers(int[] arr, int k) {
         return QuickSort(arr).Take(k).ToArray();
@@ -53,4 +53,4 @@ public class Solution {
         Part(arr, i + 1, end);
     }
 }
-```
+// ```

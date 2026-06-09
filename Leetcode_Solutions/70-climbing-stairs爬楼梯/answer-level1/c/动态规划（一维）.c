@@ -1,9 +1,9 @@
-### 解题思路
-用递归，超时，用动态规划通过。
+// ### 解题思路
+// 用递归，超时，用动态规划通过。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int climbStairs(int n){
     int *dp;
     int size = sizeof(int) * (n + 1);
@@ -20,4 +20,4 @@ int climbStairs(int n){
 
     return dp[n];
 }
-```
+// ```

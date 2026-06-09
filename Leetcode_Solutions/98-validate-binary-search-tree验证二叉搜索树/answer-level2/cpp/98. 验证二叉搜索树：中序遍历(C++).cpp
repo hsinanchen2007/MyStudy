@@ -1,11 +1,11 @@
-### 解题思路
-* 中序遍历BST数可以得到单调递增的序列（题目严格要求不等）
-* 第一个节点（最左字节点）不用比较，用cnt记录是否第一个数，
-如果用INT_MIN比较第一个数，会遇到只包含[INT_MIN]的测试样例，报错。
+// ### 解题思路
+// * 中序遍历BST数可以得到单调递增的序列（题目严格要求不等）
+// * 第一个节点（最左字节点）不用比较，用cnt记录是否第一个数，
+// 如果用INT_MIN比较第一个数，会遇到只包含[INT_MIN]的测试样例，报错。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -43,5 +43,5 @@ public:
         return true;
     }
 };
-```
-![inorder.png](https://pic.leetcode-cn.com/9157e8e3154be73cd2efef0b37fc4d5074d28955d2b7325e09d00c6399982fb4-inorder.png)
+// ```
+// ![inorder.png](https://pic.leetcode-cn.com/9157e8e3154be73cd2efef0b37fc4d5074d28955d2b7325e09d00c6399982fb4-inorder.png)

@@ -1,6 +1,6 @@
-对于每一个单词，找到该单词对应的 wordNum，然后比较 wordNum 和 num
+// 对于每一个单词，找到该单词对应的 wordNum，然后比较 wordNum 和 num
 
-```
+// ```
 class Solution {
    public:
     vector<string> getValidT9Words(string num, vector<string>& words) {
@@ -24,7 +24,7 @@ class Solution {
         return res;
     }
 };
-```
+// ```
 
-- 时间复杂度：O(num.size() * words.size())
-- 空间复杂度：O(1)
+// - 时间复杂度：O(num.size() * words.size())
+// - 空间复杂度：O(1)

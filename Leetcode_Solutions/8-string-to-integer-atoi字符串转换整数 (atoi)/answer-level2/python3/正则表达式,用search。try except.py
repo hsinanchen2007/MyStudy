@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def myAtoi(self, str):
         """
@@ -10,4 +10,4 @@ class Solution(object):
         except AttributeError:
             return 0
         # return max(min(int(re.search('^[\+\-]?\d+', str.lstrip()).group()), 2**31 - 1), -2**31)
-```
+# ```

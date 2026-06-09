@@ -1,14 +1,14 @@
 
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/10
- *
- * 解题思路: 中序遍历过程中 以当前节点为根节点再次进行中序遍历求路径长度和，count 记录路径和为sum的次数
- */
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/10
+//  *
+//  * 解题思路: 中序遍历过程中 以当前节点为根节点再次进行中序遍历求路径长度和，count 记录路径和为sum的次数
+//  */
 
-```
+// ```
 public class leetcode437 {
 
     int count = 0;
@@ -63,4 +63,4 @@ public class leetcode437 {
         leetcode437.pathSum(a,8);
     }
 }
-```
+// ```

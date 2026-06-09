@@ -1,15 +1,15 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/11
- *
- * 解题思路: 主要使用 Integer.bitCount(i) 求二进制数中1的个数 速度快
- *
- * //二进制1的个数 的最大长度为20 因为10^6的二进制不大于20位
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/11
+//  *
+//  * 解题思路: 主要使用 Integer.bitCount(i) 求二进制数中1的个数 速度快
+//  *
+//  * //二进制1的个数 的最大长度为20 因为10^6的二进制不大于20位
+//  *
+//  */
+// ```
 public int countPrimeSetBits(int L, int R) {
     int sum = 0;
     for(int i = L;i <=R ; i++){
@@ -41,4 +41,4 @@ public int sumZW(int d){
     }
     return sum;
 }
-```
+// ```

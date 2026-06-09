@@ -1,10 +1,10 @@
-### 解题思路
-滑动窗口解题，配合 strings 包。  
-加上strings包中的for循环，总的时间复杂度为 $O(n^2)$
+// ### 解题思路
+// 滑动窗口解题，配合 strings 包。  
+// 加上strings包中的for循环，总的时间复杂度为 $O(n^2)$
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLongestSubstring(s string) int {
     var max int
     i, j := 0, 1
@@ -25,4 +25,4 @@ func lengthOfLongestSubstring(s string) int {
     }
     return max
 }
-```
+// ```

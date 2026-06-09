@@ -1,6 +1,6 @@
 
 
-```
+# ```
 class Node(object):
     def __init__(self, val=None, children=None):
         self.val = val
@@ -70,4 +70,4 @@ class Codec:
                 stack.pop(-1)
 
         return self.buildTree(data, 0, len(data)-1, start2end)
-```
+# ```

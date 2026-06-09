@@ -1,9 +1,9 @@
-### 解题思路
-迭代计算
+# ### 解题思路
+# 迭代计算
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class CombinationIterator:
 
     def __init__(self, characters: str, combinationLength: int):
@@ -32,4 +32,4 @@ class CombinationIterator:
 # obj = CombinationIterator(characters, combinationLength)
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
-```
+# ```

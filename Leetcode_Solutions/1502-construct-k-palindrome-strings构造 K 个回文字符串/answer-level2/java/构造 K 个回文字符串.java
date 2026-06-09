@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canConstruct(String s, int k) {
          if (s.length()<k) return false;
@@ -20,4 +20,4 @@ class Solution {
         return single<=k?true:false;
     }
 }
-```
+// ```

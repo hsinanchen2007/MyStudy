@@ -1,11 +1,11 @@
-### 解题思路
-定义好开头和结尾，开头用个哨兵，结尾负责追加
-![QQ20200318-214413@2x.png](https://pic.leetcode-cn.com/065a995ad827a40a349fa0e32e7df95014a18a8f4ec1260480d983e56f6eff2e-QQ20200318-214413@2x.png)
+// ### 解题思路
+// 定义好开头和结尾，开头用个哨兵，结尾负责追加
+// ![QQ20200318-214413@2x.png](https://pic.leetcode-cn.com/065a995ad827a40a349fa0e32e7df95014a18a8f4ec1260480d983e56f6eff2e-QQ20200318-214413@2x.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -42,4 +42,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return preNode.Next
 }
-```
+// ```

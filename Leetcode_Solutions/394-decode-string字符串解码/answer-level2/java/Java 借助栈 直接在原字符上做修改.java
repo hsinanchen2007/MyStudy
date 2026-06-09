@@ -1,8 +1,8 @@
-**解法一**
+// **解法一**
 
-借助栈直接在原字符上做改动
+// 借助栈直接在原字符上做改动
 
-```java
+// ```java
 public String decodeString(String s) {
     if (s==null || s.length()<=0) {
         return "";
@@ -37,14 +37,14 @@ public String decodeString(String s) {
     }
     return sb.toString();
 }
-```
-一开始是想用一个额外的String来保存结果，结果发现比较麻烦，索性直接将原字符转换为StringBuilder，然后借助api直接在原字符上做改动，因为是在原字符上做改动，所以索引的变化需要额外的注意，这也是最麻烦的一点，需要停下来稍微思考下才能确定，其他的还好，正常的思路，最初WA了一发是因为忽略了前面的数字可能是多位数😂
+// ```
+// 一开始是想用一个额外的String来保存结果，结果发现比较麻烦，索性直接将原字符转换为StringBuilder，然后借助api直接在原字符上做改动，因为是在原字符上做改动，所以索引的变化需要额外的注意，这也是最麻烦的一点，需要停下来稍微思考下才能确定，其他的还好，正常的思路，最初WA了一发是因为忽略了前面的数字可能是多位数😂
 
-**解法二**
+// **解法二**
 
-递归的方式，改成`StringBuilder`应该会好一点😂
+// 递归的方式，改成`StringBuilder`应该会好一点😂
 
-```java
+// ```java
 private int index=0; //字符索引下标
 
 public String decodeString(String s) {
@@ -73,4 +73,4 @@ public String decodeString(String s) {
     }
     return sb;
 }
-```
+// ```

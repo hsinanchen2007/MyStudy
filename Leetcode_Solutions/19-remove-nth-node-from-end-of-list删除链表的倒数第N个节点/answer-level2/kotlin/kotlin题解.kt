@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 /**
  * Example:
  * var li = ListNode(5)
@@ -30,4 +30,4 @@ class Solution {
         return dummy.next
     }
 }
-```
+// ```

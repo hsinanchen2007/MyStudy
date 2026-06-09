@@ -1,5 +1,5 @@
 
-```go
+// ```go
 func largestRectangleArea(heights []int) int {
 	if len(heights) == 0 {
 		return 0
@@ -37,4 +37,4 @@ func Max(a, b int) int {
 	}
 	return b
 }
-```
+// ```

@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/7a456deb16efa8874f340ac00839da870efe6f3148b5378f22249ea94867bd9d-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/7a456deb16efa8874f340ac00839da870efe6f3148b5378f22249ea94867bd9d-image.png)
+// ```
 /*
  * 输入people是长度为peopleSize的数组指针的数组，其中每个元素（也是一个数组）的长度组成peopleColSize数组作为另一输入，peopleColSize数组的长度也为peopleSize
  * 返回为 *returnSize大小的数组指针的数组，其中每个元素（也是一个数组）的长度组成*returnColumnSizes数组返回，*returnColumnSizes数组的长度也为 *returnSize。
@@ -86,4 +86,4 @@ int** reconstructQueue(int** people, int peopleSize, int* peopleColSize, int* re
 
 
 
-```
+// ```

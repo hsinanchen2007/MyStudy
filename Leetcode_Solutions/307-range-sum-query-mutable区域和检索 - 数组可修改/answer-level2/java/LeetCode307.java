@@ -1,10 +1,10 @@
-### 解题思路
-线段树：
-执行用时：28ms
-内存消耗：47MB
-### 代码
+// ### 解题思路
+// 线段树：
+// 执行用时：28ms
+// 内存消耗：47MB
+// ### 代码
 
-```java
+// ```java
 class NumArray {
 
     private interface Merger<E> {
@@ -157,4 +157,4 @@ class NumArray {
  * obj.update(i,val);
  * int param_2 = obj.sumRange(i,j);
  */
-```
+// ```

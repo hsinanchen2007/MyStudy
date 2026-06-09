@@ -1,9 +1,9 @@
-### 解题思路
-并查集
+# ### 解题思路
+# 并查集
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trulyMostPopular(self, names: List[str], synonyms: List[str]) -> List[str]:
         names_dict = dict() #改名为cnt更好
@@ -53,4 +53,4 @@ class Solution:
 
 
 
-```
+# ```

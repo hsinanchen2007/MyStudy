@@ -1,11 +1,11 @@
-### 解题思路
-name和typed出现单词的次数存在list里面，比如alex,aaleex,,,,存在链表里面分别就是nameList 1，1，1，1和
-typedList 2，1，2，1  只要nameList.get(i) > typedList 就是错的。
-我想到的一个思路就是用栈来解决这个计数问题，，，不过运行时间太慢了，，希望以后的大佬优化
+// ### 解题思路
+// name和typed出现单词的次数存在list里面，比如alex,aaleex,,,,存在链表里面分别就是nameList 1，1，1，1和
+// typedList 2，1，2，1  只要nameList.get(i) > typedList 就是错的。
+// 我想到的一个思路就是用栈来解决这个计数问题，，，不过运行时间太慢了，，希望以后的大佬优化
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isLongPressedName(String name, String typed) {
          List<Integer> list1 = new ArrayList<>();
@@ -49,4 +49,4 @@ class Solution {
         return true;       
     }
 }
-```
+// ```

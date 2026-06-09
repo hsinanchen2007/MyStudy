@@ -1,4 +1,4 @@
-```
+// ```
 // 每一行上，可以放几个家庭，一共就那么几种情况，枚举就可以。
 let rowCnt = (arr) => {
     let a = [1,2,3,4,5,6,7,8,9,10];
@@ -52,7 +52,7 @@ var maxNumberOfFamilies = function(n, reservedSeats) {
     }
     return cnt;
 };
-```
+// ```
 
-前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
-这里记录了我刷过的近500道LeetCode的题解
+// 前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
+// 这里记录了我刷过的近500道LeetCode的题解

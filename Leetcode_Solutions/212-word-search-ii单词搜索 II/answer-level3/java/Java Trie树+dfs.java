@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/dc91e13829e3fdb776b2ab241fe4faa3544ada15afab457308a00c7bcdabc6a7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dc91e13829e3fdb776b2ab241fe4faa3544ada15afab457308a00c7bcdabc6a7-image.png)
 
-Trie树上跑dfs就可以了，跑赢了50%，听说还可以剪枝优化，不过我不会...
-具体看代码吧...
-```
+// Trie树上跑dfs就可以了，跑赢了50%，听说还可以剪枝优化，不过我不会...
+// 具体看代码吧...
+// ```
 class Solution {
 
     static class Trie{
@@ -61,4 +61,4 @@ class Solution {
         flag[i][j] = false;
     } 
 }
-```
+// ```

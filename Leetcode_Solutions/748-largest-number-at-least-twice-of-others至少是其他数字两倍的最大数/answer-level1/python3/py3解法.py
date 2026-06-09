@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def dominantIndex(self, nums: List[int]) -> int:
         r = max(nums)
@@ -9,4 +9,4 @@ class Solution:
             if r==nums[i]:
                 index=i
         return index
-```
+# ```

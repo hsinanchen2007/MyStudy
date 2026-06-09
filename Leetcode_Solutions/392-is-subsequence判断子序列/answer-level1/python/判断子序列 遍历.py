@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isSubsequence(self, s, t):
         if not s:
@@ -19,4 +19,4 @@ class Solution(object):
                 if j == len(t) - 1:
                     return False
         return False
-```
+# ```

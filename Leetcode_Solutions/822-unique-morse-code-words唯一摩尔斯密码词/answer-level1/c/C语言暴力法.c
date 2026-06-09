@@ -1,9 +1,9 @@
-### 解题思路
-建立字符串数组morse，存放words中的字符串转成莫尔斯密码后的字符串，每次处理words中的字符串，如果不重复，就添加到morse里面，最终输出morse中字符串的个数
+// ### 解题思路
+// 建立字符串数组morse，存放words中的字符串转成莫尔斯密码后的字符串，每次处理words中的字符串，如果不重复，就添加到morse里面，最终输出morse中字符串的个数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int uniqueMorseRepresentations(char ** words, int wordsSize){
     char dict[26][5] = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
@@ -29,4 +29,4 @@ int uniqueMorseRepresentations(char ** words, int wordsSize){
     }
     return count;
 }
-```
+// ```

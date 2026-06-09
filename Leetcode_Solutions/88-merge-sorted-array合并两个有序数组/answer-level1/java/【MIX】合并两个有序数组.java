@@ -1,9 +1,9 @@
-### 解题思路
-1.拷贝后合并, 空间复杂度$O(N)$
-2.双指针从后向前扫描, 空间复杂度$O(1)$
-### 代码
+// ### 解题思路
+// 1.拷贝后合并, 空间复杂度$O(N)$
+// 2.双指针从后向前扫描, 空间复杂度$O(1)$
+// ### 代码
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -29,8 +29,8 @@ public:
             nums1[k++] = nums2[j++];
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
         // 空间复杂度为O(1)解法
@@ -47,8 +47,8 @@ class Solution {
         System.arraycopy(nums2, 0, nums1, 0, p2+1);
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -68,4 +68,4 @@ class Solution:
                 p2-=1
 
         nums1[:p2+1] = nums2[:p2+1]
-```
+// ```

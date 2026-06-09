@@ -1,10 +1,10 @@
-### 解题思路
-方法一，借助快慢指针反转前半段链表
-方法二，借助辅助数组，直接比较
+# ### 解题思路
+# 方法一，借助快慢指针反转前半段链表
+# 方法二，借助辅助数组，直接比较
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -32,9 +32,9 @@ class Solution:
             oldcur=oldcur.next
         return True
         
-```
+# ```
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -49,4 +49,4 @@ class Solution:
             head=head.next
         return tmp==tmp[::-1]
         
-```
+# ```

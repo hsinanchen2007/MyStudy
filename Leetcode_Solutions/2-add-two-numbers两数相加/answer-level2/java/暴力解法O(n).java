@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法O(n)
+// ### 解题思路
+// 暴力解法O(n)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -33,4 +33,4 @@ class Solution {
         return head.next;
     }
 }
-```
+// ```

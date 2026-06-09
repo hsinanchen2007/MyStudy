@@ -1,9 +1,9 @@
-### 解题思路
-不能写等于，用[:]代替
+# ### 解题思路
+# 不能写等于，用[:]代替
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rotate(self, matrix):
         """
@@ -19,4 +19,4 @@ class Solution(object):
         matrix[:] = mylist
 
 
-```
+# ```

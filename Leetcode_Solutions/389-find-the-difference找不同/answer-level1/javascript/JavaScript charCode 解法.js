@@ -1,4 +1,4 @@
-```
+// ```
 var findTheDifference = function(s, t) {
     var total = 0
     for (var i =0; i < s.length; i++) {
@@ -7,4 +7,4 @@ var findTheDifference = function(s, t) {
     }
     return String.fromCharCode(total + t.charCodeAt(i))
 };
-```
+// ```

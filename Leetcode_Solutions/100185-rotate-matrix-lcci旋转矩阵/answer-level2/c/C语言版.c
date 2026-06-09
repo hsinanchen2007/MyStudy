@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int i,j;
     int temp;
@@ -23,4 +23,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
     }
     return matrix;
 }
-```
+// ```

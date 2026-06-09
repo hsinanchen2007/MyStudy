@@ -1,9 +1,9 @@
-### 解题思路
-每操作一次就记一次数
+// ### 解题思路
+// 每操作一次就记一次数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numberOfSteps (int num){
     int count = 0;
 	while (num != 0)
@@ -21,4 +21,4 @@ int numberOfSteps (int num){
 	}
     return count;
 }
-```
+// ```

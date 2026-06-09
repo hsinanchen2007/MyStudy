@@ -1,15 +1,15 @@
-**删除结点的步骤**
-1. 找到该结点的前一个结点
-2. 进行删除操作
+// **删除结点的步骤**
+// 1. 找到该结点的前一个结点
+// 2. 进行删除操作
 
-**三种方法**
-1. 删除头结点时另做考虑（由于头结点没有前一个结点）
-2. 添加一个虚拟头结点，删除头结点就不用另做考虑
-3. 递归
+// **三种方法**
+// 1. 删除头结点时另做考虑（由于头结点没有前一个结点）
+// 2. 添加一个虚拟头结点，删除头结点就不用另做考虑
+// 3. 递归
 
 
-#### 方法一（删除头结点时另做考虑）
-```java
+// #### 方法一（删除头结点时另做考虑）
+// ```java
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
         //删除值相同的头结点后，可能新的头结点也值相等，用循环解决
@@ -30,11 +30,11 @@ class Solution {
         return head;
     }
 }
-```
+// ```
 
 
-#### 方法二（添加一个虚拟头结点）
-```java
+// #### 方法二（添加一个虚拟头结点）
+// ```java
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
         //创建一个虚拟头结点
@@ -52,10 +52,10 @@ class Solution {
         return dummyNode.next;
     }
 }
-```
+// ```
 
-#### 方法三（递归）
-```java
+// #### 方法三（递归）
+// ```java
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
        if(head==null)
@@ -68,4 +68,4 @@ class Solution {
         }
     }
 }
-```
+// ```

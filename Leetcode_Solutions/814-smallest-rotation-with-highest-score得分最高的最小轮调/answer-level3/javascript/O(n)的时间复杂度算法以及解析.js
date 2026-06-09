@@ -1,9 +1,9 @@
-##  思路解析
-以`A=[2,3,1,4,0]`为例:  
+// ##  思路解析
+// 以`A=[2,3,1,4,0]`为例:  
 
-`A[0]=2`移动到`2`号索引位置`[4,0,2,3,1]`其对应的`K`为`3=(0-A[0]+5)%5`  
-根据公式`K=(i-A[i]+N)%N`可以计算出，`A[i]`移动到其索引`i=A[i]`时对应的`K`的数组为：  
-```[3,3,1,4,4]```   
+// `A[0]=2`移动到`2`号索引位置`[4,0,2,3,1]`其对应的`K`为`3=(0-A[0]+5)%5`  
+// 根据公式`K=(i-A[i]+N)%N`可以计算出，`A[i]`移动到其索引`i=A[i]`时对应的`K`的数组为：  
+// ```[3,3,1,4,4]```   
 
 为了更好的理解上面数组的由来，不妨写出`K`为上述数字中对应值时数组`A`的情况  
 * `3`：`K`为3时对应的数组为：`[4,0,2,3,1]`，此时`2`、`3`位置的值与索引相同  
@@ -27,28 +27,28 @@
 4. 找到`score`最大值时所对应的`K`值
 
 对应代码
-```js
-var bestRotation = function(A) {
-    let len = A.length;
-    let max=-Infinity;
-    //求出对应K值得分数减少的数值
-    let change = new Array(len).fill(0);
-    for(let i=0;i<len;i++){
-        change[(i-A[i]+1+len)%len]-=1
-    }
-    //找到最大的分值对应的索引
-    let maxIndex = 0;
-    //默认设0号位置的分值为0、这个值可以随意设置，因为我们不需要知道其具体分值，只需要找到其最大值
-    let score = 0;
-    let maxScore = score;
-    for (let i = 1; i < len; i++) {
-        let nextScore = score+change[i]+1;
-        if(nextScore>maxScore){
-            maxScore = nextScore
-            maxIndex=i;
-        }
-        score = nextScore;
-    }
-    return maxIndex;
-};
-```
+// ```js
+// var bestRotation = function(A) {
+//     let len = A.length;
+//     let max=-Infinity;
+//     //求出对应K值得分数减少的数值
+//     let change = new Array(len).fill(0);
+//     for(let i=0;i<len;i++){
+//         change[(i-A[i]+1+len)%len]-=1
+//     }
+//     //找到最大的分值对应的索引
+//     let maxIndex = 0;
+//     //默认设0号位置的分值为0、这个值可以随意设置，因为我们不需要知道其具体分值，只需要找到其最大值
+//     let score = 0;
+//     let maxScore = score;
+//     for (let i = 1; i < len; i++) {
+//         let nextScore = score+change[i]+1;
+//         if(nextScore>maxScore){
+//             maxScore = nextScore
+//             maxIndex=i;
+//         }
+//         score = nextScore;
+//     }
+//     return maxIndex;
+// };
+// ```

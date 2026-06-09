@@ -1,9 +1,9 @@
-### 解题思路
-该题跟层次遍历思想一样，只不过结果集只需要最右边的元素
+// ### 解题思路
+// 该题跟层次遍历思想一样，只不过结果集只需要最右边的元素
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -37,4 +37,4 @@ func rightSideView(root *TreeNode) []int {
     }
     return result
 }
-```
+// ```

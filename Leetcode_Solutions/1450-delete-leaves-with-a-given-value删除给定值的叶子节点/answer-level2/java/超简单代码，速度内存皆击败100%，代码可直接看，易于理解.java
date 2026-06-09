@@ -1,11 +1,11 @@
-### 解题思路
-![1325.删除给定值的叶子节点.png](https://pic.leetcode-cn.com/e4394cafc668faa0a6529647b95002e8dd69ac141b31a69e93381994e93dea7c-1325.%E5%88%A0%E9%99%A4%E7%BB%99%E5%AE%9A%E5%80%BC%E7%9A%84%E5%8F%B6%E5%AD%90%E8%8A%82%E7%82%B9.png)
+// ### 解题思路
+// ![1325.删除给定值的叶子节点.png](https://pic.leetcode-cn.com/e4394cafc668faa0a6529647b95002e8dd69ac141b31a69e93381994e93dea7c-1325.%E5%88%A0%E9%99%A4%E7%BB%99%E5%AE%9A%E5%80%BC%E7%9A%84%E5%8F%B6%E5%AD%90%E8%8A%82%E7%82%B9.png)
 
-利用深度优先（后序遍历），每次递归的时候传的参数有两个，一个是当前节点，一个是当前节点的父节点
+// 利用深度优先（后序遍历），每次递归的时候传的参数有两个，一个是当前节点，一个是当前节点的父节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         }
     }
 }
-```
+// ```

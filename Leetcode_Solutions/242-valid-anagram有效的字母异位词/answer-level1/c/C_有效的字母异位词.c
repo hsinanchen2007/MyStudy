@@ -1,9 +1,9 @@
-### 解题思路
-写个快速排序练练手
+// ### 解题思路
+// 写个快速排序练练手
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //快速排序
 void sortFast(char* Str,int Low,int High)
 {
@@ -57,4 +57,4 @@ bool isAnagram(char * s, char * t){
     }
     return true;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class CQueue {
 public:
     CQueue() {
@@ -26,4 +26,4 @@ public:
 private:
     stack<int> s1, s2;
 };
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/ffbacca9ec90f60131c177d37958ac2532f89c8f12b970ef129ebc6e469e331b-image.png)
+# ![image.png](https://pic.leetcode-cn.com/ffbacca9ec90f60131c177d37958ac2532f89c8f12b970ef129ebc6e469e331b-image.png)
 
 
-```
+# ```
 class CustomStack:
 
     def __init__(self, maxSize: int):
@@ -29,4 +29,4 @@ class CustomStack:
     def increment(self, k: int, val: int) -> None:
         for i in range(0, min(k, len(self.data))):
             self.data[i] += val
-```
+# ```

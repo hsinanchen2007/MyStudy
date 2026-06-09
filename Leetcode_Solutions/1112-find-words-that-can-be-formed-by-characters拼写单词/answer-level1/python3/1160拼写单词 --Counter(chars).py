@@ -1,14 +1,14 @@
-### 解题思路
-利用HASH表
-#### 1.将chars中的每个字母保存到一个HASH表中,(可以使用Counter)
-如：chars="hash",==> refer={'h':2,'a':1,'s':1}
-#### 2.对words中的每个单词word处理：word中的每个字母保存至HASH表
-如word="ha",==> count={'h':1,'a':1}
-对比refer和count中的每个字母，若count中的字母对应的个数大于refer中的，说明这个word不存在于chars中。通过设置标志位is_word判断这个单词符不符合要求。
+# ### 解题思路
+# 利用HASH表
+# #### 1.将chars中的每个字母保存到一个HASH表中,(可以使用Counter)
+# 如：chars="hash",==> refer={'h':2,'a':1,'s':1}
+# #### 2.对words中的每个单词word处理：word中的每个字母保存至HASH表
+# 如word="ha",==> count={'h':1,'a':1}
+# 对比refer和count中的每个字母，若count中的字母对应的个数大于refer中的，说明这个word不存在于chars中。通过设置标志位is_word判断这个单词符不符合要求。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         from collections import Counter
@@ -29,4 +29,4 @@ class Solution:
             
             
 
-```
+# ```

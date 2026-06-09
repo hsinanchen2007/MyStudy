@@ -1,5 +1,5 @@
-js 暴力10行解决战斗
-```js
+// js 暴力10行解决战斗
+// ```js
 var maxDistance = function(grid) {
     const record = {land: [], sea: []};
     for(let i = 0; i < grid.length; i++) {
@@ -12,4 +12,4 @@ var maxDistance = function(grid) {
         (max, [i, j]) => Math.max(max, record.land.reduce(
             (min, [x, y]) => Math.min(Math.abs(x - i) + Math.abs(y - j), min), Infinity)), -1);
 };
-```
+// ```

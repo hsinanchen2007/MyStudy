@@ -1,16 +1,16 @@
-**思路：**
+# **思路：**
 
-用`left[i]`来表示`i`左边的最大值（包括`i`），用`right[i]`来表示`i`右边的最小值（包括`i`），那么我们只需要寻找一个最小的`i`，使得`left[i]<=right[i+1]`。也有更简单的方法，用一次遍历，遍历到`i`时，当前答案为`ans`，则`ans`初始值为`1`。当我们从第二个元素开始遍历到第`i`个元素时，我们可以记录`[0,ans-1]`中最大元素为`leftMax`，记录`[ans, i]`中最大元素为`rightMax`，当`A[i]<leftMax`时，证明之前的分割不合理，需要更新分割为`ans = i + 1`。
+# 用`left[i]`来表示`i`左边的最大值（包括`i`），用`right[i]`来表示`i`右边的最小值（包括`i`），那么我们只需要寻找一个最小的`i`，使得`left[i]<=right[i+1]`。也有更简单的方法，用一次遍历，遍历到`i`时，当前答案为`ans`，则`ans`初始值为`1`。当我们从第二个元素开始遍历到第`i`个元素时，我们可以记录`[0,ans-1]`中最大元素为`leftMax`，记录`[ans, i]`中最大元素为`rightMax`，当`A[i]<leftMax`时，证明之前的分割不合理，需要更新分割为`ans = i + 1`。
 
-时间复杂度$O(N)$
+# 时间复杂度$O(N)$
 
-空间复杂度$O(N)$
+# 空间复杂度$O(N)$
 
-**代码：**
+# **代码：**
 
-两次遍历
+# 两次遍历
 
-```python
+# ```python
 class Solution:
     def partitionDisjoint(self, A):
         """
@@ -30,11 +30,11 @@ class Solution:
         for i in range(l - 1):
             if left[i] <= right[i + 1]:
                 return i + 1
-```
+# ```
 
-一次遍历
+# 一次遍历
 
-```python
+# ```python
 class Solution:
     def partitionDisjoint(self, A):
         """
@@ -54,4 +54,4 @@ class Solution:
                 rightMax = A[i]
 
         return ans
-```
+# ```

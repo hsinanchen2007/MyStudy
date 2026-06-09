@@ -1,5 +1,5 @@
-**在官方代码基础上使用JS栈实现**
-```
+// **在官方代码基础上使用JS栈实现**
+// ```
 /**
  * @param {number[]} height
  * @return {number}
@@ -54,4 +54,4 @@ var trap = function(height) {
     }
     return ans;
 };
-```
+// ```

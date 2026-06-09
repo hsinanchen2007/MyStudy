@@ -1,5 +1,5 @@
-思路清晰，直接遍历字符串。相同字母统计个数，最后再处理末尾字母。
-```
+# 思路清晰，直接遍历字符串。相同字母统计个数，最后再处理末尾字母。
+# ```
 class Solution:
     def compressString(self, S: str) -> str:
         res = ''
@@ -18,4 +18,4 @@ class Solution:
         if len(res) >= len(S):
             return S
         return res
-```
+# ```

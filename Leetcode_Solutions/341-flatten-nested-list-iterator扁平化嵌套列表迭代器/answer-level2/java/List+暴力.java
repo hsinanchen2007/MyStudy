@@ -1,10 +1,10 @@
-### 解题思路
-1.将数字全部读取出来存入list中
-2.然后进行判断取出
+// ### 解题思路
+// 1.将数字全部读取出来存入list中
+// 2.然后进行判断取出
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * // This is the interface that allows for creating nested lists.
  * // You should not implement it, or speculate about its implementation
@@ -62,4 +62,4 @@ public class NestedIterator implements Iterator<Integer> {
  * NestedIterator i = new NestedIterator(nestedList);
  * while (i.hasNext()) v[f()] = i.next();
  */
-```
+// ```

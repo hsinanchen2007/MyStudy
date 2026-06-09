@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-BFS，优点类似于 leetcode 200. 岛屿的数量，比那道题简单。
-但对我来说还是太难了，都是大佬，害怕😨
+// BFS，优点类似于 leetcode 200. 岛屿的数量，比那道题简单。
+// 但对我来说还是太难了，都是大佬，害怕😨
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int orangesRotting(int[][] grid) {
         if (grid == null) return 0;
@@ -46,4 +46,4 @@ class Solution {
         return time;   
     }
 }
-```
+// ```

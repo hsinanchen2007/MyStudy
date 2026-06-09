@@ -1,6 +1,6 @@
-打家劫舍换了个描述，dp[i]=max(dp[i-1], dp[i-2]+nums[i])
+// 打家劫舍换了个描述，dp[i]=max(dp[i-1], dp[i-2]+nums[i])
 
-```golang
+// ```golang
 func massage(nums []int) int {
     if len(nums)==0{
         return 0
@@ -20,4 +20,4 @@ func max(i,j int)int{
     }
     return j 
 }
-```
+// ```

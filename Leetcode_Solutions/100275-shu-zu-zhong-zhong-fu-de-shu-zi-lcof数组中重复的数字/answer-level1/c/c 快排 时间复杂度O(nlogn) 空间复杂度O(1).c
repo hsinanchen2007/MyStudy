@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -36,11 +36,11 @@ int findRepeatNumber( int * nums , int numsSize ){
     return -1;
 
 }
-```
+// ```
 
-方法二：哈希映射，时间复杂度O(N)，空间复杂度O(N)
+// 方法二：哈希映射，时间复杂度O(N)，空间复杂度O(N)
 
-```
+// ```
 /**
 *
 *整体思路：
@@ -84,5 +84,5 @@ int findRepeatNumber( int * nums , int numsSize ){
     return -1;
 
 }
-```
+// ```
 

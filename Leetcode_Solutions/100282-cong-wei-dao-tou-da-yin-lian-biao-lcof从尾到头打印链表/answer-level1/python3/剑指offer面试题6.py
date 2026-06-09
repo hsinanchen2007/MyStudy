@@ -1,9 +1,9 @@
-### 解题思路
-菜鸡的两个思路：第一种简单递归，第二种把链表元素放入list中，返回逆序list
+# ### 解题思路
+# 菜鸡的两个思路：第一种简单递归，第二种把链表元素放入list中，返回逆序list
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -34,6 +34,6 @@ class Solution:
                 res.append(head.val)
                 head = head.next
             return res[::-1]
-```
+# ```
 
-```
+# ```

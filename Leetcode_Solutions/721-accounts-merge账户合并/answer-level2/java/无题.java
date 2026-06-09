@@ -1,9 +1,9 @@
-其实这道题我用了n^4的复杂度，结果在第48个用例时超时了。自己也没什么思路，然后在网上看别人题解才知道的。需要用到的算法是`深度优先搜索`，还有`Map`、`Set`两个数据结构。
+// 其实这道题我用了n^4的复杂度，结果在第48个用例时超时了。自己也没什么思路，然后在网上看别人题解才知道的。需要用到的算法是`深度优先搜索`，还有`Map`、`Set`两个数据结构。
 
-________________________________________________________________________________
+// ________________________________________________________________________________
 
-`HashMap<String , ArrayList<Integer > > table`用来存储每个邮箱的主人的下标
-```
+// `HashMap<String , ArrayList<Integer > > table`用来存储每个邮箱的主人的下标
+// ```
  for(int i = 0; i < accounts.size(); ++i) {
         	for(int j = 1; j < accounts.get(i).size(); ++j) {
         		ArrayList<Integer > e;
@@ -17,12 +17,12 @@ ________________________________________________________________________________
     			table.put(accounts.get(i).get(j), e);
         	}
         }
-```
+// ```
 
-______________________________________________________________________________
+// ______________________________________________________________________________
 
-第二步，开始合并账户。先用一个`boolean[] book`数组来标记哪些以访问过，创建一个`HashSet<String > temp`来存储邮箱。开始遍历，取出第一个邮箱加入HashSet，然后在HashMap查找哪些用户有这个邮箱，通过HashMap里ArrayList<Integer >的值去遍历accounts，ArrayList<Integer >里的人都要合并。注意要判断这个人是否已经遍历过。
-```
+// 第二步，开始合并账户。先用一个`boolean[] book`数组来标记哪些以访问过，创建一个`HashSet<String > temp`来存储邮箱。开始遍历，取出第一个邮箱加入HashSet，然后在HashMap查找哪些用户有这个邮箱，通过HashMap里ArrayList<Integer >的值去遍历accounts，ArrayList<Integer >里的人都要合并。注意要判断这个人是否已经遍历过。
+// ```
 public void dfs(List<List<String > > accounts, boolean[] book, HashSet<String > temp, int now) {
     	if(book[now]) return ;
     	book[now] = true;
@@ -33,14 +33,14 @@ public void dfs(List<List<String > > accounts, boolean[] book, HashSet<String > 
     		}
     	}
     }
-```
+// ```
 
-______________________________________________________________________________________________________
+// ______________________________________________________________________________________________________
 
-最后，把HashSet里的邮箱复制给List<String >,在对每一个用户排一些序就可以了。
+// 最后，把HashSet里的邮箱复制给List<String >,在对每一个用户排一些序就可以了。
 
 
-```
+// ```
 class Solution {
 	
 	HashMap<String , ArrayList<Integer > > table = new HashMap<String , ArrayList<Integer > >();
@@ -100,6 +100,6 @@ class Solution {
     
 }
 
-```
+// ```
 
 

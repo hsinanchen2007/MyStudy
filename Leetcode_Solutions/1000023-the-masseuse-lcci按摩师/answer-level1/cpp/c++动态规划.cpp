@@ -1,9 +1,9 @@
-### 解题思路
-第一次A动规的题，双百，留作纪念啦啦啦……
+// ### 解题思路
+// 第一次A动规的题，双百，留作纪念啦啦啦……
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -17,4 +17,4 @@ public:
         return max(dp[nums.size()-1][0],dp[nums.size()-1][1]);
     }
 };
-```
+// ```

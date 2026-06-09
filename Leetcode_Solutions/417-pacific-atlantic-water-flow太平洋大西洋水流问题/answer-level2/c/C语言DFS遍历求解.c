@@ -1,12 +1,12 @@
-### 解题思路
-反向遍历，往高的地方走。
-从太平洋开始DFS遍历，遍历到后标记；
-从大西样开始DFS遍历，遍历后标记；
-标记重叠的部分就是能到的重合部分。
+// ### 解题思路
+// 反向遍历，往高的地方走。
+// 从太平洋开始DFS遍历，遍历到后标记；
+// 从大西样开始DFS遍历，遍历后标记；
+// 标记重叠的部分就是能到的重合部分。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -130,4 +130,4 @@ int** pacificAtlantic(int** matrix, int matrixSize, int* matrixColSize, int* ret
     }
     return ret;
 }
-```
+// ```

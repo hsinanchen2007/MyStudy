@@ -1,10 +1,10 @@
-### 解题思路
-1. 首先有一个工具包LinkedHashMap，具有LRU的特点。其中的removeEldestEntry方法需要重写如下，才能满足条件。
-2. 第二种方法使用了hashmap和队列来解决，貌似不是O（1）。。。不过也不是O（n），跟用户操作相关。。
+// ### 解题思路
+// 1. 首先有一个工具包LinkedHashMap，具有LRU的特点。其中的removeEldestEntry方法需要重写如下，才能满足条件。
+// 2. 第二种方法使用了hashmap和队列来解决，貌似不是O（1）。。。不过也不是O（n），跟用户操作相关。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class LRUCache {
     private int capacity;
     private Map map;
@@ -64,4 +64,4 @@ class LRUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

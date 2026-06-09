@@ -1,10 +1,10 @@
-### 解题思路
-1.剔除非字母数字
-2.reverse字符串
-3.reverse前后比较
-### 代码
+// ### 解题思路
+// 1.剔除非字母数字
+// 2.reverse字符串
+// 3.reverse前后比较
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {boolean}
@@ -22,4 +22,4 @@ var filterOutString = function(s){
 var reverseString = function(s){
     return s.split("").reverse().join("");
 };
-```
+// ```

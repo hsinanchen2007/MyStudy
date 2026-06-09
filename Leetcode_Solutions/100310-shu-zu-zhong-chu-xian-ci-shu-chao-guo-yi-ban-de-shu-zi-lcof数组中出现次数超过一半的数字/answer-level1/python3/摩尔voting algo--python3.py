@@ -1,8 +1,8 @@
-### 解题思路
-摩尔voting algo, 应该再加一个follow up
-面试一般会联考两题把
-### 代码
-```
+# ### 解题思路
+# 摩尔voting algo, 应该再加一个follow up
+# 面试一般会联考两题把
+# ### 代码
+# ```
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         count = 0
@@ -15,4 +15,4 @@ class Solution:
             count += (-1, 1)[cur == i]
         return cur
         
-```
+# ```

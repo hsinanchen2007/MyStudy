@@ -1,4 +1,4 @@
-```
+// ```
 int countSubstrings(char * s){
     int num=0;
     bool dp[2][1001]={false};
@@ -21,4 +21,4 @@ int countSubstrings(char * s){
     }
     return num;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/555340092ac7ddb5ab3d3229e0e0345deb4d10ed670ef6d8406951602a9db86d-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/555340092ac7ddb5ab3d3229e0e0345deb4d10ed670ef6d8406951602a9db86d-image.png)
+// ```
 class Solution {
     public int findComplement(int num) {
         /*找到数字所在的区间[2^(i-1), 2^i]
@@ -19,5 +19,5 @@ class Solution {
         return num ^ res;
     }
 }
-```
+// ```
 

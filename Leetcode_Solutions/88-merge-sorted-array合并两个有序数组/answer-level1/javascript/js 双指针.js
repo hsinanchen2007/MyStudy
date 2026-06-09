@@ -1,10 +1,10 @@
-### 解题思路
-空间复杂度 O(1);
-时间复杂夫 O(m+n);
+// ### 解题思路
+// 空间复杂度 O(1);
+// 时间复杂夫 O(m+n);
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number} m
@@ -29,4 +29,4 @@ var merge = function(nums1, m, nums2, n) {
 };
 
 
-```
+// ```

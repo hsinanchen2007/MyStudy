@@ -1,4 +1,4 @@
-```js
+// ```js
 // 快慢指针
 var hasCycle = function(head) {
     if(!head)
@@ -17,4 +17,4 @@ var hasCycle = function(head) {
     }
     return false;
 };
-```
+// ```

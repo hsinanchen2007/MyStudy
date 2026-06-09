@@ -1,9 +1,9 @@
-### 解题思路
-在每次push数据时，使队列前端数据后置，确保队列的前端数据为栈的栈顶
+// ### 解题思路
+// 在每次push数据时，使队列前端数据后置，确保队列的前端数据为栈的栈顶
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     int q[1000];
     int tail;
@@ -61,4 +61,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

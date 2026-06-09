@@ -1,9 +1,9 @@
-### 解题思路
-用栈的方法进行求解；stack=[]，遇到数放入stack中，遇见操作符，将stack最上面的两个操作数弹出，与操作符一起进行计算，并将求得的值放入stack中，继续求解，最后stack中存入的是最终的计算结果；
+# ### 解题思路
+# 用栈的方法进行求解；stack=[]，遇到数放入stack中，遇见操作符，将stack最上面的两个操作数弹出，与操作符一起进行计算，并将求得的值放入stack中，继续求解，最后stack中存入的是最终的计算结果；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def evalRPN(self, tokens) -> int:
         if len(tokens) == 0:
@@ -24,4 +24,4 @@ class Solution:
                 stack.append(char)
         
         return int(stack[-1])
-```
+# ```

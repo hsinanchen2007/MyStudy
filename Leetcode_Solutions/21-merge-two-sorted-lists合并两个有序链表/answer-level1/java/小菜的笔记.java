@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-注意构造头结点和指针节点，最后返回的是头结点 。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 注意构造头结点和指针节点，最后返回的是头结点 。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
 
     }
 }
-```
+// ```

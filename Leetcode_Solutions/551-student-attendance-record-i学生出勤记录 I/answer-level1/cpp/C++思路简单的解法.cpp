@@ -1,9 +1,9 @@
-### 解题思路
-使用map很简单
+// ### 解题思路
+// 使用map很简单
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkRecord(string s) 
@@ -29,4 +29,4 @@ public:
         return true;
     }
 };
-```
+// ```

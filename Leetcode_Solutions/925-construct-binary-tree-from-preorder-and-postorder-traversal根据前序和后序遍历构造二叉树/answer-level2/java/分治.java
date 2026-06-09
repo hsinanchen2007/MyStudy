@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public TreeNode constructFromPrePost(int[] pre, int[] post) {
         return construct(pre, 0, pre.length - 1, post, 0, post.length - 1);
@@ -27,4 +27,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

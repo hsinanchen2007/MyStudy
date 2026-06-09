@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public TreeNode constructFromPrePost(int[] pre, int[] post) {
         if (pre == null || pre.length == 0 || post == null || post.length == 0) {
@@ -28,4 +28,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

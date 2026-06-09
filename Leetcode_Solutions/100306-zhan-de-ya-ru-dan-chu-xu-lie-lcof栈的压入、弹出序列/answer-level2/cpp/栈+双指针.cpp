@@ -1,7 +1,7 @@
-![微信图片_20200311175554.png](https://pic.leetcode-cn.com/355937fb69d051a2446fcf3a02ed3510c7c38738523b5a857cf7ffaa9a3d2bf9-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200311175554.png)
-时间复杂度：O(N)，需要遍历序列一遍
-空间复杂度：O(1)
-```
+// ![微信图片_20200311175554.png](https://pic.leetcode-cn.com/355937fb69d051a2446fcf3a02ed3510c7c38738523b5a857cf7ffaa9a3d2bf9-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200311175554.png)
+// 时间复杂度：O(N)，需要遍历序列一遍
+// 空间复杂度：O(1)
+// ```
 class Solution {
 public:
     bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
@@ -36,4 +36,4 @@ public:
         return seq.empty();
     }
 };
-```
+// ```

@@ -1,16 +1,16 @@
-### 解题思路
-Use hash maps to store:
-* average travel time from start to end
-    * Use start station as key, and the value to this key is another hash table, which uses end station as key. They value is a list of current average time, and how many trips traveled.
-* travel log for each id
+# ### 解题思路
+# Use hash maps to store:
+# * average travel time from start to end
+#     * Use start station as key, and the value to this key is another hash table, which uses end station as key. They value is a list of current average time, and how many trips traveled.
+# * travel log for each id
 
-For each check-in, update or create the log for this id. For each check-out, update the average time as follows:
-* if the start station is new, we simply create its value per above
-* if we have seen the start station, update the average time by dividing the total travel time with total trip number
+# For each check-in, update or create the log for this id. For each check-out, update the average time as follows:
+# * if the start station is new, we simply create its value per above
+# * if we have seen the start station, update the average time by dividing the total travel time with total trip number
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class UndergroundSystem:
     def __init__(self):
         self.avg_time = {}
@@ -29,4 +29,4 @@ class UndergroundSystem:
             
     def getAverageTime(self, start: str, end: str) -> float:
         return self.avg_time[start][end][0]
-```
+# ```

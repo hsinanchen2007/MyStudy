@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-vector辅助存储链表
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// vector辅助存储链表
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,5 +29,5 @@ public:
         return tmp[S];
     }
 };
-```
-![搜狗截图20200318212323.png](https://pic.leetcode-cn.com/f547567c3fd97d9b440c4b11bca45599aa9a49eb649aa43aa416c68af691b744-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20200318212323.png)
+// ```
+// ![搜狗截图20200318212323.png](https://pic.leetcode-cn.com/f547567c3fd97d9b440c4b11bca45599aa9a49eb649aa43aa416c68af691b744-%E6%90%9C%E7%8B%97%E6%88%AA%E5%9B%BE20200318212323.png)

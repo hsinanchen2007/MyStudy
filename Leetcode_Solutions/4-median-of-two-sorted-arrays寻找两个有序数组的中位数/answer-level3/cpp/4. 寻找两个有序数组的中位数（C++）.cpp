@@ -1,9 +1,9 @@
-# 4. 寻找两个有序数组的中位数
-最简单暴力的方法：
-1. 先创建一个vector nums3，并将nums1和nums2中的元素都放入nums3中；
-2. 使用sort函数将nums3排序；
-3. 获取nums3的长度，并返回中位数。
-```
+// # 4. 寻找两个有序数组的中位数
+// 最简单暴力的方法：
+// 1. 先创建一个vector nums3，并将nums1和nums2中的元素都放入nums3中；
+// 2. 使用sort函数将nums3排序；
+// 3. 获取nums3的长度，并返回中位数。
+// ```
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -17,4 +17,4 @@ public:
         }
     }
 };
-```
+// ```

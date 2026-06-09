@@ -1,9 +1,9 @@
-### 解题思路
-数学方法，最后记得reverse
+// ### 解题思路
+// 数学方法，最后记得reverse
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -34,4 +34,4 @@ public:
         return ans;
     }
 };
-```
+// ```

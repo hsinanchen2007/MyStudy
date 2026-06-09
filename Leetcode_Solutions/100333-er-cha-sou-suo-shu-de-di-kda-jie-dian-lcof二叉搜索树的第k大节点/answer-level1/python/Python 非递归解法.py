@@ -1,6 +1,6 @@
-遍历方式是 右 根 左, 这样元素从大到小排列好, 当得到第k个节点的时候直接输出即可
+# 遍历方式是 右 根 左, 这样元素从大到小排列好, 当得到第k个节点的时候直接输出即可
 
-```python
+# ```python
 class Solution:
     def kthLargest(self, root: TreeNode, k: int) -> int:
         if not root:
@@ -19,4 +19,4 @@ class Solution:
                 return node.val
             node = node.left # 把左子树一个节点放入
 
-```
+# ```

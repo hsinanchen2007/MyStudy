@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-先排序
+// ### 代码
+// 先排序
 
-然后用merged保存合并后的结果
+// 然后用merged保存合并后的结果
 
-```golang
+// ```golang
 func merge(intervals [][]int) [][]int {
     for i :=0;i<len(intervals);i++{
         for j := 0;j<len(intervals)-1-i;j++{
@@ -28,4 +28,4 @@ func merge(intervals [][]int) [][]int {
     }
     return merged
 }
-```
+// ```

@@ -1,22 +1,22 @@
-1. 关于复杂度
-<br />&nbsp;1.1 时间复杂度为O(n)
-<br />&nbsp;1.2 空间负责度为O(1)
-2. 我的解题思路
-<br />&nbsp;2.1 主要解法是同时前序遍历两棵树
-<br />&nbsp;2.2 树相等，要遵循以下的情况之一
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 左子树都为空
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 右子树都为空
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.3 当前节点值相等
-<br />&nbsp;2.3 递归中，需要判断如下的情况(按顺序)
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.1 如果当前节点都为空，返回true
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.2 当前节点只有一个为空，返回false
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.3 当前节点的值不相等，返回false
-<br />&nbsp;2.4 递归判断左右子树
-3. 提交记录
-<br />&nbsp;3.1 力扣中耗时1ms,消耗33.8MB内存
-<br />&nbsp;3.2 leetcode中耗时0ms,消耗33.2MB内存
-4. Q&A
-```
+// 1. 关于复杂度
+// <br />&nbsp;1.1 时间复杂度为O(n)
+// <br />&nbsp;1.2 空间负责度为O(1)
+// 2. 我的解题思路
+// <br />&nbsp;2.1 主要解法是同时前序遍历两棵树
+// <br />&nbsp;2.2 树相等，要遵循以下的情况之一
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.1 左子树都为空
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.2 右子树都为空
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.2.3 当前节点值相等
+// <br />&nbsp;2.3 递归中，需要判断如下的情况(按顺序)
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.1 如果当前节点都为空，返回true
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.2 当前节点只有一个为空，返回false
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.3 当前节点的值不相等，返回false
+// <br />&nbsp;2.4 递归判断左右子树
+// 3. 提交记录
+// <br />&nbsp;3.1 力扣中耗时1ms,消耗33.8MB内存
+// <br />&nbsp;3.2 leetcode中耗时0ms,消耗33.2MB内存
+// 4. Q&A
+// ```
 class Solution {
     
     /**
@@ -51,4 +51,4 @@ class Solution {
         return isSameTree(p.left,q.left)&&isSameTree(p.right,q.right);
     }
 }
-```
+// ```

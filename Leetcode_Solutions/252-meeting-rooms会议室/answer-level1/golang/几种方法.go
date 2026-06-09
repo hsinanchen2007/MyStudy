@@ -1,4 +1,4 @@
-# 方法一
+// # 方法一
 
 ![image.png](https://pic.leetcode-cn.com/d78d289b7aa35a5f76bbce7193cf1435d1066a6eee451707aea1aca6f7d89592-image.png)
 将每个时刻是否有空都标注出来判断.

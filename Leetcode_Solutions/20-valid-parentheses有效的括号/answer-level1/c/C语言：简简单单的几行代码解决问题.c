@@ -1,6 +1,6 @@
-![QQ截图20190715090615.png](https://pic.leetcode-cn.com/a906d8dcba321d6f51e4e07567398065b6c1acc2fa4a7a10c2c6e638a242cf67-QQ%E6%88%AA%E5%9B%BE20190715090615.png)
+// ![QQ截图20190715090615.png](https://pic.leetcode-cn.com/a906d8dcba321d6f51e4e07567398065b6c1acc2fa4a7a10c2c6e638a242cf67-QQ%E6%88%AA%E5%9B%BE20190715090615.png)
 
-```
+// ```
 bool isValid(char * s){
     if (s == NULL || s[0] == '\0') return true;
     char *stack = (char*)malloc(strlen(s)+1); int top =0;
@@ -15,4 +15,4 @@ bool isValid(char * s){
     }
     return (!top);//防止“【”这种类似情况
 }
-```
+// ```

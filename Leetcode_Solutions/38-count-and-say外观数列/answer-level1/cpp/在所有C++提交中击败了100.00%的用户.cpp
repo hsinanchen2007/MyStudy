@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/bfa8a96b43eada0a62f8cfe98a7d24e2fb937b296105e34806263a45257b8ef0-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/bfa8a96b43eada0a62f8cfe98a7d24e2fb937b296105e34806263a45257b8ef0-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     string ans;
     void count(int n, string str)
@@ -40,4 +40,4 @@ public:
         return ans;
     }
 };
-```
+// ```

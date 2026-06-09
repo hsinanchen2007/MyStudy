@@ -1,5 +1,5 @@
-这道题和[27. 移除元素](https://leetcode-cn.com/problems/remove-element/)思路一致，即将有效的值一个一个向左移动，组成新的合法的数组。
-```
+// 这道题和[27. 移除元素](https://leetcode-cn.com/problems/remove-element/)思路一致，即将有效的值一个一个向左移动，组成新的合法的数组。
+// ```
 public int removeDuplicates(int[] nums) {
     if (nums == null) return 0;
     if (nums.length <= 2) return nums.length;
@@ -15,4 +15,4 @@ public int removeDuplicates(int[] nums) {
     }
     return idx + 1;//最终返回有效索引+1即为'新'数组长度
 }    
-```
+// ```

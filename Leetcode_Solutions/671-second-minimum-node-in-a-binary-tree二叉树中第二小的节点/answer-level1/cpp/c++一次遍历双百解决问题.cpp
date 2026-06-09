@@ -1,13 +1,13 @@
-### 解题思路
-首先递归遍历树，记录下根节点的数据，然后对数据进行排序，从数据头开始遍历，找出第二小的数据。
-时间复杂度：o（n）+o（logn/2）
-空间复杂度：o（n）
-![image.png](https://pic.leetcode-cn.com/9d237e46ad3e0dc7bb440f39864a86a621728b53e405b08a095c6c3971589105-image.png)
+// ### 解题思路
+// 首先递归遍历树，记录下根节点的数据，然后对数据进行排序，从数据头开始遍历，找出第二小的数据。
+// 时间复杂度：o（n）+o（logn/2）
+// 空间复杂度：o（n）
+// ![image.png](https://pic.leetcode-cn.com/9d237e46ad3e0dc7bb440f39864a86a621728b53e405b08a095c6c3971589105-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -43,4 +43,4 @@ public:
         return -1;
     }
 };
-```
+// ```

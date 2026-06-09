@@ -1,9 +1,9 @@
-### 解题思路
-使用快慢指针，需要注意的是空链表和单节点的链表是符合条件的！
+// ### 解题思路
+// 使用快慢指针，需要注意的是空链表和单节点的链表是符合条件的！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode  {
@@ -60,4 +60,4 @@ class Solution {
 
     }
 }
-```
+// ```

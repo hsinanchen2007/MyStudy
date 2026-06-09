@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-这里用到了一个头部哨兵节点，很巧妙。
-详细的图解步骤可以参考大神的解法 https://leetcode.windliang.cc/leetCode-24-Swap-Nodes-in-Pairs.html
-这题的变量命名很重要，否则会绕晕的
+// 这里用到了一个头部哨兵节点，很巧妙。
+// 详细的图解步骤可以参考大神的解法 https://leetcode.windliang.cc/leetCode-24-Swap-Nodes-in-Pairs.html
+// 这题的变量命名很重要，否则会绕晕的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```

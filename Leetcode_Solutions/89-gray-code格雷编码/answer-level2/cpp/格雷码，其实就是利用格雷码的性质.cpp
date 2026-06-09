@@ -1,8 +1,8 @@
-### 解题思路
-性质：记一个数为i，那么对应的格雷码为 (i >> 1) ^ i
-### 代码
+// ### 解题思路
+// 性质：记一个数为i，那么对应的格雷码为 (i >> 1) ^ i
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> grayCode(int n) {
@@ -13,4 +13,4 @@ public:
         return res;
     }
 };
-```
+// ```

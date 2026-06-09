@@ -1,4 +1,4 @@
-按照字典序来堆放数字计数，用k来做指示
+# 按照字典序来堆放数字计数，用k来做指示
 class Solution(object):
     def findKthNumber(self, n, k):
         """

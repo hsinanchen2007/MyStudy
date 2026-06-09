@@ -1,9 +1,9 @@
-### 解题思路
-见代码注释
+# ### 解题思路
+# 见代码注释
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def equationsPossible(self, equations):
         """
@@ -71,4 +71,4 @@ class Solution(object):
 # print(s.equationsPossible(["a==b","b==c","a==c"]))
 # print(s.equationsPossible(["a==b","b!=c","c==a"]))
 # print(s.equationsPossible(["c==c","b==d","x!=z"]))
-```
+# ```

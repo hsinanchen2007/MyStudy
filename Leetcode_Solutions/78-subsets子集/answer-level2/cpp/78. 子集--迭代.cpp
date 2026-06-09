@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-执行用时 :8 ms, 在所有 C++ 提交中击败了30.36%的用户
+// 执行用时 :8 ms, 在所有 C++ 提交中击败了30.36%的用户
 
-一个一个向里加
+// 一个一个向里加
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -26,4 +26,4 @@ public:
         return rt;
     }
 };
-```
+// ```

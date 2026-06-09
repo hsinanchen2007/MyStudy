@@ -1,7 +1,7 @@
-利用C++ stl中 **map** 是自动排序的特性
-在最后遍历hashmap表时，倒叙遍历，可以更快得到最大值答案，
+// 利用C++ stl中 **map** 是自动排序的特性
+// 在最后遍历hashmap表时，倒叙遍历，可以更快得到最大值答案，
 
-```C++
+// ```C++
 class Solution {
 public:
     int largestUniqueNumber(vector<int>& A) {
@@ -22,4 +22,4 @@ public:
         return result;
     }
 };
-```
+// ```

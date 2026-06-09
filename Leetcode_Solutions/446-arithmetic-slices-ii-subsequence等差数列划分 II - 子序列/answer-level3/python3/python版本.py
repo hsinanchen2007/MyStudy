@@ -1,5 +1,5 @@
-模仿官方题解写出来的
-```
+# 模仿官方题解写出来的
+# ```
 from typing import *
 from collections import defaultdict
 class Solution:
@@ -13,4 +13,4 @@ class Solution:
                 maps[i][A[i]-A[j]]+=add_val
                 total+=add_val-1
         return total
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-先对数组进行升序排序，取排序后数组第二位与数组第一位的差，作为初始绝对差，遍历数组，依次将相邻两位做减法，得到的差与初始绝对差做比较，小于初始绝对差，则刷新result数组并push；若相等相等，则push进result数组
+// ### 解题思路
+// 先对数组进行升序排序，取排序后数组第二位与数组第一位的差，作为初始绝对差，遍历数组，依次将相邻两位做减法，得到的差与初始绝对差做比较，小于初始绝对差，则刷新result数组并push；若相等相等，则push进result数组
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @return {number[][]}
@@ -30,4 +30,4 @@ var minimumAbsDifference = function(arr) {
     }
     return result;
 };
-```
+// ```

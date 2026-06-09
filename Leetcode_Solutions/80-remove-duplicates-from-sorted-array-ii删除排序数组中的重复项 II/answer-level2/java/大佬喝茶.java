@@ -1,9 +1,9 @@
-### 解题思路
-看了大佬的代码真的厉害，👍👍👍👍👍👍👍
+// ### 解题思路
+// 看了大佬的代码真的厉害，👍👍👍👍👍👍👍
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         int i = 0;
@@ -13,4 +13,4 @@ class Solution {
         return i;
     }
 } 
-```
+// ```

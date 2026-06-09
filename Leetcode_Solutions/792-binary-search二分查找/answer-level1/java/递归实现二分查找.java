@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int search(int[] nums, int target) {
 		return half_search(nums, target, 0, nums.length - 1);
@@ -19,9 +19,9 @@ class Solution {
 		}
 	}
 }
-```
-用本代码模拟示例2过程：
-第一次：min=0,max=5,middle=2,nums[2]=3>target=2,进入else分支，max=middle-1=2-1=1;
-第二次：min=0,max=1,middle=0,nums[0]=-1<target=2,进入else if分支，min=middle+1=0+1=1;
-第三次：min=1,max=1,middle=1,nums[1]=0<target=2,进入else if分支，min=middle+1=1+1=2;
-第四次：min=2,max=1,middle=1,直接在第一个if(max<min)时返回-1，查找结束。
+// ```
+// 用本代码模拟示例2过程：
+// 第一次：min=0,max=5,middle=2,nums[2]=3>target=2,进入else分支，max=middle-1=2-1=1;
+// 第二次：min=0,max=1,middle=0,nums[0]=-1<target=2,进入else if分支，min=middle+1=0+1=1;
+// 第三次：min=1,max=1,middle=1,nums[1]=0<target=2,进入else if分支，min=middle+1=1+1=2;
+// 第四次：min=2,max=1,middle=1,直接在第一个if(max<min)时返回-1，查找结束。

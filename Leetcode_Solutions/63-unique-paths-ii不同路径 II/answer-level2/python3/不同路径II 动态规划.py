@@ -1,10 +1,10 @@
-### 解题思路
-其实就是在62题的基础上加上了对第一行和第一列格子状态的判断
-以及在对转移状态方程每个状态赋值之前判断是否有障碍
+# ### 解题思路
+# 其实就是在62题的基础上加上了对第一行和第一列格子状态的判断
+# 以及在对转移状态方程每个状态赋值之前判断是否有障碍
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     # 和无障碍物类似
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
@@ -39,4 +39,4 @@ class Solution:
                 dp[i][j] = dp[i-1][j] +dp[i][j-1]
         
         return dp[m-1][n-1]
-```
+# ```

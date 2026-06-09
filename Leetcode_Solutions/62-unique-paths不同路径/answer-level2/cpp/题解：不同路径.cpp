@@ -1,11 +1,11 @@
-### 解题思路
-使用$a$数组。
+// ### 解题思路
+// 使用$a$数组。
 
-将$a_{ij}$表示前$i$行$j$列的方案数。
+// 将$a_{ij}$表示前$i$行$j$列的方案数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #define fs(i,x,y,z) for(int i=x;i<=y;i+=z)
 class Solution {
 public:
@@ -20,4 +20,4 @@ public:
         return a[n][m];
     }
 };
-```
+// ```

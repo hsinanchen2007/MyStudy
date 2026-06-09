@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         if nums == []: return True
@@ -7,4 +7,4 @@ class Solution:
             if i > end: return False
             end = max(i + num, end)
         return True
-```
+# ```

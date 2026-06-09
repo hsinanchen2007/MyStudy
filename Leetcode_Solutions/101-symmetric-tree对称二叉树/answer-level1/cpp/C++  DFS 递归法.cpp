@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool dfs(TreeNode* root1, TreeNode* root2){
@@ -14,4 +14,4 @@ public:
         return dfs(root->left, root->right);
     }
 };
-```
+// ```

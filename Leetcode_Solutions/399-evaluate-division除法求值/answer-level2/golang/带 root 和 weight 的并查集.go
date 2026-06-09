@@ -1,7 +1,7 @@
-相对于包含 find 函数的并查集，这里把复杂度放到了 unite 中，使得插入的复杂度为 O（N），但是查询复杂度为 O（1）
+// 相对于包含 find 函数的并查集，这里把复杂度放到了 unite 中，使得插入的复杂度为 O（N），但是查询复杂度为 O（1）
 
 
-```
+// ```
 type usNode struct {
 	parent *usNode
 	root   *usNode
@@ -91,4 +91,4 @@ func unite(query []string, nodes map[string]*usNode, eqMap map[string]map[string
 		oldRoot.parent = nodes[x].root
 	}
 }
-```
+// ```

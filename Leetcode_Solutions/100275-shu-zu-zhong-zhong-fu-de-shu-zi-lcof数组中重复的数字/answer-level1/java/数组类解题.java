@@ -1,9 +1,9 @@
-### 解题思路
-此处用一个新的数组来统计个数，下标为传入数组的值
+// ### 解题思路
+// 此处用一个新的数组来统计个数，下标为传入数组的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         int[] numbs = new int[nums.length];
@@ -17,4 +17,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

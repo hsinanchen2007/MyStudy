@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func myAtoi(_ str: String) -> Int {
         var string = str.trimmingCharacters(in: .whitespaces)
@@ -69,4 +69,4 @@ func poww (radix: Int, power: Int) -> Int {
     return Int(pow(Double(radix), Double(power)))
 }
 }
-```
+// ```

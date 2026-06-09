@@ -1,4 +1,4 @@
-```
+// ```
 int sum(struct NestedInteger** nestedList, int nestedListSize, int depth){
     int res = 0;
     for(int i = 0; i < nestedListSize; i++){
@@ -18,4 +18,4 @@ int sum(struct NestedInteger** nestedList, int nestedListSize, int depth){
 int depthSum(struct NestedInteger** nestedList, int nestedListSize){
     return sum(nestedList, nestedListSize, 1);
 }
-```
+// ```

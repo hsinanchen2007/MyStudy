@@ -1,5 +1,5 @@
-quick-union算法：
-```
+# quick-union算法：
+# ```
 class Solution:
     def makeConnected(self, n: int, connections: List[List[int]]) -> int:
         linenums = len(connections)
@@ -24,10 +24,10 @@ class Solution:
         
         return count-1
 
-```
+# ```
 
-加权quick-union算法：改进的quick-union
-```
+# 加权quick-union算法：改进的quick-union
+# ```
 代码块class Solution:
     def makeConnected(self, n: int, connections: List[List[int]]) -> int:
         linenums = len(connections)
@@ -57,10 +57,10 @@ class Solution:
             count -= 1
         
         return count-1
-```
+# ```
 
-最优算法：带路径压缩的quick-union算法
-```
+# 最优算法：带路径压缩的quick-union算法
+# ```
 class Solution:
     def makeConnected(self, n: int, connections: List[List[int]]) -> int:
         linenums = len(connections)
@@ -92,6 +92,6 @@ class Solution:
         return count-1
 
 执行用时 :660 ms
-```
+# ```
 
-详细解释可参考我的知乎文章[https://zhuanlan.zhihu.com/p/102456069]()
+# 详细解释可参考我的知乎文章[https://zhuanlan.zhihu.com/p/102456069]()

@@ -1,10 +1,10 @@
-### 解题思路
-pos为此时最大正值，neg为此时最小负值。
-遇到小于0就换，大于0就继续乘，其中nums[i]是用来更新变号后大小。
+# ### 解题思路
+# pos为此时最大正值，neg为此时最小负值。
+# 遇到小于0就换，大于0就继续乘，其中nums[i]是用来更新变号后大小。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         pos, neg, res = 1, 1, -float('inf')
@@ -15,4 +15,4 @@ class Solution:
 
 
 
-```
+# ```

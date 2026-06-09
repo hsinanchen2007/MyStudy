@@ -1,9 +1,9 @@
-### 解题思路
-可以想成当前值和当前最大值的+1的差的和
+// ### 解题思路
+// 可以想成当前值和当前最大值的+1的差的和
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number}
@@ -22,4 +22,4 @@ var minIncrementForUnique = function(A) {
     }
     return result;
 };
-```
+// ```

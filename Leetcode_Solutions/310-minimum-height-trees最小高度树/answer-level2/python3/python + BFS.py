@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
         if n == 1: return [0] # sepcial case
@@ -24,4 +24,4 @@ class Solution:
                         queue.append(neibor)
                         rest -= 1
         return list(queue)
-```
+# ```

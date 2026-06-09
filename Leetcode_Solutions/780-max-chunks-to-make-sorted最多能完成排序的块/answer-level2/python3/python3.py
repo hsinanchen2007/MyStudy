@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def maxChunksToSorted(self, arr: List[int]) -> int:
         length = len(arr)
@@ -10,4 +10,4 @@ class Solution:
                     dp[i] = min(dp[j:i])
                     break
         return dp[-1]
-```
+# ```

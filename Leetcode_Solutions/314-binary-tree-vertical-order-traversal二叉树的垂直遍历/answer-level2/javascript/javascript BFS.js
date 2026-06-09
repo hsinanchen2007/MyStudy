@@ -1,9 +1,9 @@
-### 解题思路
-使用map来缓存每一列的元素
+// ### 解题思路
+// 使用map来缓存每一列的元素
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -42,4 +42,4 @@ var verticalOrder = function(root) {
     })
     return res
 };
-```
+// ```

@@ -1,7 +1,7 @@
-![52.png](https://pic.leetcode-cn.com/59c294956bdd33757baf4494af59738b6b576690510e29501170185d427887ab-52.png)
+// ![52.png](https://pic.leetcode-cn.com/59c294956bdd33757baf4494af59738b6b576690510e29501170185d427887ab-52.png)
 
 
-```
+// ```
 int cnt = 0;
 void dfs (int n, int row, int col, int pie, int na)
 {
@@ -21,4 +21,4 @@ int totalNQueens(int n){
   dfs(n, 0, 0, 0, 0);
   return cnt;
 }
-```
+// ```

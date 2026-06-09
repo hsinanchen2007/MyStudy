@@ -1,5 +1,5 @@
-为啥大部分人思路都是双指针找中点+反转前半段链表与后半段来比较？一趟反转再整体比较不就完事了吗？
-```
+# 为啥大部分人思路都是双指针找中点+反转前半段链表与后半段来比较？一趟反转再整体比较不就完事了吗？
+# ```
 class ListNode:
     def __init__(self, x, y):
         self.val = x
@@ -13,11 +13,11 @@ class Solution:
         while q and q.val==head.val:
             q, head = q.next, head.next
         return q is None
-```
-这不也是空间O(1)时间O(n)吗（时间O(2n)也是时间O(n)呀）？
+# ```
+# 这不也是空间O(1)时间O(n)吗（时间O(2n)也是时间O(n)呀）？
 
-下面就按双指针找中点+反转前半段链表与后半段来比较，加深下双指针的印象：
-```
+# 下面就按双指针找中点+反转前半段链表与后半段来比较，加深下双指针的印象：
+# ```
 class ListNode(object):
     def __init__(self, x, y):
         self.val = x
@@ -38,5 +38,5 @@ class Solution(object):
             fast, head = fast.next, head.next
         # 如果链表相同，fast一定被遍历完，就一定是None
         return fast is None
-```
-是不是简单好理解呢！但是思路比起第一种还是复杂了。
+# ```
+# 是不是简单好理解呢！但是思路比起第一种还是复杂了。

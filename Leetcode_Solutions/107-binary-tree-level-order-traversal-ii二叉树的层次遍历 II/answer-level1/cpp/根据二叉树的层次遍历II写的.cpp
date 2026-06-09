@@ -1,5 +1,5 @@
-直接reverse()翻转整个vector即可；
-```
+// 直接reverse()翻转整个vector即可；
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ public:
         return res;
     }
 };
-```
+// ```

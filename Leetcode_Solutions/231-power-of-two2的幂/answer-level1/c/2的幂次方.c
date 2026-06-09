@@ -1,10 +1,10 @@
-### 解题思路
-通过位运算，计算数二进制中1的个数
-2的幂次方二进制中只含有1个1
+// ### 解题思路
+// 通过位运算，计算数二进制中1的个数
+// 2的幂次方二进制中只含有1个1
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPowerOfTwo(int n){
     if(n<=0) return false;
     int count=0;
@@ -15,4 +15,4 @@ bool isPowerOfTwo(int n){
     if(count==1) return true;
     return false;
 }
-```
+// ```

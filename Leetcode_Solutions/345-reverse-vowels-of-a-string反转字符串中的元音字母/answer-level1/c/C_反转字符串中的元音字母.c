@@ -1,9 +1,9 @@
-### 解题思路
-类似快速排序
+// ### 解题思路
+// 类似快速排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isAEIOU(char C)
 {
     return C=='A'||C=='E'||C=='I'||C=='O'||C=='U'||
@@ -33,4 +33,4 @@ char * reverseVowels(char * s){
     }
     return s;
 }
-```
+// ```

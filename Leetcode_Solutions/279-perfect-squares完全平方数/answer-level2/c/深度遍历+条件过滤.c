@@ -1,8 +1,8 @@
-思路：
-    1. 记录数组array：1,4,9,16........lastValue ;其中lastValue < n;
-    2. 倒着对数组进行深度遍历；找到累加和==n的层次数目；
-    3. 增加过滤条件：如果当前层次已经大于“之前已知的有效层次数”，就return;
-```
+// 思路：
+//     1. 记录数组array：1,4,9,16........lastValue ;其中lastValue < n;
+//     2. 倒着对数组进行深度遍历；找到累加和==n的层次数目；
+//     3. 增加过滤条件：如果当前层次已经大于“之前已知的有效层次数”，就return;
+// ```
 void Travers(int *flag, int id, int target, int sum, int level, int *ret)
 {
     // 过滤条件：假设当前id满足条件，那么实际层次为level + 1。
@@ -46,4 +46,4 @@ int numSquares(int n){
     Travers(flag, i - 1, n, 0, 0, &ret);
     return ret;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-首先将字符串转换成数组，然后去除最后一个单词后的空格。然后再次遍历计算对最后一个单词的长度
+// ### 解题思路
+// 首先将字符串转换成数组，然后去除最后一个单词后的空格。然后再次遍历计算对最后一个单词的长度
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLastWord(String s) {
         char [] array=s.toCharArray();
@@ -21,4 +21,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

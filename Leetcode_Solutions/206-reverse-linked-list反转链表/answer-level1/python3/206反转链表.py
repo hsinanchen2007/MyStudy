@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 #非递归
 # Definition for singly-linked list.
 # class ListNode:
@@ -59,4 +59,4 @@ class Solution:
         return newhead
 
 
-```
+# ```

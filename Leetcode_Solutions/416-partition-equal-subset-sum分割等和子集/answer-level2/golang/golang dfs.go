@@ -1,4 +1,4 @@
-```
+// ```
 func canPartition(nums []int) bool {
 	total :=0
 	m:=make(map[int]int)
@@ -33,4 +33,4 @@ func canPartitionWithMap(target int,m map[int]int) bool {
 	}
 	return false
 }
-```
+// ```

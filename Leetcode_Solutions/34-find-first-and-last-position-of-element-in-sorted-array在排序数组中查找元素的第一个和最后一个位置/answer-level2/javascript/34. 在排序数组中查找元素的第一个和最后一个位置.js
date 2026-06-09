@@ -1,8 +1,8 @@
-## 各种算法模板
-+ [算法模板](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/AlgorithmTemplate%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF.md)
+// ## 各种算法模板
+// + [算法模板](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/theoreticalKnowledge/AlgorithmTemplate%E7%AE%97%E6%B3%95%E6%A8%A1%E6%9D%BF.md)
 
-#### 解法：二分查找
-```javascript
+// #### 解法：二分查找
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -47,4 +47,4 @@ var searchRange = function(nums, target) {
     let right = rightBound();
     return [left,right];
 };
-```
+// ```

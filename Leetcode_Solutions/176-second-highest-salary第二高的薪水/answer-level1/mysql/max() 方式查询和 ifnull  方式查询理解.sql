@@ -1,4 +1,4 @@
-第一种，max()方式查询
+-- 第一种，max()方式查询
 
 `select max(Salary) as SecondHighestSalary from Employee where Salary <(select max(Salary) from Employee order by Salary desc);`
 

@@ -1,8 +1,8 @@
-在官方题解基础上进行简化
+// 在官方题解基础上进行简化
 
-由于这里唯一需要保存的是左上角的数据，因此可以将这个数进行保存，每次进行更新即可。因此可以压缩路径简化为一维数组。
+// 由于这里唯一需要保存的是左上角的数据，因此可以将这个数进行保存，每次进行更新即可。因此可以压缩路径简化为一维数组。
 
-```javascript
+// ```javascript
 var minDistance = function(word1, word2) {
   const dp = Array.from({ length: word2.length + 1 }, (item, index) => index);
   // 保存的是左上角的值
@@ -20,4 +20,4 @@ var minDistance = function(word1, word2) {
   }
   return dp[ dp.length - 1 ]
 };
-```
+// ```

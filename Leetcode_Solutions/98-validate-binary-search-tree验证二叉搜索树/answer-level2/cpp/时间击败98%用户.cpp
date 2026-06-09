@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/905e634d5d590226cd06d1c9cf9d030d29269e545b14eaab3854b2a82b3b21a9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/905e634d5d590226cd06d1c9cf9d030d29269e545b14eaab3854b2a82b3b21a9-image.png)
 
-### 解题思路
-每个点：左子树最大值 < 节点值 < 右子树最小值
-用每个点 左孩子 < 节点值 < 右孩子，保证左子树的最右值为左子树最大值，右子树最左值为右子树最小值
+// ### 解题思路
+// 每个点：左子树最大值 < 节点值 < 右子树最小值
+// 用每个点 左孩子 < 节点值 < 右孩子，保证左子树的最右值为左子树最大值，右子树最左值为右子树最小值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ public:
         return isValidBST(root->left) && isValidBST(root->right);
     }
 };
-```
+// ```

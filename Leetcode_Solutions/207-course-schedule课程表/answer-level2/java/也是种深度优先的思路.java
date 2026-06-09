@@ -1,7 +1,7 @@
-# 思路
-  判断依赖其他课的课程是否被依赖（是否成环）。
-# code
-```java
+// # 思路
+//   判断依赖其他课的课程是否被依赖（是否成环）。
+// # code
+// ```java
     List<List<Integer>> depens;
 
     public boolean canFinish(int numCourses, int[][] prerequisites) {
@@ -24,4 +24,4 @@
         }
         return false;
     }
-```
+// ```

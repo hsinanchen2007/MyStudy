@@ -1,9 +1,9 @@
-### 解题思路
-经典并查集，带路径压缩
+// ### 解题思路
+// 经典并查集，带路径压缩
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MergeFind {
 public:
     MergeFind(int n)
@@ -66,4 +66,4 @@ public:
         return mf.Connected();
     }
 };
-```
+// ```

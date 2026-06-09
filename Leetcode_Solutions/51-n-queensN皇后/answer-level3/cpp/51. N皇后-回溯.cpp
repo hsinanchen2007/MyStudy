@@ -1,5 +1,5 @@
-### 解题思路
-```
+// ### 解题思路
+// ```
     void backtrack(int& n, vector<int> track){
         if(track.size() == n){
             res.push_back(track);
@@ -14,14 +14,14 @@
             }
         }
     }
-```
+// ```
 
 
-执行用时 :16 ms, 在所有 C++ 提交中击败了40.15%的用户
+// 执行用时 :16 ms, 在所有 C++ 提交中击败了40.15%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;
@@ -68,4 +68,4 @@ public:
         return rt;
     }
 };
-```
+// ```

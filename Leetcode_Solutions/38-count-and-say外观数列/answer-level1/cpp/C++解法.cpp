@@ -1,6 +1,6 @@
-C++解法
-每次根据pre（前一个字符串）生成result（当前字符串）
-```
+// C++解法
+// 每次根据pre（前一个字符串）生成result（当前字符串）
+// ```
 class Solution {
 public:
     string countAndSay(int n) {
@@ -24,4 +24,4 @@ public:
         return result;
     }
 };
-```
+// ```

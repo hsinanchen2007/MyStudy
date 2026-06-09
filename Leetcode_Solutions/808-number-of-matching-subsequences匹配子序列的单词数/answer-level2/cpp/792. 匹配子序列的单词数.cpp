@@ -1,10 +1,10 @@
-### 解题思路
-先用map数组把S中的字符位置记录一下
-再去扫描words中的单词，如果能从map中找到一个递增的字符下标序列，res++
+// ### 解题思路
+// 先用map数组把S中的字符位置记录一下
+// 再去扫描words中的单词，如果能从map中找到一个递增的字符下标序列，res++
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numMatchingSubseq(string S, vector<string>& words) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

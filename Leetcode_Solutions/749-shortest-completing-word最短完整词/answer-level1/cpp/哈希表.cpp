@@ -1,9 +1,9 @@
-执行用时 :16 ms, 在所有 C++ 提交中击败了97.54%的用户
-内存消耗 :10.4 MB, 在所有 C++ 提交中击败了89.06%的用户
+// 执行用时 :16 ms, 在所有 C++ 提交中击败了97.54%的用户
+// 内存消耗 :10.4 MB, 在所有 C++ 提交中击败了89.06%的用户
 
-这里曾尝试了用真的map<char, int>来做，结果效率比用数组差好多......
+// 这里曾尝试了用真的map<char, int>来做，结果效率比用数组差好多......
 
-```
+// ```
 class Solution {
 public:
     string shortestCompletingWord(string licensePlate, vector<string>& words) {
@@ -61,4 +61,4 @@ public:
         return words[index];
     }
 };
-```
+// ```

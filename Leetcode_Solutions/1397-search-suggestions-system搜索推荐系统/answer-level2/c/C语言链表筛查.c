@@ -1,16 +1,16 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/46758cbaf483bd6a7a8d4b28dea583be9dbb08785b441793ce1c59d1cc738d96-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/46758cbaf483bd6a7a8d4b28dea583be9dbb08785b441793ce1c59d1cc738d96-image.png)
 
-1. 所有product链表排序
-2. 根据第一个待查字母，形成链表
-3. 根据待查字母，去掉不匹配的链表
-4. 每次循环输出当前字母对应的链表中的前三个
+// 1. 所有product链表排序
+// 2. 根据第一个待查字母，形成链表
+// 3. 根据待查字母，去掉不匹配的链表
+// 4. 每次循环输出当前字母对应的链表中的前三个
 
-这个题本身没有复杂的算法，主要是处理的细节
+// 这个题本身没有复杂的算法，主要是处理的细节
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -102,4 +102,4 @@ char*** suggestedProducts(char** products, int productsSize, char* searchWord, i
     return ret;
 }
 
-```
+// ```

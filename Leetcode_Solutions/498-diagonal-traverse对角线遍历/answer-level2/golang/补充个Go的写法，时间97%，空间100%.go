@@ -1,6 +1,6 @@
-以数组的左边界和下边界遍历整个数组，设置标识flag适当反转数组即可
+// 以数组的左边界和下边界遍历整个数组，设置标识flag适当反转数组即可
 
-```golang
+// ```golang
 func findDiagonalOrder(matrix [][]int) []int {
     if len(matrix)==0{
         return []int{}
@@ -42,4 +42,4 @@ func reverse(arr []int)  {
 		j--
 	}
 }
-```
+// ```

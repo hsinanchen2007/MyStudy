@@ -1,15 +1,15 @@
-### 解题思路
-- 先两遍循环，分别求解两个链表的长度l1，l2，则最大的交叉部分长度为insLength = min（l1， l2）-1，对应两个链表的第一个交叉节点为倒数第insLen个节点
-- 两个链表分别先走到第一个可能的交叉节点，暂停
-- 两个链表同步往下走，如果相等即为交叉节点，否则继续往下走
+# ### 解题思路
+# - 先两遍循环，分别求解两个链表的长度l1，l2，则最大的交叉部分长度为insLength = min（l1， l2）-1，对应两个链表的第一个交叉节点为倒数第insLen个节点
+# - 两个链表分别先走到第一个可能的交叉节点，暂停
+# - 两个链表同步往下走，如果相等即为交叉节点，否则继续往下走
 
-### 执行结果
-![image.png](https://pic.leetcode-cn.com/1d91d32c3449911ecbae95484290a46340ed981fef4b60ba8d27a679d4b26828-image.png)
+# ### 执行结果
+# ![image.png](https://pic.leetcode-cn.com/1d91d32c3449911ecbae95484290a46340ed981fef4b60ba8d27a679d4b26828-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -42,7 +42,7 @@ class Solution:
         
         return None
 
-```
+# ```
 
-### 复杂度
-时间复杂度O（max（N，M）），空间复杂度O（1）
+# ### 复杂度
+# 时间复杂度O（max（N，M）），空间复杂度O（1）

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-注意偶数情况
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 注意偶数情况
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public void ReverseString(char[] s) {
         int n=s.Length;
@@ -16,4 +16,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

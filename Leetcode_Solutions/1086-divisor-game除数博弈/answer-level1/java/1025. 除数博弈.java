@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean divisorGame(int N) {
         /*
@@ -36,4 +36,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/cae4606c9ff997178c2f426546c8f6018b6ca91c56230db1221a0edc9d9d1242-image.png)
+# ### 解题思路
+# 此处撰写解题思路
+# ![image.png](https://pic.leetcode-cn.com/cae4606c9ff997178c2f426546c8f6018b6ca91c56230db1221a0edc9d9d1242-image.png)
 
-递归函数：
-1、若当前是有序数组（正序/反序）：则遍历
-2、若不是有序数组，找到最小值，算出最小值*区间，再左右分裂递归
+# 递归函数：
+# 1、若当前是有序数组（正序/反序）：则遍历
+# 2、若不是有序数组，找到最小值，算出最小值*区间，再左右分裂递归
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         self.max_regoin = 0
@@ -42,4 +42,4 @@ class Solution:
             return
         find_max(0, len(heights))
         return self.max_regoin
-```
+# ```

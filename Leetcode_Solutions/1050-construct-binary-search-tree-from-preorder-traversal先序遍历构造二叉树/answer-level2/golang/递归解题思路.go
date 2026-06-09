@@ -1,4 +1,4 @@
-```
+// ```
 func bstFromPreorder(preorder []int) *TreeNode {
 	if len(preorder) < 1 {
 		return nil
@@ -30,4 +30,4 @@ func bstFromPreorder(preorder []int) *TreeNode {
 
 	return root
 }
-```
+// ```

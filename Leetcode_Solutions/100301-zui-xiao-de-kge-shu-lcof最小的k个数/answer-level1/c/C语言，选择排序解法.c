@@ -1,10 +1,10 @@
-### 解题思路
-暴力法：选择排序，将最小的放数组最后面，排k次就结束返回。
-感觉用堆排序应该时间是最快的，有空了再完善一下。
+// ### 解题思路
+// 暴力法：选择排序，将最小的放数组最后面，排k次就结束返回。
+// 感觉用堆排序应该时间是最快的，有空了再完善一下。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -37,4 +37,4 @@ int* getLeastNumbers(int* arr, int arrSize, int k, int* returnSize){
 
 
 
-```
+// ```

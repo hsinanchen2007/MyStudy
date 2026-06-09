@@ -1,5 +1,5 @@
-对数组A进行排列 A_4^4 = 4 * 3 * 2 * 1，再将排列的二维数组按降序进行筛选返回结果
-```js
+// 对数组A进行排列 A_4^4 = 4 * 3 * 2 * 1，再将排列的二维数组按降序进行筛选返回结果
+// ```js
 var largestTimeFromDigits = function(A) {
     var res = [];
     function arrange(){
@@ -44,4 +44,4 @@ var largestTimeFromDigits = function(A) {
         return true;
     }
 };
-```
+// ```

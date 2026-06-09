@@ -1,6 +1,6 @@
- - 使用数组计算并保存前`k`个数字的异或运算结果：`xorResults[k] = arr[0] xor arr[1] xor ... xor arr[k]`
- - 根据异或运算的性质，`a xor a = 0`，那么计算某个`query`的异或结果：`queryResults[k] = xorResults[R[k]] xor xorResults[L[k] - 1]`
-```
+//  - 使用数组计算并保存前`k`个数字的异或运算结果：`xorResults[k] = arr[0] xor arr[1] xor ... xor arr[k]`
+//  - 根据异或运算的性质，`a xor a = 0`，那么计算某个`query`的异或结果：`queryResults[k] = xorResults[R[k]] xor xorResults[L[k] - 1]`
+// ```
 class Solution {
 public:
 	vector<int> xorQueries(vector<int>& arr, vector<vector<int>>& queries) {
@@ -22,4 +22,4 @@ public:
 		return queryResults;
 	}
 };
-```
+// ```

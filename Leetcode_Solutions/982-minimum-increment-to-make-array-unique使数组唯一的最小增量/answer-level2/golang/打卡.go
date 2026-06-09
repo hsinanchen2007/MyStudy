@@ -1,9 +1,9 @@
-### 解题思路
-排序
+// ### 解题思路
+// 排序
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func minIncrementForUnique(A []int) int {
     move := 0
     if len(A) < 2 {
@@ -24,4 +24,4 @@ func minIncrementForUnique(A []int) int {
     }
     return move
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-对于函数的形参:int* returnSize，第一遍看的时候不太懂他的作用，细看感觉应该是用指针变量来给输出的结果数组定位?相当于for(int a=0;a<arraySize;a++){arrat[a]=a;}中的a的作用？至于函数为什么要写这么一个参数还不太懂，希望有大佬解答
+// ### 解题思路
+// 对于函数的形参:int* returnSize，第一遍看的时候不太懂他的作用，细看感觉应该是用指针变量来给输出的结果数组定位?相当于for(int a=0;a<arraySize;a++){arrat[a]=a;}中的a的作用？至于函数为什么要写这么一个参数还不太懂，希望有大佬解答
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -48,4 +48,4 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize)
 
 
 }
-```
+// ```

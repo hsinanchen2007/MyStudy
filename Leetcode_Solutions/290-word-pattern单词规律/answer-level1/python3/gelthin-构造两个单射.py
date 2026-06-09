@@ -1,11 +1,11 @@
-### 解题思路
-这里参照习题[205. 同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/)的解法一，构造一个单射判断函数，然后判断两次。
+# ### 解题思路
+# 这里参照习题[205. 同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/)的解法一，构造一个单射判断函数，然后判断两次。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     
 
@@ -28,4 +28,4 @@ class Solution:
         return isInjection(l_p, l_s) and isInjection(l_s, l_p)
 
             
-```
+# ```

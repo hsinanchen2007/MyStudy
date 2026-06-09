@@ -1,5 +1,5 @@
-抄作业
-```
+// 抄作业
+// ```
 class Solution {
 
 public:
@@ -11,4 +11,4 @@ public:
         return r;
     }
 };
-```
+// ```

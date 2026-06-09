@@ -1,5 +1,5 @@
-思路是先用Invoices和Customers 连接取得名字，再用Invoices和Customers连接取得数量，感觉能四个表连，Customers连两次，懒得写了
-```
+-- 思路是先用Invoices和Customers 连接取得名字，再用Invoices和Customers连接取得数量，感觉能四个表连，Customers连两次，懒得写了
+-- ```
 select t1.invoice_id,t1.customer_name,t1.price,
 if(t2.contacts_cnt is null,0,contacts_cnt) contacts_cnt,
 if(t2.trusted_contacts_cnt is null,0,trusted_contacts_cnt) trusted_contacts_cnt
@@ -17,5 +17,5 @@ group by c2.user_id
 ) t2
 on t1.user_id=t2.user_id 
 order by t1.invoice_id
-```
+-- ```
 

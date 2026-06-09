@@ -1,6 +1,6 @@
-按照之型顺序打印二叉树需要两个辅助栈。我们在打印某一层的节点时，把下一层的子节点保存到相应的栈里，如果当前打印的是奇数层，则先保存右节点，再保存左节点；如果当前打印的是偶数层，则先保存左节点，再保存右节点。
+// 按照之型顺序打印二叉树需要两个辅助栈。我们在打印某一层的节点时，把下一层的子节点保存到相应的栈里，如果当前打印的是奇数层，则先保存右节点，再保存左节点；如果当前打印的是偶数层，则先保存左节点，再保存右节点。
 
-```
+// ```
 public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res=new ArrayList<>();//存放结果
         if(root==null)
@@ -43,4 +43,4 @@ public List<List<Integer>> levelOrder(TreeNode root) {
 
         return res;
     }
-```
+// ```

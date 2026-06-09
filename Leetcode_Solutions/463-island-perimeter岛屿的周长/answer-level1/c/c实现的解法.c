@@ -1,9 +1,9 @@
-### 解题思路
-顺序扫描每个方块“1”，得到其对边长的贡献值，最终累加得到周长
+// ### 解题思路
+// 顺序扫描每个方块“1”，得到其对边长的贡献值，最终累加得到周长
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int islandPerimeter(int** grid, int gridSize, int* gridColSize){
     if(grid == NULL || gridSize == 0 || gridColSize == NULL)
         return 0;
@@ -29,4 +29,4 @@ int islandPerimeter(int** grid, int gridSize, int* gridColSize){
     }
     return count;
 }
-```
+// ```

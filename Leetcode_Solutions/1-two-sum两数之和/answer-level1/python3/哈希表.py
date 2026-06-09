@@ -1,7 +1,7 @@
-解法：
-思路一，存储target-nums的每个元素
-思路二，存储nums中的每个元素
-```
+# 解法：
+# 思路一，存储target-nums的每个元素
+# 思路二，存储nums中的每个元素
+# ```
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -30,4 +30,4 @@ class Solution(object):
             if value in dict1:
                 return [dict1.get(value), i]
             dict1[nums[i]] = i
-```
+# ```

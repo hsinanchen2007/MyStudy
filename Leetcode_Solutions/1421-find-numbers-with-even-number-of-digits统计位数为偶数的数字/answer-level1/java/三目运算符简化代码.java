@@ -1,10 +1,10 @@
-### 解题思路
-for each 和迭代器的效率略低,处理需要4ms,追求速度还是普通for循环,2ms足矣.
-使用三目运算链式编程可以简化代码.
+// ### 解题思路
+// for each 和迭代器的效率略低,处理需要4ms,追求速度还是普通for循环,2ms足矣.
+// 使用三目运算链式编程可以简化代码.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findNumbers(int[] nums) {
     int Temp=0;
@@ -13,4 +13,4 @@ class Solution {
     }return Temp;
 }
 }
-```
+// ```

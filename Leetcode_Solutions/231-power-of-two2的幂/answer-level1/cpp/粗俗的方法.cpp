@@ -1,9 +1,9 @@
-### 解题思路
-n>0且n的二进制只有一位为1
+// ### 解题思路
+// n>0且n的二进制只有一位为1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
@@ -21,4 +21,4 @@ public:
         else return false;
     }
 };
-```
+// ```

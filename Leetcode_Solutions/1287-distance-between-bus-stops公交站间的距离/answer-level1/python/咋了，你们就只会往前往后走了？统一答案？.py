@@ -1,9 +1,9 @@
-### 解题思路
-走一遍然后去补集就完事了
+# ### 解题思路
+# 走一遍然后去补集就完事了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def distanceBetweenBusStops(self, distance, start, destination):
         """
@@ -15,4 +15,4 @@ class Solution(object):
         start1=min(start,destination)
         des=max(start,destination)
         return min(sum(distance[start1:des]),sum(distance)-sum(distance[start1:des]))
-```
+# ```

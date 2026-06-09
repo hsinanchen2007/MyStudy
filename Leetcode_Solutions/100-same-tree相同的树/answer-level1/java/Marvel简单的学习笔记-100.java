@@ -1,13 +1,13 @@
-## 两种解法：先序与层序
+// ## 两种解法：先序与层序
 
-### 解法一：先序
-相当于dfs，递归地对两棵树的每个顶点进行比较。
+// ### 解法一：先序
+// 相当于dfs，递归地对两棵树的每个顶点进行比较。
 
-时间复杂度：O(n)。
-空间复杂度：O(n)。
+// 时间复杂度：O(n)。
+// 空间复杂度：O(n)。
 
-代码：
-```java
+// 代码：
+// ```java
 class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p == null && q == null)  
@@ -19,13 +19,13 @@ class Solution {
         return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
-```
+// ```
 
-### 解法二：层序
-相当于bfs，利用队列，层序遍历逐步判断即可。
+// ### 解法二：层序
+// 相当于bfs，利用队列，层序遍历逐步判断即可。
 
-代码：
-```java
+// 代码：
+// ```java
 class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p == null && q == null)
@@ -61,4 +61,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

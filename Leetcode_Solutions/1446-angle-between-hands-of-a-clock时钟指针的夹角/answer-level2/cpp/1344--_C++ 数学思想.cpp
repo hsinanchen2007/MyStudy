@@ -1,9 +1,9 @@
-### 解题思路
-将问题转换为固定的数学公式：5.5x-30y即问题答案。
+// ### 解题思路
+// 将问题转换为固定的数学公式：5.5x-30y即问题答案。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double angleClock(int hour, int minutes) {
@@ -12,4 +12,4 @@ public:
         return a;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-十大排序之简单插入排序
+# ### 解题思路
+# 十大排序之简单插入排序
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, A, m, B, n):
         """
@@ -22,4 +22,4 @@ class Solution(object):
         return A
             
 
-```
+# ```

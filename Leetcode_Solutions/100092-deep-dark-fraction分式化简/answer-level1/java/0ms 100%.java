@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] fraction(int[] cont) {
         int [] num = new int[2];
@@ -20,4 +20,4 @@ class Solution {
         return new int[]{fraction[1],fraction[0]};
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-双指针法，详细过程见注释。
+// ### 解题思路
+// 双指针法，详细过程见注释。
 
-### 双指针法
+// ### 双指针法
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxDistToClosest(vector<int>& seats) {
@@ -49,4 +49,4 @@ public:
         return max_len;
     }
 };
-```
+// ```

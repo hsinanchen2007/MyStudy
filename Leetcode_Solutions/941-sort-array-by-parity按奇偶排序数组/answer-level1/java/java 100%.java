@@ -1,7 +1,7 @@
 
-执行用时 :1 ms, 在所有 java 提交中击败了100.00% 的用户
-内存消耗 :38.7 MB, 在所有 java 提交中击败了97.18%的用户
-```
+// 执行用时 :1 ms, 在所有 java 提交中击败了100.00% 的用户
+// 内存消耗 :38.7 MB, 在所有 java 提交中击败了97.18%的用户
+// ```
 class Solution {
     public int[] sortArrayByParity(int[] A) {
         int temp=0;int i=0;int j=A.length-1;
@@ -14,4 +14,4 @@ class Solution {
          return A;  
         }     
     }
-```
+// ```

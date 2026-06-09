@@ -1,4 +1,4 @@
-```
+// ```
 
 func buildTree(preorder []int, inorder []int) *TreeNode {
     m:=len(preorder)
@@ -26,4 +26,4 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
     }
     return head
 }
-```
+// ```

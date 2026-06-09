@@ -1,11 +1,11 @@
-### 解题思路
-将主要处理放在了在pop处，top()随着push和pop的进行及时更新，push每次都加入到非空的队列中。
-pop时如果剩下的元素>=2个，就及时更新top，否则只有一个元素，不更新top
-（题目假设不会出现对空栈不会进行top,pop操作，不然这样不更新top是危险的）
+// ### 解题思路
+// 将主要处理放在了在pop处，top()随着push和pop的进行及时更新，push每次都加入到非空的队列中。
+// pop时如果剩下的元素>=2个，就及时更新top，否则只有一个元素，不更新top
+// （题目假设不会出现对空栈不会进行top,pop操作，不然这样不更新top是危险的）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 private:
     queue<int> que1;
@@ -84,4 +84,4 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

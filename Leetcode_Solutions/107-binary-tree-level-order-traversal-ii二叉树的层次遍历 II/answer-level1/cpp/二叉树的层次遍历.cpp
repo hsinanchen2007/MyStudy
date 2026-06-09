@@ -1,9 +1,9 @@
-### 解题思路
-在层次遍历的时候 将数组插入第一个位置。
+// ### 解题思路
+// 在层次遍历的时候 将数组插入第一个位置。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,4 +40,4 @@ public:
         return result;  
     }
 };
-```
+// ```

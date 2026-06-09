@@ -1,10 +1,10 @@
-### 解题思路
-[Leetcode076](https://leetcode-cn.com/problems/minimum-window-substring/)
-[滑动窗口模板](https://leetcode-cn.com/problems/minimum-window-substring/solution/hua-dong-chuang-kou-suan-fa-tong-yong-si-xiang-by-/)
+// ### 解题思路
+// [Leetcode076](https://leetcode-cn.com/problems/minimum-window-substring/)
+// [滑动窗口模板](https://leetcode-cn.com/problems/minimum-window-substring/solution/hua-dong-chuang-kou-suan-fa-tong-yong-si-xiang-by-/)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] shortestSeq(int[] big, int[] small) {
         if(big.length < small.length) return new int[0];
@@ -46,4 +46,4 @@ class Solution {
         }
     }
 }
-```
+// ```

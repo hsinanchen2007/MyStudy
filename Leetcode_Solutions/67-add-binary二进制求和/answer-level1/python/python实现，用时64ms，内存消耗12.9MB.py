@@ -1,5 +1,5 @@
-按照大神说的，不转10进制计算，模拟进位，算法有点傻。。
-```
+# 按照大神说的，不转10进制计算，模拟进位，算法有点傻。。
+# ```
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
         a = ''.join(reversed(a))
@@ -23,4 +23,4 @@ class Solution:
         return ''.join(reversed(result))
             
         
-```
+# ```

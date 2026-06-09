@@ -1,4 +1,4 @@
-```
+// ```
 func longestRepeatingSubstring(S string) int {
 	o, l := 1, len(S)
 	for i := 1; o < l-i; i++ {
@@ -19,4 +19,4 @@ func longestRepeatingSubstring(S string) int {
 	}
 	return o
 }
-```
+// ```

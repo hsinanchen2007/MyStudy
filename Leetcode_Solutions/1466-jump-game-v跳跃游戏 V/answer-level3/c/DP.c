@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-执行用时 :60 ms, 在所有 C 提交中击败了18.18%的用户
-内存消耗 :7.9 MB, 在所有 C 提交中击败了100.00%的用户
+// 执行用时 :60 ms, 在所有 C 提交中击败了18.18%的用户
+// 内存消耗 :7.9 MB, 在所有 C 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int jump(int* arr, int arrSize, int d, int *jumps, int pos){
     //printf("pos%d\n",pos);
     if(pos<0||pos>=arrSize){
@@ -90,4 +90,4 @@ int maxJumps(int* arr, int arrSize, int d){
 //[66]
 //1
 //边界判断思考不够全面
-```
+// ```

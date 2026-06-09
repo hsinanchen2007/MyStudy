@@ -1,21 +1,21 @@
-刚实话，都差不多。
+# 刚实话，都差不多。
 
-一行版
+# 一行版
 
-![image.png](https://pic.leetcode-cn.com/515c17fe84bde12f560e02ce55445729f75a5ded1680810a0e97772949ce730f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/515c17fe84bde12f560e02ce55445729f75a5ded1680810a0e97772949ce730f-image.png)
 
-```
+# ```
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
         return target in nums
-```
+# ```
 
-找出旋转点，再二分查找版
+# 找出旋转点，再二分查找版
 
-![image.png](https://pic.leetcode-cn.com/ea58f75b4882d2f45747c7d71f5c34234aadfc874a8d74d612d902388442b4b1-image.png)
+# ![image.png](https://pic.leetcode-cn.com/ea58f75b4882d2f45747c7d71f5c34234aadfc874a8d74d612d902388442b4b1-image.png)
 
 
-```
+# ```
 class Solution:
     def search(self, nums: List[int], target: int) -> bool:
         if not nums:
@@ -45,4 +45,4 @@ class Solution:
             else:
                 return True
         return False
-```
+# ```

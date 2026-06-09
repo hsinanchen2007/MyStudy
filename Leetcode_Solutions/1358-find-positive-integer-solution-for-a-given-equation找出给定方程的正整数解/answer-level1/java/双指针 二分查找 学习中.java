@@ -1,11 +1,11 @@
-两个方法都是**参考评论和题解**所学习的
-**我自己没读懂题目**，看了评论和题解才一知半解，写题解加深理解
+// 两个方法都是**参考评论和题解**所学习的
+// **我自己没读懂题目**，看了评论和题解才一知半解，写题解加深理解
 
-# 双指针：
-定义**两个指针**，都从一**端**移动到另一**端**
-需要消耗的时间比较多，
-两个指针需要从一端到另一端
-```
+// # 双指针：
+// 定义**两个指针**，都从一**端**移动到另一**端**
+// 需要消耗的时间比较多，
+// 两个指针需要从一端到另一端
+// ```
 public static List<List<Integer>> findSolution(CustomFunction customfunction, int z) {
 		// 声明一个集合，存放结果
 		List<List<Integer>> list = new ArrayList<List<Integer>>();
@@ -33,12 +33,12 @@ public static List<List<Integer>> findSolution(CustomFunction customfunction, in
 
 		return list;
 	}
-```
+// ```
 
-# 二分查找：
-确定一个变量，另一个变量通过二分查找确定
-消耗的时间相对较少
-```
+// # 二分查找：
+// 确定一个变量，另一个变量通过二分查找确定
+// 消耗的时间相对较少
+// ```
 public List<List<Integer>> findSolution(CustomFunction customfunction, int z) {
 		List<List<Integer>> list = new ArrayList<List<Integer>>();
 
@@ -74,5 +74,5 @@ public List<List<Integer>> findSolution(CustomFunction customfunction, int z) {
 		return list;
 
 	}
-```
-*一起加油，一起写题解*
+// ```
+// *一起加油，一起写题解*

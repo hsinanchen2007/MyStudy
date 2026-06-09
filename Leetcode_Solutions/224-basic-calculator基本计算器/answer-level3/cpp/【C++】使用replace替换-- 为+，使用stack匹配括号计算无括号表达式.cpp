@@ -1,7 +1,7 @@
-1.计算没有括号的表达式
-2.使用stack计算有括号的表达式，括号内的表达式使用1的方式计算
-3.在括号的场景下有1-(2-3) 中间结果是1--1，replace -- 为+，稍微调整了下，记录下
-```
+// 1.计算没有括号的表达式
+// 2.使用stack计算有括号的表达式，括号内的表达式使用1的方式计算
+// 3.在括号的场景下有1-(2-3) 中间结果是1--1，replace -- 为+，稍微调整了下，记录下
+// ```
 /*
 * Copyright (c) Nicolas-Tony Technologies Co., Ltd. 2019-2019. All rights reserved.
 * Description: i love leetcode
@@ -149,4 +149,4 @@ public:
     }
 
 };
-```
+// ```

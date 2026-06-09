@@ -1,9 +1,9 @@
-### 解题思路
-若是回文串，则字符串中所有字符出现的的次数之多有一个为奇数。
+// ### 解题思路
+// 若是回文串，则字符串中所有字符出现的的次数之多有一个为奇数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -17,4 +17,4 @@ public:
         return amount<=1?true:false;
     }
 };
-```
+// ```

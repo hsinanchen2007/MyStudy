@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var firstUniqChar = function(s) {
     if(s.length === 1) return s
     let arr = s.split('');
@@ -13,4 +13,4 @@ var firstUniqChar = function(s) {
     }
     return ' '
 };
-```
+// ```

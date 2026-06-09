@@ -1,9 +1,9 @@
-### 解题思路
-思路不断找度为零的，使得它连接点的度减一，度为零，进队
+# ### 解题思路
+# 思路不断找度为零的，使得它连接点的度减一，度为零，进队
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         adjMatrix=[[] for _ in range(numCourses)]
@@ -24,4 +24,4 @@ class Solution:
                     queue.append(cur)
         return not numCourses
 
-```
+# ```

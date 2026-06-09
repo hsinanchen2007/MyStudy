@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/b6ba03d8c97705bd1010c30b21378d53cae20ed28a468557b9059e84c6626df4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b6ba03d8c97705bd1010c30b21378d53cae20ed28a468557b9059e84c6626df4-image.png)
 
 
-引用了评论区大神的二叉搜索树的思路。
+// 引用了评论区大神的二叉搜索树的思路。
 
-以右上角为根，左方向为左节点，下方向为右节点，如果找到了则直接返回true，如果要找的值小于根，则递归到"左"孩子处；如果要找的值大于根，则递归到"右"孩子处。
+// 以右上角为根，左方向为左节点，下方向为右节点，如果找到了则直接返回true，如果要找的值小于根，则递归到"左"孩子处；如果要找的值大于根，则递归到"右"孩子处。
 
-越界则直接返回。
+// 越界则直接返回。
 
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         int r = matrix.length;
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

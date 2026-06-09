@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         # dp
@@ -17,4 +17,4 @@ class Solution:
                 if word2[i-1] == word1[j-1]: tmp = 0
                 dp[i][j] = min(dp[i][j], dp[i-1][j-1] + tmp)
         return dp[-1][-1]
-```
+# ```

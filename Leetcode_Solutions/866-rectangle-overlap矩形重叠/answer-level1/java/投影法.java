@@ -1,13 +1,13 @@
-### 解题思路
-```text
+// ### 解题思路
+// ```text
 投影法，两个矩形如果重叠，则其投影到x轴或者y轴的坐标必有交集
 1. 如果投影到x轴没有交集，则没有重叠
 2. 如果投影到y轴没有交集，则没有重叠
-```
+// ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 位置检查，不重叠必定在上下左右
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
@@ -30,10 +30,10 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-### 测试用例
-```java
+// ### 测试用例
+// ```java
 public class SolutionTest {
     Solution solution = new Solution();
 
@@ -51,4 +51,4 @@ public class SolutionTest {
         assertFalse(result2);
     }
 }
-```
+// ```

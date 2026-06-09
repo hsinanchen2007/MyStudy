@@ -1,9 +1,9 @@
-### 解题思路
-栈，数字入栈，碰到运算符出栈两个计算然后入栈
+// ### 解题思路
+// 栈，数字入栈，碰到运算符出栈两个计算然后入栈
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int evalRPN(vector<string>& tokens) {
@@ -37,4 +37,4 @@ public:
         if(sign=='/') s.push(b/a);
     }
 };
-```
+// ```

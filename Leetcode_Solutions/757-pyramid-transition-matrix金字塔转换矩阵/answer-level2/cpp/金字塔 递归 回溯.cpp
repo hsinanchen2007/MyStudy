@@ -1,14 +1,14 @@
-### 解题思路
-- 对allowed[ ] 从小到大排序 ，使相近的在一起
-- 设置一个 string 类型的变量 t , 记录 bottom 上一层的字符串
-- 每次检查 bottom 是否可以用allowed[i]构成，若可以，记录使用的allowed[i][2]，将其加到 t 的最后
-- bottom 检查完毕，符合条件 ，将 bottom 置为 t , t 置为 空字符串，继续递归
-- 当 当前的 bottom 长度为 1 ，说明到金字塔的顶点了，存在一种方法，返回 true
-- 回溯： 若不满足条件，删除 t 的最后一个字符，再在 allowed[ ] 中找符合的下一个三元组
+// ### 解题思路
+// - 对allowed[ ] 从小到大排序 ，使相近的在一起
+// - 设置一个 string 类型的变量 t , 记录 bottom 上一层的字符串
+// - 每次检查 bottom 是否可以用allowed[i]构成，若可以，记录使用的allowed[i][2]，将其加到 t 的最后
+// - bottom 检查完毕，符合条件 ，将 bottom 置为 t , t 置为 空字符串，继续递归
+// - 当 当前的 bottom 长度为 1 ，说明到金字塔的顶点了，存在一种方法，返回 true
+// - 回溯： 若不满足条件，删除 t 的最后一个字符，再在 allowed[ ] 中找符合的下一个三元组
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool dfs(string bottom, vector<string>& allowed,int u,string t){
@@ -30,4 +30,4 @@ public:
         return dfs(bottom,allowed,0,t);
     }
 };
-```
+// ```

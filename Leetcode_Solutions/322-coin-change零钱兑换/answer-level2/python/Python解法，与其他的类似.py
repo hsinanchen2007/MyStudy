@@ -1,8 +1,8 @@
-动态规划的核心思想在找问题与子问题的DP方程：
-F(n) = min(F(n - 1) +1, F(n - 2) + 1, F(n - 5) + 1)
-当前coins = (1, 2, 5)
+# 动态规划的核心思想在找问题与子问题的DP方程：
+# F(n) = min(F(n - 1) +1, F(n - 2) + 1, F(n - 5) + 1)
+# 当前coins = (1, 2, 5)
 
-```python
+# ```python
 class Solution(object):
     def coinChange(self, coins, amount):
         """
@@ -24,7 +24,7 @@ class Solution(object):
             return -1
         else:
             return res[amount]
-```
+# ```
 
-动态规划问题一般采用反解的思维来解决实际问题。
+# 动态规划问题一般采用反解的思维来解决实际问题。
 

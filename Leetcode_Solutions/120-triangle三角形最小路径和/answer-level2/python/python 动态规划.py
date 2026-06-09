@@ -1,9 +1,9 @@
-### 解题思路
-只需使用一维的数组存放DP结果，从上到下，从右往左遍历
+# ### 解题思路
+# 只需使用一维的数组存放DP结果，从上到下，从右往左遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
 
@@ -24,4 +24,4 @@ class Solution:
 
 
 
-```
+# ```

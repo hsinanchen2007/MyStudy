@@ -1,4 +1,4 @@
-```swift
+// ```swift
 struct Stack<Element> {
     fileprivate var array: [Element] = []
 
@@ -72,4 +72,4 @@ class MyQueue {
  * let ret_3: Int = obj.peek()
  * let ret_4: Bool = obj.empty()
  */
-```
+// ```

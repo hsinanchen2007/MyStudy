@@ -1,9 +1,9 @@
-### 解题思路
-用一个长度为n的数组dp[]，dp[i]为前i项和。区间(i,j)的和就是dp[j] - dp[i-1] 。
+// ### 解题思路
+// 用一个长度为n的数组dp[]，dp[i]为前i项和。区间(i,j)的和就是dp[j] - dp[i-1] 。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class NumArray {
 
     private int[] dp;
@@ -26,4 +26,4 @@ class NumArray {
  * NumArray obj = new NumArray(nums);
  * int param_1 = obj.sumRange(i,j);
  */
-```
+// ```

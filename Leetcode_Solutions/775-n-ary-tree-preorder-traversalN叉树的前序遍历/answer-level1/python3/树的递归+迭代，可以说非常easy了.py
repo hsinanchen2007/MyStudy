@@ -1,6 +1,6 @@
-### 递归
-这是一种自上而下的实现
-```python
+# ### 递归
+# 这是一种自上而下的实现
+# ```python
 class Solution:
     def preorder(self, root: 'Node') -> List[int]:
         self.rst = []
@@ -10,10 +10,10 @@ class Solution:
                 [po(i) for i in node.children]                    
         po(root)
         return self.rst
-```
-### 迭代
-这是一种参考[这里](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/yan-se-biao-ji-fa-yi-chong-tong-yong-qie-jian-ming/)的实现
-```python
+# ```
+# ### 迭代
+# 这是一种参考[这里](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/solution/yan-se-biao-ji-fa-yi-chong-tong-yong-qie-jian-ming/)的实现
+# ```python
 class Solution:
     def preorder(self, root: 'Node') -> List[int]:
         stack,rst = root and [root], []
@@ -24,4 +24,4 @@ class Solution:
             elif isinstance(i,int):
                 rst.append(i)
         return rst
-```
+# ```

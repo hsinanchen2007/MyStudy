@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     boolean flag=true;
     public boolean isBalanced(TreeNode root) {
@@ -15,5 +15,5 @@ class Solution {
         return left>right?left:right;
     }
 }
-```
-最近才学到dfs，对于那种只要有一个地方false，全局就false的问题，在方法外面设置一个flag会让代码简洁不少。
+// ```
+// 最近才学到dfs，对于那种只要有一个地方false，全局就false的问题，在方法外面设置一个flag会让代码简洁不少。

@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def minDistance(word1: String, word2: String): Int = {
     val dp = Array.fill(word1.length + 1, word2.length + 1)(0)
@@ -11,4 +11,4 @@ object Solution {
     dp(word1.length)(word2.length)
   }
 }
-```
+// ```

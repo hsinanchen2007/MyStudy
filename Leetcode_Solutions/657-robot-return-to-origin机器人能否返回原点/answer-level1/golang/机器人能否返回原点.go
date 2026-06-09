@@ -1,9 +1,9 @@
-### 解题思路
-机器人回到原点，必须满足向左的数量等于向右的数量并且向上的数量等于向下的数量。
+// ### 解题思路
+// 机器人回到原点，必须满足向左的数量等于向右的数量并且向上的数量等于向下的数量。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func judgeCircle(moves string) bool {
 	md := make(map[rune]int)
 	for _, v := range moves {
@@ -14,4 +14,4 @@ func judgeCircle(moves string) bool {
 	}
 	return false
 }
-```
+// ```

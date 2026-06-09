@@ -1,9 +1,9 @@
 
-### 解题思路
-累加 -> 为负时，重新累加
-### 代码
+// ### 解题思路
+// 累加 -> 为负时，重新累加
+// ### 代码
 
-```c
+// ```c
 int maxSubArray(int* nums, int numsSize){
     int max = nums[0], cnt = nums[0];
     int i;
@@ -15,4 +15,4 @@ int maxSubArray(int* nums, int numsSize){
     }
     return max;
 }
-```
+// ```

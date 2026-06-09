@@ -1,5 +1,5 @@
-每次翻转前k个节点，递归。
-``` python
+# 每次翻转前k个节点，递归。
+# ``` python
 def reverseKGroup(self, head, k):
         """
         :type head: ListNode
@@ -30,4 +30,4 @@ def reverseKGroup(self, head, k):
             node = node.next
             count += 1
         return count >= k
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-根据不同高度 划分独立区间
-二分法 查找 新落方块 相交的区间
-合并区间 刷新当前最高高度
+// ### 解题思路
+// 根据不同高度 划分独立区间
+// 二分法 查找 新落方块 相交的区间
+// 合并区间 刷新当前最高高度
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, int, int>;
 class Squares{
     //SameHeight 合并
@@ -145,4 +145,4 @@ public class Solution {
         return sq.FallingSquares(positions);
     }
 }
-```
+// ```

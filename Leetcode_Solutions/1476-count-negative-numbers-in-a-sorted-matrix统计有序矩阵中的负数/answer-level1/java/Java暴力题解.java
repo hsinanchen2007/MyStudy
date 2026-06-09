@@ -1,5 +1,5 @@
-两次循环，时间复杂度O(m*n)
-```
+// 两次循环，时间复杂度O(m*n)
+// ```
 class Solution {
     public int countNegatives(int[][] grid) {
         int count = 0;
@@ -13,4 +13,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

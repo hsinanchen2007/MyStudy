@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findMin(self, nums: List[int]) -> int:     
         n = len(nums)
@@ -14,6 +14,6 @@ class Solution:
         
         return nums[left]
 
-```
-当left指针所对应当值小于right指针所对应值时候跳出循环。
-当nums[left] == nums[right] == nums[mid]时，将right指针向左移动一个单位。
+# ```
+# 当left指针所对应当值小于right指针所对应值时候跳出循环。
+# 当nums[left] == nums[right] == nums[mid]时，将right指针向左移动一个单位。

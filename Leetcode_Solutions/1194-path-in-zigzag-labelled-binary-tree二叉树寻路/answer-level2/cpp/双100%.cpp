@@ -1,9 +1,9 @@
-### 解题思路
-偶数行找到层次遍历的编号，奇数行直接插入，但是要找到上一行对应的下标
+// ### 解题思路
+// 偶数行找到层次遍历的编号，奇数行直接插入，但是要找到上一行对应的下标
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> pathInZigZagTree(int label) {
@@ -36,4 +36,4 @@ public:
         return inde;
     }
 };
-```
+// ```

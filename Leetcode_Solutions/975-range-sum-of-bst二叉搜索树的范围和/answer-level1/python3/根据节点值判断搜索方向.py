@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def rangeSumBST(self, root: TreeNode, L: int, R: int) -> int:
         def dfs(root):
@@ -11,4 +11,4 @@ class Solution:
             else:
                 return dfs(root.left) + dfs(root.right) + root.val
         return dfs(root)
-```
+# ```

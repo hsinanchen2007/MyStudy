@@ -1,7 +1,7 @@
-看着一堆大神用快速/堆/二叉搜索树解题，居然没看到我的冒泡。。。
+// 看着一堆大神用快速/堆/二叉搜索树解题，居然没看到我的冒泡。。。
 
 
-```
+// ```
 public class Solution {
     public int[] GetLeastNumbers(int[] arr, int k) {
         if(k == arr.Length){
@@ -30,4 +30,4 @@ public class Solution {
         return newArr.ToArray();
     }
 }
-```
+// ```

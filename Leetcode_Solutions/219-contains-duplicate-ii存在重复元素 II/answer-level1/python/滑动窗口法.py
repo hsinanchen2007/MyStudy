@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         """
@@ -21,4 +21,4 @@ class Solution:
             if len(record) == k + 1: # 如果窗口集合的长度大于k，则移除最早放入窗口中的那个元素，保持窗口长度为k
                 record.remove(nums[i-k])
         return False
-```
+# ```

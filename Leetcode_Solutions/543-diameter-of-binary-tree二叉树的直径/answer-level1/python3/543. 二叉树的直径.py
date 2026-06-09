@@ -1,9 +1,9 @@
-### 解题思路
-本题之前未遇到过，其实是广度遍历，但是不仅仅需要计算深度，还要计算左右子树共同的深度max(L+R,self.ans)
+# ### 解题思路
+# 本题之前未遇到过，其实是广度遍历，但是不仅仅需要计算深度，还要计算左右子树共同的深度max(L+R,self.ans)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             R = self.depth(p.right)
         self.ans = max(self.ans, L+R) 
         return max(R,L) + 1        
-```
+# ```

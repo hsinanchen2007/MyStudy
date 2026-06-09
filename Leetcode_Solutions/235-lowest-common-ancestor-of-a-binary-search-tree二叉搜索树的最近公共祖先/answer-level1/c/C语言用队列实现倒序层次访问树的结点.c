@@ -1,4 +1,4 @@
-```
+// ```
 #define MAXSIZE 10000
 typedef struct myQueue{
     struct TreeNode* queue[MAXSIZE];
@@ -42,4 +42,4 @@ struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p,
     return NULL;
 
 }
-```
+// ```

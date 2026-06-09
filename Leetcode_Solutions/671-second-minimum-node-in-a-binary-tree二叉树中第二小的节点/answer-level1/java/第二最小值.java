@@ -1,9 +1,9 @@
-### 解题思路  返回值就是第二最小值，但是要判断左右节点值是否与根节点相等
+// ### 解题思路  返回值就是第二最小值，但是要判断左右节点值是否与根节点相等
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -26,4 +26,4 @@ class Solution {
         return leftValue==-1?rightValue:leftValue;
     }
 }
-```
+// ```

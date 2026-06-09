@@ -1,10 +1,10 @@
-### 解题思路
-    借助hashMap查询时间复杂度的优势将每个数据遍历存储在其中，key为数据值，value为下标索引，插入之前比较差值，差值存在即返回；
-    利用hash扰动寻找数组大小最近的2进制指数值，减少rehash
+// ### 解题思路
+//     借助hashMap查询时间复杂度的优势将每个数据遍历存储在其中，key为数据值，value为下标索引，插入之前比较差值，差值存在即返回；
+//     利用hash扰动寻找数组大小最近的2进制指数值，减少rehash
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> indexMap = new HashMap<>(getNum(nums.length));
@@ -28,4 +28,4 @@ class Solution {
         return n+1;
     }
 }
-```
+// ```

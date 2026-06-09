@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import sys
 class Solution:
     def minSubArrayLen(self, s: int, nums: List[int]) -> int:
@@ -22,4 +22,4 @@ class Solution:
                 preSum -= nums[left]
                 left += 1
         return res if res != sys.maxsize else 0
-```
+# ```

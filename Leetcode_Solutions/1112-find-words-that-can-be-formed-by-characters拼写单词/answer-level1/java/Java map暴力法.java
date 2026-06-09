@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-用map记录chars中单词类型及数量，再依次统计words中字母情况。
-注意不能每次统计words中字符串时，用map去减它，Java对象是引用传递。
+// 用map记录chars中单词类型及数量，再依次统计words中字母情况。
+// 注意不能每次统计words中字符串时，用map去减它，Java对象是引用传递。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         int clen=chars.length();
@@ -35,4 +35,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

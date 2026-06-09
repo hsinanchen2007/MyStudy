@@ -1,15 +1,15 @@
-### 解题思路
-(2 -> 4 -> 3) + (5 -> 6 -> 4)
+// ### 解题思路
+// (2 -> 4 -> 3) + (5 -> 6 -> 4)
 
-设sum = 0表示每一位的和，carry = 0表示进位标志，进位为1，不进位为0
-个位：2 + 5 = 7 ==> sum + carry = 7, 不进位, carry = 0
-十位：4 + 6 = 10 ==> sum + carry = 0, 进位, carry = 1
-百位：3 + 4 = 7 ==> sum + carry = 8, 不进位, carry = 0
+// 设sum = 0表示每一位的和，carry = 0表示进位标志，进位为1，不进位为0
+// 个位：2 + 5 = 7 ==> sum + carry = 7, 不进位, carry = 0
+// 十位：4 + 6 = 10 ==> sum + carry = 0, 进位, carry = 1
+// 百位：3 + 4 = 7 ==> sum + carry = 8, 不进位, carry = 0
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -39,4 +39,4 @@ var addTwoNumbers = function(l1, l2) {
     //console.log(res.next)
     return res.next
 };
-```
+// ```

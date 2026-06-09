@@ -1,8 +1,8 @@
 
-直接遍历整个数组，奇数为一个新数组，偶数为一个新数组，再将偶数组插入到奇数组后面；
+// 直接遍历整个数组，奇数为一个新数组，偶数为一个新数组，再将偶数组插入到奇数组后面；
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> exchange(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return ans1;
     }
 };
-```
+// ```

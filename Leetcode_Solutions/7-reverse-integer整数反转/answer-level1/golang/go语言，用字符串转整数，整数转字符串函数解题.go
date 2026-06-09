@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func reverse(x int) int {
     if x > 2147483647 || x < - 2147483648 {
         return 0
@@ -31,4 +31,4 @@ func reverse(x int) int {
     }
     return res
 }
-```
+// ```

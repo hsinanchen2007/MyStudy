@@ -1,11 +1,11 @@
-### 解题思路
-排序得出的下标既是需要的结果
+// ### 解题思路
+// 排序得出的下标既是需要的结果
 
-#### 坑：注意拷贝数据，sort会改变初始数据
+// #### 坑：注意拷贝数据，sort会改变初始数据
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -27,4 +27,4 @@ var smallerNumbersThanCurrent = function(nums) {
     
     return result
 };
-```
+// ```

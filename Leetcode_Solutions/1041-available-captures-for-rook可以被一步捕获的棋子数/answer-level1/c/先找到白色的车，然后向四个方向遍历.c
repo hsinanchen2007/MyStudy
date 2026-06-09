@@ -1,5 +1,5 @@
-注意只能吃一个卒子就得停止
-```
+// 注意只能吃一个卒子就得停止
+// ```
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int row, col;
     int idxrow, idxcol;
@@ -57,4 +57,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
     return numpawn;
 }
-```
+// ```

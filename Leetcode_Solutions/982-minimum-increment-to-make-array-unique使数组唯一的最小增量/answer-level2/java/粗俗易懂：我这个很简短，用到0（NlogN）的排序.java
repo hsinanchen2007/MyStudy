@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int minIncrementForUnique(int[] A) {
         // 第二次优化版本：22ms，主要优化for循环里面的
@@ -31,4 +31,4 @@ class Solution {
         return count;*/
     }
 }
-```
+// ```

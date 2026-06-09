@@ -1,25 +1,25 @@
-### 解题思路
+// ### 解题思路
 
-核心算法为双指针：
+// 核心算法为双指针：
 
-1.将两数组排序
-2.增加aid，找到a[aid]大于b[bid]的情况
-3.此时计算差值（aid和aid-1都要计算)
-4.调整bid
-5.重复2
+// 1.将两数组排序
+// 2.增加aid，找到a[aid]大于b[bid]的情况
+// 3.此时计算差值（aid和aid-1都要计算)
+// 4.调整bid
+// 5.重复2
 
-问题的主要难点却在于超出int范围的比较问题。
+// 问题的主要难点却在于超出int范围的比较问题。
 
-此类问题根本方法为，中间处理扩展到long long，然后在结果转换到int。
+// 此类问题根本方法为，中间处理扩展到long long，然后在结果转换到int。
 
-注意，compare函数不能直接减法；abs不能直接调用（这个很坑）。
+// 注意，compare函数不能直接减法；abs不能直接调用（这个很坑）。
 
-![image.png](https://pic.leetcode-cn.com/b914b211e16894cd9c5097b586636a8eec23e1a90aaf4ef1607412582b7cc9dd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b914b211e16894cd9c5097b586636a8eec23e1a90aaf4ef1607412582b7cc9dd-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MMIN(a, b)        ((a) < (b)? (a) : (b))
 #define AABS(a)           ((a) >= 0? (a) : -(a))
 
@@ -80,4 +80,4 @@ int smallestDifference(int* a, int aSize, int* b, int bSize){
 
     return (int)min;
 }
-```
+// ```

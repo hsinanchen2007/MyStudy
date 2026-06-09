@@ -1,9 +1,9 @@
-### 解题思路
-链表长度小于2则直接返回head。用temp保存第三个节点等会儿递归，res保存第二个节点用于答案返回，交换前两个节点。让第一个节点指向swapPairs(temp)的返回
+// ### 解题思路
+// 链表长度小于2则直接返回head。用temp保存第三个节点等会儿递归，res保存第二个节点用于答案返回，交换前两个节点。让第一个节点指向swapPairs(temp)的返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -27,4 +27,4 @@ class Solution {
         
     }
 }
-```
+// ```

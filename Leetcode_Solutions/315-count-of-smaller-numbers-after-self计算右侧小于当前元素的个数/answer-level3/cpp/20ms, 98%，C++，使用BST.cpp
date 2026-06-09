@@ -1,4 +1,4 @@
-```
+// ```
 ![屏幕快照 2019-07-12 下午3.35.41.png](https://pic.leetcode-cn.com/9773a46cf306f7d3c0b7889b6dd2a754670e86fa341b06a1a8c004b998f74ccd-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-07-12%20%E4%B8%8B%E5%8D%883.35.41.png)
 // 树节点
 class TNode {
@@ -46,5 +46,5 @@ public:
         }
     }
 };
-```
-![屏幕快照 2019-07-12 下午3.35.41.png](https://pic.leetcode-cn.com/0f3916c84f9de3e099e48f87a8fba8cd43c5515080b745cce22b786c9d90f319-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-07-12%20%E4%B8%8B%E5%8D%883.35.41.png)
+// ```
+// ![屏幕快照 2019-07-12 下午3.35.41.png](https://pic.leetcode-cn.com/0f3916c84f9de3e099e48f87a8fba8cd43c5515080b745cce22b786c9d90f319-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-07-12%20%E4%B8%8B%E5%8D%883.35.41.png)

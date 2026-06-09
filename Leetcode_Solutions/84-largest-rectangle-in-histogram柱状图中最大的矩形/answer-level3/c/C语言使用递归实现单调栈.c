@@ -1,6 +1,6 @@
-很麻烦，不如直接用单调栈简单，很多细节想不清楚，需要调试的时候才能发现。
-如果使用栈，遇到小的高度，可以先取当前栈顶的height，然后弹栈，弹栈后可以取到下一层的index，计算一次面积需要用到两层的数据，这是难点所在
-```
+// 很麻烦，不如直接用单调栈简单，很多细节想不清楚，需要调试的时候才能发现。
+// 如果使用栈，遇到小的高度，可以先取当前栈顶的height，然后弹栈，弹栈后可以取到下一层的index，计算一次面积需要用到两层的数据，这是难点所在
+// ```
 static int stack(int *heights, int n, int *pos, int last)
 {
     int max = 0;
@@ -28,4 +28,4 @@ int largestRectangleArea(int *heights, int n)
     int pos = 0;
     return stack(heights, n, &pos, -1);
 }
-```
+// ```

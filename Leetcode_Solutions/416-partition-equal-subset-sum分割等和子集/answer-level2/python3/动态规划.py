@@ -1,8 +1,8 @@
-动态规划
+# 动态规划
 
-思路1：自顶向下
+# 思路1：自顶向下
 
-```python
+# ```python
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         from functools import lru_cache
@@ -19,13 +19,13 @@ class Solution:
             if dfs(i + 1, cur): return True
         
         return dfs(0, avg)
-```
+# ```
 
-思路2：自底向上
+# 思路2：自底向上
 
-0/1 背包问题 , 可以百度 背包九讲 学习
+# 0/1 背包问题 , 可以百度 背包九讲 学习
 
-```python
+# ```python
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         avg, mod = divmod(sum(nums), 2)
@@ -40,11 +40,11 @@ class Solution:
                     dp[i][j] = dp[i - 1][j - nums[i - 1]] | dp[i - 1][j]
         
         return dp[-1][-1]
-```
+# ```
 
-优化为 空间为 $O(n)$
+# 优化为 空间为 $O(n)$
 
-```python
+# ```python
 class Solution:
     def canPartition(self, nums: List[int]) -> bool:
         avg, mod = divmod(sum(nums), 2)
@@ -59,5 +59,5 @@ class Solution:
                     dp[j] |= dp[j - nums[i - 1]] 
         
         return dp[-1]
-```
+# ```
 

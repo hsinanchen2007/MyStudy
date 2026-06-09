@@ -1,9 +1,9 @@
-### 解题思路
-先转换为哈希表然后通过从后向前的哈希表检索来计算结果
+# ### 解题思路
+# 先转换为哈希表然后通过从后向前的哈希表检索来计算结果
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def romanToInt(self, s: str) -> int:
         dict1 = {
@@ -38,4 +38,4 @@ class Solution:
                         i+=1
         return ans
 
-```
+# ```

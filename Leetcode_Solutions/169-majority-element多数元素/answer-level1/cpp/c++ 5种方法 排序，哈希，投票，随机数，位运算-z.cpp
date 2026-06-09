@@ -1,6 +1,6 @@
-### 排序
+// ### 排序
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -8,12 +8,12 @@ public:
         return nums[nums.size() / 2];               //因为出现频率大于n/2，所以排序后的中间位置必然是众数
     }
 };
-```
+// ```
 
 
-### 哈希
+// ### 哈希
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -23,10 +23,10 @@ public:
         return -1;
     }
 };
-```
-### Moore投票
+// ```
+// ### Moore投票
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {    //摩尔投票法，投我++，不投--，超过一半以上的人投我，那我稳赢哇
@@ -41,10 +41,10 @@ public:
         return candidate;
     }
 };
-```
-### 随机数
+// ```
+// ### 随机数
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {    //每一轮随机选择一个数字，统计出现次数，因为目标出现频率大于二分之一，所以效率较高
@@ -61,10 +61,10 @@ public:
         return -1;
     }
 };
-```
-### 位运算
+// ```
+// ### 位运算
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -80,7 +80,7 @@ public:
 }
 };
 
-```
+// ```
 
 
 

@@ -1,8 +1,8 @@
-### 解题思路
-深度优先递归判断pq是否在左子树
-### 代码
+// ### 解题思路
+// 深度优先递归判断pq是否在左子树
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for TreeNode.
  * type TreeNode struct {
@@ -42,4 +42,4 @@ func findNode(root *TreeNode, node *TreeNode) bool {
     }
     return left
 }
-```
+// ```

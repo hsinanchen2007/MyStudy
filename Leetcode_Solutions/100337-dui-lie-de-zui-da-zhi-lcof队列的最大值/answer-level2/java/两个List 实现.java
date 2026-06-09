@@ -1,13 +1,13 @@
 
-### 解题思路
-执行用时 :59 ms, 在所有 Java 提交中击败了16.67%的用户
-内存消耗 :47.7 MB, 在所有 Java 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :59 ms, 在所有 Java 提交中击败了16.67%的用户
+// 内存消耗 :47.7 MB, 在所有 Java 提交中击败了100.00%的用户
 
-用两个数组，一个存顺序，一个存最大值。
+// 用两个数组，一个存顺序，一个存最大值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
     private List<Integer> myQ;
     private List<Integer> seqQ;
@@ -47,4 +47,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

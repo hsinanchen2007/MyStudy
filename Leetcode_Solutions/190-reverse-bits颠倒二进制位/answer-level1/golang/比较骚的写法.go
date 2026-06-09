@@ -1,6 +1,6 @@
-引用
+// 引用
 
-```
+// ```
 // ref: https://leetcode-cn.com/problems/reverse-bits/comments/83208
 func reverseBits(n uint32) uint32 {
 	n = ((n & 0xffff0000) >> 16) | ((n & 0x0000ffff) << 16)
@@ -10,4 +10,4 @@ func reverseBits(n uint32) uint32 {
 	n = ((n & 0xaaaaaaaa) >> 1) | ((n & 0x55555555) << 1)
 	return n
 }
-```
+// ```

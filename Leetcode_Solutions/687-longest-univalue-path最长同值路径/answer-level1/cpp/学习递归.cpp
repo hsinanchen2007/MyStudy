@@ -1,4 +1,4 @@
-学习官方的递归解法
+// 学习官方的递归解法
 class Solution {
     int ans;
     int depath(TreeNode* rt)

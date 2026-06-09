@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     struct TreeNode**stack;
     int index;
@@ -42,4 +42,4 @@ void bSTIteratorFree(BSTIterator* obj) {
         free(obj->stack[i]);
     free(obj);
 }
-```
+// ```

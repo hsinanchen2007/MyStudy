@@ -1,8 +1,8 @@
-执行用时 : 8 ms, 在Reverse Vowels of a String的C提交中击败了98.80% 的用户
+// 执行用时 : 8 ms, 在Reverse Vowels of a String的C提交中击败了98.80% 的用户
 
-内存消耗 : 7.8 MB, 在Reverse Vowels of a String的C提交中击败了25.00% 的用户
+// 内存消耗 : 7.8 MB, 在Reverse Vowels of a String的C提交中击败了25.00% 的用户
 
-```c
+// ```c
 bool isvowel(char ch)
 {
     if(
@@ -40,4 +40,4 @@ char * reverseVowels(char * S){
     }
     return save;
 }
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-1. 最多3 * 3 * 3 * 3=81种可能性，全部遍历
-2. 组装成ip后先判断字符总数是否相等，不符合的直接剪枝
-3. 然后再将每个ip段字符串转成int型，这里需要注意两点，一是每个IP段需要判断首字母是不是'0'，
-"010"/"01"这种都是不合格的ip格式，需要剪枝；二是标准库函数只提供了atoi，可以将char *转int，
-但是没有不支持itoa，所以后面将int转char *需要自己实现；
-4. 最后判断每个ip是否小于等于255，符合条件了就保存到result里
-![image.png](https://pic.leetcode-cn.com/7b842c504ab06dcd8c1a92cecd68a7dfab55557c6c674dae810c8be03462385d-image.png)
+// ### 解题思路
+// 1. 最多3 * 3 * 3 * 3=81种可能性，全部遍历
+// 2. 组装成ip后先判断字符总数是否相等，不符合的直接剪枝
+// 3. 然后再将每个ip段字符串转成int型，这里需要注意两点，一是每个IP段需要判断首字母是不是'0'，
+// "010"/"01"这种都是不合格的ip格式，需要剪枝；二是标准库函数只提供了atoi，可以将char *转int，
+// 但是没有不支持itoa，所以后面将int转char *需要自己实现；
+// 4. 最后判断每个ip是否小于等于255，符合条件了就保存到result里
+// ![image.png](https://pic.leetcode-cn.com/7b842c504ab06dcd8c1a92cecd68a7dfab55557c6c674dae810c8be03462385d-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -197,4 +197,4 @@ char ** restoreIpAddresses(char * s, int* returnSize){
     *returnSize = g_Result_num;
     return g_Result;
 }
-```
+// ```

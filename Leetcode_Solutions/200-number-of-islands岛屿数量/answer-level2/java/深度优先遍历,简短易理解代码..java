@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class Solution {
     char[][] grid;
     public int numIslands(char[][] grid) {
@@ -42,5 +42,5 @@ class Solution {
         return grid[row][col]=='1';
     }
 }
-```
+// ```
 

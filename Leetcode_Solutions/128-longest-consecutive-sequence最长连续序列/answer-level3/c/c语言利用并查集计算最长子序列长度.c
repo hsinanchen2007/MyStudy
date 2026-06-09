@@ -1,9 +1,9 @@
-### 解题思路
-去重后利用并查集计算子序列长度
+// ### 解题思路
+// 去重后利用并查集计算子序列长度
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int *cnt;
 /* 并查集寻找根节点 */
 int find(int *fa, int x)
@@ -72,4 +72,4 @@ int longestConsecutive(int* nums, int numsSize){
     free(list);
     return max;
 }
-```
+// ```

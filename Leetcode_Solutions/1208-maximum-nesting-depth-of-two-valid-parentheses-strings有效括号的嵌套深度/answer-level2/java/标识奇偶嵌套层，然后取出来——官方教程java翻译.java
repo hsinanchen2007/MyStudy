@@ -1,9 +1,9 @@
-### 解题思路
-标识奇偶嵌套层，然后取出来——官方教程java翻译
+// ### 解题思路
+// 标识奇偶嵌套层，然后取出来——官方教程java翻译
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxDepthAfterSplit(String seq) {
         int[] res = new int[seq.length()];
@@ -13,4 +13,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

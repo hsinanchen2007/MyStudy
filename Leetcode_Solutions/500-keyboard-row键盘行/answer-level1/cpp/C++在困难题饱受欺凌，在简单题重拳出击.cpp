@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/80b5c2ad6d1c06ca1905b474481ac13a01207be366afbd76b47bf397953a9fc2-image.png)
-其实解法蛮简单但是耗时间，但还是AC了哈哈哈
-```
+// ![image.png](https://pic.leetcode-cn.com/80b5c2ad6d1c06ca1905b474481ac13a01207be366afbd76b47bf397953a9fc2-image.png)
+// 其实解法蛮简单但是耗时间，但还是AC了哈哈哈
+// ```
 class Solution {
 public:
     vector<string> findWords(vector<string>& words) {
@@ -69,4 +69,4 @@ public:
         return words;
     }
 };
-```
+// ```

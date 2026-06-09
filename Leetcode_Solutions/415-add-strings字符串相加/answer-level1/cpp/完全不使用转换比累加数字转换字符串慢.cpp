@@ -1,9 +1,9 @@
-### 解题思路
-仅供学习娱乐，完全不使用类型转换
+// ### 解题思路
+// 仅供学习娱乐，完全不使用类型转换
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string addStrings(string num1, string num2) {
@@ -35,4 +35,4 @@ public:
         return res;
     }
 };
-```
+// ```

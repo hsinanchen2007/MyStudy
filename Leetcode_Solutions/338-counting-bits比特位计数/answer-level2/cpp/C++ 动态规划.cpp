@@ -1,10 +1,10 @@
-时间复杂度：O(N)
-空间复杂度：O(N)
+// 时间复杂度：O(N)
+// 空间复杂度：O(N)
 
-状态转移方程：
-ans(x) = ans(x') + 1, (x' 是x去除掉最高位的1的值)
+// 状态转移方程：
+// ans(x) = ans(x') + 1, (x' 是x去除掉最高位的1的值)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> countBits(int num) {
@@ -22,4 +22,4 @@ public:
         return std::move(ans);
     }
 };
-```
+// ```

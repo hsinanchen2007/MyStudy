@@ -1,9 +1,9 @@
-### 解题思路
-感觉我这个思路还算是比较简洁（至少比官方题解简洁）
+// ### 解题思路
+// 感觉我这个思路还算是比较简洁（至少比官方题解简洁）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         if(s==null||s.length()==0) return s;
@@ -27,4 +27,4 @@ class Solution {
     }
     
 }
-```
+// ```

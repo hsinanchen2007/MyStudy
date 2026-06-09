@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ struct ListNode *detectCycle(struct ListNode *head) {
     return slow;
 }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-十进制数 = 百位 * 2^2 + 十位 * 2^1 + 个位 * 2^0
+// 十进制数 = 百位 * 2^2 + 十位 * 2^1 + 个位 * 2^0
 
-递归深度乘2乘val，得出单个位置的十进制数，最后加起来
+// 递归深度乘2乘val，得出单个位置的十进制数，最后加起来
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return 2 * rec(node.next);
     }
 }
-```
+// ```

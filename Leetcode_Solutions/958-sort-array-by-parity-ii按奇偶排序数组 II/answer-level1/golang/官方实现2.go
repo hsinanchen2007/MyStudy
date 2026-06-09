@@ -1,9 +1,9 @@
-### 官方实现2
-此处撰写解题思路
+// ### 官方实现2
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sortArrayByParityII(A []int) []int {
     j := 1
     for i:=0;i< len(A);i+=2{
@@ -21,4 +21,4 @@ func sortArrayByParityII(A []int) []int {
     return A
 
 }
-```
+// ```

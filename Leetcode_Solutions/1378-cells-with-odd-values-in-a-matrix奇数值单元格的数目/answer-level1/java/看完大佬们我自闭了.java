@@ -1,6 +1,6 @@
-年轻了，生生解出来的...行列计数不存在的
+// 年轻了，生生解出来的...行列计数不存在的
 
-```
+// ```
 class Solution {
     public int oddCells(int n, int m, int[][] indices) {
         int result = 0;
@@ -31,4 +31,4 @@ class Solution {
 		return result;
     }
 }
-```
+// ```

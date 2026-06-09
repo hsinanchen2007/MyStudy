@@ -1,8 +1,8 @@
-## 思路:
+# ## 思路:
 
-**思路一:** 模拟加法过程
+# **思路一:** 模拟加法过程
 
-```python
+# ```python
 class Solution:
     def plusOne(self, digits):
         """
@@ -16,13 +16,13 @@ class Solution:
         if carry:
             digits.insert(0, 1)
         return digits
-```
+# ```
 
-**思路二:**
+# **思路二:**
 
-其实不需要这么麻烦,只要判断这位数字是否小于9就行了
+# 其实不需要这么麻烦,只要判断这位数字是否小于9就行了
 
-```python [1]
+# ```python [1]
 class Solution:
     def plusOne(self, digits):
         """
@@ -36,11 +36,11 @@ class Solution:
             else:
                 digits[i] = 0
         return [1] + [0] * len(digits)
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public int[] plusOne(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {
@@ -55,6 +55,6 @@ class Solution {
      
     }
 }
-```
+# ```
 
 

@@ -1,17 +1,17 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 关注交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 关注交流。
 
-### 解题思路
-思路1:
-- 用快排partition划分，一直划中第k个数 最差情况o(kn)
+# ### 解题思路
+# 思路1:
+# - 用快排partition划分，一直划中第k个数 最差情况o(kn)
 
-思路2：
-- 最小堆建立(需要o(n)时间复杂度) 
-- 取出前k个数(每次取需要用logn时间重建堆)。时间复杂度为o(n)+o(k*logn)
+# 思路2：
+# - 最小堆建立(需要o(n)时间复杂度) 
+# - 取出前k个数(每次取需要用logn时间重建堆)。时间复杂度为o(n)+o(k*logn)
 
-### 代码
+# ### 代码
 
-思路1代码：
-```python
+# 思路1代码：
+# ```python
 def partition(input, low, high):
     pivot = input[low]
     while low < high:
@@ -43,10 +43,10 @@ class Solution(object):
                 high = idx - 1
                 idx = partition(tinput, low, high)
         return tinput[:k]
-```
+# ```
 
-思路2代码：
-```python
+# 思路2代码：
+# ```python
 def sink(array, k):
     n = len(array)
     left = 2 * k + 1
@@ -75,4 +75,4 @@ def GetLeastNumbers_Solution(tinput, k):
         res.append(heap.pop())
         sink(heap, 0)
     return res
-```
+# ```

@@ -1,5 +1,5 @@
-如有疏漏，请指正
-```
+// 如有疏漏，请指正
+// ```
 class Solution {
 public:
     bool repeatedSubstringPattern(string s) {

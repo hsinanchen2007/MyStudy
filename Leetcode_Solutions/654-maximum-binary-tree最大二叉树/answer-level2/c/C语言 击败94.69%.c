@@ -1,11 +1,11 @@
-### 解题思路
-速度太飘，提交了4次，这是最好的一次，不做数。
-算法就是递归
-![image.png](https://pic.leetcode-cn.com/b247e58b6a8922fe1d3368fa9e7b0c1324053001cdb238ceb480df7412dc7c2e-image.png)
+// ### 解题思路
+// 速度太飘，提交了4次，这是最好的一次，不做数。
+// 算法就是递归
+// ![image.png](https://pic.leetcode-cn.com/b247e58b6a8922fe1d3368fa9e7b0c1324053001cdb238ceb480df7412dc7c2e-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -59,4 +59,4 @@ struct TreeNode* constructMaximumBinaryTree(int* nums, int numsSize){
 	node->right = sectInfo.rightSize == 0 ? NULL : constructMaximumBinaryTree(sectInfo.right, sectInfo.rightSize);
 	return node;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-首先用parseInt方法解析字符串，再看是否得出NaN，再判断大小是否超出范围
-### 代码
+// 首先用parseInt方法解析字符串，再看是否得出NaN，再判断大小是否超出范围
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {number}
@@ -22,4 +22,4 @@
       }
       return num
   };
-```
+// ```

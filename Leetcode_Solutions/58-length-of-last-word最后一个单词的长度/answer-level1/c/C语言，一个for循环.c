@@ -1,9 +1,9 @@
-### 解题思路
-先用strlen得到数组长度，然后从后往前查找。
+// ### 解题思路
+// 先用strlen得到数组长度，然后从后往前查找。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLastWord(char * s){
     int len=strlen(s);
     int count=0,exist=0;
@@ -18,4 +18,4 @@ int lengthOfLastWord(char * s){
     }
     return len;
 }
-```
+// ```

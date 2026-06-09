@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/48362b2d7e4322009f623fbf7baab1f93bace506386c0048ad2ca1b4bd9b4285-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/48362b2d7e4322009f623fbf7baab1f93bace506386c0048ad2ca1b4bd9b4285-image.png)
 
-两个队列来回翻腾，记下总长度，最后一个就能pop。
-### 代码
+// 两个队列来回翻腾，记下总长度，最后一个就能pop。
+// ### 代码
 
-```javascript
+// ```javascript
 // 225. Implement Stack using Queues
 
 // Implement the following operations of a stack using queues.
@@ -87,4 +87,4 @@ MyStack.prototype.empty = function () {
     return this.que.length === 0;
 };
 
-```
+// ```

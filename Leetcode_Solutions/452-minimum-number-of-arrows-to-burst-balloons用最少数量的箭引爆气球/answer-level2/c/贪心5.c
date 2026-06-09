@@ -1,10 +1,10 @@
-### 解题思路
-关键是开始需要先对二维数组排序，用qsort排序。
-接下来的贪心思维比较简单，定义一个射击区间，射击区间的begin取气球的start，end取气球的end，然后逐个比较气球，如果气球的start大于射击区间的start，且小于射击区间的end，则更新射击区间，直到下一个气球的start>射击区间的end，则更新一个新的射击区间。
+// ### 解题思路
+// 关键是开始需要先对二维数组排序，用qsort排序。
+// 接下来的贪心思维比较简单，定义一个射击区间，射击区间的begin取气球的start，end取气球的end，然后逐个比较气球，如果气球的start大于射击区间的start，且小于射击区间的end，则更新射击区间，直到下一个气球的start>射击区间的end，则更新一个新的射击区间。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int comp(const void *a,const void *b)
 {
     int *ap = *(int **)a;
@@ -50,4 +50,4 @@ int findMinArrowShots(int** points, int pointsSize, int* pointsColSize){
 
     return shootTimes;
 }
-```
+// ```

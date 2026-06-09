@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/8e01e5ebd36e0f2ea70dd43ed253ef39fc13a31abfc08ce77392b824289c64d0-image.png)
-```java
+// ![image.png](https://pic.leetcode-cn.com/8e01e5ebd36e0f2ea70dd43ed253ef39fc13a31abfc08ce77392b824289c64d0-image.png)
+// ```java
 class Solution {
    public void reverseString(char[] s) {
         int len = s.length;
@@ -11,4 +11,4 @@ class Solution {
         }
     }
 }
-```
+// ```

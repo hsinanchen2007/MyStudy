@@ -1,5 +1,5 @@
-从题目给出的barrier联想到使用`CyclicBarrier`.
-```java
+// 从题目给出的barrier联想到使用`CyclicBarrier`.
+// ```java
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Semaphore;
@@ -38,5 +38,5 @@ class H2O {
         oSem.release();
     }
 }
-```
+// ```
 

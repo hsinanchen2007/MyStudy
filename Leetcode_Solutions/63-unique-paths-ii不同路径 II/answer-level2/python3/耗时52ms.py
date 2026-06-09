@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         n1 = len(obstacleGrid)
@@ -43,10 +43,10 @@ class Solution:
             return(0)
 
         
-```
-![image.png](https://pic.leetcode-cn.com/fd108f6b20e2770f7294f81c119c80f710af09dd061ade02ff9bee90a6e9c01f-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/fd108f6b20e2770f7294f81c119c80f710af09dd061ade02ff9bee90a6e9c01f-image.png)
 
-![image.png](https://pic.leetcode-cn.com/e7f8af6938b052eef55e3e056d62e7ae6df172dd06fa4a869b0a12ded050e640-image.png)
+# ![image.png](https://pic.leetcode-cn.com/e7f8af6938b052eef55e3e056d62e7ae6df172dd06fa4a869b0a12ded050e640-image.png)
 
-这就是锲而不舍吧
-笔者思来想去，发现此题并没有规律可循，只需要从(0,0)出发进行遍历即可，但需要使用字典来保存遍历过程中的相同坐标，前期笔者想使用列表，发现超时了
+# 这就是锲而不舍吧
+# 笔者思来想去，发现此题并没有规律可循，只需要从(0,0)出发进行遍历即可，但需要使用字典来保存遍历过程中的相同坐标，前期笔者想使用列表，发现超时了

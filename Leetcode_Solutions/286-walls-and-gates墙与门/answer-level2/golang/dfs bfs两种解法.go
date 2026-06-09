@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func wallsAndGates(rooms [][]int) {
 	r := len(rooms)
@@ -65,4 +65,4 @@ func dfs(rooms [][]int, i, j, r, c, distance int) {
 	}
 }
 
-```
+// ```

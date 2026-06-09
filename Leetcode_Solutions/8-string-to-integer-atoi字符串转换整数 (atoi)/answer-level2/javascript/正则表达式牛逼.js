@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/ff5582f467bb8fe16b3d99472fd28df26ab25eff139489167376f7e5631f6340-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/ff5582f467bb8fe16b3d99472fd28df26ab25eff139489167376f7e5631f6340-image.png)
 
-正则表达式 + parseInt()
+// 正则表达式 + parseInt()
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {number}
@@ -19,4 +19,4 @@ var myAtoi = function(str) {
     if (ret < MIN) ret = MIN;
     return ret;
 };
-```
+// ```

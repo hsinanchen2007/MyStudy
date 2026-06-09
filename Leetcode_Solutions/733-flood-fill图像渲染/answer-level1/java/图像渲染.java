@@ -1,8 +1,8 @@
-典型的dfs题目,不过要注意一个小问题,就是当前点的color值如果和newColor一样要跳过,不然会StackOverflowo(╥﹏╥)o
-代码应该还可以优化一下
-### 代码
+// 典型的dfs题目,不过要注意一个小问题,就是当前点的color值如果和newColor一样要跳过,不然会StackOverflowo(╥﹏╥)o
+// 代码应该还可以优化一下
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int [][]dir = {{1, 0}, {-1, 0}, {0, -1}, {0, 1}};
     public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

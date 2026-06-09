@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-两次dfs一次得到树的高度，一次得到value
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 两次dfs一次得到树的高度，一次得到value
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ public:
         return value;
     }
 };
-```
+// ```

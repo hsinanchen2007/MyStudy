@@ -1,9 +1,9 @@
-### 解题思路
-移动槽
+// ### 解题思路
+// 移动槽
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func moveSlot(nums []int, slot int, newVal int) {
 	if slot >= len(nums) || slot < 0 {
 		return
@@ -32,4 +32,4 @@ func firstMissingPositive(nums []int) int {
 	}
 	return len(nums)+1
 }
-```
+// ```

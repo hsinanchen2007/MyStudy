@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MinStack:
 
     def __init__(self):
@@ -28,4 +28,4 @@ class MinStack:
 
     def getMin(self) -> int:
         return self.min_stack[-1]
-```
+# ```

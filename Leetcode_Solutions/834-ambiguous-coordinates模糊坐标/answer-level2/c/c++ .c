@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/d1ad0712319dcbab48688e02a458f966757130dceb7d55f69b0c7d9842c6d89a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d1ad0712319dcbab48688e02a458f966757130dceb7d55f69b0c7d9842c6d89a-image.png)
 
-``` c++
+// ``` c++
 class Solution {
 public:
 
@@ -48,4 +48,4 @@ public:
         return res;
     }
 };
-```
+// ```

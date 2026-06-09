@@ -1,30 +1,30 @@
-# 审题
-1. 返回不重复的三元组
-2. 会有复数，无序
-3. 可能不存在（实际要求返回空数组）
-4. a+b=-c
-5. 数组内有重复数字，结果有可能有重复
+// # 审题
+// 1. 返回不重复的三元组
+// 2. 会有复数，无序
+// 3. 可能不存在（实际要求返回空数组）
+// 4. a+b=-c
+// 5. 数组内有重复数字，结果有可能有重复
 
-# 思路
-1. 暴力：三重循环
-2. hash：两重暴力+hash
-3. 夹逼：因为不需要下标，可以排序后夹逼
+// # 思路
+// 1. 暴力：三重循环
+// 2. hash：两重暴力+hash
+// 3. 夹逼：因为不需要下标，可以排序后夹逼
 
-# 反馈：
-1. 通过一些边界条件，加速代码
+// # 反馈：
+// 1. 通过一些边界条件，加速代码
 
-# 问题：
-1. 如何在hash很好的避免结果集重复？
+// # 问题：
+// 1. 如何在hash很好的避免结果集重复？
 
-# 代码实现
-1. 暴力：超出时间限制
-2. hash slow
-3. 夹逼法
-4. 夹逼快速版
+// # 代码实现
+// 1. 暴力：超出时间限制
+// 2. hash slow
+// 3. 夹逼法
+// 4. 夹逼快速版
 
-## 1.暴力：超出时间限制
+// ## 1.暴力：超出时间限制
 
-```java
+// ```java
 /**
     * 暴力：超出时间限制
     * @param nums
@@ -49,11 +49,11 @@ private List<List<Integer>> directlySolution(int[] nums) {
 
     return new ArrayList<>(result);
 }
-```
+// ```
 
-## 2.hash slow
+// ## 2.hash slow
 
-```java
+// ```java
 /**
     * hash slow
     * 1406 ms	46 MB
@@ -85,11 +85,11 @@ private List<List<Integer>> hashSolution(int[] nums) {
 
     return new ArrayList<>(result);
 }
-```
+// ```
 
-## 3.夹逼法
+// ## 3.夹逼法
 
-```java
+// ```java
 /**
     * 夹逼法
     * 899 ms	45.9 MB
@@ -122,11 +122,11 @@ private List<List<Integer>> squeezeSolution(int[] nums) {
 
     return new ArrayList<>(result);
 }
-```
+// ```
 
-## 4.夹逼法快速版
+// ## 4.夹逼法快速版
 
-```java
+// ```java
 /**
     * 夹逼快速版
     *
@@ -174,11 +174,11 @@ private List<List<Integer>> squeezeFastSolution(int[] nums) {
 
     return result;
 }
-```
+// ```
 
-## 5.失败的加速hash，未解决去重
+// ## 5.失败的加速hash，未解决去重
 
-```java
+// ```java
  /**
     * 失败
     * @param nums
@@ -213,4 +213,4 @@ private List<List<Integer>> hashFastSolution(int[] nums) {
 
     return result;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 void swap(int*, int, int);
 int qselect(int*, int, int, int);
 int partition(int *, int, int, int);
@@ -55,4 +55,4 @@ void swap(int* nums, int i, int j)
 	nums[i] = nums[j];
 	nums[j] = temp;
 }
-```
+// ```

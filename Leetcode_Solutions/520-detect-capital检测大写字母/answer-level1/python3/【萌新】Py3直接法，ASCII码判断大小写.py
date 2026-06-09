@@ -1,9 +1,9 @@
-### 解题思路
-用ASCII码判断大小写，设置符合题意的3个判断条件
+# ### 解题思路
+# 用ASCII码判断大小写，设置符合题意的3个判断条件
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
         dic=[]
@@ -23,4 +23,4 @@ class Solution:
             return False       
 
 
-```
+# ```

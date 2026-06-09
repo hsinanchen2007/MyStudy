@@ -1,9 +1,9 @@
-### 解题思路
-设置一个字典，将对应的数字设为键，值设置为罗马字母，然后存放到dict中，然后分别去寻找数字的每一位对应的罗马字母，然后再进行拼接
+# ### 解题思路
+# 设置一个字典，将对应的数字设为键，值设置为罗马字母，然后存放到dict中，然后分别去寻找数字的每一位对应的罗马字母，然后再进行拼接
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def intToRoman(self, num):
         """
@@ -25,4 +25,4 @@ class Solution(object):
                 value = hashmap.get(y)
                 res.insert(0, value)
         return ''.join(res)
-```
+# ```

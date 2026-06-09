@@ -1,9 +1,9 @@
-### 解题思路
-呵，自旋;
+// ### 解题思路
+// 呵，自旋;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Foo {
 public:
     bool lock2=true,lock3=true;
@@ -28,4 +28,4 @@ public:
         printThird();
     }
 };
-```
+// ```

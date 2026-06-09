@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[][]} graph
  * @return {number[]}
@@ -22,4 +22,4 @@ function dfs(graph, color, i) {
     color[i] = 2
     return true
 }
-```
+// ```

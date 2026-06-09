@@ -1,4 +1,4 @@
-```bash
+# ```bash
 # Read from the file file.txt and output all valid phone numbers to stdout.
 # 时间及空间均比较高
 grep -P '^([0-9]{3}-|\([0-9]{3}\) )[0-9]{3}-[0-9]{4}$' file.txt
@@ -9,4 +9,4 @@ gawk '/^([0-9]{3}-|\([0-9]{3}\) )[0-9]{3}-[0-9]{4}$/' file.txt
 # 时间和上面的一致，空间比上面的低，最优的一个
 cat file.txt |grep -E "((^[0-9]{3}-)|(^\([0-9]{3}\)\s))[0-9]{3}-[0-9]{4}$"
 
-```
+# ```

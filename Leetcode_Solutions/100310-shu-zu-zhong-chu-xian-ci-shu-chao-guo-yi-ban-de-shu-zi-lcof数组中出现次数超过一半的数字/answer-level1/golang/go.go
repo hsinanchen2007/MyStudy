@@ -1,4 +1,4 @@
-```golang
+// ```golang
 func majorityElement(nums []int) int {
     val, cnt := 0, -1
     for _, e := range nums {
@@ -13,4 +13,4 @@ func majorityElement(nums []int) int {
     }
     return val
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public char firstUniqChar(String s) {
         int[] dic = new int[128];
@@ -13,4 +13,4 @@ class Solution {
         return ' ';
     }
 }
-```
+// ```

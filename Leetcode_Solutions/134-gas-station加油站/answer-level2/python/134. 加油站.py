@@ -1,9 +1,9 @@
-### 解题思路
-首先将两数组对应位置的差保存在gas中，从正数开始尝试遍历相加，相加过程中若结果小于0，换从下一个正数开始，加到最后，若结果大于等于0 ，则返回这个正数的位置
+# ### 解题思路
+# 首先将两数组对应位置的差保存在gas中，从正数开始尝试遍历相加，相加过程中若结果小于0，换从下一个正数开始，加到最后，若结果大于等于0 ，则返回这个正数的位置
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def canCompleteCircuit(self, gas, cost):
         if sum(cost) > sum(gas):return -1
@@ -18,4 +18,4 @@ class Solution(object):
                 if cur_sum >= 0:
                     return i
         return -1
-```
+# ```

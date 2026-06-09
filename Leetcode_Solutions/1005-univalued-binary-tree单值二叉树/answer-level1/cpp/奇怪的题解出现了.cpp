@@ -1,9 +1,9 @@
-### 解题思路
-反正别人写成这样我是看不懂（
+// ### 解题思路
+// 反正别人写成这样我是看不懂（
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -19,4 +19,4 @@ public:
         return p==-1?(!root->left||isUnivalTree(root->left,root->val))&&(!root->right||isUnivalTree(root->right,root->val)) : root->val==p&&(!root->left||isUnivalTree(root->left,p))&&(!root->right||isUnivalTree(root->right,p));
     }
 };
-```
+// ```

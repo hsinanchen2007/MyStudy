@@ -1,8 +1,8 @@
 
-递归法：
-中序遍历求出自增数组，对比数组相邻的数字
+// 递归法：
+// 中序遍历求出自增数组，对比数组相邻的数字
 
-```swift []
+// ```swift []
 class Solution {
     func minDiffInBST(_ root: TreeNode?) -> Int {
         guard let root = root else {
@@ -35,4 +35,4 @@ class Solution {
         return min
     }
 }
-```
+// ```

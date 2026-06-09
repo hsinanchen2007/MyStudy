@@ -1,9 +1,9 @@
-### 解题思路
-此题的关键是先排序, 然后求倒数第nums.length - k +1 个元素
+// ### 解题思路
+// 此题的关键是先排序, 然后求倒数第nums.length - k +1 个元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int findKthLargest(int[] nums, int k)
     {
@@ -52,4 +52,4 @@ class Solution {
     }
 
 }
-```
+// ```

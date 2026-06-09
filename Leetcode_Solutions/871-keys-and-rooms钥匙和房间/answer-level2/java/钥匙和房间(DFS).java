@@ -1,10 +1,10 @@
-### 解题思路
-走一个房间就标记一个房间,统计最后走过的房间数是否和所有房间数相等
-![QQ截图20200124142449.png](https://pic.leetcode-cn.com/5ca6a0205f71f9847baaf735719a629c06a97c92c44c8da8b87da6a4e9e92de7-QQ%E6%88%AA%E5%9B%BE20200124142449.png)
+// ### 解题思路
+// 走一个房间就标记一个房间,统计最后走过的房间数是否和所有房间数相等
+// ![QQ截图20200124142449.png](https://pic.leetcode-cn.com/5ca6a0205f71f9847baaf735719a629c06a97c92c44c8da8b87da6a4e9e92de7-QQ%E6%88%AA%E5%9B%BE20200124142449.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int []vis;
     private boolean f = false;
@@ -33,4 +33,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-C语言实现
+// C语言实现
 
-```
+// ```
 
 #define MAX_WORD_NUM 10000
 
@@ -127,10 +127,10 @@ char ** findAllConcatenatedWordsInADict(char ** words, int wordsSize, int* retur
     return result;
 }
 
-```
-Python3实现
+// ```
+// Python3实现
 
-```
+// ```
 
 class Solution:
     def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:
@@ -179,6 +179,6 @@ class Solution:
                 result.append(word)
             addWordToTree(word, tree)        
         return result
-```
+// ```
 
 

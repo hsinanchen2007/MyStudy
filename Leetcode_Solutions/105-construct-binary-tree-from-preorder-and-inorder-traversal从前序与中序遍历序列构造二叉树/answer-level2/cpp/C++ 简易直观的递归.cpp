@@ -1,13 +1,13 @@
-### 简易的C++递归版本
-如何通过前序和中序遍历来建二叉树呢?
-当然是先找到根，然后再建立左子树和右子树。
+// ### 简易的C++递归版本
+// 如何通过前序和中序遍历来建二叉树呢?
+// 当然是先找到根，然后再建立左子树和右子树。
 
-### 题解第一次遍历图解
-![前序和中序建树.png](https://pic.leetcode-cn.com/9a8daf05b4c465285cd81c5848a5414f3630052d2e35b150c20d1eba90c1b07a-%E5%89%8D%E5%BA%8F%E5%92%8C%E4%B8%AD%E5%BA%8F%E5%BB%BA%E6%A0%91.png)
+// ### 题解第一次遍历图解
+// ![前序和中序建树.png](https://pic.leetcode-cn.com/9a8daf05b4c465285cd81c5848a5414f3630052d2e35b150c20d1eba90c1b07a-%E5%89%8D%E5%BA%8F%E5%92%8C%E4%B8%AD%E5%BA%8F%E5%BB%BA%E6%A0%91.png)
 
 
-### 题解：
-```
+// ### 题解：
+// ```
 class Solution {
 public:
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
@@ -29,4 +29,4 @@ private:
         return r;
     }
 };
-```
+// ```

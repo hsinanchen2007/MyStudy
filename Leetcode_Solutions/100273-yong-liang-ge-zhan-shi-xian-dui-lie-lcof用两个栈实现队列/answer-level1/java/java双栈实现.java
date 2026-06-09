@@ -1,9 +1,9 @@
-### 解题思路
-执行用时 :95 ms, 在所有 Java 提交中击败了59.52% 的用户
-内存消耗 :46.4 MB, 在所有 Java 提交中击败了100.00%的用户
-### 代码
+// ### 解题思路
+// 执行用时 :95 ms, 在所有 Java 提交中击败了59.52% 的用户
+// 内存消耗 :46.4 MB, 在所有 Java 提交中击败了100.00%的用户
+// ### 代码
 
-```java
+// ```java
 class CQueue {
     private Stack<Integer> head;
     private Stack<Integer> tail;
@@ -33,4 +33,4 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
+// ```

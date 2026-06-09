@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int NumWays(int n) {
         int a=1,b=1,sum;
@@ -15,4 +15,4 @@ public class Solution {
         return a;
     }
 }
-```
+// ```

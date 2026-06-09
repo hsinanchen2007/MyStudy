@@ -1,5 +1,5 @@
-前后有序，找到对应的最小值，只要盯住numbers[mid]与numbers[right]的大小关系，及时的更新对应的left right 即可；
-```java
+// 前后有序，找到对应的最小值，只要盯住numbers[mid]与numbers[right]的大小关系，及时的更新对应的left right 即可；
+// ```java
 class Solution {
     public int minArray(int[] numbers) {
         int left = 0,right = numbers.length-1;
@@ -16,4 +16,4 @@ class Solution {
         return numbers[right];
     }
 }
-```
+// ```

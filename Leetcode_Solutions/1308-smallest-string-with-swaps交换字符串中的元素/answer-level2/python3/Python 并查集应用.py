@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/96ccb799fffaa263258567bab389e8e551667ee6acf63f29d966deaf6db888d2-image.png)
+# ![image.png](https://pic.leetcode-cn.com/96ccb799fffaa263258567bab389e8e551667ee6acf63f29d966deaf6db888d2-image.png)
 
 
 
-```
+# ```
 '''
 并查集应用，能够互相交换的位置翻到一个簇里面，同一个族中位置
 对应的字符一定可以排序得到一个最小的子序列，每一个簇都进行
@@ -80,4 +80,4 @@ class Solution:
                 ans[idx] = ch
 
         return ''.join(ans)
-```
+# ```

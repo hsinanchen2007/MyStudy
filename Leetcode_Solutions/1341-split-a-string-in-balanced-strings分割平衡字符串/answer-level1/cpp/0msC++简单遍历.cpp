@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-遍历即可，相同时碰见R，就让temp++，else temp--，只要出现零，那就证明成对出现，cnt++
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 遍历即可，相同时碰见R，就让temp++，else temp--，只要出现零，那就证明成对出现，cnt++
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int balancedStringSplit(string s) {
@@ -25,4 +25,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

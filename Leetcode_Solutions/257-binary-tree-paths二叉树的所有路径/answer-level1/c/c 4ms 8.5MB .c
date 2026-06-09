@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：先序遍历
@@ -140,4 +140,4 @@ char ** binaryTreePaths( struct TreeNode * root , int * returnSize ){
     return buffer;
 
 }
-```
+// ```

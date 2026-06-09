@@ -1,12 +1,12 @@
-### 解题思路
-代码其实不算简洁，不过我觉得自己的注释写的很清楚，哈哈。
-跑出来的效果还不错，如果有什么问题，请大家指出，谢谢咯。
-![Snipaste_2020-01-10_15-47-38.png](https://pic.leetcode-cn.com/b6cc7d34de0de026365c5f9ff5fba04268849974dbe2bef1ea4794adad91f55f-Snipaste_2020-01-10_15-47-38.png)
+// ### 解题思路
+// 代码其实不算简洁，不过我觉得自己的注释写的很清楚，哈哈。
+// 跑出来的效果还不错，如果有什么问题，请大家指出，谢谢咯。
+// ![Snipaste_2020-01-10_15-47-38.png](https://pic.leetcode-cn.com/b6cc7d34de0de026365c5f9ff5fba04268849974dbe2bef1ea4794adad91f55f-Snipaste_2020-01-10_15-47-38.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -58,4 +58,4 @@ public:
 		return dummy->next;
 	}
 };
-```
+// ```

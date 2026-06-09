@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int maxProduct(int[] nums) {
         int[] dp=new int[nums.length];
@@ -14,15 +14,15 @@ class Solution {
             }
             dp[i]=Math.max(s2,nums[i]);
             max=Math.max(max,dp[i]);
-```javascript []
-console.log('Hello world!')
-```
-```python []
-print('Hello world!')
-```
-```ruby []
-puts 'Hello world!'
-```
+// ```javascript []
+// console.log('Hello world!')
+// ```
+// ```python []
+// print('Hello world!')
+// ```
+// ```ruby []
+// puts 'Hello world!'
+// ```
         }
         return max;
     }

@@ -1,11 +1,11 @@
-### 解题思路
-刚开始没想到使用while的方式，掉进了for的循环圈子里感觉不对
-看了其他大神的评论之后想到了这种方法，和另一位大神不谋而合，我这算是借鉴版，
-刚开始刷题水平不够，思路不够开阔
+// ### 解题思路
+// 刚开始没想到使用while的方式，掉进了for的循环圈子里感觉不对
+// 看了其他大神的评论之后想到了这种方法，和另一位大神不谋而合，我这算是借鉴版，
+// 刚开始刷题水平不够，思路不够开阔
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} candies
  * @param {number} num_people
@@ -26,4 +26,4 @@ var distributeCandies = function (candies, num_people) {
     arr[(num % num_people)] += candies;
     return arr;
 };
-```
+// ```

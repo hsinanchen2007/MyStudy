@@ -1,14 +1,14 @@
-### 解题思路
-方法1：用时2ms
-当n=2,字符串更新了1次；n=3,字符串更新了2次；n=4，字符串更新了3次。
-双重循环暴力求解：外层循环表示更新的次数，内层表示一次更新后的结果。
-参考链接：https://leetcode-cn.com/problems/count-and-say/solution/yyxue-xi-bi-ji-21-by-yang-yang-yang-73/
-方法2：用时3ms
-递归求解，当前n对应的字符串需要求解n-1对应的字符串
+// ### 解题思路
+// 方法1：用时2ms
+// 当n=2,字符串更新了1次；n=3,字符串更新了2次；n=4，字符串更新了3次。
+// 双重循环暴力求解：外层循环表示更新的次数，内层表示一次更新后的结果。
+// 参考链接：https://leetcode-cn.com/problems/count-and-say/solution/yyxue-xi-bi-ji-21-by-yang-yang-yang-73/
+// 方法2：用时3ms
+// 递归求解，当前n对应的字符串需要求解n-1对应的字符串
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 //双重循环
 class Solution {
     public String countAndSay(int n) {
@@ -38,8 +38,8 @@ class Solution {
         return str;  
     }
 }
-```
-```java
+// ```
+// ```java
 //递归
 class Solution {
     public String countAndSay(int n) {
@@ -68,4 +68,4 @@ class Solution {
         //如果想最后return，注意return digui(--n, res.toString());
     }
 }
-```
+// ```

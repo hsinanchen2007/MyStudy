@@ -1,10 +1,10 @@
-### 解题思路
-给定一个整数n，要返回所有可能的二叉搜索树，可以依次取i in [0:n]作为根节点，小于i的所有元素构成i的左子树，大于i的所有元素构成i的右子树。
+// ### 解题思路
+// 给定一个整数n，要返回所有可能的二叉搜索树，可以依次取i in [0:n]作为根节点，小于i的所有元素构成i的左子树，大于i的所有元素构成i的右子树。
 
 
-### Python3 版本
+// ### Python3 版本
 
-```python3
+// ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,11 +32,11 @@ class Solution:
         if n==0:
             return []
         return generateTrees(1, n)
-```
+// ```
 
-### C++版本
+// ### C++版本
 
-```c++
+// ```c++
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -79,4 +79,4 @@ private:
         return allTree;
     }
 };
-```
+// ```

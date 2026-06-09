@@ -1,9 +1,9 @@
-### 解题思路
-    非常简单的分组排序就行了
+-- ### 解题思路
+--     非常简单的分组排序就行了
 
-### 代码
+-- ### 代码
 
-```oraclesql
+-- ```oraclesql
 SELECT D.NAME DEPARTMENT, E.NAME EMPLOYEE, E.SALARY
   FROM DEPARTMENT D,
        (SELECT E.*,
@@ -11,4 +11,4 @@ SELECT D.NAME DEPARTMENT, E.NAME EMPLOYEE, E.SALARY
           FROM EMPLOYEE E) E
  WHERE D.ID = E.DEPARTMENTID(+)
    AND E.RK <= 3
-```
+-- ```

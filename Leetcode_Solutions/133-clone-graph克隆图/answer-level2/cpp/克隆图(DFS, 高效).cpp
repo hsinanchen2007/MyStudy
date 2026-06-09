@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -58,8 +58,8 @@ public:
         return New;
     }
 };
-```
+// ```
 
-![无标题.png](https://pic.leetcode-cn.com/cb1a7b75a82ae1f8c9bad537ad954a20bb5442688cae2ec79cb13387763a3592-%E6%97%A0%E6%A0%87%E9%A2%98.png)
+// ![无标题.png](https://pic.leetcode-cn.com/cb1a7b75a82ae1f8c9bad537ad954a20bb5442688cae2ec79cb13387763a3592-%E6%97%A0%E6%A0%87%E9%A2%98.png)
 
 

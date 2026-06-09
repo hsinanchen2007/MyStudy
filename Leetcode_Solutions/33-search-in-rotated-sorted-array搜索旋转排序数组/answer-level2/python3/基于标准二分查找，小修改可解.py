@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def __init__(self):
         self.ans = -1
@@ -33,6 +33,6 @@ class Solution:
 
             
 
-```
-时间复杂度O(logn)
-空间复杂度O(1)
+# ```
+# 时间复杂度O(logn)
+# 空间复杂度O(1)

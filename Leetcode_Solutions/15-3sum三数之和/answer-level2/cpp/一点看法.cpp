@@ -1,11 +1,11 @@
-### 解题思路
-个人觉得，有两点需要注意：
-1、边界条件，全正数、全负数、全零
-2、去重可以用set来实现，排序后在set里自动去重了
+// ### 解题思路
+// 个人觉得，有两点需要注意：
+// 1、边界条件，全正数、全负数、全零
+// 2、去重可以用set来实现，排序后在set里自动去重了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -54,4 +54,4 @@ public:
         return allres;
     }
 };
-```
+// ```

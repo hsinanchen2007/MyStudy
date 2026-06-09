@@ -1,9 +1,9 @@
-### 解题思路
-用Regular Expression来解决这个问题
+// ### 解题思路
+// 用Regular Expression来解决这个问题
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} str
  * @return {number}
@@ -18,4 +18,4 @@ var myAtoi = function(str) {
  }
  return 0;
 };
-```
+// ```

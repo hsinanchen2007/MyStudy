@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board){
 		int sum = 0;
@@ -54,13 +54,13 @@ class Solution {
 		return 0;
 	}
 }
-```
+// ```
 
-### 性能表现
+// ### 性能表现
 
-![1.png](https://pic.leetcode-cn.com/c77a7e39b19fdb3e733447bc0d523b8ca45750f56cb261ef6a9adfa1e7863c30-1.png)
+// ![1.png](https://pic.leetcode-cn.com/c77a7e39b19fdb3e733447bc0d523b8ca45750f56cb261ef6a9adfa1e7863c30-1.png)
 
-### 欢迎与我交流
+// ### 欢迎与我交流
 
-![wechat.png](https://pic.leetcode-cn.com/74dd86143860027d82ee57f73960f22ce5ccd15f5a54be43bee24d5301111715-wechat.png)
+// ![wechat.png](https://pic.leetcode-cn.com/74dd86143860027d82ee57f73960f22ce5ccd15f5a54be43bee24d5301111715-wechat.png)
 

@@ -1,4 +1,4 @@
-```python
+# ```python
 import bisect
 class Solution:
     def reversePairs(self, nums: List[int]) -> int:
@@ -9,4 +9,4 @@ class Solution:
             ans += bisect.bisect_left(arr, num)
             bisect.insort(arr, num * 2) # O(N) but actually it's very fast
         return ans
-```
+# ```

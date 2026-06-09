@@ -1,7 +1,7 @@
-我看了一些其他大佬的解法，对于C语言来说是没有什么好的办法，就是一个个的验证。
+// 我看了一些其他大佬的解法，对于C语言来说是没有什么好的办法，就是一个个的验证。
 
-大家可以稍微学习一下我的方向数组的用法，其他的就是死磕了。
-```
+// 大家可以稍微学习一下我的方向数组的用法，其他的就是死磕了。
+// ```
 bool isValidSudoku(char** board, int boardSize, int* boardColSize){
     int mark1[9];//行
     int mark2[9];
@@ -51,4 +51,4 @@ bool isValidSudoku(char** board, int boardSize, int* boardColSize){
         
 
 }
-```
+// ```

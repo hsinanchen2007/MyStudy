@@ -1,14 +1,14 @@
-### 解题思路
-此处撰写解题思路
-1.新建arraylist
-2.利用stack
-3.先pop栈顶元素
-4.然后先push right children
-5.最后Push left children
+// ### 解题思路
+// 此处撰写解题思路
+// 1.新建arraylist
+// 2.利用stack
+// 3.先pop栈顶元素
+// 4.然后先push right children
+// 5.最后Push left children
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -42,4 +42,4 @@ class Solution {
 
     }
 }
-```
+// ```

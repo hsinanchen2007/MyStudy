@@ -1,13 +1,13 @@
-![1.jpg](https://pic.leetcode-cn.com/682ee3a6d529fc48b70dc6d50885e801dde56b8143140eb0ea7fcd62c3dc6c71-1.jpg)
-C++内存消耗8.6M击败100%, 执行用时8ms击败98%
-使用二进制存储信息，只使用一个一维数组。
+// ![1.jpg](https://pic.leetcode-cn.com/682ee3a6d529fc48b70dc6d50885e801dde56b8143140eb0ea7fcd62c3dc6c71-1.jpg)
+// C++内存消耗8.6M击败100%, 执行用时8ms击败98%
+// 使用二进制存储信息，只使用一个一维数组。
 
-使用一个长度为9的数组记录0-9出现的信息， 每个数用长为27的数记录。
-bit 0-8:squart;  //记录数字i是否在第bit[k]个九宫格出现过
-bit 9-17: row;   //记录数字i是否在第bit[k]行出现过
-bit 18-26: column//记录数字i是否在第bit[k]列出现过
+// 使用一个长度为9的数组记录0-9出现的信息， 每个数用长为27的数记录。
+// bit 0-8:squart;  //记录数字i是否在第bit[k]个九宫格出现过
+// bit 9-17: row;   //记录数字i是否在第bit[k]行出现过
+// bit 18-26: column//记录数字i是否在第bit[k]列出现过
 
-```
+// ```
 class Solution {
 public:
 	bool isValidSudoku(vector<vector<char>>& board) {
@@ -28,7 +28,7 @@ public:
 		return true;
 	}
 };
-```
+// ```
 
 
 

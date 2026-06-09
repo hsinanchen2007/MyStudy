@@ -1,14 +1,14 @@
-## 思路:
+# ## 思路:
 
-简单想法：对于题目是例子`[1, 2, 3, 4]`，想求出 `3`位置结果，我们要知道`3`位置前的乘积，和后面的乘积，即`[1, 2]` 和 `[4]`，所以我们用前缀积，和后缀积记录：
+# 简单想法：对于题目是例子`[1, 2, 3, 4]`，想求出 `3`位置结果，我们要知道`3`位置前的乘积，和后面的乘积，即`[1, 2]` 和 `[4]`，所以我们用前缀积，和后缀积记录：
 
-代码如下：
+# 代码如下：
 
-时间复杂度：$O(n)$
+# 时间复杂度：$O(n)$
 
-空间复杂度：$O(n)$
+# 空间复杂度：$O(n)$
 
-```python
+# ```python
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         prefix = [1]
@@ -18,11 +18,11 @@ class Solution:
         for num in nums[::-1][:-1]:
             suffix.append(suffix[-1] * num)
         return list([a * b for a, b in zip(prefix, suffix[::-1])])
-```
+# ```
 
-我们可以优化空间 $O(1)$
+# 我们可以优化空间 $O(1)$
 
-```python
+# ```python
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         n = len(nums)
@@ -35,5 +35,5 @@ class Solution:
             res[i] *= right
             right *= nums[i]
         return res
-```
+# ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-就是for循环一次，记录两种不同的情况，再算一下就行
+# ### 解题思路
+# 就是for循环一次，记录两种不同的情况，再算一下就行
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumSwap(self, s1: str, s2: str) -> int:
         dif1 = 0
@@ -20,4 +20,4 @@ class Solution:
             return -1
         else:
             return dif1%2 + dif2%2 + int(dif1/2) + int(dif2/2)
-```
+# ```

@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
 	void partition(vector<int>& nums, int l, int r) {
@@ -19,4 +19,4 @@ public:
 		return nums;
 	}
 };
-```
+// ```

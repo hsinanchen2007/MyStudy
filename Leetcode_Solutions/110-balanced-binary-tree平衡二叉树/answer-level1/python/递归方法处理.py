@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O（n2）
-空间复杂度：O（n）
+# ### 解题思路
+# 时间复杂度：O（n2）
+# 空间复杂度：O（n）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
             return 1
         return max(self.get_tree_height(root.left), self.get_tree_height(root.right)) + 1
 
-```
+# ```

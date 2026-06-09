@@ -1,9 +1,9 @@
-### 解题思路
-执行44ms,时间复杂度是O(n),主要运用进位思想，有进位就加上进位去算
+# ### 解题思路
+# 执行44ms,时间复杂度是O(n),主要运用进位思想，有进位就加上进位去算
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -45,4 +45,4 @@ class Solution(object):
 
 
 
-```
+# ```

@@ -1,4 +1,4 @@
-```rust
+// ```rust
 impl Solution {
     pub fn backspace_compare(s: String, t: String) -> bool {
         let mut s_it = s.chars().rev().peekable();
@@ -38,4 +38,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

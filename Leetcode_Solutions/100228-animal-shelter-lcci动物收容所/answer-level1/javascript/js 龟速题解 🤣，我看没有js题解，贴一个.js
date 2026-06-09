@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/29f16d2ae56c99809f1746ba4105e881e23b1736a9920f22d9133bf30cca1e91-image.png)
+// ![image.png](https://pic.leetcode-cn.com/29f16d2ae56c99809f1746ba4105e881e23b1736a9920f22d9133bf30cca1e91-image.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var AnimalShelf = function() {
   this.animals = [ [], [] ]; // 0 猫 | 1 狗
 };
@@ -78,4 +78,4 @@ AnimalShelf.prototype.dequeueCat = function() {
  * var param_3 = obj.dequeueDog()
  * var param_4 = obj.dequeueCat()
  */
-```
+// ```

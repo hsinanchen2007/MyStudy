@@ -1,9 +1,9 @@
-### 解题思路
-利用数组模拟队列，用start和end指针标记队头队尾，入队出队通过移动start和end实现
+// ### 解题思路
+// 利用数组模拟队列，用start和end指针标记队头队尾，入队出队通过移动start和end实现
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -63,4 +63,4 @@ int minDepth(struct TreeNode* root){
     BFS(&retMin, 0, queue, start, end);
     return retMin;
 }
-```
+// ```

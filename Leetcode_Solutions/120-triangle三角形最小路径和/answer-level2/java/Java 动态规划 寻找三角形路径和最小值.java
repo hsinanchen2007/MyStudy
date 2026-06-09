@@ -1,9 +1,9 @@
-### 解题思路
-将原有的二维数组优化为一维数组。
+// ### 解题思路
+// 将原有的二维数组优化为一维数组。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         if (triangle == null || triangle.size() == 0) {
@@ -29,4 +29,4 @@ class Solution {
         return dp[0];
     }
 }
-```
+// ```

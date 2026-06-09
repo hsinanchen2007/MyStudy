@@ -1,11 +1,11 @@
-### 解题思路
-两数相加大于目标值，右指针往左移；两数相加小于目标值，左指针往右移
+// ### 解题思路
+// 两数相加大于目标值，右指针往左移；两数相加小于目标值，左指针往右移
 
-执行用时 :8 ms, 在所有 C 提交中击败了82.72%的用户
-内存消耗 :6.5 MB, 在所有 C 提交中击败了100.00%的用户
-### 代码
+// 执行用时 :8 ms, 在所有 C 提交中击败了82.72%的用户
+// 内存消耗 :6.5 MB, 在所有 C 提交中击败了100.00%的用户
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -35,4 +35,4 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize){
     
     return result;
 }
-```
+// ```

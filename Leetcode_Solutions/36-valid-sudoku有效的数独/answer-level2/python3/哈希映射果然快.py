@@ -1,7 +1,7 @@
 
 
-# 法一：列表
-```
+# # 法一：列表
+# ```
  class Solution:  # 248ms
      def isValidSudoku(self, board: List[List[str]]) -> bool:
          row = len(board)
@@ -49,12 +49,12 @@
              if [b for b in box if len(b) != len(set(b))]:  # 判断
                  return False
          return True
-```
+# ```
 
 
-# 法二：字典(哈希映射)
+# # 法二：字典(哈希映射)
 
-```
+# ```
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         dict_row = [{} for _ in range(9)]
@@ -73,4 +73,4 @@ class Solution:
                     if dict_col[i][board[j][i]] > 1:
                         return False
         return True
-```
+# ```

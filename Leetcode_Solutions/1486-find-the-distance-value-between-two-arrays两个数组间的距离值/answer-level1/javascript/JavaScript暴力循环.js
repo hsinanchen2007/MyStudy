@@ -1,4 +1,4 @@
-```js
+// ```js
 var findTheDistanceValue = function(arr1, arr2, d) {
     let len1 = arr1.length;
     let len2 = arr2.length;
@@ -17,4 +17,4 @@ var findTheDistanceValue = function(arr1, arr2, d) {
     }
     return result
 };
-```
+// ```

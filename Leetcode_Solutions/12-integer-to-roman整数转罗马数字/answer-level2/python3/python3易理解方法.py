@@ -1,9 +1,9 @@
-### 解题思路
-对应一个字典和一个列表，然后循环目标数即可
+# ### 解题思路
+# 对应一个字典和一个列表，然后循环目标数即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def intToRoman(self, num: int) -> str:
         str1 = ""
@@ -18,4 +18,4 @@ class Solution:
                     break
 
         return str1
-```
+# ```

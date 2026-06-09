@@ -1,9 +1,9 @@
-### 解题思路
-检验相邻数字的正负！
+# ### 解题思路
+# 检验相邻数字的正负！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isMonotonic(self, A: List[int]) -> bool:
         if not A:
@@ -18,4 +18,4 @@ class Solution:
             if not flag:
                 flag=A[i]-A[i-1]
         return True
-```
+# ```

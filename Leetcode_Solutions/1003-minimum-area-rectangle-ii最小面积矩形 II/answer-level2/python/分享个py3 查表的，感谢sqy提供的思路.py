@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minAreaFreeRect(self, points: List[List[int]]) -> float:
         n = len(points)
@@ -28,4 +28,4 @@ class Solution:
                         ans = min(ans,line1*line2)
                     dic[combined].append( (x1,y1,x2,y2))
         return ans if ans!= float('inf') else 0
-```
+# ```

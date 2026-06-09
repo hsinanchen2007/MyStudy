@@ -1,4 +1,4 @@
-```
+# ```
 from bisect import bisect
 
 
@@ -22,4 +22,4 @@ class WordDistance:
                 if 0<=k<len(i2):
                     ans=min(ans,abs(i-i2[k]))
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-两种方法效率差不多？
+# ### 解题思路
+# 两种方法效率差不多？
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
                 nums.append(cur.val)
             
         return nums
-```
+# ```

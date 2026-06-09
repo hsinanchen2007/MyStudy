@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/d40abee101f2b1df5f34465581d487967b57a860f7ad286f64a428f48e82725a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/d40abee101f2b1df5f34465581d487967b57a860f7ad286f64a428f48e82725a-image.png)
 
-执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :37.6 MB, 在所有 Java 提交中击败了100.00%的用户
-```
+// 执行用时 :1 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :37.6 MB, 在所有 Java 提交中击败了100.00%的用户
+// ```
 class Solution {
     public int maxNumberOfBalloons(String text) {
         int ans = 10000;String began = "balloon";
@@ -24,4 +24,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

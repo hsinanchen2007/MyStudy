@@ -1,9 +1,9 @@
-![1.png](https://pic.leetcode-cn.com/b0e1566c5cd9e0fa5ea935fa2d8d909bf28908de81948c73f06cd1704dd85a96-1.png)
+// ![1.png](https://pic.leetcode-cn.com/b0e1566c5cd9e0fa5ea935fa2d8d909bf28908de81948c73f06cd1704dd85a96-1.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
@@ -44,4 +44,4 @@ public:
         return used[ch - '1']  = true;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 function multiply($A, $B) {
     $ans = [];
     for($i=0;$i<count($A);$i++){
@@ -11,4 +11,4 @@ function multiply($A, $B) {
     }
     return $ans;
 }
-```
+// ```

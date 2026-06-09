@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         if(nums.length == 0) return 0;
@@ -15,5 +15,5 @@ class Solution {
         else return i+1;
     }
 }
-```
-双指针两头遍历的方法，但是处理起来麻烦很多，涉及很多小陷阱。
+// ```
+// 双指针两头遍历的方法，但是处理起来麻烦很多，涉及很多小陷阱。

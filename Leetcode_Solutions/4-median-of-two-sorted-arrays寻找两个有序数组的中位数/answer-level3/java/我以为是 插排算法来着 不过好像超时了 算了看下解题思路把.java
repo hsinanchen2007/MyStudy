@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         //就是一个排序算法 折中插入排序算法
@@ -46,4 +46,4 @@ class Solution {
 
     }
 }
-```
+// ```

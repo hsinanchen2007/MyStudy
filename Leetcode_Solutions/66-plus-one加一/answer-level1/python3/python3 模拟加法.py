@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         if not digits: return digits
@@ -21,4 +21,4 @@ class Solution:
         if carry > 0:   # 如果是[9, 9, 9]，需要再向前进位
             digits.insert(0, 1)
         return digits
-```
+# ```

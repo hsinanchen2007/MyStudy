@@ -1,5 +1,5 @@
-**注意**：本人菜鸡(马拉车还是今早刚糙糙学的 Trie也没用过几次) 主要的语句都添加了注释 还请大家多多指教 欢迎提出改进意见!
-``` python
+# **注意**：本人菜鸡(马拉车还是今早刚糙糙学的 Trie也没用过几次) 主要的语句都添加了注释 还请大家多多指教 欢迎提出改进意见!
+# ``` python
 from itertools import zip_longest
 class Solution:
 	def palindromePairs(self,words):
@@ -46,5 +46,5 @@ class Solution:
 			except KeyError: #找不到匹配的路径了
 				continue
 		return ans
-```
+# ```
 

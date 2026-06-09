@@ -1,6 +1,6 @@
-使用map对结构体进行排序，需要注意的是，map的比较函数的运作方式是：
-若cmp(a,b)和cmp(b,a)都返回false，则map只保留a,b其中一个。
-```cpp
+// 使用map对结构体进行排序，需要注意的是，map的比较函数的运作方式是：
+// 若cmp(a,b)和cmp(b,a)都返回false，则map只保留a,b其中一个。
+// ```cpp
 struct Node
 {
     int a;
@@ -40,4 +40,4 @@ public:
         return prev(m.end())->second;
     }
 };
-```
+// ```

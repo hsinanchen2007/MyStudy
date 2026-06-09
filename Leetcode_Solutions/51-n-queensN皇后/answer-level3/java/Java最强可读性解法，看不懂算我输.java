@@ -1,10 +1,10 @@
-类似递归模板，分四个部分：
-1. 终止条件
-2. 处理当前层逻辑
-3. 递归，调自己
-4. 恢复当前层状态
+// 类似递归模板，分四个部分：
+// 1. 终止条件
+// 2. 处理当前层逻辑
+// 3. 递归，调自己
+// 4. 恢复当前层状态
 
-```
+// ```
 public void recursive(int param, int level) {
     // recursive termintor
     if (level > MAX_LEVEL) {
@@ -20,9 +20,9 @@ public void recursive(int param, int level) {
     // restore current status 
 
 }
-```
-根据模板对应代码：
-```
+// ```
+// 根据模板对应代码：
+// ```
 class Solution {
     List<List<String>> result = new ArrayList<>();
     private int n;
@@ -71,4 +71,4 @@ class Solution {
         }
     }
 }
-```
+// ```

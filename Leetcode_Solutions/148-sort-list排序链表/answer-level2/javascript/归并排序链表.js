@@ -1,8 +1,8 @@
-题目要求的时间复杂度为O(nlogn)，包含logn，很容易想到会用到二分法，把链表逐个划分为节点，使用双指针排序。
+// 题目要求的时间复杂度为O(nlogn)，包含logn，很容易想到会用到二分法，把链表逐个划分为节点，使用双指针排序。
 
-- 递归法的归并排序
+// - 递归法的归并排序
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -74,4 +74,4 @@ var merge = function (left, right) {
   }
   return res;
 }
-```
+// ```

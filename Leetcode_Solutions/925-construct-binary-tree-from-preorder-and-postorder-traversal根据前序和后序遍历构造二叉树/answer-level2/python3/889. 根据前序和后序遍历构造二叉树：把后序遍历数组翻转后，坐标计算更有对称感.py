@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/7f422e8b1636dcceceb2c27391a1dacaa6fada1c88b23b269a5aec3e3c951c0f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7f422e8b1636dcceceb2c27391a1dacaa6fada1c88b23b269a5aec3e3c951c0f-image.png)
 
-把后序数组翻转后（这里称作逆后序数组），两个数组的首元素就都可以直接做树根了。
+# 把后序数组翻转后（这里称作逆后序数组），两个数组的首元素就都可以直接做树根了。
 
-因为前序后序遍历的左右是相反的，然后检查第二个元素，如果第二个元素相同，说明只有一个子树存在，这里默认生成为左子树。
+# 因为前序后序遍历的左右是相反的，然后检查第二个元素，如果第二个元素相同，说明只有一个子树存在，这里默认生成为左子树。
 
-如果第二个元素不同，那先序数组的第二个元素就是左子树的树根，逆后序数组的第二个元素就是右子树的树根，根据两个树根的值来切割两个数组，进行递归生成树。
+# 如果第二个元素不同，那先序数组的第二个元素就是左子树的树根，逆后序数组的第二个元素就是右子树的树根，根据两个树根的值来切割两个数组，进行递归生成树。
 
-```python []
+# ```python []
 class Solution:
     def constructFromPrePost(self, pre: List[int], post: List[int]) -> TreeNode:
         def f(pr, po):
@@ -22,4 +22,4 @@ class Solution:
                         t.right = f(pr[i: ], po[1: j])
                 return t                        #返回树节点指针
         return f(pre, post[:: -1])
-```
+# ```

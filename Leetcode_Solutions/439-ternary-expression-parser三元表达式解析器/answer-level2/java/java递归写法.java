@@ -1,9 +1,9 @@
-### 解题思路
-从后往前，遇到三元表达式就求解并生成一个新的表达式，多次替换后就只一个三元表达式，求值即可
+// ### 解题思路
+// 从后往前，遇到三元表达式就求解并生成一个新的表达式，多次替换后就只一个三元表达式，求值即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String parseTernary(String expression) {
         if (expression == null || expression.length() == 1) {
@@ -19,4 +19,4 @@ class Solution {
         return "";
     }
 }
-```
+// ```

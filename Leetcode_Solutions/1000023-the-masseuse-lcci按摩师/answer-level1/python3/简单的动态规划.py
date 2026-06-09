@@ -1,9 +1,9 @@
-### 解题思路
-看代码注释即可
+# ### 解题思路
+# 看代码注释即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         if len(nums) <= 0:
@@ -18,4 +18,4 @@ class Solution:
             # 或者不考虑自己，直接使用上一个数据
             dp[i] = max(dp[i-1], nums[i] + dp[i-2])
         return dp[-1]
-```
+# ```

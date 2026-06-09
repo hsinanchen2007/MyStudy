@@ -1,9 +1,9 @@
-### 解题思路
-维护队列 有大则补
+// ### 解题思路
+// 维护队列 有大则补
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -34,4 +34,4 @@ public:
         return result;
     }
 };
-```
+// ```

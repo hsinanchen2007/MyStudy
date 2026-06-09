@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/4d5b15e1d05f092d73a0b9b8f4aa2f9aa5523dac7806d9b4f02268e97bda9eb7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4d5b15e1d05f092d73a0b9b8f4aa2f9aa5523dac7806d9b4f02268e97bda9eb7-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
 // Definition for a Node.
 class Node {
@@ -54,5 +54,5 @@ class Solution {
         return cpyHead;
     }
 }
-```
+// ```
 

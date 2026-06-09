@@ -1,9 +1,9 @@
-### 解题思路
-利用 s.split() 实现字符串翻转。
+# ### 解题思路
+# 利用 s.split() 实现字符串翻转。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseWords(self, s: str) -> str:
         str_list = s.split()[::-1]
@@ -16,4 +16,4 @@ class Solution:
 
         return ss
 
-```
+# ```

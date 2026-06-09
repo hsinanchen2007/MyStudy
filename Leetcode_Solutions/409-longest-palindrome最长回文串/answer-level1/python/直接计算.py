@@ -1,9 +1,9 @@
-### 解题思路
-直接算，但是pyton3有collection，可以简化程序。
+# ### 解题思路
+# 直接算，但是pyton3有collection，可以简化程序。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         tmp = {}
@@ -23,4 +23,4 @@ class Solution:
 
 
 
-```
+# ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public Node copyRandomList(Node head) {
         // 1. 复制
@@ -31,4 +31,4 @@ class Solution {
         return copy_head;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-用的方法也算是递归，但是有一点不太一样。感觉逻辑上有点随意了，不像那种中规中矩的方式。
-### 代码
+// ### 解题思路
+// 用的方法也算是递归，但是有一点不太一样。感觉逻辑上有点随意了，不像那种中规中矩的方式。
+// ### 代码
 
-```c
+// ```c
 struct ListNode *Reverse(struct ListNode *head)
 {
     if (head->next == NULL)
@@ -23,4 +23,4 @@ struct ListNode *reverseList(struct ListNode *head)
     Reverse(head)->next = NULL;
     return end;
 }
-```
+// ```

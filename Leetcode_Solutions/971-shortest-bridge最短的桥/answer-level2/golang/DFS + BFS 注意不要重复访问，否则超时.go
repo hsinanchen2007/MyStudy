@@ -1,15 +1,15 @@
 
 
-![image.png](https://pic.leetcode-cn.com/a7516c647ee882fc060770a50ddb43fd23c9f2887344b24e524b5a5da9cdd3ac-file_1575687929407)
+// ![image.png](https://pic.leetcode-cn.com/a7516c647ee882fc060770a50ddb43fd23c9f2887344b24e524b5a5da9cdd3ac-file_1575687929407)
 
 
-### 解题思路
-一次 DFS 标记完第一个岛屿，碰到 0 （边界）即加入队列并返回（不需要再扩散）。
-第二次 BFS 搜索到达第二个岛屿的最短路径，这里注意要将已访问过的位置标记避免重复访问。
+// ### 解题思路
+// 一次 DFS 标记完第一个岛屿，碰到 0 （边界）即加入队列并返回（不需要再扩散）。
+// 第二次 BFS 搜索到达第二个岛屿的最短路径，这里注意要将已访问过的位置标记避免重复访问。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func shortestBridge(grid [][]int) int {
     size := len(grid)
     if size < 1 {
@@ -105,4 +105,4 @@ func (q *queue) Dequeue() *pos{
     }
     return nil
 }
-```
+// ```

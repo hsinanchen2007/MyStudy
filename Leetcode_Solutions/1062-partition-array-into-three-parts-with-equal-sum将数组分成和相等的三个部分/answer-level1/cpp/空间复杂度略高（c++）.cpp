@@ -1,10 +1,10 @@
-### 解题思路
-我认为的坑：
-两个分隔点不能重合，不能在最后。
+// ### 解题思路
+// 我认为的坑：
+// 两个分隔点不能重合，不能在最后。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) 
@@ -43,4 +43,4 @@ public:
         return false;
     }
 };
-```
+// ```

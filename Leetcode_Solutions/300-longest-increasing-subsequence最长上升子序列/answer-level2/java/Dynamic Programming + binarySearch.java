@@ -1,5 +1,5 @@
-### Dynamic Programming
-```java
+// ### Dynamic Programming
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         //special
@@ -27,14 +27,14 @@ class Solution {
         return len;
     }
 }
-```
-### binarySearch
-Optimization algorithm :
-we use a method that :
-find forward cases, to find the as long as possible under the element at the end less than current.
-now we make a Array that has as small as possible element each length case.
-use binarySearch to find the best case. 
-```java
+// ```
+// ### binarySearch
+// Optimization algorithm :
+// we use a method that :
+// find forward cases, to find the as long as possible under the element at the end less than current.
+// now we make a Array that has as small as possible element each length case.
+// use binarySearch to find the best case. 
+// ```java
 class Solution {
     public int lengthOfLIS(int[] nums) {
         //special
@@ -63,4 +63,4 @@ class Solution {
         return len;
     }
 }
-```
+// ```

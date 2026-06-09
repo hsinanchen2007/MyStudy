@@ -1,5 +1,5 @@
 
-```python
+# ```python
     def tribonacci(self, n):
         """
         :type n: int
@@ -16,4 +16,4 @@
         #     T = [T[1], T[2], sum(T)]
         # return T[-1]
 
-```
+# ```

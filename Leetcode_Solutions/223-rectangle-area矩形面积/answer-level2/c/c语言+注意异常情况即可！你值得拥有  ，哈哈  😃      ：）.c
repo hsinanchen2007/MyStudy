@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/4f6e50dc3f02c6fa1633023dead8c95f9fbea8a662c285ccb1d4da578f3d4124-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4f6e50dc3f02c6fa1633023dead8c95f9fbea8a662c285ccb1d4da578f3d4124-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a,b) ((a) > (b) ? (a) :(b))
 #define MIN(a,b) ((a) < (b) ? (a) :(b))
 
@@ -29,4 +29,4 @@ int computeArea(int A, int B, int C, int D, int E, int F, int G, int H){
 
     return area1 + (area2 - overlap_area);
 }
-```
+// ```

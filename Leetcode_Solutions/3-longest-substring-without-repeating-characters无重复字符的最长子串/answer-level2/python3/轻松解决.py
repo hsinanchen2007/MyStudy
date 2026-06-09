@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         ss=[]
@@ -12,4 +12,4 @@ class Solution:
                 ss.append(i)
             maxl=max(maxl,len(ss))
         return maxl
-```
+# ```

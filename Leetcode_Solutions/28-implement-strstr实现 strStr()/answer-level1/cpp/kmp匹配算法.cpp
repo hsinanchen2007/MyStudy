@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-今天借此题复习了一遍kmp匹配算法。mark一下
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 今天借此题复习了一遍kmp匹配算法。mark一下
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int strStr(string haystack, string needle) {
@@ -44,4 +44,4 @@ public:
          return -1;
     }
 };
-```
+// ```

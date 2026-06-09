@@ -1,9 +1,9 @@
-### 解题思路
-把数字通过除10取余分解为不同十进制位上的数字同时进行求和与乘积，最后相减
+// ### 解题思路
+// 把数字通过除10取余分解为不同十进制位上的数字同时进行求和与乘积，最后相减
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func subtractProductAndSum(n int) int {
     sum := 0
     prd := 1
@@ -14,4 +14,4 @@ func subtractProductAndSum(n int) int {
     }
     return prd - sum
 }
-```
+// ```

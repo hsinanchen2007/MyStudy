@@ -1,6 +1,6 @@
-**其实四数之和直接使用三数之和就好了。**
+// **其实四数之和直接使用三数之和就好了。**
 
-```
+// ```
 class Solution {
     private static List<List<Integer>> lists = new ArrayList<>();
 
@@ -62,4 +62,4 @@ class Solution {
         }
     }
 }
-```
+// ```

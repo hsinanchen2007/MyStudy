@@ -1,8 +1,8 @@
-# 232. 用栈实现队列
+// # 232. 用栈实现队列
 
-创建两个栈stack1和stack2，使用两个“先进后出”的栈实现一个“先进先出”的队列。
+// 创建两个栈stack1和stack2，使用两个“先进后出”的栈实现一个“先进先出”的队列。
 
-```
+// ```
 class MyQueue {
 private:
 	stack<int> m_stack1;	//输入栈
@@ -52,4 +52,4 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
-```
+// ```

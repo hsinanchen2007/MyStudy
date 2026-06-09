@@ -1,11 +1,11 @@
-### 思路
-1. 层序遍历用queue。
-2. 一开始想遍历完存到vector中，然后再逆序一下。
-3. 然后想了下，直接递归也能实现逆序。
-4. 只需要在递归之后再放入vector。
+// ### 思路
+// 1. 层序遍历用queue。
+// 2. 一开始想遍历完存到vector中，然后再逆序一下。
+// 3. 然后想了下，直接递归也能实现逆序。
+// 4. 只需要在递归之后再放入vector。
 
-### 答题
-```C++
+// ### 答题
+// ```C++
 void levelOrderBottom(queue<TreeNode *> que, vector<vector<int>> &ans)
 {
 	if (que.empty()) return;
@@ -31,11 +31,11 @@ vector<vector<int>> levelOrderBottom(TreeNode* root)
 	levelOrderBottom(q, ans);
 	return ans;
 }
-```
+// ```
 
 
 
-### 致谢
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// ### 致谢
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)

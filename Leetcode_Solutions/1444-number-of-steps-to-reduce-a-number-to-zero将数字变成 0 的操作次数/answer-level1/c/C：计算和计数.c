@@ -1,6 +1,6 @@
-思路：
-直接按题目字面意思计算和计数
-```
+// 思路：
+// 直接按题目字面意思计算和计数
+// ```
 int numberOfSteps (int num){
     int count = 0;
     while (num != 0) {
@@ -13,4 +13,4 @@ int numberOfSteps (int num){
     }
     return count;
 }
-```
+// ```

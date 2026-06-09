@@ -1,9 +1,9 @@
-### 解题思路
-记住小技巧
+// ### 解题思路
+// 记住小技巧
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int hammingWeight(uint32_t n) 
 {
     int cnt = 0;
@@ -15,4 +15,4 @@ int hammingWeight(uint32_t n)
 
     return cnt;
 }
-```
+// ```

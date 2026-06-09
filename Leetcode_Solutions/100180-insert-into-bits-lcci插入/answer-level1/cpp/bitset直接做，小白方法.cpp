@@ -1,4 +1,4 @@
-把m和n都用bitset表示出来，然后把n的i位到j位改一下，因为bitset不能直接转成int（我没找到），所以循环一下输出最后结果
+// 把m和n都用bitset表示出来，然后把n的i位到j位改一下，因为bitset不能直接转成int（我没找到），所以循环一下输出最后结果
 
 
 int insertBits(int N, int M, int i, int j) {

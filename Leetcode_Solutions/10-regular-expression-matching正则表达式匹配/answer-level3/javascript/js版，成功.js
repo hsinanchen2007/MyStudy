@@ -1,6 +1,6 @@
 
 
-```js
+// ```js
 /**
  * @param {string} s
  * @param {string} p
@@ -173,4 +173,4 @@ var isMatch = function(s, p) {
 // p = 'b.*a';
 // res = isMatch(s, p);
 // console.log(res === true, '-----------------');
-```
+// ```

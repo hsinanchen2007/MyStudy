@@ -1,4 +1,4 @@
-```
+// ```
 int candy(int* ratings, int ratingsSize){
     int *ret = (int *)malloc(sizeof(int)*ratingsSize);
     int count = 0;
@@ -20,4 +20,4 @@ int candy(int* ratings, int ratingsSize){
     }
     return count;
 }
-```
+// ```

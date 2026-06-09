@@ -1,4 +1,4 @@
-```
+// ```
 public boolean isScramble(String s1, String s2) {
         if(s1.length() != s2.length()){
             return false;
@@ -87,5 +87,5 @@ public boolean isScramble(String s1, String s2) {
         }
         return false;
     }
-```
-每次递归必须判断所用字母个数是否相同，相同时才会递归比较。有空再补充。
+// ```
+// 每次递归必须判断所用字母个数是否相同，相同时才会递归比较。有空再补充。

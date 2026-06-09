@@ -1,9 +1,9 @@
-### 解题思路
-再创建一个链表，把参数里面的元素头插法插入到新的链表中
+// ### 解题思路
+// 再创建一个链表，把参数里面的元素头插法插入到新的链表中
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ struct ListNode* reverseList(struct ListNode* head){
 	}
 	return head2->next;
 }
-```
+// ```

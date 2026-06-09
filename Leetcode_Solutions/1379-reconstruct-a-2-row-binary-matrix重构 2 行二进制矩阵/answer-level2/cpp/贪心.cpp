@@ -1,9 +1,9 @@
-### 解题思路
-先往剩下数字大的那里放1
+// ### 解题思路
+// 先往剩下数字大的那里放1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> reconstructMatrix(int upper, int lower, vector<int>& colsum) {
@@ -50,4 +50,4 @@ public:
         return ans;
     }
 };
-```
+// ```

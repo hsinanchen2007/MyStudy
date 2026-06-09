@@ -1,9 +1,9 @@
-### 解题思路
-双下标法，注意判断添加上等于号，为了进行01反转操作
+// ### 解题思路
+// 双下标法，注意判断添加上等于号，为了进行01反转操作
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] flipAndInvertImage(int[][] A) {
         int n = A.length;
@@ -25,4 +25,4 @@ class Solution {
         return num == 0 ? 1 : 0;
     }
 }
-```
+// ```

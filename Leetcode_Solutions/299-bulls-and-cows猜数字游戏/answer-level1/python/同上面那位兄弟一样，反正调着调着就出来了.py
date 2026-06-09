@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getHint(self, secret: str, guess: str) -> str:
         bulls = 0
@@ -24,4 +24,4 @@ class Solution:
                 bull_dict[guess[i]] -= 1
         return str(bulls) + "A" + str(cows) + "B"
 
-```
+# ```

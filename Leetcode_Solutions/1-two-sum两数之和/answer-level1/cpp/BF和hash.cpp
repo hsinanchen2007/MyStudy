@@ -1,10 +1,10 @@
-### 解题思路
-方法1: BF
-两个for 循环，当nums[i] + num[j] == target时，输出i,j
+// ### 解题思路
+// 方法1: BF
+// 两个for 循环，当nums[i] + num[j] == target时，输出i,j
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -26,20 +26,20 @@ public:
 
 ### 代码
 
-```cpp
-class Solution {
-public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        int len = nums.size();
-        map<int, int> hash;
-        for(int i = 0; i < len; ++i){
-            hash[nums[i]] = i;
-        }
-        for(int i = 0; i < len; ++i){
-            if(hash.find(target - nums[i]) != hash.end() && hash[target - nums[i]] != i)
-            return {i, hash[target - nums[i]]};
-        }
-        return {};
-    }
-};
-```
+// ```cpp
+// class Solution {
+// public:
+//     vector<int> twoSum(vector<int>& nums, int target) {
+//         int len = nums.size();
+//         map<int, int> hash;
+//         for(int i = 0; i < len; ++i){
+//             hash[nums[i]] = i;
+//         }
+//         for(int i = 0; i < len; ++i){
+//             if(hash.find(target - nums[i]) != hash.end() && hash[target - nums[i]] != i)
+//             return {i, hash[target - nums[i]]};
+//         }
+//         return {};
+//     }
+// };
+// ```

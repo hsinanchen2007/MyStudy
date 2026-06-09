@@ -1,10 +1,10 @@
-### 解题思路
-golang map 的创建、遍历。
-哈希表的概念。
+// ### 解题思路
+// golang map 的创建、遍历。
+// 哈希表的概念。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func singleNumber(nums []int) int {
     nmap := make(map[int]int)
     for _, m := range nums {
@@ -19,4 +19,4 @@ func singleNumber(nums []int) int {
 }
 
 
-```
+// ```

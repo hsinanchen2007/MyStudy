@@ -1,4 +1,4 @@
-```
+// ```
 int Calc(int num)
 {
     int total = 0;
@@ -40,4 +40,4 @@ int countPrimeSetBits(int L, int R)
     }
     return res;
 }
-```
+// ```

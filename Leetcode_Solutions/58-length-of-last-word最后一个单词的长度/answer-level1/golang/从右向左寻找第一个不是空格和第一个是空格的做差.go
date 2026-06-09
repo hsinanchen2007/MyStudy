@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/2fdcb6e0340f5a01181718088ae1777ae7d86be90e9b10051a0d09ecf27f93b2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2fdcb6e0340f5a01181718088ae1777ae7d86be90e9b10051a0d09ecf27f93b2-image.png)
 
-```
+// ```
 func lengthOfLastWord(s string) int {
     if len(s) == 0 {
 		return 0
@@ -27,5 +27,5 @@ func lengthOfLastWord(s string) int {
     // s3 求差
 	return r - l
 }
-```
+// ```
 

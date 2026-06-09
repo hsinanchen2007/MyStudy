@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![350.jpg](https://pic.leetcode-cn.com/6dfe917314898ae89d4f18f70281905744576764a67595a5654be36e0d0f42c1-350.jpg)
+// ### 解题思路
+// 此处撰写解题思路
+// ![350.jpg](https://pic.leetcode-cn.com/6dfe917314898ae89d4f18f70281905744576764a67595a5654be36e0d0f42c1-350.jpg)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 //对nums1建立hash map
 //key为值，value为出现次数
 //遍历nums2，在map中find，找到且value>0，则输出一个结果，value-1
@@ -40,4 +40,4 @@ public:
         return resVec;
     }
 };
-```
+// ```

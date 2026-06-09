@@ -1,6 +1,6 @@
-C语言解法
+// C语言解法
 
-```
+// ```
 char *simplifyPath(char * path){
 
     char *retStr = (char *)malloc(sizeof(char) * 1000);
@@ -57,4 +57,4 @@ char *simplifyPath(char * path){
 
     return retStr;
 }
-```
+// ```

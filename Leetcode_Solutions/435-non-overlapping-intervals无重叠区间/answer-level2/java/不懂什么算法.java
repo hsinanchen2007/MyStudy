@@ -1,10 +1,10 @@
-### 解题思路
-不懂什么算法，从题目入手。分析题目要移除最少，那就要尽可能移除间隔大的；
-1、排序，先按照end排序，如果end相同则按照start排序，把start小的往后放
-2、判断当前与前一个是否有交集，如果有交集则把当前值设置为前一个
-### 代码
+// ### 解题思路
+// 不懂什么算法，从题目入手。分析题目要移除最少，那就要尽可能移除间隔大的；
+// 1、排序，先按照end排序，如果end相同则按照start排序，把start小的往后放
+// 2、判断当前与前一个是否有交集，如果有交集则把当前值设置为前一个
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int eraseOverlapIntervals(int[][] intervals) {
         if (intervals.length == 0) {
@@ -35,4 +35,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

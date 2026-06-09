@@ -1,4 +1,4 @@
-```
+// ```
 package ZJM_88_合并两个有序数组;
 
 public class Main {
@@ -37,4 +37,4 @@ class Solution {
  * 将指针前移，循环结束，得到的nums1就是两个数组合并后的有序数组
  */
 
-```
+// ```

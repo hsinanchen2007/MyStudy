@@ -1,10 +1,10 @@
-### 解题思路
-1的起始点小于2的结束点并且1的结束点大于2的起始点
-换过来再判断一遍即可
+// ### 解题思路
+// 1的起始点小于2的结束点并且1的结束点大于2的起始点
+// 换过来再判断一遍即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         if(rec1.length < 4 || rec2.length < 4)  return false;
@@ -14,4 +14,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

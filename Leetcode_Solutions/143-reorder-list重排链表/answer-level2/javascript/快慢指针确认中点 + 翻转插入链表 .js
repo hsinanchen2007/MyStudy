@@ -1,14 +1,14 @@
-### Analyze
+// ### Analyze
 
-这道题可作如下转化:
+// 这道题可作如下转化:
 
-1. 步骤一: 找到链表中点后分割其为 left 链表、right 链表两部分;
-2. 步骤二: 翻转 right 链表, 翻转链表思路同 [206.Reverse_Linked_List](https://github.com/MuYunyun/blog/blob/master/LeetCode/206.Reverse_Linked_List/README.md);
-3. 步骤三: 接着从 left 链表的左侧, 翻转后的 right 链表的左侧各取一个值进行交替拼接;
+// 1. 步骤一: 找到链表中点后分割其为 left 链表、right 链表两部分;
+// 2. 步骤二: 翻转 right 链表, 翻转链表思路同 [206.Reverse_Linked_List](https://github.com/MuYunyun/blog/blob/master/LeetCode/206.Reverse_Linked_List/README.md);
+// 3. 步骤三: 接着从 left 链表的左侧, 翻转后的 right 链表的左侧各取一个值进行交替拼接;
 
-> 快慢指针即 quick 指针每次走两步, slow 指针每次走一步, 同 [148.Sort_List](https://github.com/MuYunyun/blog/blob/master/LeetCode/148.Sort_List/README.md)
+// > 快慢指针即 quick 指针每次走两步, slow 指针每次走一步, 同 [148.Sort_List](https://github.com/MuYunyun/blog/blob/master/LeetCode/148.Sort_List/README.md)
 
-```js
+// ```js
                    s               q
 dummy -> 1 -> 2 -> 3 -> 4 -> 5 -> NULL
 
@@ -35,11 +35,11 @@ r
 
 r
 4 -> NULL
-```
+// ```
 
-步骤二中翻转链表的图解大致如下:
+// 步骤二中翻转链表的图解大致如下:
 
-```js
+// ```js
  cur  next
   1 -> 2 -> 3 -> null
 
@@ -51,9 +51,9 @@ null <- 1 <- 2 <- 3 -> null
 
                  prev
 null <- 1 <- 2 <- 3 -> null
-```
+// ```
 
-```js
+// ```js
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -110,12 +110,12 @@ var reverseList = (list) => {
 
   return prev
 }
-```
+// ```
 
-![](https://pic.leetcode-cn.com/095fbca673368df6e1e8cbc3f9d0c313f35829fbe7950a9d82647698bf82a173.jpg)
+// ![](https://pic.leetcode-cn.com/095fbca673368df6e1e8cbc3f9d0c313f35829fbe7950a9d82647698bf82a173.jpg)
 
-### Similar Title
+// ### Similar Title
 
-148(快慢指针)
+// 148(快慢指针)
 
-> 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)
+// > 为确保内容的实时、准确性, 可以查看[JavaScript 题解](https://github.com/MuYunyun/blog/blob/master/LeetCode/README.md)

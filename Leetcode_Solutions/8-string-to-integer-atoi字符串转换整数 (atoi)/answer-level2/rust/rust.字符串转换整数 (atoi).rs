@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn my_atoi(str: String) -> i32 {
         //0:start 1:signed 2:in_number 3:end
@@ -55,4 +55,4 @@ impl Solution {
 }
 
 
-```
+// ```

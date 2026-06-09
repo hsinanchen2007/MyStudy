@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 //		List<List<Integer>> list=generate(34);//用之前的方法生成对应的数据
 //		BufferedWriter wirte=new BufferedWriter(new FileWriter("D:\\logs\\log.log"));
@@ -20,4 +20,4 @@ class Solution {
 
     };
 }
-```
+// ```

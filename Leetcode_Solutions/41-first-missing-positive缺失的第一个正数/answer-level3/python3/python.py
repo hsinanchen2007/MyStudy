@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
         for i, num in enumerate(nums):
@@ -10,4 +10,4 @@ class Solution:
         for i, num in enumerate(nums): 
             if i + 1 != num: return i + 1 
         return len(nums) + 1
-```
+# ```

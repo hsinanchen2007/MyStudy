@@ -1,5 +1,5 @@
-分别比较对称的位置是否为相等树
-```
+# 分别比较对称的位置是否为相等树
+# ```
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
         return self.isMirror(root, root)
@@ -12,4 +12,4 @@ class Solution:
         if leftRoot.val != rightRoot.val:
             return False
         return self.isMirror(leftRoot.left, rightRoot.right) and self.isMirror(leftRoot.right, rightRoot.left)
-```
+# ```

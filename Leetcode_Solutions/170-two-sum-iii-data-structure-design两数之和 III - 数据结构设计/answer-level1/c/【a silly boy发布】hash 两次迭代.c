@@ -1,6 +1,6 @@
-![08F2CAD1-02B4-466F-BB49-0194965C3B71.jpeg](https://pic.leetcode-cn.com/da186131fbd0ee3afeaf3e003ca0a522d1ee21c2ca8de1456bdc7a860575c290-08F2CAD1-02B4-466F-BB49-0194965C3B71.jpeg)
+// ![08F2CAD1-02B4-466F-BB49-0194965C3B71.jpeg](https://pic.leetcode-cn.com/da186131fbd0ee3afeaf3e003ca0a522d1ee21c2ca8de1456bdc7a860575c290-08F2CAD1-02B4-466F-BB49-0194965C3B71.jpeg)
 
-```
+// ```
 #define MAXSIZE 1000000
 
 
@@ -81,4 +81,4 @@ void twoSumFree(TwoSum* obj) {
  
  * twoSumFree(obj);
 */
-```
+// ```

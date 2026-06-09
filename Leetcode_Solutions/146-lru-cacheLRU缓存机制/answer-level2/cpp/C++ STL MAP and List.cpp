@@ -1,17 +1,17 @@
-### 解题思路
-创建 list 和 unordered_map 结构
-其中 list 对象包含 key, value 
-unordered_map 的 key 为 list 对象的 key, 其 value 为 list 的 iterator
-1. put
-    如果值已经存在unordered_map 则更新值， 并将 list中的这个值提到最前面
-    如果不存在, 则删除 list 最后面的值， 并删除 unordered_map 这个对应的条目， 将新的值放在 list 最前，并在unordered_map 加上这个条目
-2. get
-    如果不存在则返回1
-    如果存在，则将这个值移动 list 最前，并从 unordered_map 返回这个值
+// ### 解题思路
+// 创建 list 和 unordered_map 结构
+// 其中 list 对象包含 key, value 
+// unordered_map 的 key 为 list 对象的 key, 其 value 为 list 的 iterator
+// 1. put
+//     如果值已经存在unordered_map 则更新值， 并将 list中的这个值提到最前面
+//     如果不存在, 则删除 list 最后面的值， 并删除 unordered_map 这个对应的条目， 将新的值放在 list 最前，并在unordered_map 加上这个条目
+// 2. get
+//     如果不存在则返回1
+//     如果存在，则将这个值移动 list 最前，并从 unordered_map 返回这个值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class LRUCache {
 public:
     LRUCache(int capacity): _capacity(capacity){
@@ -57,4 +57,4 @@ private:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

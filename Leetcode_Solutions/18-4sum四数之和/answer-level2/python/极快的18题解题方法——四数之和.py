@@ -1,5 +1,5 @@
-直接上代码，详见博客——https://blog.csdn.net/TeFuirnever/article/details/94480060
-```py
+# 直接上代码，详见博客——https://blog.csdn.net/TeFuirnever/article/details/94480060
+# ```py
 class Solution(object):
     def fourSum(self, nums, target):
         def findNsum(l, r, target, N, result, results):
@@ -28,4 +28,4 @@ class Solution(object):
         findNsum(0, len(nums) - 1, target, 4, [], results)
         return results
 
-```
+# ```

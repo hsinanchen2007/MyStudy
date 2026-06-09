@@ -1,4 +1,4 @@
-```
+// ```
 func removeComments(source []string) []string {
 	out := []string{}
 	b := true
@@ -31,4 +31,4 @@ func removeComments(source []string) []string {
 	}
 	return out
 }
-```
+// ```

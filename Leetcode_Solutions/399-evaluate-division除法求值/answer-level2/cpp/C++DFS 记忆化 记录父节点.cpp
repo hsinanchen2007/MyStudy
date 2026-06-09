@@ -1,9 +1,9 @@
-算法思想：
-1. 建立所有操作数的带权重的有向图;
-2. 找到一条从被除数到除数的路径;
-3. 把路径上的权值依次相乘。
+// 算法思想：
+// 1. 建立所有操作数的带权重的有向图;
+// 2. 找到一条从被除数到除数的路径;
+// 3. 把路径上的权值依次相乘。
 
-```
+// ```
 unordered_map<string, unordered_map<string, double>> adjW;
 
 double calcOne(vector<string>& query) {
@@ -73,7 +73,7 @@ vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& v
     
     return ans;
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/0663e220708cfa93c8ad75d8ba8c5820be8979828eff5c3bfb013a34aa20c53b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0663e220708cfa93c8ad75d8ba8c5820be8979828eff5c3bfb013a34aa20c53b-image.png)
 

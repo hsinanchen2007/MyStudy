@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def minMutation(self, start, end, bank):
         def toNumber(gene):
@@ -26,4 +26,4 @@ class Solution(object):
                         #如果符合基因库则加入bfs列表，准备下一次的比对
                         queue.append((next, step + 1))
         return -1
-```
+# ```

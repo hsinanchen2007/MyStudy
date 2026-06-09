@@ -1,9 +1,9 @@
-### 解题思路
-击败100%
+// ### 解题思路
+// 击败100%
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
          int i = 0;
@@ -17,4 +17,4 @@ class Solution {
 		 return i;
     }
 }
-```
+// ```

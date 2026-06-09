@@ -1,9 +1,9 @@
-### 解题思路
- 暴力解法
+// ### 解题思路
+//  暴力解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isMatch(String s, String p) {
          char []s1=s.toCharArray();
@@ -42,4 +42,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

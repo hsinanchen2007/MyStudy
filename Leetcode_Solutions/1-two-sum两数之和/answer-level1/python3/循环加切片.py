@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度小于O（n*n），有用到切片，如果能把切片改成索引的话应该能更快一点。
+# ### 解题思路
+# 时间复杂度小于O（n*n），有用到切片，如果能把切片改成索引的话应该能更快一点。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         list = [1,2] 
@@ -14,4 +14,4 @@ class Solution:
         
 
         return list
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
-设立四个指针left、right、TOP、BOT按顺时针顺序每次把最外围数据存储到结果res中,每完成一边的存储便即时更新一个相应的指针，直到所有数据存储完毕（BOT<TOP or right<left）。
+# ### 解题思路
+# 设立四个指针left、right、TOP、BOT按顺时针顺序每次把最外围数据存储到结果res中,每完成一边的存储便即时更新一个相应的指针，直到所有数据存储完毕（BOT<TOP or right<left）。
 
-![eea688c3ac4221026ebebd75245e22c.jpg](https://pic.leetcode-cn.com/ac3ea2a90248fe3b70011ffbd664d19f49858d6a3cfb8006eb08e67f6502223b-eea688c3ac4221026ebebd75245e22c.jpg)
+# ![eea688c3ac4221026ebebd75245e22c.jpg](https://pic.leetcode-cn.com/ac3ea2a90248fe3b70011ffbd664d19f49858d6a3cfb8006eb08e67f6502223b-eea688c3ac4221026ebebd75245e22c.jpg)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def spiralOrder(self, matrix):
         """
@@ -39,7 +39,7 @@ class Solution(object):
         
         return res
 
-```
+# ```
 
 
-![c96857e9cf59f90c3d4fd128412ff7f.png](https://pic.leetcode-cn.com/207d67ce172487c6f13982a15e988f63ccc7035bfdec2da796e7f3c876e1ea53-c96857e9cf59f90c3d4fd128412ff7f.png)
+# ![c96857e9cf59f90c3d4fd128412ff7f.png](https://pic.leetcode-cn.com/207d67ce172487c6f13982a15e988f63ccc7035bfdec2da796e7f3c876e1ea53-c96857e9cf59f90c3d4fd128412ff7f.png)

@@ -1,11 +1,11 @@
-### 解题思路
-分两部分：在arr2中的元素和不在arr2中的元素
-1. 在arr2中的元素，需要考虑怎么重复：统计每个元素在arr1中出现的次数，然后依照在arr2中的顺序进行重复
-2. 不在arr2中的元素，排序后挂到后面就行
+# ### 解题思路
+# 分两部分：在arr2中的元素和不在arr2中的元素
+# 1. 在arr2中的元素，需要考虑怎么重复：统计每个元素在arr1中出现的次数，然后依照在arr2中的顺序进行重复
+# 2. 不在arr2中的元素，排序后挂到后面就行
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 
 class Solution:
@@ -22,4 +22,4 @@ class Solution:
         arr1Only = sorted(arr1Only)  
 
         return newArr + arr1Only  # 合并两部分
-```
+# ```

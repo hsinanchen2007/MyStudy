@@ -1,12 +1,12 @@
-### 解题思路
-1. strip leading zeroes，获得strippedString
-2. 判定正负，给sign赋值
-3. for loop char in strippedString：判定是否为数字，是否超出极限值，符合条件的话result = result * 10 + sign * int(char - '0')
-4. return result
+// ### 解题思路
+// 1. strip leading zeroes，获得strippedString
+// 2. 判定正负，给sign赋值
+// 3. for loop char in strippedString：判定是否为数字，是否超出极限值，符合条件的话result = result * 10 + sign * int(char - '0')
+// 4. return result
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func myAtoi(str string) int {
     if len(str) == 0 {
         return 0
@@ -56,8 +56,8 @@ func stripLeadingWhitespace(str string) string {
     }
     return result
 }
-```
+// ```
 
-### 复杂度分析
-时间复杂度：O(n), 线性时间遍历string
-空间复杂度：O(1), 常数空间存储临时变量
+// ### 复杂度分析
+// 时间复杂度：O(n), 线性时间遍历string
+// 空间复杂度：O(1), 常数空间存储临时变量

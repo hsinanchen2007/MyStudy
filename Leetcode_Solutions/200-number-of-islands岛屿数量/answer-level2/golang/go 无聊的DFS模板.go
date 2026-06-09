@@ -1,4 +1,4 @@
-```
+// ```
 var row, col int
 
 func numIslands(grid [][]byte) int {
@@ -29,4 +29,4 @@ func numDFS(board [][]byte, i, j int)  {
     numDFS(board, i, j - 1)
     numDFS(board, i, j + 1)
 }
-```
+// ```

@@ -1,5 +1,5 @@
-见代码详细注释：
-```
+// 见代码详细注释：
+// ```
 class Solution {
 public:
     int candy(vector<int>& ratings) {
@@ -27,5 +27,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/941092532b0e2139a0e761ab483c33bc2d598a8d22589c50b6aa1c4e60d76b07-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/941092532b0e2139a0e761ab483c33bc2d598a8d22589c50b6aa1c4e60d76b07-image.png)

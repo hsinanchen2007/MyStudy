@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :336 ms, 在所有 C++ 提交中击败了44.25% 的用户
-内存消耗 :69.1 MB, 在所有 C++ 提交中击败了16.38%的用户
+// ### 解题思路
+// 执行用时 :336 ms, 在所有 C++ 提交中击败了44.25% 的用户
+// 内存消耗 :69.1 MB, 在所有 C++ 提交中击败了16.38%的用户
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> kClosest(vector<vector<int>>& points, int K) {
@@ -24,4 +24,4 @@ public:
     	return p_kClosest;
     }
 };
-```
+// ```

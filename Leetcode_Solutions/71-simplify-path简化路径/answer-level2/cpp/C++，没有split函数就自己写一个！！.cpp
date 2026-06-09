@@ -1,5 +1,5 @@
-**自己实现一个按照指定字符对字符串进行分割的函数，全当练习字符串了。**
-```
+// **自己实现一个按照指定字符对字符串进行分割的函数，全当练习字符串了。**
+// ```
 class Solution {
     void split(string& s, vector<string>& v, string c)
     {
@@ -40,5 +40,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

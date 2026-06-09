@@ -1,13 +1,13 @@
-## 思路
+// ## 思路
 
-- 将输入按起点升序排序
-- 从起点开始判断，如果区间可以合并`intervals[i][1] >= intervals[i+1][0]`
-- 则合并区间`intervals[i][1] = intervals[i+1][1] > intervals[i][1] ? intervals[i+1][1] : intervals[i][1]` （伪代码，GO不能这样写）
-- 删除多余的区间`intervals = append(intervals[:i+1], intervals[i+2:]...)`
+// - 将输入按起点升序排序
+// - 从起点开始判断，如果区间可以合并`intervals[i][1] >= intervals[i+1][0]`
+// - 则合并区间`intervals[i][1] = intervals[i+1][1] > intervals[i][1] ? intervals[i+1][1] : intervals[i][1]` （伪代码，GO不能这样写）
+// - 删除多余的区间`intervals = append(intervals[:i+1], intervals[i+2:]...)`
 
-## Code
+// ## Code
 
-```
+// ```
 func merge(intervals [][]int) [][]int {
     n := len(intervals)
     sort.Slice(intervals, func(a, b int) bool {
@@ -26,4 +26,4 @@ func merge(intervals [][]int) [][]int {
     }
     return intervals
 }
-```
+// ```

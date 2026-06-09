@@ -1,8 +1,8 @@
-### 解题思路
-参考别人的代码，整理后思路更清晰了
-### 代码
+// ### 解题思路
+// 参考别人的代码，整理后思路更清晰了
+// ### 代码
 
-```golang
+// ```golang
 func permute(nums []int) [][]int {
     res := [][]int{}	// 最后的答案数组
     path := []int{} // 设计的排列缓存数组
@@ -35,4 +35,4 @@ func permute(nums []int) [][]int {
 	dfs(nums)	
 	return res
 }
-```
+// ```

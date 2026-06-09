@@ -1,9 +1,9 @@
-### 解题思路
-用filter函数
+# ### 解题思路
+# 用filter函数
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def singleNumber(self, nums):
         """
@@ -11,4 +11,4 @@ class Solution(object):
         :rtype: List[int]
         """
         return filter(lambda x:nums.count(x)==1,nums)
-```
+# ```

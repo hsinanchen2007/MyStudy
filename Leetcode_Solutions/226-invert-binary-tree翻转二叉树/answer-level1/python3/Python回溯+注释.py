@@ -1,4 +1,4 @@
-``` python []
+# ``` python []
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -14,4 +14,4 @@ class Solution:
         root.left = self.invertTree(root.left) #回溯求解左子树下面的子树
         root.right = self.invertTree(root.right)#回溯求解右子树下面的子树
         return root 
-```
+# ```

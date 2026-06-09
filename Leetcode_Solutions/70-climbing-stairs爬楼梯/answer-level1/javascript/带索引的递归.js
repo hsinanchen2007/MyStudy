@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} n
  * @return {number}
@@ -12,4 +12,4 @@ var climbStairs = function(n) {
   map[n] = climbStairs(n-1) + climbStairs(n-2)
   return map[n]
 };
-```
+// ```

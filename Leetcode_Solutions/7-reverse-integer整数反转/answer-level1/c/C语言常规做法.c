@@ -1,4 +1,4 @@
-```c
+// ```c
 int reverse(int x){
     if(x==-2147483648) return 0;
 
@@ -13,4 +13,4 @@ int reverse(int x){
     }
     return result*flag;
 }
-```
+// ```

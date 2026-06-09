@@ -1,4 +1,4 @@
-```
+// ```
 func removeDuplicates(S string) string {
 	var stack []byte
 	for i := 0; i <= len(S)-1; i++ {
@@ -16,4 +16,4 @@ func removeDuplicates(S string) string {
 	build.Write(stack)
 	return build.String()
 }
-```
+// ```

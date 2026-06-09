@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def shortestCompletingWord(self, licensePlate: str, words: List[str]) -> str:
         import re
@@ -17,4 +17,4 @@ class Solution:
             if len(words[i]) < len(min_l):
                 min_l = words[i]
         return min_l
-```
+# ```

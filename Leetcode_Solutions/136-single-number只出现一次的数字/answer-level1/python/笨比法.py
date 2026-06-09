@@ -1,13 +1,13 @@
-### 解题思路
-作弊方法。。先sort排序后直接两个两个对比是否相等
-遍历一遍数组，复杂度O(n)
+# ### 解题思路
+# 作弊方法。。先sort排序后直接两个两个对比是否相等
+# 遍历一遍数组，复杂度O(n)
 
-![QQ截图20200319213117.png](https://pic.leetcode-cn.com/90da4f5dbe0f75cfec9fadf06ebe0987637d0645101d736fcbb78c885d90cd81-QQ%E6%88%AA%E5%9B%BE20200319213117.png)
+# ![QQ截图20200319213117.png](https://pic.leetcode-cn.com/90da4f5dbe0f75cfec9fadf06ebe0987637d0645101d736fcbb78c885d90cd81-QQ%E6%88%AA%E5%9B%BE20200319213117.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         nums = sorted(nums)
@@ -19,4 +19,4 @@ class Solution:
             if nums[i] != nums[i + 1]:
                 return nums[i]
 
-```
+# ```

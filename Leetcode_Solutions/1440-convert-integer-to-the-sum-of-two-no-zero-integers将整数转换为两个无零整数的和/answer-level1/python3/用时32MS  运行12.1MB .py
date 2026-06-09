@@ -1,9 +1,9 @@
-### 解题思路
-暴力枚举 每次判断0是不是在串里面就ok了
+# ### 解题思路
+# 暴力枚举 每次判断0是不是在串里面就ok了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def getNoZeroIntegers(self, n):
         """
@@ -16,4 +16,4 @@ class Solution(object):
             if '0' not in a and '0' not in b:
                 return [a,b]
         
-```
+# ```

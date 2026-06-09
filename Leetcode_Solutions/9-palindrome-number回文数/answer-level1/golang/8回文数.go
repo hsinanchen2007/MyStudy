@@ -1,4 +1,4 @@
-```
+// ```
 func isPalindrome(x int) bool {
     _x := x
     tmp := 0 
@@ -14,4 +14,4 @@ func isPalindrome(x int) bool {
     }
     return tmp == x
 }
-```
+// ```

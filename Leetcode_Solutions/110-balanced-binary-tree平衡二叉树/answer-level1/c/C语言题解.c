@@ -1,10 +1,10 @@
-### 判断一个Node是否是平衡二叉树，然后递归所有Node
-包含两层递归，因此时间性能较差，但思路简洁易懂。
-![image.png](https://pic.leetcode-cn.com/cbbafd9de18da7d3bf460525537cf8da9e3e4ad696a9206c0196bd2f30a930e4-image.png)
+// ### 判断一个Node是否是平衡二叉树，然后递归所有Node
+// 包含两层递归，因此时间性能较差，但思路简洁易懂。
+// ![image.png](https://pic.leetcode-cn.com/cbbafd9de18da7d3bf460525537cf8da9e3e4ad696a9206c0196bd2f30a930e4-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -45,4 +45,4 @@ bool isBalanced(struct TreeNode* root){
 
     return true;
 }
-```
+// ```

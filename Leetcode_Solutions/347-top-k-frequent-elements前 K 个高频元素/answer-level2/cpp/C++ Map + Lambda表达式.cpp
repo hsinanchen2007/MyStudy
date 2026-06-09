@@ -1,11 +1,11 @@
-思路：存到map里计数，然后结构体排序按照出现次数从大到小排序。
+// 思路：存到map里计数，然后结构体排序按照出现次数从大到小排序。
 
-为什么用lambda表达式：因为map的key-value结构只能对key进行重载，所以需要手写一个对value的排序
+// 为什么用lambda表达式：因为map的key-value结构只能对key进行重载，所以需要手写一个对value的排序
 
-为了贯彻懒得喜欢写短代码的习惯，果断选择lambda表达式
+// 为了贯彻懒得喜欢写短代码的习惯，果断选择lambda表达式
 
 
-```
+// ```
 class Solution {
 public:
     vector<int> topKFrequent(vector<int>& nums, int k) {
@@ -27,4 +27,4 @@ public:
         return ans;
     }
 };
-```
+// ```

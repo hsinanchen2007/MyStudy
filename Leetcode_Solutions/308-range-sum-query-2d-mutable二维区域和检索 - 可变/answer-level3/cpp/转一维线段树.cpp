@@ -1,6 +1,6 @@
-线段树可以用来解决频繁对区间查询和修改一类的题，求[天际线问题的题解](https://leetcode-cn.com/problems/the-skyline-problem/solution/sao-miao-xian-chi-san-hua-xian-duan-shu-mo-ban-ke-/)。
-其实模板基本相似，难点是怎么把问题求解转为对区间的查询修改。
-```
+// 线段树可以用来解决频繁对区间查询和修改一类的题，求[天际线问题的题解](https://leetcode-cn.com/problems/the-skyline-problem/solution/sao-miao-xian-chi-san-hua-xian-duan-shu-mo-ban-ke-/)。
+// 其实模板基本相似，难点是怎么把问题求解转为对区间的查询修改。
+// ```
 class NumMatrix {
 private:
     vector<vector<int>>& matrix;
@@ -74,4 +74,4 @@ public:
     }
 };
 
-```
+// ```

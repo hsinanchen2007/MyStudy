@@ -1,9 +1,9 @@
-### 解题思路
-> 核心思想：最高价卖-最低价买== 最高价卖-最低价买 + 中间价买 - 中间价买
+# ### 解题思路
+# > 核心思想：最高价卖-最低价买== 最高价卖-最低价买 + 中间价买 - 中间价买
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         '''
@@ -50,10 +50,10 @@ class Solution:
         return ans
 
 
-```
+# ```
 
-补充一个DP的方法：
-```python3
+# 补充一个DP的方法：
+# ```python3
     def maxProfit(self, prices: List[int]) -> int:
         '''
         dp方法，二维数据记录整体收益， 注意状态转换方法是两种模式相互切换；详细参考如下题解
@@ -77,4 +77,4 @@ class Solution:
             dp_cash[i] = max(dp_cash[i - 1], dp_stock[i - 1] + prices[i])
 
         return dp_cash[-1]
-```
+# ```

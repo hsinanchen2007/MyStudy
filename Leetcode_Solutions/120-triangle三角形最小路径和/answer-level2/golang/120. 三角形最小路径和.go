@@ -1,5 +1,5 @@
-自顶向下记忆化搜索
-```
+// 自顶向下记忆化搜索
+// ```
 func minimumTotal(triangle [][]int) int {
     storeMem := make(map[string]int,)
     return findMax(triangle,0,0,storeMem)
@@ -25,12 +25,12 @@ func findMax(triangle [][]int,level int,index int,storeMem map[string]int) int{
         return  right+triangle[level][index]
     }
 }
-```
+// ```
 
-//DP方程
-// dp[i][j] = min(dp[i+1][j],dp[i+1][j+1])+dp[i][j]
+// //DP方程
+// // dp[i][j] = min(dp[i+1][j],dp[i+1][j+1])+dp[i][j]
 
-```
+// ```
 func minimumTotal(triangle [][]int) int {
     //初始化状态数组
     dp := triangle
@@ -46,4 +46,4 @@ func minimumTotal(triangle [][]int) int {
     return dp[0][0]
 }
 
-```
+// ```

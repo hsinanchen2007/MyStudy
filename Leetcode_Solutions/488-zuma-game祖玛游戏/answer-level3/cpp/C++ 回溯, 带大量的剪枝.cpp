@@ -1,23 +1,23 @@
-# c++ 回溯(DFS) 8ms
+// # c++ 回溯(DFS) 8ms
 
-# 思路
-1. 需要一个函数用于回溯: hand(一共n个球)中的任意球往board(一共m个球)的**任意**位置插入, 那么时间复杂度=O(n!)*O(m!)
-2. 需要一个函数用于(迭代式)消除连续的球，每次插入新的球后调用这个函数
-3. 但是这样会超时, 所以需要大量的剪枝，具体的思路见代码:)
+// # 思路
+// 1. 需要一个函数用于回溯: hand(一共n个球)中的任意球往board(一共m个球)的**任意**位置插入, 那么时间复杂度=O(n!)*O(m!)
+// 2. 需要一个函数用于(迭代式)消除连续的球，每次插入新的球后调用这个函数
+// 3. 但是这样会超时, 所以需要大量的剪枝，具体的思路见代码:)
 
-# 测试用例举例: (括号内是插入的球)
-1. 一般难度的: board: WWRRBBWW, hand:WWRB, 
-   WWRRBBWW->WWRR(R)BBWW->WWBB(B)WW->WWWW->"", 结果为***2***
-2. 容易WA的: board: RRWWRRBBRR, hand: WB: 看起来没有解(-1), **但正确结果是2**: 
-   **正确流程为**RRWWRRBBRR->RRWWRRBBR(W)R->RRWWRRBB(B)R(W)R->RRWWRRR(W)R->RRWW(W)R->RRR->""
+// # 测试用例举例: (括号内是插入的球)
+// 1. 一般难度的: board: WWRRBBWW, hand:WWRB, 
+//    WWRRBBWW->WWRR(R)BBWW->WWBB(B)WW->WWWW->"", 结果为***2***
+// 2. 容易WA的: board: RRWWRRBBRR, hand: WB: 看起来没有解(-1), **但正确结果是2**: 
+//    **正确流程为**RRWWRRBBRR->RRWWRRBBR(W)R->RRWWRRBB(B)R(W)R->RRWWRRR(W)R->RRWW(W)R->RRR->""
 
-   部分**题解：限制插入球位置在board相同类型球后面将会WA, 输出-1, 不能作此剪枝**
-   但是**又有部分题解尽管作出限制, 但AC**, 根据我的理解, **这些题解在插入球满足连续>=3个球相同时同时DFS/BFS了立即消去球和没有立即消去球的情况**, 不符合祖玛题意但结果正确，出现了如下流程: RRWWRRBBRR->RRWW(W)RRBBRR->RRRRBBRR->RRRRBB(B)RR->RRRRRR->""
-3. 容易TLE的,球的种类多: board: WBGGRRYYR, hand: BBYRGWW, 流程应当为 WBGGRRYYR->WBGGRRYY(Y)R->WBGGRRR->WBGG(G)->WB->W(WW)B->B(BB)->"", 如何解决TLE请参加我代码中的剪枝:), 结果是***6***
+//    部分**题解：限制插入球位置在board相同类型球后面将会WA, 输出-1, 不能作此剪枝**
+//    但是**又有部分题解尽管作出限制, 但AC**, 根据我的理解, **这些题解在插入球满足连续>=3个球相同时同时DFS/BFS了立即消去球和没有立即消去球的情况**, 不符合祖玛题意但结果正确，出现了如下流程: RRWWRRBBRR->RRWW(W)RRBBRR->RRRRBBRR->RRRRBB(B)RR->RRRRRR->""
+// 3. 容易TLE的,球的种类多: board: WBGGRRYYR, hand: BBYRGWW, 流程应当为 WBGGRRYYR->WBGGRRYY(Y)R->WBGGRRR->WBGG(G)->WB->W(WW)B->B(BB)->"", 如何解决TLE请参加我代码中的剪枝:), 结果是***6***
 
 
-# **代码**  4-12ms
-```cpp
+// # **代码**  4-12ms
+// ```cpp
 //带大量剪枝的回溯, 代码注释中的"字符"与我的题解中的"球"为同一个意思
 
 class Solution {
@@ -106,6 +106,6 @@ public:
         return (gblRes == INT_MAX) ? -1 : gblRes;
     }
 };
-```
+// ```
 
-**非常感谢您阅读到这里，欢迎批评指正！**
+// **非常感谢您阅读到这里，欢迎批评指正！**

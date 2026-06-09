@@ -1,6 +1,6 @@
-### 解题思路
+# ### 解题思路
 
-```
+# ```
 for w in words:
     for i in w:
         if w.count(i)<=chars.count(i):
@@ -11,11 +11,11 @@ for w in words:
     if indcator == True:
         res += len(w)
 return res
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         res = 0
@@ -33,4 +33,4 @@ class Solution:
         
         
                     
-```
+# ```

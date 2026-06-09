@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string compressString(string S) {
@@ -24,4 +24,4 @@ public:
         return rec.size() < S.size()? rec: S;
     }
 };
-```
+// ```

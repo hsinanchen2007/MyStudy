@@ -1,5 +1,5 @@
-**标准并查集题目,直接上代码**
-```
+// **标准并查集题目,直接上代码**
+// ```
 class Solution {
 public:
     vector<int> father; // father[i] 表示以i为下标的父亲节点
@@ -56,4 +56,4 @@ public:
         return this->num;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
 
-long保存大数据 当number小于0时 加上4294967296来获取补码
+// long保存大数据 当number小于0时 加上4294967296来获取补码
 
-```
+// ```
 Code fence
 class Solution {
     public String toHex(int num) {
@@ -34,4 +34,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

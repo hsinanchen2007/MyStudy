@@ -1,6 +1,6 @@
-*法一：暴力双循环*
+// *法一：暴力双循环*
 
-```js
+// ```js
 var numJewelsInStones = function(J, S) {
     let count = 0;
     for(let i = 0; i < S.length; i++) {
@@ -15,11 +15,11 @@ var numJewelsInStones = function(J, S) {
     }
     return count
 };
-```
+// ```
 
-*法二：正则*
+// *法二：正则*
 
-```js
+// ```js
 var numJewelsInStones2 = function(J, S) {
     let len = S.length;
     for(let i = 0; i < J.length; i++) {
@@ -28,11 +28,11 @@ var numJewelsInStones2 = function(J, S) {
     }
     return len - S.length;
 };
-```
+// ```
 
-*法三：正则*
+// *法三：正则*
 
-```js
+// ```js
 var numJewelsInStones = function(J, S) {
     let len = S.length;
     let SS = '[' + J + ']';
@@ -40,11 +40,11 @@ var numJewelsInStones = function(J, S) {
     S = S.replace(pat, '')
     return len - S.length;
 };
-```
+// ```
 
-*法四：数组 filter() 方法*
+// *法四：数组 filter() 方法*
 
-```js
+// ```js
 var numJewelsInStones = function(J, S) {
     let jArr = J.split('');
     let sArr = S.split('');
@@ -53,11 +53,11 @@ var numJewelsInStones = function(J, S) {
     })
     return JS.length
 };
-```
+// ```
 
-*法五：借助Set数据集*
+// *法五：借助Set数据集*
 
-```js
+// ```js
 var numJewelsInStones = function(J, S) {
     let set = new Set(J.split(''));
     let count = 0;
@@ -68,5 +68,5 @@ var numJewelsInStones = function(J, S) {
     }
     return count
 };
-```
+// ```
 

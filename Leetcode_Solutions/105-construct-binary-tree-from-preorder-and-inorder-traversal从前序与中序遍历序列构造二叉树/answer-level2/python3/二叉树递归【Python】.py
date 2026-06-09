@@ -1,8 +1,8 @@
-### 思路
+# ### 思路
 
-**递归**
+# **递归**
 
-```
+# ```
 前序遍历：根左右
 中序遍历：左根右
 
@@ -11,14 +11,14 @@
 
 注意：
 保证递归的 preorder 和 inorder 个数一致。
-```
+# ```
 
-**时间复杂度:** O(n)，n 为节点个数。
-**空间复杂度:** O(n)，n 为节点个数。
+# **时间复杂度:** O(n)，n 为节点个数。
+# **空间复杂度:** O(n)，n 为节点个数。
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -40,8 +40,8 @@ class Solution:
         root.right = self.buildTree(preorder[i+1:], inorder[i+1:])
 
         return root
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/0105.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0105-Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal/0105.py)

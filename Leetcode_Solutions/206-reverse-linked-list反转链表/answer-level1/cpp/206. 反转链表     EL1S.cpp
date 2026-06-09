@@ -1,7 +1,7 @@
-两种方法：
-递归
-递归就是每次都只做一点点，剩下的让后面的接着做
-```
+// 两种方法：
+// 递归
+// 递归就是每次都只做一点点，剩下的让后面的接着做
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,8 +32,8 @@ public:
     }
 };
 
-```
-```
+// ```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -57,11 +57,11 @@ public:
         return pt;
     }
 };
-```
+// ```
 
 
-循环
-```
+// 循环
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -85,10 +85,10 @@ public:
         return left;
     }
 };
-```
-使用栈
+// ```
+// 使用栈
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -119,4 +119,4 @@ public:
         return dummy->next;
     }
 };
-```
+// ```

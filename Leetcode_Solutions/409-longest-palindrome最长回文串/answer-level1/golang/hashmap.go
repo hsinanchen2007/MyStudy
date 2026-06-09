@@ -1,9 +1,9 @@
-### 解题思路
-hashmap计数
+// ### 解题思路
+// hashmap计数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestPalindrome(s string) int {
 	kv := map[byte]int{}
 
@@ -32,4 +32,4 @@ func longestPalindrome(s string) int {
 
 	return count
 }
-```
+// ```

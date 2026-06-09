@@ -1,9 +1,9 @@
-### 解题思路
-简单的二分法，我用的是递归方法
+// ### 解题思路
+// 简单的二分法，我用的是递归方法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -76,4 +76,4 @@ public:
         } 
     }
 };
-```
+// ```

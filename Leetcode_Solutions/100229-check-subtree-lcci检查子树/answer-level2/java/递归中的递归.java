@@ -1,7 +1,7 @@
-执行用时 :1 ms, 在所有 Java 提交中击败了98.77%的用户
-内存消耗 :42.5 MB, 在所有 Java 提交中击败了100.00%的用户
+// 执行用时 :1 ms, 在所有 Java 提交中击败了98.77%的用户
+// 内存消耗 :42.5 MB, 在所有 Java 提交中击败了100.00%的用户
 
-```
+// ```
 class Solution {
     public boolean checkSubTree(TreeNode t1, TreeNode t2) {
         if(t2 == null) return true;
@@ -22,5 +22,5 @@ class Solution {
     }
 
 }
-```
+// ```
 

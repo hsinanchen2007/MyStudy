@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -30,5 +30,5 @@ class Solution:
         p2.next=None
         return head
         
-```
+# ```
 

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -20,4 +20,4 @@ func isMillor(p,q *TreeNode)bool{
     }
     return p.Val==q.Val &&isMillor(p.Left,q.Right)&&isMillor(p.Right,q.Left)
 }
-```
+// ```

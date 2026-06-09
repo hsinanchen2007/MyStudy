@@ -1,12 +1,12 @@
-### 解题思路
-使用前后两个指针
-- 如果```customfunction.f(x, y) < z```的时候，移动数字小的指针；
-- 如果```customfunction.f(x, y) > z```的时候，移动数字大的指针；
-- 如果```customfunction.f(x, y) == z```的时候，记录结果。
+// ### 解题思路
+// 使用前后两个指针
+// - 如果```customfunction.f(x, y) < z```的时候，移动数字小的指针；
+// - 如果```customfunction.f(x, y) > z```的时候，移动数字大的指针；
+// - 如果```customfunction.f(x, y) == z```的时候，记录结果。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
  * // This is the custom function interface.
  * // You should not implement it, or speculate about its implementation
@@ -41,4 +41,4 @@ class Solution {
         return solution;
     }
 }
-```
+// ```

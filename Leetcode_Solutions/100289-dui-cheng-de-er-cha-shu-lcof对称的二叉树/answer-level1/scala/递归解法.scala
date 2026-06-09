@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-左右对称边递归并判断
+// 左右对称边递归并判断
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 /**
  * Definition for a binary tree node.
  * class TreeNode(var _value: Int) {
@@ -30,4 +30,4 @@ object Solution {
 
   }
 }
-```
+// ```

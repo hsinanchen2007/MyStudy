@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-kick the card. 
+# kick the card. 
 
-Again, I will give you the code. 
+# Again, I will give you the code. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 def ysf(n,m):
     if n==1:
         return 0
@@ -17,4 +17,4 @@ class Solution:
     def lastRemaining(self, n: int, m: int) -> int:
         return ysf(n,m)
    
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 var findJudge = function(N, trust) {
 	if (N == 1 && trust.length == 0) {
         return 1
@@ -28,4 +28,4 @@ var findJudge = function(N, trust) {
     }
     return -1
 };
-```
+// ```

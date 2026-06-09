@@ -1,4 +1,4 @@
-```
+// ```
 int reverse(int x)
 {
     long long target;
@@ -15,5 +15,5 @@ int reverse(int x)
     return ans;
 }
 
-```
+// ```
 

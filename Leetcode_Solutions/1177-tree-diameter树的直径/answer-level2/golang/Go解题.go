@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :32 ms, 在所有 Go 提交中击败了50.00%的用户
-内存消耗 :6.9 MB, 在所有 Go 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :32 ms, 在所有 Go 提交中击败了50.00%的用户
+// 内存消耗 :6.9 MB, 在所有 Go 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var res int
 
 func treeDiameter(edges [][]int) int {
@@ -42,4 +42,4 @@ func recursive(maps map[int][]int, index int, boolSlice []bool) int {
     }
     return max1
 }
-```
+// ```

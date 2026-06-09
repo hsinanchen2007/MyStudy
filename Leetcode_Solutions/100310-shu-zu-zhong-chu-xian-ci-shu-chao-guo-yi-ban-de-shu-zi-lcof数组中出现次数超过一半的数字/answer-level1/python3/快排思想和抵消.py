@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
 
@@ -32,4 +32,4 @@ class Solution:
             else:
                 end = j-2
         return nums[start] 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-每次移动四个点
+// ### 解题思路
+// 每次移动四个点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
@@ -27,4 +27,4 @@ class Solution {
         }
     }
 }
-```
+// ```

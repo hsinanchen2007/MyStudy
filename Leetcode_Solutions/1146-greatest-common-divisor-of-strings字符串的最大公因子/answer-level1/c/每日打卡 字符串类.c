@@ -1,9 +1,9 @@
-### 解题思路
-反复找相同的部分  参考别人的方法
+// ### 解题思路
+// 反复找相同的部分  参考别人的方法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * gcdOfStrings(char * str1, char * str2)
 {
     if(strstr(str1,str2)==NULL&&strstr(str2,str1)==NULL) return "";
@@ -16,4 +16,4 @@ char * gcdOfStrings(char * str1, char * str2)
     }while(cmp);
     return str1+pt_a;
 }
-```
+// ```

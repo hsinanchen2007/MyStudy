@@ -1,9 +1,9 @@
-### 解题思路
-首先建立堆，然后利用堆排序堆思路，求出堆的第K个值。
+// ### 解题思路
+// 首先建立堆，然后利用堆排序堆思路，求出堆的第K个值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void swap(int arr[], int i, int j) {
     int temp = arr[i];
     arr[i] = arr[j];
@@ -49,4 +49,4 @@ int findKthLargest(int* nums, int numsSize, int k){
     }
     return nums[numsSize - k];
 }
-```
+// ```

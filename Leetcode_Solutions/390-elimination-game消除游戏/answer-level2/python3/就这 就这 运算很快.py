@@ -1,6 +1,6 @@
-执行用时 :56 ms, 在所有 Python3 提交中击败了100.00%的用户
-内存消耗 :13.8 MB, 在所有 Python3 提交中击败了7.14%的用户
-```
+# 执行用时 :56 ms, 在所有 Python3 提交中击败了100.00%的用户
+# 内存消耗 :13.8 MB, 在所有 Python3 提交中击败了7.14%的用户
+# ```
 class Solution:
     def lastRemaining(self, n: int) -> int:
         if n==1:
@@ -23,4 +23,4 @@ class Solution:
                 l = l//2
                 i +=1 
         return result
-```
+# ```

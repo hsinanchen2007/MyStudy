@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int count=0,flag=0,len=0,num=0,k=0;
@@ -26,4 +26,4 @@ for(int i=k+1;i<A.length;i++){
 return false;
     }
 }
-```
+// ```

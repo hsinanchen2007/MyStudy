@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def sortedSquares(self, A):
         """
@@ -8,4 +8,4 @@ class Solution(object):
         for i in range(len(A)):
             A[i] = A[i]**2
         return sorted(A)
-```
+# ```

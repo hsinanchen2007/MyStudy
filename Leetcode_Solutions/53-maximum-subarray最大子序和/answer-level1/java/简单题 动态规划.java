@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
        if(nums==null || nums.length==0)
@@ -20,5 +20,5 @@ class Solution {
 		return max;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/50ae0b613b803dbf715d95ef344d9dd4521c1d8b32f5d141cb2c6cf726187acb-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/50ae0b613b803dbf715d95ef344d9dd4521c1d8b32f5d141cb2c6cf726187acb-image.png)

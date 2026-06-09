@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn find_min_step(board: String, hand: String) -> i32 {
         //RYBGW 只有这五种情况,分别映射为0,1,2,3,4 简单起见
@@ -114,4 +114,4 @@ impl Solution {
         v
     }
 }
-```
+// ```

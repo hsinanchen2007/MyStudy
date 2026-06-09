@@ -1,5 +1,5 @@
-DP:
-```
+# DP:
+# ```
 class Solution(object):
     def maxProduct(self, nums):
         """
@@ -17,4 +17,4 @@ class Solution(object):
                 _min = min(res[i-1]['max']*nums[i],nums[i])
             res.append({"max":_max,"min":_min})
         return max([item["max"] for item in res])
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-用滑动窗口的方法，新建一个字符串arr保存s.slice(i,j),只要s[j]不存在于arr中，就将s[j]添加到arr中，并记录下此时无重复字符的字串长度，当s[j]存在arr中时，则移动i，进行下一次的窗口检测。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 用滑动窗口的方法，新建一个字符串arr保存s.slice(i,j),只要s[j]不存在于arr中，就将s[j]添加到arr中，并记录下此时无重复字符的字串长度，当s[j]存在arr中时，则移动i，进行下一次的窗口检测。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -27,4 +27,4 @@ var lengthOfLongestSubstring = function(s) {
   }
   return len  
 };
-```
+// ```

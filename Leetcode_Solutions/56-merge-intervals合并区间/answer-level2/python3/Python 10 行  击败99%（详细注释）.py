@@ -1,6 +1,6 @@
-24ms 14mb
-时间O(n) 空间O(n)
-```python
+# 24ms 14mb
+# 时间O(n) 空间O(n)
+# ```python
 class Solution(object):
     def merge(self, intervals):
         if not intervals : return []
@@ -20,9 +20,9 @@ class Solution(object):
                     res[-1][-1] = intervals[i][1]
                 #第三种情况，区间重复，但不需修改原数组（[1,6],[4,5]）
         return res                             
-```
-更新
-```python
+# ```
+# 更新
+# ```python
 class Solution(object):
     def merge(self, intervals):
         intervals.sort(); res = []
@@ -33,4 +33,4 @@ class Solution(object):
         return res
 
 
-```
+# ```

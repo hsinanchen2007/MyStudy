@@ -1,5 +1,5 @@
 
-```
+// ```
 class CustomStack {
 public:
     vector<int> stac;
@@ -30,4 +30,4 @@ public:
         }
     }
 };
-```
+// ```

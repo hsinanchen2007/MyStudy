@@ -1,5 +1,5 @@
-在官方解法基础上，加上了空字符串，字符串长度奇数和已右括号开头的特殊判断。
-```javascript []
+// 在官方解法基础上，加上了空字符串，字符串长度奇数和已右括号开头的特殊判断。
+// ```javascript []
 /**
  * @param {string} 
  * @return {boolean}
@@ -31,4 +31,4 @@ var isValid = function (s) {
   }
   return stack.length === 0
 };
-```
+// ```

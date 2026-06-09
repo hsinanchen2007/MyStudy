@@ -1,6 +1,6 @@
 
-没有特殊之处
-```
+// 没有特殊之处
+// ```
 class Solution {
 public:
     string compressString(string S) {
@@ -28,4 +28,4 @@ public:
         else return S_re;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-简单的层次遍历即可。
+// ### 解题思路
+// 简单的层次遍历即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -120,4 +120,4 @@ int* rightSideView(struct TreeNode* root, int* returnSize){
     QueueClear(&g_myQue);
     return ret;	
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxNumberOfBalloons(char * text){
     int len=strlen(text);
     int sum[26]={0};
@@ -23,4 +23,4 @@ int maxNumberOfBalloons(char * text){
     }
     return ;
 }
-```
+// ```

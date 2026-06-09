@@ -1,9 +1,9 @@
-### 解题思路
-细节
+# ### 解题思路
+# 细节
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution(object):
         if carry:
             cur.next = ListNode(carry) 
         return dummyHead.next
-```
+# ```

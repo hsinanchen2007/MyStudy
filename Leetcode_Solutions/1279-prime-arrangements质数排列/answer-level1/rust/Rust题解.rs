@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn num_prime_arrangements(n: i32) -> i32 {
         let mut is_prime = vec![true; n as usize];
@@ -31,5 +31,5 @@ impl Solution {
         ret as i32
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

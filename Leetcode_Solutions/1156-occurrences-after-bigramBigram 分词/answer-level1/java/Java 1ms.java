@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-贼蠢，没想到length - 2！
+// 贼蠢，没想到length - 2！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] findOcurrences(String text, String first, String second) {
     String[] temp;
@@ -19,4 +19,4 @@ class Solution {
         return result.toArray(new String[result.size()]);
     }
 }
-```
+// ```

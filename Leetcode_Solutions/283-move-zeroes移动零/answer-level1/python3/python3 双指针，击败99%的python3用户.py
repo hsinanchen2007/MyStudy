@@ -1,11 +1,11 @@
-### 解题思路
-在纸上把移动过程模拟一边就ok
+# ### 解题思路
+# 在纸上把移动过程模拟一边就ok
 
-### 代码
+# ### 代码
 
 
 
-```
+# ```
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
@@ -23,4 +23,4 @@ class Solution:
             else:
                 i+=1
                 j+=1
-```
+# ```

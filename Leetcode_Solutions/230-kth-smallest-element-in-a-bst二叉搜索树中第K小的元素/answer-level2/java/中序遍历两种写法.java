@@ -1,7 +1,7 @@
-**二叉搜索树的中序遍历就是从小到大的排序，所以只需要进行中序遍历，在中序遍历的过程中进行判断就可以时间复杂度为O（n）**
-非递归解法，使用栈来解决，代码如下：
-空间复杂度为：O（n）
-```
+// **二叉搜索树的中序遍历就是从小到大的排序，所以只需要进行中序遍历，在中序遍历的过程中进行判断就可以时间复杂度为O（n）**
+// 非递归解法，使用栈来解决，代码如下：
+// 空间复杂度为：O（n）
+// ```
 class Solution {
      public int kthSmallest(TreeNode root, int k) {
         return middleOrder(root,k,0);
@@ -26,9 +26,9 @@ class Solution {
     }
 }
 
-```
-递归解法,空间复杂度为O（lgn）
-```
+// ```
+// 递归解法,空间复杂度为O（lgn）
+// ```
 class Solution {
     int res = 0,count = 0;
     public int kthSmallest(TreeNode root, int k) {
@@ -47,5 +47,5 @@ class Solution {
     }
 }
 
-```
+// ```
 

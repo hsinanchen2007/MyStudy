@@ -1,10 +1,10 @@
-即使看起来效果不错，但我还是觉得这一题我的代码极烂，不符合代码应该简洁的特点，所以这里的代码仅供参考
+// 即使看起来效果不错，但我还是觉得这一题我的代码极烂，不符合代码应该简洁的特点，所以这里的代码仅供参考
 
-先上图为证：
-![go实现效果](https://pic.leetcode-cn.com/0b20eaf4c1f1be43cab69944a521c5f677ca7e436da3b0a5da1c3c94bb9cd81b-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200127113049.png)
+// 先上图为证：
+// ![go实现效果](https://pic.leetcode-cn.com/0b20eaf4c1f1be43cab69944a521c5f677ca7e436da3b0a5da1c3c94bb9cd81b-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200127113049.png)
 
-代码具体如下：
-```
+// 代码具体如下：
+// ```
 func spiralOrder(matrix [][]int) []int {
 	var res []int
 	if len(matrix)==0 {
@@ -54,5 +54,5 @@ func getBorder(matrix [][]int,res *[]int,a int,b int,c int,d int)  {
 		*res=append(*res,matrix[i][b])
 	}
 }
-```
+// ```
 

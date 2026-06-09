@@ -1,4 +1,4 @@
-```
+# ```
 from collections import defaultdict
 class Solution:
     def findLonelyPixel(self, picture: List[List[str]]) -> int:
@@ -16,4 +16,4 @@ class Solution:
             if line[i] == 1 and row[j] ==1:
                 count += 1
         return count
-```
+# ```

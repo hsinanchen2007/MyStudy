@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 // Java Iterator interface reference:
 // https://docs.oracle.com/javase/8/docs/api/java/util/Iterator.html
 class PeekingIterator implements Iterator<Integer> {
@@ -40,4 +40,4 @@ class PeekingIterator implements Iterator<Integer> {
             return (!queue.isEmpty()) || iterator.hasNext();
         }
     }
-```
+// ```

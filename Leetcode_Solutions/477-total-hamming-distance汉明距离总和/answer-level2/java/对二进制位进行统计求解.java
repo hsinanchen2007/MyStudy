@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int totalHammingDistance(int[] nums) {
         if(nums.length<=1){
@@ -24,5 +24,5 @@ class Solution {
     }
 
 }
-```
-对位进行数量统计求解
+// ```
+// 对位进行数量统计求解

@@ -1,9 +1,9 @@
-### 解题思路
-双端+单调队列
+// ### 解题思路
+// 双端+单调队列
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void q_in(int* nums, int* q, int qf, int* qe, int k, int idx)
 {
     int i = 0;
@@ -69,4 +69,4 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize)
     *returnSize = numsSize - k + 1;
     return ret;
 }
-```
+// ```

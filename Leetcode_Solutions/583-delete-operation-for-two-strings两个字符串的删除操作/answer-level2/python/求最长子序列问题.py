@@ -1,9 +1,9 @@
-### 解题思路
-只需要求出最公共长子序列（1143题），然后算出总字符串长度，减去二倍的子序列长度即可。
+# ### 解题思路
+# 只需要求出最公共长子序列（1143题），然后算出总字符串长度，减去二倍的子序列长度即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def minDistance(self, word1, word2):
         r = len(word1)
@@ -18,4 +18,4 @@ class Solution(object):
                 else:
                     dp[i][j] = max(dp[i-1][j],dp[i][j-1])
         return  r+c-dp[-1][-1]*2
-```
+# ```

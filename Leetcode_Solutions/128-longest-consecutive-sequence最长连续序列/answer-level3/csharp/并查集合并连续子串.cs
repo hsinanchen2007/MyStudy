@@ -1,9 +1,9 @@
-### 解题思路
-每个集合记录 最大和最小值 和 数字总量
+// ### 解题思路
+// 每个集合记录 最大和最小值 和 数字总量
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 class NumUnion{
 
     public int v;
@@ -74,4 +74,4 @@ public class Solution {
         return cl.LongestConsecutive(nums);
     }
 }
-```
+// ```

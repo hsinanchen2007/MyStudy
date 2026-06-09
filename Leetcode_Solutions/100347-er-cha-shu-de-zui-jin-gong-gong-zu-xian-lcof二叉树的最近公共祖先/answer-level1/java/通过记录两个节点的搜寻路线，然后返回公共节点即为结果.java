@@ -1,11 +1,11 @@
-### 解题思路
-1. 新建一个DFS函数，分别传入p节点和q节点
-2. 得出两个节点的路线数组
-3. 拿出两个数组里面相同的节点返回
+// ### 解题思路
+// 1. 新建一个DFS函数，分别传入p节点和q节点
+// 2. 得出两个节点的路线数组
+// 3. 拿出两个数组里面相同的节点返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         return collector;
     }
 }
-```
+// ```

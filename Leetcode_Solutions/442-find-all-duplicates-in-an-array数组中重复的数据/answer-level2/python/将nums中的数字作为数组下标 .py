@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 对应位置的数字取负数 如果发现已经是负数 说明这个下标是重复的。
 class Solution(object):
     def findDuplicates(self, nums):
@@ -14,5 +14,5 @@ class Solution(object):
             nums[abs(n) - 1] = - abs(nums[abs(n) - 1])
         return res
 
-```
+# ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-注意溢出和正负号的处理即可
+// ### 解题思路
+// 注意溢出和正负号的处理即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int reverse(int x) {
@@ -17,4 +17,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-思路相对比较简单，但是需要注意边界值处理，注意细节！
-```
+// 思路相对比较简单，但是需要注意边界值处理，注意细节！
+// ```
 func maxDistance(grid [][]int) int {
 	var max = -1
 	for i := 0; i < len(grid); i++ {
@@ -42,4 +42,4 @@ func search(grid [][]int, x, y int) int {
 	}
 	return -1
 }
-```
+// ```

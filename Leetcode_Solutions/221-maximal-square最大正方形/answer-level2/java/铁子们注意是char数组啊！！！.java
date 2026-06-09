@@ -1,5 +1,5 @@
-服了嗷，做了半天，发现是char数组。欲哭无泪。
-```java
+// 服了嗷，做了半天，发现是char数组。欲哭无泪。
+// ```java
 class Solution {
     public int maximalSquare(char[][] matrix) {
         int row = matrix.length,
@@ -28,4 +28,4 @@ class Solution {
         return ans * ans;
     }
 }
-```
+// ```

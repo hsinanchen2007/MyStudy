@@ -1,8 +1,8 @@
-### 解题思路
-bfs遍历一下，没啥好说的
-### 代码
+# ### 解题思路
+# bfs遍历一下，没啥好说的
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
                 if tmp.right.val == target.val:
                     return tmp.right
                 store.put(tmp.right)
-```
+# ```

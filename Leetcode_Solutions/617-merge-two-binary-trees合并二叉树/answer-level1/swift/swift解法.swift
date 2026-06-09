@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func mergeTrees(_ t1: TreeNode?, _ t2: TreeNode?) -> TreeNode? {
         if t1 == nil && t2 == nil {
@@ -16,4 +16,4 @@ class Solution {
         return t
     }
 }
-```
+// ```

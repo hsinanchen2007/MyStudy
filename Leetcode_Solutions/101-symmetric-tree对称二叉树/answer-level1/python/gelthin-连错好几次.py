@@ -1,23 +1,23 @@
-### 解题思路
-同 剑指offer 习题 [面试题27. 二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
-这里主要是要考虑到 比较 left.left 和 right.right  以及 left.right 和 right.left
+# ### 解题思路
+# 同 剑指offer 习题 [面试题27. 二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)
+# 这里主要是要考虑到 比较 left.left 和 right.right  以及 left.right 和 right.left
 
 
-刚开始一直想着用前序遍历的方法来做，发现根本不对，前序遍历无法唯一确定一棵树。
-[中序遍历也不对](https://leetcode-cn.com/problems/symmetric-tree/solution/dui-cheng-er-cha-shu-by-leetcode/121770)
+# 刚开始一直想着用前序遍历的方法来做，发现根本不对，前序遍历无法唯一确定一棵树。
+# [中序遍历也不对](https://leetcode-cn.com/problems/symmetric-tree/solution/dui-cheng-er-cha-shu-by-leetcode/121770)
 
-二叉树前序遍历居然不唯一
+# 二叉树前序遍历居然不唯一
 
-看例子 [1,2,2,2,null,2, null] 如果补上所有的叶子节点的 null, 会导致出错。
+# 看例子 [1,2,2,2,null,2, null] 如果补上所有的叶子节点的 null, 会导致出错。
 
-中序遍历根本不对，无法解决此问题。
-
-
+# 中序遍历根本不对，无法解决此问题。
 
 
-### 代码
 
-```python3
+
+# ### 代码
+
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -41,10 +41,10 @@ class Solution:
         if root == None:
             return True
         return helper(root.left, root.right)
-```
+# ```
 
-#### 前序遍历的错误代码
-``` python3
+# #### 前序遍历的错误代码
+# ``` python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -73,4 +73,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

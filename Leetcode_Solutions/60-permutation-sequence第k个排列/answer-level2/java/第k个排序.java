@@ -1,5 +1,5 @@
-代码如下：
-```
+// 代码如下：
+// ```
 import java.util.*;
 class Solution {
     public String getPermutation(int n, int k) {
@@ -42,6 +42,6 @@ class Solution {
         return result;
     }
 }
-```
+// ```
 
-![截屏2020-01-13下午12.12.55.png](https://pic.leetcode-cn.com/ee008a725e6a5578bd6e421ad3fef0c9b7efc5d1a5bddb151ca6d702831b32af-%E6%88%AA%E5%B1%8F2020-01-13%E4%B8%8B%E5%8D%8812.12.55.png)
+// ![截屏2020-01-13下午12.12.55.png](https://pic.leetcode-cn.com/ee008a725e6a5578bd6e421ad3fef0c9b7efc5d1a5bddb151ca6d702831b32af-%E6%88%AA%E5%B1%8F2020-01-13%E4%B8%8B%E5%8D%8812.12.55.png)

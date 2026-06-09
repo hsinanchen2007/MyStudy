@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x >= 0 :
@@ -12,5 +12,5 @@ class Solution:
                 return False
         else:
             return False
-```
-直接暴力使用转字符串的方法解题。
+# ```
+# 直接暴力使用转字符串的方法解题。

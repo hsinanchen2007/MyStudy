@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/cae7894b49d6eafccc13c6f797e8237c7280ac91dc15b797fee88d2eaf62f669-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/cae7894b49d6eafccc13c6f797e8237c7280ac91dc15b797fee88d2eaf62f669-image.png)
 
-0和1的坐标放两个数组，然后遍历，内循环找最小，外循环找最大。
+// 0和1的坐标放两个数组，然后遍历，内循环找最小，外循环找最大。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -35,4 +35,4 @@ var maxDistance = function(grid) {
     });
     return dist;
 };
-```
+// ```

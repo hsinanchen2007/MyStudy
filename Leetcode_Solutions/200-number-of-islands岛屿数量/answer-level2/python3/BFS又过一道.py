@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         # 遍历找到1然后开启BFS，将访问过的节点置0
@@ -27,4 +27,4 @@ class Solution:
                                 queue.append((tx, ty))
                                 grid[tx][ty] = "0"
         return count
-```
+# ```

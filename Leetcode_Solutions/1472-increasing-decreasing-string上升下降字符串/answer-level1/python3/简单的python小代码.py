@@ -1,8 +1,8 @@
-### 解题思路
-如代码
-### 代码
+# ### 解题思路
+# 如代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortString(self, s: str) -> str:
         is_rise = True
@@ -17,4 +17,4 @@ class Solution:
             for l in set_s:
                 s = s[:s.index(l)]+s[s.index(l) +1:]
         return re
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func subsets(nums []int) [][]int {
     // 结果集
     res := make([][]int, 0)    
@@ -24,4 +24,4 @@ func subsets(nums []int) [][]int {
     search(0)
     return res
 }
-```
+// ```

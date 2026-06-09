@@ -1,9 +1,9 @@
-### 解题思路
-方法：采用递归
+// ### 解题思路
+// 方法：采用递归
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,4 +38,4 @@ public:
         return root;
     }
 };
-```
+// ```

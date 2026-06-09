@@ -1,11 +1,11 @@
-### 思路：
-奇偶层的打印顺序不一样是相反的，可以利用层数偶数与否调用reverse来解决，但是海量数据时这个效率很低，不推荐。
+# ### 思路：
+# 奇偶层的打印顺序不一样是相反的，可以利用层数偶数与否调用reverse来解决，但是海量数据时这个效率很低，不推荐。
 
-因为奇数层的打印顺序是从左到右，偶数层的打印顺序是从右到左，可以利用STL容器deque中
-``push_back()``,``push_front()``,``front()``,``back()``,``pop()``,``popfront()``来实现
+# 因为奇数层的打印顺序是从左到右，偶数层的打印顺序是从右到左，可以利用STL容器deque中
+# ``push_back()``,``push_front()``,``front()``,``back()``,``pop()``,``popfront()``来实现
 
-**前取后放，后取前放**
-```c++ []
+# **前取后放，后取前放**
+# ```c++ []
 class Solution {
 public:
     vector<vector<int>> levelOrder(TreeNode* root) {
@@ -49,8 +49,8 @@ public:
         return res;
     }
 };
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         res = []
@@ -81,8 +81,8 @@ class Solution:
             res.append(out[:])
             flag= not flag
         return res
-```
+# ```
 
-### 欢迎Star
-#### [更多剑指Offer题解（C++与Python实现）](https://github.com/bryceustc/CodingInterviews)
-#### [更多LeetCode题解（C++与Python实现）](https://github.com/bryceustc/LeetCode_Note)
+# ### 欢迎Star
+# #### [更多剑指Offer题解（C++与Python实现）](https://github.com/bryceustc/CodingInterviews)
+# #### [更多LeetCode题解（C++与Python实现）](https://github.com/bryceustc/LeetCode_Note)

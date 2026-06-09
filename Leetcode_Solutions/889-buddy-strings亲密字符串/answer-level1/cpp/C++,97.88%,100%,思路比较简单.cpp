@@ -1,4 +1,4 @@
-分为AB相等和不等来处理
+// 分为AB相等和不等来处理
 
 class Solution {
 public:

@@ -1,14 +1,14 @@
-### 解题思路
-- 计算数组的总和，若不能被3整除返回false
-- 双指针从两端往中间逼近，看是否能够两边的加和leftsum和rightsum都等于target
+// ### 解题思路
+// - 计算数组的总和，若不能被3整除返回false
+// - 双指针从两端往中间逼近，看是否能够两边的加和leftsum和rightsum都等于target
 
-注意的点：此题不允许空的分组，因此若target为0时要注意不要让左右分组的大小为0
-我的做法是把leftsum和rightsum的值提前加上一个，让left从1开始和right从len-2开始
-另外最后找到之后，再次验证 中间的分组是否大小为0，因为可能只分了左右两组
+// 注意的点：此题不允许空的分组，因此若target为0时要注意不要让左右分组的大小为0
+// 我的做法是把leftsum和rightsum的值提前加上一个，让left从1开始和right从len-2开始
+// 另外最后找到之后，再次验证 中间的分组是否大小为0，因为可能只分了左右两组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int sum = 0;
@@ -37,4 +37,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

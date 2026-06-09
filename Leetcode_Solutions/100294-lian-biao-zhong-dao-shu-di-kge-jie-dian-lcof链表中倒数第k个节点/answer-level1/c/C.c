@@ -1,10 +1,10 @@
-### 解题思路
-1.查找到链表的大小
-2.循环找到倒数的值
+// ### 解题思路
+// 1.查找到链表的大小
+// 2.循环找到倒数的值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -28,4 +28,4 @@ struct ListNode* getKthFromEnd(struct ListNode* head, int k) {
     head = node;
     return head;
 }
-```
+// ```

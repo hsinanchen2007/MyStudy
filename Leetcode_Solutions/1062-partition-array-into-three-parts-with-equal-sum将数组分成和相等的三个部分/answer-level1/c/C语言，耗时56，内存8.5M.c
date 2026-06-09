@@ -1,9 +1,9 @@
-### 解题思路
-求出平均值，只有平均值为3的倍数或者0才有可能3等分，然后就是使用index对A进行遍历，每累加到一个avg值的时候，就将sum归0，继续遍历，当其中一次遍历完全部数字仍然还没有得到sum=avg的结果，则说明无法找到结果，直接返回false
+// ### 解题思路
+// 求出平均值，只有平均值为3的倍数或者0才有可能3等分，然后就是使用index对A进行遍历，每累加到一个avg值的时候，就将sum归0，继续遍历，当其中一次遍历完全部数字仍然还没有得到sum=avg的结果，则说明无法找到结果，直接返回false
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canThreePartsEqualSum(int* A, int ASize){
     //先找出平均值
     int avg = 0;
@@ -35,4 +35,4 @@ bool canThreePartsEqualSum(int* A, int ASize){
     }
     return true;
 }
-```
+// ```

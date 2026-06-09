@@ -1,10 +1,10 @@
-## 简介
-- [题目链接](https://leetcode-cn.com/problems/generate-parentheses/)
+// ## 简介
+// - [题目链接](https://leetcode-cn.com/problems/generate-parentheses/)
 
-## 解法一 - 回溯
-经典回溯算法的应用，直接套用常规模板即可
+// ## 解法一 - 回溯
+// 经典回溯算法的应用，直接套用常规模板即可
 
-```javascript
+// ```javascript
 var generateParenthesis = function(n) {
     if(n === 0) return [];
     let res = [];
@@ -26,8 +26,8 @@ var generateParenthesis = function(n) {
 
     }
 };
-```
-**复杂度分析**:
-时间复杂度：回溯结点的个数时第 $n$ 个卡特兰数 $\dfrac{1}{n+1}\dbinom{2n}{n}$，这是由 $\dfrac{4^n}{n\sqrt{n}}$ 渐近界定的。因此时间复杂度为 $O(\dfrac{4^n}{\sqrt{n}})$
+// ```
+// **复杂度分析**:
+// 时间复杂度：回溯结点的个数时第 $n$ 个卡特兰数 $\dfrac{1}{n+1}\dbinom{2n}{n}$，这是由 $\dfrac{4^n}{n\sqrt{n}}$ 渐近界定的。因此时间复杂度为 $O(\dfrac{4^n}{\sqrt{n}})$
 
-空间复杂度：$O(n)$，除了答案数组之外，我们所需要的空间取决于递归栈的深度，每一层递归函数需要 $O(1)$的空间，最多递归 $2n$ 层，因此空间复杂度为 $O(n)$。
+// 空间复杂度：$O(n)$，除了答案数组之外，我们所需要的空间取决于递归栈的深度，每一层递归函数需要 $O(1)$的空间，最多递归 $2n$ 层，因此空间复杂度为 $O(n)$。

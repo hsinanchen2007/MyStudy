@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution(object):
     def thirdMax(self, nums):
         """
@@ -31,5 +31,5 @@ class Solution(object):
             return first
         return third      
           
-```
+# ```
 

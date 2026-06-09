@@ -1,13 +1,13 @@
-### 解题思路
-速度一般般，但是解出来了
+// ### 解题思路
+// 速度一般般，但是解出来了
 
-思路：先将输入的字符串分隔，用一个map来存储以i开始的并且在字典中的子串。比如题目中"cat", "cats"都是从i=0开始的。那么map[0]=["cat", "cats"]
-剩下的工作就是要将这些子串拼接成答案，这里用一个递归调用就好，表示组合从[i~s.length]的可能组合，如果没有组合，则返回空数组。这里可以用一个map来记录已经组合过从i开始的组合了，避免重复遍历。
+// 思路：先将输入的字符串分隔，用一个map来存储以i开始的并且在字典中的子串。比如题目中"cat", "cats"都是从i=0开始的。那么map[0]=["cat", "cats"]
+// 剩下的工作就是要将这些子串拼接成答案，这里用一个递归调用就好，表示组合从[i~s.length]的可能组合，如果没有组合，则返回空数组。这里可以用一个map来记录已经组合过从i开始的组合了，避免重复遍历。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> combineString(long start, long length, map<long, vector<string>> &mmap, map<long, vector<string>> &strDp) {
@@ -58,4 +58,4 @@ public:
         return combineString(0, s.length(), mmap, strDp);
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func encode(_ num: Int) -> String {
         guard num != 0 else {
@@ -21,4 +21,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

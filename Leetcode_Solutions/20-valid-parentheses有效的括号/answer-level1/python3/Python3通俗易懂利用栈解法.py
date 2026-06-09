@@ -1,10 +1,10 @@
-### 解题思路
-左右匹配括号, 先进后出, 后进先出, 这个当然要用一个栈来实现最方便!
-Python3中利用list的append和pop方法就可以实现栈操作, 写起来很方便.
+# ### 解题思路
+# 左右匹配括号, 先进后出, 后进先出, 这个当然要用一个栈来实现最方便!
+# Python3中利用list的append和pop方法就可以实现栈操作, 写起来很方便.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         if len(s) % 2 != 0: # 奇数肯定是不匹配的
@@ -21,4 +21,4 @@ class Solution:
             return False
         return True
             
-```
+# ```

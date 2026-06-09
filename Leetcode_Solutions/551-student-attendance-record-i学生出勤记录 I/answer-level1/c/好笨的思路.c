@@ -1,9 +1,9 @@
-### 解题思路
-代码很长。
+// ### 解题思路
+// 代码很长。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool checkRecord(char * s){
     int A=0;
     int L=0;
@@ -42,4 +42,4 @@ bool checkRecord(char * s){
         return true;
     }
 }
-```
+// ```

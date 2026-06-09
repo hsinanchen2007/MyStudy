@@ -1,9 +1,9 @@
-### 解题思路
-先序遍历之递归。
+// ### 解题思路
+// 先序遍历之递归。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -20,4 +20,4 @@ public:
         return (root->val>=L&&root->val<=R?root->val:0)+rangeSumBST(root->left, L, R)+rangeSumBST(root->right, L, R);
     }
 };
-```
+// ```

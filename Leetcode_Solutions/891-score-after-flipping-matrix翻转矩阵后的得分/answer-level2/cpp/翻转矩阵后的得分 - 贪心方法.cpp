@@ -1,12 +1,12 @@
-### 解题思路
-1. 首先要**行翻转**要保证每行第一个数字要为1，只有保证最高位为1，才能保证这一行得分最大。(贪心思想，见到首位不为1就翻转)
-2. 然后从第二列开始扫描，使每一列拥有1最多（如果1的个数小于0就对该列进行该**列翻转**）
+// ### 解题思路
+// 1. 首先要**行翻转**要保证每行第一个数字要为1，只有保证最高位为1，才能保证这一行得分最大。(贪心思想，见到首位不为1就翻转)
+// 2. 然后从第二列开始扫描，使每一列拥有1最多（如果1的个数小于0就对该列进行该**列翻转**）
 
-参考了用户@耳总的[实现](https://leetcode-cn.com/problems/score-after-flipping-matrix/solution/c-4ms-by-er-zong/)
+// 参考了用户@耳总的[实现](https://leetcode-cn.com/problems/score-after-flipping-matrix/solution/c-4ms-by-er-zong/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int matrixScore(vector<vector<int>>& A) {
@@ -33,4 +33,4 @@ public:
         return sum;
     }
 };
-```
+// ```

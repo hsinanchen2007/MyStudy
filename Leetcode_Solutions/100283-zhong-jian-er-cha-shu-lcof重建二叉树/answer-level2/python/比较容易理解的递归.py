@@ -1,9 +1,9 @@
-### 解题思路
-找到根结点以后分别对前序数组和中序数组切片，生成新的前序中序数组。都在注释里了
+# ### 解题思路
+# 找到根结点以后分别对前序数组和中序数组切片，生成新的前序中序数组。都在注释里了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
         rootNode.right=rightNode
         return rootNode
 
-```
+# ```

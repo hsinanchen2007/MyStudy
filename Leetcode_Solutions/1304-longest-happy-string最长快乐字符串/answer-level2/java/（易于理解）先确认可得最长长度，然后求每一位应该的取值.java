@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestDiverseString(int a, int b, int c) {
         // 如何构造：1、求可构造最长长度。2、构造。
@@ -58,4 +58,4 @@ class Solution {
             return sb.toString();
     }
 }
-```
+// ```

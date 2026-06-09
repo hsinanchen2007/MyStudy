@@ -1,11 +1,11 @@
-### 解题思路
-/|(?=[-+]) 的意思是在字符是"/" 或者下一个字符是"+" 或者"-"的地方分割
-"-1/2+1/2" 的结果是 ['-1', '2', '+1', '2']
+// ### 解题思路
+// /|(?=[-+]) 的意思是在字符是"/" 或者下一个字符是"+" 或者"-"的地方分割
+// "-1/2+1/2" 的结果是 ['-1', '2', '+1', '2']
 
-在每次求解之后都要调用gcd来对分式进行约分
-### 代码
+// 在每次求解之后都要调用gcd来对分式进行约分
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String fractionAddition(String expression) {
         Scanner sc = new Scanner(expression).useDelimiter("/|(?=[-+])");
@@ -28,4 +28,4 @@ class Solution {
         return gcd(y, x % y);
     }
 }
-```
+// ```

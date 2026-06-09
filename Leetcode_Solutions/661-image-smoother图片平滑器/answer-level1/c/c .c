@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -111,4 +111,4 @@ int ** imageSmoother( int ** M , int MSize , int * MColSize , int * returnSize ,
     return buffer;
 
 }
-```
+// ```

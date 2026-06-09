@@ -1,9 +1,9 @@
-### 解题思路
-利用数组作为哈希表计数，数组下标表示数字，对应存的数为个数，时间空间复杂度均为n,
+// ### 解题思路
+// 利用数组作为哈希表计数，数组下标表示数字，对应存的数为个数，时间空间复杂度均为n,
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int findRepeatNumber(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
 		return result;
 	}
 };
-```
+// ```

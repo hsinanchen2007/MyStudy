@@ -1,9 +1,9 @@
-### 方法一
- 判断拥有的每一个石头，是否属于宝石，利用ES7的includes方法和es6的filter
+// ### 方法一
+//  判断拥有的每一个石头，是否属于宝石，利用ES7的includes方法和es6的filter
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} J
  * @param {string} S
@@ -18,14 +18,14 @@ var numJewelsInStones = function(J, S) {
     console.log(result)
     return result
 };
-```
+// ```
 
-### 方法二
-双循环遍历拥有的每一个石头，是否属于宝石
+// ### 方法二
+// 双循环遍历拥有的每一个石头，是否属于宝石
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} J
  * @param {string} S
@@ -45,4 +45,4 @@ var numJewelsInStones = function(J, S) {
     console.log(result)
     return result
 };
-```
+// ```

@@ -1,4 +1,4 @@
-**题解1**：遇到0以后反向搜索
+// **题解1**：遇到0以后反向搜索
 
 bool canJump(int* nums, int numsSize) {
     int i, j;

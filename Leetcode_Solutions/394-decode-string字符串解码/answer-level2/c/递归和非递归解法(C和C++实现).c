@@ -1,4 +1,4 @@
-```
+// ```
 char* decode(char* s, int* pos) {
     int len = strlen(s);
     int cnt = 0;
@@ -47,8 +47,8 @@ char* decodeString(char* s) {
     result[strlen(result)] = '\0';
     return result;
 }
-```
-```
+// ```
+// ```
 class Solution {
 public:
     string decodeString(string s) {
@@ -121,5 +121,5 @@ public:
         return result;     
     }
 };
-```
+// ```
 

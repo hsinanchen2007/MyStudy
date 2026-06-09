@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var maxProfit = function(prices) {
     if(prices.length < 2) return 0
 
@@ -29,4 +29,4 @@ var maxProfit = function(prices) {
 	}
 	return sum
 };
-```
+// ```

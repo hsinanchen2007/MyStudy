@@ -1,10 +1,10 @@
-## 思路:
+# ## 思路:
 
-不能翻转，可以借用栈，压入栈中，按栈顶元素相加即可！
+# 不能翻转，可以借用栈，压入栈中，按栈顶元素相加即可！
 
-## 代码:
+# ## 代码:
 
-```python
+# ```python
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         stack1 = []
@@ -32,5 +32,5 @@ class Solution:
             new_node.next = dummy.next
             dummy.next = new_node
         return dummy.next
-```
+# ```
 

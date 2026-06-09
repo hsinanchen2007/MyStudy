@@ -1,4 +1,4 @@
-```
+// ```
 int CMP(const void *a, const void *b)
 {
     return *(int *)a - *(int *)b;
@@ -24,4 +24,4 @@ int minIncrementForUnique(int* A, int ASize){
     
     return cnt;
 }
-```
+// ```

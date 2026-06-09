@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseLeftWords(self, s: str, n: int) -> str:
         res = [0] * len(s)
@@ -11,4 +11,4 @@ class Solution:
             res[i-n] = s[i]
         
         return ''.join(res)
-```
+# ```

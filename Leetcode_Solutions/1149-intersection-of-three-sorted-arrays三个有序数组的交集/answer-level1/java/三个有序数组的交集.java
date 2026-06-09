@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> arraysIntersection(int[] arr1, int[] arr2, int[] arr3) {
        int [] hash=new int[2001];
@@ -20,4 +20,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

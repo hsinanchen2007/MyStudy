@@ -1,8 +1,8 @@
-***Talk is cheap. Show me the code.***
+// ***Talk is cheap. Show me the code.***
 
-**回溯、剪枝**
+// **回溯、剪枝**
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> restoreIpAddresses(string s) {
@@ -50,6 +50,6 @@ private:
     vector<string> result;
 };
 
-```
+// ```
 
-`string substr (size_t pos = 0, size_t len = npos) const;`    //注意这个函数的参数
+// `string substr (size_t pos = 0, size_t len = npos) const;`    //注意这个函数的参数

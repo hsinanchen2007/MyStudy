@@ -1,9 +1,9 @@
-### 解题思路
-代码及注释如下
+// ### 解题思路
+// 代码及注释如下
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool backspaceCompare(string S, string T) {
@@ -59,4 +59,4 @@ public:
         return true;
     }
 };
-```
+// ```

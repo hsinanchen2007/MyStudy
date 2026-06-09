@@ -1,5 +1,5 @@
-**首先给出LCS的模板解法：**
-```
+// **首先给出LCS的模板解法：**
+// ```
 int longestCommonSubsequence(string text1, string text2)
 {
     int LCS[text1.size() + 1][text2.size() + 1];
@@ -15,21 +15,21 @@ int longestCommonSubsequence(string text1, string text2)
         }
     return LCS[text1.size()][text2.size()];
 }
-```
-那么如何改造这个模板来让他适应我们的问题呢？
-因为在求LCS的时候我们是按照构造一个dp[i][j]表示以str1的第i项为结尾，str2的第j项为结尾，那么就会有：（LCS(i,j) <=> dp[i][j]）
-```
+// ```
+// 那么如何改造这个模板来让他适应我们的问题呢？
+// 因为在求LCS的时候我们是按照构造一个dp[i][j]表示以str1的第i项为结尾，str2的第j项为结尾，那么就会有：（LCS(i,j) <=> dp[i][j]）
+// ```
 --------------------------------------
  * if(str1.n == str2.m):
  *      LCS(n,m) = LCS(n - 1,m - 1) + 1
  * else
  *      LCS(n,m) = max{LCS(n - 1,m),LCS(n,m - 1)}
 --------------------------------------
-```
+// ```
 
 
-所以我们就会有一种想法，对这个LCS求解的dp过程在进行一次约数，肯定可以得到我们的目标LCS
-```
+// 所以我们就会有一种想法，对这个LCS求解的dp过程在进行一次约数，肯定可以得到我们的目标LCS
+// ```
 int minimumDeleteSum(string s1, string s2)
 {
     int len1 = s1.length();
@@ -54,5 +54,5 @@ int minimumDeleteSum(string s1, string s2)
         sum += s2[i];
     return sum - 2 * dp[len1][len2];
 }
-```
-**别忘了最后返回的值是两个string的ASCII和减去两个LCS的ASCII的sum哦**
+// ```
+// **别忘了最后返回的值是两个string的ASCII和减去两个LCS的ASCII的sum哦**

@@ -1,9 +1,9 @@
 
 
-![微信图片_20190929112107.png](https://pic.leetcode-cn.com/3a2adaf5741e455452b78f1113693f2ab6ddad781e59f4dcb28e4d9d67b37393-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190929112107.png)
+// ![微信图片_20190929112107.png](https://pic.leetcode-cn.com/3a2adaf5741e455452b78f1113693f2ab6ddad781e59f4dcb28e4d9d67b37393-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190929112107.png)
 
-直接上代码
-```c++
+// 直接上代码
+// ```c++
 vector<int> sortArrayByParityII(vector<int> &A) {
         int j = 1;//记录奇数索引
         for (int i = 0; i < A.size(); i += 2) {
@@ -15,4 +15,4 @@ vector<int> sortArrayByParityII(vector<int> &A) {
         }
         return A;
     }
-```
+// ```

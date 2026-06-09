@@ -1,7 +1,7 @@
-# **这里注意边界条件，度为1时直接返回1，不用找啦！！！**
+// # **这里注意边界条件，度为1时直接返回1，不用找啦！！！**
 
-class Solution {
-```C++ []
+// class Solution {
+// ```C++ []
 public:
     int findShortestSubArray(vector<int>& nums) {
         if (nums.size() == 1)

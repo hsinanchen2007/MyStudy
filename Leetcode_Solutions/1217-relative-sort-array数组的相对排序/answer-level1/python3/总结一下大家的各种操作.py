@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def relativeSortArray(self, arr1: List[int], arr2: List[int]) -> List[int]:
         # 1. brute force wiht extra space. O(n*n)
@@ -26,4 +26,4 @@ class Solution:
         return sorted(arr1, key=(arr2+sorted(set(arr1)-set(arr2))).index)
         
         # 5. 有没有 O(n)的？           
-```
+# ```

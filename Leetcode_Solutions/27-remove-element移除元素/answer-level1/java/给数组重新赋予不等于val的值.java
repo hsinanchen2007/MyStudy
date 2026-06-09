@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-两个索引，一个查找不等于val的值，一个用来标记数组下标
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 两个索引，一个查找不等于val的值，一个用来标记数组下标
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         if(nums.length == 0)
@@ -24,4 +24,4 @@ class Solution {
 		return count; 
 	}
     }
-```
+// ```

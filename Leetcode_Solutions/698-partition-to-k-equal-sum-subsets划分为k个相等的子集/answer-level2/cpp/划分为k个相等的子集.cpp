@@ -1,6 +1,6 @@
-回溯求解，
-正常形式：
-```
+// 回溯求解，
+// 正常形式：
+// ```
 bool canPartitionKSubsets(vector<int>& nums, int k) {
         int n=nums.size();
         int sum=accumulate(nums.begin(),nums.end(),0);
@@ -24,10 +24,10 @@ bool canPartitionKSubsets(vector<int>& nums, int k) {
         }
         return false;
     }
-```
+// ```
 
-另一种形式（因为这样会跳过有些元素，会导致重复计算很多次，因此耗时严重，本题中TLE）
-```
+// 另一种形式（因为这样会跳过有些元素，会导致重复计算很多次，因此耗时严重，本题中TLE）
+// ```
 class Solution {
 public:
     bool canPartitionKSubsets(vector<int>& nums, int k) {
@@ -56,4 +56,4 @@ public:
         return false;
     }
 };
-```
+// ```

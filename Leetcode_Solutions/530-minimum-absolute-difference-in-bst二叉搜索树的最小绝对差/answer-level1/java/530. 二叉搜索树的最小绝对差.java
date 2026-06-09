@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/23
- *
- * 解题思路: 使用BST的特性 中序遍历之后等处有序的数组
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/23
+//  *
+//  * 解题思路: 使用BST的特性 中序遍历之后等处有序的数组
+//  *
+//  */
+// ```
 public class leetcode530 {
 
     Integer min = Integer.MAX_VALUE;
@@ -45,4 +45,4 @@ public class leetcode530 {
     }
 }
 
-```
+// ```

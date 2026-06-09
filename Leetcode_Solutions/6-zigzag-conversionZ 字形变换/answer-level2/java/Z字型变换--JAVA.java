@@ -1,6 +1,6 @@
-# 思路1：
-      二维数组，根据规律把字符串的char数组，放入char二维数组，然后遍历输出
-```
+// # 思路1：
+//       二维数组，根据规律把字符串的char数组，放入char二维数组，然后遍历输出
+// ```
 class Solution {
     public String convert(String s, int numRows) {
          if (numRows == 1) {
@@ -55,10 +55,10 @@ class Solution {
         return column + column * (line - 2) + add;
     }
 }
-```
-# 思路2：
-        根据行，用StringBuffer依次添加char，最后合并输出
-```
+// ```
+// # 思路2：
+//         根据行，用StringBuffer依次添加char，最后合并输出
+// ```
 public static String convert2(String s, int numRows) {
         if (numRows == 1) {
             return s;
@@ -86,10 +86,10 @@ public static String convert2(String s, int numRows) {
         }
         return sbs[0].toString();
     }
-```
-# 总结：
-    主要是行变换规律，对于行号变化：index % (numRows -1)==0 时，行号递进关系发生反转变化： 从+1变-1
-例如： 行数为4，行号变化  0- >1->2->3->2->1->0->.....
+// ```
+// # 总结：
+//     主要是行变换规律，对于行号变化：index % (numRows -1)==0 时，行号递进关系发生反转变化： 从+1变-1
+// 例如： 行数为4，行号变化  0- >1->2->3->2->1->0->.....
 
 
 

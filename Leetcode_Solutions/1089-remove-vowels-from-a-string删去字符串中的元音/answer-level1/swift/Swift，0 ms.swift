@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func removeVowels(_ S: String) -> String {
         var ans = String(S)
@@ -12,4 +12,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

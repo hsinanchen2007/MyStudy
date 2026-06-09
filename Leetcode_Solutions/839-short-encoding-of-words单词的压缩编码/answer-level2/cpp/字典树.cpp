@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     //字典树是一个多叉树，每一条边表示一个字母，next[i]表示该节点第i+1个字母所表示的边指向哪一个节点
@@ -46,6 +46,6 @@ struct TreeNode{
         return res;
     }
 };
-```
+// ```
 
 

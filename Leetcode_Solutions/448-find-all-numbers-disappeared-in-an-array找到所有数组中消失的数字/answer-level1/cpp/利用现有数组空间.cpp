@@ -1,9 +1,9 @@
-### 解题思路
-利用现有数组空间，为避免数组越界和计算位置，直接增加一个0.
+// ### 解题思路
+// 利用现有数组空间，为避免数组越界和计算位置，直接增加一个0.
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
     return ans;
     }
 };
-```
+// ```

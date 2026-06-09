@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean buddyStrings(String A, String B) {
         if(A.length()!=B.length()){return false;}
@@ -34,4 +34,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

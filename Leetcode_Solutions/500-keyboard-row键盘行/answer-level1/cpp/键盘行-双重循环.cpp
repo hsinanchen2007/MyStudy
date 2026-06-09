@@ -1,7 +1,7 @@
-flag = 1表示在第一行；
-flag = 2第二行；
-flag = 3第三行；
-flag在123之间改变，表明不在同一行，结束当前单词；   
+// flag = 1表示在第一行；
+// flag = 2第二行；
+// flag = 3第三行；
+// flag在123之间改变，表明不在同一行，结束当前单词；   
  vector<string> findWords(vector<string>& words) {
         set<char> dic1 = {'Q','W','E','R','T','Y','U','I','O','P'};
         set<char> dic2 = {'A','S','D','F','G','H','J','K','L'};

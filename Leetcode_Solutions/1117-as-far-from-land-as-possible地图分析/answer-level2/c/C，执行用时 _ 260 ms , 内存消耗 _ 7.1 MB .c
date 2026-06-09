@@ -1,9 +1,9 @@
-### 解题思路
-是不是用时间换取了空间
+// ### 解题思路
+// 是不是用时间换取了空间
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxDistance(int** grid, int gridSize, int* gridColSize){
     int sum=0,area=1,land=1;
     for(int i=0;i<gridSize;i++)
@@ -35,4 +35,4 @@ int maxDistance(int** grid, int gridSize, int* gridColSize){
     }
     return sum-1;
 }
-```
+// ```

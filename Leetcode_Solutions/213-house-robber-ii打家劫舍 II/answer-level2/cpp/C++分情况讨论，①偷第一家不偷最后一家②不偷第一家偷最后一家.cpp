@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return max(m1, m2);
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-先是惯性思维的代码
+# 先是惯性思维的代码
 
-```python
+# ```python
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         head = ListNode(0)
@@ -27,11 +27,11 @@ class Solution:
                 l2 = l2.next
             head = head.next
         return result.next
-```
+# ```
 
-执行的结果
+# 执行的结果
 
-```
+# ```
 执行用时 :40 ms, 在所有 python3 提交中击败了97.20% 的用户
 内存消耗 :13.9 MB, 在所有 python3 提交中击败了5.66%的用户
 
@@ -40,11 +40,11 @@ class Solution:
 
 执行用时 :48 ms, 在所有 python3 提交中击败了77.86% 的用户
 内存消耗 :13.8 MB, 在所有 python3 提交中击败了5.66%的用户
-```
+# ```
 
-感觉代码还是非常的不pythonic，于是决定修改一下
+# 感觉代码还是非常的不pythonic，于是决定修改一下
 
-```python
+# ```python
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         head = ListNode(0)
@@ -62,24 +62,24 @@ class Solution:
             if tem_value_2 != None and tem_value_1 == None: head.next, l2 = l2, l2.next
             head = head.next
         return result.next
-```
+# ```
 
-上面这样看起来舒服多了，下面来参考一下官方是怎么解答的学习一下^_^
+# 上面这样看起来舒服多了，下面来参考一下官方是怎么解答的学习一下^_^
 
-官方分别使用了递归和迭代的算法，我上面的代码就是使用了迭代的思想
+# 官方分别使用了递归和迭代的算法，我上面的代码就是使用了迭代的思想
 
-小小区别一下
+# 小小区别一下
 
-```
+# ```
 递归（recursion）：一个过程或函数在其定义或说明中有直接或间接调用自身的一种方法
 
 
 迭代（iteration）：重复执行一系列运算步骤，从前面的量依次求出后面的量的过程。此过程的每一次结果，都是由对前一次所得结果施行相同的运算步骤得到的
-```
+# ```
 
-下面官方的递归代码的pythonic写法
+# 下面官方的递归代码的pythonic写法
 
-```python
+# ```python
 class Solution:
     def mergeTwoLists(self, l1, l2):
         if l1 is None: return l2
@@ -90,11 +90,11 @@ class Solution:
         else:
             l2.next = self.mergeTwoLists(l1, l2.next)
             return l2
-```
+# ```
 
-执行结果
+# 执行结果
 
-```
+# ```
 执行用时 :52 ms, 在所有 python3 提交中击败了59.86% 的用户
 内存消耗 :13.8 MB, 在所有 python3 提交中击败了5.66%的用户
 
@@ -103,11 +103,11 @@ class Solution:
 
 执行用时 :44 ms, 在所有 python3 提交中击败了90.62% 的用户
 内存消耗 :13.9 MB, 在所有 python3 提交中击败了5.66%的用户
-```
+# ```
 
-下面是官方的迭代代码的pythonic写法
+# 下面是官方的迭代代码的pythonic写法
 
-```python
+# ```python
 class Solution:
     def mergeTwoLists(self, l1, l2):
         prehead = ListNode(-1)
@@ -120,11 +120,11 @@ class Solution:
         # 这一句非常巧妙，如果循环过程中其中有一个列表为空则直接使用另一个列表
         prev.next = l1 if l1 is not None else l2
         return prehead.next            
-```
+# ```
 
-执行结果
+# 执行结果
 
-```
+# ```
 执行用时 :40 ms, 在所有 python3 提交中击败了97.20% 的用户
 内存消耗 :13.9 MB, 在所有 python3 提交中击败了5.66%的用户
 
@@ -133,7 +133,7 @@ class Solution:
 
 执行用时 :48 ms, 在所有 python3 提交中击败了77.86% 的用户
 内存消耗 :13.7 MB, 在所有 python3 提交中击败了5.66%的用户
-```
+# ```
 
-官方代码里面有一句十分的巧妙，避开了我自己写代码里面多余的判断。是要好好反思一下自己为什么每次都比官方的判断要多
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 官方代码里面有一句十分的巧妙，避开了我自己写代码里面多余的判断。是要好好反思一下自己为什么每次都比官方的判断要多
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)

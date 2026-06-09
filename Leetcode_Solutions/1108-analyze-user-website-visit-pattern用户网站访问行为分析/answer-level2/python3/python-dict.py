@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def mostVisitedPattern(self, username: List[str], timestamp: List[int], website: List[str]) -> List[str]:
         data = [[username[i], timestamp[i], website[i]] for i in range(len(username))]
@@ -16,4 +16,4 @@ class Solution:
             for j in itertools.combinations(v, 3):
                 res[j].add(i)
         return sorted(res.items(), key=lambda a:(-len(a[1]), a[0]))[0][0]
-```
+# ```

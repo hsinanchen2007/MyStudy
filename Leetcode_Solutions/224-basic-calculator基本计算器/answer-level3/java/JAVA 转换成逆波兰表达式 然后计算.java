@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     Stack<String> stack = new Stack<>();
     List<String> list = new LinkedList<>();
@@ -87,4 +87,4 @@ class Solution {
         return value.pop().intValue();
     }
 }
-```
+// ```

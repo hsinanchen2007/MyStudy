@@ -1,12 +1,12 @@
-### 解题思路
-没以为可以使用STL库中的stack类，所以就用数组方式来解题了，也导致最后的代码时间复杂度和空间复杂度比较大。
+// ### 解题思路
+// 没以为可以使用STL库中的stack类，所以就用数组方式来解题了，也导致最后的代码时间复杂度和空间复杂度比较大。
 
-### 头文件
-#include <vector>
+// ### 头文件
+// #include <vector>
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -45,4 +45,4 @@ public:
 private:
     vector<int> a;
 };
-```
+// ```

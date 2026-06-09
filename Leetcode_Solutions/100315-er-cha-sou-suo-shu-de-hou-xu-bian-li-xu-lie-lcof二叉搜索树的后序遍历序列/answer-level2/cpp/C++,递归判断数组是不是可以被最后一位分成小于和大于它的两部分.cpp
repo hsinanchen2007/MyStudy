@@ -1,9 +1,9 @@
-### 解题思路
-C++,递归判断数组是不是可以被最后一位分成小于和大于它的两部分
+// ### 解题思路
+// C++,递归判断数组是不是可以被最后一位分成小于和大于它的两部分
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool verifyPostorder(vector<int>& postorder) {
@@ -25,4 +25,4 @@ public:
         else return is_ok(postorder, l, mid - 1) && is_ok(postorder, mid, r - 1);
     }
 };
-```
+// ```

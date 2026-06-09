@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn delete_node(head: Option<Box<ListNode>>, val: i32) -> Option<Box<ListNode>> {
         let mut head = Some(Box::new(ListNode {
@@ -18,4 +18,4 @@ impl Solution {
         head.unwrap().next
     }
 }
-```
+// ```

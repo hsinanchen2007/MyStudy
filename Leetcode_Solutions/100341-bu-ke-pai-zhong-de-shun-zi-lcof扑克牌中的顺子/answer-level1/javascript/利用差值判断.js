@@ -1,9 +1,9 @@
-### 解题思路
-看代码
+// ### 解题思路
+// 看代码
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -30,4 +30,4 @@ var isStraight = function(nums) {
     //如果超过4，说明不是顺子。
     return sum<5
 };
-```
+// ```

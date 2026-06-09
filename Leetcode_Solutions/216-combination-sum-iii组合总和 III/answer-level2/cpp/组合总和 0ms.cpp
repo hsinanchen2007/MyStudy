@@ -1,9 +1,9 @@
-### 解题思路
-回溯法， 时间复杂度O(9! / (9 - k)!)
+// ### 解题思路
+// 回溯法， 时间复杂度O(9! / (9 - k)!)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void combinationSum3Help(int k, int n, int st, vector<int> &combinations, vector<vector<int>> &res) {
@@ -21,4 +21,4 @@ public:
         }
     }
 };
-```
+// ```

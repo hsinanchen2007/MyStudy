@@ -1,9 +1,9 @@
-### 解题思路
-逐个遍历
+# ### 解题思路
+# 逐个遍历
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         if len(strs) == 1:
@@ -22,4 +22,4 @@ class Solution:
             if has_comm and pre_has_comm:
                 comm_str += strs[0][pos]
         return comm_str
-```
+# ```

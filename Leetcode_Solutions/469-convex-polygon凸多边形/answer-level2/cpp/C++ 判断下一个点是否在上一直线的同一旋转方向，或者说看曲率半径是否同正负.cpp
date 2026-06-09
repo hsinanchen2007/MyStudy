@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     struct Line {
@@ -28,5 +28,5 @@ public:
         return true;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/ad6f0b83b646830dbecdaf5ea16bf632605fd6ed955a831fcc29b7f7927316bf-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/ad6f0b83b646830dbecdaf5ea16bf632605fd6ed955a831fcc29b7f7927316bf-image.png)

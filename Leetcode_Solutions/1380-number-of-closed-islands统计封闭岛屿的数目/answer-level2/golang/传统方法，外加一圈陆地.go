@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func closedIsland(grid [][]int) int {
 
 	n:=len(grid)+2
@@ -60,4 +60,4 @@ func isIsland(old [][]int, visit [][]int, x int, y int){
 	isIsland(old,visit,x,y+1)
 
 }
-```
+// ```

@@ -1,7 +1,7 @@
-为了实现put，get在O(1)完成，则必须使用哈希；
-又要随时更新每一次操作，使得当前节点更新为最新访问节点，则可以使用双向链表。
-java可以使用有序哈希（LinkedHashMap），但c++只好用list+hashmap。
-```
+// 为了实现put，get在O(1)完成，则必须使用哈希；
+// 又要随时更新每一次操作，使得当前节点更新为最新访问节点，则可以使用双向链表。
+// java可以使用有序哈希（LinkedHashMap），但c++只好用list+hashmap。
+// ```
 class LRUCache {
     int capacity;
     list<pair<int,int> > lrulist;
@@ -36,9 +36,9 @@ public:
         cache[key]=lrulist.begin();
     }
 };
-```
-由于每次get都要更新访问节点，使其作为最新节点，list不支持move to front操作，只能先删除，在添加。可以自定义list，实现仅节点移动，省去创建和销毁的消耗。
-```
+// ```
+// 由于每次get都要更新访问节点，使其作为最新节点，list不支持move to front操作，只能先删除，在添加。可以自定义list，实现仅节点移动，省去创建和销毁的消耗。
+// ```
 // Time 120ms, 96.4%, Space 38MB, 84.8%
 class LRUCache {
     struct ListNode{
@@ -156,4 +156,4 @@ public:
     }
 
 };
-```
+// ```

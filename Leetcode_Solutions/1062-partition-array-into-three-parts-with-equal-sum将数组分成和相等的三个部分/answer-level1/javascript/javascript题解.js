@@ -1,6 +1,6 @@
-要注意细节处理。
+// 要注意细节处理。
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {boolean}
@@ -22,4 +22,4 @@ var canThreePartsEqualSum = function(A) {
     }
     return false;
 };
-```
+// ```

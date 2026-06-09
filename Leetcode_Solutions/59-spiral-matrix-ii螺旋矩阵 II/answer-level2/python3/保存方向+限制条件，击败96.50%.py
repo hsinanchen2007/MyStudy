@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         res = [[False] * n for i in range(n)]
@@ -14,4 +14,4 @@ class Solution:
                 di=(di+1)%4
                 r,c=r+dr[di],c+dc[di]
         return res
-```
+# ```

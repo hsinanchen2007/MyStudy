@@ -1,4 +1,4 @@
-```go []
+// ```go []
 type RandomizedSet struct {
 	m    map[string]int
 	nums []int
@@ -57,4 +57,4 @@ func (this *RandomizedSet) GetRandom() int {
  * param_2 := obj.Remove(val);
  * param_3 := obj.GetRandom();
  */
-```
+// ```

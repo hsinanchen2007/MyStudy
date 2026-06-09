@@ -1,9 +1,9 @@
-### 解题思路
-使用了内置api
+// ### 解题思路
+// 使用了内置api
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseLeftWords(String s, int n) {
         if(s.length() == 0)
@@ -17,4 +17,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

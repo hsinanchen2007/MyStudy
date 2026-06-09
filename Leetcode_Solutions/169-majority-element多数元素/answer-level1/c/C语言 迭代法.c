@@ -1,8 +1,8 @@
-###题解
-    最基础的解法，数组拍完序后依次遍历，遇到一样的数后count加1，不一样count重新清1，count大于N/2后就return
+// ###题解
+//     最基础的解法，数组拍完序后依次遍历，遇到一样的数后count加1，不一样count重新清1，count大于N/2后就return
 
-###代码
-```
+// ###代码
+// ```
 int cmp(const void* a,const void* b){
     if(*(int*)a>*(int*)b){
         return 1;
@@ -29,5 +29,5 @@ int majorityElement(int* nums, int numsSize){
     }
     return 0;
 }
-```
+// ```
 

@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-两个方法
-1. 对两个node进行水平遍历，如果A包含B，则成功
-2. 对A进行遍历，当a.val==b.val时，check A和B是否匹配
+// 两个方法
+// 1. 对两个node进行水平遍历，如果A包含B，则成功
+// 2. 对A进行遍历，当a.val==b.val时，check A和B是否匹配
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 对A进行遍历，如果a.val == b.val,则check是否匹配
     public boolean isSubStructure(TreeNode A, TreeNode B) {
@@ -24,4 +24,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

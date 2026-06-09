@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
         ret = [0] * len(T)
@@ -8,4 +8,4 @@ class Solution:
                 ret[stack_pos.pop(-1)] = i - stack_pos[-1] 
             stack_pos.append(i)
         return ret
-```
+# ```

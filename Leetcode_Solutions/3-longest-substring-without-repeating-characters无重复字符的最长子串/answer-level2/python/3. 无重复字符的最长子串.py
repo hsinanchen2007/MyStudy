@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             lookup.add(s[i])
             max_len = cur_len if cur_len > max_len else max_len
         return max_len
-```
+# ```

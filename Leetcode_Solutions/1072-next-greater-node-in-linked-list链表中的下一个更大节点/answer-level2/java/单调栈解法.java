@@ -1,5 +1,5 @@
-使用一个单调递减栈存在比当前节点大的后续节点，这比当前节点的“下一个更大节点”就是栈顶元素。
-```
+// 使用一个单调递减栈存在比当前节点大的后续节点，这比当前节点的“下一个更大节点”就是栈顶元素。
+// ```
     public static int[] nextLargerNodes(ListNode head) {
         if (head.next == null) {
             return new int[] {0};
@@ -27,4 +27,4 @@
         }
         return result;
     }
-```
+// ```

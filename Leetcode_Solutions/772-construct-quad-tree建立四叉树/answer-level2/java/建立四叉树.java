@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 递归构建
+// # 递归构建
 
-时间复杂度是O((log(N)) * (N ^ 2))。空间复杂度是O(logN)。
+// 时间复杂度是O((log(N)) * (N ^ 2))。空间复杂度是O(logN)。
 
-执行用时：1ms，击败100.00%。消耗内存：41.1MB，击败92.86%。
+// 执行用时：1ms，击败100.00%。消耗内存：41.1MB，击败92.86%。
 
-```java
+// ```java
 public class Solution {
     public Node construct(int[][] grid) {
         return construct(grid, 0, grid.length - 1, 0, grid.length - 1);
@@ -30,4 +30,4 @@ public class Solution {
         return new Node(grid[top][left] == 1, true);
     }
 }
-```
+// ```

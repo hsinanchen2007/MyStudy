@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def initialize_tree(self, n):
         self.tree_num = n
@@ -39,4 +39,4 @@ class Solution:
 
 
         
-```
+# ```

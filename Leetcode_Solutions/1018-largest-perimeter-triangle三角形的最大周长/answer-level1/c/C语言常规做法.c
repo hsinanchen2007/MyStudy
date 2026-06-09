@@ -1,5 +1,5 @@
-先将数组从大到小排列，再从头开始三个三个地判断是否满足组成三角形的条件，满足的直接返回三个值的和。
-```c
+// 先将数组从大到小排列，再从头开始三个三个地判断是否满足组成三角形的条件，满足的直接返回三个值的和。
+// ```c
 int largestPerimeter(int* A, int ASize){
     int i,j,max=0,max_index;
     for(i=0;i<ASize;i++){
@@ -18,4 +18,4 @@ int largestPerimeter(int* A, int ASize){
     }
     return 0;
 }
-```
+// ```

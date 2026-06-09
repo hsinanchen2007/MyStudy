@@ -1,4 +1,4 @@
-执行用时:56ms,在所有Python提交中击败了68.06%的用户；内存消耗:12.5MB,在所有Python提交中击败了36.12%的用户
+# 执行用时:56ms,在所有Python提交中击败了68.06%的用户；内存消耗:12.5MB,在所有Python提交中击败了36.12%的用户
 
 
     def longestConsecutive(self, nums):

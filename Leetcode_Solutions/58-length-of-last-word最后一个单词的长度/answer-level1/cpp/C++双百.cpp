@@ -1,9 +1,9 @@
-### 解题思路
-第一个循环删除尾后所有的空格，第二个利用rbegin()迭代求出结果
+// ### 解题思路
+// 第一个循环删除尾后所有的空格，第二个利用rbegin()迭代求出结果
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -20,4 +20,4 @@ public:
         return num;
     }
 };
-```
+// ```

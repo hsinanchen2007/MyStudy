@@ -1,15 +1,15 @@
-### 解题思路
-首先遍历把所有腐烂的水果放到队列里，
-bfs遍历所有可能被腐烂的水果
-额外放入队列的还有step
-最后再遍历一遍原来的列表，如果还有未腐烂的水果，则返回-1
-否则返回step的最大值。
+# ### 解题思路
+# 首先遍历把所有腐烂的水果放到队列里，
+# bfs遍历所有可能被腐烂的水果
+# 额外放入队列的还有step
+# 最后再遍历一遍原来的列表，如果还有未腐烂的水果，则返回-1
+# 否则返回step的最大值。
 
-visited_list的话，直接用grid就好了。
+# visited_list的话，直接用grid就好了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import queue
 
 class Solution:
@@ -45,4 +45,4 @@ class Solution:
                     return -1
 
         return max_step
-```
+# ```

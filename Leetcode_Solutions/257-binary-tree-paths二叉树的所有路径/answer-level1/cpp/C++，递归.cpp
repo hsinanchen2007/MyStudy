@@ -1,10 +1,10 @@
-### 解题思路
-方法一的引用传值不需要清空数组；
-方法二的全局变量需要清空数组
+// ### 解题思路
+// 方法一的引用传值不需要清空数组；
+// 方法二的全局变量需要清空数组
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void binaryTree(TreeNode* root,string path,vector<string>&res)
@@ -24,10 +24,10 @@ public:
     }
 };
 
-```
+// ```
 
-方法二(参考其他题解)
-```cpp
+// 方法二(参考其他题解)
+// ```cpp
 class Solution {
     string path;
     vector<string> res;
@@ -45,4 +45,4 @@ public:
         path.erase(path.begin() + len, path.end());     // 恢复初始状态（擦去新增的长度）
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-搞两个26大小的字母表数组去比：
-```
+// 搞两个26大小的字母表数组去比：
+// ```
 int arrayA[26] = {0};
 int arrayB[26] = {0};
 
@@ -71,4 +71,4 @@ char ** wordSubsets(char ** A, int ASize, char ** B, int BSize, int* returnSize)
     }
     return res;
 }
-```
+// ```

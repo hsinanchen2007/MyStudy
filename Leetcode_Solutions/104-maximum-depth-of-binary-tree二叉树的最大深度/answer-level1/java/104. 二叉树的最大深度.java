@@ -1,5 +1,5 @@
-方法一：使用递归
-```java []
+// 方法一：使用递归
+// ```java []
 class Solution {
 	public int maxDepth(TreeNode root) {
 		if (root == null) return 0;
@@ -7,9 +7,9 @@ class Solution {
 		return maxDepth + 1;
 	}
 }
-```
-方法二：使用迭代(层序遍历访问节点)
-```java []
+// ```
+// 方法二：使用迭代(层序遍历访问节点)
+// ```java []
 class Solution {
 	public int maxDepth(TreeNode root) {
 		Queue<TreeNode> queue = new LinkedList<>();
@@ -33,4 +33,4 @@ class Solution {
 		return height;
     }
 }
-```
+// ```

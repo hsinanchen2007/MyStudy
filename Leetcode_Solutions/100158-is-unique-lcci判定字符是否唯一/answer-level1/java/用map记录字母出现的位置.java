@@ -1,9 +1,9 @@
-### 解题思路
-遍历字符串，没出现的字符就记录位置，一旦遇到了出现过的字母，就返回false
+// ### 解题思路
+// 遍历字符串，没出现的字符就记录位置，一旦遇到了出现过的字母，就返回false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         Map<Integer, Integer> counts = new HashMap<>(128);
@@ -24,4 +24,4 @@ class Solution {
     }
 }
 
-```
+// ```

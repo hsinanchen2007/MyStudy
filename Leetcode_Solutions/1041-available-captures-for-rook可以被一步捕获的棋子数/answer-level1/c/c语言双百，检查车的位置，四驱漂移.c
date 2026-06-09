@@ -1,10 +1,10 @@
-### 解题思路
-一个for循环应该比暴力的四个for要强一丢丢吧，哈哈
-![image.png](https://pic.leetcode-cn.com/c8fcc8a507a7d98c32571c38b4636782d2ff51281804190012d1a7940b4742bc-image.png)
+// ### 解题思路
+// 一个for循环应该比暴力的四个for要强一丢丢吧，哈哈
+// ![image.png](https://pic.leetcode-cn.com/c8fcc8a507a7d98c32571c38b4636782d2ff51281804190012d1a7940b4742bc-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int x,y;
     for(int i=0;i<boardSize;i++)
@@ -62,4 +62,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
     return sum;
 }
-```
+// ```

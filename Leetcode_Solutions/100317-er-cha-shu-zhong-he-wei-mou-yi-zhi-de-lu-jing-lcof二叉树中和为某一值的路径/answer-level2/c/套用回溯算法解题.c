@@ -1,7 +1,7 @@
-知识点：
-1、二维属组的申请与赋值；
-2、回溯算法的套用。
-```
+// 知识点：
+// 1、二维属组的申请与赋值；
+// 2、回溯算法的套用。
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -67,4 +67,4 @@ int** pathSum(struct TreeNode* root, int sum, int* returnSize, int** returnColum
     dfs_(retArray, root, sum, 0, tempAr, 0, returnSize, *returnColumnSizes);
     return retArray;
 }
-```
+// ```

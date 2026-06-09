@@ -1,8 +1,8 @@
 
-```
+// ```
 `内联代码`
-```
-```
+// ```
+// ```
 class Solution {
 public:
     string addBinary(string a, string b) {
@@ -42,4 +42,4 @@ public:
 
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-这道题思路不难想，但是代码却改了好几次才通过，最主要的问题是会出现超时间/超内存
-第一种方式：
-利用动态规划--超时间限制，因为有很多没有利用到的状态也被计算了，这些状态也都被计算了下来
-```
+// 这道题思路不难想，但是代码却改了好几次才通过，最主要的问题是会出现超时间/超内存
+// 第一种方式：
+// 利用动态规划--超时间限制，因为有很多没有利用到的状态也被计算了，这些状态也都被计算了下来
+// ```
 class Solution {
 public:
     vector<string> wordBreak(string s, vector<string>& wordDict) {
@@ -43,9 +43,9 @@ public:
         return res;
     }
 };
-```
-dp--超内存限制 原因是到最后了才发现最后面的拼不起来啊，那个恨，前面的都浪费了
-```
+// ```
+// dp--超内存限制 原因是到最后了才发现最后面的拼不起来啊，那个恨，前面的都浪费了
+// ```
 class Solution {
 public:
     vector<string> wordBreak(string s, vector<string>& wordDict) {
@@ -76,10 +76,10 @@ public:
         return dp[n - 1];
     }
 };
-```
+// ```
 
-dfs--先扫一次到最后看看能不能拼起来，如果能拼起来再拼起来，并且可以去利用set加快搜索速度
-```
+// dfs--先扫一次到最后看看能不能拼起来，如果能拼起来再拼起来，并且可以去利用set加快搜索速度
+// ```
 class Solution {
     string s;
     set<string> wordDict;
@@ -142,5 +142,5 @@ public:
             return vector<string>();
     }
 };
-```
+// ```
 

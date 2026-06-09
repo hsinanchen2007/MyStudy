@@ -1,8 +1,8 @@
-### 解题思路
-主要就是获取时间 然后用avg函数过滤就OK了
-### 代码
+-- ### 解题思路
+-- 主要就是获取时间 然后用avg函数过滤就OK了
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -19,4 +19,4 @@ else 'same' end end `comparison`
 
 
 
-```
+-- ```

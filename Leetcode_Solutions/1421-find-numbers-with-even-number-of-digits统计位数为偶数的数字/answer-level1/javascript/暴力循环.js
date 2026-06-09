@@ -1,9 +1,9 @@
-### 解题思路
-for循环每一个数，先转换成字符串，长度%2，num++
+// ### 解题思路
+// for循环每一个数，先转换成字符串，长度%2，num++
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -18,4 +18,4 @@ var findNumbers = function(nums) {
     }
     return num;
 };
-```
+// ```

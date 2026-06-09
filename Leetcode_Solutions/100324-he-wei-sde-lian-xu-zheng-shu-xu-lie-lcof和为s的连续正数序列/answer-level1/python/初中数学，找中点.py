@@ -1,10 +1,10 @@
-### 解题思路
-- 根据序列长度找中点
-- 根据序列长度与中点确定序列
+# ### 解题思路
+# - 根据序列长度找中点
+# - 根据序列长度与中点确定序列
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         i = 2
@@ -19,4 +19,4 @@ class Solution:
                 res.append(list(range(int(mid + 0.5 - i // 2), int(mid - 0.5 + i // 2 + 1))))
             i += 1
         return res[::-1]
-```
+# ```

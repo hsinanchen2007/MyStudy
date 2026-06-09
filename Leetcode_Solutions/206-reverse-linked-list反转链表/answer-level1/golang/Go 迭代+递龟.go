@@ -1,4 +1,4 @@
-//迭代
+// //迭代
 `func reverseList(head *ListNode) *ListNode {
     if head==nil || head.Next==nil {return head}
     var prehead *ListNode

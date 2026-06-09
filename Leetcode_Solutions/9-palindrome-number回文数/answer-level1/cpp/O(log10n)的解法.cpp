@@ -1,10 +1,10 @@
-### 解题思路
-比官方稍微慢一些。注意点：
-溢出的判断
+// ### 解题思路
+// 比官方稍微慢一些。注意点：
+// 溢出的判断
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -21,4 +21,4 @@ public:
          return x_o == xx;
     }
 };
-```
+// ```

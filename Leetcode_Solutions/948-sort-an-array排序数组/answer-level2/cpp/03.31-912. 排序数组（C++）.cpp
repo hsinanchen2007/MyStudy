@@ -1,10 +1,10 @@
-### 解题思路
-炫耀一下吧
-![image.png](https://pic.leetcode-cn.com/0b617bd2f3be11cfe1d8a812c2cebed0d9f5e0d9c5b600dfe51ef93e9fd99e3a-image.png)
+// ### 解题思路
+// 炫耀一下吧
+// ![image.png](https://pic.leetcode-cn.com/0b617bd2f3be11cfe1d8a812c2cebed0d9f5e0d9c5b600dfe51ef93e9fd99e3a-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include <vector>
 class Solution {
 public:
@@ -54,4 +54,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 思路
-本题数可以循环，所以通过在一个临时数组中保存两次原数组来处理循环。当数组扩大一倍后，对于超过原数组下标的数，采用模运算来处理可以得到在原数组中的下标。
+// ### 思路
+// 本题数可以循环，所以通过在一个临时数组中保存两次原数组来处理循环。当数组扩大一倍后，对于超过原数组下标的数，采用模运算来处理可以得到在原数组中的下标。
 
-相同类型题目[739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/solution/739-mei-ri-wen-du-liang-chong-fang-fa-di-jian-zhan/)
+// 相同类型题目[739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/solution/739-mei-ri-wen-du-liang-chong-fang-fa-di-jian-zhan/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {        
@@ -24,4 +24,4 @@ public:
         return res;
     }
 };
-```
+// ```

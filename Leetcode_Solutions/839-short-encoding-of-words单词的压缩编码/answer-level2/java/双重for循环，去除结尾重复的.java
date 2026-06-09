@@ -1,9 +1,9 @@
-### 解题思路
-题没有读太懂，看着结果大体写了一下，提交了，还真过了。。。就是执行时间太长了，准备看看大神的解法。
+// ### 解题思路
+// 题没有读太懂，看着结果大体写了一下，提交了，还真过了。。。就是执行时间太长了，准备看看大神的解法。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
        //先把String数组转换成set去重，准备两个同样的set
@@ -23,4 +23,4 @@ class Solution {
         return sb.toString().length();
     }
 }
-```
+// ```

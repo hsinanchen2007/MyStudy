@@ -1,9 +1,9 @@
-### 解题思路
-思路清晰，叫我第一☝️（dfs专练）
+// ### 解题思路
+// 思路清晰，叫我第一☝️（dfs专练）
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} image
  * @param {number} sr
@@ -32,4 +32,4 @@ function dfs(image, i, j, newColor){
         dfs(image, i, j+1, newColor)
     }
 }
-```
+// ```

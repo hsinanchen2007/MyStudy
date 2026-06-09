@@ -1,5 +1,5 @@
-暴力双向链表，已无心优化。不过思路很直接；
-```c
+// 暴力双向链表，已无心优化。不过思路很直接；
+// ```c
 struct DListNode {
   int key;                         //键
   int value;                       //值
@@ -108,4 +108,4 @@ void lFUCacheFree(LFUCache* obj) {
   }
   free(obj);
 }
-```
+// ```

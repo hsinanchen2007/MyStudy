@@ -1,10 +1,10 @@
-### 解题思路
-根据官方文档写的
-![image.png](https://pic.leetcode-cn.com/4596d6277b07bffa20abf133e882a667f03cfc6bdb9395735b02b3585d6191e4-image.png)
+# ### 解题思路
+# 根据官方文档写的
+# ![image.png](https://pic.leetcode-cn.com/4596d6277b07bffa20abf133e882a667f03cfc6bdb9395735b02b3585d6191e4-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
@@ -24,4 +24,4 @@ class Solution:
                 c += 1
         return nums
 
-```
+# ```

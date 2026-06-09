@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Com(const void *a, const void *b)
 {
     return *(int*)a - *(int*)b;
@@ -42,4 +42,4 @@ bool uniqueOccurrences(int* arr, int arrSize){
 
     return true;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-**提交结果：**
-![运行结果.png](https://pic.leetcode-cn.com/e9df55bdfce241dc306595f6d87dcdfa99c714122d8b74f003199bbd00bbe526-%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png)
-**代码：**
-```
+// **提交结果：**
+// ![运行结果.png](https://pic.leetcode-cn.com/e9df55bdfce241dc306595f6d87dcdfa99c714122d8b74f003199bbd00bbe526-%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C.png)
+// **代码：**
+// ```
 public class Solution
 {
 	boolean isFound = false;
@@ -38,4 +38,4 @@ public class Solution
 		return inOrder(root, p.val);
 	}
 }
-```
+// ```

@@ -1,8 +1,8 @@
-(1),Alias two pointers, curPos indicates the current position,
-    zeroPos illustrates the first position of number zero.
-(2),Iterator the whole array from the left to right.
+// (1),Alias two pointers, curPos indicates the current position,
+//     zeroPos illustrates the first position of number zero.
+// (2),Iterator the whole array from the left to right.
 
-```
+// ```
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
@@ -30,6 +30,6 @@ public:
         }
     }
 };
-```
+// ```
 
 

@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
  
-![7.PNG](https://pic.leetcode-cn.com/b17b78ecd21a25e79f778bccd5523299a5a218f54be116f29c639aa0d00224a4-7.PNG)
+// ![7.PNG](https://pic.leetcode-cn.com/b17b78ecd21a25e79f778bccd5523299a5a218f54be116f29c639aa0d00224a4-7.PNG)
 
 
-难写了，自己看吧，很简单的
+// 难写了，自己看吧，很简单的
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int bestSeqAtIndex(vector<int>& height, vector<int>& weight) {
@@ -45,4 +45,4 @@ public:
 	}
 	
 };
-```
+// ```

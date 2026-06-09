@@ -1,9 +1,9 @@
-### 解题思路
-比较简单，cur记录当前值，count记录当前值出现的次数。遍历字符串，当S[i] !== cur时，更新count为0， cur为S[i];
+// ### 解题思路
+// 比较简单，cur记录当前值，count记录当前值出现的次数。遍历字符串，当S[i] !== cur时，更新count为0， cur为S[i];
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -24,4 +24,4 @@ var compressString = function(S) {
 
     return str.length >= len ? S : str;
 };
-```
+// ```

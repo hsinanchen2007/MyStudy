@@ -1,9 +1,9 @@
-### 解题思路
-N*N双重复杂度用例超时，用递增栈的方式，复杂度是N，可以通过；
+// ### 解题思路
+// N*N双重复杂度用例超时，用递增栈的方式，复杂度是N，可以通过；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -49,4 +49,4 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize)
     return result;
 }
 
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-啊啊啊啊终于跟着别人的思路写出来了,桶排序🐂🍺!小白菜也开始刷LeetCode!
-### 代码
+// ### 解题思路
+// 啊啊啊啊终于跟着别人的思路写出来了,桶排序🐂🍺!小白菜也开始刷LeetCode!
+// ### 代码
 
-```java
+// ```java
 class Solution { 
     public String customSortString(String S, String T) {
          char[] sArr = S.toCharArray();
@@ -38,4 +38,4 @@ class Solution {
         return stringBuffer.toString();
     }
 }
-```
+// ```

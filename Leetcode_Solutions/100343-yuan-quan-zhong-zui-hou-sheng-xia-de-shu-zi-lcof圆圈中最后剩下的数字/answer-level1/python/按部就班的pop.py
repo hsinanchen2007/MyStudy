@@ -1,9 +1,9 @@
-### 解题思路
-还真就挨个删除
+# ### 解题思路
+# 还真就挨个删除
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lastRemaining(self, n, m):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             ori.pop(i)
             # print ori
         return ori[0]
-```
+# ```

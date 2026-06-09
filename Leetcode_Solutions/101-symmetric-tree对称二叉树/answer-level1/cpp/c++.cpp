@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -23,4 +23,4 @@ public:
         return left->val == right->val && dfs(left->right,right->left) && dfs(left->left,right->right);
     }
 };
-```
+// ```

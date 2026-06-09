@@ -1,4 +1,4 @@
-```
+// ```
 var luckyNumbers  = function(matrix) {
     if(!matrix.length) return [];
     // 找到所有行最小的
@@ -31,9 +31,9 @@ var luckyNumbers  = function(matrix) {
     }
     return res;
 };
-```
+// ```
 
-前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
-这里记录了我刷过的近500道LeetCode的题解，
-希望对前端同行找工作面试、修炼算法内功有帮助。
-前端算法交流群：621067993
+// 前端算法库：https://github.com/cunzaizhuyi/js-leetcode  
+// 这里记录了我刷过的近500道LeetCode的题解，
+// 希望对前端同行找工作面试、修炼算法内功有帮助。
+// 前端算法交流群：621067993

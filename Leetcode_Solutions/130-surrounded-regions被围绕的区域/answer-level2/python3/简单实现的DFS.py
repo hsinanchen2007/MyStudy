@@ -1,5 +1,5 @@
-极其基本的解法，没有优化效率或者巧妙思路等
-```
+# 极其基本的解法，没有优化效率或者巧妙思路等
+# ```
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
@@ -43,4 +43,4 @@ class Solution:
                 if not visited[i][j] and board[i][j] == 'O':
                     board[i][j] = 'X'
   
-```
+# ```

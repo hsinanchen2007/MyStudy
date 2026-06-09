@@ -1,5 +1,5 @@
-这道题直接使用自旋的方式，利用判断信号量就能解决
-```
+// 这道题直接使用自旋的方式，利用判断信号量就能解决
+// ```
 class Foo {
     private volatile int signal = 0;
     public Foo() {
@@ -33,4 +33,4 @@ class Foo {
         ++signal;
     }
 }
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-新手链表不大熟悉,所以多练练链表
-大致是 
-1 先从大到小排序 qsort
-2 将数组变成链表
-3 第一个和第二个比较 链表指向第三个,将比较结果按顺序插入链表,循环往复,直到链表剩下一个或者一个都没有
-![截图.PNG](https://pic.leetcode-cn.com/ac34f344a8f3a9285cb0357fb77c6dca8bee1412fea872766d0a38e523be78aa-%E6%88%AA%E5%9B%BE.PNG)
+// ### 解题思路
+// 新手链表不大熟悉,所以多练练链表
+// 大致是 
+// 1 先从大到小排序 qsort
+// 2 将数组变成链表
+// 3 第一个和第二个比较 链表指向第三个,将比较结果按顺序插入链表,循环往复,直到链表剩下一个或者一个都没有
+// ![截图.PNG](https://pic.leetcode-cn.com/ac34f344a8f3a9285cb0357fb77c6dca8bee1412fea872766d0a38e523be78aa-%E6%88%AA%E5%9B%BE.PNG)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmpfunc (const void * a, const void * b)
 {
    return ( *(int*)b - *(int*)a );
@@ -92,4 +92,4 @@ int lastStoneWeight(int* stones, int stonesSize){
         return 0;
     }
 }
-```
+// ```

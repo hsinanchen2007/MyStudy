@@ -1,9 +1,9 @@
-# 思路
-1. 在链表中找到第一个大于等于x的节点p
-2. 在p节点后方找到小于x的节点q，删除q
-3. 将q插入到p之前
+// # 思路
+// 1. 在链表中找到第一个大于等于x的节点p
+// 2. 在p节点后方找到小于x的节点q，删除q
+// 3. 将q插入到p之前
 
-```swift
+// ```swift
 class Solution {
     func partition(_ head: ListNode?, _ x: Int) -> ListNode? {
         if head == nil || head?.next == nil { return head }
@@ -37,4 +37,4 @@ class Solution {
     }
 }
 
-```
+// ```

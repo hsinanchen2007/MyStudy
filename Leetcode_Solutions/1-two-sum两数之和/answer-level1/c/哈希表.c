@@ -1,10 +1,10 @@
-### 解题思路
-方法一： 通过两重循环，时间复杂度为（O(N^2)）;
-方法二：哈希表，哈希函数为hash(key) = abs(key) % numSize;
+// ### 解题思路
+// 方法一： 通过两重循环，时间复杂度为（O(N^2)）;
+// 方法二：哈希表，哈希函数为hash(key) = abs(key) % numSize;
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -24,10 +24,10 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     }
     return r;
 }
-```
+// ```
 
 
-```c
+// ```c
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -73,4 +73,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 
     return res;
 }
-```
+// ```

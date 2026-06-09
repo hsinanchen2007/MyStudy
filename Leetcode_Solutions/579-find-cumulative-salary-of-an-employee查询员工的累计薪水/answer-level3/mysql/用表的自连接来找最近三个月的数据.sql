@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select e1.Id, e1.Month,  if(e2.Salary is not null and e3.Salary is not null, e1.Salary+e2.Salary+e3.Salary, if(e2.Salary is not null, e1.Salary+e2.Salary, if(e3.Salary is not null, e1.Salary+e3.Salary, e1.Salary))) as Salary
 from Employee e1
@@ -15,4 +15,4 @@ where (e1.Id, e1.Month) not in (
     group by Id 
 )
 order by e1.Id, e1.Month desc ;
-```
+-- ```

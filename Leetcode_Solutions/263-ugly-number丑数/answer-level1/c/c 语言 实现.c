@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/4d8fce2653eba82352f0a9a28143f5a14b05439227fb9f040eb0a86881e2996f-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/4d8fce2653eba82352f0a9a28143f5a14b05439227fb9f040eb0a86881e2996f-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isUgly(int num){
     if(0 == num)
     {
@@ -28,4 +28,4 @@ bool isUgly(int num){
 
     return num == 1;
 }
-```
+// ```

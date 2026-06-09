@@ -1,9 +1,9 @@
-### 解题思路
-因为链表不能直接定位到最后一个节点，所以可以先遍历链表，将节点的值保存在列表中，然后使用对撞指针，比较left和right指针所指是否相等，若不等就返回False；若相等就同步向内移动，依次比较，直到两个指针相遇。
+# ### 解题思路
+# 因为链表不能直接定位到最后一个节点，所以可以先遍历链表，将节点的值保存在列表中，然后使用对撞指针，比较left和right指针所指是否相等，若不等就返回False；若相等就同步向内移动，依次比较，直到两个指针相遇。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
                 right -= 1
         return True
 
-```
+# ```

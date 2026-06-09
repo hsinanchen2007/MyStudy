@@ -1,9 +1,9 @@
-### 解题思路
-遍历了三次，效率不太高
+# ### 解题思路
+# 遍历了三次，效率不太高
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -44,4 +44,4 @@ def reverse(head):
 
             
 
-```
+# ```

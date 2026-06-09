@@ -1,9 +1,9 @@
-### 解题思路
-Brute force solution: using a nested for-loop.
+// ### 解题思路
+// Brute force solution: using a nested for-loop.
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[][] Transpose(int[][] A) {
         if (A.Length == 0) { return A; }
@@ -20,4 +20,4 @@ public class Solution {
         return transposed;
     }
 }
-```
+// ```

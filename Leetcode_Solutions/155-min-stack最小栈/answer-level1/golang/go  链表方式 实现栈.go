@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MinStack struct {
     Min  int
     Val  int
@@ -64,4 +64,4 @@ func (this *MinStack) GetMin() int {
  * param_3 := obj.Top();
  * param_4 := obj.GetMin();
  */
-```
+// ```

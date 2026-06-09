@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public static int numSteps(String s) {
         // 思路：用一个数组存放整个字符串的位，数组从左到右存放字符串的右到左的字符
@@ -59,4 +59,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

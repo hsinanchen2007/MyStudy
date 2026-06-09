@@ -1,6 +1,6 @@
-用时12ms
-内存消耗18.1MB
-```
+// 用时12ms
+// 内存消耗18.1MB
+// ```
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
@@ -19,4 +19,4 @@ private:
     //用INT_MIN不行。。。有测试用例数比较大
     long long int temp = LONG_MIN;
 };
-```
+// ```

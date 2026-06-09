@@ -1,11 +1,11 @@
-从题解：
-![image.png](https://pic.leetcode-cn.com/4f27c4a696908d33f10bbfbb9e3ecc2ec76bf0f6890c07684a2a031c365d13b2-image.png)
-中受到启发
+// 从题解：
+// ![image.png](https://pic.leetcode-cn.com/4f27c4a696908d33f10bbfbb9e3ecc2ec76bf0f6890c07684a2a031c365d13b2-image.png)
+// 中受到启发
 
-先分，然后找到左边的优胜者，在找到右边的优胜者，然后看哪个数字个数多，个数多的数字作为本轮的优胜者，并返回。
-具体实现参考代码如下：
+// 先分，然后找到左边的优胜者，在找到右边的优胜者，然后看哪个数字个数多，个数多的数字作为本轮的优胜者，并返回。
+// 具体实现参考代码如下：
 
-```
+// ```
 /*
  * 参数说明：
  * l：左边界
@@ -36,10 +36,10 @@ void div_con(vector<int>& nums, int l, int r, int& win, int& n){
         n = rn-ln;
     }
 }
-```
+// ```
 
-main函数：
-```
+// main函数：
+// ```
 int majorityElement(vector<int>& nums) {
     if(nums.size() == 0) return -1;
     
@@ -47,4 +47,4 @@ int majorityElement(vector<int>& nums) {
     div_con(nums, 0, nums.size(), win, n);
     return n>0 ? win : -1;
 }
-```
+// ```

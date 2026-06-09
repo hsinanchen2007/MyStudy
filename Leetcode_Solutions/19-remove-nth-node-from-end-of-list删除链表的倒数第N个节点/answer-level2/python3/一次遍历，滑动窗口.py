@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         end = head
@@ -17,4 +17,4 @@ class Solution:
             start.next = None
 
         return head
-```
+# ```

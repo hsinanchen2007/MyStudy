@@ -1,6 +1,6 @@
-假如这是一条单分支树，那么就是求数组的子数组等于目标值，求目标的子数组，很明显想到前缀和，我们用一个Map<Integer,Integer> count 来记录前缀和相同的数目。
+// 假如这是一条单分支树，那么就是求数组的子数组等于目标值，求目标的子数组，很明显想到前缀和，我们用一个Map<Integer,Integer> count 来记录前缀和相同的数目。
 
-```
+// ```
     Map<Integer,Integer> count;
 	int ans;
 	public int pathSum(TreeNode root, int sum) {
@@ -20,4 +20,4 @@
 			count.put(cur, count.get(cur)-1);
 		}
 	}
-```
+// ```

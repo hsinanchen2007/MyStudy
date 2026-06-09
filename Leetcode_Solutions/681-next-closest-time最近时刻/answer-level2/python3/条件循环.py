@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-简单的条件循环
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 简单的条件循环
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nextClosestTime(self, time: str) -> str:
         hour = int(time[:2])
@@ -33,4 +33,4 @@ class Solution:
         return new_time
 
 
-```
+# ```

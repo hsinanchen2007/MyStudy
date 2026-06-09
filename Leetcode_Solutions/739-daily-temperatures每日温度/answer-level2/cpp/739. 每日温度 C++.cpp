@@ -1,9 +1,9 @@
-### 解题思路
-即找下一个更大元素， 求的是下一个更大元素与当前元素的下标之差（天数）
+// ### 解题思路
+// 即找下一个更大元素， 求的是下一个更大元素与当前元素的下标之差（天数）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& T) {
@@ -26,4 +26,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先复制一个数组进行排序，然后用map进行映射排名。
+// ### 解题思路
+// 先复制一个数组进行排序，然后用map进行映射排名。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] findRelativeRanks(int[] nums) {
         Map<Integer,Integer> map = new HashMap<>();
@@ -27,4 +27,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

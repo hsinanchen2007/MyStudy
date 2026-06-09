@@ -1,6 +1,6 @@
-int retPath[1000][1000] = {0}; // 记录路径
-int size = 0; // 记录有多少条路径
-int sizeCal[1000] = {0}; // 记录每条路径有多少val
+// int retPath[1000][1000] = {0}; // 记录路径
+// int size = 0; // 记录有多少条路径
+// int sizeCal[1000] = {0}; // 记录每条路径有多少val
 
 int stack[1000] = {0};
 int top = 0;

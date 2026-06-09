@@ -1,9 +1,9 @@
-### 解题思路
-一个指针pnode保存前一个元素地址，另外两个指针为快慢指针pslow,pfast，快慢指针相差n个元素的距离，pslow和pnode相差一个距离，当快指针遍历完链表，慢指针指向的就是要删除的元素
+// ### 解题思路
+// 一个指针pnode保存前一个元素地址，另外两个指针为快慢指针pslow,pfast，快慢指针相差n个元素的距离，pslow和pnode相差一个距离，当快指针遍历完链表，慢指针指向的就是要删除的元素
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n){
         
         return head;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-分两次遍历，第一个遍历把字母押入栈中，第二次遍历遇到字母从栈顶弹出一个元素，否则使用当前字符。
+// ### 解题思路
+// 分两次遍历，第一个遍历把字母押入栈中，第二次遍历遇到字母从栈顶弹出一个元素，否则使用当前字符。
 
-**PHP竟然没有检查是否是字母的函数。**
+// **PHP竟然没有检查是否是字母的函数。**
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -38,11 +38,11 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度: O(N)
-- 空间复杂度: O(N)
+// ### 算法复杂度
+// - 时间复杂度: O(N)
+// - 空间复杂度: O(N)
 
-### 参考
-[leetcode官方解题](https://leetcode-cn.com/problems/reverse-only-letters/solution/jin-jin-fan-zhuan-zi-mu-by-leetcode/)
+// ### 参考
+// [leetcode官方解题](https://leetcode-cn.com/problems/reverse-only-letters/solution/jin-jin-fan-zhuan-zi-mu-by-leetcode/)

@@ -1,6 +1,6 @@
-递归，利用栈print
+// 递归，利用栈print
 
-```C++
+// ```C++
 class Solution {
 public:
     void print(ListNode* head, vector<int>& reverse) {
@@ -14,6 +14,6 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-复杂度O(n)
+// 复杂度O(n)

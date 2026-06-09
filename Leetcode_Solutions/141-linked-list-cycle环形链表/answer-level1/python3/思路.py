@@ -1,9 +1,9 @@
-### 解题思路
-创建一个set集合，通过寻找head是否存在集合中
+# ### 解题思路
+# 创建一个set集合，通过寻找head是否存在集合中
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -19,4 +19,4 @@ class Solution:
             myset.add(head)
             head = head.next
         return False
-```
+# ```

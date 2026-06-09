@@ -1,15 +1,15 @@
-### 解题思路
-参考
->详细通俗的思路分析，多解法
->windliang
+# ### 解题思路
+# 参考
+# >详细通俗的思路分析，多解法
+# >windliang
 
-python 解法
-考虑溢出，考虑边界，更加简洁
+# python 解法
+# 考虑溢出，考虑边界，更加简洁
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def divide(self, dividend: int, divisor: int) -> int:
         # 相反数
@@ -47,4 +47,4 @@ class Solution:
         return ans if sign <0 else opposite(ans)
         
         
-```
+# ```

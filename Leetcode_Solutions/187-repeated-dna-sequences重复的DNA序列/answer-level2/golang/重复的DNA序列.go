@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口, 计数
+// ### 解题思路
+// 滑动窗口, 计数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findRepeatedDnaSequences(s string) []string {
 	cntMap := make(map[string]int)
 	st := 0
@@ -21,4 +21,4 @@ func findRepeatedDnaSequences(s string) []string {
 	}
 	return res
 }
-```
+// ```

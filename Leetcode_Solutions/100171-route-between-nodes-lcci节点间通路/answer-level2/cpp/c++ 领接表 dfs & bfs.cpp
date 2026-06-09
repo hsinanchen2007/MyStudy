@@ -1,5 +1,5 @@
-250ms, dfs与bfs，这是最优解了，时间差异是评测机的问题
-```c++
+// 250ms, dfs与bfs，这是最优解了，时间差异是评测机的问题
+// ```c++
 // dfs
 class Solution {
 public:
@@ -22,9 +22,9 @@ public:
         return dfs(start, target, e, new vector<bool>(n, false));
     }
 };
-```
+// ```
 
-```c++
+// ```c++
 // bfs
 
 class Solution {
@@ -54,4 +54,4 @@ public:
         return false;
     }
 };
-```
+// ```

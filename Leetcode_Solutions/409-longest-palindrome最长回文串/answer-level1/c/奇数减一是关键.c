@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-打卡打卡
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 打卡打卡
+// ### 代码
 
-```c
+// ```c
 #define MAX_CH_COUNT 30 
 
 #define BIGGER(a,b) ((a)>(b))?(a):(b)  
@@ -50,4 +50,4 @@ int longestPalindrome(char * s){
     return maxlen;
 
 }
-```
+// ```

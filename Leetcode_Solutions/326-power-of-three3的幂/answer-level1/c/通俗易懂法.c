@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPowerOfThree(int n){
     if (n <= 0) return false;
     while (n > 1)
@@ -13,4 +13,4 @@ bool isPowerOfThree(int n){
     }
     return true;
 }
-```
+// ```

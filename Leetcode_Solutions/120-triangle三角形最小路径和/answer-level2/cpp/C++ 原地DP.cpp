@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -14,7 +14,7 @@ public:
         return *min_element(triangle.back().begin(), triangle.back().end());
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/e56104e43629031e8316b5d4fc81d31edebebdc08ab6c025b09303920e4c9a78-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e56104e43629031e8316b5d4fc81d31edebebdc08ab6c025b09303920e4c9a78-image.png)
 
 

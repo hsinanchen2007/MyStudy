@@ -1,6 +1,6 @@
-### 解题思路
-代码如下
-class MyStack(object):      # 使用两个队列实现
+# ### 解题思路
+# 代码如下
+# class MyStack(object):      # 使用两个队列实现
 
     def __init__(self):
         """

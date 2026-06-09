@@ -1,14 +1,14 @@
-### 解题思路
-创建2个一维数组pre和dp，pre[i]表示到上一行的第i个位置的最短距离，dp[i]表示到这一行的第i个位置的最短距离。
-递推式为dp[i]=min(pre[i-1],pre[i])+这个位置的triangle值。
-每次求完一行后，将pre的值更新，pre[i]=dp[i]。
-时间复杂度O(N^2)
-空间复杂度O(N)
-实际用时0ms，超过100%
+// ### 解题思路
+// 创建2个一维数组pre和dp，pre[i]表示到上一行的第i个位置的最短距离，dp[i]表示到这一行的第i个位置的最短距离。
+// 递推式为dp[i]=min(pre[i-1],pre[i])+这个位置的triangle值。
+// 每次求完一行后，将pre的值更新，pre[i]=dp[i]。
+// 时间复杂度O(N^2)
+// 空间复杂度O(N)
+// 实际用时0ms，超过100%
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -33,4 +33,4 @@ public:
         return ans;
     }
 };
-```
+// ```

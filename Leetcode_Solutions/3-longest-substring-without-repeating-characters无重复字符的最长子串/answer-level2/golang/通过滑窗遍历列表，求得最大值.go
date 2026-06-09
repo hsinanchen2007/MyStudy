@@ -1,4 +1,4 @@
-```
+// ```
 /*
 	滑窗机制，定义一个起始点，遍历字段（结束点不断向后移动）
 	设定一个 hash 表用于存放出现过的字符并且记录字符出现的最大的位置
@@ -28,4 +28,4 @@ func lengthOfLongestSubstring(s string) int {
 	}
 	return res
 }
-```
+// ```

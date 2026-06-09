@@ -1,12 +1,12 @@
-### 解题思路
-递归遍历
+// ### 解题思路
+// 递归遍历
 
-![image.png](https://pic.leetcode-cn.com/7c1d280c4fbc05ee263fa862d4e36e61168e6e68d573055fd51e38a6ee01dd9d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7c1d280c4fbc05ee263fa862d4e36e61168e6e68d573055fd51e38a6ee01dd9d-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ int sumRootToLeaf(struct TreeNode* root){
 	trans(root, 0, &sum);
 	return sum;
 }
-```
+// ```

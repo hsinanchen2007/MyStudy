@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -10,4 +10,4 @@ public:
         return len;
     }
 };
-```
+// ```

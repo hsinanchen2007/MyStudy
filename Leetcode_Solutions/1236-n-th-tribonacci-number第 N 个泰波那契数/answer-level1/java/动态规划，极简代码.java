@@ -1,5 +1,5 @@
-每迭代一步，讲a, b, c各向后挪一格。
-```
+// 每迭代一步，讲a, b, c各向后挪一格。
+// ```
 public class Q1137_test1 {
     public int tribonacci(int n) {
         int a = 0, b = 1, c = 1;
@@ -12,4 +12,4 @@ public class Q1137_test1 {
         return a;
     }
 }
-```
+// ```

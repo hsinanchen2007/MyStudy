@@ -1,9 +1,9 @@
-### 解题思路
-通过迭代函数把每棵树的子树值互换，并进入下一次迭代
+# ### 解题思路
+# 通过迭代函数把每棵树的子树值互换，并进入下一次迭代
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
         if root.right:
             n.left = TreeNode(0)
             self.make(root.right, n.left)
-```
+# ```

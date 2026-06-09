@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution(object):
     def strStr(self, haystack, needle):
         """
@@ -24,4 +24,4 @@ class Solution(object):
                 return i
             else:
                 return -1
-```
+# ```

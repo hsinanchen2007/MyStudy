@@ -1,9 +1,9 @@
-### 解题思路
-append操作，偶数行从左到右；奇数行从右到左
+# ### 解题思路
+# append操作，偶数行从左到右；奇数行从右到左
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
 
         dfs(root, 0)
         return res
-```
+# ```

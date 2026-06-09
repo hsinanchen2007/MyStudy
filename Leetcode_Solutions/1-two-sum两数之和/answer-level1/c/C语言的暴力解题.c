@@ -1,10 +1,10 @@
-### 解题思路
-C语言的暴力解题，效率太低了。
-自我勉励吧，各位C语言的同学们加油。
+// ### 解题思路
+// C语言的暴力解题，效率太低了。
+// 自我勉励吧，各位C语言的同学们加油。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -29,4 +29,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     
     return 0;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：查表法，
@@ -76,4 +76,4 @@ bool isAlienSorted(char ** words, int wordsSize, char * order){
     return true;
 
 }
-```
+// ```

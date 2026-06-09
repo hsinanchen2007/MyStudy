@@ -1,9 +1,9 @@
-### 解题思路
-    想用递归实现所以没用循环和快慢指针一样双百，递归至表尾，记录size，cnt =（size + 1） / 2 可以得到中间点的位置，递归返回时依次自减，cnt减为0时表示到达中间位置，记录该节点作为返回值。
+// ### 解题思路
+//     想用递归实现所以没用循环和快慢指针一样双百，递归至表尾，记录size，cnt =（size + 1） / 2 可以得到中间点的位置，递归返回时依次自减，cnt减为0时表示到达中间位置，记录该节点作为返回值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ struct ListNode* middleNode(struct ListNode* head){
     Recurse(head, &cnt, &size, &res);
     return res;
 }
-```
+// ```

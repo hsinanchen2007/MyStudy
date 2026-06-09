@@ -1,11 +1,11 @@
-### 解题思路
-拓扑排序
-1 构建邻接矩阵
-2 广度搜索入度为0的顶点
+// ### 解题思路
+// 拓扑排序
+// 1 构建邻接矩阵
+// 2 广度搜索入度为0的顶点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -191,4 +191,4 @@ ERR:
     *returnSize = 0;
     return NULL;
 }
-```
+// ```

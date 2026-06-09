@@ -1,10 +1,10 @@
-### 解题思路
-a ^ b ：表示a+b忽略进位的数值
-(a & b) << 1 ：表示a+b的进位
+// ### 解题思路
+// a ^ b ：表示a+b忽略进位的数值
+// (a & b) << 1 ：表示a+b的进位
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int add(int a, int b) {
         while (b != 0) {
@@ -16,4 +16,4 @@ class Solution {
         return a;
     }
 }
-```
+// ```

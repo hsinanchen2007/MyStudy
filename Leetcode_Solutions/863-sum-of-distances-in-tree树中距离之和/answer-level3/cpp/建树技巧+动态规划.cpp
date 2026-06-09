@@ -1,10 +1,10 @@
-### 解题思路
-虽然耗时和内存不太理想，但是这个方法通俗易懂。我个人感觉难点在于建树，首先定义结构体Node，一开始在Node数组tree中每个节点的next列表中包含所有相连节点，接着寻找在edge中出现次数最多的树作为根，以达到压缩路径的目的，从根开始，依次对next中的所有元素进行深度优先搜索，只访问节点对应的access中为false的节点，每访问一个节点，将其对应的access数组置为true，并将next中对应access为true的节点去掉，因为其已经在前面出现过了，所以不能作为下一节点。接着再用另一个深搜函数求出每个节点到其以下所有节点的距离之和，记为distDown，并记录其以下所有节点的个数，记为descendant。根节点到根节点以下所有节点距离和distDOwn即为其到所有节点距离和dist，此外，每两个相邻节点之间的状态转移关系在代码注释有**标注。
-![image.png](https://pic.leetcode-cn.com/4dc0010cb1e1dd3e4529ae3589675da01fcb12a028dea3b256f61b74353ca500-image.png)
+// ### 解题思路
+// 虽然耗时和内存不太理想，但是这个方法通俗易懂。我个人感觉难点在于建树，首先定义结构体Node，一开始在Node数组tree中每个节点的next列表中包含所有相连节点，接着寻找在edge中出现次数最多的树作为根，以达到压缩路径的目的，从根开始，依次对next中的所有元素进行深度优先搜索，只访问节点对应的access中为false的节点，每访问一个节点，将其对应的access数组置为true，并将next中对应access为true的节点去掉，因为其已经在前面出现过了，所以不能作为下一节点。接着再用另一个深搜函数求出每个节点到其以下所有节点的距离之和，记为distDown，并记录其以下所有节点的个数，记为descendant。根节点到根节点以下所有节点距离和distDOwn即为其到所有节点距离和dist，此外，每两个相邻节点之间的状态转移关系在代码注释有**标注。
+// ![image.png](https://pic.leetcode-cn.com/4dc0010cb1e1dd3e4529ae3589675da01fcb12a028dea3b256f61b74353ca500-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 struct Node
@@ -120,4 +120,4 @@ void dfs3(bool*access, Node*tree,int curr)
     return re;
     }
 };
-```
+// ```

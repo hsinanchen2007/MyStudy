@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-1. 使用数组做为栈的数据结构
-2. size当前保存了多少个有效数字，通过+-来调整下标，达成push和pop动作
-3. cap数组的容量大小
+// 1. 使用数组做为栈的数据结构
+// 2. size当前保存了多少个有效数字，通过+-来调整下标，达成push和pop动作
+// 3. cap数组的容量大小
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     v []int
     size int
@@ -64,4 +64,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

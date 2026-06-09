@@ -1,6 +1,6 @@
-BFS 一般都是用queue  这个题目用queue 不大合适，改用deque
+// BFS 一般都是用queue  这个题目用queue 不大合适，改用deque
 
-```
+// ```
 vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
 		if (root == NULL) return {};
 		vector<vector<int>> ret;
@@ -27,4 +27,4 @@ vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
 		}
 		return ret;
 	}
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-学习结果里面的内存最佳方法。
-这里的思路跟时间最佳是一模一样。就不多废话了。https://leetcode-cn.com/problems/lfu-cache/solution/bu-zhi-dao-neng-bu-neng-jian-chi-de-xiao-bai-shi-4/
-唯一一点是在实现上，其实是不需要用OrderedDict的，构建一个栈，按压栈的顺序，pop(0)就是最早进栈的那个。
-扫了一眼看到还有用双向链方法的，以后有机会再看。
+# ### 解题思路
+# 学习结果里面的内存最佳方法。
+# 这里的思路跟时间最佳是一模一样。就不多废话了。https://leetcode-cn.com/problems/lfu-cache/solution/bu-zhi-dao-neng-bu-neng-jian-chi-de-xiao-bai-shi-4/
+# 唯一一点是在实现上，其实是不需要用OrderedDict的，构建一个栈，按压栈的顺序，pop(0)就是最早进栈的那个。
+# 扫了一眼看到还有用双向链方法的，以后有机会再看。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class LFUCache:
 
     def __init__(self, capacity: int):
@@ -49,4 +49,4 @@ class LFUCache:
 # obj = LFUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

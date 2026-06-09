@@ -1,4 +1,4 @@
-```
+-- ```
 select e.lv transactions_count,nvl(e.visits_count,0) visits_count from
 (select c.transactions_count, c.visits_count,nvl(c.mcnt,max(c.mcnt)over()) mcnt,d.lv
   from (select max(c.transactions_count) over() mcnt,
@@ -17,4 +17,4 @@ select e.lv transactions_count,nvl(e.visits_count,0) visits_count from
  where c.transactions_count(+) = d.lv) e
  where e.lv <= e.mcnt
  order by e.lv asc
-```
+-- ```

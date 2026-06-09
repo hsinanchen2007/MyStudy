@@ -1,4 +1,4 @@
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -22,11 +22,11 @@ class Solution {
         return root;      
     }
 }
-```
+// ```
 
-> 11.26 python
+// > 11.26 python
 
-```python
+// ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -51,4 +51,4 @@ class Solution:
                 return root
         
         return root 
-```
+// ```

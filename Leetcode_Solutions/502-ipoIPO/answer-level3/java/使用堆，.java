@@ -1,9 +1,9 @@
-### 解题思路
-用一个最小堆存放项目，将资金小于w的项目，放入一个最大堆，然后取出最大堆里面的项目。
+// ### 解题思路
+// 用一个最小堆存放项目，将资金小于w的项目，放入一个最大堆，然后取出最大堆里面的项目。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private class MyNode{
     int profit;
@@ -42,4 +42,4 @@ public int findMaximizedCapital(int k, int W, int[] Profits, int[] Capital) {
 }
 
 }
-```
+// ```

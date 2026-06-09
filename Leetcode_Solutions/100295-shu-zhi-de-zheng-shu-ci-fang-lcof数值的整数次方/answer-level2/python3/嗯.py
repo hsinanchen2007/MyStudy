@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def myPow(self, x: float, n: int) -> float:
         res = 1
@@ -13,4 +13,4 @@ class Solution:
             exp = exp*exp
             n >>=1
         return res if not mark else 1/res
-```
+# ```

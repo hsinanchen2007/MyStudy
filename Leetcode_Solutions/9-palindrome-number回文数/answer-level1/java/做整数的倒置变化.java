@@ -1,8 +1,8 @@
-### 解题思路
-1 做整数的倒置变化
-### 代码
+// ### 解题思路
+// 1 做整数的倒置变化
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
         if(x<0) return false;
@@ -16,4 +16,4 @@ class Solution {
         return a==x;
     }
 }
-```
+// ```

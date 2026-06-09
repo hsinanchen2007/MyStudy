@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def magicalString(self, n: int) -> int:
         s = "122"
@@ -11,4 +11,4 @@ class Solution:
                 s += "2" * int(s[i])
                 i += 1
         return s[:n].count('1')
-```
+# ```

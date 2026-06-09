@@ -1,14 +1,14 @@
-### 解题思路
+# ### 解题思路
 
-两个队列，分别命名为 queue1，queue2。第一个队列只管接受插入。
+# 两个队列，分别命名为 queue1，queue2。第一个队列只管接受插入。
 
-1. push：append一个值到queue1，并更新一次这个栈的深度（size）。
-2. pop：将queue1的（0~size-1）的值，全部后插（append）导入queue2中，直到queue1中只剩一个值的时候，将queue1唯一的值pop出来。再将queue2全部导回到queue1中。
-3. top：与pop相同，只不过取出来之后，不pop出来，将其继续插入queue2后，再将queue2全部导回到queue1中。
+# 1. push：append一个值到queue1，并更新一次这个栈的深度（size）。
+# 2. pop：将queue1的（0~size-1）的值，全部后插（append）导入queue2中，直到queue1中只剩一个值的时候，将queue1唯一的值pop出来。再将queue2全部导回到queue1中。
+# 3. top：与pop相同，只不过取出来之后，不pop出来，将其继续插入queue2后，再将queue2全部导回到queue1中。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MyStack(object):
 
     def __init__(self):
@@ -42,4 +42,4 @@ class MyStack(object):
         return temp
     def empty(self):
         return not self.size
-```
+# ```

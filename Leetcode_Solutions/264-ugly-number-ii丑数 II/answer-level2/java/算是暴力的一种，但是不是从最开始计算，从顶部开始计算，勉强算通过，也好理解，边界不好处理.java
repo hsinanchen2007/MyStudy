@@ -1,6 +1,6 @@
-        // 逆序查找，分别从当前丑数的list中最大的开始计算，分别乘以2,3,5
-        // 直到计算出下一个丑数比当前list中最后一个数小（分别走到list的i，j，k的位置）
-        // 则停止此次查找，然后计算min（2*list（i+1）， 3*list(j+1)， 5*list（k+1））
+//         // 逆序查找，分别从当前丑数的list中最大的开始计算，分别乘以2,3,5
+//         // 直到计算出下一个丑数比当前list中最后一个数小（分别走到list的i，j，k的位置）
+//         // 则停止此次查找，然后计算min（2*list（i+1）， 3*list(j+1)， 5*list（k+1））
         List<BigInteger> uglyList = new ArrayList<>();
         // 第一个丑数是1
         uglyList.add(BigInteger.ONE);

@@ -1,10 +1,10 @@
-### 解题思路
-只有一点需要注意：
-首字母分大小写，第一遍没过就是因为忘记大写
+# ### 解题思路
+# 只有一点需要注意：
+# 首字母分大小写，第一遍没过就是因为忘记大写
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def toGoatLatin(self, S: str) -> str:
 
@@ -24,4 +24,4 @@ class Solution:
             new_seq.append(deal_word(start_char, rest_seq, index))
         
         return ' '.join(new_seq)
-```
+# ```

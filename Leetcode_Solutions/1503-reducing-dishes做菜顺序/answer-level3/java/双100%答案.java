@@ -1,5 +1,5 @@
-sum<0时的那个菜就是最后抛弃的菜
-```
+// sum<0时的那个菜就是最后抛弃的菜
+// ```
 public int maxSatisfaction(int[] satisfaction) {
     Arrays.sort(satisfaction);
     int n = satisfaction.length;
@@ -15,4 +15,4 @@ public int maxSatisfaction(int[] satisfaction) {
     }
     return ans;
 }
-```
+// ```

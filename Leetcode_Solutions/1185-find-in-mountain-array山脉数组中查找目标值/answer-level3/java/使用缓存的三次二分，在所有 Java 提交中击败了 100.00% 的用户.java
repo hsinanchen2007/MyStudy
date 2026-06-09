@@ -1,10 +1,10 @@
-### 解题思路
-三次二分
-避免查询次数过多使用自定义的缓存
+// ### 解题思路
+// 三次二分
+// 避免查询次数过多使用自定义的缓存
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * // This is MountainArray's API interface.
  * // You should not implement it, or speculate about its implementation
@@ -127,4 +127,4 @@ class Solution {
 
 
 }
-```
+// ```

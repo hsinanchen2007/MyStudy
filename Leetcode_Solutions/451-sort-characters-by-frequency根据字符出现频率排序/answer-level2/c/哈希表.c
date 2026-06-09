@@ -1,8 +1,8 @@
-### 解题思路
-    哈希 ~ ~ ~
-### 代码
+// ### 解题思路
+//     哈希 ~ ~ ~
+// ### 代码
 
-```c
+// ```c
 int map[128];
 int cmp(const void *a,const void *b){
     char ta = *(char *)a;
@@ -19,4 +19,4 @@ char * frequencySort(char * s){
     qsort(s,len,sizeof(char),cmp);
     return s;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-### 解题思路
-### 代码
+// ### 解题思路
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numEquivDominoPairs(vector<vector<int>>& dominoes) {
@@ -24,4 +24,4 @@ public:
 
     }
 };
-```
+// ```

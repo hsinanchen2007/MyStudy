@@ -1,14 +1,14 @@
-1. 判断入参异常情况
-- 输入小于0，edges为空
-- 如果source不在节点中返回false
-- 如果destination下还有其他节点返回false
-2. DFS深度遍历
-- 如果source和destination相同，结束，注意如果这个时候没有访问一个节点，终止
-- source是否在图中有下一个节点，如果没有，终止
-- 如果又一次访问相同节点，则存在环
-- 对下一层节点进行DFS深度遍历
-3. 每一次遍历保存的visited容易请保持独立，逐层追加传递
-```
+// 1. 判断入参异常情况
+// - 输入小于0，edges为空
+// - 如果source不在节点中返回false
+// - 如果destination下还有其他节点返回false
+// 2. DFS深度遍历
+// - 如果source和destination相同，结束，注意如果这个时候没有访问一个节点，终止
+// - source是否在图中有下一个节点，如果没有，终止
+// - 如果又一次访问相同节点，则存在环
+// - 对下一层节点进行DFS深度遍历
+// 3. 每一次遍历保存的visited容易请保持独立，逐层追加传递
+// ```
 class Solution
 {
 public:
@@ -96,4 +96,4 @@ public:
 private:
     map<int, vector<int>> gragh;
 };
-```
+// ```

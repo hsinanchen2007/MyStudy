@@ -1,9 +1,9 @@
-### 解题思路
-用try来判断这一层是否在res里面，不在就添加
+# ### 解题思路
+# 用try来判断这一层是否在res里面，不在就添加
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,4 +28,4 @@ class Solution:
                 helper(root.right, depth)
         helper(root, 0)
         return res
-```
+# ```

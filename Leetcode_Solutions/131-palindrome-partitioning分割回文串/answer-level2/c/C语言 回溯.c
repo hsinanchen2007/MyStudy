@@ -1,12 +1,12 @@
-### 解题思路
-如何记录一个符合要求的结果：
-`int *result = (int *)malloc((len + 1) * sizeof(int));`
-记录在字符串s中的下标范围，而不是记录字符串。
-result[i] 表示子串以s[i]结尾，那么这个子串就是从result[i-1] + 1 ~ result[i]
+// ### 解题思路
+// 如何记录一个符合要求的结果：
+// `int *result = (int *)malloc((len + 1) * sizeof(int));`
+// 记录在字符串s中的下标范围，而不是记录字符串。
+// result[i] 表示子串以s[i]结尾，那么这个子串就是从result[i-1] + 1 ~ result[i]
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int isHui(char *s, int start, int end)
 {
     while (start <= end) {
@@ -57,4 +57,4 @@ char *** partition(char * s, int* returnSize, int** returnColumnSizes){
     return res;
 }
 
-```
+// ```

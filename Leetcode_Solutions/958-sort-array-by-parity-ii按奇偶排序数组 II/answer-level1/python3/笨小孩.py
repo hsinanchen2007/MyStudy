@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def sortArrayByParityII(self, A:list):
         """
@@ -13,4 +13,4 @@ class Solution(object):
                 del a[0]
                 break
         return b
-```
+# ```

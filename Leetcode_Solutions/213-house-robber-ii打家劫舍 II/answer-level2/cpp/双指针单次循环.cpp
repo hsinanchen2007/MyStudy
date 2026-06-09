@@ -1,8 +1,8 @@
-### 解题思路
-双指针同时遍历，一次循环就好了。
-### 代码
+// ### 解题思路
+// 双指针同时遍历，一次循环就好了。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -24,4 +24,4 @@ public:
         return max(cur1, cur2);
     }
 };
-```
+// ```

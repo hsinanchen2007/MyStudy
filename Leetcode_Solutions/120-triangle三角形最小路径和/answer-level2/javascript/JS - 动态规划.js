@@ -1,9 +1,9 @@
-### 解题思路
-核心公式 dp(i,j) = Math.min(dp(i-1,j-1),dp(i-1,j))
+// ### 解题思路
+// 核心公式 dp(i,j) = Math.min(dp(i-1,j-1),dp(i-1,j))
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} triangle
  * @return {number}
@@ -22,4 +22,4 @@ var minimumTotal = function(triangle) {
     }
     return Math.min(...preRow);
 };
-```
+// ```

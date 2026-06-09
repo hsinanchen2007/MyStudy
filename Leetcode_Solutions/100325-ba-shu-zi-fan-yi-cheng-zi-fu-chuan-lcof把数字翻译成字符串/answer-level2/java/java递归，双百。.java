@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     var count = 0
     fun translateNum(num: Int): Int {
@@ -26,4 +26,4 @@ class Solution {
         dfs(num, end + 1, end + 2)
     }
 }
-```
+// ```

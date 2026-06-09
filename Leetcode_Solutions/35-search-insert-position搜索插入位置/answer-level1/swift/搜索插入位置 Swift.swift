@@ -1,5 +1,5 @@
-第一种方法：二分查找
-```
+// 第一种方法：二分查找
+// ```
  func searchInsert(_ nums: [Int], _ target: Int) -> Int {
         var left = 0 , right = nums.count - 1
         while left <= right {
@@ -18,10 +18,10 @@
         }
         return 0 
     }
-```
+// ```
 
-第二种方法：遍历
-```
+// 第二种方法：遍历
+// ```
     func searchInsert(_ nums: [Int], _ target: Int) -> Int {
         
         if nums.count == 0 || nums[0] > target{
@@ -42,4 +42,4 @@
         }
         return 0
     }
-```
+// ```

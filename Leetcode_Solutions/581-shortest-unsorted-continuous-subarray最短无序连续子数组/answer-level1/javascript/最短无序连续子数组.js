@@ -1,6 +1,6 @@
-排序后，双指针对比
+// 排序后，双指针对比
 
-```js
+// ```js
 var findUnsortedSubarray = function(nums) {
     let nums2 = [...nums];
     nums.sort((a, b) => a - b);
@@ -21,5 +21,5 @@ var findUnsortedSubarray = function(nums) {
     	return j - i + 1
     }
 };
-```
+// ```
 

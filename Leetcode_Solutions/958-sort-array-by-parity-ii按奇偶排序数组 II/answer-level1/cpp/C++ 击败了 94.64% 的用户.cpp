@@ -1,7 +1,7 @@
-![2.png](https://pic.leetcode-cn.com/2e30566db366c5b2a5121417aac85a6ecfe0b2301beb694cfb020fe6a1e81489-2.png)
+// ![2.png](https://pic.leetcode-cn.com/2e30566db366c5b2a5121417aac85a6ecfe0b2301beb694cfb020fe6a1e81489-2.png)
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     vector<int> sortArrayByParityII(vector<int>& A) {
@@ -14,4 +14,4 @@ public:
         return A;
     }
 };
-```
+// ```

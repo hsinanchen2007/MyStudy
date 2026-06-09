@@ -1,4 +1,4 @@
-```c
+// ```c
 int getDecimalValue(struct ListNode* head){
     int result=0;
     while(head!=0){
@@ -7,4 +7,4 @@ int getDecimalValue(struct ListNode* head){
     }
     return result;
 }
-```
+// ```

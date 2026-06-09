@@ -1,4 +1,4 @@
-```
+// ```
 func removeBoxes(boxes []int) int {
 	n := len(boxes)
 	memo := make([]map[int]map[int]int, n)
@@ -34,4 +34,4 @@ func dfs(boxes []int, memo []map[int]map[int]int, l, r, k int) int {
 	}
 	return memo[l][r][k]
 }
-```
+// ```

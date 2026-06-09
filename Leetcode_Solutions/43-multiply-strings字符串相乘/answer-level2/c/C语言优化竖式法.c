@@ -1,12 +1,12 @@
-### 解题思路
-![图片.png](https://pic.leetcode-cn.com/9f78871fe3a060445a2f577c527836d179132219948d61f9f206af519c8152e2-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// ![图片.png](https://pic.leetcode-cn.com/9f78871fe3a060445a2f577c527836d179132219948d61f9f206af519c8152e2-%E5%9B%BE%E7%89%87.png)
 
-为了方便阅读，把一些步骤写成了函数。
-解题方法就是优化竖式法
+// 为了方便阅读，把一些步骤写成了函数。
+// 解题方法就是优化竖式法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /*
 outputnum short数组，存放结果
 a           参与乘法运算的数
@@ -93,4 +93,4 @@ char * multiply(char * num1, char * num2){
     }
     return output+r;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-首先遍历数组 统计每个值的数量 并找出最大值和最小值 从最小值开始move 每次move 当前值数量 - 1，最大值是为了保证所有值都是唯一
+// ### 解题思路
+// 首先遍历数组 统计每个值的数量 并找出最大值和最小值 从最小值开始move 每次move 当前值数量 - 1，最大值是为了保证所有值都是唯一
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number}
@@ -33,4 +33,4 @@ var minIncrementForUnique = function(A) {
     }
     return move;
 };
-```
+// ```

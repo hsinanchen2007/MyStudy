@@ -1,6 +1,6 @@
-![13A9F2EA-7765-415F-96F8-7D35EB0B8CE2.jpeg](https://pic.leetcode-cn.com/dc2396adacb8e4997e0de06460f13597c6af2633330f39fd64a277f81aa850a8-13A9F2EA-7765-415F-96F8-7D35EB0B8CE2.jpeg)
+// ![13A9F2EA-7765-415F-96F8-7D35EB0B8CE2.jpeg](https://pic.leetcode-cn.com/dc2396adacb8e4997e0de06460f13597c6af2633330f39fd64a277f81aa850a8-13A9F2EA-7765-415F-96F8-7D35EB0B8CE2.jpeg)
 
-```
+// ```
 #define MAXSIZE 12001
 
 char * licenseKeyFormatting(char * S, int K){
@@ -66,4 +66,4 @@ char * licenseKeyFormatting(char * S, int K){
     free(changeStr);
     return returnStr;
 }
-```
+// ```

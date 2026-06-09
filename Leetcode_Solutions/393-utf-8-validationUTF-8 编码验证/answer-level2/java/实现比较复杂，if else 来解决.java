@@ -1,9 +1,9 @@
-### 解题思路
-实现比较复杂，if else 来解决
+// ### 解题思路
+// 实现比较复杂，if else 来解决
 
-### 代码
+// ### 代码
 
-```实现比较复杂，if else 来解决
+// ```实现比较复杂，if else 来解决
 class Solution {
     public boolean validUtf8(int[] data) {
             
@@ -70,4 +70,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

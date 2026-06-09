@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode:
         if root is None:
@@ -6,4 +6,4 @@ class Solution:
         else:
             root.left, root.right = self.invertTree(root.right), self.invertTree(root.left)
         return root
-```
+# ```

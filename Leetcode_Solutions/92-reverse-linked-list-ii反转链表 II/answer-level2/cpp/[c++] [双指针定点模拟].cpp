@@ -1,9 +1,9 @@
-### 解题思路
-把位置m的结点用cur标定，以及结点m的前一个结点用pre标定。
+// ### 解题思路
+// 把位置m的结点用cur标定，以及结点m的前一个结点用pre标定。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	ListNode* reverseBetween(ListNode* head, int m, int n) {
@@ -23,4 +23,4 @@ public:
 		return dummy->next;
 	}
 };
-```
+// ```

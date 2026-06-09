@@ -1,9 +1,9 @@
-### 解题思路
-结构体存储行号及该行的军人数，通过sort的cmp对其实行排序
+// ### 解题思路
+// 结构体存储行号及该行的军人数，通过sort的cmp对其实行排序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     struct ass{
@@ -37,4 +37,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-建立一个新的数据结构struct NUM_INX，将num和num所在的inx都保存起来，然后对struct NUM_INX进行排序，再根据inx打印奖牌信息即可
+// ### 解题思路
+// 建立一个新的数据结构struct NUM_INX，将num和num所在的inx都保存起来，然后对struct NUM_INX进行排序，再根据inx打印奖牌信息即可
 
-![image.png](https://pic.leetcode-cn.com/28d85dfcffe60258f355cd96ec9fdde6c8af540490c9090875f6b4544ddc12e4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/28d85dfcffe60258f355cd96ec9fdde6c8af540490c9090875f6b4544ddc12e4-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -76,4 +76,4 @@ char ** findRelativeRanks(int* nums, int numsSize, int* returnSize){
 	*returnSize = numsSize;
 	return rlt;
 }
-```
+// ```

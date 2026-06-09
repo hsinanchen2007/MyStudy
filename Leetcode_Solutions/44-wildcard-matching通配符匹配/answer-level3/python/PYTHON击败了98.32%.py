@@ -1,8 +1,8 @@
 
-思路就是：用搜索/回溯法，找错了给它复活的机会，存盘点记作 P0 Q0：
-关键注意一下复活的操作：
+# 思路就是：用搜索/回溯法，找错了给它复活的机会，存盘点记作 P0 Q0：
+# 关键注意一下复活的操作：
 
-```python []
+# ```python []
 class Solution(object):
     def isMatch(self, s, m):
         """
@@ -34,4 +34,4 @@ class Solution(object):
         while (q < len(m) and m[q] == "*"):
             q += 1
         return q == len(m) and p == len(s)
-```
+# ```

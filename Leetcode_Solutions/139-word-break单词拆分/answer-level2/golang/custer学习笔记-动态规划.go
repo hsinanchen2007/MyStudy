@@ -1,4 +1,4 @@
-```go
+// ```go
 // Time Complexity: O(n^2), Space Complexity: O(n+m)
 func wordBreak(s string, wordDict []string) bool {
     n := len(s)
@@ -19,4 +19,4 @@ func wordBreak(s string, wordDict []string) bool {
     }
     return d[n]
 }
-```
+// ```

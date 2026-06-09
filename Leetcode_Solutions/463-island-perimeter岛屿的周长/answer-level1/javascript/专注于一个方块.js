@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-看方块的四面, 看它四面是否有1 没有1就算周长.
+// 看方块的四面, 看它四面是否有1 没有1就算周长.
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -25,4 +25,4 @@ var islandPerimeter = function(grid) {
     }
     return nums
 };
-```
+// ```

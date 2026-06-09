@@ -1,14 +1,14 @@
-### 解题思路
-一开始直接暴力dfs，不出意外的TLE。这时候就想剪枝试试，果断可以：
-剪枝1:判断入队节点数是否超过了4个节点；
-剪枝2:target < (4-k) * nums[now]，意思就是剩余可计入节点数是否能满足target，因为是之前处理成有序的数组，可以直接比较当前节点*剩余可加入节点数>targe就不能加了，反之就是比（4-k）*最后一个最大值。  这个剪枝能从3015ms直接加速到199ms。
+// ### 解题思路
+// 一开始直接暴力dfs，不出意外的TLE。这时候就想剪枝试试，果断可以：
+// 剪枝1:判断入队节点数是否超过了4个节点；
+// 剪枝2:target < (4-k) * nums[now]，意思就是剩余可计入节点数是否能满足target，因为是之前处理成有序的数组，可以直接比较当前节点*剩余可加入节点数>targe就不能加了，反之就是比（4-k）*最后一个最大值。  这个剪枝能从3015ms直接加速到199ms。
 
 
-![image.png](https://pic.leetcode-cn.com/2ce6c7010db0db0224c96c8837bb7dae186b28d66a847ebab099a5c6d649fb89-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2ce6c7010db0db0224c96c8837bb7dae186b28d66a847ebab099a5c6d649fb89-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         Set<List<Integer>> ok = new HashSet<>();
@@ -50,4 +50,4 @@ class Solution {
 
     }
 }
-```
+// ```

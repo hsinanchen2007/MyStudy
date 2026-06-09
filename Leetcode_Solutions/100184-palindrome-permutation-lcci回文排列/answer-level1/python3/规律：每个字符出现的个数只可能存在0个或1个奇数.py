@@ -1,6 +1,6 @@
-1. 若`s`长度为奇数，则各字符出现的次数必须有一个是奇数。
-2. 若`s`长度为偶数，则各字符出现的次数必须全是偶数。
-```
+# 1. 若`s`长度为奇数，则各字符出现的次数必须有一个是奇数。
+# 2. 若`s`长度为偶数，则各字符出现的次数必须全是偶数。
+# ```
 class Solution:
     def canPermutePalindrome(self, s: str) -> bool:
         l = len(s)
@@ -21,4 +21,4 @@ class Solution:
         else:
             return odd_flag == 1
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-层次遍历以后把奇数索引的数组反转
+# ### 解题思路
+# 层次遍历以后把奇数索引的数组反转
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
 
 
 
-```
+# ```

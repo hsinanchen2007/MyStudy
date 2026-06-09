@@ -1,8 +1,8 @@
-### 解题思路
-执行时间0ms，不知道是不是bug。
-### 代码
+// ### 解题思路
+// 执行时间0ms，不知道是不是bug。
+// ### 代码
 
-```c
+// ```c
 int removeElement(int* nums, int numsSize, int val){
     int tail = -1;
     int i = 0;
@@ -21,4 +21,4 @@ int removeElement(int* nums, int numsSize, int val){
     }
     return ret;
 }
-```
+// ```

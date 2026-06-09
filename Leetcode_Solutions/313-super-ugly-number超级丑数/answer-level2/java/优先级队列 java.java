@@ -1,7 +1,7 @@
-### 解题思路
-### 代码
+// ### 解题思路
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int nthSuperUglyNumber(int n, int[] primes) {//优先队列
         Queue<Long> q = new PriorityQueue<>();
@@ -25,4 +25,4 @@ class Solution {
         return (int)result;
     }
 }
-```
+// ```

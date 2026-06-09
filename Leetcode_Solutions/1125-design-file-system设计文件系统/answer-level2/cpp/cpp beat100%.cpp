@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/08ae28fcb922c67d76cecd4c4838dbd08d7f1d9e75e59f7731a301859a9f8414-image.png)
+// ![image.png](https://pic.leetcode-cn.com/08ae28fcb922c67d76cecd4c4838dbd08d7f1d9e75e59f7731a301859a9f8414-image.png)
 
-```
+// ```
 static auto pre =[] { std::ios::sync_with_stdio(false); cin.tie(nullptr); return nullptr;}();
 class FileSystem {
 public:
@@ -34,4 +34,4 @@ public:
 private:
     std::map<std::string, int> paths_;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先不管人数n，每次发糖的数量按顺序就是一个从1到N的等差数列，第N次发糖时已发的糖的总数就是x=（1+N）*N/2，所以先找到使x刚好超过candies数量的这个N，完整发完糖的轮数round=（N-1）/n，第N次发糖的人的数组id=（N-1）%n，第N次发糖数量=candies总数量-第N-1次发糖总数量=candies-N*（N-1）/2,知道发了几轮，最后发糖的人的id，每个人的总数就好计算了
+// ### 解题思路
+// 先不管人数n，每次发糖的数量按顺序就是一个从1到N的等差数列，第N次发糖时已发的糖的总数就是x=（1+N）*N/2，所以先找到使x刚好超过candies数量的这个N，完整发完糖的轮数round=（N-1）/n，第N次发糖的人的数组id=（N-1）%n，第N次发糖数量=candies总数量-第N-1次发糖总数量=candies-N*（N-1）/2,知道发了几轮，最后发糖的人的id，每个人的总数就好计算了
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -56,4 +56,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize){
    // int a[4]={0};
    // return a;
 }
-```
+// ```

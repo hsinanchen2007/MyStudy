@@ -1,11 +1,11 @@
-### 解题思路
-**如何用列表模拟队列操作？**
-- push——list.insert(0,val)
-- pop ——list.pop()
+# ### 解题思路
+# **如何用列表模拟队列操作？**
+# - push——list.insert(0,val)
+# - pop ——list.pop()
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyQueue:
 
     def __init__(self):
@@ -37,4 +37,4 @@ class MyQueue:
         Returns whether the queue is empty.
         """
         return False if self.que else True
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 var UndergroundSystem = function() {
     this.checkInArr = [];
     this.checkOutArr = [];
@@ -27,4 +27,4 @@ UndergroundSystem.prototype.getAverageTime = function(startStation, endStation) 
     }
     return time / count;
 };
-```
+// ```

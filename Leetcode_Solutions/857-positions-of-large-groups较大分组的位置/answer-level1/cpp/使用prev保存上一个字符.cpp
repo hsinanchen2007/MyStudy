@@ -1,5 +1,5 @@
-我也不知道，我这方法好像挺蠢的，不过简单题不至于太高深的方法吧
-```
+// 我也不知道，我这方法好像挺蠢的，不过简单题不至于太高深的方法吧
+// ```
 class Solution {
 public:
     vector<vector<int>> largeGroupPositions(string S) {
@@ -23,4 +23,4 @@ public:
         return res;
     }
 };
-```
+// ```

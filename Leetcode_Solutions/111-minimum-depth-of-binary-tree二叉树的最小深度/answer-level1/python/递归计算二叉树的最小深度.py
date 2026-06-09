@@ -1,12 +1,12 @@
-### 解题思路
-1.判断根节点是否存在，若不存在则返回0.
-2.判断左右节点是否存在，存在则返回两者的最小值。
-3.一个存在一个不存在，就返回存在的深度。
+# ### 解题思路
+# 1.判断根节点是否存在，若不存在则返回0.
+# 2.判断左右节点是否存在，存在则返回两者的最小值。
+# 3.一个存在一个不存在，就返回存在的深度。
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution(object):
             return 1 + self.minDepth(root.right)
         else:
             return 1
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class WordDictionary {
     class Node{
         TreeMap<Character, Node> next;
@@ -65,4 +65,4 @@ class WordDictionary {
  * obj.addWord(word);
  * boolean param_2 = obj.search(word);
  */
-```
+// ```

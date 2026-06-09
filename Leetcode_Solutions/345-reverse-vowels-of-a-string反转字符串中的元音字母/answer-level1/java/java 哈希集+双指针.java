@@ -1,7 +1,7 @@
-执行用时 : 15 ms , 在所有 Java 提交中击败了 66.60% 的用户 内存消耗 : 41.8 MB , 在所有 Java 提交中击败了 60.37% 的用户 
+// 执行用时 : 15 ms , 在所有 Java 提交中击败了 66.60% 的用户 内存消耗 : 41.8 MB , 在所有 Java 提交中击败了 60.37% 的用户 
 
-先用哈希集合记录元音字母，再用双指针筛选出前后元音字母进行置换
-```
+// 先用哈希集合记录元音字母，再用双指针筛选出前后元音字母进行置换
+// ```
     public String reverseVowels(String s) {
         Set<Character> set = new HashSet<>();
         set.add('a');
@@ -32,4 +32,4 @@
         }
         return String.valueOf(strs);
     }
-```
+// ```

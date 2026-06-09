@@ -1,5 +1,5 @@
-题目定义了数组长度在一定范围内，那么，直接上桶排序吧
-```golang
+// 题目定义了数组长度在一定范围内，那么，直接上桶排序吧
+// ```golang
 func sortArray(nums []int) []int {
 	tmp := make([]int, 100001)
 	for _, v := range nums {
@@ -14,4 +14,4 @@ func sortArray(nums []int) []int {
 	}
 	return nums
 }
-```
+// ```

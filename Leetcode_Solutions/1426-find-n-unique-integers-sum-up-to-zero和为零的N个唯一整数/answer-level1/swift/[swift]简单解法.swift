@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
  class Solution {
      func sumZero(_ n: Int) -> [Int] {
         guard n > 1 else {
@@ -17,4 +17,4 @@
      }
  }
 
-```
+// ```

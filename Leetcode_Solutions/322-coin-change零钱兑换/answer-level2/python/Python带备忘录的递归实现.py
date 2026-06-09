@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def coinChange(self, coins, amount):
         """
@@ -33,4 +33,4 @@ class Solution(object):
         
         # 我们要求的问题是dp(amount)
         return dp(amount)
-```
+# ```

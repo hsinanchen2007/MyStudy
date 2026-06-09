@@ -1,9 +1,9 @@
-### 解题思路
-创建哈希表作为映射
+# ### 解题思路
+# 创建哈希表作为映射
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         hashmap={}
@@ -17,4 +17,4 @@ class Solution:
 
 
        
-```
+# ```

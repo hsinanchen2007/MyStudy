@@ -1,10 +1,10 @@
-### 解题思路
-哈希表统计每个数字出现的次数。
-然后遍历数组，根据当前每个数组的值去哈希表找比他小的数的次数。
+// ### 解题思路
+// 哈希表统计每个数字出现的次数。
+// 然后遍历数组，根据当前每个数组的值去哈希表找比他小的数的次数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
         return res;
     }
 };
-```
+// ```

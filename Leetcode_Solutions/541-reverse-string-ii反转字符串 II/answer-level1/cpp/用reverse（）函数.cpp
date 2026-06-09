@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseStr(string s, int k) {
@@ -11,4 +11,4 @@ public:
 		return s;
     }
 };
-```
+// ```

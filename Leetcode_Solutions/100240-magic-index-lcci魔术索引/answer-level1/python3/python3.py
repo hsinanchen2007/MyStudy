@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMagicIndex(self, nums: List[int]) -> int:
         nums = sorted(nums)
@@ -11,4 +11,4 @@ class Solution:
             if n==i:
                 return n
         return -1
-```
+# ```

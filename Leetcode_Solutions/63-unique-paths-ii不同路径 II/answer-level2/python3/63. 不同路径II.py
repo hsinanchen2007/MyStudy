@@ -1,9 +1,9 @@
-### 解题思路
-与上一题相比，这一题不同之处在于初始条件。
+# ### 解题思路
+# 与上一题相比，这一题不同之处在于初始条件。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         if obstacleGrid[0][0]==1 or obstacleGrid[-1][-1]==1:
@@ -39,4 +39,4 @@ class Solution:
                     continue
                 dp[i][j]=dp[i-1][j]+dp[i][j-1]
         return dp[-1][-1]
-```
+# ```

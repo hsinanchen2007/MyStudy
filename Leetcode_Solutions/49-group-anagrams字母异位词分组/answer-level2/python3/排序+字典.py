@@ -1,4 +1,4 @@
-```
+# ```
 def groupAnagrams(strs):
     answer = {}
     for i in range(0, len(strs)):
@@ -11,4 +11,4 @@ def groupAnagrams(strs):
             answer.update({s: [strs[i]]})
 
     return list(answer.values())
-```
+# ```

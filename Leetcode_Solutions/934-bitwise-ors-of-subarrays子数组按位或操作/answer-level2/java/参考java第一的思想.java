@@ -1,5 +1,5 @@
-基本思想官方题解里已经解释了，就是当累计的或结果满足32全是1的状态时就不再发生变化了。后面的结果就可以不用计算了
-```
+// 基本思想官方题解里已经解释了，就是当累计的或结果满足32全是1的状态时就不再发生变化了。后面的结果就可以不用计算了
+// ```
 public int subarrayBitwiseORs2(int[] A) {
         HashSet<Integer> set = new HashSet<>();
         int n = A.length;
@@ -13,4 +13,4 @@ public int subarrayBitwiseORs2(int[] A) {
         }
         return set.size();
     }
-```
+// ```

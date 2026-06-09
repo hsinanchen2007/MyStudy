@@ -1,10 +1,10 @@
-### 解题思路
-按照原始的思路来，进行树前序遍历，从遍历的当前节点，计算从当前节点向下能产生多少种可能。
-![image.png](https://pic.leetcode-cn.com/c8f3e13d9da05dec2149f99dd760cd94dfbceb735c1dd45f68b2a74885683e68-image.png)
+// ### 解题思路
+// 按照原始的思路来，进行树前序遍历，从遍历的当前节点，计算从当前节点向下能产生多少种可能。
+// ![image.png](https://pic.leetcode-cn.com/c8f3e13d9da05dec2149f99dd760cd94dfbceb735c1dd45f68b2a74885683e68-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ int pathSum(struct TreeNode* root, int sum){
 	transTree(root, sum, &cnt);
 	return cnt;
 }
-```
+// ```

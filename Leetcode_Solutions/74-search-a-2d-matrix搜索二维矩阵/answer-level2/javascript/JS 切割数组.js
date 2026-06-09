@@ -1,13 +1,13 @@
-### 解题思路
-因为 横向递增，所以我们从matrix[0][ylen-1]开始
-如果 target > matrix[0][ylen-1]，说明这一行中一定没有答案，i++
-如果 target < matrix[0][ylen-1]，说明答案只可能在这一行，并且在右边，j--
+// ### 解题思路
+// 因为 横向递增，所以我们从matrix[0][ylen-1]开始
+// 如果 target > matrix[0][ylen-1]，说明这一行中一定没有答案，i++
+// 如果 target < matrix[0][ylen-1]，说明答案只可能在这一行，并且在右边，j--
 
-迭代，直到越界。
+// 迭代，直到越界。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -34,4 +34,4 @@ var searchMatrix = function(matrix, target) {
     }
     return false;  
 };
-```
+// ```

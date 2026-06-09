@@ -1,5 +1,5 @@
-题目无重复数字，且nums1是nums2的子集，根据nums2建单调栈将每个数对应的结果存入Map，根据nums1遍历
-```
+// 题目无重复数字，且nums1是nums2的子集，根据nums2建单调栈将每个数对应的结果存入Map，根据nums1遍历
+// ```
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         int[] ans = new int[nums1.length];
@@ -18,4 +18,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

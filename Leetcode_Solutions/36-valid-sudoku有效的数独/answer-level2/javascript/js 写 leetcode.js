@@ -1,7 +1,7 @@
-方法用的官方题解。一次遍历。
+// 方法用的官方题解。一次遍历。
 
 
-```js
+// ```js
 /**
  * @param {character[][]} board
  * @return {boolean}
@@ -38,6 +38,6 @@ var isValidSudoku = function(board) {
     }
     return true
 };
-```
+// ```
 
-https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/36.md
+// https://github.com/zhl1232/javascript-algorithm/tree/master/solve-problems/36.md

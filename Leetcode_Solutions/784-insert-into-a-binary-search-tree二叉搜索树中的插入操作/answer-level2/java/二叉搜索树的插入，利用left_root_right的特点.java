@@ -1,9 +1,9 @@
-### 解题思路
-BST特征就是left < root < right，每次判断和当前节点的大小即可，小于当前节点，往左子树迭代，大于当前节点，往右子树迭代。用一个指针记录当前访问节点，新元素根据cmp决定插入当前访问节点的左孩子还是右孩子
+// ### 解题思路
+// BST特征就是left < root < right，每次判断和当前节点的大小即可，小于当前节点，往左子树迭代，大于当前节点，往右子树迭代。用一个指针记录当前访问节点，新元素根据cmp决定插入当前访问节点的左孩子还是右孩子
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

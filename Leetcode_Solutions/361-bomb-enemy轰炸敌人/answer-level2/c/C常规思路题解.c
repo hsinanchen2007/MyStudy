@@ -1,9 +1,9 @@
-### 解题思路
-先找到‘0’点，再从该点开始上下左右遍历找‘E’，遇到‘W’就结束。
+// ### 解题思路
+// 先找到‘0’点，再从该点开始上下左右遍历找‘E’，遇到‘W’就结束。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int GetMax(int a, int b)
 {
     if (a > b) {
@@ -79,4 +79,4 @@ int maxKilledEnemies(char** grid, int gridSize, int* gridColSize)
     return max;
 }
 
-```
+// ```

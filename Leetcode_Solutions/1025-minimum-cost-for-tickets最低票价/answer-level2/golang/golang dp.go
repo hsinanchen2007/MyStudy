@@ -1,6 +1,6 @@
-从后向前dp
+// 从后向前dp
 
-```
+// ```
 var cache []int//存储dp后的值，防止对同一个index重复计算
 
 func mincostTickets(days []int, costs []int) int {
@@ -32,4 +32,4 @@ func min(a,b int)int{
     }
     return a
 }
-```
+// ```

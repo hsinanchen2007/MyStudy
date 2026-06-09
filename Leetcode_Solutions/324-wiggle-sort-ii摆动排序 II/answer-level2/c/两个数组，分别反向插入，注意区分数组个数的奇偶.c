@@ -1,4 +1,4 @@
-```
+// ```
 int comp(const void *a, const void *b) {
     return *(int *)a - *(int *)b;
 }
@@ -17,4 +17,4 @@ void wiggleSort(int* nums, int numsSize){
     }
     memcpy(nums, ret, sizeof(int) * numsSize);
 }
-```
+// ```

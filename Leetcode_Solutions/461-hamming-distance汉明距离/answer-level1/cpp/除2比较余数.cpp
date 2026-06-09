@@ -1,9 +1,9 @@
-### 解题思路
-除2比较余数（相当于一步步二进制化）
+// ### 解题思路
+// 除2比较余数（相当于一步步二进制化）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int hammingDistance(int x, int y) {
@@ -18,4 +18,4 @@ public:
 		return count;
 	}
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeKdigits(self, num: str, k: int) -> str:
         numStack = []
@@ -24,32 +24,32 @@ class Solution:
         
         # trip the leading zeros
         return "".join(finalStack).lstrip('0') or "0"
-```
+# ```
 
-再补充DFS算法：
-class Solution:
-    def removeKdigits(self, num: str, k: int) -> str:
-        n = len(num)                           
-        if k >= n:                             
-            return "0"
-        if k == 0:
-            return num                           
-        minRes = [-1]                           
+# 再补充DFS算法：
+# class Solution:
+#     def removeKdigits(self, num: str, k: int) -> str:
+#         n = len(num)                           
+#         if k >= n:                             
+#             return "0"
+#         if k == 0:
+#             return num                           
+#         minRes = [-1]                           
                                         
-        def dfs(index, path):                  
-            # print(path)
-            if  minRes[0] != -1 and  int(path)> minRes[0]:    
-                return                                                              
-            if len(path) == n - k:             
-                if minRes[0] == -1:             
-                    minRes[0] = int(path)      
-                elif int(path) < minRes[0]:    
-                    minRes[0] = int(path)      
-                return                         
+#         def dfs(index, path):                  
+#             # print(path)
+#             if  minRes[0] != -1 and  int(path)> minRes[0]:    
+#                 return                                                              
+#             if len(path) == n - k:             
+#                 if minRes[0] == -1:             
+#                     minRes[0] = int(path)      
+#                 elif int(path) < minRes[0]:    
+#                     minRes[0] = int(path)      
+#                 return                         
                                                 
-            for i in range(index + 1, n):      
-                dfs(i, path + num[i])          
+#             for i in range(index + 1, n):      
+#                 dfs(i, path + num[i])          
                                                 
-        for i in range(0, n):              
-            dfs(i, "" + num[i])                
-        return str(minRes[0])
+#         for i in range(0, n):              
+#             dfs(i, "" + num[i])                
+#         return str(minRes[0])

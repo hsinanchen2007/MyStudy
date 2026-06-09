@@ -1,11 +1,11 @@
-### 解题思路
-    遍历字符串  元素依次加入窗口
-    先进行判断在不在窗口中
-    如果遍历的字符在窗口中，则将窗口的依次左边移除直到没有相同的字符  abca -> abc pww -> w
+# ### 解题思路
+#     遍历字符串  元素依次加入窗口
+#     先进行判断在不在窗口中
+#     如果遍历的字符在窗口中，则将窗口的依次左边移除直到没有相同的字符  abca -> abc pww -> w
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         if not s: return 0
@@ -23,4 +23,4 @@ class Solution:
             if cur_len > max_len: max_len = cur_len
             lookup.add(s[i])
         return max_len
-```
+# ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceSpace(String s) {
         StringBuffer sb = new StringBuffer();
@@ -14,4 +14,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class MaxQueue {
     queue<int> q;
     deque<int> d;
@@ -32,4 +32,4 @@ public:
     }
 };
 
-```
+// ```

@@ -1,5 +1,5 @@
-# 辅助栈
-```
+// # 辅助栈
+// ```
 var MinStack = function() {
     this.stack = [];
     this.temp = [];
@@ -35,4 +35,4 @@ MinStack.prototype.getMin = function() {
     return this.temp[this.temp.length-1];
 };
 
-```
+// ```

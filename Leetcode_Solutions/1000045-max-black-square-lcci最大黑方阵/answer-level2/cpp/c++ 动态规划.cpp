@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-动态规划，cnt[r][c][0/1]表示以坐标r,c为起点向左/右最多的连续黑色块的数量
+// 动态规划，cnt[r][c][0/1]表示以坐标r,c为起点向左/右最多的连续黑色块的数量
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findSquare(vector<vector<int>>& matrix) {
@@ -46,4 +46,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/4e7d95851e30715a82f882679c8687673bc9da718b424f9e27b5ef15fe6bc50d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4e7d95851e30715a82f882679c8687673bc9da718b424f9e27b5ef15fe6bc50d-image.png)
 
-```
+// ```
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         
@@ -14,4 +14,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

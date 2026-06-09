@@ -1,4 +1,4 @@
-```
+// ```
 func maxSlidingWindow(nums []int, k int) []int {
     n := len(nums)
     if n == 0 {
@@ -31,4 +31,4 @@ func max(x, y int) int {
     }
     return y
 }
-```
+// ```

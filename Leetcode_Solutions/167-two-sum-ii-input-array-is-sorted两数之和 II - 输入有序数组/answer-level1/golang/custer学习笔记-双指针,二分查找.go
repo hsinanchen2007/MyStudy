@@ -1,8 +1,8 @@
-# 暴力枚举法 
+// # 暴力枚举法 
 
-时间复杂度: O(n^2) 空间复杂度: O(1)
+// 时间复杂度: O(n^2) 空间复杂度: O(1)
 
-```go
+// ```go
 func twoSum(numbers []int, target int) []int {
   i, j := 0, len(numbers)-1
   for i < j {
@@ -17,13 +17,13 @@ func twoSum(numbers []int, target int) []int {
   }
   return []int{-1, -1}
 }
-```
+// ```
 
-# 二分搜索法 
+// # 二分搜索法 
 
-时间复杂度: O(nlogn) 空间复杂度: O(1)
+// 时间复杂度: O(nlogn) 空间复杂度: O(1)
 
-```go
+// ```go
 func twoSum2(numbers []int, target int) []int {
   for i := 0; i < len(numbers); i++ {
     j := binarySearch(numbers, i+1, len(numbers)-1, target-numbers[i])
@@ -48,13 +48,13 @@ func binarySearch(nums []int, l, r, target int) int {
   }
   return -1
 }
-```
+// ```
 
-# 对撞指针 
+// # 对撞指针 
 
-时间复杂度: O(n) 空间复杂度: O(1)
+// 时间复杂度: O(n) 空间复杂度: O(1)
 
-```go
+// ```go
 func twoSum3(numbers []int, target int) []int {
   i, j := 0, len(numbers)-1
   for i < j {
@@ -69,4 +69,4 @@ func twoSum3(numbers []int, target int) []int {
   }
   return []int{-1, -1}
 }
-```
+// ```

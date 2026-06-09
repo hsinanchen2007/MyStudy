@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :36 ms
-内存消耗 :13 MB
-方法比较笨，易理解
-### 代码
+# ### 解题思路
+# 执行用时 :36 ms
+# 内存消耗 :13 MB
+# 方法比较笨，易理解
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def buddyStrings(self, A: str, B: str) -> bool:
         i = len(A)
@@ -31,4 +31,4 @@ class Solution:
                     return False
             else:
                 return False
-```
+# ```

@@ -1,5 +1,5 @@
-**使用队列广度优先遍历**
-```
+// **使用队列广度优先遍历**
+// ```
     void helper(TreeNode* node, TreeNode* father, unordered_map<TreeNode*, TreeNode*> &fatherMap){
         if(node == NULL){
             return ;
@@ -43,9 +43,9 @@
             }
         }
         return res;
-```
-**使用栈深度优先遍历（当然也能使用队列）**
-```
+// ```
+// **使用栈深度优先遍历（当然也能使用队列）**
+// ```
     void helper(TreeNode* node, TreeNode* father, unordered_map<TreeNode*, TreeNode*> &fatherMap){
         if(node == NULL){
             return ;
@@ -88,4 +88,4 @@
             }
         }
         return res;
-```
+// ```

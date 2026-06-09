@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     string simplifyPath(string path) {
@@ -28,6 +28,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/6201c353aaa6143a3a0f99c3964effb52bec2707e40e2140ec8cab635925c3d6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6201c353aaa6143a3a0f99c3964effb52bec2707e40e2140ec8cab635925c3d6-image.png)

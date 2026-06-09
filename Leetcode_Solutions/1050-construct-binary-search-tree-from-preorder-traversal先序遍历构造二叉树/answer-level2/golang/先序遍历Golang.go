@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -45,5 +45,5 @@ func createbrach(root *TreeNode,leaf int){
 		createbrach(root.Left,leaf)
 	}
 }
-```
-只要确定好根节点，再根据先序遍历的定义，可以利用递归方式为每一个叶节点找合适的位置，遍历完所有叶节点，二叉树也就排好了。
+// ```
+// 只要确定好根节点，再根据先序遍历的定义，可以利用递归方式为每一个叶节点找合适的位置，遍历完所有叶节点，二叉树也就排好了。

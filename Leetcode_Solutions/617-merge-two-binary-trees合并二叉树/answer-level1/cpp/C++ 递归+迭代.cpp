@@ -1,6 +1,6 @@
-**方法一：递归**
-前序遍历 
-```
+// **方法一：递归**
+// 前序遍历 
+// ```
 class Solution {
 	TreeNode* merge(TreeNode* t1, TreeNode*t2){
 		TreeNode* cur = t1;
@@ -18,10 +18,10 @@ public:
 	}
 };
 
-```
-**方法二：迭代**
-和判断是否为镜像二叉树题的迭代方法类似。对于两棵树t1,t1，对于t1节点为NULL的情况，将其指向对应位置的t2上的节点，若t1，t2对应节点都不为NULL，将两个节点压栈，更新t1节点上的val。
-```
+// ```
+// **方法二：迭代**
+// 和判断是否为镜像二叉树题的迭代方法类似。对于两棵树t1,t1，对于t1节点为NULL的情况，将其指向对应位置的t2上的节点，若t1，t2对应节点都不为NULL，将两个节点压栈，更新t1节点上的val。
+// ```
 class Solution {
 public:
 	TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
@@ -50,4 +50,4 @@ public:
 		return t1;
 	}
 };
-```
+// ```

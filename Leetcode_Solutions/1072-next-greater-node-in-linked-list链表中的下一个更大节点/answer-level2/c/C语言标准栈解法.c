@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -68,5 +68,5 @@ int* nextLargerNodes(struct ListNode* head, int* returnSize){
     *returnSize = curr;
     return ans;
 }
-```
-主要是C语言没有栈结构，自己实现个标准栈。主要代码没几行。
+// ```
+// 主要是C语言没有栈结构，自己实现个标准栈。主要代码没几行。

@@ -1,36 +1,36 @@
-![image.png](https://pic.leetcode-cn.com/3a8635042f85eeaf7d68d09e7d5fe92f7e66e7f238c4ea99105d8442bbee047a-image.png)
-深度优先搜索属于图算法的一种，英文缩写为DFS即Depth First Search.
-其过程简要来说是对每一个可能的分支路径深入到不能再深入为止，而且每个节点只能访问一次
+// ![image.png](https://pic.leetcode-cn.com/3a8635042f85eeaf7d68d09e7d5fe92f7e66e7f238c4ea99105d8442bbee047a-image.png)
+// 深度优先搜索属于图算法的一种，英文缩写为DFS即Depth First Search.
+// 其过程简要来说是对每一个可能的分支路径深入到不能再深入为止，而且每个节点只能访问一次
 
-DFS没多少体会，刷点题再来补充~
+// DFS没多少体会，刷点题再来补充~
 
-### 解题思路
-复制的解题思路
-时间复杂度 O(N)，一次遍历s.
-调试信息：
- input："13[a2[c]]"
-output："accaccaccaccaccaccaccaccaccaccaccaccacc"
-print：
-创建空栈: S->next = 112
-添加数字字符: time = 1
-添加数字字符: time = 13
-待转化的数字字符: time = 13
-转化后的数字: times[0] = 13
-新增栈元素: S->next = 144
-添加字母字符: S->next = 144, Top(S) = a
-添加数字字符: time = 2
-待转化的数字字符: time = 2
-转化后的数字: times[1] = 2
-新增栈元素: S->next = 176
-添加字母字符: S->next = 176, Top(S) = c
-解码字符重复次数：  2
-栈顶字符串: S->next = 144, Top(S) = acc
-解码字符重复次数：  13
-栈顶字符串: S->next = 112, Top(S) = accaccaccaccaccaccaccaccaccaccaccaccacc
+// ### 解题思路
+// 复制的解题思路
+// 时间复杂度 O(N)，一次遍历s.
+// 调试信息：
+//  input："13[a2[c]]"
+// output："accaccaccaccaccaccaccaccaccaccaccaccacc"
+// print：
+// 创建空栈: S->next = 112
+// 添加数字字符: time = 1
+// 添加数字字符: time = 13
+// 待转化的数字字符: time = 13
+// 转化后的数字: times[0] = 13
+// 新增栈元素: S->next = 144
+// 添加字母字符: S->next = 144, Top(S) = a
+// 添加数字字符: time = 2
+// 待转化的数字字符: time = 2
+// 转化后的数字: times[1] = 2
+// 新增栈元素: S->next = 176
+// 添加字母字符: S->next = 176, Top(S) = c
+// 解码字符重复次数：  2
+// 栈顶字符串: S->next = 144, Top(S) = acc
+// 解码字符重复次数：  13
+// 栈顶字符串: S->next = 112, Top(S) = accaccaccaccaccaccaccaccaccaccaccaccacc
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct SNode* PtrToSNode;
 struct SNode {
     char* str;
@@ -135,4 +135,4 @@ char * decodeString(char * s){
     }
     return Top(S);
 }
-```
+// ```

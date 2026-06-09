@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lastRemaining(self, n, m):
         """
@@ -15,4 +15,4 @@ class Solution(object):
         for i in range(2, n+1):
             index = (index + m) % i
         return index
-```
+# ```

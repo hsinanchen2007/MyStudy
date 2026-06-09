@@ -1,9 +1,9 @@
-### 解题思路
-可直接模拟分糖果的过程，每次数组下标加一时对数组下标取余num_people，当到末尾时转到数组头
+// ### 解题思路
+// 可直接模拟分糖果的过程，每次数组下标加一时对数组下标取余num_people，当到末尾时转到数组头
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> distributeCandies(int candies, int num_people) {
@@ -19,4 +19,4 @@ public:
         return res;
     }
 };
-```
+// ```

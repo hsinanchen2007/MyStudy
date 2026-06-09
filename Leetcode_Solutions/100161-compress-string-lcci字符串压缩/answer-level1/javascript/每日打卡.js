@@ -1,9 +1,9 @@
-### 解题思路
-双指针遍历就完事了
+// ### 解题思路
+// 双指针遍历就完事了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -30,4 +30,4 @@ var compressString = function(S) {
     }
     return S.length > res.length ? res : S
 };
-```
+// ```

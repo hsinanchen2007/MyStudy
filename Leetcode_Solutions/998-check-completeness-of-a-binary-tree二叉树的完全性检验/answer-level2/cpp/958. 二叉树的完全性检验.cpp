@@ -1,11 +1,11 @@
-### 解题思路
-层序遍历
+// ### 解题思路
+// 层序遍历
 
-两个判断 排除非完全二叉树
+// 两个判断 排除非完全二叉树
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 class Solution {
 public:
@@ -52,4 +52,4 @@ bool isCompleteTree(TreeNode* root) {
     return true;
 }
 };
-```
+// ```

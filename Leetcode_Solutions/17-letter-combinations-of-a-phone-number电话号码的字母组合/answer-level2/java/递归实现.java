@@ -1,12 +1,12 @@
-### 解题思路
-总的思路分为三步
-一：解析目标字符串得到对应的字符串数组；
-二：再先存入第一组字符串的子集到结果集；
-三：遍历剩余字符串，递归拼接得到最新的结果集。
-### 代码
-![image.png](https://pic.leetcode-cn.com/473fe438c046c132ec61ac8dd42fc8765043ca1e351b1fc9a200e7d72d174538-image.png)
+// ### 解题思路
+// 总的思路分为三步
+// 一：解析目标字符串得到对应的字符串数组；
+// 二：再先存入第一组字符串的子集到结果集；
+// 三：遍历剩余字符串，递归拼接得到最新的结果集。
+// ### 代码
+// ![image.png](https://pic.leetcode-cn.com/473fe438c046c132ec61ac8dd42fc8765043ca1e351b1fc9a200e7d72d174538-image.png)
 
-```java
+// ```java
 class Solution {
     public static List<String> letterCombinations(String digits) {
         List<String> result = new ArrayList<>();
@@ -57,4 +57,4 @@ class Solution {
         return re;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-字符串拆成数字，然后逐位比较
+// ### 解题思路
+// 字符串拆成数字，然后逐位比较
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> GetVersionNums(string version)
@@ -69,4 +69,4 @@ public:
         return big;
     }
 };
-```
+// ```

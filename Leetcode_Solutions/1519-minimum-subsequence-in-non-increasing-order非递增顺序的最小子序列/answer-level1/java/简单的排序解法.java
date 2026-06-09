@@ -1,4 +1,4 @@
-```java
+// ```java
     public List<Integer> minSubsequence(int[] nums) {
         Arrays.sort(nums);
         int n=nums.length, sum=0, ressum=0;
@@ -11,4 +11,4 @@
         }
         return list; 
     }
-```
+// ```

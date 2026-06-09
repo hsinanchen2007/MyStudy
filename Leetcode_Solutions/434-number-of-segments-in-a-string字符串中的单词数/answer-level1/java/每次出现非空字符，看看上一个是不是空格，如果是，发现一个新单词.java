@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class Solution {
      public int countSegments(String s) {
         int count = 0;
@@ -17,4 +17,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

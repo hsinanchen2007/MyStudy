@@ -1,4 +1,4 @@
-```python
+# ```python
 def removeElement(nums, val):
     # i为不同元素的数组的长度
     i = 0
@@ -11,4 +11,4 @@ def removeElement(nums, val):
 
 print(removeElement([3,2,2,3], 3))
 print(removeElement([0,1,2,2,3,0,4,2], 2))
-```
+# ```

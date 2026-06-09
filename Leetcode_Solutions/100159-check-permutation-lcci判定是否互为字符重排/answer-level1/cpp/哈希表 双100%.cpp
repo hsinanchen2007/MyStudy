@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/dcb1d633d32cc4c1e7c794ccc3b5d5152778663a4d1e5987a6c50d1552f8060d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dcb1d633d32cc4c1e7c794ccc3b5d5152778663a4d1e5987a6c50d1552f8060d-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool CheckPermutation(string s1, string s2)
@@ -35,4 +35,4 @@ public:
         return 1;
     }
 };
-```
+// ```

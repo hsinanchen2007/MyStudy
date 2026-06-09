@@ -1,10 +1,10 @@
-### 解题思路
-依次求取各树节点的左右子树深度之和，取其最大值。
-当左右节点深度合小于总深度后，返回最大值。
+// ### 解题思路
+// 依次求取各树节点的左右子树深度之和，取其最大值。
+// 当左右节点深度合小于总深度后，返回最大值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -38,4 +38,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     }
     return dfsdiameter(root);
 }
-```
+// ```

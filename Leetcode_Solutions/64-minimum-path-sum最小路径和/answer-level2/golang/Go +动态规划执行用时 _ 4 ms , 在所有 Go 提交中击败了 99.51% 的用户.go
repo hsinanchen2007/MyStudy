@@ -1,10 +1,10 @@
-### 解题思路
-动态规划，利用dp[][]数组
-每个点的最优解只能是左边或者上边过来的
+// ### 解题思路
+// 动态规划，利用dp[][]数组
+// 每个点的最优解只能是左边或者上边过来的
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func minPathSum(grid [][]int) int {
 	if len(grid) == 0 || len(grid[0]) == 0 {
@@ -37,4 +37,4 @@ func min(a, b int) int {
 	return b
 }
 
-```
+// ```

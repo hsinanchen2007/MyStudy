@@ -1,11 +1,11 @@
-## 1
-```js
+// ## 1
+// ```js
 var minArray = function(numbers) {
     return Math.min(...numbers);
 };
-```
-## 2
-```js
+// ```
+// ## 2
+// ```js
 var minArray = function(numbers) {
     let left = 0,
         right = numbers.length - 1;
@@ -19,4 +19,4 @@ var minArray = function(numbers) {
     }
     return numbers[left];
 };
-```
+// ```

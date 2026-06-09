@@ -1,9 +1,9 @@
-### 解题思路
-利用动态规划解题
+// ### 解题思路
+// 利用动态规划解题
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxSubArray(nums []int) (n int) {
 	if len(nums) == 0{
 		return
@@ -22,4 +22,4 @@ func max(a,b int) int {
 	}
 	return a
 }
-```
+// ```

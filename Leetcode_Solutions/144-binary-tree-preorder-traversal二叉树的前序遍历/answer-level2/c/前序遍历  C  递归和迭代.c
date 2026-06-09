@@ -1,20 +1,20 @@
-# //前序遍历 迭代
-构建一个栈，访问根节点，再访问左子树，当左子树遍历完后，访问右子树，此时返回父结点
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     struct TreeNode *left;
- *     struct TreeNode *right;
- * };
- */
+// # //前序遍历 迭代
+// 构建一个栈，访问根节点，再访问左子树，当左子树遍历完后，访问右子树，此时返回父结点
+// /**
+//  * Definition for a binary tree node.
+//  * struct TreeNode {
+//  *     int val;
+//  *     struct TreeNode *left;
+//  *     struct TreeNode *right;
+//  * };
+//  */
 
 
-/**
- * Note: The returned array must be malloced, assume caller calls free().
- */
+// /**
+//  * Note: The returned array must be malloced, assume caller calls free().
+//  */
 
-```
+// ```
 #define MAX 1000
 typedef struct Stack{
     struct TreeNode *p_TreeNode[MAX];        //我理解为是栈的结点，不对的大佬指正
@@ -45,11 +45,11 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
     *returnSize = index_array;
     return array_TreeNode;
 }
-```
+// ```
 
-# //前序遍历 递归
+// # //前序遍历 递归
 
-```
+// ```
 #define MAX 1000
 void PreOrder(struct TreeNode* root, int* array, int* returnSize){
     if(root){
@@ -66,4 +66,4 @@ int* preorderTraversal(struct TreeNode* root, int* returnSize){
     PreOrder(root, array, returnSize);
     return array;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-# 思路：
+// # 思路：
 
 
-# 代码：
-```
+// # 代码：
+// ```
  #define INT_MAX 11
  char* itos(int number);
 char ** fizzBuzz(int n, int* returnSize){
@@ -50,4 +50,4 @@ char* itos(int current){
     return ans;
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```c# []
+// ```c# []
         public int LeastBricks(IList<IList<int>> wall)
         {
             /*
@@ -30,4 +30,4 @@
 
             return maxPos == int.MinValue ? wall.Count : wall.Count - maxPos;
         }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-求全排列一般用递归的方法，题目要求改写成非递归的迭代器。这就要用栈了。
+// 求全排列一般用递归的方法，题目要求改写成非递归的迭代器。这就要用栈了。
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::iter::FromIterator;
 
 pub struct CombinationIterator {
@@ -63,4 +63,4 @@ fn next_indexes(stack: &mut Vec<usize>, max: usize) -> Option<usize> {
         },
     }
 }
-```
+// ```

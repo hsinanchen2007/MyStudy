@@ -1,15 +1,15 @@
-执行用时 :6 ms, 在所有 Java 提交中击败了94.51%的用户
-内存消耗 :37.3 MB, 在所有 Java 提交中击败了96.11%的用户
+// 执行用时 :6 ms, 在所有 Java 提交中击败了94.51%的用户
+// 内存消耗 :37.3 MB, 在所有 Java 提交中击败了96.11%的用户
 
-**大部分需要栈结构实现的算法都可以用数组模拟**，而且或更快，内存消耗更小。
+// **大部分需要栈结构实现的算法都可以用数组模拟**，而且或更快，内存消耗更小。
 
-解题思路：
-- 使用两个模拟栈: `chStack`记录最后出现的字符，如果连续出现，只入栈一个即可。`numStack`记录对应`chStack`栈字符出现的次数
-- `index`模拟栈的大小
-- 当栈为空或者栈顶元素跟当前字符不相同时，字符压入chStack栈,numStack初始置1；当栈顶元素和当前字符相同时,若numStack栈顶元素值+1==k（`numStack[index-1]==k`）可消除k个字符，只需模拟栈大小减1即可:`index--`，否则numStack栈顶元素值+1(`numStack[index-1]++`)
-<br>
-#### 附上纯数组实现和栈实现的对比代码
-```java
+// 解题思路：
+// - 使用两个模拟栈: `chStack`记录最后出现的字符，如果连续出现，只入栈一个即可。`numStack`记录对应`chStack`栈字符出现的次数
+// - `index`模拟栈的大小
+// - 当栈为空或者栈顶元素跟当前字符不相同时，字符压入chStack栈,numStack初始置1；当栈顶元素和当前字符相同时,若numStack栈顶元素值+1==k（`numStack[index-1]==k`）可消除k个字符，只需模拟栈大小减1即可:`index--`，否则numStack栈顶元素值+1(`numStack[index-1]++`)
+// <br>
+// #### 附上纯数组实现和栈实现的对比代码
+// ```java
 class Solution {
         //纯数组实现   消耗：6 ms	37.3 MB
 	public static String removeDuplicates(String s, int k) {
@@ -74,4 +74,4 @@ class Solution {
 		return sb.toString();
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-快排，每次选取第一个为中间值
+// ### 解题思路
+// 快排，每次选取第一个为中间值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	public int[] sortArray(int[] nums) {
         quicksort(nums, 0, nums.length - 1);
@@ -36,4 +36,4 @@ class Solution {
 	}
 
 }
-```
+// ```

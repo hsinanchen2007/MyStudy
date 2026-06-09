@@ -1,9 +1,9 @@
-### 解题思路
-最开始自己是构造二叉树这样子dfs的，后来才明白数组也可以dfs。dfs的核心是递归。
+// ### 解题思路
+// 最开始自己是构造二叉树这样子dfs的，后来才明白数组也可以dfs。dfs的核心是递归。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
  * Copyright (c) 2020
  * Author: xiaoweixiang
@@ -94,4 +94,4 @@ public class Solution {
     }
 
 }
-```
+// ```

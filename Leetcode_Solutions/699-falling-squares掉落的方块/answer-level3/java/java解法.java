@@ -1,6 +1,6 @@
-执行用时 :62 ms, 击败了83.33%的用户。
-内存消耗 :44 MB, 击败了100.00%的用户。
-```
+// 执行用时 :62 ms, 击败了83.33%的用户。
+// 内存消耗 :44 MB, 击败了100.00%的用户。
+// ```
 class Solution {    
      public List<Integer> fallingSquares(int[][] positions) {
         List<Integer> hList = new ArrayList<>();//存放当前方块的高度
@@ -32,4 +32,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

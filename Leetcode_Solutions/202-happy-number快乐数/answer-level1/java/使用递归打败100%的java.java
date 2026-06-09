@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-使用递归与循环，10以外的数最终会被转换成10以内的，10以内的数除了1和7，其他都为false
+// 使用递归与循环，10以外的数最终会被转换成10以内的，10以内的数除了1和7，其他都为false
 
-![image.png](https://pic.leetcode-cn.com/663d50ee391b1572c3db800a621691b5bfb55d671d720ed2dad56999cdbf7eb4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/663d50ee391b1572c3db800a621691b5bfb55d671d720ed2dad56999cdbf7eb4-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isHappy(int n) {
         if (n == 1 || n == 7) {
@@ -24,4 +24,4 @@ class Solution {
         return isHappy(res);
     }
 }
-```
+// ```

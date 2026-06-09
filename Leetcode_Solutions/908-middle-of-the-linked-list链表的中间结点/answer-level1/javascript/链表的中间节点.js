@@ -1,4 +1,4 @@
-```
+// ```
 var middleNode = function(head) {
     let slow = head;
     let fast = head;
@@ -9,6 +9,6 @@ var middleNode = function(head) {
     return slow;
 };
 
-```
+// ```
 
-今天有点迷茫，，，，
+// 今天有点迷茫，，，，

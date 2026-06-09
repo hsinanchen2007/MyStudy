@@ -1,4 +1,4 @@
-```
+// ```
 var canMeasureWater = function(x, y, z) {
   if (x + y < z) {
     return false
@@ -24,4 +24,4 @@ var canMeasureWater = function(x, y, z) {
   }
   return z % gcd(max, min) === 0
 };
-```
+// ```

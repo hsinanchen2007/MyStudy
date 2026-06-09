@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/e210ad50957d5473f64668a0c28d3c23506a1894c2dd6d8904c38cf4f2176a54-image.png)
-```java
+// ![image.png](https://pic.leetcode-cn.com/e210ad50957d5473f64668a0c28d3c23506a1894c2dd6d8904c38cf4f2176a54-image.png)
+// ```java
     List<List<Integer>> ans = new ArrayList<>();
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<Integer> path = new ArrayList<>();
@@ -29,4 +29,4 @@
             visit[i] = 0;
         }
     }
-```
+// ```

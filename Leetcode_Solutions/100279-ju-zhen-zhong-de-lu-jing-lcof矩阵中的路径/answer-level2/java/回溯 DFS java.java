@@ -1,9 +1,9 @@
-### 解题思路
-DFS 标准的回溯算法
+// ### 解题思路
+// DFS 标准的回溯算法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean exist(char[][] board, String word) {
         char[] w = word.toCharArray();
@@ -31,4 +31,4 @@ class Solution {
         return rs;
     }
 }
-```
+// ```

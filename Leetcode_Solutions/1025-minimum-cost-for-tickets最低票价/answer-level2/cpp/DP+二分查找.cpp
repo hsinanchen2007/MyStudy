@@ -1,5 +1,5 @@
-简单动态规划，枚举一年中每一天。如果这一天没有出去旅游，则dp[i]=dp[i-1]；如果这一天有出去旅游，则取min(买天的票:dp[i-1]+cost[0],买7天的票:dp[i-7]+cost[1],买30天的票:dp[i-30]+cost[2])。
-```
+// 简单动态规划，枚举一年中每一天。如果这一天没有出去旅游，则dp[i]=dp[i-1]；如果这一天有出去旅游，则取min(买天的票:dp[i-1]+cost[0],买7天的票:dp[i-7]+cost[1],买30天的票:dp[i-30]+cost[2])。
+// ```
 class Solution {
 public:
     static const int maxn=366;
@@ -24,4 +24,4 @@ public:
         return dp[days[days.size()-1]];
     }
 };
-```
+// ```

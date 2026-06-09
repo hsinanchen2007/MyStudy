@@ -1,5 +1,5 @@
-常规二叉树递归
-```go
+// 常规二叉树递归
+// ```go
 func helper(root *TreeNode, sum int) int {
     if root == nil {
         return 0
@@ -9,10 +9,10 @@ func helper(root *TreeNode, sum int) int {
     }
     return helper(root.Left, sum+root.Val) + helper(root.Right, sum+root.Val)
 }
-```
+// ```
 
-改造一下
-```go
+// 改造一下
+// ```go
 func pathSum(nums []int) int {
     tree := make([]int, 16)
     for i := range tree {
@@ -34,4 +34,4 @@ func helper(tree []int, root, sum int) int {
     }
     return helper(tree, 2*root+1, sum+tree[root]) + helper(tree, 2*root+2, sum+tree[root])
 }
-```
+// ```

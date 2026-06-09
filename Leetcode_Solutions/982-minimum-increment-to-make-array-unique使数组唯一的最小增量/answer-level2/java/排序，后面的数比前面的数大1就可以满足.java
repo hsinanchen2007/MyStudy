@@ -1,9 +1,9 @@
-### 解题思路
-排序，后面的数比前面的数大1就可以满足
+// ### 解题思路
+// 排序，后面的数比前面的数大1就可以满足
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public  int minIncrementForUnique(int[] A) {
         Arrays.sort(A);
@@ -18,4 +18,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

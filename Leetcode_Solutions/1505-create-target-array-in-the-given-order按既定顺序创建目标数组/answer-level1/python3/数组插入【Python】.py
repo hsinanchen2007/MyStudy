@@ -1,13 +1,13 @@
-### 思路
+# ### 思路
 
-**数组**
+# **数组**
 
-**时间复杂度:** O(n)，n 为 index 长度，nums 长度和 index 相同。
-**空间复杂度:** O(n)，n 为 index 长度。
+# **时间复杂度:** O(n)，n 为 index 长度，nums 长度和 index 相同。
+# **空间复杂度:** O(n)，n 为 index 长度。
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 from typing import List
 
 class Solution:
@@ -16,8 +16,8 @@ class Solution:
         for i in range(len(index)):
             target.insert(index[i], nums[i])  # insert(位置, 值)
         return target
-```
+# ```
 
-### GitHub链接
+# ### GitHub链接
 
-[Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1389-Create-Target-Array-in-the-Given-Order/1389.py)
+# [Python](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/1389-Create-Target-Array-in-the-Given-Order/1389.py)

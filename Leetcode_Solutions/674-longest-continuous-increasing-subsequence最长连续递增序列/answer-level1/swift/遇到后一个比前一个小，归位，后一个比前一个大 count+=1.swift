@@ -1,4 +1,4 @@
-```
+// ```
 func findLengthOfLCIS(_ nums: [Int]) -> Int {
     if nums.count == 0 { return 0 }
     var count = 1
@@ -14,4 +14,4 @@ func findLengthOfLCIS(_ nums: [Int]) -> Int {
     }
     return maxCount
 }
-```
+// ```

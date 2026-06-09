@@ -1,4 +1,4 @@
-```
+# ```
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -69,4 +69,4 @@ if __name__ == "__main__":
     test = Solution()
     print(test.isSymmetric(tree.root))
 
-```
+# ```

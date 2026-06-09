@@ -1,8 +1,8 @@
-**解题思路**
-运用栈中序遍历原有树，通过一个prev变量保持前一个节点，遍历过程中修改prev的左右孩子。
+// **解题思路**
+// 运用栈中序遍历原有树，通过一个prev变量保持前一个节点，遍历过程中修改prev的左右孩子。
 
-**参考代码**
-```
+// **参考代码**
+// ```
 func increasingBST(root *TreeNode) *TreeNode {
     var stack []*TreeNode
     var prev, newRoot *TreeNode
@@ -36,4 +36,4 @@ func increasingBST(root *TreeNode) *TreeNode {
 
     return newRoot
 }
-```
+// ```

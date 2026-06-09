@@ -1,6 +1,6 @@
-方法同官方，代码不算精简，但是易懂
+# 方法同官方，代码不算精简，但是易懂
 
-```python []
+# ```python []
 def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         carry=0
         head=p=ListNode(0)
@@ -29,7 +29,7 @@ def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
                     p=p.next
 
         return head
-```
+# ```
 
 
 

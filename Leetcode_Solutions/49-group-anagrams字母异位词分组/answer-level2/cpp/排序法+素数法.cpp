@@ -1,6 +1,6 @@
-解法1：本题的关键在于如何判断两个string是异位词，第一种方法是两个词如果经过排序是一样的，则是异位词。有一点有意思，就是存放key-val用的如果是哈希表反而比红黑树要更慢，可能的解释是对于string的散列计算会比较耗时，但是比较比较不耗时。
+// 解法1：本题的关键在于如何判断两个string是异位词，第一种方法是两个词如果经过排序是一样的，则是异位词。有一点有意思，就是存放key-val用的如果是哈希表反而比红黑树要更慢，可能的解释是对于string的散列计算会比较耗时，但是比较比较不耗时。
 
-```cpp
+// ```cpp
 
 vector<vector<string>> vAns;
 unordered_map<string, vector<string>> hmAll;
@@ -14,11 +14,11 @@ for (auto iter = hmAll.begin(); iter != hmAll.end(); iter++) {
 }
 return vAns;
 
-```
+// ```
 
-解法2：第二种方法是对每一个字母赋一个素数，用这个代表这个单词的每一个字母的素数做乘积，如果乘积一样则认为是异位词。有一点也比较有趣，在这样解法下，哈希表表现比红黑树表现好很多，可以认为是对double计算散列是容易的，因此哈希表的优势较大。本解法需要注意存储乘积的变量的大小，int和long类型都不足以存放下，我的代码用的是double.
+// 解法2：第二种方法是对每一个字母赋一个素数，用这个代表这个单词的每一个字母的素数做乘积，如果乘积一样则认为是异位词。有一点也比较有趣，在这样解法下，哈希表表现比红黑树表现好很多，可以认为是对double计算散列是容易的，因此哈希表的优势较大。本解法需要注意存储乘积的变量的大小，int和long类型都不足以存放下，我的代码用的是double.
 
-```cpp
+// ```cpp
 vector<vector<string>> vAns;
 unordered_map<double, vector<string>>hmAll;
 map<char, int> hmNum = {
@@ -37,4 +37,4 @@ for (auto iter = hmAll.begin(); iter != hmAll.end(); iter++) {
     vAns.push_back(iter->second);
 }
 return vAns;
-```
+// ```

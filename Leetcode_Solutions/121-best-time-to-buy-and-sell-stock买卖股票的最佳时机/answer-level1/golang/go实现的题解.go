@@ -1,9 +1,9 @@
-### 解题思路
-参考C++最佳题解完成的go题解，初学go，没有泛型有点头疼
+// ### 解题思路
+// 参考C++最佳题解完成的go题解，初学go，没有泛型有点头疼
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
     if len(prices)<=1{
         return 0
@@ -27,4 +27,4 @@ func cmp(x,y int) int{
         return y
     }
 }
-```
+// ```

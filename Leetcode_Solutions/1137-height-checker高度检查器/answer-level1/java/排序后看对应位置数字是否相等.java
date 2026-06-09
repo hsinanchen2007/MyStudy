@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/a7ad985ca44ba99045a6861f5c92bf23ab9eae1c6d00c17a60ba1dcee6cdfcb5-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/a7ad985ca44ba99045a6861f5c92bf23ab9eae1c6d00c17a60ba1dcee6cdfcb5-image.png)
+// ```
     class Solution {
         public int heightChecker(int[] heights) {
             int[] temp = heights.clone();
@@ -12,12 +12,12 @@
             return cnt;
         }
     }
-```
+// ```
 
 
 
-大神的桶排序实现：
-```
+// 大神的桶排序实现：
+// ```
 public int heightChecker(int[] heights) {
         // 值的范围是1 <= heights[i] <= 100，因此需要1,2,3,...,99,100，共101个桶
         int[] arr = new int[101];
@@ -38,4 +38,4 @@ public int heightChecker(int[] heights) {
         }
         return count;
     }
-```
+// ```

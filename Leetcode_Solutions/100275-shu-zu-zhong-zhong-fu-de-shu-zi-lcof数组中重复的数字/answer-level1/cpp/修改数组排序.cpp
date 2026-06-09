@@ -1,9 +1,9 @@
-### 解题思路
-法一：修改数组顺序
+// ### 解题思路
+// 法一：修改数组顺序
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
         
     }
 };
-```
+// ```

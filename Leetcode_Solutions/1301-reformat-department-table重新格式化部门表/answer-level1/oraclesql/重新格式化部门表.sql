@@ -1,8 +1,8 @@
-### 解题思路
-1. 使用 group by + sum + decode 进行行转列
+-- ### 解题思路
+-- 1. 使用 group by + sum + decode 进行行转列
 
-### 代码
-```oraclesql
+-- ### 代码
+-- ```oraclesql
 select id,
        sum(decode(month, 'Jan', revenue, null)) Jan_Revenue,
        sum(decode(month, 'Feb', revenue, null)) Feb_Revenue,
@@ -18,4 +18,4 @@ select id,
        sum(decode(month, 'Dec', revenue, null)) Dec_Revenue
 from Department d
 group by id
-```
+-- ```

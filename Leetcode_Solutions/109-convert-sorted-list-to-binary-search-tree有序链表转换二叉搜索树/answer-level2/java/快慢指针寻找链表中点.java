@@ -1,9 +1,9 @@
-### 解题思路
-寻找到中点后，记得断开中点前部分的链表。
+// ### 解题思路
+// 寻找到中点后，记得断开中点前部分的链表。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -48,4 +48,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

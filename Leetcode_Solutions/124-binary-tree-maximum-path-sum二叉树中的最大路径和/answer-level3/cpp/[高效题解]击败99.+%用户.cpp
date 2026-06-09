@@ -1,6 +1,6 @@
 
-![image.png](https://pic.leetcode-cn.com/be160ddb0ae59adebcf4e83715400caac99bd3eaf2c796206729f9b7080df369-image.png)
-```c++
+// ![image.png](https://pic.leetcode-cn.com/be160ddb0ae59adebcf4e83715400caac99bd3eaf2c796206729f9b7080df369-image.png)
+// ```c++
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ int maxPathSum(TreeNode* root) {
 	return max(recuMaxPathSum(root, global_val),global_val);
 }
 };
-```
+// ```

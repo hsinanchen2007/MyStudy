@@ -1,9 +1,9 @@
-### 解题思路
-该题的思路为利用DFS来搜索从矩阵每个点为起点是否含有路径。
+// ### 解题思路
+// 该题的思路为利用DFS来搜索从矩阵每个点为起点是否含有路径。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean exist(char[][] board, String word) {
         // DFS
@@ -37,4 +37,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

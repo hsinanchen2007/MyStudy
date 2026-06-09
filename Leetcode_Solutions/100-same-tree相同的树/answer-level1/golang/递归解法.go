@@ -1,4 +1,4 @@
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -16,4 +16,4 @@ func isSameTree(p *TreeNode, q *TreeNode) bool {
         return false
     }
 }
-```
+// ```

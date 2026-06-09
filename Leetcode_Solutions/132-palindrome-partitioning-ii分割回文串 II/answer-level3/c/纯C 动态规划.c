@@ -1,9 +1,9 @@
-### 解题思路
-纯C 动态规划 清清爽爽
+// ### 解题思路
+// 纯C 动态规划 清清爽爽
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minCut(char * s){
     int length = strlen(s);
     int left = 0;
@@ -49,4 +49,4 @@ int minCut(char * s){
     return pRes[length - 1];
 }
 
-```
+// ```

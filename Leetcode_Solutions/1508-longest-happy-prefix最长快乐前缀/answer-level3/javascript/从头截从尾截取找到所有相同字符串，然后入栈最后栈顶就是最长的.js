@@ -1,9 +1,9 @@
-### 解题思路
-从头截从尾截取找到所有相同字符串，然后入栈最后栈顶就是最长的
+// ### 解题思路
+// 从头截从尾截取找到所有相同字符串，然后入栈最后栈顶就是最长的
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -21,4 +21,4 @@ var longestPrefix = function(s) {
     }
     return maxStack.pop() || "";
 };
-```
+// ```

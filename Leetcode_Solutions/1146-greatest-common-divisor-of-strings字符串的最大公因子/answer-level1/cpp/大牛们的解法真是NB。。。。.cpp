@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2) {
@@ -14,4 +14,4 @@ public:
         return b == 0 ? a : gcd(b,a % b);
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-使用两个指针来实现链表反转。一个指针指向已反转链表的头节点，一个指针指向待反转链表的头节点。
-```
+# 使用两个指针来实现链表反转。一个指针指向已反转链表的头节点，一个指针指向待反转链表的头节点。
+# ```
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -19,4 +19,4 @@ class Solution(object):
             ret = head
             head = nhead
         return ret
-```
+# ```

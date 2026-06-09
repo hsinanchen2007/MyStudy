@@ -1,7 +1,7 @@
-思路很简单，x, o不能同时赢，并且它们出现的数量有约束关系。
-但要考虑完所有情况却不容易，只好面向测试用例编程了……
+// 思路很简单，x, o不能同时赢，并且它们出现的数量有约束关系。
+// 但要考虑完所有情况却不容易，只好面向测试用例编程了……
 
-```c++
+// ```c++
 class Solution {
     public boolean validTicTacToe(String[] board) {
         int cnto = 0, cntx = 0;
@@ -46,4 +46,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

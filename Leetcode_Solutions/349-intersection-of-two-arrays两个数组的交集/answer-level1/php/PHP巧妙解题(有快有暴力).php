@@ -1,8 +1,8 @@
-# 方法一: 暴力解题 
-- 时间复杂度O(n*m) 空间复杂度O(n*m)
-- 需要每个元素进行对比即可,简单又暴力.
-- 但是执行时间太感人.
-```
+// # 方法一: 暴力解题 
+// - 时间复杂度O(n*m) 空间复杂度O(n*m)
+// - 需要每个元素进行对比即可,简单又暴力.
+// - 但是执行时间太感人.
+// ```
 class Solution {
 
     /**
@@ -26,13 +26,13 @@ class Solution {
         return $has;
     }
 }
-```
-# 方法二: Hash表 
-- 时间复杂度O(m+n) 空间复杂度O(m+n)
-- 遍历第一个数组,使用hash记录
-- 第二个数组遍历时,判断是否在hash表中,在则记录并删除此key,不在则跳过
-![image.png](https://pic.leetcode-cn.com/6ad67169df133371adde836e84b238fb7f487ab83340e2baa7e7e77b92288f6a-image.png)
-```
+// ```
+// # 方法二: Hash表 
+// - 时间复杂度O(m+n) 空间复杂度O(m+n)
+// - 遍历第一个数组,使用hash记录
+// - 第二个数组遍历时,判断是否在hash表中,在则记录并删除此key,不在则跳过
+// ![image.png](https://pic.leetcode-cn.com/6ad67169df133371adde836e84b238fb7f487ab83340e2baa7e7e77b92288f6a-image.png)
+// ```
 class Solution {
 
     /**
@@ -68,4 +68,4 @@ class Solution {
         return $has;
     }
 }
-```
+// ```

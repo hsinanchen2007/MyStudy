@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -20,8 +20,8 @@ var searchInsert = function(nums, target) {
         }
     }
 };
-```
+// ```
 
-![WX20190917-160443.png](https://pic.leetcode-cn.com/ce2f116d276be3ed609c7cbc68e4d54a82025e793b372de2494b7a3dcf52ca6a-WX20190917-160443.png)
+// ![WX20190917-160443.png](https://pic.leetcode-cn.com/ce2f116d276be3ed609c7cbc68e4d54a82025e793b372de2494b7a3dcf52ca6a-WX20190917-160443.png)
 
 

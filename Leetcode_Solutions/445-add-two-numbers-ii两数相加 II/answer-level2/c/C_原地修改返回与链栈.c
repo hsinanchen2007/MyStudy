@@ -1,12 +1,12 @@
-### 解题思路
-用第二题链表相加的思路，这题区别就是**右对齐**，由于单向链表的特点，要做到右对齐，必须反转或者用**栈**结构做到。
+// ### 解题思路
+// 用第二题链表相加的思路，这题区别就是**右对齐**，由于单向链表的特点，要做到右对齐，必须反转或者用**栈**结构做到。
 
-### 代码一、原地破坏l1装答案与反转
-+ 反转两个链表是肯定的，想要原地修改，那必须用一个链表来转答案
-+ l1边装答案边反转，把短链接在l1。（其实也可以用于第二题那样做，最后反转得到答案）
-![image.png](https://pic.leetcode-cn.com/b1d76b2f29e2930c5fa3fa97b7a12ecd9dedb1c1779cab863905854ea1b79b20-image.png)
+// ### 代码一、原地破坏l1装答案与反转
+// + 反转两个链表是肯定的，想要原地修改，那必须用一个链表来转答案
+// + l1边装答案边反转，把短链接在l1。（其实也可以用于第二题那样做，最后反转得到答案）
+// ![image.png](https://pic.leetcode-cn.com/b1d76b2f29e2930c5fa3fa97b7a12ecd9dedb1c1779cab863905854ea1b79b20-image.png)
 
-```c
+// ```c
 struct ListNode* reverseList(struct ListNode* head){
     struct ListNode *p = NULL, *q = NULL;
     while (head) {
@@ -53,13 +53,13 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return prev;
 }
-```
-时间复杂度：O(max(m,n)),m,n表示两个链表长度
-空间复杂度：O(1):不满足题意
+// ```
+// 时间复杂度：O(max(m,n)),m,n表示两个链表长度
+// 空间复杂度：O(1):不满足题意
 
-### 代码二、正确姿势（不修改，新建节点）
-使用栈进行对链表“反转”，这里只是存节点指针，没有改变原链表的指向。最后再返回结果时构建新的链表。（由于倒着构建链表，无需dummy辅助）。
-```python []
+// ### 代码二、正确姿势（不修改，新建节点）
+// 使用栈进行对链表“反转”，这里只是存节点指针，没有改变原链表的指向。最后再返回结果时构建新的链表。（由于倒着构建链表，无需dummy辅助）。
+// ```python []
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         if not l1 or not l2:
@@ -77,8 +77,8 @@ class Solution:
             head.next = prev  # 倒置连接
             prev = head  # prev更新
         return head
-```
-```c []
+// ```
+// ```c []
 typedef struct LinkStack{
     struct ListNode *ptr;  // 链表结点指针
     struct LinkStack *next;  // 链栈指针
@@ -118,6 +118,6 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return prev;
 }
-```
-时间复杂度：O(max(m,n)),m,n表示两个链表长度
-空间复杂度：O(m+n)，存两个链表节点花费的空间。
+// ```
+// 时间复杂度：O(max(m,n)),m,n表示两个链表长度
+// 空间复杂度：O(m+n)，存两个链表节点花费的空间。

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/cbb134bafcc213a7fc996cde45c320651c6d7b381f91f61934d3160ed1c94570-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cbb134bafcc213a7fc996cde45c320651c6d7b381f91f61934d3160ed1c94570-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 模运算特性
 
 推理过程：
@@ -20,11 +20,11 @@ ab % k = 0 + 0 + 0 + BD % k
 a % k = B    b % k = D;
 
 所以：(a % k)(b % k) = BD % k
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} a
  * @param {number[]} b
@@ -62,4 +62,4 @@ var superPow = function(a, b) {
 
 
 
-```
+// ```

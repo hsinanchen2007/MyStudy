@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int f(int x, int a, int b, int c) {
@@ -28,5 +28,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/ad7e1e05dfe8a1ee16c38fd67de4daa18fdab7c5e8a399b291d2a86441f72700-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/ad7e1e05dfe8a1ee16c38fd67de4daa18fdab7c5e8a399b291d2a86441f72700-image.png)

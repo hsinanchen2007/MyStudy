@@ -1,14 +1,14 @@
-### 解题思路
-同打家劫舍题, 简单 DP 即可。童老师课程上也讲到此题。
-[198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)
+# ### 解题思路
+# 同打家劫舍题, 简单 DP 即可。童老师课程上也讲到此题。
+# [198. 打家劫舍](https://leetcode-cn.com/problems/house-robber/)
 
-官方题解一般。
-然后这里可以使用滚动数组技巧，节省空间。
+# 官方题解一般。
+# 然后这里可以使用滚动数组技巧，节省空间。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         # DP 打家劫舍题
@@ -23,4 +23,4 @@ class Solution:
             DP[i] = max(DP[i-1], DP[i-2]+nums[i-1])
         return DP[n]
 
-```
+# ```

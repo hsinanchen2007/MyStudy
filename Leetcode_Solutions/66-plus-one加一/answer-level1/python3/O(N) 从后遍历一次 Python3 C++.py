@@ -1,13 +1,13 @@
-## 思路
-1. 从后向前遍历
-2. 找到第一个不是9的数
-3. 这个数后面所有数置0
-4. 若这个数存在，自己加一
-5. 若不存在，代表全是9,则最前面置1
+# ## 思路
+# 1. 从后向前遍历
+# 2. 找到第一个不是9的数
+# 3. 这个数后面所有数置0
+# 4. 若这个数存在，自己加一
+# 5. 若不存在，代表全是9,则最前面置1
 
-## 代码
-+ C++ 代码
-```
+# ## 代码
+# + C++ 代码
+# ```
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -21,9 +21,9 @@ public:
         return digits;
     }
 };
-```
-+ Python3 代码
-```
+# ```
+# + Python3 代码
+# ```
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         i = len(digits) - 1
@@ -36,4 +36,4 @@ class Solution:
         else:
             digits[i] += 1
         return digits
-```
+# ```

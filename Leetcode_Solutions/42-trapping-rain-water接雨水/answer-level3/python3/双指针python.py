@@ -1,5 +1,5 @@
-双指针，每个位置能接水和它左边、右边最大的高度的最小值有关。
-```
+# 双指针，每个位置能接水和它左边、右边最大的高度的最小值有关。
+# ```
 class Solution:       
     def trap(self, height: List[int]) -> int:
         if len(height) == 0: return 0
@@ -21,4 +21,4 @@ class Solution:
                 right -= 1
                 right_max = max(right_max,height[right])
         return res
-```
+# ```

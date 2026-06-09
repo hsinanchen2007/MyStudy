@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
@@ -46,5 +46,5 @@ public:
         return A;
     }
 };
-```
-![3.png](https://pic.leetcode-cn.com/54d535980866d5125660eab3ad648193cbe47172bc904557b9688f3a9717b08e-3.png)
+// ```
+// ![3.png](https://pic.leetcode-cn.com/54d535980866d5125660eab3ad648193cbe47172bc904557b9688f3a9717b08e-3.png)

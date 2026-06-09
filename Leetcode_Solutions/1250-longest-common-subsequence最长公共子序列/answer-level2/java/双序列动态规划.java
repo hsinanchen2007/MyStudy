@@ -1,9 +1,9 @@
-### 解题思路
-典型的双序列型动态规划，使用二维数组做dp数组
+// ### 解题思路
+// 典型的双序列型动态规划，使用二维数组做dp数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         int len1 = text1.length();
@@ -21,4 +21,4 @@ class Solution {
         return dp[len1][len2];
     }
 }
-```
+// ```

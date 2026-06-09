@@ -1,15 +1,15 @@
-### 解题思路
-例子比较难懂,可以把数组作为一个平面理解比较好
-grid = [[2]],可以理解grid[0][0] = 2
-grid = [[1,2],[3,4]],可以理解grid[0][0] = 1,grid[0][1] = 2,grid[1][0] = 3,grid[1][1] = 4
-grid = [[2,2,2],[2,1,2],[2,2,2]],可以理解grid[0][0] = 2,grid[0][1] = 2,grid[0][2] = 2,grid[1][0] = 2,grid[1][1] = 1,grid[1][2] = 2,grid[2][0] = 2,grid[2][1] = 2,grid[2][2] = 2
+# ### 解题思路
+# 例子比较难懂,可以把数组作为一个平面理解比较好
+# grid = [[2]],可以理解grid[0][0] = 2
+# grid = [[1,2],[3,4]],可以理解grid[0][0] = 1,grid[0][1] = 2,grid[1][0] = 3,grid[1][1] = 4
+# grid = [[2,2,2],[2,1,2],[2,2,2]],可以理解grid[0][0] = 2,grid[0][1] = 2,grid[0][2] = 2,grid[1][0] = 2,grid[1][1] = 1,grid[1][2] = 2,grid[2][0] = 2,grid[2][1] = 2,grid[2][2] = 2
 
-剩下的就是下面代码了
+# 剩下的就是下面代码了
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         result = 0
@@ -35,4 +35,4 @@ class Solution:
                     side = side + max(num - grid[x][y], 0)
                 result = result + side + top
         return result
-```
+# ```

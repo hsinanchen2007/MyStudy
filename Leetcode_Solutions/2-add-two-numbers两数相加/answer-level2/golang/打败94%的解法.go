@@ -1,5 +1,5 @@
-完整代码
-```
+// 完整代码
+// ```
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	var sumListNode  *ListNode  	// 求和链表
 	var currentListNode *ListNode	// 求和链表当前节点
@@ -42,7 +42,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return sumListNode
 }
-```
+// ```
 
-执行结果
-![image.png](https://pic.leetcode-cn.com/b59afdf9105b1a90070b8f494e8a267735d35a36466f5e1d3f82f1b2d1bd1ebd-image.png)
+// 执行结果
+// ![image.png](https://pic.leetcode-cn.com/b59afdf9105b1a90070b8f494e8a267735d35a36466f5e1d3f82f1b2d1bd1ebd-image.png)

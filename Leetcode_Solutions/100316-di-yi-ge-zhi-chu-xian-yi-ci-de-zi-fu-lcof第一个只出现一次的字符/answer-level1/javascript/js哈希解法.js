@@ -1,4 +1,4 @@
-```js
+// ```js
 var firstUniqChar = function(s) {
     let sMap = {}
     for (const v of s) {
@@ -12,4 +12,4 @@ var firstUniqChar = function(s) {
 
     return ' '
 };
-```
+// ```

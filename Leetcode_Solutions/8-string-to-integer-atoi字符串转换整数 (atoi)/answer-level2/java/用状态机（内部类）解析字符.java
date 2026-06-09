@@ -1,11 +1,11 @@
-### 解题思路
-之前用类似状态机做了一次。做完一看官方的 状态自动机python版，重新做了一次。
-思路与官方的一样，只不过把状态机封装在了一个独立的内部类了。
-理论上，状态机类封装条件转移，parser的switch/case用各个状态的处理函数handler来完成各类工作。
+// ### 解题思路
+// 之前用类似状态机做了一次。做完一看官方的 状态自动机python版，重新做了一次。
+// 思路与官方的一样，只不过把状态机封装在了一个独立的内部类了。
+// 理论上，状态机类封装条件转移，parser的switch/case用各个状态的处理函数handler来完成各类工作。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     static class NumberSTATE{
         public final static char START =0;
@@ -78,4 +78,4 @@ class Solution {
     }
 
 }
-```
+// ```

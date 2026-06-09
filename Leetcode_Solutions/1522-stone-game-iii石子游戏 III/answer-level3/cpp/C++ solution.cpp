@@ -1,9 +1,9 @@
-### 解题思路
-动态规划， 从后往前计算
+// ### 解题思路
+// 动态规划， 从后往前计算
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string stoneGameIII(vector<int>& stoneValue) {
@@ -28,4 +28,4 @@ public:
         }
     }
 };
-```
+// ```

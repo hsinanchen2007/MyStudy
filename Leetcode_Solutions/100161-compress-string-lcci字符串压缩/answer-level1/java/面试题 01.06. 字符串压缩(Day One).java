@@ -1,9 +1,9 @@
-### 法一
-用一个辅助数组，同时遍历的时候记录有多少个相同字符.
+// ### 法一
+// 用一个辅助数组，同时遍历的时候记录有多少个相同字符.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String s) {
         if (0 == s.length()) {
@@ -25,11 +25,11 @@ class Solution {
         return result.toString().length() >= s.length() ? s : result.toString();
     }
 }
-```
-### 法二
-思路同法一，但是增加了变量chNew,chOld，这样可以减少随机访问次数，提升效率。
+// ```
+// ### 法二
+// 思路同法一，但是增加了变量chNew,chOld，这样可以减少随机访问次数，提升效率。
 
-```java
+// ```java
 class Solution {
     public String compressString(String s) {
         if (0 == s.length()) {
@@ -59,4 +59,4 @@ class Solution {
         return result.toString().length() >= length ? s : result.toString();
     }
 }
-```
+// ```

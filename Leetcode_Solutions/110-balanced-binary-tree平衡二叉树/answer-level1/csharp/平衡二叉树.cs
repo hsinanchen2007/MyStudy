@@ -1,5 +1,5 @@
-**思路1：** 递归 
-```
+// **思路1：** 递归 
+// ```
 public class BalancedBinaryTree_110
     {
         public bool IsBalanced(TreeNode root)
@@ -28,4 +28,4 @@ public class BalancedBinaryTree_110
             return Math.Max(GetHeight(node.left), GetHeight(node.right)) + 1;
         }
     }
-```
+// ```

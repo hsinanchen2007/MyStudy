@@ -1,9 +1,9 @@
-### 解题思路
-组合数来自上边和左边。
+// ### 解题思路
+// 组合数来自上边和左边。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int change(int amount, int[] coins) {
         if(amount==0) return 1;
@@ -28,4 +28,4 @@ class Solution {
         return dp[dp.length-1][amount];
     }
 }
-```
+// ```

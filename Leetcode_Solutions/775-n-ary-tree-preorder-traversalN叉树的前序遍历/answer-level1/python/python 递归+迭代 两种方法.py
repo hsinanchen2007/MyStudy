@@ -1,5 +1,5 @@
-### 递归算法
-```python
+# ### 递归算法
+# ```python
 # Definition for a Node.
 class Node(object):
     def __init__(self, val=None, children=None):
@@ -23,12 +23,12 @@ class Solution(object):
                 preTreversal(cur)
         preTreversal(root)
         return ans
-```
+# ```
 
 
-### 迭代算法
+# ### 迭代算法
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node(object):
@@ -51,4 +51,4 @@ class Solution(object):
             stack.extend(cur.children[::-1])#注意是extend, 逆序压入栈中
         return ans
 
-```
+# ```

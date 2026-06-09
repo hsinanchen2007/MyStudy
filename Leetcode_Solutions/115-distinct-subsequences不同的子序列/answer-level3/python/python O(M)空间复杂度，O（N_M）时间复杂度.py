@@ -1,9 +1,9 @@
-### 解题思路
-不断复用当前dp...
+# ### 解题思路
+# 不断复用当前dp...
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def numDistinct(self, s, t):
         """
@@ -21,4 +21,4 @@ class Solution(object):
                     dp[i + 1] = dp[i+1] + dp[i]
         return dp[-1]
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-先将其存储在map数组当中 其中tmp是保存map中键值对的信息 记录chars里各个字母的个数 扫描一遍字符串，出现字符就对应的减1如果发现其小于等于0说明这个单词未被掌握
+// ### 解题思路
+// 先将其存储在map数组当中 其中tmp是保存map中键值对的信息 记录chars里各个字母的个数 扫描一遍字符串，出现字符就对应的减1如果发现其小于等于0说明这个单词未被掌握
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -33,4 +33,4 @@ public:
         return ans;
     }
 };
-```
+// ```

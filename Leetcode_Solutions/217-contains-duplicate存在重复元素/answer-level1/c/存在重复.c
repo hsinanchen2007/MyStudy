@@ -1,9 +1,9 @@
-### 解题思路
-先插入排序在逐次比较
+// ### 解题思路
+// 先插入排序在逐次比较
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool containsDuplicate(int* nums, int numsSize){
     if (numsSize<2) 
     return 0;
@@ -22,4 +22,4 @@ bool containsDuplicate(int* nums, int numsSize){
     if (k<(numsSize-1)) return 1;
     else return 0;}
 }
-```
+// ```

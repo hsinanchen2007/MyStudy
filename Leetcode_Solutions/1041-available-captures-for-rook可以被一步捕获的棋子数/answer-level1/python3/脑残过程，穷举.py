@@ -1,13 +1,13 @@
-### 解题思路
-1、先确定R所在坐标x,y
-2、从x行 [0,y-1],[y,8]遍历
-3、从y列 [0,x-1],[x,8],遍历，一共四个方向
-4、每个方向最多可以捕获一个p
-5、返回所有结果之和
+# ### 解题思路
+# 1、先确定R所在坐标x,y
+# 2、从x行 [0,y-1],[y,8]遍历
+# 3、从y列 [0,x-1],[x,8],遍历，一共四个方向
+# 4、每个方向最多可以捕获一个p
+# 5、返回所有结果之和
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self,board: List[List[str]]) -> int:
         Rx, Ry = 0, 0
@@ -47,4 +47,4 @@ class Solution:
             if board[i][Ry] == 'B':
                 break
         return countd + countu + countl + countr
-```
+# ```

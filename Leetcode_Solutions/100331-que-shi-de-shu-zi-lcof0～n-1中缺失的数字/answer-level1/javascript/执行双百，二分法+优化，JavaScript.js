@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/f69f86e1b52491f64e4da8f9b987eb6b2148ca3dc34cfa26721ebd271018b951-image.png)
-如果nums本身就是有序的，就不用查找位置，因为位置就是最后一个数后面的位置。
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/f69f86e1b52491f64e4da8f9b987eb6b2148ca3dc34cfa26721ebd271018b951-image.png)
+// 如果nums本身就是有序的，就不用查找位置，因为位置就是最后一个数后面的位置。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -19,4 +19,4 @@ var missingNumber = function(nums) {
     }
     return left;
 };
-```
+// ```

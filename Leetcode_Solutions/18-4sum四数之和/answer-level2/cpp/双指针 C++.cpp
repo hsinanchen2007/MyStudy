@@ -1,5 +1,5 @@
-解题思路：固定两个指针left和right，用一个for循环从left == 0开始，然后对右边进行从right == nums.size()开始遍历right--,相同就再--，直到left + 3 <= right - 1，固定两端的指针时中间两个数r和l一直往中间靠近，直到l == r算是完成一次检测。
-附上代码：
+// 解题思路：固定两个指针left和right，用一个for循环从left == 0开始，然后对右边进行从right == nums.size()开始遍历right--,相同就再--，直到left + 3 <= right - 1，固定两端的指针时中间两个数r和l一直往中间靠近，直到l == r算是完成一次检测。
+// 附上代码：
 class Solution {
 public:
         vector<vector<int>> fourSum(vector<int>& nums, int target) {

@@ -1,5 +1,5 @@
-![1.png](https://pic.leetcode-cn.com/fbf24d821f0b1dff1fab7746446fedd1d41f9a22cf90a775dc74fec6b9575d51-1.png)
-```python
+# ![1.png](https://pic.leetcode-cn.com/fbf24d821f0b1dff1fab7746446fedd1d41f9a22cf90a775dc74fec6b9575d51-1.png)
+# ```python
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         sumOfThree = sum(A)
@@ -15,4 +15,4 @@ class Solution:
                     if sum2 == sumOfThree / 3:  # 如果满足两组三分之一则正确
                         return True
         return False
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-核心部分在于开辟内存。
-returnColumnSizes这个东西为什么设置成二维的一直搞不懂。有人可以解释一下吗？
+// ### 解题思路
+// 核心部分在于开辟内存。
+// returnColumnSizes这个东西为什么设置成二维的一直搞不懂。有人可以解释一下吗？
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 /**
@@ -32,4 +32,4 @@ int** transpose(int** A, int ASize, int* AColSize, int* returnSize, int** return
 }
 
 
-```
+// ```

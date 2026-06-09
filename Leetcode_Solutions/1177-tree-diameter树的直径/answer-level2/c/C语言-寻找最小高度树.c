@@ -1,11 +1,11 @@
-该问题转换为寻找树的最小高度；
-1、计算所有节点的度；
-2、使用BFS删除同一层度为1的节点（即叶子节点）；每层level加1；
-3、删除到最后如果只有1个节点，树的高度（level - 1），直径为 2 *（level - 1）；
-4、最后没有节点树的高度level，直径为2 * level - 1;
+// 该问题转换为寻找树的最小高度；
+// 1、计算所有节点的度；
+// 2、使用BFS删除同一层度为1的节点（即叶子节点）；每层level加1；
+// 3、删除到最后如果只有1个节点，树的高度（level - 1），直径为 2 *（level - 1）；
+// 4、最后没有节点树的高度level，直径为2 * level - 1;
 
 
-```
+// ```
 #define MAXQUELEN 10010
 int *g_degree = NULL;
 int *g_queue = NULL;
@@ -87,4 +87,4 @@ int treeDiameter(int** edges, int edgesSize, int* edgesColSize){
     free(g_degree);
     return res;
 }
-```
+// ```

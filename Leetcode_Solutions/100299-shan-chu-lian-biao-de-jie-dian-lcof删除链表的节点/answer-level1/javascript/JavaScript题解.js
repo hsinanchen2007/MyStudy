@@ -1,9 +1,9 @@
-### 解题思路
-单链表的操作
+// ### 解题思路
+// 单链表的操作
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var deleteNode = function(head, val) {
     let dummyNode = new ListNode(-1);
     let prev = dummyNode;
@@ -18,4 +18,4 @@ var deleteNode = function(head, val) {
         }
     }
 };
-```
+// ```

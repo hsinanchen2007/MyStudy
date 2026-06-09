@@ -1,9 +1,9 @@
-### 解题思路
-时间复杂度和快排一样O(nlogn)
-![image.png](https://pic.leetcode-cn.com/9b5ed93f138a6b2d5a9ecf7861f0cc79210dc5f3fe1d2d5cfefecb809d78e09a-image.png)
-### 代码
+# ### 解题思路
+# 时间复杂度和快排一样O(nlogn)
+# ![image.png](https://pic.leetcode-cn.com/9b5ed93f138a6b2d5a9ecf7861f0cc79210dc5f3fe1d2d5cfefecb809d78e09a-image.png)
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minNumber(self, nums: List[int]) -> str:
         # qsort 变形
@@ -34,4 +34,4 @@ class Solution:
         return ''.join(list(map(str, res)))
 
                            
-```
+# ```

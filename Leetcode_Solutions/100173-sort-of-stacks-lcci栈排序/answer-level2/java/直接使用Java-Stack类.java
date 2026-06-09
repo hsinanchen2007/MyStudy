@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-实现sort方法，完成最小值浮在栈顶
+// 实现sort方法，完成最小值浮在栈顶
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class SortedStack {
 
     private Stack<Integer> stack;
@@ -45,4 +45,4 @@ class SortedStack {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.isEmpty();
  */
-```
+// ```

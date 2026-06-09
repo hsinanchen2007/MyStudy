@@ -1,14 +1,14 @@
-### 解题思路
-先处理边界问题：零修改以及相差大于2的情况 
-中心思想:
-相等- 逐个字母比较，差异大于2，则false
-不相等-找到不相等的下标，往差异处插入字符、删除字符，再比较是否一致，一致则true
-![image.png](https://pic.leetcode-cn.com/c73b2e1977b76edd7e93bf38ce511919f00b4f0340c57799cabc2f20714a79a0-image.png)
+// ### 解题思路
+// 先处理边界问题：零修改以及相差大于2的情况 
+// 中心思想:
+// 相等- 逐个字母比较，差异大于2，则false
+// 不相等-找到不相等的下标，往差异处插入字符、删除字符，再比较是否一致，一致则true
+// ![image.png](https://pic.leetcode-cn.com/c73b2e1977b76edd7e93bf38ce511919f00b4f0340c57799cabc2f20714a79a0-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var oneEditAway = function(s1, s2) {
     const s1Len = s1.length
     const s2Len = s2.length
@@ -41,4 +41,4 @@ var oneEditAway = function(s1, s2) {
         }
     }
 };
-```
+// ```

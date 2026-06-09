@@ -1,10 +1,10 @@
-### 解题思路
-实现BFS即可解决
+// ### 解题思路
+// 实现BFS即可解决
 
-### 代码
-![图片.png](https://pic.leetcode-cn.com/a74a36e0e5dc3ed3d7b40a75d4e364e344aab1056be6fd08d2a5295f96019763-%E5%9B%BE%E7%89%87.png)
+// ### 代码
+// ![图片.png](https://pic.leetcode-cn.com/a74a36e0e5dc3ed3d7b40a75d4e364e344aab1056be6fd08d2a5295f96019763-%E5%9B%BE%E7%89%87.png)
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int jump(vector<int>& nums) {
@@ -38,4 +38,4 @@ public:
         return res;
 	}
 };
-```
+// ```

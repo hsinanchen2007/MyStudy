@@ -1,6 +1,6 @@
-# 方法一
-没有什么是暴力不能解决的。如果有，那么就用HashSet空间换时间。时间空间复杂度O(n)
-```
+// # 方法一
+// 没有什么是暴力不能解决的。如果有，那么就用HashSet空间换时间。时间空间复杂度O(n)
+// ```
     public static int[] fairCandySwap(int[] A, int[] B) {
         int sumA = 0, sumB = 0;
         HashSet<Integer> set = new HashSet<>();
@@ -18,11 +18,11 @@
         }
         throw new IllegalArgumentException("don't have answer.");
     }
-```
+// ```
 
-# 方法二
-暴力，时间复杂度O(n^2)
-```
+// # 方法二
+// 暴力，时间复杂度O(n^2)
+// ```
     public static int[] fairCandySwap(int[] A, int[] B) {
         int lenA = A.length, lenB = B.length, sumA = 0, sumB = 0, sumAvg;
         for (int i : A) sumA += i;
@@ -37,4 +37,4 @@
         }
         throw new IllegalArgumentException("don't have answer.");
     }
-```
+// ```

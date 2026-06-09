@@ -1,7 +1,7 @@
-find函数判断是否有三个以上的连续L，遍历统计A的个数
+// find函数判断是否有三个以上的连续L，遍历统计A的个数
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     bool checkRecord(string s) {
@@ -19,4 +19,4 @@ public:
         return false;
     }
 };
-```
+// ```

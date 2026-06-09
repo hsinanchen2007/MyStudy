@@ -1,11 +1,11 @@
-### 解题思路
-两种方法，思路差不多
+# ### 解题思路
+# 两种方法，思路差不多
 
-方法一：更新区间边界
+# 方法一：更新区间边界
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def summaryRanges(self, nums: List[int]) -> List[str]:
         if len(nums) == 0: return []
@@ -22,16 +22,16 @@ class Solution:
 
         return res
 
-```
+# ```
 
 
-### 解题思路
+# ### 解题思路
 
-方法二：用双指针
+# 方法二：用双指针
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def summaryRanges(self, nums: List[int]) -> List[str]:
         if len(nums) == 0: return []
@@ -48,4 +48,4 @@ class Solution:
 
         return res
 
-```
+# ```

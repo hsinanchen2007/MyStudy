@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2e4d0c59695dff2395816efe0791ec334388322178f3cf673a103a6b5fa963cb-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/2e4d0c59695dff2395816efe0791ec334388322178f3cf673a103a6b5fa963cb-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums)
@@ -29,4 +29,4 @@ public:
         return cnt > len / 2 ? tmp : -1;
     }
 };
-```
+// ```

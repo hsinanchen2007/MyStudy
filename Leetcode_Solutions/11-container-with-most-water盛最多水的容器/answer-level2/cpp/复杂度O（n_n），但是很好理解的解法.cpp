@@ -1,11 +1,11 @@
-### 解题思路
-循环套循环，遍历每一种情况，高取较小的，宽为j-i
-使用max更新res的值
-最后返回res
+// ### 解题思路
+// 循环套循环，遍历每一种情况，高取较小的，宽为j-i
+// 使用max更新res的值
+// 最后返回res
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -24,4 +24,4 @@ public:
         return res;
     }
 };
-```
+// ```

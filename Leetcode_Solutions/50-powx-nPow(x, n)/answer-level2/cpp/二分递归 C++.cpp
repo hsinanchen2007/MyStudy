@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-溢出处理 或者直接换long
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 溢出处理 或者直接换long
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double myPow(double x, int n) {
@@ -18,4 +18,4 @@ public:
         return aaa*aaa;
     }
 };
-```
+// ```

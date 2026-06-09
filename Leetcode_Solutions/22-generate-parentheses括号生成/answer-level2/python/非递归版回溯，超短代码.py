@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def generateParenthesis(self, N):
         nodes = [('', 0, 0)]
@@ -13,5 +13,5 @@ class Solution(object):
             if n[2] < n[1]:
                 nodes.append((n[0]+')',n[1], n[2]+1))
         return res
-```
+# ```
 

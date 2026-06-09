@@ -1,10 +1,10 @@
-### 解题思路
-遍历出所有的路径，在求和即可
-![UC截图20191205143727.png](https://pic.leetcode-cn.com/e7a5371b5fee3d669b53ab83aa68d13ea5bd93baf5da871ddf88f59e05163c17-UC%E6%88%AA%E5%9B%BE20191205143727.png)
+# ### 解题思路
+# 遍历出所有的路径，在求和即可
+# ![UC截图20191205143727.png](https://pic.leetcode-cn.com/e7a5371b5fee3d669b53ab83aa68d13ea5bd93baf5da871ddf88f59e05163c17-UC%E6%88%AA%E5%9B%BE20191205143727.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
         for item in res:
             ans += int(item)
         return ans
-```
+# ```

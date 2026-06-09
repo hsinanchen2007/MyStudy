@@ -1,9 +1,9 @@
-### 解题思路
-解题思路简单，就是不知道为啥别人这么快，头秃
+// ### 解题思路
+// 解题思路简单，就是不知道为啥别人这么快，头秃
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool hasGroupsSizeX(vector<int>& deck) {
@@ -23,4 +23,4 @@ public:
     }
 
 };
-```
+// ```

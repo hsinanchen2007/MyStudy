@@ -1,4 +1,4 @@
-```
+// ```
 class MyStack {
     Queue<Integer> list;
 
@@ -44,4 +44,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

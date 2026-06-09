@@ -1,5 +1,5 @@
-**每次填充一个单词：复杂度过高**
-```
+# **每次填充一个单词：复杂度过高**
+# ```
    def wordsTyping(self, sentence, rows, cols):
         ans, idx = 0, 0
         n = len(sentence)
@@ -14,12 +14,12 @@
                     ans += 1
                     idx = 0
         return ans
-```
+# ```
 
  
 
-**加入段落填充**
-```
+# **加入段落填充**
+# ```
     def wordsTyping(self, sentence, rows, cols):
         n = len(sentence)
         word_lens = [len(word) for word in sentence]
@@ -45,4 +45,4 @@
                 cur_word += 1
         return cur_num
 
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/607c778ff499fadf110e87c5ffbc4a042806024d276bab66ba3431d3625ad09d-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/607c778ff499fadf110e87c5ffbc4a042806024d276bab66ba3431d3625ad09d-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int row, col;
     row = col = -1;
@@ -99,4 +99,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
 
     return ans;
 }
-```
+// ```

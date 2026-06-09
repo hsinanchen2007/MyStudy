@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/ec6e375ac4bea9a6615e4efd597336e7c8f1ab9f357af4bd606b5bc84cdf825c-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/ec6e375ac4bea9a6615e4efd597336e7c8f1ab9f357af4bd606b5bc84cdf825c-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /* 机器人的运动范围 */
 int getNumSum(int x)
 {
@@ -58,4 +58,4 @@ int movingCount(int m, int n, int k)
 
     return g_ans;
 }
-```
+// ```

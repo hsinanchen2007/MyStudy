@@ -1,4 +1,4 @@
-```c
+// ```c
 static inline int getPawn(const int i, const int j, char** board, int row, int col) {
     int l, k;
     int cnt = 0;
@@ -63,4 +63,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     return ret;
 }
 
-```
+// ```

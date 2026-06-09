@@ -1,4 +1,4 @@
-```java []
+// ```java []
 class Solution {
     public int mctFromLeafValues(int[] arr) {
         int res = 0;
@@ -17,4 +17,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

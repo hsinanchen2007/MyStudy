@@ -1,10 +1,10 @@
-### 解题思路
-就是按照题目来，思路没什么，不过对内存错误进行了判断和处理
-![image.png](https://pic.leetcode-cn.com/1ca366434de299206f397bdd1b397488bdf9d6302b911713ab61fa27c69d8ce8-image.png)
+// ### 解题思路
+// 就是按照题目来，思路没什么，不过对内存错误进行了判断和处理
+// ![image.png](https://pic.leetcode-cn.com/1ca366434de299206f397bdd1b397488bdf9d6302b911713ab61fa27c69d8ce8-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -144,4 +144,4 @@ int** diagonalSort(int** mat, int matSize, int* matColSize, int* returnSize, int
 	*returnColumnSizes = r.rltColumnSizes;
 	return r.rlt;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def CheckPermutation(self, s1: str, s2: str) -> bool:
         d = {}
@@ -19,4 +19,4 @@ class Solution:
             if d[i]!=0:
                 return False
         return True
-```
+# ```

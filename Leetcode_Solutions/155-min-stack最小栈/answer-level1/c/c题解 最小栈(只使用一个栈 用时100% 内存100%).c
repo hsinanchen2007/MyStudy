@@ -1,11 +1,11 @@
-下面是我有一次的运行结果
-```
+// 下面是我有一次的运行结果
+// ```
 执行用时 :28 ms, 在所有 C 提交中击败了100.00%的用户
 内存消耗 :13.8 MB, 在所有 C 提交中击败了100.00%的用户
-```
-![test.jpg](https://pic.leetcode-cn.com/12cd37850797f4c368af93c35453b71fc1242e5f7ebf669b82269fee4aab6c85-test.jpg)
-### 思路：每一次执行push操作时，进行两次入栈，第一次入栈此元素，第二次入栈此时栈中最小的元素；执行pop操作与之相对
-```c
+// ```
+// ![test.jpg](https://pic.leetcode-cn.com/12cd37850797f4c368af93c35453b71fc1242e5f7ebf669b82269fee4aab6c85-test.jpg)
+// ### 思路：每一次执行push操作时，进行两次入栈，第一次入栈此元素，第二次入栈此时栈中最小的元素；执行pop操作与之相对
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #define MAXSIZE 1600
@@ -87,9 +87,9 @@ void minStackFree(MinStack* obj) {
  
  * minStackFree(obj);
 */
-```
-### 一般方法：找最小值时遍历一遍，时间复杂度O[n]
-```c
+// ```
+// ### 一般方法：找最小值时遍历一遍，时间复杂度O[n]
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #define MAXSIZE 800
@@ -167,5 +167,5 @@ void minStackFree(MinStack* obj) {
  
  * minStackFree(obj);
 */
-```
+// ```
 

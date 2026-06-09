@@ -1,4 +1,4 @@
-```
+# ```
 
 # 深度优先搜索
 def averageOfLevels(self, root):
@@ -54,4 +54,4 @@ def averageOfLevels(self, root):
         ans.append(sum_/count_)
 
     return ans
-```
+# ```

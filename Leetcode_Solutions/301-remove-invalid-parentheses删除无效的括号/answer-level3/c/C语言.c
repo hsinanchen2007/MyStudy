@@ -1,9 +1,9 @@
-### 解题思路
-DFS
+// ### 解题思路
+// DFS
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 void GetInvalidNum(char *s, int *left, int *right) {
     int leftNum = 0;
@@ -108,4 +108,4 @@ char ** removeInvalidParentheses(char * s, int* returnSize){
 
     return returnArry;
 }
-```
+// ```

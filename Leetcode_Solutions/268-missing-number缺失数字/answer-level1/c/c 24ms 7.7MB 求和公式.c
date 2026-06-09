@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -21,4 +21,4 @@ int missingNumber( int * nums , int numsSize ){
     return ( ( ( numsSize + 1 ) * numsSize ) / 2 ) - sum;
 
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 char* printBin(double num){
 
   if(num <= 0 || num >= 1) return "ERROR";
@@ -28,4 +28,4 @@ char* printBin(double num){
 
   return ret;
 }
-```
+// ```

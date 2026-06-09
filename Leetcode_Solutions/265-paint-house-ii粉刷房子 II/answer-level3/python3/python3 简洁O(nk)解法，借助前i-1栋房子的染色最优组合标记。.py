@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     ## cost[i][j] 表示 第i个房子染第j种颜色的最小付出代价（前i-1个房子选最优颜色组合）
     ## 时间复杂度为O（nk)

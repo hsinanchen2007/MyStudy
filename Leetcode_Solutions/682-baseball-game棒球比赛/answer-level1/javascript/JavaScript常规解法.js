@@ -1,7 +1,7 @@
-利用Array.prototype.shift和Array.prototype.push操作数组，最后归并输出结果
+// 利用Array.prototype.shift和Array.prototype.push操作数组，最后归并输出结果
 
 
-```JavaScript
+// ```JavaScript
 /**
  * @param {string[]} ops
  * @return {number}
@@ -20,4 +20,4 @@ var calPoints = function(ops) {
   }
   return result.reduce((total, currentValue) => total + currentValue, 0)
 };
-```
+// ```

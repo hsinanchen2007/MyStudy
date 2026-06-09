@@ -1,12 +1,12 @@
-当 `push` 的时候，将元素包装成 JavaScript 的 Object，同时记录 val（当前元素的值，以及 push 进这个元素后的最小值）。
-```
+// 当 `push` 的时候，将元素包装成 JavaScript 的 Object，同时记录 val（当前元素的值，以及 push 进这个元素后的最小值）。
+// ```
 {
     val : 1,
     min : 1
 }
-```
+// ```
 
-```jascript
+// ```jascript
 /**
  * initialize your data structure here.
  */
@@ -70,4 +70,4 @@ MinStack.prototype.getMin = function () {
  * var param_3 = obj.top()
  * var param_4 = obj.getMin()
  */
-```
+// ```

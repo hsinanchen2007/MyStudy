@@ -1,15 +1,15 @@
-### 解题思路
-1.n获取链表长度
-2.遍历n次，每次p结点定位到倒数第二个结点，q = p->next，q则定位到倒数第一个结点
-3.创建一个new结点，让new指向q，作为新链表的头结点
-4.new结点和head结点一样，都不能随意更改它，否则会丢失新链表。因此创建一个new_p结点，作为游标
-5.循环n-2次，其中第一次和最后一次需要特殊处理
-6.head = new 
-7.return head
+// ### 解题思路
+// 1.n获取链表长度
+// 2.遍历n次，每次p结点定位到倒数第二个结点，q = p->next，q则定位到倒数第一个结点
+// 3.创建一个new结点，让new指向q，作为新链表的头结点
+// 4.new结点和head结点一样，都不能随意更改它，否则会丢失新链表。因此创建一个new_p结点，作为游标
+// 5.循环n-2次，其中第一次和最后一次需要特殊处理
+// 6.head = new 
+// 7.return head
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -82,4 +82,4 @@ struct ListNode* reverseList(struct ListNode* head){
 }
 
 
-```
+// ```

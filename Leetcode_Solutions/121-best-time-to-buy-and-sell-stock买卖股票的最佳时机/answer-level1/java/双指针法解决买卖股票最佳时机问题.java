@@ -1,5 +1,5 @@
-感觉碰到这种求数组中差值、去重，双指针法比较好用
-```java
+// 感觉碰到这种求数组中差值、去重，双指针法比较好用
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         // 买入时机
@@ -20,4 +20,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

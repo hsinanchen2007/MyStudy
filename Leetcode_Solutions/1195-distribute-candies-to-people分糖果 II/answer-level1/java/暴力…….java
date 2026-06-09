@@ -1,9 +1,9 @@
-### 解题思路
-第一时间想到的暴力，但是觉得应该还有其他办法，然后发现等差数列实在复杂……先用暴力解决，然后再看一下等差数列到底怎么实现吧。
+// ### 解题思路
+// 第一时间想到的暴力，但是觉得应该还有其他办法，然后发现等差数列实在复杂……先用暴力解决，然后再看一下等差数列到底怎么实现吧。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] distributeCandies(int candies, int num_people) {
         int [] arr=new int[num_people];
@@ -22,4 +22,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

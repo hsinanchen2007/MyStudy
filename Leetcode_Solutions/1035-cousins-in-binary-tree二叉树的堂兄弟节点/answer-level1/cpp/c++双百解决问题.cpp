@@ -1,11 +1,11 @@
-### 解题思路
-两次搜索，每次搜索得出父节点以及节点深度。
-对比两次搜索的结果得出答案。
-![image.png](https://pic.leetcode-cn.com/adfd52ecd684adf86cd936bbcf7c5f9715402f848bef361ab319386aec326b7f-image.png)
+// ### 解题思路
+// 两次搜索，每次搜索得出父节点以及节点深度。
+// 对比两次搜索的结果得出答案。
+// ![image.png](https://pic.leetcode-cn.com/adfd52ecd684adf86cd936bbcf7c5f9715402f848bef361ab319386aec326b7f-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -55,4 +55,4 @@ public:
          return false;
     }
 };
-```
+// ```

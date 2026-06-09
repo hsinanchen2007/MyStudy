@@ -1,6 +1,6 @@
-因为是简单题，所以代码也没啥技术含量，纯粹是执行结果好看才放上来的
+// 因为是简单题，所以代码也没啥技术含量，纯粹是执行结果好看才放上来的
 
-```golang
+// ```golang
 func checkRecord(s string) bool {
     if len(s)<=1{
 		return true
@@ -21,4 +21,4 @@ func checkRecord(s string) bool {
 	}
 	return true
 }
-```
+// ```

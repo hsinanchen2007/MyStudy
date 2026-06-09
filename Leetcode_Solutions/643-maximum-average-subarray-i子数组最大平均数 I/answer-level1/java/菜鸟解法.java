@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-注意最后的返回值应为double类型
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 注意最后的返回值应为double类型
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
         if(nums == null || nums.length < k)
@@ -23,4 +23,4 @@ class Solution {
 		return (double)t/k;
     }
 }
-```
+// ```

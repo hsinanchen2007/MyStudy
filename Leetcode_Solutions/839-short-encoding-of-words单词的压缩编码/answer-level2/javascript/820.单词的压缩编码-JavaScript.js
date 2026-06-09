@@ -1,9 +1,9 @@
-### 解题思路
-删除公共后缀原则，可以考虑使用字典树
+// ### 解题思路
+// 删除公共后缀原则，可以考虑使用字典树
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @return {number}
@@ -21,4 +21,4 @@ var minimumLengthEncoding = function(words) {
     return result
 
 };
-```
+// ```

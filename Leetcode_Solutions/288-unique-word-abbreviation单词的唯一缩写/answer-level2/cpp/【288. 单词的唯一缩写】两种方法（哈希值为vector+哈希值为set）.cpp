@@ -1,9 +1,9 @@
-## 思路一：哈希值为vector
-唯一两种情况：
-- 不在字典中
-- 在字典中但为单词本身
-### 代码
-```c++
+// ## 思路一：哈希值为vector
+// 唯一两种情况：
+// - 不在字典中
+// - 在字典中但为单词本身
+// ### 代码
+// ```c++
 class ValidWordAbbr {
     unordered_map<string, vector<string>> umap;
 public:
@@ -29,11 +29,11 @@ public:
         return true;
     }
 };
-```
+// ```
 
-## 思路二：哈希值为set
-### 代码
-```c++
+// ## 思路二：哈希值为set
+// ### 代码
+// ```c++
 class ValidWordAbbr {
     unordered_map<string, set<string>> umap;
 public:
@@ -57,5 +57,5 @@ public:
         return word[0] + to_string(size - 2) + word[size - 1];
     }
 };
-```
+// ```
 

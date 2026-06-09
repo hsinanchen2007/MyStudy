@@ -1,8 +1,8 @@
-解题思路用栈匹配括号，存下括号索引，对索引进行排序，计算最长连续的索引
+# 解题思路用栈匹配括号，存下括号索引，对索引进行排序，计算最长连续的索引
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestValidParentheses(self, s: str) -> int:
         count = 1
@@ -27,4 +27,4 @@ class Solution:
             else:
                 count = 1
         return max_count
-```
+# ```

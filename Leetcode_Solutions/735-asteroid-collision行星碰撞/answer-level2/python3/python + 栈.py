@@ -1,9 +1,9 @@
-### 解题思路
-用一个栈存下所有的正数和索引，越到负数就判断。
+# ### 解题思路
+# 用一个栈存下所有的正数和索引，越到负数就判断。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def asteroidCollision(self, asteroids: List[int]) -> List[int]:
         stack = []
@@ -28,4 +28,4 @@ class Solution:
             if res[i] == True:
                 ans.append(asteroids[i])
         return ans
-```
+# ```

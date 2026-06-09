@@ -1,9 +1,9 @@
-### 解题思路
-注释部分为大佬代码，下面为我自己修改后的代码
+// ### 解题思路
+// 注释部分为大佬代码，下面为我自己修改后的代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkPossibility(int[] nums) {
         //如果nums[i-1]<nums[i+1]:修改nums[i];如果nums[i-1]>nums[i+1]:修改nums[i+1]
@@ -49,4 +49,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

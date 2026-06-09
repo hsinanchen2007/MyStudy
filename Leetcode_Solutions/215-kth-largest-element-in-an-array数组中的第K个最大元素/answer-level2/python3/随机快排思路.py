@@ -1,9 +1,9 @@
-朴素的快速排序方法在原数组基本有序的情况下是O(n^2)，在最后几个测试用例上出问题。
-采用随机选取可尽力避免最糟情况。
+# 朴素的快速排序方法在原数组基本有序的情况下是O(n^2)，在最后几个测试用例上出问题。
+# 采用随机选取可尽力避免最糟情况。
 
-这一次提交的结果是72ms,13.6MB
+# 这一次提交的结果是72ms,13.6MB
 
-```
+# ```
 import random
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
@@ -33,4 +33,4 @@ class Solution:
         if k>len(R)+c:
             return self.findKthLargest(L,k-len(R)-c)
         return a
-```
+# ```

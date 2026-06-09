@@ -1,6 +1,6 @@
-解答一：
-直接双循环
-```
+// 解答一：
+// 直接双循环
+// ```
 func numJewelsInStones(J string, S string) int {
     count := 0
     for _, v := range J {
@@ -12,11 +12,11 @@ func numJewelsInStones(J string, S string) int {
     }
     return count
 }
-```
+// ```
 
-解答二：
-利用Map实现
-```
+// 解答二：
+// 利用Map实现
+// ```
 func numJewelsInStones(J string, S string) int {
     count := 0
     jmap := make(map[rune]int)
@@ -28,5 +28,5 @@ func numJewelsInStones(J string, S string) int {
             count++
         }
     }
-```
+// ```
 

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public String largestNumber(int[] nums) {
         String res = Arrays.stream(nums).mapToObj(String::valueOf).sorted((a, b) -> {
@@ -13,9 +13,9 @@ class Solution {
         return res.substring(i).length() == 0 ? "0" : res.substring(i);
     }
 }
-```
-如果不用判断0可以一行搞定
-```java
+// ```
+// 如果不用判断0可以一行搞定
+// ```java
 class Solution {
     public String largestNumber(int[] nums) {
         return Arrays.stream(nums).mapToObj(String::valueOf).sorted((a, b) -> {
@@ -25,4 +25,4 @@ class Solution {
         }).collect(Collectors.joining(""));
     }
 }
-```
+// ```

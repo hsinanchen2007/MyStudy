@@ -1,6 +1,6 @@
-执行用时 : 184 ms, 在所有 python 提交中击败了 99.29% 的用户
-内存消耗 : 13.8 MB, 在所有 python 提交中击败了 19.80% 的用户
-```
+# 执行用时 : 184 ms, 在所有 python 提交中击败了 99.29% 的用户
+# 内存消耗 : 13.8 MB, 在所有 python 提交中击败了 19.80% 的用户
+# ```
 class Solution(object):
     def nextGreaterElements(self, nums):
         """
@@ -33,4 +33,4 @@ class Solution(object):
                     j += 1
                 li -= 1
         return xl
-```
+# ```

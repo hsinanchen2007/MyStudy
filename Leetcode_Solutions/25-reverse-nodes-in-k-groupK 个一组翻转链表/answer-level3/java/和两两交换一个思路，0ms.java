@@ -1,9 +1,9 @@
-### 解题思路
-和两两交换一个思路,每次做翻转，最后如果不足K就再翻转一遍
+// ### 解题思路
+// 和两两交换一个思路,每次做翻转，最后如果不足K就再翻转一遍
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -42,4 +42,4 @@ class Solution {
 
     }
 }
-```
+// ```

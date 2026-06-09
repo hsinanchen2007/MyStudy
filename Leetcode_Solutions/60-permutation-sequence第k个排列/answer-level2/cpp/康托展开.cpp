@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     string getPermutation(int n, int k) {
@@ -37,4 +37,4 @@ public:
         return rst;
     }
 };
-```
+// ```

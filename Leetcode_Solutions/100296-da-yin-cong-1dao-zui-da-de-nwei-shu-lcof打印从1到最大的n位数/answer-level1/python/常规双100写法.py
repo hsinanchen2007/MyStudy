@@ -1,9 +1,9 @@
-### 解题思路
-创建一个空数组，在循环中不断添加数字，最后移除0即可
+# ### 解题思路
+# 创建一个空数组，在循环中不断添加数字，最后移除0即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def printNumbers(self, n):
         """
@@ -15,4 +15,4 @@ class Solution(object):
             self.a.append(i)#添加数字   
         self.a.remove(0)#移除数字0
         return self.a
-```
+# ```

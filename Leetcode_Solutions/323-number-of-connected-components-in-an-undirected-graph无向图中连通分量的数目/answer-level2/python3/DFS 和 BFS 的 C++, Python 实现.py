@@ -1,7 +1,7 @@
-## 解法一: DFS
+# ## 解法一: DFS
 
-**Python 实现:**
-```py
+# **Python 实现:**
+# ```py
 class Solution:
     def countComponents(self, n: int, edges: List[List[int]]) -> int:
         def dfs(graph, visited, node):
@@ -24,11 +24,11 @@ class Solution:
                 connected += 1
                 dfs(graph, visited, node)
         return connected
-```
+# ```
 
 
-**C++ 实现:**
-```cpp
+# **C++ 实现:**
+# ```cpp
 class Solution {
     void dfs(std::unordered_map<int, std::unordered_set<int>> &graph, std::vector<bool> &visited, int node) {
         for (auto &adj_node : graph[node]) {
@@ -59,12 +59,12 @@ public:
         return connect;
     }
 };
-```
+# ```
 
-## 解法二: BFS
+# ## 解法二: BFS
 
-**Python 实现:**
-```py
+# **Python 实现:**
+# ```py
 class Solution:
     def countComponents(self, n: int, edges: List[List[int]]) -> int:        
         graph = dict()
@@ -87,10 +87,10 @@ class Solution:
                             visited[adj_node] = True
                             graph_q.append(adj_node)
         return connected
-````
+# ````
 
-**C++ 实现:**
-```cpp
+# **C++ 实现:**
+# ```cpp
 class Solution {
 
 public:
@@ -125,4 +125,4 @@ public:
         return connected;
     }
 };
-```
+# ```

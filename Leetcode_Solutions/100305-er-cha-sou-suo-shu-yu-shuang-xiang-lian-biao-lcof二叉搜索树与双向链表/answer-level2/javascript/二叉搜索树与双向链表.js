@@ -1,9 +1,9 @@
-### 解题思路
-本题思路很简单，因为是二叉搜索树，所以左边的数都比右边的小，所以采用中序遍历，这里为了简单用bl表示。
+// ### 解题思路
+// 本题思路很简单，因为是二叉搜索树，所以左边的数都比右边的小，所以采用中序遍历，这里为了简单用bl表示。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val,left,right) {
@@ -45,4 +45,4 @@ var treeToDoublyList = function(root) {
     arr[0].left = arr[length-1]
     return arr[0];
 };
-```
+// ```

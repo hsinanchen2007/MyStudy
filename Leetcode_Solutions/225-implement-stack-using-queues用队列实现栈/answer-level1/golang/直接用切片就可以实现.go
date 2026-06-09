@@ -1,4 +1,4 @@
-```go
+// ```go
 type MyStack struct {
     list []int
 }
@@ -35,4 +35,4 @@ func (this *MyStack) Empty() bool {
     return len(this.list)==0
 }
 
-```
+// ```

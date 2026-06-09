@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         //哈希表一边写一边比较
@@ -23,4 +23,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

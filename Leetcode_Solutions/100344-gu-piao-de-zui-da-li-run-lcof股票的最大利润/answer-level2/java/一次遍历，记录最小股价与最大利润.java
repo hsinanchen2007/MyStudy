@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxProfit(int[] prices) {
         int len=prices.length;
@@ -18,9 +18,9 @@ class Solution {
         return maxall;
     }
 }
-```
-上面的看上去比较繁琐，改进后：
-```
+// ```
+// 上面的看上去比较繁琐，改进后：
+// ```
 class Solution {
     public int maxProfit(int[] prices) {
         int min=Integer.MAX_VALUE;//记录最小值
@@ -32,5 +32,5 @@ class Solution {
         return max;
     }
 }
-```
+// ```
 

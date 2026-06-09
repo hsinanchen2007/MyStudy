@@ -1,16 +1,16 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/28
- * 
- * 解题思路: 双指针 从数组的开头和末尾开始扫描 出现不一样字符进行模拟删除 
- *  删除i isHuiWen(s_arr,i+1,j)
- *  删除j isHuiWen(s_arr , i,j-1)
- *  然后判断剩余的是否为回文串 两种情况存在一种是回文串 则该字符串删除一个字符可以构成回文串
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/28
+//  * 
+//  * 解题思路: 双指针 从数组的开头和末尾开始扫描 出现不一样字符进行模拟删除 
+//  *  删除i isHuiWen(s_arr,i+1,j)
+//  *  删除j isHuiWen(s_arr , i,j-1)
+//  *  然后判断剩余的是否为回文串 两种情况存在一种是回文串 则该字符串删除一个字符可以构成回文串
+//  * 
+//  */
+// ```
 public boolean validPalindrome(String s) {
     char[] letter = new char[26];
 
@@ -34,4 +34,4 @@ public boolean isHuiWen(char[] s , int l , int r){
     }
     return true;
 }
-```
+// ```

@@ -1,16 +1,16 @@
-### 解题思路
-此处撰写解题思路
-思路：
-遍历nums2时，拿遍历到的当前元素nums2[i]和nums2[i]之前的元素进行比较，如果存在nums2[i]之前的元素比nums2[i]小，找到该元素在nums1中的下标，并放入输出数组中。
-实现：
-1、把nums1的每个元素放入哈希表中，供在nums2找到下一个较大值时查找到下标；
-2、遍历nums2时，维护一个栈，栈里存放当前还未找到较大值的nums2[i]，
-进栈原则：遍历到的当前元素nums2[i]也存在于nums1
-出栈原则：当前元素nums2[i]比栈里的元素大，把栈里比nums2[i]小的元素出栈，并找到出栈的数值对应在nums1中的下标，并在输出数组对应位置赋值为nums2[i]。
+// ### 解题思路
+// 此处撰写解题思路
+// 思路：
+// 遍历nums2时，拿遍历到的当前元素nums2[i]和nums2[i]之前的元素进行比较，如果存在nums2[i]之前的元素比nums2[i]小，找到该元素在nums1中的下标，并放入输出数组中。
+// 实现：
+// 1、把nums1的每个元素放入哈希表中，供在nums2找到下一个较大值时查找到下标；
+// 2、遍历nums2时，维护一个栈，栈里存放当前还未找到较大值的nums2[i]，
+// 进栈原则：遍历到的当前元素nums2[i]也存在于nums1
+// 出栈原则：当前元素nums2[i]比栈里的元素大，把栈里比nums2[i]小的元素出栈，并找到出栈的数值对应在nums1中的下标，并在输出数组对应位置赋值为nums2[i]。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -104,4 +104,4 @@ int* nextGreaterElement(int* nums1, int nums1Size, int* nums2, int nums2Size, in
     *returnSize = nums1Size;
     return output;
 }
-```
+// ```

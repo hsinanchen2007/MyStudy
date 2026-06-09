@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverse(self, x):
         """
@@ -27,5 +27,5 @@ class Solution(object):
             return int(rev_s)
         else:
             return 0
-```
-先将int转换为字符串，按有无符号分类讨论，再按末尾是否为0讨论
+# ```
+# 先将int转换为字符串，按有无符号分类讨论，再按末尾是否为0讨论

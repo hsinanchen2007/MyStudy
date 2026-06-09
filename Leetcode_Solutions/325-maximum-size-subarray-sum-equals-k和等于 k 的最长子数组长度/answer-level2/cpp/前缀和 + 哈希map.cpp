@@ -1,17 +1,17 @@
-计算所有的前缀和之后
+// 计算所有的前缀和之后
 
-我们从0-N遍历 前缀和
+// 我们从0-N遍历 前缀和
 
-到S(i)的时候，我找S(0)~S(i-1), 看下 S(i)-S(?) = k;
+// 到S(i)的时候，我找S(0)~S(i-1), 看下 S(i)-S(?) = k;
 
-然后（？到 i）的区间和 就是 k；
+// 然后（？到 i）的区间和 就是 k；
 
-如果用普通查找很慢，所以我们想快点，所以把S(0)~S(i-1)存在 hash map里边。这样只用在map中 找 S(?) = S(i)-k
-一下就找到了。
+// 如果用普通查找很慢，所以我们想快点，所以把S(0)~S(i-1)存在 hash map里边。这样只用在map中 找 S(?) = S(i)-k
+// 一下就找到了。
 
-![image.png](https://pic.leetcode-cn.com/bcf3283d9936d2ea77bec7e7a61943dc738e9047dbe102b7807e2345435572a9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/bcf3283d9936d2ea77bec7e7a61943dc738e9047dbe102b7807e2345435572a9-image.png)
 
-```
+// ```
 class Solution {
 public:
 	int maxSubArrayLen(vector<int>& nums, int k) {
@@ -48,4 +48,4 @@ public:
 		return maxlen;
 	}
 };
-```
+// ```

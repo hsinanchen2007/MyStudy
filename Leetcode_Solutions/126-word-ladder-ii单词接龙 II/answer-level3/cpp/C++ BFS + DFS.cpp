@@ -1,6 +1,6 @@
-先广度优先搜索找最短路径
-再深度优先找所有可能的路径
-```
+// 先广度优先搜索找最短路径
+// 再深度优先找所有可能的路径
+// ```
 class Solution {
 public:
     bool sim(const string& s1, const string& s2) {
@@ -65,6 +65,6 @@ public:
         return paths;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/cecbca03b989ca65cfc61dbc27080f3711a3cb06b3b88f6d0b8cf39f833abcae-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cecbca03b989ca65cfc61dbc27080f3711a3cb06b3b88f6d0b8cf39f833abcae-image.png)

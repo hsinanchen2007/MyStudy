@@ -1,5 +1,5 @@
-1. 通过上锁对线程进行同步即可。
-```
+// 1. 通过上锁对线程进行同步即可。
+// ```
 class Foo {
 public:
     Foo() {
@@ -31,4 +31,4 @@ private:
     pthread_mutex_t mutex2;
     pthread_mutex_t mutex3;
 };
-```
+// ```

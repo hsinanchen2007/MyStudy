@@ -1,33 +1,33 @@
-## 思路：
+# ## 思路：
 
-### 思路1：模拟过程
+# ### 思路1：模拟过程
 
-   Z字形，就是两种状态，一种垂直向下，还有一种斜向上
+#    Z字形，就是两种状态，一种垂直向下，还有一种斜向上
 
-   控制好边界情况就可以了。
+#    控制好边界情况就可以了。
 
-### 思路 2：找规律
-
-
-![1555486964093.png](https://pic.leetcode-cn.com/3599a29d7d248062b64676d35f807e781148ae4d5c3feab1ae8f49857245d970-1555486964093.png){:width=340}
-{:align=center}
+# ### 思路 2：找规律
 
 
-![Snipaste_2019-05-07_15-58-37.png](https://pic.leetcode-cn.com/b2763c8bea5b37787b062fcab8d973080ab7040c73e1c9dc63eb9a911459ce33-Snipaste_2019-05-07_15-58-37.png){:width=300}
-{:align=center}
+# ![1555486964093.png](https://pic.leetcode-cn.com/3599a29d7d248062b64676d35f807e781148ae4d5c3feab1ae8f49857245d970-1555486964093.png){:width=340}
+# {:align=center}
 
 
-如上图所示，我们发现规律：
-
-1. 每一个Z字的首字母差，`numRows*2-2` 位置
-2. 除去首尾两行，每个 Z 字有两个字母，索引号关系为，一个为 `i`，另一个为 `numsRows*2-2-i`
+# ![Snipaste_2019-05-07_15-58-37.png](https://pic.leetcode-cn.com/b2763c8bea5b37787b062fcab8d973080ab7040c73e1c9dc63eb9a911459ce33-Snipaste_2019-05-07_15-58-37.png){:width=300}
+# {:align=center}
 
 
-## 代码：
+# 如上图所示，我们发现规律：
 
-思路 1：
+# 1. 每一个Z字的首字母差，`numRows*2-2` 位置
+# 2. 除去首尾两行，每个 Z 字有两个字母，索引号关系为，一个为 `i`，另一个为 `numsRows*2-2-i`
 
-```Python []
+
+# ## 代码：
+
+# 思路 1：
+
+# ```Python []
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if not s:
@@ -46,11 +46,11 @@ class Solution:
                     s_Rows[j] += s[i]
                     i += 1
         return "".join(s_Rows)
-```
+# ```
 
-思路 2：
+# 思路 2：
 
-```Python []
+# ```Python []
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if not s:
@@ -74,8 +74,8 @@ class Solution:
                         if split_s_len -i  < len(tmp):
                             res += tmp[split_s_len-i]
         return res
-```
-```Java []
+# ```
+# ```Java []
 class Solution {
     public String convert(String s, int numRows) {
         //字符串转化成数组
@@ -98,5 +98,5 @@ class Solution {
         return sb[0]oString();
     }
 }
-```
+# ```
 

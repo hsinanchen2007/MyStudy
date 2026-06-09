@@ -1,6 +1,6 @@
-自底向上，从没有下属的员工一直找到总负责人headID，同时用dp[i]记录路径上所有点的结果，避免后续分支重复遍历。
+// 自底向上，从没有下属的员工一直找到总负责人headID，同时用dp[i]记录路径上所有点的结果，避免后续分支重复遍历。
 
-```c++
+// ```c++
 class Solution {
 public:
     int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
@@ -20,4 +20,4 @@ public:
         return dp[i];
     }
 };
-```
+// ```

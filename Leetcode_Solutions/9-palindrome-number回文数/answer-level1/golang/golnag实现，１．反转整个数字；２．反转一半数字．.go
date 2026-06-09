@@ -1,10 +1,10 @@
-golnag实现，１．反转整个数字；２．反转一半数字．
+// golnag实现，１．反转整个数字；２．反转一半数字．
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
-1.反转整个数字
+// 1.反转整个数字
 
-```go
+// ```go
 // 反转整个数字（反转过程中可能溢出）
 // 时间复杂度：O(log10(n))　　空间复杂度：O(1)
 
@@ -23,12 +23,12 @@ func isPalindrome(x int) bool {
 
 	return z==y
 }
-```
+// ```
 
 
-2.反转一半数字
+// 2.反转一半数字
 
-```
+// ```
 // 反转一半的数字
 // 时间复杂度：O(log10(n))　　空间复杂度：O(1)
 
@@ -46,5 +46,5 @@ func isPalindrome(x int) bool {
 
 	return x==y || x==y/10
 }
-```
+// ```
 

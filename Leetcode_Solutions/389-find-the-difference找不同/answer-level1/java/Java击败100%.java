@@ -1,9 +1,9 @@
-<br>
-<br>
-[简单粗暴，*So easy*🥴]
-<br>
-<br>
-```java
+// <br>
+// <br>
+// [简单粗暴，*So easy*🥴]
+// <br>
+// <br>
+// ```java
 class Solution {
     public char findTheDifference(String s, String t) {
         int[] table = new int[26];
@@ -22,4 +22,4 @@ class Solution {
         return '?';
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-仿powcai写的。主要在队列存储时存值与下标，取出时新建结点，这样就不用考虑自己写个比较函数的问题了。
-```
+// 仿powcai写的。主要在队列存储时存值与下标，取出时新建结点，这样就不用考虑自己写个比较函数的问题了。
+// ```
 class Solution {
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
@@ -26,10 +26,10 @@ public:
         
     }
 };
-```
+// ```
 
-再放个python分治
-```
+// 再放个python分治
+// ```
 class Solution:
     # 分治
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
@@ -60,4 +60,4 @@ class Solution:
             left = self.mergeKLists(lists[:len(lists)//2])  
             right = self.mergeKLists(lists[len(lists)//2:])  
             return self.mergeKLists([left,right])     
-```
+// ```

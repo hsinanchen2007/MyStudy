@@ -1,9 +1,9 @@
-### 解题思路
-特别注意：左右子树为空时跳过，当仅左节点为NULL时加上空()，仅右节点为NULL时不加()，继续遍历。
+// ### 解题思路
+// 特别注意：左右子树为空时跳过，当仅左节点为NULL时加上空()，仅右节点为NULL时不加()，继续遍历。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void preOrderDFS(TreeNode* root, string& s) {
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

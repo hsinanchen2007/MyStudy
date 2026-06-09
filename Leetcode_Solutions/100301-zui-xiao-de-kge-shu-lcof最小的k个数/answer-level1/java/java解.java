@@ -1,9 +1,9 @@
-### 解题思路
-排序取出
+// ### 解题思路
+// 排序取出
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] getLeastNumbers(int[] arr, int k) {
         Arrays.sort(arr);
@@ -14,4 +14,4 @@ class Solution {
         return ints;
     }
 }
-```
+// ```

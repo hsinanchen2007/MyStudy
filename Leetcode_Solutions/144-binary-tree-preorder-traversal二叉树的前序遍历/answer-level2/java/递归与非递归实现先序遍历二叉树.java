@@ -1,19 +1,19 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(n)
-2. 我的解题思路
-    2.1 利用API定义一个栈存储计算过程中的结点
-    2.2 首先将根节点加入到栈中
-    2.3 循环直到栈为空
-        2.3.1 移除栈顶结点并将它的值加入结果list中
-        2.3.2 如果2.3.1结点的右孩子不为空，将右孩子加入栈
-        2.3.3 如果2.3.1结点的左孩子不为空，将右左孩子加入栈
-3. 提交记录
-    3.1 力扣中耗时1ms,消耗34.9MB内存
-    3.2 leetcode中耗时1ms,消耗34.6MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(n)
+// 2. 我的解题思路
+//     2.1 利用API定义一个栈存储计算过程中的结点
+//     2.2 首先将根节点加入到栈中
+//     2.3 循环直到栈为空
+//         2.3.1 移除栈顶结点并将它的值加入结果list中
+//         2.3.2 如果2.3.1结点的右孩子不为空，将右孩子加入栈
+//         2.3.3 如果2.3.1结点的左孩子不为空，将右左孩子加入栈
+// 3. 提交记录
+//     3.1 力扣中耗时1ms,消耗34.9MB内存
+//     3.2 leetcode中耗时1ms,消耗34.6MB内存
+// 4. Q&A
 
-```
+// ```
 class Solution {
 
     /**
@@ -65,6 +65,6 @@ class Solution {
         preOrder(root.right);
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

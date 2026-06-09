@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class H2O {
 public:
     H2O() {
@@ -38,4 +38,4 @@ private:
     condition_variable cond_;
     mutex m_;
 };
-```
+// ```

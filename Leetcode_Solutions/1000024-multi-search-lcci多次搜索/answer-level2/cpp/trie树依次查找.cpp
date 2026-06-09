@@ -1,6 +1,6 @@
-对smalls数组建立trie树，提升查找效率。
+// 对smalls数组建立trie树，提升查找效率。
 
-```
+// ```
 struct TrieNode {
     int id = -1;
     TrieNode* next[26];
@@ -35,4 +35,4 @@ public:
         root->id = id;
     }
 };
-```
+// ```

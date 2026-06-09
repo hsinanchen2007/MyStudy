@@ -1,9 +1,9 @@
-### 解题思路
-自定义一个类MyList双向链表，同时维护MyList类型的头head和尾tail，这样可以做到push,pop,top等操作，那么怎么进行O(1)操作的取最小值呢？
-方法很简单，每一个MyList中定义一个min，表示到目前该节点为止，当前栈中的最小值。这样，取最小值操作只需要返回tail.prev.min，而每次push(x)只需多出一个操作，那就是存放Math.min(x,tail.prev.min)的值。
-### 代码
+// ### 解题思路
+// 自定义一个类MyList双向链表，同时维护MyList类型的头head和尾tail，这样可以做到push,pop,top等操作，那么怎么进行O(1)操作的取最小值呢？
+// 方法很简单，每一个MyList中定义一个min，表示到目前该节点为止，当前栈中的最小值。这样，取最小值操作只需要返回tail.prev.min，而每次push(x)只需多出一个操作，那就是存放Math.min(x,tail.prev.min)的值。
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
     final class MyList{
@@ -65,4 +65,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

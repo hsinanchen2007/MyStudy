@@ -1,9 +1,9 @@
-## 哈希表
-采用哈希表的方法思路直观，但是代码较长
-1.首先建立一个哈希表，保存每个结点的父节点，
-2.然后遍历p结点的父节点，保存到一个set()集合。
-3.遍历q结点的父节点，遇到的第一个相同的结点即为最近公共祖先。
-```python []
+# ## 哈希表
+# 采用哈希表的方法思路直观，但是代码较长
+# 1.首先建立一个哈希表，保存每个结点的父节点，
+# 2.然后遍历p结点的父节点，保存到一个set()集合。
+# 3.遍历q结点的父节点，遇到的第一个相同的结点即为最近公共祖先。
+# ```python []
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         dic = {root:None}
@@ -27,8 +27,8 @@ class Solution:
                 dic[node.right] = node
             self.dfs(node.left,dic)
             self.dfs(node.right,dic)
-```
-```C++ []
+# ```
+# ```C++ []
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -60,13 +60,13 @@ public:
     }
     
 };
-```
-## 递归思路
+# ```
+# ## 递归思路
 
-递归时分两种情况：
-1)p和q在一条分支上：最终会返回最上面的节点，即p在上返回p，q在上返回q。
-2)p和q不在同一分支时会有一条分支不断向上返回p，另一条分支不断向上返回q，当左右分支都不为空时，返回该节点，即为最近公共祖先。
-```python []
+# 递归时分两种情况：
+# 1)p和q在一条分支上：最终会返回最上面的节点，即p在上返回p，q在上返回q。
+# 2)p和q不在同一分支时会有一条分支不断向上返回p，另一条分支不断向上返回q，当左右分支都不为空时，返回该节点，即为最近公共祖先。
+# ```python []
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         if (root == None or root == p or root == q): return root
@@ -78,9 +78,9 @@ class Solution:
             return left
         else:
             return right
-```
+# ```
 
-```C++ []
+# ```C++ []
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -93,4 +93,4 @@ public:
         return left? left:right;
     }
 };
-```
+# ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public boolean checkValidString(String s) {
         Stack<Integer> left, star;
@@ -23,4 +23,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

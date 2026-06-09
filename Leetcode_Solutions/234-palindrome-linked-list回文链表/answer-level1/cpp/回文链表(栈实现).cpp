@@ -1,5 +1,5 @@
-把链表的值存入栈中，num为个数，然后循环num/2次，判断链表的值是否与栈的top相等。速度击败99.3%
-```
+// 把链表的值存入栈中，num为个数，然后循环num/2次，判断链表的值是否与栈的top相等。速度击败99.3%
+// ```
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
@@ -25,4 +25,4 @@ public:
         return true;
     }
 };
-```
+// ```

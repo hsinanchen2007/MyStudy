@@ -1,6 +1,6 @@
-![927676B8-655B-44AE-9274-EAE9194AF7FE.jpeg](https://pic.leetcode-cn.com/1631b74d6f4adf303b763d7fe69848fc582f9b48bac29deef4100d6eb15a02f9-927676B8-655B-44AE-9274-EAE9194AF7FE.jpeg)
+// ![927676B8-655B-44AE-9274-EAE9194AF7FE.jpeg](https://pic.leetcode-cn.com/1631b74d6f4adf303b763d7fe69848fc582f9b48bac29deef4100d6eb15a02f9-927676B8-655B-44AE-9274-EAE9194AF7FE.jpeg)
 
-```
+// ```
 typedef struct {
     int key;
     int cnt;
@@ -73,4 +73,4 @@ bool isHappy(int n)
 
     return ReturnVal(isHave);
 }
-```
+// ```

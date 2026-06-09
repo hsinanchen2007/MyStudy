@@ -1,10 +1,10 @@
-### 解题思路
-用贪心策略，每次从nums中取一个数字，从这一点尽可能向两端生长，生成一个连续序列, 再得到最大长度
-列表nums中每个数字只访问一次，所以算法复杂度是O(N)
+# ### 解题思路
+# 用贪心策略，每次从nums中取一个数字，从这一点尽可能向两端生长，生成一个连续序列, 再得到最大长度
+# 列表nums中每个数字只访问一次，所以算法复杂度是O(N)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestConsecutive(self, nums):
         """
@@ -28,5 +28,5 @@ class Solution(object):
             maxL = max(maxL, right-left + 1)
 
         return maxL
-```
+# ```
 

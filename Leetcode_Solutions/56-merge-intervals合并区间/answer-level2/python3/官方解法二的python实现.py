@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def merge(self, intervals):
         intervals.sort(key=lambda x: x[0])
@@ -9,4 +9,4 @@ class Solution:
             else:
                 merged[-1][-1] = max(merged[-1][-1], interval[-1])
         return merged
-```
+# ```

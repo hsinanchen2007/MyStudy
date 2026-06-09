@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ struct ListNode* removeElements(struct ListNode* head, int val){
            }
            return head;
     }
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/666012d3a71549502762bd4333a58bf4d1311f794079b6f77b968cd79156730b-image.png)
+# ![image.png](https://pic.leetcode-cn.com/666012d3a71549502762bd4333a58bf4d1311f794079b6f77b968cd79156730b-image.png)
 
-```python
+# ```python
 class Solution:
     def multiSearch(self, big, smalls):
         # build trie tree
@@ -23,4 +23,4 @@ class Solution:
                 if -1 in tree:
                     res[tree[-1]].append(i)
         return res
-```
+# ```

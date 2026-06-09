@@ -1,10 +1,10 @@
-### 解题思路
-我们看一下这个问题，当我们遍历到一个节点时，再判断这个节点能不能是BST中的一个节点，我们需要从子树中获得以下的信息:(1)左右子数的最大值和最小值(lmin,lmax,rmin,rmax) (2)当前节点的值与lmax和rmin的大小关系 (3)左右子树是否为有效的BST。。当左右子树均为有效的BST时，并且，lmax < root->val < rmin时，valid = true;count = lcount+right+1;
-不成立时，valid = false;count = max(lcount,rcount);再进一步更新min_val,max_val。。。最后，还需要处理下root==NULL的情况。
+// ### 解题思路
+// 我们看一下这个问题，当我们遍历到一个节点时，再判断这个节点能不能是BST中的一个节点，我们需要从子树中获得以下的信息:(1)左右子数的最大值和最小值(lmin,lmax,rmin,rmax) (2)当前节点的值与lmax和rmin的大小关系 (3)左右子树是否为有效的BST。。当左右子树均为有效的BST时，并且，lmax < root->val < rmin时，valid = true;count = lcount+right+1;
+// 不成立时，valid = false;count = max(lcount,rcount);再进一步更新min_val,max_val。。。最后，还需要处理下root==NULL的情况。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -55,4 +55,4 @@ public:
         return count;
     }
 };
-```
+// ```

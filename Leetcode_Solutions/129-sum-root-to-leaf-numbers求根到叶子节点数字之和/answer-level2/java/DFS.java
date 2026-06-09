@@ -1,16 +1,16 @@
-## 思路:
+// ## 思路:
 
-没什么好说的, DFS遍历
+// 没什么好说的, DFS遍历
 
-只不过遍历时候可以记录成字符串(`Python` 写)
+// 只不过遍历时候可以记录成字符串(`Python` 写)
 
-也可以`a * 10 + b `(`Java` 写)
+// 也可以`a * 10 + b `(`Java` 写)
 
-都是一样的
+// 都是一样的
 
-## 代码:
+// ## 代码:
 
-```python [1]
+// ```python [1]
 def sumNumbers(self, root: TreeNode) -> int:
         self.res = 0
         def helper(root, tmp):
@@ -22,10 +22,10 @@ def sumNumbers(self, root: TreeNode) -> int:
             helper(root.right, tmp + str(root.val))
         helper(root, "")
         return self.res
-```
+// ```
 
 
-```java [1]
+// ```java [1]
 class Solution {
     int res = 0;
 
@@ -42,5 +42,5 @@ class Solution {
         helper(root.right, tmp * 10 + root.val);
     }
 }
-```
+// ```
 

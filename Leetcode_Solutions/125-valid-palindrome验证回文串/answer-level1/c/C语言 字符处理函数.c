@@ -1,9 +1,9 @@
-### 解题思路
-使用字符处理函数
+// ### 解题思路
+// 使用字符处理函数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(char * s){
     int i = 0;
     int len = strlen(s);
@@ -26,4 +26,4 @@ bool isPalindrome(char * s){
     }
     return true;
 }
-```
+// ```

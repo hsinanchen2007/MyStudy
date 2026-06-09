@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-维护一个visited记录是否访问过坐标(i,j)
-从每一个新的(i,j)出发 进入queue 
-cur作为从(i,j)出相连的岛的点数
-首先初始化为0 ，当遇到新的点并且坐标值为1时cur+=1
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 维护一个visited记录是否访问过坐标(i,j)
+# 从每一个新的(i,j)出发 进入queue 
+# cur作为从(i,j)出相连的岛的点数
+# 首先初始化为0 ，当遇到新的点并且坐标值为1时cur+=1
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid):
         from collections import deque
@@ -38,4 +38,4 @@ class Solution:
             return True
         return False
 
-```
+# ```

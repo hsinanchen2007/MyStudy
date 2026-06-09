@@ -1,9 +1,9 @@
-树的题目，我们肯定要用树的方法解
+// 树的题目，我们肯定要用树的方法解
 
-第一遍dfs：计算root的总数，和所有节点对应的子节点树和本身的和
+// 第一遍dfs：计算root的总数，和所有节点对应的子节点树和本身的和
 
-第二遍dfs：通过root再依次计算其他节点的路径
-```
+// 第二遍dfs：通过root再依次计算其他节点的路径
+// ```
 func sumOfDistancesInTree(N int, edges [][]int) []int {
 	count := make([]int, N)
 	sum := make([]int, N)
@@ -41,4 +41,4 @@ func dfsAll(now, root int, count, sum []int, m map[int][]int, N int) {
 	}
 }
 
-```
+// ```

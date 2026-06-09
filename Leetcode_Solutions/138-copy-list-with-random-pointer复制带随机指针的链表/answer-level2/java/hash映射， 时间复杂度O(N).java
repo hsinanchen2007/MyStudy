@@ -1,6 +1,6 @@
-![新建 Microsoft Visio Drawing.jpg](https://pic.leetcode-cn.com/c1072e59ac3f7c3abb51afc1d634940b4852fe9dcc8b2e0e65be47bb81701b75-%E6%96%B0%E5%BB%BA%20Microsoft%20Visio%20Drawing.jpg)
+// ![新建 Microsoft Visio Drawing.jpg](https://pic.leetcode-cn.com/c1072e59ac3f7c3abb51afc1d634940b4852fe9dcc8b2e0e65be47bb81701b75-%E6%96%B0%E5%BB%BA%20Microsoft%20Visio%20Drawing.jpg)
 
-```
+// ```
 class Solution {
     public Node copyRandomList(Node head) {
         Node h = new Node(); 
@@ -27,4 +27,4 @@ class Solution {
         return h.next;
     }
 }
-```
+// ```

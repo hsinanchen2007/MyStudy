@@ -1,6 +1,6 @@
-[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_58_lengthOfLastWord.java)
+// [Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_58_lengthOfLastWord.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 从s的最后一个开始遍历，遇到首个非空的字母开始计数到下一个为空的时候停止
@@ -24,4 +24,4 @@
         }
         return startIndex - endIndex;
     }
-```
+// ```

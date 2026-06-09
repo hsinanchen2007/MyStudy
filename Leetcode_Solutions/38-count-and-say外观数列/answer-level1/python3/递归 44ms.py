@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countAndSay(self, n: int) -> str:
         """思路：每一项的结果都是根据上一项的结果而来"""
@@ -30,4 +30,4 @@ class Solution:
 
             res = temp
         return res
-```
+# ```

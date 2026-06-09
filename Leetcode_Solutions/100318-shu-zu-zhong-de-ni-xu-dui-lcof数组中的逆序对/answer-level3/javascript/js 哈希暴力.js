@@ -1,5 +1,5 @@
-想不出其他思路了。。。
-```js
+// 想不出其他思路了。。。
+// ```js
 /**
  * @param {number[]} nums
  * @return {number}
@@ -29,4 +29,4 @@ var reversePairs = function(nums) {
     }
     return res;
 };
-```
+// ```

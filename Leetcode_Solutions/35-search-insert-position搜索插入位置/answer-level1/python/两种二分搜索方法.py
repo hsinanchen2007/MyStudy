@@ -1,23 +1,23 @@
 
-## 思路：
+# ## 思路：
 
-二分法
+# 二分法
 
-思路 1：二分法进行时判断
+# 思路 1：二分法进行时判断
 
-思路 2：二分法执行完毕判断
+# 思路 2：二分法执行完毕判断
 
-这里有个小技巧：
+# 这里有个小技巧：
 
-left <= right，循环内输出
+# left <= right，循环内输出
 
-left < right， 循环外输出
+# left < right， 循环外输出
 
-## 代码：
+# ## 代码：
 
-### 思路 1
+# ### 思路 1
 
-```Python []
+# ```Python []
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         left = 0
@@ -30,8 +30,8 @@ class Solution:
             else:
                 right = mid - 1
         return left
-```
-```Java []
+# ```
+# ```Java []
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int left = 0;
@@ -46,11 +46,11 @@ class Solution {
         
     }
 }
-```
+# ```
 
-### 思路 2
+# ### 思路 2
 
-```Python []
+# ```Python []
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         left = 0
@@ -62,8 +62,8 @@ class Solution:
             else:
                 right = mid
         return left
-```
-```Java []
+# ```
+# ```Java []
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int left = 0;
@@ -77,7 +77,7 @@ class Solution {
         
     }
 }
-```
+# ```
 
 
 

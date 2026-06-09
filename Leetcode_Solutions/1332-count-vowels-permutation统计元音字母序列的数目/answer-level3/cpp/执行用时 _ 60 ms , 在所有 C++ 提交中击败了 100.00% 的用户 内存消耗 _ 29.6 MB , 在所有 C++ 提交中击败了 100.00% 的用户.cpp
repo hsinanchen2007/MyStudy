@@ -1,4 +1,4 @@
-```
+// ```
 执行用时 :
 class Solution {
 public:
@@ -25,5 +25,5 @@ public:
 		return sum;
 	}
 };
-```
-tips:一定要注意数据的范围！！
+// ```
+// tips:一定要注意数据的范围！！

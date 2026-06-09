@@ -1,9 +1,9 @@
-### 解题思路
-参考上一题的双指针法
+// ### 解题思路
+// 参考上一题的双指针法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int threeSumClosest(int[] nums,int x) {
         Arrays.sort(nums); // 排序
@@ -42,4 +42,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

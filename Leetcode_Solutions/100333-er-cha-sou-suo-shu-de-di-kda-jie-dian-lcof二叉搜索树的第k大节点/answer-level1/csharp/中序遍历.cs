@@ -1,9 +1,9 @@
-### 解题思路
-由于二叉搜索树的中序遍历是有序的，所有先通过中序遍历得到有序的数组，然后再取出第K大的元素。
+// ### 解题思路
+// 由于二叉搜索树的中序遍历是有序的，所有先通过中序遍历得到有序的数组，然后再取出第K大的元素。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -35,4 +35,4 @@ public class Solution {
         Helper(root.right, list);
     }
 }
-```
+// ```

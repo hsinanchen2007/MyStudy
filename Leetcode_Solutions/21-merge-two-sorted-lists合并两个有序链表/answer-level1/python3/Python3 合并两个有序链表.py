@@ -1,5 +1,5 @@
-时间复杂度O(2n) 空间复杂度O(1)
-```
+# 时间复杂度O(2n) 空间复杂度O(1)
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
         elif l2 != None:
             reshead.next = l2
         return result.next
-```
+# ```

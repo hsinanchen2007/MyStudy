@@ -1,9 +1,9 @@
-### 解题思路
-设置i索引从0开始，将j索引指向的非val数值放进nums[i], 直到j遍历结束。
+// ### 解题思路
+// 设置i索引从0开始，将j索引指向的非val数值放进nums[i], 直到j遍历结束。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
 
@@ -16,4 +16,4 @@ class Solution {
         return i;
     }
 }
-```
+// ```

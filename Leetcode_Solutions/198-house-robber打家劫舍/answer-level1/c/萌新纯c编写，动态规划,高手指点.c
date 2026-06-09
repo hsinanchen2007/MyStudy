@@ -1,15 +1,15 @@
-### 解题思路
-动态数据规划a[0]=nums[0];a[1]=nums[1];a[2]=nums[0]+nums[2]
-状态转移方程
-numsSize=0; maxsum=0;
-numsSize=1;maxsum=nums[0];
-numsSize=2;maxsum=MAX(nums[0],nums[1]);
-numsSize=3;maxsum=MAX(nums[0]+nums[2],nums[1]);
-numsSize>=4;maxsum=MAX(nums[i]+a[i-2],nums[i]+a[i-3]);
+// ### 解题思路
+// 动态数据规划a[0]=nums[0];a[1]=nums[1];a[2]=nums[0]+nums[2]
+// 状态转移方程
+// numsSize=0; maxsum=0;
+// numsSize=1;maxsum=nums[0];
+// numsSize=2;maxsum=MAX(nums[0],nums[1]);
+// numsSize=3;maxsum=MAX(nums[0]+nums[2],nums[1]);
+// numsSize>=4;maxsum=MAX(nums[i]+a[i-2],nums[i]+a[i-3]);
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a,b)  (a>b?a:b)
 int rob(int* nums, int numsSize)
 {
@@ -33,4 +33,4 @@ while(i<numsSize)
     }
 return maxsum;
 }
-```
+// ```

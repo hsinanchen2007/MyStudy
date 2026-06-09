@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_4_domino.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/LCP/_4_domino.java)
 
-```java
+// ```java
     int ret = 0; //摆放计数
     int max = 0; //最大值计数
 
@@ -83,4 +83,4 @@
             dfs(map, row, col + 2);
         }
     }
-```
+// ```

@@ -1,6 +1,6 @@
-BFS，每次都去找数组中和当前元素只差一位的元素，找到后，如果这个元素被标记过，那么不用做任何处理，没有标记过，则标记即可，如果元素等于end，那么直接返回当前标记值
+// BFS，每次都去找数组中和当前元素只差一位的元素，找到后，如果这个元素被标记过，那么不用做任何处理，没有标记过，则标记即可，如果元素等于end，那么直接返回当前标记值
 
-```golang
+// ```golang
 func minMutation(start string, end string, bank []string) int {
 	used:=make([]int,len(bank))
 	stack:=[]string{start}
@@ -34,4 +34,4 @@ func minMutation(start string, end string, bank []string) int {
 	}
 	return -1
 }
-```
+// ```

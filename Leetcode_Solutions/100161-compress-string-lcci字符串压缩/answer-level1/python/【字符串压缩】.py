@@ -1,5 +1,5 @@
-通过itertools模块中的groupby函数，把迭代器中相邻的重复元素挑出来放在一起
-```python3
+# 通过itertools模块中的groupby函数，把迭代器中相邻的重复元素挑出来放在一起
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         #if len(S) <= 2:
@@ -10,4 +10,4 @@ class Solution:
         for c, v in itertools.groupby(S):
             s += ''.join(c + str(len([*v])))
         return len(s) < len(S) and s or S
-```
+# ```

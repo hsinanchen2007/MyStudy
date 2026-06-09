@@ -1,9 +1,9 @@
-### 解题思路
-n以内的数字求和（包括n），减去数组内所有数字求和就是缺失的数字。
+// ### 解题思路
+// n以内的数字求和（包括n），减去数组内所有数字求和就是缺失的数字。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func missingNumber(nums []int) int {
     res := 0
     for i, num := range nums{
@@ -11,4 +11,4 @@ func missingNumber(nums []int) int {
     }
     return res
 }
-```
+// ```

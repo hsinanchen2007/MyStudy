@@ -1,12 +1,12 @@
-### 解题思路
-设s为源字符串去除掉前后的空格。那么：
-从后往前遍历：
-如果s[i]!=' '&&s[i-1]==' '，说明s.substring(i,end)必须加入答案字符串
-end的定义：如果s[i]==' '&&s[i-1]!=' '，说明end必须开始记为i，指新单词的开始。
+// ### 解题思路
+// 设s为源字符串去除掉前后的空格。那么：
+// 从后往前遍历：
+// 如果s[i]!=' '&&s[i-1]==' '，说明s.substring(i,end)必须加入答案字符串
+// end的定义：如果s[i]==' '&&s[i-1]!=' '，说明end必须开始记为i，指新单词的开始。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
         String source=s.trim();
@@ -30,4 +30,4 @@ class Solution {
         return ans.toString();
     }
 }
-```
+// ```

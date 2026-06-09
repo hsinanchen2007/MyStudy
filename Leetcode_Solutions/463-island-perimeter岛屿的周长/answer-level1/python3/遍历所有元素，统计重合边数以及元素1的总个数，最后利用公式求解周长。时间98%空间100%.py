@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def islandPerimeter(self, grid: List[List[int]]) -> int:
         r_sub = 0 #当前元素右侧元素为1时的累计重叠次数
@@ -17,4 +17,4 @@ class Solution:
             
         return 4*total_1 - 2*(r_sub + b_sub)  #周长计算公式（4*元素1的个数-2*重合的边数）
         
-```
+# ```

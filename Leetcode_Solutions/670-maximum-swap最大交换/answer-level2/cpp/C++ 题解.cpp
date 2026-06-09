@@ -1,9 +1,9 @@
-# 思路：
-1，先将数每一位拆成数组
-2，若数组为非升序序列，则直接返回原数即可
-3，否则，就找到数组中第一次出现升序的位置，从该位置往后找到最后一个最大值`max_val`及其下标`max_ind`
-4，从数组头开始找第一个比`max_val`小的数的下标`i`，交换`i`与`max_ind`位置的数即可
-```C++ []
+// # 思路：
+// 1，先将数每一位拆成数组
+// 2，若数组为非升序序列，则直接返回原数即可
+// 3，否则，就找到数组中第一次出现升序的位置，从该位置往后找到最后一个最大值`max_val`及其下标`max_ind`
+// 4，从数组头开始找第一个比`max_val`小的数的下标`i`，交换`i`与`max_ind`位置的数即可
+// ```C++ []
 class Solution {
 public:
     vector<int> digits(int n) {
@@ -43,6 +43,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/a3d7502c2d5ff321d1024dca836d5b51c7ea768fd64464986ec3e57984e8b245-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a3d7502c2d5ff321d1024dca836d5b51c7ea768fd64464986ec3e57984e8b245-image.png)

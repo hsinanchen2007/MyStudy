@@ -1,4 +1,4 @@
-c题解
+// c题解
 int numTimesAllBlue(int* light, int lightSize){
     // 记录当时的房间号最大值，以及次房间号之前所有开灯的数量
     int MaxRoomIdx, cnt, totalCnt;

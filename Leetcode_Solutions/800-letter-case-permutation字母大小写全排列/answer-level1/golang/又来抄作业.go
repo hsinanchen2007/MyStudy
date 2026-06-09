@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-仔细理解了，就觉得也没那么难了，，，
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 仔细理解了，就觉得也没那么难了，，，
+// ### 代码
 
-```golang
+// ```golang
 func letterCasePermutation(S string) []string {
 	res:=make([]string,0)
 	sRune:=[]rune(S)
@@ -27,4 +27,4 @@ func helpLetterCasePermutation(res *[]string,S []rune,index int)[]string{
 	}
 	return *res
 }
-```
+// ```

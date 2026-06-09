@@ -1,5 +1,5 @@
-C语言 从后往前遍历
-```
+// C语言 从后往前遍历
+// ```
 int lengthOfLastWord(char * s){
     int lenth=0;
     int count=0;
@@ -26,4 +26,4 @@ int lengthOfLastWord(char * s){
     }
     return count;
 }
-```
+// ```

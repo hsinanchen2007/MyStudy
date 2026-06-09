@@ -1,4 +1,4 @@
-看起来比较长 主要是想着能不新建数组就不建了
+// 看起来比较长 主要是想着能不新建数组就不建了
 class Solution {
     public int[] plusOne(int[] digits) {
         int length = digits.length-1;

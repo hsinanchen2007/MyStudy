@@ -1,9 +1,9 @@
-### 解题思路
-双指针一次遍历比较
+# ### 解题思路
+# 双指针一次遍历比较
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
@@ -24,4 +24,4 @@ class Solution:
                 nums1[i]=nums2[j]
                 j+=1
             i+=1
-```
+# ```

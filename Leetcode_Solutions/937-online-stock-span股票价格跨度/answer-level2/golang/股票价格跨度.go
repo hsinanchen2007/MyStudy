@@ -1,9 +1,9 @@
-### 解题思路
-使用单调递减栈维护日期和股票价格
+// ### 解题思路
+// 使用单调递减栈维护日期和股票价格
 
-### 代码
+// ### 代码
 
-```golang []
+// ```golang []
 type Price struct {
 	price int
 	date  int
@@ -36,8 +36,8 @@ func (ss *StockSpanner) Next(price int) int {
 
 	return res
 }
-```
-```java []
+// ```
+// ```java []
 class StockSpanner {
     private static class Price {
         int date;
@@ -69,4 +69,4 @@ class StockSpanner {
         return res;
     }
 }
-```
+// ```

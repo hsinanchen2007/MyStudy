@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hammingDistance(self, x: int, y: int) -> int:
         z = x^y
@@ -13,4 +13,4 @@ class Solution:
             if i&z !=0:
                 sum = sum + 1
         return sum
-```
+# ```

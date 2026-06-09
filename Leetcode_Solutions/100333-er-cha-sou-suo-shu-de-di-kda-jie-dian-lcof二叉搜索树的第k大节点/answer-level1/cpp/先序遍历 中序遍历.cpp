@@ -1,5 +1,5 @@
-先序，需要额外维持升序排列
-```
+// 先序，需要额外维持升序排列
+// ```
 class Solution {
 private:vector<int>list; // 从小到最大保存k个值
 public:
@@ -12,9 +12,9 @@ public:
         return list[0];
     }
 };
-```
-中序当然更适合啦，遍历完就是升序的，
-```
+// ```
+// 中序当然更适合啦，遍历完就是升序的，
+// ```
 class Solution {
 private:vector<int>list; 
 public:
@@ -30,9 +30,9 @@ public:
         if(root->right){ lnr(root->right); }
     }
 };
-```
-练练不用递归的写法
-```
+// ```
+// 练练不用递归的写法
+// ```
 class Solution {
 private:vector<int> res; 
 public:
@@ -58,4 +58,4 @@ public:
         }
     }
 };
-```
+// ```

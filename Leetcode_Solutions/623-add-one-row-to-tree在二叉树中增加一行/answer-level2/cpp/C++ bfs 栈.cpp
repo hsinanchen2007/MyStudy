@@ -1,9 +1,9 @@
-### 解题思路
-找到第 d - 1 的节点，修改指针。
+// ### 解题思路
+// 找到第 d - 1 的节点，修改指针。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 typedef pair<TreeNode*, int> P;
 
 class Solution {
@@ -43,4 +43,4 @@ public:
 		return root;
     }
 };
-```
+// ```

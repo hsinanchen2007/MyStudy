@@ -1,9 +1,9 @@
-### 解题思路
-一个队列来实现逻辑，一个大顶堆来记录最大值
+// ### 解题思路
+// 一个队列来实现逻辑，一个大顶堆来记录最大值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MaxQueue {
 
     Queue<Integer> queue;
@@ -51,4 +51,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

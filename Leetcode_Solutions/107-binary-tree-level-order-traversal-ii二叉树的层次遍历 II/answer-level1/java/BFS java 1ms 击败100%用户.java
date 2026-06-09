@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![图片.png](https://pic.leetcode-cn.com/8e8ba97f063794d12a02a78139237ca6c34799398c4e650b3fd2fca02896c5c6-%E5%9B%BE%E7%89%87.png)
-**其实就是从上往下层次遍历，然后用LinkedList头插入快特性**
+// ### 解题思路
+// 此处撰写解题思路
+// ![图片.png](https://pic.leetcode-cn.com/8e8ba97f063794d12a02a78139237ca6c34799398c4e650b3fd2fca02896c5c6-%E5%9B%BE%E7%89%87.png)
+// **其实就是从上往下层次遍历，然后用LinkedList头插入快特性**
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,4 +44,4 @@ class Solution {
         return lists;
     }
 }
-```
+// ```

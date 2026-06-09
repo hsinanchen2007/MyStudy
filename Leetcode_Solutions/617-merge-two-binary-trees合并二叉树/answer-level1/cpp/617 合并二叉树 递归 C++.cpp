@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/e110da56b94e5ee68b33dceb49869429e1bfca6aae3150dec0cd1cc0be1ca5ea-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/e110da56b94e5ee68b33dceb49869429e1bfca6aae3150dec0cd1cc0be1ca5ea-image.png)
 
-1.若t1空，返回t2
-2.左子树为二者左子树的合并，右子树为右子树的合并
-3.val为加和
+// 1.若t1空，返回t2
+// 2.左子树为二者左子树的合并，右子树为右子树的合并
+// 3.val为加和
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,4 +28,4 @@ public:
         return t1;
     }
 };
-```
+// ```

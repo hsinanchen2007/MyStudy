@@ -1,10 +1,10 @@
 
-解法是先对数组排序，对外层循环，注意去重，然后再用左右指针向中间收敛（还是要注意去重）去做two sum
+// 解法是先对数组排序，对外层循环，注意去重，然后再用左右指针向中间收敛（还是要注意去重）去做two sum
 
-时间复杂度 O(n^2)
-空间复杂度 O(1)
+// 时间复杂度 O(n^2)
+// 空间复杂度 O(1)
 
-```javascript
+// ```javascript
 var threeSum = function(nums) {
     nums.sort((num1, num2) => num1 - num2);
     let result = [];
@@ -27,6 +27,6 @@ var threeSum = function(nums) {
     }
     return result;
 };
-```
+// ```
 
 

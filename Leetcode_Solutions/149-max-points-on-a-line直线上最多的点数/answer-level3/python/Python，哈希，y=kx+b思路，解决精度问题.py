@@ -1,7 +1,7 @@
-很容易想到哈希，坐标相同的点加上点的index区分就是了。
+# 很容易想到哈希，坐标相同的点加上点的index区分就是了。
 
-python主要的问题是要处理好精度问题
-```python
+# python主要的问题是要处理好精度问题
+# ```python
     def maxPoints(self, points: list) -> int:
         if len(points) < 3:
             return len(points)
@@ -17,4 +17,4 @@ python主要的问题是要处理好精度问题
                 lines[(k, _k, b)] = lines.get((k, _k, b), set()) | {(x, y, i), (_x, _y, j)}  # 将结点加入该参数确定的直线
             p_visited.add((x, y, i))  # 加入访问过的列表
         return max(len(x) for x in lines.values())
-```
+# ```

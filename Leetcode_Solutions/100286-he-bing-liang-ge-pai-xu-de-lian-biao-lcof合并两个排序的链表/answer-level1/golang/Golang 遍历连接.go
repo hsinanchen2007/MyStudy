@@ -1,10 +1,10 @@
-### 解题思路
-8ms 4.1MB
-定义一个头指针和连接指针, 使用连接指针遍历连接两个链表, 并将剩余部分连接
+// ### 解题思路
+// 8ms 4.1MB
+// 定义一个头指针和连接指针, 使用连接指针遍历连接两个链表, 并将剩余部分连接
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -51,4 +51,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 
     return head
 }
-```
+// ```

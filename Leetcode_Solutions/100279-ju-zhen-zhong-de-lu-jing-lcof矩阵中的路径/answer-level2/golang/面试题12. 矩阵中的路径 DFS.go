@@ -1,21 +1,21 @@
-### 解题思路
-1. 创建一个和board尺寸一样的矩阵，全部是0， 用来做标记（标记已经走过的地方。
-2. 遍历board矩阵，碰到和字符串word第一个元素一样的元素就开始向四周深度遍历
+// ### 解题思路
+// 1. 创建一个和board尺寸一样的矩阵，全部是0， 用来做标记（标记已经走过的地方。
+// 2. 遍历board矩阵，碰到和字符串word第一个元素一样的元素就开始向四周深度遍历
 
-代码后面有一个篇幅略长的一段，是为了节省时间不然，单纯 
-`
-return inflect(board, indexMatrx, l+1, r, n+1, word) || inflect(board, indexMatrx, l-1, r, n+1, word) || inflect(board, indexMatrx, l, r+1, n+1, word) || inflect(board, indexMatrx, l, r+1, n+1, word)
-`
-时间会超
+// 代码后面有一个篇幅略长的一段，是为了节省时间不然，单纯 
+// `
+// return inflect(board, indexMatrx, l+1, r, n+1, word) || inflect(board, indexMatrx, l-1, r, n+1, word) || inflect(board, indexMatrx, l, r+1, n+1, word) || inflect(board, indexMatrx, l, r+1, n+1, word)
+// `
+// 时间会超
 
-### 优化（没实现代码）：
-1. 原来的代码是使用另外一个矩阵来做标记，这消耗了更多的空间，可以在原矩阵中进行改动做标记，比如遍历过的
-`A`就换成'0'(简单做个思路补充)
+// ### 优化（没实现代码）：
+// 1. 原来的代码是使用另外一个矩阵来做标记，这消耗了更多的空间，可以在原矩阵中进行改动做标记，比如遍历过的
+// `A`就换成'0'(简单做个思路补充)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func exist(board [][]byte, word string) bool {
     if len(board) == 0 || len(board[0]) == 0 {
         return false
@@ -77,4 +77,4 @@ func inflect(board [][]byte, indexMatrx [][]int, l, r, n int, word string) bool 
     indexMatrx[l][r]--
     return false
 }
-```
+// ```

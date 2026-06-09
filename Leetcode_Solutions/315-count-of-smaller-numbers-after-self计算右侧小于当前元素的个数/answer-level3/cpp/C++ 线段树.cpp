@@ -1,12 +1,12 @@
-## 思路 线段树
-时间复杂度：$O(N·LOG(N))$
-空间复杂度：$O(N)$
+// ## 思路 线段树
+// 时间复杂度：$O(N·LOG(N))$
+// 空间复杂度：$O(N)$
 
-## 代码
+// ## 代码
 
-### 递归+动态内存
+// ### 递归+动态内存
 
-```cpp
+// ```cpp
 class Node {
 public:
     Node *l, *r;
@@ -108,11 +108,11 @@ public:
         return ret;
     }
 };
-```
+// ```
 
-### 非递归+数组
+// ### 非递归+数组
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> countSmaller(vector<int>& nums) {
@@ -186,4 +186,4 @@ public:
         return ret;
     }
 };
-```
+// ```

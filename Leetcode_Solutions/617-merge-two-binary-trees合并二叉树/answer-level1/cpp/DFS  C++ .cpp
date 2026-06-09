@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     TreeNode* mergeTrees(TreeNode* t1, TreeNode* t2) {
@@ -26,5 +26,5 @@ public:
         dfs(right1, right2,  &((*root)->right));
     }
 }
-```
-// DFS递归调用，当时使用指针来修改值调了很久，指针用的太差了。
+// ```
+// // DFS递归调用，当时使用指针来修改值调了很久，指针用的太差了。

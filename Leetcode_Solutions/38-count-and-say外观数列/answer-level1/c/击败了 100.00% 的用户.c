@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * countAndSay(int n){
 const char *arr[] = {
 "",
@@ -39,4 +39,4 @@ const char *arr[] = {
 };
     return arr[n];
 }
-```
+// ```

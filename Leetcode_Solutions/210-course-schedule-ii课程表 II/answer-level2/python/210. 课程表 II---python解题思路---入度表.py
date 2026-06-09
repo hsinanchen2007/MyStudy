@@ -1,8 +1,8 @@
-## 方法1：入度表（广度优先搜索）
+# ## 方法1：入度表（广度优先搜索）
 
-这题是由[207. 课程表](https://leetcode-cn.com/problems/course-schedule/)这题找过来的，思路一样，多了个路径选择时的保存
+# 这题是由[207. 课程表](https://leetcode-cn.com/problems/course-schedule/)这题找过来的，思路一样，多了个路径选择时的保存
 
-```python
+# ```python
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         result = []
@@ -29,11 +29,11 @@ class Solution:
                 indegrees[cur] -= 1
                 if not indegrees[cur]: queue.append(cur)
         return [] if numCourses else result
-```
+# ```
 
-运行结果
+# 运行结果
 
-```
+# ```
 执行用时 :48 ms, 在所有 Python3 提交中击败了87.36% 的用户
 内存消耗 :14.5 MB, 在所有 Python3 提交中击败了34.12%的用户
 
@@ -42,8 +42,8 @@ class Solution:
 
 执行用时 :44 ms, 在所有 Python3 提交中击败了93.24% 的用户
 内存消耗 :14.5 MB, 在所有 Python3 提交中击败了34.12%的用户
-```
+# ```
 
-欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
+# 欢迎来github上看更多题目的解答[力扣解题思路](https://github.com/WRAllen/LeetCode)
 
   

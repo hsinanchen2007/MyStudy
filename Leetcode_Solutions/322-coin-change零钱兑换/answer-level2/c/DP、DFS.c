@@ -1,8 +1,8 @@
-### 解题思路
-- 非常经典的题目，两种做法，自顶向下，自底向上；
-- 两者相比较，动态规划好理解一些，不过仁者见仁智者见智
-- 值得注意的是，一维DP区间模型，套路写法
-```
+// ### 解题思路
+// - 非常经典的题目，两种做法，自顶向下，自底向上；
+// - 两者相比较，动态规划好理解一些，不过仁者见仁智者见智
+// - 值得注意的是，一维DP区间模型，套路写法
+// ```
 	for (k = 0; k < coinsSize; k++) {
 		if (amount < coins[k]) {
 			continue;
@@ -15,12 +15,12 @@
 	if (tmp == INT_MAX) {
 		return g_mem[amount] = -1;
 	}
-```
+// ```
 
 
-### 代码
-【自顶向下 - 递归】
-```c
+// ### 代码
+// 【自顶向下 - 递归】
+// ```c
 #include <limits.h>
 
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
@@ -65,9 +65,9 @@ int coinChange(int* coins, int coinsSize, int amount){
 	return ans;
 }
 
-```
-【自底向上 - 动态规划】
-```
+// ```
+// 【自底向上 - 动态规划】
+// ```
 #include <limits.h>
 
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
@@ -98,4 +98,4 @@ int coinChange(int* coins, int coinsSize, int amount){
 	free(dp);
 	return ans;
 }
-```
+// ```

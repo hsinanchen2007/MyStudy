@@ -1,9 +1,9 @@
-### 解题思路
-遍历四个边，对每个O 分别DFS；
+// ### 解题思路
+// 遍历四个边，对每个O 分别DFS；
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void solve(char[][] board) {
         int m = board.length;
@@ -49,4 +49,4 @@ class Solution {
         }
     }
 }
-```
+// ```

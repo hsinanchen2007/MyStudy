@@ -1,9 +1,9 @@
-### 解题思路
-Sort an Array
+// ### 解题思路
+// Sort an Array
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int partition(vector<int>& nums, int l, int r) {
@@ -33,4 +33,4 @@ public:
 };
 
 
-```
+// ```

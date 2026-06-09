@@ -1,8 +1,8 @@
 
-    两个变量可以求解，只有同属于一个根节点（属于同一集合）；
-    根据给定方程，建立树结构；
+//     两个变量可以求解，只有同属于一个根节点（属于同一集合）；
+//     根据给定方程，建立树结构；
 
-```
+// ```
 import javafx.util.Pair;
 class Solution {
     public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
@@ -79,4 +79,4 @@ class Solution {
         return new Pair<>(root, value);
     }
 }
-```
+// ```

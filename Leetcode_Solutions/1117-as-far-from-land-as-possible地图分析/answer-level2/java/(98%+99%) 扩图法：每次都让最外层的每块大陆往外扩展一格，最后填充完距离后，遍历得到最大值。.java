@@ -1,11 +1,11 @@
-## 扩图法：每次都让最外层的每块大陆往外扩展一格，最后填充完距离后，遍历得到最大值。
+// ## 扩图法：每次都让最外层的每块大陆往外扩展一格，最后填充完距离后，遍历得到最大值。
 
-![image.png](https://pic.leetcode-cn.com/138c4c944f00566e414d1761cda5f3873672023d5993d92ac33b6b4ade3f5c3b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/138c4c944f00566e414d1761cda5f3873672023d5993d92ac33b6b4ade3f5c3b-image.png)
 
 
-代码如下：
+// 代码如下：
 
-```
+// ```
 class Solution {
         //扩图法：每次都让每块大陆往外扩展一格，最后填充完距离后，得到最大值。
 
@@ -68,4 +68,4 @@ class Solution {
             return result - 1 == 0 ? -1 : result - 1;
         }
     }
-```
+// ```

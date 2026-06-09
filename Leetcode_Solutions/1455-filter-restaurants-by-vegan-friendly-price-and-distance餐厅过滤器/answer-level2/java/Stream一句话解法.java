@@ -1,5 +1,5 @@
-没有ide还是有点写不出来hahaha~
-```java
+// 没有ide还是有点写不出来hahaha~
+// ```java
 public List<Integer> filterRestaurants(int[][] restaurants, int veganFriendly, int maxPrice, int maxDistance) {
     return Stream.of(restaurants)
             .filter(r-> (veganFriendly==1?r[2]==veganFriendly:true) && r[4]<=maxDistance && r[3]<=maxPrice)
@@ -7,4 +7,4 @@ public List<Integer> filterRestaurants(int[][] restaurants, int veganFriendly, i
             .map(r->r[0])
             .collect(Collectors.toList());
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-先遍历一遍，统计链表长度，再遍历第二遍删除指定位置节点。
-![7e42873f2c76797a151eb8bc87469d0.png](https://pic.leetcode-cn.com/4eead0913a9c16ce505f766d55ca646c0db77dc0ae8d4d64ed4b09a31030b6fb-7e42873f2c76797a151eb8bc87469d0.png)
+// ### 解题思路
+// 先遍历一遍，统计链表长度，再遍历第二遍删除指定位置节点。
+// ![7e42873f2c76797a151eb8bc87469d0.png](https://pic.leetcode-cn.com/4eead0913a9c16ce505f766d55ca646c0db77dc0ae8d4d64ed4b09a31030b6fb-7e42873f2c76797a151eb8bc87469d0.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ public:
         return head;
     }
 };
-```
+// ```

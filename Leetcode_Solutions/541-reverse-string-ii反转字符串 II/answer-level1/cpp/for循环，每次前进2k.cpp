@@ -1,10 +1,10 @@
-### 解题思路
-每次前进2k，交换前k个字符。
+// ### 解题思路
+// 每次前进2k，交换前k个字符。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseStr(string s, int k) {
@@ -22,4 +22,4 @@ public:
         return s;
     }
 };
-```
+// ```

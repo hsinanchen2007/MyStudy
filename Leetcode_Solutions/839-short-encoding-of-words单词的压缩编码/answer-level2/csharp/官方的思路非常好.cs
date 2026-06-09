@@ -1,9 +1,9 @@
-### 解题思路
-就是看字符串有没有相同的结尾，用Substring可以非常好的解决问题
+// ### 解题思路
+// 就是看字符串有没有相同的结尾，用Substring可以非常好的解决问题
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MinimumLengthEncoding(string[] words) {
             HashSet<string> set = new HashSet<string>(words);
@@ -22,4 +22,4 @@ public class Solution {
             return res;
     }
 }
-```
+// ```

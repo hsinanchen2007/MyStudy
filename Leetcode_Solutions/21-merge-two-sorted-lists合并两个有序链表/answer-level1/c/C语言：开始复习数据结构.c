@@ -1,14 +1,14 @@
-`执行用时 :
-4 ms
-, 在所有 C 提交中击败了
-94.74%
-的用户`
-`内存消耗 :
-7.6 MB
-, 在所有 C 提交中击败了
-74.84%
-的用户`
-```
+// `执行用时 :
+// 4 ms
+// , 在所有 C 提交中击败了
+// 94.74%
+// 的用户`
+// `内存消耗 :
+// 7.6 MB
+// , 在所有 C 提交中击败了
+// 74.84%
+// 的用户`
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,4 +43,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     return p -> next;
 }
 
-```
+// ```

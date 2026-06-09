@@ -1,4 +1,4 @@
-```
+// ```
 public int[] subSort(int[] array) {
         int len = array.length;
         if (len < 2) {
@@ -35,4 +35,4 @@ public int[] subSort(int[] array) {
         res[1] = index;
         return res;
     }
-```
+// ```

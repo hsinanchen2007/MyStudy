@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/42e6ec740f7d5d25a81934633827cfdcb4f9ef302501c9e75b2d47142743ad25-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/42e6ec740f7d5d25a81934633827cfdcb4f9ef302501c9e75b2d47142743ad25-image.png)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import Counter
 class Solution(object):
     def countCharacters(self, words, chars):
@@ -35,4 +35,4 @@ class Solution(object):
 
 
                     
-```
+# ```

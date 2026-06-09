@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def removeDuplicates(self, nums):
         """
@@ -13,5 +13,5 @@ class Solution(object):
                 pos += 1
                 nums[pos] = nums[i]
         return pos + 1
-```
-记录当前不重复的数的位置（pos），遍历数组，每遇到一个不重复的数，就放到pos后面
+# ```
+# 记录当前不重复的数的位置（pos），遍历数组，每遇到一个不重复的数，就放到pos后面

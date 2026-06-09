@@ -1,12 +1,12 @@
-> 将两个链表合并并排序
+// > 将两个链表合并并排序
 
-思路：先连接，再选择排序  
-执行用时 :4 ms, 在所有 C 提交中击败了94.72%的用户  
-内存消耗 :7.4 MB, 在所有 C 提交中击败了84.02%的用户  
+// 思路：先连接，再选择排序  
+// 执行用时 :4 ms, 在所有 C 提交中击败了94.72%的用户  
+// 内存消耗 :7.4 MB, 在所有 C 提交中击败了84.02%的用户  
 
-用选择排序的话，效率应该不是很高，但是竟然通过了？！难以置信！  
+// 用选择排序的话，效率应该不是很高，但是竟然通过了？！难以置信！  
 
-```c
+// ```c
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     if(l1 == NULL)return l2;
     if(l2 == NULL)return l1;
@@ -33,12 +33,12 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     }
     return l1;
 }
-```
+// ```
 
-看了看题解，有同学这么做，不失为一种好方法： 
-思路：加了一个头节点，将l2中的节点和l1的节点比较，若l2的节点小于l1的节点，则将l2插在前面，l2换下一个节点，l1也换下一个节点。
+// 看了看题解，有同学这么做，不失为一种好方法： 
+// 思路：加了一个头节点，将l2中的节点和l1的节点比较，若l2的节点小于l1的节点，则将l2插在前面，l2换下一个节点，l1也换下一个节点。
 
-```c
+// ```c
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     if(l1 == NULL)return l2;
     if(l2 == NULL)return l1;
@@ -69,4 +69,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     }
     return head->next;
 }
-```
+// ```

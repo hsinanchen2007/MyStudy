@@ -1,7 +1,7 @@
-map1保存key到value的映射。
-map2保存 每一个不同的value 对应list结点的映射。
-list是双向链表，每一个结点表示具有相同value的所有key的集合，list结点按照value从大到小排序。
-```
+// map1保存key到value的映射。
+// map2保存 每一个不同的value 对应list结点的映射。
+// list是双向链表，每一个结点表示具有相同value的所有key的集合，list结点按照value从大到小排序。
+// ```
 struct Node
 {
     Node(int _val):val(_val){}
@@ -120,5 +120,5 @@ public:
  * string param_3 = obj->getMaxKey();
  * string param_4 = obj->getMinKey();
  */
-```
+// ```
 

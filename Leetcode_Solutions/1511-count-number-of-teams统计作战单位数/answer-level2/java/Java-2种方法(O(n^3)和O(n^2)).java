@@ -1,5 +1,5 @@
-# 代码
-```java [-O(n^2)]
+// # 代码
+// ```java [-O(n^2)]
 class Solution {
     public int numTeams(int[] rating) {
         int len = rating.length, res = 0;
@@ -18,8 +18,8 @@ class Solution {
         return res;
     }
 }
-```
-```java [-O(n^3)]
+// ```
+// ```java [-O(n^3)]
 class Solution {
     public int numTeams(int[] rating) {
         int len = rating.length, res = 0;
@@ -36,4 +36,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

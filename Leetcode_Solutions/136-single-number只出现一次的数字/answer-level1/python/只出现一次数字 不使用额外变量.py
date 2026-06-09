@@ -1,5 +1,5 @@
-只出现一次数字 不使用额外变量
-```
+# 只出现一次数字 不使用额外变量
+# ```
 class Solution(object):
     def singleNumber(self, nums):
         """
@@ -16,4 +16,4 @@ class Solution(object):
                 nums.pop(-2)
                 nums.pop(-2)
         return nums[0]
-```
+# ```

@@ -1,9 +1,9 @@
-golang实现，双指针切分区间
+// golang实现，双指针切分区间
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
 
-```
+// ```
 // 双指针切分区间,尝试将数组切分成 [0,i] (i,j) [j,len(A)-1]三部分
 // 时间复杂度：O(n)  空间复杂度：O(1)
 
@@ -41,4 +41,4 @@ func canThreePartsEqualSum(A []int) bool {
 	}
 	return false
 }
-```
+// ```

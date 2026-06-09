@@ -1,9 +1,9 @@
-### 解题思路
-两个指针，A,B，A指针走到N的时候，B指针开始走，这样A到头的时候，B就是倒数第N个，然后操作删除即可
+// ### 解题思路
+// 两个指针，A,B，A指针走到N的时候，B指针开始走，这样A到头的时候，B就是倒数第N个，然后操作删除即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -34,4 +34,4 @@ var removeNthFromEnd = function(head, n) {
 
   return dummy.next
 }
-```
+// ```

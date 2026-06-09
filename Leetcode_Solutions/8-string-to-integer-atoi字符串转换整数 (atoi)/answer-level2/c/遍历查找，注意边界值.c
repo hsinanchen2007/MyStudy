@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int myAtoi(char * str){
     int len = 0;
     int find = 0;
@@ -74,4 +74,4 @@ int myAtoi(char * str){
     }
     return ((find == 1) && (find != 0))? (0 - retNum) : retNum;
 }
-```
+// ```

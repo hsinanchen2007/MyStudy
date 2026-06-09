@@ -1,6 +1,6 @@
-不仅要考虑**输出时不溢出**，同时还要考虑**过程中任意时刻不溢出**。
+// 不仅要考虑**输出时不溢出**，同时还要考虑**过程中任意时刻不溢出**。
 
-```go
+// ```go
 func divide(dividend int, divisor int) (result int) {
     // 是否异号
     sign := dividend ^ divisor
@@ -54,4 +54,4 @@ func divide(dividend int, divisor int) (result int) {
 
 const maxInt = 1<<31 - 1
 const minInt = -1 << 31
-```
+// ```

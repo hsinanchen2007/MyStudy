@@ -1,8 +1,8 @@
-1:判断月份是否是1 2 月，这样不用判断闰年
-2:判断闰年把2月改成29日
-3:循环增加天数
+// 1:判断月份是否是1 2 月，这样不用判断闰年
+// 2:判断闰年把2月改成29日
+// 3:循环增加天数
 
-```
+// ```
 var dayOfYear = function(date) {
     let [year,month,day] = date.split('-').map(parseFloat);
     let arr = [0,31,28,31,30,31,30,31,31,30,31,30,31];
@@ -19,4 +19,4 @@ var dayOfYear = function(date) {
     }
     return res+day
 };
-```
+// ```

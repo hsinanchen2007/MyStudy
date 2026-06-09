@@ -1,7 +1,7 @@
-暂时没想到什么好的方法，坐等大神，这题出的也莫名其妙吧，只想到了遍历，一般暴力的遍历我都用Python做，因为... ...写着简单：
-全靠抖机灵减少判断条件，所以会快一点... ...
-![image.png](https://pic.leetcode-cn.com/acb42d2811b3516e46594de68ecb3df40aaef7ec3304f69ecd7d0ed9e1837255-image.png)
-```
+# 暂时没想到什么好的方法，坐等大神，这题出的也莫名其妙吧，只想到了遍历，一般暴力的遍历我都用Python做，因为... ...写着简单：
+# 全靠抖机灵减少判断条件，所以会快一点... ...
+# ![image.png](https://pic.leetcode-cn.com/acb42d2811b3516e46594de68ecb3df40aaef7ec3304f69ecd7d0ed9e1837255-image.png)
+# ```
 class Solution:
     def numMagicSquaresInside(self, grid: List[List[int]]) -> int:
         l = len(grid)
@@ -32,4 +32,4 @@ class Solution:
                                 if d == 10:
                                     sum = sum + 1 * flag
         return sum
-```
+# ```

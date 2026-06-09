@@ -1,4 +1,4 @@
-```
+// ```
 #include <Math.h>
 bool isPowerOfTwo(int n){
     if(n==1) return true;
@@ -11,4 +11,4 @@ bool isPowerOfTwo(int n){
     }
     return false;
 }
-```
+// ```

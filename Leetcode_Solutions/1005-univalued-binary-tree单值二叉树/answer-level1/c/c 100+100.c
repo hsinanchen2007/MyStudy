@@ -1,4 +1,4 @@
-```
+// ```
 bool isUnivalTree(struct TreeNode* root){
     if (root == NULL) {
         return true;
@@ -27,4 +27,4 @@ bool isUnivalTree(struct TreeNode* root){
         return true;
     }
 }
-```
+// ```

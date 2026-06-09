@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:    # 多源BFS搜索
         # 注意一： 这道题最好用BFS，因为BFS的深度刚好代表了距离
@@ -28,4 +28,4 @@ class Solution:
  
         return distance if distance > 0 else -1
 
-```
+# ```

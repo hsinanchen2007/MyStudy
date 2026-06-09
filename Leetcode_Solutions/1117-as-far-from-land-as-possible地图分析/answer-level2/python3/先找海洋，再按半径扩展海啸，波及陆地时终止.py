@@ -1,9 +1,9 @@
-### 解题思路
-先找海洋，再按半径扩展海啸，波及陆地时终止
+# ### 解题思路
+# 先找海洋，再按半径扩展海啸，波及陆地时终止
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -28,4 +28,4 @@ class Solution:
                         if flag:
                             break
         return acc
-```
+# ```

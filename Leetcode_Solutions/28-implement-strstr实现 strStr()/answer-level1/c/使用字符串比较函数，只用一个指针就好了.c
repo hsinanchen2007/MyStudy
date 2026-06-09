@@ -1,10 +1,10 @@
-### 解题思路
-i <= size - len；
-判断循环进行条件，注意size=len的时候
+// ### 解题思路
+// i <= size - len；
+// 判断循环进行条件，注意size=len的时候
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle){
     if(*needle == '\0') return 0;
     int len = strlen(needle);
@@ -18,4 +18,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

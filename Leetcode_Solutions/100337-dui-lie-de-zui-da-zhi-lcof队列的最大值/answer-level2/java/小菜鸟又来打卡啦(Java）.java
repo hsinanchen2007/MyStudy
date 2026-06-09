@@ -1,7 +1,7 @@
-# 队列的最大值
-# 思路
-定义两个队列，一个用来存储最大值，因为最大值队列涉及到从前面出队，从后面出队，所以用ArrayDeque中的方法
-```
+// # 队列的最大值
+// # 思路
+// 定义两个队列，一个用来存储最大值，因为最大值队列涉及到从前面出队，从后面出队，所以用ArrayDeque中的方法
+// ```
 class MaxQueue {
     Queue<Integer> queue;
     ArrayDeque<Integer> maxQueue;
@@ -42,6 +42,6 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
-- 时间复杂度：O(1),每次操作都是O(1)复杂度
-- 空间复杂度：O(n)，队列需要额外的空间
+// ```
+// - 时间复杂度：O(1),每次操作都是O(1)复杂度
+// - 空间复杂度：O(n)，队列需要额外的空间

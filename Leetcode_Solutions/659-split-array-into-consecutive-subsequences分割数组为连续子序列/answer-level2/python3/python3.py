@@ -1,12 +1,12 @@
-### 解题思路
-1.最关键是最小索引从哪里开始
-2.注意数组中不连续该怎么判断
-3.return false的条件（start+2）
-4.满足最小索引条件后还要满足结尾索引条件
+# ### 解题思路
+# 1.最关键是最小索引从哪里开始
+# 2.注意数组中不连续该怎么判断
+# 3.return false的条件（start+2）
+# 4.满足最小索引条件后还要满足结尾索引条件
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPossible(self, nums: List[int]) -> bool:
         """
@@ -32,4 +32,4 @@ class Solution:
             pre,precount=t,num   
         return all(nums[-1]>=x+2 for x in start)
 
-```
+# ```

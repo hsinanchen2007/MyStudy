@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历，找到需要合并的区间替换，没有交集的部分保留即可。
+// ### 解题思路
+// 一次遍历，找到需要合并的区间替换，没有交集的部分保留即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
@@ -34,4 +34,4 @@ public:
         return ret;
     }
 };
-```
+// ```

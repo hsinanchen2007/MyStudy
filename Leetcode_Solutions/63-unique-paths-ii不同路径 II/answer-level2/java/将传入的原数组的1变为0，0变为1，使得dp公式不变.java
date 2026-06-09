@@ -1,10 +1,10 @@
-### 解题思路
-公式： dp[i][j] = dp[i-1][j] + dp[i][j-1]
-1. 将传入的原数组的1变为0，0变为1；
-2. 第一行和第一列中，第一个障碍之后的格子都变为0（不可达）
-3. dp[i][j] = dp[i-1][j] + dp[i][j-1]
-### 代码
-```java
+// ### 解题思路
+// 公式： dp[i][j] = dp[i-1][j] + dp[i][j-1]
+// 1. 将传入的原数组的1变为0，0变为1；
+// 2. 第一行和第一列中，第一个障碍之后的格子都变为0（不可达）
+// 3. dp[i][j] = dp[i-1][j] + dp[i][j-1]
+// ### 代码
+// ```java
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         
@@ -52,4 +52,4 @@ class Solution {
         return obstacleGrid[m-1][n-1];
     }
 }
-```
+// ```

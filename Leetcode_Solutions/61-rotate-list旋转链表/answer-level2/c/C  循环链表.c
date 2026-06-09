@@ -1,10 +1,10 @@
-### 解题思路
-先遍历一遍把链表的尾和头连接起来做成一个循环链表并记录链表长度，之后再将尾向右移动len - k % len个位置后的地方即为要返回链表的头部，前面那个节点让它指向NULL
+// ### 解题思路
+// 先遍历一遍把链表的尾和头连接起来做成一个循环链表并记录链表长度，之后再将尾向右移动len - k % len个位置后的地方即为要返回链表的头部，前面那个节点让它指向NULL
 
-![image.png](https://pic.leetcode-cn.com/ea09ea6e1d092f423f380c5225088c91f8eab7c30c43e5e3e54681d30d910509-image.png)
-### 代码
+// ![image.png](https://pic.leetcode-cn.com/ea09ea6e1d092f423f380c5225088c91f8eab7c30c43e5e3e54681d30d910509-image.png)
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -42,4 +42,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k)
 }
 
 
-```
+// ```

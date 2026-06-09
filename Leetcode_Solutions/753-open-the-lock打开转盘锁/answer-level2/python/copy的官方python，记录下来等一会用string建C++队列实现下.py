@@ -1,17 +1,17 @@
-### 解题思路
-copy了官方题解的python版本
-但思路是一样的
-C++的队列存储string我不会，哭死
-- 将初始状态“0000”入队
-- 每次改变一位，一共产生8种状态，检测这8种状态是否处于deadends中，不处于才能加入
-- 用step记录深度，如果找到target深度即为最短路径
-- 如果队列为空时退出即没有找到target即为-1
-- 这道题中的deadends实际帮助了剪枝
-- 时BFS模板
+# ### 解题思路
+# copy了官方题解的python版本
+# 但思路是一样的
+# C++的队列存储string我不会，哭死
+# - 将初始状态“0000”入队
+# - 每次改变一位，一共产生8种状态，检测这8种状态是否处于deadends中，不处于才能加入
+# - 用step记录深度，如果找到target深度即为最短路径
+# - 如果队列为空时退出即没有找到target即为-1
+# - 这道题中的deadends实际帮助了剪枝
+# - 时BFS模板
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def openLock(self, deadends, target):
         def neighbors(node):
@@ -33,4 +33,4 @@ class Solution(object):
                     seen.add(nei)
                     queue.append((nei, depth+1))
         return -1
-```
+# ```

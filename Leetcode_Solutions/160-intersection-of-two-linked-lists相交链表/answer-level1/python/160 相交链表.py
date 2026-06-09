@@ -1,9 +1,9 @@
-### 解题思路
-通过set来找到相交位置。
+# ### 解题思路
+# 通过set来找到相交位置。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -48,15 +48,15 @@ class Solution(object):
         
         return None
 
-```
+# ```
 
 
-### 解题思路
-然后我们定义两个指针，一个从a链表头出发，一个从b链表头出发，因为是环形的，最终两个链表会相遇，而相遇的节点就是相交的节点。
+# ### 解题思路
+# 然后我们定义两个指针，一个从a链表头出发，一个从b链表头出发，因为是环形的，最终两个链表会相遇，而相遇的节点就是相交的节点。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
 	def getIntersectionNode(self, headA, headB):
 		"""
@@ -73,4 +73,4 @@ class Solution(object):
 			b = b.next if b else headA
 		return a
 
-```
+# ```

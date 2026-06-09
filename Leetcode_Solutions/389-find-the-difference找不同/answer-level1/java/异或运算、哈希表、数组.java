@@ -1,11 +1,11 @@
-### 解题思路
-![2019122301.PNG](https://pic.leetcode-cn.com/0c7b54faff666b71b3b8d6086608977daaab9b7d48728d2d681a3dc4c7b63913-2019122301.PNG)
+// ### 解题思路
+// ![2019122301.PNG](https://pic.leetcode-cn.com/0c7b54faff666b71b3b8d6086608977daaab9b7d48728d2d681a3dc4c7b63913-2019122301.PNG)
 
-此处撰写解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char findTheDifference(String s, String t) {
         //异或运算,耗时2ms
@@ -52,4 +52,4 @@ class Solution {
     	return 'a';
     }
 }
-```
+// ```

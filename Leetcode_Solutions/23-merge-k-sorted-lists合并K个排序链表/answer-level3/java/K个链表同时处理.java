@@ -1,9 +1,9 @@
-### 解题思路
-由于一开始没有想到堆，想法就是每次将当前lists里最小的节点lists[i]添加到结果，然后让lists[i]=lists[i].next,直到lists全部为空
+// ### 解题思路
+// 由于一开始没有想到堆，想法就是每次将当前lists里最小的节点lists[i]添加到结果，然后让lists[i]=lists[i].next,直到lists全部为空
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -46,4 +46,4 @@ class Solution {
         }
     }
 }
-```
+// ```

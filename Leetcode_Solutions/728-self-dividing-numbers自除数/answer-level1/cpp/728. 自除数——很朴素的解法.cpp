@@ -1,4 +1,4 @@
-```
+// ```
 vector<int> selfDividingNumbers(int left, int right) {
         vector<int>res;
         for(int i=left;i<=right;i++){
@@ -20,4 +20,4 @@ vector<int> selfDividingNumbers(int left, int right) {
         }
         return res;
     }
-```
+// ```

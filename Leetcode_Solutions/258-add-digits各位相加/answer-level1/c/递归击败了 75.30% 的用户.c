@@ -1,10 +1,10 @@
-### 解题思路
-击败了
-75.30%
-的用户
-### 代码
+// ### 解题思路
+// 击败了
+// 75.30%
+// 的用户
+// ### 代码
 
-```c
+// ```c
 int addDigits(int num){
     int x = 0;
     if (num / 10 == 0) return num;
@@ -15,4 +15,4 @@ int addDigits(int num){
     }
     return addDigits(x);
 }
-```
+// ```

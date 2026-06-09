@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int maxPoints(vector<vector<int>>& points) {
@@ -27,4 +27,4 @@ public:
         return b == 0 ? a : gcd(b, a%b);
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-看了他人评论发现，大部分都是无法分割的情况，所以可以先使用[139 word-break](https://leetcode-cn.com/problems/word-break/solution/dong-tai-gui-hua-you-hua-by-joy-teng/) 判断一下是否可分，然后再回溯。
-```
+// 看了他人评论发现，大部分都是无法分割的情况，所以可以先使用[139 word-break](https://leetcode-cn.com/problems/word-break/solution/dong-tai-gui-hua-you-hua-by-joy-teng/) 判断一下是否可分，然后再回溯。
+// ```
 // Time 4ms, 100%, Space 10.1MB, 89%
 class Solution {
     void backtrack(string &s, int i, unordered_set<int> &lens, 
@@ -44,4 +44,4 @@ public:
         return vs;
     }
 };
-```
+// ```

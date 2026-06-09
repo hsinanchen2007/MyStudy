@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def tribonacci(self, n: int) -> int:
         p = [0 for _ in range(max(3,n+1))]
@@ -7,4 +7,4 @@ class Solution:
             for i in range(3, n+1):
                 p[i] = p[i-1] + p[i-2] + p[i-3]
         return p[n]
-```
+# ```

@@ -1,20 +1,20 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(n)
-2. 我的解题思路
-    2.1 将传入的pattern和str切割转换成数组
-    2.2 如果2.1中的两个数组长度不相等，直接返回false
-    2.3 定义一个HashMap存储映射关系
-    2.4 同时遍历两个数组，有三种情况
-        2.4.1 map含有当前pattern但是value不相等，返回false
-        2.4.2 map含有当前value但是没有pattern，返回false
-        2.4.3 map都没有当前pattern以及value，将他们放入HashMap
-3. 提交记录
-    3.1 力扣中耗时3ms,消耗34.3MB内存
-    3.2 leetcode中耗时1ms,消耗34.2MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(n)
+// 2. 我的解题思路
+//     2.1 将传入的pattern和str切割转换成数组
+//     2.2 如果2.1中的两个数组长度不相等，直接返回false
+//     2.3 定义一个HashMap存储映射关系
+//     2.4 同时遍历两个数组，有三种情况
+//         2.4.1 map含有当前pattern但是value不相等，返回false
+//         2.4.2 map含有当前value但是没有pattern，返回false
+//         2.4.3 map都没有当前pattern以及value，将他们放入HashMap
+// 3. 提交记录
+//     3.1 力扣中耗时3ms,消耗34.3MB内存
+//     3.2 leetcode中耗时1ms,消耗34.2MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     290.Word Pattern
@@ -77,6 +77,6 @@ class Solution{
         return true;
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

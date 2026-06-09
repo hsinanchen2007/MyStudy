@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
         int len = nums.length;
@@ -17,4 +17,4 @@ class Solution {
         return (double) max / k;
     }
 }
-```
+// ```

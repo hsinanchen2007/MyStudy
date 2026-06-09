@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from functools import *
 class Solution:
     @lru_cache
@@ -20,4 +20,4 @@ class Solution:
             return 1 + reduce(min, [self.minDistance(word1, word2[:j-1]),
                                     self.minDistance(word1[:i-1], word2),
                                     self.minDistance(word1[:i-1], word2[:j-1])])
-```
+# ```

@@ -1,18 +1,18 @@
-### 解题思路
-需要注意几个地方：
-1、每个节点数据结构的设计
-2、根节点不保存任何字符
-3、每个节点最多有26个儿子节点（只包含小写英文字母的情况）
-4、插入某个字符时如果不存在保存该字符的节点则创建之
-5、每个单词结尾的节点要用个标志位标识一下（用来search）
-6、区分search 和 startWith的区别
+// ### 解题思路
+// 需要注意几个地方：
+// 1、每个节点数据结构的设计
+// 2、根节点不保存任何字符
+// 3、每个节点最多有26个儿子节点（只包含小写英文字母的情况）
+// 4、插入某个字符时如果不存在保存该字符的节点则创建之
+// 5、每个单词结尾的节点要用个标志位标识一下（用来search）
+// 6、区分search 和 startWith的区别
 
-![image.png](https://pic.leetcode-cn.com/ab8db5e4f62df9076e2746e91fd5b64c653216ee59770048e2f6547f1d90ea37-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ab8db5e4f62df9076e2746e91fd5b64c653216ee59770048e2f6547f1d90ea37-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 struct TrieNode
 {
 public:
@@ -114,4 +114,4 @@ private:
  * bool param_2 = obj->search(word);
  * bool param_3 = obj->startsWith(prefix);
  */
-```
+// ```

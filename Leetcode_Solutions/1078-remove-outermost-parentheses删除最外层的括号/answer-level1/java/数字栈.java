@@ -1,6 +1,6 @@
-根据前边的经验，用数字栈比较容易理解
-截取字符串时候开始位置，也就是栈底元素位置。
-```
+// 根据前边的经验，用数字栈比较容易理解
+// 截取字符串时候开始位置，也就是栈底元素位置。
+// ```
 public String removeOuterParentheses(String S) {
         //利用数字栈的方式
         StringBuffer sb = new StringBuffer();
@@ -25,4 +25,4 @@ public String removeOuterParentheses(String S) {
         }
         return sb.toString();
     }
-```
+// ```

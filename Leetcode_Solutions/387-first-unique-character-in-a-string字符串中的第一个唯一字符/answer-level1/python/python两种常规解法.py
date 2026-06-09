@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def firstUniqChar(self, s):
         """
@@ -24,8 +24,8 @@ class Solution(object):
         for j in range(len(s)):
                 if y==s[j]:
                        return j
-```
-```
+# ```
+# ```
 class Solution(object):
     def firstUniqChar(self, s):
         """
@@ -39,4 +39,4 @@ class Solution(object):
             else:
                 s=s.replace(g[i],'')
         return -1
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：先序遍历
@@ -92,4 +92,4 @@ struct TreeNode * mergeTrees( struct TreeNode * t1 , struct TreeNode * t2 ){
     return t;
 
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findDuplicates(self, nums: List[int]) -> List[int]:
         re = []
@@ -11,4 +11,4 @@ class Solution:
             if re[i] > 1:
                 re.append(i + 1)
         return re[l:]
-```
+# ```

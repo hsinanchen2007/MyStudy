@@ -1,18 +1,18 @@
-### 解题思路
-基于 习题 [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
-童老师算法课程分治法讲过此题，还比较了 两两合并 和 逐一合并 的速度。
-我最开始的想法受到了题 264. 丑数 II 的影响，每次从 k 个链表中选出最小的，然后对应指针前进一位，代码也不好写，效率极低。
+# ### 解题思路
+# 基于 习题 [21. 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)
+# 童老师算法课程分治法讲过此题，还比较了 两两合并 和 逐一合并 的速度。
+# 我最开始的想法受到了题 264. 丑数 II 的影响，每次从 k 个链表中选出最小的，然后对应指针前进一位，代码也不好写，效率极低。
 
-官方题解非常好，有非常细致的分析。
+# 官方题解非常好，有非常细致的分析。
 
-+ 两两合并 O(n*logk)， 第一个和第二个合并，第三个和第四个合并，有点像锦标赛排序的感觉。
-+ 逐一合并 O(n*k), 第一个和第二个合并，然后合并后的结果和第三个合并
-+ 每次从 k 个中选最小的 O(n*k)
+# + 两两合并 O(n*logk)， 第一个和第二个合并，第三个和第四个合并，有点像锦标赛排序的感觉。
+# + 逐一合并 O(n*k), 第一个和第二个合并，然后合并后的结果和第三个合并
+# + 每次从 k 个中选最小的 O(n*k)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -55,10 +55,10 @@ class Solution:
                 result.append(new_lists[i])
             new_lists = result
         return new_lists[0]
-```
+# ```
 
-### 错误的代码
-``` python3
+# ### 错误的代码
+# ``` python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -100,4 +100,4 @@ class Solution:
 
         return prev_head.next
 
-```
+# ```

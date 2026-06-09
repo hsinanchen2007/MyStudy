@@ -1,6 +1,6 @@
 
 
-```
+// ```
 char * defangIPaddr(char * address){
     int len = strlen(address);
     char* ret = (char*)malloc(len + 6 + 1);
@@ -20,4 +20,4 @@ char * defangIPaddr(char * address){
 
     return ret;
 }
-```
+// ```

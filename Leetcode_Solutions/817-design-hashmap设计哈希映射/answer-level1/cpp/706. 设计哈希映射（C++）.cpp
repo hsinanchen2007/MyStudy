@@ -1,5 +1,5 @@
-# 706. 设计哈希映射
-```
+// # 706. 设计哈希映射
+// ```
 class Node{
 public:
 	int key;
@@ -74,4 +74,4 @@ public:
  * int param_2 = obj->get(key);
  * obj->remove(key);
  */
-```
+// ```

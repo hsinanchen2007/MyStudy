@@ -1,13 +1,13 @@
-### 解题思路
-主要思路是，只有一个地方需要修改，那么不妨定位到不同字符处。有以下两种情况
-（1）leetcode 与 leetkode。
-那么我们需要找到 'c' 和 'k'，然后比较 'ode' 和 'ode' 是否相同。
-（2）leetcode 与 leetode。
-我们发现 'c' 和 'o' 不相同，然后比较 'ode' 和 'ode' 是否相同。
+// ### 解题思路
+// 主要思路是，只有一个地方需要修改，那么不妨定位到不同字符处。有以下两种情况
+// （1）leetcode 与 leetkode。
+// 那么我们需要找到 'c' 和 'k'，然后比较 'ode' 和 'ode' 是否相同。
+// （2）leetcode 与 leetode。
+// 我们发现 'c' 和 'o' 不相同，然后比较 'ode' 和 'ode' 是否相同。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean oneEditAway(String first, String second) {
         if (first == null || second == null) return false;
@@ -26,4 +26,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

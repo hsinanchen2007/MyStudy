@@ -1,9 +1,9 @@
-### 解题思路
-n & (n - 1) 快速查询1的个数
+// ### 解题思路
+// n & (n - 1) 快速查询1的个数
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @param {number} y
@@ -17,4 +17,4 @@ var hammingDistance = function(x, y) {
     }
     return num
 };
-```
+// ```

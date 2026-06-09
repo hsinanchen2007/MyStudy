@@ -1,7 +1,7 @@
-虽然multimap实现就不是哈希表了，但是在这里就是要在哈希表（无序容器）的基础上排序，所以直接利用标准库会不会更好？
-注：因为容许多个相等结果，所以要用multimap而不是map
+// 虽然multimap实现就不是哈希表了，但是在这里就是要在哈希表（无序容器）的基础上排序，所以直接利用标准库会不会更好？
+// 注：因为容许多个相等结果，所以要用multimap而不是map
 
-```
+// ```
     vector<string> findRestaurant(vector<string>& list1, vector<string>& list2)    {
         //在multimap中根据键值大小排序
         multimap<int, string> buffer;
@@ -29,5 +29,5 @@
         }
         return res;
     }
-```
+// ```
 

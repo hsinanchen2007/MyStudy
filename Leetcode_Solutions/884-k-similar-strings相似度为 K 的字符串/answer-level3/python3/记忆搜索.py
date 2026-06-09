@@ -1,4 +1,4 @@
-```
+# ```
 '''
 LeetCode 854 相似度为 K 的字符串
 Strings A and B are K-similar (for some non-negative integer K)
@@ -60,4 +60,4 @@ if __name__ == "__main__":
     B = "abca"
     s = Solution()
     print(s.kSimilarity(A,B))
-```
+# ```

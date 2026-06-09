@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public int numWays(int steps, int arrLen) {
         final int MOD = (int)1e9 + 7;
@@ -19,4 +19,4 @@ class Solution {
         return (int)dp[steps][0];
     }
 }
-```
+// ```

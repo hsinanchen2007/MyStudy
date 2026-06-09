@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,5 +31,5 @@ public:
         return dummy1->next;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/e1ae3b266a6ff990d6c7123656f66571ce7cc3b65e901a11bdb0509e853d0c46-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e1ae3b266a6ff990d6c7123656f66571ce7cc3b65e901a11bdb0509e853d0c46-image.png)

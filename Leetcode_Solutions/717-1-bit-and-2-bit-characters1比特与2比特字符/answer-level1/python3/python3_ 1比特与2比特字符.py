@@ -1,4 +1,4 @@
-```python
+# ```python
 def isOneBitCharacter(bits):
     i, N = 0, len(bits)
     while i < N - 1:
@@ -13,4 +13,4 @@ def isOneBitCharacter(bits):
 
 print(isOneBitCharacter([1,0,0]))
 print(isOneBitCharacter([1,1,1,0]))
-```
+# ```

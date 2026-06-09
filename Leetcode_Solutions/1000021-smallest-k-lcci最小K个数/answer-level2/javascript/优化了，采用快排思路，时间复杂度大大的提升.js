@@ -1,11 +1,11 @@
-### 解题思路
-快排，判断是否刚刚好分成k块
-### 解题结果
-![image.png](https://pic.leetcode-cn.com/e3f39129153835343b6d75ae114ebd88998f5b8859b1ed66ff72960e92a4da4f-image.png)
+// ### 解题思路
+// 快排，判断是否刚刚好分成k块
+// ### 解题结果
+// ![image.png](https://pic.leetcode-cn.com/e3f39129153835343b6d75ae114ebd88998f5b8859b1ed66ff72960e92a4da4f-image.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -44,4 +44,4 @@ var smallestK = function (arr, k) {
     quickSort(arr, 0, arr.length - 1);
     return arr.slice(0, k);
 };
-```
+// ```

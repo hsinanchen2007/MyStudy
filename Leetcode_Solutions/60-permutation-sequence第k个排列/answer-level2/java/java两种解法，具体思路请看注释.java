@@ -1,5 +1,5 @@
-法一
-```
+// 法一
+// ```
 public String getPermutation_2(int n, int k) {
         StringBuilder sb = new StringBuilder();
         //每个阶层的值
@@ -30,9 +30,9 @@ public String getPermutation_2(int n, int k) {
         }
         return sb.toString();
     }
-```
-法二，回溯法
-```
+// ```
+// 法二，回溯法
+// ```
 String getPermutation = "";
     int result1 = 0;
     public String getPermutation(int n, int k) {
@@ -63,5 +63,5 @@ String getPermutation = "";
             }
         }
     }
-```
+// ```
 

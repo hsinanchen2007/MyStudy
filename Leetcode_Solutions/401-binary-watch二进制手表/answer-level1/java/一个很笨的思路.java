@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     
     // 小时的位数
@@ -63,4 +63,4 @@ class Solution {
         return "" + hour + ":" + (minute < 10 ? "0" + minute : minute);
     }
 }
-```
+// ```

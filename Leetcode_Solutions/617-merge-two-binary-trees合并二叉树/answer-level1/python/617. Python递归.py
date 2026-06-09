@@ -1,13 +1,13 @@
-### 解题思路
-这道题可以不需要额外开辟空间存储节点（不包括递归所需空间）即改变指针指向即可，以Tree 1作为基础进行修改，需要处理四种情况：
-（1）t1为空t2不为空
-（2）t2为空t1不为空
-（3）t1 t2都为空
-（4）t1 t2都不为空
+# ### 解题思路
+# 这道题可以不需要额外开辟空间存储节点（不包括递归所需空间）即改变指针指向即可，以Tree 1作为基础进行修改，需要处理四种情况：
+# （1）t1为空t2不为空
+# （2）t2为空t1不为空
+# （3）t1 t2都为空
+# （4）t1 t2都不为空
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution(object):
             t1.right = get_res(t1.right, t2.right)
             return t1
         return get_res(t1, t2)
-```
+# ```

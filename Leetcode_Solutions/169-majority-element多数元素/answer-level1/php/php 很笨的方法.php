@@ -1,6 +1,6 @@
-![图片.png](https://pic.leetcode-cn.com/03867fc362052a4aa13b5be4f4505905728e50a02a2a49159a9c8b4da439d482-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/03867fc362052a4aa13b5be4f4505905728e50a02a2a49159a9c8b4da439d482-%E5%9B%BE%E7%89%87.png)
 
-```
+// ```
 $count = count($nums);
         $nu = ceil($count/2);
         $newArr = [];
@@ -24,4 +24,4 @@ $count = count($nums);
                 return $key;
             }
         }
-```
+// ```

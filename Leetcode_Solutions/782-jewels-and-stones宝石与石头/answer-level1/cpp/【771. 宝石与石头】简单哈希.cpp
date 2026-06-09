@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```
+// ## 思路
+// ### 代码
+// ```
 class Solution {
 public:
     int numJewelsInStones(string J, string S) {
@@ -15,4 +15,4 @@ public:
         return num;
     }
 };
-```
+// ```

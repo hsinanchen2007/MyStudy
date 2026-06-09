@@ -1,8 +1,8 @@
-### 解题思路
-写成注释形式,简单易懂,👇👇👇见下方代码(小白一个,大神勿喷)
-### 代码
+// ### 解题思路
+// 写成注释形式,简单易懂,👇👇👇见下方代码(小白一个,大神勿喷)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         char[] target = chars.toCharArray();
@@ -50,4 +50,4 @@ class Solution {
         return result;//结束
     }
 }
-```
+// ```

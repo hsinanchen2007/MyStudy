@@ -1,9 +1,9 @@
-### 解题思路
-跟窃贼那题一样的。逻辑
+// ### 解题思路
+// 跟窃贼那题一样的。逻辑
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func massage(_ nums: [Int]) -> Int {
         
@@ -39,4 +39,4 @@ class Solution {
         
     }
 }
-```
+// ```

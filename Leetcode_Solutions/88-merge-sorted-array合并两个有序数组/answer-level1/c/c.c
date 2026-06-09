@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、从后往前，取最大值保存；
+// ### 解题思路
+// 此处撰写解题思路
+// 1、从后往前，取最大值保存；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int max_size = m + n;
     m--;
@@ -33,4 +33,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
         }
     }
 }
-```
+// ```

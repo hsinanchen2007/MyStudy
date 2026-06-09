@@ -1,10 +1,10 @@
-### 解题思路
-建立两个字典G1,G2，key分别是被信任的，信任别人的，如果G1中有一个key的value有N-1个，且不在G2的key中，那就是法官，注意只有1个人，trust为空的情况，这个人也是法官。
+# ### 解题思路
+# 建立两个字典G1,G2，key分别是被信任的，信任别人的，如果G1中有一个key的value有N-1个，且不在G2的key中，那就是法官，注意只有1个人，trust为空的情况，这个人也是法官。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import defaultdict
 class Solution:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
@@ -21,4 +21,4 @@ class Solution:
                 return i
         return -1
 
-```
+# ```

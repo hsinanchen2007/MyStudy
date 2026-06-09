@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-根据站台名或获取站台的流动人员信息。
-站台信息包括入站的人员和出站的人员。
-平均时间直接遍历起点站的入站人员和终点站的出站人员即可。
+// 根据站台名或获取站台的流动人员信息。
+// 站台信息包括入站的人员和出站的人员。
+// 平均时间直接遍历起点站的入站人员和终点站的出站人员即可。
 
-时间复杂度：和当前查询路线的站台的人数有关。
-空间复杂度：$O(n+m)$，$n$表示站台数，$m$表示人数。
+// 时间复杂度：和当前查询路线的站台的人数有关。
+// 空间复杂度：$O(n+m)$，$n$表示站台数，$m$表示人数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class UndergroundSystem {
     // K是站名，V是站台出入信息
     private Map<String, Station> stationMap;
@@ -64,7 +64,7 @@ class UndergroundSystem {
     }
 }
 
-```
+// ```
 
-![图片.png](https://pic.leetcode-cn.com/a734b1cee22419878fdb1fed1863caa5f1646ce2250b274491ae4d39c50fb75d-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/a734b1cee22419878fdb1fed1863caa5f1646ce2250b274491ae4d39c50fb75d-%E5%9B%BE%E7%89%87.png)
 

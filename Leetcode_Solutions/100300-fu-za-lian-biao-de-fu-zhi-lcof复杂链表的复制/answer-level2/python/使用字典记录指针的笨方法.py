@@ -1,11 +1,11 @@
-### 解题思路
-先进行一次循环，将val复制，并利用字典记录当前指针与参数count的关系；第二次循环复制每个节点random的指向。
-![image.png](https://pic.leetcode-cn.com/2d36a3f99c2d54160e489fe6272c551df74354efa096506712886c510852ce18-image.png)
+# ### 解题思路
+# 先进行一次循环，将val复制，并利用字典记录当前指针与参数count的关系；第二次循环复制每个节点random的指向。
+# ![image.png](https://pic.leetcode-cn.com/2d36a3f99c2d54160e489fe6272c551df74354efa096506712886c510852ce18-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -33,4 +33,4 @@ class Solution:
             count += 1
             ans_p, p = ans_p.next, p.next
         return ans.next
-```
+# ```

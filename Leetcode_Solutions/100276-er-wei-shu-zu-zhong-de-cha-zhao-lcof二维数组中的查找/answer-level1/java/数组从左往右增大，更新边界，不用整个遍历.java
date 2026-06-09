@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗 :46 MB, 在所有 Java 提交中击败了100.00%的用户
+// ### 解题思路
+// 执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗 :46 MB, 在所有 Java 提交中击败了100.00%的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if(matrix.length==0||matrix[0].length==0|| matrix[0][0]>target||matrix[matrix.length-1][matrix[0].length-1]<target) return false;
@@ -35,4 +35,4 @@ class Solution {
 
     }
 }
-```
+// ```

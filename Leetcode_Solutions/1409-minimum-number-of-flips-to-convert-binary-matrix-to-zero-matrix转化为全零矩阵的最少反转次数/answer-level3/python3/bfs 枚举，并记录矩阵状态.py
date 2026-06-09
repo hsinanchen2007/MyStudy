@@ -1,9 +1,9 @@
-### 解题思路
-用一个哈希表存储已经枚举过的结果，广搜每次能够反转的情况，如果没有出现过，将新状态放入队列中。
+# ### 解题思路
+# 用一个哈希表存储已经枚举过的结果，广搜每次能够反转的情况，如果没有出现过，将新状态放入队列中。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minFlips(self, mat: List[List[int]]) -> int:
         from collections import deque
@@ -50,4 +50,4 @@ class Solution:
 
             res += 1
         return -1
-```
+# ```

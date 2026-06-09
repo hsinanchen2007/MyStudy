@@ -1,7 +1,7 @@
-`dp(i, j, k)` 表示将子串[i, j]分割成 k 个的最优结果
-转移方程：`dp(i, j, k) = min{dp(i, m, 1) + dp(m + 1, j, k - 1)}`
+// `dp(i, j, k)` 表示将子串[i, j]分割成 k 个的最优结果
+// 转移方程：`dp(i, j, k) = min{dp(i, m, 1) + dp(m + 1, j, k - 1)}`
 
-```
+// ```
 class Solution {
 public:
     int palindromePartition(string s, int k) {
@@ -29,4 +29,4 @@ public:
         return dp[0][s.size() - 1][k];
     }
 };
-```
+// ```

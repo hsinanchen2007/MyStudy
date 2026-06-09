@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
      public void quick_sort(int[] arr, int start, int end)
         {
@@ -76,4 +76,4 @@ public class Solution {
             
     }
 }
-```
+// ```

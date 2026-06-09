@@ -1,8 +1,8 @@
-### 解题思路
-遍历字符串 逐项相加即可。。
-### 代码
+// ### 解题思路
+// 遍历字符串 逐项相加即可。。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String addBinary(String a, String b) {
          char[] chara = a.toCharArray();
@@ -47,4 +47,4 @@ class Solution {
         return sb.reverse().toString();
     }
 }
-```
+// ```

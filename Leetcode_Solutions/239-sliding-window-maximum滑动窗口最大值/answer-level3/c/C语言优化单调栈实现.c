@@ -1,6 +1,6 @@
-基础方案：单调递减栈
-1、栈底元素是最大值；
-2、优化点：新增bottom指针，如果栈底元素已经在滑窗移动时，已处于窗口外，则bottom++丢弃栈底元素
+// 基础方案：单调递减栈
+// 1、栈底元素是最大值；
+// 2、优化点：新增bottom指针，如果栈底元素已经在滑窗移动时，已处于窗口外，则bottom++丢弃栈底元素
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */

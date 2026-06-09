@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-这个题最后还需要判断一下，`nums[l] == l`，如果满足的话，即整个数组有序，返回`l+1`即可。
+// 这个题最后还需要判断一下，`nums[l] == l`，如果满足的话，即整个数组有序，返回`l+1`即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func missingNumber(nums []int) int {
     if nums == nil || len(nums) == 0 {
         return 0
@@ -25,4 +25,4 @@ func missingNumber(nums []int) int {
     return l
 }
 
-```
+// ```

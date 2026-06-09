@@ -1,11 +1,11 @@
-### 解题思路
-BST树中序遍历（inorder traversal）, 把每个结点的值放入待验证的List。
-如果是有效的BST树，那么该List是无重复元素且升序的。
+// ### 解题思路
+// BST树中序遍历（inorder traversal）, 把每个结点的值放入待验证的List。
+// 如果是有效的BST树，那么该List是无重复元素且升序的。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,4 +44,4 @@ class Solution {
         return isSorted(list);
     }
 }
-```
+// ```

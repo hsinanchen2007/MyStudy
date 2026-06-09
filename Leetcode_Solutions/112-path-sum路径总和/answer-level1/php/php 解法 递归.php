@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     function hasPathSum($root, $sum) {
         if($root == null) return false;
@@ -18,9 +18,9 @@ class Solution {
     }
     
 }
-```
-优化代码：
-```
+// ```
+// 优化代码：
+// ```
 class Solution {
     function hasPathSum($root, $sum) {
         if($root == null) return false;
@@ -29,4 +29,4 @@ class Solution {
         return $this->hasPathSum($root->left, $sum) || $this->hasPathSum($root->right, $sum);
     }
 }
-```
+// ```

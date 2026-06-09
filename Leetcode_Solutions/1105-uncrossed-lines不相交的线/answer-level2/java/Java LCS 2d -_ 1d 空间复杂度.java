@@ -1,6 +1,6 @@
-2d version：
+// 2d version：
 
-```java
+// ```java
 class Solution1 {
     public int maxUncrossedLines(int[] A, int[] B) {
         int[][] dp = new int[A.length + 1][B.length + 1];
@@ -16,10 +16,10 @@ class Solution1 {
         return dp[A.length][B.length];
     }
 }
-```
-1d version： 
-注意1d version 内部需要两个for循环，目的是使dp数组是非递减的。
-```java
+// ```
+// 1d version： 
+// 注意1d version 内部需要两个for循环，目的是使dp数组是非递减的。
+// ```java
 class Solution {
     public int maxUncrossedLines(int[] A, int[] B) {
         int[] dp = new int[B.length + 1];
@@ -36,4 +36,4 @@ class Solution {
         return dp[B.length];
     }
 }
-```
+// ```

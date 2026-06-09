@@ -1,4 +1,4 @@
-没见到c++的题解，，写一个：
+// 没见到c++的题解，，写一个：
 #include <math.h>
 class Solution {
 public:

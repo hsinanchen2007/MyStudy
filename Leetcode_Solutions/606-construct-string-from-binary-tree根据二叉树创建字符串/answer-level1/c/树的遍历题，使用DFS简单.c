@@ -1,10 +1,10 @@
-### 解题思路
-1.简单的遍历题，用DFS直接做了
-2.用sprintf写会结果，留意一个细节，当左子树为空，右子树有结果时，打印空
+// ### 解题思路
+// 1.简单的遍历题，用DFS直接做了
+// 2.用sprintf写会结果，留意一个细节，当左子树为空，右子树有结果时，打印空
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ char * tree2str(struct TreeNode* t){
         dfs(t, ret);
     return ret;
 }
-```
+// ```

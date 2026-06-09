@@ -1,8 +1,8 @@
-### 解题思路
- 链表转数组 => 数组逆序删除arr[n-1]并还原顺序 => 数组转链表
-### 代码
+// ### 解题思路
+//  链表转数组 => 数组逆序删除arr[n-1]并还原顺序 => 数组转链表
+// ### 代码
 
-```javascript
+// ```javascript
 var removeNthFromEnd = function(head, n) {
     const arr = []
     while (head) {
@@ -18,4 +18,4 @@ var removeNthFromEnd = function(head, n) {
     }
     return res
 };
-```
+// ```

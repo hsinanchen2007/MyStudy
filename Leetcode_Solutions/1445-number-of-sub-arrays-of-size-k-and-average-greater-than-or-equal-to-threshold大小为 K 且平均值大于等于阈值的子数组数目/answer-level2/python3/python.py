@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def numOfSubarrays(self, arr: List[int], k: int, threshold: int) -> int:
         if k > len(arr) or arr == []: return 0
@@ -12,4 +12,4 @@ class Solution:
             if i >= k - 1:
                 temp_sum -= arr[i - k + 1]
         return res
-```
+# ```

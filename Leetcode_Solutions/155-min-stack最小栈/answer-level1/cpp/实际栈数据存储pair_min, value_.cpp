@@ -1,7 +1,7 @@
-内部也使用栈，只是存储数据封装成pair<min, value>，所有操作可直接使用栈操作。
+// 内部也使用栈，只是存储数据封装成pair<min, value>，所有操作可直接使用栈操作。
 
 
-```c++
+// ```c++
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -36,4 +36,4 @@ private:
     int min = INT_MAX;
     stack<pair<int, int>> minStack;
 };
-```
+// ```

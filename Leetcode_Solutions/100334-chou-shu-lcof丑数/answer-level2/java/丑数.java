@@ -1,10 +1,10 @@
-### 解题思路
-只包含因子2、3、5的数被称为丑数；
-创建next2,next3,next5,分别*2 *3 *5，并且取其三者中的最小值，更新到对应的dp[i]中
+// ### 解题思路
+// 只包含因子2、3、5的数被称为丑数；
+// 创建next2,next3,next5,分别*2 *3 *5，并且取其三者中的最小值，更新到对应的dp[i]中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int nthUglyNumber(int n) {
         int[] dp = new int[n];
@@ -28,4 +28,4 @@ class Solution {
         return dp[n-1];
     }
 }
-```
+// ```

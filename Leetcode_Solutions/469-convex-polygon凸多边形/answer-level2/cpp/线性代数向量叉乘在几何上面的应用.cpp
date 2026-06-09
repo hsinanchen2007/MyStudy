@@ -1,8 +1,8 @@
-复习：线性代数向量叉乘
-（行列式法计算）
-[https://blog.csdn.net/sunbobosun56801/article/details/78980467](向量叉乘)
-思路：依次计算三个点构成的两个向量的叉乘，法向量方向不发生改变则是凸多边形  （右手定则判断法向量方向是否一致朝纸内或者一致朝纸外）
-```
+// 复习：线性代数向量叉乘
+// （行列式法计算）
+// [https://blog.csdn.net/sunbobosun56801/article/details/78980467](向量叉乘)
+// 思路：依次计算三个点构成的两个向量的叉乘，法向量方向不发生改变则是凸多边形  （右手定则判断法向量方向是否一致朝纸内或者一致朝纸外）
+// ```
 class Solution {
 public:
     bool isConvex(vector<vector<int>>& points) {
@@ -27,5 +27,5 @@ public:
         return true;
     }
 };
-```
+// ```
 

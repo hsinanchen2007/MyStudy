@@ -1,10 +1,10 @@
-### 解题思路
-在校入门的小白
+// ### 解题思路
+// 在校入门的小白
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     queue<pair<int,int>> q;
@@ -58,4 +58,4 @@ public:
     return max;      
     }
 };
-```
+// ```

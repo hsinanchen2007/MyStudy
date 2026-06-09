@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-Go: 0ms(100%), 2.9MB(100%)
+// Go: 0ms(100%), 2.9MB(100%)
 
-说说大致思路：遍历一次主链，将所有`Child`不为空的按序存入数组parents中；遍历数组parents，递归处理即可，详见代码。
+// 说说大致思路：遍历一次主链，将所有`Child`不为空的按序存入数组parents中；遍历数组parents，递归处理即可，详见代码。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a Node.
  * type Node struct {
@@ -53,4 +53,4 @@ func flatten(root *Node) *Node {
 
     return root
 }
-```
+// ```

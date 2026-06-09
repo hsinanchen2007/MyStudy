@@ -1,11 +1,11 @@
-### 解题思路
-在vs调试初始化的时候，学习了二维的vector，以及各种debug。
+// ### 解题思路
+// 在vs调试初始化的时候，学习了二维的vector，以及各种debug。
 
-思路就是 找到车R，然后用R的横纵坐标从4个方向扫描，满足条件count变量加一，跳出。 撞墙上或者撞象上了就直接跳出。
+// 思路就是 找到车R，然后用R的横纵坐标从4个方向扫描，满足条件count变量加一，跳出。 撞墙上或者撞象上了就直接跳出。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -77,4 +77,4 @@ public:
         return count;
     }
 };
-```
+// ```

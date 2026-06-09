@@ -1,4 +1,4 @@
-```
+// ```
 public bool LeafSimilar(TreeNode root1, TreeNode root2) {
         var list1=new List<int>();
         var list2=new List<int>();
@@ -25,4 +25,4 @@ public bool LeafSimilar(TreeNode root1, TreeNode root2) {
         LeafSimilar(root.right,list);
         
     }
-```
+// ```

@@ -1,6 +1,6 @@
-**解法一：**利用最小堆原理的优先队列，时间复杂度： O(N\log k)*O*(*N*log*k*) ；空间复杂度：*O*(*k*)，用于建立优先队列。
+// **解法一：**利用最小堆原理的优先队列，时间复杂度： O(N\log k)*O*(*N*log*k*) ；空间复杂度：*O*(*k*)，用于建立优先队列。
 
-```java
+// ```java
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         ListNode dummy = new ListNode(0), cur = dummy;
@@ -17,11 +17,11 @@ class Solution {
         return dummy.next;
     }
 }
-```
+// ```
 
-**解法二：**分治，时间复杂度： O(N\log k)*O*(*N*log*k*) ；空间复杂度：*O*(1)。
+// **解法二：**分治，时间复杂度： O(N\log k)*O*(*N*log*k*) ；空间复杂度：*O*(1)。
 
-```java
+// ```java
 // 自底向上的迭代求解
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
@@ -81,8 +81,8 @@ class Solution {
         }
     }
 }
-```
-测试了一下，最快的好像是mergeKLists()用递归，mergeTwoLists()用迭代。
+// ```
+// 测试了一下，最快的好像是mergeKLists()用递归，mergeTwoLists()用迭代。
 
 
 

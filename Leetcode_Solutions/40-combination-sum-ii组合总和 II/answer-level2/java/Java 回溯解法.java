@@ -1,9 +1,9 @@
-### 解题思路
-回溯算法
+// ### 解题思路
+// 回溯算法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);
@@ -32,4 +32,4 @@ class Solution {
         }
     }
 }
-```
+// ```

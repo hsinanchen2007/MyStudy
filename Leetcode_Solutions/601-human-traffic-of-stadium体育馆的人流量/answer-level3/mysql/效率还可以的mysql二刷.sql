@@ -1,5 +1,5 @@
-#总结一点：多刷题了之后再回来刷题，思路和以前的oracle解法发生了很大的变化
-```
+-- #总结一点：多刷题了之后再回来刷题，思路和以前的oracle解法发生了很大的变化
+-- ```
 SELECT a.id, a.visit_date, a.people
 FROM (
 	SELECT a.*, a.id - @rk AS groupId, @rk := @rk + 1
@@ -20,4 +20,4 @@ WHERE a.groupId IN (
 	GROUP BY b.groupId
 	HAVING COUNT(b.groupId) >= 3
 )
-```
+-- ```

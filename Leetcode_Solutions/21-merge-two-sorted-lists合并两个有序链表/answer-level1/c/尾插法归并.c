@@ -1,10 +1,10 @@
-### 解题思路
-尾插法归并
-两个元素中较小的那个结点链接在l3后面（r->next=p;直接把该结点放在l3的后面，不需每次都创建新结点），且该链表指针和l3的指针都向后移一个，继续比较。
-若还有剩余结点，直接把他们链接在l3的尾部
-### 代码
+// ### 解题思路
+// 尾插法归并
+// 两个元素中较小的那个结点链接在l3后面（r->next=p;直接把该结点放在l3的后面，不需每次都创建新结点），且该链表指针和l3的指针都向后移一个，继续比较。
+// 若还有剩余结点，直接把他们链接在l3的尾部
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -41,4 +41,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     }
     return l3->next;
 }
-```
+// ```

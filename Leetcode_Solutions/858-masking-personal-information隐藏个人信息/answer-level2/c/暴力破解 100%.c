@@ -1,5 +1,5 @@
-# 暴力破解
-```
+// # 暴力破解
+// ```
 char * maskPII(char * S){
     int len = strlen(S);
     char *result = (char *)malloc(len + 6);
@@ -42,4 +42,4 @@ char * maskPII(char * S){
     }
     return result;
 }代码块
-```
+// ```

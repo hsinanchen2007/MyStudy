@@ -1,9 +1,9 @@
-### 解题思路
-读懂题意很重要；頑張ってください。
+# ### 解题思路
+# 读懂题意很重要；頑張ってください。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if len(nums) == 0: return 0
@@ -14,4 +14,4 @@ class Solution:
                 nums[i] = nums[j]
         return i+1
 
-```
+# ```

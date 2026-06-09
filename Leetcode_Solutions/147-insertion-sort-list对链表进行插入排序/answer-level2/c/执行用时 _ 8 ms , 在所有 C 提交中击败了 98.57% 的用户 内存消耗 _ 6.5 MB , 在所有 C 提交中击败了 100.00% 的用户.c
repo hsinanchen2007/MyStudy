@@ -1,9 +1,9 @@
-### 解题思路
-链表难顶。。
+// ### 解题思路
+// 链表难顶。。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -49,4 +49,4 @@ struct ListNode* insertionSortList(struct ListNode* head){
     }
     return L->next;
 }
-```
+// ```

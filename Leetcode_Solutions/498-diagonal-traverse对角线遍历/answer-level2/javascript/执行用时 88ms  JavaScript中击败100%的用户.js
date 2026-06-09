@@ -1,9 +1,9 @@
-### 解题思路
-借鉴了下大佬的思路
+// ### 解题思路
+// 借鉴了下大佬的思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {number[]}
@@ -51,4 +51,4 @@ var findDiagonalOrder = function(matrix) {
 	}
 	return res;
 };
-```
+// ```

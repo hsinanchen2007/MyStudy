@@ -1,5 +1,5 @@
-用map去映射，用key去对应节点的地址就好了。在大神的指导写出了应该是O(1)时间复杂度的代码，但是map貌似比unordered_map在这题要快。。。
-```
+// 用map去映射，用key去对应节点的地址就好了。在大神的指导写出了应该是O(1)时间复杂度的代码，但是map貌似比unordered_map在这题要快。。。
+// ```
 struct Node {
     int val;
     int key;
@@ -68,4 +68,4 @@ public:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

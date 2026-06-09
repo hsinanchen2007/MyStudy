@@ -1,8 +1,8 @@
-### 解题思路
-![Screen Shot 2020-04-09 at 02.13.30.png](https://pic.leetcode-cn.com/4b7041e3afc5affdeef398fa1b307ed890898261ec3b6fe14a729e9eb06a334b-Screen%20Shot%202020-04-09%20at%2002.13.30.png)
+// ### 解题思路
+// ![Screen Shot 2020-04-09 at 02.13.30.png](https://pic.leetcode-cn.com/4b7041e3afc5affdeef398fa1b307ed890898261ec3b6fe14a729e9eb06a334b-Screen%20Shot%202020-04-09%20at%2002.13.30.png)
 
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
     public int minDistance(String word1, String word2) {
         if (word2.length() == 0) {
@@ -159,4 +159,4 @@ class Solution {
         }
     }
 }
-```
+// ```

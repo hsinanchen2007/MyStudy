@@ -1,5 +1,5 @@
-宽搜一遍过，一层一层拓展地图，相当于把海洋一层一层缩小，直到访问了所有的点就结束。
-```python []
+# 宽搜一遍过，一层一层拓展地图，相当于把海洋一层一层缩小，直到访问了所有的点就结束。
+# ```python []
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -16,9 +16,9 @@ class Solution:
             ]
             ans += 1
         return ans
-```
+# ```
 
-```python []
+# ```python []
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -36,9 +36,9 @@ class Solution:
             que = tmp
             ans += 1
         return ans
-```
+# ```
 
-提交人数较少，784ms仅供参考。
+# 提交人数较少，784ms仅供参考。
 
-![image.png](https://pic.leetcode-cn.com/2a172eb1828af46cf9260ddac0ae066163f57a3007d0f5f16dd4ae380cb46c4e-image.png)
+# ![image.png](https://pic.leetcode-cn.com/2a172eb1828af46cf9260ddac0ae066163f57a3007d0f5f16dd4ae380cb46c4e-image.png)
 

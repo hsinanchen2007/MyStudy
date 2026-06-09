@@ -1,12 +1,12 @@
-### 解题思路
-1、定义**result用来存储处理后的email地址
-2、使用for循环，根据条件逐个地址进行处理（这个地方也可以用strtok直接根据@对email地址进行分割）
-3、对result进行快排
-4、遍历result统计不一样的email地址个数
+// ### 解题思路
+// 1、定义**result用来存储处理后的email地址
+// 2、使用for循环，根据条件逐个地址进行处理（这个地方也可以用strtok直接根据@对email地址进行分割）
+// 3、对result进行快排
+// 4、遍历result统计不一样的email地址个数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int cmp(const void *a, const void *b)
 {
@@ -74,4 +74,4 @@ int numUniqueEmails(char ** emails, int emailsSize)
 	return ret;
 
 }
-```
+// ```

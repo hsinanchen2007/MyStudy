@@ -1,6 +1,6 @@
-对于[33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/description/)，数组中元素的排列肯定如下图所示(横坐标为index，纵坐标为值)：
+// 对于[33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/description/)，数组中元素的排列肯定如下图所示(横坐标为index，纵坐标为值)：
         
-```
+// ```
   |             *
   |           * |
   |         *   |
@@ -13,9 +13,9 @@
   |—————————————————————————
 
   元素2肯定比元素1小
-```
-对于本题，只要把首尾相同的元素去掉，就变成了[33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/description/)。
-```
+// ```
+// 对于本题，只要把首尾相同的元素去掉，就变成了[33. 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/description/)。
+// ```
 class Solution {
     public boolean search(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
@@ -52,4 +52,4 @@ class Solution {
         return nums[pre] == target;
     }
 }
-```
+// ```

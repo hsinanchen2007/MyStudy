@@ -1,22 +1,22 @@
-1. 关于复杂度
-  1.1 时间复杂度为 O(m*n)
-  1.2 空间负责度为 O(m*n)
-2. 我的解题思路
-  2.1 这个解法基于动态规划
-  2.2 经过分析，这个题目含有5中情况
-       2.2.1 当 i=0 以及 j=0，当前变量等于1，因为只可能有一条路径到达
-       2.2.2 当 obstacleGrid[i][j]==1，表示当前格子含有障碍物，当前变量为0
-       2.2.3 当 i=0，temp=temp[i][j-1]
-       2.2.4 当 j=0，temp[i][j]=temp[i-1][j]
-       2.2.5 其余情况下，temp[i][j]=temp[i-1][j]+temp[i][j-1]
-  2.3 使用双重循环遍历网格，计算临时变量
-  2.4 因为我们无法获取网格的具体信息，而解法的返回值应该临时变量最后一个变量，所以只有返回 temp[obstacleGrid.length-1][obstacleGrid[obstacleGrid.length-1].length-1]
-3. 提交记录
-  3.1 力扣中耗时1ms,消耗32.4MB内存
-  3.2 leetcode中耗时0ms,消耗31.8MB内存
-4. Q&A
+// 1. 关于复杂度
+//   1.1 时间复杂度为 O(m*n)
+//   1.2 空间负责度为 O(m*n)
+// 2. 我的解题思路
+//   2.1 这个解法基于动态规划
+//   2.2 经过分析，这个题目含有5中情况
+//        2.2.1 当 i=0 以及 j=0，当前变量等于1，因为只可能有一条路径到达
+//        2.2.2 当 obstacleGrid[i][j]==1，表示当前格子含有障碍物，当前变量为0
+//        2.2.3 当 i=0，temp=temp[i][j-1]
+//        2.2.4 当 j=0，temp[i][j]=temp[i-1][j]
+//        2.2.5 其余情况下，temp[i][j]=temp[i-1][j]+temp[i][j-1]
+//   2.3 使用双重循环遍历网格，计算临时变量
+//   2.4 因为我们无法获取网格的具体信息，而解法的返回值应该临时变量最后一个变量，所以只有返回 temp[obstacleGrid.length-1][obstacleGrid[obstacleGrid.length-1].length-1]
+// 3. 提交记录
+//   3.1 力扣中耗时1ms,消耗32.4MB内存
+//   3.2 leetcode中耗时0ms,消耗31.8MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *      63.Unique Paths II
@@ -84,6 +84,6 @@ class Solution{
         return temp[obstacleGrid.length-1][obstacleGrid[obstacleGrid.length-1].length-1];
     }
 }
-```
-如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
-你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 提出issue，我会及时处理
+// 你也可以关注 [我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution) 获得其他题目解题思路

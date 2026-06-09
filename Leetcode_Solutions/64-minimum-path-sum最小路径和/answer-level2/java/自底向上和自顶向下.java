@@ -1,22 +1,22 @@
-## 思路:
+// ## 思路:
 
-与[62. 不同路径](https://leetcode-cn.com/problems/unique-paths/),[63. 不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)是一类的题型.
+// 与[62. 不同路径](https://leetcode-cn.com/problems/unique-paths/),[63. 不同路径 II](https://leetcode-cn.com/problems/unique-paths-ii/)是一类的题型.
 
-动态规划,用`dp[i][j]`表示到`i,j`的最小路径和.
+// 动态规划,用`dp[i][j]`表示到`i,j`的最小路径和.
 
-动态方程: `dp[i][j] = min(dp[i-1][j], dp[i][j-1]) + grid[i][j]`
+// 动态方程: `dp[i][j] = min(dp[i-1][j], dp[i][j-1]) + grid[i][j]`
 
-注意这里的第一行,和第一列要单独考虑,
+// 注意这里的第一行,和第一列要单独考虑,
 
-还有可以直接在`grid`上操作,优化空间!
+// 还有可以直接在`grid`上操作,优化空间!
 
-再附上自顶向下动态规划, 大家可以附上 `Java` 代码吗?
+// 再附上自顶向下动态规划, 大家可以附上 `Java` 代码吗?
 
-## 代码:
+// ## 代码:
 
-自底向上
+// 自底向上
 
-```python [1]
+// ```python [1]
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         if not grid: return 0
@@ -35,11 +35,11 @@ class Solution:
             for j in range(1, col):
                 dp[i][j] = min(dp[i-1][j], dp[i][j-1]) + grid[i][j]
         return dp[-1][-1]
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public int minPathSum(int[][] grid) {
         if (grid == null) return 0;
@@ -59,13 +59,13 @@ class Solution {
         return dp[row - 1][col - 1];
     }
 }
-```
+// ```
 
 
 
-自顶向下
+// 自顶向下
 
-```python [2]
+// ```python [2]
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         import functools
@@ -82,5 +82,5 @@ class Solution:
             tmp += grid[i][j] + min(helper(i, j+1), helper(i+1, j))
             return tmp
         return helper(0, 0)
-```
+// ```
 

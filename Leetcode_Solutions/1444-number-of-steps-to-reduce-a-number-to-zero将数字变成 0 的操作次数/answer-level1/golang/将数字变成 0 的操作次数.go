@@ -1,9 +1,9 @@
-### 解题思路
-太简单，直接看代码吧
+// ### 解题思路
+// 太简单，直接看代码吧
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numberOfSteps(num int) int {
 	step := 0
 	for num != 0 {
@@ -16,4 +16,4 @@ func numberOfSteps(num int) int {
 	}
 	return step
 }
-```
+// ```

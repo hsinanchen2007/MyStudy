@@ -1,9 +1,9 @@
-### 解题思路
-巧妙使用abs，遍历已存在的下标
+# ### 解题思路
+# 巧妙使用abs，遍历已存在的下标
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
         
@@ -28,4 +28,4 @@ class Solution:
 
 
         
-```
+# ```

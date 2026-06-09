@@ -1,9 +1,9 @@
-### 解题思路
-题目是二叉搜索树，二叉搜索树指的是树的左节点>右节点。
+// ### 解题思路
+// 题目是二叉搜索树，二叉搜索树指的是树的左节点>右节点。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean verifyPostorder(int[] postorder) {
         return helper(postorder, 0, postorder.length - 1);
@@ -30,4 +30,4 @@ class Solution {
 
     }
 }
-```
+// ```

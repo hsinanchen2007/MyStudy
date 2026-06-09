@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int thirdMax(int[] nums) {
 //先判断数组中的元素是不是空，数据是不是合法的
@@ -22,4 +22,4 @@ class Solution {
 
 
 }
-```
+// ```

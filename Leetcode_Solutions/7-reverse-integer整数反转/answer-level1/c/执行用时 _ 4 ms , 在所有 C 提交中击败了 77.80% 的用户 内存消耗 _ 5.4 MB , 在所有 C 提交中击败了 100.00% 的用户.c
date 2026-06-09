@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <math.h>
 #define MAX 2147483647
 #define MIN -2147483647
@@ -37,4 +37,4 @@ int getCount(int i)
     }
     return count - 1;
 }
-```
+// ```

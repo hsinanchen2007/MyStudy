@@ -1,4 +1,4 @@
-```python
+# ```python
 def uniquePaths(m, n):
     """
         1. dp问题, dp[i][j] = dp[i - 1][j] + dp[i][j - 1]
@@ -16,4 +16,4 @@ def uniquePaths(m, n):
     return dp[m - 1][n - 1]
 
 print(uniquePaths(7, 3))
-```
+# ```

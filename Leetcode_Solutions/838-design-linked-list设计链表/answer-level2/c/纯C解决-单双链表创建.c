@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 typedef struct Node{
     int val;
@@ -109,9 +109,9 @@ void myLinkedListFree(MyLinkedList* obj) {
  
  * myLinkedListFree(obj);
 */
-```
+// ```
 
-```
+// ```
 
 typedef struct  Node{
     struct Node *next;
@@ -230,4 +230,4 @@ void myLinkedListFree(MyLinkedList* obj) {
  
  * myLinkedListFree(obj);
 */
-```
+// ```

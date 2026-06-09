@@ -1,16 +1,16 @@
-总体思路:
+// 总体思路:
 
-使用快慢指针找到链表的中间位置
-反转前半部分链表
-逐一对比前后两部分链表
- 上面提到了快慢指针,我们来了解一下如下:
+// 使用快慢指针找到链表的中间位置
+// 反转前半部分链表
+// 逐一对比前后两部分链表
+//  上面提到了快慢指针,我们来了解一下如下:
 
-利用快慢指针,将一个链表看成一个跑道, 假设a的速度是b的两倍, 那么当a跑完全程后, b刚好跑一半, 来找到中间节点的目的.
+// 利用快慢指针,将一个链表看成一个跑道, 假设a的速度是b的两倍, 那么当a跑完全程后, b刚好跑一半, 来找到中间节点的目的.
 
-slow 和 fast 指针都指向链表的第一个节点,然后slow 每次移动一个指针, fast每次移动两个指针.图如下:
-![image.png](https://pic.leetcode-cn.com/18c67dbd80d671dd82e83aff273d600eb86b13fed952f22d69692f52c9c4c52a-image.png)
+// slow 和 fast 指针都指向链表的第一个节点,然后slow 每次移动一个指针, fast每次移动两个指针.图如下:
+// ![image.png](https://pic.leetcode-cn.com/18c67dbd80d671dd82e83aff273d600eb86b13fed952f22d69692f52c9c4c52a-image.png)
 
-```
+// ```
 public class ListNode {
     public var val: Int?
     public var next: ListNode?
@@ -47,4 +47,4 @@ func isPalindrome(_ head: ListNode?) -> Bool {
     }
     return true
 }
-```
+// ```

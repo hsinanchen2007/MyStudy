@@ -1,6 +1,6 @@
-动态规划添加了行间注释, 状态矩阵:
-![isMatch.png](https://pic.leetcode-cn.com/ba67899675bcd162f57a6cfa2a100b28df74c4fd6765af435a9390a7e32f61de-isMatch.png)
-```
+# 动态规划添加了行间注释, 状态矩阵:
+# ![isMatch.png](https://pic.leetcode-cn.com/ba67899675bcd162f57a6cfa2a100b28df74c4fd6765af435a9390a7e32f61de-isMatch.png)
+# ```
 class Solution:
     '''
     给定一个字符串 (s) 和一个字符模式 (p)。实现支持 '.' 和 '*' 的正则表达式匹配。
@@ -90,4 +90,4 @@ s = Solution()
 # print(s.isMatch('aaabc', 'a*bc'))
 print(s.isMatchBack('aaa', 'ab*a*c*a'))
 
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-1. 计数&判断质数
-2. 素数表
+// ### 解题思路
+// 1. 计数&判断质数
+// 2. 素数表
 
-### 代码
+// ### 代码
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int countPrimeSetBits(int L, int R) {
@@ -35,8 +35,8 @@ public:
         return true;
     }
 };
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     int countPrimeSetBits(int L, int R) {
@@ -51,4 +51,4 @@ public:
         return res;
     }
 };
-```
+// ```

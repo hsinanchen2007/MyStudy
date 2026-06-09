@@ -1,9 +1,9 @@
-### 解题思路
-主要是找到每个原语的位置 第一个括号和第一个与之对应的闭括号位置
+// ### 解题思路
+// 主要是找到每个原语的位置 第一个括号和第一个与之对应的闭括号位置
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String removeOuterParentheses(String S) {
       Stack<Character>stack=new Stack<>();
@@ -32,4 +32,4 @@ class Solution {
        return stringBuilder.toString();
     }
 }
-```
+// ```

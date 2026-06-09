@@ -1,4 +1,4 @@
-```
+// ```
 var countAndSay = function(n) {
     let arr = ["1"];
     if(n == 1) return arr[n-1];
@@ -19,4 +19,4 @@ var countAndSay = function(n) {
     }
     return arr[n-1];
 };
-```
+// ```

@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minimumLengthEncoding(vector<string>& words) {
@@ -19,4 +19,4 @@ public:
         return res+words.back().size()+1;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-我开始的思路是写一个前/中/后序遍历，然后在遍历中穿插判断当前节点的树是否和B树一样的想法。可是那样操作起来总感觉有思维漏洞。看了下题解，看到了这样的写法，直接递归原还是。满足一真则真的简洁写法，有点吊的。helper写的也很厉害的。好好学习一下别的代码。代码连接在下文。
+// ### 解题思路
+// 我开始的思路是写一个前/中/后序遍历，然后在遍历中穿插判断当前节点的树是否和B树一样的想法。可是那样操作起来总感觉有思维漏洞。看了下题解，看到了这样的写法，直接递归原还是。满足一真则真的简洁写法，有点吊的。helper写的也很厉害的。好好学习一下别的代码。代码连接在下文。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
 // 链接：https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/solution/shu-de-zi-jie-gou-di-gui-zhan-mo-ni-by-huwt/
 
 }
-```
+// ```

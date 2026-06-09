@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def findRadius(houses: Array[Int], heaters: Array[Int]): Int = {
     var j = 0
@@ -13,4 +13,4 @@ object Solution {
     res
   }
 }
-```
+// ```

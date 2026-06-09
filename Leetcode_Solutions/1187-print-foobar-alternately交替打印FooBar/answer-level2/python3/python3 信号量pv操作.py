@@ -1,12 +1,12 @@
-### 解题思路
-import threading
-s=threading.Semaphore(1)#1代表计数器
-s.acquire()#p操作，减一，如果小于0阻塞
-s.release()#v操作，加一，如果大于等于0则说明有线程在等待
+# ### 解题思路
+# import threading
+# s=threading.Semaphore(1)#1代表计数器
+# s.acquire()#p操作，减一，如果小于0阻塞
+# s.release()#v操作，加一，如果大于等于0则说明有线程在等待
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import threading 
 class FooBar:
     def __init__(self, n):
@@ -33,4 +33,4 @@ class FooBar:
             self.s2.acquire()
             printBar()
             self.s1.release()
-```
+# ```

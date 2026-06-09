@@ -1,4 +1,4 @@
-思路：query中的字符串和pattern逐个字母比较，如果不行同的十大写字母，返回false，如果是小写字母，继续跳过比较
+// 思路：query中的字符串和pattern逐个字母比较，如果不行同的十大写字母，返回false，如果是小写字母，继续跳过比较
 bool* camelMatch(char ** queries, int queriesSize, char * pattern, int* returnSize){
     int count = 0;
     bool* res = (bool*)malloc(sizeof(bool) * queriesSize);

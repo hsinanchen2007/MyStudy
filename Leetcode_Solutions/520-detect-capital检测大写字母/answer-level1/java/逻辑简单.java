@@ -1,11 +1,11 @@
-### 解题思路
-1. 首先计算除去**首字母**之外的字符串中大写、小写字母的频次,分别为upperCount、lowerCount;
-2. 然后分**首字母**为大小写分类讨论，首字母为大写时，其余全部为大写时，True；其余全部为小写时，True；
-3. 首字母为小写时，其余全部为小写时，True。其余情况，返回False。
+// ### 解题思路
+// 1. 首先计算除去**首字母**之外的字符串中大写、小写字母的频次,分别为upperCount、lowerCount;
+// 2. 然后分**首字母**为大小写分类讨论，首字母为大写时，其余全部为大写时，True；其余全部为小写时，True；
+// 3. 首字母为小写时，其余全部为小写时，True。其余情况，返回False。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean detectCapitalUse(String word) {
         int size = word.length();
@@ -30,4 +30,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-数字+1就要考虑到进位的问题，那么对数组从后往前逆序遍历，然后在最后一位添加1，并以此记录进位情况
+# 数字+1就要考虑到进位的问题，那么对数组从后往前逆序遍历，然后在最后一位添加1，并以此记录进位情况
 
-```
+# ```
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         
@@ -18,4 +18,4 @@ class Solution:
             return [1] + digits
             
         return digits
-```
+# ```

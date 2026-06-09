@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 	int uniqueMorseRepresentations(vector<string>& words) {
@@ -14,4 +14,4 @@ public:
 		return s.size();
 	}
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O(len(S))，双指针遍历列表一遍即可
-空间复杂度：O(len(S))，由于python中字符串S不可以原地修改，只能另存为列表l，长度为len(S)
+# ### 解题思路
+# 时间复杂度：O(len(S))，双指针遍历列表一遍即可
+# 空间复杂度：O(len(S))，由于python中字符串S不可以原地修改，只能另存为列表l，长度为len(S)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseOnlyLetters(self, S: str) -> str:
         l=list(S)
@@ -19,4 +19,4 @@ class Solution:
             i+=1
             j-=1
         return ''.join(l)
-```
+# ```

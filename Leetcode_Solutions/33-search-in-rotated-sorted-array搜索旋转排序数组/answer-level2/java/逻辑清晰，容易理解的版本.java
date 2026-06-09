@@ -1,5 +1,5 @@
-1. 普通的有序数组的二分查找
-```Java
+// 1. 普通的有序数组的二分查找
+// ```Java
 class Solution{
     public int search(int[] nums,int target){
         int left = 0;
@@ -16,11 +16,11 @@ class Solution{
         return -1;
     }
 }
-```
+// ```
 
 
-2. 旋转有序数组的二分查找
-```Java
+// 2. 旋转有序数组的二分查找
+// ```Java
 class Solution {
     public int search(int[] nums,int target){
         int left = 0;
@@ -50,6 +50,6 @@ class Solution {
         return -1;
     }
 }
-```
-主要的思想是，每次取得mid，那么两部分一定有一个是严格有序的。
-如果在严格有序的部分中不存在，那么就去另外一部分中去寻找
+// ```
+// 主要的思想是，每次取得mid，那么两部分一定有一个是严格有序的。
+// 如果在严格有序的部分中不存在，那么就去另外一部分中去寻找

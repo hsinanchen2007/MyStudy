@@ -1,9 +1,9 @@
-### 解题思路
-打开 且 拥有的箱子
+// ### 解题思路
+// 打开 且 拥有的箱子
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 class BoxState{
     public int id = -1;
     // public HashSet<int> preBox = new HashSet<int>();
@@ -115,4 +115,4 @@ public class Solution {
         return ob.MaxCandies(status, candies, keys, containedBoxes, initialBoxes);
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-*法一：switch语句，特殊处理以“I、X、C”开头的字符*
-```js
+// *法一：switch语句，特殊处理以“I、X、C”开头的字符*
+// ```js
 var romanToInt = function(s) {
     var result = 0;
     var len = s.length;
@@ -58,10 +58,10 @@ var romanToInt = function(s) {
     return result;
 }
 console.log(romanToInt(s))
-```
+// ```
 
-*法二：将两位罗马数字转成一位*
-```js
+// *法二：将两位罗马数字转成一位*
+// ```js
 var romanToInt2 = function(s) {
 
     s = s.replace(/IV/g, 'Q'); //4
@@ -94,6 +94,6 @@ var romanToInt2 = function(s) {
 }
 
 console.log(romanToInt2(s))
-```
+// ```
 
 

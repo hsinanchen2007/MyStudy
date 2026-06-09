@@ -1,5 +1,5 @@
-动态规划解法
-```
+# 动态规划解法
+# ```
 class Solution(object):
     def maxProfit(self, prices):
         """
@@ -14,6 +14,6 @@ class Solution(object):
             min_p= min(min_p,prices[i])
             max_p= max(max_p,prices[i]-min_p)
         return max_p
-```
+# ```
 
-最大利润=max{前一天最大利润, 今天的价格 - 之前最低价格}
+# 最大利润=max{前一天最大利润, 今天的价格 - 之前最低价格}

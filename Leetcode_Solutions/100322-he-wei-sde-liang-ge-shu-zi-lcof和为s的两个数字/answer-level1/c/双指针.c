@@ -1,9 +1,9 @@
-### 解题思路
-将数组从头和尾一起遍历，判断是否与target相等。
+// ### 解题思路
+// 将数组从头和尾一起遍历，判断是否与target相等。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -32,4 +32,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     }
     return ans;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 #include <stdio.h>
 
 #define MAX_N 201
@@ -60,4 +60,4 @@ int findCircleNum(int **M, int MSize, int *MColSize)
 	return GerFathers(MSize);
 }
 
-```
+// ```

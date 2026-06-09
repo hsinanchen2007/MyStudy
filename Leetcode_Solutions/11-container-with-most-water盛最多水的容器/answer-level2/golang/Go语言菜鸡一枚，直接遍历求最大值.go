@@ -1,8 +1,8 @@
-### 解题思路
-此处撰写解题思路
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ### 代码
 
-```golang
+// ```golang
 func maxArea(height []int) int {
     a := 0
     s := 0
@@ -20,4 +20,4 @@ func maxArea(height []int) int {
     }
     return a
 }
-```
+// ```

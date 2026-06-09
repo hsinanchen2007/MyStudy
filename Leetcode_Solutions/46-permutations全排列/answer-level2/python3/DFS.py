@@ -1,13 +1,13 @@
-### 解题思路
-1. 题目目标：
-在以下这个三叉树种寻找结果
-![image.png](https://pic.leetcode-cn.com/d0a39a3a5bb01242423b78ad922a3627ff61e528d4df7ee5ac7015157622c372-image.png)
-2. 解题思路：
-- DFS；回溯算法
+# ### 解题思路
+# 1. 题目目标：
+# 在以下这个三叉树种寻找结果
+# ![image.png](https://pic.leetcode-cn.com/d0a39a3a5bb01242423b78ad922a3627ff61e528d4df7ee5ac7015157622c372-image.png)
+# 2. 解题思路：
+# - DFS；回溯算法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         self.res = []
@@ -34,4 +34,4 @@ class Solution:
 
 
 
-```
+# ```

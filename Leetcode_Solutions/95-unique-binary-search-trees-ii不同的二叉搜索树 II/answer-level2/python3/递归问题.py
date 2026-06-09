@@ -1,9 +1,9 @@
-### 解题思路
-记录，此为递归，每次递归返回的是一个列表，保存了以此为树的所有可能性
+# ### 解题思路
+# 记录，此为递归，每次递归返回的是一个列表，保存了以此为树的所有可能性
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
 
 
 
-```
+# ```

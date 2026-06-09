@@ -1,5 +1,5 @@
-根据题目：二叉树的层次遍历II写的，题目II是正向遍历，I是反向遍历，直接用reverse()函数即可；
-```
+// 根据题目：二叉树的层次遍历II写的，题目II是正向遍历，I是反向遍历，直接用reverse()函数即可；
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -36,4 +36,4 @@ public:
         return res;
     }
 };
-```
+// ```

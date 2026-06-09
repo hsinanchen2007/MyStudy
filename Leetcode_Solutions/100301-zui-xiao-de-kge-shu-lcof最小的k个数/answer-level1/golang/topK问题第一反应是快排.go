@@ -1,9 +1,9 @@
-### 解题思路
-topN的问题第一反应应该到快排上，因为它的速度是最快的，而且topN的结果不用排序。
+// ### 解题思路
+// topN的问题第一反应应该到快排上，因为它的速度是最快的，而且topN的结果不用排序。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func getLeastNumbers(arr []int, k int) []int {
   beg, end := 0,len(arr)-1
   for{
@@ -40,4 +40,4 @@ func partition(arr []int, beg int, end  int) int{
 }
 
 
-```
+// ```

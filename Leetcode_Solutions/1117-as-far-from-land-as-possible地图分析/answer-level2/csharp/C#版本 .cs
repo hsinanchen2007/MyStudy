@@ -1,9 +1,9 @@
-### 解题思路
-参考甜咦思路写的，还得多学习啊
+// ### 解题思路
+// 参考甜咦思路写的，还得多学习啊
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MaxDistance(int[][] grid) {
         int[] dx = { 0, 0, 1, -1 };
@@ -54,4 +54,4 @@ public class Solution {
         return grid[point[0]][point[1]] - 1;
     }
 }
-```
+// ```

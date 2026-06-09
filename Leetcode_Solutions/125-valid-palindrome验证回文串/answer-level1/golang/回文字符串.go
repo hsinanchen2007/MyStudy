@@ -1,9 +1,9 @@
-### 解题思路
-双向遍历
+// ### 解题思路
+// 双向遍历
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isPalindrome(s string) bool {
 	if len(s) == 0{
 		return true
@@ -29,4 +29,4 @@ func isPalindrome(s string) bool {
 	}
 	return true
 }
-```
+// ```

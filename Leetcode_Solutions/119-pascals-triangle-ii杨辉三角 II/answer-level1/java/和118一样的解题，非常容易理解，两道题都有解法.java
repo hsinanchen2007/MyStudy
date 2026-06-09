@@ -1,9 +1,9 @@
-### 解题思路
-同上述118几乎一样的解题思路
+// ### 解题思路
+// 同上述118几乎一样的解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         List<List<Integer>> list = new ArrayList<>();
@@ -32,10 +32,10 @@ class Solution {
         return list.get(rowIndex);
     }
 }
-```
-118题的解题
+// ```
+// 118题的解题
 
- ```java
+//  ```java
 public  static List<List<Integer>> generate(int nums){
         List<List<Integer>> list = new ArrayList<>();
         for(int i=0;i<nums;i++){

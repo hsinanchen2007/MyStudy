@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/aea01356d20db79f9d09b9498b52d42129562625ee4eefa6d29f47e355b9599b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/aea01356d20db79f9d09b9498b52d42129562625ee4eefa6d29f47e355b9599b-image.png)
 
-思路：先利用哈希表把所有括号对`[]`的位置存起来，就能实现`O(N)`的搜索了
+// 思路：先利用哈希表把所有括号对`[]`的位置存起来，就能实现`O(N)`的搜索了
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string decodeString(string s) {
@@ -41,4 +41,4 @@ public:
         }
     }
 };
-```
+// ```

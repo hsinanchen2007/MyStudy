@@ -1,9 +1,9 @@
-### 解题思路
-动态规划 + 数学分析
+// ### 解题思路
+// 动态规划 + 数学分析
 
-### 代码
-# 动态规划法
-```csharp
+// ### 代码
+// # 动态规划法
+// ```csharp
 public class Solution {
     public int CuttingRope(int n) {
         if (n < 0) return 0;
@@ -25,10 +25,10 @@ public class Solution {
         return dp[n];
     }
 }
-```
+// ```
 
-# 数学分析法
-```
+// # 数学分析法
+// ```
 if (n <= 3) return n - 1;
 int times = n / 3, remainder = n % 3;
 switch (remainder)
@@ -51,4 +51,4 @@ switch (remainder)
     default:
         throw new NotImplementedException();
 }
-```
+// ```

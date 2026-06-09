@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2228cec0be05b501ccf31dc6fe7262dada66920dc0669f3886084dc9b65aaec8-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/2228cec0be05b501ccf31dc6fe7262dada66920dc0669f3886084dc9b65aaec8-image.png)
 
-其实就是左字树与右子树互换
+// 其实就是左字树与右子树互换
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,34 +30,34 @@ class Solution {
         return root;
     }
 }
-```java
-class Solution {
-    //辅助栈的形式
-    public TreeNode mirrorTree(TreeNode root){
-        if(root==null){
-            return root;
-        }
-        Stack<TreeNode> stack=new Stack<>();
-        //将节点推入栈中
-        stack.push(root);
-        //当栈为空的时候退出
-        while(!stack.isEmpty()){
-            TreeNode node=stack.pop();
-            //左子树赋值到临时变量
-            TreeNode temp=node.left;
-            //左子树等于右子树
-            node.left=node.right;
-            //右子树等于左子树
-            node.right=temp;
-            //左右子树不为空时,推人栈中
-            if(node.left!=null){
-                stack.push(node.left);
-            }
-            if(node.right!=null){
-                stack.push(node.right);
-            } 
-        }
-        return root;
-    }
-}
-```
+// ```java
+// class Solution {
+//     //辅助栈的形式
+//     public TreeNode mirrorTree(TreeNode root){
+//         if(root==null){
+//             return root;
+//         }
+//         Stack<TreeNode> stack=new Stack<>();
+//         //将节点推入栈中
+//         stack.push(root);
+//         //当栈为空的时候退出
+//         while(!stack.isEmpty()){
+//             TreeNode node=stack.pop();
+//             //左子树赋值到临时变量
+//             TreeNode temp=node.left;
+//             //左子树等于右子树
+//             node.left=node.right;
+//             //右子树等于左子树
+//             node.right=temp;
+//             //左右子树不为空时,推人栈中
+//             if(node.left!=null){
+//                 stack.push(node.left);
+//             }
+//             if(node.right!=null){
+//                 stack.push(node.right);
+//             } 
+//         }
+//         return root;
+//     }
+// }
+// ```

@@ -1,5 +1,5 @@
-golang 递归解题：
-``` golang
+// golang 递归解题：
+// ``` golang
 func sumOfLeftLeaves(root *TreeNode) int {
 	if root == nil {
 		return 0
@@ -12,4 +12,4 @@ func sumOfLeftLeaves(root *TreeNode) int {
 
 	return sumOfLeftLeaves(root.Left) + sumOfLeftLeaves(root.Right) + left
 }
-```
+// ```

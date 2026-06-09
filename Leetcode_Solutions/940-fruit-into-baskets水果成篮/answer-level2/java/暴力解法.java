@@ -1,9 +1,9 @@
-### 解题思路
-暴力解法
+// ### 解题思路
+// 暴力解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
  * Copyright (c) 2020
  * @Author:xiaoweixiang
@@ -53,4 +53,4 @@ public class Solution {
 }
 
 
-```
+// ```

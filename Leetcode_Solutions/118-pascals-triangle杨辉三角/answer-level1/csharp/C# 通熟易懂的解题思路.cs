@@ -1,6 +1,6 @@
-很好理解的一种解决方法，代码如下所示：
+// 很好理解的一种解决方法，代码如下所示：
 
-```
+// ```
 public class Solution
 {
     public IList<IList<int>> Generate(int numRows)
@@ -22,4 +22,4 @@ public class Solution
         return list;
     }
 }
-```
+// ```

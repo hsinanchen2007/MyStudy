@@ -1,9 +1,9 @@
-### 解题思路
-二分法查找，测试点中会出现signed int的上限，所以不能直接做运算，必须进行强制转换
+// ### 解题思路
+// 二分法查找，测试点中会出现signed int的上限，所以不能直接做运算，必须进行强制转换
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /** 
  * Forward declaration of guess API.
  * @param  num   your guess
@@ -34,4 +34,4 @@ int guessNumber(int n){
         
     }
 }
-```
+// ```

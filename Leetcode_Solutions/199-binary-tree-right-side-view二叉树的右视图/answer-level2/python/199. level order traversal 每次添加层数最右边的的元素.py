@@ -1,9 +1,9 @@
-### 解题思路
-层次遍历，添加最右边的元素
+# ### 解题思路
+# 层次遍历，添加最右边的元素
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution(object):
             totalAns.append(levelAns[-1])
         return totalAns
 
-```
+# ```

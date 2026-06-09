@@ -1,6 +1,6 @@
-参考 labuladong 的题解
+// 参考 labuladong 的题解
 
-```php
+// ```php
 class Solution
 {
 
@@ -37,4 +37,4 @@ class Solution
         return $dp[0][$count - 1][0] > $dp[0][$count - 1][1];
     }
 }
-```
+// ```

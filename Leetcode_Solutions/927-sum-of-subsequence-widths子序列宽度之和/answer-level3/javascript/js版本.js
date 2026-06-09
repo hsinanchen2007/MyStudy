@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} A
  * @return {number}
@@ -28,4 +28,4 @@ function pow(len) {
         return pow(half) * pow(len - half)
     } else return BigInt(Math.pow(2, len))
 }
-```
+// ```

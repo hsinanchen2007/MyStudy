@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-经典二分查找法。注意这里使用的是左闭右开[l,r) 的搜索范围，因此while上的判断是 l<r ，而不是 l<=r。
+// 经典二分查找法。注意这里使用的是左闭右开[l,r) 的搜索范围，因此while上的判断是 l<r ，而不是 l<=r。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -19,4 +19,4 @@ public:
         return -1;
     }
 };
-```
+// ```

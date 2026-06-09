@@ -1,10 +1,10 @@
-思路：
-（1）首先以 " " 为标准分割字符串 s，得到字符串数组 str，再用 maxl 存储 str 中单词的最大长度；
-（2）再根据 maxl 的数值进行遍历，每一位都使用一个 StringBuilder 存储竖直打印的结果（根据实际情况做出相应处理）；
-（3）对字符串 sb.toStirng() 进行处理，去除掉末尾的空格，保留其他空格并存储进 list；
-（4）返回 list 即为结果。
+// 思路：
+// （1）首先以 " " 为标准分割字符串 s，得到字符串数组 str，再用 maxl 存储 str 中单词的最大长度；
+// （2）再根据 maxl 的数值进行遍历，每一位都使用一个 StringBuilder 存储竖直打印的结果（根据实际情况做出相应处理）；
+// （3）对字符串 sb.toStirng() 进行处理，去除掉末尾的空格，保留其他空格并存储进 list；
+// （4）返回 list 即为结果。
 
-```
+// ```
 class Solution {
     public List<String> printVertically(String s) {
         List<String> list = new ArrayList<>();
@@ -43,4 +43,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

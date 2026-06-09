@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findWords(self, words: List[str]) -> List[str]:
         s1 = "qwertyuiop"
@@ -36,4 +36,4 @@ class Solution:
             if flg == "tr":
                 list1.append(i)
         return(list1)
-```
+# ```

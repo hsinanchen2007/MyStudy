@@ -1,19 +1,19 @@
-### 解题思路
-同习题 [面试题 08.12. 八皇后](https://leetcode-cn.com/problems/eight-queens-lcci/solution/gelthin-hui-su-fa-jie-ba-huang-hou-deepcopy-nonloc/)
+# ### 解题思路
+# 同习题 [面试题 08.12. 八皇后](https://leetcode-cn.com/problems/eight-queens-lcci/solution/gelthin-hui-su-fa-jie-ba-huang-hou-deepcopy-nonloc/)
 
-回溯 效率好低， 20*20 无法解。超时。
-之前好像是 liweiwei 大神分析了一下回溯的复杂度，超难分析，超复杂。
+# 回溯 效率好低， 20*20 无法解。超时。
+# 之前好像是 liweiwei 大神分析了一下回溯的复杂度，超难分析，超复杂。
 
-这里小改了一下先前的代码：
-1. avai 作为参数传递
-2. 对角线和反对角线，一直延伸横跨整个矩阵
-
-
+# 这里小改了一下先前的代码：
+# 1. avai 作为参数传递
+# 2. 对角线和反对角线，一直延伸横跨整个矩阵
 
 
-### 代码
 
-```python3
+
+# ### 代码
+
+# ```python3
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         # 同后面习题
@@ -59,4 +59,4 @@ class Solution:
 ## 回溯 效率好低， 20*20 无法解。超时
 
 
-```
+# ```

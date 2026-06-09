@@ -1,9 +1,9 @@
-### 解题思路
-第一遍遍历获链表的长度，然后计算出中间元素所在的位置进行第二遍遍历即可
+// ### 解题思路
+// 第一遍遍历获链表的长度，然后计算出中间元素所在的位置进行第二遍遍历即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -38,4 +38,4 @@ struct ListNode* middleNode(struct ListNode* head){
     }
     return h;
 }
-```
+// ```

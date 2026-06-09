@@ -1,9 +1,9 @@
-### 解题思路
-动态规划解决
+// ### 解题思路
+// 动态规划解决
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} N
  * @return {boolean}
@@ -30,4 +30,4 @@ var divisorGame = function(N) {
     }
     return dp[N];
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-维护一个链表做LRU stack，一个unordered_map做key-to-value mapping,另一个unordered_map做key-to-listnode mapping。get()中只需要更新链表；put()中更新所有的信息，可以最后调用get()来更新链表。难点就是要注意在更新链表时考虑全所有的情况，并且更新所有相关的指针，我就是忘记了注释多个叹号的两行，卡了好久。。。太蠢了，以前还写过cache simulator，本以为秒过的。。。
+// ### 解题思路
+// 维护一个链表做LRU stack，一个unordered_map做key-to-value mapping,另一个unordered_map做key-to-listnode mapping。get()中只需要更新链表；put()中更新所有的信息，可以最后调用get()来更新链表。难点就是要注意在更新链表时考虑全所有的情况，并且更新所有相关的指针，我就是忘记了注释多个叹号的两行，卡了好久。。。太蠢了，以前还写过cache simulator，本以为秒过的。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class LRUCache {
 public:
     struct Node {
@@ -92,4 +92,4 @@ public:
  * int param_1 = obj->get(key);
  * obj->put(key,value);
  */
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-递归法
-### 代码
+// ### 解题思路
+// 递归法
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -30,4 +30,4 @@ ListNode* mergeTwoLists(ListNode* l1, ListNode* l2)
 
 }
 };
-```
+// ```

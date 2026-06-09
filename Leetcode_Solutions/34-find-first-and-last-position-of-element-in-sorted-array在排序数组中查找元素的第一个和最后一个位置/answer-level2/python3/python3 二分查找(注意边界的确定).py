@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         
@@ -39,4 +39,4 @@ class Solution:
             return [-1,-1]
         
         return [ll, r-1]
-```
+# ```

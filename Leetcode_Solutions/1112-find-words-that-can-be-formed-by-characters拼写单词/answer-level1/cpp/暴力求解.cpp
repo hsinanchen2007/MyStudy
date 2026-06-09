@@ -1,9 +1,9 @@
-### 解题思路
-遍历求解，用visit数组记录是否已经用过这个字母拼写
+// ### 解题思路
+// 遍历求解，用visit数组记录是否已经用过这个字母拼写
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include<cstring>
 class Solution {
 public:
@@ -45,4 +45,4 @@ public:
         return ans;
     }
 };
-```
+// ```

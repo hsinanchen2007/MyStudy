@@ -1,6 +1,6 @@
-中序遍历的同时重建树，顺序保存结果。
+// 中序遍历的同时重建树，顺序保存结果。
 
-```
+// ```
 class FindElements {
 private:
   vector<int> vec;
@@ -22,15 +22,15 @@ public:
       return std::find(vec.begin(), vec.end(), target) != vec.end();
     }
 };
-```
+// ```
 
-184 ms	18.5 MB
+// 184 ms	18.5 MB
 
-## 更快的find
+// ## 更快的find
 
-用Set的话，时间复杂度是 O(1)：
+// 用Set的话，时间复杂度是 O(1)：
 
-```cpp
+// ```cpp
 class FindElements {
 private:
     unordered_set<int> dict;
@@ -54,6 +54,6 @@ public:
       return dict.count(target) > 0;
     }
 };
-```
+// ```
 
-32 ms	30.1 MB
+// 32 ms	30.1 MB

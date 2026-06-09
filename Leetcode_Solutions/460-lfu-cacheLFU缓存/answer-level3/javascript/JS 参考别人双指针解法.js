@@ -1,6 +1,6 @@
-看了几个 js 的版本感觉多多少少都有点问题，最后参考了下 [https://leetcode-cn.com/problems/lfu-cache/solution/java-13ms-shuang-100-shuang-xiang-lian-biao-duo-ji/](https://leetcode-cn.com/problems/lfu-cache/solution/java-13ms-shuang-100-shuang-xiang-lian-biao-duo-ji/) 的第二种自定义双链表解法，但是一直 a 不过，后来发现是在更新 freqMap 时忘记修改 minFreq 了，下面附上完整代码及相关注释。
+// 看了几个 js 的版本感觉多多少少都有点问题，最后参考了下 [https://leetcode-cn.com/problems/lfu-cache/solution/java-13ms-shuang-100-shuang-xiang-lian-biao-duo-ji/](https://leetcode-cn.com/problems/lfu-cache/solution/java-13ms-shuang-100-shuang-xiang-lian-biao-duo-ji/) 的第二种自定义双链表解法，但是一直 a 不过，后来发现是在更新 freqMap 时忘记修改 minFreq 了，下面附上完整代码及相关注释。
 
-```js
+// ```js
 /**
  * 定义结点
  */
@@ -146,6 +146,6 @@ LFUCache.prototype.incFreq = function (node) {
  * var param_1 = obj.get(key)
  * obj.put(key,value)
  */
-```
+// ```
 
-希望对各位有所帮助~
+// 希望对各位有所帮助~

@@ -1,6 +1,6 @@
-第一思路代码：
+// 第一思路代码：
 
-```go
+// ```go
 func sumOfDigits(A []int) int {
 	// 1.遍历数组取得最小值
 	min := 1<<31 - 1
@@ -30,11 +30,11 @@ func sumOfDigits(A []int) int {
 		return 0
 	}
 }
-```
+// ```
 
-参考学习[@大佬的代码](https://leetcode-cn.com/u/resara)，简化代码
+// 参考学习[@大佬的代码](https://leetcode-cn.com/u/resara)，简化代码
 
-```go
+// ```go
 func sumOfDigits(A []int) int {
 	min := A[0]
 	for i := 1; i < len(A); i++ {
@@ -52,4 +52,4 @@ func sumOfDigits(A []int) int {
 	}
 	return 0
 }
-```
+// ```

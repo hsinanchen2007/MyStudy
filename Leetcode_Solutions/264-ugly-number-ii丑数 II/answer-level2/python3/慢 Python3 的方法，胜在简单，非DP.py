@@ -1,5 +1,5 @@
-每次就找最小的还没用过的丑数分别乘上2、3、5，加入到栈中。
-```
+# 每次就找最小的还没用过的丑数分别乘上2、3、5，加入到栈中。
+# ```
 class Solution:
     def nthUglyNumber(self, n: int) -> int:
         c = set()
@@ -20,4 +20,4 @@ class Solution:
                 stack.append(m * 5)
                 c.add(m * 5)
         return d[n - 1]
-```
+# ```

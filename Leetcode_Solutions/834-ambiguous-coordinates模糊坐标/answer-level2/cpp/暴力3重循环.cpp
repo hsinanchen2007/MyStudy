@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/b58fde54e07f28568bab7ec1b67040ac43afa037742126b71f9ddc63c3c1c0c0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b58fde54e07f28568bab7ec1b67040ac43afa037742126b71f9ddc63c3c1c0c0-image.png)
 
-```
+// ```
 class Solution {
 public:
     vector<string> ambiguousCoordinates(string S) {
@@ -49,4 +49,4 @@ public:
     }
 };
 
-```
+// ```

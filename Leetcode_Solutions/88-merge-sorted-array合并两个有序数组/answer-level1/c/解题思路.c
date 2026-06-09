@@ -1,13 +1,13 @@
-### 解题思路
-插入方法：双指针法，遇到nums1[i]>nums2[j]，nums1从i开始后移1个元素，并将nums2[j]插在i的位置，i和j都更新；如果nums1[i]<=nums2[j]，i更新
+// ### 解题思路
+// 插入方法：双指针法，遇到nums1[i]>nums2[j]，nums1从i开始后移1个元素，并将nums2[j]插在i的位置，i和j都更新；如果nums1[i]<=nums2[j]，i更新
 
-插入的两个阶段：
-1、如果nums2里没有比nums1大的元素，遍历到nums1结尾插入就OK了。
-2、如果遍历到nums1的结尾，nums2仍有元素未插入：将nums2剩余的元素插入到nums1的结尾
+// 插入的两个阶段：
+// 1、如果nums2里没有比nums1大的元素，遍历到nums1结尾插入就OK了。
+// 2、如果遍历到nums1的结尾，nums2仍有元素未插入：将nums2剩余的元素插入到nums1的结尾
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n) {
     int i, j, k;
     int add_num = 0;
@@ -38,4 +38,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n) {
     }
 
 }
-```
+// ```

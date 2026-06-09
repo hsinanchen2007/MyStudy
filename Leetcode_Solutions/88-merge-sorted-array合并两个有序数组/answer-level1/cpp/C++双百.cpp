@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/14f51ded4d1d105249429c8f09d3af0e80c73c489200827ae294a8a6b80634ab-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/14f51ded4d1d105249429c8f09d3af0e80c73c489200827ae294a8a6b80634ab-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -18,4 +18,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-- 首先要了解什么是链表，了解后，肯定能解出本题，也就是对应得节点进行求和来得到最终得链表，剩下的就是代码优化。
-    - 搜索关键词：链表、linked list
-    - 参考文章推荐：
-        - [Computer science in JavaScript: Linked list](https://humanwhocodes.com/blog/2019/01/computer-science-in-javascript-linked-list/)
-        - [维基(中文)](https://zh.wikipedia.org/wiki/%E9%93%BE%E8%A1%A8)
-- 误区：
-    - 这道题不能 342+465=807，然后把 807 变成链表，因为当链表足够长时得到的整型值会溢出。
+// ### 解题思路
+// - 首先要了解什么是链表，了解后，肯定能解出本题，也就是对应得节点进行求和来得到最终得链表，剩下的就是代码优化。
+//     - 搜索关键词：链表、linked list
+//     - 参考文章推荐：
+//         - [Computer science in JavaScript: Linked list](https://humanwhocodes.com/blog/2019/01/computer-science-in-javascript-linked-list/)
+//         - [维基(中文)](https://zh.wikipedia.org/wiki/%E9%93%BE%E8%A1%A8)
+// - 误区：
+//     - 这道题不能 342+465=807，然后把 807 变成链表，因为当链表足够长时得到的整型值会溢出。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -55,4 +55,4 @@ var addTwoNumbers = function (l1, l2) {
     }
     return node.next
 };
-```
+// ```

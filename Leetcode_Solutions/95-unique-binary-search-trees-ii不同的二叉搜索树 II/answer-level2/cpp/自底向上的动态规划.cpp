@@ -1,8 +1,8 @@
-这个题显然可以用递归的方式来做。但递归（不做 memorization）的做法时间复杂度比较高，应该是指数级别的。
+// 这个题显然可以用递归的方式来做。但递归（不做 memorization）的做法时间复杂度比较高，应该是指数级别的。
 
-如果用动态规划，时间复杂度会好一些，O(n^5)，嗯，真棒。
+// 如果用动态规划，时间复杂度会好一些，O(n^5)，嗯，真棒。
 
-```c++
+// ```c++
 class Solution {
 public:
     vector<TreeNode*> generateTrees(int n) {
@@ -48,4 +48,4 @@ public:
         return dp[1].back();
     }
 };
-```
+// ```

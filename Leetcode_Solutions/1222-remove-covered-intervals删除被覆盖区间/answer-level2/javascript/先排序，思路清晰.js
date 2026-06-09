@@ -1,10 +1,10 @@
-### 解题思路
-- 将数组按照左边界升序，右边界降序排列
-- 显然后面所有左边界和它一样的区间都将被删除
-- 直到找到第一个右区间大于它的即可，再以该区间为起点比较即可
+// ### 解题思路
+// - 将数组按照左边界升序，右边界降序排列
+// - 显然后面所有左边界和它一样的区间都将被删除
+// - 直到找到第一个右区间大于它的即可，再以该区间为起点比较即可
 
-### 代码
-```javascript
+// ### 代码
+// ```javascript
 var removeCoveredIntervals = function(intervals) {
     // [x, y]按照x升序 y降序排列
     intervals.sort((a, b) => {
@@ -26,4 +26,4 @@ var removeCoveredIntervals = function(intervals) {
     }
     return len - cut;
 };
-```
+// ```

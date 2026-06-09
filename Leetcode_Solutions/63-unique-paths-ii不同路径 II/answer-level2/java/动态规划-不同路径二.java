@@ -1,6 +1,6 @@
-机器人可以往下往右走一格，转移方程Grid[i][j] = Grid[i-1][j]+Grid[i][j-1];
-如果有障碍物，当前点的路径数化为零
-```
+// 机器人可以往下往右走一格，转移方程Grid[i][j] = Grid[i-1][j]+Grid[i][j-1];
+// 如果有障碍物，当前点的路径数化为零
+// ```
 class Solution {
     public int uniquePathsWithObstacles(int[][] Grid) {
         int n = Grid.length,m = Grid[0].length; 
@@ -18,4 +18,4 @@ class Solution {
         return Grid[n-1][m-1];
     }
 }
-```
+// ```

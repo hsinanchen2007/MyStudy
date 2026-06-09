@@ -1,8 +1,8 @@
-### 解题思路
-这个题目跟链表、数组的加法都是一样的，注意for循环的边界条件处理即可
-### 代码
+// ### 解题思路
+// 这个题目跟链表、数组的加法都是一样的，注意for循环的边界条件处理即可
+// ### 代码
 
-```golang
+// ```golang
 func addBinary(a string, b string) string {
     if len(a) == 0 {
         return b
@@ -45,4 +45,4 @@ func reverse(input []byte) {
         input[i], input[j] = input[j], input[i]
     }
 }
-```
+// ```

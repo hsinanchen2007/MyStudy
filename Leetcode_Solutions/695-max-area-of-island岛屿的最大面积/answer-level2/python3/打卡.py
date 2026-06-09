@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     # 上右下左4个方向
     directions = [[-1, 0], [0, 1], [1, 0], [0, -1]]
@@ -31,4 +31,4 @@ class Solution:
             if 0 <= row < m and 0 <= col < n and marked[row][col] == 0 and grid[row][col] == 1:
                 res += self.dfs(grid, row, col, m, n, marked)
         return res 
-```
+# ```

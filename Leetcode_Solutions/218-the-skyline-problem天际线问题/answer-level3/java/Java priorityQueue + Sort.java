@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public List<List<Integer>> getSkyline(int[][] buildings) {
         List<List<Integer>> l = new ArrayList<>();
@@ -41,4 +41,4 @@ class Solution {
         return l;
     }
 }
-```
+// ```

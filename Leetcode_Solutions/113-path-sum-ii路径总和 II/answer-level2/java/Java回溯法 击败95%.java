@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/cda9ff57d06843ce8af53cf887a90f64ff5413d6ba83229e6b7ce858818231ac-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/cda9ff57d06843ce8af53cf887a90f64ff5413d6ba83229e6b7ce858818231ac-image.png)
+// ```
 class Solution {
     List<List<Integer>> result = new ArrayList<List<Integer>>();
     private int target;
@@ -28,4 +28,4 @@ class Solution {
         currentList.remove(currentList.size()-1);           
     }  
 }
-```
+// ```

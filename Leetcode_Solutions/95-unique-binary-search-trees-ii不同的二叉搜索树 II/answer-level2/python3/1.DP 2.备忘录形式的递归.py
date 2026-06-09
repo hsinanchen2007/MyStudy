@@ -1,7 +1,7 @@
-**思路**:可见官方题解 或者看下文的注释(本人菜鸡 基本主要语句都给了注释 代码仅供参考 还请各位多多指教)
+# **思路**:可见官方题解 或者看下文的注释(本人菜鸡 基本主要语句都给了注释 代码仅供参考 还请各位多多指教)
 
-# 一.DP
-```python []
+# # 一.DP
+# ```python []
 from functools import reduce
 from operator import add
 def leetcode_95(n):
@@ -19,8 +19,8 @@ def leetcode_95(n):
 							dp[i][j].append(new)
 		return reduce(add,dp[n].values()) #合并所有的结果并返回
 	return [] #n==0比较特殊 需要单独处理
-```
-```golang []
+# ```
+# ```golang []
 /*golang的都是在py3后面写的 但这边还是尽量保持细节和py3的DP一致 不做什么改进了*/
 func generateTrees(n int) (ans []*TreeNode) {
 	if n!=0 {
@@ -47,11 +47,11 @@ func generateTrees(n int) (ans []*TreeNode) {
 	}
 	return //n==0是特殊情况 需要区别处理
 }
-```
+# ```
 
-# 二.递归
-注:有个小细节稍微和上面有些不同 就是分当前子树的根节点的左右子树时上面用的是各部分的左边界idx和len 这边用的是各部分的左边界和右边界的idx(前者是一开始AC的做法 后者借鉴了大佬们的题解进行了改进)
-```python []
+# # 二.递归
+# 注:有个小细节稍微和上面有些不同 就是分当前子树的根节点的左右子树时上面用的是各部分的左边界idx和len 这边用的是各部分的左边界和右边界的idx(前者是一开始AC的做法 后者借鉴了大佬们的题解进行了改进)
+# ```python []
 def leetcode_95(n):
 	memo=dict.fromkeys(zip(range(1,n+2),range(n+1)),[None]) #备忘录 也可以直接给一个dict但是helper里面就要判断if le>ri:了
 	def helper(le,ri): #左右端点的idx
@@ -66,8 +66,8 @@ def leetcode_95(n):
 			memo[(le,ri)]=ans
 		return memo[(le,ri)]
 	return helper(1,n) if n else [] #n==0是一种特殊情况需要分开来处理的
-```
-```golang []
+# ```
+# ```golang []
 func generateTrees(n int) (ans []*TreeNode) {
 	if n!=0 {
 		memo:=make(map[[2]int][]*TreeNode) //⭐数组可以作为map的键 但是切片是不可以作为键的
@@ -101,5 +101,5 @@ func generateTrees(n int) (ans []*TreeNode) {
 	}
 	return //n==0是一种特殊的情况 徐娅萍特别的处理
 }
-```
+# ```
 

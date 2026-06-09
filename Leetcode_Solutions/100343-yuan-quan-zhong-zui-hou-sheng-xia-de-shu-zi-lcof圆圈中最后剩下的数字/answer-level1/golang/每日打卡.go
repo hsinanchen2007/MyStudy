@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func lastRemaining(n int, m int) int {
     flag := 0
     for i := 2; i <= n; i++ {
@@ -11,4 +11,4 @@ func lastRemaining(n int, m int) int {
     }
     return flag
 }
-```
+// ```

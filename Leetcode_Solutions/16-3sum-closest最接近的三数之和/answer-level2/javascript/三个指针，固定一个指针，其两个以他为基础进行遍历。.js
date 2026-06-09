@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -33,4 +33,4 @@ var threeSumClosest = function(nums, target) {
   }
   return min;
 };
-```
+// ```

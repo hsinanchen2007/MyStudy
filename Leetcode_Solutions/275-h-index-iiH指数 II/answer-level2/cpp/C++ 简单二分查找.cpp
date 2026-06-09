@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int hIndex(vector<int>& citations) {
@@ -16,7 +16,7 @@ public:
         return r;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/af6865043e5a702f67de727569fc9ac9beb769d74e7b251c30091cf2c82e047d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/af6865043e5a702f67de727569fc9ac9beb769d74e7b251c30091cf2c82e047d-image.png)
 

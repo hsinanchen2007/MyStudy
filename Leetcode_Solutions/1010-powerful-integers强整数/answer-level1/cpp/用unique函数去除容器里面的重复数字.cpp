@@ -1,14 +1,14 @@
-### 解题思路
-c++ 双100
+// ### 解题思路
+// c++ 双100
 
-1.分别计算出bound是x和y的几次幂
-2.使用for循环，向容器添加符合的数字
-3.排序，去除容器中重复的数字
-**考虑x或者y等于1特殊情况**
+// 1.分别计算出bound是x和y的几次幂
+// 2.使用for循环，向容器添加符合的数字
+// 3.排序，去除容器中重复的数字
+// **考虑x或者y等于1特殊情况**
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> powerfulIntegers(int x, int y, int bound) {
@@ -38,4 +38,4 @@ public:
         return vec;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先处理数据，以出发点为key，中转站和价格为value构建字典，对处理好的数据进行bfs，开始超时，剪枝优化后通过
+# ### 解题思路
+# 先处理数据，以出发点为key，中转站和价格为value构建字典，对处理好的数据进行bfs，开始超时，剪枝优化后通过
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
         from collections import defaultdict, deque
@@ -28,4 +28,4 @@ class Solution:
 
         return min_price if min_price != float('inf') else -1
 
-```
+# ```

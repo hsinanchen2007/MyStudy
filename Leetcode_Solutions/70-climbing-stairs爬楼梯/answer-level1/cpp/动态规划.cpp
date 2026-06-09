@@ -1,9 +1,9 @@
-### 解题思路
-int tmp = 0;设在for外面提高效率
+// ### 解题思路
+// int tmp = 0;设在for外面提高效率
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) {
@@ -19,4 +19,4 @@ public:
         return tmp2;
     }
 };
-```
+// ```

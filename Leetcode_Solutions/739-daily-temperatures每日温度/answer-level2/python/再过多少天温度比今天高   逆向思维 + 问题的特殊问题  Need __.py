@@ -1,11 +1,11 @@
-### 解题思路
-1. O(NN) 方法很好想到，但是往往会超时的
+# ### 解题思路
+# 1. O(NN) 方法很好想到，但是往往会超时的
 
-2. 从末尾开始遍历，nexT 温度标记表，下标为温度值。每次求最小从那天Ti开始
+# 2. 从末尾开始遍历，nexT 温度标记表，下标为温度值。每次求最小从那天Ti开始
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 '''
 class Solution:
     ## O(NN)
@@ -39,15 +39,15 @@ class Solution(object):
         return ans
 
 
-```
+# ```
 
-## 再写代码
-1. **从nsize-1 开始反向遍历温度数组，根据温度的取值范围<=100**
-    - dp = [0-->float("inf") for i in range(102)] ## **记住离远一点，因此不是101**
-    - **用dp[T[i]] = i 记录温度为T[i] 是第几天（从0开始）**
-    - 若是当前温度为T[j]，找比其高的，**只能在dp[T[j]+1:]中找，且找最小的val（第几天）**
-    - 求最小值，因此dp的初始值得由0改为float("inf") 或 30002 
-```
+# ## 再写代码
+# 1. **从nsize-1 开始反向遍历温度数组，根据温度的取值范围<=100**
+#     - dp = [0-->float("inf") for i in range(102)] ## **记住离远一点，因此不是101**
+#     - **用dp[T[i]] = i 记录温度为T[i] 是第几天（从0开始）**
+#     - 若是当前温度为T[j]，找比其高的，**只能在dp[T[j]+1:]中找，且找最小的val（第几天）**
+#     - 求最小值，因此dp的初始值得由0改为float("inf") 或 30002 
+# ```
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
         nsize = len(T)
@@ -77,4 +77,4 @@ class Solution:
             idx = min(dp[i], idx)
         
         return idx 
-```
+# ```

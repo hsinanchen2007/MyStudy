@@ -1,7 +1,7 @@
-# 思路
-二分法
+// # 思路
+// 二分法
 
-```
+// ```
 int searchInsert(int* nums, int numsSize, int target){
     int start = 0;
     int end = numsSize-1;
@@ -20,4 +20,4 @@ int searchInsert(int* nums, int numsSize, int target){
     }
     return start;
 }
-```
+// ```

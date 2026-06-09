@@ -1,9 +1,9 @@
-### 解题思路
-好吧是一只菜鸡。打卡第一天
+// ### 解题思路
+// 好吧是一只菜鸡。打卡第一天
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -82,4 +82,4 @@ MyStack.prototype.empty = function() {
  * var param_4 = obj.empty()
  */
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxDistToClosest(seats []int) int {
 	N:= len(seats)
 	res:=0
@@ -28,4 +28,4 @@ func maxDistToClosest(seats []int) int {
 	}
 	return res
 }
-```
+// ```

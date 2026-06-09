@@ -1,4 +1,4 @@
-```
+// ```
 import (
 	"strings"
 )
@@ -41,4 +41,4 @@ func getHelpString(s string) string {
 	}
 	return res
 }
-```
+// ```

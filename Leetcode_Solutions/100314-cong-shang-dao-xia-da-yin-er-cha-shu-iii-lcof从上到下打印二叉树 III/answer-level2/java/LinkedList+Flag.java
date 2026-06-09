@@ -1,12 +1,12 @@
-### 解题思路
-flag为true时：
-    表示从头部取数据(pollFirst),而下一轮的数据得正序(左->右)添加到尾部(addLast),因为下一轮数据从尾部取，并且得逆序出来。
-flag为flase时：
-    表示从尾部取数据(pollLast),而下一轮的数据得逆序(右->左)添加到头部(addFirst),因为下一轮数据从头部取，并且得顺序出来。
+// ### 解题思路
+// flag为true时：
+//     表示从头部取数据(pollFirst),而下一轮的数据得正序(左->右)添加到尾部(addLast),因为下一轮数据从尾部取，并且得逆序出来。
+// flag为flase时：
+//     表示从尾部取数据(pollLast),而下一轮的数据得逆序(右->左)添加到头部(addFirst),因为下一轮数据从头部取，并且得顺序出来。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -45,4 +45,4 @@ class Solution {
         return resList;
     }
 }
-```
+// ```

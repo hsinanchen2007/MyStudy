@@ -1,8 +1,8 @@
-### 解题思路
-创建新数组来暂存之后进入的元素
-### 代码
+// ### 解题思路
+// 创建新数组来暂存之后进入的元素
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution{
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n){
@@ -25,4 +25,4 @@ public:
             A[i]=sorted[i];
     }
 };
-```
+// ```

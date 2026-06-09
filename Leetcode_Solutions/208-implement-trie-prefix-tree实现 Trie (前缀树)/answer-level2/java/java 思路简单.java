@@ -1,12 +1,12 @@
-### 解题思路
-主要理解trie的结构，trie是一个树，其每个节点的孩子节点是一个长度为26的数组，每个节点表示一个字母，有一个是否是单词结尾的标识。
+// ### 解题思路
+// 主要理解trie的结构，trie是一个树，其每个节点的孩子节点是一个长度为26的数组，每个节点表示一个字母，有一个是否是单词结尾的标识。
 
-insert过程就是将单词每一位加入树中，并在最后一位的节点处将is_word的标识设为true。
-search和searchwith的过程基本相同，search需要多判断一步是否是单词结尾
+// insert过程就是将单词每一位加入树中，并在最后一位的节点处将is_word的标识设为true。
+// search和searchwith的过程基本相同，search需要多判断一步是否是单词结尾
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Trie {
 
     class Treenode{
@@ -81,4 +81,4 @@ class Trie {
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
-```
+// ```

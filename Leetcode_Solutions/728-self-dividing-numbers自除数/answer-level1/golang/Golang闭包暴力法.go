@@ -1,5 +1,5 @@
-题解一：
-```
+// 题解一：
+// ```
 func selfDividingNumbers(left int, right int) []int {
 	number := make([]int, 0)
 	for i := left; i <= right; i++ {
@@ -20,9 +20,9 @@ func selfDividingNumbers(left int, right int) []int {
 	}
 	return number
 }
-```
-题解二：
-```
+// ```
+// 题解二：
+// ```
 func selfDividingNumbers(left int, right int) []int {
 	number := make([]int, 0)
 	for i := left; i <= right; i++ {
@@ -41,5 +41,5 @@ func selfDividingNumbers(left int, right int) []int {
 	}
 	return number
 }
-```
+// ```
 

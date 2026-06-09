@@ -1,9 +1,9 @@
-### 解题思路
-最常规的解法，最好理解，取得上一行的数组，然后从当前索引1开始遍历到索引Length-1，计算中间节点的值，所有最左和最右的值都是1，无需计算
+// ### 解题思路
+// 最常规的解法，最好理解，取得上一行的数组，然后从当前索引1开始遍历到索引Length-1，计算中间节点的值，所有最左和最右的值都是1，无需计算
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<IList<int>> Generate(int numRows) {
         List<IList<int>> result=new List<IList<int>>();
@@ -43,4 +43,4 @@ public class Solution {
 
     }
 }
-```
+// ```

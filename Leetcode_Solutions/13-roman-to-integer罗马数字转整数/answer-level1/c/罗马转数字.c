@@ -1,9 +1,9 @@
-### 解题思路
-建立哈希对应表；考虑相邻两个字符的大小关系；
+// ### 解题思路
+// 建立哈希对应表；考虑相邻两个字符的大小关系；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include<stdlib.h>
 #include<stdio.h>
 #include<string.h>
@@ -42,4 +42,4 @@ int romanToInt(char * s) {
 
     return integer;
 }
-```
+// ```

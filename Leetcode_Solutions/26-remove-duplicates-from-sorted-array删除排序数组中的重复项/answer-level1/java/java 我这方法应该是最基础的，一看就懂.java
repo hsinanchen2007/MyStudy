@@ -1,5 +1,5 @@
-我这方法是不是很垃圾？一想就想到了，有没有大佬来说一下我的方法的缺陷啊
-```
+// 我这方法是不是很垃圾？一想就想到了，有没有大佬来说一下我的方法的缺陷啊
+// ```
 class Solution {
     public int removeDuplicates(int[] nums) {
         if(nums==null || nums.length<=0) return 0;
@@ -15,4 +15,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

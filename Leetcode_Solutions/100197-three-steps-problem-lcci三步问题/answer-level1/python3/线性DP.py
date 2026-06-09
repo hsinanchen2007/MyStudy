@@ -1,9 +1,9 @@
-### 解题思路
-dp[i]=(dp[i-1]+dp[i-2]+dp[i-3])%1000000007
+# ### 解题思路
+# dp[i]=(dp[i-1]+dp[i-2]+dp[i-3])%1000000007
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def waysToStep(self, n: int) -> int:
         if n==1:
@@ -23,4 +23,4 @@ class Solution:
 
         
         
-```
+# ```

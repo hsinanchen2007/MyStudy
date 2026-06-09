@@ -1,5 +1,5 @@
-首先计算出两个链表的长度差，让长链表指针先走长度差次，则长短链表的指针一定在交点相逢
-```
+// 首先计算出两个链表的长度差，让长链表指针先走长度差次，则长短链表的指针一定在交点相逢
+// ```
  ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         ListNode * p = headA,*q = headB;
         //计算高度差
@@ -33,4 +33,4 @@
         }
         return NULL;
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-这道题考察二叉树的层序遍历，需要记录的是队列中每层最后一个结点。时间复杂度为O(N),空间复杂度为O(N)。
+# ### 解题思路
+# 这道题考察二叉树的层序遍历，需要记录的是队列中每层最后一个结点。时间复杂度为O(N),空间复杂度为O(N)。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -34,4 +34,4 @@ class Solution:
                     q.put(node.right)
                 length-=1
         return res
-```
+# ```

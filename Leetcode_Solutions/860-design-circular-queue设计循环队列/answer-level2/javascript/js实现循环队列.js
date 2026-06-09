@@ -1,11 +1,11 @@
-### 解题思路
-1. 对于js来说这题思路可以非常直接，应该是简单难度
-2. 首先用Array作为容器，push方法进队列，shift方法出队列，实现队列
-3. 判断一下对应的边界条件即可
+// ### 解题思路
+// 1. 对于js来说这题思路可以非常直接，应该是简单难度
+// 2. 首先用Array作为容器，push方法进队列，shift方法出队列，实现队列
+// 3. 判断一下对应的边界条件即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here. Set the size of the queue to be k.
  * @param {number} k
@@ -84,4 +84,4 @@ MyCircularQueue.prototype.isFull = function() {
  * var param_5 = obj.isEmpty()
  * var param_6 = obj.isFull()
  */
-```
+// ```

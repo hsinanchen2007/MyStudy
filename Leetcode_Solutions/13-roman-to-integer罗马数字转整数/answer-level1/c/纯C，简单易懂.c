@@ -1,9 +1,9 @@
-### 解题思路
-I,X,C在题中的相应字母左边时，相当于-1，-10，-100
+// ### 解题思路
+// I,X,C在题中的相应字母左边时，相当于-1，-10，-100
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int romanToInt(char * s){
     int result=0;
     int i=0;
@@ -40,4 +40,4 @@ int romanToInt(char * s){
     }
     return result;
 }
-```
+// ```

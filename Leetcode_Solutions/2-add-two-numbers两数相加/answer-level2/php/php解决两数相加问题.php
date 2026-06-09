@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -41,5 +41,5 @@ class Solution {
         return $l3->next;
     }
 }
-```
-比较中规中矩的做法，评论中没怎么看到Php的就写一下
+// ```
+// 比较中规中矩的做法，评论中没怎么看到Php的就写一下

@@ -1,9 +1,9 @@
-### 解题思路
-看了别人的代码，自己又写了一遍。就是从后往前数。
+// ### 解题思路
+// 看了别人的代码，自己又写了一遍。就是从后往前数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int lengthOfLastWord(string s) {
@@ -23,4 +23,4 @@ int lengthOfLastWord(string s) {
 }
 
 };
-```
+// ```

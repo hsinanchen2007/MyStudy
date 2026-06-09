@@ -1,7 +1,7 @@
-遍历intervals中的每个区间，与newInterval没有交集时，直接插入；有交集时，记录合并区间起点start和终点end，继续遍历继续合并。在新的遍历区间不再满足合并条件时，把[start,end]作为合并后区间塞进去。
-![image.png](https://pic.leetcode-cn.com/0af0e4951a46da9bc663bc0f6a2726a2588f8613b7adf04692b17be1492280f0-image.png)
+// 遍历intervals中的每个区间，与newInterval没有交集时，直接插入；有交集时，记录合并区间起点start和终点end，继续遍历继续合并。在新的遍历区间不再满足合并条件时，把[start,end]作为合并后区间塞进去。
+// ![image.png](https://pic.leetcode-cn.com/0af0e4951a46da9bc663bc0f6a2726a2588f8613b7adf04692b17be1492280f0-image.png)
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
@@ -57,4 +57,4 @@ public:
         return res;
     }
 };
-```
+// ```

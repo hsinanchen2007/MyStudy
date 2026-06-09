@@ -1,9 +1,9 @@
-### 解题思路
-找出两个小数 然后找一个比这个数的大的即可
+// ### 解题思路
+// 找出两个小数 然后找一个比这个数的大的即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean increasingTriplet(int[] nums) {
         //bad-case
@@ -28,4 +28,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

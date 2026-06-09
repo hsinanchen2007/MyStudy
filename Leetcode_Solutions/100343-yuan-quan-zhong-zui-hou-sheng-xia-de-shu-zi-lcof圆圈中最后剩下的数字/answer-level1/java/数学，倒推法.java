@@ -1,9 +1,9 @@
-### 解题思路
-从最后一个索引0开始逐个向前推导前一次的索引
+// ### 解题思路
+// 从最后一个索引0开始逐个向前推导前一次的索引
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lastRemaining(int n, int m) {
         int index = 0;
@@ -13,4 +13,4 @@ class Solution {
         return index;
     }
 }
-```
+// ```

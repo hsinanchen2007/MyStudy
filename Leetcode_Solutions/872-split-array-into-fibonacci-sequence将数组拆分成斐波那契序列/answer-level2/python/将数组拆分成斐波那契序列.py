@@ -1,14 +1,14 @@
-#### 方法 1：暴力
+# #### 方法 1：暴力
 
-**想法**
+# **想法**
 
-数组的前两个元素唯一决定了后面的数组元素。
+# 数组的前两个元素唯一决定了后面的数组元素。
 
-**算法**
+# **算法**
 
-对于每种可能的前两个元素，假设没有前导零，遍历剩余的字符串。对于每个情况，我们希望得到小于等于 `2^31 - 1` 的数，且是前两个数字之和。
+# 对于每种可能的前两个元素，假设没有前导零，遍历剩余的字符串。对于每个情况，我们希望得到小于等于 `2^31 - 1` 的数，且是前两个数字之和。
 
-```Java []
+# ```Java []
 class Solution {
     public List<Integer> splitIntoFibonacci(String S) {
         int N = S.length();
@@ -44,9 +44,9 @@ class Solution {
         return new ArrayList<Integer>();
     }
 }
-```
+# ```
 
-```Python []
+# ```Python []
 class Solution(object):
     def splitIntoFibonacci(self, S):
         for i in xrange(min(10, len(S))):
@@ -71,11 +71,11 @@ class Solution(object):
                     if len(fib) >= 3:
                         return fib
         return []
-```
+# ```
 
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N^2)$，其中 $N$ 是 `S` 的长度，按照要求结果的长度都是 $O(1)$ 的。
-* 空间复杂度：$O(N)$。
+# * 时间复杂度：$O(N^2)$，其中 $N$ 是 `S` 的长度，按照要求结果的长度都是 $O(1)$ 的。
+# * 空间复杂度：$O(N)$。

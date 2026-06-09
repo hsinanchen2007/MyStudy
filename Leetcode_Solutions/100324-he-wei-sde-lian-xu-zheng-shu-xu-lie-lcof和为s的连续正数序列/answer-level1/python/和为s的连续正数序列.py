@@ -1,9 +1,9 @@
-### 解题思路
-滑窗法
+# ### 解题思路
+# 滑窗法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         # 来自某大佬
@@ -30,4 +30,4 @@ class Solution:
                 i += 1
 
         return res
-```
+# ```

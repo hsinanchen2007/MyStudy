@@ -1,4 +1,4 @@
-```
+// ```
 class SnakeGame {
 
     function __construct($width, $height, $food) {
@@ -59,4 +59,4 @@ class SnakeGame {
         return $x*$this->W + $y;
     }
 }
-```
+// ```

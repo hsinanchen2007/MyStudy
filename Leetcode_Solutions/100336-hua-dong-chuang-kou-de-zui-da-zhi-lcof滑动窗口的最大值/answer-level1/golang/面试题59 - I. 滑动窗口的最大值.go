@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxSlidingWindow(nums []int, k int) []int {
 	if len(nums) == 0 || k <= 0 {
 		return []int{}
@@ -27,4 +27,4 @@ func maxSlidingWindow(nums []int, k int) []int {
 	return maxNum
 
 }
-```
+// ```

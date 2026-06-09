@@ -1,6 +1,6 @@
-二叉搜索树根据中序遍历的方式就会得到一个有序数组，所以只要保证当前遍历的节点值比上一个节点值大就可以。
+// 二叉搜索树根据中序遍历的方式就会得到一个有序数组，所以只要保证当前遍历的节点值比上一个节点值大就可以。
 
-```
+// ```
 class Solution {
     Integer maxValue;
     public boolean isValidBST(TreeNode root) {
@@ -20,4 +20,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

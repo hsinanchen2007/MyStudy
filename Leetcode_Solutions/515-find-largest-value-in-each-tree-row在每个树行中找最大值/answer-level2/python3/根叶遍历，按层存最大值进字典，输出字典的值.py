@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/dc21694efaafceb3af09d8029c82fe15ce9815b9f80c5793dd4bf95e72f5542f-image.png)
+# ![image.png](https://pic.leetcode-cn.com/dc21694efaafceb3af09d8029c82fe15ce9815b9f80c5793dd4bf95e72f5542f-image.png)
 
 
-比较快捷简单，不用费脑调BUG。
-```
+# 比较快捷简单，不用费脑调BUG。
+# ```
 class Solution:
     def largestValues(self, root: TreeNode) -> List[int]:
         d={}
@@ -16,4 +16,4 @@ class Solution:
                 f(r.right,i+1)
         f(root,0)
         return list(d.values())
-```
+# ```

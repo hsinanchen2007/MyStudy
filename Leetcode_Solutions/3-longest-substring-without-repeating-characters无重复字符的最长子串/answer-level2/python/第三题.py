@@ -1,9 +1,9 @@
-### 解题思路
-不用转列表，用字符串计算就可以。
+# ### 解题思路
+# 不用转列表，用字符串计算就可以。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         test_list = list(s)
@@ -27,4 +27,4 @@ class Solution:
         a = max(long_list)
             
         return a
-```
+# ```

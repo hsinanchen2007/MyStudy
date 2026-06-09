@@ -1,18 +1,18 @@
-![GKWEef.png](https://pic.leetcode-cn.com/0ec2af0824cd945484e93f62e282cfd64f24f1b95877b4a551c38402d1a5449e.png)
+// ![GKWEef.png](https://pic.leetcode-cn.com/0ec2af0824cd945484e93f62e282cfd64f24f1b95877b4a551c38402d1a5449e.png)
 
-### 解题思路
+// ### 解题思路
 
-思路都写在了代码注释中。
+// 思路都写在了代码注释中。
 
-大意是通过一个滑动窗口将所有大于基准值的元素都包裹在其中，小于基准值的都丢在滑动窗口的前面的外边。
+// 大意是通过一个滑动窗口将所有大于基准值的元素都包裹在其中，小于基准值的都丢在滑动窗口的前面的外边。
 
-然后将基准值插到滑动窗口的前面即可，这样大于基准的都在右边，小于基准的都在左边。
+// 然后将基准值插到滑动窗口的前面即可，这样大于基准的都在右边，小于基准的都在左边。
 
-思路和一般的快速排序不太相同，但是理解了之后觉得非常巧妙而容易记忆，故推荐给大家。
+// 思路和一般的快速排序不太相同，但是理解了之后觉得非常巧妙而容易记忆，故推荐给大家。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -61,10 +61,10 @@ var sortArray = function(nums) {
     // 调用自定义快排函数
     return quickSort(nums);
 };
-```
+// ```
 
-<br>
+// <br>
 
----
+// ---
 
-> 我的GitHub： https://github.com/ceynri 欢迎来访~
+// > 我的GitHub： https://github.com/ceynri 欢迎来访~

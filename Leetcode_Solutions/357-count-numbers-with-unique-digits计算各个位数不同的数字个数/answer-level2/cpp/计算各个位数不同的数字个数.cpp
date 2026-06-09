@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-空间换时间
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 空间换时间
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countNumbersWithUniqueDigits(int n) {
@@ -34,4 +34,4 @@ public:
         return count;
     }
 };
-```
+// ```

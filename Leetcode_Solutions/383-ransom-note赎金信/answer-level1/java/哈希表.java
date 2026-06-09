@@ -1,6 +1,6 @@
-哈希表存储ransom的字母每一次在magazine中出现的位置，出现重复元素则更新位置，直到遍历结束；
-若后续在magazine中找不到元素位置则返回false;
-```
+// 哈希表存储ransom的字母每一次在magazine中出现的位置，出现重复元素则更新位置，直到遍历结束；
+// 若后续在magazine中找不到元素位置则返回false;
+// ```
 class Solution {
     public boolean canConstruct(String ransomNote, String magazine) {
         char[] str_ran = ransomNote.toCharArray();
@@ -22,4 +22,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

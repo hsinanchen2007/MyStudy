@@ -1,7 +1,7 @@
-双指针滑动窗口
-tail先向后走，以期使和大于等于s,
-滑动窗口元素的和 等于等于s时，head向前走， 以减少长度。
-```
+// 双指针滑动窗口
+// tail先向后走，以期使和大于等于s,
+// 滑动窗口元素的和 等于等于s时，head向前走， 以减少长度。
+// ```
 #define MIN(X,Y)(X < Y ? X : Y)
 int minSubArrayLen(int s, int* nums, int numsSize){
 	
@@ -27,10 +27,10 @@ int minSubArrayLen(int s, int* nums, int numsSize){
 	
 	return ret == INT_MAX ? 0 : ret;
 }
-```
-题目还问了O(NlogN)的解法
-和滑动窗口的思路其实是一样的，先找到满足题目条件 >= s 的子数组， 再想办法缩短子数组的长度
-```
+// ```
+// 题目还问了O(NlogN)的解法
+// 和滑动窗口的思路其实是一样的，先找到满足题目条件 >= s 的子数组， 再想办法缩短子数组的长度
+// ```
 #define MIN(X,Y)(X < Y ? X : Y)
 int minSubArrayLen(int s, int* nums, int numsSize){
 	
@@ -80,4 +80,4 @@ int minSubArrayLen(int s, int* nums, int numsSize){
 	
 	return ret == INT_MAX ? 0 : ret;
 }
-```
+// ```

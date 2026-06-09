@@ -1,10 +1,10 @@
-### 解题思路
-depth函数用于计算以root为根节点的树的最大高度；
-在isBalanced函数中，先判断根节点root的左右子树高度差是否小于2，再以root的左孩子右孩子为根节点递归
+// ### 解题思路
+// depth函数用于计算以root为根节点的树的最大高度；
+// 在isBalanced函数中，先判断根节点root的左右子树高度差是否小于2，再以root的左孩子右孩子为根节点递归
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,12 +32,12 @@ public:
         return false;
     }
 };
-```
-优化上述代码，在isBalanced函数中，判断条件可以直接用&&连接。
-优化后，效率提升了不少
-![1.png](https://pic.leetcode-cn.com/a96ba08a8854b0d54246d6ba2544575e5a4cbf3416e24a197d099dff7cf19539-1.png)
+// ```
+// 优化上述代码，在isBalanced函数中，判断条件可以直接用&&连接。
+// 优化后，效率提升了不少
+// ![1.png](https://pic.leetcode-cn.com/a96ba08a8854b0d54246d6ba2544575e5a4cbf3416e24a197d099dff7cf19539-1.png)
 
-```
+// ```
 class Solution {
 public:
     int depth(TreeNode* root)//计算以root为根节点的子树的最大深度
@@ -55,5 +55,5 @@ public:
             && isBalanced(root->right);
     }
 };
-```
-如果感到有帮助，欢迎点赞或评论😄
+// ```
+// 如果感到有帮助，欢迎点赞或评论😄

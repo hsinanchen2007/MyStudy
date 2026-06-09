@@ -1,12 +1,12 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/8/28
- *
- * 解题思路：哈希 不解释
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/8/28
+//  *
+//  * 解题思路：哈希 不解释
+//  */
+// ```
 public boolean containsDuplicate(int[] nums) {
         HashMap<Integer , Integer> hashMap = new HashMap<Integer,Integer>();
 
@@ -19,4 +19,4 @@ public boolean containsDuplicate(int[] nums) {
         }
         return false;
     }
-```
+// ```

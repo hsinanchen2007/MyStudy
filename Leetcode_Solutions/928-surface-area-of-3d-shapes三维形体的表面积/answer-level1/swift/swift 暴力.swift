@@ -1,6 +1,6 @@
 
-思路都在代码里面
-```
+// 思路都在代码里面
+// ```
 class Solution {
     func surfaceArea(_ grid: [[Int]]) -> Int {
         var res = 0
@@ -60,4 +60,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

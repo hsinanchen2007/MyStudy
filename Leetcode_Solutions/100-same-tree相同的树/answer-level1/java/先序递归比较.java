@@ -1,8 +1,8 @@
-### 解题思路
-递归，可以看做先序遍历
-### 代码
+// ### 解题思路
+// 递归，可以看做先序遍历
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -23,4 +23,4 @@ class Solution {
         return isSameTree(p.left,q.left) && isSameTree(p.right,q.right);
     }
 }
-```
+// ```

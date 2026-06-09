@@ -1,9 +1,9 @@
-### 解题思路
-用了个Counter模块，哈哈哈，简单些，也可以用字典代替。
+# ### 解题思路
+# 用了个Counter模块，哈哈哈，简单些，也可以用字典代替。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     from collections import Counter
     def checkRecord(self, s):
@@ -20,4 +20,4 @@ class Solution(object):
                 return False
                 i+=1
         return True
-```
+# ```

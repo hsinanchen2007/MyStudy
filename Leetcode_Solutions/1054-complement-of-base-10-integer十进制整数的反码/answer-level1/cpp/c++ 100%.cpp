@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int bitwiseComplement(int N) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

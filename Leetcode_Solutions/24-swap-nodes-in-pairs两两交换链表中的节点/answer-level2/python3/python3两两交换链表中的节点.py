@@ -1,9 +1,9 @@
-### 解题思路
-以两两节点为一组，prev保存指向当前组节点的上一节点，结尾需要断开原有指针以避免陷入循环。
+# ### 解题思路
+# 以两两节点为一组，prev保存指向当前组节点的上一节点，结尾需要断开原有指针以避免陷入循环。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -31,6 +31,6 @@ class Solution:
                 fastptr=None
         prev.next=lowptr
         return head
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/adde06156924663f9126538b8da3409646e50e3d572e3b3e3ee873c665935832-image.png)
+# ![image.png](https://pic.leetcode-cn.com/adde06156924663f9126538b8da3409646e50e3d572e3b3e3ee873c665935832-image.png)

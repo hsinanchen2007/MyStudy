@@ -1,9 +1,9 @@
-### 解题思路
-用数组来存放链表
+# ### 解题思路
+# 用数组来存放链表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyLinkedList:
     # 作者：zhangbin23
     def __init__(self):
@@ -166,4 +166,4 @@ class MyLinkedList:
 # # obj.addAtTail(val)
 # # obj.addAtIndex(index,val)
 # # obj.deleteAtIndex(index)
-```
+# ```

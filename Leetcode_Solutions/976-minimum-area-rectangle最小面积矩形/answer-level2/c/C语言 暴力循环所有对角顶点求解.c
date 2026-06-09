@@ -1,7 +1,7 @@
-C语言解法，将序列从左下往右上顺序排列，然后循环计算各个对角顶点之间的面积，取最小值即可。
+// C语言解法，将序列从左下往右上顺序排列，然后循环计算各个对角顶点之间的面积，取最小值即可。
 
 
-```
+// ```
 typedef struct{
     int x;
     int y;
@@ -68,6 +68,6 @@ int minAreaRect(int** points, int pointsSize, int* pointsColSize)
 
     return result == INT_MAX ? 0 : result;
 }
-```
+// ```
 
 

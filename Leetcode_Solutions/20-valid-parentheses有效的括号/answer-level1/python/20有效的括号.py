@@ -1,9 +1,9 @@
-思路：
-- 使用栈，每逢左括号则必压栈；
-- 每逢右括号则出栈与其匹配，匹配成功则继续，否则立刻判无效；
-- 最后若栈空则返回true
+# 思路：
+# - 使用栈，每逢左括号则必压栈；
+# - 每逢右括号则出栈与其匹配，匹配成功则继续，否则立刻判无效；
+# - 最后若栈空则返回true
 
-```
+# ```
 class Solution(object):
     def isValid(self, s):
         """
@@ -25,4 +25,4 @@ class Solution(object):
                         return False
                 else: return False   
         return len(stack)==0
-```
+# ```

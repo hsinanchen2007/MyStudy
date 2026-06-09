@@ -1,5 +1,5 @@
-递归删除，利用TreeNode**的方式搜索，以避免对节点是否是root节点的情况进行讨论。
-```
+// 递归删除，利用TreeNode**的方式搜索，以避免对节点是否是root节点的情况进行讨论。
+// ```
 class Solution {
 public:
     TreeNode** searchNode(TreeNode** root, int key) {
@@ -32,4 +32,4 @@ public:
         return root;
     }
 };
-```
+// ```

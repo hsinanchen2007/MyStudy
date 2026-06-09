@@ -1,5 +1,5 @@
-使用stringstream来读取数字
-```c++
+// 使用stringstream来读取数字
+// ```c++
 class Solution {
 public:
     int myAtoi(string str) {
@@ -12,4 +12,4 @@ public:
         return n;
     }
 };
-```
+// ```

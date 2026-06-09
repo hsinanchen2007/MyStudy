@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/a3b68ffbe11ad686786b8aa5f35bd79526e9366c458f88e711c87a5cb90294cc-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/a3b68ffbe11ad686786b8aa5f35bd79526e9366c458f88e711c87a5cb90294cc-image.png)
 
-经典的回溯算法题，和八皇后问题类似。
+// 经典的回溯算法题，和八皇后问题类似。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @param {string} word
@@ -37,4 +37,4 @@ function findFun(board, word, x, y, k, xLen, yLen) {
         board[x][y] = temp;
         return res;
     }
-```
+// ```

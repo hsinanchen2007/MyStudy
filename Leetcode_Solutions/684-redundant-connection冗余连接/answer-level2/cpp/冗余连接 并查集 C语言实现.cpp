@@ -1,7 +1,7 @@
-核心思想： 并查集，归并过程中，发现一条边的两个节点已经处于同一个子集，那就说明冗余边找到了，且正好是题目要求的，冗余（环路）上最后一个被发现冗余的边。
+// 核心思想： 并查集，归并过程中，发现一条边的两个节点已经处于同一个子集，那就说明冗余边找到了，且正好是题目要求的，冗余（环路）上最后一个被发现冗余的边。
 
-核心代码，是不是很简略，把我自己都惊讶到了：
-```cpp
+// 核心代码，是不是很简略，把我自己都惊讶到了：
+// ```cpp
 class Solution {
 public:
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
@@ -13,11 +13,11 @@ public:
         return {0, 0};
     }
 };
-```
+// ```
 
-并查集简单实现，注意union的返回值：
+// 并查集简单实现，注意union的返回值：
 
-```cpp
+// ```cpp
 using namespace std;
 
 class UnionFindSets {
@@ -42,10 +42,10 @@ private:
     vector<int> m_vParents;
     // vector<int> m_vR;
 };
-```
+// ```
 
-简单的测试用例，注意线下测试是，class为 RedundantConnection，继承自MyDebug：
-```cpp
+// 简单的测试用例，注意线下测试是，class为 RedundantConnection，继承自MyDebug：
+// ```cpp
 int RedundantConnection_Tester()
 {
     vector<vector<int>> edges{ {1, 2}, {1, 3}, {2, 3} };
@@ -56,5 +56,5 @@ int RedundantConnection_Tester()
     rc.PrintVector(result, "result");
     return 0;
 }
-```
+// ```
 

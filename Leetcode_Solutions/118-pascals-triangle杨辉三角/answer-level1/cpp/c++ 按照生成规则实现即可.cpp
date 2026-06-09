@@ -1,10 +1,10 @@
-### 解题思路
-1. 规则即temp[j] = result[i-1][j-1] +  result[i-1][j]
-需要考虑下边界值即可；
+// ### 解题思路
+// 1. 规则即temp[j] = result[i-1][j-1] +  result[i-1][j]
+// 需要考虑下边界值即可；
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
@@ -25,4 +25,4 @@ public:
         return result;
     }
 };
-```
+// ```

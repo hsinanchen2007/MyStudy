@@ -1,5 +1,5 @@
-正则表达式简化路径，栈保存路径的各个目录
-```
+// 正则表达式简化路径，栈保存路径的各个目录
+// ```
 class Solution {
     public String simplifyPath(String path) {
         path = path.replaceAll("(/)(/*)", "/").replaceAll("^/*", "");
@@ -21,4 +21,4 @@ class Solution {
         return sb.length() <= 1 ? "/" : sb.toString();
     }
 }
-```
+// ```

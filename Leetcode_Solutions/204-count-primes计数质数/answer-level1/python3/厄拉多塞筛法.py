@@ -1,11 +1,11 @@
-### 解题思路
-厄拉多塞筛法，注意：
-1. 判断是质数再筛选
-2. range(start, end, i)，间隔的参数是放在第3个位置
+# ### 解题思路
+# 厄拉多塞筛法，注意：
+# 1. 判断是质数再筛选
+# 2. range(start, end, i)，间隔的参数是放在第3个位置
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countPrimes(self, n: int) -> int:
         if n < 2:
@@ -23,4 +23,4 @@ class Solution:
                 for j in range(i * i, n, i):
                     res[j] = 0
         return sum(res)
-```
+# ```

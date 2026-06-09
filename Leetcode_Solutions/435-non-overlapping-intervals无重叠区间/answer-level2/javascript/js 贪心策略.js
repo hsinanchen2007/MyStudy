@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/fcecfa5d7e47d0eb81557704686789f979cd3f482c825747cde83e19d75655cf-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fcecfa5d7e47d0eb81557704686789f979cd3f482c825747cde83e19d75655cf-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 贪心策略
 1.将区间按照起始时间正序排序（从小到大）
 2.初始化当前不重叠的最小结束点为 intervals[0][1] 为 minEnd，
@@ -12,11 +12,11 @@
   minEnd 为当前存储的 minEnd 和当前遍历到的结束点比较小的那个结束点
   
   即：Math.min(minEnd, intervals[i][1]) 
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} intervals
  * @return {number}
@@ -65,4 +65,4 @@ var eraseOverlapIntervals = function(intervals) {
   
 //   return recursion(-1, 0);
 // };
-```
+// ```

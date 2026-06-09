@@ -1,8 +1,8 @@
-### 解题思路
-对称：如果一个树的左子树与右子树镜像对称，那么这个树是对称的。
-### 代码
+// ### 解题思路
+// 对称：如果一个树的左子树与右子树镜像对称，那么这个树是对称的。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -28,4 +28,4 @@ function __isSymmetric(t1, t2) {
         __isSymmetric(t1.right, t2.left)
     );
 }
-```
+// ```

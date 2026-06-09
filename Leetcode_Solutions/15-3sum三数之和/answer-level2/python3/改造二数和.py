@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def threeSum(self, nums: list) -> list:
         nums.sort()
@@ -25,4 +25,4 @@ class Solution:
             else:
                 right -= 1
         return result
-```
+# ```

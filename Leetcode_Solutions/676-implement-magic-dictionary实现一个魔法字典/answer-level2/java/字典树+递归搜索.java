@@ -1,4 +1,4 @@
-```java
+// ```java
 class MagicDictionary {
 
     private Trie trie;
@@ -86,4 +86,4 @@ class MagicDictionary {
     }
 }
 
-```
+// ```

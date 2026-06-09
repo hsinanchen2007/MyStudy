@@ -1,7 +1,7 @@
-执行用时 :4 ms, 在所有 Java 提交中击败了96.96%的用户
-内存消耗 :36.9 MB, 在所有 Java 提交中击败了80.56%的用户
+// 执行用时 :4 ms, 在所有 Java 提交中击败了96.96%的用户
+// 内存消耗 :36.9 MB, 在所有 Java 提交中击败了80.56%的用户
 
-```
+// ```
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         int[] result = new int[nums1.length];
@@ -26,4 +26,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

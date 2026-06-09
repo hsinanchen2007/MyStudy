@@ -1,9 +1,9 @@
-### 解题思路
-直接扔到hash桶里边，先达到size的直接返回，因为已经排序
+// ### 解题思路
+// 直接扔到hash桶里边，先达到size的直接返回，因为已经排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -31,4 +31,4 @@ int smallestCommonElement(int** mat, int matSize, int* matColSize){
 	}
 	return -1;
 }
-```
+// ```

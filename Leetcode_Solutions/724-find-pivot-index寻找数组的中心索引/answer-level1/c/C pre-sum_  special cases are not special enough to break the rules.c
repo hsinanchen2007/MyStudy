@@ -1,6 +1,6 @@
-click here
+// click here
 
-```
+// ```
 int pivotIndex(int* nums, int numsSize){
   
   int pivot = 0;
@@ -28,4 +28,4 @@ int pivotIndex(int* nums, int numsSize){
 
   return -1;
 }
-```
+// ```

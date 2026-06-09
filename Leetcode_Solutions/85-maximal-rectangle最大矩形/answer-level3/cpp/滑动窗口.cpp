@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![2020-04-02 15-24-37 的屏幕截图.png](https://pic.leetcode-cn.com/a0294dad565909588f2aa598d446d142976ad23005faebfa50110c7316b0c553-2020-04-02%2015-24-37%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
+// ![2020-04-02 15-24-37 的屏幕截图.png](https://pic.leetcode-cn.com/a0294dad565909588f2aa598d446d142976ad23005faebfa50110c7316b0c553-2020-04-02%2015-24-37%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     struct Coordinate {
@@ -70,4 +70,4 @@ public:
         return ans;
     }
 };
-```
+// ```

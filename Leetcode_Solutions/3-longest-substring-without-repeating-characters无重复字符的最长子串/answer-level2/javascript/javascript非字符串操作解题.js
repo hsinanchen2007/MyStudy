@@ -1,6 +1,6 @@
 
 
-``` javascript
+// ``` javascript
     if (typeof s !== 'string') return false;
     let startIndex = 0;
     let endIndex = 0;
@@ -18,4 +18,4 @@
         maxLength = Math.max(maxLength, endIndex - startIndex)
     }
     return maxLength
-```
+// ```

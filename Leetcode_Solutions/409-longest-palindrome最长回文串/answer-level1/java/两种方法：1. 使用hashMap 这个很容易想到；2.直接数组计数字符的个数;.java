@@ -1,4 +1,4 @@
-```
+// ```
 1. 使用hashMap 这个很容易想到, 时间复杂度为O(n), 空间复杂度O(S), S为字符集大小
 class Solution {
     public int longestPalindrome(String s) {
@@ -39,4 +39,4 @@ class Solution {
         return res<len?res+1:res;
     }
 }
-```
+// ```

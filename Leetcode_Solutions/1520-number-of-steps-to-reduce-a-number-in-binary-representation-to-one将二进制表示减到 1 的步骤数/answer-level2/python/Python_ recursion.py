@@ -1,9 +1,9 @@
-### 解题思路
-简单递归。
+# ### 解题思路
+# 简单递归。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def numSteps(self, s: str) -> int:
         if len(set(s)) == 1:
@@ -12,4 +12,4 @@ class Solution:
             return self.numSteps(s[:-1]) + 1
         idx = s.rfind('0')
         return self.numSteps(s[:idx] + '1' + s[idx+1:-1]) + 2
-```
+# ```

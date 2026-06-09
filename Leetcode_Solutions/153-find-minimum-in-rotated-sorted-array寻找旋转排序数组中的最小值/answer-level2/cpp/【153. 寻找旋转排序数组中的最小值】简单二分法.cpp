@@ -1,6 +1,6 @@
-## 思路
-### 代码
-```c++
+// ## 思路
+// ### 代码
+// ```c++
 class Solution {
 public:
     int findMin(vector<int>& nums) {
@@ -16,4 +16,4 @@ public:
         return nums[R];
     }
 };
-```
+// ```

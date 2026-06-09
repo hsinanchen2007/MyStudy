@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverse(int* nums, int numsSize){
     int i, temp;
     for (i = 0; i < numsSize / 2; i++)
@@ -19,4 +19,4 @@ void rotate(int* nums, int numsSize, int k){
     reverse(nums, k);
     reverse(nums + k, numsSize - k);
 }
-```
+// ```

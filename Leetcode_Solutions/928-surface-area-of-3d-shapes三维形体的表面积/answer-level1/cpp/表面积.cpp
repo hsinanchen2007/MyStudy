@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-### 别人的代码
-一次遍历，计算每个柱体的左、上两个方向的重叠到最后就算出了所有重叠
-不至于因计算上下左右四面而导致重复计算
-```cpp
+// ### 解题思路
+// 此处撰写解题思路
+// ### 别人的代码
+// 一次遍历，计算每个柱体的左、上两个方向的重叠到最后就算出了所有重叠
+// 不至于因计算上下左右四面而导致重复计算
+// ```cpp
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid) {
@@ -25,10 +25,10 @@ public:
         return area;
     }
 };
-```
-### 我的代码
-两次遍历时间耗费大
-```
+// ```
+// ### 我的代码
+// 两次遍历时间耗费大
+// ```
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid) {
@@ -55,4 +55,4 @@ public:
         return sum;
     }
 };
-```
+// ```

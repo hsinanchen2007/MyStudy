@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX_SIZE (10010)
 #define TRUE (1)
 #define FALSE (0)
@@ -44,4 +44,4 @@ int findMinArrowShots(int** points, int pointsSize, int* pointsColSize)
     }
     return numArrow;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func minimumAbsDifference(arr []int) [][]int {
     res := make([][]int, 0)
     if len(arr) == 0 || len(arr) == 1 {return res}
@@ -19,4 +19,4 @@ func minimumAbsDifference(arr []int) [][]int {
 	return res
 
 }
-```
+// ```

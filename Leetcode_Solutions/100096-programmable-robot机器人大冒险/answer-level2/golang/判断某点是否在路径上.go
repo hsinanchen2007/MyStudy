@@ -1,7 +1,7 @@
-1：先判断某点需要几步：m = x + y
-2：判断m步中有多少个R和U,如果R的数量等于x并且,U的数量等于y，则该点在路径上；否则不在路径上
+// 1：先判断某点需要几步：m = x + y
+// 2：判断m步中有多少个R和U,如果R的数量等于x并且,U的数量等于y，则该点在路径上；否则不在路径上
 
-```
+// ```
 func robot(command string, obstacles [][]int, x int, y int) bool {
 	// 如果目标点不在路径上，返回失败
 	if !isOnThePath(command, x, y) {
@@ -24,6 +24,6 @@ func isOnThePath(command string, x int, y int) bool {
 	}
 	return false
 }
-```
-运行结果：
-![image.png](https://pic.leetcode-cn.com/19b72055b0855dd6f6ce5d4e27b562dabf02ce0dcbf9b6b785c09f45f6808fad-image.png)
+// ```
+// 运行结果：
+// ![image.png](https://pic.leetcode-cn.com/19b72055b0855dd6f6ce5d4e27b562dabf02ce0dcbf9b6b785c09f45f6808fad-image.png)

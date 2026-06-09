@@ -1,4 +1,4 @@
-```js
+// ```js
 var canThreePartsEqualSum = function(A) {
     let sum = 0
     for (let val of A) {
@@ -26,4 +26,4 @@ var canThreePartsEqualSum = function(A) {
     }
     return i <= j
 };
-```
+// ```

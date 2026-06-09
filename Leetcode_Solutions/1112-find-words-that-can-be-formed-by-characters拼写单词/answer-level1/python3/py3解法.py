@@ -1,6 +1,6 @@
-思路：
-使用collections.Counter简化代码
-```
+# 思路：
+# 使用collections.Counter简化代码
+# ```
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         r = 0
@@ -10,4 +10,4 @@ class Solution:
             if all([c[i] <= cnt[i] for i in c]):
                 r += len(w)
         return r
-```
+# ```

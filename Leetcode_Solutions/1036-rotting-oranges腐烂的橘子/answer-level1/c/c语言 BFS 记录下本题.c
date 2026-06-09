@@ -1,8 +1,8 @@
 
 
-坏橘子作为队列的第一层。首先记录需要感染的橘子，最后多一下判断是否全部感染。
+// 坏橘子作为队列的第一层。首先记录需要感染的橘子，最后多一下判断是否全部感染。
 
-```c
+// ```c
 struct orange {
     int x;
     int y;
@@ -63,4 +63,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
         return -1;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-直接滑动窗口~
-```
+// 直接滑动窗口~
+// ```
 var maxSlidingWindow = function(nums, k) {
     let len = nums.length;
     if(len*k == 0) return [];
@@ -16,4 +16,4 @@ var maxSlidingWindow = function(nums, k) {
     }
     return target;
 };
-```
+// ```

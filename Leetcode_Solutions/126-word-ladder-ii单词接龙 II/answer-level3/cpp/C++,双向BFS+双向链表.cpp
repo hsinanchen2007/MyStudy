@@ -1,6 +1,6 @@
-![批注 2019-12-09 162134.png](https://pic.leetcode-cn.com/58efd8b816a363d1d2e80f9498e779ba2fb92ee9f39d337b594b3e6c496fd9aa-%E6%89%B9%E6%B3%A8%202019-12-09%20162134.png)
+// ![批注 2019-12-09 162134.png](https://pic.leetcode-cn.com/58efd8b816a363d1d2e80f9498e779ba2fb92ee9f39d337b594b3e6c496fd9aa-%E6%89%B9%E6%B3%A8%202019-12-09%20162134.png)
 
-```
+// ```
 struct Node
 {
     Node(int l, string w, Node *n) : level(l)
@@ -162,4 +162,4 @@ public:
         return result;
     }
 };
-```
+// ```

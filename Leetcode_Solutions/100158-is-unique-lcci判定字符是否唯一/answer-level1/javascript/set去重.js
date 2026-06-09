@@ -1,9 +1,9 @@
-### 解题思路
-利用set去重，再比较去重后的数组长度
+// ### 解题思路
+// 利用set去重，再比较去重后的数组长度
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} astr
  * @return {boolean}
@@ -17,4 +17,4 @@ var isUnique = function(astr) {
         return true
     }
 };
-```
+// ```

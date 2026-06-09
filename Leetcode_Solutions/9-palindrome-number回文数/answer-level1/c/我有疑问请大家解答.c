@@ -1,9 +1,9 @@
-就是简单的反转函数然后用在bool函数里边，但是我把new-num定义为int，当测试用例是0的时候，会提示我内存溢出，但是我在vs里不会出现这个情况，求大佬解答
+// 就是简单的反转函数然后用在bool函数里边，但是我把new-num定义为int，当测试用例是0的时候，会提示我内存溢出，但是我在vs里不会出现这个情况，求大佬解答
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x)
 {
     int n;
@@ -22,4 +22,4 @@ bool isPalindrome(int x)
  else
     return false;
 }
-```
+// ```

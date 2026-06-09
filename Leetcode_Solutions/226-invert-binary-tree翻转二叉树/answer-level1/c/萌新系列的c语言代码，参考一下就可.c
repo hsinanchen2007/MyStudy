@@ -1,9 +1,9 @@
-### 解题思路
-递归的解法
+// ### 解题思路
+// 递归的解法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -25,4 +25,4 @@ root->left=invertTree(root->right);
 root->right=transfer;
 return root;
 }
-```
+// ```

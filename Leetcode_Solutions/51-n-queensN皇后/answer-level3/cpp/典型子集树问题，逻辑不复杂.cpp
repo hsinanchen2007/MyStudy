@@ -1,21 +1,21 @@
-![image.png](https://pic.leetcode-cn.com/c5b9d9cd7bf9c2902b78a8071dc029be7a3bd56cbeb0a7d0938939930725d1a7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c5b9d9cd7bf9c2902b78a8071dc029be7a3bd56cbeb0a7d0938939930725d1a7-image.png)
 
-**贴上老师的ppt，一定要看!**
-属于子集树问题。
+// **贴上老师的ppt，一定要看!**
+// 属于子集树问题。
 
-![image.png](https://pic.leetcode-cn.com/395422eadc7360181e0c1e4b7d22ca2b90b729a025be3a74f086287bdfbbc1b8-image.png)
-![image.png](https://pic.leetcode-cn.com/66ed35e2026fda9cc8e4c27c1fee61c3402ec8642d3bae9bcce01b47c0df5dab-image.png)
-![image.png](https://pic.leetcode-cn.com/905ca01b62e31059e3518e22e9fe2b7f383d4b4d543eace29b88299e1d62fb46-image.png)
+// ![image.png](https://pic.leetcode-cn.com/395422eadc7360181e0c1e4b7d22ca2b90b729a025be3a74f086287bdfbbc1b8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/66ed35e2026fda9cc8e4c27c1fee61c3402ec8642d3bae9bcce01b47c0df5dab-image.png)
+// ![image.png](https://pic.leetcode-cn.com/905ca01b62e31059e3518e22e9fe2b7f383d4b4d543eace29b88299e1d62fb46-image.png)
 
 
 
-### 解题思路
-先生成数字形式的解，再转成字符串形式的。
-注释详细。
+// ### 解题思路
+// 先生成数字形式的解，再转成字符串形式的。
+// 注释详细。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     vector<vector<string>> res; // 最终的字符串形式的解集
@@ -66,5 +66,5 @@ public:
         }
     }
 };
-```
-有收获的话求赞。
+// ```
+// 有收获的话求赞。

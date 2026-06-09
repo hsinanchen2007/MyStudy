@@ -1,10 +1,10 @@
-### 解题思路
-也就是把递归变成了递推
-第一个while循环用栈和队列将二叉树变成数组（bfs），第二个循环用栈，相当于动态规划，每个节点都存储当前节点到页节点的长度，那当前节点的直径就是（左子节点长度+右子节点长度+1）。
+# ### 解题思路
+# 也就是把递归变成了递推
+# 第一个while循环用栈和队列将二叉树变成数组（bfs），第二个循环用栈，相当于动态规划，每个节点都存储当前节点到页节点的长度，那当前节点的直径就是（左子节点长度+右子节点长度+1）。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
             max_len = max(max_len, left + right + 1)
         return max_len - 1
 
-```
+# ```

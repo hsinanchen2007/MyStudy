@@ -1,12 +1,12 @@
-### 解题思路
-先计算整个数组的和，然后除3，如果能整除的话，另整除的结果为 Third_1 。
-然后开始遍历数组，累计求前i个元素的和为tem_sum。一旦Third_1=tem_sum.此时记住这个i并且把tem_sum重置为0。
-那么就开始从i=1个元素开始又进行往后遍历求和,如果又出现Third_1=tem_sum，那么再记住此时的i。
-最后求剩下元素的和。
+# ### 解题思路
+# 先计算整个数组的和，然后除3，如果能整除的话，另整除的结果为 Third_1 。
+# 然后开始遍历数组，累计求前i个元素的和为tem_sum。一旦Third_1=tem_sum.此时记住这个i并且把tem_sum重置为0。
+# 那么就开始从i=1个元素开始又进行往后遍历求和,如果又出现Third_1=tem_sum，那么再记住此时的i。
+# 最后求剩下元素的和。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         A_len = len(A)
@@ -24,4 +24,4 @@ class Solution:
                         list1.append(c)
                         return list1[1] == list1[0] ==list1[2]
         return False
-```
+# ```

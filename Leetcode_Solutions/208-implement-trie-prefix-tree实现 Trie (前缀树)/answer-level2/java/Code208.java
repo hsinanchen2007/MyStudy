@@ -1,9 +1,9 @@
-### 解题思路
-字典树的标准实现
+// ### 解题思路
+// 字典树的标准实现
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Trie {
 class Node {
             boolean isWord;
@@ -85,4 +85,4 @@ class Node {
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
-```
+// ```

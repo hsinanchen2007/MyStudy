@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def totalNQueens(self, n: int) -> int:
         if n < 1: return []
@@ -18,4 +18,4 @@ class Solution:
             bits = bits & (bits - 1)  # 表示在p位置上放入皇后
             self.DFS(n, row + 1, cols | p, (pie | p) << 1, (na | p) >> 1)
             # 不需要revert  cols, pie, na 的状态
-```
+# ```

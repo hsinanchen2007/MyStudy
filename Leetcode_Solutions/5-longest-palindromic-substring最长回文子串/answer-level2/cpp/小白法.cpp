@@ -1,10 +1,10 @@
-### 解题思路
-遍历法：遍历对称轴。因为有回文就一定有对称轴，这个对称轴要么就是字符本身，要么就在两两字符之间。所以分成两种情况遍历。
-本以为会超时，没想到效果还不错。
-![1582198660(1).png](https://pic.leetcode-cn.com/0cdfad8aa4dbc8ca2c8ca71cb1b178cd54f6c2c059a3a6e966897a6cb42c31ab-1582198660\(1\).png)
-### 代码
+// ### 解题思路
+// 遍历法：遍历对称轴。因为有回文就一定有对称轴，这个对称轴要么就是字符本身，要么就在两两字符之间。所以分成两种情况遍历。
+// 本以为会超时，没想到效果还不错。
+// ![1582198660(1).png](https://pic.leetcode-cn.com/0cdfad8aa4dbc8ca2c8ca71cb1b178cd54f6c2c059a3a6e966897a6cb42c31ab-1582198660\(1\).png)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -41,4 +41,4 @@ public:
         return result;
     }
 };
-```
+// ```

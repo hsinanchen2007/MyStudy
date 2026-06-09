@@ -1,9 +1,9 @@
-### 解题思路
-记录上次操作末尾字符长度为1的个数
+# ### 解题思路
+# 记录上次操作末尾字符长度为1的个数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def translateNum(self, num: int) -> int:
         num = str(num) 
@@ -18,4 +18,4 @@ class Solution:
                 last = res
         return res
 
-```
+# ```

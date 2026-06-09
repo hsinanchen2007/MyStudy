@@ -1,14 +1,14 @@
-### 解题思路
+# ### 解题思路
 
-没什么好说的，熟练一下python3的list的api
+# 没什么好说的，熟练一下python3的list的api
 
-max(arr) ==> 返回list里最大值
-arr.append(val) ==> 在list尾部增加一个值
-arr.pop(index) ==> 移除列表中的一个元素（默认最后一个元素），并且返回该元素的值
+# max(arr) ==> 返回list里最大值
+# arr.append(val) ==> 在list尾部增加一个值
+# arr.pop(index) ==> 移除列表中的一个元素（默认最后一个元素），并且返回该元素的值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MaxQueue:
 
     def __init__(self):
@@ -38,4 +38,4 @@ class MaxQueue:
 # param_1 = obj.max_value()
 # obj.push_back(value)
 # param_3 = obj.pop_front()
-```
+# ```

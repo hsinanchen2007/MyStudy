@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countNegatives(self, grid: List[List[int]]) -> int:
         jige=0
@@ -9,4 +9,4 @@ class Solution:
                 if abs(y)!=y:
                     jige+=1
         return jige
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-给外部的矩阵加一个框
+# ### 解题思路
+# 此处撰写解题思路
+# 给外部的矩阵加一个框
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
         if not matrix or not matrix[0]: return []
@@ -39,5 +39,5 @@ class Solution:
             i = (i + 1) % len(dirs)
 
         return ret
-```
+# ```
 

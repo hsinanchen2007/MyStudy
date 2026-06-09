@@ -1,9 +1,9 @@
-### 解题思路
-把二叉搜索树转换为累加树，和1038 从二叉搜索树到更大和树是一个题目，只是1038是在辅助函数的参数中添加了一个引用（因此当在递归到一个子树下面时，x的改变也影响上面）
+// ### 解题思路
+// 把二叉搜索树转换为累加树，和1038 从二叉搜索树到更大和树是一个题目，只是1038是在辅助函数的参数中添加了一个引用（因此当在递归到一个子树下面时，x的改变也影响上面）
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,21 +30,21 @@ public:
     }
 };
 
-```cpp
-//1038题目代码
-class Solution {
-public:
-    TreeNode* bstToGst(TreeNode* root) {  //右边的比左边的都大
-        if(root==nullptr) return root;
-        int key=0;
-        DFS(root,key);
-        return root;
-    }
-    void DFS(TreeNode *root,int &key){  //注意这里的使用。。
-        if(root==nullptr) return ;
-        DFS(root->right,key);
-        key=key+root->val;
-        root->val=key;
-        DFS(root->left,key);
-    }
-};
+// ```cpp
+// //1038题目代码
+// class Solution {
+// public:
+//     TreeNode* bstToGst(TreeNode* root) {  //右边的比左边的都大
+//         if(root==nullptr) return root;
+//         int key=0;
+//         DFS(root,key);
+//         return root;
+//     }
+//     void DFS(TreeNode *root,int &key){  //注意这里的使用。。
+//         if(root==nullptr) return ;
+//         DFS(root->right,key);
+//         key=key+root->val;
+//         root->val=key;
+//         DFS(root->left,key);
+//     }
+// };

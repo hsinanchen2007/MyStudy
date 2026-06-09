@@ -1,9 +1,9 @@
-### 解题思路
-通过中序遍历BST，生成一个升序数组；这样`next`方法`pop`头元素，`hasNext`方法通过判断升序数组是否为空即可；
+# ### 解题思路
+# 通过中序遍历BST，生成一个升序数组；这样`next`方法`pop`头元素，`hasNext`方法通过判断升序数组是否为空即可；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -54,4 +54,4 @@ class BSTIterator:
 # obj = BSTIterator(root)
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
-```
+# ```

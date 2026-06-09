@@ -1,5 +1,5 @@
 
-```java
+// ```java
 class Solution {
     //map[i][j]表示i到j的费用
     int[][] map;
@@ -27,4 +27,4 @@ class Solution {
         return result==Integer.MAX_VALUE?-1:result;
     }
 }
-```
+// ```

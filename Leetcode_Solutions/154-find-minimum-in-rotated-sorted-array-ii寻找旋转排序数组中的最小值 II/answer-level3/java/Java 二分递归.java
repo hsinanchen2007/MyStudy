@@ -1,5 +1,5 @@
-思路：刚开始尝试二分，发现首尾数字相同时，分析比较复杂。因此采用二分递归，实现很简单。
-```
+// 思路：刚开始尝试二分，发现首尾数字相同时，分析比较复杂。因此采用二分递归，实现很简单。
+// ```
 class Solution {
     public int findMin(int[] nums) {
         return findmin(nums,0,nums.length-1);
@@ -10,4 +10,4 @@ class Solution {
         return Math.min(findmin(nums,start,mid), findmin(nums,mid+1,end));
     }
 }
-```
+// ```

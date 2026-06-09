@@ -1,9 +1,9 @@
-### 解题思路
-对撞指针，遇到元音交换，非元音跳过
+// ### 解题思路
+// 对撞指针，遇到元音交换，非元音跳过
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseVowels(String s) {
         
@@ -38,4 +38,4 @@ class Solution {
     }
     
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-构建vector
+// ### 解题思路
+// 构建vector
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -44,4 +44,4 @@ public:
         
     }
 };
-```
+// ```

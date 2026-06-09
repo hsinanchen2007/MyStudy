@@ -1,9 +1,9 @@
-### 解题思路
-先得到立方体总数，再计算总数的立方体应有的表面积，最后减去行和列的重叠的部分
+# ### 解题思路
+# 先得到立方体总数，再计算总数的立方体应有的表面积，最后减去行和列的重叠的部分
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         v = 0
@@ -27,4 +27,4 @@ class Solution:
                         s2 += 2 * min(grid[i][j],grid[i][j-1])
             s = s-s1-s2
         return s        
-```
+# ```

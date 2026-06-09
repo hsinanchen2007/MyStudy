@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
  class Solution {
     class UnionFind {
         var parent: [Int]
@@ -71,4 +71,4 @@
         return ans
     }
  }
-```
+// ```

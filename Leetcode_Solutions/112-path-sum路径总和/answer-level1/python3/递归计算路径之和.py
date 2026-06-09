@@ -1,10 +1,10 @@
-### 解题思路
-看是否是叶子节点，若是叶子节点则判断sum==0
-否则对左右子树进行遍历
+# ### 解题思路
+# 看是否是叶子节点，若是叶子节点则判断sum==0
+# 否则对左右子树进行遍历
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution(object):
             return sum==0
         return self.hasPathSum(root.left,sum) or self.hasPathSum(root.right,sum)
             
-```
+# ```

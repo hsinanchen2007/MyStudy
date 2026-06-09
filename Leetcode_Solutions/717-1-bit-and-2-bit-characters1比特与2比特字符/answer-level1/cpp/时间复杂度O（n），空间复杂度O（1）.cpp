@@ -1,9 +1,9 @@
-### 解题思路
-从后往前遍历，最后两个0之间有偶数个一时为真
+// ### 解题思路
+// 从后往前遍历，最后两个0之间有偶数个一时为真
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isOneBitCharacter(vector<int>& bits) {
@@ -18,4 +18,4 @@ public:
         else return false;
     }
 };
-```
+// ```

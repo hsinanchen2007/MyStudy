@@ -1,10 +1,10 @@
-## 思路:
+// ## 思路:
 
-回溯算法 + dfs,直接看代码,很容易理解
+// 回溯算法 + dfs,直接看代码,很容易理解
 
-## 代码:
+// ## 代码:
 
-```python [1]
+// ```python [1]
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         row = len(board)
@@ -30,13 +30,13 @@ class Solution:
                 if board[i][j] == word[0] and helper(i, j, 1,{(i, j)}) :
                         return True
         return False
-```
+// ```
 
 
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
      public boolean exist(char[][] board, String word) {
         boolean[][] visited = new boolean[board.length][board[0].length];
@@ -60,5 +60,5 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 

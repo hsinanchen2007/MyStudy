@@ -1,15 +1,15 @@
-### 解题思路
-有权图，用SPFA，无权BFS
-这里BFS标记visit后，如果后边发现step更少，则重新启用当前节点
-cur.use < visit[cur.x][cur.y] 这个判断是关键，开始总是超出范围。
-考虑一下：
-1、如果一直标记visit，则可能错过一个可能的路径
-2、一种错过的路径，有一定是cur更少
-3、因为考虑一下，如果完全没有障碍物，那么回头路有一定不是最优解
+// ### 解题思路
+// 有权图，用SPFA，无权BFS
+// 这里BFS标记visit后，如果后边发现step更少，则重新启用当前节点
+// cur.use < visit[cur.x][cur.y] 这个判断是关键，开始总是超出范围。
+// 考虑一下：
+// 1、如果一直标记visit，则可能错过一个可能的路径
+// 2、一种错过的路径，有一定是cur更少
+// 3、因为考虑一下，如果完全没有障碍物，那么回头路有一定不是最优解
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -81,4 +81,4 @@ int shortestPath(int **grid, int gridSize, int *gridColSize, int k)
 	}
 	return -1;
 }
-```
+// ```

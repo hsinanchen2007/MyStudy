@@ -1,11 +1,11 @@
-### 解题思路
-第一步：自定义变量对每个部门的员工工资进行排名，注意去重
-第二步：筛选出排名≤3的工资
-第三步：使用where型子查询
+-- ### 解题思路
+-- 第一步：自定义变量对每个部门的员工工资进行排名，注意去重
+-- 第二步：筛选出排名≤3的工资
+-- 第三步：使用where型子查询
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 select
     d.Name Department,
     e.Name Employee,
@@ -27,4 +27,4 @@ order by e.DepartmentId,e.Salary desc,e.Name;
 
 
   
-```
+-- ```

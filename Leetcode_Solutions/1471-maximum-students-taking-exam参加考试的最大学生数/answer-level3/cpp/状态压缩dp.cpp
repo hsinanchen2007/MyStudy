@@ -1,17 +1,17 @@
 
 
-## 状态压缩dp
+// ## 状态压缩dp
 
-这是一个NP问题，数据范围比较小，可以用状态压缩去枚举所有状态
+// 这是一个NP问题，数据范围比较小，可以用状态压缩去枚举所有状态
 
-- dp[i][S]表示第i行状态为S的最大学生数
-- S的取值为`[0, 1<<(n-1)]`
-- 状态转换
-  - `dp[i][s] = max(dp[i][s], dp[i-1][last] + cnt(s))` // s 和 last状态均为合法；cnt(s)表示状态s可以坐的学生数 
+// - dp[i][S]表示第i行状态为S的最大学生数
+// - S的取值为`[0, 1<<(n-1)]`
+// - 状态转换
+//   - `dp[i][s] = max(dp[i][s], dp[i-1][last] + cnt(s))` // s 和 last状态均为合法；cnt(s)表示状态s可以坐的学生数 
 
-## 代码实现
+// ## 代码实现
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int cntS(int s){
@@ -49,6 +49,6 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-[从零开始学算法](https://muyids.github.io/simple-algorithm)
+// [从零开始学算法](https://muyids.github.io/simple-algorithm)

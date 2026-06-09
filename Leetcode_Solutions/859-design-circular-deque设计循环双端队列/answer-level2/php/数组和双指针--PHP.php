@@ -1,13 +1,13 @@
-### 解题思路
-实现了[leetcode 622题](https://leetcode-cn.com/problems/design-circular-queue/solution/ji-yu-shu-zu-de-shuang-zhi-zhen-shi-xian-php-by-sa/)。好开心，一次写通过。
+// ### 解题思路
+// 实现了[leetcode 622题](https://leetcode-cn.com/problems/design-circular-queue/solution/ji-yu-shu-zu-de-shuang-zhi-zhen-shi-xian-php-by-sa/)。好开心，一次写通过。
 
-跟622的差异：
--- 队头即能出队，也能入队。队尾即能入队，也能出队。
--- 队头入队的时候，front要-1, 队尾出队的时候rear -1, -1的时候都需要加上len在对len取余，实现循环。
+// 跟622的差异：
+// -- 队头即能出队，也能入队。队尾即能入队，也能出队。
+// -- 队头入队的时候，front要-1, 队尾出队的时候rear -1, -1的时候都需要加上len在对len取余，实现循环。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class MyCircularDeque {
 
     private $front = 0;
@@ -123,15 +123,15 @@ class MyCircularDeque {
  * $ret_7 = $obj->isEmpty();
  * $ret_8 = $obj->isFull();
  */
-```
+// ```
 
-### 性能
-执行用时 :44 ms, 在所有 PHP 提交中击败了28.57%的用户
-内存消耗 :15.4 MB, 在所有 PHP 提交中击败了80.00%的用户
+// ### 性能
+// 执行用时 :44 ms, 在所有 PHP 提交中击败了28.57%的用户
+// 内存消耗 :15.4 MB, 在所有 PHP 提交中击败了80.00%的用户
 
-### 算法复杂度
--- 时间复杂度 O(1)
--- 空间复杂度 O(N)
+// ### 算法复杂度
+// -- 时间复杂度 O(1)
+// -- 空间复杂度 O(N)
 
-### 参考
-[https://leetcode-cn.com/problems/design-circular-deque/solution/shu-zu-shi-xian-de-xun-huan-shuang-duan-dui-lie-by/](https://leetcode-cn.com/problems/design-circular-deque/solution/shu-zu-shi-xian-de-xun-huan-shuang-duan-dui-lie-by/)
+// ### 参考
+// [https://leetcode-cn.com/problems/design-circular-deque/solution/shu-zu-shi-xian-de-xun-huan-shuang-duan-dui-lie-by/](https://leetcode-cn.com/problems/design-circular-deque/solution/shu-zu-shi-xian-de-xun-huan-shuang-duan-dui-lie-by/)

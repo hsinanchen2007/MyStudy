@@ -1,11 +1,11 @@
-执行用时 :
-20 ms, 在所有 Python 提交中击败了55.80%的用户
-内存消耗 :
-11.7 MB, 在所有 Python 提交中击败了70.98%的用户
+# 执行用时 :
+# 20 ms, 在所有 Python 提交中击败了55.80%的用户
+# 内存消耗 :
+# 11.7 MB, 在所有 Python 提交中击败了70.98%的用户
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def climbStairs(self, n):
         """
@@ -21,4 +21,4 @@ class Solution(object):
             s[i] = s[i-1] + s[i-2]
             # print(i, end = ',')
         return s[-1]
-```
+# ```

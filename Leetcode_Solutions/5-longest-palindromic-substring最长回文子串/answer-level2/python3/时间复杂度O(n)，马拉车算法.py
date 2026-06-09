@@ -1,5 +1,5 @@
-以下是提交通过代码的，详细的过程介绍见[马拉车算法详解](https://zhuanlan.zhihu.com/p/67559846)
-```
+# 以下是提交通过代码的，详细的过程介绍见[马拉车算法详解](https://zhuanlan.zhihu.com/p/67559846)
+# ```
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         def getExpandLength(left, right, s):
@@ -38,4 +38,4 @@ class Solution:
                     if radius > max_radius:
                         max_id, max_radius = i, radius
         return s[max_id-max_radius:max_id+max_radius+1].replace('#', '')
-```
+# ```

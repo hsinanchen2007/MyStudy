@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def exchange(self, nums: List[int]) -> List[int]:
         x=0
@@ -7,4 +7,4 @@ class Solution:
                 nums[x],nums[i]=nums[i],nums[x]
                 x+=1
         return nums
-```
+# ```

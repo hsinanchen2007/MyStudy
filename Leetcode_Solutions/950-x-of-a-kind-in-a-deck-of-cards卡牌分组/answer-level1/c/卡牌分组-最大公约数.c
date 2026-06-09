@@ -1,10 +1,10 @@
-### 解题思路
-首先统计数组中数出现的次数，
-之后，求它们的最大公约数，并判断其是否大于2.
+// ### 解题思路
+// 首先统计数组中数出现的次数，
+// 之后，求它们的最大公约数，并判断其是否大于2.
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define min(a,b) a<b?a:b
 int takegys(int x,int y){
     if(x<y){
@@ -40,4 +40,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
     }  
     return gys>=2;
 }
-```
+// ```

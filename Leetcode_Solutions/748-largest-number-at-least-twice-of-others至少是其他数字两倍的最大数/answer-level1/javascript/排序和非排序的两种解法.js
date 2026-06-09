@@ -1,9 +1,9 @@
-### 方法一
-先排序后比较最大和第二大的即可
+// ### 方法一
+// 先排序后比较最大和第二大的即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var dominantIndex = function(nums) {
     let original = [...nums], n = nums.length;
     nums.sort((a, b) => a - b);
@@ -14,11 +14,11 @@ var dominantIndex = function(nums) {
 
     return original.indexOf(max);
 };
-```
+// ```
 
-### 方法二
-一直维护两个数，一个最大，一个第二大
-```
+// ### 方法二
+// 一直维护两个数，一个最大，一个第二大
+// ```
 var dominantIndex = function(nums) {
     let f = 0, s = 0;
 
@@ -35,4 +35,4 @@ var dominantIndex = function(nums) {
 
     return nums.indexOf(f);
 }
-```
+// ```

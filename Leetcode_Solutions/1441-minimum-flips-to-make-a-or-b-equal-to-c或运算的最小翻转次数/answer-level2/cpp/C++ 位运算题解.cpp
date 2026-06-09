@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minFlips(int a, int b, int c) {
@@ -19,6 +19,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/50468829d8f8964f4839a247c98d8fdcdacf10f7b2235f4c0aa1cdc7e4a2c524-image.png)
+// ![image.png](https://pic.leetcode-cn.com/50468829d8f8964f4839a247c98d8fdcdacf10f7b2235f4c0aa1cdc7e4a2c524-image.png)

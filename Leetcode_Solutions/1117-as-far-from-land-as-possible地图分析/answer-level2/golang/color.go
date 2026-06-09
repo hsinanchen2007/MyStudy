@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxDistance(grid [][]int) int {
     time := 0
     x := 0
@@ -47,4 +47,4 @@ func maxDistance(grid [][]int) int {
 return time
 }
 
-```
+// ```

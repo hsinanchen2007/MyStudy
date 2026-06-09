@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-递归好像都是12ms
-```cpp
+// 递归好像都是12ms
+// ```cpp
 class Solution {//12ms
 public:
     ListNode* reverseList(ListNode* head) {
@@ -33,4 +33,4 @@ public:
         return ret;
     }
 };
-```
+// ```

@@ -1,23 +1,23 @@
 
-## 算法思路
+// ## 算法思路
 
-- 画出字典树
-- k表示要找到后面的第k个元素，起始下标是0
-- 获取以prefix开头的数字个数，包括他本身
-  - 如果数字个数大于k，下移，在prefix*10下的子树进行查找 
-  - 如果数字个数小于等于k，右移，在prefix+1下的子树进行查找
+// - 画出字典树
+// - k表示要找到后面的第k个元素，起始下标是0
+// - 获取以prefix开头的数字个数，包括他本身
+//   - 如果数字个数大于k，下移，在prefix*10下的子树进行查找 
+//   - 如果数字个数小于等于k，右移，在prefix+1下的子树进行查找
 
-问题的关键是求解 以prefix开头的数字个数，包括他本身
+// 问题的关键是求解 以prefix开头的数字个数，包括他本身
 
-- 根节点 `[prefix, prefix+1 )`
-- 第一层 `[prefix*10, (prefix+1)*10 )`
-- 第二层 `[prefix*100, min(n+1, (prefix+1)*100) )`
-- ...
+// - 根节点 `[prefix, prefix+1 )`
+// - 第一层 `[prefix*10, (prefix+1)*10 )`
+// - 第二层 `[prefix*100, min(n+1, (prefix+1)*100) )`
+// - ...
 
 
-## 代码实现
+// ## 代码实现
 
-```cpp
+// ```cpp
 class Solution {
 public:
 typedef long long LL;
@@ -44,6 +44,6 @@ typedef long long LL;
         return cnt;
     }
 };
-```
+// ```
 
-![双百](https://pic.leetcode-cn.com/0f80092d17d5f52244f5e39dbd971a3284b4618d72673c5df619cd7b59b33e9c.png)
+// ![双百](https://pic.leetcode-cn.com/0f80092d17d5f52244f5e39dbd971a3284b4618d72673c5df619cd7b59b33e9c.png)

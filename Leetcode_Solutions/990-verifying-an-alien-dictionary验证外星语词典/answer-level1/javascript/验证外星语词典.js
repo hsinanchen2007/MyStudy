@@ -1,4 +1,4 @@
-```js
+// ```js
 var isAlienSorted = function(words, order) {
     let map = new Array(26);
     for(let i = 0; i < order.length; i++){
@@ -9,6 +9,6 @@ var isAlienSorted = function(words, order) {
     }
     return true;
 };
-```
+// ```
 
-参考官方题解
+// 参考官方题解

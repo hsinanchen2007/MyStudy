@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func kSimilarity(_ A: String, _ B: String) -> Int {
         guard A != B else {
@@ -44,4 +44,4 @@ class Solution {
         return Int.max
     }
  }
-```
+// ```

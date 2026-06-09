@@ -1,5 +1,5 @@
-# 快排
-```
+// # 快排
+// ```
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         for (int i = m; i < m + n; ++i) {
@@ -8,12 +8,12 @@ class Solution {
         Arrays.sort(A);
     }
 }
-```
-时间复杂度: O(klogk)
-空间复杂度: O(logk), 假设用快排
-k = m+n
-# 归并
-```
+// ```
+// 时间复杂度: O(klogk)
+// 空间复杂度: O(logk), 假设用快排
+// k = m+n
+// # 归并
+// ```
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         int[] aff = new int[m];
@@ -30,11 +30,11 @@ class Solution {
         }
     }
 }
-```
-时间复杂度: O(m+n)
-空间复杂度: O(m)
-# 逆向归并
-```
+// ```
+// 时间复杂度: O(m+n)
+// 空间复杂度: O(m)
+// # 逆向归并
+// ```
 class Solution {
     public void merge(int[] A, int m, int[] B, int n) {
         int rA = m - 1;
@@ -47,6 +47,6 @@ class Solution {
         }
     }
 }
-```
-时间复杂度: O(m+n)
-空间复杂度: O(1)
+// ```
+// 时间复杂度: O(m+n)
+// 空间复杂度: O(1)

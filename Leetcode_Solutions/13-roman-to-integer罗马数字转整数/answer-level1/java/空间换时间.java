@@ -1,11 +1,11 @@
-### 解题思路
-hashMap 有hash运算
-switch 本质是对case排序，二分查找 ologn，少的时候 on
-数组下标 o1
+// ### 解题思路
+// hashMap 有hash运算
+// switch 本质是对case排序，二分查找 ologn，少的时候 on
+// 数组下标 o1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private final static int[] mapping = new int['Y'];
     static {
@@ -34,4 +34,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

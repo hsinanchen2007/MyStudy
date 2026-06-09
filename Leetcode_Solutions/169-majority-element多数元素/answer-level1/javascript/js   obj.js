@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 var majorityElement = function(nums) {
     let obj = {}
     let max = nums.length/2
@@ -9,4 +9,4 @@ var majorityElement = function(nums) {
         }
     }
 };
-```
+// ```

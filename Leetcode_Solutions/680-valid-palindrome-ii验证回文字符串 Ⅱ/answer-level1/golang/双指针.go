@@ -1,4 +1,4 @@
-```
+// ```
 func validPalindrome(s string) bool {
 
 	// 思路，一头一尾，如果当前2个指针指向的元素不相等，则2者其一移动一位后必定相等，否则不能为回文
@@ -54,4 +54,4 @@ func validPalindrome(s string) bool {
 	}
 	return false
 }
-```
+// ```

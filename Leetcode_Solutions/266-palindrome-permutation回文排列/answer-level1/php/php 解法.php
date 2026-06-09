@@ -1,4 +1,4 @@
-```
+// ```
 function canPermutePalindrome($s) {
     $map = [];
     for($i = 0; $i < strlen($s); $i++){
@@ -10,4 +10,4 @@ function canPermutePalindrome($s) {
     }
     return count($map) <= 1;
 }
-```
+// ```

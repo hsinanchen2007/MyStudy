@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
 
-第一种方法就是排除法：
+// 第一种方法就是排除法：
 
-```golang
+// ```golang
 func isRectangleOverlap(rec1 []int, rec2 []int) bool {
 	// 第一个矩形
 	x11, y11 := rec1[0], rec1[1]
@@ -29,11 +29,11 @@ func isRectangleOverlap(rec1 []int, rec2 []int) bool {
 
 	return true
 }
-```
+// ```
 
-第二种就是分析法：
+// 第二种就是分析法：
 
-```python
+// ```python
 class Solution(object):
     def isRectangleOverlap(self, rec1, rec2):
         """
@@ -62,4 +62,4 @@ class Solution(object):
         if w12 < (w1 + w2) and h12 < (h1 + h2):
             return True
         return False
-```
+// ```

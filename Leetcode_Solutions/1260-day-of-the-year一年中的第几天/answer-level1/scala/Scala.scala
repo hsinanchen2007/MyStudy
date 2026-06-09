@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def dayOfYear(date: String): Int = {
     import java.util.GregorianCalendar
@@ -15,4 +15,4 @@ object Solution {
     cal.get(java.util.Calendar.DAY_OF_YEAR)    
     }
 }
-```
+// ```

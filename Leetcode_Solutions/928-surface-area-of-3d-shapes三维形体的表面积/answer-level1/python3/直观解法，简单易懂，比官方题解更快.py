@@ -1,5 +1,5 @@
-思路：单独计算每个 grid 上的立方体的表面积并求和，然后减去重合部分（cover）的面积。在计算 cover 时，由于把每行和每列的第一个元素都加了一遍，因此在最后减去这部分冗余（residual），然后得到真正的 cover。
-```
+# 思路：单独计算每个 grid 上的立方体的表面积并求和，然后减去重合部分（cover）的面积。在计算 cover 时，由于把每行和每列的第一个元素都加了一遍，因此在最后减去这部分冗余（residual），然后得到真正的 cover。
+# ```
 class Solution:
     def surfaceArea(self, grid) -> int:
         area = 0
@@ -27,5 +27,5 @@ class Solution:
         cover -= residual
         print(area,cover,residual)
         return area - 2*cover  #重合部分抵消掉了相邻两个立方体的表面积，故乘 2
-```
+# ```
 

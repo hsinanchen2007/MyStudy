@@ -1,9 +1,9 @@
-### 解题思路
-反转链表的时候，head->next会被一直改变，这点开始没想到
+// ### 解题思路
+// 反转链表的时候，head->next会被一直改变，这点开始没想到
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ public:
        return tail;  
     }
 };
-```
+// ```

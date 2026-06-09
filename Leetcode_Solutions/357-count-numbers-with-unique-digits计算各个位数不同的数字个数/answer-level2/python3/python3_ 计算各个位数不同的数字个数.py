@@ -1,4 +1,4 @@
-```python
+# ```python
 def countNumbersWithUniqueDigits(n):
     counts = [9,9,8,7,6,5,4,3,2,1]
     res, product = 1, 1
@@ -12,4 +12,4 @@ def countNumbersWithUniqueDigits(n):
     return res
 
 print(countNumbersWithUniqueDigits(9))
-```
+# ```

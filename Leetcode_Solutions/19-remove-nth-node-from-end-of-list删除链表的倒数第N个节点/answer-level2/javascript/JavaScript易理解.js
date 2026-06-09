@@ -1,9 +1,9 @@
-### 解题思路
-将链表转换成数组，删除倒数n位后，再转换成链表返回
+// ### 解题思路
+// 将链表转换成数组，删除倒数n位后，再转换成链表返回
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -47,4 +47,4 @@ var removeNthFromEnd = function(head, n) {
 
 
 
-```
+// ```

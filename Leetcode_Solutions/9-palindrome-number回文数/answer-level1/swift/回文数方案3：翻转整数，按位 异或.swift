@@ -1,15 +1,15 @@
-### 解题思路
-```
+// ### 解题思路
+// ```
 a = 121
 b = reverse(a)
 a^b = 0 则是回文数
 
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
 func isPalindrome(_ x: Int) -> Bool {
     if x < 0 || (x % 10 == 0 && x != 0){
@@ -37,4 +37,4 @@ func reverse(_ x: Int) -> Int {
 }
 
 }
-```
+// ```

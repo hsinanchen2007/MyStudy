@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def sumEvenAfterQueries(A: Array[Int], queries: Array[Array[Int]]): Array[Int] = {
     val res = new Array[Int](queries.length)
@@ -16,4 +16,4 @@ object Solution {
     res
   }
 }
-```
+// ```

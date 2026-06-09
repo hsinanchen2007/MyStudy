@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/7d2912901298d18d4df535fb5a9719aa4ac914fbe391f2a1521e090c2aad2807-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7d2912901298d18d4df535fb5a9719aa4ac914fbe391f2a1521e090c2aad2807-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   动态规划：（当做只有一个人）
   dp[i]：先手者从 i 开始拿，最终会领先敌人多少石子
   最后判断 dp[0] 的值就 ok 了，dp[0] 代表的是第一个拿的人最终会领先对手多少石子
@@ -9,11 +9,11 @@
   对于每一个点 i 都有三种选择：
     拿前一个，拿前两个，拿前三个，我们把三种方式都尝试一遍，看哪种方式会领先对手较多
     的石子，就采用哪种拿法
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} stoneValue
  * @return {string}
@@ -42,4 +42,4 @@ var stoneGameIII = function(stoneValue) {
   
   return ans;
 };
-```
+// ```

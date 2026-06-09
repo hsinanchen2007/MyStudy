@@ -1,6 +1,6 @@
-执行用时 :7 ms, 在所有 java 提交中击败了92.22% 的用户
-内存消耗 :44.1 MB, 在所有 java 提交中击败了61.03%的用户
-```
+// 执行用时 :7 ms, 在所有 java 提交中击败了92.22% 的用户
+// 内存消耗 :44.1 MB, 在所有 java 提交中击败了61.03%的用户
+// ```
 class Solution {
    public class IntervalsComparator implements Comparator<int[]> {
 		@Override
@@ -30,4 +30,4 @@ class Solution {
         return list.toArray(new int[list.size()][2]);
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-#### 解法一：栈解
-+ 类似题型
-  + [84. 柱状图中最大的矩形-解法六-未优化版](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/84-zhu-zhuang-tu-zhong-zui-da-de-ju-xing-by-alexer/)
-+ 思路
-  + 遍历每一行的高度
-  + 用84题求最大矩形的方法直接套过来求解即可
-  + 图解
-    + ![截屏2019-12-12上午7.23.20.png](https://pic.leetcode-cn.com/1b5a2903f6a9c54c1c1db3b5389a4151f8b7239d92b845729c2f3c674507b5a4-%E6%88%AA%E5%B1%8F2019-12-12%E4%B8%8A%E5%8D%887.23.20.png)
-```javascript
+// #### 解法一：栈解
+// + 类似题型
+//   + [84. 柱状图中最大的矩形-解法六-未优化版](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/84-zhu-zhuang-tu-zhong-zui-da-de-ju-xing-by-alexer/)
+// + 思路
+//   + 遍历每一行的高度
+//   + 用84题求最大矩形的方法直接套过来求解即可
+//   + 图解
+//     + ![截屏2019-12-12上午7.23.20.png](https://pic.leetcode-cn.com/1b5a2903f6a9c54c1c1db3b5389a4151f8b7239d92b845729c2f3c674507b5a4-%E6%88%AA%E5%B1%8F2019-12-12%E4%B8%8A%E5%8D%887.23.20.png)
+// ```javascript
 /**
  * @param {character[][]} matrix
  * @return {number}
@@ -44,9 +44,9 @@ var maximalRectangle = function(matrix) {
     }
     return maxarea;
 };
-```
-#### 解法二：栈 + 动态规划
-```javascript
+// ```
+// #### 解法二：栈 + 动态规划
+// ```javascript
 /**
  * @param {character[][]} matrix
  * @return {number}
@@ -81,9 +81,9 @@ var maximalRectangle = function(matrix) {
     }
     return maxarea;
 };
-```
-+ 或者这样写更好理解
-```javascript
+// ```
+// + 或者这样写更好理解
+// ```javascript
 /**
  * @param {character[][]} matrix
  * @return {number}
@@ -124,4 +124,4 @@ var maximalRectangle = function(matrix) {
     }
     return maxarea;
 };
-```
+// ```

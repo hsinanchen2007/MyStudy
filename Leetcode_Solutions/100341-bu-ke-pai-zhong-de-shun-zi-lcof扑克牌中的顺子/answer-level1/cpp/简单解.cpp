@@ -1,9 +1,9 @@
-### 解题思路
-代码即思路,判断两个数之间的slot与万用牌的数量
+// ### 解题思路
+// 代码即思路,判断两个数之间的slot与万用牌的数量
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isStraight(vector<int>& nums) {
@@ -29,4 +29,4 @@ public:
         return slot > 0 ? slot <= zeroCnt : true;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-第一个解
+// 第一个解
 
-```
+// ```
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
@@ -19,4 +19,4 @@ public:
         return false;
     }
 };
-```
+// ```

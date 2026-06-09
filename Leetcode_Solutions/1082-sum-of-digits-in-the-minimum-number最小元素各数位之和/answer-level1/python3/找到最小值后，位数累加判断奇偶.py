@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sumOfDigits(self, A: List[int]) -> int:
         t, c = min(A), 0
@@ -7,4 +7,4 @@ class Solution:
             t = t // 10
         return 1 - c%2
         
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，计算出所有以i(i >= 0 && i <=nums.Length)结尾的最大子数组和，然后在这些和中取最大的。
+// ### 解题思路
+// 动态规划，计算出所有以i(i >= 0 && i <=nums.Length)结尾的最大子数组和，然后在这些和中取最大的。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MaxSubArray(int[] nums) {
         int maxSum = nums[0];
@@ -17,4 +17,4 @@ public class Solution {
         return maxSum;
     }
 }
-```
+// ```

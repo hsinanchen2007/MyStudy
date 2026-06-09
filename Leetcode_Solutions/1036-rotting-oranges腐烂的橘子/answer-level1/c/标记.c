@@ -1,16 +1,16 @@
-### 解题思路
-先看下有没有坏橘子，如果没有，那么只有两种情况，0 or -1
-如果有，统计好橘子总数good；
-标记每分钟变坏的橘子的位置，并记录变坏总个数changebad；
-直到good-changebad == 0时即为所需时间；返回
-如果changebad为0，但是good > 0；
-那么剩余的good永远不会变质。返回-1
+// ### 解题思路
+// 先看下有没有坏橘子，如果没有，那么只有两种情况，0 or -1
+// 如果有，统计好橘子总数good；
+// 标记每分钟变坏的橘子的位置，并记录变坏总个数changebad；
+// 直到good-changebad == 0时即为所需时间；返回
+// 如果changebad为0，但是good > 0；
+// 那么剩余的good永远不会变质。返回-1
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int flushArray(int** grid, int gridSize, int* gridColSize){
     int count = 0;
     int i, j;
@@ -84,4 +84,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
     return time;
 
 }
-```
+// ```

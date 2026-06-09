@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 
 var lastRemaining = function(n, m) {
     let res = 0;
@@ -10,4 +10,4 @@ var lastRemaining = function(n, m) {
     return res
 };
 
-```
+// ```

@@ -1,12 +1,12 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
-从根节点开始，子节点的第一个节点放到二叉树的左节点，第二个子节点放在二叉树左子节点的的右节点，第三个子节点放在第二个子节点的右节点，即除了第一个子节点外同一层的其它节点都挂在第一个节点的右子树上，这样就能保证构成的二叉树根节点没有右子树，左子树的根节点+其右子树为同一层的子节点。效果如下图所示：
-![图片.png](https://pic.leetcode-cn.com/98b59d19fa135fd475fd4840fba84bac8b5f88d63d2d0210a0835ae30b2b78b9-%E5%9B%BE%E7%89%87.png)
+// 从根节点开始，子节点的第一个节点放到二叉树的左节点，第二个子节点放在二叉树左子节点的的右节点，第三个子节点放在第二个子节点的右节点，即除了第一个子节点外同一层的其它节点都挂在第一个节点的右子树上，这样就能保证构成的二叉树根节点没有右子树，左子树的根节点+其右子树为同一层的子节点。效果如下图所示：
+// ![图片.png](https://pic.leetcode-cn.com/98b59d19fa135fd475fd4840fba84bac8b5f88d63d2d0210a0835ae30b2b78b9-%E5%9B%BE%E7%89%87.png)
 
 
-```
+// ```
 class Codec {
 
     // Encodes an n-ary tree to a binary tree.
@@ -40,4 +40,4 @@ class Codec {
         return newNode;
     }
 }
-```
+// ```

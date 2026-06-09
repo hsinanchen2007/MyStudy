@@ -1,20 +1,20 @@
-![image.png](https://pic.leetcode-cn.com/2131a128292380f62814be6cb553cd26f7cea38b55ae5913c14cf315b824a084-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2131a128292380f62814be6cb553cd26f7cea38b55ae5913c14cf315b824a084-image.png)
 
-### 描述题意！！！
-R：车的起始位置，并且车只能从起始位置向四个方向走
-B：路障，遇到就要停车
-p：卒子，可以吃，但是这个方向吃了一个卒子也要停，即：每个方向最多吃一个卒子
-.：可以继续前进
+// ### 描述题意！！！
+// R：车的起始位置，并且车只能从起始位置向四个方向走
+// B：路障，遇到就要停车
+// p：卒子，可以吃，但是这个方向吃了一个卒子也要停，即：每个方向最多吃一个卒子
+// .：可以继续前进
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   从初始位置向四个方向上去移动，看看能捕获多少个卒
   注意：每个方向吃到一个卒子就不能在这个方向继续吃了
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {number}
@@ -91,4 +91,4 @@ var numRookCaptures = function(board) {
   
   return count;
 };
-```
+// ```

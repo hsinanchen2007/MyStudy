@@ -1,5 +1,5 @@
-# 解法一： 用时180ms，空间38M
-```
+// # 解法一： 用时180ms，空间38M
+// ```
 const lengthOfLongestSubstring = (str) => {
   let result = 0;
   let map = {};
@@ -20,10 +20,10 @@ const lengthOfLongestSubstring = (str) => {
     map[c] = true;
   }
   return result;
-```
+// ```
 
-# 解法二 用时100ms,空间38M
-```
+// # 解法二 用时100ms,空间38M
+// ```
 const lengthOfLongestSubstring = (str) => {
   let result = 0;
   let currentStr = '';
@@ -42,5 +42,5 @@ const lengthOfLongestSubstring = (str) => {
   }
   return result;
 }
-```
+// ```
 

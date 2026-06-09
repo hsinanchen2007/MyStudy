@@ -1,5 +1,5 @@
- private int []a= new int[100000];#存放key value的数组，key就是数组下标，value就是数组的值
- private int []b=new int[100000];#标记数组，用来指示该key是否被占用。数组值=1表示被占用，其他表不被占用
+//  private int []a= new int[100000];#存放key value的数组，key就是数组下标，value就是数组的值
+//  private int []b=new int[100000];#标记数组，用来指示该key是否被占用。数组值=1表示被占用，其他表不被占用
 
 
  public void put(int key, int value) {    

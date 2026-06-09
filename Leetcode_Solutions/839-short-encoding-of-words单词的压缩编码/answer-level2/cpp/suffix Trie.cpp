@@ -1,4 +1,4 @@
-```c++
+// ```c++
 struct TrieNode{
     bool isWord;
     string word;
@@ -72,4 +72,4 @@ public:
         return res;
     }
 };
-```
+// ```

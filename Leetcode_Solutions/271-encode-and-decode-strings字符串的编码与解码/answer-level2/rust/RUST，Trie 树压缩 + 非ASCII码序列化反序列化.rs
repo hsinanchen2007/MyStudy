@@ -1,12 +1,12 @@
-主要思想是使用字典树压缩 string, 且字典树的形式实际上是数组，子节点以 id 形式保存引用，字典树中进行路径压缩。
+// 主要思想是使用字典树压缩 string, 且字典树的形式实际上是数组，子节点以 id 形式保存引用，字典树中进行路径压缩。
 
-在序列化反序列化的过程中，使用非 ASCII 码作为分隔符。
+// 在序列化反序列化的过程中，使用非 ASCII 码作为分隔符。
 
-![图片.png](https://pic.leetcode-cn.com/c090fcbf989c81036960e266a8d7a815d2a29a5338b93f68941d63b31be5ba7e-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/c090fcbf989c81036960e266a8d7a815d2a29a5338b93f68941d63b31be5ba7e-%E5%9B%BE%E7%89%87.png)
 
-rust 超过双百分百，当字符串越多效果越好。
+// rust 超过双百分百，当字符串越多效果越好。
 
-```rust
+// ```rust
 use std::collections::HashMap;
 use std::mem::swap;
 use std::rc::Rc;
@@ -216,4 +216,4 @@ impl Codec {
         trie.retrieve()
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-朴素贪心算法：
-  当前位置为 pos , 可跳距离为 step = nums[pos]，若下一跳为 i ，其在 [pos+1, pos+step] 范围内，则 **i 点可达的距离范围 = i 距离 pos 的距离 + i 点可进一步跳的距离**，即 distance = i - pos + nums[i]，那么只需使用贪心算法，在 [pos+1, pos+step] 的范围内将**当前 pos 的下一个可达最远距离的 maxi 找出来即可****完成当前跳的最优解**，依次迭代找到整体的最优价。
-**注意：细节见代码**
+// ### 解题思路
+// 朴素贪心算法：
+//   当前位置为 pos , 可跳距离为 step = nums[pos]，若下一跳为 i ，其在 [pos+1, pos+step] 范围内，则 **i 点可达的距离范围 = i 距离 pos 的距离 + i 点可进一步跳的距离**，即 distance = i - pos + nums[i]，那么只需使用贪心算法，在 [pos+1, pos+step] 的范围内将**当前 pos 的下一个可达最远距离的 maxi 找出来即可****完成当前跳的最优解**，依次迭代找到整体的最优价。
+// **注意：细节见代码**
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
     int nextBestJump(vector<int> nums, int pos){
@@ -42,4 +42,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

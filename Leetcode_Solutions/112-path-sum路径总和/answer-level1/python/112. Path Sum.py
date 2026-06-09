@@ -1,5 +1,5 @@
-1. 开始自己写出来的，但是不够简洁
-```
+# 1. 开始自己写出来的，但是不够简洁
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -90,10 +90,10 @@ root.right.right = 13 + 4 = 17 继续
 root.left.left.left = 20 + 7 > 22 超过该值舍弃
 root.left.left.right = 20 + 2 == 22
 """
-```
+# ```
 
-2. 看了别人写的
-```
+# 2. 看了别人写的
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -111,4 +111,4 @@ class Solution(object):
         if not root.left and not root.right:
             return sum == 0
         return self.hasPathSum(root.left, sum) or self.hasPathSum(root.right, sum)
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-1、新建每个数字对应能跳最远的数组 index[i] = muns[i] + 1;
-2、每一步都是跳到index区域中最大的那个数，通过Max函数计算 //关键
-3、依次跳下去
+// ### 解题思路
+// 1、新建每个数字对应能跳最远的数组 index[i] = muns[i] + 1;
+// 2、每一步都是跳到index区域中最大的那个数，通过Max函数计算 //关键
+// 3、依次跳下去
 
-### 代码
-```c
+// ### 代码
+// ```c
 int *Max(int *num, int size){
     int *tmp = num;
     if (size == 1)
@@ -46,4 +46,4 @@ int jump(int* nums, int numsSize){
 
     return i;
 }
-```
+// ```

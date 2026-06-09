@@ -1,5 +1,5 @@
-二分法查找
-```go
+// 二分法查找
+// ```go
 func search(nums []int, target int) int {
     n := len(nums)
     l, r := 0, n
@@ -29,7 +29,7 @@ func search(nums []int, target int) int {
     }
     return -1
 }
-```
+// ```
 
-- 执行用时 : 4 ms, 在Search in Rotated Sorted Array的Go提交中击败了96.00% 的用户
-- 内存消耗 : 2.6 MB, 在Search in Rotated Sorted Array的Go提交中击败了49.65% 的用户
+// - 执行用时 : 4 ms, 在Search in Rotated Sorted Array的Go提交中击败了96.00% 的用户
+// - 内存消耗 : 2.6 MB, 在Search in Rotated Sorted Array的Go提交中击败了49.65% 的用户

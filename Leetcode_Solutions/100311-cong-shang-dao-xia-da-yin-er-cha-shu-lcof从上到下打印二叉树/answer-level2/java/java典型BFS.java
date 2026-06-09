@@ -1,9 +1,9 @@
-### 解题思路
-BFS用List存节点，每次在头部取，在尾部添加，取节点的时候顺便把val存储起来
+// ### 解题思路
+// BFS用List存节点，每次在头部取，在尾部添加，取节点的时候顺便把val存储起来
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -37,4 +37,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

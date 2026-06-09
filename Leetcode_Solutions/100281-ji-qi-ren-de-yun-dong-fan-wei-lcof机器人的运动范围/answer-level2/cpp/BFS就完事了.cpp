@@ -1,9 +1,9 @@
-### 解题思路
-BFS就完事了
+// ### 解题思路
+// BFS就完事了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     struct node{
@@ -69,4 +69,4 @@ public:
         
     }
 };
-```
+// ```

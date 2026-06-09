@@ -1,6 +1,6 @@
-带条件递归耗时1ms，内存45.2MB<br />
-中序遍历耗时3ms，内存52.7MB
-```
+// 带条件递归耗时1ms，内存45.2MB<br />
+// 中序遍历耗时3ms，内存52.7MB
+// ```
 /**
  * Problem
  *      938.Range Sum of BST
@@ -78,6 +78,6 @@ class Solution {
         inOrder(root.right,L,R);
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出pull request，我会及时处理反馈<br />
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出pull request，我会及时处理反馈<br />
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

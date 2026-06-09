@@ -1,9 +1,9 @@
-### 解题思路
-数学公式求解
+// ### 解题思路
+// 数学公式求解
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] DistributeCandies(int candies, int num_people) {
             int rows = 0;
@@ -38,4 +38,4 @@ public class Solution {
         
     }
 }
-```
+// ```

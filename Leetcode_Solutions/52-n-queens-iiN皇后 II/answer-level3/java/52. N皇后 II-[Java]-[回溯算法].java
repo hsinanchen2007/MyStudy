@@ -1,5 +1,5 @@
-[Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_52_totalNQueens.java)
-```java
+// [Leetcode-Java(更多题解，持续更新)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_52_totalNQueens.java)
+// ```java
     //运算结果
     private int resultCount = 0;
 
@@ -49,4 +49,4 @@
         }
         return true;
     }
-```
+// ```

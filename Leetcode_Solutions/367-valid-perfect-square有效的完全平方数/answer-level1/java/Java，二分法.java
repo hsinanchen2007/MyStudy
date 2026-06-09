@@ -1,6 +1,6 @@
-执行结果：通过显示详情执行用时 :1 ms, 在所有 Java 提交中击败了94.81%的用户内存消耗 :33.5 MB, 在所有 Java 提交中击败了11.05%的用户
-用long避免了值越界。
-```
+// 执行结果：通过显示详情执行用时 :1 ms, 在所有 Java 提交中击败了94.81%的用户内存消耗 :33.5 MB, 在所有 Java 提交中击败了11.05%的用户
+// 用long避免了值越界。
+// ```
 class Solution {
     public boolean isPerfectSquare(int num) {
         if(num==1){
@@ -23,4 +23,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

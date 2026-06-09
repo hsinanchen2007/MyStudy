@@ -1,9 +1,9 @@
-### 解题思路
-二分法
+// ### 解题思路
+// 二分法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
@@ -29,4 +29,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

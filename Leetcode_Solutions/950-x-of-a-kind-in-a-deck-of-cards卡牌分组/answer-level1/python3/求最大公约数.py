@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         # 求所有数字出现次数的最大公约数，如果存在，则为True，否则为False
@@ -19,4 +19,4 @@ class Solution:
         
 
 
-```
+# ```

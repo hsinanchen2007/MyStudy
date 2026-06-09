@@ -1,9 +1,9 @@
-### 解题思路
-根据栈先进后出的原则，使用List来模拟栈。
+// ### 解题思路
+// 根据栈先进后出的原则，使用List来模拟栈。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
     private List<Integer> list;
 
@@ -42,4 +42,4 @@ class MyStack {
         return list.size() == 0;
     }
 }
-```
+// ```

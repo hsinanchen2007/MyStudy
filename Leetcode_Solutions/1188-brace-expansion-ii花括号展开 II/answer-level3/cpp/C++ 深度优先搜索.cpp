@@ -1,8 +1,8 @@
-# 思路：
-1，递归处理花括号
-2，编写加函数ADD与乘函数MUL辅助简化代码
+// # 思路：
+// 1，递归处理花括号
+// 2，编写加函数ADD与乘函数MUL辅助简化代码
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     void ADD(set<string>&s, set<string>& s1) {
@@ -71,6 +71,6 @@ public:
         return vector<string>(s.begin(), s.end());
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/40572ef830f46882e5399ff0621d4162ba0dd0f7efc49abf80409912dec8b1c6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/40572ef830f46882e5399ff0621d4162ba0dd0f7efc49abf80409912dec8b1c6-image.png)

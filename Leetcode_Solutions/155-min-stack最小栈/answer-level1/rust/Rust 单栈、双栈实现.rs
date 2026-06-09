@@ -1,5 +1,5 @@
-双栈，一个作为数据栈，一个存储当前的最小值
-```rust
+// 双栈，一个作为数据栈，一个存储当前的最小值
+// ```rust
 struct MinStack {
     stack: Vec<i32>,
     min_stack: Vec<i32>,
@@ -47,10 +47,10 @@ impl MinStack {
         }
     }
 }
-```
+// ```
 
-单个栈，在最小值改变的时候把最小值也压入栈中
-```rust
+// 单个栈，在最小值改变的时候把最小值也压入栈中
+// ```rust
 struct MinStack {
     stack: Vec<i32>,
     min: i32,
@@ -94,4 +94,4 @@ impl MinStack {
         self.min
     }
 }
-```
+// ```

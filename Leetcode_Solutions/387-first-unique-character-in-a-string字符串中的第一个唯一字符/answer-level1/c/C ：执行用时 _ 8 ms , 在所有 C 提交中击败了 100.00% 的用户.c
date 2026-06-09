@@ -1,4 +1,4 @@
-```
+// ```
 int firstUniqChar(char * s){
     
     int *b = (int*)calloc(128,sizeof(int));
@@ -17,4 +17,4 @@ int firstUniqChar(char * s){
 	}
     return -1;
 }
-```
+// ```

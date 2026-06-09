@@ -1,7 +1,7 @@
-# 思路
-当碰见地形为1时，于是就深度搜索，将1变为0，表示此地已经搜索过了，否则就会无限递归下去。每次将岛屿数量+1，最终就会得到所有的岛屿数量。
-# 代码
-```
+// # 思路
+// 当碰见地形为1时，于是就深度搜索，将1变为0，表示此地已经搜索过了，否则就会无限递归下去。每次将岛屿数量+1，最终就会得到所有的岛屿数量。
+// # 代码
+// ```
 int numIslands(char** grid, int gridSize, int* gridColSize){
     // isLandCount
     int count = 0;
@@ -36,4 +36,4 @@ void solve(char** grid, int gridSize, int* gridColSize, int i, int j, int count)
     solve(grid, gridSize, gridColSize, i, j+1, count); 
 
 }
-```
+// ```

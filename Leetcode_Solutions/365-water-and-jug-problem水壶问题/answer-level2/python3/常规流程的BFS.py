@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-常规的BFS流程，但是性能不够优化
+# 常规的BFS流程，但是性能不够优化
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         if (z < 0) or (z > (x+y)): 
@@ -48,4 +48,4 @@ class Solution:
                     q.append(xy)
 
         return False
-```
+# ```

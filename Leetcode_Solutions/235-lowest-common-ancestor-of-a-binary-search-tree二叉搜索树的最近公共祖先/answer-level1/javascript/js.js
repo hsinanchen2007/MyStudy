@@ -1,4 +1,4 @@
-```js
+// ```js
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -36,4 +36,4 @@ var lowestCommonAncestor = function(root, p, q) {
     }
     return routeP[i-1]
 };
-```
+// ```

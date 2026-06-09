@@ -1,4 +1,4 @@
-```
+// ```
 public ListNode mergeKLists(ListNode[] lists) {
     PriorityQueue<ListNode> queue = new PriorityQueue<>(Comparator.comparingInt(node -> node.val));
     ListNode dummy = new ListNode(0);
@@ -13,4 +13,4 @@ public ListNode mergeKLists(ListNode[] lists) {
     }
     return dummy.next;
 }
-```
+// ```

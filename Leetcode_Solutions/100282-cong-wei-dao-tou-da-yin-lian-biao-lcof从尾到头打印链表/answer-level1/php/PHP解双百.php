@@ -1,9 +1,9 @@
-### 解题思路
-递归获取所有值存入队列,在按照栈先进后出的策略
+// ### 解题思路
+// 递归获取所有值存入队列,在按照栈先进后出的策略
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -43,4 +43,4 @@ class Solution {
         return  $arr; 
     }
 }
-```
+// ```

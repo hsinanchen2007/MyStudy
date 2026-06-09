@@ -1,9 +1,9 @@
-### 解题思路
-使用变量来保存进位， 并且使用虚拟头节点来简化头节点初始化的代码， 使用虚拟头节点， 可以将链表真正的头节点转换为一个子节点， 从而不在需要对其进行特殊操作， 最后将虚拟头节点的 next 返回即是真正的头节点。
+// ### 解题思路
+// 使用变量来保存进位， 并且使用虚拟头节点来简化头节点初始化的代码， 使用虚拟头节点， 可以将链表真正的头节点转换为一个子节点， 从而不在需要对其进行特殊操作， 最后将虚拟头节点的 next 返回即是真正的头节点。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     cur->next = NULL;
     return dummyHead -> next;
 }
-```
+// ```

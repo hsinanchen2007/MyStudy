@@ -1,6 +1,6 @@
 
-维护双指针， 记得处理恰好需要删除头节点的情况
-```
+// 维护双指针， 记得处理恰好需要删除头节点的情况
+// ```
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
 	node := head // 前指针
 	node2 := node // 后指针, 指向应被删除的节点的前一个节点
@@ -24,4 +24,4 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 		return nil
 	}
 }
-```
+// ```

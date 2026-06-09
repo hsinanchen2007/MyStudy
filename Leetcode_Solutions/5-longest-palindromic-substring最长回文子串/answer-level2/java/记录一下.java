@@ -1,8 +1,8 @@
-### 解题思路
-唉
-### 代码
+// ### 解题思路
+// 唉
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
         if(s.length()==0)
@@ -42,4 +42,4 @@ class Solution {
         return pList.get(Max);
     }
 }
-```
+// ```

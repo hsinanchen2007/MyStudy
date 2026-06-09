@@ -1,7 +1,7 @@
-- python调包侠 funtools, fractions, collections
-- 会各种高级函数map(), reduce(), filter()
-- 先理解题意
-```
+# - python调包侠 funtools, fractions, collections
+# - 会各种高级函数map(), reduce(), filter()
+# - 先理解题意
+# ```
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         # 1. brute force
@@ -20,4 +20,4 @@ class Solution:
         from fractions import gcd
         values = Counter(deck).values()
         return reduce(gcd, values) >=2
-```
+# ```

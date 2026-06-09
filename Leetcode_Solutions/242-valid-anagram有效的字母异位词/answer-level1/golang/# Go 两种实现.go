@@ -1,9 +1,9 @@
-> [242. 有效的字母异位词 - 简单](https://leetcode-cn.com/problems/valid-anagram/)
+// > [242. 有效的字母异位词 - 简单](https://leetcode-cn.com/problems/valid-anagram/)
 
-> [完整代码实现](https://github.com/bingohuang/go-codes/blob/master/leetcode/editor/cn/p242_d1_ValidAnagram_test.go)
+// > [完整代码实现](https://github.com/bingohuang/go-codes/blob/master/leetcode/editor/cn/p242_d1_ValidAnagram_test.go)
 
-## 1. 两个数组比较法
-```go
+// ## 1. 两个数组比较法
+// ```go
 // 算法1：
 // 可以利用两个长度都是26的字符串数组，
 // 统计每个字符串中小写字母出现的次数，
@@ -24,11 +24,11 @@ func isAnagram1(s string, t string) bool {
 
 	return a == b
 }
-```
+// ```
 
-## 2. 一个数组判零法
-// 算法2：map法
-```go
+// ## 2. 一个数组判零法
+// // 算法2：map法
+// ```go
 // 算法2：
 // 可以只利用一个长度为 26 的字符数组，
 // 将出现在字符串 s 里的字符个数加 1，
@@ -53,7 +53,7 @@ func isAnagram2(s string, t string) bool {
 	}
 	return true
 }
-```
-### 复杂度分析 - 以上两种算法复杂度相同
-- 时间复杂度：$O(N)$ 因为访问计数器表是一个固定的时间操作。
-- 空间复杂度：$O(1)$ 尽管我们使用了额外的空间，但是空间的复杂性是 $O(1)$，因为无论 $N$ 有多大，表的大小都保持不变。
+// ```
+// ### 复杂度分析 - 以上两种算法复杂度相同
+// - 时间复杂度：$O(N)$ 因为访问计数器表是一个固定的时间操作。
+// - 空间复杂度：$O(1)$ 尽管我们使用了额外的空间，但是空间的复杂性是 $O(1)$，因为无论 $N$ 有多大，表的大小都保持不变。

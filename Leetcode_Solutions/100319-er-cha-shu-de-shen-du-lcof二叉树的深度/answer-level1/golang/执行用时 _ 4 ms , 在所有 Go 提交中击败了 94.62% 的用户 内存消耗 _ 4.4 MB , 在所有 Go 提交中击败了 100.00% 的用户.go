@@ -1,9 +1,9 @@
-### 解题思路
-按层的方式
+// ### 解题思路
+// 按层的方式
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -41,4 +41,4 @@ func maxDepth(root *TreeNode) int {
 }
 
 
-```
+// ```

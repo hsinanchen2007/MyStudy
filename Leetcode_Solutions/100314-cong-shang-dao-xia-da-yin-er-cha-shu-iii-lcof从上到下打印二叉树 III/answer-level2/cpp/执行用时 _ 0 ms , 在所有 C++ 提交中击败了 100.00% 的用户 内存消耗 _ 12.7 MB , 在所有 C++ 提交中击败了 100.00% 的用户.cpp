@@ -1,10 +1,10 @@
-### 解题思路
-用队列模仿二叉树的层次，用一个count来计数，确定是奇数层还是偶数层，
-奇数层从左到右，偶数层从右到左（借助list的双端操作特性）。
+// ### 解题思路
+// 用队列模仿二叉树的层次，用一个count来计数，确定是奇数层还是偶数层，
+// 奇数层从左到右，偶数层从右到左（借助list的双端操作特性）。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -60,4 +60,4 @@ public:
 private:
 	vector<vector<int>> res;
 };
-```
+// ```

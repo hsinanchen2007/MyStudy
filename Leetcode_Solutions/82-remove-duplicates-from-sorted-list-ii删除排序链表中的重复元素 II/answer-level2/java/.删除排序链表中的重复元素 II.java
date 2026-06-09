@@ -1,9 +1,9 @@
-### 解题思路
-应该没有人比我的更慢，空间复杂度更高了吧，用了hashmap+list
+// ### 解题思路
+// 应该没有人比我的更慢，空间复杂度更高了吧，用了hashmap+list
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -44,4 +44,4 @@ class Solution {
         return result.next;
     }
 }
-```
+// ```

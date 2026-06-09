@@ -1,8 +1,8 @@
-### 解题思路
-只需判断奇偶性！！！
-### 代码
+// ### 解题思路
+// 只需判断奇偶性！！！
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string generateTheString(int n) {
@@ -18,4 +18,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-过2遍数组，记录左右小于当前位置的个数
-再找最大值
-```rust
+// 过2遍数组，记录左右小于当前位置的个数
+// 再找最大值
+// ```rust
 impl Solution {
     pub fn longest_mountain(a: Vec<i32>) -> i32 {
         if a.len() <3 {
@@ -26,4 +26,4 @@ impl Solution {
     }
 }
 
-```
+// ```

@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestPalindrome(char * s){
     int map[52] = {0};
     int result = 0;
@@ -25,4 +25,4 @@ int longestPalindrome(char * s){
     }
     return hasSin ? result + 1 : result;
 }
-```
+// ```

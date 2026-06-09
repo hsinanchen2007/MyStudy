@@ -1,10 +1,10 @@
-### 解题思路
-找到R，然后往四个方向查找。
-详见注释
+// ### 解题思路
+// 找到R，然后往四个方向查找。
+// 详见注释
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {number}
@@ -47,4 +47,4 @@ var numRookCaptures = function(board) {
         }
     }
 };
-```
+// ```

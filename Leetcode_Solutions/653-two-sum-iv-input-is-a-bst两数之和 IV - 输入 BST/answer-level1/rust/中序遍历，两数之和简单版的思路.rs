@@ -1,7 +1,7 @@
-根据题解改进的简洁版，采用中序遍历，以及两数之和简单版的思路，用Vec来模拟原来的Hashmap
-8ms 3MB左右
+// 根据题解改进的简洁版，采用中序遍历，以及两数之和简单版的思路，用Vec来模拟原来的Hashmap
+// 8ms 3MB左右
 
-```
+// ```
 use std::rc::Rc;
 use std::cell::RefCell;
 impl Solution {
@@ -23,4 +23,4 @@ impl Solution {
         in_order(root, k, &mut vec)
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先用一个递归函数遍历二叉树，然后用另外一个递归函数判断这两个子树是否相等。
+// 先用一个递归函数遍历二叉树，然后用另外一个递归函数判断这两个子树是否相等。
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 /**
  * Definition for a binary tree node.
  * class TreeNode(var _value: Int) {
@@ -34,4 +34,4 @@ object Solution {
     }
   }
 }
-```
+// ```

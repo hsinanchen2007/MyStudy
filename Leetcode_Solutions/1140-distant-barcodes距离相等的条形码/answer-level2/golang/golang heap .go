@@ -1,4 +1,4 @@
-```
+// ```
 func rearrangeBarcodes(barcodes []int) []int {
 	return rearrangeBarcodesHelper(barcodes)
 }
@@ -71,4 +71,4 @@ func (h *IntHeap) Pop() interface{} {
 	return x
 }
 
-```
+// ```

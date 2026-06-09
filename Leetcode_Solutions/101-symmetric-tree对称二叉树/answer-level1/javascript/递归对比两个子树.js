@@ -1,10 +1,10 @@
-### 解题思路
-左子树的左子树对比右子树的右子树
+// ### 解题思路
+// 左子树的左子树对比右子树的右子树
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var isSymmetric = function(root) {
     if(!root) {
         return true
@@ -26,4 +26,4 @@ function compareTwoTrees(left, right) {
     return false
     
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-先对数组进行排序，让其变为升序，之后创建集合，挨个添加到集合中
+// ### 解题思路
+// 先对数组进行排序，让其变为升序，之后创建集合，挨个添加到集合中
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> sortArray(int[] nums) {
         Arrays.sort(nums);
@@ -14,4 +14,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

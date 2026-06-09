@@ -1,10 +1,10 @@
-### 解题思路
-1. 用字典建立hash表，key为nums中的元素i，value为nums中i出现的次数
-2. 遍历nums，统计所有i出现的次数
+# ### 解题思路
+# 1. 用字典建立hash表，key为nums中的元素i，value为nums中i出现的次数
+# 2. 遍历nums，统计所有i出现的次数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         if len(nums) <= 1:
@@ -18,4 +18,4 @@ class Solution:
                     return i
             else:
                 dic[i] = 1
-```
+# ```

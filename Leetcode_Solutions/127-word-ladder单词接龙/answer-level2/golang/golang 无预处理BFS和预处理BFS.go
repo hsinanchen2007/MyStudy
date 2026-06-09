@@ -1,6 +1,6 @@
 
-1. 没有预处理的BFS，用时288ms
-```
+// 1. 没有预处理的BFS，用时288ms
+// ```
 func ladderLength(beginWord string, endWord string, wordList []string) int {
     // 排除wordList中没有endWord，直接返回0
 	flag := false
@@ -40,14 +40,14 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 		queue = newQueue              // 将新的数据替换，继续循环
 	}
 	return 0
-```
+// ```
 
 
-2. 预处理+BFS，用时40ms
+// 2. 预处理+BFS，用时40ms
 
-预处理就是将wordList中的所有单词，每个单词的每个字母换成"*"，换完之后一样的放在一个list中
-后续每次对比diff==1，就只需要对比对应list中的单词即可，不需要全部过一遍了
-```
+// 预处理就是将wordList中的所有单词，每个单词的每个字母换成"*"，换完之后一样的放在一个list中
+// 后续每次对比diff==1，就只需要对比对应list中的单词即可，不需要全部过一遍了
+// ```
 func ladderLength(beginWord string, endWord string, wordList []string) int {
 	flag := false
 	for _, word := range wordList {
@@ -92,4 +92,4 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 	}
 	return 0
 }
-```
+// ```

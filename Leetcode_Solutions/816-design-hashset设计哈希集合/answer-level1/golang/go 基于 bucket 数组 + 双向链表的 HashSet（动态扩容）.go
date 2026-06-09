@@ -1,4 +1,4 @@
-```
+// ```
 
 /*
 基于 HashMap 设计理念的 Int Set
@@ -177,4 +177,4 @@ func (t *MyHashSet) Contains(key int) bool {
  * param_3 := obj.Contains(key);
  */
 
-```
+// ```

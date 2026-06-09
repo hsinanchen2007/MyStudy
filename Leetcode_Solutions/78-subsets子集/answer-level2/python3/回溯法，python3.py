@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def subsets(self, nums):
         res = [[]]
@@ -11,5 +11,5 @@ class Solution:
                 
         backtrack(nums,0)
         return res
-```
-自己捣鼓了一下，不知道咋通过了，好像效率不是很高？
+# ```
+# 自己捣鼓了一下，不知道咋通过了，好像效率不是很高？

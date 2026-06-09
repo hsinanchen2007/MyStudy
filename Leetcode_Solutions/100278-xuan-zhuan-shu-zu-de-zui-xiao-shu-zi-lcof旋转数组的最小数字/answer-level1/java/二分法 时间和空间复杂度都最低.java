@@ -1,15 +1,15 @@
-### 解题思路
-旋转数组，获得最小值。
-想要获得logn级别的时间复杂度，通过二分法查找 
-本题规律是，作为旋转轴的那个数在最右边，所以每次二分时，mid和最右边的数字进行比较
-arr[mid]>arr[right]，递归时在mid右边查找；
-arr[mid]<arr[right],递归时，在mid左边查找；
-相等时，right往前挪一位，缩小范围
+// ### 解题思路
+// 旋转数组，获得最小值。
+// 想要获得logn级别的时间复杂度，通过二分法查找 
+// 本题规律是，作为旋转轴的那个数在最右边，所以每次二分时，mid和最右边的数字进行比较
+// arr[mid]>arr[right]，递归时在mid右边查找；
+// arr[mid]<arr[right],递归时，在mid左边查找；
+// 相等时，right往前挪一位，缩小范围
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int partition(int left,int right,int arr[])
     {
@@ -33,4 +33,4 @@ class Solution {
     }
 
 }
-```
+// ```

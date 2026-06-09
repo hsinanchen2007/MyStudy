@@ -1,10 +1,10 @@
-大写和小写直接判断一样不一样，
+// 大写和小写直接判断一样不一样，
 
-其余直接判断首字母和其他字母的规则，否和程度和长度比较
+// 其余直接判断首字母和其他字母的规则，否和程度和长度比较
 
 
 
-```java
+// ```java
 public class Solution {
 
 	public boolean detectCapitalUse(String word) {
@@ -23,4 +23,4 @@ public class Solution {
 	}
 
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 func firstUniqChar(s string) byte {
     res := make([]int,26)
     for _,v := range s{
@@ -13,4 +13,4 @@ func firstUniqChar(s string) byte {
     }
     return ' '
 }
-```
+// ```

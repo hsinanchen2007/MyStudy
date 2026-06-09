@@ -1,9 +1,9 @@
-### 解题思路
-主要的是首先判断是否插入首尾的边界情况，当处理完边界情况后，即是常规的单指针从前向后遍历。
+# ### 解题思路
+# 主要的是首先判断是否插入首尾的边界情况，当处理完边界情况后，即是常规的单指针从前向后遍历。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         if len(nums) == 0 or target <= nums[0]:
@@ -23,4 +23,4 @@ class Solution:
                 else:
                     return p
 
-```
+# ```

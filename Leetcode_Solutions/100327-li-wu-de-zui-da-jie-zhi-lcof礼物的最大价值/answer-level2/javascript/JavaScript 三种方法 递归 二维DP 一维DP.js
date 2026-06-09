@@ -1,19 +1,19 @@
-### 解题思路
+// ### 解题思路
 
-由于只能向下走或向右走，假设 f(i, j) 表示从 [i, j] 位置开始能搜集到的最大礼物，那么: 
+// 由于只能向下走或向右走，假设 f(i, j) 表示从 [i, j] 位置开始能搜集到的最大礼物，那么: 
 
-f(i, j) = grid[i][j] + Math.max(f(i+1, j), f(i, j+1))
+// f(i, j) = grid[i][j] + Math.max(f(i+1, j), f(i, j+1))
 
-这么看显然是可以用递归来实现的。当然这也就是我们的 DP 的状态转移方程了。
+// 这么看显然是可以用递归来实现的。当然这也就是我们的 DP 的状态转移方程了。
 
-方法一：递归（面试中也可先写出来）
-方法二：递归 + 缓存
-方法三：二维 DP (推荐，面试中可以使用，并给出方法四的优化)
-方法四：一维 DP
+// 方法一：递归（面试中也可先写出来）
+// 方法二：递归 + 缓存
+// 方法三：二维 DP (推荐，面试中可以使用，并给出方法四的优化)
+// 方法四：一维 DP
 
-### 方法一：递归，超时
+// ### 方法一：递归，超时
 
-```javascript
+// ```javascript
 var maxValue = function(grid) {
     let rows = grid.length
     if (!rows) return 0
@@ -26,11 +26,11 @@ var maxValue = function(grid) {
         return grid[i][j] + Math.max(recurse(i, j+1), recurse(i+1, j))
     }
 };
-```
+// ```
 
-### 方法二：递归 + 缓存，通过
+// ### 方法二：递归 + 缓存，通过
 
-```javascript
+// ```javascript
 var maxValue = function(grid) {
     let rows = grid.length
     if (!rows) return 0
@@ -51,11 +51,11 @@ var maxValue = function(grid) {
         return max
     }
 };
-```
+// ```
 
-### 方法三：二维 DP，通过（推荐）
+// ### 方法三：二维 DP，通过（推荐）
 
-```javascript
+// ```javascript
 var maxValue = function(grid) {
     let rows = grid.length
     if (!rows) return 0
@@ -73,11 +73,11 @@ var maxValue = function(grid) {
 
     return dp[0][0]
 };
-```
+// ```
 
-### 方法四：一维 DP，通过 (推荐)
+// ### 方法四：一维 DP，通过 (推荐)
 
-```javascript
+// ```javascript
 var maxValue = function(grid) {
     let rows = grid.length
     if (!rows) return 0
@@ -93,4 +93,4 @@ var maxValue = function(grid) {
     }
     return dp[0]
 };
-```
+// ```

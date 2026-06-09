@@ -1,9 +1,9 @@
-### 解题思路
-无脑把得到的字母按顺序排队。击败了92.45%的用户，难以置信
+// ### 解题思路
+// 无脑把得到的字母按顺序排队。击败了92.45%的用户，难以置信
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> letterCombinations(String digits) {
         String[] str = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
@@ -35,4 +35,4 @@ class Solution {
         return rs;
     }
 }
-```
+// ```

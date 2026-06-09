@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -25,4 +25,4 @@ var findMedianSortedArrays = function(nums1, nums2) {
     if(nums3.length%2 === 0) return (nums3[nums3.length >> 1] + nums3[(nums3.length >> 1) - 1]).toFixed(1)/2.0;
     return nums3[nums3.length >> 1];
 };
-```
+// ```

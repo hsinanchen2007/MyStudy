@@ -1,11 +1,11 @@
-### 解题思路
-我们定义一个总和currentSum,和一个是否使用过的used数组来做状态管理。
-当currentSum==target的时候,就对k减1来获取下一组可以求和等于target的情况。
-如果要把所有等于sum/k的子数组找出来，那么就要在currentSum==target的时候，将数字保存进来。
+// ### 解题思路
+// 我们定义一个总和currentSum,和一个是否使用过的used数组来做状态管理。
+// 当currentSum==target的时候,就对k减1来获取下一组可以求和等于target的情况。
+// 如果要把所有等于sum/k的子数组找出来，那么就要在currentSum==target的时候，将数字保存进来。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     private boolean checkCanPartitionKSubsets(int[] nums,int currentSum,int target,int start,int k,boolean[] used){
@@ -44,4 +44,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

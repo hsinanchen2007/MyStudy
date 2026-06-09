@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestOnes(self, A: List[int], K: int) -> int:
         output = 0
@@ -22,8 +22,8 @@ class Solution:
         return output
             
         
-```
+# ```
 
 
 
-Using the Sliding window method for this method ,very nice
+# Using the Sliding window method for this method ,very nice

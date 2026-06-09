@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func canMeasureWater(_ x: Int, _ y: Int, _ z: Int) -> Bool {
     if x < 0 || y < 0 || z < 0 {
@@ -42,4 +42,4 @@ func gcdFinal(_ number: Int, _ number2: Int) -> Int {
     }
 }
 }
-```
+// ```

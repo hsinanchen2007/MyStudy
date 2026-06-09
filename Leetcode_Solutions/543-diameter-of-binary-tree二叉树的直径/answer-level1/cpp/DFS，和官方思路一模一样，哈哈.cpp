@@ -1,9 +1,9 @@
-### 解题思路
-定义一个作为结果的公共变量nums,每次递归时将该节点的直径和nums比较,大了就更新nums
+// ### 解题思路
+// 定义一个作为结果的公共变量nums,每次递归时将该节点的直径和nums比较,大了就更新nums
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ public:   //和官方一样的思路，哈哈
         return max(left,right)+1;
     }
 };
-```
+// ```

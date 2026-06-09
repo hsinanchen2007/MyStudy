@@ -1,7 +1,7 @@
-### 解法一 深度优先遍历
-1.我们遍历二维网格，在遇到1的时候增加一次岛屿的数量。
-2.然后将与当前1相连的所有为1的都变为0,这样这个一块岛屿就从grid中移除变为水了。
-```
+// ### 解法一 深度优先遍历
+// 1.我们遍历二维网格，在遇到1的时候增加一次岛屿的数量。
+// 2.然后将与当前1相连的所有为1的都变为0,这样这个一块岛屿就从grid中移除变为水了。
+// ```
 class Solution {
     
     public int numIslands(char[][] grid) {
@@ -33,9 +33,9 @@ class Solution {
         setlandToWater(col,row+1,grid);
     }
 }
-```
-### 解法二  并查集
-```
+// ```
+// ### 解法二  并查集
+// ```
 class Solution {
     //并查集
     public class Union{
@@ -107,5 +107,5 @@ class Solution {
         return union.count;
     }
 }
-```
+// ```
 

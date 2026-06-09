@@ -1,4 +1,4 @@
-```
+// ```
 let getLeastNumbers = function(nums, k) {
   return countSort(nums, k)
 }
@@ -19,4 +19,4 @@ function countSort(arr, k) {
   }
   return arr.slice(0, k)
 }
-```
+// ```

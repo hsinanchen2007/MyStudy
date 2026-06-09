@@ -1,9 +1,9 @@
-### 解题思路
-先使用双指针法找出全部符合条件的三个数，再人工去重。
+// ### 解题思路
+// 先使用双指针法找出全部符合条件的三个数，再人工去重。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -55,4 +55,4 @@ var threeSum = function(nums) {
     }
     return duplicate(result);
 };
-```
+// ```

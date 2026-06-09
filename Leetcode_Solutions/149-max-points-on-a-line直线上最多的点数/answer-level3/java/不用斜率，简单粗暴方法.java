@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxPoints(int[][] points) {
         if(points.length<3)return points.length;
@@ -25,4 +25,4 @@ class Solution {
         return maxp;
     }
 }
-```
+// ```

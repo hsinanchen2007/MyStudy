@@ -1,10 +1,10 @@
-### 解题思路
-一直报范围溢出的错误。。。。不过解决了
-0ms，7.2MB
+// ### 解题思路
+// 一直报范围溢出的错误。。。。不过解决了
+// 0ms，7.2MB
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> summaryRanges(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
         return res;
     }
 };
-```
+// ```

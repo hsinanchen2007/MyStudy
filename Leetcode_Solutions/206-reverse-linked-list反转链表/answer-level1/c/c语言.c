@@ -1,9 +1,9 @@
-### 解题思路
-注意是没有头结点的，这点一定注意
+// ### 解题思路
+// 注意是没有头结点的，这点一定注意
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -37,4 +37,4 @@ struct ListNode* reverseList(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

@@ -1,12 +1,12 @@
 
-思路：声明收尾两个指针，每次比较首尾得到的数字，如果首尾数字相同，则首指针往后移，尾指针往前移。
-继续对比下一个数字。直到指针到达中间
+// 思路：声明收尾两个指针，每次比较首尾得到的数字，如果首尾数字相同，则首指针往后移，尾指针往前移。
+// 继续对比下一个数字。直到指针到达中间
 
-执行用时 : 58 ms, 在Palindrome Number的Java提交中击败了71.01% 的用户
+// 执行用时 : 58 ms, 在Palindrome Number的Java提交中击败了71.01% 的用户
 
-内存消耗 : 35.2 MB, 在Palindrome Number的Java提交中击败了97.81% 的用户
+// 内存消耗 : 35.2 MB, 在Palindrome Number的Java提交中击败了97.81% 的用户
 
-```
+// ```
 class Solution {
 
    public boolean isPalindrome(int x) {
@@ -60,4 +60,4 @@ class Solution {
 
     }
 }
-```
+// ```

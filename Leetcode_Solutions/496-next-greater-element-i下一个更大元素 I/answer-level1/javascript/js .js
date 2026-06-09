@@ -1,11 +1,11 @@
-思路：
-循环nums1
-找到nums1循环中当前值cur在nums2中的位置（t）
-从t处开始循环nums2
-    如果有比cur大的就返回
-    否则等nums2循环完后返回-1
+// 思路：
+// 循环nums1
+// 找到nums1循环中当前值cur在nums2中的位置（t）
+// 从t处开始循环nums2
+//     如果有比cur大的就返回
+//     否则等nums2循环完后返回-1
 
-```
+// ```
 /**
  * @param {number[]} nums1
  * @param {number[]} nums2
@@ -22,6 +22,6 @@ var nextGreaterElement = function (nums1, nums2) {
         return -1
     })
 };
-```
+// ```
 
-谁给来个复杂度分析：
+// 谁给来个复杂度分析：

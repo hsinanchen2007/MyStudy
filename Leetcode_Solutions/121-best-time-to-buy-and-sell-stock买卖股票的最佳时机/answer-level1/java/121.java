@@ -1,9 +1,9 @@
-### 解题思路
-暴力法找最大值
+// ### 解题思路
+// 暴力法找最大值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int max = 0;
@@ -21,4 +21,4 @@ class Solution {
 
     }
 }
-```
+// ```

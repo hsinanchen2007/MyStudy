@@ -1,4 +1,4 @@
-```
+// ```
     ListNode* sortList(ListNode* head) {
         auto dummy = ListNode(-1);
         dummy.next = head;
@@ -46,4 +46,4 @@
         }
         return dummy.next;
     }
-```
+// ```

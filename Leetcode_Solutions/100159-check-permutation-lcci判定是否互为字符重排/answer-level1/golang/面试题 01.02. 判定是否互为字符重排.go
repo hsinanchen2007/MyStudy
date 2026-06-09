@@ -1,9 +1,9 @@
-### 解题思路
-一个字符串长度
+// ### 解题思路
+// 一个字符串长度
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func CheckPermutation(s1 string, s2 string) bool {
 	if len(s1) != len(s2) {
 		return false
@@ -26,4 +26,4 @@ func CheckPermutation(s1 string, s2 string) bool {
 	return true
 
 }
-```
+// ```

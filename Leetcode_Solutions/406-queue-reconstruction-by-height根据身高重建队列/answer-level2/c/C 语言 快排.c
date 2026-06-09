@@ -1,5 +1,5 @@
-这个题要是真遇到，临时想一个解法出来还真不容易；个人觉得快排二维指针不好搞，最后只能搞了一个快排二维数组；
-```
+// 这个题要是真遇到，临时想一个解法出来还真不容易；个人觉得快排二维指针不好搞，最后只能搞了一个快排二维数组；
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -60,4 +60,4 @@ int** reconstructQueue(int** people, int peopleSize, int* peopleColSize, int* re
     returnColumnSizes[0] = peopleColSize;
     return returnarray;
 }
-```
+// ```

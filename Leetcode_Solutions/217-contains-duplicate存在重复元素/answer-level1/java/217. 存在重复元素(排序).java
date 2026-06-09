@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         int i;
@@ -10,4 +10,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

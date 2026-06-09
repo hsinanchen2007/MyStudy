@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/49c2c88ded6522bc7ba81a088b240c8dc8c2d0cfb4741f72a06580b0fa0ff769-image.png)
-其实就是去搜
-### 代码
+// ![image.png](https://pic.leetcode-cn.com/49c2c88ded6522bc7ba81a088b240c8dc8c2d0cfb4741f72a06580b0fa0ff769-image.png)
+// 其实就是去搜
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<double> calcEquation(vector<vector<string>>& equations, vector<double>& values, vector<vector<string>>& queries) {
@@ -98,4 +98,4 @@ public:
         return res;
     }
 };
-```
+// ```

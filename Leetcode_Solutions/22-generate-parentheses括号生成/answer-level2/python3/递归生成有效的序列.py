@@ -1,11 +1,11 @@
-### 解题思路
-设定左括号个数，右括号个数来控制有效性
-递归生成长度为2*n的序列
+# ### 解题思路
+# 设定左括号个数，右括号个数来控制有效性
+# 递归生成长度为2*n的序列
 
-和dfs的思想其实是一样的
-### 代码
+# 和dfs的思想其实是一样的
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         ans = []
@@ -25,4 +25,4 @@ class Solution:
         backtrack("", 0, 0)
         return ans
             
-```
+# ```

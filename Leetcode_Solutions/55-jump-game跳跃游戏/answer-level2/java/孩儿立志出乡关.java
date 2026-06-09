@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean canJump(int[] nums) {
         int maxJump = nums[0]  ;
@@ -14,4 +14,4 @@ class Solution {
         return true ;
     }
 }
-```
+// ```

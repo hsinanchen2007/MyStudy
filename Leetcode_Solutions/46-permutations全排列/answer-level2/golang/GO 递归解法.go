@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/15ba65ec38b19d76b25426d854c9059208f14a43dc64287d3386a338ccc6e2fb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/15ba65ec38b19d76b25426d854c9059208f14a43dc64287d3386a338ccc6e2fb-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func permute(nums []int) [][]int {
     r := [][]int{}
     S(nums, []int{}, &r)
@@ -30,4 +30,4 @@ func S(nums, t []int, r *[][]int) {
         S(append(a[:i], a[i + 1:]...), c, r)
     }
 }
-```
+// ```

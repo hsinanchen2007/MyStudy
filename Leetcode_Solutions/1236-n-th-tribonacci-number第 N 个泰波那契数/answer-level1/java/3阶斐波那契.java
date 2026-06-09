@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int tribonacci(int n) {
         int t0=0,t1=1,t2=1,sum;
@@ -22,4 +22,4 @@ class Solution {
         return t1;
     }
 }
-```
+// ```

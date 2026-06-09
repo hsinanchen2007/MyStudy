@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-顺序扫描，不用回溯，直接存储次数与重复字符，不等则存到结果中。  
+// 顺序扫描，不用回溯，直接存储次数与重复字符，不等则存到结果中。  
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func compressString(S string) string {
     //考虑特殊情况
     if S == "" {
@@ -33,4 +33,4 @@ func compressString(S string) string {
 	}
 	return res
 }
-```
+// ```

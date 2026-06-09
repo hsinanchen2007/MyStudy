@@ -1,5 +1,5 @@
-# 递归法
-```go
+// # 递归法
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -20,11 +20,11 @@ func postorder(root *TreeNode, output *[]int) {
     *output = append(*output, root.Val)
   }
 }
-```
+// ```
 
-# 非递归法
+// # 非递归法
 
-```go
+// ```go
 func postorderTraversal(root *TreeNode) []int {
   stack := make([]*TreeNode, 0)
   output := make([]int, 0)
@@ -55,4 +55,4 @@ func reverse(arr []int) {
     j--
   }
 }
-```
+// ```

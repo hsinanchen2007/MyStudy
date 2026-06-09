@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/3c468d46c6baf0618eb2f15067c262076f6742cd92a52902b3cf3edf7a67b6bd-image.png)
-1. 建立hash
-2. 标记对应的下标值
-3. 判断重复的值是否小于等于`k`
-```
+// ![image.png](https://pic.leetcode-cn.com/3c468d46c6baf0618eb2f15067c262076f6742cd92a52902b3cf3edf7a67b6bd-image.png)
+// 1. 建立hash
+// 2. 标记对应的下标值
+// 3. 判断重复的值是否小于等于`k`
+// ```
 class Solution {
 
     /**
@@ -26,4 +26,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

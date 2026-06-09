@@ -1,12 +1,12 @@
-### 解题思路
-~~才发现int和char之间的转换是差了48的~~，而且INT_MAX和INT_MIN的判断每一步都要做，因为系统给你的数可能很离谱，怎么都溢出
-- 不是int和char之间的转换差了48，是string类型的对象中的某个元素当做char调用的时候直接赋值给int是比表面上的数大48
-- 比如string a=42  int b=a[0] cout<<b;  不会输出4，而是52。52=4+48.
-![image.png](https://pic.leetcode-cn.com/358b72980dab17e71f42f79c3c201a2f8486ae1a3196e3b334c56cb029b70335-image.png)
+// ### 解题思路
+// ~~才发现int和char之间的转换是差了48的~~，而且INT_MAX和INT_MIN的判断每一步都要做，因为系统给你的数可能很离谱，怎么都溢出
+// - 不是int和char之间的转换差了48，是string类型的对象中的某个元素当做char调用的时候直接赋值给int是比表面上的数大48
+// - 比如string a=42  int b=a[0] cout<<b;  不会输出4，而是52。52=4+48.
+// ![image.png](https://pic.leetcode-cn.com/358b72980dab17e71f42f79c3c201a2f8486ae1a3196e3b334c56cb029b70335-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -51,4 +51,4 @@ public:
        return ans;
     }
 };
-```
+// ```

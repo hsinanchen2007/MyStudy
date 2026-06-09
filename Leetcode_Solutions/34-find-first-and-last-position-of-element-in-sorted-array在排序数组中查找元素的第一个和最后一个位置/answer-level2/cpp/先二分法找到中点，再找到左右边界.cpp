@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -43,9 +43,9 @@ public:
         return {-1, -1};
     }
 };
-```
-优化，先找左边界，再找右边界
-```
+// ```
+// 优化，先找左边界，再找右边界
+// ```
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -77,4 +77,4 @@ public:
         return {l, r};
     }
 };
-```
+// ```

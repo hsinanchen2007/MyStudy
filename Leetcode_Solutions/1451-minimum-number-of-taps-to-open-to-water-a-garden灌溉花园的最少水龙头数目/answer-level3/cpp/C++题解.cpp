@@ -1,14 +1,14 @@
-### [1326. 灌溉花园的最少水龙头数目](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
+// ### [1326. 灌溉花园的最少水龙头数目](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
 
-#### 题解
-  + 统计区间并按右边界大小进行排序
-  + 区间动态规划， $dp[i]$ 为覆盖从0到第i个区间的右边界所需的最小区间个数
-  + 动态转移方程：$dp[i] = min(dp[j] + 1) ,\  j < i \&\& l[i] <=  r[j]$
-  + $ans = min(ans, dp[i]) ,\  r[i] >= n$
-  + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
-#### 代码
+// #### 题解
+//   + 统计区间并按右边界大小进行排序
+//   + 区间动态规划， $dp[i]$ 为覆盖从0到第i个区间的右边界所需的最小区间个数
+//   + 动态转移方程：$dp[i] = min(dp[j] + 1) ,\  j < i \&\& l[i] <=  r[j]$
+//   + $ans = min(ans, dp[i]) ,\  r[i] >= n$
+//   + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
+// #### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
   int minTaps(int n, vector<int>& ranges) {
@@ -38,4 +38,4 @@ public:
       return res;
   }
 };
-```
+// ```

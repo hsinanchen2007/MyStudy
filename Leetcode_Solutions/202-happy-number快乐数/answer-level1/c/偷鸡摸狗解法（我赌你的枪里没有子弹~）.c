@@ -1,5 +1,5 @@
-循环了10次还没解决问题 sorry 再见（居然通过了 还是双百）
-```
+// 循环了10次还没解决问题 sorry 再见（居然通过了 还是双百）
+// ```
 bool isHappy(int n){
     int sum=0,x=n,y,flag=0;
     while(1){
@@ -19,4 +19,4 @@ bool isHappy(int n){
     }
     return 1;
 }
-```
+// ```

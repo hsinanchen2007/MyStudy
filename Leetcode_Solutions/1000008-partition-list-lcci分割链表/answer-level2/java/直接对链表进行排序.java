@@ -1,11 +1,11 @@
-### 解题思路
-1.取出链表中所有的值
-2.进行排序
-3.替换原链表的值
+// ### 解题思路
+// 1.取出链表中所有的值
+// 2.进行排序
+// 3.替换原链表的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -33,4 +33,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

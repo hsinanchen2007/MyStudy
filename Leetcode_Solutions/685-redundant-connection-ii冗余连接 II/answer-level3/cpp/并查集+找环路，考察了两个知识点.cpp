@@ -1,25 +1,25 @@
-题目比较综合，考察点有两个（拼爹，找环路）：
-    1）使用并查集，检查一个node是否有两个父亲（father1，father2）。
-    2）判断一个节点是否在循环中。
-答案是这两种情况之一，或者都存在。
+// 题目比较综合，考察点有两个（拼爹，找环路）：
+//     1）使用并查集，检查一个node是否有两个父亲（father1，father2）。
+//     2）判断一个节点是否在循环中。
+// 答案是这两种情况之一，或者都存在。
 
-按照这个思路，先建立parents数组，同时检查是否有father1，father2；
-    建立的过程中，直接判断一个节点是否有两个父亲，获取errorSon，father1，father2。
-    建立parents数组时有一个细节，按先后顺讯，建立的是{father1，errorSon}，father2只是记录，没有建立。
-    这个细节在后面解题时会用到
+// 按照这个思路，先建立parents数组，同时检查是否有father1，father2；
+//     建立的过程中，直接判断一个节点是否有两个父亲，获取errorSon，father1，father2。
+//     建立parents数组时有一个细节，按先后顺讯，建立的是{father1，errorSon}，father2只是记录，没有建立。
+//     这个细节在后面解题时会用到
 
-写InLoop（）函数，判断一个node是否在循环中。
+// 写InLoop（）函数，判断一个node是否在循环中。
 
-如果存在第二个爹：
-    判断{father1， errorSon}是否在循环中
-    如果存在，在循环中，返回：{father1， errorSon}
-    如果不在循环中，返回：{father2， errorSon}。这样做，是因为father2要么在循环中，要么是靠后的edge。
+// 如果存在第二个爹：
+//     判断{father1， errorSon}是否在循环中
+//     如果存在，在循环中，返回：{father1， errorSon}
+//     如果不在循环中，返回：{father2， errorSon}。这样做，是因为father2要么在循环中，要么是靠后的edge。
 
-如果不存在father2：
-    遍历全部节点，找到一个在循环总的node。
-    从头到尾遍历edge，用后发现的edge，覆盖前面的edge。
+// 如果不存在father2：
+//     遍历全部节点，找到一个在循环总的node。
+//     从头到尾遍历edge，用后发现的edge，覆盖前面的edge。
 
-```
+// ```
 class Solution {
 public:
     int InLoop(vector<vector<int>>& edges, int N, int node, vector<int> &parents)   // 返回在循环中的一个node， 如果不是循环，返回-1
@@ -72,5 +72,5 @@ public:
         return ans;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/9191140966f016830633d52479bdedd8b3ef6bb883556a82eab51d622e931f75-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/9191140966f016830633d52479bdedd8b3ef6bb883556a82eab51d622e931f75-image.png)

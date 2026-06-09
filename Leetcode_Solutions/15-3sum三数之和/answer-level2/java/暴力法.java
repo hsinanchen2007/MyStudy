@@ -1,11 +1,11 @@
-暴力法：
-1.首先升序排列
-2.取两个指针 left 和 right 指向最左边和最右边
-3.将所有数存进 map 中
-4.如果 0 - nums[left] - nums[right] < 0, 则 right--; 反之则 left++。
+// 暴力法：
+// 1.首先升序排列
+// 2.取两个指针 left 和 right 指向最左边和最右边
+// 3.将所有数存进 map 中
+// 4.如果 0 - nums[left] - nums[right] < 0, 则 right--; 反之则 left++。
 
-缺点是：超出时间限制　TAT
-```
+// 缺点是：超出时间限制　TAT
+// ```
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums); // 对数组进行升序排列 
@@ -57,4 +57,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

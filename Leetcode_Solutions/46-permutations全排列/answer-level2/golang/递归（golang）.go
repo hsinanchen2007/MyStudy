@@ -1,6 +1,6 @@
-通过	4 ms	6.6 MB	Golang
-我的提交执行用时已经战胜 99.64 % 的 golang 提交记录
-```
+// 通过	4 ms	6.6 MB	Golang
+// 我的提交执行用时已经战胜 99.64 % 的 golang 提交记录
+// ```
 func permute(nums []int) [][]int {
     return subNumberSlice(nums)
 }
@@ -29,4 +29,4 @@ func subNumberSlice(nums []int) [][]int {
     }
     return result
 }
-```
+// ```

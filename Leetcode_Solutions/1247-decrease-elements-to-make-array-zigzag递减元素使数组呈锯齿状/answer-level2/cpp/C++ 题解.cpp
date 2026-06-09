@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int movesToMakeZigzag(vector<int>& nums) {
@@ -18,6 +18,6 @@ public:
         return min(s1, s2);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/e09095560290b3cc77908a219a45991327f6f60e5fe569f8acdc0dc0ddfd7cac-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e09095560290b3cc77908a219a45991327f6f60e5fe569f8acdc0dc0ddfd7cac-image.png)

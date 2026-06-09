@@ -1,10 +1,10 @@
-- ### 解题思路
-建立visitmap数组
-首先找到边缘为‘O’的元素 然后对visitmap数组染色
+# - ### 解题思路
+# 建立visitmap数组
+# 首先找到边缘为‘O’的元素 然后对visitmap数组染色
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def DealComp(self, board,visitmap, Row , Col, RowMax, ColMax):
         if board[Row][Col] == 'O':
@@ -31,4 +31,4 @@ class Solution:
                 if(visitmap[IdxRow][IdxCol] == 0):
                     board[IdxRow][IdxCol] = "X"
         return board
-```
+# ```

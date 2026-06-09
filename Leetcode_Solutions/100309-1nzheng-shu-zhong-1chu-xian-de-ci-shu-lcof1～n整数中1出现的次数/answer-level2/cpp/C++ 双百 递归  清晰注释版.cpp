@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     // 先统计n个位数
@@ -46,4 +46,4 @@ public:
         return x;
     }
 };   
-```
+// ```

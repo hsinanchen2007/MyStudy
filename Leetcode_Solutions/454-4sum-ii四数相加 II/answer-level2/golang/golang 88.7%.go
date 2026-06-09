@@ -1,4 +1,4 @@
-```
+// ```
 /*将C+D的每一种可能放入查找表（map）  这样我们只需要寻找这个表里面有没有-A-B就行了     有的话则A+B+C+D=0，然后统计一下个数*/
 
 func fourSumCount(A []int, B []int, C []int, D []int) int {
@@ -17,4 +17,4 @@ func fourSumCount(A []int, B []int, C []int, D []int) int {
     }
     return result;
 }
-```
+// ```

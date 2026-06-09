@@ -1,10 +1,10 @@
-### 解题思路
-遍历链表，遇到child就将其插入当前节点和下一个节点之间
-假设节点总数为n，时间复杂度为O(n), 空间复杂度O(1)
+// ### 解题思路
+// 遍历链表，遇到child就将其插入当前节点和下一个节点之间
+// 假设节点总数为n，时间复杂度为O(n), 空间复杂度O(1)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func flatten(root *Node) *Node {
 	for p := root; p != nil; p = p.Next {
 		if p.Child == nil {
@@ -24,4 +24,4 @@ func flatten(root *Node) *Node {
 	}
 	return root
 }
-```
+// ```

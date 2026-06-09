@@ -1,17 +1,17 @@
-### 解题思路
-关键1：
-    #直到找到存在子节点的上层节点
-    tmp = root.next
-    while tmp and (not tmp.left and not tmp.right):
-        tmp = tmp.next
-关键2：
-    #一定要先递归右节点，不然self.connect(root.left) 时父节点的跳线尚未连好
-    self.connect(root.right)
-    self.connect(root.left)
+# ### 解题思路
+# 关键1：
+#     #直到找到存在子节点的上层节点
+#     tmp = root.next
+#     while tmp and (not tmp.left and not tmp.right):
+#         tmp = tmp.next
+# 关键2：
+#     #一定要先递归右节点，不然self.connect(root.left) 时父节点的跳线尚未连好
+#     self.connect(root.right)
+#     self.connect(root.left)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -47,5 +47,5 @@ class Solution:
             self.connect(root.right)
             self.connect(root.left)
         return root
-```
-时间复杂度O(1)
+# ```
+# 时间复杂度O(1)

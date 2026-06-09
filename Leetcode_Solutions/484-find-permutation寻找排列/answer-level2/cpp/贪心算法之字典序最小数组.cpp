@@ -1,5 +1,5 @@
-递增排序的数组字典序最小，当出现I时，保持顺序不变，当出现一段连续的D时，将这段D对应的数组反转即可。
-```c++
+// 递增排序的数组字典序最小，当出现I时，保持顺序不变，当出现一段连续的D时，将这段D对应的数组反转即可。
+// ```c++
 class Solution {
 public:
     vector<int> findPermutation(string s) {
@@ -21,4 +21,4 @@ public:
         return nums;
     }
 };
-```
+// ```

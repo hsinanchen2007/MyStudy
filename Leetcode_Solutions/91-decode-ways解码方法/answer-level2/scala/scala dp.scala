@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def numDecodings(s: String): Int = {
     val len = s.length
@@ -15,4 +15,4 @@ object Solution {
     dp.lastOption.getOrElse(0)
   }
 }
-```
+// ```

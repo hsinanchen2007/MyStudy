@@ -1,4 +1,4 @@
-```
+// ```
 var canThreePartsEqualSum = function(A) {
 	const target = A.reduce((t, i) => t + i, 0) / 3;
 	let i = A.length - 1;
@@ -13,4 +13,4 @@ var canThreePartsEqualSum = function(A) {
 	}
 	return (sum === target && part === 2) || (sum === 0 && part === 3);
 };
-```
+// ```

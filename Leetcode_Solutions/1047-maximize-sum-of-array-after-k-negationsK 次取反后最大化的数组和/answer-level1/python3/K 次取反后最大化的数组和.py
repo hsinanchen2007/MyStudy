@@ -1,11 +1,11 @@
-### 解题思路
-代码中已经注释了。
-时间:o(nlogn)
-空间:o(logn)
+# ### 解题思路
+# 代码中已经注释了。
+# 时间:o(nlogn)
+# 空间:o(logn)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def largestSumAfterKNegations(self, A: List[int], K: int) -> int:
         # 先降序
@@ -40,4 +40,4 @@ class Solution:
         for x in A:
             sums += x
         return sums
-```
+# ```

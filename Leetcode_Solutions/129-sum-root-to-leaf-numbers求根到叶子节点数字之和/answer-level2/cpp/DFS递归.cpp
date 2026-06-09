@@ -1,5 +1,5 @@
-递归遍历，按照深度逐渐×10，作为进位。
-```
+// 递归遍历，按照深度逐渐×10，作为进位。
+// ```
 class Solution {
     int dfs(TreeNode *root, int level){
         int val = level*10+root->val;
@@ -12,4 +12,4 @@ public:
         return root?dfs(root,0):0;
     }
 };
-```
+// ```

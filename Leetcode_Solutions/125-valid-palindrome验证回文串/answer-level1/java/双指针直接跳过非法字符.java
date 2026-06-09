@@ -1,9 +1,9 @@
-### 解题思路
-利用双指针同步进行比较，遇到非法的字符直接跳过该字符即可。 其中比较字符时如果两边大小写不一致则进行一下转换后在比较。
+// ### 解题思路
+// 利用双指针同步进行比较，遇到非法的字符直接跳过该字符即可。 其中比较字符时如果两边大小写不一致则进行一下转换后在比较。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(String s) {
       if(s.length() == 0) return true;
@@ -39,4 +39,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

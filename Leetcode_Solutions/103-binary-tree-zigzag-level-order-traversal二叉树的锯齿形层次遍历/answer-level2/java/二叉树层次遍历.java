@@ -1,9 +1,9 @@
-### 解题思路
-还是常规的层次遍历，只需要判断一下奇数偶数的高度做一下转换就行。
+// ### 解题思路
+// 还是常规的层次遍历，只需要判断一下奇数偶数的高度做一下转换就行。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -46,4 +46,4 @@ class Solution {
         return results;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-建立一个切片来存放每个数字出现的次数，找出出现两次的数字和出现0次的数字即可。
+// 建立一个切片来存放每个数字出现的次数，找出出现两次的数字和出现0次的数字即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findErrorNums(nums []int) []int {
 	res1,res2 := 0,0
 	tmp := make([]int,len(nums) + 1)
@@ -21,4 +21,4 @@ func findErrorNums(nums []int) []int {
 	}
 	return []int{res1,res2}
 }
-```
+// ```

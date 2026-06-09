@@ -1,6 +1,6 @@
-1. 用map统计每个数字出现的次数
-2. 用map统计出现次数的次数， 大于1直接返回false
-```
+// 1. 用map统计每个数字出现的次数
+// 2. 用map统计出现次数的次数， 大于1直接返回false
+// ```
 func uniqueOccurrences(arr []int) bool {
     m := make(map[int]int)
     for i := 0; i < len(arr); i++ {
@@ -15,4 +15,4 @@ func uniqueOccurrences(arr []int) bool {
     }
     return true
 }
-```
+// ```

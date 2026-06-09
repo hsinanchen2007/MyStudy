@@ -1,18 +1,18 @@
 
-枚举所有可能，暴力破解。
-直接上代码，自行阅读。关注点：
-1. Point24()为入口，-> TravelAllCards()递归遍历所有数字组合。
-2. -> GetValidCount() 遍历每次计算中5种括号形式。
-3. -> Operate() 遍历每次计算中三个加减乘除的所有组合。
-4. 以上两步中使用了回调函数，减少判断，应该还是比较好用。
-5. breaker() 为调试断点 入口，一般不用关心。同各种组合输出一样，需要打开MY_DEBUG才有效。
-6. Point24Main()和TranslateToNumber()无需关心，为了接口另外一套调试输入。
+// 枚举所有可能，暴力破解。
+// 直接上代码，自行阅读。关注点：
+// 1. Point24()为入口，-> TravelAllCards()递归遍历所有数字组合。
+// 2. -> GetValidCount() 遍历每次计算中5种括号形式。
+// 3. -> Operate() 遍历每次计算中三个加减乘除的所有组合。
+// 4. 以上两步中使用了回调函数，减少判断，应该还是比较好用。
+// 5. breaker() 为调试断点 入口，一般不用关心。同各种组合输出一样，需要打开MY_DEBUG才有效。
+// 6. Point24Main()和TranslateToNumber()无需关心，为了接口另外一套调试输入。
 
 
-应该还是有些优化点，不折腾了，有好的建议，欢迎留言~
+// 应该还是有些优化点，不折腾了，有好的建议，欢迎留言~
 
 
-```c
+// ```c
 //#define MY_DEBUG
 
 #define MAX_CARDS   4
@@ -239,4 +239,4 @@ bool judgePoint24(int* nums, int numsSize){
     return (Point24(nums, numsSize)>0) ? true : false;
 }
 
-```
+// ```

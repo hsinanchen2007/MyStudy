@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/6df7d18e8e231ae44588c676635315e421ab4c64a8b66dcdd311cd3413c4b1e4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6df7d18e8e231ae44588c676635315e421ab4c64a8b66dcdd311cd3413c4b1e4-image.png)
 
-```
+// ```
 vector<string> fullJustify(vector<string>& words, int maxWidth) {
     vector<string> ans;
     vector<string> line;
@@ -51,4 +51,4 @@ vector<string> fullJustify(vector<string>& words, int maxWidth) {
     }
     return ans;
 }
-```
+// ```

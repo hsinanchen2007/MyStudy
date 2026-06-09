@@ -1,10 +1,10 @@
-### 解题思路
-回溯法求出皇后所在每行的位置存于quene[]中，然后构造输出集。
-quene[n] = i 表示第n行皇后在第i列。
+// ### 解题思路
+// 回溯法求出皇后所在每行的位置存于quene[]中，然后构造输出集。
+// quene[n] = i 表示第n行皇后在第i列。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<String>> solveNQueens(int n) {
         int[] quene = new int[n];
@@ -50,4 +50,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

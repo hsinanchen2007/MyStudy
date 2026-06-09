@@ -1,9 +1,9 @@
-### 解题思路
-我开始写了一个带visited的，结果时间超时不通过。然后直接在原数组上改字符。结果通过了。
+// ### 解题思路
+// 我开始写了一个带visited的，结果时间超时不通过。然后直接在原数组上改字符。结果通过了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean exist(char[][] board, String word) {
         char[] words = word.toCharArray();
@@ -25,4 +25,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

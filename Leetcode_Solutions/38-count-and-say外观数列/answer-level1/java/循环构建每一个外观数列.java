@@ -1,4 +1,4 @@
-```
+// ```
 public class Demo038 {
     public static String countAndSay(int n) {
         StringBuffer sb = null;
@@ -37,4 +37,4 @@ public class Demo038 {
 
 }
 
-```
+// ```

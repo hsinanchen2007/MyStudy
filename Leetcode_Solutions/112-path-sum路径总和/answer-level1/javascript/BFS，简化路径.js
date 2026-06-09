@@ -1,6 +1,6 @@
-不用存储叠加的value集合，直接将和叠加到子树即可。
+// 不用存储叠加的value集合，直接将和叠加到子树即可。
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -47,4 +47,4 @@ var hasPathSum = function(root, sum) {
   }
   return false;
 };
-```
+// ```

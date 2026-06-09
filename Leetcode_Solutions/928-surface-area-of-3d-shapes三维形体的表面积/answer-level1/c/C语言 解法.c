@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
     int i,j;
     int sum = 0; // 记录总表面积
@@ -25,4 +25,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
     }
     return sum;
 }
-```
+// ```

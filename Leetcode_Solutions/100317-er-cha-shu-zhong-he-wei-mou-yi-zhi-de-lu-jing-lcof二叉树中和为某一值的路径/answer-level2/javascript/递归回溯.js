@@ -1,12 +1,12 @@
-### 解题思路
-- 大家都知道JS，
-- 基本类型：字符串（String）、数字(Number)、布尔(Boolean)、对空（Null）、未定义（Undefined）、Symbol
-- 对象类型：Object
-- 递归回溯：如果条件不符合，回到上一步另一个选择进行递归。
+// ### 解题思路
+// - 大家都知道JS，
+// - 基本类型：字符串（String）、数字(Number)、布尔(Boolean)、对空（Null）、未定义（Undefined）、Symbol
+// - 对象类型：Object
+// - 递归回溯：如果条件不符合，回到上一步另一个选择进行递归。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -51,4 +51,4 @@ var pathSum = function(root, sum) {
     return res
 
 };
-```
+// ```

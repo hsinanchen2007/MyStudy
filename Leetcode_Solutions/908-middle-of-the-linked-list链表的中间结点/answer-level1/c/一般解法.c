@@ -1,9 +1,9 @@
-### 解题思路
-先计算next到最后需要的步数，然后判断步数的奇偶，最后得到找到中间节点的步数
+// ### 解题思路
+// 先计算next到最后需要的步数，然后判断步数的奇偶，最后得到找到中间节点的步数
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -33,4 +33,4 @@ struct ListNode* middleNode(struct ListNode* head){
 
     return b;
 }
-```
+// ```

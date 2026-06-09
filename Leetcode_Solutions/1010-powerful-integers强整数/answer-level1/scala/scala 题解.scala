@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def powerfulIntegers(x: Int, y: Int, bound: Int): List[Int] = {
     if (bound < 2) return List[Int]()
@@ -12,4 +12,4 @@ object Solution {
   def func(base: Int, bound: Int, ans: Int = 0): Int = if (bound >= base) func(base, bound / base, ans + 1) else ans
 
 }
-```
+// ```

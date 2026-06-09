@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {//我比较菜，只能用这种又笨的方法写出来了。但是///一会去看大佬 们写的方式 再写一次
         Stack<Integer> stack = new Stack<Integer>();//用来存放结果的stack
@@ -37,4 +37,4 @@ class Solution {
         return ret;
     }
 }
-```
+// ```

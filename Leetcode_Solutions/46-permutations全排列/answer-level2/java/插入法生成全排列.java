@@ -1,10 +1,10 @@
-插入法生成全排列。  
-![](https://pic.leetcode-cn.com/854191e1b21014289221c10c9cce3c916fc5bffd7ed0edfa65e0ebbcea7c9435-file_1581750536129)  
-图片来自[组合数学第五版](https://book.douban.com/subject/10606626/)
+// 插入法生成全排列。  
+// ![](https://pic.leetcode-cn.com/854191e1b21014289221c10c9cce3c916fc5bffd7ed0edfa65e0ebbcea7c9435-file_1581750536129)  
+// 图片来自[组合数学第五版](https://book.douban.com/subject/10606626/)
 
 
-**代码如下**，回溯：
-```
+// **代码如下**，回溯：
+// ```
 public class Solution {
     public static List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> lists = new ArrayList<>();
@@ -32,4 +32,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

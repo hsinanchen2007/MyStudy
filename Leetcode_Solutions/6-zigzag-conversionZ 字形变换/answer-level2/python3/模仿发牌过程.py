@@ -1,12 +1,12 @@
-### 解题思路
-模仿发牌过程:
-s为一副扑克牌，
-str_list用于生成若干个玩家，
-get_index用于指定给谁发牌。
+# ### 解题思路
+# 模仿发牌过程:
+# s为一副扑克牌，
+# str_list用于生成若干个玩家，
+# get_index用于指定给谁发牌。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         def get_index(numRows):
@@ -22,4 +22,4 @@ class Solution:
         result = ''.join(str_list)
         return result
 
-```
+# ```

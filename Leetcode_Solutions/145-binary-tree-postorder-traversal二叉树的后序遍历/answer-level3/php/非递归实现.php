@@ -1,5 +1,5 @@
 
-```
+// ```
     function postorderTraversal($root) {
         $res = [];
         $stack = [];
@@ -21,4 +21,4 @@
         }
         return $res;
     }
-```
+// ```

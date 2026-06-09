@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-按顺序将B插入，找到A中比B[i]大的j，在此位置插入B[i]，如果j已经到了末尾，就将B直接插入到A就好了
+# ### 解题思路
+# 此处撰写解题思路
+# 按顺序将B插入，找到A中比B[i]大的j，在此位置插入B[i]，如果j已经到了末尾，就将B直接插入到A就好了
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def merge(self, A, m, B, n):
         """
@@ -28,4 +28,4 @@ class Solution(object):
                 m += 1
                 j += 1
         return A
-```
+# ```

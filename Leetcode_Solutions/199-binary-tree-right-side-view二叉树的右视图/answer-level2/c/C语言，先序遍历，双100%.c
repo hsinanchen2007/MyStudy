@@ -1,10 +1,10 @@
-### 解题思路
-直接把先序遍历的每个深度第一个节点加入res即可
-遍历顺序 根 - 右节点 - 左节点
+// ### 解题思路
+// 直接把先序遍历的每个深度第一个节点加入res即可
+// 遍历顺序 根 - 右节点 - 左节点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ int* rightSideView(struct TreeNode* root, int* returnSize){
     travel(root, 1, returnSize, res);
     return res;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countDigitOne(int n) {
         int o = 0, a = 1, b = 1;
@@ -16,4 +16,4 @@ class Solution {
 }
 
 
-```
+// ```

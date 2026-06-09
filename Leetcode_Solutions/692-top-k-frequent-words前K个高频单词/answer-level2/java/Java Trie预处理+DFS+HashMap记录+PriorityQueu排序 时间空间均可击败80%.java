@@ -1,13 +1,13 @@
-# Trie
-    Tire is a data structure also called prefix tree.
+// # Trie
+//     Tire is a data structure also called prefix tree.
     
-Re-organizing the data structure is of great necessity when we need to deal with the big data problem.
+// Re-organizing the data structure is of great necessity when we need to deal with the big data problem.
 
-Please refer Leetcode problem 208: implement a trie, if you do not know what a trie is.
+// Please refer Leetcode problem 208: implement a trie, if you do not know what a trie is.
 
-## Solution 1: HashMap + PriorityQueue
+// ## Solution 1: HashMap + PriorityQueue
 
-```
+// ```
 public List<String> topKFrequent(String[] words, int k) {
         // Use hashmap to store the words
         Map<String, Integer> count = new HashMap();
@@ -55,13 +55,13 @@ public List<String> topKFrequent(String[] words, int k) {
         Collections.reverse(ans);
         return ans;
     }
-```
+// ```
 
-Time complexity: O(Nlogk) where k is the top k frequent word and N is the number of words we've got.
-Space complexity: O(N).
+// Time complexity: O(Nlogk) where k is the top k frequent word and N is the number of words we've got.
+// Space complexity: O(N).
 
-## Solution 2
-```
+// ## Solution 2
+// ```
 class Solution {
     
     class TrieNode {	
@@ -262,9 +262,9 @@ class Solution {
         }        
     }
 }
-```
-### Time complexity: 
-    Construct the trie: O(N)
-    Search the trie: O(L^26) where L is the height of the trie, 
-    which is the length of the longest word in words.
-### Space complexity: O(N)
+// ```
+// ### Time complexity: 
+//     Construct the trie: O(N)
+//     Search the trie: O(L^26) where L is the height of the trie, 
+//     which is the length of the longest word in words.
+// ### Space complexity: O(N)

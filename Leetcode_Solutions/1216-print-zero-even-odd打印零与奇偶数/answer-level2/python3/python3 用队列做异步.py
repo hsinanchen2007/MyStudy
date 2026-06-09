@@ -1,9 +1,9 @@
-### 解题思路
-总共需要输出n个0和1~n的正整数，而且是先输出0再输出正整数，所以可以用零队列，奇数队列，偶数队列做控制
+# ### 解题思路
+# 总共需要输出n个0和1~n的正整数，而且是先输出0再输出正整数，所以可以用零队列，奇数队列，偶数队列做控制
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import queue
 
 class ZeroEvenOdd:
@@ -39,4 +39,4 @@ class ZeroEvenOdd:
             printNumber(self.count)
             self.count += 1
             self.zero_q.put(0)
-```
+# ```

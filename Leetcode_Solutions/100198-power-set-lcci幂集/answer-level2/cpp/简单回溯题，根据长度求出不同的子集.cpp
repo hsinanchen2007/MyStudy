@@ -1,6 +1,6 @@
-- 简单回溯
+// - 简单回溯
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int n;
@@ -27,4 +27,4 @@ public:
         }
     }
 };
-```
+// ```

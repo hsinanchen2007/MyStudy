@@ -1,5 +1,5 @@
-很简单的循环遍历：
-```c# []
+// 很简单的循环遍历：
+// ```c# []
 public int UniqueMorseRepresentations(string[] words) {
         var dict=new Dictionary<string,int>();
         var mose=new string[26] {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
@@ -18,5 +18,5 @@ public int UniqueMorseRepresentations(string[] words) {
         }
         return dict.Keys.Count;
     }
-```
+// ```
 

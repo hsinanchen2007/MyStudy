@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countNumbersWithUniqueDigits(int n){
     if(n==0) return 1;
     if(n==1) return 10;
@@ -18,4 +18,4 @@ int countNumbersWithUniqueDigits(int n){
     }
     return s;
 }
-```
+// ```

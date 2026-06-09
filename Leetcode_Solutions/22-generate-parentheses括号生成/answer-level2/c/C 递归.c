@@ -1,9 +1,9 @@
-### 解题思路
-上代码
+// ### 解题思路
+// 上代码
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -42,4 +42,4 @@ char** generateParenthesis(int n, int* returnSize) {
     generate(ret, returnSize, resultStr, n, n, 0);
     return ret;    
 }
-```
+// ```

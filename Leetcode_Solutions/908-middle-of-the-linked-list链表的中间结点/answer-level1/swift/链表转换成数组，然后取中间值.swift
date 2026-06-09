@@ -1,9 +1,9 @@
-### 解题思路
-链表转换成数组，然后取中间值
+// ### 解题思路
+// 链表转换成数组，然后取中间值
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -35,4 +35,4 @@ func middleNode(_ head: ListNode?) -> ListNode? {
         return array[index]
     }
 }
-```
+// ```

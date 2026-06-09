@@ -1,9 +1,9 @@
-### 解题思路
-将两个链表合并成一个新的链表，主要需要注意指针的移动，以及链表为空的判断
+# ### 解题思路
+# 将两个链表合并成一个新的链表，主要需要注意指针的移动，以及链表为空的判断
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution(object):
         l3.next=l1 if l1 else l2
         return head.next
 
-```
+# ```

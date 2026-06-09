@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findKthLargest(int[] nums, int k) {
         return partation(nums,0,nums.length-1,k);
@@ -28,5 +28,5 @@ class Solution {
         }
     }
 }
-```
-有疑问可留言。
+// ```
+// 有疑问可留言。

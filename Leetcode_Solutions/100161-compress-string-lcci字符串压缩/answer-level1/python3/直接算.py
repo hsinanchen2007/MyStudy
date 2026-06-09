@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/9b574d67d8a66058394d813d5cf0aca43a24b154d2b64b27293bc16505b84043-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/9b574d67d8a66058394d813d5cf0aca43a24b154d2b64b27293bc16505b84043-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         r = ''
@@ -23,4 +23,4 @@ class Solution:
             return S
         else:
             return r
-```
+# ```

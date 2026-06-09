@@ -1,10 +1,10 @@
-### 解题思路
-只需要在push时使队列的顺序调整为栈的存储顺序即可。
-在pop以及取top值时调用队列的原函数。
+// ### 解题思路
+// 只需要在push时使队列的顺序调整为栈的存储顺序即可。
+// 在pop以及取top值时调用队列的原函数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -52,4 +52,4 @@ public:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```
+// ```

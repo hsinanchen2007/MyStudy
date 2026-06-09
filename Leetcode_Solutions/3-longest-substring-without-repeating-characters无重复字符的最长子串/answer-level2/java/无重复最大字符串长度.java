@@ -1,10 +1,10 @@
-### 解题思路
-扫描字符串，每次当前的字符串和前面某个重复了，那么从那重复的地方开始重新计算不重复的字符串。
-执行用时 : 3 ms 内存消耗 : 38.6 MB
+// ### 解题思路
+// 扫描字符串，每次当前的字符串和前面某个重复了，那么从那重复的地方开始重新计算不重复的字符串。
+// 执行用时 : 3 ms 内存消耗 : 38.6 MB
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         if (s == null || s.length() == 0) {
@@ -38,4 +38,4 @@ class Solution {
             return maxLength;
     }
 }
-```
+// ```

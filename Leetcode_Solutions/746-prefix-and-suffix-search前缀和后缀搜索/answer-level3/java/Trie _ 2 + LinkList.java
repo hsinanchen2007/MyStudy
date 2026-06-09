@@ -1,9 +1,9 @@
 
-执行用时 :214 ms, 在所有 java 提交中击败了100.00%的用户
-内存消耗 :74.1 MB, 在所有 java 提交中击败了96.67%的用户
+// 执行用时 :214 ms, 在所有 java 提交中击败了100.00%的用户
+// 内存消耗 :74.1 MB, 在所有 java 提交中击败了96.67%的用户
 
-####
-```
+// ####
+// ```
 class WordFilter {
     int size;
     class LinkNode{
@@ -132,6 +132,6 @@ class WordFilter {
         return res;
     }
 }
-```
+// ```
 
 

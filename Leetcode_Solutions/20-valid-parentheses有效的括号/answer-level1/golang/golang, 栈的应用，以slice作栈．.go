@@ -1,9 +1,9 @@
-golang, 栈的应用，以slice作栈．
+// golang, 栈的应用，以slice作栈．
 
-github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
+// github: [https://github.com/Crownt/leetcode](https://github.com/Crownt/leetcode)
 
 
-```
+// ```
 // 栈的应用
 // 时间复杂度：O(n)  空间复杂度：O(n)
 
@@ -30,4 +30,4 @@ func isValid(s string) bool {
 
 	return len(stack) == 0  //　防止左半部分括号数目大于右半部分括号数目的情况，如："{{{}"
 }
-```
+// ```

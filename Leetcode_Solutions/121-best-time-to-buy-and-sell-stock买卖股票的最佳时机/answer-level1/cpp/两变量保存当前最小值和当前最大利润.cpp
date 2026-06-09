@@ -1,12 +1,12 @@
-### 解题思路
-1. 两个变量分别保存当前最大利润和最小价格；
-2. 伴随everyday增加，依次计算；
-实际是动态规划的思路
+// ### 解题思路
+// 1. 两个变量分别保存当前最大利润和最小价格；
+// 2. 伴随everyday增加，依次计算；
+// 实际是动态规划的思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -24,4 +24,4 @@ public:
         return maxProfit;
     }
 };
-```
+// ```

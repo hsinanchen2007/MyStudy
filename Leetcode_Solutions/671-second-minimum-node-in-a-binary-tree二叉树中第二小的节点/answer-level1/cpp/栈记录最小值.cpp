@@ -1,9 +1,9 @@
-### 解题思路
-用栈记录除了root->val 之外的最小值。
+// ### 解题思路
+// 用栈记录除了root->val 之外的最小值。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -51,4 +51,4 @@ public:
         return;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-C++;   思路是反向的归并排序，两个数组从最后开始向前比较，大的数放在nums1的后面
+// ### 解题思路
+// C++;   思路是反向的归并排序，两个数组从最后开始向前比较，大的数放在nums1的后面
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -28,4 +28,4 @@ public:
 
     }
 };
-```
+// ```

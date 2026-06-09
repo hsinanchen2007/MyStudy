@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isPrime(int n)
@@ -39,4 +39,4 @@ public:
         return res;
     }
 };
-```
+// ```

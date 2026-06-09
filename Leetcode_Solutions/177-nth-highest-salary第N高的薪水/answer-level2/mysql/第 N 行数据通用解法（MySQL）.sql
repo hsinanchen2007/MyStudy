@@ -1,10 +1,10 @@
-### 解题思路
+-- ### 解题思路
 
-与 [第二高的薪水](https://leetcode-cn.com/problems/second-highest-salary/) 思路一致，均为 `LIMIT` 子句的运用，简单易懂。参照 [官方解释](https://leetcode-cn.com/problems/second-highest-salary/solution/di-er-gao-de-xin-shui-by-leetcode/) 对代码稍作调整即可。
+-- 与 [第二高的薪水](https://leetcode-cn.com/problems/second-highest-salary/) 思路一致，均为 `LIMIT` 子句的运用，简单易懂。参照 [官方解释](https://leetcode-cn.com/problems/second-highest-salary/solution/di-er-gao-de-xin-shui-by-leetcode/) 对代码稍作调整即可。
 
-#### 代码
+-- #### 代码
 
-```mysql
+-- ```mysql
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
   SET n = N-1;
@@ -18,23 +18,23 @@ BEGIN
           )
   );
 END
-```
+-- ```
 
 
-### 另一种方案
+-- ### 另一种方案
 
-采用 `IF()` 函数可以 “符合题意” ，一句解决，可以但没必要。
+-- 采用 `IF()` 函数可以 “符合题意” ，一句解决，可以但没必要。
 
-这种方法思路也十分简单：
+-- 这种方法思路也十分简单：
 
-1. 查询排序后取前 N 行数据
-2. 使用 `count()` 取行数 `rows` 
-    - `rows < N` 则没有第 N 行数据，结果为 `NULL`
-    - `rows >= N` 则取第 N 行数据
+-- 1. 查询排序后取前 N 行数据
+-- 2. 使用 `count()` 取行数 `rows` 
+--     - `rows < N` 则没有第 N 行数据，结果为 `NULL`
+--     - `rows >= N` 则取第 N 行数据
 
-#### 代码
+-- #### 代码
 
-```mysql
+-- ```mysql
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
   RETURN (
@@ -50,8 +50,8 @@ BEGIN
       ) as tmp_b
   );
 END
-```
+-- ```
 
-### 结语
+-- ### 结语
 
-题目不太严谨，没必要浪费时间，下一题。
+-- 题目不太严谨，没必要浪费时间，下一题。

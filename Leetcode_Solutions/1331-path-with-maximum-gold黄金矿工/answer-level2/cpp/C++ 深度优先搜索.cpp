@@ -1,8 +1,8 @@
-# 思路
-1，其实我们只需要对处于路径端点的点进行dfs即可，减少计算量
-2，如果所有的点周围都至少有两个黄金矿，那说明整个图的金矿都连在一起，需要特殊处理一下
+// # 思路
+// 1，其实我们只需要对处于路径端点的点进行dfs即可，减少计算量
+// 2，如果所有的点周围都至少有两个黄金矿，那说明整个图的金矿都连在一起，需要特殊处理一下
 
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int dirs[4][2] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
@@ -58,9 +58,9 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/9e6b8acc118bd00a9da822f43fd664398e7843ed3b2b01f5063f7d079b22d2c6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9e6b8acc118bd00a9da822f43fd664398e7843ed3b2b01f5063f7d079b22d2c6-image.png)
 
 
 

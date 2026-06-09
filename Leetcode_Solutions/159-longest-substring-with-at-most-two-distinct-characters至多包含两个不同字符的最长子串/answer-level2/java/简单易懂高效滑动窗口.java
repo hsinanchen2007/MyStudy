@@ -1,9 +1,9 @@
-### 解题思路
-官方题解使用哈希表，导致时间效率过低，此题解只使用变量来记录情况，运行效率大大提高，细节见代码。
+// ### 解题思路
+// 官方题解使用哈希表，导致时间效率过低，此题解只使用变量来记录情况，运行效率大大提高，细节见代码。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int lengthOfLongestSubstringTwoDistinct(String s) {
         //字符串为空时直接返回
@@ -68,4 +68,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

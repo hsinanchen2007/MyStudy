@@ -1,5 +1,5 @@
-先求比原数小的第一个回文数，然后求比原数大的第一个回文数，再求原数前半部分组成后半部分的回文数，三个数比大小，返回离原数大小最近的一个数。
-```java
+// 先求比原数小的第一个回文数，然后求比原数大的第一个回文数，再求原数前半部分组成后半部分的回文数，三个数比大小，返回离原数大小最近的一个数。
+// ```java
 class Solution {
     public String nearestPalindromic(String n) {
         char[] arr = n.toCharArray();
@@ -39,4 +39,4 @@ class Solution {
         return ll.append(rr.substring(rr.length() - (int)right)).toString();
     }
 }
-```
+// ```

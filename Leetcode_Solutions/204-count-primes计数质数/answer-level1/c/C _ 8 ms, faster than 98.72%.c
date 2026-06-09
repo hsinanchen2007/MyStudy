@@ -1,4 +1,4 @@
-```
+// ```
 int countPrimes(int n){
 
     if(n<=2)return 0;
@@ -28,4 +28,4 @@ int countPrimes(int n){
     
     return sum;
 }
-```
+// ```

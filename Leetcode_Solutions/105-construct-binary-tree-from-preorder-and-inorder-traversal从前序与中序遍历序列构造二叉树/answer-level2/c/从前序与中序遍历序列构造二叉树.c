@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct TreeNode* NodePtr;
 NodePtr build(int *preorder, int l1, int r1, int *inorder, int l2, int r2)
 {
@@ -28,4 +28,4 @@ struct TreeNode* buildTree(int* preorder, int preorderSize, int* inorder, int in
         return NULL;
     return build(preorder, 0, preorderSize-1, inorder, 0, inorderSize-1);
 }
-```
+// ```

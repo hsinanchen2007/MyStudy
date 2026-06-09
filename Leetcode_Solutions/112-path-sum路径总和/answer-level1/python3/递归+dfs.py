@@ -1,4 +1,4 @@
-```
+# ```
 
 class Solution:
     def hasPathSum(self, root: TreeNode, sum: int) -> bool:
@@ -17,4 +17,4 @@ class Solution:
                 return True
             return False
         return check(root, sum)
-```
+# ```

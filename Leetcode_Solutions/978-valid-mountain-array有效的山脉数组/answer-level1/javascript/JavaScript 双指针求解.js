@@ -1,11 +1,11 @@
-### 解题思路
-- 双指针思路进行求解，通过 left 和 right 从左边和右边进行遍历
-- left 和 right 都只能达到倒数第二个的位置
-- 最后left 和 right 的位置相等， 则说明找到了同一个位置
+// ### 解题思路
+// - 双指针思路进行求解，通过 left 和 right 从左边和右边进行遍历
+// - left 和 right 都只能达到倒数第二个的位置
+// - 最后left 和 right 的位置相等， 则说明找到了同一个位置
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {boolean}
@@ -23,4 +23,4 @@
      return left === right
 };
 
-```
+// ```

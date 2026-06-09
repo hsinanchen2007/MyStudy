@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :
-36 ms, 在所有 C++ 提交中击败了35.16%的用户
-内存消耗 :7.3 MB, 在所有 C++ 提交中击败了100.00%的用户
-### 代码
+// ### 解题思路
+// 执行用时 :
+// 36 ms, 在所有 C++ 提交中击败了35.16%的用户
+// 内存消耗 :7.3 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -33,4 +33,4 @@ public:
         return (c1+c2) * 0.5;
     }
 };
-```
+// ```

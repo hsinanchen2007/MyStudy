@@ -1,5 +1,5 @@
-刚自学了迭代器的使用，于是写了一下
-```
+// 刚自学了迭代器的使用，于是写了一下
+// ```
 **class Solution 
 {
 public:
@@ -27,10 +27,10 @@ public:
         }return ln==0?true:false;
     }
 };**
-```
-以及第二种方法,先将字符串排序，再比较
+// ```
+// 以及第二种方法,先将字符串排序，再比较
 
-```
+// ```
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -42,6 +42,6 @@ public:
         return s==t;
     }
 };
-```
+// ```
 
 

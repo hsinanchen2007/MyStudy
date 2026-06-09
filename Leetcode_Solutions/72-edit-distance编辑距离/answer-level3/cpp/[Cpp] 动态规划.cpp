@@ -1,10 +1,10 @@
-### 解题思路
-dp[i][j]表示word1的前i个元素转换成word2的前j个元素需要的最小操作数
-则，结果为：dp[word1.size()][word2.size()]
+// ### 解题思路
+// dp[i][j]表示word1的前i个元素转换成word2的前j个元素需要的最小操作数
+// 则，结果为：dp[word1.size()][word2.size()]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minDistance(string word1, string word2) {
@@ -36,4 +36,4 @@ public:
         return dp[n1][n2];
     }
 };
-```
+// ```

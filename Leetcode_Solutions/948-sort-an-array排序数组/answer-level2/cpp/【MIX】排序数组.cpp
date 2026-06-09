@@ -1,18 +1,18 @@
-### 解题思路
-1. 插入排序 &nbsp;$O(N^2)$     &emsp;稳定        &emsp; *当元素基本有序时使用插入排序速度很快
-2. 冒泡排序 &nbsp;$O(N^2)$     &emsp;稳定
-3. 选择排序 &nbsp;$O(N^2)$     &emsp;*不稳定*
-4. 归并排序 &nbsp;$O(NlgN)$    &emsp;稳定        &emsp; *有自顶向下和自底向上两种方式
-5. 快速排序 &nbsp;$O(NlgN)$    &emsp;*不稳定*    &emsp; *三路快排优化和随机pivot优化
-6. 希尔排序 &nbsp;$O(N^{1.5})$ &emsp;*不稳定*
-7. 堆排序   &emsp;$O(NlgN)$    &emsp;*不稳定*
-8. 桶排序   &emsp;$O(kN)$      &emsp;稳定
-9. 基数排序 &nbsp;$O(Nlg_rM)$   &emsp;稳定
+// ### 解题思路
+// 1. 插入排序 &nbsp;$O(N^2)$     &emsp;稳定        &emsp; *当元素基本有序时使用插入排序速度很快
+// 2. 冒泡排序 &nbsp;$O(N^2)$     &emsp;稳定
+// 3. 选择排序 &nbsp;$O(N^2)$     &emsp;*不稳定*
+// 4. 归并排序 &nbsp;$O(NlgN)$    &emsp;稳定        &emsp; *有自顶向下和自底向上两种方式
+// 5. 快速排序 &nbsp;$O(NlgN)$    &emsp;*不稳定*    &emsp; *三路快排优化和随机pivot优化
+// 6. 希尔排序 &nbsp;$O(N^{1.5})$ &emsp;*不稳定*
+// 7. 堆排序   &emsp;$O(NlgN)$    &emsp;*不稳定*
+// 8. 桶排序   &emsp;$O(kN)$      &emsp;稳定
+// 9. 基数排序 &nbsp;$O(Nlg_rM)$   &emsp;稳定
 
-### 代码
+// ### 代码
 
-**3.归并排序**
-```c++ []
+// **3.归并排序**
+// ```c++ []
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
@@ -61,8 +61,8 @@ private:
         }
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int[] sortArray(int[] nums) {
         // 归并排序
@@ -110,12 +110,12 @@ class Solution {
             nums[m]=P[m];
     }
 }
-```
-```python []
-```
+// ```
+// ```python []
+// ```
 
-**4.快速排序**
-```c++ []
+// **4.快速排序**
+// ```c++ []
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
@@ -159,8 +159,8 @@ private:
         }
     }
 };
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
@@ -198,8 +198,8 @@ public:
         return j;
     }
 };
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
@@ -232,8 +232,8 @@ public:
         return j;
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int[] sortArray(int[] nums) {
         // 快速排序
@@ -273,8 +273,8 @@ class Solution {
         nums[j] = temp;
     }
 }
-```
-```python []
+// ```
+// ```python []
 from random import randint
 class Solution(object):
     def sortArray(self, nums):
@@ -309,9 +309,9 @@ class Solution(object):
 
         nums[j], nums[l] = nums[l], nums[j]
         return j
-```
-**7.堆排序**
-```c++ []
+// ```
+// **7.堆排序**
+// ```c++ []
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
@@ -399,8 +399,8 @@ private:
 
     };
 };
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
@@ -498,8 +498,8 @@ private:
 
     };
 };
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     vector<int> sortArray(vector<int>& nums) {
@@ -538,8 +538,8 @@ private:
         }
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public int[] sortArray(int[] nums) {
         int N = nums.length;
@@ -579,8 +579,8 @@ class Solution {
         A[j] = temp;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         # 堆排序
@@ -606,4 +606,4 @@ class Solution:
 
             nums[k], nums[j] = nums[j], nums[k]
             k = j
-```
+// ```

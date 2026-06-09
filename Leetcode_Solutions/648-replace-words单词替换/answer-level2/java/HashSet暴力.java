@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String replaceWords(List<String> dict, String sentence) {
         HashSet<String> set = new HashSet<>();
@@ -28,4 +28,4 @@ class Solution {
         return ans.toString().substring(0,ans.toString().length()-1);
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int sum=0;
@@ -17,4 +17,4 @@ public:
         inOrder(cur->left);
     }
 };
-```
+// ```

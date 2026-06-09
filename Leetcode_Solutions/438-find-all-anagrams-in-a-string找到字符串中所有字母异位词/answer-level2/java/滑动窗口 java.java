@@ -1,11 +1,11 @@
-### 解题思路
-1. 通过双指针滑动窗口
-2. 判断是否和p串长度相同
-3. 再比较窗口串的字符出现频率和p串是否一致.
+// ### 解题思路
+// 1. 通过双指针滑动窗口
+// 2. 判断是否和p串长度相同
+// 3. 再比较窗口串的字符出现频率和p串是否一致.
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
@@ -40,4 +40,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

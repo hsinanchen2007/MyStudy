@@ -1,4 +1,4 @@
-```
+// ```
 #define L(t) ((t<<1) + 1)
 #define R(t) ((t<<1) + 2)
 #define MAX_N 10000
@@ -157,4 +157,4 @@ int countRangeSum(int* nums, int numsSize, int lower, int upper){
     }
     return ret;
 }
-```
+// ```

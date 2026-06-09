@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isUnique(self, astr: str) -> bool:
         a = set()
@@ -7,4 +7,4 @@ class Solution:
                 return False
             else:
                 a.add(str)
-```
+# ```

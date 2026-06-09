@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun isPalindrome(x: Int): Boolean {
         val str: String = x.toString()
@@ -17,4 +17,4 @@ class Solution {
         return y == backNum || y == backNum / 10
     }
 }
-```
+// ```

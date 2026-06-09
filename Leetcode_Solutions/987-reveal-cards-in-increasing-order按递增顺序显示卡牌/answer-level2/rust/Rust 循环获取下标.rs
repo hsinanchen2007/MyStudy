@@ -1,8 +1,8 @@
-0 ms; 2.1 MB
+// 0 ms; 2.1 MB
 
-没有想到逆推... 维护一个包含所有下标的 Vector, 每隔一个取出一个.
-剩余的下标再重复这一步骤. 就能得到发牌时出现的顺序.
-```rs
+// 没有想到逆推... 维护一个包含所有下标的 Vector, 每隔一个取出一个.
+// 剩余的下标再重复这一步骤. 就能得到发牌时出现的顺序.
+// ```rs
 impl Solution {
     pub fn deck_revealed_increasing(deck: Vec<i32>) -> Vec<i32> {
         let n = deck.len();
@@ -36,4 +36,4 @@ impl Solution {
         result
     }
 }
-```
+// ```

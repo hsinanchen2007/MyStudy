@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution{
 
 public:
@@ -34,4 +34,4 @@ public:
 		}
 	}
 };
-```
+// ```

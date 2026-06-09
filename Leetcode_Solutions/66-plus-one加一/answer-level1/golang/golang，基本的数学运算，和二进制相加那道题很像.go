@@ -1,4 +1,4 @@
-```golang
+// ```golang
 func plusOne(digits []int) []int {
 	size := len(digits)
 	if size == 0 {
@@ -15,4 +15,4 @@ func plusOne(digits []int) []int {
 	}
 	return append([]int{1}, digits...)
 }
-```
+// ```

@@ -1,10 +1,10 @@
-![2019122401.PNG](https://pic.leetcode-cn.com/c28c4629131bf53e58bedf921c054895fea9ab722fc5b6f298c760ac1aa890bd-2019122401.PNG)
-### 解题思路
-先分别遍历String A 和String B,
-用一个哈希表(myHash)记录String A和B中出现的单词和单词出现的次数(出现的单词为Key,单词出现的次数为Value)
-再遍历一遍哈希表,将出现次数为1的单词作为结果记录下来,并返回
-### 代码
-```java
+// ![2019122401.PNG](https://pic.leetcode-cn.com/c28c4629131bf53e58bedf921c054895fea9ab722fc5b6f298c760ac1aa890bd-2019122401.PNG)
+// ### 解题思路
+// 先分别遍历String A 和String B,
+// 用一个哈希表(myHash)记录String A和B中出现的单词和单词出现的次数(出现的单词为Key,单词出现的次数为Value)
+// 再遍历一遍哈希表,将出现次数为1的单词作为结果记录下来,并返回
+// ### 代码
+// ```java
 class Solution {
     public String[] uncommonFromSentences(String A, String B) {
     	int count = 0;
@@ -44,4 +44,4 @@ class Solution {
     	return res;
     }
 }
-```
+// ```

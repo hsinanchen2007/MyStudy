@@ -1,5 +1,5 @@
-开一个数组标记出现次数即可
-```
+// 开一个数组标记出现次数即可
+// ```
 class Solution {
     public int findSpecialInteger(int[] arr) {
     	
@@ -12,4 +12,4 @@ class Solution {
         return 0;
     }
 }
-```
+// ```

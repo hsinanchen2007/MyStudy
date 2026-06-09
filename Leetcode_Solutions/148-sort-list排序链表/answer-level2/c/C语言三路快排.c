@@ -1,9 +1,9 @@
-![微信截图_20200403215253.png](https://pic.leetcode-cn.com/5f1ac6c11d45a51efd21ecdf9acec01abfa1785feb9337669b2b35c0da81ada1-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200403215253.png)
+// ![微信截图_20200403215253.png](https://pic.leetcode-cn.com/5f1ac6c11d45a51efd21ecdf9acec01abfa1785feb9337669b2b35c0da81ada1-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200403215253.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -60,4 +60,4 @@ struct ListNode *sortList(struct ListNode *head)
 {
     return quickSort(head).head;
 }
-```
+// ```

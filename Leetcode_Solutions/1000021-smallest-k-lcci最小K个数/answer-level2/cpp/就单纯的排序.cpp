@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> smallestK(vector<int>& A, int k) {
@@ -8,4 +8,4 @@ public:
         return Ans;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int longestDecomposition(string text) {
@@ -16,7 +16,7 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/4d3c89113af74316176e521258b0eff4ba2257f003a78d30e20ed46d9abd573d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4d3c89113af74316176e521258b0eff4ba2257f003a78d30e20ed46d9abd573d-image.png)
 

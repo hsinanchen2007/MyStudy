@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/33389715a78523e32ee65325650cc40ec98460ed838444ec3eb55acf99e68874-image.png)
+// ![image.png](https://pic.leetcode-cn.com/33389715a78523e32ee65325650cc40ec98460ed838444ec3eb55acf99e68874-image.png)
 
-```
+// ```
 #define MAX_S 27
 int g_index[MAX_S] = {0};
 int Comp(void *a, void* b) {
@@ -20,4 +20,4 @@ char * customSortString(char * S, char * T){
     qsort(str, len2, sizeof(char), Comp);
     return str;
 }
-```
+// ```

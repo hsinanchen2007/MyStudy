@@ -1,14 +1,14 @@
-### 解题思路
-・initでバイナリツリーをループしヒープに格納する　⇒　最小ヒープが出来上がり
-・nextする時、heappopをする
-・hasnextする時、ヒープの0番目要素があるかをチェック
+# ### 解题思路
+# ・initでバイナリツリーをループしヒープに格納する　⇒　最小ヒープが出来上がり
+# ・nextする時、heappopをする
+# ・hasnextする時、ヒープの0番目要素があるかをチェック
 
-注意点：
-そもそもrootがNoneの場合と、ヒープが空の場合の処理を忘れずに
+# 注意点：
+# そもそもrootがNoneの場合と、ヒープが空の場合の処理を忘れずに
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -55,4 +55,4 @@ class BSTIterator:
 # obj = BSTIterator(root)
 # param_1 = obj.next()
 # param_2 = obj.hasNext()
-```
+# ```

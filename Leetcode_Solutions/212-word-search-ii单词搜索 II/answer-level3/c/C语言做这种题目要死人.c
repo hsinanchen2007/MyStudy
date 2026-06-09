@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/0d7b9ed267dcf1225721367043e250ce75cb77fb07203cc4519a73f33a87565e-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/0d7b9ed267dcf1225721367043e250ce75cb77fb07203cc4519a73f33a87565e-image.png)
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -140,4 +140,4 @@ char ** findWords(char** board, int boardSize, int* boardColSize, char ** words,
     TrieFree(obj);
     return rst;
 }
-```
+// ```

@@ -1,24 +1,24 @@
-### 解题思路
-注意观察规律，第一行的第i个点为i*numRows+i*(numRows-2),i为第一行i个点
-那么第二行的对应第一行第i个点的左右两点为i*numRows+i*(numRows-2)+/-1
-第N行的对应第一行第i个点的左右两点为i*numRows+i*(numRows-2)+/-row
-只需要根据第一行的点逐行输入即可
+// ### 解题思路
+// 注意观察规律，第一行的第i个点为i*numRows+i*(numRows-2),i为第一行i个点
+// 那么第二行的对应第一行第i个点的左右两点为i*numRows+i*(numRows-2)+/-1
+// 第N行的对应第一行第i个点的左右两点为i*numRows+i*(numRows-2)+/-row
+// 只需要根据第一行的点逐行输入即可
 
-P    I    N
-A  L S  I   G
-Y A  H R 
-P    I
+// P    I    N
+// A  L S  I   G
+// Y A  H R 
+// P    I
 
-0   6     12
-1  5 7   11 13
-2 4   8 10
-3      9
+// 0   6     12
+// 1  5 7   11 13
+// 2 4   8 10
+// 3      9
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	string convert(string s, int numRows) {
@@ -61,4 +61,4 @@ public:
 	}
 };
 
-```
+// ```

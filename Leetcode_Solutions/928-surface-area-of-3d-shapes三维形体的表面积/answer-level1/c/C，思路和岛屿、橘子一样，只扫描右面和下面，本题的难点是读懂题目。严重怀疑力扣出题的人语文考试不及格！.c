@@ -1,13 +1,13 @@
-![1.png](https://pic.leetcode-cn.com/148d7610cc9002ad66a5610c44d52d4f4b1f326aae0af934635cb4fdb17a4b1b-1.png)
+// ![1.png](https://pic.leetcode-cn.com/148d7610cc9002ad66a5610c44d52d4f4b1f326aae0af934635cb4fdb17a4b1b-1.png)
 
 
-### 解题思路
-本题的难点是读懂题目。难道力扣出题的人语文考试都不及格吗？？
-如果右面和下面出现三维体，表面积减少  接触面积*2
+// ### 解题思路
+// 本题的难点是读懂题目。难道力扣出题的人语文考试都不及格吗？？
+// 如果右面和下面出现三维体，表面积减少  接触面积*2
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int surfaceArea(int** grid, int gridSize, int* gridColSize){
 	int area = 0;
 	for (int i = 0; i < gridSize; i++){
@@ -23,4 +23,4 @@ int surfaceArea(int** grid, int gridSize, int* gridColSize){
 	}
 	return area;
 }
-```
+// ```

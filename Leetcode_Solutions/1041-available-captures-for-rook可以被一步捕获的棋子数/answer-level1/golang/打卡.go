@@ -1,9 +1,9 @@
-### 解题思路
-循环找四个方向
+// ### 解题思路
+// 循环找四个方向
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numRookCaptures(board [][]byte) int {
 	var x, y, sum int
 	for i := 0; i < 8; i++ {
@@ -65,4 +65,4 @@ func numRookCaptures(board [][]byte) int {
 
 }
 
-```
+// ```

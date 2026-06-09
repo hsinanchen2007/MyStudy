@@ -1,13 +1,13 @@
-### 解题思路
-1. 使用递归
-2. 加了缓存的递归
-3. 动态规划，自顶向下递推
-4. 动态规划，自底向上递推，需要二维空间
-5. 一维DP, O(n)空间复杂度
+// ### 解题思路
+// 1. 使用递归
+// 2. 加了缓存的递归
+// 3. 动态规划，自顶向下递推
+// 4. 动态规划，自底向上递推，需要二维空间
+// 5. 一维DP, O(n)空间复杂度
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} triangle
  * @return {number}
@@ -28,9 +28,9 @@ function reversion(i, j, triangle) {
     return Math.min(left, right) + triangle[i][j]
 }
 
-```
+// ```
 
-```js
+// ```js
 // 方法2：加了缓存的递归
 var minimumTotal2 = function(triangle) {
     const res = []
@@ -49,9 +49,9 @@ function reversionByMemo(i, j, triangle, memo) {
     return memo[i][j]
 }
 
-```
+// ```
 
-```js
+// ```js
 // 方法3：动态规划，自顶向下递推
 // 重复子问题：某个元素(i,j)代表的最小路径和，都为(i-1,j)和(i-1, j-1)的最小路径和中的最小者，再加上本身元素的值
 // 但需要判断元素在左右边界的情况，因为左右边界都只有一条路进入
@@ -72,9 +72,9 @@ var minimumTotal3 = function(triangle) {
     }
     return Math.min(...dp[triangle.length-1])
 }
-```
+// ```
 
-```js
+// ```js
 // 方法4：动态规划，自底向上递推
 // 重复子问题：某个元素(i,j)代表的最小路径和，都为(i+1,j)和(i+1, j+1)的最小路径和中的最小者，再加上本身元素的值
 // dp状态：dp[i][j] (i, j)元素代表的最小路径和
@@ -88,9 +88,9 @@ var minimumTotal4 = function(triangle) {
     }
     return dp[0][0]
 };
-```
+// ```
 
-```js
+// ```js
 // 方法5：一维DP, O(n)空间复杂度
 // 重复子问题：某个元素(i,j)代表的最小路径和，都为(i+1,j)和(i+1, j+1)的最小路径和中的最小者，再加上本身元素的值
 // 因为每次计算都只需要最后一行的数值，所以只需要申请n个空间，n为三角形底边元素的个数，也等于三角形行数
@@ -106,4 +106,4 @@ var minimumTotal = function (triangle) {
     return dp[0]
 }
 
-```
+// ```

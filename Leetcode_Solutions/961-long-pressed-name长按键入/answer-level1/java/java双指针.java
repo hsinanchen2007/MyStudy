@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isLongPressedName(String name, String typed) {
         if (name.charAt(0)!=typed.charAt(0)) return false;
@@ -18,4 +18,4 @@ class Solution {
         return i==name.length();
     }
 }
-```
+// ```

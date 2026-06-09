@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  :
- * Date   : 2019/9/24
- * 
- * 解题思路:怎么想 怎么做
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  :
+//  * Date   : 2019/9/24
+//  * 
+//  * 解题思路:怎么想 怎么做
+//  * 
+//  */
+// ```
 public int[][] matrixReshape(int[][] nums, int r, int c) {
     if( r*c > nums.length*nums[0].length){
         return nums;
@@ -26,4 +26,4 @@ public int[][] matrixReshape(int[][] nums, int r, int c) {
     }
     return res;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var compress = function(chars) {
     var i=j=0;
     while(i<chars.length && j<chars.length){
@@ -17,4 +17,4 @@ var compress = function(chars) {
     }
     return i;
 };
-```
+// ```

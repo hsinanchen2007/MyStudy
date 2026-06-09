@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def largestPerimeter(self, A):
         """
@@ -15,4 +15,4 @@ class Solution(object):
             if A[i-2] + A[i-1] > A[i]:
                 return A[i-2] + A[i-1] + A[i]
         return 0
-```
+# ```

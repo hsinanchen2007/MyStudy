@@ -1,7 +1,7 @@
-统计字符出现的次数, 计算所有次数的最大公约数,
-小于 2: False
+# 统计字符出现的次数, 计算所有次数的最大公约数,
+# 小于 2: False
 
-```python
+# ```python
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         n = len(deck)
@@ -20,4 +20,4 @@ class Solution:
                     return False
         return True
 
-```
+# ```

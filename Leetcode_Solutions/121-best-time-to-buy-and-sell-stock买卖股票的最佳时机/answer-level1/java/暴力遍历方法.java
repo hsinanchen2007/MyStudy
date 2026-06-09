@@ -1,8 +1,8 @@
-### 解题思路
-计算两两元素间的利润
-### 代码
+// ### 解题思路
+// 计算两两元素间的利润
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int maxpro = 0;
@@ -15,4 +15,4 @@ class Solution {
         return maxpro;
     }
 }
-```
+// ```

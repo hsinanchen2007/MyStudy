@@ -1,5 +1,5 @@
-这种题一看就会一写就完该怎么办，想想自己为啥写不出呢？1、那个结构体挺唬人的，2、要尝试分开写功能函数
-```
+// 这种题一看就会一写就完该怎么办，想想自己为啥写不出呢？1、那个结构体挺唬人的，2、要尝试分开写功能函数
+// ```
 class Solution {
 public:
     bool isSymmetric(TreeNode* root) {
@@ -15,4 +15,4 @@ public:
     return (p->val==q->val)&&ismirror(p->right,q->left)&&ismirror(p->left,q->right);
     }
 };
-```
+// ```

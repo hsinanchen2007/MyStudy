@@ -1,5 +1,5 @@
-只是多了一个分类讨论，要不要打劫第一家。。[1,2,3,4,5] 拆成[2,3,4,5] 和 [1,2,3,4] 输入到198打家劫舍里，然后求最大值。
-``` 
+# 只是多了一个分类讨论，要不要打劫第一家。。[1,2,3,4,5] 拆成[2,3,4,5] 和 [1,2,3,4] 输入到198打家劫舍里，然后求最大值。
+# ``` 
 class Solution:
     def rob(self, nums: List[int]) -> int:
                 
@@ -36,4 +36,4 @@ class Solution:
             max_money[i] = max(max_money[i-2] + nums[i],max_money[i-1])
             
         return max_money[len(nums) - 1]
-```
+# ```

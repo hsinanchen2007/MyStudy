@@ -1,9 +1,9 @@
-### 解题思路
-把两个数据（最长的长度，路径数量）封装到一个pair里，就可以比较方便的进行追踪。
+// ### 解题思路
+// 把两个数据（最长的长度，路径数量）封装到一个pair里，就可以比较方便的进行追踪。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findNumberOfLIS(vector<int>& nums) {
@@ -34,4 +34,4 @@ public:
         return re;
     }
 };
-```
+// ```

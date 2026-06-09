@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         mystack=[]
@@ -21,4 +21,4 @@ class Solution:
                 else:
                     return False
         return False if mystack else True
-```
+# ```

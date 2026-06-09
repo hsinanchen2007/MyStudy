@@ -1,9 +1,9 @@
-### 解题思路
-保存sum,get时递归获取
+// ### 解题思路
+// 保存sum,get时递归获取
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_SUM_NUM 200
 typedef struct{
    int val;
@@ -124,4 +124,4 @@ void excelFree(Excel* obj) {
  
  * excelFree(obj);
 */
-```
+// ```

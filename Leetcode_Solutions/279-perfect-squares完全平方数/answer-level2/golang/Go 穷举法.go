@@ -1,6 +1,6 @@
-看了题解，大多都是动态规划、BFS或者四平方，试试下面这个穷举法吧。思路就和人脑做这题的思路一样，先看看一个数行不行，不行再两个，以此类推。
+// 看了题解，大多都是动态规划、BFS或者四平方，试试下面这个穷举法吧。思路就和人脑做这题的思路一样，先看看一个数行不行，不行再两个，以此类推。
 
-```go []
+// ```go []
 func numSquares(n int) int {
 	maxNo := int(math.Sqrt(float64(n)))
 	numbers := make([]int, maxNo)
@@ -46,4 +46,4 @@ func binarySearch(l []int, key int, start int, end int) int {
 	}
 	return -(low + 1) // key not found
 }
-```
+// ```

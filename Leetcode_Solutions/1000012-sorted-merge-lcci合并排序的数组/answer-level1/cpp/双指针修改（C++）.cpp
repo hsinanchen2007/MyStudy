@@ -1,13 +1,13 @@
-### 解题思路
-双指针分别指向数组A和数组B的最后一个数字，然后依次插入到A的末端；
-时间复杂度：O(m+n)；空间复杂度：O(1)；
-![WechatIMG2387.jpeg](https://pic.leetcode-cn.com/8649f9b0ce05937aea0696a05b9e6e7d3d9d28fb8ea2696522f7b318fbd81e20-WechatIMG2387.jpeg)
+// ### 解题思路
+// 双指针分别指向数组A和数组B的最后一个数字，然后依次插入到A的末端；
+// 时间复杂度：O(m+n)；空间复杂度：O(1)；
+// ![WechatIMG2387.jpeg](https://pic.leetcode-cn.com/8649f9b0ce05937aea0696a05b9e6e7d3d9d28fb8ea2696522f7b318fbd81e20-WechatIMG2387.jpeg)
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     //双指针依次从后往前比较大小
 public:
@@ -27,4 +27,4 @@ public:
         // return A;
     }
 };
-```
+// ```

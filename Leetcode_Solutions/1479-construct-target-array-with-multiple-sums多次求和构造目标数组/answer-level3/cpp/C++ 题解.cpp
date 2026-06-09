@@ -1,12 +1,12 @@
-### [5343. 多次求和构造目标数组](https://leetcode-cn.com/problems/construct-target-array-with-multiple-sums/submissions/)
+// ### [5343. 多次求和构造目标数组](https://leetcode-cn.com/problems/construct-target-array-with-multiple-sums/submissions/)
 
-### 题解
-  + 反向模拟，每次找到数列中的最大值进行逆推
-  + 利用堆优化查找最大值
-  + 注意求和会溢出int型
-  + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
-### 代码
-```cpp
+// ### 题解
+//   + 反向模拟，每次找到数列中的最大值进行逆推
+//   + 利用堆优化查找最大值
+//   + 注意求和会溢出int型
+//   + 更多题解: [>>请点击<<](https://tawn0000.github.io/2020/02/08/leetcode-week-contest/)
+// ### 代码
+// ```cpp
 class Solution {
 public:
     bool isPossible(vector<int>& target) {
@@ -31,4 +31,4 @@ public:
         return true;
     }
 };
-```
+// ```

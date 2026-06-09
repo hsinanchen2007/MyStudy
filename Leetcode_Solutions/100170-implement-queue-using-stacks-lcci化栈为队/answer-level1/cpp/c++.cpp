@@ -1,9 +1,9 @@
-### 解题思路
-c++
+// ### 解题思路
+// c++
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyQueue {
 public:
     stack<int> stk1;
@@ -63,4 +63,4 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
-```
+// ```

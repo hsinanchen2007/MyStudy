@@ -1,4 +1,4 @@
-```
+# ```
 # 方法一，用下标的对应关系
 class Solution1:
     def transpose(self, A) :
@@ -12,4 +12,4 @@ class Solution1:
 class Solution:
     def transpose(self, A) :
         return list(zip(*A))
-```
+# ```

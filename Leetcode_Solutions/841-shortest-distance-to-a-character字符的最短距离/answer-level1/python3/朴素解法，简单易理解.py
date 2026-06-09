@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def shortestToChar(self, S: str, C: str) -> List[int]:
         result=[]
@@ -15,4 +15,4 @@ class Solution:
                     index_2_c=S[i:].index(C)+i
                     result.append(min(abs(i-index),abs(i-index_2_c)))
         return result
-```
+# ```

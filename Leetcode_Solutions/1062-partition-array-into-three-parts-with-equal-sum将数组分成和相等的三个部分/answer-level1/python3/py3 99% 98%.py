@@ -1,8 +1,8 @@
-### 解题思路
-避免【-1,1,-1,1】需要开始时就把两边加上 不至于两个计数器和0相同
-### 代码
+# ### 解题思路
+# 避免【-1,1,-1,1】需要开始时就把两边加上 不至于两个计数器和0相同
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canThreePartsEqualSum(self, A: List[int]) -> bool:
         s = sum(A)
@@ -27,4 +27,4 @@ class Solution:
                 j=j-1
         return False
             
-```
+# ```

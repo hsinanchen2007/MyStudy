@@ -1,5 +1,5 @@
-## 原题解法：
-```golang
+// ## 原题解法：
+// ```golang
 func isPalindrome(x int) bool {
     
     // 负数肯定不是回文，因为负号
@@ -24,12 +24,12 @@ func isPalindrome(x int) bool {
     }
     return false
 }
-```
+// ```
 
 
 
-## 进阶：整数转为字符串解法：
-```golang
+// ## 进阶：整数转为字符串解法：
+// ```golang
 import "strconv"
 import "strings"
 
@@ -51,4 +51,4 @@ func isPalindrome(x int) bool {
 
 	return true
 }
-```
+// ```

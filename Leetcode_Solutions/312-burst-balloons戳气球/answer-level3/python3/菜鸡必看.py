@@ -1,11 +1,11 @@
-### 解题思路
-在数组两边都立一一个1
-把每段包起来
-然后使用k不停迭代
+# ### 解题思路
+# 在数组两边都立一一个1
+# 把每段包起来
+# 然后使用k不停迭代
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxCoins(self, nums: List[int]) -> int:
         nums.insert(0,1)
@@ -21,4 +21,4 @@ class Solution:
                     dp[i][j]=max(dp[i][j],dp[i][k]+dp[k][j]+nums[i]*nums[k]*nums[j])
         return dp[0][-1]
 
-```
+# ```

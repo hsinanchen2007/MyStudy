@@ -1,9 +1,9 @@
-### 解题思路
-打卡
+// ### 解题思路
+// 打卡
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sortArray(nums []int) []int {
     HeapSort(nums)
     return nums
@@ -47,4 +47,4 @@ func sift(list []int, left, right int) {
 		}
 	}
 }
-```
+// ```

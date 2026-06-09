@@ -1,13 +1,13 @@
-### 解题思路
-思路为求KMP算法的next数组，KMP算法，坑神有详细的讲解和模板，建议大家去围观学习！为坑神打call。
-[https://www.bilibili.com/video/av94967070]()
+// ### 解题思路
+// 思路为求KMP算法的next数组，KMP算法，坑神有详细的讲解和模板，建议大家去围观学习！为坑神打call。
+// [https://www.bilibili.com/video/av94967070]()
 
-![图片.png](https://pic.leetcode-cn.com/d553ec0a107084aeebb0a5a47fe39f5dc646caa7c174aab4130d7f4e1663d4f8-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/d553ec0a107084aeebb0a5a47fe39f5dc646caa7c174aab4130d7f4e1663d4f8-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 namespace KMP{
     vector<int> next;
 
@@ -43,4 +43,4 @@ public:
 
     }
 };
-```
+// ```

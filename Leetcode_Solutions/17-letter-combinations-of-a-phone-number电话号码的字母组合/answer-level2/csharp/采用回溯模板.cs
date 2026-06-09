@@ -1,5 +1,5 @@
 
-```
+// ```
 result = []
 def backtrack(路径, 选择列表):
     if 满足结束条件:
@@ -10,10 +10,10 @@ def backtrack(路径, 选择列表):
         做选择
         backtrack(路径, 选择列表)
         撤销选择
-```
-链接：[https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-xiang-jie-by-labuladong-2/](https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-xiang-jie-by-labuladong-2/)
+// ```
+// 链接：[https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-xiang-jie-by-labuladong-2/](https://leetcode-cn.com/problems/permutations/solution/hui-su-suan-fa-xiang-jie-by-labuladong-2/)
 
-```C#
+// ```C#
 public class Solution {    
     List<string> res = new List<string>();    
     public IList<string> LetterCombinations(string digits) 
@@ -53,4 +53,4 @@ public class Solution {
         //reverse
     }
 }
-```
+// ```

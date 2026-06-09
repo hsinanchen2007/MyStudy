@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
 	public List<List<String>> solveNQueens(int n){
 		List<List<Integer>> solutions = getSolutions(n);
@@ -74,8 +74,8 @@ public class Solution {
 	}
 }
 
-```
+// ```
 
-### 欢迎与我交流
+// ### 欢迎与我交流
 
-![wechat.png](https://pic.leetcode-cn.com/9fcfd3a5c8e56ac147ca0c8ad4e0588a3f20d970f3a77031c81bc59f9eb43c63-wechat.png)
+// ![wechat.png](https://pic.leetcode-cn.com/9fcfd3a5c8e56ac147ca0c8ad4e0588a3f20d970f3a77031c81bc59f9eb43c63-wechat.png)

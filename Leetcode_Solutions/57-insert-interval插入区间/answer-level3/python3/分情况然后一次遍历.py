@@ -1,6 +1,6 @@
-思路：总的来说，分为newinterval插入首部和不插入首部两种情况，然后不插入首部又细分为3种情况。请看注释
+# 思路：总的来说，分为newinterval插入首部和不插入首部两种情况，然后不插入首部又细分为3种情况。请看注释
 
-```
+# ```
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         res = []
@@ -40,4 +40,4 @@ class Solution:
                         res += intervals[:i+1]
                         res.append(newInterval)
         return res
-```
+# ```

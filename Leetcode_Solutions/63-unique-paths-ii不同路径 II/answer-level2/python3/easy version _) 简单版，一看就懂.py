@@ -1,12 +1,12 @@
-### 解题思路
-1. 如果入口有障碍，返回0
-2. 如果不是，入口为1， 然后现将第一行和第一列的情况考虑明白
-3. 然后考虑剩下的情况，最后返回数组【-1】【-1】
-4. note： 请注意，不必新建数组，可在原数组上进行操作，节省空间复杂度：）
+# ### 解题思路
+# 1. 如果入口有障碍，返回0
+# 2. 如果不是，入口为1， 然后现将第一行和第一列的情况考虑明白
+# 3. 然后考虑剩下的情况，最后返回数组【-1】【-1】
+# 4. note： 请注意，不必新建数组，可在原数组上进行操作，节省空间复杂度：）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         m = len(obstacleGrid)
@@ -33,4 +33,4 @@ class Solution:
                     obstacleGrid[i][j] = 0
             
         return obstacleGrid[-1][-1]
-```
+# ```

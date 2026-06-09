@@ -1,11 +1,11 @@
-# 解题思路
-1.考虑 N<1 的情况；
-  考虑 N>count(dinsctinct salary) 的情况。
-2.用Oracle自带的**rownum**,oracle系统顺序分配为从查询返回的行的编号:注意（如果想找到从第二行记录以后的记录，当使用rownum>2是查不出记录的，原因是由于rownum是一个总是从1开始的伪列，Oracle 认为rownum> n(n>1的自然数)这种条件依旧不成立，所以查不到记录。）
-**正确查找方式：（查找到第二行以后的记录可使用以下的子查询方法来解决）**
+-- # 解题思路
+-- 1.考虑 N<1 的情况；
+--   考虑 N>count(dinsctinct salary) 的情况。
+-- 2.用Oracle自带的**rownum**,oracle系统顺序分配为从查询返回的行的编号:注意（如果想找到从第二行记录以后的记录，当使用rownum>2是查不出记录的，原因是由于rownum是一个总是从1开始的伪列，Oracle 认为rownum> n(n>1的自然数)这种条件依旧不成立，所以查不到记录。）
+-- **正确查找方式：（查找到第二行以后的记录可使用以下的子查询方法来解决）**
 
-# 代码
-```
+-- # 代码
+-- ```
 CREATE FUNCTION getNthHighestSalary(N IN NUMBER) RETURN NUMBER IS
 result NUMBER;
 BEGIN
@@ -20,7 +20,7 @@ BEGIN
                     where num = N;
         RETURN result;
  END;
-```
+-- ```
 
 
-另附温馨小技巧：力扣用Oracle写查询语句给字段取**别名**时，用 AS + **" 字段名称 "**  可以解决Oracle对于所有**运行结果全部转大写的问题**。
+-- 另附温馨小技巧：力扣用Oracle写查询语句给字段取**别名**时，用 AS + **" 字段名称 "**  可以解决Oracle对于所有**运行结果全部转大写的问题**。

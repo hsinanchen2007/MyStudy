@@ -1,5 +1,5 @@
-### 代码
-```
+# ### 代码
+# ```
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         length = len(nums)
@@ -40,4 +40,4 @@ class Solution:
 
 
 
-```
+# ```

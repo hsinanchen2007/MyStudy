@@ -1,9 +1,9 @@
-### 解题思路
-注意num[i] == target - num[i]的情况
+// ### 解题思路
+// 注意num[i] == target - num[i]的情况
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> pairSums(vector<int>& nums, int target)
@@ -21,4 +21,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,22 +1,22 @@
-### 解题思路
+// ### 解题思路
 
-### 方法1 直接利用了 Math.sqrt 相关方法，投机取巧的实现
+// ### 方法1 直接利用了 Math.sqrt 相关方法，投机取巧的实现
 
-```java
+// ```java
 class Solution {
     public int mySqrt(int x) {
         return (int)Math.floor(Math.sqrt(x));
     }
 }
-```
+// ```
 
-### 方法2 二分查找
+// ### 方法2 二分查找
 
-二分查找算法：
-- https://blog.csdn.net/v_july_v/article/details/7093204
-- https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/er-fen-cha-zhao-xiang-jie
+// 二分查找算法：
+// - https://blog.csdn.net/v_july_v/article/details/7093204
+// - https://labuladong.gitbook.io/algo/di-ling-zhang-bi-du-xi-lie/er-fen-cha-zhao-xiang-jie
 
-```java
+// ```java
 class Solution {
    public int mySqrt(int x) {
         long left = 0;
@@ -42,4 +42,4 @@ class Solution {
         return x;
     }
 }
-```
+// ```

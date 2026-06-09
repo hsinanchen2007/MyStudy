@@ -1,9 +1,9 @@
-### 解题思路
-- 转化思路：统计能取模的次数，次数为奇数则Alice赢，返回true
-- 最佳状态的理解是什么：我的理解是最小对N取模为0的数
-### 代码
+// ### 解题思路
+// - 转化思路：统计能取模的次数，次数为奇数则Alice赢，返回true
+// - 最佳状态的理解是什么：我的理解是最小对N取模为0的数
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean divisorGame(int N) {
         int count = 0;
@@ -22,4 +22,4 @@ class Solution {
         return count % 2 == 1;
     }
 }
-```
+// ```

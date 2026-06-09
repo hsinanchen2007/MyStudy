@@ -1,14 +1,14 @@
-### 解题思路
-考察深度优先搜索算法（Depth First Search，简称DFS）
-1、在进入DFS前，设置temp变量记录board[i][j]原来的值，然后把board[i][j]的值原地改为' '
-2、等从DFS出来后，再把board[i][j]改回原来的值
-3、这样就可以避免重复进入
-4、因为是原地修改，避免了辅助变量，开销较小
+# ### 解题思路
+# 考察深度优先搜索算法（Depth First Search，简称DFS）
+# 1、在进入DFS前，设置temp变量记录board[i][j]原来的值，然后把board[i][j]的值原地改为' '
+# 2、等从DFS出来后，再把board[i][j]改回原来的值
+# 3、这样就可以避免重复进入
+# 4、因为是原地修改，避免了辅助变量，开销较小
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def exist(self, board, word):
         """
@@ -103,4 +103,4 @@ class Solution(object):
         #             if pos==word_len:
         #                 return True
         # return False
-```
+# ```

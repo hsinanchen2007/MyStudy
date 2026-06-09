@@ -1,7 +1,7 @@
-'0'特殊处理
-给s前面添加'9'可以简化处理
+# '0'特殊处理
+# 给s前面添加'9'可以简化处理
 
-```py
+# ```py
 class Solution(object):
     def numDecodings(self, s):
         """
@@ -27,5 +27,5 @@ class Solution(object):
 
             dp_0, dp_1 = dp_1, dp
         return dp_1
-```
+# ```
 

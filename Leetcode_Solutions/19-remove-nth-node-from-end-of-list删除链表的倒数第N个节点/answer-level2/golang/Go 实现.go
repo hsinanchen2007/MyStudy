@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -31,4 +31,4 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
         return dummnyhead.Next
     }
 }
-```
+// ```

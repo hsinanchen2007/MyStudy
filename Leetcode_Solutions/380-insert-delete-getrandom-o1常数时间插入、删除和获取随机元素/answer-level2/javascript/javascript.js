@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -48,4 +48,4 @@ RandomizedSet.prototype.getRandom = function() {
   let r = Math.floor(Math.random() * this.list.length);
   return this.list[r];
 };
-```
+// ```

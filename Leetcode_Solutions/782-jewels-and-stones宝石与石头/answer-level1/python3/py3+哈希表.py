@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numJewelsInStones(self, J: str, S: str) -> int:
         output=0
@@ -9,4 +9,4 @@ class Solution:
             if i in J:
                 output+=1
         return output
-```
+# ```

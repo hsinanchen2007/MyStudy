@@ -1,9 +1,9 @@
-### 解题思路
-用两个ArrayList,一个保存上面一层节点，一个保存下面一层，上面一层记录下value后，清空，交换上下两层。
+// ### 解题思路
+// 用两个ArrayList,一个保存上面一层节点，一个保存下面一层，上面一层记录下value后，清空，交换上下两层。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -38,4 +38,4 @@ class Solution {
         
     }
 }
-```
+// ```

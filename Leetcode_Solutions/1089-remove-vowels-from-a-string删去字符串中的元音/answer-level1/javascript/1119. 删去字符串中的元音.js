@@ -1,10 +1,10 @@
-### 正则表达式
+// ### 正则表达式
 
-直接用正则表达式匹配元音字母，匹配到就直接去除
+// 直接用正则表达式匹配元音字母，匹配到就直接去除
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -12,15 +12,15 @@
 var removeVowels = function(S) {
     return S.replace(/[aeiou]/g, '')
 };
-```
+// ```
 
-### 循环替换
+// ### 循环替换
 
-循环匹配，如果碰到元音字母就跳过，否则直接添加到结果中
+// 循环匹配，如果碰到元音字母就跳过，否则直接添加到结果中
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -37,4 +37,4 @@ var removeVowels = function(S) {
     }
     return res
 };
-```
+// ```

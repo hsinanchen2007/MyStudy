@@ -1,9 +1,9 @@
-### 解题思路
-使用n1，n2两个指针，n1每次跳两个节点，n2每次跳一个节点，n1到达链表尾部时，n2正好为中间节点
+// ### 解题思路
+// 使用n1，n2两个指针，n1每次跳两个节点，n2每次跳一个节点，n1到达链表尾部时，n2正好为中间节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
         return n2;
     }
 }
-```
+// ```

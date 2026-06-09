@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/27d01823944f84c5ce761649a1df36d70bb2fbd9840d470db4d6ce6bdf391b27-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/27d01823944f84c5ce761649a1df36d70bb2fbd9840d470db4d6ce6bdf391b27-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -33,4 +33,4 @@ char ** findRestaurant(char ** list1, int list1Size, char ** list2, int list2Siz
     }
     return ret;
 }
-```
+// ```

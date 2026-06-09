@@ -1,15 +1,15 @@
-### 解题思路
-对第一个点求得它到其他3个点的向量
-一共要经过这么几关判断：
-1、如果向量之中有相同的，FALSE
-2、向量之间没有相互垂直的，FALSE
-3、垂直向量的长度应该相同，否则FALSE
-4、垂直向量的和应该等于剩下那个向量，否则FALSE
+# ### 解题思路
+# 对第一个点求得它到其他3个点的向量
+# 一共要经过这么几关判断：
+# 1、如果向量之中有相同的，FALSE
+# 2、向量之间没有相互垂直的，FALSE
+# 3、垂直向量的长度应该相同，否则FALSE
+# 4、垂直向量的和应该等于剩下那个向量，否则FALSE
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def validSquare(self, p1: List[int], p2: List[int], p3: List[int], p4: List[int]) -> bool:
         #这题好像不难啊，为什么是中等（警觉）
@@ -43,4 +43,4 @@ class Solution:
         return False
 
 
-```
+# ```

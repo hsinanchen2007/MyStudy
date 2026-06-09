@@ -1,7 +1,7 @@
-第一次迭代时候计数和建立一个反向链表
-然后正向链表和反向链表各自迭代比较，出现不同就跳出返回false
+// 第一次迭代时候计数和建立一个反向链表
+// 然后正向链表和反向链表各自迭代比较，出现不同就跳出返回false
 
-```javascript []
+// ```javascript []
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -38,4 +38,4 @@ var isPalindrome = function(head) {
     }
         return true;
 };
-```
+// ```

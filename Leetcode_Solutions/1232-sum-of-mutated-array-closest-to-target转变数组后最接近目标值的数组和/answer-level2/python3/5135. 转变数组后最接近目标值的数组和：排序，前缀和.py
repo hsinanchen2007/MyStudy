@@ -1,6 +1,6 @@
-不用暴力法的话感觉还挺坑的，虽然AC了，但实际上是蒙的。
+# 不用暴力法的话感觉还挺坑的，虽然AC了，但实际上是蒙的。
 
-```python []
+# ```python []
 class Solution:
     def findBestValue(self, arr: List[int], target: int) -> int:
         arr.sort()
@@ -17,6 +17,6 @@ class Solution:
             if t > arr[i]:
                 return f(t)
         return f(arr[0])
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/ffe08cb5c68cc1503060271f090f4f71b893403c0b7c7aea103df97877039e71-image.png)
+# ![image.png](https://pic.leetcode-cn.com/ffe08cb5c68cc1503060271f090f4f71b893403c0b7c7aea103df97877039e71-image.png)

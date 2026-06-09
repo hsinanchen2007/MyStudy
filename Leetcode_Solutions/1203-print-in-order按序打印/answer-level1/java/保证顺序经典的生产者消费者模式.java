@@ -1,4 +1,4 @@
-```
+// ```
 class Foo {
 
     private Object obj1 = new Object();
@@ -39,4 +39,4 @@ class Foo {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> flipAndInvertImage(vector<vector<int>>& A) {
@@ -23,5 +23,5 @@ public:
         return A;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d24756a33366d87474824d2a3f46675318e0ac5390a60d692fc7ee4cff19f852-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d24756a33366d87474824d2a3f46675318e0ac5390a60d692fc7ee4cff19f852-image.png)

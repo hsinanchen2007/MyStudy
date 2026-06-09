@@ -1,44 +1,44 @@
-## 思路：
+# ## 思路：
 
-排序题
+# 排序题
 
-思路一：$nlog(n)$排序
+# 思路一：$nlog(n)$排序
 
-思路二：$klog(n)$堆排序
+# 思路二：$klog(n)$堆排序
 
-1. 库函数
+# 1. 库函数
 
-2. 手写堆排
+# 2. 手写堆排
 
-思路三：平均时间$O(n)$，最差$O(n^2)$部分的快排
+# 思路三：平均时间$O(n)$，最差$O(n^2)$部分的快排
 
-快排每次可以固定一个数位置， 只需要判断是否在要找的位置上就可以了！
+# 快排每次可以固定一个数位置， 只需要判断是否在要找的位置上就可以了！
 
-## 代码:
+# ## 代码:
 
-思路一：排序
+# 思路一：排序
 
-```python
+# ```python
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         return sorted(nums, reverse = True)[k - 1]
-```
+# ```
 
-思路二：堆排序
+# 思路二：堆排序
 
-1， 库函数
+# 1， 库函数
 
-```python
+# ```python
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         return heapq.nlargest(k, nums)[-1]
-```
+# ```
 
-思路二：
+# 思路二：
 
-2， 手写
+# 2， 手写
 
-```python
+# ```python
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         
@@ -67,11 +67,11 @@ class Solution:
             nums[0], nums[-i] = nums[-i], nums[0]
             adjust_heap(0, n - i)
         return res
-```
+# ```
 
-思路三：快排
+# 思路三：快排
 
-```python
+# ```python
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
         def partition(left, right):
@@ -97,5 +97,5 @@ class Solution:
                 left = idx + 1
             if idx > k - 1:
                 right = idx - 1
-```
+# ```
 

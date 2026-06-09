@@ -1,9 +1,9 @@
-### 解题思路
-思路很简单，暴力破解
+// ### 解题思路
+// 思路很简单，暴力破解
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) {
@@ -43,4 +43,4 @@ class Solution {
         return stringBuilder.toString();
     }
 } 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-![图片.png](https://pic.leetcode-cn.com/f97741ce08fcae52141dedd4835eee77349c38db5989dded98fd23988817bc6c-%E5%9B%BE%E7%89%87.png)
-### 代码
+// ![图片.png](https://pic.leetcode-cn.com/f97741ce08fcae52141dedd4835eee77349c38db5989dded98fd23988817bc6c-%E5%9B%BE%E7%89%87.png)
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -19,4 +19,4 @@ var containsDuplicate = function(nums) {
     }
     return false                             // 遍历完一直都没有相同的数那就是false咯
 };
-```
+// ```

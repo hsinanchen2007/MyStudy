@@ -1,9 +1,9 @@
-### 解题思路
-此题思路就是添加一个前置指针进行双指针遍历即可。
+// ### 解题思路
+// 此题思路就是添加一个前置指针进行双指针遍历即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -40,4 +40,4 @@ class Solution {
 
     }
 }
-```
+// ```

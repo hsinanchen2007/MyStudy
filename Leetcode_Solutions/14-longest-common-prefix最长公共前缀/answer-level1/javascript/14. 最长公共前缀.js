@@ -1,8 +1,8 @@
-首先计算数组中最短的字符串长度，然后循环对比
+// 首先计算数组中最短的字符串长度，然后循环对比
 
-优化解：取第一个元素，然后依次与之后元素对比，如果不匹配，删除最后一个元素继续对比
+// 优化解：取第一个元素，然后依次与之后元素对比，如果不匹配，删除最后一个元素继续对比
 
-```
+// ```
 var longestCommonPrefix = function (strs) {
     var sim = ""
     let min = NaN
@@ -26,4 +26,4 @@ var longestCommonPrefix = function (strs) {
     }
     return sim
 };
-```
+// ```

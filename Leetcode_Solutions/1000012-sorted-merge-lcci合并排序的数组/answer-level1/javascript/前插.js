@@ -1,5 +1,5 @@
 
-```
+// ```
 let i = 0, j = 0, k = 0;
     A.splice(m,n);
     while (k < m + n && j < n) {
@@ -12,4 +12,4 @@ let i = 0, j = 0, k = 0;
         }
     }
     return A;
-```
+// ```

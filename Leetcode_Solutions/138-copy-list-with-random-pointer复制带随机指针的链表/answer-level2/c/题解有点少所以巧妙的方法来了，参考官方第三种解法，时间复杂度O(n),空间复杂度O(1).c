@@ -1,6 +1,6 @@
 
 
-```
+// ```
 /* 防止空指针的使用 */
 struct Node* copyRandomList(struct Node* head) 
 {
@@ -60,5 +60,5 @@ struct Node* copyRandomList(struct Node* head)
     
     return copyhead;
 }
-```
+// ```
 

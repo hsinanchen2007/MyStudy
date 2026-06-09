@@ -1,9 +1,9 @@
-### 解题思路
-就地进行,设置over为进位
+// ### 解题思路
+// 就地进行,设置over为进位
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,5 +48,5 @@ public:
         return l3->next;
     }     
 };
-```
-![image.png](https://pic.leetcode-cn.com/91d18b6221edcb2d5a77063fb166cb2ef278be77fda73ad8dbc60841382bfaee-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/91d18b6221edcb2d5a77063fb166cb2ef278be77fda73ad8dbc60841382bfaee-image.png)

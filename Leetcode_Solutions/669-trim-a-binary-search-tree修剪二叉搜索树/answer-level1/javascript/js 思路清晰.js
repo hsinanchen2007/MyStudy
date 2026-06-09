@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/72978033720024f70ec4f68fabea9ad7e26f066473b3c74f0381299cf4a7a4f0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/72978033720024f70ec4f68fabea9ad7e26f066473b3c74f0381299cf4a7a4f0-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 结合二叉搜索树的特点，节点值大于它的左节点并且小于它的右节点
 那么：
   当节点值 < L ，把它的左子树抛弃掉，继续修剪它的右子树
@@ -9,11 +9,11 @@
   
   否则当前节点值满足 L < node.val < R ，那么它的左右子树都有可能仍然有符合条件
   的节点值，所以要继续修剪左、右子树
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -39,4 +39,4 @@ var trimBST = function(root, L, R) {
   
   return root;
 };
-```
+// ```

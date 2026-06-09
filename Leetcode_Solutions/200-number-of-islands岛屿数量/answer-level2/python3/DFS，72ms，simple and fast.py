@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         if grid==[]: return 0
@@ -20,5 +20,5 @@ class Solution:
                 if grid[i][j] == '1': count += 1
                 helper(i, j, count)
         return count
-```
+# ```
 

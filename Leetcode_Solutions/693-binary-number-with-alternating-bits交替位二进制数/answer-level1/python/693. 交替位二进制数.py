@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasAlternatingBits(self, n: int) -> bool:
         nb = '{:b}'.format(n)
@@ -11,4 +11,4 @@ class Solution:
                 return False
         return True
 
-```
+# ```

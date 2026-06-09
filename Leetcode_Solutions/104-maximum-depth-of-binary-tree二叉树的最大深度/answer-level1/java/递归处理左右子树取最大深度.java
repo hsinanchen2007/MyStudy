@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-还是通过递归和一个辅助函数完成计算，如果节点不为null则深度加一，然后递归处理左右子树取最大值。
+// 还是通过递归和一个辅助函数完成计算，如果节点不为null则深度加一，然后递归处理左右子树取最大值。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,4 +30,4 @@ class Solution {
         return depth(root, 0);
     }
 }
-```
+// ```

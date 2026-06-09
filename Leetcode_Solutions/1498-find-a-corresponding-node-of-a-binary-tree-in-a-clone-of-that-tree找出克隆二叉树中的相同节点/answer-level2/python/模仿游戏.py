@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-一个结点在二叉树中的位置和前序遍历到它所需步数是一一对应的。
+# 一个结点在二叉树中的位置和前序遍历到它所需步数是一一对应的。
 
-本解法利用该性质，可以工作在有重复值的树上。
+# 本解法利用该性质，可以工作在有重复值的树上。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -52,4 +52,4 @@ class Solution:
         ddfs(cloned)
         return ttarget
 
-```
+# ```

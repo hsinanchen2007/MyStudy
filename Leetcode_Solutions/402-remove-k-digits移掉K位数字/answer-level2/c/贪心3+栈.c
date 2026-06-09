@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * removeKdigits(char * num, int k){
     int len = strlen(num);
     int top = -1;
@@ -36,4 +36,4 @@ char * removeKdigits(char * num, int k){
 
     return stack;
 }
-```
+// ```

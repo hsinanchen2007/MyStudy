@@ -1,5 +1,5 @@
-C语言递归解法
- ```
+// C语言递归解法
+//  ```
  void inorder(struct TreeNode* root,int* returnSize,int *a)/*中序遍历二叉树*/
 {
     if(!root) return;
@@ -22,10 +22,10 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
       inorder(root,returnSize,a);
       return a;
 }
-```
+// ```
 
-栈解法
-```
+// 栈解法
+// ```
 int* inorderTraversal(struct TreeNode* root, int* returnSize){
    struct TreeNode **a=(struct TreeNode**)malloc(sizeof(struct TreeNode*)*1000);
    int *b=(int*)malloc(sizeof(int)*10000);
@@ -47,4 +47,4 @@ int* inorderTraversal(struct TreeNode* root, int* returnSize){
 }
 
 
-```
+// ```

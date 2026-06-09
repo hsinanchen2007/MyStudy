@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/8e25809cd0d54c623ea8ae5b67c6a37d887f4be77b093b01acedf8a6ae550773-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8e25809cd0d54c623ea8ae5b67c6a37d887f4be77b093b01acedf8a6ae550773-image.png)
 
-前缀数组是求连续子序列的一个套路，但是自己始终掌握的不是很好
+// 前缀数组是求连续子序列的一个套路，但是自己始终掌握的不是很好
 
-```
+// ```
 class Solution {
 public:
     int subarraysDivByK(vector<int>& A, int K) {
@@ -29,4 +29,4 @@ public:
     }
 };
 
-```
+// ```

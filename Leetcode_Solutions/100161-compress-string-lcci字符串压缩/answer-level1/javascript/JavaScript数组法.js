@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-通过数组存储再拉平得出结果
+// 通过数组存储再拉平得出结果
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -22,4 +22,4 @@ var compressString = function(S) {
     const str = temp.join('').split(',').join('') // 不支持flat只能这样拉平
     return str.length >= S.length ? S : str
 };
-```
+// ```

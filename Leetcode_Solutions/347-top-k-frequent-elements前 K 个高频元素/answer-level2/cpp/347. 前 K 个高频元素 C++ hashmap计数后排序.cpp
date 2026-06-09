@@ -1,9 +1,9 @@
-### 解题思路
-hashmap 计数后，重新赋值在vector中按出现次数排序，然后取前K个
+// ### 解题思路
+// hashmap 计数后，重新赋值在vector中按出现次数排序，然后取前K个
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool myfun(pair<int, int> a, pair<int, int> b)
@@ -37,4 +37,4 @@ public:
         return result;
     }
 };
-```
+// ```

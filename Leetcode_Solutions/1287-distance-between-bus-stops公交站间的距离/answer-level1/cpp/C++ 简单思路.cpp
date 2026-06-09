@@ -1,9 +1,9 @@
-### 解题思路
-4ms
+// ### 解题思路
+// 4ms
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int distanceBetweenBusStops(vector<int>& distance, int start, int destination)
@@ -27,4 +27,4 @@ public:
         return min(a, b);
     }
 };
-```
+// ```

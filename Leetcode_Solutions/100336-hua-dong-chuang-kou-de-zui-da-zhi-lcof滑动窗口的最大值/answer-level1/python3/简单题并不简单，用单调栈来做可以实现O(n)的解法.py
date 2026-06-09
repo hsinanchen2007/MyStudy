@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         if not nums:
@@ -30,4 +30,4 @@ class Solution:
         return res
 
 
-```
+# ```

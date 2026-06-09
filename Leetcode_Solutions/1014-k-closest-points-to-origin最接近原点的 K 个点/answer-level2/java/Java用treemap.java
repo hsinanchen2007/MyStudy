@@ -1,9 +1,9 @@
-### 解题思路
-将距离用treeMap保存起来，自动按从小到大排序，然后遍历输出k位即可
+// ### 解题思路
+// 将距离用treeMap保存起来，自动按从小到大排序，然后遍历输出k位即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   public int[][] kClosest(int[][] points, int K) {
         if (points == null || points.length == 0 || points[0].length == 0) {
@@ -31,4 +31,4 @@ class Solution {
         return output.toArray(new int[K][2]);
     }
 }
-```
+// ```

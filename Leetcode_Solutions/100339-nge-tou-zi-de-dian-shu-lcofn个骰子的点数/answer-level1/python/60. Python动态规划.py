@@ -1,9 +1,9 @@
-### 解题思路
-递推式很容易想到，因为n个筛子的组合方法可以在n - 1个筛子的组合方法的基础上获得。我们定义dp[i][j]为使用i + 1个筛子，组合成j + 1一共有多少种方法。下面的实现是使用了空间优化的方法。
+# ### 解题思路
+# 递推式很容易想到，因为n个筛子的组合方法可以在n - 1个筛子的组合方法的基础上获得。我们定义dp[i][j]为使用i + 1个筛子，组合成j + 1一共有多少种方法。下面的实现是使用了空间优化的方法。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def twoSum(self, n: int) -> List[float]:
         if n == 0:
@@ -21,4 +21,4 @@ class Solution:
         res = dp[(n - 1) % 2][n - 1:]
         sum_num = sum(res)
         return list(map(lambda x: x / sum_num, res))
-```
+# ```

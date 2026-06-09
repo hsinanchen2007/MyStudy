@@ -1,9 +1,9 @@
-### 解题思路
-建立指针数组存储各个prime的状态, 使用优先队列+集合的算法会TLE
+# ### 解题思路
+# 建立指针数组存储各个prime的状态, 使用优先队列+集合的算法会TLE
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public int nthSuperUglyNumber(int n, int[] primes) {
         // 动态规划
@@ -31,8 +31,8 @@ class Solution {
         return minV;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def nthSuperUglyNumber(self, n: int, primes: List[int]) -> int:
         # 动态规划
@@ -56,8 +56,8 @@ class Solution:
 
         return minV
 
-```
-```c++ []
+# ```
+# ```c++ []
 typedef long long LL;
 class Solution {
 public:
@@ -92,4 +92,4 @@ public:
         return minV;
     }
 };
-```
+# ```

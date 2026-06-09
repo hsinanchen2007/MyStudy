@@ -1,4 +1,4 @@
-```cpp []
+// ```cpp []
 class Solution {
 public:
     int ans = 0;
@@ -15,8 +15,8 @@ public:
         return left + right + node->val;
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def findTilt(self, root: TreeNode) -> int:
         self.ans = 0
@@ -29,4 +29,4 @@ class Solution:
             return left + right + node.val
         f(root)
         return self.ans
-```
+// ```

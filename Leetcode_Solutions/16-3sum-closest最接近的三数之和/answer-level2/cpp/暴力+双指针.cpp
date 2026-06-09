@@ -1,5 +1,5 @@
-方法一 暴力
-```
+// 方法一 暴力
+// ```
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -19,9 +19,9 @@ public:
         return ans;
     }
 };
-```
-方法二 双指针
-```
+// ```
+// 方法二 双指针
+// ```
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -40,5 +40,5 @@ public:
         return ans;
     }
 };
-```
+// ```
 

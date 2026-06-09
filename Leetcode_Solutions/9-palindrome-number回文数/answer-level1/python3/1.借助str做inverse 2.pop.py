@@ -1,8 +1,8 @@
-### 方法1
-小于0，肯定不是回文数。
-大于0，判断是否是回文 s[::-1] == s
+# ### 方法1
+# 小于0，肯定不是回文数。
+# 大于0，判断是否是回文 s[::-1] == s
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0:
@@ -11,13 +11,13 @@ class Solution:
             return True
         else:
             return False
-```
+# ```
 
-### 方法2
-小于0，肯定不是回文数。
-大于0，因为是正序，所以直接做弹出操作 `rev = rev*10 + pop` 结果就是翻转后的结果
+# ### 方法2
+# 小于0，肯定不是回文数。
+# 大于0，因为是正序，所以直接做弹出操作 `rev = rev*10 + pop` 结果就是翻转后的结果
 
-```python
+# ```python
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0 :
@@ -32,4 +32,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

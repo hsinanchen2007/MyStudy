@@ -1,9 +1,9 @@
-### 解题思路
-根据等差数列求和公式，转换成求首项公式，在生成结果就可以了
+// ### 解题思路
+// 根据等差数列求和公式，转换成求首项公式，在生成结果就可以了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findContinuousSequence(target int) [][]int {
     // S = 1/2n^2 + (a1 - 1/2)n
     // a1 = (S - 1/2 n^2)/ n + 1/2
@@ -20,4 +20,4 @@ func findContinuousSequence(target int) [][]int {
     }
     return res
 }
-```
+// ```

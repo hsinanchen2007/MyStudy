@@ -1,9 +1,9 @@
-求出走过几个step（循环）就行了
+// 求出走过几个step（循环）就行了
 
-![image.png](https://pic.leetcode-cn.com/5fc996ecf7358a182e088dceab801b36974a5e7aef2c77a17705ba210f5e0155-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5fc996ecf7358a182e088dceab801b36974a5e7aef2c77a17705ba210f5e0155-image.png)
 
 
-```
+// ```
 impl Solution {
     pub fn distribute_candies(mut candies: i32, num_people: i32) -> Vec<i32> {
         fn min(i: i32, j: i32) -> i32 {
@@ -26,4 +26,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

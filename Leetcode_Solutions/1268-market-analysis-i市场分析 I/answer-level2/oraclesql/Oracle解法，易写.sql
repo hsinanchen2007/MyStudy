@@ -1,4 +1,4 @@
-```
+-- ```
 /* Write your PL/SQL query statement below */
 SELECT user_id AS buyer_id, to_char(MAX(join_date),'yyyy-MM-dd') AS join_date, SUM(CASE 
 		WHEN b.buyer_id is not NULL THEN 1
@@ -11,4 +11,4 @@ FROM Users a
 GROUP BY a.user_id
 
 
-```
+-- ```

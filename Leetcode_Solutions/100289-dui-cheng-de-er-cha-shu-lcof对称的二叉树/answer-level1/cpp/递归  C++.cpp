@@ -1,11 +1,11 @@
-### 解题思路
-递归   （关注微信公众号'码农黑板报'获取更多题解）
-![image.png](https://pic.leetcode-cn.com/2ff01a8341350f0ee85ffa4390d831a8f83745d406499f190566765e52187552-image.png)
+// ### 解题思路
+// 递归   （关注微信公众号'码农黑板报'获取更多题解）
+// ![image.png](https://pic.leetcode-cn.com/2ff01a8341350f0ee85ffa4390d831a8f83745d406499f190566765e52187552-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ public:
                 equalJudge(node1->right, node2->left);
     }
 };
-```
+// ```

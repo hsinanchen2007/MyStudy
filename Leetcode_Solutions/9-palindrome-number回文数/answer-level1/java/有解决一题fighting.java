@@ -1,9 +1,9 @@
-### 解题思路
-不转字符串的解法
+// ### 解题思路
+// 不转字符串的解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(int x) {
 		if(x == 0)
@@ -31,5 +31,5 @@ class Solution {
 		return res == xCopy;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/555da7ee3e0554934dfc2330cf0a98472bdf474afbe084aa3b87867716d3a861-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/555da7ee3e0554934dfc2330cf0a98472bdf474afbe084aa3b87867716d3a861-image.png)

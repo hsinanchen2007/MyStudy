@@ -1,5 +1,5 @@
-go的解决方法：
-```
+// go的解决方法：
+// ```
 func threeEqualParts(A []int) []int {
     
     var no = []int{-1, -1}
@@ -38,4 +38,4 @@ func threeEqualParts(A []int) []int {
     
     return no
 }
-```
+// ```

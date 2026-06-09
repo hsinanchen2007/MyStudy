@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/04bb132cd9fa2e739a6baa9e01071d1e5d83add8003851da691b6f4e3a966e71-image.png)
+// ![image.png](https://pic.leetcode-cn.com/04bb132cd9fa2e739a6baa9e01071d1e5d83add8003851da691b6f4e3a966e71-image.png)
 
-第一次dfs求所有节点和。第二次dfs判断当前节点左右子树的和是否为总和的一半，是的话设置flag为true，并且flag置为true之后不再递归，直接返回。
-```
+// 第一次dfs求所有节点和。第二次dfs判断当前节点左右子树的和是否为总和的一半，是的话设置flag为true，并且flag置为true之后不再递归，直接返回。
+// ```
 class Solution {
     boolean flag = false;
     public boolean checkEqualTree(TreeNode root) {
@@ -37,4 +37,4 @@ class Solution {
         return s;
     }
 }
-```
+// ```

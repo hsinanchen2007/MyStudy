@@ -1,5 +1,5 @@
-### 题中没有说只能吃一次卒，这个坑了
-```
+// ### 题中没有说只能吃一次卒，这个坑了
+// ```
 func numRookCaptures(board [][]byte) int {
     var Ri, Rj int
     for i1, j1 := range board{
@@ -57,4 +57,4 @@ func numRookCaptures(board [][]byte) int {
 
     return count
 }
-```
+// ```

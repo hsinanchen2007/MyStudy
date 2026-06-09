@@ -1,9 +1,9 @@
-### 解题思路
-利用等差数列的求和公式和一元二次方程求解公式快速解决目标值，算法基本恒速
+// ### 解题思路
+// 利用等差数列的求和公式和一元二次方程求解公式快速解决目标值，算法基本恒速
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reachNumber(int target) {
         //等差数列的求和公式Sn=n(a1+an)/2
@@ -21,4 +21,4 @@ class Solution {
         return (target-sum)%2==0 ? n : n + 1 + n%2;
     }
 }
-```
+// ```

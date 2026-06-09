@@ -1,6 +1,6 @@
-方法一 递归&&备忘录递归  超时
-递归
-```
+// 方法一 递归&&备忘录递归  超时
+// 递归
+// ```
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -13,9 +13,9 @@ public:
         return min(lt, rt) + triangle[i][j];
     }
 };
-```
-备忘录递归
-```
+// ```
+// 备忘录递归
+// ```
 class Solution {
 public:
     vector<vector<int>> a;
@@ -31,8 +31,8 @@ public:
         return a[i][j] = min(lt, rt) + triangle[i][j];
     }
 };
-```
-```
+// ```
+// ```
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -42,10 +42,10 @@ public:
         return dp[0][0];
     }
 };
-```
-方法二 动态规划 
-自底而上，第i行的最小路径和 = 第i+1的最小路径和 + 第i行路径值
-```
+// ```
+// 方法二 动态规划 
+// 自底而上，第i行的最小路径和 = 第i+1的最小路径和 + 第i行路径值
+// ```
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -55,9 +55,9 @@ public:
         return dp[0][0];
     }
 };
-```
-优化，在原来数组基础上动作
-```
+// ```
+// 优化，在原来数组基础上动作
+// ```
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -66,9 +66,9 @@ public:
                 triangle[i][j] = min(triangle[i+1][j],triangle[i+1][j+1]) + triangle[i][j];  
         return triangle[0][0];
     }
-```
-空间压缩
-```
+// ```
+// 空间压缩
+// ```
 class Solution {
 public:
     int minimumTotal(vector<vector<int>>& triangle) {
@@ -78,7 +78,7 @@ public:
         return dp[0];
     }
 };
-```
+// ```
 
 
 

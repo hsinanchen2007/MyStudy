@@ -1,9 +1,9 @@
-### 解题思路
-双指针二分查找
+# ### 解题思路
+# 双指针二分查找
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # The guess API is already defined for you.
 # @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
 # def guess(num: int) -> int:
@@ -20,4 +20,4 @@ class Solution:
                 r = m - 1
             else:
                 l = m + 1
-```
+# ```

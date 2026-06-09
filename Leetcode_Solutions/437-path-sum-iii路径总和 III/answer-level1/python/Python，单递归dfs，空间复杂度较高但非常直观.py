@@ -1,4 +1,4 @@
-```python
+# ```python
 # 时间复杂度还挺好，超过90%+
     def pathSum(self, root: TreeNode, sum: int) -> int:
         if not root:
@@ -16,4 +16,4 @@
             return temp.count(sum) + left + right
 
         return dfs(root, [])
-```
+# ```

@@ -1,5 +1,5 @@
-使用集合，没有就添加，有的话就说明之前添加过了，重复返回true
-```
+// 使用集合，没有就添加，有的话就说明之前添加过了，重复返回true
+// ```
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         //使用集合，没有就添加，有的话就说明之前添加过了，重复返回true
@@ -13,11 +13,11 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 
-使用HashMap，不存在就添加，存在就说明重复了，时间复杂度o(n)。
-但是时间居然要26ms有点长。
-```
+// 使用HashMap，不存在就添加，存在就说明重复了，时间复杂度o(n)。
+// 但是时间居然要26ms有点长。
+// ```
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         //一看使用HashMap极好，一遍就行
@@ -31,4 +31,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/ff44f49e12dbfbf146256c1639d4e52ab72cc62fcbecc96b2644092b3ed0d967-image.png)
+# ![image.png](https://pic.leetcode-cn.com/ff44f49e12dbfbf146256c1639d4e52ab72cc62fcbecc96b2644092b3ed0d967-image.png)
 
 
-```
+# ```
 
 '''
 二分搜索最小的除数
@@ -22,4 +22,4 @@ class Solution:
             else:
                 l = m + 1
         return ans
-```
+# ```

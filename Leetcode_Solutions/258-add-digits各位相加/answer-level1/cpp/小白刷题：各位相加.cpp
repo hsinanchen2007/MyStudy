@@ -1,7 +1,7 @@
-看着挺唬人，最后结果一位数的话，一定是mod 9的余数
+// 看着挺唬人，最后结果一位数的话，一定是mod 9的余数
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     int addDigits(int num) {
@@ -10,4 +10,4 @@ public:
         return 0;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-贪心
-mx[i]表示能覆盖到这个点的同时能覆盖到的最远的点是哪个
-![image.png](https://pic.leetcode-cn.com/f80a8fa943e1608207b08231ff9cdda149fc463e2aaa1bbe2662d8cd1ca1d962-image.png)
+// ### 解题思路
+// 贪心
+// mx[i]表示能覆盖到这个点的同时能覆盖到的最远的点是哪个
+// ![image.png](https://pic.leetcode-cn.com/f80a8fa943e1608207b08231ff9cdda149fc463e2aaa1bbe2662d8cd1ca1d962-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #include<bits/stdc++.h>
 #define de(x) cout<<#x<<"="<<x<<endl
 #define dd(x) cout<<#x<<"="<<x<<" "
@@ -50,4 +50,4 @@ public:
         return -1;
     }
 };
-```
+// ```

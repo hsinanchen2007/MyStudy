@@ -1,6 +1,6 @@
-只会暴力求解的我。。。。
+// 只会暴力求解的我。。。。
 
-```
+// ```
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         List<Integer> list = new ArrayList<>();
@@ -21,4 +21,4 @@ class Solution {
         return p;
     }
 }
-```
+// ```

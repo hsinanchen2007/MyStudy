@@ -1,6 +1,6 @@
-## 循环迭代
-栈思想：锯齿状，应为栈的使用场景，用栈保存遍历的路径。
-```java
+// ## 循环迭代
+// 栈思想：锯齿状，应为栈的使用场景，用栈保存遍历的路径。
+// ```java
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> result = new LinkedList<>();
@@ -30,4 +30,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

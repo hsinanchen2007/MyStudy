@@ -1,9 +1,9 @@
-### 解题思路
-剑指《offer》C++实现
+// ### 解题思路
+// 剑指《offer》C++实现
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class CQueue {
 public:
     CQueue() {
@@ -47,4 +47,4 @@ private:
  * obj->appendTail(value);
  * int param_2 = obj->deleteHead();
  */
-```
+// ```

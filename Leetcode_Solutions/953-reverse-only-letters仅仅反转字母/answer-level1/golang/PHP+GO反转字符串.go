@@ -1,8 +1,8 @@
-- 建立新字符串
-- 反转填入
-- 时间复杂度O(n)
-- 空间复杂度O(n)
-```PHP []
+// - 建立新字符串
+// - 反转填入
+// - 时间复杂度O(n)
+// - 空间复杂度O(n)
+// ```PHP []
 class Solution {
 
     /**
@@ -37,8 +37,8 @@ class Solution {
         return $out;
     }
 }
-```
-```GO []
+// ```
+// ```GO []
 func reverseOnlyLetters(S string) string {
     var str,out string
     for i:=len(S)-1;i>=0;i--{
@@ -66,4 +66,4 @@ func isLetter (str byte) bool{
     }
     return out
 }
-```
+// ```

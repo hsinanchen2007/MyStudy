@@ -1,9 +1,9 @@
-### 解题思路
-暴力，+1
+// ### 解题思路
+// 暴力，+1
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -19,4 +19,4 @@ public:
         return {};
     }
 };
-```
+// ```

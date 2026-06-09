@@ -1,4 +1,4 @@
-```
+// ```
 import "sort"
 
 var t = [...]int{
@@ -13,4 +13,4 @@ func sequentialDigits(low int, high int) []int {
 	e := sort.Search(l, func(j int) bool { return t[j] > high })
 	return t[b:e]
 }
-```
+// ```

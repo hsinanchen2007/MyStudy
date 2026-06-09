@@ -1,14 +1,14 @@
-### 解题思路
-题目的意思就是：对于每个节点，求其左右两边路径加上自身值。所有节点中，最大的这个值就是输出。左右两边不用全加，只需要加正数的边。
+# ### 解题思路
+# 题目的意思就是：对于每个节点，求其左右两边路径加上自身值。所有节点中，最大的这个值就是输出。左右两边不用全加，只需要加正数的边。
 
-所有在traverse过程中，更新结果和传递数据是两个不同的数：分别是下面的： self.result = max(self.result, result + left + right) 和 result + max(left, right)。
+# 所有在traverse过程中，更新结果和传递数据是两个不同的数：分别是下面的： self.result = max(self.result, result + left + right) 和 result + max(left, right)。
 
-对于每个节点，其对最终结果的影响在于左右两边都考虑。但是传递给父节点的时候，只需要传递最大的一边。
+# 对于每个节点，其对最终结果的影响在于左右两边都考虑。但是传递给父节点的时候，只需要传递最大的一边。
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution(object):
         return result + max(left, right)
 
 
-```
+# ```

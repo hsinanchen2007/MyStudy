@@ -1,9 +1,9 @@
-### 解题思路
-先将头节点从链表中截断，再用头插法
+// ### 解题思路
+// 先将头节点从链表中截断，再用头插法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -26,4 +26,4 @@ func reverseList(head *ListNode) *ListNode {
     }
     return head
 }
-```
+// ```

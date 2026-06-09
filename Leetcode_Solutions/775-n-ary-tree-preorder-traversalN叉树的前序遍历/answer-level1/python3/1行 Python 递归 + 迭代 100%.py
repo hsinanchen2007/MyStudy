@@ -1,4 +1,4 @@
-```python
+# ```python
 """
 # Definition for a Node.
 class Node:
@@ -9,9 +9,9 @@ class Node:
 class Solution:
     def preorder(self, root: 'Node') -> List[int]:
         return root and sum([[root.val], *map(self.preorder, root.children)], []) or []
-```
+# ```
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node:
@@ -30,5 +30,5 @@ class Solution:
             s += root.children[::-1]
         
         return r
-```
+# ```
 

@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArrayByParityII(self, A: List[int]) -> List[int]:
         i=0
@@ -13,4 +13,4 @@ class Solution:
             if A[i]%2==0:i+=2
             if A[j]%2==1:j+=2
         return A
-```
+# ```

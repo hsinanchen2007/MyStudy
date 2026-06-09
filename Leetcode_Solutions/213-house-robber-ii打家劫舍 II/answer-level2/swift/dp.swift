@@ -1,6 +1,6 @@
 
 
-```swift
+// ```swift
 class Solution {
     func rob(_ nums: [Int]) -> Int {
         if nums.count == 0 {
@@ -25,4 +25,4 @@ class Solution {
         return currMax
     }
 }
-```
+// ```

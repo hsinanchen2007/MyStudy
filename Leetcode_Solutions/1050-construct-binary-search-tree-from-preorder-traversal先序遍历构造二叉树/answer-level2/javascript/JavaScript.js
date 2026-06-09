@@ -1,8 +1,8 @@
-### 解题思路
-数组的第一项是根节点的值，不断递归即可
-### 代码
+// ### 解题思路
+// 数组的第一项是根节点的值，不断递归即可
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -31,4 +31,4 @@ var bstFromPreorder = function(preorder) {
     root.right = bstFromPreorder(right)
     return root
 };
-```
+// ```

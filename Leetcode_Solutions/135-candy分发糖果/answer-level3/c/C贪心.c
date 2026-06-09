@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/cc833936045fd5a650036e75b9d08cc5c6d5a4def7513f9d3442438cc60ea30c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/cc833936045fd5a650036e75b9d08cc5c6d5a4def7513f9d3442438cc60ea30c-image.png)
 
-```
+// ```
 int candy(int* ratings, int ratingsSize){
     int result = ratingsSize;
     int hash[ratingsSize + 1];
@@ -27,4 +27,4 @@ int candy(int* ratings, int ratingsSize){
 
     return result;
 }
-```
+// ```

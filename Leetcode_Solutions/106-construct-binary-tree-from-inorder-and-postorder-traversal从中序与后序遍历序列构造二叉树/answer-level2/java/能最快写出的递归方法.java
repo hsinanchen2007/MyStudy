@@ -1,5 +1,5 @@
-后序遍历最后一个是根节点，中序遍历中，根节点左边的是左子树，右边的是右子树
-```
+// 后序遍历最后一个是根节点，中序遍历中，根节点左边的是左子树，右边的是右子树
+// ```
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         return construct2(inorder, 0, inorder.length - 1, postorder, 0, postorder.length - 1);
     }
@@ -18,4 +18,4 @@
         }
         return root;
     }
-```
+// ```

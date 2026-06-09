@@ -1,11 +1,11 @@
-### 解题思路
-[具体思路见这位老哥的分享](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/solution/hui-su-dong-tai-gui-hua-by-ml-zimingmeng/)
+// ### 解题思路
+// [具体思路见这位老哥的分享](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/solution/hui-su-dong-tai-gui-hua-by-ml-zimingmeng/)
 
-我整理了PHP版本，并在代码中做了详细注释。
+// 我整理了PHP版本，并在代码中做了详细注释。
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
    /**
@@ -71,4 +71,4 @@ class Solution {
         return $res;
     }
 }
-```
+// ```

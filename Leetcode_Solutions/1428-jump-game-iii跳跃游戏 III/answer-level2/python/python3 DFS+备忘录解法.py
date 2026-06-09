@@ -1,10 +1,10 @@
-# 思路
-1. 当前坐标`i`加入备忘录，**目的： 如果后面又跳回来了，说明这是死循环，应当避免；**
+# # 思路
+# 1. 当前坐标`i`加入备忘录，**目的： 如果后面又跳回来了，说明这是死循环，应当避免；**
 
-2. 对下一个索引 `i + arr[i]` 和 `i - arr[i]` 进行dfs
+# 2. 对下一个索引 `i + arr[i]` 和 `i - arr[i]` 进行dfs
 
-# 代码
-```python3
+# # 代码
+# ```python3
 class Solution:
     def __init__(self):
         self.memo = set()
@@ -24,4 +24,4 @@ class Solution:
             if self.canReach(arr, nxt2):
                 return True
         return False                                            # nxt1, nxt2都在memo中，或者对[0, arr.length)越界
-```
+# ```

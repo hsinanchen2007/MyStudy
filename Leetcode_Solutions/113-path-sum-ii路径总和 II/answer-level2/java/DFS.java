@@ -1,8 +1,8 @@
-## 思路:
+// ## 思路:
 
-和上一题一样, 用DFS只不过在遍历时候,要记录`val`而已
+// 和上一题一样, 用DFS只不过在遍历时候,要记录`val`而已
 
-```python [1]
+// ```python [1]
 def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
         res = []
         if not root: return []
@@ -17,11 +17,11 @@ def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
             helper(root.right, sum - root.val, tmp + [root.val])
         helper(root, sum, [])
         return res
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         List<List<Integer>> res = new ArrayList<>();
@@ -38,6 +38,6 @@ class Solution {
         tmp.remove(tmp.size() - 1);
     }
 }
-```
+// ```
 
-相关题型 : [112. 路径总和](https://leetcode-cn.com/problems/path-sum/)
+// 相关题型 : [112. 路径总和](https://leetcode-cn.com/problems/path-sum/)

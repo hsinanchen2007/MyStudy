@@ -1,8 +1,8 @@
-代码相较其他大佬臃肿了，为边界条件也折腾了半天。
-时间效率竟然beat 100%
+// 代码相较其他大佬臃肿了，为边界条件也折腾了半天。
+// 时间效率竟然beat 100%
 
 
-```java
+// ```java
 class Solution {
     public boolean canPlaceFlowers(int[] flowerbed, int n) {
         if (n==0) return true;
@@ -50,4 +50,4 @@ class Solution {
         return count>=n;
     }
 }
-```
+// ```

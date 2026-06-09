@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool ismirror (TreeNode* p, TreeNode* q) {
@@ -11,4 +11,4 @@ public:
         return ismirror(root->left,root->right);
     }
 };
-```
+// ```

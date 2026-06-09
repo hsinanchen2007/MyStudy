@@ -1,7 +1,7 @@
-参考了“动态规划（Java、Python）”一文
-状态定义：dp[i]：前缀子串 s[0:i] （包括索引 i 处的字符）符合要求的最少分割次数
-状态转移方程： dp[i] = min(dp[j] + 1 if s[j + 1: i] 是回文 for j in range(i))
-```
+// 参考了“动态规划（Java、Python）”一文
+// 状态定义：dp[i]：前缀子串 s[0:i] （包括索引 i 处的字符）符合要求的最少分割次数
+// 状态转移方程： dp[i] = min(dp[j] + 1 if s[j + 1: i] 是回文 for j in range(i))
+// ```
 class Solution {
 public:
     int minCut(string s) {
@@ -47,4 +47,4 @@ public:
         return dp[len-1];
     }
 };
-```
+// ```

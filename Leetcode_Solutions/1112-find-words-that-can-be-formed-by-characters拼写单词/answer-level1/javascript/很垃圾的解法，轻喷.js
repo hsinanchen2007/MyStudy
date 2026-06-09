@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-扫描字符串，判断chars长度 - 剩余 chars字符串 是否等于 所扫描字符串的长度
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 扫描字符串，判断chars长度 - 剩余 chars字符串 是否等于 所扫描字符串的长度
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -24,4 +24,4 @@ var countCharacters = function(words, chars) {
     } 
     return len
 };
-```
+// ```

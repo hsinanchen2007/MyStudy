@@ -1,9 +1,9 @@
-### 解题思路
-定义两个数组分别存放solution和guess的字符数量，两者取最小值即为包含猜中总量，减去真猜的的就是伪猜数。
+// ### 解题思路
+// 定义两个数组分别存放solution和guess的字符数量，两者取最小值即为包含猜中总量，减去真猜的的就是伪猜数。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -34,4 +34,4 @@ int* masterMind(char* solution, char* guess, int* returnSize){
     }
     return res;
 }
-```
+// ```

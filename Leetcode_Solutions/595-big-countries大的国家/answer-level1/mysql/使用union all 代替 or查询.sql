@@ -1,4 +1,4 @@
-使用UNION ALL 代替 OR查询，效果还是可以的
+-- 使用UNION ALL 代替 OR查询，效果还是可以的
 
 `select distinct(t.name),t.population,t.area from
 (

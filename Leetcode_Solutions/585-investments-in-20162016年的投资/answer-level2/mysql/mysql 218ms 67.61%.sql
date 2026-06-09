@@ -1,9 +1,9 @@
-### 解题思路
-where 里面限制tiv—2015 count大于一次，(lat,lon) count 等于一次
+-- ### 解题思路
+-- where 里面限制tiv—2015 count大于一次，(lat,lon) count 等于一次
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 
@@ -31,4 +31,4 @@ where tiv_2015 in (
 
 
 
-```
+-- ```

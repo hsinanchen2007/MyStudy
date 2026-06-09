@@ -1,9 +1,9 @@
-### 解题思路
-以原数组空间重写新数组，因为数组是有序的，以指针记录当前已写入的数组下表位置，跳过重复的值
+// ### 解题思路
+// 以原数组空间重写新数组，因为数组是有序的，以指针记录当前已写入的数组下表位置，跳过重复的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums.length == 0){
@@ -21,4 +21,4 @@ class Solution {
         return left + 1;
     }
 }
-```
+// ```

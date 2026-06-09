@@ -1,4 +1,4 @@
-```
+// ```
 //解法一：直接二维数组，动态规划。思考如下：对于前i个数，需要保存i个数的最值，但是在考虑i+1的状态时，需要考虑是否计算第i个值，因而采用二维
 //数组，dp[i][0]表示前i个数在不取i情况下的最值，dp[i][1]表示在前i个数取i的情况下的最值。
  public static int Massage(int[] nums)
@@ -49,4 +49,4 @@
                 dp[i] = Math.Max(dp[i - 1], dp[i - 2] + nums[i - 1]);
             }
             return dp[nums.Length];
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-题意要整清楚，第一做题时没有考虑 元素只能减小的条件和数据动态变化后的影响 所以做错误。代码贴到下边警示自己：
+// 题意要整清楚，第一做题时没有考虑 元素只能减小的条件和数据动态变化后的影响 所以做错误。代码贴到下边警示自己：
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int movesToMakeZigzag(vector<int>& nums) {
@@ -54,49 +54,49 @@ public:
 
 ### 代码
 
-```cpp
-class Solution {
-public:
-    int movesToMakeZigzag(vector<int>& nums) {
-        vector<int> vec1 = nums;
-        vector<int> vec2 = nums;
-        int sum1 = 0;
-        int sum2 = 0;
+// ```cpp
+// class Solution {
+// public:
+//     int movesToMakeZigzag(vector<int>& nums) {
+//         vector<int> vec1 = nums;
+//         vector<int> vec2 = nums;
+//         int sum1 = 0;
+//         int sum2 = 0;
 
-        for (int i = 0; i < nums.size() - 1; i++) {
-            //修改数组为 小大小
-            if (i % 2 == 0) {  //奇数位
-                if (vec1[i] - vec1[i + 1] >= 0) {
-                    sum1 += vec1[i] - vec1[i + 1] + 1;
-                    vec1[i] = vec1[i + 1] - 1;  //vec1[i] - (vec1[i] - vec1[i + 1] + 1)
-                } else {
-                }
-            } else {
-                if (vec1[i] - vec1[i + 1] > 0) {  //偶数位
-                } else {
-                    sum1 += vec1[i + 1] - vec1[i] + 1;
-                    vec1[i + 1] = vec1[i] - 1;
-                }
-            }
-            //修改数组为 大小大
-            if (i % 2 == 0) {  //奇数位
-                if (vec2[i] - vec2[i + 1] > 0) {
-                } else {
-                    sum2 += vec2[i + 1] - vec2[i] + 1;
-                    vec2[i + 1] = vec2[i] - 1;
-                }
-            } else {
-                if (vec2[i] - vec2[i + 1] >= 0) {  //偶数位
-                    sum2 += vec2[i] - vec2[i + 1] + 1;
-                    vec2[i] = vec2[i + 1] - 1;
-                } else {
-                }
-            }
-        }
-        for (int i = 0; i < vec1.size(); i++) {
-            cout << nums[i] << " " << vec1[i] << " " << vec2[i] << endl;
-        }
-        return min(sum1, sum2);
-    }
-};
-```
+//         for (int i = 0; i < nums.size() - 1; i++) {
+//             //修改数组为 小大小
+//             if (i % 2 == 0) {  //奇数位
+//                 if (vec1[i] - vec1[i + 1] >= 0) {
+//                     sum1 += vec1[i] - vec1[i + 1] + 1;
+//                     vec1[i] = vec1[i + 1] - 1;  //vec1[i] - (vec1[i] - vec1[i + 1] + 1)
+//                 } else {
+//                 }
+//             } else {
+//                 if (vec1[i] - vec1[i + 1] > 0) {  //偶数位
+//                 } else {
+//                     sum1 += vec1[i + 1] - vec1[i] + 1;
+//                     vec1[i + 1] = vec1[i] - 1;
+//                 }
+//             }
+//             //修改数组为 大小大
+//             if (i % 2 == 0) {  //奇数位
+//                 if (vec2[i] - vec2[i + 1] > 0) {
+//                 } else {
+//                     sum2 += vec2[i + 1] - vec2[i] + 1;
+//                     vec2[i + 1] = vec2[i] - 1;
+//                 }
+//             } else {
+//                 if (vec2[i] - vec2[i + 1] >= 0) {  //偶数位
+//                     sum2 += vec2[i] - vec2[i + 1] + 1;
+//                     vec2[i] = vec2[i + 1] - 1;
+//                 } else {
+//                 }
+//             }
+//         }
+//         for (int i = 0; i < vec1.size(); i++) {
+//             cout << nums[i] << " " << vec1[i] << " " << vec2[i] << endl;
+//         }
+//         return min(sum1, sum2);
+//     }
+// };
+// ```

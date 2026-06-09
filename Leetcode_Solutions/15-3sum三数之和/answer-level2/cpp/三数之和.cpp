@@ -1,8 +1,8 @@
-这个方法是参考评论区各位大佬的；
-需要注意的一些情况：
-1、输入为空；
-2、输入个数小于3个
-```
+// 这个方法是参考评论区各位大佬的；
+// 需要注意的一些情况：
+// 1、输入为空；
+// 2、输入个数小于3个
+// ```
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -47,4 +47,4 @@ public:
         return result_set;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-薄弱的知识点：切片与切片之间的赋值，为值的复制
+// 薄弱的知识点：切片与切片之间的赋值，为值的复制
 
-```go
+// ```go
 func duplicateZeros(arr []int) {
 	ret := make([]int, len(arr))
 	times := 0 // 0出现的次数
@@ -29,11 +29,11 @@ func duplicateZeros(arr []int) {
 	}
         // arr = ret 这样是错误的，一直没有想明白，又饶了很大的弯，写了第二遍才意思到
 }
-```
+// ```
 
-走了弯路才知道为啥错了，哎
+// 走了弯路才知道为啥错了，哎
 
-```go
+// ```go
 func duplicateZeros(arr []int) {
 	times := 0 // 0出现的次数
     // 拷贝数据不能直接tmp:=arr，跳在这个坑里半天
@@ -65,11 +65,11 @@ func duplicateZeros(arr []int) {
 	}
 	// fmt.Print(arr)
 }
-```
+// ```
 
-学习下[@大佬的写法](https://leetcode-cn.com/u/caigogo)
+// 学习下[@大佬的写法](https://leetcode-cn.com/u/caigogo)
 
-```go
+// ```go
 func duplicateZeros(arr []int) {
 	var ans []int
 	for i := 0; i < len(arr); i++ {
@@ -84,4 +84,4 @@ func duplicateZeros(arr []int) {
 		arr[i]=ans[i]
 	}
 }
-```
+// ```

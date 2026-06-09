@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/22db3b5892930ca8762a3491254bc9c0b6a62b3de30b768b8cfa7d18ba844f74-image.png)
+// ![image.png](https://pic.leetcode-cn.com/22db3b5892930ca8762a3491254bc9c0b6a62b3de30b768b8cfa7d18ba844f74-image.png)
 
-使用递归遍历树，用两个数组保存
+// 使用递归遍历树，用两个数组保存
 
-```
+// ```
     int[] depth = new int[2];
     TreeNode[] node = new TreeNode[2];
     public boolean isCousins(TreeNode root, int x, int y) {
@@ -28,4 +28,4 @@
         helper(root.left, x, y, d);
         helper(root.right, x, y, d);
     }
-```
+// ```

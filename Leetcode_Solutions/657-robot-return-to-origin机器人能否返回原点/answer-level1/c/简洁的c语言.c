@@ -1,4 +1,4 @@
-```
+// ```
 bool judgeCircle(char* moves) {
     if (!moves)
         return true;
@@ -20,4 +20,4 @@ bool judgeCircle(char* moves) {
     }
     return x == 0 && x == y ? true : false;
 }
-```
+// ```

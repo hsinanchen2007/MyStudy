@@ -1,10 +1,10 @@
-### 解题思路
-1、找出圆圈和矩阵中重叠的x，y坐标
-2、循环遍历查看它们与圆心的长度是否小于半径
+// ### 解题思路
+// 1、找出圆圈和矩阵中重叠的x，y坐标
+// 2、循环遍历查看它们与圆心的长度是否小于半径
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkOverlap(int radius, int x_center, int y_center, int x1, int y1, int x2, int y2) {
         int centerX1 = x_center - radius;
@@ -30,4 +30,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-先遍历链表得到链表长度`count`，然后分为两种情况考虑：
-1. `count==n`
-2. `else`
+// ### 解题思路
+// 先遍历链表得到链表长度`count`，然后分为两种情况考虑：
+// 1. `count==n`
+// 2. `else`
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -44,4 +44,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

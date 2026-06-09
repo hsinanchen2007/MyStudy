@@ -1,6 +1,6 @@
-**把矩形分割成几个小矩形差值即可**
+// **把矩形分割成几个小矩形差值即可**
 
-```
+// ```
 class NumMatrix {
 public:
 /*dp[i][j]=dp[i-1][j]+dp[i][j-1]-dp[i-1][j-1]+a[i][j];
@@ -30,6 +30,6 @@ public:
  * NumMatrix* obj = new NumMatrix(matrix);
  * int param_1 = obj->sumRegion(row1,col1,row2,col2);
  */
-```
-数据确实太弱了。。。
-另外可以优化成滚动数组：节省下空间
+// ```
+// 数据确实太弱了。。。
+// 另外可以优化成滚动数组：节省下空间

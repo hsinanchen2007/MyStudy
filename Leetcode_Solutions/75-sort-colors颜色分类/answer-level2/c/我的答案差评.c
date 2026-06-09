@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void sortColors(int* nums, int numsSize){
     int cnt0, cnt1, cnt2;
     cnt0 = cnt1 = cnt2 = 0;
@@ -28,4 +28,4 @@ void sortColors(int* nums, int numsSize){
 
     return nums;
 }
-```
+// ```

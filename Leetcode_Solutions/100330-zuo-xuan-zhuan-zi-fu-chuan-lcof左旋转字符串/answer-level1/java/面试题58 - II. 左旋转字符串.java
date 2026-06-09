@@ -1,8 +1,8 @@
-### 解题思路
-直接调用API
-### 代码
+// ### 解题思路
+// 直接调用API
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseLeftWords(String s, int n) {
         StringBuffer s1 = new StringBuffer(s.substring(0,n));
@@ -10,4 +10,4 @@ class Solution {
         return new String(s2.append(s1));
     }
 }
-```
+// ```

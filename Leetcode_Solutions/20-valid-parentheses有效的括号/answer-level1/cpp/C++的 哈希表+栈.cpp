@@ -1,10 +1,10 @@
-### 解题思路
-Hash map + stack 
-![批注 2020-04-08 220620.jpg](https://pic.leetcode-cn.com/526ed44c0a5c67f5c858828ab3137c0d67342e46e967de97f16a73a0c02e1b52-%E6%89%B9%E6%B3%A8%202020-04-08%20220620.jpg)
+// ### 解题思路
+// Hash map + stack 
+// ![批注 2020-04-08 220620.jpg](https://pic.leetcode-cn.com/526ed44c0a5c67f5c858828ab3137c0d67342e46e967de97f16a73a0c02e1b52-%E6%89%B9%E6%B3%A8%202020-04-08%20220620.jpg)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isValid(string s) 
@@ -42,4 +42,4 @@ public:
         return st.empty(); 
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-两个指针所指元素进行比较。
+// ### 解题思路
+// 两个指针所指元素进行比较。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         int n=nums.length;
@@ -24,4 +24,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

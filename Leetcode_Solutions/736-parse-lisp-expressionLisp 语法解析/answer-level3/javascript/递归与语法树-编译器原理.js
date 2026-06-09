@@ -1,7 +1,7 @@
-1. **递归法**
-第一种比较容易想到的解法应该就是这种递归法了(另外，这种方法也比较快速)，递归法解决add和mult嵌套的问题并不难，关键是let比较难以处理，我这里采用的是作用域拷贝，即内层的作用域拷贝外层的作用域，再修改得到新的作用域的方法。程序的代码如下：
+// 1. **递归法**
+// 第一种比较容易想到的解法应该就是这种递归法了(另外，这种方法也比较快速)，递归法解决add和mult嵌套的问题并不难，关键是let比较难以处理，我这里采用的是作用域拷贝，即内层的作用域拷贝外层的作用域，再修改得到新的作用域的方法。程序的代码如下：
 
-```javascript
+// ```javascript
 var evaluate = function(expression) {
 
     // 当前执行的位置 k, 作用域 field
@@ -95,20 +95,20 @@ var evaluate = function(expression) {
 
     return runtime(0);
 };
-```
+// ```
 
-2. **语法树** 另外一种比较中规中矩的方法就是先构造一棵语法树，然后先序遍历语法树进行求解，这种方法的速度是没有上面那个方法快的，但是效果非常好看，大家如果感兴趣的话，可以自己运行一下，将代码中的 root.display() 解注释，然后运行，就可以看到解析好的语法树。首先，要构造这样一个解析器，自然少不了《编译器原理》里的内容了，对应编译原理里的语法分析，构造语法分析树。然后，我们先把递推式列一下：
-* Exp -> (Dec|Add|Mult)
-* Add -> add Exp|name|number Exp|name|number
-* Mult -> mult Exp|name|number Exp|name|number
-* Dec -> let C Exp
-* C -> name Exp|name|number C | none
-* name -> valid name of variable
-* number -> valid number
+// 2. **语法树** 另外一种比较中规中矩的方法就是先构造一棵语法树，然后先序遍历语法树进行求解，这种方法的速度是没有上面那个方法快的，但是效果非常好看，大家如果感兴趣的话，可以自己运行一下，将代码中的 root.display() 解注释，然后运行，就可以看到解析好的语法树。首先，要构造这样一个解析器，自然少不了《编译器原理》里的内容了，对应编译原理里的语法分析，构造语法分析树。然后，我们先把递推式列一下：
+// * Exp -> (Dec|Add|Mult)
+// * Add -> add Exp|name|number Exp|name|number
+// * Mult -> mult Exp|name|number Exp|name|number
+// * Dec -> let C Exp
+// * C -> name Exp|name|number C | none
+// * name -> valid name of variable
+// * number -> valid number
 
-&emsp;&emsp;以上就是全部的递推式了，如果对递推式有疑问的话，可以自行翻看《编译器原理》。接下来，我们只要实现这个递推式，就可以构建语法树了。
+// &emsp;&emsp;以上就是全部的递推式了，如果对递推式有疑问的话，可以自行翻看《编译器原理》。接下来，我们只要实现这个递推式，就可以构建语法树了。
 
-```javascript
+// ```javascript
 var evaluate = function(expression) {
     // 语法树节点
     function SyntaxNode(type) {
@@ -236,10 +236,10 @@ var evaluate = function(expression) {
     // root.display();
     return root.process();
 };
-```
+// ```
 
-&emsp;&emsp;如果对于这样一个输入的串"(let x 2 (mult x (let x 3 y 4 (add x y))))"，构造完语法树之后就会变成如下的表示：
-```
+// &emsp;&emsp;如果对于这样一个输入的串"(let x 2 (mult x (let x 3 y 4 (add x y))))"，构造完语法树之后就会变成如下的表示：
+// ```
 Symbol(Exp)
   Symbol(Dec)
     Symbol(C)
@@ -269,10 +269,10 @@ Symbol(Exp)
                 x
                 Symbol(name)
                 y
-```
-&emsp;&emsp;当然，如果要照搬《编译器原理》的内容，应该先从词法分析开始，然后才能进行语法分析。这样虽然忽略了词法分析，但也可以通过这道题，练习和理解我们程序编译运行的基本原理。最后，再写一个加强版的Lisp语法解析器，加入了减法和除法，以及多个数的加法。
+// ```
+// &emsp;&emsp;当然，如果要照搬《编译器原理》的内容，应该先从词法分析开始，然后才能进行语法分析。这样虽然忽略了词法分析，但也可以通过这道题，练习和理解我们程序编译运行的基本原理。最后，再写一个加强版的Lisp语法解析器，加入了减法和除法，以及多个数的加法。
 
-```javascript
+// ```javascript
 var evaluate = function(expression) {
     const EXP = "Exp";
     const ADD = "Add";
@@ -428,10 +428,10 @@ var evaluate = function(expression) {
 
     return generateSyntaxTree(expression, 0)[0];
 };
-```
+// ```
 
-&emsp;&emsp;最后，我们用这个解析器运行一下这个超复杂的式子：
-```javascript
+// &emsp;&emsp;最后，我们用这个解析器运行一下这个超复杂的式子：
+// ```javascript
 let root = evaluate(`(let t 1 y (add t t) l (sub (add3 t t t t t) y)
     u (mult (mult y y) y) h (mult u (add3 t y y)) (sub (let p (sub (
         let m (mult y l) (sub (mult m (add (let q t q) y)) (add (mult m t) (div m l)))
@@ -439,5 +439,5 @@ let root = evaluate(`(let t 1 y (add t t) l (sub (add3 t t t t t) y)
         (mult x (add3 p (let t l (sub p t)) (div p u)))) h))`);
 // console.log(root.display());
 console.log(root.process());
-```
-&emsp;&emsp;最终的结果是520
+// ```
+// &emsp;&emsp;最终的结果是520

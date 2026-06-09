@@ -1,4 +1,4 @@
-```
+# ```
 import collections
 from numpy import *
 class UndergroundSystem(object):
@@ -38,5 +38,5 @@ class UndergroundSystem(object):
         """
         res=mean(self.res[(startStation, endStation)])
         return res
-```
-注意下车之后要把相应id清空！！！罚时真的一把辛酸泪
+# ```
+# 注意下车之后要把相应id清空！！！罚时真的一把辛酸泪

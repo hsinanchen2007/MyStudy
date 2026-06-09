@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :56 ms, 在所有 Python3 提交中击败了73.95%的用户
-内存消耗 :13.5 MB, 在所有 Python3 提交中击败了17.24%的用户
+# ### 解题思路
+# 执行用时 :56 ms, 在所有 Python3 提交中击败了73.95%的用户
+# 内存消耗 :13.5 MB, 在所有 Python3 提交中击败了17.24%的用户
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: 'List[List[int]]') -> 'int':
         x, y, res = len(grid), len(grid[0]), 0
@@ -26,4 +26,4 @@ class Solution:
                     return -1
         return res
 
-```
+# ```

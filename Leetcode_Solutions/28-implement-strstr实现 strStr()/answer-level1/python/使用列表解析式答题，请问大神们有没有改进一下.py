@@ -1,9 +1,9 @@
-### 解题思路
-这里使用列表解析式得到一个值的列表，然后再用切片得到这个值，但是有没有办法可以直接用解析式得到一个值呢？
+# ### 解题思路
+# 这里使用列表解析式得到一个值的列表，然后再用切片得到这个值，但是有没有办法可以直接用解析式得到一个值呢？
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def strStr(self, haystack: str, needle: str) -> int:
         ln = len(needle)
@@ -13,4 +13,4 @@ class Solution:
         else:
             return -1
 
-```
+# ```

@@ -1,5 +1,5 @@
-########
-```
+// ########
+// ```
 func lengthOfLongestSubstring(s string) int {
 	if len(s) < 2  {
 		return len(s)
@@ -35,4 +35,4 @@ func diffCharNum(s string) int  {
 	// fmt.Println(len(charMapCnt), "diffs in ", s)
 	return len(charMapCnt)
 }
-```
+// ```

@@ -1,21 +1,21 @@
-### 解题思路
+# ### 解题思路
 
-l 和 r 是当前目标串的最左下标和最右下标。 
+# l 和 r 是当前目标串的最左下标和最右下标。 
 
-r 不断向前进。
+# r 不断向前进。
 
-l 在保证当前字母没有必要保留时向前进（没有必要指：这个字母不在目标字符串里 或者 这个字母当前数量已经超过要求），这是一个**贪心策略**
+# l 在保证当前字母没有必要保留时向前进（没有必要指：这个字母不在目标字符串里 或者 这个字母当前数量已经超过要求），这是一个**贪心策略**
 
-cnt 统计了目标字母还需要多少。
+# cnt 统计了目标字母还需要多少。
 
-n 是 cnt 中的字母有几种的数量已经满足了。
+# n 是 cnt 中的字母有几种的数量已经满足了。
 
-ans 则是最终的答案
+# ans 则是最终的答案
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         import collections
@@ -36,7 +36,7 @@ class Solution:
                 if not ans or len(ans) > r - l + 1:
                     ans = s[l: r+1]
         return ans
-```
+# ```
 
-欢迎来我的博客： [https://codeplot.top/](https://codeplot.top/)
-我的博客刷题分类：[https://codeplot.top/categories/%E5%88%B7%E9%A2%98/](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)
+# 欢迎来我的博客： [https://codeplot.top/](https://codeplot.top/)
+# 我的博客刷题分类：[https://codeplot.top/categories/%E5%88%B7%E9%A2%98/](https://codeplot.top/categories/%E5%88%B7%E9%A2%98/)

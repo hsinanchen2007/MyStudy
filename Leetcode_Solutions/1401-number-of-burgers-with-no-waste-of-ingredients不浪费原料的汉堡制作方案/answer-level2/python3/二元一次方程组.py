@@ -1,9 +1,9 @@
-### 解题思路
-二元一次方程组求整数解
+# ### 解题思路
+# 二元一次方程组求整数解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numOfBurgers(self, tomatoSlices: int, cheeseSlices: int) -> List[int]:
         if tomatoSlices == 0 and cheeseSlices == 0:
@@ -22,4 +22,4 @@ class Solution:
             return []
 
 
-```
+# ```

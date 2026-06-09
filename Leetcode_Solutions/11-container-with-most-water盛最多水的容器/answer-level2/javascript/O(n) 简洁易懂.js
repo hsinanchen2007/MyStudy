@@ -1,4 +1,4 @@
-```
+// ```
 var maxArea = function(height) {
     let l = 0,
         r = height.length - 1,
@@ -14,4 +14,4 @@ var maxArea = function(height) {
     }
     return max
 };
-```
+// ```

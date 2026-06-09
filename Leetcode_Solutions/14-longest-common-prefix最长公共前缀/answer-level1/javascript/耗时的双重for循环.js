@@ -1,9 +1,9 @@
-### 解题思路
-双重for循环最好理解，但就是耗时间
+// ### 解题思路
+// 双重for循环最好理解，但就是耗时间
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string}
@@ -27,4 +27,4 @@ var longestCommonPrefix = function(strs) {
         }
     return first
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var findRestaurant = function (list1, list2) {
     let arr = [];
     let index, result = [];
@@ -22,4 +22,4 @@ var findRestaurant = function (list1, list2) {
     }
     return result
 };
-```
+// ```

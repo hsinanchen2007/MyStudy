@@ -1,7 +1,7 @@
-### 代码
-#### 1.遍历
+// ### 代码
+// #### 1.遍历
 
-```cpp
+// ```cpp
 // 遍历
     int findRepeatNumberV1(vector<int>& nums) {
         for(unsigned i = 0; i < nums.size()-1; i++){
@@ -13,11 +13,11 @@
         }
         return -1;
     }
-```
-提交超时了，没通过。
-#### 2.排序+遍历
+// ```
+// 提交超时了，没通过。
+// #### 2.排序+遍历
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -33,9 +33,9 @@ public:
         return -1;
         }
 };
-```
-#### 3.set
-```cpp
+// ```
+// #### 3.set
+// ```cpp
     int findRepeatNumberV3(vector<int>& nums) {
 
         set<int> s;
@@ -49,9 +49,9 @@ public:
         }
         return -1;
     }
-```
-#### 4.下标交换
-```cpp
+// ```
+// #### 4.下标交换
+// ```cpp
     int findRepeatNumber(vector<int>& nums) {
         for(unsigned i = 0; i <nums.size(); i++){
             while(nums[i] != i){
@@ -70,4 +70,4 @@ public:
         nums[index1] = nums[index2];
         nums[index2] = tmp;
     }
-```
+// ```

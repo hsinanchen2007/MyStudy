@@ -1,4 +1,4 @@
-```
+// ```
 func connect(root *Node) *Node {
 	if root == nil {
 		return root
@@ -24,4 +24,4 @@ func connect(root *Node) *Node {
 	}
 	return root
 }
-```
+// ```

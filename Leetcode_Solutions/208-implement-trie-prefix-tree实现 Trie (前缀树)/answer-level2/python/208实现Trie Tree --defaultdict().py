@@ -1,19 +1,19 @@
-### 解题思路
-#### 设置TrieNode类
-节点包含2属性：children：孩子节点和is_word:是否单词的判断
-children:使用默认词典，默认值为一个TrieNode类
-is_word:初始为False
-#### 类Trie的实现
-##### 1.insert
-从根节点开始，一条线路表示为一个单词（每个节点表示一个字母）,最后一个节点记录这是一个单词（is_word->True）
-##### 2.search
-从根节点开始，查询单词,若这条线路顺序查找不到要查找的字母，则返回false，否则返回节点的is_word属性
-##### 3.startsWith
-从根节点开始，查询单词,若这条线路顺序查找不到要查找的字母，则返回false，否则返回True
+# ### 解题思路
+# #### 设置TrieNode类
+# 节点包含2属性：children：孩子节点和is_word:是否单词的判断
+# children:使用默认词典，默认值为一个TrieNode类
+# is_word:初始为False
+# #### 类Trie的实现
+# ##### 1.insert
+# 从根节点开始，一条线路表示为一个单词（每个节点表示一个字母）,最后一个节点记录这是一个单词（is_word->True）
+# ##### 2.search
+# 从根节点开始，查询单词,若这条线路顺序查找不到要查找的字母，则返回false，否则返回节点的is_word属性
+# ##### 3.startsWith
+# 从根节点开始，查询单词,若这条线路顺序查找不到要查找的字母，则返回false，否则返回True
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import defaultdict
 #前缀树的节点包含2属性：children：孩子节点和is_word:是否单词的判断
 class TrieNode:
@@ -66,4 +66,4 @@ class Trie:
 # obj.insert(word)
 # param_2 = obj.search(word)
 # param_3 = obj.startsWith(prefix)
-```
+# ```

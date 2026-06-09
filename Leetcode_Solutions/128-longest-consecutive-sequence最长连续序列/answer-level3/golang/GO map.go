@@ -1,4 +1,4 @@
-```
+// ```
 func longestConsecutive(nums []int) int {
     var maps = make(map[int]bool)
     if len(nums)==0||len(nums)==1{
@@ -30,4 +30,4 @@ func longestConsecutive(nums []int) int {
     }
     return max
 }
-```
+// ```

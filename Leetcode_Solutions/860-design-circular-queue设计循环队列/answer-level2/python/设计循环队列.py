@@ -1,44 +1,44 @@
-#### 方法一：数组
+# #### 方法一：数组
 
-**思路**
+# **思路**
 
-根据问题描述，该问题使用的数据结构应该是首尾相连的 ***环***。
+# 根据问题描述，该问题使用的数据结构应该是首尾相连的 ***环***。
 
-任何数据结构中都不存在环形结构，但是可以使用一维 ***数组*** 模拟，通过操作数组的索引构建一个 ***虚拟*** 的环。很多复杂数据结构都可以通过数组实现。
+# 任何数据结构中都不存在环形结构，但是可以使用一维 ***数组*** 模拟，通过操作数组的索引构建一个 ***虚拟*** 的环。很多复杂数据结构都可以通过数组实现。
 
-对于一个固定大小的数组，任何位置都可以是队首，只要知道队列长度，就可以根据下面公式计算出队尾位置：
+# 对于一个固定大小的数组，任何位置都可以是队首，只要知道队列长度，就可以根据下面公式计算出队尾位置：
 
-$$
-\text{tailIndex} = (\text{headIndex} + \text{count} - 1) \mod \text{capacity}
-$$
+# $$
+# \text{tailIndex} = (\text{headIndex} + \text{count} - 1) \mod \text{capacity}
+# $$
 
-其中 `capacity` 是数组长度，`count` 是队列长度，`headIndex` 和 `tailIndex` 分别是队首 `head` 和队尾 `tail` 索引。下图展示了使用数组实现循环的队列的例子。
+# 其中 `capacity` 是数组长度，`count` 是队列长度，`headIndex` 和 `tailIndex` 分别是队首 `head` 和队尾 `tail` 索引。下图展示了使用数组实现循环的队列的例子。
 
-![](https://pic.leetcode-cn.com/Figures/622/622_queue_with_array.png){:width=480}
+# ![](https://pic.leetcode-cn.com/Figures/622/622_queue_with_array.png){:width=480}
 
-**算法**
+# **算法**
 
-设计数据结构的关键是如何设计 *属性*，好的设计属性数量更少。
+# 设计数据结构的关键是如何设计 *属性*，好的设计属性数量更少。
 
-- 属性数量少说明属性之间冗余更低。
+# - 属性数量少说明属性之间冗余更低。
 
-- 属性冗余度越低，操作逻辑越简单，发生错误的可能性更低。
+# - 属性冗余度越低，操作逻辑越简单，发生错误的可能性更低。
 
-- 属性数量少，使用的空间也少，操作性能更高。
+# - 属性数量少，使用的空间也少，操作性能更高。
 
-*但是，也不建议使用最少的属性数量。*一定的冗余可以降低操作的时间复杂度，达到时间复杂度和空间复杂度的相对平衡。
+# *但是，也不建议使用最少的属性数量。*一定的冗余可以降低操作的时间复杂度，达到时间复杂度和空间复杂度的相对平衡。
 
-根据以上原则，列举循环队列的每个属性，并解释其含义。
+# 根据以上原则，列举循环队列的每个属性，并解释其含义。
 
-- `queue`：一个固定大小的数组，用于保存循环队列的元素。
+# - `queue`：一个固定大小的数组，用于保存循环队列的元素。
 
-- `headIndex`：一个整数，保存队首 `head` 的索引。
+# - `headIndex`：一个整数，保存队首 `head` 的索引。
 
-- `count`：循环队列当前的长度，即循环队列中的元素数量。使用 `hadIndex` 和 `count` 可以计算出队尾元素的索引，因此不需要队尾属性。
+# - `count`：循环队列当前的长度，即循环队列中的元素数量。使用 `hadIndex` 和 `count` 可以计算出队尾元素的索引，因此不需要队尾属性。
 
-- `capacity`：循环队列的容量，即队列中最多可以容纳的元素数量。该属性不是必需的，因为队列容量可以通过数组属性得到，但是由于该属性经常使用，所以我们选择保留它。这样可以不用在 Python 中每次调用 `len(queue)` 中获取容量。但是在 Java 中通过 `queue.length` 获取容量更加高效。为了保持一致性，在两种方案中都保留该属性。
+# - `capacity`：循环队列的容量，即队列中最多可以容纳的元素数量。该属性不是必需的，因为队列容量可以通过数组属性得到，但是由于该属性经常使用，所以我们选择保留它。这样可以不用在 Python 中每次调用 `len(queue)` 中获取容量。但是在 Java 中通过 `queue.length` 获取容量更加高效。为了保持一致性，在两种方案中都保留该属性。
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 class MyCircularQueue:
 
     def __init__(self, k: int):
@@ -98,9 +98,9 @@ class MyCircularQueue:
         Checks whether the circular queue is full or not.
         """
         return self.count == self.capacity
-```
+# ```
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 class MyCircularQueue {
 
   private int[] queue;
@@ -159,31 +159,31 @@ class MyCircularQueue {
     return (this.count == this.capacity);
   }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-- 时间复杂度：$\mathcal{O}(1)$。该数据结构中，所有方法都具有恒定的时间复杂度。
+# - 时间复杂度：$\mathcal{O}(1)$。该数据结构中，所有方法都具有恒定的时间复杂度。
 
-- 空间复杂度：$\mathcal{O}(N)$，其中 $N$ 是队列的预分配容量。*循环队列的整个生命周期中，都持有该预分配的空间。*
+# - 空间复杂度：$\mathcal{O}(N)$，其中 $N$ 是队列的预分配容量。*循环队列的整个生命周期中，都持有该预分配的空间。*
 
-**改进：线程安全**
+# **改进：线程安全**
 
-上面实现满足所有的要求。
+# 上面实现满足所有的要求。
 
-> 但是可能存在一些风险。
+# > 但是可能存在一些风险。
 
-从并发性来看，该循环队列是线程不安全的。
+# 从并发性来看，该循环队列是线程不安全的。
 
-例如：下图的执行序列超出了队列的设计容量，会覆盖队尾元素。
+# 例如：下图的执行序列超出了队列的设计容量，会覆盖队尾元素。
 
-![](https://pic.leetcode-cn.com/Figures/622/622_concurrency.png){:width=480}
+# ![](https://pic.leetcode-cn.com/Figures/622/622_concurrency.png){:width=480}
 
-这种情况称为竞态条件。更多并发性的问题可以在力扣的[多线程](https://leetcode-cn.com/problemset/concurrency/)模块练习。
+# 这种情况称为竞态条件。更多并发性的问题可以在力扣的[多线程](https://leetcode-cn.com/problemset/concurrency/)模块练习。
 
-并发安全的解决方案很多。以方法 `enQueue(int value)` 为例，说明该方法的并发安全实现。
+# 并发安全的解决方案很多。以方法 `enQueue(int value)` 为例，说明该方法的并发安全实现。
 
-```python [snippet1-Python]
+# ```python [snippet1-Python]
 from threading import Lock
 
 class MyCircularQueue:
@@ -211,9 +211,9 @@ class MyCircularQueue:
             self.count += 1
         # automatically release the lock when leaving the block
         return True
-```
+# ```
 
-```java [snippet1-Java]
+# ```java [snippet1-Java]
 class MyCircularQueue {
 
   private Node head, tail;
@@ -250,40 +250,40 @@ class MyCircularQueue {
     return true;
   }
 }
-```
+# ```
 
-加锁后，就可以在并发下安全使用该循环队列。
+# 加锁后，就可以在并发下安全使用该循环队列。
 
-为了实现并发安全，引入了额外的计算成本，但是上述改进没有改变原始数据结构的时间和空间复杂度。
+# 为了实现并发安全，引入了额外的计算成本，但是上述改进没有改变原始数据结构的时间和空间复杂度。
 
 
-#### 方法二：单链表
+# #### 方法二：单链表
 
-**思路**
+# **思路**
 
-*单链表* 和数组都是很常用的数据结构。
+# *单链表* 和数组都是很常用的数据结构。
 
-> 与固定大小的数组相比，单链表不会为未使用的容量预分配内存，因此它的内存效率更高。
+# > 与固定大小的数组相比，单链表不会为未使用的容量预分配内存，因此它的内存效率更高。
 
-单链表与数组实现方法的时间和空间复杂度相同，但是单链表的效率更高，因为这种方法不会预分配内存。
+# 单链表与数组实现方法的时间和空间复杂度相同，但是单链表的效率更高，因为这种方法不会预分配内存。
 
-下图展示了单链表实现下的 `enQueue()` 和 `deQueue()` 操作。
+# 下图展示了单链表实现下的 `enQueue()` 和 `deQueue()` 操作。
 
-![](https://pic.leetcode-cn.com/Figures/622/622_queue_linked_list.png){:width=480}
+# ![](https://pic.leetcode-cn.com/Figures/622/622_queue_linked_list.png){:width=480}
 
-**算法**
+# **算法**
 
-列举循环队列中用到的所有属性，并解释其含义。
+# 列举循环队列中用到的所有属性，并解释其含义。
 
-- `capacity`：循环队列可容纳的最大元素数量。
+# - `capacity`：循环队列可容纳的最大元素数量。
 
-- `head`：队首元素索引。
+# - `head`：队首元素索引。
 
-- `count`：当前队列长度。该属性很重要，可以用来做边界检查。
+# - `count`：当前队列长度。该属性很重要，可以用来做边界检查。
 
-- `tail`：队尾元素索引。与数组实现方式相比，如果不保存队尾索引，则需要花费 $\mathcal{O}(N)$ 时间找到队尾元素。
+# - `tail`：队尾元素索引。与数组实现方式相比，如果不保存队尾索引，则需要花费 $\mathcal{O}(N)$ 时间找到队尾元素。
 
-```python [solution2-Python]
+# ```python [solution2-Python]
 class Node:
     def __init__(self, value, nextNode=None):
         self.value = value
@@ -357,9 +357,9 @@ class MyCircularQueue:
         Checks whether the circular queue is full or not.
         """
         return self.count == self.capacity
-```
+# ```
 
-```java [solution2-Java]
+# ```java [solution2-Java]
 class Node {
   public int value;
   public Node nextNode;
@@ -432,10 +432,10 @@ class MyCircularQueue {
     return (this.count == this.capacity);
   }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-- 时间复杂度：$\mathcal{O}(1)$，所有方法都具有恒定的时间复杂度。
+# - 时间复杂度：$\mathcal{O}(1)$，所有方法都具有恒定的时间复杂度。
 
-- 空间复杂度：$\mathcal{O}(N)$，与数组实现相同。但是单链表实现f方式的内存效率更高。
+# - 空间复杂度：$\mathcal{O}(N)$，与数组实现相同。但是单链表实现f方式的内存效率更高。

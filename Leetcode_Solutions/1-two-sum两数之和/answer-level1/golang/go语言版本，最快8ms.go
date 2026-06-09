@@ -1,4 +1,4 @@
-根据大神的思路，提供go语言版本，实测8ms，下面直接上代码
+// 根据大神的思路，提供go语言版本，实测8ms，下面直接上代码
 
 func twoSum(nums []int, target int) []int {
 

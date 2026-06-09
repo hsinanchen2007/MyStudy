@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     TreeNode* sortedArrayToBST(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
     	return root;
     }
 };
-```
+// ```

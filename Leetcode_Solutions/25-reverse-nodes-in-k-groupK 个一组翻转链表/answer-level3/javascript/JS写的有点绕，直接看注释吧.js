@@ -1,6 +1,6 @@
-JS写的有点绕，直接看注释吧
+// JS写的有点绕，直接看注释吧
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -45,4 +45,4 @@ var reverseKGroup = function(head, k) {
     };
     return fn(head);
 };
-```
+// ```

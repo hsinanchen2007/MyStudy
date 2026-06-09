@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/c5897649633817e2e9110edf741fa3b04b74234a462d68e795810883ac183b59-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c5897649633817e2e9110edf741fa3b04b74234a462d68e795810883ac183b59-image.png)
 
 
 
-```
+# ```
 '''
 字符串处理，注意统计间隔的空格个数即可
 '''
@@ -54,4 +54,4 @@ class Solution:
             i = j
 
         return ans
-```
+# ```

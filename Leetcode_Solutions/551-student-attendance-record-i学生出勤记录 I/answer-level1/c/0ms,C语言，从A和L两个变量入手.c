@@ -1,11 +1,11 @@
-### 解题思路
-判断返回值为True还是False，看A的个数和L连续出现最多的次数就可以确定。
-调用两个函数，numsOfA用来计算A的个数，LisTrue用来看最多连续出现的L是否不超过两个
-其实还有一种更简单的方法，就是看是否存在一个i，使得s[i]==s[i+1]&&s[i+1]==s[i+2]。
+// ### 解题思路
+// 判断返回值为True还是False，看A的个数和L连续出现最多的次数就可以确定。
+// 调用两个函数，numsOfA用来计算A的个数，LisTrue用来看最多连续出现的L是否不超过两个
+// 其实还有一种更简单的方法，就是看是否存在一个i，使得s[i]==s[i+1]&&s[i+1]==s[i+2]。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool checkRecord(char * s){
     if (numsOfA(s) <= 1 && LisTrue(s)==1)
 		return 1;
@@ -44,4 +44,4 @@ int LisTrue(char* s)
 	else
 		return 1;
 }
-```
+// ```

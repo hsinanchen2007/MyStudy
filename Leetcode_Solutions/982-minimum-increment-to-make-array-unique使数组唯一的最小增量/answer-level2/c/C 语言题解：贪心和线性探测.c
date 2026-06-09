@@ -1,6 +1,6 @@
-### 贪心算法
+// ### 贪心算法
 
-```C
+// ```C
 int comp(void *a, void *b) {
     int rt = *(int *)a - *(int *)b;
     if (rt > 0) {
@@ -23,4 +23,4 @@ int minIncrementForUnique(int* A, int ASize){
     }
     return res;
 }
-```
+// ```

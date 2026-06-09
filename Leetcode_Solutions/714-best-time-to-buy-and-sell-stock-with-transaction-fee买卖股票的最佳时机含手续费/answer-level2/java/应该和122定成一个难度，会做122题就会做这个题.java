@@ -1,11 +1,11 @@
-### 解题思路
-![QQ截图20200403154343.png](https://pic.leetcode-cn.com/37776e00eaf6c9156e70f06c85febfd68f1aa24ffe4d421342f4df8e4fe39e4c-QQ%E6%88%AA%E5%9B%BE20200403154343.png)
+// ### 解题思路
+// ![QQ截图20200403154343.png](https://pic.leetcode-cn.com/37776e00eaf6c9156e70f06c85febfd68f1aa24ffe4d421342f4df8e4fe39e4c-QQ%E6%88%AA%E5%9B%BE20200403154343.png)
 
-没啥好讲的，把liweiwei大佬的题解粘在这里，我做股票题就是看他的题解启的蒙：
-https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/tan-xin-suan-fa-by-liweiwei1419-2/
-### 代码
+// 没啥好讲的，把liweiwei大佬的题解粘在这里，我做股票题就是看他的题解启的蒙：
+// https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/solution/tan-xin-suan-fa-by-liweiwei1419-2/
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices, int fee) {
           int n=prices.length;
@@ -21,4 +21,4 @@ class Solution {
 
     }
 }
-```
+// ```

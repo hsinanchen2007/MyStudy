@@ -1,6 +1,6 @@
-先根据左边界还是右边界好改变决定选择左中位数还是右中位数
-while条件中不要有=
-```
+# 先根据左边界还是右边界好改变决定选择左中位数还是右中位数
+# while条件中不要有=
+# ```
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         len_nums = len(nums)
@@ -30,4 +30,4 @@ class Solution:
         else:
             return -1
 
-```
+# ```

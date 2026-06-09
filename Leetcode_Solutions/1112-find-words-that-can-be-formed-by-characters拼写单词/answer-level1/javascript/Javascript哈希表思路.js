@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-用一次循环建一个对象obj存储chars中的字母和每个字母对应的数量。遍历words中的每个单词进行比对。
+// 用一次循环建一个对象obj存储chars中的字母和每个字母对应的数量。遍历words中的每个单词进行比对。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -37,4 +37,4 @@ var countCharacters = function(words, chars) {
     }
     return result.length;
 };
-```
+// ```

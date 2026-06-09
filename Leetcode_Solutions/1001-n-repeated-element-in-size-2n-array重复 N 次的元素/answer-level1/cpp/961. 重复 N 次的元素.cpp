@@ -1,6 +1,6 @@
-![222.png](https://pic.leetcode-cn.com/e8a1d90318964dc7e0ef769afe8d3464c4a0c1ccd4d010a8263936a98c976478-222.png)
+// ![222.png](https://pic.leetcode-cn.com/e8a1d90318964dc7e0ef769afe8d3464c4a0c1ccd4d010a8263936a98c976478-222.png)
 
-```
+// ```
 class Solution {
 public:
     int repeatedNTimes(vector<int>& A) {
@@ -22,4 +22,4 @@ public:
         return tmp;
     }
 };
-```
+// ```

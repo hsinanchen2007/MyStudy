@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     /**
      * 非递归版本
@@ -41,8 +41,8 @@ class Solution {
         }
     }
 }
-```
-```
+// ```
+// ```
     /**
      * 递归版本
      */
@@ -52,5 +52,5 @@ class Solution {
         int rigthDepth = maxDepth_1(root.right);
         return Math.max(leftDepth, rigthDepth) + 1;
     }
-```
+// ```
 

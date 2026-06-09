@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int rangeSumBST(TreeNode* root, int L, int R) {
@@ -36,4 +36,4 @@ public:
         return total;
     }
 };
-```
+// ```

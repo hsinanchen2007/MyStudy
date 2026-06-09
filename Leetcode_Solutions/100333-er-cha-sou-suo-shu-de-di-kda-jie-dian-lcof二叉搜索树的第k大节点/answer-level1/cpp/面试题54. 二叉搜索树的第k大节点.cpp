@@ -1,6 +1,6 @@
 
-递归+后续遍历：
-```
+// 递归+后续遍历：
+// ```
 class Solution {
 public:
     int kthLargest(TreeNode* root, int k) {
@@ -16,9 +16,9 @@ public:
         dfs(root->left, res);
     }
 };
-```
-迭代法：
-```
+// ```
+// 迭代法：
+// ```
 class Solution {
 public:
     int kthLargest(TreeNode* root, int k) {
@@ -39,4 +39,4 @@ public:
         return NULL;
     }
 };
-```
+// ```

@@ -1,14 +1,14 @@
-#### 方法一：深度优先搜索【通过】
+# #### 方法一：深度优先搜索【通过】
 
-**思路**
+# **思路**
 
-如果两个句子对应的每个单词都相等，或者对应的每个单词之间都存在一条可达路径，那么这两个句子就是相等的。通过深度优先搜索可以确定一个单词到另一个单词之间是否存在可达路径。
+# 如果两个句子对应的每个单词都相等，或者对应的每个单词之间都存在一条可达路径，那么这两个句子就是相等的。通过深度优先搜索可以确定一个单词到另一个单词之间是否存在可达路径。
 
-**算法**
+# **算法**
 
-首先根据 `pairs` 来构建 `图`，再通过深度优先搜索来确定 `w1 = words1[i]` 和 `w2 = words2[i]` 之间是否存在可达路径。
+# 首先根据 `pairs` 来构建 `图`，再通过深度优先搜索来确定 `w1 = words1[i]` 和 `w2 = words2[i]` 之间是否存在可达路径。
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 class Solution(object):
     def areSentencesSimilarTwo(self, words1, words2, pairs):
         if len(words1) != len(words2): return False
@@ -29,9 +29,9 @@ class Solution(object):
             else:
                 return False
         return True
-```
+# ```
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 class Solution {
     public boolean areSentencesSimilarTwo(
             String[] words1, String[] words2, String[][] pairs) {
@@ -70,27 +70,27 @@ class Solution {
         return true;
     }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(NP)$，其中 $N$ 为 `words1` 和 `word2` 长度中的最大值，$P$ 为 `pairs` 的大小。每次搜索都可能要搜索完整个图。 
+# * 时间复杂度：$O(NP)$，其中 $N$ 为 `words1` 和 `word2` 长度中的最大值，$P$ 为 `pairs` 的大小。每次搜索都可能要搜索完整个图。 
 
-* 空间复杂度：$O(P)$，其为 `pairs` 的大小。
+# * 空间复杂度：$O(P)$，其为 `pairs` 的大小。
 
-#### 方法二：并查集 【通过】
+# #### 方法二：并查集 【通过】
 
-**思路**
+# **思路**
 
-与 *方法一* 相同，需要判断两个单词之间是否存在可达路径。因此可以将问题转化成找图中的连通分量，用 *并查集* 来做是最适合的。
+# 与 *方法一* 相同，需要判断两个单词之间是否存在可达路径。因此可以将问题转化成找图中的连通分量，用 *并查集* 来做是最适合的。
 
-**算法**  
+# **算法**  
 
-如果两个单词相似，就将这两个单词之间连上边。根据并查集的模板，将每个 `单词` 映射成一个整数 `ix = index[word]`，之后就可以用 `dsu.find(ix)` 方法找到单词所在的连通分量。
+# 如果两个单词相似，就将这两个单词之间连上边。根据并查集的模板，将每个 `单词` 映射成一个整数 `ix = index[word]`，之后就可以用 `dsu.find(ix)` 方法找到单词所在的连通分量。
 
-在将 `pairs` 中的单词插入并查集之后，依次取出两个句子的单词 `w1, w2 = words1[i], words2[i]`。检查是否满足 `w1 == w2` 或者 `w1, w2` 在一个连通分量里。
+# 在将 `pairs` 中的单词插入并查集之后，依次取出两个句子的单词 `w1, w2 = words1[i], words2[i]`。检查是否满足 `w1 == w2` 或者 `w1, w2` 在一个连通分量里。
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 class DSU:
     def __init__(self, N):
         self.par = range(N)
@@ -118,9 +118,9 @@ class Solution(object):
                    w1 in index and w2 in index and
                    dsu.find(index[w1]) == dsu.find(index[w2])
                    for w1, w2 in zip(words1, words2))
-```
+# ```
 
-```java [solution2-Java]
+# ```java [solution2-Java]
 class Solution {
     public boolean areSentencesSimilarTwo(String[] words1, String[] words2, String[][] pairs) {
         if (words1.length != words2.length) return false;
@@ -160,10 +160,10 @@ class DSU {
         parent[find(x)] = find(y);
     }
 }
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N \log P + P)$，其中 $N$ 为 `words1` 和 `words2` 长度中的最大值，$P$ 为 `pairs` 的大小。如果并查集根据 `rank` 来做级联，复杂度可以提升到 $O(N * \alpha(P) + P) \approx O(N + P)$，其中 $\alpha$ 表示 *阿克曼函数的反函数*。
+# * 时间复杂度：$O(N \log P + P)$，其中 $N$ 为 `words1` 和 `words2` 长度中的最大值，$P$ 为 `pairs` 的大小。如果并查集根据 `rank` 来做级联，复杂度可以提升到 $O(N * \alpha(P) + P) \approx O(N + P)$，其中 $\alpha$ 表示 *阿克曼函数的反函数*。
 
-* 空间复杂度：$O(P)$，其为 `pairs` 的大小。
+# * 空间复杂度：$O(P)$，其为 `pairs` 的大小。

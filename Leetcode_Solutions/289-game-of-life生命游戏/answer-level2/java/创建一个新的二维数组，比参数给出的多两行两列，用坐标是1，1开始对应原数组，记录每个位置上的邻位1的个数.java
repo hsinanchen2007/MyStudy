@@ -1,8 +1,8 @@
-### 解题思路
-用比参数数组多两行两列的数组来记录每个位置的周围活细胞数，最后遍历计数数组的（1，1）~（board.length,board[i].length）根据规则改变原数组的细胞状态
-### 代码
+// ### 解题思路
+// 用比参数数组多两行两列的数组来记录每个位置的周围活细胞数，最后遍历计数数组的（1，1）~（board.length,board[i].length）根据规则改变原数组的细胞状态
+// ### 代码
 
-```java
+// ```java
 class Solution {
         public void gameOfLife(int[][] board) {
         int[][] board_copy = new int[board.length+2][board[0].length+2]; //创建一个比原数组多两行两列的计数数组，用中间的board.length*board[i].length记录原数组周围活细胞数
@@ -50,4 +50,4 @@ class Solution {
         board[i][j-1]+=1;
     }
 }
-```
+// ```

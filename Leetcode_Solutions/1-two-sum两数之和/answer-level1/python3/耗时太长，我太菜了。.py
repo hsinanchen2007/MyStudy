@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -25,4 +25,4 @@ class Solution(object):
             except IndexError:
                 continue
             return [index_1, index_2]
-```
+# ```

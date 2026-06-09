@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/5dd9e46967a5920e50b31d7f02e44270ac480cf78f7d1963e534e29ca20ac08c-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/5dd9e46967a5920e50b31d7f02e44270ac480cf78f7d1963e534e29ca20ac08c-image.png)
 
-利用qsort()库函数
-### 代码
+// 利用qsort()库函数
+// ### 代码
 
-```c
+// ```c
 #define DEBUG 0
 
 int compare(void *x, void *y){
@@ -35,4 +35,4 @@ int kthSmallest(int** matrix, int matrixSize, int* matrixColSize, int k){
     free(mat);
     return ret;
 }
-```
+// ```

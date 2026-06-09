@@ -1,5 +1,5 @@
 
-```python [
+# ```python [
     def reverse(self, x: int) -> int:
         strx = str(x)
         n = len(strx)
@@ -15,4 +15,4 @@
 
 ]
 
-```
+# ```

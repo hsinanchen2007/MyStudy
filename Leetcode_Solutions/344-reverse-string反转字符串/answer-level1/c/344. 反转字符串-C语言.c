@@ -1,17 +1,17 @@
-### 解题思路
-本质就是前后值进行交换。
-方法一：传统的数组操作法；
-方法二：双指针操作法。
-方法三：异或交换值法。
+// ### 解题思路
+// 本质就是前后值进行交换。
+// 方法一：传统的数组操作法；
+// 方法二：双指针操作法。
+// 方法三：异或交换值法。
 
 
-结果：
-![image.png](https://pic.leetcode-cn.com/9a030274e2e7702fc3a0c1c8079eb9333e18af29cd8d0df1bac928b5363f3167-image.png)
+// 结果：
+// ![image.png](https://pic.leetcode-cn.com/9a030274e2e7702fc3a0c1c8079eb9333e18af29cd8d0df1bac928b5363f3167-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //方法一：传统的数组操作法
 void reverseString(char* s, int sSize){
     char cTemp = 0;
@@ -56,4 +56,4 @@ void reverseString(char* s, int sSize){
     }
 
 }
-```
+// ```

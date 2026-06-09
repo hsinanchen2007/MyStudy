@@ -1,10 +1,10 @@
-### 解题思路
-可以一行，但没必要。
+# ### 解题思路
+# 可以一行，但没必要。
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from itertools import combinations
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
@@ -17,4 +17,4 @@ class Solution:
 
 
 
-```
+# ```

@@ -1,6 +1,6 @@
-- 用数组记录nums中元素的索引，判断是否已添加当前索引下的元素
+// - 用数组记录nums中元素的索引，判断是否已添加当前索引下的元素
 
-```
+// ```
 class Solution {
     public List<List<Integer>> permuteUnique(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
@@ -26,4 +26,4 @@ class Solution {
         }
     }
 }
-```
+// ```

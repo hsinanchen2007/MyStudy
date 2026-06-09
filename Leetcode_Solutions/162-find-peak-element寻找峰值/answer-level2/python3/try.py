@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
         if len(nums) ==1:
@@ -22,4 +22,4 @@ class Solution:
             return right
         elif nums[right] > nums[right-1] and nums[right] >nums[right+1]:
             return right
-```
+# ```

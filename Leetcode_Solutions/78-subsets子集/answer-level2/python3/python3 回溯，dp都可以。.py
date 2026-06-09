@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-典型的回溯，当然这道题目注意dp也是可以的，注释的部分就是dp部分题目。
-36ms  dp
-52ms  回溯方法
+# ### 解题思路
+# 此处撰写解题思路
+# 典型的回溯，当然这道题目注意dp也是可以的，注释的部分就是dp部分题目。
+# 36ms  dp
+# 52ms  回溯方法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subsets(self, nums: List[int]) -> List[List[int]]:
         # ans = [[]]
@@ -34,4 +34,4 @@ class Solution:
             helper(nums,0,i,res)
         return ans
 
-```
+# ```

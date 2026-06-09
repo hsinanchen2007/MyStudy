@@ -1,9 +1,9 @@
-### 解题思路
-分到完为止
+# ### 解题思路
+# 分到完为止
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         res = [0 for _  in range(num_people)]
@@ -16,4 +16,4 @@ class Solution:
                 res[(temp-1)%num_people] += candies
                 break
         return res
-```
+# ```

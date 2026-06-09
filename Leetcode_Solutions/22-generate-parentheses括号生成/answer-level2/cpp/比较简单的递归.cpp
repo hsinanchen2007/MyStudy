@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -14,4 +14,4 @@ public:
         if(x < y)   helper(x,y - 1,str + ")",res);  //将右括号加到字符串中，但左括号在右括号左边
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-**解法一**
+// **解法一**
 
-二维动态规划，关键在于定义出详细的每个状态，然后转换就很容易了，参考了[liweiwei大佬的题解](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/solution/dong-tai-gui-hua-by-liweiwei1419-7/)
+// 二维动态规划，关键在于定义出详细的每个状态，然后转换就很容易了，参考了[liweiwei大佬的题解](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/solution/dong-tai-gui-hua-by-liweiwei1419-7/)
 
-```java
+// ```java
 public int maxProfit(int[] prices){
     if (prices==null || prices.length<=0) {
         return 0;
@@ -32,14 +32,14 @@ public int maxProfit(int[] prices){
     }
     return Math.max(Math.max(dp[n-1][0],dp[n-1][2]),dp[n-1][4]);
 }
-```
-> 因为题目的数据不是特别大，没有超过`10^9` 可以直接初始化为 `-0x3f3f3f3f` 这样就不用判断前面的状态是否可达了，见下方一维解法
+// ```
+// > 因为题目的数据不是特别大，没有超过`10^9` 可以直接初始化为 `-0x3f3f3f3f` 这样就不用判断前面的状态是否可达了，见下方一维解法
 
-**解法二**
+// **解法二**
 
-优化成一维的
+// 优化成一维的
 
-```java
+// ```java
 public int maxProfit(int[] prices){
     if (prices==null || prices.length<=0) {
         return 0;
@@ -59,11 +59,11 @@ public int maxProfit(int[] prices){
     }
     return Math.max(Math.max(dp[0],dp[2]),dp[4]);
 }
-```
-**通解**
-其实上面的代码规律已经非常明显了，假设可以`k`次交易，那么就有`2*k+1`种状态，观察上面的代码，都是在`j`为奇数的时候买入，偶数的时候卖出，所以我们只需要判断`j`的奇偶就可以把状态的转换改成循环，循环中统计偶数时候的最大收益，进而就得到了一个通解
-> 其实这个奇数偶数的判断可以通过多加一维的状态0，1来代表卖出与否来简化，我这里就不写了
-```
+// ```
+// **通解**
+// 其实上面的代码规律已经非常明显了，假设可以`k`次交易，那么就有`2*k+1`种状态，观察上面的代码，都是在`j`为奇数的时候买入，偶数的时候卖出，所以我们只需要判断`j`的奇偶就可以把状态的转换改成循环，循环中统计偶数时候的最大收益，进而就得到了一个通解
+// > 其实这个奇数偶数的判断可以通过多加一维的状态0，1来代表卖出与否来简化，我这里就不写了
+// ```
     public int maxProfit(int k, int[] prices) {
         if (prices==null || prices.length<=0 || k<=0) {
             return 0;
@@ -104,4 +104,4 @@ public int maxProfit(int[] prices){
         }
         return ans;
     }
-```
+// ```

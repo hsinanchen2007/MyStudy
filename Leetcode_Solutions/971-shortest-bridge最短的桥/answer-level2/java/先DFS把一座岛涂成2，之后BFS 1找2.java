@@ -1,4 +1,4 @@
-```
+// ```
 public class ShortestBridge {
     private static final int[][] DIRECTIONS = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
@@ -73,4 +73,4 @@ public class ShortestBridge {
         }
     }
 }
-```
+// ```

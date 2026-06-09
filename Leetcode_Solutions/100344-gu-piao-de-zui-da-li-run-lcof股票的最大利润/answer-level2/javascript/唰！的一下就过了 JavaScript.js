@@ -1,11 +1,11 @@
-### 解题思路
-这道题并不难，我也不懂为什么难度级别是中等。。。
+// ### 解题思路
+// 这道题并不难，我也不懂为什么难度级别是中等。。。
 
-直接看代码吧~一看就会
+// 直接看代码吧~一看就会
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -22,4 +22,4 @@ var maxProfit = function(prices) {
     }
     return profits;
 };
-```
+// ```

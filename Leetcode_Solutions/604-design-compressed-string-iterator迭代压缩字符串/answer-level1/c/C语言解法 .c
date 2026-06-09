@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     char* compressedString;
     int* pos;
@@ -80,4 +80,4 @@ void stringIteratorFree(StringIterator* obj) {
  
  * stringIteratorFree(obj);
 */
-```
+// ```

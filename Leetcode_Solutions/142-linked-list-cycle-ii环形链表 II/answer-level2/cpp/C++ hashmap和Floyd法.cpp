@@ -1,16 +1,16 @@
-### 解题思路
-#### hashmap法
-思路简单，时间复杂度O(n),空间复杂度O(n)
+// ### 解题思路
+// #### hashmap法
+// 思路简单，时间复杂度O(n),空间复杂度O(n)
 
-#### Floyd法
-知道结论进行编程容易，但是自己推导出Floyd公式比较难，理解该方法，进行编程即可
-时间复杂度O(n),空间复杂度O(1)
+// #### Floyd法
+// 知道结论进行编程容易，但是自己推导出Floyd公式比较难，理解该方法，进行编程即可
+// 时间复杂度O(n),空间复杂度O(1)
 
-### 代码
+// ### 代码
 
-#### hashmap法
+// #### hashmap法
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	ListNode* detectCycle(ListNode* head) {
@@ -26,12 +26,12 @@ public:
 		return nullptr;
 	}
 };
-```
+// ```
 
 
 
-#### Floyd法
-```cpp
+// #### Floyd法
+// ```cpp
 class Solution {
 public:
 	ListNode* detectCycle(ListNode* head) {
@@ -59,4 +59,4 @@ public:
 		return nullptr;
 	}
 };
-```
+// ```

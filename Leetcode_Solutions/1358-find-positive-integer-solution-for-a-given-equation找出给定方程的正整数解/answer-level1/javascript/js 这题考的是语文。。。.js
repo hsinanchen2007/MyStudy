@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/287fb27250ef904fa34e73f8957633223c3132e7718ba4d278e9baee3f623c45-image.png)
+// ![image.png](https://pic.leetcode-cn.com/287fb27250ef904fa34e73f8957633223c3132e7718ba4d278e9baee3f623c45-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 鬼题目
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * // This is the CustomFunction's API interface.
  * // You should not implement it, or speculate about its implementation
@@ -40,4 +40,4 @@ var findSolution = function(customfunction, z) {
   
   return ans;
 };
-```
+// ```

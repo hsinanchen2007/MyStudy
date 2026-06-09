@@ -1,9 +1,9 @@
-### 解题思路
-用Python对BFS方法的实现
+# ### 解题思路
+# 用Python对BFS方法的实现
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
 	def shortestPathLength(self, graph: List[List[int]]) -> int:
 		final_target = (1<<len(graph))-1
@@ -28,4 +28,4 @@ class Solution:
 			steps += 1
 		return -1
 
-```
+# ```

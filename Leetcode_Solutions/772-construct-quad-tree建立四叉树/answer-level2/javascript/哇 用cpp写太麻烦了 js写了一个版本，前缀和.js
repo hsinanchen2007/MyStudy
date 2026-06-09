@@ -1,16 +1,16 @@
-### 解题思路
-这道题用cpp写真是爆炸。。用js写了个版本，先求前缀和，快速判断是否为叶子结点
+// ### 解题思路
+// 这道题用cpp写真是爆炸。。用js写了个版本，先求前缀和，快速判断是否为叶子结点
 
-![image.png](https://pic.leetcode-cn.com/ab85d2534af65ea03dc2979b59f0eaf996e4c01ce8dd40b58038e9473c1a8618-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ab85d2534af65ea03dc2979b59f0eaf996e4c01ce8dd40b58038e9473c1a8618-image.png)
 
-[我的题解](https://www.github.com/wfnuser/leetcode)
-[我的github](https://www.github.com/wfnuser)
-最近沉迷刷题，真诚欢迎大家star和follow 最近也在学习和实现lua，欢迎交流
+// [我的题解](https://www.github.com/wfnuser/leetcode)
+// [我的github](https://www.github.com/wfnuser)
+// 最近沉迷刷题，真诚欢迎大家star和follow 最近也在学习和实现lua，欢迎交流
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * // Definition for a QuadTree node.
  * function Node(val,isLeaf,topLeft,topRight,bottomLeft,bottomRight) {
@@ -84,4 +84,4 @@ var construct = function(grid) {
   return helper(0, 0, grid.length - 1, grid.length - 1);
 };
 
-```
+// ```

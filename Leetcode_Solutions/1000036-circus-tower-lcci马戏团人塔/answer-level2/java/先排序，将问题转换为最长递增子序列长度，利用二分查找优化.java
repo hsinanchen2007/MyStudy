@@ -1,12 +1,12 @@
-### 解题思路
-1.将height进行插入排序，height[i]==height[j],按weight排序
-（【更新】题目要求中“上面的人要比下面的人矮一点且轻一点”，所以身高相同时，不能同时参与叠罗汉。height[i]==height[j],按weight降序排序，比如[1,1],[1,2]排序后变成了[1,1][2,1],那么[2,1]的最长递增子序列长度为1）。
-2.找出排序之后的weight的最长递增子序列长度。
-ends[i]=w,表示所有长度为i+1的递增子序列中，最小的结尾数是w。利用二分法找到在ends中最左边大于或等于weight[j]的数
+// ### 解题思路
+// 1.将height进行插入排序，height[i]==height[j],按weight排序
+// （【更新】题目要求中“上面的人要比下面的人矮一点且轻一点”，所以身高相同时，不能同时参与叠罗汉。height[i]==height[j],按weight降序排序，比如[1,1],[1,2]排序后变成了[1,1][2,1],那么[2,1]的最长递增子序列长度为1）。
+// 2.找出排序之后的weight的最长递增子序列长度。
+// ends[i]=w,表示所有长度为i+1的递增子序列中，最小的结尾数是w。利用二分法找到在ends中最左边大于或等于weight[j]的数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int bestSeqAtIndex(int[] height, int[] weight) {
         if (height == null || height.length == 0 || weight == null || weight.length == 0 || height.length != weight.length) {
@@ -56,4 +56,4 @@ class Solution {
         }
     }
 }
-```
+// ```

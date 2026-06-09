@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/2757911c1a1bc52f7086335e34f2610fe725fc7eafe66dbdad58977de13b2cdb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2757911c1a1bc52f7086335e34f2610fe725fc7eafe66dbdad58977de13b2cdb-image.png)
 
-```
+// ```
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
@@ -14,4 +14,4 @@ public:
         return false;
     }
 };
-```
+// ```

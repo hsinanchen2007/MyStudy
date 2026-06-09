@@ -1,7 +1,7 @@
-执行用时 :0 ms, 在所有 golang 提交中击败了100.00%的用户
-内存消耗 :2.7 MB, 在所有 golang 提交中击败了98.88%的用户
+// 执行用时 :0 ms, 在所有 golang 提交中击败了100.00%的用户
+// 内存消耗 :2.7 MB, 在所有 golang 提交中击败了98.88%的用户
 
-```
+// ```
 func isValidSudoku(board [][]byte) bool {
 	var target byte
 	for i := 0; i < 9; i++ {
@@ -32,4 +32,4 @@ func isValidSudoku(board [][]byte) bool {
 	}
 	return true
 }
-```
+// ```

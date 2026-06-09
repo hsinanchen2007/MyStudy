@@ -1,16 +1,16 @@
-思路一：贪心
+# 思路一：贪心
 
-看最高位是否异或为 `1`, 
+# 看最高位是否异或为 `1`, 
 
-比如示例中：`[3, 10, 5, 25, 2, 8] -> [00011,01010, 00101, 11001, 00010, 01000]`
+# 比如示例中：`[3, 10, 5, 25, 2, 8] -> [00011,01010, 00101, 11001, 00010, 01000]`
 
-从左到右最高位参看，我们发现最高位`0, 0, 0, 1, 0, 0`，说明最大数至少为`10000`
+# 从左到右最高位参看，我们发现最高位`0, 0, 0, 1, 0, 0`，说明最大数至少为`10000`
 
-还有一个公式 ，如果`a ^ b = c`，那么`c ^ a = b`
+# 还有一个公式 ，如果`a ^ b = c`，那么`c ^ a = b`
 
-直接看代码，理解一下吧！
+# 直接看代码，理解一下吧！
 
-```python
+# ```python
 class Solution:
     def findMaximumXOR(self, nums: List[int]) -> int:
         res = 0
@@ -28,11 +28,11 @@ class Solution:
                     res = tmp
                     break
         return res
-```
+# ```
 
-思路二：前缀树
+# 思路二：前缀树
 
-```python
+# ```python
 class Solution:
     def findMaximumXOR(self, nums: List[int]) -> int:
         if not nums: return 0
@@ -59,7 +59,7 @@ class Solution:
                     cur = cur[cur_bit]
             res = max(res, cur_max)
         return res
-```
+# ```
 
 
 

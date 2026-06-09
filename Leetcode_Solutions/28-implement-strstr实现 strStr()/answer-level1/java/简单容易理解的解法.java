@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int strStr(String haystack, String needle) {
         if(!haystack.contains(needle)){
@@ -17,5 +17,5 @@ class Solution {
         return -1;
     }
 }
-```
-如果haystack字符串里面没有needle，则直接返回-1.然后遍历字符串，判断小字符串里是否包含指定字符串，如果包含，则直接返回i值，非常简单的解法，很容易理解。
+// ```
+// 如果haystack字符串里面没有needle，则直接返回-1.然后遍历字符串，判断小字符串里是否包含指定字符串，如果包含，则直接返回i值，非常简单的解法，很容易理解。

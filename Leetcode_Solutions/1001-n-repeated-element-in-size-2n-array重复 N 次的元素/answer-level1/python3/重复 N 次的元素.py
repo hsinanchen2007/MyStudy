@@ -1,9 +1,9 @@
-### 解题思路
-使用字典,很简陋的实现.
+# ### 解题思路
+# 使用字典,很简陋的实现.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def repeatedNTimes(self, A: List[int]) -> int:
         dicts = {}
@@ -16,4 +16,4 @@ class Solution:
         for key in dicts:
             if dicts[key] == half_len:
                 return key
-```
+# ```

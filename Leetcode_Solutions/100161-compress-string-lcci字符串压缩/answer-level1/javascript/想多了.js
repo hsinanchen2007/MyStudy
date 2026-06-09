@@ -1,9 +1,9 @@
-### 解题思路
-。。忘了字符串也有按位索引，然后用的数组
+// ### 解题思路
+// 。。忘了字符串也有按位索引，然后用的数组
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -29,4 +29,4 @@ var compressString = function(S) {
         return S
     }
 };
-```
+// ```

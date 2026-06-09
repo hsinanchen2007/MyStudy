@@ -1,9 +1,9 @@
-### 解题思路
-遇到障碍, dp[i][j] = 0
+# ### 解题思路
+# 遇到障碍, dp[i][j] = 0
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         # dfs
@@ -29,4 +29,4 @@ class Solution:
             for j in range(1, n):
                 dp[i][j] = dp[i-1][j] + dp[i][j-1] if obstacleGrid[i][j] != 1 else 0
         return dp[-1][-1]
-```
+# ```

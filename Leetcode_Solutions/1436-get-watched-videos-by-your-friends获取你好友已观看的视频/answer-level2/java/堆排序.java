@@ -1,10 +1,10 @@
-### 解题思路
-感觉没啥特别的，就是一层一层找朋友，出现过的朋友用set标记一下。
-然后用哈希表计数，最后用堆排序，将结果输出就行。
+// ### 解题思路
+// 感觉没啥特别的，就是一层一层找朋友，出现过的朋友用set标记一下。
+// 然后用哈希表计数，最后用堆排序，将结果输出就行。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> watchedVideosByFriends(List<List<String>> watchedVideos, int[][] friends, int id, int level) {
         Queue<Integer> myfriends = new LinkedList<>();
@@ -49,4 +49,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

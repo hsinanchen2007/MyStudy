@@ -1,15 +1,15 @@
-### 解题思路
-同主站习题 [86. 分隔链表](https://leetcode-cn.com/problems/partition-list/)
+# ### 解题思路
+# 同主站习题 [86. 分隔链表](https://leetcode-cn.com/problems/partition-list/)
 
-快排中 partition 的链表实现，题目要求稍微改了一点点：输入 pivot, 不要求 pivot 位于最中间。
-这个题目读的非常拗口，读了半天没读懂。
-也不说明，partition 后的结果不唯一。
+# 快排中 partition 的链表实现，题目要求稍微改了一点点：输入 pivot, 不要求 pivot 位于最中间。
+# 这个题目读的非常拗口，读了半天没读懂。
+# 也不说明，partition 后的结果不唯一。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
                 i = i.next
             j = j.next
         return head
-```
+# ```

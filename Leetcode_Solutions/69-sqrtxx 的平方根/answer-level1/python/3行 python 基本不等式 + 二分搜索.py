@@ -1,14 +1,14 @@
-```python
+# ```python
 class Solution:
     def mySqrt(self, x: int) -> int:
         r = x
         while r*r > x: r = (r + x/r) // 2
         return int(r)
-```
-- 基本不等式(a+b)/2 >=√ab 推导自 (a-b)^2 >= 0，注意 a>0 且 b>0
-- r 代表 result
+# ```
+# - 基本不等式(a+b)/2 >=√ab 推导自 (a-b)^2 >= 0，注意 a>0 且 b>0
+# - r 代表 result
 
-```python
+# ```python
 class Solution:
     def mySqrt(self, x: int) -> int:
         l, h = 0, x
@@ -21,5 +21,5 @@ class Solution:
             else:
                 h = m - 1
         return l
-```
-- 二分搜索
+# ```
+# - 二分搜索

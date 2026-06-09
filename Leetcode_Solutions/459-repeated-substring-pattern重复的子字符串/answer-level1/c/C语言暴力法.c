@@ -1,9 +1,9 @@
-### 解题思路
-暴力解决，字串长度从1到strlen(s),判断相同则返回true，否则false。
+// ### 解题思路
+// 暴力解决，字串长度从1到strlen(s),判断相同则返回true，否则false。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool repeatedSubstringPattern(char * s){
 
     int i, j;
@@ -26,4 +26,4 @@ bool repeatedSubstringPattern(char * s){
     }
     return false;
 }
-```
+// ```

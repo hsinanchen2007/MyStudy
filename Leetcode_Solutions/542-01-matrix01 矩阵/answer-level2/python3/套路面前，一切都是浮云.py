@@ -1,8 +1,8 @@
-这道题和之前的求岛屿个数的题目如出一辙，只要在处理业务代码地方改下就OK。
-还是那个链接[python3最基础的BFS套路代码，适合入门新手！](https://leetcode-cn.com/problems/perfect-squares/solution/python3zui-ji-chu-de-bfstao-lu-dai-ma-gua-he-ru-me/),有了这把菜刀，这题就是砧板上的菜，切就完事！
+# 这道题和之前的求岛屿个数的题目如出一辙，只要在处理业务代码地方改下就OK。
+# 还是那个链接[python3最基础的BFS套路代码，适合入门新手！](https://leetcode-cn.com/problems/perfect-squares/solution/python3zui-ji-chu-de-bfstao-lu-dai-ma-gua-he-ru-me/),有了这把菜刀，这题就是砧板上的菜，切就完事！
 
-附上代码如下：
-```
+# 附上代码如下：
+# ```
 class Solution:
     
     def updateMatrix(self, matrix: List[List[int]]) -> List[List[int]]:
@@ -38,5 +38,5 @@ class Solution:
                     matrix[i][j] = BFS(matrix,i,j)
                     
         return matrix
-```
-我的提交执行用时已经战胜 77.12 % 的 python3 提交记录。
+# ```
+# 我的提交执行用时已经战胜 77.12 % 的 python3 提交记录。

@@ -1,9 +1,9 @@
-### 解题思路
-dfs
+// ### 解题思路
+// dfs
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var s string
 
 func permutation(S string) []string {
@@ -38,4 +38,4 @@ func dfs(temp string, now int, flag map[int]bool) []string {
 	return res
 }
 
-```
+// ```

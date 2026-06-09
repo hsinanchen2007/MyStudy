@@ -1,12 +1,12 @@
-### 解题思路
-- 按行来看，每行一共可能有 $2^8$ 种状态；这个行状态与上一行状态是因果(causal)的关系，可以递推；
-- 状态：`d[irow][state]` 到`irow`为止，`state`状态最多可以坐几个人；
-- 转移方程 `d[irow][state] = max_{prev_state}(d[irow][state], d[irow-1][prev_state]`
-- 注意判断合法状态，以及合法转移；
+# ### 解题思路
+# - 按行来看，每行一共可能有 $2^8$ 种状态；这个行状态与上一行状态是因果(causal)的关系，可以递推；
+# - 状态：`d[irow][state]` 到`irow`为止，`state`状态最多可以坐几个人；
+# - 转移方程 `d[irow][state] = max_{prev_state}(d[irow][state], d[irow-1][prev_state]`
+# - 注意判断合法状态，以及合法转移；
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def maxStudents(self, seats: List[List[str]]) -> int:
         res = 0
@@ -43,4 +43,4 @@ class Solution:
         res = max(d[self.n_row])
 
         return res
-```
+# ```

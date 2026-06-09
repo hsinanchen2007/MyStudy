@@ -1,9 +1,9 @@
-### 解题思路
-用字典表示树，每一项的表示为（父节点：[子节点们]，用时，到该点概率））。遍历时直接注意更新节点三个属性值，及时跟target比对（判断条件想得要全面：达到target之后，用时刚好为t或者target为叶子的话用时不少于t，此时才能输出该点的概率；否则不会在该点停留，输出概率为0）。
+# ### 解题思路
+# 用字典表示树，每一项的表示为（父节点：[子节点们]，用时，到该点概率））。遍历时直接注意更新节点三个属性值，及时跟target比对（判断条件想得要全面：达到target之后，用时刚好为t或者target为叶子的话用时不少于t，此时才能输出该点的概率；否则不会在该点停留，输出概率为0）。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def frogPosition(self, n: int, edges: List[List[int]], t: int, target: int) -> float:
         if target == 1:
@@ -26,4 +26,4 @@ class Solution:
                     if son == target:
                         return dic[son][2] if t == dic[son][1] or (t > dic[son][1] and len(dic[son][0])==0) else 0
             queue = nextL
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         def bfs(q, n):            
@@ -25,4 +25,4 @@ class Solution:
         n = len(grid)
         if not q or len(q) == n*n: return -1     
         return bfs(q, n)
-```
+# ```

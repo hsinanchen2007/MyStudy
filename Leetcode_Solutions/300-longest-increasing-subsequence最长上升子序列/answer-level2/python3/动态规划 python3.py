@@ -1,11 +1,11 @@
-### 解题思路
-动态规划方程：dp[ i ] = max( dp[ j ] ) + 1  ( j < i,且nums[ i ] > nums[ j ] )
-dp[ i ] 表示以nums[ i ]结尾的上升子序列长度的最大值
-寻找出所有dp[ i ]中的最大值
+# ### 解题思路
+# 动态规划方程：dp[ i ] = max( dp[ j ] ) + 1  ( j < i,且nums[ i ] > nums[ j ] )
+# dp[ i ] 表示以nums[ i ]结尾的上升子序列长度的最大值
+# 寻找出所有dp[ i ]中的最大值
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     # 以第i个数字为结尾的子序列的长度
     # dp[i] = max(dp[j]) +1 (j<i)
@@ -26,4 +26,4 @@ class Solution:
             if dp[i] > max_ans:
                 max_ans = dp[i]
         return max_ans
-```
+# ```

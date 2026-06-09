@@ -1,6 +1,6 @@
-请利用二叉搜索树这个特点
+# 请利用二叉搜索树这个特点
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -48,4 +48,4 @@ sum = L + R + val
 - 当node.val < L: 结点值都小于最小值的话, 不必继续找左子树下去;
 - 当node.val > R: 结点值都小于最大值的话, 不必继续找右子树下去;
 """
-```
+# ```

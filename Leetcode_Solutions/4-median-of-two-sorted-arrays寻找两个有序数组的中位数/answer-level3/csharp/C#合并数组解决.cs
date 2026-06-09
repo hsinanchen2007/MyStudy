@@ -1,9 +1,9 @@
-### 解题思路
-将两数组合并为一个有序数组，然后找出中位数。
+// ### 解题思路
+// 将两数组合并为一个有序数组，然后找出中位数。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public double FindMedianSortedArrays(int[] nums1, int[] nums2) {
         int len1 = nums1.Length;
@@ -49,4 +49,4 @@ public class Solution {
             return (nums3[(len1 + len2) / 2] + nums3[(len1 + len2) / 2 - 1]) / 2.0;
     }
 }
-```
+// ```

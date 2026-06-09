@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-分析字母发现根据g,u,w,x,z可以唯一确定数字84260，
-然后再根据s,v,o,t,i,针对于已知，推断未知解方程，得出，7，5，1，3，9，
+// ### 解题思路
+// 此处撰写解题思路
+// 分析字母发现根据g,u,w,x,z可以唯一确定数字84260，
+// 然后再根据s,v,o,t,i,针对于已知，推断未知解方程，得出，7，5，1，3，9，
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String originalDigits(String s) {
      StringBuilder stringBuilder = new StringBuilder();
@@ -70,4 +70,4 @@ class Solution {
         return stringBuilder.toString();
     }
 }
-```
+// ```

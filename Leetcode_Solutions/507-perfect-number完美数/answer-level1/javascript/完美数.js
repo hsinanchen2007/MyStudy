@@ -1,4 +1,4 @@
-```js
+// ```js
 var checkPerfectNumber = function(num) {
     if (num === 1) return false;
     let res = 0;
@@ -11,5 +11,5 @@ var checkPerfectNumber = function(num) {
     }
     return res + 1 === num
 };
-```
+// ```
 

@@ -1,13 +1,13 @@
-### 解题思路
- * 初步考虑如下，首先搜索出在哪一行，然后用二分查找寻找该行中是否有
- * 时间复杂度 O(m+logn);
- * opt1：如果查找区间也用二分法查找
- * 此时时间复杂度变成：O(logM+logN)=O(logMN);
- * 空间复杂度为：O(1)
+// ### 解题思路
+//  * 初步考虑如下，首先搜索出在哪一行，然后用二分查找寻找该行中是否有
+//  * 时间复杂度 O(m+logn);
+//  * opt1：如果查找区间也用二分法查找
+//  * 此时时间复杂度变成：O(logM+logN)=O(logMN);
+//  * 空间复杂度为：O(1)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 const searchMatrix = (matrix, target)=>{
     if(matrix.length===0) return false;
     let m=matrix.length,n=matrix[0].length,temp=0;
@@ -43,4 +43,4 @@ const searchMatrix = (matrix, target)=>{
     };
     return search(matrix[temp],target);
 };
-```
+// ```

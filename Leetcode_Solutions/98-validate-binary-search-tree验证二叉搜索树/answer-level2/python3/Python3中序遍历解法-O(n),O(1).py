@@ -1,4 +1,4 @@
-```python
+# ```python
 def middle_order(root):
     if root is None: return
     yield from middle_order(root.left)
@@ -15,7 +15,7 @@ class Solution:
                 return False
             prev = x
         return True
-```
+# ```
 
-- 时间复杂度 O(n)，n 为树节点个数。
-- 空间复杂度 O(1)
+# - 时间复杂度 O(n)，n 为树节点个数。
+# - 空间复杂度 O(1)

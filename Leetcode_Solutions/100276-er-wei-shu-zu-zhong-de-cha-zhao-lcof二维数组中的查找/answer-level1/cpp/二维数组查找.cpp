@@ -1,9 +1,9 @@
-### 解题思路
-标记有没有移动，没有移动直接返回false
+// ### 解题思路
+// 标记有没有移动，没有移动直接返回false
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool findNumberIn2DArray(vector<vector<int>>& matrix, int target) 
@@ -28,4 +28,4 @@ while(target!=matrix[p][k]&&k>=0&&p<i)
 return true;
     }
 };
-```
+// ```

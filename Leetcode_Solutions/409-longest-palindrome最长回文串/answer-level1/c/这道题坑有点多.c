@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-![image.png](https://pic.leetcode-cn.com/35e3f2f40e2d7459a1ef64e9f9c92786cc40ba1846498cba7905a26a311c04b4-image.png)
+// ### 代码
+// ![image.png](https://pic.leetcode-cn.com/35e3f2f40e2d7459a1ef64e9f9c92786cc40ba1846498cba7905a26a311c04b4-image.png)
 
-```c
+// ```c
 int longestPalindrome(char * s){
     if (s == NULL || strlen(s) == 0) {
         return 0;
@@ -50,4 +50,4 @@ int longestPalindrome(char * s){
 
     return res;
 }
-```
+// ```

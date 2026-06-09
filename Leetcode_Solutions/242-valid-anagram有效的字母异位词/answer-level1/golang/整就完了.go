@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-利用map
-### 代码
+// 利用map
+// ### 代码
 
-```golang
+// ```golang
 func isAnagram(s string, t string) bool {
 
     if len(s) != len(t) {
@@ -28,4 +28,4 @@ func isAnagram(s string, t string) bool {
     }
     return true
 }
-```
+// ```

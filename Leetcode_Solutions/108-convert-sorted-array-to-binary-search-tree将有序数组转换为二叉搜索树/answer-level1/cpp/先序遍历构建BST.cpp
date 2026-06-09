@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     TreeNode *preorder(vector<int> &nums, int begin, int back){
         if(begin>back) return NULL;
@@ -13,4 +13,4 @@ public:
         return preorder(nums, 0, nums.size()-1);
     }
 };
-```
+// ```

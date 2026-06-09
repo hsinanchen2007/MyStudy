@@ -1,9 +1,9 @@
-### 解题思路
-逐层遍历后判断邻域点是否满足条件，进行进一步运算
+# ### 解题思路
+# 逐层遍历后判断邻域点是否满足条件，进行进一步运算
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def imageSmoother(self, M: List[List[int]]) -> List[List[int]]:
         x, y = len(M), len(M[0])
@@ -18,4 +18,4 @@ class Solution:
                             count += 1
                 ans[i][j] = math.floor(sum_ / count)
         return ans
-```
+# ```

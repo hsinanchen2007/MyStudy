@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxSubArray(int[] nums) {
         // 这类题就是套路，其实是分类，枚举以nums[i]结尾的子数组最大和，并寻求递推关系，
@@ -25,4 +25,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

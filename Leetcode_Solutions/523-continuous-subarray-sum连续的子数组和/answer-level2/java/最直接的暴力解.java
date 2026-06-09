@@ -1,9 +1,9 @@
-### 解题思路
-最直接的暴力解了吧。
+// ### 解题思路
+// 最直接的暴力解了吧。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean checkSubarraySum(int[] nums, int k) {
         if (k == 0) {
@@ -28,4 +28,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

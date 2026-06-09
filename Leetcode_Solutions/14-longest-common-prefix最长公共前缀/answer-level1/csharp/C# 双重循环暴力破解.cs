@@ -1,7 +1,7 @@
-checked检测索引超出，双重循环暴力破解，内存占用高，耗时长。
-![image.png](https://pic.leetcode-cn.com/cd81d0af4c44c2415b4986e4589268024c8cfd0e92dec704558b55facb04499d-image.png)
+// checked检测索引超出，双重循环暴力破解，内存占用高，耗时长。
+// ![image.png](https://pic.leetcode-cn.com/cd81d0af4c44c2415b4986e4589268024c8cfd0e92dec704558b55facb04499d-image.png)
 
-```
+// ```
 public class Solution {
     public string LongestCommonPrefix(string[] strs) {
         string val=string.Empty;
@@ -32,4 +32,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

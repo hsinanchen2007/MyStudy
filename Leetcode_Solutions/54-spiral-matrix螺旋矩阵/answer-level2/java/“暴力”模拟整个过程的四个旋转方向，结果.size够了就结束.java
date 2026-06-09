@@ -1,11 +1,11 @@
-**“暴力”模拟整个过程的四个旋转方向~**
+// **“暴力”模拟整个过程的四个旋转方向~**
 
-每次收缩for循环的起始上下限，更新当前坐标位置，
-结果.size够了就结束；
-![java.PNG](https://pic.leetcode-cn.com/27982b70b56bfc0f99cd04ef01e36ba8c6658129b2ef549ff0c9e42fb4d9342b-java.PNG)
+// 每次收缩for循环的起始上下限，更新当前坐标位置，
+// 结果.size够了就结束；
+// ![java.PNG](https://pic.leetcode-cn.com/27982b70b56bfc0f99cd04ef01e36ba8c6658129b2ef549ff0c9e42fb4d9342b-java.PNG)
 
-*（代码还有点繁琐，可简化，先贴为敬）*
-```java []
+// *（代码还有点繁琐，可简化，先贴为敬）*
+// ```java []
     public static List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> xie = new ArrayList<Integer>();
         if (matrix == null || matrix.length == 0) {
@@ -58,4 +58,4 @@
         }
         return xie;
     }
-```
+// ```

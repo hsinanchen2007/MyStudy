@@ -1,9 +1,9 @@
-### 解题思路
-使用Counter类计数
+# ### 解题思路
+# 使用Counter类计数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import Counter
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
@@ -12,4 +12,4 @@ class Solution:
             if temp[i] >= math.ceil(len(nums)/2):
                 return i
         return -1
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-模拟加法，满十进一，尾插节点
+// ### 解题思路
+// 模拟加法，满十进一，尾插节点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -55,4 +55,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     return ret->next;
 }
 
-```
+// ```

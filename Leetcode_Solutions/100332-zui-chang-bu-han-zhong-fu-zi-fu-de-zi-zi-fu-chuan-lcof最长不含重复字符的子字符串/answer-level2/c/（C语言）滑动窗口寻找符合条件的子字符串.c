@@ -1,4 +1,4 @@
-```c
+// ```c
 int lengthOfLongestSubstring(char* s){
     int count[95]; // ASCII中存在95个可打印的字符，记录遍历s时遇到的字符
     memset(count, 0, 95 * sizeof(int)); // 将count的值全部置为0
@@ -24,4 +24,4 @@ int lengthOfLongestSubstring(char* s){
     }
     return max_lenght;
 }
-```
+// ```

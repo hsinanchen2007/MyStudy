@@ -1,9 +1,9 @@
-### 解题思路
-菜鸡第一天力扣，只会蛮力，57ms，各位大佬指教
+// ### 解题思路
+// 菜鸡第一天力扣，只会蛮力，57ms，各位大佬指教
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {
             int[] a = new int[2];
@@ -19,4 +19,4 @@ class Solution {
             return a;
     }
 }
-```
+// ```

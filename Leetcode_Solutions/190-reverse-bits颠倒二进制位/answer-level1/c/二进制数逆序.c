@@ -1,9 +1,9 @@
-### 解题思路
-遍历原数据，利用移位重新构造新的数据
+// ### 解题思路
+// 遍历原数据，利用移位重新构造新的数据
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 uint32_t reverseBits(uint32_t n) {
     uint32_t result = 0;    
     int i = 0;
@@ -26,4 +26,4 @@ uint32_t reverseBits(uint32_t n) {
 
     return result;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class MyQueue {
     public $left=[];
     public $right=[];
@@ -75,11 +75,11 @@ $obj->push(2);
 $ret_3 = $obj->peek();
 $ret_2 = $obj->pop();
 $ret_4 = $obj->empty();
-```
-先吐槽一下： 
- php版本给的示例有很多错误，obj定义的时候少了一个new，并且push少了一个还没有给出具体的值 1  2 ，peek和pop的顺序还颠倒了。
+// ```
+// 先吐槽一下： 
+//  php版本给的示例有很多错误，obj定义的时候少了一个new，并且push少了一个还没有给出具体的值 1  2 ，peek和pop的顺序还颠倒了。
 
-看到了一些php的解法，但是很多是不对的，有的用了返回的是$this->left[0];
-如果是用栈的话，看题目是没有这个方法的。
-上面的代码中的  array_pop  array_push count 直接用来判断真假   相当于 栈操作的  pop  push size is empty 
-还看到有的代码写的过于臃肿。
+// 看到了一些php的解法，但是很多是不对的，有的用了返回的是$this->left[0];
+// 如果是用栈的话，看题目是没有这个方法的。
+// 上面的代码中的  array_pop  array_push count 直接用来判断真假   相当于 栈操作的  pop  push size is empty 
+// 还看到有的代码写的过于臃肿。

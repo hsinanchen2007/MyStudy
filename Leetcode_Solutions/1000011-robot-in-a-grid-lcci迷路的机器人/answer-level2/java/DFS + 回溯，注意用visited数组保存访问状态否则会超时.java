@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<List<Integer>> pathWithObstacles(int[][] obstacleGrid) {
         List<List<Integer>> ans = new ArrayList<>();
@@ -24,4 +24,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

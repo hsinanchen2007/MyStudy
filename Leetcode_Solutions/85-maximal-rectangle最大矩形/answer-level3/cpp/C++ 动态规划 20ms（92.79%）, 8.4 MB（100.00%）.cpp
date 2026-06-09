@@ -1,12 +1,12 @@
-![image.png](https://pic.leetcode-cn.com/dce6824e07bfcae7145c7a3e3de4aeff80c4928cbc2ad5ff94b3cd720e226baf-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dce6824e07bfcae7145c7a3e3de4aeff80c4928cbc2ad5ff94b3cd720e226baf-image.png)
 
-### 解题思路
-跟官方题解思路相同，就懒得写思路了。
-[官方题解](https://leetcode-cn.com/problems/maximal-rectangle/solution/zui-da-ju-xing-by-leetcode/)
+// ### 解题思路
+// 跟官方题解思路相同，就懒得写思路了。
+// [官方题解](https://leetcode-cn.com/problems/maximal-rectangle/solution/zui-da-ju-xing-by-leetcode/)
 
-### 代码
-与官方题解“方法二”思路相同的C++代码
-```cpp
+// ### 代码
+// 与官方题解“方法二”思路相同的C++代码
+// ```cpp
 class Solution {
 public:
     int maximalRectangle(vector<vector<char>>& matrix) {
@@ -31,10 +31,10 @@ public:
         return result;
     }
 };
-```
+// ```
 
-官方题解 方法四 C++代码
-```cpp
+// 官方题解 方法四 C++代码
+// ```cpp
 class Solution {
 public:
     int maximalRectangle(vector<vector<char>>& matrix) {
@@ -86,4 +86,4 @@ public:
         return maxarea;
     }
 };
-```
+// ```

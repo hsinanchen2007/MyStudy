@@ -1,4 +1,4 @@
-```
+// ```
 type ProductOfNumbers struct {
     num []int
 }
@@ -24,4 +24,4 @@ func (this *ProductOfNumbers) GetProduct(k int) int {
 	}
 	return res
 }
-```
+// ```

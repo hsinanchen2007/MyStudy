@@ -1,9 +1,9 @@
-### 解题思路
-栈的先进后出，后进先出的思想
+// ### 解题思路
+// 栈的先进后出，后进先出的思想
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ public:
 
     }
 };
-```
+// ```

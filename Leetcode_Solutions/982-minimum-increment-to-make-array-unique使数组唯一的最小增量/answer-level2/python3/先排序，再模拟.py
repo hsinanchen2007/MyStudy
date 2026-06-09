@@ -1,9 +1,9 @@
-### 解题思路
-先排序，再模拟，每个元素都要至少比前一个元素大一
+# ### 解题思路
+# 先排序，再模拟，每个元素都要至少比前一个元素大一
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         A.sort()
@@ -17,4 +17,4 @@ class Solution:
                 A[i]=A[i-1]+1
         return res
         
-```
+# ```

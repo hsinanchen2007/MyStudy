@@ -1,4 +1,4 @@
-```c
+// ```c
 /**
  * 递归
  **/
@@ -18,9 +18,9 @@ int* postorder(struct Node* root, int* returnSize) {
   result[(*returnSize)++] = root->val;
   return result;
 }
-```
+// ```
 
-```c
+// ```c
 /**
  * 迭代
  **/
@@ -50,4 +50,4 @@ int* postorder(struct Node* root, int* returnSize) {
   free(stack);
   return result;
 }
-```
+// ```

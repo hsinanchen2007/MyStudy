@@ -1,6 +1,6 @@
-应该是第三次看到这个题了，思路简单。
-去除单词前后的空格，从后向前遍历，遇到空格就把遍历到的单词加到结果中。
-```
+// 应该是第三次看到这个题了，思路简单。
+// 去除单词前后的空格，从后向前遍历，遇到空格就把遍历到的单词加到结果中。
+// ```
 string reverseWords(string s) {
         string res="";
         if(s==" " || s=="") return res;
@@ -25,4 +25,4 @@ string reverseWords(string s) {
         }
         return res;
     }
-```
+// ```

@@ -1,8 +1,8 @@
-### 方法一，用栈保存
-一种用栈实现的方法，有点傻，主要是处理detail的时候太tricky了。
-### 
-执行用时 :4 ms, 在所有 C++ 提交中击败了98.61%的用户。内存消耗 :9.8 MB, 在所有 C++ 提交中击败了100.00%的用户
-```cpp
+// ### 方法一，用栈保存
+// 一种用栈实现的方法，有点傻，主要是处理detail的时候太tricky了。
+// ### 
+// 执行用时 :4 ms, 在所有 C++ 提交中击败了98.61%的用户。内存消耗 :9.8 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -34,10 +34,10 @@ public:
         return res;
     }
 };
-```
-### 方法二，利用字符流 sstream 可以方便地解决掉空格问题
+// ```
+// ### 方法二，利用字符流 sstream 可以方便地解决掉空格问题
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -65,12 +65,12 @@ public:
 链接：https://leetcode-cn.com/problems/reverse-words-in-a-string/solution/c-si-xing-dai-ma-ji-qi-you-hua-by-pris_bupt/
 来源：力扣（LeetCode）
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-```
+// ```
 
-### 方法三、原地算法
+// ### 方法三、原地算法
 
-解决思路是，先原地整体反转，再逐单词反转；需要处理首尾、中间的冗余空格。
-```cpp
+// 解决思路是，先原地整体反转，再逐单词反转；需要处理首尾、中间的冗余空格。
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -96,6 +96,6 @@ public:
         return s.substr(start, tail - start);
     }
 };
-```
+// ```
 
 

@@ -1,5 +1,5 @@
-假设root长度为length，那么前length%k个链表的长度为length/k，剩下的链表的长度为length/k。得出这一结论后，具体代码就不难写了。
-```c
+// 假设root长度为length，那么前length%k个链表的长度为length/k，剩下的链表的长度为length/k。得出这一结论后，具体代码就不难写了。
+// ```c
 struct ListNode** splitListToParts(struct ListNode* root, int k, int* returnSize){
     struct ListNode** res=malloc(k*sizeof(struct ListNode*));
     short length=0,i,left,counter;
@@ -29,4 +29,4 @@ struct ListNode** splitListToParts(struct ListNode* root, int k, int* returnSize
     *returnSize=k;
     return res;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-这是道基础的二分查找题，我的这个代码有较为模板的二分查找，故发布
+// ### 解题思路
+// 这是道基础的二分查找题，我的这个代码有较为模板的二分查找，故发布
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -41,4 +41,4 @@ public:
 
     }
 };
-```
+// ```

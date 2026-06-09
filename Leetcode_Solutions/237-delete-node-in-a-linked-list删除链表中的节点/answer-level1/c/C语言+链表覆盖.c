@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-注意：释放内存
+// 注意：释放内存
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -21,4 +21,4 @@ void deleteNode(struct ListNode* node) {
 
     free(temp);
 }
-```
+// ```

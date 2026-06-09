@@ -1,10 +1,10 @@
-### 解题思路
-设置一个状态数组，记录已经添加进list中的元素（设置状态为1）
-同时在递归后，重新设置状态为0，并从list中移除元素
+// ### 解题思路
+// 设置一个状态数组，记录已经添加进list中的元素（设置状态为1）
+// 同时在递归后，重新设置状态为0，并从list中移除元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
@@ -29,4 +29,4 @@ class Solution {
         }
     }
 }
-```
+// ```

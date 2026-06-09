@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     int [,] memo;
     public int Helper(string text1, string text2, int strat, int end){
@@ -43,4 +43,4 @@ public class Solution {
         return Helper(text1, text2, 0, 0);
     }
 }
-```
+// ```

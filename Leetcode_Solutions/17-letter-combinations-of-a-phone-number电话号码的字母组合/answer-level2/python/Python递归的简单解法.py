@@ -1,10 +1,10 @@
-### 解题思路
-Python递归的简单解法：用list来存放每个数字对应的字母挺方便；
-简单来说其实就是，先遍历digits中的每个数字，然后再组合每个数字对应的字母，读一遍代码即可理解
+# ### 解题思路
+# Python递归的简单解法：用list来存放每个数字对应的字母挺方便；
+# 简单来说其实就是，先遍历digits中的每个数字，然后再组合每个数字对应的字母，读一遍代码即可理解
 
-### 代码
+# ### 代码
 
-```
+# ```
 
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
@@ -27,4 +27,4 @@ class Solution:
         recurion(digits,0,"")
         return res
 
-```
+# ```

@@ -1,33 +1,33 @@
-## 思路:
+# ## 思路:
 
-思路一: 栈
+# 思路一: 栈
 
-想法: 把节点压入栈中, 再弹出来,不就可以实现倒过来了吗?
+# 想法: 把节点压入栈中, 再弹出来,不就可以实现倒过来了吗?
 
-难点: 弹出多少? 弹出一半? 要考虑!
+# 难点: 弹出多少? 弹出一半? 要考虑!
 
-思路二:
+# 思路二:
 
-用这方法, 先做一下下面两题
+# 用这方法, 先做一下下面两题
 
- [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/),这道题是翻转整个链表
+#  [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/),这道题是翻转整个链表
 
- [92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/),这道题是翻转链表的一部分
+#  [92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/),这道题是翻转链表的一部分
 
-接下来, 用图说明方法:
-![1563947840102.png](https://pic.leetcode-cn.com/96ce57a2e1dec7b065ab78c198fd308d603703c19eaf3ff14e0e7902a59f804f-1563947840102.png)
+# 接下来, 用图说明方法:
+# ![1563947840102.png](https://pic.leetcode-cn.com/96ce57a2e1dec7b065ab78c198fd308d603703c19eaf3ff14e0e7902a59f804f-1563947840102.png)
 
-所以,有三步
+# 所以,有三步
 
-1. 找中点
-2. 翻转中点之后的链表(好多方法, `Python`和 `Java` 各用一种)
-3. 依次拼接
+# 1. 找中点
+# 2. 翻转中点之后的链表(好多方法, `Python`和 `Java` 各用一种)
+# 3. 依次拼接
 
-## 代码:
+# ## 代码:
 
-思路一:
+# 思路一:
 
-```python []
+# ```python []
 class Solution(object):
     def reorderList(self, head):
         """
@@ -56,11 +56,11 @@ class Solution(object):
             p = tmp.next
             count -= 1
         stack.pop().next = None
-```
+# ```
 
 
 
-```java []
+# ```java []
 class Solution {
     public void reorderList(ListNode head) {
         if (head == null || head.next == null) return;
@@ -83,11 +83,11 @@ class Solution {
         stack.pop().next = null;
     }
 }
-```
+# ```
 
-思路二:
+# 思路二:
 
-```python []
+# ```python []
 class Solution(object):
     def reorderList(self, head):
         """
@@ -126,11 +126,11 @@ class Solution(object):
             p1.next = p2
             p1 = p2.next
             p2 = pre_mid.next
-```
+# ```
 
 
 
-```java []
+# ```java []
 class Solution {
     public void reorderList(ListNode head) {
         if (head == null || head.next == null) return;
@@ -164,5 +164,5 @@ class Solution {
         }
     }
 }
-```
+# ```
 

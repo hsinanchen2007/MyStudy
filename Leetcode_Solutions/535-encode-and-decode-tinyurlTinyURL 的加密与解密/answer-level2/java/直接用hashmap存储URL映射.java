@@ -1,17 +1,17 @@
-最近提交结果：
-通过
-显示详情 
-执行用时 :
-11 ms
-, 在所有Java提交中击败了
-20.30%
-的用户
-内存消耗 :
-36.7 MB
-, 在所有Java提交中击败了
-68.83%
-的用户
-```
+// 最近提交结果：
+// 通过
+// 显示详情 
+// 执行用时 :
+// 11 ms
+// , 在所有Java提交中击败了
+// 20.30%
+// 的用户
+// 内存消耗 :
+// 36.7 MB
+// , 在所有Java提交中击败了
+// 68.83%
+// 的用户
+// ```
 public class Codec {
 
     Map<String,String> map = new HashMap<String,String>();
@@ -44,4 +44,4 @@ public class Codec {
 // Your Codec object will be instantiated and called as such:
 // Codec codec = new Codec();
 // codec.decode(codec.encode(url));
-```
+// ```

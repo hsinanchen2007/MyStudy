@@ -1,10 +1,10 @@
-### 解题思路
-根据官方题解写的，关键在于A的重复次数，以及Rabin-Karp方法中把字符转换为数字的思路。
-最后就是用匹配重复的位置，找出是在A的第几次重复中匹配了B。
+# ### 解题思路
+# 根据官方题解写的，关键在于A的重复次数，以及Rabin-Karp方法中把字符转换为数字的思路。
+# 最后就是用匹配重复的位置，找出是在A的第几次重复中匹配了B。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def repeatedStringMatch(self, A: str, B: str) -> int:
         l,n=len(A),len(B)
@@ -22,4 +22,4 @@ class Solution:
             if i>=n-1 and a_count==b_count:return int((i+1)/l+0.99)
         return -1
         
-```
+# ```

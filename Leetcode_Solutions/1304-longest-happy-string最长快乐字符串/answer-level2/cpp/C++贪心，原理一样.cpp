@@ -1,5 +1,5 @@
-C++贪心，原理一样
-```
+// C++贪心，原理一样
+// ```
 class Solution {
 public:
     const int N=3;
@@ -43,4 +43,4 @@ public:
         return ans;
     }
 };
-```
+// ```

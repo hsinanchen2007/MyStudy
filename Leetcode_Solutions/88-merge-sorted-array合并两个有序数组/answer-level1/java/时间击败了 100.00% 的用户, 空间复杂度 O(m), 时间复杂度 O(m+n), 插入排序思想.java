@@ -1,9 +1,9 @@
-### 解题思路
-还是插入排序的思想,但是采用了leetcode官方提供的代码思想, 复制一个nums1, 通过把空间复杂度提升到 O(m), 降低时间复杂度为 O(m+n)
-![Screenshot from 2019-01-08 15-02-28.png](https://pic.leetcode-cn.com/f00be5927fadc6138139a764178c785bfeb32845b35513a42b1c3ef3a462daf0-Screenshot%20from%202019-01-08%2015-02-28.png)
-### 代码
+// ### 解题思路
+// 还是插入排序的思想,但是采用了leetcode官方提供的代码思想, 复制一个nums1, 通过把空间复杂度提升到 O(m), 降低时间复杂度为 O(m+n)
+// ![Screenshot from 2019-01-08 15-02-28.png](https://pic.leetcode-cn.com/f00be5927fadc6138139a764178c785bfeb32845b35513a42b1c3ef3a462daf0-Screenshot%20from%202019-01-08%2015-02-28.png)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
       int[] temp = new int[m];
@@ -18,4 +18,4 @@ class Solution {
             System.arraycopy(nums2, j, nums1, index, n - j);
     }
 }
-```
+// ```

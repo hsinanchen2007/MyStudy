@@ -1,9 +1,9 @@
-### 解题思路
-利用栈的数据结构特点解决，代码简介易懂
+// ### 解题思路
+// 利用栈的数据结构特点解决，代码简介易懂
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} ops
  * @return {number}
@@ -69,4 +69,4 @@ var calPoints = function(ops) {
 
   return stack.getTotalScore()  
 };
-```
+// ```

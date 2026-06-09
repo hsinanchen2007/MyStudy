@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/7b0f9f762d89faed91b5822799e05b69a0e6b43a6c4515bda7a2a4b3b4ef2f3d-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/7b0f9f762d89faed91b5822799e05b69a0e6b43a6c4515bda7a2a4b3b4ef2f3d-image.png)
+// ```
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -57,4 +57,4 @@ char *** solveNQueens(int n, int* returnSize, int** returnColumnSizes){
     }
     return rst;
 }
-```
+// ```

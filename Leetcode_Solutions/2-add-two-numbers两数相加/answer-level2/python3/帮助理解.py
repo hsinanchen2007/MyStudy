@@ -1,9 +1,9 @@
-### 解题思路
-两链表左对齐后，长度不够的以0补位，进行从左到右的竖式加法运算
+# ### 解题思路
+# 两链表左对齐后，长度不够的以0补位，进行从左到右的竖式加法运算
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
             新建链表头 = 新建链表头.next  # 移动到下一个节点继续添加值
         新建链表头.next = ListNode(进一位) if 进一位 else None  # 最后如果还有个10没进一位，还需要在加上
         return 新建链表.next
-```
+# ```

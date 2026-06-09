@@ -1,9 +1,9 @@
-### 解题思路
-q指向要删除结点的前一结点
+// ### 解题思路
+// q指向要删除结点的前一结点
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
         return first -> next;
     }
 };
-```
+// ```

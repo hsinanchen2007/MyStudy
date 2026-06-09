@@ -1,6 +1,6 @@
-- 方法一
-双指针法
-```c
+// - 方法一
+// 双指针法
+// ```c
 struct ListNode* middleNode(struct ListNode* head){
     struct ListNode *slow_p=head,*fast_p=head;
     while(fast_p!=0&&fast_p->next!=0){
@@ -9,10 +9,10 @@ struct ListNode* middleNode(struct ListNode* head){
     }
     return slow_p;
 }
-```
-- 方法二
-常规做法
-```c
+// ```
+// - 方法二
+// 常规做法
+// ```c
 struct ListNode* middleNode(struct ListNode* head){
     short length=0;
     struct ListNode *tmp;
@@ -25,4 +25,4 @@ struct ListNode* middleNode(struct ListNode* head){
     while(length--) head=head->next;
     return head;
 }
-```
+// ```

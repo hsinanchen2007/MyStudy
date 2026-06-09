@@ -1,4 +1,4 @@
-```
+// ```
 //使用一个hash表储存不同的hash表
 //不同的各个hash表储存相关的数据（如[['a','b'],['b','c'],['ad','da']]中，'a','b','c'储存在一个hash表，'ad'','da'储存在另一个hash表）
 var calcEquation = function(equations, values, queries) {
@@ -53,4 +53,4 @@ var calcEquation = function(equations, values, queries) {
     }
     return res;
 };
-```
+// ```

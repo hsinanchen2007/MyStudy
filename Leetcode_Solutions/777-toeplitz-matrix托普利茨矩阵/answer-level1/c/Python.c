@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```python
+// ```python
 class Solution(object):
     def isToeplitzMatrix(self, matrix):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 elif dict[i-j]!=matrix[i][j]:
                     return False
         return True
-```
+// ```

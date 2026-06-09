@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public string RemoveOuterParentheses(string s) {
         if(s==null) return null;
@@ -29,4 +29,4 @@ public class Solution {
         return sb.ToString();
     }
 }
-```
+// ```

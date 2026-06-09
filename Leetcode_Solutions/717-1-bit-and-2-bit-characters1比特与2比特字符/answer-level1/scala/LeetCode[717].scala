@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
     def isOneBitCharacter(bits: Array[Int]): Boolean = {
       if(bits.length==1) return true
@@ -11,4 +11,4 @@ object Solution {
       return false
     }
 }
-```
+// ```

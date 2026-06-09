@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int dirs[8][2] = {
@@ -26,6 +26,6 @@ public:
         return dp[r][c];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/dbc925aedd3598c28f047e74111639df6bc65f2632b81d39751167a1ae3066dd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/dbc925aedd3598c28f047e74111639df6bc65f2632b81d39751167a1ae3066dd-image.png)

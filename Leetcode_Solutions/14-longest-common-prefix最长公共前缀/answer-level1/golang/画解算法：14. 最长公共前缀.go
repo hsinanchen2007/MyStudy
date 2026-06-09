@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/e1d065bfc751a61c04f206f8c42aa213cd7e7df53e4a36e468d84a7b55cf4354-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e1d065bfc751a61c04f206f8c42aa213cd7e7df53e4a36e468d84a7b55cf4354-image.png)
 
-```
+// ```
 func longestCommonPrefix(ss []string) string {
 	// 如果参数长度为0或者第一个元素为"",直接返回""
 	if len(ss) == 0 || ss[0] == "" {
@@ -41,4 +41,4 @@ func longestCommonPrefix(ss []string) string {
 	}
 	return ss[0]
 }
-```
+// ```

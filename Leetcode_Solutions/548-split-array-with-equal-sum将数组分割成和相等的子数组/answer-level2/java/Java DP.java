@@ -1,8 +1,8 @@
-使用动态规划解决该问题：
-定义DP[i][j]表示0~i的数据划分为j组时相等和的集合，j的取值范围为1-4
-具体状态转移过程见代码，比较好理解
-时间复杂度O(4 * n^2) = O(n ^ 2)
-```
+// 使用动态规划解决该问题：
+// 定义DP[i][j]表示0~i的数据划分为j组时相等和的集合，j的取值范围为1-4
+// 具体状态转移过程见代码，比较好理解
+// 时间复杂度O(4 * n^2) = O(n ^ 2)
+// ```
 // time complexity O(n ^ 2)
 class Solution {
     public boolean splitArray(int[] nums) {
@@ -32,4 +32,4 @@ class Solution {
         return !dp[n-1][4].isEmpty();
     }
 }
-```
+// ```

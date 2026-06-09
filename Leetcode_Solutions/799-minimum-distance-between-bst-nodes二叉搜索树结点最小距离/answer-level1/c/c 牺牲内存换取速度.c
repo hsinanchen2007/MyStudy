@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -74,4 +74,4 @@ int minDiffInBST( struct TreeNode * root ){
     return min;
 
 }
-```
+// ```

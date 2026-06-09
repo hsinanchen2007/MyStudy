@@ -1,4 +1,4 @@
-```
+// ```
 char* compressString(char* S){
     char* chr = (char*)malloc(sizeof(char) * strlen(S) * 2);
     if (strlen(S) == 1) {
@@ -54,4 +54,4 @@ char* compressString(char* S){
     }
     return chr;
 }
-```
+// ```

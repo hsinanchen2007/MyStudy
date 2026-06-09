@@ -1,9 +1,9 @@
-### 解题思路
-当K不为0，就取出堆顶的元素反转，然后入堆，最后加和。
+// ### 解题思路
+// 当K不为0，就取出堆顶的元素反转，然后入堆，最后加和。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int largestSumAfterKNegations(int[] A, int K) {
         //小顶堆
@@ -22,4 +22,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

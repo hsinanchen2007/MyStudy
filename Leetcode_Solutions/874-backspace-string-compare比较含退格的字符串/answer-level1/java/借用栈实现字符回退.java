@@ -1,4 +1,4 @@
-```
+// ```
     private void trimString(String str, Stack<Character> stack) {
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) != '#') {
@@ -32,7 +32,7 @@
         }
         return true;
     }
-```
+// ```
 
-普遍做法是通过双栈保存字符串，再进行比较。
-此处为了节省空间，栈内数据通过StringBuilder进行保存，这样栈就能实现重用。
+// 普遍做法是通过双栈保存字符串，再进行比较。
+// 此处为了节省空间，栈内数据通过StringBuilder进行保存，这样栈就能实现重用。

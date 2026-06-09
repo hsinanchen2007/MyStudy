@@ -1,20 +1,20 @@
-### 解题思路
-本身我是这样写的,就有用例不能通过，改成提交的就可以了。不解
-if(root == null){
-           return true;
-       }
+// ### 解题思路
+// 本身我是这样写的,就有用例不能通过，改成提交的就可以了。不解
+// if(root == null){
+//            return true;
+//        }
        
-       isBalanced(root.left);
-       isBalanced(root.right);
+//        isBalanced(root.left);
+//        isBalanced(root.right);
 
-       if(Math.abs(Depth(root.left)-Depth(root.right)) <= 1){
-           return true;
-       }
-       return false;
+//        if(Math.abs(Depth(root.left)-Depth(root.right)) <= 1){
+//            return true;
+//        }
+//        return false;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -45,4 +45,4 @@ class Solution {
         return left>right?left:right;
     }
 }
-```
+// ```

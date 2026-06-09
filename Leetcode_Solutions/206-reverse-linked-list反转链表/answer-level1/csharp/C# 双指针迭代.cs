@@ -1,9 +1,9 @@
-### 解题思路
-本来想定义外部数组的，想着空间占用一定很销魂，就看题解写了下这个，官方题解有点难懂，一看图解版就明白了
+// ### 解题思路
+// 本来想定义外部数组的，想着空间占用一定很销魂，就看题解写了下这个，官方题解有点难懂，一看图解版就明白了
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,4 +30,4 @@ public class Solution {
             return prev;
         }
 }
-```
+// ```

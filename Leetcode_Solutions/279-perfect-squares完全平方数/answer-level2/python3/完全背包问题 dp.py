@@ -1,10 +1,10 @@
-### 解题思路
-发现从后往前向要更容易理解一些, 首先在纸上画出递归的数结构, subset(i, n)用来表示当前决定选不选第i个, n表示剩余的平方数
-但是到最后还是超时了
+# ### 解题思路
+# 发现从后往前向要更容易理解一些, 首先在纸上画出递归的数结构, subset(i, n)用来表示当前决定选不选第i个, n表示剩余的平方数
+# 但是到最后还是超时了
 
-### 代码
+# ### 代码
 
-```
+# ```
 class Solution:
     def numSquares(self, n: int) -> int:
         nums = [x**2 for x in range(1, int(n**(0.5))+1)] # 从1开始注意!
@@ -31,13 +31,13 @@ class Solution:
             return memo[key]
         return solve(l-1, n)
 
-```
-然后看了题解只能正向的做. 其实就是0-1背包的套路, 本来去掉二维数组变一维后要从后往前遍历, 使计算i时只从i-1的状态转移过来
-(dp[i][j]代表前i个数中背包重量装到j时的最小个数)
-但因为是完全背包可以重复选, 所以正向遍历, 使得计算i时也可以从i的状态转移过来, beat 5
+# ```
+# 然后看了题解只能正向的做. 其实就是0-1背包的套路, 本来去掉二维数组变一维后要从后往前遍历, 使计算i时只从i-1的状态转移过来
+# (dp[i][j]代表前i个数中背包重量装到j时的最小个数)
+# 但因为是完全背包可以重复选, 所以正向遍历, 使得计算i时也可以从i的状态转移过来, beat 5
 
 
-```python3
+# ```python3
 class Solution:
     def numSquares(self, n: int) -> int:
         dp = [0]*(n+1) # dp[j]代表背包重量为j时所需最少个数
@@ -46,10 +46,10 @@ class Solution:
             for j in range(1, int(i**(0.5))+1):
                 dp[i] = min(dp[i], dp[i-j*j]+1)
         return dp[-1]
-```
+# ```
 
-方法有很多啊, 也可以bfs, 因为是bfs, 所以当n第一次减为0时一定是最短路径, beat 50
-```
+# 方法有很多啊, 也可以bfs, 因为是bfs, 所以当n第一次减为0时一定是最短路径, beat 50
+# ```
 class node:
     def __init__(self,value,step=0):
         self.value = value
@@ -76,16 +76,16 @@ class Solution:
                     visited.add(i)
                                         
         return -1
-```
-作者：zi-lai-huo
-链接：https://leetcode-cn.com/problems/perfect-squares/solution/python3zui-ji-chu-de-bfstao-lu-dai-ma-gua-he-ru-me/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+# ```
+# 作者：zi-lai-huo
+# 链接：https://leetcode-cn.com/problems/perfect-squares/solution/python3zui-ji-chu-de-bfstao-lu-dai-ma-gua-he-ru-me/
+# 来源：力扣（LeetCode）
+# 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 
-而同样是递归,这个只需要80ms beat93
-这个类似于分段递归,如果当前段中有满足条件的结果, 就直接返回
-```
+# 而同样是递归,这个只需要80ms beat93
+# 这个类似于分段递归,如果当前段中有满足条件的结果, 就直接返回
+# ```
 from math import sqrt
 class Solution:
     d = {} # memo
@@ -108,4 +108,4 @@ class Solution:
                     return b
                 i -= 1
             a += 1
-```
+# ```

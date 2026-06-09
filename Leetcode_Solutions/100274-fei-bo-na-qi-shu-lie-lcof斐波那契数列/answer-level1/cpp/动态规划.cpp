@@ -1,19 +1,19 @@
-### 运行结果
+// ### 运行结果
 
-![image.png](https://pic.leetcode-cn.com/46f11f9ebad0d371a1db36620d152b90f3644ad2f7f145e9392dfc99a09c1c92-image.png)
+// ![image.png](https://pic.leetcode-cn.com/46f11f9ebad0d371a1db36620d152b90f3644ad2f7f145e9392dfc99a09c1c92-image.png)
 
-![image.png](https://pic.leetcode-cn.com/9fbefabc9d89cf6027e99cd665f20bdd7712258e151ef69926291d1d06b8665d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9fbefabc9d89cf6027e99cd665f20bdd7712258e151ef69926291d1d06b8665d-image.png)
 
-![image.png](https://pic.leetcode-cn.com/aa8101b2a37dd49337ad90b2f3f438acf29400028db7082389330e4ce9391085-image.png)
+// ![image.png](https://pic.leetcode-cn.com/aa8101b2a37dd49337ad90b2f3f438acf29400028db7082389330e4ce9391085-image.png)
 
 
-### 解题思路
+// ### 解题思路
 
-动态规划
+// 动态规划
 
-### 代码
+// ### 代码
 
-```cpp []
+// ```cpp []
 class Solution
 {
 public:
@@ -27,8 +27,8 @@ public:
         return dp[n];
     }
 };
-```
-```rust []
+// ```
+// ```rust []
 impl Solution {
     pub fn fib(n: i32) -> i32 {
         let mut dp = vec![0i32, 1];
@@ -39,8 +39,8 @@ impl Solution {
         return dp[len - 1];
     }
 }
-```
-```go []
+// ```
+// ```go []
 func fib(n int) int {
 	var dp []int= []int{0, 1}
 	for i := 2; i <= n; i++ {
@@ -48,4 +48,4 @@ func fib(n int) int {
 	}
 	return dp[n]
 }
-```
+// ```

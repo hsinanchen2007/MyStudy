@@ -1,15 +1,15 @@
-### 解题思路
-利用unordered_map作滑动窗口
-算法：
-1.初始化头尾指针分别为head=0,tail=0
-2.tail指针右移，并将tail所指元素加入到窗口中，判断tail当前指向的元素在滑动窗口中是否出现，
-	- 如果出现，则将滑动窗口当前head所指元素数量-1，并移动head，直到该窗口中不包含该元素.
-	- 如果未出现，则更新res，并进行下一轮循环，直到tail=s.size()
+// ### 解题思路
+// 利用unordered_map作滑动窗口
+// 算法：
+// 1.初始化头尾指针分别为head=0,tail=0
+// 2.tail指针右移，并将tail所指元素加入到窗口中，判断tail当前指向的元素在滑动窗口中是否出现，
+// 	- 如果出现，则将滑动窗口当前head所指元素数量-1，并移动head，直到该窗口中不包含该元素.
+// 	- 如果未出现，则更新res，并进行下一轮循环，直到tail=s.size()
 
-3.返回结果res
-### 代码
+// 3.返回结果res
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int lengthOfLongestSubstring(string s) {
@@ -34,4 +34,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

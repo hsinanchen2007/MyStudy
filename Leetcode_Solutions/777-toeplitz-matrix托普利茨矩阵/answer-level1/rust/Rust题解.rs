@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn is_toeplitz_matrix(matrix: Vec<Vec<i32>>) -> bool {
         for i in 1..matrix.len() {
@@ -12,5 +12,5 @@ impl Solution {
         true
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

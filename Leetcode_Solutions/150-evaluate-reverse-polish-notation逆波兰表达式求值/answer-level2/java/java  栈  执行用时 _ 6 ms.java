@@ -1,10 +1,10 @@
-### 解题思路
-遇数进栈，遇操作符出栈两个数进行计算，算完再把结果入栈。
-（这咋成中等难度了。。。）
+// ### 解题思路
+// 遇数进栈，遇操作符出栈两个数进行计算，算完再把结果入栈。
+// （这咋成中等难度了。。。）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int evalRPN(String[] tokens) {
         Stack<Integer> s = new Stack<>();
@@ -40,4 +40,4 @@ class Solution {
         return s.pop();
     }
 }
-```
+// ```

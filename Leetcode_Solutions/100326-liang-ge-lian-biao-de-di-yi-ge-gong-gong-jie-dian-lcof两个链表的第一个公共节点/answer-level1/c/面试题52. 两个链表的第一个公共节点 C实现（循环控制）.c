@@ -1,9 +1,9 @@
-### 解题思路
-    将链表节点的地址存入数组从后往前依次比较地址，这题的val不重要甚至可以说不需要。
+// ### 解题思路
+//     将链表节点的地址存入数组从后往前依次比较地址，这题的val不重要甚至可以说不需要。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -67,4 +67,4 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     }
     return pB[0];
 }
-```
+// ```

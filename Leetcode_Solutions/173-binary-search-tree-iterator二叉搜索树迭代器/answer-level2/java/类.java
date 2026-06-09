@@ -1,9 +1,9 @@
-### 解题思路
-感觉leetcode中的这类题目都是在考察相应语言的语言特点。比如java来说，就是在考察java类。
+// ### 解题思路
+// 感觉leetcode中的这类题目都是在考察相应语言的语言特点。比如java来说，就是在考察java类。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -54,4 +54,4 @@ class BSTIterator {
  * int param_1 = obj.next();
  * boolean param_2 = obj.hasNext();
  */
-```
+// ```

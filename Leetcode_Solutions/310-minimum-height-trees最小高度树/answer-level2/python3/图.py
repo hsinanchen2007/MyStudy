@@ -1,9 +1,9 @@
-### 解题思路
-由叶子向根过滤节点
+# ### 解题思路
+# 由叶子向根过滤节点
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
         indegree = [0 for _ in range(n)]
@@ -31,4 +31,4 @@ class Solution:
                     if indegree[j] == 1:
                         queue.append(j)
         return queue
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-use counter
-### 代码
+# ### 解题思路
+# use counter
+# ### 代码
 
-```python
+# ```python
 from collections import Counter
 class Solution(object):
     def uncommonFromSentences(self, A, B):
@@ -13,4 +13,4 @@ class Solution(object):
         """
         return [k for k, v in (Counter(A.split()) + Counter(B.split())).items() if v == 1]
 
-```
+# ```

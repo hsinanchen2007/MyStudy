@@ -1,5 +1,5 @@
 
-```Go
+// ```Go
 // 双指针 - 单向移动
 func maxArea(height []int) int {
 	start, end, val, max := 0, len(height) - 1, 0, 0
@@ -16,4 +16,4 @@ func maxArea(height []int) int {
 
 	return max
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用双端队列作为本地缓冲区，保存上次读剩下的字符。
+// 使用双端队列作为本地缓冲区，保存上次读剩下的字符。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 // Forward declaration of the read4 API.
 int read4(char *buf);
 
@@ -41,4 +41,4 @@ public:
         return min(count, n);   
     }
 };
-```
+// ```

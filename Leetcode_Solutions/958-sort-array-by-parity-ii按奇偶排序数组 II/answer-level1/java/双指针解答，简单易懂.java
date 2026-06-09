@@ -1,9 +1,9 @@
-### 解题思路
-双指针，简单易懂
+// ### 解题思路
+// 双指针，简单易懂
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArrayByParityII(int[] A) {
         int even = 0;
@@ -22,4 +22,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-思路：
-基本思路与[这道题](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/javascriptjie-fa-by-azleal/)一致。只不过多了一个最多次数的条件
-```
+// 思路：
+// 基本思路与[这道题](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/solution/javascriptjie-fa-by-azleal/)一致。只不过多了一个最多次数的条件
+// ```
 /**
  * @param {number[]} nums
  * @return {number}
@@ -23,4 +23,4 @@ var removeDuplicates = function(nums) {
     }
     return slowPointer
 };
-```
+// ```

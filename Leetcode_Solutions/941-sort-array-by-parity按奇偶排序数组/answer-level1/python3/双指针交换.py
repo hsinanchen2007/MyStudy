@@ -1,9 +1,9 @@
-### 解题思路
-双指针一指向前，一指向末尾，发现符合条件的交换
+# ### 解题思路
+# 双指针一指向前，一指向末尾，发现符合条件的交换
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortArrayByParity(self, A: List[int]) -> List[int]:
         n=len(A)
@@ -20,4 +20,4 @@ class Solution:
 
 
 
-```
+# ```

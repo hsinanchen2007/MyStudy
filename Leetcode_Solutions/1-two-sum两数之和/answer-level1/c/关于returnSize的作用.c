@@ -1,10 +1,10 @@
-### 解题思路
-不是很理解这个传入的returnSize的作用
-暂且猜测出题人的意图是，如果对目标值target可以找到答案，则returnSize为2，否则为0
+// ### 解题思路
+// 不是很理解这个传入的returnSize的作用
+// 暂且猜测出题人的意图是，如果对目标值target可以找到答案，则returnSize为2，否则为0
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -24,4 +24,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     }
     return returnArray;
 }
-```
+// ```

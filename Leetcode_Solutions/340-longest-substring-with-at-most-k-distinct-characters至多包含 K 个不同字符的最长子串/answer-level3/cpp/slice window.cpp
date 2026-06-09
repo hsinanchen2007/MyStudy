@@ -1,4 +1,4 @@
-```c++ []
+// ```c++ []
 class Solution {
 public:
     char minIdx(unordered_map<char,int> & hashmap){
@@ -42,10 +42,10 @@ public:
         return ans;
     }
 };
-```
-```python []
+// ```
+// ```python []
 
-```
-```java []
+// ```
+// ```java []
 
-```
+// ```

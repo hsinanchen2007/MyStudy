@@ -1,5 +1,5 @@
-### 代码
-```javascript
+// ### 代码
+// ```javascript
 var matrixReshape = function(nums, r, c) {
     const arr = flattenDeep(nums)
     console.log(arr)
@@ -24,6 +24,6 @@ function flattenDeep(arr){
         return prev.concat(Array.isArray(next) ? flattenDeep(next) : next);
     },[])
 }
-```
-时间复杂度：O(r * c)
-空间复杂度：O(r * c)
+// ```
+// 时间复杂度：O(r * c)
+// 空间复杂度：O(r * c)

@@ -1,4 +1,4 @@
-```
+// ```
 int numJewelsInStones(char * J, char * S)
 {
     int returnNum = 0;
@@ -18,4 +18,4 @@ int numJewelsInStones(char * J, char * S)
     }
     return returnNum;
 }
-```
+// ```

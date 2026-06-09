@@ -1,12 +1,12 @@
-### 解题思路
-1. 利用哈希版本的Map统计每个单词的出现次数
-2. 将统计到的每个单词拷贝到vector中
-3. 按照统计值排序前K个
-4. 只保留前K个元素返回
+// ### 解题思路
+// 1. 利用哈希版本的Map统计每个单词的出现次数
+// 2. 将统计到的每个单词拷贝到vector中
+// 3. 按照统计值排序前K个
+// 4. 只保留前K个元素返回
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> topKFrequent(vector<string>& words, int k) {
@@ -35,4 +35,4 @@ public:
         return ret;
     }
 };
-```
+// ```

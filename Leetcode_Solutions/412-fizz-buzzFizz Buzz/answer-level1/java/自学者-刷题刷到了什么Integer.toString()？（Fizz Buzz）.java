@@ -1,11 +1,11 @@
-### 解题思路
-* 求余数
-* 定型自己的思维，将整数转字符串固定为Integer.toString(i)
-* 为什么不用String.valueOf(i); i=null时 字符串="null"，暂时不用。
+// ### 解题思路
+// * 求余数
+// * 定型自己的思维，将整数转字符串固定为Integer.toString(i)
+// * 为什么不用String.valueOf(i); i=null时 字符串="null"，暂时不用。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> fizzBuzz(int n) {
         List<String> sb = new LinkedList<>();
@@ -26,4 +26,4 @@ class Solution {
         return sb;
     }
 }
-```
+// ```

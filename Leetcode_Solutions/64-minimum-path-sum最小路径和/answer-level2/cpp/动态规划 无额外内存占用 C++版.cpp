@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b03ffa1309c1807babf82285392b0d055529083046647ecd9293fa2af5829e74-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b03ffa1309c1807babf82285392b0d055529083046647ecd9293fa2af5829e74-image.png)
 
-思路还是比较简单的，只更新输入矩阵的第一行
-```
+// 思路还是比较简单的，只更新输入矩阵的第一行
+// ```
 #include <vector>
 
 using namespace std;
@@ -20,4 +20,4 @@ public:
         return grid[0][grid[0].size()-1];
     }
 };
-```
+// ```

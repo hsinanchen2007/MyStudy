@@ -1,10 +1,10 @@
-### 解题思路
-1. 从题目中得知，我可以用奇偶数来判断元素的添加的位置
-2. 参考https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/solution/js-dui-lie-shu-zu-by-59yqcidez3/
+// ### 解题思路
+// 1. 从题目中得知，我可以用奇偶数来判断元素的添加的位置
+// 2. 参考https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/solution/js-dui-lie-shu-zu-by-59yqcidez3/
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -52,4 +52,4 @@ var levelOrder = function(root) {
     return res
 
 };
-```
+// ```

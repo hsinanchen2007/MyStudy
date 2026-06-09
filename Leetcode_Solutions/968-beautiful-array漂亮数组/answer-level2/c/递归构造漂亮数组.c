@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -59,4 +59,4 @@ int* beautifulArray(int N, int* returnSize){
 
     return arr;
 }
-```
+// ```

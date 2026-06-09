@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         find_pos = False
@@ -26,4 +26,4 @@ class Solution:
                 find_pos = True
                 return j + 1
             
-```
+# ```

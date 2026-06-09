@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isPalindrome(String s) {
         s=s.trim().toLowerCase();
@@ -22,4 +22,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int bagOfTokensScore(int[] tokens, int P) {
         int result = 0;
@@ -56,4 +56,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

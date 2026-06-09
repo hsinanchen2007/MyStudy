@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针  i是慢指针，j是快指针
+// ### 解题思路
+// 快慢指针  i是慢指针，j是快指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String compressString(String S) {
        int length = S.length();
@@ -26,4 +26,4 @@ class Solution {
         return String.valueOf(NewString);
     }
 }
-```
+// ```

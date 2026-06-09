@@ -1,4 +1,4 @@
-```
+// ```
 func largestRectangleArea(heights []int) int {
     // 1.暴力（根据宽找高度）：
     // 两个柱子之间的最大矩形，由最矮柱子决定，所以在两个指针的遍历中找到最矮柱子
@@ -35,4 +35,4 @@ func max(a,b int)int{
     if a>b{return a}
     return b
 }
-```
+// ```

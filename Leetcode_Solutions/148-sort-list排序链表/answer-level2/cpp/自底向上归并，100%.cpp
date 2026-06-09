@@ -1,12 +1,12 @@
-### 解题思路
-自底向上归并，从长度1到超过链表长度来设置归并段的长度，
-![mmexport1578837551549.jpg](https://pic.leetcode-cn.com/2c3007792fbd492bfa92fad7f482b6e7eb9de91b6ad8ae9c541648b4d81a4169-mmexport1578837551549.jpg)
+// ### 解题思路
+// 自底向上归并，从长度1到超过链表长度来设置归并段的长度，
+// ![mmexport1578837551549.jpg](https://pic.leetcode-cn.com/2c3007792fbd492bfa92fad7f482b6e7eb9de91b6ad8ae9c541648b4d81a4169-mmexport1578837551549.jpg)
 
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -128,4 +128,4 @@ public:
         return h->next;
     }
 };
-```
+// ```

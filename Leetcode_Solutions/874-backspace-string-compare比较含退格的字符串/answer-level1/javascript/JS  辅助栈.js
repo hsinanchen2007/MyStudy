@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var backspaceCompare = function(S, T) {
     if (S === T) {
         return true
@@ -25,6 +25,6 @@ const helper = s => {
     }
     return res.join('')
 }
-```
-时间复杂度：O(2n)
-空间复杂度：O(2n)
+// ```
+// 时间复杂度：O(2n)
+// 空间复杂度：O(2n)

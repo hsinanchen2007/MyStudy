@@ -1,9 +1,9 @@
-### 解题思路
-这道题用递归可以简化思路，实现简单
+// ### 解题思路
+// 这道题用递归可以简化思路，实现简单
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isMatch(String s, String p) {
         if (p.length() <= 0) 
@@ -16,4 +16,4 @@ class Solution {
 	    }
     }
 }
-```
+// ```

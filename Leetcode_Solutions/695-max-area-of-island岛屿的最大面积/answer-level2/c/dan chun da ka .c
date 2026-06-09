@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cacularea(int**grid,int **gridvisited,int i,int j,int gridSize, int* gridColSize){
     int sum=1;
     gridvisited[i][j]=1;
@@ -43,4 +43,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
 }
 
 
-```
+// ```

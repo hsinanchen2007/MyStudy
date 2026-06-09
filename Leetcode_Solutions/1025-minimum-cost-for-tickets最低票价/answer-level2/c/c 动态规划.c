@@ -1,9 +1,9 @@
-### 解题思路
-自下而上的动态规划，注意一个细节。有可能7天的cost比1天的cost要低，真够坑的
+// ### 解题思路
+// 自下而上的动态规划，注意一个细节。有可能7天的cost比1天的cost要低，真够坑的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX 400000
 #define DAYS 365
 
@@ -37,4 +37,4 @@ int mincostTickets(int* days, int daysSize, int* costs, int costsSize){
 
     return dp[i-1];
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-使用邻接表存有向图，对每个点进行一次DFS
+// ### 解题思路
+// 使用邻接表存有向图，对每个点进行一次DFS
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
@@ -48,4 +48,4 @@ public:
         }
     }
 };
-```
+// ```

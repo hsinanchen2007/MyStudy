@@ -1,13 +1,13 @@
-### 解题思路
-执行用时 :
-2 ms
-, 在所有 Java 提交中击败了
-89.46%
-的用户
+// ### 解题思路
+// 执行用时 :
+// 2 ms
+// , 在所有 Java 提交中击败了
+// 89.46%
+// 的用户
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minSubArrayLen(int s, int[] nums) {
         if (nums == null) {
@@ -36,4 +36,4 @@ class Solution {
         return minLen;
     }
 }
-```
+// ```

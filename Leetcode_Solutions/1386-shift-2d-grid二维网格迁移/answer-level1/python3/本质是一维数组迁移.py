@@ -1,8 +1,8 @@
-借助一维数组展开二维数组数据，再按照一维数组平移得到移动后的值，更新二维数组结果
-时间复杂度O(N)
-空间复杂度O(N)
+# 借助一维数组展开二维数组数据，再按照一维数组平移得到移动后的值，更新二维数组结果
+# 时间复杂度O(N)
+# 空间复杂度O(N)
 
-```python []
+# ```python []
 class Solution:
     def shiftGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:
         if k==0:
@@ -19,6 +19,6 @@ class Solution:
             for j in range(n):
                 grid[i][j]=nrow[i*n+j]
         return grid
-```
+# ```
 
 

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/20aca531467e8644227568f79ae8cf3f3213a19e346bb3e1bd76e96ba56677bd-image.png)
+// ![image.png](https://pic.leetcode-cn.com/20aca531467e8644227568f79ae8cf3f3213a19e346bb3e1bd76e96ba56677bd-image.png)
 
-```c
+// ```c
 int cmp(void *lhsPtr, void *rhsPtr) {
     return (*(int*)lhsPtr > *(int*)rhsPtr) - 
            (*(int*)lhsPtr < *(int*)rhsPtr);
@@ -33,4 +33,4 @@ int* intersection(int* nums1, int nums1Size, int* nums2, int nums2Size, int* ret
     *returnSize = count;
     return ans;
 }
-```
+// ```

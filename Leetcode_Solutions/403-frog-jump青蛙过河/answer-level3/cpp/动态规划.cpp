@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 bool cross(int k, map<int, bool>*dp,int curr,vector<int>&stones,map<int,int>&exist)
@@ -58,4 +58,4 @@ bool cross(int k, map<int, bool>*dp,int curr,vector<int>&stones,map<int,int>&exi
 	return re;
     }
 };
-```
+// ```

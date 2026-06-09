@@ -1,8 +1,8 @@
-dp存着到达当前点的可能性数量
-temp存着上一步step的dp数组的值（方便本次step的计算）
-并且由于把step放到循环里，不需要开二维数组，节省了空间。
-注意dp数组要取steps与arrLen的最小值，不然最后那个样例可能会过不去。
-```
+// dp存着到达当前点的可能性数量
+// temp存着上一步step的dp数组的值（方便本次step的计算）
+// 并且由于把step放到循环里，不需要开二维数组，节省了空间。
+// 注意dp数组要取steps与arrLen的最小值，不然最后那个样例可能会过不去。
+// ```
 class Solution {
     public int numWays(int steps, int arrLen) {
         //每次循环step，当前点的可能性都是由当前点的值加上前后两个点的值得到的
@@ -59,4 +59,4 @@ class Solution {
         return dp[0]%mod;
     }
 }
-```
+// ```

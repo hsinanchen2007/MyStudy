@@ -1,5 +1,5 @@
-思路就是维护一个数组记录每个子表的长度，取每个子链表的长度为链表长度除以k，再将剩下**链表长度模k**个结点加到靠前的结点上。根据数组中记录的子表长度对链表进行分割即可。
-```
+// 思路就是维护一个数组记录每个子表的长度，取每个子链表的长度为链表长度除以k，再将剩下**链表长度模k**个结点加到靠前的结点上。根据数组中记录的子表长度对链表进行分割即可。
+// ```
 public class SplitLinkedListInParts {
     public ListNode[] splitListToParts(ListNode root, int k) {
         int size=0;
@@ -35,4 +35,4 @@ public class SplitLinkedListInParts {
         return res;
     }
 }
-```
+// ```

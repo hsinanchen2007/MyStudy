@@ -1,9 +1,9 @@
-### 解题思路
-纯C 双指针 左右指针
+// ### 解题思路
+// 纯C 双指针 左右指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static int comp(const void* a, const void* b)
 {
     return *(int*)a - *(int*)b;
@@ -45,4 +45,4 @@ void nextPermutation(int* nums, int numsSize){
 
     qsort(nums + left + 1, numsSize - 1 - left, sizeof(int), comp);
 }
-```
+// ```

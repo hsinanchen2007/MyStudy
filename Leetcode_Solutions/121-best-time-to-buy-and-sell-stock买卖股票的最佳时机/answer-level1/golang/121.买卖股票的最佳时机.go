@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-简单题，看代码。
+// 简单题，看代码。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(prices []int) int {
 	maxprofit := 0  //最大利润
 	minprice := math.MaxInt64	//最低价格
@@ -18,4 +18,4 @@ func maxProfit(prices []int) int {
 	}
 	return maxprofit
 }
-```
+// ```

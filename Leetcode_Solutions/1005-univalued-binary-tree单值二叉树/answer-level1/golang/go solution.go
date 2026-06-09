@@ -1,9 +1,9 @@
-### 解题思路
-go simple example
+// ### 解题思路
+// go simple example
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -24,4 +24,4 @@ func isUnivalTree(root *TreeNode) bool {
 	return isUnivalTree(root.Left) && isUnivalTree(root.Right)
 }
 
-```
+// ```

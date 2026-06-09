@@ -1,4 +1,4 @@
-```
+// ```
 //方法一： 暴力求解
 func longestCommonPrefix(strs []string) string {
 	stest:=shortest(strs)
@@ -44,5 +44,5 @@ func longestCommonPrefix2(strs []string) string {
 	}
 	return prefix
 }
-```
-第一种没啥好解释的，看代码即可。第二种是官方题解第一种方法的golang翻译版。
+// ```
+// 第一种没啥好解释的，看代码即可。第二种是官方题解第一种方法的golang翻译版。

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-每一个数组最后一个节点一定是当前子数组的根结点，通过BST的性质进行数值比较，一直递归到左右index相等，返回
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 每一个数组最后一个节点一定是当前子数组的根结点，通过BST的性质进行数值比较，一直递归到左右index相等，返回
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 bool recursiveTraverse(vector<int>& postOrder, int left, int right){
@@ -48,4 +48,4 @@ bool recursiveTraverse(vector<int>& postOrder, int left, int right){
     }
     
 };
-```
+// ```

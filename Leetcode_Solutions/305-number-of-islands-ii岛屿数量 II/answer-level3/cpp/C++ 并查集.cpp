@@ -1,6 +1,6 @@
-每次添加新的大陆，都检查其邻居是否已经是大陆，如果已经是大陆了，比较与自身大陆归属的岛屿是否相同
-代码如下：
-```
+// 每次添加新的大陆，都检查其邻居是否已经是大陆，如果已经是大陆了，比较与自身大陆归属的岛屿是否相同
+// 代码如下：
+// ```
 class Solution {
 public:
     vector<int> F;
@@ -43,5 +43,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/1f27f2c866245171019a5e1c7633352b6ef82d8a64557a2c7db185e346d84d39-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/1f27f2c866245171019a5e1c7633352b6ef82d8a64557a2c7db185e346d84d39-image.png)

@@ -1,9 +1,9 @@
-利用优先队列和map存储包含的字符排序，可以扩展到N个字符和最大N次
-每次取优先队列的首个字符判断结果集中是否包含连续出现两次的情况，如果出现则取下一个字符
+// 利用优先队列和map存储包含的字符排序，可以扩展到N个字符和最大N次
+// 每次取优先队列的首个字符判断结果集中是否包含连续出现两次的情况，如果出现则取下一个字符
 
-JAVA 3ms
+// JAVA 3ms
 
-```
+// ```
 class Solution {
     public String longestDiverseString(int a, int b, int c) {
         HashMap<Character,Integer> map = new HashMap();
@@ -42,4 +42,4 @@ class Solution {
 
     }
 }
-```
+// ```

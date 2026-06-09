@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func countDigitOne(_ n: Int) -> Int {
         return helper(n)
@@ -19,5 +19,5 @@ class Solution {
         }
     }
 }
-```
-//真心吐槽，swift关于字符串和字符数组的语法，还有类型转换真心裹脚布，用着真心难受。
+// ```
+// //真心吐槽，swift关于字符串和字符数组的语法，还有类型转换真心裹脚布，用着真心难受。

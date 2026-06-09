@@ -1,14 +1,14 @@
-### 解题思路
-使用滑动窗口思路
-start 是窗口的开始
-end 是窗口的结束索引+1
-lookup 记录当前窗口中的字符的重复次数（理论上只能是[0,2]）。
+// ### 解题思路
+// 使用滑动窗口思路
+// start 是窗口的开始
+// end 是窗口的结束索引+1
+// lookup 记录当前窗口中的字符的重复次数（理论上只能是[0,2]）。
 
-当遇见当前字符在窗口中出现过时（ok && res>0）。重新计算start。把和当前窗口中和当前字符相等的字符及前面字符减去1。
-同时每去掉一个字符start+1（相当于窗口向右滑动一次）
-### 代码
+// 当遇见当前字符在窗口中出现过时（ok && res>0）。重新计算start。把和当前窗口中和当前字符相等的字符及前面字符减去1。
+// 同时每去掉一个字符start+1（相当于窗口向右滑动一次）
+// ### 代码
 
-```golang
+// ```golang
 func lengthOfLongestSubstring(s string) int {
 	if len(s) == 0 {
 		return 0
@@ -49,4 +49,4 @@ func lengthOfLongestSubstring(s string) int {
 
 	return maxLen
 }
-```
+// ```

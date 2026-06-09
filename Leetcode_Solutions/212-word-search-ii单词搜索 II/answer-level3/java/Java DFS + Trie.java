@@ -1,5 +1,5 @@
-1、常规思路，定义一个字典树，通过深度优先求解，通过match、visited剪枝
-```java
+// 1、常规思路，定义一个字典树，通过深度优先求解，通过match、visited剪枝
+// ```java
 class Solution {
     public List<String> findWords(char[][] board, String[] words) {
         Trie trie = new Trie();
@@ -87,12 +87,12 @@ class Trie {
         }
     }
 }
-```
+// ```
 
-2、简单优化：
-   重定义Trie节点，将字典树合进主方法，改写match方法减少循环，去除currWord参数，减少word拼接带来的开销
-   通过对board[i][j]重新赋值，去除visited参数，节约空间
-```java
+// 2、简单优化：
+//    重定义Trie节点，将字典树合进主方法，改写match方法减少循环，去除currWord参数，减少word拼接带来的开销
+//    通过对board[i][j]重新赋值，去除visited参数，节约空间
+// ```java
 class Solution {
     public List<String> findWords(char[][] board, String[] words) {
         TrieNode trieNode = createTrie(words);
@@ -149,4 +149,4 @@ class Solution {
         String word;
     }
 }
-```
+// ```

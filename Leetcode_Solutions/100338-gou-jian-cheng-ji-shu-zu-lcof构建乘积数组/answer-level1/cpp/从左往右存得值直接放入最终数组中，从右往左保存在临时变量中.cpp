@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> multiply(const vector<int>& A) {
@@ -19,4 +19,4 @@ public:
     }
     
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-这种题目不是算法题目，而是数学题目，你妹的
+// ### 解题思路
+// 这种题目不是算法题目，而是数学题目，你妹的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countDigitOne(int n) {
         int sum = 0;
@@ -14,4 +14,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-典型的BFS，然后层次遍历
+# 典型的BFS，然后层次遍历
 
-字典用来回溯路径
+# 字典用来回溯路径
 
-看代码很容易理解
-```
+# 看代码很容易理解
+# ```
 class Solution(object):
     def findLadders(self, beginWord, endWord, wordList):
         """
@@ -38,7 +38,7 @@ class Solution(object):
         if cur:
             backtrack(res,routine,[],endWord)
         return res
-```
+# ```
 
 
 

@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func circularPermutation(_ n: Int, _ start: Int) -> [Int] {
         var grayCode = createGrayCode(n)
@@ -35,4 +35,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

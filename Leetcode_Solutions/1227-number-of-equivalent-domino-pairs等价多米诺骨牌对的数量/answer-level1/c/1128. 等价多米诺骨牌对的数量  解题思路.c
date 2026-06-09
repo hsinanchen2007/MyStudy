@@ -1,10 +1,10 @@
-### 解题思路
-1 使用 100长的数组存储元素
-2 从小到大遍历1-99符合条件的情况
+// ### 解题思路
+// 1 使用 100长的数组存储元素
+// 2 从小到大遍历1-99符合条件的情况
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_LEN 100
 #define DEC 10
 #define DOUBLE 2
@@ -53,4 +53,4 @@ int numEquivDominoPairs(int** dominoes, int dominoesSize, int* dominoesColSize)
 
     return cnt;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-## 简介
-- [题目链接](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/)
+// ## 简介
+// - [题目链接](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order/)
 
-## 解法一 - 排序后处理
-非递增排序后从开始开始取数判断即可。
+// ## 解法一 - 排序后处理
+// 非递增排序后从开始开始取数判断即可。
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -24,16 +24,16 @@ var minSubsequence = function(nums) {
     }
     return ans;
 };
-```
+// ```
 
-**复杂度分析**:
-- 时间复杂度： $O(NlogN)$，$N$ 是数组长度
-- 空间复杂度： 依赖于排序库函数实现
+// **复杂度分析**:
+// - 时间复杂度： $O(NlogN)$，$N$ 是数组长度
+// - 空间复杂度： 依赖于排序库函数实现
 
-## 解法二 - 大顶堆
-我们只需要局部有序即可。这里我们可以使用大顶堆来优化时间复杂度。
+// ## 解法二 - 大顶堆
+// 我们只需要局部有序即可。这里我们可以使用大顶堆来优化时间复杂度。
 
-```python
+// ```python
 class Solution:
     def minSubsequence(self, nums: List[int]) -> List[int]:
         import heapq
@@ -56,7 +56,7 @@ class Solution:
             if count < half: break
         
         return ans
-```
-**复杂度分析**:
-- 时间复杂度： $O(N+KlogN)$，$N$ 是数组长度， $K$ 是最终答案数组大小
-- 空间复杂度： $O(1)$
+// ```
+// **复杂度分析**:
+// - 时间复杂度： $O(N+KlogN)$，$N$ 是数组长度， $K$ 是最终答案数组大小
+// - 空间复杂度： $O(1)$

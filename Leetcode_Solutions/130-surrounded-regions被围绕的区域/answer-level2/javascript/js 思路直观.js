@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/baca47b144d54b7e41939361efe2ba42ece16c3b0521267ec8bd8956336b3e23-image.png)
+// ![image.png](https://pic.leetcode-cn.com/baca47b144d54b7e41939361efe2ba42ece16c3b0521267ec8bd8956336b3e23-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
   DFS + 递归
   思路：
   1.遍历四条边，遇到 'O' ，从它开始，进行 dfs，把所有与它联通的点标记为 '#'
   2.遍历一遍矩阵，把所有 'O' 变为 'X' ，所有 '#' 变为 'O'
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -58,4 +58,4 @@ var solve = function(board) {
     }
   }
 };
-```
+// ```

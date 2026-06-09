@@ -1,9 +1,9 @@
-思路：
-1.生成一个从0到最大值的计数列表
-2.循环整个列表，进行计数
-3.将每个元素的值和自己的索引进行比较
+# 思路：
+# 1.生成一个从0到最大值的计数列表
+# 2.循环整个列表，进行计数
+# 3.将每个元素的值和自己的索引进行比较
 
-```
+# ```
 class Solution:
     def findLucky(self, arr: List[int]) -> int:
         data = arr
@@ -22,4 +22,4 @@ class Solution:
             return max(luck)
         else:
             return -1
-```
+# ```

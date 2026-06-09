@@ -1,5 +1,5 @@
-直接正则表达式,太慢.按照正则表达式逐步判断,4ms解决.
-```
+// 直接正则表达式,太慢.按照正则表达式逐步判断,4ms解决.
+// ```
 class Solution {
 public:
     bool isNumber(string &s) {
@@ -19,4 +19,4 @@ public:
         return i==s.length();
     }
 };
-```
+// ```

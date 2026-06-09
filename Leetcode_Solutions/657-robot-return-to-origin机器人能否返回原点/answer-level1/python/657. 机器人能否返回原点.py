@@ -1,8 +1,8 @@
-**Str/List.count('匹配值')**
+# **Str/List.count('匹配值')**
 
 
-python2
-```
+# python2
+# ```
 class Solution(object):
     def judgeCircle(self, moves):
         """
@@ -21,10 +21,10 @@ class Solution(object):
                 UD -= 1
 
         return True if RL == 0 and UD == 0 else False
-```
+# ```
 
-python2
-```
+# python2
+# ```
 class Solution(object):
     def judgeCircle(self, moves):
         """
@@ -38,12 +38,12 @@ class Solution(object):
         return False
         # return moves.count('R') == moves.count('L') and moves.count('U') == moves.count('D')
 print Solution().judgeCircle('UD')
-```
+# ```
 
-python3 这个最快
-```
+# python3 这个最快
+# ```
 class Solution:
     def judgeCircle(self, moves: str) -> bool:
         return moves.count('R') == moves.count('L') and moves.count('U') == moves.count('D')
         
-```
+# ```

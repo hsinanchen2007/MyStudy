@@ -1,8 +1,8 @@
-# 【程序员的自我修养】239. Sliding Window Maximum
+// # 【程序员的自我修养】239. Sliding Window Maximum
 
-### 解题思路
-1. 暴力法，O（n^2）260 ms
-```cpp
+// ### 解题思路
+// 1. 暴力法，O（n^2）260 ms
+// ```cpp
  vector<int> maxSlidingWindow(vector<int>& nums, int k) {
 		if (k == 0)return {};
 		int length = nums.size();
@@ -23,13 +23,13 @@
 		}
 		return result;
 }
-```
+// ```
 
 
-2. 双端队列
-**利用一个双端队列来保存当前窗口中最大那个数在数组里的下标，双端队列新的头就是当前窗口中最大的那个数。**
-![239.gif](https://pic.leetcode-cn.com/f42d2ecac3c9be6253914d7e4cbddbb0dad4145abc0ff567681fcef06b78f012-239.gif)
-```
+// 2. 双端队列
+// **利用一个双端队列来保存当前窗口中最大那个数在数组里的下标，双端队列新的头就是当前窗口中最大的那个数。**
+// ![239.gif](https://pic.leetcode-cn.com/f42d2ecac3c9be6253914d7e4cbddbb0dad4145abc0ff567681fcef06b78f012-239.gif)
+// ```
 初始化窗口 k = 3，包含 1，3， - 1，把 1 的下标压入双端队列的尾部；
 
 把 3 和双端队列的队尾的数据逐个比较，3 > 1，把 1 的下标弹出，把 3 的下标压入队尾；
@@ -51,9 +51,9 @@
 5 压入队列头部，成为当前窗口最大值；
 
 继续移动窗口，操作与上述同理。
-```
+// ```
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
@@ -88,4 +88,4 @@ public:
 		return result;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-思路: 先行查找，再列查找
-- 行查找：仅仅找出区间
-- 列查找：精准查找，找不到返回false
-```C++
+// 思路: 先行查找，再列查找
+// - 行查找：仅仅找出区间
+// - 列查找：精准查找，找不到返回false
+// ```C++
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -43,4 +43,4 @@ private:
         return false;
     }
 };
-```
+// ```

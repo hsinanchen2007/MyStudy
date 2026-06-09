@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn coin_change(coins: Vec<i32>, amount: i32) -> i32 {
         let mut dp = vec![-1; amount as usize + 1];
@@ -16,5 +16,5 @@ impl Solution {
         dp[amount as usize]
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

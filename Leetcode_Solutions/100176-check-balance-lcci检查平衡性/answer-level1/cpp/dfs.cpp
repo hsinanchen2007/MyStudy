@@ -1,8 +1,8 @@
-求左右子树的高度
+// 求左右子树的高度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
@@ -22,4 +22,4 @@ public:
     	return max(l,r)+1;
     }
 };
-```
+// ```

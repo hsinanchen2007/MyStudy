@@ -1,17 +1,17 @@
-![image.png](https://pic.leetcode-cn.com/4ae212cd4208f994db8d67cfa9e413bbab1a66757b56b739095a14ae543e91d0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4ae212cd4208f994db8d67cfa9e413bbab1a66757b56b739095a14ae543e91d0-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   使用 map 和 array 两个数据结构完成，不使用 Set 了，不然做这道题没有意义
   
   ps：开始没想清楚怎么做到删除的时候，能保证其他值在 map 中的索引映射不被影响，
   看了官方的思路(我脑子咋就不转弯)，直接把要删除的元素和数组的最后一个元素在 map 中
   的映射关系互换一下，把要删除的元素和数组的最后一个元素互换位置，删除之。
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var RandomizedSet = function() {
   this.arr = [];
   this.map = {};
@@ -70,4 +70,4 @@ RandomizedSet.prototype.getRandom = function() {
   let randomIndex = this.getRandomIndex(n - 1);
   return arr[ randomIndex ];
 };
-```
+// ```

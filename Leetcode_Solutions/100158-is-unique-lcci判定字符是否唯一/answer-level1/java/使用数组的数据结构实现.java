@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-使用数组的数据结构实现
+// 使用数组的数据结构实现
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         if( astr == null || astr.isEmpty() ){
@@ -29,4 +29,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-### 使用对象：失败
-本来直接使用对象编写的，利用可以获得对象的全部键值对，将值的活跃度按 最前面的是要被删除的，最后面的是最活跃的 排序，键值对按照对象的key排序，然而最后发现，新加入的key－value不是直接放到最后，而是按码值排序，因此会一直按‘0’'1''2'排序
-```
+// ### 使用对象：失败
+// 本来直接使用对象编写的，利用可以获得对象的全部键值对，将值的活跃度按 最前面的是要被删除的，最后面的是最活跃的 排序，键值对按照对象的key排序，然而最后发现，新加入的key－value不是直接放到最后，而是按码值排序，因此会一直按‘0’'1''2'排序
+// ```
 var LRUCache = function(capacity) {
     this.cap = capacity;
     this.cache = {};
@@ -43,11 +43,11 @@ LRUCache.prototype.put = function(key, value) {
     }
     console.log(this.cache);
 };
-```
-### 使用Map对象
-map和object有很大的相似之，但是map的键值对是有序的。
-[object和map的比较](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Map)
-```
+// ```
+// ### 使用Map对象
+// map和object有很大的相似之，但是map的键值对是有序的。
+// [object和map的比较](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Map)
+// ```
 var LRUCache = function(capacity) {
     this.capacity = capacity;
     this.cache = new Map();
@@ -87,9 +87,9 @@ LRUCache.prototype.put = function(key, value) {
         this.cache.set(key, value);
     }
 };
-```
-### 参考大神的简单map代码
-```
+// ```
+// ### 参考大神的简单map代码
+// ```
 class LRUCache {
   constructor(capacity) {
     this.capacity = capacity
@@ -115,4 +115,4 @@ class LRUCache {
   }
 }
 
-```
+// ```

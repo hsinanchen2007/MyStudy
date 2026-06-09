@@ -1,6 +1,6 @@
-PS: 不满足时间复杂度和空间复杂度，快排解法版本
+// PS: 不满足时间复杂度和空间复杂度，快排解法版本
 
-```js
+// ```js
 /*
  * @lc app=leetcode.cn id=148 lang=javascript
  *
@@ -107,4 +107,4 @@ const list = new LinkList([6, 1, 2, 7, 9, 3, 4, 5, 10, 8])
 sortList(list)
 console.log('log => : ListNode', LinkList.toArray(list))
 
-```
+// ```

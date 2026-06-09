@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-数组从后向前求解，进行分式的通分，tmp=分母;分母=分子；分子=cont[i-1]*分子+tmp；
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 数组从后向前求解，进行分式的通分，tmp=分母;分母=分子；分子=cont[i-1]*分子+tmp；
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public  int[] fraction(int[] cont) {
 	int[] result= new int[2];
@@ -31,4 +31,4 @@ public  int  gcd(int a,int b) {
 	return b;	
 }
 }
-```
+// ```

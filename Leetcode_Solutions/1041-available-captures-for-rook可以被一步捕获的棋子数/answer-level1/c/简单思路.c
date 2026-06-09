@@ -1,10 +1,10 @@
-### 解题思路
-找到R
-从上下左右去寻找p
+// ### 解题思路
+// 找到R
+// 从上下左右去寻找p
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int i,j,x,y,z=0;
     for(i=0;i<boardSize;i++){
@@ -55,4 +55,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     return z;
 
 }
-```
+// ```

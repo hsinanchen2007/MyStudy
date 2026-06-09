@@ -1,4 +1,4 @@
-```
+// ```
 static class DSU {
         int[] parent;
         
@@ -87,4 +87,4 @@ static class DSU {
         
         return res;
     }
-```
+// ```

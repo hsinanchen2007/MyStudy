@@ -1,9 +1,9 @@
-### 解题思路
-- split str转为数组
-- 编写一个str反转方法
-- range array 调用str反转方法
+// ### 解题思路
+// - split str转为数组
+// - 编写一个str反转方法
+// - range array 调用str反转方法
 
-```
+// ```
 func reverseWords(s string) string {
 	data := ""
 	split := strings.Split(s, " ")
@@ -27,4 +27,4 @@ func desc(s string) string {
 	}
 	return data
 }
-```
+// ```

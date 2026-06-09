@@ -1,8 +1,8 @@
-双map的方法：
-    - map_key：记录所有的节点，key 为 key，value 为节点的指针，加速查找；
-    - map_freq_list：相同频度的节点构成一条双向链表，map_freq_list key为频度，值为双向链表；
+// 双map的方法：
+//     - map_key：记录所有的节点，key 为 key，value 为节点的指针，加速查找；
+//     - map_freq_list：相同频度的节点构成一条双向链表，map_freq_list key为频度，值为双向链表；
 
-```
+// ```
 // 节点
 typedef struct LFUListNode {
     int key;
@@ -114,4 +114,4 @@ class LFUCache {
     map<int, LFUList*> map_freq_list;
     int capacity = 0;
 };
-```
+// ```

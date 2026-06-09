@@ -1,4 +1,4 @@
-方法一、递归(356 ms,9.3 MB)，每次合并两个
+// 方法一、递归(356 ms,9.3 MB)，每次合并两个
 
     struct ListNode* mergeKLists(struct ListNode** lists, int listsSize) {
         struct ListNode *curNode1 = NULL;

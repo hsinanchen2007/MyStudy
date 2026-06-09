@@ -1,6 +1,6 @@
-*法一：正则*
+// *法一：正则*
 
-```js
+// ```js
 var numUniqueEmails = function(emails) {
     let res = []
     // 匹配+和+后面的
@@ -17,11 +17,11 @@ var numUniqueEmails = function(emails) {
     })
     return new Set(res).size
 };
-```
+// ```
 
-[(?<=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Assertions?from=singlemessage)
+// [(?<=)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Assertions?from=singlemessage)
 
-```js
+// ```js
 var numUniqueEmails = function(emails) {
     let res = []
     // 匹配+和+后面的
@@ -33,5 +33,5 @@ var numUniqueEmails = function(emails) {
     }
     return new Set(res).size
 };
-```
+// ```
 

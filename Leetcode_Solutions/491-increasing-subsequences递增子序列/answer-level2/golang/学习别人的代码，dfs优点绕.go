@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 // 改写别人的dfs算法
 func findSubsequences(nums []int) [][]int {
     var res [][]int
@@ -36,4 +36,4 @@ func findSubsequences(nums []int) [][]int {
     dfs(0, 0, -101)
     return res
 }
-```
+// ```

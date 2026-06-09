@@ -1,15 +1,15 @@
 
-做链表题,个人经验就是,不管简单还是复杂,比较通用步骤
+// 做链表题,个人经验就是,不管简单还是复杂,比较通用步骤
 
-1. 定义三个变量,curr_node,pre_node,next_node分别指代当前处理的节点,上一个节点,下一个节点.
+// 1. 定义三个变量,curr_node,pre_node,next_node分别指代当前处理的节点,上一个节点,下一个节点.
 
-   因为链表题的运算逻辑,本质上就是在调整和更新这三者之间的关系.
+//    因为链表题的运算逻辑,本质上就是在调整和更新这三者之间的关系.
 
-2. 如果不确定返回链表的头结点会不会为输入链表头结点,则new一个ghost节点,把运算结果往这个ghost节点的后面接.
+// 2. 如果不确定返回链表的头结点会不会为输入链表头结点,则new一个ghost节点,把运算结果往这个ghost节点的后面接.
 
-3. 最终返回值就是ghost->next.不过要注意释放堆空间.****
+// 3. 最终返回值就是ghost->next.不过要注意释放堆空间.****
 
-```cpp
+// ```cpp
     ListNode* deleteDuplicates(ListNode* head) {
         if(nullptr==head||nullptr==head->next) return head;
         ListNode* curr_node=head; //当前节点
@@ -40,4 +40,4 @@
         delete pre_node;
         return head;
     }
-```
+// ```

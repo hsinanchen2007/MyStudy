@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，清清爽爽
+// ### 解题思路
+// 动态规划，清清爽爽
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int uniquePaths(int m, int n){
     /* 
      * 状态方程：f[i][j] = f[i-1][j] + f[i][j-1]
@@ -38,4 +38,4 @@ int uniquePaths(int m, int n){
 
     return ppCount[indexOfRow-1][indexOfCol-1];
 }
-```
+// ```

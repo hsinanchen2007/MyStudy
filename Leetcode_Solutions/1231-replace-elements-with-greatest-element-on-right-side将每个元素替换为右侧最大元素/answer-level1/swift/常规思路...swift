@@ -1,8 +1,8 @@
-### 解题思路
-效率不是很理想..
-### 代码
+// ### 解题思路
+// 效率不是很理想..
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func replaceElements(_ arr: [Int]) -> [Int] {
         
@@ -36,4 +36,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、和上一道题一样，即不同数值时，进行real值增加与拷贝；
+// ### 解题思路
+// 此处撰写解题思路
+// 1、和上一道题一样，即不同数值时，进行real值增加与拷贝；
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeElement(int* nums, int numsSize, int val){
     int real_num = 0;
     int i = 0;
@@ -20,4 +20,4 @@ int removeElement(int* nums, int numsSize, int val){
 
     return real_num;
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-* 读出链表长度len，O(n)
-* 找到后半段链表（奇数则找到中间节点，偶数则找右边节点），O(n)
-* 反转后半段链表，O(n)
-* 从head，tail开始比较，退出条件是tail==NULL（在反转链表时后半段链表更快接近NULL结尾），O(n)
+// ### 解题思路
+// * 读出链表长度len，O(n)
+// * 找到后半段链表（奇数则找到中间节点，偶数则找右边节点），O(n)
+// * 反转后半段链表，O(n)
+// * 从head，tail开始比较，退出条件是tail==NULL（在反转链表时后半段链表更快接近NULL结尾），O(n)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -58,8 +58,8 @@ public:
         return t;
     }
 };
-```
-![2.png](https://pic.leetcode-cn.com/25958cf57339cf0efcc0404e118130ba5dc218a08cad8f23e3843e9b0d94f0f5-2.png)
+// ```
+// ![2.png](https://pic.leetcode-cn.com/25958cf57339cf0efcc0404e118130ba5dc218a08cad8f23e3843e9b0d94f0f5-2.png)
 
-* 如果不使用reverseList函数，稍有优化
-![3.png](https://pic.leetcode-cn.com/daabcaf21954d2d0eac5dd4351938c695a0c592a136a1c08f34678607513fad2-3.png)
+// * 如果不使用reverseList函数，稍有优化
+// ![3.png](https://pic.leetcode-cn.com/daabcaf21954d2d0eac5dd4351938c695a0c592a136a1c08f34678607513fad2-3.png)

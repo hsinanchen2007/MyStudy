@@ -1,5 +1,5 @@
-1. 特殊字符4，5，9处理后为：IV,V,IX。对应关系分别为：主字符放右边副字符放左边，主字符，下一位的主字符放右边福字符放左边。
-2. 遍历数字，当前位数字符为tmp=(int)(num/Math.pow(10,i)),同时num%=(int)(num/Math.pow(10,i)),其中i=n:0,n为数字位数减1.
+// 1. 特殊字符4，5，9处理后为：IV,V,IX。对应关系分别为：主字符放右边副字符放左边，主字符，下一位的主字符放右边福字符放左边。
+// 2. 遍历数字，当前位数字符为tmp=(int)(num/Math.pow(10,i)),同时num%=(int)(num/Math.pow(10,i)),其中i=n:0,n为数字位数减1.
 3. class Solution {
     public String intToRoman(int num) {
         int n = 0;

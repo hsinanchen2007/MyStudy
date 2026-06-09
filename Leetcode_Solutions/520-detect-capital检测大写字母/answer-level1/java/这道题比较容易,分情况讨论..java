@@ -1,8 +1,8 @@
-### 解题思路
-执行用时 :1 ms, 在所有 java 提交中击败了100.00%的用户
-内存消耗 :34.6 MB, 在所有 java 提交中击败了93.44%的用户
-### 代码
-```java
+// ### 解题思路
+// 执行用时 :1 ms, 在所有 java 提交中击败了100.00%的用户
+// 内存消耗 :34.6 MB, 在所有 java 提交中击败了93.44%的用户
+// ### 代码
+// ```java
 class Solution {
     public boolean detectCapitalUse(String word) {
        char[] chars = word.toCharArray();
@@ -44,4 +44,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

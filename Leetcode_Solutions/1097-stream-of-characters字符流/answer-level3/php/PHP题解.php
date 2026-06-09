@@ -1,5 +1,5 @@
-其实还是比较简单的，只是PHP很容易超时。
-```
+// 其实还是比较简单的，只是PHP很容易超时。
+// ```
 class StreamChecker {
     public $string;
     function __construct($words) {
@@ -17,4 +17,4 @@ class StreamChecker {
         return false;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-我觉得是比较巧妙的方法：
-```
+// 我觉得是比较巧妙的方法：
+// ```
 bool canThreePartsEqualSum(int* A, int ASize){
     int sum = 0;
     for(int i = 0;i < ASize;i++){
@@ -26,4 +26,4 @@ bool canThreePartsEqualSum(int* A, int ASize){
 }
 
 
-```
+// ```

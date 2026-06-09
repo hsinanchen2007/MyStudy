@@ -1,13 +1,13 @@
 
-## 思路：
+# ## 思路：
 
-思路一：暴力
+# 思路一：暴力
 
-时间复杂度：$O(n^2)$（超时）
+# 时间复杂度：$O(n^2)$（超时）
 
-无空间
+# 无空间
 
-```python
+# ```python
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         for i in range(len(nums)):
@@ -15,15 +15,15 @@ class Solution:
                 if nums[i] == nums[j]:
                     return True
         return False
-```
+# ```
 
-思路二：排序
+# 思路二：排序
 
-时间复杂度：$O(nlog(n))$
+# 时间复杂度：$O(nlog(n))$
 
-无空间
+# 无空间
 
-```python
+# ```python
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         if not nums: return False
@@ -31,17 +31,17 @@ class Solution:
         for i in range(1, len(nums)):
             if nums[i - 1] == nums[i]: return True
         return False
-```
+# ```
 
-思路三：哈希
+# 思路三：哈希
 
-用字典记录以及访问的元素
+# 用字典记录以及访问的元素
 
-时间复杂度：$O(n)$
+# 时间复杂度：$O(n)$
 
-空间复杂度：$O(n)$
+# 空间复杂度：$O(n)$
 
-```python
+# ```python
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
         visited = set()
@@ -49,5 +49,5 @@ class Solution:
             if num in visited:return True
             visited.add(num)
         return False
-```
+# ```
 

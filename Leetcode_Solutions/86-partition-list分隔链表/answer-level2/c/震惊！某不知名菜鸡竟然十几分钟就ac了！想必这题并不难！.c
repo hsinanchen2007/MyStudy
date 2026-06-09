@@ -1,9 +1,9 @@
-### 解题思路
-cur指针用来确保cur之前的节点全部小于x，P和pre指针用来遍历
+// ### 解题思路
+// cur指针用来确保cur之前的节点全部小于x，P和pre指针用来遍历
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ struct ListNode* partition(struct ListNode* head, int x){
     }
     return dummy->next;
 }
-```
+// ```

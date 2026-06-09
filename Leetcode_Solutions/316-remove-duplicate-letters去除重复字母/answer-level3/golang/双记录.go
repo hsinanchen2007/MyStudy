@@ -1,4 +1,4 @@
-```
+// ```
 func removeDuplicateLetters(s string) string {
 	recode := [26]int{}  // 字符出现次数
 	contain := [26]int{} // 字符是否包含在栈中,在栈中为1
@@ -39,4 +39,4 @@ func removeDuplicateLetters(s string) string {
 	}
 	return string(stack)
 }
-```
+// ```

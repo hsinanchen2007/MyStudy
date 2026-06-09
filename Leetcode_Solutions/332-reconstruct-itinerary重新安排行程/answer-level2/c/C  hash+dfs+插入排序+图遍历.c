@@ -1,7 +1,7 @@
-自己想到了欧拉回路问题，但是对于那个度为1的点如何处理一直没想通，参考了pwrliang的题解思路写的，看到C代码较少，写了一个供大家参考。
-由于需要生成邻接表，直接用插入排序效率最高。
-保存结果直接用链表向表头插入，处理起来比较容易，全处理完再将链表转换成最终的char**即可。
-```
+// 自己想到了欧拉回路问题，但是对于那个度为1的点如何处理一直没想通，参考了pwrliang的题解思路写的，看到C代码较少，写了一个供大家参考。
+// 由于需要生成邻接表，直接用插入排序效率最高。
+// 保存结果直接用链表向表头插入，处理起来比较容易，全处理完再将链表转换成最终的char**即可。
+// ```
 typedef struct node {
     char name[4];
     struct node *next;
@@ -103,4 +103,4 @@ char ** findItinerary(char *** tickets, int ticketsSize, int* ticketsColSize, in
     *returnSize = cnt;
     return res;
 }
-```
+// ```

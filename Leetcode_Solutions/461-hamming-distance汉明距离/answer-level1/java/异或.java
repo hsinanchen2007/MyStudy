@@ -1,11 +1,11 @@
-### 解题思路
-异或
-转二进制
-输出为1的个数
+// ### 解题思路
+// 异或
+// 转二进制
+// 输出为1的个数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int hammingDistance(int x, int y) {
         int z = x ^ y;
@@ -20,4 +20,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

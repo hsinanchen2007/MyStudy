@@ -1,8 +1,8 @@
-### 
-思路来源:
-https://leetcode-cn.com/problems/count-and-say/solution/c-an-shun-xu-sheng-cheng-4ms-shi-ji-xing-dai-ma-by/
+// ### 
+// 思路来源:
+// https://leetcode-cn.com/problems/count-and-say/solution/c-an-shun-xu-sheng-cheng-4ms-shi-ji-xing-dai-ma-by/
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string countAndSay(int n) {
@@ -23,4 +23,4 @@ public:
         return s;
     }
 };
-```
+// ```

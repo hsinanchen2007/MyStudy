@@ -1,10 +1,10 @@
-### 解题思路
-队列的特点为先进先出
-栈的特点为先进后出
+// ### 解题思路
+// 队列的特点为先进先出
+// 栈的特点为先进后出
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -63,4 +63,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 func numBusesToDestination(routes [][]int, S int, T int) int {
 	if S == T {
 		return 0
@@ -34,4 +34,4 @@ func numBusesToDestination(routes [][]int, S int, T int) int {
 	}
 	return -1
 }
-```
+// ```

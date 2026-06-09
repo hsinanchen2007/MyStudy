@@ -1,9 +1,9 @@
-### 解题思路
-执行用时 :8 ms, 在所有 C 提交中击败了68.82%的用户
-内存消耗 :5.5 MB, 在所有 C 提交中击败了100.00%的用户
-### 代码
+// ### 解题思路
+// 执行用时 :8 ms, 在所有 C 提交中击败了68.82%的用户
+// 内存消耗 :5.5 MB, 在所有 C 提交中击败了100.00%的用户
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
     int len=strlen(s);
     char set[97];
@@ -23,4 +23,4 @@ int lengthOfLongestSubstring(char * s){
     }
     return max;
 }
-```
+// ```

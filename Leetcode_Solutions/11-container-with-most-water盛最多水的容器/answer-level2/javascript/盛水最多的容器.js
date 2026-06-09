@@ -1,10 +1,10 @@
-### 解题思路
-1. 解法一：双循环暴力破解
-2. 解法二：双指针
+// ### 解题思路
+// 1. 解法一：双循环暴力破解
+// 2. 解法二：双指针
 
-### 解法一
+// ### 解法一
 
-```javascript
+// ```javascript
 
 var maxArea = function(height) {
     let max=0;
@@ -17,12 +17,12 @@ var maxArea = function(height) {
     }
     return max
 }
-```
+// ```
 
 
-### 解法二
+// ### 解法二
 
-```javascript
+// ```javascript
 
 var maxArea = function (height) {
     let max = 0, left = 0, right = height.length - 1;
@@ -37,4 +37,4 @@ var maxArea = function (height) {
     return max
 }
 
-```
+// ```

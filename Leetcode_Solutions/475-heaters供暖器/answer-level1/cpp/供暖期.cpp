@@ -1,9 +1,9 @@
-### 解题思路
-覆盖每一个房子的最短半径肯定是离他最近的取暖器，将所有最近距离的最大值为最小半径
+// ### 解题思路
+// 覆盖每一个房子的最短半径肯定是离他最近的取暖器，将所有最近距离的最大值为最小半径
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRadius(vector<int>& houses, vector<int>& heaters) {
@@ -40,4 +40,4 @@ public:
         return Min;
     }
 };
-```
+// ```

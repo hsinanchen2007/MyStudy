@@ -1,5 +1,5 @@
-一开始用了这种，超时了
-```
+# 一开始用了这种，超时了
+# ```
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         A.sort()
@@ -12,10 +12,10 @@ class Solution:
                 count+=1
 
         return count
-```
+# ```
 
-把while循环改成了直接计算
-```
+# 把while循环改成了直接计算
+# ```
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         A.sort()
@@ -27,4 +27,4 @@ class Solution:
                 A[index]=A[index-1]+1
                                 
         return count
-```
+# ```

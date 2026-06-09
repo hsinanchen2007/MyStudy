@@ -1,7 +1,7 @@
-## 思路
-定义两个栈，入队放入stack1中，出队从stack2，如果stack2为空，则将stack1中元素弹出放入stack2中。
-## 代码
-```c++
+// ## 思路
+// 定义两个栈，入队放入stack1中，出队从stack2，如果stack2为空，则将stack1中元素弹出放入stack2中。
+// ## 代码
+// ```c++
 class MyQueue {
     stack<int> stack1;
     stack<int> stack2;
@@ -45,4 +45,4 @@ public:
         return stack1.empty() && stack2.empty();
     }
 };
-```
+// ```

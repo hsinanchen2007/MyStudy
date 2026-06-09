@@ -1,10 +1,10 @@
 
-### 基础解法：数组
-类 vue keep-alive 实现
+// ### 基础解法：数组
+// 类 vue keep-alive 实现
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var LRUCache = function(capacity) {
     this.keys = []
     this.cache = Object.create(null)
@@ -53,14 +53,14 @@ function removeCache(cache, keys, key) {
     cache[key] = null
     remove(keys, key)
 }
-```
+// ```
 
-### 进阶：Map
-利用 Map 既能保存键值对，并且能够记住键的原始插入顺序
+// ### 进阶：Map
+// 利用 Map 既能保存键值对，并且能够记住键的原始插入顺序
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var LRUCache = function(capacity) {
     this.cache = new Map()
     this.capacity = capacity
@@ -88,4 +88,4 @@ LRUCache.prototype.put = function(key, value) {
     }
     this.cache.set(key, value)
 }
-```
+// ```

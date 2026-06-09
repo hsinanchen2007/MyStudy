@@ -1,9 +1,9 @@
-### 解题思路
-斗胆分享一下自己实现的递归法
+// ### 解题思路
+// 斗胆分享一下自己实现的递归法
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<string> GenerateParenthesis(int n) {
         List<string> result = new List<string>();
@@ -31,4 +31,4 @@ public class Solution {
         return result.ToList();
     }
 }
-```
+// ```

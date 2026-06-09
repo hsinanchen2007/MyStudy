@@ -1,5 +1,5 @@
-自己实现' '截取
-```
+// 自己实现' '截取
+// ```
 class Solution {
 public:
     int countSegments(string s) {
@@ -25,10 +25,10 @@ public:
         return num;
     }
 };
-```
+// ```
 
-利用库函数strtok
-```
+// 利用库函数strtok
+// ```
 class Solution {
 public:
     int countSegments(string s) {
@@ -43,5 +43,5 @@ public:
         return num;
     }
 };
-```
+// ```
 

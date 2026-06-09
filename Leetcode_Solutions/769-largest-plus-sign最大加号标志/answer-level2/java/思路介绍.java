@@ -1,6 +1,6 @@
-由于是从左往右遍历，从上往下遍历，所以在算(i,j)的四个方向时，left和up可以来自其他点
-right和down方向需要自己算，并且可以把沿途算出来的都进行更新
-```
+// 由于是从左往右遍历，从上往下遍历，所以在算(i,j)的四个方向时，left和up可以来自其他点
+// right和down方向需要自己算，并且可以把沿途算出来的都进行更新
+// ```
 class Solution {
     public int[][][] dp;//0->up,1->left,2->down,3->right
     public int[][] map;
@@ -67,4 +67,4 @@ class Solution {
         return Math.min(dp[i][j][0],Math.min(dp[i][j][1],Math.min(dp[i][j][2],dp[i][j][3])));
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 var result [][]int
 
 func permute(nums []int) [][]int {
@@ -51,4 +51,4 @@ func arrange(nums []int, arr []int) {
 		arr = arr[:len(arr)-1]
 	}
 }
-```
+// ```

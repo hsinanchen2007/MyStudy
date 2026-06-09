@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def bonus(self, n: int, leadership: List[List[int]], operations: List[List[int]]) -> List[int]:
         children = collections.defaultdict(list)
@@ -89,4 +89,4 @@ class Tree:
                 self.left.query(l, self.mid) +
                 self.right.query(self.mid + 1, r)
             )
-```
+# ```

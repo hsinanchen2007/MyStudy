@@ -1,20 +1,20 @@
-简单的说就是 准备两个栈 table_back 和 law_back,分别记录以下信息：
-vector<int> table; 记录 皇后Q 插入顺序的列表； 例如 {0,2,1,3} 的意思是指，第一行皇后位置在0，第二行皇后位置在2，以此类推
-vector<bool> law_pos;  下一行的合法位置，其长度始终为 n 。 可以插入的位置 的bool值为1； 例如 当 第一行皇后  在 0 时， law_pos = {0,0,1,1}
+// 简单的说就是 准备两个栈 table_back 和 law_back,分别记录以下信息：
+// vector<int> table; 记录 皇后Q 插入顺序的列表； 例如 {0,2,1,3} 的意思是指，第一行皇后位置在0，第二行皇后位置在2，以此类推
+// vector<bool> law_pos;  下一行的合法位置，其长度始终为 n 。 可以插入的位置 的bool值为1； 例如 当 第一行皇后  在 0 时， law_pos = {0,0,1,1}
 
-然后将皇后问题的第一行 Q 在 0 的位置 一直到 Q 在 n-1 的位置，都PUSH进栈中，
-并且把对应的下一行合法信息，push进 合法栈 中
+// 然后将皇后问题的第一行 Q 在 0 的位置 一直到 Q 在 n-1 的位置，都PUSH进栈中，
+// 并且把对应的下一行合法信息，push进 合法栈 中
 
-然后循环判断，如果栈没有空：
+// 然后循环判断，如果栈没有空：
 
-1.根据 law_pos 的信息，遍历其中所有合法位置，并且在合法位置插入，生成新表 temp_table 并判断
-  1-1：temp_table 如果 size==n 那么说明此处顺利 完成任务，记录即可
-  1-2：根据temp_table 生成新的 temp_law，并将 temp_table 和 temp_law 都插入栈中（不需要判断）
+// 1.根据 law_pos 的信息，遍历其中所有合法位置，并且在合法位置插入，生成新表 temp_table 并判断
+//   1-1：temp_table 如果 size==n 那么说明此处顺利 完成任务，记录即可
+//   1-2：根据temp_table 生成新的 temp_law，并将 temp_table 和 temp_law 都插入栈中（不需要判断）
   
 
 
 
-```
+// ```
 class Solution {
 public:
     vector<vector<string>> solveNQueens(int n) {
@@ -103,5 +103,5 @@ public:
 	return resault;
     }
 };
-```
+// ```
 

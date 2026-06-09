@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mssql
+-- ```mssql
 /* Write your T-SQL query statement below */
 select t.team_id, t.team_name, isnull(total_count,0) as num_points 
 from Teams t 
@@ -25,4 +25,4 @@ group by host_team) temp
 on t.team_id=temp.host_team 
 order by num_points desc, team_id asc 
 
-```
+-- ```

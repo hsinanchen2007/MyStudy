@@ -1,5 +1,5 @@
-问题可以转化成背包大小为石头总重量的一半，最多可以装多重的石头，能想到这里就很简单了。
-```
+// 问题可以转化成背包大小为石头总重量的一半，最多可以装多重的石头，能想到这里就很简单了。
+// ```
 class Solution {
     public int lastStoneWeightII(int[] stones) {
         int n = stones.length;
@@ -20,4 +20,4 @@ class Solution {
         }
     }
 }
-```
+// ```

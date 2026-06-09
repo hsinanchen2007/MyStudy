@@ -1,5 +1,5 @@
-* 使用中间变量t记录
-```c++
+// * 使用中间变量t记录
+// ```c++
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ public:
         return head->next;
     }
 };
-```
+// ```

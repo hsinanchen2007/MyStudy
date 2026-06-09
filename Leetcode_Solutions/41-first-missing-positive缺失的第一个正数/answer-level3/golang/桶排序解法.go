@@ -1,6 +1,6 @@
-第一种：暴力法
-这种方法的时间和空间效率都很差，特别是中间空洞过多时，空间占用更多，例如：[-1, 1000000000]，这里要是申请空间的话，要申请1000000000/8 + 1个字节
-```
+// 第一种：暴力法
+// 这种方法的时间和空间效率都很差，特别是中间空洞过多时，空间占用更多，例如：[-1, 1000000000]，这里要是申请空间的话，要申请1000000000/8 + 1个字节
+// ```
 func firstMissingPositive(nums []int) int {
 	maxNum := 0
 	for _, num := range nums {
@@ -26,10 +26,10 @@ func firstMissingPositive(nums []int) int {
 		}
 	}
 
-```
+// ```
 
-方法二：map，用这种方式，可以解决上面空洞过多导致的空间过大的问题，并且查找也更快，但还是比较慢
-```
+// 方法二：map，用这种方式，可以解决上面空洞过多导致的空间过大的问题，并且查找也更快，但还是比较慢
+// ```
 func firstMissingPositive(nums []int) int {
 	maxNum := 0
 	idxMap := make(map[int]struct{})
@@ -45,13 +45,13 @@ func firstMissingPositive(nums []int) int {
 
 	return maxNum + 1
 }
-```
+// ```
 
 
-方法三：桶排序，我看前面称这个思路是抽屉原理，觉得应该叫桶排序法更合适
+// 方法三：桶排序，我看前面称这个思路是抽屉原理，觉得应该叫桶排序法更合适
 
 
-```golang
+// ```golang
 func firstMissingPositive(nums []int) int {
 	for i := 0; i < len(nums); i++ {
 		for nums[i] != i + 1 {
@@ -71,4 +71,4 @@ func firstMissingPositive(nums []int) int {
 
 	return len(nums) + 1
 }
-```
+// ```

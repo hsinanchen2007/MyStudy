@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-入门之路如此艰难
+// ### 解题思路
+// 此处撰写解题思路
+// 入门之路如此艰难
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minPathSum(int[][] grid) {
         int m = grid.length;
@@ -29,5 +29,5 @@ class Solution {
 		return grid[m-1][n-1];
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/4a5a2b08945d60a639c826b5ca5d3f5c74ed26e8ec5eb378f54907ea6395413b-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/4a5a2b08945d60a639c826b5ca5d3f5c74ed26e8ec5eb378f54907ea6395413b-image.png)

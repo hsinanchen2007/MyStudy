@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![微信截图_20200211113820.png](https://pic.leetcode-cn.com/c00c16823ba44274dfee7219500652fe0bc04d144f3089c8b369f4d10af65d70-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200211113820.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![微信截图_20200211113820.png](https://pic.leetcode-cn.com/c00c16823ba44274dfee7219500652fe0bc04d144f3089c8b369f4d10af65d70-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200211113820.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 	static const int MAPLEN = 0xff + 1;
 	int smap[MAPLEN];
@@ -50,4 +50,4 @@ public:
 	}
 
 };
-```
+// ```

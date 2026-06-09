@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```c
+// ```c
 int gcd(int a, int b)
 {
         int tmp;
@@ -27,4 +27,4 @@ bool canMeasureWater(int x, int y, int z)
 
         return z % gcd(x, y) == 0 ? true : false;
 }
-```
+// ```

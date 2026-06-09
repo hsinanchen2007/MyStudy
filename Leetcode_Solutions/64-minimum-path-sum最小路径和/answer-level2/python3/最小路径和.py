@@ -1,14 +1,14 @@
-### 解题思路
-我的思路：参考至知乎，三步骤走起；后续可优化
+# ### 解题思路
+# 我的思路：参考至知乎，三步骤走起；后续可优化
 	
 
-复杂度分析：                                                             
-	• 时间复杂度：o(mn)
-	• 空间复杂度：o(mn)
+# 复杂度分析：                                                             
+# 	• 时间复杂度：o(mn)
+# 	• 空间复杂度：o(mn)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         m = len(grid)
@@ -23,4 +23,4 @@ class Solution:
             for j in range(1, n):
                 dp[i][j] = min(dp[i-1][j], dp[i][j-1]) + grid[i][j]
         return dp[m-1][n-1]
-```
+# ```

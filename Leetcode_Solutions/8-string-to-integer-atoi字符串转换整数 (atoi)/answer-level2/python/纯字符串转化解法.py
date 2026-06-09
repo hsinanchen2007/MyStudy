@@ -1,9 +1,9 @@
-### 解题思路
-纯字符串解法，感觉好复杂，还是去看官方题解吧
+# ### 解题思路
+# 纯字符串解法，感觉好复杂，还是去看官方题解吧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, str: str) -> int:
         s = str.lstrip()
@@ -35,4 +35,4 @@ class Solution:
         res = -2 ** 31 if res < -2**31 else res
         res = 2 ** 31 - 1 if res > 2 ** 31 - 1 else res
         return res
-```
+# ```

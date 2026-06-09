@@ -1,8 +1,8 @@
-### 解题思路
-这题我好久之前就做过了，具体的思路就是删增，用头插法增
-### 代码
+// ### 解题思路
+// 这题我好久之前就做过了，具体的思路就是删增，用头插法增
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string reverseWords(string s) {
@@ -33,4 +33,4 @@ public:
         return tem;
     }
 };
-```
+// ```

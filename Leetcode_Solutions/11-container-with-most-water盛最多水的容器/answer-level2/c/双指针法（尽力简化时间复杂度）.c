@@ -1,6 +1,6 @@
-![2019-09-23_06-16.png](https://pic.leetcode-cn.com/267a99a884ece2786041fe912f74cade7c05ec3c9ac1fdae7ef3aedf89d80a77-2019-09-23_06-16.png)
+// ![2019-09-23_06-16.png](https://pic.leetcode-cn.com/267a99a884ece2786041fe912f74cade7c05ec3c9ac1fdae7ef3aedf89d80a77-2019-09-23_06-16.png)
 
-```c
+// ```c
 int maxArea(int* height, int heightSize){
     int left = 0;
     int right = heightSize - 1;
@@ -20,4 +20,4 @@ int maxArea(int* height, int heightSize){
 
     return maxV;
 }
-```
+// ```

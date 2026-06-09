@@ -1,40 +1,40 @@
-## 思路
+# ## 思路
 
-**思路一：排列组合**
+# **思路一：排列组合**
 
-因为机器到底右下角，向下几步，向右几步都是固定的，
+# 因为机器到底右下角，向下几步，向右几步都是固定的，
 
-比如，`m=3, n=2`，我们只要向下 1 步，向右 2 步就一定能到达终点。
+# 比如，`m=3, n=2`，我们只要向下 1 步，向右 2 步就一定能到达终点。
 
-所以有 $C_{m+n-2}^{m-1}$
+# 所以有 $C_{m+n-2}^{m-1}$
 
-```Python []
+# ```Python []
 def uniquePaths(self, m: int, n: int) -> int:
         return int(math.factorial(m+n-2)/math.factorial(m-1)/math.factorial(n-1))
-```
+# ```
 
-**思路二：动态规划**
+# **思路二：动态规划**
 
-我们令 `dp[i][j]` 是到达 `i, j` 最多路径
+# 我们令 `dp[i][j]` 是到达 `i, j` 最多路径
 
-动态方程：`dp[i][j] = dp[i-1][j] + dp[i][j-1]`
+# 动态方程：`dp[i][j] = dp[i-1][j] + dp[i][j-1]`
 
-注意，对于第一行 `dp[0][j]`，或者第一列 `dp[i][0]`，由于都是在边界，所以只能为 `1`
+# 注意，对于第一行 `dp[0][j]`，或者第一列 `dp[i][0]`，由于都是在边界，所以只能为 `1`
 
-时间复杂度：$O(m*n)$
+# 时间复杂度：$O(m*n)$
 
-空间复杂度：$O(m * n)$
+# 空间复杂度：$O(m * n)$
 
 
-优化：因为我们每次只需要 `dp[i-1][j],dp[i][j-1] `
+# 优化：因为我们每次只需要 `dp[i-1][j],dp[i][j-1] `
 
-所以我们只要记录这两个数，直接看代码吧！
+# 所以我们只要记录这两个数，直接看代码吧！
 
-## 代码
+# ## 代码
 
-思路二：
+# 思路二：
 
-```Python [1]
+# ```Python [1]
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         dp = [[1]*n] + [[1]+[0] * (n-1) for _ in range(m-1)]
@@ -43,11 +43,11 @@ class Solution:
             for j in range(1, n):
                 dp[i][j] = dp[i-1][j] + dp[i][j-1]
         return dp[-1][-1]
-```
+# ```
 
 
 
-```Java [1]
+# ```Java [1]
 class Solution {
     public int uniquePaths(int m, int n) {
         int[][] dp = new int[m][n];
@@ -61,13 +61,13 @@ class Solution {
         return dp[m - 1][n - 1];  
     }
 }
-```
+# ```
 
 
 
-优化1：空间复杂度 $O(2n)$
+# 优化1：空间复杂度 $O(2n)$
 
-```Python [2]
+# ```Python [2]
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         pre = [1] * n
@@ -77,11 +77,11 @@ class Solution:
                 cur[j] = pre[j] + cur[j-1]
             pre = cur[:]
         return pre[-1]
-```
+# ```
 
 
 
-```Java [2]
+# ```Java [2]
 class Solution {
     public int uniquePaths(int m, int n) {
         int[] pre = new int[n];
@@ -97,13 +97,13 @@ class Solution {
         return pre[n-1]; 
     }
 }
-```
+# ```
 
 
 
-优化2：空间复杂度 $O(n)$
+# 优化2：空间复杂度 $O(n)$
 
-```Python [3]
+# ```Python [3]
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         cur = [1] * n
@@ -111,11 +111,11 @@ class Solution:
             for j in range(1, n):
                 cur[j] += cur[j-1]
         return cur[-1]
-```
+# ```
 
 
 
-```Java [3]
+# ```Java [3]
 class Solution {
     public int uniquePaths(int m, int n) {
         int[] cur = new int[n];
@@ -128,5 +128,5 @@ class Solution {
         return cur[n-1];
     }
 }
-```
+# ```
 

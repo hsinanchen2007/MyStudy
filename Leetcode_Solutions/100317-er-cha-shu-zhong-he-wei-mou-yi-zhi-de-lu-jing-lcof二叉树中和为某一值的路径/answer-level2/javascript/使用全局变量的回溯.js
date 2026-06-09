@@ -1,5 +1,5 @@
-### 使用全局变量存储路径
-```
+// ### 使用全局变量存储路径
+// ```
 var pathSum = function(root, sum) {
     if(!root) return [];
     // 先存储根节点
@@ -34,9 +34,9 @@ var pathSum = function(root, sum) {
     preorder(root);
     return res;
 };
-```
-### 大神的使用函数形参传递路径，不需要pop
-```
+// ```
+// ### 大神的使用函数形参传递路径，不需要pop
+// ```
 var pathSum = function(root, sum) {
 
     const res = [];
@@ -69,6 +69,6 @@ var pathSum = function(root, sum) {
     return res
 
 };
-```
+// ```
 
 

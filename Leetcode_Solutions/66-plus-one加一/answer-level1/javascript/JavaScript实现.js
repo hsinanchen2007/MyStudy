@@ -1,9 +1,9 @@
-### 解题思路
-特殊需要注意的是999这类会增加数组长度的
+// ### 解题思路
+// 特殊需要注意的是999这类会增加数组长度的
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} digits
  * @return {number[]}
@@ -24,4 +24,4 @@ var plusOne = function (digits) {
     }
     return digits
 };
-```
+// ```

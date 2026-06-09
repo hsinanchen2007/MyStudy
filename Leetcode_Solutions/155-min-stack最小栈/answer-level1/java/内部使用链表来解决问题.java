@@ -1,9 +1,9 @@
-### 解题思路
-内部使用链表，每次push都保存一个最小值，每次pop都重新计算最小值
+// ### 解题思路
+// 内部使用链表，每次push都保存一个最小值，每次pop都重新计算最小值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
 
     private int minValue = Integer.MAX_VALUE;
@@ -59,4 +59,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

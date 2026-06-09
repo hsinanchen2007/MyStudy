@@ -1,5 +1,5 @@
-排序+双指针，排序后遍历 数组第i个数为一个定值，0-nums[i]然后再后面的数组求两位数和，双指针，left=i+1,right=len(nums)-1，如果nums[i] + nums[left]+nums[right] > 0 则right指针左移，即--，小于0的话left指针右移，即++，=0的话则i，left,right即为一个解，同时left++，right++，寻找下一个值，由于数组中会有重复数字，所以每一个解加到结果集中需要去重
-```
+// 排序+双指针，排序后遍历 数组第i个数为一个定值，0-nums[i]然后再后面的数组求两位数和，双指针，left=i+1,right=len(nums)-1，如果nums[i] + nums[left]+nums[right] > 0 则right指针左移，即--，小于0的话left指针右移，即++，=0的话则i，left,right即为一个解，同时left++，right++，寻找下一个值，由于数组中会有重复数字，所以每一个解加到结果集中需要去重
+// ```
 func threeSum(nums []int) [][]int {
 	//双指针法
 	quickSort(nums)
@@ -60,4 +60,4 @@ func quickSort(r []int) {
 	quickSort(r[:i])
 	quickSort(r[i+1:])
 }
-```
+// ```

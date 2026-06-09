@@ -1,9 +1,9 @@
-### 解题思路
-虽然是dfs，但是return条件还是需要仔细想想的，有一点难度
+// ### 解题思路
+// 虽然是dfs，但是return条件还是需要仔细想想的，有一点难度
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -34,4 +34,4 @@ public:
       return dfs(root, p, q);
     }
 };
-```
+// ```

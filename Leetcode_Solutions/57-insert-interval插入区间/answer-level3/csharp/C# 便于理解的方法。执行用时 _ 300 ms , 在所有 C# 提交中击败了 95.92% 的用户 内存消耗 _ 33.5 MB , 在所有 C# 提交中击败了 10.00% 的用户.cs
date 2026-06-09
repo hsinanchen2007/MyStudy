@@ -1,36 +1,36 @@
-第一次写题解，毕竟粗糙。
+// 第一次写题解，毕竟粗糙。
 
-思路很简单，就是把原数组分成三份。
+// 思路很简单，就是把原数组分成三份。
 
-将合并新区间后的区间称为x;
-第一份，小于x的所有区间。 intervals[i][1] < newInterval[0]
-第二份，x包括的所有区间。
-第三份，大于x的所有区间。intervals[i][0] > newInterval[1]
+// 将合并新区间后的区间称为x;
+// 第一份，小于x的所有区间。 intervals[i][1] < newInterval[0]
+// 第二份，x包括的所有区间。
+// 第三份，大于x的所有区间。intervals[i][0] > newInterval[1]
 
-第一部分和第三部分很好找，判断一下边界即可。
+// 第一部分和第三部分很好找，判断一下边界即可。
 
-只要找出第二部分就可以了。
-第二部分中有几种情况：
+// 只要找出第二部分就可以了。
+// 第二部分中有几种情况：
 
-int left = newInterval[0];
-int right = newInterval[1];
+// int left = newInterval[0];
+// int right = newInterval[1];
 
-int arrLeft = intervals[i][0] ;
-int arrRight = intervals[i][1];
+// int arrLeft = intervals[i][0] ;
+// int arrRight = intervals[i][1];
 
-第一种 left< arrLeft;
-第二种 arrLeft< left < arrRight;
-第三种 arrRight < right;
-第四种 arrLeft < right < arrRight;
+// 第一种 left< arrLeft;
+// 第二种 arrLeft< left < arrRight;
+// 第三种 arrRight < right;
+// 第四种 arrLeft < right < arrRight;
 
-第一、二种情况确定左侧边界，
-第三、四种情况确定右侧边界。
+// 第一、二种情况确定左侧边界，
+// 第三、四种情况确定右侧边界。
 
-即可将结果中的第二份区间确定出来。
+// 即可将结果中的第二份区间确定出来。
 
-将这三份区间按顺序加入list中，再转化成数组，即可得到答案。
+// 将这三份区间按顺序加入list中，再转化成数组，即可得到答案。
 
-```
+// ```
 public class Solution {
     public int[][] Insert(int[][] intervals, int[] newInterval) 
     {
@@ -98,4 +98,4 @@ public class Solution {
         return resultList.ToArray();
     }
 }
-```
+// ```

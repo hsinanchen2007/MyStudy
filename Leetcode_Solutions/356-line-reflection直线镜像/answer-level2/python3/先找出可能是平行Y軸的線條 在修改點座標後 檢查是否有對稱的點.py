@@ -1,11 +1,11 @@
-### 解题思路
-先找出可能是平行Y軸的線條 
-在修改點座標後 
-檢查是否有對稱的點
+# ### 解题思路
+# 先找出可能是平行Y軸的線條 
+# 在修改點座標後 
+# 檢查是否有對稱的點
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isReflected(self, points: List[List[int]]) -> bool:
 
@@ -41,4 +41,4 @@ class Solution:
 
 
             
-```
+# ```

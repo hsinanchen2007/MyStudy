@@ -1,9 +1,9 @@
-### 解题思路
-遍历字符串集合，将包含的字符串去掉；最后统计集合中剩下的字符串的单词的长度并加上相应的#个数。
+// ### 解题思路
+// 遍历字符串集合，将包含的字符串去掉；最后统计集合中剩下的字符串的单词的长度并加上相应的#个数。
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         int count = 0;
@@ -23,8 +23,8 @@ class Solution {
         return count;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         newset = set(words)
@@ -35,4 +35,4 @@ class Solution:
         for elem in newset:
             count += len(elem) + 1
         return count
-```
+// ```

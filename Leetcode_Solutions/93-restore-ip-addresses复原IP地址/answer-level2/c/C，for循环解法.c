@@ -1,4 +1,4 @@
-for循环直接处理，好理解
+// for循环直接处理，好理解
 char ** restoreIpAddresses(char * s, int* returnSize){
     int len = strlen(s);
     if (s == NULL || len < 4) {

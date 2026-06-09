@@ -1,4 +1,4 @@
-```
+// ```
         vector<int> res;
         while(label!=1){
             res.push_back(label);
@@ -17,4 +17,4 @@
             }
         }
         return res;
-```
+// ```

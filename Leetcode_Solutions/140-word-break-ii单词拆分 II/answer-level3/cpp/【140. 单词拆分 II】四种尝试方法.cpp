@@ -1,6 +1,6 @@
-## 思路一：暴力（超时）
-### 代码
-```c++
+// ## 思路一：暴力（超时）
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<string> wordBreak(string s, vector<string>& wordDict) {
@@ -23,11 +23,11 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 思路二：记忆化搜索
-### 代码
-```c++
+// ## 思路二：记忆化搜索
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<string> wordBreak(string s, vector<string>& wordDict) {
@@ -55,12 +55,12 @@ public:
         return res;
     }
 };
-```
+// ```
 
-## 思路三：动态规划（超时）
-官方题解超时？？？
-### 代码
-```
+// ## 思路三：动态规划（超时）
+// 官方题解超时？？？
+// ### 代码
+// ```
 class Solution {
 public:
     vector<string> wordBreak(string s, vector<string>& wordDict) {
@@ -83,11 +83,11 @@ public:
         return dp[s.size()];
     }
 };
-```
+// ```
 
-## 思路四：递归
-### 代码
-```
+// ## 思路四：递归
+// ### 代码
+// ```
 class Solution {
 public:
     vector<string> wordBreak(string s, vector<string>& wordDict) {
@@ -114,4 +114,4 @@ public:
         return umap[s] = res;
     }
 };
-```
+// ```

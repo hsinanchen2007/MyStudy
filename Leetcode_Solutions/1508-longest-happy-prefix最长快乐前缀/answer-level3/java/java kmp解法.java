@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String longestPrefix(String s) {
         if(s == null || s.length() <2) return "";
@@ -26,5 +26,5 @@ class Solution {
         return next;
     }
 }
-```
-![kmp.png](https://pic.leetcode-cn.com/c31a7eb156f1d7f30bdf52bb69947a2a04f45df3d75e1a1f8e35af24a30735c5-kmp.png)
+// ```
+// ![kmp.png](https://pic.leetcode-cn.com/c31a7eb156f1d7f30bdf52bb69947a2a04f45df3d75e1a1f8e35af24a30735c5-kmp.png)

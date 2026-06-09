@@ -1,7 +1,7 @@
-定义全局变量res保存结果
-求解深度的同时判断是否为平衡二叉树
+// 定义全局变量res保存结果
+// 求解深度的同时判断是否为平衡二叉树
 
-```
+// ```
 class Solution {
 public:
     bool res = true;
@@ -21,4 +21,4 @@ public:
         else return rightDepth + 1;
     }
 };
-```
+// ```

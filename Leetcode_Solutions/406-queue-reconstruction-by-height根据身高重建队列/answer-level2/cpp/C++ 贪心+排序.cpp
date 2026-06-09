@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-思路很简单：**按照[h,k]中h从大排序，如果h相同按照k从小到大排序**。
+// 思路很简单：**按照[h,k]中h从大排序，如果h相同按照k从小到大排序**。
 
-可以使用**list容器**方便进行插入工作，减小频繁的拷贝动作。
+// 可以使用**list容器**方便进行插入工作，减小频繁的拷贝动作。
 
 
-**代码：**
-```cpp
+// **代码：**
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
@@ -37,4 +37,4 @@ public:
         return ret;
     }
 };
-```
+// ```

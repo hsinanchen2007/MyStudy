@@ -1,8 +1,8 @@
-### 解题思路
-主要运用C++中的逆向迭代器
-### 代码
+// ### 解题思路
+// 主要运用C++中的逆向迭代器
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> plusOne(vector<int>& digits) {
@@ -27,4 +27,4 @@ public:
 		return digits;
     }
 };
-```
+// ```

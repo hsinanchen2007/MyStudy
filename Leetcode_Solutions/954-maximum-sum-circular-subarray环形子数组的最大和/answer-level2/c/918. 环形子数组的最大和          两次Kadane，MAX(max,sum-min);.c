@@ -1,10 +1,10 @@
-### 解题思路
-环形连续问题，　最大＋最小　＝ sum　；　　全负数例外
+// ### 解题思路
+// 环形连续问题，　最大＋最小　＝ sum　；　　全负数例外
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a,b) ((a)>(b)?(a):(b))
 #define MIN(a,b) ((a)<(b)?(a):(b))
 
@@ -62,4 +62,4 @@ int maxSubarraySumCircular(int* A, int ASize){
     else
         return MAX(max,sum-min);
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-对于树状结构，通过递归来遍历每个节点，判断对应位置是否相同
+# ### 解题思路
+# 对于树状结构，通过递归来遍历每个节点，判断对应位置是否相同
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
                 return False
         except:
             return False
-```
+# ```

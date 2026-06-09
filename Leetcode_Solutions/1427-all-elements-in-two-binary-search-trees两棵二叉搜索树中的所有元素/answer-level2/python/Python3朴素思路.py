@@ -1,11 +1,11 @@
-### 解题思路
-朴素思路,遍历其中一种一棵树,将所有的阶段存储在全局变量里面
-遍历另一颗树,继续添加到变量里面
-排序
+# ### 解题思路
+# 朴素思路,遍历其中一种一棵树,将所有的阶段存储在全局变量里面
+# 遍历另一颗树,继续添加到变量里面
+# 排序
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             self.ans.append(root.val)
             self.inorderTraversal(root.right)
         return self.ans
-```
+# ```

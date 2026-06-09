@@ -1,11 +1,11 @@
-### 解题思路
-1.计算两个链表长度差
-2.长的链表先走几步
-3.此时链表长度相同，同时遍历链表寻找交点即可
+// ### 解题思路
+// 1.计算两个链表长度差
+// 2.长的链表先走几步
+// 3.此时链表长度相同，同时遍历链表寻找交点即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -58,4 +58,4 @@ public class Solution {
         return count;
     }
 }
-```
+// ```

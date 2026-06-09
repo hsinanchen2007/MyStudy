@@ -1,5 +1,5 @@
-Java 耗时90ms，内存34.4MB
-```
+// Java 耗时90ms，内存34.4MB
+// ```
 /**
  * Problem
  *      232.Implement Queue using Stacks
@@ -67,6 +67,6 @@ class MyStack {
         return output.size()==0&&input.size()==0;
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出pull request，我会及时处理反馈<br />
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出pull request，我会及时处理反馈<br />
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

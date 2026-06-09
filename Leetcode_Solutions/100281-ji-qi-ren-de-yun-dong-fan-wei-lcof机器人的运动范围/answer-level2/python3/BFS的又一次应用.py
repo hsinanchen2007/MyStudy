@@ -1,12 +1,12 @@
-### 解题思路
-判断BFS。
-建Q，入队列
-建立标记池
-循环处理
+# ### 解题思路
+# 判断BFS。
+# 建Q，入队列
+# 建立标记池
+# 循环处理
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         def counta(n):
@@ -31,4 +31,4 @@ class Solution:
         return len(visited)
             
         
-```
+# ```

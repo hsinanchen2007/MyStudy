@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-**字符串查找前，一定先要进行非空判断，因为为""时，indexOf返回为0！！！**
-`再次强调：当不能完成类型转换时，就额外申请一个变量！！！`
-![Snipaste_2020-03-18_18-42-41.jpg](https://pic.leetcode-cn.com/94cf4d7b596b2162c4b525fe43bc13a9066e0a62614f679cee5cd40846cfd476-Snipaste_2020-03-18_18-42-41.jpg)
+// ### 解题思路
+// 此处撰写解题思路
+// **字符串查找前，一定先要进行非空判断，因为为""时，indexOf返回为0！！！**
+// `再次强调：当不能完成类型转换时，就额外申请一个变量！！！`
+// ![Snipaste_2020-03-18_18-42-41.jpg](https://pic.leetcode-cn.com/94cf4d7b596b2162c4b525fe43bc13a9066e0a62614f679cee5cd40846cfd476-Snipaste_2020-03-18_18-42-41.jpg)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int []  getAllStartPos(String big,String small){
         List<Integer> res=new ArrayList<>();
@@ -31,4 +31,4 @@ class Solution {
 
     }
 }
-```
+// ```

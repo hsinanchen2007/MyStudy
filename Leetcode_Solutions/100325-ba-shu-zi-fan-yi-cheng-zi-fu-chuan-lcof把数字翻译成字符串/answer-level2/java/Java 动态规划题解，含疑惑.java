@@ -1,9 +1,9 @@
-Java 双100%
+// Java 双100%
 
-这题有个困惑，就在于506，这个06可以翻译吗。假如可以翻译就有 fag，fg两种结果，但是假如不可以翻译就只有fag一个结果。
+// 这题有个困惑，就在于506，这个06可以翻译吗。假如可以翻译就有 fag，fg两种结果，但是假如不可以翻译就只有fag一个结果。
 
-按照测试用例 06 是不可以计算的。
-```
+// 按照测试用例 06 是不可以计算的。
+// ```
     public int translateNum(int num) {
         char[] eachNum = String.valueOf(num).toCharArray();
         if (eachNum.length == 1) {
@@ -32,4 +32,4 @@ Java 双100%
         return possible[index - 1];
     }
 
-```
+// ```

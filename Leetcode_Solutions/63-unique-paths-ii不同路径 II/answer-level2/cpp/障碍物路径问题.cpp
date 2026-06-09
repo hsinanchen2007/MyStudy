@@ -1,9 +1,9 @@
-### 解题思路
-注：一定要long类型，int会溢出
-处理障碍时将dp[i][j]=0;
-### 代码
+// ### 解题思路
+// 注：一定要long类型，int会溢出
+// 处理障碍时将dp[i][j]=0;
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -35,4 +35,4 @@ public:
         return dp[m-1][n-1];
     }
 };
-```
+// ```

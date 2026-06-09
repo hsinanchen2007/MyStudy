@@ -1,5 +1,5 @@
-1. 递归+备忘录：
-```
+# 1. 递归+备忘录：
+# ```
 class Solution:
     def soupServings(self, N: int) -> float:
         def solve(A,B):
@@ -20,9 +20,9 @@ class Solution:
         memo=dict()
         return solve(N,N)
     
-```
-2. 数组动态规划（自下而上）：
-```
+# ```
+# 2. 数组动态规划（自下而上）：
+# ```
 class Solution:
     def soupServings(self, N: int) -> float:
         if N>4800:
@@ -40,9 +40,9 @@ class Solution:
             for j in range(1,N+1):
                 dp[i][j]=0.25*(dp[a1][j]+dp[a2][max(j-1,0)]+dp[a3][max(j-2,0)]+dp[a4][max(j-3,0)])
         return dp[N][N]
-```
-3. 数组动态规划（自上而下，由于特殊情况较多，推荐使用前两种方法）：
-```
+# ```
+# 3. 数组动态规划（自上而下，由于特殊情况较多，推荐使用前两种方法）：
+# ```
 class Solution:
     def soupServings(self, N: int) -> float:#考虑情况较多，容易出错
         if N%25==0:#除以25减少复杂度
@@ -92,7 +92,7 @@ class Solution:
         d[0][0]=d[1][1]*3/4+(d[1][2]+d[2][1])*1/2+(d[1][3]+d[2][2]+d[3][1])*1/4#i,j都为0单独计算
         probability+=d[0][0]/2
         return probability
-```
+# ```
 
 
 

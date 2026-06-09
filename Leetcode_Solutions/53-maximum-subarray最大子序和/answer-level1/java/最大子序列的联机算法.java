@@ -1,8 +1,8 @@
-### 解题思路
-时间复杂度为O(N).
-### 代码
+// ### 解题思路
+// 时间复杂度为O(N).
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         //因为（子数组最少包含一个元素），所以maxSum的初值不能为0.
@@ -18,4 +18,4 @@ class Solution {
 
     }
 }
-```
+// ```

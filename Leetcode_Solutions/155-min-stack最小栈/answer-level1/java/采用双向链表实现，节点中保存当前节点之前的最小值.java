@@ -1,4 +1,4 @@
-```
+// ```
 class MinStack {
 
     //自定义双链表，保存当前节点值+当前节点以前的最小值（含当前节点）
@@ -53,4 +53,4 @@ class MinStack {
         return cur.curMin;
     }
 }
-```
+// ```

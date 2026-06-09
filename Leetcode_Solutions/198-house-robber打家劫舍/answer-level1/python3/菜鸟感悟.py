@@ -1,9 +1,9 @@
-### 解题思路
-考虑一下list的长度小于2的情况，大于等于三就用动态规划
+# ### 解题思路
+# 考虑一下list的长度小于2的情况，大于等于三就用动态规划
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rob(self, nums: List[int]) -> int:
         l=len(nums)
@@ -24,4 +24,4 @@ class Solution:
 
 
 
-```
+# ```

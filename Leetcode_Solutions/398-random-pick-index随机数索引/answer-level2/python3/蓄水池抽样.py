@@ -1,8 +1,8 @@
-思路：
-（1）计数器count记录target值个数
-（2）以1/count的概率抽样
-实现：
-```
+# 思路：
+# （1）计数器count记录target值个数
+# （2）以1/count的概率抽样
+# 实现：
+# ```
 import random
 class Solution:
     def __init__(self, nums):
@@ -17,4 +17,4 @@ class Solution:
                     res = i
                 count += 1
         return res
-```
+# ```

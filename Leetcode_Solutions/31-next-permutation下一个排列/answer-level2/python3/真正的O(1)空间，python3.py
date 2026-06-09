@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
@@ -15,5 +15,5 @@ class Solution:
         for i in range(len(nums)//2):
             nums[i],nums[len(nums)-1-i]=nums[len(nums)-1-i],nums[i] #交换反转，nums是降序的
 
-```
-据说不能用切片[::-1]来反转，因为切片之后其实还是一个数组，而数组属于可变类型。
+# ```
+# 据说不能用切片[::-1]来反转，因为切片之后其实还是一个数组，而数组属于可变类型。

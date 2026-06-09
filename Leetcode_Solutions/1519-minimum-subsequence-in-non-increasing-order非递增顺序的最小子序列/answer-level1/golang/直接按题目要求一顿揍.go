@@ -1,6 +1,6 @@
-# 直接按题目要求一顿揍
+// # 直接按题目要求一顿揍
 
-```golang
+// ```golang
 func minSubsequence(nums []int) []int {
 	var res []int
 	sort.Ints(nums)
@@ -19,6 +19,6 @@ func minSubsequence(nums []int) []int {
 	}
 	return res
 }
-```
+// ```
 
-[Go版本 Github](https://github.com/temporaries/leetcode)
+// [Go版本 Github](https://github.com/temporaries/leetcode)

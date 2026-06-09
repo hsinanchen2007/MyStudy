@@ -1,9 +1,9 @@
-### 解题思路
-对数组以及指针状态抽了一下，清晰很多
-所有计数都从0开始
-### 代码
+// ### 解题思路
+// 对数组以及指针状态抽了一下，清晰很多
+// 所有计数都从0开始
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         ArrState arr1 = new ArrState(nums1),
@@ -72,4 +72,4 @@ class Solution {
     }
 
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-如果两个数相等，那么这个数就从两个数组中删除，进入要返回的数组
-即用nums2的数组元素和num1的数组元素进行比较，如果相同，则在下次循环的时候将该元素从nums2中剔除（用nums2的最后一个元素将其覆盖）
+// ### 解题思路
+// 如果两个数相等，那么这个数就从两个数组中删除，进入要返回的数组
+// 即用nums2的数组元素和num1的数组元素进行比较，如果相同，则在下次循环的时候将该元素从nums2中剔除（用nums2的最后一个元素将其覆盖）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -30,4 +30,4 @@ int* intersect(int* nums1, int nums1Size, int* nums2, int nums2Size, int* return
 	*returnSize = size;
 	return a;
 }
-```
+// ```

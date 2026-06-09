@@ -1,4 +1,4 @@
-```
+// ```
 package ZJM_14_最长公共前缀;
 
 public class Main {
@@ -69,4 +69,4 @@ class Solution {
  * 特别注意""的字符串数组长度是1而不是0，null的字符串数组无长度，返回strs[0]即可解决
  */
 
-```
+// ```

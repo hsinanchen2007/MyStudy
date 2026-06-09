@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String shortestCompletingWord(String licensePlate, String[] words) {
          int[] lic = new int[26];   //记录licensePlate中字母的个数;
@@ -40,4 +40,4 @@ class Solution {
     }
 }
 
-```
+// ```

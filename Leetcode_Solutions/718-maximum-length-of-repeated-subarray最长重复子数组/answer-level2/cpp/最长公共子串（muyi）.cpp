@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-动态规划求最长公共子串
+// 动态规划求最长公共子串
 
-如果 s[i] == t[j], dp[i][j] = dp[i-1][j-1] + 1
-如果 s[i] != t[j], dp[i][j] = 0
+// 如果 s[i] == t[j], dp[i][j] = dp[i-1][j-1] + 1
+// 如果 s[i] != t[j], dp[i][j] = 0
 
-返回 dp[i][j]的最大值
+// 返回 dp[i][j]的最大值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findLength(vector<int>& A, vector<int>& B) {
@@ -26,4 +26,4 @@ public:
         return ans;
     }
 };
-```
+// ```

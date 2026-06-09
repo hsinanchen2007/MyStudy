@@ -1,9 +1,9 @@
-### 解题思路
-单点更新，单点查询，最简单的树状数组。
+// ### 解题思路
+// 单点更新，单点查询，最简单的树状数组。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 #define MAXN 50002
 
 class StreamRank {
@@ -43,4 +43,4 @@ public:
  * obj->track(x);
  * int param_2 = obj->getRankOfNumber(x);
  */
-```
+// ```

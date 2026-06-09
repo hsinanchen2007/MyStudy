@@ -1,7 +1,7 @@
 
-![SZH0PD2OIXYUA{FFX~0NXL9.png](https://pic.leetcode-cn.com/f8d2f5f0ec9a2b8f41c7d4103007ec3a61f18c9930f76c34b5af4f2246bca236-SZH0PD2OIXYUA%7BFFX~0NXL9.png)
+# ![SZH0PD2OIXYUA{FFX~0NXL9.png](https://pic.leetcode-cn.com/f8d2f5f0ec9a2b8f41c7d4103007ec3a61f18c9930f76c34b5af4f2246bca236-SZH0PD2OIXYUA%7BFFX~0NXL9.png)
 
-```python
+# ```python
 from collections import deque
 class Solution(object):
     def __init__(self):
@@ -43,4 +43,4 @@ class Solution(object):
                         rooms[new_x][new_y] = step
                         marked[new_x][new_y]= True
                         queue.append((new_x,new_y))
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-bfs 
+// ### 解题思路
+// bfs 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int visited[50000];
 bool canReach(int* arr, int arrSize, int start){
     int stack[50000];
@@ -30,4 +30,4 @@ bool canReach(int* arr, int arrSize, int start){
     }
     return 0;
 }
-```
+// ```

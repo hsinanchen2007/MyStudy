@@ -1,17 +1,17 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 使用两个整数存储计算过程的结果
-    2.2 使用二重循环计算，又两种情况
-        2.2.1 计算复原结果为1，这是happy number，返回true
-        2.2.2 计算复原结果为4，没有办法形成happy number，返回false
-3. 提交记录
-    3.1 力扣中耗时3ms,消耗33.6MB内存
-    3.2 leetcode中耗时1ms,消耗32.3MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 使用两个整数存储计算过程的结果
+//     2.2 使用二重循环计算，又两种情况
+//         2.2.1 计算复原结果为1，这是happy number，返回true
+//         2.2.2 计算复原结果为4，没有办法形成happy number，返回false
+// 3. 提交记录
+//     3.1 力扣中耗时3ms,消耗33.6MB内存
+//     3.2 leetcode中耗时1ms,消耗32.3MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *      202.Happy Number
@@ -57,6 +57,6 @@ class Solution{
         }
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出pull request，我会及时处理反馈<br />
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出pull request，我会及时处理反馈<br />
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

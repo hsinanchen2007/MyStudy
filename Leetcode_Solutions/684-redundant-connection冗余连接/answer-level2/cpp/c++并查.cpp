@@ -1,5 +1,5 @@
-今天来学习并查集
-```
+// 今天来学习并查集
+// ```
 class Solution {
 public:
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
@@ -28,4 +28,4 @@ public:
         return x;
     }
 };
-```
+// ```

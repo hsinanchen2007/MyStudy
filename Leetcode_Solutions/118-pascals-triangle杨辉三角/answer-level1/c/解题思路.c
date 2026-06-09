@@ -1,12 +1,12 @@
-### 解题思路
-出口参数说明：
-* returnSize：输出行数的地址
-** returnColumnSizes：输出每行元素个数的地址
-返回值：输出杨辉三角矩阵的地址
+// ### 解题思路
+// 出口参数说明：
+// * returnSize：输出行数的地址
+// ** returnColumnSizes：输出每行元素个数的地址
+// 返回值：输出杨辉三角矩阵的地址
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int** generate(int numRows, int* returnSize, int** returnColumnSizes) {
     int **s;
     int i, j;
@@ -37,4 +37,4 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes) {
     return s;
 
 }
-```
+// ```

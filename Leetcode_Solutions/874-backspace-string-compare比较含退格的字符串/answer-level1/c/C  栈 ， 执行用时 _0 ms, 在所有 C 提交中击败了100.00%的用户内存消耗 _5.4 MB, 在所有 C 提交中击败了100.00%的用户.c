@@ -1,8 +1,8 @@
-### 解题思路
-利用栈存储，然后字符串比较。
-### 代码
+// ### 解题思路
+// 利用栈存储，然后字符串比较。
+// ### 代码
 
-```c
+// ```c
 
 void stackProc(char *src, char *des, int len) {
     int top = -1;
@@ -40,4 +40,4 @@ bool backspaceCompare(char * S, char * T){
     free(stack_T);
     return true;
 }
-```
+// ```

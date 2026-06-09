@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/656f6bed7c189149501ba7afbd5126ffe969a7445144734152963c403029cc98-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/656f6bed7c189149501ba7afbd5126ffe969a7445144734152963c403029cc98-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 // 解题思想 先补齐字符串再逐个比较
 #include<string>
 #include<algorithm>
@@ -95,4 +95,4 @@ public:
 
     }
 };
-```
+// ```

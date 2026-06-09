@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 public class Solution {
     public static List<List<Integer>> subsetsWithDup(int[] nums) {
     	List<List<Integer>> res = new ArrayList<List<Integer>>();
@@ -36,4 +36,4 @@ public class Solution {
 		return sb1.toString();
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-参考了两个解题的思路。仔细想想还是比较简单。
-用递归的话更清晰。dp没有递归清晰。
+# ### 解题思路
+# 参考了两个解题的思路。仔细想想还是比较简单。
+# 用递归的话更清晰。dp没有递归清晰。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 #  Copyright (c) 2019
 #  @Author: xiaoweixiang
 from typing import List
@@ -29,4 +29,4 @@ class Solution:
                     dp[i][j] = max(dp[i][j], nums[i] * nums[t] * nums[j] + dp[i][t] + dp[t][j])
         return dp[0][n - 1]
 
-```
+# ```

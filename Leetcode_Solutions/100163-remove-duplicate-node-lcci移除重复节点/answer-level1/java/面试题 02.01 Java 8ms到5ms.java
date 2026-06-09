@@ -1,9 +1,9 @@
-### 解题思路
-判断是否重复，使用HashSet标记当前节点值是否出现过。
-HashSet的add方法会返回boolean值表示是否添加成功，利用返回值就不必再用contains方法，可以节省时间。
-### 代码
+// ### 解题思路
+// 判断是否重复，使用HashSet标记当前节点值是否出现过。
+// HashSet的add方法会返回boolean值表示是否添加成功，利用返回值就不必再用contains方法，可以节省时间。
+// ### 代码
 
-```java
+// ```java
 /**
  * 8ms版本
  */
@@ -26,9 +26,9 @@ class Solution {
         return head;
     }
 }
-```
+// ```
 
-```java
+// ```java
 /**
  * 优化后 5ms版本
  */
@@ -50,4 +50,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

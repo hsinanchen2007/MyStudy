@@ -1,12 +1,12 @@
-### 解题思路
-树形结构，每一个节点都是一个节点数组，因为节点值有26种可能(26个分支)。
+// ### 解题思路
+// 树形结构，每一个节点都是一个节点数组，因为节点值有26种可能(26个分支)。
 
-![image.png](https://pic.leetcode-cn.com/9b75d5bc53c69b09c120064e5a07b3a41e3c19d0709e3e4fc4fa39433295c103-image.png)
+// ![image.png](https://pic.leetcode-cn.com/9b75d5bc53c69b09c120064e5a07b3a41e3c19d0709e3e4fc4fa39433295c103-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Trie {
 public:
     /** Initialize your data structure here. */
@@ -62,4 +62,4 @@ private:
     std::unique_ptr<TrieNode> root_;
 };
 
-```
+// ```

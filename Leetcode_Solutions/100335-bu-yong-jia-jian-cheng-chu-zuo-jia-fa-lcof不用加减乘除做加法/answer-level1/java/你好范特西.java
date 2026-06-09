@@ -1,10 +1,10 @@
-### 解题思路
-a 代表进位
-b 代表不进位加法
+// ### 解题思路
+// a 代表进位
+// b 代表不进位加法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int add(int a, int b) {
         while (a != 0) {
@@ -15,4 +15,4 @@ class Solution {
         return b ;
     }
 }
-```
+// ```

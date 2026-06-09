@@ -1,14 +1,14 @@
-![image.png](https://pic.leetcode-cn.com/0f24085e81c92ef9cef317b6eb586577661b4ce1127d79f614801564103a29e8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0f24085e81c92ef9cef317b6eb586577661b4ce1127d79f614801564103a29e8-image.png)
 
-### 解题思路
-参考官方题解，针对暴力回溯方法进行优化
-还是回溯，只不过增加两个想法：
-- 先计算出每个位置只可以放哪几个数字
-- 在回溯的过程中判断哪个数字用过了，就不可以用了，别忘了取完数之后释放它的状态
+// ### 解题思路
+// 参考官方题解，针对暴力回溯方法进行优化
+// 还是回溯，只不过增加两个想法：
+// - 先计算出每个位置只可以放哪几个数字
+// - 在回溯的过程中判断哪个数字用过了，就不可以用了，别忘了取完数之后释放它的状态
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} N
  * @return {number}
@@ -109,4 +109,4 @@ var countArrangement = function(N) {
 
 
 
-```
+// ```

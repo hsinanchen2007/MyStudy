@@ -1,9 +1,9 @@
-### 解题思路
-很有意思的题目，通过判断第一行最后一个和第一列最后一个缩小范围。即当target 小于第一行最后一个时，他肯定小于该列的所有值
+# ### 解题思路
+# 很有意思的题目，通过判断第一行最后一个和第一列最后一个缩小范围。即当target 小于第一行最后一个时，他肯定小于该列的所有值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNumberIn2DArray(self, matrix: List[List[int]], target: int) -> bool:
         if len(matrix) == 0 or len(matrix[0])==0:
@@ -35,4 +35,4 @@ class Solution:
                     return True
         return False
          
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def heightChecker(heights: Array[Int]): Int = {
     val A = heights.sorted
@@ -15,4 +15,4 @@ object Solution {
     count    
     }
 }
-```
+// ```

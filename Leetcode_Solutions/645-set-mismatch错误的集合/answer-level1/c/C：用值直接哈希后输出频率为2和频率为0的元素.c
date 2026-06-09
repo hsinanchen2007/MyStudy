@@ -1,7 +1,7 @@
-思路：
-因为n个数字分布在1-n，有一个重复数字，所以直接用数值哈希统计频率
-然后判断频率，输出
-```
+// 思路：
+// 因为n个数字分布在1-n，有一个重复数字，所以直接用数值哈希统计频率
+// 然后判断频率，输出
+// ```
 int* findErrorNums(int* nums, int numsSize, int* returnSize){
     *returnSize = 2;
     int hash[numsSize + 1];
@@ -24,4 +24,4 @@ int* findErrorNums(int* nums, int numsSize, int* returnSize){
     }
     return answer;
 }
-```
+// ```

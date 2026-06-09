@@ -1,9 +1,9 @@
-### 解题思路
-此题难度在于边界判断，笨办法是分开用if讨论。
+// ### 解题思路
+// 此题难度在于边界判断，笨办法是分开用if讨论。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool canPlaceFlowers(int* flowerbed, int flowerbedSize, int n){
     if(flowerbedSize==0) return false;
     int count=0;
@@ -36,4 +36,4 @@ bool canPlaceFlowers(int* flowerbed, int flowerbedSize, int n){
     
     return count<n?false:true;
 }
-```
+// ```

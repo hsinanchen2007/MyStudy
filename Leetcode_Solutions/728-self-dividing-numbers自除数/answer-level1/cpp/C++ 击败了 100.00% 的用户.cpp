@@ -1,9 +1,9 @@
-### 解题思路
-![1.png](https://pic.leetcode-cn.com/24e25f5c34042ccb1aeff86bfc48ed5dca746bf8a16390548909316cf3960135-1.png)
+// ### 解题思路
+// ![1.png](https://pic.leetcode-cn.com/24e25f5c34042ccb1aeff86bfc48ed5dca746bf8a16390548909316cf3960135-1.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool isSelfDivideNumber(int i) {
@@ -25,4 +25,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

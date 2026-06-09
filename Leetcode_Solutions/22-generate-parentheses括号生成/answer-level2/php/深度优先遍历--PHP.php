@@ -1,15 +1,15 @@
-### 解题思路
-容易想到的思路就是枚举所以情况，然后验证是否符合规则。效率太低。
+// ### 解题思路
+// 容易想到的思路就是枚举所以情况，然后验证是否符合规则。效率太低。
 
-这里使用递归
+// 这里使用递归
 
-### 性能
-执行用时 :4 ms, 在所有 PHP 提交中击败了97.30%的用户
-内存消耗 :15.4 MB, 在所有 PHP 提交中击败了76.53%的用户
+// ### 性能
+// 执行用时 :4 ms, 在所有 PHP 提交中击败了97.30%的用户
+// 内存消耗 :15.4 MB, 在所有 PHP 提交中击败了76.53%的用户
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -50,7 +50,7 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-### 参考
-[https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/](https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/)
+// ### 参考
+// [https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/](https://leetcode-cn.com/problems/generate-parentheses/solution/hui-su-suan-fa-by-liweiwei1419/)

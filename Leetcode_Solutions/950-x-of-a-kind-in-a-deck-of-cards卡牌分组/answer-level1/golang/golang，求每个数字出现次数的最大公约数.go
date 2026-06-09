@@ -1,9 +1,9 @@
-### 解题思路
-先把每个数字出现的次数放入map中，再求map中所有值的最大公约数，如果最大公约数等于1，则返回false
+// ### 解题思路
+// 先把每个数字出现的次数放入map中，再求map中所有值的最大公约数，如果最大公约数等于1，则返回false
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func hasGroupsSizeX(deck []int) bool {
     deckMap := make(map[int]int)
 
@@ -42,4 +42,4 @@ func min(a,b int) int {
     }
     return b
 }
-```
+// ```

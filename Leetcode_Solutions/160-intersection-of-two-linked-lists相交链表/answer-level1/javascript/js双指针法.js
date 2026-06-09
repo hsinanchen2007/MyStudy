@@ -1,5 +1,5 @@
-双指针法
-```
+// 双指针法
+// ```
 var getIntersectionNode = function(headA, headB) {
     let flag1 = true, flag2 = true;
     if(!headA || !headB){
@@ -31,4 +31,4 @@ var getIntersectionNode = function(headA, headB) {
     }
     return tarverse(headA,headB)
 };
-```
+// ```

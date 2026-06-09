@@ -1,9 +1,9 @@
-### 解题思路
-通过map存储time数组模60的余数，遍历一次map即可，时间复杂度O(n)
+// ### 解题思路
+// 通过map存储time数组模60的余数，遍历一次map即可，时间复杂度O(n)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numPairsDivisibleBy60(vector<int>& time) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

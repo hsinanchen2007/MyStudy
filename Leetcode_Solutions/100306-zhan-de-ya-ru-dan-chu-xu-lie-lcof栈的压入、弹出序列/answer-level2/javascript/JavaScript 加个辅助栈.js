@@ -1,7 +1,7 @@
 
-添加一个辅助栈
+// 添加一个辅助栈
 
-```js
+// ```js
 var validateStackSequences = function(pushed, popped) {
     let fuzhu = [];
     for (let i = 0; i < pushed.length; ++i) {
@@ -13,4 +13,4 @@ var validateStackSequences = function(pushed, popped) {
     }
     return popped.length === 0;
 };
-```
+// ```

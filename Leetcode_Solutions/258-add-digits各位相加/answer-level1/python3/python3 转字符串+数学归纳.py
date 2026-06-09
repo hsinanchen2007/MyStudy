@@ -1,5 +1,5 @@
-1. 将数字转成字符串，在求和
-```
+# 1. 将数字转成字符串，在求和
+# ```
 class Solution:
     def addDigits(self, num: int) -> int:
         num=str(num)
@@ -10,9 +10,9 @@ class Solution:
             tmp=str(tmp)
             num=tmp
         return int(num)
-```
-2.数学归纳
-```
+# ```
+# 2.数学归纳
+# ```
 class Solution:
     def addDigits(self, num: int) -> int:
         if num > 9:
@@ -20,4 +20,4 @@ class Solution:
             if num == 0:
                 return 9
         return num
-```
+# ```

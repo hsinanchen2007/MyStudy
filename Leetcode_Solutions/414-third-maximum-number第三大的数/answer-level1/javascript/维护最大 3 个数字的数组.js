@@ -1,9 +1,9 @@
-### 解题思路
-去重之后，维护一个大小为 3 的有序数组，每次找到更大的数字时，更新数组。
+// ### 解题思路
+// 去重之后，维护一个大小为 3 的有序数组，每次找到更大的数字时，更新数组。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -36,8 +36,8 @@ var thirdMax = function(nums) {
     }
     return isFull ? kArray[0] : kArray[kArray.length - 1];
 };
-```
+// ```
 
-### 复杂度
-- 时间复杂度 O(N)
-- 空间复杂度 O(N)
+// ### 复杂度
+// - 时间复杂度 O(N)
+// - 空间复杂度 O(N)

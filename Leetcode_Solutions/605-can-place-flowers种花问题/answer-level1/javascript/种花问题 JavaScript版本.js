@@ -1,5 +1,5 @@
 
-```
+// ```
 /*
 * 在首位都加上一个0 这样就不用考虑边界问题
 * */
@@ -13,4 +13,4 @@ var canPlaceFlowers = function (flowerbed, n) {
         }
     }
     return n <= 0 ? true : false;
-```
+// ```

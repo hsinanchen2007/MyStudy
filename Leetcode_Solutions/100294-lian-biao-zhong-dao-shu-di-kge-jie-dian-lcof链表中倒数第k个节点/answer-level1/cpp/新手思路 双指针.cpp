@@ -1,9 +1,9 @@
-### 解题思路
-准备两个指向头结点的指针left和right，用循环确定要返回的剩余链表的长度。然后left和right同时向后移动，直到right指向NULL，返回left即为所求。
+// ### 解题思路
+// 准备两个指向头结点的指针left和right，用循环确定要返回的剩余链表的长度。然后left和right同时向后移动，直到right指向NULL，返回left即为所求。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -29,4 +29,4 @@ public:
 
     }
 };
-```
+// ```

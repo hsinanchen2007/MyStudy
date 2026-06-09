@@ -1,12 +1,12 @@
-### 解题思路
-向右下方冒泡排序。
+// ### 解题思路
+// 向右下方冒泡排序。
 
-![image.png](https://pic.leetcode-cn.com/2e3e17d0bc752f7244116fd80a0da9bd85bd1eefbae3629cc02dbc9daed30370-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2e3e17d0bc752f7244116fd80a0da9bd85bd1eefbae3629cc02dbc9daed30370-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -39,4 +39,4 @@ int** diagonalSort(int** mat, int matSize, int* matColSize, int* returnSize, int
     *returnColumnSizes = matColSize;
     return mat;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-一个栈保存原子(name, count)
+// 一个栈保存原子(name, count)
 
-一个栈保存括号(left/right, idx)，idx是索引该括号对应原子栈的位置。
+// 一个栈保存括号(left/right, idx)，idx是索引该括号对应原子栈的位置。
 
-```C++
+// ```C++
 class Solution {
 public:
 	struct Atom
@@ -146,4 +146,4 @@ public:
 		return ans;
 	}
 };
-```
+// ```

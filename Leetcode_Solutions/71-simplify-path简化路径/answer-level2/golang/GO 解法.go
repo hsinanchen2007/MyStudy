@@ -1,9 +1,9 @@
-![image.png](https://pic.leetcode-cn.com/df252476fd19f4dc19b87f8bff136385ddc2e87fb18706079964c468e3d357bc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/df252476fd19f4dc19b87f8bff136385ddc2e87fb18706079964c468e3d357bc-image.png)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func simplifyPath(path string) string {
     sla := "/"[0]
     path = path + "/"
@@ -47,4 +47,4 @@ func simplifyPath(path string) string {
 
     return "/" + strings.Join(b, "/")
 }
-```
+// ```

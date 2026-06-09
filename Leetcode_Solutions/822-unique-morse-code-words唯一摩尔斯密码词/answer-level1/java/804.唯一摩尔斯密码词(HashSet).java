@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int uniqueMorseRepresentations(String[] words) {
         String morse[]=new String[]{
@@ -16,4 +16,4 @@ class Solution {
 		return set.size();
     }
 }
-```
+// ```

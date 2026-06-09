@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         result = [[0]*n for _ in range(n)]
@@ -11,4 +11,4 @@ class Solution:
             y += dy
         return result
                 
-```
+# ```

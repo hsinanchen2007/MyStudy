@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -27,4 +27,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
 }
 
 
-```
+// ```

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 /*
 // Employee info
 class Employee {
@@ -39,4 +39,4 @@ public:
         return importance;
     }
 };
-```
+// ```

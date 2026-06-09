@@ -1,5 +1,5 @@
-![捕获.JPG](https://pic.leetcode-cn.com/5b520f0521fdbb09357fcd90ee35881456a607688c706c5f540af62e928ff54a-%E6%8D%95%E8%8E%B7.JPG)
-```
+# ![捕获.JPG](https://pic.leetcode-cn.com/5b520f0521fdbb09357fcd90ee35881456a607688c706c5f540af62e928ff54a-%E6%8D%95%E8%8E%B7.JPG)
+# ```
 class Solution(object):
     def relativeSortArray(self, arr1, arr2):
         """
@@ -18,5 +18,5 @@ class Solution(object):
             num = arr1.count(i)
         arr3.extend([i for j in range(num)])
         return arr3[::-1]
-```
+# ```
 

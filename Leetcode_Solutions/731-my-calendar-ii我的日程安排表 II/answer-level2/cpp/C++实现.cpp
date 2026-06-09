@@ -1,11 +1,11 @@
-### 解题思路
-个人见解:
-维护两个list,分别是原始记录和二重预订;核心函数是比较两个线段是否重叠及获取重叠区域
-当有一个新的预定时,首先检查二重预定list,如果判断存在重复,则返回false;否则通过与原始记录list比较,来更新二重预定list,然后将其加入原始记录list
+// ### 解题思路
+// 个人见解:
+// 维护两个list,分别是原始记录和二重预订;核心函数是比较两个线段是否重叠及获取重叠区域
+// 当有一个新的预定时,首先检查二重预定list,如果判断存在重复,则返回false;否则通过与原始记录list比较,来更新二重预定list,然后将其加入原始记录list
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyCalendarTwo {
 public:
     MyCalendarTwo() {
@@ -59,4 +59,4 @@ public:
  * MyCalendarTwo* obj = new MyCalendarTwo();
  * bool param_1 = obj->book(start,end);
  */
-```
+// ```

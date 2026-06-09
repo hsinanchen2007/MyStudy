@@ -1,8 +1,8 @@
-### 解题思路
-纯C 位运算
-### 代码
+// ### 解题思路
+// 纯C 位运算
+// ### 代码
 
-```c
+// ```c
 int hammingWeight(uint32_t n) {
     int res = 0;
 
@@ -14,4 +14,4 @@ int hammingWeight(uint32_t n) {
 
     return res;
 }
-```
+// ```

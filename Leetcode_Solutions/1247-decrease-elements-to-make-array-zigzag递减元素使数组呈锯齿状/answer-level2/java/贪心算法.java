@@ -1,10 +1,10 @@
-### 解题思路
-迭代解决，要注意只能减不能加。
-![image.png](https://pic.leetcode-cn.com/d70c4a34fabef35358fc07d971772146c2ba14b6f57b905fd14b242c6ab6c9fb-image.png)
+// ### 解题思路
+// 迭代解决，要注意只能减不能加。
+// ![image.png](https://pic.leetcode-cn.com/d70c4a34fabef35358fc07d971772146c2ba14b6f57b905fd14b242c6ab6c9fb-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int movesToMakeZigzag(int[] nums) {
         int result = Integer.MAX_VALUE;
@@ -28,4 +28,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

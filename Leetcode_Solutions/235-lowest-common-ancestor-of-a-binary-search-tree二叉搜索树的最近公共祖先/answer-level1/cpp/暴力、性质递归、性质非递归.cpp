@@ -1,6 +1,6 @@
-##### 暴力
-对于任意的二叉树均可
-```cpp
+// ##### 暴力
+// 对于任意的二叉树均可
+// ```cpp
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -15,9 +15,9 @@ public:
         else return nullptr;
     }
 };
-```
-##### 性质+递归
-```cpp
+// ```
+// ##### 性质+递归
+// ```cpp
 class Solution {
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
@@ -30,9 +30,9 @@ public:
             return root;
     }
 };
-```
-##### 性质+非递归
-```cpp
+// ```
+// ##### 性质+非递归
+// ```cpp
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         int m1=p->val,m2=q->val;
         TreeNode* x = root;
@@ -47,4 +47,4 @@ public:
         return x;
     }
 };
-```
+// ```

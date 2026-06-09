@@ -1,10 +1,10 @@
-### 解题思路
-1. 此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/1db6e5f988a46e9a7bdabd93fd68c2772398052744410cc48274d08c490f033d-image.png)
+// ### 解题思路
+// 1. 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/1db6e5f988a46e9a7bdabd93fd68c2772398052744410cc48274d08c490f033d-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 char* reverseLeftWords(char* s, int n){
     int len = strlen(s);
@@ -25,4 +25,4 @@ char* reverseLeftWords(char* s, int n){
     }
     return res;
 }
-```
+// ```

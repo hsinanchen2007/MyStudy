@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/6c78a59432bd7f5f7d25d412d4275eb657b8f9eb402043aeed1502126dc29a3a-image.png)
-效率一般，代码比较清晰
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/6c78a59432bd7f5f7d25d412d4275eb657b8f9eb402043aeed1502126dc29a3a-image.png)
+// 效率一般，代码比较清晰
 
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX(a, b) (a) > (b) ? (a) : (b)
 
 int CheckLand(int **grid, int x, int y, int col, int line, int **vis)
@@ -85,4 +85,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
 
     return maxCount;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     # def shoppingOffers(self, price: List[int], special: List[List[int]], needs: List[int]) -> int:     
     def shoppingOffers(self, price, special, needs):
@@ -27,4 +27,4 @@ class Solution:
             dic[needs] = res
             return res
         return getmin(tuple(needs))
-```
+# ```

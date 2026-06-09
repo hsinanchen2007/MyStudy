@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/4e26d201bfdd8a94569c897cdb937e49461ac683074f3e0887792da56d80e283-image.png)
+# ![image.png](https://pic.leetcode-cn.com/4e26d201bfdd8a94569c897cdb937e49461ac683074f3e0887792da56d80e283-image.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def translateNum(self, num: int) -> int:
         num = str(num)
@@ -18,4 +18,4 @@ class Solution:
             return self.fun(s[1:])
 
 
-```
+# ```

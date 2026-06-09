@@ -1,4 +1,4 @@
-```python
+# ```python
 # 主要是用栈维护当前占用的函数
 class Solution:
     def exclusiveTime(self, n: int, logs: List[str]) -> List[int]:
@@ -27,4 +27,4 @@ class Solution:
                 pre_time += 1
             #print(record)
         return [record.get(str(i),0) for i in range(n)]
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-其实就是考察中序遍历的迭代写法
-只需要每次访问后确保迭代器的下一个值位于栈顶即可
+// ### 解题思路
+// 其实就是考察中序遍历的迭代写法
+// 只需要每次访问后确保迭代器的下一个值位于栈顶即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -50,4 +50,4 @@ public:
  * int param_1 = obj->next();
  * bool param_2 = obj->hasNext();
  */
-```
+// ```

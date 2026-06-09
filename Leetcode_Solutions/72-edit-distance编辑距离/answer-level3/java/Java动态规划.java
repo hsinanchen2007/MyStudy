@@ -1,5 +1,5 @@
 
-```
+// ```
 int[][] cost = new int[word1.length()+1][word2.length()+1];
     for (int i = 0; i <= word2.length(); i++) {
       cost[0][i] = i;
@@ -21,4 +21,4 @@ int[][] cost = new int[word1.length()+1][word2.length()+1];
       }
     }
     return cost[word1.length()][word2.length()];
-```
+// ```

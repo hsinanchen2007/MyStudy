@@ -1,9 +1,9 @@
-### 解题思路
-丑陋无比的代码。。反正过了
---后面有修改的代码
-### 代码
+// ### 解题思路
+// 丑陋无比的代码。。反正过了
+// --后面有修改的代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -46,10 +46,10 @@ public:
         
     }
 };
-```
+// ```
 
-修改后
-```cpp
+// 修改后
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -81,4 +81,4 @@ public:
         
     }
 };
-```
+// ```

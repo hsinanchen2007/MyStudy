@@ -1,9 +1,9 @@
-### 解题思路
-该题和数独差不多，甚至更简单，写起来就像在套模版一样，一遍过。
+// ### 解题思路
+// 该题和数独差不多，甚至更简单，写起来就像在套模版一样，一遍过。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool valid(vector<string> a,int x,int y){
@@ -45,4 +45,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func checkRecord(s string) bool {
 	sMap:=make(map[rune]int)
 	LFlag:=strings.Contains(s,"LLL")
@@ -21,4 +21,4 @@ func checkRecord(s string) bool {
 
 	return false
 }
-```
+// ```

@@ -1,7 +1,7 @@
-顺序遍历数组，遇到0就插入一个0，同时pop一个元素
+// 顺序遍历数组，遇到0就插入一个0，同时pop一个元素
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     void duplicateZeros(vector<int>& arr) {
@@ -15,4 +15,4 @@ public:
         }
     }
 };
-```
+// ```

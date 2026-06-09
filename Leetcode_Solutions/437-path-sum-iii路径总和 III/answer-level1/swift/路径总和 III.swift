@@ -1,8 +1,8 @@
 
-递归法
+// 递归法
 
 
-```swift []
+// ```swift []
 class Solution {
     func pathSum(_ root: TreeNode?, _ sum: Int) -> Int {
         
@@ -28,4 +28,4 @@ class Solution {
         return count + find(root.left, sum - root.val) + find(root.right, sum - root.val)
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-标准的滑动窗口法，双指针法。
-```
+# 标准的滑动窗口法，双指针法。
+# ```
 class Solution(object):
     def maxSlidingWindow(self, nums, k):
         """
@@ -21,4 +21,4 @@ class Solution(object):
             if cnt == k:
                 res.append(max(tmp))
         return res
-```
+# ```

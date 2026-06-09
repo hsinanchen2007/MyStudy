@@ -1,9 +1,9 @@
-### 解题思路
-参考了一下扣友的代码，重新理了下思路，写了写每句代码的意思
+// ### 解题思路
+// 参考了一下扣友的代码，重新理了下思路，写了写每句代码的意思
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -31,4 +31,4 @@ var massage = function(nums) {
     // 肯定返回俩最大值里比较大的那个啦
     return Math.max(selMax_y,selMax_n)
 };
-```
+// ```

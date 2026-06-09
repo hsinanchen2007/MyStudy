@@ -1,4 +1,4 @@
-改了好几次，最后长这样，看了别人可以不用数组突然感觉自己解题方法好一般
+// 改了好几次，最后长这样，看了别人可以不用数组突然感觉自己解题方法好一般
 var convert = function(s, numRows) {
      if(numRows<2||s.length<3) return s
      let arr=[]

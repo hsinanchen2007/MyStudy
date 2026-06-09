@@ -1,9 +1,9 @@
-### 解题思路
-dfs
+// ### 解题思路
+// dfs
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sumEvenGrandparent(root *TreeNode) int {
 	return dfs(root, false, false)
 }
@@ -21,4 +21,4 @@ func dfs(node *TreeNode, prevEven bool, lastEven bool) int {
 	return res
 }
 
-```
+// ```

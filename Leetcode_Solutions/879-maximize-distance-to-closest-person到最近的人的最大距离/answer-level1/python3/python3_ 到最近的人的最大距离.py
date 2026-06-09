@@ -1,4 +1,4 @@
-```python
+# ```python
 def maxDistToClosest(seats):
     max_count = 0
     # 开头/结尾为0, 则特殊处理
@@ -23,4 +23,4 @@ def maxDistToClosest(seats):
     
 print(maxDistToClosest([1,0,0,0,1,0,1]))
 print(maxDistToClosest([1,0,0,0]))
-```
+# ```

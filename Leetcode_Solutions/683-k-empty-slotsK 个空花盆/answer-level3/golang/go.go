@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 
 func max(a, b int) int {
@@ -30,4 +30,4 @@ func kEmptySlots(bulbs []int, K int) int {
 	}
 	return out
 }
-```
+// ```

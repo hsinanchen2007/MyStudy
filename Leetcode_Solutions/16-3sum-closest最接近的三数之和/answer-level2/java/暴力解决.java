@@ -1,9 +1,9 @@
-### 解题思路
-刚开始想到了，优先级队列（小根堆）解决的，然后弹出最顶端，优先级队列存一个Pair<Math.diff(diff),-nums[i]-nums[j]-nums[k]>,这样就把最小的值放到了堆得顶端，但是这样浪费空间，用堆得目的一般是返回第K个最小或者最大元素。
+// ### 解题思路
+// 刚开始想到了，优先级队列（小根堆）解决的，然后弹出最顶端，优先级队列存一个Pair<Math.diff(diff),-nums[i]-nums[j]-nums[k]>,这样就把最小的值放到了堆得顶端，但是这样浪费空间，用堆得目的一般是返回第K个最小或者最大元素。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
         int min = Integer.MAX_VALUE;
@@ -22,4 +22,4 @@ class Solution {
         return minTarget;
     }
 }
-```
+// ```

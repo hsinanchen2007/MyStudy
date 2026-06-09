@@ -1,17 +1,17 @@
-### 解题思路一 队列存储
-题解：[面试题32 - II. 从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/solution/dui-lie-ji-shu-ceng-shu-_mian-shi-ti-32-iii-cong-s/)
+// ### 解题思路一 队列存储
+// 题解：[面试题32 - II. 从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/solution/dui-lie-ji-shu-ceng-shu-_mian-shi-ti-32-iii-cong-s/)
 
-    /*
-     * 队列+计数+层数
-     * 
-     * 与32-II相同，使用队列存储节点，计数进行层序遍历。
-     * 本题不同的是在奇数层进行反序打印，那么只需要判断该层是奇数层，
-     * 并将该层元素反转在存入结果数组即可。
-     * */
+//     /*
+//      * 队列+计数+层数
+//      * 
+//      * 与32-II相同，使用队列存储节点，计数进行层序遍历。
+//      * 本题不同的是在奇数层进行反序打印，那么只需要判断该层是奇数层，
+//      * 并将该层元素反转在存入结果数组即可。
+//      * */
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 std::vector<std::vector<int>> levelOrder(BiTreeNode *root) {
     if (root == nullptr) {
         return {};
@@ -80,18 +80,18 @@ std::vector<std::vector<int>> levelOrder(BiTreeNode *root) {
 
     return ans;
 }
-```
+// ```
 
-### 解题思路二 栈存储
-    /*
-     * 方法2 栈+计数
-     *
-     * 因为奇数层的节点要反序打印，而偶数层的节点正序打印，
-     * 可以将节点储存在栈中，奇数层时先存左节点再存右节点；
-     * 偶数层时，先存右节点再存左节点。
-     * */
-### 代码
-```cpp
+// ### 解题思路二 栈存储
+//     /*
+//      * 方法2 栈+计数
+//      *
+//      * 因为奇数层的节点要反序打印，而偶数层的节点正序打印，
+//      * 可以将节点储存在栈中，奇数层时先存左节点再存右节点；
+//      * 偶数层时，先存右节点再存左节点。
+//      * */
+// ### 代码
+// ```cpp
 std::vector<std::vector<int>> levelOrder2(BiTreeNode *root) {
     if (root == nullptr) {
         return {};
@@ -153,4 +153,4 @@ std::vector<std::vector<int>> levelOrder2(BiTreeNode *root) {
         }
     }
 }
-```
+// ```

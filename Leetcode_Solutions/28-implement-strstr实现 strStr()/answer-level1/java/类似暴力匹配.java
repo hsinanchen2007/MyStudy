@@ -1,10 +1,10 @@
-### 解题思路
-循环haystack数组，使用needle匹配，如果匹配不成功，到退needleIndex继续匹配。
-击败25.5% 垃圾 
+// ### 解题思路
+// 循环haystack数组，使用needle匹配，如果匹配不成功，到退needleIndex继续匹配。
+// 击败25.5% 垃圾 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
         
@@ -39,4 +39,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-# **DFS**
-代码简单， 执行 8 ms	7.7 MB
-```
+// # **DFS**
+// 代码简单， 执行 8 ms	7.7 MB
+// ```
 int TreeDepthDfs(struct TreeNode* root)
 {
     if (root == NULL) {
@@ -12,11 +12,11 @@ int TreeDepthDfs(struct TreeNode* root)
 
     return left >= right ? left : right;
 }
-```
+// ```
 
-# **BFS**
-逐层遍历， 队列内存要开大点。  执行 4 ms	7.6 MB
-```
+// # **BFS**
+// 逐层遍历， 队列内存要开大点。  执行 4 ms	7.6 MB
+// ```
 #define MAX_NODE_NUM 10240
 struct TreeNode *g_queue[MAX_NODE_NUM];
 int TreeDepthBfs(struct TreeNode* root)
@@ -51,6 +51,6 @@ int TreeDepthBfs(struct TreeNode* root)
 
     return deep;
 }
-```
+// ```
 
 

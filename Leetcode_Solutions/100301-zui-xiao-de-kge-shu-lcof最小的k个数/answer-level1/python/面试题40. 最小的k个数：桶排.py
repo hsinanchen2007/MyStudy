@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         ans, d = [], [0] * 10001
@@ -12,4 +12,4 @@ class Solution:
                 if k <= 0:
                     break
         return ans
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-判断是否和上一个字符串相等 并计数
+# ### 解题思路
+# 判断是否和上一个字符串相等 并计数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if S:
@@ -26,4 +26,4 @@ class Solution:
             return S
 
 
-```
+# ```

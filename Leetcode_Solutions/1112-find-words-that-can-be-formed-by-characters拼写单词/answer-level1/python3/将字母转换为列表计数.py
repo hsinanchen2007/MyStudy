@@ -1,10 +1,10 @@
-### 解题思路
-因为英文字母有限，所以可以转换为两个26位的列表，比如a就是列表位置0，有一个a，对应位置的值加1。
-如果chars中字母位置的值不小于word中字母位置的值，则说明可以拼写出来。
+# ### 解题思路
+# 因为英文字母有限，所以可以转换为两个26位的列表，比如a就是列表位置0，有一个a，对应位置的值加1。
+# 如果chars中字母位置的值不小于word中字母位置的值，则说明可以拼写出来。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         charsCnt = [0]*26
@@ -25,4 +25,4 @@ class Solution:
             else:
                 total_length += len(word)
         return total_length
-```
+# ```

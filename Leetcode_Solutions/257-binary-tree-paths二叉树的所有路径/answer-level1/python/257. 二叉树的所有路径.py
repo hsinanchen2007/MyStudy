@@ -1,9 +1,9 @@
-### 解题思路
-**1.递归**
-参考官方题解
+# ### 解题思路
+# **1.递归**
+# 参考官方题解
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution(object):
     def binaryTreePaths(self, root):
         if not root:return []
@@ -21,12 +21,12 @@ class Solution(object):
         cur = ''
         subtree(root,cur)
         return ans
-```
-### 解题思路
-**2.迭代**
+# ```
+# ### 解题思路
+# **2.迭代**
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution(object):
     def binaryTreePaths(self, root):
         if not root:return []
@@ -46,4 +46,4 @@ class Solution(object):
                     if root.right:
                         stack.append((root.right,cur + '->'))
         return ans
-```
+# ```

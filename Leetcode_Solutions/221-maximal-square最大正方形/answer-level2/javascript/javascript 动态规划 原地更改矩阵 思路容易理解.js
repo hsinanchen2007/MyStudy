@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 /**
  * 221. Maximal Square
  * https://leetcode.com/problems/maximal-square/
@@ -43,4 +43,4 @@ const maximalSquare = (matrix) => {
  * 所以，状态转换方程为：dp[i][j] = Math.min(dp[i-1][j], dp[i-1][j-1], dp[i][j-1]) + 1
  * 下一步，需要根据矩阵数据，进行选择和明确 base case 即可
  */
-```
+// ```

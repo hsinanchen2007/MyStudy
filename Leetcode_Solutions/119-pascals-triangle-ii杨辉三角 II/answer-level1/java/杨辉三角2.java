@@ -1,11 +1,11 @@
-### 解题思路
-此题和之前一道题考查的类似。
-只需要将最后一行输出出来就可以了。
-大体思路还是上一题的代码。
+// ### 解题思路
+// 此题和之前一道题考查的类似。
+// 只需要将最后一行输出出来就可以了。
+// 大体思路还是上一题的代码。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         List<List<Integer>> lists = new ArrayList<>();
@@ -28,4 +28,4 @@ class Solution {
         return lists.get(rowIndex);
     }
 }
-```
+// ```

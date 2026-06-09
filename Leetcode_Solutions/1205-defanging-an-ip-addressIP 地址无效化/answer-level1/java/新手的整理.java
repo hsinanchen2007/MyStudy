@@ -1,10 +1,10 @@
-### 解题思路
-不是多好的方法，内存消耗比较大，但还是想做个记录。
-总体思路就是：①遍历address ②找到.所在的位置 ③生成结果字符串。
-具体见代码注释。
-### 代码
+// ### 解题思路
+// 不是多好的方法，内存消耗比较大，但还是想做个记录。
+// 总体思路就是：①遍历address ②找到.所在的位置 ③生成结果字符串。
+// 具体见代码注释。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String defangIPaddr(String address) {
         StringBuffer ans = new StringBuffer(); //ans作为结果字符集的存放
@@ -25,4 +25,4 @@ class Solution {
         return address;
     }
 }
-```
+// ```

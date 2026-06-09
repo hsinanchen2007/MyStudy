@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
         str1 = ""
@@ -25,4 +25,4 @@ class Solution:
                 for k in list1:
                     str1 += str(k)
                 return(str1)
-```
+# ```

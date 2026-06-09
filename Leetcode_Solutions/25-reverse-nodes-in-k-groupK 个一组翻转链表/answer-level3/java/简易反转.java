@@ -1,6 +1,6 @@
-**思路: 检查是否有k长, 逆转k个, 并继续操作下k个**
-与普通链表反转并无太大区别, 应该是中等难度...
-```
+// **思路: 检查是否有k长, 逆转k个, 并继续操作下k个**
+// 与普通链表反转并无太大区别, 应该是中等难度...
+// ```
 class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         if (head == null || head.next == null || k == 1) return head;
@@ -34,4 +34,4 @@ class Solution {
         return cnt >= k;
     }
 }
-```
+// ```

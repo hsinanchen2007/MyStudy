@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
  public int reverse(int x){
         int max = 0x7fffffff, min = 0x80000000;
@@ -33,4 +33,4 @@ class Solution {
         }
     }
 }
-```
+// ```

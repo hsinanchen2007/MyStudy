@@ -1,4 +1,4 @@
-```c++
+// ```c++
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -7,9 +7,9 @@
  *     ListNode(int x) : val(x), next(NULL) {}
  * };
  */
-```
-### 递归
-```c++
+// ```
+// ### 递归
+// ```c++
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -27,9 +27,9 @@ public:
         }
     }
 };
-```
-### 迭代
-```c++
+// ```
+// ### 迭代
+// ```c++
 class Solution {
 public:
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
@@ -47,4 +47,4 @@ public:
         return s->next;
     }
 };
-```
+// ```

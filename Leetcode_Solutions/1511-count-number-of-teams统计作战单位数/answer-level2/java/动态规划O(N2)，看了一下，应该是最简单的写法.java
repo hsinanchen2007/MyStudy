@@ -1,4 +1,4 @@
-```
+// ```
 public int numTeams(int[] rating) {
         int n = rating.length;
         int res = 0;
@@ -27,4 +27,4 @@ public int numTeams(int[] rating) {
         
         return res;
     }
-```
+// ```

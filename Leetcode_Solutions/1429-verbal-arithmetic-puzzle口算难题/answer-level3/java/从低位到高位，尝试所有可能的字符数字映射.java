@@ -1,7 +1,7 @@
-1.考虑加法可能存在进位，由数字的低位(单词的高位)开始遍历，words任何一位相加再减去result不等于0，说明当前字符数字映射是错误的。
-2.当第一次遇到某个字符时，从当前位开始递归，找剩余字符所对应的数字。
+// 1.考虑加法可能存在进位，由数字的低位(单词的高位)开始遍历，words任何一位相加再减去result不等于0，说明当前字符数字映射是错误的。
+// 2.当第一次遇到某个字符时，从当前位开始递归，找剩余字符所对应的数字。
 
-```
+// ```
 public boolean isSolvable(String[] words, String result) {
         int maxLen = 0;
         for (String word : words) {
@@ -77,5 +77,5 @@ public boolean isSolvable(String[] words, String result) {
         return false;
     }
 
-```
+// ```
 

@@ -1,15 +1,15 @@
-### 解题思路
-在`functools`中有`lru_cache(maxnum)`装饰器实现LRU机制。
-1.利用**有序字典**进行实现`from collections import OrderedDict`
-*满足FIFO，将要查询/插入的元素移到队尾，如果出现容量不够的情况，删除队首。
-2.利用**双向链表+哈希表**
-*hash表存放{key,node}，便于搜索O(1)
-*linkedlist维护顺序性，每搜索/插入元素，更新元素的位置到链表首，容量不够删链尾。便于插入O(1)
+# ### 解题思路
+# 在`functools`中有`lru_cache(maxnum)`装饰器实现LRU机制。
+# 1.利用**有序字典**进行实现`from collections import OrderedDict`
+# *满足FIFO，将要查询/插入的元素移到队尾，如果出现容量不够的情况，删除队首。
+# 2.利用**双向链表+哈希表**
+# *hash表存放{key,node}，便于搜索O(1)
+# *linkedlist维护顺序性，每搜索/插入元素，更新元素的位置到链表首，容量不够删链尾。便于插入O(1)
 
 
-### 代码 --OrderedDict
+# ### 代码 --OrderedDict
 
-```python3
+# ```python3
 from collections import OrderedDict
 class LRUCache(OrderedDict):
     
@@ -34,9 +34,9 @@ class LRUCache(OrderedDict):
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
-### 代码 --双向链表+HASH TABLE
-```python3
+# ```
+# ### 代码 --双向链表+HASH TABLE
+# ```python3
 class Node:#双向链表的节点
     def __init__(self):
         self.value=0
@@ -98,4 +98,4 @@ class LRUCache:
 # obj = LRUCache(capacity)
 # param_1 = obj.get(key)
 # obj.put(key,value)
-```
+# ```

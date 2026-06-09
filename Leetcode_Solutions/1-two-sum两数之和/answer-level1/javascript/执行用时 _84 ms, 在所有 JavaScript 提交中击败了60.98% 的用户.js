@@ -1,11 +1,11 @@
-### 解题思路
-用一个对象保存nums的键和值，对象的键是nums的值，对象的值是nums的键，即：
-nums = [2, 7, 11, 15]
-obj = ['2': 0, '7': 1, '11': 2, '15': 3]
+// ### 解题思路
+// 用一个对象保存nums的键和值，对象的键是nums的值，对象的值是nums的键，即：
+// nums = [2, 7, 11, 15]
+// obj = ['2': 0, '7': 1, '11': 2, '15': 3]
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -24,4 +24,4 @@ var twoSum = function(nums, target) {
         }
     }
 };
-```
+// ```

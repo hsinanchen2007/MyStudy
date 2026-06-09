@@ -1,11 +1,11 @@
-### 解题思路
-解法同LeetCode242.字母异位词，counter计数即可
-用char counter[128]数组表示简单哈希计数，记录每个字符出现的次数
-如果出每个字符在s1,s2的出现次数不同，则不能重排
+// ### 解题思路
+// 解法同LeetCode242.字母异位词，counter计数即可
+// 用char counter[128]数组表示简单哈希计数，记录每个字符出现的次数
+// 如果出每个字符在s1,s2的出现次数不同，则不能重排
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool CheckPermutation(string s1, string s2) {
@@ -26,4 +26,4 @@ public:
         return true;
     }
 };
-```
+// ```

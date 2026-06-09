@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-重点考虑 某一位数字为1 0 的情况 以及1 0 出现在最高位的情况就行
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 重点考虑 某一位数字为1 0 的情况 以及1 0 出现在最高位的情况就行
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def getNoZeroIntegers(self, n):
         """
@@ -42,4 +42,4 @@ class Solution(object):
         intResult.append(int("".join([str(i) for i in result[0]])))
         intResult.append(int("".join([str(i) for i in result[1]])))
         return intResult
-```
+# ```

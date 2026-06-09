@@ -1,9 +1,9 @@
-### 解题思路
-一开始是用for循环来解决下标的问题，后来参考了用取余的方式写的，这样就简洁多了
+# ### 解题思路
+# 一开始是用for循环来解决下标的问题，后来参考了用取余的方式写的，这样就简洁多了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def distributeCandies(self, candies: int, num_people: int) -> List[int]:
         ans = [0] * num_people
@@ -16,4 +16,4 @@ class Solution:
             count += 1
         return ans
              
-```
+# ```

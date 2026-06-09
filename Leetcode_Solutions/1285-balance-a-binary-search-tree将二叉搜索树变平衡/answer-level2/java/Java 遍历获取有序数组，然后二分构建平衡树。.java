@@ -1,9 +1,9 @@
-### 解题思路
-遍历获取有序数组，然后二分构建平衡树。
+// ### 解题思路
+// 遍历获取有序数组，然后二分构建平衡树。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     int [] val = new int[10000 + 1];
@@ -42,4 +42,4 @@ class Solution {
         travlel(root.right);
     }
 }
-```
+// ```

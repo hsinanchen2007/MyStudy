@@ -1,10 +1,10 @@
-### 解题思路
-1、遍历链表求长度n
-2、从链表头开始删掉n/2个结点即可
-注意：用例都是无头结点的
+// ### 解题思路
+// 1、遍历链表求长度n
+// 2、从链表头开始删掉n/2个结点即可
+// 注意：用例都是无头结点的
 
-### 代码
-```c
+// ### 代码
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -30,4 +30,4 @@ struct ListNode* middleNode(struct ListNode* head){
         }
     return p;
 }
-```
+// ```

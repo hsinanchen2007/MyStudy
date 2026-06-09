@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s1
  * @param {string} s2
@@ -12,4 +12,4 @@
 var CheckPermutation = function(s1, s2) {
     return s1.split('').sort().join('') == s2.split('').sort().join('')
 };
-```
+// ```

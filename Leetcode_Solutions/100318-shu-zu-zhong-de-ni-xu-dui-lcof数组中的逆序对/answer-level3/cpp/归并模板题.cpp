@@ -1,9 +1,9 @@
-### 解题思路
-模板题
+// ### 解题思路
+// 模板题
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int tmp[50010];
@@ -31,4 +31,4 @@ public:
         return ans;
     }
 };
-```
+// ```

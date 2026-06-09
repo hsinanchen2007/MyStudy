@@ -1,9 +1,9 @@
-### 解题思路
-直接转成数组;
+// ### 解题思路
+// 直接转成数组;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -49,4 +49,4 @@ public:
         
     }
 };
-```
+// ```

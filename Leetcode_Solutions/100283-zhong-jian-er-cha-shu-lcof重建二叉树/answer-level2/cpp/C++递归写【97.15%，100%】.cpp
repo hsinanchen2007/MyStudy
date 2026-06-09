@@ -1,12 +1,12 @@
-主要求当前节点的左子树大小和右子树大小。然后跳到对应的在中序遍历和前序遍历中的区间。
+// 主要求当前节点的左子树大小和右子树大小。然后跳到对应的在中序遍历和前序遍历中的区间。
 
-具体模拟这代码写一遍小数据就懂了。
+// 具体模拟这代码写一遍小数据就懂了。
 
-注意，val 不是 1~n，所以 rig 是 map<int,int>
+// 注意，val 不是 1~n，所以 rig 是 map<int,int>
 
-ps:题目中说了 val 不重复。
+// ps:题目中说了 val 不重复。
 
-```c++
+// ```c++
 class Solution {
 public:
     TreeNode *buildTree(vector<int> &pre, vector<int> &vin) {
@@ -25,4 +25,4 @@ public:
         return head;
     }
 };
-```
+// ```

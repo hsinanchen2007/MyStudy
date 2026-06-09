@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn count_characters(words: Vec<String>, chars: String) -> i32 {
         use std::collections::HashMap;
@@ -30,4 +30,4 @@ impl Solution {
         len as i32
     }
 }
-```
+// ```

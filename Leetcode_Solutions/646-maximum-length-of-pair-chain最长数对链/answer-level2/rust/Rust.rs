@@ -1,9 +1,9 @@
-### 解题思路
-没写，懒得写
+// ### 解题思路
+// 没写，懒得写
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn find_longest_chain(pairs: Vec<Vec<i32>>) -> i32 {
         let mut pairs = pairs;
@@ -19,4 +19,4 @@ impl Solution {
         count
     }
 }
-```
+// ```

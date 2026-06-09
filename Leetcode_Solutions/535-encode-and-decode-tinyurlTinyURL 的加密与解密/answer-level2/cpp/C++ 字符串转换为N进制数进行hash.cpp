@@ -1,10 +1,10 @@
-### 解题思路
-1，转化为N进制，N最好是质数，这样能尽量保证hash分布均匀，这里选的11
-2，利用unsigned long long存储结果，可以自然溢出，防止出现越界bug
+// ### 解题思路
+// 1，转化为N进制，N最好是质数，这样能尽量保证hash分布均匀，这里选的11
+// 2，利用unsigned long long存储结果，可以自然溢出，防止出现越界bug
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -48,6 +48,6 @@ public:
 // Your Solution object will be instantiated and called as such:
 // Solution solution;
 // solution.decode(solution.encode(url));
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/7ea59a1ef09b474e38aa8d2a96ffc58cea82ce328ecd9d50367b3bd2de6ac096-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7ea59a1ef09b474e38aa8d2a96ffc58cea82ce328ecd9d50367b3bd2de6ac096-image.png)

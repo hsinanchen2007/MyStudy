@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/40c07b4c5376c8ea17e43eaf5ba403cbc2ec87a0bdc0b24a5d622f4785299d13-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/40c07b4c5376c8ea17e43eaf5ba403cbc2ec87a0bdc0b24a5d622f4785299d13-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

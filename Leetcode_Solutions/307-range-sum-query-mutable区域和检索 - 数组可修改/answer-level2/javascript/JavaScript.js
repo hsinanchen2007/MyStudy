@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  */
@@ -84,4 +84,4 @@ NumArray.prototype.sumRange = function (i, j) {
  * obj.update(i,val)
  * var param_2 = obj.sumRange(i,j)
  */
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-递归，最大直径要么为左右子树直径，要么为左右子树深度之和
-### 代码
+// ### 解题思路
+// 递归，最大直径要么为左右子树直径，要么为左右子树深度之和
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,4 +32,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     int depth;
     return treeLenth(root, &depth);
 }
-```
+// ```

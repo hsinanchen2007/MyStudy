@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string convertToBase7(int num) {
@@ -8,4 +8,4 @@ public:
         return convertToBase7(num / 7) + to_string(num % 7);
     }
 };
-```
+// ```

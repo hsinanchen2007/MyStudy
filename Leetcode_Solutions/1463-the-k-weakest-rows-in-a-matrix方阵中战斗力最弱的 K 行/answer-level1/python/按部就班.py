@@ -1,9 +1,9 @@
-### 解题思路
-就正常做
+# ### 解题思路
+# 就正常做
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def kWeakestRows(self, mat, k):
         """
@@ -16,4 +16,4 @@ class Solution(object):
         res.sort(key=lambda x:x[1])
         # print res
         return [x[0] for x in res[:k]]
-```
+# ```

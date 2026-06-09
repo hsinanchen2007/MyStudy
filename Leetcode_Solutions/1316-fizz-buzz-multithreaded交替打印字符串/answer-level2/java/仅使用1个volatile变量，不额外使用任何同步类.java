@@ -1,9 +1,9 @@
-这个思路同样适用于	Leetcode-1116 打印零与奇偶数
-# 思路
-首先理解`volatile`关键字的底层原理，不知道的建议百度。
-其次就是理解 给变量 赋 **字面量值**的操作可认为是**原子性**的。
-# 轻量级同步代码，仅使用1个`volatile`变量，不额外使用任何同步工具
-```java
+// 这个思路同样适用于	Leetcode-1116 打印零与奇偶数
+// # 思路
+// 首先理解`volatile`关键字的底层原理，不知道的建议百度。
+// 其次就是理解 给变量 赋 **字面量值**的操作可认为是**原子性**的。
+// # 轻量级同步代码，仅使用1个`volatile`变量，不额外使用任何同步工具
+// ```java
 class FizzBuzz {
     private int n;
     private volatile int state = -1;
@@ -64,10 +64,10 @@ class FizzBuzz {
         }
     }
 }
-```
+// ```
 
-# 重量级同步代码(1个`ReentrantLock` + 1个`Condition`)
-```java
+// # 重量级同步代码(1个`ReentrantLock` + 1个`Condition`)
+// ```java
 class FizzBuzz {
     private int n;
     private int state = -1;
@@ -148,4 +148,4 @@ class FizzBuzz {
         }
     }
 }
-```
+// ```

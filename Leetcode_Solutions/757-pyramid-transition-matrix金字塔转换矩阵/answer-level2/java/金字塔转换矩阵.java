@@ -1,11 +1,11 @@
-####  方法一：状态转换
-**算法：**
+// ####  方法一：状态转换
+// **算法：**
 
-我们模拟方块可以处于的状态。每个状态都是一个二进制数，如果第 `k` 类型的方块是可能的，则设置第 `k` 位。然后，我们创建一个转换映射 `T[state1][state2] -> state`。它接受左状态和右状态并输出所有可能的父状态。
+// 我们模拟方块可以处于的状态。每个状态都是一个二进制数，如果第 `k` 类型的方块是可能的，则设置第 `k` 位。然后，我们创建一个转换映射 `T[state1][state2] -> state`。它接受左状态和右状态并输出所有可能的父状态。
 
-最后，应用这些转换非常简单。但是，这种方法不正确，因为转换不是独立的。例如，如果我们在一行 `A, {B or C}, A`，并且 `allowed` 中的元组是 `(A, B, D), (C, A, D)`。那么无论选择 `{B or C}`，我们都不能创建金字塔的下一行。
+// 最后，应用这些转换非常简单。但是，这种方法不正确，因为转换不是独立的。例如，如果我们在一行 `A, {B or C}, A`，并且 `allowed` 中的元组是 `(A, B, D), (C, A, D)`。那么无论选择 `{B or C}`，我们都不能创建金字塔的下一行。
 
-```python [solution1-Python]
+// ```python [solution1-Python]
 class Solution(object):
     def pyramidTransition(self, bottom, allowed):
         T = [[0] * (1 << 7) for _ in xrange(1 << 7)]
@@ -23,9 +23,9 @@ class Solution(object):
                 state[i] = T[state[i]][state[i+1]]
             state.pop()
         return bool(state[0])
-```
+// ```
 
-```java [solution1-Java]
+// ```java [solution1-Java]
 class Solution {
     public boolean pyramidTransition(String bottom, List<String> allowed) {
         int[][] T = new int[1 << 7][1 << 7];
@@ -48,25 +48,25 @@ class Solution {
         return state[0] > 0;
     }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(2^{2\mathcal{A}}A + N^2)$。其中 $N$ 指的是 `bottom` 的长度，$A$ 指的是 `allowed` 的长度，且 $\mathcal{A}$ 指的是字母的大小。
-* 空间复杂度：$O(2^{2\mathcal{A}})$。
+// * 时间复杂度：$O(2^{2\mathcal{A}}A + N^2)$。其中 $N$ 指的是 `bottom` 的长度，$A$ 指的是 `allowed` 的长度，且 $\mathcal{A}$ 指的是字母的大小。
+// * 空间复杂度：$O(2^{2\mathcal{A}})$。
 
 
 
-####  方法二：深度优先搜索
-我们详尽的尝试每个方块的组合。
+// ####  方法二：深度优先搜索
+// 我们详尽的尝试每个方块的组合。
 
-**算法：**
+// **算法：**
 
-我们需要从三元组列表中创建一个转换映射 `T`。这个映射 `T[x][y] = {set of z}` 将是左孩子 `x` 和右孩子 `y` 所有可能的父块。
+// 我们需要从三元组列表中创建一个转换映射 `T`。这个映射 `T[x][y] = {set of z}` 将是左孩子 `x` 和右孩子 `y` 所有可能的父块。
 
-然后，为了求解下一行，我们生成下一行所有的可能组合并求解它们。如果这些组合中有任一一行是可解的，则返回 `True`，反之返回 `False`。
+// 然后，为了求解下一行，我们生成下一行所有的可能组合并求解它们。如果这些组合中有任一一行是可解的，则返回 `True`，反之返回 `False`。
 
-```python [solution1-Python]
+// ```python [solution1-Python]
 class Solution(object):
     def pyramidTransition(self, bottom, allowed):
         T = collections.defaultdict(set)
@@ -92,9 +92,9 @@ class Solution(object):
                     ans.pop()
 
         return solve(bottom)
-```
+// ```
 
-```java [solution1-Java]
+// ```java [solution1-Java]
 class Solution {
     int[][] T;
     Set<Long> seen;
@@ -141,9 +141,9 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(\mathcal{A}^{N})$，其中 $N$ 指的是 `bottom` 的长度，$\mathcal{A}$ 指的是字母的大小。
-* 空间复杂度：$O(N^2)$。
+// * 时间复杂度：$O(\mathcal{A}^{N})$，其中 $N$ 指的是 `bottom` 的长度，$\mathcal{A}$ 指的是字母的大小。
+// * 空间复杂度：$O(N^2)$。

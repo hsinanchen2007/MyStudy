@@ -1,11 +1,11 @@
-### 解题思路
-計算矩陣再填寫位置的 
-行列以及對角 
-總合是否等同邊長N 
+# ### 解题思路
+# 計算矩陣再填寫位置的 
+# 行列以及對角 
+# 總合是否等同邊長N 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import numpy as np
 class TicTacToe:
 
@@ -47,4 +47,4 @@ class TicTacToe:
 # Your TicTacToe object will be instantiated and called as such:
 # obj = TicTacToe(n)
 # param_1 = obj.move(row,col,player)
-```
+# ```

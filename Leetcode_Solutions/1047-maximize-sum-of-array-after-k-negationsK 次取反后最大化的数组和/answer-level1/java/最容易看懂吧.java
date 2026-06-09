@@ -1,11 +1,11 @@
-### 解题思路
-1.排序
-2.遍历，负数弄正，同时求和sum
-3.剩下的K为偶，则返回sum；为奇，找最小值，返回sum-2*min
+// ### 解题思路
+// 1.排序
+// 2.遍历，负数弄正，同时求和sum
+// 3.剩下的K为偶，则返回sum；为奇，找最小值，返回sum-2*min
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int largestSumAfterKNegations(int[] A, int K) {
 		Arrays.sort(A);
@@ -31,4 +31,4 @@ class Solution {
 		return sum;
 	}
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历的同时进行判断和记录
+# ### 解题思路
+# 遍历的同时进行判断和记录
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         val = nums[0]
@@ -17,4 +17,4 @@ class Solution:
                 n = d[t]
                 v = t
         return v
-```
+# ```

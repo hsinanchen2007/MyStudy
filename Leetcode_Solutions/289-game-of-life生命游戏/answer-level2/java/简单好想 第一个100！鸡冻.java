@@ -1,5 +1,5 @@
-就再外面套一层0，然后就可以忽略在边缘的数字。
-ps：刚开始刷leetcode 确实好用
+// 就再外面套一层0，然后就可以忽略在边缘的数字。
+// ps：刚开始刷leetcode 确实好用
 
 public void gameOfLife(int[][] board) {
         

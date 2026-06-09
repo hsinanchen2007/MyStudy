@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-递归中序
+// 递归中序
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -27,4 +27,4 @@ var inorderTraversal = function(root) {
     list.push(...inorderTraversal(root.right));
     return list;
 };
-```
+// ```

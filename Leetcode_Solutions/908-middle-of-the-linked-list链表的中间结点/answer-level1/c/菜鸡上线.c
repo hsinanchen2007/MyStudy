@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针一个一步一个两步！
+// ### 解题思路
+// 快慢指针一个一步一个两步！
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ struct ListNode* middleNode(struct ListNode* head)
     }
     return p;
 }
-```
+// ```

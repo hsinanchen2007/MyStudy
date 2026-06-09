@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/85dc38f93538efd5b0caac66a7a3778cf01b847145ab0605b36aadd824c3bb37-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/85dc38f93538efd5b0caac66a7a3778cf01b847145ab0605b36aadd824c3bb37-image.png)
 
-先将数字与小标组合进行排序，然后查找。
+// 先将数字与小标组合进行排序，然后查找。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Numitem{
 public:
     Numitem(int a, int b)
@@ -39,4 +39,4 @@ public:
         return false;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-可以问下js使用双指针时是怎么判断快慢指针重叠的，因为js中next指针是对象，判断2个对象相等？？？
+// 可以问下js使用双指针时是怎么判断快慢指针重叠的，因为js中next指针是对象，判断2个对象相等？？？
 var hasCycle = function(head) {
     //法1
     // let cur = head

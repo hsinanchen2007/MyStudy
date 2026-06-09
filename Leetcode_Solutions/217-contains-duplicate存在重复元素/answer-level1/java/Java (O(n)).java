@@ -1,9 +1,9 @@
-### 解题思路
-最简单的HashSet思路。
+// ### 解题思路
+// 最简单的HashSet思路。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsDuplicate(int[] nums) {
         HashSet<Integer> set = new HashSet();
@@ -16,4 +16,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

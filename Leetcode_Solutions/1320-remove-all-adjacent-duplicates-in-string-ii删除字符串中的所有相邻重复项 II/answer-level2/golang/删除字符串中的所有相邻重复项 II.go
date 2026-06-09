@@ -1,9 +1,9 @@
-### 解题思路
-计数
+// ### 解题思路
+// 计数
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type Item struct {
 	val rune
 	cnt int
@@ -37,4 +37,4 @@ func removeDuplicates(s string, k int) string {
 	}
 	return string(runes)
 }
-```
+// ```

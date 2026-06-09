@@ -1,5 +1,5 @@
-将strs[0]字符串作为基准，通过遍历的方式比较字符串数组中每个字符串的前面组成，并不断延长，直到不符合“公共”要求为止。
-```c
+// 将strs[0]字符串作为基准，通过遍历的方式比较字符串数组中每个字符串的前面组成，并不断延长，直到不符合“公共”要求为止。
+// ```c
 char * longestCommonPrefix(char ** strs, int strsSize){
     if(strsSize==0) return "";
     int index=0,j;
@@ -16,4 +16,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     char* str=s;
     return str;
 }
-```
+// ```

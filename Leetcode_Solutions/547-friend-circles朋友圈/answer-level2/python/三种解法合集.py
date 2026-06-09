@@ -1,9 +1,9 @@
-### 解题思路
-三种方法，python实现
+# ### 解题思路
+# 三种方法，python实现
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findCircleNum(self, M):
         """
@@ -64,4 +64,4 @@ class Solution(object):
         return count
 
 
-```
+# ```

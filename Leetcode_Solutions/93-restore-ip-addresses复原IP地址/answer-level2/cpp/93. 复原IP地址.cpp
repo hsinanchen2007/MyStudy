@@ -1,11 +1,11 @@
-### 解题思路
-转：
-暴力
-c++不如java方便
+// ### 解题思路
+// 转：
+// 暴力
+// c++不如java方便
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
      vector<string> restoreIpAddresses(string s) {
@@ -31,4 +31,4 @@ public:
         return v;            
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
 
-```go
+// ```go
 var min = 1 << 31
 
 func minimumTotal(triangle [][]int) int {
@@ -25,4 +25,4 @@ func dfs(nums [][]int, x, y int, sum int) {
 	dfs(nums, x+1, y, sum+nums[x][y])
 	dfs(nums, x+1, y+1, sum+nums[x][y])
 }
-```
+// ```

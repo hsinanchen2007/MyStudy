@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValid(self, s: str) -> bool:
         hash = {-1:'(',1:')',-2:'[',2:']',-3:'{',3:'}'}
@@ -42,4 +42,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

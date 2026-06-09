@@ -1,4 +1,4 @@
-```
+// ```
 int jump(int* nums, int numsSize){
     int i;
     int pos;
@@ -17,4 +17,4 @@ int jump(int* nums, int numsSize){
     }
     return step;
 }
-```
+// ```

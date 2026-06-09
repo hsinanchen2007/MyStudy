@@ -1,4 +1,4 @@
-```
+// ```
 bool isSame(int* map1, int * map2)
 {
     for (int i = 0; i < 26; i++) {
@@ -40,4 +40,4 @@ bool checkInclusion(char * s1, char * s2) {
     }
     return false;
 }
-```
+// ```

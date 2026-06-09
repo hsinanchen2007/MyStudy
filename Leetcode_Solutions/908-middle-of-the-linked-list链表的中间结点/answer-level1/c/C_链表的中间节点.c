@@ -1,10 +1,10 @@
-### 解题思路
-1. head 节点的val是1，head->next的val是2。链表没有头结点。
-2. 定义两个指针，从头开始，一个一次一跳，一个一次两跳，两跳的到结尾的时候，一跳的正好在中间
+// ### 解题思路
+// 1. head 节点的val是1，head->next的val是2。链表没有头结点。
+// 2. 定义两个指针，从头开始，一个一次一跳，一个一次两跳，两跳的到结尾的时候，一跳的正好在中间
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -23,4 +23,4 @@ struct ListNode* middleNode(struct ListNode* head){
     }
     return x1;
 }
-```
+// ```

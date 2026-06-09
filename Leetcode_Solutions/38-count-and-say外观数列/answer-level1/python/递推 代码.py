@@ -1,7 +1,7 @@
 
-递推
+# 递推
 
-```
+# ```
 class Solution(object):
     def countAndSay(self, n):
         """
@@ -33,4 +33,4 @@ class Solution(object):
             pre = res
         return res
 
-```
+# ```

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/b7b1d51836a5c41ae7f1ba810adbe92d70c2b0b4384c4196fef6d7ae0a93a073-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b7b1d51836a5c41ae7f1ba810adbe92d70c2b0b4384c4196fef6d7ae0a93a073-image.png)
 
 
 
-```golang
+// ```golang
 var R []string
 
 func restoreIpAddresses(s string) []string {
@@ -43,4 +43,4 @@ func isFine(s string) bool {
 
     return false
 }
-```
+// ```

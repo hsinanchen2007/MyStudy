@@ -1,9 +1,9 @@
 
-### 代码
-c -> char
-root -> root
-node -> current root node
-```python
+# ### 代码
+# c -> char
+# root -> root
+# node -> current root node
+# ```python
 class Trie:
     def __init__(self):
         """
@@ -51,4 +51,4 @@ class Trie:
 # obj.insert(word)
 # param_2 = obj.search(word)
 # param_3 = obj.startsWith(prefix)
-```
+# ```

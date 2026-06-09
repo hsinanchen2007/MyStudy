@@ -1,5 +1,5 @@
-参考评论区提到的解法：[知乎链接](https://www.zhihu.com/question/24251545)
-```python
+# 参考评论区提到的解法：[知乎链接](https://www.zhihu.com/question/24251545)
+# ```python
 import numpy as np
 
 class Solution:
@@ -14,4 +14,4 @@ class Solution:
         u = np.maximum(v - h, 0)
         
         return u @ u <= radius**2
-```
+# ```

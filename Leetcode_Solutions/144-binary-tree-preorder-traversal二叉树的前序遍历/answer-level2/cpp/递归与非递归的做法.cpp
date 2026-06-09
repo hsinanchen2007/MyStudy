@@ -1,5 +1,5 @@
-// 递归做法
-```
+// // 递归做法
+// ```
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
@@ -15,9 +15,9 @@ public:
         preorderTraversalCore(root->right,ret);
     }
 };
-```
-// 非递归做法，借助栈的使用
-```
+// ```
+// // 非递归做法，借助栈的使用
+// ```
 class Solution {
 public:
     vector<int> preorderTraversal(TreeNode* root) {
@@ -40,4 +40,4 @@ public:
         return ret;
     }
 };
-```
+// ```

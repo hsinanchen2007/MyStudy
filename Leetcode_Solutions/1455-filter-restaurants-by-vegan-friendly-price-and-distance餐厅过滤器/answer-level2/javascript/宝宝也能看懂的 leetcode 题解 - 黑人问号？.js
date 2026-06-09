@@ -1,20 +1,20 @@
-# 1333. 餐厅过滤器
+// # 1333. 餐厅过滤器
 
-Hi 大家好，我是张小猪。欢迎来到『宝宝也能看懂』系列之 leetcode 周赛题解。
+// Hi 大家好，我是张小猪。欢迎来到『宝宝也能看懂』系列之 leetcode 周赛题解。
 
-这里是第 173 期的第 2 题，也是题目列表中的第 1333 题 -- 『餐厅过滤器』
+// 这里是第 173 期的第 2 题，也是题目列表中的第 1333 题 -- 『餐厅过滤器』
 
-## 题目描述
+// ## 题目描述
 
-给你一个餐馆信息数组 `restaurants`，其中 `restaurants[i] = [idi, ratingi, veganFriendlyi, pricei, distancei]`。你必须使用以下三个过滤器来过滤这些餐馆信息。
+// 给你一个餐馆信息数组 `restaurants`，其中 `restaurants[i] = [idi, ratingi, veganFriendlyi, pricei, distancei]`。你必须使用以下三个过滤器来过滤这些餐馆信息。
 
-其中素食者友好过滤器 `veganFriendly` 的值可以为 `true` 或者 `false`，如果为 `true` 就意味着你应该只包括 `veganFriendlyi` 为 `true` 的餐馆，为 `false` 则意味着可以包括任何餐馆。此外，我们还有最大价格 `maxPrice` 和最大距离 `maxDistance` 两个过滤器，它们分别考虑餐厅的价格因素和距离因素的最大值。
+// 其中素食者友好过滤器 `veganFriendly` 的值可以为 `true` 或者 `false`，如果为 `true` 就意味着你应该只包括 `veganFriendlyi` 为 `true` 的餐馆，为 `false` 则意味着可以包括任何餐馆。此外，我们还有最大价格 `maxPrice` 和最大距离 `maxDistance` 两个过滤器，它们分别考虑餐厅的价格因素和距离因素的最大值。
 
-过滤后返回餐馆的 **id**，按照 **rating** 从高到低排序。如果 **rating** 相同，那么按 **id** 从高到低排序。简单起见，`veganFriendlyi` 和 `veganFriendly` 为 `true` 时取值为 `1`，为 `false` 时，取值为 `0`。
+// 过滤后返回餐馆的 **id**，按照 **rating** 从高到低排序。如果 **rating** 相同，那么按 **id** 从高到低排序。简单起见，`veganFriendlyi` 和 `veganFriendly` 为 `true` 时取值为 `1`，为 `false` 时，取值为 `0`。
 
-示例 1：
+// 示例 1：
 
-```shell
+// ```shell
 输入：restaurants = [[1,4,1,40,10],[2,8,0,50,5],[3,8,1,30,4],[4,10,0,10,3],[5,1,1,15,1]], veganFriendly = 1, maxPrice = 50, maxDistance = 10
 输出：[3,1,5]
 解释：
@@ -25,51 +25,51 @@ Hi 大家好，我是张小猪。欢迎来到『宝宝也能看懂』系列之 l
 餐馆 4 [id=4, rating=10, veganFriendly=0, price=10, distance=3]
 餐馆 5 [id=5, rating=1, veganFriendly=1, price=15, distance=1]
 在按照 veganFriendly = 1, maxPrice = 50 和 maxDistance = 10 进行过滤后，我们得到了餐馆 3, 餐馆 1 和 餐馆 5（按评分从高到低排序）。
-```
+// ```
 
-示例 2：
+// 示例 2：
 
-```shell
+// ```shell
 输入：restaurants = [[1,4,1,40,10],[2,8,0,50,5],[3,8,1,30,4],[4,10,0,10,3],[5,1,1,15,1]], veganFriendly = 0, maxPrice = 50, maxDistance = 10
 输出：[4,3,2,1,5]
 解释：餐馆与示例 1 相同，但在 veganFriendly = 0 的过滤条件下，应该考虑所有餐馆。
-```
+// ```
 
-示例 3：
+// 示例 3：
 
-```shell
+// ```shell
 输入：restaurants = [[1,4,1,40,10],[2,8,0,50,5],[3,8,1,30,4],[4,10,0,10,3],[5,1,1,15,1]], veganFriendly = 0, maxPrice = 30, maxDistance = 3
 输出：[4,5]
-```
+// ```
 
-提示：
+// 提示：
 
-- `1 <= restaurants.length <= 10^4`
-- `restaurants[i].length == 5`
-- `1 <= idi, ratingi, pricei, distancei <= 10^5`
-- `1 <= maxPrice, maxDistance <= 10^5`
-- `veganFriendlyi` 和 `veganFriendly` 的值为 0 或 1 。
-- 所有 `idi` 各不相同。
+// - `1 <= restaurants.length <= 10^4`
+// - `restaurants[i].length == 5`
+// - `1 <= idi, ratingi, pricei, distancei <= 10^5`
+// - `1 <= maxPrice, maxDistance <= 10^5`
+// - `veganFriendlyi` 和 `veganFriendly` 的值为 0 或 1 。
+// - 所有 `idi` 各不相同。
 
-## 官方难度
+// ## 官方难度
 
-MEDIUM
+// MEDIUM
 
-## 解决思路
+// ## 解决思路
 
-说实话这道题让小猪有点意外，因为题目内容就是单纯的给定了原始数据、过滤条件、排序条件，然后需要返回结果。可是这不是一道 MEDIUM 难度的题么，这一期的比赛究竟是在闹哪样鸭...
+// 说实话这道题让小猪有点意外，因为题目内容就是单纯的给定了原始数据、过滤条件、排序条件，然后需要返回结果。可是这不是一道 MEDIUM 难度的题么，这一期的比赛究竟是在闹哪样鸭...
 
-没什么需要分析的，淦就完事了！
+// 没什么需要分析的，淦就完事了！
 
-### 直接方案
+// ### 直接方案
 
-好吧，还是装模作样的写一下流程吧。唯一需要注意的就是，最终返回的只需要数字 id，别直接返回原来的对象了。
+// 好吧，还是装模作样的写一下流程吧。唯一需要注意的就是，最终返回的只需要数字 id，别直接返回原来的对象了。
 
-1. 根据条件筛选数据。
-2. 根据要求排序数据。
-3. 只返回题目需求的 id。
+// 1. 根据条件筛选数据。
+// 2. 根据要求排序数据。
+// 3. 只返回题目需求的 id。
 
-```js
+// ```js
 const filterRestaurants = (restaurants, veganFriendly, maxPrice, maxDistance) => {
   const filtered = [];
   for (const item of restaurants) {
@@ -85,23 +85,23 @@ const filterRestaurants = (restaurants, veganFriendly, maxPrice, maxDistance) =>
   }
   return ret;
 };
-```
+// ```
 
-然后由于 JS 中 `Array` 的实例上有 `filter`、`sort`、`map` 方法，所以我们也可以写成一行来实现。
+// 然后由于 JS 中 `Array` 的实例上有 `filter`、`sort`、`map` 方法，所以我们也可以写成一行来实现。
 
-```js
+// ```js
 const filterRestaurants = (restaurants, veganFriendly, maxPrice, maxDistance) => restaurants.filter(item => (veganFriendly === 0 || item[2] === veganFriendly) && item[3] <= maxPrice && item[4] <= maxDistance).sort((a, b) => a[1] === b[1] ? b[0] - a[0] : b[1] - a[1]).map(item => item[0]);
-```
+// ```
 
-### 换个思路
+// ### 换个思路
 
-首先说一下，这种方式其实用在这道题上并不是很适合，只是提供一种其他的思路。毕竟在空间换时间成为经典短语的现代，这种思路会适合一些特定的场景。那就是 bucket sort。
+// 首先说一下，这种方式其实用在这道题上并不是很适合，只是提供一种其他的思路。毕竟在空间换时间成为经典短语的现代，这种思路会适合一些特定的场景。那就是 bucket sort。
 
-理论上 bucket sort 的时间复杂度只是 O(n)，比起其他基于比较交换的排序算法的 O(nlogn)，看起来是有优势的。然而这道题的限制条件里，餐厅数量范围是 `[1, 10^4]`，而评分和 ID 的范围都是 `[1, 10^5]`。这也就使得我们这样做其实挺亏的。
+// 理论上 bucket sort 的时间复杂度只是 O(n)，比起其他基于比较交换的排序算法的 O(nlogn)，看起来是有优势的。然而这道题的限制条件里，餐厅数量范围是 `[1, 10^4]`，而评分和 ID 的范围都是 `[1, 10^5]`。这也就使得我们这样做其实挺亏的。
 
-下面给出基于 bucket sort 实现的代码，供小伙伴们参考。其中内部第二级的 bucket 也可以用单纯的二分查找去插入，可以节省很多空间。
+// 下面给出基于 bucket sort 实现的代码，供小伙伴们参考。其中内部第二级的 bucket 也可以用单纯的二分查找去插入，可以节省很多空间。
 
-```js
+// ```js
 const filterRestaurants = (restaurants, veganFriendly, maxPrice, maxDistance) => {
   const RANGE = 10 ** 5;
   const buckets = new Array(RANGE);
@@ -125,19 +125,19 @@ const filterRestaurants = (restaurants, veganFriendly, maxPrice, maxDistance) =>
   }
   return ret;
 };
-```
+// ```
 
-## 总结
+// ## 总结
 
-总结就是，对于这一期的周赛一脸懵逼。一定是小猪起床的姿势不对，小猪先去重起一下...
+// 总结就是，对于这一期的周赛一脸懵逼。一定是小猪起床的姿势不对，小猪先去重起一下...
 
-**加油武汉，天佑中华**
+// **加油武汉，天佑中华**
 
-## 相关链接
+// ## 相关链接
 
-- [Weekly Contest 173 题目列表](https://github.com/poppinlp/leetcode#weekly-contest-173)
-- [系列题解 repo](https://github.com/poppinlp/leetcode)
-- [我的 segmentfault 专栏](https://segmentfault.com/blog/zxzfbz)
-- [我的知乎专栏](https://zhuanlan.zhihu.com/zxzfbz)
+// - [Weekly Contest 173 题目列表](https://github.com/poppinlp/leetcode#weekly-contest-173)
+// - [系列题解 repo](https://github.com/poppinlp/leetcode)
+// - [我的 segmentfault 专栏](https://segmentfault.com/blog/zxzfbz)
+// - [我的知乎专栏](https://zhuanlan.zhihu.com/zxzfbz)
 
-![qrcode_green.jpeg](https://pic.leetcode-cn.com/c897b648f80b7fe51e230ab6fde3d46146419e27616de898164ba465c9fc4b6a-qrcode_green.jpeg)
+// ![qrcode_green.jpeg](https://pic.leetcode-cn.com/c897b648f80b7fe51e230ab6fde3d46146419e27616de898164ba465c9fc4b6a-qrcode_green.jpeg)

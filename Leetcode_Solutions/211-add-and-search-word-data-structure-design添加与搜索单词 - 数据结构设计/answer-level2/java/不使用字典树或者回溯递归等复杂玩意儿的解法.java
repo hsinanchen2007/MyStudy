@@ -1,7 +1,7 @@
-完全不需要那么复杂的数据结构和算法
+// 完全不需要那么复杂的数据结构和算法
 
-执行用时 :101 ms, 在所有 Java 提交中击败了97.51%的用户
-内存消耗 :56.7 MB, 在所有 Java 提交中击败了94.62%的用户
+// 执行用时 :101 ms, 在所有 Java 提交中击败了97.51%的用户
+// 内存消耗 :56.7 MB, 在所有 Java 提交中击败了94.62%的用户
 
     /** Initialize your data structure here. */
     Map<Integer, List<String>> lengthWordsMap;

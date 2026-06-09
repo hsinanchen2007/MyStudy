@@ -1,10 +1,10 @@
-### 解题思路
-1，将单词字典中的每个单词翻转初始化字典树
-2，字符流从后往前进行查找，进行判断即可
+// ### 解题思路
+// 1，将单词字典中的每个单词翻转初始化字典树
+// 2，字符流从后往前进行查找，进行判断即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class StreamChecker {
 public:
     struct TrieNode {
@@ -50,7 +50,7 @@ public:
  * StreamChecker* obj = new StreamChecker(words);
  * bool param_1 = obj->query(letter);
  */
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/3fddada8a3955db4d05356be75680480c98cf3ea929f39fcf6b66c68428f0366-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3fddada8a3955db4d05356be75680480c98cf3ea929f39fcf6b66c68428f0366-image.png)
 

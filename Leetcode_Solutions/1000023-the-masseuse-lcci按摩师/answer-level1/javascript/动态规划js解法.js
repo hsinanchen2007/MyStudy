@@ -1,4 +1,4 @@
-```
+// ```
 
 /**
  * @param {number[]} nums
@@ -23,4 +23,4 @@ var massage = function(nums) {
    }
    return F[nums.length - 1]
 }
-```
+// ```

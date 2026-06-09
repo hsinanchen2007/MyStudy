@@ -1,15 +1,15 @@
-### 解题思路
-1.每个节点的子树和等于root.val + sum(root.left) + sum(root.right),这里很明显会有重复计算的问题，因为向左右子树递归求积的时候，又要对子树重新取和，这个在第一次求root树节点和的时候，就已经获取到了，所以用个map记忆，减少重复计算。
+// ### 解题思路
+// 1.每个节点的子树和等于root.val + sum(root.left) + sum(root.right),这里很明显会有重复计算的问题，因为向左右子树递归求积的时候，又要对子树重新取和，这个在第一次求root树节点和的时候，就已经获取到了，所以用个map记忆，减少重复计算。
 
-2.往左右子树递归的时候，当前分隔方式为Math.max((sum-leftSum)*leftSum,(sum-rightSum)*rightSum)，sum-leftSum就表示从左子树分隔后，另一个子树的节点之和了。sum-rightSum亦然。
+// 2.往左右子树递归的时候，当前分隔方式为Math.max((sum-leftSum)*leftSum,(sum-rightSum)*rightSum)，sum-leftSum就表示从左子树分隔后，另一个子树的节点之和了。sum-rightSum亦然。
 
-3.剪枝，我们知道，在两数（a,b）和固定的情况下，a和b的差值越接近，a x b的值越大（均值不等式），按理来说，左树之和a和右树之和b，**|a-b|肯定是从大到小，然后又从小到大**，有点**类似一个开口向上的二次函数**。那么，**只要新的maxCount不再大于max，我们就可以退出递归**，因为接下来的获取到的值，是不可能大于max了。
+// 3.剪枝，我们知道，在两数（a,b）和固定的情况下，a和b的差值越接近，a x b的值越大（均值不等式），按理来说，左树之和a和右树之和b，**|a-b|肯定是从大到小，然后又从小到大**，有点**类似一个开口向上的二次函数**。那么，**只要新的maxCount不再大于max，我们就可以退出递归**，因为接下来的获取到的值，是不可能大于max了。
 
-详情见代码
+// 详情见代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -82,4 +82,4 @@ class Solution {
     }
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
     def lemonadeChange(bills: Array[Int]): Boolean = {
     if (bills(0) != 5 || bills(1) > 10) return false
@@ -22,4 +22,4 @@ object Solution {
     five > -1 
     }
 }
-```
+// ```

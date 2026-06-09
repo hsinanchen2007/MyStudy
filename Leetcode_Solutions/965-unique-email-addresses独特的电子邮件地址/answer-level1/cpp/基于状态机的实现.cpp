@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int numUniqueEmails(vector<string>& emails) {
@@ -34,4 +34,4 @@ public:
         return unique_emails.size();
     }
 };
-```
+// ```

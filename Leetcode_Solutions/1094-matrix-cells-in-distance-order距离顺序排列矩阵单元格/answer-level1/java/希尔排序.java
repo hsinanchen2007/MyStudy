@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] allCellsDistOrder(int R, int C, int r0, int c0) {
         int[][] res = new int[R*C][2];
@@ -46,4 +46,4 @@ class Solution {
         }
     }
 }
-```
+// ```

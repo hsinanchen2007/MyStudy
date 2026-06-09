@@ -1,9 +1,9 @@
-### 解题思路
-方法一：头插法逆置比较
-方法二：遍历到list中，然后逆置比较
-### 代码
+# ### 解题思路
+# 方法一：头插法逆置比较
+# 方法二：遍历到list中，然后逆置比较
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -42,4 +42,4 @@ class Solution:
             l.append(sub.val)
             sub = sub.next
         return l == l[::-1]
-```
+# ```

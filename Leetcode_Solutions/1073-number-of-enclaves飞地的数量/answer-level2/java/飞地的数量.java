@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numEnclaves(int[][] A) {
     //岛屿问题的变式题，DFS,从4个边界向中间寻找
@@ -38,4 +38,4 @@ class Solution {
         return 1+dfs(A,i+1,j)+dfs(A,i-1,j)+dfs(A,i,j+1)+dfs(A,i,j-1);
     }
 }
-```
+// ```

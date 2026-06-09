@@ -1,4 +1,4 @@
-```
+// ```
 char * removeOuterParentheses(char * S){
     char s1[10000]; // 栈
     char s2[10000]; // 保存去掉最外层括号的结果
@@ -30,4 +30,4 @@ char * removeOuterParentheses(char * S){
 
     return res;
 }
-```
+// ```

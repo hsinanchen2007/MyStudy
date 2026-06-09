@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-暴力破解
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 暴力破解
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -73,4 +73,4 @@ func getParent(root *TreeNode,r *relation){
         getParent(root.Right,r)
     }
 }
-```
+// ```

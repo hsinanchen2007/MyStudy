@@ -1,9 +1,9 @@
-### 解题思路
-并没有想出dp解法，用了记忆化搜索，存储前i个元素是否可以拆分
+// ### 解题思路
+// 并没有想出dp解法，用了记忆化搜索，存储前i个元素是否可以拆分
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         // 每次搜索前i个字符是否可分解
@@ -25,4 +25,4 @@ class Solution {
         return p[s.length()];
     }
 }
-```
+// ```

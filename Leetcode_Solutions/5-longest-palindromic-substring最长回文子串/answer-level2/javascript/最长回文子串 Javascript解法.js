@@ -1,8 +1,8 @@
-解题思路很简单，回文无非就两种情况，一种是aba型，一种是abba型。
-遍历字符串，第n个字符跟前后字符相比较，如果是aba型，就判断n-1位是否等于n+1位,如果相等，再判断n-2位是否等于n+2位，以此类推。如果是abba型，就判断n位是否等于n+1位,n-1位是否等于n+2位...。
+// 解题思路很简单，回文无非就两种情况，一种是aba型，一种是abba型。
+// 遍历字符串，第n个字符跟前后字符相比较，如果是aba型，就判断n-1位是否等于n+1位,如果相等，再判断n-2位是否等于n+2位，以此类推。如果是abba型，就判断n位是否等于n+1位,n-1位是否等于n+2位...。
 
-代码如下
-```
+// 代码如下
+// ```
 var longestPalindrome = function(s) {
   let len = s.length;
   let palindromeText = s.charAt(0);
@@ -28,4 +28,4 @@ var longestPalindrome = function(s) {
   }
   return palindromeText;
 };
-```
+// ```

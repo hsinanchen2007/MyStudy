@@ -1,6 +1,6 @@
-方法1：反转3次
-空间复杂度O(1)
-```
+// 方法1：反转3次
+// 空间复杂度O(1)
+// ```
 func rotate(nums []int, k int)  {
     k = k%len(nums)
     reverse(nums[:len(nums)-k])
@@ -16,14 +16,14 @@ func reverse(nums []int){
         j--
     }
 }
-```
+// ```
 
-利用切片，额外利用了空间，空间复杂度不是O(1)
-```
+// 利用切片，额外利用了空间，空间复杂度不是O(1)
+// ```
 func rotate(nums []int, k int)  {
     k = k%len(nums)
     res := append(nums[len(nums)-k:],nums[:len(nums)-k]...)
     nums = append(nums[:0],res...)
 }
-```
+// ```
 

@@ -1,6 +1,6 @@
-采用26个字母的hash映射，可以0ms完成判断。
+// 采用26个字母的hash映射，可以0ms完成判断。
 
-```C []
+// ```C []
 bool wordPattern(char * pattern, char * str){
     char **hash = (char **)malloc(26 * sizeof(char*));
     for (int i = 0; i < 26; ++i)
@@ -40,6 +40,6 @@ bool wordPattern(char * pattern, char * str){
         return false;
     return true;
 }
-```
+// ```
 
 

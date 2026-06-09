@@ -1,8 +1,8 @@
-# $O(N^2)$
-## Brute-force
-- chips.size() <= 100
+// # $O(N^2)$
+// ## Brute-force
+// - chips.size() <= 100
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minCostToMoveChips(vector<int>& chips) {
@@ -20,14 +20,14 @@ public:
         return min;
     }
 };
-```
-### Complextity
-- Time: $O(N^2)$
-- Space: $O(1)$
+// ```
+// ### Complextity
+// - Time: $O(N^2)$
+// - Space: $O(1)$
 
-# $O(N)$
-- 剖析题意，统计奇偶
-```cpp
+// # $O(N)$
+// - 剖析题意，统计奇偶
+// ```cpp
 class Solution {
 public:
     int minCostToMoveChips(vector<int>& chips) {
@@ -43,9 +43,9 @@ public:
         return std::min(odd, even);
     }
 };
-```
+// ```
 
-### Complexity
-- Time: $O(N)$
-- Space: $O(1)$
+// ### Complexity
+// - Time: $O(N)$
+// - Space: $O(1)$
 

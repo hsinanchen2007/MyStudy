@@ -1,4 +1,4 @@
-```golang
+// ```golang
 // 暴力求解，得到每一个容器，然后求得最大值
 func maxArea(height []int) int {
     l := len(height)
@@ -23,4 +23,4 @@ func helper(start,end,n int) int{
         return start * n
     }   
 }
-```
+// ```

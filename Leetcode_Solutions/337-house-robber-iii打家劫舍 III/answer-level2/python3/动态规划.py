@@ -1,14 +1,14 @@
-### 解题思路
-用列表存储不偷和偷的状态
-[不偷,偷]
-    不偷= max左树 + max右树
-      偷 = 当前节点(n.val) + 左树不偷+右树不偷
+# ### 解题思路
+# 用列表存储不偷和偷的状态
+# [不偷,偷]
+#     不偷= max左树 + max右树
+#       偷 = 当前节点(n.val) + 左树不偷+右树不偷
 
    
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rob(self, root: TreeNode) -> int:
         def h(n):
@@ -22,4 +22,4 @@ class Solution:
             return res
         return max(h(root))
         
-```
+# ```

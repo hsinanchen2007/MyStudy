@@ -1,9 +1,9 @@
-### 解题思路
-和打家结社差不多，比较容易想到的dp，自己多写就找到规律
+// ### 解题思路
+// 和打家结社差不多，比较容易想到的dp，自己多写就找到规律
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int massage(vector<int>& nums) {
@@ -21,4 +21,4 @@ public:
       return dp[nums.size() - 1];
     }
 };
-```
+// ```

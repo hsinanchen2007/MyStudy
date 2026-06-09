@@ -1,9 +1,9 @@
-### 解题思路
-经典的染色问题，使用dfs模板
+// ### 解题思路
+// 经典的染色问题，使用dfs模板
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> col;
@@ -26,4 +26,4 @@ public:
         return true;
     }
 };
-```
+// ```

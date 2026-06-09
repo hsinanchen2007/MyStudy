@@ -1,10 +1,10 @@
-### 解题思路
-在链表头部增加一个pre节点，缓存pre.next-node1,pre.next.next-node2,
-两两反转就是将node1指向node2.next，node2指向node1，再讲pre指向node1，以此循环
+// ### 解题思路
+// 在链表头部增加一个pre节点，缓存pre.next-node1,pre.next.next-node2,
+// 两两反转就是将node1指向node2.next，node2指向node1，再讲pre指向node1，以此循环
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -37,4 +37,4 @@ var swapPairs = function(head) {
     console.log(list)
     return list.next
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-解法一比较暴力
-解法二使用指针模拟栈的pop和push，详见代码注释
+// ### 解题思路
+// 解法一比较暴力
+// 解法二使用指针模拟栈的pop和push，详见代码注释
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool find132pattern(int* nums, int numsSize){
     if (numsSize < 3) return false;
 /*  暴力解法
@@ -48,4 +48,4 @@ bool find132pattern(int* nums, int numsSize){
     free(mid);
     return false;
 }
-```
+// ```

@@ -1,20 +1,20 @@
-## 思路:
+# ## 思路:
 
-大家做这道题之前, 先做一下[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [题解链接](https://leetcode-cn.com/problems/maximum-subarray/solution/sumij-sum0j-sum0iqiu-jie-by-powcai)
+# 大家做这道题之前, 先做一下[53. 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [题解链接](https://leetcode-cn.com/problems/maximum-subarray/solution/sumij-sum0j-sum0iqiu-jie-by-powcai)
 
-思路一: 类似滑动窗口的感觉
+# 思路一: 类似滑动窗口的感觉
 
-`product(i, j) = product(0, j) / product(0, i)` 从数组`i`到`j` 的累乘等于 从数组开头到`j`的累乘除以从数组开头到`i` 的累乘(这里先忽略`0`的情况), 要考虑三种情况
+# `product(i, j) = product(0, j) / product(0, i)` 从数组`i`到`j` 的累乘等于 从数组开头到`j`的累乘除以从数组开头到`i` 的累乘(这里先忽略`0`的情况), 要考虑三种情况
 
-累乘的乘积等于`0`,就要重新开始
+# 累乘的乘积等于`0`,就要重新开始
 
-累乘的乘积小于`0`, 要找到前面最大的负数, 这样才能保住从`i`到`j`最大
+# 累乘的乘积小于`0`, 要找到前面最大的负数, 这样才能保住从`i`到`j`最大
 
-累乘的乘积大于`0`, 要找到前面最小的正数, 同理!
+# 累乘的乘积大于`0`, 要找到前面最小的正数, 同理!
 
-代码如下:
+# 代码如下:
 
-```python
+# ```python
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         if not nums: return
@@ -47,13 +47,13 @@ class Solution:
                 max_neg = float("-inf")
                 res = max(res, num)
         return res 
-```
+# ```
 
-思路二, 动态规划[^1]
+# 思路二, 动态规划[^1]
 
-我们只要记录前`i`的最小值, 和最大值, 那么 `dp[i] = max(nums[i] * pre_max, nums[i] * pre_min, nums[i])`, 这里`0` 不需要单独考虑, 因为当相乘不管最大值和最小值,都会置`0`
+# 我们只要记录前`i`的最小值, 和最大值, 那么 `dp[i] = max(nums[i] * pre_max, nums[i] * pre_min, nums[i])`, 这里`0` 不需要单独考虑, 因为当相乘不管最大值和最小值,都会置`0`
 
-```python []
+# ```python []
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         if not nums: return 
@@ -67,11 +67,11 @@ class Solution:
             pre_max = cur_max
             pre_min = cur_min
         return res
-```
+# ```
 
 
 
-```java []
+# ```java []
 class Solution {
     public int maxProduct(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
@@ -88,17 +88,17 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 
-思路三: 根据符号的个数[^2]
+# 思路三: 根据符号的个数[^2]
 
-当负数个数为偶数时候, 全部相乘一定最大
+# 当负数个数为偶数时候, 全部相乘一定最大
 
-当负数个数为奇数时候, 它的左右两边的负数个数一定为偶数, 只需求两边最大值
+# 当负数个数为奇数时候, 它的左右两边的负数个数一定为偶数, 只需求两边最大值
 
-当有`0`情况,重置就可以了
+# 当有`0`情况,重置就可以了
 
-```python
+# ```python
 class Solution:
     def maxProduct(self, nums: List[int]) -> int:
         reverse_nums = nums[::-1]
@@ -106,12 +106,12 @@ class Solution:
             nums[i] *= nums[i - 1] or 1
             reverse_nums[i] *= reverse_nums[i - 1] or 1
         return max(nums + reverse_nums)
-```
+# ```
 
 
 
-[^1]: <https://leetcode.com/problems/maximum-product-subarray/discuss/48252/Sharing-my-solution%3A-O(1)-space-O(n)-running-time>
-[^2]: <https://leetcode.com/problems/maximum-product-subarray/discuss/183483/Easy-and-Concise-Python>
+# [^1]: <https://leetcode.com/problems/maximum-product-subarray/discuss/48252/Sharing-my-solution%3A-O(1)-space-O(n)-running-time>
+# [^2]: <https://leetcode.com/problems/maximum-product-subarray/discuss/183483/Easy-and-Concise-Python>
 
 
 

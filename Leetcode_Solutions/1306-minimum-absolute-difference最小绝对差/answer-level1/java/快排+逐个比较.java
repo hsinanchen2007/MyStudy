@@ -1,10 +1,10 @@
-### 若遇到更小的差，则清空列表，将目前的数加入列表。若差相等，则将目前的数加入列表。
-![QQ图片20200106153853.png](https://pic.leetcode-cn.com/6731724821c2c8223ecd5a8ab61fe8592a72dc9e0f712e4f91c8be89e4218a49-QQ%E5%9B%BE%E7%89%8720200106153853.png)
-此处撰写解题思路
+// ### 若遇到更小的差，则清空列表，将目前的数加入列表。若差相等，则将目前的数加入列表。
+// ![QQ图片20200106153853.png](https://pic.leetcode-cn.com/6731724821c2c8223ecd5a8ab61fe8592a72dc9e0f712e4f91c8be89e4218a49-QQ%E5%9B%BE%E7%89%8720200106153853.png)
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> minimumAbsDifference(int[] arr) {
 
@@ -49,4 +49,4 @@ class Solution {
         quikSort(nums,i+1,high);
     }
 }
-```
+// ```

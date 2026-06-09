@@ -1,10 +1,10 @@
-构建直线的数据结构，数据结构记录如下信息即可：
-1，直线某个点
-2，直线最初构建时的两点在x轴,y轴上的差值
-3，该直线经过的点的下标集合
-由于不涉及到浮点数，因此无精度损失问题
-然后就可以直观的进行计算了，代码如下：
-```
+// 构建直线的数据结构，数据结构记录如下信息即可：
+// 1，直线某个点
+// 2，直线最初构建时的两点在x轴,y轴上的差值
+// 3，该直线经过的点的下标集合
+// 由于不涉及到浮点数，因此无精度损失问题
+// 然后就可以直观的进行计算了，代码如下：
+// ```
 class Solution {
 public:
     struct Line {
@@ -65,5 +65,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/0a7f5d0fdc3c6b5c06ed4cedba444f43d4992b0248df9c4a4bf8ae1e68ff80b1-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/0a7f5d0fdc3c6b5c06ed4cedba444f43d4992b0248df9c4a4bf8ae1e68ff80b1-image.png)

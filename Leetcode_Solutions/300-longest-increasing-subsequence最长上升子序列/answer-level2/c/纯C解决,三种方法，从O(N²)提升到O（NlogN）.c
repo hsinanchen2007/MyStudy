@@ -1,5 +1,5 @@
-方法一：基本的动态规划
-```
+// 方法一：基本的动态规划
+// ```
 int lengthOfLIS(int* nums, int numsSize){
     if(numsSize==0)
     return 0;
@@ -21,9 +21,9 @@ int lengthOfLIS(int* nums, int numsSize){
     }
     return max;
 }
-```
-方法二：栈
-```
+// ```
+// 方法二：栈
+// ```
 int lengthOfLIS(int* nums, int numsSize){
     if(numsSize==0)
     return 0;
@@ -45,9 +45,9 @@ int lengthOfLIS(int* nums, int numsSize){
         }
     return top;
 }
-```
-方法三：栈+二分查找
-```
+// ```
+// 方法三：栈+二分查找
+// ```
 int lengthOfLIS(int* nums, int numsSize){
     if(numsSize==0)
     return 0;
@@ -75,6 +75,6 @@ int lengthOfLIS(int* nums, int numsSize){
         }
     return top;
 }
-```
+// ```
 
 

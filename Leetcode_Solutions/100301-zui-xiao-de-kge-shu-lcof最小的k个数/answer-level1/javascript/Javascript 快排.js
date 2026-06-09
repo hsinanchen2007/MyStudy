@@ -1,7 +1,7 @@
-# 思路
-- 通过快排将数组排序，然后循环取出最小值放入新数组中
+// # 思路
+// - 通过快排将数组排序，然后循环取出最小值放入新数组中
 
-```
+// ```
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -52,4 +52,4 @@ const qSort = (arr) => {
     sort(arr, 0, arr.length - 1)
     return arr
 }
-```
+// ```

@@ -1,12 +1,12 @@
-### 解题思路
-从有数字的地方开始从后往前对比，大的数字放在A的末端
-如果A中数字对比完，B中还有数字没有对比过整体放到A前端
-![code.PNG](https://pic.leetcode-cn.com/a863399bb7aff0a139a530a38516b24c2837f14492f334580d17e7cf12c22716-code.PNG)
+# ### 解题思路
+# 从有数字的地方开始从后往前对比，大的数字放在A的末端
+# 如果A中数字对比完，B中还有数字没有对比过整体放到A前端
+# ![code.PNG](https://pic.leetcode-cn.com/a863399bb7aff0a139a530a38516b24c2837f14492f334580d17e7cf12c22716-code.PNG)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -27,4 +27,4 @@ class Solution:
             A[:j+1]=B[:j+1]
         return A
 
-```
+# ```

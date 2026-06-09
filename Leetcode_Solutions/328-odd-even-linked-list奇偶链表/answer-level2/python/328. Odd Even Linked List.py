@@ -1,10 +1,10 @@
-### 解题思路
-1. odd奇数列表和even偶数列表分开, 再合并成一个新的List = oddList + evenList
-2. 遍历List, 重新赋值给head
+# ### 解题思路
+# 1. odd奇数列表和even偶数列表分开, 再合并成一个新的List = oddList + evenList
+# 2. 遍历List, 重新赋值给head
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution(object):
             _index += 1
 
         return head
-```
+# ```

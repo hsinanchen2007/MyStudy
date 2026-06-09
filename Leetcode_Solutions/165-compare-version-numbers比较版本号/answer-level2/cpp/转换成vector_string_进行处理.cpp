@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int compareVersion(string version1, string version2) {
@@ -77,4 +77,4 @@ public:
         return 0;  
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/488f62149ce7cf9f302658a448e95a69a811a202b703982f22a49a6b0368aad0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/488f62149ce7cf9f302658a448e95a69a811a202b703982f22a49a6b0368aad0-image.png)
 
-```
+// ```
 //先正常遍历，再把奇数项颠倒
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
@@ -47,4 +47,4 @@ class Solution {
         }   
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 #define max(a,b) ((a) > (b) ? (a) : (b))
 int cmp(int a,int b) {
     if(a > b) {
@@ -25,4 +25,4 @@ int maxTurbulenceSize(int* A, int ASize){
     }
     return ans;
 }
-```
+// ```

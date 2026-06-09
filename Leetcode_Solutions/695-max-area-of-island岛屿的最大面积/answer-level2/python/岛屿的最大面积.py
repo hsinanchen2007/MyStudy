@@ -1,17 +1,17 @@
-### 解题思路
-使用dfs进行搜索。
+# ### 解题思路
+# 使用dfs进行搜索。
 
-遍历grid，i表示行index，j表示列index，当grid[i][j] == 1时， 对（i，j）进行一次dfs搜索：
-1. 当grid[i][j] == 1 时，当前面积 + 1
-2. 同时将grid[i][j] 设为0，避免重复访问
-3. 对(i,j)上下左右的位置进行dfs搜索
-4. 返回的边界条件为：i,j越界，或当前访问位置为0
+# 遍历grid，i表示行index，j表示列index，当grid[i][j] == 1时， 对（i，j）进行一次dfs搜索：
+# 1. 当grid[i][j] == 1 时，当前面积 + 1
+# 2. 同时将grid[i][j] 设为0，避免重复访问
+# 3. 对(i,j)上下左右的位置进行dfs搜索
+# 4. 返回的边界条件为：i,j越界，或当前访问位置为0
 
-比较本次搜索得到的面积和之前的最大面积， 如果本次搜索的面积更大， 则更新最大面积的值
+# 比较本次搜索得到的面积和之前的最大面积， 如果本次搜索的面积更大， 则更新最大面积的值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         if not grid or len(grid)<1 or len(grid[0])<1:
@@ -39,4 +39,4 @@ class Solution:
         self.dfs(grid, i, j-1, m, n)
         self.dfs(grid, i, j+1, m, n)
     
-```
+# ```

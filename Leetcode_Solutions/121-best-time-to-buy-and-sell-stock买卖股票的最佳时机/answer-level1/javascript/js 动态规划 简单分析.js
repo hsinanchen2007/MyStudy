@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/b600ff82bcec828d30045ba0235ca6ee1e73b4c3eab8acbba4bba373daf8ce2d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b600ff82bcec828d30045ba0235ca6ee1e73b4c3eab8acbba4bba373daf8ce2d-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   分析状态：
   每天有两种情况：
   1. 手里持有股票
@@ -10,11 +10,11 @@
   2. 手里没有股票
      - 今天刚买的
      - 昨天就没有
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} prices
  * @return {number}
@@ -68,4 +68,4 @@ var maxProfit = function(prices) {
   
 //   return result;
 // };
-```
+// ```

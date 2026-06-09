@@ -1,9 +1,9 @@
-### 解题思路
-前序遍历的逆序输出，比较巧的解法
+// ### 解题思路
+// 前序遍历的逆序输出，比较巧的解法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -46,4 +46,4 @@ func postorderTraversal(root *TreeNode) []int {
     }
     return res
 }
-```
+// ```

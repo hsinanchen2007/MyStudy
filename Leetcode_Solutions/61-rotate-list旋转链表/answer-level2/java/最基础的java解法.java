@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public ListNode rotateRight(ListNode head, int k) {
         ListNode p = head;
@@ -27,4 +27,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

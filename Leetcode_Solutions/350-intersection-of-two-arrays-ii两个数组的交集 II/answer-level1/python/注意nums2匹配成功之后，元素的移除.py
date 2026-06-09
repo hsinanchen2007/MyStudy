@@ -1,9 +1,9 @@
-### 解题思路
-注意nums2匹配上之后，元素的移除
+# ### 解题思路
+# 注意nums2匹配上之后，元素的移除
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def intersect(self, nums1, nums2):
         """
@@ -17,4 +17,4 @@ class Solution(object):
                 res.append(i)
                 nums2.remove(i)
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 int* sortArrayByParity(int* A, int ASize, int* returnSize){ // Do by myself
     int i, j, temp;
     for(i = 0; i < ASize; i++){
@@ -16,4 +16,4 @@ int* sortArrayByParity(int* A, int ASize, int* returnSize){ // Do by myself
     }
     *returnSize = ASize;
     return A;
-```
+// ```

@@ -1,4 +1,4 @@
-```
+-- ```
 /* Write your PL/SQL query statement below */
 select Department,Employee,Salary 
 from(
@@ -8,4 +8,4 @@ from Employee e,Department d
 where e.DepartmentId=d.Id 
 )
 where rn<=3;
-```
+-- ```

@@ -1,4 +1,4 @@
-```
+// ```
 func sortColors(nums []int)  {
     p1, p2, cur := 0, len(nums) - 1, 0
     temp := 0
@@ -17,4 +17,4 @@ func sortColors(nums []int)  {
         }
     }
 }
-```
+// ```

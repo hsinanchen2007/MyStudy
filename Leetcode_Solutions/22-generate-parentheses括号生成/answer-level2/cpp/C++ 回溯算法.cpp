@@ -1,11 +1,11 @@
-### 解题思路
-1、使用回溯算法进行遍历。
-2、对于一个合法的字符串来说，左括号数量必然大于等于右括号。
-3、string也可以使用push_back()及pop_back()。
+// ### 解题思路
+// 1、使用回溯算法进行遍历。
+// 2、对于一个合法的字符串来说，左括号数量必然大于等于右括号。
+// 3、string也可以使用push_back()及pop_back()。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> res;
@@ -66,4 +66,4 @@ public:
         return true;
     }
 };
-```
+// ```

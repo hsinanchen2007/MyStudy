@@ -1,9 +1,9 @@
-### 解题思路
-一个简单的数组加指针的内部数据结构的实现
+// ### 解题思路
+// 一个简单的数组加指针的内部数据结构的实现
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 
 class CustomStack {
 public:
@@ -53,4 +53,4 @@ private:
  * int param_2 = obj->pop();
  * obj->increment(k,val);
  */
-```
+// ```

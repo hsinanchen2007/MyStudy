@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isValid(string S) {
@@ -22,5 +22,5 @@ public:
         
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/46f6b9961c62128dea8cb7b1b2db9cd665f65aec07c4f50de4db478b46b33533-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/46f6b9961c62128dea8cb7b1b2db9cd665f65aec07c4f50de4db478b46b33533-image.png)

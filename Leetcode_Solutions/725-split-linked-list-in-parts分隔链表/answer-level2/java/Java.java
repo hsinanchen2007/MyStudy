@@ -1,14 +1,14 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-按照题意，首先求出链表中节点个数count：
+// 按照题意，首先求出链表中节点个数count：
 
-如果count <= k，表示每个子节点存在于结果数组中；
+// 如果count <= k，表示每个子节点存在于结果数组中；
 
-如果k > count，把链表分为k份，每份至少有count/k个元素，未分配元素为count%k，因为未分配元素在范围为[0,k)，所以给每份元素数从前到后+1，以满足题目条件
+// 如果k > count，把链表分为k份，每份至少有count/k个元素，未分配元素为count%k，因为未分配元素在范围为[0,k)，所以给每份元素数从前到后+1，以满足题目条件
 
-如果8个元素分成3分，每份至少有8/3=2个元素，即[2,2,2]，剩余8%3=2个元素，分给第一份和第二份，为[3,3,2]
+// 如果8个元素分成3分，每份至少有8/3=2个元素，即[2,2,2]，剩余8%3=2个元素，分给第一份和第二份，为[3,3,2]
 
-```
+// ```
 public ListNode[] splitListToParts(ListNode root, int k) {
     if (root == null) return null;
     ListNode[] res = new ListNode[k];
@@ -54,4 +54,4 @@ public ListNode[] splitListToParts(ListNode root, int k) {
     }
     return res;
 }
-```
+// ```

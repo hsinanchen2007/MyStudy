@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-string 转为 integer
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// string 转为 integer
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -17,4 +17,4 @@ public:
         else return 0;
     }
 };
-```
+// ```

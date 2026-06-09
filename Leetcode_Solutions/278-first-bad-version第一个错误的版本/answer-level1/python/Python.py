@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool
@@ -24,4 +24,4 @@ class Solution(object):
             else:
                 l=m+1
         return l
-```
+# ```

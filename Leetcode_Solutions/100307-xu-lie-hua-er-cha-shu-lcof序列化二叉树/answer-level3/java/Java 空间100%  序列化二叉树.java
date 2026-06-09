@@ -1,10 +1,10 @@
-### 解题思路
-这里的序列化理解为层次遍历！！！！
-核心实现需要借助于队列！！！
+// ### 解题思路
+// 这里的序列化理解为层次遍历！！！！
+// 核心实现需要借助于队列！！！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -91,4 +91,4 @@ public class Codec {
 // Your Codec object will be instantiated and called as such:
 // Codec codec = new Codec();
 // codec.deserialize(codec.serialize(root));
-```
+// ```

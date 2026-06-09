@@ -1,9 +1,9 @@
-### 解题思路
-主要是右边界的问题，复杂度为0(n),尽可能避免中心拓展
+// ### 解题思路
+// 主要是右边界的问题，复杂度为0(n),尽可能避免中心拓展
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String si) {
         String so = transform(si);
@@ -71,4 +71,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

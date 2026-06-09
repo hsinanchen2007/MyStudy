@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findTarget(self, root: TreeNode, k: int) -> bool:
         def gen(node):
@@ -17,4 +17,4 @@ class Solution:
             s.add( k - val )
         
         return False
-```
+# ```

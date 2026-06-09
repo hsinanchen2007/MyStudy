@@ -1,5 +1,5 @@
 
-```
+// ```
 char * convertToBase7(int num){
     char *s = (char *)malloc(1024);
     if (num >= 0) fun(s, num);
@@ -30,4 +30,4 @@ int fun (char *input_str, int input_num)
     }
     return input_str;
 }
-```
+// ```

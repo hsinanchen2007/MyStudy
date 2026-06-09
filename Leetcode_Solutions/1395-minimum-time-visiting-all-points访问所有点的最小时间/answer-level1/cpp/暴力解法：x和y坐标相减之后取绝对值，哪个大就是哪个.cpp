@@ -1,16 +1,16 @@
-### 解题思路
-题目很长，都是纸老虎。
-两个点之间走路消耗的时间实际就是x和y坐标相减之后取绝对值，哪个大就是哪个。
-### 头文件
-```
+// ### 解题思路
+// 题目很长，都是纸老虎。
+// 两个点之间走路消耗的时间实际就是x和y坐标相减之后取绝对值，哪个大就是哪个。
+// ### 头文件
+// ```
 #include <iostream>
 #include <vector>
 #include <cmath>
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minTimeToVisitAllPoints(vector<vector<int>>& points) {
@@ -24,4 +24,4 @@ public:
         return num;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-### 解题思路
-递归，但是注意考虑Null的情况
-### 代码
-```cpp
+// ### 解题思路
+// 递归，但是注意考虑Null的情况
+// ### 代码
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -24,4 +24,4 @@ public:
             return (isSameTree(p->left,q->left)&&isSameTree(p->right,q->right));
     }
 };
-```
+// ```

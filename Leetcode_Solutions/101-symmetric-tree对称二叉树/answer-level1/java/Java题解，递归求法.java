@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -28,4 +28,4 @@ class Solution {
         return jduge(left.left,right.right) && jduge(left.right,right.left);
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 type edge struct {
 	From  string
 	To    string
@@ -64,4 +64,4 @@ func dfs(query []string, graph map[string][]edge, visited map[string]bool) float
 	return 0
 }
 
-```
+// ```

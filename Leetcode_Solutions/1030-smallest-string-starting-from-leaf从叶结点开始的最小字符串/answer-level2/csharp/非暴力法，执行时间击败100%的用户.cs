@@ -1,10 +1,10 @@
-### 解题思路
-1.定义一个 class MyTreeNode 继承 TreeNode，添加一个root字段表示当前节点的根节点
-2.遍历一次二叉树，取出所有叶子节点 List<MyTreeNode> yz;
-3.逆向比较叶子节点，输出结果
-### 代码
+// ### 解题思路
+// 1.定义一个 class MyTreeNode 继承 TreeNode，添加一个root字段表示当前节点的根节点
+// 2.遍历一次二叉树，取出所有叶子节点 List<MyTreeNode> yz;
+// 3.逆向比较叶子节点，输出结果
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -103,4 +103,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public int minSubArrayLen(int s, int[] nums) {
         int res = nums.length+1; //记录全局最小
@@ -22,4 +22,4 @@ class Solution {
         return res>nums.length?0:res;
     }
 }
-```
+// ```

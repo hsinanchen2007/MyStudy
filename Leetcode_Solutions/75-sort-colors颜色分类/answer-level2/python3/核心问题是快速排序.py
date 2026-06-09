@@ -1,14 +1,14 @@
-### 解题思路
-**normal method:**
-1. The title says that the three colors are sorted according to specific rules. The first thing that comes to mind is to use the sorting idea to solve the problem (do not rule out that there are other Sao operations)
-2. In the sort algorithm, quick sort is definitely the first choice. So obvious, solve it with quick sort
+# ### 解题思路
+# **normal method:**
+# 1. The title says that the three colors are sorted according to specific rules. The first thing that comes to mind is to use the sorting idea to solve the problem (do not rule out that there are other Sao operations)
+# 2. In the sort algorithm, quick sort is definitely the first choice. So obvious, solve it with quick sort
 
-** Advanced Thoughts **
-1. Through conventional methods, we can know that this is the idea of sorting, and, normally, quick sorting is the best. However, each algorithm has its place.
-2. We think, what other algorithm is more suitable for this problem?
-### 代码
+# ** Advanced Thoughts **
+# 1. Through conventional methods, we can know that this is the idea of sorting, and, normally, quick sorting is the best. However, each algorithm has its place.
+# 2. We think, what other algorithm is more suitable for this problem?
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
         """
@@ -46,4 +46,4 @@ class Solution:
 
 
 
-```
+# ```

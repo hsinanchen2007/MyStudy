@@ -1,4 +1,4 @@
-```go
+// ```go
 func isBalanced(root *TreeNode) bool {
     return isBalancedHelper(root) != -1
 }
@@ -28,4 +28,4 @@ func max(a, b int) int {
     }
     return b
 }
-```
+// ```

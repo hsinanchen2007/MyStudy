@@ -1,4 +1,4 @@
-```
+// ```
 #define MIN(a, b) (a) <= (b) ? (a) : (b)
 int GetCharId(char c)
 {
@@ -51,4 +51,4 @@ int balancedString(char* s)
 
     return ans;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public static Node connect(Node root) {
         if (root == null) {
@@ -47,4 +47,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

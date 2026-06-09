@@ -1,17 +1,17 @@
-![image.png](https://pic.leetcode-cn.com/51c7660f644a321e6160b43f32b0da0d5f84b230b56fd333f826a2acb0884fcc-image.png)
+// ![image.png](https://pic.leetcode-cn.com/51c7660f644a321e6160b43f32b0da0d5f84b230b56fd333f826a2acb0884fcc-image.png)
 
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 二分查找法 O(logN)
 思路：
 - 每次查找中位数，判当前中位数的哪一边是有序数组，将有序数组的最小值与当前
   保存的最小值比较，继续二分遍历不是有序数组的那一边，直到左指针大于右指针
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -48,4 +48,4 @@ var findMin = function(nums) {
   
 //   return ans;
 // }
-```
+// ```

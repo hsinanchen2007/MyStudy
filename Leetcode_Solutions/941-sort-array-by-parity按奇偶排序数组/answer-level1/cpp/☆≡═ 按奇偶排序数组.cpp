@@ -1,7 +1,7 @@
-1. 遍历数组，先获得偶数，把奇数存储在临时数组中。
-2. 偶数获得完毕后，再把奇数补在后边。
+// 1. 遍历数组，先获得偶数，把奇数存储在临时数组中。
+// 2. 偶数获得完毕后，再把奇数补在后边。
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     vector<int> sortArrayByParity(const vector<int>& A) {
@@ -14,9 +14,9 @@ public:
         return ans;
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def sortArrayByParity(self, A: List[int]) -> List[int]:
         return sorted(A, key = lambda a : a%2)
-```
+// ```

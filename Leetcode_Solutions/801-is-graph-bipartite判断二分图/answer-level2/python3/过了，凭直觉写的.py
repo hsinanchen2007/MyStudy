@@ -1,8 +1,8 @@
-### 解题思路
-dfs递归形式，用了reduce，不然我还真不知道该怎么写，怎么把return衔接起来？求大佬指点，怎么写没有reduce的递归？
-### 代码
+# ### 解题思路
+# dfs递归形式，用了reduce，不然我还真不知道该怎么写，怎么把return衔接起来？求大佬指点，怎么写没有reduce的递归？
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
         from functools import reduce
@@ -22,4 +22,4 @@ class Solution:
             if color[i]==0:
                 res=res and dfs(i,1)
         return res
-```
+# ```

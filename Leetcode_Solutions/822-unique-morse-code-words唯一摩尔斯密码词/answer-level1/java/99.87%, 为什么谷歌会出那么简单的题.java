@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int uniqueMorseRepresentations(String[] words) {
         String[] m = new String[]{".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
@@ -13,4 +13,4 @@ class Solution {
         return s.size();
     }
 }
-```
+// ```

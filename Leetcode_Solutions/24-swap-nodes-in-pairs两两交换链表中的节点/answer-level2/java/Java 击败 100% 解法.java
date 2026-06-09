@@ -1,6 +1,6 @@
-Java 击败 100% 解法：
+// Java 击败 100% 解法：
 
-``` java
+// ``` java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -24,4 +24,4 @@ class Solution {
         return helper.next;
     }
 }
-```
+// ```

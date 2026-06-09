@@ -1,6 +1,6 @@
-在建立空栈时添加标志元素‘#’,以便后续检查是否匹配完好。
+// 在建立空栈时添加标志元素‘#’,以便后续检查是否匹配完好。
 
-```
+// ```
 class Solution {
 public:
     bool isValid(string s) {
@@ -23,4 +23,4 @@ public:
         return false;
     }
 };
-```
+// ```

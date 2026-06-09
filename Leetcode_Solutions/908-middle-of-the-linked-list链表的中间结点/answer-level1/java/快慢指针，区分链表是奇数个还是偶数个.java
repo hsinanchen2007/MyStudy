@@ -1,11 +1,11 @@
-### 解题思路
-快慢指针
-如果是奇数个，直接返回慢指针
-如果是偶数个，慢指针再走一步，返回即可
+// ### 解题思路
+// 快慢指针
+// 如果是奇数个，直接返回慢指针
+// 如果是偶数个，慢指针再走一步，返回即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -38,4 +38,4 @@ class Solution {
         return slow;
     }
 }
-```
+// ```

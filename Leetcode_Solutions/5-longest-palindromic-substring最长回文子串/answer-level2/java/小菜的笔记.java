@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-中心扩展算法， int len1=computelen(s,i,i);以位置i处的节点向两侧搜索，int len2=computelen(s,i,i+1);以位置i和i+1处的节点向两侧搜索。因为回文字符串要么以节点对称，要么以两个节点间的空格对称。
+// ### 解题思路
+// 此处撰写解题思路
+// 中心扩展算法， int len1=computelen(s,i,i);以位置i处的节点向两侧搜索，int len2=computelen(s,i,i+1);以位置i和i+1处的节点向两侧搜索。因为回文字符串要么以节点对称，要么以两个节点间的空格对称。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestPalindrome(String s) {
         int start=0,end=0;
@@ -30,4 +30,4 @@ class Solution {
         return right-left-1;
     }
 }
-```
+// ```

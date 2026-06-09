@@ -1,6 +1,6 @@
-双指针+ ASCII的比较 
+// 双指针+ ASCII的比较 
 
-```java
+// ```java
 public boolean isPalindrome(String s) {
         boolean result = true;
         int left = 0 , right = s.length() - 1;
@@ -28,4 +28,4 @@ public boolean isPalindrome(String s) {
         return result;
     }
 
-```
+// ```

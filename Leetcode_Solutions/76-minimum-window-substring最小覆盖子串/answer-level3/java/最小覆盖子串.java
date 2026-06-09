@@ -1,7 +1,7 @@
-核心思想：
-1. left，right 两个指针， right 向前扫描 s 串，直到 left ~ right 区间内字符完全包含 t 串所需的字符
-2. 移动 left 指针，缩小窗口
-```
+// 核心思想：
+// 1. left，right 两个指针， right 向前扫描 s 串，直到 left ~ right 区间内字符完全包含 t 串所需的字符
+// 2. 移动 left 指针，缩小窗口
+// ```
 
     public static String solute(String s, String t) {
         Map<Character, Integer> characterCount = new HashMap<>();
@@ -61,4 +61,4 @@
         return result;
     }
 
-```
+// ```

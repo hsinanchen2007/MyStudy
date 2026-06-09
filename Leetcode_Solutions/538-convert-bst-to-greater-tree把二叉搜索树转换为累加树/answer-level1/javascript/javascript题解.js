@@ -1,13 +1,13 @@
-[538.把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/submissions/)
+// [538.把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/submissions/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md)  
 
 
-## 方法一 先求和，在中序
+// ## 方法一 先求和，在中序
 
-通过一次遍历计算出树中所有节点的和，然后利用中序遍历去修改每一个节点的值，代码更加直观，可以直接看代码。
+// 通过一次遍历计算出树中所有节点的和，然后利用中序遍历去修改每一个节点的值，代码更加直观，可以直接看代码。
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -45,14 +45,14 @@ var convertBST = function(root) {
     }
     return root;
 };
-```
+// ```
 
 
-## 方法二 反中序   
+// ## 方法二 反中序   
 
-在反中序过程中直接修改节点值。  
+// 在反中序过程中直接修改节点值。  
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -82,13 +82,13 @@ var convertBST = function(root) {
     }
     return root;
 };
-```
+// ```
 
-## 方法三 反中序递归写法  
+// ## 方法三 反中序递归写法  
 
-注意必须要确保sum能够动态变化。
+// 注意必须要确保sum能够动态变化。
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -114,4 +114,4 @@ var convertBST = function(root) {
     help(root);
     return root;
 };
-```
+// ```

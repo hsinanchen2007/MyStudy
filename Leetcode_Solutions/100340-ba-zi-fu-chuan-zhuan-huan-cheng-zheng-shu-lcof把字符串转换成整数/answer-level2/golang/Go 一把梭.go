@@ -1,4 +1,4 @@
-```
+// ```
 import "math"
 
 func strToInt(str string) int {
@@ -55,4 +55,4 @@ LABEL_RETURN:
 	}
 	return int(rst)
 }
-```
+// ```

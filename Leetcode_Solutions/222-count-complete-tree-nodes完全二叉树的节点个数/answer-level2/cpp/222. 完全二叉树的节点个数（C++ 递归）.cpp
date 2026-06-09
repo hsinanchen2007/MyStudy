@@ -1,5 +1,5 @@
-# 222. 完全二叉树的节点个数
-```
+// # 222. 完全二叉树的节点个数
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -18,4 +18,4 @@ public:
         	return 0;
     }
 };
-```
+// ```

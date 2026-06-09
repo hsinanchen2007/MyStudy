@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         half_len = len(str(x)) // 2 + 1
@@ -8,6 +8,6 @@ class Solution:
             return True
         else:
             return False
-```
-1. 按道理时间复杂度应该是O(n)，但不知为何速度也很快；
-2. 折半对比反而不快。
+# ```
+# 1. 按道理时间复杂度应该是O(n)，但不知为何速度也很快；
+# 2. 折半对比反而不快。

@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct TreeNode TreeNode;
 
 int maxDepthOrder(TreeNode *root) {
@@ -19,4 +19,4 @@ int maxDepth(struct TreeNode* root){
 
     return returnValue;
 }
-```
+// ```

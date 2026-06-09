@@ -1,14 +1,14 @@
-### 解题思路
-结果如下：
-![image.png](https://pic.leetcode-cn.com/ed86665981dd1423080c56789b48afb33987b95a74670ef77c286fbca8272dbb-image.png)
+// ### 解题思路
+// 结果如下：
+// ![image.png](https://pic.leetcode-cn.com/ed86665981dd1423080c56789b48afb33987b95a74670ef77c286fbca8272dbb-image.png)
 
-类似于生成一个树（有点回溯法的感觉），顶点是第一个数字，下面的根是数字里面的字母，然后字母下面在一个数字
+// 类似于生成一个树（有点回溯法的感觉），顶点是第一个数字，下面的根是数字里面的字母，然后字母下面在一个数字
 
-代码应该挺好理解
+// 代码应该挺好理解
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} digits
  * @return {string[]}
@@ -46,4 +46,4 @@ var letterCombinations = function(digits) {
     _generate("", numArr);
     return resArr
 };
-```
+// ```

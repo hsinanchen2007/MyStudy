@@ -1,5 +1,5 @@
 
-```
+// ```
 function generateParenthesis($n)
     {
         if ($n == 0) {
@@ -24,4 +24,4 @@ function generateParenthesis($n)
     }
 
 
-```
+// ```

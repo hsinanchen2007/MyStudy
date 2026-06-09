@@ -1,9 +1,9 @@
-### 解题思路
-利用二分查找， 根据数字的范围[1,n]进行二分
+// ### 解题思路
+// 利用二分查找， 根据数字的范围[1,n]进行二分
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findDuplicate(int[] nums) {
          
@@ -28,4 +28,4 @@ class Solution {
     }
 
 }
-```
+// ```

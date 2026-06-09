@@ -1,10 +1,10 @@
-### 解题思路
-递归在于每个元素的计算，而不是每一行的计算。
-非递归在于每一行的计算依赖上一行。
+// ### 解题思路
+// 递归在于每个元素的计算，而不是每一行的计算。
+// 非递归在于每一行的计算依赖上一行。
 
-### 递归解法代码
+// ### 递归解法代码
 
-```java
+// ```java
 class Solution {
     //递归解法
     public List<List<Integer>> generate(int numRows) {
@@ -30,10 +30,10 @@ class Solution {
        return get(res, i-1,j-1)+ get(res, i-1,j);
     }
 }
-```
+// ```
 
-### 非递归解法代码
-```java
+// ### 非递归解法代码
+// ```java
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         if(numRows==0){return new ArrayList<>();}
@@ -61,4 +61,4 @@ class Solution {
     
     
 }
-```
+// ```

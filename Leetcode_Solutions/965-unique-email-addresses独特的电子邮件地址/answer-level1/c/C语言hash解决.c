@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
     char addr[110];
     UT_hash_handle hh;
@@ -47,4 +47,4 @@ int numUniqueEmails(char ** emails, int emailsSize){
 
     return count;
 }
-```
+// ```

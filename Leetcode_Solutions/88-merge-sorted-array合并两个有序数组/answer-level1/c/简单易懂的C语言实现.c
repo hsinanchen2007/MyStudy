@@ -1,7 +1,7 @@
-    思路很简单，只需要将nums2中的数据全部插入nums1中，然后再对nums1中的数据进行排序即可。
-### 代码
+//     思路很简单，只需要将nums2中的数据全部插入nums1中，然后再对nums1中的数据进行排序即可。
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
 {
     int i,j,temp;
@@ -20,4 +20,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n)
         }
     }
 }
-```
+// ```

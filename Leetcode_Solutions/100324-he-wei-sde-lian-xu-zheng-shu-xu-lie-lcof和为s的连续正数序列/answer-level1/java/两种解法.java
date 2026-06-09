@@ -1,8 +1,8 @@
 
 
-1. 数学公式
+// 1. 数学公式
 
-```java
+// ```java
 class Solution {
     public int[][] findContinuousSequence(int target) {
         Stack<int[]> stack  = new Stack<>();
@@ -34,14 +34,14 @@ class Solution {
 
 }
 
-```
+// ```
 
 
 
 
 
-2. 滑动窗口
-```java
+// 2. 滑动窗口
+// ```java
 
 class Solution {
     public int[][] findContinuousSequence(int target) {
@@ -83,4 +83,4 @@ class Solution {
     }
 }
 
-```
+// ```

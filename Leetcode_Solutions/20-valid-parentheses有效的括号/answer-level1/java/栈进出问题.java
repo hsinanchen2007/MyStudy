@@ -1,6 +1,6 @@
-左括号进栈，左括号出栈，最后判断出栈是否为对应括号或者为空即可
+// 左括号进栈，左括号出栈，最后判断出栈是否为对应括号或者为空即可
 
-```
+// ```
 public boolean isValid(String s) {
         char[] str = s.toCharArray();
         if (str.length == 0) {
@@ -29,4 +29,4 @@ public boolean isValid(String s) {
         }
         return stack.isEmpty();
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 bool hasCycle(struct ListNode *head) {
     struct ListNode *fast = head;
     struct ListNode *slow = head;
@@ -10,4 +10,4 @@ bool hasCycle(struct ListNode *head) {
     }
     return false;
 }
-```
+// ```

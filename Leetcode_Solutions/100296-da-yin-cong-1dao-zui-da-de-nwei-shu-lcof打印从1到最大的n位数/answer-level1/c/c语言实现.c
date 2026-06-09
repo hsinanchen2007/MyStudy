@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-这个题此处和offer书中不一样，被简化了许多，建议大家看看书上的解题方式，
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 这个题此处和offer书中不一样，被简化了许多，建议大家看看书上的解题方式，
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -24,4 +24,4 @@ int* printNumbers(int n, int* returnSize){
 
 
 }
-```
+// ```

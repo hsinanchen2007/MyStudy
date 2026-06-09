@@ -1,17 +1,17 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/3a3c4938a823d9e83316403afa007339c4ea83ebefbc7f999c0925e67463eda2-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/3a3c4938a823d9e83316403afa007339c4ea83ebefbc7f999c0925e67463eda2-image.png)
 
-解题思路：
-从后向前比较，把大的数依次由后往前放。
+// 解题思路：
+// 从后向前比较，把大的数依次由后往前放。
 
-优化思路：（结合代码看）
-由于B中的数是要填进A中，那么可以把第一个`while`循环里的条件`j >= 0`挪到前面；
+// 优化思路：（结合代码看）
+// 由于B中的数是要填进A中，那么可以把第一个`while`循环里的条件`j >= 0`挪到前面；
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& A, int m, vector<int>& B, int n) {
@@ -32,4 +32,4 @@ public:
         }
     }
 };
-```
+// ```

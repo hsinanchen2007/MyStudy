@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/f061df866d16b06a970838402b840978b71eaaf1c88dfa7c669903ea95ca0ac9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f061df866d16b06a970838402b840978b71eaaf1c88dfa7c669903ea95ca0ac9-image.png)
 
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -52,4 +52,4 @@ char ** findAndReplacePattern(char ** words, int wordsSize, char * pattern, int*
 
     return returnValue;
 }
-```
+// ```

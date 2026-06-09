@@ -1,10 +1,10 @@
-### 解题思路
-B[0] 与 A[i] 进行排序；
-然后将B进行排序
+// ### 解题思路
+// B[0] 与 A[i] 进行排序；
+// 然后将B进行排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define SWAP(A, B) do {   \
     int temp;   \
     temp = A;   \
@@ -47,4 +47,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n){
     }
     return;
 }
-```
+// ```

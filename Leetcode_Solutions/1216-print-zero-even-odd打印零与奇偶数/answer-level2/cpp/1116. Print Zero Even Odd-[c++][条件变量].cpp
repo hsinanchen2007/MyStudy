@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class ZeroEvenOdd {
 private:
     int n;
@@ -49,4 +49,4 @@ private:
     std::mutex _mu;
     std::condition_variable _cv[3];
 };
-```
+// ```

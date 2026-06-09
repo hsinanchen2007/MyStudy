@@ -1,5 +1,5 @@
-//深搜典型应用场景
-```
+// //深搜典型应用场景
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -41,4 +41,4 @@ int minDepth(struct TreeNode* root){
 
     return returnValue + 1;
 }
-```
+// ```

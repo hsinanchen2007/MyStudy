@@ -1,8 +1,8 @@
-按照要求，不对链表进行修改。
-执行用时 : 24 ms, 在Add Two Numbers II的C++提交中击败了100.00% 的用户
+// 按照要求，不对链表进行修改。
+// 执行用时 : 24 ms, 在Add Two Numbers II的C++提交中击败了100.00% 的用户
 
-内存消耗 : 10.6 MB, 在Add Two Numbers II的C++提交中击败了94.44% 的用户
-```
+// 内存消耗 : 10.6 MB, 在Add Two Numbers II的C++提交中击败了94.44% 的用户
+// ```
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
@@ -84,4 +84,4 @@ public:
         return reshead->val==1?reshead:reshead->next;
     }
 };
-```
+// ```

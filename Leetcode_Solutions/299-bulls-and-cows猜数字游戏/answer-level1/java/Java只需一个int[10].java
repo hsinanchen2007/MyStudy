@@ -1,15 +1,15 @@
-### 解题思路
+// ### 解题思路
 
-1. 首先假设猜中Bulls为0，全部猜中Cows，
-2. 遍历两个字符串，如果位置和数字都一致，Bulls++、Cows--，同时记录字母情况在table上
-3. 遍历table，只要table上有正数，就是没有猜中Cows
-4. 输出结果
+// 1. 首先假设猜中Bulls为0，全部猜中Cows，
+// 2. 遍历两个字符串，如果位置和数字都一致，Bulls++、Cows--，同时记录字母情况在table上
+// 3. 遍历table，只要table上有正数，就是没有猜中Cows
+// 4. 输出结果
 
-注：因为如果猜中位置和数字，在table上值会抵消，如果没有猜中Cows，对应的位即为负值
+// 注：因为如果猜中位置和数字，在table上值会抵消，如果没有猜中Cows，对应的位即为负值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String getHint(String secret, String guess) {
         int a = 0;
@@ -31,4 +31,4 @@ class Solution {
         return a + "A" + b + "B";
     }
 }
-```
+// ```

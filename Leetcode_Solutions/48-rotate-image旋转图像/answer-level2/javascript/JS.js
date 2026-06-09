@@ -1,5 +1,5 @@
-先来欣赏一下空间O(n^2)的粗暴解法
-```js
+// 先来欣赏一下空间O(n^2)的粗暴解法
+// ```js
 var rotate = function(matrix) {
     const cloneMartix = JSON.parse(JSON.stringify(matrix));
 
@@ -11,10 +11,10 @@ var rotate = function(matrix) {
         }
     }
 };
-```
+// ```
 
-先转置, 后逐行翻转🙃
-```js
+// 先转置, 后逐行翻转🙃
+// ```js
 var rotate = function(matrix) {
     for (let x = 0; x < matrix.length; x++) {
         for (let y = x; y < matrix.length; y++) {
@@ -31,4 +31,4 @@ var rotate = function(matrix) {
         matrix[x].reverse();
     }
 };
-```
+// ```

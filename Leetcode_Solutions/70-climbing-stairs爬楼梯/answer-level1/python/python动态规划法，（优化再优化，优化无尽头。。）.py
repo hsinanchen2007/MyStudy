@@ -1,9 +1,9 @@
-### 解题思路
-看了官方的动态规划法，发现自己之前就是个智障。。特此更改并记录
+# ### 解题思路
+# 看了官方的动态规划法，发现自己之前就是个智障。。特此更改并记录
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def climbStairs(self, n):
         """
@@ -14,4 +14,4 @@ class Solution(object):
         for i in range(4,n+1):
             l.append(l[i-1]+l[i-2])
         return l[n]
-```
+# ```

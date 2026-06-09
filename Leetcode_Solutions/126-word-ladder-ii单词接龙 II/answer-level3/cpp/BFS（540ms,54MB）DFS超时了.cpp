@@ -1,4 +1,4 @@
-```
+// ```
 private:
     bool canTrans(string const& s1, string const& s2) {
         if (s1.size() != s2.size()) return false;
@@ -61,31 +61,31 @@ vector<vector<string>> findLadders(string beginWord, string endWord, vector<stri
     }
     return res;
 }
-```
-public: //DFS 超时了
-    void findLaddersCore(const string& beginWord, const string& endWord, vector<string>& wordList, vector<string>& res, int curStep) {
-        if (beginWord == endWord) {
-            if (curStep <= minLen_) {
-                minLen_ = curStep;
-                res.push_back(beginWord);
-                ress_.push_back(res);
-                res.erase(res.end()-1);
-            }
-            return;
-        }
-        if (curStep > minLen_) return;
-        setS_.insert(beginWord);
-        res.push_back(beginWord);
-        for (auto word : wordList) {
-            if (setS_.find(word) == setS_.end() && 
-                canTrans(beginWord, word)) {
-                findLaddersCore(word, endWord, wordList, res, curStep+1);
-            }
-        }
-        res.erase(res.end()-1);
-        setS_.erase(beginWord);
-    }
-```
+// ```
+// public: //DFS 超时了
+//     void findLaddersCore(const string& beginWord, const string& endWord, vector<string>& wordList, vector<string>& res, int curStep) {
+//         if (beginWord == endWord) {
+//             if (curStep <= minLen_) {
+//                 minLen_ = curStep;
+//                 res.push_back(beginWord);
+//                 ress_.push_back(res);
+//                 res.erase(res.end()-1);
+//             }
+//             return;
+//         }
+//         if (curStep > minLen_) return;
+//         setS_.insert(beginWord);
+//         res.push_back(beginWord);
+//         for (auto word : wordList) {
+//             if (setS_.find(word) == setS_.end() && 
+//                 canTrans(beginWord, word)) {
+//                 findLaddersCore(word, endWord, wordList, res, curStep+1);
+//             }
+//         }
+//         res.erase(res.end()-1);
+//         setS_.erase(beginWord);
+//     }
+// ```
 代码块
-```
+// ```
 

@@ -1,11 +1,11 @@
-![2020032401.PNG](https://pic.leetcode-cn.com/9b2f7d8c98902686b22764edee42001d47e72c88f9b191f6cd307e641bdcde79-2020032401.PNG)
+// ![2020032401.PNG](https://pic.leetcode-cn.com/9b2f7d8c98902686b22764edee42001d47e72c88f9b191f6cd307e641bdcde79-2020032401.PNG)
 
-### 解题思路
-思路: 对字符串数组strs中的每个字符串进行排序, 再比较排序后的两个字符串是否相等, 进而找出字母异位词
+// ### 解题思路
+// 思路: 对字符串数组strs中的每个字符串进行排序, 再比较排序后的两个字符串是否相等, 进而找出字母异位词
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> out = new ArrayList<>();
@@ -56,4 +56,4 @@ class SortString{
         return map;
     }
 }
-```
+// ```

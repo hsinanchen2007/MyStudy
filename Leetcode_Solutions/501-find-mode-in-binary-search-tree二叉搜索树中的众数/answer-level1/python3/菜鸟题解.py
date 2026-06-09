@@ -1,14 +1,14 @@
-### 解题思路
-先广度遍历，统计所有元素出现的个数，存放于字典中；
-然后找到字典中values最大的值，并将其对应的key保存于list
+# ### 解题思路
+# 先广度遍历，统计所有元素出现的个数，存放于字典中；
+# 然后找到字典中values最大的值，并将其对应的key保存于list
 
-执行用时 :
-44 ms, 在所有 python3 提交中击败了100.00%的用户
-内存消耗 :
-16.6 MB, 在所有 python3 提交中击败了98.82%的用户
-### 代码
+# 执行用时 :
+# 44 ms, 在所有 python3 提交中击败了100.00%的用户
+# 内存消耗 :
+# 16.6 MB, 在所有 python3 提交中击败了98.82%的用户
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -41,4 +41,4 @@ class Solution:
             if v == m:
                 l.append(k) #将最多出现的元素加入到列表中
         return l
-```
+# ```

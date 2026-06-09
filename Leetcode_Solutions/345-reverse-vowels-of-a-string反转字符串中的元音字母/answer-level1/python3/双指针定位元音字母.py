@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def reverseVowels(self, s: str) -> str:
         alpha = list('aeiouAEIOU')
@@ -15,4 +15,4 @@ class Solution:
             i+=1
             j-=1
         return ''.join(s)
-```
+# ```

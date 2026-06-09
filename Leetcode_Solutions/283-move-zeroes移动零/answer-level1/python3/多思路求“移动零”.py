@@ -1,5 +1,5 @@
-**思路一：借助额外空间**
-```python
+# **思路一：借助额外空间**
+# ```python
 from typing import List
 
 class Solution:
@@ -21,13 +21,13 @@ class Solution:
             nums[i] = 0
 
         return nums
-```
-时间复杂度：O(n)
-空间复杂度：O(n)
+# ```
+# 时间复杂度：O(n)
+# 空间复杂度：O(n)
 
-**思路二：在原数组上操作，将非零元素依次复制到前 k 项**
+# **思路二：在原数组上操作，将非零元素依次复制到前 k 项**
 
-```python
+# ```python
 from typing import List
 
 class Solution:
@@ -51,13 +51,13 @@ class Solution:
             nums[j] = 0
             
         return nums
-```
-时间复杂度：O(n)
-空间复杂度：O(1)
+# ```
+# 时间复杂度：O(n)
+# 空间复杂度：O(1)
 
-**思路三：在原数组上操作，将非零元素与零元素交换位置**
+# **思路三：在原数组上操作，将非零元素与零元素交换位置**
 
-```python
+# ```python
 from typing import List
 
 class Solution:
@@ -82,6 +82,6 @@ class Solution:
             i += 1
 
         return nums
-```
-时间复杂度：O(n)
-空间复杂度：O(1)
+# ```
+# 时间复杂度：O(n)
+# 空间复杂度：O(1)

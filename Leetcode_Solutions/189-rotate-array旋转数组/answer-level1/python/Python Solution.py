@@ -1,8 +1,8 @@
-### 解题思路
-Like a queue, FIFO:First-in first-out
-### 代码
+# ### 解题思路
+# Like a queue, FIFO:First-in first-out
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def rotate(self, nums, k):
         """
@@ -13,4 +13,4 @@ class Solution(object):
         for i in range(k):
             nums.insert(0,nums.pop())
         return nums
-```
+# ```

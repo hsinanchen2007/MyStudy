@@ -1,12 +1,12 @@
-### 解题思路
-找A中的最大值的位置maxpos，若最大值有重复，则一定不满足山脉数数组。
-即山脉数组的最大值一定唯一，且其位置不在开头或者末尾
-如果maxpos != 0 && maxpos != A.size()-1 && A[0] != max &&countmax == 1，返回true
-否则返回false
+// ### 解题思路
+// 找A中的最大值的位置maxpos，若最大值有重复，则一定不满足山脉数数组。
+// 即山脉数组的最大值一定唯一，且其位置不在开头或者末尾
+// 如果maxpos != 0 && maxpos != A.size()-1 && A[0] != max &&countmax == 1，返回true
+// 否则返回false
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validMountainArray(vector<int>& A) {
@@ -39,4 +39,4 @@ public:
             return false;
     }
 };
-```
+// ```

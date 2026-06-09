@@ -1,9 +1,9 @@
-![奇怪的知识增加了.jpg](https://pic.leetcode-cn.com/eb3d59398bcbfcde274b9ea9b2725584546a1603a808922f71d974421a510a41-%E5%A5%87%E6%80%AA%E7%9A%84%E7%9F%A5%E8%AF%86%E5%A2%9E%E5%8A%A0%E4%BA%86.jpg)
+// ![奇怪的知识增加了.jpg](https://pic.leetcode-cn.com/eb3d59398bcbfcde274b9ea9b2725584546a1603a808922f71d974421a510a41-%E5%A5%87%E6%80%AA%E7%9A%84%E7%9F%A5%E8%AF%86%E5%A2%9E%E5%8A%A0%E4%BA%86.jpg)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     //用贪心算法来求解
     public int cuttingRope(int n) {
@@ -18,4 +18,4 @@ class Solution {
         return (int) ((res * n) % 1000000007);
     }
 }
-```
+// ```

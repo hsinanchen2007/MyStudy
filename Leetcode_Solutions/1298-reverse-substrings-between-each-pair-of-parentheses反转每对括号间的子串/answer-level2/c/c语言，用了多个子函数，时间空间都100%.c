@@ -1,6 +1,6 @@
-初学者，比较规规矩矩😂😂
+// 初学者，比较规规矩矩😂😂
 
-```
+// ```
 
 //入栈为字符串
 typedef struct stack{
@@ -109,4 +109,4 @@ char * reverseParentheses(char * s){
 
     return news;
 }
-```
+// ```

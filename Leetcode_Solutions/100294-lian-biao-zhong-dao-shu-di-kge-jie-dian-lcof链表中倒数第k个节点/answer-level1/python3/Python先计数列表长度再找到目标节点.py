@@ -1,9 +1,9 @@
-### 解题思路
-先遍历链表计算长度，再从头找出目标节点。
+# ### 解题思路
+# 先遍历链表计算长度，再从头找出目标节点。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             node = node.next
             n -= 1
         return node
-```
+# ```

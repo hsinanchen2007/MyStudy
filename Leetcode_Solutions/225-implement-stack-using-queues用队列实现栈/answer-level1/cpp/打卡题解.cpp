@@ -1,9 +1,9 @@
-### 解题思路
-打卡打卡
+// ### 解题思路
+// 打卡打卡
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -60,4 +60,4 @@ private:
  * int param_3 = obj->top();
  * bool param_4 = obj->empty();
  */
-```![20200301224724.png](https://pic.leetcode-cn.com/cf786452bb0606a3ef71eef25f37feb763305ccbce5e96183e24442ee18d52a6-20200301224724.png)
+// ```![20200301224724.png](https://pic.leetcode-cn.com/cf786452bb0606a3ef71eef25f37feb763305ccbce5e96183e24442ee18d52a6-20200301224724.png)

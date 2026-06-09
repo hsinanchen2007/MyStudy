@@ -1,9 +1,9 @@
-### 解题思路
-pa, pb 同时走，如果pa到头， 就把pa放到headB，再同时走； 如果pb到头就放到headA，再同时走，只要有交点，总会相遇的。如果没有焦点，pa == pb == NULL，退v出。
+// ### 解题思路
+// pa, pb 同时走，如果pa到头， 就把pa放到headB，再同时走； 如果pb到头就放到headA，再同时走，只要有交点，总会相遇的。如果没有焦点，pa == pb == NULL，退v出。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -23,4 +23,4 @@ public:
         return pa;          // 不需要边界处理， 没有焦点， pa就是NULL
     }
 };
-```
+// ```

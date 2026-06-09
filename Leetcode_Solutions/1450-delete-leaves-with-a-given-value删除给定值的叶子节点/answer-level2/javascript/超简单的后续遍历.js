@@ -1,9 +1,9 @@
-### 解题思路
-对这种删除类的题，就记住一点，后续遍历，处理完子树再处理当前结点。
+// ### 解题思路
+// 对这种删除类的题，就记住一点，后续遍历，处理完子树再处理当前结点。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -26,4 +26,4 @@ var removeLeafNodes = function(root, target) {
     return root
 
 };
-```
+// ```

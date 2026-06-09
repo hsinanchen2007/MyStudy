@@ -1,9 +1,9 @@
-### 解题思路
-深度优先遍历 如果先转string 性能应该不会那么差
+// ### 解题思路
+// 深度优先遍历 如果先转string 性能应该不会那么差
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -22,4 +22,4 @@ var permute = function(nums) {
     dfs(nums, [])
     return ans
 }
-```
+// ```

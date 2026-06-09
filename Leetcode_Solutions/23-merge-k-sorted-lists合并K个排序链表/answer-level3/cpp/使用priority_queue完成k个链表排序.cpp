@@ -1,6 +1,6 @@
-自定义ListNode*的比较函数，使得ListNode*按照val的大小排序，priority_queue在push时排序。
+// 自定义ListNode*的比较函数，使得ListNode*按照val的大小排序，priority_queue在push时排序。
 
-```
+// ```
 class Solution {
 public:
     struct cmp {
@@ -29,4 +29,4 @@ public:
         return res->next;
     }
 };
-```
+// ```

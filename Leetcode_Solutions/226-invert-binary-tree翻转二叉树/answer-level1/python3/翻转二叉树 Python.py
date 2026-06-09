@@ -1,18 +1,18 @@
-### 方法一: 递归
+# ### 方法一: 递归
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode:
         if root == None:
             return None
         root.right, root.left = self.invertTree(root.left), self.invertTree(root.right) 
         return root
-```
-### 方法二: 迭代
+# ```
+# ### 方法二: 迭代
 
-```python
+# ```python
 class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode:
         if root == None: return None
@@ -25,4 +25,4 @@ class Solution:
             if cur.right: queue.append(cur.right)
         return root
 # 所以实际上通过循环, 树会按层被加入队列,然后从上之下交换左右节点
-```
+# ```

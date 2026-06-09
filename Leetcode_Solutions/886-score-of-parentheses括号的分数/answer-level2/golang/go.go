@@ -1,4 +1,4 @@
- ```
+//  ```
 func scoreOfParentheses(S string) int {
 	o, c := 0, uint(0)
 	for i, b := range []byte(S) {
@@ -13,4 +13,4 @@ func scoreOfParentheses(S string) int {
 	}
 	return o
 }
-```
+// ```

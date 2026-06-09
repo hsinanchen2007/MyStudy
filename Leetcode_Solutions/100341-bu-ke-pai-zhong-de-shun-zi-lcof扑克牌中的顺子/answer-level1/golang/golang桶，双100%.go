@@ -1,9 +1,9 @@
-### 解题思路
-关键点是不能有重复数字，且最大最小数字之差不能大于4（不包含0）
+// ### 解题思路
+// 关键点是不能有重复数字，且最大最小数字之差不能大于4（不包含0）
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isStraight(nums []int) bool {
     bucket := make([]bool,14)
     start := 14
@@ -27,4 +27,4 @@ func isStraight(nums []int) bool {
     }
     return true
 }
-```
+// ```

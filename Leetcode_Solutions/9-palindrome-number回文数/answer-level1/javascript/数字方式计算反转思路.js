@@ -1,5 +1,5 @@
-### 解题思路
-```bash
+// ### 解题思路
+// ```bash
 1. 转成字符串(题目希望有别的方式)
 2. 数字反转 结果rv
   判断x<0肯定不是回文整数
@@ -7,10 +7,10 @@
   拿个位tmp, rv = rv * 10 + tmp
   ...
   rv === x即反转后的和原整数相等，就可以判断出是回文了
-```
-### 代码
+// ```
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {boolean}
@@ -29,4 +29,4 @@ var isPalindrome = function(x) {
   }
   return rv === x
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-Hash表的简单应用。
+// ### 解题思路
+// Hash表的简单应用。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define max(a, b) a > b ? a : b
 
 #define min(a, b) a < b ? a : b
@@ -89,4 +89,4 @@ int findMaxLength(int *nums, int numsSize) {
 
   return value;
 }
-```
+// ```

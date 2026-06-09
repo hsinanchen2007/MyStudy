@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def __init__(self):
         self.total = 0
@@ -23,4 +23,4 @@ class Solution:
             if root.right:
                 self.sumEvenGrandparent(root.right)
         return self.total
-```
+# ```

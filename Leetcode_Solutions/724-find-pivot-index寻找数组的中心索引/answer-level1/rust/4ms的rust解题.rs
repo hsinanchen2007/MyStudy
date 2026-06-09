@@ -1,4 +1,4 @@
-```
+// ```
 impl Solution {
     pub fn pivot_index(nums: Vec<i32>) -> i32 {
         let sum: i32 = nums.iter().sum();
@@ -12,4 +12,4 @@ impl Solution {
         return -1;
     }
 }
-```
+// ```

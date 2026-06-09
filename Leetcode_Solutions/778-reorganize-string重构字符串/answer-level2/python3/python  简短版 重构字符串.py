@@ -1,10 +1,10 @@
-将字符按字符数排序。
-如果最多的字符占了半数以上，返回空，
-如果总字符数是偶数，将排序后的字符分为前后两半，交叉得出结果
-如果为奇数，将前后两半交叉，再加上最中间的字符。
+# 将字符按字符数排序。
+# 如果最多的字符占了半数以上，返回空，
+# 如果总字符数是偶数，将排序后的字符分为前后两半，交叉得出结果
+# 如果为奇数，将前后两半交叉，再加上最中间的字符。
 
 
-```python []
+# ```python []
 class Solution:
     def reorganizeString(self, S: str) -> str:
 
@@ -16,14 +16,14 @@ class Solution:
         else:
             return ''.join(j for i in zip(lst, lst[n:]) for j in i) + ['', lst[n - 1]][len(S) % 2]
 
-```
+# ```
 
 
 
-常规版：
+# 常规版：
 
-'''
-```
+# '''
+# ```
 class Solution:
     def reorganizeString(self, S: str) -> str:
         
@@ -41,4 +41,4 @@ class Solution:
             s[i*2+1]=a[i]
             
         return ''.join(s)
-```
+# ```

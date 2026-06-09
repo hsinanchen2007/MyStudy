@@ -1,7 +1,7 @@
-思路1：
-如果两个点不在同一条直线上就尽量先走对角线
-flag1,flag2代表x,y向那个方向移动右正左负，上正下负
-```c++
+// 思路1：
+// 如果两个点不在同一条直线上就尽量先走对角线
+// flag1,flag2代表x,y向那个方向移动右正左负，上正下负
+// ```c++
 class Solution {
 public:
     int minTimeToVisitAllPoints(vector<vector<int>>& points) {
@@ -35,10 +35,10 @@ public:
         return res;
     }
 };
-```
-思路2：
-分析可以发现最小距离就是两个点的横坐标和纵坐标的最大差值的和
-```c++
+// ```
+// 思路2：
+// 分析可以发现最小距离就是两个点的横坐标和纵坐标的最大差值的和
+// ```c++
 class Solution {
 public:
     int minTimeToVisitAllPoints(vector<vector<int>>& points) {
@@ -52,4 +52,4 @@ public:
         return ans;
     }
 };
-```
+// ```

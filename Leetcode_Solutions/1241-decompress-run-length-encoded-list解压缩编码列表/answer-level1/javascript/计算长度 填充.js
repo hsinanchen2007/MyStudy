@@ -1,9 +1,9 @@
-### 解题思路
-见代码
+// ### 解题思路
+// 见代码
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
@@ -27,4 +27,4 @@ var decompressRLElist = function(nums) {
 		
 	return result;
 };
-```
+// ```

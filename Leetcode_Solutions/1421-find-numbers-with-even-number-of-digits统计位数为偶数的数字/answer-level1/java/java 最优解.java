@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int findNumbers(int[] nums) {
         int count = 0;
@@ -19,4 +19,4 @@ class Solution {
         return place;
     }
 }
-```
+// ```

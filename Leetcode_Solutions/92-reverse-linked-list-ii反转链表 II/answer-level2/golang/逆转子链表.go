@@ -1,9 +1,9 @@
-### 解题思路
-找到第m个节点，以此节点开头，翻转n-m个节点，同时衔接首尾
+// ### 解题思路
+// 找到第m个节点，以此节点开头，翻转n-m个节点，同时衔接首尾
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -46,4 +46,4 @@ func reverseSubList(p *ListNode, count int) *ListNode {
 	return prev
 }
 
-```
+// ```

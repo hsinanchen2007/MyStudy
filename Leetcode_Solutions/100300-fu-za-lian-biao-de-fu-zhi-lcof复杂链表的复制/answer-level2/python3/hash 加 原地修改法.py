@@ -1,4 +1,4 @@
-```
+# ```
 1. 先复制简单的链表，搁置random；用hashmap建立旧的节点与新的节点之间的映射关系；遍历赋值新的random链表
 2. 就地在原来链表的后方重复复制一份，利用node.next.random = node.random.next的特性赋值random；最后拆分两个链表
 # Definition for a Node.
@@ -79,4 +79,4 @@ if __name__ == "__main__":
     print(newn.next.val, newn.random.val)
     new_head = Solution().inplaceCopyRandom(n1)
     print(new_head.next.val, new_head.random.val)
-```
+# ```

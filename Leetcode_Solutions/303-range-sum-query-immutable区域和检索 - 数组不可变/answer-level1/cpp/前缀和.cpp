@@ -1,10 +1,10 @@
-### 解题思路
-f[i] 表示 前i个数的和，前i个数，下标为i-1
-所以求i-j为：f[j+1] - f[i]
+// ### 解题思路
+// f[i] 表示 前i个数的和，前i个数，下标为i-1
+// 所以求i-j为：f[j+1] - f[i]
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class NumArray {
 public:
     vector<int> f;
@@ -25,4 +25,4 @@ public:
  * NumArray* obj = new NumArray(nums);
  * int param_1 = obj->sumRange(i,j);
  */
-```
+// ```

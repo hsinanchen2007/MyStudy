@@ -1,11 +1,11 @@
-### 解题思路
-其实就是利用了递归完成了算法的实现
-一开始就是链表末尾，也就是个位
-个位相加大于等于10进1，小于10就进行下一位的计算
+// ### 解题思路
+// 其实就是利用了递归完成了算法的实现
+// 一开始就是链表末尾，也就是个位
+// 个位相加大于等于10进1，小于10就进行下一位的计算
 
-### 代码
-#### go版本
-``` go
+// ### 代码
+// #### go版本
+// ``` go
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -32,10 +32,10 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
     return &ListNode{Val:sum - 10, Next:addTwoNumbers(nextNode, tempNode)}
   }
 }
-```
+// ```
 
-#### java版本
-```java
+// #### java版本
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -69,4 +69,4 @@ class Solution {
       }
     }
 }
-```
+// ```

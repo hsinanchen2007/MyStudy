@@ -1,9 +1,9 @@
-### 解题思路
-均摊时间复杂度, 学到了
+// ### 解题思路
+// 均摊时间复杂度, 学到了
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var MaxQueue = function() {
     this.queue = []
     this.maxQueue = []
@@ -54,4 +54,4 @@ MaxQueue.prototype.pop_front = function() {
  * obj.push_back(value)
  * var param_3 = obj.pop_front()
  */
-```
+// ```

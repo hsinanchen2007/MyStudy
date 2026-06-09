@@ -1,9 +1,9 @@
-1. 解题思路
-对数组进行排序，以便跳过重复的数；
-![新建 Microsoft Visio Drawing.jpg](https://pic.leetcode-cn.com/feca485cdd1a60b9fbc57b18249306ae4cfa3c3f8abf797d34766753cb8c5106-%E6%96%B0%E5%BB%BA%20Microsoft%20Visio%20Drawing.jpg)
-剪枝：需要记录同级调用排列函数中前一个出现的数pre，当再次回到此级调用排列函数时，即将排列的数与pre进行比较，若相同，则跳过该数执行。
-2. 
-```
+// 1. 解题思路
+// 对数组进行排序，以便跳过重复的数；
+// ![新建 Microsoft Visio Drawing.jpg](https://pic.leetcode-cn.com/feca485cdd1a60b9fbc57b18249306ae4cfa3c3f8abf797d34766753cb8c5106-%E6%96%B0%E5%BB%BA%20Microsoft%20Visio%20Drawing.jpg)
+// 剪枝：需要记录同级调用排列函数中前一个出现的数pre，当再次回到此级调用排列函数时，即将排列的数与pre进行比较，若相同，则跳过该数执行。
+// 2. 
+// ```
 class Solution {
     private List<List<Integer>> res = new LinkedList<>();
     public List<List<Integer>> permuteUnique(int[] nums) {
@@ -36,4 +36,4 @@ class Solution {
         }
     }
 }
-```
+// ```

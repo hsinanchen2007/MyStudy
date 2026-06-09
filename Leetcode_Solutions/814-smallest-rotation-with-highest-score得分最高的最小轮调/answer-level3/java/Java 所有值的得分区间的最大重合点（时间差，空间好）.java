@@ -1,5 +1,5 @@
-![Screen Shot 2019-12-02 at 11.56.59 PM.png](https://pic.leetcode-cn.com/6ababf3513d756e83fc609c51d0da27b86b18ec50a5650f4f5876b807aada8e3-Screen%20Shot%202019-12-02%20at%2011.56.59%20PM.png)
-```
+// ![Screen Shot 2019-12-02 at 11.56.59 PM.png](https://pic.leetcode-cn.com/6ababf3513d756e83fc609c51d0da27b86b18ec50a5650f4f5876b807aada8e3-Screen%20Shot%202019-12-02%20at%2011.56.59%20PM.png)
+// ```
 class Solution {
     public int bestRotation(int[] A) {
         int ans=0;
@@ -28,4 +28,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

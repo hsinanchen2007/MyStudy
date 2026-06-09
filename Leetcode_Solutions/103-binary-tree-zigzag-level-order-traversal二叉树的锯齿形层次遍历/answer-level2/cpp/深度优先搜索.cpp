@@ -1,9 +1,9 @@
-### 解题思路
-深度优先搜索
+// ### 解题思路
+// 深度优先搜索
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
         dfs(root->right,deepth+1);
     }
 };
-```
+// ```

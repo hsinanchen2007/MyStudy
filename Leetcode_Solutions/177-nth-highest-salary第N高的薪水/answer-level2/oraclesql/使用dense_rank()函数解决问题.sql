@@ -1,5 +1,5 @@
 
-```oracle[]
+-- ```oracle[]
 CREATE FUNCTION getNthHighestSalary(N IN NUMBER) RETURN NUMBER IS
 result NUMBER;
 BEGIN
@@ -10,4 +10,4 @@ BEGIN
     where tmp.rank_=N;
     RETURN result;
 END;
-```
+-- ```

@@ -1,8 +1,8 @@
-### 解题思路
-对每一个元素，考虑加入数组或者不加入数组
-### 代码
+// ### 解题思路
+// 对每一个元素，考虑加入数组或者不加入数组
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void search(vector<int>& nums, int begin, int end, vector<int> &tmp, vector<vector<int>> &res)
@@ -26,4 +26,4 @@ public:
 
     }
 };
-```
+// ```

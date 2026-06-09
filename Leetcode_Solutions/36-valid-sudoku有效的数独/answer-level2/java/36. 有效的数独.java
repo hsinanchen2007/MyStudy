@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/11/7
- * 
- * 解题思路: hash 暴力解决 什么一次遍历的无非是空间换时间 问题不大(由于维数不变 所以时间都是O(1))
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/11/7
+//  * 
+//  * 解题思路: hash 暴力解决 什么一次遍历的无非是空间换时间 问题不大(由于维数不变 所以时间都是O(1))
+//  * 
+//  */
+// ```
 public boolean isValidSudoku(char[][] board) {
     int[] hash_row = new int[9];
     int[] hash_col = new int[9];
@@ -57,4 +57,4 @@ public boolean isValidSudoku(char[][] board) {
 
     return true;
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-采用最暴力的做法，对当前的数i双向遍历即可
-时间复杂度O(N2)
+// ### 解题思路
+// 采用最暴力的做法，对当前的数i双向遍历即可
+// 时间复杂度O(N2)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
@@ -34,4 +34,4 @@ public:
 
     }
 };
-```
+// ```

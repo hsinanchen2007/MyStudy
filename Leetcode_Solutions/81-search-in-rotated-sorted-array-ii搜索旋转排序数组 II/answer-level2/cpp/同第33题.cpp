@@ -1,9 +1,9 @@
-### 解题思路
-先查找旋转后的分界点，然后分别对两边进行二分查找
+// ### 解题思路
+// 先查找旋转后的分界点，然后分别对两边进行二分查找
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool search(vector<int>& nums, int target) {
@@ -30,4 +30,4 @@ public:
         return false;
     }
 };
-```
+// ```

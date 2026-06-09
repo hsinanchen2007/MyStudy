@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/f5fea2d821b494c3b1d9220c9ab8ed81698a4c2d47f40256ad28c4a9ad8fbbd4-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f5fea2d821b494c3b1d9220c9ab8ed81698a4c2d47f40256ad28c4a9ad8fbbd4-image.png)
 
-代码及注释如下：
-```
+// 代码及注释如下：
+// ```
 class Solution {
     List<List<Integer>> result=new LinkedList<List<Integer>>();
     public final List<List<Integer>> subsets(int[] nums) {
@@ -34,4 +34,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,15 +1,15 @@
-### 解题思路
-![QQ截图20200326170706.png](https://pic.leetcode-cn.com/f0a29831972a6c22c0889204d7e77906686cc757ba0ed16bf7e06a1ed8d23b3d-QQ%E6%88%AA%E5%9B%BE20200326170706.png)
-此处撰写解题思路
+// ### 解题思路
+// ![QQ截图20200326170706.png](https://pic.leetcode-cn.com/f0a29831972a6c22c0889204d7e77906686cc757ba0ed16bf7e06a1ed8d23b3d-QQ%E6%88%AA%E5%9B%BE20200326170706.png)
+// 此处撰写解题思路
 
-算法步骤：
-1. 预处理，start中存x小的，x相同时，存y小的;
-2. 斜率不存在： a. 两个都不存在 b. 一个存在
-3. 斜率存在：a. 斜率相等 b. 斜率不相等
+// 算法步骤：
+// 1. 预处理，start中存x小的，x相同时，存y小的;
+// 2. 斜率不存在： a. 两个都不存在 b. 一个存在
+// 3. 斜率存在：a. 斜率相等 b. 斜率不相等
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<double> intersection(vector<int>& start1, vector<int>& end1, vector<int>& start2, vector<int>& end2) {
@@ -79,4 +79,4 @@ public:
         return {k, b};
     }
 };
-```
+// ```

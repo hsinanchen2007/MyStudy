@@ -1,9 +1,9 @@
 
-###注释
-一开始没搞懂,最后的那个输入是什么意思,最后理解了return是输出数组中不重复元素的个数,然后只要把不重复的数据放在数据的最前面就好了.
-### 代码
+// ###注释
+// 一开始没搞懂,最后的那个输入是什么意思,最后理解了return是输出数组中不重复元素的个数,然后只要把不重复的数据放在数据的最前面就好了.
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
     int n =nums.length;
@@ -17,4 +17,4 @@ class Solution {
       return count+1;
        }
     }
-```
+// ```

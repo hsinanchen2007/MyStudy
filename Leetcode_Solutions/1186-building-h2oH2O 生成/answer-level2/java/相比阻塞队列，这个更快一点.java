@@ -1,4 +1,4 @@
-```java
+// ```java
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -36,4 +36,4 @@ class H2O {
         oEvent.set(1);
     }
 }
-```
+// ```

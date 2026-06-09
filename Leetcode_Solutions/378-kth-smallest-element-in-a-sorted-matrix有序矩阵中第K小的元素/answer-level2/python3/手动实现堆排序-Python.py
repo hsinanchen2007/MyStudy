@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
         #此题方法和23. 合并K个排序链表 相似
@@ -48,4 +48,4 @@ class Solution:
                 adjustHeap(heap,0,len(heap))
                 
         return matrix[heap[0][0]][heap[0][1]]
-```
+# ```

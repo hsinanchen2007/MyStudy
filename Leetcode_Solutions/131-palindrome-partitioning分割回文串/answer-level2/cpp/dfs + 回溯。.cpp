@@ -1,12 +1,12 @@
-# 解答
-dfs + 回溯。
+// # 解答
+// dfs + 回溯。
 
-图例：（字丑勿怪）
+// 图例：（字丑勿怪）
 
-![在这里插入图片描述](https://pic.leetcode-cn.com/b61250ca0f4a19010dc64fe1523d40e323cdb75ffaa41f05c56a0b7a5f315a4d.png)
+// ![在这里插入图片描述](https://pic.leetcode-cn.com/b61250ca0f4a19010dc64fe1523d40e323cdb75ffaa41f05c56a0b7a5f315a4d.png)
 
-代码：
-```cpp
+// 代码：
+// ```cpp
 class Solution {
 public:
     bool isRight( string& s, int begin, int end){
@@ -41,4 +41,4 @@ public:
         return result;
     }
 };
-```
+// ```

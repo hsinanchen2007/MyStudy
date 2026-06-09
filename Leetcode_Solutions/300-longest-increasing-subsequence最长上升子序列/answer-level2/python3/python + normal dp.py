@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         if nums == []: return 0
@@ -8,4 +8,4 @@ class Solution:
                 if nums[j] < nums[i]:
                     dp[i] = max(dp[j] + 1, dp[i])
         return max(dp)
-```
+# ```

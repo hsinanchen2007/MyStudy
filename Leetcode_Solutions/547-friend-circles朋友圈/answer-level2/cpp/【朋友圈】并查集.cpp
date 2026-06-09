@@ -1,9 +1,9 @@
-### 思路
-1. 学习并查集的使用
+// ### 思路
+// 1. 学习并查集的使用
 
 
-### 模板
-```cpp
+// ### 模板
+// ```cpp
 struct DSU
 {
     std::vector<int> data;
@@ -32,10 +32,10 @@ struct DSU
 
     int size(int x) { return -data[root(x)]; }
 };
-```
+// ```
 
-### 答题
-```cpp
+// ### 答题
+// ```cpp
 class Solution {
 public:
     int findCircleNum(vector<vector<int>>& M) 
@@ -54,13 +54,13 @@ public:
         return ans;
     }
 };
-```
+// ```
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 
 

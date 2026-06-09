@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isSubPath(ListNode* head, TreeNode* root) {//不能直接用isSubPath递归，必须先isSame，因为链表中间断开也符合
@@ -13,4 +13,4 @@ public:
         return isSame(head->next,root->left)||isSame(head->next,root->right);
     }
 };
-```
+// ```

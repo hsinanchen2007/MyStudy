@@ -1,6 +1,6 @@
-[Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_461_hammingDistance.java)
+// [Leetcode-Java(200+题解，持续更新、欢迎star)](https://github.com/pphdsny/Leetcode-Java/blob/master/src/pp/arithmetic/leetcode/_461_hammingDistance.java)
 
-```java
+// ```java
     /**
      * 解题思路：
      * 1.x^y做异或操作，得到的结果中不同位置都是1
@@ -54,4 +54,4 @@
         return Integer.bitCount(x ^ y);
     }
 
-```
+// ```

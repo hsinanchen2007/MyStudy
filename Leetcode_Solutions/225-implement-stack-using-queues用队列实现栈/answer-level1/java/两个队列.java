@@ -1,9 +1,9 @@
-### 解题思路
-用两个队列，加入时若第一个队列不为空先把所有元素弹出并加入第二个队列，然后把要加入的元素加入第一个队列后再把第二个队列元素全部加入第一个元素
+// ### 解题思路
+// 用两个队列，加入时若第一个队列不为空先把所有元素弹出并加入第二个队列，然后把要加入的元素加入第一个队列后再把第二个队列元素全部加入第一个元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyStack {
      LinkedList<Integer> list1 = new LinkedList<>();
 	LinkedList<Integer> list2 = new LinkedList<>();
@@ -60,4 +60,4 @@ class MyStack {
  * int param_3 = obj.top();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

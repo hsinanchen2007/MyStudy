@@ -1,5 +1,5 @@
-剪枝：先对数组进行排序，当前递归中如果值大于要找的target，则直接结束。因为后面的值更大，不可能满足要求。
-```
+// 剪枝：先对数组进行排序，当前递归中如果值大于要找的target，则直接结束。因为后面的值更大，不可能满足要求。
+// ```
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> resultList = new ArrayList<>();
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

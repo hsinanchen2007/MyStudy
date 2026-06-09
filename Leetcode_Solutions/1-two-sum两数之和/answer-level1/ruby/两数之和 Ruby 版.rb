@@ -1,18 +1,18 @@
 
-1. 暴力法
+# 1. 暴力法
 
-```ruby
+# ```ruby
 def two_sum(nums, target)
   nums.each_with_index do |e, i|
     pi = nums.index(target - e)
     return [i, pi] if pi && pi != i
   end
 end
-```
+# ```
 
-2. 哈希
+# 2. 哈希
 
-```ruby 
+# ```ruby 
 def two_sum(nums, target)
    map = {}
 
@@ -21,4 +21,4 @@ def two_sum(nums, target)
     map[target - e] = i
    end
 end
-```
+# ```

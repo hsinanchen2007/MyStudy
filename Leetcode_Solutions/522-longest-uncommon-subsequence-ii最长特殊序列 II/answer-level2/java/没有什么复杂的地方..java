@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int findLUSlength(String[] strs) {
         boolean[] flags = new boolean[strs.length];
@@ -40,4 +40,4 @@ class Solution {
     }
 }
 
-```
+// ```

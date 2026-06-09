@@ -1,9 +1,9 @@
-### 解题思路
-使用map计数，然后找出值为1的key即可。
+// ### 解题思路
+// 使用map计数，然后找出值为1的key即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func singleNumber(nums []int) int {
     md := make(map[int]int)
     for _, v := range nums {
@@ -18,4 +18,4 @@ func singleNumber(nums []int) int {
 
     return -1
 }
-```
+// ```

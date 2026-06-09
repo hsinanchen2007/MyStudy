@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-用一个数组存 右边最大的数，然后一个for循环 更新左边最大的数
+// 用一个数组存 右边最大的数，然后一个for循环 更新左边最大的数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
         int n = height.length;
@@ -28,4 +28,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

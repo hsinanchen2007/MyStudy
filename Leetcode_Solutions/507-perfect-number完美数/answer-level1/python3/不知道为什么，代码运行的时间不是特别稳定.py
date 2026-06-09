@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def checkPerfectNumber(self, num: int) -> bool:
         if(num <= 1):
@@ -15,4 +15,4 @@ class Solution:
             sum += i;
         sum += 1;
         return sum == num
-```
+# ```

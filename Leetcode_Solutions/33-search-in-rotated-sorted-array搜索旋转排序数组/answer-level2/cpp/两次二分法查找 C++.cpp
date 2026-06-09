@@ -1,9 +1,9 @@
-### 解题思路
-第一次二分法查找旋转点，将原数组分割成两部分，确定搜索的目标位于前半部分还是在后半部分，再使用二分法在确定的区间内搜索目标。
+// ### 解题思路
+// 第一次二分法查找旋转点，将原数组分割成两部分，确定搜索的目标位于前半部分还是在后半部分，再使用二分法在确定的区间内搜索目标。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -68,5 +68,5 @@ public:
         return -1;
     }
 };
-```
-![微信截图_20200406225027.png](https://pic.leetcode-cn.com/e7ff5a93ce539fae3497964122f7483f22e00a4a9a382bfe940c61dd7fd61380-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200406225027.png)
+// ```
+// ![微信截图_20200406225027.png](https://pic.leetcode-cn.com/e7ff5a93ce539fae3497964122f7483f22e00a4a9a382bfe940c61dd7fd61380-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200406225027.png)

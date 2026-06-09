@@ -1,9 +1,9 @@
-### 解题思路
-我的想法是空间换时间，空间采用的是哈希表，这种方法不大好，不能说是O(1)空间复杂度。执行nums.erase(it)这句的时候it会变成野指针，需要重新定位。
+// ### 解题思路
+// 我的想法是空间换时间，空间采用的是哈希表，这种方法不大好，不能说是O(1)空间复杂度。执行nums.erase(it)这句的时候it会变成野指针，需要重新定位。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
         return nums.size();
     }
 };
-```
+// ```

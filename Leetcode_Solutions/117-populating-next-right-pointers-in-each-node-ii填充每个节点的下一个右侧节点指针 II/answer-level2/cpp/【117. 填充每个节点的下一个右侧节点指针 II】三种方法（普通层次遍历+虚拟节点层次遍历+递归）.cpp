@@ -1,6 +1,6 @@
-## 思路一：层次遍历
-### 代码
-```c++
+// ## 思路一：层次遍历
+// ### 代码
+// ```c++
 class Solution {
 public:
     Node* connect(Node* root) {
@@ -32,9 +32,9 @@ public:
         return root;
     }
 };
-```
-### 另一种写法
-```c++
+// ```
+// ### 另一种写法
+// ```c++
 class Solution {
 public:
     Node* connect(Node* root) {        
@@ -57,13 +57,13 @@ public:
         return root;
     }
 };
-```
+// ```
 
-## 思路二：不使用queue层次遍历
-设置一个虚拟节点，使其next指针指向每层第一个节点。
-### 代码
-常量级额外空间
-```c++
+// ## 思路二：不使用queue层次遍历
+// 设置一个虚拟节点，使其next指针指向每层第一个节点。
+// ### 代码
+// 常量级额外空间
+// ```c++
 class Solution {
 public:
     Node* connect(Node* root) {
@@ -87,11 +87,11 @@ public:
         return head;
     }
 };
-```
+// ```
 
-## 思路三：递归
-### 代码
-```c++
+// ## 思路三：递归
+// ### 代码
+// ```c++
 class Solution {
 public:
     Node* connect(Node* root) {        
@@ -117,6 +117,6 @@ public:
         }        
     }
 };
-```
+// ```
 
 

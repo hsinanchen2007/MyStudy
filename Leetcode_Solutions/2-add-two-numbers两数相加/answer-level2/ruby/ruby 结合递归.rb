@@ -1,6 +1,6 @@
 
-利用`ruby`和`递归`可以把写非常少的代码既可以解决问题，有什么更好的写法欢迎指出
-```ruby
+# 利用`ruby`和`递归`可以把写非常少的代码既可以解决问题，有什么更好的写法欢迎指出
+# ```ruby
 def add_two_numbers(l1, l2, carry = 0, arr = [])
   if l1 || l2 || !carry.zero?
     sum = (l1&.val || 0) + (l2&.val || 0) + carry
@@ -11,4 +11,4 @@ def add_two_numbers(l1, l2, carry = 0, arr = [])
     return arr
   end
 end
-```
+# ```

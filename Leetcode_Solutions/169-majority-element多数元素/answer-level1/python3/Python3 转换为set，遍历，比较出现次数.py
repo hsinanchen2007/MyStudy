@@ -1,5 +1,5 @@
-set是集合，集合的特点是不包含重复元素。
-```Python
+# set是集合，集合的特点是不包含重复元素。
+# ```Python
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         # 最小次数
@@ -10,4 +10,4 @@ class Solution:
         for i in set_nums:
             if nums.count(i) > min_times:
                 return i
-```
+# ```

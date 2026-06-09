@@ -1,5 +1,5 @@
-多注意临界点
-```
+// 多注意临界点
+// ```
 function search($nums, $target) {
     if(count($nums) == 0) return -1;
     if(count($nums) == 1) return $nums[0]==$target?0:-1;
@@ -24,4 +24,4 @@ function search($nums, $target) {
     }
     return -1;
 }
-```
+// ```

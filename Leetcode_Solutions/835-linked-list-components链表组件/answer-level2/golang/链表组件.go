@@ -1,9 +1,9 @@
-### 解题思路
-使用集合.
+// ### 解题思路
+// 使用集合.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -40,4 +40,4 @@ func numComponents(head *ListNode, G []int) int {
 	return num
 }
 
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class ConSum     //用构造函数实现
 {
 public:
@@ -26,4 +26,4 @@ public:
 	return ConSum::GetSum();   //访问静态成员函数必须用域作用符
     }
 };
-```
+// ```

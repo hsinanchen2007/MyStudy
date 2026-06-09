@@ -1,15 +1,15 @@
-排序，然后找空插入，记录插入点
-执行用时 :
-68 ms
-, 在所有 C 提交中击败了
-81.91%
-的用户
-内存消耗 :
-8.8 MB
-, 在所有 C 提交中击败了
-100.00%
-的用户
-```
+// 排序，然后找空插入，记录插入点
+// 执行用时 :
+// 68 ms
+// , 在所有 C 提交中击败了
+// 81.91%
+// 的用户
+// 内存消耗 :
+// 8.8 MB
+// , 在所有 C 提交中击败了
+// 100.00%
+// 的用户
+// ```
 int cmp(const void *a, const void *b) {
     const int l = *(int *)a;
     const int r = *(int *)b;
@@ -45,4 +45,4 @@ int minIncrementForUnique(int* A, int ASize){
     }
     return count;
 }
-```
+// ```

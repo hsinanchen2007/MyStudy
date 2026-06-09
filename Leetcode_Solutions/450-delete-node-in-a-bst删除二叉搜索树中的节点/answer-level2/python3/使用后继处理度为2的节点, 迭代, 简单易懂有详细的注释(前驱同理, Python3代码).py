@@ -1,7 +1,7 @@
-Python3 思路: 1.先根据key找到对应的节点 2.度为2的节点,需要找到它的后继(前驱也可以)节点, 此时真正删除的节点是前驱或后继节点; 度为1的节点,直接用其子节点代替; 度为0的节点直接把该节点删掉```
-Python3
+# Python3 思路: 1.先根据key找到对应的节点 2.度为2的节点,需要找到它的后继(前驱也可以)节点, 此时真正删除的节点是前驱或后继节点; 度为1的节点,直接用其子节点代替; 度为0的节点直接把该节点删掉```
+# Python3
 
-```
+# ```
 class Solution:
     def deleteNode(self, root: TreeNode, key: int) -> TreeNode:
         if root is None: 
@@ -74,4 +74,4 @@ class Solution:
                 parent = node
                 node = node.left
             return node, parent
-```
+# ```

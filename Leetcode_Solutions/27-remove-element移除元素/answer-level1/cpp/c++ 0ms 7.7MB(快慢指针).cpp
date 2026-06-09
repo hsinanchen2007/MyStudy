@@ -1,7 +1,7 @@
 
-![fsdfdsfdsfdsfdsfdsfsdf.PNG](https://pic.leetcode-cn.com/a39bd39fdd9633a0d6536a7b5b4d805ec989bac83d0a3b9e1d51e908373a9f88-fsdfdsfdsfdsfdsfdsfsdf.PNG)
+// ![fsdfdsfdsfdsfdsfdsfsdf.PNG](https://pic.leetcode-cn.com/a39bd39fdd9633a0d6536a7b5b4d805ec989bac83d0a3b9e1d51e908373a9f88-fsdfdsfdsfdsfdsfdsfsdf.PNG)
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -15,4 +15,4 @@ public:
         return iter1-nums.begin();
     }
 };
-```
+// ```

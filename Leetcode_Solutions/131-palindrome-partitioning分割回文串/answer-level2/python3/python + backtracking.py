@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
 
 	def is_palindrome(self, s: str)-> bool:
@@ -26,4 +26,4 @@ class Solution:
 				for right in right_arr:
 					res.append([left] + right)
 		return res
-```
+# ```

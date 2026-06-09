@@ -1,9 +1,9 @@
-### 解题思路
-把问题分解为： 直径 = max{左子树的直径，右子树的直径，左子树深度 + 右子树深度}
+// ### 解题思路
+// 把问题分解为： 直径 = max{左子树的直径，右子树的直径，左子树深度 + 右子树深度}
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,4 +31,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     travelTree(root, &diameter);
     return diameter;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-执行用时:20ms,在所有Python提交中击败了80.35%的用户；内存消耗:11.7MB,在所有Python提交中击败了33.18%的用户
+# 执行用时:20ms,在所有Python提交中击败了80.35%的用户；内存消耗:11.7MB,在所有Python提交中击败了33.18%的用户
 
     def spiralOrder(self, matrix):
         if not matrix:return []

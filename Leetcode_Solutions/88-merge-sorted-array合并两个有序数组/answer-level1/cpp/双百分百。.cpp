@@ -1,9 +1,9 @@
-### 解题思路
-先填满数组1，再排序。
+// ### 解题思路
+// 先填满数组1，再排序。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -14,4 +14,4 @@ public:
         sort(nums1.begin(),nums1.end());
     }
 };
-```
+// ```

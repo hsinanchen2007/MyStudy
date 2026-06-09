@@ -1,9 +1,9 @@
-### 解题思路
-在这用双指针一直下去就可以了
+# ### 解题思路
+# 在这用双指针一直下去就可以了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
             even_num = even_num.next
         odd_num.next = even_head
         return head
-```
+# ```

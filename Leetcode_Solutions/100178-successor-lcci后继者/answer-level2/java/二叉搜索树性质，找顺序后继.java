@@ -1,10 +1,10 @@
-### 解题思路
-1.p存在右子树，那么p的后继就是p.right子树的最左节点
-2.p不存在右子树，那么p的后继就是p所在子树的最近左孩子的父节点
+// ### 解题思路
+// 1.p存在右子树，那么p的后继就是p.right子树的最左节点
+// 2.p不存在右子树，那么p的后继就是p所在子树的最近左孩子的父节点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

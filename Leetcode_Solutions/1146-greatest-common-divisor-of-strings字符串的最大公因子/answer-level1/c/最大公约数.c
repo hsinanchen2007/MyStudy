@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![QQ截图20200404113332.png](https://pic.leetcode-cn.com/df3b89aee19a456b4c1c0def312af9e9bacddd9a37e20ea6680473e5410ede6d-QQ%E6%88%AA%E5%9B%BE20200404113332.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![QQ截图20200404113332.png](https://pic.leetcode-cn.com/df3b89aee19a456b4c1c0def312af9e9bacddd9a37e20ea6680473e5410ede6d-QQ%E6%88%AA%E5%9B%BE20200404113332.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * gcdOfStrings(char * str1, char * str2)
 {  int len1,len2;
    len1=strlen(str1);
@@ -49,4 +49,4 @@ char * gcdOfStrings(char * str1, char * str2)
    }
    return "";
 }
-```
+// ```

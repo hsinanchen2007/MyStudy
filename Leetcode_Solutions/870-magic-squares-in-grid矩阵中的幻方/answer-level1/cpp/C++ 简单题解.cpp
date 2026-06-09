@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool valid(const vector<vector<int>>& grid, int r, int c) {
@@ -36,6 +36,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/c7263c405bb35cd15538905966c7c4ec75c032d52406a927280fe8644a7ca45f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c7263c405bb35cd15538905966c7c4ec75c032d52406a927280fe8644a7ca45f-image.png)

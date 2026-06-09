@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度O(n^2)。空间复杂度O(n)。
-这里采用了对称折半思想，适当降低时间消耗。
+// ### 解题思路
+// 时间复杂度O(n^2)。空间复杂度O(n)。
+// 这里采用了对称折半思想，适当降低时间消耗。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -30,4 +30,4 @@ int* getRow(int rowIndex, int* returnSize)
 	
     return result;
 }
-```
+// ```

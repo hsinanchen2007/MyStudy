@@ -1,9 +1,9 @@
-### 解题思路
-普通的广度优先搜索
+# ### 解题思路
+# 普通的广度优先搜索
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             res.append(rs[-1])
             stack=ns
         return res
-```
+# ```

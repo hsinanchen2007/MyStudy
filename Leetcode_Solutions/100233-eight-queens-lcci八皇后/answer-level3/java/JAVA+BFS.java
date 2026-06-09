@@ -1,6 +1,6 @@
-1、BFS的过程中，记录每个皇后的位置和结果。
-2、回溯，如果下一行没有一个可以摆放皇后的位置，那么需求删掉第一步记录的位置和结果，然后再次BFS
-```
+// 1、BFS的过程中，记录每个皇后的位置和结果。
+// 2、回溯，如果下一行没有一个可以摆放皇后的位置，那么需求删掉第一步记录的位置和结果，然后再次BFS
+// ```
 class Solution {
 public static List<List<String>> solveNQueens(int n) {
     //DFS搜索，回溯
@@ -64,4 +64,4 @@ public static List<List<String>> solveNQueens(int n) {
   }
 
 }
-```
+// ```

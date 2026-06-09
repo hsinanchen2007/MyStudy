@@ -1,9 +1,9 @@
-### 解题思路
-DP[i][0]表示不包含第i个元素的最大值，DP[i][1]表示包含第i个元素的最大值。
+// ### 解题思路
+// DP[i][0]表示不包含第i个元素的最大值，DP[i][1]表示包含第i个元素的最大值。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -23,4 +23,4 @@ var massage = function (nums) {
         return Math.max(dp[nums.length - 1][0], dp[nums.length - 1][1])
     }
 };
-```
+// ```

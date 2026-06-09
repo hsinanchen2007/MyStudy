@@ -1,14 +1,14 @@
-![O4AFOIJRV))QPP~K71\[9}(T.png](https://pic.leetcode-cn.com/07c876870e3ac3ef05b27878bb7d4d0674031423736fc787cf2fa61f915106e9-O4AFOIJRV\)\)QPP~K71%5B9%7D\(T.png)
-### 解题思路
-使用bit 1记录细胞下一存活状态状态, 遍历一遍即可. 思路详见代码注释.
-	注：因为bit1默认为0, 故遍历过程中只需关注下一状态为存活的情况
-		即—— i. 活细胞周围活细胞数量为2或3  
-			ii. 死细胞周围活细胞数量为3
+// ![O4AFOIJRV))QPP~K71\[9}(T.png](https://pic.leetcode-cn.com/07c876870e3ac3ef05b27878bb7d4d0674031423736fc787cf2fa61f915106e9-O4AFOIJRV\)\)QPP~K71%5B9%7D\(T.png)
+// ### 解题思路
+// 使用bit 1记录细胞下一存活状态状态, 遍历一遍即可. 思路详见代码注释.
+// 	注：因为bit1默认为0, 故遍历过程中只需关注下一状态为存活的情况
+// 		即—— i. 活细胞周围活细胞数量为2或3  
+// 			ii. 死细胞周围活细胞数量为3
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	void gameOfLife(vector<vector<int>>& board) {
@@ -39,4 +39,4 @@ private:
 		return(i >= 0 && i < board.size() && j >= 0 && j < board[0].size() && (board[i][j] & 0x01 == 1));
 	}
 };
-```
+// ```

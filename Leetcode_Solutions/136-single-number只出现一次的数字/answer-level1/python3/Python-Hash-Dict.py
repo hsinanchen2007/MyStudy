@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         dict={}
@@ -7,4 +7,4 @@ class Solution:
         for i in nums:
             if dict.get(i)==1:
                 return i
-```
+# ```

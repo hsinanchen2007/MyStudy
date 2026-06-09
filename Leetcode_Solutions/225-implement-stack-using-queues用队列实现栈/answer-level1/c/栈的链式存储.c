@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct Stack{
     int data;
     struct Stack* next;
@@ -49,4 +49,4 @@ void myStackFree(MyStack* obj) {
         free(p);
     }
 }
-```
+// ```

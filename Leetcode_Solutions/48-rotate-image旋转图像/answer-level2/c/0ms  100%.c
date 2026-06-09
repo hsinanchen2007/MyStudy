@@ -1,10 +1,10 @@
-### 解题思路
-感觉有点假
-![TIM图片20200407104954.png](https://pic.leetcode-cn.com/b427598d5b54e16108e7217b29d9d668c9fc57968ab105328d7a8e595a6f6509-TIM%E5%9B%BE%E7%89%8720200407104954.png)
+// ### 解题思路
+// 感觉有点假
+// ![TIM图片20200407104954.png](https://pic.leetcode-cn.com/b427598d5b54e16108e7217b29d9d668c9fc57968ab105328d7a8e595a6f6509-TIM%E5%9B%BE%E7%89%8720200407104954.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //方法一：  先转置矩阵，然后换列
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     //matrixSize -> 行的大小    *matrixColSize  ->列的大小

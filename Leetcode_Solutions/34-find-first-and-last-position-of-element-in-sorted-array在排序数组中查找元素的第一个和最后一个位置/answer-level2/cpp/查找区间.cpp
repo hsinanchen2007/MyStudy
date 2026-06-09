@@ -1,8 +1,8 @@
 
-二分法，查找区间左和查找区间右
+// 二分法，查找区间左和查找区间右
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -43,4 +43,4 @@ public:
         return high;
     }
 };
-```
+// ```

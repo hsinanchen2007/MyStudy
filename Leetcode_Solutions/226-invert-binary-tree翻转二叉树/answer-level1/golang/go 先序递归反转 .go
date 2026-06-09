@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-go 先序递归反转 
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// go 先序递归反转 
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -25,4 +25,4 @@ func invert(root *TreeNode) {
     invertTree(root.Left)
     invertTree(root.Right)
 }
-```
+// ```

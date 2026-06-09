@@ -1,9 +1,9 @@
-### 解题思路
-运用了漂亮数组的性质，将其奇偶化。
+// ### 解题思路
+// 运用了漂亮数组的性质，将其奇偶化。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> beautifulArray(int N) {
@@ -23,4 +23,4 @@ public:
         return vecResult;
     }
 };
-```
+// ```

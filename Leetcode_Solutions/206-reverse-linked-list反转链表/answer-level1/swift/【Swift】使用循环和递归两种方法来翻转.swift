@@ -1,7 +1,7 @@
-### 递归和循环反正
+// ### 递归和循环反正
 
-### 递归翻转
-```
+// ### 递归翻转
+// ```
 // 递归翻转
 func reverseList(_ head: ListNode?) -> ListNode? {
     if head == nil || head!.next == nil {
@@ -12,10 +12,10 @@ func reverseList(_ head: ListNode?) -> ListNode? {
     head?.next = nil
     return temp
 }
-```
+// ```
 
-### 循环反转
-```
+// ### 循环反转
+// ```
 // 循环翻转
 func reverseList(_ head: ListNode?) -> ListNode? {
     if head == nil || head!.next == nil {
@@ -32,4 +32,4 @@ func reverseList(_ head: ListNode?) -> ListNode? {
     }
     return previous
 }
-```
+// ```

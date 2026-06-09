@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def existsCouson(nodes: List[(TreeNode, TreeNode)], x: Int, y: Int): Boolean = {
     val xNode: Option[(TreeNode, TreeNode)] = nodes.find(item => item._2.value == x)
@@ -24,4 +24,4 @@ object Solution {
   }
 }
 
-```
+// ```

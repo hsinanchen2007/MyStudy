@@ -1,12 +1,12 @@
-### 解题思路
-用bitset转换数字为二进制字符串
+// ### 解题思路
+// 用bitset转换数字为二进制字符串
 
-![图片.png](https://pic.leetcode-cn.com/cc9700704f030cca9d69a02eca2dd9ab21a776f7286104988eb6b1da976f57fa-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/cc9700704f030cca9d69a02eca2dd9ab21a776f7286104988eb6b1da976f57fa-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string encode(int num) {
@@ -19,4 +19,4 @@ public:
         return str.substr(str.find('1') + 1);
     }
 };
-```
+// ```

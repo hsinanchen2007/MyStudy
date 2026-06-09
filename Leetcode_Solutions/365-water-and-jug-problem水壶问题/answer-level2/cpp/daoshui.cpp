@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canMeasureWater(int x, int y, int z) {
@@ -11,4 +11,4 @@ public:
         return z%gcd(x,y)==0;
     }
 };
-```
+// ```

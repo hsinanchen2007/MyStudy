@@ -1,6 +1,6 @@
-并查集+DFS+sort，我好菜啊 ┭┮﹏┭┮
+// 并查集+DFS+sort，我好菜啊 ┭┮﹏┭┮
 
-```c++
+// ```c++
 class Solution {
  public:
   vector<string> ans;
@@ -75,4 +75,4 @@ class Solution {
   }
 };
 
-```
+// ```

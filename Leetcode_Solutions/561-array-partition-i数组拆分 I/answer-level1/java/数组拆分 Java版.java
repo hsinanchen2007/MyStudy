@@ -1,5 +1,5 @@
 
-```Java []
+// ```Java []
 class ArrayPairSum{
 	/**
 	 * 1.规律：先排序，从0开始，对于偶数位的元素求和，即为解
@@ -16,4 +16,4 @@ class ArrayPairSum{
 		return minSum;
 	}
 }
-```
+// ```

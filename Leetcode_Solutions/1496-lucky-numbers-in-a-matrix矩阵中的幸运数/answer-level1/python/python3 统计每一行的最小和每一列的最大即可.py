@@ -1,10 +1,10 @@
-### 解题思路
-在遍历过程中把每一行的最小值和每一列的最小者记录下来
-时间复杂度O(m*n)
+# ### 解题思路
+# 在遍历过程中把每一行的最小值和每一列的最小者记录下来
+# 时间复杂度O(m*n)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def luckyNumbers (self, matrix: List[List[int]]) -> List[int]:
         #思路：遍历一遍即可得出结果
@@ -25,4 +25,4 @@ class Solution:
             res.append(num)
         return res
 
-```
+# ```

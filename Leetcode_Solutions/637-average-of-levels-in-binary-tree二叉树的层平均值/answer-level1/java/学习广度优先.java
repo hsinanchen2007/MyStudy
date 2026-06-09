@@ -1,9 +1,9 @@
-### 解题思路
-看了官方，自己独立实现一遍，但是发现结果怎么都不对，遂调试半天，发现我定义的int，超出限制了 -_-#。
+// ### 解题思路
+// 看了官方，自己独立实现一遍，但是发现结果怎么都不对，遂调试半天，发现我定义的int，超出限制了 -_-#。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,4 +39,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

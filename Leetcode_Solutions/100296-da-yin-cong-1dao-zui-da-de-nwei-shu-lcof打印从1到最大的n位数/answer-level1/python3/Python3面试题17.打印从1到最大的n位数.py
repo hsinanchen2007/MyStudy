@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def printNumbers(self, n: int) -> List[int]:
        
@@ -20,4 +20,4 @@ class Solution:
             for i in range(1, 10**n):
                 res.append(i)
         return res
-```
+# ```

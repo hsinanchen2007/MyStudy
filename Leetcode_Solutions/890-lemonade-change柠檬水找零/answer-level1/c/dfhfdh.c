@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/56eaa0381121371d61d3b7757fd7a9a4bab7b20413431592d7411b15c150b816-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/56eaa0381121371d61d3b7757fd7a9a4bab7b20413431592d7411b15c150b816-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool lemonadeChange(int* bills, int billsSize){
     int cnt5=0,cnt10=0,cnt20=0,i;
     for(i=0;i<billsSize;i++){
@@ -22,4 +22,4 @@ bool lemonadeChange(int* bills, int billsSize){
 
     return true;
 }
-```
+// ```

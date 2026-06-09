@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def equationsPossible(self, equations):
         # 先做个索引字典
@@ -17,4 +17,4 @@ class Solution(object):
             if s[1] == "!" and find(s[0]) == find(s[3]):
                 return False
         return True
-```
+# ```

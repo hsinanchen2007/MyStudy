@@ -1,9 +1,9 @@
-### 解题思路
-把后一个节点的值搬到前一个节点的值
+// ### 解题思路
+// 把后一个节点的值搬到前一个节点的值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -21,4 +21,4 @@ void deleteNode(struct ListNode* node) {
     free(node->next);
     node->next=NULL;
 }
-```
+// ```

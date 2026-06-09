@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool Symmetric(struct TreeNode* left , struct TreeNode* right)
 {
     if(left == NULL && right == NULL)
@@ -33,4 +33,4 @@ bool isSymmetric(struct TreeNode* root){
     }
     return Symmetric(root->left,root->right);
 }
-```
+// ```

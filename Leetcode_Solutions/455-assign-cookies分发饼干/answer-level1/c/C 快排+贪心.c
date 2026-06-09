@@ -1,11 +1,11 @@
-![Snipaste_2020-03-13_19-54-41.jpg](https://pic.leetcode-cn.com/6593b157c7f7f2a61081d01fb98307f73d694070aca0ff57fc1251a96a01e8c1-Snipaste_2020-03-13_19-54-41.jpg)
+// ![Snipaste_2020-03-13_19-54-41.jpg](https://pic.leetcode-cn.com/6593b157c7f7f2a61081d01fb98307f73d694070aca0ff57fc1251a96a01e8c1-Snipaste_2020-03-13_19-54-41.jpg)
 
-### 解题思路
-对两个数组分别快速排序，然后逐个比较
+// ### 解题思路
+// 对两个数组分别快速排序，然后逐个比较
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 
 int findContentChildren(int* g, int gSize, int* s, int sSize){
@@ -47,4 +47,4 @@ int partition(int* nums, int low, int high)
     return low;
 }
 
-```
+// ```

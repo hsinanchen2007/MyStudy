@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-递归，相同返回本身，小左边，大右边
+// 递归，相同返回本身，小左边，大右边
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -29,4 +29,4 @@ func searchBST(root *TreeNode, val int) *TreeNode {
 
 	return root
 }
-```
+// ```

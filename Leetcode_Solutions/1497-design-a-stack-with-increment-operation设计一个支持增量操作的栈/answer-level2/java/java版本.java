@@ -1,9 +1,9 @@
-### 解题思路
-用整型数组nums存储数据，top记录当前的栈顶在哪
+// ### 解题思路
+// 用整型数组nums存储数据，top记录当前的栈顶在哪
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class CustomStack {
     private int[] nums;
     private int top;
@@ -42,4 +42,4 @@ class CustomStack {
  * int param_2 = obj.pop();
  * obj.increment(k,val);
  */
-```
+// ```

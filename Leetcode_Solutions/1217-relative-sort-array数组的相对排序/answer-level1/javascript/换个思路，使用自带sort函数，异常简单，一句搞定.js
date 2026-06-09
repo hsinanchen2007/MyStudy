@@ -1,6 +1,6 @@
-不用很麻烦的记录位置了
+// 不用很麻烦的记录位置了
 
-```js
+// ```js
 var relativeSortArray = function(arr1, arr2) {
     return arr1.sort((a, b) => {
         let ia = arr2.indexOf(a);
@@ -16,4 +16,4 @@ var relativeSortArray = function(arr1, arr2) {
         }
     });
 };
-```
+// ```

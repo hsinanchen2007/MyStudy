@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/459878ed89e2cf784262553ccd0862d5a292b19c8b94acc6b534411bedd5b787-image.png)
+// ![image.png](https://pic.leetcode-cn.com/459878ed89e2cf784262553ccd0862d5a292b19c8b94acc6b534411bedd5b787-image.png)
 
-```
+// ```
     List<Integer>[] tl = new ArrayList[26];
     public boolean isSubsequence(String s, String t) {
         for(int i = 0; i < 26; i++) {
@@ -41,4 +41,4 @@
         }
         return tl.get(tail);
     }
-```
+// ```

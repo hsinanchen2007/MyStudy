@@ -1,11 +1,11 @@
-执行用时 :5 ms, 在所有 Java 提交中击败了94.43%的用户
-内存消耗 :35 MB, 在所有 Java 提交中击败了88.48%的用户
+// 执行用时 :5 ms, 在所有 Java 提交中击败了94.43%的用户
+// 内存消耗 :35 MB, 在所有 Java 提交中击败了88.48%的用户
 
-记String s长度为n，List<String> wordDict长度为m
-时间复杂度：O(nm)
+// 记String s长度为n，List<String> wordDict长度为m
+// 时间复杂度：O(nm)
 
 
-```java
+// ```java
 public boolean wordBreak(String s, List<String> wordDict) {
     int n = s.length();
     boolean[] dp = new boolean[n+1];
@@ -25,4 +25,4 @@ public boolean wordBreak(String s, List<String> wordDict) {
     }
     return dp[n];
 }
-```
+// ```

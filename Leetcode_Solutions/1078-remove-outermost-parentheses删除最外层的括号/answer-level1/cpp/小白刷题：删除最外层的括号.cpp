@@ -1,7 +1,7 @@
-设变量flag表示括号深度，当flag归零，就说明到了最外围括号
+// 设变量flag表示括号深度，当flag归零，就说明到了最外围括号
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     string removeOuterParentheses(string S) {
@@ -23,4 +23,4 @@ public:
         return ans;
     }
 };
-```
+// ```

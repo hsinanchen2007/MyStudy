@@ -1,9 +1,9 @@
-### 解题思路
-1. 参考大神的思路，走了一遍，不是自己写的，详细解释见代码。
+// ### 解题思路
+// 1. 参考大神的思路，走了一遍，不是自己写的，详细解释见代码。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Node{ //建顶点类
     public int key, value;
     public Node prev, next;
@@ -93,4 +93,4 @@ class LRUCache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-```
+// ```

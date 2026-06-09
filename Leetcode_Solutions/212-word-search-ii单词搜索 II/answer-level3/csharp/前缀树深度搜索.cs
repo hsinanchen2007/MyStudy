@@ -1,10 +1,10 @@
-### 解题思路
-分析所有word 构成前缀树
-针对board上每个 Char， 从root出发，向四个方向寻找一个Match
+// ### 解题思路
+// 分析所有word 构成前缀树
+// 针对board上每个 Char， 从root出发，向四个方向寻找一个Match
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, int>;
 
 class PrefixNode {
@@ -132,4 +132,4 @@ public class Solution {
          return ws.FindWords(board, words);
     }
 }
-```
+// ```

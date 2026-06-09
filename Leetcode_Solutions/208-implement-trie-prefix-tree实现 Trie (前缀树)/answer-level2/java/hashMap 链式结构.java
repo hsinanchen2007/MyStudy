@@ -1,10 +1,10 @@
-### 解题思路
-1. 看了大多数的实现都是每个节点需要一个 26 字母的数组，会造成比较多的内存消耗
-2. 这里直接使用 hashMap 作为链式结构，只存储出现过得单词
+// ### 解题思路
+// 1. 看了大多数的实现都是每个节点需要一个 26 字母的数组，会造成比较多的内存消耗
+// 2. 这里直接使用 hashMap 作为链式结构，只存储出现过得单词
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Trie {
 
     class TireNode {
@@ -77,4 +77,4 @@ class Trie {
  * boolean param_2 = obj.search(word);
  * boolean param_3 = obj.startsWith(prefix);
  */
-```
+// ```

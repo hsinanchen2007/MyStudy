@@ -1,9 +1,9 @@
-### 解题思路
-BigInt
+// ### 解题思路
+// BigInt
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} K
@@ -12,4 +12,4 @@ BigInt
 var addToArrayForm = function(A, K) {
     return (BigInt(A.join(''))+BigInt(K+'')+'').split('')
 };
-```
+// ```

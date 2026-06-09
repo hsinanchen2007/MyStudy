@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/a889c0aa9d25bd810914393918ec5000753eebc3fa70d7d532495280d7f05a41-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a889c0aa9d25bd810914393918ec5000753eebc3fa70d7d532495280d7f05a41-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   参考「灵魂画手」的动态规划思路，太巧妙了
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {number}
@@ -26,4 +26,4 @@ var numSquares = function(n) {
   
   return dp[n];
 };
-```
+// ```

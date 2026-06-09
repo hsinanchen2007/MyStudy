@@ -1,4 +1,4 @@
-空间换时间，比递归快很多
+// 空间换时间，比递归快很多
     
     bool findPath(vector<TreeNode*>& path,TreeNode* root,TreeNode* target){
         if(root==nullptr){

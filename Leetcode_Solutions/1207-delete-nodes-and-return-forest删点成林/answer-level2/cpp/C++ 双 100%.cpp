@@ -1,5 +1,5 @@
-![Screenshot from 2019-11-24 17-19-29.png](https://pic.leetcode-cn.com/18e28691120a658bfa7d0ceba3f69a13ebc29af9164ed138eeb3f797e80f2449-Screenshot%20from%202019-11-24%2017-19-29.png)
-```c++
+// ![Screenshot from 2019-11-24 17-19-29.png](https://pic.leetcode-cn.com/18e28691120a658bfa7d0ceba3f69a13ebc29af9164ed138eeb3f797e80f2449-Screenshot%20from%202019-11-24%2017-19-29.png)
+// ```c++
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ public:
         return ret;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-1. 等差数列公式
-利用等差数列公式，先确知道有几个数n，然后根据target和n确定首项
-```java
+// 1. 等差数列公式
+// 利用等差数列公式，先确知道有几个数n，然后根据target和n确定首项
+// ```java
 class Solution {
     public static int[][] findContinuousSequence(int target) {
         List<int[]> list = new ArrayList();
@@ -22,11 +22,11 @@ class Solution {
         return list.toArray(new int[list.size()][]);
     }
 }
-```
+// ```
 
 
-2. 滑动窗口
-```java
+// 2. 滑动窗口
+// ```java
 class Solution {
     public static int[][] findContinuousSequence(int target) {
         List<int[]> list = new ArrayList();
@@ -54,10 +54,10 @@ class Solution {
         return list.toArray(new int[list.size()][]);
     }
 }
-```
-双100%
+// ```
+// 双100%
 
-```java
+// ```java
 class Solution {
     public static int[][] findContinuousSequence(int target) {
         List<int []> list = new ArrayList<>();
@@ -78,10 +78,10 @@ class Solution {
         return list.toArray(new int[list.size()][]);
     }
 }
-```
+// ```
 
-3. 暴力破解
-```java
+// 3. 暴力破解
+// ```java
 class Solution {
     public static int[][] findContinuousSequence(int target) {
         List<int[]> list = new ArrayList();
@@ -103,4 +103,4 @@ class Solution {
         return list.toArray(new int[list.size()][]);
     }
 }
-```
+// ```

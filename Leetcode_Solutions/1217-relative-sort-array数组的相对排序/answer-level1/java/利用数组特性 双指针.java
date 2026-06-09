@@ -1,9 +1,9 @@
-### 解题思路
-利用数组特性 双指针
+// ### 解题思路
+// 利用数组特性 双指针
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] relativeSortArray(int[] arr1, int[] arr2) {
         //初始化一个临时数组
@@ -38,4 +38,4 @@ class Solution {
     }
 }
 
-```
+// ```

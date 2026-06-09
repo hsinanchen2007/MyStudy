@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     void fun1(TreeNode *root,vector<int>&res){
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

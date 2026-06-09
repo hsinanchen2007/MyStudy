@@ -1,9 +1,9 @@
-### 解题思路
-考虑问题要周全，这里相同的数字不能重复
+// ### 解题思路
+// 考虑问题要周全，这里相同的数字不能重复
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int thirdMax(int* nums, int numsSize){
     int first,second,third;
     int i;
@@ -33,4 +33,4 @@ int thirdMax(int* nums, int numsSize){
     }
     return third;
 }
-```
+// ```

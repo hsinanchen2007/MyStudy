@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         Queue <Integer> q = new LinkedList<>();
@@ -32,4 +32,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

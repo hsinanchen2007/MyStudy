@@ -1,5 +1,5 @@
-执行用时 :84 ms, 在所有 C 提交中击败了98.11%的用户
-内存消耗 :16.2 MB, 在所有 C 提交中击败了100.00%的用户
+// 执行用时 :84 ms, 在所有 C 提交中击败了98.11%的用户
+// 内存消耗 :16.2 MB, 在所有 C 提交中击败了100.00%的用户
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  * 冒泡法排序超时，比较初级，轻喷

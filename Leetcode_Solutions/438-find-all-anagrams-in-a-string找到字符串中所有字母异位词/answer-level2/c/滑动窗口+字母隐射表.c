@@ -1,12 +1,12 @@
-### 解题思路
-滑动窗口加字母隐射表
-以p的长度为滑动窗口的长度
-将p和s中和p一样的的部分，分别隐射到mapP和mapS中，比较mapP是否和mapS相同，如果相同，就说明匹配成功，输出即可。
-循环直至s结束
+// ### 解题思路
+// 滑动窗口加字母隐射表
+// 以p的长度为滑动窗口的长度
+// 将p和s中和p一样的的部分，分别隐射到mapP和mapS中，比较mapP是否和mapS相同，如果相同，就说明匹配成功，输出即可。
+// 循环直至s结束
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -73,4 +73,4 @@ int* findAnagrams(char* s, char* p, int* returnSize)
 
     return ret;
 }
-```
+// ```

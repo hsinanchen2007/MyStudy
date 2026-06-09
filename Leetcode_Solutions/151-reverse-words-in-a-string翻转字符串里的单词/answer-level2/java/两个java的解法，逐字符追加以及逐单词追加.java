@@ -1,35 +1,35 @@
-#### 逐单词操作
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(n)
-2. 我的解题思路
-    2.1 根据空格分割源字符串
-    2.2 倒序遍历切割数组
-        2.2.1 如果当前元素不是"",append
-        2.2.2 当前元素不是最后一个，append一个空格
-3. 提交记录
-    3.1 力扣中耗时4ms,消耗40.6MB内存
-    3.2 leetcode中耗时1ms,消耗37.8MB内存
-4. Q&A
+// #### 逐单词操作
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(n)
+// 2. 我的解题思路
+//     2.1 根据空格分割源字符串
+//     2.2 倒序遍历切割数组
+//         2.2.1 如果当前元素不是"",append
+//         2.2.2 当前元素不是最后一个，append一个空格
+// 3. 提交记录
+//     3.1 力扣中耗时4ms,消耗40.6MB内存
+//     3.2 leetcode中耗时1ms,消耗37.8MB内存
+// 4. Q&A
 
-#### 逐字符操作
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(n)
-2. 我的解题思路
-    2.1 定义一个StringBuilder记录最后的结果，一个StringBuilder记录遍历过程的字符串
-    2.2 将源字符串转换成char数组
-    2.3 倒序遍历char数组
-        2.3.1 当前char为空格以及下一char也为空格，另外用循环跳过这个情况
-        2.3.2 当前char为空格，直接跳过，因为在两个单词中间加上空格我会在另外的情况处理
-        2.3.3 当前char为字母，下一char为空格，append当前char转化缓存StringBuilder并追加空格
-        2.3.4 其余情况，直接append当前char
-3. 提交记录
-    3.1 力扣中耗时14ms,消耗41.6MB内存
-    3.2 leetcode中耗时4ms,消耗38.5MB内存
-4. Q&A
+// #### 逐字符操作
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(n)
+// 2. 我的解题思路
+//     2.1 定义一个StringBuilder记录最后的结果，一个StringBuilder记录遍历过程的字符串
+//     2.2 将源字符串转换成char数组
+//     2.3 倒序遍历char数组
+//         2.3.1 当前char为空格以及下一char也为空格，另外用循环跳过这个情况
+//         2.3.2 当前char为空格，直接跳过，因为在两个单词中间加上空格我会在另外的情况处理
+//         2.3.3 当前char为字母，下一char为空格，append当前char转化缓存StringBuilder并追加空格
+//         2.3.4 其余情况，直接append当前char
+// 3. 提交记录
+//     3.1 力扣中耗时14ms,消耗41.6MB内存
+//     3.2 leetcode中耗时4ms,消耗38.5MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     151.Reverse Words in a String
@@ -139,7 +139,7 @@ class Solution {
     }
 }
 
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
 

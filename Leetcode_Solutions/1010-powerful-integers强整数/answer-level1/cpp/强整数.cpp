@@ -1,5 +1,5 @@
-枚举 set去重， 0s通过，
-```
+// 枚举 set去重， 0s通过，
+// ```
 class Solution {
 public:
     vector<int> powerfulIntegers(int x, int y, int bound) {
@@ -22,4 +22,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-参考其他解题思路，用BFS来实现
-如果用队列+BFS，由于每次都要找最小值，这里会超时，见代码一
-换成了最小堆+BFS来实现，通过，见代码二
+// 参考其他解题思路，用BFS来实现
+// 如果用队列+BFS，由于每次都要找最小值，这里会超时，见代码一
+// 换成了最小堆+BFS来实现，通过，见代码二
 
-**代码一**
+// **代码一**
 
-```c
+// ```c
 #define MAX_NUM 111
 
 typedef struct {
@@ -90,11 +90,11 @@ int trapRainWater(int** heightMap, int heightMapSize, int* heightMapColSize){
 
     return result;
 }
-```
+// ```
 
-**代码二**
+// **代码二**
 
-```c
+// ```c
 #define MAX_NUM 111
 
 typedef struct {
@@ -289,4 +289,4 @@ int trapRainWater(int** heightMap, int heightMapSize, int* heightMapColSize){
 
     return result;
 }
-```
+// ```

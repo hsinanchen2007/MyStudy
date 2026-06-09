@@ -1,9 +1,9 @@
-### 解题思路
-bfs
+// ### 解题思路
+// bfs
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -24,4 +24,4 @@ var subsets = function(nums) {
     // console.log(ans)
     return ans
 };
-```
+// ```

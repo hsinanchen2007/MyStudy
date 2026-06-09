@@ -1,5 +1,5 @@
-逐层扫描，横向扫描时方块从出现到消失各计加一，纵向扫描类似。
-```
+// 逐层扫描，横向扫描时方块从出现到消失各计加一，纵向扫描类似。
+// ```
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid) {
@@ -73,4 +73,4 @@ public:
         return sum;
     }
 };
-```
+// ```

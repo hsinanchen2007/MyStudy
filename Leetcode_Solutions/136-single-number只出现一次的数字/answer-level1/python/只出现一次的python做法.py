@@ -1,9 +1,9 @@
-### 解题思路
-1.判断数字是否存在字典中，存在则加一，不存在则入字典。
-2.对字典进行遍历，判断字典出现次数为1的，输出它的key。
-### 代码
+# ### 解题思路
+# 1.判断数字是否存在字典中，存在则加一，不存在则入字典。
+# 2.对字典进行遍历，判断字典出现次数为1的，输出它的key。
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def singleNumber(self, nums):
         """
@@ -20,4 +20,4 @@ class Solution(object):
         for key,value in count_dict.items():
             if value==1:
                 return key    
-```
+# ```

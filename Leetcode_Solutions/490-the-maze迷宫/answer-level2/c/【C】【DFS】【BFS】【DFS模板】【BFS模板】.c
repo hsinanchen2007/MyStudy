@@ -1,8 +1,8 @@
-提供两种解题方法，两种模板，各位参考；
-C语言写队列比较麻烦，代码量较大
+// 提供两种解题方法，两种模板，各位参考；
+// C语言写队列比较麻烦，代码量较大
 
-- - DFS实现方法
- ```
+// - - DFS实现方法
+//  ```
 #include <stdio.h>
 #define DIRECT 4
 #define MAX_N 128
@@ -94,9 +94,9 @@ bool hasPath(int** maze, int mazeSize, int* mazeColSize, int* start, int startSi
 	return Dfs(start[0], start[1], 
 		destination[0], destination[1], 0);
 }
-```
-- BFS实现方法
-```
+// ```
+// - BFS实现方法
+// ```
 #include <stdio.h>
 #define DIRECT 4
 #define MAX_N 128
@@ -207,12 +207,12 @@ bool hasPath(int** maze, int mazeSize, int* mazeColSize, int* start, int startSi
 	return false;
 }
 
-```
+// ```
 
-BFS一般都比DFS快
+// BFS一般都比DFS快
 
-- DFS矩阵类模板
-```
+// - DFS矩阵类模板
+// ```
 #include <stdio.h>
 
 /* 设置使用的全局变量，包括可以扩展的方向 */
@@ -270,11 +270,11 @@ static bool Dfs(char *word, int pos, int i, int j)
 	visited[i][j] = 0;
 	return false;
 }
-```
+// ```
 
-- BFS矩阵类模板
+// - BFS矩阵类模板
 
-```
+// ```
 #include <stdio.h>
 #define DIRECT 4
 #define MAX_N 128
@@ -381,4 +381,4 @@ bool hasPath(int** maze, int mazeSize, int* mazeColSize, int* start, int startSi
 	return false;
 }
 
-```
+// ```

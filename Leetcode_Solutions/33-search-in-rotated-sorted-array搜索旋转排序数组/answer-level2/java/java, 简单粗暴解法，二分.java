@@ -1,8 +1,8 @@
-### 解题思路
-根据数组已经排序，但是自旋的特点，如果，具体分析可以看点赞最高的。
-### 代码
+// ### 解题思路
+// 根据数组已经排序，但是自旋的特点，如果，具体分析可以看点赞最高的。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     
     public int search(int[] nums, int target) {
@@ -33,4 +33,4 @@ class Solution {
      return  -1;
     }
 }
-```
+// ```

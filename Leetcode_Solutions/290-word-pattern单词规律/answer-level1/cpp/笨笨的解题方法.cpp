@@ -1,8 +1,8 @@
-C++ d 很笨的解题方法
-奥里给！
+// C++ d 很笨的解题方法
+// 奥里给！
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool wordPattern(string pattern, string str) {
@@ -59,4 +59,4 @@ private:
         return res;
     }
 };
-```
+// ```

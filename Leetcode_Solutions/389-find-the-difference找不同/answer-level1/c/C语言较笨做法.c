@@ -1,4 +1,4 @@
-```c
+// ```c
 char findTheDifference(char * s, char * t){
     short len=0,i,j,tmp;
     while(s[len]!=0)
@@ -29,4 +29,4 @@ char findTheDifference(char * s, char * t){
             return t_[i];
     return t_[len];
 }
-```
+// ```

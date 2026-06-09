@@ -1,10 +1,10 @@
-### 解题思路
-直接异或A与B
-数1的个数即可。
+// ### 解题思路
+// 直接异或A与B
+// 数1的个数即可。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int convertInteger(int A, int B) {
     int c, cnt, i;
     c = A ^ B;
@@ -18,4 +18,4 @@ int convertInteger(int A, int B) {
     }
     return cnt;
 }
-```
+// ```

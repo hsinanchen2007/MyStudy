@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -62,4 +62,4 @@ private:
     unordered_map<Node*, Node*> node_to_new_node_;
     unordered_set<Node*> setted_;
 };
-```
+// ```

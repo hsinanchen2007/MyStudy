@@ -1,5 +1,5 @@
-先把数组排列，然后把第一个如果后一个list和后一个list重合，就要新开一个房间。这时有两个房间，每一个房间作为一个list加入字典，对于后面的list，如果和已有房间中的最后一个list不重合，就可以共用这个房间，把这个list加入到这个房间。
-```
+# 先把数组排列，然后把第一个如果后一个list和后一个list重合，就要新开一个房间。这时有两个房间，每一个房间作为一个list加入字典，对于后面的list，如果和已有房间中的最后一个list不重合，就可以共用这个房间，把这个list加入到这个房间。
+# ```
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
         if not intervals:
@@ -27,4 +27,4 @@ class Solution:
         
                 
 ##        return count
-```
+# ```

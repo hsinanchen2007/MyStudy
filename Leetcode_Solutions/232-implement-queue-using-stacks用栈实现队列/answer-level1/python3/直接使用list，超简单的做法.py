@@ -1,9 +1,9 @@
-### 解题思路
-使用list内置函数好像就能通过了，不知道是不是有什么思维误区，欢迎指正:)。同样也能轻松通过225题（Implement Stack using Queues）。
+# ### 解题思路
+# 使用list内置函数好像就能通过了，不知道是不是有什么思维误区，欢迎指正:)。同样也能轻松通过225题（Implement Stack using Queues）。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyQueue:
 
     def __init__(self):
@@ -48,4 +48,4 @@ class MyQueue:
 # param_2 = obj.pop()
 # param_3 = obj.peek()
 # param_4 = obj.empty()
-```
+# ```

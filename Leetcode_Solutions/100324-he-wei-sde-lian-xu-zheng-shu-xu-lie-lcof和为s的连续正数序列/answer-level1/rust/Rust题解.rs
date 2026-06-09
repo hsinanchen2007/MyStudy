@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/3ea00d27ec4649eb568cb8e7c7a26682d4e9768abb5897f53c743762807d919b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3ea00d27ec4649eb568cb8e7c7a26682d4e9768abb5897f53c743762807d919b-image.png)
 
-```
+// ```
 impl Solution {
     pub fn find_continuous_sequence(target: i32) -> Vec<Vec<i32>> {
         let mut mid: f32 = 1.0;
@@ -30,4 +30,4 @@ impl Solution {
         res
     }
 }
-```
+// ```

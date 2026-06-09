@@ -1,7 +1,7 @@
-1. 动态规划
-其实跟爬楼梯概念是一样的。
+# 1. 动态规划
+# 其实跟爬楼梯概念是一样的。
 
-```
+# ```
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
         if not nums: return 0
@@ -13,4 +13,4 @@ class Solution:
                     _temp = max(1 + _Store[j], _temp)
             _Store[i] = _temp
         return max(_Store)
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-递归算法，从后面往前反转。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 递归算法，从后面往前反转。
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -28,4 +28,4 @@ class Solution {
         return next;
     }
 }
-```
+// ```

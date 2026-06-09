@@ -1,9 +1,9 @@
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -26,4 +26,4 @@ int sumOfLeftLeaves(struct TreeNode* root){
     else pre=root;
     return sumOfLeftLeaves( root->left)+sumOfLeftLeaves(root->right);
 }
-```
+// ```

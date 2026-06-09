@@ -1,10 +1,10 @@
-### 解题思路
-1.按#001两数之和使用双指针查找a+b = -c，遍历c
-2.去重，指针移动时应当跳过重复数字
+# ### 解题思路
+# 1.按#001两数之和使用双指针查找a+b = -c，遍历c
+# 2.去重，指针移动时应当跳过重复数字
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         # 双指针
@@ -56,4 +56,4 @@ class Solution:
 
 
 
-```
+# ```

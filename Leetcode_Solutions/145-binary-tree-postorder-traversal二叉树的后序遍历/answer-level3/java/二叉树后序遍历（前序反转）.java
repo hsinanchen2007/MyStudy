@@ -1,5 +1,5 @@
-## 递归
-```
+// ## 递归
+// ```
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -16,10 +16,10 @@ class Solution {
         res.add(root.val);
     }
 }
-```
+// ```
 
-## 迭代
-```
+// ## 迭代
+// ```
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -37,4 +37,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

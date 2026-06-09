@@ -1,10 +1,10 @@
-## c++ 排名 时间击败100%，空间击败100%的算法
+// ## c++ 排名 时间击败100%，空间击败100%的算法
 
-用链表结构实现hash，同时用链表存储数据
+// 用链表结构实现hash，同时用链表存储数据
 
 
-先定义链表结构
-```
+// 先定义链表结构
+// ```
 typedef struct hashLinkNode {
     int key;
     int value;
@@ -12,9 +12,9 @@ typedef struct hashLinkNode {
 
     struct hashLinkNode *nextLink;
 } HashLinkNode;
-```
+// ```
 
-```
+// ```
 #define NOT_EXIST -1
 
 class TwoSum {
@@ -90,4 +90,4 @@ public:
         return false;
     }
 };
-```
+// ```

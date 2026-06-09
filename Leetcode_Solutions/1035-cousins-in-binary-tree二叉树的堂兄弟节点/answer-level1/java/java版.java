@@ -1,10 +1,10 @@
-### 解题思路
-遍历二叉树，记录每个节点的深度和节点值。
-当两个节点的节点深度一样但是父节点不同时返回真。
+// ### 解题思路
+// 遍历二叉树，记录每个节点的深度和节点值。
+// 当两个节点的节点深度一样但是父节点不同时返回真。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -44,4 +44,4 @@ class Solution {
         helper(root.right,x,y,d,root);//递归遍历右子树
     }
 }
-```
+// ```

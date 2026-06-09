@@ -1,9 +1,9 @@
-### 解题思路
-最长公共子序列的变体，dp记录的公共部分的最大ascii值，最后减去这个就是最小需要删除的ascii值
+// ### 解题思路
+// 最长公共子序列的变体，dp记录的公共部分的最大ascii值，最后减去这个就是最小需要删除的ascii值
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //
@@ -31,4 +31,4 @@ public:
         return sum_ascii-max_ascii*2;
     }
 };
-```
+// ```

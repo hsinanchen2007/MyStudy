@@ -1,9 +1,9 @@
-### 解题思路
-C# 中序遍历树为排序数组 临近比较
+// ### 解题思路
+// C# 中序遍历树为排序数组 临近比较
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ public class Solution {
         TreeToList(root.right, ref list);
     }
 }
-```
+// ```

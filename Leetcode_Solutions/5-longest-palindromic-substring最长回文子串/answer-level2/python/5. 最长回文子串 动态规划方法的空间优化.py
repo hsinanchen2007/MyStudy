@@ -1,9 +1,9 @@
-### 解题思路
-1. 状态空间优化：矩阵 -> 矩阵上三角拼成的数组
+# ### 解题思路
+# 1. 状态空间优化：矩阵 -> 矩阵上三角拼成的数组
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestPalindrome(self, s):
         """
@@ -51,4 +51,4 @@ class Solution(object):
         return s[start:start + max_len]
 
 
-```
+# ```

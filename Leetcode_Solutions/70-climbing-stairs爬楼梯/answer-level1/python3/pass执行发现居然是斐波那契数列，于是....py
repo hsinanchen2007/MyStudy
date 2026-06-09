@@ -1,4 +1,4 @@
-```
+# ```
 代码块
 class Solution:
     def climbStairs(self, n: int) -> int:
@@ -10,4 +10,4 @@ class Solution:
                 li.append(li[i-1]+li[i-2])
                 i+=1
             return li[n-1]
-```
+# ```

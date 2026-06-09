@@ -1,10 +1,10 @@
-### 解题思路
-跟2sum的解法不同（2sum是利用了一个map）本体使用map面临了去重的问题，而且go处理起来也是很复杂的，所以果断使用了排序+双指针的解体方法。
+// ### 解题思路
+// 跟2sum的解法不同（2sum是利用了一个map）本体使用map面临了去重的问题，而且go处理起来也是很复杂的，所以果断使用了排序+双指针的解体方法。
 
-> [了解更多后端知识体系](https://github.com/googege/GOFamily#20.md)
-### 代码
+// > [了解更多后端知识体系](https://github.com/googege/GOFamily#20.md)
+// ### 代码
 
-```golang
+// ```golang
 func threeSum(nums []int) [][]int {
     if nums == nil {
         return [][]int{}
@@ -42,4 +42,4 @@ func threeSum(nums []int) [][]int {
     }
     return result
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         List<Integer> list1=new ArrayList<>();
         List<Integer> list2=new ArrayList<>();
@@ -16,9 +16,9 @@ public void preRootTraverse(TreeNode root,List<Integer> list){
             preRootTraverse(root.right,list);
     }
 }
-```
+// ```
   
 
   
-![TIM截图20191124163922.png](https://pic.leetcode-cn.com/0dd1b143ccdec09dad826c30bb915d0657cae3d97d8ec44ef29c07b92ce4488a-TIM%E6%88%AA%E5%9B%BE20191124163922.png)
+// ![TIM截图20191124163922.png](https://pic.leetcode-cn.com/0dd1b143ccdec09dad826c30bb915d0657cae3d97d8ec44ef29c07b92ce4488a-TIM%E6%88%AA%E5%9B%BE20191124163922.png)
 

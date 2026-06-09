@@ -1,9 +1,9 @@
-### 解题思路
-注意判断溢出的条件
+// ### 解题思路
+// 注意判断溢出的条件
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int reverse(int x) {
         int ans = 0;
@@ -20,4 +20,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

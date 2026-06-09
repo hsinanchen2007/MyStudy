@@ -1,9 +1,9 @@
-### 解题思路
-感觉没得什么算法可言，纯业务理解，相比其他的解题思路来说，非常好理解。
-找出重复命中的，和未命中的，然后把重复命中的插入到相应的位置。
-### 代码
+// ### 解题思路
+// 感觉没得什么算法可言，纯业务理解，相比其他的解题思路来说，非常好理解。
+// 找出重复命中的，和未命中的，然后把重复命中的插入到相应的位置。
+// ### 代码
 
-```golang
+// ```golang
 func relativeSortArray(arr1 []int, arr2 []int) []int {
 	notExists := []int{}
 	exists := map[int]int{} // value int count
@@ -54,4 +54,4 @@ func relativeSortArray(arr1 []int, arr2 []int) []int {
 	arr1 = append(arr1, notExists...)
 	return arr1
 }
-```
+// ```

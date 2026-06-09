@@ -1,4 +1,4 @@
-```
+# ```
 # up to c2 in s2, asciisum[i] = max asciisum from s1[0] up to s1[i]
 # for next a in s2, for next i
 # if s1[i]==a: newascs[i]=ascs[i-1]+ord(a)
@@ -12,9 +12,9 @@
 # 122333333444555 up to abcdeab
 # 123333444555666 up to abcde abcde a
 # 123444444555666 up to abcde abcde ab
-```
+# ```
 
-```
+# ```
 class Solution:
     def minimumDeleteSum(self, s1: str, s2: str) -> int
         ascs = [0] * (len(s1) + 1)  # asciisum
@@ -28,4 +28,4 @@ class Solution:
             ascs = newascs
         toint = lambda string: sum([ord(c) for c in string])
         return toint(s1) + toint(s2) - 2 * ascs[-1]
-```
+# ```

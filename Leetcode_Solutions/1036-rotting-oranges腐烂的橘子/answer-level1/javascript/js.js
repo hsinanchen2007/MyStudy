@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[][]} grid
  * @return {number}
@@ -39,4 +39,4 @@ var orangesRotting = function (grid) {
   }
   return count === m * n ? step === 0 ? 0 : step - 1 : -1;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct {
     char name[12];
     int freq;
@@ -53,4 +53,4 @@ void wordsFrequencyFree(WordsFrequency* obj) {
     }
     return;
 }
-```
+// ```

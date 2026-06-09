@@ -1,5 +1,5 @@
-直接对着代码看注释吧
-```java
+// 直接对着代码看注释吧
+// ```java
 class Solution {
     char[][]board;
     String word;
@@ -42,4 +42,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

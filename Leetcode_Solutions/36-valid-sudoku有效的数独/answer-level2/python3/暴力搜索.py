@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
         q=0
@@ -32,4 +32,4 @@ class Solution:
             return True
         else:
             return False
-```
+# ```

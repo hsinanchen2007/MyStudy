@@ -1,9 +1,9 @@
-### 解题思路
-通过记录有效坐标点，通过数组和长度搞有点晕。
+// ### 解题思路
+// 通过记录有效坐标点，通过数组和长度搞有点晕。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct TreeNode* constructFromPrePostGoon(int* pre, int preStart, int preEnd, 
                                                       int* post, int postStart, int postEnd){
         struct TreeNode* root;
@@ -31,4 +31,4 @@ struct TreeNode* constructFromPrePostGoon(int* pre, int preStart, int preEnd,
 struct TreeNode* constructFromPrePost(int* pre, int preSize, int* post, int postSize){
     return constructFromPrePostGoon(pre, 0, preSize - 1, post, 0, postSize -1);
 }
-```
+// ```

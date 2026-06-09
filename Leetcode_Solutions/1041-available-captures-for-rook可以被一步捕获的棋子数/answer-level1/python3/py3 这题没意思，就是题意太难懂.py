@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         der=[[0,1],[1,0],[0,-1],[-1,0]]
@@ -26,4 +26,4 @@ class Solution:
             
 
 
-```
+# ```

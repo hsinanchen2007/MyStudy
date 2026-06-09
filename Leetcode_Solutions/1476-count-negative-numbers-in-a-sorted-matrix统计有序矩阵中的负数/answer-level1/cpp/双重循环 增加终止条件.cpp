@@ -1,9 +1,9 @@
-### 解题思路
-利用题目特性，非递增。对列循环增加终止条件，当出现正数的时候就终止。
+// ### 解题思路
+// 利用题目特性，非递增。对列循环增加终止条件，当出现正数的时候就终止。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countNegatives(vector<vector<int>>& grid) {
@@ -18,4 +18,4 @@ public:
         return ans;
     }
 };
-```
+// ```

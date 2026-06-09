@@ -1,24 +1,24 @@
-![151. 翻转字符串里的单词.mp4](ce25c066-61cc-4629-aff8-1fccdb42816d)
+# ![151. 翻转字符串里的单词.mp4](ce25c066-61cc-4629-aff8-1fccdb42816d)
 
-#### 方法一：使用语言特性
+# #### 方法一：使用语言特性
 
-**思路和算法**
+# **思路和算法**
 
-很多语言对字符串提供了 `split`（拆分），`reverse`（翻转）和 `join`（连接）等方法，因此我们可以简单的调用内置的 API 完成操作：
+# 很多语言对字符串提供了 `split`（拆分），`reverse`（翻转）和 `join`（连接）等方法，因此我们可以简单的调用内置的 API 完成操作：
 
-1. 使用 `split` 将字符串按空格分割成字符串数组；
-2. 使用 `reverse` 将字符串数组进行反转；
-3. 使用 `join` 方法将字符串数组拼成一个字符串。
+# 1. 使用 `split` 将字符串按空格分割成字符串数组；
+# 2. 使用 `reverse` 将字符串数组进行反转；
+# 3. 使用 `join` 方法将字符串数组拼成一个字符串。
 
-![fig](https://pic.leetcode-cn.com/Figures/151/fun2.png)
+# ![fig](https://pic.leetcode-cn.com/Figures/151/fun2.png)
 
-```Python [solution1-Python3]
+# ```Python [solution1-Python3]
 class Solution:
     def reverseWords(self, s: str) -> str:
         return " ".join(reversed(s.split()))
-```
+# ```
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 class Solution {
     public String reverseWords(String s) {
         // 除去开头和末尾的空白字符
@@ -29,34 +29,34 @@ class Solution {
         return String.join(" ", wordList);
     }
 }
-```
-```JavaScript [solution1-JavaScript]
+# ```
+# ```JavaScript [solution1-JavaScript]
 var reverseWords = function(s) {
     return s.trim().split(/\s+/).reverse().join(' ');
 };
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N)$，其中 N 为输入字符串的长度。
+# * 时间复杂度：$O(N)$，其中 N 为输入字符串的长度。
 
-* 空间复杂度：$O(N)$，用来存储字符串分割之后的结果。
+# * 空间复杂度：$O(N)$，用来存储字符串分割之后的结果。
 
-#### 方法二：自行编写对应的函数
+# #### 方法二：自行编写对应的函数
 
-**思路和算法**
+# **思路和算法**
 
-我们也可以不使用语言中的 API，而是自己编写对应的函数。在不同语言中，这些函数实现是不一样的，主要的差别是有些语言的字符串不可变（如 Java 和 Python)，有些语言的字符串可变（如 C++)。
+# 我们也可以不使用语言中的 API，而是自己编写对应的函数。在不同语言中，这些函数实现是不一样的，主要的差别是有些语言的字符串不可变（如 Java 和 Python)，有些语言的字符串可变（如 C++)。
 
-对于字符串不可变的语言，首先得把字符串转化成其他可变的数据结构，同时还需要在转化的过程中去除空格。
+# 对于字符串不可变的语言，首先得把字符串转化成其他可变的数据结构，同时还需要在转化的过程中去除空格。
 
-![fig](https://pic.leetcode-cn.com/Figures/151/reverse_whole2.png)
+# ![fig](https://pic.leetcode-cn.com/Figures/151/reverse_whole2.png)
 
-对于字符串可变的语言，就不需要再额外开辟空间了，直接在字符串上原地实现。在这种情况下，反转字符和去除空格可以一起完成。
+# 对于字符串可变的语言，就不需要再额外开辟空间了，直接在字符串上原地实现。在这种情况下，反转字符和去除空格可以一起完成。
 
-![fig](https://pic.leetcode-cn.com/Figures/151/mutable2.png)
+# ![fig](https://pic.leetcode-cn.com/Figures/151/mutable2.png)
 
-```Python [solution2-Python3]
+# ```Python [solution2-Python3]
 class Solution:
     def trim_spaces(self, s: str) -> list:
         left, right = 0, len(s) - 1
@@ -108,9 +108,9 @@ class Solution:
         self.reverse_each_word(l)
         
         return ''.join(l)
-```
+# ```
 
-```Java [solution2-Java]
+# ```Java [solution2-Java]
 class Solution {
     public StringBuilder trimSpaces(String s) {
         int left = 0, right = s.length() - 1;
@@ -168,9 +168,9 @@ class Solution {
         return sb.toString();
     }
 }
-```
+# ```
 
-```C++ [solution2-C++]
+# ```C++ [solution2-C++]
 class Solution {
 public:
     string reverseWords(string s) {
@@ -199,23 +199,23 @@ public:
         return s;
     }
 };
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N)$，其中 N 为输入字符串的长度。
+# * 时间复杂度：$O(N)$，其中 N 为输入字符串的长度。
 
-* 空间复杂度：`Java` 和 `Python` 的方法需要 $O(N)$ 的空间来存储字符串，而 `C++` 方法只需要 `O(1)` 的额外空间来存放若干变量。
+# * 空间复杂度：`Java` 和 `Python` 的方法需要 $O(N)$ 的空间来存储字符串，而 `C++` 方法只需要 `O(1)` 的额外空间来存放若干变量。
 
-#### 方法三：双端队列
+# #### 方法三：双端队列
 
-**思路和算法**
+# **思路和算法**
 
-由于双端队列支持从队列头部插入的方法，因此我们可以沿着字符串一个一个单词处理，然后将单词压入队列的头部，再将队列转成字符串即可。
+# 由于双端队列支持从队列头部插入的方法，因此我们可以沿着字符串一个一个单词处理，然后将单词压入队列的头部，再将队列转成字符串即可。
 
-![fig](https://pic.leetcode-cn.com/Figures/151/deque2.png)
+# ![fig](https://pic.leetcode-cn.com/Figures/151/deque2.png)
 
-```Python [solution3-Python3]
+# ```Python [solution3-Python3]
 class Solution:
     def reverseWords(self, s: str) -> str:
         left, right = 0, len(s) - 1
@@ -239,9 +239,9 @@ class Solution:
         d.appendleft(''.join(word))
         
         return ' '.join(d)
-```
+# ```
 
-```Java [solution3-Java]
+# ```Java [solution3-Java]
 class Solution {
     public String reverseWords(String s) {
         int left = 0, right = s.length() - 1;
@@ -270,9 +270,9 @@ class Solution {
         return String.join(" ", d);
     }
 }
-```
+# ```
 
-```C++ [solution3-C++]
+# ```C++ [solution3-C++]
 class Solution {
 public:
     string reverseWords(string s) {
@@ -309,10 +309,10 @@ public:
         return ans;
     }
 };
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(N)$，其中 N 为输入字符串的长度。
+# * 时间复杂度：$O(N)$，其中 N 为输入字符串的长度。
 
-* 空间复杂度：$O(N)$，双端队列存储单词需要 $O(N)$ 的空间。
+# * 空间复杂度：$O(N)$，双端队列存储单词需要 $O(N)$ 的空间。

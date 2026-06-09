@@ -1,6 +1,6 @@
-线段树解法
+// 线段树解法
 
-```
+// ```
 typedef struct SegTreeNode {
     int start, end, sum;
     SegTreeNode *left, *right;
@@ -74,4 +74,4 @@ class NumArray {
 
     SegTree segTree;
 };
-```
+// ```

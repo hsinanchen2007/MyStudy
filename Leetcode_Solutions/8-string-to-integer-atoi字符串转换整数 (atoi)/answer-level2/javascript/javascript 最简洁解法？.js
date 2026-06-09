@@ -1,11 +1,11 @@
-```
+// ```
 var myAtoi = function (str) {
     return Math.max(-2147483648, Math.min(2147483647,(!parseInt(str) ? 0 : parseInt(str))));
 };
-```
-yeah
-开心，顺便贴上第一次思路：
-```
+// ```
+// yeah
+// 开心，顺便贴上第一次思路：
+// ```
 var myAtoi = function (str) {
     var flag = 0;
     var flagNum = 0;
@@ -48,4 +48,4 @@ var myAtoi = function (str) {
     }
     return str;
 }
-```
+// ```

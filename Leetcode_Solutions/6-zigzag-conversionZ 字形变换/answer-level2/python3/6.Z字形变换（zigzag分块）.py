@@ -1,4 +1,4 @@
-```Python
+# ```Python
 # 可是使用字符串索引(0, 1, 2, ..., len(s)-1)，画出zigzag（len(s)和numRows自己指定一个就好），
 # 分别计算出zigzag竖线和斜线上元素对应于字符串s中的索引。
 class Solution:

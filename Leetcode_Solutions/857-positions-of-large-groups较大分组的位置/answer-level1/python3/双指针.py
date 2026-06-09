@@ -1,9 +1,9 @@
-### 解题思路
-双指针，不需要特殊处理！
+# ### 解题思路
+# 双指针，不需要特殊处理！
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def largeGroupPositions(self, S: str) -> List[List[int]]:
         if not S:
@@ -22,4 +22,4 @@ class Solution:
             right += 1
         return res
 
-```
+# ```

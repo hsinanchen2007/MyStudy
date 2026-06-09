@@ -1,6 +1,6 @@
-定义头指针start和尾指针end，两数之和sum>target 时，end--，sum<target时start++
+// 定义头指针start和尾指针end，两数之和sum>target 时，end--，sum<target时start++
 
-代码如下：
+// 代码如下：
 
 class Solution {
     public int[] twoSum(int[] numbers, int target) {

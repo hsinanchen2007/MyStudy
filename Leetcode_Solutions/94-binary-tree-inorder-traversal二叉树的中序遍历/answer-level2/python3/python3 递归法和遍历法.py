@@ -1,11 +1,11 @@
 
-## 解法一 递归
-### 解题思路
-递归法，很简单
+# ## 解法一 递归
+# ### 解题思路
+# 递归法，很简单
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -24,14 +24,14 @@ class Solution:
             inorder(node.right)
         inorder(root)
         return output
-```
-## 解法二 遍历
-### 解题思路
-遍历法，需要通过栈来实现，麻烦一些
+# ```
+# ## 解法二 遍历
+# ### 解题思路
+# 遍历法，需要通过栈来实现，麻烦一些
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def inorderTraversal(self,root: TreeNode) -> List[int]:
         output = list()
@@ -63,4 +63,4 @@ class Solution:
 
             
 
-```
+# ```

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     string reverseVowels(string s) {
@@ -13,4 +13,4 @@ public:
         return s;
     }
 };
-```
+// ```

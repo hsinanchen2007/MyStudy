@@ -1,8 +1,8 @@
-### 解题思路
-见注释
-### 代码
+// ### 解题思路
+// 见注释
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string}
@@ -27,4 +27,4 @@ var compressString = function(S) {
     ans+=S[S.length-1]+count;
     return ans.length < S.length ? ans:S;
 };
-```
+// ```

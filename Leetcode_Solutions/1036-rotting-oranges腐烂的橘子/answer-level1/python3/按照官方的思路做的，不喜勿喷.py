@@ -1,10 +1,10 @@
-### 解题思路
-第一次遇到多元广度搜索的题目，没什么头绪，按照官方给出的思路做的。
-官方题解里的A有错，应该是grid
+# ### 解题思路
+# 第一次遇到多元广度搜索的题目，没什么头绪，按照官方给出的思路做的。
+# 官方题解里的A有错，应该是grid
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         R, C = len(grid), len(grid[0])
@@ -34,4 +34,4 @@ class Solution:
         return d
 
 
-```
+# ```

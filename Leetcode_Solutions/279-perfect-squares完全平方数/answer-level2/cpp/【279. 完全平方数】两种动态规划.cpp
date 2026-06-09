@@ -1,8 +1,8 @@
-## 思路：动态规划
-可以类比零钱兑换，这里将完全平方数看作可以用的零钱的。
+// ## 思路：动态规划
+// 可以类比零钱兑换，这里将完全平方数看作可以用的零钱的。
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     int numSquares(int n) {
@@ -16,11 +16,11 @@ public:
         return res[n];
     }
 };
-```
+// ```
 
-#### 另一种写法
-每次增加一个dp值
-```c++
+// #### 另一种写法
+// 每次增加一个dp值
+// ```c++
 class Solution {
 public:
     int numSquares(int n) {
@@ -36,7 +36,7 @@ public:
         return dp[n];
     }
 };
-```
+// ```
 
 
 

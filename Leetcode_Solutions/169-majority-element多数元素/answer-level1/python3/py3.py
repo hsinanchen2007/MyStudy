@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
         avg=len(nums)/2
@@ -11,4 +11,4 @@ class Solution:
                 count[i]=1
             if count[i]>avg:
                 return i
-```
+# ```

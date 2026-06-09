@@ -1,16 +1,16 @@
-首先，看下表
+// 首先，看下表
 
-![Screen Shot 2020-04-05 at 5.12.37 PM.png](https://pic.leetcode-cn.com/2700978f274bd97924368432eea479c7d3ab85a82e32c11d30c1708beeb8fb89-Screen%20Shot%202020-04-05%20at%205.12.37%20PM.png)
+// ![Screen Shot 2020-04-05 at 5.12.37 PM.png](https://pic.leetcode-cn.com/2700978f274bd97924368432eea479c7d3ab85a82e32c11d30c1708beeb8fb89-Screen%20Shot%202020-04-05%20at%205.12.37%20PM.png)
 
-**总结一下**
-第一第四情况下的操作为：1. 右移一位 2. carry值不变 3.操作数+1
-第三第四情况下操作为：1. 右移一位 2.carry变1 3. 操作数+2（自己+1一次，接着情况一+1一次）
+// **总结一下**
+// 第一第四情况下的操作为：1. 右移一位 2. carry值不变 3.操作数+1
+// 第三第四情况下操作为：1. 右移一位 2.carry变1 3. 操作数+2（自己+1一次，接着情况一+1一次）
 
-所以当我们用char array来从后向前遍历s中当字符时，仅需要关注第三第四情况。
-还有一个特殊情况为，当遍历到首位的时候，如果此刻carry为0，就需要停止任何操作，break循环
+// 所以当我们用char array来从后向前遍历s中当字符时，仅需要关注第三第四情况。
+// 还有一个特殊情况为，当遍历到首位的时候，如果此刻carry为0，就需要停止任何操作，break循环
 
-代码如下
-```java
+// 代码如下
+// ```java
 class Solution {
     public int numSteps(String s) {
         if(s.length() == 0) return 0;
@@ -38,4 +38,4 @@ class Solution {
         // }
     }
 }
-```
+// ```

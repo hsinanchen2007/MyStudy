@@ -1,10 +1,10 @@
-### 解题思路
-1、此处用递归计算；
-2、递归结束条件：出现各位数4，则返回False（找规律）。
+# ### 解题思路
+# 1、此处用递归计算；
+# 2、递归结束条件：出现各位数4，则返回False（找规律）。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isHappy(self, n: int) -> bool:
         s = str(n)
@@ -16,4 +16,4 @@ class Solution:
         if sum_num == 1:
             return True
         return self.isHappy(sum_num)
-```
+# ```

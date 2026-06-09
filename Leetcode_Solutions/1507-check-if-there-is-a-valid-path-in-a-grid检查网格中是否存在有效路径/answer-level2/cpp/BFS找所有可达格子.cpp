@@ -1,7 +1,7 @@
-* 思路就是通过BFS将所有可达的格子找到，如果包含最后一个格子，那么直接return true
-* 代码中注释
+// * 思路就是通过BFS将所有可达的格子找到，如果包含最后一个格子，那么直接return true
+// * 代码中注释
 
-```C++
+// ```C++
 class Solution {
 public:
     bool hasValidPath(vector<vector<int>>& grid);
@@ -52,4 +52,4 @@ bool Solution::hasValidPath(vector<vector<int>> &grid) {
     }
     return false;
 }
-```
+// ```

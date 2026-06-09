@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1. 构建一个中间链表和一个哑链表，哑链表指向中间链表的地址
-2. 中间链表指向两个链表的最小元素
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 1. 构建一个中间链表和一个哑链表，哑链表指向中间链表的地址
+# 2. 中间链表指向两个链表的最小元素
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -33,4 +33,4 @@ class Solution:
             
         return node.next
 
-```
+# ```

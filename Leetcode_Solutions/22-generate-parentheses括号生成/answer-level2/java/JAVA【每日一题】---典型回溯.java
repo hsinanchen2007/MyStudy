@@ -1,6 +1,6 @@
-回溯，需要一直保证str中左括号数量大于等于右括号数量
+// 回溯，需要一直保证str中左括号数量大于等于右括号数量
 
-```
+// ```
     public List<String> generateParenthesis(int n) {
         List<String> res = new ArrayList<>();
         if (n <= 0) {
@@ -30,4 +30,4 @@
         }
 
     }
-```
+// ```

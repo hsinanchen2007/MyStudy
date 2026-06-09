@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -23,4 +23,4 @@ public:
         return help[s_size][p_size];
     }
 };
-```
+// ```

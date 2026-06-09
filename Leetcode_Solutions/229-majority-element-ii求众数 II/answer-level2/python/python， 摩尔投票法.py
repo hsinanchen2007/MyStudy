@@ -1,4 +1,4 @@
-```python
+# ```python
     def majorityElement(self, nums: List[int]) -> List[int]:
         # 摩尔投票法
         m = n = None
@@ -23,4 +23,4 @@
                 ncount += 1
         N = len(nums)
         return [i for i, c in zip((m, n), (mcount, ncount)) if c > N//3]
-```
+# ```

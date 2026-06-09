@@ -1,10 +1,10 @@
-### 解题思路
-.........
-以后再来看别人的解法吧
+# ### 解题思路
+# .........
+# 以后再来看别人的解法吧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
@@ -18,4 +18,4 @@ class Solution:
             else:
                 continue
         return len(wide_str)
-```
+# ```

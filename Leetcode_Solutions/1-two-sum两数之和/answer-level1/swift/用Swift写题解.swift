@@ -1,4 +1,4 @@
-```objc
+// ```objc
 func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
       let count = nums.count
         var resoultDictionary:Dictionary<Int, Int> = [Int:Int]();
@@ -11,4 +11,4 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         }
         return [];
     }
-```
+// ```

@@ -1,15 +1,15 @@
 
-	例：head = 1 -> 2 -> 3 -> 4 -> 5
-1、获取中点指针
-	中点应该是第 (n+1)/2 个节点, slow = 3
-2、将原链表切分成两部分
-	切分后：node1 = 1 -> 2 -> 3, node2 = 4 -> 5
-3、反转node2
-	反转后：node1 = 1 -> 2 -> 3, node2 = 5 -> 4
-4、合并两个链表, 根据题意node1肯定至少和node2长度一样
-	合并后: head = 1 -> 5 -> 2 -> 4 -> 3
+// 	例：head = 1 -> 2 -> 3 -> 4 -> 5
+// 1、获取中点指针
+// 	中点应该是第 (n+1)/2 个节点, slow = 3
+// 2、将原链表切分成两部分
+// 	切分后：node1 = 1 -> 2 -> 3, node2 = 4 -> 5
+// 3、反转node2
+// 	反转后：node1 = 1 -> 2 -> 3, node2 = 5 -> 4
+// 4、合并两个链表, 根据题意node1肯定至少和node2长度一样
+// 	合并后: head = 1 -> 5 -> 2 -> 4 -> 3
 
-```
+// ```
 func reorderList(head *ListNode) {
 	if head == nil {
 		return
@@ -54,4 +54,4 @@ func Reverse(head *ListNode) *ListNode {
 	return pre
 }
 
-```
+// ```

@@ -1,5 +1,5 @@
-两个数组默认了是等长的，所以取其中一个长度就可以了。
-```
+// 两个数组默认了是等长的，所以取其中一个长度就可以了。
+// ```
 class Solution {
     public int game(int[] guess, int[] answer) {
         int count = 0;
@@ -11,4 +11,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

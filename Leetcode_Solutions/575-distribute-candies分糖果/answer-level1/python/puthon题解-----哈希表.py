@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def distributeCandies(self, candies):
         """
@@ -20,4 +20,4 @@ class Solution(object):
                 dic[i] += 1
                 sister_num += 1
         return sister
-```
+# ```

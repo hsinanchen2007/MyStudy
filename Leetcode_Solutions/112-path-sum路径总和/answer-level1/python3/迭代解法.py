@@ -1,5 +1,5 @@
-注意：该题是完整路径，结果一定是没有其他子树的路径
-```
+# 注意：该题是完整路径，结果一定是没有其他子树的路径
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -22,4 +22,4 @@ class Solution:
             return False
         osum = sum - root.val
         return self.hasPathSum(root.left, osum) or self.hasPathSum(root.right, osum)
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-暴力匹配很简单，重点是KMP。
+// ### 解题思路
+// 暴力匹配很简单，重点是KMP。
 
-### 代码
-```c
+// ### 代码
+// ```c
 int strStr(char * haystack, char * needle){
     if(needle == "")
         return 0;
@@ -27,4 +27,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

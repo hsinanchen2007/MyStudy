@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def frogPosition(self, n: int, edges: List[List[int]], t: int, target: int) -> float:
         '''最笨解，就是建立结果时刻表，还有已经访问的节点'''
@@ -37,4 +37,4 @@ class Solution:
            # print(lst,next,edges)
             
         return lst[target-1]
-```
+# ```

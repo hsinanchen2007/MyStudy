@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-`append([]byte{temp},ans...)`  非常浪费内存
+// `append([]byte{temp},ans...)`  非常浪费内存
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func addBinary(a string, b string) string {
     la :=len(a)
     lb := len(b)
@@ -50,4 +50,4 @@ func trans(i int,s string)int{
     }
 }
 
-```
+// ```

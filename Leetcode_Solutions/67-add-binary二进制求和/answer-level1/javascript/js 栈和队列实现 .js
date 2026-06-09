@@ -1,4 +1,4 @@
-```
+// ```
 var addBinary = function (a, b) {
     a = a.split(""), b = b.split("");
     const res = [];
@@ -34,4 +34,4 @@ var addBinary = function (a, b) {
     return res.join("");
 
   };
-```
+// ```

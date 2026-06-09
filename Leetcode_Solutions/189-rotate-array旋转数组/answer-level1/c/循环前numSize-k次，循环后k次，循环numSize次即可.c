@@ -1,4 +1,4 @@
-```
+// ```
 void rotate(int* nums, int numsSize, int k){
 
 	int remove = k%numsSize;//实际需要移动的次数
@@ -26,4 +26,4 @@ void rotate(int* nums, int numsSize, int k){
 	}
 
 }
-```
+// ```

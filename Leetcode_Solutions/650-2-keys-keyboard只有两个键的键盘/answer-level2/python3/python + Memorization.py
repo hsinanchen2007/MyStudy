@@ -1,4 +1,4 @@
-```python
+# ```python
 from functools import lru_cache
 class Solution:
     @lru_cache(None)
@@ -9,4 +9,4 @@ class Solution:
             if n % j == 0 and j != n:
                 res = min(res, self.minSteps(j) + (n // j))
         return res
-```
+# ```

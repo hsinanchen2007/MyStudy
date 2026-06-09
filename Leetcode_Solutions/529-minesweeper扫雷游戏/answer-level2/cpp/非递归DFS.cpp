@@ -1,8 +1,8 @@
-我先看了他的题解写了DFS和BFS,然后写的非递归的
-https://leetcode-cn.com/problems/minesweeper/solution/bfs-by-huihuiyue/
-### 代码
+// 我先看了他的题解写了DFS和BFS,然后写的非递归的
+// https://leetcode-cn.com/problems/minesweeper/solution/bfs-by-huihuiyue/
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     int dx[8] = { -1, -1,  0,  1,  1,  1,  0, -1};  // 上,上右,右,下右,下,下左,左,上左 (顺时针)
     int dy[8] = {  0,  1,  1,  1,  0, -1, -1, -1};
@@ -83,4 +83,4 @@ public:
         return board;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-首先将矩阵进行转置，然后按照中间线进行左右对称交换即可。python代码如下：
+# ### 解题思路
+# 首先将矩阵进行转置，然后按照中间线进行左右对称交换即可。python代码如下：
 
-执行用时 :40 ms, 在所有 Python3 提交中击败了61.50%的用户
-内存消耗 :13.6 MB, 在所有 Python3 提交中击败了100.00%的用户
-### 代码
+# 执行用时 :40 ms, 在所有 Python3 提交中击败了61.50%的用户
+# 内存消耗 :13.6 MB, 在所有 Python3 提交中击败了100.00%的用户
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         n = len(matrix)
@@ -24,15 +24,15 @@ class Solution:
 内存消耗 :13.7 MB, 在所有 Python3 提交中击败了100.00%的用户
 ### 代码
 
-```python3
-class Solution:
-    def rotate(self, matrix: List[List[int]]) -> None:
-        n = len(matrix)
-        mid = n >> 1
-        for i in range(n):
-            for j in range(i+1, n):
-                matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
-            for j in range(mid):
-                matrix[i][j], matrix[i][n - 1 - j] = matrix[i][n - 1 - j], matrix[i][j]
+# ```python3
+# class Solution:
+#     def rotate(self, matrix: List[List[int]]) -> None:
+#         n = len(matrix)
+#         mid = n >> 1
+#         for i in range(n):
+#             for j in range(i+1, n):
+#                 matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
+#             for j in range(mid):
+#                 matrix[i][j], matrix[i][n - 1 - j] = matrix[i][n - 1 - j], matrix[i][j]
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-暴力求解
+// ### 解题思路
+// 暴力求解
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] PlusOne(int[] digits) {
             int i;
@@ -27,4 +27,4 @@ public class Solution {
             return digits2;
     }
 }
-```
+// ```

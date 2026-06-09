@@ -1,10 +1,10 @@
-N皇后问题
-N皇后问题用到了回溯+剪枝的方式
+// N皇后问题
+// N皇后问题用到了回溯+剪枝的方式
 
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     private var cols: [Int] = [] // 存放是的某一行存储的皇后所在的列 cols[1] = 5（下标从0开始） 表示 第一行存储的皇后在在第5列
     private var nQueue: Int = 0
@@ -55,4 +55,4 @@ class Solution {
         return true
     }
 }
-```
+// ```

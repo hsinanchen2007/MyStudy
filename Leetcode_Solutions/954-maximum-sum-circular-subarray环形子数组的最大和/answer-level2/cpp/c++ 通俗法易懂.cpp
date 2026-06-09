@@ -1,9 +1,9 @@
-### 解题思路
-环时，最大值可能为(全部值和-最小序列值和)；
-进行比较判断即可。
-### 代码
+// ### 解题思路
+// 环时，最大值可能为(全部值和-最小序列值和)；
+// 进行比较判断即可。
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxSubarraySumCircular(vector<int>& A) {
@@ -24,4 +24,4 @@ public:
         return maxx<0?maxx:max(maxx,all-minn);
     }
 };
-```
+// ```

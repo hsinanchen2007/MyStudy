@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func largeGroupPositions(S string) [][]int {
 	res:=make([][]int,0)
 	str:=[]rune(S)
@@ -36,4 +36,4 @@ func largeGroupPositions(S string) [][]int {
 	}
 	return res
 }
-```
+// ```

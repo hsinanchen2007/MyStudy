@@ -1,5 +1,5 @@
 
-```
+// ```
 #define MAXSIZE  (100)
 void getTreeLeaf(struct TreeNode* root, int leaf[], int* index)
 {
@@ -39,5 +39,5 @@ bool leafSimilar(struct TreeNode* root1, struct TreeNode* root2){
     return true;
 
 }
-```
+// ```
 

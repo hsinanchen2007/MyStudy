@@ -1,9 +1,9 @@
-### 解题思路
-利用hash记录哪些文档对有交集，然后只计算这些文档对
+// ### 解题思路
+// 利用hash记录哪些文档对有交集，然后只计算这些文档对
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> computeSimilarities(vector<vector<int>>& docs) {
@@ -36,6 +36,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/2c4ac8644ac3d190d4f7141f854729b4d2ced5f2837af9fde84676fc80803a5c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2c4ac8644ac3d190d4f7141f854729b4d2ced5f2837af9fde84676fc80803a5c-image.png)

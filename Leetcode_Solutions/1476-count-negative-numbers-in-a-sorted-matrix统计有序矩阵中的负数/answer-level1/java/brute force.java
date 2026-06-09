@@ -1,9 +1,9 @@
-### 解题思路
-暴力破解法
+// ### 解题思路
+// 暴力破解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countNegatives(int[][] grid) {
         int count = 0;
@@ -17,4 +17,4 @@ class Solution {
         return count;
     }
 }
-```
+// ```

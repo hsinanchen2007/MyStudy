@@ -1,10 +1,10 @@
-##
-- 执行用时 :**1 ms**, 在所有 Java 提交中击败了**99.89%** 的用户
-- 内存消耗 :34.7 MB, 在所有 Java 提交中击败了25.70%的用户
-##
-一点拙见，附上代码
-##
-```
+// ##
+// - 执行用时 :**1 ms**, 在所有 Java 提交中击败了**99.89%** 的用户
+// - 内存消耗 :34.7 MB, 在所有 Java 提交中击败了25.70%的用户
+// ##
+// 一点拙见，附上代码
+// ##
+// ```
 public static List<List<Integer>> generate(int numRows){
     List<List<Integer>> list=new ArrayList<List<Integer>>();
     for(int i=0;i<numRows;i++){
@@ -27,4 +27,4 @@ public static List<List<Integer>> generate(int numRows){
     }	
     return list;
 }
-```
+// ```

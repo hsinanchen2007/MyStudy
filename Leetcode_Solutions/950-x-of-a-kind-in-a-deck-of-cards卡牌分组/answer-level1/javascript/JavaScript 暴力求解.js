@@ -1,11 +1,11 @@
-### 解题思路
-- 通过obj 和 for（let of）函数进行遍历，统计数组中数字的个数，通过 Object.value 得到统计数;
-- 然后通过 Array.every() 判断每一个统计数是否满足是 X 的条件；
-- gcd 函数判断 是否满足 X 的条件;
+// ### 解题思路
+// - 通过obj 和 for（let of）函数进行遍历，统计数组中数字的个数，通过 Object.value 得到统计数;
+// - 然后通过 Array.every() 判断每一个统计数是否满足是 X 的条件；
+// - gcd 函数判断 是否满足 X 的条件;
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} deck
  * @return {boolean}
@@ -27,4 +27,4 @@ var hasGroupsSizeX = function(deck) {
 }
 
 
-```
+// ```

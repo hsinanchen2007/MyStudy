@@ -1,4 +1,4 @@
-```
+// ```
     int h[4]={-1,1,0,0};
     int l[4]={0,0,-1,1};
     int orangesRotting(vector<vector<int>>& grid) {
@@ -37,4 +37,4 @@
         if(count==0) return res-1;// 若最后新鲜橘子为0，返回结果，否则返回-1
         else return -1;
     }
-```
+// ```

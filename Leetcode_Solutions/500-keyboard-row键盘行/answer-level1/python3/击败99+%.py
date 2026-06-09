@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-set的交集操作
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# set的交集操作
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findWords(self, words: List[str]) -> List[str]:
         colu1=set('qwertyuiop')
@@ -17,4 +17,4 @@ class Solution:
                str_list.append(str)
         return str_list
                 
-```
+# ```

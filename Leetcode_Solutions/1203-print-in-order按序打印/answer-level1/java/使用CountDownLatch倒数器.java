@@ -1,13 +1,13 @@
-### 解题思路
-CountDownLatch类，默认的构造函数为倒数的步长
-步长为0则可以继续进行代码执行
-等待倒计数的时候，使用await来hold
+// ### 解题思路
+// CountDownLatch类，默认的构造函数为倒数的步长
+// 步长为0则可以继续进行代码执行
+// 等待倒计数的时候，使用await来hold
 
-使用countDown方法来减少计数（向0靠拢）
+// 使用countDown方法来减少计数（向0靠拢）
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Foo {
 
     CountDownLatch latch1 = new CountDownLatch(1);
@@ -45,4 +45,4 @@ class Foo {
         printThird.run();
     }
 }
-```
+// ```

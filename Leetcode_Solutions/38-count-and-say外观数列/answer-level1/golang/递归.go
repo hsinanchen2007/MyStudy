@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countAndSay(n int) string {
 	if n == 1 {
 		return "1"
@@ -25,4 +25,4 @@ func countAndSay(n int) string {
 		return numStr+strconv.Itoa(count)+string(s[len(s)-1])    //单独处理最后一个元素
 	}
 }
-```
+// ```

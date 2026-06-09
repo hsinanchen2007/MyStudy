@@ -1,6 +1,6 @@
 
 
-``` 
+// ``` 
     public boolean isValidBST(TreeNode root) {
         return helper(root, Long.MIN_VALUE, Long.MAX_VALUE);
     }
@@ -13,4 +13,4 @@
         //右结点一定大于根节点。所以将根节点的值设为最小
         return helper(root.left, min, (long) root.val)&&helper(root.right, (long) root.val,max);
     }
-``` 
+// ``` 

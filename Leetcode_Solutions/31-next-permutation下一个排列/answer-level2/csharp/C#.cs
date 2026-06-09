@@ -1,4 +1,4 @@
-```csharp
+// ```csharp
 public class Solution {
     public void NextPermutation(int[] nums) {
         for(int i = nums.Length - 1; i > 0; i--)
@@ -31,4 +31,4 @@ public class Solution {
         Array.Sort(nums);
     }
 }
-```
+// ```

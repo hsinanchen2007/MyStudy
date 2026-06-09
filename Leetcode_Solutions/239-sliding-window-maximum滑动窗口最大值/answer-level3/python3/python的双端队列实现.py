@@ -1,9 +1,9 @@
-### 解题思路
-始终保持python双端队列左端元素为窗口最大值, 元素从右端写进去
+# ### 解题思路
+# 始终保持python双端队列左端元素为窗口最大值, 元素从右端写进去
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import deque
 
 class Solution:
@@ -27,4 +27,4 @@ class Solution:
         return window
 
 
-```
+# ```

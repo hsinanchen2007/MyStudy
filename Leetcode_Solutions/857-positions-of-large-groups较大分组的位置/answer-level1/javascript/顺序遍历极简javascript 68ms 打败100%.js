@@ -1,10 +1,10 @@
-### 解题思路
-边界判断上没有特殊处理，原本的 `i < S.length` 写成 `i <= S.length` 即可
-这样统一，看起来更理简洁
+// ### 解题思路
+// 边界判断上没有特殊处理，原本的 `i < S.length` 写成 `i <= S.length` 即可
+// 这样统一，看起来更理简洁
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {number[][]}
@@ -28,4 +28,4 @@ var largeGroupPositions = function (S) {
   return result
 };
 
-```
+// ```

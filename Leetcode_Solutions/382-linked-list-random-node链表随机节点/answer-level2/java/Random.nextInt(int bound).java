@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     //保存链表头
     ListNode head;
@@ -26,5 +26,5 @@ class Solution {
         return cur.val;
     }
 }
-```
-Random类的nextInt方法可以传入一个bound参数，返回[0, bound-1]中的任意整数
+// ```
+// Random类的nextInt方法可以传入一个bound参数，返回[0, bound-1]中的任意整数

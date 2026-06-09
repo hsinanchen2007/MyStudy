@@ -1,10 +1,10 @@
-### 解题思路
-单调队列思想, 维护一个单调递减队列，队列头存储当前窗口最大值在数组的index, 遍历数组nums不断更新队列头，即可获取所有窗口的最大值
-时间复杂度 O(n)
-空间复杂度 O(n)
-### 代码
+// ### 解题思路
+// 单调队列思想, 维护一个单调递减队列，队列头存储当前窗口最大值在数组的index, 遍历数组nums不断更新队列头，即可获取所有窗口的最大值
+// 时间复杂度 O(n)
+// 空间复杂度 O(n)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) 
@@ -30,4 +30,4 @@ public:
         return data;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-第一份代码
-```
+// 第一份代码
+// ```
 var res = make([][]int, 0)
 func combine(n int, k int) [][]int {
 	helperCombine(nil, 1, n, k) 
@@ -19,11 +19,11 @@ func helperCombine(data []int, i, n, k int) {
 	}
 	//reverse
 }
-```
+// ```
 
-感觉自己棒棒的有没有，测试也OK，submit结果呵呵
-找啊找啊找原因，发现是golang slice浅拷贝的问题，改成深拷贝
-```
+// 感觉自己棒棒的有没有，测试也OK，submit结果呵呵
+// 找啊找啊找原因，发现是golang slice浅拷贝的问题，改成深拷贝
+// ```
 var res = make([][]int, 0)
 func combine(n int, k int) [][]int {
 	helperCombine(nil, 1, n, k) // 这里res传入是为了兼容leetcode
@@ -47,11 +47,11 @@ func helperCombine(data []int, i, n, k int) {
 	}
 	//reverse
 }
-```
-这下感觉又棒棒的，测试也通过了，多试了几次测试用例都OK，submit，我擦又呵呵了
-用测试运行问题，submit就有问题，眼镜都要掉了，对比了官方java code，难道是全局变量的问题？测试改为局部变量果然ok，感觉对golang不友好呀
+// ```
+// 这下感觉又棒棒的，测试也通过了，多试了几次测试用例都OK，submit，我擦又呵呵了
+// 用测试运行问题，submit就有问题，眼镜都要掉了，对比了官方java code，难道是全局变量的问题？测试改为局部变量果然ok，感觉对golang不友好呀
 
-```
+// ```
 func combine(n int, k int) [][]int {
 	var res = make([][]int, 0)
 	helperCombine(&res, nil, 1, n, k) // 这里res传入是为了兼容leetcode
@@ -75,4 +75,4 @@ func helperCombine(res *[][]int, data []int, i, n, k int) {
 	}
 	//reverse
 }
-```
+// ```

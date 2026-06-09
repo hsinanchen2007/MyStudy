@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     # 递归回溯 python
     def minMutation(self, start: str, end: str, bank) -> int:
@@ -32,7 +32,7 @@ class Solution:
         helper(start, 0, bank) 
         if not counts: return -1
         else: return min(counts)
-```
-遍历开始基因的所有可能变化，通过回溯不断探索基因在基因库中变化的可能。
-取变化次数最小的值。
-p.s 欢迎小伙伴来抛个砖，对个暗号
+# ```
+# 遍历开始基因的所有可能变化，通过回溯不断探索基因在基因库中变化的可能。
+# 取变化次数最小的值。
+# p.s 欢迎小伙伴来抛个砖，对个暗号

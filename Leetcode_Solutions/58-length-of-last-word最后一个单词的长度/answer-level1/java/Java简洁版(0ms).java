@@ -1,5 +1,5 @@
-简洁易懂
-```java
+// 简洁易懂
+// ```java
 class Solution {
     public int lengthOfLastWord(String s) {
         int i = 0;
@@ -13,4 +13,4 @@ class Solution {
         return i;
     }
 }
-```
+// ```

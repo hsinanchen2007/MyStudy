@@ -1,11 +1,11 @@
-### 解题思路
-固定模式的层序遍历逻辑，两个list就好
-执行用时 : 48 ms, 在所有 Python 提交中击败了81.28%的用户
-内存消耗 : 14.9 MB, 在所有 Python 提交中击败了100.00%的用户
+# ### 解题思路
+# 固定模式的层序遍历逻辑，两个list就好
+# 执行用时 : 48 ms, 在所有 Python 提交中击败了81.28%的用户
+# 内存消耗 : 14.9 MB, 在所有 Python 提交中击败了100.00%的用户
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node(object):
@@ -35,4 +35,4 @@ class Solution(object):
         return result
 
 
-```
+# ```

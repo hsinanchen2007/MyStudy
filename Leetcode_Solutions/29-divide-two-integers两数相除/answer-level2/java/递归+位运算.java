@@ -1,6 +1,6 @@
-执行用时 : 6 ms, 在Divide Two Integers的Java提交中击败了91.42% 的用户
-内存消耗 : 33.6 MB, 在Divide Two Integers的Java提交中击败了76.86% 的用户
-```
+// 执行用时 : 6 ms, 在Divide Two Integers的Java提交中击败了91.42% 的用户
+// 内存消耗 : 33.6 MB, 在Divide Two Integers的Java提交中击败了76.86% 的用户
+// ```
 // 位运算 + 递归实现
 	// 思路 : 所有的数字都可以用二进制来表示
 	/* 计算过程如下
@@ -36,4 +36,4 @@
 		}
 		return result;
 	}
-```
+// ```

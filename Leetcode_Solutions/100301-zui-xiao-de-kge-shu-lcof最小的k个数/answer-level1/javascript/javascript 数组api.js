@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} arr
  * @param {number} k
@@ -17,4 +17,4 @@ var getLeastNumbers = function(arr, k) {
     const res = arr.splice(0, k)
     return res
 };
-```
+// ```

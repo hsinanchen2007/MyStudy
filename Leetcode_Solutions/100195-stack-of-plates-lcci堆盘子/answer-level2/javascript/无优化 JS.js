@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} cap
  */
@@ -62,4 +62,4 @@ StackOfPlates.prototype.popAt = function(index) {
  * var param_2 = obj.pop()
  * var param_3 = obj.popAt(index)
  */
-```
+// ```

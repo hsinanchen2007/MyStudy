@@ -1,17 +1,17 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/18
- *
- * 解题思路: 这个题目逆序解决 注意使用StringBuilder 来解决 ，String 字符串拼接很费时间 会超时
- *
- *    StringBuilder拼接，线程不安全，速度最快（10000条记录大概0毫秒）
- *    StringBuffer拼接，线程安全，速度略快（10000条记录大概16毫秒）
- *    String拼接，线程安全，速度最慢（10000条记录大概265毫秒）
- */
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/18
+//  *
+//  * 解题思路: 这个题目逆序解决 注意使用StringBuilder 来解决 ，String 字符串拼接很费时间 会超时
+//  *
+//  *    StringBuilder拼接，线程不安全，速度最快（10000条记录大概0毫秒）
+//  *    StringBuffer拼接，线程安全，速度略快（10000条记录大概16毫秒）
+//  *    String拼接，线程安全，速度最慢（10000条记录大概265毫秒）
+//  */
 
-```
+// ```
  public String licenseKeyFormatting(String S, int K) {
 
     char[] S_arr = S.toCharArray();
@@ -30,4 +30,4 @@
 
     return sb.reverse().toString().toUpperCase();
 }
-```
+// ```

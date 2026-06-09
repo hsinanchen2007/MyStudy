@@ -1,9 +1,9 @@
-### 解题思路
-快慢指针实现，以两倍的速度获取中间的值。
+// ### 解题思路
+// 快慢指针实现，以两倍的速度获取中间的值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -26,4 +26,4 @@ struct ListNode* middleNode(struct ListNode* head){
 
     return p;
 }
-```
+// ```

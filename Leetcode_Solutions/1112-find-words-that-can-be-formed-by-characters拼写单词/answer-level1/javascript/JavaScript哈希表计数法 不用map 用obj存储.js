@@ -1,9 +1,9 @@
-### 解题思路
-只需判断chars中字母出现的次数>= words中单词的字母次数，即可认为掌握了该单词
+// ### 解题思路
+// 只需判断chars中字母出现的次数>= words中单词的字母次数，即可认为掌握了该单词
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} chars
@@ -37,4 +37,4 @@ var countCharacters = function(words, chars) {
     });
     return sum;
 };
-```
+// ```

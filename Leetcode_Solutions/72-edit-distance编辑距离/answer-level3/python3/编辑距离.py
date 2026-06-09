@@ -1,9 +1,9 @@
-### 解题思路
-先打个卡，等功力稍微深厚点再重新做一遍。。
+# ### 解题思路
+# 先打个卡，等功力稍微深厚点再重新做一遍。。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         # 作者：LeetCode-Solution
@@ -37,4 +37,4 @@ class Solution:
 
 
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-计数器，最大公因子>=2
+# ### 解题思路
+# 计数器，最大公因子>=2
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         dico = collections.Counter(deck)
@@ -14,4 +14,4 @@ class Solution:
                 if gcd(dl[i], dl[j]) < 2: return False
         return True
         
-```
+# ```

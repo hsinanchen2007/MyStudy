@@ -1,9 +1,9 @@
-### 解题思路
-直接利用sorted 排序，判断两个字符串排序后是否相等就可以
+# ### 解题思路
+# 直接利用sorted 排序，判断两个字符串排序后是否相等就可以
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution(object):
     def CheckPermutation(self,s1,s2):
         """
@@ -13,4 +13,4 @@ class Solution(object):
         :return: bool
         """
         return sorted(list(s1))==sorted(list(s2))
-```
+# ```

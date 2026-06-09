@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-collections.deque()生成一个双向队列，可以从左侧出，右侧进，左侧进等操作。
-利用广度优先策略，从上到下每一行进行遍历。
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# collections.deque()生成一个双向队列，可以从左侧出，右侧进，左侧进等操作。
+# 利用广度优先策略，从上到下每一行进行遍历。
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
         return ans
     #    def dfs(node,ans):
     #        if node
-```
+# ```

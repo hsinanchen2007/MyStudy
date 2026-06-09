@@ -1,8 +1,8 @@
-### 解题思路
-回溯，枚举K个数选n个的操作，用位移操作表示枚举过程
+// ### 解题思路
+// 回溯，枚举K个数选n个的操作，用位移操作表示枚举过程
 
-### 代码
-```java
+// ### 代码
+// ```java
 class Solution {
     public List<String> readBinaryWatch(int num) {
         List<String> result = new ArrayList();
@@ -36,4 +36,4 @@ class Solution {
         }
     }
 }
-```
+// ```

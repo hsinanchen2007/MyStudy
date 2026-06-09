@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseWords(self, s: str) -> str:
         word = ""
@@ -23,4 +23,4 @@ class Solution:
         if len(lst)>0:
             res = res + lst[0]
         return res
-```
+# ```

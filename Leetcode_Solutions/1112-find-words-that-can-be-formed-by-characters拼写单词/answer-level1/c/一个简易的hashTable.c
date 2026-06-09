@@ -1,12 +1,12 @@
-### 解题思路
-虽然思路很简单但是一直有莫名奇妙的bug。。改了好久
-执行用时 :28 ms, 在所有 C 提交中击败了97.04%的用户
-内存消耗 :8.3 MB, 在所有 C 提交中击败了100.00%的用户
-效果还行吧，我猜多的时间花在数组清零上？
-思路就看注释吧
-### 代码
+// ### 解题思路
+// 虽然思路很简单但是一直有莫名奇妙的bug。。改了好久
+// 执行用时 :28 ms, 在所有 C 提交中击败了97.04%的用户
+// 内存消耗 :8.3 MB, 在所有 C 提交中击败了100.00%的用户
+// 效果还行吧，我猜多的时间花在数组清零上？
+// 思路就看注释吧
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
     int charsSize=strlen(chars);
     if (!wordsSize||!charsSize) return 0;/*特殊情况*/
@@ -35,4 +35,4 @@ int countCharacters(char ** words, int wordsSize, char * chars){
     }
     return charsNum;
 }
-```
+// ```

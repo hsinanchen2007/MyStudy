@@ -1,4 +1,4 @@
-```
+// ```
 
 
 int** g_matrix;
@@ -121,4 +121,4 @@ char*** solveNQueens(int n, int* returnSize, int** returnColumnSizes)
 
     return g_queues;
 }
-```
+// ```

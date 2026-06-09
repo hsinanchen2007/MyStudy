@@ -1,4 +1,4 @@
-```
+// ```
 int** generate(int numRows, int* returnSize, int** returnColumnSizes){
     int arr[100][100];
     int **res = (int **)malloc(sizeof(int *) * 100);
@@ -37,4 +37,4 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes){
     * returnSize = numRows;    
     return res;
 }
-```
+// ```

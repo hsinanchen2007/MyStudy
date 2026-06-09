@@ -1,9 +1,9 @@
-### 解题思路
-栈的操作
+# ### 解题思路
+# 栈的操作
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MinStack(object):
 
     def __init__(self):
@@ -46,4 +46,4 @@ class MinStack(object):
 # obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.getMin()
-```
+# ```

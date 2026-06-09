@@ -1,9 +1,9 @@
-动态规划做法，以前做过又忘了。
-关键是写出表达式和边界条件
+// 动态规划做法，以前做过又忘了。
+// 关键是写出表达式和边界条件
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
@@ -21,4 +21,4 @@ public:
         return dp[amount] > amount ? -1:dp[amount];
     }
 };
-```
+// ```

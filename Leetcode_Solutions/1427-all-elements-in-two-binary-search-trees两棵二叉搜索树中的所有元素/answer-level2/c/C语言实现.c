@@ -1,4 +1,4 @@
-```
+// ```
 int cmp(const void* a, const void* b)
 {
     return (*(int*)a - *(int*)b);
@@ -24,4 +24,4 @@ int* getAllElements(struct TreeNode* root1, struct TreeNode* root2, int* returnS
     qsort(ret, *returnSize, sizeof(int), cmp);
     return ret;
 }
-```
+// ```

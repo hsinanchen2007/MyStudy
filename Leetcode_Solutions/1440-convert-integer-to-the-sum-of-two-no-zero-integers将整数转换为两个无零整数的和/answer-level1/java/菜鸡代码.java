@@ -1,9 +1,9 @@
-### 解题思路
-没有思路，干就完事儿了
+// ### 解题思路
+// 没有思路，干就完事儿了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   	 public int[] getNoZeroIntegers(int n) {
 int [] a=new int [2];
@@ -25,4 +25,4 @@ if(!sx.contains("0")&&!sy.contains("0")) {
 return a;
     }
 }
-```
+// ```

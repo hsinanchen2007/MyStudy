@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var findContinuousSequence = function(target) {
     let low = 1,
         high = 2;
@@ -24,4 +24,4 @@ var findContinuousSequence = function(target) {
     }
     return res
 };
-```
+// ```

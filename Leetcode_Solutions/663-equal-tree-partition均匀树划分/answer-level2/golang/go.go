@@ -1,4 +1,4 @@
-```
+// ```
 func checkEqualTree(root *TreeNode) bool {
 	m := map[int]int{}
 	var cal func(*TreeNode) int
@@ -16,4 +16,4 @@ func checkEqualTree(root *TreeNode) bool {
 	}
 	return s&1 == 0 && m[s>>1] != 0
 }
-```
+// ```

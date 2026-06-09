@@ -1,4 +1,4 @@
-```php
+// ```php
 function minDistance($word1, $word2)
 {
     // 自底向上的 dp
@@ -33,4 +33,4 @@ function minDistance($word1, $word2)
 
     return $dp[$l1][$l2];
 }
-```
+// ```

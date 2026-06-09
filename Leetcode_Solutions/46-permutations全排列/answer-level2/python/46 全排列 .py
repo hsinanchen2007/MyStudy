@@ -1,10 +1,10 @@
-### 解题思路
-递归
-![image.png](https://pic.leetcode-cn.com/4ee6b270229acacb519e11d941390db2703fad541b8dad2c639a6b0b882e2382-image.png)
+# ### 解题思路
+# 递归
+# ![image.png](https://pic.leetcode-cn.com/4ee6b270229acacb519e11d941390db2703fad541b8dad2c639a6b0b882e2382-image.png)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def permute(self, nums):
         """
@@ -23,4 +23,4 @@ class Solution(object):
 
         return res
 
-```
+# ```

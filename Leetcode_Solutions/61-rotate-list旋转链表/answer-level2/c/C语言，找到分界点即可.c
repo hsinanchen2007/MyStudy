@@ -1,9 +1,9 @@
-### 解题思路
-关键在于找到分界节点即可
+// ### 解题思路
+// 关键在于找到分界节点即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
     return tmp2;
 
 }
-```
+// ```

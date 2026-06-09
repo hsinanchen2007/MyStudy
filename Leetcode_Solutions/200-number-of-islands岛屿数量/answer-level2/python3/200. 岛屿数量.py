@@ -1,9 +1,9 @@
-### 解题思路
-这题考察dfs，时间复杂度为O(N)，空间上要有个访问数组，不过可以改变元素值来达到目的，就不用额外的空间了。
+# ### 解题思路
+# 这题考察dfs，时间复杂度为O(N)，空间上要有个访问数组，不过可以改变元素值来达到目的，就不用额外的空间了。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         if not grid:
@@ -26,4 +26,4 @@ class Solution:
                     amount+=1
                     search(i,j)
         return amount
-```
+# ```

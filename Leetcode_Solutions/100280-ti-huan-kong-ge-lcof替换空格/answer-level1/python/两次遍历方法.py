@@ -1,11 +1,11 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
 
-### 解题思路
-先遍历找到多少个空格，然后开辟数组填充
+# ### 解题思路
+# 先遍历找到多少个空格，然后开辟数组填充
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def replaceSpace(self, s):
         """
@@ -30,4 +30,4 @@ class Solution(object):
                 new_array[j] = s[i]
                 j += 1
         return ''.join(new_array)
-```
+# ```

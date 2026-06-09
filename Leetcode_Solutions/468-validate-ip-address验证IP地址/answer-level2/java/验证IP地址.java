@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 简单而繁琐
+// # 简单而繁琐
 
-时间复杂度是O(n)，其中n为IP的长度。空间复杂度是O(1)。
+// 时间复杂度是O(n)，其中n为IP的长度。空间复杂度是O(1)。
 
-执行用时：1ms，击败99.30%。消耗内存：37.3MB，击败5.52%。
+// 执行用时：1ms，击败99.30%。消耗内存：37.3MB，击败5.52%。
 
-```java
+// ```java
 public class Solution {
     public String validIPAddress(String IP) {
         if (isIPv4(IP)) {
@@ -68,4 +68,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

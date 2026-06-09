@@ -1,9 +1,9 @@
-### 解题思路
-见代码注释
+// ### 解题思路
+// 见代码注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeElement(int[] nums, int val) {
         // 删除数组元素的三种方式
@@ -68,4 +68,4 @@ class Solution {
     }
 
 }
-```
+// ```

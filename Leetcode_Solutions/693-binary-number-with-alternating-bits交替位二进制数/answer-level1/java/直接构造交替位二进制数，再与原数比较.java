@@ -1,6 +1,6 @@
-我的想法是直接构造交替位二进制数字，然后再与原数比较是否相等。效率还行，所有 Java 提交中击败了96.57%的用户，但写代码可能太复杂了，可以参考一下。
-看代码：
-```java
+// 我的想法是直接构造交替位二进制数字，然后再与原数比较是否相等。效率还行，所有 Java 提交中击败了96.57%的用户，但写代码可能太复杂了，可以参考一下。
+// 看代码：
+// ```java
 public boolean hasAlternatingBits(int n) {
         if (n<2)
             return false;
@@ -25,4 +25,4 @@ public boolean hasAlternatingBits(int n) {
             return num==n-1;
         }
     }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-28ms 6MB
-两个下标, 一个从前向后扫描奇数, 一个从后向前扫描偶数, 并交换
+// ### 解题思路
+// 28ms 6MB
+// 两个下标, 一个从前向后扫描奇数, 一个从后向前扫描偶数, 并交换
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func exchange(nums []int) []int {
     left, right := 0, len(nums)-1
     for left < right {
@@ -21,4 +21,4 @@ func exchange(nums []int) []int {
     }
     return nums
 }
-```
+// ```

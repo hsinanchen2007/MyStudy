@@ -1,5 +1,5 @@
-两个矩形在X轴的投影有重合，并且在y轴的投影也有重合 => 两个矩形有重叠部分。这样是不是好理解很多。
-```
+// 两个矩形在X轴的投影有重合，并且在y轴的投影也有重合 => 两个矩形有重叠部分。这样是不是好理解很多。
+// ```
 class Solution {
 public:
     bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {
@@ -8,4 +8,4 @@ public:
         return x_overlap && y_overlap;
     }
 };
-```
+// ```

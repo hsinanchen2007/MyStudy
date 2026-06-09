@@ -1,5 +1,5 @@
-# 暴力超时
-```
+# # 暴力超时
+# ```
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         
@@ -12,14 +12,14 @@ class Solution:
                 maxArea = max(maxArea, min(height[i], height[j]) * (j-i))
 
         return maxArea
-```
-1. 暴力超时，时间复杂度On*n，空间复杂度O1
-2. Java暴力不超时而python超时，因python为解释性语言，比java运行慢
-3. 通过43/50个用例
+# ```
+# 1. 暴力超时，时间复杂度On*n，空间复杂度O1
+# 2. Java暴力不超时而python超时，因python为解释性语言，比java运行慢
+# 3. 通过43/50个用例
 
 
-# 双指针
-```
+# # 双指针
+# ```
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         
@@ -35,5 +35,5 @@ class Solution:
                 l += 1
 
         return res
-```
-1. 时间复杂度On，空间复杂度O1
+# ```
+# 1. 时间复杂度On，空间复杂度O1

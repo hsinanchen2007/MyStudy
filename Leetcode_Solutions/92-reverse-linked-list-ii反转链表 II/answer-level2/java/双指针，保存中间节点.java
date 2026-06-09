@@ -1,11 +1,11 @@
-### 解题思路
-利用头结点化简代码；
-遍历过程中保存需要连接的节点，
-reverse反转+接尾，完成反转后再拼接链表。
+// ### 解题思路
+// 利用头结点化简代码；
+// 遍历过程中保存需要连接的节点，
+// reverse反转+接尾，完成反转后再拼接链表。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -42,4 +42,4 @@ class Solution {
     }
     
 }
-```
+// ```

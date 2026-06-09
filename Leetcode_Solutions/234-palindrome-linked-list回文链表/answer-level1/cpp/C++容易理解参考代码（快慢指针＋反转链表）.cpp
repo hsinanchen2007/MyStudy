@@ -1,6 +1,6 @@
-各位大佬已经讲得很明白啦，在这里提供C++参考代码
-![image.png](https://pic.leetcode-cn.com/5a1521cc2110d7c276860131e95f936bcaa1bb2137350c54babcc463bb855d32-image.png)
-```
+// 各位大佬已经讲得很明白啦，在这里提供C++参考代码
+// ![image.png](https://pic.leetcode-cn.com/5a1521cc2110d7c276860131e95f936bcaa1bb2137350c54babcc463bb855d32-image.png)
+// ```
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
@@ -34,4 +34,4 @@ public:
         return true;
     }
 };
-```
+// ```

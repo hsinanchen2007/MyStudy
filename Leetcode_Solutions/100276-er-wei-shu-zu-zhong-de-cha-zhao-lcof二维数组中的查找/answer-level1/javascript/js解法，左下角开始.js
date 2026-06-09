@@ -1,9 +1,9 @@
-### 解题思路
-左下角，大的话向右移，小的话向左移
+// ### 解题思路
+// 左下角，大的话向右移，小的话向左移
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -27,4 +27,4 @@ var findNumberIn2DArray = function (array, target) {
 
   return false
 };
-```
+// ```

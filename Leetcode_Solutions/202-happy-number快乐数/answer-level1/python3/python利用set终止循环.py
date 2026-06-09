@@ -1,11 +1,11 @@
-### 解题思路
-若给定数为快乐数，则最终结果为 1，若不是则进入死循环。
-因此循环终止条件为 sum = 1；
-将每次 sum 值存入 issam 中，利用set去重，若出现重复，则 return False 
+# ### 解题思路
+# 若给定数为快乐数，则最终结果为 1，若不是则进入死循环。
+# 因此循环终止条件为 sum = 1；
+# 将每次 sum 值存入 issam 中，利用set去重，若出现重复，则 return False 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isHappy(self, n: int) -> bool:
         issam = [n]
@@ -19,4 +19,4 @@ class Solution:
                 return False
         return True
 
-```
+# ```

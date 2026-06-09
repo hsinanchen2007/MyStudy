@@ -1,4 +1,4 @@
-```
+// ```
 int cmp(const void *a, const void *b)
 {
 	return *((int *)b) - *((int *)a);
@@ -23,4 +23,4 @@ int maximumNumberOfOnes(int width, int height, int sideLength, int maxOnes)
 	}
 	return(sum);
 }
-```
+// ```

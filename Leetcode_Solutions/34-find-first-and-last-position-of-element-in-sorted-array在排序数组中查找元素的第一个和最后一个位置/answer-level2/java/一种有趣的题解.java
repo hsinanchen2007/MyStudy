@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     //根据二分法的特性来做：用二分查找法在数组中寻找一个不存在的数num，
     //最后mid一定会指向num相邻的两个数的其中一个。
@@ -42,4 +42,4 @@ class Solution {
         return new int[]{left,right};
     }
 }
-```
+// ```

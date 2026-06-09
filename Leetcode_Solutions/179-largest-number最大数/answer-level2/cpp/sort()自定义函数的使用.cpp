@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:  //C++  STL sort()的使用
     static bool cmp1(const string &x,const string &y){  //这里要加static,否则无效使用非静态成员函数
@@ -28,4 +28,4 @@ public:  //C++  STL sort()的使用
         return ans;
     }
 };
-```
+// ```

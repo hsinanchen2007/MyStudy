@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # https://leetcode-cn.com/problems/validate-binary-search-tree/
 # Definition for a binary tree node.
 # class TreeNode:
@@ -44,4 +44,4 @@ class Solution:
             p = p.right
         return True
             
-```
+# ```

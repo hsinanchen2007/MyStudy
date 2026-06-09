@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-关键性质：队列反序可以当做栈，而每次入队前将队内元素后置就可以做到这种反序。
+// 关键性质：队列反序可以当做栈，而每次入队前将队内元素后置就可以做到这种反序。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import "container/list"
 
 type MyStack struct {
@@ -53,4 +53,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

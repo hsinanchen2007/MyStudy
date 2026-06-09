@@ -1,6 +1,6 @@
-![6.png](https://pic.leetcode-cn.com/1ca10908d728223fe7f3c867e42284c6360659c78fabcefd8db6dcb0bf61adbc-6.png)
+// ![6.png](https://pic.leetcode-cn.com/1ca10908d728223fe7f3c867e42284c6360659c78fabcefd8db6dcb0bf61adbc-6.png)
 
-```
+// ```
 int lengthOfLongestSubstring(char * s){
     const int size = 0xffff;
     int mtx[size];
@@ -19,7 +19,7 @@ int lengthOfLongestSubstring(char * s){
     }
     return result;
 }
-```
+// ```
 
 
 

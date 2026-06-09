@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     private HashMap<String, Character> map = new HashMap<>();   //key: i+" "+j   value:该位置的字符
     private int left = 0, right = 0, bottom = 0, top = 0;   //记录边界位置
@@ -41,4 +41,4 @@ class Solution {
         helper(newX, newY, K - 1);
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 public int robdigui(int[] nums,int index) {
         if(index == 0){
             return nums[0];
@@ -48,4 +48,4 @@ public int robdigui(int[] nums,int index) {
         }
         return c;
     }
-```
+// ```

@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         res=[[0]*n for _ in range(n)]
@@ -21,8 +21,8 @@ class Solution:
                     r=r+dr[di]
                     c=c+dc[di]
         return res
-```
+# ```
 
 
 
-`
+# `

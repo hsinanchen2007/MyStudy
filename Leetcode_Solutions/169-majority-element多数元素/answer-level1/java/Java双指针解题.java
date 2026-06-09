@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、多数元素的个数>数组长度的一般
-2、将数组排序，从左到右遍历
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1、多数元素的个数>数组长度的一般
+// 2、将数组排序，从左到右遍历
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int majorityElement(int[] nums) {
         if (nums.length < 1) return -1;
@@ -25,4 +25,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

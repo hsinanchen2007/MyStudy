@@ -1,8 +1,8 @@
-python3
+# python3
 
-五行代码原地实现原地旋转：转置和水平翻转两个步骤。
+# 五行代码原地实现原地旋转：转置和水平翻转两个步骤。
 
-```
+# ```
 class Solution:
     def rotate(self, matrix) -> None:
 
@@ -12,4 +12,4 @@ class Solution:
 
         for row in matrix:
             row.reverse()
-```
+# ```

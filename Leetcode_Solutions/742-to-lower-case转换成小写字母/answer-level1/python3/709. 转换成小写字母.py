@@ -1,6 +1,6 @@
-str.lower() || str.upper()
+# str.lower() || str.upper()
 
-```
+# ```
 class Solution(object):
     def toLowerCase(self, str):
         """
@@ -9,4 +9,4 @@ class Solution(object):
         """
         return str.lower()
 
-```
+# ```

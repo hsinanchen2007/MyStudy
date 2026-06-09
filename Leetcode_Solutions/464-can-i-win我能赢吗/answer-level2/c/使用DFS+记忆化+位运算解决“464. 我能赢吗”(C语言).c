@@ -1,16 +1,16 @@
-### 解题思路
-经典的**游戏输赢类**问题，通常使用DFS+memo实现，这里给出C语言的解法。
+// ### 解题思路
+// 经典的**游戏输赢类**问题，通常使用DFS+memo实现，这里给出C语言的解法。
 
-本题特殊点在于，记忆化需要使用位运算实现，并且由于**选择的位图决定了结果数据大小，因此第二维度可以省略**，降低空间占用。
+// 本题特殊点在于，记忆化需要使用位运算实现，并且由于**选择的位图决定了结果数据大小，因此第二维度可以省略**，降低空间占用。
 
-另外，C语言使用calloc性能开销要远远优于for循环初始化。
+// 另外，C语言使用calloc性能开销要远远优于for循环初始化。
 
-![image.png](https://pic.leetcode-cn.com/7d2f849786a66f45269092e96cef103c54e92bb167fd14d90dc0ca9ce8caec31-image.png)
+// ![image.png](https://pic.leetcode-cn.com/7d2f849786a66f45269092e96cef103c54e92bb167fd14d90dc0ca9ce8caec31-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -78,4 +78,4 @@ bool canIWin(int maxChoosableInteger, int desiredTotal){
 
     return ret;
 }
-```
+// ```

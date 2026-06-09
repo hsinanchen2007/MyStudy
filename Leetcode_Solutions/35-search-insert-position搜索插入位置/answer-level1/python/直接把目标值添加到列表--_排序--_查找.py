@@ -1,10 +1,10 @@
-### 解题思路
-直接把目标值添加到列表-->排序-->查找
-时间复杂度：o(n)
-空间复杂度：o(1)
-### 代码
+# ### 解题思路
+# 直接把目标值添加到列表-->排序-->查找
+# 时间复杂度：o(n)
+# 空间复杂度：o(1)
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def searchInsert(self, nums, target):
         """
@@ -17,4 +17,4 @@ class Solution(object):
         for i,j in enumerate(nums):
             if j==target:
                 return i
-```
+# ```

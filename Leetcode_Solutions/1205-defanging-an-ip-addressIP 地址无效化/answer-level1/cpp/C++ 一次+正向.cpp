@@ -1,17 +1,17 @@
 
-## 思路：
+// ## 思路：
 
-一次遍历，正向遍历
-
-
-![image.png](https://pic.leetcode-cn.com/c04b8b1b2f6719f9d05b51934326538afda5c9733dfce83ad8d518548a96a275-image.png)
+// 一次遍历，正向遍历
 
 
+// ![image.png](https://pic.leetcode-cn.com/c04b8b1b2f6719f9d05b51934326538afda5c9733dfce83ad8d518548a96a275-image.png)
 
 
-## 
 
-```c++
+
+// ## 
+
+// ```c++
 class Solution {
 public:
     string defangIPaddr(string address) {
@@ -26,4 +26,4 @@ public:
         return ret;
     }
 };
-```
+// ```

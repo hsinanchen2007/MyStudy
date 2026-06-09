@@ -1,9 +1,9 @@
-### 解题思路
-见 [面试题55-I](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/solution/er-cha-shu-shen-du-di-gui-shuang-bai-by-hlhfev/)
+// ### 解题思路
+// 见 [面试题55-I](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/solution/er-cha-shu-shen-du-di-gui-shuang-bai-by-hlhfev/)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
         search(root.right,depth+1);
     }
 }
-```
+// ```

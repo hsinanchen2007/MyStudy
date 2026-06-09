@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def licenseKeyFormatting(S: String, K: Int): String = {
     var num = 0
@@ -23,4 +23,4 @@ object Solution {
   }
 }
 
-```
+// ```

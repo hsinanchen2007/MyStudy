@@ -1,8 +1,8 @@
-### 解题思路
-方法：哨兵节点。时间复杂度：O(n)；空间复杂度：O(1)。
-![链表.PNG](https://pic.leetcode-cn.com/74f7dbef96bf5d53a37b0f6c6352649856bfe7d71bbd2c743bc7f4b7ef1bcbcc-%E9%93%BE%E8%A1%A8.PNG)
-### 代码
-```java
+// ### 解题思路
+// 方法：哨兵节点。时间复杂度：O(n)；空间复杂度：O(1)。
+// ![链表.PNG](https://pic.leetcode-cn.com/74f7dbef96bf5d53a37b0f6c6352649856bfe7d71bbd2c743bc7f4b7ef1bcbcc-%E9%93%BE%E8%A1%A8.PNG)
+// ### 代码
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -31,4 +31,4 @@ class Solution {
         return solider.next;
     }
 }
-```
+// ```

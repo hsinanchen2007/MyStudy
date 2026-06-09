@@ -1,5 +1,5 @@
-8 ms; 2.9 MB
-```rs
+// 8 ms; 2.9 MB
+// ```rs
 // Definition for a binary tree node.
 // #[derive(Debug, PartialEq, Eq)]
 // pub struct TreeNode {
@@ -40,4 +40,4 @@ impl Solution {
         sum
     }
 }
-```
+// ```

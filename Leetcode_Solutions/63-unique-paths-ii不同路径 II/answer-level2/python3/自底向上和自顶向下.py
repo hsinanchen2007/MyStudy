@@ -1,22 +1,22 @@
-## 思路:
+# ## 思路:
 
-与上一题一样[62. 不同路径](https://leetcode-cn.com/problems/unique-paths/),用动态规划
+# 与上一题一样[62. 不同路径](https://leetcode-cn.com/problems/unique-paths/),用动态规划
 
-`dp[i][j]`表示到`i,j`位置的总步数,因为这道题有了障碍物,所以我们有障碍物的地方到不了就设置为`0`
+# `dp[i][j]`表示到`i,j`位置的总步数,因为这道题有了障碍物,所以我们有障碍物的地方到不了就设置为`0`
 
-动态方程: `dp[i][j] = dp[i-1][j] + dp[i][j-1]`
+# 动态方程: `dp[i][j] = dp[i-1][j] + dp[i][j-1]`
 
-注意,针对`dp`数组第一行,或者第一列要重新设置,考虑障碍物的情况!
+# 注意,针对`dp`数组第一行,或者第一列要重新设置,考虑障碍物的情况!
 
-当然空间还可以从二维优化到一维,参考[上一题的题解](https://leetcode-cn.com/problems/unique-paths/solution/dong-tai-gui-hua-by-powcai-2),二维更容易理解一点!
+# 当然空间还可以从二维优化到一维,参考[上一题的题解](https://leetcode-cn.com/problems/unique-paths/solution/dong-tai-gui-hua-by-powcai-2),二维更容易理解一点!
 
-再附上一个自顶向下的动态规划! 只要 `Python`, 大家可以提供一下 `Java`版呢?
+# 再附上一个自顶向下的动态规划! 只要 `Python`, 大家可以提供一下 `Java`版呢?
 
-## 代码:
+# ## 代码:
 
-自底向上
+# 自底向上
 
-```python [1]
+# ```python [1]
   def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:    
         if not obstacleGrid or not obstacleGrid[0]: return 0
         row = len(obstacleGrid)
@@ -38,11 +38,11 @@
                 if obstacleGrid[i][j] != 1:
                     dp[i][j] = dp[i-1][j] + dp[i][j-1]
         return dp[-1][-1]
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         if (obstacleGrid == null) return 0;
@@ -71,11 +71,11 @@ class Solution {
         return dp[obstacleGrid.length - 1][obstacleGrid[0].length - 1];
     }
 }
-```
+# ```
 
-自顶向下
+# 自顶向下
 
-```python [2]
+# ```python [2]
 class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:    
         import functools
@@ -93,5 +93,5 @@ class Solution:
             tmp += helper(i, j+1)
             return tmp
         return helper(0, 0)
-```
+# ```
 

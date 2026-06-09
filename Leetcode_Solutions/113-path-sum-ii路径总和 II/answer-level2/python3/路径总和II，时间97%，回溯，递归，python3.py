@@ -1,9 +1,9 @@
-### 解题思路
-![路径总和.png](https://pic.leetcode-cn.com/6d505da781d50860add67b5699778e27a01866b5d9a0c2ba88bb0d5289832048-%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C.png)
+# ### 解题思路
+# ![路径总和.png](https://pic.leetcode-cn.com/6d505da781d50860add67b5699778e27a01866b5d9a0c2ba88bb0d5289832048-%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             del temp[-1]
         dfs(root, summ, [])
         return res
-```
+# ```

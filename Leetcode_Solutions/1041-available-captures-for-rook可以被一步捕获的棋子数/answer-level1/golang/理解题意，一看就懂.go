@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/b6cd1421c36e7ec9ebb0935d7fd06fd53282a9b71a730f76ebba3b84f9d1271e-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/b6cd1421c36e7ec9ebb0935d7fd06fd53282a9b71a730f76ebba3b84f9d1271e-image.png)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 //先找出R的位置
 //然后判断它的四个方向
 //遇到白象 就停止
@@ -68,4 +68,4 @@ for i:=y+1;i<8;i++ {
 return sum
 
 }
-```
+// ```

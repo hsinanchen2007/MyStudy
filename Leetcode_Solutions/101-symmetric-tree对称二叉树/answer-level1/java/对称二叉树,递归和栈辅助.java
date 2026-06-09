@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-![image.png](https://pic.leetcode-cn.com/1d9b4deab5ec787cd82d916e5876f3f5d7b2af4e5037c202faf60faabe752ec1-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1d9b4deab5ec787cd82d916e5876f3f5d7b2af4e5037c202faf60faabe752ec1-image.png)
 
-判断是否是对称二叉树,其实就是判断值是否相等,和左子树的左等于右子树的右,左子树右等于右子树的左
+// 判断是否是对称二叉树,其实就是判断值是否相等,和左子树的左等于右子树的右,左子树右等于右子树的左
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -63,4 +63,4 @@
         }
         return true;
     }
-```
+// ```

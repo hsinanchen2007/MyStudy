@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/3125a45640f97585ef651f0618e60f74f2b182c5a4540310a2440f5423fa5602-image.png)
+# ![image.png](https://pic.leetcode-cn.com/3125a45640f97585ef651f0618e60f74f2b182c5a4540310a2440f5423fa5602-image.png)
 
 
-### 代码
-```python3
+# ### 代码
+# ```python3
 # Definition for a binary tree node.
 
 # class TreeNode:
@@ -35,4 +35,4 @@ class Solution:
       
 
 
-```
+# ```

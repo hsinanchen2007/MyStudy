@@ -1,9 +1,9 @@
-### 解题思路
-DFS C语言实现，好像效率和内存占有都有点高啊 求大神指导
+// ### 解题思路
+// DFS C语言实现，好像效率和内存占有都有点高啊 求大神指导
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * appendString(char* dst,char *src1)
 {
     return strcat(dst,src1);
@@ -62,4 +62,4 @@ char ** generateParenthesis(int n, int* returnSize){
     ret =pushString(0,returnSize,0);
     return ret;
 }
-```
+// ```

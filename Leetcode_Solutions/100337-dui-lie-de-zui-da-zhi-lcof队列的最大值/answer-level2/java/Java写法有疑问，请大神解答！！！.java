@@ -1,5 +1,5 @@
-有人能解答一下我写的pop_front方法错在哪里了吗（注释的写法为正确写法）
-``` java
+// 有人能解答一下我写的pop_front方法错在哪里了吗（注释的写法为正确写法）
+// ``` java
 class MaxQueue {
     LinkedList<Integer> queue;
     LinkedList<Integer> deque;
@@ -32,5 +32,5 @@ class MaxQueue {
         return res;*/
     }
 }
-```
+// ```
 

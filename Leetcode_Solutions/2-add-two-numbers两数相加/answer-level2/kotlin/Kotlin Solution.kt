@@ -1,4 +1,4 @@
-```kotlin
+// ```kotlin
 
 /**
  * Example:
@@ -34,4 +34,4 @@ class Solution {
         return dummy.next
     }
 }
-```
+// ```

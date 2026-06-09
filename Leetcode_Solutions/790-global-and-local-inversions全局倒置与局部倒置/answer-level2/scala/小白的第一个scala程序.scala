@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
     def isIdealPermutation(A: Array[Int]): Boolean = {
         if(A.length < 2){
@@ -15,4 +15,4 @@ object Solution {
     }
 }
 
-```
+// ```

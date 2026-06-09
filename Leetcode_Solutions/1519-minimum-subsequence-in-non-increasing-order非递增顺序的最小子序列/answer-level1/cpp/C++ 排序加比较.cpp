@@ -1,5 +1,5 @@
-将nums排好序后维护两个和sum1代表子序列的和，从后往前加，sum2表示序列剩余元素之和，从后往前减。当sum1>sum2时跳出循环，输出子序列。代码如下：
-```
+// 将nums排好序后维护两个和sum1代表子序列的和，从后往前加，sum2表示序列剩余元素之和，从后往前减。当sum1>sum2时跳出循环，输出子序列。代码如下：
+// ```
 class Solution {
 public:
     vector<int> minSubsequence(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
     return ans;
     } 
 };
-```
+// ```

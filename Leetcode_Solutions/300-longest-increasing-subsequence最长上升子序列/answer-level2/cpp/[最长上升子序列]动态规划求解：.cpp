@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-动态规划求解：
-状态方程：dp[i]
-状态转移方程：dp[i]=dp[j]+1,dp[j]表示小于[i]的所有最优子结构
+// 动态规划求解：
+// 状态方程：dp[i]
+// 状态转移方程：dp[i]=dp[j]+1,dp[j]表示小于[i]的所有最优子结构
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
 	return maxL;
     }
 };
-```
+// ```

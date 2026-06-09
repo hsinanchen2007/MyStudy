@@ -1,10 +1,10 @@
-### 解题思路
-终止条件 leftSum + rightSum + $nums[$i] = array_sum($nums)
-即 leftSum * 2 + $nums[$i] = array_sum($nums)
+// ### 解题思路
+// 终止条件 leftSum + rightSum + $nums[$i] = array_sum($nums)
+// 即 leftSum * 2 + $nums[$i] = array_sum($nums)
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -27,4 +27,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

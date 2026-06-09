@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -52,4 +52,4 @@ int * fairCandySwap( int * A , int ASize , int * B , int BSize , int * returnSiz
     return A;
 
 }
-```
+// ```

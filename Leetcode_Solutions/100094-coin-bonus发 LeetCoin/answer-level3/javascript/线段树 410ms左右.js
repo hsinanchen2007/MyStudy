@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} n
  * @param {number[][]} leadership
@@ -95,4 +95,4 @@ Node.prototype.query = function(start, end, addVal) {
     }
     return res % mod
 }
-```
+// ```

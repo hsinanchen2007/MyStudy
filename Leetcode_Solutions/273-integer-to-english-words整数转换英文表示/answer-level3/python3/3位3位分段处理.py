@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numberToWords(self, num: int) -> str:
         d = ["Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven",
@@ -35,9 +35,9 @@ class Solution:
                 num = num % g
         return ' '.join(res)
             
-```
-优化代码
-```
+# ```
+# 优化代码
+# ```
 class Solution:
     def numberToWords(self, num: int) -> str:
         d = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven",
@@ -60,4 +60,4 @@ class Solution:
                 res = res + zero_1000(num // g) + s
                 num = num % g
         return ' '.join(res)
-```
+# ```

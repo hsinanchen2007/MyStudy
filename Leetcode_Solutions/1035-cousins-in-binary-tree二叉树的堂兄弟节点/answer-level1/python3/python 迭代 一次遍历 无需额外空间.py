@@ -1,5 +1,5 @@
-层次遍历 入队时增加标记判断是否为同父
-```
+# 层次遍历 入队时增加标记判断是否为同父
+# ```
 class Solution:
     def isCousins(self, root: TreeNode, x: int, y: int) -> bool:
         queue = [(0,root)]  
@@ -27,9 +27,9 @@ class Solution:
                 if thislevel:
                     return False                       #同层只有一个目标值，返回False
         return False
-```
-复杂度分析
+# ```
+# 复杂度分析
 
-时间复杂度：O(N)，一次遍历。
+# 时间复杂度：O(N)，一次遍历。
 
-空间复杂度：O(N)，维护一个队列，无需额外空间。
+# 空间复杂度：O(N)，维护一个队列，无需额外空间。

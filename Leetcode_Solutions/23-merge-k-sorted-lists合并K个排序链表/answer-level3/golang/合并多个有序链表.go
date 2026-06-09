@@ -1,5 +1,5 @@
-每次遍历所有链表，找到头结点最小值，放到返回的链表中，同时把找到的链表头结点删除，当某一链表遍历完成时，移出链表数组，直到数组中链表全部遍历完
-```
+// 每次遍历所有链表，找到头结点最小值，放到返回的链表中，同时把找到的链表头结点删除，当某一链表遍历完成时，移出链表数组，直到数组中链表全部遍历完
+// ```
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -53,4 +53,4 @@ func mergeKLists(lists []*ListNode) *ListNode {
 	}
 	return head
 }
-```
+// ```

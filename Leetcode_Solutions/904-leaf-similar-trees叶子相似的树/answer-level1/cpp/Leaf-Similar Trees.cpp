@@ -1,10 +1,10 @@
-### 解题思路
-定义一个函数leafNode，输入是根节点和数组，作用是将树的叶子节点保存到数组中。
-将两个根节点root1,root2都传入leafNode函数中，得到两个存储叶子结点的数组，然后比较两个数组是否相等。
+// ### 解题思路
+// 定义一个函数leafNode，输入是根节点和数组，作用是将树的叶子节点保存到数组中。
+// 将两个根节点root1,root2都传入leafNode函数中，得到两个存储叶子结点的数组，然后比较两个数组是否相等。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
         return res1==res2;
     }
 };
-```
+// ```

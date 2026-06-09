@@ -1,6 +1,6 @@
-一个可行的解法, 可惜会超出内存限制! 
+// 一个可行的解法, 可惜会超出内存限制! 
 
-```
+// ```
     fun maxNumberOfFamilies(n: Int, reservedSeats: Array<IntArray>): Int {
         val matrix = Array(reservedSeats.size) { IntArray(10) { 0 } }
         var x = 0
@@ -56,4 +56,4 @@
         }
         return count
     }
-```
+// ```

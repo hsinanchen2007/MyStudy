@@ -1,14 +1,14 @@
-### 解题思路
-right: try x,y=+1, until[x][y] unavailable, than turn down
-down: try x=+1,y, until[x][y] unavailable, than turn left
-left: try x,y-=1, until[x][y] unavailable, than turn up
-up:  try x-=1,y, until[x][y] unavailable, than turn right
+// ### 解题思路
+// right: try x,y=+1, until[x][y] unavailable, than turn down
+// down: try x=+1,y, until[x][y] unavailable, than turn left
+// left: try x,y-=1, until[x][y] unavailable, than turn up
+// up:  try x-=1,y, until[x][y] unavailable, than turn right
 
-使用两个[]int数组，分别记录哪些行和哪些列已经不能访问了，即代码中的 unavailableX, unavailableY
+// 使用两个[]int数组，分别记录哪些行和哪些列已经不能访问了，即代码中的 unavailableX, unavailableY
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func spiralOrder(matrix [][]int) []int {
     if len(matrix) == 0 {
         return []int{}
@@ -53,4 +53,4 @@ func isAvailable(x,y int, unavailableX, unavailableY []bool) bool {
     }
     return true
 }
-```
+// ```

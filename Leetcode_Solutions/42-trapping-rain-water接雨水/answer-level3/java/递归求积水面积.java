@@ -1,8 +1,8 @@
-### 解题思路
-找出最高点的索引maxIdx， 然后从左边区域找出最高点索引maxLeftIdx，计算左边区域的积水面积；右边同理。
+// ### 解题思路
+// 找出最高点的索引maxIdx， 然后从左边区域找出最高点索引maxLeftIdx，计算左边区域的积水面积；右边同理。
 
 
-```java
+// ```java
 // 计算左边的积水面积,先判断maxIdx - 1 > maxLeftIdx是否满足积水条件；
 // 取决于短板，所以先减去用短板高度减去中间的高度
 int ans = 0;
@@ -11,11 +11,11 @@ if (maxIdx - 1 > maxLeftIdx ) {
         ans += (height[maxLeftIdx] - height[i]);
     }
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
    public int trap(int[] height) {
         int ans = 0;
@@ -60,4 +60,4 @@ class Solution {
         return maxIdx;
     }
 }
-```
+// ```

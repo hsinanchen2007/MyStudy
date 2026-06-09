@@ -1,9 +1,9 @@
-### 解题思路
-d为int过不了，会溢出，改为long，ans却不会溢出
+// ### 解题思路
+// d为int过不了，会溢出，改为long，ans却不会溢出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int titleToNumber(string s) {
@@ -18,4 +18,4 @@ public:
         return ans;
     }
 };
-```
+// ```

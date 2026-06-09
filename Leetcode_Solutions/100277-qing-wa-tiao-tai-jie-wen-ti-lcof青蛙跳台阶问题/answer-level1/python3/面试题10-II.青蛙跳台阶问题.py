@@ -1,4 +1,4 @@
-```java []
+# ```java []
 class Solution {
     public int numWays(int n) { // DP
         if(n == 0){
@@ -18,8 +18,8 @@ class Solution {
         return sec;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def numWays(self, n: int) -> int: # DP
         if n == 0:
@@ -31,4 +31,4 @@ class Solution:
         for i in range(2, n+1):
             first, sec = sec, (first + sec) % 1000000007
         return sec
-```
+# ```

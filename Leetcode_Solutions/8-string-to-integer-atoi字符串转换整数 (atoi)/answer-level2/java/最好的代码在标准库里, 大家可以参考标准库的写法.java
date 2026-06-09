@@ -1,7 +1,7 @@
-Java 源码标准库分析: [parseInt()](https://www.jianshu.com/p/da80a793dd57)
+// Java 源码标准库分析: [parseInt()](https://www.jianshu.com/p/da80a793dd57)
 
 
-```java
+// ```java
 class Solution {
     public int myAtoi(String str) {
         str = str.trim();
@@ -44,4 +44,4 @@ class Solution {
         return negative ? res : -res;
     }
 }
-```
+// ```

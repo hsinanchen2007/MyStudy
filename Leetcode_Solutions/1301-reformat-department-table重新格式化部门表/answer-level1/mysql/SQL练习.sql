@@ -1,4 +1,4 @@
-```
+-- ```
 # Write your MySQL query statement below
 select id,
 sum(if(month='Jan', revenue, NULL)) Jan_Revenue,
@@ -15,5 +15,5 @@ sum(if(month='Nov', revenue, NULL)) Nov_Revenue,
 sum(if(month='Dec', revenue, NULL)) Dec_Revenue
 from Department
 group by id;
-```
-这道题教给了我如何去实现由行向列的转化，添加新的列，实现表的重构
+-- ```
+-- 这道题教给了我如何去实现由行向列的转化，添加新的列，实现表的重构

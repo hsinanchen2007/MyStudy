@@ -1,5 +1,5 @@
-用调用子函数的方法模拟哈希表的作用，节省了内存空间，但每次写表和查表都需要调用一次子函数，比较费时。
-```
+// 用调用子函数的方法模拟哈希表的作用，节省了内存空间，但每次写表和查表都需要调用一次子函数，比较费时。
+// ```
 void hashwords_func(char **words,int wordsSize,int *hashwords){
     for(int i=0;i<wordsSize;i++){
         for(int j=i;j<wordsSize;j++){               //将后面的重复的单词的个数全都加到前面相同的那个
@@ -74,6 +74,6 @@ int* findSubstring(char * s, char ** words, int wordsSize, int* returnSize){
     }
     return ret;
 }
-```
-耗时都在200ms左右。
-![image.png](https://pic.leetcode-cn.com/9f613c1c7914a84c86fdc79fcaae900a1952228e98a88303fe32028dc51ba8a8-image.png)
+// ```
+// 耗时都在200ms左右。
+// ![image.png](https://pic.leetcode-cn.com/9f613c1c7914a84c86fdc79fcaae900a1952228e98a88303fe32028dc51ba8a8-image.png)

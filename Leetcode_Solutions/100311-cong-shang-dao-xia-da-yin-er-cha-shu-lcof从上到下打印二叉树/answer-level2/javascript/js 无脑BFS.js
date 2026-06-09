@@ -1,6 +1,6 @@
-这是中等题？分明是简单题送分题。。
+// 这是中等题？分明是简单题送分题。。
 
-```js
+// ```js
 var levelOrder = function(root) {
     const res = [];
     if(!root) return res;
@@ -17,4 +17,4 @@ var levelOrder = function(root) {
     }
     return res;
 };
-```
+// ```

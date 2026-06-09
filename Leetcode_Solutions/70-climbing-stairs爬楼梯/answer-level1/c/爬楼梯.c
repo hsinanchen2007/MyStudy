@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-斐波那契
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 斐波那契
+// ### 代码
 
-```c
+// ```c
 int climbStairs(int n){
     int n1 = 1, n2 = 2, n3 = 0, i;
     if (n == 1) return 1;
@@ -16,4 +16,4 @@ int climbStairs(int n){
     }
     return n3;
 }
-```
+// ```

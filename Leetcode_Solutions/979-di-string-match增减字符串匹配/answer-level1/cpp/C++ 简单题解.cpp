@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> diStringMatch(string S) {
@@ -14,5 +14,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/f5b85960f9c7636f65acd07ea18b95b496442a8b500ac0b32ae8ea0653b8be69-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/f5b85960f9c7636f65acd07ea18b95b496442a8b500ac0b32ae8ea0653b8be69-image.png)

@@ -1,13 +1,13 @@
-#### 方法一： 深度优先搜索
+// #### 方法一： 深度优先搜索
 
-**思路**
+// **思路**
 
-如果节点有指向父节点的引用，也就知道了距离该节点 `1` 距离的所有节点。之后就可以从  `target` 节点开始进行深度优先搜索了。
+// 如果节点有指向父节点的引用，也就知道了距离该节点 `1` 距离的所有节点。之后就可以从  `target` 节点开始进行深度优先搜索了。
 
-**算法**
-对所有节点添加一个指向父节点的引用，之后做深度优先搜索，找到所有距离 `target` 节点 `K` 距离的节点。
+// **算法**
+// 对所有节点添加一个指向父节点的引用，之后做深度优先搜索，找到所有距离 `target` 节点 `K` 距离的节点。
 
-```Java []
+// ```Java []
 class Solution {
     Map<TreeNode, TreeNode> parent;
     public List<Integer> distanceK(TreeNode root, TreeNode target, int K) {
@@ -62,9 +62,9 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-```Python []
+// ```Python []
 class Solution(object):
     def distanceK(self, root, target, K):
         def dfs(node, par = None):
@@ -87,36 +87,36 @@ class Solution(object):
                     queue.append((nei, d+1))
 
         return []
-```
+// ```
 
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $O(N)$，其中 $N$ 是树中节点个数。
+// * 时间复杂度： $O(N)$，其中 $N$ 是树中节点个数。
 
-* 空间复杂度： $O(N)$。
+// * 空间复杂度： $O(N)$。
 
-#### 方法二： 计算节点之间距离
+// #### 方法二： 计算节点之间距离
 
-**思路**
+// **思路**
 
-如果 `target` 节点在 `root` 节点的左子树中，且 `target` 节点深度为 `3`，那所有 `root` 节点右子树中深度为 `K - 3` 的节点到 `target` 的距离就都是 `K`。
+// 如果 `target` 节点在 `root` 节点的左子树中，且 `target` 节点深度为 `3`，那所有 `root` 节点右子树中深度为 `K - 3` 的节点到 `target` 的距离就都是 `K`。
 
-**算法**
+// **算法**
 
-深度优先遍历所有节点。定义方法 `dfs(node)`，这个函数会返回 `node` 到 `target` 的距离。在 `dfs(node)` 中处理下面四种情况：
+// 深度优先遍历所有节点。定义方法 `dfs(node)`，这个函数会返回 `node` 到 `target` 的距离。在 `dfs(node)` 中处理下面四种情况：
 
-* 如果 `node == target`，把子树中距离 `target` 节点距离为 `K` 的所有节点加入答案。
+// * 如果 `node == target`，把子树中距离 `target` 节点距离为 `K` 的所有节点加入答案。
 
-* 如果 `target` 在  `node` 左子树中，假设 `target` 距离 `node` 的距离为 `L+1`，找出右子树中距离 `target` 节点 `K - L - 1` 距离的所有节点加入答案。
+// * 如果 `target` 在  `node` 左子树中，假设 `target` 距离 `node` 的距离为 `L+1`，找出右子树中距离 `target` 节点 `K - L - 1` 距离的所有节点加入答案。
 
-* 如果 `target` 在 `node` 右子树中，跟在左子树中一样的处理方法。
+// * 如果 `target` 在 `node` 右子树中，跟在左子树中一样的处理方法。
 
-* 如果 `target` 不在节点的子树中，不用处理。
+// * 如果 `target` 不在节点的子树中，不用处理。
 
-实现的算法中，还会用到一个辅助方法  `subtree_add(node, dist)`，这个方法会将子树中距离节点 `node` `K - dist` 距离的节点加入答案。
+// 实现的算法中，还会用到一个辅助方法  `subtree_add(node, dist)`，这个方法会将子树中距离节点 `node` `K - dist` 距离的节点加入答案。
 
-```java [solution2-Java]
+// ```java [solution2-Java]
 class Solution {
     List<Integer> ans;
     TreeNode target;
@@ -164,9 +164,9 @@ class Solution {
         }
     }
 }
-```
+// ```
 
-```python [solution2-Python]
+// ```python [solution2-Python]
 class Solution(object):
     def distanceK(self, root, target, K):
         ans = []
@@ -204,10 +204,10 @@ class Solution(object):
 
         dfs(root)
         return ans
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度： $O(N)$，其中 $N$ 树的大小。
+// * 时间复杂度： $O(N)$，其中 $N$ 树的大小。
 
-* 空间复杂度： $O(N)$。
+// * 空间复杂度： $O(N)$。

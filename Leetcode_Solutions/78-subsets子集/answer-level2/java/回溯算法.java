@@ -1,20 +1,20 @@
-1. 关于复杂度
-<br />&nbsp;1.1 时间复杂度为O(n!)
-<br />&nbsp;1.2 空间负责度为O(n^2)
-2. 我的解题思路
-<br />&nbsp;2.1 这个解法基于回溯算法
-<br />&nbsp;2.2 定义一个操作list以及结果list
-<br />&nbsp;2.3 将操作list加入到结果list中
-<br />&nbsp;2.4 循环遍历数组
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.1 将当前遍历的元素加入操作list中
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.2 递归遍历下一元素
-<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.3 移除2.4.1加入的元素
-3. 提交记录
-<br />&nbsp;3.1 力扣中耗时1ms,消耗36MB内存
-<br />&nbsp;3.2 leetcode中耗时0ms,消耗37.5MB内存
-4. Q&A
+// 1. 关于复杂度
+// <br />&nbsp;1.1 时间复杂度为O(n!)
+// <br />&nbsp;1.2 空间负责度为O(n^2)
+// 2. 我的解题思路
+// <br />&nbsp;2.1 这个解法基于回溯算法
+// <br />&nbsp;2.2 定义一个操作list以及结果list
+// <br />&nbsp;2.3 将操作list加入到结果list中
+// <br />&nbsp;2.4 循环遍历数组
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.1 将当前遍历的元素加入操作list中
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.2 递归遍历下一元素
+// <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.4.3 移除2.4.1加入的元素
+// 3. 提交记录
+// <br />&nbsp;3.1 力扣中耗时1ms,消耗36MB内存
+// <br />&nbsp;3.2 leetcode中耗时0ms,消耗37.5MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     78.Subsets
@@ -66,6 +66,6 @@ public class Solution {
         }
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理<br />
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

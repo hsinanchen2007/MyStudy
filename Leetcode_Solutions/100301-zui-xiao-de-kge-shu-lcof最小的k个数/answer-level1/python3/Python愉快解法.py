@@ -1,9 +1,9 @@
-### 解题思路
-先排序，再取值
+# ### 解题思路
+# 先排序，再取值
 
-### 代码
+# ### 代码
 
-```
+# ```
 
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
@@ -12,4 +12,4 @@ class Solution:
             return []
         return arr[:k]
 
-```
+# ```

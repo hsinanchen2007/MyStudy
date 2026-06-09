@@ -1,5 +1,5 @@
-算出每个位置的最小和。。。
-```
+// 算出每个位置的最小和。。。
+// ```
 func minimumTotal(triangle [][]int) int {
  	if len(triangle) == 0 {
 		return 0
@@ -30,4 +30,4 @@ func minimumTotal(triangle [][]int) int {
 	}
 	return min
 }
-```
+// ```

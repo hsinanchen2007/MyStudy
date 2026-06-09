@@ -1,9 +1,9 @@
-### 解题思路
-循环遍历一遍，如果最大值等于当前位置就结果加一
+# ### 解题思路
+# 循环遍历一遍，如果最大值等于当前位置就结果加一
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numTimesAllBlue(self, light: [int]) -> int:
         if light == []:
@@ -22,4 +22,4 @@ class Solution:
             if max_num == now_sum:
                 res += 1
         return res
-```
+# ```

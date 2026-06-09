@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn has_groups_size_x(deck: Vec<i32>) -> bool {
         let mut nums: Vec<i32> = (1..=10000).map(|_| 0).collect();
@@ -20,4 +20,4 @@ impl Solution {
         false
     }
 }
-```
+// ```

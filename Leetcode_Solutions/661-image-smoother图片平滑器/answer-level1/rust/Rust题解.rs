@@ -1,4 +1,4 @@
-```Rust
+// ```Rust
 impl Solution {
     pub fn image_smoother(m: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
         let mut ret = vec![vec![0; m[0].len()]; m.len()];
@@ -21,5 +21,5 @@ impl Solution {
         ret
     }
 }
-```
-[其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)
+// ```
+// [其他题目的Rust题解](https://github.com/fruit-in/LeetCode/blob/master/README_CN.md)

@@ -1,9 +1,9 @@
-### 解题思路
-用.slice()方法
+// ### 解题思路
+// 用.slice()方法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {number} n
@@ -12,4 +12,4 @@
 var reverseLeftWords = function(s, n) {
     return s.slice(n) + s.slice(0, n);
 };
-```
+// ```

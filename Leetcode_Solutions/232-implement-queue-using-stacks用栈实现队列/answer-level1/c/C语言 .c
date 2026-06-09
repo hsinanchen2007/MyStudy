@@ -1,11 +1,11 @@
-### 解题思路
-使用两个栈
-一个存储顺序的数据
-另一个用来反转数据
+// ### 解题思路
+// 使用两个栈
+// 一个存储顺序的数据
+// 另一个用来反转数据
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXSIZE 100
 typedef struct {
     int top;
@@ -76,4 +76,4 @@ void myQueueFree(MyQueue* obj) {
  
  * myQueueFree(obj);
 */
-```
+// ```

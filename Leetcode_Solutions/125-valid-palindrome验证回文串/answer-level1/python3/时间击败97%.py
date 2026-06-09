@@ -1,6 +1,6 @@
-利用python的特性进行解决
+# 利用python的特性进行解决
 
-```
+# ```
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         # if not s:
@@ -11,4 +11,4 @@ class Solution:
             return True
         return False
 
-```
+# ```

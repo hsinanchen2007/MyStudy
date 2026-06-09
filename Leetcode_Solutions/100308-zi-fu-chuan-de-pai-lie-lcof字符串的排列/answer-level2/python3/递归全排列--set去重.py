@@ -1,9 +1,9 @@
-### 解题思路
-* 当输入类似于'aabc'时需要去重,因为调换两个a的顺序不算新的字符串.
+# ### 解题思路
+# * 当输入类似于'aabc'时需要去重,因为调换两个a的顺序不算新的字符串.
 
-### 代码
+# ### 代码
 
-```py
+# ```py
 class Solution:
     def permutation(self, s: str) -> List[str]:
         ans = []
@@ -21,4 +21,4 @@ class Solution:
         fuc(s,begin)
         ans = set(ans)      #去重
         return list(ans)
-```
+# ```

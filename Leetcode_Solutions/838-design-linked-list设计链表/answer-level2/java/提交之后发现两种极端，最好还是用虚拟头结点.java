@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/b886b1e67fce71edfce0dd3323e4e5367d6992724c60d708edeba3203c2244c2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b886b1e67fce71edfce0dd3323e4e5367d6992724c60d708edeba3203c2244c2-image.png)
 
-```
+// ```
 class MyLinkedList {
     
     public Node head;
@@ -77,4 +77,4 @@ class MyLinkedList {
         }
     }
 }
-```
+// ```

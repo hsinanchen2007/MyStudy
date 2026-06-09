@@ -1,9 +1,9 @@
-### 解题思路
-参考官方题解
+# ### 解题思路
+# 参考官方题解
 
-### 代码
+# ### 代码
 
-```ruby
+# ```ruby
 # Definition for singly-linked list.
 # class ListNode
 #     attr_accessor :val, :next
@@ -33,4 +33,4 @@ def remove_nth_from_end(head, n)
   second.next = second.next.next
   dummy.next
 end
-```
+# ```

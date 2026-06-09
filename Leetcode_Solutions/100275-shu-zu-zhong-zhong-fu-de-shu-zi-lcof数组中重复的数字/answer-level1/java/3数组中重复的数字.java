@@ -1,8 +1,8 @@
-### 解题思路
-方法一：由题目可知所有数字都在0~n-1范围内，如果没有重复的元素，排序之后，nums[i] = i；如果有重复的元素，一定存在另一个j使得nums[j] = nums[i] =i
-### 代码
+// ### 解题思路
+// 方法一：由题目可知所有数字都在0~n-1范围内，如果没有重复的元素，排序之后，nums[i] = i；如果有重复的元素，一定存在另一个j使得nums[j] = nums[i] =i
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         for(int i = 0; i < nums.length; i++){
@@ -18,10 +18,10 @@ class Solution {
         return -1;
     }
 }
-```
-方法二：
-使用哈希表，如果nums[i]未出现过，将其添加在哈希表中，如果nums[i]已经存在哈希表中，则表明该元素重复，直接返回该元素.
-```java
+// ```
+// 方法二：
+// 使用哈希表，如果nums[i]未出现过，将其添加在哈希表中，如果nums[i]已经存在哈希表中，则表明该元素重复，直接返回该元素.
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
@@ -42,4 +42,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

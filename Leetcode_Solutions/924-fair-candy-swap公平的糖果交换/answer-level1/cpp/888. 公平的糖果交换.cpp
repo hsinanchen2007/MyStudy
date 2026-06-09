@@ -1,5 +1,5 @@
-## 哈希表
-```cpp
+// ## 哈希表
+// ```cpp
 class Solution {
 public:
     vector<int> fairCandySwap(vector<int>& A, vector<int>& B) {
@@ -38,4 +38,4 @@ public:
         return {-1, -1};
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-还是要理解清楚dp[i]的含义和找出关系式
+// ### 解题思路
+// 还是要理解清楚dp[i]的含义和找出关系式
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         int[] dp = new int[nums.length];
@@ -20,4 +20,4 @@ class Solution {
         return max;
     }
 }
-```
+// ```

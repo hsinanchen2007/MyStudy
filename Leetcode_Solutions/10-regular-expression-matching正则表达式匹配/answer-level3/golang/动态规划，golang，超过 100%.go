@@ -1,6 +1,6 @@
-### 解题思路
+// ### 解题思路
 
-```
+// ```
 越界情况，当做匹配失败。
 
 初始化，
@@ -24,11 +24,11 @@
 			否则，值为 dp(0, j-2)。这种情况表明 p[j...j+1] 不能匹配到 s[i]，需要回退重试匹配
 		当 p[j] = 其他值时，值为 s[i] == p[j] && dp(i-1, j-1)。这个情况的含义是，如果当前字符串模糊匹配情况成功，只需要观察之前匹配情况即可
 
-```
+// ```
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isMatch(s string, p string) bool {
 	slen, plen := len(s), len(p)
 	if slen == 0 {
@@ -87,4 +87,4 @@ func isMatch(s string, p string) bool {
 	}
 	return dp[slen-1][plen-1]
 }
-```
+// ```

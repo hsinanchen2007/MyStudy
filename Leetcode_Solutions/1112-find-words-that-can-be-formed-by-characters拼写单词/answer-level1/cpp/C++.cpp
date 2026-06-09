@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/7c54ea54e010281c101277fe3391cc9f95f4a09d4b6ab8446465af29e403928c-image.png)
-解题思路：对chars数组的各个字母计数，与字符串数组中的字母比较，若相等，计数减一。若计数小于0则不能构造该单词，反之则可以。
-``` 
+// ![image.png](https://pic.leetcode-cn.com/7c54ea54e010281c101277fe3391cc9f95f4a09d4b6ab8446465af29e403928c-image.png)
+// 解题思路：对chars数组的各个字母计数，与字符串数组中的字母比较，若相等，计数减一。若计数小于0则不能构造该单词，反之则可以。
+// ``` 
         int charCount[26];
     int countCharacters(vector<string>& words, string chars) {
         int res = 0;
@@ -25,5 +25,5 @@
         
         return res;
     }
-```
+// ```
 

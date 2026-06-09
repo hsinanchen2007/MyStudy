@@ -1,4 +1,4 @@
-```
+// ```
 bool canThreePartsEqualSum(int* A, int ASize){
     int sum = 0;
     int i, j;
@@ -31,4 +31,4 @@ bool canThreePartsEqualSum(int* A, int ASize){
         return false;
     }    
 }
-```
+// ```

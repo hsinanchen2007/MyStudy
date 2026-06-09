@@ -1,9 +1,9 @@
-### 解题思路
-实际是找到树的深度
+// ### 解题思路
+// 实际是找到树的深度
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -27,4 +27,4 @@ int diameterOfBinaryTree(struct TreeNode* root){
     int h = DFS(root);
     return res;
 }
-```
+// ```

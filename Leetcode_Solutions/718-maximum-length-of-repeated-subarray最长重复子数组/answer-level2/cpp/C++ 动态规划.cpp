@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int findLength(vector<int>& A, vector<int>& B) {
@@ -17,6 +17,6 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/97edc69a44e9df65ca61778872af743c2ffed01a49b293c9bd879bf1959654c8-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/97edc69a44e9df65ca61778872af743c2ffed01a49b293c9bd879bf1959654c8-image.png)
 

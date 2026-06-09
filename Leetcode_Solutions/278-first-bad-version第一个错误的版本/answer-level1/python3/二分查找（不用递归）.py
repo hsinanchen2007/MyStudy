@@ -1,6 +1,6 @@
-这题就是二分查找的变形嘛，使用while循环代替递归，执行用时44ms，击败93.97%的python3用户
+# 这题就是二分查找的变形嘛，使用while循环代替递归，执行用时44ms，击败93.97%的python3用户
 
-```python
+# ```python
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool
@@ -23,4 +23,4 @@ class Solution:
                     end = mid-1
             else:
                 start = mid+1
-```
+# ```

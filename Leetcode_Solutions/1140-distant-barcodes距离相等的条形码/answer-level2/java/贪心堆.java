@@ -1,5 +1,5 @@
-参照第767的贪心堆
-```java
+// 参照第767的贪心堆
+// ```java
 class Solution {
     public int[] rearrangeBarcodes(int[] barcodes) {
         if(barcodes == null || barcodes.length < 2) return barcodes;

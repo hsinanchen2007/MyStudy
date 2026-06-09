@@ -1,4 +1,4 @@
-```
+// ```
 从末端元素开始，连续的9都变为0，非9加一后退出循环，然后分首位是否进位两种情况。
 int* plusOne(int* digits, int digitsSize, int* returnSize){
     int *num = (int*)malloc(sizeof(int) * (digitsSize + 1));
@@ -18,4 +18,4 @@ int* plusOne(int* digits, int digitsSize, int* returnSize){
     }
     return (digits[0] == 0) ? num : digits;       
 }
-```
+// ```

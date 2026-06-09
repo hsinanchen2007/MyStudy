@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-我们新的头节点记为newHead，其值应该是翻转以head.next为头节点的链表的结果。同时把head放在head.next的后面，并令head.next为null，这样我们就把head元素放在了新链表的末尾。
+// 我们新的头节点记为newHead，其值应该是翻转以head.next为头节点的链表的结果。同时把head放在head.next的后面，并令head.next为null，这样我们就把head元素放在了新链表的末尾。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -26,4 +26,4 @@ class Solution {
 
     }
 }
-```
+// ```

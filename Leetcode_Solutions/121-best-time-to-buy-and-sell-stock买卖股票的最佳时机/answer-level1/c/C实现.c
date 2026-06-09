@@ -1,9 +1,9 @@
-### 解题思路
-更新最低价格和最大利润
+// ### 解题思路
+// 更新最低价格和最大利润
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxProfit(int *prices, int pricesSize) {
 	int minPrice;
 	int maxProfit = 0;    
@@ -20,4 +20,4 @@ int maxProfit(int *prices, int pricesSize) {
 	}    
 	return maxProfit;
 }
-```
+// ```

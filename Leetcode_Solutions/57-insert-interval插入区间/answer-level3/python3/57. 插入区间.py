@@ -1,9 +1,9 @@
-### 解题思路
-把newInterval加入intervals，接下来就是合并区间的事情了，跟上一题代码一致。
+# ### 解题思路
+# 把newInterval加入intervals，接下来就是合并区间的事情了，跟上一题代码一致。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def insert(self, intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
         # 添加新的interval
@@ -21,4 +21,4 @@ class Solution:
                 merged[-1][1] = max(merged[-1][1], interval[1])
 
         return merged
-```
+# ```

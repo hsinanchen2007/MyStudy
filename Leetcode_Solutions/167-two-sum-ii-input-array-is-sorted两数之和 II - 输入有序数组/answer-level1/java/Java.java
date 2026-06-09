@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         if(numbers.length<1||numbers[0]>target)
@@ -24,4 +24,4 @@ class Solution {
         return new int[0];
     }
 }
-```
+// ```

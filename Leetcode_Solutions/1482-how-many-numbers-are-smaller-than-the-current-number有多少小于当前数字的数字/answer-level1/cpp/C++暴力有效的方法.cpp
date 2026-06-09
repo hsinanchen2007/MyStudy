@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution
 {
 public:
@@ -26,4 +26,4 @@ public:
 		return ret;
 	}
 };
-```
+// ```

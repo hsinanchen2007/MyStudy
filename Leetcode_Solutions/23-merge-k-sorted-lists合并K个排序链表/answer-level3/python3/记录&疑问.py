@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -31,14 +31,14 @@ class Solution:
         if not l2:
             point.next = l1
         return head.next
-```
-疑问：Python3执行
-```
+# ```
+# 疑问：Python3执行
+# ```
 if amount > 0:
     return lists[0] 
 加上下列代码执行不过：typeerror：[]不是预期的返回类型ListNode 官方测试输入[]
 else:
     return lists
-```
+# ```
 
 

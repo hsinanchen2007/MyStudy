@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def findMode(self, root):
         """
@@ -29,6 +29,6 @@ class Solution(object):
 
         dfs(root, None, 0)
         return self.result
-```
+# ```
 
-题目的要求很清楚了，用递归得出结果。但是类似本题的问题，明显遍历更方便。如果用递归，至少应该是个中级题吧。
+# 题目的要求很清楚了，用递归得出结果。但是类似本题的问题，明显遍历更方便。如果用递归，至少应该是个中级题吧。

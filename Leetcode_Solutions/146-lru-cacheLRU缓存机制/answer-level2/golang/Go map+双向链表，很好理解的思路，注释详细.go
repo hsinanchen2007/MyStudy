@@ -1,4 +1,4 @@
-```
+// ```
 type LRUCache struct {
     Capi int
     Left int
@@ -129,4 +129,4 @@ func (this *LRUCache)move(v *listNode){
             this.Head.Next = v
         }
 }
-```
+// ```

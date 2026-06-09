@@ -1,10 +1,10 @@
-### 解题思路
-比较简单的一个方法
+// ### 解题思路
+// 比较简单的一个方法
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int missingNumber(int[] nums) {
         int sum = 0;
@@ -19,4 +19,4 @@ class Solution {
         return sum2 - sum;
     }
 }
-```
+// ```

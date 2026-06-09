@@ -1,14 +1,14 @@
-### 解题思路
-    流程：
-        ①二分查找，确定target的位置
-        ②在target的位置，分别向后向前查找其他的target
-![下载 (6).png](https://pic.leetcode-cn.com/4995f21e4be491ee519e0ae78e7f4f97f8916a560e7ae5b4fdc9a4e75c4a1a13-%E4%B8%8B%E8%BD%BD%20\(6\).png)
+# ### 解题思路
+#     流程：
+#         ①二分查找，确定target的位置
+#         ②在target的位置，分别向后向前查找其他的target
+# ![下载 (6).png](https://pic.leetcode-cn.com/4995f21e4be491ee519e0ae78e7f4f97f8916a560e7ae5b4fdc9a4e75c4a1a13-%E4%B8%8B%E8%BD%BD%20\(6\).png)
 
 
 
-### 代码
+# ### 代码
 
-```py
+# ```py
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         if not nums:
@@ -41,4 +41,4 @@ class Solution:
             times += 1 
             mid -= 1
         return times
-```
+# ```

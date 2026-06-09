@@ -1,11 +1,11 @@
-### 解题思路
-给定一个二叉树根节点，验证其是否为平衡二叉树：
-- 首先求出该跟节点的左右子树的高度（递归求，可参考[104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)，附[题解](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/di-gui-shi-xian-zuo-you-zi-shu-bu-wei-kong-shi-di-/)）。若左右子树高度相差超过`1`，则不是平衡二叉树
-- 若不超过`1`，递归验证其左子树和右子树是否为一棵平衡二叉树
+// ### 解题思路
+// 给定一个二叉树根节点，验证其是否为平衡二叉树：
+// - 首先求出该跟节点的左右子树的高度（递归求，可参考[104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)，附[题解](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/di-gui-shi-xian-zuo-you-zi-shu-bu-wei-kong-shi-di-/)）。若左右子树高度相差超过`1`，则不是平衡二叉树
+// - 若不超过`1`，递归验证其左子树和右子树是否为一棵平衡二叉树
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ public:
         return true;
     }
 };
-```
+// ```

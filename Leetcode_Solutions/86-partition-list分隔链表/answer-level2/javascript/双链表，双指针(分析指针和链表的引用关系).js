@@ -1,12 +1,12 @@
-### 解题思路
-- 我觉得这道题理解指针和链表之间的引用关系非常重要
-- 参考了大神的代码之后有个疑问就是这里只是修改指针的next节点，为什么链表也会被修改
-- ``` smallPoint.next = cur //smallPoint指向before，实际等于before.next = cur ```
-- ``` smallPoint = smallPoint.next //smallPoint的指向改变了，指向了before的next, 这时before的next和 smallPoint指向同一对象。 ```
+// ### 解题思路
+// - 我觉得这道题理解指针和链表之间的引用关系非常重要
+// - 参考了大神的代码之后有个疑问就是这里只是修改指针的next节点，为什么链表也会被修改
+// - ``` smallPoint.next = cur //smallPoint指向before，实际等于before.next = cur ```
+// - ``` smallPoint = smallPoint.next //smallPoint的指向改变了，指向了before的next, 这时before的next和 smallPoint指向同一对象。 ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -41,4 +41,4 @@ var partition = function (head, x) {
     smallPoint.next = after.next
     return before.next
 };
-```
+// ```

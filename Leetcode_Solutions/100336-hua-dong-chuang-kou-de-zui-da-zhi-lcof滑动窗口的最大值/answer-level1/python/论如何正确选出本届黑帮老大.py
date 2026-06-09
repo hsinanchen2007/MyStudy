@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/352dad511d16ba0d12884be441f5951569d0a66a03ecd83620c0b799941b36a3-image.png)
+# ![image.png](https://pic.leetcode-cn.com/352dad511d16ba0d12884be441f5951569d0a66a03ecd83620c0b799941b36a3-image.png)
 
-```
+# ```
     def maxSlidingWindow(self, nums, k):
         if nums == []:
             return []
@@ -24,4 +24,4 @@
                     begin += 1
                     ret.append(ret[-1])
         return ret
-```
+# ```

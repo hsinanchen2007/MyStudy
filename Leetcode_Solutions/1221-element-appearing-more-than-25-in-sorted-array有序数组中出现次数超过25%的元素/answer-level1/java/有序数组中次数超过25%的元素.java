@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findSpecialInteger(int[] arr) {
     /*审题：1.这个数组中只有一个这样的数，说明找到之后就可以返回了，不用继续找。
@@ -17,4 +17,4 @@ class Solution {
     return -1;    
     }
 }
-```
+// ```

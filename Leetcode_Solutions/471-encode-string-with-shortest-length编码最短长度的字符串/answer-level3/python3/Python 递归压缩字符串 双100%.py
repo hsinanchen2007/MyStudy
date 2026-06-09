@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/0d50fcb8b2554e91a6e413356a386745f1853254b95497ffb02f310d314b2838-image.png)
+# ![image.png](https://pic.leetcode-cn.com/0d50fcb8b2554e91a6e413356a386745f1853254b95497ffb02f310d314b2838-image.png)
 
 
-```
+# ```
 from functools import lru_cache
 
 '''
@@ -46,4 +46,4 @@ class Solution:
             if len(ss) < len(ans):
                 ans = ss
         return ans
-```
+# ```

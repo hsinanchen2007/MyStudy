@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/01459bd91a9f46ce5db693f019a11f8d5a9c711f8e7389044847486309da67bf-image.png)
+# ![image.png](https://pic.leetcode-cn.com/01459bd91a9f46ce5db693f019a11f8d5a9c711f8e7389044847486309da67bf-image.png)
 
 
-```
+# ```
 '''
 位运算，每一位代表一个字符累计数量的奇偶性
 通过字符计数的奇数值出现的次数可以判定最多
@@ -35,4 +35,4 @@ class Solution:
 
             ans.append(cnt <= 0)
         return ans
-```
+# ```

@@ -1,6 +1,6 @@
-利用仿函数进行定义规则
+// 利用仿函数进行定义规则
 
-```
+// ```
 class Solution {
 public:
     struct Cmp{
@@ -26,4 +26,4 @@ public:
         return nums;
     }
 };
-```
+// ```

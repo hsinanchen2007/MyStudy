@@ -1,9 +1,9 @@
-### 解题思路
-暴力法
+// ### 解题思路
+// 暴力法
 
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
@@ -18,14 +18,14 @@ public:
         return maxRct;
     }
 };
-```
+// ```
 
-### 解题思路
-分治法
+// ### 解题思路
+// 分治法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
@@ -54,15 +54,15 @@ private:
     }
     long maxRect;
 };
-```
+// ```
 
-### 解题思路
-单调栈
-![a471b9acbfb61ebb7b29b40a9f7109f.jpg](https://pic.leetcode-cn.com/3c8fac3119b3d18f55db883305d49978a893d7109cf5ad3f20cd4d7908ea35de-a471b9acbfb61ebb7b29b40a9f7109f.jpg)
+// ### 解题思路
+// 单调栈
+// ![a471b9acbfb61ebb7b29b40a9f7109f.jpg](https://pic.leetcode-cn.com/3c8fac3119b3d18f55db883305d49978a893d7109cf5ad3f20cd4d7908ea35de-a471b9acbfb61ebb7b29b40a9f7109f.jpg)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 //弹出需要计算的bar后栈为空：
@@ -86,4 +86,4 @@ public:
         return maxRect;
     }
 };
-```
+// ```

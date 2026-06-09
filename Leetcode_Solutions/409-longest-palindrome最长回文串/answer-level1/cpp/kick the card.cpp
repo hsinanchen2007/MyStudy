@@ -1,11 +1,11 @@
-### 解题思路
-punch in the card
+// ### 解题思路
+// punch in the card
 
-Again, I will give you code. 
+// Again, I will give you code. 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int longestPalindrome(string s) {
@@ -40,4 +40,4 @@ public:
 private:
 };
 
-```
+// ```

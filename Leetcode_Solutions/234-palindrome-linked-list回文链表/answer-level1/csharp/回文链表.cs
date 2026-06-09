@@ -1,6 +1,6 @@
-**思路：** 快慢指针的方式，先找到中心节点（过程中反转慢指针前的节点），然后从中间分开成两个链表，然后开始逐个比对看是否相等。
+// **思路：** 快慢指针的方式，先找到中心节点（过程中反转慢指针前的节点），然后从中间分开成两个链表，然后开始逐个比对看是否相等。
 
-```
+// ```
 public bool IsPalindrome(ListNode head)
         {
             if (head == null || head.next == null)
@@ -54,4 +54,4 @@ public bool IsPalindrome(ListNode head)
 
             return true;
         }
-```
+// ```

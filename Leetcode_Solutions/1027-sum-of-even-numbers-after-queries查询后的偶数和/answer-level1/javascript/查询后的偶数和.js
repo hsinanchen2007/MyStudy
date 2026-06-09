@@ -1,11 +1,11 @@
 
 
-先记录查询前原数组偶数和S,
-对于每次查询 如果A[index] 是偶数，S -= A[index],
-如果A[index] + VAL 是偶数， S += A[index] + VAL。
+// 先记录查询前原数组偶数和S,
+// 对于每次查询 如果A[index] 是偶数，S -= A[index],
+// 如果A[index] + VAL 是偶数， S += A[index] + VAL。
 
 
-```js
+// ```js
 var sumEvenAfterQueries = function(A, queries) {
     let qLen = queries.length;
     let ALen = A.length;
@@ -30,5 +30,5 @@ var sumEvenAfterQueries = function(A, queries) {
     }
     return res
 };
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-斐波那契数列 + 循环解决 + 思路应该是dp思路
+// ### 解题思路
+// 斐波那契数列 + 循环解决 + 思路应该是dp思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int climbStairs(int n) {
         //斐波那契数列
@@ -26,4 +26,4 @@ class Solution {
         return list[n-1];
     }
 }
-```
+// ```

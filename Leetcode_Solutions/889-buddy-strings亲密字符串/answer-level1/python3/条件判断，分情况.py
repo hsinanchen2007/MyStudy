@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def buddyStrings(self, A: str, B: str) -> bool:
         if len(A) != len(B):
@@ -28,4 +28,4 @@ class Solution:
         A = "".join(A)
         return A == B
 
-```
+# ```

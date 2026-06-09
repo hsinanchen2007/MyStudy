@@ -1,8 +1,8 @@
-题解升级版[here](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/solution/python3-cong-bu-zao-lun-zi-da-fa-by-nickyingo/)
-if判断只有当小顶堆堆顶元素**小于**当前元素时才有必要替换（说明当前元素插入后根一定不在是第K大，可以大胆替换）。
-@Alan的代码不判断，每次都先push一个再pop一个，当前到来元素不是前k大自然被淘汰掉。
+# 题解升级版[here](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/solution/python3-cong-bu-zao-lun-zi-da-fa-by-nickyingo/)
+# if判断只有当小顶堆堆顶元素**小于**当前元素时才有必要替换（说明当前元素插入后根一定不在是第K大，可以大胆替换）。
+# @Alan的代码不判断，每次都先push一个再pop一个，当前到来元素不是前k大自然被淘汰掉。
 
-```python
+# ```python
 import heapq
 
 class KthLargest:
@@ -30,6 +30,6 @@ class KthLargest:
             heapq.heappushpop(self.pool,val)
         return self.pool[0]
 
-```
+# ```
 
-# 一
+# # 一

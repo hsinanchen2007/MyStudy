@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/4da2add9be2616fe868da107d20bbaea1af4150a749e226eb9838e5c0c2de71d-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/4da2add9be2616fe868da107d20bbaea1af4150a749e226eb9838e5c0c2de71d-image.png)
 
-将原图像分为四个区，类似于四个象限的区域，我们旋转其中一个象限，然后就可以实现旋转整个图像。
-j_tmp 为 jj 点的源，i_tmp 为 ii 的源。
+// 将原图像分为四个区，类似于四个象限的区域，我们旋转其中一个象限，然后就可以实现旋转整个图像。
+// j_tmp 为 jj 点的源，i_tmp 为 ii 的源。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void rotate(vector<vector<int>>& matrix)
@@ -30,4 +30,4 @@ public:
         }
     }
 };
-```
+// ```

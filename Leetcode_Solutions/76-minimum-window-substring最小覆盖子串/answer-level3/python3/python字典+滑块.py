@@ -1,5 +1,5 @@
 
-```python3
+# ```python3
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         if not s or not t:return ""
@@ -27,4 +27,4 @@ class Solution:
                         lr=right-left
             right+=1
         return m
-```
+# ```

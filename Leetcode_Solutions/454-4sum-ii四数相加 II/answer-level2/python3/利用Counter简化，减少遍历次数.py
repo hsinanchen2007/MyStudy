@@ -1,4 +1,4 @@
-```
+# ```
 import collections
 
 class Solution:
@@ -23,5 +23,5 @@ class Solution:
                     # 已经记过数，用乘法
                     result += C[kc]*D[kd]*AB[kab]
         return result
-```
-用时212ms，超过99%
+# ```
+# 用时212ms，超过99%

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def exist(self, board, word: str) -> bool:
         trie = {}
@@ -24,4 +24,4 @@ class Solution:
                     if search(trie[board[i][j]], i, j, {(i, j)}):
                         return True
         return False
-```
+# ```

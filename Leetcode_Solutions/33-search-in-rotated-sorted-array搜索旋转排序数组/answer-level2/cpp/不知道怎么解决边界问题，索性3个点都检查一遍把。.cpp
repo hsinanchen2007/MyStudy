@@ -1,9 +1,9 @@
-### 解题思路
-不知道怎么解决边界问题，索性3个点都检查一遍把。
+// ### 解题思路
+// 不知道怎么解决边界问题，索性3个点都检查一遍把。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -54,4 +54,4 @@ public:
         return pos;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-第一个元素标0
+// ### 解题思路
+// 第一个元素标0
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
@@ -64,4 +64,4 @@ public:
         }        
     }
 };
-```
+// ```

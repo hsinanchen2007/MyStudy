@@ -1,8 +1,8 @@
-> 有关更多题解，请访问 Gitee 中的项目【[myleetcode](https://gitee.com/guobinhit/myleetcode)】，欢迎大家共同参与此项目！
+// > 有关更多题解，请访问 Gitee 中的项目【[myleetcode](https://gitee.com/guobinhit/myleetcode)】，欢迎大家共同参与此项目！
 
->
+// >
 
-```
+// ```
 public class _461 {
     public int hammingDistance(int x, int y) {
         // 将 x 和 y 进行异或操作，讲题目转为求二进制结果中 1 的个数 
@@ -15,4 +15,4 @@ public class _461 {
         return count;
     }
 }
-```
+// ```

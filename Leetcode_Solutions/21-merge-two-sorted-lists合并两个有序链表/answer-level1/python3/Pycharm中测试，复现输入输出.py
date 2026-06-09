@@ -1,5 +1,5 @@
-pycharm中测试用的，方法比较low，毕竟刚上路，大佬多担待
-```
+# pycharm中测试用的，方法比较low，毕竟刚上路，大佬多担待
+# ```
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, x):
@@ -61,4 +61,4 @@ if __name__ == "__main__":
     result = test.mergeTwoLists(l1, l2)
     print(result)
 
-```
+# ```

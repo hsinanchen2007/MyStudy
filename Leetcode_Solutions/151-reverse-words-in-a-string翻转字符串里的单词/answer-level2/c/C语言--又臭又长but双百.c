@@ -1,11 +1,11 @@
-### 解题思路
-首先反转字符串；
-然后去首尾和中间多余的空格；
-最后再反转单词。
+// ### 解题思路
+// 首先反转字符串；
+// 然后去首尾和中间多余的空格；
+// 最后再反转单词。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * reverseWords(char * s){
     int len = strlen(s), i, j=0, size=0;
     char* ans = (char *)malloc(sizeof(char) * (len+1));
@@ -59,4 +59,4 @@ char * reverseWords(char * s){
 
     return ans;
 }
-```
+// ```

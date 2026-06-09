@@ -1,9 +1,9 @@
-### 解题思路
-因为军人在每一行都排在前，因此遇到第一个平民时j的值就是该行战斗力
-power[j,i]的值表示第i行的战斗力为j,
-### 代码
+// ### 解题思路
+// 因为军人在每一行都排在前，因此遇到第一个平民时j的值就是该行战斗力
+// power[j,i]的值表示第i行的战斗力为j,
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} mat
  * @param {number} k
@@ -31,4 +31,4 @@ var kWeakestRows = function(mat, k) {
     return result;
   //return arr.slice(0,3);
 };
-```
+// ```

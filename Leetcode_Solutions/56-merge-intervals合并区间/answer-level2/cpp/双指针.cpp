@@ -1,9 +1,9 @@
-### 解题思路
-先排序，使用双指针
+// ### 解题思路
+// 先排序，使用双指针
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -25,4 +25,4 @@ public:
         return rt;
     }
 };
-```
+// ```

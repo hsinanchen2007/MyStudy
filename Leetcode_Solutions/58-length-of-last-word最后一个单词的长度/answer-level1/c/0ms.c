@@ -1,15 +1,15 @@
-### 解题思路
-prenum记录前一个单词长度，num记录遇到空格后的下一个单词长度
-' '的情况，prenum==0,num==0;return num;
-'*** a'的情况,num == 1,prenum !=0;return num;
-'abc'的情况,num == 3,prenum == 0;return num;
-'abc '的情况，num == 0,prenum == 3;return prenum;
-'abc   '的情况,prenum == 3;num==0;return prenum;
-'dfa dsa dfds'的情况,num==4,prenum==3;return num;
+// ### 解题思路
+// prenum记录前一个单词长度，num记录遇到空格后的下一个单词长度
+// ' '的情况，prenum==0,num==0;return num;
+// '*** a'的情况,num == 1,prenum !=0;return num;
+// 'abc'的情况,num == 3,prenum == 0;return num;
+// 'abc '的情况，num == 0,prenum == 3;return prenum;
+// 'abc   '的情况,prenum == 3;num==0;return prenum;
+// 'dfa dsa dfds'的情况,num==4,prenum==3;return num;
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLastWord(char * s){
     if( strlen(s) == 0 ) return 0;
     int i, num=0,prenum=0;
@@ -28,4 +28,4 @@ int lengthOfLastWord(char * s){
         return prenum;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-选取coordinates[0]、coordinates[i]、coordinates[i+1] 是否在同一条线上
+// 选取coordinates[0]、coordinates[i]、coordinates[i+1] 是否在同一条线上
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var checkStraightLine = function(coordinates) {
     for (let i = 1; i < coordinates.length-1; i++) {
         let y1 = coordinates[i][1] - coordinates[0][1]
@@ -17,4 +17,4 @@ var checkStraightLine = function(coordinates) {
     }
     return true
 };
-```
+// ```

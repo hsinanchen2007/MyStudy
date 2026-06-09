@@ -1,6 +1,6 @@
-思路：遍历每个节点，最后把结果相加
+// 思路：遍历每个节点，最后把结果相加
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,4 +36,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

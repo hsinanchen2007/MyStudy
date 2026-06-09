@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.HashSet;
 class Solution {
     public boolean isHappy(int n) {
@@ -22,4 +22,4 @@ class Solution {
     }
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-这一题和上一题基本一样的代码
+// ### 解题思路
+// 这一题和上一题基本一样的代码
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     public int numWays(int n) {
@@ -23,4 +23,4 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```

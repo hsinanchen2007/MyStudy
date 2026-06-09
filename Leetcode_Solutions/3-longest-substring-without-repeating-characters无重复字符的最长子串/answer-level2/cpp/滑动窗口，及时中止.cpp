@@ -1,5 +1,5 @@
-本题一种简单的思路就是搭配上双指针的滑动窗口，可以设置两个指针i，j，其中i指向j之前没有出现重复字符的第一个字符，j则指向当前被纳入考虑的字符。随后依次匹配s[i]，s[j]的值，直到s[i]==s[j] 或者 i==j
-```
+// 本题一种简单的思路就是搭配上双指针的滑动窗口，可以设置两个指针i，j，其中i指向j之前没有出现重复字符的第一个字符，j则指向当前被纳入考虑的字符。随后依次匹配s[i]，s[j]的值，直到s[i]==s[j] 或者 i==j
+// ```
 int lengthOfLongestSubstring(string s) {
     int n = s.length();
     if(n==0) return 0;
@@ -22,4 +22,4 @@ int lengthOfLongestSubstring(string s) {
     }
     return Max;
 }
-```
+// ```

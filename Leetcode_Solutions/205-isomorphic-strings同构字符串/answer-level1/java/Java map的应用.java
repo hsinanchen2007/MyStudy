@@ -1,4 +1,4 @@
-```java
+// ```java
 public boolean isIsomorphic(String s, String t) {
         if(s.length()!=t.length())  return false;
         int[] map1 = new int[256];
@@ -14,4 +14,4 @@ public boolean isIsomorphic(String s, String t) {
         }
         return true;
     }
-```
+// ```

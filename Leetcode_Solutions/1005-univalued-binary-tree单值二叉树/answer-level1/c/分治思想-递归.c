@@ -1,9 +1,9 @@
 
-c99才可以用bool类型，否则自己定义
+// c99才可以用bool类型，否则自己定义
 
-> #include <stdbool.h>
+// > #include <stdbool.h>
 
-```c
+// ```c
 bool isUnivalTree(struct TreeNode* root){
   bool left_correct = (root->left == NULL || (root->val == root->left->val && isUnivalTree(root->left)));
 
@@ -11,4 +11,4 @@ bool isUnivalTree(struct TreeNode* root){
 
   return left_correct && right_correct;
 }
-```
+// ```

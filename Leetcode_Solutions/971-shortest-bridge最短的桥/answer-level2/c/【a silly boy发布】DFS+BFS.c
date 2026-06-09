@@ -1,4 +1,4 @@
-```
+// ```
 #define MAXSIZE 10000
 
 #define SOURCESUM 2
@@ -185,4 +185,4 @@ int shortestBridge(int** A, int ASize, int* AColSize)
     free(visited);
     return distance;
 }
-```
+// ```

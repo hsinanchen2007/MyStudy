@@ -1,6 +1,6 @@
-## 思路一：基于vector
-### 代码
-```c++
+// ## 思路一：基于vector
+// ### 代码
+// ```c++
 class MyHashSet {
     vector<bool> hash;
 public:
@@ -22,11 +22,11 @@ public:
         return hash[key];
     }
 };
-```
+// ```
 
-## 思路二：哈希桶
-### 代码
-```c++
+// ## 思路二：哈希桶
+// ### 代码
+// ```c++
 #define MAX_LEN 100000
 class MyHashSet {    
     vector<int> bucket[MAX_LEN];//通过数组实现
@@ -73,5 +73,5 @@ public:
         return pos >= 0;
     }
 };
-```
+// ```
 

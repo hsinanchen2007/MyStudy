@@ -1,8 +1,8 @@
-### 方法一: 递归
+# ### 方法一: 递归
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         if p == None and q == None:
@@ -14,11 +14,11 @@ class Solution:
         left_val = self.isSameTree(p.left, q.left)
         right_val = self.isSameTree(p.right, q.right)
         return left_val and right_val
-```
-### 方法二: 迭代
-通过队列,不断将两个树相对应的节点同时加入队尾, 并同时弹出进行检查,若遇到不符合要求(不相同)则返回 False, 否则就继续加入,继续检查,直到最后.
+# ```
+# ### 方法二: 迭代
+# 通过队列,不断将两个树相对应的节点同时加入队尾, 并同时弹出进行检查,若遇到不符合要求(不相同)则返回 False, 否则就继续加入,继续检查,直到最后.
 
-```python
+# ```python
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         def check(p, q): # 单独一个 check 函数用来检查两个树对应节点的情况
@@ -36,4 +36,4 @@ class Solution:
                 que.append((p.left, q.left))    
                 que.append((p.right, q.right))
         return True
-```
+# ```

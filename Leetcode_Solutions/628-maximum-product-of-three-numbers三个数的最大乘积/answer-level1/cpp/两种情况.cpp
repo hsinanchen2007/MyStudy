@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/a776f8cd4c80b2f537c5b2394649dda83578fa4118a4c6cbff8aec64a9def144-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a776f8cd4c80b2f537c5b2394649dda83578fa4118a4c6cbff8aec64a9def144-image.png)
 
-```
+// ```
 class Solution {
 public:
     int maximumProduct(vector<int>& nums) {
@@ -12,4 +12,4 @@ public:
         return a>b?a:b;
     }
 };
-```
+// ```

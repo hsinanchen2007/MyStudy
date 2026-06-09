@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isIsomorphic(s string, t string) bool {
 	sb := []byte(s)
 	st := []byte(t)
@@ -24,4 +24,4 @@ func isIsomorphic(s string, t string) bool {
 	
 	return true
 }
-```
+// ```

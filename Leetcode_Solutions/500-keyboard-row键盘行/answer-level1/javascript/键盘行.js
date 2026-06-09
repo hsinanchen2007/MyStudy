@@ -1,12 +1,12 @@
 
-正则匹配
+// 正则匹配
 
-```js
+// ```js
 var findWords = function(words) {
     var pattern = /^([qwertyuiop]+|[asdfghjkl]+|[zxcvbnm]+)$/i;
     return words.filter((item) => {
         return pattern.test(item)
     })
 };
-```
+// ```
 

@@ -1,5 +1,5 @@
-思路：本题和朋友圈（leetcode 547题）类似，相比本题需要先构建无向图，遍历一遍没有结束可以提前返回
-方法一：DFS
+// 思路：本题和朋友圈（leetcode 547题）类似，相比本题需要先构建无向图，遍历一遍没有结束可以提前返回
+// 方法一：DFS
 #include <time.h>
 #include <stdio.h>
 #include <limits.h>

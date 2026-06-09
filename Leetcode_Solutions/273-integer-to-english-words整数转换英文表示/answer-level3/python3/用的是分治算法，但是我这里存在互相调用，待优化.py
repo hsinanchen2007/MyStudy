@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numberToWords(self, num: int) -> str:
         res_words = self.numberToWordsImpl(num)
@@ -53,7 +53,7 @@ class Solution:
         res += int_words_dict[level]                       #别忘记带上 level 的单位
         num = num - (count * level)
         return num, res
-```
+# ```
 
 
 

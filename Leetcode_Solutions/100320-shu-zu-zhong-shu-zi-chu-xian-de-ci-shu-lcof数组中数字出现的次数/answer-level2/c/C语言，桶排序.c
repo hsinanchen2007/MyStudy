@@ -1,13 +1,13 @@
-### 解题思路
-该题没有找到空间复杂度为O(n)的方法，解题思路如下：
-1 找到数组中的最大值
-2 建立排序数组
-2 利用桶排序获取nums数组中每个数据出现的频率
-3 找到排序数组中值为1的数组下标
+// ### 解题思路
+// 该题没有找到空间复杂度为O(n)的方法，解题思路如下：
+// 1 找到数组中的最大值
+// 2 建立排序数组
+// 2 利用桶排序获取nums数组中每个数据出现的频率
+// 3 找到排序数组中值为1的数组下标
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -58,4 +58,4 @@ int* singleNumbers(int* nums, int numsSize, int* returnSize)
     *returnSize = 2;
     return rel;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```csharp
+// ```csharp
 public bool IsValid(string s) 
 {
 	if (s.Length % 2 == 1) return false;
@@ -9,4 +9,4 @@ public bool IsValid(string s)
 	}
 	return stack.Count == 0;
 }
-```
+// ```

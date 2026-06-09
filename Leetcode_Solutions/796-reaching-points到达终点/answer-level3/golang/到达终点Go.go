@@ -1,4 +1,4 @@
-```go
+// ```go
 package main
 
 // https://leetcode-cn.com/problems/reaching-points/submissions/
@@ -63,4 +63,4 @@ func reachingPoints_2(sx int, sy int, tx int, ty int) bool {
 	return true
 }
 
-```
+// ```

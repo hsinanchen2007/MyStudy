@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def findAllConcatenatedWordsInADict(self, words: List[str]) -> List[str]:
         words = sorted(words,key=lambda i:len(i))

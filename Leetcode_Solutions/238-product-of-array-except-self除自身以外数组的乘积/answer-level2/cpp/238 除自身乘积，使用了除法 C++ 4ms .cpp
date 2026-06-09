@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/ac3bce10ceaaa7863d996e9413ca77cc0f495a5f53c9ee7b80466859bf6c90df-image.png)
-使用除法来解的，主要是要注意nums中是否有0，有几个0
-### 代码
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/ac3bce10ceaaa7863d996e9413ca77cc0f495a5f53c9ee7b80466859bf6c90df-image.png)
+// 使用除法来解的，主要是要注意nums中是否有0，有几个0
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
@@ -32,4 +32,4 @@ public:
         return nums;
     }
 };
-```
+// ```

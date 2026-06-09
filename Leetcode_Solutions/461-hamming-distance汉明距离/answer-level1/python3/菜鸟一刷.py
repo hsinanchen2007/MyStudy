@@ -1,9 +1,9 @@
-### 解题思路
-按位异或
+# ### 解题思路
+# 按位异或
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hammingDistance(self, x: int, y: int) -> int:
         n=x ^ y
@@ -13,4 +13,4 @@ class Solution:
             n=n//2
         return sum
 
-```
+# ```

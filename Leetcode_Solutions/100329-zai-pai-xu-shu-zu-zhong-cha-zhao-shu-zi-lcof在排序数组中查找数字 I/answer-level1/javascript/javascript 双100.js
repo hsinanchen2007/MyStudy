@@ -1,4 +1,4 @@
-```
+// ```
 var search = function(nums, target) {
     let left = 0, right = nums.length -1;
     let mid = parseInt((left + right)/2)
@@ -24,4 +24,4 @@ var search = function(nums, target) {
     return j-i-1
 
 };
-```
+// ```

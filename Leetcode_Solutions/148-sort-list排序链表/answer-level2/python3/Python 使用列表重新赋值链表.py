@@ -1,9 +1,9 @@
-### 解题思路
-将列表的值排序，然后依次重新赋值给链表
+# ### 解题思路
+# 将列表的值排序，然后依次重新赋值给链表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             ptr = ptr.next
         return head
 
-```
+# ```

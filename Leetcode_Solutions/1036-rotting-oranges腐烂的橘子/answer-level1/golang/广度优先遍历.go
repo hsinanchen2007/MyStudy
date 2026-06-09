@@ -1,6 +1,6 @@
 
 
-```
+// ```
 func orangesRotting(grid [][]int) int {
     // 广度优先遍历
     // 将所有为2的位置入队列，将能感染的位置继续放入队列，直到队列为空，记录所需时间
@@ -54,4 +54,4 @@ func inRange(i, j, m, n int) bool {
     }
     return false
 }
-```
+// ```

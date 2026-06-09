@@ -1,5 +1,5 @@
-我真的太难了，写了一个小时。。。
-```
+// 我真的太难了，写了一个小时。。。
+// ```
 public TreeNode buildTree(int[] preorder, int[] inorder) {
         return buildTree(preorder, 0, preorder.length - 1,
                 inorder, 0, inorder.length - 1);
@@ -24,4 +24,4 @@ public TreeNode buildTree(int[] preorder, int[] inorder) {
                 inorder, rootInd + 1, inRight);
         return root;
     }
-```
+// ```

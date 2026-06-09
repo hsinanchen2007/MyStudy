@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def wiggleMaxLength(self, nums: List[int]) -> int:
         if not nums:
@@ -20,4 +20,4 @@ class Solution:
         return max(res)
 
 #dp[i][0]表示以nums[i]结尾且当前位置为降序的最长摆动序列，dp[i][1]表示以nums[i]结尾且当前位置为升序的最长摆动序列
-```
+# ```

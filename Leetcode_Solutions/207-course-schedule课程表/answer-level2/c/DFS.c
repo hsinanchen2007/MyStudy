@@ -1,4 +1,4 @@
-//DFS - Cycle Detection, 发现VISITING的顶点说明循环。
+// //DFS - Cycle Detection, 发现VISITING的顶点说明循环。
 
 #define NO_VISITED 0
 #define VISITING 1

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ struct TreeNode* increasingBST(struct TreeNode* root){
 	iBST(root, &newRoot, &head);
 	return head;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 let s='';
   let count=1;
   for(let i=1;i<S.length;i++){
@@ -11,4 +11,4 @@ let s='';
   }
   s+=S[S.length-1]+count;
   return S.length>s.length?s:S
-```
+// ```

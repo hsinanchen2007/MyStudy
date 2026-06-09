@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/b323c6a1c2d4be8dc6750d880df018412fe23f67f37efbb5c677524b729098d3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b323c6a1c2d4be8dc6750d880df018412fe23f67f37efbb5c677524b729098d3-image.png)
 
-```
+// ```
 int climbStairs(int n){
     int i;               //用于循环至第n级阶梯
     unsigned long mem[3];//假设当前阶梯为第k级阶梯 这个记忆数组是用于记录到达第k-1级阶梯的走法数n(k-1)以及
@@ -18,4 +18,4 @@ int climbStairs(int n){
     }
     return mem[2];       //最终结果存在mem[2]中，返回mem[2]的值
 }
-```
+// ```

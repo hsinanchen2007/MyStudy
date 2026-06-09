@@ -1,4 +1,4 @@
-```
+// ```
 var gameOfLife = function(board) {
     // 八个方向的偏移量
     const idx = [0, 1, 0, -1, -1, -1, 1, 1];
@@ -41,4 +41,4 @@ var gameOfLife = function(board) {
         }
     }
 };
-```
+// ```

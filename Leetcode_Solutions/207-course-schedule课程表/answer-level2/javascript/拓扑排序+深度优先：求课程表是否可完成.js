@@ -1,15 +1,15 @@
-## 解题思路
-本题采用了拓扑排序和深度优先两种方式解决
+// ## 解题思路
+// 本题采用了拓扑排序和深度优先两种方式解决
 
-### 深度优先遍历
-1. 数据结构：图的存储采用邻接表的形式。
-- adjacencyTable {Map}：邻接表 key:开始课程,  value:可达课程
-- queue {number[]}： index:课程, value:入度数
-- stats {Map}： 课程访问状态 key:课程,  value:访问状态{0,1,-1} = {未，正，已}访问
-- result {boolean}：false表示有环。
-2. 基本思想：  从图中某个顶点v出发，访问此顶点，然后从v的未被访问的邻接点出发深度优先遍历图，直至图中所有和v有路径相通的顶点都被访问到。这是一个递归的搜索过程
-3. 主要代码：
-```javascript []
+// ### 深度优先遍历
+// 1. 数据结构：图的存储采用邻接表的形式。
+// - adjacencyTable {Map}：邻接表 key:开始课程,  value:可达课程
+// - queue {number[]}： index:课程, value:入度数
+// - stats {Map}： 课程访问状态 key:课程,  value:访问状态{0,1,-1} = {未，正，已}访问
+// - result {boolean}：false表示有环。
+// 2. 基本思想：  从图中某个顶点v出发，访问此顶点，然后从v的未被访问的邻接点出发深度优先遍历图，直至图中所有和v有路径相通的顶点都被访问到。这是一个递归的搜索过程
+// 3. 主要代码：
+// ```javascript []
     /**从一个节点(入度为0的点)开始，深度优先访问所有节点。 但是可能一个闭环中所有节点入度为0
      *  不过如果碰到环了就直接回退吧，不需要遍历完了
      * @param {number} node 节点名
@@ -35,18 +35,18 @@ function dfs(node) {
       stats.set(node, -1); //最后该节点已经访问完全，设置状态-1
       return;
     }
-```
+// ```
 
-### 拓扑排序
-1. 数据结构：图的存储采用邻接表的形式。
-- adjacencyMatrix {number[][]}：邻接矩阵 行:课程,  列:课程。adjacencyMatrix[i][j]:i课程上了才上j
-- queue {number[]}：  value:入度为0的那些节点。
-2. 基本思想：  
-- 在有向图中选所有没有前驱的顶点并且加入队列。
-- 从队列中选一个顶点，从图中删除该顶点和所有以它为尾的弧。(删除出度)。
-- 重复上述两步，直至所有顶点输出。如果有还有顶点没输出，则有环。
-3. 主要代码：
-```javascript []
+// ### 拓扑排序
+// 1. 数据结构：图的存储采用邻接表的形式。
+// - adjacencyMatrix {number[][]}：邻接矩阵 行:课程,  列:课程。adjacencyMatrix[i][j]:i课程上了才上j
+// - queue {number[]}：  value:入度为0的那些节点。
+// 2. 基本思想：  
+// - 在有向图中选所有没有前驱的顶点并且加入队列。
+// - 从队列中选一个顶点，从图中删除该顶点和所有以它为尾的弧。(删除出度)。
+// - 重复上述两步，直至所有顶点输出。如果有还有顶点没输出，则有环。
+// 3. 主要代码：
+// ```javascript []
 // 从队首开始移出元素，然后改变邻接矩阵
   while (queue.length) {
     let current = queue.shift(); //取一个入度为0的节点
@@ -65,15 +65,15 @@ function dfs(node) {
       }        
     }
 }
-```
+// ```
 
 
 
 
 
-### 代码整合
+// ### 代码整合
 
-```javascript
+// ```javascript
 /**
    * @param {number} numCourses
    * @param {number[][]} prerequisites
@@ -216,4 +216,4 @@ function dfs(node) {
     //2.DFS深度优先
     return DFS(numCourses, prerequisites)    
   };  
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/c456fa3817247a86720bf189130b410aa0265a0d291f56e15a856bfd95b813d0-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/c456fa3817247a86720bf189130b410aa0265a0d291f56e15a856bfd95b813d0-image.png)
 
-逐行找，找到每行连着的1，坐标放入队列，然后处理队列，出队列1个，检查其周围的四个，也是1的话就进队列，队列空了，就检索完了一个岛。再下一轮的逐行找1找下一个岛。
+// 逐行找，找到每行连着的1，坐标放入队列，然后处理队列，出队列1个，检查其周围的四个，也是1的话就进队列，队列空了，就检索完了一个岛。再下一轮的逐行找1找下一个岛。
 
-每次找到了1，就改为0，所谓的“沉岛”。
+// 每次找到了1，就改为0，所谓的“沉岛”。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} grid
  * @return {number}
@@ -66,4 +66,4 @@ var numIslands = function (grid) {
     }
     return num;
 };
-```
+// ```

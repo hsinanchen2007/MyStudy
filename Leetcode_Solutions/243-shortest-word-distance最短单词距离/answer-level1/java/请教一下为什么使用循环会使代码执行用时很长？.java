@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :8 ms, 在所有 Java 提交中击败了5.59%的用户
-内存消耗 :39.6 MB, 在所有 Java 提交中击败了6.67%的用户
+// ### 解题思路
+// 执行用时 :8 ms, 在所有 Java 提交中击败了5.59%的用户
+// 内存消耗 :39.6 MB, 在所有 Java 提交中击败了6.67%的用户
 
-### 代码
+// ### 代码
 
 
-```java
+// ```java
 class Solution {
     public int shortestDistance(String[] words, String word1, String word2) {
         int pos1 = 0, pos2 = 0;
@@ -29,4 +29,4 @@ class Solution {
         return minDistance;
     }
 }
-```
+// ```

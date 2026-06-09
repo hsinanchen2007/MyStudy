@@ -1,12 +1,12 @@
-一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
-### 解题思路
-遍历一次，统计奇数个数。
+# 一起组队刷题打卡，微博 [@爱编程的周鸟](https://weibo.com/iosxxoo) 求关注求交流。
+# ### 解题思路
+# 遍历一次，统计奇数个数。
 
-然后从前往后填坑。
+# 然后从前往后填坑。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def exchange(self, nums):
         """
@@ -30,4 +30,4 @@ class Solution(object):
                 res[even_i] = nums[i]
                 even_i += 1
         return res
-```
+# ```

@@ -1,20 +1,20 @@
-题目中要求计算重叠区间，而重叠的区间一定是连续的区间。所以本质上这道题要做的是排序，然后再进行连续区间的合并，最后输入合并结果。
+// 题目中要求计算重叠区间，而重叠的区间一定是连续的区间。所以本质上这道题要做的是排序，然后再进行连续区间的合并，最后输入合并结果。
 
-## 1、直接编码插入排序
+// ## 1、直接编码插入排序
 
-对输入矩阵直接进行插入排序，每个数组都比较左边界的大小，然后按序插入到动态链表中。时间复杂度是O(N^2). 
+// 对输入矩阵直接进行插入排序，每个数组都比较左边界的大小，然后按序插入到动态链表中。时间复杂度是O(N^2). 
 
-新建一个链表，将排序完成后的数组依次转接到新链表中，每次判断新链表最后一个数组的右边界，和第n个数组的左边界的大小。比较后进行合并，或者插入到新链表中。时间复杂度O(N).
+// 新建一个链表，将排序完成后的数组依次转接到新链表中，每次判断新链表最后一个数组的右边界，和第n个数组的左边界的大小。比较后进行合并，或者插入到新链表中。时间复杂度O(N).
 
-最后，将整个合并后的链表重新转换为矩阵。时间复杂度O(N).
+// 最后，将整个合并后的链表重新转换为矩阵。时间复杂度O(N).
 
 
 
-168 / 169 个通过测试用例，超出时间限制。
+// 168 / 169 个通过测试用例，超出时间限制。
 
-代码：
+// 代码：
 
-```java
+// ```java
 class Solution {
     public int[][] merge(int[][] intervals) {
         // 对输入矩阵直接进行插入排序
@@ -54,29 +54,29 @@ class Solution {
         return resultTransfer;
     }
 }
-```
+// ```
 
 
 
-## 2、使用sort的比较器
+// ## 2、使用sort的比较器
 
-和直接编码相比，自定义了比较器Comparator，比较的同样是每个数组区间的左边界。比较后根据comparator的定义返回-1、0、1, 依次表示数组a 小于、等于、大于b.
+// 和直接编码相比，自定义了比较器Comparator，比较的同样是每个数组区间的左边界。比较后根据comparator的定义返回-1、0、1, 依次表示数组a 小于、等于、大于b.
 
-新建一个链表，将矩阵中的数组转移到动态链表中。时间复杂度O(N).
+// 新建一个链表，将矩阵中的数组转移到动态链表中。时间复杂度O(N).
 
-然后使用linkedlist的sort函数方法进行排序，并使用自定义的comparator比较器。
+// 然后使用linkedlist的sort函数方法进行排序，并使用自定义的comparator比较器。
 
-新建一个链表，将排序完成后的数组依次转接到新链表中，每次判断新链表最后一个数组的右边界，和第n个数组的左边界的大小。比较后进行合并，或者插入到新链表中。时间复杂度O(N).
+// 新建一个链表，将排序完成后的数组依次转接到新链表中，每次判断新链表最后一个数组的右边界，和第n个数组的左边界的大小。比较后进行合并，或者插入到新链表中。时间复杂度O(N).
 
-最后，将整个合并后的链表重新转换为矩阵。时间复杂度O(N).
+// 最后，将整个合并后的链表重新转换为矩阵。时间复杂度O(N).
 
 
 
-这里已经可以通过所有测试用例。可以看到，主要的区别就是使用了sort比较器。sort比较器做到了复杂度O(NlogN)，所以优化了时间。
+// 这里已经可以通过所有测试用例。可以看到，主要的区别就是使用了sort比较器。sort比较器做到了复杂度O(NlogN)，所以优化了时间。
 
-代码：
+// 代码：
 
-```java
+// ```java
 class Solution {
     /**
      * Compares its two arguments for order.  Returns a negative integer,
@@ -119,17 +119,17 @@ class Solution {
         return resultTransfer;
     }
 }
-```
+// ```
 
 
 
-## 3、sort比较器源码浅析
+// ## 3、sort比较器源码浅析
 
-### 3.1 List的sort源码
+// ### 3.1 List的sort源码
 
-先看看List的sort比较方法，要求的输入是自定义的比较器和this指向的list. 这里将list转为对象数组，然后使用Arrays.sort去排序，最后使用Iterator重新改变list.
+// 先看看List的sort比较方法，要求的输入是自定义的比较器和this指向的list. 这里将list转为对象数组，然后使用Arrays.sort去排序，最后使用Iterator重新改变list.
 
-```java
+// ```java
 @SuppressWarnings({"unchecked", "rawtypes"})
 default void sort(Comparator<? super E> c) {
     Object[] a = this.toArray();
@@ -140,13 +140,13 @@ default void sort(Comparator<? super E> c) {
         i.set((E) e);
     }
 }
-```
+// ```
 
-### 3.2 调用Arrays的sort方法
+// ### 3.2 调用Arrays的sort方法
 
-Arrays里的sort方法，如果没有比较器会使用默认的升序排序。如果有比较器，除了old version版本要求，则会使用TimSort.
+// Arrays里的sort方法，如果没有比较器会使用默认的升序排序。如果有比较器，除了old version版本要求，则会使用TimSort.
 
-```java
+// ```java
 public static <T> void sort(T[] a, Comparator<? super T> c) {
     if (c == null) {
         sort(a);
@@ -157,19 +157,19 @@ public static <T> void sort(T[] a, Comparator<? super T> c) {
             TimSort.sort(a, 0, a.length, c, null, 0, 0);
     }
 }
-```
+// ```
 
-### 3.3 Timsort函数的三个部分
+// ### 3.3 Timsort函数的三个部分
 
-Timsort是方法实现的核心，总的来说分为三个部分：
+// Timsort是方法实现的核心，总的来说分为三个部分：
 
-1）对象个数小于2个，不再需要排序；
+// 1）对象个数小于2个，不再需要排序；
 
-2）对象个数小于32个，使用二分排序；
+// 2）对象个数小于32个，使用二分排序；
 
-3）对象个数大于等于32个，使用归并排序+二分排序
+// 3）对象个数大于等于32个，使用归并排序+二分排序
 
-```java
+// ```java
 static <T> void sort(T[] a, int lo, int hi, Comparator<? super T> c,
                          T[] work, int workBase, int workLen) {
     assert c != null && a != null && lo >= 0 && lo <= hi && hi <= a.length;
@@ -222,11 +222,11 @@ static <T> void sort(T[] a, int lo, int hi, Comparator<? super T> c,
     ts.mergeForceCollapse();
     assert ts.stackSize == 1;
 }
-```
+// ```
 
-### 3.4 主要的子方法二分排序
+// ### 3.4 主要的子方法二分排序
 
-```java
+// ```java
 @SuppressWarnings("fallthrough")
 private static <T> void binarySort(T[] a, int lo, int hi, int start,
                                    Comparator<? super T> c) {
@@ -272,5 +272,5 @@ private static <T> void binarySort(T[] a, int lo, int hi, int start,
         a[left] = pivot;
     }
 }
-```
+// ```
 

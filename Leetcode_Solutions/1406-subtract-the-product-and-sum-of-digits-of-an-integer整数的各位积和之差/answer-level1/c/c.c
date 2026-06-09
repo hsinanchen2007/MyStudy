@@ -1,8 +1,8 @@
-简单
+// 简单
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int subtractProductAndSum(int n){
     int t[4],i,sum=0,mul=1;
     while(n!=0){
@@ -13,4 +13,4 @@ int subtractProductAndSum(int n){
     } 
     return mul-sum;
 }
-```
+// ```

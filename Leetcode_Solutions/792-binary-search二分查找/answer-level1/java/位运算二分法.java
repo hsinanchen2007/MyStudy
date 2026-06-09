@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/8f0d0db0c3000804bafb6e69278d62fd611ac77a8e0498284ae642f5bd512284-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/8f0d0db0c3000804bafb6e69278d62fd611ac77a8e0498284ae642f5bd512284-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
       if(nums.length == 0)
@@ -23,4 +23,4 @@ class Solution {
       return -1;
     }
 }
-```
+// ```

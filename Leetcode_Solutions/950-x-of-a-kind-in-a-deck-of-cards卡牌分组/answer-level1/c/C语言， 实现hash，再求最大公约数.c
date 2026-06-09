@@ -1,4 +1,4 @@
-```c
+// ```c
 #define HASH_SIZE 10007
 #define INF 0x7fffffff
 
@@ -122,4 +122,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
 }
 
 
-```
+// ```

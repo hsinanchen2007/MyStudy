@@ -1,5 +1,5 @@
-感觉自己写的很复杂。。
-```
+# 感觉自己写的很复杂。。
+# ```
 class Solution(object):
     def mergeTrees(self, t1, t2):
         """
@@ -22,4 +22,4 @@ class Solution(object):
         t1.val+=t2.val
         helper(t1,t2)
         return t1
-```
+# ```

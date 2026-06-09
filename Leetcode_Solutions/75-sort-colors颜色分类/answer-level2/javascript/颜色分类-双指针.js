@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/f6408b18bc252d4212bfab9e87636a258fd999d761a1146d8e12c30ae679af80-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/f6408b18bc252d4212bfab9e87636a258fd999d761a1146d8e12c30ae679af80-image.png)
 
- - 中心思想就是：0往前放，2往后放；
- - 使用三个指针，存放0的指针start，存放1的指针end，移动指针cur；
- - 注意结束条件不是 cur < length; 而是 cur <= end;
-### 代码
+//  - 中心思想就是：0往前放，2往后放；
+//  - 使用三个指针，存放0的指针start，存放1的指针end，移动指针cur；
+//  - 注意结束条件不是 cur < length; 而是 cur <= end;
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
@@ -43,4 +43,4 @@ var sortColors = function(nums) {
         }
     }
 };
-```
+// ```

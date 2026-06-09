@@ -1,11 +1,11 @@
-### 解题思路
-将X 转换为Integer对象， 再利用StringBuffer里的reverse方法倒序字符串，
+// ### 解题思路
+// 将X 转换为Integer对象， 再利用StringBuffer里的reverse方法倒序字符串，
 
-注意比较时必须把StringBuffer对象转成String，使用String的equals方法进行字符串的比较，因为StringBuffer里的equals方法并没有重写Object里的equals方法，并不能比较字符串的值是否相等。
+// 注意比较时必须把StringBuffer对象转成String，使用String的equals方法进行字符串的比较，因为StringBuffer里的equals方法并没有重写Object里的equals方法，并不能比较字符串的值是否相等。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public  boolean isPalindrome(int x ) {
 		

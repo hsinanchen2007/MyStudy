@@ -1,4 +1,4 @@
-```
+// ```
 func isSubStructure(A *TreeNode, B *TreeNode) bool {
     if A == nil || B == nil {
         return false
@@ -18,4 +18,4 @@ func helper(A *TreeNode, B *TreeNode) bool {
     }
     return helper(A.Left, B.Left) && helper(A.Right, B.Right)
 }
-```
+// ```

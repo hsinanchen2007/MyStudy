@@ -1,9 +1,9 @@
-### 解题思路
-分割左右子树，递归建树
+// ### 解题思路
+// 分割左右子树，递归建树
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {

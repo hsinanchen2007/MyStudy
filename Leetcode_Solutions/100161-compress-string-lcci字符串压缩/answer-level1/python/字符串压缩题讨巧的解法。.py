@@ -1,9 +1,9 @@
-### 解题思路
-根据题解用的一种讨巧对做法。将就着看
+# ### 解题思路
+# 根据题解用的一种讨巧对做法。将就着看
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def compressString(self, S):
         """
@@ -24,4 +24,4 @@ class Solution(object):
             return  S
         else:
             return KS
-```
+# ```

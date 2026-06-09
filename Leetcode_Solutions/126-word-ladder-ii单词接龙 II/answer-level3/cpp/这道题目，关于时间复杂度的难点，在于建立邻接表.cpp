@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-建表，对字符串进行对比的复杂度是O(m * n^2)
-而bfs或者dfs，实际只是O(n)
-所以很没意思= =
+// 建表，对字符串进行对比的复杂度是O(m * n^2)
+// 而bfs或者dfs，实际只是O(n)
+// 所以很没意思= =
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int bfsD(int n,int startI, int endI, int* sind, int* eind, vector<vector<int>>& dis)
@@ -202,4 +202,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,8 +1,8 @@
-递归生成每个字数的序列化结果，相同的结果加入 `rootList` 中
+# 递归生成每个字数的序列化结果，相同的结果加入 `rootList` 中
 
-![image.png](https://pic.leetcode-cn.com/a9db8cc920539a6ae0c2bcd0517b555bd15b90ad7c75c8c86e05f439c61930f8-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a9db8cc920539a6ae0c2bcd0517b555bd15b90ad7c75c8c86e05f439c61930f8-image.png)
 
-``` python
+# ``` python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -34,5 +34,5 @@ class Solution:
         else:
             self.cache[result] = root
         return result
-```
+# ```
 

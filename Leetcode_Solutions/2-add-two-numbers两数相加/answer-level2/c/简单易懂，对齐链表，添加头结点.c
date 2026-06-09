@@ -1,9 +1,9 @@
-### 解题思路
-记得对齐两个链表，可以省去不少麻烦，注意进位以及9+1=10这样的情况。
+// ### 解题思路
+// 记得对齐两个链表，可以省去不少麻烦，注意进位以及9+1=10这样的情况。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -77,4 +77,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
 	}
 	return head->next;//去头结点
 }
-```
+// ```

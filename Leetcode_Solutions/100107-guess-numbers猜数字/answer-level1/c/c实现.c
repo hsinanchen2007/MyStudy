@@ -1,9 +1,9 @@
-### 解题思路
-数组是相等的只需要遍历一遍
+// ### 解题思路
+// 数组是相等的只需要遍历一遍
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int game(int* guess, int guessSize, int* answer, int answerSize){
     int count=0;
     int i;
@@ -19,4 +19,4 @@ int game(int* guess, int guessSize, int* answer, int answerSize){
 return count;
 
 }
-```
+// ```

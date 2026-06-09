@@ -1,10 +1,10 @@
-### 解题思路
-法一：时间复杂度O(n²),空间复杂度(n²),好慢....
+# ### 解题思路
+# 法一：时间复杂度O(n²),空间复杂度(n²),好慢....
 
-法二：利用数据求和公式来做，好快,时间复杂度O(n),空间复杂度O(n)
-### 代码
+# 法二：利用数据求和公式来做，好快,时间复杂度O(n),空间复杂度O(n)
+# ### 代码
 
-```python
+# ```python
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         i = 1
@@ -30,9 +30,9 @@ class Solution:
                     break;
         return result
 
-```
+# ```
 
-```python
+# ```python
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         #求和公式 Sn = a1*n +n*(n-1)//2
@@ -48,4 +48,4 @@ class Solution:
             if a1%i == 0:
                 result.insert(0,[m for m in range(a1//i,a1//i+i)])
         return result
-```
+# ```

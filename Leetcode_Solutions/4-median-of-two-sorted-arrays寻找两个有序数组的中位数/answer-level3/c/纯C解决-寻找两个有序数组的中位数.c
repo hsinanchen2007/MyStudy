@@ -1,8 +1,8 @@
-### 解题思路
-这是一种不是二分查找的O(logn)的效率查找方式
-### 代码
+// ### 解题思路
+// 这是一种不是二分查找的O(logn)的效率查找方式
+// ### 代码
 
-```c
+// ```c
 
 double getK(int *nums1,int nums1Size,int *nums2,int nums2Size,int k)//查找到两个数组中第K大
 {
@@ -62,4 +62,4 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
     int k2=(nums1Size+nums2Size+2)/2;
     return (getK(nums1,nums1Size,nums2,nums2Size,k1)+getK(nums1,nums1Size,nums2,nums2Size,k2))/2;
 }
-```
+// ```

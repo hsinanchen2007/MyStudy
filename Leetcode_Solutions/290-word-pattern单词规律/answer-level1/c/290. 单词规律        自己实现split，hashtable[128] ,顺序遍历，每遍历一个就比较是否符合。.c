@@ -1,20 +1,20 @@
-### 解题思路
-//每遍历一个字符，都比较是否符合了，所以之前记录的索引可以被覆盖掉
-//hashtable 里只记录字符出现的最新的位置即可，或者记录任何一个位置即可。。
+// ### 解题思路
+// //每遍历一个字符，都比较是否符合了，所以之前记录的索引可以被覆盖掉
+// //hashtable 里只记录字符出现的最新的位置即可，或者记录任何一个位置即可。。
 
-给定一种规律 pattern 和一个字符串 str ，判断 str 是否遵循相同的规律。
+// 给定一种规律 pattern 和一个字符串 str ，判断 str 是否遵循相同的规律。
 
-这里的 遵循 指完全匹配，例如， pattern 里的每个字母和字符串 str 中的每个非空单词之间存在着双向连接的对应规律。
+// 这里的 遵循 指完全匹配，例如， pattern 里的每个字母和字符串 str 中的每个非空单词之间存在着双向连接的对应规律。
 
-示例1:
+// 示例1:
 
-输入: pattern = "abba", str = "dog cat cat dog"
-输出: true
+// 输入: pattern = "abba", str = "dog cat cat dog"
+// 输出: true
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int mysplit(char** res, char* str, char c, int len){
     char * temp = strchr(str, c);
     int k = 0;
@@ -61,4 +61,4 @@ bool wordPattern(char * pattern, char * str){
 
     return true;
 }
-```
+// ```

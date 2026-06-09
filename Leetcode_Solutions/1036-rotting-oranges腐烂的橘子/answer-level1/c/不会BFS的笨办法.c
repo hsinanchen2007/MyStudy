@@ -1,9 +1,9 @@
-### 解题思路
-不会BFS的笨办法
+// ### 解题思路
+// 不会BFS的笨办法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int orangesRotting(int** grid, int gridSize, int* gridColSize){
     /* 比较笨的方法是每次遍历找到是腐烂橘子，就将上下左右的好橘子传染了，
@@ -73,4 +73,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
     
     return time;
 }
-```
+// ```

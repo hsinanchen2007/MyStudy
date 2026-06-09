@@ -1,4 +1,4 @@
-```java
+// ```java
 public class Solution{
 /*
 	 * 使用HashMap映射 pattern中字符(key)和str中单词(value)的关系：
@@ -25,4 +25,4 @@ public class Solution{
 		return true;
 	}
 }
-```
+// ```

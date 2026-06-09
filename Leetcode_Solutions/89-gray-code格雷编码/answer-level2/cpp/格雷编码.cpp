@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
    void grayCodeHelper(vector<int> &ret, unsigned int *now, unsigned int n) {
     if (n == 1) {
         *now = *now ^ 1;
@@ -19,4 +19,4 @@ vector<int> grayCode(int n) {
     if (n > 0) grayCodeHelper(ret, &now, 1 << n -1);
     return ret;
 }
-```
+// ```

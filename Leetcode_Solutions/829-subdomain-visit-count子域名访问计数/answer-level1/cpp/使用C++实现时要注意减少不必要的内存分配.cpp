@@ -1,11 +1,11 @@
-要注意的点：
-1. 不要用new
-2. 不推荐用stringstream
-3. 通过reserve减少内存重分配
-4. 使用string_view而不是substr以避免内存分配
-5. 充分利用好emplace接口和std::move
+// 要注意的点：
+// 1. 不要用new
+// 2. 不推荐用stringstream
+// 3. 通过reserve减少内存重分配
+// 4. 使用string_view而不是substr以避免内存分配
+// 5. 充分利用好emplace接口和std::move
 
-```
+// ```
 class Solution {
 public:
     vector<string> subdomainVisits(vector<string>& cpdomains) {
@@ -44,5 +44,5 @@ public:
         return result;
     }
 };
-```
+// ```
 

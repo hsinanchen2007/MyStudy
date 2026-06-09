@@ -1,4 +1,4 @@
-```
+// ```
 var letterCombinations = function(digits) {
     if (digits.length === 0) {
         return []
@@ -29,6 +29,6 @@ var letterCombinations = function(digits) {
     };
     return count(arr);
 };
-```
+// ```
 
-创建新数组保存前面计算的结果再将原数组置空。
+// 创建新数组保存前面计算的结果再将原数组置空。

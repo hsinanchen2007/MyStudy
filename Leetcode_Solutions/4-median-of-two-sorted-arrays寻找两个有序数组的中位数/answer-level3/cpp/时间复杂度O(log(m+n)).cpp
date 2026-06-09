@@ -1,6 +1,6 @@
-双指针法：设置两个下标，分别指向nums1和nums2，比较nums1[cur1]和nums2[cur2],谁小谁的下标+1，直到总共走(sizeSum-1)/2步找到中位数，再分情况讨论sizeSum为奇偶数即可。
-时间复杂度O(log(m+n));
-```
+// 双指针法：设置两个下标，分别指向nums1和nums2，比较nums1[cur1]和nums2[cur2],谁小谁的下标+1，直到总共走(sizeSum-1)/2步找到中位数，再分情况讨论sizeSum为奇偶数即可。
+// 时间复杂度O(log(m+n));
+// ```
 double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2){
         double a=0.0;
         if(nums1.size()==0 &&nums2.size()==0)
@@ -154,5 +154,5 @@ double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2){
         }
         return a;
     };
-```
+// ```
 

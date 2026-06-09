@@ -1,4 +1,4 @@
-```
+# ```
 class Leaderboard:
     leaders = None
     def __init__(self):
@@ -19,4 +19,4 @@ class Leaderboard:
 
     def reset(self, playerId: int) -> None:
         self.leaders[playerId] = 0        
-```
+# ```

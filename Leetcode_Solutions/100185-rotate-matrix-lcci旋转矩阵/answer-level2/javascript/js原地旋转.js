@@ -1,12 +1,12 @@
-### 解题思路
-原地旋转
-如图，只需要将上三角区域中的每个点进行依次旋转即可（包含三角形的左边界但不包含三角形的右边界）
-![image.png](https://pic.leetcode-cn.com/9a41562966d2c8e31760b753f9755c6b6d5726ad80d24583ed70228ab7d0bfb0-image.png)
+// ### 解题思路
+// 原地旋转
+// 如图，只需要将上三角区域中的每个点进行依次旋转即可（包含三角形的左边界但不包含三角形的右边界）
+// ![image.png](https://pic.leetcode-cn.com/9a41562966d2c8e31760b753f9755c6b6d5726ad80d24583ed70228ab7d0bfb0-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -27,4 +27,4 @@ var rotate = function(matrix) {
     }
     return matrix;
 };
-```
+// ```

@@ -1,8 +1,8 @@
-js版动态规划，
-注意的点有：
-数组默认值为undefined，需要赋值为0才能正常进行累加 
-当不传硬币数组，或传空数组时是不执行循环的，需要返回0，同样需要判断undefined处理
-```
+// js版动态规划，
+// 注意的点有：
+// 数组默认值为undefined，需要赋值为0才能正常进行累加 
+// 当不传硬币数组，或传空数组时是不执行循环的，需要返回0，同样需要判断undefined处理
+// ```
 /**
  * @param {number} amount
  * @param {number[]} coins
@@ -22,4 +22,4 @@ var change = function(amount, coins) {
     if(typeof dp[amount] === 'undefined') return 0
     return dp[amount]
 }
-```
+// ```

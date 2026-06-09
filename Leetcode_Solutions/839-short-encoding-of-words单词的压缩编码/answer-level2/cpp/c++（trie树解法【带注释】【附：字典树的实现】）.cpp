@@ -1,13 +1,13 @@
-- 思路：
-  - 对字典中的每个单词倒着插入字典树，树中所有叶子结点的单词的长度加一之和，即为所求
-- 时间复杂度：
-  - o(sum(word_len_i))
-- 空间复杂度：
-  - o(len(char)*sum(word_len_i))
-- 结果:
-  - 用时：83%（88ms）
-  - 内存：12%
-```cpp []
+// - 思路：
+//   - 对字典中的每个单词倒着插入字典树，树中所有叶子结点的单词的长度加一之和，即为所求
+// - 时间复杂度：
+//   - o(sum(word_len_i))
+// - 空间复杂度：
+//   - o(len(char)*sum(word_len_i))
+// - 结果:
+//   - 用时：83%（88ms）
+//   - 内存：12%
+// ```cpp []
 class Solution {
     struct TrieNode{
         TrieNode *child[26];
@@ -46,9 +46,9 @@ public:
         return count(root, 0);
     }
 };
-```
-- 字典树实现 - [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
-```cpp []
+// ```
+// - 字典树实现 - [208. 实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
+// ```cpp []
 class Trie {
     Trie* Node[26];
     bool is_end;
@@ -100,10 +100,10 @@ public:
 * bool param_2 = obj->search(word);
 * bool param_3 = obj->startsWith(prefix);
 */
-```
-> -------------------------------------------------
-> > \>\>\>[**我的算法题本 - 算法菜鸟之路**](https://github.com/lorwin0130/Algorithm-newbie)
-> 会记录做过题的**不同解法、思路、套路总结以及个人思考**
-> 欢迎各位大佬**来讨论呀**，欢迎**star (U^_^U)** 
-> -------------------------------------------------
+// ```
+// > -------------------------------------------------
+// > > \>\>\>[**我的算法题本 - 算法菜鸟之路**](https://github.com/lorwin0130/Algorithm-newbie)
+// > 会记录做过题的**不同解法、思路、套路总结以及个人思考**
+// > 欢迎各位大佬**来讨论呀**，欢迎**star (U^_^U)** 
+// > -------------------------------------------------
 

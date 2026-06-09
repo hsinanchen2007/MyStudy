@@ -1,5 +1,5 @@
 
-```
+// ```
 //整数转字符串
 int intToString(int val, char** ans, int* returnSize, int currIndex)
 {
@@ -62,5 +62,5 @@ char** binaryTreePaths(struct TreeNode* root, int* returnSize)
     (*returnSize)++;
     return ans;
 }
-```
+// ```
 

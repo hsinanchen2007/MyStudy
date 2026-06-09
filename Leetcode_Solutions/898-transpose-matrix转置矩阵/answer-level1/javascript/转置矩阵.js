@@ -1,4 +1,4 @@
-```js
+// ```js
 var transpose = function(A) {
     let arr = []
     for (let j = 0; j < A[0].length; j++) {
@@ -10,5 +10,5 @@ var transpose = function(A) {
     }
     return arr
 };
-```
+// ```
 

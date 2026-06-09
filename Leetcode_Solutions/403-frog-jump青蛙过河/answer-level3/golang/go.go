@@ -1,14 +1,14 @@
-### 解题思路
-套了1层map 
-dp 记录每个节点的可能步数
+// ### 解题思路
+// 套了1层map 
+// dp 记录每个节点的可能步数
 
-每到一个节点 看这个节点的map里面有几种可能的步数 
-尝试每一种步数是否能恰好跳到后面的位置
+// 每到一个节点 看这个节点的map里面有几种可能的步数 
+// 尝试每一种步数是否能恰好跳到后面的位置
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func canCross(stones []int) bool {
     // dp[stones[i]] 用个map保存第个位置i所有能跳的k值
     dp := make(map[int]map[int]int, len(stones))
@@ -32,4 +32,4 @@ func canCross(stones []int) bool {
 
     return  len(dp[stones[len(stones)-1]]) != 0
 }
-```
+// ```

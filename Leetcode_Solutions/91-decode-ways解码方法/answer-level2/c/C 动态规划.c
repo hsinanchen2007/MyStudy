@@ -1,4 +1,4 @@
-```
+// ```
 int numDecodings(char * s){
     int len=strlen(s);
     int **status=(int **)malloc(sizeof(int *)*2);
@@ -22,4 +22,4 @@ int numDecodings(char * s){
     free(status);
     return ret;
 }
-```
+// ```

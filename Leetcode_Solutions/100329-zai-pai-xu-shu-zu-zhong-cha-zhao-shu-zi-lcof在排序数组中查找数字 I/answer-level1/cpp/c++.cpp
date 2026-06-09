@@ -1,6 +1,6 @@
-采取二分查找的方式查找上下界
-注意：
-因为在 left 与 right 仅相差 1 的情况下
+// 采取二分查找的方式查找上下界
+// 注意：
+// 因为在 left 与 right 仅相差 1 的情况下
 mid = (left + right)/2 = left
 如果想找右边界，应该最终使mid = right要给左右之和+1
 1.寻找左边界mid = (left + right)/2

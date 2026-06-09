@@ -1,6 +1,6 @@
-用哨兵节点当栈底写一个栈就行了，另一个指针用于指向下面最小的值。
+// 用哨兵节点当栈底写一个栈就行了，另一个指针用于指向下面最小的值。
 
-```
+// ```
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -49,4 +49,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->min();
  */
-```
+// ```

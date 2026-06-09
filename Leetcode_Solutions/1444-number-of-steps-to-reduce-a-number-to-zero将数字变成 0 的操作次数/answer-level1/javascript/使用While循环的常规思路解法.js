@@ -1,9 +1,9 @@
-### 解题思路
-看了大佬的二进制运算觉得自己的方法好丢人
+// ### 解题思路
+// 看了大佬的二进制运算觉得自己的方法好丢人
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number}
@@ -16,4 +16,4 @@ var numberOfSteps = function (num) {
     }
     return index
 };
-```
+// ```

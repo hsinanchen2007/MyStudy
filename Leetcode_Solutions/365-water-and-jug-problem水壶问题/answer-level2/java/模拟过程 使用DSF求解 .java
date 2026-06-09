@@ -1,14 +1,14 @@
-### 解题思路
-    模拟过程 使用DSF求解 
-    X -> 0 | X -> Full | Y -> 0 | Y -> Full | X -> Y | Y -> x
-    时间复杂度O(xy)
+// ### 解题思路
+//     模拟过程 使用DSF求解 
+//     X -> 0 | X -> Full | Y -> 0 | Y -> Full | X -> Y | Y -> x
+//     时间复杂度O(xy)
 
-    相比而言 数学方法更好 
-    求 x y 的最大公约数，判断 z 是否可被 最大公约数整除
-    mX + nY = Z
-### 代码
+//     相比而言 数学方法更好 
+//     求 x y 的最大公约数，判断 z 是否可被 最大公约数整除
+//     mX + nY = Z
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 
 class Solution {
@@ -45,4 +45,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

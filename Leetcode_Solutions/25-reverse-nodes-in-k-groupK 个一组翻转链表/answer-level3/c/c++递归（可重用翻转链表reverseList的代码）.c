@@ -1,16 +1,16 @@
 
-执行用时 :8 ms, 在所有 C 提交中击败了92.12%的用户
-内存消耗 :6.6 MB, 在所有 C 提交中击败了100.00%的用户
-### 解题思路
-1、循环找到第k-1和第k个节点，将node(k-1)->next = NULL
-2、翻转[0,k-1]，翻转后的tail1 = head
-3、递归从k开始的剩余节点，得到head2
-4、tail1->next = head2
-5、return head1
+// 执行用时 :8 ms, 在所有 C 提交中击败了92.12%的用户
+// 内存消耗 :6.6 MB, 在所有 C 提交中击败了100.00%的用户
+// ### 解题思路
+// 1、循环找到第k-1和第k个节点，将node(k-1)->next = NULL
+// 2、翻转[0,k-1]，翻转后的tail1 = head
+// 3、递归从k开始的剩余节点，得到head2
+// 4、tail1->next = head2
+// 5、return head1
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -52,4 +52,4 @@ struct ListNode* reverseKGroup(struct ListNode* head, int k) {
     tail1->next = head2;
     return head1;
 }
-```
+// ```

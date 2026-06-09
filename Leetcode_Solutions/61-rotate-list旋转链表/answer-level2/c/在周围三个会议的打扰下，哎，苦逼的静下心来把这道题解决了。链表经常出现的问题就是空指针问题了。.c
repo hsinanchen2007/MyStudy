@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
-![image.png](https://pic.leetcode-cn.com/05deed611440f08c5aeb8b1b920c0bbd6ad2fe1808b0839f72de037b793a69f2-image.png)
+// ### 代码
+// ![image.png](https://pic.leetcode-cn.com/05deed611440f08c5aeb8b1b920c0bbd6ad2fe1808b0839f72de037b793a69f2-image.png)
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,4 +44,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
 
     return res;
 }
-```
+// ```

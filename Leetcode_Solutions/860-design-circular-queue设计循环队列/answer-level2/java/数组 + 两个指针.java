@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyCircularQueue {
 
     int[] array;
@@ -61,4 +61,4 @@ class MyCircularQueue {
     }
 }
 
-```
+// ```

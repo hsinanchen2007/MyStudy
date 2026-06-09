@@ -1,5 +1,5 @@
-实现
-```java
+// 实现
+// ```java
 class KthLargest {
     //创建final优先队列变量q、第k大元素变量k
     private final PriorityQueue<Integer> q;
@@ -26,10 +26,10 @@ class KthLargest {
         return q.peek();
     }
 }
-```
+// ```
 
-测试
-```java
+// 测试
+// ```java
 class KthLargestTest {
     @Test
     void test() {
@@ -42,4 +42,4 @@ class KthLargestTest {
         assertEquals(8, kthLargest.add(3));
     } 
 }
-```
+// ```

@@ -1,6 +1,6 @@
-这种题还是类似脑筋急转弯吧，实现起来没啥难度
+// 这种题还是类似脑筋急转弯吧，实现起来没啥难度
 
-```golang
+// ```golang
 func createTargetArray(nums []int, index []int) []int {
 	res := []int{nums[0]}
 	for i:=1;i<len(index);i++{
@@ -12,4 +12,4 @@ func createTargetArray(nums []int, index []int) []int {
 	}
 	return res
 }
-```
+// ```

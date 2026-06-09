@@ -1,6 +1,6 @@
-## **这种方法应该能够降低字符大于26个的效率，如果字符本身小于26个，效率反而更低。**
+// ## **这种方法应该能够降低字符大于26个的效率，如果字符本身小于26个，效率反而更低。**
 
-```java []
+// ```java []
     public int firstUniqChar(String s) {
         int index = -1;
         //反过来，只有26个字符
@@ -14,10 +14,10 @@
         }
         return index;
     }
-```
-执行用时：2 ms
+// ```
+// 执行用时：2 ms
 
 
-写了个新的题解，融合2种情况：
+// 写了个新的题解，融合2种情况：
 
-## **传送门**： [新题解改进版](https://leetcode-cn.com/problems/first-unique-character-in-a-string/solution/tong-guo-zi-fu-chuan-chang-du-fen-cheng-liang-chon/)
+// ## **传送门**： [新题解改进版](https://leetcode-cn.com/problems/first-unique-character-in-a-string/solution/tong-guo-zi-fu-chuan-chang-du-fen-cheng-liang-chon/)

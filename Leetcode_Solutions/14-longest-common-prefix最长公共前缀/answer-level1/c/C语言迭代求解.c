@@ -1,7 +1,7 @@
-找到最短的字符串及其长度，遍历该字符串，并最终用该字符串输出。
-![image.png](https://pic.leetcode-cn.com/743f0444dca20a76b97dfd69b9fe31646a4cca3a99b3b504b7ac36e9d20f6c03-image.png)
+// 找到最短的字符串及其长度，遍历该字符串，并最终用该字符串输出。
+// ![image.png](https://pic.leetcode-cn.com/743f0444dca20a76b97dfd69b9fe31646a4cca3a99b3b504b7ac36e9d20f6c03-image.png)
 
-```
+// ```
 char * longestCommonPrefix(char ** strs, int strsSize){
     int strLen = 0;
     char* shortStr = NULL;
@@ -45,5 +45,5 @@ char * longestCommonPrefix(char ** strs, int strsSize){
 
     return "";
 }
-```
+// ```
 

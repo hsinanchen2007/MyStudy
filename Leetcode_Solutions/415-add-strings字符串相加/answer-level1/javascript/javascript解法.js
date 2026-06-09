@@ -1,4 +1,4 @@
-```
+// ```
 var addStrings = function(num1, num2) {
     let str ='';
     let carry = 0;
@@ -19,4 +19,4 @@ var addStrings = function(num1, num2) {
     return str.split("").reverse().join("");
     
 };
-```
+// ```

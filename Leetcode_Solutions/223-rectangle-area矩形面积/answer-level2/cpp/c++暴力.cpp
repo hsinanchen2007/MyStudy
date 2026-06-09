@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int computeArea(int A, int B, int C, int D, int E, int F, int G, int H) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

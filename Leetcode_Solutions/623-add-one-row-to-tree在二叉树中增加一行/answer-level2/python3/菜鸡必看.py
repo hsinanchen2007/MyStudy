@@ -1,9 +1,9 @@
-### 解题思路
-他娘的累死人了
+# ### 解题思路
+# 他娘的累死人了
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -35,4 +35,4 @@ class Solution:
                 return a
         helper(root,1,3,v,d)
         return root
-```
+# ```

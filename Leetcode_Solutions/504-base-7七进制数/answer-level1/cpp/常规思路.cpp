@@ -1,9 +1,9 @@
-### 解题思路
-总觉得正负数还可以更优化的，各位大佬请多指教。
+// ### 解题思路
+// 总觉得正负数还可以更优化的，各位大佬请多指教。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convertToBase7(int num) {
@@ -31,4 +31,4 @@ public:
         return str;
     }
 };
-```
+// ```

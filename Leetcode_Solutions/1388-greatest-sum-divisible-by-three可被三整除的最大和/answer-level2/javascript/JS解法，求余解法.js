@@ -1,12 +1,12 @@
-1、首先求出sum值，然后判断sum % 3
+// 1、首先求出sum值，然后判断sum % 3
 
-为0: 直接返回sum即可
-为1: 找到sum减去余数为1的最小值或者两个余数为2的最小值（比较）
-为2: 找到sum减去余数为2的最小值或者两个余数为1的最小值（比较）
+// 为0: 直接返回sum即可
+// 为1: 找到sum减去余数为1的最小值或者两个余数为2的最小值（比较）
+// 为2: 找到sum减去余数为2的最小值或者两个余数为1的最小值（比较）
 
-![image.png](https://pic.leetcode-cn.com/5159561c0440eb6cda8c30fa47bc8bb86b8998bf6aba958c26e81e6542080f37-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5159561c0440eb6cda8c30fa47bc8bb86b8998bf6aba958c26e81e6542080f37-image.png)
 
-```
+// ```
 
 var maxSumDivThree = function(arr) {
     let arr1 = arr.filter(item => item % 3 === 1).sort((a, b) => a - b);
@@ -23,6 +23,6 @@ var maxSumDivThree = function(arr) {
     }
     return sum
 };
-```
-最后即可得到答案；
+// ```
+// 最后即可得到答案；
 

@@ -1,10 +1,10 @@
-### 解题思路
-这道题目和 451题：根据字符出现频率排序 基本相同
-[https://leetcode-cn.com/problems/sort-characters-by-frequency/](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
+// ### 解题思路
+// 这道题目和 451题：根据字符出现频率排序 基本相同
+// [https://leetcode-cn.com/problems/sort-characters-by-frequency/](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -28,4 +28,4 @@ var topKFrequent = function(nums, k) {
     }
     return arr2;
 };
-```
+// ```

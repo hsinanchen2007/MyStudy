@@ -1,4 +1,4 @@
-```
+// ```
 class H2O {
 private:
     size_t _h_n;
@@ -38,4 +38,4 @@ public:
         _cv.notify_all();
     }
 };
-```
+// ```

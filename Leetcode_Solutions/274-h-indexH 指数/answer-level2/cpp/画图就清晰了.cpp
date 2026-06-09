@@ -1,9 +1,9 @@
-### 解题思路
-从大到小排序，其实就是求点集里最大的一个正方形
+// ### 解题思路
+// 从大到小排序，其实就是求点集里最大的一个正方形
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int hIndex(vector<int>& citations) {
@@ -16,4 +16,4 @@ public:
         return i;
     }
 };
-```
+// ```

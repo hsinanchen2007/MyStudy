@@ -1,9 +1,9 @@
-- 先转化成string型存到数组中，再排序。
-- 再遍历转化成int型
-- 返回数组即可
+// - 先转化成string型存到数组中，再排序。
+// - 再遍历转化成int型
+// - 返回数组即可
 
 
-```php []
+// ```php []
     function lexicalOrder($n) {
         $data = [];
         for ($i = 1; $i <= $n; $i++){
@@ -16,5 +16,5 @@
         }
         return $data;
     }
-```
+// ```
 

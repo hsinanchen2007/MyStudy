@@ -1,8 +1,8 @@
-### 解题思路
-遍历列表
-### 代码
+# ### 解题思路
+# 遍历列表
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -19,4 +19,4 @@ class Solution:
             pre_node = node
             node = temp_next
         return pre_node
-```
+# ```

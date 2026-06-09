@@ -1,5 +1,5 @@
-递归法：
-```
+// 递归法：
+// ```
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
@@ -10,12 +10,12 @@ public:
         return NULL;
     }
 };
-```
+// ```
 
 
 
-迭代法：
-```
+// 迭代法：
+// ```
 class Solution {
 public:
     TreeNode* searchBST(TreeNode* root, int val) {
@@ -25,4 +25,4 @@ public:
         return Node;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/30167dde94a9f23c6f3c4c96c1096b665792059e82190a726dc465d2064a3dc6-image.png)
-JavaScript暴力破解双百！
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/30167dde94a9f23c6f3c4c96c1096b665792059e82190a726dc465d2064a3dc6-image.png)
+// JavaScript暴力破解双百！
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} board
  * @return {void} Do not return anything, modify board in-place instead.
@@ -47,4 +47,4 @@ function handle( i,j,clone ){
 
 
 
-```
+// ```

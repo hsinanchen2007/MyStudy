@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minimumAbsDifference(self, arr: List[int]) -> List[List[int]]:
         arr = sorted(arr)
@@ -16,4 +16,4 @@ class Solution:
                 continue
         return sorted(ans)
 
-```
+# ```

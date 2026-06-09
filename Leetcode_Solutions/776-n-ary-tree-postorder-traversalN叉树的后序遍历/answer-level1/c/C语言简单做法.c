@@ -1,8 +1,8 @@
-### 解题思路
-看代码注释即可
+// ### 解题思路
+// 看代码注释即可
 
-### 代码
-```
+// ### 代码
+// ```
 /**
  * Definition for a Node.
  * struct Node {
@@ -49,5 +49,5 @@ void PostTraverse(struct Node*root,int*arr,int*returnSize)
     arr[j++]=root->val;
     (*returnSize)+=1;
 }
-```
-```
+// ```
+// ```

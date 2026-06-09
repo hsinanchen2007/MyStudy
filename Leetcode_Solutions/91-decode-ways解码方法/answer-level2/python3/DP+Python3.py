@@ -1,5 +1,5 @@
-看注释，很清楚。
-```
+# 看注释，很清楚。
+# ```
 class Solution:
     def numDecodings(self, s: str) -> int:
         l=len(s)
@@ -30,4 +30,4 @@ class Solution:
         # print(d)
         return d[-1]
 # print(Solution().numDecodings('226'))
-```
+# ```

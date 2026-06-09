@@ -1,4 +1,4 @@
-```
+-- ```
 select dept_name,student_number from (
     select 
         dept_name,student_number,
@@ -16,4 +16,4 @@ select dept_name,student_number from (
     order by student_number desc,num  asc
 )t;
 
-```
+-- ```

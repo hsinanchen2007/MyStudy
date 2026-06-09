@@ -1,6 +1,6 @@
-有些边界的用例很奇怪了，特别是pattern或value为""的时候
+// 有些边界的用例很奇怪了，特别是pattern或value为""的时候
 
-```
+// ```
     public boolean patternMatching(String pattern, String value) {
         if (pattern.length() == 0) {
             return value.length() == 0;
@@ -65,4 +65,4 @@
         }
         return true;
     }
-```
+// ```

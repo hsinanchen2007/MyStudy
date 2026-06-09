@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/a3fc38c647769335a5059e625718b02c21e2e634a780e83b5333b8ff71e6cc51-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/a3fc38c647769335a5059e625718b02c21e2e634a780e83b5333b8ff71e6cc51-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxArea(int* height, int heightSize){
     int max_area;
     int tmp_area;
@@ -28,4 +28,4 @@ int maxArea(int* height, int heightSize){
      }
     return max_area;
 }
-```
+// ```

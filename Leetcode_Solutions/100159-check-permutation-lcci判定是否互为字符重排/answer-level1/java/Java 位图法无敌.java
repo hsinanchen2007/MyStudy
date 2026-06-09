@@ -1,12 +1,12 @@
-执行用时: 0 ms, 在所有 Java 提交中击败了100.00%的用户
-内存消耗: 37.3 MB, 在所有 Java 提交中击败了100.00%的用户
+// 执行用时: 0 ms, 在所有 Java 提交中击败了100.00%的用户
+// 内存消耗: 37.3 MB, 在所有 Java 提交中击败了100.00%的用户
 
-### 解题思路
-位图法。
+// ### 解题思路
+// 位图法。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         if(s1.length() != s2.length()) {
@@ -25,4 +25,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def getHint(self, secret: str, guess: str) -> str:
         from collections import Counter
@@ -9,4 +9,4 @@ class Solution:
         for i in range(len(guess)):
             if secret[i]==guess[i]: A, B = A+1, B-1
         return str(A)+'A'+str(B)+'B'    
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxDepth(TreeNode root) {
         if(root==null){
@@ -9,4 +9,4 @@ class Solution {
         return left>right?left+1:right+1;
     }
 }
-```
+// ```

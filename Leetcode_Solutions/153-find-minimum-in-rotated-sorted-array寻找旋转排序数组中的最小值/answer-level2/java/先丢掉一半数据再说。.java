@@ -1,9 +1,9 @@
-### 解题思路
-借鉴折半查找，但是没有那么有规律，先丢掉一半，然后再遍历找到一个最小的值
+// ### 解题思路
+// 借鉴折半查找，但是没有那么有规律，先丢掉一半，然后再遍历找到一个最小的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public int findMin(int[] nums) {
         int len = nums.length;
@@ -40,4 +40,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

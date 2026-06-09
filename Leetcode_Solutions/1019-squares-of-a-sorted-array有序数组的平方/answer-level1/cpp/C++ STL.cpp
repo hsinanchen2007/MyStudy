@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     vector<int> sortedSquares(vector<int>& A) {
@@ -9,4 +9,4 @@ public:
         return A;
     }
 };
-```
+// ```

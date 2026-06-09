@@ -1,6 +1,6 @@
-# 因为想不周全，测试用例奇奇怪怪的。
+// # 因为想不周全，测试用例奇奇怪怪的。
 
-```
+// ```
 impl Solution {
     pub fn my_atoi(str: String) -> i32 {
         let mut positive_negtive = true;
@@ -60,4 +60,4 @@ impl Solution {
         }
     }
 }
-```
+// ```

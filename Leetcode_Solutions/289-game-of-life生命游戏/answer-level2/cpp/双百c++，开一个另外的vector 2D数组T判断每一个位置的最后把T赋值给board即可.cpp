@@ -1,9 +1,9 @@
-### 解题思路
-开一个另外的vector 2D数组T判断每一个位置的最后把T赋值给board即可
+// ### 解题思路
+// 开一个另外的vector 2D数组T判断每一个位置的最后把T赋值给board即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -49,4 +49,4 @@ public:
         }
     }
 };
-```
+// ```

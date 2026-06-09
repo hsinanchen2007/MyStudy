@@ -1,14 +1,14 @@
-![langtonsant.png](https://pic.leetcode-cn.com/70ffcb33f6ed1ec63f9d4fe05043bf462b2f613bbb94acf5cea5f70468e15406-langtonsant.png)
+// ![langtonsant.png](https://pic.leetcode-cn.com/70ffcb33f6ed1ec63f9d4fe05043bf462b2f613bbb94acf5cea5f70468e15406-langtonsant.png)
 
-### 解题思路
-目前比执行用时分布图表里最快的还快。
-多看题目下方的提示，“并不真的需要一个网格”，蚂蚁的下一步坐标可以由当前状态计算出，所以保存并时刻更新蚂蚁的状态，用集合保存块的位置，最后再通过集合生成字符串列表。详细思路全在注释中了。
-![LangtonsAntAnimated.gif](https://pic.leetcode-cn.com/3cf257af4f609125a0af9ab99581b41edd5da2ce15591db5560c7cef7320be8f-LangtonsAntAnimated.gif)
-盗了一张维基的动图
+// ### 解题思路
+// 目前比执行用时分布图表里最快的还快。
+// 多看题目下方的提示，“并不真的需要一个网格”，蚂蚁的下一步坐标可以由当前状态计算出，所以保存并时刻更新蚂蚁的状态，用集合保存块的位置，最后再通过集合生成字符串列表。详细思路全在注释中了。
+// ![LangtonsAntAnimated.gif](https://pic.leetcode-cn.com/3cf257af4f609125a0af9ab99581b41edd5da2ce15591db5560c7cef7320be8f-LangtonsAntAnimated.gif)
+// 盗了一张维基的动图
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private class Position {
         
@@ -87,4 +87,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

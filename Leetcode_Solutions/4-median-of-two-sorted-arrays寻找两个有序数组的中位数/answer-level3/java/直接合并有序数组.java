@@ -1,13 +1,13 @@
-### 解题思路
-看到题目最简单的思路就是合并两个有序数组，然后直接求解，这样的时间复杂度是O(Max(m,n))，也就是扫描一遍最长数组的时间复杂度，当然牺牲了空间new了一个新数组来存储合并后结果。效果还行！
-```
+// ### 解题思路
+// 看到题目最简单的思路就是合并两个有序数组，然后直接求解，这样的时间复杂度是O(Max(m,n))，也就是扫描一遍最长数组的时间复杂度，当然牺牲了空间new了一个新数组来存储合并后结果。效果还行！
+// ```
 执行用时 :3 ms, 在所有 Java 提交中击败了 **88.49%** 的用户
 内存消耗 :41.4 MB, 在所有 Java 提交中击败了 **97.54%** 的用户
-```
+// ```
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int unions[] = new int[nums1.length + nums2.length];
@@ -37,4 +37,4 @@ class Solution {
         return (unions[unions.length/2] + unions[unions.length/2 - 1])/2.0;
     }
 }
-```
+// ```

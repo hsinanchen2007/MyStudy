@@ -1,6 +1,6 @@
-利用异或，若满足条件，则异或的结果的二进制形式必然全为1。
+// 利用异或，若满足条件，则异或的结果的二进制形式必然全为1。
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {boolean}
@@ -15,4 +15,4 @@ var hasAlternatingBits = function(n) {
   }
   return true;
 };
-```
+// ```

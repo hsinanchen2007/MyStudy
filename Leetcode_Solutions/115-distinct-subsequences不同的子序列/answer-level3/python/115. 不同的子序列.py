@@ -1,10 +1,10 @@
-### 解题思路
-- s从末尾开始对t匹配；
-- 后一位匹配好前一位才可行；
+# ### 解题思路
+# - s从末尾开始对t匹配；
+# - 后一位匹配好前一位才可行；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numDistinct(self, s: str, t: str) -> int:
         if not s or not t:
@@ -16,4 +16,4 @@ class Solution:
                 if s[i] == t[j]:
                     dp[j] += dp[j + 1]
         return dp[0]
-```
+# ```

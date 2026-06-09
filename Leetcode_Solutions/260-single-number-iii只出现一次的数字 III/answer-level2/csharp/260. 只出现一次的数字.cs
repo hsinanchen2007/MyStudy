@@ -1,8 +1,8 @@
-### 解题思路
-    位运算
-### 代码
+// ### 解题思路
+//     位运算
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int[] SingleNumber(int[] nums) {
             /* 异或 (^)：能够保留两个之间的差异，一个数字重复异或两次，相当于没有产生任何变化
@@ -35,4 +35,4 @@ public class Solution {
             return new[] { x, y };
     }
 }
-```
+// ```

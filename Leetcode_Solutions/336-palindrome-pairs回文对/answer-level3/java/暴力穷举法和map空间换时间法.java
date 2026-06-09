@@ -1,10 +1,10 @@
-### 解题思路
-（1）穷举法  通过测试用例  115/134
-（2）map时间换空间法  100%
+// ### 解题思路
+// （1）穷举法  通过测试用例  115/134
+// （2）map时间换空间法  100%
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 
 public class No1_palindromePairs {
@@ -73,4 +73,4 @@ public class No1_palindromePairs {
     }
 
 }
-```
+// ```

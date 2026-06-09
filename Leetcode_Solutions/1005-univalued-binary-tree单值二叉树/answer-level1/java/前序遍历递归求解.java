@@ -1,11 +1,11 @@
-### 解题思路
-当前节点跟它的左节点不相等时，返回false
-当前节点跟它的右节点不相等时，返回false
-遍历到叶子节点的左右节点时，说明还没找到不相等的值，所以返回true
+// ### 解题思路
+// 当前节点跟它的左节点不相等时，返回false
+// 当前节点跟它的右节点不相等时，返回false
+// 遍历到叶子节点的左右节点时，说明还没找到不相等的值，所以返回true
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -29,4 +29,4 @@ class Solution {
         return isUnivalTree(root.left) && isUnivalTree(root.right);
     }
 }
-```
+// ```

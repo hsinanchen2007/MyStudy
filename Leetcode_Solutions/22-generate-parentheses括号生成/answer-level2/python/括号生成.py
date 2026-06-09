@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         k = ''
@@ -21,4 +21,4 @@ class Solution:
                 back(tem2,count1,count2 + 1,result,n)
         back(k,0,0,result,n)
         return result
-```
+# ```

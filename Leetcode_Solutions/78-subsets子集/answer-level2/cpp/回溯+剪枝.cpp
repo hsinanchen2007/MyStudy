@@ -1,11 +1,11 @@
-### 解题思路
-这个题第一眼就想到了leetcod77n个数中k个数的组合，这里n就是nums.size()，k是从0~nums.size()。
-```
+// ### 解题思路
+// 这个题第一眼就想到了leetcod77n个数中k个数的组合，这里n就是nums.size()，k是从0~nums.size()。
+// ```
 剪枝：递归中的分支循环i不必从start~nums.size()-1，根据path(保存当前解)的长度和k，可以舍弃重复的分支。也就是i只用从start~nums.size()-(k-path.size())
-```
-### 代码
+// ```
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;
@@ -31,4 +31,4 @@ public:
         }
     }
 };
-```
+// ```

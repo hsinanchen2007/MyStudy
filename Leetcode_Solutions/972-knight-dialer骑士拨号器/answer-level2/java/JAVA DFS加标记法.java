@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
    int[][] xy = {{1,2},{1,-2},{-1,2},{-1,-2},{2,1},{2,-1},{-2,1},{-2,-1}};
     public int knightDialer(int N) {
@@ -42,4 +42,4 @@ class Solution {
         return count%1000000007;
     }
 }
-```
+// ```

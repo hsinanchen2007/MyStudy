@@ -1,6 +1,6 @@
-我的思路很简单，**采用和十位数颠倒相同的方式即可。**
+// 我的思路很简单，**采用和十位数颠倒相同的方式即可。**
 
-```
+// ```
 public class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
@@ -15,4 +15,4 @@ public class Solution {
         return ret;
     }
 }
-```
+// ```

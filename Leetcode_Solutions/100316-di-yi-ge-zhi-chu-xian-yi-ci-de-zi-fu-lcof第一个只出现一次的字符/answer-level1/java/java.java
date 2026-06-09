@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
       public char firstUniqChar(String s) {
         int[] count=new int[128];
@@ -18,4 +18,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,12 +1,12 @@
-这个题为啥是困难啊？是因为大家都懒得写吗？
-好吧，看官方复杂题解解释的头头是道，咱也不知道有啥必要。稍微解释下。
-维护了2个哈希表，其中 _filesystem 是实际的文件系统，而 pathhash 则是为了快速索引。
-简单的来说，新建的路径时，每更深一级，都会把当前路径存入 pathhash，将 _filesystem 种对应的目录链接过来。
-这样的好处就是 ls 和 read 的时候会非常快，不论多深，我的路径是完全在一个 hashtable 里，存储是扁平的。别管多深，只要存在，索引是 O(0)。
+# 这个题为啥是困难啊？是因为大家都懒得写吗？
+# 好吧，看官方复杂题解解释的头头是道，咱也不知道有啥必要。稍微解释下。
+# 维护了2个哈希表，其中 _filesystem 是实际的文件系统，而 pathhash 则是为了快速索引。
+# 简单的来说，新建的路径时，每更深一级，都会把当前路径存入 pathhash，将 _filesystem 种对应的目录链接过来。
+# 这样的好处就是 ls 和 read 的时候会非常快，不论多深，我的路径是完全在一个 hashtable 里，存储是扁平的。别管多深，只要存在，索引是 O(0)。
 
-有一处强迫症的地方是，文件的内容，只存在 pathhash 其实就可以？现在这样相当于存了2遍？不过内存应该是一样的。如果只存在 pathhash 里，两个 dict 的功能看起来就稍微有些混乱。
+# 有一处强迫症的地方是，文件的内容，只存在 pathhash 其实就可以？现在这样相当于存了2遍？不过内存应该是一样的。如果只存在 pathhash 里，两个 dict 的功能看起来就稍微有些混乱。
 
-```python
+# ```python
 class FileSystem:
     def __init__(self):
         self._filesystem = {}
@@ -48,4 +48,4 @@ class FileSystem:
 # obj.mkdir(path)
 # obj.addContentToFile(filePath,content)
 # param_4 = obj.readContentFromFile(filePath)
-```
+# ```

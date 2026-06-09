@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-暴力全排列
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 暴力全排列
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         nums=sorted(nums)
@@ -18,4 +18,4 @@ class Solution:
         solve([])
 
         return ans
-```
+# ```

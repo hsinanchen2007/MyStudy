@@ -1,9 +1,9 @@
-### 解题思路
-先排序，然后开辟另一个list存储答案，然后注意合并
+# ### 解题思路
+# 先排序，然后开辟另一个list存储答案，然后注意合并
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         mergred=[]
@@ -20,4 +20,4 @@ class Solution:
               
                 mergred[-1][1]=intervals[i][1]
         return mergred
-```
+# ```

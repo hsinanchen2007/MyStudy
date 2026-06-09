@@ -1,5 +1,5 @@
-用时4ms不是速度最快的，但代码简洁程度应该能在前排。
-```
+// 用时4ms不是速度最快的，但代码简洁程度应该能在前排。
+// ```
 func threeSumClosest(nums []int, target int) int {
 	res := nums[0] + nums[1] + nums[2]
 	sort.Ints(nums)
@@ -28,4 +28,4 @@ func distance(a, b int) int {
 	}
 	return a - b
 }
-```
+// ```

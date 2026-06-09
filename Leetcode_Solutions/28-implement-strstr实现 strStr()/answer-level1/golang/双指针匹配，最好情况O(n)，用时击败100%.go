@@ -1,9 +1,9 @@
-### 解题思路
-保存和匹配字符串首字母相同的索引，避免暴力解法
+// ### 解题思路
+// 保存和匹配字符串首字母相同的索引，避免暴力解法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func strStr(haystack string, needle string) int {
 	i := 0
 	j := 0
@@ -33,4 +33,4 @@ func strStr(haystack string, needle string) int {
 	return -1
 
 }
-```
+// ```

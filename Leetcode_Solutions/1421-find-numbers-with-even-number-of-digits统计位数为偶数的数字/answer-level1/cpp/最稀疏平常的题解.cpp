@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
 	int findNumbers(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
 		return res;
 	}
 };
-```
+// ```

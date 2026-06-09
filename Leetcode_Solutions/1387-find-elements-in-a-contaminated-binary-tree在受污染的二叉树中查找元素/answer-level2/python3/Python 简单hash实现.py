@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/24d43f55dbebdaecd4196a8bbcc3cbadc1a25c6ad051518b50cc12b1dc4ef39c-image.png)
+# ![image.png](https://pic.leetcode-cn.com/24d43f55dbebdaecd4196a8bbcc3cbadc1a25c6ad051518b50cc12b1dc4ef39c-image.png)
 
 
-```
+# ```
 '''
 重构二叉树同时hash保存所有节点数值，查询时候直接查hash表
 '''
@@ -26,4 +26,4 @@ class FindElements:
 
     def find(self, target: int) -> bool:
         return target in self.all_node
-```
+# ```

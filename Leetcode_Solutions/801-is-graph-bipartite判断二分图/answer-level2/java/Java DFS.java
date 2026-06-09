@@ -1,12 +1,12 @@
-### 解题思路
-DFS 染色法，相邻节点的间的颜色不同
-1.要考虑的情况非连通图的情况
-2.利用HashMap存储已搜索的节点和节点的颜色
+// ### 解题思路
+// DFS 染色法，相邻节点的间的颜色不同
+// 1.要考虑的情况非连通图的情况
+// 2.利用HashMap存储已搜索的节点和节点的颜色
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isBipartite(int[][] graph) {
         HashMap<Integer,Integer> colors = new HashMap<>();
@@ -36,4 +36,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

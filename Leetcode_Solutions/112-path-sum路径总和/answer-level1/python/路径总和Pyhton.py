@@ -1,7 +1,7 @@
-这一题怎么说呢，我感觉我也很难描述解法哈哈哈。它跟第110题特别类似，就是要准确理解叶子结点的概念。然后就是分情况讨论各种叶子结点对应路径的情况了，直接看代码吧！
+# 这一题怎么说呢，我感觉我也很难描述解法哈哈哈。它跟第110题特别类似，就是要准确理解叶子结点的概念。然后就是分情况讨论各种叶子结点对应路径的情况了，直接看代码吧！
 
-代码如下：
-```python
+# 代码如下：
+# ```python
 class Solution(object):
     def hasPathSum(self, root, sum):
         """
@@ -61,14 +61,14 @@ if __name__ == "__main__":
     target = 3
     have_path = Solution().hasPathSum(root, target)
     print(have_path)
-```
-执行效率还算是不错的，在90%以上。
+# ```
+# 执行效率还算是不错的，在90%以上。
 
-![image.png](https://pic.leetcode-cn.com/31d70689bdada64d5ea188dbd746835fff05bd0165ddfbd0d62a2c5b86c2a24e-image.png)
-今天在做第113题路径总和II时，看到一些资料，突然想到这题还可以用更简单的方法来写。简而言之，就是我们可以不用讨论这么多种情况了，可以把它们给综合起来。
+# ![image.png](https://pic.leetcode-cn.com/31d70689bdada64d5ea188dbd746835fff05bd0165ddfbd0d62a2c5b86c2a24e-image.png)
+# 今天在做第113题路径总和II时，看到一些资料，突然想到这题还可以用更简单的方法来写。简而言之，就是我们可以不用讨论这么多种情况了，可以把它们给综合起来。
 
-代码如下：
-```python
+# 代码如下：
+# ```python
 class Solution(object):
     def hasPathSum(self, root, sum):
         """
@@ -82,7 +82,7 @@ class Solution(object):
             return sum == root.val
 
         return self.hasPathSum(root.left, sum-root.val) or self.hasPathSum(root.right, sum-root.val)
-```
-执行效率是和第一种方法一样，个人感觉会有所提升，也不懂为什么时间没有减少。
+# ```
+# 执行效率是和第一种方法一样，个人感觉会有所提升，也不懂为什么时间没有减少。
 
-![image.png](https://pic.leetcode-cn.com/5f172b1229a5a49bff9a280b44d87a3db7b09275e8e6df4d2ea44c794d52b1a2-image.png)
+# ![image.png](https://pic.leetcode-cn.com/5f172b1229a5a49bff9a280b44d87a3db7b09275e8e6df4d2ea44c794d52b1a2-image.png)

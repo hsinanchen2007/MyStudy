@@ -1,4 +1,4 @@
-```
+// ```
 char * reverseWords(char * s){
     int length = strlen(s);
     if(length == 0) {
@@ -45,4 +45,4 @@ char * reverseWords(char * s){
     return res;
     
 }
-```
+// ```

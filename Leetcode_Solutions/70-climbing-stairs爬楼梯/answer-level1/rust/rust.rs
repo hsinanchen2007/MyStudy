@@ -1,9 +1,9 @@
-### 解题思路
-Fn = F(n-1) + F(n-2)
+// ### 解题思路
+// Fn = F(n-1) + F(n-2)
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn climb_stairs(n: i32) -> i32 {
         let n = (n+1) as usize;
@@ -19,4 +19,4 @@ impl Solution {
         dp[n-1]
     }
 }
-```
+// ```

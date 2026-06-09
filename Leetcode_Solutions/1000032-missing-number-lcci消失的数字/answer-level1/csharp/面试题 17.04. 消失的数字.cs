@@ -1,9 +1,9 @@
-### 解题思路
-异或位运算
+// ### 解题思路
+// 异或位运算
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int MissingNumber(int[] nums) {
         var result = 0;
@@ -17,4 +17,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

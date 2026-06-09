@@ -1,5 +1,5 @@
-这里是go的数学方法解，递归方式，代码很多很烂很菜！！！
-```
+// 这里是go的数学方法解，递归方式，代码很多很烂很菜！！！
+// ```
 func getPermutation(n int, k int) string {
 	s:=""
 	if n==0||k==0 {
@@ -58,4 +58,4 @@ func getN(s *string,nums []int,arr []int,n int,k int){
 	}
 	getN(s,nums,arr,n-1,k)
 }
-```
+// ```

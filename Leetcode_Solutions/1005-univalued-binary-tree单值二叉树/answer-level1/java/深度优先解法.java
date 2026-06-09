@@ -1,9 +1,9 @@
-### 解题思路
-当没有下级节点时结束遍历，当节点值不相同时结束遍历返回false
+// ### 解题思路
+// 当没有下级节点时结束遍历，当节点值不相同时结束遍历返回false
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         recyle(treeNode.right);
     }
 }
-```
+// ```

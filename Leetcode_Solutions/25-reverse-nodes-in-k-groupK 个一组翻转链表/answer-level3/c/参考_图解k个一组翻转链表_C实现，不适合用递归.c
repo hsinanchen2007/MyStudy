@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ struct ListNode* reverseKGroup(struct ListNode* head, int k) {
     return dummy->next;
 }
 
-```
+// ```

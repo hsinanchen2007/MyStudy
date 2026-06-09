@@ -1,9 +1,9 @@
-### 解题思路
-StringBuilder的append方法竟然也能直接传入int型，思路就是一个一个算
+// ### 解题思路
+// StringBuilder的append方法竟然也能直接传入int型，思路就是一个一个算
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String countAndSay(int n) {
         String previous = "1";
@@ -23,4 +23,4 @@ class Solution {
         return previous;
     }
 }
-```
+// ```

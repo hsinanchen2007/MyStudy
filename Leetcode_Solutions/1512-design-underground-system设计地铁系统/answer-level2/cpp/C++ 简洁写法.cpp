@@ -1,4 +1,4 @@
-```
+// ```
     unordered_map<string,unordered_map<string,int>> resTime;//保存两个车站之间的总时间
     unordered_map<string,unordered_map<string,int>> resCnt;//保存两个车站之间的总人数
     unordered_map<int,pair<string,int>> a;//人的id所对应的起始车站以及上车时间
@@ -14,4 +14,4 @@
     double getAverageTime(string s, string e) {
         return resTime[s][e]*1.0/resCnt[s][e]; 
     }
-```
+// ```

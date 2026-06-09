@@ -1,7 +1,7 @@
-查看我所有LeetCode题解 <https://github.com/yinxin630/leetcode>
+// 查看我所有LeetCode题解 <https://github.com/yinxin630/leetcode>
 
 
-```js
+// ```js
 /*
  * @lc app=leetcode.cn id=1298 lang=javascript
  *
@@ -62,4 +62,4 @@ var maxCandies = function(status, candies, keys, containedBoxes, initialBoxes) {
     return result;
 };
 // @lc code=end
-```
+// ```

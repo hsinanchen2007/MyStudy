@@ -1,17 +1,17 @@
-![image.png](https://pic.leetcode-cn.com/096af8e58db77abe3a8def8b273b7559b39ef722895c5a3d908180234e399944-image.png)
+// ![image.png](https://pic.leetcode-cn.com/096af8e58db77abe3a8def8b273b7559b39ef722895c5a3d908180234e399944-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 优化下面的 BFS 方法的思路：
 使用一个 map 记录所有管理层的下级员工，
 不然会重复计算 n多..n多..n多 次
 
 queue 中的每一项为数组，记录的是 [当前员工在 manager 数组中的索引, 从老板通知到当前员工所花的时间]
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} headID
@@ -99,4 +99,4 @@ var numOfMinutes = function(n, headID, manager, informTime) {
   
 //   return ans;
 // };
-```
+// ```

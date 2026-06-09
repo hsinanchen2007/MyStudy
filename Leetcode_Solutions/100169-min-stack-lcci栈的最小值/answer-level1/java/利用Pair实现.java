@@ -1,4 +1,4 @@
-```
+// ```
 class MinStack {
     class Pair{
         private int key;
@@ -47,4 +47,4 @@ class MinStack {
         return s.peek().getValue();
     }
 }
-```
+// ```

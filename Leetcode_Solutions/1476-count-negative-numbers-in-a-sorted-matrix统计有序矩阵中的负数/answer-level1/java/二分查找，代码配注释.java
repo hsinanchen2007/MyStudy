@@ -1,12 +1,12 @@
-### 二分查找
+// ### 二分查找
 
-- 利用数据已排序的特点，结合二分查找的高效，可以批量统计 `cnt`
+// - 利用数据已排序的特点，结合二分查找的高效，可以批量统计 `cnt`
 
-#### 复杂度分析
-- 时间复杂度 $O(mlog(n))$
-- 空间复杂度 $O(1)$
+// #### 复杂度分析
+// - 时间复杂度 $O(mlog(n))$
+// - 空间复杂度 $O(1)$
 
-```java
+// ```java
 public int countNegatives(int[][] grid) {
     int count = 0, m = grid.length, n = grid[0].length;
     for (int i = 0; i < m; i++) {
@@ -35,4 +35,4 @@ private int _binarySearch(int[] arr) {
     }
     return begin;
 }
-```
+// ```

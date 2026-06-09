@@ -1,6 +1,6 @@
-先上源代码康康：
+// 先上源代码康康：
 
-```
+// ```
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         return buildTree(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1);
@@ -25,11 +25,11 @@ class Solution {
         return root;
     }
 }
-```
+// ```
 
-注解版：
+// 注解版：
 
-```
+// ```
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         return buildTree(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1);
@@ -70,4 +70,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

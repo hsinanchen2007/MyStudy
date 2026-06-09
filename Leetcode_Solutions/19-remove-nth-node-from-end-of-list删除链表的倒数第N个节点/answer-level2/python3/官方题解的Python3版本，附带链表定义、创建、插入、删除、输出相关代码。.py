@@ -1,5 +1,5 @@
-第一种方法
-```python
+# 第一种方法
+# ```python
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         dummy = ListNode(0)  # 声明哑结点
@@ -17,10 +17,10 @@ class Solution:
         first.next = first.next.next  # 跳过要删除的那个节点即可
 
         return dummy.next
-```
+# ```
 
-第二种方法
-```python
+# 第二种方法
+# ```python
 class Solution:
     def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
         dummy = ListNode(0)
@@ -34,10 +34,10 @@ class Solution:
             second = second.next
         second.next = second.next.next
         return dummy.next
-```
+# ```
 
-链表定义、创建、插入、删除、输出、获取长度
-```python
+# 链表定义、创建、插入、删除、输出、获取长度
+# ```python
 class ListNode():
     def __init__(self, value):
         self.value = value
@@ -178,4 +178,4 @@ def main():
 
 if __name__=='__main__':
     main()   # 主函数调用
-```
+# ```

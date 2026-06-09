@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int compareVersion(const string &version1, const string &version2) {
@@ -17,4 +17,4 @@ public:
         return 0;
     }
 };
-```
+// ```

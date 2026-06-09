@@ -1,11 +1,11 @@
-### 解题思路
-1.计算所有柱体面积
-2.减去x轴方向相交的面的面积
-3.减去y轴方向相交的面的面积
+// ### 解题思路
+// 1.计算所有柱体面积
+// 2.减去x轴方向相交的面的面积
+// 3.减去y轴方向相交的面的面积
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int surfaceArea(int[][] grid) {
         int ans = 0;
@@ -30,4 +30,4 @@ class Solution {
         return ans - xSub - ySub;
     }
 }
-```
+// ```

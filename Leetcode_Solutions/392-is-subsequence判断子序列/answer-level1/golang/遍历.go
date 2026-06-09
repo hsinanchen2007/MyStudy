@@ -1,4 +1,4 @@
-```go
+// ```go
 	for i := 0; i < len(t); i++ {
 		if len(s) == 0 {
 			return true
@@ -12,4 +12,4 @@
 	} else {
 		return true
 	}
-```
+// ```

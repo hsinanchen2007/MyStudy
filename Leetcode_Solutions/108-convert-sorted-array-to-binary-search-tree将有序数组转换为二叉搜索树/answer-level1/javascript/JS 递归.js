@@ -1,4 +1,4 @@
-```js
+// ```js
 function TreeNode(val) {
     this.val = val;
     this.left = this.right = null;
@@ -25,4 +25,4 @@ var sortedArrayToBST = function(nums) {
     return toTreeNode(nums, 0, nums.length - 1);
 
 };
-```
+// ```

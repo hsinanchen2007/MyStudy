@@ -1,9 +1,9 @@
-### 解题思路
-写两个用例 模拟一下就很容易写出来了，主要注意的是边界条件
+// ### 解题思路
+// 写两个用例 模拟一下就很容易写出来了，主要注意的是边界条件
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -34,4 +34,4 @@ class Solution {
         return res.next;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/1869fc5bbb42aefe6808b3fbce48ecce442a316cf59fd2f9cb897ff7a027ff7d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/1869fc5bbb42aefe6808b3fbce48ecce442a316cf59fd2f9cb897ff7a027ff7d-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 二分查找：找到并返回 false 后的第一个 true
 
 1.当前的版本是坏的并且他的上一个版本是好的
@@ -9,11 +9,11 @@
 - 满足以上两个条件之一就可以返回这个版本了
 
 - 否则：如果当前版本是坏的，那么他后面的版本一定是坏的，所以向左边半区查找即可，反之，查找右边半区
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for isBadVersion()
  * 
@@ -58,4 +58,4 @@ var solution = function(isBadVersion) {
       return ans;
     };
 };
-```
+// ```

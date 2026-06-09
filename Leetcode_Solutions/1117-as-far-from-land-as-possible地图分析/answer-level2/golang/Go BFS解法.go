@@ -1,9 +1,9 @@
-### 解题思路
-就是很简单的先找到所有的陆地，然后通过BFS的方法（每次将陆地旁的所有海洋转换为陆地，并count++），直到没有陆地为止
+// ### 解题思路
+// 就是很简单的先找到所有的陆地，然后通过BFS的方法（每次将陆地旁的所有海洋转换为陆地，并count++），直到没有陆地为止
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type point struct {
     x int
     y int
@@ -53,4 +53,4 @@ func maxDistance(grid [][]int) int {
     }
     return count
 }
-```
+// ```

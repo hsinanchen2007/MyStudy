@@ -1,4 +1,4 @@
-```
+// ```
 //先排个子最低的，有一样高的排前面人最多的那个
 class Solution {
     public int[][] reconstructQueue(int[][] people) {
@@ -27,5 +27,5 @@ class Solution {
     	return answer;
     }
 }
-```
+// ```
 

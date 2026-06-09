@@ -1,9 +1,9 @@
-### 解题思路
-引用一个矩阵map映射A中的字母
+// ### 解题思路
+// 引用一个矩阵map映射A中的字母
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -34,4 +34,4 @@ char ** commonChars(char ** A, int ASize, int* returnSize){
 	*returnSize = size;
 	return res;
 }
-```
+// ```

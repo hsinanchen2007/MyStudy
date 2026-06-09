@@ -1,9 +1,9 @@
-### 解题思路
-找到合适的地方，断链收尾，在重新接上
+// ### 解题思路
+// 找到合适的地方，断链收尾，在重新接上
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -43,4 +43,4 @@ struct ListNode* rotateRight(struct ListNode* head, int k){
     tail->next=_prev->next; //连接之前保存的头部
     return cur;   
 }
-```
+// ```

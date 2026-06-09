@@ -1,9 +1,9 @@
-### 解题思路
-是螺旋矩阵的反向思维
+// ### 解题思路
+// 是螺旋矩阵的反向思维
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] generateMatrix(int n) {
         int temp=1;
@@ -27,4 +27,4 @@ class Solution {
 	    return ans;
     }
 }
-```
+// ```

@@ -1,10 +1,10 @@
-参考这篇博客：https://dablelv.blog.csdn.net/article/details/51154786
+// 参考这篇博客：https://dablelv.blog.csdn.net/article/details/51154786
 
-## 解法一：递归法
+// ## 解法一：递归法
 
-和之前的一样，我们仍然可以使用递归法。
+// 和之前的一样，我们仍然可以使用递归法。
 
-```c
+// ```c
 /**
 * 计算 n 的 阶乘
 */
@@ -87,15 +87,15 @@ int** permuteUnique(int* nums, int numsSize, int* returnSize, int** returnColumn
 	}
 	return res;
 }
-```
+// ```
 
 
 
-## 解法二：字典序
+// ## 解法二：字典序
 
-还是用之前的思路解决，使用字典序的方法，代码如下：
+// 还是用之前的思路解决，使用字典序的方法，代码如下：
 
-```c
+// ```c
 /**
 * 计算 n 的 阶乘
 */
@@ -211,8 +211,8 @@ int** permuteUnique(int* nums, int numsSize, int* returnSize, int** returnColumn
 	}
 	return res;
 }
-```
+// ```
 
-时间复杂度为`O(N*N!)`,但是不需要额外的空间。
+// 时间复杂度为`O(N*N!)`,但是不需要额外的空间。
 
-然后我们发现，字典序的方法不管是有重复元素和无重复元素的情况下，都是适用的。
+// 然后我们发现，字典序的方法不管是有重复元素和无重复元素的情况下，都是适用的。

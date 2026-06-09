@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
         nums.sort()
@@ -14,4 +14,4 @@ class Solution:
                     break
                 dp[i] += dp[i-j]
         return dp[-1]
-```
+# ```

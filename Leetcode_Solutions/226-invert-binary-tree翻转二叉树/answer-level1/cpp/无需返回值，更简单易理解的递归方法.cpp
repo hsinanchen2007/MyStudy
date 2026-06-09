@@ -1,9 +1,9 @@
-### 解题思路
-无需返回值，更简单易理解的递归方法
+// ### 解题思路
+// 无需返回值，更简单易理解的递归方法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -31,5 +31,5 @@ public:
         invert(root->right);
     }
 };
-```
+// ```
 

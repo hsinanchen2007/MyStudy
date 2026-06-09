@@ -1,14 +1,14 @@
-### 动态规划解题思路
-1. 设 max 为不含重复字符的最长子串长度
-2. s[i:index] 为 到 s[index]不含重复字符的字符串
+// ### 动态规划解题思路
+// 1. 设 max 为不含重复字符的最长子串长度
+// 2. s[i:index] 为 到 s[index]不含重复字符的字符串
 
-- 最优子结构
-s[index] 的不含重复字符的最长子串长度 max = Max(max,index+1-i)
+// - 最优子结构
+// s[index] 的不含重复字符的最长子串长度 max = Max(max,index+1-i)
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func Max(a, b int) int {
 	if a > b {
 		return a
@@ -36,4 +36,4 @@ func lengthOfLongestSubstring(s string) int {
 }
 
 
-```
+// ```

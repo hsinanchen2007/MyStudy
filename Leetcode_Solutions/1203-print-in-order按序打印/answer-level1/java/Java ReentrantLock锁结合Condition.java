@@ -1,9 +1,9 @@
 
-执行用时 :19 ms, 在所有 Java 提交中击败了67.57%的用户内存消耗 :36.3 MB, 在所有 Java 提交中击败了100.00%的用户
+// 执行用时 :19 ms, 在所有 Java 提交中击败了67.57%的用户内存消耗 :36.3 MB, 在所有 Java 提交中击败了100.00%的用户
 
 
-运用JAVA ReentrantLock 锁 以及Condition状态，并通过state变量避免死锁以及保证执行的顺序。
-```
+// 运用JAVA ReentrantLock 锁 以及Condition状态，并通过state变量避免死锁以及保证执行的顺序。
+// ```
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -62,4 +62,4 @@ class Foo {
         }
     }
 }
-```
+// ```

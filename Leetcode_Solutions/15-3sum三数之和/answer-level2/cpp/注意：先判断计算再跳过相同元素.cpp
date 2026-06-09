@@ -1,10 +1,10 @@
-### 解题思路
-注意：先判断计算再跳过相同元素
-重复元素的处理
+// ### 解题思路
+// 注意：先判断计算再跳过相同元素
+// 重复元素的处理
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -44,4 +44,4 @@ public:
         return res;
     }
 };
-```
+// ```

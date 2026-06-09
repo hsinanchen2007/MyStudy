@@ -1,4 +1,4 @@
-```
+// ```
 
 class Solution {
 public:
@@ -40,8 +40,8 @@ public:
         return root;
     }
 };
-```
-![批注 2019-11-24 231303.png](https://pic.leetcode-cn.com/a8187cffd7d54de5c80254ba78690f3751b3d3fd3219986f6982ce21fcfc2ec0-%E6%89%B9%E6%B3%A8%202019-11-24%20231303.png)
+// ```
+// ![批注 2019-11-24 231303.png](https://pic.leetcode-cn.com/a8187cffd7d54de5c80254ba78690f3751b3d3fd3219986f6982ce21fcfc2ec0-%E6%89%B9%E6%B3%A8%202019-11-24%20231303.png)
 
 
 

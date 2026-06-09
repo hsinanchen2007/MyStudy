@@ -1,9 +1,9 @@
-### 解题思路
-暴力循环，两个for循环一个加一个尝试，定义一个结果数组用来装结果
+// ### 解题思路
+// 暴力循环，两个for循环一个加一个尝试，定义一个结果数组用来装结果
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -34,4 +34,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize)
     *returnSize = 0;
     return result;
 }
-```
+// ```

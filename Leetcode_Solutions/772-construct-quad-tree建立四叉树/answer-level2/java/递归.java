@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
    public static Node construct(int[][] grid) {
         return construct(grid, 0, grid.length, 0, grid.length);
@@ -24,4 +24,4 @@ class Solution {
         return new Node(false,false,topLeft,topRight,bottomLeft,bottomRight);
     }
 }
-```
+// ```

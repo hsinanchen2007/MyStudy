@@ -1,6 +1,6 @@
-三种方法：
-方法一：
-```python []
+# 三种方法：
+# 方法一：
+# ```python []
 class Solution(object):
     def maxSubArray(self, nums):
         """
@@ -17,9 +17,9 @@ class Solution(object):
             if ans<p:
                 ans = p
         return ans
-```
-方法二：
-```python []
+# ```
+# 方法二：
+# ```python []
 class Solution(object):
     def maxSubArray(self, nums):
         ans = nums[0]
@@ -29,9 +29,9 @@ class Solution(object):
             if ans<s:
                 ans = s
         return ans
-```
-方法三（分治）：
-```python []
+# ```
+# 方法三（分治）：
+# ```python []
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         def MCS(nums,s,t):
@@ -61,4 +61,4 @@ class Solution:
             return max(s1,s2,sa+sb)
         return MCS(nums,0,len(nums)-1)
                     
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-暴力搜索 时长有点长
+# ### 解题思路
+# 暴力搜索 时长有点长
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortString(self, s: str) -> str:
         res = ""
@@ -29,4 +29,4 @@ class Solution:
             if s == "":
                 break
         return res
-```
+# ```

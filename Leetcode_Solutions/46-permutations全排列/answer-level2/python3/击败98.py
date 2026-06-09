@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
         list1 = []
@@ -22,4 +22,4 @@ class Solution:
                 list1 = list2
             n2 += 1
         return(list1)
-```
+# ```

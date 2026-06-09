@@ -1,9 +1,9 @@
-### 解题思路
-最简单的方法就是先将矩阵转置，后将矩阵每一行进行反转。
+# ### 解题思路
+# 最简单的方法就是先将矩阵转置，后将矩阵每一行进行反转。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def rotate(self, matrix: List[List[int]]) -> None:
         """
@@ -16,4 +16,4 @@ class Solution:
         for i in range(n):
             matrix[i].reverse()
         return matrix
-```
+# ```

@@ -1,5 +1,5 @@
-# **JAVA代码块**
-```
+// # **JAVA代码块**
+// ```
 class FizzBuzz {
 	private int n;
 	private volatile int m = 1; //累加器
@@ -77,11 +77,11 @@ class FizzBuzz {
 	}
 }
 
-```
+// ```
 
 
-# **附上测试类**
-```
+// # **附上测试类**
+// ```
 // 7 个Runnable, 1个IntConsumer, 4个线程, 1个普通实例
 public class D1195_交替打印字符串 {
 	public static void main(String[] args) {
@@ -131,4 +131,4 @@ public class D1195_交替打印字符串 {
 	}
 
 }
-```
+// ```

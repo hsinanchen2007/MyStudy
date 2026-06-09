@@ -1,5 +1,5 @@
-分治搞一搞啦，一个优化的地方是标记已经统计过的情况，避免重复遍历。
-```
+// 分治搞一搞啦，一个优化的地方是标记已经统计过的情况，避免重复遍历。
+// ```
 class Solution {
 	
 	private int[] dp;
@@ -28,4 +28,4 @@ class Solution {
     	return dp[end-start+1]=ans;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-主要想法就是，当遇到左括号‘（’时候入栈，当遇到右括号‘）’时候出栈一个左括号‘（’，当出栈的不是栈顶的‘（’时候填入数组，最后将数组转成string输出。
+// ### 解题思路
+// 主要想法就是，当遇到左括号‘（’时候入栈，当遇到右括号‘）’时候出栈一个左括号‘（’，当出栈的不是栈顶的‘（’时候填入数组，最后将数组转成string输出。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string RemoveOuterParentheses(string S) {
         char[] res = new char[S.Length];
@@ -25,4 +25,4 @@ public class Solution {
         return new string(res,0,j);
     }
 }
-```
+// ```

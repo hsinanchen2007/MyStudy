@@ -1,4 +1,4 @@
-```c
+// ```c
 int* decompressRLElist(int* nums, int numsSize, int* returnSize){
     short i,j;
     *returnSize=0;
@@ -16,4 +16,4 @@ int* decompressRLElist(int* nums, int numsSize, int* returnSize){
     }
     return a;
 }
-```
+// ```

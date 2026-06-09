@@ -1,12 +1,12 @@
-### 解题思路
-题意是要构建一个带有不同版本信息的数组，一种方法是每个版本都保存一个数组，但是这样显然产生了太多的冗余
-只需要记录每个版本之间有区别的值即可
-详细内容见注释
+// ### 解题思路
+// 题意是要构建一个带有不同版本信息的数组，一种方法是每个版本都保存一个数组，但是这样显然产生了太多的冗余
+// 只需要记录每个版本之间有区别的值即可
+// 详细内容见注释
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class SnapshotArray {
     
     //list.get(index)应为数组下标为index处的值
@@ -50,6 +50,6 @@ class SnapshotArray {
  * int param_2 = obj.snap();
  * int param_3 = obj.get(index,snap_id);
  */
-```
+// ```
 
-![QQ截图20200224140153.png](https://pic.leetcode-cn.com/53f3878af2bd059c3ae38fd4fb1a0c436f031f58934bacf7a74ddf475f4d682a-QQ%E6%88%AA%E5%9B%BE20200224140153.png)
+// ![QQ截图20200224140153.png](https://pic.leetcode-cn.com/53f3878af2bd059c3ae38fd4fb1a0c436f031f58934bacf7a74ddf475f4d682a-QQ%E6%88%AA%E5%9B%BE20200224140153.png)

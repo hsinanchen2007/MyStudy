@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> pathsWithMaxScore(vector<string>& board) {
@@ -49,4 +49,4 @@ public:
         return vector<int>{0, dp_num[0][0]};
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-主要就是循环的时候i可以一直循环到S[i]='\0'，这样可以少写一次if
-还有我这个在自己的编译器上可以通过但是leetcode过不了。。我估计跟内存有关系吧但是我不懂哈哈哈
-虽然没过但是可以借鉴思想嘛
+// ### 解题思路
+// 主要就是循环的时候i可以一直循环到S[i]='\0'，这样可以少写一次if
+// 还有我这个在自己的编译器上可以通过但是leetcode过不了。。我估计跟内存有关系吧但是我不懂哈哈哈
+// 虽然没过但是可以借鉴思想嘛
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* compressString(char* S){
     int len= strlen(S);
     char*res=(char*)malloc(sizeof(char) * (2 * len));
@@ -31,4 +31,4 @@ char* compressString(char* S){
     if (len>strlen(res)) return res;
     return S;
 }
-```
+// ```

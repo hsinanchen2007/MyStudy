@@ -1,9 +1,9 @@
-没想到写起来会这么繁琐，思考的点还是很多的，好在效果还可以。比如如何创建一个链表，以及如何处理l1 >> l2的情况等等。下面对在时间上的优化做了注释
+# 没想到写起来会这么繁琐，思考的点还是很多的，好在效果还可以。比如如何创建一个链表，以及如何处理l1 >> l2的情况等等。下面对在时间上的优化做了注释
 
-执行用时 : 68 ms, 在Add Two Numbers的Python提交中击败了85.35% 的用户
-内存消耗 : 11.8 MB, 在Add Two Numbers的Python提交中击败了27.89% 的用户
+# 执行用时 : 68 ms, 在Add Two Numbers的Python提交中击败了85.35% 的用户
+# 内存消耗 : 11.8 MB, 在Add Two Numbers的Python提交中击败了27.89% 的用户
 
-```python []
+# ```python []
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -57,4 +57,4 @@ class Solution(object):
             c3.next = ListNode(1)
                     
         return l3.next 
-```
+# ```

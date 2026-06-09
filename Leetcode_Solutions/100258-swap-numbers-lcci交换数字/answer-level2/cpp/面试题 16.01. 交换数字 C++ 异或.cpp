@@ -1,15 +1,15 @@
-### 解题思路
-a ^ b ^ b = a
-a ^ b ^ a = b
+// ### 解题思路
+// a ^ b ^ b = a
+// a ^ b ^ a = b
 
-a ^ a = 0
-0 ^ a = a
-异或满足交换律 结合律
+// a ^ a = 0
+// 0 ^ a = a
+// 异或满足交换律 结合律
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> swapNumbers(vector<int>& numbers) {
@@ -19,4 +19,4 @@ public:
         return numbers;
     }
 };
-```
+// ```

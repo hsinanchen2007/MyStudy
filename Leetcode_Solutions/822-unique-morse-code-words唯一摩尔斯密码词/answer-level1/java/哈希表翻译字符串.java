@@ -1,8 +1,8 @@
-1. 译码问题想到用哈希表，源码字母保存为键，译码摩尔斯密码保存为对应值；
-2. 遍历words表中的每个单词，将它翻译成对应摩尔斯密码的组合
-3. 用HashSet保存结果，并返回集合的大小
+// 1. 译码问题想到用哈希表，源码字母保存为键，译码摩尔斯密码保存为对应值；
+// 2. 遍历words表中的每个单词，将它翻译成对应摩尔斯密码的组合
+// 3. 用HashSet保存结果，并返回集合的大小
 
-```
+// ```
     public int uniqueMorseRepresentations(String[] words) {
         HashMap<Character,String> map = new HashMap();
         String[] list = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",
@@ -30,4 +30,4 @@
 //        System.out.println(Arrays.toString(outString));
         return set.size();
     }
-```
+// ```

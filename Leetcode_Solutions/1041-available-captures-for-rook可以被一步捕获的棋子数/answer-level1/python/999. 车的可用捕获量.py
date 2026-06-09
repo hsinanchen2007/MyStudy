@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numRookCaptures(self, board: List[List[str]]) -> int:
         cnt, st, ed = 0, 0, 0
@@ -24,4 +24,4 @@ class Solution:
                 step += 1
         return cnt
 
-```
+# ```

@@ -1,5 +1,5 @@
-题目本身不难, 也挺常见,但是我面试遇到的时候,都是要求实现线程安全下的队列,所以,我在原题目的基础上增加了锁,实现了线程安全下的队列
-```
+// 题目本身不难, 也挺常见,但是我面试遇到的时候,都是要求实现线程安全下的队列,所以,我在原题目的基础上增加了锁,实现了线程安全下的队列
+// ```
 class MyQueue {
     Object transLock = new Object();
     Stack<Integer> input;
@@ -59,4 +59,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

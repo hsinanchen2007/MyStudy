@@ -1,11 +1,11 @@
-### 解题思路
-我尝试了几种解法：
-1. 我个人最容易想到的回溯，可以解，但是严重超时；
-2. 基础的bfs，预先计算所有字符串之间的关系，并用map存储，还是超时；
-3. 后来我看了一个解答，发现答主在计算两个字符串的是否只差一个字符的方法很有趣，学习了一下，就过了；
+# ### 解题思路
+# 我尝试了几种解法：
+# 1. 我个人最容易想到的回溯，可以解，但是严重超时；
+# 2. 基础的bfs，预先计算所有字符串之间的关系，并用map存储，还是超时；
+# 3. 后来我看了一个解答，发现答主在计算两个字符串的是否只差一个字符的方法很有趣，学习了一下，就过了；
 
-然后，我验证了一下程序最好时的地方，不是bfs，而是计算相似性上。下面是我的方法。
-```python
+# 然后，我验证了一下程序最好时的地方，不是bfs，而是计算相似性上。下面是我的方法。
+# ```python
     def one_hop(word_a, word_b):
         cnt = 0
         for i in xrange(len(word_a)):
@@ -30,11 +30,11 @@
             if one_hop(wordList[i], wordList[j]):
                 rel[wordList[i]].append(wordList[j])
                 rel[wordList[j]].append(wordList[i])
-```
+# ```
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def ladderLength(self, beginWord, endWord, wordList):
         """
@@ -64,4 +64,4 @@ class Solution(object):
         return 0
 
 
-```
+# ```

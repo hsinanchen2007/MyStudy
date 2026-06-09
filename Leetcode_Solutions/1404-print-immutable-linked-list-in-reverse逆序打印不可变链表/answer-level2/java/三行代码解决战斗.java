@@ -1,8 +1,8 @@
-### 解题思路
-使用递归的方式解决战斗，先调用函数 再打印值
-### 代码
+// ### 解题思路
+// 使用递归的方式解决战斗，先调用函数 再打印值
+// ### 代码
 
-```java
+// ```java
 /**
  * // This is the ImmutableListNode's API interface.
  * // You should not implement it, or speculate about its implementation.
@@ -19,4 +19,4 @@ class Solution {
         head.printValue();
     }
 }
-```
+// ```

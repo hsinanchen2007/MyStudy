@@ -1,6 +1,6 @@
-这道题比较简单，但是心血来潮写了两种方式，正好一个性能最佳，一个代码最偷懒，所以写个题解。
-1.字符串处理：
-```
+// 这道题比较简单，但是心血来潮写了两种方式，正好一个性能最佳，一个代码最偷懒，所以写个题解。
+// 1.字符串处理：
+// ```
 class Solution {
     public boolean checkRecord(String s) {
         if(s.length()-1>s.replace("A","").length()) return false;
@@ -8,10 +8,10 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
-2.字符处理：
-```
+// 2.字符处理：
+// ```
 class Solution {
     public boolean checkRecord(String s) {
         int a = 0;
@@ -32,4 +32,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

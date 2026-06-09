@@ -1,14 +1,14 @@
-### 解题思路
-1、统计每个1的位置，以及1的个数为N
-2、窗口在统计到的1之间滑动，每次滑动计算窗口的大小是否大于N，如果大于N则计算0的个数，也即是交换的次数； 如果小于N则继续移动right指针
+// ### 解题思路
+// 1、统计每个1的位置，以及1的个数为N
+// 2、窗口在统计到的1之间滑动，每次滑动计算窗口的大小是否大于N，如果大于N则计算0的个数，也即是交换的次数； 如果小于N则继续移动right指针
 
-看了其他人的思路，好像固定为N的滑动窗口也可以解决
+// 看了其他人的思路，好像固定为N的滑动窗口也可以解决
 
-![image.png](https://pic.leetcode-cn.com/8ecfffe30ad7600d583b25828ab06c613b78eaf22c75e1b146d273c4d69b8c25-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8ecfffe30ad7600d583b25828ab06c613b78eaf22c75e1b146d273c4d69b8c25-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minSwaps(int[] data) {
         if (data.length == 0) {
@@ -47,4 +47,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

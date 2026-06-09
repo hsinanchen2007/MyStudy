@@ -1,6 +1,6 @@
-状态转移方程：  dp[i] = max(dp[i - 2] + nums[i], dp[i - 1])
+// 状态转移方程：  dp[i] = max(dp[i - 2] + nums[i], dp[i - 1])
 
-代码如下：
+// 代码如下：
 
 int maxFun(int a, int b) {
     return a > b ? a : b;

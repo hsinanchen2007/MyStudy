@@ -1,10 +1,10 @@
-### 解题思路
-使用map标记是否已经移动过，遍历整个二维数组即可
-![image.png](https://pic.leetcode-cn.com/a9a6075e3775493155faec355d14b1757cb072c0eb0c7d3ce18d54a229b649ad-image.png)
+// ### 解题思路
+// 使用map标记是否已经移动过，遍历整个二维数组即可
+// ![image.png](https://pic.leetcode-cn.com/a9a6075e3775493155faec355d14b1757cb072c0eb0c7d3ce18d54a229b649ad-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -42,4 +42,4 @@ int** shiftGrid(int** grid, int gridSize, int* gridColSize, int k, int* returnSi
 	*returnColumnSizes = gridColSize;
 	return grid;
 }
-```
+// ```

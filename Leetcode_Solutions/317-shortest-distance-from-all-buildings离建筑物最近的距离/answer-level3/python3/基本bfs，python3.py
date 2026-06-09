@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def shortestDistance(self, grid: List[List[int]]) -> int:
         from collections import deque
@@ -38,4 +38,4 @@ class Solution:
                 if grid[i][j]==0:
                     minDis=min(minDis,sum(res[k][i][j] for k in range(n)))
         return minDis if minDis<float("inf") else -1
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/4c30bf649629167ae545f99b3726e2a015caa0e4e163e125731a3e0cccc16012-image.png)
-主要是为了解释全局变量`res`在使用的过程中为何要在函数内重复赋值的问题：
-怀疑是力扣测试时多次调用入口函数导致全局变量`res`被累加，故重新赋值为0使得每次被重新调用的时候不出错。
-*在leetcode中测试不对全局变量重新赋值也可成功提交*
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/4c30bf649629167ae545f99b3726e2a015caa0e4e163e125731a3e0cccc16012-image.png)
+// 主要是为了解释全局变量`res`在使用的过程中为何要在函数内重复赋值的问题：
+// 怀疑是力扣测试时多次调用入口函数导致全局变量`res`被累加，故重新赋值为0使得每次被重新调用的时候不出错。
+// *在leetcode中测试不对全局变量重新赋值也可成功提交*
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ int maxDepth(struct TreeNode* root){
     }
 }
     
-```
+// ```

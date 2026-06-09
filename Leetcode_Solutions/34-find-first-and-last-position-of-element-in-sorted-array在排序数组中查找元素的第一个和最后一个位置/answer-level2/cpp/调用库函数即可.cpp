@@ -1,9 +1,9 @@
-### 解题思路
-lower_bound找到大于等于指定值的第一个位置，upper_bound找到大于指定值的第一个位置，那么lower_bound可以用来找最左边的，upper_bound的前一个就是最右边的。
+// ### 解题思路
+// lower_bound找到大于等于指定值的第一个位置，upper_bound找到大于指定值的第一个位置，那么lower_bound可以用来找最左边的，upper_bound的前一个就是最右边的。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -23,4 +23,4 @@ public:
         return ans;
     }
 };
-```
+// ```

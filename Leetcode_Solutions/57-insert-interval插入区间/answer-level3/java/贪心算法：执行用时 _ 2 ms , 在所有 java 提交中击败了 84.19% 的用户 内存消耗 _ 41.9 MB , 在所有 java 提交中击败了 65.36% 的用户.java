@@ -1,12 +1,12 @@
-贪心算法：从最简单的子结构开始拆分
-1.当interval整体在newInterval整体之前时：List<int[]> res直接添加interval整体，并将插入位置insertPos+1；
-2.当interval整体在newInterval整体之后时：说明此时newInterval已经添加☞List<int[]> res中，直接添加interval整体；
-3.interval与newInterval存在相交的情况，(不用分析有几个interval与newInterval相交了)，只要相交了，将interval与newInterval融合：
-    1.newInterval[0] = Math.min(interval[0], newInterval[0]);
-    2.newInterval[1] = Math.max(interval[1], newInterval[1]);
-4.最后遍历完interval，将newInterval插入到res指定的位置insertPos；
+// 贪心算法：从最简单的子结构开始拆分
+// 1.当interval整体在newInterval整体之前时：List<int[]> res直接添加interval整体，并将插入位置insertPos+1；
+// 2.当interval整体在newInterval整体之后时：说明此时newInterval已经添加☞List<int[]> res中，直接添加interval整体；
+// 3.interval与newInterval存在相交的情况，(不用分析有几个interval与newInterval相交了)，只要相交了，将interval与newInterval融合：
+//     1.newInterval[0] = Math.min(interval[0], newInterval[0]);
+//     2.newInterval[1] = Math.max(interval[1], newInterval[1]);
+// 4.最后遍历完interval，将newInterval插入到res指定的位置insertPos；
 
-```
+// ```
 public int[][] insert(int[][] intervals, int[] newInterval){
         if (newInterval == null || intervals == null) {
             return intervals;
@@ -31,4 +31,4 @@ public int[][] insert(int[][] intervals, int[] newInterval){
 
         return results.toArray(new int[results.size()][2]);
     }
-```
+// ```

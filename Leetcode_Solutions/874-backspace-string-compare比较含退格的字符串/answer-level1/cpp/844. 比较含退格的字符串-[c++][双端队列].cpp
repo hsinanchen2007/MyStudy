@@ -1,8 +1,8 @@
-模拟编辑，遇到 # 删除尾部字符。
+// 模拟编辑，遇到 # 删除尾部字符。
 
-输出的时候，按照顺序输出即可。
+// 输出的时候，按照顺序输出即可。
 
-```c++
+// ```c++
 class Solution {
 public:
     bool backspaceCompare(string s, string t) {
@@ -21,4 +21,4 @@ public:
         return string(dq.begin(), dq.end());
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用两个队列互相倒腾实现栈后入先出的特点。
+# ### 解题思路
+# 利用两个队列互相倒腾实现栈后入先出的特点。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from collections import deque
 class MyStack(object):
     def __init__(self):
@@ -53,4 +53,4 @@ class MyStack(object):
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

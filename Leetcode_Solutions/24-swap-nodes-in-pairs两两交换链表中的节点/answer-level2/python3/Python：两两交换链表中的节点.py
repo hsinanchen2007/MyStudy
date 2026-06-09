@@ -1,10 +1,10 @@
-### 解题思路
-还记得前面有一道寻找倒数第n个节点的题吗？
-通过相隔n的两个指针一次遍历完成，一模一样的想法
+# ### 解题思路
+# 还记得前面有一道寻找倒数第n个节点的题吗？
+# 通过相隔n的两个指针一次遍历完成，一模一样的想法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             return node.next
         else:
             return head
-```
+# ```

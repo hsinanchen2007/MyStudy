@@ -1,7 +1,7 @@
-1. split, join
-2. replace('.', '[.]')
+# 1. split, join
+# 2. replace('.', '[.]')
 
-```
+# ```
 class Solution(object):
     def defangIPaddr(self, address = ''):
         """
@@ -13,4 +13,4 @@ class Solution(object):
 
         # 2. replace(之前格式, 之后格式)
         return address.replace('.', '[.]')
-```
+# ```

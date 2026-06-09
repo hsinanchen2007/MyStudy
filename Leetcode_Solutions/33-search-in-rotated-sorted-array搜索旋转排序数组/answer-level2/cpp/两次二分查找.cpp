@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int find(vector<int>& nums, int left, int right){
@@ -41,5 +41,5 @@ public:
         return binsearch(nums, 0, start, target);
     }
 };
-```
-两次二分查找就可以了，一次来找到起始的位置，一次来朝着目标。书写二分查找的时候必须注意，**因为right = mid - 1，并且，mid = (left + right) / 2,因为实际上会出现右侧边界取不到的情况，因为在判断的时候一定要加上等号。
+// ```
+// 两次二分查找就可以了，一次来找到起始的位置，一次来朝着目标。书写二分查找的时候必须注意，**因为right = mid - 1，并且，mid = (left + right) / 2,因为实际上会出现右侧边界取不到的情况，因为在判断的时候一定要加上等号。

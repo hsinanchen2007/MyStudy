@@ -1,9 +1,9 @@
-### 解题思路
-遍历grid，计算每个位置处的立方体为整个立体图形所贡献的表面积，进行累加。
+// ### 解题思路
+// 遍历grid，计算每个位置处的立方体为整个立体图形所贡献的表面积，进行累加。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int surfaceArea(vector<vector<int>>& grid) {
@@ -33,4 +33,4 @@ public:
         return ans;
     }
 };
-```
+// ```

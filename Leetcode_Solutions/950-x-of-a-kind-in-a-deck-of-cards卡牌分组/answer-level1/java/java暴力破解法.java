@@ -1,9 +1,9 @@
-### 解题思路
-统计每个数出现的次数，最后得到这些出现次数的最大公约数满足条件即可返回true。
+// ### 解题思路
+// 统计每个数出现的次数，最后得到这些出现次数的最大公约数满足条件即可返回true。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean hasGroupsSizeX(int[] deck) {
         Map<Integer,Integer> map=new HashMap<>();
@@ -37,4 +37,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

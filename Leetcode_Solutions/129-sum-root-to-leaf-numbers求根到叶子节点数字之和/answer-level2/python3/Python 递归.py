@@ -1,10 +1,10 @@
-### 解题思路
-先递归得到所有路径
-之后将路径转为数字并求和
+# ### 解题思路
+# 先递归得到所有路径
+# 之后将路径转为数字并求和
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -38,4 +38,4 @@ class Solution:
         return res
         
             
-```
+# ```

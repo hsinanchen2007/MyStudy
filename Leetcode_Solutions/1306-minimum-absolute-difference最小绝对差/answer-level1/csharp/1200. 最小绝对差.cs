@@ -1,9 +1,9 @@
-### 解题思路
-C# 数组排序 一次遍历
+// ### 解题思路
+// C# 数组排序 一次遍历
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<IList<int>> MinimumAbsDifference(int[] arr) {
         var results = new List<IList<int>>();
@@ -26,4 +26,4 @@ public class Solution {
         return results;
     }
 }
-```
+// ```

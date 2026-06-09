@@ -1,14 +1,14 @@
-### 解题思路
-请参考代码即可
-1. 先转成整数
-2. 整数相加，这样可以避免进位计算
-3. 计算完毕后，转成列表
-4. 使用列表生成对象链表
-5. 然后返回根链表对象
+# ### 解题思路
+# 请参考代码即可
+# 1. 先转成整数
+# 2. 整数相加，这样可以避免进位计算
+# 3. 计算完毕后，转成列表
+# 4. 使用列表生成对象链表
+# 5. 然后返回根链表对象
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -47,4 +47,4 @@ class Solution:
             root_node = root_node.next
 
         return void_node.next
-```
+# ```

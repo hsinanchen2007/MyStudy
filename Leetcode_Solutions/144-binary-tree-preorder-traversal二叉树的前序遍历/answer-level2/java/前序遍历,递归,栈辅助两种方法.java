@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-前序遍历:根左右
-### 代码
+// 前序遍历:根左右
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,8 +30,8 @@
         //右
         preorderTraversal(root.right,result);
     }
-```
-```java
+// ```
+// ```java
     //使用栈辅助,注意左右子树的push的顺序,因为栈先进后出
     public List<Integer> preorderTraversal(TreeNode root){
         List<Integer> result=new ArrayList<>();
@@ -56,4 +56,4 @@
         return result;
     }
 
-```
+// ```

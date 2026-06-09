@@ -1,9 +1,9 @@
-### 解题思路
-使用map
+// ### 解题思路
+// 使用map
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countCharacters(words []string, chars string) int {
   var res int
   flag := true
@@ -26,4 +26,4 @@ func countCharacters(words []string, chars string) int {
   }
   return res
 }
-```
+// ```

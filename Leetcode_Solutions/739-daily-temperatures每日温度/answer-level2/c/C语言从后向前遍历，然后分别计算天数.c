@@ -1,9 +1,9 @@
-思路：
-1、从后向前分别计算
-2、排查的时候，为了提高效率，记录一下后面最大值，如果排查到最大值，则提前break
+// 思路：
+// 1、从后向前分别计算
+// 2、排查的时候，为了提高效率，记录一下后面最大值，如果排查到最大值，则提前break
 
-代码如下：
-```
+// 代码如下：
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -54,4 +54,4 @@ int* dailyTemperatures(int* T, int TSize, int* returnSize){
     *returnSize = TSize;
     return daily;
 }
-```
+// ```

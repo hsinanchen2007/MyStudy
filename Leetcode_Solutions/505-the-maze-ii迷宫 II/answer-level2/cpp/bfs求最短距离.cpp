@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-bfs求最短距离
+// bfs求最短距离
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int dirR[4] = {-1, 0, 1, 0};
@@ -61,4 +61,4 @@ public:
         return dp[destination[0]][destination[1]] == MAX_DISTANCE ? -1 : dp[destination[0]][destination[1]];
     }
 };
-```
+// ```

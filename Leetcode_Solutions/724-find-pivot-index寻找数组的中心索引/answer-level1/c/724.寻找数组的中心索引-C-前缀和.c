@@ -1,10 +1,10 @@
-### 解题思路
-前缀和题目的关键思路：
-left == sum - leftSum - nums[i]
+// ### 解题思路
+// 前缀和题目的关键思路：
+// left == sum - leftSum - nums[i]
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int pivotIndex(int* nums, int numsSize){
     if(nums == 0 || numsSize == 0) {
         return -1;
@@ -24,4 +24,4 @@ int pivotIndex(int* nums, int numsSize){
     }
     return -1;
 }
-```
+// ```

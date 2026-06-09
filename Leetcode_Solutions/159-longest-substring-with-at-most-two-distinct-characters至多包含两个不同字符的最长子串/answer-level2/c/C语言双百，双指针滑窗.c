@@ -1,8 +1,8 @@
-1、右指针往前滑，只要当前滑窗内只有预期的两个字符（用first、second辅助）。
-2、左指针最终用指向最后一个不同的字符，举个例子 aabbbaabbddee，一次滑窗之后，左指针需要指向小数点的位置aabbbaa.bbddee，通过右指针往前偏移。
+// 1、右指针往前滑，只要当前滑窗内只有预期的两个字符（用first、second辅助）。
+// 2、左指针最终用指向最后一个不同的字符，举个例子 aabbbaabbddee，一次滑窗之后，左指针需要指向小数点的位置aabbbaa.bbddee，通过右指针往前偏移。
 
-![image.png](https://pic.leetcode-cn.com/976376bacfc5f349dab0ed80b7a31463314db5b0465773b553b16a42039ceaab-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/976376bacfc5f349dab0ed80b7a31463314db5b0465773b553b16a42039ceaab-image.png)
+// ```
 int lengthOfLongestSubstringTwoDistinct(char * s){
     int size = strlen(s);
     int max = 0;
@@ -41,4 +41,4 @@ int lengthOfLongestSubstringTwoDistinct(char * s){
     }
     return max;
 }
-```
+// ```

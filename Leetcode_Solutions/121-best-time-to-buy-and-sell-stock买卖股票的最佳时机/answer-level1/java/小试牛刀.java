@@ -1,11 +1,11 @@
-### 解题思路
-设置两个索引i j，然后根据题意要加入两个隐含条件
-1. i必须在j左边
-2. prices[i]要小于其右边的数值
+// ### 解题思路
+// 设置两个索引i j，然后根据题意要加入两个隐含条件
+// 1. i必须在j左边
+// 2. prices[i]要小于其右边的数值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         
@@ -24,4 +24,4 @@ class Solution {
         return profit;
     }
 }
-```
+// ```

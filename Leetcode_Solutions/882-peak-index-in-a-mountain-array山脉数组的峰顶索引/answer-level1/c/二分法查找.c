@@ -1,11 +1,11 @@
-### 解题思路
-采用二分法查找
-依据A[i-1]<A[i]>A[i+1]为条件逐渐删选最佳区间
-代码确实有待优化
+// ### 解题思路
+// 采用二分法查找
+// 依据A[i-1]<A[i]>A[i+1]为条件逐渐删选最佳区间
+// 代码确实有待优化
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int peakIndexInMountainArray(int* A, int ASize){
     int i=0;
     i=sea(A,0,ASize,0);
@@ -28,4 +28,4 @@ int sea(int*A ,int min, int max, int v){
         return vau;
     return 0;
 }
-```
+// ```

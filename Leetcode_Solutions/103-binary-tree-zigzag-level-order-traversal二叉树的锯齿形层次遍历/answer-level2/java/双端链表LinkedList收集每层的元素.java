@@ -1,5 +1,5 @@
-__粗体__层次遍历的时候，改变层级list的收集方式
-```
+// __粗体__层次遍历的时候，改变层级list的收集方式
+// ```
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         if (root == null) {
@@ -40,4 +40,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

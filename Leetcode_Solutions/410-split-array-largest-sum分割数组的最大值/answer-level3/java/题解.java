@@ -1,4 +1,4 @@
-```Java
+// ```Java
     public int splitArray(int[] nums, int m) {
         //划分之后子数组最大值，大于数组中最大的一个元素，小于数组的总和
         long l = 0;
@@ -34,4 +34,4 @@
         }
         return (int) ans;
     }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/c767602d486d1fc8b871016d44322ac34acf852801265c4c1d31f10d5a0f1015-image.png)
+# ![image.png](https://pic.leetcode-cn.com/c767602d486d1fc8b871016d44322ac34acf852801265c4c1d31f10d5a0f1015-image.png)
 
 
-```
+# ```
 '''
 从king位置往8个方向找第一个queen位置即可
 '''
@@ -31,4 +31,4 @@ class Solution:
                 ans.append([i, j])
 
         return ans
-```
+# ```

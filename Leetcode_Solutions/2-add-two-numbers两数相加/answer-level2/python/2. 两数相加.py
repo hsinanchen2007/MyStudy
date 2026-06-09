@@ -1,10 +1,10 @@
-### 解题思路
-现将两个链表转为10进制整数
-两数相加得到结果
-将结果转换为链表，返回链表
-### 代码
+# ### 解题思路
+# 现将两个链表转为10进制整数
+# 两数相加得到结果
+# 将结果转换为链表，返回链表
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -45,4 +45,4 @@ class Solution(object):
             p1 = p1.next
         
         return res
-```
+# ```

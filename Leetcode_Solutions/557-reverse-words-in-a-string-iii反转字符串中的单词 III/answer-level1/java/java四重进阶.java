@@ -1,12 +1,12 @@
-## 1、初级暴力破解
+// ## 1、初级暴力破解
 
-使用char遍历字符串，判断空格后将记录的上一个单词反转，然后追加到新字符串上。反转的方法是将单词的char顺序遍历倒转。
+// 使用char遍历字符串，判断空格后将记录的上一个单词反转，然后追加到新字符串上。反转的方法是将单词的char顺序遍历倒转。
 
-手写代码行数太长，效率肯定是很低的。时间复杂度达到O(3n), 空间复杂度O(n).
+// 手写代码行数太长，效率肯定是很低的。时间复杂度达到O(3n), 空间复杂度O(n).
 
-代码：
+// 代码：
 
-```java
+// ```java
 public String reverseWords(String s) {
     StringBuilder str = new StringBuilder();
     StringBuilder sub = new StringBuilder();
@@ -36,15 +36,15 @@ public String reverseString(String s) {
     }
     return str.toString();
 }
-```
+// ```
 
-## 2、中级暴力破解
+// ## 2、中级暴力破解
 
-使用String的split方法直接按空格分割单词，使用StringBuilder的reverse方法直接反转单词，时间复杂度减到O(2n).
+// 使用String的split方法直接按空格分割单词，使用StringBuilder的reverse方法直接反转单词，时间复杂度减到O(2n).
 
-代码：
+// 代码：
 
-```java
+// ```java
 public String reverseWords(String s) {
     String[] words = s.split(" ");
     StringBuilder str = new StringBuilder();
@@ -63,15 +63,15 @@ public String reverseString(String s) {
     }
     return str.reverse().toString();
 }
-```
+// ```
 
-## 3、高级暴力破解
+// ## 3、高级暴力破解
 
-直接新建new StringBuffer(word)然后反转，使用trim()方法去除字符串尾部空格，时间复杂度降到O(n).
+// 直接新建new StringBuffer(word)然后反转，使用trim()方法去除字符串尾部空格，时间复杂度降到O(n).
 
-代码：
+// 代码：
 
-```java
+// ```java
 public String reverseWords(String s) {
     String[] words = s.split(" ");
     StringBuilder str = new StringBuilder();
@@ -81,15 +81,15 @@ public String reverseWords(String s) {
     }
     return str.toString().trim();
 }
-```
+// ```
 
-## 4、双指针
+// ## 4、双指针
 
-不借用Java函数方法，双指针将每个单词反转。char追加到新字符串上。时间复杂度O(2n+logn).
+// 不借用Java函数方法，双指针将每个单词反转。char追加到新字符串上。时间复杂度O(2n+logn).
 
-代码：
+// 代码：
 
-```java
+// ```java
 public String reverseWords(String s) {
     char[] letter = s.toCharArray();
     int left=0;
@@ -117,5 +117,5 @@ public String reverseWords(String s) {
     }
     return str.toString();
 }
-```
+// ```
 

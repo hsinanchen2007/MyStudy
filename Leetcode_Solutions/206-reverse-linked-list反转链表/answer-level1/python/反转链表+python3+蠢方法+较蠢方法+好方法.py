@@ -1,8 +1,8 @@
-### 蠢方法，先转化为列表...
+# ### 蠢方法，先转化为列表...
 
-时间复杂度时空时坏，空间复杂度一塌糊涂......
+# 时间复杂度时空时坏，空间复杂度一塌糊涂......
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -29,13 +29,13 @@ class Solution:
             
         return head
             
-```
+# ```
 
-### 逐步调换1
+# ### 逐步调换1
 
-时空复杂度跟上面差不多。基本思路就是遍历，逐渐调换顺序，比如先调换前两个，再调换前三个，但是新建了一个链表（空间复杂度比较高）。以此类推...
+# 时空复杂度跟上面差不多。基本思路就是遍历，逐渐调换顺序，比如先调换前两个，再调换前三个，但是新建了一个链表（空间复杂度比较高）。以此类推...
 
-```
+# ```
 
 class Solution:
     def reverseList(self, head: ListNode) -> ListNode:
@@ -52,13 +52,13 @@ class Solution:
             r = r.next   
         return q
         
-```
+# ```
 
-### 逐步调换2
+# ### 逐步调换2
 
-采用1个变量q临时存储的方式，将后面的元素逐个的移到链表的最前面。
+# 采用1个变量q临时存储的方式，将后面的元素逐个的移到链表的最前面。
 
-```
+# ```
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -84,6 +84,6 @@ class Solution:
                 p = q
                 break
         return p
-```
+# ```
 
-实际上有点又臭又长，毕竟菜...
+# 实际上有点又臭又长，毕竟菜...

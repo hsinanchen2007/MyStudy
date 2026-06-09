@@ -1,4 +1,4 @@
-```
+// ```
 func solveNQueens(n int) [][]string {
 	queues := [][]string{}
 	res := make([]int, n)
@@ -54,4 +54,4 @@ func printQ(res []int, n int) []string {
 	}
 	return s
 }
-```
+// ```

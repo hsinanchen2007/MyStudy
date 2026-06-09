@@ -1,5 +1,5 @@
-#### 解法一：DFS
-```javascript
+// #### 解法一：DFS
+// ```javascript
 /**
  * @param {character[][]} grid
  * @return {number}
@@ -42,10 +42,10 @@ var numIslands = function(grid) {
     }
     return island;
 };
-```
-+ 优化版 
-  + 判断并推平岛屿函数时 用方向向量替代x+1,x-1,y+1,y-1四种情况
-```javascript
+// ```
+// + 优化版 
+//   + 判断并推平岛屿函数时 用方向向量替代x+1,x-1,y+1,y-1四种情况
+// ```javascript
 /**
  * @param {character[][]} grid
  * @return {number}
@@ -89,9 +89,9 @@ var numIslands = function(grid) {
     }
     return island;
 };
-```
-#### 解法二：BFS
-```javascript
+// ```
+// #### 解法二：BFS
+// ```javascript
 /**
  * @param {character[][]} grid
  * @return {number}
@@ -142,15 +142,15 @@ var numIslands = function(grid) {
     }
     return island;
 };
-```
-#### 解法三：并查集
-+ 类似题型
-  + [547. 朋友圈](https://leetcode-cn.com/problems/friend-circles/solution/547-peng-you-quan-by-alexer-660/)
-+ 区别
-  + 此题是m * n的矩阵，不是n * n的矩阵
-    + parent和rank数组元素命名要将i和j联系起来
-    + union查找合并的时候，也要把两个是陆地的元素传进去
-```javascript
+// ```
+// #### 解法三：并查集
+// + 类似题型
+//   + [547. 朋友圈](https://leetcode-cn.com/problems/friend-circles/solution/547-peng-you-quan-by-alexer-660/)
+// + 区别
+//   + 此题是m * n的矩阵，不是n * n的矩阵
+//     + parent和rank数组元素命名要将i和j联系起来
+//     + union查找合并的时候，也要把两个是陆地的元素传进去
+// ```javascript
 /**
  * @param {character[][]} grid
  * @return {number}
@@ -213,4 +213,4 @@ var numIslands = function(grid) {
     }
     return count;
 };
-```
+// ```

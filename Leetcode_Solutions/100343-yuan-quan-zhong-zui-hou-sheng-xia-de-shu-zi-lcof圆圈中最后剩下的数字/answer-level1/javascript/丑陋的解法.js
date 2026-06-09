@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @param {number} m
@@ -30,4 +30,4 @@ var lastRemaining = function(n, m) {
     }
     return arr[0]
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-利用字符串的indexOf不算作弊吧？
+// ### 解题思路
+// 利用字符串的indexOf不算作弊吧？
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isSubsequence(String s, String t) {
         boolean result = true;
@@ -22,4 +22,4 @@ class Solution {
         return str.indexOf(s, start);
     }
 }
-```
+// ```

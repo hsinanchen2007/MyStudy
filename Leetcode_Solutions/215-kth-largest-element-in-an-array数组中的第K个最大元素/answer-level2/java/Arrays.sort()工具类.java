@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-Arrays.sort()工具类，降序排序
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// Arrays.sort()工具类，降序排序
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 class Solution {
     public int findKthLargest(int[] nums, int k) {
@@ -15,4 +15,4 @@ class Solution {
         return ints[k-1];
     }
 }
-```
+// ```

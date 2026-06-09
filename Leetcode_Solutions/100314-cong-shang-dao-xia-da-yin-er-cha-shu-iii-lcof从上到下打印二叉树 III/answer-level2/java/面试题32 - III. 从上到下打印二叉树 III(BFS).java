@@ -1,9 +1,9 @@
-### 解题思路
-在上一题基础上，当输出时候判断层数，偶数层需要翻转，奇数层不用，使用reverse函数即可
+// ### 解题思路
+// 在上一题基础上，当输出时候判断层数，偶数层需要翻转，奇数层不用，使用reverse函数即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -33,4 +33,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

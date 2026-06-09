@@ -1,9 +1,9 @@
-### 思路一：标记行列
-分别保存值为0的行列，然后判断每行每列是否需要置0。
+// ### 思路一：标记行列
+// 分别保存值为0的行列，然后判断每行每列是否需要置0。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
@@ -36,10 +36,10 @@ public:
         }
     }
 };
-```
+// ```
 
-### 简化代码
-```c++
+// ### 简化代码
+// ```c++
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
@@ -63,4 +63,4 @@ public:
         }
     }
 };
-```
+// ```

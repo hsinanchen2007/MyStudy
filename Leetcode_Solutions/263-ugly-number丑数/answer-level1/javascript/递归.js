@@ -1,5 +1,5 @@
 
-```javascript
+// ```javascript
 const isUgly = (num)=>{
      if(num<=0) return false;
      if(num===1) return true;
@@ -18,4 +18,4 @@ const isUgly = (num)=>{
     };
     return helper(num);
 };
-```
+// ```

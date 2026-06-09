@@ -1,8 +1,8 @@
-### 解题思路
-第一次尝试没有用链表而是数学转换，所以导致溢出。第二次尝试感谢[@shao-nao](/u/shao-nao/)的解答提示，终于解出。
-### 代码
+// ### 解题思路
+// 第一次尝试没有用链表而是数学转换，所以导致溢出。第二次尝试感谢[@shao-nao](/u/shao-nao/)的解答提示，终于解出。
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -46,4 +46,4 @@ class Solution {
         return $final_result;
     }
 }
-```
+// ```

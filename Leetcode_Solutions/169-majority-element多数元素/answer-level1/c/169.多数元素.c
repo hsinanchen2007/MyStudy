@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //方法一--投票法
 int majorityElement(int* nums, int numsSize){
     int count=0,candidate;
@@ -46,4 +46,4 @@ int majorityElement(int* nums, int numsSize){
     return nums[numsSize/2];
 }
 
-```
+// ```

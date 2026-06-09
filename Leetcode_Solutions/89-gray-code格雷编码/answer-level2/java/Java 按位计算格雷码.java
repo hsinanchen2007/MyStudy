@@ -1,5 +1,5 @@
-利用G(i) = B(i+1) xor B(i)
-```Java []
+// 利用G(i) = B(i+1) xor B(i)
+// ```Java []
 class Solution {
     public List<Integer> grayCode(int n) {
         ArrayList<Integer> list = new ArrayList<>();
@@ -21,5 +21,5 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 

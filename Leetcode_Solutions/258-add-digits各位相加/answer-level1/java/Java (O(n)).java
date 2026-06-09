@@ -1,9 +1,9 @@
-### 解题思路
-正常的循环思路。个人觉得那个数学魔幻算法很难在面试中复现。
+// ### 解题思路
+// 正常的循环思路。个人觉得那个数学魔幻算法很难在面试中复现。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int addDigits(int num) {
         while (num > 9){
@@ -21,4 +21,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

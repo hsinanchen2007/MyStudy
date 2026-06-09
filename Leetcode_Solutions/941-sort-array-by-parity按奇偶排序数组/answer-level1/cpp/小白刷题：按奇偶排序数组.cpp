@@ -1,7 +1,7 @@
-双指针思路，一头一尾，遍历数组，偶数从头开始放，奇数从尾开始放，同时移动对应指针
+// 双指针思路，一头一尾，遍历数组，偶数从头开始放，奇数从尾开始放，同时移动对应指针
 
-代码：
-```
+// 代码：
+// ```
 class Solution {
 public:
     vector<int> sortArrayByParity(vector<int>& A) {
@@ -22,4 +22,4 @@ public:
         return ans;
     }
 };
-```
+// ```

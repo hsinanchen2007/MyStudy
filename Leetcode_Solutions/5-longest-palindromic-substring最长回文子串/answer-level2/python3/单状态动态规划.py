@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-单状态动态规划，dp[i]表示以s[i]元素结尾的所有回文串，并且时刻更新res记录最长长度。
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 单状态动态规划，dp[i]表示以s[i]元素结尾的所有回文串，并且时刻更新res记录最长长度。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         if len(s)==0 or len(s)==1:return s
@@ -19,4 +19,4 @@ class Solution:
         for index in range(len(s)):
             if res in dp[index]:
                 return s[index-res+1:index+1]
-```
+# ```

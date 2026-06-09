@@ -1,7 +1,7 @@
-回溯法，并利用used二维数组记录board元素使用情况；
-注意先更新used，再递归调用，之后检查used是否需要恢复；
-结束条件为下一个寻找的下标d超出有效值
-```
+// 回溯法，并利用used二维数组记录board元素使用情况；
+// 注意先更新used，再递归调用，之后检查used是否需要恢复；
+// 结束条件为下一个寻找的下标d超出有效值
+// ```
 class Solution {
 public:
     bool huisu(vector<vector<char>>& board, vector<vector<bool>>& used, string& word,int curi,int curj,int d)
@@ -68,4 +68,4 @@ public:
         
     }
 };
-```
+// ```

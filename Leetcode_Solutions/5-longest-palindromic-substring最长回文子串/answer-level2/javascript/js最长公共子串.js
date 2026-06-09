@@ -1,5 +1,5 @@
-一：
-暴力法：
+// 一：
+// 暴力法：
 
     var longestPalindrome = function(s) {
     var max = 0;

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findTheDifference(s string, t string) byte {
 	datas:=[26]int{}
 	ls := len(s)
@@ -22,4 +22,4 @@ func findTheDifference(s string, t string) byte {
 	}
 	return 0
 }
-```
+// ```

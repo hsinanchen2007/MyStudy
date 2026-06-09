@@ -1,9 +1,9 @@
-### 解题思路 JS迭代法
-JS迭代法
+// ### 解题思路 JS迭代法
+// JS迭代法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -28,4 +28,4 @@ var binaryTreePaths = function(root) {
     }
     return res
 };
-```
+// ```

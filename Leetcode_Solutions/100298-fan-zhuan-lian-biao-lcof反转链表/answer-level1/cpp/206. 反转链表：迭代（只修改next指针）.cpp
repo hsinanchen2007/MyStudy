@@ -1,10 +1,10 @@
-### 解题思路
-只修改next指针。
-[上一个题解](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/solution/206-fan-zhuan-lian-biao-di-gui-yu-die-dai-by-user4/)使用迭代（新建节点）耗时太高了。
+// ### 解题思路
+// 只修改next指针。
+// [上一个题解](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/solution/206-fan-zhuan-lian-biao-di-gui-yu-die-dai-by-user4/)使用迭代（新建节点）耗时太高了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,5 +32,5 @@ public:
     }
 
 };
-```
-![3.png](https://pic.leetcode-cn.com/402d04c11571e39014427d9d00b767690525e73a1781c377f9a6ce045fde5760-3.png)
+// ```
+// ![3.png](https://pic.leetcode-cn.com/402d04c11571e39014427d9d00b767690525e73a1781c377f9a6ce045fde5760-3.png)

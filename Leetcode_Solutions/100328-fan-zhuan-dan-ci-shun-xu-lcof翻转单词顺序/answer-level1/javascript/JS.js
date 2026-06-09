@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {string}
@@ -19,4 +19,4 @@ var reverseWords = function(s) {
     }
     return reverseArr.join(" ");
 };
-```
+// ```

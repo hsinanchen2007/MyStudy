@@ -1,5 +1,5 @@
-每一层先保存右节点，再保存左节点即可，也可以解决117题
-```
+// 每一层先保存右节点，再保存左节点即可，也可以解决117题
+// ```
 class Solution {
     public Node connect(Node root) {
         if(root==null) return root;
@@ -19,4 +19,4 @@ class Solution {
         return root;
     }
 }
-```
+// ```

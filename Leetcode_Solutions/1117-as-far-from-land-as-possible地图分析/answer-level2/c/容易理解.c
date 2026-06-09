@@ -1,9 +1,9 @@
-### 解题思路
-此代码，我是学习的别人的思路。详细解题思路：https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/lu-di-bu-duan-chang-da-zhi-dao-fu-gai-zheng-ge-di-/
+// ### 解题思路
+// 此代码，我是学习的别人的思路。详细解题思路：https://leetcode-cn.com/problems/as-far-from-land-as-possible/solution/lu-di-bu-duan-chang-da-zhi-dao-fu-gai-zheng-ge-di-/
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxDistance(int **grid, int gridSize, int *gridColSize)
 {
     int i,j;
@@ -45,4 +45,4 @@ int maxDistance(int **grid, int gridSize, int *gridColSize)
     return l;
 }
 
-```
+// ```

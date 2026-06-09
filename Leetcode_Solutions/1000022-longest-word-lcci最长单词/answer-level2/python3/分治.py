@@ -1,9 +1,9 @@
-### 解题思路
-通过分治，将每一个单词分为左右两部分，判断这两部分是否都存在于列表中。
+# ### 解题思路
+# 通过分治，将每一个单词分为左右两部分，判断这两部分是否都存在于列表中。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestWord(self, words: List[str]) -> str:
         def split(words,word):
@@ -31,4 +31,4 @@ class Solution:
                     
         
         
-```
+# ```

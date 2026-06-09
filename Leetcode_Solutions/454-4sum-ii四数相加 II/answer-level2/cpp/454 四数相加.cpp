@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     //思路：建一个hashmap，现将A和B相加的和，还有出现次数放到hashmap中，然后两层循环C和D
@@ -20,4 +20,4 @@ public:
         
     }
 };
-```
+// ```

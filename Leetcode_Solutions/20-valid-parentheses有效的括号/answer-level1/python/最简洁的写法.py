@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-代码简洁，括号匹配使用map 存起来，用 右括号取左边的。
+# ### 解题思路
+# 此处撰写解题思路
+# 代码简洁，括号匹配使用map 存起来，用 右括号取左边的。
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isValid(self, s):
         """
@@ -20,4 +20,4 @@ class Solution(object):
             elif not stack or paren_map[c] != stack.pop():
                 return False
         return not stack
-```
+# ```

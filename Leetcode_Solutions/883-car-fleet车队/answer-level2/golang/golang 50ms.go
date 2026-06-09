@@ -1,5 +1,5 @@
-根据pos排序，依次判断后面的车能否超越前车
-```
+// 根据pos排序，依次判断后面的车能否超越前车
+// ```
 type Node struct {
 	pos   int
 	speed int
@@ -53,4 +53,4 @@ func carFleet(target int, position []int, speed []int) int {
 	}
 	return count
 }
-```
+// ```

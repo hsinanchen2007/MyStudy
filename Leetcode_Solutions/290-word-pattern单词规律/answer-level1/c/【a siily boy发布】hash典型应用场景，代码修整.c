@@ -1,4 +1,4 @@
-```
+// ```
 bool wordPattern(char * pattern, char * str){
     char **hash = (char **)malloc(26 * sizeof(char*));
     for (int i = 0; i < 26; ++i)
@@ -38,4 +38,4 @@ bool wordPattern(char * pattern, char * str){
         return false;
     return true;
 }
-```
+// ```

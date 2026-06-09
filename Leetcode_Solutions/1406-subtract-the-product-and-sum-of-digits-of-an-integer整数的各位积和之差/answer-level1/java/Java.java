@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-时间复杂度：while（）循环所执行次数为s.length()次，O（s.length（））
-空间复杂度：定义了pro,sum,value,s,A,i,所以O(6)
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 时间复杂度：while（）循环所执行次数为s.length()次，O（s.length（））
+// 空间复杂度：定义了pro,sum,value,s,A,i,所以O(6)
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int subtractProductAndSum(int n) {
         int pro=1;  // 乘积初始化
@@ -24,4 +24,4 @@ class Solution {
         return value;
     }
 }
-```
+// ```

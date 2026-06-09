@@ -1,6 +1,6 @@
 
-# 递归，自顶向下 【超时】
-```java
+// # 递归，自顶向下 【超时】
+// ```java
 int row;
 
 public int minimumTotal(List<List<Integer>> triangle) {
@@ -16,12 +16,12 @@ private int helper(int level, int c, List<List<Integer>> triangle){
     int right = helper(level+1, c+1, triangle);
     return Math.min(left, right) + triangle.get(level).get(c);
 }
-```
+// ```
 
-**改进,避免重复计算**
+// **改进,避免重复计算**
 
-# 自顶向下, 记忆化搜索 【AC】
-```java
+// # 自顶向下, 记忆化搜索 【AC】
+// ```java
 int row;
 Integer[][] memo;
 
@@ -41,10 +41,10 @@ private int helper(int level, int c, List<List<Integer>> triangle){
     int right = helper(level+1, c+1, triangle);
     return memo[level][c] = Math.min(left, right) + triangle.get(level).get(c);
 }
-```
+// ```
 
-# 自底向上, DP 【AC】
-```java
+// # 自底向上, DP 【AC】
+// ```java
 public int minimumTotal(List<List<Integer>> triangle) {
     int row = triangle.size();
     int[] minlen = new int[row+1];
@@ -55,5 +55,5 @@ public int minimumTotal(List<List<Integer>> triangle) {
     }
     return minlen[0];
 }
-```
+// ```
 

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -30,4 +30,4 @@ var helper = function(nums, i, j, k){
 var findKthLargest = function(nums, k) {
   return helper(nums, 0, nums.length-1, k)
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-理解题意很重要，每个单词对拼写都是一次评写
-因此不需要相减
+// ### 解题思路
+// 理解题意很重要，每个单词对拼写都是一次评写
+// 因此不需要相减
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countCharacters(String[] words, String chars) {
         if (words.length == 0 || chars.length() == 0) {
@@ -43,4 +43,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

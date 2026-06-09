@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-不难得出，若四周无其他立方体，则面积公式为 Area=4v+2。
+// 不难得出，若四周无其他立方体，则面积公式为 Area=4v+2。
 
-若四周有，则用Area减去两侧较小的V(个数)即可，如与右边的比较：Area-= min(grid[i][j],grid[i][j+1]));
+// 若四周有，则用Area减去两侧较小的V(个数)即可，如与右边的比较：Area-= min(grid[i][j],grid[i][j+1]));
 
-对每个都进行深度优先搜索，用temp数组标记该位置是否已被计算。
-
-
-### 代码
+// 对每个都进行深度优先搜索，用temp数组标记该位置是否已被计算。
 
 
-```java
+// ### 代码
+
+
+// ```java
 class Solution {
     public int surfaceArea(int[][]v grid) {
         int surfaceArea = 0;
@@ -58,5 +58,5 @@ class Solution {
         return Area;
     }
 }
-```
-![微信图片_20200325125009.png](https://pic.leetcode-cn.com/12ce285a201fd9586e43cdfd0b5935b2fbbcfa059588392a8dd90a72f0318f22-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200325125009.png)
+// ```
+// ![微信图片_20200325125009.png](https://pic.leetcode-cn.com/12ce285a201fd9586e43cdfd0b5935b2fbbcfa059588392a8dd90a72f0318f22-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200325125009.png)

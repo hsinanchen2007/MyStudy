@@ -1,9 +1,9 @@
-### 解题思路
-记忆化搜索
+// ### 解题思路
+// 记忆化搜索
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canReach(vector<int>& arr, int start) {
@@ -19,4 +19,4 @@ public:
         return canReach(arr, visit, pos + arr[pos]) || canReach(arr, visit, pos - arr[pos]);
     }
 };
-```
+// ```

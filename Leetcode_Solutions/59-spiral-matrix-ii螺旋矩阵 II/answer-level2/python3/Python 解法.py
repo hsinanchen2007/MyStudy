@@ -1,10 +1,10 @@
-### 解题思路
-这道是56题螺旋矩阵的延伸，思路一样，分析和更多解法参考：
-https://leetcode-cn.com/problems/spiral-matrix/solution/python-san-chong-jie-fa-by-hialiens/
+# ### 解题思路
+# 这道是56题螺旋矩阵的延伸，思路一样，分析和更多解法参考：
+# https://leetcode-cn.com/problems/spiral-matrix/solution/python-san-chong-jie-fa-by-hialiens/
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateMatrix(self, n: int) -> List[List[int]]:
         if n == 0: return []
@@ -28,4 +28,4 @@ class Solution:
         
         return ans
 
-```
+# ```

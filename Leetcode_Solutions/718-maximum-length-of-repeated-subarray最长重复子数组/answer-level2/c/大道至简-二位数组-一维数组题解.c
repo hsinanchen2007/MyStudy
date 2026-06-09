@@ -1,4 +1,4 @@
-```
+// ```
 int findLength(int* A, int ASize, int* B, int BSize)
 {
     int length = 0;
@@ -25,8 +25,8 @@ int findLength(int* A, int ASize, int* B, int BSize)
     }
     return length;
 }
-```
-```
+// ```
+// ```
 #define max(A, B) ((A) >= (B)) ? (A) : (B)
 //#define MAXSIZE 1001
 
@@ -66,4 +66,4 @@ int findLength(int* A, int ASize, int* B, int BSize)
     }
   return maxlen;
 }
-```
+// ```

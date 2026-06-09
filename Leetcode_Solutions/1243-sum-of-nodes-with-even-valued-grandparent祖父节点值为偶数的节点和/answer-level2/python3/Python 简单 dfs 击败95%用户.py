@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/3291b43898ad9705cf106c5916b4854574e1b28dee5d7f1643d1a261eea89d4c-image.png)
+# ![image.png](https://pic.leetcode-cn.com/3291b43898ad9705cf106c5916b4854574e1b28dee5d7f1643d1a261eea89d4c-image.png)
 
 
-```
+# ```
 from typing import List
 class Solution:
 
@@ -20,4 +20,4 @@ class Solution:
         ans = [0]
         self.dfs(root, 1, 1, ans)
         return ans[0]
-```
+# ```

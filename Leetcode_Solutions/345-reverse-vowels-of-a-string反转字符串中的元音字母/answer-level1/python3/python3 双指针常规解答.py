@@ -1,15 +1,15 @@
-### 解题思路
-解法比较简单，通过双指针遍历
+# ### 解题思路
+# 解法比较简单，通过双指针遍历
 
-值得注意的是通过实验，对于不变的元素
-（代码中'a','e','i','o','u','A','E','I','O','U'部分）
-运行时间上 列表 > 元祖 > 集合
+# 值得注意的是通过实验，对于不变的元素
+# （代码中'a','e','i','o','u','A','E','I','O','U'部分）
+# 运行时间上 列表 > 元祖 > 集合
  
-![屏幕快照 2020-03-08 下午2.54.51.png](https://pic.leetcode-cn.com/11e810baedb01bdfd025d59b81b8602e4ea7d724fb66cd5113ce5d588c8e64fe-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-08%20%E4%B8%8B%E5%8D%882.54.51.png)
+# ![屏幕快照 2020-03-08 下午2.54.51.png](https://pic.leetcode-cn.com/11e810baedb01bdfd025d59b81b8602e4ea7d724fb66cd5113ce5d588c8e64fe-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-03-08%20%E4%B8%8B%E5%8D%882.54.51.png)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseVowels(self, s: str) -> str:
         # a e i o u                                         #元音元素
@@ -27,4 +27,4 @@ class Solution:
             if s_[pol] not in dic:                          #左指针所指元素不在集合中
                 pol += 1                                    #左指针右移
         return ''.join(s_)                                  #返回str格式数据
-```
+# ```

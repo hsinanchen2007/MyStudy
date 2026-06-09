@@ -1,9 +1,9 @@
-### 解题思路
-题目比较费解，读懂以后还是挺简单的，就是标准二分查找
+# ### 解题思路
+# 题目比较费解，读懂以后还是挺简单的，就是标准二分查找
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # The guess API is already defined for you.
 # @param num, your guess
 # @return -1 if my number is lower, 1 if my number is higher, otherwise return 0
@@ -19,4 +19,4 @@ class Solution:
             if res==1:l=m+1
             if res==0:return m
         return l
-```
+# ```

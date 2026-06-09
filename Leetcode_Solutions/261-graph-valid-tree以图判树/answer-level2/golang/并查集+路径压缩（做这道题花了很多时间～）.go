@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func validTree(n int, edges [][]int) bool {
 	f := make([]int, n)
 	for i:=0;i<n;i++ {
@@ -46,4 +46,4 @@ func search(f []int, i int) int {
 
 	return i
 }
-```
+// ```

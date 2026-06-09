@@ -1,22 +1,22 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(log n)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 这个算法参考程序员小灰的微信公众号：https://mp.weixin.qq.com/s/33aOwDGFQ5omE3sHmVLXVA
-    2.2 关于旋转点以及中间值一共有两种情况，加上目标值总共有四种
-        2.2.1 中间值在旋转点的左侧
-              2.2.1.1 目标在旋转点左侧，所以可推断出：nums[target]<target<nums[mid]
-              2.2.1.2 目标在旋转点右侧，推断出：!(nums[start]<=target<nums[mid])
-        2.2.2 中间值在旋转点右侧
-              2.2.1.1 目标在旋转点左侧，所以可推断出：target<nums[mid]<target<=nums[end]
-              2.2.1.2 目标在旋转点右侧，推断出：!(target<nums[mid]<target<=nums[end])
-    2.3 根据2.2的四种情况，二分查找
-3. 提交记录
-    3.1 力扣中耗时1ms,消耗35.5MB内存
-    3.2 leetcode中耗时0ms,消耗39.7MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(log n)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 这个算法参考程序员小灰的微信公众号：https://mp.weixin.qq.com/s/33aOwDGFQ5omE3sHmVLXVA
+//     2.2 关于旋转点以及中间值一共有两种情况，加上目标值总共有四种
+//         2.2.1 中间值在旋转点的左侧
+//               2.2.1.1 目标在旋转点左侧，所以可推断出：nums[target]<target<nums[mid]
+//               2.2.1.2 目标在旋转点右侧，推断出：!(nums[start]<=target<nums[mid])
+//         2.2.2 中间值在旋转点右侧
+//               2.2.1.1 目标在旋转点左侧，所以可推断出：target<nums[mid]<target<=nums[end]
+//               2.2.1.2 目标在旋转点右侧，推断出：!(target<nums[mid]<target<=nums[end])
+//     2.3 根据2.2的四种情况，二分查找
+// 3. 提交记录
+//     3.1 力扣中耗时1ms,消耗35.5MB内存
+//     3.2 leetcode中耗时0ms,消耗39.7MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *      33.Search in Rotated Sorted Array
@@ -81,6 +81,6 @@ class Solution{
     }
 }
 
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

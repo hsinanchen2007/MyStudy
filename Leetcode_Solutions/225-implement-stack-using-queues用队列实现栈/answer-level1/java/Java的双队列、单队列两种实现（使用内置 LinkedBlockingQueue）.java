@@ -1,10 +1,10 @@
-说明：
-1 只针对每次push做处理，还有一种使用pop的方式未实现
-2 单队列的思路还是比较奇特的（循环使用），很有意思（平常应该也会遇到类似场景），反过来栈就没办法用一个
+// 说明：
+// 1 只针对每次push做处理，还有一种使用pop的方式未实现
+// 2 单队列的思路还是比较奇特的（循环使用），很有意思（平常应该也会遇到类似场景），反过来栈就没办法用一个
 
-双队列实现
+// 双队列实现
 
-```java
+// ```java
 public class StackByQueue {
 
     private Queue<Integer> inQueue;
@@ -53,11 +53,11 @@ public class StackByQueue {
     }
 
 }
-```
+// ```
 
-单队列实现
+// 单队列实现
 
-```java
+// ```java
 public class StackByOneQueue {
 
     private Queue<Integer> queue;
@@ -104,4 +104,4 @@ public class StackByOneQueue {
     }
 
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-一般的解法，首先计算每个数的平方，存放到新的数组中，接着对该数组进行冒泡排序即可
+// ### 解题思路
+// 一般的解法，首先计算每个数的平方，存放到新的数组中，接着对该数组进行冒泡排序即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortedSquares(int[] A) {
         int[] arr = new int[A.length];
@@ -22,4 +22,4 @@ class Solution {
         return arr;
     }
 }
-```
+// ```

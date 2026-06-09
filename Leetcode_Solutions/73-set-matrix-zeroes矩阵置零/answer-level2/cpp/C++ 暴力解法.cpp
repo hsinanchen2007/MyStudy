@@ -1,9 +1,9 @@
-### 解题思路
-用multimap存储所给矩阵为0的位置，然后将这些位置的行列置零。
+// ### 解题思路
+// 用multimap存储所给矩阵为0的位置，然后将这些位置的行列置零。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) 
@@ -25,4 +25,4 @@ public:
         }
     }
 };
-```
+// ```

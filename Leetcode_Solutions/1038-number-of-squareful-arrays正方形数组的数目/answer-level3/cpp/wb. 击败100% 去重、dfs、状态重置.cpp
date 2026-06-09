@@ -1,12 +1,12 @@
-### 解题思路
-1. 去重
-2. dfs 用map记录不重复元素出现的个数，并作为是否访问标记
-3. 单条路径遍历结束或遇到断路，状态重置；
-4. 访问标记紧随stack pop之后，path push_back亦是如此
-5. 初始化时，用map<int, set<int>>存储所有不重复数的有效邻居集合
-### 代码
+// ### 解题思路
+// 1. 去重
+// 2. dfs 用map记录不重复元素出现的个数，并作为是否访问标记
+// 3. 单条路径遍历结束或遇到断路，状态重置；
+// 4. 访问标记紧随stack pop之后，path push_back亦是如此
+// 5. 初始化时，用map<int, set<int>>存储所有不重复数的有效邻居集合
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool Help(int a, int b) {
@@ -70,4 +70,4 @@ public:
         return sum;
     }
 };
-```
+// ```

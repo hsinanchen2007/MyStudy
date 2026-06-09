@@ -1,8 +1,8 @@
-### 解题思路
-逆序后交换
-### 代码
+// ### 解题思路
+// 逆序后交换
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void nextPermutation(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/f7ef716d9d634b212579722e91a910ab9d15f5dadcfc35d2c088ae949c9205ed-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/f7ef716d9d634b212579722e91a910ab9d15f5dadcfc35d2c088ae949c9205ed-image.png)
 
-繁复，但是否相对更好理解呢？哈哈，未必了。搞了三个数组，uniqueArr放A中只出现一次的数字，dupliArr放重复出现的数字，vancArr放uniqueArr中的空缺数字。然后把dupliArr挨个尝试插进vancArr中去，没法插就全部怼到uniqueArr后面去。
+// 繁复，但是否相对更好理解呢？哈哈，未必了。搞了三个数组，uniqueArr放A中只出现一次的数字，dupliArr放重复出现的数字，vancArr放uniqueArr中的空缺数字。然后把dupliArr挨个尝试插进vancArr中去，没法插就全部怼到uniqueArr后面去。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number}
@@ -62,4 +62,4 @@ var minIncrementForUnique = function (A) {
     return moveCnt;
 };
 
-```
+// ```

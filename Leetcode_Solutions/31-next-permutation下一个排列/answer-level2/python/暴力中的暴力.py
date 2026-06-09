@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution(object):
     def nextPermutation(self, nums):
         num1=nums[::-1]
@@ -32,7 +32,7 @@ class Solution(object):
         list2.sort()
         nums[d+1:]=list2
         return nums
-```
+# ```
 
 
 

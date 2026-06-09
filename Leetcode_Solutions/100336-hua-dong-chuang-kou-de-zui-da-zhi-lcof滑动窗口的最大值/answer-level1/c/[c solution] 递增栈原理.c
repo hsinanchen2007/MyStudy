@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-时间复杂度：近似O(n)
-空间复杂度：O(n)
+// 时间复杂度：近似O(n)
+// 空间复杂度：O(n)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -41,4 +41,4 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize){
 
     return res;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```C
+// ```C
 bool tiankong(char **,char **,int,int,int);
 bool isend(char **);
 
@@ -73,4 +73,4 @@ bool isend(char ** board){ //判断是否结束
         return true;
     return false;
 }
-```
+// ```

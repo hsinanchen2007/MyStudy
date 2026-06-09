@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-- 空间换时间
-- 1.按照value非升序将values和labels捆绑排序
-- 2.从value大的开始贪心，判断当前的labels有没有超过use_limit
-- 3.每找到一个，num_wanted自减1
+// - 空间换时间
+// - 1.按照value非升序将values和labels捆绑排序
+// - 2.从value大的开始贪心，判断当前的labels有没有超过use_limit
+// - 3.每找到一个，num_wanted自减1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 
     class Data {
@@ -45,4 +45,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

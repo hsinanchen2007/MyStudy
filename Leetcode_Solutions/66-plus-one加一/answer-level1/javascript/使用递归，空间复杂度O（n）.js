@@ -1,10 +1,10 @@
-### 解题思路
-1 首先给数组的length-1型加1，结果为10 接着调用addOne(digits, 1, --index)，结果！==10 返回digits，
-2  （index === -1 && addNum != 0）需要 digits.unshift(1);并 return digits;
+// ### 解题思路
+// 1 首先给数组的length-1型加1，结果为10 接着调用addOne(digits, 1, --index)，结果！==10 返回digits，
+// 2  （index === -1 && addNum != 0）需要 digits.unshift(1);并 return digits;
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} digits
  * @return {number[]}
@@ -24,4 +24,4 @@ function addOne(digits, addNum, index) {
   digits[index] = digits[index] + addNum;
   return digits;
 }
-```
+// ```

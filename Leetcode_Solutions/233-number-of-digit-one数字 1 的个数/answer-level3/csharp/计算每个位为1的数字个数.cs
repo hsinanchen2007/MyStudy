@@ -1,9 +1,9 @@
-### 解题思路
-每位为1  长度为L  小于等于N的数字数量
+// ### 解题思路
+// 每位为1  长度为L  小于等于N的数字数量
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 class OneNum{
     private int MaxPos(int maxN){
         var n = 0;
@@ -129,4 +129,4 @@ public class Solution {
         return oneN.CountDigitOne(n);
     }
 }
-```
+// ```

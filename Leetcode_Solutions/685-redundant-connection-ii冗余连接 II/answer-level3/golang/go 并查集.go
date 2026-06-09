@@ -1,15 +1,15 @@
 
-**两种情况**
-    1. 存在入度为2 的节点, 去掉一条边, 用并查集判断剩余边是否存在环。
-    2. 并查集找出最后一条导致环路的边。
-<br />
+// **两种情况**
+//     1. 存在入度为2 的节点, 去掉一条边, 用并查集判断剩余边是否存在环。
+//     2. 并查集找出最后一条导致环路的边。
+// <br />
 
-**执行结果**
-![image.png](https://pic.leetcode-cn.com/c7f80a69aea6037abd82c85d75bbf45c35b55c95a58771909e05b7420b7a7850-image.png)
-<br />
+// **执行结果**
+// ![image.png](https://pic.leetcode-cn.com/c7f80a69aea6037abd82c85d75bbf45c35b55c95a58771909e05b7420b7a7850-image.png)
+// <br />
 
-**代码**
-```
+// **代码**
+// ```
 type UnionFind struct {
 	Parent []int
 	Height []int
@@ -97,5 +97,5 @@ func IsCycle(edges [][]int, size int) ([]int, bool) {
 	return make([]int, 0, 0), false
 }
 
-```
+// ```
 

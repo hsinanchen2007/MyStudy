@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define CHARACTERNUM 26
 
 inline void CalCharCnt(int* map, char* text)
@@ -68,4 +68,4 @@ int maxNumberOfBalloons(char * text){
     free(map);
     return cnt;
 }
-```
+// ```

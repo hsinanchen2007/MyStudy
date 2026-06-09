@@ -1,9 +1,9 @@
-### 解题思路
-Hash+暴力
+// ### 解题思路
+// Hash+暴力
 
-### 代码
-Hash
-```c
+// ### 代码
+// Hash
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -52,4 +52,4 @@ int* smallerNumbersThanCurrent(int* nums, int numsSize, int* returnSize){
     *returnSize = numsSize;
     return arr;
 }
-```
+// ```

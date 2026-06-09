@@ -1,9 +1,9 @@
-### 解题思路
-快速排序的演变:把1当做标准,遇到0就排前面,遇到2就排后面
+// ### 解题思路
+// 快速排序的演变:把1当做标准,遇到0就排前面,遇到2就排后面
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void sortColors(int[] nums) {
         int one=0;//记录1的最后一个位置
@@ -33,4 +33,4 @@ class Solution {
         nums[j]=tem;
     }
 }
-```
+// ```

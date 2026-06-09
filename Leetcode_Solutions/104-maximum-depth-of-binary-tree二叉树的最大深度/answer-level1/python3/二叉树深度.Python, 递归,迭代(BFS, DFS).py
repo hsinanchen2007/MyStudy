@@ -1,17 +1,17 @@
-### 解法一: 递归
+# ### 解法一: 递归
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if root == None:
             return 0
         return max(self.maxDepth(root.left), self.maxDepth(root.right))+1 
-```
+# ```
 
-### 方法二: 迭代法 BFS:
+# ### 方法二: 迭代法 BFS:
 
-```python
+# ```python
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if root == None: return 0
@@ -28,10 +28,10 @@ class Solution:
                 if cur.right != None:
                     queue.append(cur.right)
         return depth
-```
+# ```
 
-### 方法三: 迭代法,DFS:
-```python
+# ### 方法三: 迭代法,DFS:
+# ```python
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if root == None: return 0
@@ -46,7 +46,7 @@ class Solution:
             if node.left != None:
                 stack.append((pair[0]+1, node.left))
         return max_depth
-```
+# ```
 
 
 
@@ -58,4 +58,4 @@ class Solution:
 
 
 
-```
+# ```

@@ -1,10 +1,10 @@
 
-qsort+bsearch的时间是116ms，hash的时间是212ms
+// qsort+bsearch的时间是116ms，hash的时间是212ms
 
 
 
-代码：
-```
+// 代码：
+// ```
 typedef struct _ut_hash_
 {
     int key;
@@ -89,4 +89,4 @@ int findMaximumXOR(int* nums, int numsSize){
     return result;
 
 }
-```
+// ```

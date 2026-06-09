@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-Js的数组是个很好用的东西，本身就支持：
-栈方法：pop，push
-队方法：shift，unshift
+// Js的数组是个很好用的东西，本身就支持：
+// 栈方法：pop，push
+// 队方法：shift，unshift
 
-但是感觉这么一来就像作弊。然后我稍微绕个圈子吧。。。
+// 但是感觉这么一来就像作弊。然后我稍微绕个圈子吧。。。
 
-具体实现直接看代码，很简单。
+// 具体实现直接看代码，很简单。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -61,4 +61,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

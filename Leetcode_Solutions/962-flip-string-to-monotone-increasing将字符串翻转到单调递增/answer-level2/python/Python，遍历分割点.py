@@ -1,4 +1,4 @@
-```python
+# ```python
     def minFlipsMonoIncr(self, S: str) -> int:
         # 基本思路是遍历所有分隔点找最小值
         l, r, _sum = [0], [0], 0
@@ -13,4 +13,4 @@
             r.append(_sum)  # 将右边全翻转为1需要的翻转次数
         r.reverse()
         return min(l[i]+r[i] for i in range(len(l)))
-```
+# ```

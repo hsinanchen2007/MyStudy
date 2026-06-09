@@ -1,9 +1,9 @@
-### 解题思路
-   synchronized(this)的用法是对象锁，在for循环内部使用，相当于n把锁。或许这是提高速度的密码所在~
+// ### 解题思路
+//    synchronized(this)的用法是对象锁，在for循环内部使用，相当于n把锁。或许这是提高速度的密码所在~
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class FooBar {
     private int n;
 
@@ -43,4 +43,4 @@ class FooBar {
        }
     }
 }
-```
+// ```

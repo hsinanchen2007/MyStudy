@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findShortestWay(self, maze: List[List[int]], ball: List[int], hole: List[int]) -> str:
                                                     
@@ -40,7 +40,7 @@ class Solution:
                         queue.append((x,y))         # 将其添加到队列中
                                            
         return string[hole[0]][hole[1]]
-```
+# ```
 
 
-![微信截图_20200114094332.png](https://pic.leetcode-cn.com/9ec702e9a4328f1b2eebe758f7b8965d7281820e2e53fdeeee98f8baae4e09a0-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200114094332.png)
+# ![微信截图_20200114094332.png](https://pic.leetcode-cn.com/9ec702e9a4328f1b2eebe758f7b8965d7281820e2e53fdeeee98f8baae4e09a0-%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20200114094332.png)

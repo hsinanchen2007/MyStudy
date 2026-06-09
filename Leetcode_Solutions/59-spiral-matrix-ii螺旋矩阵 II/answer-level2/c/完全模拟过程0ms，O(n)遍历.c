@@ -1,14 +1,14 @@
-### 解题思路
-完全模拟过程，上下左右四个边界
-起始向右走，curCol++，走到了右上角，方向转为向下走，上边界下移；
-如果向下走，curRow++，走到了右下角，方向转为向左走，右边界左移；
-如果向左走，curCol--，走到了左下角，方向转为向上走，下边界上移；
-如果向上走，curRow--，走到了左上角，方向转为向右走，左边界右移；
-退出条件是curValue == maxValue(n * n)
+// ### 解题思路
+// 完全模拟过程，上下左右四个边界
+// 起始向右走，curCol++，走到了右上角，方向转为向下走，上边界下移；
+// 如果向下走，curRow++，走到了右下角，方向转为向左走，右边界左移；
+// 如果向左走，curCol--，走到了左下角，方向转为向上走，下边界上移；
+// 如果向上走，curRow--，走到了左上角，方向转为向右走，左边界右移；
+// 退出条件是curValue == maxValue(n * n)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -75,4 +75,4 @@ int** generateMatrix(int n, int* returnSize, int** returnColumnSizes)
     }
     return ret;
 }
-```
+// ```

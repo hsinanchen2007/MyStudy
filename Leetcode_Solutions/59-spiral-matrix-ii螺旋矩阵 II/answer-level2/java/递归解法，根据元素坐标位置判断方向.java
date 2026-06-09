@@ -1,7 +1,7 @@
-思路：根据元素坐标可以判断下一个元素的坐标
-图片不好画啊，有没有推荐的画图工具？
-代码：
-`
+// 思路：根据元素坐标可以判断下一个元素的坐标
+// 图片不好画啊，有没有推荐的画图工具？
+// 代码：
+// `
     public int[][] generateMatrix(int n) {
         int[][] result = new int[n][n];
         if(n == 0){
@@ -33,4 +33,4 @@
             move1(x, y + 1, n, arr, vCenter, hCenter, count);
         }
     }
-`
+// `

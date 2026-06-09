@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/128cb715a7659f7e421d2695f3327357d2df11366152d65a621dd2d24894d504-image.png)
+// ![image.png](https://pic.leetcode-cn.com/128cb715a7659f7e421d2695f3327357d2df11366152d65a621dd2d24894d504-image.png)
 
-### 解题思路
-遍历，遍历中获取单词，遇到非单词的持续遍历
+// ### 解题思路
+// 遍历，遍历中获取单词，遇到非单词的持续遍历
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String mostCommonWord(String paragraph, String[] banned) {
         Set<String> set = new HashSet<>(banned.length, 1);
@@ -36,4 +36,4 @@ class Solution {
         return maxStr;
     }
 }
-```
+// ```

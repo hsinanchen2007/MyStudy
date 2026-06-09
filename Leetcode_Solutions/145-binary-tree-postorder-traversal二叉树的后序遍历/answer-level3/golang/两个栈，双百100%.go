@@ -1,9 +1,9 @@
-### 解题思路
-利用两个栈，一个负责先序遍历，一个负责存后序顺序
+// ### 解题思路
+// 利用两个栈，一个负责先序遍历，一个负责存后序顺序
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -43,4 +43,4 @@ func postorderTraversal(root *TreeNode) []int {
     }
     return res
 }
-```
+// ```

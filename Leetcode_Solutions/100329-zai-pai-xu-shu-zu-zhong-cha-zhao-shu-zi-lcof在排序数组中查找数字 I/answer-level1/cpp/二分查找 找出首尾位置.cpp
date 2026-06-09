@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int getFirst(vector<int>& nums,int start,int end,int target){
@@ -50,4 +50,4 @@ public:
         else return 0;
     }
 };
-```
+// ```

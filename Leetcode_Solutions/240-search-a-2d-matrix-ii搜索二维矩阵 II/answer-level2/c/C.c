@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-从左下角开始找起 复杂度 O(matrixRowSize + matrixColSize)
+// 从左下角开始找起 复杂度 O(matrixRowSize + matrixColSize)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool searchMatrix(int** matrix, int matrixRowSize, int matrixColSize, int target) {
     int i = 0;
     int j = matrixRowSize - 1;
@@ -22,4 +22,4 @@ bool searchMatrix(int** matrix, int matrixRowSize, int matrixColSize, int target
     return false;
 }
         
-```
+// ```

@@ -1,5 +1,5 @@
-双链表 + Hash
-```
+// 双链表 + Hash
+// ```
    private class Node {
         Node prev;
         Node next;
@@ -59,4 +59,4 @@
         current.prev = tail.prev;
         tail.prev = current;
     }
-```
+// ```

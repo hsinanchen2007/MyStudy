@@ -1,10 +1,10 @@
-### 解题思路
-可以通过DFS和BFS来实现
-1. `深搜+剪枝 向下和向右来进行递归，并且设置visited来存储已经访问过的元素，防止重复访问`
-2. `广搜用队列`
-### 代码
+# ### 解题思路
+# 可以通过DFS和BFS来实现
+# 1. `深搜+剪枝 向下和向右来进行递归，并且设置visited来存储已经访问过的元素，防止重复访问`
+# 2. `广搜用队列`
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def movingCount(self, m, n, k):
         """
@@ -23,4 +23,4 @@ class Solution(object):
         # visited = set()
         return dfs(0, 0, 0, 0)
         
-```
+# ```

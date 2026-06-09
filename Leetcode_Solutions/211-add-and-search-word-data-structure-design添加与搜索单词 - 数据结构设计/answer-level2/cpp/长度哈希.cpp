@@ -1,14 +1,14 @@
-### 解题思路
-![leetcode.png](https://pic.leetcode-cn.com/f605d17135ef9e4a130834ccf9a206a02c1fcca299b41a053315a8dd7aaab917-leetcode.png)
-思想：只要长度匹配不上就白搭
-所以建立了key为长度的map
-同时也建立了key为string的map,这样查找不带通配符的字符串的时间复杂度为O(1)，
-对于待通配符的字符串就在长度对应的字符串列表里查找是否有match的字符串即可。
-事实证明不光速度挺快，内存消耗的也挺少 =w=
+// ### 解题思路
+// ![leetcode.png](https://pic.leetcode-cn.com/f605d17135ef9e4a130834ccf9a206a02c1fcca299b41a053315a8dd7aaab917-leetcode.png)
+// 思想：只要长度匹配不上就白搭
+// 所以建立了key为长度的map
+// 同时也建立了key为string的map,这样查找不带通配符的字符串的时间复杂度为O(1)，
+// 对于待通配符的字符串就在长度对应的字符串列表里查找是否有match的字符串即可。
+// 事实证明不光速度挺快，内存消耗的也挺少 =w=
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class WordDictionary {
 public:
     vector<string> list;
@@ -54,4 +54,4 @@ public:
  * obj->addWord(word);
  * bool param_2 = obj->search(word);
  */
-```
+// ```

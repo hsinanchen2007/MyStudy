@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-解法不好，只是纪念一下自己第一次解决了困难题，相信之后会更多的，嗯，加油！
+// 解法不好，只是纪念一下自己第一次解决了困难题，相信之后会更多的，嗯，加油！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isMatch(String s, String p) {
         if(s==null) return p==null;
@@ -33,4 +33,4 @@ class Solution {
         return f[m][n];
     }
 }
-```
+// ```

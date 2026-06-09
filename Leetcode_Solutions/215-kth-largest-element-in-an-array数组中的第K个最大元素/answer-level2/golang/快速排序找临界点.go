@@ -1,8 +1,8 @@
-### 解题思路
-快排思想
-### 代码
+// ### 解题思路
+// 快排思想
+// ### 代码
 
-```golang
+// ```golang
 func findKthLargest(nums []int, k int) int {
     l := len(nums)
     if l == 0 || k == 0 {
@@ -39,4 +39,4 @@ func getIndex(nums []int, k int) (int, int) {
     }
     return getIndex(nums[:p], k + p - len(nums))
 }
-```
+// ```

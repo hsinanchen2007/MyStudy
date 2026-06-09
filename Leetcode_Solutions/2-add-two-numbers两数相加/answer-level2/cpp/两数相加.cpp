@@ -1,9 +1,9 @@
-### 解题思路
-原来计算出l1,l2的值,但发现确实不行,overflow了,所以采用如下方法,使用一个变量监控进位,第一次做leetcode,记录一下,发现好像malloc不能适用,为了找个好工作继续努力!
+// ### 解题思路
+// 原来计算出l1,l2的值,但发现确实不行,overflow了,所以采用如下方法,使用一个变量监控进位,第一次做leetcode,记录一下,发现好像malloc不能适用,为了找个好工作继续努力!
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ public:
         return vhead->next;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-时间复杂度有点高
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 时间复杂度有点高
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -14,4 +14,4 @@ var rotate = function(nums, k) {
         nums.unshift(nums.pop())
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minCostToMoveChips(vector<int>& chips) {
@@ -16,4 +16,4 @@ public:
         return res;
     }
 };
-```
+// ```

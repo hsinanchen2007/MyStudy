@@ -1,12 +1,12 @@
-参考其他桶排序的原理。
+// 参考其他桶排序的原理。
 
-使用桶间比较思路，只需要记录桶内的最值就可以了。
-
-
+// 使用桶间比较思路，只需要记录桶内的最值就可以了。
 
 
 
-```c
+
+
+// ```c
 #define ID_MIN      0
 #define ID_MAX      1
 #define ID_VALID    2
@@ -98,4 +98,4 @@ int maximumGap(int *nums, int numsSize)
     return bucketMax(nums, numsSize, min, bucketCount, bucketGap);
 }
 
-```
+// ```

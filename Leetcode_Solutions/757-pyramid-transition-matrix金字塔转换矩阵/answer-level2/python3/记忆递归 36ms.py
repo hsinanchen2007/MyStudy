@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def pyramidTransition(self, bottom: str, allowed: List[str]) -> bool:
         allowed_dict = collections.defaultdict(list)
@@ -20,4 +20,4 @@ class Solution:
         res = helper(bottom)
         #print(record)
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         # v个叠在一起的正方体组成的长方体表面积为 v*4 + 2
@@ -22,4 +22,4 @@ class Solution:
                 if j + 1 < length:
                     covered += min(grid[i][j], grid[i][j+1]) * 2
         return total - covered
-```
+# ```

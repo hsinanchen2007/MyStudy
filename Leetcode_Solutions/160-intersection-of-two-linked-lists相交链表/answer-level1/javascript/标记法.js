@@ -1,9 +1,9 @@
-### 解题思路
-标记法
+// ### 解题思路
+// 标记法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -28,4 +28,4 @@ var getIntersectionNode = function(headA, headB) {
     }
     return null
 };
-```
+// ```

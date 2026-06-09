@@ -1,10 +1,10 @@
-### 解题思路
-用字典统计数字出现的次数，字典的默认值为0
-当出现字典中的值大于1时，返回对应的键
+# ### 解题思路
+# 用字典统计数字出现的次数，字典的默认值为0
+# 当出现字典中的值大于1时，返回对应的键
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findRepeatNumber(self, nums: List[int]) -> int:
         res = {}
@@ -15,4 +15,4 @@ class Solution:
                 return i
         return nums[-1]
         
-```
+# ```

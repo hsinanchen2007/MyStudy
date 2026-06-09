@@ -1,9 +1,9 @@
-### 解题思路
-两个for循环，第一个找出绝对差，第二个添加list。
+// ### 解题思路
+// 两个for循环，第一个找出绝对差，第二个添加list。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> minimumAbsDifference(int[] arr) {
         List<List<Integer>> ans = new ArrayList<List<Integer>>();
@@ -23,4 +23,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-最基本的暴力和累加
+# 最基本的暴力和累加
 
-```python3
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         lst=[]
@@ -18,10 +18,10 @@ class Solution:
                     break
                 if sum<target:
                     now=now+1
-```
+# ```
 
-然后是升级版，暴力和数学解法，唯一的就是判断结果是不是整数
-```python3
+# 然后是升级版，暴力和数学解法，唯一的就是判断结果是不是整数
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         '''数学公式的方法，只是在暴力的基础上不采用暴力叠加，用数学公式的方法
@@ -34,11 +34,11 @@ class Solution:
 
 
         return lst
-```
-最后还有一个个滑窗的方法，这个方法的复杂度和前面的差不多，也很直观。
-创建一个滑窗，如果窗内sum小，滑窗右边界左移，如果窗内数多滑窗左边界右移，和双指针是一个意思
-直到床边到达边界
-```python3
+# ```
+# 最后还有一个个滑窗的方法，这个方法的复杂度和前面的差不多，也很直观。
+# 创建一个滑窗，如果窗内sum小，滑窗右边界左移，如果窗内数多滑窗左边界右移，和双指针是一个意思
+# 直到床边到达边界
+# ```python3
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         '''滑窗的方法，创建两个指针。然后不停的滑m
@@ -65,5 +65,5 @@ class Solution:
             if right>int(target/2+1):
                 break
         return lst
-```
+# ```
 

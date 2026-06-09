@@ -1,10 +1,10 @@
-### 解题思路
-每进行一次快排partition，可以确定pivot的最终位置，若是题中要求的位置，则终止；
-否则根据pivot与目标位置的大小关系来决定下一次是在哪一边（pivot的左/右）寻找。
+// ### 解题思路
+// 每进行一次快排partition，可以确定pivot的最终位置，若是题中要求的位置，则终止；
+// 否则根据pivot与目标位置的大小关系来决定下一次是在哪一边（pivot的左/右）寻找。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findKthLargest(int[] nums, int k) {
         int targetPos = nums.length - k;
@@ -40,4 +40,4 @@ class Solution {
         return i;
     }
 }
-```
+// ```

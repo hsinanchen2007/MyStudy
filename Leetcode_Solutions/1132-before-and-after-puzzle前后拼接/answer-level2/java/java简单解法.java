@@ -1,5 +1,5 @@
-代码如下:
-```
+// 代码如下:
+// ```
 public List<String> beforeAndAfterPuzzles(String[] phrases) {
         List<String> res = new ArrayList<>();
         if (phrases.length == 1) {
@@ -27,4 +27,4 @@ public List<String> beforeAndAfterPuzzles(String[] phrases) {
         Collections.sort(res);
         return res;
     }
-```
+// ```

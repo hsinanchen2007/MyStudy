@@ -1,12 +1,12 @@
-### 解题思路1：动态规划
-* dp[i]代表什么? i位置的最大子序和
-* 递归公式dp[i]=max(dp[i-1]+nums[i], nums[i])
-* 初始化dp[0]=nums[0]
-* 优化，只用到了dp中的一个，所以只是用一个o（1）的变量即可
+# ### 解题思路1：动态规划
+# * dp[i]代表什么? i位置的最大子序和
+# * 递归公式dp[i]=max(dp[i-1]+nums[i], nums[i])
+# * 初始化dp[0]=nums[0]
+# * 优化，只用到了dp中的一个，所以只是用一个o（1）的变量即可
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxSubArray(self, nums):
         """
@@ -21,13 +21,13 @@ class Solution(object):
                 max_ = dp
         
         return max_
-```
+# ```
 
-### 解题思路2：分治
-* 思考子数组的位置，分为左边，右边和中间
+# ### 解题思路2：分治
+# * 思考子数组的位置，分为左边，右边和中间
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution(object):
     def maxSubArray(self, nums):
         """
@@ -60,4 +60,4 @@ class Solution(object):
             max_middle_r = max(max_middle_r, sum_r)
             j+= 1
         return max(max_left, max_right, max_middle_l+max_middle_r)
-```
+# ```

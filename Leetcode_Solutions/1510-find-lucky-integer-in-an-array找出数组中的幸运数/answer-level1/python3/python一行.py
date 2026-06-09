@@ -1,9 +1,9 @@
-### 解题思路
-同样的思路，两种写法。
+# ### 解题思路
+# 同样的思路，两种写法。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findLucky(self, arr: List[int]) -> int:
         # dic = collections.Counter(arr)
@@ -18,4 +18,4 @@ class Solution:
         return max([k if k == v else -1 for k, v in collections.Counter(arr).items()])
 
 
-```
+# ```

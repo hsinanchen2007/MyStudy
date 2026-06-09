@@ -1,5 +1,5 @@
-String中**compareTo的源码**：
-```
+// String中**compareTo的源码**：
+// ```
      /* @param   anotherString   the <code>String</code> to be compared.
       * @return  the value <code>0</code> if the argument string is equal to
       *          this string; a value less than <code>0</code> if this string
@@ -25,10 +25,10 @@ String中**compareTo的源码**：
          }
          return len1 - len2;
      }
-```
+// ```
 
-此题本质上即为字符串比较大小的题，先转化为字符串数组，从大到小排序后连在一起即可
-```
+// 此题本质上即为字符串比较大小的题，先转化为字符串数组，从大到小排序后连在一起即可
+// ```
 str.sort((s1,s2)->(s1+s2).compareTo(s2+s1));
-```
+// ```
 

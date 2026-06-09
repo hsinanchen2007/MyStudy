@@ -1,14 +1,14 @@
-### 解题思路
-思路简单
-用数组表示一个链表
-start：第一个元素的索引
-end：最后一个元素的索引
-isEmpty：start=end时 是否为空
+// ### 解题思路
+// 思路简单
+// 用数组表示一个链表
+// start：第一个元素的索引
+// end：最后一个元素的索引
+// isEmpty：start=end时 是否为空
 
-合理利用对数组length取余 来判断数组是否满和空
-### 代码
+// 合理利用对数组length取余 来判断数组是否满和空
+// ### 代码
 
-```java
+// ```java
 class MyCircularQueue {
 
     int[] a;
@@ -96,4 +96,4 @@ class MyCircularQueue {
  * boolean param_5 = obj.isEmpty();
  * boolean param_6 = obj.isFull();
  */
-```
+// ```

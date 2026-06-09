@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -36,4 +36,4 @@ var removeNthFromEnd = function(head, n) {
     }
     return head
 };
-```
+// ```

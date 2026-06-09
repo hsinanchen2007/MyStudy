@@ -1,7 +1,7 @@
-两种思路，用unordered_map记录区域对应情况，有较优的时间和空间效率。
+// 两种思路，用unordered_map记录区域对应情况，有较优的时间和空间效率。
 
-思路一：
-```c++
+// 思路一：
+// ```c++
 class Solution {
 public:
     string findSmallestRegion(vector<vector<string>>& regions, string region1, string region2) {
@@ -24,10 +24,10 @@ public:
         return path1[n1 - pos];
     }
 };
-```
+// ```
 
-思路二：
-```c++
+// 思路二：
+// ```c++
 class Solution {
 public:
     void make_depth(unordered_map<string, string>& index, unordered_map<string, int>& depth, string aim)
@@ -74,5 +74,5 @@ public:
         return region1;
     }
 };
-```
+// ```
 

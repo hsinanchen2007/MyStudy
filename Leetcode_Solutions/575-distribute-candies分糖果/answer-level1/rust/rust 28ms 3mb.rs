@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/a8730ca35e4207d86a646a3f8796c329a0efe933187ef03074b9fc1ecd3a0774-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a8730ca35e4207d86a646a3f8796c329a0efe933187ef03074b9fc1ecd3a0774-image.png)
 
-```rust
+// ```rust
 impl Solution {
     pub fn distribute_candies(candies: Vec<i32>) -> i32 {
         let mut backet = vec![0;200001];
@@ -19,4 +19,4 @@ impl Solution {
         std::cmp::min(diff_len, len / 2)
     }
 }
-```
+// ```

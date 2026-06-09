@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def isStraight(self, nums: List[int]) -> bool:
         countW = 0
@@ -11,4 +11,4 @@ class Solution:
                 countS +=nums[i+1] - nums[i] -1
         if countW < countS: return False 
         return True
-```
+# ```

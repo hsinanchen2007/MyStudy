@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/8/29
- *
- * 解题思路: 快慢指针找到中点 慢指针反转前一半节点 然后背向移动进行值比较 （注意: 加一个奇偶数判定）
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/8/29
+//  *
+//  * 解题思路: 快慢指针找到中点 慢指针反转前一半节点 然后背向移动进行值比较 （注意: 加一个奇偶数判定）
+//  *
+//  */
+// ```
 //示例 链表反转
     public void reverse(ListNode head){
         ListNode pre = null;
@@ -67,4 +67,4 @@
         return true;
 
     }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-出自某位大佬的题解
-https://leetcode-cn.com/problems/edit-distance/solution/dong-tai-gui-hua-java-by-liweiwei1419/
+// ### 解题思路
+// 出自某位大佬的题解
+// https://leetcode-cn.com/problems/edit-distance/solution/dong-tai-gui-hua-java-by-liweiwei1419/
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minDistance(String word1, String word2) {
        char [] wordA =word1.toCharArray();
@@ -33,4 +33,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-## 本题的关键在于：
-1.注意不要忘记最后一次相加完还可能存在进位.   
-2.两个链表的长度可能不一样.   
-3.避免冗长繁琐的代码表达.   
-```golang
+// ## 本题的关键在于：
+// 1.注意不要忘记最后一次相加完还可能存在进位.   
+// 2.两个链表的长度可能不一样.   
+// 3.避免冗长繁琐的代码表达.   
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -35,6 +35,6 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
     }
     return l3.Next
 }
-```
+// ```
 
   

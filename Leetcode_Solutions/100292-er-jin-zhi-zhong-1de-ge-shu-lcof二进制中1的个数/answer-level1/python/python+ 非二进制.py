@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def hammingWeight(self, n):
         """
@@ -23,6 +23,6 @@ class Solution(object):
 
     
          
-```
-代码块
+# ```
+# 代码块
 

@@ -1,4 +1,4 @@
-```
+// ```
 
 //对树进行先序遍历
 //遇到与根节点值不相等的节点返回false
@@ -16,4 +16,4 @@ bool isUnivalTree(struct TreeNode* root){
 	
 	return help(root,root->val) ;
 }
-```
+// ```

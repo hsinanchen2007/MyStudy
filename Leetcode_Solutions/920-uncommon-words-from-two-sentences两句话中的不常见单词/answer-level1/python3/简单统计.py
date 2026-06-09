@@ -1,7 +1,7 @@
 
-切割单词，直接存字典统计
+# 切割单词，直接存字典统计
 
-```python
+# ```python
 class Solution:
     def uncommonFromSentences(self, A: str, B: str) -> List[str]:
         aa, bb = collections.Counter(A.split(" ")), collections.Counter(B.split(" "))
@@ -15,4 +15,4 @@ class Solution:
                 res.append(word)    
         #print(res)        
         return res
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-参考了其他大佬的快慢双指针：https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/solution/ti-jie-shou-wei-shuang-zhi-zhen-kuai-man-shuang-zh/
+// ### 解题思路
+// 参考了其他大佬的快慢双指针：https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/solution/ti-jie-shou-wei-shuang-zhi-zhen-kuai-man-shuang-zh/
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> exchange(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return nums;
     }
 };
-```
+// ```

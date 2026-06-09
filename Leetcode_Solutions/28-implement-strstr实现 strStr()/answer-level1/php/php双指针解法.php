@@ -1,5 +1,5 @@
 
-```
+// ```
 function strStr($haystack, $needle) {
     $i=0;
     $j=0;
@@ -17,4 +17,4 @@ function strStr($haystack, $needle) {
     }
     return -1;
 }
-```
+// ```

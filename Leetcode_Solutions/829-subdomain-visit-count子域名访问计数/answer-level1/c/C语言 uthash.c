@@ -1,10 +1,10 @@
-### 解题思路
-就是个str hash
-![image.png](https://pic.leetcode-cn.com/d70b626e4b58c648707b0d8a1db5ba3c4945bb7429042c222c435bc64f01a7c7-image.png)
+// ### 解题思路
+// 就是个str hash
+// ![image.png](https://pic.leetcode-cn.com/d70b626e4b58c648707b0d8a1db5ba3c4945bb7429042c222c435bc64f01a7c7-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -134,4 +134,4 @@ char ** subdomainVisits(char ** cpdomains, int cpdomainsSize, int* returnSize){
     sFree(&s);
     return rlt;
 }
-```
+// ```

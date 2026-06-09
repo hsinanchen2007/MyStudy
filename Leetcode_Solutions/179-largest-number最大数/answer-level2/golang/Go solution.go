@@ -1,4 +1,4 @@
-```go
+// ```go
 //faster
 func largestNumber(nums []int) string {
 	strNums := make([]string, len(nums))
@@ -27,4 +27,4 @@ func largestNumber(nums []int) string {
 	}
 	return strings.Replace(strings.Trim(fmt.Sprint(nums), "[]"), " ", "", -1)
 }
-```
+// ```

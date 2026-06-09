@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minimumSwap(self, s1: str, s2: str) -> int:
         if len(s1) != len(s2):
@@ -25,4 +25,4 @@ class Solution:
             return -1
 
 
-```
+# ```

@@ -1,5 +1,5 @@
 
-```
+// ```
 /**
  * @param {number[][]} envelopes
  * @return {number}
@@ -43,4 +43,4 @@ function lengthOfLIS(nums) {
     // 牌堆数就是 LIS 长度
     return piles;
 }
-```
+// ```

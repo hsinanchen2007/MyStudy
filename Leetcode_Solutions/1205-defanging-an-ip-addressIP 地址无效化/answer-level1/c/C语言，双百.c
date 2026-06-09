@@ -1,9 +1,9 @@
-### 解题思路
-双指针
+// ### 解题思路
+// 双指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * defangIPaddr(char * address){
     char *ret = malloc(sizeof(char) * (strlen(address) + 7));
     memset(ret, 0, sizeof(char) * (strlen(address) + 7));
@@ -20,4 +20,4 @@ char * defangIPaddr(char * address){
     ret[j] = '\0';
     return ret;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 题解
-维护queue队列，queue[0]始终记录着当前范围内的最大元素。
+# ### 题解
+# 维护queue队列，queue[0]始终记录着当前范围内的最大元素。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
         
@@ -36,4 +36,4 @@ class Solution:
             ans.append(queue[0])
         
         return ans
-```
+# ```

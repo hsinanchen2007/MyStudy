@@ -1,18 +1,18 @@
 
-执行结果：
-通过
-显示详情
-执行用时 :
-2 ms
-, 在所有 Java 提交中击败了
-99.15%
-的用户
-内存消耗 :
-39.5 MB
-, 在所有 Java 提交中击败了
-24.53%
-的用户
-```
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 2 ms
+// , 在所有 Java 提交中击败了
+// 99.15%
+// 的用户
+// 内存消耗 :
+// 39.5 MB
+// , 在所有 Java 提交中击败了
+// 24.53%
+// 的用户
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -47,4 +47,4 @@ class Solution {
         return Math.max(geth(tn.left),geth(tn.right))+1;
     }
 }
-```
+// ```

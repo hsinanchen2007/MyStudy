@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def sampleStats(self, count):
         """
@@ -44,9 +44,9 @@ class Solution(object):
         return [float(mi), float(mx), float(sm)/ct, float(zws), zs]
 
         
-```
-优化代码
-```
+# ```
+# 优化代码
+# ```
 class Solution(object):
     def sampleStats(self, count):
         """
@@ -81,4 +81,4 @@ class Solution(object):
             zws = float(l2)
         return [float(mi), float(mx), float(sm)/ct, float(zws), zs]
 
-```
+# ```

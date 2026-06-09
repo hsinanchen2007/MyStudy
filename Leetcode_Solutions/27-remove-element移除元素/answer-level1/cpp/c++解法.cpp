@@ -1,9 +1,9 @@
-### 解题思路
-遍历一遍，如果nums[i]==val，则删除，否则留下。
+// ### 解题思路
+// 遍历一遍，如果nums[i]==val，则删除，否则留下。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeElement(vector<int>& nums, int val) {
@@ -11,4 +11,4 @@ public:
         return nums.size();
     }
 };
-```
+// ```

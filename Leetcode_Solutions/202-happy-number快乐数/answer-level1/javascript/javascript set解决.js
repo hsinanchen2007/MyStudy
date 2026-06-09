@@ -1,10 +1,10 @@
-### 解题思路
-使用一个set存储已经出现过的和
-![leetcode202.png](https://pic.leetcode-cn.com/5b5d28a741772f68cd9ceda3f6151f00db7cb792e4188874b1466cdc38206926-leetcode202.png)
+// ### 解题思路
+// 使用一个set存储已经出现过的和
+// ![leetcode202.png](https://pic.leetcode-cn.com/5b5d28a741772f68cd9ceda3f6151f00db7cb792e4188874b1466cdc38206926-leetcode202.png)
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {boolean}
@@ -36,4 +36,4 @@ function getSum (n) {
     })
     return sum
 }
-```
+// ```

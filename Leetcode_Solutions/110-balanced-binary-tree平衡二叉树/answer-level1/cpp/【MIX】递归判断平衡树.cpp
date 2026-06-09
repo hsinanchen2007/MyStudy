@@ -1,9 +1,9 @@
-### 解题思路
-自顶向下方法, 当前节点&左子树&右子树均为平衡树时, 返回true, 但是存在冗余判定
+// ### 解题思路
+// 自顶向下方法, 当前节点&左子树&右子树均为平衡树时, 返回true, 但是存在冗余判定
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public boolean isBalanced(TreeNode root) {
         // 子树是否为不平衡树即可
@@ -28,8 +28,8 @@ class Solution {
     // 定义不平衡标识
     private int NOT_BAL = -1;
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def __init__(self):
         self.NOT_BAL = -1
@@ -48,8 +48,8 @@ class Solution:
             return self.NOT_BAL
 
         return max(depL, depR)+1
-```
-```c++ []
+// ```
+// ```c++ []
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -75,4 +75,4 @@ public:
         return 1+max(getHeight(node->left), getHeight(node->right));
     }
 };
-```
+// ```

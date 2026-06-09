@@ -1,9 +1,9 @@
-/**
-    思路:
-    给定一个存取最小值的变量 min,每次在入栈时进行判断,当 min 大于存入栈中 x 时 将存取的角标赋值给min
-    在pop时进行判断 当 min 被取出时再次获取最小值
-*/
-```java
+// /**
+//     思路:
+//     给定一个存取最小值的变量 min,每次在入栈时进行判断,当 min 大于存入栈中 x 时 将存取的角标赋值给min
+//     在pop时进行判断 当 min 被取出时再次获取最小值
+// */
+// ```java
 class MinStack {
     private int[] stack;
     private int size;

@@ -1,10 +1,10 @@
-### 解题思路
-live -> dead : 1 -> -1
-dead -> live : 0 -> 2 
+// ### 解题思路
+// live -> dead : 1 -> -1
+// dead -> live : 0 -> 2 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> dx = {-1, 0 ,1};
@@ -52,4 +52,4 @@ public:
     }
 };
 
-```
+// ```

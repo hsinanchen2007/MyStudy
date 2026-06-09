@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int backtrack(int[] rating, int i, List<Integer>curr){
         if(curr.size() == 3){
@@ -34,4 +34,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

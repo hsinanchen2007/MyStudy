@@ -1,18 +1,18 @@
-### 解题思路
-数学公式我是真的不会推，看了下别人得代码：由n=x*(x+1)/2得x=(-1+sqrt(8*n+1))/2;
+// ### 解题思路
+// 数学公式我是真的不会推，看了下别人得代码：由n=x*(x+1)/2得x=(-1+sqrt(8*n+1))/2;
 
-### 代码
-数学公式
-```cpp
+// ### 代码
+// 数学公式
+// ```cpp
 class Solution {
 public:
     int arrangeCoins(int n) {
         return (-1+sqrt((long)n*8+1))/2;
     }
 };
-```
-二分
-```
+// ```
+// 二分
+// ```
 class Solution {
 public:
     int arrangeCoins(int n) {
@@ -28,9 +28,9 @@ public:
         return (long)n*(n+1)/2;
     }
 };
-```
-迭代
-```
+// ```
+// 迭代
+// ```
 class Solution {
 public:
     int arrangeCoins(int n) {
@@ -43,5 +43,5 @@ public:
         return sum==n?(int)res:(int)res-1;
     }
 };
-```
+// ```
 

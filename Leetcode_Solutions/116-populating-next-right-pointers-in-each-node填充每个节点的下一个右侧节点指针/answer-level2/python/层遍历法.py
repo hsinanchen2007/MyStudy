@@ -1,9 +1,9 @@
-### 解题思路
-虽然没有遵守常数空间的要求，但是代码还是比较简洁
+# ### 解题思路
+# 虽然没有遵守常数空间的要求，但是代码还是比较简洁
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 """
 # Definition for a Node.
 class Node(object):
@@ -31,4 +31,4 @@ class Solution(object):
                     node.next = q[0][1]
         return root
 
-```
+# ```

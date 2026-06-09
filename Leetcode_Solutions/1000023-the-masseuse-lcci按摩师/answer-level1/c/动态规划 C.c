@@ -1,9 +1,9 @@
-### 解题思路
-动态规划， 速度O(N), 内存O(1)
+// ### 解题思路
+// 动态规划， 速度O(N), 内存O(1)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int max(int a, int b){
     if(a>=b) return a;
     else return b;
@@ -22,4 +22,4 @@ int massage(int* nums, int numsSize){
     result = max(book, non_book);
     return result;
 }
-```
+// ```

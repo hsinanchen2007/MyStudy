@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int distanceBetweenBusStops(vector<int>& distance, int start, int destination) {
@@ -19,4 +19,4 @@ public:
         return min(n1, n2);
     }
 };
-```
+// ```

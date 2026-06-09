@@ -1,8 +1,8 @@
-### 解题思路
-难点就在于both类
-### 代码
+-- ### 解题思路
+-- 难点就在于both类
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select t.spend_date,t.platform,ifnull(t3.total_amount,0) as total_amount ,ifnull(t3.total_users,0) as total_users from
@@ -19,4 +19,4 @@ else platform end as platform
 from Spending group by spend_date,user_id
 ) t2 group by spend_date,platform
 ) t3 on t.spend_date = t3.spend_date and t.platform = t3.platform
-```
+-- ```

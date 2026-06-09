@@ -1,9 +1,9 @@
-### 解题思路
-因为要求最短，在遍历单词的过程中，只需要与最近一次匹配到的值的索引进行计算即可
+// ### 解题思路
+// 因为要求最短，在遍历单词的过程中，只需要与最近一次匹配到的值的索引进行计算即可
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @param {string} word1
@@ -41,4 +41,4 @@ var findClosest = function(words, word1, word2) {
     }
     return distance
 };
-```
+// ```

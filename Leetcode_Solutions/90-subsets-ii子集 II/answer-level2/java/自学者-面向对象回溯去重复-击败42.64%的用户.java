@@ -1,10 +1,10 @@
-### 解题思路
-* 采用和#78题一样的解题思路
-* 重点在于从第二个元素开始进行和前一个元素的重复比较
+// ### 解题思路
+// * 采用和#78题一样的解题思路
+// * 重点在于从第二个元素开始进行和前一个元素的重复比较
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         Arrays.sort(nums);
@@ -45,4 +45,4 @@ class Solution {
             out.selected.removeLast();
     }
 }
-```
+// ```

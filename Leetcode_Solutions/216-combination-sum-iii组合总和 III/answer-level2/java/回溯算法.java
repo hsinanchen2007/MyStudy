@@ -1,15 +1,15 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n*k)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 这个解法基于回溯算法
-    2.2 递归中将当前循环的num加入缓存list以及更新当前n，如果n<=0,终止循环，如果n=0而且缓存list的大小等于k，加入当前list到目标list中
-3. 提交记录
-    3.1 力扣中耗时1ms,消耗33.7MB内存
-    3.2 leetcode中耗时1ms,消耗33.7MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n*k)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 这个解法基于回溯算法
+//     2.2 递归中将当前循环的num加入缓存list以及更新当前n，如果n<=0,终止循环，如果n=0而且缓存list的大小等于k，加入当前list到目标list中
+// 3. 提交记录
+//     3.1 力扣中耗时1ms,消耗33.7MB内存
+//     3.2 leetcode中耗时1ms,消耗33.7MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *     216.Combination Sum III
@@ -69,6 +69,6 @@ public class Solution216 {
         }
     }
 }
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

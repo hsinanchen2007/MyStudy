@@ -1,4 +1,4 @@
-```python [3]
+# ```python [3]
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
         if root is None:
@@ -9,4 +9,4 @@ class Solution:
             return nLeft+1
         else:
             return nRight+1
-```
+# ```

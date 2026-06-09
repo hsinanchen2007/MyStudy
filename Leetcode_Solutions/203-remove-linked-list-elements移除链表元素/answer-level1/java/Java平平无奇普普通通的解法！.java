@@ -1,8 +1,8 @@
-### 解题思路
-**添加头节点p！！！更方便处理原来第1个节点**
-### 代码
+// ### 解题思路
+// **添加头节点p！！！更方便处理原来第1个节点**
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -30,4 +30,4 @@ class Solution {
         return head;
     }
 }
-```
+// ```

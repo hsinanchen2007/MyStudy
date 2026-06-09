@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
         seen = set()
@@ -27,4 +27,4 @@ class Solution:
                     dfs(row + deltaX, col + deltaY)
         dfs(0, 0)
         return count
-```
+# ```

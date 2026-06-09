@@ -1,9 +1,9 @@
-### 解题思路
-很朴素的思路
+// ### 解题思路
+// 很朴素的思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int myAtoi(string str) {
@@ -49,4 +49,4 @@ public:
         return res;
     }
 };
-```
+// ```

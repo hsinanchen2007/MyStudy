@@ -1,6 +1,6 @@
-双层循环i, j 计算i与j之间的距离dis，使用map维护dis对应的数量cnt， 总数量ret += cnt * (cnt - 1)即可。
-注：这种方式比较耗时，而且会出现超时的情况。
-```c++ []
+// 双层循环i, j 计算i与j之间的距离dis，使用map维护dis对应的数量cnt， 总数量ret += cnt * (cnt - 1)即可。
+// 注：这种方式比较耗时，而且会出现超时的情况。
+// ```c++ []
 class Solution {
 public:
     int distance(vector<int> p1, vector<int> p2) { // 计算距离
@@ -26,4 +26,4 @@ public:
         return ret;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         # 对列表排序，代价是一倍原列表的存储空间
@@ -28,4 +28,4 @@ class Solution:
             nums.reverse()
             pos2 = len(nums) - 1 - nums.index(asc_nums[pos2])
             return [pos1, pos2]
-```
+# ```

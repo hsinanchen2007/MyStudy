@@ -1,9 +1,9 @@
-### 解题思路
-联系到括号其实就是进栈出栈, 问题就迎刃而解了
+// ### 解题思路
+// 联系到括号其实就是进栈出栈, 问题就迎刃而解了
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isValid(s string) bool {
 	var stack = make([]rune, 0, 20)
 	var ss = []rune(s)
@@ -52,4 +52,4 @@ func isValid(s string) bool {
 		return false
 	}
 }
-```
+// ```

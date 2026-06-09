@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def surfaceArea(self, grid: List[List[int]]) -> int:
         """
@@ -24,4 +24,4 @@ class Solution:
                     res -= min(grid[i][j-1], grid[i][j]) * 2  # 减去后方贴合面积
         
         return res
-```
+# ```

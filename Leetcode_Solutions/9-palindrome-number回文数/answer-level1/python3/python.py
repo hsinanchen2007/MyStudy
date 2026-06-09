@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x<0:
@@ -14,4 +14,4 @@ class Solution:
             res=res*10+x%10
             x//=10
         return res==tmp
-```
+# ```

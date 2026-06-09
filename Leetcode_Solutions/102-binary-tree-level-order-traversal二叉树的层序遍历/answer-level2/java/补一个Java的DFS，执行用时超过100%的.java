@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/ebbcbc91442740440c6c0d7250dc1e873dafd770751543b07caa1846809a1364-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ebbcbc91442740440c6c0d7250dc1e873dafd770751543b07caa1846809a1364-image.png)
 
-```
+// ```
 class Solution {
     List<List<Integer>> list = new ArrayList<>();
     public List<List<Integer>> levelOrder(TreeNode root) {
@@ -18,4 +18,4 @@ class Solution {
         pre(root.right, depth + 1);
     }
 }
-```
+// ```

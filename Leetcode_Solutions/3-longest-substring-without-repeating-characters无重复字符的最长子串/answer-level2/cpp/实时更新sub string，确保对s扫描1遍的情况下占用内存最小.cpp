@@ -1,11 +1,11 @@
-### 解题思路
-1. 用sub string实时更新不含重复元素的集合
-2. 每次检索到重复元素后，删除sub string中<=ind的元素，并且更新max_len
-3. 当“哨兵”index达到原始s的上界，返回max_len
+// ### 解题思路
+// 1. 用sub string实时更新不含重复元素的集合
+// 2. 每次检索到重复元素后，删除sub string中<=ind的元素，并且更新max_len
+// 3. 当“哨兵”index达到原始s的上界，返回max_len
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int lengthOfLongestSubstring(string s){
@@ -34,4 +34,4 @@ public:
 		return max_len;
 	}
 };
-```
+// ```

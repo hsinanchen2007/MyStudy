@@ -1,4 +1,4 @@
-```
+// ```
 bool validateStackSequences(int* pushed, int pushedSize, int* popped, int poppedSize){
     int pushI = 0;
     int popI = 0;
@@ -23,4 +23,4 @@ bool validateStackSequences(int* pushed, int pushedSize, int* popped, int popped
         return false;
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/c80f85b0f648c16c14ffb8a5075f1ba921ec3e243bb0a21c00e49d92df9b2bec-image.png)
-思路：
-选择用switch映射对应值，处理六种特殊情况
-代码：
-```
+// ![image.png](https://pic.leetcode-cn.com/c80f85b0f648c16c14ffb8a5075f1ba921ec3e243bb0a21c00e49d92df9b2bec-image.png)
+// 思路：
+// 选择用switch映射对应值，处理六种特殊情况
+// 代码：
+// ```
 class Solution {
     public int romanToInt(String s) {
        char[] targetCharacters = s.toCharArray();
@@ -71,4 +71,4 @@ class Solution {
     }
 }
 
-```
+// ```

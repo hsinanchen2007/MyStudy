@@ -1,7 +1,7 @@
 
-clice here to review
+// clice here to review
 
-```
+// ```
 
 static const int directions[4][2] = {
   {0, 1},
@@ -48,4 +48,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
   return ret;
 }
 
-```
+// ```

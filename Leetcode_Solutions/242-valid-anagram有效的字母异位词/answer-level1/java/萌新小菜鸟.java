@@ -1,11 +1,11 @@
-### 解题思路
-首先，两个字符串若为字母异位词，则它们长度必相等，否则返回false
-其次，将两个字符串转化为字符数组
-然后，将字符数组排序后进行比较
+// ### 解题思路
+// 首先，两个字符串若为字母异位词，则它们长度必相等，否则返回false
+// 其次，将两个字符串转化为字符数组
+// 然后，将字符数组排序后进行比较
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isAnagram(String s, String t) {
     if(s.length()!=t.length()) { 
@@ -18,4 +18,4 @@ class Solution {
     return Arrays.equals(str1,str2);
     }
 }
-```
+// ```

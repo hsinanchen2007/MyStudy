@@ -1,8 +1,8 @@
-题目不难，理解题目比较难。
+// 题目不难，理解题目比较难。
 
-题意是：找到所有叶子节点深度相等的最深根节点
-具体见注释
-```
+// 题意是：找到所有叶子节点深度相等的最深根节点
+// 具体见注释
+// ```
 func subtreeWithAllDeepest(root *TreeNode) *TreeNode {
     _, ret := subtree(root)
     return ret
@@ -23,4 +23,4 @@ func subtree(root *TreeNode) (int, *TreeNode) {
     }
     return rightDepth + 1, right
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var mergeTwoLists = function(l1, l2) {
     if(!l1) {
         return l2
@@ -11,4 +11,4 @@ var mergeTwoLists = function(l1, l2) {
     headNode.next = mergeTwoLists(afterNode, beforeNode.next)
     return headNode;
 };
-```
+// ```

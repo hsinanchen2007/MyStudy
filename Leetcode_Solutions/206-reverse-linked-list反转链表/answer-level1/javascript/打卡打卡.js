@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-模拟一个栈，将结点依次放入栈中，出栈顺序即为反转后的链表。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 模拟一个栈，将结点依次放入栈中，出栈顺序即为反转后的链表。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {ListNode} head
  * @return {ListNode}
@@ -25,4 +25,4 @@ var reverseList = function(head) {
     }
     return L.next;
 };
-```
+// ```

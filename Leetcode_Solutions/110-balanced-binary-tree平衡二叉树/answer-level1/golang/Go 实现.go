@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -37,4 +37,4 @@ func isBalance(head *TreeNode)Data{
     }
     return Data{true,math.Max(float64(left.h),float64(right.h))+1}
 }
-```
+// ```

@@ -1,5 +1,5 @@
-实际就是求数组A中的最大值的坐标
-```
+// 实际就是求数组A中的最大值的坐标
+// ```
 class Solution {
 public:
     int peakIndexInMountainArray(vector<int>& A) {
@@ -14,4 +14,4 @@ public:
         return j;
     }
 };
-```
+// ```

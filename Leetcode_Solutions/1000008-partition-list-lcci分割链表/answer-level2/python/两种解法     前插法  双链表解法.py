@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def partition(self, head: ListNode, x: int) -> ListNode:
         # 解题思路：小于x的移到最前面, 前插法实现
@@ -15,8 +15,8 @@ class Solution:
             else:
                 cur = cur.next
         return head
-```
-```
+# ```
+# ```
 class Solution:
     def partition(self, head: ListNode, x: int) -> ListNode:
         # 双链表实现，小于x的组成一链表，大于x的组成另一链表，然后两链表拼接
@@ -39,4 +39,4 @@ class Solution:
         second.next = None
 
         return fnode.next
-```
+# ```

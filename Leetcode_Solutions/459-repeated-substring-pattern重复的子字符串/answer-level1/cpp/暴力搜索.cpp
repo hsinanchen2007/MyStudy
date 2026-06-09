@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/6625e5e9814c60f390af506849f3ab04f7fd6e45abfdbe1b7bfcc75f1efcbb5c-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6625e5e9814c60f390af506849f3ab04f7fd6e45abfdbe1b7bfcc75f1efcbb5c-image.png)
 
 
-```c++
+// ```c++
 class Solution {
 public:
     string::size_type findFirst(const string& s, char c, string::size_type start) {
@@ -31,4 +31,4 @@ public:
         return false;
     }
 };
-```
+// ```

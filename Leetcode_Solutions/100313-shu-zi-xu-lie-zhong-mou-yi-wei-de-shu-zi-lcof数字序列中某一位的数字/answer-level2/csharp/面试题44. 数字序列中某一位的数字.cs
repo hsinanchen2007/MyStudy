@@ -1,15 +1,15 @@
-### 解题思路
-数学分析法
-1位数字总字符长度：10x1
-2位数字总字符长度：90x2
-3位数字总字符长度：900x3
-4位数字总字符长度：9000x4
-...
+// ### 解题思路
+// 数学分析法
+// 1位数字总字符长度：10x1
+// 2位数字总字符长度：90x2
+// 3位数字总字符长度：900x3
+// 4位数字总字符长度：9000x4
+// ...
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int FindNthDigit(int n) {
         long length = 1;
@@ -39,4 +39,4 @@ public class Solution {
         return value.ToString()[(int)remainder] - '0';
     }
 }
-```
+// ```

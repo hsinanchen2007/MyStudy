@@ -1,9 +1,9 @@
-### 解题思路
-dp做法
+// ### 解题思路
+// dp做法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} envelopes
  * @return {number}
@@ -30,4 +30,4 @@ var maxEnvelopes = function(envelopes) {
     }
     return Math.max(...dp)
 };
-```
+// ```

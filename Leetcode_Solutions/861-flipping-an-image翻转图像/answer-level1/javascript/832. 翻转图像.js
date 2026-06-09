@@ -1,9 +1,9 @@
-### 解题思路
-翻转之后直接取反
+// ### 解题思路
+// 翻转之后直接取反
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} A
  * @return {number[][]}
@@ -32,4 +32,4 @@ var flipAndInvertImage = function(A) {
     }
     return A
 };
-```
+// ```

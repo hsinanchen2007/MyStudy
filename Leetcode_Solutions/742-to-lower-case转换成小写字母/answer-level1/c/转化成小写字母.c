@@ -1,10 +1,10 @@
-### 解题思路
-1.常规做法:判断后+32
-2.位操作：和' '(空格)进行|(或操作)
+// ### 解题思路
+// 1.常规做法:判断后+32
+// 2.位操作：和' '(空格)进行|(或操作)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * toLowerCase(char * str){
     int i=strlen(str);
     char *res=(char*)malloc(sizeof(char)*(i+1));
@@ -15,4 +15,4 @@ char * toLowerCase(char * str){
     }
     return res;
 }
-```
+// ```

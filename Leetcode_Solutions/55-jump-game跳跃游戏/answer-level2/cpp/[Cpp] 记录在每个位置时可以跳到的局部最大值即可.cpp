@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -15,4 +15,4 @@ public:
         return false;
     }
 };
-```
+// ```

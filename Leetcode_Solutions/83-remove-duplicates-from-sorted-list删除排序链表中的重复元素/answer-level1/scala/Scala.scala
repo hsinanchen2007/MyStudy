@@ -1,4 +1,4 @@
-Scala的链表好难理解
+// Scala的链表好难理解
 
 /**
  * Definition for singly-linked list.

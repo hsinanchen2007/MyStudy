@@ -1,9 +1,9 @@
-### 解题思路
-使用list紀錄 當有時間跟已經紀錄的時間重疊 就不加入
+# ### 解题思路
+# 使用list紀錄 當有時間跟已經紀錄的時間重疊 就不加入
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyCalendar:
 
     def __init__(self):
@@ -24,4 +24,4 @@ class MyCalendar:
 # Your MyCalendar object will be instantiated and called as such:
 # obj = MyCalendar()
 # param_1 = obj.book(start,end)
-```
+# ```

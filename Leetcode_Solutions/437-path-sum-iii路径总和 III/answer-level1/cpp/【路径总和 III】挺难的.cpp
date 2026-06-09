@@ -1,10 +1,10 @@
-### 思路
-1. 对树使用前缀和
-2. 使用 `unordered_map` 对树进行 [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
-3. 对 `unordered_map` 回溯
+// ### 思路
+// 1. 对树使用前缀和
+// 2. 使用 `unordered_map` 对树进行 [1. 两数之和](https://leetcode-cn.com/problems/two-sum/)
+// 3. 对 `unordered_map` 回溯
 
-### 答题
-```C++ []
+// ### 答题
+// ```C++ []
 class Solution {
 public:
     void dfs(TreeNode* root, int ps, int sum, unordered_map<int, int>& vi, int& ans)
@@ -27,13 +27,13 @@ public:
         return ans;
     }
 };
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

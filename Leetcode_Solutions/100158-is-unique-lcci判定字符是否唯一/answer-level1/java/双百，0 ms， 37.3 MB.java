@@ -1,11 +1,11 @@
-### 解题思路
-创建一个新串，查询新串中是否包含原串中的字符，如果包含则返回false。
-满足限制加分项，不使用其他数据结构。
-利用StringBuilder可以节约内存。
+// ### 解题思路
+// 创建一个新串，查询新串中是否包含原串中的字符，如果包含则返回false。
+// 满足限制加分项，不使用其他数据结构。
+// 利用StringBuilder可以节约内存。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isUnique(String astr) {
         if(astr == null)
@@ -20,4 +20,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

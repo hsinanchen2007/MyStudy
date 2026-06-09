@@ -1,6 +1,6 @@
-1. 暴力循环固定了j的位置,左边i遍历,右边k遍历, 在case115会超时
-2. 因为i,j确定之后, 那么我们就知道了等分后数组的和是多少,这样就可以算出所需要的ak的值,所以我们提前扫一遍数组,记录没个数值的index.就可以了.
-```python
+// 1. 暴力循环固定了j的位置,左边i遍历,右边k遍历, 在case115会超时
+// 2. 因为i,j确定之后, 那么我们就知道了等分后数组的和是多少,这样就可以算出所需要的ak的值,所以我们提前扫一遍数组,记录没个数值的index.就可以了.
+// ```python
 object Solution {
     def splitArray(nums: Array[Int]): Boolean = {
         if(nums.length < 7) false else f(nums)
@@ -37,4 +37,4 @@ object Solution {
     }
 
 }
-```
+// ```

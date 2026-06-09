@@ -1,9 +1,9 @@
-### 解题思路
-![QQ截图20200326115404.png](https://pic.leetcode-cn.com/61c29b60068749c1a1e875208842448dfe2c6780a87db4d83694823a7bdbcd97-QQ%E6%88%AA%E5%9B%BE20200326115404.png)
-详见注释
-### 代码
+// ### 解题思路
+// ![QQ截图20200326115404.png](https://pic.leetcode-cn.com/61c29b60068749c1a1e875208842448dfe2c6780a87db4d83694823a7bdbcd97-QQ%E6%88%AA%E5%9B%BE20200326115404.png)
+// 详见注释
+// ### 代码
 
-```java
+// ```java
 class Solution {
   public int numRookCaptures(char[][] board) {
        /*1.第一步，扫描所有棋子的坐标，放到一个数组里面，并记录车的坐标*/
@@ -60,4 +60,4 @@ class Solution {
         return  count ;
     }
 }
-```
+// ```

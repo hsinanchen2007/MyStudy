@@ -1,5 +1,5 @@
-**思路简单，暴力求解一**
-```
+// **思路简单，暴力求解一**
+// ```
 public static boolean isOneEditDistance(String s, String t) {
         int larger, litter; //定义变量
         char[] arr1, arr2; //定义字符数组
@@ -67,10 +67,10 @@ public static boolean isOneEditDistance(String s, String t) {
         }
         return false;
     }
-```
-**思路简单，暴力求解二**
+// ```
+// **思路简单，暴力求解二**
 
-```
+// ```
 public static boolean isOneEditDistance(String s, String t) {
         int larger, litter; //定义变量
         char[] arr1, arr2; //定义字符数组
@@ -116,4 +116,4 @@ public static boolean isOneEditDistance(String s, String t) {
         }
         return false;
     }
-```
+// ```

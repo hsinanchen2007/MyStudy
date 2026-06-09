@@ -1,9 +1,9 @@
-### 解题思路
-BFS以及DFS
+// ### 解题思路
+// BFS以及DFS
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -57,4 +57,4 @@ var sumOfLeftLeaves = function(root) {
 		let res =bfs(root);
 		return res;
 };
-```
+// ```

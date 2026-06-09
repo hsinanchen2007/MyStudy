@@ -1,11 +1,11 @@
-### 解题思路
-1、判断end是否在worklist中，不在直接返回0
-2、BFS获取最短路径
-![image.png](https://pic.leetcode-cn.com/0b5a713e975634cce949984ca71fa85a9d6101aa2dee72d4d785270352300c55-image.png)
+// ### 解题思路
+// 1、判断end是否在worklist中，不在直接返回0
+// 2、BFS获取最短路径
+// ![image.png](https://pic.leetcode-cn.com/0b5a713e975634cce949984ca71fa85a9d6101aa2dee72d4d785270352300c55-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_NUMS 10000
 typedef struct Queue_ {
     int arr[MAX_NUMS];
@@ -123,4 +123,4 @@ int ladderLength(char *beginWord, char *endWord, char **wordList, int wordListSi
     }
     return 0;
 }
-```
+// ```

@@ -1,5 +1,5 @@
-ruby solution
-```ruby
+# ruby solution
+# ```ruby
 def delete_node(head, val)
     if head.val == val
         return head.next
@@ -16,4 +16,4 @@ def delete_node(head, val)
         return head
     end
 end
-```
+# ```

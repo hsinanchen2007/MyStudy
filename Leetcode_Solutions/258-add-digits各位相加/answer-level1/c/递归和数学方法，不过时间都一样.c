@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int addDigits(int num){
     /*数学解法
     if(num%9 == 0 && num != 0)
@@ -23,4 +23,4 @@ int addDigits(int num){
     }
         return num;
 }
-```
+// ```

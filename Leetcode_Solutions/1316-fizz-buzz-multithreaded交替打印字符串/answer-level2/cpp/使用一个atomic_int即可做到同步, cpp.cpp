@@ -1,10 +1,10 @@
-### 解题思路
-这种交替打印的基本都可以使用原子操作进行同步
-![image.png](https://pic.leetcode-cn.com/93765f6c08ac8b5f5e0767217a17a9257753aa4203d96d09bd1eaa1d68aa2a7d-image.png)
+// ### 解题思路
+// 这种交替打印的基本都可以使用原子操作进行同步
+// ![image.png](https://pic.leetcode-cn.com/93765f6c08ac8b5f5e0767217a17a9257753aa4203d96d09bd1eaa1d68aa2a7d-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class FizzBuzz {
 private:
     int n;
@@ -59,4 +59,4 @@ public:
         }
     }
 };
-```
+// ```

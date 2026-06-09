@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-**python用堆栈实现，python的堆栈还是比较简单的，append可解**
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# **python用堆栈实现，python的堆栈还是比较简单的，append可解**
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestValidParentheses(self, s):
         """
@@ -24,4 +24,4 @@ class Solution(object):
                     Max=max(Max,i-st[len(st)-1])
         return Max
 
-```
+# ```

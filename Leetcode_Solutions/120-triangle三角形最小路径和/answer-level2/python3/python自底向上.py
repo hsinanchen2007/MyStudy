@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def minimumTotal(self, triangle: List[List[int]]) -> int:
         
@@ -12,4 +12,4 @@ class Solution:
             
         return triangle[0][0]
                 
-```
+# ```

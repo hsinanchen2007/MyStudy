@@ -1,9 +1,9 @@
-### 解题思路
-没有思路
+# ### 解题思路
+# 没有思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numWays(self, n: int) -> int:
         if n == 0:
@@ -16,4 +16,4 @@ class Solution:
         for i in range(2, n):
             res[i] = res[i-1] + res[i-2]
         return res[n-1] % (1000000007)
-```
+# ```

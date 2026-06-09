@@ -1,9 +1,9 @@
-### 解题思路
-看了看官方的题解，应该是方法3
+# ### 解题思路
+# 看了看官方的题解，应该是方法3
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import queue
 class MyStack:
 
@@ -49,4 +49,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

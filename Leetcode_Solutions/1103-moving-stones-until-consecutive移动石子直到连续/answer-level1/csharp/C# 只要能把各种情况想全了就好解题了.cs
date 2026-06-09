@@ -1,4 +1,4 @@
-```C# []
+// ```C# []
         public int[] NumMovesStones(int a, int b, int c)
         {
             /*
@@ -42,4 +42,4 @@
 
             return new int[] { min, max };
         }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-虚拟头结点 dummy
-https://www.jianshu.com/p/387f4ac21227
+// ### 解题思路
+// 虚拟头结点 dummy
+// https://www.jianshu.com/p/387f4ac21227
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -69,4 +69,4 @@ struct ListNode* ptmp;
     return rl->next;
 
 }
-```
+// ```

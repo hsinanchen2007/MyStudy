@@ -1,9 +1,9 @@
-### 解题思路
-组合问题、回溯算法
+// ### 解题思路
+// 组合问题、回溯算法
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void generateParenthesis(int n, int m,int max ,vector<string>& res,string str){
@@ -29,4 +29,4 @@ public:
     }
 };
 
-```
+// ```

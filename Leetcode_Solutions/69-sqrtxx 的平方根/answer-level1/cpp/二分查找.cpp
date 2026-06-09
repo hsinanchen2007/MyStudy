@@ -1,9 +1,9 @@
-### 解题思路
-用除法代替平方，防止溢出
+// ### 解题思路
+// 用除法代替平方，防止溢出
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int mySqrt(int x) {
@@ -21,4 +21,4 @@ public:
         return rt;
     }
 };
-```
+// ```

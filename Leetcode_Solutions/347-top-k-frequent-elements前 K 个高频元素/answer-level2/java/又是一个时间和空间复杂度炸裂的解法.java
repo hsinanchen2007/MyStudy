@@ -1,11 +1,11 @@
-![2020021202.PNG](https://pic.leetcode-cn.com/481e92e5ce2143ce640fc8941f459c84eb96ac1e46b69f87ab24c04c5a21ebc3-2020021202.PNG)
+// ![2020021202.PNG](https://pic.leetcode-cn.com/481e92e5ce2143ce640fc8941f459c84eb96ac1e46b69f87ab24c04c5a21ebc3-2020021202.PNG)
 
-### 解题思路
-//通过维护两个单调栈来对数字出现的频率进行排序
+// ### 解题思路
+// //通过维护两个单调栈来对数字出现的频率进行排序
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> topKFrequent(int[] nums, int k) {
         List<Integer> out = new ArrayList<>();
@@ -57,4 +57,4 @@ class Solution {
         return out;
     }
 }
-```
+// ```

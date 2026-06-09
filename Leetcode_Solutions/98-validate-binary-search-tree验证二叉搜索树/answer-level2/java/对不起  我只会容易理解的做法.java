@@ -1,5 +1,5 @@
-**写个中序遍历 树中的元素存到一个list中 遍历一下list判断元素是否有序 其它的什么一行两行代码的老夫实在是脑子不够**
-```
+// **写个中序遍历 树中的元素存到一个list中 遍历一下list判断元素是否有序 其它的什么一行两行代码的老夫实在是脑子不够**
+// ```
 class Solution {
     public boolean isValidBST(TreeNode root) {
         
@@ -25,4 +25,4 @@ class Solution {
         inOrder(node.right, list);
     }
 }
-```
+// ```

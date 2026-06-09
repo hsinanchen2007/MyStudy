@@ -1,16 +1,16 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  :
- * Date   : 2019/9/28
- *
- * 解题思路1: 把情况都列输出 咋想咋做
-![93CBF892103FD37895EA8D77A955E132.png](https://pic.leetcode-cn.com/58066c7a4959a0880392144c10f473fba7239bfb54d2566b35b7ecfc97e8e86f-93CBF892103FD37895EA8D77A955E132.png)
- *
- * 解题思路2: 暴力破解：左、右、正上、正下、左上、左下、右上、右下，看是否有这个元素，有则加进去，最后求平均 边界判定
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  :
+//  * Date   : 2019/9/28
+//  *
+//  * 解题思路1: 把情况都列输出 咋想咋做
+// ![93CBF892103FD37895EA8D77A955E132.png](https://pic.leetcode-cn.com/58066c7a4959a0880392144c10f473fba7239bfb54d2566b35b7ecfc97e8e86f-93CBF892103FD37895EA8D77A955E132.png)
+//  *
+//  * 解题思路2: 暴力破解：左、右、正上、正下、左上、左下、右上、右下，看是否有这个元素，有则加进去，最后求平均 边界判定
+//  *
+//  */
+// ```
 public int[][] imageSmoother(int[][] M) {
 
     if(M.length == 1 && M[0].length == 1){
@@ -129,4 +129,4 @@ public int[][] imageSmoother2(int[][] M) {
     }
     return M_r;
 }
-```
+// ```

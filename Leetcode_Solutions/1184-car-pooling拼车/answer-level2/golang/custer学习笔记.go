@@ -1,30 +1,30 @@
-# 思考
+// # 思考
 
-第一思路 - 走过的坑：
+// 第一思路 - 走过的坑：
 
-1. 因为给出的行程计划表是**无序**的要排序
+// 1. 因为给出的行程计划表是**无序**的要排序
 
-```go
+// ```go
 // 按照上车的站台顺序排序
 	for i := 0; i < len(trips); i++ {
 		sort.Slice(trips, func(i, j int) bool {
 			return trips[i][1] <= trips[j][1]
 		})
 	}
-```
+// ```
 
-2. 使用map映射记录有多少乘客在哪些站台需要下车，定义为：
+// 2. 使用map映射记录有多少乘客在哪些站台需要下车，定义为：
 
-`car := make(map[int]int, capacity)` 
+// `car := make(map[int]int, capacity)` 
 
-3. 需要一个赋值变量记录车上总人数，如果总人数大于车子的座位数，则不能顺利完成接送所用乘客的任务。
+// 3. 需要一个赋值变量记录车上总人数，如果总人数大于车子的座位数，则不能顺利完成接送所用乘客的任务。
 
-`if total > capacity { 	return false }` 
+// `if total > capacity { 	return false }` 
 
-4. 单次行程的上下车安排
-  - 首先判断该站台(以及之前站台是否有人需要下车)
+// 4. 单次行程的上下车安排
+//   - 首先判断该站台(以及之前站台是否有人需要下车)
 
-```go
+// ```go
 		// 在某一站stations乘客people先下车
 		for stations, people := range car {
 			if stations <= trips[i][1] {
@@ -32,16 +32,16 @@
 				delete(car, stations)
 			}
 		}
-```
+// ```
 
-  - 先下车之后，该站台的乘客上车，此时车上所有人的总数`total += trips[i][0]` 
-  - 判断总人数是否大于车子的座位数 `if total > capacity { 	return false}` 
-  - 记录该站台上车的乘客需要在哪个站台下车， `car[trips[i][2]] += trips[i][0]` 
+//   - 先下车之后，该站台的乘客上车，此时车上所有人的总数`total += trips[i][0]` 
+//   - 判断总人数是否大于车子的座位数 `if total > capacity { 	return false}` 
+//   - 记录该站台上车的乘客需要在哪个站台下车， `car[trips[i][2]] += trips[i][0]` 
 
-# Go实现
+// # Go实现
 
-## 第一思路
-```go
+// ## 第一思路
+// ```go
 func carPooling(trips [][]int, capacity int) bool {
 	// 按照上车的站台顺序排序
 	for i := 0; i < len(trips); i++ {
@@ -71,11 +71,11 @@ func carPooling(trips [][]int, capacity int) bool {
 	}
 	return true
 }
-```
+// ```
 
-# 学习大佬[@caigogo](/u/caigogo)
+// # 学习大佬[@caigogo](/u/caigogo)
 
-```go
+// ```go
 func carPooling(trips [][]int, capacity int) bool {
 	m := make(map[int]int)
 	for _, trip := range trips {
@@ -90,4 +90,4 @@ func carPooling(trips [][]int, capacity int) bool {
 	}
 	return true
 }
-```
+// ```

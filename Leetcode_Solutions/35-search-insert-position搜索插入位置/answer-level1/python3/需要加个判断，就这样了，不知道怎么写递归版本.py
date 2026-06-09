@@ -1,9 +1,9 @@
-### 解题思路
-范围逐渐缩小，最后返回high
+# ### 解题思路
+# 范围逐渐缩小，最后返回high
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
         if nums[0]>=target:
@@ -20,4 +20,4 @@ class Solution:
                 low=medium
         return high
 
-```
+# ```

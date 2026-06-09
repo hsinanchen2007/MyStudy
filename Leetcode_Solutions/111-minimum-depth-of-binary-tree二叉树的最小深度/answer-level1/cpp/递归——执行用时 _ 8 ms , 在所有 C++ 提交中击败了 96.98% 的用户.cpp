@@ -1,9 +1,9 @@
-### 解题思路
-left或者right中有一个是NULL的时候，需要取max而非min
+// ### 解题思路
+// left或者right中有一个是NULL的时候，需要取max而非min
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -21,4 +21,4 @@ public:
     			min(minDepth(root->left),minDepth(root->right))+1;
     }
 };
-```
+// ```

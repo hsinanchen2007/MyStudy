@@ -1,7 +1,7 @@
 
-隐式图上的BFS，关键在于定义好状态和转移操作，没有什么坑。
+// 隐式图上的BFS，关键在于定义好状态和转移操作，没有什么坑。
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     int openLock(vector<string>& deadends, string target) {
@@ -36,4 +36,4 @@ private:
         Node(string _s, int _st):state(_s),steps(_st){}
     };
 };
-```
+// ```

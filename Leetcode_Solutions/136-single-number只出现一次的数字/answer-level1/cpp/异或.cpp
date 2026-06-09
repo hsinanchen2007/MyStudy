@@ -1,5 +1,5 @@
-# 相同数字异或为0，任何数字与0异或为本身
-```
+// # 相同数字异或为0，任何数字与0异或为本身
+// ```
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -10,4 +10,4 @@ public:
         return sum;
     }
 };
-```
+// ```

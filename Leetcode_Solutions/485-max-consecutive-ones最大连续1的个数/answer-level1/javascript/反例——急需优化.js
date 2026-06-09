@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * 给定一个二进制数组， 计算其中最大连续1的个数。
  * 输入:[1,1,0,1,1,1]
@@ -19,5 +19,5 @@
  console.log('numsArr1--',numsArr1)
  numsArr1.sort(function(a,b){ return a - b })    
  console.log('结果--',numsArr1[numsArr1.length-1])
-```
-用时和内存都不太好~
+// ```
+// 用时和内存都不太好~

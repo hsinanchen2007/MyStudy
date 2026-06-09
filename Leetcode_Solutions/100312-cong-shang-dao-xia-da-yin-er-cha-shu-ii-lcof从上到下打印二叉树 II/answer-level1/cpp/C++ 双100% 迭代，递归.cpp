@@ -1,6 +1,6 @@
-**递归**
-判断每一层时，使用一个标记表明是哪一层；
-```cpp
+// **递归**
+// 判断每一层时，使用一个标记表明是哪一层；
+// ```cpp
 /**
 * Definition for a binary tree node.
 * struct TreeNode {
@@ -30,12 +30,12 @@ public:
 		return res;
 	}
 };
-```
+// ```
 
 
-**迭代**
-使用队列的特点
-```cpp
+// **迭代**
+// 使用队列的特点
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -71,4 +71,4 @@ public:
         return res;
     }
 };
-```
+// ```

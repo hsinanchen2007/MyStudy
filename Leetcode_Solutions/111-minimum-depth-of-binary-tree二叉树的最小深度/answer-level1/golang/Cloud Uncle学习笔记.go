@@ -1,5 +1,5 @@
-1.递归
-```
+// 1.递归
+// ```
 func minDepth(root *TreeNode) int {
     //1.根节点为nil的情况，整棵树的深度就为0
     if root == nil {
@@ -30,4 +30,4 @@ func min(a, b int) int {
 
     return b
 }
-```
+// ```

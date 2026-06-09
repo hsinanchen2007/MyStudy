@@ -1,5 +1,5 @@
-使用 strrev() 反转
-```
+// 使用 strrev() 反转
+// ```
 class Solution
 {
     /**
@@ -12,9 +12,9 @@ class Solution
         return true;
     }
 }
-```
-使用数学计算反转
-```
+// ```
+// 使用数学计算反转
+// ```
 class Solution
 {
     /**
@@ -44,4 +44,4 @@ class Solution
         return $rev;
     }
 }
-```
+// ```

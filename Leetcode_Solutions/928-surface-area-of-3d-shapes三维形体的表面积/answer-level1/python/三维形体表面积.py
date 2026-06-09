@@ -1,9 +1,9 @@
-### 解题思路
-总共的面减去接触面
+# ### 解题思路
+# 总共的面减去接触面
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def surfaceArea(self, grid):
         """
@@ -23,4 +23,4 @@ class Solution(object):
                 if j > 0:
                     faces += min(grid[i][j-1], grid[i][j])
         return 6*cubes - 2 *faces
-```
+# ```

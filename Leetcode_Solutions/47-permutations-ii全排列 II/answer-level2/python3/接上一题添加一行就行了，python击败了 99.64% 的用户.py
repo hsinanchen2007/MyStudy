@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         res = []
@@ -12,4 +12,4 @@ class Solution:
         nums.sort()
         back_track(nums, [])
         return res
-```
+# ```

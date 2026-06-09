@@ -1,20 +1,20 @@
-### 解题思路
+// ### 解题思路
 
-一共遍历两次数组
+// 一共遍历两次数组
 
-第一次遍历: 将所有重复两次以上的元素替换成Integer.MAX_VALUE
+// 第一次遍历: 将所有重复两次以上的元素替换成Integer.MAX_VALUE
 
-   如：将 [1,1,1,2,2,2,3] 替换成 [1,1,Integer.MAX_VALUE,2,2,Integer.MAX_VALUE,3]
-第二次遍历: 再将后面的元素前移。
+//    如：将 [1,1,1,2,2,2,3] 替换成 [1,1,Integer.MAX_VALUE,2,2,Integer.MAX_VALUE,3]
+// 第二次遍历: 再将后面的元素前移。
 
-   如： 将[1,1,Integer.MAX_VALUE,2,2,Integer.MAX_VALUE,3] 
-   转换成 [1,1,2,2,3,Integer.MAX_VALUE,Integer.MAX_VALUE]
+//    如： 将[1,1,Integer.MAX_VALUE,2,2,Integer.MAX_VALUE,3] 
+//    转换成 [1,1,2,2,3,Integer.MAX_VALUE,Integer.MAX_VALUE]
 
-只遍历了两次所以时间复杂度是O(N)   
+// 只遍历了两次所以时间复杂度是O(N)   
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
         if (nums == null) return 0;
@@ -55,4 +55,4 @@ class Solution {
         return slow;
     }
 }
-```
+// ```

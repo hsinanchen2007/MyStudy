@@ -1,5 +1,5 @@
-遍历树的每个节点，对于每个节点求其左子树和右子树深度之和，返回其中的最大值
-```
+// 遍历树的每个节点，对于每个节点求其左子树和右子树深度之和，返回其中的最大值
+// ```
 public int diameterOfBinaryTree(TreeNode root) {
         if (root==null)
             return 0;
@@ -23,4 +23,4 @@ public int diameterOfBinaryTree(TreeNode root) {
         int d=Math.max(a,b);
         return Math.max(d,c);
     }
-```
+// ```

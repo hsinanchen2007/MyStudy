@@ -1,6 +1,6 @@
-### Map
-遍历一遍nums，将其添加到map中，同时判断元素的个数是否大于数组的一半，是则返回
-```
+// ### Map
+// 遍历一遍nums，将其添加到map中，同时判断元素的个数是否大于数组的一半，是则返回
+// ```
 func majorityElement(nums []int) int {
 	m := len(nums) / 2
 	res := make(map[int]int)
@@ -15,9 +15,9 @@ func majorityElement(nums []int) int {
 	return -1
 }
 
-```
-### 分治，官方题解的golang实现。便于阅读
-```
+// ```
+// ### 分治，官方题解的golang实现。便于阅读
+// ```
 func majorityElement(nums []int) int {
 	return majority(nums, 0, len(nums)-1)
 }
@@ -57,4 +57,4 @@ func countInRange(nums []int, num, lo, hi int) int {
 	}
 	return count
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-直接上代码
+// ### 解题思路
+// 直接上代码
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func generate(numRows int) (result [][]int) {
     if numRows == 0 {
         return 
@@ -30,4 +30,4 @@ func generate(numRows int) (result [][]int) {
     }
     return
 }
-```
+// ```

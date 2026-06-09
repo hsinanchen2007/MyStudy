@@ -1,18 +1,18 @@
-### 解题思路
-用法：
-def find_left_index(self, nums, target):
-def find_right_index(self, nums, target):
-if left == n or nums[left] != target:
-    return [-1,-1]
-解法：
-二分查找。
+# ### 解题思路
+# 用法：
+# def find_left_index(self, nums, target):
+# def find_right_index(self, nums, target):
+# if left == n or nums[left] != target:
+#     return [-1,-1]
+# 解法：
+# 二分查找。
 
-![image.png](https://pic.leetcode-cn.com/7dced241fac1d6af5b59307b214e6ecd9fb2875c28083aa0d808c6d6f6844284-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7dced241fac1d6af5b59307b214e6ecd9fb2875c28083aa0d808c6d6f6844284-image.png)
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def find_left_index(self, nums, target):
         i = 0
@@ -73,4 +73,4 @@ class Solution(object):
         return [left, right]
 
 
-```
+# ```

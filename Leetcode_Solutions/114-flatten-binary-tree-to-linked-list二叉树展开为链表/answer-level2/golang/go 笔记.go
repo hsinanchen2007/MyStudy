@@ -1,4 +1,4 @@
-```
+// ```
 //
 func flatten(root *TreeNode) {
 	for root != nil {
@@ -16,9 +16,9 @@ func flatten(root *TreeNode) {
 		}
 	}
 }
-```
+// ```
 
-```
+// ```
 func flatten(root *TreeNode)  {
     if root==nil{
         return
@@ -36,5 +36,5 @@ func DFS(root *TreeNode,pre **TreeNode){
     root.Left=nil
     (*pre)=root
 }
-```
+// ```
 

@@ -1,14 +1,14 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/9/22
- *
- * 解题思路: 先确定前两个单词的大小写 即可确定之后字母是小写 还是 大写
- *
- */
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/9/22
+//  *
+//  * 解题思路: 先确定前两个单词的大小写 即可确定之后字母是小写 还是 大写
+//  *
+//  */
 
-```
+// ```
 public boolean detectCapitalUse(String word) {
     char[] word_arr = word.toCharArray();
 
@@ -39,4 +39,4 @@ public boolean detectCapitalUse(String word) {
     }
     return true;
 }
-```
+// ```

@@ -1,14 +1,14 @@
-# 思路
-模拟即可。
-HashMap存储走过的路，再用4个int变量存储边界。
-关键在于将模拟的坐标  映射到创建的数组下标。
+// # 思路
+// 模拟即可。
+// HashMap存储走过的路，再用4个int变量存储边界。
+// 关键在于将模拟的坐标  映射到创建的数组下标。
 
-题外话：既然有兰顿蚂蚁，是不是也有贪欲九头蛇大象？无尽猴子？岚切甲壳虫？黑切蛋糕？
-![微信图片_20200221000836.png](https://pic.leetcode-cn.com/e34c0626e3c690bb5d85b02ea52e6ee10223ee936d6c850b4f300ed98d2e2b03-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200221000836.png)
+// 题外话：既然有兰顿蚂蚁，是不是也有贪欲九头蛇大象？无尽猴子？岚切甲壳虫？黑切蛋糕？
+// ![微信图片_20200221000836.png](https://pic.leetcode-cn.com/e34c0626e3c690bb5d85b02ea52e6ee10223ee936d6c850b4f300ed98d2e2b03-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200221000836.png)
 
 
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     private char[] dir_char = new char[]{'R', 'D', 'L', 'U'};
     private int[] position = new int[2];
@@ -63,4 +63,4 @@ class Solution {
         }
     }
 }
-```
+// ```

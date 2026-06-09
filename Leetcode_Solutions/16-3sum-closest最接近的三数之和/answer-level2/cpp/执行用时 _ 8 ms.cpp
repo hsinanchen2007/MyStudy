@@ -1,9 +1,9 @@
-### 解题思路
-与 3 num 类似
+// ### 解题思路
+// 与 3 num 类似
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int threeSumClosest(vector<int>& nums, int target) {
@@ -30,4 +30,4 @@ public:
         return colest_num;
     }
 };
-```
+// ```

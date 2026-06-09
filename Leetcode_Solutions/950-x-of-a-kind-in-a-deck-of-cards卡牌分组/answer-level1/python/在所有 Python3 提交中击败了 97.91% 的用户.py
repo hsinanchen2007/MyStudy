@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-先用Counter 统计出每个数出现的频次
-然后将所有的频次进行求最大公约数
-如果最大公约数大于等于2的话则符合要求
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 先用Counter 统计出每个数出现的频次
+# 然后将所有的频次进行求最大公约数
+# 如果最大公约数大于等于2的话则符合要求
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hasGroupsSizeX(self, deck: List[int]) -> bool:
         card_map = Counter(deck)
@@ -22,4 +22,4 @@ class Solution:
                 res = gcd(res,item)
             return res
         return gcd_list(value_list) >=2
-```
+# ```

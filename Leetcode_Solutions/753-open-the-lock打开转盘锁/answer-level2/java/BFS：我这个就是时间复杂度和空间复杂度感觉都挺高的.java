@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int openLock(String[] deadends, String target) {
          List<String> deadEndsList = Arrays.asList(deadends);
@@ -70,4 +70,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

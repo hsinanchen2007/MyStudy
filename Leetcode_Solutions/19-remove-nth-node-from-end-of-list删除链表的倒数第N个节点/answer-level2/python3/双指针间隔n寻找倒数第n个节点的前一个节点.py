@@ -1,8 +1,8 @@
-注意特殊情况吧，基本上没什么问题。
+# 注意特殊情况吧，基本上没什么问题。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -31,4 +31,4 @@ class Solution:
         prior.next = prior.next.next
 
         return head
-```
+# ```

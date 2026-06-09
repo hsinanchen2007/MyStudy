@@ -1,15 +1,15 @@
-### 思路
+# ### 思路
 
-**字符串**
+# **字符串**
 
-```
+# ```
 统计字符串中各个字符个数。
 最后尽可能多地输出偶数个相同字符。
-```
+# ```
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution:
     def longestPalindrome(self, s: str) -> int:
         import collections
@@ -24,8 +24,8 @@ class Solution:
             return sum
         else:
             return sum + 1
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0409-Longest-Palindrome/0409.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0409-Longest-Palindrome/0409.py)

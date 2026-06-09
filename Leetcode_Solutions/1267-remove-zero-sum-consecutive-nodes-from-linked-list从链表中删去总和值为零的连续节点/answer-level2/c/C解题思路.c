@@ -1,6 +1,6 @@
-![)9NF0S~IU~K_U(K853A8OQI.png](https://pic.leetcode-cn.com/d2c11b79eb3b9f7865c9d2502737addb9190c893fe96e74507d7a150fcc25d94-\)9NF0S~IU~K_U\(K853A8OQI.png)
+// ![)9NF0S~IU~K_U(K853A8OQI.png](https://pic.leetcode-cn.com/d2c11b79eb3b9f7865c9d2502737addb9190c893fe96e74507d7a150fcc25d94-\)9NF0S~IU~K_U\(K853A8OQI.png)
 
-```
+// ```
 /**
 * 整体思路：利用两层循环，第一层循环用于确定合值为0的起始结点，
 *           第二层循环用于确定合值为0的结束结点
@@ -85,4 +85,4 @@ struct ListNode* removeZeroSumSublists(struct ListNode* head){
     return head;
 
 }
-```
+// ```

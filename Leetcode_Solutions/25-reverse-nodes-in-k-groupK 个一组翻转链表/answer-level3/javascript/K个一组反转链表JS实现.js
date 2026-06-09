@@ -1,12 +1,12 @@
-### 解题思路
-1. 1个数组用来存一组节点，unshift反向推入
-2. 完成一组反转之后用另一个大数组连接起来
-3. 最后那个数组reverse反转之后再用大数组连接起来
-4. 大数组按顺序迭代生成结果链表
+// ### 解题思路
+// 1. 1个数组用来存一组节点，unshift反向推入
+// 2. 完成一组反转之后用另一个大数组连接起来
+// 3. 最后那个数组reverse反转之后再用大数组连接起来
+// 4. 大数组按顺序迭代生成结果链表
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -40,4 +40,4 @@ var reverseKGroup = function(head, k) {
     })
     return resultArr[0] || head
 }
-```
+// ```

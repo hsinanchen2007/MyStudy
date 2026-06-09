@@ -1,13 +1,13 @@
-### 解题思路
-没思路，写了两个子函数：unique_len返回字符串从头数起无重复的长度
-                      get_son切割字符串，s[i]到s尾的子串存在a里
-遍历s得到所有的子串
-1772mshhhhhhhh菜的抠脚
-![捕获.PNG](https://pic.leetcode-cn.com/e03398b25889876dfa42d144355dde1171e9613fa7f6ff6a789c68b3a7656508-%E6%8D%95%E8%8E%B7.PNG)
+// ### 解题思路
+// 没思路，写了两个子函数：unique_len返回字符串从头数起无重复的长度
+//                       get_son切割字符串，s[i]到s尾的子串存在a里
+// 遍历s得到所有的子串
+// 1772mshhhhhhhh菜的抠脚
+// ![捕获.PNG](https://pic.leetcode-cn.com/e03398b25889876dfa42d144355dde1171e9613fa7f6ff6a789c68b3a7656508-%E6%8D%95%E8%8E%B7.PNG)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int unique_len(char *s){
     int i=0,a[128]={0};
     for(;s[i]!='\0';i++){
@@ -36,4 +36,4 @@ int lengthOfLongestSubstring(char * s){
     }
     return max;
 }
-```
+// ```

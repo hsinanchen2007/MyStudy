@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-go中序遍历，遍历到第k个元素的时候结束遍历，用指针来计数和保存结果代码不是很优雅
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// go中序遍历，遍历到第k个元素的时候结束遍历，用指针来计数和保存结果代码不是很优雅
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -37,4 +37,4 @@ func inorder(root *TreeNode, k int, count *int, res *int){
     inorder(root.Right, k, count, res)
     return
 }
-```
+// ```

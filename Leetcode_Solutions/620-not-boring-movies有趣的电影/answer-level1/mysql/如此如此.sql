@@ -1,9 +1,9 @@
-### 解题思路
+-- ### 解题思路
 
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select *
 from cinema c
@@ -11,4 +11,4 @@ where c.description!='boring'
 and c.id%2=1
 order by rating desc
 
-```
+-- ```

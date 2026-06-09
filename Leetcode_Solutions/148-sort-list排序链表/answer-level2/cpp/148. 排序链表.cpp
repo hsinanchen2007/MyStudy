@@ -1,11 +1,11 @@
-### 归并排序
-采用归并排序的思路，同时采用快慢指针把一个完整的链表从中间断开，在分别合并两个部分
-### 时间/空间复杂度
-时间：O（nlogn）
-空间：O（1）
-### 代码
+// ### 归并排序
+// 采用归并排序的思路，同时采用快慢指针把一个完整的链表从中间断开，在分别合并两个部分
+// ### 时间/空间复杂度
+// 时间：O（nlogn）
+// 空间：O（1）
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -49,4 +49,4 @@ public:
         return merge(sortList(head),sortList(pslow));
     }
 };
-```
+// ```

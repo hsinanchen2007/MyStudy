@@ -1,6 +1,6 @@
-**# 代码：**
+// **# 代码：**
 
-```
+// ```
 
 int stoi(char *s);
 int calPoints(char ** ops, int opsSize){
@@ -43,4 +43,4 @@ int stoi(char *s){
     }
     return sign * integer;
 }
-```
+// ```

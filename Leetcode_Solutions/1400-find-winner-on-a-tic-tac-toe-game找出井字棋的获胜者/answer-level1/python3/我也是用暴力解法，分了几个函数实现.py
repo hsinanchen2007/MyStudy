@@ -1,6 +1,6 @@
-遍历所有可能解，看两位选手的棋子是否满足其一
-再比较选手的情况，解决~~~
-```
+# 遍历所有可能解，看两位选手的棋子是否满足其一
+# 再比较选手的情况，解决~~~
+# ```
 class Solution:
     def tictactoe(self, moves: List[List[int]]) -> str:
         if len(moves) < 5:
@@ -58,6 +58,6 @@ class Solution:
         for i in range(turn, len(moves), 2):
             m.append(moves[i])
         return m
-```
+# ```
 
-就酱~~
+# 就酱~~

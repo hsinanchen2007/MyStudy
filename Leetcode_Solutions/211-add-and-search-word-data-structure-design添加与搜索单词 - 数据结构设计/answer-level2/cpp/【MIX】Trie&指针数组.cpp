@@ -1,9 +1,9 @@
-### 解题思路
-1. Trie因为都是小写字母, 考虑使用指针数组存储26根指针, 以空间换时间, 时间复杂度$O(L)$
-2. 集合运算【python3】
-### 代码
+// ### 解题思路
+// 1. Trie因为都是小写字母, 考虑使用指针数组存储26根指针, 以空间换时间, 时间复杂度$O(L)$
+// 2. 集合运算【python3】
+// ### 代码
 
-```c++ []
+// ```c++ []
 class WordDictionary {
 // 使用Trie实现
 private:
@@ -73,8 +73,8 @@ private:
  * obj->addWord(word);
  * bool param_2 = obj->search(word);
  */
-```
-```java []
+// ```
+// ```java []
 class WordDictionary {
 
     /** Initialize your data structure here. */
@@ -127,8 +127,8 @@ class WordDictionary {
 
     private Node root;
 }
-```
-```python []
+// ```
+// ```python []
 class WordDictionary:
 
     def __init__(self):
@@ -169,4 +169,4 @@ class WordDictionary:
                 if(len(wordset))==0:
                     return False
         return len(wordset) > 0
-```
+// ```

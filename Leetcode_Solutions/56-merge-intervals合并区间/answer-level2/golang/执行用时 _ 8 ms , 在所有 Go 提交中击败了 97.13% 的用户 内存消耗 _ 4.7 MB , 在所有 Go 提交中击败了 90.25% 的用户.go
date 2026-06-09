@@ -1,5 +1,5 @@
-代码水平很菜，但跑出来结果还行，就写个题解放这里，话不多说，直接上代码：
-```
+// 代码水平很菜，但跑出来结果还行，就写个题解放这里，话不多说，直接上代码：
+// ```
 type ints [][]int
 
 func (s ints) Len() int           { return len(s) }
@@ -34,4 +34,4 @@ func merge(intervals [][]int) [][]int {
 	res=append(res,intervals[i])
 	return res
 }
-```
+// ```

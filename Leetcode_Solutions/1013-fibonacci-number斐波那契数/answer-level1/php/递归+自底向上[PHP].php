@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 
     /**
@@ -36,4 +36,4 @@ class Solution {
         return $second;
     }
 }
-```
+// ```

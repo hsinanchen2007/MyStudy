@@ -1,12 +1,12 @@
-### 解题思路
-![屏幕快照 2020-01-31 下午5.02.58.png](https://pic.leetcode-cn.com/d1bcee68f11eb5c7067793fe6895746e6715f0e9106d3db6b78a3ba1ed7bf01e-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-31%20%E4%B8%8B%E5%8D%885.02.58.png)
+// ### 解题思路
+// ![屏幕快照 2020-01-31 下午5.02.58.png](https://pic.leetcode-cn.com/d1bcee68f11eb5c7067793fe6895746e6715f0e9106d3db6b78a3ba1ed7bf01e-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-31%20%E4%B8%8B%E5%8D%885.02.58.png)
 
-tarjan算法找无向联通图中的桥。模版题，直接套模版。
+// tarjan算法找无向联通图中的桥。模版题，直接套模版。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public Edge[] edges;
     public int cnt;
@@ -98,4 +98,4 @@ class Solution {
     }
 
 }
-```
+// ```

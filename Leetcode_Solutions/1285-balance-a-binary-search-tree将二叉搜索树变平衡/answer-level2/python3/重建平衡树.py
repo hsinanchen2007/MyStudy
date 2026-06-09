@@ -1,9 +1,9 @@
-### 解题思路
-中序遍历输出平衡树的值，然后用这个已排好序列的数列构建平衡树。
+# ### 解题思路
+# 中序遍历输出平衡树的值，然后用这个已排好序列的数列构建平衡树。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -43,4 +43,4 @@ class Solution:
         
 
             
-```
+# ```

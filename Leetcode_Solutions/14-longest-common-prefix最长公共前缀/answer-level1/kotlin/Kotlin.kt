@@ -1,9 +1,9 @@
-### 解题思路
-比较暴力
+// ### 解题思路
+// 比较暴力
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
 fun longestCommonPrefix(strs: Array<String>): String {
     var comm:String = ""
@@ -27,4 +27,4 @@ fun longestCommonPrefix(strs: Array<String>): String {
     if(strs.size==1) comm=strs[0]
     return comm
 }}
-```
+// ```

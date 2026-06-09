@@ -1,19 +1,19 @@
-### 解题思路
-对于c，难度可能在多维度hash的建立和使用上
-判断条件并不是很复杂，hash的管理是个问题，代码比较长，但是有非常多的重复代码有待优化
-说一下判断条件
-1、x坐标相同
-2、y坐标相同
-3、斜线上。这个需要好好优化，
-|x1-x0| = |y1-y0| => 
-x1 - x0 = y1 - y0 或 x1 - x0 = y0 - y1 => 
-x1 - y1 = x0 - y0 或 x1 + y1 = x0 + y0
-最开始斜线判断，采用了穷举lamp，结果性能不行，后来增加了x-y和x+y两个哈希，才可以通过。
-![image.png](https://pic.leetcode-cn.com/f397b774d54e900239bce29d40cc867b10d858e83c481c0f9fce877c241497e1-image.png)
+// ### 解题思路
+// 对于c，难度可能在多维度hash的建立和使用上
+// 判断条件并不是很复杂，hash的管理是个问题，代码比较长，但是有非常多的重复代码有待优化
+// 说一下判断条件
+// 1、x坐标相同
+// 2、y坐标相同
+// 3、斜线上。这个需要好好优化，
+// |x1-x0| = |y1-y0| => 
+// x1 - x0 = y1 - y0 或 x1 - x0 = y0 - y1 => 
+// x1 - y1 = x0 - y0 或 x1 + y1 = x0 + y0
+// 最开始斜线判断，采用了穷举lamp，结果性能不行，后来增加了x-y和x+y两个哈希，才可以通过。
+// ![image.png](https://pic.leetcode-cn.com/f397b774d54e900239bce29d40cc867b10d858e83c481c0f9fce877c241497e1-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -431,4 +431,4 @@ int* gridIllumination(int N, int** lamps, int lampsSize, int* lampsColSize, int*
     *returnSize = r.cnt;
     return r.rlt;
 }
-```
+// ```

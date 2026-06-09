@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/97750d34cec7e4d195f27b2685939d8c08b5acc0fe53a15429ae795820028ed3-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/97750d34cec7e4d195f27b2685939d8c08b5acc0fe53a15429ae795820028ed3-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> sortByBits(vector<int>& arr)
@@ -29,4 +29,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

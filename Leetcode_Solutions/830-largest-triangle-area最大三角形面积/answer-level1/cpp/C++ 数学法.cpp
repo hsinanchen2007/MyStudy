@@ -1,5 +1,5 @@
-根据坐标面积计算公式可查阅矩阵相关知识
-```
+// 根据坐标面积计算公式可查阅矩阵相关知识
+// ```
 class Solution {
 public:
     double area(const vector<int>& p1, const vector<int>& p2, const vector<int>& p3) {
@@ -22,5 +22,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/028da8de30b4c3a90118fc15368402971857017fbbcce866ae6861cff57d72aa-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/028da8de30b4c3a90118fc15368402971857017fbbcce866ae6861cff57d72aa-image.png)

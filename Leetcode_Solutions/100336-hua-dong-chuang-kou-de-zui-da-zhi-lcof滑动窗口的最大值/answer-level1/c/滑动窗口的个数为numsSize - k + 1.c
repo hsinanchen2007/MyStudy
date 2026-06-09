@@ -1,9 +1,9 @@
-### 解题思路
-滑动窗口的个数为numsSize - k + 1
+// ### 解题思路
+// 滑动窗口的个数为numsSize - k + 1
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -37,4 +37,4 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize)
     *returnSize = index;
     return arr;
 }
-```
+// ```

@@ -1,7 +1,7 @@
-不是我写的啊啊啊，但是写的太好了，我就转载了
+// 不是我写的啊啊啊，但是写的太好了，我就转载了
 
 
-```
+// ```
 const int mod = 1e9 + 7;
 class Solution {
 public:
@@ -21,4 +21,4 @@ public:
         return res % mod;
     }
 };
-```
+// ```

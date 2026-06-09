@@ -1,12 +1,12 @@
-### 解题思路
-（本题练习指针和数组）
-1)当前行的最左边和最后边的元素为1；
-2)中间的元素可以由上一行元素递推得到：a[i][j] = a[i-1][j-1] + a[i-1][j]; 
-![image.png](https://pic.leetcode-cn.com/44ff0aea9e84763fb57e49061c4e6b6ef3e8d1a785d0e18f055acace542de933-image.png)
+// ### 解题思路
+// （本题练习指针和数组）
+// 1)当前行的最左边和最后边的元素为1；
+// 2)中间的元素可以由上一行元素递推得到：a[i][j] = a[i-1][j-1] + a[i-1][j]; 
+// ![image.png](https://pic.leetcode-cn.com/44ff0aea9e84763fb57e49061c4e6b6ef3e8d1a785d0e18f055acace542de933-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int Yanghui(int n, int *** rowList){
     int i, j;
     int **a;
@@ -67,4 +67,4 @@ int** generate(int numRows, int* returnSize, int** returnColumnSizes){
 }
 
 
-```
+// ```

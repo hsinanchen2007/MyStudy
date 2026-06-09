@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def commonChars(self, A: List[str]) -> List[str]:
         ans = list(A[0])
@@ -18,4 +18,4 @@ class Solution:
 
 
 
-```
+# ```

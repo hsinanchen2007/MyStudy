@@ -1,9 +1,9 @@
-![ans.jpg](https://pic.leetcode-cn.com/29e49523a16abc5d5a045f2d09450f5a2f70df77a5d908b3d6ec23ac5aca2be7-ans.jpg){:width=400}
-如图，把 $s$ 串和 $t$ 串对应位置字符求差的绝对值 $abs(s[i]-t[i])$ 后可以得到一个新数组
-求这个数组中一段连续子数组的长度, 要求子数组的和 `<=m &&` 子数组长度最长
-就可以直接双指针了
-有不对的地方请大佬指出
-```cpp [-C++]
+// ![ans.jpg](https://pic.leetcode-cn.com/29e49523a16abc5d5a045f2d09450f5a2f70df77a5d908b3d6ec23ac5aca2be7-ans.jpg){:width=400}
+// 如图，把 $s$ 串和 $t$ 串对应位置字符求差的绝对值 $abs(s[i]-t[i])$ 后可以得到一个新数组
+// 求这个数组中一段连续子数组的长度, 要求子数组的和 `<=m &&` 子数组长度最长
+// 就可以直接双指针了
+// 有不对的地方请大佬指出
+// ```cpp [-C++]
 #include <stack>
 #include <string.h>
 #include <string>
@@ -69,4 +69,4 @@ int main(void) {
 }
 #endif
 
-```
+// ```

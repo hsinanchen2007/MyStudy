@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isMonotonic(int[] A) {
         if(A.length <= 2) {
@@ -31,4 +31,4 @@ class Solution {
         }
     }
 }
-```
+// ```

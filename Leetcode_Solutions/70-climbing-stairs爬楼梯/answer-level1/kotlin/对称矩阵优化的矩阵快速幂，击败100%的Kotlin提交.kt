@@ -1,4 +1,4 @@
-```kotlin
+// ```kotlin
 class Solution {
     fun climbStairs(n: Int): Int =
         (FIBONACCI_MATRIX pow n).a22
@@ -21,4 +21,4 @@ class Solution {
         val FIBONACCI_MATRIX = TwoTimesTwoSymmetricMatrix(0, 1, 1)
     }
 }
-```
+// ```

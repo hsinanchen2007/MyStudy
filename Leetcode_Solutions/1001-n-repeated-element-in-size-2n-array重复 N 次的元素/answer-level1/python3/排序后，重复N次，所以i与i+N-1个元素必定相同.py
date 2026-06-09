@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def repeatedNTimes(self, A: List[int]) -> int:
         #N = len(A)//2
@@ -12,4 +12,4 @@ class Solution:
             if A[i] == A[i+len(A)//2-1]:
                return A[i]
         
-```
+# ```

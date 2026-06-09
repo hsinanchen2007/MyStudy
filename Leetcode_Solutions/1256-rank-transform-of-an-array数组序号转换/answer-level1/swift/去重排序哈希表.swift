@@ -1,9 +1,9 @@
-### 解题思路
-去重排序哈希表
+// ### 解题思路
+// 去重排序哈希表
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func arrayRankTransform(_ arr: [Int]) -> [Int] {
         
@@ -27,4 +27,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-核心思路： 
-    若坐标i和j中的较小高度为h，那么任何k 满足 i<k<j 如果k的高度hk小于h则地k位至少能盛水h-hk
-    双指针向中间逼近，不断更新h值，保证求的坐标的盛水量是最大的。
-代码：
-```
+# 核心思路： 
+#     若坐标i和j中的较小高度为h，那么任何k 满足 i<k<j 如果k的高度hk小于h则地k位至少能盛水h-hk
+#     双指针向中间逼近，不断更新h值，保证求的坐标的盛水量是最大的。
+# 代码：
+# ```
 class Solution(object):
     def trap(self, height):
         """
@@ -25,4 +25,4 @@ class Solution(object):
                 right -= 1
                 
         return area
-```
+# ```

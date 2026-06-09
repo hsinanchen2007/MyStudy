@@ -1,9 +1,9 @@
-### 解题思路
-采用先序遍历，然后中序遍历过程中统计当前是否总数为sum，如果是则记录下来
+// ### 解题思路
+// 采用先序遍历，然后中序遍历过程中统计当前是否总数为sum，如果是则记录下来
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -48,4 +48,4 @@ class Solution {
         list.remove(list.size() - 1);
     }
 }
-```
+// ```

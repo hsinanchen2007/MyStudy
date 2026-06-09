@@ -1,9 +1,9 @@
-### 解题思路
-parseInt方法取值, 也可以把链表转数组
+// ### 解题思路
+// parseInt方法取值, 也可以把链表转数组
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -24,4 +24,4 @@ var getDecimalValue = function(head) {
     }
     return parseInt(str, 2)
 };
-```
+// ```

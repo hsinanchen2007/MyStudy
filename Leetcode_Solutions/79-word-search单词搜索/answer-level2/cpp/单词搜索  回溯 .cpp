@@ -1,31 +1,31 @@
-### 解题思路
-递归的结束条件是i == word.size()-1；
-通过i+1体现一层层的回溯
-回溯的思想体现在单元格匹配上只是暂时放在选择列表，回头还要移出选择列表
-这个题目一定要回溯，不回退会导致其他路径经过这个点的时候无法匹配；
-回溯的目的就是保证通过其他路径到达这个点的时候，这个点还会继续参加其他路径的匹配
-[A,B,C,E]
-[B,C,*C*,C]
-[A,D,E,E]
-查找ABCCED，存在2个路径
+// ### 解题思路
+// 递归的结束条件是i == word.size()-1；
+// 通过i+1体现一层层的回溯
+// 回溯的思想体现在单元格匹配上只是暂时放在选择列表，回头还要移出选择列表
+// 这个题目一定要回溯，不回退会导致其他路径经过这个点的时候无法匹配；
+// 回溯的目的就是保证通过其他路径到达这个点的时候，这个点还会继续参加其他路径的匹配
+// [A,B,C,E]
+// [B,C,*C*,C]
+// [A,D,E,E]
+// 查找ABCCED，存在2个路径
 
-可以传引用的就不要传值（传值的话就不需要显示回溯，因为值每次进来都会更新）
+// 可以传引用的就不要传值（传值的话就不需要显示回溯，因为值每次进来都会更新）
 
-### 代码
-回溯模板：
-result = []
-def backtrack(路径, 选择列表):
-    if 满足结束条件:
-        return true;
+// ### 代码
+// 回溯模板：
+// result = []
+// def backtrack(路径, 选择列表):
+//     if 满足结束条件:
+//         return true;
     
-    for 选择 in 选择列表:
-        做选择    path.push_back(tmp);
-        backtrack(路径, 选择列表) dfs(s, size, i+1, path);
-        撤销选择    path.pop_back(); 
+//     for 选择 in 选择列表:
+//         做选择    path.push_back(tmp);
+//         backtrack(路径, 选择列表) dfs(s, size, i+1, path);
+//         撤销选择    path.pop_back(); 
 
 
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string& word) {
@@ -60,4 +60,4 @@ public:
         return flag;
     }
 };
-```
+// ```

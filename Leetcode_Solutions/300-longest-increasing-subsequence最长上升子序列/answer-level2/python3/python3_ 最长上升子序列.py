@@ -1,4 +1,4 @@
-```python
+# ```python
 def lengthOfLIS(nums):
     """
         1. dp问题, dp[i] = max(dp[j]) + 1, 其中nums[j] < nums[i], 并且0<=j<i
@@ -23,4 +23,4 @@ def lengthOfLIS(nums):
     return max(stack)[0]
             
 print(lengthOfLIS([10,9,2,5,3,7,101,18]))
-```
+# ```

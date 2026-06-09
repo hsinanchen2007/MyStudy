@@ -1,5 +1,5 @@
-dp(i, j)表示从i到j的子串的不同回文子序列的个数,那么可以对原串正反都做序列自动机，用left_x表示x字符的最左下标,right_x表示x字符的最右下标,那么答案就是dp(left_a, right_b) +...dp(left_d, right_d),那么这个dp怎么做呢，对于一个dp(i, j),默认s[i] == s[j],以s[i] = s[j] = 'a'为例，找i左边的b,c,d,找j右边的b, c, d,单后dp(i, j) = 这些位置的dp值求和,当下一个为a的时候加上2即可。为了方便用了记忆化搜索。
-```
+// dp(i, j)表示从i到j的子串的不同回文子序列的个数,那么可以对原串正反都做序列自动机，用left_x表示x字符的最左下标,right_x表示x字符的最右下标,那么答案就是dp(left_a, right_b) +...dp(left_d, right_d),那么这个dp怎么做呢，对于一个dp(i, j),默认s[i] == s[j],以s[i] = s[j] = 'a'为例，找i左边的b,c,d,找j右边的b, c, d,单后dp(i, j) = 这些位置的dp值求和,当下一个为a的时候加上2即可。为了方便用了记忆化搜索。
+// ```
 long long dp[1002][1002];
 int per[1002][4], suf[1002][4];
 const int mod = 1e9 + 7;
@@ -56,4 +56,4 @@ public:
         return dfs(0, S.length() - 1, S);
     }
 };
-```
+// ```

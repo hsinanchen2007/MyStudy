@@ -1,4 +1,4 @@
-```c++
+// ```c++
 class Solution {
 public:
     vector<int>father;
@@ -43,4 +43,4 @@ public:
         return res;
     }
 };
-```
+// ```

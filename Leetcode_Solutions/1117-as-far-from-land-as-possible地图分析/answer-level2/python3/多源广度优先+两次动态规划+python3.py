@@ -1,9 +1,9 @@
-### 解题思路
-参考到解题区大佬的解法，写一个python版本的，详情请看注释。
+# ### 解题思路
+# 参考到解题区大佬的解法，写一个python版本的，详情请看注释。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
 #两次动态规划，先从左上到右下，再从右下到左上,如果用 f(x, y)记录左上方的 DP 结果，g(x, y) 记录右下方的DP结果可行吗？ 
@@ -88,4 +88,4 @@ class Solution:
 
         
 
-```
+# ```

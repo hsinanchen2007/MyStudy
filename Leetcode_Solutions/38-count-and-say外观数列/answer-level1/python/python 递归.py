@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def countAndSay(self, n):
         """
@@ -26,4 +26,4 @@ class Solution(object):
         if num:
             mystr += str(num) + cur
         return mystr
-```
+# ```

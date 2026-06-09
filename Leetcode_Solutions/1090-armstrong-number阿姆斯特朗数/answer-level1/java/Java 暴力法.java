@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean isArmstrong(int N) {
         String in = "" + N;
@@ -13,4 +13,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 int notRepeat(char *s, int begin, int end) {
     for (int i = begin; i < end + 1; i++) {
         for (int j = i + 1; j < end + 1; j++) {
@@ -27,4 +27,4 @@ int lengthOfLongestSubstring(char *s) {
     }
     return max;
 }
-```
+// ```

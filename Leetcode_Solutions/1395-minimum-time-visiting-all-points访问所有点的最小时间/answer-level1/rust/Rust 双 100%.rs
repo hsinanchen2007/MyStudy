@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn min_time_to_visit_all_points(points: Vec<Vec<i32>>) -> i32 {
         let mut time = 0;
@@ -22,4 +22,4 @@ impl Solution {
     }
 }
 
-```
+// ```

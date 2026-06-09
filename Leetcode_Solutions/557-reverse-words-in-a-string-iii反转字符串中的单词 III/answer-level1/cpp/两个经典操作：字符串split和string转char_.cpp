@@ -1,4 +1,4 @@
-```
+// ```
 //(1)
 char *a = new char[s.length()+1];
 vector<string> outputV;
@@ -11,9 +11,9 @@ while(p){
     p=strtok(NULL," "); //http://www.cplusplus.com/reference/cstring/strtok/?kw=strtok 
 }
 
-```
+// ```
 
-```
+// ```
 class Solution {
 public:
     string reverseWords(string s) {
@@ -40,4 +40,4 @@ public:
         return output;
     }
 };
-```
+// ```

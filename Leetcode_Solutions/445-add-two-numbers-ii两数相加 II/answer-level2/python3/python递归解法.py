@@ -1,7 +1,7 @@
-# 思路
-- 短的链表在前面补零节点直到和长的链表的长度相等，然后用递归的方法对每个节点的值进行相加，这个过程中直接对l1进行in-place的修改操作，使其每个节点存储都存储加和后的值，别忘了最后的进位就可以了。
+# # 思路
+# - 短的链表在前面补零节点直到和长的链表的长度相等，然后用递归的方法对每个节点的值进行相加，这个过程中直接对l1进行in-place的修改操作，使其每个节点存储都存储加和后的值，别忘了最后的进位就可以了。
 
-```python
+# ```python
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         self.c = 0  # 进位标志
@@ -51,4 +51,4 @@ class Solution:
             cur = cur.next
             length -= 1
         return head, cur
-```
+# ```

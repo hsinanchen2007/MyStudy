@@ -1,9 +1,9 @@
-### 解题思路
-此题与《和为K的子数组》https://leetcode-cn.com/problems/subarray-sum-equals-k/
-解法一致
-### 代码
+# ### 解题思路
+# 此题与《和为K的子数组》https://leetcode-cn.com/problems/subarray-sum-equals-k/
+# 解法一致
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numberOfSubarrays(self, nums: List[int], k: int) -> int:
         m = len(nums)
@@ -20,4 +20,4 @@ class Solution:
                 sum_dict[temp] += 1
         return ans
 
-```
+# ```

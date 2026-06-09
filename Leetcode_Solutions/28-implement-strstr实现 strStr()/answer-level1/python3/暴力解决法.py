@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-时间复杂度：o(n)
-空间复杂度：o(1)
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 时间复杂度：o(n)
+# 空间复杂度：o(1)
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def strStr(self, haystack, needle):
         """
@@ -22,4 +22,4 @@ class Solution(object):
 
             
 
-```
+# ```

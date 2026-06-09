@@ -1,5 +1,5 @@
-非递归的，后序既然是左-右-中，倒序就是中-右-左，把前序的左右互换就好了，只是输出时序列反转一下。
-```
+# 非递归的，后序既然是左-右-中，倒序就是中-右-左，把前序的左右互换就好了，只是输出时序列反转一下。
+# ```
 class Solution:
     def postorderTraversal(self, root: TreeNode) -> List[int]:
         #not recur
@@ -14,4 +14,4 @@ class Solution:
             else:
                 cur=stack.pop()
         return res[::-1]
-```
+# ```

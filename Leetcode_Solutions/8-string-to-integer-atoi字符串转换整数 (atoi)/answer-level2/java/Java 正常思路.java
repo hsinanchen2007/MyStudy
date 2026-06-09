@@ -1,5 +1,5 @@
-有点菜，凑合看看吧
-```
+// 有点菜，凑合看看吧
+// ```
 class Solution {
      public int myAtoi(String str) {
         if (str == null || str.length() == 0) return 0;
@@ -49,4 +49,4 @@ class Solution {
 
     }
 }
-```
+// ```

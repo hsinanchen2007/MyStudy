@@ -1,16 +1,16 @@
-**我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
+// **我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，求小星星呀(๑•̀ㅂ•́)و✧**
 
-思路：
+// 思路：
 
- 因为BST中序遍历的结果是节点升序，所以进行中序遍历找到P节点后遍历的下一个节点就是顺序后继节点
+//  因为BST中序遍历的结果是节点升序，所以进行中序遍历找到P节点后遍历的下一个节点就是顺序后继节点
 
-由题意可知，顺序后继节点可能有两种情况：
- * P是最后一个节点，顺序后继为null
- * P不是最后一个节点，顺序后继为P中序遍历之后的第一个节点
+// 由题意可知，顺序后继节点可能有两种情况：
+//  * P是最后一个节点，顺序后继为null
+//  * P不是最后一个节点，顺序后继为P中序遍历之后的第一个节点
 
-所以设定一个boolean指示是否找到P节点，并由boolean遍历的值来确定后继节点属于上述情况的哪种
+// 所以设定一个boolean指示是否找到P节点，并由boolean遍历的值来确定后继节点属于上述情况的哪种
 
-```
+// ```
 //中序遍历，找到P节点后遍历的下一个节点就是顺序后继节点
 TreeNode res;
 boolean findP = false;
@@ -38,4 +38,4 @@ private void helper(TreeNode root, TreeNode p) {
     }
     helper(root.right, p);
 }
-```
+// ```

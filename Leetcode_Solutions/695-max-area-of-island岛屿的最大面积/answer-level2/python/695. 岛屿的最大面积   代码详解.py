@@ -1,9 +1,9 @@
-### 解题思路
-BFS
+# ### 解题思路
+# BFS
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def maxAreaOfIsland(self, grid):
         #找到所有值为1的位置坐标
@@ -40,4 +40,4 @@ class Solution(object):
             cur_area = 0
         return max_area
 
-```
+# ```

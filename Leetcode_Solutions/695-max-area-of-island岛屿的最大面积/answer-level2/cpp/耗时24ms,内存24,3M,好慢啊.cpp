@@ -1,9 +1,9 @@
-### 解题思路
-想到的思路已就是查找每个为1的点上下左右点是否还是1,是的话继续，不是则不满足了。
+// ### 解题思路
+// 想到的思路已就是查找每个为1的点上下左右点是否还是1,是的话继续，不是则不满足了。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void getNeighbors(vector<vector<int>>& grid, int x, int y, int& count, int(&offset)[4][2])
@@ -56,4 +56,4 @@ public:
         return max;
     }
 };
-```
+// ```

@@ -1,23 +1,23 @@
-**快慢指针** 
-本题是NO.83删除排序链表中的重复元素的姊妹题，区别在于当出现重复的时候将发生重复的节点全部删除。
+// **快慢指针** 
+// 本题是NO.83删除排序链表中的重复元素的姊妹题，区别在于当出现重复的时候将发生重复的节点全部删除。
 
-慢指针slow指向哑节点，fast指向head并遍历链表。
+// 慢指针slow指向哑节点，fast指向head并遍历链表。
 
-如果fast节点的值等于fast下一个节点的值则继续遍历。
+// 如果fast节点的值等于fast下一个节点的值则继续遍历。
 
-否则值不相等或者fast已到达结尾的时候有两种情况：
+// 否则值不相等或者fast已到达结尾的时候有两种情况：
 
-1. fast和slow不相邻，指针之间存在重复的元素，则删除发生重复的节点，即`slow.next=fast.next`。
+// 1. fast和slow不相邻，指针之间存在重复的元素，则删除发生重复的节点，即`slow.next=fast.next`。
 
-   ![GVn2yn.png](https://pic.leetcode-cn.com/d258b190f2379ac38c0732dea071ae0f6e60e68742ad4bef083b3bb357e0700e.png)
+//    ![GVn2yn.png](https://pic.leetcode-cn.com/d258b190f2379ac38c0732dea071ae0f6e60e68742ad4bef083b3bb357e0700e.png)
 
-2. fast和slow相邻，则移动slow到fast的位置。
+// 2. fast和slow相邻，则移动slow到fast的位置。
 
-   ![GVngQs.png](https://pic.leetcode-cn.com/0d093f646b5d61a397a04f81110a4653f42c203b3f6a85e03db762803e6bb058.png)
+//    ![GVngQs.png](https://pic.leetcode-cn.com/0d093f646b5d61a397a04f81110a4653f42c203b3f6a85e03db762803e6bb058.png)
 
-循环直至fast遍历链表完毕。
+// 循环直至fast遍历链表完毕。
 
-```java
+// ```java
 public ListNode deleteDuplicates(ListNode head) {
     if (head==null||head.next==null)return head;
     ListNode dummy=new ListNode(-1);
@@ -37,12 +37,12 @@ public ListNode deleteDuplicates(ListNode head) {
     }
     return dummy.next;
 }
-```
+// ```
 
-时间复杂度：O(n)
+// 时间复杂度：O(n)
 
----
+// ---
 
-本人菜鸟，有错误请告知，感激不尽！
+// 本人菜鸟，有错误请告知，感激不尽！
 
-更多题解和源码:[github](https://github.com/Jerrymouse1998/learning-record-of-leetcode) 	
+// 更多题解和源码:[github](https://github.com/Jerrymouse1998/learning-record-of-leetcode) 	

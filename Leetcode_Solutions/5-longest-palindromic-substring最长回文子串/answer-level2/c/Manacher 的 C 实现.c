@@ -1,5 +1,5 @@
-Manacher算法
-```c
+// Manacher算法
+// ```c
 char *longestPalindrome(char *s) {
 	// 若字符串为空，则返回 ""
 	int sLength = strlen(s);
@@ -51,4 +51,4 @@ char *longestPalindrome(char *s) {
 	free(palindromeLength);
 	return t;
 }
-```
+// ```

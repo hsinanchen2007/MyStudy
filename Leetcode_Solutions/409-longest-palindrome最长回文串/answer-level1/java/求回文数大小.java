@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestPalindrome(String s) {
         int[] count =new int[123];
@@ -24,4 +24,4 @@ class Solution {
 
 
     
-```
+// ```

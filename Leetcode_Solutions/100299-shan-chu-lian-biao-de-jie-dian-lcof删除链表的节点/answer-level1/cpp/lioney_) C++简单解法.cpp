@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     ListNode* deleteNode(ListNode* head, int val) {
@@ -18,4 +18,4 @@ public:
         return head;
     }
 };
-```
+// ```

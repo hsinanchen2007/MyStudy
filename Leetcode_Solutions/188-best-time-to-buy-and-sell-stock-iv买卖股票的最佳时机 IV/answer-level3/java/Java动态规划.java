@@ -1,10 +1,10 @@
-### 解题思路
-首先需要判断k的大小，如果k >= n/2 的话，这样其实就不存在交易次数的限制，可以按照正常的买卖股票来处理
-我们定义两个数组，buy 和sell 分别存放第i次交易中买入和卖出后的收益
+// ### 解题思路
+// 首先需要判断k的大小，如果k >= n/2 的话，这样其实就不存在交易次数的限制，可以按照正常的买卖股票来处理
+// 我们定义两个数组，buy 和sell 分别存放第i次交易中买入和卖出后的收益
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int k, int[] prices) {
         if(prices == null || prices.length == 0) return 0;
@@ -36,4 +36,4 @@ class Solution {
         return sell[k];
     }
 }
-```
+// ```

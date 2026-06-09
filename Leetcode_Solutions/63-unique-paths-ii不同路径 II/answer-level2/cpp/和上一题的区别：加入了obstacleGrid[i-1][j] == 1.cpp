@@ -1,13 +1,13 @@
-### 解题思路
-递推公式还是上一题的
-dp[i][j] = dp[i-1][j] + dp[i][j-1]
-但是多了if(obstacleGrid[i-1][j] == 1)与if(obstacleGrid[i][j-1] == 1)的判断
+// ### 解题思路
+// 递推公式还是上一题的
+// dp[i][j] = dp[i-1][j] + dp[i][j-1]
+// 但是多了if(obstacleGrid[i-1][j] == 1)与if(obstacleGrid[i][j-1] == 1)的判断
 
-此外要注意test case中，存在两个int相加越界的情况，因此我用了long
+// 此外要注意test case中，存在两个int相加越界的情况，因此我用了long
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
@@ -38,7 +38,7 @@ public:
         return dp.back().back();
     }
 };
-```
-###结果
-执行用时 : 4 ms , 在所有 C++ 提交中击败了 85.70% 的用户 
-内存消耗 : 7.1 MB , 在所有 C++ 提交中击败了 100.00% 的用户
+// ```
+// ###结果
+// 执行用时 : 4 ms , 在所有 C++ 提交中击败了 85.70% 的用户 
+// 内存消耗 : 7.1 MB , 在所有 C++ 提交中击败了 100.00% 的用户

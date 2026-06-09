@@ -1,5 +1,5 @@
-直接上代码吧
-```
+// 直接上代码吧
+// ```
 public class Solution {
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null || head.next.next == null) {
@@ -24,4 +24,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

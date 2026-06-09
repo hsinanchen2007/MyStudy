@@ -1,9 +1,9 @@
-### 解题思路
-数组反转判断
+// ### 解题思路
+// 数组反转判断
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {boolean}
@@ -17,4 +17,4 @@ var isPalindrome = function(x) {
     return xstring == array.reverse().join("");
 
 };
-```
+// ```

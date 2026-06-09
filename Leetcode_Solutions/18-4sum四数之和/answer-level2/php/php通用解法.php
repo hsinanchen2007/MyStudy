@@ -1,5 +1,5 @@
-php K数之和通用解法
-```
+// php K数之和通用解法
+// ```
 class Solution {
 
     /**
@@ -47,4 +47,4 @@ class Solution {
 		return $res;
 	}
 }
-```
+// ```

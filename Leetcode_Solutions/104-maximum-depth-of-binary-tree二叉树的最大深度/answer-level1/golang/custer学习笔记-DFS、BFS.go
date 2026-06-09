@@ -1,16 +1,16 @@
-# 思考
+// # 思考
 
-## DFS
+// ## DFS
 
-- 找出终止条件：当前节点为空
-- 找出返回值：节点为空时说明高度为0，所以返回0；节点不为空时则分别求左右子树的高度的最大值，同时加1表示当前节点的高度，返回该数值
-- 某层的执行过程：在返回值部分基本已经描述清楚
-- 时间复杂度: O(n)，其中n是节点的数量
-- 空间复杂度，在最糟糕的情况下，树是完全不平衡的，例如每个节点只剩下左子节点，递归将会被调用N次(树的高度)，因此保持调用栈的存储将是O(N)。但在最好的情况下(平衡二叉树)，树的高度是log(N)，所以在这种情况下的空间复杂度是O(logN)。
+// - 找出终止条件：当前节点为空
+// - 找出返回值：节点为空时说明高度为0，所以返回0；节点不为空时则分别求左右子树的高度的最大值，同时加1表示当前节点的高度，返回该数值
+// - 某层的执行过程：在返回值部分基本已经描述清楚
+// - 时间复杂度: O(n)，其中n是节点的数量
+// - 空间复杂度，在最糟糕的情况下，树是完全不平衡的，例如每个节点只剩下左子节点，递归将会被调用N次(树的高度)，因此保持调用栈的存储将是O(N)。但在最好的情况下(平衡二叉树)，树的高度是log(N)，所以在这种情况下的空间复杂度是O(logN)。
 
-## Go实现
+// ## Go实现
 
-```go
+// ```go
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -28,11 +28,11 @@ func maxDepth(root *TreeNode) int {
         return int(math.Max(float64(left), float64(right)) + 1) // 深度加上根节点
     }
 }
-```
+// ```
 
-**[便于理解](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/0msgo-shi-xian-by-elliotxx/)**
+// **[便于理解](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/solution/0msgo-shi-xian-by-elliotxx/)**
 
-```go
+// ```go
 func maxDepth(root *TreeNode) int {
     if root == nil {    // 终止条件
         return 0
@@ -45,22 +45,22 @@ func maxDepth(root *TreeNode) int {
         return rdepth
     }
 }
-```
+// ```
 
-**[最简化](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/comments/99998)**
+// **[最简化](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/comments/99998)**
 
-```go
+// ```go
 func maxDepth(root *TreeNode) int {
   if root == nil {
     return 0
   }
   return 1 + int(math.Max(float64(maxDepth(root.Left)), float64(maxDepth(root.Right))))
 }
-```
+// ```
 
-## 迭代方法
+// ## 迭代方法
 
-```go
+// ```go
 func maxDepth(root *TreeNode) int {
     if root == nil {
         return 0
@@ -85,4 +85,4 @@ func maxDepth(root *TreeNode) int {
     }
     return depth
 }
-```
+// ```

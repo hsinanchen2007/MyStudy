@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -41,4 +41,4 @@ int* advantageCount(int* A, int ASize, int* B, int BSize, int* returnSize){
     }
     return ret;
 }
-```
+// ```

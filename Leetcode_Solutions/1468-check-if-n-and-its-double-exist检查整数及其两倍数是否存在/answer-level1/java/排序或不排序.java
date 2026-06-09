@@ -1,5 +1,5 @@
-- 先排序，第二遍解决负数问题
-```java
+// - 先排序，第二遍解决负数问题
+// ```java
 public boolean checkIfExist(int[] arr) {
     Arrays.sort(arr); // 负数...0...0...正数
     Set<Integer> set = new HashSet<>();
@@ -16,9 +16,9 @@ public boolean checkIfExist(int[] arr) {
     }
     return false;
 }
-```
-- 不排序，直接Set
-```java
+// ```
+// - 不排序，直接Set
+// ```java
 public boolean checkIfExist(int[] arr) {
     Set<Integer> set = new HashSet<>();
     for (int value : arr) {
@@ -28,5 +28,5 @@ public boolean checkIfExist(int[] arr) {
     }
     return false;
 }
-```
+// ```
 

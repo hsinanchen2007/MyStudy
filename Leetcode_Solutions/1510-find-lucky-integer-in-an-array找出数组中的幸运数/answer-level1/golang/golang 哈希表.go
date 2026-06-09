@@ -1,4 +1,4 @@
-```
+// ```
 func findLucky(arr []int) int {
     list := make([]int, 500)
     res := 0
@@ -23,4 +23,4 @@ func max(x, y int) int {
     }
     return y
 }
-```
+// ```

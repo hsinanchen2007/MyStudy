@@ -1,9 +1,9 @@
-### 解题思路
-使用队列模拟感染路线，先进先出（FIFO）的感染。
+# ### 解题思路
+# 使用队列模拟感染路线，先进先出（FIFO）的感染。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def orangesRotting(self, grid: List[List[int]]) -> int:
         q = collections.deque()
@@ -39,4 +39,4 @@ class Solution:
         return ans
         
         
-```
+# ```

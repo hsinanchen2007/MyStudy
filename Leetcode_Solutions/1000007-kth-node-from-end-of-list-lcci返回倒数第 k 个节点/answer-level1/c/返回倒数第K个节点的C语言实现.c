@@ -1,12 +1,12 @@
-### 解题思路
-该题利用链表的反转来解决，思路如下:
-* 入参检查
-* 链表反转
-* 遍历反转后的链表，并输出第k个节点的值
+// ### 解题思路
+// 该题利用链表的反转来解决，思路如下:
+// * 入参检查
+// * 链表反转
+// * 遍历反转后的链表，并输出第k个节点的值
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -49,4 +49,4 @@ int kthToLast(struct ListNode* head, int k)
     }
     return tmp->val;
 }
-```
+// ```

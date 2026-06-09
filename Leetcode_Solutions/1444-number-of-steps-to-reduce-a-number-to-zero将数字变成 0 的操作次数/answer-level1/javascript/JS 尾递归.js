@@ -1,9 +1,9 @@
-### 解题思路
-&emsp;&emsp;偶数除2，奇数减一，累加cnt，操作数为0时返回cnt。
+// ### 解题思路
+// &emsp;&emsp;偶数除2，奇数减一，累加cnt，操作数为0时返回cnt。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} num
  * @return {number}
@@ -15,4 +15,4 @@ var numberOfSteps  = function(num) {
     }
     return dfs(num, 0);
 };
-```
+// ```

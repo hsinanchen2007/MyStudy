@@ -1,4 +1,4 @@
-# **写法一：**
+// # **写法一：**
 
      function isPalindrome($head) {
         if($head == null ||$head->next == null) 

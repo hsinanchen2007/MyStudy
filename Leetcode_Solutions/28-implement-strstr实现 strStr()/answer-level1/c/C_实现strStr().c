@@ -1,9 +1,9 @@
-### 解题思路
-测试用例 "" ""和"aa" ""和"aaa" "aaaa" 要注意考虑
+// ### 解题思路
+// 测试用例 "" ""和"aa" ""和"aaa" "aaaa" 要注意考虑
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int strStr(char * haystack, char * needle){
     //算上'\0'的元素个数
     int haystackLength=0,needleLength=0;
@@ -32,4 +32,4 @@ int strStr(char * haystack, char * needle){
     }
     return -1;
 }
-```
+// ```

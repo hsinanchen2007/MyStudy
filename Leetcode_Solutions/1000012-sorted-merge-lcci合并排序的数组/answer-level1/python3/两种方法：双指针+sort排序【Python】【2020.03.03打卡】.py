@@ -1,21 +1,21 @@
-### 思路
+# ### 思路
 
-##### 解法一
+# ##### 解法一
 
-**双指针**
+# **双指针**
 
-```
+# ```
 指针 i 指向 A[m-1]，指针 j 指向 B[n-1]。
 A[i] 与 B[j] 相比较，取较大值插在 A 尾部，i、j 指针再分别往前移。
 如果 i 指针已经移到 A 头部，判断如果 B 还有元素，就直接插在 A 前面。
-```
+# ```
 
-**时间复杂度:** O(m+n)
-**空间复杂度:** O(1)
+# **时间复杂度:** O(m+n)
+# **空间复杂度:** O(1)
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -40,22 +40,22 @@ class Solution:
                 i -= 1
         if j > -1:
             A[:j + 1] = B[:j  + 1]  # A = [], B = [1]
-```
+# ```
 
-##### 解法二
+# ##### 解法二
 
-**排序**
+# **排序**
 
-```
+# ```
 B 插在 A 尾部，再利用 sort 函数排下序。
-```
+# ```
 
-**时间复杂度:** O((m+n)log(m+n))
-**空间复杂度:** O(log(m+n))
+# **时间复杂度:** O((m+n)log(m+n))
+# **空间复杂度:** O(log(m+n))
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution:
     def merge(self, A: List[int], m: int, B: List[int], n: int) -> None:
         """
@@ -64,12 +64,12 @@ class Solution:
         # solution one: sort
         A[m:] = B
         A.sort()
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/Interview-10.01-Sorted-Merge-LCCI/1001.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/Interview-10.01-Sorted-Merge-LCCI/1001.py)
 
-### 相关题目
+# ### 相关题目
 
-[LeetCode 0088. Merge Sorted Array合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)
+# [LeetCode 0088. Merge Sorted Array合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/)

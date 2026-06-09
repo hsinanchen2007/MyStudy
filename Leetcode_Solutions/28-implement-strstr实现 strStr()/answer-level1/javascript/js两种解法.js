@@ -1,7 +1,7 @@
-一般解法
-![image.png](https://pic.leetcode-cn.com/c38cdc5f469eaa0dd51b4386af84cc86dd3e04b73c96d7237095c1b3018afb5f-image.png)
+// 一般解法
+// ![image.png](https://pic.leetcode-cn.com/c38cdc5f469eaa0dd51b4386af84cc86dd3e04b73c96d7237095c1b3018afb5f-image.png)
 
-```
+// ```
 var strStr = function(haystack, needle) {
     if(!needle) return 0;  //字符串为空时返回0
     if(needle.length>haystack.length) return -1;//目标字符串长度大于查找字符串的长度时返回-1
@@ -16,11 +16,11 @@ var strStr = function(haystack, needle) {
     }
     return result;
 };
-```
-Sunday解法
-![image.png](https://pic.leetcode-cn.com/fc51e08ab48ac287527b48f6b5d622ec98b1dd30edae3a307373b477ff1d1505-image.png)
+// ```
+// Sunday解法
+// ![image.png](https://pic.leetcode-cn.com/fc51e08ab48ac287527b48f6b5d622ec98b1dd30edae3a307373b477ff1d1505-image.png)
 
-```
+// ```
 var strStr = function(haystack, needle) {
     if(!needle) return 0;
     if(needle.length>haystack.length) return -1;
@@ -48,6 +48,6 @@ var strStr = function(haystack, needle) {
     }
     return result;
 };
-```
+// ```
 
-看了前面大神的Sunday思路写出来的，对比普通解法，时间只快了一点点，反倒是内存消耗增加了很多，是不是俺哪里写的不对 
+// 看了前面大神的Sunday思路写出来的，对比普通解法，时间只快了一点点，反倒是内存消耗增加了很多，是不是俺哪里写的不对 

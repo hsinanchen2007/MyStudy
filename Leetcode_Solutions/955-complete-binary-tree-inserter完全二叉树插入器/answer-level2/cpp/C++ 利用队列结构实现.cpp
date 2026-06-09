@@ -1,5 +1,5 @@
-利用队列实现头部删除过时的父节点，尾部添加新增子节点，循环往复
-```
+// 利用队列实现头部删除过时的父节点，尾部添加新增子节点，循环往复
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -67,6 +67,6 @@ public:
  * int param_1 = obj->insert(v);
  * TreeNode* param_2 = obj->get_root();
  */
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/fe5e4cc887575950d8de5c158783a0b61486bed503470de735f7334e54f0b8fb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fe5e4cc887575950d8de5c158783a0b61486bed503470de735f7334e54f0b8fb-image.png)

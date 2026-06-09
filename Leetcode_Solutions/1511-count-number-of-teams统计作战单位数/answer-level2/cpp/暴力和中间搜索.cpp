@@ -1,10 +1,10 @@
-### 解题思路
-可以暴力搜索O(N^3)
-可以O(N^2)
+// ### 解题思路
+// 可以暴力搜索O(N^3)
+// 可以O(N^2)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numTeams(vector<int>& rating) {
@@ -45,4 +45,4 @@ public:
         return res;
     }
 };
-```
+// ```

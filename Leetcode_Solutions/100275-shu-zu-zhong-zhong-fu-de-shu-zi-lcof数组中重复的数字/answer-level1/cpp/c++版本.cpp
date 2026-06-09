@@ -1,9 +1,9 @@
-### 解题思路
-使用了一个辅助数组
+// ### 解题思路
+// 使用了一个辅助数组
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findRepeatNumber(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return 0;
     }
 };
-```
+// ```

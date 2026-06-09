@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun numComponents(head: ListNode?, G: IntArray): Int {
         var node = head
@@ -21,4 +21,4 @@ class Solution {
     }
 }
 
-```
+// ```

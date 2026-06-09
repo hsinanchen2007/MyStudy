@@ -1,9 +1,9 @@
-### 解题思路
-* 关键点是选择最小几何做数组初始化，然后利用api拷贝出一个新的数组
+// ### 解题思路
+// * 关键点是选择最小几何做数组初始化，然后利用api拷贝出一个新的数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] intersection(int[] nums1, int[] nums2) {
        HashSet<Integer> set1 = new HashSet<Integer>();
@@ -32,4 +32,4 @@ class Solution {
     return Arrays.copyOf(output, idx);
   }
 }
-```
+// ```

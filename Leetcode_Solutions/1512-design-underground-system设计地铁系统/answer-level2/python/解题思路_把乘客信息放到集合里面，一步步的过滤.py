@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from collections import namedtuple
 
 
@@ -37,6 +37,6 @@ class UndergroundSystem:
                 if a.id == b.id:
                     res.append(b.t - a.t)
         return sum(res) / len(res)
-```
-时间复杂度：O(n^2)
-空间复杂度：O(n)
+# ```
+# 时间复杂度：O(n^2)
+# 空间复杂度：O(n)

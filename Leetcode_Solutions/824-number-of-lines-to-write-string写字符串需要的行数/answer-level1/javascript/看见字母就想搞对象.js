@@ -1,6 +1,6 @@
-### 解题思路
+// ### 解题思路
 
-```
+// ```
 如:widths = [10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10],
 S = "abcdefghijklmnopqrstuvwxyz"
 
@@ -20,12 +20,12 @@ S = "abcdefghijklmnopqrstuvwxyz"
 当然有特殊情况, 当相加 要大于 100 时, 就把前面累加的数push到 arr中, 把num重新赋值为 当前项数值, 然后继续
 
 当如果是最后一项,且相加 要大于一百, 则直接往arr中push之前的num后,在push当前项.
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} widths
  * @param {string} S
@@ -58,16 +58,16 @@ var numberOfLines = function(widths, S) {
   })
   return [arr.length,arr[arr.length-1]]
 };
-```
+// ```
 
 
-哈哈, 看着字母的就忍不住想用对象来, 想复杂了
+// 哈哈, 看着字母的就忍不住想用对象来, 想复杂了
 
-其实, widths 是按照 a-z 固定排序的, 那么就可以通过S中字母推算出 字母对应 widths 的 索引, 就可以直接得出S字母对应的数值了
+// 其实, widths 是按照 a-z 固定排序的, 那么就可以通过S中字母推算出 字母对应 widths 的 索引, 就可以直接得出S字母对应的数值了
 
-累加也不用想这么复杂, 满足大于100的直接,行数直接加1, 然后累计数重新赋值
+// 累加也不用想这么复杂, 满足大于100的直接,行数直接加1, 然后累计数重新赋值
 
-```
+// ```
 如:widths = [4,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10],
 S = "bbbcccdddaaa"
 
@@ -81,10 +81,10 @@ S = "bbbcccdddaaa"
 
 结束循环时, line = 2, total = 4
     
-```
+// ```
 
 
-```js
+// ```js
 var numberOfLines = function(widths, S) {
   let line= 1,total = 0
   for(let prop of S){
@@ -97,4 +97,4 @@ var numberOfLines = function(widths, S) {
   }
   return [line,total]
 };
-```
+// ```

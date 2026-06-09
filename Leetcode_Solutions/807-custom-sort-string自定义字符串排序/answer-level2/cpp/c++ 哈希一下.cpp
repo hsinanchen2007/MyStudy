@@ -1,9 +1,9 @@
-### 解题思路
-直接看代码，很简单。
+// ### 解题思路
+// 直接看代码，很简单。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string customSortString(string S, string T) {
@@ -26,4 +26,4 @@ public:
         return ans;
     }
 };
-```
+// ```

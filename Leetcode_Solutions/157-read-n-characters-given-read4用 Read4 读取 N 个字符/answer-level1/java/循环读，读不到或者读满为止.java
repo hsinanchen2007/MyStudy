@@ -1,9 +1,9 @@
-### 解题思路
-循环读，读不到或者读满为止
+// ### 解题思路
+// 循环读，读不到或者读满为止
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * The read4 API is defined in the parent class Reader4.
  *     int read4(char[] buf);
@@ -34,4 +34,4 @@ public class Solution extends Reader4 {
         return i;
     }
 }
-```
+// ```

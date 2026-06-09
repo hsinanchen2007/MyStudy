@@ -1,9 +1,9 @@
-### 解题思路
-一个个push进去再判断一下
+// ### 解题思路
+// 一个个push进去再判断一下
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
@@ -37,4 +37,4 @@ public:
         return ans;
     }
 };
-```
+// ```

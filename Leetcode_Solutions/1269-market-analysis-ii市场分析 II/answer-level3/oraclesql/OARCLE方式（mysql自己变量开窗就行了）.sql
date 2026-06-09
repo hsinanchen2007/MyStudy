@@ -1,5 +1,5 @@
-#sql题一致是这种，待优化吧
-```
+-- #sql题一致是这种，待优化吧
+-- ```
 /* Write your PL/SQL query statement below */
 SELECT a.user_id AS seller_id
 	, CASE 
@@ -20,4 +20,4 @@ FROM (
 		ON a.user_id = b.seller_id
 ) a
 	LEFT JOIN Items b ON a.item_id = b.item_id
-```
+-- ```

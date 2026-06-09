@@ -1,11 +1,11 @@
-### 解题思路
-和12题思路基本一致，只是增加了一个discoveryed_plots存储走过的点，此外加入了canBeIn方法来判断是否可以走到某个点
+# ### 解题思路
+# 和12题思路基本一致，只是增加了一个discoveryed_plots存储走过的点，此外加入了canBeIn方法来判断是否可以走到某个点
 
-建议亲自写一遍本题或12题体会思路
+# 建议亲自写一遍本题或12题体会思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     discoveryed_plots = []
 
@@ -46,4 +46,4 @@ class Solution:
         self.discovery(matrix, 0, 0, k)
 
         return len(self.discoveryed_plots)
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-由题目可知，2-7 对应的是abc + num*3，其中7多进了一位
-从8-9 则是bcd+num*3 ，然后9多了一个z既可。
+// ### 解题思路
+// 由题目可知，2-7 对应的是abc + num*3，其中7多进了一位
+// 从8-9 则是bcd+num*3 ，然后9多了一个z既可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> vecResult;
@@ -46,4 +46,4 @@ public:
         return;
     }
 };
-```
+// ```

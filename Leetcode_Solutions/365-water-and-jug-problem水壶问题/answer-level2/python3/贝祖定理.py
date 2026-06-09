@@ -1,7 +1,7 @@
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
 
@@ -12,4 +12,4 @@ class Solution:
         return z % math.gcd(x, y) == 0
 
 
-```
+# ```

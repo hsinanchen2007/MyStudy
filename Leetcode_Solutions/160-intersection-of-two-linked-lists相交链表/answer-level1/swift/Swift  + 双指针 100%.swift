@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     func getIntersectionNode(_ headA: ListNode?, _ headB: ListNode?) -> ListNode? {
         if headA == nil || headB == nil {
@@ -27,4 +27,4 @@ class Solution {
         return nil
     }
 }
-```
+// ```

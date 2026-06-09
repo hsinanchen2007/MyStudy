@@ -1,10 +1,10 @@
-### 解题思路
-只是做个笔记以后好回顾，后续施工多几种思路
+// ### 解题思路
+// 只是做个笔记以后好回顾，后续施工多几种思路
 
-### 代码
+// ### 代码
 
-1.暴力法
-```c
+// 1.暴力法
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -28,4 +28,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize)
     *returnSize=0;
     return 0;
 }
-```
+// ```

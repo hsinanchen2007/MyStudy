@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-创建 self.s = [] 作为栈。但是 s 中每个元素第一个是真实的值，第二个是增加的值，每次 increment 操作，不直接增加栈里元素，而是记录在栈里相应位置的元素的这个列表中，直到 pop 的才加起来，而且累加到前面一个元素上。
+# 创建 self.s = [] 作为栈。但是 s 中每个元素第一个是真实的值，第二个是增加的值，每次 increment 操作，不直接增加栈里元素，而是记录在栈里相应位置的元素的这个列表中，直到 pop 的才加起来，而且累加到前面一个元素上。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class CustomStack:
 
     def __init__(self, maxSize: int):
@@ -41,4 +41,4 @@ class CustomStack:
 # obj.push(x)
 # param_2 = obj.pop()
 # obj.increment(k,val)
-```
+# ```

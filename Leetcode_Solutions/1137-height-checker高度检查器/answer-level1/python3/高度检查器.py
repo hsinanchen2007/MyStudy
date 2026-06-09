@@ -1,9 +1,9 @@
-### 解题思路
-非降序的意思就是一直是升序，所以先升序排列heights，再和heights对比，位置不一致的就是异常的。
+# ### 解题思路
+# 非降序的意思就是一直是升序，所以先升序排列heights，再和heights对比，位置不一致的就是异常的。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def heightChecker(self, heights):
         """
@@ -29,4 +29,4 @@ class Solution(object):
          
         
 
-```
+# ```

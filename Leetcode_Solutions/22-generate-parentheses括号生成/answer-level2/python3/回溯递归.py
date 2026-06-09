@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         def generate(prefix, left, right, parens=[]):
@@ -12,4 +12,4 @@ class Solution:
             if right > left: generate(prefix + ')', left, right-1)
             return parens
         return generate('', n, n)
-```
+# ```

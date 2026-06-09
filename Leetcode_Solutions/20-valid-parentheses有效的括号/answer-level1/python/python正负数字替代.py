@@ -1,5 +1,5 @@
-通过堆栈进行左右匹配
-```
+# 通过堆栈进行左右匹配
+# ```
 代码块
 class Solution(object):
     def isValid(self, s):
@@ -17,7 +17,7 @@ class Solution(object):
         if len(stack)==1:
             return True
         return False
-```
+# ```
 
 
 

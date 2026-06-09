@@ -1,9 +1,9 @@
-### 解题思路
-使用Java8的特性，使用map暂存每个数的下标地址，之后获取出来长度的value(其实就是最大的度)的集合(有可能为多个下标集合)，之后获取其中最小长度就行
+// ### 解题思路
+// 使用Java8的特性，使用map暂存每个数的下标地址，之后获取出来长度的value(其实就是最大的度)的集合(有可能为多个下标集合)，之后获取其中最小长度就行
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findShortestSubArray(int[] nums) {
         if (nums == null || nums.length == 0) {
@@ -30,4 +30,4 @@ class Solution {
         return minLen;
     }
 }
-```
+// ```

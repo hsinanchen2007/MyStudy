@@ -1,10 +1,10 @@
-### 解题思路
-![Snipaste_2020-03-18_15-09-04.png](https://pic.leetcode-cn.com/dd6d0bc941dbd158273d1b05cf7380ebf5446ffca203fb48d9f6175425d7fadb-Snipaste_2020-03-18_15-09-04.png)
+// ### 解题思路
+// ![Snipaste_2020-03-18_15-09-04.png](https://pic.leetcode-cn.com/dd6d0bc941dbd158273d1b05cf7380ebf5446ffca203fb48d9f6175425d7fadb-Snipaste_2020-03-18_15-09-04.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -37,4 +37,4 @@ char ** findOcurrences(char * text, char * first, char * second, int* returnSize
     *returnSize=index;
     return buffer;
 }
-```
+// ```

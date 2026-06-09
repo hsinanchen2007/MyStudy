@@ -1,9 +1,9 @@
-### 解题思路2
-直接链表基础上相加得到最终链表
+# ### 解题思路2
+# 直接链表基础上相加得到最终链表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -36,12 +36,12 @@ class Solution:
         if flag==1:
             lst.next = ListNode(1)
         return lst_copy.next
-```
-### 解题思路1
-先将链表转换成列表，再转换成数字相加后，再转换成列表，用以生成最后的链表
+# ```
+# ### 解题思路1
+# 先将链表转换成列表，再转换成数字相加后，再转换成列表，用以生成最后的链表
 
-### 代码
-```
+# ### 代码
+# ```
 #Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -76,4 +76,4 @@ class Solution:
                 l.next=ListNode(k)
                 l = l.next
         return l_copy
-```
+# ```

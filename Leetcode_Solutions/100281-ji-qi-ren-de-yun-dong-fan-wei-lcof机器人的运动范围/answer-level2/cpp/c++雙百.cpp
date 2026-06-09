@@ -1,9 +1,9 @@
-### 解题思路
-簡單暴力
+// ### 解题思路
+// 簡單暴力
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int movingCount(int m, int n, int k) {
@@ -35,4 +35,4 @@ public:
         return steps;
     }
 };
-```
+// ```

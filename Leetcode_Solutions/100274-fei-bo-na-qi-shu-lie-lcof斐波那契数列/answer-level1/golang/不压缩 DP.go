@@ -1,4 +1,4 @@
-```
+// ```
 func fib(n int) int {
     var ( i = 0
     fibs = make([]int, 102))
@@ -10,4 +10,4 @@ func fib(n int) int {
     }
     return fibs[n]
 }
-```
+// ```

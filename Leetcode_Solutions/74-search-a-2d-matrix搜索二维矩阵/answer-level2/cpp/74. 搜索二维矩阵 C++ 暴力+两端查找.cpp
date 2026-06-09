@@ -1,13 +1,13 @@
-### 解题思路
-1.二分查找
-2.两端遍历
+// ### 解题思路
+// 1.二分查找
+// 2.两端遍历
 
 
-1.二分查找
-每行二分查找
-### 代码
+// 1.二分查找
+// 每行二分查找
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>> &matrix, int target)
@@ -23,10 +23,10 @@ public:
         return false;
     }
 };
-```
+// ```
 
-2.两端遍历
-```cpp
+// 2.两端遍历
+// ```cpp
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -70,4 +70,4 @@ public:
 
     }
 };
-```
+// ```

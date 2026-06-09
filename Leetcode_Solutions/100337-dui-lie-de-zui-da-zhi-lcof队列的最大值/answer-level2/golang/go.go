@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MaxQueue struct {
     queue []int
     max []int
@@ -58,4 +58,4 @@ func (this *MaxQueue) Pop_front() int {
  * obj.Push_back(value);
  * param_3 := obj.Pop_front();
  */
-```
+// ```

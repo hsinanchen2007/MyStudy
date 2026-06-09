@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 
 var maxSlidingWindow = function(nums, k) {
     let res = [];
@@ -18,4 +18,4 @@ var maxSlidingWindow = function(nums, k) {
     return res
 };
 
-```
+// ```

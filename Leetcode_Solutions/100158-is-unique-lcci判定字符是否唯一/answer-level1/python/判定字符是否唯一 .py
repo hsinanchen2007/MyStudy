@@ -1,9 +1,9 @@
-### 解题思路
-思路来自 **珍珠好好吃** 作者，位运算非常棒！
+# ### 解题思路
+# 思路来自 **珍珠好好吃** 作者，位运算非常棒！
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution:
   def isUnique(self, astr):
     mark = 0   #26个字母，因此假设mark是26位二进制数000...0000
@@ -16,4 +16,4 @@ class Solution:
         mark |= (1 << move_bit)
     return True
 
-```
+# ```

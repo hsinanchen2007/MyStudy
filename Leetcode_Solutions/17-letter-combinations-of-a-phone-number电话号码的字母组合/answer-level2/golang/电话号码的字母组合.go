@@ -1,10 +1,10 @@
-### 17. 电话号码的字母组合
-题意：给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合。给出数字到字母的映射如下（与电话按键相同）。注意 1 不对应任何字母。
+// ### 17. 电话号码的字母组合
+// 题意：给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合。给出数字到字母的映射如下（与电话按键相同）。注意 1 不对应任何字母。
 
-解题思路：水题，排列组合
+// 解题思路：水题，排列组合
 
-1A 0ms 2.6M
-```
+// 1A 0ms 2.6M
+// ```
 func letterCombinations(digits string) []string {
 	keyBoard := make(map[int][]string)
 	keyBoard[2] = []string{"a","b","c"}
@@ -35,4 +35,4 @@ func combine(a []string,b []string)[]string{
 	}
 	return result
 }
-```
+// ```

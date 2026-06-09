@@ -1,8 +1,8 @@
-1、拓扑排序
+# 1、拓扑排序
 
-这里用出度方便，注意邻接矩阵要重新生成
+# 这里用出度方便，注意邻接矩阵要重新生成
 
-```
+# ```
 def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:  
     n, res = len(graph), []
     outdegrees = [len(graph[i]) for i in range(n)]
@@ -23,13 +23,13 @@ def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
             if outdegrees[i] == 0:
                 queue.append(i)                    
     return sorted(res)
-```
+# ```
 
-2、DFS
+# 2、DFS
 
-这里要记录整体的已访问节点，和每个路径中的节点
+# 这里要记录整体的已访问节点，和每个路径中的节点
 
-```
+# ```
 def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]: 
     def dfs(node, path):
         if node in visited: 
@@ -44,6 +44,6 @@ def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
     for i in range(n):            
         if i not in visited: dfs(i, set())                
     return [i for i in range(n) if visited[i]]
-```
+# ```
 
 

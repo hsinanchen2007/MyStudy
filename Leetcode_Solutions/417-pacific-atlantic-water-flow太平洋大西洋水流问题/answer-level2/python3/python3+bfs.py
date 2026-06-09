@@ -1,9 +1,9 @@
-### 解题思路
-大家都用的DFS，我贴一个BFS的吧
+# ### 解题思路
+# 大家都用的DFS，我贴一个BFS的吧
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def pacificAtlantic(self, matrix: List[List[int]]) -> List[List[int]]:
         if not matrix or not matrix[0]: return []
@@ -36,4 +36,4 @@ class Solution:
                     (tmp_x,tmp_y) not in res2:
                     stack2.append((tmp_x,tmp_y))
         return res1 & res2
-```
+# ```

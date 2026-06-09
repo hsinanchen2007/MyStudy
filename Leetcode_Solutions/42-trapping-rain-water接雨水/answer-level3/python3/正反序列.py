@@ -1,10 +1,10 @@
-### 解题思路
-正序列计数到最高峰
-逆序列计数到最高峰
+# ### 解题思路
+# 正序列计数到最高峰
+# 逆序列计数到最高峰
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def trap(self, height: List[int]) -> int:
         if len(height)==0:
@@ -37,4 +37,4 @@ class Solution:
 
         return ans
 
-```
+# ```

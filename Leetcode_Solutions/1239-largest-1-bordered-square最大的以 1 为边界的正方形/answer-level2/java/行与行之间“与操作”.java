@@ -1,36 +1,36 @@
-# 相似题目题解
-[221.最大正方形](https://leetcode-cn.com/problems/maximal-square/solution/xing-yu-xing-zhi-jian-jin-xing-yu-cao-zuo-zai-ji-s/)
-[764.最大加号标志](https://leetcode-cn.com/problems/largest-plus-sign/solution/xing-yu-xing-zhi-jian-jin-xing-yu-cao-zuo-by-gfu/)
-[1277. 统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/solution/xing-yu-xing-yu-cao-zuo-by-gfu/)
-![微信图片_20191220152636.png](https://pic.leetcode-cn.com/d0ef171b76c192d398e23b5f6759ff2d350066d69bb824c111655d04373c405d-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191220152636.png)
+// # 相似题目题解
+// [221.最大正方形](https://leetcode-cn.com/problems/maximal-square/solution/xing-yu-xing-zhi-jian-jin-xing-yu-cao-zuo-zai-ji-s/)
+// [764.最大加号标志](https://leetcode-cn.com/problems/largest-plus-sign/solution/xing-yu-xing-zhi-jian-jin-xing-yu-cao-zuo-by-gfu/)
+// [1277. 统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/solution/xing-yu-xing-yu-cao-zuo-by-gfu/)
+// ![微信图片_20191220152636.png](https://pic.leetcode-cn.com/d0ef171b76c192d398e23b5f6759ff2d350066d69bb824c111655d04373c405d-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191220152636.png)
 
-# 思路
-先选定**首尾2行**，将**首尾2行**之间(包含**首尾2行**)的所有行 进行**与操作** 得到**1行结果**(称为 **结果行**)。
-将首尾2行 做 与操作，得到 **首尾结果行**。
-在**结果行**中**记录**所有 值为1的**下标**，而利用每对下标，可以构成区间。
-判断在**首尾结果行**中的区间内是否都为1，且区间长度 == 正方形高度，则更新结果值。
+// # 思路
+// 先选定**首尾2行**，将**首尾2行**之间(包含**首尾2行**)的所有行 进行**与操作** 得到**1行结果**(称为 **结果行**)。
+// 将首尾2行 做 与操作，得到 **首尾结果行**。
+// 在**结果行**中**记录**所有 值为1的**下标**，而利用每对下标，可以构成区间。
+// 判断在**首尾结果行**中的区间内是否都为1，且区间长度 == 正方形高度，则更新结果值。
 
-如：
-1 1 1
-1 0 1
-1 1 1
-**首行**选为下标为0的行(1 1 1)，**尾行**选为下标为2的行(1 1 1)。
-**首尾结果行**的结果为：
-相与：
-    1 1 1
-    1 1 1
-得到：1 1 1。
+// 如：
+// 1 1 1
+// 1 0 1
+// 1 1 1
+// **首行**选为下标为0的行(1 1 1)，**尾行**选为下标为2的行(1 1 1)。
+// **首尾结果行**的结果为：
+// 相与：
+//     1 1 1
+//     1 1 1
+// 得到：1 1 1。
 
-**结果行**：
-1 1 1
-1 0 1
-1 1 1
-得到：1 0 1
+// **结果行**：
+// 1 1 1
+// 1 0 1
+// 1 1 1
+// 得到：1 0 1
 
-**结果行**刚好有2个1，下标分别为0和2，构成**1个区间**。
-判断**首尾结果行**在该区间内是否全为1，显然确实都为1，则**区间长度 == 正方形高度**，则**更新结果值**。
+// **结果行**刚好有2个1，下标分别为0和2，构成**1个区间**。
+// 判断**首尾结果行**在该区间内是否全为1，显然确实都为1，则**区间长度 == 正方形高度**，则**更新结果值**。
 
-```java
+// ```java
 class Solution {
     private int global_row, global_col;
     private int[][] global_grid;
@@ -94,4 +94,4 @@ class Solution {
         }
     }
 }
-```
+// ```

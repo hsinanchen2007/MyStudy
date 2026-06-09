@@ -1,9 +1,9 @@
-### 解题思路
-二叉树的理念，用代码实现dfs，人并不需要理解，足矣
+# ### 解题思路
+# 二叉树的理念，用代码实现dfs，人并不需要理解，足矣
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def generateParenthesis(self, n):
         """
@@ -23,4 +23,4 @@ class Solution(object):
                 rl.append(s)
         tree()
         return rl
-```
+# ```

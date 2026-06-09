@@ -1,9 +1,9 @@
-### 解题思路
-头一次时间这么短嘤嘤嘤，实在是太菜了。想的是把字母都存到一个set里，如果set长度大于1了就说明已经找到最长的前缀了，输出即可。
+# ### 解题思路
+# 头一次时间这么短嘤嘤嘤，实在是太菜了。想的是把字母都存到一个set里，如果set长度大于1了就说明已经找到最长的前缀了，输出即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestCommonPrefix(self, strs):
         """
@@ -36,4 +36,4 @@ class Solution(object):
         
         return final
 
-```
+# ```

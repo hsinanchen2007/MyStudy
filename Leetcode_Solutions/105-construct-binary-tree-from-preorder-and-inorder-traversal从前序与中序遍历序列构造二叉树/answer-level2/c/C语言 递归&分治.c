@@ -1,9 +1,9 @@
-### 解题思路
-其实算是简单题了，递归 + 分治很快就能写出来，模板都不用变得...
+// ### 解题思路
+// 其实算是简单题了，递归 + 分治很快就能写出来，模板都不用变得...
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,4 +30,4 @@ struct TreeNode* buildTree(int* preorder, int preorderSize, int* inorder, int in
     // 返回根节点
     return root;
 }
-```
+// ```

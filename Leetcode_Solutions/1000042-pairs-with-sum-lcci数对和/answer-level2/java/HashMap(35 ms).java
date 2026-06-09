@@ -1,7 +1,7 @@
-![微信图片_20200221001143.png](https://pic.leetcode-cn.com/03aa04f5b7d7ff141dc2e4dd9f3b82bd4f00987c115e156a41576a86d6dbee83-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200221001143.png)
+// ![微信图片_20200221001143.png](https://pic.leetcode-cn.com/03aa04f5b7d7ff141dc2e4dd9f3b82bd4f00987c115e156a41576a86d6dbee83-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200221001143.png)
 
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     public List<List<Integer>> pairSums(int[] nums, int target) {
         List<List<Integer>> res = new LinkedList<>();
@@ -38,4 +38,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

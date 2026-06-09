@@ -1,9 +1,9 @@
-### 解题思路
-同习题[151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
+# ### 解题思路
+# 同习题[151. 翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def reverseWords(self, s: str) -> str:
         # 如果直接调用 split 比较简单
@@ -16,4 +16,4 @@ class Solution:
 
 
 
-```
+# ```

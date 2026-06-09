@@ -1,4 +1,4 @@
-```
+// ```
 func fractionToDecimal(numerator int, denominator int) string {
     sign := 1
     if (numerator > 0 && denominator < 0) || (numerator < 0 && denominator> 0) {
@@ -38,4 +38,4 @@ func abs(i int) int {
     }
     return -i
 }
-```
+// ```

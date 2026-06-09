@@ -1,9 +1,9 @@
-### 解题思路
-1. 双指针一前一后对比
+// ### 解题思路
+// 1. 双指针一前一后对比
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(char * s){
     int len;
     char *ps, *pe;
@@ -36,4 +36,4 @@ bool isPalindrome(char * s){
     }
     return true;
 }
-```
+// ```

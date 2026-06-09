@@ -1,10 +1,10 @@
-### 解题思路
-只有一点要注意，word包含的单个字母的个数可以大于或等于字典里这个字母的个数
-![image.png](https://pic.leetcode-cn.com/2784af728452a09ee9875971a8e27b0a8acb0c806e3a43a397bed0357cb68f89-image.png)
+// ### 解题思路
+// 只有一点要注意，word包含的单个字母的个数可以大于或等于字典里这个字母的个数
+// ![image.png](https://pic.leetcode-cn.com/2784af728452a09ee9875971a8e27b0a8acb0c806e3a43a397bed0357cb68f89-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_HASH 26
 void getHash(char *licensePlate, int *hash, int size)
 {
@@ -49,4 +49,4 @@ char * shortestCompletingWord(char * licensePlate, char ** words, int wordsSize)
 	}
 	return word;
 }
-```
+// ```

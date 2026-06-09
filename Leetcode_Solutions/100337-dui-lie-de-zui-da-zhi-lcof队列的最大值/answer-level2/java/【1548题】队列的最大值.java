@@ -1,5 +1,5 @@
-**方法一：用两个数组维护**
-```
+// **方法一：用两个数组维护**
+// ```
 class MaxQueue {
     /**
     * 思路：
@@ -55,4 +55,4 @@ class MaxQueue {
  * obj.push_back(value);
  * int param_3 = obj.pop_front();
  */
-```
+// ```

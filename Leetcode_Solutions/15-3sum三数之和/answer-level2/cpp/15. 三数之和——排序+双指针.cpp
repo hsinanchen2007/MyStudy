@@ -1,6 +1,6 @@
-排序可以简化查询方向，同时达到去重的效果。
-最坏情况下:时间复杂度O(n^2)+O(nlog(n)),空间复杂度O(1)
-```
+// 排序可以简化查询方向，同时达到去重的效果。
+// 最坏情况下:时间复杂度O(n^2)+O(nlog(n)),空间复杂度O(1)
+// ```
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -38,4 +38,4 @@ public:
         return res;
     }
 };
-```
+// ```

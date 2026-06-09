@@ -1,9 +1,9 @@
-### 解题思路
-一种另类解法
+// ### 解题思路
+// 一种另类解法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countDigitOne(int n) {
         int part = 10;
@@ -41,4 +41,4 @@ class Solution {
         return ratio / 10 + getRate(ratio / 10) * 10;
     }
 }
-```
+// ```

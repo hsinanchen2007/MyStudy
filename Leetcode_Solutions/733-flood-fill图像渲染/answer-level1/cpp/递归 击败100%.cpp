@@ -1,13 +1,13 @@
-### 解题思路
-利用vector<vector<int>> 建一个队列list，将符合条件的点的坐标值加进去，首先将初始坐标加进去
-利用递归将list里的上下左右四个方向符合条件的点都加进去，在加的同时把访问过的点修改值并删除，直到list没有元素
+// ### 解题思路
+// 利用vector<vector<int>> 建一个队列list，将符合条件的点的坐标值加进去，首先将初始坐标加进去
+// 利用递归将list里的上下左右四个方向符合条件的点都加进去，在加的同时把访问过的点修改值并删除，直到list没有元素
 
-![A\[AN4~SY\[V6VWGF3\]AB4PPI.png](https://pic.leetcode-cn.com/5ec49327b2415bd78bdf58f0dbc33d98860a89c2f259e9a71b6e58ffbf85a57c-A%5BAN4~SY%5BV6VWGF3%5DAB4PPI.png)
+// ![A\[AN4~SY\[V6VWGF3\]AB4PPI.png](https://pic.leetcode-cn.com/5ec49327b2415bd78bdf58f0dbc33d98860a89c2f259e9a71b6e58ffbf85a57c-A%5BAN4~SY%5BV6VWGF3%5DAB4PPI.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int newColor) {
@@ -61,4 +61,4 @@ public:
         updateNum(image,newColor,list,temp);
     }
 };
-```
+// ```

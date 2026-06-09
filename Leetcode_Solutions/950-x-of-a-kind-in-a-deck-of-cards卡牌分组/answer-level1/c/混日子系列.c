@@ -1,10 +1,10 @@
-### 解题思路
-很垃圾的代码
-就是暴力找一个不小于2的数可以被每一组卡数整除
+// ### 解题思路
+// 很垃圾的代码
+// 就是暴力找一个不小于2的数可以被每一组卡数整除
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool hasGroupsSizeX(int* deck, int deckSize){
     int A[1000]={0};
     int i=0,sum=0;
@@ -38,4 +38,4 @@ bool hasGroupsSizeX(int* deck, int deckSize){
     }
     return false;
 }
-```
+// ```

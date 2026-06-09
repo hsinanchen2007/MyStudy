@@ -1,9 +1,9 @@
-### 解题思路
-map统计频率即可
+// ### 解题思路
+// map统计频率即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class WordsFrequency {
     Map<String, Integer> map = new HashMap<>();
 
@@ -27,4 +27,4 @@ class WordsFrequency {
  * WordsFrequency obj = new WordsFrequency(book);
  * int param_1 = obj.get(word);
  */
-```
+// ```

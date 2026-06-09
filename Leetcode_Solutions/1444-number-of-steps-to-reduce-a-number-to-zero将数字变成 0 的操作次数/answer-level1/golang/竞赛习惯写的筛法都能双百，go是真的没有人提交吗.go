@@ -1,4 +1,4 @@
-//感觉用例很好过
+// //感觉用例很好过
 func numberOfSteps (num int) int {
 	var cache=make([]int,1000000)
 	cache[1]=1

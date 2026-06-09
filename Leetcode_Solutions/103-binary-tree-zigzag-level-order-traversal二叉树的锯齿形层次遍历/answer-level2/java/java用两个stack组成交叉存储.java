@@ -1,5 +1,5 @@
-把两个stack放在一个List里面。用flag来控制交叉选择。和上面同学用两个stack的方法思路是一样的。
-```
+// 把两个stack放在一个List里面。用flag来控制交叉选择。和上面同学用两个stack的方法思路是一样的。
+// ```
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> result = new LinkedList<>();
@@ -43,5 +43,5 @@ class Solution {
     }
 }
 
-```
+// ```
 

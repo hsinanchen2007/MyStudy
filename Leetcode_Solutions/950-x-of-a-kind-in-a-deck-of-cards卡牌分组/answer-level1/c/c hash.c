@@ -1,4 +1,4 @@
-```
+// ```
 /*
  * @lc app=leetcode.cn id=914 lang=c
  *
@@ -145,4 +145,4 @@ bool hasGroupsSizeX(int* deck, int deckSize)
     
     return cur;
 }
-```
+// ```

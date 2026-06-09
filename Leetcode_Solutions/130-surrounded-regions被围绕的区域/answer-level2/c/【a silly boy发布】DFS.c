@@ -1,4 +1,4 @@
-```
+// ```
 
 void SubFuncDFS(int **graph, int boardSize, int* boardColSize, int i, int j) {
 
@@ -76,4 +76,4 @@ void solve(char** board, int boardSize, int* boardColSize){
     }
     free(graph);
 }
-```
+// ```

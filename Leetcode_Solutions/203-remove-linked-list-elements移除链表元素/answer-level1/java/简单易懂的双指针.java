@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public ListNode removeElements(ListNode head, int val) {
         ListNode cur = head;

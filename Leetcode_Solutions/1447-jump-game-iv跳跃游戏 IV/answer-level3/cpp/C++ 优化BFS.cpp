@@ -1,15 +1,15 @@
-### 解题思路
-开始用回溯+剪枝，但是到第21个用例超出内存限制；后转用BFS+queue，配合之前的优化，通过。
-1. 用unordered_map<int, vector<int>>记录相同值的下标，但要优化内存，去掉单个值的记录；
-2. 要么往前跳一步，要么往后跳一步，要么跳到相同值的地方；
-3. 相同值位置全部入队后，删除map中对应的记录，避免重复查找；
-4. 用visited数组记录访问过的位置；
-![图片.png](https://pic.leetcode-cn.com/798bdbfc85962ad71c1847681ae1e024c9b8910c41a0e2431bba59cbb21d4e94-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// 开始用回溯+剪枝，但是到第21个用例超出内存限制；后转用BFS+queue，配合之前的优化，通过。
+// 1. 用unordered_map<int, vector<int>>记录相同值的下标，但要优化内存，去掉单个值的记录；
+// 2. 要么往前跳一步，要么往后跳一步，要么跳到相同值的地方；
+// 3. 相同值位置全部入队后，删除map中对应的记录，避免重复查找；
+// 4. 用visited数组记录访问过的位置；
+// ![图片.png](https://pic.leetcode-cn.com/798bdbfc85962ad71c1847681ae1e024c9b8910c41a0e2431bba59cbb21d4e94-%E5%9B%BE%E7%89%87.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minJumps(vector<int>& arr) {
@@ -70,4 +70,4 @@ public:
         return -1;
     }
 };
-```
+// ```

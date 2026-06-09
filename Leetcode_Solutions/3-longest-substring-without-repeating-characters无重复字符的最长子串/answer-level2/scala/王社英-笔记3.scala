@@ -1,5 +1,5 @@
-1,最基础的做法,暴力算法,计算每一个开始位置的不重复的长度,用一个set做判断
-```
+// 1,最基础的做法,暴力算法,计算每一个开始位置的不重复的长度,用一个set做判断
+// ```
 import scala.collection.mutable
 object Solution {
   def lengthOfLongestSubstring(s: String): Int = {
@@ -19,9 +19,9 @@ object Solution {
     m
   }
 }
-```
-2,看讨论,大家都说滑动窗口,根据这个思想,用队列实现如下
-```
+// ```
+// 2,看讨论,大家都说滑动窗口,根据这个思想,用队列实现如下
+// ```
 
 object Solution {
   def lengthOfLongestSubstring(s: String): Int = {
@@ -52,10 +52,10 @@ object Solution {
 }
 
 
-```
+// ```
 
-3,这个滑动窗口,除了用队列实现,也可以用hashmap实现,思想完全一样
-```
+// 3,这个滑动窗口,除了用队列实现,也可以用hashmap实现,思想完全一样
+// ```
 object Solution {
   def lengthOfLongestSubstring(s: String): Int = {
     var m = 0
@@ -79,5 +79,5 @@ object Solution {
     m.max(map.size)
   }
 }
-```
-这里自己维护一个map,在用队列实现的时候,用的是set,思想是一样的
+// ```
+// 这里自己维护一个map,在用队列实现的时候,用的是set,思想是一样的

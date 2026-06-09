@@ -1,6 +1,6 @@
-思路比较简单，利用当前的所有子串，构建字典树。
-然后在字典树的基础上查找公共子串，结束条件为当前字典树的长度不为 1。具体见如下代码：
-```
+# 思路比较简单，利用当前的所有子串，构建字典树。
+# 然后在字典树的基础上查找公共子串，结束条件为当前字典树的长度不为 1。具体见如下代码：
+# ```
 from collections import defaultdict
 
 class Solution:
@@ -22,4 +22,4 @@ class Solution:
             trie = trie[strs[0][index]]     # 进入下一个字典树
             index += 1
         return res
-```
+# ```

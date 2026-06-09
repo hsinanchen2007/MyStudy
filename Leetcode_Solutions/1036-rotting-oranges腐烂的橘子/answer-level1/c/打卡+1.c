@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 typedef struct point{
     int x,y;
@@ -75,4 +75,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
 
     return get(grid,gridSize,n,total);
 }
-```
+// ```

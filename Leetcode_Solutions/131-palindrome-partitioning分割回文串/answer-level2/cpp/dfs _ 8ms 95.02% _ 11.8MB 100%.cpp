@@ -1,14 +1,14 @@
-### 解题思路
-1. 动态规划提前计算回文子串
-2. dfs搜索的时候注意剪枝, 直接根据DP表取是否为回文串, 效率更高
-3. 传参尽量传引用, 可以大幅提高效率节省空间
+// ### 解题思路
+// 1. 动态规划提前计算回文子串
+// 2. dfs搜索的时候注意剪枝, 直接根据DP表取是否为回文串, 效率更高
+// 3. 传参尽量传引用, 可以大幅提高效率节省空间
 
-![1.png](https://pic.leetcode-cn.com/79861ffeb9ad8c627566a682f094fd73be711a58d70aa818cf9a5d6bfcb31e45-1.png)
+// ![1.png](https://pic.leetcode-cn.com/79861ffeb9ad8c627566a682f094fd73be711a58d70aa818cf9a5d6bfcb31e45-1.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> res;
@@ -53,4 +53,4 @@ public:
         }
     }
 };
-```
+// ```

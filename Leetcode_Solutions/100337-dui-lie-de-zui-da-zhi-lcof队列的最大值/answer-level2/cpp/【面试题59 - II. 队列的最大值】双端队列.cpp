@@ -1,9 +1,9 @@
-## 思路
+// ## 思路
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MaxQueue {
     queue<int> que;
     deque<int> deq; 
@@ -32,4 +32,4 @@ public:
         return res;        
     }
 };
-```
+// ```

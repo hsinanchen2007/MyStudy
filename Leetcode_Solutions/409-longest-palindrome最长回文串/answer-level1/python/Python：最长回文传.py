@@ -1,9 +1,9 @@
-### 解题思路
-不多考虑，凡是偶数个全加上，奇数那就加上最大的偶数，最后根据是否有奇数判断加一
+# ### 解题思路
+# 不多考虑，凡是偶数个全加上，奇数那就加上最大的偶数，最后根据是否有奇数判断加一
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import collections
 class Solution:
     def longestPalindrome(self, s: str) -> int:
@@ -17,4 +17,4 @@ class Solution:
                 length+=i-1
                 maximum=1
         return length+maximum
-```
+# ```

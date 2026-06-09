@@ -1,9 +1,9 @@
-### 解题思路
-DFS
+// ### 解题思路
+// DFS
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countNumber(n int) int{
 	res:=0
 	for n > 0{
@@ -45,4 +45,4 @@ func movingCount(m int, n int, k int) int {
 	movingDFS(m,n,k,0,0,&res,Flag)
 	return res
 }
-```
+// ```

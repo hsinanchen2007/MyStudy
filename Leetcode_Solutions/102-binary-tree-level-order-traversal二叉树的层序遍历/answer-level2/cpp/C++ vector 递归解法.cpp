@@ -1,5 +1,5 @@
-使用vector<vector<int>>* output 指针时，总会出现莫名其妙的错误，可以考虑将其设为全局变量来使用 
-```
+// 使用vector<vector<int>>* output 指针时，总会出现莫名其妙的错误，可以考虑将其设为全局变量来使用 
+// ```
 vector<vector<int>>output ;
 class Solution {
 public:
@@ -18,4 +18,4 @@ public:
         if(root->right) helper(level+ 1, root->right);
     }
 };
-```
+// ```

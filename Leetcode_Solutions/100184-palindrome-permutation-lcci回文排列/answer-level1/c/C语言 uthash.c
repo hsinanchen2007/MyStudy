@@ -1,10 +1,10 @@
-### 解题思路
-主要是为了用一下uthash
-![image.png](https://pic.leetcode-cn.com/e5118b71fb14393831d1a83fcce9dab15f1725609ffb372bee39f1fdf097f7c0-image.png)
+// ### 解题思路
+// 主要是为了用一下uthash
+// ![image.png](https://pic.leetcode-cn.com/e5118b71fb14393831d1a83fcce9dab15f1725609ffb372bee39f1fdf097f7c0-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_OK 0
 #define MY_FAIL (-1)
 
@@ -64,4 +64,4 @@ bool canPermutePalindrome(char* s){
 	hashFree();
 	return rlt;
 }
-```
+// ```

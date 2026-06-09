@@ -1,5 +1,5 @@
-先用一个函数计算位于坐标i, j 位置的细胞其周围的活细胞个数
-```javascript
+// 先用一个函数计算位于坐标i, j 位置的细胞其周围的活细胞个数
+// ```javascript
 const getAliveCellNum = (board, i, j) => {
     const m = board.length
     const n = board[0].length
@@ -33,9 +33,9 @@ const getAliveCellNum = (board, i, j) => {
     }
     return count
   }
-```
-循环board数组，根据计算出的活细胞按照题目给出的四条生存定律进行赋值，得到细胞的下一个状态
-```javascript
+// ```
+// 循环board数组，根据计算出的活细胞按照题目给出的四条生存定律进行赋值，得到细胞的下一个状态
+// ```javascript
 var gameOfLife = function(board) {
   const originBoard = JSON.parse(JSON.stringify(board))
   const m = board.length
@@ -57,4 +57,4 @@ var gameOfLife = function(board) {
     }
   }
 };
-```
+// ```

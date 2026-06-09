@@ -1,8 +1,8 @@
-### 解题思路
-字符串最小长度 * 字符串个数
-### 代码
+// ### 解题思路
+// 字符串最小长度 * 字符串个数
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -32,4 +32,4 @@ public:
         return strs[0].substr(0, k);
     }
 };
-```
+// ```

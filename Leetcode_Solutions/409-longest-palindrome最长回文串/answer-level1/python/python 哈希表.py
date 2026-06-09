@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestPalindrome(self, s):
         """
@@ -22,4 +22,4 @@ class Solution(object):
                 flag=True
                 count2 += hashmap[key] - 1
         return count1+count2+1 if flag else count1
-```
+# ```

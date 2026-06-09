@@ -1,11 +1,11 @@
-### 解题思路
-详见代码注释
+// ### 解题思路
+// 详见代码注释
 
-执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
-内存消耗 :8.1 MB, 在所有 C++ 提交中击败了100.00%的用户
-### 代码
+// 执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
+// 内存消耗 :8.1 MB, 在所有 C++ 提交中击败了100.00%的用户
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void inner(int k, int n, vector<int>& data, int level, vector<int>& path, vector<vector<int>>& res) {
@@ -59,4 +59,4 @@ public:
       return res;
     }
 };
-```
+// ```

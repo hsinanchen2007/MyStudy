@@ -1,19 +1,19 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/3cc2dae1673102df8d77e776b8592d476ea726650d08a6cb41b0b39394644463-image.png)
-![image.png](https://pic.leetcode-cn.com/bb876fc025cefb35c3fcbe1d2d4ec053e38d2fbdb58342eb0bf5eabd85419625-image.png)
-下面的**测试用例**可以使用,注意设置全局变量就可以
-"+.e8" false
-"1e" false
-"0." true
-"-." false
-".e1" false
-"+.8" true
-"." false
-"+E3" false
-".e3" true
-### 代码
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/3cc2dae1673102df8d77e776b8592d476ea726650d08a6cb41b0b39394644463-image.png)
+# ![image.png](https://pic.leetcode-cn.com/bb876fc025cefb35c3fcbe1d2d4ec053e38d2fbdb58342eb0bf5eabd85419625-image.png)
+# 下面的**测试用例**可以使用,注意设置全局变量就可以
+# "+.e8" false
+# "1e" false
+# "0." true
+# "-." false
+# ".e1" false
+# "+.8" true
+# "." false
+# "+E3" false
+# ".e3" true
+# ### 代码
 
-```
+# ```
 class Solution:
     def isNumber(self, s: str) -> bool:
         s = s.strip()
@@ -56,4 +56,4 @@ class Solution:
         if s == '':
             return True
         return False
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-1.遍历数组
-2.每个数都会交换4个位置
-3.定义退出条件
+// ### 解题思路
+// 1.遍历数组
+// 2.每个数都会交换4个位置
+// 3.定义退出条件
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         if (matrix == null || matrix.length <= 1) return;
@@ -44,4 +44,4 @@ class Solution {
         }
     }
 }
-```
+// ```

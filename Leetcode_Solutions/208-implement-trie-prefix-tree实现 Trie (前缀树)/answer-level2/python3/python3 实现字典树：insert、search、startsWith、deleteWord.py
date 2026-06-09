@@ -1,4 +1,4 @@
-```
+# ```
 class Trie:
 
     def __init__(self):
@@ -65,4 +65,4 @@ class Trie:
     
     def get_root(self):
         return self.root # 返回字典树
-```
+# ```

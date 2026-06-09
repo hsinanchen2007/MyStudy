@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 // F(n) = F(n-1) + F(n-2)
 // 相当于fibonacci，使用迭代法
 // 时间复杂度O(N)
@@ -22,4 +22,4 @@ var climbStairs = function(n) {
     return current
 };
 // @lc code=end
-```
+// ```

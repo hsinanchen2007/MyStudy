@@ -1,4 +1,4 @@
-```
+// ```
     void flatten(TreeNode* root) {
         dfs(root);
     }
@@ -28,4 +28,4 @@
         dfs(root->right);
         return root;
     }
-```
+// ```

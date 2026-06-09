@@ -1,9 +1,9 @@
-### 解题思路
-递归...
+// ### 解题思路
+// 递归...
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int step = 0;
     public int numberOfSteps (int num) {
@@ -19,4 +19,4 @@ class Solution {
         return numberOfSteps(num);
     }
 }
-```
+// ```

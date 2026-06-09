@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-只有一个关键点，能不能装水取决于最短的柱子
+// 只有一个关键点，能不能装水取决于最短的柱子
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
         int length = height.length;
@@ -55,4 +55,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

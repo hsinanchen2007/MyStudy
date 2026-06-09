@@ -1,9 +1,9 @@
-### 解题思路
-异或这个运算还是很牛的：0与任何数异或，该数值不变，出现相同就抵消掉
+// ### 解题思路
+// 异或这个运算还是很牛的：0与任何数异或，该数值不变，出现相同就抵消掉
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char findTheDifference(char * s, char * t){
     char res=0;
     int len,i;
@@ -18,4 +18,4 @@ char findTheDifference(char * s, char * t){
     res=res^t[len];
     return res;
 }
-```
+// ```

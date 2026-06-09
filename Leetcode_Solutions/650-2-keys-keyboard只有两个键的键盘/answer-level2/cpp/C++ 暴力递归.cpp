@@ -1,6 +1,6 @@
-介绍一种暴力递归方法。
+// 介绍一种暴力递归方法。
 
-```
+// ```
 class Solution {
 public:
     int minSteps(int n) {

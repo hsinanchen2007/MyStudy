@@ -1,7 +1,7 @@
-### 思路
-思路很直接，用哈希表的方法来做，用 `map`来存储字母相同的单词，将每一个单词的字母排序后用作`key`, 保证相同字母的单词的`key`相同，遍历一次数组即可将所有字母相同的单词放在同一`key`中。
-### 题解
-```JavaScript []
+// ### 思路
+// 思路很直接，用哈希表的方法来做，用 `map`来存储字母相同的单词，将每一个单词的字母排序后用作`key`, 保证相同字母的单词的`key`相同，遍历一次数组即可将所有字母相同的单词放在同一`key`中。
+// ### 题解
+// ```JavaScript []
 var groupAnagrams = function (strs) {
     const map = new Map();
 
@@ -21,4 +21,4 @@ var groupAnagrams = function (strs) {
     }
     return [...map.values()];
 };
-```
+// ```

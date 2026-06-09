@@ -1,9 +1,9 @@
-### 解题思路
-每次计算，可以将数组分为三部分，一部分小于v，一部分等于v，一部分大于v
+// ### 解题思路
+// 每次计算，可以将数组分为三部分，一部分小于v，一部分等于v，一部分大于v
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
@@ -36,4 +36,4 @@ public:
         nums[j] = temp;
     }
 };
-```
+// ```

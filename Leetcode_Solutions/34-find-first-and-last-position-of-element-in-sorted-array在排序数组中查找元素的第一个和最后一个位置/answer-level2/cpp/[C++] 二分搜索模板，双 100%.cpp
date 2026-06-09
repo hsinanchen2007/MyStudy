@@ -1,9 +1,9 @@
-### 解题思路
-二分搜索。左边界为使得`nums[i] >= target`的最小的`i`，右边界为使得`nums[i] <= target`的最大的`i`。这里也可以说右边界是最小的满足`nums[i] > target`的 i 再减去 1。但是为了展示最小化和最大化，使用第一种方法。
+// ### 解题思路
+// 二分搜索。左边界为使得`nums[i] >= target`的最小的`i`，右边界为使得`nums[i] <= target`的最大的`i`。这里也可以说右边界是最小的满足`nums[i] > target`的 i 再减去 1。但是为了展示最小化和最大化，使用第一种方法。
 
-看注释理解即可。
-模板:
-```cpp
+// 看注释理解即可。
+// 模板:
+// ```cpp
 // 最小化
 // 在左开右闭的区间里搜索。(lo, hi]
 int binary_search(int lo, int hi) {
@@ -33,11 +33,11 @@ int binary_search(int lo, int hi) {
     }
     return lo;
 }
-```
+// ```
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -74,4 +74,4 @@ public:
         return {first, lo};
     }
 };
-```
+// ```

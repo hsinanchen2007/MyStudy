@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-![03.jpg](https://pic.leetcode-cn.com/35c6b229a3483ad71cae047b6ac1325aaa7390aae699b48ed30996c11d8ccb9e-03.jpg)
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// ![03.jpg](https://pic.leetcode-cn.com/35c6b229a3483ad71cae047b6ac1325aaa7390aae699b48ed30996c11d8ccb9e-03.jpg)
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int climbStairs(int n) {
@@ -17,4 +17,4 @@ public:
         return dp[n-1];
     }
 };
-```
+// ```

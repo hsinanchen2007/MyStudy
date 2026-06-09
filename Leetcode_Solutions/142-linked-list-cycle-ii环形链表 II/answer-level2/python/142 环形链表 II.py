@@ -1,9 +1,9 @@
-### 解题思路
-把见过的节点丢集合里，下次再遇见就是环的开始。
+# ### 解题思路
+# 把见过的节点丢集合里，下次再遇见就是环的开始。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution(object):
         return head
 
 
-```
+# ```

@@ -1,13 +1,13 @@
-### 解题思路
-和279基本类似
-dp[i]定义能达到总金额为i时的最小硬币个数
-# 这和上一题一样, 这里是给价值求个数!
-# 传统背包九讲里, 是求价值! 所以dp[i]的设计方式不一样, 意义也不一样
+# ### 解题思路
+# 和279基本类似
+# dp[i]定义能达到总金额为i时的最小硬币个数
+# # 这和上一题一样, 这里是给价值求个数!
+# # 传统背包九讲里, 是求价值! 所以dp[i]的设计方式不一样, 意义也不一样
 
-### 代码
+# ### 代码
 
-dp能beat 50
-```python3
+# dp能beat 50
+# ```python3
 # 这和上一题一样, 这里是给价值求个数!
         # 传统背包九讲里, 是求价值! 所以dp[i]的设计方式不一样, 意义也不一样
         # lc = len(coins)
@@ -19,10 +19,10 @@ dp能beat 50
         #         if i>=coins[j]:
         #             dp[i] = min(dp[i], dp[i-coins[j]]+1) 
         # return dp[-1] if dp[-1]!=float('inf') else -1
-```
-memo递归和bfs思路的都只能beat 5
+# ```
+# memo递归和bfs思路的都只能beat 5
 
-```
+# ```
     def solve(i, n):
             if i<0:
                 return float('inf')
@@ -42,9 +42,9 @@ memo递归和bfs思路的都只能beat 5
         memo = {}
         res = solve(len(coins)-1, amount)
         return res if res!=float('inf') else -1
-```
-BFS, visited很重要不然会超时
-```
+# ```
+# BFS, visited很重要不然会超时
+# ```
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         q = []
@@ -63,11 +63,11 @@ class Solution:
                 if c<=cur[0]:
                     q.append((cur[0]-c, cur[1]+1))
         return -1
-```
-大佬的dfs, 只需要50ms 
-主要就是想办法去剪枝
+# ```
+# 大佬的dfs, 只需要50ms 
+# 主要就是想办法去剪枝
 
-```
+# ```
 import math
 class Solution:
     def coinChange(self, coins, amount: int) -> int:
@@ -92,4 +92,4 @@ class Solution:
 
         dfs(0, amount, 0)
 
-```
+# ```

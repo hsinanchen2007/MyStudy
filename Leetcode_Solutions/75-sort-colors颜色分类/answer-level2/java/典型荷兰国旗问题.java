@@ -1,10 +1,10 @@
-### 解题思路
-荷兰国旗问题，原理是划边界。
-时间复杂度O(n)，空间复杂度O(1)。
+// ### 解题思路
+// 荷兰国旗问题，原理是划边界。
+// 时间复杂度O(n)，空间复杂度O(1)。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void sortColors(int[] nums) {
         if(nums == null) return;
@@ -27,4 +27,4 @@ class Solution {
         return;
     }
 }
-```
+// ```

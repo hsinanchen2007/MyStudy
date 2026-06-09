@@ -1,12 +1,12 @@
-### 解题思路
-先 DFS 获取到目标节点，过程记录 parent 节点。
-写一个向下获取到 node 的距离为 k 的所有节点的方法。
-然后先向下获取目标节点距离 k 的所有节点，再向上递归获取目标节点的 parent 节点距离 (k - 1) 的所有节点。
-要把不是正解的节点记录一下，因为递归的过程中有可能会再次获取到这个节点。
+// ### 解题思路
+// 先 DFS 获取到目标节点，过程记录 parent 节点。
+// 写一个向下获取到 node 的距离为 k 的所有节点的方法。
+// 然后先向下获取目标节点距离 k 的所有节点，再向上递归获取目标节点的 parent 节点距离 (k - 1) 的所有节点。
+// 要把不是正解的节点记录一下，因为递归的过程中有可能会再次获取到这个节点。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -72,4 +72,4 @@ var distanceK = function (root, target, K) {
 
   return result;
 };
-```
+// ```

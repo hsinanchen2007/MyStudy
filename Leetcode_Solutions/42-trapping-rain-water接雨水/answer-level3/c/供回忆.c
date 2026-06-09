@@ -1,5 +1,5 @@
-自己的代码
-```
+// 自己的代码
+// ```
 //动态规划解法，使用两数组分两轮计算从两侧到height[i]的最大高度
 #define MAX(a,b) (((a) > (b)) ? (a) : (b))
 #define MIN(a,b) (((a) < (b)) ? (a) : (b))
@@ -33,11 +33,11 @@ int trap(int* height, int heightSize){
 
     return res;
 }
-```
+// ```
 
 
-官方最优解，遍历一次
-```
+// 官方最优解，遍历一次
+// ```
 int trap(int* height, int heightSize){
     int left      = 0;
     int right     = heightSize - 1;
@@ -55,4 +55,4 @@ int trap(int* height, int heightSize){
     }
     return res;
 }
-```
+// ```

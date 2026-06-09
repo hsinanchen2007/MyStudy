@@ -1,5 +1,5 @@
-方法一：暴力搜索
-``` 
+// 方法一：暴力搜索
+// ``` 
 int maxProfit(int* prices, int pricesSize){
     int max_profit = 0;
 
@@ -10,9 +10,9 @@ int maxProfit(int* prices, int pricesSize){
     }
     return max_profit;
 }
-```
-方法二：一次遍历
-```
+// ```
+// 方法二：一次遍历
+// ```
 int maxProfit(int* prices, int pricesSize){
     int max_profit = 0;
     if (pricesSize == 0) {
@@ -27,6 +27,6 @@ int maxProfit(int* prices, int pricesSize){
     }
     return max_profit;
 }
-```
+// ```
 
 

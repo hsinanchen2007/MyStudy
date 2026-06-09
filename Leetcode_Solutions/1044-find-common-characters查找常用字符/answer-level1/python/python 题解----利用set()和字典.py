@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def commonChars(self, A):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                 for k in range(j):
                     result.append(i)
         return result
-```
+# ```

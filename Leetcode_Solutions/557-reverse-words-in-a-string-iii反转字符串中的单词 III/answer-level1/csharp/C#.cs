@@ -1,8 +1,8 @@
-### 解题思路
-Substring 的 第二个 s 居然不大写
-### 代码
+// ### 解题思路
+// Substring 的 第二个 s 居然不大写
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string ReverseWords(string s) {
         var res = new StringBuilder();
@@ -15,4 +15,4 @@ public class Solution {
         return r.Substring(0,r.Length-1);
     }
 }
-```
+// ```

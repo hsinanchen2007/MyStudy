@@ -1,6 +1,6 @@
-python直接闭包递归，迭代也成。
+// python直接闭包递归，迭代也成。
 
-```python []
+// ```python []
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         ans = []
@@ -10,8 +10,8 @@ class Solution:
             r < l and f(l, r + 1, s + ')')
         f(0, 0, '')
         return ans
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         ans = []
@@ -22,9 +22,9 @@ class Solution:
             r < l and stack.append((l, r + 1, s + ')'))
             l < n and stack.append((l + 1, r, s + '('))
         return ans
-```
+// ```
 
-```python []
+// ```python []
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         ans, s = [], []
@@ -40,12 +40,12 @@ class Solution:
                 del s[-1]
         f(0, 0)
         return ans
-```
+// ```
 
 
-rust不能闭包递归，好坑。
+// rust不能闭包递归，好坑。
 
-```rust []
+// ```rust []
 impl Solution {
     pub fn generate_parenthesis(n: i32) -> Vec<String> {
         let mut ans = Vec::new();
@@ -64,8 +64,8 @@ fn f(l: i32, r: i32, mut s: String,  n: i32, ans: &mut Vec<String>) {
         f(l, r + 1, s + ")", n, ans);
     }
 }
-```
-```rust []
+// ```
+// ```rust []
 impl Solution {
     pub fn generate_parenthesis(n: i32) -> Vec<String> {
         let (mut ans, mut stack) = (Vec::new(), vec![(0, 0, String::new())]);
@@ -83,4 +83,4 @@ impl Solution {
         ans
     }
 }
-```
+// ```

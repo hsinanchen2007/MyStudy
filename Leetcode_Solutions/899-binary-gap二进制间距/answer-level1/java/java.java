@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int binaryGap(int n) {
         int pos = 32;
@@ -18,4 +18,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

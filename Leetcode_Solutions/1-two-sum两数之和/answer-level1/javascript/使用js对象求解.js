@@ -1,5 +1,5 @@
-使用对象hash结构，边循环边查找
-```
+// 使用对象hash结构，边循环边查找
+// ```
 var twoSum = function(nums, target) {
   const obj = new Object()
   for (let i = 0; i < nums.length; i ++) {
@@ -8,4 +8,4 @@ var twoSum = function(nums, target) {
     obj[nums[i]] = i
   }
 };
-```
+// ```

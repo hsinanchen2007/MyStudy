@@ -1,9 +1,9 @@
-### 解题思路
-很简单的dfs，刚看到的时候以为是bfs呢，bfs方向不会控制
+// ### 解题思路
+// 很简单的dfs，刚看到的时候以为是bfs呢，bfs方向不会控制
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     
     private boolean isInArea(int[][] grid, int i, int j) {
@@ -42,4 +42,4 @@ class Solution {
     }
   
 }
-```
+// ```

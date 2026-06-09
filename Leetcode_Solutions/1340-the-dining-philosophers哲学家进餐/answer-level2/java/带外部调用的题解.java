@@ -1,4 +1,4 @@
-```
+// ```
 package com.medium;
 
 import java.util.concurrent.Semaphore;
@@ -84,4 +84,4 @@ public class DiningPhilosophers  {
     }
 }
 
-```
+// ```

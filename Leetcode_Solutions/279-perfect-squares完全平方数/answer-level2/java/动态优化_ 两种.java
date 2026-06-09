@@ -1,6 +1,6 @@
-- [零钱兑换](https://leetcode-cn.com/problems/coin-change/solution/)
-### 自顶向下(备忘录法)
-```java
+// - [零钱兑换](https://leetcode-cn.com/problems/coin-change/solution/)
+// ### 自顶向下(备忘录法)
+// ```java
 class Solution {
     private Integer[] dp;
     //本题和换硬币一样 换汤不换药
@@ -30,10 +30,10 @@ class Solution {
 		return dp[target];
 	}
 }
-```
-### 自底向上
-- dp[当前金额]=dp[当前金额-使兑换硬币数最少的面额]+1
-```java
+// ```
+// ### 自底向上
+// - dp[当前金额]=dp[当前金额-使兑换硬币数最少的面额]+1
+// ```java
 class Solution {
     //本题和换硬币一样 换汤不换药
 	public int numSquares(int n) {	
@@ -56,4 +56,4 @@ class Solution {
     	return dp[n];
     }
 }
-```
+// ```

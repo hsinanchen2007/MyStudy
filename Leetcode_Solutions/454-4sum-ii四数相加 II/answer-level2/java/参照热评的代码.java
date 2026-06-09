@@ -1,9 +1,9 @@
-### 解题思路
-思路简单+实现简单
+// ### 解题思路
+// 思路简单+实现简单
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int fourSumCount(int[] A, int[] B, int[] C, int[] D) {
         //Hash
@@ -37,4 +37,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

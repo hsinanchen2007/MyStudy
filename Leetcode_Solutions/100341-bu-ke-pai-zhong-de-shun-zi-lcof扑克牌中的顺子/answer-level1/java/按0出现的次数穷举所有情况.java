@@ -1,9 +1,9 @@
-### 解题思路
-先排序，按0出现的次数穷举所有情况
+// ### 解题思路
+// 先排序，按0出现的次数穷举所有情况
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isStraight(int[] nums) {
         Arrays.sort(nums);
@@ -30,4 +30,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

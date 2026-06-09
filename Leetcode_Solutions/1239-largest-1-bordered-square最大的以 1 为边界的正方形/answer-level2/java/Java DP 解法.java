@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先用预计算来计算row sum和column sum，然后三层for循环，先循环正方形长度，再循环row，再循环column，来找到长度是否合适。
+// 先用预计算来计算row sum和column sum，然后三层for循环，先循环正方形长度，再循环row，再循环column，来找到长度是否合适。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int largest1BorderedSquare(int[][] grid) {
         int n = grid.length;
@@ -33,4 +33,4 @@ class Solution {
         return 0;    
     }
 }
-```
+// ```

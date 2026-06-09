@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int[][] transpose(int[][] A) {
         int[][] B = new int[A[0].length][A.length];
@@ -13,4 +13,4 @@ class Solution {
         return B;
     }
 }
-```
+// ```

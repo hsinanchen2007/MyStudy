@@ -1,9 +1,9 @@
-### 解题思路
-正向遍历之后，返回结果的reverse
+# ### 解题思路
+# 正向遍历之后，返回结果的reverse
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -18,4 +18,4 @@ class Solution:
             head = head.next
         res.reverse()
         return res
-```
+# ```

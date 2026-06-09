@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string simplifyPath(string &path) {
@@ -16,4 +16,4 @@ public:
         return str.length()?str:"/";
     }
 };
-```
+// ```

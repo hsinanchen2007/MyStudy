@@ -1,18 +1,18 @@
-### 解题思路
+// ### 解题思路
 
-解法1
+// 解法1
 
-复杂度
-```
+// 复杂度
+// ```
     时间：O（1），每个元素值进栈和出栈各一次
     空间：O（n）
-```
-优缺点
-```
+// ```
+// 优缺点
+// ```
     缺点：由于相减和相加可能会导致int类型溢出，所以这里用c++里面64位的long long类型
     优点：只用了一个栈和额外long lon个变量，比解法二更省空间
-```
-```cpp
+// ```
+// ```cpp
 class MinStack {
     typedef long long ll;
 public:
@@ -58,21 +58,21 @@ public:
         ll minn;
         stack<ll>s;
 };
-```
+// ```
 
-解法2
+// 解法2
 
-复杂度
-```
+// 复杂度
+// ```
     时间：0(1)，每个元素值进栈和出栈各一次
     空间：0(n)
-```
-优缺点
-```
+// ```
+// 优缺点
+// ```
     缺点：代码理解起来更简单
     优点：和minn相比，当前元素x更小的话，要先把之前的minn进栈，再minn=x，之前的min进栈会更消耗空间
-```
-```cpp
+// ```
+// ```cpp
 class MinStack {
 public:
     /** initialize your data structure here. */
@@ -109,17 +109,17 @@ public:
         stack<int>s;
         int minn = INT_MAX; //初始化成int类型的最大值
 };
-```
+// ```
 
-解法3
+// 解法3
 
-复杂度
-```
+// 复杂度
+// ```
     时间：0(1)，因为采用头插法push元素进链表
     空间：0(n)
-```
+// ```
 
-```java
+// ```java
 class MinStack {
     class Node{
         int value;
@@ -162,5 +162,5 @@ class MinStack {
         return -1;
     }
 }
-```
+// ```
 

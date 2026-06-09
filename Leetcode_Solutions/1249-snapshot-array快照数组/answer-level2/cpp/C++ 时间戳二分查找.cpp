@@ -1,10 +1,10 @@
-### 解题思路
-1，记录每次设置值的时间与取值
-2，获取快照的时候，只需要二分查找离快照时间最近的取值即可，
+// ### 解题思路
+// 1，记录每次设置值的时间与取值
+// 2，获取快照的时候，只需要二分查找离快照时间最近的取值即可，
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class SnapshotArray {
 public:
     struct Num {
@@ -54,6 +54,6 @@ public:
  * int param_2 = obj->snap();
  * int param_3 = obj->get(index,snap_id);
  */
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f32ce4188dd5dbf6f844c674931dd001f55624f6a3a963326985a8350628c8eb-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f32ce4188dd5dbf6f844c674931dd001f55624f6a3a963326985a8350628c8eb-image.png)

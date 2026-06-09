@@ -1,9 +1,9 @@
-### 解题思路
-先从左往右累乘，再从右往左累乘
+# ### 解题思路
+# 先从左往右累乘，再从右往左累乘
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def constructArr(self, a: List[int]) -> List[int]:
         res = [1 for i in a]
@@ -25,4 +25,4 @@ class Solution:
             else:
                 res[j] = left[j-1]*right[j+1]
         return res
-```
+# ```

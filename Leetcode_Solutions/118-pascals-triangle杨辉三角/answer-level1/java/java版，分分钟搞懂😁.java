@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> triangle = new ArrayList<>();
@@ -22,5 +22,5 @@ class Solution {
 
 
 代码块
-```
+// ```
     

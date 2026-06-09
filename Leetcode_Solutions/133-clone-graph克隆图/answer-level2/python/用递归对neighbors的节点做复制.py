@@ -1,9 +1,9 @@
-### 解题思路
-关键需要增加用一个记忆表 memTable， 记录每个新生成节点
+# ### 解题思路
+# 关键需要增加用一个记忆表 memTable， 记录每个新生成节点
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 
 class Solution(object):
     def __init__(self):
@@ -24,4 +24,4 @@ class Solution(object):
 
         return newNode
 
-```
+# ```

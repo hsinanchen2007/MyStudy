@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minSteps(self, s: str, t: str) -> int:
         ls = [0]*26
@@ -16,4 +16,4 @@ class Solution:
         for i in range(26):
             res+=abs(ls[i]-lt[i])
         return res//2
-```
+# ```

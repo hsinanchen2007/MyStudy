@@ -1,5 +1,5 @@
-哈希表应用
-```java []
+// 哈希表应用
+// ```java []
 class Solution {
     public int firstUniqChar(String s) {
         HashMap<Character,Integer> map=new HashMap();
@@ -10,4 +10,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

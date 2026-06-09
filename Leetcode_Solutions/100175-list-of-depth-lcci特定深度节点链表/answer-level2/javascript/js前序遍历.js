@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/ff082375a77f40acac5fa6057c14e8db7beb65fd543db0b19f0c2695b7f76170-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ff082375a77f40acac5fa6057c14e8db7beb65fd543db0b19f0c2695b7f76170-image.png)
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -42,4 +42,4 @@ var listOfDepth = function(tree) {
     add(0, tree);
     return arr;
 };
-```
+// ```

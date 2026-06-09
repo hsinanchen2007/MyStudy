@@ -1,7 +1,7 @@
 
 
-自下向顶构造 DP矩阵：
-```
+# 自下向顶构造 DP矩阵：
+# ```
 class Solution(object):
     def uniquePaths(self, m, n):
         """
@@ -24,12 +24,12 @@ class Solution(object):
                 DP[i][j] = DP[i-1][j] + DP[i][j-1]
         return DP[m][n]
 
-```
+# ```
 
 
 
-自顶向下 Recursion版本：
-```
+# 自顶向下 Recursion版本：
+# ```
 class Solution(object):
     def uniquePaths(self, m, n):
         """
@@ -51,5 +51,5 @@ class Solution(object):
             for j in range(2,n+1):
                 DP[i][j] = DP[i-1][j] + DP[i][j-1]
         return DP[m][n]
-```
+# ```
 

@@ -1,10 +1,10 @@
-### 解题思路
-本质上是后序遍历，因为只有遍历完左右子树，才能比较深度
-压入栈中的元素，多一个flag标志位，表示当前节点右子树是否已遍历
+// ### 解题思路
+// 本质上是后序遍历，因为只有遍历完左右子树，才能比较深度
+// 压入栈中的元素，多一个flag标志位，表示当前节点右子树是否已遍历
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -46,4 +46,4 @@ var maxDepth = function(root) {
     }
     return depth
 };
-```
+// ```

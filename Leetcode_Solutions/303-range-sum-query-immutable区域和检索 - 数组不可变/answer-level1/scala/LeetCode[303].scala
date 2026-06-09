@@ -1,4 +1,4 @@
-```
+// ```
 class NumArray(_nums: Array[Int]) {
   val sum = new Array[Int](_nums.size)
   for (i <- 0 until _nums.size; j <- 0 to i) {
@@ -11,4 +11,4 @@ class NumArray(_nums: Array[Int]) {
   }
 
 }
-```
+// ```

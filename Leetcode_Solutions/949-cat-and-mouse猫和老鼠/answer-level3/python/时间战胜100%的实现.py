@@ -1,4 +1,4 @@
-方法就是另外一个题解的方法，这里给出时间效率比较高的一种python实现
+# 方法就是另外一个题解的方法，这里给出时间效率比较高的一种python实现
 class Solution(object):
     def catMouseGame(self, graph):
         """

@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public List<Integer> partitionLabels(String S) {
         // 计算并存储每个字符在数组中所在的最大索引
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

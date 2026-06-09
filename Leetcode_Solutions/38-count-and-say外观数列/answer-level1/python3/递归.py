@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countAndSay(self, n: int) -> str:
         ## 递归解法
@@ -25,4 +25,4 @@ class Solution:
                 list2 += str(count) + list1[i]
         return list2
             
-```
+# ```

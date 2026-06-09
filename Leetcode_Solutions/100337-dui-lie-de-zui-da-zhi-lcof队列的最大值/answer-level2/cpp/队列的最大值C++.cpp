@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/0114d13cacfd99e5ee43916c9fc13f8537300147276af9b00dc8985395bbd89d-image.png)
-我保存了一个头节点，可以方便操作（其实也差不多）
-数据结构是用vector<int>实现的，为了取最大值方便。
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/0114d13cacfd99e5ee43916c9fc13f8537300147276af9b00dc8985395bbd89d-image.png)
+// 我保存了一个头节点，可以方便操作（其实也差不多）
+// 数据结构是用vector<int>实现的，为了取最大值方便。
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class MaxQueue {
 private:
     int MaxVal;
@@ -49,4 +49,4 @@ public:
  * obj->push_back(value);
  * int param_3 = obj->pop_front();
  */
-```
+// ```

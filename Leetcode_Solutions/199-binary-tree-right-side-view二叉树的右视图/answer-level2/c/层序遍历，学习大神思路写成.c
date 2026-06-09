@@ -1,6 +1,6 @@
-层序遍历，按照队列先进先出的特点，总是让右子树先进，如果存在右子树，则入队，之后左子树入队。
-每一层遍历中，只将队头节点，也就是每一层中最右的节点的值作为最后的结果，加入ret中。
-```
+// 层序遍历，按照队列先进先出的特点，总是让右子树先进，如果存在右子树，则入队，之后左子树入队。
+// 每一层遍历中，只将队头节点，也就是每一层中最右的节点的值作为最后的结果，加入ret中。
+// ```
 int* rightSideView(struct TreeNode* root, int* returnSize){
     *returnSize=0;
     if(root==NULL){
@@ -27,4 +27,4 @@ int* rightSideView(struct TreeNode* root, int* returnSize){
     }
     return ret;
 }
-```
+// ```

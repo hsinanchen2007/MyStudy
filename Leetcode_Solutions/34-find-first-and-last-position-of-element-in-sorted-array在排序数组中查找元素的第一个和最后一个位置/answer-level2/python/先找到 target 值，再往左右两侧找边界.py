@@ -1,6 +1,6 @@
-先使用二分查找法找到 target 值，然后从找到 target 值的位置往左右两侧延伸，直到寻找到两侧的边界值。
+# 先使用二分查找法找到 target 值，然后从找到 target 值的位置往左右两侧延伸，直到寻找到两侧的边界值。
 
-```python
+# ```python
 class Solution(object):
     def searchRange(self, nums, target):
         """
@@ -33,4 +33,4 @@ class Solution(object):
                 left = mid + 1
 
         return res
-```
+# ```

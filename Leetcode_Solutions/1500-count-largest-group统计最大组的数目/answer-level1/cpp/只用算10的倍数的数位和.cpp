@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-只用算十的倍数的数位和，其余累加就好
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 只用算十的倍数的数位和，其余累加就好
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int countLargestGroup(int n) {
@@ -34,4 +34,4 @@ public:
         return ans;
     }
 };
-```
+// ```

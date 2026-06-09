@@ -1,9 +1,9 @@
-### 解题思路
-标准的二分查找问题；参考了https://leetcode-cn.com/u/liweiwei1419/的方法，很棒的博主
+// ### 解题思路
+// 标准的二分查找问题；参考了https://leetcode-cn.com/u/liweiwei1419/的方法，很棒的博主
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func searchInsert(nums []int, target int) int {
         if nums == nil { 
         return -1
@@ -21,4 +21,4 @@ func searchInsert(nums []int, target int) int {
     }
     return left
 }
-```
+// ```

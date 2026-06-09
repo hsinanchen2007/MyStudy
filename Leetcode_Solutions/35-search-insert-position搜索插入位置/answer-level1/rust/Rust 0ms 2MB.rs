@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/e8dc7bea13598289f1e2f03b74058d05d76cd4cc9de897466be5a0b3063968c8-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/e8dc7bea13598289f1e2f03b74058d05d76cd4cc9de897466be5a0b3063968c8-image.png)
 
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn search_insert(nums: Vec<i32>, target: i32) -> i32 {
         let mut low: i32 = 0;
@@ -29,4 +29,4 @@ impl Solution {
         low + 1
     }
 }
-```
+// ```

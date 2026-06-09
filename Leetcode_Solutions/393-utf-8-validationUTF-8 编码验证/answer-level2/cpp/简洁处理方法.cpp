@@ -1,6 +1,6 @@
-主要注意编码长度限制
+// 主要注意编码长度限制
 
-```
+// ```
 class Solution {
 public:
     bool validUtf8(vector<int>& data) {
@@ -25,4 +25,4 @@ public:
         return true;
     }
 };
-```
+// ```

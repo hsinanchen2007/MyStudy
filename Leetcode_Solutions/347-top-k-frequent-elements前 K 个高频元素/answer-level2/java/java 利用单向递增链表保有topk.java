@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-1、构造一个hashMap numCountMap
-       key为nums的元素值,value为num出现的次数
-2、构造一个单向递增链表LinkedList<Integer> topKList,里面所有的元素按照numCount排序
-3、循环numCountMap的keySet,将key向topKList里面添加,如果链表的大小>k
-           则将第一个元素弹出
-        注意在插入的过程中要保持链表的单调递增性
-4、将topKList返回,注意topKList是从小到大排序,所以在最终结果输出的时候需要反转。
+// 1、构造一个hashMap numCountMap
+//        key为nums的元素值,value为num出现的次数
+// 2、构造一个单向递增链表LinkedList<Integer> topKList,里面所有的元素按照numCount排序
+// 3、循环numCountMap的keySet,将key向topKList里面添加,如果链表的大小>k
+//            则将第一个元素弹出
+//         注意在插入的过程中要保持链表的单调递增性
+// 4、将topKList返回,注意topKList是从小到大排序,所以在最终结果输出的时候需要反转。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> topKFrequent(int[] nums, int k) {
             Map<Integer,Integer> numCountMap = new HashMap<>();
@@ -63,4 +63,4 @@ class Solution {
         }
     }
 }
-```
+// ```

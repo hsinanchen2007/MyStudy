@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
 var lemonadeChange = function (bills) {
     var five = 0;
     var ten = 0;
@@ -27,4 +27,4 @@ var lemonadeChange = function (bills) {
     }
     return true;
 };
-```
+// ```

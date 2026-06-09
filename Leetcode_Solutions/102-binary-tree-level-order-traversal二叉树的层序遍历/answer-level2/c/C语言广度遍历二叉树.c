@@ -1,6 +1,6 @@
-题目的算法不难，难的是如何用C语言实现
-1、使用节点数组queue模拟队列，取定长
-2、除了维护head和tail,还需要维护level，界定树的层。
+// 题目的算法不难，难的是如何用C语言实现
+// 1、使用节点数组queue模拟队列，取定长
+// 2、除了维护head和tail,还需要维护level，界定树的层。
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

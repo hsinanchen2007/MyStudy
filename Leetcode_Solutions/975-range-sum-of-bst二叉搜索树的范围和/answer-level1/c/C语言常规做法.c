@@ -1,5 +1,5 @@
-利用递归即可解决，也可以进行中序遍历，代码待更。
-```c
+// 利用递归即可解决，也可以进行中序遍历，代码待更。
+// ```c
 int rangeSumBST(struct TreeNode* root, int L, int R){
     if(root){
         if(root->val<L)
@@ -11,4 +11,4 @@ int rangeSumBST(struct TreeNode* root, int L, int R){
     }
     return 0;
 }
-```
+// ```

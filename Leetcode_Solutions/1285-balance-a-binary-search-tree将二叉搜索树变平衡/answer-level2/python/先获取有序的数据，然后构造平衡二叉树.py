@@ -1,9 +1,9 @@
-### 解题思路
-> 核心思想，获取有序的数据，然后构造平衡二叉树；直接对原来的树排序复杂度比较高；
+# ### 解题思路
+# > 核心思想，获取有序的数据，然后构造平衡二叉树；直接对原来的树排序复杂度比较高；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def tree_to_array(self, root, values):
         if root is None:
@@ -27,10 +27,10 @@ class Solution:
         values = []
         self.tree_to_array(root, values)
         return self.build_balance_tree(values)
-```
+# ```
 
-- 本地用例用到的辅助函数（用于构造用例和检查结果）：
-``` python3
+# - 本地用例用到的辅助函数（用于构造用例和检查结果）：
+# ``` python3
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -77,10 +77,10 @@ def tree_to_list(root):
         q.append(curr.left)
         q.append(curr.right)
     return ans
-```
+# ```
 
-# 运行效果
-```
+# # 运行效果
+# ```
 执行用时 :268 ms, 在所有 Python3 提交中击败了100.00%的用户
 内存消耗 :20 MB, 在所有 Python3 提交中击败了100.00%的用户
-```
+# ```

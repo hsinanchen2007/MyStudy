@@ -1,10 +1,10 @@
-### 解题思路
-如果没有攻击就被毒0秒
-如果被攻击，攻击间隔小于中毒持续时间就用攻击间隔，不小于就用持续时间
+# ### 解题思路
+# 如果没有攻击就被毒0秒
+# 如果被攻击，攻击间隔小于中毒持续时间就用攻击间隔，不小于就用持续时间
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findPoisonedDuration(self, timeSeries, duration):
         if len(timeSeries) == 0:
@@ -25,4 +25,4 @@ class Solution:
         return con
 
 
-```
+# ```

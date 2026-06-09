@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def __init__(self):
         self.directions=[(0,1),(0,-1),(1,0),(-1,0)]
@@ -43,4 +43,4 @@ class Solution:
                 if board[i][j]=='O' and board_copy[i][j]==1:
                     board[i][j]='X'
         
-```
+# ```

@@ -1,12 +1,12 @@
-### 解题思路
-3次遍历
-1. 遍历每一行记录当前行的最大值；
-2. 遍历每一列记录当前列的最大值；
-3. 遍历每个数字，当前数字最大可为当前列和行的记录的两个值的最小值。
+# ### 解题思路
+# 3次遍历
+# 1. 遍历每一行记录当前行的最大值；
+# 2. 遍历每一列记录当前列的最大值；
+# 3. 遍历每个数字，当前数字最大可为当前列和行的记录的两个值的最小值。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxIncreaseKeepingSkyline(self, grid: List[List[int]]) -> int:
         nrows = len(grid)
@@ -32,4 +32,4 @@ class Solution:
                     total += (min1-grid[subrow][subcol])
 
         return total
-```
+# ```

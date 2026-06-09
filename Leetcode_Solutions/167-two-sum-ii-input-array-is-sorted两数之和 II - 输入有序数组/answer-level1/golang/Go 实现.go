@@ -1,4 +1,4 @@
-```
+// ```
 func twoSum(numbers []int, target int) []int {
     l,r := 0,len(numbers)-1
     arr := []int{}
@@ -14,4 +14,4 @@ func twoSum(numbers []int, target int) []int {
     }
     return arr
 }
-```
+// ```

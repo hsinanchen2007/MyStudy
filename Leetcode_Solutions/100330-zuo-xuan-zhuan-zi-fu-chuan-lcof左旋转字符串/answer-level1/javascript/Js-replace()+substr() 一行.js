@@ -1,9 +1,9 @@
-### 解题思路
-replace()+substr() 一行
+// ### 解题思路
+// replace()+substr() 一行
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @param {number} n
@@ -12,11 +12,11 @@ replace()+substr() 一行
 var reverseLeftWords = function(s, n) {
      return s.replace(s.substr(0, n), '') + s.substr(0,n)
 };
-```
-<!-- 只用substr()
-```
+// ```
+// <!-- 只用substr()
+// ```
 var reverseLeftWords = function (s, n) {
   return s.substr(n) + s.substr(0, n)
 };
-``` 
--->
+// ``` 
+// -->

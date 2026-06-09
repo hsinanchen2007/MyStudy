@@ -1,8 +1,8 @@
-### 解题思路
-I used the longer linklist to store the final result. if it is not long enough, then I will malloc another node to store the carry.
-### 代码
+// ### 解题思路
+// I used the longer linklist to store the final result. if it is not long enough, then I will malloc another node to store the carry.
+// ### 代码
 
-```c
+// ```c
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     struct ListNode *p1;
     p1 = (struct ListNode *)malloc(sizeof(struct ListNode));
@@ -89,4 +89,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     }
     return l1;
 }
-```
+// ```

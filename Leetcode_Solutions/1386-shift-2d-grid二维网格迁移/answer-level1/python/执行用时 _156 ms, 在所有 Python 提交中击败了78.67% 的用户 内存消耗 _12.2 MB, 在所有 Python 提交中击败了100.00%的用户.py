@@ -1,9 +1,9 @@
-### 解题思路
-python
+# ### 解题思路
+# python
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 from itertools import chain
 
 class Solution(object):
@@ -37,4 +37,4 @@ class Solution(object):
         :type k: int
         :rtype: List[List[int]]
         """
-```
+# ```

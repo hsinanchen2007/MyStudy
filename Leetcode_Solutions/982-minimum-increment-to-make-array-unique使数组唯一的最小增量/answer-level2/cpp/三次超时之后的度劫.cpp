@@ -1,6 +1,6 @@
-### 解题思路
-献给超时的耿直boy。
-``` c++
+// ### 解题思路
+// 献给超时的耿直boy。
+// ``` c++
 int minIncrementForUniqueTimeoutVersion(vector<int> &A) {
     int len = A.size();
     int ans = 0;
@@ -13,12 +13,12 @@ int minIncrementForUniqueTimeoutVersion(vector<int> &A) {
     }
     return ans;
 }
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int minIncrementForUnique(vector<int>& A) {
@@ -36,4 +36,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-执行代码失败，直接提交反而成功了，用pycharm跑自己的测试用例也能成功。很奇怪
+# ### 解题思路
+# 执行代码失败，直接提交反而成功了，用pycharm跑自己的测试用例也能成功。很奇怪
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         n=len(s)
@@ -25,4 +25,4 @@ class Solution:
         #print(row)
         return "".join(row)
 
-```
+# ```

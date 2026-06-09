@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
-使用广度优先搜索方案解答
-### 代码
+# 使用广度优先搜索方案解答
+# ### 代码
 
-```python3
+# ```python3
 from collections import deque
 class Solution:
     def movingCount(self, m: int, n: int, k: int) -> int:
@@ -36,4 +36,4 @@ class Solution:
                         search.append(p)
         return count
 
-```
+# ```

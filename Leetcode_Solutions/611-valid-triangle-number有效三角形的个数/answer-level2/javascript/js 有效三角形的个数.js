@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number[]} nums
  * @return {number}
@@ -27,5 +27,5 @@ var triangleNumber = function(nums) {
     }
     return res
 }
-```
-![image.png](https://pic.leetcode-cn.com/bc36e382240970a9918af5f5fc9fbbbeb752d78e9ca9c8f01a6789f7788e370c-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/bc36e382240970a9918af5f5fc9fbbbeb752d78e9ca9c8f01a6789f7788e370c-image.png)

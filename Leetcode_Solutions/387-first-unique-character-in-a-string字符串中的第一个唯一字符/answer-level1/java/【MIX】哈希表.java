@@ -1,9 +1,9 @@
-### 解题思路
-使用哈希表存储 字符, <频数, 索引>
+// ### 解题思路
+// 使用哈希表存储 字符, <频数, 索引>
 
-### 代码
+// ### 代码
 
-```java []
+// ```java []
 class Solution {
     public int firstUniqChar(String s) {
         // 空间换时间
@@ -22,8 +22,8 @@ class Solution {
         return -1;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         M = 26
@@ -36,8 +36,8 @@ class Solution:
                 return i
 
         return -1
-```
-```c++ []
+// ```
+// ```c++ []
 class Solution {
 public:
     int firstUniqChar(string s) {
@@ -66,4 +66,4 @@ public:
         }
     }
 };
-```
+// ```

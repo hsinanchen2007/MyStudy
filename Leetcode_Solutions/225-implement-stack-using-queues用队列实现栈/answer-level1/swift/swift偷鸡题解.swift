@@ -1,9 +1,9 @@
-### 解题思路
-只是用数组去实现的Stack, 偷鸡了
+// ### 解题思路
+// 只是用数组去实现的Stack, 偷鸡了
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class MyStack {
 
     var arr:[Int] = []
@@ -41,4 +41,4 @@ class MyStack {
  * let ret_3: Int = obj.top()
  * let ret_4: Bool = obj.empty()
  */
-```
+// ```

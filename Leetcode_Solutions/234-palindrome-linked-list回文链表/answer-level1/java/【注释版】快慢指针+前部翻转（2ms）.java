@@ -1,4 +1,4 @@
-```java
+// ```java
 /*
  * @lc app=leetcode.cn id=234 lang=java
  *
@@ -77,4 +77,4 @@ class Solution {
 }
 
 
-```
+// ```

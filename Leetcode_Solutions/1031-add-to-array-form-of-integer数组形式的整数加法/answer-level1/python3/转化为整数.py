@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def addToArrayForm(self, A, K):
         for i in range(len(A)):
@@ -8,4 +8,4 @@ class Solution:
         for i in range(len(num)):
             ans.append(int(num[i]))
         return ans
-```
+# ```

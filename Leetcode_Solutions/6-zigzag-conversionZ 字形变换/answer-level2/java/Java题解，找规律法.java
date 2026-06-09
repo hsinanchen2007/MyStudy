@@ -1,6 +1,6 @@
-**写完十分钟再看自己都看不懂了，代码可运行**![8@\]@BT~H9}{Y2)A{4P~14{C.png](https://pic.leetcode-cn.com/0a1f63a8935439cd580dc3546e24094f37a099855ff296a71b56db77655243d9-8@%5D@BT~H9%7D%7BY2\)A%7B4P~14%7BC.png)
-欢迎广大网友来挑战————看懂我写的shi代码！
-```
+// **写完十分钟再看自己都看不懂了，代码可运行**![8@\]@BT~H9}{Y2)A{4P~14{C.png](https://pic.leetcode-cn.com/0a1f63a8935439cd580dc3546e24094f37a099855ff296a71b56db77655243d9-8@%5D@BT~H9%7D%7BY2\)A%7B4P~14%7BC.png)
+// 欢迎广大网友来挑战————看懂我写的shi代码！
+// ```
 class Solution {
     public String convert(String s, int numRows) {
         if(numRows==1)
@@ -25,5 +25,5 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```
 

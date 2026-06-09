@@ -1,9 +1,9 @@
-### 解题思路
-标准DFS  套模板就可以了。
+// ### 解题思路
+// 标准DFS  套模板就可以了。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int movingCount(int m, int n, int k) {
         boolean[][] visited = new boolean[m][n];
@@ -34,4 +34,4 @@ class Solution {
 
 
 
-```
+// ```

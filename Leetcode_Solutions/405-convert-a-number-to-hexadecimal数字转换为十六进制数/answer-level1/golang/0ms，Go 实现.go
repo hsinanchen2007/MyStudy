@@ -1,11 +1,11 @@
 
-![image.png](https://pic.leetcode-cn.com/046621db04a430e7efc566c5ea03641638e58ee235d74f2ce35c7394f787b82d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/046621db04a430e7efc566c5ea03641638e58ee235d74f2ce35c7394f787b82d-image.png)
 
-如果是负数，先转换成补码形式，比如：-1 + 4294967296 = 4294967295 = 0xffffffff
+// 如果是负数，先转换成补码形式，比如：-1 + 4294967296 = 4294967295 = 0xffffffff
 
-然后再按位提取十六进制字符，累加成结果字符串。
+// 然后再按位提取十六进制字符，累加成结果字符串。
 
-```
+// ```
 func toHex(num int) string {
     if num < 0 {    // 如果是负数，转换成补码形式，比如：-1 + 4294967296 = 4294967295 = 0xffffffff
         num += 4294967296
@@ -22,4 +22,4 @@ func toHex(num int) string {
     }
     return string(ans)
 }
-```
+// ```

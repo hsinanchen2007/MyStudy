@@ -1,7 +1,7 @@
-讨论多种分支，代码还是复杂了点。但是挺快的
-![image.png](https://pic.leetcode-cn.com/02633356a4e5395586dcbe649342e481778b15871155baa2b0ebf5a4eb61ff5a-image.png)
+# 讨论多种分支，代码还是复杂了点。但是挺快的
+# ![image.png](https://pic.leetcode-cn.com/02633356a4e5395586dcbe649342e481778b15871155baa2b0ebf5a4eb61ff5a-image.png)
 
-```python
+# ```python
 class Solution:
     def deleteNode(self, root: TreeNode, key: int) -> TreeNode:
         # 删除节点返回新的子树    
@@ -55,4 +55,4 @@ class Solution:
         if f==0:father.left=delete(node)
         else: father.right=delete(node)
         return root
-```
+# ```

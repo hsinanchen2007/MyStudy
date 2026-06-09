@@ -1,6 +1,6 @@
-通过维持栈顶元素为整数来完成迭代器的Next操作。
+// 通过维持栈顶元素为整数来完成迭代器的Next操作。
 
-```
+// ```
 public class NestedIterator {
     private Stack<NestedInteger> stack = new Stack<NestedInteger>();
 
@@ -31,5 +31,5 @@ public class NestedIterator {
         return stack.Pop().GetInteger();
     }
 }
-```
+// ```
 

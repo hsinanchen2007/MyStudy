@@ -1,9 +1,9 @@
-### 解题思路
-找到R然後依照x軸y軸用forloop找p
+// ### 解题思路
+// 找到R然後依照x軸y軸用forloop找p
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {number}
@@ -52,4 +52,4 @@ var numRookCaptures = function(board) {
    
     return res;
 };
-```
+// ```

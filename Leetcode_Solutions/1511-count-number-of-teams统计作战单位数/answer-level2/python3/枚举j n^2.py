@@ -1,14 +1,14 @@
-### 解题思路
-枚举j， 找左边大于的 小于的 右边大于的 小于的 相乘就行。
-对于每个j,一趟遍历找到左边比当前j大的个数 leftlarge 比当前小的 leftsmall
-右边比当前大的 rightlarge,右边比当前小的 righmall,
-总数有 i<j<k模式： leftsmall * rightlarge
-i>j>K模式: leftlarge * righmall
-相加就是总数.
+# ### 解题思路
+# 枚举j， 找左边大于的 小于的 右边大于的 小于的 相乘就行。
+# 对于每个j,一趟遍历找到左边比当前j大的个数 leftlarge 比当前小的 leftsmall
+# 右边比当前大的 rightlarge,右边比当前小的 righmall,
+# 总数有 i<j<k模式： leftsmall * rightlarge
+# i>j>K模式: leftlarge * righmall
+# 相加就是总数.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numTeams(self, rating: List[int]) -> int:
         n = len(rating)
@@ -32,4 +32,4 @@ class Solution:
                     righmall+=1
             ans += leftlarge* righmall+ leftsmall*rightlarge
         return ans
-```
+# ```

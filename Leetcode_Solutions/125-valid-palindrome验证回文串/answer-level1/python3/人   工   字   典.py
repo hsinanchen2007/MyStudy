@@ -1,9 +1,9 @@
-### 解题思路
-我会手撸特殊符号了23333
- (不知道isallnum(), 哭了
-### 代码
+# ### 解题思路
+# 我会手撸特殊符号了23333
+#  (不知道isallnum(), 哭了
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         s = s.upper()
@@ -48,6 +48,6 @@ class Solution:
             left += 1
             right -= 1
         return True
-```
+# ```
 
-我吐了
+# 我吐了

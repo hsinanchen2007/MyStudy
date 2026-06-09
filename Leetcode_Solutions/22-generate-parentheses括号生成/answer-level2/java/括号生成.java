@@ -1,11 +1,11 @@
-### 解题思路
-１.左括号还有剩余，产生左括号；
-２.有多的右括号剩余，补上右括号
-３.所有右括号添加完毕，生成
+// ### 解题思路
+// １.左括号还有剩余，产生左括号；
+// ２.有多的右括号剩余，补上右括号
+// ３.所有右括号添加完毕，生成
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     List<String> res = new ArrayList<>();
     public List<String> generateParenthesis(int n) {
@@ -23,4 +23,4 @@ class Solution {
     }
 
 }
-```
+// ```

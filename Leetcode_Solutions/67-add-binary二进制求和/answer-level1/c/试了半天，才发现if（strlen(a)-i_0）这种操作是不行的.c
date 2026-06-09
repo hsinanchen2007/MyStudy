@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * addBinary(char * a, char * b){
 char *p=a,*q=b,*c=NULL;
 int k=0,size,i,la,lb;
@@ -25,4 +25,4 @@ for(i=1;i<=size-1;i++){
 if(*c=='0') c++;
 return c;
 }
-```
+// ```

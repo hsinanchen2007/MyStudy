@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/dd221f0c2fa73c55869b3f96973681f8bdf745c6f563eaedc883d73085e733dd-image.png)
+# ### 解题思路
+# ![image.png](https://pic.leetcode-cn.com/dd221f0c2fa73c55869b3f96973681f8bdf745c6f563eaedc883d73085e733dd-image.png)
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         assert len(nums) > 1
@@ -20,4 +20,4 @@ class Solution:
         return res
 
         
-```
+# ```

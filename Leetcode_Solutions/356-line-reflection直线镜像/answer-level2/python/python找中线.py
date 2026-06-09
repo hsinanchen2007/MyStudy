@@ -1,4 +1,4 @@
-```python []
+# ```python []
 class Solution(object):
     def isReflected(self, points):
         """
@@ -23,4 +23,4 @@ class Solution(object):
                 return False
         return True
 
-```
+# ```

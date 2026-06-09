@@ -1,9 +1,9 @@
-### 解题思路
-类似按摩师，选取有条件的最大和值，迭代法求动态规划。注意空集的情况！
+# ### 解题思路
+# 类似按摩师，选取有条件的最大和值，迭代法求动态规划。注意空集的情况！
 
-### 代码
+# ### 代码
 
-```cpp []
+# ```cpp []
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -18,8 +18,8 @@ public:
         return max(dp0,dp1);
     }
 };
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def rob(self, nums: List[int]) -> int:
         if len(nums)==0:
@@ -28,5 +28,5 @@ class Solution:
         for i in range(1,len(nums)):
             dp0,dp1=max(dp0,dp1),dp0+nums[i]
         return max(dp0,dp1)
-```
+# ```
 

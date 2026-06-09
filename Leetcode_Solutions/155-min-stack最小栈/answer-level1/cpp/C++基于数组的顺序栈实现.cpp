@@ -1,10 +1,10 @@
-### 解题思路
-基于数组实现顺序栈。
-采用辅助栈存储最小值，实现O(1)时间复杂度内返回最小值。
+// ### 解题思路
+// 基于数组实现顺序栈。
+// 采用辅助栈存储最小值，实现O(1)时间复杂度内返回最小值。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class MinStack {
 private:
     /** initialize your data structure here. */
@@ -68,4 +68,4 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
-```
+// ```

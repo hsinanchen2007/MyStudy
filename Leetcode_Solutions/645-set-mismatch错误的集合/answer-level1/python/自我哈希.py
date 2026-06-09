@@ -1,12 +1,12 @@
-### 解题思路
-因为数据范围在1~n, 所以可以O(1)空间把自己本身作为哈希
-通过交换元素使得每个index的值对应为index+1. 
-同时注意python的这种交换方式 a, b = b, a 是有顺序的, 前面的比后面的先改变
-所以要当心 a, nums[a] = nums[a], a的这种情况
+# ### 解题思路
+# 因为数据范围在1~n, 所以可以O(1)空间把自己本身作为哈希
+# 通过交换元素使得每个index的值对应为index+1. 
+# 同时注意python的这种交换方式 a, b = b, a 是有顺序的, 前面的比后面的先改变
+# 所以要当心 a, nums[a] = nums[a], a的这种情况
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findErrorNums(self, nums: List[int]) -> List[int]:
         i, l = 0, len(nums)
@@ -29,4 +29,4 @@ class Solution:
             if nums[i]==copy:
                 if nums[i]!=i+1: return [copy, i+1]
 
-```
+# ```

@@ -1,6 +1,6 @@
-直接上代码
+// 直接上代码
 
-#define MAX 128     //字符的ASCII码小于128
+// #define MAX 128     //字符的ASCII码小于128
 
 char * minWindow(char * s, char * t){
     int i;

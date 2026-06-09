@@ -1,12 +1,12 @@
-### 解题思路
-首先根据索引r + c的奇偶确定行走的方向，奇数右上，偶数左下。
-每次行走方向又有三种边界的情况
-	1.top或者down边界都是往右走
-	2.left或者right边界都是往下走
+// ### 解题思路
+// 首先根据索引r + c的奇偶确定行走的方向，奇数右上，偶数左下。
+// 每次行走方向又有三种边界的情况
+// 	1.top或者down边界都是往右走
+// 	2.left或者right边界都是往下走
 	
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findDiagonalOrder(matrix [][]int) []int {
     var rowLen int = len(matrix)
 	var result []int
@@ -40,4 +40,4 @@ func findDiagonalOrder(matrix [][]int) []int {
 		}
 	return result[:]
 }
-```
+// ```

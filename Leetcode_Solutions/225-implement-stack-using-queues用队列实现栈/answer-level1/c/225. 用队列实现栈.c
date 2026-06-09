@@ -1,9 +1,9 @@
-### 解题思路
-将队尾rear作为栈的栈顶top。初始状态栈顶为-1，初始化队列的队头front为0，队尾rear为-1。其实就是限制了队头的队列的一系列操作。
+// ### 解题思路
+// 将队尾rear作为栈的栈顶top。初始状态栈顶为-1，初始化队列的队头front为0，队尾rear为-1。其实就是限制了队头的队列的一系列操作。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXSIZE 1000
 
 typedef struct {
@@ -44,4 +44,4 @@ bool myStackEmpty(MyStack* obj) {
 void myStackFree(MyStack* obj) {
     free(obj);
 }
-```
+// ```

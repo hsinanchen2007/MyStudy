@@ -1,11 +1,11 @@
-### 解题思路
-借助中序，先把二叉排序树的值用LinkedList 保存，然后就很简单了
-![image.png](https://pic.leetcode-cn.com/17aa29d1ff26e509dc873e130717acf9a2aafdb3df5c74b2589dd69f1acd8a30-image.png)
+// ### 解题思路
+// 借助中序，先把二叉排序树的值用LinkedList 保存，然后就很简单了
+// ![image.png](https://pic.leetcode-cn.com/17aa29d1ff26e509dc873e130717acf9a2aafdb3df5c74b2589dd69f1acd8a30-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -53,4 +53,4 @@ class BSTIterator {
  * int param_1 = obj.next();
  * boolean param_2 = obj.hasNext();
  */
-```
+// ```

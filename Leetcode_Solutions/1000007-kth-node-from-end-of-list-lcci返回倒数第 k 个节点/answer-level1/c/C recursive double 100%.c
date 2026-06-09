@@ -1,4 +1,4 @@
-```
+// ```
 // return kth to last of current node
 int helper(struct ListNode* head, const int k, int *ret)
 {
@@ -19,4 +19,4 @@ int kthToLast(struct ListNode* head, int k){
 
   return ret;
 }
-```
+// ```

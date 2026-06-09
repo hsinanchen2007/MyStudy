@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean validWordAbbreviation(String word, String abbr) {
         int wordStart = 0;
@@ -27,4 +27,4 @@ class Solution {
         return wordStart == wordEnd && abbrStart == abbrEnd;
     }
 }
-```
+// ```

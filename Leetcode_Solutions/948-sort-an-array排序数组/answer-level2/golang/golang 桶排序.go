@@ -1,5 +1,5 @@
-因为题目限定了A[i]的大小，所以我猜测应该是想让我们桶排序
-```
+// 因为题目限定了A[i]的大小，所以我猜测应该是想让我们桶排序
+// ```
 func sortArray(nums []int) []int {
     s := [100001]int{}
     for i := 0; i < len(nums); i++ {
@@ -15,4 +15,4 @@ func sortArray(nums []int) []int {
     }
     return nums
 }
-```
+// ```

@@ -1,12 +1,12 @@
-[200.岛屿数量](https://leetcode-cn.com/problems/number-of-islands/submissions/)  
+// [200.岛屿数量](https://leetcode-cn.com/problems/number-of-islands/submissions/)  
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
-本题[优质题解](https://leetcode-cn.com/problems/number-of-islands/solution/dfs-bfs-bing-cha-ji-python-dai-ma-java-dai-ma-by-l/)参考。
+// 本题[优质题解](https://leetcode-cn.com/problems/number-of-islands/solution/dfs-bfs-bing-cha-ji-python-dai-ma-java-dai-ma-by-l/)参考。
 
-## 方法一 DFS    
+// ## 方法一 DFS    
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} grid
  * @return {number}
@@ -45,13 +45,13 @@ var numIslands = function(grid) {
     }
     return count;
 };
-```
+// ```
 
-## 方法二 BFS  
+// ## 方法二 BFS  
 
-大致思路与DFS相同，区别在于将DFS转化为BFS。  
+// 大致思路与DFS相同，区别在于将DFS转化为BFS。  
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} grid
  * @return {number}
@@ -93,4 +93,4 @@ var numIslands = function(grid) {
     }
     return count;
 };
-```
+// ```

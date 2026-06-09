@@ -1,11 +1,11 @@
-### 解题思路
-遍历root1，查找root2中值为target - node1->val的节点，利用有序性质。
+// ### 解题思路
+// 遍历root1，查找root2中值为target - node1->val的节点，利用有序性质。
 
-![图片.png](https://pic.leetcode-cn.com/826ef0c4bc262476fd0c78d5546d07409a6b791a066d575be8a2e0ecb4899bc3-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/826ef0c4bc262476fd0c78d5546d07409a6b791a066d575be8a2e0ecb4899bc3-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,4 +42,4 @@ public:
         }
     }
 };
-```
+// ```

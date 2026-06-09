@@ -1,4 +1,4 @@
-一次排序，一次遍历 时间复杂度 nlogn
+// 一次排序，一次遍历 时间复杂度 nlogn
 
 `/**
  * @param {number[][]} intervals

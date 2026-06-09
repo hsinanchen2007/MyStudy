@@ -1,4 +1,4 @@
-```
+// ```
 var gameOfLife = function(board) {
   const cloneBoard = board.map(b => b.map(i => i))
   const areas = [[-1, -1], [-1, 0], [-1, 1], [0, -1], [0, 1], [1, -1], [1, 0], [1, 1]]
@@ -17,4 +17,4 @@ var gameOfLife = function(board) {
     }
   }
 };
-```
+// ```

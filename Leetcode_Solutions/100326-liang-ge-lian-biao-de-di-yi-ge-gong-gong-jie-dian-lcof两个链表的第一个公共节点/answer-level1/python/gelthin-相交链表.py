@@ -1,17 +1,17 @@
-### 解题思路
-[主站 160 题相同](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
-有多种解法，主站习题用的解法是把两条链表拼在一起，然后双指针每次走1， 总会相遇。
+# ### 解题思路
+# [主站 160 题相同](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/)
+# 有多种解法，主站习题用的解法是把两条链表拼在一起，然后双指针每次走1， 总会相遇。
 
-我这里的解法是阿里面试题，从带有父节点的二叉树的两个节点寻找最近公共父节点衍生而来。
-快慢指针，首先计算出来两个节点到最后的父节点的距离，然后一个节点走一段这个距离，然后两个节点同时走。
+# 我这里的解法是阿里面试题，从带有父节点的二叉树的两个节点寻找最近公共父节点衍生而来。
+# 快慢指针，首先计算出来两个节点到最后的父节点的距离，然后一个节点走一段这个距离，然后两个节点同时走。
 
-但当时代码写的一塌糊涂，非常不好。
+# 但当时代码写的一塌糊涂，非常不好。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -43,4 +43,4 @@ class Solution:
             p1 = p1.next
             p2 = p2.next
         return p1
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-方法一：
-1,先决定一行放多少个单词
-2,确定放多少个单词之后决定一行中空格如何分配
+// ### 解题思路
+// 方法一：
+// 1,先决定一行放多少个单词
+// 2,确定放多少个单词之后决定一行中空格如何分配
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -124,4 +124,4 @@ char ** fullJustify(char ** words, int wordsSize, int maxWidth, int* returnSize)
     *returnSize = iRetSize;
     return pRet;
 }
-```
+// ```

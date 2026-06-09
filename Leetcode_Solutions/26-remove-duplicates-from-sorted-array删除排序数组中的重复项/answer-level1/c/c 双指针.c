@@ -1,9 +1,9 @@
-### 解题思路
-双指针替换。
+// ### 解题思路
+// 双指针替换。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int removeDuplicates(int *nums, int numsSize)
 {
     if (numsSize <= 1)
@@ -20,4 +20,4 @@ int removeDuplicates(int *nums, int numsSize)
     return i+1;
 }
 
-```
+// ```

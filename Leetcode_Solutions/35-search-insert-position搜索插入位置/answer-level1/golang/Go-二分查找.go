@@ -1,5 +1,5 @@
-基础二分查找
-```go
+// 基础二分查找
+// ```go
 func searchInsert(nums []int, target int) int {
 	l := len(nums)
 	i, j := 0, l - 1
@@ -27,4 +27,4 @@ func searchInsert(nums []int, target int) int {
 	}
 	return i
 }
-```
+// ```

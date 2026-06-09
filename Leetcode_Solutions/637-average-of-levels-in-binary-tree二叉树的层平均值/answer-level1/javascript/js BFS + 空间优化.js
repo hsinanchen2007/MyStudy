@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/e235b676f41587d04c8216a75b7764d23eb2122c823aab8645978bb5bef7d179-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e235b676f41587d04c8216a75b7764d23eb2122c823aab8645978bb5bef7d179-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 BFS + 队列
 不断地把每一层放到队列中，计算每一层的平均值放到结果数组中
 因为要分层，所以利用一个临时队列 temp ，每次当前层 queue 空了的时候，
@@ -15,11 +15,11 @@ BFS + 队列
 继续。。。
 
 这样空间上就会优化很多，少用了一个数组
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -114,4 +114,4 @@ var averageOfLevels = function(root) {
   
 //   return ans;
 // };
-```
+// ```

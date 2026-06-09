@@ -1,4 +1,4 @@
-```java
+// ```java
 
 class Solution {
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int K) {
@@ -48,4 +48,4 @@ class Solution {
         return minCost[dst] == Integer.MAX_VALUE ? -1 : minCost[dst];
     }
 }
-```
+// ```

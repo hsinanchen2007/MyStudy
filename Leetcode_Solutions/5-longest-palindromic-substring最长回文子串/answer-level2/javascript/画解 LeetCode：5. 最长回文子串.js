@@ -1,17 +1,17 @@
-![2.png](https://pic.leetcode-cn.com/ba6f172b451f41ab071dea03b9cecd22cf6ae6ef280f4d12634edad94aa15628.png)
+// ![2.png](https://pic.leetcode-cn.com/ba6f172b451f41ab071dea03b9cecd22cf6ae6ef280f4d12634edad94aa15628.png)
 
-### 思路
-* 标签：` 动态规划 `：通过子问题答案来解决大问题答案；子问题都需要是离散且不依赖其他子问题（详可见 [《算法图解》](https://depp.wang/Java-Books/%E7%AE%97%E6%B3%95%E5%9B%BE%E8%A7%A3.epub) 第九章「动态规划」）；
-* 回文字符串是正读和反读都一样，所以如果将回文字符串反转，那么字符串和反转字符串肯定完全一样。
-* 如果字符串不是回文字符串，那么字符串和反转字符串如果有相同的部分，即公共子串，那么最长的公共子串是不是一定就是最长回文子串嗯？关于如何得到最长公共子串，看下面 [这里](#如何得到最长公共子串)
-* 我们发现，最长公共子串不一定就是最长回文子串，比如字符串 S 为 `aacdecaa`，反转字符串为 `aacedcaa`，最长公共子串有 aac 和 caa，都不是回文子串，更不是最长回文子串。所以需要进一步判断最长公共子串是否是回文子串。
-* 时间复杂度：O(n^2) -- 两层遍历。
-* 空间复杂度：O(n^2) -- 二维数组。
+// ### 思路
+// * 标签：` 动态规划 `：通过子问题答案来解决大问题答案；子问题都需要是离散且不依赖其他子问题（详可见 [《算法图解》](https://depp.wang/Java-Books/%E7%AE%97%E6%B3%95%E5%9B%BE%E8%A7%A3.epub) 第九章「动态规划」）；
+// * 回文字符串是正读和反读都一样，所以如果将回文字符串反转，那么字符串和反转字符串肯定完全一样。
+// * 如果字符串不是回文字符串，那么字符串和反转字符串如果有相同的部分，即公共子串，那么最长的公共子串是不是一定就是最长回文子串嗯？关于如何得到最长公共子串，看下面 [这里](#如何得到最长公共子串)
+// * 我们发现，最长公共子串不一定就是最长回文子串，比如字符串 S 为 `aacdecaa`，反转字符串为 `aacedcaa`，最长公共子串有 aac 和 caa，都不是回文子串，更不是最长回文子串。所以需要进一步判断最长公共子串是否是回文子串。
+// * 时间复杂度：O(n^2) -- 两层遍历。
+// * 空间复杂度：O(n^2) -- 二维数组。
 
 
 
-### 代码
-```Java []
+// ### 代码
+// ```Java []
 class Solution {
     public String longestPalindrome(String s) {
         if (s.equals("")) {
@@ -52,8 +52,8 @@ class Solution {
         return s.substring(maxEnd + 1 - maxLen, maxEnd + 1);
     }
 }
-```
-```JavaScript []
+// ```
+// ```JavaScript []
 var longestPalindrome = function (s) {
     if (s === "") {
         return "";
@@ -83,18 +83,18 @@ var longestPalindrome = function (s) {
     }
     return s.slice(maxEnd + 1 - maxLen, maxEnd + 1)
 };
-```
-### 画解
-<![1-2.png](https://pic.leetcode-cn.com/a17c924d13f88f05692d140621c0b62310126e9af3f04e84d8699c790b238b81-file_1565276704882),![2-2(2).png](https://pic.leetcode-cn.com/8123cf48fc83b0148575d261f8894768ec5bb9f3acf8648b8923aa1da066ba66-file_1565276704883),![1.png](https://pic.leetcode-cn.com/b454b45053c793f5158ac82c0cf58ae27a7cc498b7f576322359dfa5a06eb701-file_1565276704868),![2.png](https://pic.leetcode-cn.com/b2eb6bfa4a7f26bd4a26d8634a5588ee46cb31623141a7c4a00d6adc37ae6a8a-file_1565276704877)>
-## 如何得到最长公共子串
-### 思路
+// ```
+// ### 画解
+// <![1-2.png](https://pic.leetcode-cn.com/a17c924d13f88f05692d140621c0b62310126e9af3f04e84d8699c790b238b81-file_1565276704882),![2-2(2).png](https://pic.leetcode-cn.com/8123cf48fc83b0148575d261f8894768ec5bb9f3acf8648b8923aa1da066ba66-file_1565276704883),![1.png](https://pic.leetcode-cn.com/b454b45053c793f5158ac82c0cf58ae27a7cc498b7f576322359dfa5a06eb701-file_1565276704868),![2.png](https://pic.leetcode-cn.com/b2eb6bfa4a7f26bd4a26d8634a5588ee46cb31623141a7c4a00d6adc37ae6a8a-file_1565276704877)>
+// ## 如何得到最长公共子串
+// ### 思路
 
-- 将字符串 `S` 反转为 `S'`可以直观看出，`S = abac` 和 `S' = caba` 的最长公共子串为 `aba`
-- 需要利用动态规划来得到 **最长公共子串**，这里的动态规划通过网格的斜线来实现。
-- `S` 和 `S'` 分别置于横、纵坐标，通过网格（二维数组）一一比较子串（每一个子串就是一个子问题），**当前公共子串的长度等于前面公共子串的长度加一，网格记录当前公共子串的长度**。
-- 通过最长公共子串的长度和结束位置，得到最长公共子串。
-### 代码
-```Java []
+// - 将字符串 `S` 反转为 `S'`可以直观看出，`S = abac` 和 `S' = caba` 的最长公共子串为 `aba`
+// - 需要利用动态规划来得到 **最长公共子串**，这里的动态规划通过网格的斜线来实现。
+// - `S` 和 `S'` 分别置于横、纵坐标，通过网格（二维数组）一一比较子串（每一个子串就是一个子问题），**当前公共子串的长度等于前面公共子串的长度加一，网格记录当前公共子串的长度**。
+// - 通过最长公共子串的长度和结束位置，得到最长公共子串。
+// ### 代码
+// ```Java []
 class Solution {
     public String longestPalindrome(String s) {
         if (s.equals("")) {
@@ -125,8 +125,8 @@ class Solution {
         return s.substring(maxEnd + 1 - maxLen, maxEnd + 1);
     }
 }
-```
-```JavaScript []
+// ```
+// ```JavaScript []
 var longestPalindrome = function (s) {
     if (s === "") {
         return "";
@@ -153,14 +153,14 @@ var longestPalindrome = function (s) {
     }
     return s.slice(maxEnd + 1 - maxLen, maxEnd + 1)
 };
-```
-### 画解
-<![image](https://pic.leetcode-cn.com/83da656256d7b2ab1ab4979f9ae6cfc783376b7054011a6b88fb5aad42cbdbba-file_1565277220514),![2-1.png](https://pic.leetcode-cn.com/07497509cfc86b30ddf094e03ef6c515c3957cf0986b9ec0c598029976b1f9ad-file_1565276704879),![3-1.png](https://pic.leetcode-cn.com/8234d07a8563219829caa4b92d00d0e79992ff32ccf577b4a49bcaeb167eaaf6-file_1565276704880)>
+// ```
+// ### 画解
+// <![image](https://pic.leetcode-cn.com/83da656256d7b2ab1ab4979f9ae6cfc783376b7054011a6b88fb5aad42cbdbba-file_1565277220514),![2-1.png](https://pic.leetcode-cn.com/07497509cfc86b30ddf094e03ef6c515c3957cf0986b9ec0c598029976b1f9ad-file_1565276704879),![3-1.png](https://pic.leetcode-cn.com/8234d07a8563219829caa4b92d00d0e79992ff32ccf577b4a49bcaeb167eaaf6-file_1565276704880)>
 
-### 测试用例
+// ### 测试用例
 
-描述 | 1 | 2 | 3 | 4 | 5 
----|---|---|---|---|---
-输入 | "" | "a" | "abac" | "abcda"| "aacdecaa" 
-输出 | "" | "a" |  "aba" |"a" | "aa" 
+// 描述 | 1 | 2 | 3 | 4 | 5 
+// ---|---|---|---|---|---
+// 输入 | "" | "a" | "abac" | "abcda"| "aacdecaa" 
+// 输出 | "" | "a" |  "aba" |"a" | "aa" 
 

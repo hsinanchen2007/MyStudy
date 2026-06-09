@@ -1,4 +1,4 @@
-```
+// ```
 // 防止重复遍历，在遍历数组每个元素的时候记录当前的位置
 type node struct {
     val int
@@ -18,4 +18,4 @@ func dailyTemperatures(T []int) []int {
 	}
 	return res
 }
-```
+// ```

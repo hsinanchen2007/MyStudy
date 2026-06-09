@@ -1,8 +1,8 @@
-首先按照第一反应写出嵌套循环，但是执行超时
+// 首先按照第一反应写出嵌套循环，但是执行超时
 
-1. 第一步求原数组的度
-2. 寻找和原数组的度相同的所有子数组
-```go
+// 1. 第一步求原数组的度
+// 2. 寻找和原数组的度相同的所有子数组
+// ```go
 package degree
 
 import (
@@ -66,11 +66,11 @@ func TestFindShortestSubArray(t *testing.T) {
 	t.Log(findShortestSubArray(num3)) // 1
 	t.Log(findShortestSubArray(num4)) // 2
 }
-```
+// ```
 
-[学习大佬的方法](https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0697.degree-of-an-array/degree-of-an-array.go)
+// [学习大佬的方法](https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0697.degree-of-an-array/degree-of-an-array.go)
 
-```go
+// ```go
 package degree
 
 import (
@@ -118,4 +118,4 @@ func TestFindShortestSubArray(t *testing.T) {
 	t.Log(findShortestSubArray(num4)) // 2
 	t.Log(findShortestSubArray(num6)) // 1
 }
-```
+// ```

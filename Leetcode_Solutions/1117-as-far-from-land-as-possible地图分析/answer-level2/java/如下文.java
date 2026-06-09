@@ -1,9 +1,9 @@
-### 解题思路
-注释写了，BFS
+// ### 解题思路
+// 注释写了，BFS
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxDistance(int[][] grid) {
         //异常处理
@@ -76,4 +76,4 @@ class Solution {
         }
     }
 }
-```
+// ```

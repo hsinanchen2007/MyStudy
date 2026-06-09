@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     void dfs(TreeNode* root, int p, int& res) {
@@ -17,6 +17,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/c8bf988ed75cda85a6594c3a28c833a01a9f7eed10fedc5b2d18cb37168dbc3b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c8bf988ed75cda85a6594c3a28c833a01a9f7eed10fedc5b2d18cb37168dbc3b-image.png)

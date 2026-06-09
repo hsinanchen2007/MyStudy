@@ -1,6 +1,6 @@
-[https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/he-bing-yi-hou-zhao-gui-bing-guo-cheng-zhong-zhao-/]()
-参考这个思路用c编写
-```
+// [https://leetcode-cn.com/problems/median-of-two-sorted-arrays/solution/he-bing-yi-hou-zhao-gui-bing-guo-cheng-zhong-zhao-/]()
+// 参考这个思路用c编写
+// ```
 double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Size){
     int size_left = (nums1Size + nums2Size + 1)/2;
     int i = 0, j = size_left-i;
@@ -57,5 +57,5 @@ double findMedianSortedArrays(int* nums1, int nums1Size, int* nums2, int nums2Si
 
 }
 
-```
-![20200114144432611.png](https://pic.leetcode-cn.com/f51b5e261fae07e39be7408510ea047cfa4ba56542f129d37027bb30b7934dc0-20200114144432611.png)
+// ```
+// ![20200114144432611.png](https://pic.leetcode-cn.com/f51b5e261fae07e39be7408510ea047cfa4ba56542f129d37027bb30b7934dc0-20200114144432611.png)

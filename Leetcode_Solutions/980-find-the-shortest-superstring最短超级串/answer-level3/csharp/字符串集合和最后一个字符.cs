@@ -1,14 +1,14 @@
-### 解题思路
-对于每个字符串 可以通过hash 快速比较子串是否相等
-每个字符串 记录 和自己尾部有交集的字符串集合
-字符串集合 可以通过int 存储
-递归 子状态 当前剩余字符串集合 和 最后一个结尾字符串
+// ### 解题思路
+// 对于每个字符串 可以通过hash 快速比较子串是否相等
+// 每个字符串 记录 和自己尾部有交集的字符串集合
+// 字符串集合 可以通过int 存储
+// 递归 子状态 当前剩余字符串集合 和 最后一个结尾字符串
 
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, int>;
 using VT2 = System.ValueTuple<uint, int>;
 class WordH {
@@ -258,4 +258,4 @@ public class Solution {
         return ss.ShortestSuperstring(A);
     }
 }
-```
+// ```

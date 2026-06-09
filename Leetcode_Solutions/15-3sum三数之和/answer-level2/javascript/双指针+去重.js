@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
   var threeSum = function(nums) {
     if (!nums || nums.length < 3) return [];
     let arr = nums.sort((a,b)=>a-b);
@@ -36,4 +36,4 @@
     }
     return res;
   };
-```
+// ```

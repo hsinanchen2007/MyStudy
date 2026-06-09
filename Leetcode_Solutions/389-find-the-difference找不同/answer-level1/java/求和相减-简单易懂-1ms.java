@@ -1,9 +1,9 @@
-### 解题思路
-两个字符串中的字符相加求和后相减，将结果转换为char类型即解决问题
+// ### 解题思路
+// 两个字符串中的字符相加求和后相减，将结果转换为char类型即解决问题
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char findTheDifference(String s, String t) {
         int sumS = 0;
@@ -17,4 +17,4 @@ class Solution {
         return (char) (sumT - sumS);
     }
 }
-```
+// ```

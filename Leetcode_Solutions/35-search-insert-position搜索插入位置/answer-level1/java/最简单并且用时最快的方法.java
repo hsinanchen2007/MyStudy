@@ -1,9 +1,9 @@
-### 解题思路
-考虑到各种情况即可，内存消耗比较大
+// ### 解题思路
+// 考虑到各种情况即可，内存消耗比较大
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
         int p =0;
@@ -18,4 +18,4 @@ class Solution {
         return p;
     }
 }
-```
+// ```

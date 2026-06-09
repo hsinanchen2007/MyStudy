@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} n
  * @return {number}
@@ -35,4 +35,4 @@ var climbStairs = function(n) {
     return Math.round(fibn/sqrt5)
 }
 
-```
+// ```

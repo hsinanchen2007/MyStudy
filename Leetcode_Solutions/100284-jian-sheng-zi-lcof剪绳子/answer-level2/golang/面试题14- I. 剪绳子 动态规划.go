@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func cuttingRope(n int) int {
     
     record := make(map[int]int)
@@ -42,4 +42,4 @@ func Max(i, j, k int) int {
     }
     return max
 }
-```
+// ```

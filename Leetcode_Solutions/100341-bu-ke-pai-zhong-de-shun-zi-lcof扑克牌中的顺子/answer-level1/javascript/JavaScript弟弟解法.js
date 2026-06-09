@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-倒序排列、弟弟解法
+// 倒序排列、弟弟解法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {boolean}
@@ -37,4 +37,4 @@ var isStraight = function(nums) {
     }
     return true
 };
-```
+// ```

@@ -1,6 +1,6 @@
-### 双指针法 ###
-#### 代码 ####
-```cpp []
+# ### 双指针法 ###
+# #### 代码 ####
+# ```cpp []
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -22,8 +22,8 @@ public:
         return res;
     }
 };
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         res = []
@@ -38,7 +38,7 @@ class Solution:
                 res.append(tuple(range(left, right + 1)))
             right += 1
         return res
-```
-#### 复杂度分析 ####
-- 时间复杂度 $O(n)$，需要循环 $\frac{target}{2}$ 次
-- 空间复杂度 $O(1)$，除去保存结果的开销之外不使用额外空间
+# ```
+# #### 复杂度分析 ####
+# - 时间复杂度 $O(n)$，需要循环 $\frac{target}{2}$ 次
+# - 空间复杂度 $O(1)$，除去保存结果的开销之外不使用额外空间

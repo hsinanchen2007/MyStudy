@@ -1,8 +1,8 @@
-### 解题思路
-最精简的DFS，gnd
-### 代码
+// ### 解题思路
+// 最精简的DFS，gnd
+// ### 代码
 
-```java
+// ```java
 class Solution {
    //DFS
 	public int numIslands(char[][] grid) {
@@ -30,4 +30,4 @@ class Solution {
 		}
 	}
 }
-```
+// ```

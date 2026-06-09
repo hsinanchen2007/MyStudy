@@ -1,5 +1,5 @@
-- 别跟我说range，range会复制对象
-```
+// - 别跟我说range，range会复制对象
+// ```
 func twoSum(nums []int, target int) []int {
 	length := len(nums)
 	m := make(map[int]int,length-1)
@@ -11,4 +11,4 @@ func twoSum(nums []int, target int) []int {
 	}
 	return []int{}
 }
-```
+// ```

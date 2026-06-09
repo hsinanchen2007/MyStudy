@@ -1,10 +1,10 @@
-### 解题思路 1
+// ### 解题思路 1
 
-遍历统计法
+// 遍历统计法
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func findSpecialInteger(_ arr: [Int]) -> Int {
         
@@ -37,16 +37,16 @@ class Solution {
         return 0
     }
 }
-```
+// ```
 
 
-### 解题思路 2
+// ### 解题思路 2
 
-二分法
+// 二分法
 
-### 代码
+// ### 代码
 
-```
+// ```
 class Solution {
     func findSpecialInteger(_ arr: [Int]) -> Int {
         
@@ -66,4 +66,4 @@ class Solution {
         return 0
     }
 }
-```
+// ```

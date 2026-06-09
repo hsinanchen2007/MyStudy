@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 
 class Solution:
     def calPoints(self, ops: List[str]) -> int:
@@ -16,4 +16,4 @@ class Solution:
                 stack.append(stack[-1]+stack[-2])
         sums=sum(stack)
         return sums
-```
+# ```

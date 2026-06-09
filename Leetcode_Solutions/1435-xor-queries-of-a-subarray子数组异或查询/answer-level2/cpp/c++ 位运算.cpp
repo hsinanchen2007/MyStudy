@@ -1,11 +1,11 @@
-### 解题思路
-利用位运算公式 a ^ b ^ a = b
-1. 统计[0, i]范围的xor异或值
-2. query[i, j] = query(0, j) xor query(0, i - 1)
+// ### 解题思路
+// 利用位运算公式 a ^ b ^ a = b
+// 1. 统计[0, i]范围的xor异或值
+// 2. query[i, j] = query(0, j) xor query(0, i - 1)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> xorQueries(vector<int>& arr, vector<vector<int>>& queries) {
@@ -41,4 +41,4 @@ public:
         return res;
     }
 };
-```
+// ```

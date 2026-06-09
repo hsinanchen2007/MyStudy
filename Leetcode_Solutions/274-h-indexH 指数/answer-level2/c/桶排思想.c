@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //两种方法：1.采用计数排序的方法；2.先排序，然后采用水位线思想，线性扫描
 int hIndex(int* citations, int citationsSize){
     int n = citationsSize + 1;
@@ -25,4 +25,4 @@ int hIndex(int* citations, int citationsSize){
     }
     return k;
 } 
-```
+// ```

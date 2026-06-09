@@ -1,6 +1,6 @@
-哑节点是个好东西，解链表问题神器！
+// 哑节点是个好东西，解链表问题神器！
 
-```go []
+// ```go []
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	dummy := &ListNode{}
 	curr := dummy
@@ -27,4 +27,4 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 
 	return dummy.Next
 }
-```
+// ```

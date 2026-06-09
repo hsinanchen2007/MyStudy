@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -48,4 +48,4 @@ double maximumAverageSubtree(struct TreeNode* root)
     }
     return max_ans;
 }
-```
+// ```

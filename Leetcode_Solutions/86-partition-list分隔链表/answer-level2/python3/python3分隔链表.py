@@ -1,9 +1,9 @@
-### 解题思路
-用两个子链表分别串联比目标值小的和大于等于目标值的，最后再将两子链表连接即可。
+# ### 解题思路
+# 用两个子链表分别串联比目标值小的和大于等于目标值的，最后再将两子链表连接即可。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -28,6 +28,6 @@ class Solution:
         prevs.next=large.next
         prevl.next=None
         return small.next
-```
+# ```
 
-![image.png](https://pic.leetcode-cn.com/a1ef6791ce2d42ad4882e0fe131ddd7cd9191eb5b7fd6d49a173fa9af2c37b18-image.png)
+# ![image.png](https://pic.leetcode-cn.com/a1ef6791ce2d42ad4882e0fe131ddd7cd9191eb5b7fd6d49a173fa9af2c37b18-image.png)

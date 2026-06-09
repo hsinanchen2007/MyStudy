@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/f392a7487e4546e50609d7cbc1374c3be9ab6910920da59c2b580c88a92d1115-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/f392a7487e4546e50609d7cbc1374c3be9ab6910920da59c2b580c88a92d1115-image.png)
 
-第一次不偷第一家，第二次偷第一家
+// 第一次不偷第一家，第二次偷第一家
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int rob(vector<int>& nums) {
@@ -32,4 +32,4 @@ public:
 
     }
 };
-```
+// ```

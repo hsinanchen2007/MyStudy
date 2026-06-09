@@ -1,9 +1,9 @@
-### 解题思路
-用*替换可能重复出现的值
+// ### 解题思路
+// 用*替换可能重复出现的值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   public int countCharacters(String[] words, String chars) {
         
@@ -30,4 +30,4 @@ class Solution {
     
 
 }
-```
+// ```

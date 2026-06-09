@@ -1,5 +1,5 @@
-构造数字-权重字典，先按照key进行排序（方便权重一样的后续排序），再按照value进行排序
-```
+# 构造数字-权重字典，先按照key进行排序（方便权重一样的后续排序），再按照value进行排序
+# ```
 class Solution:
     def getKth(self, lo: int, hi: int, k: int) -> int:
         num_w = {}
@@ -19,4 +19,4 @@ class Solution:
                 num = 3*num + 1
             w += 1
         return w
-```
+# ```

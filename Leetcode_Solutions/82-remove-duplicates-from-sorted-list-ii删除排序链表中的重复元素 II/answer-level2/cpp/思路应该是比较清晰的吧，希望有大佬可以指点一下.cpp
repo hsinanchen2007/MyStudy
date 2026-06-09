@@ -1,7 +1,7 @@
-![题解.png](https://pic.leetcode-cn.com/82418165c65b9f8cd48b50e686162ff1a22c38514aa312a56c688791c691833e-%E9%A2%98%E8%A7%A3.png)
+// ![题解.png](https://pic.leetcode-cn.com/82418165c65b9f8cd48b50e686162ff1a22c38514aa312a56c688791c691833e-%E9%A2%98%E8%A7%A3.png)
 
 
-```
+// ```
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
@@ -38,5 +38,5 @@ public:
         return head;
     }
 };
-```
-还有不是很明白好多人不释放空间，那不是相当于没删，不会导致内存泄露吗
+// ```
+// 还有不是很明白好多人不释放空间，那不是相当于没删，不会导致内存泄露吗

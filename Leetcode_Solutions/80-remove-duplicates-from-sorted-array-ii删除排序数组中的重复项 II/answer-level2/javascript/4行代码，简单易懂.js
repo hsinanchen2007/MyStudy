@@ -1,6 +1,6 @@
-###解法一：
+// ###解法一：
 
-```js
+// ```js
 var removeDuplicates = function(nums) {
     let i = 0;
     for(let n of nums) {
@@ -8,11 +8,11 @@ var removeDuplicates = function(nums) {
     }
     return i;
 };
-```
+// ```
 
-###解法二：
+// ###解法二：
 
-```js
+// ```js
 var removeDuplicates = function(nums) {
     for(let i = 0; i < nums.length;){
         if(nums[i] === nums[i+1] && nums[i] === nums[i+2]) {
@@ -23,4 +23,4 @@ var removeDuplicates = function(nums) {
     }
     return nums.length
 };
-```
+// ```

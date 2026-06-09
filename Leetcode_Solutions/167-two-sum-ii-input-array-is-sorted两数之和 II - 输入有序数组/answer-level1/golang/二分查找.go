@@ -1,5 +1,5 @@
-依次遍历数组先固定第一个和的子元素，然后在后面的元素中二分查找另一个子元素
-```
+// 依次遍历数组先固定第一个和的子元素，然后在后面的元素中二分查找另一个子元素
+// ```
 func twoSum(numbers []int, target int) []int {
 	result := make([]int, 2)
 	for i := 0; i < len(numbers)-1; i++ {
@@ -26,4 +26,4 @@ func search(r []int, left, right, sub int) int {
 		return search(r, left, mid-1, sub)
 	}
 }
-```
+// ```

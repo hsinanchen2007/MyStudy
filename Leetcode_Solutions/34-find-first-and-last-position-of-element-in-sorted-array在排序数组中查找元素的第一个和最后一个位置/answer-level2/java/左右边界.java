@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-找第一个等于target的位置，然后把数组分成两个，分别找左右边界，这就把问题分成了简单地二分法。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 找第一个等于target的位置，然后把数组分成两个，分别找左右边界，这就把问题分成了简单地二分法。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static int[] searchRange(int[] nums, int target) {
         int left=0;
@@ -46,4 +46,4 @@ class Solution {
        return p;
     }
 }
-```
+// ```

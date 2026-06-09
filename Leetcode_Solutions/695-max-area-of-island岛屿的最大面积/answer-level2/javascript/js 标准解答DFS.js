@@ -1,4 +1,4 @@
-```
+// ```
 var maxAreaOfIsland = function(grid) {
     const row = grid.length;
     const col = grid[0].length;
@@ -18,4 +18,4 @@ var maxAreaOfIsland = function(grid) {
     }
     return max;
 };
-```
+// ```

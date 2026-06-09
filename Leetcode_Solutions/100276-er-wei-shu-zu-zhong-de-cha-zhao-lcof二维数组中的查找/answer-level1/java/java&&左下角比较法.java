@@ -1,8 +1,8 @@
-### 解题思路
-1.数组左下角的值为此列的最大值，此行的最小值。将它和target比较可用于消除行或者列
-### 代码
+// ### 解题思路
+// 1.数组左下角的值为此列的最大值，此行的最小值。将它和target比较可用于消除行或者列
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         if(matrix.length==0 || matrix[0].length==0){
@@ -27,4 +27,4 @@ class Solution {
 
     }
 }
-```
+// ```

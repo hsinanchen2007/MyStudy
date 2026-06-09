@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
-用一个list保存下所有没有重复出现的节点，当出现重复时，返回list中相同的节点即可
-### 代码
+// 用一个list保存下所有没有重复出现的节点，当出现重复时，返回list中相同的节点即可
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -28,4 +28,4 @@ public class Solution {
         return null;
     }
 }
-```
+// ```

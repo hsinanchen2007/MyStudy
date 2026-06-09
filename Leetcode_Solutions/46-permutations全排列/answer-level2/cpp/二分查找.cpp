@@ -1,9 +1,9 @@
-### 解题思路
-常规的二分查找
+// ### 解题思路
+// 常规的二分查找
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> res;
@@ -29,4 +29,4 @@ public:
         return;
     }
 };
-```
+// ```

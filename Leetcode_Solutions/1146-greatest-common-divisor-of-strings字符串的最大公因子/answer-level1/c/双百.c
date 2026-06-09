@@ -1,11 +1,11 @@
-### 解题思路
-取两个字符串长度的最大公约数len3
-若前len3个字符能将两字符串整除则返回前len3个字符串
-否则返回“”
+// ### 解题思路
+// 取两个字符串长度的最大公约数len3
+// 若前len3个字符能将两字符串整除则返回前len3个字符串
+// 否则返回“”
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <string.h>
 int gcd(int a,int b){
     while(b!=0){
@@ -58,4 +58,4 @@ char * gcdOfStrings(char * str1, char * str2){
     }
     return res;
 }
-```
+// ```

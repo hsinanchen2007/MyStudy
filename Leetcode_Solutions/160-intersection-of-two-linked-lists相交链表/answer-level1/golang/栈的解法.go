@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-思路有点傻~ 我想的是如果一定相交的话，那倒过来去遍历 判断是否相等 如果不相等 那当前节点的下一个节点就是相交的节点
+// 思路有点傻~ 我想的是如果一定相交的话，那倒过来去遍历 判断是否相等 如果不相等 那当前节点的下一个节点就是相交的节点
 
-### 代码
+// ### 代码
 
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -56,4 +56,4 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
     }
 
 }
-```
+// ```

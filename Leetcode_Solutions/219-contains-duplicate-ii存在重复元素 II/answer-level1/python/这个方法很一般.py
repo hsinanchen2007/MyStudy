@@ -1,9 +1,9 @@
-### 解题思路
-感觉这种方法还是很笨，首先通过字典唯一key, 将值相同的元素加入一个列表，判断列表重复数大于2的下标，while 循环判断列表中满足的下标
+# ### 解题思路
+# 感觉这种方法还是很笨，首先通过字典唯一key, 将值相同的元素加入一个列表，判断列表重复数大于2的下标，while 循环判断列表中满足的下标
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         count = {}
@@ -18,4 +18,4 @@ class Solution:
                         if abs(v - top) <= k:
                             return True
         return False
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-见注释
+// ### 解题思路
+// 见注释
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {boolean}
@@ -37,4 +37,4 @@ Array.prototype.mySum = function() {
     return this.reduce((a,b)=>a+b, 0);
 }
 
-```
+// ```

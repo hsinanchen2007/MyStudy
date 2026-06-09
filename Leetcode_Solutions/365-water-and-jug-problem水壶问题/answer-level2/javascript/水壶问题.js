@@ -1,9 +1,9 @@
-### 解题思路
-数学方法，求得最大公约数。
+// ### 解题思路
+// 数学方法，求得最大公约数。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @param {number} y
@@ -25,4 +25,4 @@ function gcd(a, b) {
     }
     return gcd(b, a % b);
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```php []
+// ```php []
 function handle($arr, $target)
 {
     foreach ($arr as $k => $v) {
@@ -15,4 +15,4 @@ function handle($arr, $target)
         }
     }
 }
-```
+// ```

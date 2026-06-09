@@ -1,4 +1,4 @@
-```
+// ```
 void backTrack(char* s, int sLen, int flag, int* res) {
     if (flag == sLen) (*res)++;
     else {
@@ -17,4 +17,4 @@ int numDecodings(char * s){
     backTrack(s, sLen, 0, &res);
     return res;
 }
-```
+// ```

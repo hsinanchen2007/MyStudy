@@ -1,9 +1,9 @@
-### 解题思路
-滑窗从前往后遍历haystack
+# ### 解题思路
+# 滑窗从前往后遍历haystack
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def strStr(self, haystack, needle):
         """
@@ -22,4 +22,4 @@ class Solution(object):
         return -1
 
 
-```
+# ```

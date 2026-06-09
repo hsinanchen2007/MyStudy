@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * longestPalindrome(char * s){
 
     if(strlen(s) < 1) return "";
@@ -61,4 +61,4 @@ char * longestPalindrome(char * s){
 }
 
 
-```
+// ```

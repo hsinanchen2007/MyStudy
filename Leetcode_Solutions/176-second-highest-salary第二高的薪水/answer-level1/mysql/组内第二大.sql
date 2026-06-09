@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select min(salary) as SecondHighestSalary
 from employee
@@ -15,4 +15,4 @@ group by s1.id
 having count(distinct s2.salary) = 2)
 
 子查询里面先看大于等于这个salary的有几个， 如果有超过两个（包括他自己）则返回top2的id， 然后选择较小的那个salary就ok了
-```
+-- ```

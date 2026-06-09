@@ -1,6 +1,6 @@
-题目本身不难，就是好难懂他想干嘛...
+// 题目本身不难，就是好难懂他想干嘛...
 
-```c++ []
+// ```c++ []
 class RecentCounter {
 public:
 	RecentCounter() {}
@@ -12,5 +12,5 @@ public:
 private:
 	queue<int>q;
 };
-```
+// ```
 

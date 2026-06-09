@@ -1,5 +1,5 @@
-(1) 很垃圾的写法, 自己想的， 但是通过了
-```
+# (1) 很垃圾的写法, 自己想的， 但是通过了
+# ```
 def generate(numRows):
   List = []
   for i in range(0, numRows):
@@ -15,9 +15,9 @@ def generate(numRows):
     List.append(itemList)
 
   return List
-```
-(2) 看了别人的例子, 甚是好啊, 学习了一哈
-```
+# ```
+# (2) 看了别人的例子, 甚是好啊, 学习了一哈
+# ```
 class Solution(object):
     def generate(self, numRows):
         """
@@ -44,10 +44,10 @@ class Solution(object):
           # temp[:] 是当前的值赋值给List, temp之后变更的内容不会 对List之前值有任何影响
           List.append(temp[:])
         return List
-```
+# ```
 
-(3) 其实官方的例子跟我想的差不多
-```
+# (3) 其实官方的例子跟我想的差不多
+# ```
 class Solution:
     def generate(self, num_rows):
         triangle = []
@@ -71,4 +71,4 @@ class Solution:
 链接：https://leetcode-cn.com/problems/two-sum/solution/yang-hui-san-jiao-by-leetcode/
 来源：力扣（LeetCode）
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-```
+# ```

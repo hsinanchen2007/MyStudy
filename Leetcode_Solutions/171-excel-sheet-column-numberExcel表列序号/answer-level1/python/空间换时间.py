@@ -1,8 +1,8 @@
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def titleToNumber(self, s):
         """
@@ -21,4 +21,4 @@ class Solution(object):
             n = n * 26 + dic[t]
 
         return n
-```
+# ```

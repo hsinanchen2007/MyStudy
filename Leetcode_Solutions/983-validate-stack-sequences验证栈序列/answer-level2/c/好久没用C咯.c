@@ -1,9 +1,9 @@
-### 解题思路
-官方思路
+// ### 解题思路
+// 官方思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool validateStackSequences(int* pushed, int pushedSize, int* popped, int poppedSize){
     int stack[pushedSize+1];
     int stack_top = -1;
@@ -22,4 +22,4 @@ bool validateStackSequences(int* pushed, int pushedSize, int* popped, int popped
 
 
 }
-```
+// ```

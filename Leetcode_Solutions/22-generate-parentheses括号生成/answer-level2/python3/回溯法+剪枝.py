@@ -1,5 +1,5 @@
-每次递归深入都有两种选择，一种是添加'('，另一种是添加')'，如果不是有效串，回溯，否则继续深入，直到串的长度为2n。这里的有效串是指还允许往里添加括号
-```python3
+# 每次递归深入都有两种选择，一种是添加'('，另一种是添加')'，如果不是有效串，回溯，否则继续深入，直到串的长度为2n。这里的有效串是指还允许往里添加括号
+# ```python3
 class Solution:
 
     def generateParenthesis(self, n: int) -> List[str]:
@@ -21,4 +21,4 @@ class Solution:
             generate(stack+')', cl, cr+1)
         generate('', 0, 0)
         return result
-```
+# ```

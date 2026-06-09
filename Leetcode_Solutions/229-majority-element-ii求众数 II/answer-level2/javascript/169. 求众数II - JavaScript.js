@@ -1,12 +1,12 @@
-## 简介
-- [题目链接](https://leetcode-cn.com/problems/majority-element-ii/)
+// ## 简介
+// - [题目链接](https://leetcode-cn.com/problems/majority-element-ii/)
 
-## 解法一 - 哈希表（空间要求不满足）
-使用哈希表统计数组元素的频率，时间复杂度为 $O(N)$，空间复杂度为 $O(N)$。
+// ## 解法一 - 哈希表（空间要求不满足）
+// 使用哈希表统计数组元素的频率，时间复杂度为 $O(N)$，空间复杂度为 $O(N)$。
 
-## 解法二 - 摩尔投票法
-原始摩尔投票法的变种：
-```javascript
+// ## 解法二 - 摩尔投票法
+// 原始摩尔投票法的变种：
+// ```javascript
 function majorityElement(nums) {
   let cand1, cand2;
   let count1 = 0;
@@ -43,7 +43,7 @@ function majorityElement(nums) {
 
 }
 
-```
-**复杂度分析**:
-- 时间复杂度： $O(N)$
-- 空间复杂度： $O(1)$
+// ```
+// **复杂度分析**:
+// - 时间复杂度： $O(N)$
+// - 空间复杂度： $O(1)$

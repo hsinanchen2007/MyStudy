@@ -1,16 +1,16 @@
-### 解题思路
-分为三步：
-1.复制节点，构造顺序链
-N1 -> N1' -> N2 -> N2' -> N3 -> N3' -> null
-2.根据定位得到新建节点的连接
-因为我们将复制的节点放在了当前节点的后边，所以就可以得到当前节点的random节点，然后random->next 即为复制节点的next即： N1' -> random = N1 -> random -> next ;
-3.分离链表
-这样再将原来链表和复制的链表分离处理（根据奇数偶数位）
+// ### 解题思路
+// 分为三步：
+// 1.复制节点，构造顺序链
+// N1 -> N1' -> N2 -> N2' -> N3 -> N3' -> null
+// 2.根据定位得到新建节点的连接
+// 因为我们将复制的节点放在了当前节点的后边，所以就可以得到当前节点的random节点，然后random->next 即为复制节点的next即： N1' -> random = N1 -> random -> next ;
+// 3.分离链表
+// 这样再将原来链表和复制的链表分离处理（根据奇数偶数位）
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * // Definition for a Node.
  * function Node(val, next, random) {
@@ -116,4 +116,4 @@ let getResult = function(currentNode){
     }
     return clonedHead;
 }
-```
+// ```

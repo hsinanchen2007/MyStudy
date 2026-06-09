@@ -1,6 +1,6 @@
-![图片.png](https://pic.leetcode-cn.com/ba254152402732e42e4b19ccdec1e92748506e577333b83d218b6cce6e0e50aa-%E5%9B%BE%E7%89%87.png)
+// ![图片.png](https://pic.leetcode-cn.com/ba254152402732e42e4b19ccdec1e92748506e577333b83d218b6cce6e0e50aa-%E5%9B%BE%E7%89%87.png)
 
-```
+// ```
 ///树状数组解法
 class Solution
 {
@@ -41,4 +41,4 @@ public:
         return vec;
     }
 };
-```
+// ```

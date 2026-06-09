@@ -1,9 +1,9 @@
-### 解题思路
-用先序遍历+标记的方法判断 t是否为s的子串，进而判断t是否为s的子树
+# ### 解题思路
+# 用先序遍历+标记的方法判断 t是否为s的子串，进而判断t是否为s的子树
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
             return "#"
         return "*"+str(root.val)+self.inorder(root.left)+self.inorder(root.right)
 
-```
+# ```

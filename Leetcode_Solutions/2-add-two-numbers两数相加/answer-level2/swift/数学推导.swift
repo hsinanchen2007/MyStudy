@@ -1,4 +1,4 @@
-```
+// ```
 var l1h = l1, l2h = l2, res: ListNode?, head: ListNode?, p = 0
         while l1h != nil && l2h != nil {
             let node = ListNode(((l1h?.val ?? 0) + (l2h?.val ?? 0) + p) % 10)
@@ -30,4 +30,4 @@ var l1h = l1, l2h = l2, res: ListNode?, head: ListNode?, p = 0
             res?.next = node
         }
         return head
-```
+// ```

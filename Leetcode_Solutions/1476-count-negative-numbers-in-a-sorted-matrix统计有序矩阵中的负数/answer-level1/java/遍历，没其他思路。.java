@@ -1,4 +1,4 @@
-```
+// ```
 代码块
 public int countNegatives(int[][] grid) {
         //遍历，没其他思路。
@@ -12,5 +12,5 @@ public int countNegatives(int[][] grid) {
         }
         return count;
     }
-```
+// ```
 

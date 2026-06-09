@@ -1,9 +1,9 @@
-### 解题思路
-用list完全模拟stack，没什么太精彩的算法，就是用stack的基本操作
+# ### 解题思路
+# 用list完全模拟stack，没什么太精彩的算法，就是用stack的基本操作
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyQueue:
 
     def __init__(self):
@@ -58,4 +58,4 @@ class MyQueue:
 # param_2 = obj.pop()
 # param_3 = obj.peek()
 # param_4 = obj.empty()
-```
+# ```

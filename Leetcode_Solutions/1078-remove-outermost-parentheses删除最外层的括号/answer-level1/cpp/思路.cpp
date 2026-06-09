@@ -1,4 +1,4 @@
-////如果为（则压入栈，如果为 ）则出栈，当栈为空时则找到一个原语（primitive）
+// ////如果为（则压入栈，如果为 ）则出栈，当栈为空时则找到一个原语（primitive）
 class Solution {
 public:
     string removeOuterParentheses(string s) {

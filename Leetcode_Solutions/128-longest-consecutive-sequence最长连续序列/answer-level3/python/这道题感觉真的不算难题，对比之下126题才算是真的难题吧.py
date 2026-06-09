@@ -1,9 +1,9 @@
-### 解题思路
-直观的排序，计数
+# ### 解题思路
+# 直观的排序，计数
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def longestConsecutive(self, nums):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                 cur = 1
         return max_len
 
-```
+# ```

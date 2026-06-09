@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-使用HashMap构造抽象，解决问题（解法可以参考注释）
-易错点为HashMap容易用用户id来作为键，实际上同一个用户可能多次乘坐地铁，这种情况下就只能完成第一次的记录。
+// 使用HashMap构造抽象，解决问题（解法可以参考注释）
+// 易错点为HashMap容易用用户id来作为键，实际上同一个用户可能多次乘坐地铁，这种情况下就只能完成第一次的记录。
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 use std::collections::HashMap;
 
 
@@ -111,4 +111,4 @@ impl UndergroundSystem {
  * obj.check_out(id, stationName, t);
  * let ret_3: f64 = obj.get_average_time(startStation, endStation);
  */
-```
+// ```

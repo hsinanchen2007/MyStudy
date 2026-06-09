@@ -1,9 +1,9 @@
-**粗体**### 解题思路
-此处撰写解题思路
+# **粗体**### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 """
 # Definition for a Node.
 class Node:
@@ -36,4 +36,4 @@ class Solution:
             queue = queue[n : ]
         return root
 
-```
+# ```

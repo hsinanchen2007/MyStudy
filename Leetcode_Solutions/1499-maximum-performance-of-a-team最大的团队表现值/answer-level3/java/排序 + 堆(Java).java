@@ -1,8 +1,8 @@
-# 思路
-直观的解法是按照效率进行降序排序，每个人作为最低效率时，在其左侧找出至多K - 1个最大速度即可(再加上这个人的速度组成K个)，这一过程可以用堆，时间复杂度O(nlg(k-1))
+// # 思路
+// 直观的解法是按照效率进行降序排序，每个人作为最低效率时，在其左侧找出至多K - 1个最大速度即可(再加上这个人的速度组成K个)，这一过程可以用堆，时间复杂度O(nlg(k-1))
 
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     public int maxPerformance(int n, int[] speed, int[] efficiency, int k) {
         int[][] items = new int[n][2];
@@ -29,4 +29,4 @@ class Solution {
         return (int)(res % ((int)1e9 + 7));
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-## 思路:
+# ## 思路:
 
-选择结构
+# 选择结构
 
-```python
+# ```python
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
 
@@ -18,11 +18,11 @@ class Solution:
                 res.append(str(i))
                 
         return res
-```
+# ```
 
-一行
+# 一行
 
-```python
+# ```python
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
 
@@ -32,5 +32,5 @@ class Solution:
             "Buzz" * (i % 5 == 0)
             for i in range(1, n + 1)
         ]
-```
+# ```
 

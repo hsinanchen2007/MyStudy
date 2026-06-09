@@ -1,7 +1,7 @@
 
-二分法
-----------
-```cpp
+// 二分法
+// ----------
+// ```cpp
 class Solution {
 public:
     //sqrt一定在0~x之间，使用二分法找到满足sqrt=x/sqrt的值
@@ -29,4 +29,4 @@ public:
         return high;
     }
 };
-```
+// ```

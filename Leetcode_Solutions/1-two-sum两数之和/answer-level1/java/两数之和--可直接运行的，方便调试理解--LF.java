@@ -1,4 +1,4 @@
-```
+// ```
 package ZJM_1_两数之和;
 
 public class Main {
@@ -49,4 +49,4 @@ class Solution {
  * 两个nums[0]相加刚好会等于target的值6，所以返回[0,0]的错误答案
  */
 
-```
+// ```

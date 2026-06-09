@@ -1,6 +1,6 @@
-二分查找峰值
-执行用时 :0 ms, 在所有 java 提交中击败了100.00%的用户
-内存消耗 :42.6 MB, 在所有 java 提交中击败了48.39%的用户
+// 二分查找峰值
+// 执行用时 :0 ms, 在所有 java 提交中击败了100.00%的用户
+// 内存消耗 :42.6 MB, 在所有 java 提交中击败了48.39%的用户
 public int peakIndexInMountainArray(int[] A) {
         int head = 0;
     	int tail = A.length - 1; 

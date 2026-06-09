@@ -1,9 +1,9 @@
-### 解题思路
-会浪费一个节点的内存
+# ### 解题思路
+# 会浪费一个节点的内存
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
         if flag:
             res.next = ListNode(1)
         return p.next
-```
+# ```

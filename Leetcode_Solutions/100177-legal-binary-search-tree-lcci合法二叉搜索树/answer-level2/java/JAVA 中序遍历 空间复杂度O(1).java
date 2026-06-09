@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     int prev;
     boolean start=false;
@@ -12,4 +12,4 @@ class Solution {
         return b1&&b2;
     }
 }
-```
+// ```

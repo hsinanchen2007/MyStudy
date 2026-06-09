@@ -1,4 +1,4 @@
-```
+// ```
 public int maxDistance(int[][] grid) {
     int m = grid.length, n = grid[0].length;
     //广度优先遍历
@@ -36,4 +36,4 @@ private void findValidPos(int i, int j, boolean[][] visited, Queue<int[]> queue)
         visited[i][j] = true;
     }
 }
-```
+// ```

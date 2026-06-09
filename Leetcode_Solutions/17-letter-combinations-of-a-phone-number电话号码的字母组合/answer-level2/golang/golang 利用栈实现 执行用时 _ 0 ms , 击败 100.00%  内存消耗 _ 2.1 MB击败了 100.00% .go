@@ -1,4 +1,4 @@
-```go
+// ```go
 func letterCombinations(digits string) []string {
 	ret := make([]string, 0)
 
@@ -33,11 +33,11 @@ func letterCombinations(digits string) []string {
 
 	return ret
 }
-```
+// ```
 
 
-以 "23为例" 
-ret内的值为
-循环之前: [""]
-"2" 之后: [a, b, c]
-"3" 之后: [ad, ae, af, bd, be, bf, cd, ce, cf]
+// 以 "23为例" 
+// ret内的值为
+// 循环之前: [""]
+// "2" 之后: [a, b, c]
+// "3" 之后: [ad, ae, af, bd, be, bf, cd, ce, cf]

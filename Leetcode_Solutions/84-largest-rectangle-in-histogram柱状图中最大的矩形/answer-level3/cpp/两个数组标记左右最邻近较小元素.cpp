@@ -1,4 +1,4 @@
-```
+// ```
 const int N=30000;
 int l[N],r[N];//标记数组，标记左右最邻近较小元素的下标
 class Solution {
@@ -31,5 +31,5 @@ public:
         return ans;
     }
 };
-```
-16 ms	7.8 MB	Cpp
+// ```
+// 16 ms	7.8 MB	Cpp

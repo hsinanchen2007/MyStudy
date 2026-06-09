@@ -1,5 +1,5 @@
-两次遍历
-```
+// 两次遍历
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -24,4 +24,4 @@ public:
         return tmp;
     }
 };
-```
+// ```

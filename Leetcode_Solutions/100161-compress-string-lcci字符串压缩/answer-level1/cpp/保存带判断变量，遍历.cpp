@@ -1,4 +1,4 @@
-```
+// ```
 string compressString(string S)
 {
     string ans="";
@@ -28,4 +28,4 @@ string compressString(string S)
     else
         return S;
 }
-```
+// ```

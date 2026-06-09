@@ -1,10 +1,10 @@
-### 解题思路
-1. 归并排序(空间复杂度$O(1)$)
-2. 快速排序(未实现)
+// ### 解题思路
+// 1. 归并排序(空间复杂度$O(1)$)
+// 2. 快速排序(未实现)
 
-### 代码
+// ### 代码
 
-```c++ []
+// ```c++ []
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -74,8 +74,8 @@ private:
         return pSlow;
     }
 };
-```
-```java []
+// ```
+// ```java []
 class Solution {
     public ListNode sortList(ListNode head) {
         if(head == null || head.next == null)
@@ -133,8 +133,8 @@ class Solution {
         return pSlow;
     }
 }
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def sortList(self, head: ListNode) -> ListNode:
         if head == None or head.next == None:
@@ -181,4 +181,4 @@ class Solution:
             pFast = pFast.next.next
             pSlow = pSlow.next
         return pSlow
-```
+// ```

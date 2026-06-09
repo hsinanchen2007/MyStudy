@@ -1,4 +1,4 @@
-```
+// ```
 func countBits(num int) []int {
     	arr:=make([]int,num+1)
 	for i:=1;i<=num;i++{
@@ -6,4 +6,4 @@ func countBits(num int) []int {
 	}
 	return arr
 }
-```
+// ```

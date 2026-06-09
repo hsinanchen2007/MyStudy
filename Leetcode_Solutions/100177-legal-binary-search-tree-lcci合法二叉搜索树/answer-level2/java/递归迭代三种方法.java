@@ -1,30 +1,30 @@
-## 04.05. 合法二叉搜索树
+// ## 04.05. 合法二叉搜索树
 
-### Information
+// ### Information
 
-* TIME: 2020/03/09
-* LINK: [Click Here](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/)
-* TAG: `BST`
+// * TIME: 2020/03/09
+// * LINK: [Click Here](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/)
+// * TAG: `BST`
 
-### Description
+// ### Description
 
-> 实现一个函数，检查一棵二叉树是否为二叉搜索树。
+// > 实现一个函数，检查一棵二叉树是否为二叉搜索树。
 
-### Example
+// ### Example
 
-```text
+// ```text
 输入:
     2
    / \
   1   3
 输出: true
-```
+// ```
 
-### My Answer -1
+// ### My Answer -1
 
-> 范围检测，维护当前子树的最值，子树根的值必须在该范围内
+// > 范围检测，维护当前子树的最值，子树根的值必须在该范围内
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -46,13 +46,13 @@ class Solution {
         return false;
     }
 }
-```
+// ```
 
-### My Answer -2
+// ### My Answer -2
 
-> 维护、更新前驱节点，当前遍历节点必须大于前驱
+// > 维护、更新前驱节点，当前遍历节点必须大于前驱
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -72,13 +72,13 @@ class Solution {
         return left && isValidBST(root.right);
     }
 }
-```
+// ```
 
-### My Answer -3
+// ### My Answer -3
 
-> 迭代算法，中序遍历，记录前驱，当前节点必须大于前驱
+// > 迭代算法，中序遍历，记录前驱，当前节点必须大于前驱
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -108,25 +108,25 @@ class Solution {
         return true;
     }
 }
-```
+// ```
 
 
 
-### Extend & Reference
+// ### Extend & Reference
 
-> 来源：力扣（LeetCode）
-> 链接：https://leetcode-cn.com
-> 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+// > 来源：力扣（LeetCode）
+// > 链接：https://leetcode-cn.com
+// > 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-### More
+// ### More
 
-> **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
->
-> ![alt](https://pic.leetcode-cn.com/0db7c9c70af34ca08d4a969975a14f87187e1600b3339f166b9a995db6ca9901-file_1583764922951)
->
-> [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
->
-> **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
->
-> 共勉~
+// > **更多题解，请访问我的GitHub仓库：[LeetCode 刷题日记](https://github.com/ZhuoZhuoCrayon/my-Nodes/blob/master/Daily/README_2020.md)**
+// >
+// > ![alt](https://pic.leetcode-cn.com/0db7c9c70af34ca08d4a969975a14f87187e1600b3339f166b9a995db6ca9901-file_1583764922951)
+// >
+// > [**更多笔记**](https://github.com/ZhuoZhuoCrayon/my-Nodes)：**`Vue` `Java SSM 框架` `阿里云服务器` `JavaScript/HTML/CSS`   `数据库` ...**
+// >
+// > **我的GitHub主页 -> [ZhuoZhuoCrayon](https://github.com/ZhuoZhuoCrayon)**
+// >
+// > 共勉~
 

@@ -1,11 +1,11 @@
-### 解题思路
-- 正向扫描获取每个数左侧的乘积
-- 反向扫描获取每个数右侧的乘积
-- 最后扫描一遍得到除自身外的两侧乘积相乘
+// ### 解题思路
+// - 正向扫描获取每个数左侧的乘积
+// - 反向扫描获取每个数右侧的乘积
+// - 最后扫描一遍得到除自身外的两侧乘积相乘
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> constructArr(vector<int>& a) {
@@ -28,6 +28,6 @@ public:
         return ans;
     }
 };
-```
-更多解题
-[https://blog.csdn.net/qq_21201267/article/details/100577842](https://blog.csdn.net/qq_21201267/article/details/100577842)
+// ```
+// 更多解题
+// [https://blog.csdn.net/qq_21201267/article/details/100577842](https://blog.csdn.net/qq_21201267/article/details/100577842)

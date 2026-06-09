@@ -1,5 +1,5 @@
-这种题目就是暴力循环了，同时是3和5的倍数，那就是对15取余了
-```
+// 这种题目就是暴力循环了，同时是3和5的倍数，那就是对15取余了
+// ```
 var result = Array<String>()
     for num in 1...n {
         if num % 15 == 0 {
@@ -16,4 +16,4 @@ var result = Array<String>()
         }
     }
     return result
-```
+// ```

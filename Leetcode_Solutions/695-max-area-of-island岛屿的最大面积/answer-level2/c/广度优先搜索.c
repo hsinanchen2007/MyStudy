@@ -1,10 +1,10 @@
-### 解题思路
-1.遍历到一个为1的点，以此点为基础开始遍历，将面积+1，同时将此点标记为2，后面遇到2便不在遍历；
-2.遍历完成后，跟最大面积比对；
-3.输出最大面积；
+// ### 解题思路
+// 1.遍历到一个为1的点，以此点为基础开始遍历，将面积+1，同时将此点标记为2，后面遇到2便不在遍历；
+// 2.遍历完成后，跟最大面积比对；
+// 3.输出最大面积；
 
-### 代码
-```c
+// ### 代码
+// ```c
 void dfs(int **grid, int gridSize, int *gridColSize, int x, int y, int *areaOfIsLand)
 {
     *areaOfIsLand += 1;
@@ -47,4 +47,4 @@ int maxAreaOfIsland(int** grid, int gridSize, int* gridColSize){
     }
     return maxAreaOfIsland;
 }
-```
+// ```

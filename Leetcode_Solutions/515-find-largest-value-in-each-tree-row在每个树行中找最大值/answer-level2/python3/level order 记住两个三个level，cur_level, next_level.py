@@ -1,13 +1,13 @@
-### 解题思路
-level order 记住两个三个level，cur_level, next_level
+# ### 解题思路
+# level order 记住两个三个level，cur_level, next_level
 
-level是最外面倒queue
-cur_level是把当前level转移过来然后，开始遍历他的值for i in cur_level:
-然后在把每个cur_level的值的children加到next_level里面去
+# level是最外面倒queue
+# cur_level是把当前level转移过来然后，开始遍历他的值for i in cur_level:
+# 然后在把每个cur_level的值的children加到next_level里面去
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
             level = next_level
 
         return res
-```
+# ```

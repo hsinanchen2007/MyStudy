@@ -1,9 +1,9 @@
-### 解题思路
-层序遍历，用一个变量max记录每一层的最大值，遍历完一层将max添加到列表中。
+// ### 解题思路
+// 层序遍历，用一个变量max记录每一层的最大值，遍历完一层将max添加到列表中。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
     return res;
     }
 }
-```
+// ```

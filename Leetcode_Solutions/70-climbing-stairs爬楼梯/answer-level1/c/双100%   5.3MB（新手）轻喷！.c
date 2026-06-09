@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int climbStairs(int n){
     int *a,i;
     a=(int*)malloc(sizeof(int)*n);
@@ -22,4 +22,4 @@ int climbStairs(int n){
     free(a);
 return i;
 }
-```
+// ```

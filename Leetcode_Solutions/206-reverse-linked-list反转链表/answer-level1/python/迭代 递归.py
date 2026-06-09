@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-    递归法 就是前一个反转为后一个就可
+#     递归法 就是前一个反转为后一个就可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 
 
 class Solution:
@@ -39,4 +39,4 @@ class Solution:
         tmp = cur.next
         cur.next = pre
         self.re(cur, tmp)
-```
+# ```

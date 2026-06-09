@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int longestPalindromeSubseq(string s) {            
@@ -24,16 +24,16 @@ public:
     }
 };
 
-```
+// ```
 
-/*
-col     0   1   2   3   4   5
-row  0  1      
-     1      1   
-     2          1     
-     3              1  
-     4                  1  
-     5                      1
+// /*
+// col     0   1   2   3   4   5
+// row  0  1      
+//      1      1   
+//      2          1     
+//      3              1  
+//      4                  1  
+//      5                      1
 
 
-*/
+// */

@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/8d261cb55ff58f946960a010ef01cf21503fdfcc7b86f6cfe0d162deb28f1e68-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/8d261cb55ff58f946960a010ef01cf21503fdfcc7b86f6cfe0d162deb28f1e68-image.png)
 
-将所有行程的上车与下车情况记录在一个一维数组中，上车记录负数，表示容量减小；下车记录负数，表示容量增加。最后遍历该数组，同时对capacity求和，当其小于0时，说明不能完成任务，返回false；否则，遍历结束后返回true。
+// 将所有行程的上车与下车情况记录在一个一维数组中，上车记录负数，表示容量减小；下车记录负数，表示容量增加。最后遍历该数组，同时对capacity求和，当其小于0时，说明不能完成任务，返回false；否则，遍历结束后返回true。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean carPooling(int[][] trips, int capacity) {
         //特殊情况下，直接返回
@@ -29,4 +29,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

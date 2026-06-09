@@ -1,5 +1,5 @@
-这道题的做法事实上和54类似，都是螺旋遍历一个矩阵，而螺旋的遍历可以当做一边遍历一边缩小矩阵的大小，可以定义4个变量：up、down、left、right来界定矩阵的范围，然后填上相对应的数即可。
-```python
+# 这道题的做法事实上和54类似，都是螺旋遍历一个矩阵，而螺旋的遍历可以当做一边遍历一边缩小矩阵的大小，可以定义4个变量：up、down、left、right来界定矩阵的范围，然后填上相对应的数即可。
+# ```python
 class Solution(object):
     def generateMatrix(self, n):
         """
@@ -36,4 +36,4 @@ class Solution(object):
             if left > right:break
 
         return matrix
-```
+# ```

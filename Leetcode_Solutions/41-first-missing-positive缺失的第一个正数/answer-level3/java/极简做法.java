@@ -1,5 +1,5 @@
-及简做法：
-```
+// 及简做法：
+// ```
 class Solution {
     public int firstMissingPositive(int[] nums) {
         int len = nums.length;
@@ -15,4 +15,4 @@ class Solution {
         return min;
     }
 }
-```
+// ```

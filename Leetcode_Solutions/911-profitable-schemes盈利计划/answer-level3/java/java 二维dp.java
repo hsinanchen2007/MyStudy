@@ -1,11 +1,11 @@
-### 解题思路
-思路同背包问题，使用二维数组保存之前状态，第一维是利润，第二维是人数
+// ### 解题思路
+// 思路同背包问题，使用二维数组保存之前状态，第一维是利润，第二维是人数
 
-需要注意的问题是当：利润大于P时就使用 P 来表示 >=P的利润
+// 需要注意的问题是当：利润大于P时就使用 P 来表示 >=P的利润
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int profitableSchemes(int G, int P, int[] group, int[] profit) {
         int[][] dp = new int[P+1][G+1];
@@ -32,4 +32,4 @@ class Solution {
         return (int)(res%mod);
     }
 }
-```
+// ```

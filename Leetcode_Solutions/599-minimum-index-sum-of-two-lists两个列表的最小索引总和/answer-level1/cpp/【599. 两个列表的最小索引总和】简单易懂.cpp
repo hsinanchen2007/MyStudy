@@ -1,9 +1,9 @@
-## 思路
-1. 分别遍历两个vector，保存(string, index)到map中。
-2. 遍历其中一个map，在另一个map中寻找是否存在相同key，并更新最小索引和。
-3. 再次遍历两个map，选择最小索引和等于第2步中找到的值，然后将key放入结果集。
-### 代码
-```c++
+// ## 思路
+// 1. 分别遍历两个vector，保存(string, index)到map中。
+// 2. 遍历其中一个map，在另一个map中寻找是否存在相同key，并更新最小索引和。
+// 3. 再次遍历两个map，选择最小索引和等于第2步中找到的值，然后将key放入结果集。
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {
@@ -34,11 +34,11 @@ public:
         return res;
     }
 };
-```
-#### 优化代码（最优解）
-- 使用一个map。
-- 在另一个list遍历过程中，判断是否存在最小索引和。
-```
+// ```
+// #### 优化代码（最优解）
+// - 使用一个map。
+// - 在另一个list遍历过程中，判断是否存在最小索引和。
+// ```
 class Solution {
 public:
     vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {
@@ -63,5 +63,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

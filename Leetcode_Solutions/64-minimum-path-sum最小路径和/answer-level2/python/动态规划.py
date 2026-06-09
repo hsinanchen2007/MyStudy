@@ -1,8 +1,8 @@
-## 自顶向下
+# ## 自顶向下
 
-核心点：grid[rows][columns] += min(grid[rows][columns + 1], grid[rows + 1][columns])
+# 核心点：grid[rows][columns] += min(grid[rows][columns + 1], grid[rows + 1][columns])
 
-```
+# ```
 class Solution(object):
     def minPathSum(self, grid):
         """
@@ -24,12 +24,12 @@ class Solution(object):
                 rows -= 1
             columns -= 1
         return grid[0][0]
-```
+# ```
 
-核心点：grid[rows][columns] += min(grid[rows][columns - 1], grid[rows - 1][columns])
+# 核心点：grid[rows][columns] += min(grid[rows][columns - 1], grid[rows - 1][columns])
 
-## 自底向上
-```
+# ## 自底向上
+# ```
 class Solution(object):
     def minPathSum(self, grid):
         """
@@ -47,4 +47,4 @@ class Solution(object):
                     else:
                         grid[rows][columns] += min(grid[rows][columns - 1], grid[rows - 1][columns])
         return grid[-1][-1]
-```
+# ```

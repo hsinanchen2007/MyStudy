@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/d66a218dc5b9ab0fd9718b1a9952e82a2b59757579aac0ad3e82124cd76f1fb0-image.png)
+# ![image.png](https://pic.leetcode-cn.com/d66a218dc5b9ab0fd9718b1a9952e82a2b59757579aac0ad3e82124cd76f1fb0-image.png)
 
 
-```
+# ```
 
 '''
 把每个字符串的逆序加入前缀树，前缀树end节点存原始顺序字符串
@@ -94,4 +94,4 @@ class Solution:
                         ans.append([str2idx[w], str2idx[suffix]])
 
         return ans
-```
+# ```

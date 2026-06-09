@@ -1,4 +1,4 @@
-```
+// ```
 typedef struct {
 
     int *stackBuf;
@@ -63,4 +63,4 @@ void tripleInOneFree(TripleInOne* obj) {
     free(obj);
 }
 
-```
+// ```

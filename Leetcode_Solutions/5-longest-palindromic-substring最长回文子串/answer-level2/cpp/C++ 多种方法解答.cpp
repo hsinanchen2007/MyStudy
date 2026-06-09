@@ -1,6 +1,6 @@
-> 思路描述：最暴力的做法就是把所有的子串都找出来
+// > 思路描述：最暴力的做法就是把所有的子串都找出来
 
-```C++
+// ```C++
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -38,17 +38,17 @@ public:
         return result;
     }
 };
-```
+// ```
 
-> 但是暴力求解好像过不了，那么采用动态规划的做法，
+// > 但是暴力求解好像过不了，那么采用动态规划的做法，
 
-$我们给出 P(i,j)的定义如下：P(i,j) = \begin{cases} \text{true,} &\quad\text{如果子串} S_i \dots S_j \text{是回文子串}\\ \text{false,} &\quad\text{其它情况} \end{cases}$
+// $我们给出 P(i,j)的定义如下：P(i,j) = \begin{cases} \text{true,} &\quad\text{如果子串} S_i \dots S_j \text{是回文子串}\\ \text{false,} &\quad\text{其它情况} \end{cases}$
 
-因此$P(i,j)=(P(i+1,j-1) and S_i == S_j)$
+// 因此$P(i,j)=(P(i+1,j-1) and S_i == S_j)$
 
-这产生了一个直观的动态规划解法，我们首先初始化一字母和二字母的回文，然后找到所有三字母回文，并依此类推…
+// 这产生了一个直观的动态规划解法，我们首先初始化一字母和二字母的回文，然后找到所有三字母回文，并依此类推…
 
-```C++
+// ```C++
 class Solution {
 public:
     string longestPalindrome(string s) {
@@ -68,21 +68,21 @@ public:
         return result;
     }
 };
-```
+// ```
 
-> 中心扩展算法
->
-> 中心扩散法怎么去找回文串？
-> 从每一个位置出发，向两边扩散即可。遇到不是回文的时候结束。举个例子，str=acdbbdaa 我们需要寻找从第一个 `b`（位置为 3）
->
-> 出发最长回文串为多少。怎么寻找？
->
-> 首先往左寻找与当期位置相同的字符，直到遇到不相等为止。
-> 	  然后往右寻找与当期位置相同的字符，直到遇到不相等为止。
->
-> 其中要注意aa的中心为空，aba的中心为b
+// > 中心扩展算法
+// >
+// > 中心扩散法怎么去找回文串？
+// > 从每一个位置出发，向两边扩散即可。遇到不是回文的时候结束。举个例子，str=acdbbdaa 我们需要寻找从第一个 `b`（位置为 3）
+// >
+// > 出发最长回文串为多少。怎么寻找？
+// >
+// > 首先往左寻找与当期位置相同的字符，直到遇到不相等为止。
+// > 	  然后往右寻找与当期位置相同的字符，直到遇到不相等为止。
+// >
+// > 其中要注意aa的中心为空，aba的中心为b
 
-```C++
+// ```C++
 class Solution {
     int expandAroundCenter(string s, int left, int right) {
         int L = left, R = right;
@@ -109,5 +109,5 @@ public:
         return result;
     }
 };
-```
+// ```
 

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-使用前序遍历，将每一个节点按顺序放入vector中，再建立链表即可
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 使用前序遍历，将每一个节点按顺序放入vector中，再建立链表即可
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ public:
         inorder(root->right,num);
     }
 };
-```
+// ```

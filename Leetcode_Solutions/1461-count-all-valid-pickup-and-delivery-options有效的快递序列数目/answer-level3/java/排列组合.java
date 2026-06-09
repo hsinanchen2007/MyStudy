@@ -1,9 +1,9 @@
-### 解题思路
-数学问题，纸上画画就做出来了
+// ### 解题思路
+// 数学问题，纸上画画就做出来了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     double sum = 6;
     public int countOrders(int n) {
@@ -15,4 +15,4 @@ class Solution {
         return (int)(sum % (1000000007));
     }
 }
-```
+// ```

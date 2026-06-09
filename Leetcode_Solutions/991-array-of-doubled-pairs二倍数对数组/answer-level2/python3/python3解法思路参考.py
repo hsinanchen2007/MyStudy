@@ -1,9 +1,9 @@
-### 解题思路
-先排序，历遍列表，用字典记录元素和出现次数，负数部分找对应1/2的数，正数部分找2倍的数.
+# ### 解题思路
+# 先排序，历遍列表，用字典记录元素和出现次数，负数部分找对应1/2的数，正数部分找2倍的数.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canReorderDoubled(self, A):
         # 先历遍一遍用字典存下来元素和数量
@@ -31,4 +31,4 @@ class Solution:
                         return False
         
         return True
-```
+# ```

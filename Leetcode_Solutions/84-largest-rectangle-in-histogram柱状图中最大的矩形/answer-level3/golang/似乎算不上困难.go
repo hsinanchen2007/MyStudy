@@ -1,9 +1,9 @@
-### 解题思路
-以当前柱为中心，向前、后延展，直到被矮柱子阻止
+// ### 解题思路
+// 以当前柱为中心，向前、后延展，直到被矮柱子阻止
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func largestRectangleArea(heights []int) int {
     l := len(heights)
     max := 0
@@ -29,4 +29,4 @@ func largestRectangleArea(heights []int) int {
     }
     return max
 }
-```
+// ```

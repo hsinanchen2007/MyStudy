@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-以第一个值作为锚点。进行升序遍历，接下来的每一项的值都和锚点的值进行比较，如果一致则往samePrefix加，如果不一致直接退出函数。
+// 以第一个值作为锚点。进行升序遍历，接下来的每一项的值都和锚点的值进行比较，如果一致则往samePrefix加，如果不一致直接退出函数。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} strs
  * @return {string}
@@ -23,4 +23,4 @@ var longestCommonPrefix = function(strs) {
     }
     return samePrefix
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def addToArrayForm(self, A: List[int], K: int) -> List[int]:
         car=0
@@ -27,4 +27,4 @@ class Solution:
                 K//=10
             res.extend(A)
             return res
-```
+# ```

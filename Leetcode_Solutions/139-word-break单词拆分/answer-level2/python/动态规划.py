@@ -1,9 +1,9 @@
-### 解题思路
-如果用递归函数解题，复杂度过高，而动态规划复杂度为n的平方
+# ### 解题思路
+# 如果用递归函数解题，复杂度过高，而动态规划复杂度为n的平方
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def wordBreak(self, s, wordDict):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                     if s[i:j] in wordDict:
                         flag[j] = True
         return flag[-1]
-```
+# ```

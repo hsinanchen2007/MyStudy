@@ -1,6 +1,6 @@
-### 思路
-使用数组搭配`unordered_map`，遍历数独，判断是否已经存在，若存在返回false，若不存在，将数字作为关键字插入对应行列设值为一。
-```cpp
+// ### 思路
+// 使用数组搭配`unordered_map`，遍历数独，判断是否已经存在，若存在返回false，若不存在，将数字作为关键字插入对应行列设值为一。
+// ```cpp
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
@@ -19,9 +19,9 @@ public:
         return true;
     }
 };
-```
-用hashset也一样。
-```cpp
+// ```
+// 用hashset也一样。
+// ```cpp
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
@@ -40,4 +40,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,5 +1,5 @@
-Trie树的应用有：给字符串按字典序排序，统计以某字符串作为前缀的单词数量等等
-```
+// Trie树的应用有：给字符串按字典序排序，统计以某字符串作为前缀的单词数量等等
+// ```
 class Trie {
     class Node{
 		Node next[] = new Node[26]; 
@@ -44,5 +44,5 @@ class Trie {
 		return p.cnt>0 ? true : false;  //以字符串s为前缀的字符串数大于0，返回true
     }
 }
-```
+// ```
 

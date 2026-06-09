@@ -1,4 +1,4 @@
-```
+// ```
 type LogSystem struct {
     ids []int
     ts []string
@@ -30,4 +30,4 @@ func (this *LogSystem) Retrieve(s string, e string, gra string) []int {
     }
     return out
 }
-```
+// ```

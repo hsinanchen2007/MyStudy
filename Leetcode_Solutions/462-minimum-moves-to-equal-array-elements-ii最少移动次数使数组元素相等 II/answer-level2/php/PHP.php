@@ -1,4 +1,4 @@
-```
+// ```
 function minMoves2($nums)
 {
     sort($nums);
@@ -9,4 +9,4 @@ function minMoves2($nums)
     }
     return $frequency;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * 丢弃前面的空格字符
  * 第一个非空字符可以是正负号或数值，不能是其它字符
@@ -71,4 +71,4 @@ var isVaildNumChar = function(str, index) {
     const charCode = str.charCodeAt(index)
     return charCode >= 48 && charCode <= 57
 }
-```
+// ```

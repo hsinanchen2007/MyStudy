@@ -1,7 +1,7 @@
-### 解题思路
-自己的代码太过繁琐
+// ### 解题思路
+// 自己的代码太过繁琐
 
-```
+// ```
 /**
  * @param {string} s
  * @return {boolean}
@@ -49,10 +49,10 @@ function getword(s) {
     }
     return word;
 }
-```
-### 大神的代码
-简洁，需要认真学习一下在很多判断条件时如何编写代码
-```
+// ```
+// ### 大神的代码
+// 简洁，需要认真学习一下在很多判断条件时如何编写代码
+// ```
 var isValid = function (s) {
     let stack = []
     for (let c of s) {
@@ -66,4 +66,4 @@ var isValid = function (s) {
     }
     return stack.length == 0
 };
-```
+// ```

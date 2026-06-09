@@ -1,10 +1,10 @@
-### Python使用list和deque实现栈
-1. Python的list默认可以作为栈(append/pop)使用, 不过通过改变pop的index也可简单作为队列使用, 因此满足题意。
-2. Python的deque双端队列本身就支持栈(append/pop或者appendleft/popleft)和队列(append/popleft或者appendleft/pop)的操作, 因此也满足题意。
+# ### Python使用list和deque实现栈
+# 1. Python的list默认可以作为栈(append/pop)使用, 不过通过改变pop的index也可简单作为队列使用, 因此满足题意。
+# 2. Python的deque双端队列本身就支持栈(append/pop或者appendleft/popleft)和队列(append/popleft或者appendleft/pop)的操作, 因此也满足题意。
 
-### 代码1 list实现
+# ### 代码1 list实现
 
-```python
+# ```python
 class MyStack(object):
 
     def __init__(self):
@@ -46,11 +46,11 @@ class MyStack(object):
         """
         return len(self.list) == 0
 
-```
+# ```
 
-### 代码2 deque实现
+# ### 代码2 deque实现
 
-```python
+# ```python
 from collections import deque
 
 class MyStack(object):
@@ -94,4 +94,4 @@ class MyStack(object):
         """
         return len(self.deque) == 0
 
-```
+# ```

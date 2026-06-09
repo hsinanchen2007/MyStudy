@@ -1,16 +1,16 @@
-### 解题思路
-首先我们的题意是一个字符串数组里面多个字符 要提取公共前缀 
-首先我们先排除掉数组长度为0 和 1的情况 
+// ### 解题思路
+// 首先我们的题意是一个字符串数组里面多个字符 要提取公共前缀 
+// 首先我们先排除掉数组长度为0 和 1的情况 
 
-然后以第一个字符串为基础 
+// 然后以第一个字符串为基础 
 
-依次跟后面的比较 
+// 依次跟后面的比较 
 
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
   public string LongestCommonPrefix(string[] strs)
         {
@@ -56,4 +56,4 @@ public class Solution {
             return stringBuilder.ToString();
         }
 }
-```
+// ```

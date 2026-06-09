@@ -1,9 +1,9 @@
-### 解题思路
-很多代码都是将二叉树完全遍历，存到数组（栈）中，然后根据k的索引，去找target。
-这样有2个问题可以优化：（1）不需要完全遍历，递归可以提前结束  （2）不用使用额外的空间，只保存最终的target
-### 代码
+# ### 解题思路
+# 很多代码都是将二叉树完全遍历，存到数组（栈）中，然后根据k的索引，去找target。
+# 这样有2个问题可以优化：（1）不需要完全遍历，递归可以提前结束  （2）不用使用额外的空间，只保存最终的target
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution:
         return self.target
 
 
-```
+# ```

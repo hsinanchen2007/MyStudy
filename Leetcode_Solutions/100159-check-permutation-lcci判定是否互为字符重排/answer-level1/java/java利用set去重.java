@@ -1,9 +1,9 @@
-### 解题思路
-利用两个set
-返回判断两个set和字串长度
-### 代码
+// ### 解题思路
+// 利用两个set
+// 返回判断两个set和字串长度
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean CheckPermutation(String s1, String s2) {
         Set set1 = new HashSet();
@@ -17,4 +17,4 @@ class Solution {
         return set1.equals(set2) && s1.length() == s2.length();
     }
 }
-```
+// ```

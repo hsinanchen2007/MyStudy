@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func countBinarySubstrings(s string) int {
 	nums:=make([]int,0)
 	//先拿s中的第0个元素出来，nums中第一个元素为1，代表s[0]本身，如果后面的和s[0]相同，则在nums[0]自增1，否则append 新的1
@@ -21,4 +21,4 @@ func countBinarySubstrings(s string) int {
 	}
 	return res
 }
-```
+// ```

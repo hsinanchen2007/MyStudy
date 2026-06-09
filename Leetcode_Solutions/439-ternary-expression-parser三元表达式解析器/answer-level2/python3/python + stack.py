@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def parseTernary(self, expression: str) -> str:
         stack = []
@@ -13,4 +13,4 @@ class Solution:
                     b = stack.pop()
                     stack.append(a if e == 'T' else b)
         return stack[-1]
-```
+# ```

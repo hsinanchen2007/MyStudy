@@ -1,4 +1,4 @@
-```
+// ```
 void trans(char* in_str,char* out_str)
 {
     int length = strlen(in_str);
@@ -47,4 +47,4 @@ char * countAndSay(int n){
 
     return save_str;
 }
-```
+// ```

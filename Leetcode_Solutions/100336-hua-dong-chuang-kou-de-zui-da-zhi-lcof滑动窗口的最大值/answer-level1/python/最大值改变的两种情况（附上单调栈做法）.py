@@ -1,9 +1,9 @@
-### 解题思路 最大值在前面被划走，或者最大值是新划过来的那个，大于当前的最大值，需要变更
-此处撰写解题思路
+# ### 解题思路 最大值在前面被划走，或者最大值是新划过来的那个，大于当前的最大值，需要变更
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 
 # -*- coding:utf-8 -*-
 class Solution:
@@ -30,10 +30,10 @@ class Solution:
                 previous_first+=1
             return ans
 
-```
+# ```
 
-### 单调栈
-```python
+# ### 单调栈
+# ```python
 # -*- coding:utf-8 -*-
 class Solution:
     def maxSlidingWindow(self, num: List[int], k: int) -> List[int]:
@@ -47,4 +47,4 @@ class Solution:
             if i >=k-1:#要从第k个数据开始输出答案，前面冷启动准备阶段
                 res.append(num[window[0]])
         return res
-```
+# ```

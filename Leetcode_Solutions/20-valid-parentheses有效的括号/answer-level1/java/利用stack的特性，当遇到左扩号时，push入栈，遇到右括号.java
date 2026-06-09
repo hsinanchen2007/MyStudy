@@ -1,10 +1,10 @@
-### 解题思路
-注意当 当前 为右，且栈为空时，直接返回false
+// ### 解题思路
+// 注意当 当前 为右，且栈为空时，直接返回false
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 利用stack 遇到 左，push，遇到右，与 栈顶比较，不相等，返回false
     public boolean isValid(String s) {
@@ -41,4 +41,4 @@ class Solution {
                 ch1 == '[' && ch2 == ']' ;
     }
 }
-```
+// ```

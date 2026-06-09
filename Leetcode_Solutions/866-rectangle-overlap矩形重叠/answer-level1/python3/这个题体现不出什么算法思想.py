@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:
         if rec1[2] > rec2[0] and rec1[0] < rec2[2] \
@@ -11,4 +11,4 @@ class Solution:
             return True
         return False
         
-```
+# ```

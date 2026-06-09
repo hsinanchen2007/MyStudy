@@ -1,4 +1,4 @@
-````
+// ````
 package problem1240
 
 // 回溯法（未压缩）
@@ -83,4 +83,4 @@ func updateVisited(x int, y int, radius int, visited bool) {
 		}
 	}
 }
-````
+// ````

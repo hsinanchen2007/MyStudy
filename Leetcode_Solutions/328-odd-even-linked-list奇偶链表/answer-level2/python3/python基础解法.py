@@ -1,9 +1,9 @@
-### 解题思路
-利用双指针，将奇偶链表分开，后将偶链表连接在奇链表之后
+# ### 解题思路
+# 利用双指针，将奇偶链表分开，后将偶链表连接在奇链表之后
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -24,4 +24,4 @@ class Solution:
             even = even.next
         odd.next = even_head
         return head
-```
+# ```

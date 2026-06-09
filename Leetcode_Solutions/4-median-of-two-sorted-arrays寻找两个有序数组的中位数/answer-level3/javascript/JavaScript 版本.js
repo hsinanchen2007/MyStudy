@@ -1,7 +1,7 @@
-我看题解中没有 JS 的版本，
-我来补一个吧。
-参照官方题解的 JavaScript 的版本:
-```js
+// 我看题解中没有 JS 的版本，
+// 我来补一个吧。
+// 参照官方题解的 JavaScript 的版本:
+// ```js
 function f1(arr1, arr2) {
     if(arr1.length > arr2.length) {[arr1, arr2] = [arr2, arr1]}
     const arr1Length = arr1.length, arr2Length = arr2.length;
@@ -30,9 +30,9 @@ function f1(arr1, arr2) {
     }
     return 0;
 }
-```
-不考虑时间复杂度代码量比较小的版本:
-```js
+// ```
+// 不考虑时间复杂度代码量比较小的版本:
+// ```js
 function f2(arr1, arr2) {
     const tmp = arr1.concat(arr2).sort((a, b) => a - b);
     const tmp2 = tmp.slice(Math.ceil(tmp.length/ 2) - 1 , Math.floor(tmp.length /2 ) + 1);  // 切出来的长度为1或者2

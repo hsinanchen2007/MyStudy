@@ -1,10 +1,10 @@
-### 解题思路
-深度优先遍历，用val标记当前累加值，遇到'('+1，遇到')'-1，最终结果一定是0才行。
-遍历过程中，若val<0或val>n，不合法。
+// ### 解题思路
+// 深度优先遍历，用val标记当前累加值，遇到'('+1，遇到')'-1，最终结果一定是0才行。
+// 遍历过程中，若val<0或val>n，不合法。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} n
  * @return {string[]}
@@ -42,4 +42,4 @@ var dfs = function(parent, n, val, currStr, res){
     dfs('(', n, val, tmpStr, res);
     dfs(')', n, val, tmpStr, res);
 };
-```
+// ```

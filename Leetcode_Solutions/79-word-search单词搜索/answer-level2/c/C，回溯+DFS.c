@@ -1,4 +1,4 @@
-```
+// ```
 bool helper(char** board,
             int i,
             int j,
@@ -54,4 +54,4 @@ bool exist(char** board, int boardSize, int* boardColSize, char* word) {
 
     return isExisted;
 }
-```
+// ```

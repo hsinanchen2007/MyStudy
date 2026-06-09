@@ -1,9 +1,9 @@
-### 解题思路
-之前不知道约瑟夫环公式，学到了学到了
+// ### 解题思路
+// 之前不知道约瑟夫环公式，学到了学到了
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int LastRemaining(int n, int m) {
         int p = 0;
@@ -15,4 +15,4 @@ public class Solution {
 
     }
 }
-```
+// ```

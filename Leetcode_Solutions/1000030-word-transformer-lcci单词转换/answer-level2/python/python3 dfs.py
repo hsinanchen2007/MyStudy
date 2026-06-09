@@ -1,9 +1,9 @@
-### 解题思路
-先建立通配符映射，之后采用dfs，搜索过程中建立marked标记计算过的节点。
+# ### 解题思路
+# 先建立通配符映射，之后采用dfs，搜索过程中建立marked标记计算过的节点。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[str]:
         picture_dic = collections.defaultdict(set)
@@ -36,4 +36,4 @@ class Solution:
         
         
 
-```
+# ```

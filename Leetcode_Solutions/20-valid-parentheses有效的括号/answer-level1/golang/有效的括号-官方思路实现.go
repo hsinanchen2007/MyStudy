@@ -1,9 +1,9 @@
 
-官方题解思路，go实现
+// 官方题解思路，go实现
 
-![image.png](https://pic.leetcode-cn.com/c3468023aa49e7575675db00ca3264ca37c60c0e0ac6bc609f750a12bd4027b9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c3468023aa49e7575675db00ca3264ca37c60c0e0ac6bc609f750a12bd4027b9-image.png)
 
-```
+// ```
 func isValid(s string) bool {
     	if len(s) == 0 {
 		return true
@@ -36,7 +36,7 @@ func isValid(s string) bool {
 	} 
     return false
 }
-```
+// ```
 
 
 

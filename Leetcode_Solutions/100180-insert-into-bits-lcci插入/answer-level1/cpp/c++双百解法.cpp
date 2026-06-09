@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int insertBits(int N, int M, int i, int j) {
@@ -12,7 +12,7 @@ public:
 
     }
 };
-```
-1.先清零n的i和j位，用掩码完成
-2.再对m进行移位
-3.合并处理好的m和n
+// ```
+// 1.先清零n的i和j位，用掩码完成
+// 2.再对m进行移位
+// 3.合并处理好的m和n

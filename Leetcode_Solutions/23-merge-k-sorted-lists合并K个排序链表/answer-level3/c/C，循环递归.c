@@ -1,10 +1,10 @@
-### 解题思路
-循环递归
-1，编写两个链表合并递归算法
-2，循环递归得到最终合并链表
-### 代码
+// ### 解题思路
+// 循环递归
+// 1，编写两个链表合并递归算法
+// 2，循环递归得到最终合并链表
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -58,4 +58,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
     
     return pHeadNode->next;
 }
-```
+// ```

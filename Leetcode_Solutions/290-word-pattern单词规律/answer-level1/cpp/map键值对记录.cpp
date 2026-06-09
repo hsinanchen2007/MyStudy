@@ -1,15 +1,15 @@
-### 解题思路
-![图片1.png](https://pic.leetcode-cn.com/b34db520be08240733259e75de99ce723d4e5c6757b17e6d35ddb594172c2633-%E5%9B%BE%E7%89%871.png)
-注意特殊情况，一个value被多个key匹配，
-我这里的解决办法是专门引入一个map记录一下不同value的出现次数
-若value 的出现次数大于1，就false
-实例为：当为"abba"  "dog dog dog dog"时的判断
+// ### 解题思路
+// ![图片1.png](https://pic.leetcode-cn.com/b34db520be08240733259e75de99ce723d4e5c6757b17e6d35ddb594172c2633-%E5%9B%BE%E7%89%871.png)
+// 注意特殊情况，一个value被多个key匹配，
+// 我这里的解决办法是专门引入一个map记录一下不同value的出现次数
+// 若value 的出现次数大于1，就false
+// 实例为：当为"abba"  "dog dog dog dog"时的判断
 
-字符串拆分也是一个比较基础的考验，建议像我一样的新手一定要自己写一遍，当然也有更优的解法！
+// 字符串拆分也是一个比较基础的考验，建议像我一样的新手一定要自己写一遍，当然也有更优的解法！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 private:
 
@@ -67,4 +67,4 @@ public:
         return true;
     }
 };
-```
+// ```

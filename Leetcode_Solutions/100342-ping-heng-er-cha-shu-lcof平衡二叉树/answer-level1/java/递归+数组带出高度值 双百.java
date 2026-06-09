@@ -1,9 +1,9 @@
-### 解题思路
-递归+数组带出高度值
+// ### 解题思路
+// 递归+数组带出高度值
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -36,5 +36,5 @@ class Solution {
     }
 
 }
-```
-![image.png](https://pic.leetcode-cn.com/486a845ea51d1143225ef8d94fc1d7ce63cf18d8711f45e978d1a961873c097d-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/486a845ea51d1143225ef8d94fc1d7ce63cf18d8711f45e978d1a961873c097d-image.png)

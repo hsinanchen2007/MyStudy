@@ -1,8 +1,8 @@
-### 解题思路
-    如果k太大可能是超慢，这时候可以与随便交易等价，利用贪心算法，只要后面的价格高就可以买卖
-### 代码
+// ### 解题思路
+//     如果k太大可能是超慢，这时候可以与随便交易等价，利用贪心算法，只要后面的价格高就可以买卖
+// ### 代码
 
-```golang
+// ```golang
 func maxProfit(k int, prices []int) int {
     // 动态规划 dp[i][k][0] dp[i][k][1]分别表示第i天没有持有股票和有持有股票，k表示还可以交易的次数
     if len(prices) < 2 {
@@ -67,4 +67,4 @@ func maxProfitGreedy(prices []int) int {
     }
     return res
 }
-```
+// ```

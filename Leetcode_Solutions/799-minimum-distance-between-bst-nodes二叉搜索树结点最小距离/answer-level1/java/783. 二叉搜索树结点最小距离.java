@@ -1,13 +1,13 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 
- * Date   : 2019/10/11
- * 
- * 解题思路: 二叉搜索树的特点 中序遍历后是有序的（升序）
- * 
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 
+//  * Date   : 2019/10/11
+//  * 
+//  * 解题思路: 二叉搜索树的特点 中序遍历后是有序的（升序）
+//  * 
+//  */
+// ```
 public class leetcode783 {
 
     List<Integer> list = new ArrayList<>();
@@ -35,4 +35,4 @@ public class leetcode783 {
     }
 }
 
-```
+// ```

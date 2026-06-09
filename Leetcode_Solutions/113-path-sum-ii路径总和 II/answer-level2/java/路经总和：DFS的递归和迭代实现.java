@@ -1,5 +1,5 @@
-# 递归实现
-```java []
+// # 递归实现
+// ```java []
 class Solution {
     List<List<Integer>> res = new LinkedList();
     public void dfs(TreeNode root, Stack<Integer> path, int sum){
@@ -21,11 +21,11 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
-# 迭代法
-实质上是用堆栈模拟了递归过程
-```java []
+// # 迭代法
+// 实质上是用堆栈模拟了递归过程
+// ```java []
 class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         List<List<Integer>> res = new LinkedList();
@@ -60,6 +60,6 @@ class Solution {
         return res;
     }
 }
-```
+// ```
 
 

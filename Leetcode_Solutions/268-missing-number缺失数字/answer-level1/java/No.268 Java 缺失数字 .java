@@ -1,5 +1,5 @@
-思路：用一个boolean数组保存每个数字是否出现过。
-```
+// 思路：用一个boolean数组保存每个数字是否出现过。
+// ```
     public int missingNumber(int[] nums) {
         if (nums.length == 1) {
             return 1 - nums[0];
@@ -17,4 +17,4 @@
         }
         return 0;
     }
-```
+// ```

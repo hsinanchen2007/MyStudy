@@ -1,9 +1,9 @@
-### 解题思路
-我不明白，我用了额外数组，消耗内存击败100%。时间复杂度O(n)，却只击败55%。==
+// ### 解题思路
+// 我不明白，我用了额外数组，消耗内存击败100%。时间复杂度O(n)，却只击败55%。==
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] exchange(int[] nums) {
         if(nums.length == 0)
@@ -26,4 +26,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

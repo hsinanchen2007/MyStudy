@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def strangePrinter(s: String): Int = {
     func(s, 0, s.length - 1, Array.ofDim[Int](s.length, s.length))
@@ -15,4 +15,4 @@ object Solution {
     arr(i)(j)
   }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-和海岛问题类似，设置状态表，DFS开启疯狂遍历模式!
+// ### 解题思路
+// 和海岛问题类似，设置状态表，DFS开启疯狂遍历模式!
 
-![image.png](https://pic.leetcode-cn.com/91ce8acd5ed9afdc1f3c46d3ad92f033d178032da2f3c29a5f2a4a3aa3bcfd4f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/91ce8acd5ed9afdc1f3c46d3ad92f033d178032da2f3c29a5f2a4a3aa3bcfd4f-image.png)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func movingCount(m int, n int, k int) int {
 	var count int
 	var find [][]bool
@@ -51,4 +51,4 @@ func DFS(x int,y int,count *int,k int,m int,n int,find [][]bool){
 		DFS(x,y+1,count,k,m,n,find)
 	}
 }
-```
+// ```

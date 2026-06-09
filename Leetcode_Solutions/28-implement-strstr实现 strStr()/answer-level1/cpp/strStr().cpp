@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-string类自带函数find()，详见C++primer plus page 661
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// string类自带函数find()，详见C++primer plus page 661
+// ### 代码
 
-```cpp
+// ```cpp
 //string类自带函数find()，详见C++primer plus page 661
 class Solution {
 public:
@@ -17,4 +17,4 @@ public:
             return pos;
     }
 };
-```
+// ```

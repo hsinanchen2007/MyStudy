@@ -1,12 +1,12 @@
-### 解题思路
-代码开始声明循环变量 i,j,k，速度仅仅击败了50%
-代码中声明循环变量 for (int i),速度击败了100%
-？？？ 
-希望有大神能给解释下原理！！！
-PS：代码中有注释
-### 代码
+// ### 解题思路
+// 代码开始声明循环变量 i,j,k，速度仅仅击败了50%
+// 代码中声明循环变量 for (int i),速度击败了100%
+// ？？？ 
+// 希望有大神能给解释下原理！！！
+// PS：代码中有注释
+// ### 代码
 
-```c
+// ```c
 typedef struct node{
     bool is_end;
     struct node *next[26];
@@ -57,4 +57,4 @@ char * longestWord(char ** words, int wordsSize){
     }
     return ans;
 }
-```
+// ```

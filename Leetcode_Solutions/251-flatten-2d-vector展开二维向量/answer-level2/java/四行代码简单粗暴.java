@@ -1,9 +1,9 @@
-### 解题思路
-二维数组转一维数组
+// ### 解题思路
+// 二维数组转一维数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Vector2D {
 	private static int[] baseArr = new int[] {};
 	private static int index = 0;
@@ -21,4 +21,4 @@ class Vector2D {
 		return index < baseArr.length;
 	}
 }
-```
+// ```

@@ -1,7 +1,7 @@
-22/22 cases passed (0 ms)
-Your runtime beats 100 % of c submissions
-采用hash个，第一行字母hash值为1，第二行为2，第三行为3
-```C []
+// 22/22 cases passed (0 ms)
+// Your runtime beats 100 % of c submissions
+// 采用hash个，第一行字母hash值为1，第二行为2，第三行为3
+// ```C []
 char **findWords(char **words, int wordsSize, int *returnSize)
 {
     char hash[26] = {2, 3, 3, 2, 1, 2, 2,
@@ -26,4 +26,4 @@ char **findWords(char **words, int wordsSize, int *returnSize)
     }
     return res;
 }
-```
+// ```

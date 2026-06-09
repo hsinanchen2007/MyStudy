@@ -1,13 +1,13 @@
-# 解题思路
-借助双指针，初始l = 1和r = 2。连续数组的和就是等差数列的求和，即sum =(l+r)*(r-l+1)/2，判断sum与target的大小，
-当l<r，进行循环：
-1. 当sum>target的时候，将l加1.
-2. 当sum<target的时候，将r加1.
-3. 当两者相等时，将这个数组依次加入，同时将l与r加1，进行下个循环，直至l>r.
+# # 解题思路
+# 借助双指针，初始l = 1和r = 2。连续数组的和就是等差数列的求和，即sum =(l+r)*(r-l+1)/2，判断sum与target的大小，
+# 当l<r，进行循环：
+# 1. 当sum>target的时候，将l加1.
+# 2. 当sum<target的时候，将r加1.
+# 3. 当两者相等时，将这个数组依次加入，同时将l与r加1，进行下个循环，直至l>r.
 
-**需要注意在Java中要转换数组，借助列表的toArray(),即可。详见下面代码**
+# **需要注意在Java中要转换数组，借助列表的toArray(),即可。详见下面代码**
 
-```
+# ```
 class Solution {
     public int[][] findContinuousSequence(int target) {
         List<int[]> res = new ArrayList<>();
@@ -34,9 +34,9 @@ class Solution {
         return res.toArray(new int[0][]);
     }
 }
-```
-# python3
-```
+# ```
+# # python3
+# ```
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         l = 1
@@ -56,4 +56,4 @@ class Solution:
                 l += 1
                 r += 1
         return res
-```
+# ```

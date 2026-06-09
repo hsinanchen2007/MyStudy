@@ -1,8 +1,8 @@
-可以转换为求两字符串最大有序公共子序列长度问题
+// 可以转换为求两字符串最大有序公共子序列长度问题
 
    
 
-```
+// ```
 class Solution {
 //    dp示意图如下,状态转移方程可以根据示意图自行推导 
 
@@ -36,4 +36,4 @@ class Solution {
         return word1Arr.length + word2Arr.length - 2 * dp[word1Arr.length][word2Arr.length];
     }
 }
-```
+// ```

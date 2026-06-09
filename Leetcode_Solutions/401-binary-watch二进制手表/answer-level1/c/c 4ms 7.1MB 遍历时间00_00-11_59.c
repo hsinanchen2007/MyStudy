@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：从00:00遍历到11:59，判断1的个数是否等于nums
@@ -129,4 +129,4 @@ char ** readBinaryWatch(int num, int* returnSize){
     return buffer;
 
 }
-```
+// ```

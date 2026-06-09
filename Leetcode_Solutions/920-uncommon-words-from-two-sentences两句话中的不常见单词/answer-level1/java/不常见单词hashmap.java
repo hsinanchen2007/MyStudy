@@ -1,8 +1,8 @@
-先连接两个字符，存在hashmap中, 然后将选中的存在arraylist中，再转为string[]
+// 先连接两个字符，存在hashmap中, 然后将选中的存在arraylist中，再转为string[]
 
-![image.png](https://pic.leetcode-cn.com/3e577dbe53bb4c7e1f2d61d0fe0db6c5753cc9ec97c4eb067d9a77bc4ab2f21a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3e577dbe53bb4c7e1f2d61d0fe0db6c5753cc9ec97c4eb067d9a77bc4ab2f21a-image.png)
 
-```javascript []
+// ```javascript []
 class Solution {
     public String[] uncommonFromSentences(String A, String B) {
 
@@ -21,5 +21,5 @@ class Solution {
         return list.toArray(new String[list.size()]);
     }
 }
-```
+// ```
 

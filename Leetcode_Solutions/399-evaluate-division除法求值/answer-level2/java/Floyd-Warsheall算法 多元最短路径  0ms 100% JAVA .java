@@ -1,11 +1,11 @@
-### 解题思路
-Floyd的变种。大致为HashMap储存对应表。二维数组储存点之间的权值。再使用Floyd补全。最后需要什么，直接从二维数组里拿就行。
----就先这样，要是有人看。我再写具体。
+// ### 解题思路
+// Floyd的变种。大致为HashMap储存对应表。二维数组储存点之间的权值。再使用Floyd补全。最后需要什么，直接从二维数组里拿就行。
+// ---就先这样，要是有人看。我再写具体。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     	 public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
 		 final double INF=Integer.MAX_VALUE;
@@ -53,4 +53,4 @@ class Solution {
 		 return arr;
 	 }
 }
-```
+// ```

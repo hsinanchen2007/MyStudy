@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/b4cf4270838edbaf26ea611a567700c16dc41e9a6315a14b3f6c0f4143848005-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b4cf4270838edbaf26ea611a567700c16dc41e9a6315a14b3f6c0f4143848005-image.png)
 
-### 解题思路
-看着大佬的思路写的
+// ### 解题思路
+// 看着大佬的思路写的
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXSIZE 128
 bool IsContain(char *stack, char a, int len)
 {
@@ -42,4 +42,4 @@ char *removeDuplicateLetters(char *s)
     }
     return stack;
 }
-```
+// ```

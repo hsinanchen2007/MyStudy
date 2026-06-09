@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         nlist = list(set(nums))
@@ -7,4 +7,4 @@ class Solution:
         for data in nlist:
             nums.append(data)
         return len(nums)
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 var surfaceArea = function(grid) {
     let res = 0
     for (let i = 0; i < grid.length; i++) {
@@ -18,4 +18,4 @@ var surfaceArea = function(grid) {
     }
     return res
 };
-```
+// ```

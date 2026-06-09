@@ -1,13 +1,13 @@
-### 解题思路
-定义二维数组dp[i][j]保存取当前位置grid(i,j)后可以获取的最大价值
-dp[i][j] = max(dp[i-1][j],dp[i][j-1])+grid[i][j]
-由上面可以观察到j只和当前位置j以及前一个位置j-1相关，因此可以将二位dp化简为一维dp
-dp[j] = max(dp[j],dp[j-1]) + grid[i][j]
-解决了一部分空间
+// ### 解题思路
+// 定义二维数组dp[i][j]保存取当前位置grid(i,j)后可以获取的最大价值
+// dp[i][j] = max(dp[i-1][j],dp[i][j-1])+grid[i][j]
+// 由上面可以观察到j只和当前位置j以及前一个位置j-1相关，因此可以将二位dp化简为一维dp
+// dp[j] = max(dp[j],dp[j-1]) + grid[i][j]
+// 解决了一部分空间
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxValue(vector<vector<int>>& grid) {
@@ -29,4 +29,4 @@ public:
         return dp[grid[0].size()-1];
     }
 };
-```
+// ```

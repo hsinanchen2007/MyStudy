@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int calPoints(String[] ops) {
         Deque<String> scoreType = new LinkedList<>();
@@ -39,7 +39,7 @@ class Solution {
         return sum;
     }
 }
-```
+// ```
 
-维持一个stack，存入每一次得分的数据，
-然后依次判断每一个符号是什么，做对应的操作
+// 维持一个stack，存入每一次得分的数据，
+// 然后依次判断每一个符号是什么，做对应的操作

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minFee=0x3f3f3f3f;//设置一个变量存最小的钱数
@@ -47,4 +47,4 @@ public:
         return minFee;
     }
 };
-```
+// ```

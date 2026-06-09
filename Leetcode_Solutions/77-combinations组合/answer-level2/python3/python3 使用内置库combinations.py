@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         import itertools 
@@ -7,4 +7,4 @@ class Solution:
         for item in itertools.combinations(nums, k):
             res.append(list(item))
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 int
 myAtoi( char *str )
 {
@@ -32,4 +32,4 @@ myAtoi( char *str )
 	}
 	return num;
 }
-```
+// ```

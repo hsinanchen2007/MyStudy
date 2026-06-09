@@ -1,4 +1,4 @@
-将二维数组遍历一遍，记录其他点到该点的距离，并将距离--频次键值对存储在Map查找表中，循环结束后，对Map集合中值大于2的进行统计
+// 将二维数组遍历一遍，记录其他点到该点的距离，并将距离--频次键值对存储在Map查找表中，循环结束后，对Map集合中值大于2的进行统计
     public int numberOfBoomerangs(int[][] points) {		
 		int res = 0;
 		for(int i = 0; i < points.length; i ++) {

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int countCharacters(vector<string>& words, string chars) {
@@ -33,5 +33,5 @@ public:
         return res;
     }
 };
-```
-遇到这种统计字母个数，感觉利用ASCII码和数组很方便，但是一直没试过数组解法快还是hashtable更快。
+// ```
+// 遇到这种统计字母个数，感觉利用ASCII码和数组很方便，但是一直没试过数组解法快还是hashtable更快。

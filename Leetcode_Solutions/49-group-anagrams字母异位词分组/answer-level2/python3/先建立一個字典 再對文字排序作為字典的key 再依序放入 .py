@@ -1,11 +1,11 @@
-### 解题思路
-先建立一個字典 
-再對文字排序作為字典的key 
-再依序放入各個Key中
+# ### 解题思路
+# 先建立一個字典 
+# 再對文字排序作為字典的key 
+# 再依序放入各個Key中
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         res = collections.defaultdict(list)
@@ -23,4 +23,4 @@ class Solution:
         return ans    
 
 
-```
+# ```

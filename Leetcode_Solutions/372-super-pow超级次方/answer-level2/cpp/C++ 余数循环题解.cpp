@@ -1,5 +1,5 @@
-寻找余数循环模式
-```C++ []
+// 寻找余数循环模式
+// ```C++ []
 class Solution {
 public:
     const long M = 1337;
@@ -39,6 +39,6 @@ public:
         return nums[n + k - 1];
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/103ea3e767211b92f26f8e4e409a086f44d1f62077fc5ab6eda024df33209e19-image.png)
+// ![image.png](https://pic.leetcode-cn.com/103ea3e767211b92f26f8e4e409a086f44d1f62077fc5ab6eda024df33209e19-image.png)

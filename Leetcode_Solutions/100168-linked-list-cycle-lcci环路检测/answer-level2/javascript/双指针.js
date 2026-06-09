@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var detectCycle = function(head) {
   let fast = head
   let flow = head
@@ -20,4 +20,4 @@ var detectCycle = function(head) {
   }
   return fast
 };
-```
+// ```

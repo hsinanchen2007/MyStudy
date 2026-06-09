@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 """
 # Employee info
 class Employee(object):
@@ -43,4 +43,4 @@ class Solution(object):
             totalImportnce += epsDict[id].importance
         return totalImportnce
 
-```
+# ```

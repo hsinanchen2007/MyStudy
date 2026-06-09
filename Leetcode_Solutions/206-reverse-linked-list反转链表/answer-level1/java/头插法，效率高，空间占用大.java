@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public ListNode reverseList(ListNode head) {
         // 利用头插法实现
@@ -13,4 +13,4 @@ class Solution {
         return myHead.next;
     }
 }
-```
+// ```

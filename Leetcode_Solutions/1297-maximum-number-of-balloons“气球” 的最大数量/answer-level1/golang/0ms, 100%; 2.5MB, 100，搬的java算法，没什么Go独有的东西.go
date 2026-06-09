@@ -1,4 +1,4 @@
-```go
+// ```go
 func maxNumberOfBalloons(text string) int {
 	charCount := [26]int{}
 	charArray := []rune(text)
@@ -15,4 +15,4 @@ func maxNumberOfBalloons(text string) int {
 	}
 	return min
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     // 思路：不用找出旋转点。直接使用二分法，每次二分一定有一个半区是有序的，这半区无果再去另外一个半区查找即可。
     public int search(int[] nums, int target) {
@@ -31,4 +31,4 @@ class Solution {
         }
     }
 }
-```
+// ```

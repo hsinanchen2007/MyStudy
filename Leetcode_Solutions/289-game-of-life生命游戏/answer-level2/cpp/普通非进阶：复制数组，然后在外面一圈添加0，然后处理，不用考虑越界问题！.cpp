@@ -1,10 +1,10 @@
-### 解题思路
-![1.PNG](https://pic.leetcode-cn.com/dcf91c34e4ba583ece7e3e9516552fee9749599b777903181f5280ce1f9b2521-1.PNG)
+// ### 解题思路
+// ![1.PNG](https://pic.leetcode-cn.com/dcf91c34e4ba583ece7e3e9516552fee9749599b777903181f5280ce1f9b2521-1.PNG)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void gameOfLife(vector<vector<int>>& board) {
@@ -48,4 +48,4 @@ public:
         return 0;
     }
 };
-```
+// ```

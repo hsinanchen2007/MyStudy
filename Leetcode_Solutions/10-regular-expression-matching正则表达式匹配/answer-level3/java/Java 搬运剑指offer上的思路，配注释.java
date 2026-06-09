@@ -1,9 +1,9 @@
-### 解题思路
-分情况讨论，主要判断第二个是不是*,此外要注意防止索引越界
+// ### 解题思路
+// 分情况讨论，主要判断第二个是不是*,此外要注意防止索引越界
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isMatch(String s, String p) {
         if(s==null || p==null) return false;
@@ -33,4 +33,4 @@ class Solution {
         }
     }
 }
-```
+// ```

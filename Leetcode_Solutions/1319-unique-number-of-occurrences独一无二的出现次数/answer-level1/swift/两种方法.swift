@@ -1,9 +1,9 @@
-### 解题思路 1
-利用数组和sort()的沙雕常规法，效率一般...
+// ### 解题思路 1
+// 利用数组和sort()的沙雕常规法，效率一般...
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func uniqueOccurrences(_ arr: [Int]) -> Bool {
         
@@ -36,15 +36,15 @@ class Solution {
         return ans
     }
 }
-```
+// ```
 
 
-### 解题思路 2
-利用字典的解法
+// ### 解题思路 2
+// 利用字典的解法
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func uniqueOccurrences(_ arr: [Int]) -> Bool {
         
@@ -70,4 +70,4 @@ class Solution {
         
     }
 }
-```
+// ```

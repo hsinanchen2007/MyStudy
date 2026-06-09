@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:
         if not inorder or not postorder: return None
@@ -7,9 +7,9 @@ class Solution:
         root.left = self.buildTree(inorder[:i],postorder[:i])
         root.right = self.buildTree(inorder[i+1:],postorder[i:-1])
         return root
-```
-空间优化：参考了高赞题解
-```
+# ```
+# 空间优化：参考了高赞题解
+# ```
 class Solution:
     def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:
         def helper(inorder_l,inorder_r,postorder_l,postorder_r):
@@ -26,4 +26,4 @@ class Solution:
         # # 注意：第 3 个参数是计算出来的，依据：两边区间长度相等
         # root.right = self.__dfs(pos + 1, in_r, post_r - in_r + pos, post_r - 1)
         # return root
-```
+# ```

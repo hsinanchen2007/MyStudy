@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def isValid(self, s):
         """
@@ -24,4 +24,4 @@ class Solution(object):
                     return False   
             index=index+1
         return not stack
-```
+# ```

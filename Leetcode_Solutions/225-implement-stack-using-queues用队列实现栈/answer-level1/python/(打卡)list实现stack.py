@@ -1,9 +1,9 @@
-### 解题思路
-做的时候没注意Notes第三点，在pop和top操作时考虑了underflow的情况。用lists实现stack，无脑操作 十分简单...
+# ### 解题思路
+# 做的时候没注意Notes第三点，在pop和top操作时考虑了underflow的情况。用lists实现stack，无脑操作 十分简单...
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class MyStack(object):
     def __init__(self):
         """

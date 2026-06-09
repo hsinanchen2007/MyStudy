@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-把树的值按结构存进了字典，组合展开。
+# 把树的值按结构存进了字典，组合展开。
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def BSTSequences(self, root: TreeNode) -> List[List[int]]:
         if not root:
@@ -27,4 +27,4 @@ class Solution:
                             t.append([p + [v], c | {v}])
             q = t
         return [r for r, _ in q]
-```
+# ```

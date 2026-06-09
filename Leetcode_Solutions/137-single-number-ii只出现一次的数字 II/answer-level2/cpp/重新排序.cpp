@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
         return nums[N-1];
     }
 };
-```
+// ```

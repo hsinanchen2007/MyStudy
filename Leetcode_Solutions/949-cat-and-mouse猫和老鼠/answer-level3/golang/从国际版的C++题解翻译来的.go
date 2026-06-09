@@ -1,4 +1,4 @@
-```
+// ```
 func catMouseGame(graph [][]int) int {
 	l := byte(len(graph))
 	t := make([][][2]byte, l)
@@ -41,4 +41,4 @@ func catMouseGame(graph [][]int) int {
 	}
 	return 0
 }
-```
+// ```

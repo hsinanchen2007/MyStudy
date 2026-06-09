@@ -1,16 +1,16 @@
-### 解题思路
+// ### 解题思路
 
-三种方法:
+// 三种方法:
 
-1. 使用库函数sort.Ints以后，取前k个数
+// 1. 使用库函数sort.Ints以后，取前k个数
 
-2. 小顶堆，堆化后，Pop出k个数
+// 2. 小顶堆，堆化后，Pop出k个数
 
-3. 归并排序后，取前k个数
+// 3. 归并排序后，取前k个数
 
-### 代码 （归并排序）
+// ### 代码 （归并排序）
 
-```golang
+// ```golang
 func getLeastNumbers(arr []int, k int) []int {
     if len(arr) == 0 {
         return arr
@@ -64,4 +64,4 @@ func mapNumbers(arr []int) []int {
 
     return ret
 }
-```
+// ```

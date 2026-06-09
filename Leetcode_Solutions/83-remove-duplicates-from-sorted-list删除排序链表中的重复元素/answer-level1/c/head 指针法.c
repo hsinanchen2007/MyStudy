@@ -1,10 +1,10 @@
-### 解题思路
-1.保留head
-2.定义一个指针，遍历链表，除去重复元素，也就是改变前一个元素的next指针
+// ### 解题思路
+// 1.保留head
+// 2.定义一个指针，遍历链表，除去重复元素，也就是改变前一个元素的next指针
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -31,4 +31,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

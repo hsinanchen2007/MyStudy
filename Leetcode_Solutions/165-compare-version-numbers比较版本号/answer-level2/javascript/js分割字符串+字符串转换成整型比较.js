@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {string} version1
  * @param {string} version2
@@ -28,4 +28,4 @@ var compareVersion = function(version1, version2) {
     }
     return 0;
 };
-```
+// ```

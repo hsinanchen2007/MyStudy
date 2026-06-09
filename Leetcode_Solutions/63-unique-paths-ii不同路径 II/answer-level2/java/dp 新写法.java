@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         //if(obstacleGrid.length < 2)
@@ -44,5 +44,5 @@ class Solution {
 		
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/4bba7bd45752396d804100f36f941d13510504e2e084f5a346bce524208b4b49-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/4bba7bd45752396d804100f36f941d13510504e2e084f5a346bce524208b4b49-image.png)

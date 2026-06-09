@@ -1,8 +1,8 @@
-### 思路
+# ### 思路
 
-**动态规划**
+# **动态规划**
 
-```
+# ```
 相当于在 LeetCode 0122 基础上加了手续费。
 
 找到状态方程
@@ -35,13 +35,13 @@ dp[0][0] = max(dp[-1][0], dp[-1][1] + prices[i] - fee)
 dp[0][1] = max(dp[-1][1], dp[-1][0] - prices[i])
          = max(-infinity, 0 - prices[i]) 
          = -prices[i]
-```
+# ```
 
-**空间复杂度:** O(1)
+# **空间复杂度:** O(1)
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 class Solution:
     def maxProfit(self, prices: List[int], fee: int) -> int:
         dp_i_0 = 0
@@ -53,12 +53,12 @@ class Solution:
             # 昨天有股票，昨天没有股票今天买入
             dp_i_1 = max(dp_i_1, temp - prices[i])
         return dp_i_0	
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0714-Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee/0714.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0714-Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee/0714.py)
 
-### 参考
+# ### 参考
 
-[一个方法团灭 6 道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/)
+# [一个方法团灭 6 道股票问题](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/yi-ge-fang-fa-tuan-mie-6-dao-gu-piao-wen-ti-by-l-3/)

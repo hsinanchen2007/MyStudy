@@ -1,5 +1,5 @@
-由于每个骰子最小为1点，且必须用到每一个骰子，实际上可以将target-d,题目就变为01背包，每个骰子的值为0至f-1
-```
+// 由于每个骰子最小为1点，且必须用到每一个骰子，实际上可以将target-d,题目就变为01背包，每个骰子的值为0至f-1
+// ```
 class Solution {
     public int numRollsToTarget(int d, int f, int target) {
         if(target < d || target > d*f) return 0;
@@ -20,4 +20,4 @@ class Solution {
         return dp[target];
     }
 }
-```
+// ```

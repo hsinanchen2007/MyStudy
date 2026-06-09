@@ -1,23 +1,23 @@
-### 解题思路
-最直脑筋的做法就是直接生成一个杨辉三角，然后返回三角的第k值
+// ### 解题思路
+// 最直脑筋的做法就是直接生成一个杨辉三角，然后返回三角的第k值
 
-但我们知道杨辉三角的每一行都只与前一行相关，所以我们可以只保留两个，前一行和当下这行
-最终返回cur
+// 但我们知道杨辉三角的每一行都只与前一行相关，所以我们可以只保留两个，前一行和当下这行
+// 最终返回cur
 
-第一种直观的做法是创建两个ArrayList，分别是pre和cur
+// 第一种直观的做法是创建两个ArrayList，分别是pre和cur
 
-但仔细思考，其实可以省略掉pre的创建，在for镶嵌循环里，还没有更新前的cur可以当做是前一行
-每次获得cur的一个元素，保存为temp，
+// 但仔细思考，其实可以省略掉pre的创建，在for镶嵌循环里，还没有更新前的cur可以当做是前一行
+// 每次获得cur的一个元素，保存为temp，
 
-内循环结束前将当下的第j个元素temp赋值给pre，进入下一个内循环
+// 内循环结束前将当下的第j个元素temp赋值给pre，进入下一个内循环
 
-最终返回cur
+// 最终返回cur
 
-太晚了，随便写写
+// 太晚了，随便写写
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> getRow(int rowIndex) {
         int pre = 1;
@@ -37,9 +37,9 @@ class Solution {
 
     }
 }
-```
+// ```
 
-```java
+// ```java
 class Solution {
     public List<Integer> getRow(int rowIndex) {
 
@@ -66,4 +66,4 @@ class Solution {
         return triangle.get(rowIndex);
     }
 }
-```
+// ```

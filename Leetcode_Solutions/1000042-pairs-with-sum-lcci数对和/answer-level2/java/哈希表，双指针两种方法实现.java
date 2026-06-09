@@ -1,6 +1,6 @@
-第一种实现方法：利用哈希表辅助实现。
-思路：把出现过的元素当成key，元素出现的次数当成value存到map中，如果遍历到某一个元素num，查看target - num元素是否出现过，如果出现过，那么可以组成一个整数对，注意这里一个数只能属于一个数对，所以判断target - num元素出现的次数，如果为1，直接remove即可，否则更新target - num元素出现的次数-1。
-```
+// 第一种实现方法：利用哈希表辅助实现。
+// 思路：把出现过的元素当成key，元素出现的次数当成value存到map中，如果遍历到某一个元素num，查看target - num元素是否出现过，如果出现过，那么可以组成一个整数对，注意这里一个数只能属于一个数对，所以判断target - num元素出现的次数，如果为1，直接remove即可，否则更新target - num元素出现的次数-1。
+// ```
 class Solution {
     public List<List<Integer>> pairSums(int[] nums, int target) {
         //key:数组的元素;value:该元素出现的次数
@@ -22,9 +22,9 @@ class Solution {
         return ans;
     }
 }
-```
-第二种实现方法：使用双指针实现，注意要先对数组进行排序处理。
-```
+// ```
+// 第二种实现方法：使用双指针实现，注意要先对数组进行排序处理。
+// ```
 class Solution {
     public List<List<Integer>> pairSums(int[] nums, int target) {
         //对数组进行排序
@@ -50,6 +50,6 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
 

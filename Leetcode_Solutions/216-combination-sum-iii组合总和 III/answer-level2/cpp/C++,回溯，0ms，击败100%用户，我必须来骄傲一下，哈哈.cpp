@@ -1,8 +1,8 @@
-**![微信图片_20191027214915.png](https://pic.leetcode-cn.com/c19532ed611f9b29e6c04e6cbf95f6e4718bfbe047fc52468033088795cd89a1-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191027214915.png)**
+// **![微信图片_20191027214915.png](https://pic.leetcode-cn.com/c19532ed611f9b29e6c04e6cbf95f6e4718bfbe047fc52468033088795cd89a1-%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191027214915.png)**
 
 
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> combinationSum3(int k, int n) {
@@ -38,4 +38,4 @@ public:
     
     
 };
-```
+// ```

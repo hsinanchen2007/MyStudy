@@ -1,10 +1,10 @@
-### 解题思路
-先将一个vector装进map里面 key为string value为int  
-再利用一个for循环遍历同时利用find函数判断是否找到相同的string
+// ### 解题思路
+// 先将一个vector装进map里面 key为string value为int  
+// 再利用一个for循环遍历同时利用find函数判断是否找到相同的string
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findRestaurant(vector<string>& list1, vector<string>& list2) {
@@ -31,4 +31,4 @@ public:
         return vc;
     }
 };
-```
+// ```

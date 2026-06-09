@@ -1,9 +1,9 @@
-### 解题思路
-模拟汽车的走法，时间复杂度 O(N2)
+// ### 解题思路
+// 模拟汽车的走法，时间复杂度 O(N2)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
         for(int i = 0; i < gas.length; i++) {
@@ -31,4 +31,4 @@ class Solution {
         return curFuel >= cost[cur];  
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def integerBreak(self, n: int) -> int:
         vs=[0,0,1,2,4,6,9]
@@ -11,4 +11,4 @@ class Solution:
             left,mid,right=mid,right,cur
         return cur
         
-```
+# ```

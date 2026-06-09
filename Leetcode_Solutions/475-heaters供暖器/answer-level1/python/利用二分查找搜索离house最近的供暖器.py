@@ -1,9 +1,9 @@
-### 解题思路
-利用二分查找搜索离house最近的供暖器
+# ### 解题思路
+# 利用二分查找搜索离house最近的供暖器
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findRadius(self, houses, heaters):
         """
@@ -30,4 +30,4 @@ class Solution(object):
                     left = mid + 1
             min_radius.append(radius)
         return max(min_radius)
-```
+# ```

@@ -1,5 +1,5 @@
-官方题解实在有点取巧，贴一下我自己的后续遍历 C++ 代码，跟官方的前序和中序遍历的迭代风格一致：
-```cpp
+// 官方题解实在有点取巧，贴一下我自己的后续遍历 C++ 代码，跟官方的前序和中序遍历的迭代风格一致：
+// ```cpp
 class Solution {
 public:
     vector<int> postorderTraversal(TreeNode* root) {
@@ -28,10 +28,10 @@ public:
         return ans;
     }
 };
-```
+// ```
 
-顺便贴一下迭代进行前序和中序遍历的代码，与后序遍历写法都是一致的：
-```cpp
+// 顺便贴一下迭代进行前序和中序遍历的代码，与后序遍历写法都是一致的：
+// ```cpp
 class Solution {
 public:
     // 前序遍历
@@ -53,8 +53,8 @@ public:
         return ans;
     }
 };
-```
-```cpp
+// ```
+// ```cpp
 class Solution {
 public:
     // 中序遍历
@@ -75,4 +75,4 @@ public:
         return ans;
     }
 };
-```
+// ```

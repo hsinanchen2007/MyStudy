@@ -1,9 +1,9 @@
-### 解题思路
-这个视频很清晰 https://www.youtube.com/watch?v=cJayBq38VYw
+# ### 解题思路
+# 这个视频很清晰 https://www.youtube.com/watch?v=cJayBq38VYw
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from heapq import *
 class Solution:
     def trapRainWater(self, heightMap: List[List[int]]) -> int:
@@ -51,4 +51,4 @@ class Solution:
 
 
         
-```
+# ```

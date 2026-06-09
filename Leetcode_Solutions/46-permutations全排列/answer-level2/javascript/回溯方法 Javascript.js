@@ -1,9 +1,9 @@
-### 解题思路
-回溯方法
+// ### 解题思路
+// 回溯方法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -28,4 +28,4 @@ function backTrack (list, arr, nums) {
     arr.pop()
   }
 }
-```
+// ```

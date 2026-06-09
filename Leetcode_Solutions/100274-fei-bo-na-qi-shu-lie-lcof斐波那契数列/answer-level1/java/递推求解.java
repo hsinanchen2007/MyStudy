@@ -1,14 +1,14 @@
-### 解题思路
-使用递归的方式处理斐波那契数列会是指数级别的复杂度，所以使用递推的方式 `ints[i] = ints[i-1].add(ints[i-2]);`，边界为`ints[0]=ints[1]=1`。
+// ### 解题思路
+// 使用递归的方式处理斐波那契数列会是指数级别的复杂度，所以使用递推的方式 `ints[i] = ints[i-1].add(ints[i-2]);`，边界为`ints[0]=ints[1]=1`。
 
-题目中的最大输入值为100，使用long类型一样会溢出，所以使用`BigInteger[]`来替代`long[]`。
+// 题目中的最大输入值为100，使用long类型一样会溢出，所以使用`BigInteger[]`来替代`long[]`。
 
-![image.png](https://pic.leetcode-cn.com/22d08bf93224dfc417d0efad76a8d8208928977ed228978ae72dfe6405fb99a5-image.png)
+// ![image.png](https://pic.leetcode-cn.com/22d08bf93224dfc417d0efad76a8d8208928977ed228978ae72dfe6405fb99a5-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.math.BigInteger;
 class Solution {
     public int fib(int n) {
@@ -30,4 +30,4 @@ class Solution {
         }
     }
 }
-```
+// ```

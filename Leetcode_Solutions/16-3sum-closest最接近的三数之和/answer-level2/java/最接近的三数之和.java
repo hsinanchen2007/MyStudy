@@ -1,9 +1,9 @@
-### 解题思路
-    与三数之和采用相似的解法，外面一层for循环，里面首尾同时向里收缩，降低时间复杂度。
+// ### 解题思路
+//     与三数之和采用相似的解法，外面一层for循环，里面首尾同时向里收缩，降低时间复杂度。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
@@ -29,4 +29,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-哈希
-```js
+// 哈希
+// ```js
 /**
  * @param {number[]} nums
  * @return {number}
@@ -11,4 +11,4 @@ var findRepeatNumber = function(nums) {
         else record[i] = 1;
     }
 };
-```
+// ```

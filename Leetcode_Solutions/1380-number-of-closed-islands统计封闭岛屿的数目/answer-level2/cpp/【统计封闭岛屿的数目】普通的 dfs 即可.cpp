@@ -1,9 +1,9 @@
-### 思路
-1. 和最普通的数岛屿个数的区别只是要求封闭
-2. 只需要代入一个变量表示是否封闭
+// ### 思路
+// 1. 和最普通的数岛屿个数的区别只是要求封闭
+// 2. 只需要代入一个变量表示是否封闭
 
-### 答题
-```C++
+// ### 答题
+// ```C++
 void dfs(vector<vector<int>>& g, size_t x, size_t y, int &val)
 {
     if (x >= g.size() || y >= g[0].size())
@@ -20,8 +20,8 @@ void dfs(vector<vector<int>>& g, size_t x, size_t y, int &val)
     dfs(g, x, y + 1, val);
     dfs(g, x, y - 1, val);       
 }
-```
-```C++
+// ```
+// ```C++
 int closedIsland(vector<vector<int>>& grid)
 {
     int ans = 0;
@@ -39,12 +39,12 @@ int closedIsland(vector<vector<int>>& grid)
     }
     return ans;
 }
-```
+// ```
 
 
 
-### 致谢
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// ### 致谢
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

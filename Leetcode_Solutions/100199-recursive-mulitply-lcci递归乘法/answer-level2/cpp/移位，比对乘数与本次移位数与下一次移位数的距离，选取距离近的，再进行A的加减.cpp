@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int multiply(int A, int B) {
@@ -36,4 +36,4 @@ public:
         return multip(A, B, next, cnt + 1);
     }
 };
-```
+// ```

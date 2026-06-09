@@ -1,6 +1,6 @@
 
 
-```c
+// ```c
 typedef struct {
     int *val;
     int top;
@@ -87,4 +87,4 @@ void myQueueFree(MyQueue* obj)
  
  * myQueueFree(obj);
 */
-```
+// ```

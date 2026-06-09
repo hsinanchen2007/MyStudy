@@ -1,11 +1,11 @@
-### 解题思路
-1. 找出所有配当前单词的所有位置，每一个位置记录为一个区间；
-2. 合并相交的区间；
-3. 根据区间添加标识到字符串。
+// ### 解题思路
+// 1. 找出所有配当前单词的所有位置，每一个位置记录为一个区间；
+// 2. 合并相交的区间；
+// 3. 根据区间添加标识到字符串。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func boldWords(words []string, S string) string {
     l := len(words)
 
@@ -69,4 +69,4 @@ func boldWords(words []string, S string) string {
     
     return buff.String()
 }
-```
+// ```

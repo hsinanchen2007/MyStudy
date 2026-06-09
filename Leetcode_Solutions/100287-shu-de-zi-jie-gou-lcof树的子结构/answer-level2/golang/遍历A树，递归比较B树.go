@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -42,4 +42,4 @@ func isSubStructure(A *TreeNode, B *TreeNode) bool {
 	}
 	return findStart(A, B)
 }
-```
+// ```

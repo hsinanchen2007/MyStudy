@@ -1,11 +1,11 @@
-### 解题思路
-方法一：动态规划思想
-时间复杂度： O(n)；
-空间复杂度： O(n)。
+// ### 解题思路
+// 方法一：动态规划思想
+// 时间复杂度： O(n)；
+// 空间复杂度： O(n)。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
         
@@ -23,16 +23,16 @@ class Solution {
         return max;
     }
 }
-```
+// ```
 
-### 解题思路
-方法二：贪心算法思想
-时间复杂度： O(n)；
-空间复杂度： O(1)。
+// ### 解题思路
+// 方法二：贪心算法思想
+// 时间复杂度： O(n)；
+// 空间复杂度： O(1)。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSubArray(int[] nums) {
                 
@@ -48,4 +48,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

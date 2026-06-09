@@ -1,8 +1,8 @@
-### 思路
-1. 调库
+// ### 思路
+// 1. 调库
 
-### 答题
-```C++
+// ### 答题
+// ```C++
 void parseDate(string &date, int& y, int& m, int& d)
 {
     stringstream ss;
@@ -36,13 +36,13 @@ int daysBetweenDates(string date1, string date2)
     time_t tt2 = mktime(&t2);
     return abs(tt2 - tt1) / (24 * 60 * 60);
 }
-```
+// ```
 
 
 
-### 致谢
+// ### 致谢
 
-感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
+// 感谢您的观看，希望对您有帮助，欢迎热烈的交流！  
 
-[我的leetcode](https://github.com/AhJo53589/leetcode-cn)
+// [我的leetcode](https://github.com/AhJo53589/leetcode-cn)
 

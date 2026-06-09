@@ -1,9 +1,9 @@
-### 解题思路
-从后向前依次作为根节点遍历，从前向后第一个大于根节点的位置是左右子树的分界点。
+# ### 解题思路
+# 从后向前依次作为根节点遍历，从前向后第一个大于根节点的位置是左右子树的分界点。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def verifyPostorder(self, postorder: List[int]) -> bool:
         n = len(postorder)
@@ -26,4 +26,4 @@ class Solution:
                 return False
             start -= 1
         return True
-```
+# ```

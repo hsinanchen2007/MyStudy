@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -10,4 +10,4 @@ public:
       return res < 2;
     }
 };
-```
+// ```

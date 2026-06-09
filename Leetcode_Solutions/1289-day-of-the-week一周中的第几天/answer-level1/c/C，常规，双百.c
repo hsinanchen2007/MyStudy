@@ -1,11 +1,11 @@
-![1.png](https://pic.leetcode-cn.com/eac51112358bc033794eab50e77720d56cc2edebfb113c3a8d357b0ef8dfd1b7-1.png)
+// ![1.png](https://pic.leetcode-cn.com/eac51112358bc033794eab50e77720d56cc2edebfb113c3a8d357b0ef8dfd1b7-1.png)
 
-### 解题思路
-按年、月、日，计算到1971.1.1之间的天数，取余
+// ### 解题思路
+// 按年、月、日，计算到1971.1.1之间的天数，取余
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * dayOfTheWeek(int day, int month, int year){
 	char *res[7] = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
 	int start = 4;
@@ -30,4 +30,4 @@ char * dayOfTheWeek(int day, int month, int year){
 	start %= 7;
 	return res[start];
 }
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/c179bbd9b3d5af1652dbd2e8681c6469d44894e07e87c3ed402c8c65f09da88a-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/c179bbd9b3d5af1652dbd2e8681c6469d44894e07e87c3ed402c8c65f09da88a-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define HASH_SIZE 60
 int* InitHash(int hashSize)
 {
@@ -48,4 +48,4 @@ int numPairsDivisibleBy60(int* time, int timeSize){
 
 [10,20,30,40,50,60,70,80,90,100,110,120,130]
 */
-```
+// ```

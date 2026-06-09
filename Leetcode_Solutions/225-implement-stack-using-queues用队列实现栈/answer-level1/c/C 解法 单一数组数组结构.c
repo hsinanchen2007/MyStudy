@@ -1,8 +1,8 @@
 
-![image.png](https://pic.leetcode-cn.com/a6ece21008ed40162406e981dbb5a09c158471130febfea911286f6d3ebffba9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a6ece21008ed40162406e981dbb5a09c158471130febfea911286f6d3ebffba9-image.png)
 
-# 代码：
-```
+// # 代码：
+// ```
 
 #define MAX 100
 typedef struct {
@@ -70,5 +70,5 @@ void myStackFree(MyStack* obj) {
  * myStackFree(obj);
 */
 
-```
+// ```
 

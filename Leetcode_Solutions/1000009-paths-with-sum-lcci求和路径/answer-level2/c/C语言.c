@@ -1,13 +1,13 @@
-### 解题思路
-此处撰写解题思路
-（1）从根节点开始；
-（2）从左子树开始；
-（3）从右子树开始；
-注意：某条路径上找到一条路径之后，再从该节点的左右子孩子遍历，而不能直接返回
+// ### 解题思路
+// 此处撰写解题思路
+// （1）从根节点开始；
+// （2）从左子树开始；
+// （3）从右子树开始；
+// 注意：某条路径上找到一条路径之后，再从该节点的左右子孩子遍历，而不能直接返回
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -42,12 +42,12 @@ int pathSum(struct TreeNode* root, int sum) {
     return myPathSum2(root, sum) + pathSum(root->left, sum) + pathSum(root->right, sum);
 }
 
-```
+// ```
 
 
 
 
-```c
+// ```c
 
 /**
  * Definition for a binary tree node.
@@ -97,4 +97,4 @@ int pathSum(struct TreeNode* root, int sum){
 }
 
 
-```
+// ```

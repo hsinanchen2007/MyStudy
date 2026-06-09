@@ -1,10 +1,10 @@
-### 解题思路
-使用编解码思想完成状态更新
-在状态变化中查找变化规律，使用哈希表记录状态
+// ### 解题思路
+// 使用编解码思想完成状态更新
+// 在状态变化中查找变化规律，使用哈希表记录状态
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -90,4 +90,4 @@ int* prisonAfterNDays(int* cells, int cellsSize, int N, int* returnSize){
 END:
     return pRet;
 }
-```
+// ```

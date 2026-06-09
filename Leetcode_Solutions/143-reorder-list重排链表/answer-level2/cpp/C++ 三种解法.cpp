@@ -1,5 +1,5 @@
-一，迭代，时间复杂度O(n^2)。
-```
+// 一，迭代，时间复杂度O(n^2)。
+// ```
 class Solution {
 public:
     void reorderList(ListNode* head){
@@ -23,9 +23,9 @@ public:
         return res;
     }
 };
-```
-二，先遍历链表把节点加入vector，通过索引完成重新排序。时间复杂度O(n)。
-```
+// ```
+// 二，先遍历链表把节点加入vector，通过索引完成重新排序。时间复杂度O(n)。
+// ```
 class Solution {
 public:
     void reorderList(ListNode* head){
@@ -46,9 +46,9 @@ public:
         res[j]->next = nullptr;
     }
 };
-```
-三，先把链表分成前半段和后半段，把后半段逆序排列，再合并这两段。时间复杂度O(n)。
-```
+// ```
+// 三，先把链表分成前半段和后半段，把后半段逆序排列，再合并这两段。时间复杂度O(n)。
+// ```
 class Solution {
 public:
     void reorderList(ListNode* head){
@@ -81,4 +81,4 @@ public:
         head = res;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/53f8d803c10fd21cbab6fd5b0175f27e1a0c63ccf2e3fc926bb6dbfef5b2a795-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/53f8d803c10fd21cbab6fd5b0175f27e1a0c63ccf2e3fc926bb6dbfef5b2a795-image.png)
 
-用一个指针记录当前结点的前驱，最后在把第一个结点的前驱指向最后一个结点，最后一个结点的后继指向第一个结点
+// 用一个指针记录当前结点的前驱，最后在把第一个结点的前驱指向最后一个结点，最后一个结点的后继指向第一个结点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private Node head;
     private Node pre;
@@ -32,4 +32,4 @@ class Solution {
         dfs(root.right);
     }
 }
-```
+// ```

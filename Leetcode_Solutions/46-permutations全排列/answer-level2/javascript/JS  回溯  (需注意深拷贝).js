@@ -1,8 +1,8 @@
-### 解题思路
- > 无深拷贝就得不到正解
-### 代码
+// ### 解题思路
+//  > 无深拷贝就得不到正解
+// ### 代码
 
-```javascript
+// ```javascript
 var permute = function(nums) {
     if(!nums.length) return [];
     const res = [];
@@ -22,4 +22,4 @@ const _permute = (arr, start, res) => {
         [arr[i], arr[start]] = [arr[start], arr[i]];
     }
 }
-```
+// ```

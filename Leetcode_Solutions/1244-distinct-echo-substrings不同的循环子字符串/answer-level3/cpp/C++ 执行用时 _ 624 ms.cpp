@@ -1,8 +1,8 @@
-### 解题思路
-![2.png](https://pic.leetcode-cn.com/9ab92e1649d6a29f665a5204db64fa9b7bb1ef20d2c2d94234646bf17ee06abc-2.png)
+// ### 解题思路
+// ![2.png](https://pic.leetcode-cn.com/9ab92e1649d6a29f665a5204db64fa9b7bb1ef20d2c2d94234646bf17ee06abc-2.png)
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
 	int distinctEchoSubstrings(string text) {
@@ -22,4 +22,4 @@ public:
 	}
 };
 
-```
+// ```

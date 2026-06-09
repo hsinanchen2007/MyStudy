@@ -1,9 +1,9 @@
-### 解题思路
-看了几遍回文数的题目   
+# ### 解题思路
+# 看了几遍回文数的题目   
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x <0:
@@ -19,4 +19,4 @@ class Solution:
         else:
             return False
 
-```
+# ```

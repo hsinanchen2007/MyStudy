@@ -1,9 +1,9 @@
-### 解题思路
-保存遍历的数组 另一个数组遍历时 判断是否在集合里
+// ### 解题思路
+// 保存遍历的数组 另一个数组遍历时 判断是否在集合里
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.Set;
 import java.util.HashSet;
 /**
@@ -44,4 +44,4 @@ public class Solution {
         return null;
     }
 }
-```
+// ```

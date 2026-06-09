@@ -1,9 +1,9 @@
-### 解题思路
-头插法，每次更新逻辑头节点，并且用 flag 节点表示是否还剩 k 个节点，满足就反转，不满足就说明反转完毕。
+// ### 解题思路
+// 头插法，每次更新逻辑头节点，并且用 flag 节点表示是否还剩 k 个节点，满足就反转，不满足就说明反转完毕。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -57,4 +57,4 @@ class Solution {
         return help.next;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/02fec7ec50cae6ebf3f2ed14dcd997ecfe845abc5289bcacbe1716d040cfd168-image.png)
+// ![image.png](https://pic.leetcode-cn.com/02fec7ec50cae6ebf3f2ed14dcd997ecfe845abc5289bcacbe1716d040cfd168-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 深度优先搜索的回溯：
 思路：
 
@@ -33,11 +33,11 @@
   
     。。。这就是回溯的思想，
     继续下去，直到出现字符串长度为 3 的排列，把他加入到结果数组中
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} S
  * @return {string[]}
@@ -61,4 +61,4 @@ var permutation = function(S) {
   
   return ans;
 };
-```
+// ```

@@ -1,8 +1,8 @@
-遍历存入字典 相同字符累加  遍历加上字典值  偶数直接相加count   奇数+count-1
+// 遍历存入字典 相同字符累加  遍历加上字典值  偶数直接相加count   奇数+count-1
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int LongestPalindrome(string s) {
         Dictionary<char, int> letters = new Dictionary<char, int>();
@@ -28,4 +28,4 @@ public class Solution {
         return isExitLowercase ? count + 1 : count;
     }
 }
-```
+// ```

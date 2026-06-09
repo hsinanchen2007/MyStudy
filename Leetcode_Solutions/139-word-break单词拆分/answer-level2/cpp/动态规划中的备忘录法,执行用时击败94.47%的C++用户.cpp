@@ -1,4 +1,4 @@
-```
+// ```
     bool wordBreak_dp(string s,int index, vector<bool>& canBreak,vector<string>& wordDirct, unordered_map<char, vector<string>>& m,unordered_set<string>& n)
 {
 	int size = s.size();
@@ -54,4 +54,4 @@
         canBreak.assign(s.size(), true);
         return wordBreak_dp(s, 0, canBreak,wordDict, m,set);
 }
-```
+// ```

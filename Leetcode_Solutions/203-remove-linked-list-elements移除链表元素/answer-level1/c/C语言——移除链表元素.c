@@ -1,5 +1,5 @@
-思路：
-1、先建立两个指针prev、cur，将prev指向头结点前一个为NULL，将cur指向头结点head；
+// 思路：
+// 1、先建立两个指针prev、cur，将prev指向头结点前一个为NULL，将cur指向头结点head；
 ![image.png](https://pic.leetcode-cn.com/ab83d782bf9f44cf7b2d7963bfefe3aa32292e77f101832758a0d44cfb7d3825-image.png)
 2、开始判断寻找要删除的数val，找到了进行删除，找不到把cur位置给prev、cur往后走。
 ![image.png](https://pic.leetcode-cn.com/fe05728d2f3554c622f30aa5934300b24ec1701f89432d0d601c34169e80d052-image.png)

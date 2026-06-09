@@ -1,6 +1,6 @@
-参考了[@pris_bupt](/u/pris_bupt/)大佬的，只改了两个小细节，一是tmp插入dict[i]时直接插入，不寻找是否重复(利用set性质)，二是最后生成解时根据指向dict[target]的迭代器直接构建，不用for循环
+// 参考了[@pris_bupt](/u/pris_bupt/)大佬的，只改了两个小细节，一是tmp插入dict[i]时直接插入，不寻找是否重复(利用set性质)，二是最后生成解时根据指向dict[target]的迭代器直接构建，不用for循环
 
-```
+// ```
 class Solution {
 public:
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
@@ -24,4 +24,4 @@ public:
         return ret;
     }
 };
-```
+// ```

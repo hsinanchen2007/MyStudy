@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 用一个标记数组记录索引i处的字符是否需要加粗
+// # 用一个标记数组记录索引i处的字符是否需要加粗
 
-时间复杂度是O(m * n)，其中m为words数组的长度，n为字符串S的长度。空间复杂度是O(n)。
+// 时间复杂度是O(m * n)，其中m为words数组的长度，n为字符串S的长度。空间复杂度是O(n)。
 
-执行用时：9ms，击败41.07%。消耗内存：38.4MB，击败8.70%。
+// 执行用时：9ms，击败41.07%。消耗内存：38.4MB，击败8.70%。
 
-```java
+// ```java
 public class Solution {
     public String boldWords(String[] words, String S) {
         int n = S.length();
@@ -36,4 +36,4 @@ public class Solution {
         return sb.toString();
     }
 }
-```
+// ```

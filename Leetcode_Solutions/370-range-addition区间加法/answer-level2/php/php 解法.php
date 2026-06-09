@@ -1,4 +1,4 @@
-```
+// ```
 function getModifiedArray($length, $updates) {
     $arr = array_fill(0,$length,0);
     foreach($updates as $update){
@@ -13,4 +13,4 @@ function getModifiedArray($length, $updates) {
     }
     return $arr;
 }
-```
+// ```

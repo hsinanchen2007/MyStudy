@@ -1,8 +1,8 @@
 
-- 先计算各自单链表长度
-- 然后从两个链表相同对应位置开始遍历
+// - 先计算各自单链表长度
+// - 然后从两个链表相同对应位置开始遍历
 
-```
+// ```
 func getIntersectionNode(headA, headB *ListNode) *ListNode {
     la := 0
     lb := 0
@@ -47,4 +47,4 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
     
     return ca
 }
-```
+// ```

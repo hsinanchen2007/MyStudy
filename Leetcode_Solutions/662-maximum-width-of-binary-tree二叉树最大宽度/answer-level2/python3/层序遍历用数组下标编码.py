@@ -1,8 +1,8 @@
-通过队列，对每一层的节点按照层数放到记录数组中，并且通过下标表示法来记录编号。
+# 通过队列，对每一层的节点按照层数放到记录数组中，并且通过下标表示法来记录编号。
 
-遍历记录数组，求最大值即可。
+# 遍历记录数组，求最大值即可。
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
                 # print(i, hsh[i][-1][0] - hsh[i][0][0] + 1)    
                 ans = max(ans, hsh[i][-1][0] - hsh[i][0][0] + 1) 
         return ans        
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-根据链表的长度，返回最终的位置值
+# ### 解题思路
+# 根据链表的长度，返回最终的位置值
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution:
         finaldeepth,finalnode=getmiddle(head,0,None)
         return finalnode
 
-```
+# ```

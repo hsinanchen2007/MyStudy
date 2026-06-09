@@ -1,9 +1,9 @@
-### 解题思路
-dp[i][j]表示从i之前的某一个位置能够以j步跳至i位置并且能够从第一个石头跳至i位置
+// ### 解题思路
+// dp[i][j]表示从i之前的某一个位置能够以j步跳至i位置并且能够从第一个石头跳至i位置
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canCross(int[] stones) {
         int n = stones.length;
@@ -27,4 +27,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

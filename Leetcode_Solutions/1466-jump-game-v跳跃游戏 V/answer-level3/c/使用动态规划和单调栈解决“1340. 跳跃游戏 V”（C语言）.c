@@ -1,32 +1,32 @@
-### 解题思路
-本题可以按照动态规划思路解决，dp[i]表示从i点最多可以发生的跳跃次数，dp[i]在求解过程中需要不断调整。
+// ### 解题思路
+// 本题可以按照动态规划思路解决，dp[i]表示从i点最多可以发生的跳跃次数，dp[i]在求解过程中需要不断调整。
 
-本题的难点在于，当计算i点时，dp[i]可以由之前小于arr[i]的dp[j]得到，但是还要更新大于arr[i]的dp值。
+// 本题的难点在于，当计算i点时，dp[i]可以由之前小于arr[i]的dp[j]得到，但是还要更新大于arr[i]的dp值。
 
-从题目分析，这个更新过程是向左传递的，即会影响到前面范围内大于自己的点，题解中使用last_id完成这一传递过程。
+// 从题目分析，这个更新过程是向左传递的，即会影响到前面范围内大于自己的点，题解中使用last_id完成这一传递过程。
 
-至于如何快速找到向左的更大值，使用单调栈实现。
+// 至于如何快速找到向左的更大值，使用单调栈实现。
 
-1.开辟数组dp[],用于存放每一点最多可以跳跃次数。
+// 1.开辟数组dp[],用于存放每一点最多可以跳跃次数。
 
-2.初始化dp[i] = 1,方便后续计算
+// 2.初始化dp[i] = 1,方便后续计算
 
-3.遍历arr，对于arr[i]:
+// 3.遍历arr，对于arr[i]:
 
-4.首先向左遍历所有小于arr[i]的元素，更新自己的dp[i]
+// 4.首先向左遍历所有小于arr[i]的元素，更新自己的dp[i]
 
-5.挤掉栈顶小于arr[i]的“气泡”
+// 5.挤掉栈顶小于arr[i]的“气泡”
 
-6.从顶向底遍历栈，当stk[j]的数据大于arr[i]，则dp[j] = max(dp[j], dp[last_id] + 1);
+// 6.从顶向底遍历栈，当stk[j]的数据大于arr[i]，则dp[j] = max(dp[j], dp[last_id] + 1);
 
-7.特别注意，当stk[j]的数据等于arr[i]，则last_id选择dp值更大的id
+// 7.特别注意，当stk[j]的数据等于arr[i]，则last_id选择dp值更大的id
 
-![image.png](https://pic.leetcode-cn.com/e72dbcc3c0fdf30be8aaeeef12e0d9d84e6692d1ca865fac638bb1c4829665f0-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e72dbcc3c0fdf30be8aaeeef12e0d9d84e6692d1ca865fac638bb1c4829665f0-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
@@ -112,4 +112,4 @@ int maxJumps(int* arr, int arrSize, int d){
 
     return ret;
 }
-```
+// ```

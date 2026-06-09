@@ -1,9 +1,9 @@
-### 解题思路
-小数转二进制 乘二取整，正向排列；
-如果是0.1这种不能用二进制精确表示的值，这个过程会像无理数一样无穷尽……
-### 代码
+// ### 解题思路
+// 小数转二进制 乘二取整，正向排列；
+// 如果是0.1这种不能用二进制精确表示的值，这个过程会像无理数一样无穷尽……
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String printBin(double num) {
         StringBuilder builder = new StringBuilder("0.");
@@ -22,4 +22,4 @@ class Solution {
         return "ERROR";
     }
 }
-```
+// ```

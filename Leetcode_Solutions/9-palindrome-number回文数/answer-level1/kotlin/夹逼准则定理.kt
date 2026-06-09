@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-前后双指针依次对比
+// 前后双指针依次对比
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 class Solution {
     fun isPalindrome(x: Int): Boolean {
         if (x < 0) return false
@@ -19,4 +19,4 @@ class Solution {
     return true
     }
 }
-```
+// ```

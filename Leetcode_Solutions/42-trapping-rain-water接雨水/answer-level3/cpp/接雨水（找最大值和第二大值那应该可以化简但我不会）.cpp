@@ -1,16 +1,16 @@
-### 解题思路
-做得很有一点麻烦，函数冗余，顺着我的思路如果有可以化简的地方请多多指正
-1.找出最大的数和第二大的数，并将其下标分别赋值给maxin,secin。
-2.如果maxin小于secin交换两个数位置
-3.sum函数用来求U区域能装的水量
-  maxindex函数用来求一段区域内的最大值和第二大值
-用分治法分而治之，不断顺着每一区内中间的U字型向两边再找U字型。
-不断嵌套。
-sum(a, secin, maxin) + maxindex(a, low, secin+ 1) + maxindex(a, maxin, high)
+// ### 解题思路
+// 做得很有一点麻烦，函数冗余，顺着我的思路如果有可以化简的地方请多多指正
+// 1.找出最大的数和第二大的数，并将其下标分别赋值给maxin,secin。
+// 2.如果maxin小于secin交换两个数位置
+// 3.sum函数用来求U区域能装的水量
+//   maxindex函数用来求一段区域内的最大值和第二大值
+// 用分治法分而治之，不断顺着每一区内中间的U字型向两边再找U字型。
+// 不断嵌套。
+// sum(a, secin, maxin) + maxindex(a, low, secin+ 1) + maxindex(a, maxin, high)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 
@@ -73,4 +73,4 @@ int maxindex(vector<int>& a, int low, int high)
         
 };
 
-```
+// ```

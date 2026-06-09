@@ -1,10 +1,10 @@
-### 解题思路
-1. 总所周知：BFS层层遍历
-2. 要用一个队列来记录，先进先出
+// ### 解题思路
+// 1. 总所周知：BFS层层遍历
+// 2. 要用一个队列来记录，先进先出
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -43,4 +43,4 @@ var levelOrder = function(root) {
     }
     return res
 };
-```
+// ```

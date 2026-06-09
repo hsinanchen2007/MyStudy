@@ -1,9 +1,9 @@
-### 解题思路
-两个queue来回倒即可。
+# ### 解题思路
+# 两个queue来回倒即可。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 
 class MyStack(object):
 
@@ -51,4 +51,4 @@ class MyStack(object):
         :rtype: bool
         """
         return self._size == 0
-```
+# ```

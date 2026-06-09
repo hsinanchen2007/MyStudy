@@ -1,8 +1,8 @@
-## 思路
-每行从后向前遍历。
-### 代码
-空间复杂度：O(k)
-```c++
+// ## 思路
+// 每行从后向前遍历。
+// ### 代码
+// 空间复杂度：O(k)
+// ```c++
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {
@@ -19,9 +19,9 @@ public:
         return res;
     }
 };
-```
-#### 另一种写法（击败100%）
-```c++
+// ```
+// #### 另一种写法（击败100%）
+// ```c++
 空间复杂度：O(k)
 class Solution {
 public:
@@ -36,5 +36,5 @@ public:
         return res;
     }
 };
-```
+// ```
 

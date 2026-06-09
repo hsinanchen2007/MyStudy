@@ -1,8 +1,8 @@
-### 解题思路
-找出偶数结点，然后依次插入末尾即可
-### 代码
+// ### 解题思路
+// 找出偶数结点，然后依次插入末尾即可
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -40,4 +40,4 @@ struct ListNode* oddEvenList(struct ListNode* head){
     }
     return head;
 }
-```
+// ```

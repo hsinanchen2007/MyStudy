@@ -1,9 +1,9 @@
-执行用时 :
-760 ms, 在所有 python3 提交中击败了100.00%的用户
-内存消耗 :
-14.7 MB, 在所有 python3 提交中击败了100.00%的用户
+# 执行用时 :
+# 760 ms, 在所有 python3 提交中击败了100.00%的用户
+# 内存消耗 :
+# 14.7 MB, 在所有 python3 提交中击败了100.00%的用户
 
-```
+# ```
 class Solution:
     def countCornerRectangles(self, grid: List[List[int]]) -> int:
         if not grid:
@@ -25,4 +25,4 @@ class Solution:
                 count=len(points[i].intersection(points[j]))
                 res+=(count*(count-1)//2)
         return res
-```
+# ```

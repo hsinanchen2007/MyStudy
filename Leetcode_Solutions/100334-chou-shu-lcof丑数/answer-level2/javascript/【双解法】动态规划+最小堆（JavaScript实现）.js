@@ -1,13 +1,13 @@
 
-## 解法 1: 动态规划
+// ## 解法 1: 动态规划
 
-因为丑数只包含质因数 2, 3, 5，所以对于下个丑数来说，一定是前面某个丑数乘 3、乘 4 或者乘 5 所得。
+// 因为丑数只包含质因数 2, 3, 5，所以对于下个丑数来说，一定是前面某个丑数乘 3、乘 4 或者乘 5 所得。
 
-准备三个指针 ptr2、ptr3、ptr5，它们指向的数只能乘 2、3 和 5。在循环过程中，每次选取 `2 * res[ptr2]`、`3 * res[ptr3]` 和 `5 * res[ptr5]`这三个数中结果最小的数，并且将对应的指针向前移动。有效循环是 n 次，当循环结束后，res 数组中就按从小到大的顺序保存了丑数。
+// 准备三个指针 ptr2、ptr3、ptr5，它们指向的数只能乘 2、3 和 5。在循环过程中，每次选取 `2 * res[ptr2]`、`3 * res[ptr3]` 和 `5 * res[ptr5]`这三个数中结果最小的数，并且将对应的指针向前移动。有效循环是 n 次，当循环结束后，res 数组中就按从小到大的顺序保存了丑数。
 
-代码如下：
+// 代码如下：
 
-```javascript
+// ```javascript
 // ac地址：https://leetcode-cn.com/problems/ugly-number-ii/
 // 原文地址：https://xxoo521.com/2020-03-10-ugly-number-ii/
 /**
@@ -39,25 +39,25 @@ var nthUglyNumber = function(n) {
 
     return res[n - 1];
 };
-```
+// ```
 
-时间复杂度是$O(N)$，空间复杂度是$O(N)$。
+// 时间复杂度是$O(N)$，空间复杂度是$O(N)$。
 
-## 解法 2: 最小堆
+// ## 解法 2: 最小堆
 
-借助最小堆，可以在 $O(LogN)$ 时间复杂度内找到当前最小的元素。整体算法流程是：
+// 借助最小堆，可以在 $O(LogN)$ 时间复杂度内找到当前最小的元素。整体算法流程是：
 
--   准备最小堆 heap。准备 map，用于记录丑数是否出现过。
--   将 1 放入堆中
--   从 0 开始，遍历 n 次：
-    -   取出堆顶元素，放入数组 res 中
-    -   用堆顶元素依此乘以 2、3、5
-    -   检查结果是否出现过。若没有出现过，那么放入堆中，更新 map
--   返回 res 最后一个数字
+// -   准备最小堆 heap。准备 map，用于记录丑数是否出现过。
+// -   将 1 放入堆中
+// -   从 0 开始，遍历 n 次：
+//     -   取出堆顶元素，放入数组 res 中
+//     -   用堆顶元素依此乘以 2、3、5
+//     -   检查结果是否出现过。若没有出现过，那么放入堆中，更新 map
+// -   返回 res 最后一个数字
 
-代码实现如下：
+// 代码实现如下：
 
-```javascript
+// ```javascript
 // ac地址：https://leetcode-cn.com/problems/ugly-number-ii/
 // 原文地址：https://xxoo521.com/2020-03-10-ugly-number-ii/
 
@@ -148,14 +148,14 @@ var nthUglyNumber = function(n) {
     }
     return res[n - 1];
 };
-```
+// ```
 
-时间复杂度是$O(NlogN)$, 空间复杂度是$O(N)$。
+// 时间复杂度是$O(NlogN)$, 空间复杂度是$O(N)$。
 
-## 更多资料
+// ## 更多资料
 
-**整理不易，若对您有帮助，请给个「关注+点赞」，您的支持是我更新的动力** 👇
+// **整理不易，若对您有帮助，请给个「关注+点赞」，您的支持是我更新的动力** 👇
 
--   **📖Blog：[剑指 Offer 题解 + JS 代码](https://xxoo521.com/algorithm/)**
--   **🐱Github ：[https://github.com/dongyuanxin/blog](https://github.com/dongyuanxin/blog)**
--   **🌟 公众号：[心谭博客](https://tva1.sinaimg.cn/large/006tNbRwly1g9xhhp50jpj31bi0hcju4.jpg)**
+// -   **📖Blog：[剑指 Offer 题解 + JS 代码](https://xxoo521.com/algorithm/)**
+// -   **🐱Github ：[https://github.com/dongyuanxin/blog](https://github.com/dongyuanxin/blog)**
+// -   **🌟 公众号：[心谭博客](https://tva1.sinaimg.cn/large/006tNbRwly1g9xhhp50jpj31bi0hcju4.jpg)**

@@ -1,9 +1,9 @@
-### 解题思路
-暴力
+// ### 解题思路
+// 暴力
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<Integer> luckyNumbers (int[][] matrix) {
        List<Integer> list = new ArrayList<>();
@@ -35,4 +35,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
 
-## 递归
-```swift []
+// ## 递归
+// ```swift []
 class Solution {
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
         var res: [Int] = []
@@ -11,10 +11,10 @@ class Solution {
         return res
     }
 }
-```
+// ```
 
-## 迭代
-```swift []
+// ## 迭代
+// ```swift []
 class Solution {
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
         guard let root = root else { return [] }
@@ -31,11 +31,11 @@ class Solution {
         return res
     }
 }
-```
+// ```
 
-## Morris算法
+// ## Morris算法
 
-```swift []
+// ```swift []
 class Solution {
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
         var current: TreeNode? = root
@@ -68,4 +68,4 @@ class Solution {
         return res
     }
 }
-```
+// ```

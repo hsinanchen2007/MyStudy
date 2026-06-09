@@ -1,11 +1,11 @@
-### 解题思路
-维护一个温度递减的idx栈，如果当前遇到的温度大于递减栈
+// ### 解题思路
+// 维护一个温度递减的idx栈，如果当前遇到的温度大于递减栈
 
-则将所有小于当前温度的idx pop出去并计算当前栈顶的rst
+// 则将所有小于当前温度的idx pop出去并计算当前栈顶的rst
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
  public:
   vector<int> dailyTemperatures(vector<int>& T) {
@@ -26,4 +26,4 @@ class Solution {
     return rst;
   }
 };
-```
+// ```

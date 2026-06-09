@@ -1,10 +1,10 @@
-### 解题思路
-1.采用普通回溯，发现时间耗费巨大
-2.采用生成公式，直接输出
+// ### 解题思路
+// 1.采用普通回溯，发现时间耗费巨大
+// 2.采用生成公式，直接输出
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private int maxLength;
     //private boolean isSuccess = false;
@@ -66,4 +66,4 @@ class Solution {
     //     return ((seq ^ results.get(results.size() - 1)) & ((seq ^ results.get(results.size() - 1)) - 1)) == 0;
     // }
 }
-```
+// ```

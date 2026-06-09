@@ -1,9 +1,9 @@
-### 解题思路
-题目较为常规,维护一个二维DP数组,一维代表子串的起始位置,一维代表需要的分割天数,整体表示将子串分割为相应天数所能得到的最小难度
+// ### 解题思路
+// 题目较为常规,维护一个二维DP数组,一维代表子串的起始位置,一维代表需要的分割天数,整体表示将子串分割为相应天数所能得到的最小难度
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minDifficulty(int[] jobDifficulty, int d) {
         int[][] dp = new int[jobDifficulty.length][d + 1];
@@ -29,4 +29,4 @@ class Solution {
         return dp[0][d] >= Integer.MAX_VALUE / 4 ? -1 : dp[0][d];
     }
 }
-```
+// ```

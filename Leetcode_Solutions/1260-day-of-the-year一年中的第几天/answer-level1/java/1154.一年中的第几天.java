@@ -1,4 +1,4 @@
-最普通算法求解
+// 最普通算法求解
 ![image.png](https://pic.leetcode-cn.com/3beb96792644f07b0bfa8c74d43654b67a084aaf9b8d424045188dc1a826b96f-image.png)
 
 

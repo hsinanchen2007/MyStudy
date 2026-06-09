@@ -1,9 +1,9 @@
-### 解题思路
-push,pop操作时自动更新Min,lalalall
+// ### 解题思路
+// push,pop操作时自动更新Min,lalalall
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MinStack {
     private int[] Ele;
     private int length;
@@ -60,4 +60,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 
     private int[][] dirs = {{-1,0},{-1,1},{0,1},{1,1},{1,0},{1,-1},{0,-1},{-1,-1}};
@@ -43,4 +43,4 @@ class Solution {
         return x >= 0 && x < line && y >=0 && y < column;
     }
 }
-```
+// ```

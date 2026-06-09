@@ -1,11 +1,11 @@
-### 解题思路
-利用头插法和尾插法
-1、当计数值 m<=count<=n 时，执行头插法，倒序
-2、当计数值 m > count 时，执行尾插法，正序
+// ### 解题思路
+// 利用头插法和尾插法
+// 1、当计数值 m<=count<=n 时，执行头插法，倒序
+// 2、当计数值 m > count 时，执行尾插法，正序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -53,4 +53,4 @@ struct ListNode* reverseBetween(struct ListNode* head, int m, int n){
 
     return newhead->next;
 }
-```
+// ```

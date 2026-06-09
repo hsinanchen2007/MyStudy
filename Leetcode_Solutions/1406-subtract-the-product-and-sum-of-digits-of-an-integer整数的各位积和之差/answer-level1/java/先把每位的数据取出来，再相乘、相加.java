@@ -1,9 +1,9 @@
-### 解题思路
-先把每位的数据取出来，再相乘、相加
+// ### 解题思路
+// 先把每位的数据取出来，再相乘、相加
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 
 class Solution {
@@ -26,4 +26,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-双100我只想记录下。
-所以明明参考的别人的解题，为什么我的可以出来双百分百（基本都一样）。
-话说力扣平台每次相同代码提交，时间内存啥的会有差距这正常吗？
+// ### 解题思路
+// 双100我只想记录下。
+// 所以明明参考的别人的解题，为什么我的可以出来双百分百（基本都一样）。
+// 话说力扣平台每次相同代码提交，时间内存啥的会有差距这正常吗？
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -39,4 +39,4 @@ int** findContinuousSequence(int target, int* returnSize, int** returnColumnSize
     }
     return res;
 }
-```
+// ```

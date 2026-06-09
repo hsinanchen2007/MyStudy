@@ -1,4 +1,4 @@
-```
+// ```
 var reverseStr = function(s, k) {
     // 循环
     var str = ''
@@ -19,7 +19,7 @@ var reverseStr = function(s, k) {
         return str
     }
 };		
-```
-- 执行用时 :72 ms, 在所有 javascript 提交中击败了89.17%的用户
-- 内存消耗 :37.6 MB, 在所有 javascript 提交中击败了45.45%的用户
-- 整数倍循环加处理循环剩余字符串，基本上就是按照题目思路来的。另外主要用了js内置API
+// ```
+// - 执行用时 :72 ms, 在所有 javascript 提交中击败了89.17%的用户
+// - 内存消耗 :37.6 MB, 在所有 javascript 提交中击败了45.45%的用户
+// - 整数倍循环加处理循环剩余字符串，基本上就是按照题目思路来的。另外主要用了js内置API

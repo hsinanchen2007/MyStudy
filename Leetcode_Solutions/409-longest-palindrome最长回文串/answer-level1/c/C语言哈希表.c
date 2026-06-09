@@ -1,9 +1,9 @@
-### 解题思路
-回文串分两种：奇数和偶数个数，只能插入一个奇数个数的数，各个字符信息可以使用哈希表来保存。
+// ### 解题思路
+// 回文串分两种：奇数和偶数个数，只能插入一个奇数个数的数，各个字符信息可以使用哈希表来保存。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXLEN 1010
 #define CHARSIZE 52
 #define PRINTF printf
@@ -38,4 +38,4 @@ int longestPalindrome(char * s){
 END:
     return iRet;
 }
-```
+// ```

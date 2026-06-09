@@ -1,6 +1,6 @@
-模拟信号流动，每次选择最短的边(们)走，走完的边从当前的map中删掉，同时把新到节点带来的边加入map
+// 模拟信号流动，每次选择最短的边(们)走，走完的边从当前的map中删掉，同时把新到节点带来的边加入map
 
-```
+// ```
 int** MakeMatrix(int rows, int cols, int defVal) {
 	int** mat = new int*[rows];
 	for (int i = 0; i < rows; ++i) {
@@ -69,5 +69,5 @@ int networkDelayTime(vector<vector<int>>& times, int N, int K) {
 	cout << "cant't reach all points." << endl;
 	return -1;
 }
-```
-![图片.png](https://pic.leetcode-cn.com/2fa37b2052b9044c6f8ddc5fbb26fd1c8542008a74c84a3c05d0eeeb51f9fda5-%E5%9B%BE%E7%89%87.png)
+// ```
+// ![图片.png](https://pic.leetcode-cn.com/2fa37b2052b9044c6f8ddc5fbb26fd1c8542008a74c84a3c05d0eeeb51f9fda5-%E5%9B%BE%E7%89%87.png)

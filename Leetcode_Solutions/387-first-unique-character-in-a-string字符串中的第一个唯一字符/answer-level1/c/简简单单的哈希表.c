@@ -1,10 +1,10 @@
-### 解题思路
-![QQ图片20200327222001.png](https://pic.leetcode-cn.com/2d725841456fb9757801614e6003fe458fde6f9ce7d28cd4bb1ee3dca2cde682-QQ%E5%9B%BE%E7%89%8720200327222001.png)
-在哈希表中存储两个信息：一是val用于存储字母出现的次数，二是pos用于存储字母在字符串中出现的位置。
-若val的值大于2次，返回-1；若val的值等于1，返回pos值最小的即可
-### 代码
+// ### 解题思路
+// ![QQ图片20200327222001.png](https://pic.leetcode-cn.com/2d725841456fb9757801614e6003fe458fde6f9ce7d28cd4bb1ee3dca2cde682-QQ%E5%9B%BE%E7%89%8720200327222001.png)
+// 在哈希表中存储两个信息：一是val用于存储字母出现的次数，二是pos用于存储字母在字符串中出现的位置。
+// 若val的值大于2次，返回-1；若val的值等于1，返回pos值最小的即可
+// ### 代码
 
-```c
+// ```c
 /*暴力法超时
 int firstUniqChar(char * s){
     int slen = strlen(s);
@@ -75,4 +75,4 @@ int firstUniqChar(char * s){
 
 
 
-```
+// ```

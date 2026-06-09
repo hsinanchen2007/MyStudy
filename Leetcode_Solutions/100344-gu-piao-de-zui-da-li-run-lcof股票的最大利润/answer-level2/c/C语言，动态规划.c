@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-dp表示第i天的最大利润
-今天的最大利润等于昨天的最大利润加上今天的股票价值减去昨天的股票价值，如果小于0，则取0
+// dp表示第i天的最大利润
+// 今天的最大利润等于昨天的最大利润加上今天的股票价值减去昨天的股票价值，如果小于0，则取0
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_HTL(a, b) ((a) > (b) ? (a) : (b))
 
 int maxProfit(int* prices, int pricesSize){
@@ -30,4 +30,4 @@ int maxProfit(int* prices, int pricesSize){
     free(dp);
     return max;
 }
-```
+// ```

@@ -1,27 +1,27 @@
 
-首先主要有一下这两个操作：（具体的处理细节，代码有注释！）
-- 获取缓存
-  - 缓存不存在 返回-1
-  - 存在
-- 增加缓存存在如下情况：
-  - 缓存存在
-    - 相同key value相同
-    - 相同key value不相同 
-  - 缓存不存在
-    - 缓存已满
-    - 缓存未满
+// 首先主要有一下这两个操作：（具体的处理细节，代码有注释！）
+// - 获取缓存
+//   - 缓存不存在 返回-1
+//   - 存在
+// - 增加缓存存在如下情况：
+//   - 缓存存在
+//     - 相同key value相同
+//     - 相同key value不相同 
+//   - 缓存不存在
+//     - 缓存已满
+//     - 缓存未满
 
-代码采用了哨兵模式简化了代码的判断操作。
+// 代码采用了哨兵模式简化了代码的判断操作。
 
-代码执行效率如下：
-![WechatIMG173.png](https://pic.leetcode-cn.com/0fc05922f7510eaa5226f9484a340f1b5caab94a4bbbdc032418c29d43bd1eeb-WechatIMG173.png)
+// 代码执行效率如下：
+// ![WechatIMG173.png](https://pic.leetcode-cn.com/0fc05922f7510eaa5226f9484a340f1b5caab94a4bbbdc032418c29d43bd1eeb-WechatIMG173.png)
 
-双向链表只存在两个操作 insetToHead 和 deleteNode，
-get操作，如果不存在直接返回，如果存在，需要更新缓存，删除，再插入head即可。
-put操作，如果存在 删除，再插入head，如果不存在，判断链缓存是否存满，不满，直接插入head，满了，删除tail，再插入head。
+// 双向链表只存在两个操作 insetToHead 和 deleteNode，
+// get操作，如果不存在直接返回，如果存在，需要更新缓存，删除，再插入head即可。
+// put操作，如果存在 删除，再插入head，如果不存在，判断链缓存是否存满，不满，直接插入head，满了，删除tail，再插入head。
 
-talk is cheap，just show the code
-```
+// talk is cheap，just show the code
+// ```
 import java.util.HashMap;
 import java.util.Map;
 
@@ -160,4 +160,4 @@ public class LRUCache {
     }
 
 }
-```
+// ```

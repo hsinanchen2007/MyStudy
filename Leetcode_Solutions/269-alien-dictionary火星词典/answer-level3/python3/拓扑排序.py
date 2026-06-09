@@ -1,5 +1,5 @@
-> 建图+拓扑排序
-```python
+# > 建图+拓扑排序
+# ```python
 class Solution:
     def alienOrder(self, words: List[str]) -> str:
         
@@ -46,4 +46,4 @@ class Solution:
                 return ''
         
         return toposort(self.graph)
-```
+# ```

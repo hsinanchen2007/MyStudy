@@ -1,11 +1,11 @@
-### 解题思路
-数学推理
+// ### 解题思路
+// 数学推理
 
-注意：差值不可能小于0，最小是0
+// 注意：差值不可能小于0，最小是0
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -23,11 +23,11 @@ class Solution {
         return max(0, $max - $min - 2 * $K);
     }
 }
-```
+// ```
 
-### 算法复杂度
-- 时间复杂度：O(N)
-- 空间复杂度： O(1)
+// ### 算法复杂度
+// - 时间复杂度：O(N)
+// - 空间复杂度： O(1)
 
-### 参考
-[https://leetcode-cn.com/problems/smallest-range-i/solution/zui-xiao-chai-zhi-i-by-leetcode/](https://leetcode-cn.com/problems/smallest-range-i/solution/zui-xiao-chai-zhi-i-by-leetcode/)
+// ### 参考
+// [https://leetcode-cn.com/problems/smallest-range-i/solution/zui-xiao-chai-zhi-i-by-leetcode/](https://leetcode-cn.com/problems/smallest-range-i/solution/zui-xiao-chai-zhi-i-by-leetcode/)

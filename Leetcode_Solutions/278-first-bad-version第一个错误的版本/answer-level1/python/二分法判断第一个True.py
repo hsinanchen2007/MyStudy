@@ -1,13 +1,13 @@
-### 解题思路
-二分法的边界设置为right-left>1。
-这样需要在二分之前。即left==1时，判断如果isBadVersion(left)==True，说明第一个版本有错误，返回1。
-如果只有两个版本，第二个版本有错误，返回2。
-然后进入二分法，判断哪个位置有错误。
-判断结束时，应该是right记录第一个错误的版本号
+# ### 解题思路
+# 二分法的边界设置为right-left>1。
+# 这样需要在二分之前。即left==1时，判断如果isBadVersion(left)==True，说明第一个版本有错误，返回1。
+# 如果只有两个版本，第二个版本有错误，返回2。
+# 然后进入二分法，判断哪个位置有错误。
+# 判断结束时，应该是right记录第一个错误的版本号
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # The isBadVersion API is already defined for you.
 # @param version, an integer
 # @return a bool
@@ -35,4 +35,4 @@ class Solution:
                 right = (left+right)//2
         return right
                 
-```
+# ```

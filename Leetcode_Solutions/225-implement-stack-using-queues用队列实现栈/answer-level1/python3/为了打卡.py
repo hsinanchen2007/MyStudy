@@ -1,9 +1,9 @@
-### 解题思路
-打卡呦
+# ### 解题思路
+# 打卡呦
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -26,4 +26,4 @@ class MyStack:
     def empty(self) -> bool:
 
         return not bool(self.q)
-```
+# ```

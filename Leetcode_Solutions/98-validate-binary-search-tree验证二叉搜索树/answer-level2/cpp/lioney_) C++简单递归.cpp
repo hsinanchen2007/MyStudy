@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isValidBST(TreeNode* root) {
@@ -10,4 +10,4 @@ public:
         return helper(root->left, min, root) && helper(root->right, root, max);
     }
 };
-```
+// ```

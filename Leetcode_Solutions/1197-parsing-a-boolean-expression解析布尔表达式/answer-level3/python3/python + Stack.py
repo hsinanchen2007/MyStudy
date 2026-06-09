@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def parseBoolExpr(self, expression: str) -> bool:
         # stack
@@ -25,4 +25,4 @@ class Solution:
             elif e == ',':continue
             else: symbol_stack.append(e)
         return True if symbol_stack[-1] == 't' else False
-```
+# ```

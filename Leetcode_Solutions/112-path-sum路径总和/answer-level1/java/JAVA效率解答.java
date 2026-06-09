@@ -1,9 +1,9 @@
-超过99的代码
-解析：
-第一个if，如果当前节点为空则返回false
-第二个if，如果当前节点是叶子节点且满足总和条件，返回true
-else，递归遍历左右节点，并用`||`操作连接
-```
+// 超过99的代码
+// 解析：
+// 第一个if，如果当前节点为空则返回false
+// 第二个if，如果当前节点是叶子节点且满足总和条件，返回true
+// else，递归遍历左右节点，并用`||`操作连接
+// ```
 class Solution {
     public boolean backtrack(int sum,int now,TreeNode h){
         if(h == null) return false;
@@ -17,4 +17,4 @@ class Solution {
         return backtrack(sum,0,root);
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-很慢
-### 代码
+# ### 解题思路
+# 很慢
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def decompressRLElist(self, nums: List[int]) -> List[int]:
         import itertools
@@ -13,4 +13,4 @@ class Solution:
                 for each2 in itertools.repeat(nums[each+1], nums[each]):
                     r.append(each2)
         return r
-```
+# ```

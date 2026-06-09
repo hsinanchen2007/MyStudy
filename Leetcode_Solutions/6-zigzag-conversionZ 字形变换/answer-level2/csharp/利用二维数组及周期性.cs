@@ -1,9 +1,9 @@
-### 解题思路
-使用二维数组及z字型周期性，值得注意的是周期是numRows-1而不是numRows. 看了下官方的答案，更简洁也更有效率。
+// ### 解题思路
+// 使用二维数组及z字型周期性，值得注意的是周期是numRows-1而不是numRows. 看了下官方的答案，更简洁也更有效率。
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public string Convert(string s, int numRows) {
 
@@ -53,4 +53,4 @@ public class Solution {
             return resultString;
     }
 }
-```
+// ```

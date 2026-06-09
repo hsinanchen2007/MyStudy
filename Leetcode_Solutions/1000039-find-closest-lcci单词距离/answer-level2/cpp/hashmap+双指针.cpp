@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findClosest(vector<string>& words, string word1, string word2) {
@@ -31,4 +31,4 @@ public:
     }
 };
 //map<string,vector<int>>根据索引找到对应位置，然后两个指针滑动，寻找绝对值最小的差值
-```
+// ```

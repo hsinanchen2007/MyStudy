@@ -1,4 +1,4 @@
-```java
+// ```java
 public class Solution{
     /*
 	 * 对比两个字符串对应位置的字符在字符串内第一次出现的位置。
@@ -37,4 +37,4 @@ public class Solution{
 		return true;
 	}
 }
-```
+// ```

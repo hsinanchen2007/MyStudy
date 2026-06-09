@@ -1,8 +1,8 @@
-首先利用二数之和的思想，将找三个数和为0变为找两个数和为目标数的负数。
-然后利用map(这里也能考虑set的)排除用过的（这种情况下，会存在-1 0 1 -1的情况，在第一轮找了-1 0 1之后还会再翻出来）
-进一步去除重复：预排序，使用快排
-效率O(n²)
-```
+// 首先利用二数之和的思想，将找三个数和为0变为找两个数和为目标数的负数。
+// 然后利用map(这里也能考虑set的)排除用过的（这种情况下，会存在-1 0 1 -1的情况，在第一轮找了-1 0 1之后还会再翻出来）
+// 进一步去除重复：预排序，使用快排
+// 效率O(n²)
+// ```
 public  List<List<Integer>> twoSum(int []nums,int key, int start){
         List<List<Integer>> answer= new ArrayList<>();
         HashMap<Integer,Boolean> isUsed=new HashMap<>(20);
@@ -44,4 +44,4 @@ public  List<List<Integer>> twoSum(int []nums,int key, int start){
         }
         return answer;
     }
-```
+// ```

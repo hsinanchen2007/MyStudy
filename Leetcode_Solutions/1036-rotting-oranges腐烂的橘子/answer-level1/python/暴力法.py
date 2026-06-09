@@ -1,6 +1,6 @@
-遍历网格时，要注意区分刚被传染坏的橘子和已经坏掉的橘子。
-方法感觉挺笨的。
-```
+# 遍历网格时，要注意区分刚被传染坏的橘子和已经坏掉的橘子。
+# 方法感觉挺笨的。
+# ```
 class Solution(object):
     def orangesRotting(self, grid):
         """
@@ -45,5 +45,5 @@ class Solution(object):
                 if grid[i][j]==3:
                     grid[i][j]=2
         return grid,status
-```
+# ```
 

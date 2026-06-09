@@ -1,4 +1,4 @@
-//1. 从根节点开始遍历树
+// //1. 从根节点开始遍历树
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
 
         if (root == null) {

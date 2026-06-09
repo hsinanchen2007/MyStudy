@@ -1,6 +1,6 @@
-先遍历A再遍历B，和先遍历B再遍历A是一样的。即length(A)+length(B)==length(B)+length(A)。
-所以可以让较长的链表先遍历k个节点，k为两个链表节点差值。然后继续遍历，直到找到相交节点。
-```
+// 先遍历A再遍历B，和先遍历B再遍历A是一样的。即length(A)+length(B)==length(B)+length(A)。
+// 所以可以让较长的链表先遍历k个节点，k为两个链表节点差值。然后继续遍历，直到找到相交节点。
+// ```
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -13,9 +13,9 @@ public:
         return headA;
     }
 };
-```
-更加巧妙的方法，遍历完A链表，继续从头开始遍历B链表；直到找到相交点。
-```
+// ```
+// 更加巧妙的方法，遍历完A链表，继续从头开始遍历B链表；直到找到相交点。
+// ```
 class Solution {
 public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
@@ -26,5 +26,5 @@ public:
         return headA==headB?headA:NULL;
     }
 };
-```
-然而实际上，方法一更快，因为方法二每次都要做地址非零判断。
+// ```
+// 然而实际上，方法一更快，因为方法二每次都要做地址非零判断。

@@ -1,6 +1,6 @@
 
 
-```
+// ```
 public int[][] findContinuousSequence(int target) {
         List<int[]> list = new ArrayList<>();
         int i = 1;
@@ -18,4 +18,4 @@ public int[][] findContinuousSequence(int target) {
         int[][] res = new int[0][];
         return list.toArray(res);
     }
-```
+// ```

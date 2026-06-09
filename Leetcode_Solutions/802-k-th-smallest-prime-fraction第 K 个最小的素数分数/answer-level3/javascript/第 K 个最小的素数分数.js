@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-1，浮点数二分查找，先找到满足条件的的浮点值d，使得小于d的分数个数为k个
-2，找到p和q使得p/q小于d且与d最接近就是答案
+// 1，浮点数二分查找，先找到满足条件的的浮点值d，使得小于d的分数个数为k个
+// 2，找到p和q使得p/q小于d且与d最接近就是答案
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number} K
@@ -42,6 +42,6 @@ var kthSmallestPrimeFraction = function(A, K) {
         }
     }
 };
-```
+// ```
 
-![屏幕快照 2020-01-09 上午9.25.20.png](https://pic.leetcode-cn.com/2dbfdc878a91051175123ef32047f4757a52a4dd7d1c6c712a3140859fac6eb5-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-09%20%E4%B8%8A%E5%8D%889.25.20.png)
+// ![屏幕快照 2020-01-09 上午9.25.20.png](https://pic.leetcode-cn.com/2dbfdc878a91051175123ef32047f4757a52a4dd7d1c6c712a3140859fac6eb5-%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-01-09%20%E4%B8%8A%E5%8D%889.25.20.png)

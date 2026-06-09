@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def twoSum(self, n: int) -> List[float]:
         dp = [0] * (1+6*n)
@@ -15,4 +15,4 @@ class Solution:
         s = sum(res) #?????? sum(res) == 6**n
         ans = [ i/s for i in res]
         return ans
-```
+# ```

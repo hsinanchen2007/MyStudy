@@ -1,10 +1,10 @@
-### 解题思路
-此处注意外List添加内List时候得用new ArrayList<>(innerList);
-用完一次innerList得Clear一次
+// ### 解题思路
+// 此处注意外List添加内List时候得用new ArrayList<>(innerList);
+// 用完一次innerList得Clear一次
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,4 +39,4 @@ class Solution {
         return resList;
     }
 }
-```
+// ```

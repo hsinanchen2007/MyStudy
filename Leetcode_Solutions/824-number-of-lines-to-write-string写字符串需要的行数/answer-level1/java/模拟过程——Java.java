@@ -1,7 +1,7 @@
-思路：遍历一遍字符串，模拟将字符填入单位的过程即可。
-<br/><br/>
-代码：
-```
+// 思路：遍历一遍字符串，模拟将字符填入单位的过程即可。
+// <br/><br/>
+// 代码：
+// ```
 class Solution {
     public int[] numberOfLines(int[] widths, String S) {
         int line = 1;// 行数
@@ -24,4 +24,4 @@ class Solution {
         return new int[] {line,last};
     }
 }
-```
+// ```

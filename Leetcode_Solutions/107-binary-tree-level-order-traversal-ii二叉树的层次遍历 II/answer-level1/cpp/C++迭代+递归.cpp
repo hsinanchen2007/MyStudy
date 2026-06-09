@@ -1,5 +1,5 @@
-首先想到层序遍历迭代，代码如下：
-```
+// 首先想到层序遍历迭代，代码如下：
+// ```
 class Solution {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
@@ -29,10 +29,10 @@ public:
         return res;
     }
 };
-```
-上述方法运行很慢，改用递归
+// ```
+// 上述方法运行很慢，改用递归
 
-```
+// ```
 class Solution {
 public:
     void DFS(TreeNode* root, int level, vector<vector<int>>& arr)
@@ -55,6 +55,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
 

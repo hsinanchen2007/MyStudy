@@ -1,17 +1,17 @@
-### 解题思路
-此处撰写解题思路
-这里采用先找index再做一次BST遍历
-index这个最小值索引，是通过其特性来寻找，其是最小值，那么我们找一个index，跟index+1两个值进行比较
-相邻的点，正常的升序的话，肯定前者较小，但是如果index+1是这个最小值的索引的话，就会后者较小，那么当遍历到这种情况的时候，直接输出index+1作为锚点，即return index=index+1
-在循环体中先做判定，index 跟index+1 的大小，当满足升序时，再进行传统的遍历，二叉遍历
+// ### 解题思路
+// 此处撰写解题思路
+// 这里采用先找index再做一次BST遍历
+// index这个最小值索引，是通过其特性来寻找，其是最小值，那么我们找一个index，跟index+1两个值进行比较
+// 相邻的点，正常的升序的话，肯定前者较小，但是如果index+1是这个最小值的索引的话，就会后者较小，那么当遍历到这种情况的时候，直接输出index+1作为锚点，即return index=index+1
+// 在循环体中先做判定，index 跟index+1 的大小，当满足升序时，再进行传统的遍历，二叉遍历
 
-注意点就是这个index的寻找过程，我们先判定mid=(left+right)/2,然后把mid跟left做判断，
-如果left＜mid，那么选择mid右侧继续循环
-如果left＞mid，那么选择mid左侧继续循环
-如果left==mid，那么要小心了，这里是采用left作为锚点进行比较，那么如果left==mid的情况发生了说明left左侧已经没有遍历空间了，都相等了，因为题目给定的不重复，就意味着left这个index跟mid 的index重叠了，就需要走mid右侧空间。
-### 代码
+// 注意点就是这个index的寻找过程，我们先判定mid=(left+right)/2,然后把mid跟left做判断，
+// 如果left＜mid，那么选择mid右侧继续循环
+// 如果left＞mid，那么选择mid左侧继续循环
+// 如果left==mid，那么要小心了，这里是采用left作为锚点进行比较，那么如果left==mid的情况发生了说明left左侧已经没有遍历空间了，都相等了，因为题目给定的不重复，就意味着left这个index跟mid 的index重叠了，就需要走mid右侧空间。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         int mid=0;
@@ -73,4 +73,4 @@ class Solution {
     }
 
 }
-```
+// ```

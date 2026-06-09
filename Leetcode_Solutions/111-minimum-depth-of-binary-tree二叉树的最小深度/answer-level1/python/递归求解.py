@@ -1,10 +1,10 @@
-### 解题思路
-时间复杂度：O(n)
-空间复杂度：O（n）
+# ### 解题思路
+# 时间复杂度：O(n)
+# 空间复杂度：O（n）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -23,4 +23,4 @@ class Solution:
         if not root.right:
             return self.minDepth(root.left) + 1
         return min(self.minDepth(root.left), self.minDepth(root.right)) + 1
-```
+# ```

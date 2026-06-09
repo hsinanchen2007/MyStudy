@@ -1,6 +1,6 @@
-参考官方题解
+// 参考官方题解
 
-```php
+// ```php
 class Solution
 {
 
@@ -64,4 +64,4 @@ class Solution
         return $minutes == 0 ? 0 : --$minutes;
     }
 }
-```
+// ```

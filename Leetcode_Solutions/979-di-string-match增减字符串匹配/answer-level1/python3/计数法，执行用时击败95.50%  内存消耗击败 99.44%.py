@@ -1,9 +1,9 @@
-### 解题思路
-安排两个计数器，遇到I，加小的；遇到D，加大的
+# ### 解题思路
+# 安排两个计数器，遇到I，加小的；遇到D，加大的
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def diStringMatch(self, S: str) -> List[int]:
         small = 0
@@ -21,4 +21,4 @@ class Solution:
         else:
             res.append(res[-1] - 1)
         return res
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public bool HasGroupsSizeX(int[] deck) {
         if (deck.Length == 0)
@@ -36,4 +36,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

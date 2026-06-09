@@ -1,9 +1,9 @@
-### 解题思路
-将先序的莫里斯改写，left和right颠倒，变成访问根节点后，先访问右节点，再访问左节点，通过头插法，逆序访问结果序列，然后返回
+// ### 解题思路
+// 将先序的莫里斯改写，left和right颠倒，变成访问根节点后，先访问右节点，再访问左节点，通过头插法，逆序访问结果序列，然后返回
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,4 +39,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

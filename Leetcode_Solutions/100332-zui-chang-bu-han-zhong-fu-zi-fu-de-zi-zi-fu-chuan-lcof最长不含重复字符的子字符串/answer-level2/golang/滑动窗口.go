@@ -1,14 +1,14 @@
-**实现思路**
-```
+// **实现思路**
+// ```
 
 1. 右窗口不断滑动
 2. 窗口内出现了重复的字母，左窗口滑动
 3. 统计最长条件 
      1. 出现了重复字母
      2. 最后窗口滑动结束，统计一词 
-```
-**代码实现**
-```
+// ```
+// **代码实现**
+// ```
 	func lengthOfLongestSubstring(s string) int {
 		var bytes = []byte(s)
 		var left,right = 0,0
@@ -39,4 +39,4 @@
 		}
 		return maxDistince
 	}
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-遍历循环二维数组，找到目标则置标识符为true返回
+// ### 解题思路
+// 遍历循环二维数组，找到目标则置标识符为true返回
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @param {number} target
@@ -22,4 +22,4 @@ var findNumberIn2DArray = function(matrix, target) {
     return targetFound;
 };
 
-```
+// ```

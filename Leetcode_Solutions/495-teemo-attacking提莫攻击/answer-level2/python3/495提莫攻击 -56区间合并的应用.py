@@ -1,12 +1,12 @@
-### 解题思路
-和<56区间合并>的应用
-1.创建区间列表
-2.区间合并
-3.求合并后的每个区间的差值之和
+# ### 解题思路
+# 和<56区间合并>的应用
+# 1.创建区间列表
+# 2.区间合并
+# 3.求合并后的每个区间的差值之和
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findPoisonedDuration(self, timeSeries: List[int], duration: int) -> int:
         #<56区间合并>的变形：创建区间列表，然后再合并区间，最后求合并后的每个区间的差值之和
@@ -29,4 +29,4 @@ class Solution:
             sums+=item[1]-item[0]
         return sums
 
-```
+# ```

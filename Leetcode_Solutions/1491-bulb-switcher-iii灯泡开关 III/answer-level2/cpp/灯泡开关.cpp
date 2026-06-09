@@ -1,9 +1,9 @@
-### 解题思路
-主要就是看目前的数是不是最大的，是就代表所有灯都是蓝色的。
+// ### 解题思路
+// 主要就是看目前的数是不是最大的，是就代表所有灯都是蓝色的。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numTimesAllBlue(vector<int>& light) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-calloc函数会自动将内存初始化为0
-![image.png](https://pic.leetcode-cn.com/3ce85ce64195e0fb684ed3ecaeb9237ed21f3a4cb4704f1da87624ffac0572e9-image.png)
+// ### 解题思路
+// calloc函数会自动将内存初始化为0
+// ![image.png](https://pic.leetcode-cn.com/3ce85ce64195e0fb684ed3ecaeb9237ed21f3a4cb4704f1da87624ffac0572e9-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* replaceSpace(char* s){
     int len;
     char *str = NULL;
@@ -35,4 +35,4 @@ char* replaceSpace(char* s){
 
     return temp;
 }
-```
+// ```

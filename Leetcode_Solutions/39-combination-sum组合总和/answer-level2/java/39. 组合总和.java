@@ -1,15 +1,15 @@
-/**
- * Project:
- * Author : zhaozhen
- * Email  : 2399144252@qq.com
- * Date   : 2019/11/7
- *
- * 解题思路: 回溯算法解决问题 剪枝1:判断重复去重复 剪枝2:找到目标,后面的不会存在最优解
- *
- * 附上回溯算法基础模板
- *
- */
-```
+// /**
+//  * Project:
+//  * Author : zhaozhen
+//  * Email  : 2399144252@qq.com
+//  * Date   : 2019/11/7
+//  *
+//  * 解题思路: 回溯算法解决问题 剪枝1:判断重复去重复 剪枝2:找到目标,后面的不会存在最优解
+//  *
+//  * 附上回溯算法基础模板
+//  *
+//  */
+// ```
 public class leetcode039 {
 
     List<List<Integer>> res = new ArrayList<List<Integer>>();
@@ -69,4 +69,4 @@ public class leetcode039 {
     }
 
 }
-```
+// ```

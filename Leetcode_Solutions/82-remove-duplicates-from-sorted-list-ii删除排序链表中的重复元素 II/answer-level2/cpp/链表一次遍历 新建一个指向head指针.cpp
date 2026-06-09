@@ -1,10 +1,10 @@
-s->head
-t=s
-p=s->next
-q=p->next
-这样p,q控制比较值相等时跳过相等的数，t控制跳过p本身指向的重复出现过的数字
-最后返回s->next
-```
+// s->head
+// t=s
+// p=s->next
+// q=p->next
+// 这样p,q控制比较值相等时跳过相等的数，t控制跳过p本身指向的重复出现过的数字
+// 最后返回s->next
+// ```
 ListNode * deleteDuplicates(ListNode* head) {
 		ListNode * p, *q,*s,*t;
         //处理特殊情况
@@ -47,4 +47,4 @@ ListNode * deleteDuplicates(ListNode* head) {
 		return s->next;
 
 	}
-```
+// ```

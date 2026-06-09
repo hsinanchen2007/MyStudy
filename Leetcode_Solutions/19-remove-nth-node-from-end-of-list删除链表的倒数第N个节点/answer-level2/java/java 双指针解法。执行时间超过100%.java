@@ -1,7 +1,7 @@
-通过两个指针同步前进来实现一遍扫描删除倒数第N个元素
-都在代码注释中。
-不会写题解的我。
-```java
+// 通过两个指针同步前进来实现一遍扫描删除倒数第N个元素
+// 都在代码注释中。
+// 不会写题解的我。
+// ```java
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode front = head;//存放前面的指针
@@ -20,4 +20,4 @@ class Solution {
         return head;//返回头
     }
 }
-```
+// ```

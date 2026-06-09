@@ -1,12 +1,12 @@
-执行用时 :1 ms, 在所有 java 提交中击败了100.00%的用户
-内存消耗 :33.8 MB, 在所有 java 提交中击败了49.47%的用户
+// 执行用时 :1 ms, 在所有 java 提交中击败了100.00%的用户
+// 内存消耗 :33.8 MB, 在所有 java 提交中击败了49.47%的用户
 
-充分利用题设：`pattern 只包含小写字母`
-还有后半句：`str 包含了由单个空格分隔的小写字母`，可能也有玄机。还不知道如何利用。    
+// 充分利用题设：`pattern 只包含小写字母`
+// 还有后半句：`str 包含了由单个空格分隔的小写字母`，可能也有玄机。还不知道如何利用。    
   
-还有，不要用`replace/replaceAll`，效率不行。
+// 还有，不要用`replace/replaceAll`，效率不行。
 
-```
+// ```
 public boolean wordPattern(String pattern, String str) {
     // 0 先用长度做简单的判断
     String[] words = str.split(" ");
@@ -57,4 +57,4 @@ public boolean wordPattern(String pattern, String str) {
         return true;
     }
 }
-```
+// ```

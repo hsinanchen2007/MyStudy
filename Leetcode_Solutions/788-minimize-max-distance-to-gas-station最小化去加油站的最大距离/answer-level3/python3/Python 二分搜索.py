@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/853bed50d8d272f8830abab98841a462fc2521c1d653b0871df837b732138bac-image.png)
+# ![image.png](https://pic.leetcode-cn.com/853bed50d8d272f8830abab98841a462fc2521c1d653b0871df837b732138bac-image.png)
 
 
-```
+# ```
 
 '''
 二分搜索最大的D，让每个加油站之间的距离都小于等于D且总共新加的加油站个数小于等于K
@@ -44,4 +44,4 @@ class Solution:
             else:
                 l = mid
         return ans
-```
+# ```

@@ -1,10 +1,10 @@
-### 解题思路
-知乎高赞文章--动态规划的高度套路
-https://zhuanlan.zhihu.com/p/107457744
+// ### 解题思路
+// 知乎高赞文章--动态规划的高度套路
+// https://zhuanlan.zhihu.com/p/107457744
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int cuttingRope(int n) {
         if(n==2){
@@ -24,4 +24,4 @@ class Solution {
         return dp[n];
     }
 }
-```
+// ```

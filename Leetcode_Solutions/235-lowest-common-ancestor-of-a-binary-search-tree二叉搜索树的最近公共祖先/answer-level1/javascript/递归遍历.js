@@ -1,10 +1,10 @@
-### 解题思路
-寻找二叉搜索树的公共节点，比普通的树方便的是有大小规律，不用全部走一遍
-判断p  q 的值分别在root的哪里边，就可以调用左子树或者右子树
+// ### 解题思路
+// 寻找二叉搜索树的公共节点，比普通的树方便的是有大小规律，不用全部走一遍
+// 判断p  q 的值分别在root的哪里边，就可以调用左子树或者右子树
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -28,4 +28,4 @@ var lowestCommonAncestor = function(root, p, q) {
     }
     return root;
 };
-```
+// ```

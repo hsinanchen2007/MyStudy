@@ -1,9 +1,9 @@
-### 解题思路
-把前面解了一部分的解传给下一层函数，就像树一样不断展开，最后设定一个条件返回，这里的条件就是遍历到了digits的最后。
+// ### 解题思路
+// 把前面解了一部分的解传给下一层函数，就像树一样不断展开，最后设定一个条件返回，这里的条件就是遍历到了digits的最后。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private String[] voc=new String[]{"abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
     public List<String> letterCombinations(String digits) {
@@ -24,4 +24,4 @@ class Solution {
 
     }
 }
-```
+// ```

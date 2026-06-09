@@ -1,7 +1,7 @@
-##画图比较好理解。
-##目的就是要让原先的next反转。
+// ##画图比较好理解。
+// ##目的就是要让原先的next反转。
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -25,4 +25,4 @@ struct ListNode* reverseList(struct ListNode* head){
         return pre.next;
 
 }
-```
+// ```

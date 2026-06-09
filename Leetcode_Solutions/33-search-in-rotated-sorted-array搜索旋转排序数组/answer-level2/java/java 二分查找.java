@@ -1,5 +1,5 @@
-找到分界点后，进行查找即可
-```
+// 找到分界点后，进行查找即可
+// ```
 class Solution {
     public int search(int[] nums, int target) {
         //排除几个简单情形
@@ -68,4 +68,4 @@ class Solution {
        
     }
 }
-```
+// ```

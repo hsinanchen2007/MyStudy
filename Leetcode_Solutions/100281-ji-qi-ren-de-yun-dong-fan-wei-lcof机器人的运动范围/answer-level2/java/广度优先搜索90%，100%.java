@@ -1,5 +1,5 @@
-思路写在注释中，然后如果需要提交请自行去掉static，main函数
-```
+// 思路写在注释中，然后如果需要提交请自行去掉static，main函数
+// ```
 package leetCodeTest;
 
 public class Solution {
@@ -69,4 +69,4 @@ public class Solution {
     }
 }
 
-```
+// ```

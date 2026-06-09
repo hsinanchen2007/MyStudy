@@ -1,5 +1,5 @@
-排序加双指针比较
-```c++
+// 排序加双指针比较
+// ```c++
 class Solution {
 public:
     int smallestDifference(vector<int>& a, vector<int>& b) {
@@ -21,4 +21,4 @@ public:
         return ans;
     }
 };
-```
+// ```

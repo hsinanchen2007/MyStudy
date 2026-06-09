@@ -1,5 +1,5 @@
-暴力循环两次
-```
+# 暴力循环两次
+# ```
 class Solution:
     def twoSumLessThanK(self, A: List[int], K: int) -> int:
         n = len(A)
@@ -10,4 +10,4 @@ class Solution:
                 if sum_<K:
                     res = max(res,sum_)
         return res
-```
+# ```

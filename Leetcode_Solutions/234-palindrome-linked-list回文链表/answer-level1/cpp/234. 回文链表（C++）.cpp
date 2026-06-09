@@ -1,6 +1,6 @@
-# 234. 回文链表
-慢！
-```
+// # 234. 回文链表
+// 慢！
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -34,4 +34,4 @@ public:
 		}
     }
 };
-```
+// ```

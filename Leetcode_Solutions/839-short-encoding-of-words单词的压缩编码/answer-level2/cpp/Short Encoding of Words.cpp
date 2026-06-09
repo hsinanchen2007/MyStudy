@@ -1,8 +1,8 @@
-### 解题思路
-Short Encoding of Words
-### 代码
+// ### 解题思路
+// Short Encoding of Words
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool Match(string s1,string s2){
@@ -33,4 +33,4 @@ public:
     }
 
 };
-```
+// ```

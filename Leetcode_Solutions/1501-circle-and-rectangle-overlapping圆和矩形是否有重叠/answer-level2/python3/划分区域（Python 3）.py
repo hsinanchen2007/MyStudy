@@ -1,21 +1,21 @@
-### 解题思路
+# ### 解题思路
 
-本题相比 [836. 矩形重叠](https://leetcode-cn.com/problems/rectangle-overlap/) 难度提升了一级。
+# 本题相比 [836. 矩形重叠](https://leetcode-cn.com/problems/rectangle-overlap/) 难度提升了一级。
 
-我们很容易想到应该使用划分区域的方法，划分区域的方法有很多，这里介绍其中一种方法。
+# 我们很容易想到应该使用划分区域的方法，划分区域的方法有很多，这里介绍其中一种方法。
 
-将矩形分为9个区域，判定圆心的位置在哪个区域：
-- 如果圆心在矩形的内部，则一定相交；
+# 将矩形分为9个区域，判定圆心的位置在哪个区域：
+# - 如果圆心在矩形的内部，则一定相交；
 
-- 如果圆心位于矩形的上下左右四个区域当中，检测圆心到边的距离，判定是否相交；
+# - 如果圆心位于矩形的上下左右四个区域当中，检测圆心到边的距离，判定是否相交；
 
-- 如果圆心位于四个角对应的区域，只要检测矩形的四个顶点是否在圆的内部即可。
+# - 如果圆心位于四个角对应的区域，只要检测矩形的四个顶点是否在圆的内部即可。
 
-![](https://pic.leetcode-cn.com/8765b36bd0f3bc3c84fd598f16dd01a6112e081adc66325a48718e89b1e474a7-TIM%E6%88%AA%E5%9B%BE20200404235733.png)
+# ![](https://pic.leetcode-cn.com/8765b36bd0f3bc3c84fd598f16dd01a6112e081adc66325a48718e89b1e474a7-TIM%E6%88%AA%E5%9B%BE20200404235733.png)
 
 
-### 代码
-```python []
+# ### 代码
+# ```python []
 class Solution:
     def checkOverlap(self, radius: int, x_center: int, y_center: int, x1: int, y1: int, x2: int, y2: int) -> bool:
         # 条件 1：首先判断圆心是否在矩形内
@@ -36,7 +36,7 @@ class Solution:
                        (x2 - x_center) ** 2 + (y2 - y_center) ** 2, \
                        (x2 - x_center) ** 2 + (y1 - y_center) ** 2, \
                        (x1 - x_center) ** 2 + (y1 - y_center) ** 2) <= radius ** 2
-```
-### 复杂度分析
-- 时间复杂度：$O(1)$。
-- 空间复杂度：$O(1)$。
+# ```
+# ### 复杂度分析
+# - 时间复杂度：$O(1)$。
+# - 空间复杂度：$O(1)$。

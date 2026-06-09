@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 class Solution {
 public:
     int trailingZeroes(int n) {
@@ -12,5 +12,5 @@ public:
 
     }
 };
-```
+// ```
 

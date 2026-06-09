@@ -1,8 +1,8 @@
-### 解题思路
-两个stack解决
-### 代码
+// ### 解题思路
+// 两个stack解决
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool parseBoolExpr(string expression) {
@@ -69,4 +69,4 @@ public:
         return st2.top() == 't' ? true : false;
     }
 };
-```
+// ```

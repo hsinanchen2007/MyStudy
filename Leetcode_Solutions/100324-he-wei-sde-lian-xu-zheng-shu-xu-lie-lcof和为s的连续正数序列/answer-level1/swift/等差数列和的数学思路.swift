@@ -1,15 +1,15 @@
-### 解题思路
- 等差数列, a1, 差为1, 长度为l
- 则target = 1/2 * l * (a+ a+l-1)
- a = (2*target + l -l^2) / (2l)
- length范围 2...lmax
- 对应       amax...1 , 当a=1时,解二次方程得lmax
- lmax ...2 遍历验证
- l带入求a, a为整数则可以
+// ### 解题思路
+//  等差数列, a1, 差为1, 长度为l
+//  则target = 1/2 * l * (a+ a+l-1)
+//  a = (2*target + l -l^2) / (2l)
+//  length范围 2...lmax
+//  对应       amax...1 , 当a=1时,解二次方程得lmax
+//  lmax ...2 遍历验证
+//  l带入求a, a为整数则可以
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 class Solution {
     func findContinuousSequence(_ target: Int) -> [[Int]] {
         let lmax:Int = {
@@ -36,4 +36,4 @@ class Solution {
         return result
     }
 }
-```
+// ```

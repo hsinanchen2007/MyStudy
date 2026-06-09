@@ -1,4 +1,4 @@
-```
+// ```
 func moveZeroes(nums []int)  {
     k := 0
     for j :=0;j<len(nums);j++{
@@ -12,4 +12,4 @@ func moveZeroes(nums []int)  {
         }
     }
 }
-```
+// ```

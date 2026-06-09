@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def countLetters(self, S: str) -> int:
         if S=='':
@@ -9,4 +9,4 @@ class Solution:
             if S[i]==S[i-1]:
                 dp[i]=dp[i-1]+1
         return sum(dp)
-```
+# ```

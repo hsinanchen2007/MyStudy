@@ -1,9 +1,9 @@
-### 解题思路
-先打卡，有时间再整理一下思路
+// ### 解题思路
+// 先打卡，有时间再整理一下思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public int OrangesRotting(int[][] grid) {
         var goodOranges = new List<ValueTuple<int, int>>();
@@ -57,4 +57,4 @@ public class Solution {
         return time;
     }
 }
-```
+// ```

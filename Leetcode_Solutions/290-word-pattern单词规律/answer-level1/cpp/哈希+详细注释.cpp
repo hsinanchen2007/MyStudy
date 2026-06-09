@@ -1,7 +1,7 @@
-![1585997936(1).jpg](https://pic.leetcode-cn.com/937596750c26a5d3ed338b1ba2e5c943989f8e317884567582efab515d63781f-1585997936\(1\).jpg)
+// ![1585997936(1).jpg](https://pic.leetcode-cn.com/937596750c26a5d3ed338b1ba2e5c943989f8e317884567582efab515d63781f-1585997936\(1\).jpg)
 
-可能有表述不到位 或者可以优化的地方，欢迎提出宝贵意见~_~。
-```
+// 可能有表述不到位 或者可以优化的地方，欢迎提出宝贵意见~_~。
+// ```
 class Solution {
 public:
     bool wordPattern(string pattern, string str) {
@@ -25,4 +25,4 @@ public:
         return true;//所有的都满足，返回true
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```C++
+// ```C++
 class Solution {
 public:
     int peakIndexInMountainArray(vector<int>& arr) {
@@ -20,6 +20,6 @@ public:
         return r;
     }
 };
-```
+// ```
 
-![草图 (2).png](https://pic.leetcode-cn.com/55ac832a77e8103bca7b2256e42859e133882e6a924e8b92b095de19e7735f9e-%E8%8D%89%E5%9B%BE%20\(2\).png)
+// ![草图 (2).png](https://pic.leetcode-cn.com/55ac832a77e8103bca7b2256e42859e133882e6a924e8b92b095de19e7735f9e-%E8%8D%89%E5%9B%BE%20\(2\).png)

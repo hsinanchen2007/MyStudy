@@ -1,9 +1,9 @@
-### 解题思路
-两层循环，挨个查找，找到就推入数组，返回。
+// ### 解题思路
+// 两层循环，挨个查找，找到就推入数组，返回。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**twoSum
  * @param {number[]} nums
  * @param {number} target
@@ -25,4 +25,4 @@ var arr = [2, 7, 11, 15];
 var number = 9;
 var result = twoSum(arr, number);
 console.log(result);
-```
+// ```

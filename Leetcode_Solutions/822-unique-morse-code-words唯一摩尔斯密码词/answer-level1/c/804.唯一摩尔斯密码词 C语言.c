@@ -1,4 +1,4 @@
-```
+// ```
 int uniqueMorseRepresentations(char ** words, int wordsSize){
     char mobMap[26][6] = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
     char **tmp = (char **)calloc(wordsSize,sizeof(char*));

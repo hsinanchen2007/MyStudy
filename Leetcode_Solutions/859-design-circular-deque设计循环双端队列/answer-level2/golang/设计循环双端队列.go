@@ -1,9 +1,9 @@
-### 解题思路
-循环数组
+// ### 解题思路
+// 循环数组
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 //	641
 type MyCircularDeque struct {
@@ -119,4 +119,4 @@ func (mcd *MyCircularDeque) IsFull() bool {
  * param_8 := obj.IsFull();
  */
 
-```
+// ```

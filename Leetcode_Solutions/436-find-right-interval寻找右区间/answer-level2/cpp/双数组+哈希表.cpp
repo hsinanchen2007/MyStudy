@@ -1,6 +1,6 @@
-官方题解方法五的C++实现。
+// 官方题解方法五的C++实现。
 
-```
+// ```
 vector<int> findRightInterval(vector<vector<int>>& intervals) {
 	vector<int>l_point, r_point;
 	vector<int> res(intervals.size(), -1);
@@ -39,4 +39,4 @@ vector<int> findRightInterval(vector<vector<int>>& intervals) {
 
 	return res;
 }
-```
+// ```

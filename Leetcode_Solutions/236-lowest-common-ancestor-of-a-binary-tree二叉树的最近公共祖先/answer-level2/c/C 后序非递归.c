@@ -1,9 +1,9 @@
-利用后序非递归遍历，祖先结点先入栈的特点
-关键是标志位
+// 利用后序非递归遍历，祖先结点先入栈的特点
+// 关键是标志位
 
-1. 遍历过程中先找到 p 或 q，复制到辅助栈
-2. 找到另外一个，从栈底依次比较
-```
+// 1. 遍历过程中先找到 p 或 q，复制到辅助栈
+// 2. 找到另外一个，从栈底依次比较
+// ```
 struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p, struct TreeNode* q) {
     if (!root || p == root || q == root)
         return root;
@@ -48,4 +48,4 @@ struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p,
     }
     return NULL;
 }
-```
+// ```

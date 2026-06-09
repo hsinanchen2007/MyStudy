@@ -1,30 +1,30 @@
-### 解题思路
-1、假定有一个int[] dp 动态规划数组，每一个索引i对应的值表示[0,i]的回文子串个数。
-       //1表示自身  
-       那么dp[i+1] = dp[i]+1+([0,i-1]与i组成的字符串的回文子串个数)
+// ### 解题思路
+// 1、假定有一个int[] dp 动态规划数组，每一个索引i对应的值表示[0,i]的回文子串个数。
+//        //1表示自身  
+//        那么dp[i+1] = dp[i]+1+([0,i-1]与i组成的字符串的回文子串个数)
     
-2、假定我们有一个方法用于判断字符串是否是回文子串
-        public boolean checkIsPlaindrome(String s ,int startIndex,int endIndex)
+// 2、假定我们有一个方法用于判断字符串是否是回文子串
+//         public boolean checkIsPlaindrome(String s ,int startIndex,int endIndex)
    
-3、那么([0,i-1]与i组成的字符串的回文子串个数)对应的方法就是:
-       int count = 0;
-        for(int j = 0;j<i;j++){
-             if(checkIsPlaindrome(s,j,i)){count+=1;}
-        }
-        return count;
+// 3、那么([0,i-1]与i组成的字符串的回文子串个数)对应的方法就是:
+//        int count = 0;
+//         for(int j = 0;j<i;j++){
+//              if(checkIsPlaindrome(s,j,i)){count+=1;}
+//         }
+//         return count;
 
-4、最后就是实现是否是回文子串的方法
-        public boolean checkIsPlaindrome(String s ,int startIndex,int endIndex){
-                  while(start<endIndex&&s.charAt(startIndex)==s.charAt(endIndex)){
-                           startIndex++;
-                           endIndex--;
-                   } 
-                  return startIndex>=endIndex;
-        }
+// 4、最后就是实现是否是回文子串的方法
+//         public boolean checkIsPlaindrome(String s ,int startIndex,int endIndex){
+//                   while(start<endIndex&&s.charAt(startIndex)==s.charAt(endIndex)){
+//                            startIndex++;
+//                            endIndex--;
+//                    } 
+//                   return startIndex>=endIndex;
+//         }
   
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
   private boolean checkIspalindrome(String s,int startIndex,int endIndex){
         while(startIndex<=endIndex && s.charAt(startIndex)==s.charAt(endIndex)){
@@ -63,4 +63,4 @@ class Solution {
         return dp[lastIndex];
     }
 }
-```
+// ```

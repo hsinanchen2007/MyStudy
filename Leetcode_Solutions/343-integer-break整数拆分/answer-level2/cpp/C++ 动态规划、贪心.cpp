@@ -1,8 +1,8 @@
-同《剑指offer》第14题，P96页。
+// 同《剑指offer》第14题，P96页。
 
-### 1. 动态规划
-### 代码
-```cpp
+// ### 1. 动态规划
+// ### 代码
+// ```cpp
 class Solution {
 public:
     int integerBreak(int n) {
@@ -32,14 +32,14 @@ public:
         return res[n];        
     }
 };
-```
+// ```
 
 
 
-### 2. 贪心
-### 代码
+// ### 2. 贪心
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int integerBreak(int n) {
@@ -54,4 +54,4 @@ public:
         return ans;
     }
 };
-```
+// ```

@@ -1,7 +1,7 @@
-早上比赛的时候没有import
-出现maximum recursion depth exceeded in comparison的错误了。
+# 早上比赛的时候没有import
+# 出现maximum recursion depth exceeded in comparison的错误了。
 
-```
+# ```
 import sys
 sys.setrecursionlimit(10000000)
 class Solution:
@@ -28,4 +28,4 @@ class Solution:
                             
             
         return path(grid,mark,0,0)
-```
+# ```

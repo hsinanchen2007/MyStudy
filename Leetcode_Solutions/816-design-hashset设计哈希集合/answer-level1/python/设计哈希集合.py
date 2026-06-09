@@ -1,40 +1,40 @@
-####  概述
-这是教科书上一个经典问题，用来测试一个人的数据结构知识。因此，是不可以用任何内置的 HashSet 数据结构来解决此问题。
+# ####  概述
+# 这是教科书上一个经典问题，用来测试一个人的数据结构知识。因此，是不可以用任何内置的 HashSet 数据结构来解决此问题。
 
-为了实现 HashSet 数据结构，有两个关键的问题，即哈希函数和冲突处理。
+# 为了实现 HashSet 数据结构，有两个关键的问题，即哈希函数和冲突处理。
 
-- 哈希函数：目的是分配一个地址存储值。理想情况下，每个值都应该有一个对应唯一的散列值。
-- 冲突处理：哈希函数的本质就是从 A 映射到 B。但是多个 A 值可能映射到相同的 B。这就是碰撞。因此，我们需要有对应的策略来解决碰撞。总的来说，有以下几种策略解决冲突：
-	- 单独链接法：对于相同的散列值，我们将它们放到一个桶中，每个桶是相互独立的。
-	- 开放地址法：每当有碰撞， 则根据我们探查的策略找到一个空的槽为止。
-	- 双散列法：使用两个哈希函数计算散列值，选择碰撞更少的地址。
+# - 哈希函数：目的是分配一个地址存储值。理想情况下，每个值都应该有一个对应唯一的散列值。
+# - 冲突处理：哈希函数的本质就是从 A 映射到 B。但是多个 A 值可能映射到相同的 B。这就是碰撞。因此，我们需要有对应的策略来解决碰撞。总的来说，有以下几种策略解决冲突：
+# 	- 单独链接法：对于相同的散列值，我们将它们放到一个桶中，每个桶是相互独立的。
+# 	- 开放地址法：每当有碰撞， 则根据我们探查的策略找到一个空的槽为止。
+# 	- 双散列法：使用两个哈希函数计算散列值，选择碰撞更少的地址。
 
-在本文中，我们使用单独链接法，来看看它是如何工作的。
-- 从本质上讲，HashSet 的存储空间相当于连续内存数组。这个数组中的每个元素相当于一个桶。
-- 给定一个值，我们首先通过哈希函数生成对应的散列值来定位桶的位置。
-- 一旦找到桶的位置，则在该桶上做相对应的操作，如 `add`，`remove`，`contains`。
+# 在本文中，我们使用单独链接法，来看看它是如何工作的。
+# - 从本质上讲，HashSet 的存储空间相当于连续内存数组。这个数组中的每个元素相当于一个桶。
+# - 给定一个值，我们首先通过哈希函数生成对应的散列值来定位桶的位置。
+# - 一旦找到桶的位置，则在该桶上做相对应的操作，如 `add`，`remove`，`contains`。
 
 
-####  方法一：单独链表法
-哈希函数的共同特点是使用模运算符。$\text{hash} = \text{value} \mod \text{base}$。其中，$\text{base}$ 将决定 HashSet 中的桶数。
+# ####  方法一：单独链表法
+# 哈希函数的共同特点是使用模运算符。$\text{hash} = \text{value} \mod \text{base}$。其中，$\text{base}$ 将决定 HashSet 中的桶数。
 
-从理论上讲，桶越多（因此空间会越大）越不太可能发生碰撞。$\text{base}$ 的选择是空间和碰撞之间的权衡。
+# 从理论上讲，桶越多（因此空间会越大）越不太可能发生碰撞。$\text{base}$ 的选择是空间和碰撞之间的权衡。
 
-此外，使用质数作为 $\text{base}$ 是一个明智的选择。例如 $769$，可以减少潜在的碰撞。
+# 此外，使用质数作为 $\text{base}$ 是一个明智的选择。例如 $769$，可以减少潜在的碰撞。
 
-![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1LzcwNV9saW5rZWRfbGlzdC5wbmc?x-oss-process=image/format,png)
+# ![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1LzcwNV9saW5rZWRfbGlzdC5wbmc?x-oss-process=image/format,png)
 
-对于桶的设计，我们有几种选择，可以使用数组来存储桶的所有值。然而数组的一个缺点是需要 $\mathcal{O}(N)$ 的时间复杂度进行插入和删除，而不是 $\mathcal{O}(1)$。
+# 对于桶的设计，我们有几种选择，可以使用数组来存储桶的所有值。然而数组的一个缺点是需要 $\mathcal{O}(N)$ 的时间复杂度进行插入和删除，而不是 $\mathcal{O}(1)$。
 
-因为任何的更新操作，我们首先是需要扫描整个桶为了避免重复。选择链表来存储桶的所有值是更好的选择，插入和删除具有常数的时间复杂度。
+# 因为任何的更新操作，我们首先是需要扫描整个桶为了避免重复。选择链表来存储桶的所有值是更好的选择，插入和删除具有常数的时间复杂度。
 
-**算法：**
+# **算法：**
 
-正如我们在上面讨论的，这里将采用 `LinkedList` 实现 HashSet 中的桶。
+# 正如我们在上面讨论的，这里将采用 `LinkedList` 实现 HashSet 中的桶。
 
-对于每个功能 `add`，`remove`，`contains`，我们首先生成桶的散列值，操作相对应的桶。
+# 对于每个功能 `add`，`remove`，`contains`，我们首先生成桶的散列值，操作相对应的桶。
 
-```python [solution1-Python]
+# ```python [solution1-Python]
 class MyHashSet(object):
 
     def __init__(self):
@@ -116,9 +116,9 @@ class Bucket:
 # obj.add(key)
 # obj.remove(key)
 # param_3 = obj.contains(key)
-```
+# ```
 
-```java [solution1-Java]
+# ```java [solution1-Java]
 class MyHashSet {
   private Bucket[] bucketArray;
   private int keyRange;
@@ -184,43 +184,43 @@ class Bucket {
  * obj.remove(key);
  * boolean param_3 = obj.contains(key);
  */
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$\mathcal{O}(\frac{N}{K})$。其中 $N$ 指的是所有可能值数量，$K$ 指的是预定义的桶数，也就是 `769`。
-	*  假设值是平均分布的，因此可以考虑桶的平均大小是 $\frac{N}{K}$。
-	* 对于每个操作，在最坏的情况下，我们需要扫描整个桶，因此时间复杂度是 $\mathcal{O}(\frac{N}{K})$。
-* 空间复杂度：$\mathcal{O}(K+M)$，其中 $K$ 指的是预定义的桶数，$M$ 指的是已经插入到 HashSet 中值的数量。
+# * 时间复杂度：$\mathcal{O}(\frac{N}{K})$。其中 $N$ 指的是所有可能值数量，$K$ 指的是预定义的桶数，也就是 `769`。
+# 	*  假设值是平均分布的，因此可以考虑桶的平均大小是 $\frac{N}{K}$。
+# 	* 对于每个操作，在最坏的情况下，我们需要扫描整个桶，因此时间复杂度是 $\mathcal{O}(\frac{N}{K})$。
+# * 空间复杂度：$\mathcal{O}(K+M)$，其中 $K$ 指的是预定义的桶数，$M$ 指的是已经插入到 HashSet 中值的数量。
 
 
-####  方法二：使用二叉搜索树作为桶
-在上述的方法中，有一个缺点，我们需要扫描整个桶才能验证一个值是否已经在桶中（即查找操作）。
+# ####  方法二：使用二叉搜索树作为桶
+# 在上述的方法中，有一个缺点，我们需要扫描整个桶才能验证一个值是否已经在桶中（即查找操作）。
 
-我们可以将桶作为一个排序列表，可以使用二分搜索使查找操作的时间复杂度是 $\mathcal{O}(\log{N})$，优于 上面方法中的 $\mathcal{O}({N})$。
+# 我们可以将桶作为一个排序列表，可以使用二分搜索使查找操作的时间复杂度是 $\mathcal{O}(\log{N})$，优于 上面方法中的 $\mathcal{O}({N})$。
 
-另一方面，如果使用排序列表等连续空间的数组来实现，则会产生线性时间复杂度的更新操作，因此需要其他的方式。
+# 另一方面，如果使用排序列表等连续空间的数组来实现，则会产生线性时间复杂度的更新操作，因此需要其他的方式。
 
-有数据结构具有 $\mathcal{O}(\log{N})$ 时间复杂度的查找，删除，插入操作吗？
+# 有数据结构具有 $\mathcal{O}(\log{N})$ 时间复杂度的查找，删除，插入操作吗？
 
-当然有，就是二叉搜索树。二叉搜索树的特性使得我们能够优化时间复杂度。
+# 当然有，就是二叉搜索树。二叉搜索树的特性使得我们能够优化时间复杂度。
 
-![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1LzcwNV9CU1QucG5n?x-oss-process=image/format,png)
-因此现在是使用标准的二叉搜索树作为 HashSet 的桶来实现。
+# ![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1LzcwNV9CU1QucG5n?x-oss-process=image/format,png)
+# 因此现在是使用标准的二叉搜索树作为 HashSet 的桶来实现。
 
-**算法：**
+# **算法：**
 
-<![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1L3NsaWRlXzAucG5n?x-oss-process=image/format,png),![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1L3NsaWRlXzEucG5n?x-oss-process=image/format,png),![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1L3NsaWRlXzIucG5n?x-oss-process=image/format,png),![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1L3NsaWRlXzMucG5n?x-oss-process=image/format,png),![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1L3NsaWRlXzQucG5n?x-oss-process=image/format,png)>
+# <![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1L3NsaWRlXzAucG5n?x-oss-process=image/format,png),![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1L3NsaWRlXzEucG5n?x-oss-process=image/format,png),![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1L3NsaWRlXzIucG5n?x-oss-process=image/format,png),![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1L3NsaWRlXzMucG5n?x-oss-process=image/format,png),![在这里插入图片描述](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9waWMubGVldGNvZGUtY24uY29tL0ZpZ3VyZXMvNzA1L3NsaWRlXzQucG5n?x-oss-process=image/format,png)>
 
-实际上，我们将二叉搜索树的每个操作作为 LeetCode 的独立问题，如下：
-- [700. Search in a BST](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
-- [701. Insert in a BST](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)
-- [450. Delete in a BST](https://leetcode-cn.com/problems/delete-node-in-a-bst/)
+# 实际上，我们将二叉搜索树的每个操作作为 LeetCode 的独立问题，如下：
+# - [700. Search in a BST](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/)
+# - [701. Insert in a BST](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/)
+# - [450. Delete in a BST](https://leetcode-cn.com/problems/delete-node-in-a-bst/)
 
-可以试着去练习，然后结合在一起全面实现二叉搜索树。
+# 可以试着去练习，然后结合在一起全面实现二叉搜索树。
 
-```python [solution2-Python]
+# ```python [solution2-Python]
 class MyHashSet:
 
     def __init__(self):
@@ -347,9 +347,9 @@ class BSTree:
 # obj.add(key)
 # obj.remove(key)
 # param_3 = obj.contains(key)
-```
+# ```
 
-```java [solution2-Java]
+# ```java [solution2-Java]
 class MyHashSet {
   private Bucket[] bucketArray;
   private int keyRange;
@@ -498,11 +498,11 @@ class BSTree {
  * obj.remove(key);
  * boolean param_3 = obj.contains(key);
  */
-```
+# ```
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$\mathcal{O}(\frac{N}{K})$。其中 $N$ 指的是所有可能值数量，$K$ 指的是预定义的桶数，也就是 `769`。
-	*  假设值是平均分布的，因此可以考虑桶的平均大小是 $\frac{N}{K}$。
-	* 当我们遍历二叉搜索树时，使用二分查找，最后每个操作的时间复杂度是 $\mathcal{O}(\log{\frac{N}{K}})$。
-* 空间复杂度：$\mathcal{O}(K+M)$，其中 $K$ 指的是预定义的桶数，$M$ 指的是已经插入到 HashSet 中值的数量。
+# * 时间复杂度：$\mathcal{O}(\frac{N}{K})$。其中 $N$ 指的是所有可能值数量，$K$ 指的是预定义的桶数，也就是 `769`。
+# 	*  假设值是平均分布的，因此可以考虑桶的平均大小是 $\frac{N}{K}$。
+# 	* 当我们遍历二叉搜索树时，使用二分查找，最后每个操作的时间复杂度是 $\mathcal{O}(\log{\frac{N}{K}})$。
+# * 空间复杂度：$\mathcal{O}(K+M)$，其中 $K$ 指的是预定义的桶数，$M$ 指的是已经插入到 HashSet 中值的数量。

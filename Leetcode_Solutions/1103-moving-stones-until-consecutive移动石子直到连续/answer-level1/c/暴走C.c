@@ -1,4 +1,4 @@
-疑问：a,b,c可以相等不？应该是会有相等的情况的，所以一样要考虑进去
+// 疑问：a,b,c可以相等不？应该是会有相等的情况的，所以一样要考虑进去
 
     int* numMovesStones(int a, int b, int c, int* returnSize){
         int* p = (int *)malloc(2*sizeof(int));

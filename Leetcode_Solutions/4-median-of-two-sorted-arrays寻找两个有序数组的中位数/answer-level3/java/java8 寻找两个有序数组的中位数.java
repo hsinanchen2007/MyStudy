@@ -1,5 +1,5 @@
-先上代码：
-```
+// 先上代码：
+// ```
 class SortedArraysMedianFinder {
     private int[] nums1;
     private int[] nums2;
@@ -102,8 +102,8 @@ public class Solution {
     }
 }
 
-```
-受NP问题的提出思路启发,可以先看给定了一个数组的下标,是否可以判断出其是否为整个数组的中位数。
-答案是可以的,见SortedArraysMedianFinder#checkIsMedian,该方法拥有常数复杂度。
-既然如此，结合二分查找的思路，分别二分查找两个数组即可。
-最终复杂度为O(log(m)+log(n)) == O(log(mn)) == O(log((m+n)^2) == O(log(m+n))
+// ```
+// 受NP问题的提出思路启发,可以先看给定了一个数组的下标,是否可以判断出其是否为整个数组的中位数。
+// 答案是可以的,见SortedArraysMedianFinder#checkIsMedian,该方法拥有常数复杂度。
+// 既然如此，结合二分查找的思路，分别二分查找两个数组即可。
+// 最终复杂度为O(log(m)+log(n)) == O(log(mn)) == O(log((m+n)^2) == O(log(m+n))

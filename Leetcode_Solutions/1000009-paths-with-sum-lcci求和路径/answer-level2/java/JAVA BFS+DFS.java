@@ -1,7 +1,7 @@
-1、注意有可能是负数，所以不能用CurrentSum >Sum之类的return判断
-2、注意currentSum = sum之后，也有可能加起来为0的，所以也不能return
+// 1、注意有可能是负数，所以不能用CurrentSum >Sum之类的return判断
+// 2、注意currentSum = sum之后，也有可能加起来为0的，所以也不能return
 
-```
+// ```
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -47,4 +47,4 @@ class Solution {
         dfs(node.right, sum, currentSum);;
     }
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-![1.png](https://pic.leetcode-cn.com/6007ad58fb1f2af1d8a34e426e8195e8368d1a2bcdb80ee56e32a53d629740f1-1.png)
+// ![1.png](https://pic.leetcode-cn.com/6007ad58fb1f2af1d8a34e426e8195e8368d1a2bcdb80ee56e32a53d629740f1-1.png)
 
-```
+// ```
 #define MAX_NUM 1000
 
 struct PairStr {
@@ -37,4 +37,4 @@ int findLongestChain(int **pairs, int pairsSize, int *pairsColSize)
 
     return count;
 }
-```
+// ```

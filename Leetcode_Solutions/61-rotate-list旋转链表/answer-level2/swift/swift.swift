@@ -1,4 +1,4 @@
-1: 判断过滤空链表和只有一个节点的链表
+// 1: 判断过滤空链表和只有一个节点的链表
 
         if head == nil || head?.next == nil {
             return head

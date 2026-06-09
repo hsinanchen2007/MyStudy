@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public bool IsUnique(string astr)
     {
@@ -18,4 +18,4 @@ public class Solution {
         return true;
     }
 }
-```
+// ```

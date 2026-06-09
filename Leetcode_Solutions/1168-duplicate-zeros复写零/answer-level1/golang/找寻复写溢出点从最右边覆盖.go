@@ -1,4 +1,4 @@
-```
+// ```
 func duplicateZeros(arr []int) {
     var start, length int
     var ignoreLastZero bool
@@ -34,4 +34,4 @@ func duplicateZeros(arr []int) {
         }
     }
 }
-```
+// ```

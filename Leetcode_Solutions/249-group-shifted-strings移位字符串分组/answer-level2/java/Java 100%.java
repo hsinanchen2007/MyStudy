@@ -1,8 +1,8 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-满足移位条件的字符串：两个字符串中两两字符差相等，如果为负数则将值+26，如"az"差为[25],"ba"差为[-1+26]。所以计算每个字符串中字符的差值，作为key储存在map中，储存形式为[1,1]，value为List，储存对应的字符串，如果只有一个字符的字符串储存为"*"。
+// 满足移位条件的字符串：两个字符串中两两字符差相等，如果为负数则将值+26，如"az"差为[25],"ba"差为[-1+26]。所以计算每个字符串中字符的差值，作为key储存在map中，储存形式为[1,1]，value为List，储存对应的字符串，如果只有一个字符的字符串储存为"*"。
 
-```
+// ```
 public List<List<String>> groupStrings(String[] strings) {
     Map<String, List<String>> map = new HashMap<>();
     StringBuilder sb = new StringBuilder();
@@ -29,4 +29,4 @@ public List<List<String>> groupStrings(String[] strings) {
     }
     return res;
 }
-```
+// ```

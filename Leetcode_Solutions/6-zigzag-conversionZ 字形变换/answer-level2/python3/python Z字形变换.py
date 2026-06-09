@@ -1,7 +1,7 @@
-```javascript []
+# ```javascript []
 console.log('Hello world!')
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         
@@ -20,7 +20,7 @@ class Solution:
             idx += flag
 
         return ''.join(result)
-```
-```ruby []
+# ```
+# ```ruby []
 puts 'Hello world!'
-```
+# ```

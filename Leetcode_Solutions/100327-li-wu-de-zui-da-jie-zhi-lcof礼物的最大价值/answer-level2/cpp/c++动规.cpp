@@ -1,9 +1,9 @@
-### 解题思路
-状态转移方程
-grid[i][j]=max(grid[i][j-1],grid[i-1][j])+grid[i][j];
-### 代码
+// ### 解题思路
+// 状态转移方程
+// grid[i][j]=max(grid[i][j-1],grid[i-1][j])+grid[i][j];
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxValue(vector<vector<int>>& grid) {
@@ -13,4 +13,4 @@ public:
         return grid[grid.size()-1][grid[0].size()-1];
     }
 };
-```
+// ```

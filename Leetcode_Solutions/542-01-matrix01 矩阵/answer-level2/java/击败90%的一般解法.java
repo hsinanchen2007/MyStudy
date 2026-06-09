@@ -1,9 +1,9 @@
-### 解题思路
-判断某个点最近的零距离，换个说法就是从距离零开始检索，在某个距离上最先找到零就返回那个距离即可。详细可点击[https://blog.csdn.net/qq_23134039/article/details/103423528]()
+// ### 解题思路
+// 判断某个点最近的零距离，换个说法就是从距离零开始检索，在某个距离上最先找到零就返回那个距离即可。详细可点击[https://blog.csdn.net/qq_23134039/article/details/103423528]()
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[][] updateMatrix(int[][] matrix) {
         int [][] nums = new int[matrix.length][matrix[0].length];
@@ -33,4 +33,4 @@ class Solution {
 		return 0;
     }
 }
-```
+// ```

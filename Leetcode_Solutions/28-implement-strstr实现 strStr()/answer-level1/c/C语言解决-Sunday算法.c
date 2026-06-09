@@ -1,10 +1,10 @@
-### 解题思路
-Sunday算法
-refer：https://leetcode-cn.com/problems/implement-strstr/solution/python3-sundayjie-fa-9996-by-tes/
+// ### 解题思路
+// Sunday算法
+// refer：https://leetcode-cn.com/problems/implement-strstr/solution/python3-sundayjie-fa-9996-by-tes/
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int strStr(char * haystack, char * needle){
     int needleLen = strlen(needle);
@@ -53,4 +53,4 @@ int strStr(char * haystack, char * needle){
     }
 }
 
-```
+// ```

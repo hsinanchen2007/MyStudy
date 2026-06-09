@@ -1,11 +1,11 @@
-### 解题思路
-1.直接排序。
-2.两个两个比较，如果找到target在两个数值中间，直接返回大的下标。
-3.完成。
+// ### 解题思路
+// 1.直接排序。
+// 2.两个两个比较，如果找到target在两个数值中间，直接返回大的下标。
+// 3.完成。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int searchInsert(int[] nums, int target) {
        Arrays.sort(nums);
@@ -21,4 +21,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

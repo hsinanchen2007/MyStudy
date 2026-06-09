@@ -1,6 +1,6 @@
 
 
-```
+// ```
 class Solution {
     func maxSumDivThree(_ nums: [Int]) -> Int {
         let sortNs = nums.sorted(by: {n1, n2 in
@@ -57,4 +57,4 @@ class Solution {
         return res + mod - toMinus
     }
 }
-```
+// ```

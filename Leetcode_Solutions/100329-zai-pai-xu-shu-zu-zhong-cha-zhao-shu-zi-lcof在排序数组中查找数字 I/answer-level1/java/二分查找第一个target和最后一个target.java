@@ -1,10 +1,10 @@
-### 解题思路
-二分查找第一个target和最后一个target
-res = end-start+1;
+// ### 解题思路
+// 二分查找第一个target和最后一个target
+// res = end-start+1;
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int search(int[] nums, int target) {
         if (nums.length==0) return 0;
@@ -39,5 +39,5 @@ class Solution {
         return nums[q]==target?q:nums[p]==target?p:-1;
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/7634050635ddaaa5b554e1e6ac6d2c1deed80e7a8b044c6c8f4de9a603f58837-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/7634050635ddaaa5b554e1e6ac6d2c1deed80e7a8b044c6c8f4de9a603f58837-image.png)

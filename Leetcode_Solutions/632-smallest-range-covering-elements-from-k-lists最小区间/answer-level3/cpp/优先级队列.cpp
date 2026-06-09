@@ -1,9 +1,9 @@
-### 解题思路
-优先级队列
+// ### 解题思路
+// 优先级队列
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 int*count1;
 class Solution {
 public:
@@ -93,4 +93,4 @@ struct Num
 	return resu;
     }
 };
-```
+// ```

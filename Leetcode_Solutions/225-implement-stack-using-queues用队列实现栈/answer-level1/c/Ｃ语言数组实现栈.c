@@ -1,11 +1,11 @@
-### 解题思路
-数组实现栈的进出操作
-top指向下一个空位置
-性能一般
+// ### 解题思路
+// 数组实现栈的进出操作
+// top指向下一个空位置
+// 性能一般
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXSIZE 10000
 typedef struct {
     int vec[MAXSIZE];
@@ -60,4 +60,4 @@ void myStackFree(MyStack* obj) {
  
  * myStackFree(obj);
 */
-```
+// ```

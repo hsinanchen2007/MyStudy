@@ -1,6 +1,6 @@
-# 简洁官方Java代码改编版c++
-思路与官方题解一致，看官方题解即可。代码结构与官方差不多，递归函数的参数极少，看起来更加舒适。
-```
+// # 简洁官方Java代码改编版c++
+// 思路与官方题解一致，看官方题解即可。代码结构与官方差不多，递归函数的参数极少，看起来更加舒适。
+// ```
 class Solution {
 public:
     // start from first preorder element 前序遍历的迭代器
@@ -42,4 +42,4 @@ public:
         return helper(0,inorder.size());        
     }
 };
-```
+// ```

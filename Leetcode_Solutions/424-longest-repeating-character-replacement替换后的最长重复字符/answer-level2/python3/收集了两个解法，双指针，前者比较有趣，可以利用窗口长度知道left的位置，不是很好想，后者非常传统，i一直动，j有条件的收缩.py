@@ -1,10 +1,10 @@
-### 解题思路
-收集了两个解法，双指针，前者比较有趣，可以利用窗口长度知道left的位置，不是很好想，
-后者非常传统，i一直动，j有条件的收缩
+# ### 解题思路
+# 收集了两个解法，双指针，前者比较有趣，可以利用窗口长度知道left的位置，不是很好想，
+# 后者非常传统，i一直动，j有条件的收缩
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # class Solution:
 #     def characterReplacement(self, s: str, k: int) -> int:
 
@@ -47,4 +47,4 @@ class Solution:
             res = max(right - left + 1, res)
         return res
 
-```
+# ```

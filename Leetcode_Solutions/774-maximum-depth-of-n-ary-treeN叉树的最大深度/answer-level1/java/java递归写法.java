@@ -1,4 +1,4 @@
-```
+// ```
 public int maxDepth(Node root) {
         if(root==null){
             return 0;
@@ -13,4 +13,4 @@ public int maxDepth(Node root) {
             return maxDep+1;
         }
     }
-```
+// ```

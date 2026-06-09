@@ -1,13 +1,13 @@
-# 解法
-创建二维矩阵，初始值填入一个元素 n * n，然后循环：
-- 如果矩阵宽度等于 n，退出循环
-- 右时针旋转矩阵
-- 矩阵顶部逆序添加一行元素
+// # 解法
+// 创建二维矩阵，初始值填入一个元素 n * n，然后循环：
+// - 如果矩阵宽度等于 n，退出循环
+// - 右时针旋转矩阵
+// - 矩阵顶部逆序添加一行元素
 
-![image.png](https://pic.leetcode-cn.com/8d43cd16f4de8dc0a69fbb5d6e6d13b00e0bf75c670b90f4d8b8050e161c9a3b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/8d43cd16f4de8dc0a69fbb5d6e6d13b00e0bf75c670b90f4d8b8050e161c9a3b-image.png)
 
-# golang 代码
-```go
+// # golang 代码
+// ```go
 func generateMatrix(n int) [][]int {
     if n <= 0 {
         return [][]int{}
@@ -42,4 +42,4 @@ func rightRotate(matrix [][]int) [][]int {
     }
     return ret
 }
-```
+// ```

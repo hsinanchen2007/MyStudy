@@ -1,10 +1,10 @@
-### 解题思路
-1. 首先对行进行二分查找，用每行最大值比对target，确定target大致所在的行
-2. 再对该行进行按列二分查找
+// ### 解题思路
+// 1. 首先对行进行二分查找，用每行最大值比对target，确定target大致所在的行
+// 2. 再对该行进行按列二分查找
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -45,4 +45,4 @@ public:
         return false;
     }
 };
-```
+// ```

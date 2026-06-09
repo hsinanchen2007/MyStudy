@@ -1,12 +1,12 @@
-### 解题思路
-求树最大路径
-每步求包含此节点根节点的最大路径以及不包含此节点根节点的最大路径
-学会用self
+# ### 解题思路
+# 求树最大路径
+# 每步求包含此节点根节点的最大路径以及不包含此节点根节点的最大路径
+# 学会用self
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
         return self.res
 
 
-```
+# ```

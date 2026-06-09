@@ -1,10 +1,10 @@
-### 解题思路
-去空格
-字符串拼接
+// ### 解题思路
+// 去空格
+// 字符串拼接
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String reverseWords(String s) {
 		String[] sArr = s.split(" ");
@@ -15,4 +15,4 @@ class Solution {
 		return (sb+"").trim();
     }
 }
-```
+// ```

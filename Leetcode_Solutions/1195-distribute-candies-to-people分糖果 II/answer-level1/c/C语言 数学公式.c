@@ -1,10 +1,10 @@
-### 解题思路
-	做法没什么营养，就等差数列公式推导下，先求出发糖果的次数，剩下不够一轮的就是最后一轮待发的余数
-	这里面有一种情况就是第一次都不够发，轮数是0的情况，特殊判断下即可
+// ### 解题思路
+// 	做法没什么营养，就等差数列公式推导下，先求出发糖果的次数，剩下不够一轮的就是最后一轮待发的余数
+// 	这里面有一种情况就是第一次都不够发，轮数是0的情况，特殊判断下即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_SIZE 10000
 /**
  * Note: The returned array must be malloced, assume caller calls free().
@@ -68,4 +68,4 @@ int* distributeCandies(int candies, int num_people, int* returnSize) {
 	*returnSize = num_people;
 	return rightCandies;
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1.辅助数组，记录每一站的上下人数
-2.辅助数组求前缀和，即为每一站的乘客人数
-3.判断每一站的乘客人数是否大于capacity
+// ### 解题思路
+// 1.辅助数组，记录每一站的上下人数
+// 2.辅助数组求前缀和，即为每一站的乘客人数
+// 3.判断每一站的乘客人数是否大于capacity
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define LOCATIONS_NUM 1001
 
 // 前缀和 应用
@@ -40,4 +40,4 @@ bool carPooling(int** trips, int tripsSize, int* tripsColSize, int capacity)
 
     return true;
 } 
-```
+// ```

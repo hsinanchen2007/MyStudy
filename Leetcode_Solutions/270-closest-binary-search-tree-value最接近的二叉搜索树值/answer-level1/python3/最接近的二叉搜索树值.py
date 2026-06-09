@@ -1,14 +1,14 @@
-### 解题思路
-1.DFS（循环）：依次去探索可能的节点，判断是否需要更新，时间复杂度O(H)，H为树的高度，N个节点，一般情况下H为logN，最坏情况为N，空间复杂度O(H)
-2.中序遍历：
-时间复杂度：O(N)，对每个元素都要去探索
-空间复杂度：O(N)，使用了一个数组存储中序序列。（另外还要加上递归栈深度O(H)但加上之后还是O(N)）
-3.二分查找，和第一种方法思路很像，依次去探索可能的节点，判断是否需要更新最小值
-时间复杂度：O(H)
-空间复杂度：O(1)
-### 代码
+# ### 解题思路
+# 1.DFS（循环）：依次去探索可能的节点，判断是否需要更新，时间复杂度O(H)，H为树的高度，N个节点，一般情况下H为logN，最坏情况为N，空间复杂度O(H)
+# 2.中序遍历：
+# 时间复杂度：O(N)，对每个元素都要去探索
+# 空间复杂度：O(N)，使用了一个数组存储中序序列。（另外还要加上递归栈深度O(H)但加上之后还是O(N)）
+# 3.二分查找，和第一种方法思路很像，依次去探索可能的节点，判断是否需要更新最小值
+# 时间复杂度：O(H)
+# 空间复杂度：O(1)
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -61,4 +61,4 @@ class Solution(object):
             closest = min(root.val, closest, key = lambda x: abs(target - x))
             root = root.left if target < root.val else root.right
         return closest
-```
+# ```

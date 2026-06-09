@@ -1,7 +1,7 @@
-主要思路：
-层序遍历每一节点时，当前节点应当作为父节点的儿子访问过，而子节点从未被访问
-因此，环的情况如 3 [0, -1, -1] [-1, 1, -1] 也能检测到
-```
+# 主要思路：
+# 层序遍历每一节点时，当前节点应当作为父节点的儿子访问过，而子节点从未被访问
+# 因此，环的情况如 3 [0, -1, -1] [-1, 1, -1] 也能检测到
+# ```
 class Solution(object):
     def validateBinaryTreeNodes(self, n, leftChild, rightChild):
         # 集合作为层序遍历队列的简化
@@ -18,4 +18,4 @@ class Solution(object):
             if rc!=-1:
                 seen.add(rc)
         return True
-```
+# ```

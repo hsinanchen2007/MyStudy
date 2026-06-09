@@ -1,6 +1,6 @@
-1. 双指针 
-在所有 Python 提交中击败了31.24%的用户
-```
+# 1. 双指针 
+# 在所有 Python 提交中击败了31.24%的用户
+# ```
 if not s: return True
         if not t: return False
         temp_i, _len_s, _len_t = 0, len(s), len(t)
@@ -17,12 +17,12 @@ if not s: return True
             if temp_i >= _len_t:
                 return False
         return False
-```
+# ```
 
-2. 字符串匹配
-看到别人写的, 这个比第一个好些。
-所有 Python 提交中击败了59.23%的用户
-```
+# 2. 字符串匹配
+# 看到别人写的, 这个比第一个好些。
+# 所有 Python 提交中击败了59.23%的用户
+# ```
 class Solution(object):
     def isSubsequence(self, s, t):
         """
@@ -38,4 +38,4 @@ class Solution(object):
             if S[0] == _t:
                 S.pop(0)
         return not S
-```
+# ```

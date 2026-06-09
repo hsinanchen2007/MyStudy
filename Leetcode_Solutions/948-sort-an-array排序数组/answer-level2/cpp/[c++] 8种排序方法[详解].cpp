@@ -1,5 +1,5 @@
-8种排序方法,详解.代码来自[@da-li-wang](/u/da-li-wang/)有改动.
-```
+// 8种排序方法,详解.代码来自[@da-li-wang](/u/da-li-wang/)有改动.
+// ```
 class Solution {
 public:
     /**
@@ -274,4 +274,4 @@ public:
         return bucketSort(nums);
     }
 };
-```
+// ```

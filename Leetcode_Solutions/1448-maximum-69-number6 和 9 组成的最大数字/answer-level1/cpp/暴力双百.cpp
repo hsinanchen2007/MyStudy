@@ -1,9 +1,9 @@
-### 解题思路
-最大不过10000直接拆分判断
+// ### 解题思路
+// 最大不过10000直接拆分判断
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maximum69Number (int num) {
@@ -15,4 +15,4 @@ public:
         else            {return num;}
     }
 };
-```
+// ```

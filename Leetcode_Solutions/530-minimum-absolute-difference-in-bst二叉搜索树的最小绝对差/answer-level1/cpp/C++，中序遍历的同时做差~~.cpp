@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     vector<int> vals;
@@ -21,4 +21,4 @@ public:
         return mindif;
     }
 };
-```
+// ```

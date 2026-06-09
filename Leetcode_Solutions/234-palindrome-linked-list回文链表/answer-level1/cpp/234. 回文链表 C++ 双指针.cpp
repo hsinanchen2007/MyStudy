@@ -1,10 +1,10 @@
-### 解题思路
-1.将链表变为vector，方便随机操作
-2.双指针，left和right，两边向中间移动，如果都相等则是回文，如果有一个不相等，则不是回文
+// ### 解题思路
+// 1.将链表变为vector，方便随机操作
+// 2.双指针，left和right，两边向中间移动，如果都相等则是回文，如果有一个不相等，则不是回文
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -48,4 +48,4 @@ public:
         return result;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 ListNode* deleteNode(ListNode* head, int val) {
         ListNode* pHead = new ListNode(0);
         pHead->next = head;
@@ -15,4 +15,4 @@ ListNode* deleteNode(ListNode* head, int val) {
         }
         return pHead->next;
     }
-```
+// ```

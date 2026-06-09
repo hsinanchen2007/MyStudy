@@ -1,6 +1,6 @@
-二分查找矩阵加二分查找数组
-垃圾代码，仅供参考
-```
+// 二分查找矩阵加二分查找数组
+// 垃圾代码，仅供参考
+// ```
 func searchMatrix(matrix [][]int, target int) bool {
 	if len(matrix)==0||len(matrix[0])==0{
 		return false
@@ -46,4 +46,4 @@ func bSearch(arr []int,target int) bool{
 	}
 	return false
 }
-```
+// ```

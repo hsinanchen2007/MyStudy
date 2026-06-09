@@ -1,9 +1,9 @@
-### 解题思路
-建立数组模拟
+// ### 解题思路
+// 建立数组模拟
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minIncrementForUnique(int* A, int ASize){
     if (ASize == 0 || ASize == 1)  return 0;
     int isExisted[100005] = {0};
@@ -29,4 +29,4 @@ int minIncrementForUnique(int* A, int ASize){
     }
     return ans;
 }
-```
+// ```

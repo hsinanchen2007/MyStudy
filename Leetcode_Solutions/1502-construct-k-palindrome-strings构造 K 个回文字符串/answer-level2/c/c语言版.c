@@ -1,5 +1,5 @@
-c语言版，统计奇数个数的字符串个数即可。
-```
+// c语言版，统计奇数个数的字符串个数即可。
+// ```
 #define ALPHABET_SIZE 26
 
 bool canConstruct(char * s, int k){
@@ -23,5 +23,5 @@ bool canConstruct(char * s, int k){
 
     return res <= k;
 }
-```
-打周赛的时候，没有想到这么好的办法，有些可惜了。
+// ```
+// 打周赛的时候，没有想到这么好的办法，有些可惜了。

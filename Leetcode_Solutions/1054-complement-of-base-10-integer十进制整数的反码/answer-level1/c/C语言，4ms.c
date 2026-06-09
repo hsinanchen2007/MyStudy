@@ -1,6 +1,6 @@
-思路将输入依次除2取余，记录位数j，当余数为0时，sum等于sum加上pow(2,j),直到除完为止。
+// 思路将输入依次除2取余，记录位数j，当余数为0时，sum等于sum加上pow(2,j),直到除完为止。
 
-```
+// ```
 
 int bitwiseComplement(int N){
     if(N == 0)
@@ -21,4 +21,4 @@ int bitwiseComplement(int N){
     }
     return sum;
 }
-```
+// ```

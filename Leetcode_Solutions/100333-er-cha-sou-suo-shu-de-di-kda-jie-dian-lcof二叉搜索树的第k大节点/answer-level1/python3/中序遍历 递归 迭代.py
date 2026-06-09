@@ -1,4 +1,4 @@
-```
+# ```
 
         # self.index = 0
         # self.mark = 0
@@ -14,9 +14,9 @@
         #     find(root.left)
         # find(root)
         # return self.ans
-```
+# ```
 
-```
+# ```
 class Solution:
     def kthLargest(self, root: TreeNode, k: int) -> int:
 
@@ -42,4 +42,4 @@ class Solution:
             cur = cur.left 
             stk.append(cur)
         return   ans 
-```
+# ```

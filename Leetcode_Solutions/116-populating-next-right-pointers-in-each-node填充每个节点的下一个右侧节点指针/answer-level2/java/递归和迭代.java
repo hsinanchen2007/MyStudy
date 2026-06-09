@@ -1,8 +1,8 @@
-## 思路:
+// ## 思路:
 
-与下一题[117. 填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)都可以用`BFS`方法,如下:
+// 与下一题[117. 填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii/)都可以用`BFS`方法,如下:
 
-```python
+// ```python
 def connect(self, root: 'Node') -> 'Node':
         from collections import deque
         if not root: return root
@@ -24,21 +24,21 @@ def connect(self, root: 'Node') -> 'Node':
                     queue.appendleft(tmp.right)
             p.next = None 
         return root
-```
+// ```
 
-但是不符合题意, 要使用常量级额外空间
+// 但是不符合题意, 要使用常量级额外空间
 
-所以我们用其他空间$O(1)$的方法
+// 所以我们用其他空间$O(1)$的方法
 
-思路一: 递归
+// 思路一: 递归
 
-思路二: 迭代
+// 思路二: 迭代
 
-## 代码:
+// ## 代码:
 
-思路一:
+// 思路一:
 
-```python [1]
+// ```python [1]
 def connect(self, root: 'Node') -> 'Node':
         if not root:
             return 
@@ -49,11 +49,11 @@ def connect(self, root: 'Node') -> 'Node':
         self.connect(root.left)
         self.connect(root.right)
         return root
-```
+// ```
 
 
 
-```java [1]
+// ```java [1]
 class Solution {
     public Node connect(Node root) {
         if (root == null) return null;
@@ -66,11 +66,11 @@ class Solution {
         return root;
     }
 }
-```
+// ```
 
-思路二:
+// 思路二:
 
-```python [2]
+// ```python [2]
 class Solution:
     def connect(self, root: 'Node') -> 'Node':
         pre = root
@@ -82,11 +82,11 @@ class Solution:
                 cur = cur.next
             pre = pre.left
         return root
-```
+// ```
 
 
 
-```java [2]
+// ```java [2]
 class Solution {
     public Node connect(Node root) {
         Node pre = root;
@@ -102,5 +102,5 @@ class Solution {
         return root;
     }
 }
-```
+// ```
 

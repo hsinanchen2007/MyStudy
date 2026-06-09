@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/014c32f94045f90c51bda86c83b2af9e30146704da0c7c131654b2fb4a16ba19-image.png)
+# ![image.png](https://pic.leetcode-cn.com/014c32f94045f90c51bda86c83b2af9e30146704da0c7c131654b2fb4a16ba19-image.png)
 
-思路就是挨个比较过去，简单粗暴没啥技巧。
+# 思路就是挨个比较过去，简单粗暴没啥技巧。
 
-```
+# ```
 class Solution(object):
     def isAlienSorted(self, words, order):
         """
@@ -30,4 +30,4 @@ class Solution(object):
                     return False
         #比到最后也没有问题，那就返回正确
         return True
-```
+# ```

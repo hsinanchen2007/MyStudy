@@ -1,4 +1,4 @@
-```
+// ```
 int majorityElement(int* nums, int numsSize){
     int major = nums[0], cnt = 1;
     for(int i = 1; i < numsSize; i++){
@@ -11,4 +11,4 @@ int majorityElement(int* nums, int numsSize){
     }
     return major;
 }
-```
+// ```

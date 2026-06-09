@@ -1,10 +1,10 @@
-### 解题思路
-将row 0,column 0之外的0,转移到映射的row 0,row 1区间上，例如magic[4][7]=0， 泽magic[4][0]=0,magic[0][7]=0。
-分三批转换，详见代码
+// ### 解题思路
+// 将row 0,column 0之外的0,转移到映射的row 0,row 1区间上，例如magic[4][7]=0， 泽magic[4][0]=0,magic[0][7]=0。
+// 分三批转换，详见代码
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
@@ -46,4 +46,4 @@ public:
         
     }
 };
-```
+// ```

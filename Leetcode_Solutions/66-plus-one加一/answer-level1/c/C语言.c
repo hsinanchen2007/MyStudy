@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-不需要进位就直接对原数组操作 返回原数组。需要的话就也只是进1，所以最前面加上1即可
+// ### 解题思路
+// 此处撰写解题思路
+// 不需要进位就直接对原数组操作 返回原数组。需要的话就也只是进1，所以最前面加上1即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -31,4 +31,4 @@ int* plusOne(int* digits, int digitsSize, int* returnSize){
     *returnSize = digitsSize;
     return digits;
 }
-```
+// ```

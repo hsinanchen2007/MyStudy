@@ -1,5 +1,5 @@
-倒序遍历pushed，  每次查看pushed的元素在popped中的位置之后的元素，是否是降序排列。
-```
+# 倒序遍历pushed，  每次查看pushed的元素在popped中的位置之后的元素，是否是降序排列。
+# ```
     def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
 
         length = len(popped)
@@ -16,4 +16,4 @@
                 length = pop_index
             
         return True
-```
+# ```

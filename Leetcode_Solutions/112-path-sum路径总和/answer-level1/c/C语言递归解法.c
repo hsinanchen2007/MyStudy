@@ -1,9 +1,9 @@
-### 解题思路
-递归中下一次传入函数的num等于当前的num-root->val。
+// ### 解题思路
+// 递归中下一次传入函数的num等于当前的num-root->val。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -25,4 +25,4 @@ bool hasPathSum(struct TreeNode* root, int sum){
     bool isRight=hasPathSum(root->right,sum-root->val);
     return (isLeft||isRight);
 }
-```
+// ```

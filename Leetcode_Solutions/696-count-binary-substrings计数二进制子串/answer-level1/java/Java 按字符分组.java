@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-![696.png](https://pic.leetcode-cn.com/ad962b8c15268e0c82e3869c6837ca947ce4b158b9999ee4958b85f9dcf342fd-696.png)
+// ![696.png](https://pic.leetcode-cn.com/ad962b8c15268e0c82e3869c6837ca947ce4b158b9999ee4958b85f9dcf342fd-696.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int countBinarySubstrings(String s) {
         char chars[] = s.toCharArray();
@@ -27,4 +27,4 @@ class Solution {
 		return result;
     }
 }
-```
+// ```

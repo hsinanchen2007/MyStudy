@@ -1,9 +1,9 @@
-### 解题思路
-给需要C++的童鞋。快慢指针，一遍扫描。
+// ### 解题思路
+// 给需要C++的童鞋。快慢指针，一遍扫描。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
@@ -20,4 +20,4 @@ public:
         return i+1; // 下标从0开始，所以长度要+1
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-执行用时 :44 ms, 在所有 Python3 提交中击败了96.25% 的用户。
-内存消耗 :13.1 MB, 在所有 Python3 提交中击败了100.00%的用户。
+# 执行用时 :44 ms, 在所有 Python3 提交中击败了96.25% 的用户。
+# 内存消耗 :13.1 MB, 在所有 Python3 提交中击败了100.00%的用户。
 
-二分查找：
+# 二分查找：
 
-```
+# ```
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         left = 0
@@ -23,20 +23,20 @@ class Solution:
 内存消耗 :13.1 MB, 在所有 Python3 提交中击败了100.00%的用户。
 
 直接一次遍历。
-```
-class Solution:
-    def findMin(self, nums: List[int]) -> int:
-        a = nums[0]
-        for i in range(1, len(nums)):
-            if nums[i] < a:
-                a = nums[i]
-        return a
-```
+# ```
+# class Solution:
+#     def findMin(self, nums: List[int]) -> int:
+#         a = nums[0]
+#         for i in range(1, len(nums)):
+#             if nums[i] < a:
+#                 a = nums[i]
+#         return a
+# ```
 
 内置函数法（作弊法）
 
-```
-class Solution:
-    def findMin(self, nums: List[int]) -> int:
-        return min(nums)
-```
+# ```
+# class Solution:
+#     def findMin(self, nums: List[int]) -> int:
+#         return min(nums)
+# ```

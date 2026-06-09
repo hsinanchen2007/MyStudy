@@ -1,7 +1,7 @@
 
-直接substr会有内存问题，string_view 是只读的，不会进行复制，可以AC
+// 直接substr会有内存问题，string_view 是只读的，不会进行复制，可以AC
 
-```
+// ```
 class Solution {
 public:
     string longestPrefix(string s) {
@@ -19,4 +19,4 @@ public:
         return s.substr(0, res);
     }
 };
-```
+// ```

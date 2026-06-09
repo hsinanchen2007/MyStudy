@@ -1,13 +1,13 @@
-### 解题思路
-1、递归
-2、双指针
+// ### 解题思路
+// 1、递归
+// 2、双指针
 
-### 代码
+// ### 代码
 
 
-#### 递归
+// #### 递归
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	void reverseString(vector<char>& s) {
@@ -28,13 +28,13 @@ public:
 		}
 	}
 };
-```
+// ```
 
 
 
-#### 双指针
+// #### 双指针
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	void reverseString(vector<char>& s) {
@@ -51,4 +51,4 @@ public:
 		}
 	}
 };
-```
+// ```

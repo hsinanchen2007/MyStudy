@@ -1,9 +1,9 @@
-### 解题思路
-RT
+# ### 解题思路
+# RT
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def findMaxLength(self, nums):
         """
@@ -26,4 +26,4 @@ class Solution(object):
                 traj[start]=i
             # print result,traj,start
         return result
-```
+# ```

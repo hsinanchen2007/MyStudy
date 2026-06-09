@@ -1,6 +1,6 @@
-弄了一个下午才弄出来,我太菜了
-先构建一个无向图的邻接表,然后就可以dfs了,开始想直接用key来判断某条边是否访问,后来发现因为要多次dfs,这样每次dfs都要更新key,比较麻烦,因此用一个visit数组配合每条边的key不一样的特点来判断,这样只需要每次更新visit数组就行了
-```
+// 弄了一个下午才弄出来,我太菜了
+// 先构建一个无向图的邻接表,然后就可以dfs了,开始想直接用key来判断某条边是否访问,后来发现因为要多次dfs,这样每次dfs都要更新key,比较麻烦,因此用一个visit数组配合每条边的key不一样的特点来判断,这样只需要每次更新visit数组就行了
+// ```
 struct arcnode{
     int index;//字符串对应的顶点下标
     double ans;//结果
@@ -103,4 +103,4 @@ double* calcEquation(char *** equations, int equationsSize, int* equationsColSiz
     }
     return res;
 }
-```
+// ```

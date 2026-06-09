@@ -1,11 +1,11 @@
-### 解题思路
-找到每一行两个相邻元素的间隔规律就easy了。
+// ### 解题思路
+// 找到每一行两个相邻元素的间隔规律就easy了。
 
-顺便发现了一个leetcode的BUG,我这段代码提交了很多次，每次时间都不一样，这次用时最少，8ms
+// 顺便发现了一个leetcode的BUG,我这段代码提交了很多次，每次时间都不一样，这次用时最少，8ms
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string convert(string s, int numRows) {
@@ -51,4 +51,4 @@ public:
         return res;
     }
 };
-```
+// ```

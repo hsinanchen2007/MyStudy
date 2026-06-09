@@ -1,9 +1,9 @@
-### 解题思路
-先求异或,再求异或后1的个数
+// ### 解题思路
+// 先求异或,再求异或后1的个数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int hammingDistance(int x, int y) {
@@ -19,4 +19,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-记录一下解决方法
-第一次用BFS，一直在思考如何用enqueue实现，越想越昏，后来学习了[@bao-bao-ke-guai-liao](/u/bao-bao-ke-guai-liao/)大佬的解法，真的非常简洁，感谢。
-主要采用递归前序遍历实现，注意用depth记录层数。
+// ### 解题思路
+// 记录一下解决方法
+// 第一次用BFS，一直在思考如何用enqueue实现，越想越昏，后来学习了[@bao-bao-ke-guai-liao](/u/bao-bao-ke-guai-liao/)大佬的解法，真的非常简洁，感谢。
+// 主要采用递归前序遍历实现，注意用depth记录层数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ public:
     }
 
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
- * 找到R的位置
- * 向4个方向寻找，找到第一个非.看是否是p，直到边界
-### 代码
+// ### 解题思路
+//  * 找到R的位置
+//  * 向4个方向寻找，找到第一个非.看是否是p，直到边界
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {character[][]} board
  * @return {number}
@@ -75,4 +75,4 @@ var numRookCaptures = function (board) {
 
     return res;
 };
-```
+// ```

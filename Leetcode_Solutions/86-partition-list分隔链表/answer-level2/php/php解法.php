@@ -1,4 +1,4 @@
-```
+// ```
 function partition($head, $x) {
     $before_head = new ListNode(-1);
     $before = $before_head;
@@ -18,4 +18,4 @@ function partition($head, $x) {
     $before->next = $after_head->next;
     return $before_head->next;
 }
-```
+// ```

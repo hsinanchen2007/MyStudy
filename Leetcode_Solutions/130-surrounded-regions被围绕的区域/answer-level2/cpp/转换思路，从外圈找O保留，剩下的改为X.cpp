@@ -1,5 +1,5 @@
-#执行用时 :40 ms, 在所有 C++ 提交中击败了87.10%的用户#
-```
+// #执行用时 :40 ms, 在所有 C++ 提交中击败了87.10%的用户#
+// ```
 class Solution {
 public:
     int rows,cols;
@@ -25,4 +25,4 @@ public:
                 if (!visited[i][j])   
                     board[i][j]='X';}
 };
-```
+// ```

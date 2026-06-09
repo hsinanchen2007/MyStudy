@@ -1,11 +1,11 @@
-Solution:   把这个问题分成两个子问题，一个是找出两个数组里最大的前K个数
-第二个是把两个数组合并，并找出合并成的一个最大的数。
+// Solution:   把这个问题分成两个子问题，一个是找出两个数组里最大的前K个数
+// 第二个是把两个数组合并，并找出合并成的一个最大的数。
 
 
 
 
 
-```
+// ```
 class Solution {
 public:
     vector<int> maxNumber(vector<int>& nums1, vector<int>& nums2, int k) {
@@ -57,4 +57,4 @@ private:
     
 };
 
-```
+// ```

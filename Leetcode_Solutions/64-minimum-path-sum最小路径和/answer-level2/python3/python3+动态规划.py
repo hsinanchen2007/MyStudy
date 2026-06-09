@@ -1,5 +1,5 @@
-和机器人那道题差不多
-```
+# 和机器人那道题差不多
+# ```
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
         m = len(grid[0])
@@ -14,4 +14,4 @@ class Solution:
             for j in range(1, m):
                 dp[i][j] = grid[i][j] + min(dp[i-1][j],dp[i][j-1])
         return dp[-1][-1]
-```
+# ```

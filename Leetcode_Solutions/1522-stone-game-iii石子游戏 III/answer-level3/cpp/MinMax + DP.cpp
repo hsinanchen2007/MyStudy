@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-从右向左枚举，Alice先取正的分数，Bob后取负的分数，最后计算得分正负。
+// 从右向左枚举，Alice先取正的分数，Bob后取负的分数，最后计算得分正负。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string stoneGameIII(vector<int>& stoneValue) {
@@ -29,4 +29,4 @@ public:
             return "Bob";
     }
 };
-```
+// ```

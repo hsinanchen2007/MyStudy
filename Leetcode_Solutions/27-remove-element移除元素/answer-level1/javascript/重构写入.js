@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-定义一个变量直接 判断时候等于val 不等与直接赋值给 nums
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 定义一个变量直接 判断时候等于val 不等与直接赋值给 nums
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -20,4 +20,4 @@ var removeElement = function(nums, val) {
  }
  return sum
 };
-```
+// ```

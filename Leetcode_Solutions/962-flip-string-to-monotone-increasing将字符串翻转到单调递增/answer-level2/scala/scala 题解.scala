@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def minFlipsMonoIncr(S: String): Int = {
     var res = Int.MaxValue
@@ -8,4 +8,4 @@ object Solution {
     res
   }
 }
-```
+// ```

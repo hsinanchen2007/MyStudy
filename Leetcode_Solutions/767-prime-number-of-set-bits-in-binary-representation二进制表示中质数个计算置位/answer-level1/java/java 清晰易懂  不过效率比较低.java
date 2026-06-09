@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int countPrimeSetBits(int L, int R){
         int sumSum=0;
@@ -26,4 +26,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

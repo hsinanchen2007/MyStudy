@@ -1,18 +1,18 @@
-### 解题思路
-![max_btree.png](https://pic.leetcode-cn.com/9af5a790a71ede6aafa355414bd31778f0fd9957c99d2ca184bae990628029ae-max_btree.png)
+// ### 解题思路
+// ![max_btree.png](https://pic.leetcode-cn.com/9af5a790a71ede6aafa355414bd31778f0fd9957c99d2ca184bae990628029ae-max_btree.png)
 
-国际版里看到能用binary search来优化的，自己实现了一下果然香
-窃以为LeetCode testcase还是太小了，够大差距就出来了
-大致的思想是维护一个类stack（归根结底都是deque嘛，所以方便binary srch用了vector）的中间容器
-保证值最大节点始终在底部（v.rend()/v.begin()/v.front()）
-新节点不够去底部的的（ret == v.crend()）但足够进组的，左右逢源
-太小进不去的，去右子树
-原题传送：
-https://leetcode.com/problems/maximum-binary-tree/discuss/106147/c-8-lines-on-log-n-map-plus-stack-with-binary-search
+// 国际版里看到能用binary search来优化的，自己实现了一下果然香
+// 窃以为LeetCode testcase还是太小了，够大差距就出来了
+// 大致的思想是维护一个类stack（归根结底都是deque嘛，所以方便binary srch用了vector）的中间容器
+// 保证值最大节点始终在底部（v.rend()/v.begin()/v.front()）
+// 新节点不够去底部的的（ret == v.crend()）但足够进组的，左右逢源
+// 太小进不去的，去右子树
+// 原题传送：
+// https://leetcode.com/problems/maximum-binary-tree/discuss/106147/c-8-lines-on-log-n-map-plus-stack-with-binary-search
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -83,4 +83,4 @@ public:
 //         return build(++l, --r);
 //     }
 };
-```
+// ```

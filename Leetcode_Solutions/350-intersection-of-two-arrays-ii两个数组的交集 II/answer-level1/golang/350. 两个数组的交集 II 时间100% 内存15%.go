@@ -1,11 +1,11 @@
-### 解题思路
-算法：map统计出现次数。再遍历任一map，num打印较小次数。
-时间：O(n)
-空间：O(n)，map可用数组优化
+// ### 解题思路
+// 算法：map统计出现次数。再遍历任一map，num打印较小次数。
+// 时间：O(n)
+// 空间：O(n)，map可用数组优化
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func min(m, n int) int {
 	if m < n {
 		return m
@@ -35,4 +35,4 @@ func intersect(nums1 []int, nums2 []int) []int {
 
 	return res
 }
-```
+// ```

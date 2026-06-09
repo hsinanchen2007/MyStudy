@@ -1,9 +1,9 @@
-可以利用先构早一个dummyNode节点，然后每一次都插在dummyNode与其后面的节点之间，每一次需要保证插入的永远是最后一个，利用三个指针
-1 2 3 4 5 | 0 -> 1 -> 2 -> 3 -> 4 -> 5
-第一次：0 5 1 2 3 4
-第二次：0 4 5 1 2 3 返回dummyNode.next即可
-PS：时间复杂度有点大-_-||
-```
+// 可以利用先构早一个dummyNode节点，然后每一次都插在dummyNode与其后面的节点之间，每一次需要保证插入的永远是最后一个，利用三个指针
+// 1 2 3 4 5 | 0 -> 1 -> 2 -> 3 -> 4 -> 5
+// 第一次：0 5 1 2 3 4
+// 第二次：0 4 5 1 2 3 返回dummyNode.next即可
+// PS：时间复杂度有点大-_-||
+// ```
 public static ListNode rotateRight(ListNode head, int k) {
         if(head == null || head.next == null) return head;
         
@@ -38,4 +38,4 @@ public static ListNode rotateRight(ListNode head, int k) {
         }
         return dummyNode.next;
     }
-```
+// ```

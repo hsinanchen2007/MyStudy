@@ -1,5 +1,5 @@
-无脑查找=。=，方法一般般，好歹过了
-```
+// 无脑查找=。=，方法一般般，好歹过了
+// ```
 class Solution {
 public:
     int maxNumberOfFamilies(int n, vector<vector<int>>& re) {
@@ -18,4 +18,4 @@ public:
         return cnt + 2 * (n - s.size());
     }
 };
-```
+// ```

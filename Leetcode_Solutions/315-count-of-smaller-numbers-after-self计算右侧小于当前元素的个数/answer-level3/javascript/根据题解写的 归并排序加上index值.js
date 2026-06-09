@@ -1,9 +1,9 @@
-### 解题思路
-我们js的题解太少了呜呜
+// ### 解题思路
+// 我们js的题解太少了呜呜
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 function countSmaller(nums) {
   if (!nums.length) return []
   let objArr = [] //对象和index
@@ -56,4 +56,4 @@ function countSmaller(nums) {
     return res
   }
 }
-```
+// ```

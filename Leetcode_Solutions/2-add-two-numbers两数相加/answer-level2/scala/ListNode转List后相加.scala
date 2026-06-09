@@ -1,4 +1,4 @@
-```ruby
+// ```ruby
 object Solution {
     def addTwoNumbers(l1: ListNode, l2: ListNode): ListNode = {
         toListNode(addList(toList(l1).reverse, toList(l2).reverse, 0))
@@ -23,4 +23,4 @@ object Solution {
         case (h::t,h2::t2) => addList(t, t2, (h + h2 + carry) / 10, (h + h2 + carry) % 10 ::acc)
     }
 }
-```
+// ```

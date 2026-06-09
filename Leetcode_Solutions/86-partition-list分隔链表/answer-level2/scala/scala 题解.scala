@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def partition(head: ListNode, x: Int): ListNode = head match {
     case null => head
@@ -20,4 +20,4 @@ object Solution {
       newDummy.next
   }
 }
-```
+// ```

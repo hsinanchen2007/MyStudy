@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-方法一，用递归解决，这是《剑指offer》上面的思考提升部分但其实是更好想到的。新定义一个newHeader，在一开始通过递归深入到链表末尾之后，它其实就不会变化了，最后直接返回它即可。
+// 方法一，用递归解决，这是《剑指offer》上面的思考提升部分但其实是更好想到的。新定义一个newHeader，在一开始通过递归深入到链表末尾之后，它其实就不会变化了，最后直接返回它即可。
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -23,11 +23,11 @@ class Solution {
         return newHeader;
     }
 }
-```
+// ```
 
-方法二，迭代，总共需要新定义三个ListNode变量，而且temp每次都要刷新位置。
+// 方法二，迭代，总共需要新定义三个ListNode变量，而且temp每次都要刷新位置。
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -51,4 +51,4 @@ class Solution {
         return newHeader;
     }
 }
-```
+// ```

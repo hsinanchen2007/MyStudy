@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[int]:
         if root:
@@ -8,9 +8,9 @@ class Solution:
                 yield r.val
                 r.left and d.append(r.left)
                 r.right and d.append(r.right)
-```
+# ```
 
-```python []
+# ```python []
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[int]:
         ans = []
@@ -21,4 +21,4 @@ class Solution:
                 r.left and d.append(r.left)
                 r.right and d.append(r.right)
         return ans
-```
+# ```

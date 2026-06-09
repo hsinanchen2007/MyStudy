@@ -1,5 +1,5 @@
-进阶解法：把原链表分为两部分，将后半部分的链表反转，逐一比较值是否相等。
-```
+// 进阶解法：把原链表分为两部分，将后半部分的链表反转，逐一比较值是否相等。
+// ```
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -52,4 +52,4 @@ class Solution {
     }
     
 }
-```
+// ```

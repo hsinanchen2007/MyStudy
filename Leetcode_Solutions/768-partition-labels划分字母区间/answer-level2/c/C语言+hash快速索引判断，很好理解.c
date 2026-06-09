@@ -1,4 +1,4 @@
-```C []
+// ```C []
 bool CheckPartOfStringIsOK(int *hashTable, int *checkWindow)
 {
     for (int i = 'a'; i <= 'z'; ++i) {
@@ -41,4 +41,4 @@ int* partitionLabels(char * S, int* returnSize){
     *returnSize = outputCnt;
     return output;
 }
-```
+// ```

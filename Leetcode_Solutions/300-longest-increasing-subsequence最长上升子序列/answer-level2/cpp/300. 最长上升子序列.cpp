@@ -1,9 +1,9 @@
-### 解题思路
-d[i]表示长度为i的末尾元素值，遍历一遍nums，遇到比当前d[len]元素大的就接在后面，否则就二分插入d[1~len]中的某个位置~
+// ### 解题思路
+// d[i]表示长度为i的末尾元素值，遍历一遍nums，遇到比当前d[len]元素大的就接在后面，否则就二分插入d[1~len]中的某个位置~
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
@@ -23,4 +23,4 @@ public:
         return len;
     }
 };
-```
+// ```

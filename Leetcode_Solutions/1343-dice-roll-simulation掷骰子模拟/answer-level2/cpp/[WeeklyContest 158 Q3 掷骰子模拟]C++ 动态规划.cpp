@@ -1,10 +1,10 @@
-[[WeeklyContest 158 Q1 分割平衡字符串]C++](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/solution/weeklycontest-158-q1-fen-ge-ping-heng-zi-fu-chuan-/)
-[[WeeklyContest 158 Q2 可以攻击国王的皇后]C++ 迭代](https://leetcode-cn.com/problems/queens-that-can-attack-the-king/solution/weeklycontest-158-q2-ke-yi-gong-ji-guo-wang-de-hua/)
-[[WeeklyContest 158 Q3 掷骰子模拟]C++ 动态规划](https://leetcode-cn.com/problems/dice-roll-simulation/solution/weeklycontest-158-q3-zhi-tou-zi-mo-ni-c-dong-tai-g/)
-[[WeeklyContest 158 Q4 最大相等频率]C++ 分类讨论](https://leetcode-cn.com/problems/maximum-equal-frequency/solution/weeklycontest-158-q4-zui-da-xiang-deng-pin-lu-c-fe/)
+// [[WeeklyContest 158 Q1 分割平衡字符串]C++](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings/solution/weeklycontest-158-q1-fen-ge-ping-heng-zi-fu-chuan-/)
+// [[WeeklyContest 158 Q2 可以攻击国王的皇后]C++ 迭代](https://leetcode-cn.com/problems/queens-that-can-attack-the-king/solution/weeklycontest-158-q2-ke-yi-gong-ji-guo-wang-de-hua/)
+// [[WeeklyContest 158 Q3 掷骰子模拟]C++ 动态规划](https://leetcode-cn.com/problems/dice-roll-simulation/solution/weeklycontest-158-q3-zhi-tou-zi-mo-ni-c-dong-tai-g/)
+// [[WeeklyContest 158 Q4 最大相等频率]C++ 分类讨论](https://leetcode-cn.com/problems/maximum-equal-frequency/solution/weeklycontest-158-q4-zui-da-xiang-deng-pin-lu-c-fe/)
 
-思路：
-```
+// 思路：
+// ```
 动态规划。
 状态描述：dp[i][j][k] 以k个j结尾，并已经投了i次的合法情况数。
 递推关系：
@@ -16,9 +16,9 @@
     k > 1:
     dp[i][1][k] = dp[i-1][1][k-1]
 初始化：第一次投。dp[1][1][1] = 1; dp[1][2][1] = 1; dp[1][3][1] = 1; dp[1][4][1] = 1; dp[1][5][1] = 1; dp[1][6][1] = 1;
-```
+// ```
 
-```
+// ```
 class Solution {
     typedef long long LL;
     int MOD = 1e9+7;
@@ -63,4 +63,4 @@ public:
     }
 };
 
-```
+// ```

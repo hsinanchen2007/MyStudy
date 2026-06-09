@@ -1,9 +1,9 @@
-### 解题思路
- 从后向前，找到第一个小于前一个数的数a，然后还是从后向前，找到第一个大于这个数的数字b，交换这两个数，然后翻转从a后面的所有数字
+// ### 解题思路
+//  从后向前，找到第一个小于前一个数的数a，然后还是从后向前，找到第一个大于这个数的数字b，交换这两个数，然后翻转从a后面的所有数字
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverse(int* nums,int begin,int end){
     int temp;
     while(begin<end){
@@ -47,4 +47,4 @@ void nextPermutation(int* nums, int numsSize){
 
 
 }
-```
+// ```

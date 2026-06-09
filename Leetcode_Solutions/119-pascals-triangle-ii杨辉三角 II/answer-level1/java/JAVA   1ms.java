@@ -1,6 +1,6 @@
-参考windliang的题解，因为杨辉三角是对称的，所以前一半计算，后一半翻转复制前一半。
+// 参考windliang的题解，因为杨辉三角是对称的，所以前一半计算，后一半翻转复制前一半。
 
-```
+// ```
 class Solution {
     public List<Integer> getRow(int rowIndex) {
     List<Integer> ans = new ArrayList<>();
@@ -23,5 +23,5 @@ class Solution {
     return ans;
 }
 } 
-```
+// ```
 

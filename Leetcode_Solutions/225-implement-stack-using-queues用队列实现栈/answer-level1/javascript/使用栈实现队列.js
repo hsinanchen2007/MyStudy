@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-JS中的数组非常灵活，可以利用API来进行实现。
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// JS中的数组非常灵活，可以利用API来进行实现。
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -54,4 +54,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-需要注意的地方就是check里判断活细胞的个数，当board[x][y] == 3时也需要计算在内，因为它是由1转换而来
-![image.png](https://pic.leetcode-cn.com/d599958915e462107b7bca309949d4e68fde3580714a6f10c64a584065e5f486-image.png)
+// ### 解题思路
+// 需要注意的地方就是check里判断活细胞的个数，当board[x][y] == 3时也需要计算在内，因为它是由1转换而来
+// ![image.png](https://pic.leetcode-cn.com/d599958915e462107b7bca309949d4e68fde3580714a6f10c64a584065e5f486-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 int dx[8]={0,-1,-1,-1,0,1,1,1};
 int dy[8]={1,1,0,-1,-1,-1,0,1};
 class Solution {
@@ -42,4 +42,4 @@ public:
 
     }
 };
-```
+// ```

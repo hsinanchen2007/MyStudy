@@ -1,9 +1,9 @@
-### 解题思路
-两个数组的和的差值是交换的两个数字的差值的2倍
+// ### 解题思路
+// 两个数组的和的差值是交换的两个数字的差值的2倍
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @param {number[]} B
@@ -19,4 +19,4 @@ var fairCandySwap = function(A, B) {
     }
   }
 };
-```
+// ```

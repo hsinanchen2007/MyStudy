@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public static boolean hasGroupsSizeX(int[] deck) {
         if (deck == null || deck.length == 1) {
@@ -37,4 +37,4 @@ class Solution {
         return a % b == 0 ? b : getGcd(b, a % b);
     }
 }
-```
+// ```

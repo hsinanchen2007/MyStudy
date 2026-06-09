@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int countCharacters(char ** words, int wordsSize, char * chars){
 int m,n,i,j,k,count=0;
 m=strlen(chars);
@@ -34,4 +34,4 @@ for(i=0;i<wordsSize&&words[i][0]!='\0';i++){
 }
 return count;
 }
-```
+// ```

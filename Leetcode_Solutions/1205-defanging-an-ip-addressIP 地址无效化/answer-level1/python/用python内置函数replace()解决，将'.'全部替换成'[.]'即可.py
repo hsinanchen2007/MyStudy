@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def defangIPaddr(self, address):
         """
@@ -15,4 +15,4 @@ class Solution(object):
 address='1.1.1.1'
 solution=Solution()
 print(solution.defangIPaddr(address))
-```
+# ```

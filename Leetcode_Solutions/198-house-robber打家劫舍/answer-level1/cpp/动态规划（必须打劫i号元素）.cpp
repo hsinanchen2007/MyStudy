@@ -1,10 +1,10 @@
-基本思想：
-动态规划，维护 *必须打劫i号元素时，能获得的最大金额* dpmax 以及 *i-2号元素及以前的最大可打劫金额* mmax.
-更新：
-dpmax[i]=mmax+nums[i];
-mmax=max(mmax,dpmax[i-1]);
-返回结果 max(dpmax[n-1],dpmax[n-2])
-```
+// 基本思想：
+// 动态规划，维护 *必须打劫i号元素时，能获得的最大金额* dpmax 以及 *i-2号元素及以前的最大可打劫金额* mmax.
+// 更新：
+// dpmax[i]=mmax+nums[i];
+// mmax=max(mmax,dpmax[i-1]);
+// 返回结果 max(dpmax[n-1],dpmax[n-2])
+// ```
 class Solution {
 public:
     int rob(vector<int>& nums) 
@@ -26,4 +26,4 @@ public:
         return max(dpmax[n-1],dpmax[n-2]);
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-1.暴力的想法先记录下当前位置，然后找下一个然后找最大的距离即可
+// ### 解题思路
+// 1.暴力的想法先记录下当前位置，然后找下一个然后找最大的距离即可
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
  public int binaryGap(int N) {
             String binary = Integer.toBinaryString(N);
@@ -24,4 +24,4 @@ class Solution {
             return ans;
         }
 }
-```
+// ```

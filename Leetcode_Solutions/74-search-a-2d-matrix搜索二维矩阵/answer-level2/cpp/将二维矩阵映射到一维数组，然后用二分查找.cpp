@@ -1,10 +1,10 @@
-### 解题思路
-。。。其实算法方面都没啥好讲的，基本如题。
-映射方式见代码。感觉这题不配叫中等难度。
+// ### 解题思路
+// 。。。其实算法方面都没啥好讲的，基本如题。
+// 映射方式见代码。感觉这题不配叫中等难度。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
@@ -35,4 +35,4 @@ public:
         return false;
     }
 };
-```
+// ```

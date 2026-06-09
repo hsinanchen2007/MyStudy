@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/0719d6e1eb2d119960e0024e5a108b58898ecf94b854d0a7660944e4a4af7be2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0719d6e1eb2d119960e0024e5a108b58898ecf94b854d0a7660944e4a4af7be2-image.png)
 
-```
+// ```
 class Solution {
 public:
     vector<int> sumZero(int n) {
@@ -14,4 +14,4 @@ public:
 		return re;
     }
 };
-```
+// ```

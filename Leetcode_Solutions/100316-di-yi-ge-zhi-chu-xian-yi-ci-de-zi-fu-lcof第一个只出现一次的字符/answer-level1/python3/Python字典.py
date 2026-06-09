@@ -1,9 +1,9 @@
-### 解题思路
-先遍历，记录每个字符出现顺序，再查找是否有次数为1的字符。
+# ### 解题思路
+# 先遍历，记录每个字符出现顺序，再查找是否有次数为1的字符。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def firstUniqChar(self, s: str) -> str:
         dic = {}
@@ -13,4 +13,4 @@ class Solution:
             if dic.get(s[i]) == 1:
                 return s[i]
         return ' '
-```
+# ```

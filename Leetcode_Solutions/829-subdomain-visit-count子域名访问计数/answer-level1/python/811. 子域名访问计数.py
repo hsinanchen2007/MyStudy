@@ -1,11 +1,11 @@
-在所有 Python 提交中击败了88.49%的用户
+# 在所有 Python 提交中击败了88.49%的用户
 
-- string.split('规则')
-- '规则'.join(string)
-- for i in list[::-1] 从后往前迭代
-- list.insert(位置, 值)
+# - string.split('规则')
+# - '规则'.join(string)
+# - for i in list[::-1] 从后往前迭代
+# - list.insert(位置, 值)
 
-```
+# ```
 class Solution(object):
     def subdomainVisits(self, cpdomains):
         """
@@ -30,4 +30,4 @@ class Solution(object):
         for key, value in D.items():
             L.append(str(value) + ' ' + key)
         return L
-```
+# ```

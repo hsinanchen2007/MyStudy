@@ -1,5 +1,5 @@
-复杂度O(1)
-```
+// 复杂度O(1)
+// ```
 class Solution {
     public int insertBits(int N, int M, int i, int j) {
         int t = N % (1<<i);
@@ -11,5 +11,5 @@ class Solution {
         return N;
     }
 }
-```
+// ```
 

@@ -1,11 +1,11 @@
-### 解题思路
-1. 遍历链表，将值从后往前放进数组中，在将数组有值的部分移到前面（注意内存重叠）
-2. 不要使用memcpy，memcpy不允许内存重叠，原因请看memcpy实现源码，使用memmove，允许内存重叠
-![image.png](https://pic.leetcode-cn.com/cb038cc43d4f617c5182d87445acfd03b7d40f5e442daf6e2f04c85423902b1b-image.png)
+// ### 解题思路
+// 1. 遍历链表，将值从后往前放进数组中，在将数组有值的部分移到前面（注意内存重叠）
+// 2. 不要使用memcpy，memcpy不允许内存重叠，原因请看memcpy实现源码，使用memmove，允许内存重叠
+// ![image.png](https://pic.leetcode-cn.com/cb038cc43d4f617c5182d87445acfd03b7d40f5e442daf6e2f04c85423902b1b-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ int* reversePrint(struct ListNode* head, int* returnSize){
     
     return stack;
 }
-```
+// ```

@@ -1,9 +1,9 @@
 
-具体分析[见此处](https://newdee.gitbook.io/leetcode/leetcode-index/530.minimum_absolute_difference_in_bst)  
+// 具体分析[见此处](https://newdee.gitbook.io/leetcode/leetcode-index/530.minimum_absolute_difference_in_bst)  
 
-递归判断，当前根节点的最小绝对差是与其左子树的最后最右节点的绝对差，和其与右子树的最后最左节点的绝对差的较小值。  
+// 递归判断，当前根节点的最小绝对差是与其左子树的最后最右节点的绝对差，和其与右子树的最后最左节点的绝对差的较小值。  
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -58,9 +58,9 @@ public:
         return m;
     }
 };
-```
+// ```
 
 
 
-> 执行用时 : 40 ms, 在Minimum Absolute Difference in BST的C++提交中击败了86.97% 的用户  
-内存消耗 : 21.8 MB, 在Minimum Absolute Difference in BST的C++提交中击败了90.12% 的用户
+// > 执行用时 : 40 ms, 在Minimum Absolute Difference in BST的C++提交中击败了86.97% 的用户  
+// 内存消耗 : 21.8 MB, 在Minimum Absolute Difference in BST的C++提交中击败了90.12% 的用户

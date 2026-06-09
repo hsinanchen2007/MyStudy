@@ -1,9 +1,9 @@
-### 解题思路
-将int类型转换为二进制字符串直接进行统计即可
+# ### 解题思路
+# 将int类型转换为二进制字符串直接进行统计即可
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def hammingWeight(self, n: int) -> int:
         n = str(bin(n))
@@ -13,4 +13,4 @@ class Solution:
                 cnt += 1
         return cnt
 
-```
+# ```

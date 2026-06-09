@@ -1,11 +1,11 @@
-### 解题思路
-1、	List常用函数len(),append(),pop();
-2、	List访问可以使用反向下标索引访问-1，-2等，例如L[-2]；
-3、	Python内置函数sum()，对系列进行求和计算；
+# ### 解题思路
+# 1、	List常用函数len(),append(),pop();
+# 2、	List访问可以使用反向下标索引访问-1，-2等，例如L[-2]；
+# 3、	Python内置函数sum()，对系列进行求和计算；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def calPoints(self, ops: List[str]) -> int:
         if len(ops) <0  or len(ops) > 1000:
@@ -29,4 +29,4 @@ class Solution:
                 pointlist.append(int(str_i))
         return sum(pointlist)
 
-```
+# ```

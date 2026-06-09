@@ -1,12 +1,12 @@
-### 解题思路
-从题目中可知```1 <= x, y <= 1000```，所以我们可以使用一个嵌套循环，对x,y从1开始尝试求解，当某个x，y经过```customfunction.f(x,y)```函数计算的结果等于z时，这个x，y就是我们要的其中一个解。
-复杂度分析：
-- 时间复杂度：O(XY)
-- 空间复杂度：O(N), N为解的个数
+// ### 解题思路
+// 从题目中可知```1 <= x, y <= 1000```，所以我们可以使用一个嵌套循环，对x,y从1开始尝试求解，当某个x，y经过```customfunction.f(x,y)```函数计算的结果等于z时，这个x，y就是我们要的其中一个解。
+// 复杂度分析：
+// - 时间复杂度：O(XY)
+// - 空间复杂度：O(N), N为解的个数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /*
  * // This is the custom function interface.
  * // You should not implement it, or speculate about its implementation
@@ -34,4 +34,4 @@ class Solution {
         return solution;
     }
 }
-```
+// ```

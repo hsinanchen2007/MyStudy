@@ -1,9 +1,9 @@
-很多硬核写法  刚学golang没多久  望大佬指点
-![截图_2019-12-07_15-16-17.png](https://pic.leetcode-cn.com/8f27d6080d53b76d5d8b9c9d04b17ed493dfc7ecde61ed8cbeca3fb0d0bdacda-%E6%88%AA%E5%9B%BE_2019-12-07_15-16-17.png)
+// 很多硬核写法  刚学golang没多久  望大佬指点
+// ![截图_2019-12-07_15-16-17.png](https://pic.leetcode-cn.com/8f27d6080d53b76d5d8b9c9d04b17ed493dfc7ecde61ed8cbeca3fb0d0bdacda-%E6%88%AA%E5%9B%BE_2019-12-07_15-16-17.png)
 
 
 
-```
+// ```
 func minMutation(start string, end string, bank []string) int {
 	queue := []string{start}
 	count := 0
@@ -54,4 +54,4 @@ func compare (start string, s string) bool {
 	}
 	return count == 1
 }
-```
+// ```

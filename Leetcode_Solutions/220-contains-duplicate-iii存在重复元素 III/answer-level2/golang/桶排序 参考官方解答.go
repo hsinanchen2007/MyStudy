@@ -1,4 +1,4 @@
-```
+// ```
 /*
 	桶排序
 */
@@ -41,4 +41,4 @@ func keyFunc(x, w int) int {
 		return x / w
 	}
 }
-```
+// ```

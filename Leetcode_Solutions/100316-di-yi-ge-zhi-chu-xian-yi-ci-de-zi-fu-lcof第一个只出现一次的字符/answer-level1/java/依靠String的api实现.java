@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-遍历字符串，然后判断每个字符的第一次出现位置和最后一次出现位置是否相同。
+// 遍历字符串，然后判断每个字符的第一次出现位置和最后一次出现位置是否相同。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char firstUniqChar(String s) {
         if(null == s || "" == s) return ' ';
@@ -16,4 +16,4 @@ class Solution {
         return ' ';
     }
 }
-```
+// ```

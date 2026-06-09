@@ -1,4 +1,4 @@
-```Java
+// ```Java
 class Solution{
 	public int pathSum(TreeNode root,int sum){
 		if(root==null)
@@ -11,4 +11,4 @@ class Solution{
 		return ((root.val==sum)?1:0)+FindPath(root.left,sum-root.val)+FindPath(root.right,sum-root.val);
 	}
 }
-```
+// ```

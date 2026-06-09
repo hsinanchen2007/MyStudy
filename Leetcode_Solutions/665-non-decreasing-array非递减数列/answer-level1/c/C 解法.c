@@ -1,9 +1,9 @@
 
-# 思路：
-官方题解第三种方法
+// # 思路：
+// 官方题解第三种方法
 
-# 代码：
-```
+// # 代码：
+// ```
 #define TRUE 1
 #define FALSE 0
 
@@ -35,5 +35,5 @@ bool checkPossibility(int* nums, int numsSize){
     }
     return TRUE;
 }
-```
+// ```
 

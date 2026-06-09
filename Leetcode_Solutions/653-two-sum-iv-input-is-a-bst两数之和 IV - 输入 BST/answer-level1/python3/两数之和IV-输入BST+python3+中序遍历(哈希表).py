@@ -1,8 +1,8 @@
-### 中序遍历
-**(可以参考：[二叉树各种遍历算法](https://www.cnblogs.com/anzhengyu/p/11083568.html))**
+# ### 中序遍历
+# **(可以参考：[二叉树各种遍历算法](https://www.cnblogs.com/anzhengyu/p/11083568.html))**
 
-先中序遍历，得到一个目标数组，再通过哈希表判断是否符合要求。代码如下：
-```
+# 先中序遍历，得到一个目标数组，再通过哈希表判断是否符合要求。代码如下：
+# ```
 class Solution:
     def findTarget(self, root: TreeNode, k: int) -> bool:
         def inorder(root):
@@ -21,8 +21,8 @@ class Solution:
 
         return False
 
-```
-#### 复杂度分析
-__时间复杂度：__ O(n)
+# ```
+# #### 复杂度分析
+# __时间复杂度：__ O(n)
 
-__空间复杂度：__ O(n)
+# __空间复杂度：__ O(n)

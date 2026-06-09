@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-DFS，标记原图和判断是否有ans来进行剪枝。
+# DFS，标记原图和判断是否有ans来进行剪枝。
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def pathWithObstacles(self, obstacleGrid: List[List[int]]) -> List[List[int]]:
         ans, r, c = [], len(obstacleGrid), len(obstacleGrid[0])
@@ -19,4 +19,4 @@ class Solution:
                         ans.extend(path)
         f([[0, 0]])
         return ans
-```
+# ```

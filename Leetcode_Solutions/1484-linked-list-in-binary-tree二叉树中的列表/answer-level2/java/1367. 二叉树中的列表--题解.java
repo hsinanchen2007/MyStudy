@@ -1,5 +1,5 @@
-遍历二叉树的每一个节点，若当前节点的val等于head的val时，判断以当前节点之后相连的节点是否能够组成head链表
-```
+// 遍历二叉树的每一个节点，若当前节点的val等于head的val时，判断以当前节点之后相连的节点是否能够组成head链表
+// ```
 class Solution {
     private boolean isSubPath;
 
@@ -58,4 +58,4 @@ class Solution {
         }
     }
 }
-```
+// ```

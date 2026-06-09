@@ -1,6 +1,6 @@
 
 
-```golang
+// ```golang
 type MaxQueue struct {
     queue []int
     help  []int
@@ -49,4 +49,4 @@ func (this *MaxQueue) Pop_front() int {
  * obj.Push_back(value);
  * param_3 := obj.Pop_front();
  */
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
         res = 0
@@ -15,4 +15,4 @@ class Solution:
             dic_left[right] = left
 
         return res
-```
+# ```

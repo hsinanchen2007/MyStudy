@@ -1,8 +1,8 @@
 
-如果这个边的两个顶点属于同一集合，则认为这个边最后导致了环，取最后一个造成环的边即可
+// 如果这个边的两个顶点属于同一集合，则认为这个边最后导致了环，取最后一个造成环的边即可
 
-方法1： 使用rank
-```
+// 方法1： 使用rank
+// ```
 #define MAX_POINTNUM  1000
 
 
@@ -69,9 +69,9 @@ int* findRedundantConnection(int** edges, int edgesSize, int* edgesColSize, int*
 
     return rslt;
 }
-```
-方法2：不使用rank ，查询时候压缩路径
-```
+// ```
+// 方法2：不使用rank ，查询时候压缩路径
+// ```
 
 #define MAX_POINTNUM  1000
 
@@ -131,5 +131,5 @@ int* findRedundantConnection(int** edges, int edgesSize, int* edgesColSize, int*
 
     return rslt;
 }
-```
+// ```
 

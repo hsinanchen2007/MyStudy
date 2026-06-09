@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def sumOfLeftLeaves(self, root: TreeNode) -> int:
         if not root: return 0
@@ -11,4 +11,4 @@ class Solution:
         self.helper(root.left, True, lst)
         self.helper(root.right, False, lst)
         return lst
-```
+# ```

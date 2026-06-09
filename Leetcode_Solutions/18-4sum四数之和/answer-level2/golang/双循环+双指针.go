@@ -1,6 +1,6 @@
-思路与三数之和一样。固定两个数，双指针去寻找剩余两个数。
+// 思路与三数之和一样。固定两个数，双指针去寻找剩余两个数。
 
-```
+// ```
 func fourSum(nums []int, target int) [][]int {
     sort.Ints(nums)
     n := len(nums)
@@ -44,4 +44,4 @@ func fourSum(nums []int, target int) [][]int {
     }
     return res
 }
-```
+// ```

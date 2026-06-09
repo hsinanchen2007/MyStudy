@@ -1,4 +1,4 @@
-```C++
+// ```C++
 class Solution {
 public:
     int numberOfArithmeticSlices(vector<int>& A) {
@@ -18,4 +18,4 @@ public:
         return result;
     }
 };
-```
+// ```

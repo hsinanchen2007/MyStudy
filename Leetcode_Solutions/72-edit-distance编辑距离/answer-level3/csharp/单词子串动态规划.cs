@@ -1,13 +1,13 @@
-### 解题思路
-从 0  0 状态开始
-三种操作选择
-若头相等 则 同时推进
-若不等 则 三种操作 接着推进
+// ### 解题思路
+// 从 0  0 状态开始
+// 三种操作选择
+// 若头相等 则 同时推进
+// 若不等 则 三种操作 接着推进
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 using VT = System.ValueTuple<int, int>;
 class EditW{
     //搜索所有状态空间
@@ -64,4 +64,4 @@ public class Solution {
         return md.MinDistance(word1, word2);
     }
 }
-```
+// ```

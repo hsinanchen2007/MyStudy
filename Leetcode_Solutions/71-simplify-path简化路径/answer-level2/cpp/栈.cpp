@@ -1,9 +1,9 @@
-### 解题思路
-..出栈，.忽略，其他进栈
+// ### 解题思路
+// ..出栈，.忽略，其他进栈
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string simplifyPath(string path) {
@@ -51,4 +51,4 @@ public:
     }
 
 };
-```
+// ```

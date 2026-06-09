@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/341d5e959c7546b265596f6f16bbbe810272f499a43ef17149c4ae50c03be581-image.png)
+// ![image.png](https://pic.leetcode-cn.com/341d5e959c7546b265596f6f16bbbe810272f499a43ef17149c4ae50c03be581-image.png)
 
-### 解题思路
-递归
+// ### 解题思路
+// 递归
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import "strconv"
 func countAndSay(n int) string {
     if n==1{
@@ -28,4 +28,4 @@ func countAndSay(n int) string {
 
     return buff.String()    
 }
-```
+// ```

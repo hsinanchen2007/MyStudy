@@ -1,11 +1,11 @@
-### 解题思路
-由最外层不断往最里层旋转，四次旋转的方向要一致。。但用了一个一维的辅助数组
-![image.png](https://pic.leetcode-cn.com/7e47801208ec1063fb625084ebd2be59991d8b7e513b35353f75496ea6423d73-image.png)
+// ### 解题思路
+// 由最外层不断往最里层旋转，四次旋转的方向要一致。。但用了一个一维的辅助数组
+// ![image.png](https://pic.leetcode-cn.com/7e47801208ec1063fb625084ebd2be59991d8b7e513b35353f75496ea6423d73-image.png)
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void rotate(int[][] matrix) {
         if(matrix == null || matrix.length == 0)
@@ -29,4 +29,4 @@ class Solution {
         }
     }
 }
-```
+// ```

@@ -1,6 +1,6 @@
-# 快速排序
+// # 快速排序
 
-```go
+// ```go
 package leetcode
 // ListNode Definition for singly-linked list.
 type ListNode struct {
@@ -35,10 +35,10 @@ func quickSort(head, end *ListNode) {
     quickSort(head, slow) // 递归处理pivot左右两边的链表
     quickSort(slow.Next, end)
 }
-```
+// ```
 
-# 归并排序
-```go
+// # 归并排序
+// ```go
 // 单链表归并排序 Time: O(n*logn) Space: O(logn)
 func mergeSortList(head *ListNode) *ListNode {
     if head == nil || head.Next == nil {
@@ -76,4 +76,4 @@ func mergeTwoSortedLists(l1, l2 *ListNode) *ListNode {
     }
     return dummy.Next
 }
-```
+// ```

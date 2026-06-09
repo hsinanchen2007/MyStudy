@@ -1,11 +1,11 @@
-这道题怎么题解那么少？那么我来分享一下我的代码~
+// 这道题怎么题解那么少？那么我来分享一下我的代码~
 
-主要步骤分为两步：
-1. 构建一个新的链表，除了其中每个结点的随机指针`h1->random==NULL`都为`NULL`，和原链表并无其他差别；
-2. 新链表构建好之后，我们利用计数器index，依次遍历新链表，对每个结点的随机指针进行赋值。
+// 主要步骤分为两步：
+// 1. 构建一个新的链表，除了其中每个结点的随机指针`h1->random==NULL`都为`NULL`，和原链表并无其他差别；
+// 2. 新链表构建好之后，我们利用计数器index，依次遍历新链表，对每个结点的随机指针进行赋值。
 
-[我的其他笔记](https://blog.csdn.net/AuthurWhywat)，欢迎大家前来指出我的不足~
-```
+// [我的其他笔记](https://blog.csdn.net/AuthurWhywat)，欢迎大家前来指出我的不足~
+// ```
 /**
  * Definition for a Node.
  * struct Node {
@@ -64,4 +64,4 @@ struct Node* copyRandomList(struct Node* head) {
     }
     return head1;
 }
-```
+// ```

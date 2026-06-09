@@ -1,9 +1,9 @@
-### 解题思路
-使用tmp作为广度遍历的辅助列表。每次遍历的时候，将当前层数加入到队列中，每次出队列是，就可以知道当前值属于哪一层
+# ### 解题思路
+# 使用tmp作为广度遍历的辅助列表。每次遍历的时候，将当前层数加入到队列中，每次出队列是，就可以知道当前值属于哪一层
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -37,4 +37,4 @@ class Solution:
         if tmp:
             res.append(tmp)
         return res
-```
+# ```

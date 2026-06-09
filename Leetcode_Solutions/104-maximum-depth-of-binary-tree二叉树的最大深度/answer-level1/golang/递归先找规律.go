@@ -1,9 +1,9 @@
-### 解题思路
-根节点的最大深度等于左右子树深度最大值+1
+// ### 解题思路
+// 根节点的最大深度等于左右子树深度最大值+1
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -18,4 +18,4 @@ func maxDepth(root *TreeNode) int {
     }
     return 1+int(math.Max(float64(maxDepth(root.Left)),float64(maxDepth(root.Right))))
 }
-```
+// ```

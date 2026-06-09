@@ -1,8 +1,8 @@
-给定一棵二叉树，想象自己站在它的右侧，按照从顶部到底部的顺序，返回从右侧所能看到的节点值。
-![image.png](https://pic.leetcode-cn.com/163e2719059d12e4ff75574b21a7438985e44ec4f25ccb77958ae9656b867d0e-image.png)
-遍历的每层，并把最右的节点值加入到结果列表中。
+// 给定一棵二叉树，想象自己站在它的右侧，按照从顶部到底部的顺序，返回从右侧所能看到的节点值。
+// ![image.png](https://pic.leetcode-cn.com/163e2719059d12e4ff75574b21a7438985e44ec4f25ccb77958ae9656b867d0e-image.png)
+// 遍历的每层，并把最右的节点值加入到结果列表中。
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -37,4 +37,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

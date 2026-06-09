@@ -1,4 +1,4 @@
-```golang
+// ```golang
 //	743
 func networkDelayTime(times [][]int, N int, K int) int {
 	// graph[i]保存i节点的相邻节点和距离元组的列表
@@ -69,4 +69,4 @@ func (pq *NodeDistMinHeap) Pop() interface{} {
 func (pq *NodeDistMinHeap) Peek() NodeDist {
 	return (*pq)[0]
 }
-```
+// ```

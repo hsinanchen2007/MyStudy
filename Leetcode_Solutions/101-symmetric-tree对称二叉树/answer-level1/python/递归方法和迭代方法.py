@@ -1,4 +1,4 @@
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -22,10 +22,10 @@ class Solution:
                 return False
         
         return isSame(root.left, root.right)
-```
-递归方法
+# ```
+# 递归方法
 
-```
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -54,7 +54,7 @@ class Solution:
             else:
                 return False
         return True
-```
-迭代方法
+# ```
+# 迭代方法
 
-事实证明，迭代方法速度远比递归方法快。
+# 事实证明，迭代方法速度远比递归方法快。

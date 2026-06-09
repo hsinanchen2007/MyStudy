@@ -1,9 +1,9 @@
-### 解题思路
-升判利，降判基。一重循环。
+# ### 解题思路
+# 升判利，降判基。一重循环。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         if prices == []:
@@ -18,4 +18,4 @@ class Solution:
                 base = min(base,val)
             pre = val
         return profit
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-对字符排序，利用哈希表键进行比较，判断是否是字母异味词，然后用vector作为哈希表值进行id的记录。
+// ### 解题思路
+// 对字符排序，利用哈希表键进行比较，判断是否是字母异味词，然后用vector作为哈希表值进行id的记录。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
@@ -32,4 +32,4 @@ public:
         return vstrs ;
     }
 };
-```
+// ```

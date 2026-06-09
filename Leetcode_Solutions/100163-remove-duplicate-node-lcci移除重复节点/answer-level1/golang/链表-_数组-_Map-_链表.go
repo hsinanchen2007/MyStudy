@@ -1,9 +1,9 @@
-### 解题思路
-额，直接暴力解决（太菜了，不会用链表直接操作）
+// ### 解题思路
+// 额，直接暴力解决（太菜了，不会用链表直接操作）
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -38,4 +38,4 @@ func removeDuplicateNodes(head *ListNode) *ListNode {
 	}
 	return ansNode
 }
-```
+// ```

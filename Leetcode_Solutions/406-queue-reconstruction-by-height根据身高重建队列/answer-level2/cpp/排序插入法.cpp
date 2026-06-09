@@ -1,9 +1,9 @@
-### 解题思路
-先排序，再逐个插入
+// ### 解题思路
+// 先排序，再逐个插入
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
@@ -38,4 +38,4 @@ public:
         return vecResult;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-![image.png](https://pic.leetcode-cn.com/707d6c163b7b3c9de29f8bd2914069e47440f8485c705deddf4bdabc62d8a769-image.png)
+// ![image.png](https://pic.leetcode-cn.com/707d6c163b7b3c9de29f8bd2914069e47440f8485c705deddf4bdabc62d8a769-image.png)
 
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 var MaxQueue = function() {
   this.queue = [];
   this.maxValue = -1;
@@ -52,4 +52,4 @@ MaxQueue.prototype.pop_front = function() {
  * obj.push_back(value)
  * var param_3 = obj.pop_front()
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-    当前层的最大高度 等于子节点的最大高度加上1； 利用递归实现如下：
+// ### 解题思路
+//     当前层的最大高度 等于子节点的最大高度加上1； 利用递归实现如下：
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -20,4 +20,4 @@ public:
         return max(maxDepth(root->left), maxDepth(root->right)) + 1;
     }
 };
-```
+// ```

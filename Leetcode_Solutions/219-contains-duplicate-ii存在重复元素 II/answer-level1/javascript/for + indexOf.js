@@ -1,9 +1,9 @@
-### 解题思路
-循环nums,循环得当前值与除当前值以外第一个值相等得值得索引，两个索引相减对比k
+// ### 解题思路
+// 循环nums,循环得当前值与除当前值以外第一个值相等得值得索引，两个索引相减对比k
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} k
@@ -19,4 +19,4 @@ var containsNearbyDuplicate = function(nums, k) {
    }
    return false
 };
-```
+// ```

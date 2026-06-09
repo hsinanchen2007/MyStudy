@@ -1,10 +1,10 @@
-### 解题思路
-深度遍历思想进行回溯，遇到叶节点保存到列表
-输出列表
+# ### 解题思路
+# 深度遍历思想进行回溯，遇到叶节点保存到列表
+# 输出列表
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -27,4 +27,4 @@ class Solution:
             return None
         recurse(root,'')
         return self.ans
-```
+# ```

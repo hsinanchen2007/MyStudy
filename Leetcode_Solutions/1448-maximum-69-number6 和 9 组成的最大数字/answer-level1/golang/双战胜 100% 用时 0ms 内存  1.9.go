@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/0cc8a2239c78a83f841703472475ac3b165bf9f40e5e6373de898c1bfa6f0e4a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0cc8a2239c78a83f841703472475ac3b165bf9f40e5e6373de898c1bfa6f0e4a-image.png)
 
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maximum69Number (num int) int {
   
     index := 0
@@ -30,4 +30,4 @@ func maximum69Number (num int) int {
 
 
 
-```
+// ```

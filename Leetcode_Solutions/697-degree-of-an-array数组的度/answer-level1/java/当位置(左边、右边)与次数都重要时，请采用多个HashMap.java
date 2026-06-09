@@ -1,10 +1,10 @@
- ### 当位置和次数都重要时，请采用多个hashMap
-### 当位置和次数都重要时，请采用多个hashMap
-### 当位置和次数都重要时，请采用多个hashMap
+//  ### 当位置和次数都重要时，请采用多个hashMap
+// ### 当位置和次数都重要时，请采用多个hashMap
+// ### 当位置和次数都重要时，请采用多个hashMap
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {//次数和位置同样重要时，应该建立2个hashmap!!!
 
     public int findShortestSubArray(int[] nums) {
@@ -22,4 +22,4 @@ class Solution {//次数和位置同样重要时，应该建立2个hashmap!!!
         return res;
     }
 }
-```
+// ```

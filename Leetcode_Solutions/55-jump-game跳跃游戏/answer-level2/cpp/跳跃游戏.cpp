@@ -1,11 +1,11 @@
-1. i从倒数第二个开始数
-2. 当nums[i]为0的时候，j = i - 1
-    1. 当nums[j] <= (i - j)的时候j--;
-    2. 判断j是否小于0
-        1. 小于0则为false
-        2. 大于0则 i = j
+// 1. i从倒数第二个开始数
+// 2. 当nums[i]为0的时候，j = i - 1
+//     1. 当nums[j] <= (i - j)的时候j--;
+//     2. 判断j是否小于0
+//         1. 小于0则为false
+//         2. 大于0则 i = j
 
-```
+// ```
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -28,4 +28,4 @@ public:
         return flag;
     }
 };
-```
+// ```

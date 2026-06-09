@@ -1,9 +1,9 @@
-### 解题思路
-参见注释
+// ### 解题思路
+// 参见注释
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String[] spellchecker(String[] wordlist, String[] queries) {
         Set<String> equals = new HashSet<>();
@@ -58,4 +58,4 @@ class Solution {
                 || Character.toLowerCase(charAt) == 'u';
     }
 }
-```
+// ```

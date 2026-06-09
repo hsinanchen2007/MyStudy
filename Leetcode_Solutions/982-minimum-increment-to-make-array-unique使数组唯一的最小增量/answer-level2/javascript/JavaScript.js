@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-先排序，再计算需要自增的值
+// 先排序，再计算需要自增的值
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number}
@@ -21,4 +21,4 @@ var minIncrementForUnique = function(A) {
     }
     return res
 };
-```
+// ```

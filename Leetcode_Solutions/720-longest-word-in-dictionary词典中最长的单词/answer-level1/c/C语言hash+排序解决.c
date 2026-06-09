@@ -1,4 +1,4 @@
-```
+// ```
 
 typedef struct node{
     char word[31];
@@ -54,4 +54,4 @@ char * longestWord(char ** words, int wordsSize){
     return NULL;
 }
 
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1.将C[i]+D[j]的和放入查找表中，记录每个和出现的次数
-2.检查0-A[i]-B[j]的值是否在表中
-    如果在，结果加这个值出现的次数。
+// ### 解题思路
+// 1.将C[i]+D[j]的和放入查找表中，记录每个和出现的次数
+// 2.检查0-A[i]-B[j]的值是否在表中
+//     如果在，结果加这个值出现的次数。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int fourSumCount(vector<int>& A, vector<int>& B, vector<int>& C, vector<int>& D) {
@@ -27,4 +27,4 @@ public:
         return res;
     }
 };
-```
+// ```

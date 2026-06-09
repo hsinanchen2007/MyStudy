@@ -1,4 +1,4 @@
-```
+// ```
 func intersection(nums1 []int, nums2 []int) []int {
     nums1 = sortAndUniq(nums1)
     nums2 = sortAndUniq(nums2)
@@ -62,4 +62,4 @@ func sortAndUniq(nums []int) []int {
     
     return result
 }
-```
+// ```

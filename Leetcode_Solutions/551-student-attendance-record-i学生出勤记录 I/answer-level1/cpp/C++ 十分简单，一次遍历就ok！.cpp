@@ -1,6 +1,6 @@
-# C++，如下：
+// # C++，如下：
 
-```c++ []
+// ```c++ []
 bool checkRecord(string s) {
     int a = 0, l = 0;
     for (int i = 0; i < s.size(); i++) {
@@ -13,5 +13,5 @@ bool checkRecord(string s) {
     }
     return 1;
 }
-```
+// ```
 

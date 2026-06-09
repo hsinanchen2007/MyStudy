@@ -1,9 +1,9 @@
-### 解题思路
-根据先序遍历确定根节点，递归构造二叉树
+// ### 解题思路
+// 根据先序遍历确定根节点，递归构造二叉树
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -37,4 +37,4 @@ public:
         return bnode;
     }
 };
-```
+// ```

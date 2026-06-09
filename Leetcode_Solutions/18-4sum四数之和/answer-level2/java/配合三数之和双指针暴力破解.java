@@ -1,9 +1,9 @@
-### 解题思路
-配合三数之和暴力破解，没啥好说的
+// ### 解题思路
+// 配合三数之和暴力破解，没啥好说的
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
      public List<List<Integer>> fourSum(int[] nums, int target) {
         // 先排序
@@ -93,4 +93,4 @@ class Solution {
         return;
     }
 }
-```
+// ```

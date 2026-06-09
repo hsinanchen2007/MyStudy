@@ -1,5 +1,5 @@
-先中序遍历保存所有节点值到一个集合中，在通过递归创建一个递增顺序查找树
-```java
+// 先中序遍历保存所有节点值到一个集合中，在通过递归创建一个递增顺序查找树
+// ```java
 public class Solution {
     List<Integer> list = new ArrayList<>();
 
@@ -30,10 +30,10 @@ public class Solution {
         inOrder(node.right);
     }
 }
-```
+// ```
 
-从官方答案中受的启发，很巧妙的一种解法
-```java
+// 从官方答案中受的启发，很巧妙的一种解法
+// ```java
 public class Solution {
     TreeNode pre;
     public TreeNode increasingBST(TreeNode root) {
@@ -57,9 +57,9 @@ public class Solution {
         inOrder(node.right);
     }
 }
-```
-递归+引用传递
-```java
+// ```
+// 递归+引用传递
+// ```java
 public class Solution {
     public TreeNode increasingBST(TreeNode root) {
         if (root == null) {
@@ -87,4 +87,4 @@ public class Solution {
     }
 }
 
-```
+// ```

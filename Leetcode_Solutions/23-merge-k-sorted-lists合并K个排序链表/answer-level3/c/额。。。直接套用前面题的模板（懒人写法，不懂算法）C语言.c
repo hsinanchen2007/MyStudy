@@ -1,8 +1,8 @@
-# 数组存储+快排+创链赋值
-1.创建数组，将链表值全部传入
-2.对数组快排
-3.创建链表存储数组值
-```c
+// # 数组存储+快排+创链赋值
+// 1.创建数组，将链表值全部传入
+// 2.对数组快排
+// 3.创建链表存储数组值
+// ```c
 int cmp(const void *a,const void *b)
 {
     return *(int *)a-*(int *)b;
@@ -34,13 +34,13 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
     p->next=NULL;
     return res;
 }
-```
+// ```
 
-# Leetcode21合并两个有序链表->合并多个
-1.res返回链表置为空
-2.将res与lists每行链表合并，更新res
-3.返回res
-```c
+// # Leetcode21合并两个有序链表->合并多个
+// 1.res返回链表置为空
+// 2.将res与lists每行链表合并，更新res
+// 3.返回res
+// ```c
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     struct ListNode *head=(struct ListNode *)malloc(sizeof(struct ListNode)),*s=head;
     head->next=NULL;
@@ -89,13 +89,13 @@ struct ListNode* sortList(struct ListNode* head){
     return ans;
 }
 
-```
+// ```
 
-# Leetcode21合并两个有序链表->148排序链表->合并k个排序链表
-1.先创建链表合并
-2.链表排序
-3.返回链表
-```c
+// # Leetcode21合并两个有序链表->148排序链表->合并k个排序链表
+// 1.先创建链表合并
+// 2.链表排序
+// 3.返回链表
+// ```c
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     struct ListNode *head=(struct ListNode *)malloc(sizeof(struct ListNode)),*s=head;
     head->next=NULL;
@@ -167,4 +167,4 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize){
     res=res->next;
     return sortList(res);
 }
-```
+// ```

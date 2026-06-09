@@ -1,11 +1,11 @@
-### 解题思路
-执行用时 :84 ms, 在所有 Python3 提交中击败了99.00%的用户
-内存消耗 :16.3 MB, 在所有 Python3 提交中击败了18.33%的用户
+# ### 解题思路
+# 执行用时 :84 ms, 在所有 Python3 提交中击败了99.00%的用户
+# 内存消耗 :16.3 MB, 在所有 Python3 提交中击败了18.33%的用户
 
-从0开始进行BFS
-### 代码
+# 从0开始进行BFS
+# ### 代码
 
-```python3
+# ```python3
 from collections import deque
 
 
@@ -43,4 +43,4 @@ class Solution:
                 rooms[row][col+1] = rooms[row][col] + 1
 
         return rooms
-```
+# ```

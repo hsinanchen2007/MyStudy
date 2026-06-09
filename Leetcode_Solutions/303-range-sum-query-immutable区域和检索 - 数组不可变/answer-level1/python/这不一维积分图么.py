@@ -1,5 +1,5 @@
-做图像处理的人都知道积分图，这不就是一维的么
-```
+# 做图像处理的人都知道积分图，这不就是一维的么
+# ```
 class NumArray(object):
 
     def __init__(self, nums):
@@ -15,4 +15,4 @@ class NumArray(object):
         :rtype: int
         """
         return self.cacheLine[j] - self.cacheLine[i-1] if i != 0 else self.cacheLine[j]
-```
+# ```

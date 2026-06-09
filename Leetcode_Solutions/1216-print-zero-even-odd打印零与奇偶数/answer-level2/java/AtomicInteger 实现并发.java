@@ -1,4 +1,4 @@
-```
+// ```
 class ZeroEvenOdd {
     private int n;
     //ati用来控制下标
@@ -38,4 +38,4 @@ class ZeroEvenOdd {
         }
     }
 }
-```
+// ```

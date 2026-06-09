@@ -1,8 +1,8 @@
-### 解题思路
-用快排思想
-### 代码
+// ### 解题思路
+// 用快排思想
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] exchange(int[] nums) {
         int low = 0, high = nums.length - 1;
@@ -16,4 +16,4 @@ class Solution {
         return nums;
     }
 }
-```
+// ```

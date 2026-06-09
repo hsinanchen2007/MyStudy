@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def searchMatrix(matrix: Array[Array[Int]], target: Int): Boolean = {
     if (matrix.isEmpty || matrix(0).isEmpty) return false
@@ -12,4 +12,4 @@ object Solution {
     false
   }
 }
-```
+// ```

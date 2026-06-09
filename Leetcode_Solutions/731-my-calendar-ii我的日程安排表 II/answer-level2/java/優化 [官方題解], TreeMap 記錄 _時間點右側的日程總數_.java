@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-優化 [官方題解](https://leetcode-cn.com/problems/my-calendar-ii/solution/wo-de-ri-cheng-an-pai-biao-ii-by-leetcode/) 
-在 官方題解 中使用 treeMap 記錄日程的異動數, 造成每一次 booking 時 要對全部的記錄作查找。
-若將 treeMap 改成記錄 "時間點右側的日程總數", 則每一次 booking 時, 僅需對 start ~ end 內的記錄作修改即可。
+// 優化 [官方題解](https://leetcode-cn.com/problems/my-calendar-ii/solution/wo-de-ri-cheng-an-pai-biao-ii-by-leetcode/) 
+// 在 官方題解 中使用 treeMap 記錄日程的異動數, 造成每一次 booking 時 要對全部的記錄作查找。
+// 若將 treeMap 改成記錄 "時間點右側的日程總數", 則每一次 booking 時, 僅需對 start ~ end 內的記錄作修改即可。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyCalendarTwo {
 
     TreeMap<Integer,Integer> tm;//記錄時間點右側的日程總數
@@ -43,4 +43,4 @@ class MyCalendarTwo {
  * MyCalendarTwo obj = new MyCalendarTwo();
  * boolean param_1 = obj.book(start,end);
  */
-```
+// ```

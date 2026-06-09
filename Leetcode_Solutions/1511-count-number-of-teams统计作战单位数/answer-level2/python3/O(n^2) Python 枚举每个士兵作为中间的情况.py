@@ -1,5 +1,5 @@
 
-```
+# ```
 class Solution:
     def numTeams(self, rating: List[int]) -> int:
         n = len(rating)
@@ -25,4 +25,4 @@ class Solution:
             # 排列组合
             ans += l1*r1 + l2*r2
         return ans
-```
+# ```

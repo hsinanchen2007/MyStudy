@@ -1,9 +1,9 @@
-### 解题思路
-分治
+# ### 解题思路
+# 分治
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
         if not nums: return [-1, -1]
@@ -28,4 +28,4 @@ class Solution:
         elif nums[left] == target: rb = left
         else: return [-1,-1]
         return [lb, rb]
-```
+# ```

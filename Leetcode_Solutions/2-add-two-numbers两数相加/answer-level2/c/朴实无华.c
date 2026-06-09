@@ -1,5 +1,5 @@
-执行用时 :12 ms, 在所有 C 提交中击败了96.31%的用户
-内存消耗 :7.3 MB, 在所有 C 提交中击败了100.00%的用户
+// 执行用时 :12 ms, 在所有 C 提交中击败了96.31%的用户
+// 内存消耗 :7.3 MB, 在所有 C 提交中击败了100.00%的用户
 
 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){

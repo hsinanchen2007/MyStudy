@@ -1,11 +1,11 @@
-![2020010801.PNG](https://pic.leetcode-cn.com/a6fd1f3a585de4ce90ca7230fa92dda94f35f2f4dc5deedcbd8d9ea879eb3920-2020010801.PNG)
+// ![2020010801.PNG](https://pic.leetcode-cn.com/a6fd1f3a585de4ce90ca7230fa92dda94f35f2f4dc5deedcbd8d9ea879eb3920-2020010801.PNG)
 
-### 解题思路
-设置左指针(leftIndex,初始为0)和右指针(rightIndex,初始为A.length-1)
+// ### 解题思路
+// 设置左指针(leftIndex,初始为0)和右指针(rightIndex,初始为A.length-1)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] sortArrayByParity(int[] A) {
         // int[] out = new int[A.length];
@@ -38,4 +38,4 @@ class Solution {
         return A;
     }
 }
-```
+// ```

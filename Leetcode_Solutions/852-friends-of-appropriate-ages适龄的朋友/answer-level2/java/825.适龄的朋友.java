@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int numFriendRequests(int[] ages) {
         int[] statistic = new int[121];
@@ -18,4 +18,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

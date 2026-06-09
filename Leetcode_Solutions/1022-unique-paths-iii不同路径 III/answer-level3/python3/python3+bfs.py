@@ -1,7 +1,7 @@
-### 解题思路
-bfs+回溯,采用把二维化一维的办法进行状态压缩。
+# ### 解题思路
+# bfs+回溯,采用把二维化一维的办法进行状态压缩。
 
-```python3
+# ```python3
 class Solution:
     def uniquePathsIII(self, grid: List[List[int]]) -> int:
         def dfs(v,left):
@@ -40,11 +40,11 @@ class Solution:
                 elif grid[i][j] == -1:
                     left -= 1
         return dfs(start,left)
-```
+# ```
 
 
-采用位运算状态压缩
-```
+# 采用位运算状态压缩
+# ```
 class Solution:
     def uniquePathsIII(self, grid: List[List[int]]) -> int:
         def dfs(v,left,visited):
@@ -83,4 +83,4 @@ class Solution:
                 elif grid[i][j] == -1:
                     left -= 1
         return dfs(start,left,visited)
-```
+# ```

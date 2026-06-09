@@ -1,10 +1,10 @@
-### 解题思路
-写一个翻转链表函数reverseList。
-截取链表前k个节点，翻转，接着将后面剩余的链表节点递归调用reverseKGroup。结束条件：空链表或节点数不足k返回链表本身。
+// ### 解题思路
+// 写一个翻转链表函数reverseList。
+// 截取链表前k个节点，翻转，接着将后面剩余的链表节点递归调用reverseKGroup。结束条件：空链表或节点数不足k返回链表本身。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -47,4 +47,4 @@ public:
         return p1;
     }
 };
-```
+// ```

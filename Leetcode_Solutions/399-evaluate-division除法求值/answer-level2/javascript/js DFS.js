@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/2fffabd802527ad9b54e50a3ca782bb2322775c7980d1903d08fbb7a81337722-image.png)
+// ![image.png](https://pic.leetcode-cn.com/2fffabd802527ad9b54e50a3ca782bb2322775c7980d1903d08fbb7a81337722-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   dfs
   把已知条件构建为有向图，dfs 搜索每一条路径
   注意：已访问过的点就不要再访问了，不然会造成死循环
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[][]} equations
  * @param {number[]} values
@@ -78,4 +78,4 @@ var calcEquation = function(equations, values, queries) {
   
   return ans;
 }
-```
+// ```

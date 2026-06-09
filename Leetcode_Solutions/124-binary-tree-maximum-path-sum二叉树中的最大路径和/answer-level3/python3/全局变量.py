@@ -1,10 +1,10 @@
-## 思路:
+# ## 思路:
 
-这类题目, 都是[求树的高度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)的延伸版
+# 这类题目, 都是[求树的高度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)的延伸版
 
-直接看代码解释
+# 直接看代码解释
 
-```python [1]
+# ```python [1]
 def maxPathSum(self, root: TreeNode) -> int:
         self.res = float("-inf")
         def helper(root):
@@ -19,10 +19,10 @@ def maxPathSum(self, root: TreeNode) -> int:
             return max(0, max(left,  right) + root.val)
         helper(root)
         return self.res 
-```
+# ```
 
 
-```java [1]
+# ```java [1]
 class Solution {
     int res = Integer.MIN_VALUE;
 
@@ -39,5 +39,5 @@ class Solution {
         return Math.max(0, Math.max(left, right) + root.val);
     }
 }
-```
+# ```
 

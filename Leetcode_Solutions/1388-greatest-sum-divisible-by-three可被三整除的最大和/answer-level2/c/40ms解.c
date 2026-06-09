@@ -1,8 +1,8 @@
-把所有数字累加得到sum
-求sum%3是1还是2
-分别找出数组中最小的两个%3得1的数字和两个%3得2得数字
-再进行判断相减
-```
+// 把所有数字累加得到sum
+// 求sum%3是1还是2
+// 分别找出数组中最小的两个%3得1的数字和两个%3得2得数字
+// 再进行判断相减
+// ```
 int cmp(const void* a ,const void* b){
     return *(int*)a>*(int*)b;
 }
@@ -33,4 +33,4 @@ int maxSumDivThree(int* nums, int numsSize){
             return sum-b[0];
     return sum-a[0]-a[1];
 }
-```
+// ```

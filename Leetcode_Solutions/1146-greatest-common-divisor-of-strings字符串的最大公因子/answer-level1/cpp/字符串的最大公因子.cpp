@@ -1,9 +1,9 @@
-### 解题思路
-求两字符串长度的最大公约数
+// ### 解题思路
+// 求两字符串长度的最大公约数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string gcdOfStrings(string str1, string str2)
@@ -58,4 +58,4 @@ private:
 		return 1;
 	}
 };
-```
+// ```

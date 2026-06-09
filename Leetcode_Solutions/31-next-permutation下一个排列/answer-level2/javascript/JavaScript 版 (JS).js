@@ -1,8 +1,8 @@
->执行用时 :72 ms, 在所有 JavaScript 提交中击败了98.64%的用户
+// >执行用时 :72 ms, 在所有 JavaScript 提交中击败了98.64%的用户
 
-### Print all permutations in sorted (lexicographic) order
-我们应该先了解如何`print all permutations in sorted (lexicographic) order`。例如我们有一个数组`[1,2,3,4,5]`，其`permutations in sorted (lexicographic) order`应该是:
-```
+// ### Print all permutations in sorted (lexicographic) order
+// 我们应该先了解如何`print all permutations in sorted (lexicographic) order`。例如我们有一个数组`[1,2,3,4,5]`，其`permutations in sorted (lexicographic) order`应该是:
+// ```
 [ 1, 2, 3, 4, 5 ]
 [ 1, 2, 3, 5, 4 ]
 [ 1, 2, 4, 3, 5 ]
@@ -16,18 +16,18 @@
 [ 5, 4, 2, 3, 1 ]
 [ 5, 4, 3, 1, 2 ]
 [ 5, 4, 3, 2, 1 ]
-```
-根据其定义以及例子的提示，我们生成每个序列的步骤应该是:
+// ```
+// 根据其定义以及例子的提示，我们生成每个序列的步骤应该是:
 
-* 首先`sort`给定的`array`，并输出第一次数组（排序的第一个）。
-* 开始循环产生下一个`higher permutation`。
-     * 从右边开始检查，找到第一个比右值小的数字，设为`first number`。
-     * 从`first number`的右边开始，查找比`first number`大，而且相差最小的数字为`second number`。
-     * 交换`first number`和`second number`。
-     * 将`first number`之后的数组，即`nums[first + 1]`至`nums[length - 1]`，作升序排序。
-* 继续上面的循环直至数组为降序排序。
+// * 首先`sort`给定的`array`，并输出第一次数组（排序的第一个）。
+// * 开始循环产生下一个`higher permutation`。
+//      * 从右边开始检查，找到第一个比右值小的数字，设为`first number`。
+//      * 从`first number`的右边开始，查找比`first number`大，而且相差最小的数字为`second number`。
+//      * 交换`first number`和`second number`。
+//      * 将`first number`之后的数组，即`nums[first + 1]`至`nums[length - 1]`，作升序排序。
+// * 继续上面的循环直至数组为降序排序。
 
-``` JavaScript
+// ``` JavaScript
 var printPermutationInOrder = function (nums) {
     // 若需要排序
     nums.sort((a, b) => a - b);
@@ -70,13 +70,13 @@ var printPermutationInOrder = function (nums) {
     }
     swap(nums, -1);
 }
-```
+// ```
 
-### Print next permutations in sorted (lexicographic) order
+// ### Print next permutations in sorted (lexicographic) order
 
-当我们已经可以输出序列之后，需要输出下一个序列，只是讲上面提到的第二步做一次即可。当然题目中要求我们当不存在下一个序列，即数组为降序排列时，输出升序的结果。
+// 当我们已经可以输出序列之后，需要输出下一个序列，只是讲上面提到的第二步做一次即可。当然题目中要求我们当不存在下一个序列，即数组为降序排列时，输出升序的结果。
 
-```JavaScript
+// ```JavaScript
 /**
  * 
  * @param {number[]} nums
@@ -119,4 +119,4 @@ var nextPermutation = function (nums) {
 
     return nums.sort((a, b) => a - b);
 };
-```
+// ```

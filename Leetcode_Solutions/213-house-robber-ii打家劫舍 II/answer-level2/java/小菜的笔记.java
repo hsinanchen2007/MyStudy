@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-由于房子首尾相连。即做两次动态规划，偷第一个房间和不偷第一个房间，nums[0]-nums[len-2],nums[1]-nums[len-1]
+// ### 解题思路
+// 此处撰写解题思路
+// 由于房子首尾相连。即做两次动态规划，偷第一个房间和不偷第一个房间，nums[0]-nums[len-2],nums[1]-nums[len-1]
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int rob(int[] nums) {
         int len=nums.length;
@@ -30,4 +30,4 @@ class Solution {
 
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
 
-![image.png](https://pic.leetcode-cn.com/ce9abf4e7fee82210d3e8ab88906ee59be3aaf0c1e349b405fa8ee0d3368ae74-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ce9abf4e7fee82210d3e8ab88906ee59be3aaf0c1e349b405fa8ee0d3368ae74-image.png)
 
-因为该题在 bfs 探索中，看到题目直接奔 bfs 思路。提交后发现耗时短的代码有新思路，优化部分逻辑。
+// 因为该题在 bfs 探索中，看到题目直接奔 bfs 思路。提交后发现耗时短的代码有新思路，优化部分逻辑。
 
-- 寻找可达目标数字的 8 个状态
-- 可达目标的数字排除掉死亡数字
-- 剩余的即是合法数字，从 0000 到这些合法的数字旋转最少次数即为结果
+// - 寻找可达目标数字的 8 个状态
+// - 可达目标的数字排除掉死亡数字
+// - 剩余的即是合法数字，从 0000 到这些合法的数字旋转最少次数即为结果
 
-```java
+// ```java
 // 解题思路：寻找目标数对应的 8 个状态
 class Solution {
     public int openLock(String[] deadends, String target) {
@@ -41,4 +41,4 @@ class Solution {
         return step;
     }
 }
-```
+// ```

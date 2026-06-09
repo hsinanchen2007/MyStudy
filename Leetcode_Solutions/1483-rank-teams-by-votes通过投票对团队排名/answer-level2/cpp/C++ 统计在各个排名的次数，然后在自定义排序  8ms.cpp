@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 int len,n;
 int cnt[26+1][1005];
 bool cmp(int a,int b){
@@ -30,4 +30,4 @@ public:
         return res;
     }
 };
-```
+// ```

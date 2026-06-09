@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def addNegabinary(self, arr1: List[int], arr2: List[int]) -> List[int]:
         res = []
@@ -10,4 +10,4 @@ class Solution:
         while len(res) > 1 and res[-1] == 0:
             res.pop()
         return res[::-1]
-```
+# ```

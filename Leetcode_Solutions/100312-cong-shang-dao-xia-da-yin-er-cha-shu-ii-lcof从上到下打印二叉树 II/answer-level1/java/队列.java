@@ -1,7 +1,7 @@
-使用队列存储每一层的元素
+// 使用队列存储每一层的元素
 
-在打印上一层的元素之时，将下一层的元素存储进队列之中。
-```java
+// 在打印上一层的元素之时，将下一层的元素存储进队列之中。
+// ```java
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
@@ -27,4 +27,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

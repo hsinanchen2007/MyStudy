@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution(object):
     def reverseWords(self, s):
         """
@@ -8,4 +8,4 @@ class Solution(object):
         if not s:
             return ''
         return ' '.join(c for c in s.split(' ')[::-1] if c).strip()
-```
+# ```

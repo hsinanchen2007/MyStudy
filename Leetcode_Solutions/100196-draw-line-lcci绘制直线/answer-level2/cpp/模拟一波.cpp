@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> drawLine(int length, int w, int x1, int x2, int y) {
@@ -37,4 +37,4 @@ public:
         return ans;
     }
 };
-```
+// ```

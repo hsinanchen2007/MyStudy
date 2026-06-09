@@ -1,4 +1,4 @@
-```python
+# ```python
 def findPairs(nums, k):
     # 这里有一个细节需要注意的是: (1,3)等同于(3,1)
     # 所以我们无需将1,3都存储起来, 只要存储3即可. 因为k是确定的, 导致1也是确定的
@@ -18,4 +18,4 @@ def findPairs(nums, k):
 print(findPairs([3,1,4,1,5], 2))
 print(findPairs([1,2,3,4,5], 1))
 print(findPairs([1,3,1,5,4], 0))
-```
+# ```

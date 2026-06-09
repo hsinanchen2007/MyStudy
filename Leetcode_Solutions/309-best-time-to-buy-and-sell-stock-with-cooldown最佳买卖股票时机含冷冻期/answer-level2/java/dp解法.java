@@ -1,9 +1,9 @@
-### 解题思路
-dp[i][1] = max(dp[i-1][0], dp[i-2][0] - prices[i])
+// ### 解题思路
+// dp[i][1] = max(dp[i-1][0], dp[i-2][0] - prices[i])
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int[] prices) {
         int n = prices.length;
@@ -22,4 +22,4 @@ class Solution {
         return dp[n-1][0];
     }
 }
-```
+// ```

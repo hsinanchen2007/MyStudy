@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-遍历两个链表，逐个比较并合并
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 遍历两个链表，逐个比较并合并
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -43,4 +43,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

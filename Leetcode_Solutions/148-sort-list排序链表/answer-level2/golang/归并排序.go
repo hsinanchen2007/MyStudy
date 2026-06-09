@@ -1,9 +1,9 @@
-### 解题思路
-自底向上进行归并操作.
+// ### 解题思路
+// 自底向上进行归并操作.
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -81,4 +81,4 @@ func mergeList(l, r *ListNode) (*ListNode, *ListNode) {
 	return h.Next, p
 }
 
-```
+// ```

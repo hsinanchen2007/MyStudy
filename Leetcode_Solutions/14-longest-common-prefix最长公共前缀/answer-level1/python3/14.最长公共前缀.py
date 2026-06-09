@@ -1,5 +1,5 @@
-先找到最短的字符串去遍历list中每个字符的相同位置字符是否一致。同时动态修改相同字符边界
-```
+# 先找到最短的字符串去遍历list中每个字符的相同位置字符是否一致。同时动态修改相同字符边界
+# ```
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
 
@@ -24,4 +24,4 @@ class Solution:
                         break
 
         return base_str[:break_loc]
-```
+# ```

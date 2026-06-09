@@ -1,4 +1,4 @@
-```
+// ```
 遍历一遍完了以后得到:
 map<int, vector<pair<int, int>> 
 存储的结构.
@@ -6,9 +6,9 @@ map<int, vector<pair<int, int>>
 第一个int 为x
 第二个int 为y, 我使用向下递增的形式
 第三个int 为node->val
-```
+// ```
 
-```
+// ```
 class Solution 
 {
 public:
@@ -42,9 +42,9 @@ public:
         }
     }
 };
-```
+// ```
 
-```
+// ```
 执行用时 : 8 ms, 在Vertical Order Traversal of a Binary Tree的C++提交中击败了100.00% 的用户
 内存消耗 : 14.7 MB, 在Vertical Order Traversal of a Binary Tree的C++提交中击败了39.62% 的用户
-```
+// ```

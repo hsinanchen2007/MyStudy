@@ -1,4 +1,4 @@
-```python []
+# ```python []
 from typing import List
 
 class Solution:
@@ -50,4 +50,4 @@ def quickSort(nums: List[int], start: int, end: int):
     quickSort(nums, start, left - 1)
     quickSort(nums, right + 1, end)    
     return
-```
+# ```

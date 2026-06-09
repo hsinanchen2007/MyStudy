@@ -1,5 +1,5 @@
-先排序，再输出。
-```
+// 先排序，再输出。
+// ```
 typedef struct _Data{
     int index;
     int val;
@@ -41,4 +41,4 @@ char ** findRelativeRanks(int* nums, int numsSize, int* returnSize){
     }
     return res;
 }
-```
+// ```

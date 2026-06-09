@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/55e8423324bb9cf8879182b3721bcd1af3ace4aa1fe721e79d59d4927e5f6fe6-image.png)
-每次判断遍历到的字母是不是元音字母。为了简洁，还可以将元音字母放入hashmap中，不过会占用一定内存。
-```
+// ![image.png](https://pic.leetcode-cn.com/55e8423324bb9cf8879182b3721bcd1af3ace4aa1fe721e79d59d4927e5f6fe6-image.png)
+// 每次判断遍历到的字母是不是元音字母。为了简洁，还可以将元音字母放入hashmap中，不过会占用一定内存。
+// ```
 public  String reverseVowels(String s) {
             if (s==null || s.length()<2)
                 return s;
@@ -22,4 +22,4 @@ public  String reverseVowels(String s) {
             }
             return new String(chars);
         }
-```
+// ```

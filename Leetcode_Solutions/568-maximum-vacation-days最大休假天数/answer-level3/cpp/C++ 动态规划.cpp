@@ -1,6 +1,6 @@
-状态压缩动态规划
-`dp[i] 代表在该周呆在i城市的最大休假天数`
-```c++ []
+// 状态压缩动态规划
+// `dp[i] 代表在该周呆在i城市的最大休假天数`
+// ```c++ []
 class Solution {
 public:
     int maxVacationDays(vector<vector<int>>& flights, vector<vector<int>>& days) {
@@ -22,6 +22,6 @@ public:
         return *max_element(dp.begin(), dp.end()) - 1;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/60f72ab1d90ad5a29090aa2d18c238252833420824c28e4a87960a9a6351fd7e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/60f72ab1d90ad5a29090aa2d18c238252833420824c28e4a87960a9a6351fd7e-image.png)

@@ -1,9 +1,9 @@
-以左下角为起点开始查找
-1. 当前值小于target，则target在当前值右侧，j++
-2. 当前值大于target，则target在当前值上侧，i--
-3. 若相等，则返回true
-4. 遍历结束没有找到，则返回false
-```
+// 以左下角为起点开始查找
+// 1. 当前值小于target，则target在当前值右侧，j++
+// 2. 当前值大于target，则target在当前值上侧，i--
+// 3. 若相等，则返回true
+// 4. 遍历结束没有找到，则返回false
+// ```
 class Solution {
 public:
     bool findNumberIn2DArray(vector<vector<int>>& matrix, int target) {
@@ -17,4 +17,4 @@ public:
         return false;
     }
 };
-```
+// ```

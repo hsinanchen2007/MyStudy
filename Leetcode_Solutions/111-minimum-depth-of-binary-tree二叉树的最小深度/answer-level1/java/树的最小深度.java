@@ -1,10 +1,10 @@
-### 解题思路
-这个也是在树的遍历基础上的题。
-叶子节点才可以计算深度。
+// ### 解题思路
+// 这个也是在树的遍历基础上的题。
+// 叶子节点才可以计算深度。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -34,4 +34,4 @@ class Solution {
         return this.depth;
     }
 }
-```
+// ```

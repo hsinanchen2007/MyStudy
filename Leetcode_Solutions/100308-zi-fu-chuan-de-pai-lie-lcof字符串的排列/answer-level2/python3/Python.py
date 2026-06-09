@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/2d618b94e598a9afd834d2cbc2ccd2f8aa5d0836188cb04fd12c154546865cce-image.png)
+# ![image.png](https://pic.leetcode-cn.com/2d618b94e598a9afd834d2cbc2ccd2f8aa5d0836188cb04fd12c154546865cce-image.png)
 
 
-```
+# ```
 class Solution:
     def permutation(self, s: str) -> List[str]:
         res = []    # 定义全局变量保存最终结果
@@ -23,4 +23,4 @@ class Solution:
                 back(state+s[i],s[:i]+s[i+1:])
         back(state,s)
         return res
-```
+# ```

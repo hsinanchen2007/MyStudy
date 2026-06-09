@@ -1,9 +1,9 @@
-### 解题思路
-和[面试题09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)一样
+// ### 解题思路
+// 和[面试题09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)一样
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyQueue struct {
     stack1 []int
     stack2 []int
@@ -64,4 +64,4 @@ func (this *MyQueue) Empty() bool {
  * param_3 := obj.Peek();
  * param_4 := obj.Empty();
  */
-```
+// ```

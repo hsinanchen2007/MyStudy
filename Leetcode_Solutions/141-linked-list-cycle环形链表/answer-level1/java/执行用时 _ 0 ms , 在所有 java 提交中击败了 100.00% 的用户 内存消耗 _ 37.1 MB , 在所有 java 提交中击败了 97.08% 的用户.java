@@ -1,9 +1,9 @@
-### 解题思路
-操场跑步，跑得快的最后肯定多跑一圈追上跑的慢的。
+// ### 解题思路
+// 操场跑步，跑得快的最后肯定多跑一圈追上跑的慢的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -34,4 +34,4 @@ public class Solution {
         return false;
     }
 }
-```
+// ```

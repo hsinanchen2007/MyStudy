@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isNumber(string s) {
@@ -53,4 +53,4 @@ public:
         return s[j] == 'e' || s[j] == '+' || s[j] == '-'|| d ? false:true;
     }
 };
-```
+// ```

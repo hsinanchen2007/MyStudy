@@ -1,4 +1,4 @@
-```
+// ```
 public int mySqrt(int x) {
 
         if (x == 0) {
@@ -20,5 +20,5 @@ public int mySqrt(int x) {
 
         return (int) right;
     }
-```
-感觉这个除法比乘法好一点，不容易溢出。不过加法还是溢出了，只能转成long
+// ```
+// 感觉这个除法比乘法好一点，不容易溢出。不过加法还是溢出了，只能转成long

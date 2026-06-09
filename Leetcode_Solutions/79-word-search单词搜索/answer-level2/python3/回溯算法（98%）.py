@@ -1,5 +1,5 @@
-不加par(模式判断，判断是否有可能组成word)时间是600ms,加了以后速度提升到250ms(98%)
-```
+# 不加par(模式判断，判断是否有可能组成word)时间是600ms,加了以后速度提升到250ms(98%)
+# ```
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         if word == "":
@@ -66,4 +66,4 @@ class Solution:
             if solve(tem,1,[tem]) == True:
                 return True
         return False
-```
+# ```

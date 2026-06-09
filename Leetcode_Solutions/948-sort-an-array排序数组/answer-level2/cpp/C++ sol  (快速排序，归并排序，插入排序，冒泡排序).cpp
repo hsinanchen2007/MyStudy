@@ -1,12 +1,12 @@
-### 解题思路
+// ### 解题思路
 
-1. 需要提醒的是，对于”插入排序“来说，链表的版本需要多练习一下（需要注意！）
-2. 链表版本的插入排序需要多加练习，因为 1）加深对链表操作的理解 2）熟悉如何在链表中进行节点交换 3）熟悉插入排序
-3. 可以参考 [https://leetcode-cn.com/problems/insertion-sort-list/solution/c-sol-by-silverblg-51/](https://leetcode-cn.com/problems/insertion-sort-list/solution/c-sol-by-silverblg-51/)
+// 1. 需要提醒的是，对于”插入排序“来说，链表的版本需要多练习一下（需要注意！）
+// 2. 链表版本的插入排序需要多加练习，因为 1）加深对链表操作的理解 2）熟悉如何在链表中进行节点交换 3）熟悉插入排序
+// 3. 可以参考 [https://leetcode-cn.com/problems/insertion-sort-list/solution/c-sol-by-silverblg-51/](https://leetcode-cn.com/problems/insertion-sort-list/solution/c-sol-by-silverblg-51/)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 // 快速排序 O(nlgn), 空间复杂度 O(lgn) <- 每次操作的空间复杂度是O(1)，因此单纯取决于栈深度
 class Solution {
 public:
@@ -158,4 +158,4 @@ public:
     }
 };
 */
-```
+// ```

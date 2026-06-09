@@ -1,9 +1,9 @@
-### 解题思路
-用切片模拟栈来实现
+// ### 解题思路
+// 用切片模拟栈来实现
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestValidParentheses(s string) int {
     var num=1
     var nums []int=[]int{-1}
@@ -34,4 +34,4 @@ func res(data int,data1 int) int{
     }
     return data1
 }
-```
+// ```

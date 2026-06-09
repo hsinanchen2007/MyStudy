@@ -1,13 +1,13 @@
-### 解题思路
-设置 i 和 j 两个 头尾指针，
-nums[i] 小于等于后面 nums[i + 1]~nums[j]所有元素时，
-说明nums[i]在最终位置上,此时 i++，
-nums[j] 大于等于前面 nums[i]~ nums[j - 1]，说明nums[j] 已经在最终位置上，此时j--，
-即从大的数组缩小范围到更小的子数组，
+// ### 解题思路
+// 设置 i 和 j 两个 头尾指针，
+// nums[i] 小于等于后面 nums[i + 1]~nums[j]所有元素时，
+// 说明nums[i]在最终位置上,此时 i++，
+// nums[j] 大于等于前面 nums[i]~ nums[j - 1]，说明nums[j] 已经在最终位置上，此时j--，
+// 即从大的数组缩小范围到更小的子数组，
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findUnsortedSubarray(vector<int>& nums) {
@@ -53,4 +53,4 @@ public:
             return j - i + 1;
     }
 };
-```
+// ```

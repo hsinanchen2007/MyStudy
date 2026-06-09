@@ -1,5 +1,5 @@
-# 一、迭代法
-```
+// # 一、迭代法
+// ```
 class Solution {
     /* 迭代法
         依次遍历每个结点，将该结点 next 指向上一个结点
@@ -27,9 +27,9 @@ class Solution {
         return pre
     }
 }
-```
-# 二、递归法
-```
+// ```
+// # 二、递归法
+// ```
 class Solution {
     /* 递归法
         反转 n1->n2->...->nm，相当于反转 n1->(nil<-n2<-...<-nm)
@@ -55,4 +55,4 @@ class Solution {
         return node
     }
 }
-```
+// ```

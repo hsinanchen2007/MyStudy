@@ -1,6 +1,6 @@
-方法1： 异或运算法
+// 方法1： 异或运算法
 
-```
+// ```
 class Solution {
 public:
     int bitwiseComplement(int N) {
@@ -22,14 +22,14 @@ public:
         return N;
     }
 };
-```
+// ```
 
 
-方法2： 高位差值法
+// 方法2： 高位差值法
 
-方法2是看评论学会的，很巧妙～
+// 方法2是看评论学会的，很巧妙～
 
-```
+// ```
 class Solution {
 public:
     int bitwiseComplement(int N) {
@@ -45,5 +45,5 @@ public:
         
     }
 };
-```
+// ```
 

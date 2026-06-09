@@ -1,10 +1,10 @@
-### 解题思路
-栈保存当前层节点信息
-当前层无节点退出
+# ### 解题思路
+# 栈保存当前层节点信息
+# 当前层无节点退出
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode(object):
 #     def __init__(self, x):
@@ -40,4 +40,4 @@ class Solution(object):
         
             
             
-```
+# ```

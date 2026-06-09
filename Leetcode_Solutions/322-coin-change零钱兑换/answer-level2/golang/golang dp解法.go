@@ -1,10 +1,10 @@
-### 解题思路
-dp[i] = MIN(dp[i-j])+1,其中，j∈{coins}
+// ### 解题思路
+// dp[i] = MIN(dp[i-j])+1,其中，j∈{coins}
 
-### 代码
-执行用时 :12 ms, 在所有 Go 提交中击败了75.94%的用户
-内存消耗 :6 MB, 在所有 Go 提交中击败了81.75%的用户
-```golang
+// ### 代码
+// 执行用时 :12 ms, 在所有 Go 提交中击败了75.94%的用户
+// 内存消耗 :6 MB, 在所有 Go 提交中击败了81.75%的用户
+// ```golang
 
 func coinChange(coins []int, amount int) int {
 	if len(coins) == 0 {
@@ -36,4 +36,4 @@ func coinChange(coins []int, amount int) int {
 	}
 	return dp[amount]
 }
-```
+// ```

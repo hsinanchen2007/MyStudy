@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/fd20f4285e73a4ce8df72da13d26037499336005c2838869885d67362f5904d7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/fd20f4285e73a4ce8df72da13d26037499336005c2838869885d67362f5904d7-image.png)
 
-```
+// ```
 public  boolean isLongPressedName(String name, String typed) {
             if (typed==null||name==null)
                 return false;
@@ -32,4 +32,4 @@ public  boolean isLongPressedName(String name, String typed) {
             return false;
 
     }
-```
+// ```

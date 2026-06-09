@@ -1,10 +1,10 @@
-![2020020601.PNG](https://pic.leetcode-cn.com/5596d0f372a177fc36775097487129ea9ec3874672423eb26ee40500995caf96-2020020601.PNG)
-### 解题思路
+// ![2020020601.PNG](https://pic.leetcode-cn.com/5596d0f372a177fc36775097487129ea9ec3874672423eb26ee40500995caf96-2020020601.PNG)
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
     	String out ="";
@@ -37,4 +37,4 @@ class Solution {
         return out;
     }
 }
-```
+// ```

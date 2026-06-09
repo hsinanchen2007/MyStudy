@@ -1,7 +1,7 @@
-思路：利用递归寻找
+# 思路：利用递归寻找
 
-代码：
-```
+# 代码：
+# ```
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
         
@@ -20,4 +20,4 @@ class Solution:
                 return True
             num2 = num % 2
             num = num // 2
-```
+# ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def myAtoi(self, str: str) -> int:
         INT_MAX = 2147483647
@@ -39,4 +39,4 @@ class Solution:
                 return INT_MIN*-1
         else:
             return ret * sign
-```
+# ```

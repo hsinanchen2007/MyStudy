@@ -1,4 +1,4 @@
-```
+// ```
 func mirrorTree(root *TreeNode) *TreeNode {
 	if root == nil {
 		return nil
@@ -8,4 +8,4 @@ func mirrorTree(root *TreeNode) *TreeNode {
 	mirrorTree(root.Right)
 	return root
 }
-```
+// ```

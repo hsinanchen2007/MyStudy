@@ -1,8 +1,8 @@
-1. 从头节点开始，获取第一个不重复的节点，记为newHead
-2. 递归调用删除重复元素方法，从newHead.next开始，获取第一个不重复的节点，并赋值给newHead.next
-3. 调用至链表末尾，结束
-4. 返回newHead，即为删除重复元素之后的链表
-```
+// 1. 从头节点开始，获取第一个不重复的节点，记为newHead
+// 2. 递归调用删除重复元素方法，从newHead.next开始，获取第一个不重复的节点，并赋值给newHead.next
+// 3. 调用至链表末尾，结束
+// 4. 返回newHead，即为删除重复元素之后的链表
+// ```
 public ListNode deleteDuplicates(ListNode head) {
     ListNode newHead = getFirst(head);
     if (newHead != null) {
@@ -27,4 +27,4 @@ private ListNode getFirst(ListNode head) {
     // 递归调用，获取子链表的第一个不重复元素
     return getFirst(head.next);
 }
-```
+// ```

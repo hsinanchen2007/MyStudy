@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Trie {
 private:
   Trie* next[26];
@@ -48,4 +48,4 @@ public:
  * WordsFrequency* obj = new WordsFrequency(book);
  * int param_1 = obj->get(word);
  */
-```
+// ```

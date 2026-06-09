@@ -1,9 +1,9 @@
-### 解题思路
-两个栈模拟队列，可以画个图加深理解。
+// ### 解题思路
+// 两个栈模拟队列，可以画个图加深理解。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class MyQueue {
 
     Stack<Integer> stackIn;
@@ -57,4 +57,4 @@ class MyQueue {
  * int param_3 = obj.peek();
  * boolean param_4 = obj.empty();
  */
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-用一维列表(flag)保存前面的信息，其中下标表示行，内容表示列。
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 用一维列表(flag)保存前面的信息，其中下标表示行，内容表示列。
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         checkerboard = [['.'] * n for _ in range(n)]
@@ -30,4 +30,4 @@ class Solution:
                     flag[raw] = 0
         DFS(0, checkerboard, flag)
         return res
-```
+# ```

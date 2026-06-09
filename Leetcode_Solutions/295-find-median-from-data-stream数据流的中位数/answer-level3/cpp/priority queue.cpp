@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 #include <queue>
 using namespace std;
 class MedianFinder {
@@ -45,4 +45,4 @@ public:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
-```
+// ```

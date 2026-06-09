@@ -1,11 +1,11 @@
-### 解题思路
+# ### 解题思路
 
-kick the card. 
-Again, I will give you source. 
+# kick the card. 
+# Again, I will give you source. 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         if len(A)==0:
@@ -23,4 +23,4 @@ class Solution:
                 now=num
         return out
 
-```
+# ```

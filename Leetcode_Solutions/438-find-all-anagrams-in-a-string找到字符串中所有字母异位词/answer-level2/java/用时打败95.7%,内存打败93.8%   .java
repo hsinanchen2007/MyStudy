@@ -1,4 +1,4 @@
-```
+// ```
 public List<Integer> findAnagrams(String s, String p) {
         List<Integer> list = new ArrayList<>();
         int[] dictionary = new int[26];
@@ -39,4 +39,4 @@ private boolean isequ(int[] dictionary,int[] res){
     }
      return true;
 }
-```
+// ```

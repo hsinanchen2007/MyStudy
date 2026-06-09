@@ -1,13 +1,13 @@
 
- * Map<当前值, 当前值对应 List 下标>
- * List[下标] = 当前值
+//  * Map<当前值, 当前值对应 List 下标>
+//  * List[下标] = 当前值
 
- * 因为随机访问，所以哈希不支持，需要配合列表实现。
- * 随机访问的特性，需要列表保证能动态的删除值，收缩长度。
- * 删除时操作参考 remove 方法注释
+//  * 因为随机访问，所以哈希不支持，需要配合列表实现。
+//  * 随机访问的特性，需要列表保证能动态的删除值，收缩长度。
+//  * 删除时操作参考 remove 方法注释
 
-### 代码
-```java
+// ### 代码
+// ```java
 class RandomizedSet {
     private final Map<Integer, Integer> map = new HashMap<>();
     private final List<Integer> list = new ArrayList<>();
@@ -50,4 +50,4 @@ class RandomizedSet {
         return list.isEmpty() ? -1 : list.get(random.nextInt(list.size()));
     }
 }
-```
+// ```

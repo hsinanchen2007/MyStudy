@@ -1,10 +1,10 @@
-![QQ20200111-225454.png](https://pic.leetcode-cn.com/cd313b79452dc430217abb1b3cf7cd4dac71f74430297fdab60d188a21fb7601-QQ20200111-225454.png)
+// ![QQ20200111-225454.png](https://pic.leetcode-cn.com/cd313b79452dc430217abb1b3cf7cd4dac71f74430297fdab60d188a21fb7601-QQ20200111-225454.png)
 
-### 堆栈消除 [Go技术博客](https://mojotv.cn/go/golang-2fa)
+// ### 堆栈消除 [Go技术博客](https://mojotv.cn/go/golang-2fa)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isValid(s string) bool {
     stack := make([]byte,len(s))
     sln :=0
@@ -37,4 +37,4 @@ func isValid(s string) bool {
     return sln == 0
     
 }
-```
+// ```

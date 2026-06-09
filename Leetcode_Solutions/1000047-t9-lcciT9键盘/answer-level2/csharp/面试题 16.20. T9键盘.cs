@@ -1,9 +1,9 @@
-### 解题思路
-双百 双重循环
+// ### 解题思路
+// 双百 双重循环
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public IList<string> GetValidT9Words(string num, string[] words) {
         var numMap = num.Select(c => c - '0').ToArray();
@@ -26,4 +26,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

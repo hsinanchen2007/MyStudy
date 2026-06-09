@@ -1,6 +1,6 @@
-![Screenshot from 2020-03-30 12-48-17.png](https://pic.leetcode-cn.com/d81225eedd5a62b340eaa249db4c7290d95b774e70770917a353faf9c5bf9646-Screenshot%20from%202020-03-30%2012-48-17.png)
+// ![Screenshot from 2020-03-30 12-48-17.png](https://pic.leetcode-cn.com/d81225eedd5a62b340eaa249db4c7290d95b774e70770917a353faf9c5bf9646-Screenshot%20from%202020-03-30%2012-48-17.png)
 
-```c
+// ```c
 #define MAX_SIZE 100
 typedef struct
 {
@@ -74,4 +74,4 @@ void myQueueFree(MyQueue *obj)
 {
     free(obj);
 }
-```
+// ```

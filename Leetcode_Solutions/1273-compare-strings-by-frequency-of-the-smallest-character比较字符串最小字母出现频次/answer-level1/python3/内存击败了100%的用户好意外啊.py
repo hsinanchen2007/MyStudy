@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/db356426e29ed84965194ae3426072cee08f84c44f1393b61c351437407466fa-image.png)
+# ![image.png](https://pic.leetcode-cn.com/db356426e29ed84965194ae3426072cee08f84c44f1393b61c351437407466fa-image.png)
 
-```python []
+# ```python []
 class Solution:
     def count(self,word):
         alpha = 'abcdefghijklmnopqrstuvwxyz'
@@ -29,4 +29,4 @@ class Solution:
         
         return res
             
-```
+# ```

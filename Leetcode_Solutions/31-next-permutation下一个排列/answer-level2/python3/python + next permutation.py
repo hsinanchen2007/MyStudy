@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
@@ -17,4 +17,4 @@ class Solution:
                     nums[cur + 1:] =  sorted(nums[cur + 1:])
                     break
                 index -= 1
-```
+# ```

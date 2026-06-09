@@ -1,14 +1,14 @@
-## 思路:
+# ## 思路:
 
-递归:顺序,左右根
+# 递归:顺序,左右根
 
-迭代:用栈,再用一个指针模拟访问过程
+# 迭代:用栈,再用一个指针模拟访问过程
 
-## 代码:
+# ## 代码:
 
-递归
+# 递归
 
-```python [1]
+# ```python [1]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -28,11 +28,11 @@ class Solution:
         helper(root)
         return res
         
-```
+# ```
 
 
 
-```java [1]
+# ```java [1]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -56,11 +56,11 @@ class Solution {
         helper(root.right, res);
     }
 }
-```
+# ```
 
-迭代
+# 迭代
 
-```python [2]
+# ```python [2]
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -86,11 +86,11 @@ class Solution:
             p = p.right
         return res
 
-```
+# ```
 
 
 
-```java [2]
+# ```java [2]
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -117,27 +117,27 @@ class Solution {
         return res;
     }
 }
-```
+# ```
 
 
 
-------
+# ------
 
-还有二叉树的前序,中序,后序,层序遍历的递归和迭代,一起打包送个你们!嘻嘻
+# 还有二叉树的前序,中序,后序,层序遍历的递归和迭代,一起打包送个你们!嘻嘻
 
- [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+#  [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 
- **思路:**
+#  **思路:**
 
-递归:就是依次输出根,左,右,递归下去
+# 递归:就是依次输出根,左,右,递归下去
 
-迭代:使用栈来完成,我们先将根节点放入栈中,然后将其弹出,依次将该弹出的节点的右节点,和左节点,**注意顺序,**是右,左,为什么?因为栈是先入后出的,我们要先输出右节点,所以让它先进栈.
+# 迭代:使用栈来完成,我们先将根节点放入栈中,然后将其弹出,依次将该弹出的节点的右节点,和左节点,**注意顺序,**是右,左,为什么?因为栈是先入后出的,我们要先输出右节点,所以让它先进栈.
 
-**代码:**
+# **代码:**
 
-递归:
+# 递归:
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -156,11 +156,11 @@ class Solution:
             helper(root.right)
         helper(root)
         return res
-```
+# ```
 
-迭代:
+# 迭代:
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -182,21 +182,21 @@ class Solution:
             if node.left:
                 stack.append(node.left)
         return res
-```
+# ```
 
-[145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
+# [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 
- **思路:**
+#  **思路:**
 
-递归:同理,顺序:左,右,根
+# 递归:同理,顺序:左,右,根
 
-迭代:这就很上面的先序一样,我们可以改变入栈的顺序,刚才先序是从右到左,我们这次从左到右,最后得到的结果取逆.
+# 迭代:这就很上面的先序一样,我们可以改变入栈的顺序,刚才先序是从右到左,我们这次从左到右,最后得到的结果取逆.
 
- **代码:**
+#  **代码:**
 
-**递归:**
+# **递归:**
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -215,11 +215,11 @@ class Solution:
             res.append(root.val)
         helper(root)
         return res
-```
+# ```
 
-**迭代:**
+# **迭代:**
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -241,21 +241,21 @@ class Solution:
                 stack.append(node.right)
             res.append(node.val)
         return res[::-1]
-```
+# ```
 
- [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
+#  [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 
-**思路:**
+# **思路:**
 
-递归:顺序,左右根
+# 递归:顺序,左右根
 
-非递归:这次我们用一个指针模拟过程
+# 非递归:这次我们用一个指针模拟过程
 
- **代码:**
+#  **代码:**
 
-**递归**:
+# **递归**:
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -278,11 +278,11 @@ class Solution:
             helper(root.right)
         helper(root)
         return res
-```
+# ```
 
-**迭代**:
+# **迭代**:
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -309,17 +309,17 @@ class Solution:
             res.append(cur.val)
             cur = cur.right
         return res
-```
+# ```
 
- [102. 二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
+#  [102. 二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/)
 
- **思路:**
+#  **思路:**
 
-非常典型的BFS
+# 非常典型的BFS
 
- **代码:**
+#  **代码:**
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -350,5 +350,5 @@ class Solution:
             res.append(temp)
             cur_level = next_level
         return res
-```
+# ```
 

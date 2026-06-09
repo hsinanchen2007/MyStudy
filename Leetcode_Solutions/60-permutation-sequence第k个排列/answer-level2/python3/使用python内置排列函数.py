@@ -1,4 +1,4 @@
-```
+# ```
 import itertools
 from functools import reduce
 class Solution:
@@ -20,4 +20,4 @@ class Solution:
                     return str(flag + 1) + ''.join(each)
         except:
             return str(n)
-```
+# ```

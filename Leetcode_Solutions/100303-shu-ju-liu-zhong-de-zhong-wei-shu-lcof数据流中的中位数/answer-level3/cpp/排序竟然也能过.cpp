@@ -1,4 +1,4 @@
-```
+// ```
 class MedianFinder {
 public:
     /** initialize your data structure here. */
@@ -36,4 +36,4 @@ public:
  * obj->addNum(num);
  * double param_2 = obj->findMedian();
  */
-```
+// ```

@@ -1,16 +1,16 @@
-![image.png](https://pic.leetcode-cn.com/5e4844c9ffe35eb2ba2c79983dd93015a73cc9067d4ede487b65f208b798bcc6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5e4844c9ffe35eb2ba2c79983dd93015a73cc9067d4ede487b65f208b798bcc6-image.png)
 
-### 解题思路
-```javascript
+// ### 解题思路
+// ```javascript
 - 建议如果对前缀树和DFS不熟悉的同学，可以先做一下前面递归、DFS、设计前缀树的题目
 1.创建前缀树
 2.将所有单词插入到前缀树中
 3.对每一个单词，在前缀树中进行查找，如果找到它为多个单词组成，那么即为连接词
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string[]} words
  * @return {string[]}
@@ -97,4 +97,4 @@ var findAllConcatenatedWordsInADict = function(words) {
   
   return ans;
 };
-```
+// ```

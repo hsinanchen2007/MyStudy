@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isMatch(s string, p string) bool {
     var match func(i,j int)bool
     match=func(i,j int)bool{
@@ -21,4 +21,4 @@ func isMatch(s string, p string) bool {
     }
     return match(0,0)
 }
-```
+// ```

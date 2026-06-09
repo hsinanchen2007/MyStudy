@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def monotoneIncreasingDigits(self, N: int) -> int:
         str1 = str(N)
@@ -31,4 +31,4 @@ class Solution:
             return(int(str4))
         
         
-```
+# ```

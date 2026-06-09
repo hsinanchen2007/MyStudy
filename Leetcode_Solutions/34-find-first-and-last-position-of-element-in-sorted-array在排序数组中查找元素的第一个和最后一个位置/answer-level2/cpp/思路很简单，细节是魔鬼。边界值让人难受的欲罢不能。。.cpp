@@ -1,9 +1,9 @@
-### 解题思路
-参考评论区大佬的。。。哎。边界值让人头痛死。
+// ### 解题思路
+// 参考评论区大佬的。。。哎。边界值让人头痛死。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> searchRange(vector<int>& nums, int target) {
@@ -43,4 +43,4 @@ public:
     return result;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-没啥特别的
+# ### 解题思路
+# 没啥特别的
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def subtractProductAndSum(self, n: int) -> int:
         sums , product = 0 , 1
@@ -13,4 +13,4 @@ class Solution:
             n //= 10
         return product - sums
 
-```
+# ```

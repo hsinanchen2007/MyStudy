@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d677a84b706be858805c0990af41480150c8dfb187eff4a38284adf90c9bdc63-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d677a84b706be858805c0990af41480150c8dfb187eff4a38284adf90c9bdc63-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool canPermutePalindrome(string s) {
@@ -14,4 +14,4 @@ public:
         return c<=1;
     }
 };
-```
+// ```

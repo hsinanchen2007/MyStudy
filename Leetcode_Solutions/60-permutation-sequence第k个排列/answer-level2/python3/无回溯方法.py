@@ -1,6 +1,6 @@
-# 每次找到其所属的堆，然后迭代下去
+# # 每次找到其所属的堆，然后迭代下去
 
-```python
+# ```python
 
 class Solution:
     def getPermutation(self, n: int, k: int) -> str:
@@ -23,4 +23,4 @@ class Solution:
         
         result += str(dig_no_use[0])  # 将最后剩下的加到最后
         return result
-```
+# ```

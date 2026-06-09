@@ -1,5 +1,5 @@
-## 贝祖定理：
---a*x+b*y = m;有整数解x和y的充要条件是：m是a和b的最大公约数的倍数
+// ## 贝祖定理：
+// --a*x+b*y = m;有整数解x和y的充要条件是：m是a和b的最大公约数的倍数
 public class Solution {
   public bool CanMeasureWater(int x, int y, int z)
     {

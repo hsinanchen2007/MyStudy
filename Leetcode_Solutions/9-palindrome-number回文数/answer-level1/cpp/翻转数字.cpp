@@ -1,9 +1,9 @@
-### 解题思路
-翻转数字
+// ### 解题思路
+// 翻转数字
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -26,4 +26,4 @@ public:
             return false;     
     }
 };
-```
+// ```

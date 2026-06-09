@@ -1,6 +1,6 @@
-**N次的输出，需要进行N-1次循环，每次对上次字符进行访问和分析，累加得到字符串**
+# **N次的输出，需要进行N-1次循环，每次对上次字符进行访问和分析，累加得到字符串**
 
-```
+# ```
 class Solution:
     def countAndSay(self, n: int) -> str:
         if n == 1:
@@ -19,4 +19,4 @@ class Solution:
                 res += str(cnt) + a[-1]
                 a = res
             return res
-```
+# ```

@@ -1,8 +1,8 @@
-#### 二叉树
-+ [二叉树的前、中、后序遍历 - 解法大全](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/demos/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%89%E5%BA%8F%E9%81%8D%E5%8E%86.md)
-#### 解法一：递归
-+ [思路同 105. 从前序与中序遍历序列构造二叉树 - 解法一](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/105-cong-qian-xu-yu-zhong-xu-bian-li-xu-lie-gou--6/)
-```javascript
+// #### 二叉树
+// + [二叉树的前、中、后序遍历 - 解法大全](https://github.com/Alex660/Algorithms-and-data-structures/blob/master/demos/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%89%E5%BA%8F%E9%81%8D%E5%8E%86.md)
+// #### 解法一：递归
+// + [思路同 105. 从前序与中序遍历序列构造二叉树 - 解法一](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/105-cong-qian-xu-yu-zhong-xu-bian-li-xu-lie-gou--6/)
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -24,10 +24,10 @@ var buildTree = function(inorder, postorder) {
     root.right = buildTree(inorder.slice(mid + 1),postorder.slice(mid,n-1))
     return root
 };
-```
-#### 解法二：递归简便版
-+ [思路同 105. 从前序与中序遍历序列构造二叉树 - 解法二](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/105-cong-qian-xu-yu-zhong-xu-bian-li-xu-lie-gou--6/)
-```javascript
+// ```
+// #### 解法二：递归简便版
+// + [思路同 105. 从前序与中序遍历序列构造二叉树 - 解法二](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/105-cong-qian-xu-yu-zhong-xu-bian-li-xu-lie-gou--6/)
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -51,10 +51,10 @@ var buildTree = function(inorder, postorder) {
     }
     return build(inorder)
 };
-```
-#### 解法三：参考解法
-+ [思路同 105. 从前序与中序遍历序列构造二叉树 - 解法三](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/105-cong-qian-xu-yu-zhong-xu-bian-li-xu-lie-gou--6/)
-```javascript
+// ```
+// #### 解法三：参考解法
+// + [思路同 105. 从前序与中序遍历序列构造二叉树 - 解法三](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/105-cong-qian-xu-yu-zhong-xu-bian-li-xu-lie-gou--6/)
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -81,4 +81,4 @@ var buildTree = function(inorder, postorder) {
     }
     return build()
 };
-```
+// ```

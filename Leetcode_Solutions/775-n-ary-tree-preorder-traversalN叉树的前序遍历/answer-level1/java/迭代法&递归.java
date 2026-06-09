@@ -1,6 +1,6 @@
 
 
-```
+// ```
 //迭代法，用栈
 import java.util.LinkedList;
 import java.util.Deque;
@@ -29,8 +29,8 @@ class Solution {
         
     }
 }
-```
-```
+// ```
+// ```
 //递归
 class Solution {
     List<Integer> res=new LinkedList<Integer>();
@@ -44,5 +44,5 @@ class Solution {
     }
     
 }
-```
+// ```
 

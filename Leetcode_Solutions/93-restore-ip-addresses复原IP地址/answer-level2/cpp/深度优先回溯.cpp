@@ -1,9 +1,9 @@
-### 解题思路
-和取出多个回文串类似
+// ### 解题思路
+// 和取出多个回文串类似
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> restoreIpAddresses(string s) {
@@ -64,4 +64,4 @@ public:
         return true;
     }
 };
-```
+// ```

@@ -1,17 +1,17 @@
-```
+// ```
 k个节点一组反转相当于对k个节点每次把头节点放在尾部节点后面，
 所以只需要3个指针分别指向头节点的前一个节点pre，头节点p和尾部节点q,循环k-1此就把一组k长度节点链表反转。
-```
+// ```
 
  
-- 例如 k=3 
-- head = [1,2,3,4,5]
-- 每组循环k-1 = 2次  [1,2,3]
-- [1,2,3]--> [2,3,1]-->[3,2,1]
-- [4,5]长度小于3不用循环
-- 结果 [3,2,1,4,5]
+// - 例如 k=3 
+// - head = [1,2,3,4,5]
+// - 每组循环k-1 = 2次  [1,2,3]
+// - [1,2,3]--> [2,3,1]-->[3,2,1]
+// - [4,5]长度小于3不用循环
+// - 结果 [3,2,1,4,5]
 
-```java []
+// ```java []
 public ListNode reverseKGroup(ListNode head, int k) {
         ListNode preHead = new ListNode(0);
         preHead.next = head;
@@ -58,5 +58,5 @@ public ListNode reverseKGroup(ListNode head, int k) {
         }
         return res;
     }
-```
+// ```
 

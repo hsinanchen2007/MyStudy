@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -16,4 +16,4 @@ func invertTree(root *TreeNode) *TreeNode {
     root.Left,root.Right = root.Right,root.Left
     return root
 }
-```
+// ```

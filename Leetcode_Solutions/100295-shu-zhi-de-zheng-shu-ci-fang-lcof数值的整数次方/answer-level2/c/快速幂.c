@@ -1,8 +1,8 @@
-### 解题思路
-快速幂
-### 代码
+// ### 解题思路
+// 快速幂
+// ### 代码
 
-```c
+// ```c
 double power(double x,long long n)
 {
     double out=1;
@@ -49,4 +49,4 @@ double myPow(double x, int n){
 
 }
 
-```
+// ```

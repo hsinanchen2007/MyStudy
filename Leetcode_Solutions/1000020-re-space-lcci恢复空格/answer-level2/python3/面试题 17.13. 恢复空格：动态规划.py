@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-动归部分倒是简单的很，就是背包变种而已。
+# 动归部分倒是简单的很，就是背包变种而已。
 
-1000规模的$O(N^2)$竟然比AC自动机快。。
+# 1000规模的$O(N^2)$竟然比AC自动机快。。
 
-### 代码
+# ### 代码
 
-```python []
+# ```python []
 class Solution:
     def respace(self, dictionary: List[str], sentence: str) -> int:
         dictionary = {*dictionary}
@@ -18,9 +18,9 @@ class Solution:
                 if sentence[j: i] in dictionary:
                     d[i] = min(d[i], d[j])
         return d[-1] - 1
-```
+# ```
 
-```python []
+# ```python []
 class TrieNode:
     def __init__(self, value=None):
         self.value = value
@@ -100,4 +100,4 @@ class Solution:
             for j in model[i]:
                 d[i] = min(d[i], d[j])
         return d[-1] - 1
-```
+# ```

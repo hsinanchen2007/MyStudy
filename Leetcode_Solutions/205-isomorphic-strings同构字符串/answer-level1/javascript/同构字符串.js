@@ -1,4 +1,4 @@
-```js
+// ```js
 var isIsomorphic = function(s, t) {
     if (s === t) {
         return true
@@ -10,4 +10,4 @@ var isIsomorphic = function(s, t) {
     }
     return true
 };
-```
+// ```

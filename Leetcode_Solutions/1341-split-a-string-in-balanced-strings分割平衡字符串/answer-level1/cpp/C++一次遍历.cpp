@@ -1,5 +1,5 @@
-这道题简单得很，没什么好说的
-```
+// 这道题简单得很，没什么好说的
+// ```
 class Solution {
 public:
     int balancedStringSplit(string s) {
@@ -13,4 +13,4 @@ public:
         return sum;
     }
 };
-```
+// ```

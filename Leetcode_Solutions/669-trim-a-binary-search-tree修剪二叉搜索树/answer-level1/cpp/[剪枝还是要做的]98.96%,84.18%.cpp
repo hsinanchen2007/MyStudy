@@ -1,11 +1,11 @@
-### 解题思路
-题解里不剪枝直接返回子节点的，相当于少打一行代码，单却把冗余推栈里了，遍历完再返回成品，区别如下
-![跑分](https://pic.leetcode-cn.com/4ea0e353be25378543b77ccfd8da8b6e218e96cde99868b71b68f42fffbef4fb-Screenshot%202020-03-06%20at%205.23.18%20PM.png)
+// ### 解题思路
+// 题解里不剪枝直接返回子节点的，相当于少打一行代码，单却把冗余推栈里了，遍历完再返回成品，区别如下
+// ![跑分](https://pic.leetcode-cn.com/4ea0e353be25378543b77ccfd8da8b6e218e96cde99868b71b68f42fffbef4fb-Screenshot%202020-03-06%20at%205.23.18%20PM.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -44,4 +44,4 @@ private:
         return root;
     }
 };
-```
+// ```

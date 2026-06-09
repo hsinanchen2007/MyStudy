@@ -1,13 +1,13 @@
-### 解题思路
-1、针对传入数组nums进行快速排序
-2、将排序后的数组去重
-3、针对唯一递增的数组，查找最大连续长度的序列
-![image.png](https://pic.leetcode-cn.com/e3b566a20dc285b4e0eb89a35cfc5a955d30b9556d5522a05bbbb5bffdb7a52e-image.png)
+// ### 解题思路
+// 1、针对传入数组nums进行快速排序
+// 2、将排序后的数组去重
+// 3、针对唯一递增的数组，查找最大连续长度的序列
+// ![image.png](https://pic.leetcode-cn.com/e3b566a20dc285b4e0eb89a35cfc5a955d30b9556d5522a05bbbb5bffdb7a52e-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 // 针对超大型负数相减越界问题，利用大于号&&小于号实现快速排序
 int cmp(const void* a, const void* b)
 {
@@ -66,4 +66,4 @@ int longestConsecutive(int* nums, int numsSize){
     free(remove_dup);
 	return max_con;
 }
-```
+// ```

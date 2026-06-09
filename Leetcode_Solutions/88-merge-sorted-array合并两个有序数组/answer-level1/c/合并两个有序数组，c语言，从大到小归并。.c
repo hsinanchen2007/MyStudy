@@ -1,9 +1,9 @@
-### 解题思路
-数组1后边是空的，两个数组归并就从大的开始往数组1里头塞就完事
+// ### 解题思路
+// 数组1后边是空的，两个数组归并就从大的开始往数组1里头塞就完事
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int i = m+n-1;
     n--;m--;
@@ -18,4 +18,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
         nums1[i--] = nums2[n--];
     }
 }
-```
+// ```

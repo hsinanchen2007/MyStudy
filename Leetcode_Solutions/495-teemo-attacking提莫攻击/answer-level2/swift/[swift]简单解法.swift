@@ -1,4 +1,4 @@
-```swift
+// ```swift
 class Solution {
     func findPoisonedDuration(_ timeSeries: [Int], _ duration: Int) -> Int {
         guard timeSeries.count > 1 else {
@@ -11,4 +11,4 @@ class Solution {
         return ans
     }
 }
-```
+// ```

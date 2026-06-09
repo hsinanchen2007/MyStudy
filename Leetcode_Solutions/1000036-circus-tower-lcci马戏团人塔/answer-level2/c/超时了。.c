@@ -1,4 +1,4 @@
-```
+// ```
 #define MAX(a, b) (a) > (b) ? (a) : (b)
 
 typedef struct Person
@@ -63,4 +63,4 @@ int bestSeqAtIndex(int* height, int heightSize, int* weight, int weightSize)
     qsort(person, heightSize, sizeof(person[0]), bestCmp);
     return LengthOfLIS(person, heightSize);
 }
-```
+// ```

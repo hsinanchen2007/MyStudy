@@ -1,6 +1,6 @@
-思路就是按照二分法求解
+# 思路就是按照二分法求解
 
-```
+# ```
 class Solution(object):
     def searchRange(self, nums, target):
         """
@@ -25,4 +25,4 @@ class Solution(object):
             else:
                 end = end - 1
         return [-1,-1]
-```
+# ```

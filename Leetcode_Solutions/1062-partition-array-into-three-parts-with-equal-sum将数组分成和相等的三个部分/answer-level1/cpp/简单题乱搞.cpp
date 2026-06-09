@@ -1,5 +1,5 @@
-- 简单题咋做都行
-```c++
+// - 简单题咋做都行
+// ```c++
 class Solution {
 public:
     bool canThreePartsEqualSum(vector<int>& A) {
@@ -23,4 +23,4 @@ public:
 
     }
 };
-```
+// ```

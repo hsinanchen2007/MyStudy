@@ -1,4 +1,4 @@
-```
+// ```
 var findLHS = function(nums) {
     let obj = {};
     let max = 0;
@@ -16,4 +16,4 @@ var findLHS = function(nums) {
     }
     return max
 };
-```
+// ```

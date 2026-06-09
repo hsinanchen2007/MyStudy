@@ -1,4 +1,4 @@
-```
+# ```
 '''
 以 n=4 为例 k=7为例子 由于k从1开始变为从0开始 k = k - 1 = 6 li = [1,2,3,4]：
 1： 1234
@@ -54,7 +54,7 @@ class Solution(object):
         li = list(range(1,n+1))
         self.get(n,k,li)
         return self.ans
-```
-执行用时 : 24 ms, 在Permutation Sequence的Python提交中击败了93.42% 的用户
-内存消耗 : 11.6 MB, 在Permutation Sequence的Python提交中击败了48.78% 的用户
+# ```
+# 执行用时 : 24 ms, 在Permutation Sequence的Python提交中击败了93.42% 的用户
+# 内存消耗 : 11.6 MB, 在Permutation Sequence的Python提交中击败了48.78% 的用户
 

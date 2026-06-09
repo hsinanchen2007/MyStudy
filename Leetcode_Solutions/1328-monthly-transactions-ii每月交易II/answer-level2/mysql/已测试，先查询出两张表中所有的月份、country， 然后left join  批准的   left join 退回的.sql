@@ -1,4 +1,4 @@
-select distinct  a.month, a.country,ifnull(b.approved_count,0) as approved_count,    # 加了distinct，是最终结果中可能会有重复值
+-- select distinct  a.month, a.country,ifnull(b.approved_count,0) as approved_count,    # 加了distinct，是最终结果中可能会有重复值
 ifnull(b.approved_amount,0) as approved_amount, ifnull(c.chargeback_count,0) as chargeback_count,
  ifnull(c.chargeback_amount,0) as chargeback_amount
 

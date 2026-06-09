@@ -1,10 +1,10 @@
-### 解题思路
-集思广益，0-1BFS
-![image.png](https://pic.leetcode-cn.com/e061a21ffdf336de63bcaff3a9e800f8d0b977b863c558adfa330f5cfb94a2a3-image.png)
+// ### 解题思路
+// 集思广益，0-1BFS
+// ![image.png](https://pic.leetcode-cn.com/e061a21ffdf336de63bcaff3a9e800f8d0b977b863c558adfa330f5cfb94a2a3-image.png)
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minCost(int[][] grid) {
         int m=grid.length;
@@ -41,4 +41,4 @@ class Solution {
         return cost[m-1][n-1];
     }
 }
-```
+// ```

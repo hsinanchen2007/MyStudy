@@ -1,4 +1,4 @@
-```
+// ```
 #define ALPHABET_SIZE 26
 
 typedef struct Trie {
@@ -103,4 +103,4 @@ int minimumLengthEncoding(char ** words, int wordsSize){
     freeTrie(trie);
     return g_counts;
 }
-```
+// ```

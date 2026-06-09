@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
         out_degree = {}
@@ -22,4 +22,4 @@ class Solution:
                 return key
         return -1
 
-```
+# ```

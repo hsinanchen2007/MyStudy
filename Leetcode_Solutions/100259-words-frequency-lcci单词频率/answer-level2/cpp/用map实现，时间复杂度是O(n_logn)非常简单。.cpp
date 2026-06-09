@@ -1,9 +1,9 @@
-### 解题思路
-直接统计出现的次数，提供后面查询
+// ### 解题思路
+// 直接统计出现的次数，提供后面查询
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class WordsFrequency {
 private:
     map<string, int> mBook;
@@ -29,4 +29,4 @@ public:
  * WordsFrequency* obj = new WordsFrequency(book);
  * int param_1 = obj->get(word);
  */
-```
+// ```

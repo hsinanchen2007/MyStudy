@@ -1,13 +1,13 @@
-### 解题思路
-最难懂的就是这个平衡
+// ### 解题思路
+// 最难懂的就是这个平衡
 
-if(abs($left-$right)>1){
-     $bool = false;
-}
+// if(abs($left-$right)>1){
+//      $bool = false;
+// }
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 /**
  * Definition for a binary tree node.
  * class TreeNode {
@@ -41,4 +41,4 @@ class Solution {
         return $right>$left?$right+1:$left+1;
     }
 }
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-插入的时候排好序，
-查询的时候：
-按照时间分钟，小时或者天, 用interval表示，从starttime开始
-遍历范围starttime+interval, starttime+2*interval, ... endtime
-- 二分查找范围开始时间在队列中的位置s, 以及结束时间在队列中的位置e, 这个时间范围内的推特数量就是e-s
+# ### 解题思路
+# 插入的时候排好序，
+# 查询的时候：
+# 按照时间分钟，小时或者天, 用interval表示，从starttime开始
+# 遍历范围starttime+interval, starttime+2*interval, ... endtime
+# - 二分查找范围开始时间在队列中的位置s, 以及结束时间在队列中的位置e, 这个时间范围内的推特数量就是e-s
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class TweetCounts:
 
     def __init__(self):
@@ -25,4 +25,4 @@ class TweetCounts:
             r_bound = min(endTime+1, l_bound+interval)
             res.append(bisect.bisect_right(tweet, r_bound-1) - bisect.bisect_left(tweet, l_bound))
         return res
-```
+# ```

@@ -1,8 +1,8 @@
-### 解题思路
-看具体代码哈~思路很清晰
-三种方法，我冥思苦想的另外两种方法从思路上更加清奇，竟然没有库函数快。。。
-### 代码
-```c
+// ### 解题思路
+// 看具体代码哈~思路很清晰
+// 三种方法，我冥思苦想的另外两种方法从思路上更加清奇，竟然没有库函数快。。。
+// ### 代码
+// ```c
 //调用库函数
 int cmp(const void *_a,const void* _b)
 {
@@ -12,9 +12,9 @@ int findKthLargest(int* nums, int numsSize, int k){
     qsort(nums,numsSize,sizeof(int),cmp);
     return nums[numsSize-k];
 }
-```
-我们只要把定位好的元素的下标和k-1比较即可，因为快排的核心就是每次确定一个元素的最终下标
-```c
+// ```
+// 我们只要把定位好的元素的下标和k-1比较即可，因为快排的核心就是每次确定一个元素的最终下标
+// ```c
 //快排
 int QuickSort(int *nums,int low,int high,int k)
 {
@@ -37,9 +37,9 @@ int findKthLargest(int* nums, int numsSize, int k){
     int i;
     return result;
 }
-```
-堆排序，我们建立一个大顶堆之后，我们每次把堆顶去掉，然后调整k-1次，那么调整之后的堆顶必然是我们的目标元素了。
-```c
+// ```
+// 堆排序，我们建立一个大顶堆之后，我们每次把堆顶去掉，然后调整k-1次，那么调整之后的堆顶必然是我们的目标元素了。
+// ```c
 //堆排序
 void Adjust(int *nums,int k,int len)
 {
@@ -81,4 +81,4 @@ int findKthLargest(int* nums, int numsSize, int k){
 }
 
 
-```
+// ```

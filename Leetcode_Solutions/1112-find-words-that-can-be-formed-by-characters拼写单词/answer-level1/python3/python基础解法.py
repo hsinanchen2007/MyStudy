@@ -1,9 +1,9 @@
-### 解题思路
-统计字符和每个word的字符，比较
+# ### 解题思路
+# 统计字符和每个word的字符，比较
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         chars_cnt = collections.Counter(chars)
@@ -16,4 +16,4 @@ class Solution:
             else:
                 ans += len(word)
         return ans  
-```
+# ```

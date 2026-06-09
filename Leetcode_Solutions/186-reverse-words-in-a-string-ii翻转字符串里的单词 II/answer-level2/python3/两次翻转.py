@@ -1,9 +1,9 @@
 
 
-两次翻转
-整体翻转后对每个单词翻转
+# 两次翻转
+# 整体翻转后对每个单词翻转
 
-```
+# ```
 class Solution:
     def reverseWords(self, s: List[str]) -> None:
         """
@@ -21,5 +21,5 @@ class Solution:
                 i = j+1
             j+=1
         return s
-```
+# ```
 

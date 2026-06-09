@@ -1,9 +1,9 @@
-### 解题思路
-nums[i] = nums[j]  && j - j <= k  则true
+// ### 解题思路
+// nums[i] = nums[j]  && j - j <= k  则true
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         for(int i = 0; i < nums.length; i++){
@@ -15,4 +15,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

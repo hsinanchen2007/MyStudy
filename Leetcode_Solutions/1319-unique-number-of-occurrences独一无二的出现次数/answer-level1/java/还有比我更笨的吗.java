@@ -1,9 +1,9 @@
-### 解题思路
-应该是没了
+// ### 解题思路
+// 应该是没了
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean uniqueOccurrences(int[] arr) {
          boolean res=true;
@@ -49,4 +49,4 @@ class Solution {
         
     }
 }
-```
+// ```

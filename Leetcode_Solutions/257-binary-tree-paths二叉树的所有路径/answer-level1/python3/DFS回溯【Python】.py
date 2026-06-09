@@ -1,16 +1,16 @@
-### 思路
+# ### 思路
 
-**DFS**
+# **DFS**
 
-```
+# ```
 递归模板题。
 先访问根节点，再判断分别左右子树。
 如果是叶子节点，就保存到 ans 中，如果不是就加入到 path 中，继续访问直到到达叶子节点为止。
-```
+# ```
 
-##### Python3代码
+# ##### Python3代码
 
-```python
+# ```python
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -33,8 +33,8 @@ class Solution:
             self.dfs(root.left, ans, path + '->' + str(root.left.val))
         if root.right != None:
             self.dfs(root.right, ans, path + '->' + str(root.right.val))
-```
+# ```
 
-### 代码地址
+# ### 代码地址
 
-[GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0257-Binary-Tree-Paths/0257.py)
+# [GitHub链接](https://github.com/Wonz5130/LeetCode-Solutions/blob/master/solutions/0257-Binary-Tree-Paths/0257.py)

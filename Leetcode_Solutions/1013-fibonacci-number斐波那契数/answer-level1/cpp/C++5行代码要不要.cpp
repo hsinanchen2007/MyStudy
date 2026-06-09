@@ -1,12 +1,12 @@
-### 解题思路
-思路：本题和面试题10-I【[斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/solution/c5xing-dai-ma-shuang-10000ni-yao-bu-yao-by-fan-hua/)】和面试题10-II【[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/solution/c4xing-dai-ma-shuang-10000ni-yao-bu-yao-by-wangxia/)】思路一模一样。
+// ### 解题思路
+// 思路：本题和面试题10-I【[斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/solution/c5xing-dai-ma-shuang-10000ni-yao-bu-yao-by-fan-hua/)】和面试题10-II【[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/solution/c4xing-dai-ma-shuang-10000ni-yao-bu-yao-by-wangxia/)】思路一模一样。
 
-本题有【递归】和【动态规划】两种解法，思路清晰，代码简单带注释，均5行解决。
+// 本题有【递归】和【动态规划】两种解法，思路清晰，代码简单带注释，均5行解决。
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int fib(int N) {
@@ -28,4 +28,4 @@ public:
         */
     }
 };
-```
+// ```

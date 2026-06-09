@@ -1,10 +1,10 @@
-### 解题思路
-![5288ccf540b5599d734f398ac21188f.png](https://pic.leetcode-cn.com/894e42324f11c68cedd666c72adbcf5d45ee62fdd9cda70346ccc9c017e74f72-5288ccf540b5599d734f398ac21188f.png)
+// ### 解题思路
+// ![5288ccf540b5599d734f398ac21188f.png](https://pic.leetcode-cn.com/894e42324f11c68cedd666c72adbcf5d45ee62fdd9cda70346ccc9c017e74f72-5288ccf540b5599d734f398ac21188f.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMaxAverage(vector<int>& nums, int k) {
@@ -22,4 +22,4 @@ public:
         return maxn * 1.0 / k;
     }
 };
-```
+// ```

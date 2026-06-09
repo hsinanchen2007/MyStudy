@@ -1,4 +1,4 @@
-```
+// ```
 struct CarStruct{
     int pos;
     float time;
@@ -38,4 +38,4 @@ public:
         return group;
     }
 };
-```
+// ```

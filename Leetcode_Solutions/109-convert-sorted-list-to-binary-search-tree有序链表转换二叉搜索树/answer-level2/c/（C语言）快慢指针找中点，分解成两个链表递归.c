@@ -1,8 +1,8 @@
-### 解题思路
-slow指向中点，pre指向slow的前一个结点。令pre->next=null，分解成两个链表head和slow->next。
-### 代码
+// ### 解题思路
+// slow指向中点，pre指向slow的前一个结点。令pre->next=null，分解成两个链表head和slow->next。
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -46,4 +46,4 @@ struct TreeNode* sortedListToBST(struct ListNode* head){
 
     return root;
 }
-```
+// ```

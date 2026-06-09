@@ -1,4 +1,4 @@
-````
+// ````
 package problem0476
 
 // 101 ^ 111 = 010
@@ -14,4 +14,4 @@ func findComplement(num int) int {
 	return num ^ base
 }
 
-````
+// ````

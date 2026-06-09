@@ -1,12 +1,12 @@
-### 解题思路
-二分查找变形，套模板
-- 分别定义找左边界和找右边界的函数；
-- 比常规的二分查找多一次判断，即判断当前mid和其旁边（左或右）是否相等；
-- 若不相等，则找到边界；若相等，继续二分；
+# ### 解题思路
+# 二分查找变形，套模板
+# - 分别定义找左边界和找右边界的函数；
+# - 比常规的二分查找多一次判断，即判断当前mid和其旁边（左或右）是否相等；
+# - 若不相等，则找到边界；若相等，继续二分；
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def binarySearchLeft(self, nums, target):
         left, right = 0, len(nums)-1
@@ -58,4 +58,4 @@ class Solution:
         right_bound = self.binarySearchRight(nums, target)
         return [left_bound, right_bound]
 
-```
+# ```

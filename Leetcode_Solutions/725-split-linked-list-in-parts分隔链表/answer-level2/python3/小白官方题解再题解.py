@@ -1,4 +1,4 @@
-```
+# ```
 '''
 LeetCode 725. 分隔链表
 Given a (singly) linked list with head node root,
@@ -135,4 +135,4 @@ if __name__ == "__main__":
     out = s.splitListToParts(l1, k)
     for i in range(k):
         printList(out[i])
-```
+# ```

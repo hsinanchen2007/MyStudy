@@ -1,10 +1,10 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/41408cc9afffc4cc02a3b498260e8907fd9272755f86d360a1a8bf0fbbd6cb93-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/41408cc9afffc4cc02a3b498260e8907fd9272755f86d360a1a8bf0fbbd6cb93-image.png)
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} pushed
  * @param {number[]} popped
@@ -35,4 +35,4 @@ var validateStackSequences = function(pushed, popped) {
     if(auxiliaryStack.length === 0) return true;
     return false;
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def calPoints(self, ops):
         """
@@ -21,4 +21,4 @@ class Solution(object):
                 result += int(i)
                 temp.append(int(i))
         return result
-```
+# ```

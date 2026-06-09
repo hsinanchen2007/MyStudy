@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def myAtoi(self, str: str) -> int:
         flag1 = 0
@@ -39,4 +39,4 @@ class Solution:
             return -2147483648
         else:
             return res
-```
+# ```

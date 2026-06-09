@@ -1,4 +1,4 @@
-```
+// ```
 func findContinuousSequence(target int) [][]int {
     ret := make([][]int, 0)
     half := target / 2 + 1
@@ -27,4 +27,4 @@ func findContinuousSequence(target int) [][]int {
     }
     return ret
 }
-```
+// ```

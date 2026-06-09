@@ -1,9 +1,9 @@
-### 解题思路  用一个队列记录树中的每层结点。
+// ### 解题思路  用一个队列记录树中的每层结点。
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -31,4 +31,4 @@ class Solution {
         return leftNode.val;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-递归遍历一遍，每层记录对应的层级
+// ### 解题思路
+// 递归遍历一遍，每层记录对应的层级
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -35,4 +35,4 @@ var levelOrder = function(root) {
     traversal(root,0)
     return res
 };
-```
+// ```

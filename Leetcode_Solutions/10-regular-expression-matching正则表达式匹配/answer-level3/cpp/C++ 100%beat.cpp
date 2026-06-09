@@ -1,5 +1,5 @@
-具体思路过程精算题解都有，我就用C++实现一下
-```c++
+// 具体思路过程精算题解都有，我就用C++实现一下
+// ```c++
 class Solution {
 public:
     bool isMatch(string s, string p) {
@@ -34,4 +34,4 @@ public:
         return dp[m][n];
     }
 };
-```
+// ```

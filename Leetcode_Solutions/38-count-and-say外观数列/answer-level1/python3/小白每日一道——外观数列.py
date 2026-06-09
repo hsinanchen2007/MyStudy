@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-递归
+# 递归
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countAndSay(self, n):
         """
@@ -28,4 +28,4 @@ class Solution(object):
             
             init = temp # 更新初始值
         return init
-```
+# ```

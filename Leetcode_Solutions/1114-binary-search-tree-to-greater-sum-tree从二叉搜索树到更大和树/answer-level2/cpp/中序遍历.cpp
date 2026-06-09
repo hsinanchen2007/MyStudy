@@ -1,9 +1,9 @@
-### 解题思路
-第一次中序遍历对节点自动排序，接着求后缀和，接着再把后缀和通过后序遍历传回树。
+// ### 解题思路
+// 第一次中序遍历对节点自动排序，接着求后缀和，接着再把后缀和通过后序遍历传回树。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -49,4 +49,4 @@ void traveler2(TreeNode*ptr,int*sumOfN,int&curr)
         return root;
     }
 };
-```
+// ```

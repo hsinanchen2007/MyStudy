@@ -1,5 +1,5 @@
-这种方法处理数值范围较小的数字集合还行
-```
+// 这种方法处理数值范围较小的数字集合还行
+// ```
 #define N 99999//由最大数或最小数决定
 int singleNumber(int* nums, int numsSize){
    int a[2 * N + 1] = {0};
@@ -16,4 +16,4 @@ int singleNumber(int* nums, int numsSize){
    }
    return (i - N);
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var robot = function(command, obstacles, x, y) {
   let list = command.split('')
   let xc = 0, yc = 0;
@@ -42,5 +42,5 @@ var robot = function(command, obstacles, x, y) {
     return true
   })
 };
-```
+// ```
 

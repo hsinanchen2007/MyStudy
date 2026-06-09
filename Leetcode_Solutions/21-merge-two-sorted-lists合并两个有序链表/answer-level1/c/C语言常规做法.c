@@ -1,5 +1,5 @@
-将l2的节点按val的大小一个一个插入l1即可。为了处理特殊情况，可以创建一个头节点。
-```c
+// 将l2的节点按val的大小一个一个插入l1即可。为了处理特殊情况，可以创建一个头节点。
+// ```c
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     struct ListNode* tmp;
     struct ListNode header;
@@ -14,4 +14,4 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
     }
     return header.next;
 }
-```
+// ```

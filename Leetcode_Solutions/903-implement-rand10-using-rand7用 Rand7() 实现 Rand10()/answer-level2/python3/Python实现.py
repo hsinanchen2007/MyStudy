@@ -1,6 +1,6 @@
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # The rand7() API is already defined for you.
 # def rand7():
 # @return a random integer in the range 1 to 7
@@ -17,4 +17,4 @@ class Solution:
             if num <= 40:
                 break
         return 1 + (num - 1) % 10 # 1-10
-```
+# ```

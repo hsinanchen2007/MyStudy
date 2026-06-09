@@ -1,7 +1,7 @@
-![捕获.JPG](https://pic.leetcode-cn.com/a7d6a81d5cb194a3f60928359c33c26a95a56c59a7d34e6452e209e91e9199ea-%E6%8D%95%E8%8E%B7.JPG)
+# ![捕获.JPG](https://pic.leetcode-cn.com/a7d6a81d5cb194a3f60928359c33c26a95a56c59a7d34e6452e209e91e9199ea-%E6%8D%95%E8%8E%B7.JPG)
 
 
-```
+# ```
 class Solution:
     def simplifyPath(self, path: str) -> str:
         import re
@@ -23,6 +23,6 @@ class Solution:
         if len(stack)==1:           #结果只剩根目录，返回 "/"
             return "/"
         return "/".join(stack)  
-```
+# ```
 
 

@@ -1,4 +1,4 @@
-动态规划加空间压缩，时间复杂度为O(MN),空间复杂度为O(min{M,N}).
+// 动态规划加空间压缩，时间复杂度为O(MN),空间复杂度为O(min{M,N}).
 func minDistance(word1 string, word2 string) int {
 	m := len(word1)
 	n := len(word2)

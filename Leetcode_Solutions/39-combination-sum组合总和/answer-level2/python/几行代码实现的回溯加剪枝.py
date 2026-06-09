@@ -1,7 +1,7 @@
-二刷时补个题解，比较好理解
+# 二刷时补个题解，比较好理解
 
 
-```python
+# ```python
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         if target == 0:  # 已经完成组合，则剩余需要增加的元素为空
             return [[]]
@@ -13,4 +13,4 @@
             for j in self.combinationSum(list(filter(lambda x: x <= i, candidates)), target - i):
                 res.append([i] + j)
         return res
-```
+# ```

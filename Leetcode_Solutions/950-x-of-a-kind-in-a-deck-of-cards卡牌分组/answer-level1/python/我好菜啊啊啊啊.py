@@ -1,9 +1,9 @@
-### 解题思路
-我好菜啊啊啊爱哎啊啊啊
+# ### 解题思路
+# 我好菜啊啊啊爱哎啊啊啊
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 import math
 class Solution:
     def hasGroupsSizeX(self, deck) -> bool:
@@ -30,4 +30,4 @@ class Solution:
         return True if math.gcd(gcdd, num_of_it) != 1 else False
 
 
-```
+# ```

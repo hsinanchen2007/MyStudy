@@ -1,5 +1,5 @@
-algorithm
-```
+// algorithm
+// ```
 if root == null:
     return {};
 
@@ -14,11 +14,11 @@ recursive(root)
     else if (root->right)
        recursive(root->right)
 }
-```
+// ```
 
 
-code 
-```
+// code 
+// ```
 class Solution {
 public:
     vector<int> ans = {};
@@ -40,4 +40,4 @@ public:
         return ans;
     }
 };
-```
+// ```

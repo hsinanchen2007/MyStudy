@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-没什么好说的...
+// 没什么好说的...
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func toLowerCase(str string) string {
 	var tmp []byte
 	tmp = append(tmp,str...)
@@ -15,4 +15,4 @@ func toLowerCase(str string) string {
 	}
 	return string(tmp)
 }
-```
+// ```

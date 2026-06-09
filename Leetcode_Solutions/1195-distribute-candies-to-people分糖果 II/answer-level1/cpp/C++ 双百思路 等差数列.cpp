@@ -1,8 +1,8 @@
-## 思路
+// ## 思路
 
-#### 1. 暴力法
+// #### 1. 暴力法
 
-```cpp
+// ```cpp
 class Solution {
 public:
   vector<int> distributeCandies(int candies, int num_people) {
@@ -24,22 +24,22 @@ public:
     return ans;
   }
 };
-```
+// ```
 
 
 
-#### 2. 数学知识解题
+// #### 2. 数学知识解题
 
-利用等差数列和找规律的方式。
+// 利用等差数列和找规律的方式。
 
-- 首先计算前 total_line 行的总糖果数，并与 candies 进行比较，找出能够完整分配的行数，并将这些行数中的糖果通过等差数列计算直接填充。
-- 然后，再将剩下的糖果填充到最后一行中去。
+// - 首先计算前 total_line 行的总糖果数，并与 candies 进行比较，找出能够完整分配的行数，并将这些行数中的糖果通过等差数列计算直接填充。
+// - 然后，再将剩下的糖果填充到最后一行中去。
 
-执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
+// 执行用时 :0 ms, 在所有 C++ 提交中击败了100.00%的用户
 
-内存消耗 :8 MB, 在所有 C++ 提交中击败了100.00%的用户
+// 内存消耗 :8 MB, 在所有 C++ 提交中击败了100.00%的用户
 
-```cpp
+// ```cpp
 class Solution {
 public:
   vector<int> distributeCandies(int candies, int num_people) {
@@ -73,5 +73,5 @@ public:
     return ans;
   }
 };
-```
+// ```
 

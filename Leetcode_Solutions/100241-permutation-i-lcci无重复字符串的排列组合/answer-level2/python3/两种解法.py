@@ -1,6 +1,6 @@
-回溯或者循环调用下一个组合
+# 回溯或者循环调用下一个组合
 
-```python
+# ```python
 class Solution:
     def permutation(self, S: str) -> List[str]:
         # 方法1: 回溯
@@ -40,4 +40,4 @@ class Solution:
         #     res.append(cur)
         #     cur = getNext(cur)
         # return res
-```
+# ```

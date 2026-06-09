@@ -1,13 +1,13 @@
-![image.png](https://pic.leetcode-cn.com/16e1f39ae59b91a12a62e1fcf1b138b8c8b50051c023340959bfe81ddd0e7c8e-image.png)
+// ![image.png](https://pic.leetcode-cn.com/16e1f39ae59b91a12a62e1fcf1b138b8c8b50051c023340959bfe81ddd0e7c8e-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   利用队列层次遍历二叉树，遇见的第一个变成面试题之后，难度从简单变中等了
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -39,4 +39,4 @@ var levelOrder = function(root) {
   
   return ans;
 };
-```
+// ```

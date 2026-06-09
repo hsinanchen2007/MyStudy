@@ -1,10 +1,10 @@
-![image.png](https://pic.leetcode-cn.com/e534a5585fb8b101d3357c1dd3a710e2f153cc6fda757568aa3fc44003b362e7-image.png)
+// ![image.png](https://pic.leetcode-cn.com/e534a5585fb8b101d3357c1dd3a710e2f153cc6fda757568aa3fc44003b362e7-image.png)
 
-# 思路：
-先中序遍历，得到两个升序的vector.
-然后调用std::merge，直接归并.
+// # 思路：
+// 先中序遍历，得到两个升序的vector.
+// 然后调用std::merge，直接归并.
 
-```
+// ```
 class Solution {
 public:
     vector<int> getAllElements(TreeNode* root1, TreeNode* root2) {
@@ -28,4 +28,4 @@ private:
         dfs(node->right, record);
     }
 };
-```
+// ```

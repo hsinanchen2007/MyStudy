@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public int TotalFruit(int[] tree) {
         int position=0;
@@ -34,5 +34,5 @@ public class Solution {
         return 24601;
     }
 }
-```
-//我做了整整一个小时...这正常吗;w;
+// ```
+// //我做了整整一个小时...这正常吗;w;

@@ -1,5 +1,5 @@
 
-```java []
+// ```java []
     /**
      * 关键点是从后往前放
      * 执行用时 :0 ms, 100.00%
@@ -16,9 +16,9 @@
         while (j >= 0)
             nums1[k--] = nums2[j--];
     }
-```
+// ```
 
-```c []
+// ```c []
 /**
  * C炫技写法,一行搞定^_^~
  * 执行用时 :4 ms, 94.92%
@@ -27,5 +27,5 @@
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     while(n>0) nums1[--nums1Size] = n>0 && m>0 && nums1[m-1] > nums2[n-1] ? nums1[--m] : nums2[--n];
 }
-```
+// ```
 

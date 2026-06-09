@@ -1,4 +1,4 @@
-```
+// ```
 public int peakIndexInMountainArray(int[] A) {
         int slow=0;
         int fast=1;
@@ -13,4 +13,4 @@ public int peakIndexInMountainArray(int[] A) {
         }
         return index;
     }
-```
+// ```

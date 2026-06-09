@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
         """
@@ -32,4 +32,4 @@ class Solution(object):
                 nums1[m-1]=nums2[i]
             
         
-```
+# ```

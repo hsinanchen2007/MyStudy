@@ -1,8 +1,8 @@
-从低位到高位，每三个数字一组，进行处理。
-使用了栈，先push低位，最后push高位。
-使用占位符号处理Thousand, Million, Billion.
+// 从低位到高位，每三个数字一组，进行处理。
+// 使用了栈，先push低位，最后push高位。
+// 使用占位符号处理Thousand, Million, Billion.
 
-```c++
+// ```c++
 
 const string NUMBERS[10] = {"Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"};
 const string UNITS[3] = {"Thousand", "Million", "Billion"};
@@ -60,4 +60,4 @@ public:
     }
 };
 
-```
+// ```

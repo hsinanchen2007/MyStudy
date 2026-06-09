@@ -1,44 +1,44 @@
-#### 思路
+# #### 思路
 
-一个简单的解决方案是遍历该 `9 x 9` 数独 **三** 次，以确保：
+# 一个简单的解决方案是遍历该 `9 x 9` 数独 **三** 次，以确保：
 
-* 行中没有重复的数字。
-* 列中没有重复的数字。
-* `3 x 3` 子数独内没有重复的数字。
+# * 行中没有重复的数字。
+# * 列中没有重复的数字。
+# * `3 x 3` 子数独内没有重复的数字。
 
-实际上，所有这一切都可以在一次迭代中完成。
+# 实际上，所有这一切都可以在一次迭代中完成。
 
----
+# ---
    
-#### 方法：一次迭代
+# #### 方法：一次迭代
 
-首先，让我们来讨论下面两个问题：
+# 首先，让我们来讨论下面两个问题：
 
-* 如何枚举子数独？
+# * 如何枚举子数独？
 
-> 可以使用 `box_index = (row / 3) * 3 + columns / 3`，其中 `/` 是整数除法。
+# > 可以使用 `box_index = (row / 3) * 3 + columns / 3`，其中 `/` 是整数除法。
 
-![image.png](https://pic.leetcode-cn.com/2b141392e2a1811d0e8dfdf6279b1352e59fad0b3961908c6ff9412b6a7e7ccf-image.png){:width="250px"}
-{:align="center"}
-
-
-* 如何确保行 / 列 / 子数独中没有重复项？
-
-> 可以利用 `value -> count` 哈希映射来跟踪所有已经遇到的值。
-
-现在，我们完成了这个算法的所有准备工作：
-
-* 遍历数独。
-* 检查看到每个单元格值是否已经在当前的行 / 列 / 子数独中出现过：
-    * 如果出现重复，返回 `false`。
-    * 如果没有，则保留此值以进行进一步跟踪。
-* 返回 `true`。
+# ![image.png](https://pic.leetcode-cn.com/2b141392e2a1811d0e8dfdf6279b1352e59fad0b3961908c6ff9412b6a7e7ccf-image.png){:width="250px"}
+# {:align="center"}
 
 
-<![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_2.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_3.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_4.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_5.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_6.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_7.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_8.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_9.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_10.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_11.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_12.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_13.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_14.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_15.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_16.png)>
+# * 如何确保行 / 列 / 子数独中没有重复项？
+
+# > 可以利用 `value -> count` 哈希映射来跟踪所有已经遇到的值。
+
+# 现在，我们完成了这个算法的所有准备工作：
+
+# * 遍历数独。
+# * 检查看到每个单元格值是否已经在当前的行 / 列 / 子数独中出现过：
+#     * 如果出现重复，返回 `false`。
+#     * 如果没有，则保留此值以进行进一步跟踪。
+# * 返回 `true`。
 
 
-```java [ciMCoxXQ-Java]
+# <![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_2.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_3.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_4.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_5.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_6.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_7.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_8.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_9.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_10.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_11.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_12.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_13.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_14.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_15.png),![1200](https://pic.leetcode-cn.com/Figures/36/36_slide_16.png)>
+
+
+# ```java [ciMCoxXQ-Java]
 class Solution {
   public boolean isValidSudoku(char[][] board) {
     // init data
@@ -74,8 +74,8 @@ class Solution {
     return true;
   }
 }
-```
-```python [ciMCoxXQ-Python]
+# ```
+# ```python [ciMCoxXQ-Python]
 class Solution:
     def isValidSudoku(self, board):
         """
@@ -104,10 +104,10 @@ class Solution:
                     if rows[i][num] > 1 or columns[j][num] > 1 or boxes[box_index][num] > 1:
                         return False         
         return True
-```
+# ```
 
 
-**复杂度分析**
+# **复杂度分析**
 
-* 时间复杂度：$O(1)$，因为我们只对 `81` 个单元格进行了一次迭代。
-* 空间复杂度：$O(1)$。
+# * 时间复杂度：$O(1)$，因为我们只对 `81` 个单元格进行了一次迭代。
+# * 空间复杂度：$O(1)$。

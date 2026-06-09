@@ -1,6 +1,6 @@
-![QQ图片20191022161953.png](https://pic.leetcode-cn.com/eb7a8002c9537d959236b1211dcd3a80328c0a66a61409fc22e841bd03b73ac5-QQ%E5%9B%BE%E7%89%8720191022161953.png)
+// ![QQ图片20191022161953.png](https://pic.leetcode-cn.com/eb7a8002c9537d959236b1211dcd3a80328c0a66a61409fc22e841bd03b73ac5-QQ%E5%9B%BE%E7%89%8720191022161953.png)
 
-```
+// ```
 class Solution {
 public:
     int longestWPI(vector<int>& hours) {
@@ -34,4 +34,4 @@ public:
         
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```python
+# ```python
 import functools
 def largestNumber(nums):
     # 倒序比较
@@ -21,4 +21,4 @@ print(largestNumber([10,2]))
 print(largestNumber([3,30,34,5,9]))
 print(largestNumber([3,30,34,5,9]))
 print(largestNumber([0,0]))
-```
+# ```

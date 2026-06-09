@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def dailyTemperatures(self, T: List[int]) -> List[int]:
         if T == []: return []
@@ -10,4 +10,4 @@ class Solution:
                 res[topIndex] = index - topIndex
             stack.append((t, index))
         return res
-```
+# ```

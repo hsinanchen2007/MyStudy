@@ -1,8 +1,8 @@
-### 解题思路
+// ### 解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void moveZeroes(int* nums, int numsSize){
     int i, j;
     for (i = 0, j = 0; i < numsSize; i++)
@@ -11,4 +11,4 @@ void moveZeroes(int* nums, int numsSize){
     }
     memset(&nums[j], 0, sizeof(int) * (numsSize - j));
 }
-```
+// ```

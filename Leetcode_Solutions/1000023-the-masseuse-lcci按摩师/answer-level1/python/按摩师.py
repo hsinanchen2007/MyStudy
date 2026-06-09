@@ -1,9 +1,9 @@
-### 解题思路
-空间复杂度O（1）
+# ### 解题思路
+# 空间复杂度O（1）
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def massage(self, nums):
         """
@@ -14,4 +14,4 @@ class Solution(object):
         for i in range(0, len(nums)):
             cur, pre = max(pre + nums[i], cur), cur
         return cur
-```
+# ```

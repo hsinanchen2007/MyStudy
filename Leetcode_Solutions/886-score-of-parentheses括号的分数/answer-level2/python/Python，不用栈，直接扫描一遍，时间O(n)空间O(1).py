@@ -1,5 +1,5 @@
-用rights和lefts来记录当前没处理的左右括号数，扫描一遍并分情况处理， O(1)空间，O(n)时间。
-```python
+# 用rights和lefts来记录当前没处理的左右括号数，扫描一遍并分情况处理， O(1)空间，O(n)时间。
+# ```python
     def scoreOfParentheses(self, S: str) -> int:
         # 记录未处理的左括号和右括号数
         lefts = rights = i = score = 0
@@ -14,4 +14,4 @@
                     rights = 0
             i += 1
         return score
-```
+# ```

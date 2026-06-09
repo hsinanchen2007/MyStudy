@@ -1,12 +1,12 @@
-### 解题思路
-1. Try to find the location of each island
-2. if there is no land or water in this grid, return -1 
-3. we just use while loop till all elements would be droped off
-4. inside the while loop, we could use for loop to look though all directions and redefine these values
+# ### 解题思路
+# 1. Try to find the location of each island
+# 2. if there is no land or water in this grid, return -1 
+# 3. we just use while loop till all elements would be droped off
+# 4. inside the while loop, we could use for loop to look though all directions and redefine these values
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxDistance(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
@@ -38,4 +38,4 @@ class Solution:
                     grid[x][y-1] = -1
         return count - 1
 
-```
+# ```

@@ -1,7 +1,7 @@
-贪心算法：
-思路：只有对于某个位置，其左边（包括该数本身）的最大值不大于位置右侧的最小值，在该处就可以分段
-详见代码：
-```
+// 贪心算法：
+// 思路：只有对于某个位置，其左边（包括该数本身）的最大值不大于位置右侧的最小值，在该处就可以分段
+// 详见代码：
+// ```
 class Solution {
 public:
     int maxChunksToSorted(vector<int>& arr) {
@@ -21,5 +21,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/66fbdbc54633f91ebe688d2af23f458a3381bbde8068f1f6b4d7f2191e8903af-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/66fbdbc54633f91ebe688d2af23f458a3381bbde8068f1f6b4d7f2191e8903af-image.png)

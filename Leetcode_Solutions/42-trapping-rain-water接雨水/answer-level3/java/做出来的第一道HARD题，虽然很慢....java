@@ -1,9 +1,9 @@
-### 解题思路
-做出来的第一道HARD题，虽然很慢...
+// ### 解题思路
+// 做出来的第一道HARD题，虽然很慢...
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int trap(int[] height) {
     	int ans = 0;
@@ -32,4 +32,4 @@ class Solution {
 		return ans;
     }
 }
-```
+// ```

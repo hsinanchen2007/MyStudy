@@ -1,8 +1,8 @@
-### 解题思路
-用dfs，兄弟们
-### 代码
+# ### 解题思路
+# 用dfs，兄弟们
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -39,4 +39,4 @@ class Solution:
                 self.dfs(root.right,target-root.val,memo[:],res)
 
             return res
-```
+# ```

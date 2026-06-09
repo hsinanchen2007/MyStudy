@@ -1,11 +1,11 @@
-### 解题思路
-![QQ截图20200324164112.png](https://pic.leetcode-cn.com/c75319f85f3b3cc221768a57621da7fd8f21766e0a8b40c4f872d2e647f18cdd-QQ%E6%88%AA%E5%9B%BE20200324164112.png)
+# ### 解题思路
+# ![QQ截图20200324164112.png](https://pic.leetcode-cn.com/c75319f85f3b3cc221768a57621da7fd8f21766e0a8b40c4f872d2e647f18cdd-QQ%E6%88%AA%E5%9B%BE20200324164112.png)
 
-即198.打家劫舍问题，换个语言，把今天的打卡题水过去
+# 即198.打家劫舍问题，换个语言，把今天的打卡题水过去
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def massage(self, nums: List[int]) -> int:
         if len(nums)==0:
@@ -18,4 +18,4 @@ class Solution:
         for i,n in zip(range(2,len(nums)),nums[2:]):
             dp_max.append(max(n+dp_max[i-2],dp_max[i-1]))
         return dp_max[len(nums)-1]
-```
+# ```

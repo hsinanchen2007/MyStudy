@@ -1,10 +1,10 @@
-### 解题思路
-因为是循环数组，所以再在nums的后面追加一个nums数组，即可变成循环条件，
-然后暴力求解即可。
+// ### 解题思路
+// 因为是循环数组，所以再在nums的后面追加一个nums数组，即可变成循环条件，
+// 然后暴力求解即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> nextGreaterElements(vector<int>& nums) {
@@ -27,4 +27,4 @@ public:
         return vecResult;
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-思路就是根据最短的字符串长度，进行查看 
+# 思路就是根据最短的字符串长度，进行查看 
 
-先把每个字符串对应位置的字符提出来 如 【'fff','lll','ooi','wwg'】 也可以使用zip
-然后 遍历这些字符 如果是一样的（set后元素个数为1），就放进前缀中； 不是就退出循环
+# 先把每个字符串对应位置的字符提出来 如 【'fff','lll','ooi','wwg'】 也可以使用zip
+# 然后 遍历这些字符 如果是一样的（set后元素个数为1），就放进前缀中； 不是就退出循环
 
 
 
-```python []
+# ```python []
 class Solution(object):
     def longestCommonPrefix(self, strs):
        
@@ -32,5 +32,5 @@ class Solution(object):
                 break
         return(commonprefix)
 
-```
+# ```
 

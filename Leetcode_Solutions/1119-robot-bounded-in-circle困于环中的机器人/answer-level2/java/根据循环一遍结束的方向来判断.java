@@ -1,5 +1,5 @@
-![image.png](https://pic.leetcode-cn.com/47a926207ddffc72182dc43eff0d6f27abd211556a841fb18605460f222d1b4c-image.png)
-```
+// ![image.png](https://pic.leetcode-cn.com/47a926207ddffc72182dc43eff0d6f27abd211556a841fb18605460f222d1b4c-image.png)
+// ```
 //如果结束的时候朝北:需要停在原地，否则沿着这条路一直走下去
 //如果结束的时候朝西或东:机器人会沿着一个正方形走回
 //如果结束的时候朝南:机器人会原路返回
@@ -30,4 +30,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

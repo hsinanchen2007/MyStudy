@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-1.root.val<L ,右子树之和
-２.root.val>R,左子树之和
-３.L<=root.val<=R,本身+左子树+右子树之和
+# ### 解题思路
+# 此处撰写解题思路
+# 1.root.val<L ,右子树之和
+# ２.root.val>R,左子树之和
+# ３.L<=root.val<=R,本身+左子树+右子树之和
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
 
         return root.val + self.rangeSumBST(root.left, L, R) + self.rangeSumBST(root.right, L, R)
 
-```
+# ```

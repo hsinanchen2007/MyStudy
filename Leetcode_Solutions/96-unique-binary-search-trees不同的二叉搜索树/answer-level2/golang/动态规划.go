@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numTrees(n int) int {
     g := map[int]int{0:1,1:1}
     for i:=2;i<=n;i++{
@@ -13,4 +13,4 @@ func numTrees(n int) int {
     }
     return g[n]
 }
-```
+// ```

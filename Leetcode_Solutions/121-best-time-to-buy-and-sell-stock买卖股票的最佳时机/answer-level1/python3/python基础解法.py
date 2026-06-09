@@ -1,10 +1,10 @@
-### 解题思路
-1. 一次遍历，双指针
-2. 动态规划
+# ### 解题思路
+# 1. 一次遍历，双指针
+# 2. 动态规划
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         # min_price = float('inf')
@@ -20,4 +20,4 @@ class Solution:
             max_profit = max(max_profit, temp)
         return max_profit
 
-```
+# ```

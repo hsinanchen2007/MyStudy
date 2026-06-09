@@ -1,11 +1,11 @@
-### 解题思路
-注意点：
-1. 第一层循环终止条件，index < numsSize -3;第二层循环终止条件index < numsSize -2;
-2. 第二层循环的判重条件为index > k + 1;
+// ### 解题思路
+// 注意点：
+// 1. 第一层循环终止条件，index < numsSize -3;第二层循环终止条件index < numsSize -2;
+// 2. 第二层循环的判重条件为index > k + 1;
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
@@ -74,4 +74,4 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
     *returnColumnSizes = retCol;
     return ret;
 }
-```
+// ```

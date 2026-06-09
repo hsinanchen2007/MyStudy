@@ -1,4 +1,4 @@
-```
+// ```
 void helper(struct ListNode *pre, struct ListNode* l1, struct ListNode* l2, int carry)
 {
   if(l1 == NULL && l2 == NULL && carry == 0) return;
@@ -35,4 +35,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
 
   return fake.next;
 }
-```
+// ```

@@ -1,14 +1,14 @@
-### 解题思路
-长度相同：
-1 + 1 = 2;
-9 + 9 =18;
-长度不相同：
-99 + 9 = 188;
-19 + 9 = 28;
+// ### 解题思路
+// 长度相同：
+// 1 + 1 = 2;
+// 9 + 9 =18;
+// 长度不相同：
+// 99 + 9 = 188;
+// 19 + 9 = 28;
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -49,4 +49,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     if(jinwei == 1) insert(head, jinwei);
     return head->next;
 }
-```
+// ```

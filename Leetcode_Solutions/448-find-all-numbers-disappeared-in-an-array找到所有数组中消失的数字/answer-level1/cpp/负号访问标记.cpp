@@ -1,9 +1,9 @@
-### 解题思路
-使用负号来作为访问标记
+// ### 解题思路
+// 使用负号来作为访问标记
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
@@ -19,4 +19,4 @@ public:
         return dis;
     }
 };
-```
+// ```

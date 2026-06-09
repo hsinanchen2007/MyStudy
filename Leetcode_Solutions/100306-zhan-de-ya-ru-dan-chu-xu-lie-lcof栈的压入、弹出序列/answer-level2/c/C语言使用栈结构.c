@@ -1,9 +1,9 @@
-### 解题思路
-效率比较低
+// ### 解题思路
+// 效率比较低
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_LEN 1000
 
 typedef struct {
@@ -98,4 +98,4 @@ bool validateStackSequences(int* pushed, int pushedSize, int* popped, int popped
 
     return isEmpty(stack);
 }
-```
+// ```

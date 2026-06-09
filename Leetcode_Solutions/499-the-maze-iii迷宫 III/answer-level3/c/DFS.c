@@ -1,8 +1,8 @@
 
-注意：
-1. 访问过的节点不能再访问
-2. 不能走回头路
-```
+// 注意：
+// 1. 访问过的节点不能再访问
+// 2. 不能走回头路
+// ```
 #define MAXSIZE 900
 int holeX;
 int holeY;
@@ -119,6 +119,6 @@ char *findShortestWay(int** maze, int mazeSize, int* mazeColSize, int* ball, int
 	}
 	return bestWay;
 }
-```
+// ```
 
 

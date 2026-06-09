@@ -1,10 +1,10 @@
-### 解题思路
-要先对abc排序，然后根据规律分三种情况
-最大值max就是c-a-2
+// ### 解题思路
+// 要先对abc排序，然后根据规律分三种情况
+// 最大值max就是c-a-2
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> numMovesStones(int a, int b, int c) {
@@ -35,4 +35,4 @@ public:
         return ans;
     }
 };
-```
+// ```

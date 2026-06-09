@@ -1,5 +1,5 @@
-## 基本思路
-```
+// ## 基本思路
+// ```
 public static int findNthDigit(int n) {
     //base digits
     long base = 9;
@@ -21,9 +21,9 @@ public static int findNthDigit(int n) {
     for (int i = index; i < digits; i++) number /= 10;
     return number % 10;
 }
-```
-## 简化
-```
+// ```
+// ## 简化
+// ```
 public static int findNthDigitTo(int n) {
 
     n -= 1;
@@ -39,8 +39,8 @@ public static int findNthDigitTo(int n) {
     }
     return 0;
 }
-```
-## 说明
-- 思路抄的题解c++的，我改了改
-- 思路就看题解里面的c++那哥们
+// ```
+// ## 说明
+// - 思路抄的题解c++的，我改了改
+// - 思路就看题解里面的c++那哥们
 

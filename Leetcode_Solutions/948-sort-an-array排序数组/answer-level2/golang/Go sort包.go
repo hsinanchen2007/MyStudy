@@ -1,9 +1,9 @@
-### 解题思路
-go sort包内置排序
+// ### 解题思路
+// go sort包内置排序
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sortArray(nums []int) []int {
     Sort(nums)
     return nums
@@ -184,4 +184,4 @@ func Swap(data []int, i int, j int) {
 	data[i], data[j] = data[j], data[i]
 }
 
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-以0为对称中心的数之和为0。
+// ### 解题思路
+// 以0为对称中心的数之和为0。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -27,6 +27,6 @@ int* sumZero(int n, int* returnSize){
     return b;
 
 }
-```
+// ```
 
- - 用时12ms,内存消耗7.8MB。
+//  - 用时12ms,内存消耗7.8MB。

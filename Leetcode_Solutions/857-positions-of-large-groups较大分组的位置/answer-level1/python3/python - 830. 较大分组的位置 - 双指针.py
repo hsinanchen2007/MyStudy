@@ -1,10 +1,10 @@
-### 解题思路
-双指针取连续个数大于等于三的元素的头尾索引
-注意，为保证取到最后一个元素，str末尾添加‘0’元素
+# ### 解题思路
+# 双指针取连续个数大于等于三的元素的头尾索引
+# 注意，为保证取到最后一个元素，str末尾添加‘0’元素
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def largeGroupPositions(self, S: str) -> List[List[int]]:
         i, j = 0, 1
@@ -19,4 +19,4 @@ class Solution:
                 i = j
                 j += 1
         return ans
-```
+# ```

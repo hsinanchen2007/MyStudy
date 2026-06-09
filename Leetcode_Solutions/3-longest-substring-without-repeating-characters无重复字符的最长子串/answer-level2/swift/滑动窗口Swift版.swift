@@ -1,5 +1,5 @@
-参考高赞题解**滑动窗口**，编写的Swift版本
-```swift
+// 参考高赞题解**滑动窗口**，编写的Swift版本
+// ```swift
 class Solution {
     func lengthOfLongestSubstring(_ s: String) -> Int {
         if(s == ""){
@@ -19,4 +19,4 @@ class Solution {
         return maxStr.count
     }
 }
-```
+// ```

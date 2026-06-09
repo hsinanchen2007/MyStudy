@@ -1,9 +1,9 @@
-### 解题思路
-建立三个指针：l_pre,l,l_last，首先断掉l与l_last的链，然后连接l与l_pre的链，循环到最后
+# ### 解题思路
+# 建立三个指针：l_pre,l,l_last，首先断掉l与l_last的链，然后连接l与l_pre的链，循环到最后
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -29,4 +29,4 @@ class Solution:
             return l
 
 
-```
+# ```

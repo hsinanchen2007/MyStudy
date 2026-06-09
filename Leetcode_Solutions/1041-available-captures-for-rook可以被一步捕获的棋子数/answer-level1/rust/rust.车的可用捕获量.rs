@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```rust
+// ```rust
 impl Solution {
     pub fn num_rook_captures(board: Vec<Vec<char>>) -> i32 {
         let dx:Vec<i32>=vec![ -1, 1,  0, 0 ];
@@ -35,4 +35,4 @@ impl Solution {
     }
 }
 
-```
+// ```

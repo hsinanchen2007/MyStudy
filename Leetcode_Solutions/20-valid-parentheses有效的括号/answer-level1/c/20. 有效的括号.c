@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-注意要求：
-1、堆栈的大小要根据测试用例的长度，所以尽量大，故9999
-2、堆栈的index小于0时会报错，在codeblocks中无错，故top = 1
-![CgoB5l2IRLSATKk3AMg-Ag7s3RA865.gif](https://pic.leetcode-cn.com/432f26a397af0c53490cab915b881172556aedc0e867e612ab12f59f5ed4ad63-CgoB5l2IRLSATKk3AMg-Ag7s3RA865.gif)
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 注意要求：
+// 1、堆栈的大小要根据测试用例的长度，所以尽量大，故9999
+// 2、堆栈的index小于0时会报错，在codeblocks中无错，故top = 1
+// ![CgoB5l2IRLSATKk3AMg-Ag7s3RA865.gif](https://pic.leetcode-cn.com/432f26a397af0c53490cab915b881172556aedc0e867e612ab12f59f5ed4ad63-CgoB5l2IRLSATKk3AMg-Ag7s3RA865.gif)
+// ### 代码
 
-```c
+// ```c
 
 bool isValid(char * p)
 {
@@ -46,4 +46,4 @@ bool isValid(char * p)
     else
         return 0;   //输出0表示匹配失败
 }
-```
+// ```

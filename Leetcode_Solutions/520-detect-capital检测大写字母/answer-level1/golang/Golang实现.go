@@ -1,12 +1,12 @@
-```
+// ```
 基本思路就是先判断字符串类型
 1.1如果长度小于等于1肯定符合题目要求的
 1.2.1如果前两个字母都是大写那么该字符串后边不允许出现小写，如果出现小写返回false
 1.2.2如果前两个字母一大一小或者两小，则该字符串后边不允许出现大写字母，如果出现大写字母返回false
 1.2.3如果前两个字母一小一大，不符合要求直接返回false
 
-```
-```
+// ```
+// ```
 func detectCapitalUse(word string) bool {
     lenWord := len(word)
     if lenWord <= 1{
@@ -36,6 +36,6 @@ func detectCapitalUse(word string) bool {
     }
     return true
 
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/845122df1a8ac452023fb65a5ea061caa55e66e509786909dc2a1be6d90ac15b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/845122df1a8ac452023fb65a5ea061caa55e66e509786909dc2a1be6d90ac15b-image.png)

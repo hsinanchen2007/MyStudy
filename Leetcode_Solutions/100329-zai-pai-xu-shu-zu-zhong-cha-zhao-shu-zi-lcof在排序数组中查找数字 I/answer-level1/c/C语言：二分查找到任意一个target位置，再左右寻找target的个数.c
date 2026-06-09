@@ -1,7 +1,7 @@
-二分查找到任意一个target位置，再左右寻找target的个数
-忽略写得比较丑的C语言代码，主要关注算法。
+// 二分查找到任意一个target位置，再左右寻找target的个数
+// 忽略写得比较丑的C语言代码，主要关注算法。
 
-```
+// ```
 int search(int* nums, int numsSize, int target){
 
     int left = 0;
@@ -47,5 +47,5 @@ int search(int* nums, int numsSize, int target){
 
     return res;
 }
-```
-![image.png](https://pic.leetcode-cn.com/1f52b8e168d5a43ab6bb05d61f048ff8f477ddf0f8a18ad4a96c8814c4cca77c-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/1f52b8e168d5a43ab6bb05d61f048ff8f477ddf0f8a18ad4a96c8814c4cca77c-image.png)

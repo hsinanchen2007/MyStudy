@@ -1,11 +1,11 @@
-### 解题思路
-俩个思路：
-1. 用俩个切片做记录
-2. 用双指针，左边指向偶数， 右边指向奇数；交换俩个值
+// ### 解题思路
+// 俩个思路：
+// 1. 用俩个切片做记录
+// 2. 用双指针，左边指向偶数， 右边指向奇数；交换俩个值
 
-### 代码
+// ### 代码
 
-```golang 第一个思路
+// ```golang 第一个思路
 func exchange(nums []int) []int {
     
     numjishu := []int{}
@@ -20,9 +20,9 @@ func exchange(nums []int) []int {
     }
     return append(numjishu, numoushu...)
 }
-```
+// ```
 
-```第二个思路
+// ```第二个思路
 func exchange(nums []int) []int {
     
     if len(nums) <= 1 {
@@ -47,4 +47,4 @@ func exchange(nums []int) []int {
     }
     return nums
 }
-```
+// ```

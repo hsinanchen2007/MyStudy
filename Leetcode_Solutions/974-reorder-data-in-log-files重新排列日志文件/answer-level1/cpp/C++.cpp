@@ -1,9 +1,9 @@
-### 解题思路
-字符类型的定义一下排序规则，排序一下即可
+// ### 解题思路
+// 字符类型的定义一下排序规则，排序一下即可
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     static bool cmp(string a, string b) {
@@ -67,4 +67,4 @@ public:
         return astr;
     }
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-打开，多指针O(n)
+// ### 解题思路
+// 打开，多指针O(n)
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public void Merge(int[] A, int m, int[] B, int n) {
             int flagOfA = m-1;
@@ -31,4 +31,4 @@ public class Solution {
             }
     }
 }
-```
+// ```

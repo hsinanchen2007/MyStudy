@@ -1,5 +1,5 @@
-# 递归
-```python3
+# # 递归
+# ```python3
 class Solution:
     def climbStairs(self, n: int) -> int:
         memo = [0] * (n+1)
@@ -12,10 +12,10 @@ class Solution:
                 memo[n] = method
                 return method
         return climb(n)
-```
+# ```
 
-# 动态规划
-```python3
+# # 动态规划
+# ```python3
 class Solution:
     def climbStairs(self, n: int) -> int:
         memo = [0] * (n+1)
@@ -26,5 +26,5 @@ class Solution:
             for i in range(2, n+1):
                 memo[i] = memo[i-1] + memo[i-2]
             return memo[n]
-```
+# ```
 

@@ -1,4 +1,4 @@
-```golang
+// ```golang
 func countAndSay(n int) string {
     s := "1"
     for i:=0;i < n-1;i++ {
@@ -24,4 +24,4 @@ func read(n string) string {
     }
     return result
 }
-```
+// ```

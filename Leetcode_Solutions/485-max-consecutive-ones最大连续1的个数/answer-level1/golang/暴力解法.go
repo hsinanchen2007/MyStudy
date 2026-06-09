@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findMaxConsecutiveOnes(nums []int) int {
 	res:=0
 	count:=0
@@ -29,4 +29,4 @@ func findMaxConsecutiveOnes(nums []int) int {
 	}
 	return res
 }
-```
+// ```

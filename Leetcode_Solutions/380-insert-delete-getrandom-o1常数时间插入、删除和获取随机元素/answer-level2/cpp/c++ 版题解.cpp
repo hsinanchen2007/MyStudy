@@ -1,9 +1,9 @@
-### 解题思路
-c++ 版题解；用map存储位置；然后用一个vector，按照位置存放key
+// ### 解题思路
+// c++ 版题解；用map存储位置；然后用一个vector，按照位置存放key
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class RandomizedSet {
 public:
     map<int,int> m;
@@ -57,4 +57,4 @@ public:
  * bool param_2 = obj->remove(val);
  * int param_3 = obj->getRandom();
  */
-```
+// ```

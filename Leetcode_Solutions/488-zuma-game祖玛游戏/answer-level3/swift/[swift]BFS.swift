@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 extension Sequence where Element == Character  {
     var counter: [Character:Int] {
         var ans = [Character:Int]()
@@ -100,4 +100,4 @@ extension Sequence where Element == Character  {
         return charsCopy.count < 3 ? charsCopy : simplify(chars: charsCopy)
     }
  }
-```
+// ```

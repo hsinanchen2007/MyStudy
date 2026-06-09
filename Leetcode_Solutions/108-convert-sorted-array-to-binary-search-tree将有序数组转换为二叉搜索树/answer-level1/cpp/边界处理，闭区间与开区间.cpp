@@ -1,7 +1,7 @@
-其中序遍历的顺序是有序的，所以根据中序遍历的情况我们可以进行分治，注意左右区间的情况，这种类型的分治，一般采用**左闭右闭取大于mid为中**
+// 其中序遍历的顺序是有序的，所以根据中序遍历的情况我们可以进行分治，注意左右区间的情况，这种类型的分治，一般采用**左闭右闭取大于mid为中**
 
-左闭右闭
-```
+// 左闭右闭
+// ```
 TreeNode* build(vector<int>& st,int l,int r)
     {
         if(l>r)//等号不能取
@@ -15,10 +15,10 @@ TreeNode* build(vector<int>& st,int l,int r)
     TreeNode* sortedArrayToBST(vector<int>& nums) {
         return build(nums,0,nums.size()-1);
     }
-```
+// ```
 
-左闭右开取=，mid向下取整，mid+1，区间往右挪一位
-```
+// 左闭右开取=，mid向下取整，mid+1，区间往右挪一位
+// ```
     TreeNode* build(vector<int>& st,int l,int r)
     {
         if(l>=r)//等号必须取到，可以只取等于
@@ -33,9 +33,9 @@ TreeNode* build(vector<int>& st,int l,int r)
     TreeNode* sortedArrayToBST(vector<int>& nums) {
         return build(nums,0,nums.size());//往后开一位
     }
-```
-- 左开右闭取=，mid向上取整，mid-1，区间往左挪一位
-```
+// ```
+// - 左开右闭取=，mid向上取整，mid-1，区间往左挪一位
+// ```
 TreeNode* build(vector<int>& st,int l,int r)
     {
         if(l==r)//类似
@@ -49,4 +49,4 @@ TreeNode* build(vector<int>& st,int l,int r)
     TreeNode* sortedArrayToBST(vector<int>& nums) {
         return build(nums,-1,nums.size()-1);//向左一位
     }
-```
+// ```

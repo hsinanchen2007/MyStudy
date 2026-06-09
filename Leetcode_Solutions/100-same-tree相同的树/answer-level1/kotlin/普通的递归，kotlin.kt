@@ -1,9 +1,9 @@
-### 解题思路
-普通的递归
+// ### 解题思路
+// 普通的递归
 
-### 代码
+// ### 代码
 
-```kotlin
+// ```kotlin
 /**
  * Example:
  * var ti = TreeNode(5)
@@ -22,4 +22,4 @@ class Solution {
         return p.`val` == q.`val` && isSameTree(p.left,q.left) && isSameTree(p.right,q.right)
     }
 }
-```
+// ```

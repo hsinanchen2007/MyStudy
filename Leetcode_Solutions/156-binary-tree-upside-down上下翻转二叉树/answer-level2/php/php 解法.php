@@ -1,4 +1,4 @@
-```
+// ```
 function upsideDownBinaryTree($root) {
     $old_right = $old = null;
     while($root != null){
@@ -11,4 +11,4 @@ function upsideDownBinaryTree($root) {
     }
     return $old;
 }
-```
+// ```

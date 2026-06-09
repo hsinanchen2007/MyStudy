@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/4a136be7c5370bf508c194be16b80ccfba8caf7e8137b982c6fca6417d691763-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4a136be7c5370bf508c194be16b80ccfba8caf7e8137b982c6fca6417d691763-image.png)
 
-# 代码：
-```
+// # 代码：
+// ```
 bool hasAlternatingBits(int n){
     
     if(n == 0 || n == 1 || n == 2){return 1;}
@@ -16,5 +16,5 @@ bool hasAlternatingBits(int n){
     }
     return (binarynum == n);
 }
-```
+// ```
 

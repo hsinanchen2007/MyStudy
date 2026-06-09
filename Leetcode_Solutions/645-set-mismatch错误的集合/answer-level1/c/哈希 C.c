@@ -1,10 +1,10 @@
-### 解题思路
-C 哈希 
-数据元素为key 次数为value
+// ### 解题思路
+// C 哈希 
+// 数据元素为key 次数为value
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -29,4 +29,4 @@ int* findErrorNums(int* nums, int numsSize, int* returnSize){
     }
     return numsReturn;
 }
-```
+// ```

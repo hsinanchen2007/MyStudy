@@ -1,5 +1,5 @@
-不知道为什么测试用例"a"不通过。。。。。。。。
-```
+// 不知道为什么测试用例"a"不通过。。。。。。。。
+// ```
 class Solution {
 public:
     int lengthOfLastWord(string s) {
@@ -10,4 +10,4 @@ public:
         return s.length() - 1 - i;
     }
 };
-```
+// ```

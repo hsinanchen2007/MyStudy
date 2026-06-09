@@ -1,9 +1,9 @@
-### 解题思路
-先遍历找出马的位置坐标，从马出发向四个方向遍历，遇到象或者卒就停下，用变量summ来记录遇到卒的次数
+// ### 解题思路
+// 先遍历找出马的位置坐标，从马出发向四个方向遍历，遇到象或者卒就停下，用变量summ来记录遇到卒的次数
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int numRookCaptures(char[][] board) {
         int x = 0;
@@ -57,4 +57,4 @@ class Solution {
         return summ;
     }
 }
-```
+// ```

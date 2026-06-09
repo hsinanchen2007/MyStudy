@@ -1,5 +1,5 @@
-思路：利用php的优先队列SplPriorityQueue，维持一个有k个元素的最大堆。
-```php
+// 思路：利用php的优先队列SplPriorityQueue，维持一个有k个元素的最大堆。
+// ```php
 class Solution {
 
     /**
@@ -31,4 +31,4 @@ class Solution {
         return $ret;
     }
 }
-```
+// ```

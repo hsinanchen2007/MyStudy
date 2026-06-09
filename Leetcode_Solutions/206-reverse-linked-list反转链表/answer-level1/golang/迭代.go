@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-标准官方题解思路,注意go初始化变量
+// 标准官方题解思路,注意go初始化变量
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -23,4 +23,4 @@ var res *ListNode
 	}
 	return res
 }
-```
+// ```

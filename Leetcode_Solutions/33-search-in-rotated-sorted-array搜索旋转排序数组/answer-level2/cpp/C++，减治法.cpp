@@ -1,9 +1,9 @@
-### 解题思路
-先将比较容易想到的情况写在 if 里，那么这种情况的反面就可以直接扔到 else 里，便于逻辑上的思考。
+// ### 解题思路
+// 先将比较容易想到的情况写在 if 里，那么这种情况的反面就可以直接扔到 else 里，便于逻辑上的思考。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int search(vector<int>& nums, int target) {
@@ -62,4 +62,4 @@ public:
         return -1;
     }
 };
-```
+// ```

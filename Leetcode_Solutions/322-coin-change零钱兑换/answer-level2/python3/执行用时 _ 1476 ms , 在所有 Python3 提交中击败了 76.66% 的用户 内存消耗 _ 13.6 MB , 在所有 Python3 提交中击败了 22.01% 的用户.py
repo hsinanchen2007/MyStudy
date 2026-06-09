@@ -1,9 +1,9 @@
-### 解题思路
-小白，看了题解才勉强理解
+# ### 解题思路
+# 小白，看了题解才勉强理解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def coinChange(self, coins: List[int], amount: int) -> int:
         dp = [float('inf')] * (amount + 1)
@@ -14,4 +14,4 @@ class Solution:
             for i in range(coin, amount+1):
                 dp[i] = min(dp[i], dp[i-coin] + 1)
         return dp[amount] if dp[amount] != float('inf') else -1
-```
+# ```

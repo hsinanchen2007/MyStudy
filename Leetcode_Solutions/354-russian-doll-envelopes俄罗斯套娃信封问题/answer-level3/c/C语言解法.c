@@ -1,11 +1,11 @@
-### 解题思路
-先对信封数组进行排序，使其递增有序
-再套用 最长递增子序列（LIS）(非连续) 的动态规划思想
-即可
+// ### 解题思路
+// 先对信封数组进行排序，使其递增有序
+// 再套用 最长递增子序列（LIS）(非连续) 的动态规划思想
+// 即可
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int MAX(int a,int b){return a>b?a:b;}
 int MIN(int a,int b){return a>b?a:b;}
 typedef struct node {
@@ -54,4 +54,4 @@ int maxEnvelopes(int** list, int row, int* col){
 
  	return tmax;
 }
-```
+// ```

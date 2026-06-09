@@ -1,22 +1,22 @@
-### 解题思路
-题目可以转换为：
+// ### 解题思路
+// 题目可以转换为：
 
-有一组N以内的元素，元素间链接关系由单链表表示，元素是单链表节点val的子集。求最终独立的元素组的个数。
+// 有一组N以内的元素，元素间链接关系由单链表表示，元素是单链表节点val的子集。求最终独立的元素组的个数。
 
-使用并查集解决此类问题。
+// 使用并查集解决此类问题。
 
-1.构建并查集表，不在G内的用-1表示
+// 1.构建并查集表，不在G内的用-1表示
 
-2.遍历单链表，只考虑在G内的元素之间建立链接
+// 2.遍历单链表，只考虑在G内的元素之间建立链接
 
-3.统计并查集表，算出独立集合个数
+// 3.统计并查集表，算出独立集合个数
 
-![image.png](https://pic.leetcode-cn.com/3db5237864a207cca57c32aaad7e476b6e686d7903f2961d6d94cd88744d4324-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3db5237864a207cca57c32aaad7e476b6e686d7903f2961d6d94cd88744d4324-image.png)
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -117,4 +117,4 @@ int numComponents(struct ListNode* head, int* G, int GSize){
 
     return cnt;
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
@@ -24,5 +24,5 @@ public:
         return temp;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/ab4d0fcf5a5dbe2f315b2c96c3580677e9192399803edb8cc68938fa7c00539d-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/ab4d0fcf5a5dbe2f315b2c96c3580677e9192399803edb8cc68938fa7c00539d-image.png)

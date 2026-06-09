@@ -1,5 +1,5 @@
-为了读起来方便，没有在一行内复制。
-```
+// 为了读起来方便，没有在一行内复制。
+// ```
 func reverseList(head *ListNode) *ListNode {
 	//pre := new(ListNode)	//pre不能声明为一个空值，那样会多增加一个节点
 	var pre  *ListNode
@@ -12,4 +12,4 @@ func reverseList(head *ListNode) *ListNode {
 	}
 	return pre
 }
-```
+// ```

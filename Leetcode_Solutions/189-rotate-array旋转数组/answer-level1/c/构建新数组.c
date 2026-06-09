@@ -1,9 +1,9 @@
-### 解题思路
+// ### 解题思路
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int* nums, int numsSize, int k){
         int a[numsSize];
         for (int i=0;i<numsSize;i++)
@@ -15,4 +15,4 @@ void rotate(int* nums, int numsSize, int k){
             nums[i]=a[i];
         }
 }
-```
+// ```

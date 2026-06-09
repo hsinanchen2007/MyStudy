@@ -1,9 +1,9 @@
-### 解题思路
-从后往前扫描，数最后一个0之前有多少个连续的1，偶数个（包括0个）为true，奇数个为false
+// ### 解题思路
+// 从后往前扫描，数最后一个0之前有多少个连续的1，偶数个（包括0个）为true，奇数个为false
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool isOneBitCharacter(vector<int>& bits) {
@@ -21,4 +21,4 @@ public:
         else {return false;}
     }
 };
-```
+// ```

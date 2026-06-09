@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 int judge(string &s,vector<int>record){
@@ -27,4 +27,4 @@ int judge(string &s,vector<int>record){
     }
 };
 
-```
+// ```

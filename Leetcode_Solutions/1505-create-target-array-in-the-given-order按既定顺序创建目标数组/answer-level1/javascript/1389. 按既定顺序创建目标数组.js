@@ -1,9 +1,9 @@
-### 解题思路
-居然莫名其妙跑了双100
+// ### 解题思路
+// 居然莫名其妙跑了双100
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number[]} index
@@ -17,4 +17,4 @@ var createTargetArray = function(nums, index) {
     }
     return result.filter(v => { return v !== null })
 };
-```
+// ```

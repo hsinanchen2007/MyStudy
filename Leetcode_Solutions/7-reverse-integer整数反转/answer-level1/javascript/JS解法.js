@@ -1,9 +1,9 @@
-### 解题思路
-先判断保存x的正负情况，转换为字符串进行循环，向前添加，最后进行判断正负和溢出情况，返回结果。
+// ### 解题思路
+// 先判断保存x的正负情况，转换为字符串进行循环，向前添加，最后进行判断正负和溢出情况，返回结果。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} x
  * @return {number}
@@ -20,4 +20,4 @@ var reverse = function(x) {
         return -parseInt(num)<(-2)**31?0:-parseInt(num)
     }
 };
-```
+// ```

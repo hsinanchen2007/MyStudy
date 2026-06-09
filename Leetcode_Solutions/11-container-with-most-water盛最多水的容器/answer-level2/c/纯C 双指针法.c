@@ -1,4 +1,4 @@
-```
+// ```
 int maxArea(int* height, int heightSize){
     int head = 0;
     int rear = heightSize - 1;
@@ -25,4 +25,4 @@ int maxArea(int* height, int heightSize){
 
     return maxArea;
 }
-```
+// ```

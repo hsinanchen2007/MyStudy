@@ -1,7 +1,7 @@
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& T) {
@@ -22,4 +22,4 @@ public:
         return ans;
     }
 };
-```
+// ```

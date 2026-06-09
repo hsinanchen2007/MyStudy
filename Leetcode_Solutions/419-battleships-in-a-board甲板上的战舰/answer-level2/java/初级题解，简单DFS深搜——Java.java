@@ -1,6 +1,6 @@
-思路：此题类似求无向图连通分量的数目，应用简单DFS深搜即可解。<br/><br/>
-代码：
-```
+// 思路：此题类似求无向图连通分量的数目，应用简单DFS深搜即可解。<br/><br/>
+// 代码：
+// ```
 class Solution {
     public int countBattleships(char[][] board) {
         if (board == null || board.length < 1 || board[0] == null || board[0].length < 1) {
@@ -33,4 +33,4 @@ class Solution {
         }
     }
 }
-```
+// ```

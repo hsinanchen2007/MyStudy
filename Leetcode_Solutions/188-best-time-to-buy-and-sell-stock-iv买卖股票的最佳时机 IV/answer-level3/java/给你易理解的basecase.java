@@ -1,10 +1,10 @@
-### 解题思路
-最热题解大佬的帖子里面的basecase，很多人反馈难理解，易出错。
-我这里的basecase更易看懂记住。
+// ### 解题思路
+// 最热题解大佬的帖子里面的basecase，很多人反馈难理解，易出错。
+// 我这里的basecase更易看懂记住。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxProfit(int k, int[] prices) {
         if (prices == null || prices.length <= 1 || k < 1) {
@@ -44,4 +44,4 @@ class Solution {
         return state[days - 1][0];
     }
 }
-```
+// ```

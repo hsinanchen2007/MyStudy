@@ -1,6 +1,6 @@
-就是滑动窗口计数统计和字典比较，注意末尾要再比一次就行了。
+# 就是滑动窗口计数统计和字典比较，注意末尾要再比一次就行了。
 
-```python []
+# ```python []
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
         ns, np = len(s), len(p)
@@ -17,4 +17,4 @@ class Solution:
         if d == t:
             ans += [ns - np]
         return ans
-```
+# ```

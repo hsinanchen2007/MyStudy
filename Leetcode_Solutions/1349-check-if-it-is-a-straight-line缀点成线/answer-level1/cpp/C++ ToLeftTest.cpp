@@ -1,9 +1,9 @@
-用 [ToLeftTest](https://www.cnblogs.com/wind-chaser/p/10889537.html) 来检测三点是否共线
+// 用 [ToLeftTest](https://www.cnblogs.com/wind-chaser/p/10889537.html) 来检测三点是否共线
 
-![WechatIMG14.png](https://pic.leetcode-cn.com/8692b218d2ba6dada998d580dab88ac29043ef20b6ceb3dab852d82e5e69a75c-WechatIMG14.png)
+// ![WechatIMG14.png](https://pic.leetcode-cn.com/8692b218d2ba6dada998d580dab88ac29043ef20b6ceb3dab852d82e5e69a75c-WechatIMG14.png)
 
 
-```
+// ```
 bool checkStraightLine(vector<vector<int>> &coordinates) {
     if (coordinates.size() <= 2) return true;
 
@@ -23,4 +23,4 @@ bool checkStraightLine(vector<vector<int>> &coordinates) {
     return true;
 
 }
-```
+// ```

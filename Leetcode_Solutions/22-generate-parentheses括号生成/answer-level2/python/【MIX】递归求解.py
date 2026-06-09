@@ -1,9 +1,9 @@
-### 解题思路
-在递归过程中检查左右括号的配对性
+# ### 解题思路
+# 在递归过程中检查左右括号的配对性
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public List<String> generateParenthesis(int n) {
         this.res = new ArrayList<String>();
@@ -27,8 +27,8 @@ class Solution {
 
     private List<String> res;
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         self.res = []
@@ -45,8 +45,8 @@ class Solution:
 
         if right < left:
             self.makePermutation(ans+")", left, right+1, n)
-```
-```c++ []
+# ```
+# ```c++ []
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -76,9 +76,9 @@ private:
 private:
     vector<string> res;
 };
-```
-**2020/4/9**
-```c++ []
+# ```
+# **2020/4/9**
+# ```c++ []
 class Solution {
 public:
     vector<string> generateParenthesis(int n) {
@@ -102,4 +102,4 @@ private:
 
     vector<string> res;
 };
-```
+# ```

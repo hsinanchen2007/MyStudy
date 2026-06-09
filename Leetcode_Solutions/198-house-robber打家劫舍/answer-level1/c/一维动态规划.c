@@ -1,12 +1,12 @@
 
 
-**核心方程：dp[i] =  max(dp[i-2]+nums[i],dp[i-1])**
+// **核心方程：dp[i] =  max(dp[i-2]+nums[i],dp[i-1])**
 
-*dp[i]表示从nums[0]到nums[i]能获得的最多钱数*
+// *dp[i]表示从nums[0]到nums[i]能获得的最多钱数*
 
 
 
-```
+// ```
 //C代码
 int rob(int* nums, int numsSize)
 {
@@ -34,5 +34,5 @@ int rob(int* nums, int numsSize)
     return dp[numsSize -1];
     
 }
-```
+// ```
 

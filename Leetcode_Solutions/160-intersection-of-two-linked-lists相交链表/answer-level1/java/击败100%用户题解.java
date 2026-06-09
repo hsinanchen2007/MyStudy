@@ -1,6 +1,6 @@
-![WX20191107-000557@2x.png](https://pic.leetcode-cn.com/bf0bde1615a3a91ad505ff2c1e74b3efbaf6af85ecf9c6f3538491aaec6f15d5-WX20191107-000557@2x.png)
+// ![WX20191107-000557@2x.png](https://pic.leetcode-cn.com/bf0bde1615a3a91ad505ff2c1e74b3efbaf6af85ecf9c6f3538491aaec6f15d5-WX20191107-000557@2x.png)
 
-```
+// ```
 public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
     /*如果有一个为null则返回null*/
     if (headA == null || headB == null) {
@@ -49,4 +49,4 @@ public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
     }
     return null;
   }
-```
+// ```

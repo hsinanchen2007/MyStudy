@@ -1,5 +1,5 @@
-参考打家劫舍 III，每个房间都只能有两种情况，被偷和没被偷。记录两种情况的结果即可。内存损耗37.4。
-```
+// 参考打家劫舍 III，每个房间都只能有两种情况，被偷和没被偷。记录两种情况的结果即可。内存损耗37.4。
+// ```
 class Solution {
     public int rob(int[] nums) {
         int[] res = solution(0,nums.length-1,nums);
@@ -25,4 +25,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

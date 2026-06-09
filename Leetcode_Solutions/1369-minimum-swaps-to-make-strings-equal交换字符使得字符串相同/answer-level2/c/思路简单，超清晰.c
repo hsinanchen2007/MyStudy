@@ -1,10 +1,10 @@
-### 解题思路
-转化为数学问题，很简单。
-![image.png](https://pic.leetcode-cn.com/51ecb8fcf82abcc19177d4af5b358aa960b3be1989f98505dbe231c861557620-image.png)
+// ### 解题思路
+// 转化为数学问题，很简单。
+// ![image.png](https://pic.leetcode-cn.com/51ecb8fcf82abcc19177d4af5b358aa960b3be1989f98505dbe231c861557620-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int minimumSwap(char * s1, char * s2){
     int n1=0,n2=0;
     char *p1,*p2;
@@ -22,4 +22,4 @@ int minimumSwap(char * s1, char * s2){
         else return n1/2+n2/2+2;
     }
 }
-```
+// ```

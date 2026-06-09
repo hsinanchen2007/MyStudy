@@ -1,4 +1,4 @@
-执行用时:140ms,在所有Python提交中击败了34.65%的用户内存消耗:16MB,在所有Python提交中击败了6.67%的用户
+# 执行用时:140ms,在所有Python提交中击败了34.65%的用户内存消耗:16MB,在所有Python提交中击败了6.67%的用户
 
     def subarraySum(self, nums, k):
       from collections import defaultdict

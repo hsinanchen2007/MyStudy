@@ -1,5 +1,5 @@
-执行用时 :128 ms, 在所有 cpp 提交中击败了84.38%的用户
-内存消耗 :14.5 MB, 在所有 cpp 提交中击败了94.66%的用户
+// 执行用时 :128 ms, 在所有 cpp 提交中击败了84.38%的用户
+// 内存消耗 :14.5 MB, 在所有 cpp 提交中击败了94.66%的用户
 
     void siftdown(vector<int>& nums,int i,int n){
         int j,temp=nums[i];

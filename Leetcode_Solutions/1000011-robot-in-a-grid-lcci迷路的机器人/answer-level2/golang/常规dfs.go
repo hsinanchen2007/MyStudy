@@ -1,9 +1,9 @@
-### 解题思路
-可能有多个解，取其中一个就行；对于一个位置(r, c)如果已经访问过，再次访问可直接返回
+// ### 解题思路
+// 可能有多个解，取其中一个就行；对于一个位置(r, c)如果已经访问过，再次访问可直接返回
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func pathWithObstacles(obstacleGrid [][]int) [][]int {
     if len(obstacleGrid) == 0 || len(obstacleGrid[0]) == 0 {
         return nil
@@ -33,4 +33,4 @@ func pathWithObstacles(obstacleGrid [][]int) [][]int {
     _ = dfs(0, 0)
     return result
 }
-```
+// ```

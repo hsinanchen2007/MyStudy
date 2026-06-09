@@ -1,16 +1,16 @@
-# 题目描述（简单难度）
+// # 题目描述（简单难度）
 
-![](https://pic.leetcode-cn.com/7f89e1409cbacae542ea3a456e02c20d6da73e6250e917790457fb435eb05a53.jpg)
+// ![](https://pic.leetcode-cn.com/7f89e1409cbacae542ea3a456e02c20d6da73e6250e917790457fb435eb05a53.jpg)
 
-给定一个`sum`，判断是否有一条从根节点到叶子节点的路径，该路径上所有数字的和等于`sum`。
+// 给定一个`sum`，判断是否有一条从根节点到叶子节点的路径，该路径上所有数字的和等于`sum`。
 
-# 解法一 递归
+// # 解法一 递归
 
-这道题其实和 [111 题](<https://leetcode.wang/leetcode-111-Minimum-Depth-of-Binary-Tree.html>) 是一样的，大家可以先看 [111 题](<https://leetcode.wang/leetcode-111-Minimum-Depth-of-Binary-Tree.html>)  的分析，这道题无非是把 [111 题](<https://leetcode.wang/leetcode-111-Minimum-Depth-of-Binary-Tree.html>) 递归传递的`depth`改为了`sum`的传递。
+// 这道题其实和 [111 题](<https://leetcode.wang/leetcode-111-Minimum-Depth-of-Binary-Tree.html>) 是一样的，大家可以先看 [111 题](<https://leetcode.wang/leetcode-111-Minimum-Depth-of-Binary-Tree.html>)  的分析，这道题无非是把 [111 题](<https://leetcode.wang/leetcode-111-Minimum-Depth-of-Binary-Tree.html>) 递归传递的`depth`改为了`sum`的传递。
 
-如果不仔细分析题目，代码可能会写成下边的样子。
+// 如果不仔细分析题目，代码可能会写成下边的样子。
 
-```java
+// ```java
 public boolean hasPathSum(TreeNode root, int sum) {
     if (root == null) {
         return false;
@@ -24,11 +24,11 @@ private boolean hasPathSumHelper(TreeNode root, int sum) {
     }
     return hasPathSumHelper(root.left, sum - root.val) || hasPathSumHelper(root.right, sum - root.val);
 }
-```
+// ```
 
-看起来没什么问题，并且对于题目给的样例也是没问题的。但是对于下边的样例：
+// 看起来没什么问题，并且对于题目给的样例也是没问题的。但是对于下边的样例：
 
-```java
+// ```java
      3
     / \
    9   20
@@ -36,13 +36,13 @@ private boolean hasPathSumHelper(TreeNode root, int sum) {
  8   15   7
 
 sum = 12
-```
+// ```
 
-当某个子树只有一个孩子的时候，就会出问题了，可以看 [111 题](<https://leetcode.wang/leetcode-111-Minimum-Depth-of-Binary-Tree.html>) 的分析。
+// 当某个子树只有一个孩子的时候，就会出问题了，可以看 [111 题](<https://leetcode.wang/leetcode-111-Minimum-Depth-of-Binary-Tree.html>) 的分析。
 
-所以代码需要写成下边的样子。
+// 所以代码需要写成下边的样子。
 
-```java
+// ```java
 public boolean hasPathSum(TreeNode root, int sum) {
     if (root == null) {
         return false;
@@ -65,13 +65,13 @@ private boolean hasPathSumHelper(TreeNode root, int sum) {
     }
     return hasPathSumHelper(root.left, sum - root.val) || hasPathSumHelper(root.right, sum - root.val);
 }
-```
+// ```
 
-# 解法二 BFS
+// # 解法二 BFS
 
-同样的，我们可以利用一个队列对二叉树进行层次遍历。同时还需要一个队列，保存当前从根节点到当前节点已经累加的和。`BFS`的基本框架不用改变，参考 [102 题](<https://leetcode.wang/leetcode-102-Binary-Tree-Level-Order-Traversal.html>)。只需要多一个队列，进行细微的改变即可。
+// 同样的，我们可以利用一个队列对二叉树进行层次遍历。同时还需要一个队列，保存当前从根节点到当前节点已经累加的和。`BFS`的基本框架不用改变，参考 [102 题](<https://leetcode.wang/leetcode-102-Binary-Tree-Level-Order-Traversal.html>)。只需要多一个队列，进行细微的改变即可。
 
-```java
+// ```java
 public boolean hasPathSum(TreeNode root, int sum) {
     Queue<TreeNode> queue = new LinkedList<TreeNode>();
     Queue<Integer> queueSum = new LinkedList<Integer>();
@@ -103,15 +103,15 @@ public boolean hasPathSum(TreeNode root, int sum) {
     }
     return false;
 }
-```
+// ```
 
-# 解法三 DFS
+// # 解法三 DFS
 
-解法一其实本质上就是做了`DFS`，我们知道`DFS`可以用栈去模拟。对于这道题，我们可以像解法二的`BFS`一样，再增加一个栈，去保存从根节点到当前节点累计的和就可以了。
+// 解法一其实本质上就是做了`DFS`，我们知道`DFS`可以用栈去模拟。对于这道题，我们可以像解法二的`BFS`一样，再增加一个栈，去保存从根节点到当前节点累计的和就可以了。
 
-这里的话，用`DFS`里的中序遍历，参考 [94 题](<https://leetcode.wang/leetCode-94-Binary-Tree-Inorder-Traversal.html>)。
+// 这里的话，用`DFS`里的中序遍历，参考 [94 题](<https://leetcode.wang/leetCode-94-Binary-Tree-Inorder-Traversal.html>)。
 
-```java
+// ```java
 public boolean hasPathSum(TreeNode root, int sum) {
     Stack<TreeNode> stack = new Stack<>();
     Stack<Integer> stackSum = new Stack<>();
@@ -137,17 +137,17 @@ public boolean hasPathSum(TreeNode root, int sum) {
     }
     return false;
 }
-```
+// ```
 
-但是之前讲了，对于这种利用栈完全模拟递归的思路，对时间复杂度和空间复杂度并没有什么提高。只是把递归传递的参数`root`和`sum`，本该由计算机自动的压栈出栈，由我们手动去压栈出栈了。
+// 但是之前讲了，对于这种利用栈完全模拟递归的思路，对时间复杂度和空间复杂度并没有什么提高。只是把递归传递的参数`root`和`sum`，本该由计算机自动的压栈出栈，由我们手动去压栈出栈了。
 
-所以我们能不能提高一下，比如省去`sum`这个栈？让我们来分析以下。参考 [这里](<https://leetcode.com/problems/path-sum/discuss/36382/Accepted-By-using-postorder-traversal>) 。
+// 所以我们能不能提高一下，比如省去`sum`这个栈？让我们来分析以下。参考 [这里](<https://leetcode.com/problems/path-sum/discuss/36382/Accepted-By-using-postorder-traversal>) 。
 
-我们如果只用一个变量`curSum`来记录根节点到当前节点累计的和，有节点入栈就加上节点的值，有节点出栈就减去节点的值。
+// 我们如果只用一个变量`curSum`来记录根节点到当前节点累计的和，有节点入栈就加上节点的值，有节点出栈就减去节点的值。
 
-比如对于下边的树，我们进行中序遍历。
+// 比如对于下边的树，我们进行中序遍历。
 
-```java
+// ```java
      3
     / \
    9   20
@@ -161,15 +161,15 @@ curSum = 0
 8 出栈， curSum = 12， 3 -> 9
 9 出栈， curSum = 3， 
 15 入栈， curSum = 18， 3 -> 9 -> 15
-```
+// ```
 
-此时路径是 `3 -> 9 -> 15`，和应该是 `27`。但我们得到的是 `18`，少加了 `9 `。
+// 此时路径是 `3 -> 9 -> 15`，和应该是 `27`。但我们得到的是 `18`，少加了 `9 `。
 
-原因就是我们进行的是中序遍历，当我们还没访问右边的节点的时候，根节点已经出栈了，再访问右边节点的时候，`curSum`就会少一个根节点的值。
+// 原因就是我们进行的是中序遍历，当我们还没访问右边的节点的时候，根节点已经出栈了，再访问右边节点的时候，`curSum`就会少一个根节点的值。
 
-所以，我们可以用后序遍历，先访问左子树，再访问右子树，最后访问根节点。再看一下上边的问题。
+// 所以，我们可以用后序遍历，先访问左子树，再访问右子树，最后访问根节点。再看一下上边的问题。
 
-```java
+// ```java
      3
     / \
    9   20
@@ -182,13 +182,13 @@ curSum = 0
 8 入栈， curSum = 20， 3 -> 9 -> 8
 8 出栈， curSum = 12， 3 -> 9
 15 入栈， curSum = 27， 3 -> 9 -> 15
-```
+// ```
 
-此时路径 `3 -> 9 -> 15` 对应的 `curSum` 就是正确的了。
+// 此时路径 `3 -> 9 -> 15` 对应的 `curSum` 就是正确的了。
 
-用栈实现后序遍历，比中序遍历要复杂一些。当访问到根节点的时候，它的右子树可能访问过了，那就把根节点输出。它的右子树可能没访问过，我们需要去遍历它的右子树。所以我们要用一个变量`pre`保存上一次遍历的节点，用来判断当前根节点的右子树是否已经遍历完成。
+// 用栈实现后序遍历，比中序遍历要复杂一些。当访问到根节点的时候，它的右子树可能访问过了，那就把根节点输出。它的右子树可能没访问过，我们需要去遍历它的右子树。所以我们要用一个变量`pre`保存上一次遍历的节点，用来判断当前根节点的右子树是否已经遍历完成。
 
-```java
+// ```java
 public List<Integer> postorderTraversal(TreeNode root) {
     List<Integer> result = new LinkedList<>();
     Stack<TreeNode> toVisit = new Stack<>();
@@ -213,11 +213,11 @@ public List<Integer> postorderTraversal(TreeNode root) {
     }
     return result;
 }
-```
+// ```
 
-有了上边的后序遍历，对于这道题，代码就很好改了。
+// 有了上边的后序遍历，对于这道题，代码就很好改了。
 
-```java
+// ```java
 public boolean hasPathSum(TreeNode root, int sum) {
     List<Integer> result = new LinkedList<>();
     Stack<TreeNode> toVisit = new Stack<>();
@@ -247,10 +247,10 @@ public boolean hasPathSum(TreeNode root, int sum) {
     }
     return false;
 }
-```
+// ```
 
-# 总
+// # 总
 
-这道题还是在考二叉树的遍历，`DFS`，`BFS`。解法三通过后序遍历节省了`sum`栈，蛮有意思的。
+// 这道题还是在考二叉树的遍历，`DFS`，`BFS`。解法三通过后序遍历节省了`sum`栈，蛮有意思的。
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

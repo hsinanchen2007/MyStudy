@@ -1,9 +1,9 @@
-### 解题思路
-排序？
+# ### 解题思路
+# 排序？
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         if not arr:
@@ -13,4 +13,4 @@ class Solution:
         for i in range(k):
             res.append(arr[i])
         return res
-```
+# ```

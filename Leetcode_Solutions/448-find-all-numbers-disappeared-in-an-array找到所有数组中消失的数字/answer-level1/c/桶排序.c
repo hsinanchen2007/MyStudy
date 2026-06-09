@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![image.png](https://pic.leetcode-cn.com/b5a9500487ca3e29afde51833ae434c27e952e0eb2ad2cd3ce44fe87e69c4c4a-image.png)
+// ### 解题思路
+// 此处撰写解题思路
+// ![image.png](https://pic.leetcode-cn.com/b5a9500487ca3e29afde51833ae434c27e952e0eb2ad2cd3ce44fe87e69c4c4a-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -30,4 +30,4 @@ int* findDisappearedNumbers(int* nums, int numsSize, int* returnSize){
     *returnSize = res_index;
     return res;
 }
-```
+// ```

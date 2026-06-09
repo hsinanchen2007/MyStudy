@@ -1,5 +1,5 @@
 
-```c++ []
+// ```c++ []
 class Solution {
 public:
     string simplifyPath(string path) {
@@ -33,4 +33,4 @@ public:
         return result;
     }
 };
-```
+// ```

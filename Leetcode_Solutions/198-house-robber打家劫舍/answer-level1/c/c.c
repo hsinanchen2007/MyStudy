@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-1、本题采用动态规划思想，即max(i) = max{max(i - 3), max(i - 2)} + nums[i];
+// ### 解题思路
+// 此处撰写解题思路
+// 1、本题采用动态规划思想，即max(i) = max{max(i - 3), max(i - 2)} + nums[i];
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int rob(int* nums, int numsSize){
     int a[3] = {0};
     int tmp = 0;
@@ -30,4 +30,4 @@ int rob(int* nums, int numsSize){
 
     return max;
 }
-```
+// ```

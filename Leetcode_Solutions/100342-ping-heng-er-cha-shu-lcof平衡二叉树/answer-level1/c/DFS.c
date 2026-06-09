@@ -1,6 +1,6 @@
-执行用时 :8 ms, 在所有 C 提交中击败了92.68%的用户
-内存消耗 :10.4 MB, 在所有 C 提交中击败了100.00%的用户
-```
+// 执行用时 :8 ms, 在所有 C 提交中击败了92.68%的用户
+// 内存消耗 :10.4 MB, 在所有 C 提交中击败了100.00%的用户
+// ```
 int Balanced(struct TreeNode* root,int dep)
 {
     int depl=0,depr=0;
@@ -22,4 +22,4 @@ bool isBalanced(struct TreeNode* root){
         return false;
     return isBalanced(root->left)&&isBalanced(root->right);//递归使得每一个结点都满足平衡条件
 }
-```
+// ```

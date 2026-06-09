@@ -1,9 +1,9 @@
-### 解题思路
-C# 递归优先搜索右侧子树
+// ### 解题思路
+// C# 递归优先搜索右侧子树
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -45,4 +45,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 解题思路
-首先找到要反转的区间，再将这个区间里的node反转，接上原链表
-### 代码
+// ### 解题思路
+// 首先找到要反转的区间，再将这个区间里的node反转，接上原链表
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -49,4 +49,4 @@ class Solution {
         }
     }
 }
-```
+// ```

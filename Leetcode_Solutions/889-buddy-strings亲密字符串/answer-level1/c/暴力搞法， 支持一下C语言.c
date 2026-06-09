@@ -1,4 +1,4 @@
-```
+// ```
 bool Find(char *s)
 {
     int len = strlen(s);
@@ -42,4 +42,4 @@ bool buddyStrings(char * A, char * B)
     }
     return false;
 }
-```
+// ```

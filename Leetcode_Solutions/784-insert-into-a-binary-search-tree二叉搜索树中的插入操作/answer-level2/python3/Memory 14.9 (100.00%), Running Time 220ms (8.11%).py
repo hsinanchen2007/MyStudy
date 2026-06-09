@@ -1,4 +1,4 @@
-```python3
+# ```python3
 class Solution:
     def insertIntoBST(self, root: TreeNode, val: int) -> TreeNode:
         if root == None:
@@ -11,4 +11,4 @@ class Solution:
             root.left = self.insertIntoBST(root.left, val)
 
         return root
-```
+# ```

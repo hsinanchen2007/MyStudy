@@ -1,9 +1,9 @@
-### 解题思路
-思路就是在词汇表中构建一个hash表，对于组成的单词而言，如果存在hash表中，就减去一，如果遇到的字母不存在hash表，或者hash表对应单词的计数为0，则不可能组成这个单词，如果能组成这个单词，我们就在结果res中添加这个单词，最后返回，算是用了hash的思想和结合生活实际吧。
+# ### 解题思路
+# 思路就是在词汇表中构建一个hash表，对于组成的单词而言，如果存在hash表中，就减去一，如果遇到的字母不存在hash表，或者hash表对应单词的计数为0，则不可能组成这个单词，如果能组成这个单词，我们就在结果res中添加这个单词，最后返回，算是用了hash的思想和结合生活实际吧。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def countCharacters(self, words, chars):
         """
@@ -29,4 +29,4 @@ class Solution(object):
             if not  flag:
                 res+=i
         return len(res)
-```
+# ```

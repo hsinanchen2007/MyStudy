@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-（1）找到目标结点；
-（2）依次判断该链表结点是否为尾结点、头结点、中间结点
+// ### 解题思路
+// 此处撰写解题思路
+// （1）找到目标结点；
+// （2）依次判断该链表结点是否为尾结点、头结点、中间结点
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -56,4 +56,4 @@ struct ListNode* deleteNode(struct ListNode* head, int val){
 
     return head;
 }
-```
+// ```

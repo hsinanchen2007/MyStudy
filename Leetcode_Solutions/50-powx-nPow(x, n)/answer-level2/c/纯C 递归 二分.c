@@ -1,9 +1,9 @@
-### 解题思路
-纯C 递归 二分 强制类型转换
+// ### 解题思路
+// 纯C 递归 二分 强制类型转换
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 static double _pow(double x, long n)
 {
     if (0 == n)
@@ -23,4 +23,4 @@ static double _pow(double x, long n)
 double myPow(double x, int n){
     return n < 0 ? 1.0 / _pow(x, -(long)n) : _pow(x, n);
 }
-```
+// ```

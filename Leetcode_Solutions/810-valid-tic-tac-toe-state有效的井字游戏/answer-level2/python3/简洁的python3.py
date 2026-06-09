@@ -1,5 +1,5 @@
-python可以很短！效率也还行：48ms
-```python
+# python可以很短！效率也还行：48ms
+# ```python
 class Solution:
     def validTicTacToe(self, board: List[str]) -> bool:
         
@@ -34,4 +34,4 @@ class Solution:
             return False
         
         return True
-```
+# ```

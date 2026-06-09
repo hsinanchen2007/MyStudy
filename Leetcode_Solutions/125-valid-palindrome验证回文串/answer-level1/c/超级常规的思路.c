@@ -1,12 +1,12 @@
-### 解题思路
-- 第一遍遍历获取字符总长度，和数字字、母字符的长度
-- 第二遍遍历将字符放入开辟的数组中，并将大写字母转换为小写
-- 第三遍将对称字符进行比对
+// ### 解题思路
+// - 第一遍遍历获取字符总长度，和数字字、母字符的长度
+// - 第二遍遍历将字符放入开辟的数组中，并将大写字母转换为小写
+// - 第三遍将对称字符进行比对
 
-### 代码
-![2.png](https://pic.leetcode-cn.com/26e35fc7ee1d8dda8ae7d5c5dd4fd0f48b46a32f39087a4979dd505cc63ecc1f-2.png)
+// ### 代码
+// ![2.png](https://pic.leetcode-cn.com/26e35fc7ee1d8dda8ae7d5c5dd4fd0f48b46a32f39087a4979dd505cc63ecc1f-2.png)
 
-```c
+// ```c
 bool isPalindrome(char * s){
     bool flag = true;
     int len = 0;
@@ -45,4 +45,4 @@ bool isPalindrome(char * s){
     free(p);
     return flag;
 }
-```
+// ```

@@ -1,8 +1,8 @@
-### 思路一：优先队列
+// ### 思路一：优先队列
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {
@@ -17,9 +17,9 @@ public:
         return pq.top();
     }
 };
-```
-### 另一种写法
-```c++
+// ```
+// ### 另一种写法
+// ```c++
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {        
@@ -30,13 +30,13 @@ public:
         return pq.top();
     }
 };
-```
+// ```
 
-### 思路二：分治
-利用快排思想。
+// ### 思路二：分治
+// 利用快排思想。
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     int findKthLargest(vector<int>& nums, int k) {        
@@ -62,5 +62,5 @@ public:
         return r;
     }
 };
-```
+// ```
 

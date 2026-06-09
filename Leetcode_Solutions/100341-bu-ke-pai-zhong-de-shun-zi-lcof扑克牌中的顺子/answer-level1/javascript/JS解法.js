@@ -1,12 +1,12 @@
-### 解题思路
-思路：
-1. 数组长度为5
-2. max - min < 5
-3. 除0以外无重复的扑克牌
+// ### 解题思路
+// 思路：
+// 1. 数组长度为5
+// 2. max - min < 5
+// 3. 除0以外无重复的扑克牌
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 
 var isStraight = function(numbers) {
     let max=-1;
@@ -35,4 +35,4 @@ var isStraight = function(numbers) {
     return false
 };
 
-```
+// ```

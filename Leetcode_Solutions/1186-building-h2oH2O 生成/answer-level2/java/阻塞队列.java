@@ -1,4 +1,4 @@
-```java
+// ```java
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.*;
 class H2O {
@@ -29,4 +29,4 @@ class H2O {
         oToH.put(1);
     }
 }
-```
+// ```

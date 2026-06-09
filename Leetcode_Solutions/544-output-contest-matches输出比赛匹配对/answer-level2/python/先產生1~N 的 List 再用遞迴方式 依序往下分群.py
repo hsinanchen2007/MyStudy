@@ -1,9 +1,9 @@
-### 解题思路
-先產生1~N 的 List 再用遞迴方式 依序往下分群
+# ### 解题思路
+# 先產生1~N 的 List 再用遞迴方式 依序往下分群
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findContestMatch(self, n: int) -> str:
 
@@ -32,4 +32,4 @@ class Solution:
 
 
             
-```
+# ```

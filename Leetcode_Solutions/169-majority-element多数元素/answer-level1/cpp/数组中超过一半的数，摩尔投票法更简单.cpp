@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -6,9 +6,9 @@ public:
         return nums[nums.size()/2];
     }
 };
-```
-摩尔投票法
-```
+// ```
+// 摩尔投票法
+// ```
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -25,4 +25,4 @@ public:
        return result;
     }
 };
-```
+// ```

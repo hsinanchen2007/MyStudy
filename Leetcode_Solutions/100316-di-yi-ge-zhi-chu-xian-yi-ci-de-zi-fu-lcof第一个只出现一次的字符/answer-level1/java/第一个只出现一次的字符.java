@@ -1,8 +1,8 @@
-### 解题思路
-这个思路比较常见
-### 代码
+// ### 解题思路
+// 这个思路比较常见
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public char firstUniqChar(String s) {
         char [] chars=new char[26];
@@ -19,4 +19,4 @@ class Solution {
         return ' ';
     }
 }
-```
+// ```

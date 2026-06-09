@@ -1,4 +1,4 @@
-```
+// ```
 object Solution {
   def binaryTreePaths(root: TreeNode): List[String] = {
     if (root == null) return Nil
@@ -6,4 +6,4 @@ object Solution {
     val strings: List[String] = binaryTreePaths(root.left) ::: binaryTreePaths(root.right)
     strings.map(x => root.value.toString + "->" + x)
   }
-```
+// ```

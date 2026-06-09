@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-比较好理解, 就是效率比较低
+// 比较好理解, 就是效率比较低
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} A
  * @return {number[]}
@@ -24,11 +24,11 @@ var sortArrayByParityII = function(A) {
     })
     return list
 };
-```
+// ```
 
 
 
-```js
+// ```js
 var sortArrayByParityII = function(A) {
     let list = []
     let odd = A.filter(t => t%2===1)
@@ -44,4 +44,4 @@ var sortArrayByParityII = function(A) {
     }
     return list
 };
-```
+// ```

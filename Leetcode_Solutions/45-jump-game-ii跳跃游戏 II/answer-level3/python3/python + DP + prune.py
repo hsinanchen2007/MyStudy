@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def jump(self, nums: List[int]) -> int:
         # dp = min(dp[i], 左边可到达该位置的dp+ 1
@@ -14,4 +14,4 @@ class Solution:
                     if dp[i] + 1 <= dp[i + j]: dp[i + j] = dp[i] + 1
                     else: break
         return dp[-1]
-```
+# ```

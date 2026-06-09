@@ -1,7 +1,7 @@
-执行用时 :0 ms, 在所有 java 提交中击败了100.00%的用户
-内存消耗 :41.2 MB, 在所有 java 提交中击败了60.89%的用户
-首先通过二分法比较最后一列的值来找出目标值所在的行，再在行中用二分法查找是否存在。
-```
+// 执行用时 :0 ms, 在所有 java 提交中击败了100.00%的用户
+// 内存消耗 :41.2 MB, 在所有 java 提交中击败了60.89%的用户
+// 首先通过二分法比较最后一列的值来找出目标值所在的行，再在行中用二分法查找是否存在。
+// ```
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         if (matrix.length == 0 || matrix[0].length == 0)
@@ -39,4 +39,4 @@ class Solution {
         else return false;
     }
 }
-```
+// ```

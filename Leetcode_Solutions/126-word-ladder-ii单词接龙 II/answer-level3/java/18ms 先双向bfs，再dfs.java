@@ -1,9 +1,9 @@
-- 总体思路
-    - 先双向广度优先bfs，确定在相遇时，所有涉及的相邻词映射 ```neighborsMap: Map<String, List<String>>``` ，如 ```a, [b, c]``` , ```b, [d, f]``` , ```c, [f]```
-    - 再基于 ```neighborsMap``` 做深度优先dfs，确定每一条路径 ```path``` ，其中 ```path``` 还利用 ```Deque``` 配合dfs拼路径
-- **不是我的解法**，借鉴的是提交中最快的代码模板——感谢无名老铁！*我只是理解代码的搬运工*
-- 为了方便理解，调整了参数、方法命名，精简了冗余代码，添加了必要注释
-```java
+// - 总体思路
+//     - 先双向广度优先bfs，确定在相遇时，所有涉及的相邻词映射 ```neighborsMap: Map<String, List<String>>``` ，如 ```a, [b, c]``` , ```b, [d, f]``` , ```c, [f]```
+//     - 再基于 ```neighborsMap``` 做深度优先dfs，确定每一条路径 ```path``` ，其中 ```path``` 还利用 ```Deque``` 配合dfs拼路径
+// - **不是我的解法**，借鉴的是提交中最快的代码模板——感谢无名老铁！*我只是理解代码的搬运工*
+// - 为了方便理解，调整了参数、方法命名，精简了冗余代码，添加了必要注释
+// ```java
 public List<List<String>> findLadders(String beginWord, String endWord, List<String> wordList) {
     // base condition
     Set<String> meets = new HashSet<>(wordList);
@@ -92,4 +92,4 @@ private void dfs(Map<String, List<String>> neighborsMap, List<List<String>> resu
     // back tracking
     path.removeLast(); // 退一步，以便找另一条路径
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ struct TreeNode* sortedArrayToBST(int* nums, int numsSize){
     return helper(nums, 0, numsSize-1);
 }
 
-```
+// ```

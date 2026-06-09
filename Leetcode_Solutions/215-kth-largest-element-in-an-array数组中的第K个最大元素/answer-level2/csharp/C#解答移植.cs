@@ -1,8 +1,8 @@
-# 快速选择
+// # 快速选择
 
-顺手翻译和添加了一些注释，希望能帮助到你们。
+// 顺手翻译和添加了一些注释，希望能帮助到你们。
 
-```csharp
+// ```csharp
 int[] nums;
 public void swap(int a, int b)
 {
@@ -67,4 +67,4 @@ public int FindKthLargest(int[] nums, int k)
     // 第k大即第(N - k)小的元素
     return quickselect(0, size - 1, size - k);
 }
-```
+// ```

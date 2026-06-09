@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-可选链与位左移运算符
+// 可选链与位左移运算符
 
-执行用时 :0 ms, 在所有 Swift 提交中击败了100.00%的用户
-内存消耗 :20.8 MB, 在所有 Swift 提交中击败了5.26%的用户
+// 执行用时 :0 ms, 在所有 Swift 提交中击败了100.00%的用户
+// 内存消耗 :20.8 MB, 在所有 Swift 提交中击败了5.26%的用户
 
-### 代码
+// ### 代码
 
-```swift
+// ```swift
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -49,4 +49,4 @@ class Solution {
     }
 }
 
-```
+// ```

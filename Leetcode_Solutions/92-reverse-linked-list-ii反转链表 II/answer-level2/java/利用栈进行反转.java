@@ -1,9 +1,9 @@
-利用栈进行反转
-第一步，寻求到第m-1个节点，第m个节点，第n个节点
-第二步，从第m个到第n个节点的值压入进栈
-第三步，然后逐个新建节点，值出栈
-第四步，考虑特殊情况，如果原列表长度为1或者空，或者m=n则直接返回链表自身。
-```C++ []
+// 利用栈进行反转
+// 第一步，寻求到第m-1个节点，第m个节点，第n个节点
+// 第二步，从第m个到第n个节点的值压入进栈
+// 第三步，然后逐个新建节点，值出栈
+// 第四步，考虑特殊情况，如果原列表长度为1或者空，或者m=n则直接返回链表自身。
+// ```C++ []
 class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int m, int n) {
@@ -51,8 +51,8 @@ public:
         return newhead;
     }
 };
-```
-```Java []
+// ```
+// ```Java []
 public ListNode reverseBetween(ListNode head, int m, int n) {
         Stack s = new Stack();
         ListNode tmp = head;
@@ -105,5 +105,5 @@ public ListNode reverseBetween(ListNode head, int m, int n) {
         */
         return newhead;
     }
-```
+// ```
 

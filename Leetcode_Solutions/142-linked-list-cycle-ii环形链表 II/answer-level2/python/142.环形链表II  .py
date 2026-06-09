@@ -1,5 +1,5 @@
-- **解题思路**：利用快慢找到相遇点后，如何确定链表入环的起始节点  ----> 该节点到头结点的距离和到相遇点的距离相等。
-```
+# - **解题思路**：利用快慢找到相遇点后，如何确定链表入环的起始节点  ----> 该节点到头结点的距离和到相遇点的距离相等。
+# ```
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -25,4 +25,4 @@ class Solution(object):
                     fast = fast.next
                 return find
         return None
-```
+# ```

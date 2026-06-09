@@ -1,5 +1,5 @@
-试图只遍历一次列表A。
-```python3
+# 试图只遍历一次列表A。
+# ```python3
 class Solution:
     def sortArrayByParity(self, A: List[int]) -> List[int]:
         # return [e for e in A if e % 2 == 0] + [e for e in A if e % 2 == 1] #虽然只用了一行，但遍历了两次A
@@ -20,4 +20,4 @@ class Solution:
         #     else:
         #         b.append(x)
         # return a + b
-```
+# ```

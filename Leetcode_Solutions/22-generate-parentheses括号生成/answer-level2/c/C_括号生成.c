@@ -1,15 +1,15 @@
-### 解题思路
-给n对括号，随意排列，使得排列出来的括号序列没问题。
+// ### 解题思路
+// 给n对括号，随意排列，使得排列出来的括号序列没问题。
 
-用一个栈记录排列，进行dfs
-如果括号用光，输出栈中的字符串
-如果（ 有余量，添加（
-如果栈里 ）的数量小于栈里（ 的数量，添加 ）
+// 用一个栈记录排列，进行dfs
+// 如果括号用光，输出栈中的字符串
+// 如果（ 有余量，添加（
+// 如果栈里 ）的数量小于栈里（ 的数量，添加 ）
 
-因为不知道有多少合理的排列，要返回的char\*\*要开很大（1000 在测试用例n=8 的时候不通过）
-### 代码
+// 因为不知道有多少合理的排列，要返回的char\*\*要开很大（1000 在测试用例n=8 的时候不通过）
+// ### 代码
 
-```c
+// ```c
 void dfs(char* stack, int top, int n, int leftNum, int rightNum, char** result, int* returnSize)
 {
 	if (leftNum == n && rightNum == n)
@@ -39,4 +39,4 @@ char ** generateParenthesis(int n, int* returnSize) {
 	dfs(stack, 0, n, 0, 0, result, returnSize);
 	return result;
 }
-```
+// ```

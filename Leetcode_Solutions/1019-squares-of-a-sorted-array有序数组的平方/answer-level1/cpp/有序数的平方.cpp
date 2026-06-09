@@ -1,4 +1,4 @@
-//代码的思路就是两头访问A，进行绝对值比较后，选择大数进行平方后从B的尾往前输入。
+// //代码的思路就是两头访问A，进行绝对值比较后，选择大数进行平方后从B的尾往前输入。
 vector<int> sortedSquares(vector<int>& A) {
         vector<int>::iterator be = A.begin();
         vector<int>::iterator en = A.end() - 1;

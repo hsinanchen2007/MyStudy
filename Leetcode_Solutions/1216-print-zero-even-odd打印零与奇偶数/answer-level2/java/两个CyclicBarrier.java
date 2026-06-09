@@ -1,5 +1,5 @@
-zero先打印，用第一个Barrier然后唤醒其他线程干活，
-用第二个Barrier带大家进入下一个循环
+// zero先打印，用第一个Barrier然后唤醒其他线程干活，
+// 用第二个Barrier带大家进入下一个循环
 
 
 class ZeroEvenOdd {

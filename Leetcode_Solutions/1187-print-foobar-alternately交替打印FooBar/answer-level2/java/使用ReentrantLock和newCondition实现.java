@@ -1,9 +1,9 @@
-### 解题思路
-类似于生产消费者模型，使用ReentrantLock代替synchronized实现。
+// ### 解题思路
+// 类似于生产消费者模型，使用ReentrantLock代替synchronized实现。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class FooBar {
     private int n;
     private final ReentrantLock lock;
@@ -44,4 +44,4 @@ class FooBar {
         lock.unlock();
     }
 }
-```
+// ```

@@ -1,18 +1,18 @@
-单词列表填充到前缀树，OK。
-执行结果：
-通过
-显示详情
-执行用时 :
-39 ms
-, 在所有 Java 提交中击败了
-61.56%
-的用户
-内存消耗 :
-58 MB
-, 在所有 Java 提交中击败了
-49.33%
-的用户
-```
+// 单词列表填充到前缀树，OK。
+// 执行结果：
+// 通过
+// 显示详情
+// 执行用时 :
+// 39 ms
+// , 在所有 Java 提交中击败了
+// 61.56%
+// 的用户
+// 内存消耗 :
+// 58 MB
+// , 在所有 Java 提交中击败了
+// 49.33%
+// 的用户
+// ```
 class Solution {
     List<String> res = new ArrayList<>();
     public List<String> findWords(char[][] board, String[] words) {
@@ -109,11 +109,11 @@ class Solution {
     }
      
 }
-```
+// ```
 
 
-二维数组填充到前缀树，很快就超时了。
-```
+// 二维数组填充到前缀树，很快就超时了。
+// ```
 class Solution {
     int maxlen=0;
     public List<String> findWords(char[][] board, String[] words) {
@@ -221,4 +221,4 @@ class Solution {
         }
     }
 }
-```
+// ```

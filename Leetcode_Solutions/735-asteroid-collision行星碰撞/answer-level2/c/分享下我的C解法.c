@@ -1,4 +1,4 @@
-用数组模拟堆栈。性能和内存耗用应该都很少了。
+// 用数组模拟堆栈。性能和内存耗用应该都很少了。
 
 int* asteroidCollision(int* asteroids, int asteroidsSize, int* returnSize){
     int *outArray = NULL;

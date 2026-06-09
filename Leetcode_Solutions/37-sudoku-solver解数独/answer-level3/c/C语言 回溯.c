@@ -1,13 +1,13 @@
-### 解题思路
-此题数据结构有点儿复杂，先建立统一的数据模型，再进行逻辑编写。这样也方便问题跟踪，见traceAllNum（辅助定位）
-还有一个关键点，就是回溯的对象。一般这种题目，都是以矩阵作为回溯的对象。
-此题目也可以用其他的回溯对象，但是性能会降低。
+// ### 解题思路
+// 此题数据结构有点儿复杂，先建立统一的数据模型，再进行逻辑编写。这样也方便问题跟踪，见traceAllNum（辅助定位）
+// 还有一个关键点，就是回溯的对象。一般这种题目，都是以矩阵作为回溯的对象。
+// 此题目也可以用其他的回溯对象，但是性能会降低。
 
-![image.png](https://pic.leetcode-cn.com/4b399d7fe0e408acf08123b5cd3a9bc6eea613ac7c27656770ef9492ffe1460b-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4b399d7fe0e408acf08123b5cd3a9bc6eea613ac7c27656770ef9492ffe1460b-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MY_NUM_3 3
 #define MY_NUM_9 9
 #define MY_INVALID (-1)
@@ -180,4 +180,4 @@ void solveSudoku(char** board, int boardSize, int* boardColSize){
 	//traceAllNum(&s);
 	return;
 }
-```
+// ```

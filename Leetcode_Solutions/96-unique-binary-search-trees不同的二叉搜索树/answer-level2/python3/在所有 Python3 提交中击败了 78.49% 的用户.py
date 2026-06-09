@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-h(0) = 1
-h(1) = 1
-h(n) = h(0)*h(n-1) + h(1)*h(n-2) + ......+ h(n-2)*h(1) + h(n-1)*h(0)
-符合卡特兰数的特征，直接数学计算
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# h(0) = 1
+# h(1) = 1
+# h(n) = h(0)*h(n-1) + h(1)*h(n-2) + ......+ h(n-2)*h(1) + h(n-1)*h(0)
+# 符合卡特兰数的特征，直接数学计算
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def numTrees(self, n: int) -> int:
         if n == 0:
@@ -19,4 +19,4 @@ class Solution:
         for i in range(1,n+1):
             res *= i
         return res
-```
+# ```

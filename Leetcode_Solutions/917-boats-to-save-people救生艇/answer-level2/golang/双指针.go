@@ -1,5 +1,5 @@
-双指针查找，对最重和最轻的人的质量求和，小于等于limit则两个人坐一个船，否则把较重的一个人放进一条船。
-```
+// 双指针查找，对最重和最轻的人的质量求和，小于等于limit则两个人坐一个船，否则把较重的一个人放进一条船。
+// ```
 class Solution:
     def numRescueBoats(self, people: List[int], limit: int) -> int:
         people.sort()
@@ -13,9 +13,9 @@ class Solution:
                 j -= 1
             cnt += 1
         return cnt
-```
-golang版本
-```
+// ```
+// golang版本
+// ```
 import "sort"
 func numRescueBoats(people []int, limit int) int {
     sort.Ints(people)
@@ -31,5 +31,5 @@ func numRescueBoats(people []int, limit int) int {
     }
     return cnt
 }
-```
+// ```
 

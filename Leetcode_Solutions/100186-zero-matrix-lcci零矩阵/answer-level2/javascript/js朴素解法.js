@@ -1,9 +1,9 @@
-### 解题思路
-先找有0的行号列号，然后遍历把这些行号列号全部清零。
+// ### 解题思路
+// 先找有0的行号列号，然后遍历把这些行号列号全部清零。
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} matrix
  * @return {void} Do not return anything, modify matrix in-place instead.
@@ -35,4 +35,4 @@ var setZeroes = function(matrix) {
     // console.log(matrix)
 
 };
-```
+// ```

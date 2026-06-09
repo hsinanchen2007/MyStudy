@@ -1,9 +1,9 @@
-### 解题思路
-广度优先遍历
+// ### 解题思路
+// 广度优先遍历
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 
 //广度优先遍历
 class HState {
@@ -117,4 +117,4 @@ public class Solution {
         return sp.SlidingPuzzle(board);
     }
 }
-```
+// ```

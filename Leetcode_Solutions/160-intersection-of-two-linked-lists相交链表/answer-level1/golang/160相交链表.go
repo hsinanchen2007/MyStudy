@@ -1,4 +1,4 @@
-```
+// ```
 func getIntersectionNode(headA, headB *ListNode) *ListNode {
 	if headA == nil || headB == nil {
 		return nil
@@ -42,4 +42,4 @@ func getIntersectionNode(headA, headB *ListNode) *ListNode {
 		headB = headB.Next
 	}
 }
-```
+// ```

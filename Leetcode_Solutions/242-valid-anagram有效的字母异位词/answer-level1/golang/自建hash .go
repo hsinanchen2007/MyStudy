@@ -1,10 +1,10 @@
-### 解题思路
-通过一个数组自建hash然后判断数目
-> [了解更多](https://github.com/googege/GOFamily)
+// ### 解题思路
+// 通过一个数组自建hash然后判断数目
+// > [了解更多](https://github.com/googege/GOFamily)
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isAnagram(s string, t string) bool {
     ma := [26]int{}
     for _,v := range s {
@@ -20,4 +20,4 @@ func isAnagram(s string, t string) bool {
     }
     return true
 }
-```
+// ```

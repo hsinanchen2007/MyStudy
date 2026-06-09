@@ -1,9 +1,9 @@
-### 解题思路
-先排序，后逐渐遍历增加！
+// ### 解题思路
+// 先排序，后逐渐遍历增加！
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minIncrementForUnique(int[] A) {
         Arrays.sort(A);
@@ -26,4 +26,4 @@ class Solution {
         return move;
     }
 }
-```
+// ```

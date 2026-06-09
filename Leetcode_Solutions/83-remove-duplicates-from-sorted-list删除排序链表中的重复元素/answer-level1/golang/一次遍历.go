@@ -1,9 +1,9 @@
-### 解题思路
-一次遍历
+// ### 解题思路
+// 一次遍历
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -22,4 +22,4 @@ func deleteDuplicates(head *ListNode) *ListNode {
 	}
 	return head
 }
-```
+// ```

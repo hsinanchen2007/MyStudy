@@ -1,9 +1,9 @@
-### 解题思路
-题解区已经接近四千了，我觉得这种方式不利于社区的质量...
-这样跟CSDN那些水文怪有什么区别
-### 代码
+# ### 解题思路
+# 题解区已经接近四千了，我觉得这种方式不利于社区的质量...
+# 这样跟CSDN那些水文怪有什么区别
+# ### 代码
 
-```python3
+# ```python3
 class MyStack:
 
     def __init__(self):
@@ -53,4 +53,4 @@ class MyStack:
 # param_2 = obj.pop()
 # param_3 = obj.top()
 # param_4 = obj.empty()
-```
+# ```

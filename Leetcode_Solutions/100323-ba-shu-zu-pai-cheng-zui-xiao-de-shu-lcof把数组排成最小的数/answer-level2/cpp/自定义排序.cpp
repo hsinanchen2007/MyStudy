@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
  
-![leetcode 最小数.png](https://pic.leetcode-cn.com/df69d1b96414539e813dcd35d70aca21ea2563a892f0a8640a06dc0b877fabb2-leetcode%20%E6%9C%80%E5%B0%8F%E6%95%B0.png)
-cop的https://blog.csdn.net/qq739887227/article/details/82895844 感谢！
-### 代码
+// ![leetcode 最小数.png](https://pic.leetcode-cn.com/df69d1b96414539e813dcd35d70aca21ea2563a892f0a8640a06dc0b877fabb2-leetcode%20%E6%9C%80%E5%B0%8F%E6%95%B0.png)
+// cop的https://blog.csdn.net/qq739887227/article/details/82895844 感谢！
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string minNumber(vector<int>& nums) {
@@ -43,4 +43,4 @@ public:
         
     }
 };
-```
+// ```

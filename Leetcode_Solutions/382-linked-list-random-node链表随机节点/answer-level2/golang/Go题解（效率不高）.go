@@ -1,6 +1,6 @@
-蓄水池抽样，概念上理解起来很难，代码上实现不难
+// 蓄水池抽样，概念上理解起来很难，代码上实现不难
 
-```golang
+// ```golang
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -43,4 +43,4 @@ func (this *Solution) GetRandom() int {
  * obj := Constructor(head);
  * param_1 := obj.GetRandom();
  */
-```
+// ```

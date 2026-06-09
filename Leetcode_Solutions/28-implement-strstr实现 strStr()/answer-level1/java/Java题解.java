@@ -1,9 +1,9 @@
-### 解题思路
-运用substring逐个截取haystack字段,并于needle比较就可以啦
+// ### 解题思路
+// 运用substring逐个截取haystack字段,并于needle比较就可以啦
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
         
@@ -25,4 +25,4 @@ class Solution {
     }
 }
 
-```
+// ```

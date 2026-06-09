@@ -1,9 +1,9 @@
-### 解题思路
-Stack完成基本的push pop top，使用ArrayList辅助完成最小值的获取，push的同时向ArrayList中按大小顺序插入push的值，pop时同时删除相应的值，getMin方法直接返回ArrayList中的第一个对象，要注意的是push操作的细节比如插入到ArrayList的第一位或者最后一位的处理，以及stack为空的情况。
+// ### 解题思路
+// Stack完成基本的push pop top，使用ArrayList辅助完成最小值的获取，push的同时向ArrayList中按大小顺序插入push的值，pop时同时删除相应的值，getMin方法直接返回ArrayList中的第一个对象，要注意的是push操作的细节比如插入到ArrayList的第一位或者最后一位的处理，以及stack为空的情况。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 import java.util.*;
 
 class MinStack {
@@ -59,4 +59,4 @@ class MinStack {
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
  */
-```
+// ```

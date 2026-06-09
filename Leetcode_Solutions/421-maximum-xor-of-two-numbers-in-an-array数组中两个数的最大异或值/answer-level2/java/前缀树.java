@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     public int findMaximumXOR(int[] nums) {
         if (nums == null || nums.length <= 1) {
@@ -73,4 +73,4 @@ class Solution {
         }
     }
 }
-```
+// ```

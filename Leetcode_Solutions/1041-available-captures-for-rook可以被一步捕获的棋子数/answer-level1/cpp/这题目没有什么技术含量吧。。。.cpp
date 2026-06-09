@@ -1,9 +1,9 @@
-### 解题思路
-这题目描述真是让人费解。。。
+// ### 解题思路
+// 这题目描述真是让人费解。。。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -65,4 +65,4 @@ public:
         return ans;
     }
 };
-```
+// ```

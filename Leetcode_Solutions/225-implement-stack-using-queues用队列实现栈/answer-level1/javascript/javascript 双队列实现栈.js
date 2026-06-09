@@ -1,13 +1,13 @@
-### 解题思路
+// ### 解题思路
 
-`javascript` 双队列实现栈
+// `javascript` 双队列实现栈
 
-q1 为输出队列，q2 为输入队列
+// q1 为输出队列，q2 为输入队列
 
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Initialize your data structure here.
  */
@@ -70,4 +70,4 @@ MyStack.prototype.empty = function() {
  * var param_3 = obj.top()
  * var param_4 = obj.empty()
  */
-```
+// ```

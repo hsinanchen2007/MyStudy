@@ -1,9 +1,9 @@
-### 解题思路
-先将x存入数组a中，正序逆序分别输出，两数相等且大于0即为true。还是挺麻烦的。
+// ### 解题思路
+// 先将x存入数组a中，正序逆序分别输出，两数相等且大于0即为true。还是挺麻烦的。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isPalindrome(int x){
     int i,j=0,xlength=0,xnumber=0,sign=0;
     int sum1=0,sum2=0;//sum1为正序输出，sum2为逆序输出
@@ -30,4 +30,4 @@ bool isPalindrome(int x){
     else
         return false;
 }
-```
+// ```

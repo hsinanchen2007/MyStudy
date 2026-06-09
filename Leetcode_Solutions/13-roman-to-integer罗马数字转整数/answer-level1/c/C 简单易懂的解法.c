@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/6eb580b2ff304c48fd86cf4d28ad0917063150cfb25c710e337d401aed9d7a6d-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6eb580b2ff304c48fd86cf4d28ad0917063150cfb25c710e337d401aed9d7a6d-image.png)
 
 
-# 代码：
-```
+// # 代码：
+// ```
 int romanToInt(char * s){
     int hashmap[26] ={0};
         hashmap['I'-'A'] = 1;
@@ -21,6 +21,6 @@ int romanToInt(char * s){
     }
     return sum;
 }
-```
+// ```
 
 

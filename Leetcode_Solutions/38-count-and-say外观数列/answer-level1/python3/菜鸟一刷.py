@@ -1,9 +1,9 @@
-### 解题思路
-迭代，感觉自己对python的传值和传引用还不是很了解
+# ### 解题思路
+# 迭代，感觉自己对python的传值和传引用还不是很了解
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countAndSay(self, n: int) -> str:
         a=[1]
@@ -35,4 +35,4 @@ class Solution:
         return a
 
     
-```
+# ```

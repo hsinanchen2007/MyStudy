@@ -1,9 +1,9 @@
-### 解题思路
-不大会用滑动窗口，思路参照了题解，但第二步使用的是最为朴素的求解前X个数的和。
+// ### 解题思路
+// 不大会用滑动窗口，思路参照了题解，但第二步使用的是最为朴素的求解前X个数的和。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int maxSatisfied(int[] customers, int[] grumpy, int X) {
         int sum1 = 0;
@@ -45,4 +45,4 @@ class Solution {
         
     }
 }
-```
+// ```

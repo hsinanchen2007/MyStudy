@@ -1,9 +1,9 @@
-### 解题思路
-INT_MIN,INT_MAX的使用。
+// ### 解题思路
+// INT_MIN,INT_MAX的使用。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -120,4 +120,4 @@ while(!Empty(&myQue)) {
 QueueClear(&myQue);
 return ret;
 }
-```
+// ```

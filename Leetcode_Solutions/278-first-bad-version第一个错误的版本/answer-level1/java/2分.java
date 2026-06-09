@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /* The isBadVersion API is defined in the parent class VersionControl.
       boolean isBadVersion(int version);
 可以理解为在一个重复数组中寻找第一个重复数，这个重复数的isBadVersion函数为true
@@ -32,4 +32,4 @@ public class Solution extends VersionControl {
         return left;
     }
 } 
-```
+// ```

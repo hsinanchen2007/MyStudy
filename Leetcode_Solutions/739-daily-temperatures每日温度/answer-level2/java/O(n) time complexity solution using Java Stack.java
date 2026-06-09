@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] dailyTemperatures(int[] T) {
         int[] ans = new int[T.length];
@@ -20,4 +20,4 @@ class Solution {
         return ans;
     }
 }
-```
+// ```

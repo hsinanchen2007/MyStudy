@@ -1,6 +1,6 @@
-啥也不说了，算法很简单，show me the code.
+# 啥也不说了，算法很简单，show me the code.
 
-```
+# ```
 class Trie:
 
     def __init__(self):
@@ -44,4 +44,4 @@ class Trie:
                 return False
         return bool(p) # whether the node is empty
         
-```
+# ```

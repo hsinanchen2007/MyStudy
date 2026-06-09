@@ -1,4 +1,4 @@
-```
+// ```
 func longestPalindrome(s string) string {
 	runes := []rune(s)
 	lenth := len(runes)
@@ -42,4 +42,4 @@ func longestPalindrome(s string) string {
 	}
 	return string(runes[start : longest+start])
 }
-```
+// ```

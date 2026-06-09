@@ -1,5 +1,5 @@
-没有想到先减后加，直接用字典全部列出了
-```
+# 没有想到先减后加，直接用字典全部列出了
+# ```
 class Solution:
     def romanToInt(self, s: str) -> int:
         d={'M':1000,'CM':900,'D':500,'CD':400,'C':100,
@@ -14,4 +14,4 @@ class Solution:
                 res+=d[s[i]]
                 i+=1
         return res if i>=len(s) else res+d[s[-1]]
-```
+# ```

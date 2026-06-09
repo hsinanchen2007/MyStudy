@@ -1,14 +1,14 @@
-### 解题思路
-差分方法的一些固定套路
-1. 差分下标从零开始，前缀和下标从1开始，这样可以方便的更新区间，即
-```
+// ### 解题思路
+// 差分方法的一些固定套路
+// 1. 差分下标从零开始，前缀和下标从1开始，这样可以方便的更新区间，即
+// ```
 		arr[left] += val;
 		arr[right + 1] -= val;
-```
+// ```
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_N 20050
 int* corpFlightBookings(int** bookings, int bookingsSize, int* bookingsColSize, int n, int* returnSize){
 	int *arr = (int *)calloc(1, sizeof(int) * MAX_N);
@@ -36,4 +36,4 @@ int* corpFlightBookings(int** bookings, int bookingsSize, int* bookingsColSize, 
 	*returnSize = n;
 	return ans;
 }
-```
+// ```

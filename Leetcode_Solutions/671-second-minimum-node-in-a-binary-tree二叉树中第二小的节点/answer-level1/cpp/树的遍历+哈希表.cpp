@@ -1,12 +1,12 @@
-### 解题思路
-树的遍历，将结点存入set（res）中（自动去重）
+// ### 解题思路
+// 树的遍历，将结点存入set（res）中（自动去重）
 
-若res的size 小于2，返回-1
-否则返回*(res.begin()+1)
+// 若res的size 小于2，返回-1
+// 否则返回*(res.begin()+1)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -39,4 +39,4 @@ public:
        return -1;
     }
 };
-```
+// ```

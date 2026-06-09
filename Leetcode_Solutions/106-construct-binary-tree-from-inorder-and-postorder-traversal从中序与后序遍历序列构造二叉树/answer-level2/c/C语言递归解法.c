@@ -1,7 +1,7 @@
-执行用时 :28 ms, 在所有 c 提交中击败了29.05%的用户
-内存消耗 :13 MB, 在所有 c 提交中击败了100.00%的用户
+// 执行用时 :28 ms, 在所有 c 提交中击败了29.05%的用户
+// 内存消耗 :13 MB, 在所有 c 提交中击败了100.00%的用户
 
-```
+// ```
 struct TreeNode* digui(int* in, int p, int q, int* post, int i, int j){
     if(i > j)
     {
@@ -31,6 +31,6 @@ struct TreeNode* digui(int* in, int p, int q, int* post, int i, int j){
 struct TreeNode* buildTree(int* inorder, int inorderSize, int* postorder, int postorderSize){
     return digui(inorder, 0, inorderSize-1, postorder, 0, postorderSize-1);
 }
-```
+// ```
 
 

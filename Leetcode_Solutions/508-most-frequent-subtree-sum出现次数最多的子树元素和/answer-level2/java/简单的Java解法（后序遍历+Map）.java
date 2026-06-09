@@ -1,8 +1,8 @@
-代码比较简单，直接上Java代码。
+// 代码比较简单，直接上Java代码。
 
-这是我的[LeetCode分类题解](https://github.com/caipengbo/LeetCode)（每日更新, issue内有总结），和我一起每日刷题吧！
+// 这是我的[LeetCode分类题解](https://github.com/caipengbo/LeetCode)（每日更新, issue内有总结），和我一起每日刷题吧！
 
-```Java
+// ```Java
     public int[] findFrequentTreeSum(TreeNode root) {
         TreeMap<Integer, Integer> map = new TreeMap<>();
         subTreeSum(root, map);
@@ -30,4 +30,4 @@
         map.put(sum, map.getOrDefault(sum, 0)+1);
         return sum;
     }
-```
+// ```

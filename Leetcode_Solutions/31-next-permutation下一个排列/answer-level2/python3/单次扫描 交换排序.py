@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def nextPermutation(self, nums) -> None:
         """
@@ -27,4 +27,4 @@ class Solution:
             
         return nums
 print(Solution().nextPermutation([5,2,3,2,0]))
-```
+# ```

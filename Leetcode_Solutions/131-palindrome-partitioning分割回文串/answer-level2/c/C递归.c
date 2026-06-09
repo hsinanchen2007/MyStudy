@@ -1,12 +1,12 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/ef6808f8629e9fc760c898d7fd51372aa569b9a6a5b099c131ae01b2af9edcb3-image.png)
-分割：子串连起来还是s, 单个字符肯定是回文
-每个位置i分割索引的范围： i ~ len - 1, 每个位置都有这么多选择，如果当前选择是有效的回文就递归选择下去，否则选项下一个可能范围
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/ef6808f8629e9fc760c898d7fd51372aa569b9a6a5b099c131ae01b2af9edcb3-image.png)
+// 分割：子串连起来还是s, 单个字符肯定是回文
+// 每个位置i分割索引的范围： i ~ len - 1, 每个位置都有这么多选择，如果当前选择是有效的回文就递归选择下去，否则选项下一个可能范围
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
  bool CheckHuiWenStr(char *l, char *r)
  {
      char *pl = l;
@@ -102,4 +102,4 @@ char *** partition(char * s, int* returnSize, int** returnColumnSizes){
 
     return retChr;
 }
-```
+// ```

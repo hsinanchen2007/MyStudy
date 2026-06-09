@@ -1,8 +1,8 @@
-### 解题思路
+# ### 解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def CheckPermutation(self, s1: str, s2: str) -> bool:
         if len(s1) != len(s2): return False
@@ -15,4 +15,4 @@ class Solution:
         return True 
                 
 
-```
+# ```

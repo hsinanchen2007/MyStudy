@@ -1,16 +1,16 @@
-算法思路     ：
+// 算法思路     ：
 
-    1.遍历两个表node
+//     1.遍历两个表node
 
-    2.计算新表node点sum value
+//     2.计算新表node点sum value
 
-    3.由于第一个节点不需要计算carry值，导致逻辑不一致，故先默认创建一个初始node
+//     3.由于第一个节点不需要计算carry值，导致逻辑不一致，故先默认创建一个初始node
 
-    4.最后添加进位产生的新node
+//     4.最后添加进位产生的新node
 
-    5.返回新建node.next指向的表（不包含初始node）
+//     5.返回新建node.next指向的表（不包含初始node）
 
-```
+// ```
     /**
     * Definition for singly-linked list.
     * public class ListNode {
@@ -49,4 +49,4 @@
             return result.next
         }
     }
-```
+// ```

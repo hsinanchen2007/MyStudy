@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int longestMountain(int* A, int ASize){
     int left = 0;
     int i = 1;
@@ -36,4 +36,4 @@ int longestMountain(int* A, int ASize){
 
     return res;
 }
-```
+// ```

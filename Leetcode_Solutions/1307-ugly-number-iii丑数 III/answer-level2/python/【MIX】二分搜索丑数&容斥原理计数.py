@@ -1,11 +1,11 @@
-### 解题思路
-1. 构造二分搜索区间
-2. 使用容斥原理计数
-3. 注意边界条件, 如果返回Mid, 需要进行`mid-min({mid%a, min%b, min%c})`调整
+# ### 解题思路
+# 1. 构造二分搜索区间
+# 2. 使用容斥原理计数
+# 3. 注意边界条件, 如果返回Mid, 需要进行`mid-min({mid%a, min%b, min%c})`调整
 
-### 代码
+# ### 代码
 
-```c++ []
+# ```c++ []
 class Solution {
 public:
     int nthUglyNumber(int n, int a, int b, int c) {
@@ -47,8 +47,8 @@ private:
         return x*y/_gcd(x, y);
     }
 };
-```
-```java []
+# ```
+# ```java []
 class Solution {
     public int nthUglyNumber(int n, int a, int b, int c) {
         int l = Math.min(a, Math.min(b, c));
@@ -82,8 +82,8 @@ class Solution {
         return x*y/gcd(x,y);
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def nthUglyNumber(self, n: int, a: int, b: int, c: int) -> int:
         def gcd(x, y):
@@ -107,4 +107,4 @@ class Solution:
                 r = mid
         return l
     
-```
+# ```

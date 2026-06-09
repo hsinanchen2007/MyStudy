@@ -1,9 +1,9 @@
-### 解题思路
-递归快乐大法
+// ### 解题思路
+// 递归快乐大法
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -33,4 +33,4 @@ struct TreeNode* sortedArrayToBST(int* nums, int numsSize){
     return root;
 }
 
-```
+// ```

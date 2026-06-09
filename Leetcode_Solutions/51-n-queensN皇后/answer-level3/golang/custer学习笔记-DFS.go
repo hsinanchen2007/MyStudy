@@ -1,26 +1,26 @@
-# 思考
+// # 思考
 
-DFS深度优先搜索-每一行就是深度level，递归终止条件到达第N次，退出。
+// DFS深度优先搜索-每一行就是深度level，递归终止条件到达第N次，退出。
 
-在每一层就只能放一个皇后，枚举每一列看要放在什么位置。
+// 在每一层就只能放一个皇后，枚举每一列看要放在什么位置。
 
-如何判断该格子能否放置皇后，
+// 如何判断该格子能否放置皇后，
 
-第一种暴力第二种剪枝，有效判断剩下哪些格子不用搜索，使用数组记录(row[i],col[j])。
+// 第一种暴力第二种剪枝，有效判断剩下哪些格子不用搜索，使用数组记录(row[i],col[j])。
 
-撇在坐标系中，y=-x，即x+y等于一个常数，判断pie[i+y]=1。
+// 撇在坐标系中，y=-x，即x+y等于一个常数，判断pie[i+y]=1。
 
-捺在坐标系中，y-x等于一个常数，判断na[i-j]=1。
+// 捺在坐标系中，y-x等于一个常数，判断na[i-j]=1。
 
-总结：
-- 横线上，只需要在确定一个位置后，直接进行下一行即可。 
-- 竖线上，将确定位置后所在列进行记忆化，之后的位置与出现过的所有列进行比对。 
-- “撇”，经过的所有格子有一个共同点，那就是横坐标加上纵坐标的结果是相同的。例如撇经过的每个格子都是3，这个结果只有撇上的格子符合。我们只需要将这个结果记忆化即可。 
-- “捺”，横坐标减去纵坐标的值进行记忆化。
+// 总结：
+// - 横线上，只需要在确定一个位置后，直接进行下一行即可。 
+// - 竖线上，将确定位置后所在列进行记忆化，之后的位置与出现过的所有列进行比对。 
+// - “撇”，经过的所有格子有一个共同点，那就是横坐标加上纵坐标的结果是相同的。例如撇经过的每个格子都是3，这个结果只有撇上的格子符合。我们只需要将这个结果记忆化即可。 
+// - “捺”，横坐标减去纵坐标的值进行记忆化。
 
-# Python实现及优化
+// # Python实现及优化
 
-```python []
+// ```python []
 class Solution(object):
     def solveNQueens(self, n):
         """
@@ -63,8 +63,8 @@ class Solution(object):
                 board.append("." * i + "Q" + "." * (n - i - 1))
         
         return [board[i: i+n] for i in range(0, len(board), n)]
-```
-```python []
+// ```
+// ```python []
 class Solution(object):
     def solveNQueens(self, n):
         """
@@ -83,16 +83,16 @@ class Solution(object):
         result = []
         DFS([], [], [])
         return [ ["."*i + "Q" + "."*(n-i-1) for i in sol] for sol in result ]
-```
+// ```
 
-# Go实现
-学习自[算法梦想家](https://mp.***/s/_MOa1eVEN1hUyAgqFlP_6A)
+// # Go实现
+// 学习自[算法梦想家](https://mp.***/s/_MOa1eVEN1hUyAgqFlP_6A)
 
-及 代码优化
+// 及 代码优化
 
-学习自[https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0051.n-queens/n-queens.go](https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0051.n-queens/n-queens.go)
+// 学习自[https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0051.n-queens/n-queens.go](https://github.com/aQuaYi/LeetCode-in-Go/blob/master/Algorithms/0051.n-queens/n-queens.go)
 
-```go []
+// ```go []
 package main
 
 import "fmt"
@@ -157,9 +157,9 @@ func main() {
 	n := 8
 	fmt.Println(solveNQueens(n))
 }
-```
+// ```
 
-```go []
+// ```go []
 package main
 
 import "fmt"
@@ -215,4 +215,4 @@ func main() {
 	n := 14
 	fmt.Println(solveNQueens(n))
 }
-```
+// ```

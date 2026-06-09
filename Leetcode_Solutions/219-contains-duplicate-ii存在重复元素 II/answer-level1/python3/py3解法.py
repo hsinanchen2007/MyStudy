@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def containsNearbyDuplicate(self, nums: List[int], k: int) -> bool:
         d = set()
@@ -9,4 +9,4 @@ class Solution:
             if len(d) > k:
                 d.remove(nums[i-k])
         return False
-```
+# ```

@@ -1,11 +1,11 @@
-### 解题思路
-我自己写的超时了，看到评论里@typingMonkey用字典的最大数倒着比较的思想，觉得很赞
-另外字典防止keyerror可以用collections.defaultdict(int)。学到了
+# ### 解题思路
+# 我自己写的超时了，看到评论里@typingMonkey用字典的最大数倒着比较的思想，觉得很赞
+# 另外字典防止keyerror可以用collections.defaultdict(int)。学到了
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # 超时
 # class Solution:
 #     def isPossibleDivide(self, nums: List[int], k: int) -> bool:
@@ -45,4 +45,4 @@ class Solution:
             return True
 
 
-```
+# ```

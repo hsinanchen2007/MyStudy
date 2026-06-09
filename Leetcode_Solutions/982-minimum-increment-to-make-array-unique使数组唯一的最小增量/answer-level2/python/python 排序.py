@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minIncrementForUnique(self, A: List[int]) -> int:
         A.sort()#进行排序
@@ -14,4 +14,4 @@ class Solution:
                 A[i] = A[i-1]+1 #新的进行赋值，保证无重复
         return m
 
-```
+# ```

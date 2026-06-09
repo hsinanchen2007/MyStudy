@@ -1,10 +1,10 @@
-### 解题思路
-想的复杂了，逆序构造字典树。
-从最长的单词开始查询字典树，如果能查到，说明被包含，无需计算。如果不能查到，插入字典树并计算长度。
+# ### 解题思路
+# 想的复杂了，逆序构造字典树。
+# 从最长的单词开始查询字典树，如果能查到，说明被包含，无需计算。如果不能查到，插入字典树并计算长度。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         words.sort(key=lambda x:len(x), reverse=True)
@@ -37,4 +37,4 @@ class Trie:
                 return False
             cur = cur[c]
         return True
-```
+# ```

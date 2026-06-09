@@ -1,4 +1,4 @@
-```python
+# ```python
 def getHint(secret, guess):
     """
         1. 先计算相等的字符a的个数.
@@ -20,4 +20,4 @@ def getHint(secret, guess):
 
 print(getHint("1807", "7810"))
 print(getHint("1123", "0111"))
-```
+# ```

@@ -1,5 +1,5 @@
-递归，执行用时104ms，内存消耗46MB
-```
+// 递归，执行用时104ms，内存消耗46MB
+// ```
 class Solution {
     public static String countAndSay(int n) {
         //递归
@@ -30,11 +30,11 @@ class Solution {
         return finalString;
     }
 }
-```
+// ```
 
 
-正则匹配，执行用时：33ms，内存消耗47.4MB
-```
+// 正则匹配，执行用时：33ms，内存消耗47.4MB
+// ```
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 class Solution {
@@ -58,4 +58,4 @@ class Solution {
         return str;
     }
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func sortArray(nums []int) []int {
     if len(nums) < 2{
         return nums
@@ -20,4 +20,4 @@ func sortArray(nums []int) []int {
     }
     return append(append(sortArray(A),mid),sortArray(B)...)
 }
-```
+// ```

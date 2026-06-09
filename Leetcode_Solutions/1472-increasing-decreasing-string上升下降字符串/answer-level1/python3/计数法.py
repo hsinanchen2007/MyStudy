@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortString(self, s: str) -> str:
         counter = [0] * 26
@@ -20,5 +20,5 @@ class Solution:
                     res += chr(i + 97)
                     counter[i] -= 1
         return res
-```
-![image.png](https://pic.leetcode-cn.com/af5a560056cb16811c4e99e5c261db3e0fbedffc313d7054dbde05a3caedbf6a-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/af5a560056cb16811c4e99e5c261db3e0fbedffc313d7054dbde05a3caedbf6a-image.png)

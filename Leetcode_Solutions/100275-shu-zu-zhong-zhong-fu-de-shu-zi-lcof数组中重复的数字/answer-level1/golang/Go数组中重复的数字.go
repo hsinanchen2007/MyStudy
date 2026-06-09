@@ -1,9 +1,9 @@
-### 解题思路
-遍历数组，先判断map中是否存在这个数，存在则返回否则将它写入map中。
+// ### 解题思路
+// 遍历数组，先判断map中是否存在这个数，存在则返回否则将它写入map中。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findRepeatNumber (nums []int) int {
     duplicateMap := make(map[int]bool) 
     for _, v := range nums {
@@ -19,4 +19,4 @@ func findRepeatNumber (nums []int) int {
     }
     return -1 
 }
-```
+// ```

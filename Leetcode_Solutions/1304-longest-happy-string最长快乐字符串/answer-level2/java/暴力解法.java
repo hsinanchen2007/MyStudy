@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
- 算法比较垃圾 就是穷举
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+//  算法比较垃圾 就是穷举
+// ### 代码
 
-```java
+// ```java
 class Solution {
    static class Data {
         char s;
@@ -105,4 +105,4 @@ class Solution {
         return sb.toString();
     }
 }
-```
+// ```

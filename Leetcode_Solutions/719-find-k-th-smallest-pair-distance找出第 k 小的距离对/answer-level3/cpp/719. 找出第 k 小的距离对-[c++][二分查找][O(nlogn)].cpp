@@ -1,20 +1,20 @@
-前置题目，一定要先做这个：
-- [378. 有序矩阵中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)，
-- [378.题解](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/solution/378-you-xu-ju-zhen-zhong-di-kxiao-de-yuan-su-cer-f)
+// 前置题目，一定要先做这个：
+// - [378. 有序矩阵中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/)，
+// - [378.题解](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/solution/378-you-xu-ju-zhen-zhong-di-kxiao-de-yuan-su-cer-f)
 
-这个题目本质上是在 sorted matrix 中求解第 k 大的数。重点是如何把它转换成 sorted matrix。看下面的注释你就明白了。
+// 这个题目本质上是在 sorted matrix 中求解第 k 大的数。重点是如何把它转换成 sorted matrix。看下面的注释你就明白了。
 
-但是这个题目和 sorted matrix 有两点不一样：
+// 但是这个题目和 sorted matrix 有两点不一样：
 
-- 这个题目没有显式的给出 sorted matrix，但是你可以通过计算 nums[j]-nums[i] 来获得矩阵中的值。
-- sorted matrix 中所有元素都是有效的，在这题里只有一半的元素有效。
+// - 这个题目没有显式的给出 sorted matrix，但是你可以通过计算 nums[j]-nums[i] 来获得矩阵中的值。
+// - sorted matrix 中所有元素都是有效的，在这题里只有一半的元素有效。
 
 
-尽管如此，求解的方法还是一样的。你可以借助堆，来做 n-ways merge，也可以使用双二分进行搜索。
+// 尽管如此，求解的方法还是一样的。你可以借助堆，来做 n-ways merge，也可以使用双二分进行搜索。
 
-下面是使用双二分搜索的方法：
+// 下面是使用双二分搜索的方法：
 
-```cpp
+// ```cpp
 class Solution {
 public:
     /*
@@ -60,4 +60,4 @@ public:
         return lo;
     }
 };
-```
+// ```

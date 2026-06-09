@@ -1,5 +1,5 @@
-1.hash实现
-```
+// 1.hash实现
+// ```
 func hasCycle(head *ListNode) bool {
     nodeExist := make(map[*ListNode]int)
     cur := head
@@ -12,10 +12,10 @@ func hasCycle(head *ListNode) bool {
     }
     return false
 }
-```
+// ```
 
-2.快慢指针
-```
+// 2.快慢指针
+// ```
 func hasCycle(head *ListNode) bool {
     if head == nil || head.Next ==  nil {
         return false
@@ -31,4 +31,4 @@ func hasCycle(head *ListNode) bool {
     }
     return true
 }
-```
+// ```

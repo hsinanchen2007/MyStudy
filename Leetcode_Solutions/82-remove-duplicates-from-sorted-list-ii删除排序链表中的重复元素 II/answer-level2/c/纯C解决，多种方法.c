@@ -1,10 +1,10 @@
-### 解题思路
-处理起来稍微有点麻烦，但是自己细细的捋一下还是轻松的。
+// ### 解题思路
+// 处理起来稍微有点麻烦，但是自己细细的捋一下还是轻松的。
 
-###方法一
-### 代码
+// ###方法一
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -44,22 +44,22 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     r->next=NULL;
     return H->next;
 }
-```
-###方法二
-对于数组哈希的总结:
-```
+// ```
+// ###方法二
+// 对于数组哈希的总结:
+// ```
 1.一维哈希
 
 2.二维哈希
-```
-功能：
-```
+// ```
+// 功能：
+// ```
 1.一维为了去重
 
 2.二维为了保存相同元素
-```
+// ```
 
-```c
+// ```c
 //哈希表
 /**
  * Definition for singly-linked list.
@@ -103,4 +103,4 @@ struct ListNode* deleteDuplicates(struct ListNode* head){
     return new_head->next;
 }
 
-```
+// ```

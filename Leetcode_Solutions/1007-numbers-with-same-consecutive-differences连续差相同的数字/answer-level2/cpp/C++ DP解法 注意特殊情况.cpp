@@ -1,6 +1,6 @@
-题不难 特殊情况 N = 1 和 K = 0两种 容易错
+// 题不难 特殊情况 N = 1 和 K = 0两种 容易错
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> numsSameConsecDiff(int N, int K) {
@@ -23,4 +23,4 @@ public:
 	return dp.back();
     }
 };
-```
+// ```

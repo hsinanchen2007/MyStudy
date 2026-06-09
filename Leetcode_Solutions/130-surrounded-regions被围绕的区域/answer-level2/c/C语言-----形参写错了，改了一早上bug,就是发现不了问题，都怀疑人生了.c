@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void DFS(char**board,int i,int j,int boardSize,int colsize){
     if(i>=0&&i<boardSize&&j>=0&&j<colsize&&board[i][j]=='O')
     board[i][j]='#';
@@ -36,4 +36,4 @@ for(i=0;i<boardSize;i++){
     }
 }
 }
-```
+// ```

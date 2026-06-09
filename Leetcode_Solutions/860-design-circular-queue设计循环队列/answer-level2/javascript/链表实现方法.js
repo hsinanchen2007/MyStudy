@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @desc 链表实现，链表示实现的版本与数组相比所有操作的时间复杂度、空间复杂度一样，但是对内存得使用效率更高
 */
@@ -72,4 +72,4 @@ class MyCircularQueue {
         return this.count === this.capacity
     }
 }
-```
+// ```

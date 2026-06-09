@@ -1,9 +1,9 @@
-### 解题思路
-利用下标控制
+// ### 解题思路
+// 利用下标控制
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void reverseString(char[] s) {
         if(s == null || s.length == 0){
@@ -18,4 +18,4 @@ class Solution {
 
     }
 }
-```
+// ```

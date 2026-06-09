@@ -1,8 +1,8 @@
 
-双指针滑窗口 找区间之和等于target的。 然后循环拼装区间之内的元素。
-区间之和=首尾相加✖️个数➗2
+// 双指针滑窗口 找区间之和等于target的。 然后循环拼装区间之内的元素。
+// 区间之和=首尾相加✖️个数➗2
 
-```
+// ```
 var findContinuousSequence = function(target) {
     let current_sum = 0;
     let res = [];
@@ -32,4 +32,4 @@ var findContinuousSequence = function(target) {
     }
     return res;
 };
-```
+// ```

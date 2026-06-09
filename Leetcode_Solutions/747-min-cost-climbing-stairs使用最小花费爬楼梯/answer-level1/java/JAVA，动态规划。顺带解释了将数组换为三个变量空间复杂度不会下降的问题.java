@@ -1,5 +1,5 @@
-如需提交请自行去掉static，注释，与main函数
-```
+// 如需提交请自行去掉static，注释，与main函数
+// ```
 package leetCodeTest;
 
 import java.util.Arrays;
@@ -73,4 +73,4 @@ public class 使用最小花费爬楼梯 {
     }
 }
 
-```
+// ```

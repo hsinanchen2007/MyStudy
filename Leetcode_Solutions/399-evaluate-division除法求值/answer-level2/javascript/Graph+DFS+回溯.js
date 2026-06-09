@@ -1,4 +1,4 @@
-```javascript
+// ```javascript
     /**
      * 这个题剥去题意本身，考虑各种除法，可以认为是一个无向图的问题
      * 首先建立邻接表，对queries里面的数组定义为start和end
@@ -53,4 +53,4 @@
         console.info(ans);
         return ans;
     };
-```
+// ```

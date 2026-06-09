@@ -1,5 +1,5 @@
-不了解异或公式，用了个笨办法，时间复杂度O(m + nlog(n)),m为建树时间，n为查询次数
-```
+# 不了解异或公式，用了个笨办法，时间复杂度O(m + nlog(n)),m为建树时间，n为查询次数
+# ```
 class Solution:
     def xorQueries(self, arr: List[int], queries: List[List[int]]) -> List[int]:
         class Tree(object):
@@ -41,4 +41,4 @@ class Solution:
         for query in queries:
             ans.append(tree.ask(query[0]+1, query[1]+1))
         return ans
-```
+# ```

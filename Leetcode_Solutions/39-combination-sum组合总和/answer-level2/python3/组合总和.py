@@ -1,15 +1,15 @@
-### 解题思路
-此处撰写解题思路
-能剪枝的尽快剪枝
-if target < 0:    
-    return
-转化为
-if target < candidates[begin]:    
-    return
-效率从击败20+%  提升到90+%
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 能剪枝的尽快剪枝
+# if target < 0:    
+#     return
+# 转化为
+# if target < candidates[begin]:    
+#     return
+# 效率从击败20+%  提升到90+%
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         res = []
@@ -26,4 +26,4 @@ class Solution:
         candidates.sort()
         back_trace(candidates,target,[],0)
         return res
-```
+# ```

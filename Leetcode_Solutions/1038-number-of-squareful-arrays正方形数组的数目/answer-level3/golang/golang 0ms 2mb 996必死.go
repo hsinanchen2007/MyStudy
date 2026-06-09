@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-46、47、996三件套
+// 46、47、996三件套
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func numSquarefulPerms(A []int) int {
 	var (
 		count     int
@@ -51,4 +51,4 @@ func isPerfectSquare(num int) bool {
 	}
 	return l*l == num
 }
-```
+// ```

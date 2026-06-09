@@ -1,13 +1,13 @@
->欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
->几乎所有题目都会提供多种解法，真诚求star！
+// >欢迎大家关注我的LeetCode代码仓：[https://github.com/617076674/LeetCode]()
+// >几乎所有题目都会提供多种解法，真诚求star！
 
-# 排序
+// # 排序
 
-时间复杂度和空间复杂度是O(n)，其中n为votes中的字母个数。
+// 时间复杂度和空间复杂度是O(n)，其中n为votes中的字母个数。
 
-执行用时：6ms，击败100.00%。消耗内存：41.2MB，击败100.00%。
+// 执行用时：6ms，击败100.00%。消耗内存：41.2MB，击败100.00%。
 
-```java
+// ```java
 public class Solution {
     public String rankTeams(String[] votes) {
         if (null == votes || votes.length == 0) {
@@ -38,4 +38,4 @@ public class Solution {
         return sb.toString();
     }
 }
-```
+// ```

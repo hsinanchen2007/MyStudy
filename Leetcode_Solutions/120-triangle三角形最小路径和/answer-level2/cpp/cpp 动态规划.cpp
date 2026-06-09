@@ -1,11 +1,11 @@
-//1.状态：高m和每一层的长度n   ；选择：下一行相邻节点
-//2.dp[i][j]=x 表示到triangle[i][j]的最小路径和为x
-//  base case: dp[0][0]=trangle[0][0] 
-//           dp[i][0]=tran[0][0]+tran[1][0]+...+tran[i][0]
-//           dp[i][i]=tran[0][0]+tran[1][1]+...+tran[i][i]
-//3.转移方程：dp[i][j]=min(dp[i-1][j-1], dp[i-1][j])+tran[i][j]
+// //1.状态：高m和每一层的长度n   ；选择：下一行相邻节点
+// //2.dp[i][j]=x 表示到triangle[i][j]的最小路径和为x
+// //  base case: dp[0][0]=trangle[0][0] 
+// //           dp[i][0]=tran[0][0]+tran[1][0]+...+tran[i][0]
+// //           dp[i][i]=tran[0][0]+tran[1][1]+...+tran[i][i]
+// //3.转移方程：dp[i][j]=min(dp[i-1][j-1], dp[i-1][j])+tran[i][j]
 
-```
+// ```
 
 class Solution {
 public:
@@ -31,4 +31,4 @@ public:
         return result;
     }
 };
-```
+// ```

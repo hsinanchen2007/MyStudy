@@ -1,9 +1,9 @@
-### 解题思路
-方法二用一个二维数组保存不能被占用的格子,效率更高
+// ### 解题思路
+// 方法二用一个二维数组保存不能被占用的格子,效率更高
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     // 方法1:
     // ArrayList<List<String>> res=new ArrayList();
@@ -72,4 +72,4 @@ class Solution {
         }
     }
 }
-```
+// ```

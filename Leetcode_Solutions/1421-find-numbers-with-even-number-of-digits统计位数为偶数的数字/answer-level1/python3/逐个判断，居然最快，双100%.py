@@ -1,9 +1,9 @@
-### 解题思路
-估计是因为题解还不够多的原因。
+# ### 解题思路
+# 估计是因为题解还不够多的原因。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
         ans = 0
@@ -16,4 +16,4 @@ class Solution:
                 ans += 1
         return ans
 
-```
+# ```

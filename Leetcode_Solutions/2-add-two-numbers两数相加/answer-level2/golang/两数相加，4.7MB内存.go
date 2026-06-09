@@ -1,6 +1,6 @@
-解题思路，不创建临时变量，结果保存在l1
+// 解题思路，不创建临时变量，结果保存在l1
 
-```
+// ```
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	for tmp := l1; ; tmp = tmp.Next {  	//tmp为当前工作位置
         if l2!=nil{ 					//当l2存在的时候，两数相加			
@@ -28,4 +28,4 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return nil						//代码永远不可能走到这里
 }
-```
+// ```

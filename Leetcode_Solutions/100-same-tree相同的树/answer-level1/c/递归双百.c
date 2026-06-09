@@ -1,9 +1,9 @@
-### 解题思路
-用栈应该会更好一些，不过对于C来说要手撸栈。
+// ### 解题思路
+// 用栈应该会更好一些，不过对于C来说要手撸栈。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -26,4 +26,4 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q) {
     return true;
 
 }
-```
+// ```

@@ -1,17 +1,17 @@
-**我他妈服气，大家不想做可能是觉得太繁琐了，其实加减乘除不是问题，直接用上一题的来做就好了，主要是这个中间表达式的存储，既要按次数排序，又要按照字典序排序，同时还要兼顾增删改查的效率问题，数据结构的使用得斟酌。**
+// **我他妈服气，大家不想做可能是觉得太繁琐了，其实加减乘除不是问题，直接用上一题的来做就好了，主要是这个中间表达式的存储，既要按次数排序，又要按照字典序排序，同时还要兼顾增删改查的效率问题，数据结构的使用得斟酌。**
 
-## 数据结构如下：
+// ## 数据结构如下：
 
-### 多项式中的一项：
-typedef int Coefficient;//存系数
-typedef multiset<string> Polynomial;//存相乘的每一个word，采用默认排序方法--字典序,由于word有可能相同，所以用multiset
+// ### 多项式中的一项：
+// typedef int Coefficient;//存系数
+// typedef multiset<string> Polynomial;//存相乘的每一个word，采用默认排序方法--字典序,由于word有可能相同，所以用multiset
 
-### 多项式：
-typedef map<Polynomial, Coefficient,Cmp> Polynomials;
-//因为每一项除了系数外都是唯一的，所以可以用map，其中key就是上面的Polynomial，主要是下面的cmp得注意一下
+// ### 多项式：
+// typedef map<Polynomial, Coefficient,Cmp> Polynomials;
+// //因为每一项除了系数外都是唯一的，所以可以用map，其中key就是上面的Polynomial，主要是下面的cmp得注意一下
 
-### Cmp如下，确保排序满足题目要求：
-```
+// ### Cmp如下，确保排序满足题目要求：
+// ```
 struct Cmp
 {
 	bool operator()(const Polynomial &a, const Polynomial&b)const
@@ -24,20 +24,20 @@ struct Cmp
 			return a < b;//次数相同，字典序小的放前面
 	}
 };
-```
-### 为了快速查询给定的word对应的值，直接建一个哈希表unordered_map就好
-```
+// ```
+// ### 为了快速查询给定的word对应的值，直接建一个哈希表unordered_map就好
+// ```
 unordered_map<string,int>e_value_map;
 for (int i = 0; i < evalvars.size(); i++)
 {
 	e_value_map.insert(pair<string,int>(evalvars[i], evalints[i]));
 }
-```
-### add、sub、multi的实现：
-**add**，就是把b中每一个插入到a里面，如果a中有相同key，就系数相加，如果相加结果为0就删掉这一项，如果不为0就直接修改，如果没有相同的key，直接插入就好。
-**sub**同理
-**multi**其实就是多次调用add
-```
+// ```
+// ### add、sub、multi的实现：
+// **add**，就是把b中每一个插入到a里面，如果a中有相同key，就系数相加，如果相加结果为0就删掉这一项，如果不为0就直接修改，如果没有相同的key，直接插入就好。
+// **sub**同理
+// **multi**其实就是多次调用add
+// ```
 void add(Polynomials&a, const Polynomials&b)//把b都放到a里面
 	{
 		for (auto p : b)
@@ -58,16 +58,16 @@ void add(Polynomials&a, const Polynomials&b)//把b都放到a里面
 		}
 	}
 
-```
+// ```
 
 
 
-# 总结
-****数据结构和c++的stl容易还是要熟悉的。****
+// # 总结
+// ****数据结构和c++的stl容易还是要熟悉的。****
 
-### 总的代码如下，至于每个字符怎么进栈出栈，这个只要你做完了上一题，肯定会做。
-然后代码里面还有一些细节性的东西，比如0怎么处理啊，看代码就好。
-```
+// ### 总的代码如下，至于每个字符怎么进栈出栈，这个只要你做完了上一题，肯定会做。
+// 然后代码里面还有一些细节性的东西，比如0怎么处理啊，看代码就好。
+// ```
 typedef int Coefficient;
 typedef multiset<string> Polynomial;
 struct Cmp
@@ -335,4 +335,4 @@ public:
 	}
 	
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-暴力循环 把每个数字的二进制转化成对应的单词  bit位0标识无替换 1标识需要替换
-注意对连续1的处理
+// ### 解题思路
+// 此处撰写解题思路
+// 暴力循环 把每个数字的二进制转化成对应的单词  bit位0标识无替换 1标识需要替换
+// 注意对连续1的处理
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 
 func generateAbbreviations(word string) []string {
 	sb := []byte(word)
@@ -70,4 +70,4 @@ func generateAbbreviations(word string) []string {
 	return r
 }
 
-```
+// ```

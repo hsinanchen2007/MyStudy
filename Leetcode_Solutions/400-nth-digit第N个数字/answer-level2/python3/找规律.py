@@ -1,7 +1,7 @@
-规律
-（1）所有i位数的数字和为 9 * 10 **（i-1） * i
-实现
-```
+# 规律
+# （1）所有i位数的数字和为 9 * 10 **（i-1） * i
+# 实现
+# ```
 class Solution:
     def findNthDigit(self, n: int) -> int:
         i = 0
@@ -13,4 +13,4 @@ class Solution:
         y = (count - n) % i + 1     # 定位数字的位置
 
         return int(str(10**i - s)[-y])
-```
+# ```

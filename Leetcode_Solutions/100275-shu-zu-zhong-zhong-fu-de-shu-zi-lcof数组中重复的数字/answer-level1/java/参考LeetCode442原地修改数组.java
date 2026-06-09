@@ -1,11 +1,11 @@
-### 解题思路
-把元素大小改为 1-n
-参考 LeetCode442 https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/
-将数组中的每个值所对应的下标的值，修改为对应的负值，如果该下标的值已经为负值，则意味着该下标的数出现过2次
+// ### 解题思路
+// 把元素大小改为 1-n
+// 参考 LeetCode442 https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/
+// 将数组中的每个值所对应的下标的值，修改为对应的负值，如果该下标的值已经为负值，则意味着该下标的数出现过2次
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int findRepeatNumber(int[] nums) {
         // 把元素大小改为 1-n
@@ -23,4 +23,4 @@ class Solution {
         throw new RuntimeException("has no answer.");
     }
 }
-```
+// ```

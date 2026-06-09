@@ -1,9 +1,9 @@
-## 分析
-本题有两种解法
-方法一：将字符串按照字典排序，这样母异位词将会相邻。然后循环遍历即可求出结果。
-方法二：申请一个int[26]的数组。则异位词在每个位置的个数将会相等。
-## 代码
-```java
+// ## 分析
+// 本题有两种解法
+// 方法一：将字符串按照字典排序，这样母异位词将会相邻。然后循环遍历即可求出结果。
+// 方法二：申请一个int[26]的数组。则异位词在每个位置的个数将会相等。
+// ## 代码
+// ```java
 public List<List<String>> groupAnagrams(String[] strs) {
         if (strs == null || strs.length == 0) {
             return new ArrayList<>();
@@ -50,4 +50,4 @@ public List<List<String>> groupAnagrams(String[] strs) {
         }
         return new ArrayList<List<String>>(map.values());
     }
-```
+// ```

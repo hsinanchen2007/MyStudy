@@ -1,9 +1,9 @@
-### 解题思路
-常规长除法
+# ### 解题思路
+# 常规长除法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def toHex(self, num: int) -> str:
         if num == 0:
@@ -22,4 +22,4 @@ class Solution:
             if ans[i] in dic:
                 ans[i] = dic[ans[i]] 
         return ''.join(ans)
-```
+# ```

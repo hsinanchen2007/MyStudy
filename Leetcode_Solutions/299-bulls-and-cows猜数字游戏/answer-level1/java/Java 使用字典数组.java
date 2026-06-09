@@ -1,10 +1,10 @@
-***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
+// ***我的[leetcode解题集](https://github.com/JuiceZhou/Leetcode)，持续更新。***
 
-"Bulls"：遍历两个字符串，相同位置相同字符的个数
+// "Bulls"：遍历两个字符串，相同位置相同字符的个数
 
-"Cows"：排出完全猜对的数字，统计secret中剩余数字和出现的次数，再比对guess中出现相同数的次数
+// "Cows"：排出完全猜对的数字，统计secret中剩余数字和出现的次数，再比对guess中出现相同数的次数
 
-```
+// ```
 public String getHint(String secret, String guess) {
     int bulls = 0, cows = 0;
     int[] dict = new int[10];
@@ -26,4 +26,4 @@ public String getHint(String secret, String guess) {
 
     return bulls + "A" + cows + "B";
 }
-```
+// ```

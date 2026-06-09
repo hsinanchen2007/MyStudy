@@ -1,6 +1,6 @@
-# 解法一：
-借助计算树深度来求解本题
-```
+// # 解法一：
+// 借助计算树深度来求解本题
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -25,13 +25,13 @@ public:
         return subtreeWithAllDeepest(root->right);
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/c0be9209264c9b3f3b75a37f030c1fa676edc05706dae512a4820b86d69e151f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c0be9209264c9b3f3b75a37f030c1fa676edc05706dae512a4820b86d69e151f-image.png)
 
-# 解法二：
-直接递归求解
-```
+// # 解法二：
+// 直接递归求解
+// ```
 class Solution {
 public:
     pair<int, TreeNode*> dfs(TreeNode* root, int d) {
@@ -47,7 +47,7 @@ public:
         return dfs(root, 0).second;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f2e46b71aeed4f40fe1c4b1f2b9f719393af98faf214a2051e691b69ed1492d6-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f2e46b71aeed4f40fe1c4b1f2b9f719393af98faf214a2051e691b69ed1492d6-image.png)
 

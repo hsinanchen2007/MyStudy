@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def commonChars(self, A: List[str]) -> List[str]:
         List=[]
@@ -11,5 +11,5 @@ class Solution:
             else:
                 List.append(s)
         return List
-```
-repalce返回A[i]的副本，用''去取代已经被用过的字符串s
+# ```
+# repalce返回A[i]的副本，用''去取代已经被用过的字符串s

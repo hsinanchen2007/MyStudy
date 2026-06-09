@@ -1,4 +1,4 @@
-```
+// ```
 const int maxn=1e5;
 int idx[maxn];
 vector<int>res;
@@ -32,4 +32,4 @@ public:
         return ans;
     }
 };
-```
+// ```

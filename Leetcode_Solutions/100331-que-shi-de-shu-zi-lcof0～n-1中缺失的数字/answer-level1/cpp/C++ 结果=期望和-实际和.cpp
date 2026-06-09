@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 int missingNumber(vector<int>& nums) {
@@ -12,4 +12,4 @@ int missingNumber(vector<int>& nums) {
     else return nums[nums.size()-1]+1;
 }
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-用列表list 来模拟队列，这里有个取巧的地方就是使用了双向队列的Back 方法获取了尾部元素，
-否则需要再用一个队列暂存之前的元素，获取Top/Pop 
+// ### 解题思路
+// 用列表list 来模拟队列，这里有个取巧的地方就是使用了双向队列的Back 方法获取了尾部元素，
+// 否则需要再用一个队列暂存之前的元素，获取Top/Pop 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 import "container/list"
 
 type MyStack struct {
@@ -60,4 +60,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

@@ -1,6 +1,6 @@
-### 解题思路
+// ### 解题思路
 
-```
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -46,12 +46,12 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     if(flag!=0) t->val=flag;t->next=NULL;
     return r;
 }
-```
+// ```
 
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -97,4 +97,4 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2){
     if(flag!=0) t->val=flag;t->next=NULL;
     return r;
 }
-```
+// ```

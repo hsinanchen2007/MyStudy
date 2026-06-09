@@ -1,6 +1,6 @@
-和大牛的思路刚好是反的，羞耻地记录一下吧😄
+# 和大牛的思路刚好是反的，羞耻地记录一下吧😄
 
-```
+# ```
 class Solution:
     def findMinArrowShots(self, points) -> int:
         if not points: return 0
@@ -29,4 +29,4 @@ class Solution:
                 count += 1
         
         return count
-```
+# ```

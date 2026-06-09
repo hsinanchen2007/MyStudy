@@ -1,9 +1,9 @@
-### 解题思路
-循环n-1次，求出每一次的结果（如果n=1，结果就是1）
+# ### 解题思路
+# 循环n-1次，求出每一次的结果（如果n=1，结果就是1）
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countAndSay(self, n: int) -> str:
         prev_person = '1'  #  设置前一个为1
@@ -24,4 +24,4 @@ class Solution:
             prev_person = next_person
         
         return prev_person
-```
+# ```

@@ -1,4 +1,4 @@
-```
+// ```
 func replaceSpace(s string) string {
     var buf bytes.Buffer
     for _, v := range s {
@@ -10,4 +10,4 @@ func replaceSpace(s string) string {
     }
     return buf.String()
 }
-```
+// ```

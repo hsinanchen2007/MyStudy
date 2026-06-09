@@ -1,16 +1,16 @@
-### 解题思路
-`led[10]` 表示10个灯分别代表的数字
-`visited[10]` 每一次遍历，一个灯只能亮一次
+// ### 解题思路
+// `led[10]` 表示10个灯分别代表的数字
+// `visited[10]` 每一次遍历，一个灯只能亮一次
 
-`void dfs(int num, char **res, int *returnSize, int hour, int min, int pos)`
-`num` 还要亮几个灯
-`hour` 目前亮的灯表示的小时
-`min` 目前亮的灯表示的分钟
-`pos` 目前遍历到led数组的什么位置，因为一个灯只能用一次，所以下次遍历要从pos+1位置遍历
+// `void dfs(int num, char **res, int *returnSize, int hour, int min, int pos)`
+// `num` 还要亮几个灯
+// `hour` 目前亮的灯表示的小时
+// `min` 目前亮的灯表示的分钟
+// `pos` 目前遍历到led数组的什么位置，因为一个灯只能用一次，所以下次遍历要从pos+1位置遍历
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAX_SIZE 1024
 int led[10] = {8, 4, 2, 1, 32, 16, 8, 4, 2, 1};
 int visited[10] = {0};
@@ -71,4 +71,4 @@ char ** readBinaryWatch(int num, int* returnSize){
     
     return res;
 }
-```
+// ```

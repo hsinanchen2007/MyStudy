@@ -1,9 +1,9 @@
-### 解题思路
-联系n多遍反转的写法
+# ### 解题思路
+# 联系n多遍反转的写法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -32,4 +32,4 @@ class Solution:
         fix_m.next.next = cur
         fix_m.next = pre
         return dummy_node.next
-```
+# ```

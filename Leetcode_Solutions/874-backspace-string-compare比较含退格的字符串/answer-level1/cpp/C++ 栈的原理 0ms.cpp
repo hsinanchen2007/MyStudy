@@ -1,11 +1,11 @@
-### 解题思路
-用两个栈，不断添加字符，遇上#就删除尾部字符，最后对比两个栈是否相同
-![image.png](https://pic.leetcode-cn.com/0dc4b8ec48b9fd9825b9638088cd9bf51ea90d8a6e18b47133096f0f8d4be786-image.png)
+// ### 解题思路
+// 用两个栈，不断添加字符，遇上#就删除尾部字符，最后对比两个栈是否相同
+// ![image.png](https://pic.leetcode-cn.com/0dc4b8ec48b9fd9825b9638088cd9bf51ea90d8a6e18b47133096f0f8d4be786-image.png)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool backspaceCompare(string S, string T)
@@ -22,4 +22,4 @@ public:
         return stack1 == stack2;
     }
 };
-```
+// ```

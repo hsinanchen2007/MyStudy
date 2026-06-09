@@ -1,9 +1,9 @@
-### 解题思路
-使用字典保存当前遍历的字符次数，遇到不相同的字符弹出字典中的值，更新s
+# ### 解题思路
+# 使用字典保存当前遍历的字符次数，遇到不相同的字符弹出字典中的值，更新s
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if not S:
@@ -23,4 +23,4 @@ class Solution:
                 s += ''.join([k, str(v)])
 
         return s if len(s) < len(S) else S
-```
+# ```

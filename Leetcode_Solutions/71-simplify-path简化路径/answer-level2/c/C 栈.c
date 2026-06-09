@@ -1,4 +1,4 @@
-```
+// ```
 struct Node {
     char** arr;
     int rear;
@@ -42,4 +42,4 @@ char * simplifyPath(char * path){
     freeStack(S);
     return res;
 }
-```
+// ```

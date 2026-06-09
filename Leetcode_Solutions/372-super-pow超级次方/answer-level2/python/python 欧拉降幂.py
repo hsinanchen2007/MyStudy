@@ -1,5 +1,5 @@
 
-```python []
+# ```python []
 
 def phi(n):
     rea = n
@@ -30,4 +30,4 @@ class Solution(object):
             n = n * 10
 
         return (a ** (B % phi(1337) + phi(1337))) % 1337
-```
+# ```

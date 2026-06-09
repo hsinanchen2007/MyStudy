@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public boolean detectCapitalUse(String word) {
         
@@ -19,4 +19,4 @@ class Solution {
             return false;
     }
 }
-```
+// ```

@@ -1,5 +1,5 @@
-递归解法如下：
-```
+// 递归解法如下：
+// ```
 class Solution {
 public:
 	void preorder(TreeNode* root,vector<int>& result) {
@@ -15,10 +15,10 @@ public:
 		return result;
 	}
 };
-```
+// ```
 
-下面是非递归的解法：
-```
+// 下面是非递归的解法：
+// ```
  class Solution {
  public:
 	 vector<int> preorderTraversal(TreeNode* root) {
@@ -38,5 +38,5 @@ public:
 		 return result;
 	 }
  };
-```
+// ```
 

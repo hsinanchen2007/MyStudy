@@ -1,8 +1,8 @@
-### 解题思路
-替换
-### 代码
+// ### 解题思路
+// 替换
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     string replaceSpace(string s) {
@@ -16,4 +16,4 @@ public:
        return ans;
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 public TreeNode increasingBST(TreeNode root) {
         if(root == null) return null;
         List<Integer> nodeList = new ArrayList<>();
@@ -24,4 +24,4 @@ public TreeNode increasingBST(TreeNode root) {
             midOrder(root.right,list);
         }
     }
-```
+// ```

@@ -1,4 +1,4 @@
-考虑到有n个小朋友，c个糖果。初始化res为n个0的数组。只要还有糖果就遍历。每次对n个小朋友进行遍历。
+# 考虑到有n个小朋友，c个糖果。初始化res为n个0的数组。只要还有糖果就遍历。每次对n个小朋友进行遍历。
 
 class Solution(object):
     def distributeCandies(self, candies, num_people):

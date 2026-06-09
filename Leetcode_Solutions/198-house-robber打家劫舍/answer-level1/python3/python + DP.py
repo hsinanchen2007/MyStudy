@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def rob(self, nums: List[int]) -> int:
         if nums == []: return 0
@@ -7,4 +7,4 @@ class Solution:
         for i in range(2, len(nums)):
             pre_one, pre_two = max(pre_one,  pre_two + nums[i]), pre_one
         return pre_one
-```
+# ```

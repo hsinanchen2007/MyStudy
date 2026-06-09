@@ -1,4 +1,4 @@
-```
+// ```
 char solve2(vector<char>& letters, char target) {
         
         int left = 0, right = letters.size() - 1;

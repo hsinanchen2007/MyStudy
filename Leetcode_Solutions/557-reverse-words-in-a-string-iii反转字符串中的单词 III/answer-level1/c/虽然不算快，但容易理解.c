@@ -1,9 +1,9 @@
-### 解题思路
-![图片.png](https://pic.leetcode-cn.com/43b636ff96b6ba2ee150fc75305db111f785bd3aeda0ab6a0577289c9149ae16-%E5%9B%BE%E7%89%87.png)
+// ### 解题思路
+// ![图片.png](https://pic.leetcode-cn.com/43b636ff96b6ba2ee150fc75305db111f785bd3aeda0ab6a0577289c9149ae16-%E5%9B%BE%E7%89%87.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void reverse(char *s,int begin,int last){
     char temp;
     while(begin<last){
@@ -23,4 +23,4 @@ char * reverseWords(char * s){
     }
     return s;
 }
-```
+// ```

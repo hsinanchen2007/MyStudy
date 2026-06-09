@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
 	// 暴力解法，看看思路就好，不用学我
     public int minimumLengthEncoding(String[] words){
@@ -55,4 +55,4 @@ class Solution {
 		return true;
 	}
 }
-```
+// ```

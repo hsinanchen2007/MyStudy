@@ -1,9 +1,9 @@
-[leetcode86](https://leetcode-cn.com/problems/partition-list/submissions/)
+// [leetcode86](https://leetcode-cn.com/problems/partition-list/submissions/)
 
-* 先进行统一处理：让头部以一个小于x的值作为head。
-* 对于这种题优先考虑交换，然后考虑构造新的。
+// * 先进行统一处理：让头部以一个小于x的值作为head。
+// * 对于这种题优先考虑交换，然后考虑构造新的。
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -48,5 +48,5 @@ class Solution {
         return head;
     }
 }
-```
+// ```
 

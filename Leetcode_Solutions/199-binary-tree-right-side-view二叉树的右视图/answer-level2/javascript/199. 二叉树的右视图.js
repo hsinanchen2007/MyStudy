@@ -1,7 +1,7 @@
-# BFS
-简单粗暴递归广度优先拿到整个数的二位值平铺~
-然后遍历拿到每一层最后一个值
-```
+// # BFS
+// 简单粗暴递归广度优先拿到整个数的二位值平铺~
+// 然后遍历拿到每一层最后一个值
+// ```
 var rightSideView = function(root) {
     if(root == null) return [];
     let arr = [];
@@ -23,4 +23,4 @@ var rightSideView = function(root) {
         result.push(arr[i].pop());
     }
     return result;
-```
+// ```

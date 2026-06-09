@@ -1,12 +1,12 @@
-### 解题思路
-此处撰写解题思路
-有两个关键点，
-1. 不管put还是get，都可以增加元素使用频次
-2. put和get都要更新元素的update_time
-print_all_element()是用来调试的
-### 代码
+# ### 解题思路
+# 此处撰写解题思路
+# 有两个关键点，
+# 1. 不管put还是get，都可以增加元素使用频次
+# 2. put和get都要更新元素的update_time
+# print_all_element()是用来调试的
+# ### 代码
 
-```python
+# ```python
 # -*- coding: utf-8 -*-
 class CacheObject(object):
     def __init__(self, key, value, update_time=0):
@@ -109,4 +109,4 @@ if __name__ == '__main__':
     assert cache.get(3) == -1
     assert cache.get(4) == 3
 
-```
+# ```

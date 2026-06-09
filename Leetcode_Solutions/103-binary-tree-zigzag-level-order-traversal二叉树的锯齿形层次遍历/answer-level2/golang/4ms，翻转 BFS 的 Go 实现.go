@@ -1,9 +1,9 @@
 
-![image.png](https://pic.leetcode-cn.com/0d15319f74d5ccb44faaecffd1fceff1b774ab5f5b8b725d41613b8133dbe28a-image.png)
+// ![image.png](https://pic.leetcode-cn.com/0d15319f74d5ccb44faaecffd1fceff1b774ab5f5b8b725d41613b8133dbe28a-image.png)
 
-用一个当前层次队列暂存当前层次的所有节点，当队列为空时，将当前层次队列翻转，然后补充到队列中，继续 bfs，这样可以保证每个层次的节点遍历顺序都是翻转的。
+// 用一个当前层次队列暂存当前层次的所有节点，当队列为空时，将当前层次队列翻转，然后补充到队列中，继续 bfs，这样可以保证每个层次的节点遍历顺序都是翻转的。
 
-```
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -59,4 +59,4 @@ func zigzagLevelOrder(root *TreeNode) [][]int { // bfs
     result = append(result, curLevelArr)
     return result
 }
-```
+// ```

@@ -1,4 +1,4 @@
-方法一：
+-- 方法一：
 select distinct a.Email
 from Person a,Person b
 where a.Email=b.Email

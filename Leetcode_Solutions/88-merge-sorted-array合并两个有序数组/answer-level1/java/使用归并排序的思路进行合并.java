@@ -1,9 +1,9 @@
-### 解题思路
-如果理解归并排序，那很快就能解决问题，本题使用的就是归并排序的思路进行合并数组
+// ### 解题思路
+// 如果理解归并排序，那很快就能解决问题，本题使用的就是归并排序的思路进行合并数组
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
          int[] temp = new int[m + n];
@@ -31,4 +31,4 @@ class Solution {
         }
     }
 }
-```
+// ```

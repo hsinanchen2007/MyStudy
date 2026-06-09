@@ -1,10 +1,10 @@
-### 解题思路
-通过非递归中序遍历，找到需要交换的两个Treenode，交换两个Treenode的val；
-特别注意，节点中的值可能是负的，所以最开始补充的节点值应该取-2147483648;
+// ### 解题思路
+// 通过非递归中序遍历，找到需要交换的两个Treenode，交换两个Treenode的val；
+// 特别注意，节点中的值可能是负的，所以最开始补充的节点值应该取-2147483648;
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -53,4 +53,4 @@ public:
         wnode2->tree->val = swap;
     }
 };
-```
+// ```

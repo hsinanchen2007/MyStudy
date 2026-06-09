@@ -1,4 +1,4 @@
-```golang
+// ```golang
 
 /*
 二分法
@@ -42,6 +42,6 @@ func countNegatives2(grid [][]int) int {
 	}
 	return res
 }
-```
+// ```
 
-[github](https://github.com/temporaries/leetcode)
+// [github](https://github.com/temporaries/leetcode)

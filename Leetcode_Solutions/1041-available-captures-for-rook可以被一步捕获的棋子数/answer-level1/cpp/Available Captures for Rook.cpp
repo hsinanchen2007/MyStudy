@@ -1,9 +1,9 @@
-### 解题思路
-Available Captures for Rook
+// ### 解题思路
+// Available Captures for Rook
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numRookCaptures(vector<vector<char>>& board) {
@@ -39,4 +39,4 @@ public:
         return cnt;
     }
 };
-```
+// ```

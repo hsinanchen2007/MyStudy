@@ -1,9 +1,9 @@
-### 解题思路
-模拟一下题目就行了
+// ### 解题思路
+// 模拟一下题目就行了
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	int findTheDistanceValue(vector<int>& arr1, vector<int>& arr2, int d) {
@@ -19,4 +19,4 @@ public:
 		return ans;
 	}
 };
-```
+// ```

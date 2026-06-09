@@ -1,5 +1,5 @@
-# dfs解法
-```
+// # dfs解法
+// ```
 var generateParenthesis = function (n) {
     var arr = []
     dfs(n, n, '', arr)
@@ -17,10 +17,10 @@ function dfs(left, right, res, arr) {
     // 右括号数量多于左括号，可以拼接
     if (right > left) dfs(left, right - 1, res + ')', arr)
 }
-```
+// ```
 
-# 动态规划
-```
+// # 动态规划
+// ```
 var generateParenthesis = function (n) {
     var dp = []
     dp[0] = ['']
@@ -38,5 +38,5 @@ var generateParenthesis = function (n) {
     }
     return dp[n]
 };
-```
+// ```
 

@@ -1,11 +1,11 @@
-### 解题思路
-二分法。
+# ### 解题思路
+# 二分法。
 
-主要考虑l == r时情况。
+# 主要考虑l == r时情况。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def searchInsert(self, nums: List[int], target: int) -> int:
 
@@ -31,4 +31,4 @@ class Solution:
         return insert
 
         
-```
+# ```

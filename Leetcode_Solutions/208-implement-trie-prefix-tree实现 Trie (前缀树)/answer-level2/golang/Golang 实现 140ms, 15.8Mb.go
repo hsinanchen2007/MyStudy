@@ -1,4 +1,4 @@
-```
+// ```
 type Trie struct {
 	value string
 	children map[string]*Trie
@@ -60,4 +60,4 @@ func (this *Trie) match(word string) *Trie {
 	}
 	return root
 }
-```
+// ```

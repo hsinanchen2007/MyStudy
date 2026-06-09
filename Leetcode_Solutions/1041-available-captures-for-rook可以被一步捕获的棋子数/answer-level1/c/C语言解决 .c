@@ -1,10 +1,10 @@
-### 解题思路
-1.先找出R的位置
-2.然后4个方向遍历，并进行判断
+// ### 解题思路
+// 1.先找出R的位置
+// 2.然后4个方向遍历，并进行判断
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 bool IsInArea(int x, int y, int size)
 {
@@ -57,4 +57,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize)
     }
     return result;
 }
-```
+// ```

@@ -1,8 +1,8 @@
 
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minimumLengthEncoding(String[] words) {
         // 基于前缀树，倒着插入
@@ -47,4 +47,4 @@ class Trie{
 
 
 }
-```
+// ```

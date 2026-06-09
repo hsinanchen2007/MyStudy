@@ -1,9 +1,9 @@
-### 解题思路
-由于每个字母只能用一次，因此需要记录字母出现的次数
+# ### 解题思路
+# 由于每个字母只能用一次，因此需要记录字母出现的次数
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def countCharacters(self, words: List[str], chars: str) -> int:
         ret, set_ = 0, {}
@@ -20,4 +20,4 @@ class Solution:
             if flag == 0:
                 ret += len(i)
         return ret
-```
+# ```

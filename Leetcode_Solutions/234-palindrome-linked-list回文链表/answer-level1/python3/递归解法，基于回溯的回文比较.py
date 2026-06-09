@@ -1,6 +1,6 @@
-比较p，q两个指针，如果只一次遍历的话，可以利用递归的回溯特性，回溯处理q节点。
+# 比较p，q两个指针，如果只一次遍历的话，可以利用递归的回溯特性，回溯处理q节点。
 
-```python3
+# ```python3
 class Solution:
     def isPalindrome(self, head: ListNode) -> bool:
         # p表示当前比较的左节点
@@ -33,4 +33,4 @@ class Solution:
             return True
         
         return back_track(head)
-```
+# ```

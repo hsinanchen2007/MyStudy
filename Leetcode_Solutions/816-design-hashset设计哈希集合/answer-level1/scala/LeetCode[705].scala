@@ -1,4 +1,4 @@
-```
+// ```
 class MyHashSet() {
   /** Initialize your data structure here. */
   var base = 765
@@ -33,4 +33,4 @@ class MyHashSet() {
     def contains(elem: Int) = list.contains(elem)
   }
 }
-```
+// ```

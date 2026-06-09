@@ -1,15 +1,15 @@
-### 解题思路
-思路来源于[中序和前序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/cong-qian-xu-he-zhong-xu-bian-li-xu-lie-gou-zao-er/)。
-后序遍历顺序是 Left -> Right -> Root。
+// ### 解题思路
+// 思路来源于[中序和前序遍历构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/solution/cong-qian-xu-he-zhong-xu-bian-li-xu-lie-gou-zao-er/)。
+// 后序遍历顺序是 Left -> Right -> Root。
 
-因此在后序遍历的数组中，最后一个元素就是树的根。在inorder序列中，这个根所在元素的两边就是它的左右子树。我们取postorder的倒数第二个数，它就是根的右子树或左子树。如此递归下去，我们就能重构整棵树。
-### 变量
-- 需要一个指针指向当前的根元素，即此指针是在后序数组中从后往前移动的。
-- 需要一个memo，用来保存中序数组对应元素的索引，以实现快速查询。
-- 两个局部变量保存题目所给的两个数组。
-### 代码
+// 因此在后序遍历的数组中，最后一个元素就是树的根。在inorder序列中，这个根所在元素的两边就是它的左右子树。我们取postorder的倒数第二个数，它就是根的右子树或左子树。如此递归下去，我们就能重构整棵树。
+// ### 变量
+// - 需要一个指针指向当前的根元素，即此指针是在后序数组中从后往前移动的。
+// - 需要一个memo，用来保存中序数组对应元素的索引，以实现快速查询。
+// - 两个局部变量保存题目所给的两个数组。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     int post_idx=0;
     int[] inorder,postorder;
@@ -36,7 +36,7 @@ class Solution {
         return helper(0,postorder.length);
     }
 }
-```
-### 复杂度分析
-时间复杂度：O(N)
-空间复杂度：O(N)。存储整个中序数组的开销。
+// ```
+// ### 复杂度分析
+// 时间复杂度：O(N)
+// 空间复杂度：O(N)。存储整个中序数组的开销。

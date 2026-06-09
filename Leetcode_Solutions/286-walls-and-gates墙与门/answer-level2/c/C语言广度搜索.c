@@ -1,8 +1,8 @@
-![image.png](https://pic.leetcode-cn.com/a8b40b4485f5b592835fb621f4873690a2a54df2b58291239f5ecf7fceea2889-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a8b40b4485f5b592835fb621f4873690a2a54df2b58291239f5ecf7fceea2889-image.png)
 
-从出口位置开始广度搜索；
+// 从出口位置开始广度搜索；
 
-```
+// ```
 
 #define INF 2147483647
 #define GATE 0
@@ -129,4 +129,4 @@ void wallsAndGates(int** rooms, int roomsSize, int* roomsColSize){
     //资源释放
     myCircularQueueFree(obj);
 }
-```
+// ```

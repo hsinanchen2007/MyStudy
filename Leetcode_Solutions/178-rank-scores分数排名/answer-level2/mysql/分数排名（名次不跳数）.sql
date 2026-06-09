@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 
 select
@@ -19,4 +19,4 @@ where b.score >= a.score # 条件是这个分数不小于我，因为a、b表数
 group by a.id # a表中每个数据都进行排名
 
 order by a.score DESC # 最后按分数（跟排名一样）降序排列
-```
+-- ```

@@ -1,9 +1,9 @@
-### 解题思路
-切片操作比较简单，但耗时过长，值不值得使用啊？
+# ### 解题思路
+# 切片操作比较简单，但耗时过长，值不值得使用啊？
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         st = ''
@@ -18,4 +18,4 @@ class Solution:
                 st = a
         return st
 
-```
+# ```

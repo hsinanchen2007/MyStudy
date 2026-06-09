@@ -1,6 +1,6 @@
-使用java的优先队列实现，维护一个k大小的大顶堆。
+// 使用java的优先队列实现，维护一个k大小的大顶堆。
 
-```
+// ```
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if(nums == null || nums.length < 2) return nums;
@@ -24,4 +24,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

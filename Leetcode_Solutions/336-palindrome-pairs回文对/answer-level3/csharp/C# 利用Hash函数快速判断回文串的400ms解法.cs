@@ -1,19 +1,19 @@
-### 解题思路
-首先构造一个针对回文串的Hash函数，可以大概率过滤非回文串。
-对于一个长度为$N$字符串$s$我们当成字符序列：$c_{0},c_{1},\cdots,c_{N-1}$
-求$a_{i}=c_{i} \bigoplus c_{i+1},i=0,1,\cdots,N-2$，（$\bigoplus$是二进制异或）
-令Hash函数：$f(s)=(1<<(a_{0}\&31))\bigoplus(1<<(a_{1}\&31))\bigoplus\cdots\bigoplus(1<<(a_{N-2}\&31))$，（$<<$是二进制左移，$\&$是二进制与）
+// ### 解题思路
+// 首先构造一个针对回文串的Hash函数，可以大概率过滤非回文串。
+// 对于一个长度为$N$字符串$s$我们当成字符序列：$c_{0},c_{1},\cdots,c_{N-1}$
+// 求$a_{i}=c_{i} \bigoplus c_{i+1},i=0,1,\cdots,N-2$，（$\bigoplus$是二进制异或）
+// 令Hash函数：$f(s)=(1<<(a_{0}\&31))\bigoplus(1<<(a_{1}\&31))\bigoplus\cdots\bigoplus(1<<(a_{N-2}\&31))$，（$<<$是二进制左移，$\&$是二进制与）
 
-若$s$是回文串，则
-$$f(s)=
-\begin{cases}
-0, len(s)是奇数或len(s)=0\\
-1, otherwise
-\end{cases}$$
-否则，对于长度为$N$的随机非回文串$s$，$f(s)$有大约$\frac{7}{1000N}(N>4)$的概率满足以上Hash值。
+// 若$s$是回文串，则
+// $$f(s)=
+// \begin{cases}
+// 0, len(s)是奇数或len(s)=0\\
+// 1, otherwise
+// \end{cases}$$
+// 否则，对于长度为$N$的随机非回文串$s$，$f(s)$有大约$\frac{7}{1000N}(N>4)$的概率满足以上Hash值。
 
-用C#代码来表示如下：
-```csharp
+// 用C#代码来表示如下：
+// ```csharp
 static int GetHashCode(ReadOnlySpan<char> s) {
     int hash = 0;
     for (int i = 1; i < s.Length; i++) {
@@ -22,16 +22,16 @@ static int GetHashCode(ReadOnlySpan<char> s) {
     }
     return hash;
 }
-```
+// ```
 
-这个Hash函数有个非常好的性质，在我们已知字符串$s$和$f(s)$的情况下，对$s$删除或插入任意字符，都可以在$O(1)$时间内求得新字符串的Hash值。
+// 这个Hash函数有个非常好的性质，在我们已知字符串$s$和$f(s)$的情况下，对$s$删除或插入任意字符，都可以在$O(1)$时间内求得新字符串的Hash值。
 
-最后再利用Trie树来实现就行了，这部分就不细说了，直接上代码。
+// 最后再利用Trie树来实现就行了，这部分就不细说了，直接上代码。
 
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     class Node {
         public Node[] Children;
@@ -134,4 +134,4 @@ public class Solution {
         return result;
     }
 }
-```
+// ```

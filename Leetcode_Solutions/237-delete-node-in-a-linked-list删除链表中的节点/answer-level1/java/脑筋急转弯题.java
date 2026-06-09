@@ -1,8 +1,8 @@
-### 解题思路
-下个节点值赋值给当前节点，删下个节点
-### 代码
+// ### 解题思路
+// 下个节点值赋值给当前节点，删下个节点
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -17,4 +17,4 @@ class Solution {
         node.next = node.next.next;
     }
 }
-```
+// ```

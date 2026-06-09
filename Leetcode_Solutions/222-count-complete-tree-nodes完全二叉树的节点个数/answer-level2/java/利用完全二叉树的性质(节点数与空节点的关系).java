@@ -1,7 +1,7 @@
 
-**完全二叉树节点的个数为完全二叉树中所有空节点个数减一**
+// **完全二叉树节点的个数为完全二叉树中所有空节点个数减一**
 
-```
+// ```
 class Solution {
     public int countNodes(TreeNode root) {
         // 完全二叉树节点的个数 = 完全二叉树中所有空节点个数 - 1
@@ -19,4 +19,4 @@ class Solution {
         return countNullNodes(root.left) + countNullNodes(root.right);
     }
 }
-```
+// ```

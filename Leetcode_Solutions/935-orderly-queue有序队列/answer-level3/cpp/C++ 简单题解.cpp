@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     string orderlyQueue(string S, int K) {
@@ -14,6 +14,6 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/06b30546489efd56e99a8535cd1cbcbb200120b48f438304ca9ee52c0640387f-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/06b30546489efd56e99a8535cd1cbcbb200120b48f438304ca9ee52c0640387f-image.png)
 

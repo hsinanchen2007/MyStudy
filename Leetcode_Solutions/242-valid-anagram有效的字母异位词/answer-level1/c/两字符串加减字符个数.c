@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool isAnagram(char * s, char * t){
     int sArray[26] = {0};
     //int tArray[26] = {0};
@@ -37,4 +37,4 @@ bool isAnagram(char * s, char * t){
     return true;
 }
 
-```
+// ```

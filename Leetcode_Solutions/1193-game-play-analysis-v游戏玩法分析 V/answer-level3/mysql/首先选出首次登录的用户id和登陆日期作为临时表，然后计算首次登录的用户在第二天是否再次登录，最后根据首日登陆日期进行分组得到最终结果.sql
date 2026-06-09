@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+-- ### 解题思路
+-- 此处撰写解题思路
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select install_dt, count(*) as installs, round(sum(is_retention)/count(*), 2) as Day1_retention
 from 
@@ -17,4 +17,4 @@ left join Activity as a
 on install_a.player_id = a.player_id and a.event_date = date_add(install_a.install_dt, interval 1 day)
 ) as t
 group by install_dt
-```
+-- ```

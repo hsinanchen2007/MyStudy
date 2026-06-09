@@ -1,9 +1,9 @@
-### 解题思路
-此题实际上是模拟的过程，实际上天际线就是行或者列的最大值，所以使用两个vector储存行和列的最大值。再一个循环来把每次可以加的地方加上去即可。
+// ### 解题思路
+// 此题实际上是模拟的过程，实际上天际线就是行或者列的最大值，所以使用两个vector储存行和列的最大值。再一个循环来把每次可以加的地方加上去即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxIncreaseKeepingSkyline(vector<vector<int>>& grid) {
@@ -30,4 +30,4 @@ public:
         return count;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-先排序，三个指针，一个指针做c位，另外两个在剩下数组中从头和从后遍历
-执行速率还行，但内存消耗挺大的
-```
+// 先排序，三个指针，一个指针做c位，另外两个在剩下数组中从头和从后遍历
+// 执行速率还行，但内存消耗挺大的
+// ```
 var threeSum = function(nums) {
     nums = nums.sort(function(a, b) {
         return a-b;
@@ -29,4 +29,4 @@ var threeSum = function(nums) {
     }
     return result;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-动态规划
+// ### 解题思路
+// 动态规划
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} cost
  * @return {number}
@@ -17,4 +17,4 @@ var minCostClimbingStairs = function(cost) {
     }
     return Math.min(memory[cost.length-1],memory[cost.length-2])
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```javascript []
+// ```javascript []
 /**
  * @param {number[][]} obstacleGrid
  * @return {number}
@@ -22,8 +22,8 @@ var uniquePathsWithObstacles = function(obstacleGrid) {
 	});
 	return dp[m - 1];
 };
-```
+// ```
 
-- 时间复杂度 *O(n²)*
-- 空间复杂度 *O(n)*
+// - 时间复杂度 *O(n²)*
+// - 空间复杂度 *O(n)*
 

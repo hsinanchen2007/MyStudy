@@ -1,9 +1,9 @@
-### 解题思路
-C++ + stack
+// ### 解题思路
+// C++ + stack
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 const static int x = [](){ 
   ios::sync_with_stdio(false); 
   cin.tie(NULL); 
@@ -39,4 +39,4 @@ public:
         return res;
     }
 };
-```
+// ```

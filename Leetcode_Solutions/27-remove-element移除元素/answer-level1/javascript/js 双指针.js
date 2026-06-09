@@ -1,4 +1,4 @@
-```
+// ```
 var removeElement = function(nums, val) {
     if(nums.length === 0)
         return 0;
@@ -15,4 +15,4 @@ var removeElement = function(nums, val) {
     }
     return left;
 };
-```
+// ```

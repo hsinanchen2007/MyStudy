@@ -1,13 +1,13 @@
-假如我们做一个预处理, 把数组[1,1,1,2,2,3,3,2,2,2]变成 `[{val:1, len: 3}, {val:2, len:2}, {val:3, len:2}, {val:2, len:3}]`
-针对预处理之后的block[i], 我们设f[i]表示第i个block作为结尾的最大长度.则有:
-* f[i] = f[i-1]+block[i].len  (block[i].val == block[i-2].val)
-* f[i] = block[i-1].len + block[i].len  (block[i].val != block[i-2].val)
+// 假如我们做一个预处理, 把数组[1,1,1,2,2,3,3,2,2,2]变成 `[{val:1, len: 3}, {val:2, len:2}, {val:3, len:2}, {val:2, len:3}]`
+// 针对预处理之后的block[i], 我们设f[i]表示第i个block作为结尾的最大长度.则有:
+// * f[i] = f[i-1]+block[i].len  (block[i].val == block[i-2].val)
+// * f[i] = block[i-1].len + block[i].len  (block[i].val != block[i-2].val)
 
-因为当区块i和i-2的值相等时, 它们是可以拼在一起形成一个更大区块的.
+// 因为当区块i和i-2的值相等时, 它们是可以拼在一起形成一个更大区块的.
 
-当然, f[i]只和f[i-1]有关, 因此我们可以只使用两个变量来存储. 同时, 我们也只需要当前3个block的信息, 因此我们也只需要O(3)的空间来存储block, 并且边DP边计算block
+// 当然, f[i]只和f[i-1]有关, 因此我们可以只使用两个变量来存储. 同时, 我们也只需要当前3个block的信息, 因此我们也只需要O(3)的空间来存储block, 并且边DP边计算block
 
-```rust
+// ```rust
     pub fn total_fruit_dp(tree: Vec<i32>) -> i32 {
         let n = tree.len();
         let mut i = 0;
@@ -44,5 +44,5 @@
         }
         ans as i32
     }
-```
-最终复杂度就是O(n)扫描+O(1)空间
+// ```
+// 最终复杂度就是O(n)扫描+O(1)空间

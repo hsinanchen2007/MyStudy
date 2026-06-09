@@ -1,6 +1,6 @@
-很简单的思路：
-只需要先找到链表的最后一个节点，并存储，作为反转后的链表的const head指针。整个过程只需要将原链表中的第一个节点插入原链表中最后一个节点之后即可。代码如下：
-```
+// 很简单的思路：
+// 只需要先找到链表的最后一个节点，并存储，作为反转后的链表的const head指针。整个过程只需要将原链表中的第一个节点插入原链表中最后一个节点之后即可。代码如下：
+// ```
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -39,4 +39,4 @@ ListNode* Solution::insert_next(ListNode* head, ListNode* node){
     head->next=node;
     return head;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-执行用时 :212 ms, 在所有 Kotlin 提交中击败了100.00%的用户
-内存消耗 :37.2 MB, 在所有 Kotlin 提交中击败了100.00%的用户
-```
+// 执行用时 :212 ms, 在所有 Kotlin 提交中击败了100.00%的用户
+// 内存消耗 :37.2 MB, 在所有 Kotlin 提交中击败了100.00%的用户
+// ```
 
     fun largestUniqueNumber(A: IntArray): Int {
         if (A.size == 1) {
@@ -32,4 +32,4 @@
         }
         return res
     }
-```
+// ```

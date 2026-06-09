@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def __init__(self):
         self.best=0.0
@@ -14,4 +14,4 @@ class Solution:
             root.total+=root.right.total
             root.count+=root.right.count
         return max(self.best,root.total/root.count)
-```
+# ```

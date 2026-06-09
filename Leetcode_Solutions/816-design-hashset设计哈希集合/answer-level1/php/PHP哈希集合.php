@@ -1,6 +1,6 @@
-**PHP不适合设计数据结构**
-![image.png](https://pic.leetcode-cn.com/2cd8d0a7e81c04f097af2018f7172725b7c9065888f40f1ae6ff26f5a3272185-image.png)
-```
+// **PHP不适合设计数据结构**
+// ![image.png](https://pic.leetcode-cn.com/2cd8d0a7e81c04f097af2018f7172725b7c9065888f40f1ae6ff26f5a3272185-image.png)
+// ```
 class MyHashSet {
     private $hash=[];
     /**
@@ -43,4 +43,4 @@ class MyHashSet {
  * $obj->remove($key);
  * $ret_3 = $obj->contains($key);
  */
-```
+// ```

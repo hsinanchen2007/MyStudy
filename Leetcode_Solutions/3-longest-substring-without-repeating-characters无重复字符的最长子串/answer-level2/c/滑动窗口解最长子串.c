@@ -1,12 +1,12 @@
-### 解题思路
-利用滑动窗口，p是窗口起点，q是窗口终点，
-if *q!=窗口中的元素，则将*q加入到窗口中，
-q不断向前移动。
-if *q==窗口元素，则将窗口缩短。
+// ### 解题思路
+// 利用滑动窗口，p是窗口起点，q是窗口终点，
+// if *q!=窗口中的元素，则将*q加入到窗口中，
+// q不断向前移动。
+// if *q==窗口元素，则将窗口缩短。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int lengthOfLongestSubstring(char * s){
     char *p;
     char *q;
@@ -33,4 +33,4 @@ int lengthOfLongestSubstring(char * s){
     }
     return (max_length+1);
 }
-```
+// ```

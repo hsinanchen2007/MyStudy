@@ -1,10 +1,10 @@
-### 解题思路
-定义一个整数i用来判断能不能两两交换；
-三个移动指针，一个新头指针。
+// ### 解题思路
+// 定义一个整数i用来判断能不能两两交换；
+// 三个移动指针，一个新头指针。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -45,4 +45,4 @@ struct ListNode* swapPairs(struct ListNode* head){
     }
     return first;
 }
-```
+// ```

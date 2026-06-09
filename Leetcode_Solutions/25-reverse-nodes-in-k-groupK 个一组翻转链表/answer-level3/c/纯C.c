@@ -1,8 +1,8 @@
-### 解题思路
-纯C 单链表题就得玩弄指针
-### 代码
+// ### 解题思路
+// 纯C 单链表题就得玩弄指针
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -47,4 +47,4 @@ struct ListNode* reverseKGroup(struct ListNode* head, int k){
 
     return dummy.next;
 }
-```
+// ```

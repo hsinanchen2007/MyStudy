@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * @param {number} capacity
  */
@@ -50,4 +50,4 @@ LRUCache.prototype.put = function(key, value) {
  * obj.put(key,value)
  */
 
-```
+// ```

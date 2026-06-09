@@ -1,4 +1,4 @@
-```java []
+# ```java []
 class CQueue {
     Stack<Integer> stack1;
     Stack<Integer> stack2;
@@ -31,8 +31,8 @@ class CQueue {
  * obj.appendTail(value);
  * int param_2 = obj.deleteHead();
  */
-```
-```python []
+# ```
+# ```python []
 class CQueue:
 
     def __init__(self):
@@ -56,4 +56,4 @@ class CQueue:
 # obj = CQueue()
 # obj.appendTail(value)
 # param_2 = obj.deleteHead()
-```
+# ```

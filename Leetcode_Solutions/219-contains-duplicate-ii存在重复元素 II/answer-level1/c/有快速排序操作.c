@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 
 int comp(const void *a,const void *b){
     return *(long*)a-*(long*)b;
@@ -22,4 +22,4 @@ for(i=0;i<numsSize-1;i++){
 }
 return false;
 }
-```
+// ```

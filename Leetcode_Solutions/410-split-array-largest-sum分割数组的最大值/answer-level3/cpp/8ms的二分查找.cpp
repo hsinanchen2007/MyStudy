@@ -1,9 +1,9 @@
-### 解题思路
-在check函数中，需要一些双指针的思想。
+// ### 解题思路
+// 在check函数中，需要一些双指针的思想。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 typedef long long LL;
@@ -40,4 +40,4 @@ int check(int n,vector<int>&nums)
     else{ return R;};
     }
 };
-```
+// ```

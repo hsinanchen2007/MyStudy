@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def trap(self, height):
         """
@@ -33,6 +33,6 @@ class Solution(object):
             result += sub_result
 
         return result
-```
+# ```
 
-还是有点别扭
+# 还是有点别扭

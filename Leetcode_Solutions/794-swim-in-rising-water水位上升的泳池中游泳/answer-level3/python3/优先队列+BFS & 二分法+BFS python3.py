@@ -1,7 +1,7 @@
-参考花花酱 C++改写成python3 https://zxi.mytechroad.com/blog/?s=778
+# 参考花花酱 C++改写成python3 https://zxi.mytechroad.com/blog/?s=778
 
-方法1：优先队列+BFS
-```python
+# 方法1：优先队列+BFS
+# ```python
 import heapq
 class Solution:
     def swimInWater(self, grid: List[List[int]]) -> int:
@@ -29,9 +29,9 @@ class Solution:
                 seen[ty*n+tx] = 1
                 heapq.heappush(q,(max(t,grid[ty][tx]),ty*n+tx))
         return -1
-```
-方法2：二分搜索+BFS
-```python
+# ```
+# 方法2：二分搜索+BFS
+# ```python
 class Solution:
     def swimInWater(self, grid: List[List[int]]) -> int:
         n = len(grid)
@@ -69,4 +69,4 @@ class Solution:
             else:
                 l = m + 1
         return l
-```
+# ```

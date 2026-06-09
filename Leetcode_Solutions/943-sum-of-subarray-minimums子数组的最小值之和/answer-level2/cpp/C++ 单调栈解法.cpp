@@ -1,7 +1,7 @@
-# 思路：
-1，利用单调栈记录截止到当前下标之前的所有下边界
-2，利用`sums[i]`记录所有以`i`为终点的区间最小值之和
-```C++ []
+// # 思路：
+// 1，利用单调栈记录截止到当前下标之前的所有下边界
+// 2，利用`sums[i]`记录所有以`i`为终点的区间最小值之和
+// ```C++ []
 class Solution {
 public:
     const long M = 1e9 + 7;
@@ -29,6 +29,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/5226c32ae203a7f595d96329d51a7e1601a1354c50e3258281250c4011b3b57f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5226c32ae203a7f595d96329d51a7e1601a1354c50e3258281250c4011b3b57f-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-利用Hash表快速搜索
+// ### 解题思路
+// 利用Hash表快速搜索
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct tagHASH_ELEMENT_S {
     int nVal;
     int nIndex;
@@ -128,4 +128,4 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     freeHashMap(hashMap);
     return NULL;
 }
-```
+// ```

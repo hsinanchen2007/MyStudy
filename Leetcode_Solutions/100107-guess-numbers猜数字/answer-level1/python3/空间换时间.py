@@ -1,9 +1,9 @@
-### 解题思路
-只需要找到有几个元素相同，可以作差，只要找到差里面有几个零就可以了。
+# ### 解题思路
+# 只需要找到有几个元素相同，可以作差，只要找到差里面有几个零就可以了。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def game(self, guess, answer):
         """
@@ -27,4 +27,4 @@ class Solution(object):
             return 2
         else:
             return 1
-```
+# ```

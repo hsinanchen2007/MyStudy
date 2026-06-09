@@ -1,9 +1,9 @@
-### 解题思路
-动态规划，小心数组越界。
+// ### 解题思路
+// 动态规划，小心数组越界。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxProfit(vector<int>& prices) 
@@ -26,4 +26,4 @@ public:
     }
 };    
 
-```
+// ```

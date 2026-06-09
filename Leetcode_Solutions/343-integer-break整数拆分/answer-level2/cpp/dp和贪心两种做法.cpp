@@ -1,5 +1,5 @@
-- dp 时间复杂度$O(n^2)$
-```c++
+// - dp 时间复杂度$O(n^2)$
+// ```c++
 class Solution {
 public:
     int integerBreak(int n) {
@@ -14,9 +14,9 @@ public:
         return dp[n];
     }
 };
-```
-- 贪心 时间复杂度O(lg n)
-```c++
+// ```
+// - 贪心 时间复杂度O(lg n)
+// ```c++
 class Solution {
 public:
     int integerBreak(int n) {
@@ -35,4 +35,4 @@ public:
         else return res * 6 % mod;
     }
 };
-```
+// ```

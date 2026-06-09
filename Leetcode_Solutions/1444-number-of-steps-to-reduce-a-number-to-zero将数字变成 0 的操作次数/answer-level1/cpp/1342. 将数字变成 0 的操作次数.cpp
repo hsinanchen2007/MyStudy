@@ -1,9 +1,9 @@
-### 解题思路
-时空双100%
+// ### 解题思路
+// 时空双100%
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOfSteps (int num) {
@@ -15,4 +15,4 @@ public:
         return i;
     }
 };
-```
+// ```

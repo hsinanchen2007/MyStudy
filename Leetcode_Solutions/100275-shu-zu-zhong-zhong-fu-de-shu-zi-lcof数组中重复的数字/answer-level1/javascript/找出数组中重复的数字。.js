@@ -1,9 +1,9 @@
-### 解题思路
-  利用数组的key唯一性，将原始数组的value当做新数组的key，挑选出重复的数字。感觉此题要求的输出有点问题吧，重复的数字可能会有很多个[滑稽]
+// ### 解题思路
+//   利用数组的key唯一性，将原始数组的value当做新数组的key，挑选出重复的数字。感觉此题要求的输出有点问题吧，重复的数字可能会有很多个[滑稽]
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
@@ -19,4 +19,4 @@ var findRepeatNumber = function(nums) {
   }
   return repeatNum[0] | null
 };
-```
+// ```

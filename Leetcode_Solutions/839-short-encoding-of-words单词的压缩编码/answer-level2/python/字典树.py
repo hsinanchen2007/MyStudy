@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         words = sorted(words, key=lambda i: len(i), reverse=True)
@@ -13,9 +13,9 @@ class Solution:
                 continue
             s += i+'#'
         return len(s)
-```
-字典树：
-```C++
+# ```
+# 字典树：
+# ```C++
 struct Node{
     Node* children[26];
     int isLeaf;
@@ -62,4 +62,4 @@ public:
         return Count(root, 0);
     }
 };
-```
+# ```

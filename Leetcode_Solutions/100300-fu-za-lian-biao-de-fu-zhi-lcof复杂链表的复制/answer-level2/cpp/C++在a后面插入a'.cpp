@@ -1,10 +1,10 @@
-### 解题思路
-注意一下是a!=nullptr不是a->next!=nullptr
-以及拆分时的写法！！！！！！！
+// ### 解题思路
+// 注意一下是a!=nullptr不是a->next!=nullptr
+// 以及拆分时的写法！！！！！！！
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /*
 // Definition for a Node.
 class Node {
@@ -65,4 +65,4 @@ public:
         return phead;
     }
 };
-```
+// ```

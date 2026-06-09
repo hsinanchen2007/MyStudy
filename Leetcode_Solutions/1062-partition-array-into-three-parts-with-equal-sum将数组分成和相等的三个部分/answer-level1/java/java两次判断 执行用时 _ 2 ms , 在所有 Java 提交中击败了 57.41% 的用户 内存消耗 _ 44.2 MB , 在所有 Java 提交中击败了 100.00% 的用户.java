@@ -1,9 +1,9 @@
-### 解题思路
-先计算数组之和，第一次遍历，找出第一部分，第一次判断i的值不能超过A.length-2，然后第二次遍历，找出第二部分，再判断i的值不能超过A.length-1
+// ### 解题思路
+// 先计算数组之和，第一次遍历，找出第一部分，第一次判断i的值不能超过A.length-2，然后第二次遍历，找出第二部分，再判断i的值不能超过A.length-1
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canThreePartsEqualSum(int[] A) {
         int sum = 0,i = 0,curSum = 0;
@@ -31,4 +31,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

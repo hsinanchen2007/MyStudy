@@ -1,5 +1,5 @@
-将等价字符并入一个集合
-```
+// 将等价字符并入一个集合
+// ```
 class Solution {
         int[] alphabet = new int[26];
         public String smallestEquivalentString(String A, String B, String S) {
@@ -38,4 +38,4 @@ class Solution {
             alphabet[aa] = small;
         }
     }
-```
+// ```

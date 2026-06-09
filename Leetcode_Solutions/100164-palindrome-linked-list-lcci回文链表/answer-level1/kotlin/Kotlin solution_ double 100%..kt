@@ -1,7 +1,7 @@
-执行用时 : 284 ms, 在所有 Kotlin 提交中击败了100.00%的用户
-内存消耗 : 43.8 MB, 在所有 Kotlin 提交中击败了100.00%的用户
+// 执行用时 : 284 ms, 在所有 Kotlin 提交中击败了100.00%的用户
+// 内存消耗 : 43.8 MB, 在所有 Kotlin 提交中击败了100.00%的用户
 
-```
+// ```
     fun isPalindrome(head: ListNode?): Boolean {
         if (head?.next == null) {
             return true
@@ -32,4 +32,4 @@
         }
         return true
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 
 bool buddyStrings(char * A, char * B){
 int len1=strlen(A),len2=strlen(B);
@@ -30,4 +30,4 @@ int len1=strlen(A),len2=strlen(B);
         return 1;}
       return 0;
 }
-```
+// ```

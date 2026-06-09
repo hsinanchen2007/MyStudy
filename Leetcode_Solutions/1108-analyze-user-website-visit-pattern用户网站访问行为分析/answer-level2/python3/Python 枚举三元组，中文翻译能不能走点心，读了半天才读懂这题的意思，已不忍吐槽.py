@@ -1,6 +1,6 @@
 
 
-```
+# ```
 '''
 枚举可能出现的三元组，求取三元组最多同时在多少个用户的访问序列中出现
 '''
@@ -63,4 +63,4 @@ class Solution:
                             ans = min(ans, (web_list[ii][1], web_list[jj][1], web_list[kk][1]))
 
         return ans
-```
+# ```

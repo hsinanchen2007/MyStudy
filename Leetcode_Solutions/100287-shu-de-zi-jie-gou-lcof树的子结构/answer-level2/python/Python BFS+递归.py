@@ -1,5 +1,5 @@
-前半部分先BFS逐层找到我们要的比较起点，之后再去递归比较，要注意递归为子集的多个判定条件
-```
+# 前半部分先BFS逐层找到我们要的比较起点，之后再去递归比较，要注意递归为子集的多个判定条件
+# ```
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -50,4 +50,4 @@ class Solution:
         else:
             return self.compare(A.left, B.left) and self.compare(A.right, B.right) 
         
-```
+# ```

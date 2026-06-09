@@ -1,6 +1,6 @@
-![image.png](https://pic.leetcode-cn.com/9b00ac0f37293993074f9475964a0e7fb3faa9872ce171e90403c8763a3e3a8e-image.png)
-解题思路：哈希表存储数组一中每个值在数组二中的坐标，再往后遍历。
-```
+// ![image.png](https://pic.leetcode-cn.com/9b00ac0f37293993074f9475964a0e7fb3faa9872ce171e90403c8763a3e3a8e-image.png)
+// 解题思路：哈希表存储数组一中每个值在数组二中的坐标，再往后遍历。
+// ```
     vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
         unordered_map<int, int> hashmap;
         vector<int> res;
@@ -23,5 +23,5 @@
         }
         return res;
     }
-```
+// ```
 

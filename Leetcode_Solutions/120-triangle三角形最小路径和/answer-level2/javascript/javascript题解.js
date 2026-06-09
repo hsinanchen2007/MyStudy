@@ -1,10 +1,10 @@
-[120.三角形最小路径和](https://leetcode-cn.com/problems/triangle/)
+// [120.三角形最小路径和](https://leetcode-cn.com/problems/triangle/)
 
-[力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
+// [力扣 JS 题解。](https://github.com/GuYueJiaJie/blog/blob/master/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/README.md) 
 
-## 自底向上DP
+// ## 自底向上DP
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} triangle
  * @return {number}
@@ -22,11 +22,11 @@ var minimumTotal = function(triangle) {
     }
     return dp[0][0]
 };
-```
+// ```
 
-## 优化空间复杂度-降维
+// ## 优化空间复杂度-降维
 
-```javascript
+// ```javascript
 /**
  * @param {number[][]} triangle
  * @return {number}
@@ -41,4 +41,4 @@ var minimumTotal = function(triangle) {
     }
     return dp[0]
 };
-```
+// ```

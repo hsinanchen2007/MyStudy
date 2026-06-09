@@ -1,9 +1,9 @@
-### 解题思路
-分段二分求解
+# ### 解题思路
+# 分段二分求解
 
-### 代码
+# ### 代码
 
-```java []
+# ```java []
 class Solution {
     public int findInMountainArray(int target, MountainArray mountainArr) {
         int N = mountainArr.length();
@@ -77,8 +77,8 @@ class Solution {
         return -1;
     }
 }
-```
-```python []
+# ```
+# ```python []
 class Solution:
     def findInMountainArray(self, target: int, mountain_arr: 'MountainArray') -> int:
         N = mountain_arr.length()
@@ -141,8 +141,8 @@ class Solution:
                 end = mid
         
         return -1
-```
-```c++ []
+# ```
+# ```c++ []
 /**
  * // This is the MountainArray's API interface.
  * // You should not implement it, or speculate about its implementation
@@ -223,4 +223,4 @@ public:
         return -1;
     }
 };
-```
+# ```

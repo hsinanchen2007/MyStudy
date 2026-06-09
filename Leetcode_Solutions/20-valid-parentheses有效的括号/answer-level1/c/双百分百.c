@@ -1,5 +1,5 @@
-参考了官方和各位大佬的题解，效率和内存占用方面的表现还是很不错的。
-```
+// 参考了官方和各位大佬的题解，效率和内存占用方面的表现还是很不错的。
+// ```
 bool isValid(char * s){
     int len=strlen(s);
     if(len==1){
@@ -27,5 +27,5 @@ bool isValid(char * s){
         return false;
     }     
 }
-```
-![image.png](https://pic.leetcode-cn.com/ff9d63b5a45f6be1e7ca247c93c379bbe2a291ae5455db11f2e8fc4d402f083c-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/ff9d63b5a45f6be1e7ca247c93c379bbe2a291ae5455db11f2e8fc4d402f083c-image.png)

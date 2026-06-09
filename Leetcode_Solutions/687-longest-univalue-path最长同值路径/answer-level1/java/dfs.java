@@ -1,8 +1,8 @@
-### 解题思路
-    travel方法的返回值表示该节点的左（或右子树）连续相同值的个数
-### 代码
+// ### 解题思路
+//     travel方法的返回值表示该节点的左（或右子树）连续相同值的个数
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -57,4 +57,4 @@ class Solution {
         return Math.max(l, r) + 1;
     }
 }
-```
+// ```

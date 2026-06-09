@@ -1,8 +1,8 @@
-### 解题思路
-由于不知道逻辑执行次数，所以用while循环做
-### 代码
+// ### 解题思路
+// 由于不知道逻辑执行次数，所以用while循环做
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int numberOfSteps (int num) {
@@ -16,4 +16,4 @@ public:
         return times;
     }
 };
-```
+// ```

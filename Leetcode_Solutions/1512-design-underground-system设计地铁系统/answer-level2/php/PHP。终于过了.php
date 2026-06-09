@@ -1,10 +1,10 @@
-### 解题思路
-进站：存进站信息
-出站：存地铁路线行程信息
+// ### 解题思路
+// 进站：存进站信息
+// 出站：存地铁路线行程信息
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class UndergroundSystem {
     /**
      */
@@ -56,4 +56,4 @@ class UndergroundSystem {
  * $obj->checkOut($id, $stationName, $t);
  * $ret_3 = $obj->getAverageTime($startStation, $endStation);
  */
-```
+// ```

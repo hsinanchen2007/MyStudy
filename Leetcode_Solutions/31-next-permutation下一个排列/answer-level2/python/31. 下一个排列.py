@@ -1,10 +1,10 @@
-### 解题思路
-从后往前寻找nums[i - 1] < nums[i], i - 1位置即为要替换的位置
-将从i到len(nums) - 1位置中大于nums[i - 1]的最小元素与nums[i - 1]交换
-然后将从i到len(nums) - 1位置的元素排序
-### 代码
+# ### 解题思路
+# 从后往前寻找nums[i - 1] < nums[i], i - 1位置即为要替换的位置
+# 将从i到len(nums) - 1位置中大于nums[i - 1]的最小元素与nums[i - 1]交换
+# 然后将从i到len(nums) - 1位置的元素排序
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def nextPermutation(self, nums):
         """
@@ -34,4 +34,4 @@ class Solution(object):
             nums.sort()
 
             return nums
-```
+# ```

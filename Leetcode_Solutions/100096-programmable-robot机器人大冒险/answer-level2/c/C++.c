@@ -1,4 +1,4 @@
-```C++ []
+// ```C++ []
 typedef pair<int,int> pii;
 
 class Solution {
@@ -39,8 +39,8 @@ public:
         return false;
     }    
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def robot(self, command: str, obstacles: List[List[int]], x: int, y: int) -> bool:  
         steps = set()
@@ -69,4 +69,4 @@ class Solution:
             return True
         else:
             return False
-```
+// ```

@@ -1,13 +1,13 @@
-### 解题思路
-找规律
-a[0][1]    --->  a[1][0]
-a[1][0]    --->  a[2][1]
-a[2][1]    --->  a[1][2]
-a[1][2]    --->  a[0][1]
+// ### 解题思路
+// 找规律
+// a[0][1]    --->  a[1][0]
+// a[1][0]    --->  a[2][1]
+// a[2][1]    --->  a[1][2]
+// a[1][2]    --->  a[0][1]
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void rotate(int** matrix, int matrixSize, int* matrixColSize){
     int i, j;
     int temp;
@@ -28,4 +28,4 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize){
     return matrix;
 
 }
-```
+// ```

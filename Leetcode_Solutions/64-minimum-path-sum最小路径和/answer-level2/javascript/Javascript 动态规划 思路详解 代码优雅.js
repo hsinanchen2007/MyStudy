@@ -1,9 +1,9 @@
-本题考察知识点：
-  - 典型的动态规划类问题
-  - 考察逻辑思维能力，能够通过题目意思推导出状态转移方程
-  - 动态规划实际的编码功底
+// 本题考察知识点：
+//   - 典型的动态规划类问题
+//   - 考察逻辑思维能力，能够通过题目意思推导出状态转移方程
+//   - 动态规划实际的编码功底
 
-```javascript
+// ```javascript
 /**
  * 64. Minimum Path Sum
  * https://leetcode.com/problems/minimum-path-sum/
@@ -35,6 +35,6 @@ const minPathSum = (grid) => {
   }
   return grid[rowLength-1][colLength-1]
 }
-```
+// ```
 
-[更多 JS-Leetcode 题解请关注](https://github.com/dwgeneral/JS-Leetcode)
+// [更多 JS-Leetcode 题解请关注](https://github.com/dwgeneral/JS-Leetcode)

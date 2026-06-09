@@ -1,9 +1,9 @@
-### 解题思路
-对树进行DFS搜索，深入搜索的条件是相等
-设置flag，及时终止代码
-### 代码
+// ### 解题思路
+// 对树进行DFS搜索，深入搜索的条件是相等
+// 设置flag，及时终止代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -61,4 +61,4 @@ public:
         return flag;
     }
 };
-```
+// ```

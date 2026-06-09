@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-（1）首先计算待返回数组的大小numsSize - k + 1，并申请数组；
-（2）依次移动数组，并计算每个小数组中的最大值并赋值给新申请的数组中
+// ### 解题思路
+// 此处撰写解题思路
+// （1）首先计算待返回数组的大小numsSize - k + 1，并申请数组；
+// （2）依次移动数组，并计算每个小数组中的最大值并赋值给新申请的数组中
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -41,4 +41,4 @@ int* maxSlidingWindow(int* nums, int numsSize, int k, int* returnSize){
 
     return arr;
 }
-```
+// ```

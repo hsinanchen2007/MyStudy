@@ -1,10 +1,10 @@
-### 解题思路
+// ### 解题思路
 
-使用哈希表，遍历数组把出现过的数存在哈希表中。再遍历哈希表，把没有存在哈希表中的数存进数组即可。
+// 使用哈希表，遍历数组把出现过的数存在哈希表中。再遍历哈希表，把没有存在哈希表中的数存进数组即可。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func findDisappearedNumbers(nums []int) []int {
 	hash := map[int]int{}
 	res := []int{}
@@ -18,4 +18,4 @@ func findDisappearedNumbers(nums []int) []int {
 	}
 	return res
 }
-```
+// ```

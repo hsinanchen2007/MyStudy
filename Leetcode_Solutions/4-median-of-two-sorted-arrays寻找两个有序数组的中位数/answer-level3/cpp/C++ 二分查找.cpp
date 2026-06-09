@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -38,5 +38,5 @@ public:
         return (l + r) * 1.0 / 2;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d0d2b56764e447dbc37cf580283fd495e63fc4a36f3d978fece1f7dfbeb42777-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d0d2b56764e447dbc37cf580283fd495e63fc4a36f3d978fece1f7dfbeb42777-image.png)

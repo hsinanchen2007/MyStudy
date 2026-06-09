@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/947600bc938829b5ec06dddaa126a2ca44aac6b9d24227b5b7af1507874ca10f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/947600bc938829b5ec06dddaa126a2ca44aac6b9d24227b5b7af1507874ca10f-image.png)
 
-1. 方法一
-```
+// 1. 方法一
+// ```
 /**
  * @param {string[]} queries
  * @param {string[]} words
@@ -34,10 +34,10 @@ var numSmallerByFrequency = function(queries, words) {
     }
     return result
 };
-```
+// ```
 
-2. 方法二
-```
+// 2. 方法二
+// ```
 /**
  * @param {string[]} queries
  * @param {string[]} words
@@ -76,5 +76,5 @@ var numSmallerByFrequency = function(queries, words) {
     }
     return list
 };
-```
+// ```
 

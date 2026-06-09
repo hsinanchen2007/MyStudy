@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int findMaxConsecutiveOnes(int* nums, int numsSize){
     int max = 0;
     int cnt = 0;
@@ -26,4 +26,4 @@ int findMaxConsecutiveOnes(int* nums, int numsSize){
 
     return max;
 }
-```
+// ```

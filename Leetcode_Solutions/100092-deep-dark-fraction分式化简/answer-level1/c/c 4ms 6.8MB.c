@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：
@@ -36,4 +36,4 @@ int * fraction( int * cont , int contSize , int * returnSize ){
     return buffer;
 
 }
-```
+// ```

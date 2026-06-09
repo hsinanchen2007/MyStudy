@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-num用于计数，从头到尾依次对比得出答案
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// num用于计数，从头到尾依次对比得出答案
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int game(int[] guess, int[] answer) {
         int num=0;
@@ -13,4 +13,4 @@ class Solution {
         return num;
     }
 }
-```
+// ```

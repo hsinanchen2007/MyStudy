@@ -1,5 +1,5 @@
-# 代码
-```java
+// # 代码
+// ```java
 class Solution {
     public ListNode[] listOfDepth(TreeNode tree) {
         if (tree == null) return new ListNode[0];
@@ -24,4 +24,4 @@ class Solution {
         }
     }
 }
-```
+// ```

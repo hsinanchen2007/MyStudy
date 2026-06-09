@@ -1,9 +1,9 @@
-### 解题思路
-用循环生怼的话会出现index不归零的问题，for也同理，所以就想到用while循环自主控制index，56ms干掉96.66%
+// ### 解题思路
+// 用循环生怼的话会出现index不归零的问题，for也同理，所以就想到用while循环自主控制index，56ms干掉96.66%
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -22,4 +22,4 @@ var removeElement = function (nums, val) {
 
     return nums.length
 };
-```
+// ```

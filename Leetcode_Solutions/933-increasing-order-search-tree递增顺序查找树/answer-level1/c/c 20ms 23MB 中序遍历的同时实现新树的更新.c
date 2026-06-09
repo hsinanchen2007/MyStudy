@@ -1,4 +1,4 @@
-```
+// ```
 /**
 *
 *整体思路：时间复杂度O(N),空间复杂度O(N)
@@ -74,4 +74,4 @@ struct TreeNode * increasingBST( struct TreeNode * root ){
     return t;
 
 }
-```
+// ```

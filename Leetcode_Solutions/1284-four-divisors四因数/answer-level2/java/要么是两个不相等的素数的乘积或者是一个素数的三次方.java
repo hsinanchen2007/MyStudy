@@ -1,7 +1,7 @@
-要么是两个不相等的素数的乘积或者是一个素数的三次方
-先筛选一遍素数
+// 要么是两个不相等的素数的乘积或者是一个素数的三次方
+// 先筛选一遍素数
 
-```
+// ```
 public int sumFourDivisors(int[] nums) {
         int res = 0;
         boolean[] primes = new boolean[250000];
@@ -54,4 +54,4 @@ public int sumFourDivisors(int[] nums) {
         
         return res;
     }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     long pre = LONG_MIN;
@@ -22,4 +22,4 @@ public:
         return true;
     }
 };
-```
+// ```

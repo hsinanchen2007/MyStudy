@@ -1,9 +1,9 @@
-### 解题思路
-为了将第一个节点的处理一般化，设置一个头节点，然后两两交换即可，要注意循环结束的条件。
+// ### 解题思路
+// 为了将第一个节点的处理一般化，设置一个头节点，然后两两交换即可，要注意循环结束的条件。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -45,4 +45,4 @@ struct ListNode* swapPairs(struct ListNode* head){
 
 
 }
-```
+// ```

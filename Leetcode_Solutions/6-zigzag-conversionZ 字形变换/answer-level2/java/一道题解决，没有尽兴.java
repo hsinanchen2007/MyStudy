@@ -1,9 +1,9 @@
-### 解题思路
-思路比较简单，StringBuilder
+// ### 解题思路
+// 思路比较简单，StringBuilder
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String convert(String s, int numRows) {
         if(null==s || s.length()<=1 || numRows==1)
@@ -34,5 +34,5 @@ class Solution {
 		return res.toString();
     }
 }
-```
-![image.png](https://pic.leetcode-cn.com/692a1b5c99e663f2fffd54e9075af34b3105a27d50ef8d2269e28378019d2cdf-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/692a1b5c99e663f2fffd54e9075af34b3105a27d50ef8d2269e28378019d2cdf-image.png)

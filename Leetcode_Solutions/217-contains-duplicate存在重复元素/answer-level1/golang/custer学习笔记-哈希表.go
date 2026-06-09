@@ -1,4 +1,4 @@
-```go
+// ```go
 func containsDuplicate(nums []int) bool {
    record := make(map[int]int) // hash 表记录出现过的元素
    for i := 0; i < len(nums); i++ {
@@ -10,4 +10,4 @@ func containsDuplicate(nums []int) bool {
    return false
 }
 
-```
+// ```

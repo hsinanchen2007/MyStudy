@@ -1,5 +1,5 @@
-# 递归
-```
+// # 递归
+// ```
 bool isSameTree(struct TreeNode* p, struct TreeNode* q){
     if(!p && !q)
         return 1;
@@ -12,9 +12,9 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q){
     else
         return 0;
 }
-```
-# 非递归（层次遍历）
-```
+// ```
+// # 非递归（层次遍历）
+// ```
 #define QUEUESIZE 100 
 
 /*判断两个节点值是否相同，这里不包括都为空的情况*/
@@ -60,5 +60,5 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q)
     }
     return 1;
 }
-```
+// ```
 

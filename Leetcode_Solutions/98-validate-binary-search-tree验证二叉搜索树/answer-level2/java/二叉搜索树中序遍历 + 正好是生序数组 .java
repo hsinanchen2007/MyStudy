@@ -1,9 +1,9 @@
-### 解题思路
-利用中序遍历的特点
+// ### 解题思路
+// 利用中序遍历的特点
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -40,4 +40,4 @@ class Solution {
     }
     
 }
-```
+// ```

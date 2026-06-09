@@ -1,9 +1,9 @@
-### 解题思路
-双指针, j指针字母和i指针字母不同的时候就记录下来, 并且更新i指针到当前j指针位置.
+# ### 解题思路
+# 双指针, j指针字母和i指针字母不同的时候就记录下来, 并且更新i指针到当前j指针位置.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def compressString(self, S: str) -> str:
         if len(S) <= 0:
@@ -20,4 +20,4 @@ class Solution:
             return S
         else:
             return res
-```
+# ```

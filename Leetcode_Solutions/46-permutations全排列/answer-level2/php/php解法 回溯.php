@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 
     /**
@@ -29,9 +29,9 @@ class Solution {
         $arr[$j] = $temp;
     }
 }
-```
-另一种解法，通过栈来解
-```
+// ```
+// 另一种解法，通过栈来解
+// ```
 class Solution {
 
     /**
@@ -59,5 +59,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

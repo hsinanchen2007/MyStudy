@@ -1,5 +1,5 @@
-借助数组的reverse()方法
-```js
+// 借助数组的reverse()方法
+// ```js
 /**
  * @param {number} n - a positive integer
  * @return {number} - a positive integer
@@ -10,4 +10,4 @@ var reverseBits = function(n) {
 };
 var n = 00000010100101000001111010011100;
 console.log(reverseBits(n))
-```
+// ```

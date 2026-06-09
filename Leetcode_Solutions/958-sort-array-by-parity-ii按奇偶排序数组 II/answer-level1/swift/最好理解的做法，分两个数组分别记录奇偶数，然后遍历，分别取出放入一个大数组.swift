@@ -1,5 +1,5 @@
-这应该是最好理解的解法了，至于效率是不太高
-```
+// 这应该是最好理解的解法了，至于效率是不太高
+// ```
 func sortArrayByParityII(_ A: [Int]) -> [Int] {
         var odds = Array<Int>()
         var evens = Array<Int>()
@@ -15,4 +15,4 @@ func sortArrayByParityII(_ A: [Int]) -> [Int] {
         }
         return result
     }
-```
+// ```

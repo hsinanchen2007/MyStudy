@@ -1,5 +1,5 @@
-算出每一行缝的位置，然后存入hash表中，最后统计出缝的数字计数最大的值，wall.size()-这个值，就能得到穿过砖的最小数字
-```
+// 算出每一行缝的位置，然后存入hash表中，最后统计出缝的数字计数最大的值，wall.size()-这个值，就能得到穿过砖的最小数字
+// ```
 class Solution {
 public:
     int leastBricks(vector<vector<int>>& wall) {
@@ -23,4 +23,4 @@ public:
         return wall.size()-val;
     }
 };
-```
+// ```

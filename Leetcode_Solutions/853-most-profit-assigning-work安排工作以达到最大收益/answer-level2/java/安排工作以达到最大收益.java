@@ -1,17 +1,17 @@
 
-#### 方法：排序
+// #### 方法：排序
 
-**想法**
+// **想法**
 
-我们可以以任意顺序考虑工人，所以我们按照能力大小排序。
+// 我们可以以任意顺序考虑工人，所以我们按照能力大小排序。
 
-如果我们先访问低难度的工作，那么收益一定是截至目前最好的。
+// 如果我们先访问低难度的工作，那么收益一定是截至目前最好的。
 
-**算法**
+// **算法**
 
-我们使用 “双指针” 的方法去安排任务。我们记录最大可用利润 `best`。对于每个能力值为 `skill` 的工人，找到难度小于等于能力值的任务，并将如结果中。
+// 我们使用 “双指针” 的方法去安排任务。我们记录最大可用利润 `best`。对于每个能力值为 `skill` 的工人，找到难度小于等于能力值的任务，并将如结果中。
 
-```Java []
+// ```Java []
 import java.awt.Point;
 
 class Solution {
@@ -33,9 +33,9 @@ class Solution {
         return ans;
     }
 }
-```
+// ```
 
-```Python []
+// ```Python []
 class Solution(object):
     def maxProfitAssignment(self, difficulty, profit, worker):
         jobs = zip(difficulty, profit)
@@ -48,9 +48,9 @@ class Solution(object):
             ans += best
         return ans
 
-```
+// ```
 
-**复杂度分析**
+// **复杂度分析**
 
-* 时间复杂度：$O(N \log N + Q \log Q)$，其中 $N$ 是任务个数，$Q$ 是工人数量。
-* 空间复杂度：$O(N)$，`jobs` 的额外空间。
+// * 时间复杂度：$O(N \log N + Q \log Q)$，其中 $N$ 是任务个数，$Q$ 是工人数量。
+// * 空间复杂度：$O(N)$，`jobs` 的额外空间。

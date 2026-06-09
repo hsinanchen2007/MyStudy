@@ -1,5 +1,5 @@
-利用map A来存字符x对应字符串y，利用map B来存字符串y对应的字符是x。这是因为对于("ab"  "aa" false)这个例子，a映射成a之后b不能再映射成a了。剩下就是一个DFS搜索即可，辣鸡rust语言代码如下：
-```rust
+// 利用map A来存字符x对应字符串y，利用map B来存字符串y对应的字符是x。这是因为对于("ab"  "aa" false)这个例子，a映射成a之后b不能再映射成a了。剩下就是一个DFS搜索即可，辣鸡rust语言代码如下：
+// ```rust
 use std::collections::HashMap;
 
 impl Solution {
@@ -60,4 +60,4 @@ impl Solution {
         target == &st[..target.len()]
     }
 }
-```
+// ```

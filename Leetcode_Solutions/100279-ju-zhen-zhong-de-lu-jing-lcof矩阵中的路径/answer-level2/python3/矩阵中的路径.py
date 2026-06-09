@@ -1,10 +1,10 @@
-### 解题思路
+# ### 解题思路
 
-回溯法
+# 回溯法
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
         if not board and not word:
@@ -31,4 +31,4 @@ class Solution:
         return hasPath
 
 
-```
+# ```

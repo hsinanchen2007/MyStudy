@@ -1,6 +1,6 @@
-### 解题思路
-并查集的代码结构都是差不多的，写好union函数最重要，为避免时间复杂度可能变高，一般需要维护一个rank列表来做路径压缩。
-```
+# ### 解题思路
+# 并查集的代码结构都是差不多的，写好union函数最重要，为避免时间复杂度可能变高，一般需要维护一个rank列表来做路径压缩。
+# ```
 def find():
     code
 
@@ -9,11 +9,11 @@ def union():
 
 def union_find():
     code
-```
-可参考[冗余链接](https://leetcode-cn.com/problems/redundant-connection/solution/rong-yu-lian-jie-bing-cha-ji-python3-by-cumt_scx/),[除法求值](https://leetcode-cn.com/problems/evaluate-division/solution/chu-fa-qiu-zhi-bing-cha-ji-python3-by-cumt_scx/),[被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/solution/bei-wei-rao-de-qu-yu-bing-cha-ji-lu-jing-ya-suo-py/)
-### 代码
+# ```
+# 可参考[冗余链接](https://leetcode-cn.com/problems/redundant-connection/solution/rong-yu-lian-jie-bing-cha-ji-python3-by-cumt_scx/),[除法求值](https://leetcode-cn.com/problems/evaluate-division/solution/chu-fa-qiu-zhi-bing-cha-ji-python3-by-cumt_scx/),[被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/solution/bei-wei-rao-de-qu-yu-bing-cha-ji-lu-jing-ya-suo-py/)
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
         self.res = 0
@@ -57,4 +57,4 @@ class Solution:
             return self.res
 
         return union_find()
-```
+# ```

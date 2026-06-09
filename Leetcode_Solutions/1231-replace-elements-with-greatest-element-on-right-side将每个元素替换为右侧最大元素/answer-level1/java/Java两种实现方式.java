@@ -1,4 +1,4 @@
-**解法1：用大顶堆记录最大值，从左往右扫，在堆中删掉当前位置的元素，然后将堆顶元素替换数组当前位置元素**
+// **解法1：用大顶堆记录最大值，从左往右扫，在堆中删掉当前位置的元素，然后将堆顶元素替换数组当前位置元素**
 public int[] replaceElements(int[] arr) {
         Queue<Integer> queue = new PriorityQueue<>((o1, o2)->o2-o1);
         for(int num: arr){

@@ -1,5 +1,5 @@
-# 解法一
-```C++ []
+// # 解法一
+// ```C++ []
 class Solution {
 public:
     vector<int> decimals(long num, long den, int& loop_ind) {
@@ -69,13 +69,13 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/ae7229cf2de8984ce398832e8dd46aa4fb6cc15487897f265fdfcf3eea9e734b-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/ae7229cf2de8984ce398832e8dd46aa4fb6cc15487897f265fdfcf3eea9e734b-image.png)
 
 
-# 解法二：
-如下题解参考官方解答，更加简洁高效
-```C++ []
+// # 解法二：
+// 如下题解参考官方解答，更加简洁高效
+// ```C++ []
 class Solution {
 public:
     string fractionToDecimal(int numerator, int denominator) {
@@ -113,6 +113,6 @@ public:
         return res.substr(0, loop_ind) + "(" + res.substr(loop_ind) + ")";
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/f7824ffe93febee823429e9a853041bd3a2ca07dd899f4646a6cf9f38411d306-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/f7824ffe93febee823429e9a853041bd3a2ca07dd899f4646a6cf9f38411d306-image.png)
 

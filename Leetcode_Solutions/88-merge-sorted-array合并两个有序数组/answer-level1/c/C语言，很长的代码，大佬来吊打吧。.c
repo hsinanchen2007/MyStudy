@@ -1,15 +1,15 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/2b307291ff6061e1da08881e5f0d38370d9f8a87c7bc53221ce1034aac7e5d07-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/2b307291ff6061e1da08881e5f0d38370d9f8a87c7bc53221ce1034aac7e5d07-image.png)
 
-最简单的思路，先新建一个数组。
-使用两个指针，从头到尾遍历两个数组。
-当其中一个指针达到尾部后，将另外一个数组里的内容附在新建数组的后边。
-最后将数据复制到nums1中。
-over
+// 最简单的思路，先新建一个数组。
+// 使用两个指针，从头到尾遍历两个数组。
+// 当其中一个指针达到尾部后，将另外一个数组里的内容附在新建数组的后边。
+// 最后将数据复制到nums1中。
+// over
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     int *output = (int *)malloc(sizeof(int)*(nums1Size+1));
     memset(output, 0, sizeof(int)*(nums1Size+1));
@@ -71,4 +71,4 @@ void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){
     }
 
 }
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-1.如果串组为空，直接返回""，否则转2
-2.依次比较串的每列，如果通过最后一串则前缀长+1,否则终止算法
-3.由2得到窜的前缀长度，复制进新串
+// ### 解题思路
+// 1.如果串组为空，直接返回""，否则转2
+// 2.依次比较串的每列，如果通过最后一串则前缀长+1,否则终止算法
+// 3.由2得到窜的前缀长度，复制进新串
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char * longestCommonPrefix(char ** strs, int strsSize){
     int len = 1,i,j;
     if(strsSize==0)return "";
@@ -22,4 +22,4 @@ char * longestCommonPrefix(char ** strs, int strsSize){
     com_pre[i] = '\0';
     return com_pre;
 }
-```
+// ```

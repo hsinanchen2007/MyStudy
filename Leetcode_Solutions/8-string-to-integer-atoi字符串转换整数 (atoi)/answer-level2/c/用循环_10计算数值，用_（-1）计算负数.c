@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 bool Valid(const char ch)
 {
     if (ch != '+' && ch != '-' && !isdigit(ch)) {
@@ -42,4 +42,4 @@ int myAtoi(char * str){
     ret = ret < INT_MIN ? INT_MIN : ret;
     return (int)ret;
 }
-```
+// ```

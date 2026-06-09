@@ -1,10 +1,10 @@
-### 解题思路
-[https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/solution/you-xu-lian-biao-zhuan-huan-er-cha-sou-suo-shu-by-/](官方写法)改写js
-利用快慢指针找到中间值，即为根，先找到的根故前序遍历生成树，注意这里的关键点是找中间值的时候，要用一个额外的指针记录中间值前一个节点，目的是切断前后节点的关联
+// ### 解题思路
+// [https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/solution/you-xu-lian-biao-zhuan-huan-er-cha-sou-suo-shu-by-/](官方写法)改写js
+// 利用快慢指针找到中间值，即为根，先找到的根故前序遍历生成树，注意这里的关键点是找中间值的时候，要用一个额外的指针记录中间值前一个节点，目的是切断前后节点的关联
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -45,4 +45,4 @@ var sortedListToBST = function(head) {
     return root
     
 };
-```
+// ```

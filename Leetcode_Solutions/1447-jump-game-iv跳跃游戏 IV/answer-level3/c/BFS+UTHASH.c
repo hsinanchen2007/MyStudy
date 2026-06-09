@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 struct PosNode {
 	int pos;
 	struct PosNode *next;
@@ -195,4 +195,4 @@ int minJumps(int *arr, int arrSize) {
 	DeleteAll();//free hash list and the pos list node
 	return ret;
 }
-```
+// ```

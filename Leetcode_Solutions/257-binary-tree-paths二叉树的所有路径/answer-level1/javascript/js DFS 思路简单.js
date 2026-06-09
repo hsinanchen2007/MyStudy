@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/21e95dbfeec1f22fd64905068572c0900aa0d7c55caa9c9b255932d7757401d8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/21e95dbfeec1f22fd64905068572c0900aa0d7c55caa9c9b255932d7757401d8-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
 DFS
 注意的点：
 当前路径为空的时候，不需要加 '->' 这个连接符的串
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -45,4 +45,4 @@ var binaryTreePaths = function(root) {
 };
 
 
-```
+// ```

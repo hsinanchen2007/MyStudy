@@ -1,15 +1,15 @@
-### 解题思路
-考虑以下几种情况：
-清空x,y
-装满x,y
-x倒入y
-y倒入x
+# ### 解题思路
+# 考虑以下几种情况：
+# 清空x,y
+# 装满x,y
+# x倒入y
+# y倒入x
 
-开始使用的dfs，但是会超过python的最大递归深度，于是改成了bfs，用list模型队列
+# 开始使用的dfs，但是会超过python的最大递归深度，于是改成了bfs，用list模型队列
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canMeasureWater(self, x: int, y: int, z: int) -> bool:
         Set = set()
@@ -75,4 +75,4 @@ class Solution:
             return flag
         return False
             
-```
+# ```

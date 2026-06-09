@@ -1,8 +1,8 @@
-### 解题思路
-从左到右逐个字母之间比较，有错误的时候返回false，没有问题就继续比较下一个位置的字母
+# ### 解题思路
+# 从左到右逐个字母之间比较，有错误的时候返回false，没有问题就继续比较下一个位置的字母
 
-### 代码
-```python
+# ### 代码
+# ```python
 class Solution:
     def isAlienSorted(self, words: List[str], order: str) -> bool:
         m = 0
@@ -30,4 +30,4 @@ class Solution:
                 if not compare(i+1, r): return False
             return True
         return compare(0, words)
-```
+# ```

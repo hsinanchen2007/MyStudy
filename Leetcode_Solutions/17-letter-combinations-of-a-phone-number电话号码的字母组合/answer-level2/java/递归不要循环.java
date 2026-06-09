@@ -1,4 +1,4 @@
-```java
+// ```java
 class Solution {
     List<String> list = new ArrayList<String>();
 
@@ -62,22 +62,22 @@ class Solution {
 	}
 }
 
-```
+// ```
 
-先说一下有关java基础的问题
+// 先说一下有关java基础的问题
 
-静态方法只能调用静态方法，静态变量，不然你创建了别人还没创建。
+// 静态方法只能调用静态方法，静态变量，不然你创建了别人还没创建。
 
-#而我在本地做的时候将cf所有方法都设置成了静态，关键是将list也设置成了静态，除了第一个测试案例之后的所有案例都有第一个案例的结果，因为list是静态的
+// #而我在本地做的时候将cf所有方法都设置成了静态，关键是将list也设置成了静态，除了第一个测试案例之后的所有案例都有第一个案例的结果，因为list是静态的
 
-正文：
+// 正文：
 
-创建一个方法`pin`用来拼接字符串，在`letterCombinations`方法中只做非空判断和初始化
+// 创建一个方法`pin`用来拼接字符串，在`letterCombinations`方法中只做非空判断和初始化
 
-在`pin`方法中每次添加一位，switch case来进行递归，看着比较笨，其实ctrl+c，ctrl+v就可以了
+// 在`pin`方法中每次添加一位，switch case来进行递归，看着比较笨，其实ctrl+c，ctrl+v就可以了
 
-最后就能得到正确答案
+// 最后就能得到正确答案
 
-![](https://pic.leetcode-cn.com/00376f133140791ca40c37329e4fcca6790760e94de51a226d0793202586d8da-image.png)
+// ![](https://pic.leetcode-cn.com/00376f133140791ca40c37329e4fcca6790760e94de51a226d0793202586d8da-image.png)
 
 

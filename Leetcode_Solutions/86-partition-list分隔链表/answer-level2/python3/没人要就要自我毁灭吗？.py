@@ -1,8 +1,8 @@
-### 解题思路 我是说head不断更新，老的会自我销毁吗？
+# ### 解题思路 我是说head不断更新，老的会自我销毁吗？
 
-### 源自官方代码
+# ### 源自官方代码
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -45,4 +45,4 @@ class Solution(object):
         before.next = after_head.next
 
         return before_head.next
-```
+# ```

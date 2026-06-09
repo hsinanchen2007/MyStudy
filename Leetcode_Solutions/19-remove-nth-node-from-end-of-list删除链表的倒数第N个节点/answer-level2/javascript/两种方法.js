@@ -1,6 +1,6 @@
-## 第一版，使用数组辅助。把它的每个节点在一个数组中按顺序存下来
-> 80ms,34M。
-```javascript []
+// ## 第一版，使用数组辅助。把它的每个节点在一个数组中按顺序存下来
+// > 80ms,34M。
+// ```javascript []
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -25,12 +25,12 @@ var removeNthFromEnd = function(head, n) {
   } else arr[arr.length - n - 1].next = null;
   return arr[0];
 };
-```
+// ```
 
 
-## 第二版。看了官方题解，使用双指针方法，但是不想为了删除头节点这一特殊情况而额外增加哑结点来辅助
-> 76ms,34M。
-```javascript []
+// ## 第二版。看了官方题解，使用双指针方法，但是不想为了删除头节点这一特殊情况而额外增加哑结点来辅助
+// > 76ms,34M。
+// ```javascript []
 /**
  * Definition for singly-linked list.
  * function ListNode(val) {
@@ -58,4 +58,4 @@ var removeNthFromEnd = function(head, n) {
   second.next = second.next.next;
   return head;
 };
-```
+// ```

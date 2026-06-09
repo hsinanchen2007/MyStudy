@@ -1,8 +1,8 @@
-### 解题思路
- 直接看的解题，没看懂
-### 代码
+// ### 解题思路
+//  直接看的解题，没看懂
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> findSubstring(string s, vector<string>& words) {
@@ -28,4 +28,4 @@ public:
         return res;
     }
 };
-```
+// ```

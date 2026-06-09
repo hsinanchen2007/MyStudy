@@ -1,4 +1,4 @@
-```golang []
+// ```golang []
 func GetMax(root *TreeNode) int {
 	if root == nil {
 		return 0
@@ -12,7 +12,7 @@ func isBalanced(root *TreeNode) bool {
 	}
     return math.Abs(float64(GetMax(root.Left))-float64(GetMax(root.Right))) <= 1 && isBalanced(root.Left) && isBalanced(root.Right)
 }
-```
+// ```
 
 
 

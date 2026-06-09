@@ -1,6 +1,6 @@
-运行4ms，超过100%
-详见代码注释：
-```
+// 运行4ms，超过100%
+// 详见代码注释：
+// ```
 class RLEIterator {
 public:
     using ll = long long;
@@ -45,5 +45,5 @@ public:
         return nums[left];
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/d65da026e308eba81a5d6e74753158b90ce70a26ab9a034eda78df3b0ec50b9b-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/d65da026e308eba81a5d6e74753158b90ce70a26ab9a034eda78df3b0ec50b9b-image.png)

@@ -1,9 +1,9 @@
-### 解题思路
-![image.png](https://pic.leetcode-cn.com/d1e2590975d76def6b83b61bb031910ab2a4c2484bbfe52d125be3125e5f40ab-image.png)
+// ### 解题思路
+// ![image.png](https://pic.leetcode-cn.com/d1e2590975d76def6b83b61bb031910ab2a4c2484bbfe52d125be3125e5f40ab-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     unordered_map<char,char> m;
@@ -22,4 +22,4 @@ public:
         return true;
     }
 };
-```
+// ```

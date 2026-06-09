@@ -1,7 +1,7 @@
 
 
-benefit[i] 表示选择当前i位置的元素
-```
+# benefit[i] 表示选择当前i位置的元素
+# ```
 class Solution:
     def massage(self, nums: List[int]) -> int:
         if not nums:
@@ -19,4 +19,4 @@ class Solution:
         # print(benefit)
         return max(benefit[-1], benefit[-2])
 
-```
+# ```

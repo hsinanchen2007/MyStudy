@@ -1,5 +1,5 @@
-##### 代码也没几行
-```
+// ##### 代码也没几行
+// ```
 int vis[256];
 class Solution {
 public:
@@ -17,4 +17,4 @@ public:
         return isUnique;
     }
 };
-```
+// ```

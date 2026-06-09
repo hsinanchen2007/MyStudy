@@ -1,13 +1,13 @@
-### 解题思路
-思路很简单,就是一个状态转移方程的事儿
-**dp[i][j] = Math.max(dp[i - 2][j - 1] + slices[i], dp[i - 1][j]);**
-两遍dp是为了排除首尾均被选择的情况
+// ### 解题思路
+// 思路很简单,就是一个状态转移方程的事儿
+// **dp[i][j] = Math.max(dp[i - 2][j - 1] + slices[i], dp[i - 1][j]);**
+// 两遍dp是为了排除首尾均被选择的情况
 
-### 代码
+// ### 代码
 
-![image.png](https://pic.leetcode-cn.com/c3609a5487056e81064a6b38628540bdf9562954c9181203f41c5b52b50fa795-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c3609a5487056e81064a6b38628540bdf9562954c9181203f41c5b52b50fa795-image.png)
 
-```java
+// ```java
 class Solution {
    public int maxSizeSlices(int[] slices) {
 
@@ -44,4 +44,4 @@ class Solution {
 		return Math.max(dp[len - 1][len / 3],res);//两种情况取最大,就是最终结果
 	}
 }
-```
+// ```

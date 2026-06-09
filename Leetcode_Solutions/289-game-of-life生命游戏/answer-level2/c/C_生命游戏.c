@@ -1,11 +1,11 @@
-### 解题思路
-没什么技巧性，从头到尾遍历矩阵，检查四周八个位置的元素，做出改变。
-原地的处理：
-本来是1，需变成0，就改成-1；本来是0，需变成1，就记成-2.判断的时候把-1也当成1判断，判断统计完之后再彻底改动成1和0
+// ### 解题思路
+// 没什么技巧性，从头到尾遍历矩阵，检查四周八个位置的元素，做出改变。
+// 原地的处理：
+// 本来是1，需变成0，就改成-1；本来是0，需变成1，就记成-2.判断的时候把-1也当成1判断，判断统计完之后再彻底改动成1和0
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int aliveAround(int** Board,int BoardSize,int* BoardColSize, int Row,int Col)
 {
     int result=0;
@@ -43,4 +43,4 @@ void gameOfLife(int** board, int boardSize, int* boardColSize){
             if(board[row][col]==-1)board[row][col]=0;
             else if(board[row][col]==-2)board[row][col]=1;
 }
-```
+// ```

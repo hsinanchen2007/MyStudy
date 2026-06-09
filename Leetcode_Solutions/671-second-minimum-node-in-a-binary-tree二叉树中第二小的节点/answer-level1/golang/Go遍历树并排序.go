@@ -1,9 +1,9 @@
-遍历二叉树并将节点值存入数组，排序并找到第二小的节点。
-```
+// 遍历二叉树并将节点值存入数组，排序并找到第二小的节点。
+// ```
 执行用时 : 0 ms, 在Second Minimum Node In a Binary Tree的Go提交中击败了100.00% 的用户
 内存消耗 : 2 MB, 在Second Minimum Node In a Binary Tree的Go提交中击败了37.50% 的用户
-```
-```Go []
+// ```
+// ```Go []
 func findSecondMinimumValue(root *TreeNode) int {
 	if root == nil || root.Left == nil || root.Right == nil {
 		return -1

@@ -1,6 +1,6 @@
-1. 处理火星字典，找到每个字母之前的前置字母
-2. 根据前置字母图，用BFS进行拓扑排序
-```
+# 1. 处理火星字典，找到每个字母之前的前置字母
+# 2. 根据前置字母图，用BFS进行拓扑排序
+# ```
 class Solution:
     def alienOrder(self, words: List[str]) -> str:
         graph = {}    #邻接链表，对每个key，value为必须在key之前的字母
@@ -66,4 +66,4 @@ class Solution:
                 isAdded.add(w)
             newAdded = set()
         return ans if itertime <= len(all_words) + 1 else ""
-```
+# ```

@@ -1,10 +1,10 @@
-- 为了存储发推特的时间，采用一个vector存储所有的推特，记为vector A;
-- 推特vector内部存储一个int数对，分别记录作者id和推文id
-- 为了记录关注信息，采用map存储关注列表,记为map A;
-- map采用用户id做key值，val是一个vector，vector内部存有关注对象的id，记为vector B;
-- 查找推文时倒序遍历vector A,查找到10g条推文或者遍历完vector时返回推文列表
-- 关注时更新map A,取消关注时将v对应vector B中的被取关对象id置为关注用户id(即map A的key值) 
-```
+// - 为了存储发推特的时间，采用一个vector存储所有的推特，记为vector A;
+// - 推特vector内部存储一个int数对，分别记录作者id和推文id
+// - 为了记录关注信息，采用map存储关注列表,记为map A;
+// - map采用用户id做key值，val是一个vector，vector内部存有关注对象的id，记为vector B;
+// - 查找推文时倒序遍历vector A,查找到10g条推文或者遍历完vector时返回推文列表
+// - 关注时更新map A,取消关注时将v对应vector B中的被取关对象id置为关注用户id(即map A的key值) 
+// ```
 class Twitter {
 public:
     /** Initialize your data structure here. */
@@ -70,5 +70,5 @@ private:
         return false;
     }
 };
-```
-- 时间复杂度和空间复杂度都在80%+；
+// ```
+// - 时间复杂度和空间复杂度都在80%+；

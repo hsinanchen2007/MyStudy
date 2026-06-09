@@ -1,9 +1,9 @@
-### 解题思路
-使用快速排序排序数组 使用slice切割指定个数的元素
+// ### 解题思路
+// 使用快速排序排序数组 使用slice切割指定个数的元素
 
-### 代码
+// ### 代码
 
-```scala
+// ```scala
 object Solution {
 def getLeastNumbers(arr: Array[Int], k: Int): Array[Int] = {
     if (arr.size == 0) {
@@ -31,4 +31,4 @@ def getLeastNumbers(arr: Array[Int], k: Int): Array[Int] = {
     }
   }
 }
-```
+// ```

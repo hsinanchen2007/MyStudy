@@ -1,9 +1,9 @@
-### 解题思路
-和前面3的幂是一样的解题思路。
+// ### 解题思路
+// 和前面3的幂是一样的解题思路。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPowerOfFour(int num) {
         if(num <= 0)
@@ -17,4 +17,4 @@ class Solution {
             return isPowerOfFour(num/4);
     }
 }
-```
+// ```

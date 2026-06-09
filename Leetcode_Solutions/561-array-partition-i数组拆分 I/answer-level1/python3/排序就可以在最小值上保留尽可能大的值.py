@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def arrayPairSum(self, nums: List[int]) -> int:
         if len(nums) < 1:
@@ -9,4 +9,4 @@ class Solution:
             count += nums[i]
         return count
 
-```
+# ```

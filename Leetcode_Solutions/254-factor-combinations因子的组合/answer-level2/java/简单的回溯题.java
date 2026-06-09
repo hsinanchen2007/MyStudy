@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public List<List<Integer>> getFactors(int n) {
         List<List<Integer>> res = new ArrayList<>();
@@ -25,4 +25,4 @@ class Solution {
         }
     }
 }
-```
+// ```

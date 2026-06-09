@@ -1,9 +1,9 @@
-### 解题思路
-一行写不下换行
+// ### 解题思路
+// 一行写不下换行
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] numberOfLines(int[] widths, String S) {
         int sum = 0;
@@ -23,4 +23,4 @@ class Solution {
         return result;  
     }
 }
-```
+// ```

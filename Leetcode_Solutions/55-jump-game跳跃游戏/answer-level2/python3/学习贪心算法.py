@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def canJump(self, nums: List[int]) -> bool:
         #贪心算法，每一步考虑最远，如果能到达的最远位置大于最后一个位置，自然能到达最后一位
@@ -13,4 +13,4 @@ class Solution:
                 max_i = i+jump              #则更新最远位置
         return max_i >=i                     #最后判断能到达的最远位置是否大于数组长度
             
-```
+# ```

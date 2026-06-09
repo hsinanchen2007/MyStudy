@@ -1,5 +1,5 @@
-广度优先搜索，不断去搜寻最终解答，作为一种参考题解
-```c++ []
+// 广度优先搜索，不断去搜寻最终解答，作为一种参考题解
+// ```c++ []
 class Solution {
 public:
     enum class OP {COPY, PASTE};
@@ -47,7 +47,7 @@ public:
         return step;
     }
 };
-```
+// ```
 
 
-![image.png](https://pic.leetcode-cn.com/5dba8881aedf9cb026426a93ae51434d610048a4cafcf20596c1051714707142-image.png)
+// ![image.png](https://pic.leetcode-cn.com/5dba8881aedf9cb026426a93ae51434d610048a4cafcf20596c1051714707142-image.png)

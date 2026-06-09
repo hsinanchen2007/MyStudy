@@ -1,9 +1,9 @@
-### 解题思路
-打卡
+// ### 解题思路
+// 打卡
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func gameOfLife(board [][]int) {
 	height := len(board)
 	width := len(board[0])
@@ -82,4 +82,4 @@ func checkLiveCell(board [][]int, i int, j int, height int, width int) int {
 	}
 	return liveCellCount
 }
-```
+// ```

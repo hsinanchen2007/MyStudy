@@ -1,9 +1,9 @@
-### 解题思路
-将前半段存入栈，逐个出栈与后半段逐个对比。
-注意总长度的奇偶关系，差一个next的事儿。
-### 代码
+// ### 解题思路
+// 将前半段存入栈，逐个出栈与后半段逐个对比。
+// 注意总长度的奇偶关系，差一个next的事儿。
+// ### 代码
 
-```c
+// ```c
 /* 请自行实现栈代码 */
 bool isPalindrome(struct ListNode* head){
 
@@ -59,4 +59,4 @@ bool isPalindrome(struct ListNode* head){
     return true;
 
 }
-```
+// ```

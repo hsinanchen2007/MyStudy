@@ -1,9 +1,9 @@
-### 解题思路
-解释请看注释，通俗易懂
+// ### 解题思路
+// 解释请看注释，通俗易懂
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -49,4 +49,4 @@ public:
         return hasPathSum(root->left, sum - root->val) || hasPathSum(root->right, sum - root->val);
     }
 };
-```
+// ```

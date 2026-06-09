@@ -1,9 +1,9 @@
-### 解题思路
-和54题很类似，写法基本一样
+// ### 解题思路
+// 和54题很类似，写法基本一样
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> generateMatrix(int n) {
@@ -37,4 +37,4 @@ public:
       return res;    
     }
 };
-```
+// ```

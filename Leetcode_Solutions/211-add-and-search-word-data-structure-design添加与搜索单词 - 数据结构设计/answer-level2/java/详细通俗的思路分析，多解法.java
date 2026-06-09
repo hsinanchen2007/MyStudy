@@ -1,14 +1,14 @@
-# 题目描述（中等难度）
+// # 题目描述（中等难度）
 
-![](https://pic.leetcode-cn.com/d39fec69532905dd45a4e10791bc4ab5a477f5f07b23ac05b2d95c778bbfe23b.jpg)
+// ![](https://pic.leetcode-cn.com/d39fec69532905dd45a4e10791bc4ab5a477f5f07b23ac05b2d95c778bbfe23b.jpg)
 
-设计一个数据结构，实现 `add` 方法添加字符串，`search` 查找字符串，所查找的字符串可能含有 `.` ，代表任意的字符。
+// 设计一个数据结构，实现 `add` 方法添加字符串，`search` 查找字符串，所查找的字符串可能含有 `.` ，代表任意的字符。
 
-# 解法一 暴力
+// # 解法一 暴力
 
-来个暴力的方法，用 `HashSet` 存入所有的字符串。当查找字符串的时候，我们首先判断 `set` 中是否存在，如果存在的话直接返回 `true` 。不存在的话，因为要查找的字符串中可能含有 `.` ，接下来我们需要遍历 `set` ，一个一个的进行匹配。
+// 来个暴力的方法，用 `HashSet` 存入所有的字符串。当查找字符串的时候，我们首先判断 `set` 中是否存在，如果存在的话直接返回 `true` 。不存在的话，因为要查找的字符串中可能含有 `.` ，接下来我们需要遍历 `set` ，一个一个的进行匹配。
 
-```java
+// ```java
 class WordDictionary {
     HashSet<String> set;
 
@@ -55,15 +55,15 @@ class WordDictionary {
         return true;
     }
 }
-```
+// ```
 
-当然，由于有些暴力，出现了超时。
+// 当然，由于有些暴力，出现了超时。
 
-![](https://pic.leetcode-cn.com/8055bbfe00ad927b287d6152b1d59c91bdd9f866660409eaa7ce4df539afad4c.jpg)
+// ![](https://pic.leetcode-cn.com/8055bbfe00ad927b287d6152b1d59c91bdd9f866660409eaa7ce4df539afad4c.jpg)
 
-至于优化的话，我们不要将加入的字符串一股脑的放入一个 `set` 中，可以通过长度进行分类，将长度相同的放到一个 `set` 中。这样一个一个匹配的时候，规模会减小一些。
+// 至于优化的话，我们不要将加入的字符串一股脑的放入一个 `set` 中，可以通过长度进行分类，将长度相同的放到一个 `set` 中。这样一个一个匹配的时候，规模会减小一些。
 
-```java
+// ```java
 class WordDictionary {
     HashMap<Integer,HashSet<String>> map;
 
@@ -119,19 +119,19 @@ class WordDictionary {
         return true;
     }
 }
-```
+// ```
 
-虽然上边的解法在 leetcode 中 AC 了，但其实很大程度上取决于 test cases 中所有字符串长度的分布，如果字符串长度全部集中于某个值，上边的解法的优化其实是无能为力的。
+// 虽然上边的解法在 leetcode 中 AC 了，但其实很大程度上取决于 test cases 中所有字符串长度的分布，如果字符串长度全部集中于某个值，上边的解法的优化其实是无能为力的。
 
-上边是按长度分类进行添加的，同样的我们还可以按照字符串的开头字母进行分类。当然，算法的速度同样也依赖于数据的分布，适用于数据分布均匀的情况。
+// 上边是按长度分类进行添加的，同样的我们还可以按照字符串的开头字母进行分类。当然，算法的速度同样也依赖于数据的分布，适用于数据分布均匀的情况。
 
-# 解法二  前缀树
+// # 解法二  前缀树
 
-前几天在 [208 题](https://leetcode.wang/leetcode-208-Implement-Trie-Prefix-Tree.html) 刚做了前缀树，这里的话我们也可以通过前缀树进行存储，这样查找字符串就不用依赖于字符串的数量了。
+// 前几天在 [208 题](https://leetcode.wang/leetcode-208-Implement-Trie-Prefix-Tree.html) 刚做了前缀树，这里的话我们也可以通过前缀树进行存储，这样查找字符串就不用依赖于字符串的数量了。
 
-代码的话在前缀树的基础上改一下就可以，大家可以先看一下  [208 题](https://leetcode.wang/leetcode-208-Implement-Trie-Prefix-Tree.html)。对于字符串中的 `.` ，我们通过递归去查找。
+// 代码的话在前缀树的基础上改一下就可以，大家可以先看一下  [208 题](https://leetcode.wang/leetcode-208-Implement-Trie-Prefix-Tree.html)。对于字符串中的 `.` ，我们通过递归去查找。
 
-```java
+// ```java
 class WordDictionary {
     class TrieNode {
         TrieNode[] children;
@@ -201,15 +201,15 @@ class WordDictionary {
         return cur.flag;
     }
 }
-```
+// ```
 
-# 解法三
+// # 解法三
 
-再分享一个 leetcode 上边的大神 [@StefanPochmann](https://leetcode.com/stefanpochmann) 的一个想法，直接利用正则表达式。
+// 再分享一个 leetcode 上边的大神 [@StefanPochmann](https://leetcode.com/stefanpochmann) 的一个想法，直接利用正则表达式。
 
-我就不细讲了，直接看代码吧，很简洁。
+// 我就不细讲了，直接看代码吧，很简洁。
 
-```python
+// ```python
 import re
 class WordDictionary:
 
@@ -221,11 +221,11 @@ class WordDictionary:
 
     def search(self, word):
         return bool(re.search('#' + word + '#', self.words))
-```
+// ```
 
-我用 `java` 改写了一下。
+// 我用 `java` 改写了一下。
 
-```java
+// ```java
 import java.util.regex.*;
 class WordDictionary {
 	StringBuilder sb;
@@ -244,14 +244,14 @@ class WordDictionary {
 		return m.find();
 	}
 }
-```
+// ```
 
-不过遗憾的是，`java`  在 `leetcode` 上这个解法会超时，`python` 没什么问题。当然优化的话，我们可以再像解法一那样对字符串进行分类，这里就不再写了。
+// 不过遗憾的是，`java`  在 `leetcode` 上这个解法会超时，`python` 没什么问题。当然优化的话，我们可以再像解法一那样对字符串进行分类，这里就不再写了。
 
-上边的解法的关键就是，用 `#` 分割不同单词，以及查找的时候查找 `# + word + #` ，很妙。
+// 上边的解法的关键就是，用 `#` 分割不同单词，以及查找的时候查找 `# + word + #` ，很妙。
 
-# 总
+// # 总
 
-解法一是直觉上的解法，分类的思想也经常用到。解法二的话，需要数据结构的积累，刚好前几题实现了前缀树，空间换时间，这里也就直接想到了。解法三的话，大概只有大神能想到了，一种完全不同的视角，很棒。
+// 解法一是直觉上的解法，分类的思想也经常用到。解法二的话，需要数据结构的积累，刚好前几题实现了前缀树，空间换时间，这里也就直接想到了。解法三的话，大概只有大神能想到了，一种完全不同的视角，很棒。
 
-之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。
+// 之前自己在博客总结的，更多题解可以在原地址 [https://leetcode.wang](https://leetcode.wang)。

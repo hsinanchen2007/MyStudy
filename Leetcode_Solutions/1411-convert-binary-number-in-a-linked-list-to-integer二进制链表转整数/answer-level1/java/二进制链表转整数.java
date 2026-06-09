@@ -1,8 +1,8 @@
-### 解题思路
-位运算
+// ### 解题思路
+// 位运算
 
-### 代码
-```java []
+// ### 代码
+// ```java []
 class Solution {
     public int getDecimalValue(ListNode head) {
         int n = -1;
@@ -21,10 +21,10 @@ class Solution {
         return num;
     }
 }
-```
+// ```
 
 
-```golang []
+// ```golang []
 func getDecimalValue(head *ListNode) int {
 	var n uint = 0
 	p := head
@@ -42,5 +42,5 @@ func getDecimalValue(head *ListNode) int {
 	}
 	return num
 }
-```
+// ```
 

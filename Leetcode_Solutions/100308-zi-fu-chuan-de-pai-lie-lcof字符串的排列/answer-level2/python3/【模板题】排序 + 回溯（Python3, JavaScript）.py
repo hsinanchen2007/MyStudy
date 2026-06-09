@@ -1,11 +1,11 @@
-和主站的 47.permutations-ii 相同。 我们不妨来看下主站的题。 类似题目很多（参考下方相关题目区），大家可以一起做，我这里给一份通用解法。
+# 和主站的 47.permutations-ii 相同。 我们不妨来看下主站的题。 类似题目很多（参考下方相关题目区），大家可以一起做，我这里给一份通用解法。
 
 
-## 题目地址
-https://leetcode.com/problems/permutations-ii/description/
+# ## 题目地址
+# https://leetcode.com/problems/permutations-ii/description/
 
-## 题目描述
-```
+# ## 题目描述
+# ```
 Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 
 Example:
@@ -18,31 +18,31 @@ Output:
   [2,1,1]
 ]
 
-```
+# ```
 
-## 思路
+# ## 思路
 
-这道题目是求集合，并不是`求极值`，因此动态规划不是特别切合，因此我们需要考虑别的方法。
+# 这道题目是求集合，并不是`求极值`，因此动态规划不是特别切合，因此我们需要考虑别的方法。
 
-这种题目其实有一个通用的解法，就是回溯法。
-网上也有大神给出了这种回溯法解题的
-[通用写法](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning))，这里的所有的解法使用通用方法解答。
-除了这道题目还有很多其他题目可以用这种通用解法，具体的题目见后方相关题目部分。
-
-
-通用写法的具体代码见下方代码区。
-
-## 关键点解析
-
-- 回溯法
-- backtrack 解题公式
+# 这种题目其实有一个通用的解法，就是回溯法。
+# 网上也有大神给出了这种回溯法解题的
+# [通用写法](https://leetcode.com/problems/combination-sum/discuss/16502/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning))，这里的所有的解法使用通用方法解答。
+# 除了这道题目还有很多其他题目可以用这种通用解法，具体的题目见后方相关题目部分。
 
 
-## 代码
+# 通用写法的具体代码见下方代码区。
 
-* 语言支持: Javascript，Python3
+# ## 关键点解析
 
-```js
+# - 回溯法
+# - backtrack 解题公式
+
+
+# ## 代码
+
+# * 语言支持: Javascript，Python3
+
+# ```js
 /*
  * @lc app=leetcode id=47 lang=javascript
  *
@@ -97,9 +97,9 @@ var permuteUnique = function(nums) {
   backtrack(list, nums.sort((a, b) => a - b), [], []);
   return list;
 };
-```
-Python3 code:
-```Python
+# ```
+# Python3 code:
+# ```Python
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         """与46题一样，当然也可以直接调用itertools的函数，然后去重"""
@@ -125,26 +125,26 @@ class Solution:
                     _backtrace(left_nums, p_list)
         _backtrace(nums, [])
         return res
-```
+# ```
 
 
-**复杂度分析**
-- 时间复杂度：$O(2^N)$
-- 空间复杂度：$O(2^N)$
+# **复杂度分析**
+# - 时间复杂度：$O(2^N)$
+# - 空间复杂度：$O(2^N)$
 
 
-## 相关题目
+# ## 相关题目
 
-- [31.next-permutation](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/31.next-permutation.md)
-- [39.combination-sum](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/39.combination-sum.md)
-- [40.combination-sum-ii](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/40.combination-sum-ii.md)
-- [46.permutations](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/46.permutations.md)
-- [60.permutation-sequence](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/60.permutation-sequence.md)
-- [78.subsets](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/78.subsets.md)
-- [90.subsets-ii](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/90.subsets-ii.md)
-- [113.path-sum-ii](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/113.path-sum-ii.md)
-- [131.palindrome-partitioning](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/131.palindrome-partitioning.md)
+# - [31.next-permutation](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/31.next-permutation.md)
+# - [39.combination-sum](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/39.combination-sum.md)
+# - [40.combination-sum-ii](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/40.combination-sum-ii.md)
+# - [46.permutations](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/46.permutations.md)
+# - [60.permutation-sequence](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/60.permutation-sequence.md)
+# - [78.subsets](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/78.subsets.md)
+# - [90.subsets-ii](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/90.subsets-ii.md)
+# - [113.path-sum-ii](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/113.path-sum-ii.md)
+# - [131.palindrome-partitioning](https://github.com/azl397985856/leetcode/blob/795b47eac3c487daa2690a4701558fa9117a2557/problems/131.palindrome-partitioning.md)
 
-欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
+# 欢迎关注我的公众号《脑洞前端》获取更多更新鲜的LeetCode题解
 
-![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)
+# ![](https://pic.leetcode-cn.com/89ef69abbf02a2957838499a96ce3fbb26830aae52e3ab90392e328c2670cddc-file_1581478989502)

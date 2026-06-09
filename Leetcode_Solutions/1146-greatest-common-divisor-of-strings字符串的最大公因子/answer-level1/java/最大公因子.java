@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public String gcdOfStrings(String str1, String str2) {
         int la=str1.length(),lb=str2.length(),lmax=0,lmin=0;
@@ -42,4 +42,4 @@ class Solution {
     }
 }
 代码块
-```
+// ```

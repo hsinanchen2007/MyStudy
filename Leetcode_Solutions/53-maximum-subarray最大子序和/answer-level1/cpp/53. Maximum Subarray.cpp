@@ -1,10 +1,10 @@
-### 解题思路
-dp[i]表示[0,i]范围并且必须以i为结束的范围内，能取得的最大值
-dp[i] = (dp[i-1] > 0 ? dp[i-1] + nums[i] : nums[i])
+// ### 解题思路
+// dp[i]表示[0,i]范围并且必须以i为结束的范围内，能取得的最大值
+// dp[i] = (dp[i-1] > 0 ? dp[i-1] + nums[i] : nums[i])
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //状态表达式怎么写？
@@ -29,4 +29,4 @@ public:
         return maxSum;
     }
 };
-```
+// ```

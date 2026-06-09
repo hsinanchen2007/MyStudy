@@ -1,9 +1,9 @@
-### 解题思路
-C语言 回溯
+// ### 解题思路
+// C语言 回溯
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
@@ -40,4 +40,4 @@ int* sequentialDigits(int low, int high, int* returnSize){
     qsort(ans, len, sizeof(int), cmp);
     return ans;
 }
-```
+// ```

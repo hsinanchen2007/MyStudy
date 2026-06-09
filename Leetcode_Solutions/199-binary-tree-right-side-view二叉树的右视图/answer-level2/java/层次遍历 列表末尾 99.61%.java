@@ -1,10 +1,10 @@
-### 解题思路
-执行用时 :1 ms, 在所有 Java 提交中击败了99.61%的用户
-首先层次遍历树，然后取每层末尾元素
+// ### 解题思路
+// 执行用时 :1 ms, 在所有 Java 提交中击败了99.61%的用户
+// 首先层次遍历树，然后取每层末尾元素
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -48,4 +48,4 @@ class Solution {
         level(list, level, node.right);
     }
 }
-```
+// ```

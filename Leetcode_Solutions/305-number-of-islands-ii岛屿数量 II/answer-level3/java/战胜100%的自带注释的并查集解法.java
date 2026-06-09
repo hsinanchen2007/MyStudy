@@ -1,4 +1,4 @@
-```
+// ```
     private int[] ids;
     private int rows, cols;
     private int[][] dr = new int[][]{
@@ -64,4 +64,4 @@
             set.remove(parentI);//注意如果建立关系要在set中维护这个独立点，既然连接了就要去掉这个set
         }
     }
-```
+// ```

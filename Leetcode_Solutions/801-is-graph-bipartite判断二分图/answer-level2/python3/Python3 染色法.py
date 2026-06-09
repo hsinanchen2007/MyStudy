@@ -1,4 +1,4 @@
-```
+# ```
 from typing import List
 
 
@@ -31,4 +31,4 @@ def is_bipartite(graph: List[List[int]]) -> bool:
         if not dfs(i):
             return False
     return True
-```
+# ```

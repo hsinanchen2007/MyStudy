@@ -1,10 +1,10 @@
-### 解题思路
-此处撰写解题思路
-![268.jpg](https://pic.leetcode-cn.com/e7c11fbf0a4848fc5c19d2ec7e0c600d37807ae46a725b11b69dfbaadee86123-268.jpg)
+// ### 解题思路
+// 此处撰写解题思路
+// ![268.jpg](https://pic.leetcode-cn.com/e7c11fbf0a4848fc5c19d2ec7e0c600d37807ae46a725b11b69dfbaadee86123-268.jpg)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 //method 2:位运算
 //两种情况：
 //（1）连续的，结果在末尾（特殊情况）
@@ -47,4 +47,4 @@ public:
 
 
 
-```
+// ```

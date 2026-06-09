@@ -1,7 +1,7 @@
 
-![image.png](https://pic.leetcode-cn.com/182173a370eb74ffa6b6664a840b57f83467dc6fb924d6abb905e2ae5ad7a2f1-image.png)
-1. 深度优先搜索 dfs
-```
+// ![image.png](https://pic.leetcode-cn.com/182173a370eb74ffa6b6664a840b57f83467dc6fb924d6abb905e2ae5ad7a2f1-image.png)
+// 1. 深度优先搜索 dfs
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -32,12 +32,12 @@ var deepestLeavesSum = function(root) {
     fn(root, 0)
     return sum
 };
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/3278078a9598a1570b25758c5a4e91138db26c59228868a2c165f9d264a733c8-image.png)
+// ![image.png](https://pic.leetcode-cn.com/3278078a9598a1570b25758c5a4e91138db26c59228868a2c165f9d264a733c8-image.png)
 
-2. 广度优先搜索 bfs
-```
+// 2. 广度优先搜索 bfs
+// ```
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -71,5 +71,5 @@ var deepestLeavesSum = function(root) {
     }
     return sum
 };
-```
+// ```
 

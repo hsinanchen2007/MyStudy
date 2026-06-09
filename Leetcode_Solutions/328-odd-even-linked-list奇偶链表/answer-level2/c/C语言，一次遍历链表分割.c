@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-分别指定奇数链表和偶数链表，最后将奇链表的末尾执行偶数链表的开头
+// 分别指定奇数链表和偶数链表，最后将奇链表的末尾执行偶数链表的开头
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -36,4 +36,4 @@ struct ListNode* oddEvenList(struct ListNode* head){
 
     return head;
 }
-```
+// ```

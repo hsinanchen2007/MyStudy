@@ -1,9 +1,9 @@
-### 解题思路
-平方后排序。
+# ### 解题思路
+# 平方后排序。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def sortedSquares(self, A: List[int]) -> List[int]:
         ans = []
@@ -12,4 +12,4 @@ class Solution:
         ans.sort()
         return ans
         # return sorted(x*x for x in A)
-```
+# ```

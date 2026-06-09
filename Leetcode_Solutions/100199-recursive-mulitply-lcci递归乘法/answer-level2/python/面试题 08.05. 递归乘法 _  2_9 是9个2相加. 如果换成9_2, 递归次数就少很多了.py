@@ -1,9 +1,9 @@
-### 解题思路
-2*9 是9个2相加. 如果换成9*2, 递归次数就少很多了.
+# ### 解题思路
+# 2*9 是9个2相加. 如果换成9*2, 递归次数就少很多了.
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def _multiply(self, A: int, B: int) -> int:
         if B == 0:
@@ -22,4 +22,4 @@ class Solution:
             return 0 - self._multiply(A, B)
         else:
             return self._multiply(A, B)
-```
+# ```

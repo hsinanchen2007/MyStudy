@@ -1,5 +1,5 @@
-## 暴力破解
-```
+// ## 暴力破解
+// ```
 var isPerfectSquare = function(num) {
     if(num == 1) return true;
     for(let i = 1,len = num/2;i<=len;i++){
@@ -9,10 +9,10 @@ var isPerfectSquare = function(num) {
     }
     return false;
 };
-```
+// ```
 
-## 二分法
-```
+// ## 二分法
+// ```
 var isPerfectSquare = function(num) {
     if(num == 1) return true;
     let left = 1,right = num;
@@ -29,9 +29,9 @@ var isPerfectSquare = function(num) {
     }
     return false;
 };
-```
-## 牛顿迭代
-```
+// ```
+// ## 牛顿迭代
+// ```
 var isPerfectSquare = function(num) {
     if(num == 1) return true;
     let cur = parseInt(num/2);
@@ -40,9 +40,9 @@ var isPerfectSquare = function(num) {
     }
     return cur*cur == num;
 };
-```
-## 数理
-```
+// ```
+// ## 数理
+// ```
 var isPerfectSquare = function(num) {
         let i = 1;
         while(num > 0) {
@@ -51,4 +51,4 @@ var isPerfectSquare = function(num) {
         }
         return num == 0;
 }
-```
+// ```

@@ -1,6 +1,6 @@
-从头开始往后遍历一遍，不增加新空间，解题思路：
-记录0,1,2的尾部位置，后面扫到一个数字，则往前面相应数字的尾部插入，比这个大的数字后移1个。
-```
+// 从头开始往后遍历一遍，不增加新空间，解题思路：
+// 记录0,1,2的尾部位置，后面扫到一个数字，则往前面相应数字的尾部插入，比这个大的数字后移1个。
+// ```
 void sortColors(int* nums, int numsSize){
 
     int zero_tail = 0;
@@ -52,5 +52,5 @@ void sortColors(int* nums, int numsSize){
     }
     return;
 }
-```
-![1585982154(1).png](https://pic.leetcode-cn.com/af9916236c65e7906a6c1ac081cfbbb6ebc2964f0621607f11d83024585c9950-1585982154\(1\).png)
+// ```
+// ![1585982154(1).png](https://pic.leetcode-cn.com/af9916236c65e7906a6c1ac081cfbbb6ebc2964f0621607f11d83024585c9950-1585982154\(1\).png)

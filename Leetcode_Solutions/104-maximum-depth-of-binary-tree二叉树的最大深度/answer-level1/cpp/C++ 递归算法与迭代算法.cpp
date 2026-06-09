@@ -1,17 +1,17 @@
-**一、递归算法：**
+// **一、递归算法：**
 
-```c++ []
+// ```c++ []
 int maxDepth(TreeNode* root) {
     if (!root)
          return 0;
     else
          return 1 + max(maxDepth(root->left), maxDepth(root->right));
 }
-```
+// ```
 
-**二、迭代算法**
+// **二、迭代算法**
 
-```c++ []
+// ```c++ []
 int maxDepth(TreeNode* root) {
 		stack<pair<TreeNode*, int>> stack;
 		int depth = 0;
@@ -29,5 +29,5 @@ int maxDepth(TreeNode* root) {
 		}
 		return depth;
 	}
-```
+// ```
 

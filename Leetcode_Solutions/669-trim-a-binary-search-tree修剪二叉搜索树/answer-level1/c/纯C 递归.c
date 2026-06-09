@@ -1,9 +1,9 @@
-### 解题思路
-纯C 递归
+// ### 解题思路
+// 纯C 递归
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -35,4 +35,4 @@ struct TreeNode* trimBST(struct TreeNode* root, int L, int R){
 
     return root;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 思路
-在[子集](https://leetcode-cn.com/problems/subsets/solution/78-zi-ji-jian-dan-hui-su-ji-bai-9964-by-guohaoding/)上加去重。
+// ### 思路
+// 在[子集](https://leetcode-cn.com/problems/subsets/solution/78-zi-ji-jian-dan-hui-su-ji-bai-9964-by-guohaoding/)上加去重。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
@@ -28,4 +28,4 @@ public:
         }
     }
 };
-```
+// ```

@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
-1.初始设定数量nCount = 0;
-2.如果是数字加1,否则就减1,那么从0开始遍历,当nCount == 0时,数字和字母数量相同.
-3.如果nCount!= 0 ,就要从前找下标a,使得0 - a  == 0 - b;那么a+1 - b 数字和字母是相同的;
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 1.初始设定数量nCount = 0;
+// 2.如果是数字加1,否则就减1,那么从0开始遍历,当nCount == 0时,数字和字母数量相同.
+// 3.如果nCount!= 0 ,就要从前找下标a,使得0 - a  == 0 - b;那么a+1 - b 数字和字母是相同的;
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<string> findLongestSubarray(vector<string>& array) {
@@ -31,4 +31,4 @@ public:
         return vector<string>(array.begin() + begin, array.begin() + end + 1);
     }
 };
-```
+// ```

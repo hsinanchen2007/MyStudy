@@ -1,6 +1,6 @@
-扩数据之前最好是120ms,94%，现在大约1000ms这样。
+# 扩数据之前最好是120ms,94%，现在大约1000ms这样。
 
-```python []
+# ```python []
 class Solution:
     def levelOrder(self, root: 'Node') -> List[List[int]]:
         d = collections.defaultdict(list)
@@ -11,4 +11,4 @@ class Solution:
                     f(j, i + 1)
         f(root)
         return [*d.values()]
-```
+# ```

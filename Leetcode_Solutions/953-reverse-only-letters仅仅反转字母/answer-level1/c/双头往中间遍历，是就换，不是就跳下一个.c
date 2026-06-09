@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 char* rever(char *s,int start, int end)
 {
     while(start < end)
@@ -36,4 +36,4 @@ char * reverseOnlyLetters(char * S)
     return p;
 
 }
-```
+// ```

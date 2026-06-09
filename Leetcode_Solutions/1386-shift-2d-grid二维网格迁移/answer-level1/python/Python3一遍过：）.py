@@ -1,9 +1,9 @@
-### 解题思路
-这道题我用的最简单的解法，思路非常清晰，开三个tmp来储存要迁移的元素就可以了。代码如下：
+# ### 解题思路
+# 这道题我用的最简单的解法，思路非常清晰，开三个tmp来储存要迁移的元素就可以了。代码如下：
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def shiftGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:
         M = len(grid)
@@ -19,4 +19,4 @@ class Solution:
                 grid[i+1][0] = tmp_2[i]         ###第二步迁移：将最后一列的前M-1个值赋给第一列的后M-1个元素
             grid[0][0] = tmp_3                  ###第三步迁移：将右下角那个数的值赋给左上角那个元素
         return grid
-```
+# ```

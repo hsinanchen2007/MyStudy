@@ -1,4 +1,4 @@
-```
+// ```
 int longestWPI(int* hours, int hoursSize){
     int* dp;
     int i, j;
@@ -28,5 +28,5 @@ int longestWPI(int* hours, int hoursSize){
     free(dp);
     return max;
 }
-```
-依长度依次计算表现良好的最长时间段，记录最大值。
+// ```
+// 依长度依次计算表现良好的最长时间段，记录最大值。

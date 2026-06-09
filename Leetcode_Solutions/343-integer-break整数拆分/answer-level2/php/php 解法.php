@@ -1,4 +1,4 @@
-```
+// ```
 function integerBreak($n) {
     if($n==2) return 1;
     if($n==3) return 2;
@@ -9,4 +9,4 @@ function integerBreak($n) {
     }
     return $a*$n;
 }
-```
+// ```

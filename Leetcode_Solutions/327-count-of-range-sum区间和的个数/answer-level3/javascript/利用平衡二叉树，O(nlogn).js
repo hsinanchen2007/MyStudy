@@ -1,7 +1,7 @@
-记nums前i个元素的和为sum(i)（sum(0)=0） 
-若 lower &lt;= sum(i+1) - sum(x) &lt;= upper（x < i+1），则nums[x]到nums[i]的和符合要求, 找到一个解  
-使用一棵定制的AVL树，记下前面的sum，树的节点有size值，帮助计算在指定范围内的sum值的个数
-```javascript
+// 记nums前i个元素的和为sum(i)（sum(0)=0） 
+// 若 lower &lt;= sum(i+1) - sum(x) &lt;= upper（x < i+1），则nums[x]到nums[i]的和符合要求, 找到一个解  
+// 使用一棵定制的AVL树，记下前面的sum，树的节点有size值，帮助计算在指定范围内的sum值的个数
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} lower
@@ -156,4 +156,4 @@ var AVLTree = (function () {
 
   return AVLTree;
 })();
-```
+// ```

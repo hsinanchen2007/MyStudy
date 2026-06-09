@@ -1,9 +1,9 @@
-### 解题思路
-这里只需要维护两个变量num和flag,flag%num_people控制发到哪个孩子，num控制发放数量，如果现有糖果不足以发放的话，我们只需要在当前孩子上发放现在所有的糖果就可以。注意每个孩子都应该是+=。
+# ### 解题思路
+# 这里只需要维护两个变量num和flag,flag%num_people控制发到哪个孩子，num控制发放数量，如果现有糖果不足以发放的话，我们只需要在当前孩子上发放现在所有的糖果就可以。注意每个孩子都应该是+=。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def distributeCandies(self, candies, num_people):
         """
@@ -24,4 +24,4 @@ class Solution(object):
                 num+=1
                 flag+=1
         return ans
-```
+# ```

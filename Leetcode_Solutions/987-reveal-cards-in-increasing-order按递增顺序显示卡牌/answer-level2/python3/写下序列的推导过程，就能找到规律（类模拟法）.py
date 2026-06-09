@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def deckRevealedIncreasing(self, deck: List[int]) -> List[int]:
         if deck.__len__()<=1:
@@ -13,4 +13,4 @@ class Solution:
             # new_list.insert(0,deck_sorted[i])
                 new_list.insert(0,deck_sorted[i])
         return new_list
-```
+# ```

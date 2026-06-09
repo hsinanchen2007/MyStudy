@@ -1,7 +1,7 @@
-![image.png](https://pic.leetcode-cn.com/7837421de916eaa0e2ed1a5b12a0ecdfe0707b2914a922c872cf26b7d2d7d864-image.png)
+# ![image.png](https://pic.leetcode-cn.com/7837421de916eaa0e2ed1a5b12a0ecdfe0707b2914a922c872cf26b7d2d7d864-image.png)
 
 
-```
+# ```
 '''
 先把所有数值和求出来，
 如果对3取余数剩余1，选两个最小的对3取余为2的数值删掉，或者选一个最小对3取余为1的值删掉
@@ -32,4 +32,4 @@ class Solution:
             if len(l1) >= 2:
                 ans = max(ans, total - l1[0] - l1[1])
             return ans
-```
+# ```

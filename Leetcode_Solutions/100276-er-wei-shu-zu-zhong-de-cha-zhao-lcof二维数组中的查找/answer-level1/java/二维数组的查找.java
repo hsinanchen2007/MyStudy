@@ -1,11 +1,11 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-注意细节，一定要先判断数组是否存在。不然获取列或报错。
+// 注意细节，一定要先判断数组是否存在。不然获取列或报错。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         // 要先判断二维数组的有效性
@@ -33,4 +33,4 @@ class Solution {
 }
 
 
-```
+// ```

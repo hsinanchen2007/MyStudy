@@ -1,12 +1,12 @@
-### 解题思路
+# ### 解题思路
 
-但很慢 744ms beat 17%
+# 但很慢 744ms beat 17%
 
-回溯法解决组合问题。和排序问题不同的是，在组合问题中元素的顺序不考虑，只需要从当前位置向后寻找。排序问题每次都需要从头寻找，需要用visited数组记录访问过的元素。
+# 回溯法解决组合问题。和排序问题不同的是，在组合问题中元素的顺序不考虑，只需要从当前位置向后寻找。排序问题每次都需要从头寻找，需要用visited数组记录访问过的元素。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         res, c = [], 0
@@ -21,10 +21,10 @@ class Solution:
         for i in range(1, n+1): # 这部分根本不需要!
             solve(i, 1, [i], [0]*(n+1))
         return res
-```
-精简了之后
+# ```
+# 精简了之后
 
-```
+# ```
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         res, c = [], 0
@@ -40,10 +40,10 @@ class Solution:
 
         solve(0, 0, [], [0]*(n+1))
         return res
-```
+# ```
 
-再优化一下 84ms
-```
+# 再优化一下 84ms
+# ```
 class Solution:
     def combine(self, n: int, k: int):
         res, c = [], 0
@@ -59,13 +59,13 @@ class Solution:
 
         solve(0, 0, [], [0]*(n+1))
         return res
-```
+# ```
 
 
-很快的76ms
+# 很快的76ms
 
-这个代码的思路是, 先生成[[1],[2],[3],[4]], 再生成[[1,2],[1,3],[1,4]] + [[2,3],[2,4]] + [[3,4]]
-```
+# 这个代码的思路是, 先生成[[1],[2],[3],[4]], 再生成[[1,2],[1,3],[1,4]] + [[2,3],[2,4]] + [[3,4]]
+# ```
 class Solution:
     def combine(self, n: int, k: int) -> List[List[int]]:
         curr=[[]]
@@ -80,10 +80,10 @@ class Solution:
             curr=nxt
             remain=k-len(curr[0])
         return curr
-```
+# ```
 
-还可以用排列组合的的性质C(m,n)=C(m-1,n)+C(m-1,n-1)
-```
+# 还可以用排列组合的的性质C(m,n)=C(m-1,n)+C(m-1,n-1)
+# ```
 class Solution(object):
     def combine(self, n, k):
         if k>n or k==0:
@@ -99,4 +99,4 @@ class Solution(object):
             answer.append(item)
         
         return answer
-```
+# ```

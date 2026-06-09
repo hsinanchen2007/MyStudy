@@ -1,6 +1,6 @@
 
-**法一**
-```
+# **法一**
+# ```
 class Solution:
     def countAndSay(self, n: int) -> str:
         init = '1'
@@ -15,11 +15,11 @@ class Solution:
             s += (str(count)+flag)  # 处理最后一个字符
             init = s
         return init
-```
+# ```
 
-**法二**
+# **法二**
 
-```
+# ```
 from itertools import groupby
 
 class Solution:  # 不是我写的，我只是记录一下玩儿玩儿，哈哈
@@ -28,4 +28,4 @@ class Solution:  # 不是我写的，我只是记录一下玩儿玩儿，哈哈
         for i in range(1, n):
             result = ''.join([str(len(list(g))) + k for k, g in groupby(result)])
         return result
-```
+# ```

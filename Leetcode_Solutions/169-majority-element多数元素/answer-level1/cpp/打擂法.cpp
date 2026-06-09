@@ -1,11 +1,11 @@
-### 解题思路
-遇到0时，ans换成当前数
-遇到不同的数时，nm = nm - 1
-遇到相同的数时，nm = nm + 1
-最终出现次数过半的数必然胜利
-### 代码
+// ### 解题思路
+// 遇到0时，ans换成当前数
+// 遇到不同的数时，nm = nm - 1
+// 遇到相同的数时，nm = nm + 1
+// 最终出现次数过半的数必然胜利
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return ans;
     }
 };
-```
+// ```

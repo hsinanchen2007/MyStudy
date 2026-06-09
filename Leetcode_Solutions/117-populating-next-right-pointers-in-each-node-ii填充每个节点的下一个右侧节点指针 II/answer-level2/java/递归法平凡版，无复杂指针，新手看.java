@@ -1,17 +1,17 @@
-![image.png](https://pic.leetcode-cn.com/ee2c8ed2d8d53eb8ae6b66434c1ab931747aea536eee0b761b8b900c7fcecd43-image.png)
+// ![image.png](https://pic.leetcode-cn.com/ee2c8ed2d8d53eb8ae6b66434c1ab931747aea536eee0b761b8b900c7fcecd43-image.png)
 
-### 
+// ### 
 
-核心是getNextNoNullChild，根据root，找到下一级右手第一个
-然后分情况讨论，对每个节点：
-左子右子都有，则左子next指向右子，右子next指向getNextNoNullChild
-只有左子，左子指向getNextNoNullChild，
-只有右子，右子指向getNextNoNullChild，
+// 核心是getNextNoNullChild，根据root，找到下一级右手第一个
+// 然后分情况讨论，对每个节点：
+// 左子右子都有，则左子next指向右子，右子next指向getNextNoNullChild
+// 只有左子，左子指向getNextNoNullChild，
+// 只有右子，右子指向getNextNoNullChild，
 
-注意：递归时要先递归右子树，否则上级节点next关系没建好，下级无法成功getNextNoNullChild
-### 代码
+// 注意：递归时要先递归右子树，否则上级节点next关系没建好，下级无法成功getNextNoNullChild
+// ### 代码
 
-```java
+// ```java
 // package com.leetcode.explore.learnCard.dataStructureBinaryTree.conclusion4;
 
 /**
@@ -57,4 +57,4 @@ public class Solution {
     }
 }
 
-```
+// ```

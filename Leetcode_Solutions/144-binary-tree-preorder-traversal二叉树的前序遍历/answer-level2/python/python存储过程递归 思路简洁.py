@@ -1,11 +1,11 @@
-### 解题思路
-前序遍历的存储顺序：node->left->right，这个存储顺序同样也是最简单的数据。
-递归的思路是用最简单的数据勾勒出解法后，在此基础上重复调用此方法。
-注意：每次找到根结点后存到全局列表中，递归的是过程（存储的动作）。
+# ### 解题思路
+# 前序遍历的存储顺序：node->left->right，这个存储顺序同样也是最简单的数据。
+# 递归的思路是用最简单的数据勾勒出解法后，在此基础上重复调用此方法。
+# 注意：每次找到根结点后存到全局列表中，递归的是过程（存储的动作）。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -26,4 +26,4 @@ class Solution:
         if root.right is not None:
             self.preorderTraversal(root.right)
         return self.result
-```
+# ```

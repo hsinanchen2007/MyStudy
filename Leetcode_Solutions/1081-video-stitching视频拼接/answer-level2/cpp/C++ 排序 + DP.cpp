@@ -1,4 +1,4 @@
-```
+// ```
 // 排序 + 贪心
 class Solution {
 public:
@@ -29,10 +29,10 @@ public:
         return -1;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/c33a874e91bc6149e89d0fdff280804ae7811dad887c20dd0449d76ceb44e493-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/c33a874e91bc6149e89d0fdff280804ae7811dad887c20dd0449d76ceb44e493-image.png)
 
-```
+// ```
 // DP
 class Solution {
 public:
@@ -52,5 +52,5 @@ public:
         return (dp[T] == INF) ? -1 : dp[T];
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/e7a2868c94a93480047a24f21cbbf7b7a0a56db642a901132c61769423230297-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/e7a2868c94a93480047a24f21cbbf7b7a0a56db642a901132c61769423230297-image.png)

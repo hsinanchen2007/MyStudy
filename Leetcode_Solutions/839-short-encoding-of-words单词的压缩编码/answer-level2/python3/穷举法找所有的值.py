@@ -1,9 +1,9 @@
-### 解题思路
-先将列表的元素按照长度进行排序，然后从前往后遍历，比较前面的那个字符是否与后面的某个字符的尾部一样，如果一样就把它的index记下来，然后找下一个，直到把所有的需要删除的都找到，再遍历一遍，统计未被删除的元素的总长度再加上剩余的元素个数，就得到了结果。
+# ### 解题思路
+# 先将列表的元素按照长度进行排序，然后从前往后遍历，比较前面的那个字符是否与后面的某个字符的尾部一样，如果一样就把它的index记下来，然后找下一个，直到把所有的需要删除的都找到，再遍历一遍，统计未被删除的元素的总长度再加上剩余的元素个数，就得到了结果。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def minimumLengthEncoding(self, words: List[str]) -> int:
         words.sort(key=len)
@@ -21,4 +21,4 @@ class Solution:
                 num = num + len(words[i])
         num = num + len(words) - len(del_index)
         return num
-```
+# ```

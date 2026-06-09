@@ -1,9 +1,9 @@
-### 解题思路
-使用UTHASH，遍历加入hash，某个元素次数大于numsSize/2后返回该节点值。
+// ### 解题思路
+// 使用UTHASH，遍历加入hash，某个元素次数大于numsSize/2后返回该节点值。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 typedef struct hashNode {
     int val;
     int cnt;
@@ -27,4 +27,4 @@ int majorityElement(int* nums, int numsSize){
     }
     return -1;
 }
-```
+// ```

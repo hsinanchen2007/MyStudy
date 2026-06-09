@@ -1,15 +1,15 @@
-### 解题思路
-同剑指offer习题 [gethin-对部分样例二分](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/solution/gethin-dui-bu-fen-yang-li-er-fen-by-gelthin/)
+# ### 解题思路
+# 同剑指offer习题 [gethin-对部分样例二分](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/solution/gethin-dui-bu-fen-yang-li-er-fen-by-gelthin/)
 
-注意要和 nums[0] 比，而不要和 nums[left] 比。
+# 注意要和 nums[0] 比，而不要和 nums[left] 比。
 
-这里删去了二分中的加速代码，也对。
+# 这里删去了二分中的加速代码，也对。
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         # 同剑指 offer 习题，这里重做一遍
@@ -37,4 +37,4 @@ class Solution:
             return nums[left]
 
 
-```
+# ```

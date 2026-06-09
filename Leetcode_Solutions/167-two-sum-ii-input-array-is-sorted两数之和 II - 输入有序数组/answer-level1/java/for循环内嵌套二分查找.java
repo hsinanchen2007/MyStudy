@@ -1,9 +1,9 @@
-### 解题思路
-感觉凑了一下就出来了，for循环内嵌套二分查找
+// ### 解题思路
+// 感觉凑了一下就出来了，for循环内嵌套二分查找
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int N=numbers.length;
@@ -30,4 +30,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

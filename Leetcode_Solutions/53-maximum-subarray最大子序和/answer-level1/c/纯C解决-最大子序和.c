@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int maxSubArray(int* nums, int numsSize){
     int dp[numsSize];//dp[i]代表以下标为i结束的最大子序列和
     int i;
@@ -18,4 +18,4 @@ int maxSubArray(int* nums, int numsSize){
     }
     return max;
 }
-```
+// ```

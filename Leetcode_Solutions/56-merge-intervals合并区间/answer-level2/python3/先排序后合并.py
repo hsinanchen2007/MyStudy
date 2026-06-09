@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         if len(intervals) == 0:
@@ -31,4 +31,4 @@ class Solution:
                 tmp_ = []
         
         return re_res
-```
+# ```

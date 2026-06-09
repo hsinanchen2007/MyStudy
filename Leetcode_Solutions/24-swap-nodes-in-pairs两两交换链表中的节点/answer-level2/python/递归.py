@@ -1,8 +1,8 @@
-使用递归来解题，我们可以将问题拆分成规模更小的问题，即前$n$个节点的交换为前两个节点的交换加上后$n-2$个节点的交换。
+# 使用递归来解题，我们可以将问题拆分成规模更小的问题，即前$n$个节点的交换为前两个节点的交换加上后$n-2$个节点的交换。
 
-整道题目的代码如下：
+# 整道题目的代码如下：
 
-```python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -30,4 +30,4 @@ class Solution(object):
 
         # Now the head is the second node
         return second_node
-```
+# ```

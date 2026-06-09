@@ -1,9 +1,9 @@
-### 解题思路
-就是相当于从第一个节点开始对应得出ASCII码，然后如果赋值过的就说明重复了（类似于bool？我不太清楚c里有没有这个类型），然后将重复的位置作为首位start，然后得出max。感谢leetcode大佬给我这种想法，要不我鳖好几天也憋不出来。
+// ### 解题思路
+// 就是相当于从第一个节点开始对应得出ASCII码，然后如果赋值过的就说明重复了（类似于bool？我不太清楚c里有没有这个类型），然后将重复的位置作为首位start，然后得出max。感谢leetcode大佬给我这种想法，要不我鳖好几天也憋不出来。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 //copy大佬   算法太巧妙了
 int lengthOfLongestSubstring(char * s){
 
@@ -33,4 +33,4 @@ int lengthOfLongestSubstring(char * s){
 
     return max;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-开辟一个相同size的数组,记录每一个数字出现的次数，最后出现两次的就是重复的数字，出现0次的就是缺失的数字
+// ### 解题思路
+// 开辟一个相同size的数组,记录每一个数字出现的次数，最后出现两次的就是重复的数字，出现0次的就是缺失的数字
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] findErrorNums(int[] nums) {
         // 开辟一个相同size的数组
@@ -23,4 +23,4 @@ class Solution {
         return new int[]{dup + 1, lost + 1};
     }
 }
-```
+// ```

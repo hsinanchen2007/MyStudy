@@ -1,9 +1,9 @@
 
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def calPoints(self, ops: List[str]) -> int:
         stack=[]
@@ -17,4 +17,4 @@ class Solution:
             else:
                 stack.append(int(res))
         return sum(stack)
-```
+# ```

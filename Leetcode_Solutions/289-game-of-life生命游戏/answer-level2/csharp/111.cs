@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public void GameOfLife(int[][] board) {
         int n = board.Length;
@@ -55,4 +55,4 @@ public class Solution {
     }
 }
 
-```
+// ```

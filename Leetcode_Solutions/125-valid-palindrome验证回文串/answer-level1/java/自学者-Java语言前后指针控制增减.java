@@ -1,17 +1,17 @@
-### 解题思路
-* 前后双指针
-* 字母忽略大小写
-* 只识别数字是字母，空格标点符号不要
+// ### 解题思路
+// * 前后双指针
+// * 字母忽略大小写
+// * 只识别数字是字母，空格标点符号不要
 
-### 刷题进阶
-* Character.isLetterOrDigit() 函数的使用
-* 前指针的跳转
-* 后指针的减少
-* length减去一个索引的计算公式
+// ### 刷题进阶
+// * Character.isLetterOrDigit() 函数的使用
+// * 前指针的跳转
+// * 后指针的减少
+// * length减去一个索引的计算公式
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean isPalindrome(String s) {
         int len = s.length();
@@ -38,4 +38,4 @@ class Solution {
         return true;
     }
 }
-```
+// ```

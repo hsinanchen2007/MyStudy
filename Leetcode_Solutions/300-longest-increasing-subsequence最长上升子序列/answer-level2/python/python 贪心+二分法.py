@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def lengthOfLIS(self, nums):
         """
@@ -29,4 +29,4 @@ class Solution(object):
                         break
                 cur_nums[l] = nums[i]
         return len(cur_nums)
-```
+# ```

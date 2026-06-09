@@ -1,26 +1,26 @@
-这道题做完，我就直奔题解区，想看看90的代码是怎么样的，结果发现一堆人把五十不到的都发出来了。。
+// 这道题做完，我就直奔题解区，想看看90的代码是怎么样的，结果发现一堆人把五十不到的都发出来了。。
 
 
-这里抛砖引玉一下，提供一个思路。
-首先，substring的题目，基本上肯定就是滑动窗口，把模版往上套就行了。
-这里用了俩窗口，第一个窗口O(n)时间，快速缩小范围，第二个最终进行判断。
+// 这里抛砖引玉一下，提供一个思路。
+// 首先，substring的题目，基本上肯定就是滑动窗口，把模版往上套就行了。
+// 这里用了俩窗口，第一个窗口O(n)时间，快速缩小范围，第二个最终进行判断。
 
-第一个窗口
-先不考虑concat，就通过窗口快速判断，那些位置开始的字符串的char的总计和words vector中的char的总计相同。
+// 第一个窗口
+// 先不考虑concat，就通过窗口快速判断，那些位置开始的字符串的char的总计和words vector中的char的总计相同。
 
-这一步耗时很短，遍历一遍字符串就搞定了，用一个char的map就可以了。
-用来快速缩小第二个窗口的范围。
+// 这一步耗时很短，遍历一遍字符串就搞定了，用一个char的map就可以了。
+// 用来快速缩小第二个窗口的范围。
 
-第二个窗口
-这个窗口就是把words中的word存入map中，然后用窗口的思路走下去就可以了。
+// 第二个窗口
+// 这个窗口就是把words中的word存入map中，然后用窗口的思路走下去就可以了。
 
-最后内存耗时，都是在65左右，暂时是想不到什么好的idea了，大家有什么好的思路也欢迎贡献一下。
+// 最后内存耗时，都是在65左右，暂时是想不到什么好的idea了，大家有什么好的思路也欢迎贡献一下。
 
-![image.png](https://pic.leetcode-cn.com/a7fad9e4c508d7d57ed8af3d71e8e53b71e08e9c408d617602625b05463ddef2-image.png)
+// ![image.png](https://pic.leetcode-cn.com/a7fad9e4c508d7d57ed8af3d71e8e53b71e08e9c408d617602625b05463ddef2-image.png)
 
 
-代码如下
-```
+// 代码如下
+// ```
 vector<int> findSubstring(string s, vector<string>& words) {
         vector<int> result;
         if (words.size() == 0) {
@@ -82,4 +82,4 @@ vector<int> findSubstring(string s, vector<string>& words) {
         }
         return true;
     }
-```
+// ```

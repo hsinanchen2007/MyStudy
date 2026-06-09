@@ -1,9 +1,9 @@
-### 解题思路
-关键在于把只有一行的用户筛选出来，然后用union链接其他用户的第二近活动。
+-- ### 解题思路
+-- 关键在于把只有一行的用户筛选出来，然后用union链接其他用户的第二近活动。
 
-### 代码
+-- ### 代码
 
-```mysql
+-- ```mysql
 # Write your MySQL query statement below
 select *
 from UserActivity
@@ -25,4 +25,4 @@ group by username)
 
 
 
-```
+-- ```

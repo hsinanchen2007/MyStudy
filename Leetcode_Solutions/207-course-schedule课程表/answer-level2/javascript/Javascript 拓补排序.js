@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} numCourses
  * @param {number[][]} prerequisites
@@ -38,4 +38,4 @@ var canFinish = function(numCourses, prerequisites) {
      }
      return order.length==numCourses;
 };
-```
+// ```

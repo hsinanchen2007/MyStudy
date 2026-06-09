@@ -1,5 +1,5 @@
-1.剪枝
-2.调用函数不要使用形参，用引用变量做参
+// 1.剪枝
+// 2.调用函数不要使用形参，用引用变量做参
 class Solution {
 public:
     bool exist(vector<vector<char>>& board, string word) {

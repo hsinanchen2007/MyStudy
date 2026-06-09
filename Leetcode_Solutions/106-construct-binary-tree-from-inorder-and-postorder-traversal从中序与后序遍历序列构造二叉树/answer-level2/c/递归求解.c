@@ -1,16 +1,16 @@
-### 解题思路
-此处撰写解题思路
-递归求解思路：postorder数组中依次作为子树的根节点，在处理每个根节点时，inorder数组中找到该根节点所在的位置，即
-i = FindIndex(inorder, left, right, node->val);
-以i为界，将inorder数组分为左右两部分（有可能为空），分别是当前根节点的左右子树。
-递归上述过程即可求解。
-注意点：
-1）后续遍历的顺序是：左子树 --> 右子树 --> 根节点，因此递归函数中处理时应该反过来，即 根节点 --> 右子树 --> 左子树
-2）注意递归结束的条件有两个，第一个是postorder的索引，这是为了防止数组越界访问，第二个是inorder数组的左右边界 left >= right，这是为了处理叶子节点的场景。
+// ### 解题思路
+// 此处撰写解题思路
+// 递归求解思路：postorder数组中依次作为子树的根节点，在处理每个根节点时，inorder数组中找到该根节点所在的位置，即
+// i = FindIndex(inorder, left, right, node->val);
+// 以i为界，将inorder数组分为左右两部分（有可能为空），分别是当前根节点的左右子树。
+// 递归上述过程即可求解。
+// 注意点：
+// 1）后续遍历的顺序是：左子树 --> 右子树 --> 根节点，因此递归函数中处理时应该反过来，即 根节点 --> 右子树 --> 左子树
+// 2）注意递归结束的条件有两个，第一个是postorder的索引，这是为了防止数组越界访问，第二个是inorder数组的左右边界 left >= right，这是为了处理叶子节点的场景。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -62,4 +62,4 @@ struct TreeNode* buildTree(int* inorder, int inorderSize, int* postorder, int po
 
     return SubTree(inorder, 0, inorderSize - 1, postorder, &index);
 }
-```
+// ```

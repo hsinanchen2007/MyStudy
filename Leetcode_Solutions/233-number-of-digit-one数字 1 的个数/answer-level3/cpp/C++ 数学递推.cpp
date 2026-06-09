@@ -1,5 +1,5 @@
-思路是计算每个10^i对应的答案，然后输入的数字，根据每个位上的数字，将结果逐一合并起来
-```
+// 思路是计算每个10^i对应的答案，然后输入的数字，根据每个位上的数字，将结果逐一合并起来
+// ```
 class Solution {
 public:
     vector<long long> tens{1};
@@ -24,5 +24,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/65f9f84695266936db4566cc0d31138feab6db4e2c2a765546e8dc2416c40682-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/65f9f84695266936db4566cc0d31138feab6db4e2c2a765546e8dc2416c40682-image.png)

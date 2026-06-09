@@ -1,6 +1,6 @@
 
-``
-```python []
+# ``
+# ```python []
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if s == "" or numRows == 1:
@@ -16,5 +16,5 @@ class Solution:
         for j,x in enumerate(Row):                
                 res[x]= ''.join([res[x],s[j]])
         return ''.join(res)
-```
+# ```
 

@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int maxProfit(int[] prices) {
         if(prices.length == 0) return 0;
@@ -18,4 +18,4 @@ class Solution {
         return profit_2_out;
     }
 }
-```
+// ```

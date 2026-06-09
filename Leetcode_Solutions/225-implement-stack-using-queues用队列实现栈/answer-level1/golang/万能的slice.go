@@ -1,10 +1,10 @@
-### 解题思路
-明确栈和队列的特点
-栈是FILO，队列则是FIFO，根据两者特点，用go的内置slice操作完成栈转队列，队列转栈的操作。
+// ### 解题思路
+// 明确栈和队列的特点
+// 栈是FILO，队列则是FIFO，根据两者特点，用go的内置slice操作完成栈转队列，队列转栈的操作。
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type MyStack struct {
     arr []int
 }
@@ -62,4 +62,4 @@ func (this *MyStack) Empty() bool {
  * param_3 := obj.Top();
  * param_4 := obj.Empty();
  */
-```
+// ```

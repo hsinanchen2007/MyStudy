@@ -1,7 +1,7 @@
-只有两个数组的拼接的情况下，按照下面的代码即可解决，注意在while循环之后的判定时，是用`i != size_1`以及`j != size_2`，不用再加1判断。
+# 只有两个数组的拼接的情况下，按照下面的代码即可解决，注意在while循环之后的判定时，是用`i != size_1`以及`j != size_2`，不用再加1判断。
 
 
-```python3
+# ```python3
 
 class ZigzagIterator:
     # 这道题的中文翻译是有问题的，这个“中间的元素”有歧义
@@ -42,6 +42,6 @@ class ZigzagIterator:
 # i, v = ZigzagIterator(v1, v2), []
 # while i.hasNext(): v.append(i.next())
 
-```
+# ```
 
-END.
+# END.

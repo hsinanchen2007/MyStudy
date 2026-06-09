@@ -1,9 +1,9 @@
-### 解题思路
-与官方题解2略有不同，仍使用广度优先搜索，但未使用temp临时数组，而只使用了一个队列queue，并使用count变量来判断是否到达每层末尾。
+# ### 解题思路
+# 与官方题解2略有不同，仍使用广度优先搜索，但未使用temp临时数组，而只使用了一个队列queue，并使用count变量来判断是否到达每层末尾。
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, x):
@@ -36,4 +36,4 @@ class Solution:
                 total=0
         return res
 
-```
+# ```

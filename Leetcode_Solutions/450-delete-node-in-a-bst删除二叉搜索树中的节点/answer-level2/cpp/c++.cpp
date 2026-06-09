@@ -1,6 +1,6 @@
-思路：利用二叉搜索树的性质，递归删除
-      注意点：只用判断右边为空 一次就ok了
-```
+// 思路：利用二叉搜索树的性质，递归删除
+//       注意点：只用判断右边为空 一次就ok了
+// ```
 class Solution {
 public:
     TreeNode* deleteNode(TreeNode* root, int key) {
@@ -27,4 +27,4 @@ public:
     }
 
 };
-```
+// ```

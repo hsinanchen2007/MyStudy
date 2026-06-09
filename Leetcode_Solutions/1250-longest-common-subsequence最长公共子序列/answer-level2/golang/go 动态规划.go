@@ -1,27 +1,27 @@
-### 解题思路
-此处撰写解题思路
-text1 = "abcde"
-text2 =  "ace"
+// ### 解题思路
+// 此处撰写解题思路
+// text1 = "abcde"
+// text2 =  "ace"
 
-[         a c e
-       [0 0 0 0] 
-     a [0 1 1 1] 
-     b [0 1 1 1] 
-     c [0 1 2 2] 
-     d [0 1 2 2] 
-     e [0 1 2 3]
-]
+// [         a c e
+//        [0 0 0 0] 
+//      a [0 1 1 1] 
+//      b [0 1 1 1] 
+//      c [0 1 2 2] 
+//      d [0 1 2 2] 
+//      e [0 1 2 3]
+// ]
 
-if str1[i] == str2[j] {    //如果相等
- 	dp[i+1][j+1] = dp[i][j] + 1
- 			} else {  //不等
- 				dp[i+1][j+1] = max(dp[i][j+1] , dp[i+1][j])
-  			}
+// if str1[i] == str2[j] {    //如果相等
+//  	dp[i+1][j+1] = dp[i][j] + 1
+//  			} else {  //不等
+//  				dp[i+1][j+1] = max(dp[i][j+1] , dp[i+1][j])
+//   			}
 
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func longestCommonSubsequence(text1 string, text2 string) int {
            
 	dp := make([][]int,len(text1)+1)
@@ -57,4 +57,4 @@ func max(x,y int) int {
 		return y
 	}
 }
-```
+// ```

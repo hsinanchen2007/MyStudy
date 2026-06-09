@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     bool isSubstr(string& s, string& d){
@@ -42,4 +42,4 @@ public:
         return reStr;
     }
 };
-```
+// ```

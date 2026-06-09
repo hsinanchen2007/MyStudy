@@ -1,13 +1,13 @@
-### 解题思路
-两种情况：
-1. "aA***" 类：第一个为小写，第二个为大写，返回false
-2. 从第二个字母开始遍历并统计大写个数：
-    （1）大写为0个，例“Abbbbbb”,则为true
-    （2）大写为长度-1，例“ABCDEFG”，则为true
+// ### 解题思路
+// 两种情况：
+// 1. "aA***" 类：第一个为小写，第二个为大写，返回false
+// 2. 从第二个字母开始遍历并统计大写个数：
+//     （1）大写为0个，例“Abbbbbb”,则为true
+//     （2）大写为长度-1，例“ABCDEFG”，则为true
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool detectCapitalUse(string word) {
@@ -20,4 +20,4 @@ public:
         else return false;
     }
 };
-```
+// ```

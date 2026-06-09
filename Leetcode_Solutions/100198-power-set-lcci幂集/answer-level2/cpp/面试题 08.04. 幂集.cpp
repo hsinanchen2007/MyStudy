@@ -1,6 +1,6 @@
-子集的个数为“2^集合元素个数”。对每个元素，在原来结果的基础上，有保持原状和增加本元素两个可能。
-方法一：迭代
-```
+// 子集的个数为“2^集合元素个数”。对每个元素，在原来结果的基础上，有保持原状和增加本元素两个可能。
+// 方法一：迭代
+// ```
 class Solution {
 public:
     vector<vector<int>> subsets(vector<int>& nums) {
@@ -16,9 +16,9 @@ public:
         return res;
     }
 };
-```
-方法二：递归
-```
+// ```
+// 方法二：递归
+// ```
 class Solution {
 private:
     void Dfs(vector<vector<int>>& res, vector<int>& nums, size_t idx, vector<int>& arr) {
@@ -40,6 +40,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
 

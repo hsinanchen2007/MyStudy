@@ -1,10 +1,10 @@
-## 思路:
+# ## 思路:
 
-我们只需固定一点，找这一点和其他点的距离，用哈希统计不同距离的个数，那么在其中一个距离下个数$A_k^2$，`k`为这个距离下的个数。
+# 我们只需固定一点，找这一点和其他点的距离，用哈希统计不同距离的个数，那么在其中一个距离下个数$A_k^2$，`k`为这个距离下的个数。
 
-## 代码:
+# ## 代码:
 
-```python
+# ```python
 class Solution:
     def numberOfBoomerangs(self, points: List[List[int]]) -> int:
         from collections import defaultdict
@@ -26,5 +26,5 @@ class Solution:
                 res += v * (v - 1)
         return res
         
-```
+# ```
 

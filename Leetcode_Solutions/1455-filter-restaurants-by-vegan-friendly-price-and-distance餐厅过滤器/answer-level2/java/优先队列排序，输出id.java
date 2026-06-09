@@ -1,9 +1,9 @@
-### 解题思路
-满足条件的加入到优先队列即可，注意优先队列的comparable的的条件即可，这题其实蛮esay的。
+// ### 解题思路
+// 满足条件的加入到优先队列即可，注意优先队列的comparable的的条件即可，这题其实蛮esay的。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     private static class Restaurants implements Comparable<Restaurants>{
         int id;
@@ -52,4 +52,4 @@ class Solution {
         return res;
     }
 }
-```
+// ```

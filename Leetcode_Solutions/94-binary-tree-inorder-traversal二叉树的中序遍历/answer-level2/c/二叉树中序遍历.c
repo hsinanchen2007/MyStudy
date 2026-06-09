@@ -1,4 +1,4 @@
-看评论大神整理
+// 看评论大神整理
 
 void Inorder(struct TreeNode*root,int *returnSize,int *res) 
 { 

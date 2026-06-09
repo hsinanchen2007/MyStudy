@@ -1,5 +1,5 @@
-c# 题解  dfs 加回溯
-```
+// c# 题解  dfs 加回溯
+// ```
 public class SolveNQueen
     {
         //深度优先搜索
@@ -91,4 +91,4 @@ public class SolveNQueen
 
         }
     }
-```
+// ```

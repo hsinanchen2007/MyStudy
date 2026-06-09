@@ -1,4 +1,4 @@
-```
+// ```
 int numRookCaptures(char** board, int boardSize, int* boardColSize){
     int res = 0;
     int x, y;
@@ -28,4 +28,4 @@ int numRookCaptures(char** board, int boardSize, int* boardColSize){
     }
     return res;
 }
-```
+// ```

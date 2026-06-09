@@ -1,9 +1,9 @@
-### 解题思路
-暴力遍历法如下
+# ### 解题思路
+# 暴力遍历法如下
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def maximumSwap(self, num: int) -> int:
         t = num
@@ -19,4 +19,4 @@ class Solution:
                 num[i],num[j] = num[j],num[i]
         if p == 0: return t
         return p
-```
+# ```

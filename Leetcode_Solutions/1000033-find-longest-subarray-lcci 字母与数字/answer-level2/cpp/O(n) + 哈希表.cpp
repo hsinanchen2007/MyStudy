@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
 	vector<string> findLongestSubarray(vector<string>& array) {
@@ -30,4 +30,4 @@ public:
 那么 说明 [0,j] 区间存在 cnt 个数字,也就是说[j+1,i]位置字母与数字个数相同
 
 */
-```
+// ```

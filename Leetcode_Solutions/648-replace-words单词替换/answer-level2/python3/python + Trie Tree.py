@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def replaceWords(self, dict: List[str], sentence: str) -> str:
         # root, successor
@@ -27,4 +27,4 @@ class Solution:
         for i in range(len(word_list)):
             word_list[i] = get_shortest_root(trie, word_list[i])
         return ' '.join(word_list)
-```
+# ```

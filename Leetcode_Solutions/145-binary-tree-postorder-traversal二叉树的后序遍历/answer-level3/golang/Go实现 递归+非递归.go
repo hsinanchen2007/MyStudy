@@ -1,5 +1,5 @@
-# **递归**
-```
+// # **递归**
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -21,10 +21,10 @@ func postorderTraversal(root *TreeNode) []int {
     res = append(res,root.Val)
     return res
 }
-```
+// ```
 
-# **非递归实现**
-```
+// # **非递归实现**
+// ```
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -58,5 +58,5 @@ func postorderTraversal(root *TreeNode) []int {
         }
     return res
 }
-```
+// ```
 

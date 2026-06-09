@@ -1,9 +1,9 @@
-### 解题思路
-就是int和str之间的转化
+# ### 解题思路
+# 就是int和str之间的转化
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 from typing import List
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
@@ -17,4 +17,4 @@ class Solution:
             number = str(int(string) + 1)
             list1 = list(number)
             return list1
-```
+# ```

@@ -1,4 +1,4 @@
-```c++
+// ```c++
 bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
     std::stack<int> s;
     int j = 0;
@@ -11,4 +11,4 @@ bool validateStackSequences(vector<int>& pushed, vector<int>& popped) {
     }
     return s.empty();
 }
-```
+// ```

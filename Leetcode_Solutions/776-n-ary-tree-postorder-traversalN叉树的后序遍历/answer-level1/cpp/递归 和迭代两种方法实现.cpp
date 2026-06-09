@@ -1,7 +1,7 @@
 
-# 迭代
+// # 迭代
 
-```
+// ```
 class Solution {
 public:
     vector<int> postorder(Node* root) {
@@ -44,9 +44,9 @@ public:
         return res;
     }
 };
-```
-# 递归
-```
+// ```
+// # 递归
+// ```
 class Solution {
 public:
     vector<int> postorder(Node* root) {
@@ -67,4 +67,4 @@ public:
     }
     vector<int>res;
 };
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 #广度优先搜索方法 BFS
 class Solution(object):
     def orangesRotting(self, grid):
@@ -43,4 +43,4 @@ class Solution(object):
             count_minu += 1
         #最后判断是否还有好橘子，有，返回-1，没有返回count_minu
         return -1 if[1 for i in range(c) for j in range(r) if grid[j][i] == 1] else count_minu
-```
+# ```

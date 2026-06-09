@@ -1,9 +1,9 @@
-### 解题思路
-递归方法 两个指针往中间移动并交换元素直到相遇
+# ### 解题思路
+# 递归方法 两个指针往中间移动并交换元素直到相遇
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def reverseString(self, s):
         """
@@ -17,4 +17,4 @@ class Solution(object):
         
         digui(0,len(s)-1)
 
-```
+# ```

@@ -1,9 +1,9 @@
-### 解题思路
-Go暴力 解法
+// ### 解题思路
+// Go暴力 解法
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func maxArea(height []int) int {
     	max_contain := 0
 	aera := 0
@@ -28,4 +28,4 @@ func min(a, b int) int {
 	}
 	return b
 }
-```
+// ```

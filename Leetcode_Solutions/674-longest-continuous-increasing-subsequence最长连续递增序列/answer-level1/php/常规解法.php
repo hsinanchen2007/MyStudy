@@ -1,9 +1,9 @@
-### 解题思路
-常规解法
+// ### 解题思路
+// 常规解法
 
-### 代码
+// ### 代码
 
-```php
+// ```php
 class Solution {
 
     /**
@@ -27,4 +27,4 @@ class Solution {
         return $maxCount;
     }
 }
-```
+// ```

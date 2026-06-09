@@ -1,5 +1,5 @@
-![df.jpg.png](https://pic.leetcode-cn.com/8d9869f15159495ccd29a482b68bfd8b2e498180d36b4017117b8538d23e32c9-df.jpg.png)
-```
+# ![df.jpg.png](https://pic.leetcode-cn.com/8d9869f15159495ccd29a482b68bfd8b2e498180d36b4017117b8538d23e32c9-df.jpg.png)
+# ```
 class Solution(object):
     def addNegabinary(self, arr1, arr2):
         """
@@ -33,4 +33,4 @@ class Solution(object):
                 d = [0] + d
                 c = c // -2
         return d
-```
+# ```

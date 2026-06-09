@@ -1,5 +1,5 @@
 
-```
+// ```
 class Solution(object):
     def numTimesAllBlue(self, light):
         """
@@ -27,4 +27,4 @@ class Solution(object):
             if right == -1 :
                 ret+=1
         return ret
-```
+// ```

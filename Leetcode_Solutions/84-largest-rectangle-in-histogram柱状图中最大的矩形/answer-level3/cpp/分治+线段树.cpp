@@ -1,8 +1,8 @@
-参考官方题解实现了不同的解法，思路可参考官方题解。
+// 参考官方题解实现了不同的解法，思路可参考官方题解。
 
-1. 分治+线段树 
+// 1. 分治+线段树 
 
-```
+// ```
 typedef struct SegTreeNode {
     int start, end, minIndex;
     SegTreeNode *left, *right;
@@ -61,11 +61,11 @@ class Solution {
         return root;
     }
 };
-```
+// ```
 
-2. 单调栈
+// 2. 单调栈
 
-```
+// ```
 class Solution {
    public:
     int largestRectangleArea(vector<int>& heights) {
@@ -107,4 +107,4 @@ class Solution {
     }
 };
 
-```
+// ```

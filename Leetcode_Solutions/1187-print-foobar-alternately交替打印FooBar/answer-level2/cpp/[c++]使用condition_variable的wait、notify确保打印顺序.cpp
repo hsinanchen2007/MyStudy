@@ -1,5 +1,5 @@
-使用条件变量控制，确保foo先于bar打印，第一个打印确保是foo。
-```
+// 使用条件变量控制，确保foo先于bar打印，第一个打印确保是foo。
+// ```
 #include <functional>
 #include <thread>
 #include <condition_variable>
@@ -50,4 +50,4 @@ private:
     condition_variable cv1, cv2;
     mutex m;
 };
-```
+// ```

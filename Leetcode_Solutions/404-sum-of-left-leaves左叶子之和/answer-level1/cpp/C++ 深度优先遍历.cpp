@@ -1,9 +1,9 @@
-### 解题思路
-深度优先遍历，判断条件为是不是左子树。
+// ### 解题思路
+// 深度优先遍历，判断条件为是不是左子树。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -32,6 +32,6 @@ public:
     }
 };
 
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/4a8e5a4fe7b0e40bf987ce7c0c432aee79e8e329964067d94c0ba354a3fecbd9-image.png)
+// ![image.png](https://pic.leetcode-cn.com/4a8e5a4fe7b0e40bf987ce7c0c432aee79e8e329964067d94c0ba354a3fecbd9-image.png)

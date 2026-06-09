@@ -1,7 +1,7 @@
-简单的迭代
-1.如果当前结点为null，直接返回list
-2.如果当前结点的children为null，list.add(root.val),返回list
-3.遍历当前结点的children中的每个结点，进行迭代操作，然后list.add(root.val)
+// 简单的迭代
+// 1.如果当前结点为null，直接返回list
+// 2.如果当前结点的children为null，list.add(root.val),返回list
+// 3.遍历当前结点的children中的每个结点，进行迭代操作，然后list.add(root.val)
 
 
 class Solution {

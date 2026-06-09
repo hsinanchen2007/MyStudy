@@ -1,15 +1,15 @@
-# 栈实现
-通过构造一个栈，后进先出的特性，
+// # 栈实现
+// 通过构造一个栈，后进先出的特性，
 
-1. 把输入的nums数组放入一个新构造的栈中，
+// 1. 把输入的nums数组放入一个新构造的栈中，
 
-2. 然后把nums数组的后k个数依次Pop出来，并拼接到输出数组output的前面
+// 2. 然后把nums数组的后k个数依次Pop出来，并拼接到输出数组output的前面
 
-3. 把nums数组后k个数之前的数字，依次添加到输出数组中
+// 3. 把nums数组后k个数之前的数字，依次添加到输出数组中
 
-4. 把输出数组赋值给nums数组
+// 4. 把输出数组赋值给nums数组
 
-```go
+// ```go
 // 数组items，数组大小len(nums)
 type ArrayQueue struct {
 	queue []int
@@ -53,11 +53,11 @@ func rotate(nums []int, k int) {
 	}
     nums = append(nums[:0], output...)
 }
-```
+// ```
 
-## 优化
+// ## 优化
 
-```go
+// ```go
 func rotate(nums []int, k int) {
     stack := []int{}
     
@@ -80,4 +80,4 @@ func rotate(nums []int, k int) {
     //4. 把输出数组赋值给nums数组
     nums = append(nums[:0], res...)
 }
-```
+// ```

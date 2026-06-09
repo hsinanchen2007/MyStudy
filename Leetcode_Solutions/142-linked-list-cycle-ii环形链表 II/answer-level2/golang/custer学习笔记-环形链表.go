@@ -1,4 +1,4 @@
-```go
+// ```go
 func detectCycle(head *ListNode) *ListNode {
     if head == nil || head.Next == nil {
         return nil
@@ -16,9 +16,9 @@ func detectCycle(head *ListNode) *ListNode {
     }
     return slow
 }
-```
+// ```
 
-```go
+// ```go
 func detectCycle(head *ListNode) *ListNode {
     // 步骤一：使用快慢指针判断链表是否有环
     slow, fast := head, head
@@ -41,4 +41,4 @@ func detectCycle(head *ListNode) *ListNode {
         return nil
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```go
+// ```go
 func constructArr(a []int) []int {
     if len(a) == 1 || len(a) == 0{
         return a
@@ -25,4 +25,4 @@ func constructArr(a []int) []int {
     }
     return result
 }
-```
+// ```

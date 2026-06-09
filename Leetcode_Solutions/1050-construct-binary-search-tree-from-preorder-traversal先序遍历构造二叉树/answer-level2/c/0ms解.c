@@ -1,5 +1,5 @@
-循环数组，按照右大左小规则，从根开始寻找当前数字在树里的位置，在对应位置创建结构体空间
-```
+// 循环数组，按照右大左小规则，从根开始寻找当前数字在树里的位置，在对应位置创建结构体空间
+// ```
 void ss(struct TreeNode* L,int* preorder,int i){
     if(preorder[i]>=L->val)
         if(!L->right){
@@ -33,4 +33,4 @@ struct TreeNode* bstFromPreorder(int* preorder, int preorderSize){
         ss(L,preorder,i);
     return L;
 }
-```
+// ```

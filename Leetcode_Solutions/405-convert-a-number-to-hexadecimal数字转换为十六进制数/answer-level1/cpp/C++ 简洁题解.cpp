@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     char m[16] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'};
@@ -15,5 +15,5 @@ public:
         return res;
     }
 };
-```
-![image.png](https://pic.leetcode-cn.com/723a384858d71449136a1f552942ca77f2e806547b8d144f69fda26ce150c153-image.png)
+// ```
+// ![image.png](https://pic.leetcode-cn.com/723a384858d71449136a1f552942ca77f2e806547b8d144f69fda26ce150c153-image.png)

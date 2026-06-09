@@ -1,5 +1,5 @@
-解法：首先找到完成次数最多的任务，完成这个任务需要时间为 (count - 1) * (n + 1) + 1，接着找到相同任务次数（count）的其他任务，每个任务+1。但是有个意外情况，会导致任务总时间小于数组长度，例如（任务种类-1）> n, [A,A,B,B,C,C,D], n=2，这时可以依次完成任务 ABCDABC。
-```
+# 解法：首先找到完成次数最多的任务，完成这个任务需要时间为 (count - 1) * (n + 1) + 1，接着找到相同任务次数（count）的其他任务，每个任务+1。但是有个意外情况，会导致任务总时间小于数组长度，例如（任务种类-1）> n, [A,A,B,B,C,C,D], n=2，这时可以依次完成任务 ABCDABC。
+# ```
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
         if not tasks:
@@ -19,4 +19,4 @@ class Solution:
         if min_time < len(tasks):
             min_time = len(tasks)
         return min_time
-```
+# ```

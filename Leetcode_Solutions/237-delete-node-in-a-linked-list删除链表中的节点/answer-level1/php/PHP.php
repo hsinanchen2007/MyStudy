@@ -1,7 +1,7 @@
-时间复杂度： O(1)
-空间复杂度： O(1)
+// 时间复杂度： O(1)
+// 空间复杂度： O(1)
 
-```php
+// ```php
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -21,4 +21,4 @@ class Solution {
         $node->next = $node->next->next;
     }
 }
-```
+// ```

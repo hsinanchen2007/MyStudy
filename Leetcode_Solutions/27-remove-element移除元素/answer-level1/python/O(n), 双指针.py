@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+# ### 解题思路
+# 此处撰写解题思路
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def removeElement(self, nums, val):
         """
@@ -19,10 +19,10 @@ class Solution(object):
             else:
                 continue;
         return j
-```
+# ```
 
-# Java
-```
+# # Java
+# ```
 class Solution {
     public int removeElement(int[] nums, int val) {
         int j = 0;
@@ -38,4 +38,4 @@ class Solution {
         return j;
     }
 }
-```
+# ```

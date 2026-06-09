@@ -1,4 +1,4 @@
-```go
+// ```go
 import (
     "container/heap"
 )
@@ -74,6 +74,6 @@ func (this *MedianFinder) FindMedian() float64 {
  * obj.AddNum(num);
  * param_2 := obj.FindMedian();
  */
-```
+// ```
 
-内存占用挺高，后期看下如何优化
+// 内存占用挺高，后期看下如何优化

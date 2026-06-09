@@ -1,9 +1,9 @@
-### 解题思路
-直接解法
+// ### 解题思路
+// 直接解法
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} haystack
  * @param {string} needle
@@ -27,4 +27,4 @@ var strStr = function(haystack, needle) {
     }
     return -1
 };
-```
+// ```

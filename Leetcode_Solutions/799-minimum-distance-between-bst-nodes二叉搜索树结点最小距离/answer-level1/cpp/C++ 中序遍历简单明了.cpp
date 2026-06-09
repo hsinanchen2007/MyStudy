@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int minDiffInBST(TreeNode* root) {
@@ -16,4 +16,4 @@ public:
         dfs(root->right);
     }
 };
-```
+// ```

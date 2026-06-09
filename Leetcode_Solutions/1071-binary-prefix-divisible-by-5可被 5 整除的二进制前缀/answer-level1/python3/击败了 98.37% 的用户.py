@@ -1,9 +1,9 @@
-### 解题思路
+# ### 解题思路
 
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def prefixesDivBy5(self, A: List[int]) -> List[bool]:
         ans = [False] * len(A)
@@ -13,4 +13,4 @@ class Solution:
             ans[i] = (tmp == 0)
         return ans
 
-```
+# ```

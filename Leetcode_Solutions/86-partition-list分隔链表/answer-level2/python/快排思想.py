@@ -1,26 +1,26 @@
-给定一个链表和一个特定值 x，对链表进行分隔，使得所有小于 x 的节点都在大于或等于 x 的节点之前。
+# 给定一个链表和一个特定值 x，对链表进行分隔，使得所有小于 x 的节点都在大于或等于 x 的节点之前。
 
-你应当保留两个分区中每个节点的初始相对位置。
+# 你应当保留两个分区中每个节点的初始相对位置。
 
-示例:
+# 示例:
 
-    输入: head = 1->4->3->2->5->2, x = 3
-    输出: 1->2->2->4->3->5
+#     输入: head = 1->4->3->2->5->2, x = 3
+#     输出: 1->2->2->4->3->5
 
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/partition-list
+# 来源：力扣（LeetCode）
+# 链接：https://leetcode-cn.com/problems/partition-list
 
 
-### 解题思路
-#### 快排思想
-这个题的思路很符合快排中选择哨兵之后围绕哨兵进行排序的思想。其中x是哨兵。
+# ### 解题思路
+# #### 快排思想
+# 这个题的思路很符合快排中选择哨兵之后围绕哨兵进行排序的思想。其中x是哨兵。
 
-我们建立两个大小链表，遍历原始链表。比哨兵小的追加小链表s，大于等于x的追加到链表b。
+# 我们建立两个大小链表，遍历原始链表。比哨兵小的追加小链表s，大于等于x的追加到链表b。
 
-最后将大链表b链接到小链表中
+# 最后将大链表b链接到小链表中
 
-##### Python
-```python
+# ##### Python
+# ```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -46,10 +46,10 @@ class Solution(object):
             cur = cur.next
         scur.next = b.next
         return s.next
-```
+# ```
 
-##### Java
-```java
+# ##### Java
+# ```java
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -81,6 +81,6 @@ class Solution {
         return s.next  ;
     }
 }
-```
+# ```
 
 

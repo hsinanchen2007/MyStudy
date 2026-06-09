@@ -1,8 +1,8 @@
-### 解题思路
-用递归加回溯的方法
-### 代码
+// ### 解题思路
+// 用递归加回溯的方法
+// ### 代码
 
-```java
+// ```java
 class Solution {
     static int total;
 	static int number;
@@ -57,4 +57,4 @@ class Solution {
 		}
 	}
 }
-```
+// ```

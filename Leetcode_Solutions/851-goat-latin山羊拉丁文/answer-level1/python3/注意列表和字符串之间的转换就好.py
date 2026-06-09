@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def toGoatLatin(self, S: str) -> str:
         li = S.split(' ')
@@ -11,4 +11,4 @@ class Solution:
                 newList.append(li[i][1:] + li[i][0] +'ma' + 'a'*(i+1))
         print(newList)
         return ' '.join(newList)
-```
+# ```

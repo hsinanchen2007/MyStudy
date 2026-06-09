@@ -1,8 +1,8 @@
-这题以DP为思路，不算很难，以10为例子，我们知道结果是10=3+3+4这么拆分，如果我们假设res[i]表示i能拆分的正整数的最大乘积，那么如何计算res[10]呢？
-通过一个for循环，res[n]=res[i]*res[n-i]，看看最大的res[n]，即可。
-res[10]=res[3]*res[3]\*res[4],实际上，也就是res[10]=res[3]\*res[7]
+// 这题以DP为思路，不算很难，以10为例子，我们知道结果是10=3+3+4这么拆分，如果我们假设res[i]表示i能拆分的正整数的最大乘积，那么如何计算res[10]呢？
+// 通过一个for循环，res[n]=res[i]*res[n-i]，看看最大的res[n]，即可。
+// res[10]=res[3]*res[3]\*res[4],实际上，也就是res[10]=res[3]\*res[7]
 
-```golang
+// ```golang
 func integerBreak(n int) int {
     if n<=2 {
 		return 1
@@ -26,4 +26,4 @@ func integerBreak(n int) int {
 	}
 	return arr[n]
 }
-```
+// ```

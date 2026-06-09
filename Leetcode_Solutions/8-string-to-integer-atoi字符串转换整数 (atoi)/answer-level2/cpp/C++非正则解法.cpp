@@ -1,5 +1,5 @@
-思路：利用C++标准库实现lstrip及转换，利用异常排除非其他情况
-```
+// 思路：利用C++标准库实现lstrip及转换，利用异常排除非其他情况
+// ```
 class Solution {
 public:
     int myAtoi(string str) {
@@ -20,4 +20,4 @@ public:
         }
     }
 };
-```
+// ```

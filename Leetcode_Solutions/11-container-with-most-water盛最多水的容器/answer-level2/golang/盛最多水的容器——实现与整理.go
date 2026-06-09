@@ -1,10 +1,10 @@
 
-![image.png](https://pic.leetcode-cn.com/b15432b33a5cfd41c667983bc9cf4df85940c9f6cc6353f62afcbe276ef0bac3-image.png)
+// ![image.png](https://pic.leetcode-cn.com/b15432b33a5cfd41c667983bc9cf4df85940c9f6cc6353f62afcbe276ef0bac3-image.png)
 
 
-## 解题思考
+// ## 解题思考
 
-```go
+// ```go
 //    输入: [1,8,6,2,5,4,8,3,7]
 //    输出: 49
 // 输入数组长度至少为2
@@ -17,11 +17,11 @@
 // 高度之差不遍历数组是不知道的，长度却是根据数组本身的长度就可以确定的。
 // 我们要寻找最大面积，则先把长度设为最大，而后逐渐将长方形的两边（选矮的那边）往内缩，这样，长度递减，如果高度还变矮了就不用计算，高度变高才需要计算面积
 // 这种思路称之为“两边（双指针）向内夹逼”
-```
+// ```
 
-## 解法一： 粗暴枚举
+// ## 解法一： 粗暴枚举
 
-```go
+// ```go
 // 粗暴枚举
 // 时间O(N2),空间O(1)
 //50/50 cases passed (392 ms)
@@ -52,10 +52,10 @@ func max(a, b int) int {
 	return b
 }
 
-```
+// ```
 
-## 解法二： 两端向内夹逼
-```go
+// ## 解法二： 两端向内夹逼
+// ```go
 // 向内夹逼
 // 时间O(N)
 //50/50 cases passed (12 ms)
@@ -108,9 +108,9 @@ func max(a, b int) int {
     }
     return b
 }
-```
+// ```
 
-## 优秀题解
+// ## 优秀题解
 
-- 双指针法（向内夹逼）证明：<https://leetcode-cn.com/problems/container-with-most-water/solution/shuang-zhi-zhen-fa-zheng-que-xing-zheng-ming-by-r3/>
-- 图解： <https://leetcode-cn.com/problems/container-with-most-water/solution/container-with-most-water-shuang-zhi-zhen-fa-yi-do/>
+// - 双指针法（向内夹逼）证明：<https://leetcode-cn.com/problems/container-with-most-water/solution/shuang-zhi-zhen-fa-zheng-que-xing-zheng-ming-by-r3/>
+// - 图解： <https://leetcode-cn.com/problems/container-with-most-water/solution/container-with-most-water-shuang-zhi-zhen-fa-yi-do/>

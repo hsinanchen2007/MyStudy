@@ -1,9 +1,9 @@
-### 解题思路
-申请一个二维矩阵规格同matrix记录是否走过matrix中的元素，初始化为零走过置一，按照右下左上的顺序记录即可。
+// ### 解题思路
+// 申请一个二维矩阵规格同matrix记录是否走过matrix中的元素，初始化为零走过置一，按照右下左上的顺序记录即可。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
@@ -58,4 +58,4 @@ public:
 		return res;
     }
 };
-```
+// ```

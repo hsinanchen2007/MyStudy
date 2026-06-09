@@ -1,9 +1,9 @@
-### 解题思路
-双背包dp，填三维dp表
+// ### 解题思路
+// 双背包dp，填三维dp表
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int max(int a,int b)
@@ -51,4 +51,4 @@ public:
         return dp[m][n][strs.size()-1];
     }
 };
-```
+// ```

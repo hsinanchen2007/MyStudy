@@ -1,9 +1,9 @@
-### 解题思路
-这道题可以类比深度学习的CNN运算，所以下面用Numpy来进行计算。
+# ### 解题思路
+# 这道题可以类比深度学习的CNN运算，所以下面用Numpy来进行计算。
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def gameOfLife(self, board):
         """
@@ -25,4 +25,4 @@ class Solution(object):
                     board[i][j] = 1 # 0 -> 1
 
         return board
-```
+# ```

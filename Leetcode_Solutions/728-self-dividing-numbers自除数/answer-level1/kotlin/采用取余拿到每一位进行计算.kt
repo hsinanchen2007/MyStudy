@@ -1,6 +1,6 @@
-* 首先判断该数是否为0
-* 其次判断根据取模操作判断每一位数是否满足条件 `x != 0 && num/x == 0`
-```
+// * 首先判断该数是否为0
+// * 其次判断根据取模操作判断每一位数是否满足条件 `x != 0 && num/x == 0`
+// ```
 fun selfDividingNumbers(left: Int, right: Int): List<Int> {
     fun isSelfDividingNumber(num: Int): Boolean {
         if (num == 0) return false
@@ -25,4 +25,4 @@ fun selfDividingNumbers(left: Int, right: Int): List<Int> {
     }
     return list
 }
-```
+// ```

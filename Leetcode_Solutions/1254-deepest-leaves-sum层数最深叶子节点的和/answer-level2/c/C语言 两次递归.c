@@ -1,11 +1,11 @@
-### 解题思路
-第一次递归遍历找到最大深度
-第二次递归进行求和
-![image.png](https://pic.leetcode-cn.com/0f98e45ef56fed1ce29d6b0e6d686d095b9a5e15142f46e8275be7dadb273f26-image.png)
+// ### 解题思路
+// 第一次递归遍历找到最大深度
+// 第二次递归进行求和
+// ![image.png](https://pic.leetcode-cn.com/0f98e45ef56fed1ce29d6b0e6d686d095b9a5e15142f46e8275be7dadb273f26-image.png)
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -56,4 +56,4 @@ int deepestLeavesSum(struct TreeNode* root){
 	sumDeep(root, deeplevel, 0, &sum);
 	return sum;
 }
-```
+// ```

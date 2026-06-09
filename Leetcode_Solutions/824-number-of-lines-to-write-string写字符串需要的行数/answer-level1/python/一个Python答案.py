@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def numberOfLines(self, widths, S):
         """
@@ -15,6 +15,6 @@ class Solution(object):
             else:
                 tmp += widths[ord(c) - ord('a')]
         return [row, tmp]
-```
+# ```
 
-狗尾续貂
+# 狗尾续貂

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def numberOfSubstrings(self, s: str) -> int:
         d = {}
@@ -25,4 +25,4 @@ class Solution:
                 d[s[left]] -= 1
             left += 1
         return res
-```
+# ```

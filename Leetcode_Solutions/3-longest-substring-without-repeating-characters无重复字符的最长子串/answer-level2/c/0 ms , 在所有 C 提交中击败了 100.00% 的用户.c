@@ -1,4 +1,4 @@
-```
+// ```
 int lengthOfLongestSubstring(char *s) {
     char *pos[256] = {0,};
 
@@ -32,4 +32,4 @@ int lengthOfLongestSubstring(char *s) {
     }
     return maxn;
 }
-```
+// ```

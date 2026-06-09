@@ -1,9 +1,9 @@
-### 解题思路
-其实最重要的是这个 i--; 遍历数组如果有和val相同的值就用splice方法删除该项，删除后因为原数组少了一位，所以得回退一位
+// ### 解题思路
+// 其实最重要的是这个 i--; 遍历数组如果有和val相同的值就用splice方法删除该项，删除后因为原数组少了一位，所以得回退一位
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} val
@@ -18,4 +18,4 @@ var removeElement = function(nums, val) {
     }
     return nums.length;
 };
-```
+// ```

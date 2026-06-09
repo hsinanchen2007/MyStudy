@@ -1,9 +1,9 @@
-### 解题思路
-利用multimap中map[]如果不存在自动创建，对数组进行遍历，将数组中的值作为key值存放于map容器中，因为key值在multimap是可以重复的，所以可以计算出每个元素出现的次数
+// ### 解题思路
+// 利用multimap中map[]如果不存在自动创建，对数组进行遍历，将数组中的值作为key值存放于map容器中，因为key值在multimap是可以重复的，所以可以计算出每个元素出现的次数
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -18,4 +18,4 @@ public:
         return a;
     }
 };
-```
+// ```

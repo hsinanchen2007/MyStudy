@@ -1,4 +1,4 @@
-```scala
+// ```scala
 object Solution {
   def pivotIndex(nums: Array[Int]): Int = {
     val len = nums.length
@@ -13,4 +13,4 @@ object Solution {
     -1
   }
 }
-```
+// ```

@@ -1,7 +1,7 @@
 
-采用两个栈，一个栈用来存放原始元素，另一个栈专门用来存放最小值
+// 采用两个栈，一个栈用来存放原始元素，另一个栈专门用来存放最小值
 
-```
+// ```
 type MinStack struct {
     elems []int 
     mins []int 
@@ -56,4 +56,4 @@ func (this *MinStack) GetMin() int {
  * param_3 := obj.Top();
  * param_4 := obj.GetMin();
  */
-```
+// ```

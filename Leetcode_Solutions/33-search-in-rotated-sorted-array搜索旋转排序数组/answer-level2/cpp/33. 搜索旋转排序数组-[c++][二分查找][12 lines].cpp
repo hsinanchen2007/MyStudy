@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 int search(vector<int>& nums, int target) {
     int lo = 0, hi = nums.size() - 1;
     while (lo < hi) {
@@ -13,4 +13,4 @@ int search(vector<int>& nums, int target) {
     }
     return nums.empty() ? -1 : (nums[lo] == target ? lo : -1);
 }
-```
+// ```

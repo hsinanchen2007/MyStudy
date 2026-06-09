@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int hammingDistance(int x, int y) {
         int s=x^y;      //求x与y异或之后的值，转换为二进制就可以得到一的位置
@@ -17,4 +17,4 @@ class Solution {
     return count;
     }
 }
-```
+// ```

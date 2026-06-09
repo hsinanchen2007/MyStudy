@@ -1,4 +1,4 @@
-```
+// ```
 struct HashData
 {
     int key;
@@ -68,4 +68,4 @@ public:
         }
     }
 };
-```
+// ```

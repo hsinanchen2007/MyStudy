@@ -1,8 +1,8 @@
-个人感觉这道题目和上次167场周赛最后一题很相似，在普通的广度优先搜索的基础上引入新的状态。
-首先我们考虑，如果没有钥匙的限制，是不是就是一道很普通的搜索题目了？只需要考虑我是否拥有盒子，寻常的bfs即可。
-所以这道题其实状态量是二维的，分别是是否拥有盒子，是否拥有钥匙，可以考虑用vector<pair<bool,bool>>存储状态，当然用一维也是一样的。
-下面贴代码：
-```
+// 个人感觉这道题目和上次167场周赛最后一题很相似，在普通的广度优先搜索的基础上引入新的状态。
+// 首先我们考虑，如果没有钥匙的限制，是不是就是一道很普通的搜索题目了？只需要考虑我是否拥有盒子，寻常的bfs即可。
+// 所以这道题其实状态量是二维的，分别是是否拥有盒子，是否拥有钥匙，可以考虑用vector<pair<bool,bool>>存储状态，当然用一维也是一样的。
+// 下面贴代码：
+// ```
 class Solution {
 public:
     int maxCandies(vector<int>& status, vector<int>& candies, vector<vector<int>>& keys, vector<vector<int>>& containedBoxes, vector<int>& initialBoxes) {
@@ -69,4 +69,4 @@ public:
         return count;
     }
 };
-```
+// ```

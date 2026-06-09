@@ -1,9 +1,9 @@
-### 解题思路
-因为每个字符串的长度相同，我们就将相应位置的字符进行对比，时间复杂度为O(LN), L为字符串长度, N为元素个数。
+// ### 解题思路
+// 因为每个字符串的长度相同，我们就将相应位置的字符进行对比，时间复杂度为O(LN), L为字符串长度, N为元素个数。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int minDeletionSize(String[] A) {
         int D = 0;
@@ -22,4 +22,4 @@ class Solution {
         return D;
     }
 }
-```
+// ```

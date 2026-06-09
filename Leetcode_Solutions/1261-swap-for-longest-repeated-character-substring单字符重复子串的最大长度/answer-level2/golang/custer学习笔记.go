@@ -1,4 +1,4 @@
-```go
+// ```go
 func maxRepOpt1(text string) int {
     cnt := make(map[byte]int)
     for i := 0; i < len(text); i++ {
@@ -35,4 +35,4 @@ func maxRepOpt1(text string) int {
     }
     return res
 }
-```
+// ```

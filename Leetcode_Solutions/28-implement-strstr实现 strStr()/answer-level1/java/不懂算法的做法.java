@@ -1,9 +1,9 @@
-### 解题思路
-没啥思路，也不懂算法，就用的平时常用的java方法
+// ### 解题思路
+// 没啥思路，也不懂算法，就用的平时常用的java方法
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int strStr(String haystack, String needle) {
         if (needle == "" || "".equals(needle))
@@ -24,4 +24,4 @@ class Solution {
         return -1;
     }
 }
-```
+// ```

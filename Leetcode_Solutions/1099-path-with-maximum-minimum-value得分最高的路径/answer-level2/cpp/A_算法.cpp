@@ -1,5 +1,5 @@
-本质是A*算法，每次选取连通区域最大的外延即可，我们只在图的连通区域中的两个点一定存在相连的路径。
-```
+// 本质是A*算法，每次选取连通区域最大的外延即可，我们只在图的连通区域中的两个点一定存在相连的路径。
+// ```
 struct cmp{
     bool operator() (pair<int,int> &a , pair<int,int> & b){
         return a.first <= b.first;
@@ -49,4 +49,4 @@ public:
         return -1;
     }
 };
-```
+// ```

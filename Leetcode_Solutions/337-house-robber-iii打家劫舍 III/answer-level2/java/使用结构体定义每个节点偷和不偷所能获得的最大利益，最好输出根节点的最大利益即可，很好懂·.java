@@ -1,6 +1,6 @@
-`
+// `
 
-```python []
+// ```python []
 class Node(object):
     def __init__(self,y_money,n_money):
         self.y_money=y_money  //偷这一家
@@ -19,8 +19,8 @@ class Solution(object):
         y_money=root.val+left.n_money+right.n_money   //偷当前节点所能获得的金额
         n_money=max(left.n_money,left.y_money)+max(right.n_money,right.y_money)  //不偷当前节点所能获得的金额
         return Node(y_money,n_money)
-```
-```java []
+// ```
+// ```java []
 class Solution {
     class Node{
         int y_money;
@@ -44,4 +44,4 @@ class Solution {
         return  new Node(y_money,n_money);
     }
 }
-```
+// ```

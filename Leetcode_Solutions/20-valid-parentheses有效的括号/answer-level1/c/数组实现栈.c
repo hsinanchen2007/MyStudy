@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
-直接上代码
-### 代码
+// ### 解题思路
+// 此处撰写解题思路
+// 直接上代码
+// ### 代码
 
-```c
+// ```c
 bool isValid(char * s){
     if(s==NULL) return true;
     char key[10000];
@@ -35,4 +35,4 @@ bool isValid(char * s){
     if(j==-1) return true;
     else return false;
 }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-应该注意到题目给的链表是没有头结点的，
+// ### 解题思路
+// 应该注意到题目给的链表是没有头结点的，
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ public:
 		return l->next;
     }
 };
-```
+// ```

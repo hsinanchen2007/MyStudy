@@ -1,11 +1,11 @@
-### 解题思路
-Python版本的bfs，首先统计路径对应的障碍物数量，超出视为失败。
-然后若队列顶端路径障碍数量多于当前点已知障碍物，推出。
-否则，继续遍历该点附近点，若附近点(l或l+1)小于当前点已知障碍物，加入队列。
-同时，不考虑障碍，最短路为m+n-3,若k>=m+n-3,直接返回。
-### 代码
+# ### 解题思路
+# Python版本的bfs，首先统计路径对应的障碍物数量，超出视为失败。
+# 然后若队列顶端路径障碍数量多于当前点已知障碍物，推出。
+# 否则，继续遍历该点附近点，若附近点(l或l+1)小于当前点已知障碍物，加入队列。
+# 同时，不考虑障碍，最短路为m+n-3,若k>=m+n-3,直接返回。
+# ### 代码
 
-```
+# ```
 class Solution:
     def shortestPath(self, grid: List[List[int]], k: int) -> int:
         m,n=len(grid),len(grid[0])
@@ -29,4 +29,4 @@ class Solution:
                         if (m-1,n-1) in visited:
                             return count
         return 0 if len(grid)==1 and len(grid[0])==1 else -1
-```
+# ```

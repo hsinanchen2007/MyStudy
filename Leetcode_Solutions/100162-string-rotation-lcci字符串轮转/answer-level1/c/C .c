@@ -1,4 +1,4 @@
-```
+// ```
 bool isFlipedString(char* s1, char* s2){
   
   if(strlen(s1) != strlen(s2)) return 0;
@@ -15,4 +15,4 @@ bool isFlipedString(char* s1, char* s2){
 
   return ret;
 }
-```
+// ```

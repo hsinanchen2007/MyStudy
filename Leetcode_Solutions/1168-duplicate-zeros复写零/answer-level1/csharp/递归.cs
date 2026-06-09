@@ -1,11 +1,11 @@
-### 解题思路
-执行用时：536 ms
-内存消耗：65.1 MB
+// ### 解题思路
+// 执行用时：536 ms
+// 内存消耗：65.1 MB
 
-刚刚学了递归，应用一下。
-### 代码
+// 刚刚学了递归，应用一下。
+// ### 代码
 
-```csharp
+// ```csharp
 public class Solution {
     public void DuplicateZeros(int[] arr) {
     
@@ -26,4 +26,4 @@ public class Solution {
         }
     }
 }
-```
+// ```

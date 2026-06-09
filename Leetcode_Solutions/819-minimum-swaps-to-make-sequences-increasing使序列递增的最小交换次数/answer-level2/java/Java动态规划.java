@@ -1,4 +1,4 @@
-```
+// ```
     public int minSwap(int[] A, int[] B) {
         int[] keep = new int[A.length];//不变
         int[] swap = new int[A.length];//交换
@@ -20,4 +20,4 @@
         }
         return Math.min(keep[A.length - 1], swap[A.length - 1]);
     }
-```
+// ```

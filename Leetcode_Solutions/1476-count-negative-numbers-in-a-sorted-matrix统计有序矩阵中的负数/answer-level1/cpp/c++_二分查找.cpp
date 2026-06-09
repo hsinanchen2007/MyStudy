@@ -1,4 +1,4 @@
-```cpp
+// ```cpp
 class Solution {
 public:
     int countNegative(vector<int>& V){
@@ -23,4 +23,4 @@ public:
         return sum;
     }
 };
-```
+// ```

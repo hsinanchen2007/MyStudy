@@ -1,10 +1,10 @@
-### 解题思路
-Python 字典 + 链表 ， 字典用来记录字符中每个单词出现的频率， 链表用来根据词频进行排序， 排序时需要自定义比较函数
-时间复杂度 O(nlogn) 空间复杂度 O(n)
+# ### 解题思路
+# Python 字典 + 链表 ， 字典用来记录字符中每个单词出现的频率， 链表用来根据词频进行排序， 排序时需要自定义比较函数
+# 时间复杂度 O(nlogn) 空间复杂度 O(n)
 
-### 代码
+# ### 代码
 
-```python
+# ```python
 class Solution(object):
     def frequencySort(self, s):
         """
@@ -26,4 +26,4 @@ class Solution(object):
             res.append(i[0] * i[1]) # 根据词频生成相应数量的单词
         return "".join(res)
     
-```
+# ```

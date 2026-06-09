@@ -1,9 +1,9 @@
-### 解题思路
-经典模版
+// ### 解题思路
+// 经典模版
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @param {number} target
@@ -27,4 +27,4 @@ var twoSum = function(nums, target) {
     }
     return result
 };
-```
+// ```

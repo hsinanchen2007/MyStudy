@@ -1,19 +1,19 @@
-1. 关于复杂度
-    1.1 时间复杂度为O(n)
-    1.2 空间负责度为O(1)
-2. 我的解题思路
-    2.1 根据题意，当n<2时返回false
-    2.2 使用三指针
-        2.2.1 res,记录计算结果
-        2.2.2 i,遍历指针
-        2.2.3 border,循环终止条件,它的值为Math.sqrt(num)
-    2.3 循环判断以及将res置为合条件的值
-3. 提交记录
-    3.1 力扣中耗时4ms,消耗32.6MB内存
-    3.2 leetcode中耗时1ms,消耗33MB内存
-4. Q&A
+// 1. 关于复杂度
+//     1.1 时间复杂度为O(n)
+//     1.2 空间负责度为O(1)
+// 2. 我的解题思路
+//     2.1 根据题意，当n<2时返回false
+//     2.2 使用三指针
+//         2.2.1 res,记录计算结果
+//         2.2.2 i,遍历指针
+//         2.2.3 border,循环终止条件,它的值为Math.sqrt(num)
+//     2.3 循环判断以及将res置为合条件的值
+// 3. 提交记录
+//     3.1 力扣中耗时4ms,消耗32.6MB内存
+//     3.2 leetcode中耗时1ms,消耗33MB内存
+// 4. Q&A
 
-```
+// ```
 /**
  * Problem
  *      507.Perfect Number
@@ -62,6 +62,6 @@ class Solution {
     }
 }
 
-```
-如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
-你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路
+// ```
+// 如果你有更好的想法或者疑问，可以到[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)提出issue，我会及时处理
+// 你也可以关注[我的leetcode解法仓库](https://github.com/cartoonYu/LeetCodeSolution)获得其他题目解题思路

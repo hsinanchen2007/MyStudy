@@ -1,4 +1,4 @@
-```
+// ```
 public class Solution {
     public int LengthOfLastWord(string s) {
         if(s == "") return 0;
@@ -23,4 +23,4 @@ public class Solution {
         return nums[nums.Count-1];
     }
 }
-```
+// ```

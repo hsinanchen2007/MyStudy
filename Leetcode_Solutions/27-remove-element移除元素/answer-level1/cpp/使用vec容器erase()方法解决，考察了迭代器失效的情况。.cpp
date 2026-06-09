@@ -1,5 +1,5 @@
 
-# 数组式容器(vector,deque)
+// # 数组式容器(vector,deque)
 int removeElement(vector<int>& nums, int val) {
     std::vector<int>::iterator iter;
     for (iter = nums.begin(); iter!= nums.end(); )

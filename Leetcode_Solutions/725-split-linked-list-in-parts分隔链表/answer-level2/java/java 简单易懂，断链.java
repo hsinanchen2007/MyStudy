@@ -1,7 +1,7 @@
- 1. 遍历链表，求链表的长length
- 2. 将ListNode[k]分成两部分，即 0到num2-1(num2= length%k)部分,添加的链表长度为num+1（length/k）
- 3. 第二部分num2到k-1,添加的链表长度为num;num = 0,添加的为null;
- 4. cut(ListNode left, int i) 将链表 left 切掉前 i 个节点，并返回后半部分的链表头
+//  1. 遍历链表，求链表的长length
+//  2. 将ListNode[k]分成两部分，即 0到num2-1(num2= length%k)部分,添加的链表长度为num+1（length/k）
+//  3. 第二部分num2到k-1,添加的链表长度为num;num = 0,添加的为null;
+//  4. cut(ListNode left, int i) 将链表 left 切掉前 i 个节点，并返回后半部分的链表头
 
  public ListNode[] splitListToParts(ListNode root, int k) {
 

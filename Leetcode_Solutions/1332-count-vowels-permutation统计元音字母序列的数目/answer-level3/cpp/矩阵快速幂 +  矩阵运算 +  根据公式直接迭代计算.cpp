@@ -1,7 +1,7 @@
-求出来对应的次序然后直接计算就行
-根据题意可画出对应的转移图, 然后根据对应关系进行转移即可
-![image.png](https://pic.leetcode-cn.com/ceac9043066c14c19a974cf7785d67345a8540fab8d15472d996cefbc94acf9f-image.png)
-```C++ []
+// 求出来对应的次序然后直接计算就行
+// 根据题意可画出对应的转移图, 然后根据对应关系进行转移即可
+// ![image.png](https://pic.leetcode-cn.com/ceac9043066c14c19a974cf7785d67345a8540fab8d15472d996cefbc94acf9f-image.png)
+// ```C++ []
     int countVowelPermutation(int n) {
         long long a = 1, e = 1, i = 1, o = 1, u = 1;
         long long res = 0, mod = 1e9+7;
@@ -17,12 +17,12 @@
         res = (a + e + i + o + u) % mod;
         return res;
     }
-```
+// ```
 
-这个题数据量再大一些就应该采用 矩阵来做运算，并可以通过矩阵快速幂来加速运算
-下面是通过矩阵进行运算的算法
+// 这个题数据量再大一些就应该采用 矩阵来做运算，并可以通过矩阵快速幂来加速运算
+// 下面是通过矩阵进行运算的算法
 
-```C++ []
+// ```C++ []
     int countVowelPermutation(int n) {
         // 矩阵的公式
         int mode = 1e9 + 7;
@@ -38,11 +38,11 @@
         for(int i=1; i<5; i++) arr[i] += arr[i-1];
         return arr.back() % mode;
     }
-```
+// ```
 
-通过矩阵快速幂进行计算的代码, 里面的矩阵相乘 multiply 以及矩阵幂运算 pow 函数是封装好的 
-碰到类似的问题, 可以直接套用
-```C++ []
+// 通过矩阵快速幂进行计算的代码, 里面的矩阵相乘 multiply 以及矩阵幂运算 pow 函数是封装好的 
+// 碰到类似的问题, 可以直接套用
+// ```C++ []
 class Solution {
 public:
     typedef long long ll;
@@ -90,4 +90,4 @@ public:
         return res.back().back() % MODE;
     }
 };
-```
+// ```

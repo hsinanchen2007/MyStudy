@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
     public int strToInt(String str) {
         int len=str.length();
@@ -54,4 +54,4 @@ class Solution {
         return sum;
     }
 }
-```
+// ```

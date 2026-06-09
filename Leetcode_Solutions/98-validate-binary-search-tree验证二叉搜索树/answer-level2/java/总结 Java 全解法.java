@@ -1,5 +1,5 @@
-我们从简单的**前序递归**开始
-```
+// 我们从简单的**前序递归**开始
+// ```
 class Solution {
     public boolean isValidBST(TreeNode root) {
         return dfs(root, Long.MIN_VALUE, Long.MAX_VALUE);
@@ -18,9 +18,9 @@ class Solution {
         return true;
     }
 }
-```
-写花哨一点是：
-```
+// ```
+// 写花哨一点是：
+// ```
 class Solution {
     public boolean isValidBST(TreeNode root) {
         return dfs(root, java.lang.Long.MIN_VALUE, java.lang.Long.MAX_VALUE);
@@ -29,9 +29,9 @@ class Solution {
         return (node == null) || node.val > min && node.val < max && dfs(node.left, min, node.val) && dfs(node.right, node.val, max);
     }
 }
-```
-如果不用递归，而用**栈**实现**前序**：
-```
+// ```
+// 如果不用递归，而用**栈**实现**前序**：
+// ```
 class Solution {
     Stack<TreeNode> st = new Stack<>();
     Stack<Long> upperList = new Stack<>(), 
@@ -60,9 +60,9 @@ class Solution {
         upperList.push(upper);
     }
 }
-```
-仅仅将栈改为队列，就实现了**广度优先**：
-```
+// ```
+// 仅仅将栈改为队列，就实现了**广度优先**：
+// ```
 class Solution {
     Queue<TreeNode> queue = new LinkedList<>();
     Queue<Long> upperList = new LinkedList<>(), 
@@ -91,9 +91,9 @@ class Solution {
         upperList.offer(upper);
     }
 }
-```
-现在换回栈，但改用**中序**排序
-```
+// ```
+// 现在换回栈，但改用**中序**排序
+// ```
 class Solution {
     public boolean isValidBST(TreeNode root) {
         Stack<TreeNode> st = new Stack<>();
@@ -112,9 +112,9 @@ class Solution {
         return true;
     }
 }
-```
-用**递归**来实现**中序**，往上翻看看和**前序递归**有什么区别，想一想为什么**中序**只需判断一次节点值的大小
-```
+// ```
+// 用**递归**来实现**中序**，往上翻看看和**前序递归**有什么区别，想一想为什么**中序**只需判断一次节点值的大小
+// ```
 class Solution {
     long lastVal = Long.MIN_VALUE;
     public boolean isValidBST(TreeNode root) {
@@ -133,9 +133,9 @@ class Solution {
         return true;
     }
 }
-```
-dfs和isValidBST 在参数返回值一致，可以把这两个合并为一个
-```
+// ```
+// dfs和isValidBST 在参数返回值一致，可以把这两个合并为一个
+// ```
 class Solution {
     long lastVal = Long.MIN_VALUE;
     public boolean isValidBST(TreeNode root) {
@@ -151,13 +151,13 @@ class Solution {
         return true;
     }
 }
-```
-写得花哨一点就只剩一行
-```
+// ```
+// 写得花哨一点就只剩一行
+// ```
 class Solution {
     long lastVal = Long.MIN_VALUE;
     public boolean isValidBST(TreeNode root) {
         return (root == null) || (isValidBST(root.left) && lastVal < (lastVal = root.val) && isValidBST(root.right));
     }
 }
-```
+// ```

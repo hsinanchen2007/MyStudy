@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int longestCommonSubsequence(String text1, String text2) {
         // dp[i][j]代表text1[0:i]和text2[0:j]的最长公共子序列数量
@@ -28,4 +28,4 @@ class Solution {
         
     }
 }
-```
+// ```

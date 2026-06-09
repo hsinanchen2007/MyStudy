@@ -1,9 +1,9 @@
-### 解题思路
-看注释
+// ### 解题思路
+// 看注释
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number[]} nums
  * @return {string}
@@ -22,4 +22,4 @@ var minNumber = function(nums) {
         }
     }).join("")
 };
-```
+// ```

@@ -1,6 +1,6 @@
-## 入队（push）
-单次 入队 操作时间复杂度 `O(1)`
-```
+// ## 入队（push）
+// 单次 入队 操作时间复杂度 `O(1)`
+// ```
     public void push(int x) {
         ListNode value = new ListNode(x);
         ListNode temp = head.next;
@@ -16,11 +16,11 @@
         head.next = value;
         value.next = temp;
     }
-```
+// ```
 
-## 出队（pop）
-单次 出队 操作最坏情况下的时间复杂度为 `O(n)` 最好情况下的时间复杂度为 `O(1)`
-```
+// ## 出队（pop）
+// 单次 出队 操作最坏情况下的时间复杂度为 `O(n)` 最好情况下的时间复杂度为 `O(1)`
+// ```
     public void pop() {
         if (head.next != null) {
             int currValue = head.next.val;
@@ -31,11 +31,11 @@
             }
         }
     }
-```
+// ```
 
-## 最小值（getMin）
-单次 最小值 操作时间复杂度 `O(1)`
-```
+// ## 最小值（getMin）
+// 单次 最小值 操作时间复杂度 `O(1)`
+// ```
     public int getMin() {
         if (head.next != null) {
             return minValue;
@@ -43,11 +43,11 @@
 
         return -1;
     }
-```
+// ```
 
-## 整体实现
+// ## 整体实现
 
-``` java
+// ``` java
 class MinStack {
     private int minValue;
     private ListNode head = null;
@@ -120,4 +120,4 @@ class MinStack {
         return min;
     }
 }
-```
+// ```

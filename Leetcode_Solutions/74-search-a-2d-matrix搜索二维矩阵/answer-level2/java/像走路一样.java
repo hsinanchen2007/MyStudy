@@ -1,9 +1,9 @@
-### 解题思路
-左下角开始的对角线上的元素有一个特点，就是上面的元素比他小，右侧的元素比他大
-所有只要target小于当前元素，那么就向上走，否则向下走，如果相等返回true 否则返回false
-### 代码
+// ### 解题思路
+// 左下角开始的对角线上的元素有一个特点，就是上面的元素比他小，右侧的元素比他大
+// 所有只要target小于当前元素，那么就向上走，否则向下走，如果相等返回true 否则返回false
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
         int x = matrix.length-1;
@@ -20,4 +20,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

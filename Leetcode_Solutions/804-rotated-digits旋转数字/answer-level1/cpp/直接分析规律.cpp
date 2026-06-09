@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     int rotatedDigits(int N) {
@@ -38,4 +38,4 @@ public:
         return ret;
     }
 };
-```
+// ```

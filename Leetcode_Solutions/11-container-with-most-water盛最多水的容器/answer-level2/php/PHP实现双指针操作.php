@@ -1,5 +1,5 @@
-根据大佬思路使用PHP实现,很有启发,时间复杂度O(n),空间复杂度O(1)
-```
+// 根据大佬思路使用PHP实现,很有启发,时间复杂度O(n),空间复杂度O(1)
+// ```
 class Solution {
     /**
      * @param Integer[] $height
@@ -20,4 +20,4 @@ class Solution {
         return $area;
     }
 }
-```
+// ```

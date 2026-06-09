@@ -1,15 +1,15 @@
-### 解题思路
-主要思路：非递归后序遍历，栈的内容是当前节点的所有根节点（利用这个性质可以做很多题）；
+// ### 解题思路
+// 主要思路：非递归后序遍历，栈的内容是当前节点的所有根节点（利用这个性质可以做很多题）；
 
-如果当前节点为叶节点，且当前和 与 目标和相等，将当前栈内容存起来。
+// 如果当前节点为叶节点，且当前和 与 目标和相等，将当前栈内容存起来。
 
-可以参考 [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/solution/c-die-dai-shuang-bai-qian-zhong-hou-zong-jie-by-gw/)
-以及 [112. 路径总和](https://leetcode-cn.com/problems/path-sum/solution/lu-jing-zong-he-by-leetcode/)
-官方题解的方法二。
+// 可以参考 [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/solution/c-die-dai-shuang-bai-qian-zhong-hou-zong-jie-by-gw/)
+// 以及 [112. 路径总和](https://leetcode-cn.com/problems/path-sum/solution/lu-jing-zong-he-by-leetcode/)
+// 官方题解的方法二。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -59,8 +59,8 @@ public:
 
     
 };
-```
+// ```
 
-### 提交结果
+// ### 提交结果
 
-![image.png](https://pic.leetcode-cn.com/c7138b495c844dc0f669c433453f45c1620efa6ca01cf9bb858c43cdba2e435f-image.png)
+// ![image.png](https://pic.leetcode-cn.com/c7138b495c844dc0f669c433453f45c1620efa6ca01cf9bb858c43cdba2e435f-image.png)

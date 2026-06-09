@@ -1,10 +1,10 @@
 
-# 贪心算法
+# # 贪心算法
 
-* 先将g和s排序
-* 遍历s，依次发现大于g的数量
+# * 先将g和s排序
+# * 遍历s，依次发现大于g的数量
 
-```python
+# ```python
 class Solution:
     def findContentChildren(self, g, s) -> int:
         g.sort()
@@ -16,4 +16,4 @@ class Solution:
             if s[i] >= g[j]:
                 j += 1
         return j
-```
+# ```

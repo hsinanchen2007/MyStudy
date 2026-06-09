@@ -1,7 +1,7 @@
-执行用时 : 72 ms, 在所有 JavaScript 提交中击败了 96.43% 的用户
-内存消耗 : 33.7 MB , 在所有 JavaScript 提交中击败了 100.00% 的用户
+// 执行用时 : 72 ms, 在所有 JavaScript 提交中击败了 96.43% 的用户
+// 内存消耗 : 33.7 MB , 在所有 JavaScript 提交中击败了 100.00% 的用户
 
-```javascript []
+// ```javascript []
 var binsert = function(arr, l, r, n) {
     if (arr[r] <= n) {
         arr.splice(r+1, 0, n);
@@ -34,5 +34,5 @@ var lastStoneWeight = function(stones) {
     }
     return 0;
 };
-```
+// ```
 

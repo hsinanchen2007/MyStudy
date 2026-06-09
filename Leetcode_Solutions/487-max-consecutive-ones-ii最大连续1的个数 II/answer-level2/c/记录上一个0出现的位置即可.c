@@ -1,4 +1,4 @@
-```
+// ```
 int findMaxConsecutiveOnes(int* nums, int numsSize)
 {
     int num = 0;
@@ -20,4 +20,4 @@ int findMaxConsecutiveOnes(int* nums, int numsSize)
     }
     return max;
 }
-```
+// ```

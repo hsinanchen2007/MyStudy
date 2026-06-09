@@ -1,10 +1,10 @@
 
-注意边界的判断，防止溢出。
-相对于普通二分查找，
-查询最左位置，当索引等于目标值且非最左，需要从右往左收缩区间，再二分循环。
-查询最右位置，当索引等于目标值且非最右，需要从左往右收缩区间，再二分。
+// 注意边界的判断，防止溢出。
+// 相对于普通二分查找，
+// 查询最左位置，当索引等于目标值且非最左，需要从右往左收缩区间，再二分循环。
+// 查询最右位置，当索引等于目标值且非最右，需要从左往右收缩区间，再二分。
 
-```
+// ```
   public int[] searchRange(int[] nums, int target) {
         int[] res = new int[]{-1, -1};
         res[0] = searchRangeLeft(nums, target);
@@ -57,4 +57,4 @@
         System.out.println(Arrays.toString(searchRange(new int[]{1}, 1)));
         System.out.println(Arrays.toString(searchRange(new int[]{3, 3, 3}, 3)));
     }
-```
+// ```

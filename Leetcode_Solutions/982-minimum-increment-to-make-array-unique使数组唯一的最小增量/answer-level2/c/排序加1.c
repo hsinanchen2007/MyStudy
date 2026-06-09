@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 void quicksort(int start,int end,int *A){
     if(start>=end)
     return;
@@ -37,4 +37,4 @@ int minIncrementForUnique(int* A, int ASize){
         }
     }
     return diff;}
-```
+// ```

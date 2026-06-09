@@ -1,11 +1,11 @@
-### 解题思路
-投 i 轮骰子，sum 的范围是 [i, 6*i]
-n 轮骰子的概率结果可以由 n-1 轮骰子的概率结果推导得出
+// ### 解题思路
+// 投 i 轮骰子，sum 的范围是 [i, 6*i]
+// n 轮骰子的概率结果可以由 n-1 轮骰子的概率结果推导得出
 
-![Xnip2020-03-13_11-00-23.jpg](https://pic.leetcode-cn.com/fdd899d1d00bf88549ed174d87c1133d3f490dbe950522473c842465b9db145c-Xnip2020-03-13_11-00-23.jpg)
+// ![Xnip2020-03-13_11-00-23.jpg](https://pic.leetcode-cn.com/fdd899d1d00bf88549ed174d87c1133d3f490dbe950522473c842465b9db145c-Xnip2020-03-13_11-00-23.jpg)
 
-### 代码
-```cpp
+// ### 代码
+// ```cpp
 class Solution {
 public:
     vector<double> twoSum(int n) {
@@ -25,4 +25,4 @@ public:
         return vector<double>(res.begin()+n, res.end());
     }
 };
-```
+// ```

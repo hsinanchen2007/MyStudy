@@ -1,5 +1,5 @@
-击败98%……这题不难啊。
-```
+// 击败98%……这题不难啊。
+// ```
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
@@ -22,4 +22,4 @@ public:
         else return false;
     }
 };
-```
+// ```

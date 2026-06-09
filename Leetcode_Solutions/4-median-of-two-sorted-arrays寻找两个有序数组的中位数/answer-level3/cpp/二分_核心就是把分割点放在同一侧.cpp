@@ -1,4 +1,4 @@
-```
+// ```
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -32,4 +32,4 @@ public:
         return (c1+c2)/2;
     }
 };
-```
+// ```

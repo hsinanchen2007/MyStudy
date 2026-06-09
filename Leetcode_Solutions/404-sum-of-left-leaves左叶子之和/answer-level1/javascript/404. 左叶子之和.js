@@ -1,11 +1,11 @@
-### 解题思路
+// ### 解题思路
 
-- 如果找到左叶子节点，这时候左边没法继续走下去了，那么递归右子树
-- 否则递归左右子树
+// - 如果找到左叶子节点，这时候左边没法继续走下去了，那么递归右子树
+// - 否则递归左右子树
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * Definition for a binary tree node.
  * function TreeNode(val) {
@@ -27,4 +27,4 @@ var sumOfLeftLeaves = function(root) {
     }
     return sumOfLeftLeaves(left) + sumOfLeftLeaves(right)
 };
-```
+// ```

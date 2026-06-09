@@ -1,9 +1,9 @@
-### 解题思路
-看代码最清楚
+# ### 解题思路
+# 看代码最清楚
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def __init__(self):
         self.res = []
@@ -32,4 +32,4 @@ class Solution:
                 track = track+i
                 self.backtrack(digits,track,index+1)
                 track = track[:-1]
-```
+# ```

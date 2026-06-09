@@ -1,10 +1,10 @@
-### 解题思路
-利用map缓存word统计计数
-排序统计计数数组。取前K条数据。
+// ### 解题思路
+// 利用map缓存word统计计数
+// 排序统计计数数组。取前K条数据。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> topKFrequent(String[] words, int k) {
         List<String> list=new ArrayList<>(k);
@@ -20,4 +20,4 @@ class Solution {
         return list;
     }
 }
-```
+// ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def removeOuterParentheses(self, S: str) -> str:
         stack = []
@@ -13,5 +13,5 @@ class Solution:
             if not stack:
                 result += S[start+1:i]
         return result
-```
+# ```
 

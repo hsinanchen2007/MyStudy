@@ -1,8 +1,8 @@
-### 解题思路
-key：存储值。value：存储下标
-### 代码
+// ### 解题思路
+// key：存储值。value：存储下标
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) 
     {
@@ -18,4 +18,4 @@ class Solution {
         return null;
     }
 }
-```
+// ```

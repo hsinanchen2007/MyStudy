@@ -1,5 +1,5 @@
-溢出的问题完全可以交给字符串去判断
-```
+// 溢出的问题完全可以交给字符串去判断
+// ```
 int reverse(int x){
     char* max = "2147483647";
     char* min = "2147483648";
@@ -53,4 +53,4 @@ int reverse(int x){
     res = atoi(str);
     return sign*res;
 }
-```
+// ```

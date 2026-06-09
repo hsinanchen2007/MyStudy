@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def lemonadeChange(self, bills: List[int]) -> bool:
         wallet = {
@@ -29,4 +29,4 @@ class Solution:
                     wallet['5'] -= 3
                 wallet['20'] += 1
         return True
-```
+# ```

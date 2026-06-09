@@ -1,6 +1,6 @@
-按照出现次数从大到小一次排序，然后从奇数位开始填充，直到超出位置，才从偶数开始填充
-import operator
-```python
+# 按照出现次数从大到小一次排序，然后从奇数位开始填充，直到超出位置，才从偶数开始填充
+# import operator
+# ```python
 class Solution(object):
     def countter(self, barcodes):
         results = {}

@@ -1,9 +1,9 @@
-### 解题思路
-极其简单
+// ### 解题思路
+// 极其简单
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
     void dfs(vector<vector<int>>& result, vector<int>& model, int loc,  int k);
     int n;
@@ -31,4 +31,4 @@ void Solution::dfs(vector<vector<int>>& result, vector<int>& model, int loc, int
     if(loc<=n)dfs(result, model, loc, k);
 }
 
-```
+// ```

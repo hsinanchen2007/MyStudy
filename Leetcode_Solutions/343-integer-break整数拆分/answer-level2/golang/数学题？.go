@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func pow3N(n int) int {
     res := 1
     for i := 0; i < n; i++{
@@ -24,4 +24,4 @@ func integerBreak(n int) int {
     }
     return pow3N(a) * 2
 }
-```
+// ```

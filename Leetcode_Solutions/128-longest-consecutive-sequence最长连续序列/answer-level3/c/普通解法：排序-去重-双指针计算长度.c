@@ -1,10 +1,10 @@
-### 解题思路
-1、排序 （注意int溢出，cmp函数的写法）
-2、去重
-3、用双指针计算最长长度
+// ### 解题思路
+// 1、排序 （注意int溢出，cmp函数的写法）
+// 2、去重
+// 3、用双指针计算最长长度
 
-### 代码
-```c
+// ### 代码
+// ```c
 int cmp(const void* a, const void* b)
 {
     int pa = *(int *)a;
@@ -73,4 +73,4 @@ int longestConsecutive(int* nums, int numsSize){
      
     return Maxlen;
 }
-```
+// ```

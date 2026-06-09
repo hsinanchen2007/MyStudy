@@ -1,11 +1,11 @@
-### 解题思路
-    其实这个题不难，主要是使用一个标记标记是否满了就可以
-    满了的情况莫过于 ends 走到了 fronts 那么这就是满了
-    空的情况就是ends == fronts，并且标记为false
-    判断完这两种情况下 其他的就是正常的++ % len
-### 代码
+// ### 解题思路
+//     其实这个题不难，主要是使用一个标记标记是否满了就可以
+//     满了的情况莫过于 ends 走到了 fronts 那么这就是满了
+//     空的情况就是ends == fronts，并且标记为false
+//     判断完这两种情况下 其他的就是正常的++ % len
+// ### 代码
 
-```cpp
+// ```cpp
 class MyCircularQueue {
 public:
     int arr[10005];
@@ -80,4 +80,4 @@ public:
  * bool param_5 = obj->isEmpty();
  * bool param_6 = obj->isFull();
  */
-```
+// ```

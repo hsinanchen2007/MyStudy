@@ -1,6 +1,6 @@
-先把数组分为start 与end两个数组排序  然后比较后一个start与前一个end 如果end >=start进行合并  注意index是用来标记实际长度的  不然没法知道二维数组的长度
+// 先把数组分为start 与end两个数组排序  然后比较后一个start与前一个end 如果end >=start进行合并  注意index是用来标记实际长度的  不然没法知道二维数组的长度
 
-```
+// ```
 public static int[][] merge(int[][] intervals) {
 
 	    if(intervals==null || intervals.length==0)  return new int[0][0]; 
@@ -33,4 +33,4 @@ public static int[][] merge(int[][] intervals) {
 
 	    return arr;
 	}
-```
+// ```

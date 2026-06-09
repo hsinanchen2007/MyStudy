@@ -1,10 +1,10 @@
-### 解题思路
-1.先基于dfs算法遍历出各节点
-2.遍历各叶子节点，递归比较是否为子串
+// ### 解题思路
+// 1.先基于dfs算法遍历出各节点
+// 2.遍历各叶子节点，递归比较是否为子串
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -70,4 +70,4 @@ public:
         return false;
     }
 };
-```
+// ```

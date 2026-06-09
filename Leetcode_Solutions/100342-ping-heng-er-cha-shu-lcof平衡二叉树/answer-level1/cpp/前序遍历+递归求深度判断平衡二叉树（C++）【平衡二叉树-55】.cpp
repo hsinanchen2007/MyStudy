@@ -1,16 +1,16 @@
-### 解题思路
-采用前序遍历+递归求深度判断。
-时间会稍微慢一些。
-前序遍历：先判断此节点是否符合，再判断左子树和右子树是否满足！
+// ### 解题思路
+// 采用前序遍历+递归求深度判断。
+// 时间会稍微慢一些。
+// 前序遍历：先判断此节点是否符合，再判断左子树和右子树是否满足！
 
-![image.png](https://pic.leetcode-cn.com/ba6fa778737858164b07b424415d46264d0ba35e5d180b2064b78ddf62525b4f-image.png)
-
-
+// ![image.png](https://pic.leetcode-cn.com/ba6fa778737858164b07b424415d46264d0ba35e5d180b2064b78ddf62525b4f-image.png)
 
 
-### 代码
 
-```cpp
+
+// ### 代码
+
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -52,4 +52,4 @@ public:
         return 1+(left>right?left:right);
     }
 };
-```
+// ```

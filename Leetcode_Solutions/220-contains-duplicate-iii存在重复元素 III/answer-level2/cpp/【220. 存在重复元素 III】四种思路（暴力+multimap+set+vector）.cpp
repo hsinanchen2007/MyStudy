@@ -1,6 +1,6 @@
-## 思路一：暴力（超时）
-### 代码
-```
+// ## 思路一：暴力（超时）
+// ### 代码
+// ```
 class Solution {
 public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {        
@@ -16,11 +16,11 @@ public:
         return false;
     }
 };
-```
+// ```
 
-## 思路二：multimap
-### 代码
-```c++
+// ## 思路二：multimap
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {        
@@ -39,15 +39,15 @@ public:
         return false;
     }
 };
-```
+// ```
 
-## 思路三：set（推荐）
-通过set维护一个固定大小滑动窗口。
-**注意：long型防溢出**
-### 代码
-时间复杂度：O(nlog(min(n,k)))
-空间复杂度：O(min(n,k))
-```c++
+// ## 思路三：set（推荐）
+// 通过set维护一个固定大小滑动窗口。
+// **注意：long型防溢出**
+// ### 代码
+// 时间复杂度：O(nlog(min(n,k)))
+// 空间复杂度：O(min(n,k))
+// ```c++
 class Solution {
 public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {        
@@ -64,11 +64,11 @@ public:
         return false;
     }
 };
-```
+// ```
 
-## 思路四：利用vector
-### 代码
-```c++
+// ## 思路四：利用vector
+// ### 代码
+// ```c++
 class Solution {
 public:
     bool containsNearbyAlmostDuplicate(vector<int>& nums, int k, int t) {
@@ -89,7 +89,7 @@ public:
         return false;
     }
 };
-```
+// ```
 
 
 

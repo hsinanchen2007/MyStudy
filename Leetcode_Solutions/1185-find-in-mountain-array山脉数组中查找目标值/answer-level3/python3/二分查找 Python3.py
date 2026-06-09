@@ -1,10 +1,10 @@
-**思路：**
+# **思路：**
 
-由于不能调用 `MountainArray.get` 超过`100`次，而`mountain_arr.length()`最大为`10000`，所以要用二分查找来搜索我们要找的目标。给定的`mountainArr`是一个山脉数组，即数组元素按顺序，先单调递增，再单调递减。由于二分查找只作用于有序数列，所以我们先要找到山脉数组的峰顶：如果峰顶小于`target`，直接返回`-1`；如果峰顶等于`target`，直接返回峰顶的索引；如果峰顶大于`target`，那么以峰顶为界，先在上坡中二分查找目标，如果找不到，就在下坡中二分查找目标，都找不到就返回`-1`。
+# 由于不能调用 `MountainArray.get` 超过`100`次，而`mountain_arr.length()`最大为`10000`，所以要用二分查找来搜索我们要找的目标。给定的`mountainArr`是一个山脉数组，即数组元素按顺序，先单调递增，再单调递减。由于二分查找只作用于有序数列，所以我们先要找到山脉数组的峰顶：如果峰顶小于`target`，直接返回`-1`；如果峰顶等于`target`，直接返回峰顶的索引；如果峰顶大于`target`，那么以峰顶为界，先在上坡中二分查找目标，如果找不到，就在下坡中二分查找目标，都找不到就返回`-1`。
 
-**代码：**
+# **代码：**
 
-```python
+# ```python
 # """
 # This is MountainArray's API interface.
 # You should not implement it, or speculate about its implementation
@@ -86,4 +86,4 @@ class Solution:
             if res != -1:
                 return res
         return -1
-```
+# ```

@@ -1,4 +1,4 @@
-```
+# ```
 class Solution:
     def validPalindrome(self, s: str) -> bool:
         tmp=re.sub(r"[^0-9a-zA-Z]","",s).lower()
@@ -18,7 +18,7 @@ class Solution:
                     return True
                 else:
                     return False
-```
-思路：
+# ```
+# 思路：
 
-a.双指针，因为最多只能删除一次字符，所以当判断有一次不符合之后，继续跳过该字串往下走然后判断
+# a.双指针，因为最多只能删除一次字符，所以当判断有一次不符合之后，继续跳过该字串往下走然后判断

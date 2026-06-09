@@ -1,8 +1,8 @@
-    这题是在二叉搜索树那张卡片里面做到的，所以用了二叉搜索树，没想到。。。
-![批注 2019-12-15 200457.png](https://pic.leetcode-cn.com/9e5690ea3fed4a9512c76f8c0c56baa5a048f206f036a41f09a6bfee33dd40e5-%E6%89%B9%E6%B3%A8%202019-12-15%20200457.png)
-    （感觉自己好菜）
-    以下是代码：
-```
+//     这题是在二叉搜索树那张卡片里面做到的，所以用了二叉搜索树，没想到。。。
+// ![批注 2019-12-15 200457.png](https://pic.leetcode-cn.com/9e5690ea3fed4a9512c76f8c0c56baa5a048f206f036a41f09a6bfee33dd40e5-%E6%89%B9%E6%B3%A8%202019-12-15%20200457.png)
+//     （感觉自己好菜）
+//     以下是代码：
+// ```
 struct tree_node {
     int val;
     int count;
@@ -53,5 +53,5 @@ public:
  * KthLargest* obj = new KthLargest(k, nums);
  * int param_1 = obj->add(val);
  */
-```
+// ```
 

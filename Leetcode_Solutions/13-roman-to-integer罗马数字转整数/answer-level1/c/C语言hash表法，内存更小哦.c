@@ -1,8 +1,8 @@
-### 解题思路
-![图片.png](https://pic.leetcode-cn.com/6a328dee7bc007fa0c06255ca396441ce5d9818fbc30036514e0c20feb95d715-%E5%9B%BE%E7%89%87.png)
-### 代码
+// ### 解题思路
+// ![图片.png](https://pic.leetcode-cn.com/6a328dee7bc007fa0c06255ca396441ce5d9818fbc30036514e0c20feb95d715-%E5%9B%BE%E7%89%87.png)
+// ### 代码
 
-```c
+// ```c
 int romanToInt(char * s){
     int hashtab[26]={0};
     hashtab['I'-'A']=1;hashtab['V'-'A']=5;hashtab['X'-'A']=10;
@@ -25,4 +25,4 @@ int romanToInt(char * s){
     }
     return output;
 }
-```
+// ```

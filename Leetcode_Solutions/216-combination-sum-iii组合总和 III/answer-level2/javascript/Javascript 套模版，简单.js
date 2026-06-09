@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {number} k
  * @param {number} n
@@ -28,4 +28,4 @@ var combinationSum3 = function(k, n) {
      backtrack(temp,n,1);
      return res;
 };
-```
+// ```

@@ -1,10 +1,10 @@
-### 解题思路
-1.因为节点值的不重复性，我们建一个1001长度的数组，来判断节点是否要删去（hash 除留余数法）
-2.接着我们后序遍历即可，（函数的参数包括：当前节点、当前节点的父亲节点、方向[判断当前节点是左右节点]）
+// ### 解题思路
+// 1.因为节点值的不重复性，我们建一个1001长度的数组，来判断节点是否要删去（hash 除留余数法）
+// 2.接着我们后序遍历即可，（函数的参数包括：当前节点、当前节点的父亲节点、方向[判断当前节点是左右节点]）
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -52,4 +52,4 @@ struct TreeNode** delNodes(struct TreeNode* root, int* to_delete, int to_deleteS
     *returnSize = top;
     return ans+1;
 }
-```
+// ```

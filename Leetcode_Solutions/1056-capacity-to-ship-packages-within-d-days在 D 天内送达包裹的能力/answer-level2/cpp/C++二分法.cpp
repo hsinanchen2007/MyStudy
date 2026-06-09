@@ -1,10 +1,10 @@
-### 解题思路
-参考了下解题几位兄弟的思路，大概思路就是：确定一个capacity，检查该capacity是否满足条件（在D天内送达），然后更新capacity，更新方法采用二分。
-![image.png](https://pic.leetcode-cn.com/4a88d44721abb75331c33c03d5da7d0f328fc37724101dbfb0c6049a1dd2750e-image.png)
+// ### 解题思路
+// 参考了下解题几位兄弟的思路，大概思路就是：确定一个capacity，检查该capacity是否满足条件（在D天内送达），然后更新capacity，更新方法采用二分。
+// ![image.png](https://pic.leetcode-cn.com/4a88d44721abb75331c33c03d5da7d0f328fc37724101dbfb0c6049a1dd2750e-image.png)
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool checkOK(vector<int> weights, int D, int cap) {
@@ -59,4 +59,4 @@ public:
     }
 };
 
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func permute(nums []int) [][]int {
 	res := make([][]int, 0)
 	length := len(nums)
@@ -14,4 +14,4 @@ func permute(nums []int) [][]int {
 	}
 	return res
 }
-```
+// ```

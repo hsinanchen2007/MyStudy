@@ -1,9 +1,9 @@
-### 解题思路
-受到了侮辱
+// ### 解题思路
+// 受到了侮辱
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func isRectangleOverlap(rec1 []int, rec2 []int) bool {
     if rec1[0] <= rec2[0] && rec1[2] <= rec2[0]{
         return false
@@ -19,4 +19,4 @@ func isRectangleOverlap(rec1 []int, rec2 []int) bool {
     }
     return true
 }
-```
+// ```

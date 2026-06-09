@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 #define MAXNUM 15
 
 int g_visit[MAXNUM][MAXNUM] = {0};
@@ -58,4 +58,4 @@ int getMaximumGold(int** grid, int gridSize, int* gridColSize)
 
     return rel;
 }
-```
+// ```

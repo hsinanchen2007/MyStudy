@@ -1,6 +1,6 @@
-偷懒直接用lower_bound.....
-自己写的话，可以将lower_bound换成排序加二分
-```
+// 偷懒直接用lower_bound.....
+// 自己写的话，可以将lower_bound换成排序加二分
+// ```
 class Solution {
 public:
     vector<int> findRightInterval(vector<vector<int>>& intervals) {
@@ -20,4 +20,4 @@ public:
         return res;
     }
 };
-```
+// ```

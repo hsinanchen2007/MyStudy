@@ -1,15 +1,15 @@
-![image.png](https://pic.leetcode-cn.com/6a06cc4caeb9572d94ab9f4bbe6a7528800ebc447bd501511b9992c429640fee-image.png)
+// ![image.png](https://pic.leetcode-cn.com/6a06cc4caeb9572d94ab9f4bbe6a7528800ebc447bd501511b9992c429640fee-image.png)
 
-### 解题思路
-```js
+// ### 解题思路
+// ```js
   参考作者：「labuladong」
   注意：不要输入转换为数组进行计算，如："3+2*2" => ['3', '+', '2', '*', '2']
   这样的话，数组的操作次数太多，会超时的
-```
+// ```
 
-### 代码
+// ### 代码
 
-```javascript
+// ```javascript
 /**
  * @param {string} s
  * @return {number}
@@ -79,4 +79,4 @@ var calculate = function(s) {
   
   return sum;
 };
-```
+// ```

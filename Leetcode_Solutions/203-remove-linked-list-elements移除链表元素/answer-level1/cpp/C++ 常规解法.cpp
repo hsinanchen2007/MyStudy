@@ -1,4 +1,4 @@
-```
+// ```
 ListNode* removeElements(ListNode* head, int val) {
         while(head && head -> val == val) head = head -> next;
         if(!head) return head;
@@ -11,4 +11,4 @@ ListNode* removeElements(ListNode* head, int val) {
         }
         return head;
     }
-```
+// ```

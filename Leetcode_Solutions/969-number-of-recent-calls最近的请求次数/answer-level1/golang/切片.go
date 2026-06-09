@@ -1,9 +1,9 @@
-### 解题思路
-此处撰写解题思路
+// ### 解题思路
+// 此处撰写解题思路
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 type RecentCounter struct {
 	time []int
 }
@@ -29,4 +29,4 @@ func (this *RecentCounter) Ping(t int) int {
  * obj := Constructor();
  * param_1 := obj.Ping(t);
  */
-```
+// ```

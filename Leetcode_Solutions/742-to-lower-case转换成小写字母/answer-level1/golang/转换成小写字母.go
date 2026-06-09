@@ -1,9 +1,9 @@
-### 解题思路
-太简单，看代码吧
+// ### 解题思路
+// 太简单，看代码吧
 
-### 代码
+// ### 代码
 
-```golang
+// ```golang
 func toLowerCase(str string) string {
 	var ret []byte
 	for i := 0; i < len(str); i++ {
@@ -16,4 +16,4 @@ func toLowerCase(str string) string {
 	}
 	return string(ret)
 }
-```
+// ```

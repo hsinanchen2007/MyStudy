@@ -1,6 +1,6 @@
-## 直观思路
-最直观想到的方法是暴力方法
-```C++ []
+// ## 直观思路
+// 最直观想到的方法是暴力方法
+// ```C++ []
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -26,10 +26,10 @@ public:
         return vec;
     }
 };
-```
-## 双指针法
-左指针记录开始点，右指针记录结束点。
-``` C++ []
+// ```
+// ## 双指针法
+// 左指针记录开始点，右指针记录结束点。
+// ``` C++ []
 class Solution {
 public:
     vector<vector<int>> findContinuousSequence(int target) {
@@ -52,8 +52,8 @@ public:
         return ans;
     }
 };
-```
-```python []
+// ```
+// ```python []
 class Solution:
     def findContinuousSequence(self, target: int) -> List[List[int]]:
         left, right =1, 2
@@ -72,4 +72,4 @@ class Solution:
                 left += 1
                 right += 1
         return ans
-```
+// ```

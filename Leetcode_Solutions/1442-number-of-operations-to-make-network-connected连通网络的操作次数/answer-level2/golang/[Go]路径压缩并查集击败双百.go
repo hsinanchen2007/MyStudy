@@ -1,6 +1,6 @@
 
 
-```go
+// ```go
 func makeConnected(n int, connections [][]int) int {
     uf := NewUF(n)
     c := 0
@@ -66,6 +66,6 @@ func (uf *UF) union(x, y int) bool {
 func (uf *UF) size() int {
     return uf.count
 }
-```
+// ```
 
-![image.png](https://pic.leetcode-cn.com/f2df32111b1d725a1cd2ffcbe1bc2d97724e78b0bb8d5211f3d231d71ac7b518-image.png)
+// ![image.png](https://pic.leetcode-cn.com/f2df32111b1d725a1cd2ffcbe1bc2d97724e78b0bb8d5211f3d231d71ac7b518-image.png)

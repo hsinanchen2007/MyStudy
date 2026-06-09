@@ -1,4 +1,4 @@
-```python
+# ```python
 class Solution:
     def minSwapsCouples(self, row: List[int]) -> int:
         dic = {}
@@ -27,4 +27,4 @@ class Solution:
         return sum(val // 2 - 1 for val in res.values())
 
 
-```
+# ```

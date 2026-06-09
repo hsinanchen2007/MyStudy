@@ -1,8 +1,8 @@
-### 解题思路
-执行用时 :20 ms, 在所有 C++ 提交中击败了45.02%的用户
-### 代码
+// ### 解题思路
+// 执行用时 :20 ms, 在所有 C++ 提交中击败了45.02%的用户
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
@@ -13,4 +13,4 @@ public:
         return a;
     }
 };
-```
+// ```

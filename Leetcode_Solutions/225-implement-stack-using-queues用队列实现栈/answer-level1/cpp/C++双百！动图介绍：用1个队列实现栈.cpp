@@ -1,8 +1,8 @@
-`pop`和`front`都需要对队列反转操作，完整的过程是这样的 ↓↓↓
-![演示文稿3.gif](https://pic.leetcode-cn.com/c3f78dcb47e8acb7311f98672bc961a9fc96cc4425c487d8fff46d9f89310607-%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF3.gif)
+// `pop`和`front`都需要对队列反转操作，完整的过程是这样的 ↓↓↓
+// ![演示文稿3.gif](https://pic.leetcode-cn.com/c3f78dcb47e8acb7311f98672bc961a9fc96cc4425c487d8fff46d9f89310607-%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF3.gif)
 
-程序如下：
-```C++
+// 程序如下：
+// ```C++
 class MyStack {
 public:
     /** Initialize your data structure here. */
@@ -61,4 +61,4 @@ public:
     }
     queue<int> q;
 };
-```
+// ```

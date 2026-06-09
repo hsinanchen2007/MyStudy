@@ -1,8 +1,8 @@
-1.求出序列的最大深度。
-2.DFS时，当前层的深度直接求出来即可。
+// 1.求出序列的最大深度。
+// 2.DFS时，当前层的深度直接求出来即可。
 
 
-```
+// ```
 class Solution {
 public:
     int depth(vector<NestedInteger>& nestedList){
@@ -25,4 +25,4 @@ public:
         return helper(nestedList,0,d);
     }
 };
-```
+// ```

@@ -1,4 +1,4 @@
-```
+// ```
 var isPalindrome = function(s) {
     if(!s) return true
     // 无视大小写的话就全部转化成大写或者小写
@@ -23,4 +23,4 @@ var isPalindrome = function(s) {
     }
     return true
 };
-```
+// ```

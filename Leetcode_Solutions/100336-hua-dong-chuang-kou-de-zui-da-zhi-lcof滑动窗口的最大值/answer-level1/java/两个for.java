@@ -1,9 +1,9 @@
-### 解题思路
-一个for遍历新数组，一个for遍历窗口
+// ### 解题思路
+// 一个for遍历新数组，一个for遍历窗口
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public int[] maxSlidingWindow(int[] nums, int k) {
         int[] newNums = new int[nums.length-k+1];
@@ -21,4 +21,4 @@ class Solution {
         return newNums;
     }
 }
-```
+// ```

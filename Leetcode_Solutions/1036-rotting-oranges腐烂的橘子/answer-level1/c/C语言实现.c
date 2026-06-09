@@ -1,9 +1,9 @@
-### 解题思路
-将每分钟被感染的节点找出（利用变量k，确定感染批次），直到不再有新的感染发生，遍历最后结果，存在新鲜橘子返回-1，否则返回所用时间。
+// ### 解题思路
+// 将每分钟被感染的节点找出（利用变量k，确定感染批次），直到不再有新的感染发生，遍历最后结果，存在新鲜橘子返回-1，否则返回所用时间。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int orangesRotting(int** grid, int gridSize, int* gridColSize){
     int k = 3;
 	int res = 0;
@@ -49,4 +49,4 @@ int orangesRotting(int** grid, int gridSize, int* gridColSize){
 	res = k - 3;
 	return res;
 }
-```
+// ```

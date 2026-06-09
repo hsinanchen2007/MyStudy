@@ -1,12 +1,12 @@
-### 解题思路
-DP
+// ### 解题思路
+// DP
 
-![6e6fd51487bd5285241a64dd8cc07ef.jpg](https://pic.leetcode-cn.com/220765f0a51f304fff12ad03e6bd9d08f2b02cd8854e593391d8f4f9eb499f1c-6e6fd51487bd5285241a64dd8cc07ef.jpg)
+// ![6e6fd51487bd5285241a64dd8cc07ef.jpg](https://pic.leetcode-cn.com/220765f0a51f304fff12ad03e6bd9d08f2b02cd8854e593391d8f4f9eb499f1c-6e6fd51487bd5285241a64dd8cc07ef.jpg)
 
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     //dp[i]: 在第i天执行买入卖出或者暂停交易所获取的最大利润
@@ -34,4 +34,4 @@ public:
         return max(max(buy, sell), cool);
     }
 };
-```
+// ```

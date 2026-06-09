@@ -1,4 +1,4 @@
-```
+// ```
 const int maxn=1e4;
 class Solution {
 public:
@@ -29,4 +29,4 @@ public:
         return true;
     }
 };
-```
+// ```

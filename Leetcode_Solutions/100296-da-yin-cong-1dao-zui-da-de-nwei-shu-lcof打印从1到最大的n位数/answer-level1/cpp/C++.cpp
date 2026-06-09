@@ -1,9 +1,9 @@
-### 解题思路
-直接求出n位数+1作为顶，这个刚好是10的n次方。
+// ### 解题思路
+// 直接求出n位数+1作为顶，这个刚好是10的n次方。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     vector<int> printNumbers(int n) {
@@ -15,4 +15,4 @@ public:
         return res;
     }
 };
-```
+// ```

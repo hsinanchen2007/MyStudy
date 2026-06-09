@@ -1,5 +1,5 @@
-c++ 较为简洁的一个解法
-```
+// c++ 较为简洁的一个解法
+// ```
 class Solution {
 public:
     struct TrieTree {
@@ -50,4 +50,4 @@ public:
         return res;
     }
 };
-```
+// ```

@@ -1,6 +1,6 @@
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
     bool validWordAbbreviation(string word, string abbr) {
@@ -44,4 +44,4 @@ public:
         return i + sum == s1 && j == s2;
     }
 };
-```
+// ```

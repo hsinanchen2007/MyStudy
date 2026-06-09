@@ -1,6 +1,6 @@
-推荐使用双指针解答
-主要思路：为得到尽可能大的分数score，应该贪婪的得到最多的能量P,每一步到达最优解。先将数组进行排序，用需要能量少的换取分数，用分数换取拥有能量多的。当能量P>=当前令牌需要的能量tokens[i]，则分数score++,指针i右移，而当能量P<当前令牌需要的能量token[i],使用分数换取能量多的tokens[j],则分数score--,指针i右移、指针j左移，当i=j时break。
-```
+// 推荐使用双指针解答
+// 主要思路：为得到尽可能大的分数score，应该贪婪的得到最多的能量P,每一步到达最优解。先将数组进行排序，用需要能量少的换取分数，用分数换取拥有能量多的。当能量P>=当前令牌需要的能量tokens[i]，则分数score++,指针i右移，而当能量P<当前令牌需要的能量token[i],使用分数换取能量多的tokens[j],则分数score--,指针i右移、指针j左移，当i=j时break。
+// ```
 class Solution {
 public:
     int bagOfTokensScore(vector<int>& tokens, int P) {
@@ -34,4 +34,4 @@ public:
         return score;
     }
 };
-```
+// ```

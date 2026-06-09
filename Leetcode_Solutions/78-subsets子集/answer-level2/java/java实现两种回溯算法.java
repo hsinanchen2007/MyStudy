@@ -1,5 +1,5 @@
-1. 数组中的每一个元素只有“存在”和“不存在”两种状态，由此可展开一棵二叉状态树，算法如下：
-```
+// 1. 数组中的每一个元素只有“存在”和“不存在”两种状态，由此可展开一棵二叉状态树，算法如下：
+// ```
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> list = new LinkedList<>();
@@ -18,10 +18,10 @@ class Solution {
         backtrack(nums, beginIndex + 1, linkedList, list);
     }
 }
-```
+// ```
 
-2. 假设数组包含N个元素，分别考虑每一个元素（注意考虑空元素的情况）作为组成子集元素的起点，由此展开一棵多叉状态树，算法如下：
-```
+// 2. 假设数组包含N个元素，分别考虑每一个元素（注意考虑空元素的情况）作为组成子集元素的起点，由此展开一棵多叉状态树，算法如下：
+// ```
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> list = new LinkedList<>();
@@ -45,5 +45,5 @@ class Solution {
         }
     }
 }
-```
+// ```
 

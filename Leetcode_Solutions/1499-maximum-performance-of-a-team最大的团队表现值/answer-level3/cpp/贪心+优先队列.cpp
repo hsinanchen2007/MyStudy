@@ -1,11 +1,11 @@
-- 参考大佬的思路：[Ikaruga](https://leetcode-cn.com/problems/maximum-performance-of-a-team/solution/5359-by-ikaruga/)
-- 按照效率 $\eta_i$ 降序排序，遍历每个人
-- 最大团队值为 $\min \eta_i*\sum speed$
-- $\eta_i$ 是下降的，那么效率高于 $\eta_i$ 的人在人数少于 $k$ 的时候全部加入，使得第二项最大
-- 当人数超过 $k$ 了，在 $\eta_i$ 下，比其效率高的人中，我要选出 $speed$ 最大的 $k$ 人
-- 这样，每个 $\eta_i$ 作为第一项的情况 都遍历过了，且每次遍历的时候，挑出来的人也都是 $speed$  最快的
+// - 参考大佬的思路：[Ikaruga](https://leetcode-cn.com/problems/maximum-performance-of-a-team/solution/5359-by-ikaruga/)
+// - 按照效率 $\eta_i$ 降序排序，遍历每个人
+// - 最大团队值为 $\min \eta_i*\sum speed$
+// - $\eta_i$ 是下降的，那么效率高于 $\eta_i$ 的人在人数少于 $k$ 的时候全部加入，使得第二项最大
+// - 当人数超过 $k$ 了，在 $\eta_i$ 下，比其效率高的人中，我要选出 $speed$ 最大的 $k$ 人
+// - 这样，每个 $\eta_i$ 作为第一项的情况 都遍历过了，且每次遍历的时候，挑出来的人也都是 $speed$  最快的
 
-```cpp
+// ```cpp
 class Solution {
 public:
     int maxPerformance(int n, vector<int>& speed, vector<int>& efficiency, int k) {
@@ -35,4 +35,4 @@ public:
         return maxPerf%1000000007;
     }
 };
-```
+// ```

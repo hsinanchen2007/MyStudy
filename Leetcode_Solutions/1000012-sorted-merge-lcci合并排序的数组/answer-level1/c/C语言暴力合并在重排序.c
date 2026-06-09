@@ -1,9 +1,9 @@
-### 解题思路
-暴力合并在重排序
+// ### 解题思路
+// 暴力合并在重排序
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 int cmp(const void *a, const void *b)
 {
     return *((int *)a) - *((int *)b);
@@ -29,4 +29,4 @@ void merge(int* A, int ASize, int m, int* B, int BSize, int n)
 
     return;
 }
-```
+// ```

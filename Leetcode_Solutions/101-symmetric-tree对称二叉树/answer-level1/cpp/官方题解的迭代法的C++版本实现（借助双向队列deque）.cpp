@@ -1,4 +1,4 @@
-```
+// ```
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -28,11 +28,11 @@
 //             && isMirror( t1->left, t2->right);
 //     }
 // };
-```
+// ```
 
 
 
-```
+// ```
 //方法二：迭代法（借助队列，和BFS相似，但是插入顺序有不同）
 #include <deque>
 class Solution {
@@ -64,7 +64,7 @@ public:
     }   
 };
 
-```
+// ```
 
 
 

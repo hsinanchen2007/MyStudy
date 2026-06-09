@@ -1,6 +1,6 @@
-1. O(n)空间复杂度
+# 1. O(n)空间复杂度
 
-```
+# ```
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         l2r,r2l = [1] * (len(nums) + 1),[1] * (len(nums) + 1)
@@ -11,12 +11,12 @@ class Solution:
         results = []
         for i in range(len(nums)):results.append(l2r[i]*r2l[i+1])
         return results
-```
+# ```
 
-2. O(1)空间复杂度
+# 2. O(1)空间复杂度
 
-题目说明：出于对空间复杂度分析的目的，输出数组不被视为额外空间。
-```
+# 题目说明：出于对空间复杂度分析的目的，输出数组不被视为额外空间。
+# ```
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         results = []
@@ -28,6 +28,6 @@ class Solution:
             results[i] = results[i] * right
             right *= nums[i]
         return results
-```
-![image.png](https://pic.leetcode-cn.com/6e04f3ac868c97d8dc131feff7fcc13d3a07f71d5e15375ca48fd46361331886-image.png)
+# ```
+# ![image.png](https://pic.leetcode-cn.com/6e04f3ac868c97d8dc131feff7fcc13d3a07f71d5e15375ca48fd46361331886-image.png)
 

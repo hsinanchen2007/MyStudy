@@ -1,5 +1,5 @@
-1. 
-```
+// 1. 
+// ```
      * @param {string} text
  * @return {number}
  */
@@ -35,5 +35,5 @@ var maxNumberOfBalloons = function(text) {
     
     return num
 };
-```
-2. 
+// ```
+// 2. 

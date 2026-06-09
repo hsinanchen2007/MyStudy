@@ -1,9 +1,9 @@
-### 解题思路
-两个办法
-1. 递归
-### 代码
+// ### 解题思路
+// 两个办法
+// 1. 递归
+// ### 代码
 
-```
+// ```
 func inorderTraversal(root *TreeNode) []int {
 	result := make([]int, 0)
 	_inorderTraversal(root, &result)
@@ -21,12 +21,12 @@ func _inorderTraversal(node *TreeNode, result *[]int) {
 	*result = append(*result, node.Val)
 	_inorderTraversal(node.Right, result)
 }
-```
+// ```
 
-2. 遍历:树的循环一般根据不同情况采用栈和队列, 这里采用栈来解决、只要left不为空、就一直入栈、然后检查出栈节点的right是否为空、如果不为空、right入栈、继续前面的步骤、退出条件、栈为空或者当前节点为空
-### 代码
+// 2. 遍历:树的循环一般根据不同情况采用栈和队列, 这里采用栈来解决、只要left不为空、就一直入栈、然后检查出栈节点的right是否为空、如果不为空、right入栈、继续前面的步骤、退出条件、栈为空或者当前节点为空
+// ### 代码
 
-```golang
+// ```golang
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -58,4 +58,4 @@ func pop(stack []*TreeNode) ([]*TreeNode, *TreeNode) {
 	}
 	return stack[:len(stack) - 1], stack[len(stack)-1]
 }
-```
+// ```

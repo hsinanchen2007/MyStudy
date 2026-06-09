@@ -1,6 +1,6 @@
-使用字典来存储链表每个节点的地址值 同时计数，然后删除要求的节点。空间换时间
+# 使用字典来存储链表每个节点的地址值 同时计数，然后删除要求的节点。空间换时间
 
-```
+# ```
 class Solution(object):
     def removeNthFromEnd(self, head, n):
         """
@@ -23,4 +23,4 @@ class Solution(object):
             listnode_dict[i-1-n].next = listnode_dict[i-n].next
 
         return head
-```
+# ```

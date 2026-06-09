@@ -1,9 +1,9 @@
-### 思路一：队列+栈
-将正常层次遍历的每层结果放入一个栈中，最后再将栈中结果取出放入结果集。
+// ### 思路一：队列+栈
+// 将正常层次遍历的每层结果放入一个栈中，最后再将栈中结果取出放入结果集。
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -40,12 +40,12 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 思路二：头插法
+// ### 思路二：头插法
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
@@ -68,12 +68,12 @@ public:
         return res;
     }
 };
-```
+// ```
 
-### 思路三：逆序法
+// ### 思路三：逆序法
 
-### 代码
-```c++
+// ### 代码
+// ```c++
 class Solution {
 public:
     vector<vector<int>> levelOrderBottom(TreeNode* root) {
@@ -97,6 +97,6 @@ public:
         return res;
     }
 };
-```
+// ```
 
 

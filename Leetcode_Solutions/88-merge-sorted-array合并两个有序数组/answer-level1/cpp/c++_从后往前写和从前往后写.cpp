@@ -1,5 +1,5 @@
-从后往前
-```
+// 从后往前
+// ```
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -16,9 +16,9 @@ public:
         }
     }
 };
-```
-从前往后
-```
+// ```
+// 从前往后
+// ```
 class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
@@ -48,4 +48,4 @@ public:
         }
     }
 };
-```
+// ```

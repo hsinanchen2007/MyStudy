@@ -1,6 +1,6 @@
-哎
+// 哎
 
-```
+// ```
  public static int removeDuplicates(int[] nums) {
         if (nums == null || nums.length <= 0) {
             return 0;
@@ -15,4 +15,4 @@
         }
         return list.size();
     }
-```
+// ```

@@ -1,9 +1,9 @@
-### 解题思路
-参考官方给的题解 写出来的代码。
+// ### 解题思路
+// 参考官方给的题解 写出来的代码。
 
-### 代码
+// ### 代码
 
-```c
+// ```c
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -32,4 +32,4 @@ struct ListNode* oddEvenList(struct ListNode* head){
     return tmp;
 
 }
-```
+// ```

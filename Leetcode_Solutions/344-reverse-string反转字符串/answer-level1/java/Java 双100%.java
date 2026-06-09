@@ -1,9 +1,9 @@
-### 解题思路
-没啥好说的。。
+// ### 解题思路
+// 没啥好说的。。
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public void reverseString(char[] s) {
         int left=0,right=s.length-1;
@@ -14,4 +14,4 @@ class Solution {
         }
     }
 }
-```
+// ```

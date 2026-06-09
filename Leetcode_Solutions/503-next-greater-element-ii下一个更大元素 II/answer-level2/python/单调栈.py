@@ -1,9 +1,9 @@
-### 解题思路
-学习自labuladong
+# ### 解题思路
+# 学习自labuladong
 
-### 代码
+# ### 代码
 
-```python3
+# ```python3
 class Solution:
     def nextGreaterElements(self, nums: List[int]) -> List[int]:
         #学习自labuladong
@@ -40,4 +40,4 @@ class Solution:
             ans[i % n] = -1 if not s else s[-1]
             s.append(nums[i%n])
         return ans
-```
+# ```

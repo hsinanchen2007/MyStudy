@@ -1,6 +1,6 @@
-![CC5EE108-702D-4C8A-95C0-130B89299FDF.jpeg](https://pic.leetcode-cn.com/ec737e3a585e26c992783cb8ab03228738914f2c08194a00e0ad93464a0f39d4-CC5EE108-702D-4C8A-95C0-130B89299FDF.jpeg)
+// ![CC5EE108-702D-4C8A-95C0-130B89299FDF.jpeg](https://pic.leetcode-cn.com/ec737e3a585e26c992783cb8ab03228738914f2c08194a00e0ad93464a0f39d4-CC5EE108-702D-4C8A-95C0-130B89299FDF.jpeg)
 
-```
+// ```
 //滑动窗口
 
 int minSubArrayLen(int s, int* nums, int numsSize)
@@ -46,4 +46,4 @@ int minSubArrayLen(int s, int* nums, int numsSize)
         return returnVal;
     }
 }
-```
+// ```

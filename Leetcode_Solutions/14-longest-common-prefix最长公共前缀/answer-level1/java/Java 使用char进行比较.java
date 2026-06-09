@@ -1,10 +1,10 @@
-### 解题思路
-1.只需要比较当前最后面一个字母即可；
-2.全部通过后再加一个字母，不通过即刻终止
+// ### 解题思路
+// 1.只需要比较当前最后面一个字母即可；
+// 2.全部通过后再加一个字母，不通过即刻终止
 
-### 代码
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         if(strs.length==0){return "";}
@@ -19,4 +19,4 @@ class Solution {
         return strs[0];
     }
 }
-```
+// ```

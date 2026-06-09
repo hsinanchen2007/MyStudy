@@ -1,4 +1,4 @@
-```
+# ```
 class Solution(object):
     def lenLongestFibSubseq(self, A):
         """
@@ -24,6 +24,6 @@ class Solution(object):
                 if f_len > max_l:
                     max_l = f_len
         return max_l if max_l >= 3 else 0
-```
+# ```
 
-用dict.has_key相比较val in list的方式应该能减少用时。
+# 用dict.has_key相比较val in list的方式应该能减少用时。

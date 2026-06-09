@@ -1,11 +1,11 @@
-输入：grid = [[1,1,1],[1,0,1],[1,1,1]]
-输出：9
+// 输入：grid = [[1,1,1],[1,0,1],[1,1,1]]
+// 输出：9
 
-如果能满足题意,则四条边必定满足**四条边分别在grid的和**==**四条边分别的坐标边长**.
+// 如果能满足题意,则四条边必定满足**四条边分别在grid的和**==**四条边分别的坐标边长**.
 
-![IMG_20190928_214519.jpg](https://pic.leetcode-cn.com/4075822738a842f7793464aa3dde2b4dbfc09638c75bf0a610a59eaa913e60a9-IMG_20190928_214519.jpg)
+// ![IMG_20190928_214519.jpg](https://pic.leetcode-cn.com/4075822738a842f7793464aa3dde2b4dbfc09638c75bf0a610a59eaa913e60a9-IMG_20190928_214519.jpg)
 
-```
+// ```
     class Solution {
         public int largest1BorderedSquare(int[][] grid) {
             int height = grid.length;
@@ -66,4 +66,4 @@
                     x2 - x1 == rowSum[y2][x2] - rowSum[y2][x1] ;
         }
     }
-```
+// ```

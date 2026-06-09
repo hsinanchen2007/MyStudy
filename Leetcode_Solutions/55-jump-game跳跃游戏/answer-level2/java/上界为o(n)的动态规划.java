@@ -1,9 +1,9 @@
-### 解题思路
-最笨，看代码吧
-，尴尬
-### 代码
+// ### 解题思路
+// 最笨，看代码吧
+// ，尴尬
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public boolean canJump(int[] nums) {
         int j=0;
@@ -29,4 +29,4 @@ class Solution {
         return false;
     }
 }
-```
+// ```

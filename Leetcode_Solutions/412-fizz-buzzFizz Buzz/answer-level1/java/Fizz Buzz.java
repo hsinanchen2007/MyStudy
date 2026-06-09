@@ -1,8 +1,8 @@
-### 解题思路
-    熟悉列表，字符串等基本的Java语法。
-### 代码
+// ### 解题思路
+//     熟悉列表，字符串等基本的Java语法。
+// ### 代码
 
-```java
+// ```java
 class Solution {
     public List<String> fizzBuzz(int n) {
         //比较简单的题，熟悉Java语法
@@ -23,4 +23,4 @@ class Solution {
         return result;
     }
 }
-```
+// ```

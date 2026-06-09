@@ -1,10 +1,10 @@
-### 解题思路
-模仿中文维基百科写的
-`https://zh.wikipedia.org/wiki/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F`
+// ### 解题思路
+// 模仿中文维基百科写的
+// `https://zh.wikipedia.org/wiki/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F`
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -101,5 +101,5 @@ public:
         return dummyHead->next;
     }
 };
-```
-想画个图来着，还有期末考试，算了，你们自己画吧
+// ```
+// 想画个图来着，还有期末考试，算了，你们自己画吧

@@ -1,9 +1,9 @@
-### 解题思路
-递归思路，动态规划还没看懂
+// ### 解题思路
+// 递归思路，动态规划还没看懂
 
-### 代码
+// ### 代码
 
-```cpp
+// ```cpp
 class Solution {
 public:
 	bool isMatch(string s, string p) {
@@ -38,4 +38,4 @@ public:
 		}
 	}
 };
-```
+// ```
